@@ -10,7 +10,8 @@
       "system_kits": [],
       "test_list": [
         "//test/xts/acts:acts",
-        "//test/xts/hats:hats"
+        "//test/xts/hats:hats",
+        "//test/xts/hats:hits"
       ]
     },
     "ivi_tests": {
