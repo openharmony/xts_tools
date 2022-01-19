@@ -11,7 +11,7 @@
       "test_list": [
         "//test/xts/acts:acts",
         "//test/xts/hats:hats",
-        "//test/xts/hats:hits"
+        "//test/xts/hits:hits"
       ]
     },
     "ivi_tests": {
