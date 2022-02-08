@@ -22,6 +22,7 @@ declare_args() {
   ACTS_ROOT = "//test/xts/acts"
   HATS_ROOT = "//test/xts/hats"
   HITS_ROOT = "//test/xts/hits"
+
   # create testsuite archive is time-consuming, do it only if necessary
   make_archive = false
   XTS_SUITENAME = getenv("XTS_SUITENAME")
