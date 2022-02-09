@@ -465,7 +465,7 @@ template("js_hap_suite") {
   assert(defined(invoker.test_hap_name),
   "test_hap_name is required in target ${target_name}")
   if (defined(invoker.deps)) {
-    _deps + invoker.deps
+    _deps = invoker.deps
   }
   target("ohos_testsuite_base", "${target_name}") {
     forward_variables_from(invoker, "*")
