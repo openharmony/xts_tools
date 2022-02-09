@@ -460,10 +460,8 @@ template("executable_suite") {
 }
 
 template("js_hap_suite") {
-  assert(defined(invoker.hap_source_path),
-  "hap_source_path is required in target ${target_name}")
-  assert(defined(invoker.test_hap_name),
-  "test_hap_name is required in target ${target_name}")
+  assert(defined(invoker.hap_source_path), "hap_source_path is required in target ${target_name}")
+  assert(defined(invoker.test_hap_name), "test_hap_name is required in target ${target_name}")
   if (defined(invoker.deps)) {
     _deps = invoker.deps
   }
