@@ -21,6 +21,7 @@ declare_args() {
   XTS_ROOT = "//test/xts"
   ACTS_ROOT = "//test/xts/acts"
   HATS_ROOT = "//test/xts/hats"
+  HITS_ROOT = "//test/xts/hits"
 
   # create testsuite archive is time-consuming, do it only if necessary
   make_archive = false
