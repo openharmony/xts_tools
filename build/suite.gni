@@ -115,6 +115,10 @@ template("ohos_testsuite_base") {
     if (defined(invoker.deps)) {
       _deps = invoker.deps
     }
+  } else if (_project_type == "js_test_hap") {
+    _hap_name = invoker.test_hap_name
+    _archive_filename = "${_hap_name}.hap"
+    _output_file = invoker.hap_source_path
   }
 
   _apilibrary_deps = ""
@@ -124,7 +128,7 @@ template("ohos_testsuite_base") {
     }
   }
 
-  if (_project_type != "pythontest") {
+  if (_project_type != "pythontest" && _project_type != "js_test_hap") {
     _deps = [ ":module_${target_name}" ]
   } else {
     _deps = []
@@ -452,5 +456,19 @@ template("executable_suite") {
     if (defined(invoker.output_extension)) {
       output_extension = invoker.output_extension
     }
+  }
+}
+
+template("js_hap_suite") {
+  assert(defined(invoker.hap_source_path),
+  "hap_source_path is required in target ${target_name}")
+  assert(defined(invoker.test_hap_name),
+  "test_hap_name is required in target ${target_name}")
+  if (defined(invoker.deps)) {
+    _deps + invoker.deps
+  }
+  target("ohos_testsuite_base", "${target_name}") {
+    forward_variables_from(invoker, "*")
+    project_type = "js_test_hap"
   }
 }
