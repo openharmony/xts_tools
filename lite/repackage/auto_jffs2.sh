@@ -98,12 +98,12 @@ then
     # 将镜像文件写入块设备 
     dd if=$old_img_path of=$mtd_device
     mount -t jffs2 $mtd_device $mount_dir
-    chmod -R 777 $mount_dir
+    chmod -R 755 $mount_dir
     echo "$mtd_device 挂在到本地成功"
 else
     dd if=$old_img_path of=$mtd_device
     mount -t jffs2 $mtd_device $mount_dir
-    chmod -R 777 $mount_dir
+    chmod -R 755 $mount_dir
     echo "$mtd_device 挂在到本地成功"
 fi
 
@@ -125,7 +125,7 @@ done
 
 # 制作jffs2镜像文件
 /usr/sbin/mkfs.jffs2 -q -d $mount_dir -o $output_filepath
-chmod 777 $output_filepath
+chmod 755 $output_filepath
 echo "新镜像 $output_filepath 制作成功"
 # 卸载块设备
 umount $mount_dir
