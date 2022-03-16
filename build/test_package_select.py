@@ -43,6 +43,8 @@ def filter_modules(subsystem_data_file, test_packages):
             rslash_index = dep.find('/acts')
         if rslash_index < 0:
             rslash_index = dep.find('/hats')
+        if rslash_index < 0:
+            rslash_index = dep.find('/dcts')
         colon_index = dep.find(':')
         if rslash_index < 0 or colon_index < 0:
             continue
