@@ -163,6 +163,8 @@ class SuiteModuleWithTestbundleBuilder:
         parser.add_argument('--build_target_name', help='', required=True)
         parser.add_argument('--subsystem_name', help='', 
                             required=False)
+        parser.add_argument('--part_name', help='', 
+                            required=False)
         parser.add_argument('--buildgen_testfile', help='', required=True)
         parser.add_argument('--project_path', help='', required=True)
         parser.add_argument('--test_xml', help='', required=False)
@@ -209,6 +211,9 @@ class SuiteModuleWithTestbundleBuilder:
         self._record_testmodule_info(args.build_target_name,
                                      _testsuite_name,
                                      _testcases_dir)
+        self._record_testpart_info(args.build_target_name,
+                                     _testsuite_name,
+                                     _testcases_dir,args.subsystem_name,args.part_name)
         if _test_xml and os.path.exists(_test_xml):
             self._copy_file(_test_xml, _config_file)
         elif _test_xml.replace(".xml", ".json") and \
@@ -246,6 +251,20 @@ class SuiteModuleWithTestbundleBuilder:
         with open(module_info_list_file, 'w') as file_write:
             file_write.write('\n'.join(new_lines) + '\n')
 
+    @staticmethod
+    def _record_testpart_info(build_target_name, module_name, testcases_dir, subsystem_name, part_name):
+        if not build_target_name or not module_name:
+            raise ValueError(
+                    'Ethire build_target_name or module_name is invalid')
+
+        module_info_file = os.path.join(testcases_dir, module_name+'.moduleInfo')
+
+        if os.path.exists(module_info_file):
+            return
+        module_info_data = {'subsystem': subsystem_name, 'part': part_name,
+                            'module': module_name}
+        with open(module_info_file, 'w') as out_file:
+            json.dump(module_info_data, out_file)
 
     @staticmethod
     def _generate_json_by_template(source_file, module_name, dest_file):
