@@ -33,10 +33,37 @@ template("ohos_testsuite_base") {
   assert(defined(invoker.project_type),
          "project_type is required in target ${target_name}")
 
-  _project_type = invoker.project_type
-  _subsystem_name = ""
+  _part_name = "common"
+  _subsystem_name = "common"
+  if (defined(invoker.part_name)) {
+    _part_name = invoker.part_name
+  }
   if (defined(invoker.subsystem_name)) {
     _subsystem_name = invoker.subsystem_name
+  }
+  _project_type = invoker.project_type
+
+  if (defined(invoker.subsystem_name)) {
+    _subsystem_name = invoker.subsystem_name
+  }
+
+  _build_part_boolean = false
+  tmp_subsystem_part = "${_subsystem_name}_${_part_name}"
+  _part_script_judge = "//test/xts/tools/build/judgePart.py"
+  _script_judge_args1 = [
+    rebase_path("$preloader_output_dir") + "/${product_name}/parts_config.json",
+    tmp_subsystem_part,
+    "judgePart",
+  ]
+  _build_part_boolean_str = exec_script(rebase_path(_part_script_judge),
+                                        _script_judge_args1,
+                                        "trim string")
+  if (_build_part_boolean_str == "True") {
+    _build_part_boolean = true
+  }
+
+  if (_subsystem_name == "kernel" || _subsystem_name == "common") {
+    _build_part_boolean = true
   }
 
   _test_files = ""
@@ -63,18 +90,20 @@ template("ohos_testsuite_base") {
   if (_project_type == "gtest" || _project_type == "ctestbundle") {
     _output_file = "${_output_file_dir}/${target_name}"
     _archive_filename = "${target_name}"
-
-    target("ohos_moduletest", "module_${target_name}") {
-      forward_variables_from(invoker, "*")
-      testonly = true
+    if (_build_part_boolean == true) {
+      target("ohos_moduletest", "module_${target_name}") {
+        forward_variables_from(invoker, "*")
+        testonly = true
+      }
     }
   } else if (_project_type == "zunit" || _project_type == "javatestbundle") {
     _output_file = "${_output_file_dir}/module_${target_name}.dex"
     _archive_filename = "${target_name}.dex"
-
-    target("ohos_java_moduletest", "module_${target_name}") {
-      forward_variables_from(invoker, "*")
-      testonly = true
+    if (_build_part_boolean == true) {
+      target("ohos_java_moduletest", "module_${target_name}") {
+        forward_variables_from(invoker, "*")
+        testonly = true
+      }
     }
   } else if (_project_type == "hostjunit") {
     _output_file = "${_output_file_dir}/module_${target_name}.jar"
@@ -82,10 +111,11 @@ template("ohos_testsuite_base") {
       _output_file = invoker.final_jar_path
     }
     _archive_filename = "${target_name}.jar"
-
-    target("java_library", "module_${target_name}") {
-      forward_variables_from(invoker, "*")
-      is_host_library = true
+    if (_build_part_boolean == true) {
+      target("java_library", "module_${target_name}") {
+        forward_variables_from(invoker, "*")
+        is_host_library = true
+      }
     }
   } else if (_project_type == "testhap" || _project_type == "haptestbundle") {
     assert(defined(invoker.hap_name),
@@ -97,12 +127,27 @@ template("ohos_testsuite_base") {
     _final_hap_path = "${SUITES_OUTPUT_ROOT}/haps/${_hap_name}.hap"
     _output_file = _final_hap_path
     _archive_filename = "${_hap_name}.hap"
-
-    target("ohos_hap", "module_${target_name}") {
-      forward_variables_from(invoker, "*")
-      subsystem_name = XTS_SUITENAME
-      final_hap_path = _final_hap_path
-      testonly = true
+    if (_build_part_boolean == true) {
+      target("ohos_hap", "module_${target_name}") {
+        forward_variables_from(invoker, "*")
+        subsystem_name = XTS_SUITENAME
+        final_hap_path = _final_hap_path
+        testonly = true
+      }
+    } else {
+      print(tmp_subsystem_part + " is not build")
+      if (defined(invoker.certificate_profile)) {
+        print(invoker.certificate_profile)
+      }
+      if (defined(invoker.ets2abc)) {
+        print(invoker.ets2abc)
+      }
+      if (defined(invoker.deps)) {
+        print(invoker.deps)
+      }
+      if (defined(invoker.hap_profile)) {
+        print(invoker.hap_profile)
+      }
     }
   } else if (_project_type == "pythontest") {
     if (defined(invoker.outputs_dir)) {
@@ -120,6 +165,7 @@ template("ohos_testsuite_base") {
     _hap_name = invoker.test_hap_name
     _archive_filename = "${_hap_name}.hap"
     _output_file = invoker.hap_source_path
+    _archive_filename = "${_hap_name}.hap"
   }
 
   _apilibrary_deps = ""
@@ -135,6 +181,8 @@ template("ohos_testsuite_base") {
     _deps = []
   }
   _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
+
+  #_archive_testfile = "${_suite_out_dir}/testcases/${_subsystem_name}/${_part_name}/${_archive_filename}"
   _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
   _arguments = [
     "build_module_with_testbundle",
@@ -162,7 +210,12 @@ template("ohos_testsuite_base") {
       _subsystem_name,
     ]
   }
-
+  if (_part_name != "") {
+    _arguments += [
+      "--part_name",
+      _part_name,
+    ]
+  }
   if (_apilibrary_deps != "") {
     _arguments += [
       "--apilibrary_deps",
@@ -176,13 +229,22 @@ template("ohos_testsuite_base") {
       _test_files,
     ]
   }
-
-  action(target_name) {
-    deps = _deps
-    script = rebase_path("//test/xts/tools/build/suite.py")
-    args = _arguments
-    outputs = [ _archive_testfile ]
-    testonly = true
+  if (_build_part_boolean == true) {
+    action(target_name) {
+      deps = _deps
+      script = rebase_path("//test/xts/tools/build/suite.py")
+      args = _arguments
+      outputs = [ _archive_testfile ]
+      testonly = true
+    }
+  } else {
+    action(target_name) {
+      script = rebase_path("//test/xts/tools/build/judgePart.py")
+      args = _arguments
+      outputs = [ "${_suite_out_dir}/testcases/${_archive_filename}" ]
+      testonly = true
+    }
+    print(_deps)
   }
 }
 
@@ -232,7 +294,8 @@ template("ohos_js_hap_suite") {
   target("ohos_testsuite_base", "${target_name}") {
     forward_variables_from(invoker, "*")
     project_type = "testhap"
-    js_build_mode = "debug"
+
+    #js_build_mode = "debug"
   }
 }
 
