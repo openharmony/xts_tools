@@ -43,10 +43,6 @@ template("ohos_testsuite_base") {
   }
   _project_type = invoker.project_type
 
-  if (defined(invoker.subsystem_name)) {
-    _subsystem_name = invoker.subsystem_name
-  }
-
   _build_part_boolean = false
   tmp_subsystem_part = "${_subsystem_name}_${_part_name}"
   _part_script_judge = "//test/xts/tools/build/judgePart.py"
@@ -117,18 +113,28 @@ template("ohos_testsuite_base") {
         is_host_library = true
       }
     }
-  } else if (_project_type == "testhap" || _project_type == "haptestbundle") {
+  } else if (_project_type == "testhap" || _project_type == "haptestbundle" ||
+             _project_type == "testhapassist") {
     assert(defined(invoker.hap_name),
            "hap_name is required in target ${target_name}")
     assert(!defined(invoker.final_hap_path),
            "please use hap_name instead of final_hap_path")
 
     _hap_name = invoker.hap_name
-    _final_hap_path = "${SUITES_OUTPUT_ROOT}/haps/${_hap_name}.hap"
+    _final_hap_path = ""
+    _target_name = ""
+    if (_project_type == "testhapassist") {
+      _final_hap_path =
+          "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/testcases/${_hap_name}.hap"
+      _target_name = target_name
+    } else {
+      _final_hap_path = "${SUITES_OUTPUT_ROOT}/haps/${_hap_name}.hap"
+      _target_name = "module_${target_name}"
+    }
     _output_file = _final_hap_path
     _archive_filename = "${_hap_name}.hap"
     if (_build_part_boolean == true) {
-      target("ohos_hap", "module_${target_name}") {
+      target("ohos_hap", _target_name) {
         forward_variables_from(invoker, "*")
         subsystem_name = XTS_SUITENAME
         final_hap_path = _final_hap_path
@@ -136,6 +142,7 @@ template("ohos_testsuite_base") {
       }
     } else {
       print(tmp_subsystem_part + " is not build")
+      print(_target_name)
       if (defined(invoker.certificate_profile)) {
         print(invoker.certificate_profile)
       }
@@ -147,6 +154,9 @@ template("ohos_testsuite_base") {
       }
       if (defined(invoker.hap_profile)) {
         print(invoker.hap_profile)
+      }
+      if (defined(invoker.testonly)) {
+        print(invoker.testonly)
       }
     }
   } else if (_project_type == "pythontest") {
@@ -163,7 +173,6 @@ template("ohos_testsuite_base") {
     }
   } else if (_project_type == "js_test_hap") {
     _hap_name = invoker.test_hap_name
-    _archive_filename = "${_hap_name}.hap"
     _output_file = invoker.hap_source_path
     _archive_filename = "${_hap_name}.hap"
   }
@@ -182,8 +191,13 @@ template("ohos_testsuite_base") {
   }
   _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
 
-  #_archive_testfile = "${_suite_out_dir}/testcases/${_subsystem_name}/${_part_name}/${_archive_filename}"
-  _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
+  _archive_testfile = ""
+  if (_project_type == "testhapassist") {
+    _archive_testfile =
+        "${_suite_out_dir}/testcases/module_${_archive_filename}"
+  } else {
+    _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
+  }
   _arguments = [
     "build_module_with_testbundle",
     "--build_gen_dir",
@@ -229,7 +243,7 @@ template("ohos_testsuite_base") {
       _test_files,
     ]
   }
-  if (_build_part_boolean == true) {
+  if (_build_part_boolean == true && _project_type != "testhapassist") {
     action(target_name) {
       deps = _deps
       script = rebase_path("//test/xts/tools/build/suite.py")
@@ -237,13 +251,15 @@ template("ohos_testsuite_base") {
       outputs = [ _archive_testfile ]
       testonly = true
     }
-  } else {
+  } else if (_build_part_boolean == false) {
     action(target_name) {
       script = rebase_path("//test/xts/tools/build/judgePart.py")
       args = _arguments
-      outputs = [ "${_suite_out_dir}/testcases/${_archive_filename}" ]
+      outputs = [ _archive_testfile ]
       testonly = true
     }
+    print(_deps)
+  } else {
     print(_deps)
   }
 }
@@ -534,5 +550,12 @@ template("js_hap_suite") {
   target("ohos_testsuite_base", "${target_name}") {
     forward_variables_from(invoker, "*")
     project_type = "js_test_hap"
+  }
+}
+
+template("ohos_hap_assist_suite") {
+  target("ohos_testsuite_base", target_name) {
+    forward_variables_from(invoker, "*")
+    project_type = "testhapassist"
   }
 }
