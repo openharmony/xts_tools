@@ -53,7 +53,8 @@ _SUB_SYSTEM_LIST = [
     "ai",
     "global",
     "telephony",
-    "dcts"
+    "dcts",
+    "distributeddatamgr"
 ]
 
 _NO_FILTE_SUB_SYSTEM_LIST = [
