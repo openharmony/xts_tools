@@ -91,6 +91,23 @@ template("ohos_testsuite_base") {
         forward_variables_from(invoker, "*")
         testonly = true
       }
+    } else {
+      print(tmp_subsystem_part + " is not build")
+      if (defined(invoker.public_configs)) {
+        print(invoker.public_configs)
+      }
+      if (defined(invoker.external_deps)) {
+        print(invoker.external_deps)
+      }
+      if (defined(invoker.deps)) {
+        print(invoker.deps)
+      }
+      if (defined(invoker.configs)) {
+        print(invoker.configs)
+      }
+      if (defined(invoker.sources)) {
+        print(invoker.sources)
+      }
     }
   } else if (_project_type == "zunit" || _project_type == "javatestbundle") {
     _output_file = "${_output_file_dir}/module_${target_name}.dex"
