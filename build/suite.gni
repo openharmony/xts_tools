@@ -47,7 +47,7 @@ template("ohos_testsuite_base") {
   tmp_subsystem_part = "${_subsystem_name}_${_part_name}"
   _part_script_judge = "//test/xts/tools/build/judgePart.py"
   _script_judge_args1 = [
-    rebase_path("$preloader_output_dir") + "/${product_name}/parts_config.json",
+    rebase_path("$preloader_output_dir") + "/parts_config.json",
     tmp_subsystem_part,
     "judgePart",
   ]
