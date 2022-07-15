@@ -39,7 +39,7 @@ _SUB_SYSTEM_LIST = [
     "utils",
     "multimedia",
     "hdf",
-    "aafwk",
+    "ability",
     "appexecfwk", 
     "distributed_schedule",
     "startup",
