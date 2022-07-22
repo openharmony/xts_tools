@@ -103,7 +103,7 @@ template("hctest_suite") {
     "//test/xts/tools/lite/hctest/include",
     "//third_party/unity/src",
     "//kernel/liteos_m/kal",
-    "//foundation/distributedschedule/samgr_lite/interfaces/kits/samgr",
+    "//foundation/systemabilitymgr/samgr_lite/interfaces/kits/samgr",
   ]
 
   _deps = [ "//test/xts/tools/lite/hctest:hctest" ]

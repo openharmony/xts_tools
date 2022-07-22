@@ -21,7 +21,7 @@ static_library("hctest") {
     "include",
     "//third_party/unity/src",
     "//utils/native/lite/include",
-    "//foundation/distributedschedule/samgr_lite/interfaces/kits/samgr",
+    "//foundation/systemabilitymgr/samgr_lite/interfaces/kits/samgr",
     "//base/startup/bootstrap_lite/services/source",
     "//base/startup/syspara_lite/interfaces/kits",
   ]
