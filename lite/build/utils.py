@@ -36,7 +36,7 @@ _SUB_SYSTEM_LIST = [
     "security",
     "update",
     "sstsutils",
-    "utils",
+    "commonlibrary",
     "multimedia",
     "hdf",
     "ability",
