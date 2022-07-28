@@ -45,7 +45,7 @@ _SUB_SYSTEM_LIST = [
     "startup",
     "sensors",
     "sample",
-    "iot_hardware",
+    "iothardware",
     "open_posix_testsuite",
     "graphic",
     "ace",
