@@ -76,16 +76,16 @@ class XDeviceBuilder:
         build xdevice package
         :return:
         """
-        extension_dir = os.path.join(self.args.source_dir, 'extension')
+        ohos_dir = os.path.join(self.args.source_dir, 'plugins', 'ohos')
         gen_dir0 = os.path.join(self.args.source_dir, 'dist')
-        gen_dir1 = os.path.join(extension_dir, 'dist')
+        gen_dir1 = os.path.join(ohos_dir, 'dist')
         shutil.rmtree(gen_dir0, ignore_errors=True)
         shutil.rmtree(gen_dir1, ignore_errors=True)
         command0 = ["python", "setup.py", "sdist"]
         command1 = ["python", "setup.py", "sdist"]
         try:
             subprocess.check_call(command0, cwd=self.args.source_dir)
-            subprocess.check_call(command1, cwd=extension_dir)
+            subprocess.check_call(command1, cwd=ohos_dir)
         except subprocess.CalledProcessError as exc:
             print('returncode: {} cmd: {} output: {}'.format(
                   exc.returncode, exc.cmd, exc.output))
