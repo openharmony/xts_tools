@@ -435,7 +435,7 @@ template("ohos_deploy_xdevice") {
     script = rebase_path("//test/xts/tools/build/suite.py")
     args = _args
     outputs = [
-      "${_suite_out_dir}/tools/xdevice-extension-0.0.0.tar.gz",
+      "${_suite_out_dir}/tools/xdevice-ohos-0.0.0.tar.gz",
       "${_suite_out_dir}/tools/xdevice-0.0.0.tar.gz",
       "${_suite_out_dir}/tools/run.sh",
       "${_suite_out_dir}/tools/run.bat",
