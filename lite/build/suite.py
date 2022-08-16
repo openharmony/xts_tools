@@ -178,6 +178,7 @@ class XDeviceBuilder:
         build xdevice package
         :return:
         """
+        ohos_dir = os.path.join(self.args.project_dir, 'plugins', 'ohos')
         command = [utils.get_python_cmd(), "setup.py", "install", "--user"]
         factory_script = os.path.join(self.args.project_dir, "factory.sh")
         if os.path.exists(factory_script):
@@ -185,11 +186,13 @@ class XDeviceBuilder:
             command = factory_script
         try:
             subprocess.check_call(command, cwd=self.args.project_dir)
+            subprocess.check_call(command, cwd=ohos_dir)
         except subprocess.CalledProcessError as exc:
             print('returncode: {} cmd: {} output: {}'.format(
                 exc.returncode, exc.cmd, exc.output))
 
         dist_dir = os.path.join(self.args.project_dir, 'dist')
+        ohos_dist_dir = os.path.join(ohos_dir, 'dist')
         run_scripts = ",".join(
             [os.path.join(self.args.project_dir, "run.bat"),
              os.path.join(self.args.project_dir, "run.sh")])
@@ -198,6 +201,8 @@ class XDeviceBuilder:
         for tool_dir in self.args.output_dirs.split(","):
             if tool_dir:
                 utils.copy_file(output=tool_dir, source_dirs=dist_dir,
+                                to_dir=True)
+                utils.copy_file(output=tool_dir, source_dirs=ohos_dist_dir,
                                 to_dir=True)
                 root_dir = os.path.dirname(tool_dir)
                 utils.copy_file(output=root_dir, sources=run_scripts,
