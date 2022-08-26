@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 # Copyright (c) 2020-2021 Huawei Device Co., Ltd.
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,12 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-BASE_HOME=$(dirname $(dirname $(dirname $(dirname $(cd `dirname $0`; pwd)))))
-PRODUCT=
-PLATFORM=
-TARGET=
-TARGET_PARAM=
-XTS=
+set -e
+
+BASE_HOME=$(dirname $(dirname $(dirname $(dirname $(cd $(dirname $0); pwd)))))
+PRODUCT=""
+XTS=""
 WIFIIOT_OUTFILE=Hi3861_wifiiot_app_allinone.bin
 DIST_DIR=$BASE_HOME/dist
 WIFIIOT_ACTS_MODULES="${WIFIIOT_ACTS_MODULES},//test/xts/acts/communication_lite/lwip_hal:ActsLwipTest"
@@ -55,7 +54,7 @@ usage()
 
 check_python()
 {
-  python_cmd=
+  python_cmd=""
   ver=$(python -c 'import platform; major, minor, patch = platform.python_version_tuple(); print(major);')
   if [ "$ver" = "3" ];then
     python_cmd=python
@@ -73,11 +72,14 @@ check_python()
 
 parse_cmdline()
 {
+  PLATFORM=""
+  TARGET=""
+  TARGET_PARAM=""
   while [ -n "$1" ]
   do
     var="$1"
-    OPTIONS=`echo ${var%%=*}`
-    PARAM=`echo ${var#*=}`
+    OPTIONS=$(echo ${var%%=*})
+    PARAM=$(echo ${var#*=})
     case "$OPTIONS" in
     product)   PRODUCT="$PARAM"
                ;;
@@ -127,10 +129,14 @@ build()
 	  cp -rf ${DIST_DIR}/acts ${suite_root_dir}
 	  cd $suite_root_dir
       zip -rv acts.zip acts
-      rm -rf $DIST_DIR
+      if [ -n "${DIST_DIR}" ]; then
+        rm -rf $DIST_DIR
+      fi
     else
 	  build_wifiiot $XTS $TARGET
-      rm -rf $DIST_DIR
+      if [ -n "${DIST_DIR}" ]; then
+        rm -rf $DIST_DIR
+      fi
     fi
   else
     python build.py ${PRODUCT}_${PLATFORM} -b debug --test xts $TARGET
@@ -152,10 +158,10 @@ build_wifiiot()
     for element in ${array[*]}
     do
       python build.py -p wifiiot_hispark_pegasus@hisilicon -f --test xts ${element} --gn-args build_xts=true
-      suite_build_target=`echo "${element}" | awk -F "[/:]" '{print $NF}'`
+      suite_build_target=$(echo "${element}" | awk -F "[/:]" '{print $NF}')
       module_list_file=$suite_out_dir/module_info.json
-      suite_module_name=`python test/xts/tools/lite/build/utils.py --method_name get_modulename_by_buildtarget --arguments module_list_file=${module_list_file}#build_target=${suite_build_target}`
-      subsystem_name=`python test/xts/tools/lite/build/utils.py --method_name get_subsystem_name --arguments path=${element}`
+      suite_module_name=$(python test/xts/tools/lite/build/utils.py --method_name get_modulename_by_buildtarget --arguments module_list_file=${module_list_file}#build_target=${suite_build_target})
+      subsystem_name=$(python test/xts/tools/lite/build/utils.py --method_name get_subsystem_name --arguments path=${element})
 	  
       python test/xts/tools/lite/build/utils.py --method_name record_testmodule_info --arguments build_target_name=${suite_module_name}#module_name=${suite_module_name}#subsystem_name=${subsystem_name}#suite_out_dir=${DIST_DIR}/json#same_file=True
 
