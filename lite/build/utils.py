@@ -88,7 +88,7 @@ def main():
         if len(key_value) != 2:
             raise ValueError(
                 "The arguments' format is 'key=value#key=value'. Wrong format:"
-                " " + argument)
+                " {}".format(argument))
         arguments.setdefault(key_value[0].strip(), key_value[1].strip())
     method(**arguments)
     return 0
@@ -189,12 +189,12 @@ def gen_suite_out(suite_output_prefix, suite_names, out_suffix):
 def get_subsystem_name(path):
     subsystem_name = ""
     for subsystem in _SUB_SYSTEM_LIST:
-        subsystem_path = "/" + subsystem + "/"
+        subsystem_path = "/{}/".format(subsystem)
         _path = path.lower()
         if subsystem_path in _path:
             subsystem_name = subsystem
             break
-        subsystem_path = "/" + subsystem + "_lite/"
+        subsystem_path = "/{}_lite/".format(subsystem)
         if subsystem_path in _path:
             subsystem_name = subsystem
             break
@@ -256,12 +256,12 @@ def filter_by_subsystem(testsuites, product_json):
 def get_subsystem_name_no_output(path):
     subsystem_name = ""
     for subsystem in _SUB_SYSTEM_LIST:
-        subsystem_path = "/" + subsystem
+        subsystem_path = "/{}".format(subsystem)
         _path = path.lower()
         if subsystem_path in _path:
             subsystem_name = subsystem
             break
-        subsystem_path = "/" + subsystem + "_lite"
+        subsystem_path = "/{}_lite".format(subsystem)
         if subsystem_path in _path:
             subsystem_name = subsystem
             break
