@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 # Copyright (c) 2021 Huawei Device Co., Ltd.
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,22 +12,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-BASE_HOME=$(dirname $(dirname $(cd `dirname $0`; pwd)))
-NFS_IP=
-NFS_PORT=
-NFS_ROOT=/data/nfsuser/data
-NFS_USER=
-NFS_PWD=
-USER=
-DEVICE=
-DEVICE_IP=
-DEVICE_PORT=
-NFS_DIR=
-MODULE=
-TEST_FILE_NAME=
-PRODUCT=
-SUITE_OUT=
-MODULE_FILES=
+set -e
+
+BASE_HOME=$(dirname $(dirname $(cd $(dirname $0); pwd)))
+NFS_IP=""
+NFS_PORT=""
+NFS_ROOT_TMP=""
+NFS_ROOT=$NFS_ROOT_TMP/data/nfsuser/data
+NFS_USER=""
+NFS_PWD=""
+USER=""
+DEVICE=""
+MODULE=""
+TEST_FILE_NAME=""
+PRODUCT=""
 
 usage()
 {
@@ -48,18 +46,23 @@ usage()
 
 parse_cmdline()
 {
+    SUITE_OUT=""
+    DEVICE_IP=""
+    DEVICE_PORT=""
+    NFS_DIR=""
+    MODULE_FILES=""
     while [ -n "$1" ]
     do
         var="$1"
-        OPTIONS=`echo ${var%%=*}`
-        PARAM=`echo ${var#*=}`
+        OPTIONS=$(echo ${var%%=*})
+        PARAM=$(echo ${var#*=})
         case "$OPTIONS" in
         user)      USER="$PARAM"
                    NFS_DIR=$NFS_ROOT/$USER/
                    ;;
         device)    DEVICE="$PARAM"
-                   DEVICE_IP=`echo ${PARAM%%:*}`
-                   DEVICE_PORT=`echo ${PARAM#*:}`
+                   DEVICE_IP=$(echo ${PARAM%%:*})
+                   DEVICE_PORT=$(echo ${PARAM#*:})
                    ;;
         module)    MODULE="$PARAM"
                    ;;
@@ -101,27 +104,24 @@ parse_cmdline()
         exit 1
     fi
     SUITE_OUT="${BASE_HOME}/out/${PRODUCT}_${PLATFORM}/suites"
-}
 
-check_environment()
-{
-  if ! [ -x "$(command -v sshpass)" ]; then
-    echo "Please run 'sudo apt-get install sshpass' first."
-    exit 1
-  fi
-  local suite_zip=$(basename "$(find $SUITE_OUT -name *.zip)")
-  if [ -z "$suite_zip" ];then
-    echo "Please run xts/tools/build.sh to build target first"
-    exit 1
-  fi
-  local suite_name=$(echo ${suite_zip%%.*})
-  SUITE_OUT=$SUITE_OUT/$suite_name
-  MODULE_FILES=$(find $SUITE_OUT/testcases -name ${MODULE}*)
-  if [ -z "${MODULE_FILES}" ];then
-    echo "Can not find the target: ${MODULE}"
-    echo "Please run xts/tools/build.sh to build target first"
-    exit 1
-  fi
+    if ! [ -x "$(command -v sshpass)" ]; then
+      echo "Please run 'sudo apt-get install sshpass' first."
+      exit 1
+    fi
+    local suite_zip=$(basename "$(find $SUITE_OUT -name *.zip)")
+    if [ -z "$suite_zip" ];then
+      echo "Please run xts/tools/build.sh to build target first"
+      exit 1
+    fi
+    local suite_name=$(echo ${suite_zip%%.*})
+    SUITE_OUT=$SUITE_OUT/$suite_name
+    MODULE_FILES=$(find $SUITE_OUT/testcases -name ${MODULE}*)
+    if [ -z "${MODULE_FILES}" ];then
+      echo "Can not find the target: ${MODULE}"
+      echo "Please run xts/tools/build.sh to build target first"
+      exit 1
+    fi
 }
 
 copy_files_to_nfs()
@@ -150,7 +150,6 @@ run_test()
 }
 
 parse_cmdline $@
-check_environment
 copy_files_to_nfs
 set_environment
 run_test
