@@ -248,6 +248,7 @@ class SuiteModuleWithTestbundleBuilder:
             new_lines.append(line)
     
         # add module info
+        new_lines.sort()
         with open(module_info_list_file, 'w') as file_write:
             file_write.write('\n'.join(new_lines) + '\n')
 
