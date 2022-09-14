@@ -411,7 +411,7 @@ template("ohos_deploy_xdevice") {
   _args = [
     "build_xdevice",
     "--source_dir",
-    rebase_path("//test/xdevice"),
+    rebase_path("//test/testfwk/xdevice"),
     "--suite_out_dir",
     rebase_path(_suite_out_dir),
   ]
