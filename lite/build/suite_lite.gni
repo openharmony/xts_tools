@@ -99,7 +99,7 @@ template("testsuite_base") {
 
 template("hctest_suite") {
   _include_dirs = [
-    "//utils/native/lite/include",
+    "//commonlibrary/utils_lite/include",
     "//test/xts/tools/lite/hctest/include",
     "//third_party/unity/src",
     "//kernel/liteos_m/kal",
