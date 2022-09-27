@@ -27,6 +27,7 @@ def filter_modules(subsystem_data_file, test_packages):
         subsystems = set(subsystem_data)
     subsystems.add("demo")
     subsystems.add("storage")
+    subsystems.add("arkXtest")
     selected_packages = []
     for dep in test_packages:
         if 'selected_subsystem=' in dep:
