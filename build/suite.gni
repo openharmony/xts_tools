@@ -203,6 +203,8 @@ template("ohos_testsuite_base") {
 
   if (_project_type != "pythontest" && _project_type != "js_test_hap") {
     _deps = [ ":module_${target_name}" ]
+  } else if (_project_type == "pythontest") {
+    print("this is pythontest")
   } else {
     _deps = []
   }
