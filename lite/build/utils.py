@@ -223,7 +223,6 @@ def glob(path, filename_pattern):
 
 
 def filter_by_subsystem(testsuites, product_json):
-    #print(" utils filter_by_subsystem is start...........")
     product_info = {}
     filtered_features = []
     subs_comps = {}
@@ -236,7 +235,6 @@ def filter_by_subsystem(testsuites, product_json):
             print("NO json object could be decoded.")
         subsystem_info = product_info.get("subsystems")
         for subsystem in subsystem_info:
-            #print("subsystem {} components {}".format(subsystem.get("subsystem"),subsystem.get("components")))
             subs_comps[subsystem.get("subsystem")] = \
                 subsystem.get("components", [])
 
@@ -252,8 +250,6 @@ def filter_by_subsystem(testsuites, product_json):
             if check_component(feature, components):
                 filtered_features.append(feature)
                 print(feature)
-    #print("feature: {}".format(feature))
-    #print("utils filter_by_subsystem is end .........")
     return filtered_features
 
 
