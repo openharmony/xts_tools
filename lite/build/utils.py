@@ -386,7 +386,8 @@ def check_env():
     else:
         return True
 
-def generate_allinone_testjson_by_template(tmpl_file, module_name, product_name,config_file):
+
+def generate_allinone_testjson_by_template(tmpl_file, module_name, product_name, config_file):
     if not os.path.exists(tmpl_file):
         raise Exception(
             "Can't find the Test.json or Test.tmpl in the "
@@ -396,6 +397,7 @@ def generate_allinone_testjson_by_template(tmpl_file, module_name, product_name,
     values = {"module": module_name, "product": product_name}
     xml_content = Template(tmpl_content).substitute(values)
     write_file(config_file, xml_content, False)
+
 
 if __name__ == '__main__':
     sys.exit(main())
