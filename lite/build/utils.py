@@ -26,7 +26,7 @@ import subprocess
 import distutils.dir_util as dir_util
 import distutils.file_util as file_util
 from distutils.errors import DistutilsError
-
+from string import Template
 
 # all sub system list, must be lowercase.
 _SUB_SYSTEM_LIST = [
@@ -223,6 +223,7 @@ def glob(path, filename_pattern):
 
 
 def filter_by_subsystem(testsuites, product_json):
+    #print(" utils filter_by_subsystem is start...........")
     product_info = {}
     filtered_features = []
     subs_comps = {}
@@ -235,6 +236,7 @@ def filter_by_subsystem(testsuites, product_json):
             print("NO json object could be decoded.")
         subsystem_info = product_info.get("subsystems")
         for subsystem in subsystem_info:
+            #print("subsystem {} components {}".format(subsystem.get("subsystem"),subsystem.get("components")))
             subs_comps[subsystem.get("subsystem")] = \
                 subsystem.get("components", [])
 
@@ -250,6 +252,8 @@ def filter_by_subsystem(testsuites, product_json):
             if check_component(feature, components):
                 filtered_features.append(feature)
                 print(feature)
+    #print("feature: {}".format(feature))
+    #print("utils filter_by_subsystem is end .........")
     return filtered_features
 
 
@@ -385,5 +389,17 @@ def check_env():
             return False
     else:
         return True
+
+def generate_allinone_testjson_by_template(tmpl_file, module_name, product_name,config_file):
+    if not os.path.exists(tmpl_file):
+        raise Exception(
+            "Can't find the Test.json or Test.tmpl in the "
+            "path %s " % os.path.dirname(
+                test_xml))
+    tmpl_content = read_file(tmpl_file)
+    values = {"module": module_name, "product": product_name}
+    xml_content = Template(tmpl_content).substitute(values)
+    write_file(config_file, xml_content, False)
+
 if __name__ == '__main__':
     sys.exit(main())
