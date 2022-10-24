@@ -147,9 +147,7 @@ build()
     mkdir -p ${xts_root_dir}/testcases/${PRODUCT}
     cp -f ${BASE_HOME}/out/${PRODUCT}/${PRODUCT}/OHOS_Image_allinone.bin ${suite_root_dir}/acts/testcases/${PRODUCT}/OHOS_Image_allinone.bin
     python test/xts/tools/lite/build/utils.py --method_name generate_allinone_testjson_by_template --arguments tmpl_file=${BASE_HOME}/test/xts/acts/build_lite/Test.tmpl#module_name=OHOS_Image_allinone#product_name=${PRODUCT}#config_file=${xts_root_dir}/testcases/${PRODUCT}/OHOS_Image_allinone.json
-
       
-    
     cd $suite_root_dir
     rm -f ${suite_out_zip}
     zip -rv ${suite_out_zip} acts
