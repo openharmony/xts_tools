@@ -91,8 +91,8 @@ build_common()
     suite_out_zip_common="${xts_root_dir_common}.zip"
     python build.py -p ${PRODUCT}@${PLATFORM} -f --gn-args build_xts=true
     mkdir -p ${xts_root_dir_common}/testcases/${PRODUCT}
-    cp -f ${BASE_HOME}/out/${PRODUCT}/${PRODUCT}/OHOS_Image_allinone.bin ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image_allinone.bin
-    python test/xts/tools/lite/build/utils.py --method_name generate_allinone_testjson_by_template --arguments tmpl_file=${BASE_HOME}/test/xts/acts/build_lite/Test.tmpl#module_name=OHOS_Image_allinone#product_name=${PRODUCT}#config_file=${xts_root_dir_common}/testcases/${PRODUCT}/OHOS_Image_allinone.json
+    cp -f ${BASE_HOME}/out/${PRODUCT}/${PRODUCT}/OHOS_Image.bin ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image.bin
+    python test/xts/tools/lite/build/utils.py --method_name generate_allinone_testjson_by_template --arguments tmpl_file=${BASE_HOME}/test/xts/acts/build_lite/Test.tmpl#module_name=OHOS_Image#product_name=${PRODUCT}#config_file=${xts_root_dir_common}/testcases/${PRODUCT}/OHOS_Image.json
       
     cd $suite_root_dir_common
     rm -f ${suite_out_zip_common}
