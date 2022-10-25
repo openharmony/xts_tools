@@ -67,7 +67,7 @@ parse_cmdline()
     usage
   fi
   if [ "$PRODUCT" = "wifiiot" ];then
-    PLATFORM="hi3861v100_liteos_riscv"
+    #PLATFORM="hi3861v100_liteos_riscv"
     if [ "$TARGET" = "" ];then
 	  if [ "$XTS" = "acts" ];then
          TARGET=$WIFIIOT_ACTS_MODULES
@@ -89,7 +89,7 @@ build()
   out_dir="${BASE_HOME}/out/hispark_pegasus/wifiiot_hispark_pegasus"
   suite_root_dir="${out_dir}/suites"
   cd $BASE_HOME
-  if [ "$PRODUCT" = "wifiiot" ]; then
+  if [[ "$PRODUCT" == "wifiiot" && "$PLATFORM" == "" ]]; then
     if [ "$XTS" = "all" ];then
 	  build_wifiiot "acts" $WIFIIOT_ACTS_MODULES
 	  build_wifiiot "hits" $WIFIIOT_HITS_MODULES
@@ -107,7 +107,7 @@ build()
     fi
   else
     #python build.py ${PRODUCT}_${PLATFORM} -b debug --test xts $TARGET
-    build_niobe407
+    build_common
   fi
 }
 
