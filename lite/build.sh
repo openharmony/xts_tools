@@ -17,7 +17,8 @@ set -e
 BASE_HOME=$(dirname $(dirname $(dirname $(dirname $(cd $(dirname $0); pwd)))))
 PRODUCT=""
 XTS=""
-WIFIIOT_OUTFILE=Hi3861_wifiiot_app_allinone.bin
+#WIFIIOT_OUTFILE=Hi3861_wifiiot_app_allinone.bin
+WIFIIOT_OUTFILE=OHOS_Image.bin
 DIST_DIR=$BASE_HOME/dist
 WIFIIOT_ACTS_MODULES="${WIFIIOT_ACTS_MODULES},//test/xts/acts/communication_lite/lwip_hal:ActsLwipTest"
 #WIFIIOT_ACTS_MODULES="${WIFIIOT_ACTS_MODULES},//test/xts/acts/communication_lite/wifiservice_hal:ActsWifiServiceTest"
