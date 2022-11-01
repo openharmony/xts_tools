@@ -90,10 +90,14 @@ build_common()
     xts_root_dir_common="${suite_root_dir_common}/acts"
     suite_out_zip_common="${xts_root_dir_common}.zip"
     python build.py -p ${PRODUCT}@${PLATFORM} -f --gn-args build_xts=true
+    mv ${xts_root_dir_common}/testcases/test_component.json $xts_root_dir_common/test_component.json
+    mv ${xts_root_dir_common}/testcases/module_info.json $xts_root_dir_common/module_info.json
+    rm -rf ${xts_root_dir_common}/testcases
     mkdir -p ${xts_root_dir_common}/testcases/${PRODUCT}
     cp -f ${BASE_HOME}/out/${PRODUCT}/${PRODUCT}/OHOS_Image.bin ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image.bin
     python test/xts/tools/lite/build/utils.py --method_name generate_allinone_testjson_by_template --arguments tmpl_file=${BASE_HOME}/test/xts/acts/build_lite/Test.tmpl#module_name=OHOS_Image#product_name=${PRODUCT}#config_file=${xts_root_dir_common}/testcases/${PRODUCT}/OHOS_Image.json
-      
+    mv $xts_root_dir_common/test_component.json ${xts_root_dir_common}/testcases/test_component.json
+    mv $xts_root_dir_common/module_info.json ${xts_root_dir_common}/testcases/module_info.json
     cd $suite_root_dir_common
     rm -f ${suite_out_zip_common}
     zip -rv ${suite_out_zip_common} acts
