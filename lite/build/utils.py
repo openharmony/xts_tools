@@ -58,7 +58,6 @@ _SUB_SYSTEM_LIST = [
 ]
 
 _NO_FILTE_SUB_SYSTEM_LIST = [
-    "appexecfwk",
     "applications",
     "kernel",
     "open_posix_testsuite",
