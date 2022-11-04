@@ -88,7 +88,7 @@ build_common()
 {
     python build.py -p ${PRODUCT}@${PLATFORM} -f --gn-args build_xts=true
     find_dir_by_name "suites" "${BASE_HOME}/out" ${PRODUCT}
-    suite_root_dir_common="$dirPathFindByName"
+    suite_root_dir_common="$dir_path_find_by_name"
     xts_root_dir_common="${suite_root_dir_common}/acts"
     suite_out_zip_common="${xts_root_dir_common}.zip"
     mv ${xts_root_dir_common}/testcases/test_component.json $xts_root_dir_common/test_component.json
