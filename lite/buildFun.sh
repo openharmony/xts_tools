@@ -87,7 +87,7 @@ build_wifiiot()
 build_common()
 {
     python build.py -p ${PRODUCT}@${PLATFORM} -f --gn-args build_xts=true
-    findDirByName "suites" "${BASE_HOME}/out" ${PRODUCT}
+    find_dir_by_name "suites" "${BASE_HOME}/out" ${PRODUCT}
     suite_root_dir_common="$dirPathFindByName"
     xts_root_dir_common="${suite_root_dir_common}/acts"
     suite_out_zip_common="${xts_root_dir_common}.zip"
