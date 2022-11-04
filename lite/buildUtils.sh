@@ -13,17 +13,17 @@
 # limitations under the License.
 
 set -e
-findDirByName()
+find_dir_by_name()
 {
-  dirName=$1
-  findDirPath=$2
-  grepFiled=$3
-  pushd $findDirPath
-    dirNum=$(find . -name $dirName|grep $grepFiled|wc -l)
-    if [ $dirNum -eq 1 ];then
-      dirPathFindByName=$(pwd)/$(find . -name $dirName | grep $grepFiled)
+  dir_name=$1
+  find_dir_path=$2
+  grep_filed=$3
+  pushd $find_dir_path
+    dir_num=$(find . -name $dir_name|grep $grep_filed|wc -l)
+    if [ $dir_num -eq 1 ];then
+      dir_path_find_by_name=$(pwd)/$(find . -name $dir_name | grep $grep_filed)
     else
-      echo "find $dirName in out error !"
+      echo "find $dir_name in out error !"
       exit 1
     fi
   popd
