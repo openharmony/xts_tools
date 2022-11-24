@@ -41,7 +41,7 @@ static void Init(void)
     testService.flag = FALSE;
     SAMGR_GetInstance()->RegisterService((Service *)&testService);
 }
-SYS_SERVICE_INIT(Init);
+SYSEX_SERVICE_INIT_PRI(Init,4);
 static const char *GetName(Service *service)
 {
     (void)service;
