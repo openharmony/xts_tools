@@ -94,7 +94,11 @@ build_common()
     mv ${xts_root_dir_common}/testcases/test_component.json $xts_root_dir_common/test_component.json
     rm -rf ${xts_root_dir_common}/testcases
     mkdir -p ${xts_root_dir_common}/testcases/${PRODUCT}
-    cp -f $(dirname $suite_root_dir_common)/OHOS_Image.bin ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image.bin
+    if [[ "$PRODUCT" == "neptune_iotlink_demo" ]]; then
+      cp -f $(dirname $suite_root_dir_common)/OHOS_Image.fls ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image.fls
+    else
+      cp -f $(dirname $suite_root_dir_common)/OHOS_Image.bin ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image.bin
+    fi
     python test/xts/tools/lite/build/utils.py --method_name generate_allinone_testjson_by_template --arguments tmpl_file=${BASE_HOME}/test/xts/acts/build_lite/Test.tmpl#module_name=OHOS_Image#product_name=${PRODUCT}#config_file=${xts_root_dir_common}/testcases/${PRODUCT}/OHOS_Image.json
     mv $xts_root_dir_common/test_component.json ${xts_root_dir_common}/testcases/test_component.json
     echo "{}" > ${xts_root_dir_common}/testcases/module_info.json
