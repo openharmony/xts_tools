@@ -95,7 +95,7 @@ build_common()
     rm -rf ${xts_root_dir_common}/testcases
     mkdir -p ${xts_root_dir_common}/testcases/${PRODUCT}
     if [[ "$PRODUCT" == "neptune_iotlink_demo" ]]; then
-      cp -f $(dirname $suite_root_dir_common)/OHOS_Image.fls ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image.fls
+      cp -f $(dirname $suite_root_dir_common)/bin/hihope_neptune100.fls ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image.fls
     else
       cp -f $(dirname $suite_root_dir_common)/OHOS_Image.bin ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image.bin
     fi
