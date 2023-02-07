@@ -128,4 +128,3 @@ if __name__ == "__main__":
         print("Exception found after Test,please check faultlog path")
         raise Exception("Exception found after Test,please check faultlog path")
     logging.info("------------------------TEST END---------------------------")
-    # main()

@@ -58,4 +58,3 @@ def rebootTest():
 
 if __name__ == "__main__":
     rebootTest()
-    # main()
