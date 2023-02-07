@@ -223,7 +223,6 @@ class SuiteModuleWithTestbundleBuilder:
         else:
             self._generate_xml_by_template(_test_xml, _testsuite_name,
                                            _config_file)
-        #self._generate_testcase_xml(args)
         _resource_srcroot = _get_resource_rootpath(args.project_path)
         self._archive_test_file_to_testcase(_testcases_dir)
 
