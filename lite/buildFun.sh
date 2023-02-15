@@ -100,6 +100,8 @@ build_common()
     else
       if [[ "$PRODUCT" == "xts_demo" && "$PLATFORM" == "beken" ]]; then
         cp -f $(dirname $suite_root_dir_common)/build/all_2M.1220.bin ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image.bin
+      elif [[ "$PRODUCT" == "xts_demo" && "$PLATFORM" == "telink" ]]; then
+        cp -f $(dirname $suite_root_dir_common)/bin/xts_demo.bin ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image.bin
       else
         cp -f $(dirname $suite_root_dir_common)/OHOS_Image.bin ${suite_root_dir_common}/acts/testcases/${PRODUCT}/OHOS_Image.bin
       fi
