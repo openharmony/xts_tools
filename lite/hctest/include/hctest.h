@@ -22,6 +22,12 @@
 #include "unity.h"
 #include "hctest_internal.h"
 
+#ifdef __cplusplus
+#if __cplusplus
+extern "C" {
+#endif
+#endif
+
 #define CONST_EMPTY_STRING    ""
 #define CONST_STRING_SPACE    " "
 #define CONST_DOT_STRING      ","
