@@ -54,7 +54,8 @@ _SUB_SYSTEM_LIST = [
     "global",
     "telephony",
     "dcts",
-    "distributeddatamgr"
+    "distributeddatamgr",
+    "xts"
 ]
 
 _NO_FILTE_SUB_SYSTEM_LIST = [
@@ -70,7 +71,8 @@ _NO_FILTE_SUB_SYSTEM_LIST = [
     "update",
     "sstsutils",
     "hdf",
-    "distributed_schedule"
+    "distributed_schedule",
+    "xts"
 ]
 
 
