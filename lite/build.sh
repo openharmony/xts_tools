@@ -31,6 +31,7 @@ WIFIIOT_ACTS_MODULES="${WIFIIOT_ACTS_MODULES},//test/xts/acts/hiviewdfx_lite/hie
 WIFIIOT_ACTS_MODULES="${WIFIIOT_ACTS_MODULES},//test/xts/acts/distributed_schedule_lite/system_ability_manager_hal:ActsSamgrTest"
 WIFIIOT_ACTS_MODULES="${WIFIIOT_ACTS_MODULES},//test/xts/acts/update_lite/dupdate_hal:ActsUpdaterFuncTest"
 WIFIIOT_ACTS_MODULES="${WIFIIOT_ACTS_MODULES},//test/xts/acts/startup_lite/bootstrap_hal:ActsBootstrapTest"
+WIFIIOT_ACTS_MODULES="${WIFIIOT_ACTS_MODULES},//test/xts/acts/xts_lite/device_attest_lite/device_attestStart_hal:ActsDeviceAttestTest"
 
 error_report() {
     echo "Error on line $1"
