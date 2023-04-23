@@ -522,7 +522,7 @@ OpenHarmony支持如下几种设备类型：
 
 ## 相关仓<a name="section1371113476307"></a>
 
-[XTS认证子系统](https://gitee.com/openharmony/docs/blob/master/zh-cn/readme/XTS%E8%AE%A4%E8%AF%81%E5%AD%90%E7%B3%BB%E7%BB%9F.md)
+[XTS认证子系统](https://gitee.com/openharmony/docs/blob/master/zh-cn/readme/XTS%E5%AD%90%E7%B3%BB%E7%BB%9F.md)
 
 [xts\_acts](https://gitee.com/openharmony/xts_acts/blob/master/README_zh.md)
 
