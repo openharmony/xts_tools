@@ -101,10 +101,22 @@ class XDeviceBuilder:
                         to_dir=True)
         utils.copy_file(output=self.args.suite_out_dir, sources=run_scripts,
                         to_dir=True)
+        
+        acts_validator_dir = os.path.join(self.args.suite_out_dir, '../acts-validator')
+        acts_validator_tools_dir = os.path.join(self.args.suite_out_dir, '../acts-validator/tools')
+        utils.copy_file(output=acts_validator_tools_dir, source_dirs=gen_dir0,
+                        to_dir=True)
+        utils.copy_file(output=acts_validator_tools_dir, source_dirs=gen_dir1,
+                        to_dir=True)
+        utils.copy_file(output=acts_validator_dir, sources=run_scripts,
+                        to_dir=True)
 
         if self.args.configs_dir:
             dist_configs_dir = os.path.join(self.args.suite_out_dir, 'config')
+            acts_validator_config_dir = os.path.join(self.args.suite_out_dir, '../acts-validator/config')
             utils.copy_file(output=dist_configs_dir, 
+                            source_dirs=self.args.configs_dir, to_dir=True)
+            utils.copy_file(output=acts_validator_config_dir, 
                             source_dirs=self.args.configs_dir, to_dir=True)
         if self.args.resources_dir:
             dist_resources_dir = os.path.join(self.args.suite_out_dir,
