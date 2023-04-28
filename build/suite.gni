@@ -130,8 +130,7 @@ template("ohos_testsuite_base") {
         is_host_library = true
       }
     }
-  } 
-  else if (_project_type == "testhap" || _project_type == "haptestbundle" ||
+  } else if (_project_type == "testhap" || _project_type == "haptestbundle" ||
              _project_type == "testhapassist") {
     assert(defined(invoker.hap_name),
            "hap_name is required in target ${target_name}")
@@ -145,8 +144,7 @@ template("ohos_testsuite_base") {
       _final_hap_path =
           "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/testcases/${_hap_name}.hap"
       _target_name = target_name
-    }
-    else {
+    } else {
       _final_hap_path = "${SUITES_OUTPUT_ROOT}/haps/${_hap_name}.hap"
       _target_name = "module_${target_name}"
     }
@@ -216,19 +214,15 @@ template("ohos_testsuite_base") {
   if (_project_type == "testhapassist") {
     _archive_testfile =
         "${_suite_out_dir}/testcases/module_${_archive_filename}"
-  }
-  else if (_project_type == "testhap") {
-     _hap_name = invoker.hap_name
-         if (_hap_name == "ActsValidatorTest") {
-                _archive_testfile =
-                        "${SUITES_OUTPUT_ROOT}/acts-validator/testcases/module_${_archive_filename}"
-         }
-         else {
-                _archive_testfile =
-                        "${_suite_out_dir}/testcases/module_${_archive_filename}"
-         }
-  }
-  else {
+  } else if (_project_type == "testhap") {
+    _hap_name = invoker.hap_name
+    if (_hap_name == "ActsValidatorTest") {
+      _archive_testfile = "${SUITES_OUTPUT_ROOT}/acts-validator/testcases/module_${_archive_filename}"
+    } else {
+      _archive_testfile =
+          "${_suite_out_dir}/testcases/module_${_archive_filename}"
+    }
+  } else {
     _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
   }
   _arguments = [
