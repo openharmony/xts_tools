@@ -217,10 +217,10 @@ template("ohos_testsuite_base") {
   } else if (_project_type == "testhap") {
     _hap_name = invoker.hap_name
     if (_hap_name == "ActsValidatorTest") {
-      _archive_testfile = "${SUITES_OUTPUT_ROOT}/acts-validator/testcases/module_${_archive_filename}"
+      _archive_testfile = "${SUITES_OUTPUT_ROOT}/acts-validator/testcases/${_archive_filename}"
     } else {
       _archive_testfile =
-          "${_suite_out_dir}/testcases/module_${_archive_filename}"
+          "${_suite_out_dir}/testcases/${_archive_filename}"
     }
   } else {
     _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
