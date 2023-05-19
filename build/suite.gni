@@ -131,7 +131,7 @@ template("ohos_testsuite_base") {
       }
     }
   } else if (_project_type == "testhap" || _project_type == "haptestbundle" ||
-             _project_type == "testhapassist") {
+             _project_type == "testhapassist" || _project_type == "testapp") {
     assert(defined(invoker.hap_name),
            "hap_name is required in target ${target_name}")
     assert(!defined(invoker.final_hap_path),
@@ -151,29 +151,37 @@ template("ohos_testsuite_base") {
     _output_file = _final_hap_path
     _archive_filename = "${_hap_name}.hap"
     if (_build_part_boolean == true) {
-      target("ohos_hap", _target_name) {
-        forward_variables_from(invoker, "*")
-        subsystem_name = XTS_SUITENAME
-        final_hap_path = _final_hap_path
-        testonly = true
+      if (_project_type == "testapp") {
+        target("ohos_app", _target_name) {
+          forward_variables_from(invoker, "*")
+          subsystem_name = XTS_SUITENAME
+          final_hap_path = "${SUITES_OUTPUT_ROOT}/haps"
+          testonly = true
+        }
+      } else {
+        target("ohos_hap", _target_name) {
+          forward_variables_from(invoker, "*")
+          subsystem_name = XTS_SUITENAME
+          final_hap_path = _final_hap_path
+          testonly = true
+        }
       }
     } else {
       print(tmp_subsystem_part + " is not build")
-      print(_target_name)
       if (defined(invoker.certificate_profile)) {
-        print(invoker.certificate_profile)
+        not_needed(invoker, [ "certificate_profile" ])
       }
       if (defined(invoker.ets2abc)) {
-        print(invoker.ets2abc)
+        not_needed(invoker, [ "ets2abc" ])
       }
       if (defined(invoker.deps)) {
-        print(invoker.deps)
+        not_needed(invoker, [ "deps" ])
       }
       if (defined(invoker.hap_profile)) {
-        print(invoker.hap_profile)
+        not_needed(invoker, [ "hap_profile" ])
       }
       if (defined(invoker.testonly)) {
-        print(invoker.testonly)
+        not_needed(invoker, [ "testonly" ])
       }
     }
   } else if (_project_type == "pythontest") {
@@ -201,11 +209,12 @@ template("ohos_testsuite_base") {
     }
   }
 
-  if (_project_type != "pythontest" && _project_type != "js_test_hap") {
+  if (_project_type != "pythontest" && _project_type != "js_test_hap" &&
+      _project_type != "testhapassist") {
     _deps = [ ":module_${target_name}" ]
   } else if (_project_type == "pythontest") {
     print("this is pythontest")
-  } else {
+  } else if (_project_type != "testhapassist") {
     _deps = []
   }
   _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
@@ -286,8 +295,6 @@ template("ohos_testsuite_base") {
       testonly = true
     }
     print(_deps)
-  } else {
-    print(_deps)
   }
 }
 
@@ -339,6 +346,13 @@ template("ohos_js_hap_suite") {
     project_type = "testhap"
 
     #js_build_mode = "debug"
+  }
+}
+
+template("ohos_js_app_suite") {
+  target("ohos_testsuite_base", "${target_name}") {
+    forward_variables_from(invoker, "*")
+    project_type = "testapp"
   }
 }
 
