@@ -151,7 +151,7 @@ template("ohos_testsuite_base") {
     _output_file = _final_hap_path
     _archive_filename = "${_hap_name}.hap"
     if (_build_part_boolean == true) {
-      if(_project_type == "testapp") {
+      if (_project_type == "testapp") {
         target("ohos_app", _target_name) {
           forward_variables_from(invoker, "*")
           subsystem_name = XTS_SUITENAME
@@ -169,19 +169,19 @@ template("ohos_testsuite_base") {
     } else {
       print(tmp_subsystem_part + " is not build")
       if (defined(invoker.certificate_profile)) {
-        not_needed(invoker, ["certificate_profile"])
+        not_needed(invoker, [ "certificate_profile" ])
       }
       if (defined(invoker.ets2abc)) {
-        not_needed(invoker, ["ets2abc"])
+        not_needed(invoker, [ "ets2abc" ])
       }
       if (defined(invoker.deps)) {
-        not_needed(invoker, ["deps"])
+        not_needed(invoker, [ "deps" ])
       }
       if (defined(invoker.hap_profile)) {
-        not_needed(invoker, ["hap_profile"])
+        not_needed(invoker, [ "hap_profile" ])
       }
       if (defined(invoker.testonly)) {
-        not_needed(invoker, ["testonly"])
+        not_needed(invoker, [ "testonly" ])
       }
     }
   } else if (_project_type == "pythontest") {
@@ -209,7 +209,8 @@ template("ohos_testsuite_base") {
     }
   }
 
-  if (_project_type != "pythontest" && _project_type != "js_test_hap" && _project_type != "testhapassist") {
+  if (_project_type != "pythontest" && _project_type != "js_test_hap" &&
+      _project_type != "testhapassist") {
     _deps = [ ":module_${target_name}" ]
   } else if (_project_type == "pythontest") {
     print("this is pythontest")
