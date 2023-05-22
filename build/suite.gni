@@ -183,6 +183,9 @@ template("ohos_testsuite_base") {
       if (defined(invoker.testonly)) {
         not_needed(invoker, [ "testonly" ])
       }
+      if (defined(invoker.js_build_mode)) {
+        not_needed(invoker, [ "js_build_mode" ])
+      }
     }
   } else if (_project_type == "pythontest") {
     if (defined(invoker.outputs_dir)) {
