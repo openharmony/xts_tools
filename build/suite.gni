@@ -155,7 +155,7 @@ template("ohos_testsuite_base") {
         target("ohos_app", _target_name) {
           forward_variables_from(invoker, "*")
           subsystem_name = XTS_SUITENAME
-          final_hap_path = "${SUITES_OUTPUT_ROOT}/haps"
+          hap_out_dir = "${SUITES_OUTPUT_ROOT}/haps"
           testonly = true
         }
       } else {
@@ -182,6 +182,9 @@ template("ohos_testsuite_base") {
       }
       if (defined(invoker.testonly)) {
         not_needed(invoker, [ "testonly" ])
+      }
+      if (defined(invoker.js_build_mode)) {
+        not_needed(invoker, [ "js_build_mode" ])
       }
     }
   } else if (_project_type == "pythontest") {
@@ -294,7 +297,9 @@ template("ohos_testsuite_base") {
       outputs = [ _archive_testfile ]
       testonly = true
     }
-    print(_deps)
+    if (defined(_deps)) {
+      print(_deps)
+    }
   }
 }
 
