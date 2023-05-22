@@ -155,7 +155,7 @@ template("ohos_testsuite_base") {
         target("ohos_app", _target_name) {
           forward_variables_from(invoker, "*")
           subsystem_name = XTS_SUITENAME
-          final_hap_path = "${SUITES_OUTPUT_ROOT}/haps"
+          hap_out_dir = "${SUITES_OUTPUT_ROOT}/haps"
           testonly = true
         }
       } else {
@@ -294,7 +294,9 @@ template("ohos_testsuite_base") {
       outputs = [ _archive_testfile ]
       testonly = true
     }
-    print(_deps)
+    if (defined(_deps)) {
+      print(_deps)
+    }
   }
 }
 
