@@ -186,6 +186,12 @@ template("ohos_testsuite_base") {
       if (defined(invoker.js_build_mode)) {
         not_needed(invoker, [ "js_build_mode" ])
       }
+      if (defined(invoker.sdk_home)) {
+        not_needed(invoker, [ "sdk_home" ])
+      }
+      if (defined(invoker.sdk_type_name)) {
+        not_needed(invoker, [ "sdk_type_name" ])
+      }
     }
   } else if (_project_type == "pythontest") {
     if (defined(invoker.outputs_dir)) {
