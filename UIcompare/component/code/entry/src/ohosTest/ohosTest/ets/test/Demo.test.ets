@@ -1,0 +1,146 @@
+// @ts-nocheck
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium'
+import Settings from './model/Settings'
+import windowSnap from './model/snapShot'
+import Logger from './model/Logger'
+import {
+  UiComponent,
+  UiDriver,
+  Component,
+  Driver,
+  UiWindow,
+  ON,
+  BY,
+  MatchPattern,
+  DisplayRotation,
+  ResizeDirection,
+  WindowMode,
+  PointerMatrix
+} from '@ohos.UiTest';
+
+/*
+ * demoTest_001:更改page路由
+ * demoTest_002:更改page路由，像素密度
+ * demoTest_003:更改page路由，窗口大小，位置，像素密度
+ * demoTest_004:更改page路由，页面内元素属性
+ * demoTest_005:更改page路由，注入点击事件
+ *
+ * demoTest_004:更改属性需要配合页面路由配置globalThis.value.message
+ * demoTest_005:注入事件,引用'@ohos.UiTest',findComponent需要根据页面路由内组件配置情况更改
+ *
+ * Settings.createWindow(config.url)：
+ *  创建窗口，更改窗口基本配置，更改方式详见model/Settings createWindow方法
+ *
+ * windowSnap.snapShot(globalThis.context)：
+ *  窗口截屏&图片文件保存，存储在设备端
+ *  存储文件固定，单挑用例执行后覆盖，用于自动化UI对比
+ *  支持调试更改文件名为时间戳格式，更改model/snapShot createAndGetFile方法 注释L35，放开L32，L33
+ *
+ * Logger日志使用方法：
+ *  import Logger form './model/Logger'
+ *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
+ * */
+
+
+export default function demoTest() {
+
+  function sleep(time) {
+    return new Promise((resolve) => setTimeout(resolve, time))
+  }
+
+  describe('demoTest', function () {
+
+    afterEach(async function (done) {
+      if (Settings.windowClass == null) {
+        return
+      }
+
+      Settings.windowClass.destroyWindow((err) => {
+        if (err.code) {
+          Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
+          return;
+        }
+        Logger.info('TEST', `Succeeded in destroy the window.`);
+      })
+      await sleep(1000);
+      done()
+    })
+
+    it('demoTest_001',0,async function (done){
+      //更改page路由
+      let config={
+        uri:"testability/pages/demo",
+      }
+      Settings.createWindow(config.uri)
+      await sleep(1000)
+      windowSnap.snapShot(globalThis.context)
+      await sleep(1000)
+
+      done()
+    })
+
+    it('demoTest_002', 0, async function (done) {
+      // 更改page路由，像素密度
+      let config = {
+        uri: "testability/pages/demo",
+      }
+      Settings.createWindow(config.uri, {
+        dpi: 200
+      })
+      await sleep(1000);
+      windowSnap.snapShot(globalThis.context)
+      await sleep(1000);
+      done();
+    })
+
+    it('demoTest_003', 0, async function (done) {
+      // 更改page路由，窗口大小，位置，像素密度
+      let config = {
+        uri: "testability/pages/Index",
+      }
+      Settings.createWindow(config.uri, {
+        X: 200,
+        Y: 200,
+        width: 200,
+        height: 300,
+        dpi: 100
+      })
+      await sleep(1000);
+      windowSnap.snapShot(globalThis.context)
+      await sleep(1000);
+      done();
+    })
+
+    it('demoTest_004', 0, async function (done) {
+      //更改page路由，页面内元素属性
+      let config = {
+        uri: "testability/pages/demo",
+      }
+      Settings.createWindow(config.uri)
+      await sleep(1000)
+      globalThis.value.message.notify({
+        name: "fontColor", value: Color.Pink
+      })
+      await sleep(1000)
+      windowSnap.snapShot(globalThis.context)
+      await sleep(1000)
+      done()
+    })
+
+    it('demoTest_005', 0, async function (done) {
+      //更改page路由，注入点击事件
+      let config = {
+        uri: "testability/pages/demo",
+      }
+      Settings.createWindow(config.uri)
+      await sleep(1000)
+      let driver = await UiDriver.create()
+      let btn = await driver.findComponent(BY.key('button_demo'))
+      await sleep(1000)
+      await btn.click()
+      windowSnap.snapShot(globalThis.context)
+      await sleep(1000)
+      done()
+    })
+  })
+}
