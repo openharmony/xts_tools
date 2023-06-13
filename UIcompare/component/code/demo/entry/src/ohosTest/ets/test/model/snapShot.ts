@@ -21,17 +21,19 @@ const INFO = {
         mediaType: mediaLibrary.MediaType.FILE
     }
 }
-
+/*
+ * 文件名为时间戳格式:
+ * let dateTimeUtil=new DateTimeUtil()
+ * let name=`${dateTimeUtil.getDate()}_${dateTimeUtil.getTime()}`
+ * 文件名固定，用于自动化UI对比
+ * let name = "test"
+ * */
 class windowSnap {
     async createAndGetFile(context: any, type) {
         Logger.info(TAG, `createAndGetFile start`)
         let mediaTest = mediaLibrary.getMediaLibrary(context)
         let info = INFO[type]
-
-        //文件名为时间戳格式
-        //let dateTimeUtil=new DateTimeUtil()
-        //let name=`${dateTimeUtil.getDate()}_${dateTimeUtil.getTime()}`
-        //文件名固定，用于自动化UI对比
+        // 修改文件名
         let name = "test"
         let displayName = `${info.prefix}${name}${info.suffix}`
         let option = {
