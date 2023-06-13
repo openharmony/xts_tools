@@ -81,6 +81,11 @@ class windowSnap {
      * snapShot
      * savePicture：设备端保存路径：/storage/media/100/local/files/Pictures
      * saveTXT：设备端保存路径：/storage/media/100/local/files/Documents/TXT_test.txt
+     *
+     * const readBuffer = new ArrayBuffer(data.getPixelBytesNumber())
+     * //保存成像素值
+     * data.readPixelsToBuffer(readBuffer, () => { this.saveTXT(readBuffer, context)})
+     *
      **/
     async snapShot(context, caseName) {
         //获取窗口
@@ -101,11 +106,6 @@ class windowSnap {
 
             this.savePicture(data, context, caseName)
 
-            const readBuffer = new ArrayBuffer(data.getPixelBytesNumber())
-            data.readPixelsToBuffer(readBuffer, () => {
-                //保存成像素值
-                this.saveTXT(readBuffer, context)
-            })
             data.release();
         });
     }
