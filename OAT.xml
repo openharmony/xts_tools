@@ -53,6 +53,12 @@ Note:If the text contains special characters, please escape them according to th
 -->
 <configuration>
     <oatconfig>
+        <licensefile></licensefile>
+        <policylist>
+            <policy name="projectPolicy" desc="">
+                <policyitem type="copyright" name="iSoftStone Information Technology (Group) Co.,Ltd." path=".*" desc=""/>
+            </policy>
+        </policylist>
         <filefilterlist>
             <filefilter name="binaryFileTypePolicyFilter" desc="Filters for binaryFile" >
                 <filteritem type="filename" name="*.gif" desc="all gif file have check "/>
