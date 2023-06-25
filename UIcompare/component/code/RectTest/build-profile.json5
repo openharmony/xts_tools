@@ -1,0 +1,55 @@
+/*
+ * Copyright (c) 2023 iSoftStone Information Technology (Group) Co.,Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\xuzhouy\\.ohos\\config\\openharmony\\auto_ohos_default_RectTest_com.example.recttest.cer",
+          "storePassword": "0000001BE90438D1A4B104DD03B7B8F2331DDB382E7260E95D45691DC2D8193234346B42902D34A8C97180",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BB52CA322265C9D28A9ACF80704DB8321330960A2AC7A39F6DF39490D9C4B64D37FD4BF5E7AC87B",
+          "profile": "C:\\Users\\xuzhouy\\.ohos\\config\\openharmony\\auto_ohos_default_RectTest_com.example.recttest.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\xuzhouy\\.ohos\\config\\openharmony\\auto_ohos_default_RectTest_com.example.recttest.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
