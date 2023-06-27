@@ -168,30 +168,7 @@ template("ohos_testsuite_base") {
       }
     } else {
       print(tmp_subsystem_part + " is not build")
-      if (defined(invoker.certificate_profile)) {
-        not_needed(invoker, [ "certificate_profile" ])
-      }
-      if (defined(invoker.ets2abc)) {
-        not_needed(invoker, [ "ets2abc" ])
-      }
-      if (defined(invoker.deps)) {
-        not_needed(invoker, [ "deps" ])
-      }
-      if (defined(invoker.hap_profile)) {
-        not_needed(invoker, [ "hap_profile" ])
-      }
-      if (defined(invoker.testonly)) {
-        not_needed(invoker, [ "testonly" ])
-      }
-      if (defined(invoker.js_build_mode)) {
-        not_needed(invoker, [ "js_build_mode" ])
-      }
-      if (defined(invoker.sdk_home)) {
-        not_needed(invoker, [ "sdk_home" ])
-      }
-      if (defined(invoker.sdk_type_name)) {
-        not_needed(invoker, [ "sdk_type_name" ])
-      }
+      not_needed(invoker, "*")
     }
   } else if (_project_type == "pythontest") {
     if (defined(invoker.outputs_dir)) {
