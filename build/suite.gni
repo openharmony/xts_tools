@@ -158,7 +158,7 @@ template("ohos_testsuite_base") {
           hap_out_dir = "${SUITES_OUTPUT_ROOT}/haps"
           testonly = true
         }
-      } else if (_project_type == "testappassist"){
+      } else if (_project_type == "testappassist") {
         target("ohos_app", _target_name) {
           forward_variables_from(invoker, "*")
           subsystem_name = XTS_SUITENAME
