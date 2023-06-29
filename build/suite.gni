@@ -131,7 +131,8 @@ template("ohos_testsuite_base") {
       }
     }
   } else if (_project_type == "testhap" || _project_type == "haptestbundle" ||
-             _project_type == "testhapassist" || _project_type == "testapp" || _project_type == "testappassist") {
+             _project_type == "testhapassist" || _project_type == "testapp" ||
+             _project_type == "testappassist") {
     assert(defined(invoker.hap_name),
            "hap_name is required in target ${target_name}")
     assert(!defined(invoker.final_hap_path),
