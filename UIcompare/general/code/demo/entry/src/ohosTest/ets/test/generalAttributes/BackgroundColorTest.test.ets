@@ -13,15 +13,15 @@
  * limitations under the License.
  */
 import CommonTest from '../common/CommonTest';
-import { describe } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
 
 //测试通用属性-backgroundColor
-export default function backgroundColorTest() {
+export default function BackgroundColorTest() {
 
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
   let supportView = [
-      'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
+    'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
     'Divider', 'Gauge', 'Image', 'LoadingProgress', 'Marquee', 'Menu', 'MenuItem', 'MenuItemGroup', 'Navigation',
     'NavRouter', 'NavDestination', 'PatternLock', 'Progress', 'QRCode', 'Radio', 'Rating', 'RichText', 'ScrollBar',
     'Search', 'Select', 'Slider', 'Span', 'Stepper', 'StepperItem', 'Text', 'TextArea', 'TextClock', 'TextInput',
@@ -35,24 +35,24 @@ export default function backgroundColorTest() {
   // this param is required.
   let pageConfig = {
     testName: 'BackgroundColorTest', //截图命名的一部分
-    pageUrl: 'testability/pages/BackgroundColorPage' //用于设置窗口页面
+    pageUrl: 'TestAbility/pages/BackgroundColorPage' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [{
-    describe: 'Color', //截图命名的一部分
-    setValue: Color.Green, //要测试的属性值
-  }, {
-    describe: 'Number',
-    setValue: 0xa23535, //酒红色
-  }, {
-    describe: 'String',
-    setValue: 'rgb(255,105,180)', //hot pink
-  }, {
-    describe: 'Resource',
-    setValue: $r('app.color.backgroundColor_color'),
-  }]
+                      describe: 'Color', //截图命名的一部分
+                      setValue: Color.Green, //要测试的属性值
+                    }, {
+                      describe: 'Number',
+                      setValue: 0xa23535, //酒红色
+                    }, {
+                      describe: 'String',
+                      setValue: 'rgb(255,105,180)', //hot pink
+                    }, {
+                      describe: 'Resource',
+                      setValue: $r('app.color.backgroundColor_color'),
+                    }]
 
 
   //  create test suite

@@ -1,3 +1,4 @@
+// @ts-nocheck
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -50,6 +51,7 @@ export default class CommonTest {
 
           //创建窗口，设置窗口页面
           Settings.createWindow(pageConfig.pageUrl)
+          console.info('FocusTest Settings.createWindow success');
 
           await Utils.sleep(1000);
 
@@ -60,18 +62,20 @@ export default class CommonTest {
               view: pageConfig
             }
           })
-
+          console.info('FocusTest router.pushUrl success');
           //在此处可以获取页面中的组件进行一些操作，例如获取组件并点击
           // await Utils.clickComponentByKey(targetView)
 
           await Utils.sleep(1000);
-
+          console.info('FocusTest AttrsManager.change begin');
           //更改属性值
           AttrsManager.change(caseTag, testValue.setValue);
 
           //截图
           await Utils.sleep(1000);
-          windowSnap.snapShot(globalThis.context, caseTag)
+          console.info('FocusTest windowSnap.snapShot begin');
+          await windowSnap.snapShot(globalThis.context, caseTag)
+          console.info('FocusTest windowSnap.snapShot success');
           await Utils.sleep(1000);
 
           done()
