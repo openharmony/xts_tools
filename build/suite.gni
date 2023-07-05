@@ -131,7 +131,8 @@ template("ohos_testsuite_base") {
       }
     }
   } else if (_project_type == "testhap" || _project_type == "haptestbundle" ||
-             _project_type == "testhapassist" || _project_type == "testapp") {
+             _project_type == "testhapassist" || _project_type == "testapp" ||
+             _project_type == "testappassist") {
     assert(defined(invoker.hap_name),
            "hap_name is required in target ${target_name}")
     assert(!defined(invoker.final_hap_path),
@@ -156,6 +157,13 @@ template("ohos_testsuite_base") {
           forward_variables_from(invoker, "*")
           subsystem_name = XTS_SUITENAME
           hap_out_dir = "${SUITES_OUTPUT_ROOT}/haps"
+          testonly = true
+        }
+      } else if (_project_type == "testappassist") {
+        target("ohos_app", _target_name) {
+          forward_variables_from(invoker, "*")
+          subsystem_name = XTS_SUITENAME
+          hap_out_dir = "${SUITES_OUTPUT_ROOT}/testcases"
           testonly = true
         }
       } else {
@@ -586,5 +594,12 @@ template("ohos_hap_assist_suite") {
   target("ohos_testsuite_base", target_name) {
     forward_variables_from(invoker, "*")
     project_type = "testhapassist"
+  }
+}
+
+template("ohos_app_assist_suite") {
+  target("ohos_testsuite_base", target_name) {
+    forward_variables_from(invoker, "*")
+    project_type = "testappassist"
   }
 }
