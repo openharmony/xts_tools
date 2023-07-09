@@ -12,68 +12,165 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import Background01 from './generalAttributes/background01.test'
-import Background02 from './generalAttributes/background02.test'
-import Background03 from './generalAttributes/background03.test'
-import Background04 from './generalAttributes/background04.test'
-import Background05 from './generalAttributes/background05.test'
-import Background06 from './generalAttributes/background06.test'
-import Background07 from './generalAttributes/background07.test'
-import Background08 from './generalAttributes/background08.test'
-import Background09 from './generalAttributes/background09.test'
-import Background10 from './generalAttributes/background10.test'
-import Background11 from './generalAttributes/background11.test'
-import Background12 from './generalAttributes/background12.test'
 import BackgroundColorTest from './generalAttributes/BackgroundColorTest.test'
-import ClipTest01 from './generalAttributes/ClipTest01.test'
-import ClipTest02 from './generalAttributes/ClipTest02.test'
-import FocusTest01 from './generalAttributes/FocusTest01.test'
-import FocusTest02 from './generalAttributes/FocusTest02.test'
-import FocusTest03 from './generalAttributes/FocusTest03.test'
-import FocusTest04 from './generalAttributes/FocusTest04.test'
-import LinearGradient01 from './generalAttributes/LinearGradient01.test'
-import LinearGradient02 from './generalAttributes/LinearGradient02.test'
-import MaskTest01 from './generalAttributes/MaskTest01.test'
-import MatrixTest from './generalAttributes/MatrixTest.test'
-import OverlayText from './generalAttributes/OverlayTest.test'
-import RotateTest01 from './generalAttributes/RotateTest01.test'
-import RotateTest02 from './generalAttributes/RotateTest02.test'
-import ScaleTest01 from './generalAttributes/ScaleTest01.test'
-import ScaleTest02 from './generalAttributes/ScaleTest02.test'
-import TranslateTest01 from './generalAttributes/TranslateTest01.test'
-import TranslateTest02 from './generalAttributes/TranslateTest02.test'
-import VisibilityTest01 from './generalAttributes/VisibilityTest01.test'
-import VisibilityTest02 from './generalAttributes/VisibilityTest02.test'
-import ZindexAndFont01 from './generalAttributes/ZindexAndFont01.test'
-import ZindexAndFont02 from './generalAttributes/ZindexAndFont02.test'
-import ZindexAndFont03 from './generalAttributes/ZindexAndFont03.test'
-import ZindexAndFont04 from './generalAttributes/ZindexAndFont04.test'
-import ZindexAndFont05 from './generalAttributes/ZindexAndFont05.test'
-import ZindexAndFont06 from './generalAttributes/ZindexAndFont06.test'
-import ZindexAndFont07 from './generalAttributes/ZindexAndFont07.test'
-import ZindexAndFont08 from './generalAttributes/ZindexAndFont08.test'
-import ZindexAndFont09 from './generalAttributes/ZindexAndFont09.test'
+
+// background
+import Background01 from './generalAttributes/background/background01.test'
+import Background02 from './generalAttributes/background/background02.test'
+import Background03 from './generalAttributes/background/background03.test'
+import Background04 from './generalAttributes/background/background04.test'
+import Background05 from './generalAttributes/background/background05.test'
+import Background06 from './generalAttributes/background/background06.test'
+import Background07 from './generalAttributes/background/background07.test'
+import Background08 from './generalAttributes/background/background08.test'
+import Background09 from './generalAttributes/background/background09.test'
+import Background10 from './generalAttributes/background/background10.test'
+import Background11 from './generalAttributes/background/background11.test'
+import Background12 from './generalAttributes/background/background12.test'
+
+import LinearGradient01 from './generalAttributes/background/linearGradient/LinearGradient01.test'
+import LinearGradient02 from './generalAttributes/background/linearGradient/LinearGradient02.test'
+import LinearGradient03 from './generalAttributes/background/linearGradient/LinearGradient03.test'
+import LinearGradient04 from './generalAttributes/background/linearGradient/LinearGradient04.test'
+import LinearGradient05 from './generalAttributes/background/linearGradient/LinearGradient05.test'
+
+import RadialGradient01 from './generalAttributes/background/radialGradient/radialGradient01.test'
+import RadialGradient03 from './generalAttributes/background/radialGradient/radialGradient03.test'
+
+import SweepGradient01 from './generalAttributes/background/sweepGradient/sweepGradient01.test'
+import SweepGradient02 from './generalAttributes/background/sweepGradient/sweepGradient02.test'
+import SweepGradient03 from './generalAttributes/background/sweepGradient/sweepGradient03.test'
+import SweepGradient04 from './generalAttributes/background/sweepGradient/sweepGradient04.test'
+import SweepGradient05 from './generalAttributes/background/sweepGradient/sweepGradient05.test'
+import SweepGradient06 from './generalAttributes/background/sweepGradient/sweepGradient06.test'
+
+// focusable
+import FocusTest01 from './generalAttributes/focusable/FocusTest01.test'
+import FocusTest02 from './generalAttributes/focusable/FocusTest02.test'
+import FocusTest03 from './generalAttributes/focusable/FocusTest03.test'
+
+// graphicTransformation
+import RotateTest01 from './generalAttributes/graphicTransformation/RotateTest01.test'
+import RotateTest02 from './generalAttributes/graphicTransformation/RotateTest02.test'
+import ScaleTest02 from './generalAttributes/graphicTransformation/ScaleTest02.test'
+import TranslateTest02 from './generalAttributes/graphicTransformation/TranslateTest02.test'
+
+// matrix
+import MatrixTest01 from './generalAttributes/matrix/MatrixTest01.test'
+import MatrixTest02 from './generalAttributes/matrix/MatrixTest02.test'
+import MatrixTest03 from './generalAttributes/matrix/MatrixTest03.test'
+import MatrixTest04 from './generalAttributes/matrix/MatrixTest04.test'
+import MatrixTest05 from './generalAttributes/matrix/MatrixTest05.test'
+import MatrixTest06 from './generalAttributes/matrix/MatrixTest06.test'
+import MatrixTest07 from './generalAttributes/matrix/MatrixTest07.test'
+import MatrixTest08 from './generalAttributes/matrix/MatrixTest08.test'
+import MatrixTest09 from './generalAttributes/matrix/MatrixTest09.test'
+import MatrixTest10 from './generalAttributes/matrix/MatrixTest10.test'
+import MatrixTest11 from './generalAttributes/matrix/MatrixTest11.test'
+import MatrixTest12 from './generalAttributes/matrix/MatrixTest12.test'
+import MatrixTest13 from './generalAttributes/matrix/MatrixTest13.test'
+import MatrixTest14 from './generalAttributes/matrix/MatrixTest14.test'
+import MatrixTest15 from './generalAttributes/matrix/MatrixTest15.test'
+
+// overlayTest
+import OverlayTest01 from './generalAttributes/overlayTest/OverlayTest01.test'
+import OverlayTest02 from './generalAttributes/overlayTest/OverlayTest02.test'
+import OverlayTest03 from './generalAttributes/overlayTest/OverlayTest03.test'
+import OverlayTest04 from './generalAttributes/overlayTest/OverlayTest04.test'
+import OverlayTest05 from './generalAttributes/overlayTest/OverlayTest05.test'
+
+// shapeCutting
+import ClipTest01 from './generalAttributes/shapeCutting/ClipTest01.test'
+import ClipTest02 from './generalAttributes/shapeCutting/ClipTest02.test'
+import MaskTest01 from './generalAttributes/shapeCutting/MaskTest01.test'
+
+// visibility
+import VisibilityTest01 from './generalAttributes/visibility/VisibilityTest01.test'
+import VisibilityTest02 from './generalAttributes/visibility/VisibilityTest02.test'
+
+// zIndexFont
+import ZIndexFont01 from './generalAttributes/zIndexFont/zIndexFontTest01.test'
+import ZIndexFont02 from './generalAttributes/zIndexFont/zIndexFontTest02.test'
+import ZIndexFont03 from './generalAttributes/zIndexFont/zIndexFontTest03.test'
+import ZIndexFont04 from './generalAttributes/zIndexFont/zIndexFontTest04.test'
+import ZIndexFont05 from './generalAttributes/zIndexFont/zIndexFontTest05.test'
+import ZIndexFont06 from './generalAttributes/zIndexFont/fontColor.test'
+import ZIndexFont07 from './generalAttributes/zIndexFont/fontFamily.test'
+import ZIndexFont08 from './generalAttributes/zIndexFont/fontSize01.test'
+import ZIndexFont09 from './generalAttributes/zIndexFont/fontSize02.test'
+import ZIndexFont10 from './generalAttributes/zIndexFont/fontStyle01.test'
+import ZIndexFont11 from './generalAttributes/zIndexFont/fontStyle02.test'
+import ZIndexFont12 from './generalAttributes/zIndexFont/fontWeight01.test'
+import ZIndexFont13 from './generalAttributes/zIndexFont/fontWeight02.test'
+import ZIndexFont14 from './generalAttributes/zIndexFont/fontWeight03.test'
 
 export default function testsuite() {
-  Background01() 
-  Background02() 
-  Background03() 
-  Background04() 
-  Background05() 
-  Background06() 
-  Background07() 
-  Background08() 
-  Background09() 
-  Background10() 
-  Background11() 
-  Background12() 
-  ClipTest01() 
-  ClipTest02() 
-  FocusTest01() 
-  FocusTest02() 
-  FocusTest03() 
-  FocusTest04() 
-  LinearGradient01() 
-  LinearGradient02() 
+
+  Background01()
+  Background02()
+  Background03()
+  Background04()
+  Background05()
+  Background06()
+  Background07()
+  Background08()
+  Background09()
+  Background10()
+  Background11()
+  Background12()
+
+  LinearGradient01()
+  LinearGradient02()
+  LinearGradient03()
+  LinearGradient04()
+  LinearGradient05()
+
+  RadialGradient01()
+  RadialGradient03()
+
+  SweepGradient01()
+  SweepGradient02()
+  SweepGradient03()
+  SweepGradient04()
+  SweepGradient05()
+  SweepGradient06()
+
+  // RotateTest01()
+  // RotateTest02()
+  // ScaleTest02()
+  // TranslateTest02()
+
+  // ClipTest01()
+  // ClipTest02()
+  // MaskTest01()
+
+  // OverlayTest01()
+  // OverlayTest02()
+  // OverlayTest03()
+  // OverlayTest04()
+  // OverlayTest05()
+  //
+  // VisibilityTest01()
+  // VisibilityTest02()
+  //
+  // MatrixTest01()
+  // MatrixTest02()
+  // MatrixTest03()
+  // MatrixTest04()
+  // MatrixTest05()
+  // MatrixTest06()
+  // MatrixTest07()
+  // MatrixTest08()
+  // MatrixTest09()
+  // MatrixTest10()
+  // MatrixTest11()
+  // MatrixTest12()
+  // MatrixTest13()
+  // MatrixTest14()
+  // MatrixTest15()
+
+  // FocusTest01()
+  // FocusTest02()
+  // FocusTest03()
+
 }

@@ -82,6 +82,65 @@ export default class CommonTest {
         });
       })
     });
+  }
+  static initTest_matrix(pageConfig, supportView, testValues, id) {
 
+    afterEach(async function (done) {
+      if (Settings.windowClass == null) {
+        return
+      }
+
+      Settings.windowClass.destroyWindow((err) => {
+        if (err.code) {
+          Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
+          return;
+        }
+        Logger.info('TEST', `Succeeded in destroy the window.`);
+      })
+      await Utils.sleep(1000);
+      done()
+    })
+
+    //根据要测试的组件和属性值循环创建case
+    supportView.forEach(targetView => {
+      testValues.forEach(testValue => {
+        let caseTag = pageConfig.testName + "_" + targetView + "_" + testValue.describe
+        //create cases
+        it(caseTag, 0, async (done) => {
+          pageConfig['targetView'] = targetView;
+          pageConfig['componentKey'] = targetView;
+
+          //创建窗口，设置窗口页面
+          Settings.createWindow(pageConfig.pageUrl)
+          console.info('FocusTest Settings.createWindow success');
+
+          await Utils.sleep(1000);
+
+          //跳转页面并传递参数
+          await router.pushUrl({
+            url: pageConfig.pageUrl,
+            params: {
+              view: pageConfig
+            }
+          })
+          console.info('FocusTest router.pushUrl success');
+          //在此处可以获取页面中的组件进行一些操作，例如获取组件并点击
+          // await Utils.clickComponentByKey(targetView)
+
+          await Utils.sleep(1000);
+          console.info('FocusTest AttrsManager.change begin');
+          //更改属性值
+          AttrsManager.change(caseTag, testValue.setValue);
+          sendEventByKey(id,10,'');
+          //截图
+          await Utils.sleep(1000);
+          console.info('FocusTest windowSnap.snapShot begin');
+          await windowSnap.snapShot(globalThis.context, caseTag)
+          console.info('FocusTest windowSnap.snapShot success');
+          await Utils.sleep(1000);
+          done()
+        });
+      })
+    });
   }
 }

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2022 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -42,7 +42,7 @@ struct FocusPage {
 
   build() {
     Column() {
-      TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller1 })
+      TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller2 })
         .placeholderColor(Color.Grey)
         .placeholderFont({ size: 14, weight: 400 })
         .caretColor(Color.Blue)
@@ -67,7 +67,7 @@ struct FocusPage {
         })
         .groupDefaultFocus(this._generalAttr)
 
-      Search({ value: this.changeValue, placeholder: 'Type to search...', controller: this.controller2 })
+      Search({ value: this.changeValue, placeholder: 'Type to search...', controller: this.controller1 })
         .searchButton('SEARCH')
         .width(400)
         .height(40)
