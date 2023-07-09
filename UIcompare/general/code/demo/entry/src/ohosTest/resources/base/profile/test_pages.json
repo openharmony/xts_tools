@@ -74,5 +74,30 @@
     "TestAbility/pages/shapeCutting/mask001",
     "TestAbility/pages/visibility/visibility001",
     "TestAbility/pages/visibility/visibility002"
+
+    "TestAbility/pages/border/BorderPage001",
+    "TestAbility/pages/border/BorderPage002",
+    "TestAbility/pages/border/BorderPage003",
+
+    "TestAbility/pages/ImageEffect/BackdropBlurPage001",
+    "TestAbility/pages/ImageEffect/BlurPage001",
+    "TestAbility/pages/ImageEffect/BrightnessPage001",
+    "TestAbility/pages/ImageEffect/BrightnessPage002",
+    "TestAbility/pages/ImageEffect/ColorBlendPage001",
+    "TestAbility/pages/ImageEffect/ContrastPage001",
+    "TestAbility/pages/ImageEffect/ContrastPage002",
+    "TestAbility/pages/ImageEffect/GrayscalePage001",
+    "TestAbility/pages/ImageEffect/GrayscalePage002",
+    "TestAbility/pages/ImageEffect/HueRotatePage001",
+    "TestAbility/pages/ImageEffect/HueRotatePage002",
+    "TestAbility/pages/ImageEffect/HueRotatePage003",
+    "TestAbility/pages/ImageEffect/InvertPage001",
+    "TestAbility/pages/ImageEffect/InvertPage002",
+    "TestAbility/pages/ImageEffect/SaturatePage001",
+    "TestAbility/pages/ImageEffect/SaturatePage002",
+    "TestAbility/pages/ImageEffect/SepiaPage001",
+    "TestAbility/pages/ImageEffect/SepiaPage002",
+    "TestAbility/pages/ImageEffect/ShadowPage001"
+
   ]
 }

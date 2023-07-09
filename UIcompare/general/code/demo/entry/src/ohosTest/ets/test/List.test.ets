@@ -104,6 +104,31 @@ import ZIndexFont12 from './generalAttributes/zIndexFont/fontWeight01.test'
 import ZIndexFont13 from './generalAttributes/zIndexFont/fontWeight02.test'
 import ZIndexFont14 from './generalAttributes/zIndexFont/fontWeight03.test'
 
+//border
+import BorderTest001 from './generalAttributes/border/BorderTest001.test'
+import BorderTest002 from './generalAttributes/border/BorderTest002.test'
+import BorderTest003 from './generalAttributes/border/BorderTest003.test'
+
+//imageEffect
+import BackdropBlurTest001 from './generalAttributes/ImageEffect/BackdropBlurTest001.test'
+import BlurTest001 from './generalAttributes/ImageEffect/BlurTest001.test'
+import BrightnessTest001 from './generalAttributes/ImageEffect/BrightnessTest001.test'
+import BrightnessTest002 from './generalAttributes/ImageEffect/BrightnessTest002.test'
+import ColorBlendTest001 from './generalAttributes/ImageEffect/ColorBlendTest001.test'
+import ContrastTest001 from './generalAttributes/ImageEffect/ContrastTest001.test'
+import ContrastTest002 from './generalAttributes/ImageEffect/ContrastTest002.test'
+import GrayscaleTest001 from './generalAttributes/ImageEffect/GrayscaleTest001.test'
+import GrayscaleTest002 from './generalAttributes/ImageEffect/GrayscaleTest002.test'
+import InvertTest001 from './generalAttributes/ImageEffect/InvertTest001.test'
+import InvertTest002 from './generalAttributes/ImageEffect/InvertTest002.test'
+import SaturateTest001 from './generalAttributes/ImageEffect/SaturateTest001.test'
+import SaturateTest002 from './generalAttributes/ImageEffect/SaturateTest002.test'
+import SepiaTest001 from './generalAttributes/ImageEffect/SepiaTest001.test'
+import SepiaTest002 from './generalAttributes/ImageEffect/SepiaTest002.test'
+import ShadowTest001 from './generalAttributes/ImageEffect/ShadowTest001.test'
+import HueRotateTest001 from './generalAttributes/ImageEffect/HueRotateTest001.test'
+import HueRotateTest002 from './generalAttributes/ImageEffect/HueRotateTest002.test'
+import HueRotateTest003 from './generalAttributes/ImageEffect/HueRotateTest003.test'
 export default function testsuite() {
 
   Background01()
@@ -172,5 +197,30 @@ export default function testsuite() {
   // FocusTest01()
   // FocusTest02()
   // FocusTest03()
+
+//边框
+  BorderTest001()
+  BorderTest002()
+  BorderTest003()
+//图像效果
+  BackdropBlurTest001()
+  BlurTest001()
+  BrightnessTest001()
+  BrightnessTest002()
+  ColorBlendTest001()
+  ContrastTest001()
+  ContrastTest002()
+  GrayscaleTest001()
+  GrayscaleTest002()
+  HueRotateTest001()
+  HueRotateTest002()
+  HueRotateTest003()
+  InvertTest001()
+  InvertTest002()
+  SaturateTest001()
+  SaturateTest002()
+  SepiaTest001()
+  SepiaTest002()
+  ShadowTest001()
 
 }
