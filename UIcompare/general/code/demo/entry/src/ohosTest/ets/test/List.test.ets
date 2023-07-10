@@ -160,6 +160,10 @@ export default function testsuite() {
   SweepGradient05()
   SweepGradient06()
 
+  ClipTest01()
+  ClipTest02()
+  MaskTest01()
+
   // RotateTest01()
   // RotateTest02()
   // ScaleTest02()
