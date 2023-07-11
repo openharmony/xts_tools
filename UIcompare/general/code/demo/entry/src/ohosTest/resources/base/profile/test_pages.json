@@ -96,7 +96,13 @@
     "TestAbility/pages/ImageEffect/SaturatePage002",
     "TestAbility/pages/ImageEffect/SepiaPage001",
     "TestAbility/pages/ImageEffect/SepiaPage002",
-    "TestAbility/pages/ImageEffect/ShadowPage001"
+    "TestAbility/pages/ImageEffect/ShadowPage001",
+
+    "TestAbility/pages/lay/AspectRatioPage001",
+    "TestAbility/pages/lay/AspectRatioPage002",
+    "TestAbility/pages/lay/AspectRatioPage003",
+    "TestAbility/pages/lay/DisplayPriorityPage001",
+    "TestAbility/pages/lay/DisplayPriorityPage002"
 
   ]
 }

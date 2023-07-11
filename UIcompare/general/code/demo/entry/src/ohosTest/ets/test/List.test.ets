@@ -128,6 +128,13 @@ import ShadowTest001 from './generalAttributes/ImageEffect/ShadowTest001.test'
 import HueRotateTest001 from './generalAttributes/ImageEffect/HueRotateTest001.test'
 import HueRotateTest002 from './generalAttributes/ImageEffect/HueRotateTest002.test'
 import HueRotateTest003 from './generalAttributes/ImageEffect/HueRotateTest003.test'
+
+//lay
+import LayTest001 from './generalAttributes/lay/LayTest001.test'
+import LayTest002 from './generalAttributes/lay/LayTest002.test'
+import LayTest003 from './generalAttributes/lay/LayTest003.test'
+import LayTest004 from './generalAttributes/lay/LayTest004.test'
+import LayTest005 from './generalAttributes/lay/LayTest005.test'
 export default function testsuite() {
 
   Background01()
@@ -200,11 +207,11 @@ export default function testsuite() {
   FocusTest02()
   FocusTest03()
 
-//边框
+
   BorderTest001()
   BorderTest002()
   BorderTest003()
-//图像效果
+
   BackdropBlurTest001()
   BlurTest001()
   BrightnessTest001()
@@ -224,5 +231,11 @@ export default function testsuite() {
   SepiaTest001()
   SepiaTest002()
   ShadowTest001()
+
+  LayTest001()
+  LayTest002()
+  LayTest003()
+  LayTest004()
+  LayTest005()
 
 }
