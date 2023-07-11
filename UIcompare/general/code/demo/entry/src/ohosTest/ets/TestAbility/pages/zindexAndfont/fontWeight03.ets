@@ -16,6 +16,7 @@
 import AttrsManager from '../../../test/model/AttrsManager'
 import web_webview from '@ohos.web.webview'
 import router from '@ohos.router';
+import { WaterFlowDataSource } from '../WaterFlowDataSource'
 
 class MyDataSource implements IDataSource {
   private list: number[] = []
@@ -77,6 +78,13 @@ struct FontWeightPage003 {
   @State current: number = 1
   @State text: string = ''
   controller3: TextInputController = new TextInputController()
+  @State minSize: number = 50
+  @State maxSize: number = 100
+  @State fontSize: number = 24
+  scroller1: Scroller = new Scroller()
+  datasource: WaterFlowDataSource = new WaterFlowDataSource()
+  private itemWidthArray: number[] = []
+  private itemHeightArray: number[] = []
   @Builder NavigationTitle() {
     Column() {
       Text('Title')
@@ -93,14 +101,37 @@ struct FontWeightPage003 {
     }.alignItems(HorizontalAlign.Start)
   }
 
+  @Builder itemFoot() {
+    Column() {
+      Text(`Footer`)
+        .fontSize(10)
+        .backgroundColor(Color.Red)
+        .width(50)
+        .height(50)
+        .align(Alignment.Center)
+        .margin({ top: 2 })
+    }
+  }
+
+  getSize() {
+    let ret = Math.floor(Math.random() * this.maxSize)
+    return (ret > this.minSize ? ret : this.minSize)
+  }
+
+  getItemSizeArray() {
+    for (let i = 0; i < 100; i++) {
+      this.itemWidthArray.push(this.getSize())
+      this.itemHeightArray.push(this.getSize())
+    }
+  }
+
   @Styles commonStyle1(){
     .width(200)
     .height(150)
     .border({width:2})
+    .margin({bottom:30})
     // @ts-ignore
-    .fontColor(Color.Black)
     .fontWeight('400')
-    .fontSize(18)
     .key(this.componentKey)
   }
 
@@ -108,27 +139,23 @@ struct FontWeightPage003 {
     .width(200)
     .height(150)
     .border({width:2})
+    .margin({bottom:30})
     // @ts-ignore
-    .fontColor(Color.Black)
     .fontWeight('600')
-    .fontSize(18)
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy1(){
+    .margin({bottom:30})
     // @ts-ignore
-    // @ts-ignore
-    .fontColor(Color.Black)
     .fontWeight('400')
-    .fontSize(18)
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy2(){
+    .margin({bottom:30})
     // @ts-ignore
-    .fontColor(Color.Black)
     .fontWeight('600')
-    .fontSize(18)
     .key(this.componentKey)
   }
 
@@ -156,6 +183,7 @@ struct FontWeightPage003 {
       list.push(i.toString());
     }
     this.data = new MyDataSource(list)
+    this.getItemSizeArray()
   }
 
   onPageShow() {
@@ -447,16 +475,23 @@ struct FontWeightPage003 {
           }
           .commonStyle1()
         } else if (this.targetView == 'Counter') {
-          Counter() {
-            Text(this.value.toString())
-          }.margin(100)
-          .onInc(() => {
-            this.value++
-          })
-          .onDec(() => {
-            this.value--
-          })
-          .commonStyle1()
+      Column(){
+        Counter() {
+          Text(this.value.toString())
+        }.margin(100)
+        .onInc(() => {
+          this.value++
+        })
+        .onDec(() => {
+          this.value--
+        })
+        .width(120)
+        .height(50)
+        .commonStyleEasy1()
+      }
+      .width(350)
+      .height(260)
+      .border({width:2})
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -729,8 +764,40 @@ struct FontWeightPage003 {
             .commonStyle1()
           }
         } else if (this.targetView == 'WaterFlow') {
-          WaterFlow()
-            .commonStyle1()
+          WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
+            LazyForEach(this.datasource, (item: number) => {
+              FlowItem() {
+                Column() {
+                  Text("N" + item).fontSize(12).height('16')
+                  Image('/pages/images/icon.png')
+                    .objectFit(ImageFit.Fill)
+                    .width('100%')
+                    .layoutWeight(1)
+                }
+              }
+              .width('100%')
+              .height(this.itemHeightArray[item])
+            }, item => item)
+          }
+          .columnsTemplate("1fr 1fr 1fr 1fr")
+          .itemConstraintSize({
+            minWidth: 0,
+            maxWidth: '100%',
+            minHeight: 0,
+            maxHeight: '100%'
+          })
+          .columnsGap(10)
+          .rowsGap(5)
+          .onReachStart(() => {
+            console.info("onReachStart")
+          })
+          .onReachEnd(() => {
+            console.info("onReachEnd")
+          })
+          .width('300')
+          .height('180')
+          .layoutDirection(FlexDirection.Column)
+          .commonStyle1()
         } else if (this.targetView == 'Video') {
           Video({
             src: $r('app.media.tree')
@@ -1112,16 +1179,23 @@ struct FontWeightPage003 {
           }
           .commonStyle2()
         } else if (this.targetView == 'Counter') {
-          Counter() {
-            Text(this.value.toString())
-          }.margin(100)
-          .onInc(() => {
-            this.value++
-          })
-          .onDec(() => {
-            this.value--
-          })
-          .commonStyle2()
+      Column(){
+        Counter() {
+          Text(this.value.toString())
+        }.margin(100)
+        .onInc(() => {
+          this.value++
+        })
+        .onDec(() => {
+          this.value--
+        })
+        .width(120)
+        .height(50)
+        .commonStyleEasy2()
+      }
+      .width(350)
+      .height(260)
+      .border({width:2})
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -1394,8 +1468,40 @@ struct FontWeightPage003 {
             .commonStyle2()
           }
         } else if (this.targetView == 'WaterFlow') {
-          WaterFlow()
-            .commonStyle2()
+          WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
+            LazyForEach(this.datasource, (item: number) => {
+              FlowItem() {
+                Column() {
+                  Text("N" + item).fontSize(12).height('16')
+                  Image('/pages/images/icon.png')
+                    .objectFit(ImageFit.Fill)
+                    .width('100%')
+                    .layoutWeight(1)
+                }
+              }
+              .width('100%')
+              .height(this.itemHeightArray[item])
+            }, item => item)
+          }
+          .columnsTemplate("1fr 1fr 1fr 1fr")
+          .itemConstraintSize({
+            minWidth: 0,
+            maxWidth: '100%',
+            minHeight: 0,
+            maxHeight: '100%'
+          })
+          .columnsGap(10)
+          .rowsGap(5)
+          .onReachStart(() => {
+            console.info("onReachStart")
+          })
+          .onReachEnd(() => {
+            console.info("onReachEnd")
+          })
+          .width('300')
+          .height('180')
+          .layoutDirection(FlexDirection.Column)
+          .commonStyle2()
         } else if (this.targetView == 'Video') {
           Video({
             src: $r('app.media.tree')

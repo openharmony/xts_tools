@@ -15,10 +15,10 @@
 import CommonTest from '../../common/CommonTest';
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
 import Settings from '../../model/Settings'
-import windowSnap from '../../model/snapShot'
 import Logger from '../../model/Logger'
-
+// @ts-ignore
 //测试通用属性-BackgroundColor
+
 export default function Background02() {
 
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
@@ -46,55 +46,55 @@ export default function Background02() {
   // this param is required.
   let testValues = [
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_003', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.Black, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_004', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.Blue, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_005', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.Brown, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_006', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.Gray, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_007', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.Grey, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_008', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.Green, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_009', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.Orange, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_010', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.Pink, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_011', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.Red, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_012', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.White, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_013', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.Yellow, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_014', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: Color.Transparent, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_015', //截图命名的一部分
+      describe: 'Background02', //截图命名的一部分
       setValue: 0x0000ff, //要测试的属性值
     },
     {

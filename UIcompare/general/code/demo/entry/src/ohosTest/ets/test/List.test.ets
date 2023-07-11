@@ -86,7 +86,6 @@ import MaskTest01 from './generalAttributes/shapeCutting/MaskTest01.test'
 
 // visibility
 import VisibilityTest01 from './generalAttributes/visibility/VisibilityTest01.test'
-import VisibilityTest02 from './generalAttributes/visibility/VisibilityTest02.test'
 
 // zIndexFont
 import ZIndexFont01 from './generalAttributes/zIndexFont/zIndexFontTest01.test'
@@ -164,43 +163,42 @@ export default function testsuite() {
   ClipTest02()
   MaskTest01()
 
-  // RotateTest01()
-  // RotateTest02()
-  // ScaleTest02()
-  // TranslateTest02()
+  RotateTest01()
+  RotateTest02()
+  ScaleTest02()
+  TranslateTest02()
 
   // ClipTest01()
   // ClipTest02()
   // MaskTest01()
 
-  // OverlayTest01()
-  // OverlayTest02()
-  // OverlayTest03()
-  // OverlayTest04()
-  // OverlayTest05()
-  //
-  // VisibilityTest01()
-  // VisibilityTest02()
-  //
-  // MatrixTest01()
-  // MatrixTest02()
-  // MatrixTest03()
-  // MatrixTest04()
-  // MatrixTest05()
-  // MatrixTest06()
-  // MatrixTest07()
-  // MatrixTest08()
-  // MatrixTest09()
-  // MatrixTest10()
-  // MatrixTest11()
-  // MatrixTest12()
-  // MatrixTest13()
-  // MatrixTest14()
-  // MatrixTest15()
+  OverlayTest01()
+  OverlayTest02()
+  OverlayTest03()
+  OverlayTest04()
+  OverlayTest05()
 
-  // FocusTest01()
-  // FocusTest02()
-  // FocusTest03()
+  VisibilityTest01()
+
+  MatrixTest01()
+  MatrixTest02()
+  MatrixTest03()
+  MatrixTest04()
+  MatrixTest05()
+  MatrixTest06()
+  MatrixTest07()
+  MatrixTest08()
+  MatrixTest09()
+  MatrixTest10()
+  MatrixTest11()
+  MatrixTest12()
+  MatrixTest13()
+  MatrixTest14()
+  MatrixTest15()
+
+  FocusTest01()
+  FocusTest02()
+  FocusTest03()
 
 //边框
   BorderTest001()
