@@ -160,10 +160,10 @@ template("ohos_testsuite_base") {
           testonly = true
         }
       } else if (_project_type == "testappassist") {
-        target("ohos_app", _target_name) {
+        target("ohos_app", target_name) {
           forward_variables_from(invoker, "*")
           subsystem_name = XTS_SUITENAME
-          hap_out_dir = "${SUITES_OUTPUT_ROOT}/testcases"
+          hap_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/testcases"
           testonly = true
         }
       } else {
@@ -204,17 +204,17 @@ template("ohos_testsuite_base") {
   }
 
   if (_project_type != "pythontest" && _project_type != "js_test_hap" &&
-      _project_type != "testhapassist") {
+      _project_type != "testhapassist" && _project_type != "testappassist") {
     _deps = [ ":module_${target_name}" ]
   } else if (_project_type == "pythontest") {
     print("this is pythontest")
-  } else if (_project_type != "testhapassist") {
+  } else if (_project_type != "testhapassist" && _project_type != "testappassist") {
     _deps = []
   }
   _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
 
   _archive_testfile = ""
-  if (_project_type == "testhapassist") {
+  if (_project_type == "testhapassist" && _project_type == "testappassist") {
     _archive_testfile =
         "${_suite_out_dir}/testcases/module_${_archive_filename}"
   } else if (_project_type == "testhap") {
@@ -273,7 +273,7 @@ template("ohos_testsuite_base") {
       _test_files,
     ]
   }
-  if (_build_part_boolean == true && _project_type != "testhapassist") {
+  if (_build_part_boolean == true && _project_type != "testhapassist" && _project_type != "testappassist") {
     action(target_name) {
       deps = _deps
       script = rebase_path("//test/xts/tools/build/suite.py")
