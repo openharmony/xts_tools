@@ -1,0 +1,55 @@
+/*
+ * Copyright (c) 2023 iSoftStone Information Technology (Group) Co.,Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\qiaochenl\\.ohos\\config\\openharmony\\auto_ohos_default_menuTest_com.example.menutest.cer",
+          "storePassword": "0000001BFC64085C70E21F207964842E4BF011EFAC05E12438B569D39ADFFEE63F5E5545F42B7B7606A621",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BF5FFBA61C3C72348CF7250560001B266D9F25B00B8EBB4EB84B7B604C27B6C9BCABECF81C0CF05",
+          "profile": "C:\\Users\\qiaochenl\\.ohos\\config\\openharmony\\auto_ohos_default_menuTest_com.example.menutest.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\qiaochenl\\.ohos\\config\\openharmony\\auto_ohos_default_menuTest_com.example.menutest.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 10,
+    "compatibleSdkVersion": 10,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
