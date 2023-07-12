@@ -214,7 +214,7 @@ template("ohos_testsuite_base") {
   _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
 
   _archive_testfile = ""
-  if (_project_type == "testhapassist" && _project_type == "testappassist") {
+  if (_project_type == "testhapassist" || _project_type == "testappassist") {
     _archive_testfile =
         "${_suite_out_dir}/testcases/module_${_archive_filename}"
   } else if (_project_type == "testhap") {
