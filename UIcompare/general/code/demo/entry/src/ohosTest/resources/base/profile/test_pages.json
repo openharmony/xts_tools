@@ -102,7 +102,12 @@
     "TestAbility/pages/lay/AspectRatioPage002",
     "TestAbility/pages/lay/AspectRatioPage003",
     "TestAbility/pages/lay/DisplayPriorityPage001",
-    "TestAbility/pages/lay/DisplayPriorityPage002"
+    "TestAbility/pages/lay/DisplayPriorityPage002",
+
+    "TestAbility/pages/size/WidthPage001",
+    "TestAbility/pages/size/WidthPage002",
+    "TestAbility/pages/size/HeightPage001",
+    "TestAbility/pages/size/HeightPage002",
 
   ]
 }

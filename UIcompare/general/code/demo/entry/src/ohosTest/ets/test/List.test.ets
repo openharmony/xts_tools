@@ -135,6 +135,12 @@ import LayTest002 from './generalAttributes/lay/LayTest002.test'
 import LayTest003 from './generalAttributes/lay/LayTest003.test'
 import LayTest004 from './generalAttributes/lay/LayTest004.test'
 import LayTest005 from './generalAttributes/lay/LayTest005.test'
+
+//size
+import WidthTest001 from './generalAttributes/size/WidthTest001.test'
+import WidthTest002 from './generalAttributes/size/WidthTest002.test'
+import HeightTest001 from './generalAttributes/size/HeightTest001.test'
+import HeightTest002 from './generalAttributes/size/HeightTest002.test'
 export default function testsuite() {
 
   Background01()
@@ -237,5 +243,10 @@ export default function testsuite() {
   LayTest003()
   LayTest004()
   LayTest005()
+
+  WidthTest001()
+  WidthTest002()
+  HeightTest001()
+  HeightTest002()
 
 }
