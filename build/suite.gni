@@ -273,7 +273,8 @@ template("ohos_testsuite_base") {
       _test_files,
     ]
   }
-  if (_build_part_boolean == true && _project_type != "testhapassist" && _project_type != "testappassist") {
+  if (_build_part_boolean == true && _project_type != "testhapassist" &&
+      _project_type != "testappassist") {
     action(target_name) {
       deps = _deps
       script = rebase_path("//test/xts/tools/build/suite.py")
