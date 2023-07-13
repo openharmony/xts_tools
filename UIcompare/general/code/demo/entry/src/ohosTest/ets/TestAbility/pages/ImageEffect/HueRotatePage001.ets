@@ -1,6 +1,7 @@
 
+
 /**
- * Copyright (c) 2022 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -17,6 +18,7 @@
 import AttrsManager from '../../../test/model/AttrsManager'
 import web_webview from '@ohos.web.webview'
 import router from '@ohos.router';
+import { WaterFlowDataSource } from '../WaterFlowDataSource'
 
 class MyDataSource implements IDataSource {
   private list: number[] = []
@@ -78,6 +80,13 @@ struct HueRotatePage001 {
   @State current: number = 1
   @State text: string = ''
   controller3: TextInputController = new TextInputController()
+  @State minSize: number = 50
+  @State maxSize: number = 100
+  @State fontSize: number = 24
+  scroller1: Scroller = new Scroller()
+  datasource: WaterFlowDataSource = new WaterFlowDataSource()
+  private itemWidthArray: number[] = []
+  private itemHeightArray: number[] = []
   @Builder NavigationTitle() {
     Column() {
       Text('Title')
@@ -94,85 +103,49 @@ struct HueRotatePage001 {
     }.alignItems(HorizontalAlign.Start)
   }
 
+  @Builder itemFoot() {
+    Column() {
+      Text(`Footer`)
+        .fontSize(10)
+        .backgroundColor(Color.Red)
+        .width(50)
+        .height(50)
+        .align(Alignment.Center)
+        .margin({ top: 2 })
+    }
+  }
+
+  getSize() {
+    let ret = Math.floor(Math.random() * this.maxSize)
+    return (ret > this.minSize ? ret : this.minSize)
+  }
+
+  getItemSizeArray() {
+    for (let i = 0; i < 100; i++) {
+      this.itemWidthArray.push(this.getSize())
+      this.itemHeightArray.push(this.getSize())
+    }
+  }
+
   @Styles commonStyle(){
-    .width(200)
-    .height(150)
+    .width(350)
+    .height(260)
+    .margin({top:260})
     .border({width:2})
-    .margin({top:150})
 
     .key(this.componentKey)
     .hueRotate(this._generalAttr)
   }
+
+
 
   @Styles commonStyleEasy(){
+    .margin({top:260})
     .border({width:2})
 
     .key(this.componentKey)
     .hueRotate(this._generalAttr)
   }
-
-  @Styles ButtonStyle()
-  {
-    .width(200)
-    .height(150)
-    .border({width:2})
-    .margin({top:150})
-
-    .hueRotate(this._generalAttr)
-    .key(this.componentKey)
-  }
-
-  @Styles BadgeStyle()
-  {
-    .border({width:2})
-    .margin(30)
-
-    .hueRotate(this._generalAttr)
-    .key(this.componentKey)
-  }
-
-  @Styles gridCol()
-  {
-    .width('90%')
-    .height('90%')
-    .border({width:2})
-
-    .hueRotate(this._generalAttr)
-    .key(this.componentKey)
-  }
-
-  @Styles listItem()
-  {
-    .margin(50)
-    .width('60%')
-    .height('60%')
-    .border({width:2})
-    
-    .hueRotate(this._generalAttr)
-    .key(this.componentKey)
-  }
-
-  @Styles counterStyle()
-  {
-    .width(75)
-    .height(40)
-    .border({width:2})
-
-    .hueRotate(this._generalAttr)
-
-    .key(this.componentKey)
-  }
-
-  @Styles gaugeStyle()
-  {
-    .width(120)
-    .height(120)
-    .border({width:2})
-
-    .hueRotate(this._generalAttr)
-    .key(this.componentKey)
-  }
-
 
   @Builder TabBuilder(index: number, name: string) {
     Column() {
@@ -198,6 +171,7 @@ struct HueRotatePage001 {
       list.push(i.toString());
     }
     this.data = new MyDataSource(list)
+    this.getItemSizeArray()
   }
 
   onPageShow() {
@@ -207,7 +181,8 @@ struct HueRotatePage001 {
   // @ts-nocheck
   build() {
     Row() {
-      Column() {
+      Column()
+      {
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
             .commonStyle()
@@ -216,28 +191,18 @@ struct HueRotatePage001 {
             .commonStyle()
         } else if (this.targetView == 'Button') {
           Button("button",{ type: ButtonType.Normal, stateEffect: true })
-            .ButtonStyle()
+            .commonStyle()
         } else if (this.targetView == 'Checkbox') {
-          Column(){
-            Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
-              .margin({top:50})
-              .select(true)
-              .selectedColor(0xed6f21)
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
+            .select(true)
+            .selectedColor(0xed6f21)
+            .height(150)
+            .commonStyleEasy()
         } else if (this.targetView == 'CheckboxGroup') {
-          Column(){
-            CheckboxGroup({ group: 'checkboxGroup' })
-              .margin({top:50})
-              .selectedColor('#007DFF')
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          CheckboxGroup({ group: 'checkboxGroup' })
+            .selectedColor('#007DFF')
+            .height(150)
+            .commonStyleEasy()
         } else if (this.targetView == 'DataPanel') {
           DataPanel({ values: [50, 12, 8, 5] })
             .commonStyle()
@@ -248,20 +213,12 @@ struct HueRotatePage001 {
           Divider()
             .commonStyle()
         } else if (this.targetView == 'Gauge') {
-          Column(){
           Gauge({ value: 75 })
-            .gaugeStyle()}.width(200).height(150).border({width:2})
+            .commonStyle()
         } else if (this.targetView == 'Image') {
-          Column(){
-            Image($r("app.media.icon")).objectFit(ImageFit.Contain)
-              .width(50)
-              .height(40)
-              .margin({top:30})
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Image($r("app.media.icon")).objectFit(ImageFit.Contain)
+            .height(150)
+            .commonStyleEasy()
         } else if (this.targetView == 'ImageAnimator') {
           ImageAnimator()
             .images([
@@ -273,13 +230,11 @@ struct HueRotatePage001 {
                 left:30
               },
             ])
-            .margin({left:30,top:30})
             .duration(2000)
             .fixedSize(false)
             .state(this.state)
             .reverse(this.reverse)
             .iterations(this.iterations)
-            .margin({ top: 40 })
             .onStart(() => {
               console.info('Start')
             })
@@ -302,7 +257,7 @@ struct HueRotatePage001 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -327,15 +282,14 @@ struct HueRotatePage001 {
         } else if (this.targetView == 'NavRouter') {
           NavRouter() {
             Row() {
-              Image($r('app.media.icon')).width(30).height(30).borderRadius(30).margin({ left: 3, right: 10 })
+              Image($r('app.media.icon')).width(15).height(15).borderRadius(30)
               Text(`NavRouter`)
-                .fontSize(22)
+                .fontSize(12)
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
-            .width(180)
-            .height(72)
-            .borderRadius(24)
+            .width('80%')
+            .height('30%')
 
             NavDestination() {
               Text(`NavDestination`).fontSize(50)
@@ -372,10 +326,9 @@ struct HueRotatePage001 {
         } else if (this.targetView == 'ScrollBar') {
           ScrollBar({ scroller: this.scroller, direction: ScrollBarDirection.Vertical,state: BarState.On }) {
             Text("ScrollBar")
-              .width(20)
-              .height(100)
-              .borderRadius(10)
-          }.width(20)
+              .width('90%')
+              .height('90%')
+          }
           .commonStyle()
         } else if (this.targetView == 'Search') {
           Search()
@@ -418,25 +371,19 @@ struct HueRotatePage001 {
           TextClock()
             .commonStyle()
         } else if (this.targetView == 'TextInput') {
-          Column(){
-            TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
-              .placeholderFont({ size: 14, weight: 400 })
-              .width(200)
-              .height(40)
-              .margin(20)
-              .fontSize(14)
-              .fontColor(Color.Black)
-              .inputFilter('[a-z]', (e) => {
-                console.log(JSON.stringify(e))
-              })
-              .onChange((value: string) => {
-                this.text = value
-              })
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
+            .placeholderFont({ size: 14, weight: 400 })
+            .width(200)
+            .height(40)
+            .fontSize(12)
+            .fontColor(Color.Black)
+            .inputFilter('[a-z]', (e) => {
+              console.log(JSON.stringify(e))
+            })
+            .onChange((value: string) => {
+              this.text = value
+            })
+            .commonStyleEasy()
         } else if (this.targetView == 'TextPicker') {
           TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
             .commonStyle()
@@ -448,39 +395,48 @@ struct HueRotatePage001 {
             selected: this.selectedTime,
           })
             .commonStyle()
-        } else if (this.targetView == 'Toggle') {
-          Column(){
-            Toggle({ type: ToggleType.Switch, isOn: false })
-              .selectedColor('#007DFF')
-              .switchPointColor('#FFFFFF')
-              .onChange((isOn: boolean) => {
-                console.info('Component status:' + isOn)
-              })
-              .margin({top:30})
-              .width(120)
-              .height(60)
-              .commonStyleEasy()
-          }
-          .border({width:2})
-          .width(200)
-          .height(150)
-        } else if (this.targetView == 'Badge') {
-          Column(){
-            Badge({
-              value: 'New',
-              position: BadgePosition.Right,
-              style: { badgeSize: 16, badgeColor: '#FA2A2D' }
-            }) {
-              Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-            }.width(49.5).height(60)
-            .BadgeStyle()
-            .margin({ left: 12 })
-            .padding(2)
-          }
-          .border({width:2})
-          .width(300)
-          .height(180)
-          .margin({top:150})
+        } else if (this.targetView == 'Toggle1') {
+          Toggle({ type: ToggleType.Switch, isOn: false })
+            .selectedColor('#007DFF')
+            .switchPointColor('#FFFFFF')
+            .onChange((isOn: boolean) => {
+              console.info('Component status:' + isOn)
+            })
+            .width(120)
+            .height(60)
+            .commonStyleEasy()
+        }
+        else if (this.targetView == 'Toggle2') {
+          Toggle({ type: ToggleType.Checkbox, isOn: false })
+            .selectedColor('#007DFF')
+            .switchPointColor('#FFFFFF')
+            .onChange((isOn: boolean) => {
+              console.info('Component status:' + isOn)
+            })
+            .width(120)
+            .height(60)
+            .commonStyleEasy()
+        }
+        else if (this.targetView == 'Toggle3') {
+          Toggle({ type: ToggleType.Button, isOn: false })
+            .selectedColor('#007DFF')
+            .switchPointColor('#FFFFFF')
+            .onChange((isOn: boolean) => {
+              console.info('Component status:' + isOn)
+            })
+            .width(120)
+            .height(60)
+            .commonStyleEasy()
+        }
+        else if (this.targetView == 'Badge') {
+          Badge({
+            value: 'New',
+            position: BadgePosition.Right,
+            style: { badgeSize: 16, badgeColor: '#FA2A2D' }
+          }) {
+            Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
+          }.width(49.5).height(60)
+          .commonStyleEasy()
         } else if (this.targetView == 'Column') {
           Column(){
             Text("Column 1111")
@@ -489,22 +445,21 @@ struct HueRotatePage001 {
         } else if (this.targetView == 'ColumnSplit') {
           ColumnSplit() {
             Text('ColumnSplit')
-              .margin({left:50})
           }
           .commonStyle()
         } else if (this.targetView == 'Counter') {
-          Column() {
-            Counter() {
-              Text(this.value.toString())
-            }.margin({ top:50 })
-            .onInc(() => {
-              this.value++
-            })
-            .onDec(() => {
-              this.value--
-            })
-            .counterStyle()
-          }.width(200).height(150).border({width:2})
+          Counter() {
+            Text(this.value.toString())
+          }
+          .onInc(() => {
+            this.value++
+          })
+          .onDec(() => {
+            this.value--
+          })
+          .width(120)
+          .height(50)
+          .commonStyleEasy()
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -517,15 +472,17 @@ struct HueRotatePage001 {
           GridRow() {
             GridCol({ span: 5 }) {
               Text("GridCol GridCol").height(50)
-            }
-            .gridCol()
-          }.width(200)
-          .height(150)
+            }.borderWidth(2)
+            .commonStyle()
+            .margin({top:0})
+          }.width(300)
+          .height(200)
           .borderWidth(2)
+          .margin({top:260})
         } else if (this.targetView == 'GridRow') {
           GridRow() {
             GridCol({span:6}) {
-              Text('GridRow').height('90%').width('90%')
+              Text('GridRow').height(80)
             }
           }
           .commonStyle()
@@ -560,11 +517,10 @@ struct HueRotatePage001 {
             ForEach(this.arr, (item) => {
               ListItem() {
                 Text('List' + item)
-                  .width('20%')
+                  .width('80%')
                   .height(30)
-                  .fontSize(16)
+                  .fontSize(12)
                   .textAlign(TextAlign.Center)
-                  .borderRadius(10)
               }
             }, item => item)
           }
@@ -582,23 +538,24 @@ struct HueRotatePage001 {
             ListItem(){
               Text('ListItem')
             }
-            .listItem()
+            .commonStyle()
+            .margin({top:0})
           }
-          .width(180)
-          .height(200)
+          .width(350)
+          .height(260)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
               ListItem() {
                 Text('ListItemGroup')
-                  .margin({left:20})
                   .height(40)
               }
             }
             .commonStyle()
+            .margin({top:0})
           }
-          .width(220)
-          .height(200)
+          .width(350)
+          .height(260)
           .border({width:2})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
@@ -609,7 +566,7 @@ struct HueRotatePage001 {
           Panel(true) {
             // 展示日程
             Column() {
-              Text('Today Calendar')
+              Text('Today Calendar').fontSize(12)
             }
           }
           .type(PanelType.Foldable).mode(PanelMode.Mini)
@@ -628,7 +585,9 @@ struct HueRotatePage001 {
               .backgroundColor("#FF3333")
               .alignRules({
                 top: { anchor: "__container__", align: VerticalAlign.Top },
-                left: { anchor: "__container__", align: HorizontalAlign.Start }
+                left: { anchor: "__container__", align: HorizontalAlign.Start },
+                right:{anchor: "__container__", align: HorizontalAlign.Center},
+                bottom:{anchor: "__container__", align: VerticalAlign.Center},
               })
               .id("row001")
           }
@@ -689,7 +648,7 @@ struct HueRotatePage001 {
               }, item => item)
             }.width('40%')
             Column() {
-              Text('SideBarContainer').fontSize(25)
+              Text('SideBarContainer').fontSize(10)
             }
             .margin({ top: 20, left: 20, right: 30 })
           }
@@ -745,18 +704,19 @@ struct HueRotatePage001 {
           })
           .width(360)
           .height(296)
-          .margin({ top: 52 })
           .commonStyle()
         } else if (this.targetView == 'TabContent') {
           Tabs({ barPosition: BarPosition.Start, controller: this.controller1 }) {
             TabContent() {
-              Column().width('30%').height('30%').backgroundColor('#ff08a8f1')
+              Column().width('30%').height('30%')
             }.tabBar(this.TabBuilder(0, 'green'))
             .commonStyle()
+            .margin({top:0})
             TabContent() {
-              Column().width('40%').height('40%').backgroundColor('#ff08a8f1')
+              Column().width('40%').height('40%')
             }.tabBar(this.TabBuilder(1, 'blue'))
             .commonStyle()
+            .margin({top:0})
           }
           .vertical(false)
           .barMode(BarMode.Fixed)
@@ -768,35 +728,59 @@ struct HueRotatePage001 {
           })
           .width(200)
           .height(150)
-          .margin({ top: 20 })
-        } else if (this.targetView == 'FlowItem') {
+          .margin({ top: 260 })
+        }
+        else if (this.targetView == 'FlowItem') {
           WaterFlow() {
             FlowItem(){
               Text("N  FlowItem" ).fontSize(12).height('16')
             }
             .commonStyle()
-          }.padding(20)
+          }
         } else if (this.targetView == 'WaterFlow') {
-          WaterFlow()
-            {
-            FlowItem(){
-              Text("WaterFlow" ).fontSize(12).height('16')}
-            }
-            .commonStyle()
+          WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
+            LazyForEach(this.datasource, (item: number) => {
+              FlowItem() {
+                Column() {
+                  Text("N" + item).fontSize(12).height('16')
+                  Image('/pages/images/icon.png')
+                    .objectFit(ImageFit.Fill)
+                    .width('100%')
+                    .layoutWeight(1)
+                }
+              }
+              .width('100%')
+              .height(this.itemHeightArray[item])
+            }, item => item)
+          }
+          .columnsTemplate("1fr 1fr 1fr 1fr")
+          .itemConstraintSize({
+            minWidth: 0,
+            maxWidth: '100%',
+            minHeight: 0,
+            maxHeight: '100%'
+          })
+          .columnsGap(10)
+          .rowsGap(5)
+          .onReachStart(() => {
+            console.info("onReachStart")
+          })
+          .onReachEnd(() => {
+            console.info("onReachEnd")
+          })
+          .width('300')
+          .height('180')
+          .layoutDirection(FlexDirection.Column)
+          .commonStyle()
         } else if (this.targetView == 'Video') {
           Video({
             src: $r('app.media.tree')
           })
             .commonStyle()
         } else if (this.targetView == 'Circle') {
-          Column(){
-            Circle({ width: 40, height: 40 })
-              .margin({top:50})
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Circle()
+            .height(40)
+            .commonStyleEasy()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
             .width(150)
@@ -807,15 +791,15 @@ struct HueRotatePage001 {
             .commonStyle()
         } else if (this.targetView == 'Line') {
           Line()
-            .width(150)
-            .height(100)
+            .width(200)
+            .height(150)
             .startPoint([0, 0])
-            .endPoint([50, 75])
+            .endPoint([50, 100])
             .stroke(Color.Black)
             .commonStyle()
         } else if (this.targetView == 'Polyline') {
           Polyline({ width: 100, height: 100 })
-            .points([[10, 100], [20, 60], [100, 100]])
+            .points([[10, 0], [40, 60], [100, 100]])
             .fillOpacity(0)
             .stroke(Color.Blue)
             .strokeWidth(3)
@@ -827,26 +811,24 @@ struct HueRotatePage001 {
             .commonStyle()
         } else if (this.targetView == 'Path') {
           Path()
-            .width(150)
-            .height(100)
-            .commands('M30 100 L150 0')
+            .commands('M10 10 H100 V100 H0 Z')
+            .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
+            .width(300)
+            .height(400)
+            .border({width:2})
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
-          Column(){
-            Rect({ width: '20%', height: 40 })
-              .radius(20)
-              .stroke(Color.Transparent)
-              .commonStyleEasy()
-              .margin({top:30})
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Rect()
+            .radius(20)
+            .height(40)
+            .stroke(Color.Transparent)
+            .commonStyleEasy()
+            .margin({top:50})
         } else if (this.targetView == 'Shape') {
           Shape() {
-            Rect().width(100).height(60)
+            Rect().width('80%').height('70%')
           }
           .viewPort({ x: -100, y: 5, width: 320, height: 70 })
           .stroke(Color.Black)
@@ -855,15 +837,14 @@ struct HueRotatePage001 {
         } else if (this.targetView == 'Canvas') {
           Canvas(this.context)
             .onReady(() => {
-              this.context.fillRect(80, 50, 40, 40)
+              this.context.fillRect(0, 10, 30, 30)
             })
             .commonStyle()
         }else if (this.targetView == 'Web') {
           Web({ src: $rawfile("index.html"), controller: this.controller })
             .commonStyle()
         }else if (this.targetView == 'XComponent') {
-          XComponent({ id: 'xcomponentId-container', type: 'component' })
-          {
+          XComponent({ id: 'xcomponentId-container', type: 'component' }) {
             Text('Hello')
               .fontSize(40)
             Divider()
@@ -876,8 +857,7 @@ struct HueRotatePage001 {
                 .fontSize(30)
             }
           }
-          .commonStyle()
-        }
+          .commonStyle()}
       }
       .width('100%')
       .height('100%')

@@ -128,20 +128,10 @@ struct AspectRatioPage001 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(200)
+    .width(350) //固定宽
     .margin({top:260})
     .border({width:2})
     
-    .key(this.componentKey)
-    .aspectRatio(this._generalAttr)
-  }
-
-  @Styles tabStyle(){
-    .width(350)
-    .height(200)
-    .border({width:2})
-
     .key(this.componentKey)
     .aspectRatio(this._generalAttr)
   }
@@ -188,7 +178,8 @@ struct AspectRatioPage001 {
   // @ts-nocheck
   build() {
     Row() {
-      Column() {
+      Column()
+      {
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
             .commonStyle()
@@ -199,28 +190,16 @@ struct AspectRatioPage001 {
           Button("button",{ type: ButtonType.Normal, stateEffect: true })
             .commonStyle()
         } else if (this.targetView == 'Checkbox') {
-          // Column(){
           Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
             .select(true)
             .selectedColor(0xed6f21)
-            .width(200)
-            .height(100)
+            .width(150)
             .commonStyleEasy()
-          // }
-          // .width(200)
-          // .height(150)
-          // .border({width:2})
         } else if (this.targetView == 'CheckboxGroup') {
-          // Column(){
           CheckboxGroup({ group: 'checkboxGroup' })
             .selectedColor('#007DFF')
-            .width(200)
-            .height(100)
+            .width(150)
             .commonStyleEasy()
-          // }
-          // .width(200)
-          // .height(150)
-          // .border({width:2})
         } else if (this.targetView == 'DataPanel') {
           DataPanel({ values: [50, 12, 8, 5] })
             .commonStyle()
@@ -234,15 +213,9 @@ struct AspectRatioPage001 {
           Gauge({ value: 75 })
             .commonStyle()
         } else if (this.targetView == 'Image') {
-          // Column(){
           Image($r("app.media.icon")).objectFit(ImageFit.Contain)
-            .width(50)
-            .height(40)
+            .width(150)
             .commonStyleEasy()
-          // }
-          // .width(200)
-          // .height(150)
-          // .border({width:2})
         } else if (this.targetView == 'ImageAnimator') {
           ImageAnimator()
             .images([
@@ -281,7 +254,7 @@ struct AspectRatioPage001 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -306,15 +279,14 @@ struct AspectRatioPage001 {
         } else if (this.targetView == 'NavRouter') {
           NavRouter() {
             Row() {
-              Image($r('app.media.icon')).width(30).height(30).borderRadius(30).margin({ left: 3, right: 10 })
+              Image($r('app.media.icon')).width(15).height(15).borderRadius(30)
               Text(`NavRouter`)
-                .fontSize(22)
+                .fontSize(12)
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
-            .width(180)
-            .height(72)
-            .borderRadius(24)
+            .width('80%')
+            .height('30%')
 
             NavDestination() {
               Text(`NavDestination`).fontSize(50)
@@ -351,10 +323,9 @@ struct AspectRatioPage001 {
         } else if (this.targetView == 'ScrollBar') {
           ScrollBar({ scroller: this.scroller, direction: ScrollBarDirection.Vertical,state: BarState.On }) {
             Text("ScrollBar")
-              .width(20)
-              .height(100)
-              .borderRadius(10)
-          }.width(20)
+              .width('90%')
+              .height('90%')
+          }
           .commonStyle()
         } else if (this.targetView == 'Search') {
           Search()
@@ -397,26 +368,18 @@ struct AspectRatioPage001 {
           TextClock()
             .commonStyle()
         } else if (this.targetView == 'TextInput') {
-          Column(){
-            TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
-              .placeholderFont({ size: 14, weight: 400 })
-              .width(200)
-              .height(40)
-              .margin(20)
-              .fontSize(14)
-              .fontColor(Color.Black)
-              .inputFilter('[a-z]', (e) => {
-                console.log(JSON.stringify(e))
-              })
-              .onChange((value: string) => {
-                this.text = value
-              })
-              .commonStyleEasy()
-              .margin({top:0})
-          }
-          .width(200)
-          .height(400)
-          .border({width:2})
+          TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
+            .placeholderFont({ size: 14, weight: 400 })
+            .width(200)
+            .fontSize(12)
+            .fontColor(Color.Black)
+            .inputFilter('[a-z]', (e) => {
+              console.log(JSON.stringify(e))
+            })
+            .onChange((value: string) => {
+              this.text = value
+            })
+            .commonStyleEasy()
         } else if (this.targetView == 'TextPicker') {
           TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
             .commonStyle()
@@ -428,8 +391,7 @@ struct AspectRatioPage001 {
             selected: this.selectedTime,
           })
             .commonStyle()
-        } else if (this.targetView == 'Toggle') {
-          // Column(){
+        } else if (this.targetView == 'Toggle1') {
           Toggle({ type: ToggleType.Switch, isOn: false })
             .selectedColor('#007DFF')
             .switchPointColor('#FFFFFF')
@@ -437,27 +399,37 @@ struct AspectRatioPage001 {
               console.info('Component status:' + isOn)
             })
             .width(120)
-            .height(60)
             .commonStyleEasy()
-          // }
-          // .border({width:2})
-          // .width(200)
-          // .height(150)
-        } else if (this.targetView == 'Badge') {
-          // Column(){
+        }
+        else if (this.targetView == 'Toggle2') {
+          Toggle({ type: ToggleType.Checkbox, isOn: false })
+            .selectedColor('#007DFF')
+            .switchPointColor('#FFFFFF')
+            .onChange((isOn: boolean) => {
+              console.info('Component status:' + isOn)
+            })
+            .width(120)
+            .commonStyleEasy()
+        }
+        else if (this.targetView == 'Toggle3') {
+          Toggle({ type: ToggleType.Button, isOn: false })
+            .selectedColor('#007DFF')
+            .switchPointColor('#FFFFFF')
+            .onChange((isOn: boolean) => {
+              console.info('Component status:' + isOn)
+            })
+            .width(120)
+            .commonStyleEasy()
+        }
+        else if (this.targetView == 'Badge') {
           Badge({
             value: 'New',
             position: BadgePosition.Right,
             style: { badgeSize: 16, badgeColor: '#FA2A2D' }
           }) {
             Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-          }.width(49.5).height(60)
+          }.width(49.5)
           .commonStyleEasy()
-          .margin({ left: 80, top:260 })
-          // }
-          // .border({width:2})
-          // .width(300)
-          // .height(180)
         } else if (this.targetView == 'Column') {
           Column(){
             Text("Column 1111")
@@ -466,11 +438,9 @@ struct AspectRatioPage001 {
         } else if (this.targetView == 'ColumnSplit') {
           ColumnSplit() {
             Text('ColumnSplit')
-              .margin({left:50})
           }
           .commonStyle()
         } else if (this.targetView == 'Counter') {
-          // Column(){
           Counter() {
             Text(this.value.toString())
           }
@@ -481,12 +451,7 @@ struct AspectRatioPage001 {
             this.value--
           })
           .width(120)
-          .height(50)
           .commonStyleEasy()
-          // }
-          // .width(350)
-          // .height(200)
-          // .border({width:2})
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -502,14 +467,14 @@ struct AspectRatioPage001 {
             }.borderWidth(2)
             .commonStyle()
             .margin({top:0})
-          }.width(300)
-          .height(200)
+          }.width(400)
+          .height(500)
           .borderWidth(2)
           .margin({top:260})
         } else if (this.targetView == 'GridRow') {
           GridRow() {
             GridCol({span:6}) {
-              Text('GridRow').height(80).width(120)
+              Text('GridRow').height(80)
             }
           }
           .commonStyle()
@@ -532,7 +497,6 @@ struct AspectRatioPage001 {
           .columnsGap(10)
           .rowsGap(10)
           .width('90%')
-          .height(300)
           .commonStyle()
         } else if (this.targetView == 'GridItem') {
           Grid() {
@@ -544,11 +508,10 @@ struct AspectRatioPage001 {
             ForEach(this.arr, (item) => {
               ListItem() {
                 Text('List' + item)
-                  .width('20%')
+                  .width('80%')
                   .height(30)
-                  .fontSize(16)
+                  .fontSize(12)
                   .textAlign(TextAlign.Center)
-                  .borderRadius(10)
               }
             }, item => item)
           }
@@ -569,25 +532,22 @@ struct AspectRatioPage001 {
             .commonStyle()
             .margin({top:0})
           }
-          .width(370)
-          .height(280)
-          .margin({top:260})
+          .width(400)
+          .height(500)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
               ListItem() {
                 Text('ListItemGroup')
-                  .margin({left:20})
                   .height(40)
               }
             }
             .commonStyle()
             .margin({top:0})
           }
-          .width(200)
-          .height(150)
+          .width(400)
+          .height(500)
           .border({width:2})
-          .margin({top:260})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -597,7 +557,7 @@ struct AspectRatioPage001 {
           Panel(true) {
             // 展示日程
             Column() {
-              Text('Today Calendar')
+              Text('Today Calendar').fontSize(12)
             }
           }
           .type(PanelType.Foldable).mode(PanelMode.Mini)
@@ -616,7 +576,9 @@ struct AspectRatioPage001 {
               .backgroundColor("#FF3333")
               .alignRules({
                 top: { anchor: "__container__", align: VerticalAlign.Top },
-                left: { anchor: "__container__", align: HorizontalAlign.Start }
+                left: { anchor: "__container__", align: HorizontalAlign.Start },
+                right:{anchor: "__container__", align: HorizontalAlign.Center},
+                bottom:{anchor: "__container__", align: VerticalAlign.Center},
               })
               .id("row001")
           }
@@ -677,7 +639,7 @@ struct AspectRatioPage001 {
               }, item => item)
             }.width('40%')
             Column() {
-              Text('SideBarContainer').fontSize(25)
+              Text('SideBarContainer').fontSize(10)
             }
             .margin({ top: 20, left: 20, right: 30 })
           }
@@ -692,7 +654,7 @@ struct AspectRatioPage001 {
           Stack({ alignContent: Alignment.Center }) {
             Text('First child, show in bottom').width('40%').height('40%').backgroundColor(0xd2cab3).align(Alignment.Top)
             Text('Second child, show in top').width('25%').height('25%').backgroundColor(0xc1cbac).align(Alignment.Top)
-          }.width('100%').height(150).margin({ top: 5 })
+          }.width('100%').margin({ top: 5 })
           .commonStyle()
         } else if (this.targetView == 'Swiper') {
           Swiper(this.swiperController) {
@@ -732,21 +694,19 @@ struct AspectRatioPage001 {
             this.currentIndex = index
           })
           .width(360)
-          .height(296)
-          .margin({ top: 52 })
           .commonStyle()
         } else if (this.targetView == 'TabContent') {
           Tabs({ barPosition: BarPosition.Start, controller: this.controller1 }) {
             TabContent() {
               Column().width('30%').height('30%')
             }.tabBar(this.TabBuilder(0, 'green'))
-            // .commonStyle()
-            .tabStyle()
+            .commonStyle()
+            .margin({top:0})
             TabContent() {
               Column().width('40%').height('40%')
             }.tabBar(this.TabBuilder(1, 'blue'))
-            // .commonStyle()
-            .tabStyle()
+            .commonStyle()
+            .margin({top:0})
           }
           .vertical(false)
           .barMode(BarMode.Fixed)
@@ -759,14 +719,16 @@ struct AspectRatioPage001 {
           .width(200)
           .height(150)
           .margin({ top: 260 })
+          .border({width:2})
         }
+
         else if (this.targetView == 'FlowItem') {
           WaterFlow() {
             FlowItem(){
               Text("N  FlowItem" ).fontSize(12).height('16')
             }
             .commonStyle()
-          }.padding(60)
+          }.border({width:2,color:Color.Yellow})
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -799,7 +761,6 @@ struct AspectRatioPage001 {
             console.info("onReachEnd")
           })
           .width('300')
-          .height('180')
           .layoutDirection(FlexDirection.Column)
           .commonStyle()
         } else if (this.targetView == 'Video') {
@@ -808,17 +769,12 @@ struct AspectRatioPage001 {
           })
             .commonStyle()
         } else if (this.targetView == 'Circle') {
-          // Column(){
-          Circle({ width: 40, height: 40 })
+          Circle()
+            .width(40)
             .commonStyleEasy()
-          // }
-          // .width(200)
-          // .height(150)
-          // .border({width:2})
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
             .width(150)
-            .height(100)
             .fillOpacity(0)
             .stroke(Color.Blue)
             .strokeWidth(3)
@@ -826,48 +782,43 @@ struct AspectRatioPage001 {
         } else if (this.targetView == 'Line') {
           Line()
             .width(200)
-            .height(150)
             .startPoint([0, 0])
             .endPoint([50, 100])
             .stroke(Color.Black)
             .commonStyle()
         } else if (this.targetView == 'Polyline') {
-          Polyline({ width: 100, height: 100 })
+          Polyline()
+            .width(100)
             .points([[10, 0], [40, 60], [100, 100]])
             .fillOpacity(0)
             .stroke(Color.Blue)
             .strokeWidth(3)
             .commonStyle()
         } else if (this.targetView == 'Polygon') {
-          Polygon({ width: 100, height: 100 })
+          Polygon()
+            .width(100)
             .points([[0, 0], [50, 100], [100, 0]])
             .fill(Color.Green)
             .commonStyle()
         } else if (this.targetView == 'Path') {
           Path()
-            .commands('M100 100 C0 100 140 0 200 150 L100 300 Z')
+            .commands('M10 10 H100 V100 H0 Z')
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
             .width(300)
-            .height(400)
             .border({width:2})
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
-          Column(){
-            Rect({ width: '20%', height: 40 })
-              .radius(20)
-              .stroke(Color.Transparent)
-              .commonStyleEasy()
-              .margin({top:50})
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
-          .margin({top:260})
+          Rect()
+            .radius(20)
+            .width(40)
+            .stroke(Color.Transparent)
+            .commonStyleEasy()
+            .margin({top:50})
         } else if (this.targetView == 'Shape') {
           Shape() {
-            Rect().width(100).height(60)
+            Rect().width('80%').height('70%')
           }
           .viewPort({ x: -100, y: 5, width: 320, height: 70 })
           .stroke(Color.Black)
@@ -876,15 +827,14 @@ struct AspectRatioPage001 {
         } else if (this.targetView == 'Canvas') {
           Canvas(this.context)
             .onReady(() => {
-              this.context.fillRect(80, 50, 40, 40)
+              this.context.fillRect(0, 10, 30, 30)
             })
             .commonStyle()
         }else if (this.targetView == 'Web') {
           Web({ src: $rawfile("index.html"), controller: this.controller })
             .commonStyle()
         }else if (this.targetView == 'XComponent') {
-          XComponent({ id: 'xcomponentId-container', type: 'component' })
-          {
+          XComponent({ id: 'xcomponentId-container', type: 'component' }) {
             Text('Hello')
               .fontSize(40)
             Divider()
@@ -897,8 +847,7 @@ struct AspectRatioPage001 {
                 .fontSize(30)
             }
           }
-          .commonStyle()
-        }
+          .commonStyle()}
       }
       .width('100%')
       .height('100%')

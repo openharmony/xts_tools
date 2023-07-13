@@ -1,4 +1,3 @@
-
 /**
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -35,7 +34,7 @@ import {
   PointerMatrix
 } from '@ohos.UiTest';
 
-export default function HueRotateTest002() {
+export default function LayTest006() {
 
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
@@ -52,16 +51,24 @@ export default function HueRotateTest002() {
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'HueRotateTest002', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/ImageEffect/HueRotatePage002' //用于设置窗口页面
+    testName: 'LayTest006', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/lay/AspectRatioPage004' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues =[
     {
-      describe: 'hueRotate_none',
-      setValue:  90
+      describe: 'aspectRatio_1.5',
+      setValue:  1.5
+    },
+    {
+      describe: 'aspectRatio_2',
+      setValue:  2
+    },
+    {
+      describe: 'aspectRatio_negative1.5',
+      setValue:  -1.5
     }
   ]
 
@@ -70,7 +77,7 @@ export default function HueRotateTest002() {
   }
 
   //  create test suite
-  describe("HueRotateTest002", () => {
+  describe("LayTest006", () => {
     beforeAll(async function () {
       console.info('beforeAll in1');
     })

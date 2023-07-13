@@ -46,9 +46,9 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct SepiaPage002 {
+struct AspectRatioPage004 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: number = 0; //通用属性初始值
+  @State _generalAttr: number = 1; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -128,22 +128,20 @@ struct SepiaPage002 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .height(200) //固定高
     .margin({top:260})
     .border({width:2})
 
     .key(this.componentKey)
-    //.sepia(this._generalAttr)
+    .aspectRatio(this._generalAttr)
   }
-
 
   @Styles commonStyleEasy(){
     .margin({top:260})
     .border({width:2})
 
     .key(this.componentKey)
-    //.sepia(this._generalAttr)
+    .aspectRatio(this._generalAttr)
   }
 
   @Builder TabBuilder(index: number, name: string) {
@@ -372,7 +370,6 @@ struct SepiaPage002 {
         } else if (this.targetView == 'TextInput') {
           TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
             .placeholderFont({ size: 14, weight: 400 })
-            .width(200)
             .height(40)
             .fontSize(12)
             .fontColor(Color.Black)
@@ -401,7 +398,6 @@ struct SepiaPage002 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
             .height(60)
             .commonStyleEasy()
         }
@@ -412,7 +408,6 @@ struct SepiaPage002 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
             .height(60)
             .commonStyleEasy()
         }
@@ -423,7 +418,6 @@ struct SepiaPage002 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
             .height(60)
             .commonStyleEasy()
         }
@@ -434,7 +428,8 @@ struct SepiaPage002 {
             style: { badgeSize: 16, badgeColor: '#FA2A2D' }
           }) {
             Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-          }.width(49.5).height(60)
+          }
+          .height(60)
           .commonStyleEasy()
         } else if (this.targetView == 'Column') {
           Column(){
@@ -456,7 +451,6 @@ struct SepiaPage002 {
           .onDec(() => {
             this.value--
           })
-          .width(120)
           .height(50)
           .commonStyleEasy()
         } else if (this.targetView == 'Flex') {
@@ -474,8 +468,8 @@ struct SepiaPage002 {
             }.borderWidth(2)
             .commonStyle()
             .margin({top:0})
-          }.width(300)
-          .height(200)
+          }.width(400)
+          .height(500)
           .borderWidth(2)
           .margin({top:260})
         } else if (this.targetView == 'GridRow') {
@@ -503,7 +497,6 @@ struct SepiaPage002 {
           .rowsTemplate('1fr 1fr 1fr 1fr 1fr')
           .columnsGap(10)
           .rowsGap(10)
-          .width('90%')
           .height(300)
           .commonStyle()
         } else if (this.targetView == 'GridItem') {
@@ -540,8 +533,8 @@ struct SepiaPage002 {
             .commonStyle()
             .margin({top:0})
           }
-          .width(350)
-          .height(260)
+          .width(400)
+          .height(500)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -553,8 +546,8 @@ struct SepiaPage002 {
             .commonStyle()
             .margin({top:0})
           }
-          .width(350)
-          .height(260)
+          .width(400)
+          .height(500)
           .border({width:2})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
@@ -662,7 +655,7 @@ struct SepiaPage002 {
           Stack({ alignContent: Alignment.Center }) {
             Text('First child, show in bottom').width('40%').height('40%').backgroundColor(0xd2cab3).align(Alignment.Top)
             Text('Second child, show in top').width('25%').height('25%').backgroundColor(0xc1cbac).align(Alignment.Top)
-          }.width('100%').height(150).margin({ top: 5 })
+          }.height(150).margin({ top: 5 })
           .commonStyle()
         } else if (this.targetView == 'Swiper') {
           Swiper(this.swiperController) {
@@ -701,7 +694,6 @@ struct SepiaPage002 {
           .onChange((index: number) => {
             this.currentIndex = index
           })
-          .width(360)
           .height(296)
           .commonStyle()
         } else if (this.targetView == 'TabContent') {
@@ -728,6 +720,7 @@ struct SepiaPage002 {
           .width(200)
           .height(150)
           .margin({ top: 260 })
+          .border({width:2})
         }
         else if (this.targetView == 'FlowItem') {
           WaterFlow() {
@@ -735,7 +728,7 @@ struct SepiaPage002 {
               Text("N  FlowItem" ).fontSize(12).height('16')
             }
             .commonStyle()
-          }
+          }.border({width:2,color:Color.Yellow})
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -767,7 +760,6 @@ struct SepiaPage002 {
           .onReachEnd(() => {
             console.info("onReachEnd")
           })
-          .width('300')
           .height('180')
           .layoutDirection(FlexDirection.Column)
           .commonStyle()
@@ -782,7 +774,6 @@ struct SepiaPage002 {
             .commonStyleEasy()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
-            .width(150)
             .height(100)
             .fillOpacity(0)
             .stroke(Color.Blue)
@@ -790,21 +781,20 @@ struct SepiaPage002 {
             .commonStyle()
         } else if (this.targetView == 'Line') {
           Line()
-            .width(200)
             .height(150)
             .startPoint([0, 0])
             .endPoint([50, 100])
             .stroke(Color.Black)
             .commonStyle()
         } else if (this.targetView == 'Polyline') {
-          Polyline({ width: 100, height: 100 })
+          Polyline().height(100)
             .points([[10, 0], [40, 60], [100, 100]])
             .fillOpacity(0)
             .stroke(Color.Blue)
             .strokeWidth(3)
             .commonStyle()
         } else if (this.targetView == 'Polygon') {
-          Polygon({ width: 100, height: 100 })
+          Polygon().height(100)
             .points([[0, 0], [50, 100], [100, 0]])
             .fill(Color.Green)
             .commonStyle()
@@ -814,8 +804,7 @@ struct SepiaPage002 {
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
-            .width(300)
-            .height(400)
+            .height(200)
             .border({width:2})
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
@@ -827,7 +816,7 @@ struct SepiaPage002 {
             .margin({top:50})
         } else if (this.targetView == 'Shape') {
           Shape() {
-            Rect().width('80%').height('70%')
+            Rect().height('70%')
           }
           .viewPort({ x: -100, y: 5, width: 320, height: 70 })
           .stroke(Color.Black)

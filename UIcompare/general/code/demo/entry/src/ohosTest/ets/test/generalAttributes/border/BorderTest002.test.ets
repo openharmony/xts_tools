@@ -38,21 +38,14 @@ export default function BorderTest002() {
 
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','LoadingProgress','Marquee', 'Menu', 'MenuItem',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup','Navigation',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select',  'Text', 'TextArea', 'TextClock', 'TextInput',
-    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
+    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle1', 'Toggle2','Toggle3','Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
-    'Refresh', 'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
+    'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
-    'Canvas',
-    'XComponent',
-    // XComponent 通用属性不支持背景设置、透明度设置和图像效果
-
-    'Slider',
-  // Slider 支持除触摸热区以外的通用属性设置
-
-  // 'Navigation'
+    'Canvas','XComponent'
   ]
 
   //页面配置信息
@@ -66,6 +59,21 @@ export default function BorderTest002() {
   // this param is required.
   let testValues =[
     {
+      describe: 'source_linearGradient',
+      setValue:  {
+        source:{
+          angle: 90,
+          direction: GradientDirection.Left,
+          colors: [[0xAEE1E1, 0.0], [0xD3E0DC, 0.3], [0xFCD1D1, 1.0]]
+        },
+        slice: { top: 10, bottom: 10, left: 10, right: 10 },
+        width: { top: "80px", bottom: "80px", left: "80px", right: "80px" },
+        repeat: RepeatMode.Repeat,
+        fill: false
+      },
+    },
+    {
+
       describe: 'source_url',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
@@ -82,20 +90,6 @@ export default function BorderTest002() {
         slice: 5,
         width: 10,
         repeat: RepeatMode.Stretch,
-        fill: false
-      },
-    },
-    {
-      describe: 'source_linearGradient',
-      setValue:  {
-        source:{
-          angle: 90,
-          direction: GradientDirection.Left,
-          colors: [[0xAEE1E1, 0.0], [0xD3E0DC, 0.3], [0xFCD1D1, 1.0]]
-        },
-        slice: { top: 10, bottom: 10, left: 10, right: 10 },
-        width: { top: "80px", bottom: "80px", left: "80px", right: "80px" },
-        repeat: RepeatMode.Repeat,
         fill: false
       },
     },
@@ -163,7 +157,7 @@ export default function BorderTest002() {
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
         slice: $r('app.float.float_1'),
-        width: 10,
+        width: 40,
         repeat: RepeatMode.Stretch,
         fill: false
       },
@@ -172,8 +166,8 @@ export default function BorderTest002() {
       describe: 'slice_TopAndRight',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
-        slice: {top:"30%", bottom:"20px", left:"20%", right:20},
-        width: '20px',
+        slice: {top:"30%", bottom:"20px", left:"20%", right:40},
+        width: 40,
         repeat: RepeatMode.Stretch,
         fill: false
       },
@@ -261,18 +255,18 @@ export default function BorderTest002() {
       describe: 'outset_none',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
-        slice: 20,
-        width: 10,
-        repeat: RepeatMode.Stretch,
-        fill: false
+        slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
+        width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
+        repeat: RepeatMode.Repeat,
+        fill: false,
       },
     },
     {
       describe: 'outset_10',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
-        slice: 20,
-        width: 10,
+        slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
+        width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
         outset: 10,
         repeat: RepeatMode.Stretch,
         fill: false
@@ -282,8 +276,8 @@ export default function BorderTest002() {
       describe: 'outset_0',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
-        slice: 20,
-        width: 10,
+        slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
+        width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
         outset: 0,
         repeat: RepeatMode.Stretch,
         fill: false
@@ -293,8 +287,8 @@ export default function BorderTest002() {
       describe: 'outset_negative10',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
-        slice: 20,
-        width: 10,
+        slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
+        width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
         outset: -10,
         repeat: RepeatMode.Stretch,
         fill: false
@@ -304,8 +298,8 @@ export default function BorderTest002() {
       describe: 'outset_50px',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
-        slice: 20,
-        width: 10,
+        slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
+        width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
         outset: '50px',
         repeat: RepeatMode.Stretch,
         fill: false
@@ -315,8 +309,8 @@ export default function BorderTest002() {
       describe: 'outset_5percent',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
-        slice: 20,
-        width: 10,
+        slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
+        width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
         outset: '5%',
         repeat: RepeatMode.Stretch,
         fill: false
@@ -326,8 +320,8 @@ export default function BorderTest002() {
       describe: 'outset_resource',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
-        slice: 20,
-        width: 10,
+        slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
+        width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
         outset: $r('app.float.float_3'),
         repeat: RepeatMode.Stretch,
         fill: false
@@ -337,8 +331,8 @@ export default function BorderTest002() {
       describe: 'outset_TopAndRight',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
-        slice: 20,
-        width: 10,
+        slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
+        width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
         outset: {top:"50px", bottom:"10", left: 10, right:"5%"},
         repeat: RepeatMode.Stretch,
         fill: false

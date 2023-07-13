@@ -38,21 +38,14 @@ export default function BackdropBlurTest001() {
 
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','LoadingProgress','Marquee', 'Menu', 'MenuItem',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup','Navigation',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select',  'Text', 'TextArea', 'TextClock', 'TextInput',
-    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
+    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle1', 'Toggle2','Toggle3','Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
-    'Refresh', 'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
+    'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
-    'Canvas',
-    // 'XComponent',
-    // XComponent 通用属性不支持背景设置、透明度设置和图像效果
-
-    'Slider',
-  // Slider 支持除触摸热区以外的通用属性设置
-
-  // 'Navigation'
+    'Canvas','XComponent'
   ]
 
   //页面配置信息
