@@ -749,6 +749,8 @@ struct linearGradient03 {
             }
             .commonStyle()
           }
+        .width(200)
+        .height(150)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {

@@ -786,10 +786,15 @@ struct ZIndex001 {
         } else if (this.targetView == 'FlowItem') {
           WaterFlow() {
             FlowItem(){
-              Text("N  FlowItem" ).fontSize(12).height('16')
+              Text("FlowItem" ).fontSize(6).height(16)
             }
-            .commonStyle()
+            .width(40)
+            .height(60)
+            .border({width:2})
+            .margin({left:20,bottom:30})
+            .commonStyleEasy()
           }
+          .height(80)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -1479,13 +1484,50 @@ struct ZIndex001 {
           } else if (this.targetView == 'FlowItem') {
             WaterFlow() {
               FlowItem(){
-                Text("N  FlowItem" ).fontSize(12).height('16')
+                Text("FlowItem" ).fontSize(6).height(16)
               }
-              .commonStyle1()
+              .width(40)
+              .height(60)
+              .border({width:2})
+              .margin({left:20,bottom:30})
+              .commonStyleEasy1()
             }
+            .height(80)
           } else if (this.targetView == 'WaterFlow') {
-            WaterFlow()
-              .commonStyle1()
+            WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
+              LazyForEach(this.datasource, (item: number) => {
+                FlowItem() {
+                  Column() {
+                    Text("N" + item).fontSize(12).height('16')
+                    Image('/pages/images/icon.png')
+                      .objectFit(ImageFit.Fill)
+                      .width('100%')
+                      .layoutWeight(1)
+                  }
+                }
+                .width('100%')
+                .height(this.itemHeightArray[item])
+              }, item => item)
+            }
+            .columnsTemplate("1fr 1fr 1fr 1fr")
+            .itemConstraintSize({
+              minWidth: 0,
+              maxWidth: '100%',
+              minHeight: 0,
+              maxHeight: '100%'
+            })
+            .columnsGap(10)
+            .rowsGap(5)
+            .onReachStart(() => {
+              console.info("onReachStart")
+            })
+            .onReachEnd(() => {
+              console.info("onReachEnd")
+            })
+            .width('300')
+            .height('180')
+            .layoutDirection(FlexDirection.Column)
+            .commonStyle1()
           } else if (this.targetView == 'Video') {
             Video({
               src: $r('app.media.tree')
@@ -2148,10 +2190,15 @@ struct ZIndex001 {
         } else if (this.targetView == 'FlowItem') {
           WaterFlow() {
             FlowItem(){
-              Text("N  FlowItem" ).fontSize(12).height('16')
+              Text("FlowItem" ).fontSize(6).height(16)
             }
-            .commonStyle2()
+            .width(40)
+            .height(60)
+            .border({width:2})
+            .margin({left:20,bottom:30})
+            .commonStyleEasy2()
           }
+          .height(80)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {

@@ -133,15 +133,15 @@ struct Rotate001 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .width(200)
+    .height(150)
     .border({width:2})
     .key(this.componentKey)
   }
 
   @Styles commonStyleDemo(){
-    .width(350)
-    .height(260)
+    .width(200)
+    .height(150)
     .border({width:2})
     .key(this.componentKey)
   }
@@ -757,6 +757,8 @@ struct Rotate001 {
             }
             .commonStyle()
           }
+          .width(200)
+          .height(150)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -1455,6 +1457,8 @@ struct Rotate001 {
             }
             .commonStyleDemo()
           }
+          .width(200)
+          .height(150)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {

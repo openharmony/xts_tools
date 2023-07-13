@@ -758,10 +758,15 @@ struct FontWeightPage003 {
         } else if (this.targetView == 'FlowItem') {
           WaterFlow() {
             FlowItem(){
-              Text("N  FlowItem" ).fontSize(12).height('16')
+              Text("FlowItem" ).fontSize(6).height(16)
             }
-            .commonStyle1()
+            .width(40)
+            .height(60)
+            .border({width:2})
+            .margin({left:20,bottom:30})
+            .commonStyleEasy1()
           }
+          .height(80)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -1461,10 +1466,15 @@ struct FontWeightPage003 {
         } else if (this.targetView == 'FlowItem') {
           WaterFlow() {
             FlowItem(){
-              Text("N  FlowItem" ).fontSize(12).height('16')
+              Text("FlowItem" ).fontSize(6).height(16)
             }
-            .commonStyle2()
+            .width(40)
+            .height(60)
+            .border({width:2})
+            .margin({left:20,bottom:30})
+            .commonStyleEasy2()
           }
+          .height(80)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
