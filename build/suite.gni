@@ -208,7 +208,8 @@ template("ohos_testsuite_base") {
     _deps = [ ":module_${target_name}" ]
   } else if (_project_type == "pythontest") {
     print("this is pythontest")
-  } else if (_project_type != "testhapassist" && _project_type != "testappassist") {
+  } else if (_project_type != "testhapassist" &&
+             _project_type != "testappassist") {
     _deps = []
   }
   _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
