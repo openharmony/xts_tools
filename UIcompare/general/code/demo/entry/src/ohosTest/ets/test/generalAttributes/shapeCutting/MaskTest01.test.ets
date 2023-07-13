@@ -49,10 +49,6 @@ export default function MaskTest01() {
       describe: 'SUB_ACE_TS_COMPONENT_028', //截图命名的一部分
       setValue: new Circle({width:"400px",height:"280px"}), //要测试的属性值
     },
-    // {
-    //   describe: 'SUB_ACE_TS_COMPONENT_029', //截图命名的一部分
-    //   setValue: new Circle({width:"400px",height:"280px"}).fill(), //要测试的属性值
-    // },
     {
       describe: 'SUB_ACE_TS_COMPONENT_030', //截图命名的一部分
       setValue: new Circle(), //要测试的属性值

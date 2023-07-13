@@ -126,8 +126,8 @@ struct ClipPage002 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .width(200)
+    .height(150)
     .border({width:2})
     .clip(this._generalAttr)
     .key(this.componentKey)
@@ -171,7 +171,6 @@ struct ClipPage002 {
   }
 
   build() {
-    Row() {
       Column() {
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
@@ -872,7 +871,6 @@ struct ClipPage002 {
       }
       .width('100%')
       .height('100%')
-    }
-    .defaultFocus(true)
+      .defaultFocus(true)
   }
 }

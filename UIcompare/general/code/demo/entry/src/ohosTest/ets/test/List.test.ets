@@ -189,9 +189,9 @@ export default function testsuite() {
   ScaleTest02()
   TranslateTest02()
 
-  // ClipTest01()
-  // ClipTest02()
-  // MaskTest01()
+  ClipTest01()
+  ClipTest02()
+  MaskTest01()
 
   OverlayTest01()
   OverlayTest02()

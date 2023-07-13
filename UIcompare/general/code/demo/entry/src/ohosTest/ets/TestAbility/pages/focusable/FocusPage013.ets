@@ -85,7 +85,6 @@ struct FocusPage013 {
       }
       .width('100%')
       .height('100%')
-
     }
   }
 }

@@ -126,8 +126,8 @@ struct MaskPage001 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .width(200)
+    .height(150)
     .border({width:2})
     .mask(this._generalAttr.fill(Color.Green))
     .key(this.componentKey)
@@ -169,9 +169,8 @@ struct MaskPage001 {
     console.info('FocusPage onPageShow');
     AttrsManager.registerDataChange(value => this._generalAttr = value)
   }
-  // @ts-nocheck
+
   build() {
-    Row() {
       Column() {
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
@@ -872,8 +871,6 @@ struct MaskPage001 {
       }
       .width('100%')
       .height('100%')
-
-    }
-    .defaultFocus(true)
+      .defaultFocus(true)
   }
 }
