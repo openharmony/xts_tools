@@ -87,12 +87,14 @@ export default function FocusTest03() {
       // let testValue = true
       Settings.createWindow(config.uri)
       await sleep(1000)
-      let res1 = inputEventClient.injectEvent({KeyEvent: keyEvent});
+      sendEventByKey('Column01005',10,'');
       let picName1 = "SUB_ACE_TS_COMPONENT_00701"
+      await sleep(1000)
       windowSnap.snapShot(globalThis.context, picName1)
       // await sleep(1000)  确认一下这里需不需要等待时间
-      let res2 = inputEventClient.injectEvent({KeyEvent: keyEvent});
+      sendEventByKey('Column02005',10,'');
       let picName2 = "SUB_ACE_TS_COMPONENT_00702"
+      await sleep(1000)
       windowSnap.snapShot(globalThis.context, picName2)
       await sleep(1000)
       done();
@@ -108,14 +110,21 @@ export default function FocusTest03() {
       // AttrsManager.change(caseTag, testValue);
       Settings.createWindow(config.uri)
       await sleep(1000)
-      let res1 = inputEventClient.injectEvent({KeyEvent: keyEvent});
-      let picName1 = "SUB_ACE_TS_COMPONENT_00801"
+      sendEventByKey('Column01006',10,'');
+      let picName1 = "Column01006"
+      await sleep(1000)
       windowSnap.snapShot(globalThis.context, picName1)
-      let res2 = inputEventClient.injectEvent({KeyEvent: keyEvent});
-      let picName2 = "SUB_ACE_TS_COMPONENT_00802"
+      sendEventByKey('Button01006',10,'');
+      let picName2 = "Button01006"
+      await sleep(1000)
+      windowSnap.snapShot(globalThis.context, picName1)
+      sendEventByKey('Button02006',10,'');
+      let picName3 = "Button02006"
+      await sleep(1000)
       windowSnap.snapShot(globalThis.context, picName2)
-      let res3 = inputEventClient.injectEvent({KeyEvent: keyEvent});
-      let picName3 = "SUB_ACE_TS_COMPONENT_00803"
+      sendEventByKey('Button03006',10,'');
+      let picName4 = "Button03006"
+      await sleep(1000)
       windowSnap.snapShot(globalThis.context, picName3)
       await sleep(1000)
       done();
@@ -131,14 +140,17 @@ export default function FocusTest03() {
       // AttrsManager.change(caseTag, testValue);
       Settings.createWindow(config.uri)
       await sleep(1000)
-      let res1 = inputEventClient.injectEvent({KeyEvent: keyEvent});
-      let picName1 = "SUB_ACE_TS_COMPONENT_00901"
+      sendEventByKey('Column01007',10,'');
+      let picName1 = "Column01007"
+      await sleep(1000)
       windowSnap.snapShot(globalThis.context, picName1)
-      let res2 = inputEventClient.injectEvent({KeyEvent: keyEvent});
-      let picName2 = "SUB_ACE_TS_COMPONENT_00902"
+      sendEventByKey('Column02007',10,'');
+      let picName2 = "Column02007"
+      await sleep(1000)
       windowSnap.snapShot(globalThis.context, picName2)
-      let res3 = inputEventClient.injectEvent({KeyEvent: keyEvent});
-      let picName3 = "SUB_ACE_TS_COMPONENT_00903"
+      sendEventByKey('Column03007',10,'');
+      let picName3 = "Column03007"
+      await sleep(1000)
       windowSnap.snapShot(globalThis.context, picName3)
       await sleep(1000)
       done();
@@ -154,16 +166,16 @@ export default function FocusTest03() {
       // AttrsManager.change(caseTag, testValue);
       Settings.createWindow(config.uri)
       await sleep(1000)
-      let res1 = inputEventClient.injectEvent({KeyEvent: keyEvent});
-      let picName1 = "SUB_ACE_TS_COMPONENT_01001"
+      sendEventByKey('Column01008',10,'');
+      let picName1 = "Column01008"
       await sleep(1000)
       windowSnap.snapShot(globalThis.context, picName1)
-      let res2 = inputEventClient.injectEvent({KeyEvent: keyEvent});
-      let picName2 = "SUB_ACE_TS_COMPONENT_01002"
+      sendEventByKey('Column02008',10,'');
+      let picName2 = "Column02008"
       await sleep(1000)
       windowSnap.snapShot(globalThis.context, picName2)
-      let res3 = inputEventClient.injectEvent({KeyEvent: keyEvent});
-      let picName3 = "SUB_ACE_TS_COMPONENT_01003"
+      sendEventByKey('Column03008',10,'');
+      let picName3 = "Column03008"
       await sleep(1000)
       windowSnap.snapShot(globalThis.context, picName3)
       await sleep(1000)
@@ -264,18 +276,10 @@ export default function FocusTest03() {
     it('SUB_ACE_TS_COMPONENT_019',0,async function (done){
       //更改page路由
       let config={
-        uri:"TestAbility/pages/focusable/FocusPage015",
+        uri:"TestAbility/pages/focusable/FocusPage016",
       }
-      let testValues1 = [
-        {
-          describe: 'SUB_ACE_TS_COMPONENT_019', //截图命名的一部分
-          setValue: true, //要测试的属性值
-        }
-      ]
       Settings.createWindow(config.uri)
       await sleep(1000)
-      let caseTag1 = pageConfig.testName + "_" + "SUB_ACE_TS_COMPONENT_019"
-      AttrsManager.change(caseTag1, testValues1);
       let picName = "SUB_ACE_TS_COMPONENT_019"
       windowSnap.snapShot(globalThis.context, picName)
       await sleep(1000)
@@ -285,7 +289,7 @@ export default function FocusTest03() {
     it('SUB_ACE_TS_COMPONENT_020',0,async function (done){
       //更改page路由
       let config={
-        uri:"TestAbility/pages/focusable/FocusPage016",
+        uri:"TestAbility/pages/focusable/FocusPage017",
       }
       Settings.createWindow(config.uri)
       await sleep(1000)
@@ -298,12 +302,22 @@ export default function FocusTest03() {
     it('SUB_ACE_TS_COMPONENT_022',0,async function (done){
       //更改page路由
       let config={
-        uri:"TestAbility/pages/focusable/FocusPage017",
+        uri:"TestAbility/pages/focusable/FocusPage018",
       }
       Settings.createWindow(config.uri)
       await sleep(1000)
-      let picName = "SUB_ACE_TS_COMPONENT_022"
-      windowSnap.snapShot(globalThis.context, picName)
+      sendEventByKey('Column01008',10,'');
+      let picName1 = "SUB_ACE_TS_COMPONENT_02201"
+      await sleep(1000)
+      windowSnap.snapShot(globalThis.context, picName1)
+      sendEventByKey('Column02008',10,'');
+      let picName2 = "SUB_ACE_TS_COMPONENT_02202"
+      await sleep(1000)
+      windowSnap.snapShot(globalThis.context, picName2)
+      sendEventByKey('Column03008',10,'');
+      let picName3 = "SUB_ACE_TS_COMPONENT_02203"
+      await sleep(1000)
+      windowSnap.snapShot(globalThis.context, picName3)
       await sleep(1000)
       done();
     })
@@ -311,27 +325,24 @@ export default function FocusTest03() {
     it('SUB_ACE_TS_COMPONENT_024',0,async function (done){
       //更改page路由
       let config={
-        uri:"TestAbility/pages/focusable/FocusPage018",
+        uri:"TestAbility/pages/focusable/FocusPage019",
       }
       Settings.createWindow(config.uri)
       await sleep(2000)
-      let res1 = inputEventClient.injectEvent({KeyEvent: keyEvent});
       sendEventByKey('RequestFocus',10,'');
       await sleep(1000)
       let picName1 = "SUB_ACE_TS_COMPONENT_02401"
       windowSnap.snapShot(globalThis.context, picName1)
       await sleep(1000)
-      let res2 = inputEventClient.injectEvent({KeyEvent: keyEvent});
       sendEventByKey('RequestFocus',10,'');
       await sleep(1000)
       let picName2 = "SUB_ACE_TS_COMPONENT_02402"
       windowSnap.snapShot(globalThis.context, picName2)
-      let res3 = inputEventClient.injectEvent({KeyEvent: keyEvent});
       sendEventByKey('RequestFocus',10,'');
       await sleep(1000)
       let picName3 = "SUB_ACE_TS_COMPONENT_02403"
       windowSnap.snapShot(globalThis.context, picName3)
-      await sleep(2000)
+      await sleep(1000)
       done();
     })
 

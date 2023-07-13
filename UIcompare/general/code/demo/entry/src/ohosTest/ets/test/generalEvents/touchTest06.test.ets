@@ -12,17 +12,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import CommonTest from '../../common/CommonTest';
+import CommonTest from '../common/CommonTest';
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
-import Settings from '../../model/Settings'
-import Logger from '../../model/Logger'
+import Settings from '../model/Settings'
+import Logger from '../model/Logger'
 // @ts-ignore
 
-//测试通用属性-Rotate
-export default function RotateTest02() {
+//测试通用属性-TouchEvent
+export default function TouchEvent06() {
 
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
+
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
     'Divider', 'Gauge', 'Image', 'ImageAnimator','LoadingProgress','Marquee', 'Menu', 'MenuItem', 'Navigation',
@@ -38,59 +39,25 @@ export default function RotateTest02() {
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'RotateTest02', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/graphicTransformation/rotate002' //用于设置窗口页面
+    testName: 'TouchEvent06', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/touchEvent/touchEvent002' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'SUB_ACE_TS_COMPONENT_003', //截图命名的一部分
-      setValue: { x: 0, y: 0, z: 0, angle: 0, centerX: "50%", centerY: "50%"}, //要测试的属性值
+      describe: 'y1', //截图命名的一部分
+      setValue: 0, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_007', //截图命名的一部分
-      setValue: {angle: -90}, //要测试的属性值
+      describe: 'y2', //截图命名的一部分
+      setValue: -20, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_008', //截图命名的一部分
-      setValue: {angle: 90}, //要测试的属性值
+      describe: 'y3', //截图命名的一部分
+      setValue: 20, //要测试的属性值
     },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_011', //截图命名的一部分
-      setValue: {x:1,y:1,z:0,angle:45}, //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_012', //截图命名的一部分
-      setValue: {x:1,y:0,z:0,angle:45}, //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_013', //截图命名的一部分
-      setValue: {x:0,y:1,z:0,angle:45}, //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_014', //截图命名的一部分
-      setValue: {x:0,y:0,z:1,angle:45}, //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_015', //截图命名的一部分
-      setValue: {angle:90,centerX:"0%",centerY:"0%"}, //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_016', //截图命名的一部分
-      setValue: {angle:90,centerX:"20px"}, //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_018', //截图命名的一部分
-      setValue: {angle:"dfsf"}, //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_019', //截图命名的一部分
-      setValue: {angle:90,centerX:"dfd",centerY:"gj"}, //要测试的属性值
-    }
-
-
   ]
 
   function sleep(time) {
@@ -98,7 +65,7 @@ export default function RotateTest02() {
   }
 
   //  create test suite
-  describe('RotateTest02', function () {
+  describe('TouchEvent06', function () {
 
     beforeAll(async function () {
       console.info('beforeAll in1');
@@ -121,10 +88,10 @@ export default function RotateTest02() {
     })
 
     // create test cases by config.
-    CommonTest.initTest(pageConfig, supportView, testValues)
+    CommonTest.initTest_touchEvent6(pageConfig, supportView, testValues)
   })
 }
 
 export function create() {
-throw new Error('Function not implemented.');
+  throw new Error('Function not implemented.');
 }

@@ -44,7 +44,7 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct FocusPage {
+struct FocusPage001 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
   @State _generalAttr: number = 150; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
@@ -85,6 +85,7 @@ struct FocusPage {
   datasource: WaterFlowDataSource = new WaterFlowDataSource()
   private itemWidthArray: number[] = []
   private itemHeightArray: number[] = []
+  @State onFocusEvent:string = `${this.targetView}未获焦`
   @Builder NavigationTitle() {
     Column() {
       Text('Title')
@@ -127,19 +128,21 @@ struct FocusPage {
   @State oneButtonColor: string = '#FFC0CB';
 
   @Styles commonStyle(){
-    .width(this._generalAttr)
+    .width(260)
     .backgroundColor(this.oneButtonColor)
-    .height(200)
+    .height(180)
     .border({width:2})
     .onFocus(() => {
       this.oneButtonColor = '#FF0000';
+      this.onFocusEvent = `${this.targetView}获焦`
     })
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy(){
     .onFocus(() => {
-      this.oneButtonColor = '#FF0000';
+      this.oneButtonColor = '#FFFB10';
+
     })
     .backgroundColor(this.oneButtonColor)
     .key(this.componentKey)
@@ -180,6 +183,10 @@ struct FocusPage {
   build() {
     Row() {
       Column() {
+        Text(this.onFocusEvent)
+        .fontColor(18)
+        .margin({bottom:40})
+
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
             .commonStyle()
@@ -303,7 +310,6 @@ struct FocusPage {
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
-            .width(180)
             .height(72)
             .borderRadius(24)
 
@@ -497,8 +503,8 @@ struct FocusPage {
           .borderWidth(2)
         } else if (this.targetView == 'GridRow') {
           GridRow() {
-            GridCol({span:6}) {
-              Text('GridRow').height(80).width(120)
+            GridCol({span:5}) {
+              Text('GridRow').height(80)
             }
           }
           .commonStyle()
@@ -832,9 +838,7 @@ struct FocusPage {
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
-            .width(300)
-            .height(400)
-            .border({width:2})
+            .height(150)
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
           Column(){

@@ -133,7 +133,7 @@ struct ZIndex001 {
     .width(350)
     .height(260)
     .border({width:2})
-    .size({ width: '40%', height: '30%' })
+    .size({ width: '70%', height: '50%' })
     .backgroundColor(0xbbb2cb)
     .zIndex(this.zIndex1)
     .key(this.componentKey)
@@ -143,7 +143,7 @@ struct ZIndex001 {
     .width(200)
     .height(150)
     .border({width:2})
-    .size({ width: '70%', height: '50%' })
+    .size({ width: '60%', height: '35%' })
     .backgroundColor(0xd2cab3)
     .align(Alignment.TopStart)
     .zIndex(this.zIndex2)
@@ -154,7 +154,7 @@ struct ZIndex001 {
     .width(200)
     .height(150)
     .border({width:2})
-    .size({ width: '90%', height: '80%' })
+    .size({ width: '60%', height: '25%' })
     .backgroundColor(0xc1cbac)
     .align(Alignment.TopStart)
     .zIndex(this.zIndex3)
@@ -162,14 +162,14 @@ struct ZIndex001 {
   }
 
   @Styles commonStyleEasy(){
-    .size({ width: '40%', height: '30%' })
+    .size({ width: '70%', height: '50%' })
     .backgroundColor(0xbbb2cb)
     .zIndex(this.zIndex1)
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy1(){
-    .size({ width: '70%', height: '50%' })
+    .size({ width: '60%', height: '35%' })
     .backgroundColor(0xd2cab3)
     .align(Alignment.TopStart)
     .zIndex(this.zIndex2)
@@ -177,7 +177,7 @@ struct ZIndex001 {
   }
 
   @Styles commonStyleEasy2(){
-    .size({ width: '90%', height: '80%' })
+    .size({ width: '60%', height: '25%' })
     .backgroundColor(0xc1cbac)
     .align(Alignment.TopStart)
     .zIndex(this.zIndex3)
@@ -345,7 +345,6 @@ struct ZIndex001 {
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
-            .width(180)
             .height(72)
             .borderRadius(24)
 
@@ -874,9 +873,7 @@ struct ZIndex001 {
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
-            .width(300)
-            .height(400)
-            .border({width:2})
+            .height(150)
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
           Column(){
@@ -1710,7 +1707,6 @@ struct ZIndex001 {
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
-            .width(180)
             .height(72)
             .borderRadius(24)
 

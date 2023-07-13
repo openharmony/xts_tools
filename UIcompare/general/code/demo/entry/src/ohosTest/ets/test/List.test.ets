@@ -103,6 +103,14 @@ import ZIndexFont12 from './generalAttributes/zIndexFont/fontWeight01.test'
 import ZIndexFont13 from './generalAttributes/zIndexFont/fontWeight02.test'
 import ZIndexFont14 from './generalAttributes/zIndexFont/fontWeight03.test'
 
+// touchEvent
+import TouchEvent01 from './generalEvents/touchTest01.test'
+import TouchEvent02 from './generalEvents/touchTest02.test'
+import TouchEvent03 from './generalEvents/touchTest03.test'
+import TouchEvent04 from './generalEvents/touchTest04.test'
+import TouchEvent05 from './generalEvents/touchTest05.test'
+import TouchEvent06 from './generalEvents/touchTest06.test'
+
 //border
 import BorderTest001 from './generalAttributes/border/BorderTest001.test'
 import BorderTest002 from './generalAttributes/border/BorderTest002.test'
@@ -212,6 +220,28 @@ export default function testsuite() {
   FocusTest01()
   FocusTest02()
   FocusTest03()
+
+  ZIndexFont01()
+  ZIndexFont02()
+  ZIndexFont03()
+  ZIndexFont04()
+  ZIndexFont05()
+  ZIndexFont06()
+  ZIndexFont07()
+  ZIndexFont08()
+  ZIndexFont09()
+  ZIndexFont10()
+  ZIndexFont11()
+  ZIndexFont12()
+  ZIndexFont13()
+  ZIndexFont14()
+
+  TouchEvent01()
+  TouchEvent02()
+  TouchEvent03()
+  TouchEvent04()
+  TouchEvent05()
+  TouchEvent06()
 
 
   BorderTest001()

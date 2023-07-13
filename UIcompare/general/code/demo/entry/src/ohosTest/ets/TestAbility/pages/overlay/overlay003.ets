@@ -130,13 +130,15 @@ struct OverlayExample3 {
     .height(150)
     .border({width:2})
     .position({x:50,y:100})
-    .overlay("SUB_ACE_TS_OVERLAY_004",{})
+    .overlay("overlay003                        overlay003                     overlay003" +
+    "overlay003                        overlay003",{})
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy(){
     .position({x:50,y:100})
-    .overlay("SUB_ACE_TS_OVERLAY_004",{})
+    .overlay("overlay003                        overlay003                     overlay003" +
+    "overlay003                        overlay003",{})
     .key(this.componentKey)
   }
 
@@ -298,7 +300,6 @@ struct OverlayExample3 {
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
-            .width(180)
             .height(72)
             .borderRadius(24)
 
@@ -827,9 +828,7 @@ struct OverlayExample3 {
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
-            .width(300)
-            .height(400)
-            .border({width:2})
+            .height(150)
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
           Column(){

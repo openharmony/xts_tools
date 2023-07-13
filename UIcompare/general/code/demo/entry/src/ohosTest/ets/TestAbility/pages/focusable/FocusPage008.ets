@@ -17,18 +17,22 @@ import router from '@ohos.router';
 
 @Entry
 @Component
-struct FocusPage {
+struct FocusPage008 {
   @State _generalAttr: boolean = true; //通用属性初始值
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State state: AnimationStatus = AnimationStatus.Initial
   @State reverse: boolean = false
   @State iterations: number = 1
   @State eventType: string = '';
+  @State onFocusEvent1:string = `Column1 tabIndex = 1 未获焦`
+  @State onFocusEvent2:string = `Column2 tabIndex = 2 未获焦`
+  @State onFocusEvent3:string = `Column3 tabIndex  未获焦`
 
   @Styles commonStyle(){
     .width(200)
     .height(100)
     .border({width:2})
+    .margin({top:40})
     .focusable(this._generalAttr)
     .key(this.componentKey)
   }
@@ -40,59 +44,56 @@ struct FocusPage {
   build() {
     Row() {
       Column() {
+        Text(`${this.onFocusEvent1}`)
+          .fontSize(20)
         Column(){
-          Button("Button1 tabIndex = 0")
+          Button("Button1")
             .width(100)
             .height(50)
         }
         .tabIndex(1)
         .commonStyle()
-        .onKeyEvent((event: KeyEvent) => {
-          if (event.type === KeyType.Down) {
-            this.eventType = 'Down';
-          }
-          if (event.type === KeyType.Up) {
-            this.eventType = 'Up';
-          }
-          console.info("SUB_ACE_TS_COMPONENT_010 Column1 onKeyEvent")
+        .onClick(() => {
+          console.info("Column01008 tabIndex = 1 click success")
         })
+        .onFocus(() => {
+          this.onFocusEvent1 = `Column01008 tabIndex = 1 获焦`
+        })
+
+        Text(`${this.onFocusEvent2}`)
+          .fontSize(20)
         Column(){
-          Button("Button2 tabIndex = 0")
+          Button("Button2")
             .width(100)
             .height(50)
         }
         .tabIndex(2)
         .commonStyle()
-        .onKeyEvent((event: KeyEvent) => {
-          if (event.type === KeyType.Down) {
-            this.eventType = 'Down';
-          }
-          if (event.type === KeyType.Up) {
-            this.eventType = 'Up';
-          }
-          console.info("SUB_ACE_TS_COMPONENT_010 Column2 onKeyEvent")
+        .onClick(() => {
+          console.info("Column02008 tabIndex = 2 click success")
         })
+        .onFocus(() => {
+          this.onFocusEvent2 = `Column02008 tabIndex = 2 获焦`
+        })
+
+        Text(`${this.onFocusEvent3}`)
+          .fontSize(20)
         Column(){
-          Button("Button3 tabIndex = 0")
+          Button("Button3")
             .width(100)
             .height(50)
         }
         .commonStyle()
-        .onKeyEvent((event: KeyEvent) => {
-          if (event.type === KeyType.Down) {
-            this.eventType = 'Down';
-          }
-          if (event.type === KeyType.Up) {
-            this.eventType = 'Up';
-          }
-          console.info("SUB_ACE_TS_COMPONENT_010 Column3 onKeyEvent")
+        .onClick(() => {
+          console.info("Column01007 tabIndex = 0 click success")
         })
-
+        .onFocus(() => {
+          this.onFocusEvent3 = `Column03007 获焦`
+        })
 
       }
       .width('100%')
       .height('100%')
-      .backgroundColor(Color.Orange)
     }
     .defaultFocus(true)
   }

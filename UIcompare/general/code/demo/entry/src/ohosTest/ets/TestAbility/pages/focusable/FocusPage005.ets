@@ -19,7 +19,7 @@ import { WaterFlowDataSource } from '../WaterFlowDataSource'
 
 @Entry
 @Component
-struct FocusPage {
+struct FocusPage005 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
   @State _generalAttr: boolean = true; //通用属性初始值
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
@@ -27,6 +27,8 @@ struct FocusPage {
   @State reverse: boolean = false
   @State iterations: number = 1
   @State eventType: string = '';
+  @State onFocusEvent1:string = `Column tabIndex = -1 未获焦`
+  @State onFocusEvent2:string = `Column tabIndex = 1 未获焦`
 
   @Styles commonStyle(){
     .width(200)
@@ -41,24 +43,27 @@ struct FocusPage {
   }
 
   build() {
-    Row() {
       Column() {
+
+        Text(`${this.onFocusEvent1}`)
+        .fontSize(20)
+
         Column(){
           Button("tabIndex = -1")
             .width(100)
             .height(50)
         }.tabIndex(-1)
         .commonStyle()
-        .onKeyEvent((event: KeyEvent) => {
-          if (event.type === KeyType.Down) {
-            this.eventType = 'Down';
-          }
-          if (event.type === KeyType.Up) {
-            this.eventType = 'Up';
-          }
-          console.info("SUB_ACE_TS_COMPONENT_007 Column1 onKeyEvent")
+        .onClick(() => {
+          console.info("Column tabIndex = -1  click success")
         })
+        .onFocus(() => {
+          this.onFocusEvent1 = `Column tabIndex = -1 获焦`
+        })
+        .id("Column01005")
 
+        Text(`${this.onFocusEvent2}`)
+          .fontSize(20)
 
         Column(){
           Button("tabIndex = 1")
@@ -66,20 +71,17 @@ struct FocusPage {
             .height(50)
         }.tabIndex(1)
         .commonStyle()
-        .onKeyEvent((event: KeyEvent) => {
-          if (event.type === KeyType.Down) {
-            this.eventType = 'Down';
-          }
-          if (event.type === KeyType.Up) {
-            this.eventType = 'Up';
-          }
-          console.info("SUB_ACE_TS_COMPONENT_007 Column2 onKeyEvent")
+        .onClick(() => {
+          console.info("Column tabIndex = 1  click success")
         })
+        .onFocus(() => {
+          this.onFocusEvent2 = `Column tabIndex = 1 获焦`
+        })
+        .id("Column02005")
+
       }
       .width('100%')
       .height('100%')
-      .backgroundColor(Color.Orange)
+      .defaultFocus(true)
     }
-    .defaultFocus(true)
-  }
 }

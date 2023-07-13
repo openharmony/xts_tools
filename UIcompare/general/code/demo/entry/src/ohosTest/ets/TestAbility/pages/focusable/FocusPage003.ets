@@ -125,10 +125,15 @@ struct FocusPage003 {
     }
   }
 
+  @State onFocusEvent:string = `${this.targetView}未获焦`
+
   @Styles commonStyle(){
     .width(300)
     .height(200)
     .focusable(this._generalAttr)
+    .onFocus(() => {
+      this.onFocusEvent = `${this.targetView}获焦`
+    })
     .border({width:2})
     .key(this.componentKey)
   }
@@ -169,10 +174,14 @@ struct FocusPage003 {
     console.info('FocusPage onPageShow');
     AttrsManager.registerDataChange(value => this._generalAttr = value)
   }
-  // @ts-nocheck
+
   build() {
     Row() {
       Column() {
+        Text(this.onFocusEvent)
+          .fontColor(18)
+          .margin({top:40,bottom:40})
+
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
             .commonStyle()
@@ -296,7 +305,6 @@ struct FocusPage003 {
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
-            .width(180)
             .height(72)
             .borderRadius(24)
 
@@ -825,9 +833,7 @@ struct FocusPage003 {
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
-            .width(300)
-            .height(400)
-            .border({width:2})
+            .height(150)
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
           Column(){

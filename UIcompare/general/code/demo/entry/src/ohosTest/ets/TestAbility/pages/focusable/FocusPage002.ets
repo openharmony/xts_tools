@@ -19,7 +19,7 @@ import { WaterFlowDataSource } from '../WaterFlowDataSource'
 
 @Entry
 @Component
-struct FocusPage {
+struct FocusPage002 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
   @State _generalAttr: boolean = false; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
@@ -27,11 +27,17 @@ struct FocusPage {
   @State state: AnimationStatus = AnimationStatus.Initial
   @State reverse: boolean = false
   @State iterations: number = 1
-
+  @State onFocusEvent:string = `${this.targetView}未获焦`
+  @State oneButtonColor: string = '#F000CB';
   @Styles commonStyle(){
     .width(200)
-    .height(100)
+    .height(150)
     .border({width:2})
+    .backgroundColor(this.oneButtonColor)
+    .onFocus(() => {
+      this.oneButtonColor = '#FFFB10';
+      this.onFocusEvent = `${this.targetView}获焦`
+    })
     .key(this.componentKey)
   }
 
@@ -42,6 +48,10 @@ struct FocusPage {
   build() {
     Row() {
       Column() {
+        Text(this.onFocusEvent)
+          .fontColor(18)
+          .margin({top:40,bottom:40})
+
         Image($r("app.media.icon")).objectFit(ImageFit.Contain)
           .commonStyle()
         ImageAnimator()
@@ -97,7 +107,6 @@ struct FocusPage {
       }
       .width('100%')
       .height('100%')
-      .backgroundColor(Color.Orange)
     }
     .defaultFocus(true)
   }

@@ -169,7 +169,7 @@ struct VisibilityExample01 {
     console.info('FocusPage onPageShow');
     AttrsManager.registerDataChange(value => this._generalAttr = value)
   }
-  // @ts-nocheck
+
   build() {
     Row() {
       Column() {
@@ -296,7 +296,6 @@ struct VisibilityExample01 {
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
-            .width(180)
             .height(72)
             .borderRadius(24)
 
@@ -825,9 +824,7 @@ struct VisibilityExample01 {
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
-            .width(300)
-            .height(400)
-            .border({width:2})
+            .height(150)
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
           Column(){
@@ -872,6 +869,17 @@ struct VisibilityExample01 {
           }
           .commonStyle()
         }
+
+        if(this._generalAttr==Visibility.Hidden){
+          Text(`Visibility.Hidden：${this.targetView} 隐藏参与占位`)
+            .margin({top:40})
+            .fontColor(16)
+        }else if(this._generalAttr==Visibility.None){
+          Text(`Visibility.Hidden：${this.targetView} 隐藏不参与占位`)
+            .margin({top:40})
+            .fontColor(16)
+        }
+
       }
       .width('100%')
       .height('100%')

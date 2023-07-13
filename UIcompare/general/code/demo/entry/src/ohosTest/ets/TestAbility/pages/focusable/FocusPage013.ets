@@ -17,12 +17,15 @@ import router from '@ohos.router';
 
 @Entry
 @Component
-struct FocusPage {
+struct FocusPage013 {
   @State _generalAttr: boolean = false; //通用属性初始值
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State state: AnimationStatus = AnimationStatus.Initial
   @State reverse: boolean = false
   @State iterations: number = 1
+  @State onFocusEvent1:string = `Column1 defaultFocus=true 无默认获焦`
+  @State onFocusEvent2:string = `Column2 defaultFocus=true 无默认获焦`
+  @State onFocusEvent3:string = `Column3 defaultFocus 无默认获焦`
 
   @Styles commonStyle(){
     .width(200)
@@ -38,6 +41,8 @@ struct FocusPage {
   build() {
     Row() {
       Column() {
+        Text(`${this.onFocusEvent1}`)
+          .fontSize(20)
         Column(){
           Text("Column1")
             .width(100)
@@ -47,6 +52,12 @@ struct FocusPage {
         .height(100)
         .border({width:2})
         .defaultFocus(true)
+        .onFocus(() => {
+          this.onFocusEvent1 = `Column01013 defaultFocus=true 默认获焦`
+        })
+
+        Text(`${this.onFocusEvent2}`)
+          .fontSize(20)
         Column(){
           Text("Column2")
             .width(100)
@@ -56,16 +67,25 @@ struct FocusPage {
         .height(100)
         .border({width:2})
         .defaultFocus(true)
+        .onFocus(() => {
+          this.onFocusEvent2 = `Column02013 defaultFocus=true 默认获焦`
+        })
+
+        Text(`${this.onFocusEvent3}`)
+          .fontSize(20)
         Column(){
           Text("Column3")
             .width(100)
             .height(50)
         }
         .commonStyle()
+        .onFocus(() => {
+          this.onFocusEvent3 = `Column03013 defaultFocus 默认获焦`
+        })
       }
       .width('100%')
       .height('100%')
-      .backgroundColor(Color.Orange)
+
     }
   }
 }

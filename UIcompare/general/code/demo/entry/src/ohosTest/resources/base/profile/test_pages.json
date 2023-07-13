@@ -19,6 +19,7 @@
     "TestAbility/pages/focusable/FocusPage016",
     "TestAbility/pages/focusable/FocusPage017",
     "TestAbility/pages/focusable/FocusPage018",
+    "TestAbility/pages/focusable/FocusPage019",
     "TestAbility/pages/matrix/matrix001",
     "TestAbility/pages/matrix/matrix002",
     "TestAbility/pages/matrix/matrix003",
@@ -73,6 +74,13 @@
     "TestAbility/pages/shapeCutting/clip002",
     "TestAbility/pages/shapeCutting/mask001",
     "TestAbility/pages/visibility/visibility001",
+    "TestAbility/pages/zindexAndfont/zindexAndfont001",
+    "TestAbility/pages/zindexAndfont/zindexAndfont002",
+    "TestAbility/pages/zindexAndfont/zindexAndfont003",
+    "TestAbility/pages/zindexAndfont/zindexAndfont004",
+    "TestAbility/pages/zindexAndfont/zindexAndfont005",
+    "TestAbility/pages/touchEvent/touchEvent001",
+    "TestAbility/pages/touchEvent/touchEvent002",
 
     "TestAbility/pages/border/BorderPage001",
     "TestAbility/pages/border/BorderPage002",
@@ -107,7 +115,7 @@
     "TestAbility/pages/size/WidthPage001",
     "TestAbility/pages/size/WidthPage002",
     "TestAbility/pages/size/HeightPage001",
-    "TestAbility/pages/size/HeightPage002",
+    "TestAbility/pages/size/HeightPage002"
 
   ]
 }

@@ -17,7 +17,7 @@ import router from '@ohos.router';
 
 @Entry
 @Component
-struct FocusPage {
+struct FocusPage017 {
   @State _generalAttr: boolean = false; //通用属性初始值
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State state: AnimationStatus = AnimationStatus.Initial
@@ -28,6 +28,9 @@ struct FocusPage {
   @State submitValue: string = '';
   controller2: SearchController = new SearchController();
   controller1: TextInputController = new TextInputController()
+  @State onFocusEvent1:string = `FocusPage017 TextInput groupDefaultFocus(true) 无默认获焦`
+  @State onFocusEvent2:string = `FocusPage017 Button groupDefaultFocus(false) 无默认获焦`
+  @State onFocusEvent3:string = `FocusPage017 Search groupDefaultFocus  无默认获焦`
 
   @Styles commonStyle(){
     .width(200)
@@ -42,30 +45,8 @@ struct FocusPage {
 
   build() {
     Column() {
-
-      Button('Set caretPosition 1')
-        .margin(15)
-        .onClick(() => {
-          // 将光标移动至第一个字符后
-          this.controller1.caretPosition(1)
-        })
-        .focusOnTouch(true)
-
-      Button('Set caretPosition 1')
-        .margin(15)
-        .onClick(() => {
-          // 将光标移动至第一个字符后
-          this.controller1.caretPosition(2)
-        })
-        .focusOnTouch(false)
-
-      Button('Set caretPosition 1')
-        .margin(15)
-        .onClick(() => {
-          // 将光标移动至第一个字符后
-          this.controller1.caretPosition(3)
-        })
-
+      Text(`${this.onFocusEvent1}`)
+        .fontSize(20)
       TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller1 })
         .placeholderColor(Color.Grey)
         .placeholderFont({ size: 14, weight: 400 })
@@ -81,10 +62,47 @@ struct FocusPage {
         .onChange((value: string) => {
           this.text = value
         })
+        .groupDefaultFocus(true)
+        .onFocus(() => {
+          this.onFocusEvent1 = `FocusPage017 TextInput groupDefaultFocus(true) 默认获焦`
+        })
+
+      Text(`${this.onFocusEvent2}`)
+        .fontSize(20)
+      Button('Set caretPosition 1')
+        .margin(15)
+        .onClick(() => {
+          // 将光标移动至第一个字符后
+          this.controller1.caretPosition(1)
+        })
+        .groupDefaultFocus(true)
+        .onFocus(() => {
+          this.onFocusEvent2 = `FocusPage017 Button groupDefaultFocus(false) 默认获焦`
+        })
+
+      Text(`${this.onFocusEvent3}`)
+        .fontSize(20)
+      Search({ value: this.changeValue, placeholder: 'Type to search...', controller: this.controller2 })
+        .searchButton('SEARCH')
+        .width(300)
+        .height(40)
+        .backgroundColor(Color.White)
+        .placeholderColor(Color.Grey)
+        .placeholderFont({ size: 14, weight: 400 })
+        .textFont({ size: 14, weight: 400 })
+        .onSubmit((value: string) => {
+          this.submitValue = value;
+        })
+        .onChange((value: string) => {
+          this.changeValue = value;
+        })
+        .margin(20)
+        .onFocus(() => {
+          this.onFocusEvent3 = `FocusPage017 Search groupDefaultFocus  默认获焦`
+        })
+
     }
-    .focusOnTouch(true)
     .width('100%')
     .height('100%')
-    .backgroundColor(Color.Orange)
   }
 }

@@ -299,8 +299,40 @@ struct BackgroundColorPage {
               .commonStyle()
           }
         } else if (this.targetView == 'WaterFlow') {
-          WaterFlow()
-            .commonStyle()
+          WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
+            LazyForEach(this.datasource, (item: number) => {
+              FlowItem() {
+                Column() {
+                  Text("N" + item).fontSize(12).height('16')
+                  Image('/pages/images/icon.png')
+                    .objectFit(ImageFit.Fill)
+                    .width('100%')
+                    .layoutWeight(1)
+                }
+              }
+              .width('100%')
+              .height(this.itemHeightArray[item])
+            }, item => item)
+          }
+          .columnsTemplate("1fr 1fr 1fr 1fr")
+          .itemConstraintSize({
+            minWidth: 0,
+            maxWidth: '100%',
+            minHeight: 0,
+            maxHeight: '100%'
+          })
+          .columnsGap(10)
+          .rowsGap(5)
+          .onReachStart(() => {
+            console.info("onReachStart")
+          })
+          .onReachEnd(() => {
+            console.info("onReachEnd")
+          })
+          .width('300')
+          .height('180')
+          .layoutDirection(FlexDirection.Column)
+          .commonStyle()
         } else if (this.targetView == 'Video') {
           Video({
             src: $r('app.media.tree')

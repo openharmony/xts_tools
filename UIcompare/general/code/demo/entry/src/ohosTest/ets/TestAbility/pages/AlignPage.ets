@@ -1,6 +1,6 @@
 // @ts-nocheck
 /**
- * Copyright (c) 2022 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -308,8 +308,40 @@ struct AlignPage {
               .commonStyle()
           }
         } else if (this.targetView == 'WaterFlow') {
-          WaterFlow()
-            .commonStyle()
+          WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
+            LazyForEach(this.datasource, (item: number) => {
+              FlowItem() {
+                Column() {
+                  Text("N" + item).fontSize(12).height('16')
+                  Image('/pages/images/icon.png')
+                    .objectFit(ImageFit.Fill)
+                    .width('100%')
+                    .layoutWeight(1)
+                }
+              }
+              .width('100%')
+              .height(this.itemHeightArray[item])
+            }, item => item)
+          }
+          .columnsTemplate("1fr 1fr 1fr 1fr")
+          .itemConstraintSize({
+            minWidth: 0,
+            maxWidth: '100%',
+            minHeight: 0,
+            maxHeight: '100%'
+          })
+          .columnsGap(10)
+          .rowsGap(5)
+          .onReachStart(() => {
+            console.info("onReachStart")
+          })
+          .onReachEnd(() => {
+            console.info("onReachEnd")
+          })
+          .width('300')
+          .height('180')
+          .layoutDirection(FlexDirection.Column)
+          .commonStyle()
         } else if (this.targetView == 'Video') {
           Video({
             src: $r('app.media.tree')

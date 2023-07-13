@@ -17,7 +17,7 @@ import router from '@ohos.router';
 
 @Entry
 @Component
-struct FocusPage {
+struct FocusPage014 {
   @State _generalAttr: boolean = false; //通用属性初始值
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State state: AnimationStatus = AnimationStatus.Initial
@@ -25,6 +25,8 @@ struct FocusPage {
   @State iterations: number = 1
   @State text: string = ''
   controller: TextInputController = new TextInputController()
+  @State onFocusEvent1:string = `FocusPage014 TextInput 无默认获焦`
+  @State onFocusEvent2:string = `FocusPage014 Button 无默认获焦`
 
   @Styles commonStyle(){
     .width(200)
@@ -39,6 +41,9 @@ struct FocusPage {
 
   build() {
     Column() {
+
+      Text(`${this.onFocusEvent1}`)
+        .fontSize(20)
       TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller })
         .placeholderColor(Color.Grey)
         .placeholderFont({ size: 14, weight: 400 })
@@ -54,16 +59,25 @@ struct FocusPage {
         .onChange((value: string) => {
           this.text = value
         })
+        .onFocus(() => {
+          this.onFocusEvent1 = `FocusPage014 TextInput 默认获焦`
+        })
+
+      Text(`${this.onFocusEvent2}`)
+        .fontSize(20)
       Button('Set caretPosition 1')
         .margin(15)
         .onClick(() => {
           // 将光标移动至第一个字符后
           this.controller.caretPosition(1)
         })
+        .onFocus(() => {
+          this.onFocusEvent2 = `FocusPage014 Button 默认获焦`
+        })
     }
     .tabIndex(1)
     .width('100%')
     .height('100%')
-    .backgroundColor(Color.Orange)
+
   }
 }

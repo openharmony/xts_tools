@@ -17,7 +17,7 @@ import router from '@ohos.router';
 
 @Entry
 @Component
-struct FocusPage {
+struct FocusPage016 {
   @State _generalAttr: boolean = false; //通用属性初始值
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State state: AnimationStatus = AnimationStatus.Initial
@@ -26,8 +26,11 @@ struct FocusPage {
   @State text: string = ''
   @State changeValue: string = '';
   @State submitValue: string = '';
-  controller1: SearchController = new SearchController();
-  controller2: TextInputController = new TextInputController()
+  controller2: SearchController = new SearchController();
+  controller1: TextInputController = new TextInputController()
+  @State onFocusEvent1:string = `FocusPage016 TextInput groupDefaultFocus(true) 无默认获焦`
+  @State onFocusEvent2:string = `FocusPage016 Button groupDefaultFocus(true)无默认获焦`
+  @State onFocusEvent3:string = `FocusPage016 Search groupDefaultFocus  无默认获焦`
 
   @Styles commonStyle(){
     .width(200)
@@ -42,7 +45,9 @@ struct FocusPage {
 
   build() {
     Column() {
-      TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller2 })
+      Text(`${this.onFocusEvent1}`)
+        .fontSize(20)
+      TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller1 })
         .placeholderColor(Color.Grey)
         .placeholderFont({ size: 14, weight: 400 })
         .caretColor(Color.Blue)
@@ -58,18 +63,28 @@ struct FocusPage {
           this.text = value
         })
         .groupDefaultFocus(true)
+        .onFocus(() => {
+          this.onFocusEvent1 = `FocusPage016 TextInput groupDefaultFocus(true) 默认获焦`
+        })
 
+      Text(`${this.onFocusEvent2}`)
+        .fontSize(20)
       Button('Set caretPosition 1')
         .margin(15)
         .onClick(() => {
           // 将光标移动至第一个字符后
           this.controller1.caretPosition(1)
         })
-        .groupDefaultFocus(this._generalAttr)
+        .groupDefaultFocus(true)
+        .onFocus(() => {
+          this.onFocusEvent2 = `FocusPage016 Button groupDefaultFocus(true) 默认获焦`
+        })
 
-      Search({ value: this.changeValue, placeholder: 'Type to search...', controller: this.controller1 })
+      Text(`${this.onFocusEvent3}`)
+        .fontSize(20)
+      Search({ value: this.changeValue, placeholder: 'Type to search...', controller: this.controller2 })
         .searchButton('SEARCH')
-        .width(400)
+        .width(300)
         .height(40)
         .backgroundColor(Color.White)
         .placeholderColor(Color.Grey)
@@ -82,9 +97,13 @@ struct FocusPage {
           this.changeValue = value;
         })
         .margin(20)
+        .onFocus(() => {
+          this.onFocusEvent3 = `FocusPage016 Search groupDefaultFocus  默认获焦`
+        })
+
     }
+    .tabIndex(1)
     .width('100%')
     .height('100%')
-    .backgroundColor(Color.Orange)
   }
 }

@@ -130,44 +130,44 @@ struct MatrixExample16 {
   private matrix2 = this.matrix1.copy()
 
   @Styles commonStyle(){
-    .width(270)
-    .height(260)
-    .margin({bottom:30})
+    .width(100)
+    .height(140)
     .border({width:2})
+    .margin({left:-30,bottom:30})
     .key(this.componentKey)
   }
 
   @Styles commonStyle1(){
-    .width(270)
-    .height(260)
+    .width(100)
+    .height(140)
     .border({width:2})
-    .margin({bottom:30})
+    .margin({left:-30,bottom:30})
     .transform(this.matrix1)
     .key(this.componentKey)
   }
 
   @Styles commonStyle2(){
-    .width(200)
-    .height(150)
+    .width(100)
+    .height(140)
     .border({width:2})
-    .margin({bottom:30})
+    .margin({left:-30,bottom:30})
     .transform(this.matrix2)
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy(){
-    .margin({bottom:30})
+    .margin({left:-30,bottom:30})
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy1(){
-    .margin({bottom:30})
+    .margin({left:-30,bottom:30})
     .transform(this.matrix1)
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy2(){
-    .margin({bottom:30})
+    .margin({left:-30,bottom:30})
     .transform(this.matrix2)
     .key(this.componentKey)
   }
@@ -203,14 +203,15 @@ struct MatrixExample16 {
     console.info('FocusPage onPageShow');
     AttrsManager.registerDataChange(value => this._generalAttr = value)
   }
-  // @ts-nocheck
+
   build() {
     Column() {
       Column() {
         Text("Matrix015 matrix1:" + JSON.stringify(this.matrix1)+ "Matrix015 matrix2:" + JSON.stringify(this.matrix2) )
-          .margin({top:30,bottom:30})
-          .width(270)
-          .height(75)
+          .margin({top:50,bottom:50})
+          .fontSize(20)
+          .width(300)
+          .height(120)
           .id("Matrix015")
           .onClick(() => {
             console.info("Matrix015 matrix1:" + JSON.stringify(this.matrix1)
@@ -236,7 +237,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'CheckboxGroup') {
           Column(){
             CheckboxGroup({ group: 'checkboxGroup' })
@@ -246,7 +246,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'DataPanel') {
           DataPanel({ values: [50, 12, 8, 5] })
             .commonStyle()
@@ -268,7 +267,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'ImageAnimator') {
           ImageAnimator()
             .images([
@@ -336,11 +334,10 @@ struct MatrixExample16 {
             Row() {
               Image($r('app.media.icon')).width(30).height(30).borderRadius(30).margin({ left: 3, right: 10 })
               Text(`NavRouter`)
-                .fontSize(22)
+                .fontSize(10)
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
-            .width(180)
             .height(72)
             .borderRadius(24)
 
@@ -443,7 +440,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'TextPicker') {
           TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
             .commonStyle()
@@ -468,7 +464,6 @@ struct MatrixExample16 {
               .height(60)
               .commonStyleEasy()
           }
-          .border({width:2})
           .width(200)
           .height(150)
         } else if (this.targetView == 'Badge') {
@@ -479,11 +474,10 @@ struct MatrixExample16 {
               style: { badgeSize: 16, badgeColor: '#FA2A2D' }
             }) {
               Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-            }.width(49.5).height(60)
+            }.width(60).height(60)
             .commonStyleEasy()
-            .margin({ left: 12 })
+            .margin({ left: -40 })
           }
-          .border({width:2})
           .width(300)
           .height(180)
         } else if (this.targetView == 'Column') {
@@ -514,7 +508,6 @@ struct MatrixExample16 {
       }
       .width(350)
       .height(260)
-      .border({width:2})
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -531,14 +524,17 @@ struct MatrixExample16 {
             .commonStyle()
           }.width(300)
           .height(200)
-          .borderWidth(2)
         } else if (this.targetView == 'GridRow') {
           GridRow() {
-            GridCol({span:6}) {
-              Text('GridRow').height(80).width(120)
+            GridCol() {
             }
+            .width(20)
+            .height(60)
           }
-          .commonStyle()
+          .width(40)
+          .height(60)
+          .border({width:2})
+          .commonStyleEasy()
         } else if (this.targetView == 'Grid') {
           Grid() {
             ForEach(this.Number1, (day: string) => {
@@ -570,8 +566,8 @@ struct MatrixExample16 {
             ForEach(this.arr, (item) => {
               ListItem() {
                 Text('List' + item)
-                  .width('20%')
-                  .height(30)
+                  .width('70%')
+                  .height(50)
                   .fontSize(16)
                   .textAlign(TextAlign.Center)
                   .borderRadius(10)
@@ -591,25 +587,32 @@ struct MatrixExample16 {
           List() {
             ListItem(){
               Text('ListItem')
+                .fontColor(6)
+                .height(60)
             }
-            .commonStyle()
+            .width(40)
+            .height(60)
+            .border({width:2})
+            .commonStyleEasy()
           }
-          .width(370)
-          .height(280)
+          .margin({left:-60})
+          .width(350)
+          .height(60)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
               ListItem() {
                 Text('ListItemGroup')
-                  .margin({left:20})
+                  .margin({left:5})
                   .height(40)
               }
             }
             .commonStyle()
+            .margin({bottom:30})
           }
-          .width(200)
+          .margin({left:-30})
+          .width(260)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -782,10 +785,15 @@ struct MatrixExample16 {
         } else if (this.targetView == 'FlowItem') {
           WaterFlow() {
             FlowItem(){
-              Text("N  FlowItem" ).fontSize(12).height('16')
+              Text("FlowItem" ).fontSize(6).height(16)
             }
-            .commonStyle()
+            .width(40)
+            .height(60)
+            .border({width:2})
+            .margin({left:20,bottom:30})
+            .commonStyleEasy()
           }
+          .height(80)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -834,7 +842,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
             .width(150)
@@ -869,9 +876,7 @@ struct MatrixExample16 {
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
-            .width(300)
-            .height(400)
-            .border({width:2})
+            .height(150)
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
           Column(){
@@ -883,7 +888,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'Shape') {
           Shape() {
             Rect().width(100).height(60)
@@ -911,7 +915,7 @@ struct MatrixExample16 {
               .width("80%")
             Column() {
               Text(this.messageCommon)
-                .fontSize(30)
+                .fontSize(16)
             }
           }
           .commonStyle()
@@ -1044,7 +1048,6 @@ struct MatrixExample16 {
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
-            .width(180)
             .height(72)
             .borderRadius(24)
 
@@ -1147,7 +1150,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'TextPicker') {
           TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
             .commonStyle1()
@@ -1172,7 +1174,6 @@ struct MatrixExample16 {
               .height(60)
               .commonStyleEasy1()
           }
-          .border({width:2})
           .width(200)
           .height(150)
         } else if (this.targetView == 'Badge') {
@@ -1183,11 +1184,10 @@ struct MatrixExample16 {
               style: { badgeSize: 16, badgeColor: '#FA2A2D' }
             }) {
               Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-            }.width(49.5).height(60)
+            }.width(60).height(60)
             .commonStyleEasy1()
-            .margin({ left: 12 })
+            .margin({ left: -40 })
           }
-          .border({width:2})
           .width(300)
           .height(180)
         } else if (this.targetView == 'Column') {
@@ -1218,7 +1218,6 @@ struct MatrixExample16 {
       }
       .width(350)
       .height(260)
-      .border({width:2})
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -1235,13 +1234,16 @@ struct MatrixExample16 {
             .commonStyle1()
           }.width(300)
           .height(200)
-          .borderWidth(2)
         } else if (this.targetView == 'GridRow') {
           GridRow() {
-            GridCol({span:6}) {
-              Text('GridRow').height(80).width(120)
+            GridCol() {
             }
+            .width(35)
+            .height(60)
           }
+          .width(40)
+          .height(60)
+          .border({width:2})
           .commonStyle1()
         } else if (this.targetView == 'Grid') {
           Grid() {
@@ -1274,8 +1276,8 @@ struct MatrixExample16 {
             ForEach(this.arr, (item) => {
               ListItem() {
                 Text('List' + item)
-                  .width('20%')
-                  .height(30)
+                  .width('60%')
+                  .height(50)
                   .fontSize(16)
                   .textAlign(TextAlign.Center)
                   .borderRadius(10)
@@ -1295,11 +1297,14 @@ struct MatrixExample16 {
           List() {
             ListItem(){
               Text('ListItem')
+                .fontColor(6)
+                .height(60)
             }
             .commonStyle1()
           }
-          .width(370)
-          .height(280)
+          .margin({left:20})
+          .width(350)
+          .height(60)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -1311,9 +1316,9 @@ struct MatrixExample16 {
             }
             .commonStyle1()
           }
-          .width(200)
+          .margin({left:-30})
+          .width(260)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -1486,10 +1491,15 @@ struct MatrixExample16 {
         } else if (this.targetView == 'FlowItem') {
           WaterFlow() {
             FlowItem(){
-              Text("N  FlowItem" ).fontSize(12).height('16')
+              Text("FlowItem" ).fontSize(6).height(16)
             }
             .commonStyle1()
+            .width(40)
+            .height(60)
+            .border({width:2})
+            .margin({left:20,bottom:30})
           }
+          .height(80)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -1538,7 +1548,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
             .width(150)
@@ -1573,9 +1582,7 @@ struct MatrixExample16 {
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
-            .width(300)
-            .height(400)
-            .border({width:2})
+            .height(150)
             .commonStyleEasy1()
         } else if (this.targetView == 'Rect') {
           Column(){
@@ -1587,7 +1594,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'Shape') {
           Shape() {
             Rect().width(100).height(60)
@@ -1615,7 +1621,7 @@ struct MatrixExample16 {
               .width("80%")
             Column() {
               Text(this.messageCommon)
-                .fontSize(30)
+                .fontSize(16)
             }
           }
           .commonStyle1()
@@ -1748,7 +1754,6 @@ struct MatrixExample16 {
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
-            .width(180)
             .height(72)
             .borderRadius(24)
 
@@ -1851,7 +1856,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'TextPicker') {
           TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
             .commonStyle2()
@@ -1876,7 +1880,6 @@ struct MatrixExample16 {
               .height(60)
               .commonStyleEasy2()
           }
-          .border({width:2})
           .width(200)
           .height(150)
         } else if (this.targetView == 'Badge') {
@@ -1887,11 +1890,10 @@ struct MatrixExample16 {
               style: { badgeSize: 16, badgeColor: '#FA2A2D' }
             }) {
               Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-            }.width(49.5).height(60)
+            }.width(60).height(60)
             .commonStyleEasy2()
-            .margin({ left: 12 })
+            .margin({ left: -40 })
           }
-          .border({width:2})
           .width(300)
           .height(180)
         } else if (this.targetView == 'Column') {
@@ -1906,23 +1908,22 @@ struct MatrixExample16 {
           }
           .commonStyle2()
         } else if (this.targetView == 'Counter') {
-      Column(){
-        Counter() {
-          Text(this.value.toString())
-        }.margin(100)
-        .onInc(() => {
-          this.value++
-        })
-        .onDec(() => {
-          this.value--
-        })
-        .width(120)
-        .height(50)
-        .commonStyleEasy2()
-      }
-      .width(350)
-      .height(260)
-      .border({width:2})
+          Column(){
+            Counter() {
+              Text(this.value.toString())
+            }.margin(100)
+            .onInc(() => {
+              this.value++
+            })
+            .onDec(() => {
+              this.value--
+            })
+            .width(120)
+            .height(50)
+            .commonStyleEasy2()
+          }
+          .width(350)
+          .height(260)
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -1939,13 +1940,16 @@ struct MatrixExample16 {
             .commonStyle2()
           }.width(300)
           .height(200)
-          .borderWidth(2)
         } else if (this.targetView == 'GridRow') {
           GridRow() {
-            GridCol({span:6}) {
-              Text('GridRow').height(80).width(120)
+            GridCol() {
             }
+            .width(35)
+            .height(60)
           }
+          .width(40)
+          .height(60)
+          .border({width:2})
           .commonStyle2()
         } else if (this.targetView == 'Grid') {
           Grid() {
@@ -1978,8 +1982,8 @@ struct MatrixExample16 {
             ForEach(this.arr, (item) => {
               ListItem() {
                 Text('List' + item)
-                  .width('20%')
-                  .height(30)
+                  .width('60%')
+                  .height(50)
                   .fontSize(16)
                   .textAlign(TextAlign.Center)
                   .borderRadius(10)
@@ -1999,11 +2003,14 @@ struct MatrixExample16 {
           List() {
             ListItem(){
               Text('ListItem')
+                .fontColor(6)
+                .height(60)
             }
             .commonStyle2()
           }
-          .width(370)
-          .height(280)
+          .margin({left:20})
+          .width(350)
+          .height(60)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -2015,9 +2022,9 @@ struct MatrixExample16 {
             }
             .commonStyle2()
           }
-          .width(200)
+          .margin({left:-30})
+          .width(260)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -2190,10 +2197,15 @@ struct MatrixExample16 {
         } else if (this.targetView == 'FlowItem') {
           WaterFlow() {
             FlowItem(){
-              Text("N  FlowItem" ).fontSize(12).height('16')
+              Text("FlowItem" ).fontSize(6).height(16)
             }
             .commonStyle2()
+            .width(40)
+            .height(60)
+            .border({width:2})
+            .margin({left:20,bottom:30})
           }
+          .height(80)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -2242,7 +2254,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
             .width(150)
@@ -2277,9 +2288,7 @@ struct MatrixExample16 {
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
-            .width(300)
-            .height(400)
-            .border({width:2})
+            .height(150)
             .commonStyleEasy2()
         } else if (this.targetView == 'Rect') {
           Column(){
@@ -2291,7 +2300,6 @@ struct MatrixExample16 {
           }
           .width(200)
           .height(150)
-          .border({width:2})
         } else if (this.targetView == 'Shape') {
           Shape() {
             Rect().width(100).height(60)
@@ -2319,7 +2327,7 @@ struct MatrixExample16 {
               .width("80%")
             Column() {
               Text(this.messageCommon)
-                .fontSize(30)
+                .fontSize(16)
             }
           }
           .commonStyle2()
