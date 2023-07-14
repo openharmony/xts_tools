@@ -133,8 +133,12 @@ struct FocusPage001 {
     .height(180)
     .border({width:2})
     .onFocus(() => {
-      this.oneButtonColor = '#FF0000';
+      this.oneButtonColor = '#FFFB10';
       this.onFocusEvent = `${this.targetView}获焦`
+    })
+    .onBlur(() => {
+      this.oneButtonColor = '#FFC0CB'
+      this.onFocusEvent = `${this.targetView}失去获焦`
     })
     .key(this.componentKey)
   }
@@ -142,7 +146,11 @@ struct FocusPage001 {
   @Styles commonStyleEasy(){
     .onFocus(() => {
       this.oneButtonColor = '#FFFB10';
-
+      this.onFocusEvent = `${this.targetView}获焦`
+    })
+    .onBlur(() => {
+      this.oneButtonColor = '#FFC0CB'
+      this.onFocusEvent = `${this.targetView}失去获焦`
     })
     .backgroundColor(this.oneButtonColor)
     .key(this.componentKey)
@@ -179,13 +187,13 @@ struct FocusPage001 {
     console.info('FocusPage onPageShow');
     AttrsManager.registerDataChange(value => this._generalAttr = value)
   }
-  // @ts-nocheck
+
   build() {
     Row() {
       Column() {
         Text(this.onFocusEvent)
         .fontColor(18)
-        .margin({bottom:40})
+        .margin({top:40,bottom:40})
 
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })

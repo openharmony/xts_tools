@@ -125,14 +125,16 @@ struct FocusPage003 {
     }
   }
 
-  @State onFocusEvent:string = `${this.targetView}未获焦`
+  @State onFocusEvent:string = `${this.targetView} focusable(true)未获焦`
+  @State onFocusEvent1:string = `${this.targetView} focusable(false)未获焦`
 
   @Styles commonStyle(){
-    .width(300)
-    .height(200)
+    .width(230)
+    .height(160)
     .focusable(this._generalAttr)
     .onFocus(() => {
-      this.onFocusEvent = `${this.targetView}获焦`
+      this.onFocusEvent = `${this.targetView} focusable(true)获焦`
+      this.onFocusEvent1 = `${this.targetView} focusable(false)获焦`
     })
     .border({width:2})
     .key(this.componentKey)
@@ -140,6 +142,10 @@ struct FocusPage003 {
 
   @Styles commonStyleEasy(){
     .focusable(this._generalAttr)
+    .onFocus(() => {
+      this.onFocusEvent = `${this.targetView} focusable(true)获焦`
+      this.onFocusEvent1 = `${this.targetView} focusable(false)获焦`
+    })
     .key(this.componentKey)
   }
 
@@ -178,9 +184,15 @@ struct FocusPage003 {
   build() {
     Row() {
       Column() {
-        Text(this.onFocusEvent)
-          .fontColor(18)
-          .margin({top:40,bottom:40})
+        if(this._generalAttr==true){
+          Text(this.onFocusEvent)
+            .fontColor(18)
+            .margin({top:40,bottom:40})
+        }else if(this._generalAttr==false){
+          Text(this.onFocusEvent1)
+            .fontColor(18)
+            .margin({top:40,bottom:40})
+        }
 
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
