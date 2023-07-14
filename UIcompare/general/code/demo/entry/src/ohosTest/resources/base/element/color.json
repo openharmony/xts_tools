@@ -19,6 +19,14 @@
     {
       "name": "Pink",
       "value": "#d8b2d1"
+    },
+    {
+      "name": "pink",
+      "value": "#FFC0CB",
+    },
+    {
+      "name": "green",
+      "value": "#008000"
     }
   ]
 }

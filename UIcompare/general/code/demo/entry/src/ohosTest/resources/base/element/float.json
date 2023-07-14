@@ -8,6 +8,26 @@
     {
       "name": "100vp",
       "value": "100vp"
+    },
+    {
+      "name": "border_width",
+      "value": "20px"
+    },
+    {
+      "name": "float_1",
+      "value": "5px"
+    },
+    {
+      "name": "float_2",
+      "value": "-50"
+    },
+    {
+      "name": "float_3",
+      "value": "50px"
+    },
+    {
+      "name": "font_1",
+      "value": "20"
     }
   ]
 }
