@@ -29,6 +29,7 @@ def filter_modules(subsystem_data_file, test_packages):
     subsystems.add("storage")
     subsystems.add("arkXtest")
     subsystems.add("validator")
+    subsystems.add("driver")
     selected_packages = []
     for dep in test_packages:
         if 'selected_subsystem=' in dep:
