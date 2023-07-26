@@ -1,5 +1,5 @@
 {
-  "name": "@ohos/tools",
+  "name": "@ohos/xts_tools",
   "version": "4.0",
   "description": "",
   "license": "Apache License 2.0",
@@ -12,7 +12,7 @@
     "destPath": "test/xts/tools"
   },
   "component": {
-    "name": "tools",
+    "name": "xts_tools",
     "subsystem": "xts",
     "syscap": [],
     "features": [],
