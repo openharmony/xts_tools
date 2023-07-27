@@ -28,10 +28,9 @@
     },
     "build": {
       "sub_component": [
-        "//test/xts/tools/lite:tools"
       ],
       "inner_kits": [],
-      "test": []
+      "test": ["//test/xts/tools:tools"]
     }
   }
 }
