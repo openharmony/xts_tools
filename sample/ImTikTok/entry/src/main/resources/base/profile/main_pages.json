@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/Index",
+    "imtiktok/pages/Login",
+    "imtiktok/pages/ChatPage",
+    "imtiktok/pages/SearchPage",
+    "imtiktok/pages/CameraPage",
+    "imtiktok/pages/PublishPage"
+  ]
+}

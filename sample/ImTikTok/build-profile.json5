@@ -1,0 +1,55 @@
+/*
+ * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\zhaoxin\\.ohos\\config\\openharmony\\auto_ohos_default_ImTikTok_com.samples.imtiktok.cer",
+          "storePassword": "0000001B296072A2AFAD089B86685271E6C53F3D4E4C42ACD2FBC6C680AB8D2245539B8478DD147123046D",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BCF3CB4B890B81C92A003054C240F6FE2C09806201B4A3F95A6A6D66134E4BAB4D4D3858BB162F6",
+          "profile": "C:\\Users\\zhaoxin\\.ohos\\config\\openharmony\\auto_ohos_default_ImTikTok_com.samples.imtiktok.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\zhaoxin\\.ohos\\config\\openharmony\\auto_ohos_default_ImTikTok_com.samples.imtiktok.p12"
+        }
+      }
+    ],
+
+    "compileSdkVersion": 10,
+    "compatibleSdkVersion": 10,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
