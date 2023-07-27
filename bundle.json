@@ -30,7 +30,7 @@
       "sub_component": [
       ],
       "inner_kits": [],
-      "test": ["//test/xts/tools:tools"]
+      "test": ["//test/xts/lite:tools"]
     }
   }
 }
