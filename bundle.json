@@ -1,6 +1,6 @@
 {
   "name": "@ohos/tools",
-  "version": "4.0",
+  "version": "3.1",
   "description": "",
   "license": "Apache License 2.0",
   "domain": "os",
@@ -18,7 +18,8 @@
     "features": [],
     "adapted_system_type": [
       "mini",
-      "small"
+      "small",
+      "standard"
     ],
     "rom": "~256KB",
     "ram": "0KB",
