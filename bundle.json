@@ -1,0 +1,36 @@
+{
+  "name": "@ohos/tools",
+  "version": "3.1",
+  "description": "",
+  "license": "Apache License 2.0",
+  "domain": "os",
+  "publishAs": "",
+  "private": false,
+  "scripts": {},
+  "dirs": [],
+  "segment": {
+    "destPath": "test/xts/tools"
+  },
+  "component": {
+    "name": "tools",
+    "subsystem": "xts",
+    "syscap": [],
+    "features": [],
+    "adapted_system_type": [
+      "mini",
+      "small",
+      "standard"
+    ],
+    "rom": "~256KB",
+    "ram": "0KB",
+    "deps": {
+      "components": [],
+      "third_party": []
+    },
+    "build": {
+      "sub_component": [],
+      "inner_kits": [],
+      "test": ["//test/xts/tools/lite:tools"]
+    }
+  }
+}
