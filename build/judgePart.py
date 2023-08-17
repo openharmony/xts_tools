@@ -31,7 +31,7 @@ def get_modulename_by_buildtarget(module_list_file, build_target):
     with open(module_list_file, "r") as module_file:
         module_info_data = json.load(module_file)
     for module in module_info_data:
-        if module == build_target:
+        if module in [build_target, f'{build_target}_override']:
             return module_info_data[module];
     return ""
 
