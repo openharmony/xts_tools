@@ -220,7 +220,7 @@ template("ohos_testsuite_base") {
         "${_suite_out_dir}/testcases/module_${_archive_filename}"
   } else if (_project_type == "testhap") {
     _hap_name = invoker.hap_name
-    if (_hap_name == "ActsValidatorTest") {
+    if (_hap_name == "validator") {
       _archive_testfile =
           "${SUITES_OUTPUT_ROOT}/acts-validator/testcases/${_archive_filename}"
     } else {
