@@ -20,6 +20,10 @@ import windowSnap from '../model/snapShot';
 import Settings from '../model/Settings';
 import Logger from '../model/Logger'
 import router from '@ohos.router';
+import {
+  Driver,
+  ON,
+} from '@ohos.UiTest';
 
 export default class CommonTest {
   static initTest(pageConfig, supportView, testValues) {
@@ -70,14 +74,12 @@ export default class CommonTest {
           console.info('FocusTest AttrsManager.change begin');
           //更改属性值
           AttrsManager.change(caseTag, testValue.setValue);
-
           //截图
           await Utils.sleep(1000);
           console.info('FocusTest windowSnap.snapShot begin');
           await windowSnap.snapShot(globalThis.context, caseTag)
           console.info('FocusTest windowSnap.snapShot success');
           await Utils.sleep(1000);
-
           done()
         });
       })
@@ -132,7 +134,11 @@ export default class CommonTest {
           console.info('FocusTest AttrsManager.change begin');
           //更改属性值
           AttrsManager.change(caseTag, testValue.setValue);
-          sendEventByKey(id,10,'');
+          let driver = Driver.create();
+          let component = await driver.findComponent(ON.id(id));
+          let rect = await component.getBounds();
+          await driver.click(rect.left + Math.floor((rect.right - rect.left) / 2), rect.top + Math.floor((rect.bottom
+          - rect.top) / 2));
           //截图
           await Utils.sleep(1000);
           console.info('FocusTest windowSnap.snapShot begin');
@@ -145,8 +151,7 @@ export default class CommonTest {
     });
   }
 
-  // sendTouchEvent
-  static initTest_touchEvent1(pageConfig, supportView, testValues) {
+  static initTest_touchEvent(pageConfig, supportView, testValues, id) {
 
     afterEach(async function (done) {
       if (Settings.windowClass == null) {
@@ -186,30 +191,18 @@ export default class CommonTest {
               view: pageConfig
             }
           })
-          console.info('router.pushUrl success');
+          console.info('FocusTest router.pushUrl success');
           //在此处可以获取页面中的组件进行一些操作，例如获取组件并点击
           // await Utils.clickComponentByKey(targetView)
           await Utils.sleep(1000);
-          console.info('AttrsManager.change begin');
+          console.info('FocusTest AttrsManager.change begin');
+          let driver = Driver.create();
+          let component = await driver.findComponent(ON.id(id));
+          let rect = await component.getBounds();
+          await driver.click(rect.left + Math.floor((rect.right - rect.left) / 2), rect.top + Math.floor((rect.bottom - rect.top) / 2));
+          //截图
           //更改属性值
           AttrsManager.change(caseTag, testValue.setValue);
-          console.info('AttrsManager.change end');
-
-          console.info('getComponentRect begin');
-          let rect = Utils.getComponentRect('onTouchEvent') // 获取id为"onTouch"组件的矩形区域坐标
-          console.info('getComponentRect end');
-          let touchPoint = {
-            id: 1,
-            x: rect.left + (rect.right - rect.left) / 2, // 组件中心点x坐标
-            y: rect.top + (rect.bottom - rect.top) / 2, // 组件中心点y坐标
-            type: TouchType.Down,
-            screenX: rect.left + (rect.right - rect.left) / 2, // 组件中心点x坐标
-            screenY: rect.top + (rect.bottom - rect.top) / 2, // 组件中心点y坐标
-          }
-          console.info('sendTouchEvent begin');
-          sendTouchEvent(touchPoint) // 发送触摸事件
-          console.info('sendTouchEvent end');
-          //截图
           await Utils.sleep(1000);
           console.info('FocusTest windowSnap.snapShot begin');
           await windowSnap.snapShot(globalThis.context, caseTag)
@@ -221,8 +214,7 @@ export default class CommonTest {
     });
   }
 
-  // id = 1,2
-  static initTest_touchEvent2(pageConfig, supportView, testValues) {
+  static initTest1(pageConfig, supportView, testValues) {
 
     afterEach(async function (done) {
       if (Settings.windowClass == null) {
@@ -250,8 +242,7 @@ export default class CommonTest {
           pageConfig['componentKey'] = targetView;
 
           //创建窗口，设置窗口页面
-          Settings.createWindow(pageConfig.pageUrl)
-          console.info('FocusTest Settings.createWindow success');
+          Settings.createWindow(pageConfig.pageUrl,{X:100,Y:100,width:600,height:1250,dpi:200})
 
           await Utils.sleep(1000);
 
@@ -262,36 +253,23 @@ export default class CommonTest {
               view: pageConfig
             }
           })
-          console.info('FocusTest router.pushUrl success');
-          //在此处可以获取页面中的组件进行一些操作，例如获取组件并点击
-          // await Utils.clickComponentByKey(targetView)
           await Utils.sleep(1000);
-          console.info('FocusTest AttrsManager.change begin');
-          let rect = Utils.getComponentRect('onTouch') // 获取id为"onTouch"组件的矩形区域坐标
-          let touchPoint: TouchObject = {
-            id: testValue.setValue,
-            x: rect.left + (rect.right - rect.left) / 2, // 组件中心点x坐标
-            y: rect.top + (rect.bottom - rect.top) / 2, // 组件中心点y坐标
-            type: TouchType.Down,
-            screenX: rect.left + (rect.right - rect.left) / 2, // 组件中心点x坐标
-            screenY: rect.top + (rect.bottom - rect.top) / 2, // 组件中心点y坐标
-          }
-          sendTouchEvent(touchPoint) // 发送触摸事件
+
+          //更改属性值
+          AttrsManager.change(caseTag, testValue.setValue);
 
           //截图
+          await Utils.sleep(2000);
+          windowSnap.snapShot(globalThis.context, caseTag)
           await Utils.sleep(1000);
-          console.info('FocusTest windowSnap.snapShot begin');
-          await windowSnap.snapShot(globalThis.context, caseTag)
-          console.info('FocusTest windowSnap.snapShot success');
-          await Utils.sleep(1000);
+
           done()
         });
       })
     });
   }
 
-  // screenX
-  static initTest_touchEvent3(pageConfig, supportView, testValues) {
+  static initTest_response(pageConfig, supportView, testValues) {
 
     afterEach(async function (done) {
       if (Settings.windowClass == null) {
@@ -319,9 +297,7 @@ export default class CommonTest {
           pageConfig['componentKey'] = targetView;
 
           //创建窗口，设置窗口页面
-          Settings.createWindow(pageConfig.pageUrl)
-          console.info('FocusTest Settings.createWindow success');
-
+          Settings.createWindow(pageConfig.pageUrl,{X:100,Y:100,width:600,height:1250,dpi:200})
           await Utils.sleep(1000);
 
           //跳转页面并传递参数
@@ -331,35 +307,126 @@ export default class CommonTest {
               view: pageConfig
             }
           })
-          console.info('FocusTest router.pushUrl success');
-          //在此处可以获取页面中的组件进行一些操作，例如获取组件并点击
-          // await Utils.clickComponentByKey(targetView)
           await Utils.sleep(1000);
-          console.info('FocusTest AttrsManager.change begin');
-          let rect = Utils.getComponentRect('onTouch') // 获取id为"onTouch"组件的矩形区域坐标
-          let touchPoint: TouchObject = {
-            id: 1,
-            x: rect.left + (rect.right - rect.left) / 2, // 组件中心点x坐标
-            y: rect.top + (rect.bottom - rect.top) / 2, // 组件中心点y坐标
-            type: TouchType.Down,
-            screenX: rect.left + testValue.setValue, // 组件中心点x坐标
-            screenY: rect.top + (rect.bottom - rect.top) / 2 , // 组件中心点y坐标
-          }
-          sendTouchEvent(touchPoint) // 发送触摸事件
-          //截图
+
+          let driver = Driver.create();
+          let component = await driver.findComponent(ON.id("Me"));
+          let rect = await component.getBounds();
+          await driver.click(rect.left+testValue.setValue.x, rect.top+testValue.setValue.y);
           await Utils.sleep(1000);
-          console.info('FocusTest windowSnap.snapShot begin');
-          await windowSnap.snapShot(globalThis.context, caseTag)
-          console.info('FocusTest windowSnap.snapShot success');
+
+          windowSnap.snapShot(globalThis.context, caseTag)
           await Utils.sleep(1000);
+
           done()
         });
       })
     });
+
   }
 
-  // screenY
-  static initTest_touchEvent4(pageConfig, supportView, testValues) {
+  static initTest_clickNone(pageConfig, supportView, testValues) {
+    afterEach(async function (done) {
+      if (Settings.windowClass == null) {
+        return
+      }
+
+      Settings.windowClass.destroyWindow((err) => {
+        if (err.code) {
+          Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
+          return;
+        }
+        Logger.info('TEST', `Succeeded in destroy the window.`);
+      })
+      await Utils.sleep(1000);
+      done()
+    })
+
+    //根据要测试的组件和属性值循环创建case
+    supportView.forEach(targetView => {
+      testValues.forEach(testValue => {
+        let caseTag = pageConfig.testName + "_" + targetView + "_" + testValue.describe
+        //create cases
+        it(caseTag, 0, async (done) => {
+          pageConfig['targetView'] = targetView;
+          pageConfig['componentKey'] = targetView;
+
+          //创建窗口，设置窗口页面
+          Settings.createWindow(pageConfig.pageUrl,{X:100,Y:100,width:600,height:1250,dpi:200})
+          await Utils.sleep(1000);
+
+          //跳转页面并传递参数
+          await router.pushUrl({
+            url: pageConfig.pageUrl,
+            params: {
+              view: pageConfig
+            }
+          })
+          await Utils.sleep(1000);
+
+          windowSnap.snapShot(globalThis.context, caseTag)
+          await Utils.sleep(1000);
+
+          done()
+        });
+      })
+    });
+
+  }
+
+  static initTest_click(pageConfig, supportView, testValues) {
+    afterEach(async function (done) {
+      if (Settings.windowClass == null) {
+        return
+      }
+
+      Settings.windowClass.destroyWindow((err) => {
+        if (err.code) {
+          Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
+          return;
+        }
+        Logger.info('TEST', `Succeeded in destroy the window.`);
+      })
+      await Utils.sleep(1000);
+      done()
+    })
+
+    //根据要测试的组件和属性值循环创建case
+    supportView.forEach(targetView => {
+      testValues.forEach(testValue => {
+        let caseTag = pageConfig.testName + "_" + targetView + "_" + testValue.describe
+        //create cases
+        it(caseTag, 0, async (done) => {
+          pageConfig['targetView'] = targetView;
+          pageConfig['componentKey'] = targetView;
+
+          //创建窗口，设置窗口页面
+          Settings.createWindow(pageConfig.pageUrl,{X:100,Y:100,width:600,height:1250,dpi:200})
+          await Utils.sleep(1000);
+
+          //跳转页面并传递参数
+          await router.pushUrl({
+            url: pageConfig.pageUrl,
+            params: {
+              view: pageConfig
+            }
+          })
+          await Utils.sleep(1000);
+
+          await Utils.clickComponentByKey(targetView)
+          await Utils.sleep(1000);
+
+          windowSnap.snapShot(globalThis.context, caseTag)
+          await Utils.sleep(1000);
+
+          done()
+        });
+      })
+    });
+
+  }
+
+  static initTest_click1(pageConfig, supportView, testValues) {
 
     afterEach(async function (done) {
       if (Settings.windowClass == null) {
@@ -387,9 +454,7 @@ export default class CommonTest {
           pageConfig['componentKey'] = targetView;
 
           //创建窗口，设置窗口页面
-          Settings.createWindow(pageConfig.pageUrl)
-          console.info('FocusTest Settings.createWindow success');
-
+          Settings.createWindow(pageConfig.pageUrl,{X:100,Y:100,width:600,height:1250,dpi:200})
           await Utils.sleep(1000);
 
           //跳转页面并传递参数
@@ -399,166 +464,21 @@ export default class CommonTest {
               view: pageConfig
             }
           })
-          console.info('FocusTest router.pushUrl success');
-          //在此处可以获取页面中的组件进行一些操作，例如获取组件并点击
-          // await Utils.clickComponentByKey(targetView)
           await Utils.sleep(1000);
-          console.info('FocusTest AttrsManager.change begin');
-          let rect = Utils.getComponentRect('onTouch') // 获取id为"onTouch"组件的矩形区域坐标
-          let touchPoint: TouchObject = {
-            id: 1,
-            x: rect.left + (rect.right - rect.left) / 2, // 组件中心点x坐标
-            y: rect.top + (rect.bottom - rect.top) / 2, // 组件中心点y坐标
-            type: TouchType.Down,
-            screenX: rect.left + (rect.right - rect.left) / 2, // 组件中心点x坐标
-            screenY: rect.top + testValue.setValue, // 组件中心点y坐标
-          }
-          sendTouchEvent(touchPoint) // 发送触摸事件
-          //截图
+
+          let driver = Driver.create();
+          let component = await driver.findComponent(ON.id("Me"));
+          let rect = await component.getBounds();
+          await driver.click(rect.left+testValue.setValue.x, rect.top+testValue.setValue.y);
           await Utils.sleep(1000);
-          console.info('FocusTest windowSnap.snapShot begin');
-          await windowSnap.snapShot(globalThis.context, caseTag)
-          console.info('FocusTest windowSnap.snapShot success');
+
+          windowSnap.snapShot(globalThis.context, caseTag)
           await Utils.sleep(1000);
+
           done()
         });
       })
     });
   }
 
-  // x
-  static initTest_touchEvent5(pageConfig, supportView, testValues) {
-
-    afterEach(async function (done) {
-      if (Settings.windowClass == null) {
-        return
-      }
-
-      Settings.windowClass.destroyWindow((err) => {
-        if (err.code) {
-          Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
-          return;
-        }
-        Logger.info('TEST', `Succeeded in destroy the window.`);
-      })
-      await Utils.sleep(1000);
-      done()
-    })
-
-    //根据要测试的组件和属性值循环创建case
-    supportView.forEach(targetView => {
-      testValues.forEach(testValue => {
-        let caseTag = pageConfig.testName + "_" + targetView + "_" + testValue.describe
-        //create cases
-        it(caseTag, 0, async (done) => {
-          pageConfig['targetView'] = targetView;
-          pageConfig['componentKey'] = targetView;
-
-          //创建窗口，设置窗口页面
-          Settings.createWindow(pageConfig.pageUrl)
-          console.info('FocusTest Settings.createWindow success');
-
-          await Utils.sleep(1000);
-
-          //跳转页面并传递参数
-          await router.pushUrl({
-            url: pageConfig.pageUrl,
-            params: {
-              view: pageConfig
-            }
-          })
-          console.info('FocusTest router.pushUrl success');
-          //在此处可以获取页面中的组件进行一些操作，例如获取组件并点击
-          // await Utils.clickComponentByKey(targetView)
-          await Utils.sleep(1000);
-          console.info('FocusTest AttrsManager.change begin');
-          let rect = Utils.getComponentRect('onTouch') // 获取id为"onTouch"组件的矩形区域坐标
-          let touchPoint: TouchObject = {
-            id: 1,
-            x: rect.left + testValue.setValue, // 组件中心点x坐标
-            y: rect.top + (rect.bottom - rect.top) / 2, // 组件中心点y坐标
-            type: TouchType.Down,
-            screenX: rect.left + (rect.right - rect.left) / 2, // 组件中心点x坐标
-            screenY: rect.top + (rect.bottom - rect.top) / 2, // 组件中心点y坐标
-          }
-          sendTouchEvent(touchPoint) // 发送触摸事件
-          //截图
-          await Utils.sleep(1000);
-          console.info('FocusTest windowSnap.snapShot begin');
-          await windowSnap.snapShot(globalThis.context, caseTag)
-          console.info('FocusTest windowSnap.snapShot success');
-          await Utils.sleep(1000);
-          done()
-        });
-      })
-    });
-  }
-
-  // y
-  static initTest_touchEvent6(pageConfig, supportView, testValues) {
-
-    afterEach(async function (done) {
-      if (Settings.windowClass == null) {
-        return
-      }
-
-      Settings.windowClass.destroyWindow((err) => {
-        if (err.code) {
-          Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
-          return;
-        }
-        Logger.info('TEST', `Succeeded in destroy the window.`);
-      })
-      await Utils.sleep(1000);
-      done()
-    })
-
-    //根据要测试的组件和属性值循环创建case
-    supportView.forEach(targetView => {
-      testValues.forEach(testValue => {
-        let caseTag = pageConfig.testName + "_" + targetView + "_" + testValue.describe
-        //create cases
-        it(caseTag, 0, async (done) => {
-          pageConfig['targetView'] = targetView;
-          pageConfig['componentKey'] = targetView;
-
-          //创建窗口，设置窗口页面
-          Settings.createWindow(pageConfig.pageUrl)
-          console.info('FocusTest Settings.createWindow success');
-
-          await Utils.sleep(1000);
-
-          //跳转页面并传递参数
-          await router.pushUrl({
-            url: pageConfig.pageUrl,
-            params: {
-              view: pageConfig
-            }
-          })
-          console.info('FocusTest router.pushUrl success');
-          //在此处可以获取页面中的组件进行一些操作，例如获取组件并点击
-          // await Utils.clickComponentByKey(targetView)
-          await Utils.sleep(1000);
-          console.info('FocusTest AttrsManager.change begin');
-          let rect = Utils.getComponentRect('onTouch') // 获取id为"onTouch"组件的矩形区域坐标
-          let touchPoint: TouchObject = {
-            id: 1,
-            x: rect.left + (rect.right - rect.left) / 2, // 组件中心点x坐标
-            y: rect.top + testValue.setValue, // 组件中心点y坐标
-            type: TouchType.Down,
-            screenX: rect.left + (rect.right - rect.left) / 2, // 组件中心点x坐标
-            screenY: rect.top + (rect.bottom - rect.top) / 2, // 组件中心点y坐标
-          }
-          sendTouchEvent(touchPoint) // 发送触摸事件
-          //截图
-          await Utils.sleep(1000);
-          console.info('FocusTest windowSnap.snapShot begin');
-          await windowSnap.snapShot(globalThis.context, caseTag)
-          console.info('FocusTest windowSnap.snapShot success');
-          await Utils.sleep(1000);
-          done()
-        });
-      })
-    });
-  }
 }

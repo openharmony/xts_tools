@@ -126,8 +126,8 @@ struct background001 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .width(240)
+    .height(180)
     .border({width:2})
     .key(this.componentKey)
   }
@@ -167,7 +167,7 @@ struct background001 {
     console.info('FocusPage onPageShow');
     AttrsManager.registerDataChange(value => this._generalAttr = value)
   }
-  // @ts-nocheck
+
   build() {
     Row() {
       Column() {
@@ -263,7 +263,7 @@ struct background001 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -425,20 +425,14 @@ struct background001 {
           .width(200)
           .height(150)
         } else if (this.targetView == 'Badge') {
-          Column(){
-            Badge({
-              value: 'New',
-              position: BadgePosition.Right,
-              style: { badgeSize: 16, badgeColor: '#FA2A2D' }
-            }) {
-              Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-            }.width(49.5).height(60)
-            .commonStyleEasy()
-            .margin({ left: 12 })
-          }
-          .border({width:2})
-          .width(300)
-          .height(180)
+          Badge({
+            value: 'New',
+            position: BadgePosition.Right,
+            style: { badgeSize: 25, badgeColor: '#FA2A2D' }
+          }) {
+            Text('list2').width(30).height(25).fontSize(20).fontColor('#182431')
+          }.width(65).height(19)
+          .margin({ left: 12 })
         } else if (this.targetView == 'Column') {
           Column(){
             Text("Column 1111")

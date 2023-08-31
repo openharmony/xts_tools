@@ -18,8 +18,8 @@ import Settings from '../../model/Settings'
 import windowSnap from '../../model/snapShot'
 import Logger from '../../model/Logger'
 
-//测试通用属性-backgroundBlurStyle-BlurStyle
-export default function Background08() {
+//测试通用属性-backgroundImagePosition
+export default function Background13() {
 
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
@@ -38,40 +38,44 @@ export default function Background08() {
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'Background08', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/background/background008' //用于设置窗口页面
+    testName: 'Background13', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/background/background013' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_069', //截图命名的一部分
-      setValue: BlurStyle.Thin, //要测试的属性值
+      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_058', //截图命名的一部分
+      setValue: {}, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_070', //截图命名的一部分
-      setValue: BlurStyle.Regular, //要测试的属性值
+      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_059', //截图命名的一部分
+      setValue: { x: "280px", y: "280px" }, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_071', //截图命名的一部分
-      setValue: BlurStyle.Thick, //要测试的属性值
+      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_060', //截图命名的一部分
+      setValue: { x: "280px", y: "90%" }, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_072', //截图命名的一部分
-      setValue: BlurStyle.BACKGROUND_THIN, //要测试的属性值
+      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_061', //截图命名的一部分
+      setValue: { x: 200, y: 100}, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_073', //截图命名的一部分
-      setValue: BlurStyle.BACKGROUND_REGULAR, //要测试的属性值
+      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_062', //截图命名的一部分
+      setValue: { x: 200, y: -100}, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_074', //截图命名的一部分
-      setValue: BlurStyle.BACKGROUND_THICK, //要测试的属性值
+      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_063', //截图命名的一部分
+      setValue: { x: "33fp"}, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_075', //截图命名的一部分
-      setValue: BlurStyle.BACKGROUND_ULTRA_THICK, //要测试的属性值
+      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_064', //截图命名的一部分
+      setValue: { x: $r("app.integer.integer_1"), y: 100}, //要测试的属性值
+    },
+    {
+      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_066', //截图命名的一部分
+      setValue: 11112, //要测试的属性值
     },
   ]
 
@@ -80,7 +84,7 @@ export default function Background08() {
   }
 
   //  create test suite
-  describe('Background08', function () {
+  describe('Background13', function () {
 
     beforeAll(async function () {
       console.info('beforeAll in1');
@@ -104,10 +108,9 @@ export default function Background08() {
 
     // create test cases by config.
     CommonTest.initTest(pageConfig, supportView, testValues)
-
   })
 }
 
 export function create() {
-throw new Error('Function not implemented.');
+  throw new Error('Function not implemented.');
 }

@@ -44,9 +44,10 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct background003 {
+struct background013 {
+  //007的拆分
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: string =  "/pages/images/icon.svg"; //通用属性初始值
+  @State _generalAttr: { x?:string | number | Resource, y?: string | number | Resource} = { x: 0, y: 0 }; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -129,12 +130,14 @@ struct background003 {
     .width(240)
     .height(180)
     .border({width:2})
-    .backgroundImage(this._generalAttr)
+    .backgroundImage("/pages/images/icon.png")
+    .backgroundImagePosition(this._generalAttr)
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy(){
-    .backgroundImage(this._generalAttr)
+    .backgroundImage("/pages/images/icon.png")
+    .backgroundImagePosition(this._generalAttr)
     .key(this.componentKey)
   }
 
@@ -453,23 +456,23 @@ struct background003 {
           }
           .commonStyle()
         } else if (this.targetView == 'Counter') {
-      Column(){
-        Counter() {
-          Text(this.value.toString())
-        }.margin(100)
-        .onInc(() => {
-          this.value++
-        })
-        .onDec(() => {
-          this.value--
-        })
-        .width(120)
-        .height(50)
-        .commonStyleEasy()
-      }
-      .width(350)
-      .height(260)
-      .border({width:2})
+          Column(){
+            Counter() {
+              Text(this.value.toString())
+            }.margin(100)
+            .onInc(() => {
+              this.value++
+            })
+            .onDec(() => {
+              this.value--
+            })
+            .width(120)
+            .height(50)
+            .commonStyleEasy()
+          }
+          .width(350)
+          .height(260)
+          .border({width:2})
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -741,8 +744,8 @@ struct background003 {
             }
             .commonStyle()
           }
-        .width(200)
-        .height(150)
+          .width(200)
+          .height(150)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
