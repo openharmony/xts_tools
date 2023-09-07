@@ -142,14 +142,6 @@ struct BorderPage003 {
     .borderImage(this._generalAttr)
   }
 
-  @Styles commonStyleEasy(){
-    .margin({top:260})
-    .backgroundColor('#FFD700')
-
-    .key(this.componentKey)
-    .borderImage(this._generalAttr)
-  }
-
   @Builder TabBuilder(index: number, name: string) {
     Column() {
       Text(name)
@@ -199,13 +191,11 @@ struct BorderPage003 {
           Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
             .select(true)
             .selectedColor(0xed6f21)
-            .height(150)
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'CheckboxGroup') {
           CheckboxGroup({ group: 'checkboxGroup' })
             .selectedColor('#007DFF')
-            .height(150)
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'DataPanel') {
           DataPanel({ values: [50, 12, 8, 5] })
             .commonStyle()
@@ -220,8 +210,7 @@ struct BorderPage003 {
             .commonStyle()
         } else if (this.targetView == 'Image') {
           Image($r("app.media.icon")).objectFit(ImageFit.Contain)
-            .height(150)
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'ImageAnimator') {
           ImageAnimator()
             .images([
@@ -276,8 +265,11 @@ struct BorderPage003 {
           MenuItem({ content: "MenuItem1" })
             .commonStyle()
         } else if (this.targetView == 'MenuItemGroup') {
-          MenuItemGroup({ header: "MenuItemGroup小标题" })
-            .commonStyle()
+          MenuItemGroup({ header: 'MenuItemGroup小标题' }) {
+            MenuItem({ content: "MenuItem1" })
+              .width(350)
+              .height(200)
+          }.commonStyle()
         } else if (this.targetView == 'Navigation') {
           Navigation()
             .title(this.NavigationTitle)
@@ -361,11 +353,11 @@ struct BorderPage003 {
           }
         }
         else if (this.targetView == 'Text') {
-          Text('text')
+          Text('This is a paragraph of text. The speed is good, and its a big response. The third-party framework and')
             .commonStyle()
         } else if (this.targetView == 'TextArea') {
           TextArea({
-            text:"The text area",
+            text:"The text area The text area can hold an unlimited amount of text. input your wordThe text area can hold an unlimited amount of text. input your wordThe text area can hold an unlimited amount of text. input your word",
             placeholder: 'The text area can hold an unlimited amount of text. input your word...'
           })
             .placeholderFont({ size: 16, weight: 400 })
@@ -376,8 +368,6 @@ struct BorderPage003 {
         } else if (this.targetView == 'TextInput') {
           TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
             .placeholderFont({ size: 14, weight: 400 })
-            .width(200)
-            .height(40)
             .fontSize(12)
             .fontColor(Color.Black)
             .inputFilter('[a-z]', (e) => {
@@ -386,7 +376,7 @@ struct BorderPage003 {
             .onChange((value: string) => {
               this.text = value
             })
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'TextPicker') {
           TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
             .commonStyle()
@@ -405,9 +395,7 @@ struct BorderPage003 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
-            .commonStyleEasy()
+            .commonStyle()
         }
         else if (this.targetView == 'Toggle2') {
           Toggle({ type: ToggleType.Checkbox, isOn: false })
@@ -416,9 +404,7 @@ struct BorderPage003 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
-            .commonStyleEasy()
+            .commonStyle()
         }
         else if (this.targetView == 'Toggle3') {
           Toggle({ type: ToggleType.Button, isOn: false })
@@ -427,9 +413,7 @@ struct BorderPage003 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
-            .commonStyleEasy()
+            .commonStyle()
         }
         else if (this.targetView == 'Badge') {
           Badge({
@@ -438,8 +422,8 @@ struct BorderPage003 {
             style: { badgeSize: 16, badgeColor: '#FA2A2D' }
           }) {
             Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-          }.width(49.5).height(60)
-          .commonStyleEasy()
+          }.width(350).height(260)
+          .commonStyle()
         } else if (this.targetView == 'Column') {
           Column(){
             Text("Column 1111")
@@ -460,9 +444,7 @@ struct BorderPage003 {
           .onDec(() => {
             this.value--
           })
-          .width(120)
-          .height(50)
-          .commonStyleEasy()
+          .commonStyle()
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -473,19 +455,18 @@ struct BorderPage003 {
           .commonStyle()
         } else if (this.targetView == 'GridCol') {
           GridRow() {
-            GridCol({ span: 5 }) {
-              Text("GridCol GridCol").height(50)
-            }.borderWidth(2)
+            GridCol({ span: 11 }) {
+              Text("GridCol GridCol").height(200)
+            }
             .commonStyle()
             .margin({top:0})
-          }.width(300)
-          .height(200)
-          .borderWidth(2)
+          }.width(350)
+          .height(260)
           .margin({top:260})
         } else if (this.targetView == 'GridRow') {
           GridRow() {
             GridCol({span:6}) {
-              Text('GridRow').height(80)
+              Text('GridRow').height(260)
             }
           }
           .commonStyle()
@@ -546,12 +527,13 @@ struct BorderPage003 {
           }
           .width(350)
           .height(260)
+          .margin({top:100})
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
               ListItem() {
                 Text('ListItemGroup')
-                  .height(40)
+                  .height(200)
               }
             }
             .commonStyle()
@@ -559,7 +541,7 @@ struct BorderPage003 {
           }
           .width(350)
           .height(260)
-          .border({width:2})
+          .margin({top:100})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -572,9 +554,8 @@ struct BorderPage003 {
               Text('Today Calendar').fontSize(12)
             }
           }
-          .type(PanelType.Foldable).mode(PanelMode.Mini)
+          .type(PanelType.Foldable).mode(PanelMode.Half)
           .dragBar(true) // 默认开启
-          .halfHeight(500) // 默认一半
           .commonStyle()
         } else if (this.targetView == 'Refresh') {
           Refresh({ refreshing: true })
@@ -602,7 +583,7 @@ struct BorderPage003 {
           .commonStyle()
         } else if (this.targetView == 'RowSplit') {
           RowSplit() {
-            Text('1')
+            Text('Edward told everyone that it is not convenient to send Safin V. It is not acceptable to finish reading thickness and VS health in Anhui. Eastern Airlines, Vanessa Vanessa Police Annual Card')
           }
           .commonStyle()
         } else if (this.targetView == 'Scroll') {
@@ -729,8 +710,8 @@ struct BorderPage003 {
           .onChange((index: number) => {
             this.currentIndex = index
           })
-          .width(200)
-          .height(150)
+          .width(360)
+          .height(296)
           .margin({ top: 260 })
         }
         else if (this.targetView == 'FlowItem') {
@@ -740,6 +721,7 @@ struct BorderPage003 {
             }
             .commonStyle()
           }
+          .margin({left:65})
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -782,8 +764,7 @@ struct BorderPage003 {
             .commonStyle()
         } else if (this.targetView == 'Circle') {
           Circle()
-            .height(40)
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
             .width(150)
@@ -820,15 +801,13 @@ struct BorderPage003 {
             .strokeWidth(3)
             .width(300)
             .height(400)
-            .border({width:2})
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'Rect') {
           Rect()
             .radius(20)
-            .height(40)
             .stroke(Color.Transparent)
-            .commonStyleEasy()
-            .margin({top:50})
+            .commonStyle()
+            .margin({top:260})
         } else if (this.targetView == 'Shape') {
           Shape() {
             Rect().width('80%').height('70%')
