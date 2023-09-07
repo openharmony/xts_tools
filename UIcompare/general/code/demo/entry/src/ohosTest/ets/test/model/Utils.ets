@@ -17,17 +17,18 @@ import { UiDriver, Driver, BY } from '@ohos.UiTest';
 
 export default class Utils {
   static sleep(time) {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve()
-      }, time)
-    })
+    return new Promise((resolve) => setTimeout(resolve, time))
   }
 
   static async clickComponentByKey(componentKey) {
     let driver = await UiDriver.create();
     let component = await driver.findComponent(BY.key(componentKey));
     await component.click();
+  }
+
+  static async tabFocus() {
+    let driver = Driver.create();
+    await driver.triggerKey(2049);
   }
 
   static rect_left;

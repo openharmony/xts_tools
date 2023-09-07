@@ -46,7 +46,7 @@ class MyDataSource implements IDataSource {
 @Component
 struct ClipPage002 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: any = false; //通用属性初始值
+  @State _generalAttr: boolean = false; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;

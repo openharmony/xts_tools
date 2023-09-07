@@ -126,8 +126,8 @@ struct linearGradient03 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .width(240)
+    .height(180)
     .border({width:2})
     .linearGradient({
       angle:90,
@@ -273,7 +273,7 @@ struct linearGradient03 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,

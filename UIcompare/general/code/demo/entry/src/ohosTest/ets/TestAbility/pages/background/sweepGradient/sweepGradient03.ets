@@ -46,7 +46,14 @@ class MyDataSource implements IDataSource {
 @Component
 struct sweepGradient01 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: any = {
+  @State _generalAttr: {
+    center: [number, number],
+    start?: number | string,
+    end?: number | string,
+    rotation?: number|string,
+    colors: Array<[ResourceColor, number]>,
+    repeating?: boolean
+  } = {
     center: [50, 50],
     start:0,
     end:270,
@@ -132,8 +139,8 @@ struct sweepGradient01 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .width(240)
+    .height(180)
     .border({width:2})
     .sweepGradient({
       center: this._generalAttr.center,
@@ -279,7 +286,7 @@ struct sweepGradient01 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,

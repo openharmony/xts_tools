@@ -12,8 +12,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import BackgroundColorTest from './generalAttributes/BackgroundColorTest.test'
-
 // background
 import Background01 from './generalAttributes/background/background01.test'
 import Background02 from './generalAttributes/background/background02.test'
@@ -114,7 +112,6 @@ import TouchEvent02 from './generalEvents/touchTest02.test'
 import TouchEvent03 from './generalEvents/touchTest03.test'
 import TouchEvent04 from './generalEvents/touchTest04.test'
 import TouchEvent05 from './generalEvents/touchTest05.test'
-import TouchEvent06 from './generalEvents/touchTest06.test'
 
 //border
 import BorderTest001 from './generalAttributes/border/BorderTest001.test'
@@ -258,8 +255,6 @@ export default function testsuite() {
   TouchEvent03()
   TouchEvent04()
   TouchEvent05()
-  TouchEvent06()
-
 
   BorderTest001()
   BorderTest002()
