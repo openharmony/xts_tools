@@ -121,7 +121,9 @@
     "TestAbility/pages/size/WidthPage001",
     "TestAbility/pages/size/WidthPage002",
     "TestAbility/pages/size/HeightPage001",
-    "TestAbility/pages/size/HeightPage002"
+    "TestAbility/pages/size/HeightPage002",
 
+    "TestAbility/pages/click/ClickPage001",
+    "TestAbility/pages/click/ClickPage002"
   ]
 }

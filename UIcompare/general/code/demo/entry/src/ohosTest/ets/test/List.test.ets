@@ -155,6 +155,12 @@ import WidthTest001 from './generalAttributes/size/WidthTest001.test'
 import WidthTest002 from './generalAttributes/size/WidthTest002.test'
 import HeightTest001 from './generalAttributes/size/HeightTest001.test'
 import HeightTest002 from './generalAttributes/size/HeightTest002.test'
+
+//click
+import ClickTest001 from './generalEvents/ClickTest001.test'
+import ClickTest002 from './generalEvents/ClickTest002.test'
+import ClickTest003 from './generalEvents/ClickTest003.test'
+
 export default function testsuite() {
 
   Background01()
@@ -290,5 +296,9 @@ export default function testsuite() {
   WidthTest002()
   HeightTest001()
   HeightTest002()
+
+  ClickTest001()
+  ClickTest002()
+  ClickTest003()
 
 }
