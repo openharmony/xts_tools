@@ -28,6 +28,10 @@ import Background10 from './generalAttributes/background/background10.test'
 import Background11 from './generalAttributes/background/background11.test'
 import Background12 from './generalAttributes/background/background12.test'
 import Background13 from './generalAttributes/background/background13.test'
+import Background14 from './generalAttributes/background/background14.test'
+import Background15 from './generalAttributes/background/background15.test'
+import Background16 from './generalAttributes/background/background16.test'
+import Background17 from './generalAttributes/background/background17.test'
 
 import LinearGradient01 from './generalAttributes/background/linearGradient/LinearGradient01.test'
 import LinearGradient02 from './generalAttributes/background/linearGradient/LinearGradient02.test'
@@ -166,6 +170,10 @@ export default function testsuite() {
   Background11()
   Background12()
   Background13()
+  Background14()
+  Background15()
+  Background16()
+  Background17()
 
   LinearGradient01()
   LinearGradient02()
