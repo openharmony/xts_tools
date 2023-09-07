@@ -36,7 +36,6 @@ struct FocusPage017 {
     .width(200)
     .height(100)
     .border({width:2})
-    .key(this.componentKey)
   }
 
   onPageShow() {
@@ -55,6 +54,7 @@ struct FocusPage017 {
         .height(40)
         .margin(20)
         .fontSize(14)
+        .padding({left:30})
         .fontColor(Color.Black)
         .inputFilter('[a-z]', (e) => {
           console.log(JSON.stringify(e))

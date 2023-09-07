@@ -31,7 +31,6 @@ struct FocusPage012 {
     .width(200)
     .height(100)
     .border({width:2})
-    .key(this.componentKey)
   }
 
   onPageShow() {

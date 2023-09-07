@@ -36,7 +36,6 @@ struct FocusPage015 {
     .width(200)
     .height(100)
     .border({width:2})
-    .key(this.componentKey)
   }
 
   onPageShow() {
@@ -55,6 +54,7 @@ struct FocusPage015 {
         .width(400)
         .height(40)
         .margin(20)
+        .padding({left:30})
         .fontSize(14)
         .fontColor(Color.Black)
         .inputFilter('[a-z]', (e) => {

@@ -1,3 +1,5 @@
+
+
 /**
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -375,7 +377,7 @@ struct ShadowPage001 {
           TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
             .placeholderFont({ size: 14, weight: 400 })
             .width(200)
-            .height(40)
+            .height(120)
             .fontSize(12)
             .fontColor(Color.Black)
             .inputFilter('[a-z]', (e) => {
@@ -403,8 +405,8 @@ struct ShadowPage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
+            .width(200)
+            .height(120)
             .commonStyleEasy()
         }
         else if (this.targetView == 'Toggle2') {
@@ -414,8 +416,8 @@ struct ShadowPage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
+            .width(200)
+            .height(120)
             .commonStyleEasy()
         }
         else if (this.targetView == 'Toggle3') {
@@ -425,8 +427,8 @@ struct ShadowPage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
+            .width(200)
+            .height(120)
             .commonStyleEasy()
         }
         else if (this.targetView == 'Badge') {
@@ -436,7 +438,7 @@ struct ShadowPage001 {
             style: { badgeSize: 16, badgeColor: '#FA2A2D' }
           }) {
             Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-          }.width(49.5).height(60)
+          }.width(200).height(120)
           .commonStyleEasy()
         } else if (this.targetView == 'Column') {
           Column(){
@@ -458,8 +460,8 @@ struct ShadowPage001 {
           .onDec(() => {
             this.value--
           })
-          .width(120)
-          .height(50)
+          .width(200)
+          .height(120)
           .commonStyleEasy()
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
@@ -539,11 +541,17 @@ struct ShadowPage001 {
             ListItem(){
               Text('ListItem')
             }
-            .commonStyle()
-            .margin({top:0})
+            .width(330)
+            .height(330)
+            .border({width:2})
+            .key(this.componentKey)
+            .margin({left:60,top:60})
+            .shadow(this._generalAttr)
           }
-          .width(350)
-          .height(260)
+          .width('100%')
+          .height(450)
+          .border({width:2,color:Color.Yellow})
+          .margin({top:100})
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -552,12 +560,17 @@ struct ShadowPage001 {
                   .height(40)
               }
             }
-            .commonStyle()
-            .margin({top:0})
+            .width(330)
+            .height(330)
+            .border({width:2})
+            .key(this.componentKey)
+            .margin({left:60,top:60})
+            .shadow(this._generalAttr)
           }
-          .width(350)
-          .height(260)
-          .border({width:2})
+          .width('100%')
+          .height(450)
+          .border({width:2,color:Color.Yellow})
+          .margin({top:100})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -711,13 +724,21 @@ struct ShadowPage001 {
             TabContent() {
               Column().width('30%').height('30%')
             }.tabBar(this.TabBuilder(0, 'green'))
-            .commonStyle()
-            .margin({top:0})
+            .width(330)
+            .height(330)
+            .border({width:2})
+            .key(this.componentKey)
+            .margin(60)
+            .shadow(this._generalAttr)
             TabContent() {
               Column().width('40%').height('40%')
             }.tabBar(this.TabBuilder(1, 'blue'))
-            .commonStyle()
-            .margin({top:0})
+            .width(330)
+            .height(330)
+            .border({width:2})
+            .key(this.componentKey)
+            .margin(60)
+            .shadow(this._generalAttr)
           }
           .vertical(false)
           .barMode(BarMode.Fixed)
@@ -727,9 +748,10 @@ struct ShadowPage001 {
           .onChange((index: number) => {
             this.currentIndex = index
           })
-          .width(200)
-          .height(150)
-          .margin({ top: 260 })
+          .width('100%')
+          .height(450)
+          .border({width:2,color:Color.Yellow})
+          .margin({top:100})
         }
         else if (this.targetView == 'FlowItem') {
           WaterFlow() {
@@ -738,6 +760,7 @@ struct ShadowPage001 {
             }
             .commonStyle()
           }
+          .margin({left:40})
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -780,7 +803,8 @@ struct ShadowPage001 {
             .commonStyle()
         } else if (this.targetView == 'Circle') {
           Circle()
-            .height(40)
+            .width(120)
+            .height(120)
             .commonStyleEasy()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
@@ -823,7 +847,8 @@ struct ShadowPage001 {
         } else if (this.targetView == 'Rect') {
           Rect()
             .radius(20)
-            .height(40)
+            .width(120)
+            .height(100)
             .stroke(Color.Transparent)
             .commonStyleEasy()
             .margin({top:50})

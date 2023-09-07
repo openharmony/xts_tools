@@ -33,7 +33,6 @@ struct FocusPage007 {
     .height(100)
     .border({width:2})
     .margin({top:40})
-    .key(this.componentKey)
   }
 
   onPageShow() {
@@ -59,7 +58,7 @@ struct FocusPage007 {
           this.onFocusEvent1 = `Column01007 tabIndex = 0 获焦`
         })
 
-        .id('Column01007')
+        .key('Column01007')
 
         Text(`${this.onFocusEvent2}`)
           .fontSize(20)
@@ -76,7 +75,7 @@ struct FocusPage007 {
         .onFocus(() => {
           this.onFocusEvent1 = `Column02007 tabIndex = 2 获焦`
         })
-        .id('Column02007')
+        .key('Column02007')
 
         Text(`${this.onFocusEvent3}`)
           .fontSize(20)
@@ -93,7 +92,7 @@ struct FocusPage007 {
         .onFocus(() => {
           this.onFocusEvent1 = `Column03007 tabIndex = 3 获焦`
         })
-        .id('Column03007')
+        .key('Column03007')
 
       }
       .width('100%')

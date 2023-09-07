@@ -37,7 +37,6 @@ struct FocusPage018 {
     .width(200)
     .height(100)
     .border({width:2})
-    .key(this.componentKey)
   }
 
   onPageShow() {
@@ -59,7 +58,7 @@ struct FocusPage018 {
         .onFocus(() => {
           this.onFocusEvent1 = `FocusPage018 Button1 focusOnTouch(true) 获焦`
         })
-        .id('Button01018')
+        .key('Button01018')
 
       Text(`${this.onFocusEvent2}`)
         .fontSize(20)
@@ -73,7 +72,7 @@ struct FocusPage018 {
         .onFocus(() => {
           this.onFocusEvent2 = `FocusPage018 Button2 focusOnTouch(false) 获焦`
         })
-        .id('Button02018')
+        .key('Button02018')
 
       Text(`${this.onFocusEvent3}`)
         .fontSize(20)
@@ -86,7 +85,7 @@ struct FocusPage018 {
         .onFocus(() => {
           this.onFocusEvent3 = `FocusPage018 Button3 focusOnTouch 获焦`
         })
-        .id('Button03018')
+        .key('Button03018')
 
       Text(`${this.onFocusEvent4}`)
         .fontSize(20)
@@ -97,6 +96,7 @@ struct FocusPage018 {
         .width(400)
         .height(40)
         .margin(20)
+        .padding({left:30})
         .fontSize(14)
         .fontColor(Color.Black)
         .inputFilter('[a-z]', (e) => {

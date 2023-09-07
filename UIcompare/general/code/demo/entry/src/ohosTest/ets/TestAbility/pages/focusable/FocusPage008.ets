@@ -34,7 +34,6 @@ struct FocusPage008 {
     .border({width:2})
     .margin({top:40})
     .focusable(this._generalAttr)
-    .key(this.componentKey)
   }
 
   onPageShow() {

@@ -1,3 +1,5 @@
+
+
 /**
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -46,7 +48,7 @@ class MyDataSource implements IDataSource {
 @Component
 struct BackdropBlurPage001 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: number = 0; //通用属性初始值
+  @State _generalAttr: number = 40; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -132,19 +134,9 @@ struct BackdropBlurPage001 {
     .border({width:2})
 
     .key(this.componentKey)
-    .backdropBlur(this._generalAttr)
     .backgroundImage("TestAbility/pages/border/bg.jpg")
     .backgroundImageSize({ width: 500, height: 300 })
-  }
-
-  @Styles commonStyleEasy(){
-    .margin({top:260})
-    .border({width:2})
-
-    .key(this.componentKey)
     .backdropBlur(this._generalAttr)
-    .backgroundImage("TestAbility/pages/border/bg.jpg")
-    .backgroundImageSize({ width: 500, height: 300 })
   }
 
   @Builder TabBuilder(index: number, name: string) {
@@ -196,15 +188,11 @@ struct BackdropBlurPage001 {
           Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
             .select(true)
             .selectedColor(0xed6f21)
-            .height(150)
-            .width(200)//让其显示大一点
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'CheckboxGroup') {
           CheckboxGroup({ group: 'checkboxGroup' })
             .selectedColor('#007DFF')
-            .height(150)
-            .width(200)//让其显示大一点
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'DataPanel') {
           DataPanel({ values: [50, 12, 8, 5] })
             .commonStyle()
@@ -219,9 +207,7 @@ struct BackdropBlurPage001 {
             .commonStyle()
         } else if (this.targetView == 'Image') {
           Image($r("app.media.icon")).objectFit(ImageFit.Contain)
-            .height(150)
-            .width(200)//让其显示大一点
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'ImageAnimator') {
           ImageAnimator()
             .images([
@@ -277,6 +263,11 @@ struct BackdropBlurPage001 {
             .commonStyle()
         } else if (this.targetView == 'MenuItemGroup') {
           MenuItemGroup({ header: "MenuItemGroup小标题" })
+          {
+            MenuItem({ content: "MenuItem1" })
+              .width(350)
+              .height(260)
+          }
             .commonStyle()
         } else if (this.targetView == 'Navigation') {
           Navigation()
@@ -376,8 +367,6 @@ struct BackdropBlurPage001 {
         } else if (this.targetView == 'TextInput') {
           TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
             .placeholderFont({ size: 14, weight: 400 })
-            .width(200)
-            .height(40)
             .fontSize(12)
             .fontColor(Color.Black)
             .inputFilter('[a-z]', (e) => {
@@ -386,7 +375,7 @@ struct BackdropBlurPage001 {
             .onChange((value: string) => {
               this.text = value
             })
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'TextPicker') {
           TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
             .commonStyle()
@@ -405,9 +394,7 @@ struct BackdropBlurPage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(200)//让其显示大一点
-            .height(90)
-            .commonStyleEasy()
+            .commonStyle()
         }
         else if (this.targetView == 'Toggle2') {
           Toggle({ type: ToggleType.Checkbox, isOn: false })
@@ -416,9 +403,7 @@ struct BackdropBlurPage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(200)//让其显示大一点
-            .height(90)
-            .commonStyleEasy()
+            .commonStyle()
         }
         else if (this.targetView == 'Toggle3') {
           Toggle({ type: ToggleType.Button, isOn: false })
@@ -427,9 +412,7 @@ struct BackdropBlurPage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(200)//让其显示大一点
-            .height(90)
-            .commonStyleEasy()
+            .commonStyle()
         }
         else if (this.targetView == 'Badge') {
           Badge({
@@ -438,8 +421,8 @@ struct BackdropBlurPage001 {
             style: { badgeSize: 16, badgeColor: '#FA2A2D' }
           }) {
             Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-          }.width(49.5).height(60)
-          .commonStyleEasy()
+          }
+          .commonStyle()
         } else if (this.targetView == 'Column') {
           Column(){
             Text("Column 1111")
@@ -460,9 +443,7 @@ struct BackdropBlurPage001 {
           .onDec(() => {
             this.value--
           })
-          .width(120)
-          .height(50)
-          .commonStyleEasy()
+          .commonStyle()
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -487,6 +468,7 @@ struct BackdropBlurPage001 {
             GridCol({span:6}) {
               Text('GridRow').height(80)
             }
+            .height(260)
           }
           .commonStyle()
         } else if (this.targetView == 'Grid') {
@@ -546,13 +528,14 @@ struct BackdropBlurPage001 {
           }
           .width(350)
           .height(260)
+          .margin({top:260})
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
               ListItem() {
                 Text('ListItemGroup')
                   .height(40)
-              }
+              }.height(260)
             }
             .commonStyle()
             .margin({top:0})
@@ -560,6 +543,7 @@ struct BackdropBlurPage001 {
           .width(350)
           .height(260)
           .border({width:2})
+          .margin({top:260})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -711,7 +695,9 @@ struct BackdropBlurPage001 {
         } else if (this.targetView == 'TabContent') {
           Tabs({ barPosition: BarPosition.Start, controller: this.controller1 }) {
             TabContent() {
-              Column().width('30%').height('30%')
+              Column()
+              {Text('1111')}
+                .width('30%').height('30%')
             }.tabBar(this.TabBuilder(0, 'green'))
             .commonStyle()
             .margin({top:0})
@@ -740,6 +726,7 @@ struct BackdropBlurPage001 {
             }
             .commonStyle()
           }
+          .margin({left:40})
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -782,33 +769,28 @@ struct BackdropBlurPage001 {
             .commonStyle()
         } else if (this.targetView == 'Circle') {
           Circle()
-            .height(40)
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
-            .width(150)
-            .height(100)
             .fillOpacity(0)
             .stroke(Color.Blue)
             .strokeWidth(3)
             .commonStyle()
         } else if (this.targetView == 'Line') {
           Line()
-            .width(200)
-            .height(150)
             .startPoint([0, 0])
             .endPoint([50, 100])
             .stroke(Color.Black)
             .commonStyle()
         } else if (this.targetView == 'Polyline') {
-          Polyline({ width: 100, height: 100 })
+          Polyline()
             .points([[10, 0], [40, 60], [100, 100]])
             .fillOpacity(0)
             .stroke(Color.Blue)
             .strokeWidth(3)
             .commonStyle()
         } else if (this.targetView == 'Polygon') {
-          Polygon({ width: 100, height: 100 })
+          Polygon()
             .points([[0, 0], [50, 100], [100, 0]])
             .fill(Color.Green)
             .commonStyle()
@@ -818,17 +800,17 @@ struct BackdropBlurPage001 {
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
-            .width(300)
-            .height(400)
             .border({width:2})
-            .commonStyleEasy()
+            .commonStyle()
         } else if (this.targetView == 'Rect') {
           Rect()
             .radius(20)
-            .height(40)
+            .width(120)
+            .height(100)
             .stroke(Color.Transparent)
-            .commonStyleEasy()
+            .commonStyle()
             .margin({top:50})
+            .fillOpacity(0.2)
         } else if (this.targetView == 'Shape') {
           Shape() {
             Rect().width('80%').height('70%')

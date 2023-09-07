@@ -192,8 +192,8 @@ struct FocusPage001 {
     Row() {
       Column() {
         Text(this.onFocusEvent)
-        .fontColor(18)
-        .margin({top:40,bottom:40})
+        .fontSize(18)
+        .margin({bottom:40})
 
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
@@ -282,12 +282,9 @@ struct FocusPage001 {
               this.state = AnimationStatus.Stopped
             })
             .commonStyle()
-        } else if (this.targetView == 'LoadingProgress') {
-          LoadingProgress()
-            .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -397,9 +394,6 @@ struct FocusPage001 {
             placeholder: 'The text area can hold an unlimited amount of text. input your word...'
           })
             .placeholderFont({ size: 16, weight: 400 })
-            .commonStyle()
-        } else if (this.targetView == 'TextClock') {
-          TextClock()
             .commonStyle()
         } else if (this.targetView == 'TextInput') {
           Column(){
@@ -603,11 +597,7 @@ struct FocusPage001 {
           .dragBar(true) // 默认开启
           .halfHeight(500) // 默认一半
           .commonStyle()
-        } else if (this.targetView == 'Refresh') {
-          Refresh({ refreshing: true })
-            .commonStyle()
-        }
-        else if (this.targetView == 'RelativeContainer') {
+        } else if (this.targetView == 'RelativeContainer') {
           RelativeContainer() {
             Row()
               .width(30)
@@ -617,7 +607,7 @@ struct FocusPage001 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
+              .key("row001")
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {

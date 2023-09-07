@@ -1,3 +1,5 @@
+
+
 /**
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -132,6 +134,7 @@ struct SaturatePage001 {
     .border({width:2})
 
     .key(this.componentKey)
+    .backgroundColor(Color.Blue)
     .saturate(this._generalAttr)
   }
 
@@ -141,6 +144,7 @@ struct SaturatePage001 {
     .border({width:2})
 
     .key(this.componentKey)
+    .backgroundColor(Color.Blue)
     .saturate(this._generalAttr)
   }
 
@@ -185,7 +189,7 @@ struct SaturatePage001 {
             .commonStyle()
         } else if (this.targetView == 'Blank') {
           Blank()
-            .commonStyle()
+            .commonStyle().backgroundColor(Color.Blue)
         } else if (this.targetView == 'Button') {
           Button("button",{ type: ButtonType.Normal, stateEffect: true })
             .commonStyle()
@@ -198,6 +202,7 @@ struct SaturatePage001 {
         } else if (this.targetView == 'CheckboxGroup') {
           CheckboxGroup({ group: 'checkboxGroup' })
             .selectedColor('#007DFF')
+            .width(120)
             .height(150)
             .commonStyleEasy()
         } else if (this.targetView == 'DataPanel') {
@@ -371,7 +376,7 @@ struct SaturatePage001 {
           TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
             .placeholderFont({ size: 14, weight: 400 })
             .width(200)
-            .height(40)
+            .height(120)
             .fontSize(12)
             .fontColor(Color.Black)
             .inputFilter('[a-z]', (e) => {
@@ -399,8 +404,8 @@ struct SaturatePage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
+            .width(200)
+            .height(120)
             .commonStyleEasy()
         }
         else if (this.targetView == 'Toggle2') {
@@ -410,8 +415,8 @@ struct SaturatePage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
+            .width(200)
+            .height(120)
             .commonStyleEasy()
         }
         else if (this.targetView == 'Toggle3') {
@@ -421,8 +426,8 @@ struct SaturatePage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
+            .width(200)
+            .height(120)
             .commonStyleEasy()
         }
         else if (this.targetView == 'Badge') {
@@ -432,7 +437,7 @@ struct SaturatePage001 {
             style: { badgeSize: 16, badgeColor: '#FA2A2D' }
           }) {
             Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-          }.width(49.5).height(60)
+          }.width(200).height(120)
           .commonStyleEasy()
         } else if (this.targetView == 'Column') {
           Column(){
@@ -454,8 +459,8 @@ struct SaturatePage001 {
           .onDec(() => {
             this.value--
           })
-          .width(120)
-          .height(50)
+          .width(200)
+          .height(120)
           .commonStyleEasy()
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
@@ -540,6 +545,7 @@ struct SaturatePage001 {
           }
           .width(350)
           .height(260)
+          .margin({top:100})
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -554,6 +560,7 @@ struct SaturatePage001 {
           .width(350)
           .height(260)
           .border({width:2})
+          .margin({top:100})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -709,11 +716,13 @@ struct SaturatePage001 {
             }.tabBar(this.TabBuilder(0, 'green'))
             .commonStyle()
             .margin({top:0})
+            .commonStyle().backgroundColor(Color.Blue)
             TabContent() {
               Column().width('40%').height('40%')
             }.tabBar(this.TabBuilder(1, 'blue'))
             .commonStyle()
             .margin({top:0})
+            .commonStyle().backgroundColor(Color.Blue)
           }
           .vertical(false)
           .barMode(BarMode.Fixed)
@@ -734,6 +743,7 @@ struct SaturatePage001 {
             }
             .commonStyle()
           }
+          .margin({left:40})
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -776,7 +786,8 @@ struct SaturatePage001 {
             .commonStyle()
         } else if (this.targetView == 'Circle') {
           Circle()
-            .height(40)
+            .width(120)
+            .height(120)
             .commonStyleEasy()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
@@ -819,7 +830,8 @@ struct SaturatePage001 {
         } else if (this.targetView == 'Rect') {
           Rect()
             .radius(20)
-            .height(40)
+            .width(120)
+            .height(100)
             .stroke(Color.Transparent)
             .commonStyleEasy()
             .margin({top:50})

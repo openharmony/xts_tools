@@ -16,21 +16,13 @@ import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from
 import Settings from '../../model/Settings'
 import windowSnap from '../../model/snapShot'
 import Logger from '../../model/Logger'
-import { AttrsManager } from '../../model/AttrsManager';
-// @ts-ignore
-import inputEventClient from '@ohos.multimodalInput.inputEventClient';
 import {KeyCode} from '@ohos.multimodalInput.keyCode';
+import Utils from '../../model/Utils'
+import { UiDriver, Driver, BY } from '@ohos.UiTest';
 
 //测试通用属性-focusable
 export default function FocusTest03() {
-  
-  //页面配置信息
-  // this param is required.
-  let pageConfig = {
-    testName: 'FocusTest03', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/focusable/FocusPage001' //用于设置窗口页面
-  }
-  
+
   function sleep(time) {
     return new Promise((resolve) => setTimeout(resolve, time))
   }
@@ -38,11 +30,9 @@ export default function FocusTest03() {
   //  create test suite
   describe('FocusTest03', function () {
 
-    let keyEvent = {
-      isPressed: true,
-      keyCode: KeyCode.KEYCODE_TAB,
-      keyDownDuration: 0,
-      isIntercepted: false
+    async function  tabFocus() {
+      let driver = Driver.create();
+      await driver.triggerKey(2049);
     }
 
     beforeAll(async function () {
@@ -86,15 +76,18 @@ export default function FocusTest03() {
       // 如果需要改变_generalAttr 调用
       // let testValue = true
       Settings.createWindow(config.uri)
-      await sleep(1000)
-      sendEventByKey('Column01005',10,'');
-      let picName1 = "SUB_ACE_TS_COMPONENT_00701"
-      await sleep(1000)
-      windowSnap.snapShot(globalThis.context, picName1)
-      // await sleep(1000)  确认一下这里需不需要等待时间
-      sendEventByKey('Column02005',10,'');
+      let picName1 = "01"
+      console.info("SUB_ACE_TS_COMPONENT_00701 Utils.tabFocus begin");
+      try{
+        await tabFocus()
+        await sleep(1000)
+        await windowSnap.snapShot(globalThis.context, picName1)
+      }catch(err){
+        console.info("SUB_ACE_TS_COMPONENT_00701 tabFocus failed and catch err is", err.message);
+      }
+      console.info("SUB_ACE_TS_COMPONENT_00701 Utils.tabFocus end");
       let picName2 = "SUB_ACE_TS_COMPONENT_00702"
-      await sleep(1000)
+      await tabFocus()
       windowSnap.snapShot(globalThis.context, picName2)
       await sleep(1000)
       done();
@@ -218,8 +211,6 @@ export default function FocusTest03() {
       let config={
         uri:"TestAbility/pages/focusable/FocusPage012",
       }
-      // 如果需要改变_generalAttr 调用
-      // let testValue = true
       Settings.createWindow(config.uri)
       await sleep(1000)
       let picName = "SUB_ACE_TS_COMPONENT_014"
@@ -345,7 +336,6 @@ export default function FocusTest03() {
       await sleep(1000)
       done();
     })
-
   })
 }
 

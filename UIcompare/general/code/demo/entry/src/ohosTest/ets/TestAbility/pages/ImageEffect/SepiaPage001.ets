@@ -1,3 +1,5 @@
+
+
 /**
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -132,6 +134,7 @@ struct SepiaPage001 {
     .border({width:2})
 
     .key(this.componentKey)
+    .backgroundColor(Color.Blue)
     .sepia(this._generalAttr)
   }
 
@@ -142,6 +145,7 @@ struct SepiaPage001 {
     .border({width:2})
 
     .key(this.componentKey)
+    .backgroundColor(Color.Blue)
     .sepia(this._generalAttr)
   }
 
@@ -372,7 +376,7 @@ struct SepiaPage001 {
           TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
             .placeholderFont({ size: 14, weight: 400 })
             .width(200)
-            .height(40)
+            .height(120)
             .fontSize(12)
             .fontColor(Color.Black)
             .inputFilter('[a-z]', (e) => {
@@ -400,8 +404,8 @@ struct SepiaPage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
+            .width(200)
+            .height(120)
             .commonStyleEasy()
         }
         else if (this.targetView == 'Toggle2') {
@@ -411,8 +415,8 @@ struct SepiaPage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
+            .width(200)
+            .height(120)
             .commonStyleEasy()
         }
         else if (this.targetView == 'Toggle3') {
@@ -422,8 +426,8 @@ struct SepiaPage001 {
             .onChange((isOn: boolean) => {
               console.info('Component status:' + isOn)
             })
-            .width(120)
-            .height(60)
+            .width(200)
+            .height(120)
             .commonStyleEasy()
         }
         else if (this.targetView == 'Badge') {
@@ -433,7 +437,7 @@ struct SepiaPage001 {
             style: { badgeSize: 16, badgeColor: '#FA2A2D' }
           }) {
             Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-          }.width(49.5).height(60)
+          }.width(200).height(120)
           .commonStyleEasy()
         } else if (this.targetView == 'Column') {
           Column(){
@@ -455,8 +459,8 @@ struct SepiaPage001 {
           .onDec(() => {
             this.value--
           })
-          .width(120)
-          .height(50)
+          .width(200)
+          .height(120)
           .commonStyleEasy()
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
@@ -541,6 +545,7 @@ struct SepiaPage001 {
           }
           .width(350)
           .height(260)
+          .margin({top:100})
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -555,6 +560,7 @@ struct SepiaPage001 {
           .width(350)
           .height(260)
           .border({width:2})
+          .margin({top:100})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -735,6 +741,7 @@ struct SepiaPage001 {
             }
             .commonStyle()
           }
+          .margin({left:40})
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -777,7 +784,8 @@ struct SepiaPage001 {
             .commonStyle()
         } else if (this.targetView == 'Circle') {
           Circle()
-            .height(40)
+            .width(120)
+            .height(120)
             .commonStyleEasy()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
@@ -820,7 +828,8 @@ struct SepiaPage001 {
         } else if (this.targetView == 'Rect') {
           Rect()
             .radius(20)
-            .height(40)
+            .width(120)
+            .height(100)
             .stroke(Color.Transparent)
             .commonStyleEasy()
             .margin({top:50})
