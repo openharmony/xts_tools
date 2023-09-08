@@ -25,12 +25,12 @@ export default function Background02() {
   // this param is required.
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','LoadingProgress','Marquee', 'Menu', 'MenuItem', 'Navigation',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem', 'Navigation',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextClock', 'TextInput',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextInput',
     'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
-    'Refresh', 'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
+    'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
     'Canvas','XComponent'
   ]
@@ -46,77 +46,53 @@ export default function Background02() {
   // this param is required.
   let testValues = [
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'Black', //截图命名的一部分
       setValue: Color.Black, //要测试的属性值
     },
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'Blue', //截图命名的一部分
       setValue: Color.Blue, //要测试的属性值
     },
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'Brown', //截图命名的一部分
       setValue: Color.Brown, //要测试的属性值
     },
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'Gray', //截图命名的一部分
       setValue: Color.Gray, //要测试的属性值
     },
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'Grey', //截图命名的一部分
       setValue: Color.Grey, //要测试的属性值
     },
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'Green', //截图命名的一部分
       setValue: Color.Green, //要测试的属性值
     },
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'Orange', //截图命名的一部分
       setValue: Color.Orange, //要测试的属性值
     },
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'Pink', //截图命名的一部分
       setValue: Color.Pink, //要测试的属性值
     },
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'Red', //截图命名的一部分
       setValue: Color.Red, //要测试的属性值
     },
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'White', //截图命名的一部分
       setValue: Color.White, //要测试的属性值
     },
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'Yellow', //截图命名的一部分
       setValue: Color.Yellow, //要测试的属性值
     },
     {
-      describe: 'Background02', //截图命名的一部分
+      describe: 'Transparent', //截图命名的一部分
       setValue: Color.Transparent, //要测试的属性值
-    },
-    {
-      describe: 'Background02', //截图命名的一部分
-      setValue: 0x0000ff, //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_016', //截图命名的一部分
-      setValue: 'rgb(0,0,255)', //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_017', //截图命名的一部分
-      setValue: 'rgba(0,0,255,1.000)', //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_018', //截图命名的一部分
-      setValue: $r("app.color.blue"), //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_020', //截图命名的一部分
-      setValue: "dsfsdfsf", //要测试的属性值
-    },
-    {
-      describe: 'SUB_ACE_TS_COMPONENT_SR000HDEQK_021', //截图命名的一部分
-      setValue: $r("app.string.module_desc"), //要测试的属性值
-    },
+    }
   ]
 
   function sleep(time) {

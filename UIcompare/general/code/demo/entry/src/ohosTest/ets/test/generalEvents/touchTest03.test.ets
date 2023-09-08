@@ -26,12 +26,12 @@ export default function TouchEvent03() {
 
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','LoadingProgress','Marquee', 'Menu', 'MenuItem', 'Navigation',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem', 'Navigation',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextClock', 'TextInput',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextInput',
     'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
-    'Refresh', 'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
+    'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
     'Canvas','XComponent'
   ]
@@ -40,22 +40,24 @@ export default function TouchEvent03() {
   // this param is required.
   let pageConfig = {
     testName: 'TouchEvent03', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/touchEvent/touchEvent002' //用于设置窗口页面
+    pageUrl: 'TestAbility/pages/touchEvent/touchEvent001' //用于设置窗口页面
   }
+
+  let id = "sendTouchEvent3"
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'screenX1', //截图命名的一部分
+      describe: 'screenY1', //截图命名的一部分
       setValue: -50, //要测试的属性值
     },
     {
-      describe: 'screenX2', //截图命名的一部分
+      describe: 'screenY2', //截图命名的一部分
       setValue: 50, //要测试的属性值
     },
     {
-      describe: 'screenX3', //截图命名的一部分
+      describe: 'screenY3', //截图命名的一部分
       setValue: 0, //要测试的属性值
     },
   ]
@@ -88,7 +90,7 @@ export default function TouchEvent03() {
     })
 
     // create test cases by config.
-    CommonTest.initTest_touchEvent3(pageConfig, supportView, testValues)
+    CommonTest.initTest_touchEvent(pageConfig, supportView, testValues, id)
   })
 }
 

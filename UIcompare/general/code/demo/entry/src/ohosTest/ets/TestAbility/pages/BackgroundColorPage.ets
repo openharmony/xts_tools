@@ -15,6 +15,7 @@
 
 import AttrsManager from '../../test/model/AttrsManager'
 import router from '@ohos.router';
+import { WaterFlowDataSource } from './WaterFlowDataSource'
 
 @Entry
 @Component
@@ -22,6 +23,20 @@ struct BackgroundColorPage {
   @State _generalAttr: number = 0xecd4a8; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
+  datasource: WaterFlowDataSource = new WaterFlowDataSource()
+  private itemHeightArray: number[] = []
+
+  @Builder itemFoot() {
+    Column() {
+      Text(`Footer`)
+        .fontSize(10)
+        .backgroundColor(Color.Red)
+        .width(50)
+        .height(50)
+        .align(Alignment.Center)
+        .margin({ top: 2 })
+    }
+  }
 
   @Styles commonStyle(){
     .width(150)
@@ -75,7 +90,7 @@ struct BackgroundColorPage {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             src: "Marquee"
           })
             .commonStyle()
@@ -254,7 +269,6 @@ struct BackgroundColorPage {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row1")
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {

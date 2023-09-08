@@ -136,6 +136,10 @@ struct FocusPage003 {
       this.onFocusEvent = `${this.targetView} focusable(true)获焦`
       this.onFocusEvent1 = `${this.targetView} focusable(false)获焦`
     })
+    .onBlur(() => {
+      this.onFocusEvent = `${this.targetView} focusable(true)未获焦`
+      this.onFocusEvent1 = `${this.targetView} focusable(false)未获焦`
+    })
     .border({width:2})
     .key(this.componentKey)
   }
@@ -145,6 +149,10 @@ struct FocusPage003 {
     .onFocus(() => {
       this.onFocusEvent = `${this.targetView} focusable(true)获焦`
       this.onFocusEvent1 = `${this.targetView} focusable(false)获焦`
+    })
+    .onBlur(() => {
+      this.onFocusEvent = `${this.targetView} focusable(true)未获焦`
+      this.onFocusEvent1 = `${this.targetView} focusable(false)未获焦`
     })
     .key(this.componentKey)
   }
@@ -186,11 +194,11 @@ struct FocusPage003 {
       Column() {
         if(this._generalAttr==true){
           Text(this.onFocusEvent)
-            .fontColor(18)
+            .fontSize(18)
             .margin({top:40,bottom:40})
         }else if(this._generalAttr==false){
           Text(this.onFocusEvent1)
-            .fontColor(18)
+            .fontSize(18)
             .margin({top:40,bottom:40})
         }
 
@@ -281,12 +289,9 @@ struct FocusPage003 {
               this.state = AnimationStatus.Stopped
             })
             .commonStyle()
-        } else if (this.targetView == 'LoadingProgress') {
-          LoadingProgress()
-            .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -397,9 +402,6 @@ struct FocusPage003 {
           })
             .placeholderFont({ size: 16, weight: 400 })
             .commonStyle()
-        } else if (this.targetView == 'TextClock') {
-          TextClock()
-            .commonStyle()
         } else if (this.targetView == 'TextInput') {
           Column(){
             TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
@@ -460,7 +462,7 @@ struct FocusPage003 {
             .margin({ left: 12 })
           }
           .border({width:2})
-          .width(300)
+          .width(240)
           .height(180)
         } else if (this.targetView == 'Column') {
           Column(){
@@ -505,7 +507,7 @@ struct FocusPage003 {
               Text("GridCol GridCol").height(50)
             }.borderWidth(2)
             .commonStyle()
-          }.width(300)
+          }.width(260)
           .height(200)
           .borderWidth(2)
         } else if (this.targetView == 'GridRow') {
@@ -521,9 +523,9 @@ struct FocusPage003 {
               ForEach(this.Number1, (day: string) => {
                 GridItem() {
                   Text(day)
-                    .fontSize(16)
-                    .width('100%')
-                    .height('100%')
+                    .fontSize(12)
+                    .width('60%')
+                    .height('60%')
                     .textAlign(TextAlign.Center)
                 }
               }, day => day)
@@ -570,8 +572,8 @@ struct FocusPage003 {
             }
             .commonStyle()
           }
-          .width(370)
-          .height(280)
+          .width(240)
+          .height(180)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -602,11 +604,7 @@ struct FocusPage003 {
           .dragBar(true) // 默认开启
           .halfHeight(500) // 默认一半
           .commonStyle()
-        } else if (this.targetView == 'Refresh') {
-          Refresh({ refreshing: true })
-            .commonStyle()
-        }
-        else if (this.targetView == 'RelativeContainer') {
+        } else if (this.targetView == 'RelativeContainer') {
           RelativeContainer() {
             Row()
               .width(30)
@@ -616,7 +614,7 @@ struct FocusPage003 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
+              .key("row001")
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {

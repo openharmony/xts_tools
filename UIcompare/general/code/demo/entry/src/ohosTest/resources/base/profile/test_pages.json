@@ -53,6 +53,11 @@
     "TestAbility/pages/background/background010",
     "TestAbility/pages/background/background011",
     "TestAbility/pages/background/background012",
+    "TestAbility/pages/background/background013",
+    "TestAbility/pages/background/background014",
+    "TestAbility/pages/background/background015",
+    "TestAbility/pages/background/background016",
+    "TestAbility/pages/background/background017",
     "TestAbility/pages/background/linearGradient/linearGradient01",
     "TestAbility/pages/background/linearGradient/linearGradient02",
     "TestAbility/pages/background/linearGradient/linearGradient03",
@@ -116,7 +121,9 @@
     "TestAbility/pages/size/WidthPage001",
     "TestAbility/pages/size/WidthPage002",
     "TestAbility/pages/size/HeightPage001",
-    "TestAbility/pages/size/HeightPage002"
+    "TestAbility/pages/size/HeightPage002",
 
+    "TestAbility/pages/click/ClickPage001",
+    "TestAbility/pages/click/ClickPage002"
   ]
 }

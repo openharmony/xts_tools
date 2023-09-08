@@ -35,17 +35,17 @@ import {
 } from '@ohos.UiTest';
 
 export default function BorderTest001() {
-
+//23*69=1587
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup','Navigation',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
     'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
     'TextPicker', 'TextTimer', 'TimePicker', 'Toggle1', 'Toggle2','Toggle3','Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
     'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
-    'Canvas','XComponent'
+    'Canvas','XComponent','Navigation',
   ]
 
   //页面配置信息
@@ -76,9 +76,9 @@ export default function BorderTest001() {
       },
     },
     {
-      describe: 'width_80',
+      describe: 'width_30',
       setValue:  {
-        width: 80,
+        width: 30,
         color: 0xAFEEEE,
         radius: 0,
         style:BorderStyle.Solid
@@ -87,7 +87,7 @@ export default function BorderTest001() {
     {
       describe: 'EdgeWidth',
       setValue:  {
-        width: { left: '5lpx', right: '10lpx', top: '20lpx', bottom: '30lpx' },
+        width: { left: '5lpx', right: '10lpx', top: '20lpx', bottom: '40lpx' },
         color: 0xAFEEEE,
         radius: 0,
         style:BorderStyle.Solid
@@ -121,9 +121,9 @@ export default function BorderTest001() {
       },
     },
     {
-      describe: 'width_20percent',
+      describe: 'width_15percent',
       setValue: {
-        width: '20%',
+        width: '15%',
         color: 0xAFEEEE,
         radius: 0,
         style: BorderStyle.Solid
@@ -132,7 +132,7 @@ export default function BorderTest001() {
     {
       describe: 'width_resource',
       setValue: {
-        width: $r('app.float.border_width'),
+        width: $r('app.float.border_width'),//20px
         color: 0xAFEEEE,
         radius: 0,
         style:BorderStyle.Solid
@@ -141,7 +141,7 @@ export default function BorderTest001() {
     {
       describe: 'width_padding',
       setValue: {
-        width: 600,
+        width: 360,
         color: 0xAFEEEE,
         radius: 0,
         style:BorderStyle.Solid
@@ -182,10 +182,10 @@ export default function BorderTest001() {
       },
     },
     {
-      describe: 'radius_10',
+      describe: 'radius_30',
       setValue:  {
         width: 10,
-        radius: 10,
+        radius: 30,
         color: 0xAFEEEE,
         style: BorderStyle.Solid
       },
@@ -290,7 +290,7 @@ export default function BorderTest001() {
       done()
     })
 
-    CommonTest.initTest(pageConfig, supportView, testValues)
+    CommonTest.initTest1(pageConfig, supportView, testValues)
 
   })
 }

@@ -44,9 +44,9 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct background008 {
+struct background007 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: any = { x: 0, y: 0 }; //通用属性初始值
+  @State _generalAttr:  Alignment = Alignment.Top; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -126,8 +126,8 @@ struct background008 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .width(240)
+    .height(180)
     .border({width:2})
     .backgroundImage("/pages/images/icon.png")
     .backgroundImagePosition(this._generalAttr)
@@ -267,7 +267,7 @@ struct background008 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,

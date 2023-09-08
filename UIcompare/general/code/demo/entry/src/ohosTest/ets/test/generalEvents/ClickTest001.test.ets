@@ -16,48 +16,35 @@ import CommonTest from '../common/CommonTest';
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
 import Settings from '../model/Settings'
 import Logger from '../model/Logger'
-// @ts-ignore
 
-//测试通用属性-TouchEvent
-export default function TouchEvent06() {
-
-  //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
-  // this param is required.
+export default function ClickTest001() {
 
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','LoadingProgress','Marquee', 'Menu', 'MenuItem', 'Navigation',
-    'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextClock', 'TextInput',
-    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup',
+     'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
+    'TextPicker', 'TextTimer', 'TimePicker', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
-    'Refresh', 'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
+    'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
-    'Canvas','XComponent'
+    'Canvas','XComponent','Navigation','Toggle1', 'Toggle2','Toggle3','NavRouter',
   ]
 
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'TouchEvent06', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/touchEvent/touchEvent002' //用于设置窗口页面
+    testName: 'ClickTest001', //截图命名的一部分
+    pageUrl: "TestAbility/pages/click/ClickPage001" //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'y1', //截图命名的一部分
-      setValue: 0, //要测试的属性值
-    },
-    {
-      describe: 'y2', //截图命名的一部分
-      setValue: -20, //要测试的属性值
-    },
-    {
-      describe: 'y3', //截图命名的一部分
-      setValue: 20, //要测试的属性值
-    },
+      describe: 'click_byKey',
+      setValue: 0,
+    }
   ]
 
   function sleep(time) {
@@ -65,12 +52,11 @@ export default function TouchEvent06() {
   }
 
   //  create test suite
-  describe('TouchEvent06', function () {
-
+  describe("ClickTest001", () => {
     beforeAll(async function () {
       console.info('beforeAll in1');
     })
-
+    //    create test cases by config.
     afterEach(async function (done) {
       if (Settings.windowClass == null) {
         return
@@ -87,8 +73,8 @@ export default function TouchEvent06() {
       done()
     })
 
-    // create test cases by config.
-    CommonTest.initTest_touchEvent6(pageConfig, supportView, testValues)
+    CommonTest.initTest_click(pageConfig, supportView, testValues)
+
   })
 }
 

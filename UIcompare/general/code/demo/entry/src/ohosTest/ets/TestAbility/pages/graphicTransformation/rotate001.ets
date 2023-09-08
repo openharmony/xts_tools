@@ -46,7 +46,14 @@ class MyDataSource implements IDataSource {
 @Component
 struct Rotate001 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: any = {
+  @State _generalAttr: {
+    x?: number,
+    y?: number,
+    z?: number,
+    angle: number | string,
+    centerX?: number | string,
+    centerY?: number | string
+  } = {
     x: 1,
     y: 1,
     z: 1,
@@ -281,7 +288,7 @@ struct Rotate001 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -981,7 +988,7 @@ struct Rotate001 {
             .commonStyleDemo()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,

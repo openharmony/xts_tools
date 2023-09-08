@@ -35,17 +35,17 @@ import {
 } from '@ohos.UiTest';
 
 export default function BorderTest002() {
-
+  //27*69=1863
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup','Navigation',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
     'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
     'TextPicker', 'TextTimer', 'TimePicker', 'Toggle1', 'Toggle2','Toggle3','Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
     'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
-    'Canvas','XComponent'
+    'Canvas','XComponent','Navigation',
   ]
 
   //页面配置信息
@@ -59,19 +59,19 @@ export default function BorderTest002() {
   // this param is required.
   let testValues =[
     {
-      describe: 'source_linearGradient',
-      setValue:  {
-        source:{
-          angle: 90,
-          direction: GradientDirection.Left,
-          colors: [[0xAEE1E1, 0.0], [0xD3E0DC, 0.3], [0xFCD1D1, 1.0]]
-        },
-        slice: { top: 10, bottom: 10, left: 10, right: 10 },
-        width: { top: "80px", bottom: "80px", left: "80px", right: "80px" },
-        repeat: RepeatMode.Repeat,
-        fill: false
+    describe: 'source_linearGradient',
+    setValue:  {
+      source:{
+        angle: 90,
+        direction: GradientDirection.Left,
+        colors: [[0xAEE1E1, 0.0], [0xD3E0DC, 0.3], [0xFCD1D1, 1.0]]
       },
+      slice: { top: 10, bottom: 10, left: 10, right: 10 },
+      width: { top: "80px", bottom: "80px", left: "80px", right: "80px" },
+      repeat: RepeatMode.Repeat,
+      fill: false
     },
+  },
     {
 
       describe: 'source_url',
@@ -157,7 +157,7 @@ export default function BorderTest002() {
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
         slice: $r('app.float.float_1'),
-        width: 40,
+        width: 10,
         repeat: RepeatMode.Stretch,
         fill: false
       },
@@ -246,7 +246,7 @@ export default function BorderTest002() {
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
         slice: 20,
-        width: {top:"20px", bottom:"20", left:20, right:"10%"},
+        width: {top:"20px", bottom:"2", left:20, right:"10%"},
         repeat: RepeatMode.Stretch,
         fill: false
       },
@@ -262,12 +262,12 @@ export default function BorderTest002() {
       },
     },
     {
-      describe: 'outset_10',
+      describe: 'outset_15',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
         slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
         width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
-        outset: 10,
+        outset: 15,
         repeat: RepeatMode.Stretch,
         fill: false
       },
@@ -295,23 +295,23 @@ export default function BorderTest002() {
       },
     },
     {
-      describe: 'outset_50px',
+      describe: 'outset_20px',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
         slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
         width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
-        outset: '50px',
+        outset: '20px',
         repeat: RepeatMode.Stretch,
         fill: false
       },
     },
     {
-      describe: 'outset_5percent',
+      describe: 'outset_10percent',
       setValue:  {
         source: "TestAbility/pages/border/bg.jpg",
         slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
         width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
-        outset: '5%',
+        outset: '10%',
         repeat: RepeatMode.Stretch,
         fill: false
       },
@@ -333,7 +333,7 @@ export default function BorderTest002() {
         source: "TestAbility/pages/border/bg.jpg",
         slice: {top:"50%", bottom:"10%", left:"10%", right:"40%"},
         width: {top:"80px", bottom:"80px", left:"80px", right:"80px"},
-        outset: {top:"50px", bottom:"10", left: 10, right:"5%"},
+        outset: {top:"20px", bottom:"5", left: 15, right:"10%"},
         repeat: RepeatMode.Stretch,
         fill: false
       },
@@ -366,7 +366,7 @@ export default function BorderTest002() {
       done()
     })
 
-    CommonTest.initTest(pageConfig, supportView, testValues)
+    CommonTest.initTest1(pageConfig, supportView, testValues)
 
   })
 }

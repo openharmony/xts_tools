@@ -107,7 +107,7 @@ struct FocusPage019 {
               prompt.showToast({message: 'Request failed'})
             }
           })
-          .id("RequestFocus")
+          .key("RequestFocus")
       }
 
     }

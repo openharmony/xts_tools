@@ -43,7 +43,6 @@ struct FocusPage002 {
       this.oneButtonColor1 = '#FFFB10';
       this.onFocusEvent1 = `获焦`
     })
-    .key(this.componentKey)
   }
 
   @Styles commonStyle2(){
@@ -56,7 +55,6 @@ struct FocusPage002 {
       this.oneButtonColor2 = '#FFFB10';
       this.onFocusEvent2 = `获焦`
     })
-    .key(this.componentKey)
   }
 
   @Styles commonStyle3(){
@@ -69,7 +67,6 @@ struct FocusPage002 {
       this.oneButtonColor3 = '#FFFB10';
       this.onFocusEvent3 = `获焦`
     })
-    .key(this.componentKey)
   }
 
   onPageShow() {
@@ -80,14 +77,14 @@ struct FocusPage002 {
     Row() {
       Column() {
         Text(this.onFocusEvent1)
-          .fontColor(18)
+          .fontSize(18)
           .margin({top:40,bottom:10})
 
         Image($r("app.media.icon")).objectFit(ImageFit.Contain)
           .commonStyle1()
 
         Text(this.onFocusEvent2)
-          .fontColor(18)
+          .fontSize(18)
           .margin({top:40,bottom:10})
         ImageAnimator()
           .images([
@@ -122,7 +119,7 @@ struct FocusPage002 {
           })
 
         Text(this.onFocusEvent3)
-          .fontColor(18)
+          .fontSize(18)
           .margin({top:40,bottom:10})
         Text("focusAble")
           .commonStyle3()

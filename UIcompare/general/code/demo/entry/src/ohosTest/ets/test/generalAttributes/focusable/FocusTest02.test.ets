@@ -18,7 +18,7 @@ import Settings from '../../model/Settings'
 import windowSnap from '../../model/snapShot'
 import Logger from '../../model/Logger'
 import { AttrsManager } from '../../model/AttrsManager';
-// @ts-ignore
+
 
 //测试通用属性-focusable
 export default function FocusTest02() {
@@ -28,12 +28,12 @@ export default function FocusTest02() {
 
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','LoadingProgress','Marquee', 'Menu', 'MenuItem', 'Navigation',
-    'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextClock', 'TextInput',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem', 'MenuItemGroup',
+    'Navigation', 'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextInput',
     'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
-    'Refresh', 'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
+    'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
     'Canvas','XComponent'
   ]
@@ -49,11 +49,11 @@ export default function FocusTest02() {
   // this param is required.
   let testValues = [
     {
-      describe: 'SUB_ACE_TS_COMPONENT_003', //截图命名的一部分
+      describe: 'focusable_true', //截图命名的一部分
       setValue: true, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_COMPONENT_004', //截图命名的一部分
+      describe: 'focusable_false', //截图命名的一部分
       setValue: false, //要测试的属性值
     },
   ]

@@ -46,7 +46,7 @@ class MyDataSource implements IDataSource {
 @Component
 struct linearGradient04 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: any = [[0xAEE1E1, 0.0], [0xD3E0DC, 0.3], [0xFCD1D1, 0.6]]; //通用属性初始值
+  @State _generalAttr: Array<[ResourceColor, number]>  = [[0xAEE1E1, 0.0], [0xD3E0DC, 0.3], [0xFCD1D1, 0.6]]; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -126,8 +126,8 @@ struct linearGradient04 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .width(240)
+    .height(180)
     .border({width:2})
     .linearGradient({
       colors: this._generalAttr
@@ -269,7 +269,7 @@ struct linearGradient04 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,

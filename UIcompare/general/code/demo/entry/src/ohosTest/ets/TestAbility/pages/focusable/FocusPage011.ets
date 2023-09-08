@@ -32,7 +32,6 @@ struct FocusPage011 {
     .height(100)
     .border({width:2})
     .defaultFocus(this._generalAttr)
-    .key(this.componentKey)
   }
 
   onPageShow() {

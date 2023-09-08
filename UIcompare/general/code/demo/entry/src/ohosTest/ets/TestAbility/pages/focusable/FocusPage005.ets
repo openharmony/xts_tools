@@ -35,7 +35,6 @@ struct FocusPage005 {
     .height(100)
     .border({width:2})
     .focusable(this._generalAttr)
-    .key(this.componentKey)
   }
 
   onPageShow() {
@@ -60,7 +59,7 @@ struct FocusPage005 {
         .onFocus(() => {
           this.onFocusEvent1 = `Column tabIndex = -1 获焦`
         })
-        .id("Column01005")
+        .key("Column01005")
 
         Text(`${this.onFocusEvent2}`)
           .fontSize(20)
@@ -77,7 +76,7 @@ struct FocusPage005 {
         .onFocus(() => {
           this.onFocusEvent2 = `Column tabIndex = 1 获焦`
         })
-        .id("Column02005")
+        .key("Column02005")
 
       }
       .width('100%')

@@ -46,7 +46,12 @@ class MyDataSource implements IDataSource {
 @Component
 struct radialGradient03 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: any = {
+  @State _generalAttr: {
+    center: [number, number],
+    radius: number | string,
+    colors: Array<[ResourceColor, number]>,
+    repeating?: boolean
+  } = {
     center:[50,50],
     radius:20,
     colors: [[Color.Blue, 0.0], [0xD3E0DC, 0.3], ["rgb(255,200,255)", 1.0]],
@@ -131,8 +136,8 @@ struct radialGradient03 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .width(240)
+    .height(180)
     .border({width:2})
     .radialGradient({
       center: this._generalAttr.center,
@@ -280,7 +285,7 @@ struct radialGradient03 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,

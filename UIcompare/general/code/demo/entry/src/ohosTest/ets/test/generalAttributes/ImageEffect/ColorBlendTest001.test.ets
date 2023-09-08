@@ -35,17 +35,17 @@ import {
 } from '@ohos.UiTest';
 
 export default function ColorBlendTest001() {
-
+//69*4=276
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup','Navigation',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
     'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
     'TextPicker', 'TextTimer', 'TimePicker', 'Toggle1', 'Toggle2','Toggle3','Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
     'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
-    'Canvas','XComponent'
+    'Canvas','XComponent','Navigation',
   ]
 
   //页面配置信息
@@ -62,17 +62,17 @@ export default function ColorBlendTest001() {
       describe: 'colorBlend_Blue',
       setValue:  Color.Blue
     },
-    {
-      describe: 'colorBlend_0xCCCCCC',
-      setValue: 0xCCCCCC
+    {//紫色
+      describe: 'colorBlend_0x800080',
+      setValue: 0x800080
     },
     {
-      describe: 'colorBlend_rgb(255,200,255)',
-      setValue: 'rgb(255,200,255)'
+      describe: 'colorBlend_rgb(255,0,0)',
+      setValue: 'rgb(255,0,0)'
     },
     {
       describe: 'colorBlend_resource',
-      setValue: $r("app.color.pink")
+      setValue: $r("app.color.green")
     }
 
   ]
@@ -103,7 +103,7 @@ export default function ColorBlendTest001() {
       done()
     })
 
-    CommonTest.initTest(pageConfig, supportView, testValues)
+    CommonTest.initTest1(pageConfig, supportView, testValues)
 
   })
 }

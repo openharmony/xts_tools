@@ -13,11 +13,12 @@
  * limitations under the License.
  */
 
+
+
 import AttrsManager from '../../../test/model/AttrsManager'
 import web_webview from '@ohos.web.webview'
 import router from '@ohos.router';
 import { WaterFlowDataSource } from '../WaterFlowDataSource'
-import FlexShrinkTest003 from '../../../test/generalAttributes/Flex/FlexShrinkTest003.test';
 
 class MyDataSource implements IDataSource {
   private list: number[] = []
@@ -547,8 +548,7 @@ struct WidthPage001 {
             .commonStyle()
             .margin({top:0})
           }
-          .width(350)
-          .height(260)
+          .border({width:2,color:Color.Yellow})
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -560,9 +560,7 @@ struct WidthPage001 {
             .commonStyle()
             .margin({top:0})
           }
-          .width(350)
-          .height(260)
-          .border({width:2})
+          .border({width:2,color:Color.Yellow})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -718,11 +716,13 @@ struct WidthPage001 {
             }.tabBar(this.TabBuilder(0, 'green'))
             .commonStyle()
             .margin({top:0})
+            .border({width:2,color:Color.Green})
             TabContent() {
               Column().width('40%').height('40%')
             }.tabBar(this.TabBuilder(1, 'blue'))
             .commonStyle()
             .margin({top:0})
+            .border({width:2,color:Color.Green})
           }
           .vertical(false)
           .barMode(BarMode.Fixed)
@@ -732,10 +732,7 @@ struct WidthPage001 {
           .onChange((index: number) => {
             this.currentIndex = index
           })
-          .width(200)
-          .height(150)
-          .margin({ top: 260 })
-          .border({width:2})
+          .border({width:2,color:Color.Yellow})
         }
         else if (this.targetView == 'FlowItem') {
           WaterFlow() {
@@ -786,7 +783,7 @@ struct WidthPage001 {
             .commonStyle()
         } else if (this.targetView == 'Circle') {
           Circle()
-            .height(40)
+            .height(120)
             .commonStyleEasy()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
@@ -829,7 +826,7 @@ struct WidthPage001 {
         } else if (this.targetView == 'Rect') {
           Rect()
             .radius(20)
-            .height(40)
+            .height(120)
             .stroke(Color.Transparent)
             .commonStyleEasy()
             .margin({top:50})

@@ -12,8 +12,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import BackgroundColorTest from './generalAttributes/BackgroundColorTest.test'
-
 // background
 import Background01 from './generalAttributes/background/background01.test'
 import Background02 from './generalAttributes/background/background02.test'
@@ -27,6 +25,11 @@ import Background09 from './generalAttributes/background/background09.test'
 import Background10 from './generalAttributes/background/background10.test'
 import Background11 from './generalAttributes/background/background11.test'
 import Background12 from './generalAttributes/background/background12.test'
+import Background13 from './generalAttributes/background/background13.test'
+import Background14 from './generalAttributes/background/background14.test'
+import Background15 from './generalAttributes/background/background15.test'
+import Background16 from './generalAttributes/background/background16.test'
+import Background17 from './generalAttributes/background/background17.test'
 
 import LinearGradient01 from './generalAttributes/background/linearGradient/LinearGradient01.test'
 import LinearGradient02 from './generalAttributes/background/linearGradient/LinearGradient02.test'
@@ -109,7 +112,6 @@ import TouchEvent02 from './generalEvents/touchTest02.test'
 import TouchEvent03 from './generalEvents/touchTest03.test'
 import TouchEvent04 from './generalEvents/touchTest04.test'
 import TouchEvent05 from './generalEvents/touchTest05.test'
-import TouchEvent06 from './generalEvents/touchTest06.test'
 
 //border
 import BorderTest001 from './generalAttributes/border/BorderTest001.test'
@@ -150,6 +152,12 @@ import WidthTest001 from './generalAttributes/size/WidthTest001.test'
 import WidthTest002 from './generalAttributes/size/WidthTest002.test'
 import HeightTest001 from './generalAttributes/size/HeightTest001.test'
 import HeightTest002 from './generalAttributes/size/HeightTest002.test'
+
+//click
+import ClickTest001 from './generalEvents/ClickTest001.test'
+import ClickTest002 from './generalEvents/ClickTest002.test'
+import ClickTest003 from './generalEvents/ClickTest003.test'
+
 export default function testsuite() {
 
   Background01()
@@ -164,6 +172,11 @@ export default function testsuite() {
   Background10()
   Background11()
   Background12()
+  Background13()
+  Background14()
+  Background15()
+  Background16()
+  Background17()
 
   LinearGradient01()
   LinearGradient02()
@@ -242,8 +255,6 @@ export default function testsuite() {
   TouchEvent03()
   TouchEvent04()
   TouchEvent05()
-  TouchEvent06()
-
 
   BorderTest001()
   BorderTest002()
@@ -280,5 +291,9 @@ export default function testsuite() {
   WidthTest002()
   HeightTest001()
   HeightTest002()
+
+  ClickTest001()
+  ClickTest002()
+  ClickTest003()
 
 }
