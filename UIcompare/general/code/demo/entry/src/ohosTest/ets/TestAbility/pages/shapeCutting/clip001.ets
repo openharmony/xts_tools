@@ -216,12 +216,12 @@ struct ClipPage001 {
         } else if (this.targetView == 'Image') {
           Column(){
             Image($r("app.media.icon")).objectFit(ImageFit.Contain)
-              .width(50)
-              .height(40)
+              .width(150)
+              .height(150)
               .commonStyleEasy()
           }
           .width(200)
-          .height(150)
+          .height(200)
           .border({width:2})
         } else if (this.targetView == 'ImageAnimator') {
           ImageAnimator()
@@ -263,7 +263,7 @@ struct ClipPage001 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -482,13 +482,13 @@ struct ClipPage001 {
               Text("GridCol GridCol").height(50)
             }.borderWidth(2)
             .commonStyle()
-          }.width(300)
+          }.width(200)
           .height(200)
           .borderWidth(2)
         } else if (this.targetView == 'GridRow') {
           GridRow() {
             GridCol({span:6}) {
-              Text('GridRow').height(80).width(120)
+              Text('GridRow').height(80).width(60)
             }
           }
           .commonStyle()
@@ -541,14 +541,15 @@ struct ClipPage001 {
           })
           .commonStyle()
         } else if (this.targetView == 'ListItem') {
-          List() {
-            ListItem(){
-              Text('ListItem')
-            }
-            .commonStyle()
+        List() {
+          ListItem(){
+            Text('ListItem')
           }
-          .width(370)
-          .height(280)
+          .commonStyle()
+          .width(120)
+        }
+        .width(200)
+        .height(200)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -786,8 +787,8 @@ struct ClipPage001 {
             .commonStyle()
         } else if (this.targetView == 'Circle') {
           Column(){
-            Circle({ width: 40, height: 40 })
-              .margin({top:50})
+            Circle({ width: 100, height: 100 })
+              .margin({top:20})
               .commonStyleEasy()
           }
           .width(200)
@@ -831,9 +832,8 @@ struct ClipPage001 {
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
           Column(){
-            Rect({ width: '20%', height: 40 })
-              .radius(20)
-              .stroke(Color.Transparent)
+          Rect({ width: '50%', height: 60 })
+            .stroke(Color.Transparent)
               .commonStyleEasy()
               .margin({top:30})
           }

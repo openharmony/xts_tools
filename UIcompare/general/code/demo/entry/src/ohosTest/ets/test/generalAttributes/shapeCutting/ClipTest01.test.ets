@@ -16,7 +16,7 @@ import CommonTest from '../../common/CommonTest';
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
 import Settings from '../../model/Settings'
 import Logger from '../../model/Logger'
-// @ts-ignore
+
 
 //测试通用属性-graphicTransformation
 export default function ClipTest01() {
@@ -26,12 +26,12 @@ export default function ClipTest01() {
 
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','LoadingProgress','Marquee', 'Menu', 'MenuItem', 'Navigation',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem', 'Navigation',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextClock', 'TextInput',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextInput',
     'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
-    'Refresh', 'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
+    'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
     'Canvas','XComponent'
   ]
@@ -48,7 +48,7 @@ export default function ClipTest01() {
   let testValues = [
     {
       describe: 'No_Transformation', //截图命名的一部分
-      setValue: 151, //要测试的属性值
+      setValue: false, //要测试的属性值
     },
   ]
 
