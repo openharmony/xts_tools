@@ -15,15 +15,15 @@
 import CommonTest from '../../common/CommonTest';
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
 import Settings from '../../model/Settings'
+import windowSnap from '../../model/snapShot'
 import Logger from '../../model/Logger'
+import { AttrsManager } from '../../model/AttrsManager';
 
-
-//测试通用属性-graphicTransformation
-export default function ClipTest01() {
+//测试通用属性-clip
+export default function ClipTest06() {
 
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
-
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
     'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem', 'Navigation',
@@ -39,16 +39,36 @@ export default function ClipTest01() {
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'ClipTest01', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/shapeCutting/clip001' //用于设置窗口页面
+    testName: 'ClipTest06', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/shapeCutting/clip006' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'No_Transformation', //截图命名的一部分
-      setValue: false, //要测试的属性值
+      describe: 'Rect01', //截图命名的一部分
+      setValue: {width:"120px"}, //要测试的属性值
+    },
+    {
+      describe: 'Rect02', //截图命名的一部分
+      setValue: {radius:20}, //要测试的属性值
+    },
+    {
+      describe: 'Rect03', //截图命名的一部分
+      setValue: {width:"120px",height:"60px"}, //要测试的属性值
+    },
+    {
+      describe: 'Rect04', //截图命名的一部分
+      setValue: {width:"120px",height:"60px",radiusWidth:"20px",radiusHeight:"40px"}, //要测试的属性值
+    },
+    {
+      describe: 'Rect05', //截图命名的一部分
+      setValue: {width:"120px",height:"60px",radius:20}, //要测试的属性值
+    },
+    {
+      describe: 'Rect06', //截图命名的一部分
+      setValue: {width:"120px",height:"60px",radius:[[40,40],[20,20],[40,40],[20,20]]}, //要测试的属性值
     },
   ]
 
@@ -57,7 +77,7 @@ export default function ClipTest01() {
   }
 
   //  create test suite
-  describe('ClipTest01', function () {
+  describe('ClipTest06', function () {
 
     beforeAll(async function () {
       console.info('beforeAll in1');
@@ -85,5 +105,5 @@ export default function ClipTest01() {
 }
 
 export function create() {
-  throw new Error('Function not implemented.');
+throw new Error('Function not implemented.');
 }

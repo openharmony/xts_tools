@@ -85,6 +85,11 @@ import OverlayTest05 from './generalAttributes/overlayTest/OverlayTest05.test'
 // shapeCutting
 import ClipTest01 from './generalAttributes/shapeCutting/ClipTest01.test'
 import ClipTest02 from './generalAttributes/shapeCutting/ClipTest02.test'
+import ClipTest03 from './generalAttributes/shapeCutting/ClipTest03.test'
+import ClipTest04 from './generalAttributes/shapeCutting/ClipTest04.test'
+import ClipTest05 from './generalAttributes/shapeCutting/ClipTest05.test'
+import ClipTest06 from './generalAttributes/shapeCutting/ClipTest06.test'
+import ClipTest07 from './generalAttributes/shapeCutting/ClipTest07.test'
 import MaskTest01 from './generalAttributes/shapeCutting/MaskTest01.test'
 
 // visibility
