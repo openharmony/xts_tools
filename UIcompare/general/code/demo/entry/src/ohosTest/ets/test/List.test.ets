@@ -158,6 +158,7 @@ import LayTest003 from './generalAttributes/lay/LayTest003.test'
 import LayTest004 from './generalAttributes/lay/LayTest004.test'
 import LayTest005 from './generalAttributes/lay/LayTest005.test'
 import LayTest006 from './generalAttributes/lay/LayTest006.test'
+import LayTest007 from './generalAttributes/lay/LayTest007.test'
 
 //size
 import WidthTest001 from './generalAttributes/size/WidthTest001.test'
@@ -309,6 +310,7 @@ export default function testsuite() {
   LayTest004()
   LayTest005()
   LayTest006()
+  LayTest007()
 
   WidthTest001()
   WidthTest002()
