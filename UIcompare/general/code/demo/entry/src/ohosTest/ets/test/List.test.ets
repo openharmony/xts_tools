@@ -90,7 +90,12 @@ import ClipTest04 from './generalAttributes/shapeCutting/ClipTest04.test'
 import ClipTest05 from './generalAttributes/shapeCutting/ClipTest05.test'
 import ClipTest06 from './generalAttributes/shapeCutting/ClipTest06.test'
 import ClipTest07 from './generalAttributes/shapeCutting/ClipTest07.test'
+import ClipTest08 from './generalAttributes/shapeCutting/ClipTest08.test'
+import ClipTest09 from './generalAttributes/shapeCutting/ClipTest09.test'
+import ClipTest10 from './generalAttributes/shapeCutting/ClipTest10.test'
 import MaskTest01 from './generalAttributes/shapeCutting/MaskTest01.test'
+import MaskTest02 from './generalAttributes/shapeCutting/MaskTest02.test'
+import MaskTest03 from './generalAttributes/shapeCutting/MaskTest03.test'
 
 // visibility
 import VisibilityTest01 from './generalAttributes/visibility/VisibilityTest01.test'
@@ -199,9 +204,18 @@ export default function testsuite() {
   SweepGradient05()
   SweepGradient06()
 
-  ClipTest01()
   ClipTest02()
+  ClipTest03()
+  ClipTest04()
+  ClipTest05()
+  ClipTest06()
+  ClipTest07()
+  ClipTest08()
+  ClipTest09()
+  ClipTest10()
   MaskTest01()
+  MaskTest02()
+  MaskTest03()
 
   RotateTest01()
   RotateTest02()
