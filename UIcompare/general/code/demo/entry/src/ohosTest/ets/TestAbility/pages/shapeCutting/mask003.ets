@@ -44,9 +44,9 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct MaskPage001 {
+struct MaskPage003 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: string = ""; //通用属性初始值
+  @State _generalAttr: {width?: string | number, height?: string | number} = {}; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -129,12 +129,14 @@ struct MaskPage001 {
     .width(200)
     .height(150)
     .border({width:2})
-    .mask(new Circle())
+    .mask(new Ellipse(this._generalAttr).fill(Color.Green))
+    .backgroundColor(Color.Blue)
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy(){
-    .mask(new Circle())
+    .mask(new Ellipse(this._generalAttr).fill(Color.Green))
+    .backgroundColor(Color.Blue)
     .key(this.componentKey)
   }
 
@@ -142,10 +144,12 @@ struct MaskPage001 {
     .width(200)
     .height(150)
     .border({width:2})
+    .backgroundColor(Color.Blue)
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy1(){
+    .backgroundColor(Color.Blue)
     .key(this.componentKey)
   }
 
@@ -606,7 +610,6 @@ struct MaskPage001 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {
@@ -1308,7 +1311,6 @@ struct MaskPage001 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
           }
           .commonStyle1()
         } else if (this.targetView == 'Row') {

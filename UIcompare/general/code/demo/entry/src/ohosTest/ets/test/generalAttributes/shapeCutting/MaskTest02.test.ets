@@ -19,7 +19,7 @@ import Logger from '../../model/Logger'
 
 
 //测试通用属性-scale
-export default function MaskTest01() {
+export default function MaskTest02() {
 
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
@@ -38,16 +38,24 @@ export default function MaskTest01() {
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'MaskTest01', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/shapeCutting/mask001' //用于设置窗口页面
+    testName: 'MaskTest02', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/shapeCutting/mask002' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'New_Circle', //截图命名的一部分
-      setValue: "", //要测试的属性值
+      describe: 'Circle01', //截图命名的一部分
+      setValue: {width:"150px"}, //要测试的属性值
+    },
+    {
+      describe: 'Circle02', //截图命名的一部分
+      setValue: {width:"120px",height:"60px"}, //要测试的属性值
+    },
+    {
+      describe: 'Circle03', //截图命名的一部分
+      setValue: {width:"150px",height:"60px"}, //要测试的属性值
     },
   ]
 
@@ -56,7 +64,7 @@ export default function MaskTest01() {
   }
 
   //  create test suite
-  describe('MaskTest01', function () {
+  describe('MaskTest02', function () {
 
     beforeAll(async function () {
       console.info('beforeAll in1');

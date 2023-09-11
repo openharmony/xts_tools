@@ -15,11 +15,12 @@
 import CommonTest from '../../common/CommonTest';
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
 import Settings from '../../model/Settings'
+import windowSnap from '../../model/snapShot'
 import Logger from '../../model/Logger'
+import { AttrsManager } from '../../model/AttrsManager';
 
-
-//测试通用属性-scale
-export default function MaskTest01() {
+//测试通用属性-clip
+export default function ClipTest10() {
 
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
@@ -38,15 +39,15 @@ export default function MaskTest01() {
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'MaskTest01', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/shapeCutting/mask001' //用于设置窗口页面
+    testName: 'ClipTest10', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/shapeCutting/clip010' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'New_Circle', //截图命名的一部分
+      describe: 'New_Rect', //截图命名的一部分
       setValue: "", //要测试的属性值
     },
   ]
@@ -56,7 +57,7 @@ export default function MaskTest01() {
   }
 
   //  create test suite
-  describe('MaskTest01', function () {
+  describe('ClipTest10', function () {
 
     beforeAll(async function () {
       console.info('beforeAll in1');
