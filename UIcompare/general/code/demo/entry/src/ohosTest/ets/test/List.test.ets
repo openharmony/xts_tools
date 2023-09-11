@@ -96,6 +96,8 @@ import ClipTest10 from './generalAttributes/shapeCutting/ClipTest10.test'
 import MaskTest01 from './generalAttributes/shapeCutting/MaskTest01.test'
 import MaskTest02 from './generalAttributes/shapeCutting/MaskTest02.test'
 import MaskTest03 from './generalAttributes/shapeCutting/MaskTest03.test'
+import MaskTest04 from './generalAttributes/shapeCutting/MaskTest04.test'
+import MaskTest05 from './generalAttributes/shapeCutting/MaskTest05.test'
 
 // visibility
 import VisibilityTest01 from './generalAttributes/visibility/VisibilityTest01.test'
@@ -216,6 +218,8 @@ export default function testsuite() {
   MaskTest01()
   MaskTest02()
   MaskTest03()
+  MaskTest04()
+  MaskTest05()
 
   RotateTest01()
   RotateTest02()

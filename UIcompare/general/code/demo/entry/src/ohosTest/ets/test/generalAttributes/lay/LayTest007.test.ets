@@ -34,8 +34,8 @@ import {
   PointerMatrix
 } from '@ohos.UiTest';
 
-export default function LayTest003() {
-//68
+export default function LayTest007() {
+  //3*68=204
   //可去掉gridcol
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
@@ -52,17 +52,25 @@ export default function LayTest003() {
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'LayTest003', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/lay/AspectRatioPage003' //用于设置窗口页面
+    testName: 'LayTest007', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/lay/DisplayPriorityPage003' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues =[
     {
-      describe: 'aspectRatio_HeightInfinity',
-      setValue:  0.5
-    }
+      describe: 'big',
+      setValue:  '90%'
+    },
+    {
+      describe: 'middle',
+      setValue: '50%'
+    },
+    {
+      describe: 'small',
+      setValue:  '30%'
+    },
   ]
 
   function sleep(time) {
@@ -70,7 +78,7 @@ export default function LayTest003() {
   }
 
   //  create test suite
-  describe("LayTest003", () => {
+  describe("LayTest007", () => {
     beforeAll(async function () {
       console.info('beforeAll in1');
     })

@@ -13,56 +13,58 @@
  * limitations under the License.
  */
 import CommonTest from '../../common/CommonTest';
-import Utils from '../../model/Utils'
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
 import Settings from '../../model/Settings'
-import windowSnap from '../../model/snapShot'
 import Logger from '../../model/Logger'
-import { AttrsManager } from '../../model/AttrsManager';
-import {
-  UiComponent,
-  UiDriver,
-  Component,
-  Driver,
-  UiWindow,
-  ON,
-  BY,
-  MatchPattern,
-  DisplayRotation,
-  ResizeDirection,
-  WindowMode,
-  PointerMatrix
-} from '@ohos.UiTest';
 
-export default function LayTest003() {
-//68
-  //可去掉gridcol
+
+//测试通用属性-scale
+export default function MaskTest04() {
+
+  //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
+  // this param is required.
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem', 'Navigation',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
-    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle1', 'Toggle2','Toggle3','Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
-    'FlowItem', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextInput',
+    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
+    'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
     'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
-    'Canvas','XComponent','Navigation',
+    'Canvas','XComponent'
   ]
 
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'LayTest003', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/lay/AspectRatioPage003' //用于设置窗口页面
+    testName: 'MaskTest04', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/shapeCutting/mask004' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
-  let testValues =[
+  let testValues = [
     {
-      describe: 'aspectRatio_HeightInfinity',
-      setValue:  0.5
-    }
+      describe: 'Path01', //截图命名的一部分
+      setValue: {width:"120px"}, //要测试的属性值
+    },
+    {
+      describe: 'Path02', //截图命名的一部分
+      setValue: {width:"120px",height:"60px"}, //要测试的属性值
+    },
+    {
+      describe: 'Path03', //截图命名的一部分
+      setValue: {commands:"M100 0 L200 240 L0 240 Z"}, //要测试的属性值
+    },
+    {
+      describe: 'Path04', //截图命名的一部分
+      setValue: {width:"120px",height:"60px",commands:"M100 0 L200 240 L0 240 Z"}, //要测试的属性值
+    },
+    {
+      describe: 'Path05', //截图命名的一部分
+      setValue: {width:"120px",height:"60px",commands:"M100 0 L200 240 L0 240"}, //要测试的属性值
+    },
   ]
 
   function sleep(time) {
@@ -70,11 +72,12 @@ export default function LayTest003() {
   }
 
   //  create test suite
-  describe("LayTest003", () => {
+  describe('MaskTest04', function () {
+
     beforeAll(async function () {
       console.info('beforeAll in1');
     })
-    //    create test cases by config.
+
     afterEach(async function (done) {
       if (Settings.windowClass == null) {
         return
@@ -91,11 +94,11 @@ export default function LayTest003() {
       done()
     })
 
-    CommonTest.initTest1(pageConfig, supportView, testValues)
-
+    // create test cases by config.
+    CommonTest.initTest(pageConfig, supportView, testValues)
   })
 }
 
 export function create() {
-  throw new Error('Function not implemented.');
+throw new Error('Function not implemented.');
 }

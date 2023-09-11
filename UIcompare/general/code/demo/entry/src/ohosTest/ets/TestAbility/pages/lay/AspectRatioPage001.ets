@@ -1,3 +1,5 @@
+
+
 /**
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -50,7 +52,7 @@ struct AspectRatioPage001 {
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
-  @State messageCommon: string = 'Hello World'
+  @State messageCommon: string = ''
   @State state: AnimationStatus = AnimationStatus.Initial
   @State reverse: boolean = false
   @State iterations: number = 1
@@ -714,8 +716,8 @@ struct AspectRatioPage001 {
           .onChange((index: number) => {
             this.currentIndex = index
           })
-          .width(200)
-          .height(150)
+          .width(400)
+          .height(300)
           .margin({ top: 260 })
           .border({width:2})
         }
@@ -834,7 +836,7 @@ struct AspectRatioPage001 {
         }else if (this.targetView == 'XComponent') {
           XComponent({ id: 'xcomponentId-container', type: 'component' }) {
             Text('Hello')
-              .fontSize(40)
+              .fontSize(20)
             Divider()
               .margin(4)
               .strokeWidth(2)
@@ -842,7 +844,7 @@ struct AspectRatioPage001 {
               .width("80%")
             Column() {
               Text(this.messageCommon)
-                .fontSize(30)
+                .fontSize(15)
             }
           }
           .commonStyle()}
