@@ -13,6 +13,7 @@
  * limitations under the License.
  */
 
+
 import AttrsManager from '../../../test/model/AttrsManager'
 import web_webview from '@ohos.web.webview'
 import router from '@ohos.router';
@@ -273,7 +274,11 @@ struct AspectRatioPage002 {
             .commonStyle()
         } else if (this.targetView == 'MenuItemGroup') {
           MenuItemGroup({ header: "MenuItemGroup小标题" })
-            .commonStyle()
+          {
+            MenuItem({ content: "MenuItem1" })
+              .width(360)
+          }
+          .commonStyle()
         } else if (this.targetView == 'Navigation') {
           Navigation()
             .title(this.NavigationTitle)
@@ -485,6 +490,7 @@ struct AspectRatioPage002 {
             }
           }
           .commonStyle()
+          .width(160)
         } else if (this.targetView == 'Grid') {
           Grid() {
             ForEach(this.Number1, (day: string) => {
@@ -540,8 +546,10 @@ struct AspectRatioPage002 {
             .commonStyle()
             .margin({top:0})
           }
-          .width(350)
-          .height(260)
+          .width(420)
+          .height(300)
+          .border({width:2,color:Color.Yellow})
+          .margin(260)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -553,9 +561,10 @@ struct AspectRatioPage002 {
             .commonStyle()
             .margin({top:0})
           }
-          .width(350)
-          .height(260)
-          .border({width:2})
+          .width(420)
+          .height(300)
+          .border({width:2,color:Color.Yellow})
+          .margin(260)
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -725,8 +734,8 @@ struct AspectRatioPage002 {
           .onChange((index: number) => {
             this.currentIndex = index
           })
-          .width(200)
-          .height(150)
+          .width(360)
+          .height(180)
           .margin({ top: 260 })
           .border({width:2})
         }
@@ -779,8 +788,8 @@ struct AspectRatioPage002 {
             .commonStyle()
         } else if (this.targetView == 'Circle') {
           Circle()
-            .height(40)
-            .width(20)
+            .width(200)
+            .height(100)
             .commonStyleEasy()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()

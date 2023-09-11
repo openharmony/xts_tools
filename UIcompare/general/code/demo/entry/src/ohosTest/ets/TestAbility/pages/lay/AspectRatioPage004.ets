@@ -1,3 +1,5 @@
+
+
 /**
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -368,7 +370,7 @@ struct AspectRatioPage004 {
         } else if (this.targetView == 'TextInput') {
           TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
             .placeholderFont({ size: 14, weight: 400 })
-            .height(40)
+            .height(260)
             .fontSize(12)
             .fontColor(Color.Black)
             .inputFilter('[a-z]', (e) => {
@@ -468,7 +470,7 @@ struct AspectRatioPage004 {
             .margin({top:0})
           }.width(400)
           .height(500)
-          .borderWidth(2)
+          .border({width:2,color:Color.Yellow})
           .margin({top:260})
         } else if (this.targetView == 'GridRow') {
           GridRow() {
@@ -715,8 +717,8 @@ struct AspectRatioPage004 {
           .onChange((index: number) => {
             this.currentIndex = index
           })
-          .width(200)
-          .height(150)
+          .width(420)
+          .height(300)
           .margin({ top: 260 })
           .border({width:2})
         }
