@@ -756,278 +756,249 @@ struct DisplayPriorityPage002 {
                 Column().width('20%').height('20%')
               }.tabBar(this.TabBuilder(0, 'green'))
 
-            TabContent() {
-              Column().width('30%').height('30%')
-            }.tabBar(this.TabBuilder(1, 'blue'))
-          }
-          .vertical(false)
-          .barMode(BarMode.Fixed)
-          .barWidth(360)
-          .barHeight(56)
-          .animationDuration(400)
-          .onChange((index: number) => {
-            this.currentIndex = index
-          })
-          .width(360)
-          .height(296)
-          .commonStyle1()
-        }
-        else if (this.targetView == 'FlowItem') {
-          WaterFlow() {
-            FlowItem(){
-              Text("N  FlowItem" ).fontSize(12).height('16')
+              TabContent() {
+                Column().width('30%').height('30%')
+              }.tabBar(this.TabBuilder(1, 'blue'))
             }
+            .vertical(false)
+            .barMode(BarMode.Fixed)
+            .barWidth(360)
+            .barHeight(56)
+            .animationDuration(400)
+            .onChange((index: number) => {
+              this.currentIndex = index
+            })
+            .width(360)
+            .height(296)
             .commonStyle1()
-          }.border({width:2,color:Color.Yellow})
-        } else if (this.targetView == 'WaterFlow') {
-          WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
-            LazyForEach(this.datasource, (item: number) => {
-              FlowItem() {
-                Column() {
-                  Text("N" + item).fontSize(12).height('16')
-                  Image('/pages/images/icon.png')
-                    .objectFit(ImageFit.Fill)
-                    .width('100%')
-                    .layoutWeight(1)
+          }
+          else if (this.targetView == 'WaterFlow') {
+            WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
+              LazyForEach(this.datasource, (item: number) => {
+                FlowItem() {
+                  Column() {
+                    Text("N" + item).fontSize(12).height('16')
+                    Image('/pages/images/icon.png')
+                      .objectFit(ImageFit.Fill)
+                      .width('100%')
+                      .layoutWeight(1)
+                  }
                 }
+                .width('100%')
+                .height(this.itemHeightArray[item])
+              }, item => item)
+            }
+            .columnsTemplate("1fr 1fr 1fr 1fr")
+            .itemConstraintSize({
+              minWidth: 0,
+              maxWidth: '100%',
+              minHeight: 0,
+              maxHeight: '100%'
+            })
+            .columnsGap(10)
+            .rowsGap(5)
+            .onReachStart(() => {
+              console.info("onReachStart")
+            })
+            .onReachEnd(() => {
+              console.info("onReachEnd")
+            })
+            .width('300')
+            .height('180')
+            .layoutDirection(FlexDirection.Column)
+            .commonStyle1()
+          } else if (this.targetView == 'Video') {
+            Video({
+              src: $r('app.media.tree')
+            })
+              .commonStyle1()
+          } else if (this.targetView == 'Circle') {
+            Circle()
+              .commonStyle1()
+          } else if (this.targetView == 'Ellipse') {
+            Ellipse()
+              .width(150)
+              .height(100)
+              .fillOpacity(0)
+              .stroke(Color.Blue)
+              .strokeWidth(3)
+              .commonStyle1()
+          } else if (this.targetView == 'Line') {
+            Line()
+              .width(200)
+              .height(150)
+              .startPoint([0, 0])
+              .endPoint([50, 100])
+              .stroke(Color.Black)
+              .commonStyle1()
+          } else if (this.targetView == 'Polyline') {
+            Polyline({ width: 100, height: 100 })
+              .points([[10, 0], [40, 60], [100, 100]])
+              .fillOpacity(0)
+              .stroke(Color.Blue)
+              .strokeWidth(3)
+              .commonStyle1()
+          } else if (this.targetView == 'Polygon') {
+            Polygon({ width: 100, height: 100 })
+              .points([[0, 0], [50, 100], [100, 0]])
+              .fill(Color.Green)
+              .commonStyle1()
+          } else if (this.targetView == 'Path') {
+            Path()
+              .commands('M10 10 H100 V100 H0 Z')
+              .fillOpacity(0)
+              .stroke(Color.Black)
+              .strokeWidth(3)
+              .border({width:2})
+              .commonStyle1()
+          } else if (this.targetView == 'Rect') {
+            Rect()
+              .radius(20)
+              .stroke(Color.Transparent)
+              .commonStyle1()
+          } else if (this.targetView == 'Shape') {
+            Shape() {
+              Rect().width('80%').height('70%')
+            }
+            .viewPort({ x: -100, y: 5, width: 320, height: 70 })
+            .stroke(Color.Black)
+            .strokeWidth(10)
+            .commonStyle1()
+          } else if (this.targetView == 'Canvas') {
+            Canvas(this.context1)
+              .onReady(() => {
+                this.context1.fillRect(0, 10, 30, 30)
+              })
+              .commonStyle1()
+          }else if (this.targetView == 'Web') {
+            Web({ src: $rawfile("index.html"), controller: this.controller })
+              .commonStyle1()
+          }else if (this.targetView == 'XComponent') {
+            XComponent({ id: 'xcomponentId-container', type: 'component' }) {
+              Text('Hello')
+                .fontSize(40)
+              Divider()
+                .margin(4)
+                .strokeWidth(2)
+                .color('#F1F3F5')
+                .width("80%")
+              Column() {
+                Text(this.messageCommon)
+                  .fontSize(30)
               }
-              .width('100%')
-              .height(this.itemHeightArray[item])
-            }, item => item)
+            }
+            .commonStyle1()
+            .border({width:2,color:'#FFC0CB'})
           }
-          .columnsTemplate("1fr 1fr 1fr 1fr")
-          .itemConstraintSize({
-            minWidth: 0,
-            maxWidth: '100%',
-            minHeight: 0,
-            maxHeight: '100%'
-          })
-          .columnsGap(10)
-          .rowsGap(5)
-          .onReachStart(() => {
-            console.info("onReachStart")
-          })
-          .onReachEnd(() => {
-            console.info("onReachEnd")
-          })
-          .width('300')
-          .height('180')
-          .layoutDirection(FlexDirection.Column)
-          .commonStyle1()
-        } else if (this.targetView == 'Video') {
-          Video({
-            src: $r('app.media.tree')
-          })
-            .commonStyle1()
-        } else if (this.targetView == 'Circle') {
-          // Column(){
-          Circle()
-            .height(40)
-            .commonStyleEasy1()
-          // }
-          // .width(200)
-          // .height(150)
-          // .border({width:2})
-        } else if (this.targetView == 'Ellipse') {
-          Ellipse()
-            .width(150)
-            .height(100)
-            .fillOpacity(0)
-            .stroke(Color.Blue)
-            .strokeWidth(3)
-            .commonStyle1()
-        } else if (this.targetView == 'Line') {
-          Line()
-            .width(200)
-            .height(150)
-            .startPoint([0, 0])
-            .endPoint([50, 100])
-            .stroke(Color.Black)
-            .commonStyle1()
-        } else if (this.targetView == 'Polyline') {
-          Polyline({ width: 100, height: 100 })
-            .points([[10, 0], [40, 60], [100, 100]])
-            .fillOpacity(0)
-            .stroke(Color.Blue)
-            .strokeWidth(3)
-            .commonStyle1()
-        } else if (this.targetView == 'Polygon') {
-          Polygon({ width: 100, height: 100 })
-            .points([[0, 0], [50, 100], [100, 0]])
-            .fill(Color.Green)
-            .commonStyle1()
-        } else if (this.targetView == 'Path') {
-          Path()
-            .commands('M10 10 H100 V100 H0 Z')
-            .fillOpacity(0)
-            .stroke(Color.Black)
-            .strokeWidth(3)
-            .width(300)
-            .height(400)
-            .border({width:2})
-            .commonStyleEasy1()
-        } else if (this.targetView == 'Rect') {
-          Rect()
-            .radius(20)
-            .height(40)
-            .stroke(Color.Transparent)
-            .commonStyleEasy1()
-            .margin({top:50})
-        } else if (this.targetView == 'Shape') {
-          Shape() {
-            Rect().width('80%').height('70%')
-          }
-          .viewPort({ x: -100, y: 5, width: 320, height: 70 })
-          .stroke(Color.Black)
-          .strokeWidth(10)
-          .commonStyle1()
-        } else if (this.targetView == 'Canvas') {
-          Canvas(this.context)
-            .onReady(() => {
-              this.context.fillRect(0, 10, 30, 30)
-            })
-            .commonStyle1()
-        }else if (this.targetView == 'Web') {
-          Web({ src: $rawfile("index.html"), controller: this.controller })
-            .commonStyle1()
-        }else if (this.targetView == 'XComponent') {
-          XComponent({ id: 'xcomponentId-container', type: 'component' }) {
-            Text('Hello')
-              .fontSize(40)
+          //第二个
+          if (this.targetView == 'AlphabetIndexer') {
+            AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
+              .commonStyle2()
+          } else if (this.targetView == 'Blank') {
+            Blank()
+              .commonStyle2()
+          } else if (this.targetView == 'Button') {
+            Button("button",{ type: ButtonType.Normal, stateEffect: true })
+              .commonStyle2()
+          } else if (this.targetView == 'Checkbox') {
+            Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
+              .select(true)
+              .selectedColor(0xed6f21)
+              .commonStyle2()
+          } else if (this.targetView == 'CheckboxGroup') {
+            CheckboxGroup({ group: 'checkboxGroup' })
+              .selectedColor('#007DFF')
+              .commonStyle2()
+          } else if (this.targetView == 'DataPanel') {
+            DataPanel({ values: [50, 12, 8, 5] })
+              .commonStyle2()
+          } else if (this.targetView == 'DatePicker') {
+            DatePicker({ selected: this.selectedDate } )
+              .commonStyle2()
+          } else if (this.targetView == 'Divider') {
             Divider()
-              .margin(4)
-              .strokeWidth(2)
-              .color('#F1F3F5')
-              .width("80%")
-            Column() {
-              Text(this.messageCommon)
-                .fontSize(30)
+              .commonStyle2()
+          } else if (this.targetView == 'Gauge') {
+            Gauge({ value: 75 })
+              .commonStyle2()
+          } else if (this.targetView == 'Image') {
+            // Column(){
+            Image($r("app.media.icon")).objectFit(ImageFit.Contain)
+              .commonStyle2()
+            // }
+            // .width(200)
+            // .height(150)
+            // .border({width:2})
+          } else if (this.targetView == 'ImageAnimator') {
+            ImageAnimator()
+              .images([
+                {
+                  src: $r('app.media.icon1'),
+                  width:50,
+                  height:50,
+                  top:30,
+                  left:30
+                },
+              ])
+              .duration(2000)
+              .fixedSize(false)
+              .state(this.state)
+              .reverse(this.reverse)
+              .iterations(this.iterations)
+              .onStart(() => {
+                console.info('Start')
+              })
+              .onPause(() => {
+                console.info('Pause')
+              })
+              .onRepeat(() => {
+                console.info('Repeat')
+              })
+              .onCancel(() => {
+                console.info('Cancel')
+              })
+              .onFinish(() => {
+                console.info('Finish')
+                this.state = AnimationStatus.Stopped
+              })
+              .commonStyle2()
+          } else if (this.targetView == 'LoadingProgress') {
+            LoadingProgress()
+              .commonStyle2()
+          } else if (this.targetView == 'Marquee') {
+            Marquee({
+              start: false,
+              step: this.step,
+              loop: this.loop,
+              fromStart: this.fromStart,
+              src: this.src
+            })
+              .commonStyle2()
+          } else if (this.targetView == 'Menu') {
+            Menu() {
+              MenuItem({ content: "MenuItem1" })
             }
-          }
-          .commonStyle1()}
-        //第二个
-        if (this.targetView == 'AlphabetIndexer') {
-          AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
             .commonStyle2()
-        } else if (this.targetView == 'Blank') {
-          Blank()
-            .commonStyle2()
-        } else if (this.targetView == 'Button') {
-          Button("button",{ type: ButtonType.Normal, stateEffect: true })
-            .commonStyle2()
-        } else if (this.targetView == 'Checkbox') {
-          // Column(){
-          Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
-            .select(true)
-            .selectedColor(0xed6f21)
-            .width(120)
-            .commonStyleEasy2()
-          // }
-          // .width(200)
-          // .height(150)
-          // .border({width:2})
-        } else if (this.targetView == 'CheckboxGroup') {
-          // Column(){
-          CheckboxGroup({ group: 'checkboxGroup' })
-            .selectedColor('#007DFF')
-            .width(120)
-            .commonStyleEasy2()
-          // }
-          // .width(200)
-          // .height(150)
-          // .border({width:2})
-        } else if (this.targetView == 'DataPanel') {
-          DataPanel({ values: [50, 12, 8, 5] })
-            .commonStyle2()
-        } else if (this.targetView == 'DatePicker') {
-          DatePicker({ selected: this.selectedDate } )
-            .commonStyle2()
-        } else if (this.targetView == 'Divider') {
-          Divider()
-            .commonStyle2()
-        } else if (this.targetView == 'Gauge') {
-          Gauge({ value: 75 })
-            .commonStyle2()
-        } else if (this.targetView == 'Image') {
-          // Column(){
-          Image($r("app.media.icon")).objectFit(ImageFit.Contain)
-            .height(150)
-            .commonStyleEasy2()
-          // }
-          // .width(200)
-          // .height(150)
-          // .border({width:2})
-        } else if (this.targetView == 'ImageAnimator') {
-          ImageAnimator()
-            .images([
-              {
-                src: $r('app.media.icon1'),
-                width:50,
-                height:50,
-                top:30,
-                left:30
-              },
-            ])
-            .duration(2000)
-            .fixedSize(false)
-            .state(this.state)
-            .reverse(this.reverse)
-            .iterations(this.iterations)
-            .onStart(() => {
-              console.info('Start')
-            })
-            .onPause(() => {
-              console.info('Pause')
-            })
-            .onRepeat(() => {
-              console.info('Repeat')
-            })
-            .onCancel(() => {
-              console.info('Cancel')
-            })
-            .onFinish(() => {
-              console.info('Finish')
-              this.state = AnimationStatus.Stopped
-            })
-            .commonStyle2()
-        } else if (this.targetView == 'LoadingProgress') {
-          LoadingProgress()
-            .commonStyle2()
-        } else if (this.targetView == 'Marquee') {
-          Marquee({
-            start: false,
-            step: this.step,
-            loop: this.loop,
-            fromStart: this.fromStart,
-            src: this.src
-          })
-            .commonStyle2()
-        } else if (this.targetView == 'Menu') {
-          Menu() {
+          } else if (this.targetView == 'MenuItem') {
             MenuItem({ content: "MenuItem1" })
-          }
-          .commonStyle2()
-        } else if (this.targetView == 'MenuItem') {
-          MenuItem({ content: "MenuItem1" })
-            .commonStyle2()
-        } else if (this.targetView == 'MenuItemGroup') {
-          MenuItemGroup({ header: "MenuItemGroup小标题" })
-            .commonStyle2()
-        } else if (this.targetView == 'Navigation') {
-          Navigation()
-            .title(this.NavigationTitle)
-            .commonStyle2()
-        } else if (this.targetView == 'NavRouter') {
-          NavRouter() {
-            Row() {
-              Image($r('app.media.icon')).width(30).height(30).borderRadius(30).margin({ left: 3, right: 10 })
-              Text(`NavRouter`)
-                .fontSize(14)
-                .fontWeight(500)
-                .textAlign(TextAlign.Center)
-            }
-            .width('80%')
-            .height('30%')
+              .commonStyle2()
+          } else if (this.targetView == 'MenuItemGroup') {
+            MenuItemGroup({ header: "MenuItemGroup小标题" })
+              .commonStyle2()
+          } else if (this.targetView == 'Navigation') {
+            Navigation()
+              .title(this.NavigationTitle)
+              .commonStyle2()
+          } else if (this.targetView == 'NavRouter') {
+            NavRouter() {
+              Row() {
+                Text(`NavRouter`)
+                  .fontSize(14)
+                  .fontWeight(500)
+                  .textAlign(TextAlign.Center)
+              }
+              .width('80%')
+              .height('30%')
 
               NavDestination() {
                 Text(`NavDestination`).fontSize(50)
