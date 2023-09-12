@@ -158,12 +158,17 @@ import LayTest003 from './generalAttributes/lay/LayTest003.test'
 import LayTest004 from './generalAttributes/lay/LayTest004.test'
 import LayTest005 from './generalAttributes/lay/LayTest005.test'
 import LayTest006 from './generalAttributes/lay/LayTest006.test'
+import LayTest007 from './generalAttributes/lay/LayTest007.test'
 
 //size
 import WidthTest001 from './generalAttributes/size/WidthTest001.test'
 import WidthTest002 from './generalAttributes/size/WidthTest002.test'
 import HeightTest001 from './generalAttributes/size/HeightTest001.test'
 import HeightTest002 from './generalAttributes/size/HeightTest002.test'
+
+import AlignTest from './generalAttributes/loc/AlignTest.test'
+import AlignTest002 from './generalAttributes/loc/AlignTest002.test'
+import AlignRulesTest from './generalAttributes/loc/AlignRulesTest.test'
 
 //click
 import ClickTest001 from './generalEvents/ClickTest001.test'
@@ -309,6 +314,11 @@ export default function testsuite() {
   LayTest004()
   LayTest005()
   LayTest006()
+  LayTest007()
+
+  AlignTest()
+  AlignTest002()
+  AlignRulesTest()
 
   WidthTest001()
   WidthTest002()
