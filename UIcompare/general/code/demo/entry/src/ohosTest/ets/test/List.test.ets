@@ -104,11 +104,7 @@ import VisibilityTest01 from './generalAttributes/visibility/VisibilityTest01.te
 
 // zIndexFont
 import ZIndexFont01 from './generalAttributes/zIndexFont/zIndexFontTest01.test'
-import ZIndexFont02 from './generalAttributes/zIndexFont/zIndexFontTest02.test'
-import ZIndexFont03 from './generalAttributes/zIndexFont/zIndexFontTest03.test'
-import ZIndexFont04 from './generalAttributes/zIndexFont/zIndexFontTest04.test'
-import ZIndexFont05 from './generalAttributes/zIndexFont/zIndexFontTest05.test'
-import ZIndexFont06 from './generalAttributes/zIndexFont/fontColor.test'
+import ZIndexFont06 from './generalAttributes/zIndexFont/fontColor01.test'
 import ZIndexFont07 from './generalAttributes/zIndexFont/fontFamily.test'
 import ZIndexFont08 from './generalAttributes/zIndexFont/fontSize01.test'
 import ZIndexFont09 from './generalAttributes/zIndexFont/fontSize02.test'
@@ -117,6 +113,8 @@ import ZIndexFont11 from './generalAttributes/zIndexFont/fontStyle02.test'
 import ZIndexFont12 from './generalAttributes/zIndexFont/fontWeight01.test'
 import ZIndexFont13 from './generalAttributes/zIndexFont/fontWeight02.test'
 import ZIndexFont14 from './generalAttributes/zIndexFont/fontWeight03.test'
+import ZIndexFont17 from './generalAttributes/zIndexFont/fontColor02.test'
+import ZIndexFont18 from './generalAttributes/zIndexFont/fontColor03.test'
 
 // touchEvent
 import TouchEvent01 from './generalEvents/touchTest01.test'
