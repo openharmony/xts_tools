@@ -135,6 +135,12 @@
     "TestAbility/pages/size/HeightPage001",
     "TestAbility/pages/size/HeightPage002",
 
+    "TestAbility/pages/loc/AlignPage001",
+    "TestAbility/pages/loc/AlignPage002",
+    "TestAbility/pages/loc/AlignRulesPage001",
+    "TestAbility/pages/loc/MarkAnchorPage001",
+    "TestAbility/pages/loc/MarkAnchorPage002",
+
     "TestAbility/pages/click/ClickPage001",
     "TestAbility/pages/click/ClickPage002"
   ]

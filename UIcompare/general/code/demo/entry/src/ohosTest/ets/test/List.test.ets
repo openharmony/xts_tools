@@ -166,6 +166,10 @@ import WidthTest002 from './generalAttributes/size/WidthTest002.test'
 import HeightTest001 from './generalAttributes/size/HeightTest001.test'
 import HeightTest002 from './generalAttributes/size/HeightTest002.test'
 
+import AlignTest from './generalAttributes/loc/AlignTest.test'
+import AlignTest002 from './generalAttributes/loc/AlignTest002.test'
+import AlignRulesTest from './generalAttributes/loc/AlignRulesTest.test'
+
 //click
 import ClickTest001 from './generalEvents/ClickTest001.test'
 import ClickTest002 from './generalEvents/ClickTest002.test'
