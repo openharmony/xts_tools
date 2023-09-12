@@ -316,6 +316,10 @@ export default function testsuite() {
   LayTest006()
   LayTest007()
 
+  AlignTest()
+  AlignTest002()
+  AlignRulesTest()
+
   WidthTest001()
   WidthTest002()
   HeightTest001()
