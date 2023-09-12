@@ -46,7 +46,7 @@ class MyDataSource implements IDataSource {
 @Component
 struct OverlayExample5 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: { x?: number; y?: number } = { x: -50, y: -50 }; //通用属性初始值
+  @State _generalAttr: { x?: number, y?: number} = { x: -50, y: -50 }; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -271,7 +271,7 @@ struct OverlayExample5 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
