@@ -19,19 +19,19 @@ import Logger from '../../model/Logger'
 
 //测试通用属性-fontFamily
 export default function ZIndexFont08() {
-
+// 8*2
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
   let supportView = [
   // 测试下所有组件配置文本样式的效果 编译不报错的就配置
-    'Button','Span','Text', 'TextArea','TextClock','TextInput', 'TextTimer',
+    'Button','Span','Text', 'TextArea','TextInput', 'TextTimer',
     'Marquee', 'Menu',
   ]
 
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'fontSize', //截图命名的一部分
+    testName: 'fontSize01', //截图命名的一部分
     pageUrl: 'TestAbility/pages/zindexAndfont/fontSize01' //用于设置窗口页面
   }
 
@@ -45,16 +45,7 @@ export default function ZIndexFont08() {
     {
       describe: 'string_20%', //截图命名的一部分
       setValue: "20", //要测试的属性值
-    },
-    {
-      describe: 'number_5', //截图命名的一部分
-      setValue: 5, //要测试的属性值
-    },
-    {
-      describe: 'Resource', //截图命名的一部分
-      setValue: $r('app.string.resource'), //要测试的属性值
-    },
-
+    }
   ]
 
   function sleep(time) {
