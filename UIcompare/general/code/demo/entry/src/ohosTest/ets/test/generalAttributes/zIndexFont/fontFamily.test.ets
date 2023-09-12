@@ -19,12 +19,12 @@ import Logger from '../../model/Logger'
 
 //测试通用属性-fontFamily
 export default function ZIndexFont07() {
-
+//7
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
   let supportView = [
   // 测试下所有组件配置文本样式的效果 编译不报错的就配置
-    'Button','Marquee', 'Span','Text', 'TextArea','TextClock','TextInput',
+    'Button','Marquee', 'Span','Text', 'TextArea','TextInput',
     'TextTimer'
   ]
 
@@ -39,19 +39,19 @@ export default function ZIndexFont07() {
   // this param is required.
   let testValues = [
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_036', //截图命名的一部分
-      setValue: "22222", //要测试的属性值
+      describe: 'attr1', //截图命名的一部分
+      setValue: "cursive", //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_037', //截图命名的一部分
+      describe: 'attr2', //截图命名的一部分
       setValue: $r('app.string.HarmonyOS_Sans'), //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_038', //截图命名的一部分
+      describe: 'attr3', //截图命名的一部分
       setValue: 'HarmonyOS Sans', //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_039', //截图命名的一部分
+      describe: 'attr4', //截图命名的一部分
       setValue: 'Starling Burgess', //要测试的属性值
     },
   ]
