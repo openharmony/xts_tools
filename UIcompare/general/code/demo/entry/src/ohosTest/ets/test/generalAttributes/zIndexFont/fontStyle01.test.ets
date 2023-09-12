@@ -24,13 +24,13 @@ export default function ZIndexFont10() {
   // this param is required.
   let supportView = [
   // 测试下所有组件配置文本样式的效果 编译不报错的就配置
-    'Button','Span','Text', 'TextArea','TextClock','TextInput', 'TextTimer',
+    'Button','Span','Text', 'TextArea','TextInput', 'TextTimer',
   ]
 
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'FontStyle', //截图命名的一部分
+    testName: 'FontStyle01', //截图命名的一部分
     pageUrl: 'TestAbility/pages/zindexAndfont/fontStyle01' //用于设置窗口页面
   }
 
@@ -38,11 +38,11 @@ export default function ZIndexFont10() {
   // this param is required.
   let testValues = [
     {
-      describe: 'FontStyle.Normal', //截图命名的一部分
+      describe: 'FontStyle_Normal', //截图命名的一部分
       setValue: FontStyle.Normal, //要测试的属性值
     },
     {
-      describe: 'FontStyle.Italic', //截图命名的一部分
+      describe: 'FontStyle_Italic', //截图命名的一部分
       setValue: FontStyle.Italic, //要测试的属性值
     },
   ]

@@ -1,3 +1,4 @@
+
 /**
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,60 +14,80 @@
  * limitations under the License.
  */
 import CommonTest from '../../common/CommonTest';
+import Utils from '../../model/Utils'
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
 import Settings from '../../model/Settings'
 import windowSnap from '../../model/snapShot'
 import Logger from '../../model/Logger'
 import { AttrsManager } from '../../model/AttrsManager';
-// @ts-ignore
+import {
+  UiComponent,
+  UiDriver,
+  Component,
+  Driver,
+  UiWindow,
+  ON,
+  BY,
+  MatchPattern,
+  DisplayRotation,
+  ResizeDirection,
+  WindowMode,
+  PointerMatrix
+} from '@ohos.UiTest';
 
-//测试通用属性-overlay
-export default function MatrixTest01() {
-
-  //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
-  // this param is required.
+export default function OffsetTest() {
 
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem', 'Navigation',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextInput',
-    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
+    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle1', 'Toggle2','Toggle3','Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
     'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
-    'Canvas','XComponent'
+    'Canvas','XComponent','Navigation',
   ]
 
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'MatrixTest01', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/matrix/matrix001' //用于设置窗口页面
+    testName: 'OffsetTest', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/loc/OffsetPage001' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'matrix', //截图命名的一部分
-      setValue: Visibility.Hidden, //要测试的属性值
-    },
+    describe: '0_0',
+    setValue: { x: 0, y: 0 },
+  }, {
+    describe: '20_20',
+    setValue: { x: 20, y: 20 },
+  }, {
+    describe: '20_-20',
+    setValue: { x: 20, y: -20 },
+  }, {
+    describe: '-20_20',
+    setValue: { x: -20, y: 20 },
+  }
+  //   ,{
+  //   describe: 'SUB_ACE_TS_COMPONENT_061',
+  //   setValue: {x:5abc,y:5abc},
+  // }
   ]
-
-  let id = "Matrix001"
 
   function sleep(time) {
     return new Promise((resolve) => setTimeout(resolve, time))
   }
 
   //  create test suite
-  describe('MatrixTest01', function () {
-
+  describe("OffsetTest", () => {
     beforeAll(async function () {
       console.info('beforeAll in1');
     })
-
+    //    create test cases by config.
     afterEach(async function (done) {
       if (Settings.windowClass == null) {
         return
@@ -83,11 +104,11 @@ export default function MatrixTest01() {
       done()
     })
 
-    // create test cases by config.
-    CommonTest.initTest_matrix(pageConfig, supportView, testValues, id)
+    CommonTest.initTest1(pageConfig, supportView, testValues)
+
   })
 }
 
 export function create() {
-throw new Error('Function not implemented.');
+  throw new Error('Function not implemented.');
 }

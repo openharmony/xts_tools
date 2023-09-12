@@ -198,7 +198,6 @@ struct MatrixExample01 {
           .fontSize(20)
           .width(300)
           .height(120)
-          .id("Matrix001")
           .onClick(() => {
             console.info("matrix1:" + JSON.stringify(this.matrix1)
             + "matrix2:" + JSON.stringify(this.matrix2) )
@@ -293,7 +292,7 @@ struct MatrixExample01 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -629,7 +628,7 @@ struct MatrixExample01 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
+
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {
@@ -997,7 +996,7 @@ struct MatrixExample01 {
               .commonStyleDemo()
           } else if (this.targetView == 'Marquee') {
             Marquee({
-              start: true,
+              start: false,
               step: this.step,
               loop: this.loop,
               fromStart: this.fromStart,
@@ -1332,7 +1331,7 @@ struct MatrixExample01 {
                   top: { anchor: "__container__", align: VerticalAlign.Top },
                   left: { anchor: "__container__", align: HorizontalAlign.Start }
                 })
-                .id("row001")
+
             }
             .commonStyleDemo()
           } else if (this.targetView == 'Row') {

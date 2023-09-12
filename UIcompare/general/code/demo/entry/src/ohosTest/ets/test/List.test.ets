@@ -104,11 +104,7 @@ import VisibilityTest01 from './generalAttributes/visibility/VisibilityTest01.te
 
 // zIndexFont
 import ZIndexFont01 from './generalAttributes/zIndexFont/zIndexFontTest01.test'
-import ZIndexFont02 from './generalAttributes/zIndexFont/zIndexFontTest02.test'
-import ZIndexFont03 from './generalAttributes/zIndexFont/zIndexFontTest03.test'
-import ZIndexFont04 from './generalAttributes/zIndexFont/zIndexFontTest04.test'
-import ZIndexFont05 from './generalAttributes/zIndexFont/zIndexFontTest05.test'
-import ZIndexFont06 from './generalAttributes/zIndexFont/fontColor.test'
+import ZIndexFont06 from './generalAttributes/zIndexFont/fontColor01.test'
 import ZIndexFont07 from './generalAttributes/zIndexFont/fontFamily.test'
 import ZIndexFont08 from './generalAttributes/zIndexFont/fontSize01.test'
 import ZIndexFont09 from './generalAttributes/zIndexFont/fontSize02.test'
@@ -117,6 +113,10 @@ import ZIndexFont11 from './generalAttributes/zIndexFont/fontStyle02.test'
 import ZIndexFont12 from './generalAttributes/zIndexFont/fontWeight01.test'
 import ZIndexFont13 from './generalAttributes/zIndexFont/fontWeight02.test'
 import ZIndexFont14 from './generalAttributes/zIndexFont/fontWeight03.test'
+import ZIndexFont15 from './generalAttributes/zIndexFont/fontSize03.test'
+import ZIndexFont16 from './generalAttributes/zIndexFont/fontSize04.test'
+import ZIndexFont17 from './generalAttributes/zIndexFont/fontColor02.test'
+import ZIndexFont18 from './generalAttributes/zIndexFont/fontColor03.test'
 
 // touchEvent
 import TouchEvent01 from './generalEvents/touchTest01.test'
@@ -169,6 +169,10 @@ import HeightTest002 from './generalAttributes/size/HeightTest002.test'
 import AlignTest from './generalAttributes/loc/AlignTest.test'
 import AlignTest002 from './generalAttributes/loc/AlignTest002.test'
 import AlignRulesTest from './generalAttributes/loc/AlignRulesTest.test'
+import MarkAnchorTest001 from './generalAttributes/loc/MarkAnchorTest001.test'
+import MarkAnchorTest002 from './generalAttributes/loc/MarkAnchorTest002.test'
+import OffsetTest from './generalAttributes/loc/OffsetTest.test'
+import PositionTest from './generalAttributes/loc/PositionTest.test'
 
 //click
 import ClickTest001 from './generalEvents/ClickTest001.test'
@@ -277,6 +281,10 @@ export default function testsuite() {
   ZIndexFont12()
   ZIndexFont13()
   ZIndexFont14()
+  ZIndexFont15()
+  ZIndexFont16()
+  ZIndexFont17()
+  ZIndexFont18()
 
   TouchEvent01()
   TouchEvent02()
@@ -319,6 +327,10 @@ export default function testsuite() {
   AlignTest()
   AlignTest002()
   AlignRulesTest()
+  MarkAnchorTest001()
+  MarkAnchorTest002()
+  OffsetTest()
+  PositionTest()
 
   WidthTest001()
   WidthTest002()

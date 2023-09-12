@@ -17,42 +17,30 @@ import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from
 import Settings from '../../model/Settings'
 import Logger from '../../model/Logger'
 
-//测试通用属性-fontColor
-export default function ZIndexFont06() {
+//测试通用属性-fontFamily
+export default function ZIndexFont16() {
 
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
   let supportView = [
-    // 测试下所有组件配置文本样式的效果 编译不报错的就配置
-    'Button','Marquee', 'Menu','Search', 'Select', 'Span','Text', 'TextArea','TextClock','TextInput',
-    'TextTimer'
+  // 测试下所有组件配置文本样式的效果 编译不报错的就配置
+    'Button','Span','Text', 'TextArea','TextInput', 'TextTimer',
+    'Marquee', 'Menu',
   ]
 
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'ZIndexFont06', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/zindexAndfont/fontColor' //用于设置窗口页面
+    testName: 'fontSize04', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/zindexAndfont/fontSize04' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'Color.Blue', //截图命名的一部分
-      setValue: Color.Blue, //要测试的属性值
-    },
-    {
-      describe: '0xffff00', //截图命名的一部分
-      setValue: 0xffff00, //要测试的属性值
-    },
-    {
-      describe: '0xffc0cb', //截图命名的一部分
-      setValue: 0xffc0cb, //要测试的属性值
-    },
-    {
-      describe: '0xffc0cb', //截图命名的一部分
-      setValue: $r('app.color.Pink'), //要测试的属性值
+      describe: 'Resource', //截图命名的一部分
+      setValue: $r('app.string.resource'), //值为5
     },
 
   ]
@@ -62,7 +50,7 @@ export default function ZIndexFont06() {
   }
 
   //  create test suite
-  describe('ZIndexFont06', function () {
+  describe('ZIndexFont16', function () {
 
     beforeAll(async function () {
       console.info('beforeAll in1');
@@ -90,5 +78,5 @@ export default function ZIndexFont06() {
 }
 
 export function create() {
-throw new Error('Function not implemented.');
+  throw new Error('Function not implemented.');
 }

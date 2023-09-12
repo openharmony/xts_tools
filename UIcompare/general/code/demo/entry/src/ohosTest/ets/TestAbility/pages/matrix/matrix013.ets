@@ -293,7 +293,7 @@ struct MatrixExample13 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -629,7 +629,7 @@ struct MatrixExample13 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
+
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {
@@ -997,7 +997,7 @@ struct MatrixExample13 {
               .commonStyleDemo()
           } else if (this.targetView == 'Marquee') {
             Marquee({
-              start: true,
+              start: false,
               step: this.step,
               loop: this.loop,
               fromStart: this.fromStart,
@@ -1332,7 +1332,7 @@ struct MatrixExample13 {
                   top: { anchor: "__container__", align: VerticalAlign.Top },
                   left: { anchor: "__container__", align: HorizontalAlign.Start }
                 })
-                .id("row001")
+
             }
             .commonStyleDemo()
           } else if (this.targetView == 'Row') {

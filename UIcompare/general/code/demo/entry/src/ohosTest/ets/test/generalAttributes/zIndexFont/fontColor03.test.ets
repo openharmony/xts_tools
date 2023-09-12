@@ -17,31 +17,32 @@ import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from
 import Settings from '../../model/Settings'
 import Logger from '../../model/Logger'
 
-//测试通用属性-fontFamily
-export default function ZIndexFont09() {
-//多次调用fontSize,显示最后设置的10，可和fontSize03的5对比大小
+//测试通用属性-fontColor
+export default function ZIndexFont18() {
+
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
   let supportView = [
   // 测试下所有组件配置文本样式的效果 编译不报错的就配置
-    'Button','Span','Text', 'TextArea','TextInput', 'TextTimer',
-    'Marquee', 'Menu',
+    'Button','Marquee', 'Menu','Search', 'Select', 'Span','Text', 'TextArea','TextInput',
+    'TextTimer'
   ]
 
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'fontSize02', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/zindexAndfont/fontSize02' //用于设置窗口页面
+    testName: 'FontColor03', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/zindexAndfont/fontColor03' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'string_5', //截图命名的一部分
-      setValue: "5", //要测试的属性值
-    },
+      // 粉色
+      describe: '0xffc0cb', //截图命名的一部分
+      setValue: $r('app.color.Pink'), //要测试的属性值
+    }
   ]
 
   function sleep(time) {
@@ -49,7 +50,7 @@ export default function ZIndexFont09() {
   }
 
   //  create test suite
-  describe('ZIndexFont09', function () {
+  describe('ZIndexFont18', function () {
 
     beforeAll(async function () {
       console.info('beforeAll in1');
@@ -77,5 +78,5 @@ export default function ZIndexFont09() {
 }
 
 export function create() {
-throw new Error('Function not implemented.');
+  throw new Error('Function not implemented.');
 }

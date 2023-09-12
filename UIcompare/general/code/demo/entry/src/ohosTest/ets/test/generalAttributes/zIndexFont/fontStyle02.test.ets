@@ -19,18 +19,18 @@ import Logger from '../../model/Logger'
 
 //测试通用属性-fontStyle
 export default function ZIndexFont11() {
-
+//多次调用显示最后调用的值即Italic
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
   let supportView = [
   // 测试下所有组件配置文本样式的效果 编译不报错的就配置
-    'Button','Span','Text', 'TextArea','TextClock','TextInput', 'TextTimer',
+    'Button','Span','Text', 'TextArea','TextInput', 'TextTimer',
   ]
 
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'FontStyle', //截图命名的一部分
+    testName: 'FontStyle02', //截图命名的一部分
     pageUrl: 'TestAbility/pages/zindexAndfont/fontStyle02' //用于设置窗口页面
   }
 
@@ -38,12 +38,8 @@ export default function ZIndexFont11() {
   // this param is required.
   let testValues = [
     {
-      describe: 'FontStyle.Normal', //截图命名的一部分
+      describe: 'FontStyle_Normal', //截图命名的一部分
       setValue: FontStyle.Normal, //要测试的属性值
-    },
-    {
-      describe: 'FontStyle.Italic', //截图命名的一部分
-      setValue: FontStyle.Italic, //要测试的属性值
     },
   ]
 

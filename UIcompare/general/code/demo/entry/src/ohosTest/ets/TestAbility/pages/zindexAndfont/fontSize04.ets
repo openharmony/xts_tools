@@ -44,9 +44,10 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct FontFamilyPage {
+struct FontSizePage004 {
+  //fontSize01的拆分
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: 	string = "111"; //通用属性初始值
+  @State _generalAttr: Resource	 = $r('app.string.resource'); //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -174,7 +175,7 @@ struct FontFamilyPage {
         if (this.targetView == 'Button') {
           Button("button",{ type: ButtonType.Normal, stateEffect: true })
             .commonStyle()
-            .fontFamily(this._generalAttr)
+            .fontSize(this._generalAttr)
         } else if (this.targetView == 'Marquee') {
           Marquee({
             start: false,
@@ -184,17 +185,23 @@ struct FontFamilyPage {
             src: this.src
           })
             .commonStyle()
-            .fontFamily(this._generalAttr)
+            .fontSize(this._generalAttr)
+        } else if (this.targetView == 'Menu') {
+          Menu() {
+            MenuItem({ content: "MenuItem1" })
+          }
+          .commonStyle()
+          .fontSize(this._generalAttr)
         } else if (this.targetView == 'Span') {
           Text() {
             Span('This is the Span component')
               .commonStyle()
-              .fontFamily(this._generalAttr)
+              .fontSize(this._generalAttr)
           }
           .margin({top:40})
         } else if (this.targetView == 'Text') {
           Text('text')
-            .fontFamily(this._generalAttr)
+            .fontSize(this._generalAttr)
             .commonStyle()
         } else if (this.targetView == 'TextArea') {
           TextArea({
@@ -202,7 +209,7 @@ struct FontFamilyPage {
             placeholder: 'The text area can hold an unlimited amount of text. input your word...'
           })
             .placeholderFont({ size: 16, weight: 400 })
-            .fontFamily(this._generalAttr)
+            .fontSize(this._generalAttr)
             .commonStyle()
         } else if (this.targetView == 'TextInput') {
           Column(){
@@ -219,7 +226,7 @@ struct FontFamilyPage {
               .onChange((value: string) => {
                 this.text = value
               })
-              .fontFamily(this._generalAttr)
+              .fontSize(this._generalAttr)
               .commonStyleEasy()
           }
           .width(200)
@@ -227,7 +234,7 @@ struct FontFamilyPage {
           .border({width:2})
         } else if (this.targetView == 'TextTimer') {
           TextTimer({ isCountDown: true, count: 30000, controller: this.textTimerController })
-            .fontFamily(this._generalAttr)
+            .fontSize(this._generalAttr)
             .commonStyle()
         }
       }

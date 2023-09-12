@@ -1,3 +1,4 @@
+
 /**
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,35 +14,55 @@
  * limitations under the License.
  */
 import CommonTest from '../../common/CommonTest';
+import Utils from '../../model/Utils'
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
 import Settings from '../../model/Settings'
+import windowSnap from '../../model/snapShot'
 import Logger from '../../model/Logger'
+import { AttrsManager } from '../../model/AttrsManager';
+import {
+  UiComponent,
+  UiDriver,
+  Component,
+  Driver,
+  UiWindow,
+  ON,
+  BY,
+  MatchPattern,
+  DisplayRotation,
+  ResizeDirection,
+  WindowMode,
+  PointerMatrix
+} from '@ohos.UiTest';
 
-//测试通用属性-fontFamily
-export default function ZIndexFont09() {
-//多次调用fontSize,显示最后设置的10，可和fontSize03的5对比大小
-  //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
-  // this param is required.
+export default function MarkAnchorTest002() {
+
   let supportView = [
-  // 测试下所有组件配置文本样式的效果 编译不报错的就配置
-    'Button','Span','Text', 'TextArea','TextInput', 'TextTimer',
-    'Marquee', 'Menu',
+    'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup',
+    'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
+    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle1', 'Toggle2','Toggle3','Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
+    'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
+    'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
+    'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
+    'Canvas','XComponent','Navigation',
   ]
 
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'fontSize02', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/zindexAndfont/fontSize02' //用于设置窗口页面
+    testName: 'MarkAnchorTest002', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/loc/MarkAnchorPage002' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'string_5', //截图命名的一部分
-      setValue: "5", //要测试的属性值
-    },
+      describe: 'AndPosition',
+      setValue: {x:20,y:0},
+    }
   ]
 
   function sleep(time) {
@@ -49,12 +70,11 @@ export default function ZIndexFont09() {
   }
 
   //  create test suite
-  describe('ZIndexFont09', function () {
-
+  describe("MarkAnchorTest002", () => {
     beforeAll(async function () {
       console.info('beforeAll in1');
     })
-
+    //    create test cases by config.
     afterEach(async function (done) {
       if (Settings.windowClass == null) {
         return
@@ -71,11 +91,11 @@ export default function ZIndexFont09() {
       done()
     })
 
-    // create test cases by config.
-    CommonTest.initTest(pageConfig, supportView, testValues)
+    CommonTest.initTest1(pageConfig, supportView, testValues)
+
   })
 }
 
 export function create() {
-throw new Error('Function not implemented.');
+  throw new Error('Function not implemented.');
 }
