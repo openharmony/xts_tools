@@ -137,6 +137,8 @@
 
     "TestAbility/pages/loc/AlignPage001",
     "TestAbility/pages/loc/AlignPage002",
+    "TestAbility/pages/loc/OffsetPage001",
+    "TestAbility/pages/loc/PositionPage001",
     "TestAbility/pages/loc/AlignRulesPage001",
     "TestAbility/pages/loc/MarkAnchorPage001",
     "TestAbility/pages/loc/MarkAnchorPage002",

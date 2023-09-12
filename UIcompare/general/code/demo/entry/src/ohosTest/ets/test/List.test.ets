@@ -169,6 +169,10 @@ import HeightTest002 from './generalAttributes/size/HeightTest002.test'
 import AlignTest from './generalAttributes/loc/AlignTest.test'
 import AlignTest002 from './generalAttributes/loc/AlignTest002.test'
 import AlignRulesTest from './generalAttributes/loc/AlignRulesTest.test'
+import MarkAnchorTest001 from './generalAttributes/loc/MarkAnchorTest001.test'
+import MarkAnchorTest002 from './generalAttributes/loc/MarkAnchorTest002.test'
+import OffsetTest from './generalAttributes/loc/OffsetTest.test'
+import PositionTest from './generalAttributes/loc/PositionTest.test'
 
 //click
 import ClickTest001 from './generalEvents/ClickTest001.test'
@@ -319,6 +323,10 @@ export default function testsuite() {
   AlignTest()
   AlignTest002()
   AlignRulesTest()
+  MarkAnchorTest001()
+  MarkAnchorTest002()
+  OffsetTest()
+  PositionTest()
 
   WidthTest001()
   WidthTest002()
