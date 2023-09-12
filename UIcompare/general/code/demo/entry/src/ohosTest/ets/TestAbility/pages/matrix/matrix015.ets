@@ -307,7 +307,7 @@ struct MatrixExample16 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -643,7 +643,7 @@ struct MatrixExample16 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
+
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {
@@ -1017,7 +1017,7 @@ struct MatrixExample16 {
             .commonStyle1()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -1349,7 +1349,7 @@ struct MatrixExample16 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
+
           }
           .commonStyle1()
         } else if (this.targetView == 'Row') {
@@ -1723,7 +1723,7 @@ struct MatrixExample16 {
             .commonStyle2()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -2055,7 +2055,7 @@ struct MatrixExample16 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
+
           }
           .commonStyle2()
         } else if (this.targetView == 'Row') {

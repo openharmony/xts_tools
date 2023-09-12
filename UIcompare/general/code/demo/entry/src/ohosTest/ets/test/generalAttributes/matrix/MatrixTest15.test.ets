@@ -28,12 +28,12 @@ export default function MatrixTest15() {
 
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','LoadingProgress','Marquee', 'Menu', 'MenuItem', 'Navigation',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem', 'Navigation',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextClock', 'TextInput',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextInput',
     'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
-    'Refresh', 'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
+    'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
     'Canvas','XComponent'
   ]
