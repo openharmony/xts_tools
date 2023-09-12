@@ -96,6 +96,12 @@
     "TestAbility/pages/zindexAndfont/fontColor02",
     "TestAbility/pages/zindexAndfont/fontColor03",
     "TestAbility/pages/zindexAndfont/fontFamily01",
+    "TestAbility/pages/zindexAndfont/fontSize01",
+    "TestAbility/pages/zindexAndfont/fontSize02",
+    "TestAbility/pages/zindexAndfont/fontSize03",
+    "TestAbility/pages/zindexAndfont/fontSize04",
+    "TestAbility/pages/zindexAndfont/fontStyle01",
+    "TestAbility/pages/zindexAndfont/fontStyle02",
     "TestAbility/pages/touchEvent/touchEvent001",
     "TestAbility/pages/touchEvent/touchEvent002",
 

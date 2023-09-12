@@ -113,6 +113,8 @@ import ZIndexFont11 from './generalAttributes/zIndexFont/fontStyle02.test'
 import ZIndexFont12 from './generalAttributes/zIndexFont/fontWeight01.test'
 import ZIndexFont13 from './generalAttributes/zIndexFont/fontWeight02.test'
 import ZIndexFont14 from './generalAttributes/zIndexFont/fontWeight03.test'
+import ZIndexFont15 from './generalAttributes/zIndexFont/fontSize03.test'
+import ZIndexFont16 from './generalAttributes/zIndexFont/fontSize04.test'
 import ZIndexFont17 from './generalAttributes/zIndexFont/fontColor02.test'
 import ZIndexFont18 from './generalAttributes/zIndexFont/fontColor03.test'
 
@@ -279,6 +281,10 @@ export default function testsuite() {
   ZIndexFont12()
   ZIndexFont13()
   ZIndexFont14()
+  ZIndexFont15()
+  ZIndexFont16()
+  ZIndexFont17()
+  ZIndexFont18()
 
   TouchEvent01()
   TouchEvent02()
