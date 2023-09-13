@@ -630,7 +630,6 @@ struct TouchEvent02 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {
