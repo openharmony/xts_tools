@@ -596,7 +596,6 @@ struct GrayscalePage001 {
                 right:{anchor: "__container__", align: HorizontalAlign.Center},
                 bottom:{anchor: "__container__", align: VerticalAlign.Center},
               })
-              .id("row001")
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {

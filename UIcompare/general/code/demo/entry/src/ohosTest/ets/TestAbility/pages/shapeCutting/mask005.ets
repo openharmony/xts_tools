@@ -614,7 +614,7 @@ struct MaskPage005 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
+
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {
@@ -1316,7 +1316,7 @@ struct MaskPage005 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
+
           }
           .commonStyle1()
         } else if (this.targetView == 'Row') {

@@ -750,7 +750,7 @@ struct MarkAnchorPage001 {
                   right:{anchor: "__container__", align: HorizontalAlign.Center},
                   bottom:{anchor: "__container__", align: VerticalAlign.Center},
                 })
-                .id("row001")
+
             }
             .commonStyle1()
           } else if (this.targetView == 'Row') {
@@ -1410,7 +1410,7 @@ struct MarkAnchorPage001 {
                   right:{anchor: "__container__", align: HorizontalAlign.Center},
                   bottom:{anchor: "__container__", align: VerticalAlign.Center},
                 })
-                .id("row001")
+
             }
             .commonStyle2()
           } else if (this.targetView == 'Row') {
@@ -2069,7 +2069,7 @@ struct MarkAnchorPage001 {
                   right:{anchor: "__container__", align: HorizontalAlign.Center},
                   bottom:{anchor: "__container__", align: VerticalAlign.Center},
                 })
-                .id("row001")
+
             }
             .commonStyle3()
           } else if (this.targetView == 'Row') {
