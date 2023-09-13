@@ -149,6 +149,11 @@
     "TestAbility/pages/loc/MarkAnchorPage001",
     "TestAbility/pages/loc/MarkAnchorPage002",
 
+    "TestAbility/pages/ResponseRegion/ResponseRegionPage001",
+    "TestAbility/pages/ResponseRegion/ResponseRegionPage002",
+    "TestAbility/pages/ResponseRegion/ResponseRegionPage003",
+    "TestAbility/pages/ResponseRegion/ResponseRegionPage004",
+
     "TestAbility/pages/click/ClickPage001",
     "TestAbility/pages/click/ClickPage002"
   ]

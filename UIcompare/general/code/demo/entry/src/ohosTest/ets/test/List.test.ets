@@ -174,6 +174,12 @@ import MarkAnchorTest002 from './generalAttributes/loc/MarkAnchorTest002.test'
 import OffsetTest from './generalAttributes/loc/OffsetTest.test'
 import PositionTest from './generalAttributes/loc/PositionTest.test'
 
+//response
+import ResponseRegionTest001 from './generalAttributes/ResponseRegion/ResponseRegionTest001.test'
+import ResponseRegionTest002 from './generalAttributes/ResponseRegion/ResponseRegionTest002.test'
+import ResponseRegionTest003 from './generalAttributes/ResponseRegion/ResponseRegionTest003.test'
+import ResponseRegionTest004 from './generalAttributes/ResponseRegion/ResponseRegionTest004.test'
+
 //click
 import ClickTest001 from './generalEvents/ClickTest001.test'
 import ClickTest002 from './generalEvents/ClickTest002.test'
@@ -327,6 +333,11 @@ export default function testsuite() {
   MarkAnchorTest002()
   OffsetTest()
   PositionTest()
+
+  ResponseRegionTest001()
+  ResponseRegionTest002()
+  ResponseRegionTest003()
+  ResponseRegionTest004()
 
   WidthTest001()
   WidthTest002()
