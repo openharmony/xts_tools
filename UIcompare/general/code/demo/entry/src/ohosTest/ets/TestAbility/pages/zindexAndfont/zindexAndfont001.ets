@@ -46,7 +46,7 @@ class MyDataSource implements IDataSource {
 @Component
 struct ZIndex001 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: Visibility = Visibility.Visible; //通用属性初始值
+  @State _generalAttr: number = 0; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -65,7 +65,9 @@ struct ZIndex001 {
   @State currentIndex: number = 0
   private controller1: TabsController = new TabsController()
   private settings: RenderingContextSettings = new RenderingContextSettings(true)
-  private context: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.settings)
+  private context1: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.settings)
+  private context2: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.settings)
+  private context3: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.settings)
   private selectedTime: Date = new Date('2023-07-09T08:00:00')
   textTimerController: TextTimerController = new TextTimerController()
   private selectedDate: Date = new Date('2023-06-02')
@@ -125,51 +127,44 @@ struct ZIndex001 {
     }
   }
   @State message: string = 'Matrix2D Translate'
-  @State zIndex1:number = 3
-  @State zIndex2:number = 2
-  @State zIndex3:number = 1
+  @State zIndex1:number = 5
+  @State zIndex2:number = 3
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
     .border({width:2})
-    .size({ width: '70%', height: '50%' })
-    .backgroundColor(0xbbb2cb)
+    .size({ width: '70%', height: '70%' })
+    .backgroundColor(0xbbb2cb) //紫色
     .zIndex(this.zIndex1)
     .key(this.componentKey)
   }
 
   @Styles commonStyle1(){
-    .width(200)
-    .height(150)
     .border({width:2})
-    .size({ width: '60%', height: '35%' })
-    .backgroundColor(0xd2cab3)
+    .size({ width: '55%', height: '50%' })
+    .backgroundColor(0xd2cab3) //黄褐
     .align(Alignment.TopStart)
     .zIndex(this.zIndex2)
     .key(this.componentKey)
   }
 
   @Styles commonStyle2(){
-    .width(200)
-    .height(150)
     .border({width:2})
-    .size({ width: '60%', height: '25%' })
-    .backgroundColor(0xc1cbac)
+    .size({ width: '35%', height: '30%' })
+    .backgroundColor(0xc1cbac) //灰绿
     .align(Alignment.TopStart)
-    .zIndex(this.zIndex3)
+    .zIndex(this._generalAttr)
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy(){
-    .size({ width: '70%', height: '50%' })
+    .size({ width: '70%', height: '70%' })
     .backgroundColor(0xbbb2cb)
     .zIndex(this.zIndex1)
     .key(this.componentKey)
   }
 
   @Styles commonStyleEasy1(){
-    .size({ width: '60%', height: '35%' })
+    .size({ width: '55%', height: '50%' })
     .backgroundColor(0xd2cab3)
     .align(Alignment.TopStart)
     .zIndex(this.zIndex2)
@@ -177,10 +172,10 @@ struct ZIndex001 {
   }
 
   @Styles commonStyleEasy2(){
-    .size({ width: '60%', height: '25%' })
+    .size({ width: '35%', height: '30%' })
     .backgroundColor(0xc1cbac)
     .align(Alignment.TopStart)
-    .zIndex(this.zIndex3)
+    .zIndex(this._generalAttr)
     .key(this.componentKey)
   }
 
@@ -215,9 +210,9 @@ struct ZIndex001 {
     console.info('FocusPage onPageShow');
     AttrsManager.registerDataChange(value => this._generalAttr = value)
   }
-  // @ts-nocheck
+
   build() {
-    Row() {
+    Column() {
       Stack() {
         // 把3个Column容器去掉
         if (this.targetView == 'AlphabetIndexer') {
@@ -232,26 +227,16 @@ struct ZIndex001 {
           Button("button",{ type: ButtonType.Normal, stateEffect: true })
             .commonStyle()
         } else if (this.targetView == 'Checkbox') {
-          Column(){
-            Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
-              .margin({top:50})
-              .select(true)
-              .selectedColor(0xed6f21)
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
+            .margin({top:50})
+            .select(true)
+            .selectedColor(0xed6f21)
+            .commonStyleEasy()
         } else if (this.targetView == 'CheckboxGroup') {
-          Column(){
-            CheckboxGroup({ group: 'checkboxGroup' })
-              .margin({top:50})
-              .selectedColor('#007DFF')
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          CheckboxGroup({ group: 'checkboxGroup' })
+            .margin({top:50})
+            .selectedColor('#007DFF')
+            .commonStyleEasy()
         } else if (this.targetView == 'DataPanel') {
           DataPanel({ values: [50, 12, 8, 5] })
             .commonStyle()
@@ -265,15 +250,10 @@ struct ZIndex001 {
           Gauge({ value: 75 })
             .commonStyle()
         } else if (this.targetView == 'Image') {
-          Column(){
-            Image($r("app.media.icon")).objectFit(ImageFit.Contain)
-              .width(50)
-              .height(40)
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Image($r("app.media.icon")).objectFit(ImageFit.Contain)
+            .width(50)
+            .height(40)
+            .commonStyleEasy()
         } else if (this.targetView == 'ImageAnimator') {
           ImageAnimator()
             .images([
@@ -314,7 +294,7 @@ struct ZIndex001 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -331,7 +311,11 @@ struct ZIndex001 {
             .commonStyle()
         } else if (this.targetView == 'MenuItemGroup') {
           MenuItemGroup({ header: "MenuItemGroup小标题" })
-            .commonStyle()
+          {
+            MenuItem({ content: "MenuItem1" })
+              .height(90)
+          }
+          .commonStyle()
         } else if (this.targetView == 'Navigation') {
           Navigation()
             .title(this.NavigationTitle)
@@ -383,8 +367,8 @@ struct ZIndex001 {
         } else if (this.targetView == 'ScrollBar') {
           ScrollBar({ scroller: this.scroller, direction: ScrollBarDirection.Vertical,state: BarState.On }) {
             Text("ScrollBar")
-              .width(20)
-              .height(100)
+              .width('80%')
+              .height('50%')
               .borderRadius(10)
           }.width(20)
           .commonStyle()
@@ -429,25 +413,20 @@ struct ZIndex001 {
           TextClock()
             .commonStyle()
         } else if (this.targetView == 'TextInput') {
-          Column(){
-            TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
-              .placeholderFont({ size: 14, weight: 400 })
-              .width(200)
-              .height(40)
-              .margin(20)
-              .fontSize(14)
-              .fontColor(Color.Black)
-              .inputFilter('[a-z]', (e) => {
-                console.log(JSON.stringify(e))
-              })
-              .onChange((value: string) => {
-                this.text = value
-              })
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
+            .placeholderFont({ size: 14, weight: 400 })
+            .width(200)
+            .height(40)
+            .margin(20)
+            .fontSize(14)
+            .fontColor(Color.Black)
+            .inputFilter('[a-z]', (e) => {
+              console.log(JSON.stringify(e))
+            })
+            .onChange((value: string) => {
+              this.text = value
+            })
+            .commonStyleEasy()
         } else if (this.targetView == 'TextPicker') {
           TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
             .commonStyle()
@@ -460,36 +439,26 @@ struct ZIndex001 {
           })
             .commonStyle()
         } else if (this.targetView == 'Toggle') {
-          Column(){
-            Toggle({ type: ToggleType.Switch, isOn: false })
-              .selectedColor('#007DFF')
-              .switchPointColor('#FFFFFF')
-              .onChange((isOn: boolean) => {
-                console.info('Component status:' + isOn)
-              })
-              .margin({top:30})
-              .width(120)
-              .height(60)
-              .commonStyleEasy()
-          }
-          .border({width:2})
-          .width(200)
-          .height(150)
-        } else if (this.targetView == 'Badge') {
-          Column(){
-            Badge({
-              value: 'New',
-              position: BadgePosition.Right,
-              style: { badgeSize: 16, badgeColor: '#FA2A2D' }
-            }) {
-              Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-            }.width(49.5).height(60)
+          Toggle({ type: ToggleType.Switch, isOn: false })
+            .selectedColor('#007DFF')
+            .switchPointColor('#FFFFFF')
+            .onChange((isOn: boolean) => {
+              console.info('Component status:' + isOn)
+            })
+            .margin({top:30})
+            .width(120)
+            .height(60)
             .commonStyleEasy()
-            .margin({ left: 12 })
-          }
-          .border({width:2})
-          .width(300)
-          .height(180)
+        } else if (this.targetView == 'Badge') {
+          Badge({
+            value: 'New',
+            position: BadgePosition.Right,
+            style: { badgeSize: 16, badgeColor: '#FA2A2D' }
+          }) {
+            Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
+          }.width(49.5).height(60)
+          .commonStyleEasy()
+          .margin({ left: 12 })
         } else if (this.targetView == 'Column') {
           Column(){
             Text("Column 1111")
@@ -502,23 +471,18 @@ struct ZIndex001 {
           }
           .commonStyle()
         } else if (this.targetView == 'Counter') {
-      Column(){
-        Counter() {
-          Text(this.value.toString())
-        }.margin(100)
-        .onInc(() => {
-          this.value++
-        })
-        .onDec(() => {
-          this.value--
-        })
-        .width(120)
-        .height(50)
-        .commonStyleEasy()
-      }
-      .width(350)
-      .height(260)
-      .border({width:2})
+          Counter() {
+            Text(this.value.toString())
+          }.margin(100)
+          .onInc(() => {
+            this.value++
+          })
+          .onDec(() => {
+            this.value--
+          })
+          .width(120)
+          .height(50)
+          .commonStyleEasy()
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -533,14 +497,14 @@ struct ZIndex001 {
               Text("GridCol GridCol").height(50)
             }.borderWidth(2)
             .commonStyle()
-          }.width(300)
+          }.width(180)
           .height(200)
           .borderWidth(2)
         } else if (this.targetView == 'GridRow') {
           GridRow() {
             GridCol({span:6}) {
-              Text('GridRow').height(80).width(120)
-            }
+              Text('GridRow')
+            }.height(80)
           }
           .commonStyle()
         } else if (this.targetView == 'Grid') {
@@ -574,9 +538,9 @@ struct ZIndex001 {
             ForEach(this.arr, (item) => {
               ListItem() {
                 Text('List' + item)
-                  .width('20%')
-                  .height(30)
-                  .fontSize(16)
+                  .width('80%')
+                  .height(20)
+                  .fontSize(8)
                   .textAlign(TextAlign.Center)
                   .borderRadius(10)
               }
@@ -598,16 +562,16 @@ struct ZIndex001 {
             }
             .commonStyle()
           }
-          .width(370)
-          .height(280)
+          .width(180)
+          .height(130)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
               ListItem() {
                 Text('ListItemGroup')
                   .margin({left:20})
-                  .height(40)
-              }
+
+              }.height(115)
             }
             .commonStyle()
           }
@@ -626,7 +590,7 @@ struct ZIndex001 {
               Text('Today Calendar')
             }
           }
-          .type(PanelType.Foldable).mode(PanelMode.Mini)
+          .type(PanelType.Foldable).mode(PanelMode.Full)
           .dragBar(true) // 默认开启
           .halfHeight(500) // 默认一半
           .commonStyle()
@@ -644,7 +608,6 @@ struct ZIndex001 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {
@@ -703,7 +666,7 @@ struct ZIndex001 {
               }, item => item)
             }.width('40%')
             Column() {
-              Text('SideBarContainer').fontSize(25)
+              Text('SideBarContainer').fontSize(8)
             }
             .margin({ top: 20, left: 20, right: 30 })
           }
@@ -746,6 +709,10 @@ struct ZIndex001 {
             }.tabBar(this.TabBuilder(0, 'green'))
 
             TabContent() {
+              Column().width('20%').height('20%')
+            }.tabBar(this.TabBuilder(0, 'green'))
+
+            TabContent() {
               Column().width('30%').height('30%')
             }.tabBar(this.TabBuilder(1, 'blue'))
           }
@@ -770,7 +737,11 @@ struct ZIndex001 {
             TabContent() {
               Column().width('40%').height('40%')
             }.tabBar(this.TabBuilder(1, 'blue'))
-            .commonStyle()
+            .commonStyle1()
+            TabContent() {
+              Column().width('40%').height('40%')
+            }.tabBar(this.TabBuilder(1, 'blue'))
+            .commonStyle2()
           }
           .vertical(false)
           .barMode(BarMode.Fixed)
@@ -836,14 +807,9 @@ struct ZIndex001 {
           })
             .commonStyle()
         } else if (this.targetView == 'Circle') {
-          Column(){
-            Circle({ width: 40, height: 40 })
-              .margin({top:50})
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Circle({ width: 40, height: 40 })
+            .margin({top:50})
+            .commonStyleEasy()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
             .width(150)
@@ -874,23 +840,18 @@ struct ZIndex001 {
             .commonStyle()
         } else if (this.targetView == 'Path') {
           Path()
-            .commands('M100 100 C0 100 140 0 200 150 L100 300 Z')
+            .commands('M10 10 H100 V100 H0 Z')
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
             .height(150)
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
-          Column(){
-            Rect({ width: '20%', height: 40 })
-              .radius(20)
-              .stroke(Color.Transparent)
-              .commonStyleEasy()
-              .margin({top:30})
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Rect({ width: '20%', height: 40 })
+            .radius(20)
+            .stroke(Color.Transparent)
+            .commonStyleEasy()
+            .margin({top:30})
         } else if (this.targetView == 'Shape') {
           Shape() {
             Rect().width(100).height(60)
@@ -900,9 +861,9 @@ struct ZIndex001 {
           .strokeWidth(10)
           .commonStyle()
         } else if (this.targetView == 'Canvas') {
-          Canvas(this.context)
+          Canvas(this.context1)
             .onReady(() => {
-              this.context.fillRect(80, 50, 40, 40)
+              this.context1.fillRect(0, 0, 30, 30)
             })
             .commonStyle()
         }else if (this.targetView == 'Web') {
@@ -922,136 +883,125 @@ struct ZIndex001 {
             }
           }
           .commonStyle()
+          .border({width:2,color:0xbbb2cb})
         }
 
-          if (this.targetView == 'AlphabetIndexer') {
-            AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
-              .commonStyle1()
-          } else if (this.targetView == 'Blank') {
-            Column(){
-              Blank()
-                .commonStyle1()
-            }
-          } else if (this.targetView == 'Button') {
-            Button("button",{ type: ButtonType.Normal, stateEffect: true })
-              .commonStyle1()
-          } else if (this.targetView == 'Checkbox') {
-            Column(){
-              Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
-                .margin({top:50})
-                .select(true)
-                .selectedColor(0xed6f21)
-                .commonStyleEasy1()
-            }
-            .width(200)
-            .height(150)
-            .border({width:2})
-          } else if (this.targetView == 'CheckboxGroup') {
-            Column(){
-              CheckboxGroup({ group: 'checkboxGroup' })
-                .margin({top:50})
-                .selectedColor('#007DFF')
-                .commonStyleEasy1()
-            }
-            .width(200)
-            .height(150)
-            .border({width:2})
-          } else if (this.targetView == 'DataPanel') {
-            DataPanel({ values: [50, 12, 8, 5] })
-              .commonStyle1()
-          } else if (this.targetView == 'DatePicker') {
-            DatePicker({ selected: this.selectedDate } )
-              .commonStyle1()
-          } else if (this.targetView == 'Divider') {
-            Divider()
-              .commonStyle1()
-          } else if (this.targetView == 'Gauge') {
-            Gauge({ value: 75 })
-              .commonStyle1()
-          } else if (this.targetView == 'Image') {
-            Column(){
-              Image($r("app.media.icon")).objectFit(ImageFit.Contain)
-                .width(50)
-                .height(40)
-                .commonStyleEasy1()
-            }
-            .width(200)
-            .height(150)
-            .border({width:2})
-          } else if (this.targetView == 'ImageAnimator') {
-            ImageAnimator()
-              .images([
-                {
-                  src: $r('app.media.icon1'),
-                  width:50,
-                  height:50,
-                  top:30,
-                  left:30
-                },
-              ])
-              .margin({left:30,top:30})
-              .duration(2000)
-              .fixedSize(false)
-              .state(this.state)
-              .reverse(this.reverse)
-              .iterations(this.iterations)
-              .margin({ top: 40 })
-              .onStart(() => {
-                console.info('Start')
-              })
-              .onPause(() => {
-                console.info('Pause')
-              })
-              .onRepeat(() => {
-                console.info('Repeat')
-              })
-              .onCancel(() => {
-                console.info('Cancel')
-              })
-              .onFinish(() => {
-                console.info('Finish')
-                this.state = AnimationStatus.Stopped
-              })
-              .commonStyle1()
-          } else if (this.targetView == 'LoadingProgress') {
-            LoadingProgress()
-              .commonStyle1()
-          } else if (this.targetView == 'Marquee') {
-            Marquee({
-              start: true,
-              step: this.step,
-              loop: this.loop,
-              fromStart: this.fromStart,
-              src: this.src
-            })
-              .commonStyle1()
-          } else if (this.targetView == 'Menu') {
-            Menu() {
-              MenuItem({ content: "MenuItem1" })
-            }
+        if (this.targetView == 'AlphabetIndexer') {
+          AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
             .commonStyle1()
-          } else if (this.targetView == 'MenuItem') {
+        } else if (this.targetView == 'Blank') {
+          Column(){
+            Blank()
+              .commonStyle1()
+          }
+        } else if (this.targetView == 'Button') {
+          Button("button",{ type: ButtonType.Normal, stateEffect: true })
+            .commonStyle1()
+        } else if (this.targetView == 'Checkbox') {
+          Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
+            .margin({top:50})
+            .select(true)
+            .selectedColor(0xed6f21)
+            .commonStyleEasy1()
+        } else if (this.targetView == 'CheckboxGroup') {
+          CheckboxGroup({ group: 'checkboxGroup' })
+            .margin({top:50})
+            .selectedColor('#007DFF')
+            .commonStyleEasy1()
+        } else if (this.targetView == 'DataPanel') {
+          DataPanel({ values: [50, 12, 8, 5] })
+            .commonStyle1()
+        } else if (this.targetView == 'DatePicker') {
+          DatePicker({ selected: this.selectedDate } )
+            .commonStyle1()
+        } else if (this.targetView == 'Divider') {
+          Divider()
+            .commonStyle1()
+        } else if (this.targetView == 'Gauge') {
+          Gauge({ value: 75 })
+            .commonStyle1()
+        } else if (this.targetView == 'Image') {
+          Image($r("app.media.icon")).objectFit(ImageFit.Contain)
+            .width(50)
+            .height(40)
+            .commonStyleEasy1()
+        } else if (this.targetView == 'ImageAnimator') {
+          ImageAnimator()
+            .images([
+              {
+                src: $r('app.media.icon1'),
+                width:50,
+                height:50,
+                top:30,
+                left:30
+              },
+            ])
+            .margin({left:30,top:30})
+            .duration(2000)
+            .fixedSize(false)
+            .state(this.state)
+            .reverse(this.reverse)
+            .iterations(this.iterations)
+            .margin({ top: 40 })
+            .onStart(() => {
+              console.info('Start')
+            })
+            .onPause(() => {
+              console.info('Pause')
+            })
+            .onRepeat(() => {
+              console.info('Repeat')
+            })
+            .onCancel(() => {
+              console.info('Cancel')
+            })
+            .onFinish(() => {
+              console.info('Finish')
+              this.state = AnimationStatus.Stopped
+            })
+            .commonStyle1()
+        } else if (this.targetView == 'LoadingProgress') {
+          LoadingProgress()
+            .commonStyle1()
+        } else if (this.targetView == 'Marquee') {
+          Marquee({
+            start: false,
+            step: this.step,
+            loop: this.loop,
+            fromStart: this.fromStart,
+            src: this.src
+          })
+            .commonStyle1()
+        } else if (this.targetView == 'Menu') {
+          Menu() {
             MenuItem({ content: "MenuItem1" })
-              .commonStyle1()
-          } else if (this.targetView == 'MenuItemGroup') {
-            MenuItemGroup({ header: "MenuItemGroup小标题" })
-              .commonStyle1()
-          } else if (this.targetView == 'Navigation') {
-            Navigation()
-              .title(this.NavigationTitle)
-              .commonStyle1()
-          } else if (this.targetView == 'NavRouter') {
-            NavRouter() {
-              Row() {
-                Image($r('app.media.icon')).width(30).height(30).borderRadius(30).margin({ left: 3, right: 10 })
-                Text(`NavRouter`)
-                  .fontSize(22)
-                  .fontWeight(500)
-                  .textAlign(TextAlign.Center)
-              }
-              .width(180)
-              .height(72)
-              .borderRadius(24)
+          }
+          .commonStyle1()
+        } else if (this.targetView == 'MenuItem') {
+          MenuItem({ content: "MenuItem1" })
+            .commonStyle1()
+        } else if (this.targetView == 'MenuItemGroup') {
+          MenuItemGroup({ header: "MenuItemGroup小标题" })
+          {
+            MenuItem({ content: "MenuItem1" })
+              .height(60)
+          }
+          .commonStyle1()
+        } else if (this.targetView == 'Navigation') {
+          Navigation()
+            .title(this.NavigationTitle)
+            .commonStyle1()
+        } else if (this.targetView == 'NavRouter') {
+          NavRouter() {
+            Row() {
+              Image($r('app.media.icon')).width(30).height(30).borderRadius(30).margin({ left: 3, right: 10 })
+              Text(`NavRouter`)
+                .fontSize(22)
+                .fontWeight(500)
+                .textAlign(TextAlign.Center)
+            }
+            .height(72)
+            .borderRadius(24)
 
               NavDestination() {
                 Text(`NavDestination`).fontSize(50)
@@ -1636,26 +1586,16 @@ struct ZIndex001 {
           Button("button",{ type: ButtonType.Normal, stateEffect: true })
             .commonStyle2()
         } else if (this.targetView == 'Checkbox') {
-          Column(){
-            Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
-              .margin({top:50})
-              .select(true)
-              .selectedColor(0xed6f21)
-              .commonStyleEasy2()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
+            .margin({top:50})
+            .select(true)
+            .selectedColor(0xed6f21)
+            .commonStyleEasy2()
         } else if (this.targetView == 'CheckboxGroup') {
-          Column(){
-            CheckboxGroup({ group: 'checkboxGroup' })
-              .margin({top:50})
-              .selectedColor('#007DFF')
-              .commonStyleEasy2()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          CheckboxGroup({ group: 'checkboxGroup' })
+            .margin({top:50})
+            .selectedColor('#007DFF')
+            .commonStyleEasy2()
         } else if (this.targetView == 'DataPanel') {
           DataPanel({ values: [50, 12, 8, 5] })
             .commonStyle2()
@@ -1669,15 +1609,10 @@ struct ZIndex001 {
           Gauge({ value: 75 })
             .commonStyle2()
         } else if (this.targetView == 'Image') {
-          Column(){
-            Image($r("app.media.icon")).objectFit(ImageFit.Contain)
-              .width(50)
-              .height(40)
-              .commonStyleEasy2()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Image($r("app.media.icon")).objectFit(ImageFit.Contain)
+            .width(50)
+            .height(40)
+            .commonStyleEasy2()
         } else if (this.targetView == 'ImageAnimator') {
           ImageAnimator()
             .images([
@@ -1718,7 +1653,7 @@ struct ZIndex001 {
             .commonStyle2()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -1735,7 +1670,11 @@ struct ZIndex001 {
             .commonStyle2()
         } else if (this.targetView == 'MenuItemGroup') {
           MenuItemGroup({ header: "MenuItemGroup小标题" })
-            .commonStyle2()
+          {
+            MenuItem({ content: "MenuItem1" })
+              .height(30)
+          }
+          .commonStyle2()
         } else if (this.targetView == 'Navigation') {
           Navigation()
             .title(this.NavigationTitle)
@@ -1787,8 +1726,8 @@ struct ZIndex001 {
         } else if (this.targetView == 'ScrollBar') {
           ScrollBar({ scroller: this.scroller, direction: ScrollBarDirection.Vertical,state: BarState.On }) {
             Text("ScrollBar")
-              .width(20)
-              .height(100)
+              .width('80%')
+              .height('50%')
               .borderRadius(10)
           }.width(20)
           .commonStyle2()
@@ -1833,25 +1772,20 @@ struct ZIndex001 {
           TextClock()
             .commonStyle2()
         } else if (this.targetView == 'TextInput') {
-          Column(){
-            TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
-              .placeholderFont({ size: 14, weight: 400 })
-              .width(200)
-              .height(40)
-              .margin(20)
-              .fontSize(14)
-              .fontColor(Color.Black)
-              .inputFilter('[a-z]', (e) => {
-                console.log(JSON.stringify(e))
-              })
-              .onChange((value: string) => {
-                this.text = value
-              })
-              .commonStyleEasy2()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
+            .placeholderFont({ size: 14, weight: 400 })
+            .width(200)
+            .height(40)
+            .margin(20)
+            .fontSize(14)
+            .fontColor(Color.Black)
+            .inputFilter('[a-z]', (e) => {
+              console.log(JSON.stringify(e))
+            })
+            .onChange((value: string) => {
+              this.text = value
+            })
+            .commonStyleEasy2()
         } else if (this.targetView == 'TextPicker') {
           TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
             .commonStyle2()
@@ -1864,36 +1798,26 @@ struct ZIndex001 {
           })
             .commonStyle2()
         } else if (this.targetView == 'Toggle') {
-          Column(){
-            Toggle({ type: ToggleType.Switch, isOn: false })
-              .selectedColor('#007DFF')
-              .switchPointColor('#FFFFFF')
-              .onChange((isOn: boolean) => {
-                console.info('Component status:' + isOn)
-              })
-              .margin({top:30})
-              .width(120)
-              .height(60)
-              .commonStyleEasy2()
-          }
-          .border({width:2})
-          .width(200)
-          .height(150)
-        } else if (this.targetView == 'Badge') {
-          Column(){
-            Badge({
-              value: 'New',
-              position: BadgePosition.Right,
-              style: { badgeSize: 16, badgeColor: '#FA2A2D' }
-            }) {
-              Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-            }.width(49.5).height(60)
+          Toggle({ type: ToggleType.Switch, isOn: false })
+            .selectedColor('#007DFF')
+            .switchPointColor('#FFFFFF')
+            .onChange((isOn: boolean) => {
+              console.info('Component status:' + isOn)
+            })
+            .margin({top:30})
+            .width(120)
+            .height(60)
             .commonStyleEasy2()
-            .margin({ left: 12 })
-          }
-          .border({width:2})
-          .width(300)
-          .height(180)
+        } else if (this.targetView == 'Badge') {
+          Badge({
+            value: 'New',
+            position: BadgePosition.Right,
+            style: { badgeSize: 16, badgeColor: '#FA2A2D' }
+          }) {
+            Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
+          }.width(49.5).height(60)
+          .commonStyleEasy2()
+          .margin({ left: 12 })
         } else if (this.targetView == 'Column') {
           Column(){
             Text("Column 1111")
@@ -1906,23 +1830,18 @@ struct ZIndex001 {
           }
           .commonStyle2()
         } else if (this.targetView == 'Counter') {
-      Column(){
-        Counter() {
-          Text(this.value.toString())
-        }.margin(100)
-        .onInc(() => {
-          this.value++
-        })
-        .onDec(() => {
-          this.value--
-        })
-        .width(120)
-        .height(50)
-        .commonStyleEasy2()
-      }
-      .width(350)
-      .height(260)
-      .border({width:2})
+          Counter() {
+            Text(this.value.toString())
+          }.margin(100)
+          .onInc(() => {
+            this.value++
+          })
+          .onDec(() => {
+            this.value--
+          })
+          .width(120)
+          .height(50)
+          .commonStyleEasy2()
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -1937,14 +1856,14 @@ struct ZIndex001 {
               Text("GridCol GridCol").height(50)
             }.borderWidth(2)
             .commonStyle2()
-          }.width(300)
+          }.width(180)
           .height(200)
           .borderWidth(2)
         } else if (this.targetView == 'GridRow') {
           GridRow() {
             GridCol({span:6}) {
-              Text('GridRow').height(80).width(120)
-            }
+              Text('GridRow')
+            }.height(30)
           }
           .commonStyle2()
         } else if (this.targetView == 'Grid') {
@@ -1978,9 +1897,9 @@ struct ZIndex001 {
             ForEach(this.arr, (item) => {
               ListItem() {
                 Text('List' + item)
-                  .width('20%')
-                  .height(30)
-                  .fontSize(16)
+                  .width('80%')
+                  .height(20)
+                  .fontSize(8)
                   .textAlign(TextAlign.Center)
                   .borderRadius(10)
               }
@@ -2002,16 +1921,16 @@ struct ZIndex001 {
             }
             .commonStyle2()
           }
-          .width(370)
-          .height(280)
+          .width(180)
+          .height(130)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
               ListItem() {
                 Text('ListItemGroup')
                   .margin({left:20})
-                  .height(40)
-              }
+
+              }.height(60)
             }
             .commonStyle2()
           }
@@ -2030,7 +1949,7 @@ struct ZIndex001 {
               Text('Today Calendar')
             }
           }
-          .type(PanelType.Foldable).mode(PanelMode.Mini)
+          .type(PanelType.Foldable).mode(PanelMode.Full)
           .dragBar(true) // 默认开启
           .halfHeight(500) // 默认一半
           .commonStyle2()
@@ -2048,7 +1967,6 @@ struct ZIndex001 {
                 top: { anchor: "__container__", align: VerticalAlign.Top },
                 left: { anchor: "__container__", align: HorizontalAlign.Start }
               })
-              .id("row001")
           }
           .commonStyle2()
         } else if (this.targetView == 'Row') {
@@ -2107,7 +2025,7 @@ struct ZIndex001 {
               }, item => item)
             }.width('40%')
             Column() {
-              Text('SideBarContainer').fontSize(25)
+              Text('SideBarContainer').fontSize(8)
             }
             .margin({ top: 20, left: 20, right: 30 })
           }
@@ -2165,28 +2083,6 @@ struct ZIndex001 {
           .height(296)
           .margin({ top: 52 })
           .commonStyle2()
-        } else if (this.targetView == 'TabContent') {
-          Tabs({ barPosition: BarPosition.Start, controller: this.controller1 }) {
-            TabContent() {
-              Column().width('30%').height('30%')
-            }.tabBar(this.TabBuilder(0, 'green'))
-            .commonStyle2()
-            TabContent() {
-              Column().width('40%').height('40%')
-            }.tabBar(this.TabBuilder(1, 'blue'))
-            .commonStyle2()
-          }
-          .vertical(false)
-          .barMode(BarMode.Fixed)
-          .barWidth(200)
-          .barHeight(60)
-          .animationDuration(400)
-          .onChange((index: number) => {
-            this.currentIndex = index
-          })
-          .width(200)
-          .height(150)
-          .margin({ top: 20 })
         } else if (this.targetView == 'FlowItem') {
           WaterFlow() {
             FlowItem(){
@@ -2240,14 +2136,9 @@ struct ZIndex001 {
           })
             .commonStyle2()
         } else if (this.targetView == 'Circle') {
-          Column(){
-            Circle({ width: 40, height: 40 })
-              .margin({top:50})
-              .commonStyleEasy2()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Circle({ width: 40, height: 40 })
+            .margin({top:50})
+            .commonStyleEasy2()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
             .width(150)
@@ -2278,7 +2169,7 @@ struct ZIndex001 {
             .commonStyle2()
         } else if (this.targetView == 'Path') {
           Path()
-            .commands('M100 100 C0 100 140 0 200 150 L100 300 Z')
+            .commands('M10 10 H100 V100 H0 Z')
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
@@ -2287,16 +2178,11 @@ struct ZIndex001 {
             .border({width:2})
             .commonStyleEasy2()
         } else if (this.targetView == 'Rect') {
-          Column(){
-            Rect({ width: '20%', height: 40 })
-              .radius(20)
-              .stroke(Color.Transparent)
-              .commonStyleEasy2()
-              .margin({top:30})
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Rect({ width: '20%', height: 40 })
+            .radius(20)
+            .stroke(Color.Transparent)
+            .commonStyleEasy2()
+            .margin({top:30})
         } else if (this.targetView == 'Shape') {
           Shape() {
             Rect().width(100).height(60)
@@ -2306,9 +2192,9 @@ struct ZIndex001 {
           .strokeWidth(10)
           .commonStyle2()
         } else if (this.targetView == 'Canvas') {
-          Canvas(this.context)
+          Canvas(this.context3)
             .onReady(() => {
-              this.context.fillRect(80, 50, 40, 40)
+              this.context3.fillRect(0, 0, 30, 30)
             })
             .commonStyle2()
         }else if (this.targetView == 'Web') {
@@ -2328,12 +2214,13 @@ struct ZIndex001 {
             }
           }
           .commonStyle2()
+          .border({width:2,color:0xc1cbac})
         }
 
 
       }
       .width('100%')
-      .height('100%')
+      .height(230)
     }
     .defaultFocus(true)
   }
