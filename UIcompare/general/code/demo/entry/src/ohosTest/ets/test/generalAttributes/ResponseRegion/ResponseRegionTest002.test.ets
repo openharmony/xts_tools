@@ -15,54 +15,51 @@
 import CommonTest from '../../common/CommonTest';
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
 import Settings from '../../model/Settings'
-import windowSnap from '../../model/snapShot'
 import Logger from '../../model/Logger'
-import { AttrsManager } from '../../model/AttrsManager';
-// @ts-ignore
 
-//测试通用属性-overlay
-export default function ZIndexFont01() {
+export default function ResponseRegionTest002() {
 
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
-
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup', 'Navigation',
-    'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextInput',
-    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup',
+    'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
+    'TextPicker', 'TextTimer', 'TimePicker', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
     'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
     'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
-    'Canvas','XComponent'
+    'Canvas','XComponent','Navigation','Toggle1', 'Toggle2','Toggle3','NavRouter'
   ]
 
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'ZIndexFont01', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/zindexAndfont/zindexAndfont001' //用于设置窗口页面
+    testName: 'ResponseRegionTest002', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/ResponseRegion/ResponseRegionPage002' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues = [
     {
-      describe: 'attr_big', //截图命名的一部分
-      setValue: 99, //要测试的属性值
+      //120 260
+      // ({ x: -10, y: -10, width: 100, height: 230 })
+      describe: 'old_no', //组件下方不会有text显示
+      setValue: { x: 125, y: 20},
     },
     {
-      describe: 'attr_small', //截图命名的一部分
-      setValue: 1, //要测试的属性值
+      describe: 'share_yes', //组件下方出现text，位置显示具体点击位置
+      setValue: { x: 20, y: 15},
     },
     {
-      describe: 'attr_equal', //截图命名的一部分
-      setValue: 3, //要测试的属性值
+      describe: 'response_yes', //组件下方出现text，位置显示具体点击位置
+      setValue: { x: -10, y: -10}, //x小于等于组件的高度+热区平移的y
     },
     {
-      describe: 'attr_negative', //截图命名的一部分
-      setValue: -3, //要测试的属性值
+      describe: 'far_no', //组件下方出现text，位置显示具体点击位置
+      setValue: { x: 150, y: 350}, //x小于等于组件的高度+热区平移的y
     },
   ]
 
@@ -71,12 +68,11 @@ export default function ZIndexFont01() {
   }
 
   //  create test suite
-  describe('ZIndexFont01', function () {
-
+  describe("ResponseRegionTest002", () => {
     beforeAll(async function () {
       console.info('beforeAll in1');
     })
-
+    //    create test cases by config.
     afterEach(async function (done) {
       if (Settings.windowClass == null) {
         return
@@ -93,11 +89,11 @@ export default function ZIndexFont01() {
       done()
     })
 
-    // create test cases by config.
-    CommonTest.initTest(pageConfig, supportView, testValues)
+    CommonTest.initTest_response(pageConfig, supportView, testValues)
+
   })
 }
 
 export function create() {
-throw new Error('Function not implemented.');
+  throw new Error('Function not implemented.');
 }
