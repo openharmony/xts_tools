@@ -19,12 +19,12 @@ import Logger from '../../model/Logger'
 
 //测试通用属性-fontStyle
 export default function ZIndexFont13() {
-
+//7*12
   //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
   // this param is required.
   let supportView = [
   // 测试下所有组件配置文本样式的效果 编译不报错的就配置
-    'Button','Span','Text', 'TextArea','TextClock','TextInput', 'TextTimer',
+    'Button','Marquee','Span','Text', 'TextArea','TextInput', 'TextTimer',
   ]
 
   //页面配置信息
@@ -38,51 +38,51 @@ export default function ZIndexFont13() {
   // this param is required.
   let testValues = [
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_022', //截图命名的一部分
-      setValue: 1000, //要测试的属性值
+      describe: 'attr1', //截图命名的一部分
+      setValue: 1000, //超出取值范围，效果为默认值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_024', //截图命名的一部分
-      setValue: FontWeight.Lighter, //要测试的属性值
+      describe: 'attr2', //截图命名的一部分
+      setValue: FontWeight.Lighter, //细
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_025', //截图命名的一部分
-      setValue: FontWeight.Normal, //要测试的属性值
+      describe: 'attr3', //截图命名的一部分
+      setValue: FontWeight.Normal, //和arr4一致
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_026', //截图命名的一部分
+      describe: 'attr4', //截图命名的一部分
       setValue: FontWeight.Regular, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_027', //截图命名的一部分
+      describe: 'attr5', //截图命名的一部分
       setValue: FontWeight.Bold, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_028', //截图命名的一部分
+      describe: 'attr6', //截图命名的一部分
       setValue: FontWeight.Bolder, //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_030', //截图命名的一部分
-      setValue: 'qweqwrqwrfsa', //要测试的属性值
+      describe: 'attr7', //截图命名的一部分
+      setValue: 'qweqwrqwrfsa', //效果为默认值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_031', //截图命名的一部分
-      setValue: 'Bold', //要测试的属性值
+      describe: 'attr8', //截图命名的一部分
+      setValue: 'bold', //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_032', //截图命名的一部分
+      describe: 'attr9', //截图命名的一部分
       setValue: 'bolder', //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_033', //截图命名的一部分
-      setValue: 'Lighter', //要测试的属性值
+      describe: 'attr10', //截图命名的一部分
+      setValue: 'lighter', //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_034', //截图命名的一部分
+      describe: 'attr11', //截图命名的一部分
       setValue: 'regular', //要测试的属性值
     },
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_035', //截图命名的一部分
+      describe: 'attr12', //截图命名的一部分
       setValue: 'medium', //要测试的属性值
     },
 
