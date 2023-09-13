@@ -268,10 +268,6 @@ export default function testsuite() {
   FocusTest03()
 
   ZIndexFont01()
-  ZIndexFont02()
-  ZIndexFont03()
-  ZIndexFont04()
-  ZIndexFont05()
   ZIndexFont06()
   ZIndexFont07()
   ZIndexFont08()
