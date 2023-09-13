@@ -24,7 +24,7 @@ export default function ZIndexFont14() {
   // this param is required.
   let supportView = [
   // 测试下所有组件配置文本样式的效果 编译不报错的就配置
-    'Button','Span','Text', 'TextArea','TextClock','TextInput', 'TextTimer',
+    'Button','Marquee','Span','Text', 'TextArea','TextInput', 'TextTimer',
   ]
 
   //页面配置信息
@@ -38,7 +38,7 @@ export default function ZIndexFont14() {
   // this param is required.
   let testValues = [
     {
-      describe: 'SUB_ACE_TS_BASE_COMPONENT_ZIndex_022', //截图命名的一部分
+      describe: 'attr1', //截图命名的一部分
       setValue: 1000, //要测试的属性值
     },
   ]
