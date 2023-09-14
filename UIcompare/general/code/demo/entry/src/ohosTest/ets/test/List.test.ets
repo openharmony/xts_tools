@@ -179,6 +179,10 @@ import ResponseRegionTest001 from './generalAttributes/ResponseRegion/ResponseRe
 import ResponseRegionTest002 from './generalAttributes/ResponseRegion/ResponseRegionTest002.test'
 import ResponseRegionTest003 from './generalAttributes/ResponseRegion/ResponseRegionTest003.test'
 import ResponseRegionTest004 from './generalAttributes/ResponseRegion/ResponseRegionTest004.test'
+import ResponseRegionTest005 from './generalAttributes/ResponseRegion/ResponseRegionTest005.test'
+import ResponseRegionTest006 from './generalAttributes/ResponseRegion/ResponseRegionTest006.test'
+import ResponseRegionTest007 from './generalAttributes/ResponseRegion/ResponseRegionTest007.test'
+import ResponseRegionTest008 from './generalAttributes/ResponseRegion/ResponseRegionTest008.test'
 
 //click
 import ClickTest001 from './generalEvents/ClickTest001.test'

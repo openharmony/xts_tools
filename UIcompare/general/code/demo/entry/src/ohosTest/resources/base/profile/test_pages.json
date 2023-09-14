@@ -153,6 +153,10 @@
     "TestAbility/pages/ResponseRegion/ResponseRegionPage002",
     "TestAbility/pages/ResponseRegion/ResponseRegionPage003",
     "TestAbility/pages/ResponseRegion/ResponseRegionPage004",
+    "TestAbility/pages/ResponseRegion/ResponseRegionPage005",
+    "TestAbility/pages/ResponseRegion/ResponseRegionPage006",
+    "TestAbility/pages/ResponseRegion/ResponseRegionPage007",
+    "TestAbility/pages/ResponseRegion/ResponseRegionPage008",
 
     "TestAbility/pages/click/ClickPage001",
     "TestAbility/pages/click/ClickPage002"
