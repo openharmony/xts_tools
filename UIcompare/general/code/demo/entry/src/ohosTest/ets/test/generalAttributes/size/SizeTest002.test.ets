@@ -34,8 +34,8 @@ import {
   PointerMatrix
 } from '@ohos.UiTest';
 
-export default function WidthTest001() {
-//7*68=476
+export default function SizeTest002() {
+//68*2=136
    //可去掉gridcol
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
@@ -52,35 +52,27 @@ export default function WidthTest001() {
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'WidthTest001', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/size/WidthPage001' //用于设置窗口页面
+    testName: 'SizeTest002', //截图命名的一部分
+    pageUrl: 'TestAbility/pages/size/SizePage002' //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues =[
     {
-      describe: 'width_350fp',
-      setValue: '350fp',
-    },{
-    describe: 'width_350vp',
-    setValue: '350vp',
-  },{
-    describe: 'width_350px',
-    setValue: '350px',
-  },{
-    describe: 'width_350lpx',
-    setValue: '350lpx',
-  },{
-    describe: 'width_350@',
-    setValue: '350@',
-  },{
-    describe: 'width_100percent',
-    setValue: '100%',
-  },{
-    describe: 'width_negative350px',
-    setValue: '-350px',
-  }
+      describe: 'size_heightNegative',
+      setValue: {
+        width: 350,
+        height: -260
+      }
+    },
+    {
+      describe: 'size_Both',
+      setValue: {
+        width: 350,
+        height: 260
+      }
+    }
   ]
 
   function sleep(time) {
@@ -88,7 +80,7 @@ export default function WidthTest001() {
   }
 
   //  create test suite
-  describe("WidthTest001", () => {
+  describe("SizeTest002", () => {
     beforeAll(async function () {
       console.info('beforeAll in1');
     })

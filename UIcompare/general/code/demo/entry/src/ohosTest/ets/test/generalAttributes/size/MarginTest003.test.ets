@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import CommonTest from '../../common/CommonTest';
 import Utils from '../../model/Utils'
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
@@ -34,16 +35,15 @@ import {
   PointerMatrix
 } from '@ohos.UiTest';
 
-export default function WidthTest001() {
-//7*68=476
-   //可去掉gridcol
+export default function MarginTest003() {
+  //共3*69=207张图
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
     'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
     'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
     'TextPicker', 'TextTimer', 'TimePicker', 'Toggle1', 'Toggle2','Toggle3','Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
-    'FlowItem', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
+    'FlowItem', 'GridCol','GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
     'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
     'Canvas','XComponent','Navigation',
@@ -52,34 +52,21 @@ export default function WidthTest001() {
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'WidthTest001', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/size/WidthPage001' //用于设置窗口页面
+    testName: 'MarginTest003', //截图命名的一部分
+    pageUrl: "TestAbility/pages/size/MarginPage003" //用于设置窗口页面
   }
 
-  //要测试的属性值，遍历生成case
-  // this param is required.
   let testValues =[
     {
-      describe: 'width_350fp',
-      setValue: '350fp',
+      describe: 'number_15',
+      setValue: 15,
     },{
-    describe: 'width_350vp',
-    setValue: '350vp',
-  },{
-    describe: 'width_350px',
-    setValue: '350px',
-  },{
-    describe: 'width_350lpx',
-    setValue: '350lpx',
-  },{
-    describe: 'width_350@',
-    setValue: '350@',
-  },{
-    describe: 'width_100percent',
-    setValue: '100%',
-  },{
-    describe: 'width_negative350px',
-    setValue: '-350px',
+    describe: 'number_0',
+    setValue: 0,
+  },
+    {
+    describe: 'number_-8',
+    setValue: -8,
   }
   ]
 
@@ -88,7 +75,7 @@ export default function WidthTest001() {
   }
 
   //  create test suite
-  describe("WidthTest001", () => {
+  describe("MarginTest003", () => {
     beforeAll(async function () {
       console.info('beforeAll in1');
     })

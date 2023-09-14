@@ -34,16 +34,15 @@ import {
   PointerMatrix
 } from '@ohos.UiTest';
 
-export default function WidthTest001() {
-//7*68=476
-   //可去掉gridcol
+export default function MarginTest001() {
+//共8*69=552
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
     'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup',
     'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
     'Search', 'Select', 'Slider', 'Text', 'TextArea',  'TextInput',
     'TextPicker', 'TextTimer', 'TimePicker', 'Toggle1', 'Toggle2','Toggle3','Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
-    'FlowItem', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
+    'FlowItem', 'GridCol','GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
     'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
     'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
     'Canvas','XComponent','Navigation',
@@ -52,34 +51,39 @@ export default function WidthTest001() {
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'WidthTest001', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/size/WidthPage001' //用于设置窗口页面
+    testName: 'MarginTest001', //截图命名的一部分
+    pageUrl: "TestAbility/pages/size/MarginPage001" //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
   let testValues =[
     {
-      describe: 'width_350fp',
-      setValue: '350fp',
+      describe: 'margin_20px',
+      setValue: '20px',
     },{
-    describe: 'width_350vp',
-    setValue: '350vp',
+    describe: 'margin_10%',
+    setValue: '10%',
+  },
+    {
+      describe: 'string_20fp',
+      setValue: '20fp',
+    },{
+    describe: 'string_20vp',
+    setValue: '20vp',
   },{
-    describe: 'width_350px',
-    setValue: '350px',
+    describe: 'string_20px',
+    setValue: '20px',
   },{
-    describe: 'width_350lpx',
-    setValue: '350lpx',
+    describe: 'string_20lpx',
+    setValue: '20lpx',
   },{
-    describe: 'width_350@',
-    setValue: '350@',
-  },{
-    describe: 'width_100percent',
-    setValue: '100%',
-  },{
-    describe: 'width_negative350px',
-    setValue: '-350px',
+    describe: 'string_20@',
+    setValue: '20@',
+  },
+    {
+    describe: 'string_-5px',
+    setValue: '-5px',
   }
   ]
 
@@ -88,7 +92,7 @@ export default function WidthTest001() {
   }
 
   //  create test suite
-  describe("WidthTest001", () => {
+  describe("MarginTest001", () => {
     beforeAll(async function () {
       console.info('beforeAll in1');
     })
