@@ -13,6 +13,8 @@
  * limitations under the License.
  */
 
+
+
 import AttrsManager from '../../../test/model/AttrsManager'
 import web_webview from '@ohos.web.webview'
 import router from '@ohos.router';
@@ -44,9 +46,10 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct TouchEvent02 {
+struct MarginPage001 {
+  //左上，字符
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: number = 1; //通用属性初始值
+  @State _generalAttr: string = '5%';//通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -85,8 +88,8 @@ struct TouchEvent02 {
   datasource: WaterFlowDataSource = new WaterFlowDataSource()
   private itemWidthArray: number[] = []
   private itemHeightArray: number[] = []
-  @State text1: string = ''
-  @State eventType: string = ''
+  @State bgColors: Color[] = [Color.Black, Color.Black]
+  @State currentBp: string = 'unknown'
   @Builder NavigationTitle() {
     Column() {
       Text('Title')
@@ -131,43 +134,25 @@ struct TouchEvent02 {
     .width(350)
     .height(260)
     .border({width:2})
-    .onTouch((event: TouchEvent) => {
-      if (event.type === TouchType.Down) {
-        this.eventType = 'Down'
-      }
-      if (event.type === TouchType.Up) {
-        this.eventType = 'Up'
-      }
-      if (event.type === TouchType.Move) {
-        this.eventType = 'Move'
-      }
-      this.text1 = 'TouchType:' + this.eventType + '\nDistance between touch point and touch element:\nx: '
-      + event.touches[0].x + '\n' + 'y: ' + event.touches[0].y + '\nComponent globalPos:('
-      + event.target.area.globalPosition.x + ',' + event.target.area.globalPosition.y + ')\nwidth:'
-      + event.target.area.width + '\nheight:' + event.target.area.height
-    })
-    .id("onTouch")
+
     .key(this.componentKey)
+    .margin(this._generalAttr)
+  }
+
+  @Styles tabStyle(){
+    .width(350)
+    .height(260)
+    .border({width:2})
+
+    .key(this.componentKey)
+    .margin(this._generalAttr)
   }
 
   @Styles commonStyleEasy(){
-    .onTouch((event: TouchEvent) => {
-      if (event.type === TouchType.Down) {
-        this.eventType = 'Down'
-      }
-      if (event.type === TouchType.Up) {
-        this.eventType = 'Up'
-      }
-      if (event.type === TouchType.Move) {
-        this.eventType = 'Move'
-      }
-      this.text1 = 'TouchType:' + this.eventType + '\nDistance between touch point and touch element:\nx: '
-      + event.touches[0].x + '\n' + 'y: ' + event.touches[0].y + '\nComponent globalPos:('
-      + event.target.area.globalPosition.x + ',' + event.target.area.globalPosition.y + ')\nwidth:'
-      + event.target.area.width + '\nheight:' + event.target.area.height
-    })
-    .id("onTouch")
+    .border({width:2})
+
     .key(this.componentKey)
+    .margin(this._generalAttr)
   }
 
   @Builder TabBuilder(index: number, name: string) {
@@ -202,12 +187,22 @@ struct TouchEvent02 {
     AttrsManager.registerDataChange(value => this._generalAttr = value)
   }
   // @ts-nocheck
+  //coulumn左上
   build() {
     Row() {
+      if (this.targetView == 'GridCol') {
+        GridRow() {
+          GridCol({ span: 5 }) {
+            Text("GridCol GridCol").height(50)
+          }.borderWidth(2)
+          .commonStyle()
+        }.width(400)
+        .height(400)
+        .margin({top:260,left:40})
+        .border({width:2,color:Color.Yellow})
+      }
+      else {
       Column() {
-        Text(this.text1)
-          .fontSize(20)
-
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
             .commonStyle()
@@ -218,26 +213,24 @@ struct TouchEvent02 {
           Button("button",{ type: ButtonType.Normal, stateEffect: true })
             .commonStyle()
         } else if (this.targetView == 'Checkbox') {
-          Column(){
-            Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
-              .margin({top:50})
-              .select(true)
-              .selectedColor(0xed6f21)
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          // Column(){
+          Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
+            .select(true)
+            .selectedColor(0xed6f21)
+            .commonStyleEasy()
+          // }
+          // .width(200)
+          // .height(150)
+          // .border({width:2})
         } else if (this.targetView == 'CheckboxGroup') {
-          Column(){
-            CheckboxGroup({ group: 'checkboxGroup' })
-              .margin({top:50})
-              .selectedColor('#007DFF')
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          // Column(){
+          CheckboxGroup({ group: 'checkboxGroup' })
+            .selectedColor('#007DFF')
+            .commonStyleEasy()
+          // }
+          // .width(200)
+          // .height(150)
+          // .border({width:2})
         } else if (this.targetView == 'DataPanel') {
           DataPanel({ values: [50, 12, 8, 5] })
             .commonStyle()
@@ -251,15 +244,15 @@ struct TouchEvent02 {
           Gauge({ value: 75 })
             .commonStyle()
         } else if (this.targetView == 'Image') {
-          Column(){
-            Image($r("app.media.icon")).objectFit(ImageFit.Contain)
-              .width(50)
-              .height(40)
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          // Column(){
+          Image($r("app.media.icon")).objectFit(ImageFit.Contain)
+            .width(300)
+            .height(300)
+            .commonStyleEasy()
+          // }
+          // .width(200)
+          // .height(150)
+          // .border({width:2})
         } else if (this.targetView == 'ImageAnimator') {
           ImageAnimator()
             .images([
@@ -271,13 +264,11 @@ struct TouchEvent02 {
                 left:30
               },
             ])
-            .margin({left:30,top:30})
             .duration(2000)
             .fixedSize(false)
             .state(this.state)
             .reverse(this.reverse)
             .iterations(this.iterations)
-            .margin({ top: 40 })
             .onStart(() => {
               console.info('Start')
             })
@@ -300,7 +291,7 @@ struct TouchEvent02 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,
@@ -331,6 +322,7 @@ struct TouchEvent02 {
                 .fontWeight(500)
                 .textAlign(TextAlign.Center)
             }
+            .width(180)
             .height(72)
             .borderRadius(24)
 
@@ -353,6 +345,7 @@ struct TouchEvent02 {
             .commonStyle()
         } else if (this.targetView == 'Progress') {
           Progress({ value: 10 })
+            .backgroundColor(Color.Green)
             .commonStyle()
         } else if (this.targetView == 'QRCode') {
           QRCode('hello world')
@@ -369,7 +362,7 @@ struct TouchEvent02 {
         } else if (this.targetView == 'ScrollBar') {
           ScrollBar({ scroller: this.scroller, direction: ScrollBarDirection.Vertical,state: BarState.On }) {
             Text("ScrollBar")
-              .width(20)
+              .width('80')
               .height(100)
               .borderRadius(10)
           }.width(20)
@@ -415,12 +408,10 @@ struct TouchEvent02 {
           TextClock()
             .commonStyle()
         } else if (this.targetView == 'TextInput') {
-          Column(){
             TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
               .placeholderFont({ size: 14, weight: 400 })
-              .width(200)
-              .height(40)
-              .margin(20)
+              .width(300)
+              .height(300)
               .fontSize(14)
               .fontColor(Color.Black)
               .inputFilter('[a-z]', (e) => {
@@ -430,10 +421,6 @@ struct TouchEvent02 {
                 this.text = value
               })
               .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
         } else if (this.targetView == 'TextPicker') {
           TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
             .commonStyle()
@@ -445,37 +432,53 @@ struct TouchEvent02 {
             selected: this.selectedTime,
           })
             .commonStyle()
-        } else if (this.targetView == 'Toggle') {
-          Column(){
-            Toggle({ type: ToggleType.Switch, isOn: false })
-              .selectedColor('#007DFF')
-              .switchPointColor('#FFFFFF')
-              .onChange((isOn: boolean) => {
-                console.info('Component status:' + isOn)
-              })
-              .margin({top:30})
-              .width(120)
-              .height(60)
-              .commonStyleEasy()
-          }
-          .border({width:2})
-          .width(200)
-          .height(150)
-        } else if (this.targetView == 'Badge') {
-          Column(){
-            Badge({
-              value: 'New',
-              position: BadgePosition.Right,
-              style: { badgeSize: 16, badgeColor: '#FA2A2D' }
-            }) {
-              Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-            }.width(49.5).height(60)
+        } else if (this.targetView == 'Toggle1') {
+          Toggle({ type: ToggleType.Switch, isOn: false })
+            .selectedColor('#007DFF')
+            .switchPointColor('#FFFFFF')
+            .onChange((isOn: boolean) => {
+              console.info('Component status:' + isOn)
+            })
+            .width(300)
+            .height(300)
             .commonStyleEasy()
-            .margin({ left: 12 })
-          }
-          .border({width:2})
-          .width(300)
-          .height(180)
+        }
+        else if (this.targetView == 'Toggle2') {
+          Toggle({ type: ToggleType.Checkbox, isOn: false })
+            .selectedColor('#007DFF')
+            .switchPointColor('#FFFFFF')
+            .onChange((isOn: boolean) => {
+              console.info('Component status:' + isOn)
+            })
+            .width(300)
+            .height(300)
+            .commonStyleEasy()
+        }
+        else if (this.targetView == 'Toggle3') {
+          Toggle({ type: ToggleType.Button, isOn: false })
+            .selectedColor('#007DFF')
+            .switchPointColor('#FFFFFF')
+            .onChange((isOn: boolean) => {
+              console.info('Component status:' + isOn)
+            })
+            .width(300)
+            .height(300)
+            .commonStyleEasy()
+        } else if (this.targetView == 'Badge') {
+          // Column(){
+          Badge({
+            value: 'New',
+            position: BadgePosition.Right,
+            style: { badgeSize: 16, badgeColor: '#FA2A2D' }
+          })
+          {
+            Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
+          }.width(350).height(260)
+          .commonStyleEasy()
+          // }
+          // .border({width:2})
+          // .width(300)
+          // .height(180)
         } else if (this.targetView == 'Column') {
           Column(){
             Text("Column 1111")
@@ -484,27 +487,28 @@ struct TouchEvent02 {
         } else if (this.targetView == 'ColumnSplit') {
           ColumnSplit() {
             Text('ColumnSplit')
-              .margin({left:50})
           }
           .commonStyle()
         } else if (this.targetView == 'Counter') {
-          Column(){
-            Counter() {
-              Text(this.value.toString())
-            }.margin(100)
-            .onInc(() => {
-              this.value++
-            })
-            .onDec(() => {
-              this.value--
-            })
-            .width(120)
-            .height(50)
-            .commonStyleEasy()
+          // Column(){
+          Counter() {
+            Text(this.value.toString())
           }
-          .width(350)
-          .height(260)
-          .border({width:2})
+          .onInc(() => {
+            this.value++
+          })
+          .onDec(() => {
+            this.value--
+          })
+          // .width(120)
+          // .height(50)
+          .width(300)
+          .height(300)
+          .commonStyleEasy()
+          // }
+          // .width(350)
+          // .height(260)
+          // .border({width:2})
         } else if (this.targetView == 'Flex') {
           Flex({ direction: FlexDirection.RowReverse }) {
             Text('1').width('20%').height(50)
@@ -519,9 +523,8 @@ struct TouchEvent02 {
               Text("GridCol GridCol").height(50)
             }.borderWidth(2)
             .commonStyle()
-          }.width(300)
-          .height(200)
-          .borderWidth(2)
+          }
+         .border({width:2,color:Color.Green})
         } else if (this.targetView == 'GridRow') {
           GridRow() {
             GridCol({span:6}) {
@@ -584,22 +587,20 @@ struct TouchEvent02 {
             }
             .commonStyle()
           }
-          .width(370)
-          .height(280)
+          .width(400)
+          .height(400)
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
               ListItem() {
                 Text('ListItemGroup')
-                  .margin({left:20})
-                  .height(40)
+                  .height(260)
               }
             }
             .commonStyle()
           }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          .width(400)
+          .height(400)
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -612,9 +613,8 @@ struct TouchEvent02 {
               Text('Today Calendar')
             }
           }
-          .type(PanelType.Foldable).mode(PanelMode.Mini)
+          .type(PanelType.Foldable).mode(PanelMode.Full)
           .dragBar(true) // 默认开启
-          .halfHeight(500) // 默认一半
           .commonStyle()
         } else if (this.targetView == 'Refresh') {
           Refresh({ refreshing: true })
@@ -628,8 +628,11 @@ struct TouchEvent02 {
               .backgroundColor("#FF3333")
               .alignRules({
                 top: { anchor: "__container__", align: VerticalAlign.Top },
-                left: { anchor: "__container__", align: HorizontalAlign.Start }
+                left: { anchor: "__container__", align: HorizontalAlign.Start },
+                right:{anchor: "__container__", align: HorizontalAlign.Center},
+                bottom:{anchor: "__container__", align: VerticalAlign.Center},
               })
+
           }
           .commonStyle()
         } else if (this.targetView == 'Row') {
@@ -703,7 +706,7 @@ struct TouchEvent02 {
           Stack({ alignContent: Alignment.Center }) {
             Text('First child, show in bottom').width('40%').height('40%').backgroundColor(0xd2cab3).align(Alignment.Top)
             Text('Second child, show in top').width('25%').height('25%').backgroundColor(0xc1cbac).align(Alignment.Top)
-          }.width('100%').height(150).margin({ top: 5 })
+          }.width('100%').height(150)
           .commonStyle()
         } else if (this.targetView == 'Swiper') {
           Swiper(this.swiperController) {
@@ -727,11 +730,19 @@ struct TouchEvent02 {
         }  else if (this.targetView == 'Tabs') {
           Tabs({ barPosition: BarPosition.Start, controller: this.controller1 }) {
             TabContent() {
-              Column().width('20%').height('20%')
+              Column()
+              {
+                Text('111')
+              }
+                .width('20%').height('20%')
             }.tabBar(this.TabBuilder(0, 'green'))
 
             TabContent() {
-              Column().width('30%').height('30%')
+              Column()
+              {
+                Text('222')
+              }
+                .width('30%').height('30%')
             }.tabBar(this.TabBuilder(1, 'blue'))
           }
           .vertical(false)
@@ -742,20 +753,25 @@ struct TouchEvent02 {
           .onChange((index: number) => {
             this.currentIndex = index
           })
-          .width(360)
-          .height(296)
-          .margin({ top: 52 })
+          .width(350)
+          .height(260)
           .commonStyle()
         } else if (this.targetView == 'TabContent') {
           Tabs({ barPosition: BarPosition.Start, controller: this.controller1 }) {
             TabContent() {
-              Column().width('30%').height('30%')
+              Column()
+              {
+                Text('111')
+              }
             }.tabBar(this.TabBuilder(0, 'green'))
-            .commonStyle()
+            .tabStyle()
             TabContent() {
-              Column().width('40%').height('40%')
+              Column()
+              {
+                Text('111')
+              }
             }.tabBar(this.TabBuilder(1, 'blue'))
-            .commonStyle()
+            .tabStyle()
           }
           .vertical(false)
           .barMode(BarMode.Fixed)
@@ -765,21 +781,14 @@ struct TouchEvent02 {
           .onChange((index: number) => {
             this.currentIndex = index
           })
-          .width(200)
-          .height(150)
-          .margin({ top: 20 })
-        } else if (this.targetView == 'FlowItem') {
+        }
+        else if (this.targetView == 'FlowItem') {
           WaterFlow() {
             FlowItem(){
-              Text("FlowItem" ).fontSize(6).height(16)
+              Text("N  FlowItem" ).fontSize(12).height('16')
             }
-            .width(40)
-            .height(60)
-            .border({width:2})
-            .margin({left:20,bottom:30})
-            .commonStyleEasy()
+            .commonStyle()
           }
-          .height(80)
         } else if (this.targetView == 'WaterFlow') {
           WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
             LazyForEach(this.datasource, (item: number) => {
@@ -821,14 +830,10 @@ struct TouchEvent02 {
           })
             .commonStyle()
         } else if (this.targetView == 'Circle') {
-          Column(){
-            Circle({ width: 40, height: 40 })
-              .margin({top:50})
-              .commonStyleEasy()
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
+          Circle()
+            .width(300)
+            .height(300)
+            .commonStyleEasy()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
             .width(150)
@@ -846,36 +851,38 @@ struct TouchEvent02 {
             .stroke(Color.Black)
             .commonStyle()
         } else if (this.targetView == 'Polyline') {
-          Polyline({ width: 100, height: 100 })
-            .points([[0, 0], [20, 60], [100, 100]])
+          Polyline()
+            .width(400)
+            .height(400)
+            .points([[10, 0], [40, 60], [100, 100]])
             .fillOpacity(0)
             .stroke(Color.Blue)
             .strokeWidth(3)
             .commonStyle()
         } else if (this.targetView == 'Polygon') {
-          Polygon({ width: 100, height: 100 })
+          Polygon()
+            .width(400)
+            .height(400)
             .points([[0, 0], [50, 100], [100, 0]])
             .fill(Color.Green)
             .commonStyle()
         } else if (this.targetView == 'Path') {
           Path()
-            .commands('M100 100 C0 100 140 0 200 150 L100 300 Z')
+            .commands('M10 10 H100 V100 H0 Z')
             .fillOpacity(0)
             .stroke(Color.Black)
             .strokeWidth(3)
-            .height(150)
+            .width(300)
+            .height(300)
+            .border({width:2})
             .commonStyleEasy()
         } else if (this.targetView == 'Rect') {
-          Column(){
-            Rect({ width: '20%', height: 40 })
+            Rect()
+              .width(300)
+              .height(300)
               .radius(20)
               .stroke(Color.Transparent)
               .commonStyleEasy()
-              .margin({top:30})
-          }
-          .width(200)
-          .height(150)
-          .border({width:2})
         } else if (this.targetView == 'Shape') {
           Shape() {
             Rect().width(100).height(60)
@@ -887,7 +894,7 @@ struct TouchEvent02 {
         } else if (this.targetView == 'Canvas') {
           Canvas(this.context)
             .onReady(() => {
-              this.context.fillRect(80, 50, 40, 40)
+              this.context.fillRect(0, 0, 50, 50)
             })
             .commonStyle()
         }else if (this.targetView == 'Web') {
@@ -896,6 +903,8 @@ struct TouchEvent02 {
         }else if (this.targetView == 'XComponent') {
           XComponent({ id: 'xcomponentId-container', type: 'component' })
           {
+            Text('Hello')
+              .fontSize(40)
             Divider()
               .margin(4)
               .strokeWidth(2)
@@ -909,8 +918,13 @@ struct TouchEvent02 {
           .commonStyle()
         }
       }
-      .width('100%')
-      .height('100%')
+      .width(400)
+      .height(400)
+      .margin({top:100,left:40})
+      .border({width:2,color:Color.Yellow})
+      .alignItems(HorizontalAlign.Start)
+      .justifyContent(FlexAlign.Start)
+      }
     }
     .defaultFocus(true)
   }

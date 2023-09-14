@@ -17,6 +17,7 @@ import AttrsManager from '../../../test/model/AttrsManager'
 import web_webview from '@ohos.web.webview'
 import router from '@ohos.router';
 import { WaterFlowDataSource } from '../WaterFlowDataSource'
+import Utils from '../../../test/model/Utils'
 
 class MyDataSource implements IDataSource {
   private list: number[] = []
@@ -46,7 +47,7 @@ class MyDataSource implements IDataSource {
 @Component
 struct TouchEvent01 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: number = 11; //通用属性初始值
+  @State _generalAttr: number = 1; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -85,7 +86,8 @@ struct TouchEvent01 {
   datasource: WaterFlowDataSource = new WaterFlowDataSource()
   private itemWidthArray: number[] = []
   private itemHeightArray: number[] = []
-  @State text1: string = ''
+  @State text1: string = `${this.targetView} is waiting for touch`
+  @State text2: string = `${this.targetView} is waiting for touch`
   @State eventType: string = ''
   @Builder NavigationTitle() {
     Column() {
@@ -128,16 +130,42 @@ struct TouchEvent01 {
   }
 
   @Styles commonStyle(){
+    .id(this.targetView)
     .width(200)
     .height(150)
     .border({width:2})
-    .onTouch((event: TouchEvent) => void{})
-    .id("onTouchEvent")
+    .onTouch((event: TouchEvent) => {
+      if (event.type === TouchType.Down) {
+        this.eventType = 'Down'
+      }
+      if (event.type === TouchType.Up) {
+        this.eventType = 'Up'
+      }
+      if (event.type === TouchType.Move) {
+        this.eventType = 'Move'
+      }
+      this.text1 = `${this.targetView} is onTouched, TouchType: ${this.eventType},
+                    ${event}
+                   `
+    })
   }
 
   @Styles commonStyleEasy(){
-    .onTouch((event: TouchEvent) => void{})
-    .id("onTouchEvent")
+    .id(this.targetView)
+    .onTouch((event: TouchEvent) => {
+      if (event.type === TouchType.Down) {
+        this.eventType = 'Down'
+      }
+      if (event.type === TouchType.Up) {
+        this.eventType = 'Up'
+      }
+      if (event.type === TouchType.Move) {
+        this.eventType = 'Move'
+      }
+      this.text1 = `${this.targetView} is onTouched, TouchType: ${this.eventType},
+                    ${event}
+                   `
+    })
   }
 
   @Builder TabBuilder(index: number, name: string) {
@@ -176,7 +204,135 @@ struct TouchEvent01 {
     Row() {
       Column() {
         Text(this.text1)
-        .fontSize(20)
+          .fontSize(20)
+        Text(this.text2)
+          .fontSize(20)
+
+        Button("sendTouchEvent1")
+          .fontSize(8)
+          .margin({ top: 3, bottom: 3 }).backgroundColor('#0D9FFB')
+          .onClick(()=>{
+            console.info('long clicked')
+              let rect = Utils.getComponentRect(this.targetView) // 获取id为this.targetView组件的矩形区域坐标
+              console.info('Utils.getComponentRect(this.targetView) success');
+              let touchPoint: TouchObject = {
+                id: this._generalAttr,
+                x: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+                y: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+                type: TouchType.Down,
+                screenX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+                screenY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+                displayX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+                displayY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+                windowX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+                windowY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+              }
+
+              sendTouchEvent(touchPoint) // 发送触摸事件
+              touchPoint.type = TouchType.Up
+              sendTouchEvent(touchPoint) // 发送触摸事件
+          })
+        .id("sendTouchEvent1")
+
+        Button("sendTouchEvent2")
+          .fontSize(8)
+          .margin({ top: 3, bottom: 3 }).backgroundColor('#0D9FFB')
+          .onClick(()=>{
+            console.info('long clicked')
+            let rect = Utils.getComponentRect(this.targetView) // 获取id为"onTouch"组件的矩形区域坐标
+            console.info('Utils.getComponentRect(this.targetView) success');
+            let touchPoint: TouchObject = {
+              id: this._generalAttr,
+              x: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              y: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+              type: TouchType.Down,
+              screenX: rect.left + this._generalAttr, // 组件中心点x坐标
+              screenY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+              displayX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              displayY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+              windowX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              windowY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+            }
+            sendTouchEvent(touchPoint) // 发送触摸事件
+            touchPoint.type = TouchType.Up
+            sendTouchEvent(touchPoint) // 发送触摸事件
+          })
+          .id("sendTouchEvent2")
+
+        Button("sendTouchEvent3")
+          .fontSize(8)
+          .margin({ top: 3, bottom: 3 }).backgroundColor('#0D9FFB')
+          .onClick(()=>{
+            console.info('long clicked')
+            let rect = Utils.getComponentRect(this.targetView) // 获取id为"onTouch"组件的矩形区域坐标
+            console.info('Utils.getComponentRect(this.targetView) success');
+            let touchPoint: TouchObject = {
+              id: this._generalAttr,
+              x: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              y: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+              type: TouchType.Down,
+              screenX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              screenY: rect.top + this._generalAttr, // 组件中心点y坐标
+              displayX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              displayY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+              windowX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              windowY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+            }
+            sendTouchEvent(touchPoint) // 发送触摸事件
+            touchPoint.type = TouchType.Up
+            sendTouchEvent(touchPoint) // 发送触摸事件
+          })
+          .id("sendTouchEvent3")
+
+        Button("sendTouchEvent4")
+          .fontSize(8)
+          .margin({ top: 3, bottom: 3 }).backgroundColor('#0D9FFB')
+          .onClick(()=>{
+            console.info('long clicked')
+            let rect = Utils.getComponentRect(this.targetView) // 获取id为"onTouch"组件的矩形区域坐标
+            console.info('Utils.getComponentRect(this.targetView) success');
+            let touchPoint: TouchObject = {
+              id: this._generalAttr,
+              x: rect.left + this._generalAttr, // 组件中心点x坐标
+              y: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+              type: TouchType.Down,
+              screenX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              screenY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+              displayX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              displayY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+              windowX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              windowY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+            }
+            sendTouchEvent(touchPoint) // 发送触摸事件
+            touchPoint.type = TouchType.Up
+            sendTouchEvent(touchPoint) // 发送触摸事件
+          })
+          .id("sendTouchEvent4")
+
+        Button("sendTouchEvent5")
+          .fontSize(8)
+          .margin({ top: 3, bottom: 3 }).backgroundColor('#0D9FFB')
+          .onClick(()=>{
+            console.info('long clicked')
+            let rect = Utils.getComponentRect(this.targetView) // 获取id为"onTouch"组件的矩形区域坐标
+            console.info('Utils.getComponentRect(this.targetView) success');
+            let touchPoint: TouchObject = {
+              id: this._generalAttr,
+              x: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              y: rect.top + this._generalAttr, // 组件中心点y坐标
+              type: TouchType.Down,
+              screenX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              screenY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+              displayX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              displayY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+              windowX: rect.left + Math.floor((rect.right - rect.left) / 2), // 组件中心点x坐标
+              windowY: rect.top + Math.floor((rect.bottom - rect.top) / 2), // 组件中心点y坐标
+            }
+            sendTouchEvent(touchPoint) // 发送触摸事件
+            touchPoint.type = TouchType.Up
+            sendTouchEvent(touchPoint) // 发送触摸事件
+          })
+          .id("sendTouchEvent5")
 
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
@@ -270,7 +426,7 @@ struct TouchEvent01 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,

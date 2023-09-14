@@ -45,7 +45,7 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct ResponseRegionPage004 {
+struct ResponseRegionPage005 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
   @State _generalAttr: number = 0; //通用属性初始值
   @State componentLoc: string = ""
@@ -129,12 +129,12 @@ struct ResponseRegionPage004 {
   }
 
   @Styles commonStyle(){
-    .width(120)
-    .height(260)
+    .width('200px')//宽高160*240
+    .height('300px')
     .margin({ top: 260})
     .border({width:2})
     .id('Me')
-    .responseRegion({ x: '100%', y: '-100%', width: '100%', height: '100%'})
+    .responseRegion({ x: '100px', y: '-100px', width: '200px', height: '300px' })
     .onClick((event: ClickEvent) => {
       this.clickText = 'Click Point:' + '\n  screenX:' + event.screenX + '\n  screenY:' + event.screenY
       + '\n  x:' + event.x + '\n  y:' + event.y + '\ntarget:' + '\n  component globalPos:('
@@ -538,7 +538,7 @@ struct ResponseRegionPage004 {
                 Text('ListItem')
               }
               .commonStyle()
-              .margin({ top:260, left:180})
+              .margin({ top:260, left:160})
             }
           } else if (this.targetView == 'ListItemGroup') {
             List() {
@@ -549,7 +549,7 @@ struct ResponseRegionPage004 {
                 }.height(260)
               }
               .commonStyle()
-              .margin({ top:260, left:180})
+              .margin({ top:260, left:160})
             }
           } else if (this.targetView == 'Navigator') {
             Navigator({ target: '/pages/BackgroundColorPage' }){
@@ -720,7 +720,7 @@ struct ResponseRegionPage004 {
             .onChange((index: number) => {
               this.currentIndex = index
             })
-            .width(140)
+            .width(180)
             .height(300)
             .margin({ top: 260})
           }
@@ -730,7 +730,7 @@ struct ResponseRegionPage004 {
                 Text("N  FlowItem" ).fontSize(12).height('16')
               }
               .commonStyle()
-              .margin({ top:260, left:180})
+              .margin({ top:260, left:160})
             }
           } else if (this.targetView == 'WaterFlow') {
             WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {

@@ -136,7 +136,6 @@ struct WidthPage002 {
   }
 
   @Styles tabStyle(){
-    // .width(350)
     .height(260)
     .border({width:2})
 
@@ -480,10 +479,8 @@ struct WidthPage002 {
             }.borderWidth(2)
             .commonStyle()
             .margin({top:0})
-          }.width(300)
-          .height(200)
-          .borderWidth(2)
-          .margin({top:260})
+          }
+          .border({width:2,color:Color.Yellow})
         } else if (this.targetView == 'GridRow') {
           GridRow() {
             GridCol({span:6}) {
@@ -546,8 +543,7 @@ struct WidthPage002 {
             .commonStyle()
             .margin({top:0})
           }
-          .width(350)
-          .height(260)
+          .border({width:2,color:Color.Yellow})
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -559,9 +555,7 @@ struct WidthPage002 {
             .commonStyle()
             .margin({top:0})
           }
-          .width(350)
-          .height(260)
-          .border({width:2})
+          .border({width:2,color:Color.Yellow})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -717,11 +711,13 @@ struct WidthPage002 {
             }.tabBar(this.TabBuilder(0, 'green'))
             .commonStyle()
             .margin({top:0})
+            .border({width:2,color:Color.Green})
             TabContent() {
               Column().width('40%').height('40%')
             }.tabBar(this.TabBuilder(1, 'blue'))
             .commonStyle()
             .margin({top:0})
+            .border({width:2,color:Color.Green})
           }
           .vertical(false)
           .barMode(BarMode.Fixed)
@@ -731,10 +727,7 @@ struct WidthPage002 {
           .onChange((index: number) => {
             this.currentIndex = index
           })
-          .width(200)
-          .height(150)
-          .margin({ top: 260 })
-          .border({width:2})
+          .border({width:2,color:Color.Yellow})
         }
         else if (this.targetView == 'FlowItem') {
           WaterFlow() {
@@ -785,7 +778,7 @@ struct WidthPage002 {
             .commonStyle()
         } else if (this.targetView == 'Circle') {
           Circle()
-            .height(40)
+            .height(120)
             .commonStyleEasy()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
@@ -828,7 +821,7 @@ struct WidthPage002 {
         } else if (this.targetView == 'Rect') {
           Rect()
             .radius(20)
-            .height(40)
+            .height(120)
             .stroke(Color.Transparent)
             .commonStyleEasy()
             .margin({top:50})

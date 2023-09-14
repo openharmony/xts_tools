@@ -13,11 +13,12 @@
  * limitations under the License.
  */
 
+
+
 import AttrsManager from '../../../test/model/AttrsManager'
 import web_webview from '@ohos.web.webview'
 import router from '@ohos.router';
 import { WaterFlowDataSource } from '../WaterFlowDataSource'
-
 
 class MyDataSource implements IDataSource {
   private list: number[] = []
@@ -45,11 +46,10 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct ResponseRegionPage004 {
+struct MarginPage004 {
+  //右下，字符
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: number = 0; //通用属性初始值
-  @State componentLoc: string = ""
-  @State clickText: string = ""
+  @State _generalAttr: string = '5%';//通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -88,6 +88,8 @@ struct ResponseRegionPage004 {
   datasource: WaterFlowDataSource = new WaterFlowDataSource()
   private itemWidthArray: number[] = []
   private itemHeightArray: number[] = []
+  @State bgColors: Color[] = [Color.Black, Color.Black, Color.Black, Color.Black, Color.Black, Color.Black, Color.Black, Color.Black, Color.Black]
+  @State currentBp: string = 'unknown'
   @Builder NavigationTitle() {
     Column() {
       Text('Title')
@@ -129,18 +131,28 @@ struct ResponseRegionPage004 {
   }
 
   @Styles commonStyle(){
-    .width(120)
+    .width(350)
     .height(260)
-    .margin({ top: 260})
     .border({width:2})
-    .id('Me')
-    .responseRegion({ x: '100%', y: '-100%', width: '100%', height: '100%'})
-    .onClick((event: ClickEvent) => {
-      this.clickText = 'Click Point:' + '\n  screenX:' + event.screenX + '\n  screenY:' + event.screenY
-      + '\n  x:' + event.x + '\n  y:' + event.y + '\ntarget:' + '\n  component globalPos:('
-      + event.target.area.globalPosition.x + ',' + event.target.area.globalPosition.y + ')\n  width:'
-      + event.target.area.width + '\n  height:' + event.target.area.height;
-    })
+
+    .key(this.componentKey)
+    .margin(this._generalAttr)
+  }
+
+  @Styles tabStyle(){
+    .width(350)
+    .height(260)
+    .border({width:2})
+
+    .key(this.componentKey)
+    .margin(this._generalAttr)
+  }
+
+  @Styles commonStyleEasy(){
+    .border({width:2})
+
+    .key(this.componentKey)
+    .margin(this._generalAttr)
   }
 
   @Builder TabBuilder(index: number, name: string) {
@@ -175,11 +187,40 @@ struct ResponseRegionPage004 {
     AttrsManager.registerDataChange(value => this._generalAttr = value)
   }
   // @ts-nocheck
+  //margin1右下
   build() {
-    Row(){
-      Column() {
-        Column()
-        {
+    Row() {
+      if (this.targetView == 'GridCol') {
+        GridRow({
+          columns: 5,
+          gutter: { x:5, y: 10 },
+          breakpoints: { value: ["400vp", "600vp", "800vp"],
+            reference: BreakpointsReference.WindowSize },
+          direction: GridRowDirection.Row
+        }) {
+          ForEach(this.bgColors, (color) => {
+            GridCol({ span: { xs: 1, sm: 2, md: 3, lg: 4 } }) {
+              Row().width(56).height(145)
+            }.borderColor(color).borderWidth(2)
+          })
+          GridCol({ span: { xs: 1, sm: 2, md: 3, lg: 4 } }) {
+            Row().width(56).height(145)
+          }
+          .borderColor(Color.Orange)
+          .borderWidth(2)
+          .margin(this._generalAttr)
+        }.width("100%").height("100%")
+        .alignItems(ItemAlign.End)
+        .onBreakpointChange((breakpoint) => {
+          this.currentBp = breakpoint
+        })
+        .width(300)
+        .height(300)
+        .margin({ left: 90})
+        .border({ color: Color.Black, width: 2 })
+      }
+      else {
+        Column() {
           if (this.targetView == 'AlphabetIndexer') {
             AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
               .commonStyle()
@@ -187,24 +228,32 @@ struct ResponseRegionPage004 {
             Blank()
               .commonStyle()
           } else if (this.targetView == 'Button') {
-            Button("button",{ type: ButtonType.Normal, stateEffect: true })
+            Button("button", { type: ButtonType.Normal, stateEffect: true })
               .commonStyle()
           } else if (this.targetView == 'Checkbox') {
-            Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
+            // Column(){
+            Checkbox({ name: 'checkbox1', group: 'checkboxGroup' })
               .select(true)
               .selectedColor(0xed6f21)
-              .height(150)
-              .commonStyle()
+              .commonStyleEasy()
+            // }
+            // .width(200)
+            // .height(150)
+            // .border({width:2})
           } else if (this.targetView == 'CheckboxGroup') {
+            // Column(){
             CheckboxGroup({ group: 'checkboxGroup' })
               .selectedColor('#007DFF')
-              .height(150)
-              .commonStyle()
+              .commonStyleEasy()
+            // }
+            // .width(200)
+            // .height(150)
+            // .border({width:2})
           } else if (this.targetView == 'DataPanel') {
             DataPanel({ values: [50, 12, 8, 5] })
               .commonStyle()
           } else if (this.targetView == 'DatePicker') {
-            DatePicker({ selected: this.selectedDate } )
+            DatePicker({ selected: this.selectedDate })
               .commonStyle()
           } else if (this.targetView == 'Divider') {
             Divider()
@@ -213,18 +262,24 @@ struct ResponseRegionPage004 {
             Gauge({ value: 75 })
               .commonStyle()
           } else if (this.targetView == 'Image') {
+            // Column(){
             Image($r("app.media.icon")).objectFit(ImageFit.Contain)
-              .height(150)
-              .commonStyle()
+              .width(300)
+              .height(300)
+              .commonStyleEasy()
+            // }
+            // .width(200)
+            // .height(150)
+            // .border({width:2})
           } else if (this.targetView == 'ImageAnimator') {
             ImageAnimator()
               .images([
                 {
                   src: $r('app.media.icon1'),
-                  width:50,
-                  height:50,
-                  top:30,
-                  left:30
+                  width: 50,
+                  height: 50,
+                  top: 30,
+                  left: 30
                 },
               ])
               .duration(2000)
@@ -270,11 +325,8 @@ struct ResponseRegionPage004 {
             MenuItem({ content: "MenuItem1" })
               .commonStyle()
           } else if (this.targetView == 'MenuItemGroup') {
-            MenuItemGroup({ header: 'MenuItemGroup小标题' }) {
-              MenuItem({ content: "MenuItem1" })
-                .width(120)
-                .height(200)
-            }.commonStyle()
+            MenuItemGroup({ header: "MenuItemGroup小标题" })
+              .commonStyle()
           } else if (this.targetView == 'Navigation') {
             Navigation()
               .title(this.NavigationTitle)
@@ -282,14 +334,15 @@ struct ResponseRegionPage004 {
           } else if (this.targetView == 'NavRouter') {
             NavRouter() {
               Row() {
-                Image($r('app.media.icon')).width(15).height(15).borderRadius(30)
+                Image($r('app.media.icon')).width(30).height(30).borderRadius(30).margin({ left: 3, right: 10 })
                 Text(`NavRouter`)
-                  .fontSize(12)
+                  .fontSize(22)
                   .fontWeight(500)
                   .textAlign(TextAlign.Center)
               }
-              .width('80%')
-              .height('30%')
+              .width(180)
+              .height(72)
+              .borderRadius(24)
 
               NavDestination() {
                 Text(`NavDestination`).fontSize(50)
@@ -310,6 +363,7 @@ struct ResponseRegionPage004 {
               .commonStyle()
           } else if (this.targetView == 'Progress') {
             Progress({ value: 10 })
+              .backgroundColor(Color.Green)
               .commonStyle()
           } else if (this.targetView == 'QRCode') {
             QRCode('hello world')
@@ -324,11 +378,12 @@ struct ResponseRegionPage004 {
             RichText('<h1>h1小标题</h1>')
               .commonStyle()
           } else if (this.targetView == 'ScrollBar') {
-            ScrollBar({ scroller: this.scroller, direction: ScrollBarDirection.Vertical,state: BarState.On }) {
+            ScrollBar({ scroller: this.scroller, direction: ScrollBarDirection.Vertical, state: BarState.On }) {
               Text("ScrollBar")
-                .width('90%')
-                .height('90%')
-            }
+                .width('80')
+                .height(100)
+                .borderRadius(10)
+            }.width(20)
             .commonStyle()
           } else if (this.targetView == 'Search') {
             Search()
@@ -362,7 +417,7 @@ struct ResponseRegionPage004 {
               .commonStyle()
           } else if (this.targetView == 'TextArea') {
             TextArea({
-              text:"The text area",
+              text: "The text area",
               placeholder: 'The text area can hold an unlimited amount of text. input your word...'
             })
               .placeholderFont({ size: 16, weight: 400 })
@@ -373,9 +428,9 @@ struct ResponseRegionPage004 {
           } else if (this.targetView == 'TextInput') {
             TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
               .placeholderFont({ size: 14, weight: 400 })
-              .width(200)
-              .height(40)
-              .fontSize(12)
+              .width(300)
+              .height(300)
+              .fontSize(14)
               .fontColor(Color.Black)
               .inputFilter('[a-z]', (e) => {
                 console.log(JSON.stringify(e))
@@ -383,7 +438,7 @@ struct ResponseRegionPage004 {
               .onChange((value: string) => {
                 this.text = value
               })
-              .commonStyle()
+              .commonStyleEasy()
           } else if (this.targetView == 'TextPicker') {
             TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
               .commonStyle()
@@ -402,9 +457,9 @@ struct ResponseRegionPage004 {
               .onChange((isOn: boolean) => {
                 console.info('Component status:' + isOn)
               })
-              .width(120)
-              .height(60)
-              .commonStyle()
+              .width(300)
+              .height(300)
+              .commonStyleEasy()
           }
           else if (this.targetView == 'Toggle2') {
             Toggle({ type: ToggleType.Checkbox, isOn: false })
@@ -413,9 +468,9 @@ struct ResponseRegionPage004 {
               .onChange((isOn: boolean) => {
                 console.info('Component status:' + isOn)
               })
-              .width(120)
-              .height(60)
-              .commonStyle()
+              .width(300)
+              .height(300)
+              .commonStyleEasy()
           }
           else if (this.targetView == 'Toggle3') {
             Toggle({ type: ToggleType.Button, isOn: false })
@@ -424,21 +479,25 @@ struct ResponseRegionPage004 {
               .onChange((isOn: boolean) => {
                 console.info('Component status:' + isOn)
               })
-              .width(120)
-              .height(60)
-              .commonStyle()
-          }
-          else if (this.targetView == 'Badge') {
+              .width(300)
+              .height(300)
+              .commonStyleEasy()
+          } else if (this.targetView == 'Badge') {
+            // Column(){
             Badge({
               value: 'New',
               position: BadgePosition.Right,
               style: { badgeSize: 16, badgeColor: '#FA2A2D' }
             }) {
               Text('list2').width(27).height(60).fontSize(14).fontColor('#182431')
-            }.width(49.5).height(60)
-            .commonStyle()
+            }.width(350).height(260)
+            .commonStyleEasy()
+            // }
+            // .border({width:2})
+            // .width(300)
+            // .height(180)
           } else if (this.targetView == 'Column') {
-            Column(){
+            Column() {
               Text("Column 1111")
             }
             .commonStyle()
@@ -448,6 +507,7 @@ struct ResponseRegionPage004 {
             }
             .commonStyle()
           } else if (this.targetView == 'Counter') {
+            // Column(){
             Counter() {
               Text(this.value.toString())
             }
@@ -457,9 +517,15 @@ struct ResponseRegionPage004 {
             .onDec(() => {
               this.value--
             })
-            .width(120)
-            .height(50)
-            .commonStyle()
+            // .width(120)
+            // .height(50)
+            .width(300)
+            .height(300)
+            .commonStyleEasy()
+            // }
+            // .width(350)
+            // .height(260)
+            // .border({width:2})
           } else if (this.targetView == 'Flex') {
             Flex({ direction: FlexDirection.RowReverse }) {
               Text('1').width('20%').height(50)
@@ -470,18 +536,16 @@ struct ResponseRegionPage004 {
             .commonStyle()
           } else if (this.targetView == 'GridCol') {
             GridRow() {
-              GridCol({ span: 11 }) {
+              GridCol({ span: 5 }) {
                 Text("GridCol GridCol").height(50)
               }.borderWidth(2)
               .commonStyle()
-              .margin({top:0})
-            }.width(300)
-            .height(260)
-            .margin({top:260})
+            }
+            .border({ width: 2, color: Color.Green })
           } else if (this.targetView == 'GridRow') {
             GridRow() {
-              GridCol({span:6}) {
-                Text('GridRow').height(80)
+              GridCol({ span: 6 }) {
+                Text('GridRow').height(80).width(120)
               }
             }
             .commonStyle()
@@ -516,10 +580,11 @@ struct ResponseRegionPage004 {
               ForEach(this.arr, (item) => {
                 ListItem() {
                   Text('List' + item)
-                    .width('80%')
+                    .width('20%')
                     .height(30)
-                    .fontSize(12)
+                    .fontSize(16)
                     .textAlign(TextAlign.Center)
+                    .borderRadius(10)
                 }
               }, item => item)
             }
@@ -534,25 +599,31 @@ struct ResponseRegionPage004 {
             .commonStyle()
           } else if (this.targetView == 'ListItem') {
             List() {
-              ListItem(){
+              ListItem() {
                 Text('ListItem')
               }
               .commonStyle()
-              .margin({ top:260, left:180})
             }
+            .width(400)
+            .height(400)
+            .border({width:2,color:Color.Green})
+            .alignListItem(ListItemAlign.End)
           } else if (this.targetView == 'ListItemGroup') {
             List() {
               ListItemGroup() {
                 ListItem() {
                   Text('ListItemGroup')
-                    .height(40)
-                }.height(260)
+                    .height(260)
+                }
               }
               .commonStyle()
-              .margin({ top:260, left:180})
             }
+            .width(400)
+            .height(400)
+            .border({width:2,color:Color.Green})
+            .alignListItem(ListItemAlign.End)
           } else if (this.targetView == 'Navigator') {
-            Navigator({ target: '/pages/BackgroundColorPage' }){
+            Navigator({ target: '/pages/BackgroundColorPage' }) {
               Text('Go to ' + '/pages/BackgroundColorPage')
             }
             .commonStyle()
@@ -560,12 +631,11 @@ struct ResponseRegionPage004 {
             Panel(true) {
               // 展示日程
               Column() {
-                Text('Today Calendar').fontSize(12)
+                Text('Today Calendar')
               }
             }
-            .type(PanelType.Foldable).mode(PanelMode.Mini)
+            .type(PanelType.Foldable).mode(PanelMode.Full)
             .dragBar(true) // 默认开启
-            .halfHeight(500) // 默认一半
             .commonStyle()
           } else if (this.targetView == 'Refresh') {
             Refresh({ refreshing: true })
@@ -580,14 +650,14 @@ struct ResponseRegionPage004 {
                 .alignRules({
                   top: { anchor: "__container__", align: VerticalAlign.Top },
                   left: { anchor: "__container__", align: HorizontalAlign.Start },
-                  right:{anchor: "__container__", align: HorizontalAlign.Center},
-                  bottom:{anchor: "__container__", align: VerticalAlign.Center},
+                  right: { anchor: "__container__", align: HorizontalAlign.Center },
+                  bottom: { anchor: "__container__", align: VerticalAlign.Center },
                 })
 
             }
             .commonStyle()
           } else if (this.targetView == 'Row') {
-            Row(){
+            Row() {
               Text("Row Row Row")
             }
             .commonStyle()
@@ -603,7 +673,7 @@ struct ResponseRegionPage004 {
                   Text(item.toString())
                     .width('30%')
                     .height(60)
-                    .border({width:2})
+                    .border({ width: 2 })
                     .borderRadius(15)
                     .fontSize(16)
                     .textAlign(TextAlign.Center)
@@ -611,9 +681,9 @@ struct ResponseRegionPage004 {
                 }, item => item)
               }.width('100%')
             }
-            .scrollable(ScrollDirection.Vertical)  // 滚动方向纵向
-            .scrollBar(BarState.On)  // 滚动条常驻显示
-            .scrollBarColor(Color.Gray)  // 滚动条颜色
+            .scrollable(ScrollDirection.Vertical) // 滚动方向纵向
+            .scrollBar(BarState.On) // 滚动条常驻显示
+            .scrollBarColor(Color.Gray) // 滚动条颜色
             .scrollBarWidth(10) // 滚动条宽度
             .edgeEffect(EdgeEffect.None)
             .onScroll((xOffset: number, yOffset: number) => {
@@ -641,8 +711,9 @@ struct ResponseRegionPage004 {
                   })
                 }, item => item)
               }.width('40%')
+
               Column() {
-                Text('SideBarContainer').fontSize(10)
+                Text('SideBarContainer').fontSize(25)
               }
               .margin({ top: 20, left: 20, right: 30 })
             }
@@ -655,9 +726,17 @@ struct ResponseRegionPage004 {
             .commonStyle()
           } else if (this.targetView == 'Stack') {
             Stack({ alignContent: Alignment.Center }) {
-              Text('First child, show in bottom').width('40%').height('40%').backgroundColor(0xd2cab3).align(Alignment.Top)
-              Text('Second child, show in top').width('25%').height('25%').backgroundColor(0xc1cbac).align(Alignment.Top)
-            }.width('100%').height(150).margin({ top: 5 })
+              Text('First child, show in bottom')
+                .width('40%')
+                .height('40%')
+                .backgroundColor(0xd2cab3)
+                .align(Alignment.Top)
+              Text('Second child, show in top')
+                .width('25%')
+                .height('25%')
+                .backgroundColor(0xc1cbac)
+                .align(Alignment.Top)
+            }.width('100%').height(150)
             .commonStyle()
           } else if (this.targetView == 'Swiper') {
             Swiper(this.swiperController) {
@@ -678,14 +757,20 @@ struct ResponseRegionPage004 {
               console.info(index.toString())
             })
             .commonStyle()
-          }  else if (this.targetView == 'Tabs') {
+          } else if (this.targetView == 'Tabs') {
             Tabs({ barPosition: BarPosition.Start, controller: this.controller1 }) {
               TabContent() {
-                Column().width('20%').height('20%')
+                Column() {
+                  Text('111')
+                }
+                .width('20%').height('20%')
               }.tabBar(this.TabBuilder(0, 'green'))
 
               TabContent() {
-                Column().width('30%').height('30%')
+                Column() {
+                  Text('222')
+                }
+                .width('30%').height('30%')
               }.tabBar(this.TabBuilder(1, 'blue'))
             }
             .vertical(false)
@@ -696,21 +781,25 @@ struct ResponseRegionPage004 {
             .onChange((index: number) => {
               this.currentIndex = index
             })
-            .width(360)
-            .height(296)
+            .width(350)
+            .height(260)
             .commonStyle()
           } else if (this.targetView == 'TabContent') {
             Tabs({ barPosition: BarPosition.Start, controller: this.controller1 }) {
               TabContent() {
-                Column().width('30%').height('30%')
+                Column() {
+                  Text('111')
+                }
               }.tabBar(this.TabBuilder(0, 'green'))
-              .commonStyle()
-              .margin({top:0})
+              .tabStyle()
+
               TabContent() {
-                Column().width('40%').height('40%')
+                Column() {
+                  Text('111')
+                }
               }.tabBar(this.TabBuilder(1, 'blue'))
-              .commonStyle()
-              .margin({top:0})
+              // .commonStyle()
+              .tabStyle()
             }
             .vertical(false)
             .barMode(BarMode.Fixed)
@@ -720,17 +809,13 @@ struct ResponseRegionPage004 {
             .onChange((index: number) => {
               this.currentIndex = index
             })
-            .width(140)
-            .height(300)
-            .margin({ top: 260})
           }
           else if (this.targetView == 'FlowItem') {
             WaterFlow() {
               FlowItem(){
-                Text("N  FlowItem" ).fontSize(12).height('16')
+                Text("N  FlowItem").fontSize(12).height('16')
               }
               .commonStyle()
-              .margin({ top:260, left:180})
             }
           } else if (this.targetView == 'WaterFlow') {
             WaterFlow({ footer: this.itemFoot.bind(this), scroller: this.scroller }) {
@@ -774,8 +859,9 @@ struct ResponseRegionPage004 {
               .commonStyle()
           } else if (this.targetView == 'Circle') {
             Circle()
-              .height(40)
-              .commonStyle()
+              .width(300)
+              .height(300)
+              .commonStyleEasy()
           } else if (this.targetView == 'Ellipse') {
             Ellipse()
               .width(150)
@@ -793,14 +879,18 @@ struct ResponseRegionPage004 {
               .stroke(Color.Black)
               .commonStyle()
           } else if (this.targetView == 'Polyline') {
-            Polyline({ width: 100, height: 100 })
+            Polyline()
+              .width(400)
+              .height(400)
               .points([[10, 0], [40, 60], [100, 100]])
               .fillOpacity(0)
               .stroke(Color.Blue)
               .strokeWidth(3)
               .commonStyle()
           } else if (this.targetView == 'Polygon') {
-            Polygon({ width: 100, height: 100 })
+            Polygon()
+              .width(400)
+              .height(400)
               .points([[0, 0], [50, 100], [100, 0]])
               .fill(Color.Green)
               .commonStyle()
@@ -811,18 +901,19 @@ struct ResponseRegionPage004 {
               .stroke(Color.Black)
               .strokeWidth(3)
               .width(300)
-              .height(400)
-              .border({width:2})
-              .commonStyle()
+              .height(300)
+              .border({ width: 2 })
+              .commonStyleEasy()
           } else if (this.targetView == 'Rect') {
             Rect()
+              .width(300)
+              .height(300)
               .radius(20)
-              .height(40)
               .stroke(Color.Transparent)
-              .commonStyle()
+              .commonStyleEasy()
           } else if (this.targetView == 'Shape') {
             Shape() {
-              Rect().width('80%').height('70%')
+              Rect().width(100).height(60)
             }
             .viewPort({ x: -100, y: 5, width: 320, height: 70 })
             .stroke(Color.Black)
@@ -831,13 +922,13 @@ struct ResponseRegionPage004 {
           } else if (this.targetView == 'Canvas') {
             Canvas(this.context)
               .onReady(() => {
-                this.context.fillRect(0, 10, 30, 30)
+                this.context.fillRect(0, 0, 50, 50)
               })
               .commonStyle()
-          }else if (this.targetView == 'Web') {
+          } else if (this.targetView == 'Web') {
             Web({ src: $rawfile("index.html"), controller: this.controller })
               .commonStyle()
-          }else if (this.targetView == 'XComponent') {
+          } else if (this.targetView == 'XComponent') {
             XComponent({ id: 'xcomponentId-container', type: 'component' }) {
               Text('Hello')
                 .fontSize(40)
@@ -851,13 +942,17 @@ struct ResponseRegionPage004 {
                   .fontSize(30)
               }
             }
-            .commonStyle()}
-
+            .commonStyle()
+          }
         }
-        .width(480)
-        .height(800)
-        Text(this.clickText).fontSize(12).border({width:2}).width(220).height(170)
+        .width(400)
+        .height(400)
+        .margin({ top: 100, left: 40 })
+        .border({ width: 2, color: Color.Yellow })
+        .alignItems(HorizontalAlign.End)
+        .justifyContent(FlexAlign.End)
       }
     }
+    .defaultFocus(true)
   }
 }

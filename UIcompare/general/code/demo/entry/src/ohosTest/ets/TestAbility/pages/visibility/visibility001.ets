@@ -126,8 +126,8 @@ struct VisibilityExample01 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .width(230)
+    .height(160)
     .border({width:2})
     .visibility(this._generalAttr)
     .key(this.componentKey)
@@ -265,7 +265,7 @@ struct VisibilityExample01 {
             .commonStyle()
         } else if (this.targetView == 'Marquee') {
           Marquee({
-            start: true,
+            start: false,
             step: this.step,
             loop: this.loop,
             fromStart: this.fromStart,

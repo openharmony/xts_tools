@@ -45,7 +45,7 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct ResponseRegionPage004 {
+struct ResponseRegionPage006 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
   @State _generalAttr: number = 0; //通用属性初始值
   @State componentLoc: string = ""
@@ -134,7 +134,7 @@ struct ResponseRegionPage004 {
     .margin({ top: 260})
     .border({width:2})
     .id('Me')
-    .responseRegion({ x: '100%', y: '-100%', width: '100%', height: '100%'})
+    .responseRegion({ x: 10, y: -10, width: 140, height: 280 })
     .onClick((event: ClickEvent) => {
       this.clickText = 'Click Point:' + '\n  screenX:' + event.screenX + '\n  screenY:' + event.screenY
       + '\n  x:' + event.x + '\n  y:' + event.y + '\ntarget:' + '\n  component globalPos:('
