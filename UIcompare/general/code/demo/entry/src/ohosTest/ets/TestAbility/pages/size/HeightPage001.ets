@@ -145,7 +145,6 @@ struct HeightPage001 {
   }
 
   @Styles commonStyleEasy(){
-    // .margin({top:260})
     .border({width:2})
 
     .key(this.componentKey)
@@ -201,12 +200,12 @@ struct HeightPage001 {
           Checkbox({name: 'checkbox1',  group: 'checkboxGroup'})
             .select(true)
             .selectedColor(0xed6f21)
-            .height(150)
+            .width(150)
             .commonStyleEasy()
         } else if (this.targetView == 'CheckboxGroup') {
           CheckboxGroup({ group: 'checkboxGroup' })
             .selectedColor('#007DFF')
-            .height(150)
+            .width(150)
             .commonStyleEasy()
         } else if (this.targetView == 'DataPanel') {
           DataPanel({ values: [50, 12, 8, 5] })
@@ -279,6 +278,10 @@ struct HeightPage001 {
             .commonStyle()
         } else if (this.targetView == 'MenuItemGroup') {
           MenuItemGroup({ header: "MenuItemGroup小标题" })
+          {
+            MenuItem({ content: "MenuItem1" })
+              .width(350)
+          }
             .commonStyle()
         } else if (this.targetView == 'Navigation') {
           Navigation()
@@ -544,10 +547,8 @@ struct HeightPage001 {
               Text('ListItem')
             }
             .commonStyle()
-            .margin({top:0})
           }
-          .width(350)
-          .height(260)
+          .border({width:2,color:Color.Yellow})
         } else if (this.targetView == 'ListItemGroup') {
           List() {
             ListItemGroup() {
@@ -559,9 +560,9 @@ struct HeightPage001 {
             .commonStyle()
             .margin({top:0})
           }
-          .width(350)
-          .height(260)
-          .border({width:2})
+          .width(400)
+          .height(350)
+          .border({width:2,color:Color.Yellow})
         } else if (this.targetView == 'Navigator') {
           Navigator({ target: '/pages/BackgroundColorPage' }){
             Text('Go to ' + '/pages/BackgroundColorPage')
@@ -716,12 +717,12 @@ struct HeightPage001 {
               Column().width('30%').height('30%')
             }.tabBar(this.TabBuilder(0, 'green'))
             .commonStyle()
-            .margin({top:0})
+            .border({width:2,color:Color.Green})
             TabContent() {
               Column().width('40%').height('40%')
             }.tabBar(this.TabBuilder(1, 'blue'))
             .commonStyle()
-            .margin({top:0})
+            .border({width:2,color:Color.Green})
           }
           .vertical(false)
           .barMode(BarMode.Fixed)
@@ -731,10 +732,7 @@ struct HeightPage001 {
           .onChange((index: number) => {
             this.currentIndex = index
           })
-          .width(200)
-          .height(150)
-          .margin({ top: 260 })
-          .border({width:2})
+          .border({width:2,color:Color.Yellow})
         }
         else if (this.targetView == 'FlowItem') {
           WaterFlow() {
@@ -785,7 +783,7 @@ struct HeightPage001 {
             .commonStyle()
         } else if (this.targetView == 'Circle') {
           Circle()
-            .height(40)
+            .width(120)
             .commonStyleEasy()
         } else if (this.targetView == 'Ellipse') {
           Ellipse()
@@ -828,10 +826,9 @@ struct HeightPage001 {
         } else if (this.targetView == 'Rect') {
           Rect()
             .radius(20)
-            .height(40)
+            .width(120)
             .stroke(Color.Transparent)
             .commonStyleEasy()
-            .margin({top:50})
         } else if (this.targetView == 'Shape') {
           Shape() {
             Rect().width('80%').height('70%')

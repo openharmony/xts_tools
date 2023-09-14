@@ -126,8 +126,8 @@ struct VisibilityExample01 {
   }
 
   @Styles commonStyle(){
-    .width(350)
-    .height(260)
+    .width(230)
+    .height(160)
     .border({width:2})
     .visibility(this._generalAttr)
     .key(this.componentKey)
