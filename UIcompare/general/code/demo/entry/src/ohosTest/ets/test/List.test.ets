@@ -206,6 +206,10 @@ import ClickTest001 from './generalEvents/ClickTest001.test'
 import ClickTest002 from './generalEvents/ClickTest002.test'
 import ClickTest003 from './generalEvents/ClickTest003.test'
 
+//flex
+import FlexAlignContentTest001 from './generalAttributes/Flex/FlexAlignContentTest001.test'
+import FlexAlignItemsTest001 from './generalAttributes/Flex/FlexAlignItemsTest001.test'
+
 export default function testsuite() {
 
   Background01()
@@ -385,5 +389,8 @@ export default function testsuite() {
   ClickTest001()
   ClickTest002()
   ClickTest003()
+
+  FlexAlignContentTest001()
+  FlexAlignItemsTest001()
 
 }
