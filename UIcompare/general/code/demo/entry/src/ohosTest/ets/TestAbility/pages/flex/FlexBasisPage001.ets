@@ -44,9 +44,9 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct FlexAlignSelfPage001 {
+struct FlexBasisPage001 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _generalAttr: 	ItemAlign = 	ItemAlign.Auto; //通用属性初始值
+  @State _generalAttr: number	 = 0; //通用属性初始值
   @State _flex:  FlexOptions = { wrap: FlexWrap.NoWrap };
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
@@ -134,7 +134,7 @@ struct FlexAlignSelfPage001 {
     .height(200)
     // .margin({top:260})
     .backgroundColor('#FFC0CB')
-    .alignSelf(this._generalAttr)
+    .flexBasis(this._generalAttr)
     // .key(this.componentKey)
 
   }
@@ -143,17 +143,16 @@ struct FlexAlignSelfPage001 {
     .width('33%')
     .height(200)
     .backgroundColor('#FFC0CB')
-    .alignSelf(this._generalAttr)
+    .flexBasis(this._generalAttr)
     // .key(this.componentKey)
 
   }
 
   @Styles commonStyleEasy1(){
     .width('33%')
-    .height(200)
     // .margin({top:260})
     .backgroundColor('#FFC0CB')
-    .alignSelf(this._generalAttr)
+    .flexBasis(this._generalAttr)
     // .key(this.componentKey)
 
   }
@@ -163,7 +162,7 @@ struct FlexAlignSelfPage001 {
     .height(200)
     // .margin({top:260})
     .backgroundColor('#ADD8E6')
-    //.layoutWeight(this.weight[1])
+
     // .key(this.componentKey)
 
   }
@@ -172,75 +171,72 @@ struct FlexAlignSelfPage001 {
     .width('33%')
     .height(200)
     .backgroundColor('#ADD8E6')
-    //.layoutWeight(this.weight[1])
+
     // .key(this.componentKey)
 
   }
 
   @Styles commonStyleEasy2(){
     .width('33%')
-    .height(200)
     // .margin({top:260})
     .backgroundColor('#ADD8E6')
-    //.layoutWeight(this.weight[1])
+
     // .key(this.componentKey)
 
   }
 
   @Styles commonStyle3(){
     .width('33%')
-    .height(220)
+    .height(200)
     // .margin({top:260})
     .backgroundColor('#98FB98')
-    //.layoutWeight(this.weight[2])
+
     // .key(this.componentKey)
 
   }
 
   @Styles tabStyle3(){
     .width('33%')
-    .height(220)
+    .height(200)
     .backgroundColor('#98FB98')
-    //.layoutWeight(this.weight[2])
+
     // .key(this.componentKey)
 
   }
 
   @Styles commonStyleEasy3(){
     .width('33%')
-    .height(220)
     // .margin({top:260})
     .backgroundColor('#98FB98')
-    //.layoutWeight(this.weight[2])
+
     // .key(this.componentKey)
 
   }
 
   @Styles commonStyle4(){
     .width('33%')
-    .height(240)
+    .height(200)
     // .margin({top:260})
     .backgroundColor('#FA8072')
-    //.layoutWeight(this.weight[3])
+
     // .key(this.componentKey)
 
   }
 
   @Styles tabStyle4(){
     .width('33%')
-    .height(240)
+    .height(200)
     .backgroundColor('#FA8072')
-    //.layoutWeight(this.weight[3])
+
     // .key(this.componentKey)
 
   }
 
   @Styles commonStyleEasy4(){
     .width('33%')
-    .height(240)
     // .margin({top:260})
     .backgroundColor('#FA8072')
-    //.layoutWeight(this.weight[3])
+
     // .key(this.componentKey)
 
   }
