@@ -175,6 +175,7 @@
     "TestAbility/pages/click/ClickPage002",
 
     "TestAbility/pages/flex/FlexAlignContentPage001",
-    "TestAbility/pages/flex/FlexAlignItemsPage001"
+    "TestAbility/pages/flex/FlexAlignItemsPage001",
+    "TestAbility/pages/flex/FlexAlignSelfPage001"
   ]
 }

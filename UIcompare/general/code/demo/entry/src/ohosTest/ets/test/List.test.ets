@@ -209,6 +209,7 @@ import ClickTest003 from './generalEvents/ClickTest003.test'
 //flex
 import FlexAlignContentTest001 from './generalAttributes/Flex/FlexAlignContentTest001.test'
 import FlexAlignItemsTest001 from './generalAttributes/Flex/FlexAlignItemsTest001.test'
+import FlexAlignSelfTest001 from './generalAttributes/Flex/FlexAlignSelfTest001.test'
 
 export default function testsuite() {
 
@@ -392,5 +393,5 @@ export default function testsuite() {
 
   FlexAlignContentTest001()
   FlexAlignItemsTest001()
-
+  FlexAlignSelfTest001()
 }
