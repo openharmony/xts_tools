@@ -172,6 +172,8 @@
     "TestAbility/pages/ResponseRegion/ResponseRegionPage008",
 
     "TestAbility/pages/click/ClickPage001",
-    "TestAbility/pages/click/ClickPage002"
+    "TestAbility/pages/click/ClickPage002",
+
+    "TestAbility/pages/flex/FlexAlignContentPage001"
   ]
 }
