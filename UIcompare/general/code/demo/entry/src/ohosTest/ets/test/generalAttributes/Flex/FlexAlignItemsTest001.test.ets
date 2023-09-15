@@ -13,53 +13,77 @@
  * limitations under the License.
  */
 import CommonTest from '../../common/CommonTest';
+import Utils from '../../model/Utils'
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
 import Settings from '../../model/Settings'
 import windowSnap from '../../model/snapShot'
 import Logger from '../../model/Logger'
 import { AttrsManager } from '../../model/AttrsManager';
-// @ts-ignore
+import {
+  UiComponent,
+  UiDriver,
+  Component,
+  Driver,
+  UiWindow,
+  ON,
+  BY,
+  MatchPattern,
+  DisplayRotation,
+  ResizeDirection,
+  WindowMode,
+  PointerMatrix
+} from '@ohos.UiTest';
 
-//测试通用属性-overlay
-export default function VisibilityTest01() {
-
-  //supportView包含了所有测试组件，根据当前通用数据所适用的组件进行修改,遍历生成case
-  // this param is required.
-
+export default function FlexAlignItemsTest001() {
+//共64*6=384
   let supportView = [
     'AlphabetIndexer', 'Blank', 'Button', 'Checkbox', 'CheckboxGroup', 'DataPanel', 'DatePicker',
-    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem', 'Navigation',
-    'NavRouter', 'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
-    'Search', 'Select', 'Slider', 'Text', 'TextArea', 'TextInput',
-    'TextPicker', 'TextTimer', 'TimePicker', 'Toggle', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
-    'FlowItem','GridCol', 'GridRow', 'Grid', 'List', 'ListItem', 'ListItemGroup', 'Navigator', 'Panel',
+    'Divider', 'Gauge', 'Image', 'ImageAnimator','Marquee', 'Menu', 'MenuItem','MenuItemGroup',
+    'Progress', 'QRCode', 'Radio', 'Rating', 'ScrollBar',
+    'Search', 'Select', 'Slider', 'Text', 'TextArea',
+    'TextInput','TextPicker', 'TextTimer', 'TimePicker', 'Badge', 'Column', 'ColumnSplit', 'Counter', 'Flex',
+    'GridRow', 'Grid', 'List', 'Navigator', 'Panel',
     'RelativeContainer','Row', 'RowSplit', 'Scroll', 'SideBarContainer', 'Stack', 'Swiper', 'Tabs',
-    'TabContent', 'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
-    'Canvas','XComponent'
+    'WaterFlow', 'Video', 'Circle', 'Ellipse', 'Line', 'Polyline', 'Polygon', 'Path', 'Rect', 'Shape',
+    'Canvas','XComponent','Toggle1', 'Toggle2','Toggle3','NavRouter','Navigation'
   ]
 
   //页面配置信息
   // this param is required.
   let pageConfig = {
-    testName: 'VisibilityTest01', //截图命名的一部分
-    pageUrl: 'TestAbility/pages/visibility/visibility001' //用于设置窗口页面
+    testName: 'FlexAlignItemsTest001', //截图命名的一部分
+    pageUrl: "TestAbility/pages/flex/FlexAlignItemsPage001" //用于设置窗口页面
   }
 
   //要测试的属性值，遍历生成case
   // this param is required.
-  let testValues = [
+  let testValues =[
     {
-      describe: 'Visibility_Hidden', //截图命名的一部分
-      setValue: Visibility.Hidden, //要测试的属性值
+      describe: 'Auto',
+      setValue: { alignItems: ItemAlign.Auto },
     },
     {
-      describe: 'Visibility_Visible', //截图命名的一部分
-      setValue: Visibility.Visible, //要测试的属性值
+      describe: 'Start',
+      setValue: { alignItems: ItemAlign.Start },
     },
     {
-      describe: 'Visibility_None', //截图命名的一部分
-      setValue: Visibility.None, //要测试的属性值
+      describe: 'Center',
+      setValue: { alignItems: ItemAlign.Center },
     },
+    {
+      describe: 'End',
+      setValue: { alignItems: ItemAlign.End },
+    },
+    {
+      describe: 'Stretch',
+      setValue: { alignItems: ItemAlign.Stretch},
+    },
+    {
+      describe: 'Baseline',
+      setValue: { alignItems: ItemAlign.Baseline },
+    }
+
+
   ]
 
   function sleep(time) {
@@ -67,12 +91,11 @@ export default function VisibilityTest01() {
   }
 
   //  create test suite
-  describe('VisibilityTest01', function () {
-
+  describe("FlexAlignItemsTest001", () => {
     beforeAll(async function () {
       console.info('beforeAll in1');
     })
-
+    //    create test cases by config.
     afterEach(async function (done) {
       if (Settings.windowClass == null) {
         return
@@ -89,11 +112,11 @@ export default function VisibilityTest01() {
       done()
     })
 
-    // create test cases by config.
-    CommonTest.initTest(pageConfig, supportView, testValues)
+    CommonTest.initTest1(pageConfig, supportView, testValues)
+
   })
 }
 
 export function create() {
-throw new Error('Function not implemented.');
+  throw new Error('Function not implemented.');
 }
