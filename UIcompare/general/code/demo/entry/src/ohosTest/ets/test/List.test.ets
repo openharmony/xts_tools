@@ -165,6 +165,23 @@ import WidthTest001 from './generalAttributes/size/WidthTest001.test'
 import WidthTest002 from './generalAttributes/size/WidthTest002.test'
 import HeightTest001 from './generalAttributes/size/HeightTest001.test'
 import HeightTest002 from './generalAttributes/size/HeightTest002.test'
+import ConstraintSizeTest001 from './generalAttributes/size/ConstraintSizeTest001.test'
+import MarginTest001 from './generalAttributes/size/MarginTest001.test'
+import MarginTest002 from './generalAttributes/size/MarginTest002.test'
+import MarginTest003 from './generalAttributes/size/MarginTest003.test'
+import MarginTest004 from './generalAttributes/size/MarginTest004.test'
+import MarginTest005 from './generalAttributes/size/MarginTest005.test'
+import MarginTest006 from './generalAttributes/size/MarginTest006.test'
+import MarginTest007 from './generalAttributes/size/MarginTest007.test'
+import MarginTest008 from './generalAttributes/size/MarginTest008.test'
+import PaddingTest001 from './generalAttributes/size/PaddingTest001.test'
+import PaddingTest002 from './generalAttributes/size/PaddingTest002.test'
+import PaddingTest003 from './generalAttributes/size/PaddingTest003.test'
+import PaddingTest004 from './generalAttributes/size/PaddingTest004.test'
+import PaddingTest005 from './generalAttributes/size/PaddingTest005.test'
+import PaddingTest006 from './generalAttributes/size/PaddingTest006.test'
+import SizeTest002 from './generalAttributes/size/SizeTest002.test'
+import SizeTest001 from './generalAttributes/size/SizeTest001.test'
 
 import AlignTest from './generalAttributes/loc/AlignTest.test'
 import AlignTest002 from './generalAttributes/loc/AlignTest002.test'
@@ -347,6 +364,23 @@ export default function testsuite() {
   WidthTest002()
   HeightTest001()
   HeightTest002()
+  ConstraintSizeTest001()
+  MarginTest001()
+  MarginTest002()
+  MarginTest003()
+  MarginTest004()
+  MarginTest005()
+  MarginTest006()
+  MarginTest007()
+  MarginTest008()
+  PaddingTest001()
+  PaddingTest002()
+  PaddingTest003()
+  PaddingTest004()
+  PaddingTest005()
+  PaddingTest006()
+  SizeTest001()
+  SizeTest002()
 
   ClickTest001()
   ClickTest002()
