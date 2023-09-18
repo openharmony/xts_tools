@@ -212,6 +212,10 @@ import FlexAlignItemsTest001 from './generalAttributes/Flex/FlexAlignItemsTest00
 import FlexAlignSelfTest001 from './generalAttributes/Flex/FlexAlignSelfTest001.test'
 import FlexBasisTest001 from './generalAttributes/Flex/FlexBasisTest001.test'
 import FlexBasisTest002 from './generalAttributes/Flex/FlexBasisTest002.test'
+import FlexBasisTest003 from './generalAttributes/Flex/FlexBasisTest003.test'
+import FlexBasisTest004 from './generalAttributes/Flex/FlexBasisTest004.test'
+import FlexDirectionTest001 from './generalAttributes/Flex/FlexDirectionTest001.test'
+import FlexDisplayPriority001 from './generalAttributes/Flex/FlexDisplayPriorityTest001.test'
 
 export default function testsuite() {
 
@@ -398,4 +402,8 @@ export default function testsuite() {
   FlexAlignSelfTest001()
   FlexBasisTest001()
   FlexBasisTest002()
+  FlexBasisTest003()
+  FlexBasisTest004()
+  FlexDirectionTest001()
+  FlexDisplayPriority001()
 }

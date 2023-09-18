@@ -179,6 +179,9 @@
     "TestAbility/pages/flex/FlexAlignSelfPage001",
     "TestAbility/pages/flex/FlexBasisPage001",
     "TestAbility/pages/flex/FlexBasisPage002",
-    "TestAbility/pages/flex/FlexBasisPage003"
+    "TestAbility/pages/flex/FlexBasisPage003",
+    "TestAbility/pages/flex/FlexBasisPage004",
+    "TestAbility/pages/flex/FlexDirectionPage001",
+    "TestAbility/pages/flex/FlexDisplayPriorityPage001"
   ]
 }
