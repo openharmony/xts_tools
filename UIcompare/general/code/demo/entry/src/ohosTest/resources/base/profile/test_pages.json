@@ -182,6 +182,9 @@
     "TestAbility/pages/flex/FlexBasisPage003",
     "TestAbility/pages/flex/FlexBasisPage004",
     "TestAbility/pages/flex/FlexDirectionPage001",
-    "TestAbility/pages/flex/FlexDisplayPriorityPage001"
+    "TestAbility/pages/flex/FlexDisplayPriorityPage001",
+    "TestAbility/pages/flex/FlexGrowPage001",
+    "TestAbility/pages/flex/FlexGrowPage002",
+    "TestAbility/pages/flex/FlexGrowPage003"
   ]
 }
