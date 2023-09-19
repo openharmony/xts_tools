@@ -185,6 +185,9 @@
     "TestAbility/pages/flex/FlexDisplayPriorityPage001",
     "TestAbility/pages/flex/FlexGrowPage001",
     "TestAbility/pages/flex/FlexGrowPage002",
-    "TestAbility/pages/flex/FlexGrowPage003"
+    "TestAbility/pages/flex/FlexGrowPage003",
+    "TestAbility/pages/flex/FlexJustifyContentPage001",
+    "TestAbility/pages/flex/FlexLayoutWeightPage001",
+    "TestAbility/pages/flex/FlexLayoutWeightPage002"
   ]
 }

@@ -219,6 +219,9 @@ import FlexDisplayPriority001 from './generalAttributes/Flex/FlexDisplayPriority
 import FlexGrowTest001 from './generalAttributes/Flex/FlexGrowTest001.test'
 import FlexGrowTest002 from './generalAttributes/Flex/FlexGrowTest002.test'
 import FlexGrowTest003 from './generalAttributes/Flex/FlexGrowTest003.test'
+import FlexJustifyContentTest001 from './generalAttributes/Flex/FlexJustifyContentTest001.test'
+import FlexLayoutWeight001 from './generalAttributes/Flex/FlexLayoutWeight001.test'
+import FlexLayoutWeight002 from './generalAttributes/Flex/FlexLayoutWeight002.test'
 
 export default function testsuite() {
 
@@ -412,4 +415,7 @@ export default function testsuite() {
   FlexGrowTest001()
   FlexGrowTest002()
   FlexGrowTest003()
+  FlexJustifyContentTest001()
+  FlexLayoutWeight001()
+  FlexLayoutWeight002()
 }
