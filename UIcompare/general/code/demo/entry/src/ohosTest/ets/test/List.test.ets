@@ -228,6 +228,7 @@ import FlexShrinkTest001 from './generalAttributes/Flex/FlexShrinkTest001.test'
 import FlexShrinkTest002 from './generalAttributes/Flex/FlexShrinkTest002.test'
 import FlexShrinkTest003 from './generalAttributes/Flex/FlexShrinkTest003.test'
 import FlexShrinkTest004 from './generalAttributes/Flex/FlexShrinkTest004.test'
+import FlexWrapTest001 from './generalAttributes/Flex/FlexWrapTest001.test'
 
 export default function testsuite() {
 
@@ -284,10 +285,6 @@ export default function testsuite() {
   RotateTest02()
   ScaleTest02()
   TranslateTest02()
-
-  ClipTest01()
-  ClipTest02()
-  MaskTest01()
 
   OverlayTest01()
   OverlayTest02()
@@ -382,6 +379,10 @@ export default function testsuite() {
   ResponseRegionTest002()
   ResponseRegionTest003()
   ResponseRegionTest004()
+  ResponseRegionTest005()
+  ResponseRegionTest006()
+  ResponseRegionTest007()
+  ResponseRegionTest008()
 
   WidthTest001()
   WidthTest002()
@@ -430,4 +431,5 @@ export default function testsuite() {
   FlexShrinkTest002()
   FlexShrinkTest003()
   FlexShrinkTest004()
+  FlexWrapTest001()
 }

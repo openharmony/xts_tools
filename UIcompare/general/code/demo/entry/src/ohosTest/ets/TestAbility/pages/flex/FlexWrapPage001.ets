@@ -13,8 +13,6 @@
  * limitations under the License.
  */
 
-
-
 import AttrsManager from '../../../test/model/AttrsManager'
 import web_webview from '@ohos.web.webview'
 import router from '@ohos.router';
@@ -46,10 +44,9 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct FlexBasisPage003 {
+struct FlexWrapPage001 {
   controller: web_webview.WebviewController = new web_webview.WebviewController()
-  @State _flex:  FlexOptions = { wrap: FlexWrap.NoWrap };
-  @State _generalAttr: number  = 0; //通用属性初始值
+  @State _generalAttr: FlexOptions = { wrap: FlexWrap.NoWrap }; //通用属性初始值
   @State targetView: string = router.getParams() ? router.getParams()['view']['targetView'] : "" //当前测试的组件
   @State componentKey: string = router.getParams() ? router.getParams()['view']['componentKey'] : "" //组件唯一标识
   @State formId:number = 0;
@@ -133,34 +130,30 @@ struct FlexBasisPage003 {
 
   @Styles commonStyle1(){
     .width('33%')
-    .height(220)
+    .height(200)
     // .margin({top:260})
     .backgroundColor('#FFC0CB')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
-
+    
   }
 
   @Styles tabStyle1(){
     .width('33%')
-    .height(220)
+    .height(200)
     .backgroundColor('#FFC0CB')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
-
+    
   }
 
   @Styles commonStyleEasy1(){
     .width('33%')
-    .height(220)
     // .margin({top:260})
     .backgroundColor('#FFC0CB')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
-
+    
   }
 
   @Styles commonStyle2(){
@@ -168,7 +161,6 @@ struct FlexBasisPage003 {
     .height(200)
     // .margin({top:260})
     .backgroundColor('#ADD8E6')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
 
@@ -178,7 +170,6 @@ struct FlexBasisPage003 {
     .width('33%')
     .height(200)
     .backgroundColor('#ADD8E6')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
 
@@ -186,10 +177,8 @@ struct FlexBasisPage003 {
 
   @Styles commonStyleEasy2(){
     .width('33%')
-    .height(200)
     // .margin({top:260})
     .backgroundColor('#ADD8E6')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
 
@@ -200,7 +189,6 @@ struct FlexBasisPage003 {
     .height(200)
     // .margin({top:260})
     .backgroundColor('#98FB98')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
 
@@ -210,7 +198,6 @@ struct FlexBasisPage003 {
     .width('33%')
     .height(200)
     .backgroundColor('#98FB98')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
 
@@ -218,10 +205,8 @@ struct FlexBasisPage003 {
 
   @Styles commonStyleEasy3(){
     .width('33%')
-    .height(200)
     // .margin({top:260})
     .backgroundColor('#98FB98')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
 
@@ -229,10 +214,9 @@ struct FlexBasisPage003 {
 
   @Styles commonStyle4(){
     .width('33%')
-    .height(180)
+    .height(200)
     // .margin({top:260})
     .backgroundColor('#FA8072')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
 
@@ -240,9 +224,8 @@ struct FlexBasisPage003 {
 
   @Styles tabStyle4(){
     .width('33%')
-    .height(180)
+    .height(200)
     .backgroundColor('#FA8072')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
 
@@ -250,10 +233,8 @@ struct FlexBasisPage003 {
 
   @Styles commonStyleEasy4(){
     .width('33%')
-    .height(180)
     // .margin({top:260})
     .backgroundColor('#FA8072')
-    .flexBasis(this._generalAttr)
 
     // .key(this.componentKey)
 
@@ -293,7 +274,7 @@ struct FlexBasisPage003 {
   // @ts-nocheck
   build() {
     Column() {
-      Flex(this._flex) {
+      Flex(this._generalAttr) {
         if (this.targetView == 'AlphabetIndexer') {
           AlphabetIndexer({ arrayValue: ['A', 'B', 'C'], selected: 0 })
             .commonStyle1()
@@ -498,20 +479,20 @@ struct FlexBasisPage003 {
           TextClock()
             .commonStyle1()
         } else if (this.targetView == 'TextInput') {
-          TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
-            .placeholderFont({ size: 14, weight: 400 })
-            .width(200)
-            .height(40)
-            .margin(20)
-            .fontSize(12)
-            .fontColor(Color.Black)
-            .inputFilter('[a-z]', (e) => {
-              console.log(JSON.stringify(e))
-            })
-            .onChange((value: string) => {
-              this.text = value
-            })
-            .commonStyleEasy1()
+            TextInput({ text: this.text, placeholder: 'input your word...', controller: this.controller3 })
+              .placeholderFont({ size: 14, weight: 400 })
+              .width(200)
+              .height(40)
+              .margin(20)
+              .fontSize(12)
+              .fontColor(Color.Black)
+              .inputFilter('[a-z]', (e) => {
+                console.log(JSON.stringify(e))
+              })
+              .onChange((value: string) => {
+                this.text = value
+              })
+              .commonStyleEasy1()
         } else if (this.targetView == 'TextPicker') {
           TextPicker({ range: ['apple1', 'orange2', 'peach3', 'grape4'] })
             .commonStyle1()
@@ -533,8 +514,8 @@ struct FlexBasisPage003 {
             .width(120)
             .height(60)
             .commonStyleEasy1()
-        }
-        else if (this.targetView == 'Toggle2') {
+          }
+          else if (this.targetView == 'Toggle2') {
           Toggle({ type: ToggleType.Checkbox, isOn: false })
             .selectedColor('#007DFF')
             .switchPointColor('#FFFFFF')
@@ -544,8 +525,8 @@ struct FlexBasisPage003 {
             .width(120)
             .height(60)
             .commonStyleEasy1()
-        }
-        else if (this.targetView == 'Toggle3') {
+          }
+          else if (this.targetView == 'Toggle3') {
           Toggle({ type: ToggleType.Button, isOn: false })
             .selectedColor('#007DFF')
             .switchPointColor('#FFFFFF')
@@ -555,7 +536,7 @@ struct FlexBasisPage003 {
             .width(120)
             .height(60)
             .commonStyleEasy1()
-        }
+          }
         else if (this.targetView == 'Badge') {
           Badge({
             value: 'New',
@@ -960,12 +941,12 @@ struct FlexBasisPage003 {
             .border({width:2})
             .commonStyleEasy1()
         } else if (this.targetView == 'Rect') {
-          Rect()
-            .radius(20)
-            .height(40)
-            .stroke(Color.Transparent)
-            .commonStyleEasy1()
-            .margin({top:50})
+            Rect()
+              .radius(20)
+              .height(40)
+              .stroke(Color.Transparent)
+              .commonStyleEasy1()
+              .margin({top:50})
         } else if (this.targetView == 'Shape') {
           Shape() {
             Rect().width('80%').height('70%')
