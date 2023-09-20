@@ -228,6 +228,7 @@ import FlexShrinkTest001 from './generalAttributes/Flex/FlexShrinkTest001.test'
 import FlexShrinkTest002 from './generalAttributes/Flex/FlexShrinkTest002.test'
 import FlexShrinkTest003 from './generalAttributes/Flex/FlexShrinkTest003.test'
 import FlexShrinkTest004 from './generalAttributes/Flex/FlexShrinkTest004.test'
+import FlexWrapTest001 from './generalAttributes/Flex/FlexWrapTest001.test'
 
 export default function testsuite() {
 
@@ -430,4 +431,5 @@ export default function testsuite() {
   FlexShrinkTest002()
   FlexShrinkTest003()
   FlexShrinkTest004()
+  FlexWrapTest001()
 }

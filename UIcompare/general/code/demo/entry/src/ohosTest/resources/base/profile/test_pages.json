@@ -194,6 +194,7 @@
     "TestAbility/pages/flex/FlexShrinkPage001",
     "TestAbility/pages/flex/FlexShrinkPage002",
     "TestAbility/pages/flex/FlexShrinkPage003",
-    "TestAbility/pages/flex/FlexShrinkPage004"
+    "TestAbility/pages/flex/FlexShrinkPage004",
+    "TestAbility/pages/flex/FlexWrapPage001"
   ]
 }
