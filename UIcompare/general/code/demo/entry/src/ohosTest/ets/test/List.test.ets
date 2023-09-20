@@ -225,6 +225,9 @@ import FlexLayoutWeight002 from './generalAttributes/Flex/FlexLayoutWeight002.te
 import FlexLayoutWeight003 from './generalAttributes/Flex/FlexLayoutWeight003.test'
 import FlexLayoutWeight004 from './generalAttributes/Flex/FlexLayoutWeight004.test'
 import FlexShrinkTest001 from './generalAttributes/Flex/FlexShrinkTest001.test'
+import FlexShrinkTest002 from './generalAttributes/Flex/FlexShrinkTest002.test'
+import FlexShrinkTest003 from './generalAttributes/Flex/FlexShrinkTest003.test'
+import FlexShrinkTest004 from './generalAttributes/Flex/FlexShrinkTest004.test'
 
 export default function testsuite() {
 
@@ -424,4 +427,7 @@ export default function testsuite() {
   FlexLayoutWeight003()
   FlexLayoutWeight004()
   FlexShrinkTest001()
+  FlexShrinkTest002()
+  FlexShrinkTest003()
+  FlexShrinkTest004()
 }

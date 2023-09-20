@@ -191,6 +191,9 @@
     "TestAbility/pages/flex/FlexLayoutWeightPage002",
     "TestAbility/pages/flex/FlexLayoutWeightPage003",
     "TestAbility/pages/flex/FlexLayoutWeightPage004",
-    "TestAbility/pages/flex/FlexShrinkPage001"
+    "TestAbility/pages/flex/FlexShrinkPage001",
+    "TestAbility/pages/flex/FlexShrinkPage002",
+    "TestAbility/pages/flex/FlexShrinkPage003",
+    "TestAbility/pages/flex/FlexShrinkPage004"
   ]
 }
