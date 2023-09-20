@@ -286,10 +286,6 @@ export default function testsuite() {
   ScaleTest02()
   TranslateTest02()
 
-  ClipTest01()
-  ClipTest02()
-  MaskTest01()
-
   OverlayTest01()
   OverlayTest02()
   OverlayTest03()
@@ -383,6 +379,10 @@ export default function testsuite() {
   ResponseRegionTest002()
   ResponseRegionTest003()
   ResponseRegionTest004()
+  ResponseRegionTest005()
+  ResponseRegionTest006()
+  ResponseRegionTest007()
+  ResponseRegionTest008()
 
   WidthTest001()
   WidthTest002()

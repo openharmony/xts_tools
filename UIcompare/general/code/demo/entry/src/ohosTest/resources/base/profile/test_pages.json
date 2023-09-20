@@ -102,6 +102,10 @@
     "TestAbility/pages/zindexAndfont/fontSize04",
     "TestAbility/pages/zindexAndfont/fontStyle01",
     "TestAbility/pages/zindexAndfont/fontStyle02",
+    "TestAbility/pages/zindexAndfont/fontWeight01",
+    "TestAbility/pages/zindexAndfont/fontWeight02",
+    "TestAbility/pages/zindexAndfont/fontWeight03",
+
     "TestAbility/pages/touchEvent/touchEvent001",
 
     "TestAbility/pages/border/BorderPage001",
@@ -134,6 +138,7 @@
     "TestAbility/pages/lay/AspectRatioPage004",
     "TestAbility/pages/lay/DisplayPriorityPage001",
     "TestAbility/pages/lay/DisplayPriorityPage002",
+    "TestAbility/pages/lay/DisplayPriorityPage003",
 
     "TestAbility/pages/size/WidthPage001",
     "TestAbility/pages/size/WidthPage002",
