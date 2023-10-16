@@ -24,7 +24,11 @@
     "rom": "~256KB",
     "ram": "0KB",
     "deps": {
-      "components": [],
+      "components": [
+        "init",
+        "c_utils",
+        "device_attest"
+      ],
       "third_party": []
     },
     "build": {
