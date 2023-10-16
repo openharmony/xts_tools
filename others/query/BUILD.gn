@@ -11,21 +11,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import("//test/xts/tools/build/suite.gni")
 import("//build/ohos.gni")
 import("//test/xts/device_attest/build/devattestconfig.gni")
+import("//test/xts/tools/build/suite.gni")
 
 ohos_executable("queryStandard") {
   sources = [ "src/QueryMainStandard.cpp" ]
 
-  include_dirs = [
-    "src",
-  ]
+  include_dirs = [ "src" ]
 
-  external_deps = [ 
-    "init:libbegetutil",
+  external_deps = [
     "c_utils:utils",
     "device_attest:devattest_sdk",
+    "init:libbegetutil",
   ]
 
   subsystem_name = "xts"
@@ -35,9 +33,7 @@ ohos_executable("queryStandard") {
 ohos_copy("cpQueStan") {
   sources = [ "$root_out_dir/xts/tools/queryStandard" ]
   outputs = [ "$root_out_dir/suites/${XTS_SUITENAME}/config" ]
-  deps = [
-    ":queryStandard",
-  ]
+  deps = [ ":queryStandard" ]
 }
 
 group("libQuery") {
