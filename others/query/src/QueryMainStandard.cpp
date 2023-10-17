@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020-2021 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,19 +12,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-#include "parameter.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <securec.h>
 #include <string.h>
+
+#include "parameter.h"
 #include "devattest_client.h"
-//#include "attest_entry.h"
+
+const int UDIDSIZE_LEN = 64;
 
 using namespace OHOS::DevAttest;
 using namespace OHOS;
 
-void ObtainProductParms()
+void ObtainProductParms(void)
 {
     const char *bootloaderVersion = GetBootloaderVersion();
     if (bootloaderVersion != nullptr) {
@@ -41,14 +42,14 @@ void ObtainProductParms()
         printf("The AbiList is [%s]\n", abiList);
     }
 
-    int sdkApiLevel = GetSdkApiVersion();
-    if (sdkApiLevel != 0) {
-        printf("The sdkApiLevel is [%d]\n", sdkApiLevel);
+    int sdkApiVersion = GetSdkApiVersion();
+    if (sdkApiVersion != 0) {
+        printf("The SdkApiVersion is [%d]\n", sdkApiVersion);
     }
 
-    int firstApiLevel = GetFirstApiVersion();
-    if (firstApiLevel != 0) {
-        printf("The firstApiLevel is [%d]\n", firstApiLevel);
+    int firstApiVersion = GetFirstApiVersion();
+    if (firstApiVersion != 0) {
+        printf("The firstApiVersion is [%d]\n", firstApiVersion);
     }
 
     const char *incrementalVersion = GetIncrementalVersion();
@@ -85,6 +86,12 @@ void ObtainProductParms()
     if (buildRootHash != nullptr) {
         printf("The BuildRootHash is [%s]\n", buildRootHash);
     }	
+
+    char udid[UDIDSIZE_LEN + 1] = { 0 };
+    int ret = GetDevUdid(udid, UDIDSIZE_LEN + 1);
+    if (ret != 0) {
+        printf("The DevUdid is [%s]\n", udid);
+    }
 
     AttestResultInfo attestResultInfo;
     (void)DelayedSingleton<DevAttestClient>::GetInstance()->GetAttestStatus(attestResultInfo);
@@ -128,6 +135,11 @@ int main()
     const char *softwareModel = GetSoftwareModel();
     if (softwareModel != nullptr) {
         printf("The softwareModel is [%s]\n", softwareModel);
+    }
+
+    const char *productModel = GetProductModel();
+    if (productModel != nullptr) {
+        printf("The productModel is [%s]\n", productModel);
     }
 
     const char *hardWareModel = GetHardwareModel();
