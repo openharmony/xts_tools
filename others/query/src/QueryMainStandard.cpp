@@ -89,7 +89,7 @@ void ObtainProductParms(void)
 
     char udid[UDIDSIZE_LEN + 1] = { 0 };
     int ret = GetDevUdid(udid, UDIDSIZE_LEN + 1);
-    if (ret != 0) {
+    if (ret == 0) {
         printf("The DevUdid is [%s]\n", udid);
     }
 
