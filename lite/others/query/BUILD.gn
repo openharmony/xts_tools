@@ -11,21 +11,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import("//test/xts/tools/lite/build/suite_lite.gni")
-import("//test/xts/tools/lite/build/common.gni")
 import("//build/lite/config/component/lite_component.gni")
+import("//test/xts/tools/lite/build/common.gni")
+import("//test/xts/tools/lite/build/suite_lite.gni")
 
 executable("querySmall") {
   output_extension = "bin"
-  sources = [ "src/QueryMainSmall .cpp" ]
+  sources = [ "src/QueryMainSmall.cpp" ]
 
   include_dirs = [
     "./src/QueryMainSmall.cpp",
     "//base/startup/init/interfaces/innerkits/include/syspara",
-    "//test/xts/device_attest_lite/interfaces/innerkits", 
+    "//test/xts/device_attest_lite/interfaces/innerkits",
   ]
 
-  deps = [ 
+  deps = [
     "//base/startup/init/interfaces/innerkits:libbegetutil",
     "//test/xts/device_attest_lite/framework:devattest_client",
   ]
@@ -48,8 +48,8 @@ copy("query_copy") {
 group("libQuery") {
   if (ohos_kernel_type == "liteos_a" || ohos_kernel_type == "linux") {
     deps = [
-      ":query_copy",
       ":querySmall",
+      ":query_copy",
     ]
   }
 }
