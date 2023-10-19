@@ -1,0 +1,1442 @@
+[
+    {
+        "name": "ability_ability_base",
+        "buildTarget": "fa"
+    },
+    {
+        "name": "ability_ability_runtime",
+        "buildTarget": "ability"
+    },
+    {
+        "name": "ability_dmsfwk",
+        "buildTarget": "ability"
+    },
+    {
+        "name": "ability_form_fwk",
+        "buildTarget": "ability"
+    },
+    {
+        "name": "ability_idl_tool",
+        "buildTarget": "ability"
+    },
+    {
+        "name": "accessibility",
+        "buildTarget": "barrierfree"
+    },
+    {
+        "name": "account_os_account",
+        "buildTarget": "account"
+    },
+    {
+        "name": "arkcompiler_ets_frontend",
+        "buildTarget": "commonlibrary"
+    },
+    {
+        "name": "arkcompiler_ets_runtime",
+        "buildTarget": "commonlibrary"
+    },
+    {
+        "name": "arkcompiler_runtime_core",
+        "buildTarget": "commonlibrary"
+    },
+    {
+        "name": "arkcompiler_toolchain",
+        "buildTarget": "commonlibrary"
+    },
+    {
+        "name": "arkui_ace_engine",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "arkui_napi",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "base_location",
+        "buildTarget": "test/xts/acts/location:location"
+    },
+    {
+        "name": "build",
+        "buildTarget": "xts_acts"
+    },
+    {
+        "name": "bundlemanager_bundle_framework",
+        "buildTarget": "appexecfwk"
+    },
+    {
+        "name": "commonlibrary_c_utils",
+        "buildTarget": "commonlibrary"
+    },
+    {
+        "name": "commonlibrary_ets_utils",
+        "buildTarget": "commonlibrary"
+    },
+    {
+        "name": "communication_bluetooth",
+        "buildTarget": "communication"
+    },
+    {
+        "name": "communication_dsoftbus",
+        "buildTarget": "communication"
+    },
+    {
+        "name": "communication_ipc",
+        "buildTarget": "communication"
+    },
+    {
+        "name": "communication_netmanager_base",
+        "buildTarget": "communication"
+    },
+    {
+        "name": "communication_netmanager_ext",
+        "buildTarget": "telephonyjstest"
+    },
+    {
+        "name": "communication_netstack",
+        "buildTarget": "telephonyjstest"
+    },
+    {
+        "name": "communication_nfc",
+        "buildTarget": "communication"
+    },
+    {
+        "name": "communication_wifi",
+        "buildTarget": "communication"
+    },
+    {
+        "name": "communication_wifi_aware",
+        "buildTarget": "communication"
+    },
+    {
+        "name": "customization_config_policy",
+        "buildTarget": "global"
+    },
+    {
+        "name": "customization_enterprise_device_management",
+        "buildTarget": "global"
+    },
+    {
+        "name": "developtools_ace_ets2bundle",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "developtools_ace_js2bundle",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "developtools_bytrace",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "developtools_global_resource_tool",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "developtools_hapsigner",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "developtools_hdc",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "developtools_hiperf",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "developtools_integration_verification",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "developtools_packing_tool",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "developtools_profiler",
+        "buildTarget": "hiviewdfxtestacts"
+    },
+    {
+        "name": "developtools_syscap_codec",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "deviceprofile_device_info_manager",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "distributeddatamgr_data_object",
+        "buildTarget": "distributeddatamgr"
+    },
+    {
+        "name": "distributeddatamgr_data_share",
+        "buildTarget": "distributeddatamgr"
+    },
+    {
+        "name": "distributeddatamgr_datamgr_service",
+        "buildTarget": "distributeddatamgr"
+    },
+    {
+        "name": "distributeddatamgr_file",
+        "buildTarget": "distributeddatamgr"
+    },
+    {
+        "name": "distributeddatamgr_kv_store",
+        "buildTarget": "distributeddatamgr"
+    },
+    {
+        "name": "distributeddatamgr_pasteboard",
+        "buildTarget": "distributeddatamgr"
+    },
+    {
+        "name": "distributeddatamgr_preferences",
+        "buildTarget": "distributeddatamgr"
+    },
+    {
+        "name": "distributeddatamgr_relational_store",
+        "buildTarget": "distributeddatamgr"
+    },
+    {
+        "name": "distributeddatamgr_udmf",
+        "buildTarget": "distributeddatamgr"
+    },
+    {
+        "name": "filemanagement_app_file_service",
+        "buildTarget": "test/xts/acts/stotage:storage"
+    },
+    {
+        "name": "filemanagement_dfs_service",
+        "buildTarget": "test/xts/acts/stotage:storage"
+    },
+    {
+        "name": "filemanagement_file_api",
+        "buildTarget": "test/xts/acts/stotage:storage"
+    },
+    {
+        "name": "filemanagement_storage_service",
+        "buildTarget": "test/xts/acts/stotage:storage"
+    },
+    {
+        "name": "filemanagement_user_file_service",
+        "buildTarget": "test/xts/acts/stotage:storage"
+    },
+    {
+        "name": "graphic_graphic_2d",
+        "buildTarget": "graphic"
+    },
+    {
+        "name": "hiviewdfx_faultloggerd",
+        "buildTarget": "hiviewdfxtestacts"
+    },
+    {
+        "name": "hiviewdfx_hiappevent",
+        "buildTarget": "hiviewdfxtestacts"
+    },
+    {
+        "name": "hiviewdfx_hichecker",
+        "buildTarget": "hiviewdfxtestacts"
+    },
+    {
+        "name": "hiviewdfx_hicollie",
+        "buildTarget": "hiviewdfxtestacts"
+    },
+    {
+        "name": "hiviewdfx_hidumper",
+        "buildTarget": "hiviewdfxtestacts"
+    },
+    {
+        "name": "hiviewdfx_hilog",
+        "buildTarget": "hiviewdfxtestacts"
+    },
+    {
+        "name": "hiviewdfx_hisysevent",
+        "buildTarget": "hiviewdfxtestacts"
+    },
+    {
+        "name": "hiviewdfx_hitrace",
+        "buildTarget": "hiviewdfxtestacts"
+    },
+    {
+        "name": "hiviewdfx_hiview",
+        "buildTarget": "hiviewdfxtestacts"
+    },
+    {
+        "name": "inputmethod_imf",
+        "buildTarget": "test/xts/acts/inputmethod:inputmethod"
+    },
+    {
+        "name": "interface_sdk-js",
+        "buildTarget": "xts_acts"
+    },
+    {
+        "name": "msdp_device_status",
+        "buildTarget": "msdp"
+    },
+    {
+        "name": "multimedia_audio_framework",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "multimedia_av_session",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "multimedia_camera_framework",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "multimedia_histreamer",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "multimedia_image_framework",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "multimedia_medialibrary_standard",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "multimedia_player_framework",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "multimodalinput_input",
+        "buildTarget": "multimodalinput"
+    },
+    {
+        "name": "powermgr_battery_manager",
+        "buildTarget": "powermgr"
+    },
+    {
+        "name": "powermgr_battery_statistics",
+        "buildTarget": "powermgr"
+    },
+    {
+        "name": "powermgr_display_manager",
+        "buildTarget": "powermgr"
+    },
+    {
+        "name": "powermgr_power_manager",
+        "buildTarget": "powermgr"
+    },
+    {
+        "name": "powermgr_thermal_manager",
+        "buildTarget": "powermgr"
+    },
+    {
+        "name": "request_request",
+        "buildTarget": "test/xts/acts/request:request"
+    },
+    {
+        "name": "security_access_token",
+        "buildTarget": "security"
+    },
+    {
+        "name": "security_appverify",
+        "buildTarget": "security"
+    },
+    {
+        "name": "security_certificate_manager",
+        "buildTarget": "security"
+    },
+    {
+        "name": "security_crypto_framework",
+        "buildTarget": "security"
+    },
+    {
+        "name": "security_dataclassification",
+        "buildTarget": "security"
+    },
+    {
+        "name": "security_device_auth",
+        "buildTarget": "security"
+    },
+    {
+        "name": "security_device_security_level",
+        "buildTarget": "security"
+    },
+    {
+        "name": "security_huks",
+        "buildTarget": "security"
+    },
+    {
+        "name": "security_selinux_adapter",
+        "buildTarget": "security"
+    },
+    {
+        "name": "startup_appspawn",
+        "buildTarget": "startup"
+    },
+    {
+        "name": "startup_hvb",
+        "buildTarget": "startup"
+    },
+    {
+        "name": "startup_init",
+        "buildTarget": "startup"
+    },
+    {
+        "name": "telephony_call_manager",
+        "buildTarget": "telephonyjstest"
+    },
+    {
+        "name": "telephony_cellular_call",
+        "buildTarget": "telephonyjstest"
+    },
+    {
+        "name": "telephony_cellular_data",
+        "buildTarget": "telephonyjstest"
+    },
+    {
+        "name": "telephony_core_service",
+        "buildTarget": "telephonyjstest"
+    },
+    {
+        "name": "telephony_telephony_data",
+        "buildTarget": "telephonyjstest"
+    },
+    {
+        "name": "telephony_ril_adapter",
+        "buildTarget": "telephonyjstest"
+    },
+    {
+        "name": "telephony_sms_mms",
+        "buildTarget": "telephonyjstest"
+    },
+    {
+        "name": "telephony_state_registry",
+        "buildTarget": "telephonyjstest"
+    },
+    {
+        "name": "time_time_service",
+        "buildTarget": "time"
+    },
+    {
+        "name": "usb_usb_manager",
+        "buildTarget": "test/xts/acts/usb:usb"
+    },
+    {
+        "name": "web_webview",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "window_window_manager",
+        "buildTarget": "graphic"
+    },
+    {
+        "name": "xts_acts",
+        "buildTarget": "xts_acts"
+    },
+    {
+        "name": "xts_device_attest",
+        "buildTarget": "xts"
+    },
+    {
+        "name": "xts_tools",
+        "buildTarget": "xts_acts"
+    },
+    {
+        "name": "ai_neural_network_runtime",
+        "buildTarget": "ai"
+    },
+    {
+        "name": "applications_settings_data",
+        "buildTarget": "applications"
+    },
+    {
+        "name": "global_i18n",
+        "buildTarget": "global"
+    },
+    {
+        "name": "global_resource_management",
+        "buildTarget": "global"
+    },
+    {
+        "name": "global_timezone",
+        "buildTarget": "global"
+    },
+    {
+        "name": "hiviewdfx_blackbox",
+        "buildTarget": "hiviewdfxtestacts"
+    },
+    {
+        "name": "notification_common_event_service",
+        "buildTarget": "test/xts/acts/notification:notification"
+    },
+    {
+        "name": "notification_distributed_notification_service",
+        "buildTarget": "test/xts/acts/notification:notification"
+    },
+    {
+        "name": "notification_eventhandler",
+        "buildTarget": "test/xts/acts/notification:notification"
+    },
+    {
+        "name": "ostest_wukong",
+        "buildTarget": "wukong"
+    },
+    {
+        "name": "productdefine_common",
+        "buildTarget": "xts_acts"
+    },
+    {
+        "name": "resourceschedule_background_task_mgr",
+        "buildTarget": "resourceschedule"
+    },
+    {
+        "name": "resourceschedule_device_usage_statistics",
+        "buildTarget": "resourceschedule"
+    },
+    {
+        "name": "resourceschedule_memmgr",
+        "buildTarget": "resourceschedule"
+    },
+    {
+        "name": "resourceschedule_resource_schedule_service",
+        "buildTarget": "resourceschedule"
+    },
+    {
+        "name": "resourceschedule_work_scheduler",
+        "buildTarget": "resourceschedule"
+    },
+    {
+        "name": "sensors_miscdevice",
+        "buildTarget": "sensors"
+    },
+    {
+        "name": "sensors_sensor",
+        "buildTarget": "sensors"
+    },
+    {
+        "name": "sensors_start",
+        "buildTarget": "sensors"
+    },
+    {
+        "name": "systemabilitymgr_safwk",
+        "buildTarget": "ability"
+    },
+    {
+        "name": "systemabilitymgr_samgr",
+        "buildTarget": "ability"
+    },
+    {
+        "name": "testfwk_arkxtest",
+        "buildTarget": "testfwk"
+    },
+    {
+        "name": "testfwk_xdevice",
+        "buildTarget": "xts"
+    },
+    {
+        "name": "theme_screenlock_mgr",
+        "buildTarget": "theme"
+    },
+    {
+        "name": "theme_wallpaper_mgr",
+        "buildTarget": "theme"
+    },
+    {
+        "name": "update_packaging_tools",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "update_sys_installer",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "useriam_face_auth",
+        "buildTarget": "useriam"
+    },
+    {
+        "name": "useriam_pin_auth",
+        "buildTarget": "useriam"
+    },
+    {
+        "name": "useriam_user_auth_framework",
+        "buildTarget": "useriam"
+    },
+    {
+        "name": "commonlibrary_memory_utils",
+        "buildTarget": "commonlibrary"
+    },
+    {
+        "name": "utils_system_resources",
+        "buildTarget": "global"
+    },
+    {
+        "name": "arkui_ui_appearance",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "communication_dhcp",
+        "buildTarget": "communication"
+    },
+    {
+        "name": "multimedia_av_codec",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "print_print_fwk",
+        "buildTarget": "applications"
+    },
+    {
+        "name": "resourceschedule_device_standby",
+        "buildTarget": "resourceschedule"
+    },
+    {
+        "name": "resourceschedule_qos_manager",
+        "buildTarget": "resourceschedule"
+    },
+    {
+        "name": "useriam_fingerprint_auth",
+        "buildTarget": "useriam"
+    },
+    {
+        "name": "ai_intelligent_voice_framework",
+        "buildTarget": "ai"
+    },
+    {
+        "name": "bundlemanager_bundle_tool",
+        "buildTarget": "appexecfwk"
+    },
+    {
+        "name": "bundlemanager_distributed_bundle_framework",
+        "buildTarget": "appexecfwk"
+    },
+    {
+        "name": "communication_bluetooth_service",
+        "buildTarget": "communication"
+    },
+    {
+        "name": "commonlibrary_rust_ylong_http",
+        "buildTarget": "commonlibrary"
+    },
+    {
+        "name": "commonlibrary_rust_ylong_runtime",
+        "buildTarget": "commonlibrary"
+    },
+    {
+        "name": "security_security_component_manager",
+        "buildTarget": "security"
+    },
+    {
+        "name": "security_dlp_permission_service",
+        "buildTarget": "security"
+    },
+    {
+        "name": "security_code_signature",
+        "buildTarget": "security"
+    },
+    {
+        "name": "third_party_musl",
+        "buildTarget": "commonlibrary"
+    },
+    {
+        "name": "third_party_tzdata",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_wpa_supplicant",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_FatFs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_FreeBSD",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_NuttX",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_abseil-cpp",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_alsa-lib",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_alsa-utils",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_benchmark",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_bounds_checking_function",
+        "buildTarget": "commonlibrary"
+    },
+    {
+        "name": "third_party_bzip2",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_cJSON",
+        "buildTarget": "applications"
+    },
+    {
+        "name": "third_party_chromium",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_cmsis",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_css-what",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_curl",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_e2fsprogs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_egl",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_elfio",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_elfutils",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_exfatprogs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_expat",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_f2fs-tools",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_ffmpeg",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_flatbuffers",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_flutter",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_freetype",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_fsck_msdos",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_fsverity-utils",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_glib",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_glslang",
+        "buildTarget": "cpvktest"
+    },
+    {
+        "name": "third_party_gn",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_googletest",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_gptfdisk",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_grpc",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_gstreamer",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_harfbuzz",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_icu",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_iptables",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_jerryscript",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_jinja2",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_jsframework",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_json",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_jsoncpp",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libabigail",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libcoap",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libdrm",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libevdev",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libexif",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libffi",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libinput",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libjpeg-turbo",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libnl",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libphonenumber",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libpng",
+        "buildTarget": "cpvktest"
+    },
+    {
+        "name": "third_party_libsnd",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libunwind",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libusb",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libuv",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libwebsockets",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_libxml2",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_littlefs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_ltp",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_lwip",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_lz4",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_markupsafe",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_mbedtls",
+        "buildTarget": "applications"
+    },
+    {
+        "name": "third_party_mindspore",
+        "buildTarget": "ai"
+    },
+    {
+        "name": "third_party_mksh",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_mtdev",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_newfs_msdos",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_nghttp2",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_ninja",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_node",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_ntfs-3g",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_opencl-headers",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_opengles",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_openh264",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_openmax",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_opensles",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "third_party_openssl",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_optimized_routines",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_parse5",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_pcre2",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_popt",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_protobuf",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_pulseaudio",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "third_party_python",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_pyyaml",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_qrcodegen",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_re2",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_aho-corasick",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_atty",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_autocfg",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_bindgen",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_bitflags",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_bytes",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_cc-rs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_cfg-if",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_clang-sys",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_clap",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_codespan",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_cxx",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_either",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_encoding_rs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_env_logger",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_foreign-types",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_futures-rs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_glob",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_h2",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_hashbrown",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_heck",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_http",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_http-body",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_httparse",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_httpdate",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_humantime",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_hyper",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_hyper-tls",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_indexmap",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_io-lifetimes",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_ipnet",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_is-terminal",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_itoa",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_lazy-static.rs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_lazycell",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_libc",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_libloading",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_link-cplusplus",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_linux-raw-sys",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_log",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_memchr",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_memoffset",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_mime",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_minimal-lexical",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_mio",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_nix",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_nom",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_num-traits",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_num_cpus",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_once_cell",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_openssl-probe",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_os_str_bytes",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_parking_lot",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_peeking_take_while",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_pin-project-lite",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_pin-utils",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_pkg-config-rs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_proc-macro-error",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_proc-macro2",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_quote",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_regex",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_reqwest",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_rust-base64",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_rust-cexpr",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_rust-fnv",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_rust-native-tls",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_rust-openssl",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_rust-smallvec",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_rust-std-candidates",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_rust-url",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_rustc-hash",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_rustix",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_ryu",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_scopeguard",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_serde",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_serde_urlencoded",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_shlex",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_signal-hook",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_slab",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_socket2",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_static-assertions-rs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_strsim-rs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_syn",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_termcolor",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_tinyvec",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_tinyvec_macros",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_tls",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_tokio",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_tower",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_tracing",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_try-lock",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_unicode-bidi",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_unicode-ident",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_unicode-normalization",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_unicode-width",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_version_check",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_want",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_rust_which-rs",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_selinux",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_skia",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_spirv-headers",
+        "buildTarget": "cpvktest"
+    },
+    {
+        "name": "third_party_spirv-tools",
+        "buildTarget": "cpvktest"
+    },
+    {
+        "name": "third_party_sqlite",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_toybox",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_typescript",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_unity",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_vk-gl-cts",
+        "buildTarget": "cpvktest"
+    },
+    {
+        "name": "third_party_vulkan-headers",
+        "buildTarget": "cpvktest"
+    },
+    {
+        "name": "third_party_vulkan-loader",
+        "buildTarget": "cpvktest"
+    },
+    {
+        "name": "third_party_weex-loader",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "third_party_zlib",
+        "buildTarget": "appexecfwk"
+    }
+]
