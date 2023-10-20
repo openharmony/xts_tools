@@ -95,7 +95,6 @@ void ObtainProductParms(void)
 
     AttestResultInfo attestResultInfo;
     (void)DelayedSingleton<DevAttestClient>::GetInstance()->GetAttestStatus(attestResultInfo);
-    //能读到结果 将结果打印
     printf("authResult = %d\n",attestResultInfo.authResult_);
     printf("softwareResult = %d\n",attestResultInfo.softwareResult_);
     for (int i = 0; i < 5; i++) {
