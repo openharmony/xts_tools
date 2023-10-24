@@ -1,4 +1,4 @@
-# Copyright (c) 2020-2021 Huawei Device Co., Ltd.
+# Copyright (c) 2023 Huawei Device Co., Ltd.
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -12,17 +12,23 @@
 # limitations under the License.
 
 import("//build/lite/config/component/lite_component.gni")
+import("//test/xts/tools/lite/build/common.gni")
+import("//test/xts/tools/lite/build/suite_lite.gni")
 
-executable("query") {
+executable("querySmall") {
   output_extension = "bin"
-  sources = [ "src/QueryMain.cpp" ]
+  sources = [ "src/QueryMainSmall.cpp" ]
 
   include_dirs = [
-    "src",
+    "./src/QueryMainSmall.cpp",
     "//base/startup/init/interfaces/innerkits/include/syspara",
+    "//test/xts/device_attest_lite/interfaces/innerkits",
   ]
 
-  deps = [ "//base/startup/init/interfaces/innerkits:libbegetutil" ]
+  deps = [
+    "//base/startup/init/interfaces/innerkits:libbegetutil",
+    "//test/xts/device_attest_lite/framework:devattest_client",
+  ]
 
   cflags = [ "-Wno-error" ]
   ldflags = [
@@ -31,4 +37,19 @@ executable("query") {
     "-lpthread",
     "-s",
   ]
+}
+
+copy("query_copy") {
+  sources = [ "$root_out_dir/bin/querySmall.bin" ]
+  outputs = [ "$root_out_dir/suites/acts/resource/tools/querySmall.bin" ]
+  deps = [ ":querySmall" ]
+}
+
+group("libQuery") {
+  if (ohos_kernel_type == "liteos_a" || ohos_kernel_type == "linux") {
+    deps = [
+      ":querySmall",
+      ":query_copy",
+    ]
+  }
 }
