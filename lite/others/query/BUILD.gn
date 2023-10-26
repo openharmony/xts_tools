@@ -25,10 +25,10 @@ executable("querySmall") {
     "//test/xts/device_attest_lite/interfaces/innerkits",
   ]
 
-  deps = [
-    "//base/startup/init/interfaces/innerkits:libbegetutil",
-    "//test/xts/device_attest_lite/framework:devattest_client",
-  ]
+  deps = [ "//base/startup/init/interfaces/innerkits:libbegetutil" ]
+  if (os_level != "mini") {
+    deps += [ "//test/xts/device_attest_lite/framework:devattest_client" ]
+  }
 
   cflags = [ "-Wno-error" ]
   ldflags = [
