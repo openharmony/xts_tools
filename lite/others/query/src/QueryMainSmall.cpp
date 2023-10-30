@@ -90,10 +90,9 @@ void ObtainProductParms()
         printf("DevUdid = %s\n", udid);
     }
     
-    int32_t retStatus = DEVATTEST_SUESS;
     AttestResultInfo attestResultInfo = { 0 };
     attestResultInfo.ticket = NULL;
-    retStatus = GetAttestStatus(&attestResultInfo);
+    int32_t retStatus = GetAttestStatus(&attestResultInfo);
     if (retStatus != DEVATTEST_SUESS) {
         printf("[CLIENT MAIN] wrong. retStatus:%d\n", retStatus);
     }
