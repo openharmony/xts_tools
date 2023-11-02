@@ -39,11 +39,11 @@ static_library("hctest") {
 
   defines = [ "UNITY_INCLUDE_CONFIG_H" ]
 
-  if(integrate_attest_mini_module) {
+  if (integrate_attest_mini_module) {
     include_dirs += [
-    "//test/xts/device_attest_lite/interfaces/kit/js/include",
-    "//test/xts/device_attest_lite/interfaces/innerkits",
-    "//test/xts/device_attest_lite/framework/mini",
+      "//test/xts/device_attest_lite/interfaces/kit/js/include",
+      "//test/xts/device_attest_lite/interfaces/innerkits",
+      "//test/xts/device_attest_lite/framework/mini",
     ]
     defines += [ "INTER_ATTEST_MINI_MODULE" ]
   }
