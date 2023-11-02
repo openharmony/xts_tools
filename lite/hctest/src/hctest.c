@@ -19,11 +19,15 @@
 #include <unistd.h>
 
 #include "hctest.h"
-#include "devattest_interface.h"
 #include "parameter.h"
 #include "samgr_lite.h"
 
+#ifdef INTER_ATTEST_MINI_MODULE
+#include "devattest_interface.h"
+
 #define DEVATTEST_SUCCESS 0
+#endif
+
 #define UDIDSIZE_LEN 64
 
 void setUp(void) {}
@@ -268,6 +272,11 @@ void ObtainProductParams(void)
         printf("DevUdid = %s\n", udid);
     }
     
+}
+
+#ifdef INTER_ATTEST_MINI_MODULE
+void ObtainAttestResultParams(void)
+{
     AttestResultInfo attestResultInfo = { 0 };
     attestResultInfo.ticket = NULL;
     int32_t retStatus = GetAttestStatus(&attestResultInfo);
@@ -281,7 +290,7 @@ void ObtainProductParams(void)
             i, attestResultInfo.softwareResultDetail[i]);
     }
 }
-
+#endif
 
 void ObtainSystemParams(void)
 {
@@ -345,8 +354,11 @@ void ObtainSystemParams(void)
         printf("DisplayVersion = %s\n", displayVersion);
     }
 
-    ObtainProductParams();	
-
+    ObtainProductParams();
+    
+#ifdef INTER_ATTEST_MINI_MODULE
+    ObtainAttestResultParams();
+#endif
     printf("******To Obtain Product Params End  ******\n");
     return;
 }
