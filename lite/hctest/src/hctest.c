@@ -294,6 +294,7 @@ void ObtainAttestResultParams(void)
 
 void ObtainSystemParams(void)
 {
+    printf("******To Obtain Product Params Start******\n");
     const char *productType = GetDeviceType();
     if (productType != NULL) {
         printf("Device Type = %s\n", productType);
