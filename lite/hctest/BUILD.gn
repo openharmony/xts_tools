@@ -27,9 +27,6 @@ static_library("hctest") {
     "//foundation/systemabilitymgr/samgr_lite/interfaces/kits/samgr",
     "//base/startup/bootstrap_lite/services/source",
     "//base/startup/init/interfaces/innerkits/include/syspara",
-    "//test/xts/device_attest_lite/interfaces/kit/js/include",
-    "//test/xts/device_attest_lite/interfaces/innerkits",
-    "//test/xts/device_attest_lite/framework/mini",
   ]
 
   public = [
@@ -39,6 +36,8 @@ static_library("hctest") {
 
   defines = [ "UNITY_INCLUDE_CONFIG_H" ]
 
+  deps = []
+
   if (integrate_attest_mini_module) {
     include_dirs += [
       "//test/xts/device_attest_lite/interfaces/kit/js/include",
@@ -46,6 +45,7 @@ static_library("hctest") {
       "//test/xts/device_attest_lite/framework/mini",
     ]
     defines += [ "INTER_ATTEST_MINI_MODULE" ]
+    deps += [ "${devattest_path}/framework:devattest_sdk" ]
   }
 
   if (board_toolchain_type != "iccarm") {
