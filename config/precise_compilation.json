@@ -716,7 +716,7 @@
     },
     {
         "name": "third_party_glslang",
-        "buildTarget": "cpvktest"
+        "buildTarget": "graphic"
     },
     {
         "name": "third_party_gn",
