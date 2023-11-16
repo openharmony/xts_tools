@@ -716,7 +716,7 @@
     },
     {
         "name": "third_party_glslang",
-        "buildTarget": "cpvktest"
+        "buildTarget": "graphic"
     },
     {
         "name": "third_party_gn",
@@ -812,7 +812,7 @@
     },
     {
         "name": "third_party_libpng",
-        "buildTarget": "cpvktest"
+        "buildTarget": "graphic"
     },
     {
         "name": "third_party_libsnd",
@@ -1360,11 +1360,11 @@
     },
     {
         "name": "third_party_spirv-headers",
-        "buildTarget": "cpvktest"
+        "buildTarget": "graphic"
     },
     {
         "name": "third_party_spirv-tools",
-        "buildTarget": "cpvktest"
+        "buildTarget": "graphic"
     },
     {
         "name": "third_party_sqlite",
@@ -1384,15 +1384,15 @@
     },
     {
         "name": "third_party_vk-gl-cts",
-        "buildTarget": "cpvktest"
+        "buildTarget": "graphic"
     },
     {
         "name": "third_party_vulkan-headers",
-        "buildTarget": "cpvktest"
+        "buildTarget": "graphic"
     },
     {
         "name": "third_party_vulkan-loader",
-        "buildTarget": "cpvktest"
+        "buildTarget": "graphic"
     },
     {
         "name": "third_party_weex-loader",
