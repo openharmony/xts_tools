@@ -201,24 +201,24 @@
     },
     {
         "name": "filemanagement_app_file_service",
-        "buildTarget": "test/xts/acts/stotage:storage"
+        "buildTarget": "test/xts/acts/storage:storage"
     },
     {
         "name": "filemanagement_dfs_service",
-        "buildTarget": "test/xts/acts/stotage:storage"
+        "buildTarget": "test/xts/acts/storage:storage"
 
     },
     {
         "name": "filemanagement_file_api",
-        "buildTarget": "test/xts/acts/stotage:storage"
+        "buildTarget": "test/xts/acts/storage:storage"
     },
     {
         "name": "filemanagement_storage_service",
-        "buildTarget": "test/xts/acts/stotage:storage"
+        "buildTarget": "test/xts/acts/storage:storage"
     },
     {
         "name": "filemanagement_user_file_service",
-        "buildTarget": "test/xts/acts/stotage:storage"
+        "buildTarget": "test/xts/acts/storage:storage"
     },
     {
         "name": "graphic_graphic_2d",
@@ -410,7 +410,7 @@
     },
     {
         "name": "time_time_service",
-        "buildTarget": "time"
+        "buildTarget": "test/xts/acts/time:time"
     },
     {
         "name": "usb_usb_manager",
@@ -474,7 +474,7 @@
     },
     {
         "name": "ostest_wukong",
-        "buildTarget": "wukong"
+        "buildTarget": "test/xts/acts/wukong:wukong"
     },
     {
         "name": "productdefine_common",
