@@ -112,7 +112,7 @@ static void runSuite##test_suite(void) {\
 }\
 TEST_INIT(runSuite##test_suite);
 
-void LiteTestPrint(const char *fmt, ...);
+#define LiteTestPrint(fmt, arg...) printf("%s:%u[%s] " fmt "\n", __FILE__, __LINE__, __func__, ##arg)
 
 #ifdef __cplusplus
 #if __cplusplus
