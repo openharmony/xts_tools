@@ -196,6 +196,14 @@ static void RunTestSuite(const char* suite_name)
     }
 }
 
+void LiteTestPrint(const char *fmt, ...)
+{
+    va_list ap;
+    va_start(ap, fmt);
+    printf(fmt, ap);
+    va_end(ap);
+}
+
 void ObtainProductParams(void)
 {
     const char *bootloaderVersion = GetBootloaderVersion();
