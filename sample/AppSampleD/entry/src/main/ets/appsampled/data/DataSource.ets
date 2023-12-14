@@ -14,7 +14,7 @@
  */
 
 
-import type { ChatBox } from './ChatBox';
+import { ChatBox } from './ChatBox';
 import Logger from '../../utils/Logger';
 
 class BasicDataSource implements IDataSource {
@@ -24,7 +24,7 @@ class BasicDataSource implements IDataSource {
     return 0;
   }
 
-  public getData(index: number): ChatBox {
+  public getData(index: number): ESObject {
     return undefined;
   }
 

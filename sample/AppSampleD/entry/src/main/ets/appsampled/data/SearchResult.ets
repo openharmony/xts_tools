@@ -25,7 +25,7 @@ export class AudioInfo{
   public audioNum: string; // 音频使用人数
   public audio: string; // 播放音频的文件名称
 
-  constructor(audioId?: number, audioName?: string, audioIcon?: Resource, audioAuthorName?: string, audioTime?: string, audioNum?: string, audio?: string) {
+  constructor(audioId: number, audioName: string, audioIcon: Resource, audioAuthorName: string, audioTime: string, audioNum: string, audio: string) {
     this.audioId = audioId;
     this.audioName = audioName;
     this.audioIcon = audioIcon;
@@ -56,9 +56,9 @@ export class VideoDetailInfo{
   public commenterContent: string; // 评论内容
   public commenterLike: string; // 评论点赞数
 
-  constructor(videoDetailId?: number, videoDetailAuthorName?: string, videoDetailAuthorIcon?: Resource, videoDetailTime?: string, videoDetailTitle?: string, videoDetailLabel?: string,
-              videoDetailLike?: string, videoDetailComment?: string, videoDetailCollect?: string, videoDetailTransmit?: string, videoDetail?: string,
-              commenterName?: string, commenterIcon?: Resource, commenterContent?: string, commenterLike?: string) {
+  constructor(videoDetailId: number, videoDetailAuthorName: string, videoDetailAuthorIcon: Resource, videoDetailTime: string, videoDetailTitle: string, videoDetailLabel: string,
+              videoDetailLike: string, videoDetailComment: string, videoDetailCollect: string, videoDetailTransmit: string, videoDetail: string,
+              commenterName: string, commenterIcon: Resource, commenterContent: string, commenterLike: string) {
     this.videoDetailId = videoDetailId;
     this.videoDetailAuthorName = videoDetailAuthorName;
     this.videoDetailAuthorIcon = videoDetailAuthorIcon;
@@ -87,7 +87,7 @@ export class VideoInfo{
   public videoTitle: string; // 视频标题
   public video: Resource; // 视频展示图片的文件名称
 
-  constructor(videoAuthorName?: string, videoAuthorIcon?: Resource, videoLikeNum?: string, videoTitle?: string, video?: Resource) {
+  constructor(videoAuthorName: string, videoAuthorIcon: Resource, videoLikeNum: string, videoTitle: string, video: Resource) {
     this.videoAuthorName = videoAuthorName;
     this.videoAuthorIcon = videoAuthorIcon;
     this.videoLikeNum = videoLikeNum;
@@ -105,7 +105,7 @@ export class SearchResult{
   public videoDetailInfo: Array<VideoDetailInfo>;
   public videoInfo: Array<VideoInfo>;
 
-  constructor(labelList?: Array<string>, audioInfoList?: Array<AudioInfo>, videoDetailInfo?: Array<VideoDetailInfo>, videoInfo?: Array<VideoInfo>) {
+  constructor(labelList: Array<string>, audioInfoList: Array<AudioInfo>, videoDetailInfo: Array<VideoDetailInfo>, videoInfo: Array<VideoInfo>) {
     this.labelList = labelList;
     this.audioInfoList = audioInfoList;
     this.videoDetailInfo = videoDetailInfo;

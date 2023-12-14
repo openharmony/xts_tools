@@ -29,7 +29,7 @@ export default struct SearchComponent {
     Column() {
       Scroll(this.scroller) {
         Column({ space: 4 }) {
-          ForEach(this.searchArr, (item, index) => {
+          ForEach(this.searchArr, (item: string, index: number) => {
             Row() {
               Image($r('app.media.app_icon'))
                 .width(18)

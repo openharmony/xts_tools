@@ -272,7 +272,7 @@ export default struct VideoComponent {
   }
 
   @Builder
-  Item(img: Resource, num: Resource, callback) {
+  Item(img: Resource, num: Resource, callback: Function) {
     Column() {
       Image(img)
         .width(35)

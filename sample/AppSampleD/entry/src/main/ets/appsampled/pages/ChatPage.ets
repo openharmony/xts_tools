@@ -35,27 +35,27 @@ struct ChatPage {
   private toolArr: Array<Tool> = getMockTool(); // 用户信息模拟数据
   @State isSend: boolean = true; // 是否为发送消息
   @State isInput: boolean = false; // 是否正在输入
-  private currentUser: User = null; // 当前用户信息
-  private oppositeUser: User = null; // 对端用户信息
-  private userInfo: LoginResult = null; // 登录返回结果信息
+  private currentUser: User | null = null; // 当前用户信息
+  private oppositeUser: User | null = null; // 对端用户信息
+  private userInfo: LoginResult | null = null; // 登录返回结果信息
   private chatController: ChatController = new ChatController();
   @State inputValue: string = '';
 
   aboutToAppear() {
-    if (globalThis.currentUser) {
-      this.currentUser = globalThis.currentUser;
+    if (AppStorage.get("currentUser")) {
+      this.currentUser = AppStorage.get("currentUser")!;
     }
-    if (globalThis.oppositeUser) {
-      this.oppositeUser = globalThis.oppositeUser;
+    if (AppStorage.get("oppositeUser")) {
+      this.oppositeUser = AppStorage.get("oppositeUser")!;
     }
-    if (globalThis.userInfo) {
-      this.userInfo = globalThis.userInfo
+    if (AppStorage.get("userInfo")) {
+      this.userInfo = AppStorage.get("userInfo")!;
     }
 
-    this.chatController.onMessage(this.userInfo.getId(), (value) => {
+    this.chatController.onMessage(this.userInfo?.getId(), (value: string) => {
       Logger.info(TAG, `ChatPage onMessage begin msg value: ${value}`);
       if (value) {
-        this.chats.pushData(new ChatBox(false, value, this.oppositeUser.getUserIcon()));
+        this.chats.pushData(new ChatBox(false, value, this.oppositeUser?.getUserIcon()));
       }
     })
 
@@ -70,7 +70,7 @@ struct ChatPage {
           .height(20)
           .objectFit(ImageFit.Contain)
           .margin({ left: 16 })
-          .onClick(e=>{
+          .onClick(e => {
             router.back();
           })
         Image($r('app.media.app_icon'))
@@ -79,7 +79,7 @@ struct ChatPage {
           .objectFit(ImageFit.Contain)
           .margin({ left: 16, right: 16 })
           .borderRadius(25)
-        Text(this.oppositeUser.getUsername())
+        Text(this.oppositeUser?.getUsername())
           .height(30)
           .fontColor($r('app.color.COLOR_FFFFFF'))
           .fontSize(20)
@@ -117,12 +117,12 @@ struct ChatPage {
       Column() {
         Scroll(this.scroller) {
           Column() {
-            LazyForEach(this.chats, (item, index) => {
+            LazyForEach(this.chats, (item: ChatBox, index: number) => {
               Row() {
                 ChatComponent({ item: item })
               }
               .margin({ top: 5, bottom: 10 })
-            }, item => item.message)
+            }, (item: ChatBox) => item.message)
           }
           .width('100%')
           .margin({ top: 10 })
@@ -239,8 +239,8 @@ struct ChatPage {
           .onClick(e => {
             Logger.info(TAG, 'onClick send');
             if (this.inputValue) {
-              this.chats.pushData(new ChatBox(true, this.inputValue, this.currentUser.getUserIcon()));
-              this.chatController.sendMessage(this.oppositeUser.getUsername(), this.inputValue);
+              this.chats.pushData(new ChatBox(true, this.inputValue, this.currentUser?.getUserIcon()));
+              this.chatController.sendMessage(this.oppositeUser?.getUsername(), this.inputValue);
               this.inputValue = '';
             }
           })

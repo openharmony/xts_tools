@@ -13,38 +13,38 @@
  * limitations under the License.
  */
 export default class LoginResult{
-  private token: string;
-  private id: string;
-  private username: string;
-  private realName: string;
-  private avatar: string;
+  private token?: string;
+  private id?: string;
+  private username?: string;
+  private realName?: string;
+  private avatar?: string;
 
   public getToken(): string{
-    return this.token;
+    return this.token!;
   }
   public setToken(token: string){
     this.token = token;
   }
   public getId(): string{
-    return this.id;
+    return this.id!;
   }
   public setId(id: string){
     this.id = id;
   }
   public getUsername(): string{
-    return this.username;
+    return this.username!;
   }
   public setUsername(username: string){
     this.username = username;
   }
   public getRealName(): string{
-    return this.realName;
+    return this.realName!;
   }
   public setRealName(realName: string){
     this.realName = realName;
   }
   public getAvatar(): string{
-    return this.avatar;
+    return this.avatar!;
   }
   public setAvatar(avatar: string){
     this.avatar = avatar;

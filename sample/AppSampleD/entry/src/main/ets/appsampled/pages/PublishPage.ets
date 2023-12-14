@@ -17,12 +17,18 @@ import router from '@ohos.router';
 import UploadController from '../../controller/UploadController';
 import User from '../data/User';
 import Logger from '../../utils/Logger';
+import { BusinessError } from '@ohos.base';
 
 const TAG: string = '[PublishPage]';
 
-type Item = {
-  res: Resource,
-  name: Resource
+class Item{
+  res?: Resource
+  name?: Resource
+
+  // constructor(res: Resource, name: Resource) {
+  //   this.res = res;
+  //   this.name = name
+  // }
 }
 
 @Entry
@@ -33,8 +39,8 @@ struct PublishPage {
     { res: $r('app.media.app_icon'), name: $r('app.string.Publicly_visible') },
     { res: $r('app.media.app_icon'), name: $r('app.string.Advanced_setup') }];
   private uploadController: UploadController = new UploadController();
-  private uploadFile: string = router.getParams()['uploadFile']; // 需要上传的文件名
-  private currentUser: User = null; // 当前用户信息
+  private uploadFile: string = (router.getParams() as Record<string, Object>).uploadFile as string; // 需要上传的文件名
+  private currentUser: User | null = null; // 当前用户信息
   @State uploadState: boolean = false;
 
   pageTransition() {
@@ -46,8 +52,8 @@ struct PublishPage {
   }
 
   aboutToAppear() {
-    if (globalThis.currentUser) {
-      this.currentUser = globalThis.currentUser;
+    if (AppStorage.get("currentUser")) {
+      this.currentUser = AppStorage.get("currentUser")!;
     }
   }
 
@@ -239,7 +245,7 @@ struct PublishPage {
               this.uploadState = false;
               router.pushUrl({ url: 'pages/Index' })
             }, 500)
-          }).catch(err => {
+          }).catch((err: BusinessError) => {
             Logger.info(TAG, `uploadFile faild= ${JSON.stringify(err)}`);
             router.pushUrl({ url: 'pages/Index' })
           })

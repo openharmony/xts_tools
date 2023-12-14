@@ -23,7 +23,7 @@ const TAG: string = '[SearchPlayVideoComponent]';
 
 @Component
 export default struct SearchPlayVideoComponent {
-  private videoDetailInfo: VideoDetailInfo;
+  private videoDetailInfo?: VideoDetailInfo;
   private xComponentController: XComponentController = new XComponentController();
   private avPlayerModel: AVPlayerModel = new AVPlayerModel(getContext(this));
   @State surfaceId: string = '-1';
@@ -36,10 +36,10 @@ export default struct SearchPlayVideoComponent {
       Logger.info(TAG, `emitter on data = ${JSON.stringify(data)}`)
       if (data) {
         // 拿出传过来的ID
-        let videoDetailId = data.data.videoDetailId;
+        let videoDetailId: number = data.data?.videoDetailId;
         Logger.info(TAG, `emitter on data videoId= ${JSON.stringify(videoDetailId)}`)
         // 不与当前ID相同则暂停，规避自身也会暂停的问题
-        if (videoDetailId && videoDetailId !== this.videoDetailInfo.videoDetailId) {
+        if (videoDetailId && videoDetailId !== this.videoDetailInfo?.videoDetailId) {
           Logger.info(TAG, `emitter on data this.isPlay= ${JSON.stringify(this.isPlay)}`)
           if (this.isPlay) {
             this.avPlayerModel.paused();
@@ -60,13 +60,13 @@ export default struct SearchPlayVideoComponent {
           .objectFit(ImageFit.Contain)
           .borderRadius(24)
         Column({ space: 5 }) {
-          Text(this.videoDetailInfo.videoDetailAuthorName)
+          Text(this.videoDetailInfo?.videoDetailAuthorName)
             .height(18)
             .fontColor($r('app.color.COLOR_FFFFFF'))
             .fontSize(18)
             .fontFamily($r('app.string.Font_family_medium'))
             .textAlign(TextAlign.Start)
-          Text(this.videoDetailInfo.videoDetailTime)
+          Text(this.videoDetailInfo?.videoDetailTime)
             .height(18)
             .fontColor($r('app.color.COLOR_CCFFFFFF'))
             .fontSize(14)
@@ -89,13 +89,13 @@ export default struct SearchPlayVideoComponent {
 
       // 视频Title
       Column({ space: 5 }) {
-        Text(this.videoDetailInfo.videoDetailTitle)
+        Text(this.videoDetailInfo?.videoDetailTitle)
           .fontColor($r('app.color.COLOR_FFFFFF'))
           .fontSize(18)
           .fontFamily($r('app.string.Font_family_regular'))
           .textAlign(TextAlign.Start)
           .textOverflow({ overflow: TextOverflow.Ellipsis })
-        Text(this.videoDetailInfo.videoDetailLabel)
+        Text(this.videoDetailInfo?.videoDetailLabel)
           .fontColor($r('app.color.COLOR_EEC934'))
           .fontSize(18)
           .maxLines(3)
@@ -142,13 +142,13 @@ export default struct SearchPlayVideoComponent {
             // 播放当前视频时发送事件暂停其他视频播放事件
             emitter.emit({ eventId: Constant.EVENT_PAUSED_VIDEO }, {
               data: {
-                ['videoDetailId']: this.videoDetailInfo.videoDetailId
+                'videoDetailId': this.videoDetailInfo?.videoDetailId
               }
             });
 
             // 第一次点击播放先初始化音乐
             if (!this.isInit) {
-              this.avPlayerModel.avPlayerFdSrcDemo(this.videoDetailInfo.videoDetail, this.surfaceId);
+              this.avPlayerModel.avPlayerFdSrcDemo(this.videoDetailInfo?.videoDetail, this.surfaceId);
               this.isInit = !this.isInit;
             } else {
               Logger.info(TAG, `onClick Play= ${JSON.stringify(this.isInit)}`)
@@ -165,10 +165,10 @@ export default struct SearchPlayVideoComponent {
 
       // 视频点赞等信息
       Row() {
-        this.Item($r('app.media.app_icon'), this.videoDetailInfo.videoDetailLike)
-        this.Item($r('app.media.app_icon'), this.videoDetailInfo.videoDetailComment)
-        this.Item($r('app.media.app_icon'), this.videoDetailInfo.videoDetailCollect)
-        this.Item($r('app.media.app_icon'), this.videoDetailInfo.videoDetailTransmit)
+        this.Item($r('app.media.app_icon'), this.videoDetailInfo?.videoDetailLike)
+        this.Item($r('app.media.app_icon'), this.videoDetailInfo?.videoDetailComment)
+        this.Item($r('app.media.app_icon'), this.videoDetailInfo?.videoDetailCollect)
+        this.Item($r('app.media.app_icon'), this.videoDetailInfo?.videoDetailTransmit)
       }
       .width('100%')
       .height(50)
@@ -183,13 +183,13 @@ export default struct SearchPlayVideoComponent {
           .objectFit(ImageFit.Contain)
           .borderRadius(18)
         Column({ space: 5 }) {
-          Text(this.videoDetailInfo.commenterName)
+          Text(this.videoDetailInfo?.commenterName)
             .height(18)
             .fontColor($r('app.color.COLOR_FFFFFF'))
             .fontSize(18)
             .fontFamily($r('app.string.Font_family_medium'))
             .textAlign(TextAlign.Start)
-          Text(this.videoDetailInfo.commenterContent)
+          Text(this.videoDetailInfo?.commenterContent)
             .height(18)
             .fontColor($r('app.color.COLOR_CCFFFFFF'))
             .fontSize(14)
@@ -206,7 +206,7 @@ export default struct SearchPlayVideoComponent {
             .width(22)
             .height(30)
             .objectFit(ImageFit.Contain)
-          Text(this.videoDetailInfo.commenterLike)
+          Text(this.videoDetailInfo?.commenterLike)
             .height(18)
             .fontColor($r('app.color.COLOR_CCFFFFFF'))
             .fontSize(14)

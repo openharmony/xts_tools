@@ -23,7 +23,7 @@ const TAG: string = '[SearchVideoComponent]';
 export default struct SearchVideoComponent {
   private scrollerHor: Scroller = new Scroller();
   private scrollerVer: Scroller = new Scroller();
-  private currSearchResult: SearchResult;
+  private currSearchResult?: SearchResult;
   @State selectTopIndex: number = 0;
 
   build() {
@@ -52,7 +52,7 @@ export default struct SearchVideoComponent {
                   this.selectTopIndex = 0;
                 })
                 // 模拟数据 label列表
-                ForEach(this.currSearchResult.labelList, (title: string, index: number) => {
+                ForEach(this.currSearchResult?.labelList, (title: string, index: number) => {
                   Column() {
                     Text(title)
                       .height(20)
@@ -87,7 +87,7 @@ export default struct SearchVideoComponent {
           // 视频列表
           GridRow({columns: 2}) {
             // 模拟数据 音乐列表
-            ForEach(this.currSearchResult.videoInfo, (videoInfo: VideoInfo) => {
+            ForEach(this.currSearchResult?.videoInfo, (videoInfo: VideoInfo) => {
               GridCol() {
                 this.VideoItem(videoInfo)
               }

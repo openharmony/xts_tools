@@ -12,25 +12,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-export default class Tool{
-  private toolName: string;
-  private toolIcon: Resource;
+export default class User{
+  private username: string;
+  private userIcon: Resource;
 
-  constructor(toolName?: string, toolIcon?: Resource) {
-    this.toolName = toolName;
-    this.toolIcon = toolIcon;
+  constructor(username: string, userIcon: Resource) {
+    this.username = username;
+    this.userIcon = userIcon;
   }
 
-  public getToolName(): string{
-    return this.toolName;
+  public getUsername(): string{
+    return this.username;
   }
-  public setToolName(toolName: string){
-    this.toolName = toolName;
+  public setUsername(username: string){
+    this.username = username;
   }
-  public getToolIcon(): Resource{
-    return this.toolIcon;
+  public getUserIcon(): Resource{
+    return this.userIcon;
   }
-  public setToolIcon(toolIcon: Resource){
-    this.toolIcon = toolIcon;
+  public setUserIcon(userIcon: Resource){
+    this.userIcon = userIcon;
   }
 }

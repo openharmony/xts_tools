@@ -31,7 +31,7 @@ struct Index {
    */
   loginVerification(): boolean {
     // 验证是否登录
-    if (globalThis.userInfo == null || globalThis.userInfo == undefined) {
+    if (AppStorage.get("userInfo") == null || AppStorage.get("userInfo") == undefined) {
       return false;
     }
     return true;
