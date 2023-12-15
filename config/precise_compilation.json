@@ -365,6 +365,10 @@
         "buildTarget": "security"
     },
     {
+        "name": "security_certificate_framework",
+        "buildTarget": "security"
+    },
+    {
         "name": "startup_appspawn",
         "buildTarget": "startup"
     },
