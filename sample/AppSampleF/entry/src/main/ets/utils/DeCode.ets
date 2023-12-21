@@ -22,20 +22,26 @@ import {
 } from '@ohos/zxing';
 import image from '@ohos.multimedia.image';
 
+export interface ImageWH{
+  width: number,
+  height: number
+};
 export default class QRCode {
-  async decode(image: image.PixelMap, params: {
-    width: number,
-    height: number
-  }): Promise<string> {
-    const {width,height} = params;
+  async decode(image: image.PixelMap, params: ImageWH): Promise<string> {
+    const width: number = params.width;
+    const height: number = params.height;
     let num = image.getPixelBytesNumber();
     let arrayBuffer: ArrayBuffer = new ArrayBuffer(num);
     await image.readPixelsToBuffer(arrayBuffer);
     const int32Array = new Int32Array(arrayBuffer);
     const luminanceSource = new RGBLuminanceSource(int32Array, width, height);
+    console.log("yyc luminanceSource")
     const binaryBitmap = new BinaryBitmap(new HybridBinarizer(luminanceSource));
+    console.log("yyc binaryBitmap")
     const reader = new MultiFormatReader();
+    console.log("yyc reader")
     let result = reader.decode(binaryBitmap);
+    console.log("yyc result")
     let text = result.getText();
     return text;
   }

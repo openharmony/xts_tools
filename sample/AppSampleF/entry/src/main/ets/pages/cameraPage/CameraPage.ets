@@ -20,13 +20,14 @@ import display from '@ohos.display';
 import router from '@ohos.router';
 import emitter from '@ohos.events.emitter';
 import animator from '@ohos.animator';
+import { BusinessError } from '@ohos.base';
 
 const TAG: string = '[CameraPage]';
-const CameraMode = {
-  MODE_PHOTO: 0, // 拍照模式
-  MODE_VIDEO: 1 // 录像模式
+enum CameraMode {
+  MODE_PHOTO = 0, // 拍照模式
+  MODE_VIDEO = 1 // 录像模式
 };
-let innerEventText = {
+let innerEventText: emitter.InnerEvent = {
   eventId: 1,
   priority: emitter.EventPriority.HIGH
 };
@@ -36,7 +37,7 @@ let innerEventText = {
 struct CameraPage {
   private surfaceId: string = '-1';
   private mXComponentController: XComponentController = new XComponentController();
-  private cameraModel: CameraModel = new CameraModel(getContext(this));
+  private cameraModel: CameraModel = new CameraModel();
   private windowWidth: number = 300;
   private windowHeight: number = 300;
   @State imageThumbnail: string = '';
@@ -65,7 +66,7 @@ struct CameraPage {
       if (this.surfaceId) {
         this.cameraModel.initCamera(this.surfaceId);
       }
-    }).catch(rej => {
+    }).catch((rej: BusinessError) => {
       Logger.info(TAG, `权限申请失败  ${JSON.stringify(rej)}`);
     })
     this.surfaceId = this.mXComponentController.getXComponentSurfaceId();
@@ -138,14 +139,14 @@ struct CameraPage {
               });
               this.surfaceId = this.mXComponentController.getXComponentSurfaceId();
               Logger.info(TAG, `onLoad surfaceId: ${this.surfaceId}`);
-              this.cameraModel.initCamera(this.surfaceId);
+              this.cameraModel?.initCamera(this.surfaceId);
               emitter.once(innerEventText, (res) => {
-                this.text = res.data.text;
+                this.text = res.data && res.data.text;
                 Logger.info(TAG, `this.text==on==${this.text}`);
                 if (this.text !== '' && this.count === 0) {
                   this.count++;
                   Logger.info(TAG, `this.count,this.count=${this.count}`);
-                  AppStorage.SetOrCreate<string>('text', this.text);
+                  AppStorage.setOrCreate<string>('text', this.text);
                   router.pushUrl({
                     url: 'pages/messagePage/Message'
                   });

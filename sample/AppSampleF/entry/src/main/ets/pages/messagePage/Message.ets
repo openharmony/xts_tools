@@ -26,7 +26,7 @@ struct Message {
   scroller: Scroller = new Scroller();
 
   async aboutToAppear() {
-    this.text = AppStorage.Get('text');
+    this.text = AppStorage.get('text')!;
     Logger.info(TAG, `Message===this.text===${this.text}`);
   }
 

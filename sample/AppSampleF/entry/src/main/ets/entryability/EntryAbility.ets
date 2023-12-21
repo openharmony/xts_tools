@@ -16,13 +16,15 @@
 import UIAbility from '@ohos.app.ability.UIAbility';
 import hilog from '@ohos.hilog';
 import window from '@ohos.window';
+import Want from '@ohos.app.ability.Want';
+import AbilityConstant from '@ohos.app.ability.AbilityConstant';
 
 export default class EntryAbility extends UIAbility {
-  onCreate(want, launchParam) {
-    globalThis.cameraContext = this.context;
+  onCreate(want: Want, launchParam: AbilityConstant.LaunchParam) {
+    AppStorage.setOrCreate('cameraContext', this.context)
     console.log('[Demo] MainAbility onCreate')
     const that = this
-    this.context.eventHub.on("getAbilityData", (data) => {
+    this.context.eventHub.on("getAbilityData", (data: Record<string, Object>) => {
       data.context = that.context
       data.launchWant = want
     })
