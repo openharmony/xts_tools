@@ -31,11 +31,11 @@ async function getResourceString(resource: Resource): Promise<string> {
 }
 
 export default function abilityTest() {
-  describe('ActsAbilityTest', function () {
+  describe('ActsAbilityTest', () => {
     /**
      * 拉起应用
      */
-    it(BUNDLE + 'StartAbility_001 begin', 0, async function (done) {
+    it(BUNDLE + 'StartAbility_001 begin', 0, async (done: () => void) => {
       hilog.info(DOMAIN, TAG, BUNDLE + 'StartAbility_001 begin');
       try {
         await abilityDelegator.startAbility({
@@ -53,7 +53,7 @@ export default function abilityTest() {
     /**
      * 点击进入相机页面
      */
-    it(BUNDLE + 'GotoScanFunction_001', 0, async function () {
+    it(BUNDLE + 'GotoScanFunction_001', 0, async () => {
       // create UiDriver
       hilog.info(DOMAIN, TAG, BUNDLE + 'GotoScanFunction_001 begin');
       let driver = Driver.create();
