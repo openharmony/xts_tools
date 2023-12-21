@@ -18,6 +18,8 @@ import CommodityController from '../../controller/CommodityController';
 import Logger from '../../utils/Logger';
 import com from '../../data/Commodity'
 import { getStringData } from '../../utils/ResourceDataHandle';
+import { BusinessError } from '@ohos.base';
+import { CommodityInfo } from '../../data/Server';
 
 const TAG: string = '[ProductDetails]';
 
@@ -26,8 +28,8 @@ const TAG: string = '[ProductDetails]';
 struct ProductDetails { // 商品详情页面
   private CommodityController: CommodityController = new CommodityController();
   private com: com = new com();
-  @State commodity: Object = undefined;
-  @State commodityId: string = <string> router.getParams()['commodityId'];
+  @State commodity: CommodityInfo | undefined = undefined;
+  @State commodityId: string = (router.getParams() as Record<string, Object>).commodityId as string;
   @State name: string = '';
   @State description: string = '';
   @State standards: string = '';
@@ -37,7 +39,7 @@ struct ProductDetails { // 商品详情页面
   aboutToAppear() {
     Logger.info(TAG, 'ProductDetails aboutToAppear');
     Logger.info(TAG, 'ProductDetails this.commodityId' + this.commodityId);
-    this.CommodityController.getCommodityById(this.commodityId).then(res => {
+    this.CommodityController.getCommodityById(this.commodityId).then((res: CommodityInfo) => {
       Logger.info(TAG, 'ProductDetails getCommodityById');
       this.com.name = res.name;
       this.com.description = res.description;
@@ -53,7 +55,7 @@ struct ProductDetails { // 商品详情页面
       Logger.info(TAG, 'ProductDetails com===' + this.description);
       this.commodity = res;
       Logger.info(TAG, `ProductDetails then res= ${JSON.stringify(this.commodity)}`);
-    }).catch(err => {
+    }).catch((err: BusinessError) => {
       Logger.info(TAG, `ProductDetails catch err= ${JSON.stringify(err)}`);
     })
   }
@@ -68,7 +70,7 @@ struct ProductDetails { // 商品详情页面
             .onClick(() => {
               router.back();
             })
-            .id('back')
+            .id('ProductDetailsBack')
           Blank()
           Image($r('app.media.icon'))
             .width(24)

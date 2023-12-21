@@ -18,6 +18,7 @@ import { Driver, ON, MatchPattern } from '@ohos.UiTest';
 import abilityDelegatorRegistry from '@ohos.app.ability.abilityDelegatorRegistry';
 import Logger from '../util/Logger';
 import { getString } from '../util/ResourceUtil'
+import { Callback } from '@ohos.base';
 
 const DELAY_TIME = 1500;
 const delegator = abilityDelegatorRegistry.getAbilityDelegator();
@@ -47,38 +48,38 @@ async function checkAndClickByText(text: string, log: string) {
 }
 
 export default function abilityTest() {
-  describe('ActsAbilityTest', function () {
+  describe('ActsAbilityTest',  () => {
     // Defines a test suite. Two parameters are supported: test suite name and test suite function.
-    beforeAll(async function () {
+    beforeAll(async () => {
       // Presets an action, which is performed only once before all test cases of the test suite start.
       // This API supports only one parameter: preset action function.
       // 启动Ability
     })
-    beforeEach(function () {
+    beforeEach(() => {
       // Presets an action, which is performed before each unit test case starts.
       // The number of execution times is the same as the number of test cases defined by **it**.
       // This API supports only one parameter: preset action function.
     })
-    afterEach(function () {
+    afterEach(() => {
       // Presets a clear action, which is performed after each unit test case ends.
       // The number of execution times is the same as the number of test cases defined by **it**.
       // This API supports only one parameter: clear action function.
     })
-    afterAll(function () {
+    afterAll(() => {
       // Presets a clear action, which is performed after all test cases of the test suite end.
       // This API supports only one parameter: clear action function.
     })
-    it('assertContain', 0, async function () {
+    it('assertContain', 0, async () => {
       // Defines a test case. This API supports three parameters: test case name, filter parameter, and test case function.
       hilog.info(0x0000, 'testTag', '%{public}s', 'it begin');
 
-      it(BUNDLE + 'StartAbility_001', 0, async function (done) {
+      it(BUNDLE + 'StartAbility_001', 0, async (done: () => void) => {
         delegator.executeShellCommand('aa start -a EntryAbility -b com.samples.appsamplee');
         await driver.delayMs(DELAY_TIME);
         done();
       })
 
-      it(BUNDLE + 'Login_001', 0, async function () {
+      it(BUNDLE + 'Login_001', 0, async () => {
         await driver.delayMs(DELAY_TIME);
         await checkAndClickById('login','Login');
         await driver.delayMs(4000);
@@ -86,7 +87,7 @@ export default function abilityTest() {
         await driver.delayMs(DELAY_TIME);
       })
 
-      it(BUNDLE + 'Buy_001', 0, async function () {
+      it(BUNDLE + 'Buy_001', 0, async () => {
         await driver.delayMs(DELAY_TIME);
         await checkAndClickById('buy','Buy');
         await driver.delayMs(DELAY_TIME);
@@ -98,7 +99,7 @@ export default function abilityTest() {
         await driver.delayMs(DELAY_TIME);
       })
 
-      it(BUNDLE + 'HongTuan_001', 0, async function () {
+      it(BUNDLE + 'HongTuan_001', 0, async () => {
         let driver: Driver = Driver.create();
         await driver.delayMs(DELAY_TIME);
 

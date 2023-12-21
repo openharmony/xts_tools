@@ -20,6 +20,8 @@ import CommodityController from '../../controller/CommodityController';
 import Logger from '../../utils/Logger';
 import Car from '../../data/Car'
 import { getStringData } from '../../utils/ResourceDataHandle';
+import { CommentInfo, CommodityInfo } from '../../data/Server';
+import { BusinessError } from '@ohos.base';
 
 const TAG: string = '[Commodity]';
 const CAR_NUM = 1; // 初始化数量
@@ -41,15 +43,15 @@ struct Commodity {
   @State isLogin: boolean = false;
   @State money: number = 0;
   @State count: number = 0;
-  @State commodityList: Array<any>[] = []; // 商品列表
-  @State commentList: Array<any>[] = []; // 评论列表
-  @State buyCarList: Array<Object> = []; // 购物车列表
-  @State businessId: string = <string> router.getParams()['businessId'];
-  @State businessName: string = <string> router.getParams()['businessName'];
-  @State businessScore: string = <string> router.getParams()['businessScore'];
-  @State businessSale: string = <string> router.getParams()['businessSale'];
-  @State businessTime: string = <string> router.getParams()['businessTime'];
-  @State businessRank: string = <string> router.getParams()['businessRank'];
+  @State commodityList: Array<CommodityInfo> = []; // 商品列表
+  @State commentList: Array<CommentInfo> = []; // 评论列表
+  @State buyCarList: Array<Car> = []; // 购物车列表
+  @State businessId: string = (router.getParams() as Record<string, Object>).businessId as string;
+  @State businessName: string = (router.getParams() as Record<string, Object>).businessName as string;
+  @State businessScore: string = (router.getParams() as Record<string, Object>).businessScore as string;
+  @State businessSale: string = (router.getParams() as Record<string, Object>).businessSale as string;
+  @State businessTime: string = (router.getParams() as Record<string, Object>).businessTime as string;
+  @State businessRank: string = (router.getParams() as Record<string, Object>).businessRank as string;
   private commodityController: CommodityController = new CommodityController();
   private businessController: BusinessController = new BusinessController();
 
@@ -65,7 +67,7 @@ struct Commodity {
     })
   }
 
-  addCar(name, price): void {
+  addCar(name: string, price: number): void {
     let cars: Car = new Car();
     cars.name = name;
     cars.price = Number(price);
@@ -76,17 +78,17 @@ struct Commodity {
   aboutToAppear() {
     Logger.info(TAG, 'Commodity aboutToAppear');
     // 商品列表
-    this.commodityController.getCommodityList(this.businessId).then(res => {
+    this.commodityController.getCommodityList(this.businessId).then((res: CommodityInfo[]) => {
       this.commodityList = res;
       Logger.info(TAG, `commodityList then res= ${JSON.stringify(this.commodityList)}`);
-    }).catch(err => {
+    }).catch((err: BusinessError) => {
       Logger.info(TAG, `commodityList catch err= ${JSON.stringify(err)}`);
     })
     // 商家评论列表
-    this.businessController.getCommentList(this.businessId).then(res => {
+    this.businessController.getCommentList(this.businessId).then((res: CommentInfo[]) => {
       this.commentList = res;
       Logger.info(TAG, `commentList then res= ${JSON.stringify(this.commentList)}`);
-    }).catch(err => {
+    }).catch((err: BusinessError) => {
       Logger.info(TAG, `commentList catch err= ${JSON.stringify(err)}`);
     })
   }
@@ -186,7 +188,7 @@ struct Commodity {
             TabContent() {
               Scroll() {
                 Column() {
-                  ForEach(this.commodityList, (commodity, index) => {
+                  ForEach(this.commodityList, (commodity: CommodityInfo, index) => {
                     Row() {
                       Image($r('app.media.icon'))
                         .width(150)
@@ -237,7 +239,7 @@ struct Commodity {
                               this.money = this.money + Number(commodity.price);
                               this.count++;
                               if (this.buyCarList.length <= this.commentList.length && this.count === 1) {
-                                this.addCar(commodity.name, commodity.price);
+                                this.addCar(commodity.name, Number(commodity.price));
                               } else {
                                 for (let index = 0; index < this.buyCarList.length; index++) {
                                   const element = this.buyCarList[index]['name'];
@@ -253,7 +255,7 @@ struct Commodity {
                                     break;
                                   } else {
                                     if (index == this.buyCarList.length - 1) {
-                                      this.addCar(commodity.name, commodity.price);
+                                      this.addCar(commodity.name, Number(commodity.price));
                                       break;
                                     } else {
                                       continue;
@@ -284,7 +286,7 @@ struct Commodity {
                         }
                       });
                     })
-                  })
+                  }, (commodity: CommodityInfo) => JSON.stringify(commodity))
                 }
                 .margin({ bottom: 55 })
               }
@@ -335,7 +337,7 @@ struct Commodity {
 
                 Scroll() {
                   Column() {
-                    ForEach(this.commentList, (comment, index) => {
+                    ForEach(this.commentList, (comment: CommentInfo) => {
                       Column() {
                         Row() {
                           Image($r('app.media.icon'))

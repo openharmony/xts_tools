@@ -15,8 +15,10 @@
 
 import router from '@ohos.router';
 import BusinessController from '../../controller/BusinessController';
+import { BusinessInfo } from '../../data/Server';
 import Logger from '../../utils/Logger';
 import { getStringData } from '../../utils/ResourceDataHandle';
+import { BusinessError } from '@ohos.base';
 
 const TAG: string = '[Business]';
 
@@ -40,16 +42,16 @@ const TAG: string = '[Business]';
 @Component
 struct Business {
   private businessController: BusinessController = new BusinessController();
-  @State businessList: Array<any>[] = []; // 商家列表
+  @State businessList: Array<BusinessInfo> = []; // 商家列表
   @State longitude: string = getStringData($r('app.string.buy_longitude')); // 经度
   @State latitude: string = getStringData($r('app.string.buy_latitude')); // 纬度
 
   aboutToAppear() {
     Logger.info(TAG, 'aboutToAppear begin');
-    this.businessController.getBusinessList(this.longitude, this.latitude).then(res => {
+    this.businessController.getBusinessList(this.longitude, this.latitude).then((res: BusinessInfo[]) => {
       Logger.info(TAG, `aboutToAppear then res= ${JSON.stringify(res)}`);
       this.businessList = res;
-    }).catch(err => {
+    }).catch((err: BusinessError) => {
       Logger.info(TAG, `aboutToAppear catch err= ${JSON.stringify(err)}`);
     })
   }
@@ -118,7 +120,7 @@ struct Business {
 
       Scroll() {
         Column() {
-          ForEach(this.businessList, (business, index: number) => {
+          ForEach(this.businessList, (business: BusinessInfo, index: number) => {
             Row() {
               Image($r('app.media.icon'))
                 .width(125)

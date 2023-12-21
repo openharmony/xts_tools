@@ -17,6 +17,7 @@ import request from '@ohos.request';
 import webSocket from '@ohos.net.webSocket';
 import Logger from '../utils/Logger';
 import Constant from '../utils/Constant';
+import LoginResult from '../data/LoginResult';
 
 const TAG: string = '[NetworkModel]';
 
@@ -51,12 +52,13 @@ export default class NetworkModel {
   public uploadFile(action: string, fileName: string, callback): void {
     Logger.info(TAG, `upload file create action = ${action}, fileName = ${fileName}`);
     Logger.info(TAG, `upload url = ${Constant.URL + action}`);
-    Logger.info(TAG, `upload token = ${globalThis.userInfo.token}`);
+    let userInfo: LoginResult = AppStorage.get('userInfo')!
+    Logger.info(TAG, `upload token = ${userInfo.token}`);
     let uploadTask: request.UploadTask;
     let uploadConfig = {
       url: Constant.URL + action,
       header: {
-        'X-Access-Token': globalThis.userInfo.token, 'Content-Type': 'multipart/form-data'
+        'X-Access-Token': userInfo.token, 'Content-Type': 'multipart/form-data'
       },
       method: 'POST',
       files: [{
@@ -69,7 +71,7 @@ export default class NetworkModel {
     Logger.info(TAG, 'upload uploadConfig,' + JSON.stringify(uploadConfig));
     try {
       Logger.info(TAG, 'upload start');
-      request.uploadFile(globalThis.abilityContext, uploadConfig).then((data) => {
+      request.uploadFile(AppStorage.get('abilityContext')!, uploadConfig).then((data) => {
         uploadTask = data;
         Logger.info(TAG, 'upload end 1');
         uploadTask.on('complete', (taskState: Array<request.TaskState>) => {

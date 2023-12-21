@@ -17,7 +17,7 @@ let context = getContext(this);
 
 export function getStringData(resourceData: Resource):string {
   if (!resourceData) {
-    return;
+    return '';
   }
   return context.resourceManager.getStringSync(resourceData.id);
 }

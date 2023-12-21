@@ -39,6 +39,7 @@ AppSampleE/src/main/ets/
 |   |---Commodity.ts                             // 商品实体
 |   |---LoginResult.ts                           // 登录信息实体
 |   |---R.ts                                     // 返回结果信息实体
+|   |---Server.ts                                // 返回数据实体合集
 |---model
 │   |---NetworkModel.ts                          // 负责网络通信等操作
 |---pages

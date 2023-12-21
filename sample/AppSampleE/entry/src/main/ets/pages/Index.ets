@@ -15,6 +15,8 @@
 
 import router from '@ohos.router';
 import geoLocationManager from '@ohos.geoLocationManager';
+import { BusinessError } from '@ohos.base';
+
 import grantPermission from '../utils/PermissionUtils';
 import Logger from '../utils/Logger';
 
@@ -28,7 +30,7 @@ struct Index {
 
   // 获取定位服务
   getLocation(): void {
-    let locationChange = (err, location: geoLocationManager.Location) => {
+    let locationChange = (err: BusinessError, location: geoLocationManager.Location) => {
       if (err) {
         console.log('locationChanger: err=' + JSON.stringify(err));
       }
@@ -52,7 +54,7 @@ struct Index {
     await grantPermission().then(res => {
       this.getLocation();
       Logger.info(TAG, `权限申请成功  ${JSON.stringify(res)}`);
-    }).catch(rej => {
+    }).catch((rej: BusinessError) => {
       Logger.info(TAG, `权限申请失败  ${JSON.stringify(rej)}`);
     })
   }
