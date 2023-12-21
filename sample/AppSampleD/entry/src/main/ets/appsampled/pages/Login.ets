@@ -18,6 +18,7 @@ import Logger from '../../utils/Logger';
 import LoginController from '../../controller/LoginController';
 import LoginResult from '../data/LoginResult';
 import User from '../data/User';
+import { BusinessError } from '@ohos.base';
 
 const TAG: string = '[Login]';
 
@@ -29,7 +30,7 @@ struct Login {
   @State password: string = '123456';
   @State isLoginSuccess: boolean = false;
 
-  pageTransition(){
+  pageTransition() {
     // 登录页面从底部滑入滑出
     PageTransitionEnter({ type: RouteType.Push, duration: 300 })
       .slide(SlideEffect.Bottom)
@@ -103,19 +104,19 @@ struct Login {
                   let data: LoginResult = res.getData();
                   Logger.info(TAG, `login success: ${JSON.stringify(data.getToken())}`);
                   // 存储用户信息, 包括token
-                  globalThis.userInfo = data;
-                  
+                  AppStorage.setOrCreate("userInfo", data);
+
                   // 分别存储当前用户和对端用户的用户名和头像
                   if (data.getUsername() === '13111111111') {
-                    let currUser = new User(data.getUsername(),$r('app.media.app_icon'))
-                    let oppositeUser = new User('13122222222',$r('app.media.app_icon'))
-                    globalThis.currentUser = currUser;
-                    globalThis.oppositeUser = oppositeUser;
-                  }else{
-                    let currentUser = new User(data.getUsername(),$r('app.media.app_icon'))
-                    let oppositeUser = new User('13111111111',$r('app.media.app_icon'))
-                    globalThis.currentUser = currentUser;
-                    globalThis.oppositeUser = oppositeUser;
+                    let currUser = new User(data.getUsername(), $r('app.media.app_icon'))
+                    let oppositeUser = new User('13122222222', $r('app.media.app_icon'))
+                    AppStorage.setOrCreate("currentUser", currUser);
+                    AppStorage.setOrCreate("oppositeUser", oppositeUser);
+                  } else {
+                    let currentUser = new User(data.getUsername(), $r('app.media.app_icon'))
+                    let oppositeUser = new User('13111111111', $r('app.media.app_icon'))
+                    AppStorage.setOrCreate("currentUser", currentUser);
+                    AppStorage.setOrCreate("oppositeUser", oppositeUser);
                   }
 
                   // 跳转页面
@@ -124,7 +125,7 @@ struct Login {
                 }
                 Logger.info(TAG, `login failed: ${JSON.stringify(res)}`);
               }, 800)
-            }).catch(err => {
+            }).catch((err: BusinessError)=> {
               Logger.info(TAG, `login err: ${JSON.stringify(err)}`);
               promptAction.showToast({ message: $r('app.string.Connection_timesout'), duration: 1000, bottom: 500 });
             })

@@ -12,12 +12,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import type { Permissions } from '@ohos.abilityAccessCtrl'
+import { Permissions } from '@ohos.abilityAccessCtrl'
 import abilityAccessCtrl from '@ohos.abilityAccessCtrl'
 import router from '@ohos.router'
 import Logger from '../../utils/Logger'
 import CameraModel from '../../model/CameraModel'
 import User from '../data/User'
+import { BusinessError } from '@ohos.base'
 
 const TAG: string = '[CameraPage]'
 const PERMISSIONS: Array<Permissions> = ['ohos.permission.READ_MEDIA', 'ohos.permission.WRITE_MEDIA', 'ohos.permission.MEDIA_LOCATION', 'ohos.permission.MICROPHONE', 'ohos.permission.CAMERA']
@@ -37,7 +38,7 @@ struct CameraPage {
   private cameraModel: CameraModel = new CameraModel(getContext(this))
   private scrollerHorText: Scroller = new Scroller();
   private scrollerHorImage: Scroller = new Scroller();
-  private currentUser: User = null; // 当前用户信息
+  private currentUser: User | null = null; // 当前用户信息
   @State recordingStatus: number = 0; // 0：未录制 1：正在录制 2：结束录制
   @State surfaceId: string = '-1';
   @State format: string = 'mm:ss';
@@ -57,14 +58,14 @@ struct CameraPage {
       atManager.requestPermissionsFromUser(getContext(this), PERMISSIONS).then((data) => {
         this.cameraModel.createCamera(this.surfaceId);
         Logger.info(TAG, 'requestPermissionsFromUser success')
-      }).catch((err) => {
+      }).catch((err: BusinessError) => {
         Logger.info(TAG, `requestPermissionsFromUser err: ${JSON.stringify(err)}`)
       })
     } catch (err) {
       Logger.info(TAG, `requestPermissionsFromUser catch err->${JSON.stringify(err)}`);
     }
-    if (globalThis.currentUser) {
-      this.currentUser = globalThis.currentUser;
+    if (AppStorage.get("currentUser")) {
+      this.currentUser = AppStorage.get("currentUser")!;
     }
   }
 

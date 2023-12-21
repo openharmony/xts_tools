@@ -24,7 +24,7 @@ const TAG: string = '[SearchSynthesizeComponent]';
 export default struct SearchSynthesizeComponent {
   private scrollerHor: Scroller = new Scroller();
   private scrollerVer: Scroller = new Scroller();
-  private currSearchResult: SearchResult;
+  private currSearchResult?: SearchResult;
   @State selectTopIndex: number = 0;
 
   build() {
@@ -53,7 +53,7 @@ export default struct SearchSynthesizeComponent {
                   this.selectTopIndex = 0;
                 })
                 // 模拟数据 label列表
-                ForEach(this.currSearchResult.labelList, (title: string, index: number) => {
+                ForEach(this.currSearchResult?.labelList, (title: string, index: number) => {
                   Column() {
                     Text(title)
                       .height(20)
@@ -114,7 +114,7 @@ export default struct SearchSynthesizeComponent {
             .margin({ top: 10 })
 
             // 模拟数据 音乐列表
-            ForEach(this.currSearchResult.audioInfoList, (audioInfo: AudioInfo) => {
+            ForEach(this.currSearchResult?.audioInfoList, (audioInfo: AudioInfo) => {
               SearchPlayMusicComponent({ audioInfo: audioInfo })
             })
           }
@@ -125,7 +125,7 @@ export default struct SearchSynthesizeComponent {
           // 模拟数据 视频详细信息列表
           Column() {
 
-            ForEach(this.currSearchResult.videoDetailInfo, (videoDetailInfo: VideoDetailInfo) => {
+            ForEach(this.currSearchResult?.videoDetailInfo, (videoDetailInfo: VideoDetailInfo) => {
               Divider()
                 .vertical(false)
                 .height(10)

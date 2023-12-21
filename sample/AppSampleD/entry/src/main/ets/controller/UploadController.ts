@@ -16,6 +16,7 @@ import http from '@ohos.net.http';
 import Logger from '../utils/Logger';
 import Constant from '../utils/Constant';
 import NetworkModel from '../model/NetworkModel';
+import R from '../appsampled/data/R';
 
 const TAG: string = '[UploadController]';
 
@@ -33,7 +34,8 @@ export default class UploadController {
       if (res) {
         Logger.info(TAG, `uploadFile success`);
         // 上传成功后请求服务器添加文件
-        this.networkModel.request(Constant.ACTION_ADD_FILE, http.RequestMethod.POST, extraData, globalThis.userInfo.token);
+        let data: ESObject= AppStorage.get("userInfo");
+        this.networkModel.request(Constant.ACTION_ADD_FILE, http.RequestMethod.POST, extraData, data?.token);
       }
     });
   }

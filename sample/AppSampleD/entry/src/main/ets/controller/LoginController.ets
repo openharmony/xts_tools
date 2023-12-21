@@ -26,7 +26,7 @@ export default class LoginController {
 
   public async login(phoneNumber: string, password: string): Promise<R> {
     Logger.info(TAG, `login phoneNumber->${phoneNumber}，password->${password}`);
-    let extraData = {
+    let extraData: ESObject = {
       username: phoneNumber,
       password: password
     };
@@ -35,11 +35,11 @@ export default class LoginController {
     // 拿到响应中服务端返回的数据
     let data = response.result.toString();
     // 将其转成Json数据
-    let jsonData = JSON.parse(data);
+    let jsonData: ESObject = JSON.parse(data);
     Logger.info(TAG, `login jsonData->${JSON.stringify(jsonData)}`)
     // 统一的返回类型
     let result = new R();
-    let loginResult = null;
+    let loginResult: ESObject ;
     // result不为空则赋值其中的数据
     if (jsonData.result) {
       loginResult = new LoginResult();

@@ -23,7 +23,7 @@ const TAG: string = '[SearchPlayMusicComponent]';
 
 @Component
 export default struct SearchPlayMusicComponent {
-  private audioInfo: AudioInfo;
+  private audioInfo?: AudioInfo;
   private avPlayerModel: AVPlayerModel = new AVPlayerModel(getContext(this));
   @State isCollect: boolean = false;
   @State isPlay: boolean = false;
@@ -35,10 +35,10 @@ export default struct SearchPlayMusicComponent {
       Logger.info(TAG, `emitter on data = ${JSON.stringify(data)}`)
       if (data) {
         // 拿出传过来的ID
-        let audioId = data.data.audioId;
+        let audioId: number = data.data?.audioId;
         Logger.info(TAG, `emitter on data audioId= ${JSON.stringify(audioId)}`)
         // 不与当前ID相同则暂停，规避自身也会暂停的问题
-        if (audioId && audioId !== this.audioInfo.audioId) {
+        if (audioId && audioId !== this.audioInfo?.audioId) {
           Logger.info(TAG, `emitter on data this.isPlay= ${JSON.stringify(this.isPlay)}`)
           if (this.isPlay) {
             this.avPlayerModel.paused();
@@ -63,7 +63,7 @@ export default struct SearchPlayMusicComponent {
           .height(26)
           .objectFit(ImageFit.Contain)
       }
-      .id(`musicID_${this.audioInfo.audioId}`)
+      .id(`musicID_${this.audioInfo?.audioId}`)
       .width(74)
       .height(74)
       .margin({ right: 12 })
@@ -76,12 +76,12 @@ export default struct SearchPlayMusicComponent {
           // 播放当前音乐时发送事件暂停其他音乐播放事件
           emitter.emit({ eventId: Constant.EVENT_PAUSED_AUDIO }, {
             data: {
-              ['audioId']: this.audioInfo.audioId
+              'audioId': this.audioInfo?.audioId
             }
           });
           // 第一次点击播放先初始化音乐
           if (!this.isInit) {
-            this.avPlayerModel.avPlayerFdSrcDemo(this.audioInfo.audio);
+            this.avPlayerModel.avPlayerFdSrcDemo(this.audioInfo?.audio);
             this.isInit = !this.isInit;
           } else {
             // 初始化过的直接播放
@@ -99,7 +99,7 @@ export default struct SearchPlayMusicComponent {
             .height(18)
             .objectFit(ImageFit.Contain)
             .borderRadius(10)
-          Text(this.audioInfo.audioName)
+          Text(this.audioInfo?.audioName)
             .height(18)
             .fontColor($r('app.color.COLOR_FFFFFF'))
             .fontSize(16)
@@ -108,7 +108,7 @@ export default struct SearchPlayMusicComponent {
         }
         .height(30)
 
-        Text(this.audioInfo.audioAuthorName)
+        Text(this.audioInfo?.audioAuthorName)
           .height(18)
           .fontColor($r('app.color.COLOR_CCFFFFFF'))
           .fontSize(14)
@@ -116,7 +116,7 @@ export default struct SearchPlayMusicComponent {
           .textAlign(TextAlign.Start)
 
         Row({ space: 5 }) {
-          Text(this.audioInfo.audioTime)
+          Text(this.audioInfo?.audioTime)
             .height(18)
             .fontColor($r('app.color.COLOR_CCFFFFFF'))
             .fontSize(14)
@@ -127,7 +127,7 @@ export default struct SearchPlayMusicComponent {
             .height(2)
             .backgroundColor($r('app.color.COLOR_CCFFFFFF'))
             .borderRadius(1)
-          Text(this.audioInfo.audioNum)
+          Text(this.audioInfo?.audioNum)
             .height(18)
             .fontColor($r('app.color.COLOR_CCFFFFFF'))
             .fontSize(14)

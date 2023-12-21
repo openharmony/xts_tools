@@ -52,12 +52,12 @@ export default class NetworkModel {
   public uploadFile(action: string, fileName: string, callback): void {
     Logger.info(TAG, `upload file create action = ${action}, fileName = ${fileName}`)
     Logger.info(TAG, `upload url = ${Constant.URL + action}`)
-    Logger.info(TAG, `upload token = ${globalThis.userInfo.token}`)
     let uploadTask: request.UploadTask;
+    let data: ESObject = AppStorage.get("userInfo");
     let uploadConfig = {
       url: Constant.URL + action,
       header: {
-        'X-Access-Token': globalThis.userInfo.token, 'Content-Type': 'multipart/form-data'
+        'X-Access-Token': data?.token, 'Content-Type': 'multipart/form-data'
       },
       method: "POST",
       files: [{

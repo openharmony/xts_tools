@@ -16,11 +16,11 @@ import { ChatBox } from '../appsampled/data/ChatBox';
 
 @Component
 export default struct ChatComponent {
-  private item: ChatBox = undefined;
+  private item: ChatBox | undefined = undefined;
 
   build() {
     Row() {
-      if (!this.item.isSend) {
+      if (!this.item?.isSend) {
         Image($r('app.media.app_icon'))
           .width(50)
           .height(50)
@@ -29,19 +29,19 @@ export default struct ChatComponent {
           .margin({ left: 10, right: 10 })
       }
       Column() {
-        Text(this.item.message)
+        Text(this.item?.message)
           .maxLines(5)
           .padding(10)
           .fontSize(18)
           .fontColor($r('app.color.COLOR_FFFFFF'))
           .fontFamily($r('app.string.Font_family_regular'))
           .borderRadius(14)
-          .alignSelf(this.item.isSend ? ItemAlign.End : ItemAlign.Start)
-          .backgroundColor(this.item.isSend ? $r('app.color.COLOR_3DA0F1') : $r('app.color.COLOR_393939'))
+          .alignSelf(this.item?.isSend ? ItemAlign.End : ItemAlign.Start)
+          .backgroundColor(this.item?.isSend ? $r('app.color.COLOR_3DA0F1') : $r('app.color.COLOR_393939'))
       }
       .width('85%')
 
-      if (this.item.isSend) {
+      if (this.item?.isSend) {
         Image($r('app.media.app_icon'))
           .width(50)
           .height(50)

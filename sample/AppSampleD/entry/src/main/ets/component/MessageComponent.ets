@@ -26,20 +26,20 @@ export default struct MessagePage {
   private scrollerVer: Scroller = new Scroller();
   private userArr: Array<User> = getMockUser(); // 用户信息模拟数据
 
-  private currentUser: User = null; // 当前用户信息
-  private oppositeUser: User = null; // 对端用户信息
+  private currentUser: User | null = null; // 当前用户信息
+  private oppositeUser: User | null = null; // 对端用户信息
 
   aboutToAppear(){
     // globalThis.oppositeUser = new User('13222222222',$r('app.media.ic_headphoto_2'));
 
-    if (globalThis.currentUser) {
-      this.currentUser = globalThis.currentUser;
+    if (AppStorage.get("currentUser")) {
+      this.currentUser = AppStorage.get("currentUser")!;
     }
-    if (globalThis.oppositeUser) {
-      this.oppositeUser = globalThis.oppositeUser;
+    if (AppStorage.get("oppositeUser")) {
+      this.oppositeUser = AppStorage.get("oppositeUser")!;
       // 将模拟数据中的第一条替换成真实对端数据
-      this.userArr[0].setUsername(this.oppositeUser.getUsername());
-      this.userArr[0].setUserIcon(this.oppositeUser.getUserIcon());
+      this.userArr[0].setUsername(this.oppositeUser?.getUsername());
+      this.userArr[0].setUserIcon(this.oppositeUser?.getUserIcon());
     }
   }
 
@@ -71,7 +71,7 @@ export default struct MessagePage {
             // 横向列表
             Scroll(this.scrollerHor) {
               Row() {
-                ForEach(this.userArr, (user) => {
+                ForEach(this.userArr, (user: User) => {
                   Column(){
                     Image($r('app.media.app_icon'))
                       .width(70)

@@ -17,6 +17,7 @@ import Logger from '../utils/Logger';
 import Constant from '../utils/Constant';
 import NetworkModel from '../model/NetworkModel';
 import R from '../appsampled/data/R';
+import App from '@system.app';
 
 const TAG: string = '[ChatController]';
 
@@ -39,7 +40,8 @@ export default class ChatController {
       testData: `{ \"content\": \"${msg}\" }`
     };
     Logger.info(TAG, `sendMessage extraData->${JSON.stringify(extraData)}`);
-    let response = await this.networkModel.request(Constant.ACTION_SEND_MESSAGE, http.RequestMethod.POST, extraData, globalThis.userInfo.token);
+    let responseData: ESObject = AppStorage.get("userInfo");
+    let response = await this.networkModel.request(Constant.ACTION_SEND_MESSAGE, http.RequestMethod.POST, extraData, responseData.token);
     // 拿到响应中服务端返回的数据
     Logger.info(TAG, `sendMessage response.result->${JSON.stringify(response.result)}`);
     let data = response.result.toString();
@@ -63,7 +65,8 @@ export default class ChatController {
    */
   public onMessage(id: string, callback) {
     Logger.info(TAG, `onMessage begin id:${id}`);
-    this.networkModel.onMessage(id, globalThis.userInfo.token, (value) => {
+    let data: ESObject = AppStorage.get("userInfo");
+    this.networkModel.onMessage(id, data?.token, (value) => {
       Logger.info(TAG, `onMessage value: ${value}`);
       let result = JSON.parse(value);
       Logger.info(TAG, `onMessage result: ${result}`);
