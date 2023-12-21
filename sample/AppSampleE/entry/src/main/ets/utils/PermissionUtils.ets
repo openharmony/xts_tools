@@ -14,7 +14,7 @@
  */
 
 import abilityAccessCtrl from '@ohos.abilityAccessCtrl';
-import type { Permissions } from '@ohos.abilityAccessCtrl';
+import { Permissions } from '@ohos.abilityAccessCtrl';
 import bundleManager from '@ohos.bundle.bundleManager';
 import Logger from './Logger';
 
@@ -47,7 +47,7 @@ export default async function grantPermission(): Promise<boolean> {
     }
     if (pems.length > 0) {
       Logger.info(TAG, 'grantPermission  requestPermissionsFromUser :' + JSON.stringify(pems));
-      let result = await atManager.requestPermissionsFromUser(globalThis.abilityContext, pems);
+      let result = await atManager.requestPermissionsFromUser(AppStorage.get('abilityContext')!, pems);
 
       let grantStatus: Array<number> = result.authResults;
       let length: number = grantStatus.length;

@@ -16,8 +16,10 @@
 import router from '@ohos.router';
 import BusinessController from '../../controller/BusinessController';
 import CommodityController from '../../controller/CommodityController';
+import { BusinessInfo, CommodityInfo } from '../../data/Server';
 import Logger from '../../utils/Logger';
 import { getStringData } from '../../utils/ResourceDataHandle';
+import { BusinessError } from '@ohos.base';
 
 const TAG: string = '[Buy]';
 
@@ -26,29 +28,29 @@ const TAG: string = '[Buy]';
 struct Buy {
   private businessController: BusinessController = new BusinessController();
   private commodityController: CommodityController = new CommodityController();
-  @State businessList: Array<any>[] = []; // 商家列表
-  @State commodityList: Array<Array<any>[]> = []; // 商品列表
+  @State businessList: Array<BusinessInfo> = []; // 商家列表
+  @State commodityList: CommodityInfo[][] = []; // 商品列表
   @State longitude: string = getStringData($r('app.string.buy_longitude')); // 经度
   @State latitude: string = getStringData($r('app.string.buy_latitude')); // 纬度
 
   aboutToAppear() {
     Logger.info(TAG, 'Buy aboutToAppear begin');
     // 商家列表
-    this.businessController.getBusinessList(this.longitude, this.latitude).then(res => {
+    this.businessController.getBusinessList(this.longitude, this.latitude).then((res: BusinessInfo[]) => {
       Logger.info(TAG, `aboutToAppear then res= ${JSON.stringify(res)}`);
       this.businessList = res;
       this.businessList.forEach((business, index) => {
         // 商品列表
         let businessId = business['id'];
         Logger.info(TAG, `commodityList then business= ${JSON.stringify(businessId)},index = ${index}`);
-        this.commodityController.getCommodityList(businessId).then(res => {
+        this.commodityController.getCommodityList(businessId).then((res: CommodityInfo[]) => {
           this.commodityList[index] = res;
           Logger.info(TAG, `commodityList then commodityList = ${JSON.stringify(this.commodityList)}`);
-        }).catch(err => {
+        }).catch((err: BusinessError) => {
           Logger.info(TAG, `commodityList catch err= ${err}`);
         })
       })
-    }).catch(err => {
+    }).catch((err: BusinessError) => {
       Logger.info(TAG, `aboutToAppear catch err= ${JSON.stringify(err)}`);
     })
   }
@@ -60,7 +62,7 @@ struct Buy {
           Image($r('app.media.icon'))
             .height(24)
             .width(24)
-            .id('back')
+            .id('buyBack')
             .onClick(() => {
               router.back();
             })
@@ -129,7 +131,7 @@ struct Buy {
 
       Scroll() {
         Column() {
-          ForEach(this.businessList, (business, index) => {
+          ForEach(this.businessList, (business: BusinessInfo, index) => {
             Row() {
               Row() {
                 Image($r('app.media.icon'))
@@ -197,7 +199,7 @@ struct Buy {
 
                 Scroll() {
                   Row() {
-                    ForEach(this.commodityList[index], (commodity) => {
+                    ForEach(this.commodityList[index], (commodity: CommodityInfo) => {
                       Row() {
                         Column() {
                           Image($r('app.media.icon'))

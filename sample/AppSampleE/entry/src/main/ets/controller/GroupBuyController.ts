@@ -16,6 +16,7 @@ import http from '@ohos.net.http';
 import Logger from '../utils/Logger';
 import Constant from '../utils/Constant';
 import NetworkModel from '../model/NetworkModel';
+import LoginResult from '../data/LoginResult';
 
 const TAG: string = '[GroupBuyController]';
 
@@ -29,7 +30,8 @@ export default class GroupBuyController {
       latitude: latitude
     };
     Logger.info(TAG, `GroupBuyList extraData->${JSON.stringify(extraData)}`);
-    let response = await this.networkModel.request(Constant.ACTION_GROUP_BUY, http.RequestMethod.GET, extraData, globalThis.userInfo.token);
+    let userInfo: LoginResult = AppStorage.get('userInfo')!
+    let response = await this.networkModel.request(Constant.ACTION_GROUP_BUY, http.RequestMethod.GET, extraData, userInfo.token);
     Logger.info(TAG, `GroupBuyList response->${JSON.stringify(response)}`);
     // 拿到响应中服务端返回的数据
     Logger.info(TAG, `GroupBuyList response.result->${JSON.stringify(response.result)}`);

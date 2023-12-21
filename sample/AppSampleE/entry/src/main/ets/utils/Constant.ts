@@ -16,8 +16,8 @@
 export default class Constant {
 
   // URL
-  public static readonly URL: string = 'http://192.168.18.165:8080/jeecg-boot';
-  public static readonly ACTION_ON_MESSAGE_URL: string = 'ws://192.168.18.165:8080/jeecg-boot/websocket/';
+  public static readonly URL: string = 'http://192.168.18.16:8080/jeecg-boot';
+  public static readonly ACTION_ON_MESSAGE_URL: string = 'ws://192.168.18.16:8080/jeecg-boot/websocket/';
   public static readonly ACTION_SEND_MESSAGE: string = '/sys/message/sysMessageTemplate/sendMsg';
   public static readonly UPLOAD_URL: string = 'sampleE';
   public static readonly ACTION_LOGIN: string = '/sys/login';

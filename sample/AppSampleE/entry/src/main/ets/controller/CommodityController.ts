@@ -16,6 +16,7 @@ import http from '@ohos.net.http';
 import Logger from '../utils/Logger';
 import Constant from '../utils/Constant';
 import NetworkModel from '../model/NetworkModel';
+import LoginResult from '../data/LoginResult';
 
 const TAG: string = '[CommodityController]';
 
@@ -28,7 +29,8 @@ export default class CommodityController {
       businessId: businessId
     };
     Logger.info(TAG, `getCommodityList extraData->${JSON.stringify(extraData)}`);
-    let response = await this.networkModel.request(Constant.ACTION_GET_COMMODITY_LIST, http.RequestMethod.GET, extraData, globalThis.userInfo.token);
+    let userInfo: LoginResult = AppStorage.get('userInfo')!
+    let response = await this.networkModel.request(Constant.ACTION_GET_COMMODITY_LIST, http.RequestMethod.GET, extraData, userInfo.token);
     Logger.info(TAG, `getCommodityList response->${JSON.stringify(response)}`);
     // 拿到响应中服务端返回的数据
     Logger.info(TAG, `getCommodityList response.result->${JSON.stringify(response.result)}`);
@@ -51,7 +53,8 @@ export default class CommodityController {
       id: commodityId
     };
     Logger.info(TAG, `getCommodityById extraData->${JSON.stringify(extraData)}`);
-    let response = await this.networkModel.request(Constant.ACTION_GET_COMMODITY_DETAIL, http.RequestMethod.GET, extraData, globalThis.userInfo.token);
+    let userInfo: LoginResult = AppStorage.get('userInfo')!
+    let response = await this.networkModel.request(Constant.ACTION_GET_COMMODITY_DETAIL, http.RequestMethod.GET, extraData, userInfo.token);
     Logger.info(TAG, `getCommodityById response->${JSON.stringify(response)}`);
     // 拿到响应中服务端返回的数据
     Logger.info(TAG, `getCommodityById response.result->${JSON.stringify(response.result)}`);

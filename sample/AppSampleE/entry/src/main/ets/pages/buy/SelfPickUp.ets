@@ -14,9 +14,11 @@
  */
 
 import router from '@ohos.router';
+import { BusinessError } from '@ohos.base';
 import GroupBuyController from '../../controller/GroupBuyController';
 import Logger from '../../utils/Logger';
 import { getStringData } from '../../utils/ResourceDataHandle';
+import { SelfPickUpInfo } from '../../data/Server'
 
 const TAG: string = '[SelfPickUp]';
 
@@ -24,17 +26,17 @@ const TAG: string = '[SelfPickUp]';
 @Component
 struct SelfPickUp {
   private groupBuyController: GroupBuyController = new GroupBuyController();
-  @State selfPickUpList: Array<any>[] = []; // 站点列表
+  @State selfPickUpList: Array<SelfPickUpInfo> = []; // 站点列表
   @State longitude: string = getStringData($r('app.string.buy_longitude')); // 经度
   @State latitude: string = getStringData($r('app.string.buy_latitude')); // 纬度
 
   aboutToAppear() {
     Logger.info(TAG, 'aboutToAppear begin');
-    this.groupBuyController.getGroupBuyList(this.longitude, this.latitude).then(res => {
+    this.groupBuyController.getGroupBuyList(this.longitude, this.latitude).then((res: SelfPickUpInfo[]) => {
       Logger.info(TAG, `aboutToAppear then res= ${JSON.stringify(res)}`);
       this.selfPickUpList = res;
       Logger.info(TAG, `aboutToAppear forEach this.selfPickUpList= ${JSON.stringify(this.selfPickUpList)}`);
-    }).catch(err => {
+    }).catch((err: BusinessError) => {
       Logger.info(TAG, `aboutToAppear catch err= ${JSON.stringify(err)}`);
     })
   }
@@ -49,7 +51,7 @@ struct SelfPickUp {
           .onClick(() => {
             router.back();
           })
-        .id('back')
+        .id('selfPickUpBack')
 
         Row() {
           Image($r('app.media.icon'))
@@ -111,7 +113,7 @@ struct SelfPickUp {
 
         Scroll() {
           Column() {
-            ForEach(this.selfPickUpList, (selfPickUp) => {
+            ForEach(this.selfPickUpList, (selfPickUp: SelfPickUpInfo) => {
               Row() {
                 Row() {
                   Image($r('app.media.icon'))
@@ -180,7 +182,7 @@ struct SelfPickUp {
               .width('95%')
               .height('20%')
               .margin({ top: 24 })
-            })
+            }, (selfPickUp: SelfPickUpInfo) => JSON.stringify(selfPickUp))
           }
           .margin({ bottom: 150 })
         }

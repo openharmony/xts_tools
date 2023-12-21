@@ -18,6 +18,7 @@ import LoginController from '../../controller/LoginController';
 import LoginResult from '../../data/LoginResult';
 import Logger from '../../utils/Logger';
 import { getStringData } from '../../utils/ResourceDataHandle';
+import { BusinessError } from '@ohos.base';
 
 const TAG: string = '[Login]';
 
@@ -171,14 +172,14 @@ struct Login {
                   let data: LoginResult = res.data;
                   Logger.info(TAG, `login success: ${JSON.stringify(data.token)}`);
                   // 存储用户信息, 包括token
-                  globalThis.userInfo = data;
+                  AppStorage.setOrCreate('userInfo', data)
                   // 跳转页面
                   router.pushUrl({ url: 'pages/Index' });
                   return;
                 }
                 Logger.info(TAG, `login failed: ${JSON.stringify(res)}`);
               }, 800);
-            }).catch(err => {
+            }).catch((err: BusinessError) => {
               Logger.info(TAG, `login err: ${JSON.stringify(err)}`);
               promptAction.showToast({ message: $r('app.string.Connection_timesout'), duration: 1000, bottom: 500 });
             })
