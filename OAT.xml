@@ -65,6 +65,9 @@ Note:If the text contains special characters, please escape them according to th
             <filefilter name="binaryFileTypePolicyFilter" desc="Filters for binaryFile" >
                 <filteritem type="filename" name="*.gif" desc="all gif file have check "/>
             </filefilter>
+            <filefilter name="defaultPolicyFilter" desc="License文件头校验策略的过滤条件" >
+                <filteritem type="filepath" name="sample/ServerSampleD/java/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/sample/mapper/xml/VideoMapper.xml" desc="xml配置文件，无需添加License头"/>
+            </filefilter>
         </filefilterlist>
     </oatconfig>
 </configuration>
