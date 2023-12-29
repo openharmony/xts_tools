@@ -285,7 +285,7 @@
         "buildTarget": "multimedia"
     },
     {
-        "name": "multimedia_histreamer",
+        "name": "multimedia_media_foundation",
         "buildTarget": "multimedia"
     },
     {
