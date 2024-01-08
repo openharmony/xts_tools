@@ -585,11 +585,23 @@
         "buildTarget": "applications"
     },
     {
+        "name": "third_party_cups",
+        "buildTarget": "applications"
+    },
+    {
+        "name": "third_party_cups-filters",
+        "buildTarget": "applications"
+    },
+    {
         "name": "resourceschedule_device_standby",
         "buildTarget": "test/xts/acts/resourceschedule:resourceschedule"
     },
     {
         "name": "resourceschedule_qos_manager",
+        "buildTarget": "test/xts/acts/resourceschedule:resourceschedule"
+    },
+    {
+        "name": "resourceschedule_ffrt",
         "buildTarget": "test/xts/acts/resourceschedule:resourceschedule"
     },
     {
@@ -631,6 +643,14 @@
     {
         "name": "security_code_signature",
         "buildTarget": "security"
+    },
+    {
+        "name": "advertising_oaid",
+        "buildTarget": "test/xts/acts/advertising:advertising"
+    },
+    {
+        "name": "advertising_ads_framework",
+        "buildTarget": "test/xts/acts/advertising:advertising"
     },
     {
         "name": "third_party_musl",
