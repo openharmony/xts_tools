@@ -67,6 +67,10 @@ Note:If the text contains special characters, please escape them according to th
             </filefilter>
             <filefilter name="defaultPolicyFilter" desc="License文件头校验策略的过滤条件" >
                 <filteritem type="filepath" name="sample/ServerSampleD/java/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/sample/mapper/xml/VideoMapper.xml" desc="xml配置文件，无需添加License头"/>
+				<filteritem type="filepath" name="sample/ServerSampleE/java/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/sample/mapper/xml/BusinessCommentMapper.xml" desc="xml配置文件，无需添加License头"/>
+				<filteritem type="filepath" name="sample/ServerSampleE/java/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/sample/mapper/xml/BusinessGoodsMapper.xml" desc="xml配置文件，无需添加License头"/>
+				<filteritem type="filepath" name="sample/ServerSampleE/java/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/sample/mapper/xml/BusinessMapper.xml" desc="xml配置文件，无需添加License头"/>
+				<filteritem type="filepath" name="sample/ServerSampleE/java/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/sample/mapper/xml/GroupSiteMapper.xml" desc="xml配置文件，无需添加License头"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
