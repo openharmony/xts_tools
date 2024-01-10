@@ -55,7 +55,7 @@ import java.util.List;
 @RequestMapping("/sample/groupSite")
 @Api(tags = "oh-sample仿站点")
 public class GroupSiteController {
-    private final double EARTH_RADIUS = 6371; // 地球平均半径，单位为千米
+    private final double earthRadius = 6371d; // 地球平均半径，单位为千米
 
     @Autowired
     private IGroupSiteService siteService;
@@ -74,9 +74,9 @@ public class GroupSiteController {
         double radLat2 = Math.toRadians(lat2);
         double a = radLat1 - radLat2;
         double b = Math.toRadians(lng1) - Math.toRadians(lng2);
-        double s = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2) +
+        double s = 2d * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2) +
                 Math.cos(radLat1) * Math.cos(radLat2) * Math.pow(Math.sin(b / 2), 2)));
-        s = s * EARTH_RADIUS;
+        s = s * earthRadius;
         s = Precision.round(s, 2); // 保留两位小数
         return s;
     }
@@ -113,7 +113,7 @@ public class GroupSiteController {
                         Double.parseDouble(item.getLongitude()));
                 item.setDistance(dis);
             });
-            //按距离排序
+            // 按距离排序
             Collections.sort(siteList, new Comparator<OhSampleGroupSite>() {
                 @Override
                 public int compare(OhSampleGroupSite arg0, OhSampleGroupSite arg1) {

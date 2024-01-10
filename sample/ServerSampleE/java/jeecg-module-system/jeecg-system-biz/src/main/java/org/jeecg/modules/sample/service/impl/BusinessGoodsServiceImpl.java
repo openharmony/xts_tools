@@ -30,6 +30,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @Slf4j
-public class BusinessGoodsServiceImpl extends ServiceImpl<BusinessGoodsMapper, OhSampleBusinessGoods> implements IBusinessGoodsService {
+public class BusinessGoodsServiceImpl extends ServiceImpl<BusinessGoodsMapper,
+        OhSampleBusinessGoods> implements IBusinessGoodsService {
 
 }

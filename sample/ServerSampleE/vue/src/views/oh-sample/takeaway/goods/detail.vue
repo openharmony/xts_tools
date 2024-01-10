@@ -88,15 +88,15 @@ const businessModel = ref({
 function getDetail() {
   detail({ id: goodsId.value }).then((data) => {
     data.cover = getFileAccessHttpUrl(data.cover);
-      goodsModel.value = data;
-      getBusinessDetail(goodsModel.value.businessId);
+    goodsModel.value = data;
+    getBusinessDetail(goodsModel.value.businessId);
   });
 }
 
 function getBusinessDetail(id) {
   detailBusiness({ id: id }).then((data) => {
-      data.cover = getFileAccessHttpUrl(data.cover);
-      businessModel.value = data;
+    data.cover = getFileAccessHttpUrl(data.cover);
+    businessModel.value = data;
   });
 }
 

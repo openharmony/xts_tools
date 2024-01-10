@@ -70,7 +70,7 @@ export const batchDeleteGoods = (params, handleSuccess): void => {
 /**
  * 保存或者更新
  */
-export const saveOrUpdateGoods = (params, isUpdate): Promise<any> => {
+export const saveOrUpdateGoods = (params, isUpdate): Promise<string> => {
   const url = isUpdate ? Api.EDIT : Api.SAVE;
   return defHttp.post({ url: url, params });
 };

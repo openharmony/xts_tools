@@ -63,7 +63,7 @@ export const batchDeleteBusiness = (params, handleSuccess): void => {
 /**
  * 保存或者更新
  */
-export const saveOrUpdate = (params, isUpdate): Promise<any> => {
+export const saveOrUpdate = (params, isUpdate): Promise<string> => {
   const url = isUpdate ? Api.EDIT : Api.SAVE;
   return defHttp.post({ url: url, params });
 };

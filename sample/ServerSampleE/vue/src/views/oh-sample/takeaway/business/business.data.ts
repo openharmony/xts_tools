@@ -90,7 +90,7 @@ export const columnsGoods: BasicColumn[] = [
     dataIndex: 'action',
     slots: { customRender: 'action' },
   },
-]
+];
 
 export const columnsComment: BasicColumn[] = [
   {
@@ -121,7 +121,7 @@ export const columnsComment: BasicColumn[] = [
     dataIndex: 'action',
     slots: { customRender: 'action' },
   },
-]
+];
 
 export const searchFormSchema: FormSchema[] = [
   {
@@ -143,6 +143,7 @@ export const searchFormSchema: FormSchema[] = [
     colProps: { span: 4 },
   },
 ];
+
 export const formSchema: FormSchema[] = [
   {
     field: 'id',
