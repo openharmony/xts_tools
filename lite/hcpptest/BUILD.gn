@@ -15,10 +15,14 @@ config("hcpptest_private_config") {
   visibility = [ ":*" ]
   include_dirs = [ "//third_party/googletest/googletest" ]
   ldflags = [ "-lstdc++" ]
+  cflags_cc = [ "-std=c++17" ]
+  cflags = [ "-std=c++17" ]
 }
 
 config("hcpptest_config") {
   include_dirs = [ "//third_party/googletest/googletest/include" ]
+  cflags_cc = [ "-std=c++17" ]
+  cflags = [ "-std=c++17" ]
   ldflags = [
     "-lstdc++",
     "-Wl,-rpath=./lib",
