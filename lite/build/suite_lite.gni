@@ -152,11 +152,6 @@ template("hcpptest_suite") {
     } else {
       include_dirs = _include_dirs
     }
-    configs = []
-    if (defined(invoker.configs)){
-      configs += invoker.configs
-    }
-    configs += [ "//build/lite/config:gtest_feature_cpp" ]
     _deps = [ "//test/xts/tools/lite/hcpptest:hcpptest_main" ]
     if (defined(deps)) {
       deps += _deps
