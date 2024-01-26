@@ -15,14 +15,10 @@ config("hcpptest_private_config") {
   visibility = [ ":*" ]
   include_dirs = [ "//third_party/googletest/googletest" ]
   ldflags = [ "-lstdc++" ]
-  cflags_cc = [ "-std=c++17" ]
-  cflags = [ "-std=c++17" ]
 }
 
 config("hcpptest_config") {
   include_dirs = [ "//third_party/googletest/googletest/include" ]
-  cflags_cc = [ "-std=c++17" ]
-  cflags = [ "-std=c++17" ]
   ldflags = [
     "-lstdc++",
     "-Wl,-rpath=./lib",
@@ -62,7 +58,6 @@ static_library("hcpptest") {
     "//third_party/googletest/googletest/include/gtest/internal/gtest-string.h",
     "//third_party/googletest/googletest/include/gtest/internal/gtest-tuple.h",
     "//third_party/googletest/googletest/include/gtest/internal/gtest-type-util.h",
-    "//third_party/googletest/googletest/src/gtest-assertion-result.cc",
     "//third_party/googletest/googletest/src/gtest-death-test.cc",
     "//third_party/googletest/googletest/src/gtest-filepath.cc",
     "//third_party/googletest/googletest/src/gtest-internal-inl.h",
