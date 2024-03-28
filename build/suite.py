@@ -76,7 +76,7 @@ class XDeviceBuilder:
         build xdevice package
         :return:
         """
-        current_parentDir_path = os.path.dirname(os.path.dirname(os.path.abspath(file)))
+        current_parentDir_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         xtsTools_othersign_dir = os.path.join(current_parentDir_path, 'others', 'sign')
         run_scripts1 = ",".join(
             [os.path.join(xtsTools_othersign_dir, "add_root.bat"),
