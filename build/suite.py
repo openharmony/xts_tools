@@ -76,11 +76,12 @@ class XDeviceBuilder:
         build xdevice package
         :return:
         """
-        current_parentDir_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        xtsTools_othersign_dir = os.path.join(current_parentDir_path, 'others', 'sign')
+        current_parentdir_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        xtstools_othersign_dir = os.path.join(current_parentdir_path, 'others', 'sign')
         run_scripts1 = ",".join(
-            [os.path.join(xtsTools_othersign_dir, "add_root.bat"),
-             os.path.join(xtsTools_othersign_dir, "add_trust_root.py")])
+            [os.path.join(xtstools_othersign_dir, "add_root.bat"),
+             os.path.join(xtstools_othersign_dir, "add_root.sh"),
+             os.path.join(xtstools_othersign_dir, "add_trust_root.py")])
         ohos_dir = os.path.join(self.args.source_dir, 'plugins', 'ohos')
         gen_dir0 = os.path.join(self.args.source_dir, 'dist')
         gen_dir1 = os.path.join(ohos_dir, 'dist')
@@ -109,25 +110,29 @@ class XDeviceBuilder:
         dist_sign_dir = os.path.join(self.args.suite_out_dir, 'sign')
         utils.copy_file(output=dist_sign_dir, sources=run_scripts1,
                         to_dir=True)
-        acts_validator_dir = os.path.join(self.args.suite_out_dir, '../acts-validator')
-        acts_validator_tools_dir = os.path.join(self.args.suite_out_dir, '../acts-validator/tools')
-        acts_validator_sign_dir = os.path.join(self.args.suite_out_dir, '../acts-validator/sign')
-        utils.copy_file(output=acts_validator_tools_dir, source_dirs=gen_dir0,
-                        to_dir=True)
-        utils.copy_file(output=acts_validator_tools_dir, source_dirs=gen_dir1,
-                        to_dir=True)
-        utils.copy_file(output=acts_validator_dir, sources=run_scripts,
-                        to_dir=True)
-        utils.copy_file(output=acts_validator_sign_dir, sources=run_scripts1,
-                        to_dir=True)
+        xtssuite_out_dir = self.args.suite_out_dir
+        if (xtssuite_out_dir.find('/acts/') != -1):
+            acts_validator_dir = os.path.join(self.args.suite_out_dir, '../acts-validator/')
+            acts_validator_tools_dir = os.path.join(self.args.suite_out_dir, '../acts-validator/tools/')
+            acts_validator_sign_dir = os.path.join(self.args.suite_out_dir, '../acts-validator/sign/')
+            utils.copy_file(output=acts_validator_tools_dir, source_dirs=gen_dir0,
+                            to_dir=True)
+            utils.copy_file(output=acts_validator_tools_dir, source_dirs=gen_dir1,
+                            to_dir=True)
+            utils.copy_file(output=acts_validator_dir, sources=run_scripts,
+                            to_dir=True)
+            utils.copy_file(output=acts_validator_sign_dir, sources=run_scripts1,
+                            to_dir=True)
+
 
         if self.args.configs_dir:
             dist_configs_dir = os.path.join(self.args.suite_out_dir, 'config')
-            acts_validator_config_dir = os.path.join(self.args.suite_out_dir, '../acts-validator/config')
             utils.copy_file(output=dist_configs_dir, 
                             source_dirs=self.args.configs_dir, to_dir=True)
-            utils.copy_file(output=acts_validator_config_dir, 
-                            source_dirs=self.args.configs_dir, to_dir=True)
+            if (xtssuite_out_dir.find('/acts/') != -1):
+                acts_validator_config_dir = os.path.join(self.args.suite_out_dir, '../acts-validator/config/')
+                utils.copy_file(output=acts_validator_config_dir, 
+                                source_dirs=self.args.configs_dir, to_dir=True)
         if self.args.resources_dir:
             dist_resources_dir = os.path.join(self.args.suite_out_dir,
                                               'resource')
