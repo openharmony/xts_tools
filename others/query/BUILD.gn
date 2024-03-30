@@ -33,7 +33,7 @@ ohos_executable("queryStandard") {
 ohos_copy("cpQueStan") {
   sources = [ "$root_out_dir/xts/tools/queryStandard" ]
   if (XTS_SUITENAME == "acts") {
-    outputs = [ "$root_out_dir/suites/${XTS_SUITENAME}/acts-autoCom/testcases/queryStandard" ]
+    outputs = [ "$root_out_dir/suites/${XTS_SUITENAME}/acts_autoCompatibility/testcases/queryStandard" ]
   } else {
     outputs =
         [ "$root_out_dir/suites/${XTS_SUITENAME}/testcases/queryStandard" ]
