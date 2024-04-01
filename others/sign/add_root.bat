@@ -11,6 +11,7 @@
 @rem See the License for the specific language governing permissions and
 @rem limitations under the License.
 
+@echo off
 hdc file recv /system/etc/security/trusted_root_ca.json
 python add_trust_root.py
 hdc shell mount -o rw,remount /
