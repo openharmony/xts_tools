@@ -145,7 +145,7 @@ template("ohos_testsuite_base") {
     subsystem_name = XTS_SUITENAME
     if (subsystem_name == "acts") {
       _suite_out_dir =
-          "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts_autoCompatibility"
+          "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts"
     }
     if (_project_type == "testhapassist") {
       _final_hap_path = "${_suite_out_dir}/testcases/${_hap_name}.hap"
@@ -223,7 +223,7 @@ template("ohos_testsuite_base") {
   subsystem_name = XTS_SUITENAME
   if (subsystem_name == "acts") {
     _suite_out_dir =
-        "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts_autoCompatibility"
+        "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts"
   }
   if (_project_type == "testhapassist" || _project_type == "testappassist") {
     _archive_testfile =
@@ -231,7 +231,7 @@ template("ohos_testsuite_base") {
   } else if (_project_type == "testhap") {
     _hap_name = invoker.hap_name
     if (_hap_name == "validator" && subsystem_name == "acts") {
-      _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts_validator"
+      _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts-validator"
       _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
     } else {
       _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
@@ -443,10 +443,10 @@ template("ohos_deploy_xdevice") {
   if (subsystem_name == "acts") {
     _hap_name = target_name
     if (_hap_name == "validator") {
-      _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts_validator"
+      _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts-validator"
     } else {
       _suite_out_dir =
-          "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts_autoCompatibility"
+          "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts"
     }
   }
 
