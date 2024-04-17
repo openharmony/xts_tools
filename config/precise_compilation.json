@@ -206,7 +206,6 @@
     {
         "name": "filemanagement_dfs_service",
         "buildTarget": "test/xts/acts/storage:storage"
-
     },
     {
         "name": "filemanagement_file_api",
@@ -478,7 +477,7 @@
     },
     {
         "name": "ostest_wukong",
-        "buildTarget": "test/xts/acts/wukong:wukong"
+        "buildTarget": "test/xts/acts/ostest:ostest"
     },
     {
         "name": "productdefine_common",
