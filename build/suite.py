@@ -41,9 +41,9 @@ def _get_xts_rootpath(project_path):
 
 
 def _get_subsystem_name(project_path):
-    if '/hits/' in  project_path:
+    if '/hits/' in project_path:
         index0 = project_path.find('/hits/') + len('/hits/')
-    elif '/acts/' in  project_path:
+    elif '/acts/' in project_path:
         index0 = project_path.find('/acts/') + len('/acts/')
     else:
         raise ValueError('Illegal xts project path ' + project_path)
@@ -222,7 +222,7 @@ class SuiteModuleWithTestbundleBuilder:
             dest_file = os.path.join(
                 _testcases_dir, "{}.hap".format(_testsuite_name))            
             self._copy_file(args.buildgen_testfile, dest_file)
-            os.chmod(dest_file, stat.S_IRWXU|stat.S_IRWXG|stat.S_IRWXO)
+            os.chmod(dest_file, stat.S_IRWXU | stat.S_IRWXG | stat.S_IRWXO)
             return
         if args.project_type == "pythontest":
             self._generate_json_by_template(_test_xml.replace(".xml", ".json"),
@@ -240,7 +240,8 @@ class SuiteModuleWithTestbundleBuilder:
                                      _testcases_dir)
         self._record_testpart_info(args.build_target_name,
                                      _testsuite_name,
-                                     _testcases_dir,args.subsystem_name,args.part_name)
+                                     _testcases_dir,
+                                     args.subsystem_name,args.part_name)
         if _test_xml and os.path.exists(_test_xml):
             self._copy_file(_test_xml, _config_file)
         elif _test_xml.replace(".xml", ".json") and \

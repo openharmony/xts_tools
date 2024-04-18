@@ -98,16 +98,16 @@ int main()
         printf("VersionID = %s\n", versionId);
     }
 
-    AttestResultInfo attestResultInfo = { 0 };
+    AttestResultInfo attestResultInfo = {0};
     attestResultInfo.ticket = NULL;
     int32_t retStatus = GetAttestStatus(&attestResultInfo);
     if (retStatus != DEVATTEST_SUESS) {
         printf("[CLIENT MAIN] wrong. retStatus:%d\n", retStatus);
     }
-    printf("authResult = %d\n",attestResultInfo.authResult);
-    printf("softwareResult = %d\n",attestResultInfo.softwareResult);
+    printf("authResult = %d\n", attestResultInfo.authResult);
+    printf("softwareResult = %d\n", attestResultInfo.softwareResult);
 
-    char udid[UDIDSIZE_LEN + 1] = { 0 };
+    char udid[UDIDSIZE_LEN + 1] = {0};
     int retUdid = GetDevUdid(udid, UDIDSIZE_LEN + 1);
     if (retUdid == 0) {
         printf("DevUdid = %s\n", udid);
@@ -158,7 +158,7 @@ int main()
         printf("marketName = %s\n", marketName);
     }
 
-    ObtainProductParms();	
+    ObtainProductParms();
 
     printf("******To Obtain Product Params End  ******\n");
     return 0;

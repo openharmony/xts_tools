@@ -30,19 +30,23 @@
 
 #define UDIDSIZE_LEN 64
 
-void setUp(void) {}
-void tearDown(void) {}
-void suiteSetUp(void) { }
-int suiteTearDown(int num_failures) { return num_failures; }
-
+void setUp(void)
+{}
+void tearDown(void)
+{}
+void suiteSetUp(void)
+{}
+int suiteTearDown(int num_failures)
+{
+    return num_failures;
+}
 
 static TestSuiteManager g_testSuiteManager;
 static BOOL CompareInputType(const char *source, const char *input);
-static void RunSingleTestCase(CTestCase* cTestCase,
-                              const char *caseName, const int32 flag);
+static void RunSingleTestCase(CTestCase *cTestCase, const char *caseName, const int32 flag);
 static int16 g_totalSuitesNum = 0;
 static int16 g_doneSuitesNum = 0;
-static void RunSingleTestSuite(CTestSuite* testSuite)
+static void RunSingleTestSuite(CTestSuite *testSuite)
 {
     if (testSuite == NULL) {
         return;
@@ -70,17 +74,17 @@ static void RunSingleTestSuite(CTestSuite* testSuite)
     UnityEnd();
 }
 
-static CTestSuite* GetTestSuite(const char *test_suite)
+static CTestSuite *GetTestSuite(const char *test_suite)
 {
-    CTestSuite* suite = NULL;
-    TestSuiteManager* testMgr = GetTestMgrInstance();
+    CTestSuite *suite = NULL;
+    TestSuiteManager *testMgr = GetTestMgrInstance();
     if (testMgr == NULL || test_suite == NULL) {
         return suite;
     }
     int16 size = VECTOR_Size(&(testMgr->test_suites));
     int16 i;
     for (i = 0; i < size; i++) {
-        CTestSuite* curSuite = (CTestSuite *)(VECTOR_At(&(testMgr->test_suites), i));
+        CTestSuite *curSuite = (CTestSuite *)(VECTOR_At(&(testMgr->test_suites), i));
         if (strcmp(curSuite->suite_name, test_suite) == 0) {
             suite = curSuite;
             break;
@@ -99,9 +103,8 @@ static BOOL RegisterTestSuite(CTestSuite *testSuite)
 
 static BOOL RemoveTestSuite(CTestSuite *testSuite)
 {
-    VECTOR_Swap(&(g_testSuiteManager.test_suites),
-                VECTOR_Find(&(g_testSuiteManager.test_suites), testSuite),
-                testSuite);
+    VECTOR_Swap(
+        &(g_testSuiteManager.test_suites), VECTOR_Find(&(g_testSuiteManager.test_suites), testSuite), testSuite);
     return TRUE;
 }
 
@@ -110,7 +113,7 @@ static void AddTestCase(CTestCase *testCase)
     if (testCase == NULL) {
         return;
     }
-    CTestSuite* suite = GetTestSuite(testCase->suite_name);
+    CTestSuite *suite = GetTestSuite(testCase->suite_name);
     if (suite == NULL) {
         CTestSuite suite_object;
         suite_object.subsystem_name = NULL;
@@ -133,12 +136,10 @@ static BOOL CompareInputType(const char *source, const char *input)
 }
 
 static BOOL g_isBreak = FALSE;
-static void RunSingleTestCase(CTestCase* cTestCase,
-                              const char *caseName, const int32 flag)
+static void RunSingleTestCase(CTestCase *cTestCase, const char *caseName, const int32 flag)
 {
     if (cTestCase != NULL) {
-        if (CompareInputType(cTestCase->case_name, caseName)
-            || (cTestCase->flag != flag)) {
+        if (CompareInputType(cTestCase->case_name, caseName) || (cTestCase->flag != flag)) {
             g_isBreak = TRUE;
             return;
         }
@@ -146,11 +147,8 @@ static void RunSingleTestCase(CTestCase* cTestCase,
     }
 }
 
-static void RunSpecialTestSuite(const char *subSystemName,
-                                const char *moduleName,
-                                const char *suiteName,
-                                const char *caseName,
-                                int caseLevel)
+static void RunSpecialTestSuite(
+    const char *subSystemName, const char *moduleName, const char *suiteName, const char *caseName, int caseLevel)
 {
     int16 i;
     int16 j;
@@ -160,16 +158,15 @@ static void RunSpecialTestSuite(const char *subSystemName,
         if (g_isBreak) {
             break;
         }
-        CTestSuite* curSuite = (CTestSuite *)(VECTOR_At(&(g_testSuiteManager.test_suites), i));
+        CTestSuite *curSuite = (CTestSuite *)(VECTOR_At(&(g_testSuiteManager.test_suites), i));
         if (curSuite != NULL) {
-            if (CompareInputType(curSuite->subsystem_name, subSystemName)
-                || CompareInputType(curSuite->module_name, moduleName)
-                || CompareInputType(curSuite->suite_name, suiteName)) {
+            if (CompareInputType(curSuite->subsystem_name, subSystemName) ||
+                CompareInputType(curSuite->module_name, moduleName) ||
+                CompareInputType(curSuite->suite_name, suiteName)) {
                 continue;
             }
             for (j = 0; j < VECTOR_Size(&(curSuite->test_cases)); j++) {
-                CTestCase* cTestCase = (CTestCase *)(VECTOR_At(
-                    &(curSuite->test_cases), j));
+                CTestCase *cTestCase = (CTestCase *)(VECTOR_At(&(curSuite->test_cases), j));
                 RunSingleTestCase(cTestCase, caseName, caseLevel);
             }
         }
@@ -177,17 +174,17 @@ static void RunSpecialTestSuite(const char *subSystemName,
     UNITY_END();
 }
 
-static void RunTestSuite(const char* suite_name)
+static void RunTestSuite(const char *suite_name)
 {
     printf("Start to run test suite:%s\n", suite_name);
-    CTestSuite* curSuite = GetTestSuite(suite_name);
+    CTestSuite *curSuite = GetTestSuite(suite_name);
     if (curSuite != NULL) {
         g_doneSuitesNum++;
         int16 times = curSuite->times;
         int16 i;
         for (i = 0; i < times; i++) {
             sleep(1);
-            printf("Run test suite %d times\n", i+1);
+            printf("Run test suite %d times\n", i + 1);
             RunSingleTestSuite(curSuite);
         }
         if (g_totalSuitesNum == g_doneSuitesNum) {
@@ -250,20 +247,19 @@ void ObtainProductParams(void)
     if (abiList != NULL) {
         printf("AbiList = %s\n", abiList);
     }
-    
 }
 
 #ifdef INTER_ATTEST_MINI_MODULE
 void ObtainAttestResultParams(void)
 {
-    AttestResultInfo attestResultInfo = { 0 };
+    AttestResultInfo attestResultInfo = {0};
     attestResultInfo.ticket = NULL;
     int32_t retStatus = GetAttestStatus(&attestResultInfo);
     if (retStatus != DEVATTEST_SUCCESS) {
         printf("[CLIENT MAIN] wrong. retStatus:%d\n", retStatus);
     }
-    printf("authResult = %d\n",attestResultInfo.authResult);
-    printf("softwareResult = %d\n",attestResultInfo.softwareResult);
+    printf("authResult = %d\n", attestResultInfo.authResult);
+    printf("softwareResult = %d\n", attestResultInfo.softwareResult);
 }
 #endif
 
@@ -299,7 +295,7 @@ void ObtainSystemParams(void)
     ObtainAttestResultParams();
 #endif
 
-    char udid[UDIDSIZE_LEN + 1] = { 0 };
+    char udid[UDIDSIZE_LEN + 1] = {0};
     int retUdid = GetDevUdid(udid, UDIDSIZE_LEN + 1);
     if (retUdid == 0) {
         printf("DevUdid = %s\n", udid);
@@ -351,7 +347,7 @@ void ObtainSystemParams(void)
     }
 
     ObtainProductParams();
-    
+
     printf("******To Obtain Product Params End  ******\n");
     return;
 }
@@ -365,11 +361,11 @@ static void InitTestSuiteMgr(void)
     g_testSuiteManager.RemoveTestSuite = RemoveTestSuite;
     g_testSuiteManager.RunSpecialTestSuite = RunSpecialTestSuite;
     g_testSuiteManager.RunTestSuite = RunTestSuite;
-    printf("[%10s] HCTest Framework inited.\n",  "HCtest Service");
+    printf("[%10s] HCTest Framework inited.\n", "HCtest Service");
     ObtainSystemParams();
 }
 CORE_INIT(InitTestSuiteMgr);
-TestSuiteManager* GetTestMgrInstance(void)
+TestSuiteManager *GetTestMgrInstance(void)
 {
     return &g_testSuiteManager;
 }
