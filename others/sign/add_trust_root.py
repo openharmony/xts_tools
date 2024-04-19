@@ -28,5 +28,5 @@ with os.fdopen(file_descriptor, 'r+') as file:
     data = json.load(file)
     data[OPEN_HARMONY_KEY] = OPEN_HARMONY_VALUE
     file.seek(0)
-    json.dump(data, file, indent = 4)
+    json.dump(data, file, indent=4)
     file.truncate()
