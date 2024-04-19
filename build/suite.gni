@@ -13,7 +13,7 @@
 
 import("//build/ohos.gni")
 import("//build/test.gni")
-if(precise_xts){
+if (precise_xts) {
   import("//out/preloader/precise_run.gni")
 }
 
@@ -43,11 +43,11 @@ template("ohos_testsuite_base") {
   }
 
   precise_build_boolean = true
-  if(precise_xts && filter_include(precise_run,[_part_name])==[]){
+  if (precise_xts && filter_include(precise_run, [ _part_name ]) == []) {
     print("precise_xts is on ,${_part_name} is not on build")
     precise_build_boolean = false
   }
-  if(precise_build_boolean){
+  if (precise_build_boolean) {
     _subsystem_name = "common"
     if (defined(invoker.subsystem_name)) {
       _subsystem_name = invoker.subsystem_name
@@ -84,11 +84,11 @@ template("ohos_testsuite_base") {
     _is_testbundle = defined(invoker.is_testbundle) && invoker.is_testbundle
 
     if (defined(invoker.sub_output_dir)) {
-      _output_file_dir =
-          rebase_path("$root_out_dir/tests/moduletest/${invoker.sub_output_dir}")
+      _output_file_dir = rebase_path(
+              "$root_out_dir/tests/moduletest/${invoker.sub_output_dir}")
     } else if (defined(invoker.module_out_path)) {
-      _output_file_dir =
-          rebase_path("$root_out_dir/tests/moduletest/${invoker.module_out_path}")
+      _output_file_dir = rebase_path(
+              "$root_out_dir/tests/moduletest/${invoker.module_out_path}")
     } else {
       _output_file_dir = rebase_path("$root_out_dir/tests/moduletest")
     }
@@ -314,7 +314,7 @@ template("ohos_testsuite_base") {
       }
     }
   } else {
-    group(target_name){
+    group(target_name) {
       not_needed(invoker, "*")
     }
   }
