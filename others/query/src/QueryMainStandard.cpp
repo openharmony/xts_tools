@@ -106,7 +106,7 @@ int main()
     printf("authResult = %d\n",attestResultInfo.authResult_);
     printf("softwareResult = %d\n",attestResultInfo.softwareResult_);
 
-    char udid[UDIDSIZE_LEN + 1] = { 0 };
+    char udid[UDIDSIZE_LEN + 1] = {0};
     int ret = GetDevUdid(udid, UDIDSIZE_LEN + 1);
     if (ret == 0) {
         printf("DevUdid = %s\n", udid);
@@ -151,13 +151,13 @@ int main()
     if (buildRootHash != nullptr) {
         printf("BuildRootHash = %s\n", buildRootHash);
     }
- 
+
     const char *marketName = GetMarketName();
     if (marketName != nullptr) {
         printf("marketName = %s\n", marketName);
     }
 
-    ObtainProductParms();	
+    ObtainProductParms();
 
     printf("******To Obtain Product Params End  ******\n");
     return 0;

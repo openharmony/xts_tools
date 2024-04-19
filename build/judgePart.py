@@ -24,6 +24,7 @@ import distutils.file_util as file_util
 import json
 import subprocess
 
+
 def get_modulename_by_buildtarget(module_list_file, build_target):
     if not os.path.exists(module_list_file):
         return ""
@@ -32,15 +33,16 @@ def get_modulename_by_buildtarget(module_list_file, build_target):
         module_info_data = json.load(module_file)
     for module in module_info_data:
         if module in [build_target, f'{build_target}_override']:
-            return module_info_data[module];
+            return module_info_data[module]
     return ""
+
 
 if __name__ == '__main__':
     global_parts_info = sys.argv[1]
     tmp_subsystem_part = sys.argv[2]
     method = sys.argv[3]
     if method == "judgePart":
-      res = get_modulename_by_buildtarget(global_parts_info,tmp_subsystem_part)
-      sys.stdout.write(str(res))
+        res = get_modulename_by_buildtarget(global_parts_info, tmp_subsystem_part)
+        sys.stdout.write(str(res))
     else:
-      sys.stdout.write("test")
+        sys.stdout.write("test")
