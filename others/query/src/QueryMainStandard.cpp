@@ -103,8 +103,8 @@ int main()
 
     AttestResultInfo attestResultInfo;
     (void)DevAttestClient::GetInstance().GetAttestStatus(attestResultInfo);
-    printf("authResult = %d\n",attestResultInfo.authResult_);
-    printf("softwareResult = %d\n",attestResultInfo.softwareResult_);
+    printf("authResult = %d\n", attestResultInfo.authResult_);
+    printf("softwareResult = %d\n", attestResultInfo.softwareResult_);
 
     char udid[UDIDSIZE_LEN + 1] = {0};
     int ret = GetDevUdid(udid, UDIDSIZE_LEN + 1);
