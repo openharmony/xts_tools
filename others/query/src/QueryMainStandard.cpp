@@ -102,7 +102,7 @@ int main()
     }
 
     AttestResultInfo attestResultInfo;
-    (void)DelayedSingleton<DevAttestClient>::GetInstance()->GetAttestStatus(attestResultInfo);
+    (void)DevAttestClient::GetInstance().GetAttestStatus(attestResultInfo);
     printf("authResult = %d\n", attestResultInfo.authResult_);
     printf("softwareResult = %d\n", attestResultInfo.softwareResult_);
 
