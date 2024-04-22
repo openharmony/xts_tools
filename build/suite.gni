@@ -43,7 +43,7 @@ template("ohos_testsuite_base") {
   }
 
   precise_build_boolean = true
-  if (precise_xts && filter_include(precise_run, [ _part_name ]) == []) {
+  if (precise_xts && filter_include(precise_run, ["all", _part_name ]) == []) {
     print("precise_xts is on ,${_part_name} is not on build")
     precise_build_boolean = false
   }
@@ -315,6 +315,7 @@ template("ohos_testsuite_base") {
     }
   } else {
     group(target_name) {
+      print(target_name + " is not build")
       not_needed(invoker, "*")
     }
   }
