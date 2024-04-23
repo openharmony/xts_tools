@@ -13,6 +13,9 @@
 
 import("//build/ohos.gni")
 import("//build/test.gni")
+if (precise_xts) {
+  import("//out/preloader/precise_run.gni")
+}
 
 declare_args() {
   SUITES_OUTPUT_ROOT = "$root_out_dir/suites"
@@ -34,272 +37,290 @@ template("ohos_testsuite_base") {
          "project_type is required in target ${target_name}")
 
   _part_name = "common"
-  _subsystem_name = "common"
+
   if (defined(invoker.part_name)) {
     _part_name = invoker.part_name
   }
-  if (defined(invoker.subsystem_name)) {
-    _subsystem_name = invoker.subsystem_name
-  }
-  _project_type = invoker.project_type
 
-  _build_part_boolean = false
-  tmp_subsystem_part = "${_subsystem_name}_${_part_name}"
-  _part_script_judge = "//test/xts/tools/build/judgePart.py"
-  _script_judge_args1 = [
-    rebase_path("$preloader_output_dir") + "/parts_config.json",
-    tmp_subsystem_part,
-    "judgePart",
-  ]
-  _build_part_boolean_str = exec_script(rebase_path(_part_script_judge),
-                                        _script_judge_args1,
-                                        "trim string")
-  if (_build_part_boolean_str == "True") {
-    _build_part_boolean = true
+  precise_build_boolean = true
+  if (precise_xts && filter_include(precise_run,
+                                    [
+                                      "all",
+                                      _part_name,
+                                    ]) == []) {
+    print("precise_xts is on ,${_part_name} is not on build")
+    precise_build_boolean = false
   }
-
-  if (_subsystem_name == "kernel" || _subsystem_name == "common") {
-    _build_part_boolean = true
-  }
-
-  _test_files = ""
-  if (defined(invoker.generated_testfiles)) {
-    foreach(file, invoker.generated_testfiles) {
-      _test_files =
-          _test_files + "," + rebase_path("$root_gen_dir") + "/" + file
+  if (precise_build_boolean) {
+    _subsystem_name = "common"
+    if (defined(invoker.subsystem_name)) {
+      _subsystem_name = invoker.subsystem_name
     }
-  }
+    _project_type = invoker.project_type
 
-  _is_testbundle = defined(invoker.is_testbundle) && invoker.is_testbundle
+    _build_part_boolean = false
+    tmp_subsystem_part = "${_subsystem_name}_${_part_name}"
+    _part_script_judge = "//test/xts/tools/build/judgePart.py"
+    _script_judge_args1 = [
+      rebase_path("$preloader_output_dir") + "/parts_config.json",
+      tmp_subsystem_part,
+      "judgePart",
+    ]
+    _build_part_boolean_str = exec_script(rebase_path(_part_script_judge),
+                                          _script_judge_args1,
+                                          "trim string")
+    if (_build_part_boolean_str == "True") {
+      _build_part_boolean = true
+    }
 
-  if (defined(invoker.sub_output_dir)) {
-    _output_file_dir =
-        rebase_path("$root_out_dir/tests/moduletest/${invoker.sub_output_dir}")
-  } else if (defined(invoker.module_out_path)) {
-    _output_file_dir =
-        rebase_path("$root_out_dir/tests/moduletest/${invoker.module_out_path}")
-  } else {
-    _output_file_dir = rebase_path("$root_out_dir/tests/moduletest")
-  }
-  _output_file = "${_output_file_dir}/module_${target_name}"
+    if (_subsystem_name == "kernel" || _subsystem_name == "common") {
+      _build_part_boolean = true
+    }
 
-  if (_project_type == "gtest" || _project_type == "ctestbundle") {
-    _output_file = "${_output_file_dir}/${target_name}"
-    _archive_filename = "${target_name}"
-    if (_build_part_boolean == true) {
-      target("ohos_moduletest", "module_${target_name}") {
-        forward_variables_from(invoker, "*")
-        testonly = true
+    _test_files = ""
+    if (defined(invoker.generated_testfiles)) {
+      foreach(file, invoker.generated_testfiles) {
+        _test_files =
+            _test_files + "," + rebase_path("$root_gen_dir") + "/" + file
       }
+    }
+
+    _is_testbundle = defined(invoker.is_testbundle) && invoker.is_testbundle
+
+    if (defined(invoker.sub_output_dir)) {
+      _output_file_dir = rebase_path(
+              "$root_out_dir/tests/moduletest/${invoker.sub_output_dir}")
+    } else if (defined(invoker.module_out_path)) {
+      _output_file_dir = rebase_path(
+              "$root_out_dir/tests/moduletest/${invoker.module_out_path}")
     } else {
-      print(tmp_subsystem_part + " is not build")
-      if (defined(invoker.public_configs)) {
-        print(invoker.public_configs)
-      }
-      if (defined(invoker.external_deps)) {
-        print(invoker.external_deps)
-      }
-      if (defined(invoker.deps)) {
-        print(invoker.deps)
-      }
-      if (defined(invoker.configs)) {
-        print(invoker.configs)
-      }
-      if (defined(invoker.sources)) {
-        print(invoker.sources)
-      }
+      _output_file_dir = rebase_path("$root_out_dir/tests/moduletest")
     }
-  } else if (_project_type == "zunit" || _project_type == "javatestbundle") {
-    _output_file = "${_output_file_dir}/module_${target_name}.dex"
-    _archive_filename = "${target_name}.dex"
-    if (_build_part_boolean == true) {
-      target("ohos_java_moduletest", "module_${target_name}") {
-        forward_variables_from(invoker, "*")
-        testonly = true
-      }
-    }
-  } else if (_project_type == "hostjunit") {
-    _output_file = "${_output_file_dir}/module_${target_name}.jar"
-    if (defined(invoker.final_jar_path)) {
-      _output_file = invoker.final_jar_path
-    }
-    _archive_filename = "${target_name}.jar"
-    if (_build_part_boolean == true) {
-      target("java_library", "module_${target_name}") {
-        forward_variables_from(invoker, "*")
-        is_host_library = true
-      }
-    }
-  } else if (_project_type == "testhap" || _project_type == "haptestbundle" ||
-             _project_type == "testhapassist" || _project_type == "testapp" ||
-             _project_type == "testappassist") {
-    assert(defined(invoker.hap_name),
-           "hap_name is required in target ${target_name}")
-    assert(!defined(invoker.final_hap_path),
-           "please use hap_name instead of final_hap_path")
+    _output_file = "${_output_file_dir}/module_${target_name}"
 
-    _hap_name = invoker.hap_name
-    _final_hap_path = ""
-    _target_name = ""
+    if (_project_type == "gtest" || _project_type == "ctestbundle") {
+      _output_file = "${_output_file_dir}/${target_name}"
+      _archive_filename = "${target_name}"
+      if (_build_part_boolean == true) {
+        target("ohos_moduletest", "module_${target_name}") {
+          forward_variables_from(invoker, "*")
+          testonly = true
+        }
+      } else {
+        print(tmp_subsystem_part + " is not build")
+        if (defined(invoker.public_configs)) {
+          print(invoker.public_configs)
+        }
+        if (defined(invoker.external_deps)) {
+          print(invoker.external_deps)
+        }
+        if (defined(invoker.deps)) {
+          print(invoker.deps)
+        }
+        if (defined(invoker.configs)) {
+          print(invoker.configs)
+        }
+        if (defined(invoker.sources)) {
+          print(invoker.sources)
+        }
+      }
+    } else if (_project_type == "zunit" || _project_type == "javatestbundle") {
+      _output_file = "${_output_file_dir}/module_${target_name}.dex"
+      _archive_filename = "${target_name}.dex"
+      if (_build_part_boolean == true) {
+        target("ohos_java_moduletest", "module_${target_name}") {
+          forward_variables_from(invoker, "*")
+          testonly = true
+        }
+      }
+    } else if (_project_type == "hostjunit") {
+      _output_file = "${_output_file_dir}/module_${target_name}.jar"
+      if (defined(invoker.final_jar_path)) {
+        _output_file = invoker.final_jar_path
+      }
+      _archive_filename = "${target_name}.jar"
+      if (_build_part_boolean == true) {
+        target("java_library", "module_${target_name}") {
+          forward_variables_from(invoker, "*")
+          is_host_library = true
+        }
+      }
+    } else if (_project_type == "testhap" || _project_type == "haptestbundle" ||
+               _project_type == "testhapassist" || _project_type == "testapp" ||
+               _project_type == "testappassist") {
+      assert(defined(invoker.hap_name),
+             "hap_name is required in target ${target_name}")
+      assert(!defined(invoker.final_hap_path),
+             "please use hap_name instead of final_hap_path")
+
+      _hap_name = invoker.hap_name
+      _final_hap_path = ""
+      _target_name = ""
+      _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
+      subsystem_name = XTS_SUITENAME
+      if (subsystem_name == "acts") {
+        _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts"
+      }
+      if (_project_type == "testhapassist") {
+        _final_hap_path = "${_suite_out_dir}/testcases/${_hap_name}.hap"
+        _target_name = target_name
+      } else {
+        _final_hap_path = "${SUITES_OUTPUT_ROOT}/haps/${_hap_name}.hap"
+        _target_name = "module_${target_name}"
+      }
+      _output_file = _final_hap_path
+      _archive_filename = "${_hap_name}.hap"
+      if (_build_part_boolean == true) {
+        if (_project_type == "testapp") {
+          target("ohos_app", _target_name) {
+            forward_variables_from(invoker, "*")
+            subsystem_name = XTS_SUITENAME
+            hap_out_dir = "${SUITES_OUTPUT_ROOT}/haps"
+            testonly = true
+          }
+        } else if (_project_type == "testappassist") {
+          target("ohos_app", target_name) {
+            forward_variables_from(invoker, "*")
+            subsystem_name = XTS_SUITENAME
+            hap_out_dir = "${_suite_out_dir}/testcases"
+            testonly = true
+          }
+        } else {
+          target("ohos_hap", _target_name) {
+            forward_variables_from(invoker, "*")
+            subsystem_name = XTS_SUITENAME
+            final_hap_path = _final_hap_path
+            testonly = true
+          }
+        }
+      } else {
+        print(tmp_subsystem_part + " is not build")
+        not_needed(invoker, "*")
+      }
+    } else if (_project_type == "pythontest") {
+      if (defined(invoker.outputs_dir)) {
+        _out_put_dir = invoker.outputs_dir
+        _archive_filename = "${_subsystem_name}/${_out_put_dir}"
+      } else {
+        _archive_filename = "${_subsystem_name}"
+      }
+      _test_files = invoker.output_file
+      _deps = []
+      if (defined(invoker.deps)) {
+        _deps = invoker.deps
+      }
+    } else if (_project_type == "js_test_hap") {
+      _hap_name = invoker.test_hap_name
+      _output_file = invoker.hap_source_path
+      _archive_filename = "${_hap_name}.hap"
+    }
+
+    _apilibrary_deps = ""
+    if (_is_testbundle && defined(invoker.deps)) {
+      foreach(dep, invoker.deps) {
+        _apilibrary_deps = _apilibrary_deps + "," + dep
+      }
+    }
+
+    if (_project_type != "pythontest" && _project_type != "js_test_hap" &&
+        _project_type != "testhapassist" && _project_type != "testappassist") {
+      _deps = [ ":module_${target_name}" ]
+    } else if (_project_type == "pythontest") {
+      print("this is pythontest")
+    } else if (_project_type != "testhapassist" &&
+               _project_type != "testappassist") {
+      _deps = []
+    }
     _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
+
+    _archive_testfile = ""
     subsystem_name = XTS_SUITENAME
     if (subsystem_name == "acts") {
       _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts"
     }
-    if (_project_type == "testhapassist") {
-      _final_hap_path = "${_suite_out_dir}/testcases/${_hap_name}.hap"
-      _target_name = target_name
-    } else {
-      _final_hap_path = "${SUITES_OUTPUT_ROOT}/haps/${_hap_name}.hap"
-      _target_name = "module_${target_name}"
-    }
-    _output_file = _final_hap_path
-    _archive_filename = "${_hap_name}.hap"
-    if (_build_part_boolean == true) {
-      if (_project_type == "testapp") {
-        target("ohos_app", _target_name) {
-          forward_variables_from(invoker, "*")
-          subsystem_name = XTS_SUITENAME
-          hap_out_dir = "${SUITES_OUTPUT_ROOT}/haps"
-          testonly = true
-        }
-      } else if (_project_type == "testappassist") {
-        target("ohos_app", target_name) {
-          forward_variables_from(invoker, "*")
-          subsystem_name = XTS_SUITENAME
-          hap_out_dir = "${_suite_out_dir}/testcases"
-          testonly = true
-        }
+    if (_project_type == "testhapassist" || _project_type == "testappassist") {
+      _archive_testfile =
+          "${_suite_out_dir}/testcases/module_${_archive_filename}"
+    } else if (_project_type == "testhap") {
+      _hap_name = invoker.hap_name
+      if (_hap_name == "validator" && subsystem_name == "acts") {
+        _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts-validator"
+        _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
       } else {
-        target("ohos_hap", _target_name) {
-          forward_variables_from(invoker, "*")
-          subsystem_name = XTS_SUITENAME
-          final_hap_path = _final_hap_path
-          testonly = true
-        }
+        _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
       }
     } else {
-      print(tmp_subsystem_part + " is not build")
-      not_needed(invoker, "*")
-    }
-  } else if (_project_type == "pythontest") {
-    if (defined(invoker.outputs_dir)) {
-      _out_put_dir = invoker.outputs_dir
-      _archive_filename = "${_subsystem_name}/${_out_put_dir}"
-    } else {
-      _archive_filename = "${_subsystem_name}"
-    }
-    _test_files = invoker.output_file
-    _deps = []
-    if (defined(invoker.deps)) {
-      _deps = invoker.deps
-    }
-  } else if (_project_type == "js_test_hap") {
-    _hap_name = invoker.test_hap_name
-    _output_file = invoker.hap_source_path
-    _archive_filename = "${_hap_name}.hap"
-  }
-
-  _apilibrary_deps = ""
-  if (_is_testbundle && defined(invoker.deps)) {
-    foreach(dep, invoker.deps) {
-      _apilibrary_deps = _apilibrary_deps + "," + dep
-    }
-  }
-
-  if (_project_type != "pythontest" && _project_type != "js_test_hap" &&
-      _project_type != "testhapassist" && _project_type != "testappassist") {
-    _deps = [ ":module_${target_name}" ]
-  } else if (_project_type == "pythontest") {
-    print("this is pythontest")
-  } else if (_project_type != "testhapassist" &&
-             _project_type != "testappassist") {
-    _deps = []
-  }
-  _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
-
-  _archive_testfile = ""
-  subsystem_name = XTS_SUITENAME
-  if (subsystem_name == "acts") {
-    _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts"
-  }
-  if (_project_type == "testhapassist" || _project_type == "testappassist") {
-    _archive_testfile =
-        "${_suite_out_dir}/testcases/module_${_archive_filename}"
-  } else if (_project_type == "testhap") {
-    _hap_name = invoker.hap_name
-    if (_hap_name == "validator" && subsystem_name == "acts") {
-      _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts-validator"
       _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
-    } else {
-      _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
+    }
+    _arguments = [
+      "build_module_with_testbundle",
+      "--build_gen_dir",
+      rebase_path("$root_gen_dir"),
+      "--build_target_name",
+      target_name,
+      "--buildgen_testfile",
+      rebase_path(_output_file),
+      "--project_path",
+      rebase_path("."),
+      "--test_xml",
+      rebase_path(TESTCONFIG_FILENAME),
+      "--project_type",
+      _project_type,
+      "--suite_out_dir",
+      rebase_path("${_suite_out_dir}"),
+      "--archive_testfile",
+      rebase_path("${_archive_testfile}"),
+    ]
+
+    if (_subsystem_name != "") {
+      _arguments += [
+        "--subsystem_name",
+        _subsystem_name,
+      ]
+    }
+    if (_part_name != "") {
+      _arguments += [
+        "--part_name",
+        _part_name,
+      ]
+    }
+    if (_apilibrary_deps != "") {
+      _arguments += [
+        "--apilibrary_deps",
+        _apilibrary_deps,
+      ]
+    }
+
+    if (_test_files != "") {
+      _arguments += [
+        "--test_files",
+        _test_files,
+      ]
+    }
+    if (_build_part_boolean == true && _project_type != "testhapassist" &&
+        _project_type != "testappassist") {
+      action(target_name) {
+        deps = _deps
+        script = rebase_path("//test/xts/tools/build/suite.py")
+        args = _arguments
+        outputs = [ _archive_testfile ]
+        testonly = true
+      }
+    } else if (_build_part_boolean == false) {
+      action(target_name) {
+        script = rebase_path("//test/xts/tools/build/judgePart.py")
+        args = _arguments
+        outputs = [ _archive_testfile ]
+        testonly = true
+      }
+      if (defined(_deps)) {
+        print(_deps)
+      }
     }
   } else {
-    _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
-  }
-  _arguments = [
-    "build_module_with_testbundle",
-    "--build_gen_dir",
-    rebase_path("$root_gen_dir"),
-    "--build_target_name",
-    target_name,
-    "--buildgen_testfile",
-    rebase_path(_output_file),
-    "--project_path",
-    rebase_path("."),
-    "--test_xml",
-    rebase_path(TESTCONFIG_FILENAME),
-    "--project_type",
-    _project_type,
-    "--suite_out_dir",
-    rebase_path("${_suite_out_dir}"),
-    "--archive_testfile",
-    rebase_path("${_archive_testfile}"),
-  ]
-
-  if (_subsystem_name != "") {
-    _arguments += [
-      "--subsystem_name",
-      _subsystem_name,
-    ]
-  }
-  if (_part_name != "") {
-    _arguments += [
-      "--part_name",
-      _part_name,
-    ]
-  }
-  if (_apilibrary_deps != "") {
-    _arguments += [
-      "--apilibrary_deps",
-      _apilibrary_deps,
-    ]
-  }
-
-  if (_test_files != "") {
-    _arguments += [
-      "--test_files",
-      _test_files,
-    ]
-  }
-  if (_build_part_boolean == true && _project_type != "testhapassist" &&
-      _project_type != "testappassist") {
-    action(target_name) {
-      deps = _deps
-      script = rebase_path("//test/xts/tools/build/suite.py")
-      args = _arguments
-      outputs = [ _archive_testfile ]
-      testonly = true
-    }
-  } else if (_build_part_boolean == false) {
-    action(target_name) {
-      script = rebase_path("//test/xts/tools/build/judgePart.py")
-      args = _arguments
-      outputs = [ _archive_testfile ]
-      testonly = true
-    }
-    if (defined(_deps)) {
-      print(_deps)
+    group(target_name) {
+      print(target_name + " is not build")
+      not_needed(invoker, "*")
     }
   }
 }
