@@ -369,15 +369,15 @@
     },
     {
         "name": "startup_appspawn",
-        "buildTarget": "startup"
+        "buildTarget": "test/xts/acts/startup:startup"
     },
     {
         "name": "startup_hvb",
-        "buildTarget": "startup"
+        "buildTarget": "test/xts/acts/startup:startup"
     },
     {
         "name": "startup_init",
-        "buildTarget": "startup"
+        "buildTarget": "test/xts/acts/startup:startup"
     },
     {
         "name": "telephony_call_manager",
