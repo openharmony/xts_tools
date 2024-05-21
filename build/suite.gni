@@ -643,3 +643,32 @@ template("ohos_app_assist_suite") {
     project_type = "testappassist"
   }
 }
+
+template("ohos_sh_assist_suite") {
+  _part_name = "common"
+
+  if (defined(invoker.part_name)) {
+    _part_name = invoker.part_name
+  }
+
+  precise_build_boolean = true
+  if (precise_xts && filter_include(precise_run,
+                                    [
+                                      "all",
+                                      _part_name,
+                                    ]) == []) {
+    print("precise_xts is on ,${_part_name} is not on build")
+    precise_build_boolean = false
+  }
+
+  if (precise_build_boolean) {
+    action(target_name) {
+      forward_variables_from(invoker, "*")
+    }
+  } else {
+    group(target_name) {
+      print(target_name + " is not build")
+      not_needed(invoker, "*")
+    }
+  }
+}
