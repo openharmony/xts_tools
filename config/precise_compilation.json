@@ -117,7 +117,7 @@
     },
     {
         "name": "developtools_ace_ets2bundle",
-        "buildTarget": "arkui"
+        "buildTarget": "xts_acts"
     },
     {
         "name": "developtools_ace_js2bundle",
