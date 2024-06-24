@@ -121,7 +121,7 @@
     },
     {
         "name": "developtools_ace_js2bundle",
-        "buildTarget": "arkui"
+        "buildTarget": "xts_acts"
     },
     {
         "name": "developtools_bytrace",
@@ -133,7 +133,7 @@
     },
     {
         "name": "developtools_hapsigner",
-        "buildTarget": "arkui"
+        "buildTarget": "xts_acts"
     },
     {
         "name": "developtools_hdc",
