@@ -985,7 +985,7 @@
     },
     {
         "name": "third_party_parse5",
-        "buildTarget": "arkui"
+        "buildTarget": "xts_acts"
     },
     {
         "name": "third_party_pcre2",
@@ -1437,7 +1437,7 @@
     },
     {
         "name": "third_party_typescript",
-        "buildTarget": "arkui"
+        "buildTarget": "xts_acts"
     },
     {
         "name": "third_party_unity",
@@ -1457,7 +1457,7 @@
     },
     {
         "name": "third_party_weex-loader",
-        "buildTarget": "arkui"
+        "buildTarget": "xts_acts"
     },
     {
         "name": "third_party_zlib",
