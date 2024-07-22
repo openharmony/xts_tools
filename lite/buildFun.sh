@@ -60,6 +60,7 @@ build_wifiiot()
         mkdir -p ${DIST_DIR}/json
     for element in ${array[*]}
     do
+      rm -rf ${BASE_HOME}/out/hispark_pegasus/wifiiot_hispark_pegasus/libs/libmodule_*.a
       python build.py -p wifiiot_hispark_pegasus@hisilicon -f --test xts ${element} --gn-args build_xts=true
       suite_build_target=$(echo "${element}" | awk -F "[/:]" '{print $NF}')
       module_list_file=$suite_out_dir/module_info.json
