@@ -72,7 +72,11 @@ _NO_FILTE_SUB_SYSTEM_LIST = [
     "sstsutils",
     "hdf",
     "distributed_schedule",
-    "xts"
+    "xts",
+    "commonlibrary",
+    "communication",
+    "distributeddatamgr",
+    "startup"
 ]
 
 
