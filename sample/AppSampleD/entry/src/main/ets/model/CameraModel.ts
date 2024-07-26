@@ -15,7 +15,7 @@
 
 import camera from '@ohos.multimedia.camera'
 import image from '@ohos.multimedia.image'
-import mediaLibrary from '@ohos.multimedia.mediaLibrary'
+import photoAccessHelper from '@ohos.file.photoAccessHelper'
 import media from '@ohos.multimedia.media';
 import deviceInfo from '@ohos.deviceInfo';
 import type common from '@ohos.app.ability.common'
@@ -35,7 +35,7 @@ const CAMERASIZE = {
 export default class CameraModel {
   private cameraInput: camera.CameraInput;
   private previewOutput: camera.PreviewOutput;
-  private fileAsset: mediaLibrary.FileAsset;
+  private photoAsset: photoAccessHelper.PhotoAsset;
   private photoUri: string = '';
   private mediaModel: MediaModel;
   private fd: number = -1;
@@ -202,9 +202,9 @@ export default class CameraModel {
       }
     }
     Logger.info(TAG, 'startVideo 7');
-    this.fileAsset = await this.mediaModel.createAndGetUri(mediaLibrary.MediaType.VIDEO);
-    Logger.info(TAG, `startVideo fileAsset:${this.fileAsset}`);
-    this.fd = await this.mediaModel.getFdPath(this.fileAsset);
+    this.photoAsset = await this.mediaModel.createAndGetUri(photoAccessHelper.PhotoType.VIDEO);
+    Logger.info(TAG, `startVideo photoAsset:${this.photoAsset}`);
+    this.fd = await this.mediaModel.getFdPath(this.photoAsset);
     Logger.info(TAG, `startVideo fd:${this.fd}`);
     this.avRecorder = await media.createAVRecorder();
 
@@ -260,7 +260,7 @@ export default class CameraModel {
     await this.videoOutput.stop();
     // 停止结束时复制录制的视频至沙箱cache目录中
     let fileName = await this.copyVideo();
-    await this.fileAsset.close(this.fd);
+    await this.photoAsset.close(this.fd);
     return fileName;
   }
 
@@ -268,7 +268,7 @@ export default class CameraModel {
    * 复制视频至video
    */
   async copyVideo(): Promise<string> {
-    let url = this.fileAsset.uri;
+    let url = this.photoAsset.uri;
     Logger.info(TAG, `stopVideo uri:${url}`);
     let fileName = await this.mediaModel.copyVideo(this.fd);
     Logger.info(TAG, `stopVideo fileName:${fileName}`);

@@ -13,20 +13,20 @@
  * limitations under the License.
  */
 
-import type common from '@ohos.app.ability.common'
-import mediaLibrary from '@ohos.multimedia.mediaLibrary';
-import fs from '@ohos.file.fs'
+import type common from '@ohos.app.ability.common';
+import photoAccessHelper from '@ohos.file.photoAccessHelper'
+import fs from '@ohos.file.fs';
 import DateTimeUtil from '../utils/DateTimeUtil';
 import Logger from '../utils/Logger';
 
 const TAG = '[MediaModel]';
 
 export default class MediaModel {
-  private mediaLibraryTest: mediaLibrary.MediaLibrary = undefined;
+  private photoAccessHelperTest: photoAccessHelper.PhotoAccessHelper = undefined;
   private static mediaInstance: MediaModel = undefined;
 
   constructor() {
-    this.mediaLibraryTest = mediaLibrary.getMediaLibrary(globalThis.abilityContext);
+    this.photoAccessHelperTest = photoAccessHelper.getPhotoAccessHelper(globalThis.abilityContext);
   }
 
   public static getMediaInstance(context: common.Context): MediaModel {
@@ -36,30 +36,48 @@ export default class MediaModel {
     return this.mediaInstance;
   }
 
-  async createAndGetUri(mediaType: mediaLibrary.MediaType): Promise<mediaLibrary.FileAsset> {
-    let result = {
-      prefix: 'VID_', suffix: '.mp4', directory: mediaLibrary.DirectoryType.DIR_VIDEO
-    }
-    let info = result;
-    Logger.info(TAG, `createAndGetUri info = ${info}`);
-    let dateTimeUtil = new DateTimeUtil();
-    let name = `${dateTimeUtil.getDate()}_${dateTimeUtil.getTime()}`;
-    let displayName = `${info.prefix}${name}${info.suffix}`;
-    Logger.info(TAG, `createAndGetUri displayName = ${displayName},mediaType = ${mediaType}`);
-    let publicPath = await this.mediaLibraryTest.getPublicDirectory(info.directory);
-    Logger.info(TAG, `createAndGetUri publicPath = ${publicPath}/${displayName}`);
-    let fileAsset = null;
+  async createAndGetUri(mediaType: photoAccessHelper.PhotoType): Promise<photoAccessHelper.PhotoAsset> {
+    // let result = {
+    //   prefix: 'VID_', suffix: '.mp4', directory: photoAccessHelper.DirectoryType.DIR_VIDEO
+    // }
+    // let info = result;
+    // Logger.info(TAG, `createAndGetUri info = ${info}`);
+    // let dateTimeUtil = new DateTimeUtil();
+    // let name = `${dateTimeUtil.getDate()}_${dateTimeUtil.getTime()}`;
+    // let displayName = `${info.prefix}${name}${info.suffix}`;
+    // Logger.info(TAG, `createAndGetUri displayName = ${displayName},mediaType = ${mediaType}`);
+    // let publicPath = await this.mediaLibraryTest.getPublicDirectory(info.directory);
+    // Logger.info(TAG, `createAndGetUri publicPath = ${publicPath}/${displayName}`);
+    // let photoAccess = null;
+    // try {
+    //   photoAccess = await this.photoAccessHelperTest.createAsset(mediaType, displayName, publicPath);
+    // } catch (err) {
+    //   Logger.info(TAG, `createAndGetUri err = ${err}`);
+    // }
+    // Logger.info(TAG, `createAndGetUri fileAsset = ${fileAsset}`);
+    // return photoAccess;
+
+    let photoAccess = null;
     try {
-      fileAsset = await this.mediaLibraryTest.createAsset(mediaType, displayName, publicPath);
+      let extension: string = '.mp4';
+      let dateTimeUtil = new DateTimeUtil();
+      let name = `${dateTimeUtil.getDate()}_${dateTimeUtil.getTime()}`;
+      let options: photoAccessHelper.CreateOptions = {
+        title: name
+      }
+      let photoAccess: string = await this.photoAccessHelperTest.createAsset(mediaType, extension, options);
+      console.info('createAsset uri' + photoAccess);
+      console.info('createAsset successfully');
     } catch (err) {
-      Logger.info(TAG, `createAndGetUri err = ${err}`);
+      console.error(`createAsset failed, error: ${err.code}, ${err.message}`);
     }
-    Logger.info(TAG, `createAndGetUri fileAsset = ${fileAsset}`);
-    return fileAsset;
+    Logger.info(TAG, `createAndGetUri fileAsset = ${photoAccess}`);
+    return photoAccess;
+
   }
 
-  async getFdPath(fileAsset: mediaLibrary.FileAsset): Promise<number> {
-    let fd = await fileAsset.open('Rw');
+  async getFdPath(photoAsset: photoAccessHelper.PhotoAsset): Promise<number> {
+    let fd = await photoAsset.open('Rw');
     Logger.info(TAG, `fd = ${fd}`);
     return fd;
   }
