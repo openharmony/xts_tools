@@ -80,7 +80,7 @@
 - 网络连接合请求：@ohos.net.http  
 - 消息接收：@ohos.net.webSocket  
 - 文件上传：@ohos.request  
-- 文件操作：@ohos.multimedia.mediaLibrary  
+- 文件操作：@ohos.file.photoAccessHelper  
 - 音视频播放：@ohos.multimedia.media  
 
 ### 相关权限
