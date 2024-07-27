@@ -37,43 +37,25 @@ export default class MediaModel {
   }
 
   async createAndGetUri(mediaType: photoAccessHelper.PhotoType): Promise<photoAccessHelper.PhotoAsset> {
-    // let result = {
-    //   prefix: 'VID_', suffix: '.mp4', directory: photoAccessHelper.DirectoryType.DIR_VIDEO
-    // }
-    // let info = result;
-    // Logger.info(TAG, `createAndGetUri info = ${info}`);
-    // let dateTimeUtil = new DateTimeUtil();
-    // let name = `${dateTimeUtil.getDate()}_${dateTimeUtil.getTime()}`;
-    // let displayName = `${info.prefix}${name}${info.suffix}`;
-    // Logger.info(TAG, `createAndGetUri displayName = ${displayName},mediaType = ${mediaType}`);
-    // let publicPath = await this.mediaLibraryTest.getPublicDirectory(info.directory);
-    // Logger.info(TAG, `createAndGetUri publicPath = ${publicPath}/${displayName}`);
-    // let photoAccess = null;
-    // try {
-    //   photoAccess = await this.photoAccessHelperTest.createAsset(mediaType, displayName, publicPath);
-    // } catch (err) {
-    //   Logger.info(TAG, `createAndGetUri err = ${err}`);
-    // }
-    // Logger.info(TAG, `createAndGetUri fileAsset = ${fileAsset}`);
-    // return photoAccess;
-
-    let photoAccess = null;
-    try {
-      let extension: string = '.mp4';
-      let dateTimeUtil = new DateTimeUtil();
-      let name = `${dateTimeUtil.getDate()}_${dateTimeUtil.getTime()}`;
-      let options: photoAccessHelper.CreateOptions = {
-        title: name
-      }
-      let photoAccess: string = await this.photoAccessHelperTest.createAsset(mediaType, extension, options);
-      console.info('createAsset uri' + photoAccess);
-      console.info('createAsset successfully');
-    } catch (err) {
-      console.error(`createAsset failed, error: ${err.code}, ${err.message}`);
+    let result = {
+      prefix: 'VID_', suffix: '.mp4'
     }
-    Logger.info(TAG, `createAndGetUri fileAsset = ${photoAccess}`);
-    return photoAccess;
-
+    let info = result;
+    Logger.info(TAG, `createAndGetUri info = ${info}`);
+    let dateTimeUtil = new DateTimeUtil();
+    let name = `${dateTimeUtil.getDate()}_${dateTimeUtil.getTime()}`;
+    let photoAsset = null;
+    let extension: string = '.mp4';
+    let options: photoAccessHelper.CreateOptions = {
+      title: name
+    }
+    try {
+      photoAsset = await this.photoAccessHelperTest.createAsset(mediaType, extension, options);
+    } catch (err) {
+      Logger.info(TAG, `createAndGetUri err = ${err}`);
+    }
+    Logger.info(TAG, `createAndGetUri fileAsset = ${photoAsset}`);
+    return photoAsset;
   }
 
   async getFdPath(photoAsset: photoAccessHelper.PhotoAsset): Promise<number> {
