@@ -13,20 +13,20 @@
  * limitations under the License.
  */
 
-import type common from '@ohos.app.ability.common'
-import mediaLibrary from '@ohos.multimedia.mediaLibrary';
-import fs from '@ohos.file.fs'
+import type common from '@ohos.app.ability.common';
+import photoAccessHelper from '@ohos.file.photoAccessHelper'
+import fs from '@ohos.file.fs';
 import DateTimeUtil from '../utils/DateTimeUtil';
 import Logger from '../utils/Logger';
 
 const TAG = '[MediaModel]';
 
 export default class MediaModel {
-  private mediaLibraryTest: mediaLibrary.MediaLibrary = undefined;
+  private photoAccessHelperTest: photoAccessHelper.PhotoAccessHelper = undefined;
   private static mediaInstance: MediaModel = undefined;
 
   constructor() {
-    this.mediaLibraryTest = mediaLibrary.getMediaLibrary(globalThis.abilityContext);
+    this.photoAccessHelperTest = photoAccessHelper.getPhotoAccessHelper(globalThis.abilityContext);
   }
 
   public static getMediaInstance(context: common.Context): MediaModel {
@@ -36,30 +36,30 @@ export default class MediaModel {
     return this.mediaInstance;
   }
 
-  async createAndGetUri(mediaType: mediaLibrary.MediaType): Promise<mediaLibrary.FileAsset> {
+  async createAndGetUri(mediaType: photoAccessHelper.PhotoType): Promise<photoAccessHelper.PhotoAsset> {
     let result = {
-      prefix: 'VID_', suffix: '.mp4', directory: mediaLibrary.DirectoryType.DIR_VIDEO
+      prefix: 'VID_', suffix: '.mp4'
     }
     let info = result;
     Logger.info(TAG, `createAndGetUri info = ${info}`);
     let dateTimeUtil = new DateTimeUtil();
     let name = `${dateTimeUtil.getDate()}_${dateTimeUtil.getTime()}`;
-    let displayName = `${info.prefix}${name}${info.suffix}`;
-    Logger.info(TAG, `createAndGetUri displayName = ${displayName},mediaType = ${mediaType}`);
-    let publicPath = await this.mediaLibraryTest.getPublicDirectory(info.directory);
-    Logger.info(TAG, `createAndGetUri publicPath = ${publicPath}/${displayName}`);
-    let fileAsset = null;
+    let photoAsset = null;
+    let extension: string = '.mp4';
+    let options: photoAccessHelper.CreateOptions = {
+      title: name
+    }
     try {
-      fileAsset = await this.mediaLibraryTest.createAsset(mediaType, displayName, publicPath);
+      photoAsset = await this.photoAccessHelperTest.createAsset(mediaType, extension, options);
     } catch (err) {
       Logger.info(TAG, `createAndGetUri err = ${err}`);
     }
-    Logger.info(TAG, `createAndGetUri fileAsset = ${fileAsset}`);
-    return fileAsset;
+    Logger.info(TAG, `createAndGetUri fileAsset = ${photoAsset}`);
+    return photoAsset;
   }
 
-  async getFdPath(fileAsset: mediaLibrary.FileAsset): Promise<number> {
-    let fd = await fileAsset.open('Rw');
+  async getFdPath(photoAsset: photoAccessHelper.PhotoAsset): Promise<number> {
+    let fd = await photoAsset.open('Rw');
     Logger.info(TAG, `fd = ${fd}`);
     return fd;
   }
