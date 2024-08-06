@@ -72,7 +72,11 @@ _NO_FILTE_SUB_SYSTEM_LIST = [
     "sstsutils",
     "hdf",
     "distributed_schedule",
-    "xts"
+    "xts",
+    "commonlibrary",
+    "communication",
+    "distributeddatamgr",
+    "startup"
 ]
 
 
@@ -274,7 +278,7 @@ def check_component(path, components):
     for component in components:
         component_name = component.get("component", "")
         if component_name != "kv_store_lite":
-            component_name = component_name.replace("_lite", "")
+            component_name = component_name.split('_lite')[0]
         if component_name in path or "{}_hal".format(component_name) in path \
                  or "{}_posix".format(component_name) in path:
             return True
