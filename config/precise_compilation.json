@@ -149,7 +149,7 @@
     },
     {
         "name": "developtools_packing_tool",
-        "buildTarget": "arkui"
+        "buildTarget": "xts_acts"
     },
     {
         "name": "developtools_profiler",
