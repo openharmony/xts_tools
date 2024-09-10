@@ -44,7 +44,6 @@ _SUB_SYSTEM_LIST = [
     "iothardware",
     "open_posix_testsuite",
     "validator",
-    "driver"
 ]
 _GRADLE_PARAMS = ["SIGN_USER_NAME", "SIGN_PWD", "SIGN_MATERIAL_PATH",
                  "SIGN_PROFILE", "SIGN_CERT_FILE"]
