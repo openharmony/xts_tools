@@ -241,7 +241,7 @@ template("ohos_testsuite_base") {
     if (_project_type == "testhapassist" || _project_type == "testappassist") {
       _archive_testfile =
           "${_suite_out_dir}/testcases/module_${_archive_filename}"
-    } else if (_project_type == "testhap") {
+    } else if (_project_type == "testapp") {
       _hap_name = invoker.hap_name
       if (_hap_name == "validator" && subsystem_name == "acts") {
         _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts-validator"
