@@ -107,16 +107,16 @@ def get_hvigor_prject_list(directory):
 
 if __name__ == "__main__":
     this_file = os.path.realpath(__file__)
-    hvigor_check_root_dir = os.path.dirname(this_file)
-    xts_root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(this_file))))
+    hvigor_check_dir = os.path.dirname(this_file)
+    check_root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(this_file))))
     xts_suitename = os.environ.get('XTS_SUITENAME') if 'XTS_SUITENAME' in os.environ else os.environ.get('xts_suitename')
-    xts_root_dir = os.path.join(xts_root_dir , xts_suitename)
-    logging.info (f'hvigor_check_root_dir : {xts_root_dir}')
+    check_root_dir = os.path.join(check_root_dir , xts_suitename)
+    logging.info (f'check_root_dir : {check_root_dir}')
 
-    hvigor_prj_list = get_hvigor_prject_list(xts_root_dir)
-    js_valid = check_hvigor_wrapper_js(hvigor_check_root_dir, hvigor_prj_list)
+    hvigor_prj_list = get_hvigor_prject_list(check_root_dir)
+    js_valid = check_hvigor_wrapper_js(hvigor_check_dir, hvigor_prj_list)
     json_valid = check_hvigor_version(hvigor_prj_list)
-    bat_valid = check_hvigorw_bat(hvigor_check_root_dir, hvigor_prj_list)
+    bat_valid = check_hvigorw_bat(hvigor_check_dir, hvigor_prj_list)
 
     if not js_valid or not json_valid or not bat_valid:
         logging.error('hvigor format verification failed')
