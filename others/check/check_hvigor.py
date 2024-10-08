@@ -111,8 +111,8 @@ if __name__ == "__main__":
     xts_root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(this_file))))
     xts_suitename = os.environ.get('XTS_SUITENAME') if 'XTS_SUITENAME' in os.environ else os.environ.get('xts_suitename')
     xts_root_dir = os.path.join(xts_root_dir , xts_suitename)
+    logging.info (f'hvigor_check_root_dir : {xts_root_dir}')
 
-    print (f'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ xts_root_dir = {xts_root_dir}')
     hvigor_prj_list = get_hvigor_prject_list(xts_root_dir)
     js_valid = check_hvigor_wrapper_js(hvigor_check_root_dir, hvigor_prj_list)
     json_valid = check_hvigor_version(hvigor_prj_list)
