@@ -206,46 +206,64 @@ void ObtainProductParams(void)
     int sdkApiVersion = GetSdkApiVersion();
     if (sdkApiVersion != 0) {
         printf("SdkApiVersion = %d\n", sdkApiVersion);
+    } else {
+        printf("SdkApiVersion = 0\n");
     }
 
     int firstApiVersion = GetFirstApiVersion();
     if (firstApiVersion != 0) {
         printf("firstApiVersion = %d\n", firstApiVersion);
+    } else {
+        printf("firstApiVersion = 0\n");
     }
 
     const char *bootloaderVersion = GetBootloaderVersion();
     if (bootloaderVersion != NULL) {
         printf("bootloaderVersion = %s\n", bootloaderVersion);
+    } else {
+        printf("bootloaderVersion = NULL\n");
     }
 
     const char *incrementalVersion = GetIncrementalVersion();
     if (incrementalVersion != NULL) {
         printf("incrementalVersion = %s\n", incrementalVersion);
+    } else {
+        printf("incrementalVersion = NULL\n");
     }
 
     const char *buildType = GetBuildType();
     if (buildType != NULL) {
         printf("buildType = %s\n", buildType);
+    } else {
+        printf("buildType = NULL\n");
     }
 
     const char *buildUser = GetBuildUser();
     if (buildUser != NULL) {
         printf("buildUser = %s\n", buildUser);
+    } else {
+        printf("buildUser = NULL\n");
     }
 
     const char *buildHost = GetBuildHost();
     if (buildHost != NULL) {
         printf("buildHost = %s\n", buildHost);
+    } else {
+        printf("buildHost = NULL\n");
     }
 
     const char *buildTime = GetBuildTime();
     if (buildTime != NULL) {
         printf("buildTime = %s\n", buildTime);
+    } else {
+        printf("buildTime = NULL\n");
     }
 
     const char *abiList = GetAbiList();
     if (abiList != NULL) {
         printf("AbiList = %s\n", abiList);
+    } else {
+        printf("AbiList = NULL\n");
     }
 }
 
@@ -257,9 +275,12 @@ void ObtainAttestResultParams(void)
     int32_t retStatus = GetAttestStatus(&attestResultInfo);
     if (retStatus != DEVATTEST_SUCCESS) {
         printf("[CLIENT MAIN] wrong. retStatus:%d\n", retStatus);
+        printf("authResult = %d\n", attestResultInfo.authResult);
+        printf("softwareResult = %d\n", attestResultInfo.softwareResult);
+    } else {
+        printf("authResult = %d\n", attestResultInfo.authResult);
+        printf("softwareResult = %d\n", attestResultInfo.softwareResult);
     }
-    printf("authResult = %d\n", attestResultInfo.authResult);
-    printf("softwareResult = %d\n", attestResultInfo.softwareResult);
 }
 #endif
 
@@ -269,26 +290,36 @@ void ObtainSystemParams(void)
     const char *productType = GetDeviceType();
     if (productType != NULL) {
         printf("Device Type = %s\n", productType);
+    } else {
+        printf("Device Type = NULL\n");
     }
 
     const char *securityPatchTag = GetSecurityPatchTag();
     if (securityPatchTag != NULL) {
         printf("Security Patch = %s\n", securityPatchTag);
+    } else {
+        printf("Security Patch = NULL\n");
     }
 
     const char *osName = GetOSFullName();
     if (osName != NULL) {
         printf("OsFullName = %s\n", osName);
+    } else {
+        printf("OsFullName = NULL\n");
     }
 
     const char *displayVersion = GetDisplayVersion();
     if (displayVersion != NULL) {
         printf("DisplayVersion = %s\n", displayVersion);
+    } else {
+        printf("DisplayVersion = NULL\n");
     }
 
     const char *versionId = GetVersionId();
     if (versionId != NULL) {
         printf("VersionID = %s\n", versionId);
+    } else {
+        printf("VersionID = NULL\n");
     }
 
 #ifdef INTER_ATTEST_MINI_MODULE
@@ -299,51 +330,71 @@ void ObtainSystemParams(void)
     int retUdid = GetDevUdid(udid, UDIDSIZE_LEN + 1);
     if (retUdid == 0) {
         printf("DevUdid = %s\n", udid);
+    } else {
+        printf("DevUdid = NULL\n");
     }
 
     const char *manuFacture = GetManufacture();
     if (manuFacture != NULL) {
         printf("manuFacture = %s\n", manuFacture);
+    } else {
+        printf("manuFacture = NULL\n");
     }
 
     const char *productModel = GetProductModel();
     if (productModel != NULL) {
         printf("productModel = %s\n", productModel);
+    } else {
+        printf("productModel = NULL\n");
     }
 
     const char *serial = GetSerial();
     if (serial != NULL) {
         printf("serial = %s\n", serial);
+    } else {
+        printf("serial = NULL\n");
     }
 
     const char *brand = GetBrand();
     if (brand != NULL) {
         printf("brand = %s\n", brand);
+    } else {
+        printf("brand = NULL\n");
     }
 
     const char *productSeries = GetProductSeries();
     if (productSeries != NULL) {
         printf("productSeries = %s\n", productSeries);
+    } else {
+        printf("productSeries = NULL\n");
     }
 
     const char *softwareModel = GetSoftwareModel();
     if (softwareModel != NULL) {
         printf("softwareModel = %s\n", softwareModel);
+    } else {
+        printf("softwareModel = NULL\n");
     }
 
     const char *hardWareModel = GetHardwareModel();
     if (hardWareModel != NULL) {
         printf("HardwareModel = %s\n", hardWareModel);
+    } else {
+        printf("HardwareModel = NULL\n");
     }
 
     const char *buildRootHash = GetBuildRootHash();
     if (buildRootHash != NULL) {
         printf("BuildRootHash = %s\n", buildRootHash);
+    } else {
+        printf("BuildRootHash = NULL\n");
     }
 
     const char *marketName = GetMarketName();
     if (marketName != NULL) {
         printf("marketName = %s\n", marketName);
+    } else {
+        printf("marketName = NULL\n");
     }
 
     ObtainProductParams();
