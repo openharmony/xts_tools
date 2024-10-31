@@ -1462,5 +1462,65 @@
     {
         "name": "third_party_zlib",
         "buildTarget": "appexecfwk"
+    },
+    {
+        "name": "update_updater",
+        "buildTarget": "actsresponseglobalparamupdatetest"
+    },
+    {
+        "name": "security_security_guard",
+        "buildTarget": "security"
+    },
+    {
+        "name": "security_asset",
+        "buildTarget": "test/xts/acts/security/asset:asset"
+    },
+    {
+        "name": "applications_settings",
+        "buildTarget": "applications"
+    },
+    {
+        "name": "applications_camera",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "applications_contacts",
+        "buildTarget": "telephonyjstest"
+    },
+    {
+        "name": "multimedia_drm_framework",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "multimedia_media_library",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "multimedia_image_effect",
+        "buildTarget": "multimedia"
+    },
+    {
+        "name": "graphic_graphic_3d",
+        "buildTarget": "graphic"
+    },
+    {
+        "name": "distributedhardware_device_manager",
+        "buildTarget": "test/xts/acts/hdf:hdf"
+    },
+    {
+        "name": "drivers_external_device_manager",
+        "buildTarget": "test/xts/acts/hdf:hdf"
+    },
+    {
+        "name": "drivers_hdf_core",
+        "buildTarget": "ai"
+    },
+    {
+        "name": "kernel_linux_build",
+        "buildTarget": "arkui"
+    },
+    {
+        "name": "graphic_graphic_surface",
+        "buildTarget": "graphic"
     }
 ]
