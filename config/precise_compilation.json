@@ -1473,7 +1473,7 @@
     },
     {
         "name": "security_asset",
-        "buildTarget": "asset"
+        "buildTarget": "test/xts/acts/security/asset:asset"
     },
     {
         "name": "applications_settings",
@@ -1505,11 +1505,11 @@
     },
     {
         "name": "distributedhardware_device_manager",
-        "buildTarget": "hdf"
+        "buildTarget": "test/xts/acts/hdf:hdf"
     },
     {
         "name": "drivers_external_device_manager",
-        "buildTarget": "hdf"
+        "buildTarget": "test/xts/acts/hdf:hdf"
     },
     {
         "name": "drivers_hdf_core",
