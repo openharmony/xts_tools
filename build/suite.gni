@@ -123,6 +123,7 @@ template("ohos_testsuite_base") {
         if (defined(invoker.sources)) {
           print(invoker.sources)
         }
+        not_needed(invoker, "*")
       }
     } else if (_project_type == "zunit" || _project_type == "javatestbundle") {
       _output_file = "${_output_file_dir}/module_${target_name}.dex"
