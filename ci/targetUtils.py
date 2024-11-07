@@ -66,19 +66,23 @@ class ChangeFileEntity:
                 f")")
 
 
-class BundleTargetUtils:
-    @staticmethod
-    def getTargstsPaths(xts_root_dir, changeFileEntity: ChangeFileEntity) -> list:
+class ComponentUtils:
+    
+    def __init__(self, xts_root_dir, code_root_dir):
+        self._xts_root_dir = xts_root_dir
+        self._code_root_dir = code_root_dir
+        self.target_paths = []
+    
+    def addTargstsPaths(changeFileEntity: ChangeFileEntity) -> list:
         # 获取部件名
         bundle_name = BundleTargetUtils.getBundleName(changeFileEntity.path)
         # 部件名(partname)获取paths
         paths = XTSTargetUtils.getPathsByBundle(bundle_name, xts_root_dir)
+        self.target_paths += paths
 
-        paths = PathUtils.removeSubandDumpPath(paths)
+        return 0
 
-        return paths
-
-    @staticmethod
+    
     def getBundleName(path) -> str:
         with open(os.path.join(HOME, path, "bundle.json"), 'r') as file:
             data = json.load(file)
@@ -86,7 +90,68 @@ class BundleTargetUtils:
         return bundle_name
 
 
+class XTSUtils:
+
+    def __init__(self, xts_root_dir, code_root_dir):
+        self._xts_root_dir = xts_root_dir
+        self._code_root_dir = code_root_dir
+        self._build_paths = []
+
+
+    # 获取path接口
+    def getTargstsPaths(self, changeFileEntity: ChangeFileEntity):
+        # 修改和新增
+        for file in changeFileEntity.add + changeFileEntity.modified:
+            # file转为绝对路径
+            file = os.path.join(self._code_root_dir, file)
+            # 筛选掉例外的目录
+            if XTSTargetUtils.isExceptionPath(file):
+                continue
+            # 当前文件路径或父已存在,跳过
+            if XTSTargetUtils.isTargetContains(self._build_paths, file):
+                continue
+            # 当前file对应BUILD.gn路径
+            build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, file)
+            # 计算到根目录,直接编译全量
+            if os.path.dirname(build_File) == self._xts_root_dir:
+                self._build_paths = [self._xts_root_dir]
+                print (f"文件: {file} 修改需编译全量代码")
+                return 0
+            self._build_paths.append(os.path.dirname(build_File))
+        # 删除
+        for file in changeFileEntity.delete:
+            # file转为绝对路径
+            file = os.path.join(self._code_root_dir, file)
+            # 筛选掉例外的目录
+            if XTSTargetUtils.isExceptionPath(file):
+                continue
+            # 当前文件路径或父已存在,跳过
+            if XTSTargetUtils.isTargetContains(self._build_paths, file):
+                continue
+            # 当前存在的最外层路径
+            exist_path = PathUtils.get_current_exist(os.path.dirname(file))
+            build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, exist_path)
+            # 计算到根目录,直接编译全量
+            if os.path.dirname(build_File) == self._xts_root_dir:
+                self._build_paths = [self._xts_root_dir]
+                print (f"文件: {file} 删除需编译全量代码")
+                return 0
+            self._build_paths.append(os.path.dirname(build_File))
+        return 0
+
+
+
+
 class XTSTargetUtils:
+
+    # 不需要编译的目录,包括deploy_testtools(所有的都编),lite
+    EXCEPTION_PATH_LIST = [
+        "/testtools/"
+        "_lite/",
+        "/acts/applications/kitframework_ipcamera/",
+        "/acts/applications/kitframework/",
+        "/acts/open_posix_testsuite/"
+    ]
 
     TEMPLATE_LIST = [
         "ohos_moduletest_suite",
@@ -96,37 +161,28 @@ class XTSTargetUtils:
         "ohos_hap_assist_suite",
         "ohos_app_assist_suite",
         "ohos_sh_assist_suite",
+        "ohos_static_library",
         "group"
     ]
 
-    ERROR_PATH = []
-    # 获取path接口
     @staticmethod
-    def getTargstsPaths(xts_root_dir, changeFileEntity: ChangeFileEntity) -> list:
-        targetFiles = []
-        for file in changeFileEntity.add + changeFileEntity.modified:
-            file = os.path.join(HOME, file)
-            build_File = XTSTargetUtils.get_current_Build(xts_root_dir,file)
-            if build_File == None:
-                targetFiles = [changeFileEntity.path]
-                return targetFiles
-            targetFiles.append(os.path.dirname(build_File))
+    def get_current_Build(xts_root_dir, current_dir):
+        while PathUtils.is_parent_path(xts_root_dir, current_dir):
+            # 检查当前目录下是否存在BUILD.gn文件
+            build_gn_path = os.path.join(current_dir, 'BUILD.gn')
+            if os.path.exists(build_gn_path):
+                return build_gn_path
+                # 如果没有找到，向上一层目录移动
+            current_dir = os.path.dirname(current_dir)
+        # xts仓最外层均有BUILD.gn文件
+        return current_dir
 
-        for file in changeFileEntity.delete:
-            file = os.path.join(HOME, file)
-            if XTSTargetUtils.isTargetContains(targetFiles, file):
-                continue
-            exist_path = PathUtils.get_current_exist(os.path.dirname(file))
-            if exist_path == None:
-                targetFiles = [changeFileEntity.path]
-                return targetFiles
-            build_File = XTSTargetUtils.get_current_Build(xts_root_dir, exist_path)
-            if build_File == None:
-                targetFiles = [changeFileEntity.path]
-                return targetFiles
-            targetFiles += os.path.dirname(build_File)
-
-        return 0, targetFiles
+    @staticmethod
+    def isExceptionPath(file):
+        for keyword in XTSTargetUtils.EXCEPTION_PATH_LIST:
+            if keyword in file:
+                return True
+        return False
 
     @staticmethod
     def isTargetContains(targetFiles, file) -> bool:
@@ -135,24 +191,13 @@ class XTSTargetUtils:
                 return True
         return False
 
-    @staticmethod
-    def get_current_Build(xts_root_dir, current_dir) -> str:
-        while PathUtils.is_parent_path(xts_root_dir, current_dir):
-            # 检查当前目录下是否存在BUILD.gn文件
-            build_gn_path = os.path.join(current_dir, 'BUILD.gn')
-            if os.path.exists(build_gn_path):
-                return build_gn_path
-                # 如果没有找到，向上一层目录移动
-            current_dir = os.path.dirname(current_dir)
-
-        return None
-
     # 路径获取target
     @staticmethod
     def getTargetfromPath(xts_root_dir, path) -> list:
+        if path == xts_root_dir:
+            xts_suite = os.path.basename(xts_root_dir)
+            return [f"xts_{xts_suite}"]
         build_file = XTSTargetUtils.get_current_Build(xts_root_dir, path)
-        if build_file == None:
-            return None
         targets = XTSTargetUtils.getTargetFromBuild(build_file)
         if targets == None:
             return XTSTargetUtils.getTargetfromPath(xts_root_dir, os.path.dirname(os.path.dirname(build_file)))
@@ -193,7 +238,7 @@ class XTSTargetUtils:
 
     @staticmethod
     def getPathsByBundle(bundle, test_home) -> list:
-        matching_files = []
+        matching_files = {}
         # 遍历根目录及其子目录
         for root, dirs, files in os.walk(test_home):
             if "lite" in root:
@@ -215,7 +260,7 @@ class PathUtils:
 
     # 路径列表简化
     @staticmethod
-    def removeSubandDumpPath(path_list) -> list:
+    def removeSubandDumpPath(path_list: list) -> list:
         # 排序，确保父目录在子目录之前,减少运算
         path_list.sort()
         # 存储最小集
@@ -257,15 +302,14 @@ class PathUtils:
             PathUtils.addPathClean(parent_path, minimal_paths_set, parent_dirs)
 
     @staticmethod
-    def get_current_exist(path) -> str:
+    def get_current_exist(root_path,path) -> str:
         current_dir = path
-        #
-        while XTS_SUITENAME in current_dir:
+        while PathUtils.is_parent_path(root_path,current_dir):
             if os.path.exists(current_dir):
                 return current_dir
-            # 如果当前目录没有BUILD.gn文件，则向上一级目录查找
             current_dir = os.path.dirname(current_dir)
-        return None
+        # 根目录必然存在
+        return root_path
 
     @staticmethod
     def is_parent_path(parent_path, child_path):

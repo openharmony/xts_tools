@@ -18,29 +18,7 @@
 import os
 import sys
 import json
-from targetUtils import ChangeFileEntity, BundleTargetUtils, XTSTargetUtils, PathUtils
-
-
-
-class TestSuite:
-
-    def __init__(self, xts_root_dir):
-        self._xts_root_dir = xts_root_dir
-        self._components_mapping_ts = self._generate_dict_of_component_mapping_testsuite()
-        self._dir_mapping_ts = self._generate_dict_of_directory_mapping_testsuite()
-
-    def _generate_dict_of_component_mapping_testsuite(self):
-        return {}
-
-    def _generate_dict_of_directory_mapping_testsuite(self):
-        return {}
-
-    def get_testsuites_of_component(self, component_name):
-        return self._components_mapping_ts.get(component_name)
-
-    # 查找文件所属用例
-    def get_testsuite_of_file(self, file_name):
-        return None
+from targetUtils import ChangeFileEntity, ComponentUtils, XTSUtils, XTSTargetUtils, PathUtils
 
 
 class AccurateTarget:
@@ -55,7 +33,6 @@ class AccurateTarget:
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = os.path.realpath(os.path.join(xts_root_dir, "../../.."))
         self._change_info_file = change_info_file
-        self._xts_suitename = os.getenv("XTS_SUITENAME")
         self._testsuite = None
 
     # def _get_full_target(self, xts_suitename):
@@ -84,24 +61,28 @@ class AccurateTarget:
         return 0
 
 
-    def _set_testsuite(self):
-        self._testsuite = TestSuite(self._xts_root_dir)
-
     # 测试套件仓修改,只查看当前编译套件仓
     def _get_targets_from_testcase_change(self):
-        targetFilse = []
+        targets = []
+        xts_u = XTSUtils(self._xts_root_dir, self._code_root_dir)
         for changeFileEntity in self._change_list:
             if changeFileEntity.path in self.XTS_PATH_LIST and changeFileEntity.path in self._xts_root_dir:
                 # 只有当前编译的xts仓修改参与计算
-                ret, targetFilse = XTSTargetUtils.getTargstsPaths(self._xts_root_dir, changeFileEntity)
-        return 0, targetFilse
+                ret = xts_u.getTargstsPaths(changeFileEntity)
+                if ret == 1:
+                    print(f"{changeFileEntity.name}仓修改解析失败")
+                    return 1, []
+        return 0, xts_u._build_paths
 
     # 部件仓修改
     def _get_targets_from_component_change(self):
         targetFilse = []
+        com_u = ComponentUtils(self._xts_root_dir, self._code_root_dir)
         for changeFileEntity in self._change_list:
             if changeFileEntity.path not in self.XTS_PATH_LIST:
-                targetFilse += BundleTargetUtils.getTargstsPaths(self._xts_root_dir, changeFileEntity)
+                ret = com_u.addTargstsPaths(changeFileEntity)
+                if ret == 1:
+                    pass
         return 0, targetFilse
 
     # 接口仓/编译框架仓变化
@@ -117,22 +98,22 @@ class AccurateTarget:
             target_paths = [self._xts_root_dir]
         else:
             func_list = [
-                self._get_targets_from_testcase_change, 
-                self._get_targets_from_component_change
+                self._get_targets_from_testcase_change
+                # self._get_targets_from_component_change
                 # self._get_targets_from_if_change
             ]
 
             # 应编目录
-            target_paths = []
+            target_paths = set()
             for i in func_list:
                 retcode, m = i()
                 if retcode:
-                    return retcode, []
-                target_paths += m
+                    target_paths = [self._xts_root_dir]
+                    break
+                target_paths = target_paths.union(m)
 
         # 去除子目录\重复目录
-        combined_list = sorted(set(target_paths))
-        sum_path = PathUtils.removeSubandDumpPath(combined_list)
+        sum_path = PathUtils.removeSubandDumpPath(list(target_paths))
 
         targets = []
         # 每个目录获取 target
