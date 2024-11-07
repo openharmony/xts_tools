@@ -95,6 +95,7 @@ class AccurateTarget:
         ret = self._get_change_info()
         if ret == 1:
             # changeinfo读取失败-全量编译
+            print (f"未获取到修改文件列表,编译全量代码")
             target_paths = [self._xts_root_dir]
         else:
             func_list = [

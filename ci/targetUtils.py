@@ -19,10 +19,9 @@ import os
 import re
 import json
 
-# XTS_SUITENAME = os.getenv("XTS_SUITENAME")
+
 HOME = os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
-XTS_HOME = os.path.join(HOME, "test", "xts")
 
 class ChangeFileEntity:
     def __init__(self, name, path):
@@ -105,15 +104,19 @@ class XTSUtils:
             # file转为绝对路径
             file = os.path.join(self._code_root_dir, file)
             # 筛选掉例外的目录
-            if XTSTargetUtils.isExceptionPath(file):
+            if PathUtils.isContainsKeywords(file, XTSTargetUtils.EXCEPTION_PATH_LIST):
                 continue
             # 当前文件路径或父已存在,跳过
-            if XTSTargetUtils.isTargetContains(self._build_paths, file):
+            if PathUtils.isTargetContains(self._build_paths, file):
                 continue
             # 当前file对应BUILD.gn路径
             build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, file)
-            # 计算到根目录,直接编译全量
-            if os.path.dirname(build_File) == self._xts_root_dir:
+            # 计算到根目录或指定目录,直接编译全量
+            print(f"file: {file}")
+            print(f"ALL_COM_PATH_LIST: {XTSTargetUtils.ALL_COM_PATH_LIST}")
+            print(f"HOME: {HOME}")
+            if (os.path.dirname(build_File) == self._xts_root_dir or 
+                PathUtils.isContainsKeywords(file, XTSTargetUtils.ALL_COM_PATH_LIST)):
                 self._build_paths = [self._xts_root_dir]
                 print (f"文件: {file} 修改需编译全量代码")
                 return 0
@@ -123,34 +126,39 @@ class XTSUtils:
             # file转为绝对路径
             file = os.path.join(self._code_root_dir, file)
             # 筛选掉例外的目录
-            if XTSTargetUtils.isExceptionPath(file):
+            if PathUtils.isContainsKeywords(file, XTSTargetUtils.EXCEPTION_PATH_LIST):
                 continue
             # 当前文件路径或父已存在,跳过
-            if XTSTargetUtils.isTargetContains(self._build_paths, file):
+            if PathUtils.isTargetContains(self._build_paths, file):
                 continue
             # 当前存在的最外层路径
             exist_path = PathUtils.get_current_exist(os.path.dirname(file))
             build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, exist_path)
-            # 计算到根目录,直接编译全量
-            if os.path.dirname(build_File) == self._xts_root_dir:
+            # 计算到根目录或指定目录,直接编译全量
+            if (os.path.dirname(build_File) == self._xts_root_dir or 
+                PathUtils.isContainsKeywords(file, XTSTargetUtils.ALL_COM_PATH_LIST)):
                 self._build_paths = [self._xts_root_dir]
                 print (f"文件: {file} 删除需编译全量代码")
                 return 0
             self._build_paths.append(os.path.dirname(build_File))
         return 0
 
-
-
-
 class XTSTargetUtils:
-
     # 不需要编译的目录,包括deploy_testtools(所有的都编),lite
     EXCEPTION_PATH_LIST = [
-        "/testtools/"
+        "/acts/testtools/"
         "_lite/",
         "/acts/applications/kitframework_ipcamera/",
         "/acts/applications/kitframework/",
         "/acts/open_posix_testsuite/"
+    ]
+
+    ALL_COM_PATH_LIST = [
+        "/acts/build/"
+    ]
+
+    SKIP_JUDGE_PATH_LIST = [
+        "/cpp"
     ]
 
     TEMPLATE_LIST = [
@@ -168,6 +176,10 @@ class XTSTargetUtils:
     @staticmethod
     def get_current_Build(xts_root_dir, current_dir):
         while PathUtils.is_parent_path(xts_root_dir, current_dir):
+            # 当前目录是否包含需跳过的keywords
+            if PathUtils.isContainsKeywords(current_dir, XTSTargetUtils.SKIP_JUDGE_PATH_LIST):
+                current_dir = os.path.dirname(current_dir)
+                continue
             # 检查当前目录下是否存在BUILD.gn文件
             build_gn_path = os.path.join(current_dir, 'BUILD.gn')
             if os.path.exists(build_gn_path):
@@ -177,29 +189,16 @@ class XTSTargetUtils:
         # xts仓最外层均有BUILD.gn文件
         return current_dir
 
-    @staticmethod
-    def isExceptionPath(file):
-        for keyword in XTSTargetUtils.EXCEPTION_PATH_LIST:
-            if keyword in file:
-                return True
-        return False
-
-    @staticmethod
-    def isTargetContains(targetFiles, file) -> bool:
-        for f in targetFiles:
-            if PathUtils.is_parent_path(f, file):
-                return True
-        return False
-
     # 路径获取target
     @staticmethod
     def getTargetfromPath(xts_root_dir, path) -> list:
         if path == xts_root_dir:
             xts_suite = os.path.basename(xts_root_dir)
-            return [f"xts_{xts_suite}"]
+            relative_path = os.path.relpath(xts_root_dir, HOME)
+            return [f"{relative_path}:xts_{xts_suite}"]
         build_file = XTSTargetUtils.get_current_Build(xts_root_dir, path)
         targets = XTSTargetUtils.getTargetFromBuild(build_file)
-        if targets == None:
+        if targets == None: 
             return XTSTargetUtils.getTargetfromPath(xts_root_dir, os.path.dirname(os.path.dirname(build_file)))
         return targets
 
@@ -210,15 +209,12 @@ class XTSTargetUtils:
             content = file.read()
         matches = pattern.findall(content)
         targets = [match[1] for match in matches]
-        if len(targets) == 0:
-            return None
-        if len(targets) == 1:
-            return targets
-        else:
+        relative_path = os.path.relpath(os.path.dirname(build_File), HOME)
+        if len(targets) > 1:
             deps = XTSTargetUtils.getDepsinBuild(content)
             # 编译本gn中未被依赖的目标
-            result = [item for item in targets if item not in deps]
-            return result
+            targets = [item for item in targets if item not in deps]
+        return [f"{relative_path}:{item}" for item in targets]
 
     @staticmethod
     def getDepsinBuild(build):
@@ -316,3 +312,17 @@ class PathUtils:
         # 获取公共路径
         common_path = os.path.commonpath([parent_path, child_path])
         return common_path == parent_path
+
+    @staticmethod
+    def isContainsKeywords(file, keywords):
+        for keyword in keywords:
+            if keyword in file:
+                return True
+        return False
+
+    @staticmethod
+    def isTargetContains(targetFiles, file) -> bool:
+        for f in targetFiles:
+            if PathUtils.is_parent_path(f, file):
+                return True
+        return False
