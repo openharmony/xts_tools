@@ -168,7 +168,6 @@ class XTSTargetUtils:
         "ohos_hap_assist_suite",
         "ohos_app_assist_suite",
         "ohos_sh_assist_suite",
-        "ohos_static_library",
         "group"
     ]
 
