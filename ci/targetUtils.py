@@ -117,7 +117,7 @@ class XTSUtils:
             if (os.path.dirname(build_File) == self._xts_root_dir or 
                 PathUtils.isContainsKeywords(file, XTSTargetUtils.ALL_COM_PATH_LIST)):
                 self._build_paths = [self._xts_root_dir]
-                print (f"文件: {file} 修改需编译全量代码")
+                print (f"文件: {file} 修改，编译全量或指定目标")
                 return 0
             self._build_paths.append(os.path.dirname(build_File))
         # 删除
