@@ -172,6 +172,18 @@ class XTSTargetUtils:
         "group"
     ]
 
+    # acts修改影响全量时编译目标,其他仓全编:
+    ACTS_ALL_TEMPLATE_EX = [
+        "ActsMindSporeTest",
+        "ActsBmsAccessTokenTest",
+        "AACommandImplicitStartTest",
+        "StageSupplement",
+        "AACommand07",
+        "cpLibuv"
+    ]
+
+
+
     @staticmethod
     def get_current_Build(xts_root_dir, current_dir):
         while PathUtils.is_parent_path(xts_root_dir, current_dir):
@@ -192,6 +204,8 @@ class XTSTargetUtils:
     @staticmethod
     def getTargetfromPath(xts_root_dir, path) -> list:
         if path == xts_root_dir:
+            if path.endswith("acts"):
+                return XTSTargetUtils.ACTS_ALL_TEMPLATE_EX
             xts_suite = os.path.basename(xts_root_dir)
             relative_path = os.path.relpath(xts_root_dir, HOME)
             return [f"{relative_path}:xts_{xts_suite}"]

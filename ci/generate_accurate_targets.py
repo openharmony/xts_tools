@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+\#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # Copyright (c) 2024 Huawei Device Co., Ltd.
@@ -66,6 +66,9 @@ class AccurateTarget:
         targets = []
         xts_u = XTSUtils(self._xts_root_dir, self._code_root_dir)
         for changeFileEntity in self._change_list:
+            # tools仓修改，编译全量
+            if changeFileEntity.path == "test/xts/tools":
+                xts_u._build_paths = [self._xts_root_dir]
             if changeFileEntity.path in self.XTS_PATH_LIST and changeFileEntity.path in self._xts_root_dir:
                 # 只有当前编译的xts仓修改参与计算
                 ret = xts_u.getTargstsPaths(changeFileEntity)
