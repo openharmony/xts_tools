@@ -18,7 +18,7 @@
 import os
 import sys
 import json
-from targetUtils import ChangeFileEntity, ComponentUtils, XTSUtils, XTSTargetUtils, PathUtils
+from targetUtils import ChangeFileEntity, ComponentUtils, XTSUtils, XTSTargetUtils, PathUtils, HOME
 
 
 class AccurateTarget:
@@ -96,7 +96,10 @@ class AccurateTarget:
         if ret == 1:
             # changeinfo读取失败-全量编译
             print (f"未获取到修改文件列表,编译全量代码")
-            target_paths = [self._xts_root_dir]
+            xts_suite = os.path.basename(self._xts_root_dir)
+            relative_path = os.path.relpath(self._xts_root_dir, HOME)
+            targets = [f"{relative_path}:xts_{xts_suite}"]
+
         else:
             func_list = [
                 self._get_targets_from_testcase_change
@@ -113,15 +116,15 @@ class AccurateTarget:
                     break
                 target_paths = target_paths.union(m)
 
-        # 去除子目录\重复目录
-        sum_path = PathUtils.removeSubandDumpPath(list(target_paths))
+            # 去除子目录\重复目录
+            sum_path = PathUtils.removeSubandDumpPath(list(target_paths))
 
-        targets = []
-        # 每个目录获取 target
-        for path in sum_path:
-            targets += XTSTargetUtils.getTargetfromPath(self._xts_root_dir, path)
+            targets = []
+            # 每个目录获取 target
+            for path in sum_path:
+                targets += XTSTargetUtils.getTargetfromPath(self._xts_root_dir, path)
 
-        return 0, list(targets)
+        return 0, targets
 
 
 def generate(xts_root_dir, change_info_file, build_target):

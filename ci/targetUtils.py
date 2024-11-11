@@ -23,6 +23,8 @@ import json
 HOME = os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
 
+XTS_SUITENAME = os.getenv("XTS_SUITENAME") if 'XTS_SUITENAME' in os.environ else os.getenv("xts_suitename")
+
 class ChangeFileEntity:
     def __init__(self, name, path):
         self.name = name
@@ -112,9 +114,6 @@ class XTSUtils:
             # 当前file对应BUILD.gn路径
             build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, file)
             # 计算到根目录或指定目录,直接编译全量
-            print(f"file: {file}")
-            print(f"ALL_COM_PATH_LIST: {XTSTargetUtils.ALL_COM_PATH_LIST}")
-            print(f"HOME: {HOME}")
             if (os.path.dirname(build_File) == self._xts_root_dir or 
                 PathUtils.isContainsKeywords(file, XTSTargetUtils.ALL_COM_PATH_LIST)):
                 self._build_paths = [self._xts_root_dir]
@@ -146,7 +145,7 @@ class XTSUtils:
 class XTSTargetUtils:
     # 不需要编译的目录,包括deploy_testtools(所有的都编),lite
     EXCEPTION_PATH_LIST = [
-        "/acts/testtools/"
+        f"/{XTS_SUITENAME}/testtools/"
         "_lite/",
         "/acts/applications/kitframework_ipcamera/",
         "/acts/applications/kitframework/",
@@ -154,7 +153,7 @@ class XTSTargetUtils:
     ]
 
     ALL_COM_PATH_LIST = [
-        "/acts/build/"
+        f"/{XTS_SUITENAME}/build/"
     ]
 
     SKIP_JUDGE_PATH_LIST = [
