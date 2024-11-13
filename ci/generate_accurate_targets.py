@@ -52,10 +52,14 @@ class AccurateTarget:
 
         for item in data:
             changeFileEntity = ChangeFileEntity(name=data[item]["name"], path=item)
-            changeFileEntity.addAddPaths(data[item]["change_file_list"]["add"])
-            changeFileEntity.addModifiedPaths(data[item]["change_file_list"]["modified"])
-            changeFileEntity.addRenamePathsto(data[item]["change_file_list"]["rename"])
-            changeFileEntity.addDeletePaths(data[item]["change_file_list"]["delete"])
+            if "add" in data[item]["change_file_list"]:
+                changeFileEntity.addAddPaths(data[item]["change_file_list"]["add"])
+            if "modified" in data[item]["change_file_list"]:
+                changeFileEntity.addModifiedPaths(data[item]["change_file_list"]["modified"])
+            if "rename" in data[item]["change_file_list"]:
+                changeFileEntity.addRenamePathsto(data[item]["change_file_list"]["rename"])
+            if "delete" in data[item]["change_file_list"]:
+                changeFileEntity.addDeletePaths(data[item]["change_file_list"]["delete"])
             change_list.append(changeFileEntity)
         self._change_list = change_list
         return 0
