@@ -421,7 +421,7 @@
     },
     {
         "name": "web_webview",
-        "buildTarget": "arkui"
+        "buildTarget": "test/xts/acts/web:web"
     },
     {
         "name": "window_window_manager",
