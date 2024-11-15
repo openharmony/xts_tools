@@ -23,7 +23,7 @@ import json
 HOME = os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
 
-XTS_SUITENAME = os.getenv("XTS_SUITENAME") if 'XTS_SUITENAME' in os.environ else os.getenv("xts_suitename")
+MACTH_CONFIG = os.path.join(HOME,"test", "xts", "tools", "config", "ci_match_config.json")
 
 class ChangeFileEntity:
     def __init__(self, name, path):
@@ -66,6 +66,58 @@ class ChangeFileEntity:
                 f"  delete: [\n    {delete_str}\n  ]\n"
                 f")")
 
+class MatchConfig:
+
+    exception_path = {}
+    all_com_path = {}
+    skip_judge_build_path = {}
+    temple_list = []
+    acts_All_template_ex_list = []
+
+    @classmethod
+    def initialization(cls, config_path):
+        if cls.exception_path == {} :
+            print("MatchConfig 开始初始化")
+            if not os.path.exists(config_path):
+                print(f"{config_path} 不存在,读取配置文件异常")
+            with open(config_path, 'r') as file:
+                rules_data = json.load(file)
+                cls.exception_path = rules_data['exception_path']
+                cls.all_com_path = rules_data['all_com_path']
+                cls.skip_judge_build_path = rules_data['skip_judge_build_path']
+                cls.temple_list = rules_data['temple_list']
+                cls.acts_All_template_ex_list = rules_data['acts_All_template_ex']
+        print("MatchConfig 已完成初始化")
+
+    @classmethod
+    def get_exception_path(cls, config_path):
+        if cls.exception_path == {}:
+            cls.initialization(config_path)
+        return cls.exception_path
+
+    @classmethod
+    def get_all_com_path(cls, config_path):
+        if cls.all_com_path == {}:
+            cls.initialization(config_path)
+        return cls.all_com_path
+
+    @classmethod
+    def get_skip_judge_build_path(cls, config_path):
+        if cls.skip_judge_build_path == {}:
+            cls.initialization(config_path)
+        return cls.skip_judge_build_path
+
+    @classmethod
+    def get_temple_list(cls, config_path):
+        if cls.temple_list == []:
+            cls.initialization(config_path)
+        return cls.temple_list
+
+    @classmethod
+    def get_acts_All_template_ex_list(cls, config_path):
+        if cls.acts_All_template_ex_list == []:
+            cls.initialization(config_path)
+        return cls.acts_All_template_ex_list
 
 class ComponentUtils:
     
@@ -101,12 +153,13 @@ class XTSUtils:
 
     # 获取path接口
     def getTargstsPaths(self, changeFileEntity: ChangeFileEntity):
+        need_all = False
         # 修改和新增
         for file in changeFileEntity.add + changeFileEntity.modified:
             # file转为绝对路径
             file = os.path.join(self._code_root_dir, file)
             # 筛选掉例外的目录
-            if PathUtils.isContainsKeywords(file, XTSTargetUtils.EXCEPTION_PATH_LIST):
+            if PathUtils.isMatchRules(file, MatchConfig.get_exception_path(MACTH_CONFIG)):
                 continue
             # 当前文件路径或父已存在,跳过
             if PathUtils.isTargetContains(self._build_paths, file):
@@ -115,17 +168,16 @@ class XTSUtils:
             build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, file)
             # 计算到根目录或指定目录,直接编译全量
             if (os.path.dirname(build_File) == self._xts_root_dir or 
-                PathUtils.isContainsKeywords(file, XTSTargetUtils.ALL_COM_PATH_LIST)):
-                self._build_paths = [self._xts_root_dir]
-                print (f"文件: {file} 修改，编译全量或指定目标")
-                return 0
-            self._build_paths.append(os.path.dirname(build_File))
+                PathUtils.isMatchRules(file, MatchConfig.get_all_com_path(MACTH_CONFIG))):
+                need_all = True
+            else:
+                self._build_paths.append(os.path.dirname(build_File))
         # 删除
         for file in changeFileEntity.delete:
             # file转为绝对路径
             file = os.path.join(self._code_root_dir, file)
             # 筛选掉例外的目录
-            if PathUtils.isContainsKeywords(file, XTSTargetUtils.EXCEPTION_PATH_LIST):
+            if PathUtils.isMatchRules(file, MatchConfig.get_exception_path(MACTH_CONFIG)):
                 continue
             # 当前文件路径或父已存在,跳过
             if PathUtils.isTargetContains(self._build_paths, file):
@@ -135,59 +187,21 @@ class XTSUtils:
             build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, exist_path)
             # 计算到根目录或指定目录,直接编译全量
             if (os.path.dirname(build_File) == self._xts_root_dir or 
-                PathUtils.isContainsKeywords(file, XTSTargetUtils.ALL_COM_PATH_LIST)):
-                self._build_paths = [self._xts_root_dir]
-                print (f"文件: {file} 删除需编译全量代码")
-                return 0
-            self._build_paths.append(os.path.dirname(build_File))
+                PathUtils.isMatchRules(file, MatchConfig.get_all_com_path(MACTH_CONFIG))):
+                need_all = True
+            else:
+                self._build_paths.append(os.path.dirname(build_File))
+        if need_all:
+            self._build_paths.append(self._xts_root_dir)
         return 0
 
 class XTSTargetUtils:
-    # 不需要编译的目录,包括deploy_testtools(所有的都编),lite
-    EXCEPTION_PATH_LIST = [
-        f"/{XTS_SUITENAME}/testtools/"
-        "_lite/",
-        "/acts/applications/kitframework_ipcamera/",
-        "/acts/applications/kitframework/",
-        "/acts/open_posix_testsuite/"
-    ]
-
-    ALL_COM_PATH_LIST = [
-        f"/{XTS_SUITENAME}/build/"
-    ]
-
-    SKIP_JUDGE_PATH_LIST = [
-        "/cpp"
-    ]
-
-    TEMPLATE_LIST = [
-        "ohos_moduletest_suite",
-        "ohos_js_hap_suite",
-        "ohos_js_app_suite",
-        "ohos_shell_app_suite",
-        "ohos_hap_assist_suite",
-        "ohos_app_assist_suite",
-        "ohos_sh_assist_suite",
-        "group"
-    ]
-
-    # acts修改影响全量时编译目标,其他仓全编:
-    ACTS_ALL_TEMPLATE_EX = [
-        "ActsMindSporeTest",
-        "ActsBmsAccessTokenTest",
-        "AACommandImplicitStartTest",
-        "StageSupplement",
-        "AACommand07",
-        "cpLibuv"
-    ]
-
-
 
     @staticmethod
     def get_current_Build(xts_root_dir, current_dir):
         while PathUtils.is_parent_path(xts_root_dir, current_dir):
             # 当前目录是否包含需跳过的keywords
-            if PathUtils.isContainsKeywords(current_dir, XTSTargetUtils.SKIP_JUDGE_PATH_LIST):
+            if PathUtils.isMatchRules(current_dir, MatchConfig.get_skip_judge_build_path(MACTH_CONFIG)):
                 current_dir = os.path.dirname(current_dir)
                 continue
             # 检查当前目录下是否存在BUILD.gn文件
@@ -204,7 +218,7 @@ class XTSTargetUtils:
     def getTargetfromPath(xts_root_dir, path) -> list:
         if path == xts_root_dir:
             if path.endswith("acts"):
-                return XTSTargetUtils.ACTS_ALL_TEMPLATE_EX
+                return MatchConfig.get_acts_All_template_ex_list(MACTH_CONFIG)
             xts_suite = os.path.basename(xts_root_dir)
             relative_path = os.path.relpath(xts_root_dir, HOME)
             return [f"{relative_path}:xts_{xts_suite}"]
@@ -216,7 +230,7 @@ class XTSTargetUtils:
 
     @staticmethod
     def getTargetFromBuild(build_File) -> list:
-        pattern = re.compile(r'(\b(?:' + '|'.join(re.escape(word) for word in XTSTargetUtils.TEMPLATE_LIST) + r')\b)\("([^"]*)"\)')
+        pattern = re.compile(r'(\b(?:' + '|'.join(re.escape(word) for word in MatchConfig.get_temple_list(MACTH_CONFIG)) + r')\b)\("([^"]*)"\)')
         with open(build_File, 'r', encoding='utf-8') as file:
             content = file.read()
         matches = pattern.findall(content)
@@ -326,9 +340,14 @@ class PathUtils:
         return common_path == parent_path
 
     @staticmethod
-    def isContainsKeywords(file, keywords):
-        for keyword in keywords:
-            if keyword in file:
+    def isMatchRules(file, rules):
+        string_rules = rules["string_rules"]
+        re_rules = rules["re_rules"]
+        for rule in string_rules:
+            if rule in file:
+                return True
+        for rule in re_rules:
+            if re.compile(rule).search(file):
                 return True
         return False
 

@@ -1,0 +1,46 @@
+{
+    "exception_path":{
+        "string_rules":[
+            "_lite/",
+            "/acts/applications/kitframework_ipcamera/",
+            "/acts/applications/kitframework/",
+            "/acts/open_posix_testsuite/"
+        ],
+        "re_rules":[
+            "/[a-z]{3}s/testtools/"
+        ]
+    },
+
+    "all_com_path":{
+        "string_rules":[
+        ],
+        "re_rules":[
+            "/[a-z]{3}s/build/"
+        ]
+    },
+    "skip_judge_build_path":{
+        "string_rules":[
+            "/cpp"
+        ],
+        "re_rules":[
+        ]
+    },
+    "temple_list":[
+        "ohos_moduletest_suite",
+        "ohos_js_hap_suite",
+        "ohos_js_app_suite",
+        "ohos_shell_app_suite",
+        "ohos_hap_assist_suite",
+        "ohos_app_assist_suite",
+        "ohos_sh_assist_suite",
+        "group"
+    ],
+    "acts_All_template_ex":[
+        "ActsMindSporeTest",
+        "ActsBmsAccessTokenTest",
+        "AACommandImplicitStartTest",
+        "StageSupplement",
+        "AACommand07",
+        "cpLibuv"
+    ]
+}
