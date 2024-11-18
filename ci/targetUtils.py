@@ -149,11 +149,11 @@ class XTSUtils:
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
         self._build_paths = []
+        self._need_all = False
 
 
     # 获取path接口
     def getTargstsPaths(self, changeFileEntity: ChangeFileEntity):
-        need_all = False
         # 修改和新增
         for file in changeFileEntity.add + changeFileEntity.modified:
             # file转为绝对路径
@@ -169,7 +169,7 @@ class XTSUtils:
             # 计算到根目录或指定目录,直接编译全量
             if (os.path.dirname(build_File) == self._xts_root_dir or 
                 PathUtils.isMatchRules(file, MatchConfig.get_all_com_path(MACTH_CONFIG))):
-                need_all = True
+                self._need_all = True
             else:
                 self._build_paths.append(os.path.dirname(build_File))
         # 删除
@@ -188,11 +188,9 @@ class XTSUtils:
             # 计算到根目录或指定目录,直接编译全量
             if (os.path.dirname(build_File) == self._xts_root_dir or 
                 PathUtils.isMatchRules(file, MatchConfig.get_all_com_path(MACTH_CONFIG))):
-                need_all = True
+                self._need_all = True
             else:
                 self._build_paths.append(os.path.dirname(build_File))
-        if need_all:
-            self._build_paths.append(self._xts_root_dir)
         return 0
 
 class XTSTargetUtils:

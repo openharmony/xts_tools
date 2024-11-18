@@ -72,13 +72,15 @@ class AccurateTarget:
         for changeFileEntity in self._change_list:
             # tools仓修改，编译全量
             if changeFileEntity.path == "test/xts/tools":
-                xts_u._build_paths.append(self._xts_root_dir)
+                xts_u._need_all = True
             if changeFileEntity.path in self.XTS_PATH_LIST and changeFileEntity.path in self._xts_root_dir:
                 # 只有当前编译的xts仓修改参与计算
                 ret = xts_u.getTargstsPaths(changeFileEntity)
                 if ret == 1:
                     print(f"{changeFileEntity.name}仓修改解析失败")
                     return 1, []
+        if xts_u._need_all:
+            xts_u._build_paths.append(self._xts_root_dir)
         return 0, xts_u._build_paths
 
     # 部件仓修改
