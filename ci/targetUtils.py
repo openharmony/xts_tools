@@ -183,7 +183,7 @@ class XTSUtils:
             if PathUtils.isTargetContains(self._build_paths, file):
                 continue
             # 当前存在的最外层路径
-            exist_path = PathUtils.get_current_exist(os.path.dirname(file))
+            exist_path = PathUtils.get_current_exist(self._xts_root_dir, os.path.dirname(file))
             build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, exist_path)
             # 计算到根目录或指定目录,直接编译全量
             if (os.path.dirname(build_File) == self._xts_root_dir or 
