@@ -18,7 +18,7 @@
 import os
 import sys
 import json
-from targetUtils import ChangeFileEntity, ComponentUtils, XTSUtils, XTSTargetUtils, PathUtils
+from targetUtils import ChangeFileEntity, ComponentUtils, XTSUtils, XTSTargetUtils, PathUtils, HOME
 
 
 class AccurateTarget:
@@ -52,10 +52,14 @@ class AccurateTarget:
 
         for item in data:
             changeFileEntity = ChangeFileEntity(name=data[item]["name"], path=item)
-            changeFileEntity.addAddPaths(data[item]["change_file_list"]["add"])
-            changeFileEntity.addModifiedPaths(data[item]["change_file_list"]["modified"])
-            changeFileEntity.addRenamePathsto(data[item]["change_file_list"]["rename"])
-            changeFileEntity.addDeletePaths(data[item]["change_file_list"]["delete"])
+            if "added" in data[item]["changed_file_list"]:
+                changeFileEntity.addAddPaths(data[item]["changed_file_list"]["added"])
+            if "modified" in data[item]["changed_file_list"]:
+                changeFileEntity.addModifiedPaths(data[item]["changed_file_list"]["modified"])
+            if "rename" in data[item]["changed_file_list"]:
+                changeFileEntity.addRenamePathsto(data[item]["changed_file_list"]["rename"])
+            if "deleted" in data[item]["changed_file_list"]:
+                changeFileEntity.addDeletePaths(data[item]["changed_file_list"]["deleted"])
             change_list.append(changeFileEntity)
         self._change_list = change_list
         return 0
@@ -66,12 +70,17 @@ class AccurateTarget:
         targets = []
         xts_u = XTSUtils(self._xts_root_dir, self._code_root_dir)
         for changeFileEntity in self._change_list:
+            # tools仓修改，编译全量
+            if changeFileEntity.path == "test/xts/tools":
+                xts_u._need_all = True
             if changeFileEntity.path in self.XTS_PATH_LIST and changeFileEntity.path in self._xts_root_dir:
                 # 只有当前编译的xts仓修改参与计算
                 ret = xts_u.getTargstsPaths(changeFileEntity)
                 if ret == 1:
                     print(f"{changeFileEntity.name}仓修改解析失败")
                     return 1, []
+        if xts_u._need_all:
+            xts_u._build_paths.append(self._xts_root_dir)
         return 0, xts_u._build_paths
 
     # 部件仓修改
@@ -96,7 +105,10 @@ class AccurateTarget:
         if ret == 1:
             # changeinfo读取失败-全量编译
             print (f"未获取到修改文件列表,编译全量代码")
-            target_paths = [self._xts_root_dir]
+            xts_suite = os.path.basename(self._xts_root_dir)
+            relative_path = os.path.relpath(self._xts_root_dir, HOME)
+            targets = [f"{relative_path}:xts_{xts_suite}"]
+
         else:
             func_list = [
                 self._get_targets_from_testcase_change
@@ -113,15 +125,15 @@ class AccurateTarget:
                     break
                 target_paths = target_paths.union(m)
 
-        # 去除子目录\重复目录
-        sum_path = PathUtils.removeSubandDumpPath(list(target_paths))
+            # 去除子目录\重复目录
+            sum_path = PathUtils.removeSubandDumpPath(list(target_paths))
 
-        targets = []
-        # 每个目录获取 target
-        for path in sum_path:
-            targets += XTSTargetUtils.getTargetfromPath(self._xts_root_dir, path)
+            targets = []
+            # 每个目录获取 target
+            for path in sum_path:
+                targets += XTSTargetUtils.getTargetfromPath(self._xts_root_dir, path)
 
-        return 0, list(targets)
+        return 0, targets
 
 
 def generate(xts_root_dir, change_info_file, build_target):
