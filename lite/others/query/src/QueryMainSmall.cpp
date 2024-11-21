@@ -23,9 +23,6 @@
 #include "parameter.h"
 #include "devattest_interface.h"
 
-#undef LOG_TAG 
-#define LOG_TAG "QUERYDEVATTEST"
-
 const int DEVATTEST_SUESS = 0;
 const int UDIDSIZE_LEN = 64;
 
