@@ -28,11 +28,19 @@ const int UDIDSIZE_LEN = 64;
 
 using namespace std;
 
+std::vector<std::pair<const char*, const char*>> myVector;
+char buffer1[50];
+char buffer2[50];
+char buffer3[50];
+char buffer4[50];
+
 template<typename KeyType, typename ValueType>
-void writeTexToFile(const std::string& filename, const std::string& text1, const std::vector<std::pair<KeyType, ValueType>>& kvPairs, const std::string& text2) {
-    std::ofstream outFile(filename, std::ios::out | std::ios::trunc); // 使用std::ios::trunc以清空文件内容
+void WriteTexToFile(const std::string& filename, const std::string& text1, 
+                    const std::vector<std::pair<KeyType, ValueType>>& kvPairs, 
+                    const std::string& text2) {
+    std::ofstream outFile(filename, std::ios::out | std::ios::trunc);
     if (!outFile.is_open()) {
-        std::cerr << "无法打开或创建文件: " << filename << std::endl;
+        std::cerr << "[ERROR] Not open or create file : " << filename << std::endl;
         return;
     }
 
@@ -43,19 +51,12 @@ void writeTexToFile(const std::string& filename, const std::string& text1, const
     outFile << text2 << std::endl;
 }
 
-void intToConstCharPtrSafe(int num, char* buffer, size_t bufferSize) {
+void IntToConstCharPtrSafe(int num, char* buffer, size_t bufferSize) {
     std::snprintf(buffer, bufferSize, "%d", num);
 }
 
-void ObtainProductParms(void)
+void ObtainProductParms1(void)
 {
-    printf("******To Obtain Product Params Start******\n");
-    std::vector<std::pair<const char*, const char*>> myVector;
-    char buffer1[50];
-    char buffer2[50];
-    char buffer3[50];
-    char buffer4[50];
-
     const char *productType = GetDeviceType();
     printf("Device Type = %s\n", productType);
     myVector.emplace_back("Device Type", productType);
@@ -81,17 +82,23 @@ void ObtainProductParms(void)
     int32_t retStatus = GetAttestStatus(&attestResultInfo);
     printf("authResult = %d\n", attestResultInfo.authResult);
     printf("softwareResult = %d\n", attestResultInfo.softwareResult);
-    intToConstCharPtrSafe(attestResultInfo.authResult, buffer1, sizeof(buffer1));
+    IntToConstCharPtrSafe(attestResultInfo.authResult, buffer1, sizeof(buffer1));
     const char* authResult1 = buffer1;
-    intToConstCharPtrSafe(attestResultInfo.softwareResult, buffer2, sizeof(buffer2));
+    IntToConstCharPtrSafe(attestResultInfo.softwareResult, buffer2, sizeof(buffer2));
     const char* softwareResult1 = buffer2;
     myVector.emplace_back("authResult", authResult1);
     myVector.emplace_back("softwareResult", softwareResult1);
+}
 
+void ObtainProductParms2(void)
+{
     char udid[UDIDSIZE_LEN + 1] = {0};
     int retUdid = GetDevUdid(udid, UDIDSIZE_LEN + 1);
     printf("DevUdid = %s\n", udid);
-    myVector.emplace_back("DevUdid", udid);
+    size_t length = std::strlen(udid) + 1;
+    char* udid1 = new char[length];
+    std::strcpy(udid1, udid);
+    myVector.emplace_back("DevUdid", udid1);
 
     const char *manuFacture = GetManufacture();
     printf("manuFacture = %s\n", manuFacture);
@@ -112,7 +119,10 @@ void ObtainProductParms(void)
     const char *productSeries = GetProductSeries();
     printf("productSeries = %s\n", productSeries);
     myVector.emplace_back("productSeries", productSeries);
+}
 
+void ObtainProductParms3(void)
+{
     const char *softwareModel = GetSoftwareModel();
     printf("softwareModel = %s\n", softwareModel);
     myVector.emplace_back("softwareModel", softwareModel);
@@ -131,16 +141,19 @@ void ObtainProductParms(void)
 
     int sdkApiVersion = GetSdkApiVersion();
     printf("SdkApiVersion = %d\n", sdkApiVersion);
-    intToConstCharPtrSafe(sdkApiVersion, buffer4, sizeof(buffer4));
+    IntToConstCharPtrSafe(sdkApiVersion, buffer4, sizeof(buffer4));
     const char* sdkApiVersion1 = buffer4;
     myVector.emplace_back("SdkApiVersion", sdkApiVersion1);
 
     int firstApiVersion = GetFirstApiVersion();
     printf("firstApiVersion = %d\n", firstApiVersion);
-    intToConstCharPtrSafe(firstApiVersion, buffer3, sizeof(buffer3));
+    IntToConstCharPtrSafe(firstApiVersion, buffer3, sizeof(buffer3));
     const char* firstApiVersion1 = buffer3;
     myVector.emplace_back("firstApiVersion", firstApiVersion1);
+}
 
+void ObtainProductParms4(void)
+{
     const char *bootloaderVersion = GetBootloaderVersion();
     printf("bootloaderVersion = %s\n", bootloaderVersion);
     myVector.emplace_back("bootloaderVersion", bootloaderVersion);
@@ -168,14 +181,20 @@ void ObtainProductParms(void)
     const char *abiList = GetAbiList();
     printf("AbiList = %s\n", abiList);
     myVector.emplace_back("AbiList", abiList);
-    printf("******To Obtain Product Params End  ******\n");
-    std::string text1 = "******To Obtain Product Params Start******";
-    std::string text2 = "******To Obtain Product Params End  ******";
-    writeTexToFile("querySmall.txt", text1, myVector, text2);
 }
 
 int main()
 {
-    ObtainProductParms();
+    printf("******To Obtain Product Params Start******\n");
+    ObtainProductParms1();
+    ObtainProductParms2();
+    ObtainProductParms3();
+    ObtainProductParms4();
+    printf("******To Obtain Product Params End  ******\n");
+
+    std::string text1 = "******To Obtain Product Params Start******";
+    std::string text2 = "******To Obtain Product Params End  ******";
+
+    WriteTexToFile("querySmall.txt", text1, myVector, text2);
     return 0;
 }
