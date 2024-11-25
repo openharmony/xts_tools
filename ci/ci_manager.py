@@ -54,6 +54,7 @@ class ComponentManager(Ci_Manager):
     def getTargetsPaths(self, change_file_entity: ChangeFileEntity):
         # 获取部件名
         bundle_name = self.getBundleName(change_file_entity.path)
+        print(f"{self.__class__.__name__} 增加bundle_name : {bundle_name}")
         # 部件名(partname)获取paths
         paths = XTSTargetUtils.getPathsByBundle(bundle_name, self._xts_root_dir)
         if paths:
