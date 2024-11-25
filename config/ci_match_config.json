@@ -42,5 +42,10 @@
         "StageSupplement",
         "AACommand07",
         "cpLibuv"
+    ],
+    "xts_path_list": [
+        "test/xts/acts",
+        "test/xts/dcts",
+        "test/xts/hats"
     ]
 }

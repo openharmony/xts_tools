@@ -18,12 +18,13 @@
 import os
 import re
 import json
+from enum import Enum
 
 
 HOME = os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
 
-MACTH_CONFIG = os.path.join(HOME,"test", "xts", "tools", "config", "ci_match_config.json")
+
 
 class ChangeFileEntity:
     def __init__(self, name, path):
@@ -32,26 +33,32 @@ class ChangeFileEntity:
         self.add = []
         self.modified = []
         self.delete = []
+        self._already_match_utils = False
 
-
-    def addAddPaths (self, add_list):
-        self.add += list(map(lambda x: os.path.join(self.path,x), add_list))
+    def addAddPaths(self, add_list):
+        self.add += list(map(lambda x: os.path.join(self.path, x), add_list))
         self.add.sort()
 
-    def addModifiedPaths (self, modified_list):
-        self.modified += list(map(lambda x: os.path.join(self.path,x), modified_list))
+    def addModifiedPaths(self, modified_list):
+        self.modified += list(map(lambda x: os.path.join(self.path, x), modified_list))
         self.modified.sort()
 
-    def addRenamePathsto (self, rename_list):
+    def addRenamePathsto(self, rename_list):
         for list in rename_list:
-            self.add += [os.path.join(self.path,list[1])]
+            self.add += [os.path.join(self.path, list[1])]
             self.delete += [os.path.join(self.path, list[0])]
             self.add.sort()
             self.delete.sort()
 
-    def addDeletePaths (self, delete_list):
-        self.delete += list(map(lambda x: os.path.join(self.path,x), delete_list))
+    def addDeletePaths(self, delete_list):
+        self.delete += list(map(lambda x: os.path.join(self.path, x), delete_list))
         self.delete.sort()
+
+    def get_already_match_utils(self):
+        return self._already_match_utils
+
+    def set_already_match_utils(self, already_match_utils):
+        self._already_match_utils = already_match_utils
 
     def __str__(self):
         add_str = '\n  '.join(self.add) if self.add else 'None'
@@ -66,132 +73,71 @@ class ChangeFileEntity:
                 f"  delete: [\n    {delete_str}\n  ]\n"
                 f")")
 
+
 class MatchConfig:
 
+    MACTH_CONFIG_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_match_config.json")
     exception_path = {}
     all_com_path = {}
     skip_judge_build_path = {}
     temple_list = []
     acts_All_template_ex_list = []
+    xts_path_list = []
 
     @classmethod
-    def initialization(cls, config_path):
-        if cls.exception_path == {} :
+    def initialization(cls):
+        if cls.exception_path == {}:
             print("MatchConfig 开始初始化")
-            if not os.path.exists(config_path):
-                print(f"{config_path} 不存在,读取配置文件异常")
-            with open(config_path, 'r') as file:
+            if not os.path.exists(cls.MACTH_CONFIG_PATH):
+                print(f"{cls.MACTH_CONFIG_PATH} 不存在,读取配置文件异常")
+            with open(cls.MACTH_CONFIG_PATH, 'r') as file:
                 rules_data = json.load(file)
                 cls.exception_path = rules_data['exception_path']
                 cls.all_com_path = rules_data['all_com_path']
                 cls.skip_judge_build_path = rules_data['skip_judge_build_path']
                 cls.temple_list = rules_data['temple_list']
                 cls.acts_All_template_ex_list = rules_data['acts_All_template_ex']
+                cls.xts_path_list = rules_data['xts_path_list']
         print("MatchConfig 已完成初始化")
 
     @classmethod
-    def get_exception_path(cls, config_path):
+    def get_exception_path(cls):
         if cls.exception_path == {}:
-            cls.initialization(config_path)
+            cls.initialization()
         return cls.exception_path
 
     @classmethod
-    def get_all_com_path(cls, config_path):
+    def get_all_com_path(cls):
         if cls.all_com_path == {}:
-            cls.initialization(config_path)
+            cls.initialization()
         return cls.all_com_path
 
     @classmethod
-    def get_skip_judge_build_path(cls, config_path):
+    def get_skip_judge_build_path(cls):
         if cls.skip_judge_build_path == {}:
-            cls.initialization(config_path)
+            cls.initialization()
         return cls.skip_judge_build_path
 
     @classmethod
-    def get_temple_list(cls, config_path):
+    def get_temple_list(cls):
         if cls.temple_list == []:
-            cls.initialization(config_path)
+            cls.initialization()
         return cls.temple_list
 
     @classmethod
-    def get_acts_All_template_ex_list(cls, config_path):
+    def get_acts_All_template_ex_list(cls):
         if cls.acts_All_template_ex_list == []:
-            cls.initialization(config_path)
+            cls.initialization()
         return cls.acts_All_template_ex_list
 
-class ComponentUtils:
-    
-    def __init__(self, xts_root_dir, code_root_dir):
-        self._xts_root_dir = xts_root_dir
-        self._code_root_dir = code_root_dir
-        self.target_paths = []
-    
-    def addTargstsPaths(changeFileEntity: ChangeFileEntity) -> list:
-        # 获取部件名
-        bundle_name = BundleTargetUtils.getBundleName(changeFileEntity.path)
-        # 部件名(partname)获取paths
-        paths = XTSTargetUtils.getPathsByBundle(bundle_name, xts_root_dir)
-        self.target_paths += paths
-
-        return 0
-
-    
-    def getBundleName(path) -> str:
-        with open(os.path.join(HOME, path, "bundle.json"), 'r') as file:
-            data = json.load(file)
-        bundle_name = data['component']['name']
-        return bundle_name
+    @classmethod
+    def get_xts_path_list(cls):
+        if cls.xts_path_list == []:
+            cls.initialization()
+        return cls.xts_path_list
 
 
-class XTSUtils:
 
-    def __init__(self, xts_root_dir, code_root_dir):
-        self._xts_root_dir = xts_root_dir
-        self._code_root_dir = code_root_dir
-        self._build_paths = []
-        self._need_all = False
-
-
-    # 获取path接口
-    def getTargstsPaths(self, changeFileEntity: ChangeFileEntity):
-        # 修改和新增
-        for file in changeFileEntity.add + changeFileEntity.modified:
-            # file转为绝对路径
-            file = os.path.join(self._code_root_dir, file)
-            # 筛选掉例外的目录
-            if PathUtils.isMatchRules(file, MatchConfig.get_exception_path(MACTH_CONFIG)):
-                continue
-            # 当前文件路径或父已存在,跳过
-            if PathUtils.isTargetContains(self._build_paths, file):
-                continue
-            # 当前file对应BUILD.gn路径
-            build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, file)
-            # 计算到根目录或指定目录,直接编译全量
-            if (os.path.dirname(build_File) == self._xts_root_dir or 
-                PathUtils.isMatchRules(file, MatchConfig.get_all_com_path(MACTH_CONFIG))):
-                self._need_all = True
-            else:
-                self._build_paths.append(os.path.dirname(build_File))
-        # 删除
-        for file in changeFileEntity.delete:
-            # file转为绝对路径
-            file = os.path.join(self._code_root_dir, file)
-            # 筛选掉例外的目录
-            if PathUtils.isMatchRules(file, MatchConfig.get_exception_path(MACTH_CONFIG)):
-                continue
-            # 当前文件路径或父已存在,跳过
-            if PathUtils.isTargetContains(self._build_paths, file):
-                continue
-            # 当前存在的最外层路径
-            exist_path = PathUtils.get_current_exist(self._xts_root_dir, os.path.dirname(file))
-            build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, exist_path)
-            # 计算到根目录或指定目录,直接编译全量
-            if (os.path.dirname(build_File) == self._xts_root_dir or 
-                PathUtils.isMatchRules(file, MatchConfig.get_all_com_path(MACTH_CONFIG))):
-                self._need_all = True
-            else:
-                self._build_paths.append(os.path.dirname(build_File))
-        return 0
 
 class XTSTargetUtils:
 
@@ -199,7 +145,7 @@ class XTSTargetUtils:
     def get_current_Build(xts_root_dir, current_dir):
         while PathUtils.is_parent_path(xts_root_dir, current_dir):
             # 当前目录是否包含需跳过的keywords
-            if PathUtils.isMatchRules(current_dir, MatchConfig.get_skip_judge_build_path(MACTH_CONFIG)):
+            if PathUtils.isMatchRules(current_dir, MatchConfig.get_skip_judge_build_path()):
                 current_dir = os.path.dirname(current_dir)
                 continue
             # 检查当前目录下是否存在BUILD.gn文件
@@ -216,19 +162,20 @@ class XTSTargetUtils:
     def getTargetfromPath(xts_root_dir, path) -> list:
         if path == xts_root_dir:
             if path.endswith("acts"):
-                return MatchConfig.get_acts_All_template_ex_list(MACTH_CONFIG)
+                return MatchConfig.get_acts_All_template_ex_list()
             xts_suite = os.path.basename(xts_root_dir)
             relative_path = os.path.relpath(xts_root_dir, HOME)
             return [f"{relative_path}:xts_{xts_suite}"]
         build_file = XTSTargetUtils.get_current_Build(xts_root_dir, path)
         targets = XTSTargetUtils.getTargetFromBuild(build_file)
-        if targets == None: 
+        if targets == None:
             return XTSTargetUtils.getTargetfromPath(xts_root_dir, os.path.dirname(os.path.dirname(build_file)))
         return targets
 
     @staticmethod
     def getTargetFromBuild(build_File) -> list:
-        pattern = re.compile(r'(\b(?:' + '|'.join(re.escape(word) for word in MatchConfig.get_temple_list(MACTH_CONFIG)) + r')\b)\("([^"]*)"\)')
+        pattern = re.compile(r'(\b(?:' + '|'.join(
+            re.escape(word) for word in MatchConfig.get_temple_list()) + r')\b)\("([^"]*)"\)')
         with open(build_File, 'r', encoding='utf-8') as file:
             content = file.read()
         matches = pattern.findall(content)
@@ -258,7 +205,7 @@ class XTSTargetUtils:
 
     @staticmethod
     def getPathsByBundle(bundle, test_home) -> list:
-        matching_files = {}
+        matching_files = []
         # 遍历根目录及其子目录
         for root, dirs, files in os.walk(test_home):
             if "lite" in root:
@@ -307,7 +254,8 @@ class PathUtils:
             subdirs = parent_dirs[parent_path]
         else:
             # 不在-记录父目录及本目录
-            subdirs = [os.path.join(parent_path, d)for d in os.listdir(parent_path) if os.path.isdir(os.path.join(parent_path, d))]
+            subdirs = [os.path.join(parent_path, d) for d in os.listdir(parent_path) if
+                       os.path.isdir(os.path.join(parent_path, d))]
             parent_dirs[parent_path] = subdirs
         subdirs.remove(path)
         minimal_paths_set.add(path)
@@ -322,9 +270,9 @@ class PathUtils:
             PathUtils.addPathClean(parent_path, minimal_paths_set, parent_dirs)
 
     @staticmethod
-    def get_current_exist(root_path,path) -> str:
+    def get_current_exist(root_path, path) -> str:
         current_dir = path
-        while PathUtils.is_parent_path(root_path,current_dir):
+        while PathUtils.is_parent_path(root_path, current_dir):
             if os.path.exists(current_dir):
                 return current_dir
             current_dir = os.path.dirname(current_dir)
