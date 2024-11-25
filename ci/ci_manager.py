@@ -21,7 +21,8 @@ import re
 import fnmatch
 from abc import ABC, abstractmethod
 
-from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils,MatchConfig, HOME
+from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
+
 
 class Ci_Manager(ABC):
 
@@ -141,6 +142,7 @@ class XTSManager(Ci_Manager):
         target_path_set.update(set(self._build_paths))
         print(f"{self.__class__.__name__} 增加 build_paths : {self._build_paths}")
 
+
 class OldPreciseManager(Ci_Manager):
 
     def __init__(self, xts_root_dir, code_root_dir):
@@ -161,7 +163,6 @@ class OldPreciseManager(Ci_Manager):
             build_target = item['buildTarget']
             self._old_precise_map[name] = build_target
 
-
     def get_targets_from_change(self, change_list):
         for changeFileEntity in change_list:
             if changeFileEntity.path not in MatchConfig.get_xts_path_list() and \
@@ -170,7 +171,6 @@ class OldPreciseManager(Ci_Manager):
                 if ret == 1:
                     pass
         return 0
-
 
     # 获取path接口
     def getTargets(self, changeFileEntity: ChangeFileEntity):

@@ -20,10 +20,8 @@ import re
 import json
 from enum import Enum
 
-
 HOME = os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
-
 
 
 class ChangeFileEntity:
@@ -75,7 +73,6 @@ class ChangeFileEntity:
 
 
 class MatchConfig:
-
     MACTH_CONFIG_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_match_config.json")
     exception_path = {}
     all_com_path = {}
@@ -135,8 +132,6 @@ class MatchConfig:
         if cls.xts_path_list == []:
             cls.initialization()
         return cls.xts_path_list
-
-
 
 
 class XTSTargetUtils:

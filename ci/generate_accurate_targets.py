@@ -71,7 +71,7 @@ class AccurateTarget:
         ret = self._get_change_info()
         if ret == 1:
             # changeinfo读取失败-全量编译
-            print ("未获取到修改文件列表,编译全量代码")
+            print("未获取到修改文件列表,编译全量代码")
             xts_suite = os.path.basename(self._xts_root_dir)
             relative_path = os.path.relpath(self._xts_root_dir, HOME)
             targets = [f"{relative_path}:xts_{xts_suite}"]
@@ -92,7 +92,7 @@ class AccurateTarget:
                 if retcode == 1:
                     print(f"{manager.__class__.__name__} 执行失败")
                     break
-                manager.write_result(target_paths,targets)
+                manager.write_result(target_paths, targets)
 
             # 处理target_paths, 去除子目录\重复目录
             sum_path = PathUtils.removeSubandDumpPath(list(target_paths))
