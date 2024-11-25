@@ -204,7 +204,7 @@ class OldPreciseManager(Ci_Manager):
                     for line_number, line in enumerate(file, start=1):
                         if repo_path in line:
                             line_info = line.strip()
-        if line_info is not "":
+        if line_info != "":
             # 使用正则表达式获取xml信息
             pattern = r'<(\w+)\s+([^>]*)/>'
             match = re.search(pattern, line_info)
