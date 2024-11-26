@@ -27,7 +27,7 @@ from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
 class Ci_Manager(ABC):
 
     @abstractmethod
-    def get_targets_from_change(self, change_list: list[ChangeFileEntity]):
+    def get_targets_from_change(self, change_list: list):
         pass
 
     @abstractmethod
