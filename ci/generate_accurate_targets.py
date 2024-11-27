@@ -46,13 +46,12 @@ class AccurateTarget:
             with open(self._change_info_file, 'r') as file:
                 # 读取文件内容并解析为Python字典
                 data = json.load(file)
-
-            # 存储新增/修改/删除的文件
-            change_list = []
         except Exception as e:
             print(f"读取change_info_file文件失败,全量编译\nchange_info_file路径: {self._change_info_file}")
             return 1
 
+        # 存储新增/修改/删除的文件
+        change_list = []
         for item in data:
             changeFileEntity = ChangeFileEntity(name=data[item]["name"], path=item)
             if "added" in data[item]["changed_file_list"]:
@@ -63,6 +62,9 @@ class AccurateTarget:
                 changeFileEntity.addRenamePathsto(data[item]["changed_file_list"]["rename"])
             if "deleted" in data[item]["changed_file_list"]:
                 changeFileEntity.addDeletePaths(data[item]["changed_file_list"]["deleted"])
+            if changeFileEntity.isEmpty():
+                print(f"读取change_info_file文件失败,未找到修改文件")
+                return 1
             change_list.append(changeFileEntity)
         self._change_list = change_list
         return 0
@@ -91,7 +93,6 @@ class AccurateTarget:
                 retcode = manager.get_targets_from_change(self._change_list)
                 if retcode == 1:
                     print(f"{manager.__class__.__name__} 执行失败")
-                    break
                 manager.write_result(target_paths, targets)
 
             # 处理target_paths, 去除子目录\重复目录
