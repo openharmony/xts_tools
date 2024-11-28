@@ -39,7 +39,6 @@ class Ci_Manager(ABC):
             print("编译全量代码")
             return
         if xts_root_target in self._build_targets:
-            
             target_set.add(xts_root_target)
             target_path_set.clear()
             print("编译全量代码")
@@ -111,7 +110,7 @@ class XTSManager(Ci_Manager):
                     print(f"{changeFileEntity.name}仓修改解析失败")
                     return 1
         if self._need_all:
-            self._build_paths.append(self._xts_root_dir)
+            self._build_targets += MatchConfig.get_acts_All_template_ex_list()
         return 0
 
     # 获取path接口
@@ -175,7 +174,6 @@ class WhitelistManager(Ci_Manager):
 
     def getTargetsandPaths(self, changeFileEntity):
         pass
-
 
 
 class OldPreciseManager(Ci_Manager):

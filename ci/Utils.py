@@ -240,11 +240,14 @@ class PathUtils:
 
         for path in path_list:
             # 检查当前路径或其父路径是否已经在最小集中
+            isinclude = False
             for m_path in minimal_paths_set:
                 if PathUtils.is_parent_path(m_path, path):
+                    isinclude = True
                     break
             # 添加逻辑
-            PathUtils.addPathClean(path, minimal_paths_set, parent_dirs)
+            if not isinclude:
+                PathUtils.addPathClean(path, minimal_paths_set, parent_dirs)
 
         return list(minimal_paths_set)
 
@@ -291,8 +294,8 @@ class PathUtils:
     @staticmethod
     def get_root_target(xts_root_dir):
         xts_suite = os.path.basename(xts_root_dir)
-        relative_path = os.path.relpath(xts_root_dir, HOME)
-        target = f"{relative_path}:xts_{xts_suite}"
+        # relative_path = os.path.relpath(xts_root_dir, HOME)
+        target = f"xts_{xts_suite}"
         return target
 
     @staticmethod
