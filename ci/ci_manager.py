@@ -30,9 +30,23 @@ class Ci_Manager(ABC):
     def get_targets_from_change(self, change_list: list):
         pass
 
-    @abstractmethod
     def write_result(self, target_path_set: set, target_set: set):
-        pass
+        print(f"{self.__class__.__name__} 增加 build_targets : {self._build_targets}")
+        print(f"{self.__class__.__name__} 增加 build_paths : {self._build_paths}")
+        
+        xts_root_target = PathUtils.get_root_target(self._xts_root_dir)
+        if xts_root_target in target_set:
+            print("编译全量代码")
+            return
+        if xts_root_target in self._build_targets:
+            target_set.add(xts_root_target)
+            target_path_set.clear()
+            print("编译全量代码")
+            return
+        
+        target_set.update(set(self._build_targets))
+        target_path_set.update(set(self._build_paths))
+        
 
 
 class ComponentManager(Ci_Manager):
@@ -40,20 +54,24 @@ class ComponentManager(Ci_Manager):
     def __init__(self, xts_root_dir, code_root_dir):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
-        self._match_list = []
         self._build_paths = []
+        self._build_targets = []
 
     def get_targets_from_change(self, change_list):
         for changeFileEntity in change_list:
             if changeFileEntity.path not in MatchConfig.get_xts_path_list():
                 ret = self.getTargetsPaths(changeFileEntity)
                 if ret == 1:
-                    pass
+                    return 1
         return 0
 
     def getTargetsPaths(self, change_file_entity: ChangeFileEntity):
         # 获取部件名
-        bundle_name = self.getBundleName(change_file_entity.path)
+        try:
+            bundle_name = self.getBundleName(change_file_entity.path)
+        except Exception as e:
+            print(f"读取{change_file_entity.name}部件仓bundle_name失败")
+            return 1
         print(f"{self.__class__.__name__} 增加bundle_name : {bundle_name}")
         # 部件名(partname)获取paths
         paths = XTSTargetUtils.getPathsByBundle(bundle_name, self._xts_root_dir)
@@ -61,10 +79,6 @@ class ComponentManager(Ci_Manager):
             change_file_entity.set_already_match_utils(True)
             self._build_paths += paths
         return 0
-
-    def write_result(self, target_path_set: set, target_set: set):
-        target_path_set.update(set(self._build_paths))
-        print(f"{self.__class__.__name__} 增加 build_paths : {self._build_paths}")
 
     def getBundleName(self, path) -> str:
         with open(os.path.join(HOME, path, "bundle.json"), 'r') as file:
@@ -79,6 +93,7 @@ class XTSManager(Ci_Manager):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
         self._build_paths = []
+        self._build_targets = []
         self._need_all = False
 
     def get_targets_from_change(self, change_list):
@@ -93,9 +108,9 @@ class XTSManager(Ci_Manager):
                 ret = self.getTargetsPaths(changeFileEntity)
                 if ret == 1:
                     print(f"{changeFileEntity.name}仓修改解析失败")
-                    return 1, []
+                    return 1
         if self._need_all:
-            self._build_paths.append(self._xts_root_dir)
+            self._build_targets += MatchConfig.get_acts_All_template_ex_list()
         return 0
 
     # 获取path接口
@@ -139,9 +154,26 @@ class XTSManager(Ci_Manager):
                 self._build_paths.append(os.path.dirname(build_File))
         return 0
 
-    def write_result(self, target_path_set: set, target_set: set):
-        target_path_set.update(set(self._build_paths))
-        print(f"{self.__class__.__name__} 增加 build_paths : {self._build_paths}")
+
+class WhitelistManager(Ci_Manager):
+
+
+    def __int__(self, xts_root_dir, code_root_dir):
+        self._xts_root_dir = xts_root_dir
+        self._code_root_dir = code_root_dir
+        self._build_paths = []
+        self._build_targets = []
+
+    def get_targets_from_change(self, change_list):
+        for changeFileEntity in change_list:
+            if changeFileEntity.path not in MatchConfig.get_xts_path_list() :
+                ret = self.getTargetsandPaths(changeFileEntity)
+                if ret == 1:
+                    pass
+        return 0
+
+    def getTargetsandPaths(self, changeFileEntity):
+        pass
 
 
 class OldPreciseManager(Ci_Manager):
@@ -149,7 +181,7 @@ class OldPreciseManager(Ci_Manager):
     def __init__(self, xts_root_dir, code_root_dir):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
-        self._match_list = []
+        self._build_paths = []
         self._build_targets = []
         self._precise_compilation_file = os.path.join(HOME, "test", "xts", "tools", "config",
                                                       "precise_compilation.json")
@@ -220,6 +252,3 @@ class OldPreciseManager(Ci_Manager):
                     return attributes["name"]
         return None
 
-    def write_result(self, target_path_set: set, target_set: set):
-        target_set.update(set(self._build_targets))
-        print(f"{self.__class__.__name__} 增加 build_targets : {self._build_targets}")
