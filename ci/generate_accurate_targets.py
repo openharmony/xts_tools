@@ -19,7 +19,7 @@ import os
 import sys
 import json
 from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, HOME
-from ci_manager import ComponentManager, XTSManager, OldPreciseManager
+from ci_manager import ComponentManager, XTSManager, WhitelistManager, OldPreciseManager
 
 
 class AccurateTarget:
@@ -35,7 +35,7 @@ class AccurateTarget:
         # 部件仓修改
         self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
         # 白名单计算
-        # self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir)
+        self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir)
         # 原精准方案兜底计算
         self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
 
@@ -81,7 +81,7 @@ class AccurateTarget:
             util_list = [
                 self.xts_manager,
                 self.com_manager,
-                # self.wlist_manager,
+                self.wlist_manager,
                 self.old_manager
             ]
 

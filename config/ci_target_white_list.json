@@ -1,0 +1,56 @@
+{
+    "repo_list": [
+      {
+        "path": "base/global/resource_management",
+        "bundle_name": "resource_management",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/global/perf/perfjs:perfjs_test"
+        ]
+      },
+      {
+        "path": "base/global/i18n",
+        "bundle_name": "i18n",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/global/global_stage:global_stage_hap"
+        ]
+      },
+      {
+        "path": "third_party/vk-gl-cts",
+        "bundle_name": "vk-gl-cts",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/graphic/vkgl:cpvkgl",
+          "test/xts/acts/graphic/vktest:cpVulkan"
+        ]
+      },
+      {
+        "path": "third_party/glslang",
+        "bundle_name": "glslang",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/graphic/vkgl:cpvkgl",
+          "test/xts/acts/graphic/vktest:cpVulkan"
+        ]
+      },
+      {
+        "path": "third_party/spirv-headers",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/graphic/vkgl:cpvkgl",
+          "test/xts/acts/graphic/vktest:cpVulkan"
+        ]
+      },
+      {
+        "path": "third_party/spirv-tools",
+        "bundle_name": "spirv-tools",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/graphic/vkgl:cpvkgl",
+          "test/xts/acts/graphic/vktest:cpVulkan"
+        ]
+      }
+    ]
+  }

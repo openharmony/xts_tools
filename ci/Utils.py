@@ -90,6 +90,9 @@ class MatchConfig:
     acts_All_template_ex_list = []
     xts_path_list = []
 
+    WHITE_LIST_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_target_white_list.json")
+    white_list_repo = {}
+
     @classmethod
     def initialization(cls):
         if cls.exception_path == {}:
@@ -141,6 +144,25 @@ class MatchConfig:
         if cls.xts_path_list == []:
             cls.initialization()
         return cls.xts_path_list
+
+    @classmethod
+    def initialization_white_list(cls):
+        if cls.white_list_repo == {}:
+            print("白名单开始初始化")
+            if not os.path.exists(cls.WHITE_LIST_PATH):
+                print(f"{cls.WHITE_LIST_PATH} 不存在,读取配置文件异常")
+            with open(cls.WHITE_LIST_PATH, 'r') as file:
+                white_file = json.load(file)
+                white_repos = white_file["repo_list"]
+                for white_repo in white_repos:
+                    cls.white_list_repo[white_repo["path"]] = white_repo
+        print("白名单已完成初始化")
+
+    @classmethod
+    def get_white_list_repo(cls):
+        if cls.white_list_repo == {}:
+            cls.initialization_white_list()
+        return cls.white_list_repo
 
 
 class XTSTargetUtils:
