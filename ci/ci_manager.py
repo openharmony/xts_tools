@@ -33,7 +33,7 @@ class Ci_Manager(ABC):
     def write_result(self, target_path_set: set, target_set: set):
         print(f"{self.__class__.__name__} 增加 build_targets : {self._build_targets}")
         print(f"{self.__class__.__name__} 增加 build_paths : {self._build_paths}")
-        
+
         xts_root_target = PathUtils.get_root_target(self._xts_root_dir)
         if xts_root_target in target_set:
             print("编译全量代码")
@@ -43,10 +43,9 @@ class Ci_Manager(ABC):
             target_path_set.clear()
             print("编译全量代码")
             return
-        
+
         target_set.update(set(self._build_targets))
         target_path_set.update(set(self._build_paths))
-        
 
 
 class ComponentManager(Ci_Manager):
@@ -157,8 +156,7 @@ class XTSManager(Ci_Manager):
 
 class WhitelistManager(Ci_Manager):
 
-
-    def __int__(self, xts_root_dir, code_root_dir):
+    def __init__(self, xts_root_dir, code_root_dir):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
         self._build_paths = []
@@ -166,14 +164,27 @@ class WhitelistManager(Ci_Manager):
 
     def get_targets_from_change(self, change_list):
         for changeFileEntity in change_list:
-            if changeFileEntity.path not in MatchConfig.get_xts_path_list() :
+            if changeFileEntity.path not in MatchConfig.get_xts_path_list():
                 ret = self.getTargetsandPaths(changeFileEntity)
                 if ret == 1:
-                    pass
+                    return 1
         return 0
 
-    def getTargetsandPaths(self, changeFileEntity):
-        pass
+    def getTargetsandPaths(self, change_file_entity):
+        white_list = MatchConfig.get_white_list_repo()
+        if change_file_entity.path not in white_list:
+            return 0
+        bundles = white_list[change_file_entity.path]["add_bundle"]
+        targets = white_list[change_file_entity.path]["add_target"]
+        change_file_entity.set_already_match_utils(True)
+        if bundles:
+           for bundle in bundles:
+               paths = XTSTargetUtils.getPathsByBundle(bundle, self._xts_root_dir)
+               if paths:
+                   self._build_paths += paths
+        if targets:
+            self._build_targets += targets
+        return 0
 
 
 class OldPreciseManager(Ci_Manager):
@@ -210,7 +221,8 @@ class OldPreciseManager(Ci_Manager):
         # 获取开源仓名
         repo_name = self.search_repo_name(changeFileEntity.path)
         # precise_compilation.json配置文件中获取对应目标
-        self._build_targets.append(self._old_precise_map[repo_name])
+        if repo_name in self._old_precise_map:
+            self._build_targets.append(self._old_precise_map[repo_name])
         return 0
 
     def getTargetsbyRepoName(self, repo_name):

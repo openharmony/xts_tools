@@ -1520,6 +1520,22 @@
         "buildTarget": "ai"
     },
     {
+        "name": "drivers_peripheral",
+        "buildTarget": "test/xts/acts/hdf:hdf"
+    },
+    {
+        "name": "drivers_interface",
+        "buildTarget": "xts_acts"
+    },
+    {
+        "name": "device_board_hihope",
+        "buildTarget": "xts_acts"
+    },
+    {
+        "name": "ide_previewer",
+        "buildTarget": "xts_acts"
+    },
+    {
         "name": "kernel_linux_build",
         "buildTarget": "arkui"
     },
