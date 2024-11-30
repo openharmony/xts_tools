@@ -221,7 +221,8 @@ class OldPreciseManager(Ci_Manager):
         # 获取开源仓名
         repo_name = self.search_repo_name(changeFileEntity.path)
         # precise_compilation.json配置文件中获取对应目标
-        self._build_targets.append(self._old_precise_map[repo_name])
+        if repo_name in self._old_precise_map:
+            self._build_targets.append(self._old_precise_map[repo_name])
         return 0
 
     def getTargetsbyRepoName(self, repo_name):
