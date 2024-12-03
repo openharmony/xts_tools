@@ -92,6 +92,10 @@ class MatchConfig:
 
     WHITE_LIST_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_target_white_list.json")
     white_list_repo = {}
+    
+    # 逃生通道
+    ESCAPE_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_escape.json")
+    escape_list = []
 
     @classmethod
     def initialization(cls):
@@ -163,6 +167,24 @@ class MatchConfig:
         if cls.white_list_repo == {}:
             cls.initialization_white_list()
         return cls.white_list_repo
+    
+    @classmethod
+    def initialization_escape_list(cls):
+        if cls.escape_list == []:
+            print("逃生仓列表 开始初始化")
+            if not os.path.exists(cls.ESCAPE_PATH):
+                print(f"{cls.ESCAPE_PATH} 不存在,无逃生仓")
+                return
+            with open(cls.ESCAPE_PATH, 'r') as file:
+                escape_map = json.load(file)
+                cls.escape_list = escape_map.keys()
+        print("逃生仓列表 已完成初始化")
+    
+    @classmethod
+    def get_escape_list(cls):
+        if cls.escape_list == []:
+            cls.initialization_escape_list()
+        return cls.escape_list
 
 
 class XTSTargetUtils:

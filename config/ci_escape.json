@@ -1,0 +1,7 @@
+{
+    "foundation/arkui/ace_engine":{
+        "m_case_list":[
+            "test/xts/acts/arkui/ace_ets_state_test:ActsAceStateTest"
+        ]
+    }
+}

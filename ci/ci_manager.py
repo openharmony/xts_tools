@@ -58,6 +58,9 @@ class ComponentManager(Ci_Manager):
 
     def get_targets_from_change(self, change_list):
         for changeFileEntity in change_list:
+            if changeFileEntity.path in MatchConfig.get_escape_list():
+                print(f"{changeFileEntity.name} 仓逃生,使用旧精准目标")
+                continue
             if changeFileEntity.path not in MatchConfig.get_xts_path_list():
                 ret = self.getTargetsPaths(changeFileEntity)
                 if ret == 1:
@@ -71,7 +74,7 @@ class ComponentManager(Ci_Manager):
         except Exception as e:
             print(f"读取{change_file_entity.name}部件仓bundle_name失败")
             return 1
-        print(f"{self.__class__.__name__} 增加bundle_name : {bundle_name}")
+        print(f"{self.__class__.__name__} 增加 bundle_name : {bundle_name}")
         # 部件名(partname)获取paths
         paths = XTSTargetUtils.getPathsByBundle(bundle_name, self._xts_root_dir)
         if paths:
@@ -96,7 +99,6 @@ class XTSManager(Ci_Manager):
         self._need_all = False
 
     def get_targets_from_change(self, change_list):
-        targets = []
         for changeFileEntity in change_list:
             # tools仓修改，编译全量
             if changeFileEntity.path == "test/xts/tools":
@@ -164,6 +166,9 @@ class WhitelistManager(Ci_Manager):
 
     def get_targets_from_change(self, change_list):
         for changeFileEntity in change_list:
+            if changeFileEntity.path in MatchConfig.get_escape_list():
+                print(f"{changeFileEntity.name} 仓逃生,使用旧精准目标")
+                continue
             if changeFileEntity.path not in MatchConfig.get_xts_path_list():
                 ret = self.getTargetsandPaths(changeFileEntity)
                 if ret == 1:
