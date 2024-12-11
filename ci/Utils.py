@@ -257,6 +257,8 @@ class XTSTargetUtils:
         for root, dirs, files in os.walk(test_home):
             if "lite" in root:
                 continue
+            if PathUtils.isMatchRules(root, MatchConfig.get_exception_path()):
+                continue
             for file in files:
                 if file == 'BUILD.gn':
                     file_path = os.path.join(root, file)
