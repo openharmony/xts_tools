@@ -255,7 +255,7 @@ class XTSTargetUtils:
         matching_files = []
         # 遍历根目录及其子目录
         for root, dirs, files in os.walk(test_home):
-            if "lite" in root:
+            if PathUtils.isMatchRules(root, MatchConfig.get_exception_path()):
                 continue
             for file in files:
                 if file == 'BUILD.gn':

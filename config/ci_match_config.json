@@ -7,7 +7,8 @@
             "/acts/open_posix_testsuite/"
         ],
         "re_rules":[
-            "/[a-z]{3}s/testtools/"
+            "/[a-z]{3}s/testtools/",
+            "/[a-z]{3}s/demo/"
         ]
     },
 
