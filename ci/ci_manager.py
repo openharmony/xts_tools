@@ -241,7 +241,7 @@ class OldPreciseManager(Ci_Manager):
             # 打印结果
             print(f'Name: {name}, Build Target: {build_target}')
 
-    def search_repo_name(self, repo_path, directory=os.path.join(HOME, ".repo")):
+    def search_repo_name(self, repo_path, directory=os.path.join(HOME, ".repo", "manifests")):
         line_info = ""
         # Walk through the directory
         for root, dirs, files in os.walk(directory):
