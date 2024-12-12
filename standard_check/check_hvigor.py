@@ -93,6 +93,7 @@ class HvigorChecker:
             return False
         return True
 
+    # 筛选非5.0版本的项目校验
     def get_hvigor_prject_list(self):
         hvigor_prj_list = []
         for root, dirs, files in os.walk(self._xts_root_dir):
@@ -100,7 +101,10 @@ class HvigorChecker:
                 dirs.remove('.cxx')
             for dir in dirs:
                 if dir == 'hvigor':
-                    hvigor_prj_list.append(root)
+                    filename = os.path.join(dir, 'hvigor-config.json5')
+                    version = self.get_hvigor_version(filename)
+                    if not version.startwith("5."):
+                        hvigor_prj_list.append(root)
         return hvigor_prj_list
 
 
