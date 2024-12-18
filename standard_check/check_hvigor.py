@@ -25,7 +25,7 @@ class HvigorChecker:
 
     HVIGOR_BASE_VERSION = [
         '4.0.5',
-        "5.0.0"
+        '5.0.0'
     ]
     
     def __init__(self, suite_name):
@@ -44,9 +44,9 @@ class HvigorChecker:
         with open(json_file, 'r') as f:
             data = json5.load(f)
             version = data.get('hvigorVersion')
-            if version == None:
-                version = data.get('modelVersion')
-            return version
+            if version:
+                return version
+            return data.get('modelVersion')
 
     def output_unmatched_project(self, prject_list, filename):
         print("")
