@@ -101,9 +101,9 @@ class HvigorChecker:
                 dirs.remove('.cxx')
             for dir in dirs:
                 if dir == 'hvigor':
-                    filename = os.path.join(dir, 'hvigor-config.json5')
+                    filename = os.path.join(root, dir, 'hvigor-config.json5')
                     version = self.get_hvigor_version(filename)
-                    if not version.startwith("5."):
+                    if not version.startswith("5."):
                         hvigor_prj_list.append(root)
         return hvigor_prj_list
 
