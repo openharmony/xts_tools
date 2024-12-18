@@ -213,31 +213,11 @@ class XTSTargetUtils:
                 return MatchConfig.get_acts_All_template_ex_list()
             root_target = PathUtils.get_root_target(xts_root_dir)
             return [root_target]
-        build_files = XTSTargetUtils.getBuildList(xts_root_dir, path)
-        targets = []
-        for file in build_files:
-            targets += XTSTargetUtils.getTargetFromBuild(file)
+        build_file = XTSTargetUtils.get_current_Build(xts_root_dir, path)
+        targets = XTSTargetUtils.getTargetFromBuild(build_file)
+        if targets == None:
+            return XTSTargetUtils.getTargetfromPath(xts_root_dir, os.path.dirname(os.path.dirname(build_file)))
         return targets
-
-    @staticmethod
-    def getBuildList(xts_root_dir, current_dir):
-        if PathUtils.isMatchRules(current_dir, MatchConfig.get_skip_judge_build_path()):
-            return
-        # 检查当前目录下是否存在BUILD.gn文件
-        build_gn_path = os.path.join(current_dir, 'BUILD.gn')
-        if os.path.exists(build_gn_path):
-            return [build_gn_path]
-        # 如果没有找到，获取子目录全部Build.gn目录
-        dirs = []
-        print(f"aaa{current_dir}")
-        items = os.listdir(current_dir)
-        for item in items:
-            # 构建完整的路径
-            full_path = os.path.join(current_dir, item)
-            # 检查这个路径是否是目录
-            if os.path.isdir(full_path):
-                dirs += XTSTargetUtils.getBuildList(xts_root_dir, full_path)
-        return dirs
 
     @staticmethod
     def getTargetFromBuild(build_File) -> list:

@@ -20,6 +20,7 @@ import os
 import re
 import fnmatch
 from abc import ABC, abstractmethod
+import xml.etree.ElementTree as ET
 
 from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
 
@@ -242,30 +243,13 @@ class OldPreciseManager(Ci_Manager):
             print(f'Name: {name}, Build Target: {build_target}')
 
     def search_repo_name(self, repo_path, directory=os.path.join(HOME, ".repo", "manifests")):
-        line_info = self.get_line_info(repo_path, directory)
-        if line_info != "":
-            # 使用正则表达式获取xml信息
-            pattern = r'<(\w+)\s+([^>]*)/>'
-            match = re.search(pattern, line_info)
-            if match:
-                tag_name = match.group(1)
-                attributes_str = match.group(2)
-                # 正则匹配单个属性
-                attr_pattern = r'(\w+)\s*=\s*"([^"]*)"'
-                attributes = dict(re.findall(attr_pattern, attributes_str))
-                if "gitee_name" in attributes:
-                    return attributes["gitee_name"]
-                if "name" in attributes:
-                    return attributes["name"]
-        return None
-
-    def get_line_info(self, repo_path, directory):
         for root, dirs, files in os.walk(directory):
             for filename in fnmatch.filter(files, '*.xml'):
                 file_path = os.path.join(root, filename)
-                with open(file_path, 'r', encoding='utf-8') as file:
-                    for line_number, line in enumerate(file, start=1):
-                        if f"\"{repo_path}\"" in line:
-                            return line.strip()
-        return ""
+                for child in ET.parse(file_path).getroot().findall('project'):
+                    if child.attrib['path'] == repo_path:
+                        if 'gitee_name' in child.attrib:
+                            return child.attrib['gitee_name']
+                        return child.attrib['name']
+        return None
 
