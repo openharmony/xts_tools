@@ -23,6 +23,11 @@ import json5
 
 class HvigorChecker:
 
+    HVIGOR_BASE_VERSION = [
+        '4.0.5',
+        '5.0.0'
+    ]
+    
     def __init__(self, suite_name):
         self._current_dir = os.path.dirname(os.path.realpath(__file__))
         self._suite_name = suite_name
@@ -38,7 +43,10 @@ class HvigorChecker:
     def get_hvigor_version(self, json_file):
         with open(json_file, 'r') as f:
             data = json5.load(f)
-            return data.get('hvigorVersion')
+            version = data.get('hvigorVersion')
+            if version:
+                return version
+            return data.get('modelVersion')
 
     def output_unmatched_project(self, prject_list, filename):
         print("")
@@ -52,6 +60,8 @@ class HvigorChecker:
         baseline_md5 = self.get_file_md5(os.path.join(baseline_file))
         for dir in hvigor_prj_list:
             filename = os.path.join(dir, 'hvigor', 'hvigor-wrapper.js')
+            if not os.path.exists(filename):
+                return True
             md5 = self.get_file_md5(filename)
             if md5 != baseline_md5:
                 unmatch_info.append((md5, filename))
@@ -64,16 +74,15 @@ class HvigorChecker:
 
     def check_hvigor_version(self, hvigor_prj_list):
         unmatch_prj_list = []
-        baseline_version = '4.0.5'
         for dir in hvigor_prj_list:
             filename = os.path.join(dir, 'hvigor', 'hvigor-config.json5')
             version = self.get_hvigor_version(filename)
-            if version != baseline_version:
+            if version not in self.HVIGOR_BASE_VERSION:
                 unmatch_prj_list.append((version, filename))
 
         if len(unmatch_prj_list):
             self.output_unmatched_project(unmatch_prj_list, 'hvigor-config.json5')
-            print("Plesse use {}".format(baseline_version))
+            print("Plesse use {}".format(self.HVIGOR_BASE_VERSION))
             return False
         return True
 
@@ -83,6 +92,8 @@ class HvigorChecker:
         baseline_md5 = self.get_file_md5(os.path.join(baseline_file))
         for dir in hvigor_prj_list:
             filename = os.path.join(dir, 'hvigorw.bat')
+            if not os.path.exists(filename):
+                return True
             md5 = self.get_file_md5(filename)
             if md5 != baseline_md5:
                 unmatch_info.append((md5, filename))
