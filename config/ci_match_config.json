@@ -49,5 +49,10 @@
         "test/xts/dcts",
         "test/xts/hats",
         "test/xts/tools"
+    ],
+    "interface_path_list": [
+        "interface/sdk-js",
+        "interface/sdk_c",
+        "drivers/interface"
     ]
 }
