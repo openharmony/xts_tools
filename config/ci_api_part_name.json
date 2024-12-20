@@ -1,6 +1,36 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/interface_config.gni",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/syscapCheck/sysCapSchema.json",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/build-tools",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/config",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/form",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/device-define",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/ets/index.d.ts",
             "bundle_name": [
                 "ets_utils",
@@ -3085,6 +3115,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.file.keyManager.d.ts",
+            "bundle_name": [
+                "storage_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.TreeView.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -3277,6 +3314,13 @@
             "path": "interface/sdk-js/api/@system.request.d.ts",
             "bundle_name": [
                 "request"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.userIAM.userAccessCtrl.d.ts",
+            "bundle_name": [
+                "user_auth_framework"
             ],
             "build_targets": []
         },
@@ -6095,6 +6139,8 @@
             "path": "interface/sdk-js/kits/@kit.InputKit.d.ts",
             "bundle_name": [],
             "build_targets": [
+                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_richeditor/ace_ets_module_richeditor_api12:ActsAceEtsModuleRicheditorApi12TestMain",
+                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_richeditor/ace_ets_module_richeditor_api12:ActsAceEtsModuleRicheditorApi12Test",
                 "test/xts/acts/multimodalinput/multimodalinput_ets_hvigor/InputDevice:ActsMultimodalInputDeviceTest"
             ]
         },
@@ -6102,8 +6148,8 @@
             "path": "interface/sdk-js/kits/@kit.CameraKit.d.ts",
             "bundle_name": [],
             "build_targets": [
-                "test/xts/acts/multimedia/image/image_js_standard/imageReceiverNDK:image_receiver_ndk_js_hap",
                 "test/xts/acts/multimedia/image/image_js_standard/imageReceiverMultiThread:image_receiver_multi_thread_hap",
+                "test/xts/acts/multimedia/image/image_js_standard/imageReceiverNDK:image_receiver_ndk_js_hap",
                 "test/xts/acts/multimedia/image/image_js_standard/imageReceiverNDK:image_receiver_ndk_js_hap_main"
             ]
         },
@@ -6122,8 +6168,19 @@
         },
         {
             "path": "interface/sdk-js/kits/@kit.ArkWeb.d.ts",
-            "bundle_name": ["webview"],
-            "build_targets": []
+            "bundle_name": [],
+            "build_targets": [
+                "test/xts/acts/advertising/ads/advertising:ActsCloudAdTest",
+                "test/xts/acts/web/ace_ets_web_dev_cloudservice_webController_group/ace_ets_web_dev_cloudservice_webController_group_twelve:ActsAceWebDevCloudServiceWebControllerGroupTwelveTest",
+                "test/xts/acts/web/ace_ets_web_dev_cloudservice_webController_group/ace_ets_web_dev_cloudservice_webController_group_twelve:ActsAceWebSecond",
+                "test/xts/acts/web/ace_ets_web_dev_cloudservice_webController_group/ace_ets_web_dev_cloudservice_webController_group_thirteen:ActsAceWebDevCloudServiceWebControllerGroupThirteenTest",
+                "test/xts/acts/web/ace_ets_web_dev_cloudservice_webController_group/ace_ets_web_dev_cloudservice_webController_group_five:ActsAceWebDevCloudServiceWebControllerGroupFiveTest",
+                "test/xts/acts/web/ace_ets_web_enhanced/ace_ets_web_enhanced_four:ActsAceWebEnhancedTestFour",
+                "test/xts/acts/web/ace_ets_web_view:ActsAceWebViewTest",
+                "test/xts/acts/web/ace_ets_web_dev_cloudservice_webController_group/ace_ets_web_dev_cloudservice_webController_group_eight:ActsAceWebDevCloudServiceWebControllerGroupEightTest",
+                "test/xts/acts/web/ace_ets_web_view:ActsAceWebViewTestMain",
+                "test/xts/acts/web/ace_ets_web_dev_cloudservice_webController_group/ace_ets_web_dev_cloudservice_webController_group_eleven:ActsAceWebDevCloudServiceWebControllerGroupElevenTest"
+            ]
         },
         {
             "path": "interface/sdk-js/kits/@kit.MDMKit.d.ts",
@@ -6159,11 +6216,11 @@
             "bundle_name": [],
             "build_targets": [
                 "test/xts/acts/ability/ability_runtime/actsabilityamstest/systemappb:SystemAppB",
-                "test/xts/acts/communication/dsoftbus/ipc_stage/ipc_stagetest:ActsIPCEtsTest",
+                "test/xts/acts/ability/ability_runtime/actsuiextensiontest/uiextensionprovider2:UIExtensionProvider2",
                 "test/xts/acts/ability/ability_runtime/actsabilityamstest/systemappa:SystemAppA",
+                "test/xts/acts/communication/dsoftbus/ipc_stage/ipc_stagetest:ActsIPCEtsTest",
                 "test/xts/acts/ability/ability_runtime/actsuiextensiontest/uiextensionprovider3:UIExtensionProvider3",
-                "test/xts/acts/ability/ability_runtime/actsuiextensiontest/uiextensionprovider:UIExtensionProvider",
-                "test/xts/acts/ability/ability_runtime/actsuiextensiontest/uiextensionprovider2:UIExtensionProvider2"
+                "test/xts/acts/ability/ability_runtime/actsuiextensiontest/uiextensionprovider:UIExtensionProvider"
             ]
         },
         {
@@ -6179,8 +6236,16 @@
         },
         {
             "path": "interface/sdk-js/kits/@kit.CoreFileKit.d.ts",
-            "bundle_name": ["storage_service"],
-            "build_targets": []
+            "bundle_name": [],
+            "build_targets": [
+                "test/xts/acts/storage/storagefileurindktest:ActsStorageFileUriNdkMainTest",
+                "test/xts/acts/web/ace_ets_web_enhanced/ace_ets_web_enhanced_four:ActsAceWebEnhancedTestFour",
+                "test/xts/acts/storage/storagefileurindktest:ActsStorageFileUriNdk",
+                "test/xts/acts/storage/storagefileiondktest:ActsStorageFileioNdkMainTest",
+                "test/xts/acts/storage/storagefilesharendktest:ActsStorageFileshareNdkMainTest",
+                "test/xts/acts/storage/storagefilesharendktest:ActsStorageFileshareNdk",
+                "test/xts/acts/storage/storagefileiondktest:ActsStorageFileioNdk"
+            ]
         },
         {
             "path": "interface/sdk-js/kits/@kit.AdsKit.d.ts",
@@ -6208,12 +6273,14 @@
             "path": "interface/sdk-js/kits/@kit.ArkGraphics2D.d.ts",
             "bundle_name": [],
             "build_targets": [
-                "test/xts/acts/graphic/graphicText:ActsGraphicTextTest",
                 "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_imageText/ace_ets_module_imageText_api12:ActsAceEtsModuleImageTextApi12TestMain",
-                "test/xts/acts/graphic/graphicColorSpace:ActsColorSpaceManagerTest",
-                "test/xts/acts/multimedia/media/media_js_standard/avRecorder:av_recorder_js_hap",
+                "test/xts/acts/graphic/graphicText:ActsGraphicTextTest",
+                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_richeditor/ace_ets_module_richeditor_api12:ActsAceEtsModuleRicheditorApi12Test",
+                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_richeditor/ace_ets_module_richeditor_api12:ActsAceEtsModuleRicheditorApi12TestMain",
                 "test/xts/acts/graphic/graphicDisplaySync:ActsGraphicDisplaySyncTest",
-                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_imageText/ace_ets_module_imageText_api12:ActsAceEtsModuleImageTextApi12Test"
+                "test/xts/acts/multimedia/media/media_js_standard/avRecorder:av_recorder_js_hap",
+                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_imageText/ace_ets_module_imageText_api12:ActsAceEtsModuleImageTextApi12Test",
+                "test/xts/acts/graphic/graphicColorSpace:ActsColorSpaceManagerTest"
             ]
         },
         {
@@ -6257,32 +6324,37 @@
             "path": "interface/sdk-js/kits/@kit.ArkData.d.ts",
             "bundle_name": [],
             "build_targets": [
-                "test/xts/acts/distributeddatamgr/PasteboardNoPermissionstest/PasteboardEtsNoPermissionsTest:ActsPasteboardEtsNoPermissionsTest",
                 "test/xts/acts/ability/ability_runtime/context/actssendablecontexttest:ActsSendableContextTest",
-                "test/xts/acts/validator/acts_validator:acts_validator_test"
+                "test/xts/acts/validator/acts_validator:acts_validator_test",
+                "test/xts/acts/distributeddatamgr/PasteboardNoPermissionstest/PasteboardEtsNoPermissionsTest:ActsPasteboardEtsNoPermissionsTest"
             ]
         },
         {
             "path": "interface/sdk-js/kits/@kit.ImageKit.d.ts",
             "bundle_name": [],
             "build_targets": [
-                "test/xts/acts/multimedia/image/image_js_standard/imagePackingNDK:image_packing_ndk_js_hap_main",
-                "test/xts/acts/multimedia/image/image_js_standard/imageReceiverNDK:image_receiver_ndk_js_hap",
-                "test/xts/acts/multimedia/image/image_js_standard/imageSourceNDK:image_source_ndk_js_hap",
+                "test/xts/acts/graphic/displayNdkApi14:ActsDisplayNdkApi14Test",
                 "test/xts/acts/multimedia/image/image_js_standard/imagePixelMapNDK:image_pixel_map_ndk_js_hap_main",
-                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_uicontext/ace_ets_module_uicontext_api12:ActsAceBasicContextTestMain",
-                "test/xts/acts/multimedia/image/image_js_standard/imageSourceNDK:image_source_ndk_js_hap_main",
-                "test/xts/acts/distributeddatamgr/Pasteboardjsapitest:ActsPasteBoardETSApiTest",
-                "test/xts/acts/distributeddatamgr/PasteboardNoPermissionstest/PasteboardEtsNoPermissionsTest:ActsPasteboardEtsNoPermissionsTest",
-                "test/xts/acts/multimedia/image/image_js_standard/imagePackingNDK:image_packing_ndk_js_hap",
-                "test/xts/acts/multimedia/image/image_js_standard/imageReceiverNDK:image_receiver_ndk_js_hap_main",
-                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_imageText/ace_ets_module_imageText_api14:ActsAceEtsModuleImageTextApi14TestMain",
                 "test/xts/acts/commonlibrary/ets_utils/concurrency_base:concurrency_base_js_hap",
-                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_uicontext/ace_ets_module_uicontext_api12:ActsAceBasicContextTest",
                 "test/xts/acts/web/ace_ets_web_enhanced/ace_ets_web_enhanced_four:ActsAceWebEnhancedTestFour",
-                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_imageText/ace_ets_module_imageText_api14:ActsAceEtsModuleImageTextApi14Test",
+                "test/xts/acts/graphic/displayNdkApi14:ActsDisplayNdkApi14Test_ndk_main",
+                "test/xts/acts/graphic/windowStageTwo:ActsWindowStageTwoTest",
                 "test/xts/acts/multimedia/image/image_js_standard/imagePixelMapNDK:image_pixel_map_ndk_js_hap",
-                "test/xts/acts/ability/ability_runtime/actsphotoeditorextensiontest:ActsPhotoEditorExtensionTest"
+                "test/xts/acts/multimedia/image/image_js_standard/imageSourceNDK:image_source_ndk_js_hap_main",
+                "test/xts/acts/multimedia/image/image_js_standard/imagePackingNDK:image_packing_ndk_js_hap",
+                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_imageText/ace_ets_module_imageText_api14:ActsAceEtsModuleImageTextApi14TestMain",
+                "test/xts/acts/distributeddatamgr/PasteboardNoPermissionstest/PasteboardEtsNoPermissionsTest:ActsPasteboardEtsNoPermissionsTest",
+                "test/xts/acts/multimedia/image/image_js_standard/imageSourceNDK:image_source_ndk_js_hap",
+                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_imageText/ace_ets_module_imageText_api14:ActsAceEtsModuleImageTextApi14Test",
+                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_uicontext/ace_ets_module_uicontext_api12:ActsAceBasicContextTestMain",
+                "test/xts/acts/multimedia/image/image_js_standard/imageReceiverNDK:image_receiver_ndk_js_hap",
+                "test/xts/acts/multimedia/image/image_js_standard/imagePackingNDK:image_packing_ndk_js_hap_main",
+                "test/xts/acts/distributeddatamgr/Pasteboardjsapitest:ActsPasteBoardETSApiTest",
+                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_richeditor/ace_ets_module_richeditor_api12:ActsAceEtsModuleRicheditorApi12Test",
+                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_richeditor/ace_ets_module_richeditor_api12:ActsAceEtsModuleRicheditorApi12TestMain",
+                "test/xts/acts/ability/ability_runtime/actsphotoeditorextensiontest:ActsPhotoEditorExtensionTest",
+                "test/xts/acts/arkui/ace_ets_module_ui/ace_ets_module_uicontext/ace_ets_module_uicontext_api12:ActsAceBasicContextTest",
+                "test/xts/acts/multimedia/image/image_js_standard/imageReceiverNDK:image_receiver_ndk_js_hap_main"
             ]
         },
         {
@@ -6291,6 +6363,126 @@
             "build_targets": [
                 "test/xts/acts/resourceschedule/resourceschedule_standard/backgroundtaskmanager_nop:resourceschedule_backgroundtaskmanager_ets_nop_test"
             ]
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.NotificationKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.UserAuthenticationKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.MindSporeLiteKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.ContactsKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.CryptoArchitectureKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.ArkGraphics3D.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.AVSessionKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.DataLossPreventionKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.SecurityGuardKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.AssetStoreKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.MultimodalAwarenessKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.MediaKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.CalendarKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.SensorServiceKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.IMEKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.DataProtectionKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.MediaLibraryKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.UniversalKeystoreKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.AccessibilityKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.LocationKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.DistributedServiceKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.FormKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.DrmKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.DriverDevelopmentKit.d.ts",
+            "bundle_name": [],
+            "build_targets": []
         },
         {
             "path": "interface/sdk-js/arkts/@arkts.lang.d.ets",
@@ -6303,25 +6495,30 @@
             "path": "interface/sdk-js/arkts/@arkts.utils.d.ets",
             "bundle_name": [],
             "build_targets": [
-                "test/xts/acts/distributeddatamgr/preferencesSendabletest:preferencesSendable_ets_test",
                 "test/xts/acts/distributeddatamgr/relationalStoretest/relationalStoreSendabletest:relationalstoreSendable_ets_test",
-                "test/xts/acts/arkui/ace_napi_test:ActsAceNapiEtsTest",
-                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEtsTestES",
-                "test/xts/acts/arkui/ace_napi_test:ActsAceNapiEtsTestMain",
                 "test/xts/acts/commonlibrary/ets_utils/concurrency_base:concurrency_base_js_hap",
-                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEts"
+                "test/xts/acts/distributeddatamgr/preferencesSendabletest:preferencesSendable_ets_test",
+                "test/xts/acts/arkui/ace_napi_test:ActsAceNapiEtsTest",
+                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEts",
+                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEtsTestES",
+                "test/xts/acts/arkui/ace_napi_test:ActsAceNapiEtsTestMain"
             ]
         },
         {
             "path": "interface/sdk-js/arkts/@arkts.collections.d.ets",
             "bundle_name": [],
             "build_targets": [
-                "test/xts/acts/commonlibrary/ets_utils/sendable_lib_collections:collections_js_test",
-                "test/xts/acts/distributeddatamgr/preferencesSendabletest:preferencesSendable_ets_test",
                 "test/xts/acts/distributeddatamgr/relationalStoretest/relationalStoreSendabletest:relationalstoreSendable_ets_test",
-                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEtsTestES",
-                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEts"
+                "test/xts/acts/distributeddatamgr/preferencesSendabletest:preferencesSendable_ets_test",
+                "test/xts/acts/commonlibrary/ets_utils/sendable_lib_collections:collections_js_test",
+                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEts",
+                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEtsTestES"
             ]
+        },
+        {
+            "path": "interface/sdk-js/arkts/@arkts.math.Decimal.d.ets",
+            "bundle_name": [],
+            "build_targets": []
         }
     ],
     "sdk_c":[
@@ -6895,6 +7092,11 @@
     ],
     "driver_interface": [
         {
+            "path": "drivers/interface/figures",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
             "path": "drivers/interface/power",
             "bundle_name": [
                 "drivers_interface_power"
@@ -7010,6 +7212,13 @@
             "path": "drivers/interface/partitionslot",
             "bundle_name": [
                 "drivers_interface_partitionslot"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "drivers/interface/ci_test",
+            "bundle_name": [
+                "*******test*******"
             ],
             "build_targets": []
         },
