@@ -297,19 +297,20 @@ class GetInterfaceData(Ci_Manager):
     def get_js_bundle_name(self, change_list, js_json_data):
         # 获取 change_list interface/sdk-js 仓数据
         for store in change_list:
-            if store.path == MatchConfig.get_interface_path_list()[0]:
-                paths = store.add + store.modified + store.delete
-                self.sum_change_list_path += paths
-                targete_data = [data for data in js_json_data if data['path'] in paths]
-                for _data in targete_data:
-                    store.set_already_match_utils(True)
-                    self.match_path_list.append(_data.get('path'))
-                    # 找出 bundle_name 加入 self.bundle_name_list
-                    for part_name in _data.get('bundle_name'):
-                        self.bundle_name_list.append(part_name)
-                        # 针对 interface/sdk-js/kits、interface/sdk-js/arkts 在配置文件中查找 build_target
-                    for build_target in _data.get('build_targets'):
-                        self._build_targets.append(build_target)
+            if store.path != MatchConfig.get_interface_path_list()[0]:
+                break
+            paths = store.add + store.modified + store.delete
+            self.sum_change_list_path += paths
+            targete_data = [data for data in js_json_data if data['path'] in paths]
+            for _data in targete_data:
+                store.set_already_match_utils(True)
+                self.match_path_list.append(_data.get('path'))
+                # 找出 bundle_name 加入 self.bundle_name_list
+                for part_name in _data.get('bundle_name'):
+                    self.bundle_name_list.append(part_name)
+                    # 针对 interface/sdk-js/kits、interface/sdk-js/arkts 在配置文件中查找 build_target
+                for build_target in _data.get('build_targets'):
+                    self._build_targets.append(build_target)
     
     # 处理 driver_interface 仓
     def get_driver_interface_bundle_name(self, change_list, driver_interface_json_data):
