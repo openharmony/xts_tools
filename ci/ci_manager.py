@@ -265,11 +265,18 @@ class GetInterfaceData(Ci_Manager):
         self.match_path_list = []
         self.no_match_path_list = []
 
+    # 截取路径
+    def get_first_levels_path(self, path, num):
+        normalized_path = os.path.normpath(path)
+        parts = normalized_path.split(os.sep)
+        return os.sep.join(parts[:num])
+
     def path_error(self, path_list):
         if len(path_list) > 0:
             raise Exception('Error:  interface 路径无法匹配 bundle_name, 请前往 test/xts/tools/config/ci_api_part_name.json 配置对应 path 与 bundle_name')
 
     def get_targets_from_change(self, change_list):
+        
         # 分开处理三个 interface 仓
         self.get_c_bundle_name(change_list, MatchConfig.get_interface_json_c_data())
         self.get_driver_interface_bundle_name(change_list, MatchConfig.get_interface_json_driver_interface_data())
@@ -280,6 +287,7 @@ class GetInterfaceData(Ci_Manager):
                self.no_match_path_list.append(path)
 
         self.bundle_name_list = list(set(self.bundle_name_list))
+        self._build_targets = list(set(self._build_targets))
  
         print('INTERFACE_BUNDLE_NAME = ', self.bundle_name_list)
         # 抛出未匹配到 bundle_name 的路径
@@ -291,6 +299,7 @@ class GetInterfaceData(Ci_Manager):
                 print('Error: 无法匹配路径： ', path)
             sys.exit()
         # 根据bundle_name 查找对应 build_paths
+  
         self._build_paths = XTSTargetUtils.getPathsByBundle(self.bundle_name_list, self._xts_root_dir)
 
     # 处理 interface/sdk-js 仓
@@ -298,7 +307,7 @@ class GetInterfaceData(Ci_Manager):
         # 获取 change_list interface/sdk-js 仓数据
         for store in change_list:
             if store.path != MatchConfig.get_interface_path_list()[0]:
-                break
+                continue
             paths = store.add + store.modified + store.delete
             self.sum_change_list_path += paths
             targete_data = [data for data in js_json_data if data['path'] in paths]
@@ -311,41 +320,44 @@ class GetInterfaceData(Ci_Manager):
                     # 针对 interface/sdk-js/kits、interface/sdk-js/arkts 在配置文件中查找 build_target
                 for build_target in _data.get('build_targets'):
                     self._build_targets.append(build_target)
-    
+                      
     # 处理 driver_interface 仓
     def get_driver_interface_bundle_name(self, change_list, driver_interface_json_data):
         add_bundle_json_path = []
         for store in change_list:
             # 获取 change_list driver_interface 仓数据
-            if store.path == MatchConfig.get_interface_path_list()[2]:
-                for path in store.add + store.modified + store.delete:
+            if store.path != MatchConfig.get_interface_path_list()[2]:
+                continue
+            for path in store.add + store.modified + store.delete:
                     self.sum_change_list_path.append(path)
                     for source_path in driver_interface_json_data:
                         # 从 drivers/interface 下第一级目录截取路径在配置文件中查找 bundle_name
-                        if '/'.join(path.split('/')[0:3]) == source_path.get('path'):
+                        if self.get_first_levels_path(path, 3) == source_path.get('path'):
                             store.set_already_match_utils(True)
                             self.bundle_name_list.append(source_path.get('bundle_name')[0])
                             self.match_path_list.append(path)
-                # 查看目录下是否有 bundle.json
-                for path in store.add:                
-                    if os.path.basename(path) == 'bundle.json':
-                        try:
-                            # 发现 bundle.json 后进去文件寻找 bundle_name  
-                            with open(os.path.abspath(__file__).split('/test/')[0] + '/' + path, 'r') as d:
-                                for k, v in json.load(d).items():
-                                    if k == 'component':
-                                        add_bundle_json_path.append([path, v['name']])
-                        except FileNotFoundError:
-                            print('Error:  drivers/interface仓新增目录且在目录下未发现 bundle.json， 无法匹配 bundle_name')
-                            sys.exit()
-                # 处理新增目录下其他文件
-                for path in store.add: 
-                    for path_name in add_bundle_json_path:
-                        if '/'.join(path.split('/')[0:3]) == '/'.join(path_name[0].split('/')[0:3]):
-                            self.match_path_list.append(path)
-                            store.set_already_match_utils(True)
-                            self.bundle_name_list.append(path_name[1])
+            
+            # 查看新增目录下是否有 bundle.json
+            for path in store.add:                
+                if os.path.basename(path) == 'bundle.json':
+                    try:
+                        # 发现 bundle.json 后进去文件寻找 bundle_name  
+                        with open(os.path.abspath(__file__).split('/test/')[0] + '/' + path, 'r') as d:
+                            for k, v in json.load(d).items():
+                                if k == 'component':
+                                    add_bundle_json_path.append([path, v['name']])
+                    except FileNotFoundError:
+                        print('Error:  drivers/interface仓新增目录且在目录下未发现 bundle.json， 无法匹配 bundle_name， 请添加 bundle.json 文件')
+                        sys.exit()
 
+            # 处理新增目录下其他文件
+            for path in store.add: 
+                for path_name in add_bundle_json_path:
+                    if self.get_first_levels_path(path, 3) == self.get_first_levels_path(path_name[0], 3):
+                        self.match_path_list.append(path)
+                        store.set_already_match_utils(True)
+                        self.bundle_name_list.append(path_name[1])
+                
     # 处理 interface/sdk_c 仓
     def get_c_bundle_name(self, change_list, c_json_data):
         for store in change_list:
