@@ -317,7 +317,7 @@ class GetInterfaceData(Ci_Manager):
                 # 找出 bundle_name 加入 self.bundle_name_list
                 for part_name in _data.get('bundle_name'):
                     self.bundle_name_list.append(part_name)
-                    # 针对 interface/sdk-js/kits、interface/sdk-js/arkts 在配置文件中查找 build_target
+                # 针对 interface/sdk-js/kits、interface/sdk-js/arkts 在配置文件中查找 build_target
                 for build_target in _data.get('build_targets'):
                     self._build_targets.append(build_target)
                       
