@@ -138,21 +138,18 @@ class MatchConfig:
     def get_interface_json_js_data(cls):
         if cls.interface_js_data == {}:
             cls.interface_initialization()
-
         return cls.interface_js_data
 
     @classmethod
     def get_interface_json_c_data(cls):
         if cls.interface_c_data == {}:
             cls.interface_initialization()
-
         return cls.interface_c_data
 
     @classmethod
     def get_interface_json_driver_interface_data(cls):
         if cls.driver_interface == {}:
             cls.interface_initialization()
-
         return cls.driver_interface
 
     @classmethod
