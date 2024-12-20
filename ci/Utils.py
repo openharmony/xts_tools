@@ -15,398 +15,367 @@
 # limitations under the License.
 #
 
+import json
 import os
 import re
-import json
-from enum import Enum
+import fnmatch
+import sys
+from abc import ABC, abstractmethod
+import xml.etree.ElementTree as ET
 
-HOME = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
-
-
-class ChangeFileEntity:
-    def __init__(self, name, path):
-        self.name = name
-        self.path = path
-        self.add = []
-        self.modified = []
-        self.delete = []
-        self._already_match_utils = False
-
-    def addAddPaths(self, add_list):
-        self.add += list(map(lambda x: os.path.join(self.path, x), add_list))
-        self.add.sort()
-
-    def addModifiedPaths(self, modified_list):
-        self.modified += list(map(lambda x: os.path.join(self.path, x), modified_list))
-        self.modified.sort()
-
-    def addRenamePathsto(self, rename_list):
-        for list in rename_list:
-            self.add += [os.path.join(self.path, list[1])]
-            self.delete += [os.path.join(self.path, list[0])]
-            self.add.sort()
-            self.delete.sort()
-
-    def addDeletePaths(self, delete_list):
-        self.delete += list(map(lambda x: os.path.join(self.path, x), delete_list))
-        self.delete.sort()
-
-    def isEmpty(self):
-        if self.add:
-            return False
-        if self.modified:
-            return False
-        if self.delete:
-            return False
-        return True
-
-    def get_already_match_utils(self):
-        return self._already_match_utils
-
-    def set_already_match_utils(self, already_match_utils):
-        self._already_match_utils = already_match_utils
-
-    def __str__(self):
-        add_str = '\n  '.join(self.add) if self.add else 'None'
-        modified_str = '\n  '.join(self.modified) if self.modified else 'None'
-        delete_str = '\n  '.join(self.delete) if self.delete else 'None'
-
-        return (f"ChangeFileEntity(\n"
-                f"  name: {self.name},\n"
-                f"  path: {self.path},\n"
-                f"  add: [\n    {add_str}\n  ],\n"
-                f"  modified: [\n    {modified_str}\n  ],\n"
-                f"  delete: [\n    {delete_str}\n  ]\n"
-                f")")
+from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
 
 
-class MatchConfig:
-    MACTH_CONFIG_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_match_config.json")
-    exception_path = {}
-    all_com_path = {}
-    skip_judge_build_path = {}
-    temple_list = []
-    acts_All_template_ex_list = []
-    xts_path_list = []
+class Ci_Manager(ABC):
 
-    INTERFACE_BUNDLE_NAME_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_api_part_name.json")
-    interface_js_data = {}
-    interface_c_data = {}
-    driver_interface = {}
+    @abstractmethod
+    def get_targets_from_change(self, change_list: list):
+        pass
 
-    WHITE_LIST_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_target_white_list.json")
-    white_list_repo = {}
-    
-    # 逃生通道
-    ESCAPE_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_escape.json")
-    escape_list = []
+    def write_result(self, target_path_set: set, target_set: set):
+        print(f"{self.__class__.__name__} 增加 build_targets : {self._build_targets}")
+        print(f"{self.__class__.__name__} 增加 build_paths : {self._build_paths}")
 
-    @classmethod
-    def initialization(cls):
-        if cls.exception_path == {}:
-            print("MatchConfig 开始初始化")
-            if not os.path.exists(cls.MACTH_CONFIG_PATH):
-                print(f"{cls.MACTH_CONFIG_PATH} 不存在,读取配置文件异常")
-            with open(cls.MACTH_CONFIG_PATH, 'r') as file:
-                rules_data = json.load(file)
-                cls.exception_path = rules_data['exception_path']
-                cls.all_com_path = rules_data['all_com_path']
-                cls.skip_judge_build_path = rules_data['skip_judge_build_path']
-                cls.temple_list = rules_data['temple_list']
-                cls.acts_All_template_ex_list = rules_data['acts_All_template_ex']
-                cls.xts_path_list = rules_data['xts_path_list']
-                cls.interface_path_list = rules_data['interface_path_list']
-        print("MatchConfig 已完成初始化")
-    
-    @classmethod
-    def interface_initialization(cls):
+        xts_root_target = PathUtils.get_root_target(self._xts_root_dir)
+        if xts_root_target in target_set:
+            print("编译全量代码")
+            return
+        if xts_root_target in self._build_targets:
+            target_set.add(xts_root_target)
+            target_path_set.clear()
+            print("编译全量代码")
+            return
 
-        if cls.interface_js_data == {}:
-            print("INTERFACE_BUNDLE_NAME 开始初始化")
-            if not os.path.exists(cls.INTERFACE_BUNDLE_NAME_PATH):
-                print(f"{cls.INTERFACE_BUNDLE_NAME_PATH} 不存在,读取配置文件异常\n")
-            with open(cls.INTERFACE_BUNDLE_NAME_PATH, 'r') as file:
-                interface_data = json.load(file)
-                cls.interface_js_data = interface_data['sdk-js']
-                cls.interface_c_data = interface_data['sdk_c']
-                cls.driver_interface = interface_data['driver_interface']
-
-        print("INTERFACE_BUNDLE_NAME 已完成初始化")
-    
-    @classmethod
-    def get_interface_json_js_data(cls):
-        if cls.interface_js_data == {}:
-            cls.interface_initialization()
-
-        return cls.interface_js_data
-
-    @classmethod
-    def get_interface_json_c_data(cls):
-        if cls.interface_c_data == {}:
-            cls.interface_initialization()
-
-        return cls.interface_c_data
-
-    @classmethod
-    def get_interface_json_driver_interface_data(cls):
-        if cls.driver_interface == {}:
-            cls.interface_initialization()
-
-        return cls.driver_interface
-
-    @classmethod
-    def get_interface_path_list(cls):
-        if cls.interface_path_list == []:
-            cls.initialization()
-        return cls.interface_path_list
-
-    @classmethod
-    def get_exception_path(cls):
-        if cls.exception_path == {}:
-            cls.initialization()
-        return cls.exception_path
-
-    @classmethod
-    def get_all_com_path(cls):
-        if cls.all_com_path == {}:
-            cls.initialization()
-        return cls.all_com_path
-
-    @classmethod
-    def get_skip_judge_build_path(cls):
-        if cls.skip_judge_build_path == {}:
-            cls.initialization()
-        return cls.skip_judge_build_path
-
-    @classmethod
-    def get_temple_list(cls):
-        if cls.temple_list == []:
-            cls.initialization()
-        return cls.temple_list
-
-    @classmethod
-    def get_acts_All_template_ex_list(cls):
-        if cls.acts_All_template_ex_list == []:
-            cls.initialization()
-        return cls.acts_All_template_ex_list
-
-    @classmethod
-    def get_xts_path_list(cls):
-        if cls.xts_path_list == []:
-            cls.initialization()
-        return cls.xts_path_list
-
-    @classmethod
-    def initialization_white_list(cls):
-        if cls.white_list_repo == {}:
-            print("白名单开始初始化")
-            if not os.path.exists(cls.WHITE_LIST_PATH):
-                print(f"{cls.WHITE_LIST_PATH} 不存在,读取配置文件异常")
-            with open(cls.WHITE_LIST_PATH, 'r') as file:
-                white_file = json.load(file)
-                white_repos = white_file["repo_list"]
-                for white_repo in white_repos:
-                    cls.white_list_repo[white_repo["path"]] = white_repo
-        print("白名单已完成初始化")
-
-    @classmethod
-    def get_white_list_repo(cls):
-        if cls.white_list_repo == {}:
-            cls.initialization_white_list()
-        return cls.white_list_repo
-    
-    @classmethod
-    def initialization_escape_list(cls):
-        if cls.escape_list == []:
-            print("逃生仓列表 开始初始化")
-            if not os.path.exists(cls.ESCAPE_PATH):
-                print(f"{cls.ESCAPE_PATH} 不存在,无逃生仓")
-                return
-            with open(cls.ESCAPE_PATH, 'r') as file:
-                escape_map = json.load(file)
-                cls.escape_list = escape_map.keys()
-        print("逃生仓列表 已完成初始化")
-    
-    @classmethod
-    def get_escape_list(cls):
-        if cls.escape_list == []:
-            cls.initialization_escape_list()
-        return cls.escape_list
+        target_set.update(set(self._build_targets))
+        target_path_set.update(set(self._build_paths))
 
 
-class XTSTargetUtils:
+class ComponentManager(Ci_Manager):
 
-    @staticmethod
-    def get_current_Build(xts_root_dir, current_dir):
-        while PathUtils.is_parent_path(xts_root_dir, current_dir):
-            # 当前目录是否包含需跳过的keywords
-            if PathUtils.isMatchRules(current_dir, MatchConfig.get_skip_judge_build_path()):
-                current_dir = os.path.dirname(current_dir)
+    def __init__(self, xts_root_dir, code_root_dir):
+        self._xts_root_dir = xts_root_dir
+        self._code_root_dir = code_root_dir
+        self._build_paths = []
+        self._build_targets = []
+
+    def get_targets_from_change(self, change_list):
+        for changeFileEntity in change_list:
+            if changeFileEntity.path in MatchConfig.get_escape_list():
+                print(f"{changeFileEntity.name} 仓逃生,使用旧精准目标")
                 continue
-            # 检查当前目录下是否存在BUILD.gn文件
-            build_gn_path = os.path.join(current_dir, 'BUILD.gn')
-            if os.path.exists(build_gn_path):
-                return build_gn_path
-                # 如果没有找到，向上一层目录移动
-            current_dir = os.path.dirname(current_dir)
-        # xts仓最外层均有BUILD.gn文件
-        return current_dir
+            if changeFileEntity.path not in MatchConfig.get_xts_path_list():
+                ret = self.getTargetsPaths(changeFileEntity)
+                if ret == 1:
+                    return 1
+        return 0
 
-    # 路径获取target
-    @staticmethod
-    def getTargetfromPath(xts_root_dir, path) -> list:
-        if path == xts_root_dir:
-            if path.endswith("acts"):
-                return MatchConfig.get_acts_All_template_ex_list()
-            root_target = PathUtils.get_root_target(xts_root_dir)
-            return [root_target]
-        build_file = XTSTargetUtils.get_current_Build(xts_root_dir, path)
-        targets = XTSTargetUtils.getTargetFromBuild(build_file)
-        if targets == None:
-            return XTSTargetUtils.getTargetfromPath(xts_root_dir, os.path.dirname(os.path.dirname(build_file)))
-        return targets
+    def getTargetsPaths(self, change_file_entity: ChangeFileEntity):
+        # 获取部件名
+        try:
+            bundle_name = self.getBundleName(change_file_entity.path)
+        except Exception as e:
+            print(f"读取{change_file_entity.name}部件仓bundle_name失败")
+            return 1
+        print(f"{self.__class__.__name__} 增加 bundle_name : {bundle_name}")
+        # 部件名(partname)获取paths
+        paths = XTSTargetUtils.getPathsByBundle([bundle_name], self._xts_root_dir)
+        if paths:
+            change_file_entity.set_already_match_utils(True)
+            self._build_paths += paths
+        return 0
 
-    @staticmethod
-    def getTargetFromBuild(build_File) -> list:
-        pattern = re.compile(r'(\b(?:' + '|'.join(
-            re.escape(word) for word in MatchConfig.get_temple_list()) + r')\b)\("([^"]*)"\)')
-        with open(build_File, 'r', encoding='utf-8') as file:
-            content = file.read()
-        matches = pattern.findall(content)
-        targets = [match[1] for match in matches]
-        relative_path = os.path.relpath(os.path.dirname(build_File), HOME)
-        if len(targets) > 1:
-            deps = XTSTargetUtils.getDepsinBuild(content)
-            # 编译本gn中未被依赖的目标
-            targets = [item for item in targets if item not in deps]
-        return [f"{relative_path}:{item}" for item in targets]
+    def getBundleName(self, path) -> str:
+        with open(os.path.join(HOME, path, "bundle.json"), 'r') as file:
+            data = json.load(file)
+        bundle_name = data['component']['name']
+        return bundle_name
 
-    @staticmethod
-    def getDepsinBuild(build):
-        # 定义正则表达式模式来匹配deps数组
-        pattern = re.compile(r'deps\s*=\s*\[\s*(?P<deps>.*?)\s*\]', re.DOTALL)
-        # pattern = r'\s*deps\s*=\s*<deps>'
-        # 搜索文本中的匹配项
-        matches = pattern.findall(build)
-        all_deps = []
 
-        for match in matches:
-            # 分割字符串并去除双引号和空格
-            deps_list = [dep.strip('\n').strip().strip('"').lstrip(':') for dep in match.split(',')]
-            all_deps.extend(deps_list)
+class XTSManager(Ci_Manager):
 
-        return all_deps
+    def __init__(self, xts_root_dir, code_root_dir):
+        self._xts_root_dir = xts_root_dir
+        self._code_root_dir = code_root_dir
+        self._build_paths = []
+        self._build_targets = []
+        self._need_all = False
 
-    @staticmethod
-    def getPathsByBundle(bundle, test_home) -> list:
-        matching_files = []
-        # 遍历根目录及其子目录
-        for root, dirs, files in os.walk(test_home):
-            if PathUtils.isMatchRules(root, MatchConfig.get_exception_path()):
+    def get_targets_from_change(self, change_list):
+        for changeFileEntity in change_list:
+            # tools仓修改，编译全量
+            if changeFileEntity.path == "test/xts/tools":
+                self._need_all = True
+                changeFileEntity.set_already_match_utils(True)
+            if changeFileEntity.path in MatchConfig.get_xts_path_list() and changeFileEntity.path in self._xts_root_dir:
+                # 只有当前编译的xts仓修改参与计算
+                ret = self.getTargetsPaths(changeFileEntity)
+                if ret == 1:
+                    print(f"{changeFileEntity.name}仓修改解析失败")
+                    return 1
+        if self._need_all:
+            self._build_targets += MatchConfig.get_acts_All_template_ex_list()
+        return 0
+
+    # 获取path接口
+    def getTargetsPaths(self, changeFileEntity: ChangeFileEntity):
+        # 修改和新增
+        for file in changeFileEntity.add + changeFileEntity.modified:
+            # file转为绝对路径
+            file = os.path.join(self._code_root_dir, file)
+            # 筛选掉例外的目录
+            if PathUtils.isMatchRules(file, MatchConfig.get_exception_path()):
                 continue
-            for file in files:
-                if file == 'BUILD.gn':
-                    file_path = os.path.join(root, file)
-                    # 读取文件内容
-                    with open(file_path, 'r', encoding='utf-8') as f:
-                        content = f.read()
-                        # 检查是否包含bundle
-                        for bundle_ in bundle:
-                            part_name = f'part_name = "{bundle_}"'
-                            if part_name in content:
-                                matching_files.append(root)
-                                continue
-        return matching_files
+            # 当前文件路径或父已存在,跳过
+            if PathUtils.isTargetContains(self._build_paths, file):
+                continue
+            # 当前file对应BUILD.gn路径
+            build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, file)
+            # 计算到根目录或指定目录,直接编译全量
+            if (os.path.dirname(build_File) == self._xts_root_dir or
+                    PathUtils.isMatchRules(file, MatchConfig.get_all_com_path())):
+                self._need_all = True
+            else:
+                self._build_paths.append(os.path.dirname(build_File))
+        # 删除
+        for file in changeFileEntity.delete:
+            # file转为绝对路径
+            file = os.path.join(self._code_root_dir, file)
+            # 筛选掉例外的目录
+            if PathUtils.isMatchRules(file, MatchConfig.get_exception_path()):
+                continue
+            # 当前文件路径或父已存在,跳过
+            if PathUtils.isTargetContains(self._build_paths, file):
+                continue
+            # 当前存在的最外层路径
+            exist_path = PathUtils.get_current_exist(self._xts_root_dir, os.path.dirname(file))
+            build_File = XTSTargetUtils.get_current_Build(self._xts_root_dir, exist_path)
+            # 计算到根目录或指定目录,直接编译全量
+            if (os.path.dirname(build_File) == self._xts_root_dir or
+                    PathUtils.isMatchRules(file, MatchConfig.get_all_com_path())):
+                self._need_all = True
+            else:
+                self._build_paths.append(os.path.dirname(build_File))
+        return 0
 
 
-class PathUtils:
+class WhitelistManager(Ci_Manager):
 
-    # 路径列表简化
-    @staticmethod
-    def removeSubandDumpPath(path_list: list) -> list:
-        # 排序，确保父目录在子目录之前,减少运算
-        path_list.sort()
-        # 存储最小集
-        minimal_paths_set = set()
-        # 记录已存在的父目录的全部未添加编译的子目录
-        parent_dirs = {}
+    def __init__(self, xts_root_dir, code_root_dir):
+        self._xts_root_dir = xts_root_dir
+        self._code_root_dir = code_root_dir
+        self._build_paths = []
+        self._build_targets = []
 
-        for path in path_list:
-            # 检查当前路径或其父路径是否已经在最小集中
-            isinclude = False
-            for m_path in minimal_paths_set:
-                if PathUtils.is_parent_path(m_path, path):
-                    isinclude = True
-                    break
-            # 添加逻辑
-            if not isinclude:
-                PathUtils.addPathClean(path, minimal_paths_set, parent_dirs)
+    def get_targets_from_change(self, change_list):
+        for changeFileEntity in change_list:
+            if changeFileEntity.path in MatchConfig.get_escape_list():
+                print(f"{changeFileEntity.name} 仓逃生,使用旧精准目标")
+                continue
+            if changeFileEntity.path not in MatchConfig.get_xts_path_list():
+                ret = self.getTargetsandPaths(changeFileEntity)
+                if ret == 1:
+                    return 1
+        return 0
 
-        return list(minimal_paths_set)
+    def getTargetsandPaths(self, change_file_entity):
+        white_list = MatchConfig.get_white_list_repo()
+        if change_file_entity.path not in white_list:
+            return 0
+        bundles = white_list[change_file_entity.path]["add_bundle"]
+        targets = white_list[change_file_entity.path]["add_target"]
+        change_file_entity.set_already_match_utils(True)
+        if bundles:
+            paths = XTSTargetUtils.getPathsByBundle(bundles, self._xts_root_dir)
+            if paths:
+                self._build_paths += paths
+        if targets:
+            self._build_targets += targets
+        return 0
 
-    @staticmethod
-    def addPathClean(path, minimal_paths_set, parent_dirs):
-        # 检查当前路径的首层父目录是否在最小集中
-        parent_path = os.path.dirname(path)
-        if parent_path in parent_dirs:
-            # 在-原list修改
-            subdirs = parent_dirs[parent_path]
-        else:
-            # 不在-记录父目录及本目录
-            subdirs = [os.path.join(parent_path, d) for d in os.listdir(parent_path) if
-                       os.path.isdir(os.path.join(parent_path, d))]
-            parent_dirs[parent_path] = subdirs
-        subdirs.remove(path)
-        minimal_paths_set.add(path)
-        # 检查是否替换为添加其直接父目录
-        if len(subdirs) == 0:
-            del parent_dirs[parent_path]
-            # minimal_paths_sets删除parent_path子目录
-            for d in os.listdir(parent_path):
-                p = os.path.join(parent_path, d)
-                if os.path.isdir(p) and p in minimal_paths_set:
-                    minimal_paths_set.remove(os.path.join(parent_path, d))
-            PathUtils.addPathClean(parent_path, minimal_paths_set, parent_dirs)
 
-    @staticmethod
-    def get_current_exist(root_path, path) -> str:
-        current_dir = path
-        while PathUtils.is_parent_path(root_path, current_dir):
-            if os.path.exists(current_dir):
-                return current_dir
-            current_dir = os.path.dirname(current_dir)
-        # 根目录必然存在
-        return root_path
+class OldPreciseManager(Ci_Manager):
 
-    @staticmethod
-    def is_parent_path(parent_path, child_path):
-        # 获取公共路径
-        common_path = os.path.commonpath([parent_path, child_path])
-        return common_path == parent_path
+    def __init__(self, xts_root_dir, code_root_dir):
+        self._xts_root_dir = xts_root_dir
+        self._code_root_dir = code_root_dir
+        self._build_paths = []
+        self._build_targets = []
+        self._precise_compilation_file = os.path.join(HOME, "test", "xts", "tools", "config",
+                                                      "precise_compilation.json")
+        self._init_old_precise_map()
 
-    @staticmethod
-    def get_root_target(xts_root_dir):
-        xts_suite = os.path.basename(xts_root_dir)
-        # relative_path = os.path.relpath(xts_root_dir, HOME)
-        target = f"xts_{xts_suite}"
-        return target
+    def _init_old_precise_map(self):
+        self._old_precise_map = {}
+        with open(self._precise_compilation_file, 'r') as file:
+            data_list = json.load(file)
+        for item in data_list:
+            name = item['name']
+            build_target = item['buildTarget']
+            self._old_precise_map[name] = build_target
 
-    @staticmethod
-    def isMatchRules(file, rules):
-        string_rules = rules["string_rules"]
-        re_rules = rules["re_rules"]
-        for rule in string_rules:
-            if rule in file:
-                return True
-        for rule in re_rules:
-            if re.compile(rule).search(file):
-                return True
-        return False
+    def get_targets_from_change(self, change_list):
+        for changeFileEntity in change_list:
+            if changeFileEntity.path not in MatchConfig.get_xts_path_list() and \
+                    not changeFileEntity.get_already_match_utils():
+                ret = self.getTargets(changeFileEntity)
+                if ret == 1:
+                    pass
+        return 0
 
-    @staticmethod
-    def isTargetContains(targetFiles, file) -> bool:
-        for f in targetFiles:
-            if PathUtils.is_parent_path(f, file):
-                return True
-        return False
+    # 获取path接口
+    def getTargets(self, changeFileEntity: ChangeFileEntity):
+        # 获取开源仓名
+        repo_name = self.search_repo_name(changeFileEntity.path)
+        # precise_compilation.json配置文件中获取对应目标
+        if repo_name in self._old_precise_map:
+            self._build_targets.append(self._old_precise_map[repo_name])
+        return 0
+
+    def getTargetsbyRepoName(self, repo_name):
+        with open(repo_name, 'r') as file:
+            data_list = json.load(file)
+        # 遍历列表中的每个字典
+        for item in data_list:
+            # 获取 name 和 buildTarget 的值
+            name = item['name']
+            build_target = item['buildTarget']
+            # 打印结果
+            print(f'Name: {name}, Build Target: {build_target}')
+
+    def search_repo_name(self, repo_path, directory=os.path.join(HOME, ".repo", "manifests")):
+        for root, dirs, files in os.walk(directory):
+            for filename in fnmatch.filter(files, '*.xml'):
+                file_path = os.path.join(root, filename)
+                for child in ET.parse(file_path).getroot().findall('project'):
+                    if child.attrib['path'] == repo_path:
+                        if 'gitee_name' in child.attrib:
+                            return child.attrib['gitee_name']
+                        return child.attrib['name']
+        return None
+
+class GetInterfaceData(Ci_Manager):
+
+    def __init__(self, xts_root_dir, code_root_dir):
+        self._xts_root_dir = xts_root_dir
+        self._code_root_dir = code_root_dir
+        self._build_paths = []
+        self._build_targets = []
+        self.sum_change_list_path = []
+        self.bundle_name_list = []
+        self.match_path_list = []
+        self.no_match_path_list = []
+
+    # 截取路径
+    def get_first_levels_path(self, path, num):
+        normalized_path = os.path.normpath(path)
+        parts = normalized_path.split(os.sep)
+        return os.sep.join(parts[:num])
+
+    def path_error(self, path_list):
+        if len(path_list) > 0:
+            raise Exception('Error:  interface 路径无法匹配 bundle_name, 请前往 test/xts/tools/config/ci_api_part_name.json 配置对应 path 与 bundle_name')
+
+    def get_targets_from_change(self, change_list):
+        
+        # 分开处理三个 interface 仓
+        self.get_c_bundle_name(change_list, MatchConfig.get_interface_json_c_data())
+        self.get_driver_interface_bundle_name(change_list, MatchConfig.get_interface_json_driver_interface_data())
+        self.get_js_bundle_name(change_list, MatchConfig.get_interface_json_js_data())
+        # 筛选出未匹配路径
+        for path in self.sum_change_list_path:
+            if path not in self.match_path_list:
+               self.no_match_path_list.append(path)
+
+        self.bundle_name_list = list(set(self.bundle_name_list))
+        self._build_targets = list(set(self._build_targets))
+ 
+        print('INTERFACE_BUNDLE_NAME = ', self.bundle_name_list)
+        # 抛出未匹配到 bundle_name 的路径
+        try:
+            self.path_error(self.no_match_path_list)
+        except Exception as e:
+            print(e)
+            for path in self.no_match_path_list:
+                print('Error: 无法匹配路径： ', path)
+            sys.exit()
+        # 根据bundle_name 查找对应 build_paths
+  
+        self._build_paths = XTSTargetUtils.getPathsByBundle(self.bundle_name_list, self._xts_root_dir)
+
+    # 处理 interface/sdk-js 仓
+    def get_js_bundle_name(self, change_list, js_json_data):
+        # 获取 change_list interface/sdk-js 仓数据
+        for store in change_list:
+            if store.path != MatchConfig.get_interface_path_list()[0]:
+                continue
+            paths = store.add + store.modified + store.delete
+            self.sum_change_list_path += paths
+            targete_data = [data for data in js_json_data if data['path'] in paths]
+            for _data in targete_data:
+                store.set_already_match_utils(True)
+                self.match_path_list.append(_data.get('path'))
+                # 找出 bundle_name 加入 self.bundle_name_list
+                for part_name in _data.get('bundle_name'):
+                    self.bundle_name_list.append(part_name)
+                # 针对 interface/sdk-js/kits、interface/sdk-js/arkts 在配置文件中查找 build_target
+                for build_target in _data.get('build_targets'):
+                    self._build_targets.append(build_target)
+                      
+    # 处理 driver_interface 仓
+    def get_driver_interface_bundle_name(self, change_list, driver_interface_json_data):
+        add_bundle_json_path = []
+        for store in change_list:
+            # 获取 change_list driver_interface 仓数据
+            if store.path != MatchConfig.get_interface_path_list()[2]:
+                continue
+            for path in store.add + store.modified + store.delete:
+                    self.sum_change_list_path.append(path)
+                    for source_path in driver_interface_json_data:
+                        # 从 drivers/interface 下第一级目录截取路径在配置文件中查找 bundle_name
+                        if self.get_first_levels_path(path, 3) == source_path.get('path'):
+                            store.set_already_match_utils(True)
+                            self.bundle_name_list.append(source_path.get('bundle_name')[0])
+                            self.match_path_list.append(path)
+            
+            # 查看新增目录下是否有 bundle.json
+            for path in store.add:                
+                if os.path.basename(path) == 'bundle.json':
+                    try:
+                        # 发现 bundle.json 后进去文件寻找 bundle_name  
+                        with open(os.path.abspath(__file__).split('/test/')[0] + '/' + path, 'r') as d:
+                            for k, v in json.load(d).items():
+                                if k == 'component':
+                                    add_bundle_json_path.append([path, v['name']])
+                    except FileNotFoundError:
+                        print('Error:  drivers/interface仓新增目录且在目录下未发现 bundle.json， 无法匹配 bundle_name， 请添加 bundle.json 文件')
+                        sys.exit()
+
+            # 处理新增目录下其他文件
+            for path in store.add: 
+                for path_name in add_bundle_json_path:
+                    if self.get_first_levels_path(path, 3) == self.get_first_levels_path(path_name[0], 3):
+                        self.match_path_list.append(path)
+                        store.set_already_match_utils(True)
+                        self.bundle_name_list.append(path_name[1])
+                
+    # 处理 interface/sdk_c 仓
+    def get_c_bundle_name(self, change_list, c_json_data):
+        for store in change_list:
+            # 获取 change_list interface/sdk_c 仓数据
+            if store.path != MatchConfig.get_interface_path_list()[1]:
+                continue
+            for path in store.add + store.modified + store.delete:
+                self.sum_change_list_path.append(path)
+                for source_path in c_json_data:
+                    # 根据目录匹配
+                    if PathUtils.is_parent_path(source_path.get('path'), path):
+                        self.match_path_list.append(path)
+                        store.set_already_match_utils(True)
+                        for part_name in source_path.get('bundle_name'):
+                            self.bundle_name_list.append(part_name)
+                    # 根据文件匹配
+                    elif path == source_path.get('path'):
+                        self.match_path_list.append(path)
+                        store.set_already_match_utils(True)
+                        for part_name in source_path.get('bundle_name'):
+                            self.bundle_name_list.append(part_name)
