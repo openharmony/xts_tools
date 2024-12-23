@@ -90,6 +90,11 @@ class MatchConfig:
     acts_All_template_ex_list = []
     xts_path_list = []
 
+    INTERFACE_BUNDLE_NAME_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_api_part_name.json")
+    interface_js_data = {}
+    interface_c_data = {}
+    driver_interface = {}
+
     WHITE_LIST_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_target_white_list.json")
     white_list_repo = {}
     
@@ -111,7 +116,47 @@ class MatchConfig:
                 cls.temple_list = rules_data['temple_list']
                 cls.acts_All_template_ex_list = rules_data['acts_All_template_ex']
                 cls.xts_path_list = rules_data['xts_path_list']
+                cls.interface_path_list = rules_data['interface_path_list']
         print("MatchConfig 已完成初始化")
+    
+    @classmethod
+    def interface_initialization(cls):
+
+        if cls.interface_js_data == {}:
+            print("INTERFACE_BUNDLE_NAME 开始初始化")
+            if not os.path.exists(cls.INTERFACE_BUNDLE_NAME_PATH):
+                print(f"{cls.INTERFACE_BUNDLE_NAME_PATH} 不存在,读取配置文件异常\n")
+            with open(cls.INTERFACE_BUNDLE_NAME_PATH, 'r') as file:
+                interface_data = json.load(file)
+                cls.interface_js_data = interface_data['sdk-js']
+                cls.interface_c_data = interface_data['sdk_c']
+                cls.driver_interface = interface_data['driver_interface']
+
+        print("INTERFACE_BUNDLE_NAME 已完成初始化")
+    
+    @classmethod
+    def get_interface_json_js_data(cls):
+        if cls.interface_js_data == {}:
+            cls.interface_initialization()
+        return cls.interface_js_data
+
+    @classmethod
+    def get_interface_json_c_data(cls):
+        if cls.interface_c_data == {}:
+            cls.interface_initialization()
+        return cls.interface_c_data
+
+    @classmethod
+    def get_interface_json_driver_interface_data(cls):
+        if cls.driver_interface == {}:
+            cls.interface_initialization()
+        return cls.driver_interface
+
+    @classmethod
+    def get_interface_path_list(cls):
+        if cls.interface_path_list == []:
+            cls.initialization()
+        return cls.interface_path_list
 
     @classmethod
     def get_exception_path(cls):
@@ -264,9 +309,11 @@ class XTSTargetUtils:
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
                         # 检查是否包含bundle
-                        part_name = f'part_name = "{bundle}"'
-                        if part_name in content:
-                            matching_files.append(root)
+                        for bundle_ in bundle:
+                            part_name = f'part_name = "{bundle_}"'
+                            if part_name in content:
+                                matching_files.append(root)
+                                continue
         return matching_files
 
 

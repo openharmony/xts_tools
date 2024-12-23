@@ -19,7 +19,7 @@ import os
 import sys
 import json
 from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, HOME
-from ci_manager import ComponentManager, XTSManager, WhitelistManager, OldPreciseManager
+from ci_manager import ComponentManager, XTSManager, WhitelistManager, OldPreciseManager, GetInterfaceData
 
 
 class AccurateTarget:
@@ -38,6 +38,8 @@ class AccurateTarget:
         self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir)
         # 原精准方案兜底计算
         self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
+        # interface 仓
+        self.get_interface_data = GetInterfaceData(self._xts_root_dir, self._code_root_dir)
 
     # def _get_full_target(self, xts_suitename):
 
@@ -80,6 +82,7 @@ class AccurateTarget:
         else:
             util_list = [
                 self.xts_manager,
+                self.get_interface_data,
                 self.com_manager,
                 self.wlist_manager,
                 self.old_manager
