@@ -7216,13 +7216,6 @@
             "build_targets": []
         },
         {
-            "path": "drivers/interface/ci_test",
-            "bundle_name": [
-                "*******test*******"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "drivers/interface/thermal",
             "bundle_name": [
                 "drivers_interface_thermal"
