@@ -12,6 +12,10 @@
         "buildTarget": "ability"
     },
     {
+        "name": "applications_dlp_manager",
+        "buildTarget": "applications"
+    },
+    {
         "name": "ability_form_fwk",
         "buildTarget": "ability"
     },
@@ -109,6 +113,10 @@
     },
     {
         "name": "customization_config_policy",
+        "buildTarget": "global"
+    },
+    {
+        "name": "global_system_resources",
         "buildTarget": "global"
     },
     {
