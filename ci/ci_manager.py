@@ -297,7 +297,7 @@ class GetInterfaceData(Ci_Manager):
             print(e)
             for path in self.no_match_path_list:
                 print('Error: 无法匹配路径： ', path)
-            sys.exit()
+            sys.exit(1)
         # 根据bundle_name 查找对应 build_paths
   
         self._build_paths = XTSTargetUtils.getPathsByBundle(self.bundle_name_list, self._xts_root_dir)
@@ -353,7 +353,7 @@ class GetInterfaceData(Ci_Manager):
                                     add_bundle_json_path.append([path, v['name']])
                     except FileNotFoundError:
                         print('Error:  drivers/interface仓新增目录且在目录下未发现 bundle.json， 无法匹配 bundle_name， 请添加 bundle.json 文件')
-                        sys.exit()
+                        sys.exit(1)
 
             # 处理新增目录下其他文件
             for path in store.add: 
