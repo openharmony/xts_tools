@@ -51,6 +51,14 @@
           "test/xts/acts/graphic/vkgl:cpvkgl",
           "test/xts/acts/graphic/vktest:cpVulkan"
         ]
+      },
+      {
+        "path": "build",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
       }
     ]
   }
