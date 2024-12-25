@@ -292,7 +292,7 @@ class GetInterfaceData(Ci_Manager):
         self.bundle_name_list = list(set(self.bundle_name_list))
         self._build_targets = list(set(self._build_targets))
         print('INTERFACE_BUNDLE_NAME = ', self.bundle_name_list)
-
+    
         # 抛出未匹配到 bundle_name 的路径
         try:
             self.path_error(self.no_match_path_list)
@@ -301,8 +301,8 @@ class GetInterfaceData(Ci_Manager):
             for path in self.no_match_path_list:
                 print('Error: 无法匹配路径： ', path)
             sys.exit(1)
+
         # 根据bundle_name 查找对应 build_paths
-  
         self._build_paths = XTSTargetUtils.getPathsByBundle(self.bundle_name_list, self._xts_root_dir)
 
     # 处理 interface/sdk-js 仓
@@ -324,11 +324,11 @@ class GetInterfaceData(Ci_Manager):
             # 根据路径匹配
             for path in paths:
                 for source_path in js_json_data:
-                    if os.path.dirname(path) == source_path.get('path'):
-                        store.set_already_match_utils(True)
+                    if PathUtils.is_parent_path(source_path.get('path'), path):
                         self.match_path_list.append(path)
-                        self.bundle_name_list += _data.get('bundle_name')
-                            
+                        store.set_already_match_utils(True)
+                        self.bundle_name_list += source_path.get('bundle_name')
+                                    
     # 处理 driver_interface 仓
     def get_driver_interface_bundle_name(self, change_list, driver_interface_json_data):
         add_bundle_json_path = []
