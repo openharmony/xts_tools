@@ -961,7 +961,7 @@
     },
     {
         "name": "third_party_node",
-        "buildTarget": "arkui"
+        "buildTarget": "test/xts/acts/commonlibrary/ark_runtime:ark_runtime"
     },
     {
         "name": "third_party_ntfs-3g",
