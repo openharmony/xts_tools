@@ -6530,6 +6530,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/AbilityKit/ability_base",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/BasicServicesKit",
             "bundle_name": [
                 "os_account",
