@@ -59,6 +59,70 @@
         "add_target": [
           "FULL_IMPACT"
         ]
+      },
+      {
+        "path": "developtools/ace_ets2bundle",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "developtools/ace_js2bundle",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "developtools/hapsigner",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "developtools/packing_tool",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "third_party/parse5",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "third_party/typescript",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "third_party/weex-loader",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "ide/tools/previewer",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
       }
     ]
   }
