@@ -3,21 +3,21 @@
 		"m_case_list":[
 			"test/xts/acts/multimedia/audio/audio_js_standard/OhAudioNdk:OhAudioNdkTest"
 		]
-	}
+	},
 	"foundation/multimedia/av_codec":{
 		"m_case_list":[
-			"test/xts/acts/multimedia/audio_ndk/oh_audio_render_test:ActsAudioRenderTest"
-			"test/xts/acts/multimedia/audio_ndk/oh_audio_stream_builder_test:ActsAudioStreamBuildeTest"
-			"test/xts/acts/multimedia/av_codec/audio_decoder:ActsAvbufferDecoderTest"
-			"test/xts/acts/multimedia/av_codec/audio_encoder:ActsAvbufferEncoderTest"
-			"test/xts/acts/multimedia/av_codec/avcencInfo:ActsAvcencInfoTest"
-			"test/xts/acts/multimedia/av_codec/capability:ActsCapabilityTest"
-			"test/xts/acts/multimedia/av_codec/demuxer:ActsDemuxerTest"
-			"test/xts/acts/multimedia/av_codec/vcodec/encoder:ActsEncoderTest"
-			"test/xts/acts/multimedia/av_codec/vcodec/hdrcodec:ActsHdrcodecTest"
+			"test/xts/acts/multimedia/audio_ndk/oh_audio_render_test:ActsAudioRenderTest",
+			"test/xts/acts/multimedia/audio_ndk/oh_audio_stream_builder_test:ActsAudioStreamBuildeTest",
+			"test/xts/acts/multimedia/av_codec/audio_decoder:ActsAvbufferDecoderTest",
+			"test/xts/acts/multimedia/av_codec/audio_encoder:ActsAvbufferEncoderTest",
+			"test/xts/acts/multimedia/av_codec/avcencInfo:ActsAvcencInfoTest",
+			"test/xts/acts/multimedia/av_codec/capability:ActsCapabilityTest",
+			"test/xts/acts/multimedia/av_codec/demuxer:ActsDemuxerTest",
+			"test/xts/acts/multimedia/av_codec/vcodec/encoder:ActsEncoderTest",
+			"test/xts/acts/multimedia/av_codec/vcodec/hdrcodec:ActsHdrcodecTest",
 			"test/xts/acts/multimedia/av_codec/vcodec/swdecoder:ActsSwDecodeTest"
 		]
-	}
+	},
 	"foundation/multimedia/player_framework":{
 		"m_case_list":[
 			"test/xts/acts/multimedia/avsource:ActsAVCodecTest"
