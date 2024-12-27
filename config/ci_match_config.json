@@ -42,7 +42,8 @@
         "AACommandImplicitStartTest",
         "StageSupplement",
         "AACommand07",
-        "cpLibuv"
+        "cpLibuv",
+        "ActsNetworkMgrStatisticsNetTest"
     ],
     "xts_path_list": [
         "test/xts/acts",
