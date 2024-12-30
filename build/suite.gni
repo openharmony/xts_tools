@@ -675,14 +675,16 @@ template("ohos_sh_assist_suite") {
   }
 }
 template("merge_xts_notice") {
-   _deps = []
+  _deps = []
   if (defined(invoker.deps)) {
     _deps += invoker.deps
   }
+  target = invoker.target
   action(target_name) {
-    _merged_notice_txt = "$root_out_dir/suites/${target_name}/${target_name}/NOTICE.txt"
-    _merged_notice_gz = "$root_out_dir/suites/${target_name}/${target_name}/NOTICE.xml.gz"
-    depfile = "$root_out_dir/gen/build/ohos/packages/merge_system_notice_file_phone.d"
+    _merged_notice_txt = "$root_out_dir/suites/${target}/NOTICE.txt"
+    _merged_notice_gz = "$root_out_dir/suites/${target}/NOTICE.xml.gz"
+    depfile =
+        "$root_out_dir/gen/build/ohos/packages/merge_system_notice_file_phone.d"
 
     testonly = true
     outputs = [
@@ -694,7 +696,7 @@ template("merge_xts_notice") {
 
     script = "//build/ohos/notice/merge_notice_files.py"
     _notice_root_dir = "NOTICE_FILES"
-    
+
     args = [
       "--image-name",
       "system",
