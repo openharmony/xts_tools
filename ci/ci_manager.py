@@ -253,7 +253,8 @@ class OldPreciseManager(Ci_Manager):
                     if 'path' in child.attrib and child.attrib['path'] == repo_path:
                         if 'gitee_name' in child.attrib:
                             return child.attrib['gitee_name']
-                        return child.attrib['name']
+                        if 'name' in child.attrib:
+                            return child.attrib['name']
         return None
 
 class GetInterfaceData(Ci_Manager):
