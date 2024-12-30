@@ -250,10 +250,11 @@ class OldPreciseManager(Ci_Manager):
             for filename in fnmatch.filter(files, '*.xml'):
                 file_path = os.path.join(root, filename)
                 for child in ET.parse(file_path).getroot().findall('project'):
-                    if child.attrib['path'] == repo_path:
+                    if 'path' in child.attrib and child.attrib['path'] == repo_path:
                         if 'gitee_name' in child.attrib:
                             return child.attrib['gitee_name']
-                        return child.attrib['name']
+                        if 'name' in child.attrib:
+                            return child.attrib['name']
         return None
 
 class GetInterfaceData(Ci_Manager):
