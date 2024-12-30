@@ -3647,6 +3647,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.distributedsched.abilityConnectionManager.d.ts",
+            "bundle_name": [
+                "dmsfwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/tag/nfctech.d.ts",
             "bundle_name": [
                 "nfc"
