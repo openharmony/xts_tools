@@ -674,3 +674,44 @@ template("ohos_sh_assist_suite") {
     }
   }
 }
+template("merge_xts_notice") {
+   _deps = []
+  if (defined(invoker.deps)) {
+    _deps += invoker.deps
+  }
+  action(target_name) {
+    _merged_notice_txt = "$root_out_dir/suites/${target_name}/${target_name}/NOTICE.txt"
+    _merged_notice_gz = "$root_out_dir/suites/${target_name}/${target_name}/NOTICE.xml.gz"
+    depfile = "$root_out_dir/gen/build/ohos/packages/merge_system_notice_file_phone.d"
+
+    testonly = true
+    outputs = [
+      _merged_notice_txt,
+      _merged_notice_gz,
+    ]
+
+    deps = _deps
+
+    script = "//build/ohos/notice/merge_notice_files.py"
+    _notice_root_dir = "NOTICE_FILES"
+    
+    args = [
+      "--image-name",
+      "system",
+      "--notice-root-dir",
+      rebase_path(_notice_root_dir, root_build_dir),
+      "--output-notice-txt",
+      rebase_path(_merged_notice_txt, root_out_dir),
+      "--output-notice-gz",
+      rebase_path(_merged_notice_gz, root_out_dir),
+      "--notice-title",
+      "Notices for files contained in the system filesystem image in this directory:",
+      "--static-library-notice-dir",
+      rebase_path(static_libraries_notice_dir, root_build_dir),
+      "--target-cpu",
+      target_cpu,
+      "--depfile",
+      rebase_path(depfile, root_build_dir),
+    ]
+  }
+}
