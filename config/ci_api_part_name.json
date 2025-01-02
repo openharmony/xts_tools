@@ -154,6 +154,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.data.graphStore.d.ts",
+            "bundle_name": [
+                "relational_store"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.ShareExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
