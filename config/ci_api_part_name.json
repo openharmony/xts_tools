@@ -4606,6 +4606,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.ArcAlphabetIndexer.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/nav_router.d.ts",
             "bundle_name": [
                 "ace_engine"
