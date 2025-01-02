@@ -1876,6 +1876,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SubHeaderV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.usb.d.ts",
             "bundle_name": [
                 "usb_manager"
@@ -2737,6 +2744,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ToolBarV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@system.file.d.ts",
             "bundle_name": [
                 "file_api"
@@ -3011,6 +3025,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.ProgressButton.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ProgressButtonV2.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
