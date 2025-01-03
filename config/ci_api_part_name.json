@@ -5187,6 +5187,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.ArcSwiper.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/ImageModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
