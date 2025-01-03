@@ -123,6 +123,14 @@
         "add_target": [
           "FULL_IMPACT"
         ]
+      },
+      {
+        "path": "prebuilts/config/ohos_sdk",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts:xts_acts"
+        ]
       }
     ]
   }
