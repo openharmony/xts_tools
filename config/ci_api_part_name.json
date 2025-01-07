@@ -2905,6 +2905,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.data.collaborationEditObject.d.ts",
+            "bundle_name": [
+                "data_object"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.recent.d.ts",
             "bundle_name": [
                 "user_file_service"
