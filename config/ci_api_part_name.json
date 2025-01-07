@@ -3857,6 +3857,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@internal/component/ets/indicatorcomponent.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/media_cached_image.d.ts",
             "bundle_name": [
                 "ace_engine"
