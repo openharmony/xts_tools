@@ -154,6 +154,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.data.graphStore.d.ts",
+            "bundle_name": [
+                "relational_store"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.ShareExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -2233,6 +2240,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ArcSlider.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.nfc.controller.d.ts",
             "bundle_name": [
                 "nfc"
@@ -3073,6 +3087,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SegmentButtonV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ArcButton.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.mouseEvent.d.ts",
             "bundle_name": [
                 "input"
@@ -3683,6 +3711,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.distributedsched.abilityConnectionManager.d.ts",
+            "bundle_name": [
+                "dmsfwk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.app.ability.continueManager.d.ts",
             "bundle_name": [
                 "dmsfwk"
             ],
@@ -5181,6 +5216,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/ListItemGroupModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.ArcSwiper.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
