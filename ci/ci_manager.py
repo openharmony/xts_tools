@@ -184,7 +184,7 @@ class WhitelistManager(Ci_Manager):
             return 0
         bundles = white_list[change_file_entity.path]["add_bundle"]
         targets = white_list[change_file_entity.path]["add_target"]
-        if targets[0] == self.full_impact_flag:
+        if targets and targets[0] == self.full_impact_flag:
             targets = MatchConfig.get_acts_All_template_ex_list()
         change_file_entity.set_already_match_utils(True)
         if bundles:
