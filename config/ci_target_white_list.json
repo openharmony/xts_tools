@@ -131,6 +131,18 @@
         "add_target": [
           "test/xts/acts:xts_acts"
         ]
+      },
+      {
+        "path": "arkcompiler/ets_runtime",
+        "bundle_name": "ets_runtime",
+        "add_bundle": [
+          "ets_utils",
+          "memory_utils",
+          "musl",
+          "ets_fronted",
+          "node"
+        ],
+        "add_target": []
       }
     ]
   }
