@@ -6623,11 +6623,7 @@
             "build_targets": [
                 "test/xts/acts/distributeddatamgr/relationalStoretest/relationalStoreSendabletest:relationalstoreSendable_ets_test",
                 "test/xts/acts/commonlibrary/ets_utils/concurrency_base:concurrency_base_js_hap",
-                "test/xts/acts/distributeddatamgr/preferencesSendabletest:preferencesSendable_ets_test",
-                "test/xts/acts/arkui/ace_napi_test:ActsAceNapiEtsTest",
-                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEts",
-                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEtsTestES",
-                "test/xts/acts/arkui/ace_napi_test:ActsAceNapiEtsTestMain"
+                "test/xts/acts/distributeddatamgr/preferencesSendabletest:preferencesSendable_ets_test"
             ]
         },
         {
@@ -6636,9 +6632,7 @@
             "build_targets": [
                 "test/xts/acts/distributeddatamgr/relationalStoretest/relationalStoreSendabletest:relationalstoreSendable_ets_test",
                 "test/xts/acts/distributeddatamgr/preferencesSendabletest:preferencesSendable_ets_test",
-                "test/xts/acts/commonlibrary/ets_utils/sendable_lib_collections:collections_js_test",
-                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEts",
-                "test/xts/acts/arkui/ace_napi_test_es:ActsAceNapiEtsTestES"
+                "test/xts/acts/commonlibrary/ets_utils/sendable_lib_collections:collections_js_test"
             ]
         },
         {
