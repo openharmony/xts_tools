@@ -2128,6 +2128,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.resourceschedule.backgroundProcessManager.d.ts",
+            "bundle_name": [
+                "resource_schedule_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.font.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7035,6 +7042,13 @@
             "path": "interface/sdk_c/resourceschedule/qos_manager",
             "bundle_name": [
                 "qos_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/resourceschedule/background_process_manager",
+            "bundle_name": [
+                "resource_schedule_service"
             ],
             "build_targets": []
         },
