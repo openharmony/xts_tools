@@ -6574,9 +6574,7 @@
         },
         {
             "path": "interface/sdk-js/kits/@kit.DataLossPreventionKit.d.ts",
-            "bundle_name": [
-
-            ],
+            "bundle_name": [],
             "build_targets": []
         },
         {
