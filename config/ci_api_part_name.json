@@ -6269,8 +6269,7 @@
                 "ability_base",
                 "ets_utils",
                 "ets_runtime",
-                "runtime_core",
-                "ace_engine_lite" 
+                "runtime_core"
             ],
             "build_targets": []
         },
@@ -6463,7 +6462,6 @@
                 "settings",
                 "settings_data",
                 "time_service",
-                "bootstrap_lite",
                 "thermal_manager",
                 "update_service",
                 "usb_manager",
