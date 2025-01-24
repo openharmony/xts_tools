@@ -6365,7 +6365,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/kits/@kit.CoreFileKit.d.ts", 
+            "path": "interface/sdk-js/kits/@kit.CoreFileKit.d.ts",
             "bundle_name": [
                 "app_file_service",
                 "dfs_service",
