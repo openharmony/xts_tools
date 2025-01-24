@@ -123,7 +123,7 @@
             "bundle_name": [
                 "netstack"
             ],
-            "build_targets": []                                     
+            "build_targets": []
         },
         {
             "path": "interface/sdk-js/api/@ohos.bundle.bundleMonitor.d.ts",
