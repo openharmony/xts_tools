@@ -6365,23 +6365,18 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/kits/@kit.CoreFileKit.d.ts",
-            "bundle_name": [
-                "app_file_service",
-                "dfs_service",
-                "file_api",
-                "user_file_service",
-                "storage_service",
-                "media_library",
-                "sandbox_manager"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/kits/@kit.AdsKit.d.ts",
             "bundle_name": [
                 "advertising",
                 "oaid"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.CoreFileKit.d.ts",
+            "bundle_name": [
+                "app_file_service",
+                "dfs_service"
             ],
             "build_targets": []
         },
