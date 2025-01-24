@@ -6298,17 +6298,17 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/kits/@kit.ArkWeb.d.ts",
+            "path": "interface/sdk-js/kits/@kit.MDMKit.d.ts",
             "bundle_name": [
-                "webview",
-                "chromium"
+                "enterprise_device_management"
             ],
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/kits/@kit.MDMKit.d.ts",
+            "path": "interface/sdk-js/kits/@kit.ArkWeb.d.ts",
             "bundle_name": [
-                "enterprise_device_management"
+                "webview",
+                "chromium"
             ],
             "build_targets": []
         },
