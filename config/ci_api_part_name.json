@@ -186,7 +186,7 @@
             "bundle_name": [
                 "imf"
             ],
-            "build_targets": []                                                                                                                                                                                                        
+            "build_targets": []
         },
         {
             "path": "interface/sdk-js/api/@ohos.measure.d.ts",
@@ -7534,7 +7534,7 @@
         },
         {
             "path": "drivers/interface/battery",
-            "bundle_name": [    
+            "bundle_name": [
                 "drivers_interface_battery"
             ],
             "build_targets": []
@@ -7559,6 +7559,6 @@
                 "drivers_interface_input"
             ],
             "build_targets": []
-        }  
+        }
     ]
 }   
