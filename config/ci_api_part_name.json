@@ -6364,8 +6364,8 @@
             ],
             "build_targets": []
         },
-        {
-            "path": "interface/sdk-js/kits/@kit.CoreFileKit.d.ts",
+        {   
+            "path": "interface/sdk-js/kits/@kit.CoreFileKit.d.ts", 
             "bundle_name": [
                 "app_file_service",
                 "dfs_service",
@@ -6373,7 +6373,7 @@
                 "user_file_service",
                 "storage_service",
                 "media_library",
-                "sandbox_manager"
+                "sandbox_manager"               
             ],
             "build_targets": []
         },
