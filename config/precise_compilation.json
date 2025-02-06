@@ -1472,10 +1472,6 @@
         "buildTarget": "appexecfwk"
     },
     {
-        "name": "update_updater",
-        "buildTarget": "actsresponseglobalparamupdatetest"
-    },
-    {
         "name": "security_security_guard",
         "buildTarget": "security"
     },
