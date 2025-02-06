@@ -1701,6 +1701,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.multimedia.videoProcessingEngine.d.ts",
+            "bundle_name": [
+                "media_foundation"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.effectKit.d.ts",
             "bundle_name": [
                 "image_framework"
