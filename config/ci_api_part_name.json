@@ -7608,6 +7608,13 @@
                 "drivers_interface_input"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.bluetooth.pbap.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": []
         }
     ]
 }   
