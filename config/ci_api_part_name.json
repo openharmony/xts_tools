@@ -7610,7 +7610,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.bluetooth.pbap.d.ts",
+            "path": "interface/sdk-js/api/@ohos.bluetooth.opp.d.ts",
             "bundle_name": [
                 "bluetooth"
             ],
