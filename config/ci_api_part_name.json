@@ -2324,7 +2324,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.bluetooth.pbap.d.ts",
+            "path": "interface/sdk-js/api/@ohos.bluetooth.opp.d.ts",
             "bundle_name": [
                 "bluetooth"
             ],
@@ -7606,6 +7606,13 @@
             "path": "drivers/interface/input",
             "bundle_name": [
                 "drivers_interface_input"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.bluetooth.pbap.d.ts",
+            "bundle_name": [
+                "bluetooth"
             ],
             "build_targets": []
         }
