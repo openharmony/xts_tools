@@ -1,6 +1,34 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/remove_list.json",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/process_internal.py",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/BUILD.gn",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/ohos_copy_ets.py",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/interface_config.gni",
             "bundle_name": [],
             "build_targets": []
