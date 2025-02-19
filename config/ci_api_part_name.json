@@ -2065,6 +2065,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.usbManager.serial.d.ts",
+            "bundle_name": [
+                "usb_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.telephony.radio.d.ts",
             "bundle_name": [
                 "core_service"
