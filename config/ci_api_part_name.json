@@ -3374,7 +3374,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.multimodalAwareness.metadataB.d.ts",
+            "path": "interface/sdk-js/api/@ohos.multimodalAwareness.metadataBingding.d.ts",
             "bundle_name": [
                 "device_status"
             ],
