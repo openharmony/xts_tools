@@ -3822,6 +3822,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.application.DistributedExtensionAbility.d.ts",
+            "bundle_name": [
+                "dmsfwk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.application.DistributedExtensionContext.d.ts",
+            "bundle_name": [
+                "dmsfwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/tag/nfctech.d.ts",
             "bundle_name": [
                 "nfc"
