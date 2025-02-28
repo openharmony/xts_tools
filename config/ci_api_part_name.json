@@ -1225,6 +1225,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.atomicservice.AtomicServiceSearch.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.pointer.d.ts",
             "bundle_name": [
                 "input"
