@@ -672,6 +672,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.multimedia.avInputCastPicker.d.ets",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.security.certManager.d.ts",
             "bundle_name": [
                 "certificate_manager"
