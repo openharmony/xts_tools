@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "SpecifedProcessAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "SpecifedProcessAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "Deeplinkcaller_ability_desc",
+      "value": "description"
+    },
+    {
+      "name": "Deeplinkcaller_ability_label",
+      "value": "label"
+    },
+    {
+      "name": "embeddableuiability_desc",
+      "value": "description"
+    },
+    {
+      "name": "embeddableuiability_label",
+      "value": "label"
+    }
+  ]
+}
