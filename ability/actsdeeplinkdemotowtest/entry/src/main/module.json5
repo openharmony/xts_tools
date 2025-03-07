@@ -1,0 +1,300 @@
+/*
+ * Copyright (C) 2024 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "deeplinkdemo_0100",
+        "srcEntry": "./ets/depplinkdemo_0100/depplinkDemo.ets",
+        "description": "$string:depplinkDemo_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:depplinkDemo_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "actions": [
+              "-~!@#$ %^&*"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "depplinkdemo_0200",
+        "srcEntry": "./ets/depplinkdemo_0200/depplinkdemo_0200.ets",
+        "description": "$string:depplinkdemo_0200_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:depplinkdemo_0200_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": ["-~!@#$ %^&*"],
+            "uris": [
+              {
+                "scheme": "",
+                "linkFeature": "link_0200"
+              }
+
+            ]
+          }
+        ]
+      },
+      {
+        "name": "depplinkdemo_0300",
+        "srcEntry": "./ets/depplinkdemo_0300/depplinkdemo_0300.ets",
+        "description": "$string:depplinkdemo_0300_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:depplinkdemo_0300_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "abc"
+            ],
+            "actions": [
+              "abc"
+            ],
+            "uris": [
+              {
+                "scheme": "-~!@#$ %^&*",
+                "host": "example.com",
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "depplinkdemo_0400",
+        "srcEntry": "./ets/depplinkdemo_0400/depplinkdemo_0400.ets",
+        "description": "$string:depplinkdemo_0400_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:depplinkdemo_0400_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "abc"
+            ],
+            "actions": [
+              "abc"
+            ],
+            "uris": [
+              {
+                "scheme": "ohosclock",
+                "host": "example.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "depplinkdemo_0500",
+        "srcEntry": "./ets/depplinkdemo_0500/depplinkdemo_0500.ets",
+        "description": "$string:depplinkdemo_0500_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:depplinkdemo_0500_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "uris": [
+              {
+                "scheme": "https",
+                "host": "-~!@#$ %^&*",
+                "port":"8080",
+                "linkFeature": "link_0500"
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "depplinkdemo_0600",
+        "srcEntry": "./ets/depplinkdemo_0600/depplinkdemo_0600.ets",
+        "description": "$string:depplinkdemo_0600_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:depplinkdemo_0600_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "uris": [
+              {
+                "scheme": "https",
+                "host": "deeplinkdemo",
+                "port":"-~!@#$ %^&*",
+                "path": "query/teacher",
+                "linkFeature": "link_0600"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "depplinkdemo_0700",
+        "srcEntry": "./ets/depplinkdemo_0700/depplinkdemo_0700.ets",
+        "description": "$string:depplinkdemo_0700_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:depplinkdemo_0700_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "abc"
+            ],
+            "actions": [
+              "abc"
+            ],
+            "uris": [
+              {
+                "scheme": "https",
+                "host": "deeplinkdemo",
+                "port":"8080",
+                "pathStartWith": "-~!@#$ %^&*",
+                "linkFeature": "link_0700"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "depplinkdemo_0800",
+        "srcEntry": "./ets/depplinkdemo_0800/depplinkdemo_0800.ets",
+        "description": "$string:depplinkdemo_0800_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:depplinkdemo_0800_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "uris": [
+              {
+                "scheme": "https",
+                "host": "deeplinkdemo",
+                "port":"8080",
+                "path": "-~!@#$ %^&*",
+                "linkFeature": "link_0800"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "depplinkdemo_0900",
+        "srcEntry": "./ets/depplinkdemo_0900/depplinkdemo_0900.ets",
+        "description": "$string:depplinkdemo_0900_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:depplinkdemo_0900_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "uris": [
+              {
+                "scheme": "https",
+                "host": "deeplinkdemo",
+                "port":"8080",
+                "pathRegex": "query/.*",
+                "linkFeature": "link_0900"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "depplinkdemo_1000",
+        "srcEntry": "./ets/depplinkdemo_1000/depplinkdemo_1000.ets",
+        "description": "$string:depplinkdemo_1000_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:depplinkdemo_1000_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "uris": [
+              {
+                "scheme": "",
+                "type": "-~!@#$ %^&*",
+                "linkFeature": "link"
+              }
+
+            ]
+          }
+        ]
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "EntryBackupAbility",
+        "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
+        "type": "backup",
+        "exported": true,
+        "metadata": [
+          {
+            "name": "ohos.extension.backup",
+            "resource": "$profile:backup_config"
+          }
+        ],
+      }
+    ]
+  }
+}
