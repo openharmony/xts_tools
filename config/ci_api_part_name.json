@@ -4816,6 +4816,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@internal/component/ets/lazy_grid_layout.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/data/rdb/resultSet.d.ts",
             "bundle_name": [
                 "relational_store"
