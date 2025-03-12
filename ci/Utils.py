@@ -254,8 +254,6 @@ class XTSTargetUtils:
     @staticmethod
     def getTargetfromPath(xts_root_dir, path) -> list:
         if path == xts_root_dir:
-            if path.endswith("acts"):
-                return MatchConfig.get_acts_All_template_ex_list()
             root_target = PathUtils.get_root_target(xts_root_dir)
             return [root_target]
         build_file = XTSTargetUtils.get_current_Build(xts_root_dir, path)
@@ -384,6 +382,8 @@ class PathUtils:
 
     @staticmethod
     def get_root_target(xts_root_dir):
+        if xts_root_dir.endswith("acts"):
+            return MatchConfig.get_acts_All_template_ex_list()
         xts_suite = os.path.basename(xts_root_dir)
         # relative_path = os.path.relpath(xts_root_dir, HOME)
         target = f"xts_{xts_suite}"
