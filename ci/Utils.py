@@ -384,7 +384,7 @@ class PathUtils:
     def get_all_build_target(xts_root_dir):
         if xts_root_dir.endswith("acts"):
             return MatchConfig.get_acts_All_template_ex_list()
-        PathUtils.get_root_target(xts_root_dir)
+        return [PathUtils.get_root_target(xts_root_dir)]
 
     @staticmethod
     def get_root_target(xts_root_dir):
