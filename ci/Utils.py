@@ -254,7 +254,7 @@ class XTSTargetUtils:
     @staticmethod
     def getTargetfromPath(xts_root_dir, path) -> list:
         if path == xts_root_dir:
-            root_target = PathUtils.get_root_target(xts_root_dir)
+            root_target = PathUtils.get_all_build_target(xts_root_dir)
             return root_target
         build_file = XTSTargetUtils.get_current_Build(xts_root_dir, path)
         targets = XTSTargetUtils.getTargetFromBuild(build_file)
