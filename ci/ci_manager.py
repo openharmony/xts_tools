@@ -113,7 +113,7 @@ class XTSManager(Ci_Manager):
                     print(f"{changeFileEntity.name}仓修改解析失败")
                     return 1
         if self._need_all:
-            self._build_targets += MatchConfig.get_acts_All_template_ex_list()
+            self._build_targets += PathUtils.get_all_build_target(self._xts_root_dir)
         return 0
 
     # 获取path接口
@@ -185,7 +185,7 @@ class WhitelistManager(Ci_Manager):
         bundles = white_list[change_file_entity.path]["add_bundle"]
         targets = white_list[change_file_entity.path]["add_target"]
         if targets and targets[0] == self.full_impact_flag:
-            targets = MatchConfig.get_acts_All_template_ex_list()
+            targets = PathUtils.get_all_build_target(self._xts_root_dir)
         change_file_entity.set_already_match_utils(True)
         if bundles:
             paths = XTSTargetUtils.getPathsByBundle(bundles, self._xts_root_dir)
@@ -220,9 +220,12 @@ class OldPreciseManager(Ci_Manager):
         for changeFileEntity in change_list:
             if changeFileEntity.path not in MatchConfig.get_xts_path_list() and \
                     not changeFileEntity.get_already_match_utils():
-                ret = self.getTargets(changeFileEntity)
-                if ret == 1:
-                    pass
+                if self._xts_root_dir.endswith("acts"):
+                    ret = self.getTargets(changeFileEntity)
+                    if ret == 1:
+                        pass
+                else:
+                    self._build_targets += PathUtils.get_all_build_target(self._xts_root_dir)
         return 0
 
     # 获取path接口

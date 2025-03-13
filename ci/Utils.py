@@ -254,10 +254,8 @@ class XTSTargetUtils:
     @staticmethod
     def getTargetfromPath(xts_root_dir, path) -> list:
         if path == xts_root_dir:
-            if path.endswith("acts"):
-                return MatchConfig.get_acts_All_template_ex_list()
-            root_target = PathUtils.get_root_target(xts_root_dir)
-            return [root_target]
+            root_target = PathUtils.get_all_build_target(xts_root_dir)
+            return root_target
         build_file = XTSTargetUtils.get_current_Build(xts_root_dir, path)
         targets = XTSTargetUtils.getTargetFromBuild(build_file)
         if targets == None:
@@ -381,6 +379,12 @@ class PathUtils:
         # 获取公共路径
         common_path = os.path.commonpath([parent_path, child_path])
         return common_path == parent_path
+
+    @staticmethod
+    def get_all_build_target(xts_root_dir):
+        if xts_root_dir.endswith("acts"):
+            return MatchConfig.get_acts_All_template_ex_list()
+        return [PathUtils.get_root_target(xts_root_dir)]
 
     @staticmethod
     def get_root_target(xts_root_dir):

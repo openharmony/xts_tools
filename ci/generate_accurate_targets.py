@@ -30,16 +30,35 @@ class AccurateTarget:
         self._change_info_file = change_info_file
         self._testsuite = None
         self.util_class_list = []
-        # 测试套件仓修改,只查看当前编译套件仓
-        self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
-        # 部件仓修改
-        self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
-        # 白名单计算
-        self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir)
-        # 原精准方案兜底计算
-        self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
-        # interface 仓
-        self.get_interface_data = GetInterfaceData(self._xts_root_dir, self._code_root_dir)
+
+        if self._xts_root_dir.endswith('acts'):
+            # 测试套件仓修改,只查看当前编译套件仓
+            self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
+            # 部件仓修改
+            self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
+            # 白名单计算
+            self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir)
+            # 原精准方案兜底计算
+            self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
+            # interface 仓
+            self.get_interface_data = GetInterfaceData(self._xts_root_dir, self._code_root_dir)
+
+            self.util_list = [
+                self.xts_manager,
+                self.get_interface_data,
+                self.com_manager,
+                self.wlist_manager,
+                self.old_manager
+            ]
+        else:
+            # 测试套件仓修改,只查看当前编译套件仓
+            self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
+            # 原精准方案兜底计算
+            self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
+            self.util_list = [
+                self.xts_manager,
+                self.old_manager
+            ]
 
     # def _get_full_target(self, xts_suitename):
 
@@ -80,19 +99,11 @@ class AccurateTarget:
             relative_path = os.path.relpath(self._xts_root_dir, HOME)
             targets = [f"{relative_path}:xts_{xts_suite}"]
         else:
-            util_list = [
-                self.xts_manager,
-                self.get_interface_data,
-                self.com_manager,
-                self.wlist_manager,
-                self.old_manager
-            ]
-
             # 处理结果
             target_paths = set()
             targets = set()
             # 执行全部并获取结果
-            for manager in util_list:
+            for manager in self.util_list:
                 retcode = manager.get_targets_from_change(self._change_list)
                 if retcode == 1:
                     print(f"{manager.__class__.__name__} 执行失败")
