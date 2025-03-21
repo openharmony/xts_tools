@@ -3745,6 +3745,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/bundleManager/PluginBundleInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/bundleManager/ShortcutInfo.d.ts",
             "bundle_name": [
                 "bundle_framework"
