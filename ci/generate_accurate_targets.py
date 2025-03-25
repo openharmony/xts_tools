@@ -18,7 +18,7 @@
 import os
 import sys
 import json
-from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, HOME
+from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
 from ci_manager import ComponentManager, XTSManager, WhitelistManager, OldPreciseManager, GetInterfaceData
 
 
@@ -115,7 +115,15 @@ class AccurateTarget:
             for path in sum_path:
                 targets.update(set(XTSTargetUtils.getTargetfromPath(self._xts_root_dir, path)))
 
-        return 0, list(targets)
+            ci_target = set()
+            uncompile_suite_list = MatchConfig.get_uncompile_suite_list(self._xts_root_dir)
+            print(f'配置未参与编译用例: {uncompile_suite_list}')
+            for path_target in targets:
+                if path_target not in uncompile_suite_list:
+                    ci_target.add(path_target)
+            print(f'精准编译目标: {ci_target}')
+
+        return 0, list(ci_target)
 
 
 def generate(xts_root_dir, change_info_file, build_target):
