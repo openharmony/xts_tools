@@ -82,7 +82,8 @@ class ChangeFileEntity:
 
 
 class MatchConfig:
-    MACTH_CONFIG_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_match_config.json")
+    config_path = os.path.join(HOME, "test/xts/tools/config")
+    MACTH_CONFIG_PATH = os.path.join(config_path, "ci_match_config.json")
     exception_path = {}
     all_com_path = {}
     skip_judge_build_path = {}
@@ -90,20 +91,19 @@ class MatchConfig:
     acts_All_template_ex_list = []
     xts_path_list = []
 
-    INTERFACE_BUNDLE_NAME_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_api_part_name.json")
+    INTERFACE_BUNDLE_NAME_PATH = os.path.join(config_path, "ci_api_part_name.json")
     interface_js_data = {}
     interface_c_data = {}
     driver_interface = {}
 
-    WHITE_LIST_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_target_white_list.json")
+    WHITE_LIST_PATH = os.path.join(config_path, "ci_target_white_list.json")
     white_list_repo = {}
     
     # 逃生通道
-    ESCAPE_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_escape.json")
+    ESCAPE_PATH = os.path.join(config_path, "ci_escape.json")
     escape_list = []
 
     # 不参与编译测试套配置
-    UNCOMPILE_SUITE_PATH = os.path.join(HOME, "test", "xts", "tools", "config", "ci_uncompile_suite.json")
     uncompile_suite = {}
 
     @classmethod
@@ -236,29 +236,19 @@ class MatchConfig:
         return cls.escape_list
 
     @classmethod
-    def initialization_uncompile_suite(cls):
-        if cls.uncompile_suite == {}:
-            print("不参与编译测试套配置 开始初始化")
-            if not os.path.exists(cls.UNCOMPILE_SUITE_PATH):
-                print(f"{cls.UNCOMPILE_SUITE_PATH} 不存在,读取不参与编译测试套异常")
-            with open(cls.UNCOMPILE_SUITE_PATH, 'r') as file:
-                cls.uncompile_suite = json.load(file)
-        print("未参与编译测试套已完成初始化")
-
-    @classmethod
     def get_uncompile_suite_list(cls, xts_root_dir):
-        if cls.uncompile_suite == {}:
-            cls.initialization_uncompile_suite()
-        if PathUtils.get_root_target(xts_root_dir) in cls.uncompile_suite:
-            return cls.uncompile_suite[PathUtils.get_root_target(xts_root_dir)]
+        xts_suite = PathUtils.get_root_target(xts_root_dir)
+        if xts_suite in cls.uncompile_suite:
+            return cls.uncompile_suite[xts_suite]
         else:
-            xts_suite = os.path.basename(xts_root_dir)
-            UNCOMPILE_PATH = os.path.join(HOME, "test", "xts", xts_suite, "ci_uncompile_suite.json")
+            xts_name = os.path.basename(xts_root_dir)
+            UNCOMPILE_PATH = os.path.join(HOME, "test", "xts", xts_name, "ci_uncompile_suite.json")
             if not os.path.exists(UNCOMPILE_PATH):
                 print(f"{UNCOMPILE_PATH} 不存在,读取不参与编译测试套异常")
                 return []
             with open(UNCOMPILE_PATH, 'r') as file:
-                return json.load(file)
+                cls.uncompile_suite[xts_suite] = json.load(file)
+                return cls.uncompile_suite[xts_suite]
 
 class XTSTargetUtils:
 
