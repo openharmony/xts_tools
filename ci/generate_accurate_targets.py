@@ -1,0 +1,137 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
+# Copyright (c) 2024 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+import os
+import sys
+import json
+from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
+from ci_manager import ComponentManager, XTSManager, WhitelistManager, OldPreciseManager, GetInterfaceData
+
+
+class AccurateTarget:
+
+    def __init__(self, xts_root_dir, change_info_file):
+        self._xts_root_dir = xts_root_dir
+        self._code_root_dir = os.path.realpath(os.path.join(xts_root_dir, "../../.."))
+        self._change_info_file = change_info_file
+        self._testsuite = None
+        self.util_class_list = []
+
+        if self._xts_root_dir.endswith('acts'):
+            # 测试套件仓修改,只查看当前编译套件仓
+            self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
+            # 部件仓修改
+            self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
+            # 白名单计算
+            self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir)
+            # 原精准方案兜底计算
+            self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
+            # interface 仓
+            self.get_interface_data = GetInterfaceData(self._xts_root_dir, self._code_root_dir)
+
+            self.util_list = [
+                self.xts_manager,
+                self.get_interface_data,
+                self.com_manager,
+                self.wlist_manager,
+                self.old_manager
+            ]
+        else:
+            # 测试套件仓修改,只查看当前编译套件仓
+            self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
+            # 原精准方案兜底计算
+            self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
+            self.util_list = [
+                self.xts_manager,
+                self.old_manager
+            ]
+
+    # def _get_full_target(self, xts_suitename):
+
+    def _get_change_info(self):
+        try:
+            with open(self._change_info_file, 'r') as file:
+                # 读取文件内容并解析为Python字典
+                data = json.load(file)
+        except Exception as e:
+            print(f"读取change_info_file文件失败,全量编译\nchange_info_file路径: {self._change_info_file}")
+            return 1
+
+        # 存储新增/修改/删除的文件
+        change_list = []
+        for item in data:
+            changeFileEntity = ChangeFileEntity(name=data[item]["name"], path=item)
+            if "added" in data[item]["changed_file_list"]:
+                changeFileEntity.addAddPaths(data[item]["changed_file_list"]["added"])
+            if "modified" in data[item]["changed_file_list"]:
+                changeFileEntity.addModifiedPaths(data[item]["changed_file_list"]["modified"])
+            if "rename" in data[item]["changed_file_list"]:
+                changeFileEntity.addRenamePathsto(data[item]["changed_file_list"]["rename"])
+            if "deleted" in data[item]["changed_file_list"]:
+                changeFileEntity.addDeletePaths(data[item]["changed_file_list"]["deleted"])
+            if changeFileEntity.isEmpty():
+                print(f"读取change_info_file文件失败,未找到修改文件")
+                return 1
+            change_list.append(changeFileEntity)
+        self._change_list = change_list
+        return 0
+
+    def get_targets(self):
+        ret = self._get_change_info()
+        if ret == 1:
+            # changeinfo读取失败-全量编译
+            print("未获取到修改文件列表,编译全量代码")
+            xts_suite = os.path.basename(self._xts_root_dir)
+            relative_path = os.path.relpath(self._xts_root_dir, HOME)
+            targets = [f"{relative_path}:xts_{xts_suite}"]
+        else:
+            # 处理结果
+            target_paths = set()
+            targets = set()
+            # 执行全部并获取结果
+            for manager in self.util_list:
+                retcode = manager.get_targets_from_change(self._change_list)
+                if retcode == 1:
+                    print(f"{manager.__class__.__name__} 执行失败")
+                manager.write_result(target_paths, targets)
+
+            # 处理target_paths, 去除子目录\重复目录
+            sum_path = PathUtils.removeSubandDumpPath(list(target_paths))
+
+            for path in sum_path:
+                targets.update(set(XTSTargetUtils.getTargetfromPath(self._xts_root_dir, path)))
+
+            ci_target = set()
+            uncompile_suite_list = MatchConfig.get_uncompile_suite_list(self._xts_root_dir)
+            print(f'配置未参与编译用例: {uncompile_suite_list}')
+            for path_target in targets:
+                if path_target not in uncompile_suite_list:
+                    ci_target.add(path_target)
+            print(f'精准编译目标: {ci_target}')
+
+        return 0, list(ci_target)
+
+
+def generate(xts_root_dir, change_info_file, build_target):
+    print("{}:{}: build_target={}".format(__file__, sys._getframe().f_lineno, build_target))
+    if not os.path.exists(change_info_file):
+        print("warning: {} not exist".format(change_info_file))
+        return 0, build_target
+
+    obj = AccurateTarget(xts_root_dir, change_info_file)
+    ret, accurate_targets = obj.get_targets()
+    return ret, accurate_targets

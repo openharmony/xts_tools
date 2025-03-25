@@ -1,0 +1,148 @@
+{
+    "repo_list": [
+      {
+        "path": "base/global/resource_management",
+        "bundle_name": "resource_management",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/global/perf/perfjs:perfjs_test"
+        ]
+      },
+      {
+        "path": "base/global/i18n",
+        "bundle_name": "i18n",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/global/global_stage:global_stage_hap"
+        ]
+      },
+      {
+        "path": "third_party/vk-gl-cts",
+        "bundle_name": "vk-gl-cts",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/graphic/vkgl:cpvkgl",
+          "test/xts/acts/graphic/vktest:cpVulkan"
+        ]
+      },
+      {
+        "path": "third_party/glslang",
+        "bundle_name": "glslang",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/graphic/vkgl:cpvkgl",
+          "test/xts/acts/graphic/vktest:cpVulkan"
+        ]
+      },
+      {
+        "path": "third_party/spirv-headers",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/graphic/vkgl:cpvkgl",
+          "test/xts/acts/graphic/vktest:cpVulkan"
+        ]
+      },
+      {
+        "path": "third_party/spirv-tools",
+        "bundle_name": "spirv-tools",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/graphic/vkgl:cpvkgl",
+          "test/xts/acts/graphic/vktest:cpVulkan"
+        ]
+      },
+      {
+        "path": "build",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "developtools/ace_ets2bundle",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "developtools/ace_js2bundle",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "developtools/hapsigner",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "developtools/packing_tool",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "third_party/parse5",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "third_party/typescript",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "third_party/weex-loader",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "ide/tools/previewer",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT"
+        ]
+      },
+      {
+        "path": "prebuilts/config/ohos_sdk",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts:xts_acts"
+        ]
+      },
+      {
+        "path": "arkcompiler/ets_runtime",
+        "bundle_name": "ets_runtime",
+        "add_bundle": [
+          "ets_utils",
+          "memory_utils",
+          "musl",
+          "ets_fronted",
+          "node"
+        ],
+        "add_target": []
+      }
+    ]
+  }
