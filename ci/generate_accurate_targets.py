@@ -50,13 +50,26 @@ class AccurateTarget:
                 self.wlist_manager,
                 self.old_manager
             ]
-        else:
+        elif self._xts_root_dir.endswith('hats'):
             # 测试套件仓修改,只查看当前编译套件仓
             self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
             # 原精准方案兜底计算
             self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
             self.util_list = [
                 self.xts_manager,
+                self.old_manager
+            ]
+        else:  # dcts/hits
+            # 测试套件仓修改,只查看当前编译套件仓
+            self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
+            # 部件仓修改
+            self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
+            # 原精准方案兜底计算
+            self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
+
+            self.util_list = [
+                self.xts_manager,
+                self.com_manager,
                 self.old_manager
             ]
 
