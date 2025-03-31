@@ -30,6 +30,7 @@ declare_args() {
   # create testsuite archive is time-consuming, do it only if necessary
   make_archive = false
   XTS_SUITENAME = getenv("XTS_SUITENAME")
+  XTS_SUITETYPE = getenv("XTS_SUITETYPE")
 }
 
 template("ohos_testsuite_base") {
@@ -51,6 +52,14 @@ template("ohos_testsuite_base") {
     print("precise_xts is on ,${_part_name} is not on build")
     precise_build_boolean = false
   }
+
+  if (defined(invoker.suite_type) && XTS_SUITETYPE != ""){
+    _suite_type = invoker.suite_type
+    if (XTS_SUITETYPE != _suite_type){
+      precise_build_boolean = false
+    }
+  }
+
   if (precise_build_boolean) {
     _subsystem_name = "common"
     if (defined(invoker.subsystem_name)) {
@@ -333,6 +342,7 @@ template("ohos_moduletest_suite") {
       module_out_path = "xts/modules"
     }
     project_type = "gtest"
+    suite_type = "bin"
   }
 }
 
@@ -363,7 +373,7 @@ template("ohos_hap_suite") {
     } else {
       deps = [ "//test/xts/tools/hjunit:testkit_harmonyjunitrunner_java" ]
     }
-
+    suite_type = "hap"
     project_type = "testhap"
   }
 }
@@ -372,7 +382,7 @@ template("ohos_js_hap_suite") {
   target("ohos_testsuite_base", "${target_name}") {
     forward_variables_from(invoker, "*")
     project_type = "testhap"
-
+    suite_type = "bin"
     #js_build_mode = "debug"
   }
 }
@@ -380,6 +390,7 @@ template("ohos_js_hap_suite") {
 template("ohos_js_app_suite") {
   target("ohos_testsuite_base", "${target_name}") {
     forward_variables_from(invoker, "*")
+    suite_type = "hap"
     project_type = "testapp"
   }
 }
@@ -628,6 +639,7 @@ template("js_hap_suite") {
   }
   target("ohos_testsuite_base", "${target_name}") {
     forward_variables_from(invoker, "*")
+    suite_type = "hap"
     project_type = "js_test_hap"
   }
 }
@@ -635,6 +647,7 @@ template("js_hap_suite") {
 template("ohos_hap_assist_suite") {
   target("ohos_testsuite_base", target_name) {
     forward_variables_from(invoker, "*")
+    suite_type = "hap"
     project_type = "testhapassist"
   }
 }
@@ -642,13 +655,14 @@ template("ohos_hap_assist_suite") {
 template("ohos_app_assist_suite") {
   target("ohos_testsuite_base", target_name) {
     forward_variables_from(invoker, "*")
+    suite_type = "hap"
     project_type = "testappassist"
   }
 }
 
 template("ohos_sh_assist_suite") {
   _part_name = "common"
-
+  suite_type = "bin"
   if (defined(invoker.part_name)) {
     _part_name = invoker.part_name
   }
@@ -661,6 +675,12 @@ template("ohos_sh_assist_suite") {
                                     ]) == []) {
     print("precise_xts is on ,${_part_name} is not on build")
     precise_build_boolean = false
+  }
+
+  if(XTS_SUITETYPE != ""){
+    if(XTS_SUITETYPE != suite_type){
+      precise_build_boolean = false
+    }
   }
 
   if (precise_build_boolean) {
