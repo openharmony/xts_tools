@@ -53,11 +53,13 @@ template("ohos_testsuite_base") {
     precise_build_boolean = false
   }
 
-  if (defined(invoker.suite_type) && XTS_SUITETYPE != ""){
+  if (defined(invoker.suite_type) && XTS_SUITETYPE != "") {
     _suite_type = invoker.suite_type
-    if (XTS_SUITETYPE != _suite_type){
+    if (XTS_SUITETYPE != _suite_type) {
       precise_build_boolean = false
     }
+  } else if (defined(invoker.suite_type)) {
+    not_needed(invoker, [ "suite_type" ])
   }
 
   if (precise_build_boolean) {
@@ -383,6 +385,7 @@ template("ohos_js_hap_suite") {
     forward_variables_from(invoker, "*")
     project_type = "testhap"
     suite_type = "bin"
+
     #js_build_mode = "debug"
   }
 }
@@ -677,8 +680,8 @@ template("ohos_sh_assist_suite") {
     precise_build_boolean = false
   }
 
-  if(XTS_SUITETYPE != ""){
-    if(XTS_SUITETYPE != suite_type){
+  if(XTS_SUITETYPE != "") {
+    if(XTS_SUITETYPE != suite_type) {
       precise_build_boolean = false
     }
   }
