@@ -126,13 +126,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.fastbuffer.d.ts",
-            "bundle_name": [
-                "ets_utils"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.bundle.d.ts",
             "bundle_name": [
                 "bundle_framework"
@@ -3753,13 +3746,6 @@
         },
         {
             "path": "interface/sdk-js/api/bundleManager/Skill.d.ts",
-            "bundle_name": [
-                "bundle_framework"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/bundleManager/PluginBundleInfo.d.ts",
             "bundle_name": [
                 "bundle_framework"
             ],
