@@ -291,7 +291,9 @@ class GetInterfaceData(Ci_Manager):
         # 筛选出未匹配路径
         for path in self.sum_change_list_path:
             if path not in self.match_path_list:
-               self.no_match_path_list.append(path)
+                # feature 分支.d.ets后缀无需编译用例
+                if not path.endswith(".d.ets"):
+                    self.no_match_path_list.append(path)
 
         self.bundle_name_list = list(set(self.bundle_name_list))
         self._build_targets = list(set(self._build_targets))
