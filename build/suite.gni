@@ -680,7 +680,7 @@ template("ohos_sh_assist_suite") {
   }
 
   if (XTS_SUITETYPE != "") {
-      suite_type = "bin"
+    suite_type = "bin"
     if (XTS_SUITETYPE != suite_type) {
       precise_build_boolean = false
     }
