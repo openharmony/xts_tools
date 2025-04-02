@@ -18,7 +18,7 @@
 import os
 import sys
 import json
-from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
+from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, HOME
 from ci_manager import ComponentManager, XTSManager, WhitelistManager, OldPreciseManager, GetInterfaceData
 
 
@@ -50,26 +50,13 @@ class AccurateTarget:
                 self.wlist_manager,
                 self.old_manager
             ]
-        elif self._xts_root_dir.endswith('hats'):
+        else:
             # 测试套件仓修改,只查看当前编译套件仓
             self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
             # 原精准方案兜底计算
             self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
             self.util_list = [
                 self.xts_manager,
-                self.old_manager
-            ]
-        else:  # dcts/hits
-            # 测试套件仓修改,只查看当前编译套件仓
-            self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
-            # 部件仓修改
-            self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
-            # 原精准方案兜底计算
-            self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
-
-            self.util_list = [
-                self.xts_manager,
-                self.com_manager,
                 self.old_manager
             ]
 
@@ -128,15 +115,7 @@ class AccurateTarget:
             for path in sum_path:
                 targets.update(set(XTSTargetUtils.getTargetfromPath(self._xts_root_dir, path)))
 
-            ci_target = set()
-            uncompile_suite_list = MatchConfig.get_uncompile_suite_list(self._xts_root_dir)
-            print(f'配置未参与编译用例: {uncompile_suite_list}')
-            for path_target in targets:
-                if path_target not in uncompile_suite_list:
-                    ci_target.add(path_target)
-            print(f'精准编译目标: {ci_target}')
-
-        return 0, list(ci_target)
+        return 0, list(targets)
 
 
 def generate(xts_root_dir, change_info_file, build_target):
