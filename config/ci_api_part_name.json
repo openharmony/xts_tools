@@ -1687,6 +1687,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.fontManager.d.ts",
+            "bundle_name": [
+                "font_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.rdb.d.ts",
             "bundle_name": [
                 "relational_store"
