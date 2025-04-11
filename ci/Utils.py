@@ -283,7 +283,7 @@ class XTSTargetUtils:
     @staticmethod
     def getTargetFromBuild(build_File) -> list:
         pattern = re.compile(r'(\b(?:' + '|'.join(
-            re.escape(word) for word in MatchConfig.get_temple_list()) + r')\b)\("([^"]*)"\)')
+            re.escape(word) for word in MatchConfig.get_temple_list()) + r')\b)\s*\(\s*"([^"]*)"\)')
         with open(build_File, 'r', encoding='utf-8') as file:
             content = file.read()
         matches = pattern.findall(content)
