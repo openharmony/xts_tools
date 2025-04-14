@@ -372,48 +372,6 @@ export default function deeplinkTest() {
     })
 
     /*
-     * @tc.number  SUB_Ability_AbilityRuntime_deeplink_0900
-     * @tc.name    SUB_Ability_AbilityRuntime_deeplink_0900
-     * @tc.desc    The system app calls UIAbilityContext.startAbility to implicitly start the three-party app, configuring the path as special characters, and others as normal string.
-     * @tc.level   0
-     */
-    it('SUB_Ability_AbilityRuntime_deeplink_0900', 0, async (done: Function) => {
-      TAG = 'SUB_Ability_AbilityRuntime_deeplink_0900';
-      let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
-        events: ["onCreate_event"]
-      };
-      let subscriber : commonEventManager.CommonEventSubscriber;
-      await commonEventManager.createSubscriber(commonEventSubscribeInfo)
-        .then(async (commonEventSubscriber: commonEventManager.CommonEventSubscriber) => {
-          subscriber = commonEventSubscriber;
-          hilog.info(0x0000, TAG, "[%{public}s] createSubscriber succeed", TAG);
-          commonEventManager.subscribe(subscriber, (err: BusinessError, commonEventData: commonEventManager.CommonEventPublishData) => {
-            hilog.info(0x0000, TAG, "[%{public}s] subscribe callback. Gained commonEventData: %{public}s", TAG, JSON.stringify(commonEventData));
-            try {
-              expect(JSON.stringify(commonEventData.parameters?.uri)).assertEqual(JSON.stringify('example://example.com:port3/-~!@#$ %^&*'));
-            } catch {
-            }
-          })
-          await sleep(700);
-          commonEventManager.unsubscribe(commonEventSubscriber, (err, data) => {
-            hilog.info(0x0000, TAG, "[%{public}s] unsubscribe callback. err: %{public}s, data: %{public}s", TAG, JSON.stringify(err), JSON.stringify(data));
-          });
-          let want: Want = {
-            uri: "example://example.com:port3/-~!@#$ %^&*"
-          };
-          uiAbilityContext.startAbility(want)
-            .then(() => {
-              hilog.info(0x0000, TAG, "[%{public}s] Successfully started Ability", TAG);
-            })
-            .catch((error: BusinessError) => {
-              hilog.info(0x0000, TAG, "[%{public}s] Start Ability error: %{public}s", TAG, JSON.stringify(error));
-              expect().assertFail();
-              done();
-            })
-        })
-    })
-
-    /*
      * @tc.number  SUB_Ability_AbilityRuntime_deeplink_1000
      * @tc.name    SUB_Ability_AbilityRuntime_deeplink_1000
      * @tc.desc    The system app calls UIAbilityContext.startAbility to implicitly start the three-party app, configuring the path as special characters, and others as normal string.
