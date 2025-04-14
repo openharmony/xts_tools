@@ -1,0 +1,283 @@
+/**
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ts",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "permissions":[],
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home",
+              "entity.system.browsable"
+            ],
+            "actions": [
+              "action.system.home",
+              "ohos.want.action.viewData"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AbilityAction",
+        "srcEntry": "./ets/deeplinkrely/AbilityAction.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "actions": [
+              "-~!@#$ %^&*"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AbilityEntity",
+        "srcEntry": "./ets/deeplinkrely/AbilityEntity.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "actions": [
+              "AbilityEntity_actions"
+            ],
+            "entities": [
+              "-~!@#$ %^&*",
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AbilityScheme",
+        "srcEntry": "./ets/deeplinkrely/AbilityScheme.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "actions": [
+              "AbilityScheme_actions"
+            ],
+            "uris": [
+              {
+                "scheme": "-~!@#$ %^&*",
+                "host": "example.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AbilitySchemeOhos",
+        "srcEntry": "./ets/deeplinkrely/AbilitySchemeOhos.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "actions": [
+              "AbilitySchemeOhos_actions"
+            ],
+            "uris": [
+              {
+                "scheme": "ohosability",
+                "host": "example.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AbilityHost",
+        "srcEntry": "./ets/deeplinkrely/AbilityHost.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "actions": [
+              "AbilityHost_actions"
+            ],
+            "uris": [
+              {
+                "scheme": "example",
+                "host": "-~!@#$ %^&*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AbilityPort",
+        "srcEntry": "./ets/deeplinkrely/AbilityPort.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "actions": [
+              "AbilityPort_actions"
+            ],
+            "uris": [
+              {
+                "scheme": "example",
+                "host": "example.com",
+                "port": "-~!@#$ %^&*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AbilityPathStartWith",
+        "srcEntry": "./ets/deeplinkrely/AbilityPathStartWith.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "actions": [
+              "AbilityPathStartWith_actions"
+            ],
+            "uris": [
+              {
+                "scheme": "example",
+                "host": "example.com",
+                "port": "port1",
+                "pathStartWith": "-~!@#$ %^&*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AbilityPath",
+        "srcEntry": "./ets/deeplinkrely/AbilityPath.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "actions": [
+              "AbilityPath_actions"
+            ],
+            "uris": [
+              {
+                "scheme": "example",
+                "host": "example.com",
+                "port": "port2",
+                "path": "-~!@#$ %^&*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AbilityPathRegex",
+        "srcEntry": "./ets/deeplinkrely/AbilityPathRegex.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "actions": [
+              "AbilityPathRegex_actions"
+            ],
+            "uris": [
+              {
+                "scheme": "example",
+                "host": "example.com",
+                "port": "port3",
+                "pathRegex": "-~!@#$ %^&*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AbilityType",
+        "srcEntry": "./ets/deeplinkrely/AbilityType.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "actions": [
+              "AbilityType_actions"
+            ],
+            "uris": [
+              {
+                "type": "-~!@#$ %^&*"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "requestPermissions": [
+    ]
+  }
+}

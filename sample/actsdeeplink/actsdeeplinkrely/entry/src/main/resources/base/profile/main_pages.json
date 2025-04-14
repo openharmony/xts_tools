@@ -1,0 +1,15 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/IndexAction",
+    "pages/IndexEntity",
+    "pages/IndexScheme",
+    "pages/IndexSchemeOhos",
+    "pages/IndexHost",
+    "pages/IndexPort",
+    "pages/IndexPathStartWith",
+    "pages/IndexPath",
+    "pages/IndexPathRegex",
+    "pages/IndexType"
+  ]
+}
