@@ -19,7 +19,7 @@ group("ability_runtime") {
     deps = [
       "actscreatebundlecontextnormaltest:ActsCreateContextNormalTest",
       "actscreatebundlecontexttest:ActsCreateBundleContextTest",
-      "actscreatecontextnopermissiontest:ActsCreateContextNoPermissionTest"
+      "actscreatecontextnopermissiontest:ActsCreateContextNoPermissionTest",
     ]
   }
 }
