@@ -98,10 +98,6 @@ class MatchConfig:
 
     WHITE_LIST_PATH = os.path.join(config_path, "ci_target_white_list.json")
     white_list_repo = {}
-    
-    # 逃生通道
-    ESCAPE_PATH = os.path.join(config_path, "ci_escape.json")
-    escape_list = []
 
     # 不参与编译测试套配置
     uncompile_suite = {}
@@ -216,27 +212,9 @@ class MatchConfig:
         if cls.white_list_repo == {}:
             cls.initialization_white_list()
         return cls.white_list_repo
-    
-    @classmethod
-    def initialization_escape_list(cls):
-        if cls.escape_list == []:
-            print("逃生仓列表 开始初始化")
-            if not os.path.exists(cls.ESCAPE_PATH):
-                print(f"{cls.ESCAPE_PATH} 不存在,无逃生仓")
-                return
-            with open(cls.ESCAPE_PATH, 'r') as file:
-                escape_map = json.load(file)
-                cls.escape_list = escape_map.keys()
-        print("逃生仓列表 已完成初始化")
-    
-    @classmethod
-    def get_escape_list(cls):
-        if cls.escape_list == []:
-            cls.initialization_escape_list()
-        return cls.escape_list
 
     @classmethod
-    def get_uncompile_suite_list(cls, xts_root_dir):
+    def get_uncompile_suite_list(cls, xts_root_dir, device_type):
         xts_suite = PathUtils.get_root_target(xts_root_dir)
         if xts_suite in cls.uncompile_suite:
             return cls.uncompile_suite[xts_suite]
@@ -248,6 +226,8 @@ class MatchConfig:
                 return []
             with open(UNCOMPILE_PATH, 'r') as file:
                 cls.uncompile_suite[xts_suite] = json.load(file)
+                if device_type in cls.uncompile_suite[xts_suite]:
+                    return cls.uncompile_suite[xts_suite][device_type]
                 return cls.uncompile_suite[xts_suite]
 
 class XTSTargetUtils:
@@ -331,6 +311,17 @@ class XTSTargetUtils:
                                 matching_files.append(root)
                                 continue
         return matching_files
+
+    @staticmethod
+    def del_uncompile_target(xts_root_dir, device_type, targets) -> list:
+        ci_target = set()
+        uncompile_suite_list = MatchConfig.get_uncompile_suite_list(xts_root_dir, device_type)
+        print(f'配置未参与编译用例: {uncompile_suite_list}')
+        for path_target in targets:
+            if path_target not in uncompile_suite_list:
+                ci_target.add(path_target)
+        print(f'精准编译目标: {ci_target}')
+        return list(ci_target)
 
 
 class PathUtils:

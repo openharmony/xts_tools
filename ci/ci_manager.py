@@ -52,7 +52,7 @@ class Ci_Manager(ABC):
 
 class ComponentManager(Ci_Manager):
 
-    def __init__(self, xts_root_dir, code_root_dir):
+    def   __init__(self, xts_root_dir, code_root_dir):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
         self._build_paths = []
@@ -60,9 +60,6 @@ class ComponentManager(Ci_Manager):
 
     def get_targets_from_change(self, change_list):
         for changeFileEntity in change_list:
-            if changeFileEntity.path in MatchConfig.get_escape_list():
-                print(f"{changeFileEntity.name} 仓逃生,使用旧精准目标")
-                continue
             if changeFileEntity.path not in MatchConfig.get_xts_path_list():
                 ret = self.getTargetsPaths(changeFileEntity)
                 if ret == 1:
@@ -169,9 +166,6 @@ class WhitelistManager(Ci_Manager):
 
     def get_targets_from_change(self, change_list):
         for changeFileEntity in change_list:
-            if changeFileEntity.path in MatchConfig.get_escape_list():
-                print(f"{changeFileEntity.name} 仓逃生,使用旧精准目标")
-                continue
             if changeFileEntity.path not in MatchConfig.get_xts_path_list():
                 ret = self.getTargetsandPaths(changeFileEntity)
                 if ret == 1:
@@ -183,9 +177,16 @@ class WhitelistManager(Ci_Manager):
         if change_file_entity.path not in white_list:
             return 0
         bundles = white_list[change_file_entity.path]["add_bundle"]
-        targets = white_list[change_file_entity.path]["add_target"]
-        if targets and targets[0] == self.full_impact_flag:
-            targets = PathUtils.get_all_build_target(self._xts_root_dir)
+        add_targets = white_list[change_file_entity.path]["add_target"]
+        targets = []
+        if add_targets:
+            if add_targets[0] == self.full_impact_flag:
+                targets = PathUtils.get_all_build_target(self._xts_root_dir)
+            else:
+                xts_parts = [p for p in os.path.normpath(self._xts_root_dir).split(os.sep) if p]
+                for target in add_targets:
+                    if xts_parts in target:
+                        targets.append(target)
         change_file_entity.set_already_match_utils(True)
         if bundles:
             paths = XTSTargetUtils.getPathsByBundle(bundles, self._xts_root_dir)
@@ -283,31 +284,33 @@ class GetInterfaceData(Ci_Manager):
             raise Exception('Error:  interface 路径无法匹配 bundle_name, 请前往 test/xts/tools/config/ci_api_part_name.json 配置对应 path 与 bundle_name')
 
     def get_targets_from_change(self, change_list):
-        
-        # 分开处理三个 interface 仓
-        self.get_c_bundle_name(change_list, MatchConfig.get_interface_json_c_data())
-        self.get_driver_interface_bundle_name(change_list, MatchConfig.get_interface_json_driver_interface_data())
-        self.get_js_bundle_name(change_list, MatchConfig.get_interface_json_js_data())
-        # 筛选出未匹配路径
-        for path in self.sum_change_list_path:
-            if path not in self.match_path_list:
-               self.no_match_path_list.append(path)
+        if "acts" in self._xts_root_dir:
+            # 分开处理三个 interface 仓
+            self.get_c_bundle_name(change_list, MatchConfig.get_interface_json_c_data())
+            self.get_driver_interface_bundle_name(change_list, MatchConfig.get_interface_json_driver_interface_data())
+            self.get_js_bundle_name(change_list, MatchConfig.get_interface_json_js_data())
+            # 筛选出未匹配路径
+            for path in self.sum_change_list_path:
+                if path not in self.match_path_list:
+                   self.no_match_path_list.append(path)
 
-        self.bundle_name_list = list(set(self.bundle_name_list))
-        self._build_targets = list(set(self._build_targets))
-        print('INTERFACE_BUNDLE_NAME = ', self.bundle_name_list)
-    
-        # 抛出未匹配到 bundle_name 的路径
-        try:
-            self.path_error(self.no_match_path_list)
-        except Exception as e:
-            print(e)
-            for path in self.no_match_path_list:
-                print('Error: 无法匹配路径： ', path)
-            sys.exit(1)
+            self.bundle_name_list = list(set(self.bundle_name_list))
+            self._build_targets = list(set(self._build_targets))
+            print('INTERFACE_BUNDLE_NAME = ', self.bundle_name_list)
 
-        # 根据bundle_name 查找对应 build_paths
-        self._build_paths = XTSTargetUtils.getPathsByBundle(self.bundle_name_list, self._xts_root_dir)
+            # 抛出未匹配到 bundle_name 的路径
+            try:
+                self.path_error(self.no_match_path_list)
+            except Exception as e:
+                print(e)
+                for path in self.no_match_path_list:
+                    print('Error: 无法匹配路径： ', path)
+                sys.exit(1)
+
+            # 根据bundle_name 查找对应 build_paths
+            self._build_paths = XTSTargetUtils.getPathsByBundle(self.bundle_name_list, self._xts_root_dir)
+        else:
+            self._build_targets += PathUtils.get_all_build_target(self._xts_root_dir)
 
     # 处理 interface/sdk-js 仓
     def get_js_bundle_name(self, change_list, js_json_data):
