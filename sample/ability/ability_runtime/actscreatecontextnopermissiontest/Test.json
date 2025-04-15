@@ -4,13 +4,13 @@
         "type": "OHJSUnitTest",
         "test-timeout": "180000",
         "shell-timeout": "180000",
-        "bundle-name": "com.test.actscreatecontextnormaltest",
+        "bundle-name": "com.test.actscreatecontextnopermissiontest",
         "module-name": "entry_test"
     },
     "kits": [
         {
             "test-file-name": [
-                "ActsCreateContextNormalTest.hap"
+                "ActsCreateContextNoPermissionTest.hap"
             ],
             "type": "AppInstallKit",
             "cleanup-apps": true

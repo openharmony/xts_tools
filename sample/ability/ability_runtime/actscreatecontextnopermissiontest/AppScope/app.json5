@@ -14,7 +14,7 @@
  */
 {
   "app": {
-    "bundleName": "com.test.actscreatecontextnormaltest",
+    "bundleName": "com.test.actscreatecontextnopermissiontest",
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",

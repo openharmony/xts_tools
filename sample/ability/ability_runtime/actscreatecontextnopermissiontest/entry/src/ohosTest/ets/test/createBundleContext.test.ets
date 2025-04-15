@@ -41,61 +41,34 @@ export default function createBundleContextTest() {
     })
     afterAll(() => {
     })
-    
+
     /*
-     * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0800
-     * @tc.name   : createBundleContext, normal app
+     * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1100
+     * @tc.name   : createModuleContext, without permission, return 201
      * @tc.desc   : Function test
      * @tc.size:   MediumTest
      * @tc.type:   Function
-     * @tc.level  : 0
+     * @tc.level  : 3
      */
-    it('SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0800', Level.LEVEL0, async (done: Function) => {
-      let tag:string = "SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0800"
+    it('SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1100', Level.LEVEL0, async (done: Function) => {
+      let tag:string = "SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1100"
       hilog.info(0x0000, 'testTag', '%{public}s', `${tag} start`);
       let moduleContext: common.Context;
       try {
-        application.createBundleContext(globalThis.context, 'com.test.actscreatecontextnormaltest').then((data: Context) => {
-          moduleContext = data;
-          hilog.info(0x0000, 'testTag', '%{public}s', 'createBundleContext success!');
-        }).catch((error : BusinessError)=>{
-          hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
-        })
-      } catch (error) {
-        hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code: ${(error as BusinessError).code}, error.message: ${(error as BusinessError).message}`);
-        expect(error.code).assertEqual(202)
-        hilog.info(0x0000, 'testTag', '%{public}s', `${tag} end`);
-        done();
-      }
-    });
-
-
-    /*
-     * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1200
-     * @tc.name   : createModuleContext, normal app
-     * @tc.desc   : Function test
-     * @tc.size:   MediumTest
-     * @tc.type:   Function
-     * @tc.level  : 0
-     */
-    it('SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1200', Level.LEVEL0, async (done: Function) => {
-      let tag:string = "SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1200"
-      hilog.info(0x0000, 'testTag', '%{public}s', `${tag} start`);
-      let moduleContext: common.Context;
-      try {
-        application.createModuleContext(globalThis.context, 'com.test.actscreatecontextnormaltest', 'entry_test').then((data: Context) => {
+        application.createModuleContext(context, 'com.test.actscreatecontextnopermissiontest', 'entry').then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
         }).catch((error : BusinessError)=>{
-          hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
+          hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
+          expect(error.code).assertEqual(201)
+          done();
         })
       } catch (error) {
         hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message: ${(error as BusinessError).message}`);
-        expect(error.code).assertEqual(202)
+        expect(error.code).assertEqual(201)
         hilog.info(0x0000, 'testTag', '%{public}s', `${tag} end`);
         done();
       }
     });
-
   })
 }
