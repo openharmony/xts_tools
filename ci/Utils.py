@@ -216,9 +216,7 @@ class MatchConfig:
     @classmethod
     def get_uncompile_suite_list(cls, xts_root_dir, device_type):
         xts_suite = PathUtils.get_root_target(xts_root_dir)
-        if xts_suite in cls.uncompile_suite:
-            return cls.uncompile_suite[xts_suite]
-        else:
+        if xts_suite not in cls.uncompile_suite:
             xts_name = os.path.basename(xts_root_dir)
             UNCOMPILE_PATH = os.path.join(HOME, "test", "xts", xts_name, "ci_uncompile_suite.json")
             if not os.path.exists(UNCOMPILE_PATH):
@@ -226,9 +224,12 @@ class MatchConfig:
                 return []
             with open(UNCOMPILE_PATH, 'r') as file:
                 cls.uncompile_suite[xts_suite] = json.load(file)
-                if device_type in cls.uncompile_suite[xts_suite]:
-                    return cls.uncompile_suite[xts_suite][device_type]
-                return cls.uncompile_suite[xts_suite]
+        if device_type in cls.uncompile_suite[xts_suite]:
+            return cls.uncompile_suite[xts_suite][device_type]
+        elif isinstance(cls.uncompile_suite[xts_suite], dict):
+            return []
+        else:
+            return cls.uncompile_suite[xts_suite]
 
 class XTSTargetUtils:
 

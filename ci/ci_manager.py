@@ -183,7 +183,7 @@ class WhitelistManager(Ci_Manager):
             if add_targets[0] == self.full_impact_flag:
                 targets = PathUtils.get_all_build_target(self._xts_root_dir)
             else:
-                xts_parts = [p for p in os.path.normpath(self._xts_root_dir).split(os.sep) if p]
+                xts_parts = "/".join([p for p in os.path.normpath(self._xts_root_dir).split(os.sep) if p][-3:])
                 for target in add_targets:
                     if xts_parts in target:
                         targets.append(target)
@@ -310,7 +310,10 @@ class GetInterfaceData(Ci_Manager):
             # 根据bundle_name 查找对应 build_paths
             self._build_paths = XTSTargetUtils.getPathsByBundle(self.bundle_name_list, self._xts_root_dir)
         else:
-            self._build_targets += PathUtils.get_all_build_target(self._xts_root_dir)
+            for change in change_list:
+                if change.path in MatchConfig.get_interface_path_list():
+                    self._build_targets += PathUtils.get_all_build_target(self._xts_root_dir)
+                    return
 
     # 处理 interface/sdk-js 仓
     def get_js_bundle_name(self, change_list, js_json_data):
