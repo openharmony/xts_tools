@@ -52,7 +52,7 @@ class Ci_Manager(ABC):
 
 class ComponentManager(Ci_Manager):
 
-    def   __init__(self, xts_root_dir, code_root_dir):
+    def __init__(self, xts_root_dir, code_root_dir):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
         self._build_paths = []
