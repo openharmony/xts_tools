@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { common } from '@kit.AbilityKit';
 
@@ -46,7 +46,7 @@ export default function deepLinkNormalTest() {
      * @tc.desc    The three-party app calls UIAbilityContext.startAbility to implicitly start the three-party app, only configuring the action, and the action contains special characters
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_deeplink_1100', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_deeplink_1100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_1100';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]

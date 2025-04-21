@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { common } from '@kit.AbilityKit';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 
@@ -49,7 +49,7 @@ export default function deeplinkTest() {
      * @tc.desc    The system app calls UIAbilityContext.startAbility to implicitly start the three-party app, only configuring the action, and the action contains special characters
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_deeplink_0100', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_deeplink_0100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0100';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
@@ -90,7 +90,7 @@ export default function deeplinkTest() {
      * @tc.desc    The system app calls UIAbilityContext.startAbility to implicitly start the three-party app, only configuring the entities, and the entities contains special characters
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_deeplink_0200', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_deeplink_0200', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0200';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
@@ -130,7 +130,7 @@ export default function deeplinkTest() {
      * @tc.desc    The system app calls UIAbilityContext.startAbility to implicitly start the three-party app, configuring the scheme as special characters, and the host as normal string.
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_deeplink_0300', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_deeplink_0300', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0300';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
@@ -176,7 +176,7 @@ export default function deeplinkTest() {
      * @tc.desc    The system app calls UIAbilityContext.startAbility to implicitly start the three-party app, configuring the scheme with the ohos prefix, and the host as normal string.
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_deeplink_0400', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_deeplink_0400', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0400';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
@@ -217,7 +217,7 @@ export default function deeplinkTest() {
      * @tc.desc    The system app calls UIAbilityContext.startAbility to implicitly start the three-party app, configuring the host as special characters, and the scheme as normal string.
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_deeplink_0500', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_deeplink_0500', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0500';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
@@ -257,7 +257,7 @@ export default function deeplinkTest() {
      * @tc.desc    The system app calls UIAbilityContext.startAbility to implicitly start the three-party app, configuring the port as special characters, and others as normal string.
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_deeplink_0600', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_deeplink_0600', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0600';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
@@ -297,7 +297,7 @@ export default function deeplinkTest() {
      * @tc.desc    The system app calls UIAbilityContext.startAbility to implicitly start the three-party app, configuring the pathStartWith as special characters, and others as normal string.
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_deeplink_0700', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_deeplink_0700', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0700';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
@@ -337,7 +337,7 @@ export default function deeplinkTest() {
      * @tc.desc    The system app calls UIAbilityContext.startAbility to implicitly start the three-party app, configuring the path as special characters, and others as normal string.
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_deeplink_0800', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_deeplink_0800', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0800';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
@@ -377,7 +377,7 @@ export default function deeplinkTest() {
      * @tc.desc    The system app calls UIAbilityContext.startAbility to implicitly start the three-party app, configuring the path as special characters, and others as normal string.
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_deeplink_1000', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_deeplink_1000', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_1000';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
