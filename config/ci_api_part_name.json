@@ -140,6 +140,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.ability.CompletionHandler.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.ability.wantConstant.d.ts",
             "bundle_name": [
                 "ability_base"
