@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { common } from '@kit.AbilityKit';
 import { Driver, ON ,Component } from '@kit.TestKit';
@@ -47,7 +47,7 @@ export default function getTopAbilityTest() {
      * @tc.desc    Callback verification for getTopAbility interface
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_GetTopAbility_0100', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_GetTopAbility_0100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_GetTopAbility_0100';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["getTopAbility_event"]
@@ -92,7 +92,7 @@ export default function getTopAbilityTest() {
      * @tc.desc    Callback verification for getTopAbility interface
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_GetTopAbility_0200', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_GetTopAbility_0200', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_GetTopAbility_0200';
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["getTopAbility_event"]
