@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { abilityManager, common } from '@kit.AbilityKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 
@@ -44,7 +44,7 @@ export default function residentProcessNormalAppTest() {
      * @tc.desc    Non-system apps calling the setResidentProcessEnable interface
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_ResidentProcess_0100', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_ResidentProcess_0100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0100';
       try {
         let residentProcessBundleName: string = 'com.test.actsresidentprocessrely';

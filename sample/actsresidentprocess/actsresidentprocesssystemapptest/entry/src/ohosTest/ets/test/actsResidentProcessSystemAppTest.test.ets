@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { abilityManager, common } from '@kit.AbilityKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 
@@ -44,7 +44,7 @@ export default function residentProcessSystemAppTest() {
      * @tc.desc    When the 'bundlename' parameter in setResidentProcessEnable is passed as null, it returns error code 401
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_ResidentProcess_0400', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_ResidentProcess_0400', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0400';
       try {
         let residentProcessBundleName = null;
@@ -74,7 +74,7 @@ export default function residentProcessSystemAppTest() {
      * @tc.desc    When the 'bundlename' parameter in setResidentProcessEnable is passed as undefined, it returns error code 401
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_ResidentProcess_0500', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_ResidentProcess_0500', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0500';
       try {
         let residentProcessBundleName = undefined;
@@ -104,7 +104,7 @@ export default function residentProcessSystemAppTest() {
      * @tc.desc    When the 'bundlename' parameter in setResidentProcessEnable is passed as empty, it returns error code 401
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_ResidentProcess_0600', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_ResidentProcess_0600', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0600';
       try {
         let residentProcessBundleName: string = '';
@@ -134,7 +134,7 @@ export default function residentProcessSystemAppTest() {
      * @tc.desc    When the 'enable' parameter in setResidentProcessEnable is passed as null, it returns error code 401
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_ResidentProcess_0700', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_ResidentProcess_0700', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0700';
       try {
         let residentProcessBundleName: string = 'com.test.actsresidentprocessrely';
@@ -164,7 +164,7 @@ export default function residentProcessSystemAppTest() {
      * @tc.desc    When the 'enable' parameter in setResidentProcessEnable is passed as undefined, it returns error code 401
      * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_ResidentProcess_0800', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_ResidentProcess_0800', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0800';
       try {
         let residentProcessBundleName: string = 'com.test.actsresidentprocessrely';
