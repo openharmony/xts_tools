@@ -18,7 +18,7 @@ import { BusinessError } from '@ohos.base';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { common, missionManager, uriPermissionManager, Want, wantConstant } from '@kit.AbilityKit';
 import router from '@ohos.router';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { fileIo, fileShare, fileUri } from '@kit.CoreFileKit';
 import { fileIo as fs } from '@kit.CoreFileKit';
 
@@ -45,14 +45,16 @@ export default function abilityTest() {
       // Presets a clear action, which is performed after all test cases of the test suite end.
       // This API supports only one parameter: clear action function.
     })
-    /* @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3000
+
+    /*
+     * @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3000
      * @tc.name    grantUriPermission is not read or written into the Flags parameter
-     * @tc.desc   : Function test
-     * @tc.size:   MediumTest
-     * @tc.type:   Function
-     * @tc.level  : 0
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
     */
-    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3000', 0, async (done:Function) => {
+    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3000', Level.LEVEL0, async (done:Function) => {
       let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3000'
       let targetBundleName = 'com.test.actsauthorizationandrevocationtest'
       let path = "/name/name";
@@ -72,14 +74,15 @@ export default function abilityTest() {
       }
     })
 
-    /* @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3100
+    /*
+     * @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3100
      * @tc.name    grantUriPermission parameter uri is undefined
-     * @tc.desc   : Function test
-     * @tc.size:   MediumTest
-     * @tc.type:   Function
-     * @tc.level  : 0
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3100', 0, async (done:Function) => {
+    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3100', Level.LEVEL0, async (done:Function) => {
       let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3100'
       let targetBundleName = 'com.test.actsauthorizationandrevocationtest'
       let path = "/data/storage/el2/base/haps/entry";
@@ -99,14 +102,15 @@ export default function abilityTest() {
       }
     })
 
-    /* @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3200
+    /*
+     * @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3200
      * @tc.name    grantUriPermission parameter targetBundleName does not exist
-     * @tc.desc   : Function test
-     * @tc.size:   MediumTest
-     * @tc.type:   Function
-     * @tc.level  : 0
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3200', 0, async (done:Function) => {
+    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3200', Level.LEVEL0, async (done:Function) => {
       let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3200'
       let targetBundleName = 'com.test.1111'
       let path = "/data/storage/el2/base/haps/entry";
@@ -126,14 +130,15 @@ export default function abilityTest() {
       }
     })
 
-    /* @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3400
+    /*
+     * @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3400
      * @tc.name    The revokeUriPermission parameter uri is undefined
-     * @tc.desc   : Function test
-     * @tc.size:   MediumTest
-     * @tc.type:   Function
-     * @tc.level  : 0
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3400', 0, async (done:Function) => {
+    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3400', Level.LEVEL0, async (done:Function) => {
       let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3400'
       let targetBundleName = 'com.test.actsauthorizationandrevocationtest'
       let path = "/data/storage/el2/base/haps/entry";
@@ -147,14 +152,14 @@ export default function abilityTest() {
       }
     })
 
-
-    /* @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3500
+    /*
+     * @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3500
      * @tc.name    The revokeUriPermission parameter targetBundleName does not exist
-     * @tc.size:   MediumTest
-     * @tc.type:   Function
-     * @tc.level  : 0
- */
-    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3500', 0, async (done:Function) => {
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3500', Level.LEVEL0, async (done:Function) => {
       let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3500'
       let targetBundleName = 'com.test.1111'
       let path = "/data/storage/el2/base/haps/entry";
@@ -168,14 +173,15 @@ export default function abilityTest() {
       }
     })
 
-    /* @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3600
+    /*
+     * @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3600
      * @tc.name    Verify that the background application calls the moveAbilityToBackground API fails
      * @tc.desc   : Function test
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
      */
-    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3600', 0, async (done:Function) => {
+    it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3600', Level.LEVEL0, async (done:Function) => {
       let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3600'
       let targetBundleName = 'com.test.actsauthorizationandrevocationtest'
       let uri = "file://com.example.test_case1/data/storage/el2/base/haps/entry_test/files/newDir";

@@ -1,5 +1,5 @@
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level} from '@ohos/hypium';
 import { abilityManager, missionManager } from '@kit.AbilityKit';
 import { BusinessError, settings } from '@kit.BasicServicesKit';
 import AbilityDelegatorRegistry from '@ohos.app.ability.abilityDelegatorRegistry';
@@ -28,14 +28,16 @@ export default function abilityTest() {
       // Presets a clear action, which is performed after all test cases of the test suite end.
       // This API supports only one parameter: clear action function.
     })
-    /* @tc.number  SUB_Ability_AbilityRuntime_MissionManager_MissionSnopt_1100
+
+    /*
+     * @tc.number  SUB_Ability_AbilityRuntime_MissionManager_MissionSnopt_1100
      * @tc.name    SUB_Ability_AbilityRuntime_MissionManager_MissionSnopt_1100
      * @tc.desc    missionId does not exist
-     * @tc.size:   MediumTest
-     * @tc.type:   Function
-     * @tc.level  : 0
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_MissionManager_MissionSnopt_1100', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_MissionManager_MissionSnopt_1100', Level.LEVEL0, async (done: Function) => {
       let testMissionId = 11111;
       try {
         const data = await missionManager.getMissionSnapShot('', testMissionId).then((data) => {
@@ -48,15 +50,15 @@ export default function abilityTest() {
       }
     })
 
-
-    /* @tc.number  SUB_Ability_AbilityRuntime_MissionManager_MissionTask_8800
+    /*
+     * @tc.number  SUB_Ability_AbilityRuntime_MissionManager_MissionTask_8800
      * @tc.name    SUB_Ability_AbilityRuntime_MissionManager_MissionTask_8800
      * @tc.desc    The missionId of moveMissionToFront is undefined
-     * @tc.size:   MediumTest
-     * @tc.type:   Function
-     * @tc.level  : 0
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
      */
-    it('SUB_Ability_AbilityRuntime_MissionManager_MissionTask_8800', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_MissionManager_MissionTask_8800', Level.LEVEL0, async (done: Function) => {
       let testMissionId = undefined;
       try {
         const data = await missionManager.moveMissionToFront(testMissionId).then((data) => {
@@ -69,11 +71,15 @@ export default function abilityTest() {
       }
     })
 
-    /* @tc.number  SUB_Ability_AbilityRuntime_MissionManager_MissionTask_8900
- * @tc.name    SUB_Ability_AbilityRuntime_MissionManager_MissionTask_8900
- * @tc.desc    The missionId of moveMissionToFront is not exist
- */
-    it('SUB_Ability_AbilityRuntime_MissionManager_MissionTask_8900', 0, async (done: Function) => {
+    /*
+     * @tc.number  SUB_Ability_AbilityRuntime_MissionManager_MissionTask_8900
+     * @tc.name    SUB_Ability_AbilityRuntime_MissionManager_MissionTask_8900
+     * @tc.desc    The missionId of moveMissionToFront is not exist
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_Ability_AbilityRuntime_MissionManager_MissionTask_8900', Level.LEVEL0, async (done: Function) => {
       let testMissionId = 12123;
       try {
         const data = await missionManager.moveMissionToFront(testMissionId).then((data) => {
@@ -86,11 +92,15 @@ export default function abilityTest() {
       }
     })
 
-    /* @tc.number  SUB_Ability_AbilityRuntime_MissionManager_MissionTask_9200
-* @tc.name    SUB_Ability_AbilityRuntime_MissionManager_MissionTask_9200
-* @tc.desc    The missionId of moveMissionToFront is not float
-*/
-    it('SUB_Ability_AbilityRuntime_MissionManager_MissionTask_9200', 0, async (done: Function) => {
+    /*
+     * @tc.number  SUB_Ability_AbilityRuntime_MissionManager_MissionTask_9200
+     * @tc.name    SUB_Ability_AbilityRuntime_MissionManager_MissionTask_9200
+     * @tc.desc    The missionId of moveMissionToFront is not float
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_Ability_AbilityRuntime_MissionManager_MissionTask_9200', Level.LEVEL0, async (done: Function) => {
       let testMissionId = 2.111;
       try {
         const data = await missionManager.moveMissionToFront(testMissionId).then((data) => {
@@ -104,11 +114,15 @@ export default function abilityTest() {
     })
 
 
-    /* @tc.number  SUB_Ability_AbilityRuntime_MissionManager_MissionLockAndClear_3600
-* @tc.name    SUB_Ability_AbilityRuntime_MissionManager_MissionLockAndClear_3600
-* @tc.desc    Start ability1 and clean up ability1
-*/
-    it('SUB_Ability_AbilityRuntime_MissionManager_MissionLockAndClear_3600', 0, async (done: Function) => {
+    /*
+     * @tc.number  SUB_Ability_AbilityRuntime_MissionManager_MissionLockAndClear_3600
+     * @tc.name    SUB_Ability_AbilityRuntime_MissionManager_MissionLockAndClear_3600
+     * @tc.desc    startAbility and clear ability
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_Ability_AbilityRuntime_MissionManager_MissionLockAndClear_3600', Level.LEVEL0, async (done: Function) => {
       let startWant: Want = {
         bundleName: 'com.test.actsmissiontest',
         abilityName: "MainAbility1",
