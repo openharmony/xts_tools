@@ -1,0 +1,43 @@
+{
+  "src": [
+    "testability/pages/Index",
+    "testability/pages/demo",
+    "testability/pages/UIAttributeFontInterface/UIAttributeFontInterface001",
+
+
+
+    "testability/pages/UITwice/UITwice001",
+    "testability/pages/UITwice/UITwice002",
+    "testability/pages/UITwice/UITwice003",
+    "testability/pages/UITwice/UITwice004",
+    "testability/pages/UITwice/UITwice005",
+    "testability/pages/UITwice/UITwice006",
+    "testability/pages/UITwice/UITwice007",
+    "testability/pages/UITwice/UITwice008",
+    "testability/pages/UITwice/UITwice009",
+    "testability/pages/UITwice/UITwice010",
+    "testability/pages/UITwice/UITwice011",
+    "testability/pages/UITwice/UITwice012",
+    "testability/pages/UITwice/UITwice013",
+    "testability/pages/UITwice/UITwice014",
+    "testability/pages/UITwice/UITwice015",
+    "testability/pages/UITwice/UITwice016",
+    "testability/pages/UITwice/UITwice017",
+    "testability/pages/UITwice/UITwice018",
+    "testability/pages/UITwice/UITwice019",
+    "testability/pages/UITwice/UITwice020",
+    "testability/pages/UITwice/UITwice021",
+    "testability/pages/UITwice/UITwice022",
+    "testability/pages/UITwice/UITwice023",
+    "testability/pages/UITwice/UITwice024",
+    "testability/pages/UITwice/UITwice025",
+    "testability/pages/UITwice/UITwice026",
+    "testability/pages/UITwice/UITwice027",
+    "testability/pages/UITwice/UITwice028",
+    "testability/pages/UITwice/UITwice029",
+    "testability/pages/UITwice/UITwice030",
+    "testability/pages/UITwice/UITwice031",
+    "testability/pages/UITwice/UITwice032"
+
+  ]
+}
