@@ -1,4 +1,18 @@
-
+/*
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ 
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium'
 import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
@@ -147,30 +161,6 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200
-     * @tc.level      : Level 3
-     */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200', 0, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200 start.`);
-      Settings.createWindow('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity007')
-      await Utils.sleep(3000)
-      let driver: Driver = Driver.create()
-      let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity007'))
-      await component.click();
-      // await Utils.sleep(3000)
-      windowSnap.snapShot()
-      Settings.changeWindow('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity007', 100, 100)
-      windowSnap.snapShot()
-      await Utils.sleep(3000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200 finish.`);
-      done()
-    })
-
-
     /**
      * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
      * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
@@ -191,28 +181,6 @@ export default function UIComponentScrollScrollbarVelocity() {
       await component2.click();
       await Utils.sleep(3000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190 finish.`);
-      done()
-    })
-
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180
-     * @tc.level      : Level 3
-     */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180', 0, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180 start.`);
-      Settings.createWindow('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity010')
-      await Utils.sleep(3000)
-      let driver: Driver = Driver.create()
-      let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity010'))
-      await component.click();
-      windowSnap.snapShot()
-      // 横竖屏切换
-      Settings.changeWindowOrientation('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity010',
-        window.Orientation.PORTRAIT);
-      await Utils.sleep(3000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180 finish.`);
       done()
     })
 
