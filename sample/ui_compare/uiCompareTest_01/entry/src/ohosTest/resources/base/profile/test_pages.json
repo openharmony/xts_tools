@@ -2,6 +2,10 @@
   "src": [
     "testability/pages/Index",
     "testability/pages/gesture_monopolize/monopolize01",
+    "testability/pages/gesture_monopolize/monopolize02",
+    "testability/pages/gesture_monopolize/monopolize03",
+    "testability/pages/gesture_monopolize/monopolize04",
+    "testability/pages/gesture_monopolize/monopolize05",
     "testability/pages/stepper_interface/stepper01",
     "testability/pages/stepper_interface/stepper02",
     "testability/pages/stepper_interface/stepper03",

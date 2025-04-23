@@ -39,7 +39,6 @@ class Settings {
   private static DEFAULT_OFFSET_X: number = 0;
   private static DEFAULT_OFFSET_Y: number = 60;
 
-
   changeWindowPosition(windowClass: window.Window, X: number | undefined, Y: number | undefined) {
     //为悬浮窗设置位置
     windowClass.moveWindowTo(X, Y, (err) => {

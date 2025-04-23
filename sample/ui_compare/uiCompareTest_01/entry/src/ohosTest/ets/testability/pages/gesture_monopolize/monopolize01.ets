@@ -48,7 +48,7 @@ struct monopolize01 {
         .width('100%')
         .height('40%')
         .backgroundColor(Color.Blue)
-        .id('innerColumn')
+        .id('innerColumn01')
         // 内层column绑定触摸事件
         .onTouch((event:TouchEvent)=>{
           if (event.type == TouchType.Down) {
