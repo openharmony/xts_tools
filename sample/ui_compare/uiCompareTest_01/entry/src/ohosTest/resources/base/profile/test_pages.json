@@ -1,0 +1,11 @@
+{
+  "src": [
+    "testability/pages/Index",
+    "testability/pages/gesture_monopolize/monopolize01",
+    "testability/pages/stepper_interface/stepper01",
+    "testability/pages/stepper_interface/stepper02",
+    "testability/pages/stepper_interface/stepper03",
+    "testability/pages/navigation_content/navigation01",
+    "testability/pages/navigation_content/navigation02"
+  ]
+}

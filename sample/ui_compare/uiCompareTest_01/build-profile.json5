@@ -1,18 +1,21 @@
+/**
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 {
   "app": {
     "signingConfigs": [
-      {
-        "name": "default",
-        "material": {
-          "certpath": "C:/Users/Administrator/.ohos/config/openharmony/default_uicompare_kwKa6_I40TLw_XVIXGuNu_OPCNXakR1N-CvaGl32qDI=.cer",
-          "keyAlias": "debugKey",
-          "keyPassword": "0000001B4F532DEA81FBB7FDC05A15E97B359147B6A48DBA641DEBE7734AA201B9FA429A9C77566296935C",
-          "profile": "C:/Users/Administrator/.ohos/config/openharmony/default_uicompare_kwKa6_I40TLw_XVIXGuNu_OPCNXakR1N-CvaGl32qDI=.p7b",
-          "signAlg": "SHA256withECDSA",
-          "storeFile": "C:/Users/Administrator/.ohos/config/openharmony/default_uicompare_kwKa6_I40TLw_XVIXGuNu_OPCNXakR1N-CvaGl32qDI=.p12",
-          "storePassword": "0000001B85F793998461763535BA42963A7529EC8B6F5652A1606C84B991B701C89DB1BD2D331E5E5531F7"
-        }
-      }
     ],
     "products": [
       {
