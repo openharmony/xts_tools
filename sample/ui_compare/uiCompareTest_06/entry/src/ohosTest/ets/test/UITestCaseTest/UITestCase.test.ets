@@ -189,16 +189,16 @@ export default function uiComponentListItem01Test() {
     it('TestCase_0a25d966ded045208cbc2de5f9dfa6dc', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
       Logger.info('TEST', `TestCase_0a25d966ded045208cbc2de5f9dfa6dc start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase007")
+      Settings.createWindow("testability/pages/UITestCase/UITestCase007");
       await Utils.sleep(1000)
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('PointCount_Negative1'));
       await button.click();
-      await Utils.sleep(2000)
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
+      await Utils.sleep(2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info('TEST', `TestCase_0a25d966ded045208cbc2de5f9dfa6dc finish.`);
-      done()
+      done();
     })
 
     /**
@@ -212,16 +212,16 @@ export default function uiComponentListItem01Test() {
     it('TestCase_e97f20ec53104277982bdc0662262d3d', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
       Logger.info('TEST', `TestCase_e97f20ec53104277982bdc0662262d3d start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase008")
-      await Utils.sleep(1000)
+      Settings.createWindow("testability/pages/UITestCase/UITestCase008");
+      await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_006'));
       await button.click();
-      await Utils.sleep(2000)
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
+      await Utils.sleep(2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info('TEST', `TestCase_e97f20ec53104277982bdc0662262d3d finish.`);
-      done()
+      done();
     })
 
     /**
@@ -234,16 +234,16 @@ export default function uiComponentListItem01Test() {
      */
     it('TestCase_7d767a1bbea940c2ad12a4338a45d619', 0, async (done: Function) => {
       Logger.info('TEST', `TestCase_7d767a1bbea940c2ad12a4338a45d619 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase009")
-      await Utils.sleep(1000)
+      Settings.createWindow("testability/pages/UITestCase/UITestCase009");
+      await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('DstIndex'));
       await button.click();
-      await Utils.sleep(2000)
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
+      await Utils.sleep(2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info('TEST', `TestCase_7d767a1bbea940c2ad12a4338a45d619 finish.`);
-      done()
+      done();
     })
   })
 }
