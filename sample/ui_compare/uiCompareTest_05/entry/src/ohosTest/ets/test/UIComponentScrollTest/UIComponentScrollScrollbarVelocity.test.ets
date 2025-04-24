@@ -98,7 +98,7 @@ export default function UIComponentScrollScrollbarVelocity() {
       let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity003'))
       await component.click();
       await Utils.sleep(3000)
-      windowSnap.snapShot('UIComponentScrollScrollbarVelocity003_1')
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity003_2')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130 finish.`);
       done()
     })
