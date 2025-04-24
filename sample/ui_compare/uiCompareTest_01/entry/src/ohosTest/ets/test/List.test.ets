@@ -16,9 +16,11 @@
 import gestureMonopolize01Test from './gesture_monopolize/gestureMonopolize01.test'
 import stepperInterface01Test from './stepper_interface/stepperInterface01.test'
 import navigationContent01Test from './navigation_content/navigationContent01.test'
+import animatorCreate01Test from './animator_sample/animatorCreate01.test'
 
 export default function testsuite() {
   gestureMonopolize01Test();
   stepperInterface01Test();
   navigationContent01Test();
+  animatorCreate01Test();
 }

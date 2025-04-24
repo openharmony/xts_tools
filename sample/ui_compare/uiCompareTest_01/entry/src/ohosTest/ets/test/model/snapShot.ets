@@ -36,7 +36,6 @@ class windowSnap {
     let filePath: string = pathDir + "/" + displayName;
     Logger.info(TAG, 'createFile filePath = ${filePath}')
     return filePath;
-
   }
 
   async deleteFile(filePath: string) {
@@ -92,6 +91,7 @@ class windowSnap {
       return;
     }
     Logger.info(TAG, 'find window success')
+    Logger.info(TAG, 'find window success, snapShot pageName is: ',pageName)
     let filePath = this.filePath(pageName)
     this.deleteFile(filePath);
 

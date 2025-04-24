@@ -1,6 +1,12 @@
 {
   "src": [
     "testability/pages/Index",
+    "testability/pages/animator_sample/animator01",
+    "testability/pages/animator_sample/animator02",
+    "testability/pages/animator_sample/animator03",
+    "testability/pages/animator_sample/animator04",
+    "testability/pages/animator_sample/animator05",
+    "testability/pages/animator_sample/animator06",
     "testability/pages/gesture_monopolize/monopolize01",
     "testability/pages/gesture_monopolize/monopolize02",
     "testability/pages/gesture_monopolize/monopolize03",

@@ -40,6 +40,13 @@ export default function navigationContent01Test() {
       done()
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030
+     * @tc.name   : In Stack mode, hide the toolbar and titlebar simultaneously. Extend the content area to the status bar and Aibar.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030 start.`);
       Settings.createWindow("testability/pages/navigation_content/navigation01")
@@ -50,17 +57,18 @@ export default function navigationContent01Test() {
       let button2: Component = await driver.findComponent(ON.id('changeHideToolBar01'));
       await button2.click();
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030 finish.`);
       done()
     })
 
-    /**
-     * @tc.number    ignoreLayoutSafeArea_0100
-     * @tc.name      ignoreLayoutSafeArea_0100
-     * @tc.desc      Test NavDestination ignoreLayoutSafeArea
-     * @tc.level     Level 2
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290
+     * @tc.name   : Use Modifier to hide the toolbar and titlebar simultaneously. Extend the content area to the status bar and Aibar, and disable safety area extension upper and lower.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290 start.`);
@@ -72,7 +80,7 @@ export default function navigationContent01Test() {
       let button2: Component = await driver.findComponent(ON.id('changeHideToolBar02'));
       await button2.click();
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290 finish.`);
       done()

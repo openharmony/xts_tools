@@ -42,6 +42,13 @@ export default function gestureMonopolize01Test() {
       done()
     })
 
+    /*
+     * @tc.number : SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020
+     * @tc.name   : button1 component sets the 'monopolize' attribute and binds the touch event. Verify that other components' events respond normally when button1 is not triggered in monopolize mode.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020 start.`);
       Settings.createWindow("testability/pages/gesture_monopolize/monopolize01")
@@ -55,6 +62,13 @@ export default function gestureMonopolize01Test() {
       done()
     })
 
+    /*
+     * @tc.number : SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160
+     * @tc.name   : column1 component sets the 'monopolize' attribute to false and binds the long-press gesture. column2 binds the tap gesture. Dynamically modify the 'monopolize' value.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160 start.`);
       Settings.createWindow("testability/pages/gesture_monopolize/monopolize03")
@@ -62,7 +76,7 @@ export default function gestureMonopolize01Test() {
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('innerColumn03'));
       await button.longClick();
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160_01')
       await Utils.sleep(1000)
       let cleanButton: Component = await driver.findComponent(ON.id('clean03'));
       await cleanButton.click();
@@ -71,11 +85,19 @@ export default function gestureMonopolize01Test() {
       await button.longClick();
       await button.click();
       await Utils.sleep(1000)
-      windowSnap.snapShot()
-      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110 finish.`);
+      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160_02')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160 finish.`);
       done()
     })
 
+    /*
+     * @tc.number : SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150
+     * @tc.name   : column1 component sets the 'monopolize' attribute and binds the long-press gesture. column2 binds the tap gesture. Dynamically modify the 'monopolize' value.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150 start.`);
       Settings.createWindow("testability/pages/gesture_monopolize/monopolize04")
@@ -83,7 +105,7 @@ export default function gestureMonopolize01Test() {
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('innerColumn04'));
       await button.longClick();
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150_01')
       await Utils.sleep(1000)
       let cleanButton: Component = await driver.findComponent(ON.id('clean04'));
       await cleanButton.click();
@@ -92,11 +114,19 @@ export default function gestureMonopolize01Test() {
       await button.longClick();
       await button.click();
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150_02')
+      await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150 finish.`);
       done()
     })
 
+    /*
+     * @tc.number : SUB_ACE_ACTION_GESTURE_RECONSTRUCTION_INTERFACE_0020
+     * @tc.name   : Obtaining current window information
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_RECONSTRUCTION_INTERFACE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_RECONSTRUCTION_INTERFACE_0020 start.`);
       Settings.createWindow("testability/pages/gesture_monopolize/monopolize05")
