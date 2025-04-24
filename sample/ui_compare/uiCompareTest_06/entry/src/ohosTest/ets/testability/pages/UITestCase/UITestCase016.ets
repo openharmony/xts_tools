@@ -14,13 +14,13 @@
  */
 
 import { matrix4 } from '@kit.ArkUI'
-const TAG = "UITestCase007"
+const TAG = "UITestCase016"
 
 @Entry
 @Component
-struct UITestCase007 {
-  @State matrix: string | matrix4.Matrix4Transit = 'test7 start'
-
+struct UITestCase016 {
+  @State matrix: string | matrix4.Matrix4Transit = 'test16 start'
+  @State matrix1: matrix4.Matrix4Transit = matrix4.identity()
   build() {
     Row() {
       Column() {
@@ -28,17 +28,17 @@ struct UITestCase007 {
           .fontSize(20)
           .fontColor(Color.Blue)
           .margin({ top: 100 })
-          .id('PointCount_Negative1')
+          .id('SrcArray_004')
           .onClick(()=>{
-            try {
-              this.matrix = matrix4.identity().setPolyToPoly({
-                src: [{x: 100, y: 100}, {x: 150, y: 150}, {x: 150, y: 100}, {x: 100, y: 50}],
-                dst: [{x: 200, y: 200}, {x: 250, y: 200}, {x: 250, y: 150}, {x: 200, y: 150}], pointCount:-1
-              })
-              console.info(TAG + " matrix: " + JSON.stringify(this.matrix))
-            } catch (e) {
-              console.info(TAG + " matrix error: " + JSON.stringify(e))
-            }
+            this.matrix = matrix4.identity().setPolyToPoly({
+              src: [{x: 100, y: 100}, {x: 150, y: 150}, {x: 150, y: 100}, {x: 100, y: 50}],
+              dst: [{x: 200, y: 200}, {x: 250, y: 200}, {x: 250, y: 150}, {x: 200, y: 150}], pointCount: 4
+            })
+            this.matrix1 =matrix4.identity().setPolyToPoly({
+              src: [{x: 210, y:190}, {x: 240, y: 190}, {x: 240, y: 160}, {x: 210, y: 160}],
+              dst: [{x: 190, y: 230}, {x: 300, y: 230}, {x: 300, y: 100}, {x: 190, y: 100}], pointCount: 4
+            })
+            console.info("matrix: " + JSON.stringify(this.matrix))
           })
           .backgroundColor(Color.White)
           .border({width:1,color:Color.Black})
@@ -48,7 +48,7 @@ struct UITestCase007 {
           Image($r('app.media.icon'))
             .backgroundColor(Color.Yellow)
             .scale({ centerX: 0, centerY: 0, x: 1 })
-            .transform(this.matrix as matrix4.Matrix4Transit)
+            .transform(this.matrix1)
             .margin({ top: 20 })
             .width('500px')
             .height('500px')

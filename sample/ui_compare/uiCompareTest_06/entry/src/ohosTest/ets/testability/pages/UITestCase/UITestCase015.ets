@@ -14,12 +14,12 @@
  */
 
 import { matrix4 } from '@kit.ArkUI'
-const TAG = "UITestCase007"
+const TAG = "UITestCase015"
 
 @Entry
 @Component
-struct UITestCase007 {
-  @State matrix: string | matrix4.Matrix4Transit = 'test7 start'
+struct UITestCase015 {
+  @State matrix: string | matrix4.Matrix4Transit = 'test15 start'
 
   build() {
     Row() {
@@ -28,12 +28,12 @@ struct UITestCase007 {
           .fontSize(20)
           .fontColor(Color.Blue)
           .margin({ top: 100 })
-          .id('PointCount_Negative1')
+          .id('DstLong')
           .onClick(()=>{
             try {
               this.matrix = matrix4.identity().setPolyToPoly({
-                src: [{x: 100, y: 100}, {x: 150, y: 150}, {x: 150, y: 100}, {x: 100, y: 50}],
-                dst: [{x: 200, y: 200}, {x: 250, y: 200}, {x: 250, y: 150}, {x: 200, y: 150}], pointCount:-1
+                src: [{x: 100, y: 100}, {x: 150, y: 150}, {x: 150, y: 100}],
+                dst: [{x: 200, y: 200}, {x: 250, y: 200}, {x: 250, y: 150}, {x: 200, y: 150}]
               })
               console.info(TAG + " matrix: " + JSON.stringify(this.matrix))
             } catch (e) {

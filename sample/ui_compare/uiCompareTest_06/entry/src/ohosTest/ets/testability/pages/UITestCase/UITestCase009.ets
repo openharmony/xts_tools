@@ -19,7 +19,7 @@ const TAG = "UITestCase009"
 @Entry
 @Component
 struct UITestCase009 {
-  @State matrix: string | matrix4.Matrix4Transit = 'test1 start'
+  @State matrix: string | matrix4.Matrix4Transit = 'test9 start'
 
   build() {
     Row() {
