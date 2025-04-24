@@ -18,8 +18,8 @@
     "testability/pages/UIComponentRefreshPromptText/UIComponentRefreshPromptText001",
     "testability/pages/UIRefreshComponentContent/UIRefreshComponentContent001",
     "testability/pages/UIRefreshComponentContent/UIRefreshComponentContent002",
-    "testability/pages/UIComponentOtherAlpahabetIndexerVibration/UIComponentOtherAlpahabetIndexerVibration001",
-    "testability/pages/UIComponentOtherAlpahabetIndexerVibration/UIComponentOtherAlpahabetIndexerVibration002",
-    "testability/pages/UIComponentOtherAlpahabetIndexerVibration/UIComponentOtherAlpahabetIndexerVibration003"
+    "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration001",
+    "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration002",
+    "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration003"
   ]
 }

@@ -19,8 +19,8 @@ import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, MouseButton } from '@ohos.UiTest'
 
-export default function UIComponentOtherAlpahabetIndexerVibration() {
-  describe('UIComponentOtherAlpahabetIndexerVibration', () => {
+export default function UIComponentOtherAlphabetIndexerVibration() {
+  describe('UIComponentOtherAlphabetIndexerVibration', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return
@@ -45,12 +45,12 @@ export default function UIComponentOtherAlpahabetIndexerVibration() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180 start.`);
-      Settings.createWindow("testability/pages/UIComponentOtherAlpahabetIndexerVibration/UIComponentOtherAlpahabetIndexerVibration001");
+      Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration001");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       await driver.mouseClick({x:370, y:900}, MouseButton.MOUSE_BUTTON_LEFT);
       await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlpahabetIndexerVibration0180');
+      windowSnap.snapShot('UIComponentOtherAlphabetIndexerVibration0180');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180 finish.`);
       done();
@@ -64,12 +64,12 @@ export default function UIComponentOtherAlpahabetIndexerVibration() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010 start.`);
-      Settings.createWindow("testability/pages/UIComponentOtherAlpahabetIndexerVibration/UIComponentOtherAlpahabetIndexerVibration002");
+      Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration002");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       await driver.mouseClick({x:370, y:900}, MouseButton.MOUSE_BUTTON_LEFT);
       await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlpahabetIndexerVibration0010');
+      windowSnap.snapShot('UIComponentOtherAlphabetIndexerVibration0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010 finish.`);
       done();
@@ -83,12 +83,12 @@ export default function UIComponentOtherAlpahabetIndexerVibration() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100 start.`);
-      Settings.createWindow("testability/pages/UIComponentOtherAlpahabetIndexerVibration/UIComponentOtherAlpahabetIndexerVibration003");
+      Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration003");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       await driver.mouseLongClick({x:370, y:900}, MouseButton.MOUSE_BUTTON_LEFT);
       await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlpahabetIndexerVibration0100');
+      windowSnap.snapShot('UIComponentOtherAlphabetIndexerVibration0100');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100 finish.`);
       done();

@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct UIComponentOtherAlpahabetIndexerVibration003 {
+struct UIComponentOtherAlphabetIndexerVibration002 {
   @State message: string = 'Hello'
   private arrayA: string[] = ['安']
   private arrayB: string[] = ['卜', '白', '包', '毕', '丙']
@@ -33,7 +33,7 @@ struct UIComponentOtherAlpahabetIndexerVibration003 {
         .fontColor(Color.Blue)
         .height('10%')
         .margin({ top: 20 })
-        .key('UIComponentOtherAlpahabetIndexerVibration003_001')
+        .key('UIComponentOtherAlphabetIndexerVibration002_001')
 
       Stack({ alignContent: Alignment.Start }) {
         Row() {
@@ -82,7 +82,6 @@ struct UIComponentOtherAlpahabetIndexerVibration003 {
           .height('100%')
 
           AlphabetIndexer({ arrayValue: this.value, selected: 0 })
-            .enableHapticFeedback(true)
             .selectedColor(0xFFFFFF)
             .popupColor(0xFFFAF0)
             .selectedBackgroundColor(0xCCCCCC)

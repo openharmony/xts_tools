@@ -19,7 +19,7 @@ import UIComponentOtherRefreshInterface from './UIComponentOtherRefreshInterface
 import UIComponentOtherRefreshAbility from './UIComponentOtherRefreshAbilityTest/UIComponentOtherRefreshAbility.test'
 import UIRefreshComponentContent from './UIRefreshComponentContentTest/UIRefreshComponentContent.test'
 import UIComponentRefreshPromptText from './UIComponentRefreshPromptTextTest/UIComponentRefreshpromptText.test'
-import UIComponentOtherAlpahabetIndexerVibration from './UIComponentOtherAlpahabetIndexerVibrationTest/UIComponentOtherAlphabetIndexerVibration.test'
+import UIComponentOtherAlphabetIndexerVibration from './UIComponentOtherAlphabetIndexerVibrationTest/UIComponentOtherAlphabetIndexerVibration.test'
 
 export default function testsuite() {
   UIComponentScrollScrollBarScrollEdge();
@@ -28,5 +28,5 @@ export default function testsuite() {
   UIComponentOtherRefreshAbility();
   UIRefreshComponentContent();
   UIComponentRefreshPromptText();
-  UIComponentOtherAlpahabetIndexerVibration()
+  UIComponentOtherAlphabetIndexerVibration()
 }
