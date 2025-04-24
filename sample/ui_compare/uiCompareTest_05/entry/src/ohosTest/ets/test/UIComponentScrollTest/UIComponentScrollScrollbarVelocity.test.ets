@@ -189,7 +189,7 @@ export default function UIComponentScrollScrollbarVelocity() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190 finish.`);
       done()
     })
-      windowSnap.snapShot()
+
     /**
      * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
      * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
@@ -211,11 +211,6 @@ export default function UIComponentScrollScrollbarVelocity() {
       await Utils.sleep(3000)
       windowSnap.snapShot('UIComponentScrollScrollbarVelocity018_3')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290 finish.`);
-      done()
-    })
-      windowSnap.snapShot()
-      await Utils.sleep(3000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190 finish.`);
       done()
     })
 
