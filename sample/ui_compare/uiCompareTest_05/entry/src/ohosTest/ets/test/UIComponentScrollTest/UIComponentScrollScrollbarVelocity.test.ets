@@ -51,12 +51,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0110 start.`);
       Settings.createWindow('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity001')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity001_1')
       let driver: Driver = Driver.create()
       let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity001'))
       await component.click();
-      windowSnap.snapShot()
       await Utils.sleep(3000)
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity001_2')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0110 finish.`);
       done()
     })
@@ -72,13 +72,13 @@ export default function UIComponentScrollScrollbarVelocity() {
     //   Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0150 start.`);
     //   Settings.createWindow('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity002')
     //   await Utils.sleep(3000)
-    //   windowSnap.snapShot()
+    //   windowSnap.snapShot('UIComponentScrollScrollbarVelocity002_1')
     //   let driver: Driver = Driver.create()
     //   let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity002'))
     //   // 闪退
     //   await component.click();
-    //   windowSnap.snapShot()
     //   await Utils.sleep(3000)
+    //   windowSnap.snapShot('UIComponentScrollScrollbarVelocity002_2')
     //   Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0150 finish.`);
     //   done()
     // })
@@ -93,16 +93,15 @@ export default function UIComponentScrollScrollbarVelocity() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130 start.`);
       Settings.createWindow('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity003')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity003_1')
       let driver: Driver = Driver.create()
       let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity003'))
       await component.click();
-      windowSnap.snapShot()
       await Utils.sleep(3000)
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity003_1')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130 finish.`);
       done()
     })
-
 
     // /**
     //  * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0160
@@ -114,13 +113,13 @@ export default function UIComponentScrollScrollbarVelocity() {
     //   Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0160 start.`);
     //   Settings.createWindow('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity004')
     //   await Utils.sleep(3000)
-    //   windowSnap.snapShot()
+    //   windowSnap.snapShot('UIComponentScrollScrollbarVelocity004_1')
     //   let driver: Driver = Driver.create()
     //   let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity004'))
     //   // 闪退
     //   await component.click();
-    //   windowSnap.snapShot()
     //   await Utils.sleep(3000)
+    //   windowSnap.snapShot('UIComponentScrollScrollbarVelocity004_2')
     //   Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0160 finish.`);
     //   done()
     // })
@@ -136,12 +135,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0120 start.`);
       Settings.createWindow('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity005')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity005_1')
       let driver: Driver = Driver.create()
       let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity005'))
       await component.click();
-      windowSnap.snapShot()
       await Utils.sleep(3000)
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity005_2')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0120 finish.`);
       done()
     })
@@ -157,12 +156,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0140 start.`);
       Settings.createWindow('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity006')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity006_1')
       let driver: Driver = Driver.create()
       let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity006'))
       await component.click();
-      windowSnap.snapShot()
       await Utils.sleep(3000)
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity006_2')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0140 finish.`);
       done()
     })
@@ -177,13 +176,43 @@ export default function UIComponentScrollScrollbarVelocity() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190 start.`);
       Settings.createWindow('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity008')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity008_1')
       let driver: Driver = Driver.create()
       let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity008'))
       await component.click();
-      windowSnap.snapShot()
+      await Utils.sleep(3000)
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity008_2')
       let component2: Component = await driver.findComponent(ON.id('InterruptAnimation'))
       await component2.click();
+      await Utils.sleep(3000)
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity008_3')
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190 finish.`);
+      done()
+    })
+      windowSnap.snapShot()
+    /**
+     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
+     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
+     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
+     * @tc.level      : Level 3
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290', 0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290 start.`);
+      Settings.createWindow('testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity018')
+      await Utils.sleep(3000)
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity018_1')
+      let driver: Driver = Driver.create()
+      let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity018'))
+      await component.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity018_2')
+      let component2: Component = await driver.findComponent(ON.id('InterruptAnimation'))
+      await component2.click();
+      await Utils.sleep(3000)
+      windowSnap.snapShot('UIComponentScrollScrollbarVelocity018_3')
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290 finish.`);
+      done()
+    })
       windowSnap.snapShot()
       await Utils.sleep(3000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190 finish.`);

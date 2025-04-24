@@ -27,9 +27,9 @@ struct UIComponentScrollScrollbarVelocity008 {
         .id('ScrollbarVelocity008')
         .borderWidth(1)
       Button('interrupt')
-        // .onClick(()=>{
-        //   this.scroller.fling(0)
-        // })
+        .onClick(()=>{
+          this.scroller.fling(0)
+        })
         .id('InterruptAnimation')
         .borderWidth(1)
         WaterFlow({scroller: this.scroller}){
