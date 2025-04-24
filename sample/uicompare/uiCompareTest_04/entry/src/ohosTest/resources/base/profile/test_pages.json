@@ -1,0 +1,25 @@
+{
+  "src": [
+    "testability/pages/Index",
+    "testability/pages/UIComponentScrollScrollBarScrollEdge/UIComponentScrollScrollBarScrollEdge001",
+    "testability/pages/UIComponentScrollScrollBarVelocity/UIComponentScrollScrollBarVelocity001",
+    "testability/pages/UIComponentScrollScrollBarVelocity/UIComponentScrollScrollBarVelocity002",
+    "testability/pages/UIComponentScrollScrollBarVelocity/UIComponentScrollScrollBarVelocity003",
+    "testability/pages/UIComponentScrollScrollBarVelocity/UIComponentScrollScrollBarVelocity006",
+    "testability/pages/UIComponentScrollScrollBarVelocity/UIComponentScrollScrollBarVelocity007",
+    "testability/pages/UIComponentScrollScrollBarVelocity/UIComponentScrollScrollBarVelocity008",
+    "testability/pages/UIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface001",
+    "testability/pages/UIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface002",
+    "testability/pages/UIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface003",
+    "testability/pages/UIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility001",
+    "testability/pages/UIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility002",
+    "testability/pages/UIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility003",
+    "testability/pages/UIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility004",
+    "testability/pages/UIComponentRefreshPromptText/UIComponentRefreshPromptText001",
+    "testability/pages/UIRefreshComponentContent/UIRefreshComponentContent001",
+    "testability/pages/UIRefreshComponentContent/UIRefreshComponentContent002",
+    "testability/pages/UIComponentOtherAlpahabetIndexerVibration/UIComponentOtherAlpahabetIndexerVibration001",
+    "testability/pages/UIComponentOtherAlpahabetIndexerVibration/UIComponentOtherAlpahabetIndexerVibration002",
+    "testability/pages/UIComponentOtherAlpahabetIndexerVibration/UIComponentOtherAlpahabetIndexerVibration003"
+  ]
+}
