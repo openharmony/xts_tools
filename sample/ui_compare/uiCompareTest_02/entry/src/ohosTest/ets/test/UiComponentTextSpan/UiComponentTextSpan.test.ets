@@ -1,18 +1,3 @@
-/*
- * Copyright (c) 2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
- 
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
 import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
@@ -35,9 +20,9 @@ import { Driver, ON,Component ,MouseButton } from '@ohos.UiTest'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UITwiceTest() {
+export default function UiComponentTextSpan() {
 
-  describe('UITwiceTest', () => {
+  describe('UiComponentTextSpan', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return
@@ -55,69 +40,6 @@ export default function UITwiceTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0390
-     * @tc.name    fontFeature is set to subs and the property value is set to 1
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
-    */
-    it('SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0390', Level.LEVEL0, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0390 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice001")
-      await Utils.sleep(1000)
-      let driver: Driver=Driver.create()
-      let text: Component = await driver.findComponent(ON.id('TextInput001'))
-      await text.inputText('aaaaaaaaaaaaaaaaaaaaaaaaaa')
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0390 finish.`);
-      done()
-    })
-
-    /*
-   * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0360
-   * @tc.name    There is no heightAdaptivePolicy
-   * @tc.desc    Function test
-   * @tc.size    MediumTest
-   * @tc.type    Function
-   * @tc.level   0
-  */
-    it('SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0360', Level.LEVEL0, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0360 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice002")
-      await Utils.sleep(1000)
-      let driver: Driver=Driver.create()
-      let text: Component = await driver.findComponent(ON.id('TextInput002'))
-      await text.inputText('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0360 finish.`);
-      done()
-    })
-
-    /*
- * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0010
- * @tc.name    There is no heightAdaptivePolicy
- * @tc.desc    Function test
- * @tc.size    MediumTest
- * @tc.type    Function
- * @tc.level   0
- */
-    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0010', Level.LEVEL0, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0010 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice003")
-      await Utils.sleep(1000)
-      let driver: Driver=Driver.create()
-      let text: Component = await driver.findComponent(ON.id('UITwice003'))
-      await text.inputText('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0010 finish.`);
-      done()
-    })
-
-    /*
      * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0130
      * @tc.name    Set the font to be thinner
      * @tc.desc    Function test
@@ -127,9 +49,9 @@ export default function UITwiceTest() {
     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0130 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice004")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan01")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0130')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0130 finish.`);
       done()
@@ -145,9 +67,9 @@ export default function UITwiceTest() {
     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0070 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice005")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan02")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0070')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0070 finish.`);
       done()
@@ -163,9 +85,9 @@ export default function UITwiceTest() {
        */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0140 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice006")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan03")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0140')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0140 finish.`);
       done()
@@ -181,9 +103,9 @@ export default function UITwiceTest() {
    */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0030 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice007")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan04")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0030')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0030 finish.`);
       done()
@@ -199,9 +121,9 @@ export default function UITwiceTest() {
    */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0150 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice008")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan05")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0150')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0150 finish.`);
       done()
@@ -217,9 +139,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0180 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice009")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan06")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0180')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0180 finish.`);
       done()
@@ -235,9 +157,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0120 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice010")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan07")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0120')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0120 finish.`);
       done()
@@ -253,9 +175,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0170 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice011")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan08")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0170')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0170 finish.`);
       done()
@@ -271,9 +193,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0060 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice012")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan09")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0060')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0060 finish.`);
       done()
@@ -289,9 +211,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0040 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice013")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan10")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0040')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0040 finish.`);
       done()
@@ -307,9 +229,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0190 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice014")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan11")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0190')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0190 finish.`);
       done()
@@ -325,16 +247,16 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0160 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice015")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan12")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0160')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0160 finish.`);
       done()
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0160
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0010
      * @tc.name    Set the span content to empty text
      * @tc.desc    Function test
      * @tc.size    MediumTest
@@ -343,9 +265,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0010 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice016")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan13")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0010')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0010 finish.`);
       done()
@@ -361,9 +283,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0050 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice017")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan14")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0050')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0050 finish.`);
       done()
@@ -379,9 +301,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0080 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice018")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan15")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0080')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0080 finish.`);
       done()
@@ -397,9 +319,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0210 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice019")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan16")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0210')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0210 finish.`);
       done()
@@ -415,9 +337,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0230 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice020")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan17")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0230')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0230 finish.`);
       done()
@@ -433,9 +355,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0250 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice021")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan18")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0250')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0250 finish.`);
       done()
@@ -451,9 +373,9 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0240 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice022")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan19")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0240')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0240 finish.`);
       done()
@@ -469,103 +391,12 @@ export default function UITwiceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0220 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice023")
+      Settings.createWindow("testability/pages/UiComponentTextSpan/UiComponentTextSpan20")
       await Utils.sleep(1000)
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0220')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_CAPI_0220 finish.`);
       done()
     })
-
-    /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0070
-     * @tc.name    text, set the width and height, set the super text, and set the textOverFlow
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
-     */
-    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0070', Level.LEVEL0, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0070 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice024")
-      await Utils.sleep(1000)
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0070 finish.`);
-      done()
-    })
-
-    /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0080
-     * @tc.name    Create an ets page to display the text component without lineSpacing
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
-     */
-    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0080', Level.LEVEL0, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0080 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice026")
-      await Utils.sleep(1000)
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0080 finish.`);
-      done()
-    })
-
-    /*
-     * @tc.number  TestCase_7e7732bd8a0d44caa07b3d23b3a4145d
-     * @tc.name    Set fontFeature to the ss04 attribute
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
-     */
-    it('TestCase_7e7732bd8a0d44caa07b3d23b3a4145d', Level.LEVEL0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_7e7732bd8a0d44caa07b3d23b3a4145d start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice030")
-      await Utils.sleep(1000)
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `TestCase_7e7732bd8a0d44caa07b3d23b3a4145d finish.`);
-      done()
-    })
-
-    /*
-     * @tc.number  TestCase_affd452e8e26418da5a7223c68ceca1d
-     * @tc.name    Set fontFeature to the ss03 attribute
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
-     */
-    it('TestCase_affd452e8e26418da5a7223c68ceca1d', Level.LEVEL0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_affd452e8e26418da5a7223c68ceca1d start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice031")
-      await Utils.sleep(1000)
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `TestCase_affd452e8e26418da5a7223c68ceca1d finish.`);
-      done()
-    })
-
-    /*
-     * @tc.number  TestCase_18e92c27dbe84086b654289959c2f93f_745
-     * @tc.name    Set fontFeature to the ss03 attribute
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
-     */
-    it('TestCase_18e92c27dbe84086b654289959c2f93f_745', Level.LEVEL0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_18e92c27dbe84086b654289959c2f93f_745 start.`);
-      Settings.createWindow("testability/pages/UITwice/UITwice032")
-      await Utils.sleep(1000)
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `TestCase_18e92c27dbe84086b654289959c2f93f_745 finish.`);
-      done()
-    })
-
   })
 }
