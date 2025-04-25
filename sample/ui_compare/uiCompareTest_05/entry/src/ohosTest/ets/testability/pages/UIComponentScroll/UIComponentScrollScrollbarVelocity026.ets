@@ -16,7 +16,7 @@ import { LengthMetrics, LengthUnit } from '@ohos.arkui.node';
 
 @Entry
 @Component
-struct UIComponentScrollScrollbarScrolledge003 {
+struct UIComponentScrollScrollbarVelocity026 {
   scroller: Scroller = new Scroller()
   @State numbers1: String[] = ['0', '1', '2', '3', '4']
   @State numbers2: String[] = ['0', '1','2','3','4','5']
@@ -24,9 +24,9 @@ struct UIComponentScrollScrollbarScrolledge003 {
     Column({ space: 5 }) {
       Button('test')
         .onClick(()=>{
-          this.scroller.scrollEdge(Edge.End, {velocity:100})
+          this.scroller.fling(0)
         })
-        .id('ScrollbarScrollEdge003')
+        .id('ScrollbarVelocity026')
         .borderWidth(1)
       Grid(this.scroller) {
         ForEach(this.numbers1, (day: string) => {
@@ -42,12 +42,14 @@ struct UIComponentScrollScrollbarScrolledge003 {
           }, (day: string) => day)
         }, (day: string) => day)
       }
-      .rowsTemplate('1fr 1fr 1fr 1fr 1fr')
+      .columnsTemplate('1fr 1fr 1fr 1fr 1fr')
+      .friction(2)
       .columnsGap(10)
       .rowsGap(10)
       .width('90%')
       .backgroundColor(0xFAEEE0)
       .height(300)
+
     }.width('100%')
   }
 }
