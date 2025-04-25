@@ -13,17 +13,12 @@
  * limitations under the License.
  */
 
-import demoTest from  './Demo.test'
-import UIAttributeFontInterface001 from  './UIAttributeFontInterfaceTest/UIAttributeFontInterface001.test'
 
 //me
-import UITwiceTest from  './UITwiceTest/UITwice.test'
-
-
+import UiTestCase from './UiTestCase/UiTestCase.test'
+import  UiComponentTextCommonLineSpace from './UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace.test'
 export default function testsuite() {
-  demoTest();
-  UIAttributeFontInterface001();
-
   //me
-  UITwiceTest();
+  UiTestCase();
+  UiComponentTextCommonLineSpace();
 }
