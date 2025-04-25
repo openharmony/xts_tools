@@ -19,9 +19,6 @@ import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
-import mouseEvent from '@ohos.multimodalInput.mouseEvent'
-import { AxisValue, MouseEvent } from '@ohos.multimodalInput.mouseEvent'
-import inputkeyCode from '@ohos.multimodalInput.keyCode'
 
 export default function gestureMonopolize01Test() {
 
@@ -59,6 +56,33 @@ export default function gestureMonopolize01Test() {
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110
+     * @tc.name   : Set the 'monopolize' attribute for the List component and bind it to a mouse wheel event. Bind the
+     * column component to a tap gesture. Verify that the column's tap gesture responds normally when the List
+     * component's monopolize state is not triggered.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110 start.`);
+      Settings.createWindow("testability/pages/gesture_monopolize/monopolize02")
+      await Utils.sleep(1000)
+      let driver:Driver = Driver.create();
+      let button: Component = await driver.findComponent(ON.id('List02'));
+      await driver.click(600,380)
+      let point = await button.getBoundsCenter();
+      await button.click()
+      await driver.mouseScroll(point,true,2)
+      Logger.info('TEST001', `button.getBoundsCenter point is : ${JSON.stringify(point)}`);
+      await Utils.sleep(1500)
+      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110 finish.`);
       done()
     })
 
