@@ -16,6 +16,7 @@
     "testability/pages/stepper_interface/stepper02",
     "testability/pages/stepper_interface/stepper03",
     "testability/pages/navigation_content/navigation01",
+    "testability/pages/navigation_content/navigation02",
     "testability/pages/expectedFrame/expectedFrame01",
     "testability/pages/expectedFrame/expectedFrame02",
     "testability/pages/expectedFrame/expectedFrame03",
