@@ -1,0 +1,16 @@
+{
+  "src": [
+    "testability/pages/Index",
+    "testability/pages/UIComponentScroll/UIComponentScrollScrollbarScrolledge001",
+    "testability/pages/UIComponentScroll/UIComponentScrollScrollbarScrolledge002",
+    "testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity001",
+    "testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity002",
+    "testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity003",
+    "testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity004",
+    "testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity005",
+    "testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity006",
+    "testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity007",
+    "testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity008",
+    "testability/pages/UIComponentScroll/UIComponentScrollScrollbarVelocity010"
+  ]
+}
