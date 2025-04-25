@@ -55,6 +55,18 @@ struct UIComponentScrollScrollbarVelocity005 {
             Text('7')
               .width(30.2).borderWidth(1).height(40.4)
           }
+          FlowItem(){
+            Text('8')
+              .width(30.8).borderWidth(1).height(40.5)
+          }
+          FlowItem(){
+            Text('9')
+              .width(30.8).borderWidth(1).height(40.4)
+          }
+          FlowItem(){
+            Text('10')
+              .width(30.2).borderWidth(1).height(40.5)
+          }
         }
         .layoutDirection(FlexDirection.Column)
         .width(100.5)

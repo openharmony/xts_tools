@@ -17,7 +17,7 @@ import { Popup, PopupTextOptions, PopupButtonOptions, PopupIconOptions } from '@
 
 @Entry
 @Component
-struct ArkUIComponentFunctionAdvancedComponentsMirror017 {
+struct ArkUIComponentFunctionAdvancedComponentsMirror015 {
   build() {
     Row() {
       Popup({
