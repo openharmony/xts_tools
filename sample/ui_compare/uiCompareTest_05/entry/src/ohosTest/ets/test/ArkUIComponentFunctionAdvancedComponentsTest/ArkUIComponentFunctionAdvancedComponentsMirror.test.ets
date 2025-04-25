@@ -161,32 +161,6 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    //
-    // /**
-    //  * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0550
-    //  * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0550
-    //  * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0550
-    //  * @tc.level      : Level 3
-    //  */
-    // it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0550', 0, async (done: Function) => {
-    //   Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0550 start.`);
-    //   let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0550'
-    //   try {
-    //     i18n.System.setAppPreferredLanguage("zh");
-    //     Logger.info(`${caseName}: call System.setSystemLanguage success.`);
-    //   } catch(error) {
-    //     let err: BusinessError = error as BusinessError;
-    //     Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
-    //   }
-    //   Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror006')
-    //   await Utils.sleep(3000)
-    //   windowSnap.snapShot()
-    //   await Utils.sleep(3000)
-    //   Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0550 finish.`);
-    //   done()
-    // })
-
-
     /**
      * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210
      * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210
