@@ -59,7 +59,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror001')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530 finish.`);
       done()
@@ -83,7 +83,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror002')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220 finish.`);
       done()
@@ -107,7 +107,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror003')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590 finish.`);
       done()
@@ -131,7 +131,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror004')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560 finish.`);
       done()
@@ -146,6 +146,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580'
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror005')
       await Utils.sleep(3000)
       let driver: Driver = Driver.create()
@@ -155,7 +156,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       await directionAuto.click();
       let directionLtr: Component = await driver.findComponent(ON.id('DirectionLtr'))
       await directionLtr.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580 finish.`);
       done()
@@ -179,7 +180,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror007')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210 finish.`);
       done()
@@ -204,7 +205,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror008')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270 finish.`);
       done()
@@ -228,7 +229,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror009')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290 finish.`);
       done()
@@ -253,7 +254,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror010')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240 finish.`);
       done()
@@ -277,7 +278,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror011')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510 finish.`);
       done()
@@ -301,7 +302,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror012')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230 finish.`);
       done()
@@ -326,7 +327,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror013')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250 finish.`);
       done()
@@ -351,7 +352,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror014')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260 finish.`);
       done()
@@ -376,7 +377,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror015')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310 finish.`);
       done()
@@ -401,7 +402,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror016')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520 finish.`);
       done()
@@ -425,7 +426,7 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       }
       Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror017')
       await Utils.sleep(3000)
-      windowSnap.snapShot()
+      windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320 finish.`);
       done()
