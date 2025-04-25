@@ -56,384 +56,384 @@ export default function uiComponentListItem01Test() {
     })
 
     /**
-     * @tc.number: TestCase_b432e9ae240546ebb549bdc8bae4a59f
-     * @tc.name: TestCase_b432e9ae240546ebb549bdc8bae4a59f
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_b432e9ae240546ebb549bdc8bae4a59f', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
-      Logger.info('TEST', `TestCase_b432e9ae240546ebb549bdc8bae4a59f start.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase001");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('PointCount_0'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_b432e9ae240546ebb549bdc8bae4a59f');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_b432e9ae240546ebb549bdc8bae4a59f finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_9cfc7cedadd74a23a79da3354e66b37d
-     * @tc.name: TestCase_9cfc7cedadd74a23a79da3354e66b37d
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_9cfc7cedadd74a23a79da3354e66b37d', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
-      Logger.info('TEST', `TestCase_9cfc7cedadd74a23a79da3354e66b37d start.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase002");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcLong'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_9cfc7cedadd74a23a79da3354e66b37d');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200');
       await Utils.sleep(1000)
-      Logger.info('TEST', `TestCase_9cfc7cedadd74a23a79da3354e66b37d finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_e46cc7e3bd574bc690a444582e9e2c90
-     * @tc.name: TestCase_e46cc7e3bd574bc690a444582e9e2c90
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_e46cc7e3bd574bc690a444582e9e2c90', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
-      Logger.info('TEST', `TestCase_e46cc7e3bd574bc690a444582e9e2c90 start.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase003");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcIndex_2'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_e46cc7e3bd574bc690a444582e9e2c90');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_e46cc7e3bd574bc690a444582e9e2c90 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_cff2b61539c243549f8dad818495723b
-     * @tc.name: TestCase_cff2b61539c243549f8dad818495723b
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_cff2b61539c243549f8dad818495723b', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
-      Logger.info('TEST', `TestCase_cff2b61539c243549f8dad818495723b start.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase004");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_005'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_cff2b61539c243549f8dad818495723b');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_cff2b61539c243549f8dad818495723b finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_05001a102d82401b93ee0d4892918b63
-     * @tc.name: TestCase_05001a102d82401b93ee0d4892918b63
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_05001a102d82401b93ee0d4892918b63', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
-      Logger.info('TEST', `TestCase_05001a102d82401b93ee0d4892918b63 start.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase005");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcIndex'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_05001a102d82401b93ee0d4892918b63');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_05001a102d82401b93ee0d4892918b63 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_1b7576d595994c2ba4fd829fd0d719a3
-     * @tc.name: TestCase_1b7576d595994c2ba4fd829fd0d719a3
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_1b7576d595994c2ba4fd829fd0d719a3', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
-      Logger.info('TEST', `TestCase_1b7576d595994c2ba4fd829fd0d719a3 start.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase006");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('DstArray_001'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_1b7576d595994c2ba4fd829fd0d719a3');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_1b7576d595994c2ba4fd829fd0d719a3 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600 finish.`);
       done()
     })
 
     /**
-     * @tc.number: TestCase_0a25d966ded045208cbc2de5f9dfa6dc
-     * @tc.name: TestCase_0a25d966ded045208cbc2de5f9dfa6dc
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_0a25d966ded045208cbc2de5f9dfa6dc', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
-      Logger.info('TEST', `TestCase_0a25d966ded045208cbc2de5f9dfa6dc start.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase007");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('PointCount_Negative1'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_0a25d966ded045208cbc2de5f9dfa6dc');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_0a25d966ded045208cbc2de5f9dfa6dc finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_e97f20ec53104277982bdc0662262d3d
-     * @tc.name: TestCase_e97f20ec53104277982bdc0662262d3d
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_e97f20ec53104277982bdc0662262d3d', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
-      Logger.info('TEST', `TestCase_e97f20ec53104277982bdc0662262d3d start.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase008");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_006'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_e97f20ec53104277982bdc0662262d3d');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_e97f20ec53104277982bdc0662262d3d finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_7d767a1bbea940c2ad12a4338a45d619
-     * @tc.name: TestCase_7d767a1bbea940c2ad12a4338a45d619
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_7d767a1bbea940c2ad12a4338a45d619', 0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_7d767a1bbea940c2ad12a4338a45d619 start.`);
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900', 0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase009");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('DstIndex'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_7d767a1bbea940c2ad12a4338a45d619');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_7d767a1bbea940c2ad12a4338a45d619 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_2a0c3f87f2fd4340b4316ad73730635b
-     * @tc.name: TestCase_2a0c3f87f2fd4340b4316ad73730635b
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_2a0c3f87f2fd4340b4316ad73730635b', 0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_2a0c3f87f2fd4340b4316ad73730635b start.`);
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000', 0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase010");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_002'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_2a0c3f87f2fd4340b4316ad73730635b');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_2a0c3f87f2fd4340b4316ad73730635b finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_1e4e47c29a804b8ab617bd2a5ea68d72
-     * @tc.name: TestCase_1e4e47c29a804b8ab617bd2a5ea68d72
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_1e4e47c29a804b8ab617bd2a5ea68d72', 0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_1e4e47c29a804b8ab617bd2a5ea68d72 start.`);
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100', 0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase011");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_001'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_1e4e47c29a804b8ab617bd2a5ea68d72');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_1e4e47c29a804b8ab617bd2a5ea68d72 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_3c6597b8f40c404f8dbbb2a1ed14d147
-     * @tc.name: TestCase_3c6597b8f40c404f8dbbb2a1ed14d147
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_3c6597b8f40c404f8dbbb2a1ed14d147', 0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_3c6597b8f40c404f8dbbb2a1ed14d147 start.`);
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200', 0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase012");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('DstIndex_2'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_3c6597b8f40c404f8dbbb2a1ed14d147');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_3c6597b8f40c404f8dbbb2a1ed14d147 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_cfacee40d12b4b0b8ced93d0cfc47b7f
-     * @tc.name: TestCase_cfacee40d12b4b0b8ced93d0cfc47b7f
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_cfacee40d12b4b0b8ced93d0cfc47b7f', 0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_cfacee40d12b4b0b8ced93d0cfc47b7f start.`);
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300', 0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase013");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('PointCount_none'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_cfacee40d12b4b0b8ced93d0cfc47b7f');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_cfacee40d12b4b0b8ced93d0cfc47b7f finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_67e24c4a75324d8aaf8d0015b640a0e4
-     * @tc.name: TestCase_67e24c4a75324d8aaf8d0015b640a0e4
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_67e24c4a75324d8aaf8d0015b640a0e4', 0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_67e24c4a75324d8aaf8d0015b640a0e4 start.`);
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400', 0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase014");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('PointCount_1'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_67e24c4a75324d8aaf8d0015b640a0e4');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_67e24c4a75324d8aaf8d0015b640a0e4 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_8b73668cabf546b498bcc17b79cda1c5
-     * @tc.name: TestCase_8b73668cabf546b498bcc17b79cda1c5
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_8b73668cabf546b498bcc17b79cda1c5', 0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_8b73668cabf546b498bcc17b79cda1c5 start.`);
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500', 0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase015");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('DstLong'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_8b73668cabf546b498bcc17b79cda1c5');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_8b73668cabf546b498bcc17b79cda1c5 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_85bc2bdae4ee4c17bbdcbb8476b083e8
-     * @tc.name: TestCase_85bc2bdae4ee4c17bbdcbb8476b083e8
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_85bc2bdae4ee4c17bbdcbb8476b083e8', 0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_85bc2bdae4ee4c17bbdcbb8476b083e8 start.`);
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600', 0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase016");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_004'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_85bc2bdae4ee4c17bbdcbb8476b083e8');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_85bc2bdae4ee4c17bbdcbb8476b083e8 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600 finish.`);
       done();
     })
 
     /**
-     * @tc.number: TestCase_fda8cf0350df40debb6f7bb5f6eb3353
-     * @tc.name: TestCase_fda8cf0350df40debb6f7bb5f6eb3353
+     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700
+     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('TestCase_fda8cf0350df40debb6f7bb5f6eb3353', 0, async (done: Function) => {
-      Logger.info('TEST', `TestCase_fda8cf0350df40debb6f7bb5f6eb3353 start.`);
+    it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700', 0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700 start.`);
       Settings.createWindow("testability/pages/UITestCase/UITestCase017");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_003'));
       await button.click();
       await Utils.sleep(2000);
-      windowSnap.snapShot('TestCase_fda8cf0350df40debb6f7bb5f6eb3353');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700');
       await Utils.sleep(1000);
-      Logger.info('TEST', `TestCase_fda8cf0350df40debb6f7bb5f6eb3353 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700 finish.`);
       done();
     })
   })
