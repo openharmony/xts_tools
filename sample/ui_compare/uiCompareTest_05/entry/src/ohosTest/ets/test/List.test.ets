@@ -13,10 +13,13 @@
  * limitations under the License.
  */
 
+import ArkUIComponentFunctionAdvancedComponentsMirror
+  from './ArkUIComponentFunctionAdvancedComponentsTest/ArkUIComponentFunctionAdvancedComponentsMirror.test';
 import UIComponentScrollScrollbarScrolledge from './UIComponentScrollTest/UIComponentScrollScrollbarScrolledge.test';
 import UIComponentScrollScrollbarVelocity from './UIComponentScrollTest/UIComponentScrollScrollbarVelocity.test';
 
 export default function testsuite() {
   UIComponentScrollScrollbarScrolledge();
   UIComponentScrollScrollbarVelocity();
+  ArkUIComponentFunctionAdvancedComponentsMirror();
 }
