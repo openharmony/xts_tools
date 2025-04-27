@@ -136,6 +136,37 @@ class Settings {
     })
   }
 
+  changeOrientation(){
+    // 横竖屏切换
+    let windowClass: window.Window;
+    if(this.windowClass){
+      windowClass = this.windowClass
+      let orientation = windowClass.getPreferredOrientation();
+      console.info(`Succeeded in get the window orientation.orientation is: ${orientation}`);
+      // 如果未定义 切成横屏
+      // 如果是竖屏 切成横屏
+      // 如果是横屏 切成竖屏
+      if(orientation==window.Orientation.UNSPECIFIED){
+        orientation = window.Orientation.LANDSCAPE
+      } else if(orientation==window.Orientation.PORTRAIT){
+        orientation = window.Orientation.LANDSCAPE
+      }else if(orientation = window.Orientation.LANDSCAPE) {
+        orientation = window.Orientation.PORTRAIT
+      }
+      try {
+        let promise = windowClass.setPreferredOrientation(orientation);
+        promise.then(() => {
+          console.info('Succeeded in setting the window orientation.');
+          Logger.info('Succeeded in setting the window orientation.');
+        }).catch((err: BusinessError) => {
+          Logger.error(`Failed to set the window orientation. Cause code: ${err.code}, message: ${err.message}`);
+        });
+      } catch (exception) {
+        Logger.error(`Failed to set window orientation. Cause code: ${exception.code}, message: ${exception.message}`);
+      }
+    }
+  }
+
   /*
    * 窗口页面更新
    * Setting.createWindow(pageURI: String, {X,Y,width,height,dpi}?:{X?:number,Y?:number,width?:number,height?:number,dpi?:number}):void

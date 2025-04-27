@@ -1,0 +1,263 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 532676608 bytes. Error detail: G1 virtual space
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   This process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Zero Based Compressed Oops mode in which the Java heap is
+#     placed in the first 32GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 32GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_windows.cpp:3825), pid=36680, tid=31864
+#
+# JRE version:  (17.0.12+1) (build )
+# Java VM: OpenJDK 64-Bit Server VM (17.0.12+1-b1087.25, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dfile.encoding=GBK D:\aSdk\18\toolchains\lib\app_packing_tool.jar --mode hap --force true --lib-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\stripped_native_libs\ohosTest --json-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\package\ohosTest\module.json --resources-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\res\ohosTest\resources --index-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\res\ohosTest\resources.index --pack-info-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\outputs\ohosTest\pack.info --out-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\outputs\ohosTest\entry-ohosTest-unsigned.hap --rpcid-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\syscap\ohosTest\rpcid.sc --ets-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\loader_out\ohosTest\ets
+
+Host: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz, 16 cores, 31G,  Windows 11 , 64 bit Build 22000 (10.0.22000.708)
+Time: Sun Apr 27 17:19:03 2025  Windows 11 , 64 bit Build 22000 (10.0.22000.708) elapsed time: 0.031422 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001ec10869380):  JavaThread "Unknown thread" [_thread_in_vm, id=31864, stack(0x000000c685e00000,0x000000c685f00000)]
+
+Stack: [0x000000c685e00000,0x000000c685f00000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x688dd9]
+V  [jvm.dll+0x842eaa]
+V  [jvm.dll+0x844aee]
+V  [jvm.dll+0x845153]
+V  [jvm.dll+0x24ba3f]
+V  [jvm.dll+0x685ba9]
+V  [jvm.dll+0x67a45a]
+V  [jvm.dll+0x30c60b]
+V  [jvm.dll+0x313ab6]
+V  [jvm.dll+0x363c6e]
+V  [jvm.dll+0x363e9f]
+V  [jvm.dll+0x2e2658]
+V  [jvm.dll+0x2e3594]
+V  [jvm.dll+0x813b31]
+V  [jvm.dll+0x3719c1]
+V  [jvm.dll+0x7f2626]
+V  [jvm.dll+0x3f563f]
+V  [jvm.dll+0x3f7191]
+C  [jli.dll+0x528f]
+C  [ucrtbase.dll+0x26c0c]
+C  [KERNEL32.DLL+0x154e0]
+C  [ntdll.dll+0x485b]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00007ffd88f90f58, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x000001ec1088e930 GCTaskThread "GC Thread#0" [stack: 0x000000c685f00000,0x000000c686000000] [id=11128]
+  0x000001ec2402c1e0 ConcurrentGCThread "G1 Main Marker" [stack: 0x000000c686000000,0x000000c686100000] [id=10376]
+  0x000001ec2402cb70 ConcurrentGCThread "G1 Conc#0" [stack: 0x000000c686100000,0x000000c686200000] [id=26712]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffd887431c7]
+
+VM state: not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x000001ec108639c0] Heap_lock - owner thread: 0x000001ec10869380
+
+Heap address: 0x0000000604800000, size: 8120 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+
+CDS archive(s) mapped at: [0x0000000000000000-0x0000000000000000-0x0000000000000000), size 0, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 1.
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0, Narrow klass range: 0x0
+
+GC Precious Log:
+<Empty>
+
+Heap:
+ garbage-first heap   total 0K, used 0K [0x0000000604800000, 0x0000000800000000)
+  region size 4096K, 0 young (0K), 0 survivors (0K)
+ Metaspace       used 0K, committed 0K, reserved 0K
+  class space    used 0K, committed 0K, reserved 0K
+
+Heap Regions: E=young(eden), S=young(survivor), O=old, HS=humongous(starts), HC=humongous(continues), CS=collection set, F=free, OA=open archive, CA=closed archive, TAMS=top-at-mark-start (previous, next)
+
+Card table byte_map: [0x000001ec25170000,0x000001ec26150000] _byte_map_base: 0x000001ec2214c000
+
+Marking Bits (Prev, Next): (CMBitMap*) 0x000001ec2401baf0, (CMBitMap*) 0x000001ec2401bb30
+ Prev Bits: [0x000001ec27130000, 0x000001ec2f010000)
+ Next Bits: [0x000001ec2f010000, 0x000001ec36ef0000)
+
+GC Heap History (0 events):
+No events
+
+Dll operation events (1 events):
+Event: 0.025 Loaded shared library D:\DevEcoNew\DevEco Studio\jbr\bin\java.dll
+
+Deoptimization events (0 events):
+No events
+
+Classes unloaded (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+VM Operations (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff7831a0000 - 0x00007ff7831aa000 	D:\DevEcoNew\DevEco Studio\jbr\bin\java.exe
+0x00007ffdf18e0000 - 0x00007ffdf1ae9000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffdf0e50000 - 0x00007ffdf0f0d000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ffdef240000 - 0x00007ffdef5bb000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ffdeff50000 - 0x00007ffdefffe000 	C:\Windows\System32\ADVAPI32.DLL
+0x00007ffdef920000 - 0x00007ffdef9c3000 	C:\Windows\System32\msvcrt.dll
+0x00007ffdf0cd0000 - 0x00007ffdf0d6e000 	C:\Windows\System32\sechost.dll
+0x00007ffdf0bb0000 - 0x00007ffdf0cd0000 	C:\Windows\System32\RPCRT4.dll
+0x00007ffdeee30000 - 0x00007ffdeef41000 	C:\Windows\System32\ucrtbase.dll
+0x00007ffdcd8f0000 - 0x00007ffdcd907000 	D:\DevEcoNew\DevEco Studio\jbr\bin\jli.dll
+0x00007ffdcd810000 - 0x00007ffdcd82b000 	D:\DevEcoNew\DevEco Studio\jbr\bin\VCRUNTIME140.dll
+0x00007ffddd690000 - 0x00007ffddd799000 	C:\Windows\SYSTEM32\winhafnt64.dll
+0x00007ffdf16f0000 - 0x00007ffdf189d000 	C:\Windows\System32\USER32.dll
+0x00007ffdef730000 - 0x00007ffdef756000 	C:\Windows\System32\win32u.dll
+0x00007ffdf0fc0000 - 0x00007ffdf0fe9000 	C:\Windows\System32\GDI32.dll
+0x00007ffdeefc0000 - 0x00007ffdef0d8000 	C:\Windows\System32\gdi32full.dll
+0x00007ffdef1a0000 - 0x00007ffdef23d000 	C:\Windows\System32\msvcp_win.dll
+0x00007ffdce530000 - 0x00007ffdce7d5000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22000.120_none_9d947278b86cc467\COMCTL32.dll
+0x00007ffdee600000 - 0x00007ffdee60a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffdf0f80000 - 0x00007ffdf0fb1000 	C:\Windows\System32\IMM32.DLL
+0x00007ffddcf60000 - 0x00007ffddd660000 	C:\Windows\SYSTEM32\winhadnt64.dll
+0x00007ffdef9d0000 - 0x00007ffdefa2d000 	C:\Windows\System32\SHLWAPI.dll
+0x00007ffdf0000000 - 0x00007ffdf07b8000 	C:\Windows\System32\SHELL32.dll
+0x00007ffdef770000 - 0x00007ffdef90a000 	C:\Windows\System32\ole32.dll
+0x00007ffdefa50000 - 0x00007ffdefdc7000 	C:\Windows\System32\combase.dll
+0x00007ffdf1610000 - 0x00007ffdf16e6000 	C:\Windows\System32\OLEAUT32.dll
+0x00007ffdf0970000 - 0x00007ffdf09df000 	C:\Windows\System32\WS2_32.dll
+0x00007ffddd670000 - 0x00007ffddd68d000 	C:\Windows\SYSTEM32\MPR.dll
+0x00007ffddf100000 - 0x00007ffddf133000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffdeedb0000 - 0x00007ffdeee2f000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007ffddcd20000 - 0x00007ffddcf5b000 	C:\Windows\SYSTEM32\dtframe64.dll
+0x00007ffddc960000 - 0x00007ffddc992000 	C:\Windows\SYSTEM32\TIjtDrvd64.dll
+0x00007ffddd7a0000 - 0x00007ffddd83b000 	C:\Windows\SYSTEM32\winspool.drv
+0x00007ffddc720000 - 0x00007ffddc847000 	C:\Windows\SYSTEM32\dtsframe64.dll
+0x00007ffdee1e0000 - 0x00007ffdee247000 	C:\Windows\SYSTEM32\mswsock.dll
+0x00007ffdef910000 - 0x00007ffdef918000 	C:\Windows\System32\psapi.dll
+0x00007ffddc260000 - 0x00007ffddc26c000 	C:\Windows\SYSTEM32\WinUsb.dll
+0x00007ffdf10b0000 - 0x00007ffdf151c000 	C:\Windows\System32\setupapi.dll
+0x00007ffddbf20000 - 0x00007ffddc03b000 	C:\Windows\SYSTEM32\TMailHook64.dll
+0x00007ffddbbd0000 - 0x00007ffddbde7000 	C:\Windows\SYSTEM32\winncap364.dll
+0x00000000757c0000 - 0x00000000757cd000 	D:\360\safemon\SafeWrapper.dll
+0x00007ffdda730000 - 0x00007ffdda835000 	D:\360\safemon\libzdtp64.dll
+0x00007ffdea780000 - 0x00007ffdea78c000 	D:\DevEcoNew\DevEco Studio\jbr\bin\vcruntime140_1.dll
+0x00007ffd74f30000 - 0x00007ffd74fbd000 	D:\DevEcoNew\DevEco Studio\jbr\bin\msvcp140.dll
+0x00007ffd88450000 - 0x00007ffd890d5000 	D:\DevEcoNew\DevEco Studio\jbr\bin\server\jvm.dll
+0x00007ffdeea80000 - 0x00007ffdeeacd000 	C:\Windows\SYSTEM32\POWRPROF.dll
+0x00007ffde9690000 - 0x00007ffde9699000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffdeea60000 - 0x00007ffdeea73000 	C:\Windows\SYSTEM32\UMPDC.dll
+0x00007ffdedd40000 - 0x00007ffdedd58000 	C:\Windows\SYSTEM32\kernel.appcore.dll
+0x00007ffde9680000 - 0x00007ffde968a000 	D:\DevEcoNew\DevEco Studio\jbr\bin\jimage.dll
+0x00007ffdec700000 - 0x00007ffdec921000 	C:\Windows\SYSTEM32\DBGHELP.DLL
+0x00007ffdd8b70000 - 0x00007ffdd8ba1000 	C:\Windows\SYSTEM32\dbgcore.DLL
+0x00007ffddc6f0000 - 0x00007ffddc715000 	D:\DevEcoNew\DevEco Studio\jbr\bin\java.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;D:\DevEcoNew\DevEco Studio\jbr\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22000.120_none_9d947278b86cc467;D:\360\safemon;D:\DevEcoNew\DevEco Studio\jbr\bin\server
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK 
+java_command: D:\aSdk\18\toolchains\lib\app_packing_tool.jar --mode hap --force true --lib-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\stripped_native_libs\ohosTest --json-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\package\ohosTest\module.json --resources-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\res\ohosTest\resources --index-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\res\ohosTest\resources.index --pack-info-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\outputs\ohosTest\pack.info --out-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\outputs\ohosTest\entry-ohosTest-unsigned.hap --rpcid-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\syscap\ohosTest\rpcid.sc --ets-path D:\ui_compare_2025\xts_tools_ui\sample\ui_compare\uiCompareTest_01\entry\build\default\intermediates\loader_out\ohosTest\ets
+java_class_path (initial): D:\aSdk\18\toolchains\lib\app_packing_tool.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 12                                        {product} {ergonomic}
+     uint ConcGCThreads                            = 3                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 13                                        {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 4194304                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 532676608                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 8514437120                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 4194304                                   {product} {ergonomic}
+   size_t MinHeapSize                              = 8388608                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 7602480                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122027880                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122027880                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+   size_t SoftMaxHeapSize                          = 8514437120                             {manageable} {ergonomic}
+     bool UseCompressedClassPointers               = true                           {product lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                           {product lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=D:\DevEcoNew\DevEco Studio\jbr
+PATH=D:\DevEcoNew\DevEco Studio\tools\node;D:\DevEcoNew\DevEco Studio\jbr\bin;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\software\Git\cmd;C:\Users\Administrator\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\DevEcoNew\DevEco Studio\bin;;D:\pycharm\PyCharm 2022.1.1\bin;;D:\software\vscode\bin;C:\Program Files\nodejs;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\AppData\Roaming\npm;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+TMP=C:\Users\Administrator\AppData\Local\Temp
+TEMP=C:\Users\Administrator\AppData\Local\Temp
+
+
+
+Periodic native trim disabled
+
+JNI global refs:
+JNI global refs: 0, weak refs: 0
+
+JNI global refs memory usage: 0, weak refs: 0
+
+OOME stack traces (most recent first):
+Classloader memory used:
+
+
+---------------  S Y S T E M  ---------------
+
+OS:
+ Windows 11 , 64 bit Build 22000 (10.0.22000.708)
+OS uptime: 3 days 6:16 hours
+Hyper-V role detected
+
+CPU: total 16 (initial active 16) (8 cores per cpu, 2 threads per core) family 6 model 165 stepping 5 microcode 0xe0, cx8, cmov, fxsr, ht, mmx, 3dnowpref, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, lzcnt, tsc, tscinvbit, avx, avx2, aes, erms, clmul, bmi1, bmi2, adx, fma, vzeroupper, clflush, clflushopt, hv
+Processor Information for all 16 processors :
+  Max Mhz: 2901, Current Mhz: 2901, Mhz Limit: 2901
+
+Memory: 4k page, system-wide physical 32479M (11693M free)
+TotalPageFile size 36585M (AvailPageFile size 390M)
+current process WorkingSet (physical memory assigned to process): 21M, peak: 21M
+current process commit charge ("private bytes"): 75M, peak: 583M
+
+vm_info: OpenJDK 64-Bit Server VM (17.0.12+1-b1087.25) for windows-amd64 JRE (17.0.12+1-b1087.25), built on 2024-08-30 by "builduser" with MS VC++ 16.10 / 16.11 (VS2019)
+
+END.
