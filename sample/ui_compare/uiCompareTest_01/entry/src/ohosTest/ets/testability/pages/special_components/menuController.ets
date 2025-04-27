@@ -42,7 +42,7 @@ struct getContextMenuControllerExample {
       Text(this.state).margin(30).id("getContext")
 
       Column() {
-        Image($r('app.media.startIcon'))
+        Image($r('app.media.icon'))
           .width(100)
           .height(100)
           .backgroundColor(0xAFEEEE)
