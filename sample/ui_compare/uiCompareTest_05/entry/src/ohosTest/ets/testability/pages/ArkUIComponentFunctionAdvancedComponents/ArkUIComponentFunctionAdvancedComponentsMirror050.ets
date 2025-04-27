@@ -30,7 +30,6 @@ struct ArkUIComponentFunctionAdvancedComponentsMirror050 {
           text: "operate",
           fontSize: 12,
           fontColor: Color.Blue,
-          fontFamily: "HarmonyOS Sans",
           labelMargin: { left: 20, right: 30 }
         },
         prefixSymbol: {
