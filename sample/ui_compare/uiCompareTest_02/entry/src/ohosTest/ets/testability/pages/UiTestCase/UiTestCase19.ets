@@ -13,12 +13,33 @@
  * limitations under the License.
  */
 
-
-
-import UiTestCase from './UiTestCase/UiTestCase.test'
-import  UiComponentTextCommonLineSpace from './UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace.test'
-export default function testsuite() {
-
-  UiTestCase();
-  UiComponentTextCommonLineSpace();
+@Entry
+@Component
+struct UiTestCase19 {
+  @State text: string = ''
+  build() {
+    Column() {
+      Text('')
+      {
+        Span('1/2  2/3')
+      }
+        .width('80%')
+        .height(55)
+        .fontColor(Color.Black)
+        .lineHeight(55)
+        .fontSize(40)
+        .textAlign(TextAlign.Center)
+        .fontFeature('"frac" on')
+      Text('')
+      {
+        Span('1/2  2/3')
+      }
+      .width('80%')
+      .height(55)
+      .fontColor(Color.Black)
+      .lineHeight(55)
+      .fontSize(40)
+      .textAlign(TextAlign.Center)
+    }
+  }
 }

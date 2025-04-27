@@ -15,25 +15,23 @@
 
 @Entry
 @Component
-struct UiComponentTextSpan01 {
-  myXComponentController: XComponentController = new XComponentController();
-
+struct UiTestCase24 {
+  @State text: string = ''
   build() {
-    Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Start }) {
-      XComponent({
-        id: 'xComponentId',
-        type: XComponentType.NODE,
-        libraryname: 'nativerender',
-        controller: this.myXComponentController
-      })
-      {
-        Text() {
-          Span('Hello World ! ')
-            .fontSize('20fp')
-            .fontColor(Color.Blue)
-            .fontWeight(FontWeight.Lighter)
-        }
-      }
+    Column() {
+      Text('123456789123456789123456789123456789')
+        .width('80%')
+        .height(55)
+        .fontColor(Color.Black)
+        .lineHeight(55)
+        .textAlign(TextAlign.Center)
+      Text('123456789123456789123456789123456789')
+        .width('80%')
+        .height(55)
+        .lineHeight(55)
+        .fontColor(Color.Black)
+        .textAlign(TextAlign.Center)
+        .fontFeature('"ss09" on')
     }
   }
 }
