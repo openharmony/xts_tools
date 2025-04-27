@@ -432,6 +432,834 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror018')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330 finish.`);
+      done()
+    })
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror020')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror021')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360 finish.`);
+      done()
+    })
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror022')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350 finish.`);
+      done()
+    })
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror023')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370 finish.`);
+      done()
+    })
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280'
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror025')
+      await Utils.sleep(3000)
+      let driver: Driver = Driver.create()
+      let directionRtl: Component = await driver.findComponent(ON.id('DirectionRtl'))
+      await directionRtl.click();
+      let directionAuto: Component = await driver.findComponent(ON.id('DirectionAuto'))
+      await directionAuto.click();
+      let directionLtr: Component = await driver.findComponent(ON.id('DirectionLtr'))
+      await directionLtr.click();
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280 finish.`);
+      done()
+    })
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror026')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror027')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror028')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror029')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror030')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430'
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror031')
+      await Utils.sleep(3000)
+      let driver: Driver = Driver.create()
+      let directionRtl: Component = await driver.findComponent(ON.id('DirectionRtl'))
+      await directionRtl.click();
+      let directionAuto: Component = await driver.findComponent(ON.id('DirectionAuto'))
+      await directionAuto.click();
+      let directionLtr: Component = await driver.findComponent(ON.id('DirectionLtr'))
+      await directionLtr.click();
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror032')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070 finish.`);
+      done()
+    })
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror034')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror035')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410 finish.`);
+      done()
+    })
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror037')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror038')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror039')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440 finish.`);
+      done()
+    })
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror041')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror042')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060 finish.`);
+      done()
+    })
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror044')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror045')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130'
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror046')
+      await Utils.sleep(3000)
+      let driver: Driver = Driver.create()
+      let directionRtl: Component = await driver.findComponent(ON.id('DirectionRtl'))
+      await directionRtl.click();
+      let directionAuto: Component = await driver.findComponent(ON.id('DirectionAuto'))
+      await directionAuto.click();
+      let directionLtr: Component = await driver.findComponent(ON.id('DirectionLtr'))
+      await directionLtr.click();
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130 finish.`);
+      done()
+    })
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror048')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror049')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror050')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror051')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror052')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror053')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160 finish.`);
+      done()
+    })
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror055')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror056')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180 finish.`);
+      done()
+    })
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200'
+      try {
+        i18n.System.setAppPreferredLanguage("ug");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror058')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror059')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190 finish.`);
+      done()
+    })
+
+
+    /**
+     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570
+     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570
+     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570
+     * @tc.level      : Level 3
+     */
+    it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570', 0, async (done: Function) => {
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570 start.`);
+      let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570'
+      try {
+        i18n.System.setAppPreferredLanguage("zh");
+        Logger.info(`${caseName}: call System.setSystemLanguage success.`);
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        Logger.error(`${caseName}: call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow('testability/pages/ArkUIComponentFunctionAdvancedComponents/ArkUIComponentFunctionAdvancedComponentsMirror060')
+      await Utils.sleep(3000)
+      windowSnap.snapShot(caseName)
+      await Utils.sleep(3000)
+      Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570 finish.`);
+      done()
+    })
 
   })
 }
