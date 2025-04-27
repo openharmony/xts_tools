@@ -25,6 +25,8 @@ import UIComponentOtherAlphabetIndexerWidth from './UIComponentOtherAlphabetInde
 import UIComponentOtherAlphabetIndexerIndexerAlign from './UIComponentOtherAlphabetIndexerIndexerAlignTest/UIComponentOtherAlphabetIndexerIndexerAlign.test'
 import UIComponentOtherAlphabetIndexerImprove from './UIComponentOtherAlphabetIndexerImproveTest/UIComponentOtherAlphabetIndexerImprove.test'
 import UIComponentOtherRefreshAnimation from './UIComponentOtherRefreshAnimationTest/UIComponentOtherRefreshAnimation.test'
+import UIComponentOtherAlphabetIndexerUX from './UIComponentOtherAlphabetIndexerUXTest/UIComponentOtherAlphabetIndexerUX.test'
+import UIComponentAlphabetIndexerAttributeAutocollapse from './UIComponentAlphabetIndexerAttributeAutocollapseTest/UIComponentAlphabetIndexerAttributeAutocollapse.test'
 
 export default function testsuite() {
   UIComponentScrollScrollBarScrollEdge();
@@ -38,5 +40,7 @@ export default function testsuite() {
   UIComponentOtherAlphabetIndexerWidth();
   UIComponentOtherAlphabetIndexerIndexerAlign();
   UIComponentOtherAlphabetIndexerImprove();
-  UIComponentOtherRefreshAnimation()
+  UIComponentOtherRefreshAnimation();
+  UIComponentOtherAlphabetIndexerUX();
+  UIComponentAlphabetIndexerAttributeAutocollapse();
 }
