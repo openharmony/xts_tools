@@ -20,6 +20,16 @@
     "testability/pages/UIRefreshComponentContent/UIRefreshComponentContent002",
     "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration001",
     "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration002",
-    "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration003"
+    "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration003",
+    "testability/pages/UIComponentOtherAlphabetIndexerInterface/UIComponentOtherAlphabetIndexerInterface001",
+    "testability/pages/UIComponentOtherAlphabetIndexerInterface/UIComponentOtherAlphabetIndexerInterface002",
+    "testability/pages/UIComponentOtherAlphabetIndexerWidth/UIComponentOtherAlphabetIndexerWidth001",
+    "testability/pages/UIComponentOtherAlphabetIndexerWidth/UIComponentOtherAlphabetIndexerWidth002",
+    "testability/pages/UIComponentOtherAlphabetIndexerIndexerAlign/UIComponentOtherAlphabetIndexerIndexerAlign001",
+    "testability/pages/UIComponentOtherAlphabetIndexerIndexerAlign/UIComponentOtherAlphabetIndexerIndexerAlign002",
+    "testability/pages/UIComponentOtherAlphabetIndexerImprove/UIComponentOtherAlphabetIndexerImprove001",
+    "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration004",
+    "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration005",
+    "testability/pages/UIComponentOtherRefreshAnimation/UIComponentOtherRefreshAnimation001"
   ]
 }

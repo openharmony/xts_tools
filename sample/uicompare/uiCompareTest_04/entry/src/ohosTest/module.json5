@@ -46,6 +46,9 @@
       },
       {
         "name":"ohos.permission.CAPTURE_SCREEN"
+      },
+      {
+        "name": "ohos.permission.UPDATE_CONFIGURATION"
       }
     ],
     "abilities": [

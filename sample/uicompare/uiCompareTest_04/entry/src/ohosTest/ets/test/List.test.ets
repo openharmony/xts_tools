@@ -20,6 +20,11 @@ import UIComponentOtherRefreshAbility from './UIComponentOtherRefreshAbilityTest
 import UIRefreshComponentContent from './UIRefreshComponentContentTest/UIRefreshComponentContent.test'
 import UIComponentRefreshPromptText from './UIComponentRefreshPromptTextTest/UIComponentRefreshpromptText.test'
 import UIComponentOtherAlphabetIndexerVibration from './UIComponentOtherAlphabetIndexerVibrationTest/UIComponentOtherAlphabetIndexerVibration.test'
+import UIComponentOtherAlphabetIndexerInterface from './UIComponentOtherAlphabetIndexerInterfaceTest/UIComponentOtherAlphabetIndexerInterface.test'
+import UIComponentOtherAlphabetIndexerWidth from './UIComponentOtherAlphabetIndexerWidthTest/UIComponentOtherAlphabetIndexerWidth.test'
+import UIComponentOtherAlphabetIndexerIndexerAlign from './UIComponentOtherAlphabetIndexerIndexerAlignTest/UIComponentOtherAlphabetIndexerIndexerAlign.test'
+import UIComponentOtherAlphabetIndexerImprove from './UIComponentOtherAlphabetIndexerImproveTest/UIComponentOtherAlphabetIndexerImprove.test'
+import UIComponentOtherRefreshAnimation from './UIComponentOtherRefreshAnimationTest/UIComponentOtherRefreshAnimation.test'
 
 export default function testsuite() {
   UIComponentScrollScrollBarScrollEdge();
@@ -28,5 +33,10 @@ export default function testsuite() {
   UIComponentOtherRefreshAbility();
   UIRefreshComponentContent();
   UIComponentRefreshPromptText();
-  UIComponentOtherAlphabetIndexerVibration()
+  UIComponentOtherAlphabetIndexerVibration();
+  UIComponentOtherAlphabetIndexerInterface();
+  UIComponentOtherAlphabetIndexerWidth();
+  UIComponentOtherAlphabetIndexerIndexerAlign();
+  UIComponentOtherAlphabetIndexerImprove();
+  UIComponentOtherRefreshAnimation()
 }

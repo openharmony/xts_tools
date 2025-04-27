@@ -93,6 +93,43 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100 finish.`);
       done();
     });
+    
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110
+     * @tc.name    EnableHapticFeedback set to true, release and switch index bar letters
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110 start.`);
+      Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration004");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      await driver.mouseScroll({x:370, y:990}, true, 5, 2072);
+      await Utils.sleep(1000);
+      windowSnap.snapShot('UIComponentOtherAlphabetIndexerVibration0110');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110 finish.`);
+      done();
+    });
 
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030
+     * @tc.name    EnableHapticFeedback set to true, release and switch index bar letters
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030 start.`);
+      Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration005");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      await driver.mouseScroll({x:370, y:990}, true, 5, 2072);
+      await Utils.sleep(1000);
+      windowSnap.snapShot('UIComponentOtherAlphabetIndexerVibration0030');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030 finish.`);
+      done();
+    });
   })
 }
