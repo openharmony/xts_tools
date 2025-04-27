@@ -14,11 +14,11 @@
  */
 
 
-//me
+
 import UiTestCase from './UiTestCase/UiTestCase.test'
 import  UiComponentTextCommonLineSpace from './UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace.test'
 export default function testsuite() {
-  //me
+
   UiTestCase();
   UiComponentTextCommonLineSpace();
 }
