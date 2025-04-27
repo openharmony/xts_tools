@@ -21,16 +21,16 @@ import {
 
 @Entry
 @Component
-struct ArkUIComponentFunctionAdvancedComponentsMirror001 {
+struct ArkUIComponentFunctionAdvancedComponentsMirror029 {
   @State iconTextCapsuleOptions: SegmentButtonOptions = SegmentButtonOptions.capsule({
     buttons: [
-      { text: 'icon1', icon: $r('app.media.startIcon'), selectedIcon: $r('app.media.foreground') },
-      { text: 'icon2', icon: $r('app.media.startIcon'), selectedIcon: $r('app.media.foreground') },
-      { text: 'icon3', icon: $r('app.media.startIcon'), selectedIcon: $r('app.media.foreground') }
+      { text: 'icon1', icon: $r('app.media.ic_public_delete_filled'), selectedIcon: $r('app.media.ic_public_delete') },
+      { text: 'icon2', icon: $r('app.media.ic_public_delete_filled'), selectedIcon: $r('app.media.ic_public_delete') },
+      { text: 'icon3', icon: $r('app.media.ic_public_delete_filled'), selectedIcon: $r('app.media.ic_public_delete') }
     ],
     multiply: true,
     imageSize: { width: 10, height: 10 },
-    direction: undefined
+    direction: Direction.Ltr
   })
   @State multiplySelectIconTextCapsuleSelectedIndexes: number[] = [1]
 

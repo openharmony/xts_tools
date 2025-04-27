@@ -21,7 +21,7 @@ import {
 
 @Entry
 @Component
-struct ArkUIComponentFunctionAdvancedComponentsMirror001 {
+struct ArkUIComponentFunctionAdvancedComponentsMirror041 {
   @State iconTextCapsuleOptions: SegmentButtonOptions = SegmentButtonOptions.capsule({
     buttons: [
       { text: 'icon1', icon: $r('app.media.startIcon'), selectedIcon: $r('app.media.foreground') },
@@ -30,7 +30,7 @@ struct ArkUIComponentFunctionAdvancedComponentsMirror001 {
     ],
     multiply: true,
     imageSize: { width: 10, height: 10 },
-    direction: undefined
+    direction: Direction.Rtl
   })
   @State multiplySelectIconTextCapsuleSelectedIndexes: number[] = [1]
 
