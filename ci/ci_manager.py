@@ -103,7 +103,7 @@ class XTSManager(Ci_Manager):
             if changeFileEntity.path == "test/xts/tools":
                 self._need_all = True
                 changeFileEntity.set_already_match_utils(True)
-            if changeFileEntity.path in MatchConfig.get_xts_path_list() and changeFileEntity.path in self._xts_root_dir:
+            if changeFileEntity.path in self._xts_root_dir:
                 # 只有当前编译的xts仓修改参与计算
                 ret = self.getTargetsPaths(changeFileEntity)
                 if ret == 1:

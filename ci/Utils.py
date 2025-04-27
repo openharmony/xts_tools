@@ -90,6 +90,7 @@ class MatchConfig:
     temple_list = []
     acts_All_template_ex_list = []
     xts_path_list = []
+    interface_path_list = []
 
     INTERFACE_BUNDLE_NAME_PATH = os.path.join(config_path, "ci_api_part_name.json")
     interface_js_data = {}
