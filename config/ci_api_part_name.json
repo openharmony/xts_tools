@@ -1015,6 +1015,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.form.LiveFormExtensionAbility.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.DriverExtensionAbility.d.ts",
             "bundle_name": [
                 "external_device_manager"
@@ -6231,6 +6238,13 @@
         },
         {
             "path": "interface/sdk-js/api/application/FormEditExtensionContext.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/application/LiveFormExtensionContext.d.ts",
             "bundle_name": [
                 "form_fwk"
             ],
