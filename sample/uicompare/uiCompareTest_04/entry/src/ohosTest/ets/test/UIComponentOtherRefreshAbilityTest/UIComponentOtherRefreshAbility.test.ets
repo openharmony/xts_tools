@@ -47,12 +47,11 @@ export default function UIComponentOtherRefreshAbility() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility001");
       await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherRefreshAbility0190_1');
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('refresh'));
       await button.click();
       await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherRefreshAbility0190_2');
+      windowSnap.snapShot('UIComponentOtherRefreshAbility0190');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190 finish.`);
       done();

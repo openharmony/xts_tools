@@ -93,7 +93,7 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100 finish.`);
       done();
     });
-    
+
     /*
      * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110
      * @tc.name    EnableHapticFeedback set to true, release and switch index bar letters

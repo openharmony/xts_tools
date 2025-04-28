@@ -16,9 +16,10 @@
 @Entry
 @Component
 struct UIComponentOtherRefreshAbility001 {
-  @State isRefreshing: boolean = true
+  @State isRefreshing: boolean = false
   @State message: string = 'Hello'
   @State refreshState: string = ''
+  @State refreshStateResult: string = '未上报状态'
   @State arr: String[] = ['0', '1', '2', '3', '4','5','6','7','8','9','10']
   private scrollController: Scroller = new Scroller()
 
@@ -30,6 +31,10 @@ struct UIComponentOtherRefreshAbility001 {
         .height('10%')
         .margin({ top: 20 })
         .key('UIComponentOtherRefreshAbility001_001')
+      Text('状态：' + this.refreshStateResult)
+        .fontSize(15)
+        .fontColor(Color.Blue)
+        .height('5%')
       Refresh({ refreshing: $$this.isRefreshing }) {
         Scroll(this.scrollController) {
           List() {
@@ -60,16 +65,25 @@ struct UIComponentOtherRefreshAbility001 {
       .onStateChange((refreshStatus: RefreshStatus) => {
         console.info('Refresh onStatueChange state is ' + refreshStatus);
         this.refreshState = refreshStatus.toString();
+        if(this.refreshState == RefreshStatus.Drag.toString()) {
+          this.refreshStateResult = '下拉距离小于刷新距离';
+        } else if(this.refreshState == RefreshStatus.OverDrag.toString()) {
+          this.refreshStateResult = '下拉距离超过刷新距离';
+        } else if(this.refreshState == RefreshStatus.Refresh.toString()) {
+          this.refreshStateResult = '会进入刷新状态'
+        } else {
+          this.refreshStateResult = '';
+        }
       })
       .backgroundColor(0x89CFF0)
-      .height('75%')
+      .height('70%')
 
       Row() {
         Button('refresh')
           .id('refresh')
           .stateEffect(true)
           .onClick(() => {
-            this.scrollController.scrollBy(0, 64)
+            this.scrollController.scrollBy(0, 1000)
           })
         Text(`RefreshState is ${this.refreshState}`)
           .fontSize(20)

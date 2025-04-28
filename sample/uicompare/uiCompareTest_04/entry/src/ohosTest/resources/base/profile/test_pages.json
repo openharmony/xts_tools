@@ -32,6 +32,9 @@
     "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration005",
     "testability/pages/UIComponentOtherRefreshAnimation/UIComponentOtherRefreshAnimation001",
     "testability/pages/UIComponentOtherAlphabetIndexerUX/UIComponentOtherAlphabetIndexerUX001",
-    "testability/pages/UIComponentAlphabetIndexerAttributeAutocollapse/UIComponentAlphabetIndexerAttributeAutocollapse001"
+    "testability/pages/UIComponentAlphabetIndexerAttributeAutocollapse/UIComponentAlphabetIndexerAttributeAutocollapse001",
+    "testability/pages/UIComponentMediaQualitys/UIComponentMediaQualitys001",
+    "testability/pages/UIComponentMediaSvgLinkImageColorFilter/UIComponentMediaSvgLinkImageColorFilter001",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible001"
   ]
 }

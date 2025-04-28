@@ -27,6 +27,9 @@ import UIComponentOtherAlphabetIndexerImprove from './UIComponentOtherAlphabetIn
 import UIComponentOtherRefreshAnimation from './UIComponentOtherRefreshAnimationTest/UIComponentOtherRefreshAnimation.test'
 import UIComponentOtherAlphabetIndexerUX from './UIComponentOtherAlphabetIndexerUXTest/UIComponentOtherAlphabetIndexerUX.test'
 import UIComponentAlphabetIndexerAttributeAutocollapse from './UIComponentAlphabetIndexerAttributeAutocollapseTest/UIComponentAlphabetIndexerAttributeAutocollapse.test'
+import UIComponentMediaQualitys from './UIComponentMediaQualitysTest/UIComponentMediaQualitys.test'
+import UIComponentMediaSvgLinkImageColorFilter from './UIComponentMediaSvgLinkImageColorFilterTest/UIComponentMediaSvgLinkImageColorFilter.test'
+import UIComponentScrollScrollAccessible from './UIComponentScrollScrollAccessibleTest/UIComponentScrollAccessible.test'
 
 export default function testsuite() {
   UIComponentScrollScrollBarScrollEdge();
@@ -43,4 +46,7 @@ export default function testsuite() {
   UIComponentOtherRefreshAnimation();
   UIComponentOtherAlphabetIndexerUX();
   UIComponentAlphabetIndexerAttributeAutocollapse();
+  UIComponentMediaQualitys();
+  UIComponentMediaSvgLinkImageColorFilter();
+  UIComponentScrollScrollAccessible();
 }
