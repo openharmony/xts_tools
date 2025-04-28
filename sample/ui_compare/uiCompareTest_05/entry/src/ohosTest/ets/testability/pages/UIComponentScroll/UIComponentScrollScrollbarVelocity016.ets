@@ -16,7 +16,7 @@ import { LengthMetrics, LengthUnit } from '@ohos.arkui.node';
 
 @Entry
 @Component
-struct UIComponentScrollScrollbarVelocity018 {
+struct UIComponentScrollScrollbarVelocity016 {
   scroller: Scroller = new Scroller()
   private arr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   build() {
@@ -25,9 +25,9 @@ struct UIComponentScrollScrollbarVelocity018 {
         .onClick(()=>{
           this.scroller.fling(1000)
         })
-        .id('ScrollbarVelocity018')
+        .id('ScrollbarVelocity016')
         .borderWidth(1)
-      List({ space: 12, initialIndex: 0, scroller: this.scroller }) {
+      List({ space: 5, initialIndex: 0, scroller: this.scroller }) {
         ForEach(this.arr, (item: number) => {
           ListItem() {
             Text('' + item)
@@ -41,13 +41,12 @@ struct UIComponentScrollScrollbarVelocity018 {
           }
         }, (item: number) => item.toString())
       }
-      .id('InterruptAnimation')
-      .height(324)
-      .width('100%')
-      .margin({ top: 12, left: '10%' })
       .onAppear(()=> {
         this.scroller.scrollEdge(Edge.Bottom)
       })
+      .height(324)
+      .width('100%')
+      .margin({ top: 12, left: '10%' })
     }.width('100%')
   }
 }

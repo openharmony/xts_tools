@@ -126,20 +126,6 @@ class Settings {
     });
   }
 
-  setWindowOrientation(windowClass: window.Window, orientation: window.Orientation) {
-    try {
-      windowClass.setPreferredOrientation(orientation, (err) => {
-        if (err.code) {
-          Logger.error(TAG, 'Failed to set window orientation. Cause: ' + JSON.stringify(err));
-          return;
-        }
-        Logger.info(TAG, 'Succeeded in setting window orientation.');
-      });
-    } catch (exception) {
-      Logger.error(TAG, 'Failed to set window orientation. Cause: ' + JSON.stringify(exception));
-    };
-  }
-
   destroyWindow(windowClass: window.Window) {
     //销毁窗口
     windowClass.destroyWindow((err) => {
@@ -235,28 +221,47 @@ class Settings {
     });
   }
 
-  async changeWindowOrientation(pageURI: string, orientation: window.Orientation) {
-
-    this.windowCreateType = "changeWindowOrientation"
-
-    window.getLastWindow(GlobalThis.getInstance().getContext('context'), async (err: BusinessError, data) => {
-      const errCode: number = err.code;
-      if (errCode) {
-        Logger.error(TAG, 'Failed to obtain the top Window. Cause : ' + JSON.stringify(err));
-        return;
-      }
-      Logger.info(TAG, 'succeed to obtain the top Window. Cause : ' + JSON.stringify(err));
-      this.windowClass = data;
-      await sleep(200)
-      this.loadContent(this.windowClass, pageURI)
-      await sleep(200)
-      this.setWindowOrientation(this.windowClass, orientation);
-      await sleep(200)
-      this.setWindowSystemBarEnable(this.windowClass, []);
-    });
+  async changeSize(width: number | undefined, height: number | undefined) {
+    if (width == undefined) {
+      width = Settings.DEFAULT_WIDTH;
+    }
+    if (height == undefined) {
+      height = Settings.DEFAULT_HEIGHT - Settings.DEFAULT_OFFSET_Y;
+    }
+    Logger.info(TAG, `,width=${width},height=${height}`)
+    this.changeWindowSize(this.windowClass!, width, height)
+    await sleep(200)
   }
 
+  async changeWindowOrientation(){
+    window.getLastWindow(GlobalThis.getInstance().getContext('context')).then((lastWindow)=>{
+      let orientation = this.windowClass!.getPreferredOrientation();
+      Logger.info(`before set window orientation: ${orientation}}`)
+      // 如果未定义 切成横屏
+      // 如果是竖屏 切成横屏
+      // 如果是横屏 切成竖屏
+      if(orientation== window.Orientation.UNSPECIFIED) {
+        orientation = window.Orientation.LANDSCAPE
+      } else if(orientation==window.Orientation.PORTRAIT) {
+        orientation = window.Orientation.LANDSCAPE
+      } else if(orientation = window.Orientation.LANDSCAPE) {
+        orientation = window.Orientation.PORTRAIT
+      }
 
+      try {
+        let promise = lastWindow.setPreferredOrientation(orientation);
+        promise.then(() => {
+          Logger.info('Succeeded in setting the window orientation.');
+          let orientation2 = lastWindow.getPreferredOrientation();
+          Logger.info(`after set window orientation: ${orientation2}}`)
+        }).catch((err: BusinessError) => {
+          Logger.error(`Failed to set the window orientation. Cause code: ${err.code}, message: ${err.message}`);
+        });
+      } catch (exception) {
+        Logger.error(`Failed to set window orientation. Cause code: ${exception.code}, message: ${exception.message}`);
+      }
+    })
+  }
 }
 
 export default new Settings()

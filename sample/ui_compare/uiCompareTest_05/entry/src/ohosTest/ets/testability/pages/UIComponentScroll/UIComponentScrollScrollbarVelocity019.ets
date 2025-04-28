@@ -16,38 +16,41 @@ import { LengthMetrics, LengthUnit } from '@ohos.arkui.node';
 
 @Entry
 @Component
-struct UIComponentScrollScrollbarVelocity018 {
+struct UIComponentScrollScrollbarVelocity019 {
   scroller: Scroller = new Scroller()
   private arr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   build() {
     Column({ space: 5 }) {
       Button('test')
         .onClick(()=>{
-          this.scroller.fling(1000)
+          this.scroller.fling(100)
         })
-        .id('ScrollbarVelocity018')
+        .id('ScrollbarVelocity019')
         .borderWidth(1)
-      List({ space: 12, initialIndex: 0, scroller: this.scroller }) {
-        ForEach(this.arr, (item: number) => {
-          ListItem() {
-            Text('' + item)
-              .width('90%')
-              .height(72)
-              .backgroundColor('#FFFFFF')
-              .borderRadius(24)
-              .fontSize(16)
-              .fontWeight(500)
-              .textAlign(TextAlign.Center)
+      List({ space: 5, initialIndex: 0 }) {
+        ListItem() {
+          List ({ space: 5, initialIndex: 0, scroller: this.scroller }) {
+            ForEach(this.arr, (item: number) => {
+              ListItem() {
+                Text('' + item)
+                  .width('90%')
+                  .height(72)
+                  .backgroundColor('#FFFFFF')
+                  .borderRadius(24)
+                  .fontSize(16)
+                  .fontWeight(500)
+                  .textAlign(TextAlign.Center)
+              }
+            }, (item: number) => item.toString())
           }
-        }, (item: number) => item.toString())
+          .height(324)
+          .width('100%')
+          .margin({ top: 12, left: '10%' })
+          .onAppear(()=> {
+            this.scroller.scrollEdge(Edge.Bottom)
+          })
+        }
       }
-      .id('InterruptAnimation')
-      .height(324)
-      .width('100%')
-      .margin({ top: 12, left: '10%' })
-      .onAppear(()=> {
-        this.scroller.scrollEdge(Edge.Bottom)
-      })
     }.width('100%')
   }
 }

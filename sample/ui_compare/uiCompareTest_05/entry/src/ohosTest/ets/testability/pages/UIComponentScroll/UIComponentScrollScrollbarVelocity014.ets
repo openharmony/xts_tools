@@ -16,40 +16,34 @@ import { LengthMetrics, LengthUnit } from '@ohos.arkui.node';
 
 @Entry
 @Component
-struct UIComponentScrollScrollbarVelocity023 {
+struct UIComponentScrollScrollbarVelocity014 {
   scroller: Scroller = new Scroller()
-  @State numbers1: String[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
-  @State numbers2: String[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  private arr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   build() {
     Column({ space: 5 }) {
       Button('test')
         .onClick(()=>{
           this.scroller.fling(-1000)
         })
-        .id('ScrollbarVelocity023')
+        .id('ScrollbarVelocity014')
         .borderWidth(1)
-      Grid(this.scroller) {
-        ForEach(this.numbers1, (day: string) => {
-          ForEach(this.numbers1, (day: string) => {
-            GridItem() {
-              Text(day)
-                .fontSize(16)
-                .backgroundColor(0xF9CF93)
-                .width('100%')
-                .height('100%')
-                .textAlign(TextAlign.Center)
-            }
-          }, (day: string) => day)
-        }, (day: string) => day)
+      List({ space: 5, initialIndex: 0, scroller: this.scroller }) {
+        ForEach(this.arr, (item: number) => {
+          ListItem() {
+            Text('' + item)
+              .width('90%')
+              .height(72)
+              .backgroundColor('#FFFFFF')
+              .borderRadius(24)
+              .fontSize(16)
+              .fontWeight(500)
+              .textAlign(TextAlign.Center)
+          }
+        }, (item: number) => item.toString())
       }
-      .columnsTemplate('1fr 1fr 1fr 1fr 1fr')
-      .friction(2)
-      .columnsGap(10)
-      .rowsGap(10)
-      .width('90%')
-      .backgroundColor(0xFAEEE0)
-      .height(300)
-
+      .height(324)
+      .width('100%')
+      .margin({ top: 12, left: '10%' })
     }.width('100%')
   }
 }
