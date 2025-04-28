@@ -17,7 +17,8 @@
 @Component
 struct UIComponentScrollScrollBarVelocity002 {
   @State message: string = 'Hello'
-  scroller: Scroller = new Scroller()
+  scroller1: Scroller = new Scroller()
+  scroller2: Scroller = new Scroller()
   private arr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
   build() {
@@ -28,33 +29,63 @@ struct UIComponentScrollScrollBarVelocity002 {
         .margin({ top: 20 })
         .key('UIComponentScrollScrollBarVelocity002_001')
       Stack({ alignContent: Alignment.TopStart }) {
-        Scroll(this.scroller) {
+        Row() {
           Column() {
-            ForEach(this.arr, (item: number) => {
-              Text(item.toString())
-                .width('90%')
-                .height(150)
-                .backgroundColor(0xFFFFFF)
-                .borderRadius(15)
-                .fontSize(16)
-                .textAlign(TextAlign.Center)
-                .margin({ top: 10 })
-            }, (item: string) => item)
+            Text('friction(0)')
+              .fontSize(20)
+            Scroll(this.scroller1) {
+              Column() {
+                ForEach(this.arr, (item: number) => {
+                  Text(item.toString())
+                    .width('90%')
+                    .height(150)
+                    .backgroundColor(0xFFFFFF)
+                    .borderRadius(15)
+                    .fontSize(16)
+                    .textAlign(TextAlign.Center)
+                    .margin({ top: 10 })
+                }, (item: string) => item)
+              }
+            }
+            .scrollBar(BarState.On)
+            .scrollable(ScrollDirection.Vertical)
+            .scrollBarColor(Color.Blue)
+            .initialOffset({ xOffset: 450 })
           }
-          .width('100%')
+          .width('50%')
+          Column() {
+            Text('friction(2)')
+              .fontSize(20)
+            Scroll(this.scroller2) {
+              Column() {
+                ForEach(this.arr, (item: number) => {
+                  Text(item.toString())
+                    .width('90%')
+                    .height(150)
+                    .backgroundColor(0xFFFFFF)
+                    .borderRadius(15)
+                    .fontSize(16)
+                    .textAlign(TextAlign.Center)
+                    .margin({ top: 10 })
+                }, (item: string) => item)
+              }
+            }
+            .scrollBar(BarState.On)
+            .scrollable(ScrollDirection.Vertical)
+            .scrollBarColor(Color.Blue)
+            .initialOffset({ xOffset: 450 })
+            .friction(2)
+          }
+          .width('50%')
         }
-        .scrollBar(BarState.On)
-        .scrollable(ScrollDirection.Vertical)
-        .scrollBarColor(Color.Blue)
-        .initialOffset({ yOffset: 470 })
-        .friction(2)
 
         Button('fling -1000')
           .id('scroll')
           .height('5%')
           .stateEffect(true)
           .onClick(() => {
-            this.scroller.fling(-1000)
+            this.scroller1.fling(-1000);
+            this.scroller2.fling(-1000);
           })
       }
       .backgroundColor(0xDCDCDC)

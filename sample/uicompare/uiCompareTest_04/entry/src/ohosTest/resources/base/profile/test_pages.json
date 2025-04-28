@@ -30,6 +30,8 @@
     "testability/pages/UIComponentOtherAlphabetIndexerImprove/UIComponentOtherAlphabetIndexerImprove001",
     "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration004",
     "testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration005",
-    "testability/pages/UIComponentOtherRefreshAnimation/UIComponentOtherRefreshAnimation001"
+    "testability/pages/UIComponentOtherRefreshAnimation/UIComponentOtherRefreshAnimation001",
+    "testability/pages/UIComponentOtherAlphabetIndexerUX/UIComponentOtherAlphabetIndexerUX001",
+    "testability/pages/UIComponentAlphabetIndexerAttributeAutocollapse/UIComponentAlphabetIndexerAttributeAutocollapse001"
   ]
 }
