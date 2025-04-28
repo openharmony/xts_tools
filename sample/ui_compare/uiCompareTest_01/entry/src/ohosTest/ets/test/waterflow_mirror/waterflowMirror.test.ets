@@ -41,7 +41,7 @@ export default function waterflowMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0270_321
-     * @tc.name   : Verify the reference of the string array type and concatenate it.
+     * @tc.name   : Testing cachedCount when using rowsTemplate: 1fr 1fr 1fr layout with mirroring effect
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -62,7 +62,8 @@ export default function waterflowMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0110_259
-     * @tc.name   : Verify the reference of the string array type and concatenate it.
+     * @tc.name   : Testing keyboard tab focus navigation when using columnsTemplate: 1fr 1fr 1fr layout with mirroring
+     * effect (with button placement)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +88,8 @@ export default function waterflowMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0260_569
-     * @tc.name   : Verify the reference of the string array type and concatenate it.
+     * @tc.name   : Testing keyboard tab focus navigation when using rowsTemplate: 1fr 1fr 1fr layout with mirroring
+     * effect (with button placement)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -107,6 +109,50 @@ export default function waterflowMirrorTest() {
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0260_569_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0260_569 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0380_779
+     * @tc.name   : Testing keyboard focus navigation when using LayoutDirection layout with mirroring effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0380_779', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0380_779 start.`);
+      Settings.createWindow("testability/pages/waterflow_mirror/waterflow04")
+      await Utils.sleep(1000)
+      let driver:Driver = Driver.create();
+      let button: Component = await driver.findComponent(ON.id('changeLayoutDirection04'));
+      await button.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2049);
+      await driver.triggerKey(2049);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0380_779_01')
+      await Utils.sleep(1000)
+
+      await button.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2049);
+      await driver.triggerKey(2049);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0380_779_02')
+      await Utils.sleep(1000)
+
+      await button.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2049);
+      await driver.triggerKey(2049);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0380_779_03')
+      await Utils.sleep(1000)
+
+      await button.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2049);
+      await driver.triggerKey(2049);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0380_779_04')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0380_779 finish.`);
       done()
     })
   })
