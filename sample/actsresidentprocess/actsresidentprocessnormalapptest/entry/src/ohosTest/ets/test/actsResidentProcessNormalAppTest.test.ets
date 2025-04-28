@@ -63,7 +63,7 @@ export default function residentProcessNormalAppTest() {
         done();
       } catch (paramError) {
         hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
-        expect(paramError.code).assertEqual(202);
+        expect().assertFail();
         done();
       }
 

@@ -59,7 +59,7 @@ export default function residentProcessSystemAppTest() {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
             errObject = err;
           });
-        expect(errObject.code).assertEqual(401);
+        expect().assertFail();
         done();
       } catch (paramError) {
         hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
@@ -89,7 +89,7 @@ export default function residentProcessSystemAppTest() {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
             errObject = err;
           });
-        expect(errObject.code).assertEqual(401);
+        expect().assertFail();
         done();
       } catch (paramError) {
         hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
@@ -119,7 +119,7 @@ export default function residentProcessSystemAppTest() {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
             errObject = err;
           });
-        expect(errObject.code).assertEqual(401);
+        expect().assertFail();
         done();
       } catch (paramError) {
         hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
@@ -149,7 +149,7 @@ export default function residentProcessSystemAppTest() {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
             errObject = err;
           });
-        expect(errObject.code).assertEqual(401);
+        expect().assertFail();
         done();
       } catch (paramError) {
         hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
@@ -179,7 +179,7 @@ export default function residentProcessSystemAppTest() {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
             errObject = err;
           });
-        expect(errObject.code).assertEqual(401);
+        expect().assertFail();
         done();
       } catch (paramError) {
         hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
