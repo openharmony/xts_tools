@@ -16,17 +16,17 @@ import { LengthMetrics, LengthUnit } from '@ohos.arkui.node';
 
 @Entry
 @Component
-struct UIComponentScrollScrollbarVelocity008 {
+struct UIComponentScrollScrollbarVelocity010 {
   scroller: Scroller = new Scroller()
   build() {
     Column({ space: 5 }) {
       Button('test')
         .onClick(()=>{
-          this.scroller.fling(100)
+          this.scroller.fling(-100)
         })
-        .id('ScrollbarVelocity008')
+        .id('ScrollbarVelocity010')
         .borderWidth(1)
-        WaterFlow({scroller: this.scroller}){
+      WaterFlow({scroller: this.scroller}){
           FlowItem(){
             Text('1')
               .width(30.3).borderWidth(1).height(40.4)
@@ -68,13 +68,10 @@ struct UIComponentScrollScrollbarVelocity008 {
               .width(30.2).borderWidth(1).height(40.4)
           }
         }
-        .id('InterruptAnimation')
-        .onAppear(()=>{
-          this.scroller.scrollEdge(Edge.Bottom)
-        })
-        .layoutDirection(FlexDirection.RowReverse)
+        .layoutDirection(FlexDirection.ColumnReverse)
         .width(100.5)
         .height(100.4)
     }.width('100%')
+    .height('100%')
   }
 }

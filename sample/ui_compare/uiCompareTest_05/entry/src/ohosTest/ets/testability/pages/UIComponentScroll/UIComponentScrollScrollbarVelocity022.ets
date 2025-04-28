@@ -18,7 +18,7 @@ import { LengthMetrics, LengthUnit } from '@ohos.arkui.node';
 @Component
 struct UIComponentScrollScrollbarVelocity022 {
   scroller: Scroller = new Scroller()
-  @State numbers1: String[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  @State numbers1: String[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
   @State numbers2: String[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
   build() {
     Column({ space: 5 }) {

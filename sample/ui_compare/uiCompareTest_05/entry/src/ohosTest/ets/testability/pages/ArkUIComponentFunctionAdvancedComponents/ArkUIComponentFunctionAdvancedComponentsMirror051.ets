@@ -22,7 +22,7 @@ struct ArkUIComponentFunctionAdvancedComponentsMirror051 {
     Column({ space: 10 }) {
       Chip({
         prefixIcon: {
-          src: $r('app.media.ic_gallery_collage'),
+          src: $r('app.media.ic_public_delete'),
           size: { width: 16, height: 16 },
           fillColor: Color.Red
         },
@@ -33,7 +33,7 @@ struct ArkUIComponentFunctionAdvancedComponentsMirror051 {
           labelMargin: { left: 20, right: 30 }
         },
         suffixIcon: {
-          src: $r('app.media.ic_contacts_delete'),
+          src: $r('app.media.ic_public_delete_filled'),
           size: { width: 16, height: 16 },
           fillColor: Color.Red
         },

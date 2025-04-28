@@ -22,7 +22,7 @@ struct ArkUIComponentFunctionAdvancedComponentsMirror050 {
       Chip({
         direction: Direction.Ltr,
         prefixIcon: {
-          src: $r('app.media.ic_gallery_collage'),
+          src: $r('app.media.ic_public_delete'),
           size: { width: 16, height: 16 },
           fillColor: Color.Red
         },
@@ -37,7 +37,7 @@ struct ArkUIComponentFunctionAdvancedComponentsMirror050 {
             activated: new SymbolGlyphModifier($r('sys.symbol.ohos_star')).fontSize(16).fontColor([Color.Red]),
         },
         suffixIcon: {
-          src: $r('app.media.ic_contacts_delete'),
+          src: $r('app.media.ic_public_delete_filled'),
           size: { width: 16, height: 16 },
           fillColor: Color.Red
         },

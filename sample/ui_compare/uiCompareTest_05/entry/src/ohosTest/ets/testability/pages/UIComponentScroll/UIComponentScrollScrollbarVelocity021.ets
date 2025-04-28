@@ -16,40 +16,42 @@ import { LengthMetrics, LengthUnit } from '@ohos.arkui.node';
 
 @Entry
 @Component
-struct UIComponentScrollScrollbarVelocity023 {
+struct UIComponentScrollScrollbarVelocity021 {
   scroller: Scroller = new Scroller()
   @State numbers1: String[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
-  @State numbers2: String[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
   build() {
     Column({ space: 5 }) {
       Button('test')
         .onClick(()=>{
-          this.scroller.fling(-1000)
+          this.scroller.scrollEdge(Edge.End)
+          this.scroller.fling(1000)
         })
-        .id('ScrollbarVelocity023')
+        .id('ScrollbarVelocity021')
         .borderWidth(1)
-      Grid(this.scroller) {
-        ForEach(this.numbers1, (day: string) => {
-          ForEach(this.numbers1, (day: string) => {
-            GridItem() {
-              Text(day)
-                .fontSize(16)
-                .backgroundColor(0xF9CF93)
-                .width('100%')
-                .height('100%')
-                .textAlign(TextAlign.Center)
-            }
-          }, (day: string) => day)
-        }, (day: string) => day)
+      Grid() {
+        GridItem() {
+          Grid(this.scroller) {
+            ForEach(this.numbers1, (day2: string) => {
+              ForEach(this.numbers1, (day: string) => {
+                GridItem() {
+                  Text(day)
+                    .fontSize(16)
+                    .backgroundColor(0xF9CF93)
+                    .width('100%')
+                    .height('100%')
+                    .textAlign(TextAlign.Center)
+                }
+              }, (day: string) => day)
+            }, (day2: string) => day2)
+          }
+          .rowsTemplate('1fr 1fr 1fr 1fr 1fr')
+          .columnsGap(10)
+          .rowsGap(10)
+          .width('90%')
+          .backgroundColor(0xFAEEE0)
+          .height(300)
+        }
       }
-      .columnsTemplate('1fr 1fr 1fr 1fr 1fr')
-      .friction(2)
-      .columnsGap(10)
-      .rowsGap(10)
-      .width('90%')
-      .backgroundColor(0xFAEEE0)
-      .height(300)
-
     }.width('100%')
   }
 }
