@@ -24,7 +24,7 @@ struct UIComponentScrollScrollbarVelocity028 {
     Column({ space: 5 }) {
       Button('test')
         .onClick(()=>{
-          this.scroller.fling(100)
+          this.scroller.fling(1000)
         })
         .id('ScrollbarVelocity028')
         .borderWidth(1)

@@ -46,6 +46,9 @@ struct UIComponentScrollScrollbarVelocity017 {
       .width('100%')
       .margin({ top: 12, left: '10%' })
       .friction(0.6)
+      .onAppear(()=>{
+        this.scroller.scrollEdge(Edge.End)
+      })
     }.width('100%')
   }
 }

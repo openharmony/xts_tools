@@ -182,7 +182,7 @@ export default function UIComponentScrollScrollbarVelocity() {
       let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity008'))
       let component2: Component = await driver.findComponent(ON.id('InterruptAnimation'))
       await component.click();
-      await component2.click();
+      await component2.longClick();
       windowSnap.snapShot(caseName);
       await Utils.sleep(3000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190 finish.`);
@@ -348,7 +348,7 @@ export default function UIComponentScrollScrollbarVelocity() {
       let component2: Component = await driver.findComponent(ON.id('InterruptAnimation'))
       await component.click();
       await Utils.sleep(1000)
-      await component2.click();
+      await component2.longClick();
       windowSnap.snapShot(caseName);
       await Utils.sleep(3000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290 finish.`);
@@ -455,7 +455,7 @@ export default function UIComponentScrollScrollbarVelocity() {
       let component: Component = await driver.findComponent(ON.id('ScrollbarVelocity024'))
       let component2: Component = await driver.findComponent(ON.id('InterruptAnimation'))
       await component.click();
-      await component2.click();
+      await component2.longClick();
       windowSnap.snapShot(caseName)
       await Utils.sleep(3000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0090 finish.`);

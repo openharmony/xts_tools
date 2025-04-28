@@ -22,50 +22,50 @@ struct UIComponentScrollScrollbarVelocity008 {
     Column({ space: 5 }) {
       Button('test')
         .onClick(()=>{
-          this.scroller.fling(100)
+          this.scroller.fling(1000)
         })
         .id('ScrollbarVelocity008')
         .borderWidth(1)
         WaterFlow({scroller: this.scroller}){
           FlowItem(){
             Text('1')
-              .width(30.3).borderWidth(1).height(40.4)
+              .width(50.3).borderWidth(1).height(40.4)
           }
           FlowItem(){
             Text('2')
-              .width(30.2).borderWidth(1).height(40.5)
+              .width(50.2).borderWidth(1).height(40.5)
           }
           FlowItem(){
             Text('3')
-              .width(30.4).borderWidth(1).height(40.4)
+              .width(50.4).borderWidth(1).height(40.4)
           }
           FlowItem(){
             Text('4')
-              .width(30.8).borderWidth(1).height(40.5)
+              .width(50.8).borderWidth(1).height(40.5)
           }
           FlowItem(){
             Text('5')
-              .width(30.8).borderWidth(1).height(40.4)
+              .width(50.8).borderWidth(1).height(40.4)
           }
           FlowItem(){
             Text('6')
-              .width(30.2).borderWidth(1).height(40.5)
+              .width(50.2).borderWidth(1).height(40.5)
           }
           FlowItem(){
             Text('7')
-              .width(30.2).borderWidth(1).height(40.4)
+              .width(50.2).borderWidth(1).height(40.4)
           }
           FlowItem(){
             Text('8')
-              .width(30.2).borderWidth(1).height(40.5)
+              .width(50.2).borderWidth(1).height(40.5)
           }
           FlowItem(){
             Text('9')
-              .width(30.2).borderWidth(1).height(40.4)
+              .width(50.2).borderWidth(1).height(40.4)
           }
           FlowItem(){
             Text('10')
-              .width(30.2).borderWidth(1).height(40.4)
+              .width(50.2).borderWidth(1).height(40.4)
           }
         }
         .id('InterruptAnimation')
