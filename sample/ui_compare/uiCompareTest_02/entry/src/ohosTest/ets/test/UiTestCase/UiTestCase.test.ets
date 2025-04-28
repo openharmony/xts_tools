@@ -1,18 +1,3 @@
-/*
- * Copyright (c) 2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
 import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
@@ -522,5 +507,272 @@ export default function UiTestCase() {
       done()
     })
 
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035
+     * @tc.name    Attribute value setting outlier "1" | 0”
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase27")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034
+     * @tc.name    The attribute value is set to an illegal value
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase28")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040
+     * @tc.name    The attribute value is set to an exception string value
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase29")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033
+     * @tc.name    The attribute value is set to the normal value on | off
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase30")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043
+     * @tc.name    The attribute value is set to a normal value of 1 | 0
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase31")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044
+     * @tc.name    Set the fontFeature multiple times
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase32")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048
+     * @tc.name    Set fontFeature to the hwid property
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase33")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019
+     * @tc.name    The value of the on|off attribute is not set
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase34")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041
+     * @tc.name    In inline mode (TextArea/TextInput), set the fontFeature text style
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase35")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037
+     * @tc.name    Dynamically switch the style mode of the component to view the display of text styles
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase36")
+      await Utils.sleep(1000)
+      let driver: Driver=Driver.create()
+      let button: Component = await driver.findComponent(ON.id('UiTestCase36'))
+      await button.click()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023
+     * @tc.name    Dynamically switch the style mode of the component to view the display of text styles
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase37")
+      await Utils.sleep(1000)
+      let driver: Driver=Driver.create()
+      await driver.longClick(60,100)
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:300, y:200}, MouseButton.MOUSE_BUTTON_LEFT, 2072);
+      await driver.mouseClick({x:150, y:200}, MouseButton.MOUSE_BUTTON_LEFT, 2072);
+      await driver.longClick(60,300)
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:60, y:230}, MouseButton.MOUSE_BUTTON_LEFT, 2072)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080
+     * @tc.name    The start position is less than 0 and the end position is equal to 0
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase38")
+      await Utils.sleep(1000)
+      let driver: Driver=Driver.create()
+      let button: Component = await driver.findComponent(ON.id('UiTestCase38_button'))
+      let text: Component = await driver.findComponent(ON.id('UiTestCase38_text'))
+      await text.inputText('aaaa')
+      await button.click()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047
+     * @tc.name    Set fontFeature to vert
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase39")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026
+     * @tc.name    Set fontFeature to ss07
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026 start.`);
+      Settings.createWindow("testability/pages/UiTestCase/UiTestCase40")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026 finish.`);
+      done()
+    })
   })
 }
