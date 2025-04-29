@@ -18,6 +18,26 @@
     "testability/pages/UITestCase/UITestCase014",
     "testability/pages/UITestCase/UITestCase015",
     "testability/pages/UITestCase/UITestCase016",
-    "testability/pages/UITestCase/UITestCase017"
+    "testability/pages/UITestCase/UITestCase017",
+    "testability/pages/UIFrameworkTestCase/UIFrameworkTestCase001",
+    "testability/pages/UIFrameworkTestCase/UIFrameworkTestCase002",
+    "testability/pages/UIFrameworkTestCase/UIFrameworkTestCase005",
+    "testability/pages/UIFrameworkTestCase/UIFrameworkTestCase006",
+    "testability/pages/UIFrameworkTestCase/UIFrameworkTestCase007",
+    "testability/pages/UIFrameworkTestCase/UIFrameworkTestCase008",
+    "testability/pages/UIFrameworkTestCase/UIFrameworkTestCase009",
+    "testability/pages/UIFrameworkTestCase/UIFrameworkTestCase010",
+    "testability/pages/UIFrameworkTestCase/UIFrameworkTestCase011",
+    "testability/pages/UIFrameworkTestCase/UIFrameworkTestCase012",
+    "testability/pages/UIAttributeModifierTestCase/UIAttributeModifierTestCase001",
+    "testability/pages/UIAttributeModifierTestCase/UIAttributeModifierTestCase002",
+    "testability/pages/UITransformationTestCase/UITransformationTestCase001",
+    "testability/pages/UITransformationTestCase/UITransformationTestCase002",
+    "testability/pages/UITransformationTestCase/UITransformationTestCase003",
+    "testability/pages/UITransformationTestCase/UITransformationTestCase004",
+    "testability/pages/UIRadialGradientTestCase/UIRadialGradientTestCase001",
+    "testability/pages/UIPositionOffsetTestCase/UIPositionOffsetTestCase001",
+    "testability/pages/UIPositionOffsetTestCase/UIPositionOffsetTestCase002",
+    "testability/pages/UIBGSeriableTestCase/UIBGSeriableTestCase001"
   ]
 }

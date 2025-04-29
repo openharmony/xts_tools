@@ -15,8 +15,20 @@
 
 import demoTest from  './Demo.test'
 import UITestCaseTest from  './UITestCaseTest/UITestCase.test'
+import UIFrameworkTestCaseTest from './UIFrameworkTest/UIFrameworkTestCase.test'
+import UIAttributeModifierTest from './UIAttributeModifierTest/UIAttributeModifierTestCase.test'
+import UITransformationTest from './UTransformationTest/UIAttributeModifierTestCase.test'
+import UIRadialGradientTest from './UIRadialGradientTest/UIRadialGradientTestCase.test'
+import UIPositionOffsetTest from './UIPositionOffsetTest/UIPositionOffsetTestCase.test'
+import UIBGSeriableTest from './UIBGSeriableTest/UIBGSeriableTestCase.test'
 
 export default function testsuite() {
   demoTest();
   UITestCaseTest();
+  UIFrameworkTestCaseTest();
+  UIAttributeModifierTest();
+  UITransformationTest();
+  UIRadialGradientTest();
+  UIPositionOffsetTest();
+  UIBGSeriableTest();
 }
