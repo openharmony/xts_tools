@@ -44,12 +44,12 @@ struct Index {
           .width('100%')
           .height('90%')
           .onTerminated((info) => {
-            console.log("EntryEmbeddedUIExtAbility Index2: onTerminated, info:" + JSON.stringify(info))
+            console.log("EntryEmbeddedUIExtAbility Index2: onTerminated, info:" + JSON.stringify(info));
             this.message = 'Termination: code = ' + info.code + ', want = ' + JSON.stringify(info.want);
             this.context.terminateSelf()
           })
           .onError((error) => {
-            console.log("EntryEmbeddedUIExtAbility Index2: onError, error:" + JSON.stringify(error))
+            console.log("EntryEmbeddedUIExtAbility Index2: onError, error:" + JSON.stringify(error));
             this.message = 'Error: code = ' + error.code;
           })
       }.width('100%')
