@@ -19,14 +19,14 @@ struct UiTestCase40 {
   @State text: string = ''
   build() {
     Column() {
-      Text('HarmonyOS')
+      Text('Hello world')
         .width('80%')
         .height(55)
         .fontSize(40)
         .fontColor(Color.Black)
         .lineHeight(55)
         .textAlign(TextAlign.Center)
-      Text('HarmonyOS')
+      Text('Hello world')
         .width('80%')
         .height(55)
         .fontSize(40)
