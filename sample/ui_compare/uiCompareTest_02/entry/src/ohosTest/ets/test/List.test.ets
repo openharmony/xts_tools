@@ -17,8 +17,10 @@
 
 import UiTestCase from './UiTestCase/UiTestCase.test'
 import  UiComponentTextCommonLineSpace from './UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace.test'
+import  UiComponentTextRicheditor from './UiComponentTextRicheditor/UiComponentTextRicheditor.test'
 export default function testsuite() {
 
   UiTestCase();
   UiComponentTextCommonLineSpace();
+  UiComponentTextRicheditor();
 }
