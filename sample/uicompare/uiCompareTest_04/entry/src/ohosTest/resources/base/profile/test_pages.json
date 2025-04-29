@@ -44,6 +44,12 @@
     "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible007",
     "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible008",
     "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible009",
-    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible010"
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible010",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible011",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible012",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible013",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible014",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible015",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible016"
   ]
 }

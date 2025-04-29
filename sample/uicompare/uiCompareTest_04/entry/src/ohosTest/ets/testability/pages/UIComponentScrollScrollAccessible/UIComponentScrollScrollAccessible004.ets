@@ -19,7 +19,7 @@ struct UIComponentScrollScrollAccessible004 {
   @State message: string = 'Hello'
   scroller: Scroller = new Scroller()
   private arr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-  @State scrollOffSet: number = -1;
+  @State scrollOffSet: number = 0;
 
   build() {
     Column() {
@@ -31,40 +31,24 @@ struct UIComponentScrollScrollAccessible004 {
       Stack({ alignContent: Alignment.TopStart }) {
         Scroll(this.scroller) {
           Column() {
-            Button('1')
-              .height(100)
-              .stateEffect(true)
-              .onClick(() => {
-              })
-            Button('2')
-              .height(100)
-              .stateEffect(true)
-              .onClick(() => {
-              })
-            Button('get scrollOffSet')
-              .id('getScrollOffSet')
-              .height(100)
-              .stateEffect(true)
-              .onClick(() => {
-                this.scrollOffSet = this.scroller.currentOffset().yOffset;
-                console.info(`after scrollTo scrollOffSet is ${this.scrollOffSet}`);
-              })
             ForEach(this.arr, (item: number) => {
-              Text(item.toString())
-                .width('90%')
-                .height(150)
-                .backgroundColor(0xFFFFFF)
-                .borderRadius(15)
-                .fontSize(16)
-                .textAlign(TextAlign.Center)
+              Button('Button' + item)
+                .type(ButtonType.Capsule)
+                .height('25%')
                 .margin({ top: 10 })
-            }, (item: string) => item)
+                // .width('50%')
+            }, (item: string) => item);
           }
           .width('100%')
         }
         .scrollBar(BarState.On)
+        .scrollBarWidth(12)
         .scrollable(ScrollDirection.Vertical)
         .scrollBarColor(Color.Blue)
+        .onDidScroll((xOffset: number, yOffset: number, scrollState: ScrollState) => {
+          console.info(`onScroll scrollState = ScrollState` + scrollState + `, scrollOffset = ` + yOffset);
+          this.scrollOffSet += yOffset;
+        })
         }
       .backgroundColor(0xDCDCDC)
       .width('100%')

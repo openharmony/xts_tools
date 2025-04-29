@@ -30,7 +30,7 @@ struct UIComponentScrollScrollAccessible008 {
         .margin({ top: 20 })
         .key('UIComponentScrollScrollAccessible008_001')
       Stack({ alignContent: Alignment.TopStart }) {
-        List({ space: 20, initialIndex: 10 }) {
+        List({ space: 20, initialIndex: 0 }) {
           ForEach(this.arr, (item: number) => {
             ListItem() {
               Text('' + item)
@@ -55,7 +55,7 @@ struct UIComponentScrollScrollAccessible008 {
         .edgeEffect(EdgeEffect.Spring)
         .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
           console.info(`onScroll scrollState = ScrollState` + scrollState + `, scrollOffset = ` + scrollOffset);
-          this.scrollOffSet = scrollOffset;
+          this.scrollOffSet += scrollOffset;
         })
 
         Column() {

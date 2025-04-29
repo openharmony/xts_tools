@@ -39,6 +39,7 @@ struct UIComponentScrollScrollAccessible005 {
         }
         .listDirection(Axis.Vertical)
         .scrollBar(BarState.On)
+        .scrollBarWidth(12)
         .scrollBarColor(Color.Blue)
         .divider({ strokeWidth: 2, color: 0xFFFFFF, startMargin: 20, endMargin: 20 })
         .edgeEffect(EdgeEffect.Spring)
