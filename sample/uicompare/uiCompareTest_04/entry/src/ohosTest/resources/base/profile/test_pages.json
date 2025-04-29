@@ -35,6 +35,15 @@
     "testability/pages/UIComponentAlphabetIndexerAttributeAutocollapse/UIComponentAlphabetIndexerAttributeAutocollapse001",
     "testability/pages/UIComponentMediaQualitys/UIComponentMediaQualitys001",
     "testability/pages/UIComponentMediaSvgLinkImageColorFilter/UIComponentMediaSvgLinkImageColorFilter001",
-    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible001"
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible001",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible002",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible003",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible004",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible005",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible006",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible007",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible008",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible009",
+    "testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible010"
   ]
 }
