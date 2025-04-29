@@ -13,14 +13,27 @@
  * limitations under the License.
  */
 
-
-
-import UiTestCase from './UiTestCase/UiTestCase.test'
-import  UiComponentTextCommonLineSpace from './UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace.test'
-import  UiComponentTextRicheditor from './UiComponentTextRicheditor/UiComponentTextRicheditor.test'
-export default function testsuite() {
-
-  UiTestCase();
-  UiComponentTextCommonLineSpace();
-  UiComponentTextRicheditor();
+@Entry
+@Component
+struct UiTestCase39 {
+  @State text: string = ''
+  build() {
+    Column() {
+      Text('()[]{}')
+        .width('80%')
+        .height(55)
+        .fontSize(40)
+        .fontColor(Color.Black)
+        .lineHeight(55)
+        .textAlign(TextAlign.Center)
+      Text('()[]{}')
+        .width('80%')
+        .height(55)
+        .fontSize(40)
+        .lineHeight(55)
+        .fontColor(Color.Black)
+        .textAlign(TextAlign.Center)
+        .fontFeature('"vert" on')
+    }
+  }
 }

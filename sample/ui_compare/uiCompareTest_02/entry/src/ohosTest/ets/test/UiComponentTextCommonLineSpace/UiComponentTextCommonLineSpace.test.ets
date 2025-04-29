@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+ 
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
 import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
@@ -72,7 +72,7 @@ export default function UiComponentTextCommmonLineSpace() {
       {
         await button.click()
       }
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0020")
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0020 finish.`);
       done()
@@ -93,7 +93,7 @@ export default function UiComponentTextCommmonLineSpace() {
       let driver: Driver=Driver.create()
       let text: Component = await driver.findComponent(ON.id('UiComponentTextCommonLineSpace12'))
       await text.inputText('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0030")
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0030 finish.`);
       done()
@@ -114,7 +114,7 @@ export default function UiComponentTextCommmonLineSpace() {
       let driver: Driver=Driver.create()
       let text: Component = await driver.findComponent(ON.id('UiComponentTextCommonLineSpace13'))
       await text.inputText('                            ')
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTINPUT_PHONENUMBER_0050')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_PHONENUMBER_0050 finish.`);
       done()
@@ -327,5 +327,90 @@ export default function UiComponentTextCommmonLineSpace() {
       done()
     })
 
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0040
+     * @tc.name    text contains a ContainerSpan
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0040', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0040 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace15")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0090_1')
+      let driver: Driver=Driver.create()
+      let button: Component = await driver.findComponent(ON.id('UiComponentTextCommonLineSpace15'))
+      await button.click()
+      await Utils.sleep(1000)
+      await driver.longClick(248,500)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0090_2')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0040 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0140
+     * @tc.name    Dynamically switch lineSpacing
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0140', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0140 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace16")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0140_01')
+      let driver: Driver=Driver.create()
+      let button: Component = await driver.findComponent(ON.id('UiComponentTextCommonLineSpace16'))
+      await button.click()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0140_02')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0140 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0150
+     * @tc.name    Set lineHeight and line spacing at the same time
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0150', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0150 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace17")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0140_01')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0150 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0050
+     * @tc.name    Set lineHeight and line spacing at the same time
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0050', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0050 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace18")
+      await Utils.sleep(1000)
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0050_1')
+      let driver: Driver=Driver.create()
+      let button: Component = await driver.findComponent(ON.id('UiComponentTextCommonLineSpace18'))
+      await button.click()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0050_2')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0050 finish.`);
+      done()
+    })
   })
 }
