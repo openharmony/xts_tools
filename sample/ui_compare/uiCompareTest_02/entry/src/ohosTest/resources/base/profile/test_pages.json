@@ -20,6 +20,8 @@
     "testability/pages/UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace16",
     "testability/pages/UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace17",
     "testability/pages/UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace18",
+    "testability/pages/UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace19",
+    "testability/pages/UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace20",
     "testability/pages/UiTestCase/UiTestCase01",
     "testability/pages/UiTestCase/UiTestCase02",
     "testability/pages/UiTestCase/UiTestCase03",
@@ -64,6 +66,8 @@
     "testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor03",
     "testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor04",
     "testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor05",
-    "testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor06"
+    "testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor06",
+    "testability/pages/UiComponentUIExtensionComponent/UiComponentUIExtensionComponent01",
+    "testability/pages/UiComponentUIExtensionComponent/UiComponentUIExtensionComponent02"
   ]
 }

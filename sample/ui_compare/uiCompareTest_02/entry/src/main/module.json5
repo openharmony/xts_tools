@@ -47,6 +47,16 @@
           }
         ]
       }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "UIExtensionProvider",
+        "srcEntry": "./ets/uiextensionability/UIExtensionProvider.ets",
+        "description": "1",
+        "label": "$string:EntryAbility_label",
+        "type": "sys/commonUI",
+        "exported": true,
+      }
     ]
   }
 }
