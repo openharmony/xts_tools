@@ -53,7 +53,6 @@ struct UIComponentScrollScrollAccessible014 {
       .scrollBar(BarState.On)
       .scrollBarColor(Color.Grey)
       .scrollBarWidth(4)
-      .backgroundColor(0xFAEEE0)
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
         console.info(`onScroll scrollState = ScrollState` + scrollState + `, scrollOffset = ` + scrollOffset);
         this.scrollOffSet += scrollOffset;

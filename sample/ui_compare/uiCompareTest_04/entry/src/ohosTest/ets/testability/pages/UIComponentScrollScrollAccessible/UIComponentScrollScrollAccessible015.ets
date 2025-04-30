@@ -19,7 +19,6 @@ struct UIComponentScrollScrollAccessible015 {
   @State message: string = 'Hello'
   @State scrollOffSet: number = 0;
   @State numbers: String[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8']
-  scroller: Scroller = new Scroller()
   @State gridPosition: number = 0
 
   build() {
@@ -29,7 +28,7 @@ struct UIComponentScrollScrollAccessible015 {
         .fontColor(Color.Blue)
         .margin({ top: 20 })
         .key('UIComponentScrollScrollAccessible015_001')
-      Grid(this.scroller) {
+      Grid() {
         ForEach(this.numbers, (day: string) => {
           ForEach(this.numbers, (day: string) => {
             GridItem() {
@@ -53,7 +52,6 @@ struct UIComponentScrollScrollAccessible015 {
       .scrollBar(BarState.On)
       .scrollBarColor(Color.Grey)
       .scrollBarWidth(10)
-      .backgroundColor(0xFAEEE0)
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
         console.info(`onScroll scrollState = ScrollState` + scrollState + `, scrollOffset = ` + scrollOffset);
         this.scrollOffSet += scrollOffset;

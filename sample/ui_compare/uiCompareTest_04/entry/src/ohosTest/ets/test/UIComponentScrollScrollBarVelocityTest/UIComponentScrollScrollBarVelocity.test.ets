@@ -17,7 +17,7 @@ import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
-import { Driver, ON, Component } from '@ohos.UiTest'
+import { Driver, ON, Component, MouseButton } from '@ohos.UiTest'
 
 export default function UIComponentScrollScrollBarVelocity() {
   describe('UIComponentScrollScrollBarVelocity', () => {
@@ -139,7 +139,7 @@ export default function UIComponentScrollScrollBarVelocity() {
 
     /*
      * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0380
-     * @tc.name    In the scroll container, call fling to set limit scrolling
+     * @tc.name    Set the velocity property parameter of flipping to the normal value of 100 in multiple nested scroll containers
      * @tc.desc    Component 3 groups
      * @tc.level   0
      */
@@ -154,6 +154,26 @@ export default function UIComponentScrollScrollBarVelocity() {
       windowSnap.snapShot('UIComponentScrollScrollBarVelocity0380');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0380 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0400
+     * @tc.name    In the scroll container, call fling to break the animation during the animation
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0400', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0400 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollBarVelocity/UIComponentScrollScrollBarVelocity009");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let button: Component = await driver.findComponent(ON.id('scroll'));
+      await button.click();
+      await driver.mouseClick({x:700, y:800}, MouseButton.MOUSE_BUTTON_LEFT);
+      windowSnap.snapShot('UIComponentScrollScrollBarVelocity0400');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0400 finish.`);
       done();
     });
   })

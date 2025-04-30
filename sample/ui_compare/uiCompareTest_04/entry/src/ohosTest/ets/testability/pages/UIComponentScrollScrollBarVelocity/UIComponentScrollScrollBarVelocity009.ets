@@ -15,9 +15,9 @@
 
 @Entry
 @Component
-struct UIComponentScrollScrollBarVelocity007 {
+struct UIComponentScrollScrollBarVelocity009 {
   @State message: string = 'Hello'
-  scroller: Scroller = new Scroller()
+  scroller1: Scroller = new Scroller()
   private arr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
   build() {
@@ -26,13 +26,13 @@ struct UIComponentScrollScrollBarVelocity007 {
         .fontSize(20)
         .fontColor(Color.Blue)
         .margin({ top: 20 })
-        .key('UIComponentScrollScrollBarVelocity007_001')
+        .key('UIComponentScrollScrollBarVelocity009_001')
       Stack({ alignContent: Alignment.TopStart }) {
-        Scroll(this.scroller) {
-          Row() {
+        Scroll(this.scroller1) {
+          Column() {
             ForEach(this.arr, (item: number) => {
               Text(item.toString())
-                .width('20%')
+                .width('90%')
                 .height(150)
                 .backgroundColor(0xFFFFFF)
                 .borderRadius(15)
@@ -43,18 +43,17 @@ struct UIComponentScrollScrollBarVelocity007 {
           }
         }
         .scrollBar(BarState.On)
-        .scrollable(ScrollDirection.Horizontal)
+        .scrollable(ScrollDirection.Vertical)
         .scrollBarColor(Color.Blue)
-        .initialOffset({ xOffset: 200 })
+        .initialOffset({ yOffset: 370 })
         .friction(0)
-        .scrollSnap({snapAlign:ScrollSnapAlign.NONE, snapPagination:30, enableSnapToStart:true, enableSnapToEnd:true})
 
         Button('fling 1000')
           .id('scroll')
           .height('5%')
           .stateEffect(true)
           .onClick(() => {
-            this.scroller.fling(1000)
+            this.scroller1.fling(1000)
           })
       }
       .backgroundColor(0xDCDCDC)

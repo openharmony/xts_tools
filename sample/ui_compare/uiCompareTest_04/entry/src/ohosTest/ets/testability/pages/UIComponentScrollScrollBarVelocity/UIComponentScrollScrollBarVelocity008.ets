@@ -80,11 +80,11 @@ struct UIComponentScrollScrollBarVelocity008 {
           .initialOffset({ yOffset: 500 })
           .height('35%')
 
-          Button('fling 100')
+          Button('fling 1000')
             .id('scroll')
             .stateEffect(true)
             .onClick(() => {
-              this.innerScroller1.fling(100)
+              this.innerScroller1.fling(1000)
             })
         }
       }

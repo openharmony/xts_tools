@@ -15,13 +15,11 @@
 
 @Entry
 @Component
-struct UIComponentScrollScrollAccessible016 {
+struct UIComponentScrollScrollAccessible020 {
   @State message: string = 'Hello'
   @State scrollOffSet: number = 0;
   @State numbers: String[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8']
   scroller: Scroller = new Scroller()
-  @State columnsGap: number = 10
-  @State rowsGap: number = 10
 
   build() {
     Column() {
@@ -29,31 +27,28 @@ struct UIComponentScrollScrollAccessible016 {
         .fontSize(20)
         .fontColor(Color.Blue)
         .margin({ top: 20 })
-        .key('UIComponentScrollScrollAccessible016_001')
+        .key('UIComponentScrollScrollAccessible020_001')
       Grid(this.scroller) {
         ForEach(this.numbers, (day: string) => {
           ForEach(this.numbers, (day: string) => {
             GridItem() {
-              Text(day)
-                .fontSize(16)
-                .backgroundColor(0xF9CF93)
-                .width('100%')
+              Button('N' + day)
                 .height(80)
-                .textAlign(TextAlign.Center)
+                .margin({ top: 20 })
             }
           }, (day: string) => day)
         }, (day: string) => day)
       }
-      .columnsTemplate('1fr 1fr 1fr')
-      .columnsGap(this.columnsGap)
-      .rowsGap(this.rowsGap)
+      .columnsTemplate('1fr')
+      .columnsGap(10)
+      .rowsGap(10)
       .enableScrollInteraction(true)
       .supportAnimation(false)
       .multiSelectable(false)
       .edgeEffect(EdgeEffect.Spring)
       .scrollBar(BarState.On)
       .scrollBarColor(Color.Grey)
-      .scrollBarWidth(10)
+      .scrollBarWidth(4)
       .backgroundColor(0xFAEEE0)
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
         console.info(`onScroll scrollState = ScrollState` + scrollState + `, scrollOffset = ` + scrollOffset);
@@ -64,20 +59,13 @@ struct UIComponentScrollScrollAccessible016 {
       .height('75%')
 
       Column() {
-        Button('改变间距')
-          .id('change')
-          .stateEffect(true)
-          .onClick(() => {
-            this.columnsGap = 20;
-            this.rowsGap = 20
-          })
         Text('scrollOffSet: ' + this.scrollOffSet)
           .fontColor(Color.Black)
           .fontSize(20)
       }
-        .height('10%')
-        .width('100%')
-        .backgroundColor(0xDCDCDC)
+      .height('10%')
+      .width('100%')
+      .backgroundColor(0xDCDCDC)
     }
   }
 }

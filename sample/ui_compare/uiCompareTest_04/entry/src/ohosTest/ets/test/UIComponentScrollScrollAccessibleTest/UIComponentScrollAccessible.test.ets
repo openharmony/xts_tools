@@ -416,5 +416,276 @@ export default function UIComponentScrollScrollAccessible() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0140 finish.`);
       done();
     });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0150
+     * @tc.name    Grid dynamically switches item width and height to obtain offset
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0150', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0150';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0150 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible017");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let button: Component = await driver.findComponent(ON.id('change'));
+      await button.click();
+      await Utils.sleep(2000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0150');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0150 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0160
+     * @tc.name    Grid dynamically switches the number of items to obtain the offset
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0160', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0160';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0160 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible018");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let button: Component = await driver.findComponent(ON.id('change'));
+      await button.click();
+      await Utils.sleep(2000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0160');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0160 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0170
+     * @tc.name    Obtain offset after dynamically switching the number of grid rows and columns
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0170', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0170';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0170 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible019");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let button: Component = await driver.findComponent(ON.id('change'));
+      await button.click();
+      await Utils.sleep(2000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0170');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0170 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0240
+     * @tc.name    Grid uses keyboard focusing to obtain scrolling offset
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0240', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0240';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0240 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible020");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      await driver.triggerKey(2049);
+      await Utils.sleep(1000);
+      await driver.triggerKey(2049);
+      await Utils.sleep(1000);
+      await driver.triggerKey(2049);
+      await Utils.sleep(1000);
+      await driver.triggerKey(2049);
+      await Utils.sleep(1000);
+      await driver.triggerKey(2049);
+      await Utils.sleep(1000);
+      await driver.triggerKey(2049);
+      await Utils.sleep(1000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0240');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0240 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0220
+     * @tc.name    Grid uses the mouse wheel to scroll and obtain the scrolling offset
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0220', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0220';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0220 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible021");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let grid: Component = await driver.findComponent(ON.type('Grid'));
+      let point = await grid.getBoundsCenter();
+      console.log(`${caseName} point of Grid is ${JSON.stringify(point)}`);
+      driver.mouseScroll(point, true, 2);
+      await Utils.sleep(1000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0220');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0220 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340
+     * @tc.name    Waterflow uses the mouse wheel to scroll and obtain the scrolling offset
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible022");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let waterflow: Component = await driver.findComponent(ON.type('WaterFlow'));
+      let point = await waterflow.getBoundsCenter();
+      console.log(`${caseName} point of WaterFlow is ${JSON.stringify(point)}`);
+      driver.mouseScroll(point, true, 2);
+      await Utils.sleep(1000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0340');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0040
+     * @tc.name    Dynamically switch the number of rows and columns in the List to obtain the offset
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0040', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0040';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0040 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible023");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let button: Component = await driver.findComponent(ON.id('change'));
+      await button.click();
+      await Utils.sleep(2000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0040');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0040 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0030
+     * @tc.name    List dynamically switches between rows and columns to obtain offset
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0030', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0030';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0030 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible024");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let button: Component = await driver.findComponent(ON.id('change'));
+      await button.click();
+      await Utils.sleep(2000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0030');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0030 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0060
+     * @tc.name    List dynamically switches horizontally, vertically, and backward to obtain offset
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0060', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0060';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0060 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible025");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let button: Component = await driver.findComponent(ON.id('change'));
+      await button.click();
+      await Utils.sleep(2000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0060');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0060 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0070
+     * @tc.name    Combining ListGroup and ListItem scenarios to obtain offset
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0070', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0070';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0070 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible026");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let listGroup: Component = await driver.findComponent(ON.type('List'));
+      let point = await listGroup.getBoundsCenter();
+      console.log(`${caseName} point of ListGroup is ${JSON.stringify(point)}`);
+      driver.mouseScroll(point, true, 2);
+      await Utils.sleep(2000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0070');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0070 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0200
+     * @tc.name    Grid uses layoutDirection layout to obtain rolling offset
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0200', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0200';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0200 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible027");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let listGroup: Component = await driver.findComponent(ON.type('Grid'));
+      let point = await listGroup.getBoundsCenter();
+      console.log(`${caseName} point of ListGroup is ${JSON.stringify(point)}`);
+      driver.mouseScroll(point, true, 2);
+      await Utils.sleep(2000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0200');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0200 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190
+     * @tc.name    Grid uses LayoutOptions layout to obtain rolling offset
+     * @tc.desc    Component 3 groups
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190';
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190 start.`);
+      Settings.createWindow("testability/pages/UIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible028");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let listGroup: Component = await driver.findComponent(ON.type('Grid'));
+      let point = await listGroup.getBoundsCenter();
+      console.log(`${caseName} point of ListGroup is ${JSON.stringify(point)}`);
+      driver.mouseScroll(point, true, 2);
+      await Utils.sleep(2000);
+      windowSnap.snapShot('UIComponentScrollScrollAccessible0190');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190 finish.`);
+      done();
+    });
   })
 }
