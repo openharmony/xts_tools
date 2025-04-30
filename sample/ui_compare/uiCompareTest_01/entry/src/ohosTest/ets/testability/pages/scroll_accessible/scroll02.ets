@@ -104,22 +104,22 @@ struct Scroll02 {
       .onScrollStop(() => {
         console.info('waterFlow scroll stop')
         console.info(`currentOffset is: ${this.scroller.currentOffset()}`)
-        this.offSetText = JSON.stringify(this.scroller.currentOffset())
-        // dump
       })
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
         console.info('waterFlow scrollFrameBegin offset: ' + offset + ' state: ' + state.toString());
         return { offsetRemain: offset };
+      })
+      .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
+        console.info(`onScroll scrollState = ScrollState` + scrollState + `, scrollOffset = ` + scrollOffset)
+        setTimeout(()=>{
+          this.offSetText = JSON.stringify(scrollOffset)
+        },500)
       })
 
       Text(this.offSetText)
         .id('offSetText02')
         .height('5%')
         .margin({ top: 10, left: 20 })
-        .onClick(() => { // 点击后下滑指定距离600vp
-          console.info(`currentOffset is: ${this.scroller.currentOffset()}`)
-          this.offSetText = JSON.stringify(this.scroller.currentOffset())
-        })
     }
   }
 }

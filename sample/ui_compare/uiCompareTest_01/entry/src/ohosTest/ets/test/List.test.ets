@@ -19,9 +19,9 @@ import navigationContent01Test from './navigation_content/navigationContent01.te
 import animatorCreate01Test from './animator_sample/animatorCreate01.test';
 import expectedFrameTest from './expectedFrame/expectedFrame.test';
 import waterflowMirrorTest from './waterflow_mirror/waterflowMirror.test'
-import swipeArray01Test from './swipe_array/swipeArray01.test'
 import scrollAccessibleTest from './scroll_accessible/scrollAccessible.test'
 import specialComponentsTest from './special_components/specialComponents.test'
+import measureResultTest from './measureResult/measureResult.test'
 
 export default function testsuite() {
   gestureMonopolize01Test();
@@ -30,7 +30,7 @@ export default function testsuite() {
   animatorCreate01Test();
   expectedFrameTest();
   waterflowMirrorTest();
-  swipeArray01Test();
   scrollAccessibleTest();
+  measureResultTest();
   specialComponentsTest();
 }

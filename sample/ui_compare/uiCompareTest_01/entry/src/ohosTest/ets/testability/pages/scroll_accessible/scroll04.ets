@@ -17,7 +17,7 @@ import { WaterFlowDataSource } from '../waterflow_mirror/WaterFlowDataSource';
 
 @Entry
 @Component
-struct Scroll05 {
+struct Scroll04 {
   @State minSize: number = 80;
   @State maxSize: number = 180;
   @State fontSize: number = 24;
@@ -86,7 +86,7 @@ struct Scroll05 {
           .backgroundColor(this.colors[item % 5])
         }, (item: string) => item)
       }
-      .id('scrollWaterFlow05')
+      .id('scrollWaterFlow04')
       .rowsTemplate('1fr 1fr 1fr')
       .direction(Direction.Rtl)
       .cachedCount(4)
@@ -117,9 +117,11 @@ struct Scroll05 {
           this.offSetText = JSON.stringify(scrollOffset)
         },500)
       })
+      .scrollBar(BarState.On)
+      .scrollBarWidth(300)
 
       Text(this.offSetText)
-        .id('offSetText05')
+        .id('offSetText04')
         .height('5%')
         .margin({ top: 10, left: 20 })
     }
