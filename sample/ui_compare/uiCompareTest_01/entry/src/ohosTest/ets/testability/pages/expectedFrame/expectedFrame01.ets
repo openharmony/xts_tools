@@ -15,17 +15,16 @@
 import { UIContext } from '@kit.ArkUI';
 import { displaySync } from '@kit.ArkGraphics2D';
 
-let backDisplaySync: displaySync.DisplaySync = displaySync.create();
-
 @Entry
 @Component
 struct Keyframe01 {
   @State myScale: number = 1.0;
   uiContext: UIContext | undefined = undefined;
+  backDisplaySync: displaySync.DisplaySync | undefined = undefined;
 
   aboutToAppear() {
     this.uiContext = this.getUIContext?.();
-
+    this.backDisplaySync = displaySync.create();
   }
 
   build() {
@@ -82,7 +81,7 @@ struct Keyframe01 {
           };
 
           // 设置DisplaySync期望的帧率
-          backDisplaySync?.setExpectedFrameRateRange(range)
+          this.backDisplaySync?.setExpectedFrameRateRange(range)
         })
 
       Button('60')
@@ -97,7 +96,7 @@ struct Keyframe01 {
           };
 
           // 设置DisplaySync期望的帧率
-          backDisplaySync?.setExpectedFrameRateRange(range)
+          this.backDisplaySync?.setExpectedFrameRateRange(range)
         })
 
       Button('30')
@@ -112,7 +111,7 @@ struct Keyframe01 {
           };
 
           // 设置DisplaySync期望的帧率
-          backDisplaySync?.setExpectedFrameRateRange(range)
+          this.backDisplaySync?.setExpectedFrameRateRange(range)
         })
     }.width('100%').margin({ top: 5 })
   }

@@ -47,7 +47,7 @@ struct getContextMenuControllerExample {
           .height(100)
           .backgroundColor(0xAFEEEE)
       }
-      .id("getContextClick")
+      .id('getContextClick')
       .bindContextMenu(this.MenuBuilder, ResponseType.LongPress)
     }
     .width('100%')

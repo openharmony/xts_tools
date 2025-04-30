@@ -93,7 +93,7 @@ struct Scroll01 {
       .rowsGap(5)
       .backgroundColor(0xFAEEE0)
       .width('100%')
-      .height('90%')
+      .height('80%')
       .onReachStart(() => {
         console.info('waterFlow reach start');
       })
@@ -104,14 +104,18 @@ struct Scroll01 {
         console.info('waterFlow scrollFrameBegin offset: ' + offset + ' state: ' + state.toString());
         return { offsetRemain: offset };
       })
+      .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
+        console.info(`onScroll scrollState = ScrollState` + scrollState + `, scrollOffset = ` + scrollOffset)
+        setTimeout(()=>{
+          this.offSetText = JSON.stringify(scrollOffset)
+        },500)
+      })
 
       Button('scroll 600')
         .id('scroll_01')
         .height('5%')
         .onClick(() => { // 点击后下滑指定距离600vp
           this.scroller.scrollBy(0, 600)
-          console.info(`currentOffset is: ${this.scroller.currentOffset()}`)
-          this.offSetText = JSON.stringify(this.scroller.currentOffset())
         })
         .margin({ top: 10, left: 20 })
 

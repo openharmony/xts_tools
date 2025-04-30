@@ -19,6 +19,7 @@ import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
+import { displaySync } from '@kit.ArkGraphics2D'
 
 export default function expectedFrameTest() {
 
@@ -57,19 +58,27 @@ export default function expectedFrameTest() {
       let button02: Component = await driver.findComponent(ON.id('changeRateRange60_01'));
       let button03: Component = await driver.findComponent(ON.id('changeRateRange30_01'));
       await button01.click();
+      let callback = (frameInfo: displaySync.IntervalInfo) => {
+        console.info("DisplaySync", 'TimeStamp:' + frameInfo.timestamp + ' TargetTimeStamp: ' + frameInfo.targetTimestamp);
+      }
+      let backDisplaySync: displaySync.DisplaySync = displaySync.create();
+      backDisplaySync?.on("frame", callback)
       await buttonCircle.click()
-      windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_01')
-      await Utils.sleep(1000)
-      await button02.click();
-      await buttonCircle.click()
-      windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_02')
-      await Utils.sleep(1000)
-      await button03.click();
-      await buttonCircle.click()
-      windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_03')
-      await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040 finish.`);
-      done()
+      setTimeout(async ()=>{
+        windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_01')
+        await Utils.sleep(1000)
+        await button02.click();
+        await buttonCircle.click()
+        windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_02')
+        await Utils.sleep(1000)
+        await button03.click();
+        await buttonCircle.click()
+        windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_03')
+        await Utils.sleep(1000)
+        Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040 finish.`);
+        done()
+      },3000)
+
     })
 
     /*
@@ -86,6 +95,11 @@ export default function expectedFrameTest() {
       await Utils.sleep(1000)
       let driver:Driver = Driver.create();
       let buttonCircle: Component = await driver.findComponent(ON.id('Circle02'));
+      let callback = (frameInfo: displaySync.IntervalInfo) => {
+        console.info("DisplaySync", 'TimeStamp:' + frameInfo.timestamp + ' TargetTimeStamp: ' + frameInfo.targetTimestamp);
+      }
+      let backDisplaySync: displaySync.DisplaySync = displaySync.create();
+      backDisplaySync?.on("frame", callback)
       await buttonCircle.click()
       windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010')
       await Utils.sleep(1000)
@@ -112,6 +126,11 @@ export default function expectedFrameTest() {
       let button03: Component = await driver.findComponent(ON.id('changeRateRange120_03'));
       await button01.click();
       await buttonCircle.click()
+      let callback = (frameInfo: displaySync.IntervalInfo) => {
+        console.info("DisplaySync", 'TimeStamp:' + frameInfo.timestamp + ' TargetTimeStamp: ' + frameInfo.targetTimestamp);
+      }
+      let backDisplaySync: displaySync.DisplaySync = displaySync.create();
+      backDisplaySync?.on("frame", callback)
       windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0020_01')
       await Utils.sleep(1000)
       await button02.click();
