@@ -36,7 +36,7 @@ import Utils from '../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function uiComponentListItem01Test() {
+export default function UITestCaseTest() {
 
   describe('UITestCaseTest', () => {
     afterEach(async (done: Function) => {

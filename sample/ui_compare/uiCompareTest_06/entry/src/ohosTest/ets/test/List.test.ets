@@ -17,10 +17,13 @@ import demoTest from  './Demo.test'
 import UITestCaseTest from  './UITestCaseTest/UITestCase.test'
 import UIFrameworkTestCaseTest from './UIFrameworkTest/UIFrameworkTestCase.test'
 import UIAttributeModifierTest from './UIAttributeModifierTest/UIAttributeModifierTestCase.test'
-import UITransformationTest from './UTransformationTest/UIAttributeModifierTestCase.test'
+import UITransformationTest from './UTransformationTest/UTransformationTestCase.test'
 import UIRadialGradientTest from './UIRadialGradientTest/UIRadialGradientTestCase.test'
 import UIPositionOffsetTest from './UIPositionOffsetTest/UIPositionOffsetTestCase.test'
 import UIBGSeriableTest from './UIBGSeriableTest/UIBGSeriableTestCase.test'
+import UIStateStylesTest from './UIStateStylesTest/UIStateStylesTestCase.test'
+import UIOverlayTest from './UIOverlayTest/UIOverlayTestCase.test'
+import UIFocusOptimizationTest from './UIFocusOptimizationTest/UIFocusOptimizationTestCase.test'
 
 export default function testsuite() {
   demoTest();
@@ -31,4 +34,7 @@ export default function testsuite() {
   UIRadialGradientTest();
   UIPositionOffsetTest();
   UIBGSeriableTest();
+  UIStateStylesTest();
+  UIOverlayTest();
+  UIFocusOptimizationTest();
 }

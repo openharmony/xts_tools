@@ -36,9 +36,9 @@ import Utils from '../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UIStateStylesTest() {
+export default function UIOverlayTest() {
 
-  describe('UIStateStylesTest', () => {
+  describe('UIOverlayTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return
@@ -56,32 +56,24 @@ export default function UIStateStylesTest() {
     })
 
     /**
-     * @tc.number: SUB_ACE_UI_ATTRIBUTES_STATESTYLES_NORMAL_0020
-     * @tc.name: SUB_ACE_UI_ATTRIBUTES_STATESTYLES_NORMAL_0020
+     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210
+     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210
      * @tc.desc: setPolyToPoly Interface testing.
      * @tc.level 0
      * @tc.type: Function
      * @tc.size: SmallTest
      */
-    it('SUB_ACE_UI_ATTRIBUTES_STATESTYLES_NORMAL_0020',
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
-        Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_STATESTYLES_NORMAL_0020 start.`);
-        Settings.createWindow("testability/pages/UIStateStylesTestCase/UIStateStylesTestCase002");
-        await Utils.sleep(1000);
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210 start.`);
+        Settings.createWindow("testability/pages/UIOverlayTestCase/UIOverlayTestCase001",);
         let driver: Driver = Driver.create();
-        let testButton: Component = await driver.findComponent(ON.id('test_button'));
-        await testButton.click();
-        await Utils.sleep(500);
         await driver.triggerKey(2049);
-        await Utils.sleep(500);
-        let disableButton: Component = await driver.findComponent(ON.id('disable_button'));
-        await disableButton.click();
         await Utils.sleep(1000);
-        await disableButton.click();
-        await Utils.sleep(1000);
-        windowSnap.snapShot(`SUB_ACE_UI_ATTRIBUTES_STATESTYLES_NORMAL_0020`);
+        await driver.triggerKey(2054);
+        windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210`);
         await Utils.sleep(500);
-        Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_STATESTYLES_NORMAL_0020 finish.`);
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210 finish.`);
         done();
       })
   })

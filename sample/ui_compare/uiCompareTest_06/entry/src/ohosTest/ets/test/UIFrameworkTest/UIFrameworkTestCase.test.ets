@@ -36,9 +36,9 @@ import Utils from '../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function uiComponentListItem01Test() {
+export default function UIFrameworkTest() {
 
-  describe('UIFrameworkTestCaseTest', () => {
+  describe('UIFrameworkTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return
@@ -110,17 +110,35 @@ export default function uiComponentListItem01Test() {
       done();
     })
 
-
-
-
-
-
-
-
-
-
-
-
+    /**
+     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160
+     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160
+     * @tc.desc: setPolyToPoly Interface testing.
+     * @tc.level 0
+     * @tc.type: Function
+     * @tc.size: SmallTest
+     */
+    it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160',
+      TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160 start.`);
+      Settings.createWindow("testability/pages/UIFrameworkTestCase/UIFrameworkTestCase003");
+      await Utils.sleep(1000);
+      let driver:Driver = Driver.create();
+      let button: Component = await driver.findComponent(ON.id('setEnabled'));
+      await button.click();
+      await Utils.sleep(1000);
+      let NodeContainer: Component = await driver.findComponent(ON.id('NodeContainer'));
+      await NodeContainer.click();
+      await Utils.sleep(1000);
+      await button.click();
+      await Utils.sleep(1000);
+      await NodeContainer.click();
+      await Utils.sleep(1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160');
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160 finish.`);
+      done();
+      })
 
     /**
      * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0240

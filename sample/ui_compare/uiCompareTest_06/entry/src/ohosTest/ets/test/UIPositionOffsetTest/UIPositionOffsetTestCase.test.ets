@@ -97,5 +97,48 @@ export default function UIPositionOffsetTest() {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0080 finish.`);
         done();
       })
+
+    /**
+     * @tc.number: SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370
+     * @tc.name: SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370
+     * @tc.desc: setPolyToPoly Interface testing.
+     * @tc.level 0
+     * @tc.type: Function
+     * @tc.size: SmallTest
+     */
+    it('SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370',
+      TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370 start.`);
+        Settings.createWindow("testability/pages/UIPositionOffsetTestCase/UIPositionOffsetTestCase002");
+        await Utils.sleep(1000);
+        let driver1:Driver = Driver.create();
+        let button1: Component = await driver1.findComponent(ON.id('Toggle Top'));
+        for (let i = 0; i < 8; i++) {
+          await button1.click();
+          await Utils.sleep(300);
+        }
+        let driver2:Driver = Driver.create();
+        let button2: Component = await driver2.findComponent(ON.id('Toggle Bottom'));
+        for (let i = 0; i < 8; i++) {
+          await button2.click();
+          await Utils.sleep(300);
+        }
+        let driver3:Driver = Driver.create();
+        let button3: Component = await driver3.findComponent(ON.id('Toggle Left'));
+        for (let i = 0; i < 8; i++) {
+          await button3.click();
+          await Utils.sleep(300);
+        }
+        let driver4:Driver = Driver.create();
+        let button4: Component = await driver4.findComponent(ON.id('Toggle Right'));
+        for (let i = 0; i < 8; i++) {
+          await button4.click();
+          await Utils.sleep(300);
+        }
+        windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370`);
+        await Utils.sleep(1000);
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370 finish.`);
+        done();
+      })
   })
 }

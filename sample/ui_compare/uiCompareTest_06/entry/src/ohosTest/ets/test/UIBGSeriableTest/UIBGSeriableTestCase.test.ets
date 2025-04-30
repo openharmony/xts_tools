@@ -36,9 +36,9 @@ import Utils from '../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UIRadialGradientTest() {
+export default function UIBGSeriableTest() {
 
-  describe('UIRadialGradientTest', () => {
+  describe('UIBGSeriableTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return
@@ -65,12 +65,78 @@ export default function UIRadialGradientTest() {
      */
     it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
-        Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070 start.`);
-        Settings.createWindow("testability/pages/UIBGSeriableTestCase/UIBGSeriableTestCase001");
-        await Utils.sleep(500);
-        windowSnap.snapShot(`SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070`);
-        await Utils.sleep(500);
-        Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070 start.`);
+      Settings.createWindow("testability/pages/UIBGSeriableTestCase/UIBGSeriableTestCase001");
+      let driver:Driver = Driver.create();
+      let button1: Component = await driver.findComponent(ON.id('Group1'));
+      await button1.click();
+      await Utils.sleep(1000);
+      let button2: Component = await driver.findComponent(ON.id('Group2'));
+      await button2.click();
+      await Utils.sleep(1000);
+      let button3: Component = await driver.findComponent(ON.id('Group3'));
+      await button3.click();
+      await Utils.sleep(1000);
+      windowSnap.snapShot(`SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070`);
+      await Utils.sleep(500);
+      Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070 finish.`);
+      done();
+    })
+
+    /**
+     * @tc.number: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050
+     * @tc.name: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050
+     * @tc.desc: setPolyToPoly Interface testing.
+     * @tc.level 0
+     * @tc.type: Function
+     * @tc.size: SmallTest
+     */
+    it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050',
+      TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050 start.`);
+      Settings.createWindow("testability/pages/UIBGSeriableTestCase/UIBGSeriableTestCase002");
+      await Utils.sleep(1000);
+      windowSnap.snapShot(`SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050`);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050 finish.`);
+      done();
+    })
+
+    /**
+     * @tc.number: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090
+     * @tc.name: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090
+     * @tc.desc: setPolyToPoly Interface testing.
+     * @tc.level 0
+     * @tc.type: Function
+     * @tc.size: SmallTest
+     */
+    it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090',
+      TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
+        Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090 start.`);
+        Settings.createWindow("testability/pages/UIBGSeriableTestCase/UIBGSeriableTestCase003");
+        await Utils.sleep(1000);
+        windowSnap.snapShot(`SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090`);
+        await Utils.sleep(1000);
+        Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090 finish.`);
+        done();
+      })
+
+    /**
+     * @tc.number: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080
+     * @tc.name: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080
+     * @tc.desc: setPolyToPoly Interface testing.
+     * @tc.level 0
+     * @tc.type: Function
+     * @tc.size: SmallTest
+     */
+    it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080',
+      TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
+        Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080 start.`);
+        Settings.createWindow("testability/pages/UIBGSeriableTestCase/UIBGSeriableTestCase004");
+        await Utils.sleep(1000);
+        windowSnap.snapShot(`SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080`);
+        await Utils.sleep(1000);
+        Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080 finish.`);
         done();
       })
   })
