@@ -308,6 +308,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.test.PerfTest.d.ts",
+            "bundle_name": [
+                "arkxtest"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.hiTraceMeter.d.ts",
             "bundle_name": [
                 "hitrace"
