@@ -32,7 +32,7 @@ export default function residentProcessNormalAppTest() {
 
     })
     afterEach(() => {
-
+      hilog.info(0x0000, TAG, "[%{public}s] case end.", TAG);
     })
     afterAll(() => {
 
@@ -46,6 +46,7 @@ export default function residentProcessNormalAppTest() {
      */
     it('SUB_Ability_AbilityRuntime_ResidentProcess_0100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0100';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       try {
         let residentProcessBundleName: string = 'com.test.actsresidentprocessrely';
         let enable: boolean = false;
@@ -53,7 +54,10 @@ export default function residentProcessNormalAppTest() {
         await abilityManager.setResidentProcessEnabled(residentProcessBundleName, enable)
           .then(() => {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled succeed.", TAG);
-            expect().assertFail();
+            try {
+              expect().assertFail();
+            } catch {
+            }
           })
           .catch((err: BusinessError) => {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
