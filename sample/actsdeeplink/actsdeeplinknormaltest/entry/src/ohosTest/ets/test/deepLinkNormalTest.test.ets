@@ -34,7 +34,7 @@ export default function deepLinkNormalTest() {
 
     })
     afterEach(() => {
-
+      hilog.info(0x0000, TAG, "[%{public}s] case end.", TAG);
     })
     afterAll(() => {
 
@@ -48,6 +48,7 @@ export default function deepLinkNormalTest() {
      */
     it('SUB_Ability_AbilityRuntime_deeplink_1100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_1100';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
       };
@@ -77,6 +78,14 @@ export default function deepLinkNormalTest() {
             .catch((error: BusinessError) => {
               hilog.info(0x0000, TAG, "[%{public}s] Start Ability error: %{public}s", TAG, JSON.stringify(error));
             })
+        })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
         })
     })
 

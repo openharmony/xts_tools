@@ -37,6 +37,7 @@ export default function deeplinkTest() {
 
     afterEach(async () => {
       await sleep(2000);
+      hilog.info(0x0000, TAG, "[%{public}s] case end.", TAG);
     })
 
     afterAll(() => {
@@ -51,6 +52,7 @@ export default function deeplinkTest() {
      */
     it('SUB_Ability_AbilityRuntime_deeplink_0100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0100';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
       };
@@ -82,6 +84,14 @@ export default function deeplinkTest() {
               hilog.info(0x0000, TAG, "[%{public}s] Start Ability error: %{public}s", TAG, JSON.stringify(error));
             })
         })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
+        })
     })
 
     /*
@@ -92,6 +102,7 @@ export default function deeplinkTest() {
      */
     it('SUB_Ability_AbilityRuntime_deeplink_0200', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0200';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
       };
@@ -122,6 +133,14 @@ export default function deeplinkTest() {
               hilog.info(0x0000, TAG, "[%{public}s] Start Ability error: %{public}s", TAG, JSON.stringify(error));
             })
         })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
+        })
     })
 
     /*
@@ -132,6 +151,7 @@ export default function deeplinkTest() {
      */
     it('SUB_Ability_AbilityRuntime_deeplink_0300', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0300';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
       };
@@ -150,7 +170,6 @@ export default function deeplinkTest() {
           await sleep(700);
           commonEventManager.unsubscribe(commonEventSubscriber, (err, data) => {
             hilog.info(0x0000, TAG, "[%{public}s] unsubscribe callback. err: %{public}s, data: %{public}s", TAG, JSON.stringify(err), JSON.stringify(data));
-            // done();
           });
           let want: Want = {
             uri: "-~!@#$ %^&*://example.com"
@@ -168,6 +187,14 @@ export default function deeplinkTest() {
           expect(errObject.code).assertEqual(16000019);
           done();
         })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
+        })
     })
 
     /*
@@ -178,6 +205,7 @@ export default function deeplinkTest() {
      */
     it('SUB_Ability_AbilityRuntime_deeplink_0400', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0400';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
       };
@@ -209,6 +237,14 @@ export default function deeplinkTest() {
               hilog.info(0x0000, TAG, "[%{public}s] Start Ability error: %{public}s", TAG, JSON.stringify(error));
             })
         })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
+        })
     })
 
     /*
@@ -219,6 +255,7 @@ export default function deeplinkTest() {
      */
     it('SUB_Ability_AbilityRuntime_deeplink_0500', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0500';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
       };
@@ -249,6 +286,14 @@ export default function deeplinkTest() {
               hilog.info(0x0000, TAG, "[%{public}s] Start Ability error: %{public}s", TAG, JSON.stringify(error));
             })
         })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
+        })
     })
 
     /*
@@ -259,6 +304,7 @@ export default function deeplinkTest() {
      */
     it('SUB_Ability_AbilityRuntime_deeplink_0600', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0600';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
       };
@@ -289,6 +335,14 @@ export default function deeplinkTest() {
               hilog.info(0x0000, TAG, "[%{public}s] Start Ability error: %{public}s", TAG, JSON.stringify(error));
             })
         })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
+        })
     })
 
     /*
@@ -299,6 +353,7 @@ export default function deeplinkTest() {
      */
     it('SUB_Ability_AbilityRuntime_deeplink_0700', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0700';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
       };
@@ -329,6 +384,14 @@ export default function deeplinkTest() {
               hilog.info(0x0000, TAG, "[%{public}s] Start Ability error: %{public}s", TAG, JSON.stringify(error));
             })
         })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
+        })
     })
 
     /*
@@ -339,6 +402,7 @@ export default function deeplinkTest() {
      */
     it('SUB_Ability_AbilityRuntime_deeplink_0800', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_0800';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
       };
@@ -369,6 +433,14 @@ export default function deeplinkTest() {
               hilog.info(0x0000, TAG, "[%{public}s] Start Ability error: %{public}s", TAG, JSON.stringify(error));
             })
         })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
+        })
     })
 
     /*
@@ -379,6 +451,7 @@ export default function deeplinkTest() {
      */
     it('SUB_Ability_AbilityRuntime_deeplink_1000', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_deeplink_1000';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["onCreate_event"]
       };
@@ -408,6 +481,14 @@ export default function deeplinkTest() {
             .catch((error: BusinessError) => {
               hilog.info(0x0000, TAG, "[%{public}s] Start Ability error: %{public}s", TAG, JSON.stringify(error));
             })
+        })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
         })
     })
 
