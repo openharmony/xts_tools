@@ -126,6 +126,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.fastbuffer.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundle.d.ts",
             "bundle_name": [
                 "bundle_framework"
