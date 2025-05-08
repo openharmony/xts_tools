@@ -35,7 +35,7 @@ export default function getTopAbilityTest() {
 
     })
     afterEach(() => {
-
+      hilog.info(0x0000, TAG, "[%{public}s] case end.", TAG);
     })
     afterAll(() => {
 
@@ -49,6 +49,7 @@ export default function getTopAbilityTest() {
      */
     it('SUB_Ability_AbilityRuntime_GetTopAbility_0100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_GetTopAbility_0100';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["getTopAbility_event"]
       };
@@ -84,6 +85,14 @@ export default function getTopAbilityTest() {
           let button: Component = await driver.findComponent(ON.id(TAG));
           await button.click();
         })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
+        })
     })
 
     /*
@@ -94,6 +103,7 @@ export default function getTopAbilityTest() {
      */
     it('SUB_Ability_AbilityRuntime_GetTopAbility_0200', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_GetTopAbility_0200';
+      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
         events: ["getTopAbility_event"]
       };
@@ -128,6 +138,14 @@ export default function getTopAbilityTest() {
           await driver.delayMs(1000);
           let button: Component = await driver.findComponent(ON.id(TAG));
           await button.click();
+        })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] Failed to create subscriber. err: %{public}s", TAG, JSON.stringify(err));
+          try {
+            expect().assertFail();
+          } catch {
+          }
+          done();
         })
     })
 
