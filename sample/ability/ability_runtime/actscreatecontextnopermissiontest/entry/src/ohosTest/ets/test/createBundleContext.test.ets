@@ -72,5 +72,30 @@ export default function createBundleContextTest() {
         done();
       }
     });
+
+   /*
+   * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0700
+   * @tc.name   : Failed to call the createBundleContext interface due to error code 201, as the permission ohos.permission.GET_BUNDLE_INFO_PRIVILEGED has not been applied for.
+   * @tc.desc   : Function test
+   * @tc.size:   MediumTest
+   * @tc.type:   Function
+   * @tc.level  : 0
+   */
+    it('SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0700', 0, async (done: Function) => {
+      hilog.info(0x0000, 'testTag', '%{public}s', 'SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0700 start');
+      try {
+        application.createBundleContext(globalThis.context, 'com.test.actscreatecontextnopermissiontest').then((data: Context)=>{
+          const moduleContext = data;
+          console.info('createBundleContext success!');
+        }).catch((error : BusinessError)=>{
+          hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
+        })
+      } catch (error) {
+        hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code: ${(error as BusinessError).code}, error.message: ${(error as BusinessError).message}`);
+        done();
+      }
+    });
+
+
   })
 }
