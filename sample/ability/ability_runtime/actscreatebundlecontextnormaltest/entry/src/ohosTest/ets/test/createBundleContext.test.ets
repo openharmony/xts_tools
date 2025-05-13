@@ -58,6 +58,8 @@ export default function createBundleContextTest() {
         application.createBundleContext(globalThis.context, 'com.test.actscreatecontextnormaltest').then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createBundleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
         })
@@ -86,6 +88,8 @@ export default function createBundleContextTest() {
         application.createModuleContext(globalThis.context, 'com.test.actscreatecontextnormaltest', 'entry_test').then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
         })

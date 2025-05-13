@@ -50,6 +50,8 @@ export default function createModuleContextTest() {
         application.createModuleContext(null, 'com.test.actscreatebundlecontexttest','entry').then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
         })
@@ -77,6 +79,8 @@ export default function createModuleContextTest() {
         application.createModuleContext(undefined, 'com.test.actscreatebundlecontexttest','entry').then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
         })
@@ -104,6 +108,8 @@ export default function createModuleContextTest() {
         application.createModuleContext(context, null,'entry').then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
         })
@@ -131,6 +137,8 @@ export default function createModuleContextTest() {
         application.createModuleContext(context, undefined,'entry').then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
         })
@@ -158,6 +166,8 @@ export default function createModuleContextTest() {
         application.createModuleContext(context, 'xxxxx','entry').then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
           expect(error.code).assertEqual(401)
@@ -187,6 +197,8 @@ export default function createModuleContextTest() {
         application.createModuleContext(context, '','entry').then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
           expect(error.code).assertEqual(401)
@@ -216,6 +228,8 @@ export default function createModuleContextTest() {
         application.createModuleContext(context, 'com.test.actscreatebundlecontexttest',null).then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
           expect(error.code).assertEqual(401)
@@ -245,6 +259,8 @@ export default function createModuleContextTest() {
         application.createModuleContext(context, 'com.test.actscreatebundlecontexttest', undefined).then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
           expect(error.code).assertEqual(401)
@@ -274,6 +290,8 @@ export default function createModuleContextTest() {
         application.createModuleContext(context, 'com.test.actscreatebundlecontexttest', 'xxxx').then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
           expect(error.code).assertEqual(401)
@@ -303,6 +321,8 @@ export default function createModuleContextTest() {
         application.createModuleContext(context, 'com.test.actscreatebundlecontexttest', '').then((data: Context) => {
           moduleContext = data;
           hilog.info(0x0000, 'testTag', '%{public}s', 'createModuleContext success!');
+          expect().assertFail();
+          done();
         }).catch((error : BusinessError)=>{
           hilog.info(0x0000, 'testTag', '%{public}s', `createModuleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
           expect(error.code).assertEqual(401)
@@ -335,6 +355,8 @@ export default function createModuleContextTest() {
           context.resourceManager.getConfiguration((error: BusinessError, value: resourceManager.Configuration) => {
             if (error != null) {
               console.error("getConfiguration callback error is " + error);
+              expect().assertFail();
+              done();
             } else {
               let direction:number = value.direction;
               let locale:string = value.locale;
