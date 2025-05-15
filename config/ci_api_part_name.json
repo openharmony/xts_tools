@@ -3948,6 +3948,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@internal/component/ets/toolbar.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/water_flow.d.ts",
             "bundle_name": [
                 "ace_engine"
