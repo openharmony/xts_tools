@@ -6892,6 +6892,13 @@
             "path": "interface/sdk-js/arkts/@arkts.math.Decimal.d.ets",
             "bundle_name": [],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.distributedsched.linkEnhance.d.ts",
+            "bundle_name": [
+                "linkEnhance"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c":[
