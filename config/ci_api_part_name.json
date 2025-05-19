@@ -3360,6 +3360,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.data.UdmfComponents.d.ets",
+            "bundle_name": [
+                "udmf"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.net.http.d.ts",
             "bundle_name": [
                 "netstack"
