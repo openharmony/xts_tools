@@ -6924,6 +6924,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/ani",
+            "bundle_name": [
+                "ani"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/BasicServicesKit",
             "bundle_name": [
                 "os_account",
