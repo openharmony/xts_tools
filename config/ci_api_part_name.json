@@ -6906,6 +6906,13 @@
                 "linkEnhance"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/StepperModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c":[
