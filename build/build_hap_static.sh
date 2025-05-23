@@ -32,7 +32,13 @@ function env_prepare() {
 
     export PATH=${code_root}/prebuilts/command-line-tools/bin:${code_root}/prebuilts/command-line-tools/ohpm/bin:${code_root}/prebuilts/build-tools/common/nodejs/node-v16.20.2-linux-x64/bin:$PATH
     chmod -R 755 ${code_root}/prebuilts/command-line-tools
-    export NODE_HOME=/home/tools/node-v18.17.1-linux-x64
+    if [ -d "/home/tools/node-v18.17.1-linux-x64" ]; then
+        export NODE_HOME=/home/tools/node-v18.17.1-linux-x64
+    fi
+    if [ -d "${code_root}/prebuilts/build-tools/common/nodejs/node-v18.20.1-linux-x64" ]; then
+        export NODE_HOME=${code_root}/prebuilts/build-tools/common/nodejs/node-v18.20.1-linux-x64
+    fi
+    echo NODE_HOME=${NODE_HOME}
     mkdir -p $HOME/.hvigor/wrapper/tools
     cat <<EOF > $HOME/.hvigor/wrapper/tools/package.json
 {
