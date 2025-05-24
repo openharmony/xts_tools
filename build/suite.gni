@@ -384,6 +384,25 @@ template("ohos_js_app_suite") {
   }
 }
 
+# arkts 1.2 hap
+template("ohos_js_app_static_suite") {
+  print("[ohos_js_app_static_suite] part_name = ", invoker.part_name)
+  print("[ohos_js_app_static_suite] hap_name = ", invoker.hap_name)
+  print("[ohos_js_app_static_suite] subsystem_name = ", invoker.subsystem_name)
+
+  action(target_name) {
+    script = rebase_path("//test/xts/tools/build/build_hap_static.sh")
+    args = [
+      "project_dir=" + rebase_path("."),
+      "hap_name=" + invoker.hap_name,
+      "output_dir=" + rebase_path("${SUITES_OUTPUT_ROOT}"),
+    ]
+    outputs = [ 
+      "${SUITES_OUTPUT_ROOT}/" + invoker.hap_name + "_tmp.hap"
+    ]
+  }
+}
+
 template("ohos_shell_app_suite") {
   target("ohos_adapter_shell_app_suite", "${target_name}") {
     forward_variables_from(invoker, "*")
