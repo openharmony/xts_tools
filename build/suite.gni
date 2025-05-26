@@ -30,6 +30,7 @@ declare_args() {
   # create testsuite archive is time-consuming, do it only if necessary
   make_archive = false
   XTS_SUITENAME = getenv("XTS_SUITENAME")
+  XTS_SUITETYPE = string_split(getenv("XTS_SUITETYPE"), ",")
 }
 
 template("ohos_testsuite_base") {
@@ -326,18 +327,34 @@ template("ohos_testsuite_base") {
   }
 }
 
+# 过滤suite_type
+template("ohos_testsuite_base_with_filter") {
+  if ((XTS_SUITETYPE != "") && (filter_include(XTS_SUITETYPE, [invoker.suite_type]) != [])) {
+    target("ohos_testsuite_base", "${target_name}") {
+      forward_variables_from(invoker, "*")
+    }
+  } else {
+    group(target_name) {
+      print("[XTS] suite_type mismatch, no need build" + target_name)
+      not_needed(invoker, "*")
+    }
+  }
+}
+
 template("ohos_moduletest_suite") {
-  target("ohos_testsuite_base", "${target_name}") {
+  target("ohos_testsuite_base_with_filter", "${target_name}") {
     forward_variables_from(invoker, "*")
     if (!defined(module_out_path)) {
       module_out_path = "xts/modules"
     }
     project_type = "gtest"
+    suite_type = "bin"
   }
 }
 
 template("ohos_hap_suite") {
-  target("ohos_testsuite_base", "${target_name}") {
+  suite_type = "hap_dynamic"
+  target("ohos_testsuite_base_with_filter", "${target_name}") {
     forward_variables_from(invoker, "*")
 
     # auto add HJUnitRunner entry ability and test-framework
@@ -365,31 +382,28 @@ template("ohos_hap_suite") {
     }
 
     project_type = "testhap"
+    arkts_type = "dynamic"
   }
 }
 
 template("ohos_js_hap_suite") {
-  target("ohos_testsuite_base", "${target_name}") {
+  target("ohos_testsuite_base_with_filter", "${target_name}") {
     forward_variables_from(invoker, "*")
     project_type = "testhap"
-
-    #js_build_mode = "debug"
+    suite_type = "hap_dynamic"
   }
 }
 
 template("ohos_js_app_suite") {
-  target("ohos_testsuite_base", "${target_name}") {
+  target("ohos_testsuite_base_with_filter", "${target_name}") {
     forward_variables_from(invoker, "*")
     project_type = "testapp"
+    suite_type = "hap_dynamic"
   }
 }
 
-# arkts 1.2 hap
-template("ohos_js_app_static_suite") {
-  print("[ohos_js_app_static_suite] part_name = ", invoker.part_name)
-  print("[ohos_js_app_static_suite] hap_name = ", invoker.hap_name)
-  print("[ohos_js_app_static_suite] subsystem_name = ", invoker.subsystem_name)
-
+# arkts 1.2 
+template("ohos_js_app_static_suite_v1") {
   action(target_name) {
     script = rebase_path("//test/xts/tools/build/build_hap_static.sh")
     args = [
@@ -400,6 +414,22 @@ template("ohos_js_app_static_suite") {
     outputs = [ 
       "${SUITES_OUTPUT_ROOT}/" + invoker.hap_name + "_tmp.hap"
     ]
+  }
+}
+
+# arkts 1.2 hap entrance
+template("ohos_js_app_static_suite") {
+  suite_type = "hap_static"
+  not_needed(invoker, ["part_name", "subsystem_name"])
+  if ((XTS_SUITETYPE != "") && (filter_include(XTS_SUITETYPE, [suite_type]) != [])) {
+    target("ohos_js_app_static_suite_v1", "${target_name}") {
+      forward_variables_from(invoker, "*")
+    }
+  } else {
+    group(target_name) {
+      print("[XTS] suite_type mismatch, no need build" + target_name)
+      not_needed(invoker, "*")
+    }
   }
 }
 
@@ -652,16 +682,18 @@ template("js_hap_suite") {
 }
 
 template("ohos_hap_assist_suite") {
-  target("ohos_testsuite_base", target_name) {
+  target("ohos_testsuite_base_with_filter", target_name) {
     forward_variables_from(invoker, "*")
     project_type = "testhapassist"
+    suite_type = "hap_dynamic"
   }
 }
 
 template("ohos_app_assist_suite") {
-  target("ohos_testsuite_base", target_name) {
+  target("ohos_testsuite_base_with_filter", target_name) {
     forward_variables_from(invoker, "*")
     project_type = "testappassist"
+    suite_type = "hap_dynamic"
   }
 }
 
