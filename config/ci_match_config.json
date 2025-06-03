@@ -27,6 +27,7 @@
         ]
     },
     "temple_list":[
+        "ohos_js_app_static_suite",
         "ohos_moduletest_suite",
         "ohos_js_hap_suite",
         "ohos_js_app_suite",
