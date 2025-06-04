@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2021-2022 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,7 +12,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 import { StaticSpec } from './StaticSpec';
 import { StaticServiceIF } from '../../interface';
 import { TAG } from '../../Constant';
@@ -21,7 +20,6 @@ import { AssertException } from './AssertException';
 import { ConfigService } from '../config/configService';
 import { SpecService } from './SpecService';
 import { SuiteService } from './SuiteService';
-import hilog from '@ohos.hilog'
 
 let tempSuiteService: SuiteService = new SuiteService({ id: '' });
 class StaticSuite {
@@ -103,8 +101,6 @@ class StaticSuite {
         });
       }
       const specs = this.specs;
-      hilog.info(0x0000, 'testTag', '%{public}s', 'xushijie1111');
-
       if (specs.length > 0) {
         if (configService.isRandom()) {
           specs.sort((a: StaticSpec, b: StaticSpec) => {
@@ -117,8 +113,6 @@ class StaticSuite {
           if (isBreakOnError) {
             break;
           }
-          hilog.info(0x0000, 'testTag', '%{public}s', 'xushijie222');
-
           if (this.beforeEach && this.beforeEach.size > 0) {
             this.beforeEach.forEach((func: (() => void) | (() => Promise<void>)) => {
               try {
@@ -128,8 +122,6 @@ class StaticSuite {
               }
             });
           }
-          hilog.info(0x0000, 'testTag', '%{public}s', 'xushijie333');
-
           spec.run(coreContext);
 
           if (this.afterEach && this.afterEach.size > 0) {
@@ -289,7 +281,6 @@ class StaticSuite {
   }
 
   async asyncRun(coreContext: Core) {
-    hilog.info(0x0000, 'testTag', '%{public}s', 'xushijie666');
     const sService = coreContext.getDefaultService('suite');
     const spService = coreContext.getDefaultService('spec');
     if (sService !== null && spService !== null) {
@@ -321,7 +312,6 @@ class StaticSuite {
           this.hookError = err;
         }
       }
-      hilog.info(0x0000, 'testTag', '%{public}s', 'xushijie777');
 
       if (this.hookError !== null) {
         const err = this.hookError as Error;
@@ -329,8 +319,6 @@ class StaticSuite {
         tempSuiteService = suiteService;
         await tempSuiteService.setSuiteResults(this, err, coreContext);
       }
-
-
       if (this.specs.length > 0 && this.hookError === null) {
         await this.asyncRunSpecs(coreContext);
       }

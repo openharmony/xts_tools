@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2021-2022 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,11 +12,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 import { StaticSpecIF } from '../../interface';
 import { Core } from '../../core';
 import { SpecService } from './SpecService';
-import hilog from '@ohos.hilog'
 
 class StaticSpec {
   public description: string;
@@ -94,8 +92,6 @@ class StaticSpec {
     if (typeof dataDriver === 'undefined') {
       const asyncFn = this.asyncFn;
       const fn = this.fn;
-      hilog.info(0x0000, 'testTag', '%{public}s', 'xushijie444');
-
       if (asyncFn !== null) {
         await asyncFn();
       } else if (fn !== null) {

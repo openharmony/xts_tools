@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2021-2022 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,7 +12,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 export type PrimitiveType = int | byte | short | long | float | number | string | undefined | null | boolean | BigInt;
 export type AnyType = PrimitiveType | Date | RegExp | object | never | (() => void); // | symbol @todo 不支持symbol
 export type ItfnType =
