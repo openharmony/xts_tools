@@ -31,7 +31,7 @@ type ServiceType = SuiteService | SpecService | ConfigService | ExpectService | 
 type EventType = SuiteEvent | SpecEvent | TaskEvent;
 class Core {
   public static instance: Core | null = null;
-  public static getInstance() {
+  public static getInstance(): Core | null{ //加上修改类型
     if (!Core.instance) {
       Core.instance = new Core();
     }

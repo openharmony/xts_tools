@@ -1,18 +1,3 @@
-/*
- * Copyright (c) 2021-2022 Huawei Device Co., Ltd.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 import { ServiceAttrIF, ApiIF } from '../../interface';
 import { NestFilter } from '../config/Filter';
 import { Core } from '../../core';
@@ -85,8 +70,9 @@ class SpecService {
 
   getFunctionArgumentsCount(funcStr: string): number {
     const regex = new RegExp('^[0123456789]$', 'g');
-    let count = '';
-    for (let str of funcStr) {
+    let count:string = '';
+    for (let c of funcStr) {
+      let str = new String(c);
       if (regex.test(str)) {
         count = str;
       }
@@ -131,7 +117,6 @@ class SpecService {
         if (cService.filterDesc(curSuite.description, desc, filter) && isFilter && !sService.fullRun) {
           this.initSpecService();
         } else {
-  
 
           const funcStr = Type.of((func as object)).getLiteral()
 
@@ -139,7 +124,6 @@ class SpecService {
 
 
           const isAsync = this.checkIsAsyncFunction(funcStr);
-
           let processedFunc: () => Promise<void> = (): Promise<void> => {
             return Promise.resolve();
           };
@@ -168,12 +152,10 @@ class SpecService {
           }
           this.initSpecService();
 
-
           if (cService.runSkipped === 'skipped' && !spec.isSkip) {
             console.info(`${TAG} runSkipped is skipped , just run xit, don't run it: ${spec.description}`);
             return;
           }
-    
 
           if (curSuite.isSkip && !spec.isSkip) {
             cService.filterXdescribe.push(curSuite.description);
