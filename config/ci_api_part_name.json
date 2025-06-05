@@ -15,6 +15,41 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/arkui_transformer.py",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/exists_path.py",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/.gitignore",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/OAT.xml",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/bundle.json",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/BUILD.gn",
             "bundle_name": [
                 "ability_runtime"
