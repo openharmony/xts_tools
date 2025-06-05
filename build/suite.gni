@@ -725,7 +725,7 @@ template("ohos_sh_assist_suite_base") {
 
 # 过滤suite_type
 template("ohos_sh_assist_suite") {
-  if (XTS_SUITETYPE == [] &&
+  if (XTS_SUITETYPE == [] ||
       filter_include(XTS_SUITETYPE, [ invoker.suite_type ]) != []) {
     target("ohos_sh_assist_suite_base", "${target_name}") {
       not_needed(invoker, [ invoker.suite_type ])
@@ -785,7 +785,7 @@ template("merge_xts_notice") {
 
 # 过滤suite_type
 template("ohos_xts_static_library") {
-  if (XTS_SUITETYPE == [] && filter_include(XTS_SUITETYPE, [ "bin" ]) != []) {
+  if (XTS_SUITETYPE == [] || filter_include(XTS_SUITETYPE, [ "bin" ]) != []) {
     target("ohos_static_library", "${target_name}") {
       forward_variables_from(invoker, "*")
     }
@@ -799,7 +799,7 @@ template("ohos_xts_static_library") {
 
 # 过滤suite_type
 template("ohos_xts_executable") {
-  if (XTS_SUITETYPE == [] && filter_include(XTS_SUITETYPE, [ "bin" ]) != []) {
+  if (XTS_SUITETYPE == [] || filter_include(XTS_SUITETYPE, [ "bin" ]) != []) {
     target("ohos_executable", "${target_name}") {
       forward_variables_from(invoker, "*")
     }
@@ -820,7 +820,7 @@ template("ohos_xts_action") {
     _suite_type = "bin"
   }
   not_needed(invoker, [ _suite_type ])
-  if (XTS_SUITETYPE == [] &&
+  if (XTS_SUITETYPE == [] ||
       filter_include(XTS_SUITETYPE, [ _suite_type ]) != []) {
     action("${target_name}") {
       forward_variables_from(invoker, "*")
@@ -842,7 +842,7 @@ template("ohos_xts_group") {
     _suite_type = "bin"
   }
   not_needed([ _suite_type ])
-  if (XTS_SUITETYPE == [] &&
+  if (XTS_SUITETYPE == [] ||
       filter_include(XTS_SUITETYPE, [ _suite_type ]) != []) {
     group("${target_name}") {
       forward_variables_from(invoker, "*")
