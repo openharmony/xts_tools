@@ -6948,6 +6948,13 @@
                 "ability_runtime"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.enterprise.telephonyManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c":[
