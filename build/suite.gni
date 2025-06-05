@@ -57,6 +57,7 @@ template("ohos_testsuite_base") {
     _suite_type = invoker.suite_type
     if (XTS_SUITETYPE != _suite_type) {
       precise_build_boolean = false
+      not_needed([ "_part_name" ])
     }
   } else if (defined(invoker.suite_type)) {
     not_needed(invoker, [ "suite_type" ])
