@@ -812,6 +812,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.base.d.ets",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.inspector.d.ts",
             "bundle_name": [
                 "ace_engine"
