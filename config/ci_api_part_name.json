@@ -3997,6 +3997,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@internal/ets/global.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/ets/lifecycle.d.ts",
             "bundle_name": [
                 "ability_runtime"
