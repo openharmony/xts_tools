@@ -2338,6 +2338,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.deviceInfo.d.ets",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.insightIntent.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -3431,6 +3438,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.batteryInfo.d.ts",
+            "bundle_name": [
+                "battery_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.batteryInfo.d.ets",
             "bundle_name": [
                 "battery_manager"
             ],
