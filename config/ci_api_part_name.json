@@ -1834,6 +1834,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.abilityAccessCtrl.d.ets",
+            "bundle_name": [
+                "access_token"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.avCastPickerParam.d.ts",
             "bundle_name": [
                 "av_session"
@@ -1905,6 +1912,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.privacyManager.d.ts",
+            "bundle_name": [
+                "access_token"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.privacyManager.d.ets",
             "bundle_name": [
                 "access_token"
             ],
@@ -5258,6 +5272,13 @@
         },
         {
             "path": "interface/sdk-js/api/security/PermissionRequestResult.d.ts",
+            "bundle_name": [
+                "access_token"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/security/PermissionRequestResult.d.ets",
             "bundle_name": [
                 "access_token"
             ],
