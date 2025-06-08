@@ -3759,6 +3759,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.util.d.ets",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.appRecovery.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -7911,4 +7918,4 @@
             "build_targets": []
         }
     ]
-}   
+}
