@@ -385,6 +385,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.multimedia.image.d.ets",
+            "bundle_name": [
+                "image_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.fileExtensionInfo.d.ts",
             "bundle_name": [
                 "user_file_service"
