@@ -791,6 +791,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.file.fs.d.ets",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.driver.deviceManager.d.ts",
             "bundle_name": [
                 "external_device_manager"
