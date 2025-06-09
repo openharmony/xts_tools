@@ -1,10 +1,10 @@
-/*
- * Copyright (C) 2024 Huawei Device Co., Ltd.
+/**
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *     http://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -55,8 +55,8 @@ export default function abilityTest() {
      * @tc.level   0
     */
     it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3000', Level.LEVEL0, async (done:Function) => {
-      let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3000'
-      let targetBundleName = 'com.test.actsauthorizationandrevocationtest'
+      let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3000';
+      let targetBundleName = 'com.test.actsauthorizationandrevocationtest';
       let path = "/name/name";
       fs.mkdir(path).then(() => {
         console.info(TAG,"mkdir succeed");
@@ -83,8 +83,8 @@ export default function abilityTest() {
      * @tc.level   0
      */
     it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3100', Level.LEVEL0, async (done:Function) => {
-      let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3100'
-      let targetBundleName = 'com.test.actsauthorizationandrevocationtest'
+      let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3100';
+      let targetBundleName = 'com.test.actsauthorizationandrevocationtest';
       let path = "/data/storage/el2/base/haps/entry";
       fs.mkdir(path).then(() => {
         console.info(TAG,"mkdir succeed");
@@ -111,8 +111,8 @@ export default function abilityTest() {
      * @tc.level   0
      */
     it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3200', Level.LEVEL0, async (done:Function) => {
-      let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3200'
-      let targetBundleName = 'com.test.1111'
+      let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3200';
+      let targetBundleName = 'com.test.1111';
       let path = "/data/storage/el2/base/haps/entry";
       fs.mkdir(path).then(() => {
         console.info(TAG,"mkdir succeed");
@@ -139,12 +139,14 @@ export default function abilityTest() {
      * @tc.level   0
      */
     it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3400', Level.LEVEL0, async (done:Function) => {
-      let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3400'
-      let targetBundleName = 'com.test.actsauthorizationandrevocationtest'
+      let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3400';
+      let targetBundleName = 'com.test.actsauthorizationandrevocationtest';
       let path = "/data/storage/el2/base/haps/entry";
       let uri = undefined;
       try {
-        const data = await uriPermissionManager.revokeUriPermission(uri, targetBundleName)
+        const data = await uriPermissionManager.revokeUriPermission(uri, targetBundleName);
+        console.log(TAG, `case test fail`);
+        expect().assertFail();
       } catch (error) {
         console.log(TAG,`Error occurred while granting permission:  ${JSON.stringify(error.code)}`);
         expect(error.code).assertEqual(401);
@@ -160,12 +162,14 @@ export default function abilityTest() {
      * @tc.level   0
      */
     it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3500', Level.LEVEL0, async (done:Function) => {
-      let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3500'
-      let targetBundleName = 'com.test.1111'
+      let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3500';
+      let targetBundleName = 'com.test.1111';
       let path = "/data/storage/el2/base/haps/entry";
       let uri = fileUri.getUriFromPath(path);
       try {
-        const data = await uriPermissionManager.revokeUriPermission(uri, targetBundleName)
+        const data = await uriPermissionManager.revokeUriPermission(uri, targetBundleName);
+        console.log(TAG, `case test fail`);
+        expect().assertFail();
       } catch (error) {
         console.log(TAG,`Error occurred while granting permission:  ${JSON.stringify(error.code)}`);
         expect(error.code).assertEqual(16000050);
@@ -176,22 +180,22 @@ export default function abilityTest() {
     /*
      * @tc.number  SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3600
      * @tc.name    Verify that the background application calls the moveAbilityToBackground API fails
-     * @tc.desc   : Function test
+     * @tc.desc    Function test
      * @tc.size:   MediumTest
      * @tc.type:   Function
-     * @tc.level  : 0
+     * @tc.level   0
      */
     it('SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3600', Level.LEVEL0, async (done:Function) => {
       let TAG = 'SUB_Ability_AbilityRuntime_Uri_AuthorizationAndRevocation_3600'
       let targetBundleName = 'com.test.actsauthorizationandrevocationtest'
-      let uri = "file://com.example.test_case1/data/storage/el2/base/haps/entry_test/files/newDir";
+      let uri = "1";
       try {
         const data = await uriPermissionManager.revokeUriPermission(uri, targetBundleName);
         console.log(TAG,'Verification succeeded.' + data);
         done()
       } catch (error) {
         console.log(TAG,`Error occurred while granting permission:  ${JSON.stringify(error.code)}`);
-        done();
+        expect().assertFail();
       }
     })
   })
