@@ -43,6 +43,7 @@ struct getTopAbilityIndex {
           .fontWeight(FontWeight.Bold)
 
         Button('getTopAbility,Callback方式')
+          .size({ width: '1%', height: '1%' })
           .margin({top: 10})
           .id('SUB_Ability_AbilityRuntime_GetTopAbility_0100')
           .onClick(() => {
@@ -71,6 +72,7 @@ struct getTopAbilityIndex {
         Text(this.callbackResult)
 
         Button('getTopAbility,Promise方式')
+          .size({ width: '1%', height: '1%' })
           .margin({top: 10})
           .id('SUB_Ability_AbilityRuntime_GetTopAbility_0200')
           .onClick(() => {

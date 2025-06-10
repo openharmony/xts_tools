@@ -98,7 +98,7 @@ export default function getTopAbilityTest() {
     /*
      * @tc.number  SUB_Ability_AbilityRuntime_GetTopAbility_0200
      * @tc.name    SUB_Ability_AbilityRuntime_GetTopAbility_0200
-     * @tc.desc    Callback verification for getTopAbility interface
+     * @tc.desc    Promise verification for getTopAbility interface
      * @tc.level   0
      */
     it('SUB_Ability_AbilityRuntime_GetTopAbility_0200', Level.LEVEL0, async (done: Function) => {
