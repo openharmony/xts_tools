@@ -44,8 +44,8 @@ export default function createBundleContextTest() {
     
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0800
-     * @tc.name   : createBundleContext, normal app
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0800
+     * @tc.desc   : createBundleContext, normal app
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -74,8 +74,8 @@ export default function createBundleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1200
-     * @tc.name   : createModuleContext, normal app
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1200
+     * @tc.desc   : createModuleContext, normal app
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0

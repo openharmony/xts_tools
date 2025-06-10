@@ -47,8 +47,8 @@ export default function createBundleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0100
-     * @tc.name   : createModuleContext,moduleName = entry
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0100
+     * @tc.desc   : createModuleContext,moduleName = entry
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -76,8 +76,8 @@ export default function createBundleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0200
-     * @tc.name   : createModuleContext,moduleName = entry
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0200
+     * @tc.desc   : createModuleContext,moduleName = entry
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -105,8 +105,8 @@ export default function createBundleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0300
-     * @tc.name   : createModuleContext,moduleName = entry
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0300
+     * @tc.desc   : createModuleContext,moduleName = entry
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -134,8 +134,8 @@ export default function createBundleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0400
-     * @tc.name   : createModuleContext,moduleName = entry
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0400
+     * @tc.desc   : createModuleContext,moduleName = entry
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -163,8 +163,8 @@ export default function createBundleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0500
-     * @tc.name   : createModuleContext,moduleName = entry
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0500
+     * @tc.desc   : createModuleContext,moduleName = entry
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -192,8 +192,8 @@ export default function createBundleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0600
-     * @tc.name   : createModuleContext,moduleName = entry
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0600
+     * @tc.desc   : createModuleContext,moduleName = entry
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -221,8 +221,8 @@ export default function createBundleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0900
-     * @tc.name   : createModuleContext,moduleName = entry
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0900
+     * @tc.desc   : createModuleContext,moduleName = entry
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -273,7 +273,7 @@ export function checkContext(data: Context, done: Function): void {
     expect(JSON.stringify(data.applicationInfo.icon)).assertEqual('"$media:app_icon"');
     expect(JSON.stringify(data.applicationInfo.iconId)).assertEqual('33554438');
     expect(JSON.stringify(data.applicationInfo.process)).assertEqual('"com.test.actscreatebundlecontexttest"');
-    expect(JSON.stringify(data.applicationInfo.uid)).assertEqual('20010045');
+    expect(JSON.stringify(data.applicationInfo.uid)).assertEqual('20010044');
     expect(JSON.stringify(data.applicationInfo.iconResource.bundleName)).assertEqual('"com.test.actscreatebundlecontexttest"');
     expect(JSON.stringify(data.applicationInfo.iconResource.moduleName)).assertEqual('"entry_test"');
     expect(JSON.stringify(data.applicationInfo.iconResource.id)).assertEqual('33554438');

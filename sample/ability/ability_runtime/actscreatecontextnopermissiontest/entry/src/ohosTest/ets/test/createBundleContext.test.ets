@@ -44,8 +44,8 @@ export default function createBundleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1100
-     * @tc.name   : createModuleContext, without permission, return 201
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1100
+     * @tc.desc   : createModuleContext, without permission, return 201
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 3
@@ -75,8 +75,8 @@ export default function createBundleContextTest() {
 
    /*
    * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0700
-   * @tc.name   : Failed to call the createBundleContext interface due to error code 201, as the permission ohos.permission.GET_BUNDLE_INFO_PRIVILEGED has not been applied for.
-   * @tc.desc   : Function test
+   * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0700
+   * @tc.desc   : Failed to call the createBundleContext interface due to error code 201, as the permission ohos.permission.GET_BUNDLE_INFO_PRIVILEGED has not been applied for.
    * @tc.size:   MediumTest
    * @tc.type:   Function
    * @tc.level  : 3

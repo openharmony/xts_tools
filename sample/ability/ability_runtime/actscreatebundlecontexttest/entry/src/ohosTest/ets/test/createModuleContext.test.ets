@@ -36,8 +36,8 @@ export default function createModuleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0100
-     * @tc.name   : createModuleContext,context = null, return 401
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0100
+     * @tc.desc   : createModuleContext,context = null, return 401
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -65,8 +65,8 @@ export default function createModuleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0200
-     * @tc.name   : createModuleContext,context = undefined, return 401
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0200
+     * @tc.desc   : createModuleContext,context = undefined, return 401
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -94,8 +94,8 @@ export default function createModuleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0300
-     * @tc.name   : createModuleContext,bundleName = null, return 401
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0300
+     * @tc.desc   : createModuleContext,bundleName = null, return 401
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -123,8 +123,8 @@ export default function createModuleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0300
-     * @tc.name   : createModuleContext,bundleName = undefined, return 401
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0300
+     * @tc.desc   : createModuleContext,bundleName = undefined, return 401
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -152,8 +152,8 @@ export default function createModuleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0500
-     * @tc.name   : createModuleContext,bundleName = 'xxxxx', return 401
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0500
+     * @tc.desc   : createModuleContext,bundleName = 'xxxxx', return 401
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -183,8 +183,8 @@ export default function createModuleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0600
-     * @tc.name   : createModuleContext,bundleName = '', return 401
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0600
+     * @tc.desc   : createModuleContext,bundleName = '', return 401
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -214,8 +214,8 @@ export default function createModuleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0700
-     * @tc.name   : createModuleContext,moduleName = null, return 401
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0700
+     * @tc.desc   : createModuleContext,moduleName = null, return 401
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -245,8 +245,8 @@ export default function createModuleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0800
-     * @tc.name   : createModuleContext,moduleName = undefined, return 401
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0800
+     * @tc.desc   : createModuleContext,moduleName = undefined, return 401
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -276,8 +276,8 @@ export default function createModuleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0900
-     * @tc.name   : createModuleContext,moduleName = 'xxxx, return 401
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_0900
+     * @tc.desc   : createModuleContext,moduleName = 'xxxx, return 401
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -307,8 +307,8 @@ export default function createModuleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1000
-     * @tc.name   : createModuleContext,moduleName = '', return 401
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1000
+     * @tc.desc   : createModuleContext,moduleName = '', return 401
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
@@ -338,8 +338,8 @@ export default function createModuleContextTest() {
 
     /*
      * @tc.number : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1900
-     * @tc.name   : createModuleContext, execute success
-     * @tc.desc   : Function test
+     * @tc.name   : SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1900
+     * @tc.desc   : createModuleContext, execute success
      * @tc.size:   MediumTest
      * @tc.type:   Function
      * @tc.level  : 0
