@@ -31,10 +31,10 @@ declare_args() {
   make_archive = false
   XTS_SUITENAME = getenv("XTS_SUITENAME")
   if (getenv("XTS_SUITETYPE") != "") {
-  XTS_SUITETYPE = string_split(getenv("XTS_SUITETYPE"), ",")
+    XTS_SUITETYPE = string_split(getenv("XTS_SUITETYPE"), ",")
   } else {
     XTS_SUITETYPE = []
-}
+  }
 }
 
 template("ohos_testsuite_base") {
@@ -423,7 +423,7 @@ template("ohos_js_app_static_suite") {
     forward_variables_from(invoker, "*")
     project_type = "testapp"
     suite_type = "hap_static"
-    hvigor_home="//prebuilts/command-line-tools/hvigor"
+    hvigor_home = "//prebuilts/command-line-tools/hvigor"
     nodejs_path =
         "//prebuilts/build-tools/common/nodejs/node-v18.20.1-linux-x64/bin/node"
   }
