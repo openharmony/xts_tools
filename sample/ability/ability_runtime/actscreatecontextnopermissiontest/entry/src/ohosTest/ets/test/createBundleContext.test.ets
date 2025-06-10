@@ -50,7 +50,7 @@ export default function createBundleContextTest() {
      * @tc.type:   Function
      * @tc.level  : 3
      */
-    it('SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1100', Level.LEVEL0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1100', Level.LEVEL3, async (done: Function) => {
       let tag:string = "SUB_Ability_AbilityRuntime_AMS_Context_CreateModuleContext_1100"
       hilog.info(0x0000, 'testTag', '%{public}s', `${tag} start`);
       let moduleContext: common.Context;
@@ -79,9 +79,9 @@ export default function createBundleContextTest() {
    * @tc.desc   : Function test
    * @tc.size:   MediumTest
    * @tc.type:   Function
-   * @tc.level  : 0
+   * @tc.level  : 3
    */
-    it('SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0700', 0, async (done: Function) => {
+    it('SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0700', Level.LEVEL3, async (done: Function) => {
       hilog.info(0x0000, 'testTag', '%{public}s', 'SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0700 start');
       try {
         application.createBundleContext(globalThis.context, 'com.test.actscreatecontextnopermissiontest').then((data: Context)=>{
