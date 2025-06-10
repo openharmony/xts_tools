@@ -32,7 +32,7 @@ export default function residentProcessSystemAppTest() {
 
     })
     afterEach(() => {
-      hilog.info(0x0000, TAG, "[%{public}s] case end.", TAG);
+
     })
     afterAll(() => {
 
@@ -46,7 +46,6 @@ export default function residentProcessSystemAppTest() {
      */
     it('SUB_Ability_AbilityRuntime_ResidentProcess_0400', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0400';
-      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       try {
         let residentProcessBundleName = null;
         let enable: boolean = false;
@@ -58,13 +57,17 @@ export default function residentProcessSystemAppTest() {
               expect().assertFail();
             } catch {
             }
+            done();
           })
           .catch((err: BusinessError) => {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
             errObject = err;
+            try {
+              expect().assertFail();
+            } catch {
+            }
+            done();
           });
-        expect().assertFail();
-        done();
       } catch (paramError) {
         hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
         expect(paramError.code).assertEqual(401);
@@ -80,7 +83,6 @@ export default function residentProcessSystemAppTest() {
      */
     it('SUB_Ability_AbilityRuntime_ResidentProcess_0500', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0500';
-      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       try {
         let residentProcessBundleName = undefined;
         let enable: boolean = false;
@@ -92,13 +94,17 @@ export default function residentProcessSystemAppTest() {
               expect().assertFail();
             } catch {
             }
+            done();
           })
           .catch((err: BusinessError) => {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
             errObject = err;
+            try {
+              expect().assertFail();
+            } catch {
+            }
+            done();
           });
-        expect().assertFail();
-        done();
       } catch (paramError) {
         hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
         expect(paramError.code).assertEqual(401);
@@ -114,7 +120,6 @@ export default function residentProcessSystemAppTest() {
      */
     it('SUB_Ability_AbilityRuntime_ResidentProcess_0600', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0600';
-      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       try {
         let residentProcessBundleName: string = '';
         let enable: boolean = false;
@@ -126,13 +131,17 @@ export default function residentProcessSystemAppTest() {
               expect().assertFail();
             } catch {
             }
+            done();
           })
           .catch((err: BusinessError) => {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
             errObject = err;
+            try {
+              expect().assertFail();
+            } catch {
+            }
+            done();
           });
-        expect().assertFail();
-        done();
       } catch (paramError) {
         hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
         expect(paramError.code).assertEqual(401);
@@ -148,7 +157,6 @@ export default function residentProcessSystemAppTest() {
      */
     it('SUB_Ability_AbilityRuntime_ResidentProcess_0700', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0700';
-      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       try {
         let residentProcessBundleName: string = 'com.test.actsresidentprocessrely';
         let enable = null;
@@ -160,13 +168,17 @@ export default function residentProcessSystemAppTest() {
               expect().assertFail();
             } catch {
             }
+            done();
           })
           .catch((err: BusinessError) => {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
             errObject = err;
+            try {
+              expect().assertFail();
+            } catch {
+            }
+            done();
           });
-        expect().assertFail();
-        done();
       } catch (paramError) {
         hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
         expect(paramError.code).assertEqual(401);
@@ -182,7 +194,6 @@ export default function residentProcessSystemAppTest() {
      */
     it('SUB_Ability_AbilityRuntime_ResidentProcess_0800', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0800';
-      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
       try {
         let residentProcessBundleName: string = 'com.test.actsresidentprocessrely';
         let enable = undefined;
@@ -194,13 +205,17 @@ export default function residentProcessSystemAppTest() {
               expect().assertFail();
             } catch {
             }
+            done();
           })
           .catch((err: BusinessError) => {
             hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
             errObject = err;
+            try {
+              expect().assertFail();
+            } catch {
+            }
+            done();
           });
-        expect().assertFail();
-        done();
       } catch (paramError) {
         hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
         expect(paramError.code).assertEqual(401);

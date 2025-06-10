@@ -32,7 +32,7 @@ export default function residentProcessNormalAppTest() {
 
     })
     afterEach(() => {
-      hilog.info(0x0000, TAG, "[%{public}s] case end.", TAG);
+
     })
     afterAll(() => {
 
@@ -46,31 +46,23 @@ export default function residentProcessNormalAppTest() {
      */
     it('SUB_Ability_AbilityRuntime_ResidentProcess_0100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_Ability_AbilityRuntime_ResidentProcess_0100';
-      hilog.info(0x0000, TAG, "[%{public}s] case start.", TAG);
-      try {
-        let residentProcessBundleName: string = 'com.test.actsresidentprocessrely';
-        let enable: boolean = false;
-        let errObject = {} as BusinessError;
-        await abilityManager.setResidentProcessEnabled(residentProcessBundleName, enable)
-          .then(() => {
-            hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled succeed.", TAG);
-            try {
-              expect().assertFail();
-            } catch {
-            }
-          })
-          .catch((err: BusinessError) => {
-            hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
-            errObject = err;
-          });
-        expect(errObject.code).assertEqual(202);
-        done();
-      } catch (paramError) {
-        hilog.info(0x0000, TAG, "[%{public}s] paramError: %{public}s", TAG, JSON.stringify(paramError));
-        expect().assertFail();
-        done();
-      }
-
+      let residentProcessBundleName: string = 'com.test.actsresidentprocessrely';
+      let enable: boolean = false;
+      let errObject = {} as BusinessError;
+      await abilityManager.setResidentProcessEnabled(residentProcessBundleName, enable)
+        .then(() => {
+          hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled succeed.", TAG);
+          expect().assertFail();
+        })
+        .catch((err: BusinessError) => {
+          hilog.info(0x0000, TAG, "[%{public}s] setResidentProcessEnabled fail, err: %{public}s", TAG, JSON.stringify(err));
+          errObject = err;
+          try {
+            expect(errObject.code).assertEqual(202);
+          } catch {
+          }
+          done();
+        });
     })
 
   })
