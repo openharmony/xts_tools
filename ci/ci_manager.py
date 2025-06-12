@@ -163,7 +163,7 @@ class WhitelistManager(Ci_Manager):
         self._build_paths = []
         self._build_targets = []
         self.full_impact_flag = "FULL_IMPACT"
-        self.full_impact_flag_tptally = "FULL_IMPACT_TOTALLY"
+        self.full_impact_flag_totally = "FULL_IMPACT_TOTALLY"
 
     def get_targets_from_change(self, change_list):
         for changeFileEntity in change_list:
