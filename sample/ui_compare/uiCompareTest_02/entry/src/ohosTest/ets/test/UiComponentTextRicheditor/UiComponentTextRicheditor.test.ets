@@ -68,15 +68,14 @@ export default function UiComponentTextRicheditor() {
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor02")
-      await Utils.sleep(1000)
       let driver: Driver=Driver.create()
-      let text: Component = await driver.findComponent(ON.id('UiComponentTextRicheditor02'))
+      let text: Component = await driver.waitForComponent(ON.id('UiComponentTextRicheditor02'),1000)
       await text.inputText('aaaaaaaaa')
-      await Utils.sleep(1000)
+      await driver.waitForIdle(500,2000)
       await driver.longClick(110,300)
-      await Utils.sleep(1000)
+      await driver.waitForIdle(500,2000)
       await driver.mouseClick({x:700,y:300}, MouseButton.MOUSE_BUTTON_LEFT, 2072);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0070')
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0070 finish.`);
       done()
@@ -93,14 +92,13 @@ export default function UiComponentTextRicheditor() {
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor03")
-      await Utils.sleep(1000)
       let driver: Driver=Driver.create()
-      let text: Component = await driver.findComponent(ON.id('UiComponentTextRicheditor03'))
+      let text: Component = await driver.waitForComponent(ON.id('UiComponentTextRicheditor03'),1000)
       await text.inputText('aaaaaaaaa')
-      await Utils.sleep(1000)
+      await driver.waitForIdle(500,2000)
       await driver.click(170,300)
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020')
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020 finish.`);
       done()
@@ -117,19 +115,18 @@ export default function UiComponentTextRicheditor() {
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor03")
-      await Utils.sleep(1000)
       let driver: Driver=Driver.create()
-      let text: Component = await driver.findComponent(ON.id('UiComponentTextRicheditor03'))
+      let text: Component = await driver.waitForComponent(ON.id('UiComponentTextRicheditor03'),1000)
       await text.inputText('aaaaaaaaa')
-      await Utils.sleep(1000)
+      await driver.waitForIdle(500,2000)
       await driver.click(20,300)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020_1')
-      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.waitForIdle(500,2000)
       await driver.click(400,300)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020_2')
-      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.waitForIdle(500,2000)
       await driver.click(100,300)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020_3')
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0080 finish.`);
       done()
@@ -146,8 +143,9 @@ export default function UiComponentTextRicheditor() {
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0010`);
       Settings.createWindow("testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor05")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0010')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0010`);
       done()
@@ -164,22 +162,22 @@ export default function UiComponentTextRicheditor() {
     it('SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_SHUFFLEEDITING_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_SHUFFLEEDITING_0370`);
       Settings.createWindow("testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor06")
-      await Utils.sleep(1000)
       let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
       await driver.longClick(300,100)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_SHUFFLEEDITING_0370_1')
+      windowSnap.snapShot()
       await driver.mouseClick({x:320, y:270}, MouseButton.MOUSE_BUTTON_LEFT, 2072);
-      await Utils.sleep(1000)
+      await driver.waitForIdle(500,2000)
       await driver.longClick(500,350)
       await driver.mouseClick({x:90, y:160}, MouseButton.MOUSE_BUTTON_LEFT, 2072);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_SHUFFLEEDITING_0370_2')
-      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.waitForIdle(500,2000)
       await driver.longClick(200,250)
       await driver.mouseClick({x:150, y:200}, MouseButton.MOUSE_BUTTON_LEFT, 2072);
       await driver.mouseClick({x:150, y:170}, MouseButton.MOUSE_BUTTON_LEFT, 2072);
       await driver.longClick(500,350)
       await driver.mouseClick({x:80, y:170}, MouseButton.MOUSE_BUTTON_LEFT, 2072);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_SHUFFLEEDITING_0370_3')
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_SHUFFLEEDITING_0370`);
       done()
