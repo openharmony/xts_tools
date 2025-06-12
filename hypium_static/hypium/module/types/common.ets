@@ -21,4 +21,4 @@ export type ItfnType =
   | ((done: () => void) => Promise<void>)
   | ((done: () => void, param2: AnyType) => void)
   | ((done: () => void, param2: AnyType) => Promise<void>);
-export type NumberType = double;
+export type NumberType = byte | short | int | long | float | double;
