@@ -52,17 +52,16 @@ export default function animatorCreate01Test() {
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0040 start.`);
       Settings.createWindow("testability/pages/animator_sample/animator01")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
       for (let i = 0; i < 3; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0040_${(i+1).toString().padStart(2, '0')}`;
-        let buttonCreate: Component = await driver.findComponent(ON.id('create01'));
+        let buttonCreate: Component = await driver.waitForComponent(ON.id('create01'), 1000);
         await buttonCreate.click();
-        let buttonPlay: Component = await driver.findComponent(ON.id('play01'));
+        let buttonPlay: Component = await driver.waitForComponent(ON.id('play01'), 1000);
         await buttonPlay.click();
-        await Utils.sleep(200)
+        await driver.waitForIdle(500,2000);
         windowSnap.snapShot(str)
-        await Utils.sleep(1000)
+        await driver.waitForIdle(500,2000);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0040 finish.`);
@@ -79,15 +78,14 @@ export default function animatorCreate01Test() {
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0020 start.`);
       Settings.createWindow("testability/pages/animator_sample/animator02")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
       for (let i = 0; i < 5; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0020_${(i+1).toString().padStart(2, '0')}`;
-        let buttonCreate: Component = await driver.findComponent(ON.id('create02'));
+        let buttonCreate: Component = await driver.waitForComponent(ON.id('create02'), 1000);
         await buttonCreate.click();
-        let buttonPlay: Component = await driver.findComponent(ON.id('play02'));
+        let buttonPlay: Component = await driver.waitForComponent(ON.id('play02'), 1000);
         await buttonPlay.click();
-        await Utils.sleep(200)
+        await driver.waitForIdle(500,2000);
         windowSnap.snapShot(str)
         await Utils.sleep(1000)
       }
@@ -106,17 +104,16 @@ export default function animatorCreate01Test() {
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0090 start.`);
       Settings.createWindow("testability/pages/animator_sample/animator03")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
       for (let i = 0; i < 3; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0090_${(i+1).toString().padStart(2, '0')}`;
-        let buttonCreate: Component = await driver.findComponent(ON.id('create03'));
+        let buttonCreate: Component = await driver.waitForComponent(ON.id('create03'), 1000);
         await buttonCreate.click();
-        let buttonPlay: Component = await driver.findComponent(ON.id('play03'));
+        let buttonPlay: Component = await driver.waitForComponent(ON.id('play03'), 1000);
         await buttonPlay.click();
-        await Utils.sleep(200)
+        await driver.waitForIdle(500,2000);
         windowSnap.snapShot(str)
-        await Utils.sleep(1000)
+        await driver.waitForIdle(500,2000);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0090 finish.`);
@@ -133,17 +130,16 @@ export default function animatorCreate01Test() {
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0070 start.`);
       Settings.createWindow("testability/pages/animator_sample/animator04")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
       for (let i = 0; i < 10; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0070_${(i+1).toString().padStart(2, '0')}`;
-        let buttonCreate: Component = await driver.findComponent(ON.id('create04'));
+        let buttonCreate: Component = await driver.waitForComponent(ON.id('create04'), 1000);
         await buttonCreate.click();
-        let buttonPlay: Component = await driver.findComponent(ON.id('play04'));
+        let buttonPlay: Component = await driver.waitForComponent(ON.id('play04'), 1000);
         await buttonPlay.click();
-        await Utils.sleep(200)
+        await driver.waitForIdle(500,2000);
         windowSnap.snapShot(str)
-        await Utils.sleep(1000)
+        await driver.waitForIdle(500,2000);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0070 finish.`);
@@ -160,17 +156,16 @@ export default function animatorCreate01Test() {
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0010 start.`);
       Settings.createWindow("testability/pages/animator_sample/animator05")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
       for (let i = 0; i < 6; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0010_${(i+1).toString().padStart(2, '0')}`;
-        let buttonCreate: Component = await driver.findComponent(ON.id('create05'));
+        let buttonCreate: Component = await driver.waitForComponent(ON.id('create05'), 1000);
         await buttonCreate.click();
-        let buttonPlay: Component = await driver.findComponent(ON.id('play05'));
+        let buttonPlay: Component = await driver.waitForComponent(ON.id('play05'), 1000);
         await buttonPlay.click();
-        await Utils.sleep(200)
+        await driver.waitForIdle(500,2000);
         windowSnap.snapShot(str)
-        await Utils.sleep(1000)
+        await driver.waitForIdle(500,2000);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0010 finish.`);
@@ -187,17 +182,16 @@ export default function animatorCreate01Test() {
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0160 start.`);
       Settings.createWindow("testability/pages/animator_sample/animator06")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
       for (let i = 0; i < 1; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0160_${(i+1).toString().padStart(2, '0')}`;
-        let buttonCreate: Component = await driver.findComponent(ON.id('create06'));
+        let buttonCreate: Component = await driver.waitForComponent(ON.id('create06'), 1000);
         await buttonCreate.click();
-        let buttonPlay: Component = await driver.findComponent(ON.id('play06'));
+        let buttonPlay: Component = await driver.waitForComponent(ON.id('play06'), 1000);
         await buttonPlay.click();
-        await Utils.sleep(200)
+        await driver.waitForIdle(500,2000);
         windowSnap.snapShot(str)
-        await Utils.sleep(1000)
+        await driver.waitForIdle(500,2000);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0160 finish.`);

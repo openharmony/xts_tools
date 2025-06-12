@@ -34,7 +34,7 @@ export default class Utils {
 
   static  async clickComponentByKey (componentKey :string){
      let driver = Driver.create();
-     let component = await driver.findComponent(ON.id(componentKey))
+     let component = await driver.waitForComponent(ON.id(componentKey), 1000)
      await component.click();
 
   }

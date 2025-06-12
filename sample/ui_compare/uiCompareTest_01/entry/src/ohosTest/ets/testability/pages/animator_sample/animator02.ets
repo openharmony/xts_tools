@@ -33,7 +33,7 @@ struct AnimatorTest01 {
     new SimpleAnimatorOptions(100, 200).duration(1000).iterations(1),
   ]
   create(index:number) {
-    let options: SimpleAnimatorOptions = this.options[0]
+    let options: SimpleAnimatorOptions = this.options[index]
     this.backAnimator = animator.create(options);
     this.backAnimator.onFinish = () => {
       this.flag = true

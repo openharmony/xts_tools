@@ -51,12 +51,11 @@ export default function expectedFrameTest() {
     it('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040 start.`);
       Settings.createWindow("testability/pages/expectedFrame/expectedFrame01")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let buttonCircle: Component = await driver.findComponent(ON.id('Circle01'));
-      let button01: Component = await driver.findComponent(ON.id('changeRateRange120_01'));
-      let button02: Component = await driver.findComponent(ON.id('changeRateRange60_01'));
-      let button03: Component = await driver.findComponent(ON.id('changeRateRange30_01'));
+      let buttonCircle: Component = await driver.waitForComponent(ON.id('Circle01'), 1000);
+      let button01: Component = await driver.waitForComponent(ON.id('changeRateRange120_01'), 1000);
+      let button02: Component = await driver.waitForComponent(ON.id('changeRateRange60_01'), 1000);
+      let button03: Component = await driver.waitForComponent(ON.id('changeRateRange30_01'), 1000);
       await button01.click();
       let callback = (frameInfo: displaySync.IntervalInfo) => {
         console.info("DisplaySync", 'TimeStamp:' + frameInfo.timestamp + ' TargetTimeStamp: ' + frameInfo.targetTimestamp);
@@ -64,21 +63,19 @@ export default function expectedFrameTest() {
       let backDisplaySync: displaySync.DisplaySync = displaySync.create();
       backDisplaySync?.on("frame", callback)
       await buttonCircle.click()
-      setTimeout(async ()=>{
-        windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_01')
-        await Utils.sleep(1000)
-        await button02.click();
-        await buttonCircle.click()
-        windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_02')
-        await Utils.sleep(1000)
-        await button03.click();
-        await buttonCircle.click()
-        windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_03')
-        await Utils.sleep(1000)
-        Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040 finish.`);
-        done()
-      },3000)
-
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_01')
+      await Utils.sleep(1000)
+      await button02.click();
+      await buttonCircle.click()
+      windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_02')
+      await Utils.sleep(1000)
+      await button03.click();
+      await buttonCircle.click()
+      windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_03')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040 finish.`);
+      done()
     })
 
     /*
@@ -92,16 +89,15 @@ export default function expectedFrameTest() {
     it('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010 start.`);
       Settings.createWindow("testability/pages/expectedFrame/expectedFrame02")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let buttonCircle: Component = await driver.findComponent(ON.id('Circle02'));
+      let buttonCircle: Component = await driver.waitForComponent(ON.id('Circle02'), 1000);
       let callback = (frameInfo: displaySync.IntervalInfo) => {
         console.info("DisplaySync", 'TimeStamp:' + frameInfo.timestamp + ' TargetTimeStamp: ' + frameInfo.targetTimestamp);
       }
       let backDisplaySync: displaySync.DisplaySync = displaySync.create();
       backDisplaySync?.on("frame", callback)
       await buttonCircle.click()
-      windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010')
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010 finish.`);
       done()
@@ -118,12 +114,11 @@ export default function expectedFrameTest() {
     it('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0020 start.`);
       Settings.createWindow("testability/pages/expectedFrame/expectedFrame03")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let buttonCircle: Component = await driver.findComponent(ON.id('Circle03'));
-      let button01: Component = await driver.findComponent(ON.id('changeRateRange120_03'));
-      let button02: Component = await driver.findComponent(ON.id('changeRateRange120_03'));
-      let button03: Component = await driver.findComponent(ON.id('changeRateRange120_03'));
+      let buttonCircle: Component = await driver.waitForComponent(ON.id('Circle03'), 1000);
+      let button01: Component = await driver.waitForComponent(ON.id('changeRateRange120_03'), 1000);
+      let button02: Component = await driver.waitForComponent(ON.id('changeRateRange120_03'), 1000);
+      let button03: Component = await driver.waitForComponent(ON.id('changeRateRange120_03'), 1000);
       await button01.click();
       await buttonCircle.click()
       let callback = (frameInfo: displaySync.IntervalInfo) => {
