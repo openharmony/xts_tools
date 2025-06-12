@@ -63,8 +63,6 @@ export default function createBundleContextTest() {
           hilog.info(0x0000, 'testTag', '%{public}s', 'createBundleContext success!');
           expect().assertFail();
           done();
-        }).catch((error : BusinessError)=>{
-          hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
         })
       } catch (error) {
         hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code: ${(error as BusinessError).code}, error.message: ${(error as BusinessError).message}`);
@@ -92,8 +90,6 @@ export default function createBundleContextTest() {
           hilog.info(0x0000, 'testTag', '%{public}s', 'createBundleContext success!');
           expect().assertFail();
           done();
-        }).catch((error : BusinessError)=>{
-          hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
         })
       } catch (error) {
         hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code: ${(error as BusinessError).code}, error.message: ${(error as BusinessError).message}`);
@@ -121,8 +117,6 @@ export default function createBundleContextTest() {
           hilog.info(0x0000, 'testTag', '%{public}s', 'createBundleContext success!');
           expect().assertFail();
           done();
-        }).catch((error : BusinessError)=>{
-          hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
         })
       } catch (error) {
         hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code: ${(error as BusinessError).code}, error.message: ${(error as BusinessError).message}`);
@@ -150,8 +144,6 @@ export default function createBundleContextTest() {
           hilog.info(0x0000, 'testTag', '%{public}s', 'createBundleContext success!');
           expect().assertFail();
           done();
-        }).catch((error : BusinessError)=>{
-          hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
         })
       } catch (error) {
         hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code: ${(error as BusinessError).code}, error.message: ${(error as BusinessError).message}`);
@@ -173,21 +165,17 @@ export default function createBundleContextTest() {
       let tag:string = "SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0500"
       hilog.info(0x0000, 'testTag', '%{public}s', `${tag} start`);
       let moduleContext: common.Context;
-      try {
-        application.createBundleContext(globalThis.context, '123').then((data: Context) => {
-          moduleContext = data;
-          hilog.info(0x0000, 'testTag', '%{public}s', 'createBundleContext success!');
-          expect().assertFail();
-          done();
-        }).catch((error : BusinessError)=>{
-          hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
-          expect(error.code).assertEqual(401)
-          hilog.info(0x0000, 'testTag', '%{public}s', `${tag} end`);
-          done();
-        })
-      } catch (error) {
-        hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code: ${(error as BusinessError).code}, error.message: ${(error as BusinessError).message}`);
-      }
+      application.createBundleContext(globalThis.context, '123').then((data: Context) => {
+        moduleContext = data;
+        hilog.info(0x0000, 'testTag', '%{public}s', 'createBundleContext success!');
+        expect().assertFail();
+        done();
+      }).catch((error : BusinessError)=>{
+        hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
+        expect(error.code).assertEqual(401)
+        hilog.info(0x0000, 'testTag', '%{public}s', `${tag} end`);
+        done();
+      })
     });
 
     /*
@@ -202,21 +190,17 @@ export default function createBundleContextTest() {
       let tag:string = "SUB_Ability_AbilityRuntime_AMS_Context_CreateBundleContext_0500"
       hilog.info(0x0000, 'testTag', '%{public}s', `${tag} start`);
       let moduleContext: common.Context;
-      try {
-        application.createBundleContext(globalThis.context, '').then((data: Context) => {
-          moduleContext = data;
-          hilog.info(0x0000, 'testTag', '%{public}s', 'createBundleContext success!');
-          expect().assertFail();
-          done();
-        }).catch((error : BusinessError)=>{
-          hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
-          expect(error.code).assertEqual(401)
-          hilog.info(0x0000, 'testTag', '%{public}s', `${tag} end`);
-          done();
-        })
-      } catch (error) {
-        hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code: ${(error as BusinessError).code}, error.message: ${(error as BusinessError).message}`);
-      }
+      application.createBundleContext(globalThis.context, '').then((data: Context) => {
+        moduleContext = data;
+        hilog.info(0x0000, 'testTag', '%{public}s', 'createBundleContext success!');
+        expect().assertFail();
+        done();
+      }).catch((error : BusinessError)=>{
+        hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
+        expect(error.code).assertEqual(401)
+        hilog.info(0x0000, 'testTag', '%{public}s', `${tag} end`);
+        done();
+      })
     });
 
     /*
@@ -245,13 +229,9 @@ export default function createBundleContextTest() {
               hilog.info(0x0000, 'testTag', '%{public}s', `resourceManager.getConfiguration locale is:${locale}`);
               expect(direction).assertEqual(0)
               expect(locale).assertEqual('zh_Hans_CN')
-              checkContext(data,done);
+              checkContext(data, tag, done);
             }
           })
-        }).catch((error : BusinessError)=>{
-          hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code1: ${(error as BusinessError).code}, error.message1: ${(error as BusinessError).message}`);
-          expect().assertFail();
-          done();
         })
       } catch (error) {
         hilog.info(0x0000, 'testTag', '%{public}s', `createBundleContext failed, error.code: ${(error as BusinessError).code}, error.message: ${(error as BusinessError).message}`);
@@ -262,7 +242,7 @@ export default function createBundleContextTest() {
   })
 }
 
-export function checkContext(data: Context, done: Function): void {
+export function checkContext(data: Context, tag: string, done: Function): void {
   if(data.applicationInfo){
     expect(JSON.stringify(data.applicationInfo.name)).assertEqual('"com.test.actscreatebundlecontexttest"');
     expect(JSON.stringify(data.eventHub)).not().assertNull();
@@ -286,6 +266,7 @@ export function checkContext(data: Context, done: Function): void {
     expect(JSON.stringify(data.applicationInfo.appDistributionType)).assertEqual('"os_integration"');
     expect(JSON.stringify(data.applicationInfo.appProvisionType)).assertEqual('"release"');
     expect(JSON.stringify(data.applicationInfo.flags)).assertEqual('1');
+    hilog.info(0x0000, 'testTag', `%{public}s', ${tag} end`)
     done();
   }
 }
