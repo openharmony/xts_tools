@@ -17,3 +17,4 @@ echo exec $@
 code_root=$(realpath $(dirname $(readlink -f $0))/../../../../)
 
 cp -rf ${code_root}/test/xts/tools/hypium_static/* $1/entry/src/
+
