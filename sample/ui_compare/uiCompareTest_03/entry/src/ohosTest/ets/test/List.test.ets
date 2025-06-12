@@ -18,7 +18,7 @@ import TestCase from './TestCaseTest/TestCase.test'
 import UIComponentLayoutStack from './UIComponentLayoutStackTest/UIComponentLayoutStack.test'
 
 export default function testsuite() {
-  demoTest();
+  // demoTest();
   TestCase();
   UIComponentLayoutStack();
 }
