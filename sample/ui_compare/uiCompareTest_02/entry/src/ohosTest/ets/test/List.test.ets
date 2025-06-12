@@ -19,10 +19,14 @@ import UiTestCase from './UiTestCase/UiTestCase.test'
 import  UiComponentTextCommonLineSpace from './UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace.test'
 import  UiComponentTextRicheditor from './UiComponentTextRicheditor/UiComponentTextRicheditor.test'
 import UiComponentUIExtensionComponent from  './UiComponentUIExtensionComponent/UiComponentUIExtensionComponent.test'
+import UiComponentBlankLineSelected from './UiComponentBlankLineSelected/UiComponentBlankLineSelected.test'
+import UiComponentControllerAddDelete from './UiComponentControllerAddDelete/UiComponentControllerAddDelete.test'
 export default function testsuite() {
 
   UiTestCase();
   UiComponentTextCommonLineSpace();
   UiComponentTextRicheditor();
   UiComponentUIExtensionComponent();
+  UiComponentBlankLineSelected();
+  UiComponentControllerAddDelete();
 }
