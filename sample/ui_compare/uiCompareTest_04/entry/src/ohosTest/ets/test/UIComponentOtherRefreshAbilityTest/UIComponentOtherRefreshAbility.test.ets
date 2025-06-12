@@ -46,12 +46,11 @@ export default function UIComponentOtherRefreshAbility() {
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility001");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('refresh'));
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherRefreshAbility0190');
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190 finish.`);
       done();
@@ -66,12 +65,11 @@ export default function UIComponentOtherRefreshAbility() {
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility002");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('refresh'));
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherRefreshAbility0020');
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020 finish.`);
       done();
@@ -86,12 +84,11 @@ export default function UIComponentOtherRefreshAbility() {
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility003");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('refresh'));
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherRefreshAbility0030');
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030 finish.`);
       done();
@@ -106,12 +103,11 @@ export default function UIComponentOtherRefreshAbility() {
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility004");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('refresh'));
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherRefreshAbility0060');
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060 finish.`);
       done();

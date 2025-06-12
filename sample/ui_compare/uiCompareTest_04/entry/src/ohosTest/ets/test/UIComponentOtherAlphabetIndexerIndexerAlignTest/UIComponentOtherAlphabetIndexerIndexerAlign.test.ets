@@ -19,7 +19,7 @@ import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { i18n } from '@kit.LocalizationKit';
 import { BusinessError } from '@kit.BasicServicesKit';
-import { Driver, MouseButton } from '@ohos.UiTest'
+import { Driver, ON, Component, MouseButton } from '@ohos.UiTest'
 
 export default function UIComponentOtherAlphabetIndexerIndexerAlign() {
   describe('UIComponentOtherAlphabetIndexerIndexerAlign', () => {
@@ -54,13 +54,14 @@ export default function UIComponentOtherAlphabetIndexerIndexerAlign() {
         console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
       }
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerIndexerAlign/UIComponentOtherAlphabetIndexerIndexerAlign001");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      await driver.mouseClick({x:370, y:800}, MouseButton.MOUSE_BUTTON_LEFT);
-      await Utils.sleep(1000);
-      await driver.mouseClick({x:300, y:810}, MouseButton.MOUSE_BUTTON_LEFT);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlphabetIndexerIndexerAlign0090');
+      let driver: Driver = Driver.create();
+      let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
+      let point = await alphabetIndexer.getBoundsCenter();
+      await driver.mouseClick({x:point.x, y: point.y - 150}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseLongClick({x:point.x - 70, y: point.y + 50}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090 finish.`);
       done();
@@ -81,13 +82,14 @@ export default function UIComponentOtherAlphabetIndexerIndexerAlign() {
         console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
       }
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerIndexerAlign/UIComponentOtherAlphabetIndexerIndexerAlign002");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      await driver.mouseClick({x:370, y:800}, MouseButton.MOUSE_BUTTON_LEFT);
-      await Utils.sleep(1000);
-      await driver.mouseClick({x:300, y:810}, MouseButton.MOUSE_BUTTON_LEFT);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlphabetIndexerIndexerAlign0320');
+      let driver: Driver = Driver.create();
+      let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
+      let point = await alphabetIndexer.getBoundsCenter();
+      await driver.mouseClick({x:point.x, y: point.y - 150}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseLongClick({x:point.x - 70, y: point.y + 50}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320 finish.`);
       done();

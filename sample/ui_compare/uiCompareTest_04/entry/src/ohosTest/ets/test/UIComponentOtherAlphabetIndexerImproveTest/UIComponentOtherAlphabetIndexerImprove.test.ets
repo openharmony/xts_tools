@@ -19,7 +19,7 @@ import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { i18n } from '@kit.LocalizationKit';
 import { BusinessError } from '@kit.BasicServicesKit';
-import { Driver, MouseButton } from '@ohos.UiTest'
+import { Driver, ON, Component, MouseButton } from '@ohos.UiTest'
 
 export default function UIComponentOtherAlphabetIndexerImprove() {
   describe('UIComponentOtherAlphabetIndexerImprove', () => {
@@ -48,11 +48,12 @@ export default function UIComponentOtherAlphabetIndexerImprove() {
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0090 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerImprove/UIComponentOtherAlphabetIndexerImprove001");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      await driver.mouseClick({x:370, y:800}, MouseButton.MOUSE_BUTTON_LEFT);
-      await Utils.sleep(500);
-      windowSnap.snapShot('UIComponentOtherAlphabetIndexerImprove0090');
+      let driver: Driver = Driver.create();
+      let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
+      let point = await alphabetIndexer.getBoundsCenter();
+      await driver.mouseClick({x:point.x, y: point.y - 150}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0090 finish.`);
       done();

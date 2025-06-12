@@ -17,7 +17,7 @@ import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
-import { Driver, MouseButton, UiDirection } from '@ohos.UiTest'
+import { Driver, MouseButton, UiDirection, Component, ON } from '@ohos.UiTest'
 
 export default function UIComponentOtherAlphabetIndexerInterface() {
   describe('UIComponentOtherAlphabetIndexerInterface', () => {
@@ -46,13 +46,14 @@ export default function UIComponentOtherAlphabetIndexerInterface() {
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0080 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerInterface/UIComponentOtherAlphabetIndexerInterface001");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      await driver.mouseClick({x:370, y:800}, MouseButton.MOUSE_BUTTON_LEFT);
-      await Utils.sleep(500);
-      await driver.mouseClick({x:470, y:770}, MouseButton.MOUSE_BUTTON_LEFT);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlphabetIndexerInterface0080');
+      let driver: Driver = Driver.create();
+      let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
+      let point = await alphabetIndexer.getBoundsCenter();
+      await driver.mouseClick({x:point.x, y: point.y - 150}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseLongClick({x:point.x + 120, y: point.y }, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0080 finish.`);
       done();
@@ -67,14 +68,15 @@ export default function UIComponentOtherAlphabetIndexerInterface() {
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0090 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerInterface/UIComponentOtherAlphabetIndexerInterface002");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      await driver.mouseClick({x:370, y:800}, MouseButton.MOUSE_BUTTON_LEFT);
-      await Utils.sleep(500);
+      let driver: Driver = Driver.create();
+      let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
+      let point = await alphabetIndexer.getBoundsCenter();
+      await driver.mouseClick({x: point.x, y: point.y - 150}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 1000);
       await driver.fling(UiDirection.DOWN, 10000);
-      await driver.mouseScroll({x:470, y:770}, true, 70, 2072,20);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlphabetIndexerInterface0090');
+      await driver.mouseScroll({x: point.x + 120, y: point.y }, true, 70, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0090 finish.`);
       done();
