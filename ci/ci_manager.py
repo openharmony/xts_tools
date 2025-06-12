@@ -163,6 +163,7 @@ class WhitelistManager(Ci_Manager):
         self._build_paths = []
         self._build_targets = []
         self.full_impact_flag = "FULL_IMPACT"
+        self.full_impact_flag_tptally = "FULL_IMPACT_TOTALLY"
 
     def get_targets_from_change(self, change_list):
         for changeFileEntity in change_list:
@@ -181,7 +182,9 @@ class WhitelistManager(Ci_Manager):
         targets = []
         if add_targets:
             if add_targets[0] == self.full_impact_flag:
-                targets = PathUtils.get_all_build_target(self._xts_root_dir)
+                targets = PathUtils.get_all_build_target(self._xts_root_dir, 0)
+            if add_targets[0] == self.full_impact_flag_totally:
+                targets = PathUtils.get_all_build_target(self._xts_root_dir, 1)
             else:
                 xts_parts = "/".join([p for p in os.path.normpath(self._xts_root_dir).split(os.sep) if p][-3:])
                 for target in add_targets:
