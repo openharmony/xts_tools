@@ -36,6 +36,9 @@ import UIComponentListAndGridListLeftSwipDeleteBuilderComponentTest from './UICo
 import UIComponentListAndGridListInterfaceCachedCountShowTest from './UIComponentListAndGridListInterfaceCachedCountShowTest/UIComponentListAndGridListInterfaceCachedCountShow.test';
 import UIAttributesInterfaceReconstitutionTest from './UIAttributesInterfaceReconstitutionTest/UIAttributesInterfaceReconstitution.test';
 import UIComponentListAndGridListComponentTest from './UIComponentListAndGridListComponentTest/UIComponentListAndGridListComponent.test';
+import UIComponentMediaCounterLargeFontTest from './UIComponentMediaCounterLargeFontTest/UIComponentMediaCounterLargeFont.test';
+import UIImportComponentContentTest from './UIImportComponentContentTest/UIImportComponentContent.test';
+import UIComponentListAndGridListScrollPageTest from './UIComponentListAndGridListScrollPageTest/UIComponentListAndGridListScrollPage.test';
 
 export default function testsuite() {
   UIComponentScrollScrollBarScrollEdge();
@@ -61,4 +64,7 @@ export default function testsuite() {
   UIComponentListAndGridListComponentTest();
   ActionEventCommonEventAreaChangeApproximateChangeTest();
   UIAttributesInterfaceReconstitutionTest();
+  UIComponentMediaCounterLargeFontTest();
+  UIImportComponentContentTest();
+  UIComponentListAndGridListScrollPageTest();
 }

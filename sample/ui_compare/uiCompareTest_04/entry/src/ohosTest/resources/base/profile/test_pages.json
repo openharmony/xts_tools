@@ -104,6 +104,12 @@
     "testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution023",
     "testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution026",
     "testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution027",
-    "testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution028"
+    "testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution028",
+    "testability/pages/UIComponentListAndGridListScrollPage/UIComponentListAndGridListScrollPage001",
+    "testability/pages/UIComponentMediaCounterLargeFont/UIComponentMediaCounterLargeFont001",
+    "testability/pages/UIComponentMediaCounterLargeFont/UIComponentMediaCounterLargeFont002",
+    "testability/pages/UIImportComponentContent/UIImportComponentContent001",
+    "testability/pages/UIImportComponentContent/UIImportComponentContent002",
+    "testability/pages/UIImportComponentContent/UIImportComponentContent003"
   ]
 }

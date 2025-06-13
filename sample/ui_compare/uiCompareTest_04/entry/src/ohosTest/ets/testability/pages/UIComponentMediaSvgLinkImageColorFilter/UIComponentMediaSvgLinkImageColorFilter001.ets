@@ -37,7 +37,7 @@ struct MyImage {
   @Link modifier: CommonModifier
 
   build() {
-    Image($r("app.media.icon")).attributeModifier(this.modifier as MyModifier)
+    Image('/icon.png').attributeModifier(this.modifier as MyModifier)
   }
 }
 
