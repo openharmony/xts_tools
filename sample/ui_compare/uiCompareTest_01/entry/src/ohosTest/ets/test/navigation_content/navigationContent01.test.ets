@@ -50,14 +50,13 @@ export default function navigationContent01Test() {
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030 start.`);
       Settings.createWindow("testability/pages/navigation_content/navigation01")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button1: Component = await driver.findComponent(ON.id('changeHideTitleBar01'));
+      let button1: Component = await driver.waitForComponent(ON.id('changeHideTitleBar01'), 1000);
       await button1.click();
-      let button2: Component = await driver.findComponent(ON.id('changeHideToolBar01'));
+      let button2: Component = await driver.waitForComponent(ON.id('changeHideToolBar01'), 1000);
       await button2.click();
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030')
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030 finish.`);
       done()
@@ -73,14 +72,13 @@ export default function navigationContent01Test() {
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290 start.`);
       Settings.createWindow("testability/pages/navigation_content/navigation02")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button1: Component = await driver.findComponent(ON.id('changeHideTitleBar02'));
+      let button1: Component = await driver.waitForComponent(ON.id('changeHideTitleBar02'), 1000);
       await button1.click();
-      let button2: Component = await driver.findComponent(ON.id('changeHideToolBar02'));
+      let button2: Component = await driver.waitForComponent(ON.id('changeHideToolBar02'), 1000);
       await button2.click();
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290')
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290 finish.`);
       done()

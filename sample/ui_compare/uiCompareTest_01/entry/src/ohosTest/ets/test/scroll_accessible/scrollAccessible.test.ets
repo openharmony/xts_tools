@@ -49,11 +49,10 @@ export default function scrollAccessibleTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350_597', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350_597 start.`);
       Settings.createWindow("testability/pages/scroll_accessible/scroll01")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('scroll_01'));
+      let button: Component = await driver.waitForComponent(ON.id('scroll_01'), 1000);
       await button.click();
-      await Utils.sleep(500)
+      await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350_597')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350_597 finish.`);
@@ -70,16 +69,15 @@ export default function scrollAccessibleTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340_280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340_280 start.`);
       Settings.createWindow("testability/pages/scroll_accessible/scroll02")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('scrollWaterFlow02'));
+      let button: Component = await driver.waitForComponent(ON.id('scrollWaterFlow02'), 1000);
       let point = await button.getBoundsCenter();
       await button.click()
       await driver.mouseScroll(point,true,2)
-      await Utils.sleep(500)
-      let button1: Component = await driver.findComponent(ON.id('offSetText02'));
+      await driver.waitForIdle(500,2000);
+      let button1: Component = await driver.waitForComponent(ON.id('offSetText02'), 1000);
       await button1.click()
-      await Utils.sleep(500)
+      await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340_280')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340_280 finish.`);
@@ -101,8 +99,8 @@ export default function scrollAccessibleTest() {
       for (let i = 0; i < 7; i++) {
         await driver.triggerKey(2049);
       }
-      await Utils.sleep(1000)
-      let button1: Component = await driver.findComponent(ON.id('offSetText05'));
+      await driver.waitForIdle(500,2000);
+      let button1: Component = await driver.waitForComponent(ON.id('offSetText05'), 1000);
       await button1.click()
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360_034')
       await Utils.sleep(1000)
@@ -120,17 +118,16 @@ export default function scrollAccessibleTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370_698', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370_698 start.`);
       Settings.createWindow("testability/pages/scroll_accessible/scroll04")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('scrollWaterFlow04'));
+      let button: Component = await driver.waitForComponent(ON.id('scrollWaterFlow04'), 1000);
       let point = await button.getBoundsCenter();
       await button.click()
       let point1:Point = {x:point.x-50,y:point.y+100}
       await driver.mouseScroll(point,true,2)
-      await Utils.sleep(500)
-      let button1: Component = await driver.findComponent(ON.id('offSetText04'));
+      await driver.waitForIdle(500,2000);
+      let button1: Component = await driver.waitForComponent(ON.id('offSetText04'), 1000);
       await button1.click()
-      await Utils.sleep(500)
+      await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340_280')
       await Utils.sleep(1000)
       done();

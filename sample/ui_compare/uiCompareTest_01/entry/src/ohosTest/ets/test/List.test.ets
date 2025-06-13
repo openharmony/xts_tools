@@ -18,10 +18,14 @@ import stepperInterface01Test from './stepper_interface/stepperInterface01.test'
 import navigationContent01Test from './navigation_content/navigationContent01.test';
 import animatorCreate01Test from './animator_sample/animatorCreate01.test';
 import expectedFrameTest from './expectedFrame/expectedFrame.test';
-import waterflowMirrorTest from './waterflow_mirror/waterflowMirror.test'
-import scrollAccessibleTest from './scroll_accessible/scrollAccessible.test'
-import specialComponentsTest from './special_components/specialComponents.test'
-import measureResultTest from './measureResult/measureResult.test'
+import waterflowMirrorTest from './waterflow_mirror/waterflowMirror.test';
+import scrollAccessibleTest from './scroll_accessible/scrollAccessible.test';
+import specialComponentsTest from './special_components/specialComponents.test';
+import measureResultTest from './measureResult/measureResult.test';
+import FocusDynamicTest from './focus_dynamic/FocusDynamic.test';
+import RouterPushTest from './router_push/RouterPush.test';
+import ImageSpanTest from './image_span/imageSpan.test';
+import SelectionMenuSymbolTest from './selectionMenu_symbol/selectionMenuSymbol.test';
 
 export default function testsuite() {
   gestureMonopolize01Test();
@@ -33,4 +37,8 @@ export default function testsuite() {
   scrollAccessibleTest();
   measureResultTest();
   specialComponentsTest();
+  FocusDynamicTest();
+  RouterPushTest();
+  ImageSpanTest();
+  SelectionMenuSymbolTest();
 }

@@ -39,6 +39,12 @@ import UIComponentListAndGridListComponentTest from './UIComponentListAndGridLis
 import UIComponentMediaCounterLargeFontTest from './UIComponentMediaCounterLargeFontTest/UIComponentMediaCounterLargeFont.test';
 import UIImportComponentContentTest from './UIImportComponentContentTest/UIImportComponentContent.test';
 import UIComponentListAndGridListScrollPageTest from './UIComponentListAndGridListScrollPageTest/UIComponentListAndGridListScrollPage.test';
+import UIComponentListAndGridListFadingEdgeTest from './UIComponentListAndGridListFadingEdgeTest/UIComponentListAndGridListFadingEdge.test';
+import UIComponentListAndGridGridMirrorTest from './UIComponentListAndGridGridMirrorTest/UIComponentListAndGridGridMirror.test';
+import StateRepeatArrayLikeTest from './StateRepeatArrayLikeTest/StateRepeatArrayLike.test';
+import ActionEventCommonEventKeyEventDispatchTest from './ActionEventCommonEventKeyEventDispatchTest/ActionEventCommonEventKeyEventDispatch.test';
+import ActionEventCommonEventFrameNodeGestureTest from './ActionEventCommonEventFrameNodeGestureTest/ActionEventCommonEventFrameNodeGesture.test';
+import ActionGestureConfigurationTest from './ActionGestureConfigurationTest/ActionGestureConfiguration.test';
 
 export default function testsuite() {
   UIComponentScrollScrollBarScrollEdge();
@@ -67,4 +73,10 @@ export default function testsuite() {
   UIComponentMediaCounterLargeFontTest();
   UIImportComponentContentTest();
   UIComponentListAndGridListScrollPageTest();
+  UIComponentListAndGridListFadingEdgeTest();
+  UIComponentListAndGridGridMirrorTest();
+  StateRepeatArrayLikeTest();
+  ActionEventCommonEventKeyEventDispatchTest();
+  ActionEventCommonEventFrameNodeGestureTest();
+  ActionGestureConfigurationTest();
 }
