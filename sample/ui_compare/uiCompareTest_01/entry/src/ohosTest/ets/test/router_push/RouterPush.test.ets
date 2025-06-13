@@ -44,7 +44,7 @@ export default function RouterPushTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0070
-     * @tc.desc   :
+     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -68,7 +68,7 @@ export default function RouterPushTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0010
-     * @tc.desc   : 
+     * @tc.desc   : Verification of normal router push jump function (pushurl method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -88,7 +88,7 @@ export default function RouterPushTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270
-     * @tc.desc   : 
+     * @tc.desc   : Interruption and continuation effect verification of router combined stack in landscape/portrait scenarios (back+back)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -125,7 +125,7 @@ export default function RouterPushTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0190
-     * @tc.desc   :
+     * @tc.desc   : Interruption and continuation function verification of router combined stack (one onclick triggers one push and one back)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -146,7 +146,7 @@ export default function RouterPushTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0560
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0560
-     * @tc.desc   :
+     * @tc.desc   : Click verification of custom animation router back jump interruption and continuation function (back to specified page method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -175,8 +175,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0200
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0200
+     * @tc.desc   : Click verification of router combined stack interruption and continuation function (back+push)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -202,8 +202,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0290
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0290
+     * @tc.desc   : Verification of normal router push jump function with system animation disabled (pushNamedRoute method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,8 +223,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0570
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0570
+     * @tc.desc   : Verification of custom animation router back jump interruption and continuation function (one onclick triggers two back to specified page operations)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -247,8 +247,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0170
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0170
+     * @tc.desc   : Click verification of router combined stack interruption and continuation function (push+back)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -268,8 +268,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0740
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0740
+     * @tc.desc   : Router push and back effects in 32-page stack
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -292,8 +292,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0250
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0250
+     * @tc.desc   : Interruption and continuation effect verification of router combined stack in landscape/portrait scenarios (push+back)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -315,8 +315,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0340
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0340
+     * @tc.desc   : Verification of router push jump interruption and continuation function with system animation disabled (one onclick triggers two pushurl)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -335,8 +335,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0650
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0650
+     * @tc.desc   : Custom animation normal router back in landscape/portrait scenarios
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -356,8 +356,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0550
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0550
+     * @tc.desc   : Click verification of custom animation router back jump interruption and continuation function (back to previous page method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -380,8 +380,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0080
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0080
+     * @tc.desc   : Verification of router push jump interruption and continuation function (one onclick triggers two pushurl)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -400,8 +400,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0230
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0230
+     * @tc.desc   : Normal router back in landscape/portrait scenarios
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -423,8 +423,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0770
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0770
+     * @tc.desc   : Continuous push
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -443,8 +443,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0380
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0380
+     * @tc.desc   : Verification of router combined stack interruption and continuation function with system animation
+     * disabled (one onclick triggers one push and one back)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -462,8 +463,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0470
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0470
+     * @tc.desc   : Verification of custom animation normal combined jump function (push+back)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -485,8 +486,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0660
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0660
+     * @tc.desc   : Interruption and continuation effect verification of custom animation router combined stack
+     * in landscape/portrait scenarios (push+push)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -509,8 +511,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0090
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0090
+     * @tc.desc   : Manual click verification of router push jump interruption and continuation function
+     * (pushNamedRoute method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -531,8 +534,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0040
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0040
+     * @tc.desc   : Verification of normal router back jump function (back to specified page method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -553,8 +556,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0060
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0060
+     * @tc.desc   : Verification of normal combined jump function (back+push)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -577,8 +580,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0520
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0520
+     * @tc.desc   : Verification of custom animation router push jump interruption and continuation function (one
+     * onclick triggers two pushNamedRoute)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -597,8 +601,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0210
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0210
+     * @tc.desc   : Verification of router combined stack interruption and continuation function (one onclick triggers
+     * one back and one push)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -619,8 +624,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0760
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0760
+     * @tc.desc   : Interruption and continuation effect of back then push transition in 32-page stack
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -644,8 +649,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0680
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0680
+     * @tc.desc   : Interruption and continuation effect verification of custom animation router combined stack in
+     * landscape/portrait scenarios (back+push)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -669,8 +675,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0390
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0390
+     * @tc.desc   : Verification of router combined stack interruption and continuation function with system animation
+     * disabled (one onclick triggers one back and one push)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -690,8 +697,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0590
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0590
+     * @tc.desc   : Click verification of custom animation router combined stack interruption and continuation
+     * function (push+back)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -712,8 +720,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0730
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0730
+     * @tc.desc   : Verification of custom animation router back transition interruption and continuation effect in
+     * small window mode
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -735,8 +744,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0670
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0670
+     * @tc.desc   : Interruption and continuation effect verification of custom animation router combined stack in
+     * landscape/portrait scenarios (push+back)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -758,8 +768,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0460
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0460
+     * @tc.desc   : Verification of custom animation normal router back jump function (back to specified page method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -779,8 +789,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0430
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0430
+     * @tc.desc   : Verification of custom animation normal router push jump function (pushurl method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -798,8 +808,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0410
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0410
+     * @tc.desc   : Verification of router back transition effect with system animation disabled in parallel
+     * worlds scenario
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -819,8 +830,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0420
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0420
+     * @tc.desc   : Verification of router back transition effect with system animation disabled in small window mode
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -842,8 +853,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0400
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0400
+     * @tc.desc   : Verification of router push transition effect with system animation disabled in parallel worlds
+     * scenario
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -861,8 +873,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0490
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0490
+     * @tc.desc   : Manual click verification of custom animation router push jump interruption and continuation
+     * function (pushurl method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -882,8 +895,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0440
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0440
+     * @tc.desc   : Verification of custom animation normal router push jump function (pushNamedRoute method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -901,8 +914,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0580
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0580
+     * @tc.desc   : Verification of custom animation router back jump interruption and continuation function (one
+     * onclick triggers two back to previous page operations)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -929,8 +943,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0630
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0630
+     * @tc.desc   : Verification of custom animation router combined stack interruption and continuation function (one
+     * onclick triggers one back and one push)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -952,8 +967,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0640
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0640
+     * @tc.desc   : Custom animation normal router push in landscape/portrait scenarios
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -973,8 +988,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0280
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0280
+     * @tc.desc   : Verification of normal router push jump function with system animation disabled (pushurl method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -992,8 +1007,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0610
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0610
+     * @tc.desc   : Verification of custom animation router combined stack interruption and continuation function (one
+     * onclick triggers one push and one back)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1011,8 +1027,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0620
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0620
+     * @tc.desc   : Click verification of custom animation router combined stack interruption and continuation
+     * function (back+push)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1034,8 +1051,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0500
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0500
+     * @tc.desc   : Verification of custom animation router push jump interruption and continuation function (one
+     * onclick triggers two pushurl)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1053,8 +1071,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0510
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0510
+     * @tc.desc   : Manual click verification of custom animation router push jump interruption and continuation
+     * function (pushNamedRoute method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1074,8 +1093,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0260
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0260
+     * @tc.desc   : Interruption and continuation effect verification of router combined stack in landscape/portrait
+     * scenarios (back+push)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1099,8 +1119,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0370
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0370
+     * @tc.desc   : Verification of router back jump interruption and continuation function with system animation
+     * disabled (one onclick triggers two back to previous page operations)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1122,8 +1143,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0220
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0220
+     * @tc.desc   : Normal router push in landscape/portrait scenarios
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1145,8 +1166,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0350
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0350
+     * @tc.desc   : Normal router push in landscape/portrait scenarios
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1165,8 +1186,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0300
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0300
+     * @tc.desc   : Verification of normal router back jump function with system animation disabled (back to previous
+     * page method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1187,8 +1209,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0310
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0310
+     * @tc.desc   : Verification of normal router back jump function with system animation disabled (back to specified
+     * page method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1209,8 +1232,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0690
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0690
+     * @tc.desc   : Interruption and continuation effect verification of custom animation router combined stack in
+     * landscape/portrait scenarios (back+back)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1237,8 +1261,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0360
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0360
+     * @tc.desc   : Verification of router back jump interruption and continuation function with system animation
+     * disabled (one onclick triggers two back to specified page operations)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1260,8 +1285,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0030
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0030
+     * @tc.desc   : Verification of normal router back jump function (back to previous page method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1283,8 +1308,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0050
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0050
+     * @tc.desc   : Verification of normal combined jump function (push+back)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1306,8 +1331,9 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0150
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0150
+     * @tc.desc   : Verification of router back jump interruption and continuation function (one onclick triggers two
+     * back to specified page operations)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1329,8 +1355,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0330
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0330
+     * @tc.desc   : Verification of normal combined jump function with system animation disabled (back+push)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1355,8 +1381,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0100
-     * @tc.name   :
-     * @tc.desc   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0100
+     * @tc.desc   : Verification of router push jump interruption and continuation function (one onclick triggers two pushNamedRoute)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

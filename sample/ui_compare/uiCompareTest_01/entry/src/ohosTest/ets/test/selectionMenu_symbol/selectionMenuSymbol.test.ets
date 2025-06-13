@@ -42,7 +42,7 @@ export default function SelectionMenuSymbolTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0020
-     * @tc.name   : Component Focus Animation Effect UX Review
+     * @tc.name   : SelectionMenu component, setting symbolStyle property with resource input
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,7 +60,7 @@ export default function SelectionMenuSymbolTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0010
-     * @tc.name   : Component Focus Animation Effect UX Review
+     * @tc.name   : SelectionMenu component, passing symbol resource to icon property
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
