@@ -50,6 +50,9 @@
       },
       {
         "name": "ohos.permission.INJECT_INPUT_EVENT"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
       }
     ],
     "abilities": [
