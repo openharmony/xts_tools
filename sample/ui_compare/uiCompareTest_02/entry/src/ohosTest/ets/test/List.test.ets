@@ -19,10 +19,22 @@ import UiTestCase from './UiTestCase/UiTestCase.test'
 import  UiComponentTextCommonLineSpace from './UiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace.test'
 import  UiComponentTextRicheditor from './UiComponentTextRicheditor/UiComponentTextRicheditor.test'
 import UiComponentUIExtensionComponent from  './UiComponentUIExtensionComponent/UiComponentUIExtensionComponent.test'
+import UiComponentBlankLineSelected from './UiComponentBlankLineSelected/UiComponentBlankLineSelected.test'
+import UiComponentControllerAddDelete from './UiComponentControllerAddDelete/UiComponentControllerAddDelete.test'
+import UiComponentHalfLeading from './UiComponentHalfLeading/UiComponentHalfLeading.test'
+import UiComponentInputFontsTzeScale from  './UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale.test'
+import UiComponentOnWillChange from  './UiComponentOnWillChange/UiComponentOnWillChange.test'
+import UiComponentTextResponseDefault from './UiComponentTextResponseDefault/UiComponentTextResponseDefault.test'
 export default function testsuite() {
 
   UiTestCase();
   UiComponentTextCommonLineSpace();
   UiComponentTextRicheditor();
   UiComponentUIExtensionComponent();
+  UiComponentBlankLineSelected();
+  UiComponentControllerAddDelete();
+  UiComponentHalfLeading();
+  UiComponentInputFontsTzeScale();
+  UiComponentOnWillChange();
+  UiComponentTextResponseDefault();
 }
