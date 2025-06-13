@@ -1132,7 +1132,7 @@ export default function RouterPushTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0370 start.`);
       Settings.createWindow("testability/pages/router_push/pageA2")
       let driver: Driver = Driver.create();
-      let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_2'), 1000);
+      let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
       await buttonA.click();
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button2_1'), 1000);
       await buttonB.click();
