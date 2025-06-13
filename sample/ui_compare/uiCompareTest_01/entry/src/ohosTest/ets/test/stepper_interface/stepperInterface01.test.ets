@@ -34,10 +34,8 @@ export default function stepperInterface01Test() {
     it('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0160 start.`);
       Settings.createWindow("testability/pages/stepper_interface/stepper01")
-      await Utils.sleep(1000)
-      // let driver:Driver = Driver.create();
-      // let button: Component = await driver.findComponent(ON.text('NextSecond'));
-      // await button.click();
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0160')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020 finish.`);
@@ -54,7 +52,8 @@ export default function stepperInterface01Test() {
     it('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0100 start.`);
       Settings.createWindow("testability/pages/stepper_interface/stepper02")
-      await Utils.sleep(1000)
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0100')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0100 finish.`);
@@ -71,10 +70,8 @@ export default function stepperInterface01Test() {
     it('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0190 start.`);
       Settings.createWindow("testability/pages/stepper_interface/stepper03")
-      await Utils.sleep(1000)
-      // let driver:Driver = Driver.create();
-      // let button: Component = await driver.findComponent(ON.text('NextSecond'));
-      // await button.click();
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0190')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0190 finish.`);

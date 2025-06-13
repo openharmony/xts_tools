@@ -49,10 +49,10 @@ export default function gestureMonopolize01Test() {
     it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020 start.`);
       Settings.createWindow("testability/pages/gesture_monopolize/monopolize01")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('innerColumn01'));
+      let button: Component = await driver.waitForComponent(ON.id('innerColumn01'), 1000);
       await button.click();
+      await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020 finish.`);
@@ -71,15 +71,16 @@ export default function gestureMonopolize01Test() {
     it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110 start.`);
       Settings.createWindow("testability/pages/gesture_monopolize/monopolize02")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('List02'));
+      let button: Component = await driver.waitForComponent(ON.id('List02'), 1000);
       await driver.click(600,380)
+      await driver.waitForIdle(500,2000);
       let point = await button.getBoundsCenter();
       await button.click()
+      await driver.waitForIdle(500,2000);
       await driver.mouseScroll(point,true,2)
       Logger.info('TEST001', `button.getBoundsCenter point is : ${JSON.stringify(point)}`);
-      await Utils.sleep(1500)
+      await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110 finish.`);
@@ -96,19 +97,18 @@ export default function gestureMonopolize01Test() {
     it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160 start.`);
       Settings.createWindow("testability/pages/gesture_monopolize/monopolize03")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('innerColumn03'));
+      let button: Component = await driver.waitForComponent(ON.id('innerColumn03'), 1000);
       await button.longClick();
       windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160_01')
       await Utils.sleep(1000)
-      let cleanButton: Component = await driver.findComponent(ON.id('clean03'));
+      let cleanButton: Component = await driver.waitForComponent(ON.id('clean03'), 1000);
       await cleanButton.click();
-      let button1: Component = await driver.findComponent(ON.id('changeMonopolizeEvents03'));
+      let button1: Component = await driver.waitForComponent(ON.id('changeMonopolizeEvents03'), 1000);
       await button1.click();
       await button.longClick();
       await button.click();
-      await Utils.sleep(1000)
+      await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160 finish.`);
@@ -125,19 +125,18 @@ export default function gestureMonopolize01Test() {
     it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150 start.`);
       Settings.createWindow("testability/pages/gesture_monopolize/monopolize04")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('innerColumn04'));
+      let button: Component = await driver.waitForComponent(ON.id('innerColumn04'), 1000);
       await button.longClick();
       windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150_01')
       await Utils.sleep(1000)
-      let cleanButton: Component = await driver.findComponent(ON.id('clean04'));
+      let cleanButton: Component = await driver.waitForComponent(ON.id('clean04'), 1000);
       await cleanButton.click();
-      let button1: Component = await driver.findComponent(ON.id('changeMonopolizeEvents04'));
+      let button1: Component = await driver.waitForComponent(ON.id('changeMonopolizeEvents04'), 1000);
       await button1.click();
       await button.longClick();
       await button.click();
-      await Utils.sleep(1000)
+      await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150 finish.`);
@@ -154,10 +153,10 @@ export default function gestureMonopolize01Test() {
     it('SUB_ACE_ACTION_GESTURE_RECONSTRUCTION_INTERFACE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_RECONSTRUCTION_INTERFACE_0020 start.`);
       Settings.createWindow("testability/pages/gesture_monopolize/monopolize05")
-      await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('monopolizeButton05'));
+      let button: Component = await driver.waitForComponent(ON.id('monopolizeButton05'), 1000);
       await button.click();
+      await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_RECONSTRUCTION_INTERFACE_0020 finish.`);

@@ -51,12 +51,12 @@ export default function specialComponentsTest() {
       Settings.createWindow("testability/pages/special_components/menuController")
       await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button1: Component = await driver.findComponent(ON.id('getContextClick'));
+      let button1: Component = await driver.waitForComponent(ON.id('getContextClick'), 1000);
       await button1.longClick();
       await Utils.sleep(500)
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0290_01')
       await Utils.sleep(1000)
-      let button2: Component = await driver.findComponent(ON.text('onHoverClose'));
+      let button2: Component = await driver.waitForComponent(ON.text('onHoverClose'), 1000);
       Logger.info('TEST', `button2 is： ${button2}.`);
       let point = await button2.getBoundsCenter();
       await driver.mouseMoveTo({x:point.x, y:point.y})
@@ -80,7 +80,7 @@ export default function specialComponentsTest() {
       Settings.createWindow("testability/pages/special_components/textInput")
       await Utils.sleep(1000)
       let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('textInput01'));
+      let button: Component = await driver.waitForComponent(ON.id('textInput01'), 1000);
       await button.click();
       await Utils.sleep(500)
       Settings.changeWindowOrientation()
