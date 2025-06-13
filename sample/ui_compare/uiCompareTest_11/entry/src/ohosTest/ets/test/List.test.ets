@@ -13,5 +13,14 @@
  * limitations under the License.
  */
 
+import ComponentTextHalfLeading from './ComponentTextHalfLeadingTest/ComponentTextHalfLeading.test'
+import ComponentTextTextUI from './ComponentTextTextUITest/ComponentTextTextUI.test'
+import ComponentTextTextInterface from './ComponentTextTextInterfaceTest/ComponentTextTextInterface.test'
 
 
+
+export default function testsuite() {
+  ComponentTextHalfLeading();
+  ComponentTextTextUI();
+  ComponentTextTextInterface();
+}
