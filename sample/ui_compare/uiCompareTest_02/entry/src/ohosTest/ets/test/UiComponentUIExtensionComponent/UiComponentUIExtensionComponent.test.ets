@@ -68,8 +68,9 @@ export default function UiComponentUIExtensionComponent() {
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050`);
       Settings.createWindow("testability/pages/UiComponentUIExtensionComponent/UiComponentUIExtensionComponent01")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050`);
       done()
@@ -86,8 +87,9 @@ export default function UiComponentUIExtensionComponent() {
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130`);
       Settings.createWindow("testability/pages/UiComponentUIExtensionComponent/UiComponentUIExtensionComponent02")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130`);
       done()

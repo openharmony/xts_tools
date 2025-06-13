@@ -65,8 +65,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0010 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase01")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0010')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0010 finish.`);
       done()
@@ -83,8 +84,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0011 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase02")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0011')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0011 finish.`);
       done()
@@ -101,8 +103,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0012 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase03")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0012')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0012 finish.`);
       done()
@@ -119,8 +122,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0013 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase04")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0013')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0013 finish.`);
       done()
@@ -137,8 +141,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0015 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase05")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0015')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0015 finish.`);
       done()
@@ -155,8 +160,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0016', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0016 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase06")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0016')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0016 finish.`);
       done()
@@ -173,8 +179,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0014 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase07")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0014')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0014 finish.`);
       done()
@@ -191,8 +198,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0017', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0017 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase08")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0017')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0017 finish.`);
       done()
@@ -209,8 +217,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0018', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0018 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase09")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0018')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0018 finish.`);
       done()
@@ -227,8 +236,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0021', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0021 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase10")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0021')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0021 finish.`);
       done()
@@ -245,8 +255,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0022', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0022 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase11")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0022')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0022 finish.`);
       done()
@@ -263,8 +274,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0024', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0024 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase12")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0024')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0024 finish.`);
       done()
@@ -281,8 +293,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0027', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0027 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase13")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0027')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0027 finish.`);
       done()
@@ -299,8 +312,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0031', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0031 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase14")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0031')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0031 finish.`);
       done()
@@ -317,8 +331,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0032', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0032 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase15")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0032')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0032 finish.`);
       done()
@@ -335,8 +350,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0042', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0042 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase16")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0042')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0042 finish.`);
       done()
@@ -353,8 +369,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0039', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0039 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase17")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0039')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0039 finish.`);
       done()
@@ -371,8 +388,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0038', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0038 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase18")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0038')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0038 finish.`);
       done()
@@ -389,8 +407,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0046', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0046 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase19")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0046')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0046 finish.`);
       done()
@@ -407,8 +426,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0029', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0029 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase20")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0029')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0029 finish.`);
       done()
@@ -425,8 +445,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0036', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0036 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase21")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0036')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0036 finish.`);
       done()
@@ -443,8 +464,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0045', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0045 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase22")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0045')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0045 finish.`);
       done()
@@ -461,8 +483,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0025', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0025 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase23")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0025')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0045 finish.`);
       done()
@@ -479,8 +502,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0028', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0028 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase24")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0028')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0028 finish.`);
       done()
@@ -497,8 +521,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0020 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase25")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0020')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0020 finish.`);
       done()
@@ -515,8 +540,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0030 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase26")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0030')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0030 finish.`);
       done()
@@ -533,8 +559,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase27")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035 finish.`);
       done()
@@ -551,8 +578,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase28")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034 finish.`);
       done()
@@ -569,8 +597,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase29")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040 finish.`);
       done()
@@ -587,8 +616,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase30")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033 finish.`);
       done()
@@ -605,8 +635,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase31")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043 finish.`);
       done()
@@ -623,8 +654,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase32")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044 finish.`);
       done()
@@ -641,8 +673,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase33")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048 finish.`);
       done()
@@ -659,8 +692,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase34")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019 finish.`);
       done()
@@ -677,8 +711,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase35")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041 finish.`);
       done()
@@ -695,11 +730,10 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase36")
-      await Utils.sleep(1000)
       let driver: Driver=Driver.create()
-      let button: Component = await driver.findComponent(ON.id('UiTestCase36'))
+      let button: Component = await driver.waitForComponent(ON.id('UiTestCase36'),1000)
       await button.click()
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037')
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037 finish.`);
       done()
@@ -718,14 +752,15 @@ export default function UiTestCase() {
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase37")
       await Utils.sleep(1000)
       let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
       await driver.longClick(60,100)
-      await Utils.sleep(1000)
+      await driver.waitForIdle(500,2000)
       await driver.mouseClick({x:300, y:200}, MouseButton.MOUSE_BUTTON_LEFT, 2072);
       await driver.mouseClick({x:150, y:200}, MouseButton.MOUSE_BUTTON_LEFT, 2072);
       await driver.longClick(60,300)
-      await Utils.sleep(1000)
+      await driver.waitForIdle(500,2000)
       await driver.mouseClick({x:60, y:230}, MouseButton.MOUSE_BUTTON_LEFT, 2072)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023')
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023 finish.`);
       done()
@@ -742,13 +777,12 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase38")
-      await Utils.sleep(1000)
       let driver: Driver=Driver.create()
-      let button: Component = await driver.findComponent(ON.id('UiTestCase38_button'))
-      let text: Component = await driver.findComponent(ON.id('UiTestCase38_text'))
+      let button: Component = await driver.waitForComponent(ON.id('UiTestCase38_button'),1000)
+      let text: Component = await driver.waitForComponent(ON.id('UiTestCase38_text'),1000)
       await text.inputText('aaaa')
       await button.click()
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080')
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080 finish.`);
       done()
@@ -765,8 +799,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase39")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047 finish.`);
       done()
@@ -783,8 +818,9 @@ export default function UiTestCase() {
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026 start.`);
       Settings.createWindow("testability/pages/UiTestCase/UiTestCase40")
-      await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026')
+      let driver: Driver=Driver.create()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026 finish.`);
       done()
