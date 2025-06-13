@@ -392,8 +392,8 @@ class PathUtils:
         return common_path == parent_path
 
     @staticmethod
-    def get_all_build_target(xts_root_dir):
-        if xts_root_dir.endswith("acts"):
+    def get_all_build_target(xts_root_dir, full_flag = 0):
+        if xts_root_dir.endswith("acts") and full_flag == 0:
             return MatchConfig.get_acts_All_template_ex_list()
         return [PathUtils.get_root_target(xts_root_dir)]
 
