@@ -30,6 +30,12 @@ import UIComponentAlphabetIndexerAttributeAutocollapse from './UIComponentAlphab
 import UIComponentMediaQualitys from './UIComponentMediaQualitysTest/UIComponentMediaQualitys.test'
 import UIComponentMediaSvgLinkImageColorFilter from './UIComponentMediaSvgLinkImageColorFilterTest/UIComponentMediaSvgLinkImageColorFilter.test'
 import UIComponentScrollScrollAccessible from './UIComponentScrollScrollAccessibleTest/UIComponentScrollAccessible.test'
+import ActionEventCommonEventAreaChangeApproximateChangeTest from './ActionEventCommonEventAreaChangeApproximateChangeTest/ActionEventCommonEventAreaChangeApproximateChange.test';
+import UIComponentListAndGridListClipContentTest from './UIComponentListAndGridListClipContentTest/UIComponentListAndGridListClipContent.test';
+import UIComponentListAndGridListLeftSwipDeleteBuilderComponentTest from './UIComponentListAndGridListLeftSwipDeleteBuilderComponentTest/UIComponentListAndGridListLeftSwipDeleteBuilderComponent.test';
+import UIComponentListAndGridListInterfaceCachedCountShowTest from './UIComponentListAndGridListInterfaceCachedCountShowTest/UIComponentListAndGridListInterfaceCachedCountShow.test';
+import UIAttributesInterfaceReconstitutionTest from './UIAttributesInterfaceReconstitutionTest/UIAttributesInterfaceReconstitution.test';
+import UIComponentListAndGridListComponentTest from './UIComponentListAndGridListComponentTest/UIComponentListAndGridListComponent.test';
 
 export default function testsuite() {
   UIComponentScrollScrollBarScrollEdge();
@@ -49,4 +55,10 @@ export default function testsuite() {
   UIComponentMediaQualitys();
   UIComponentMediaSvgLinkImageColorFilter();
   UIComponentScrollScrollAccessible();
+  UIComponentListAndGridListClipContentTest();
+  UIComponentListAndGridListLeftSwipDeleteBuilderComponentTest();
+  UIComponentListAndGridListInterfaceCachedCountShowTest();
+  UIComponentListAndGridListComponentTest();
+  ActionEventCommonEventAreaChangeApproximateChangeTest();
+  UIAttributesInterfaceReconstitutionTest();
 }
