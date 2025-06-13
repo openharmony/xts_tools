@@ -43,13 +43,30 @@ struct UiComponentTextCommonLineSpace18 {
       .lineSpacing(LengthMetrics.px(this.nums))
       .width(336)
       .copyOption(CopyOptions.InApp)
-      .height(500)
+      .height(200)
       .maxLines(3)
-      Button('change size')
-        .onClick(()=>{
-          this.nums=5
-        })
-        .id('UiComponentTextCommonLineSpace18')
+      Text('hello world')
+      {
+        SymbolSpan($r('sys.symbol.ohos_trash'))
+          .fontWeight(FontWeight.Lighter)
+          .fontSize(96)
+        SymbolSpan($r('sys.symbol.ohos_trash'))
+          .fontWeight(FontWeight.Lighter)
+          .fontSize(96)
+        ImageSpan($r('app.media.app_icon'))
+          .width('60vp')
+          .height('60vp')
+          .verticalAlign(ImageSpanAlignment.CENTER)
+          .textBackgroundStyle({color: Color.Green, radius: "5vp"})
+        SymbolSpan($r('sys.symbol.ohos_trash'))
+          .fontWeight(FontWeight.Lighter)
+          .fontSize(96)
+      }
+      .lineSpacing(LengthMetrics.px(this.nums+100))
+      .width(336)
+      .copyOption(CopyOptions.InApp)
+      .height(200)
+      .maxLines(3)
     }
   }
 }
