@@ -46,7 +46,7 @@ struct PageB2 {
         .height(40)
         .id('PageB_Button2_1')
         .onClick(()=>{
-          this.routePush('testability/pages/router_push/pageC')
+          this.routePush('testability/pages/router_push/pageC2')
         })
 
       Button('Back PageA')
