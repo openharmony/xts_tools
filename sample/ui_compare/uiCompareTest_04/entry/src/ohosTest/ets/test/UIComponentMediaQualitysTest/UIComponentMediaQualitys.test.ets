@@ -46,12 +46,11 @@ export default function UIComponentMediaQualitys() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_QUALITYS_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_QUALITYS_0050 start.`);
       Settings.createWindow("testability/pages/UIComponentMediaQualitys/UIComponentMediaQualitys001");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      let button: Component = await driver.findComponent(ON.id('change'));
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
-      await Utils.sleep(2000);
-      windowSnap.snapShot('UIComponentMediaQualitys0050');
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_QUALITYS_0050 finish.`);
       done();

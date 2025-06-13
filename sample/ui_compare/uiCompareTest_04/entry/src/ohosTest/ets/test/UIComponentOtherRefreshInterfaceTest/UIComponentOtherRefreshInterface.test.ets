@@ -17,7 +17,7 @@ import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
-import { Driver } from '@ohos.UiTest'
+import { Driver, ON, Component } from '@ohos.UiTest'
 
 export default function UIComponentOtherRefreshInterface() {
   describe('UIComponentOtherRefreshInterface', () => {
@@ -46,11 +46,13 @@ export default function UIComponentOtherRefreshInterface() {
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0050 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface001");
-      await Utils.sleep(1000);
       let driver:Driver = Driver.create();
-      await driver.mouseScroll({x:360, y:640}, false, 10);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherRefreshInterface0050');
+      let refresh: Component = await driver.waitForComponent(ON.type('Refresh'), 1000);
+      let point = await refresh.getBoundsCenter();
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0050 finish.`);
       done();
@@ -65,11 +67,13 @@ export default function UIComponentOtherRefreshInterface() {
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0240 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface002");
-      await Utils.sleep(1000);
       let driver:Driver = Driver.create();
-      await driver.mouseScroll({x:360, y:640}, false, 10);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherRefreshInterface0240');
+      let refresh: Component = await driver.waitForComponent(ON.type('Refresh'), 1000);
+      let point = await refresh.getBoundsCenter();
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0240 finish.`);
       done();
@@ -84,11 +88,13 @@ export default function UIComponentOtherRefreshInterface() {
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0250 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface003");
-      await Utils.sleep(1000);
       let driver:Driver = Driver.create();
-      await driver.mouseScroll({x:360, y:640}, false, 10);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherRefreshInterface0250');
+      let refresh: Component = await driver.waitForComponent(ON.type('Refresh'), 1000);
+      let point = await refresh.getBoundsCenter();
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0250 finish.`);
       done();

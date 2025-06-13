@@ -17,7 +17,7 @@ import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
-import { Driver } from '@ohos.UiTest'
+import { Driver, MouseButton, ON, Component } from '@ohos.UiTest'
 
 export default function UIComponentOtherAlphabetIndexerUX() {
   describe('UIComponentOtherAlphabetIndexerUX', () => {
@@ -46,12 +46,14 @@ export default function UIComponentOtherAlphabetIndexerUX() {
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_UX_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_UX_0120 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerUX/UIComponentOtherAlphabetIndexerUX001");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      await driver.mouseScroll({x:370, y:770}, true, 20, 2072, 20);
-      await driver.mouseScroll({x:500, y:770}, true, 70, 2072, 20);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlphabetIndexerUX0120');
+      let driver: Driver = Driver.create();
+      let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
+      let point = await alphabetIndexer.getBoundsCenter();
+      await driver.mouseClick({x:point.x, y: point.y + 150}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseScroll({x:point.x + 120, y: point.y + 150}, true, 70, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_UX_0120 finish.`);
       done();

@@ -17,7 +17,7 @@ import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
-import { Driver } from '@ohos.UiTest'
+import { Driver, ON, Component } from '@ohos.UiTest'
 
 export default function UIComponentRefreshPromptText() {
   describe('UIComponentRefreshPromptText', () => {
@@ -46,11 +46,13 @@ export default function UIComponentRefreshPromptText() {
     it('SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020 start.`);
       Settings.createWindow("testability/pages/UIComponentRefreshPromptText/UIComponentRefreshPromptText001");
-      await Utils.sleep(1000);
       let driver:Driver = Driver.create();
-      await driver.mouseScroll({x:360, y:640}, false, 10);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentRefreshPromptText0020');
+      let refresh: Component = await driver.waitForComponent(ON.type('Refresh'), 1000);
+      let point = await refresh.getBoundsCenter();
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       windowSnap.snapShot();
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020 finish.`);

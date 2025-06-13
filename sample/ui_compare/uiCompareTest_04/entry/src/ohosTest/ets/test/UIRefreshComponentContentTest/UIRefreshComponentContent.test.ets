@@ -17,7 +17,7 @@ import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
-import { Driver } from '@ohos.UiTest'
+import { Driver, ON, Component } from '@ohos.UiTest'
 
 export default function UIRefreshComponentContent() {
   describe('UIRefreshComponentContent', () => {
@@ -46,14 +46,17 @@ export default function UIRefreshComponentContent() {
     it('SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0010 start.`);
       Settings.createWindow("testability/pages/UIRefreshComponentContent/UIRefreshComponentContent001");
-      await Utils.sleep(1000);
       let driver:Driver = Driver.create();
-      await driver.mouseScroll({x:360, y:640}, false, 30);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIRefreshComponentContent0010_1');
-      await driver.mouseScroll({x:360, y:640}, true, 30);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIRefreshComponentContent0010_2');
+      let refresh2: Component = await driver.waitForComponent(ON.id('Refresh2'), 1000);
+      let point2 = await refresh2.getBoundsCenter();
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseScroll({x: point2.x, y: point2.y}, true, 30);
+      let refresh1: Component = await driver.waitForComponent(ON.id('Refresh1'), 1000);
+      let point1 = await refresh1.getBoundsCenter();
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseScroll({x: point1.x, y: point1.y}, false, 30);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0010 finish.`);
       done();
@@ -68,14 +71,17 @@ export default function UIRefreshComponentContent() {
     it('SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0020 start.`);
       Settings.createWindow("testability/pages/UIRefreshComponentContent/UIRefreshComponentContent002");
-      await Utils.sleep(1000);
       let driver:Driver = Driver.create();
-      await driver.mouseScroll({x:360, y:640}, false, 30);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIRefreshComponentContent0020_1');
-      await driver.mouseScroll({x:360, y:640}, true, 30);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIRefreshComponentContent0020_2');
+      let refresh2: Component = await driver.waitForComponent(ON.id('Refresh2'), 1000);
+      let point2 = await refresh2.getBoundsCenter();
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseScroll({x: point2.x, y: point2.y}, true, 30);
+      let refresh1: Component = await driver.waitForComponent(ON.id('Refresh1'), 1000);
+      let point1 = await refresh1.getBoundsCenter();
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseScroll({x: point1.x, y: point1.y}, false, 30);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0020 finish.`);
       done();

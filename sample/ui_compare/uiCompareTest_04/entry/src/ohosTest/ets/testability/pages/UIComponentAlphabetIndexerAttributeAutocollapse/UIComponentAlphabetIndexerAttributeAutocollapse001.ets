@@ -17,151 +17,502 @@
 @Entry
 @Component
 struct UIComponentAlphabetIndexerAttributeAutocollapse001 {
-  @State message: string = 'Hello'
-  @State selectedIndex: number = 0
-  @State indexerHeight: string = '75%';
-  private arrayA: string[] = ['安']
-  private arrayB: string[] = ['卜', '白', '包', '毕', '丙']
-  private arrayC: string[] = ['曹', '成', '陈', '催']
-  private arrayK: string[] = ['孔', '柯', '康', '邝', '匡', '阚']
-  @State value: string[] = ['#', 'A', 'B', 'C', 'D', 'E', 'F']
+  @State message: string = 'Hello';
+  @State selectedIndex: number = 0;
+  private arrayA: string[] = ['安'];
+  private arrayB: string[] = ['卜', '白', '包', '毕', '丙'];
+  private arrayC: string[] = ['曹', '成', '陈', '催'];
+  private arrayK: string[] = ['孔', '柯', '康', '邝', '匡', '阚'];
+  private arr1: string[] = ['#', 'A', 'B', 'C', 'D', 'E', 'F'];
+  private arr2: string[] = ['#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K'];
+  private arr3: string[] = ['#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N'];
 
   build() {
     Column() {
-      Text(this.message)
-        .fontSize(20)
-        .fontColor(Color.Blue)
-        .height('10%')
-        .margin({ top: 20 })
-        .key('UIComponentAlphabetIndexerAttributeAutocollapse001_001')
-
-      Stack({ alignContent: Alignment.Start }) {
-        Row() {
-          List({ space: 20, initialIndex: 0 }) {
-            ForEach(this.arrayA, (item: string) => {
-              ListItem() {
-                Text(item)
-                  .width('80%')
-                  .height(10)
-                  .fontSize(30)
-                  .textAlign(TextAlign.Center)
+      Row() {
+        Column() {
+          Row() {
+            Column() {
+              Column() {
+                Text('所有字符数≤9').fontSize(15)
               }
-            }, (item: string) => item)
+              Column() {
+                Stack({ alignContent: Alignment.Start }) {
+                  Row() {
+                    List({ space: 20, initialIndex: 0 }) {
+                      ForEach(this.arrayA, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
 
-            ForEach(this.arrayB, (item: string) => {
-              ListItem() {
-                Text(item)
-                  .width('80%')
-                  .height(10)
-                  .fontSize(30)
-                  .textAlign(TextAlign.Center)
-              }
-            }, (item: string) => item)
+                      ForEach(this.arrayB, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
 
-            ForEach(this.arrayC, (item: string) => {
-              ListItem() {
-                Text(item)
-                  .width('80%')
-                  .height(10)
-                  .fontSize(30)
-                  .textAlign(TextAlign.Center)
-              }
-            }, (item: string) => item)
+                      ForEach(this.arrayC, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
 
-            ForEach(this.arrayK, (item: string) => {
-              ListItem() {
-                Text(item)
-                  .width('80%')
-                  .height(10)
-                  .fontSize(30)
-                  .textAlign(TextAlign.Center)
-              }
-            }, (item: string) => item)
-          }
-          .width('50%')
-          .height('100%')
+                      ForEach(this.arrayK, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+                    }.width('20%').height('80%')
 
-          AlphabetIndexer({ arrayValue: this.value, selected: $$this.selectedIndex })
-            .height(this.indexerHeight)
-            .autoCollapse(true)
-            .enableHapticFeedback(true)
-            .selectedColor(0xFFFFFF)
-            .popupColor(0xFFFAF0)
-            .selectedBackgroundColor(0xCCCCCC)
-            .popupBackground(0xD2B48C)
-            .usingPopup(true)
-            .selectedFont({ size: 16, weight: FontWeight.Bolder })
-            .popupFont({ size: 30, weight: FontWeight.Bolder })
-            .itemSize(28)
-            .alignStyle(IndexerAlign.Left)
-            .popupItemBorderRadius(24)
-            .itemBorderRadius(14)
-            .popupBackgroundBlurStyle(BlurStyle.NONE)
-            .popupTitleBackground(0xCCCCCC)
-            .popupSelectedColor(0x00FF00)
-            .popupUnselectedColor(0x0000FF)
-            .popupItemFont({ size: 30, style: FontStyle.Normal })
-            .popupItemBackgroundColor(0xCCCCCC)
-            .onSelect((index: number) => {
-              console.info(this.value[index] + ' Selected!')
-            })
-            .onRequestPopupData((index: number) => {
-              if (this.value[index] == 'A') {
-                return this.arrayA
-              } else if (this.value[index] == 'B') {
-                return this.arrayB
-              } else if (this.value[index] == 'C') {
-                return this.arrayC
-              } else if (this.value[index] == 'K') {
-                return this.arrayK
-              } else {
-                return []
+                    AlphabetIndexer({ arrayValue: this.arr1, selected: $$this.selectedIndex })
+                      .height('100%')
+                      .autoCollapse(true)
+                      .enableHapticFeedback(true)
+                      .selectedColor(0xFFFFFF)
+                      .popupColor(0xFFFAF0)
+                      .selectedBackgroundColor(0xCCCCCC)
+                      .popupBackground(0xD2B48C)
+                      .usingPopup(true)
+                      .selectedFont({ size: 28, weight: FontWeight.Bolder })
+                      .popupFont({ size: 25, weight: FontWeight.Bolder })
+                      .itemSize(30)
+                      .alignStyle(IndexerAlign.Right)
+                      .popupItemBorderRadius(24)
+                      .itemBorderRadius(14)
+                      .popupBackgroundBlurStyle(BlurStyle.NONE)
+                      .popupTitleBackground(0xCCCCCC)
+                      .popupSelectedColor(0x00FF00)
+                      .popupUnselectedColor(0x0000FF)
+                      .popupItemFont({ size: 25, style: FontStyle.Normal })
+                      .popupItemBackgroundColor(0xCCCCCC)
+                      .onSelect((index: number) => {
+                        console.info(this.arr1[index] + ' Selected!')
+                      })
+                      .onRequestPopupData((index: number) => {
+                        if (this.arr1[index] == 'A') {
+                          return this.arrayA
+                        } else if (this.arr1[index] == 'B') {
+                          return this.arrayB
+                        } else if (this.arr1[index] == 'C') {
+                          return this.arrayC
+                        } else if (this.arr1[index] == 'K') {
+                          return this.arrayK
+                        } else {
+                          return []
+                        }
+                      })
+                      .onPopupSelect((index: number) => {
+                        console.info('onPopupSelected:' + index)
+                      })
+                  }
+                }
               }
-            })
-            .onPopupSelect((index: number) => {
-              console.info('onPopupSelected:' + index)
-            })
+            }.width('50%')
+            Column() {
+              Column() {
+                Text('9<所有字符数≤13 全显示').fontSize(15)
+              }
+              Column() {
+                Stack({ alignContent: Alignment.Start }) {
+                  Row() {
+                    List({ space: 20, initialIndex: 0 }) {
+                      ForEach(this.arrayA, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+
+                      ForEach(this.arrayB, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+
+                      ForEach(this.arrayC, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+
+                      ForEach(this.arrayK, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+                    }.width('20%').height('80%')
+
+                    AlphabetIndexer({ arrayValue: this.arr2, selected: $$this.selectedIndex })
+                      .height('100%')
+                      .autoCollapse(true)
+                      .enableHapticFeedback(true)
+                      .selectedColor(0xFFFFFF)
+                      .popupColor(0xFFFAF0)
+                      .selectedBackgroundColor(0xCCCCCC)
+                      .popupBackground(0xD2B48C)
+                      .usingPopup(true)
+                      .selectedFont({ size: 15, weight: FontWeight.Bolder })
+                      .popupFont({ size: 25, weight: FontWeight.Bolder })
+                      .itemSize(15)
+                      .alignStyle(IndexerAlign.Right)
+                      .popupItemBorderRadius(24)
+                      .itemBorderRadius(14)
+                      .popupBackgroundBlurStyle(BlurStyle.NONE)
+                      .popupTitleBackground(0xCCCCCC)
+                      .popupSelectedColor(0x00FF00)
+                      .popupUnselectedColor(0x0000FF)
+                      .popupItemFont({ size: 25, style: FontStyle.Normal })
+                      .popupItemBackgroundColor(0xCCCCCC)
+                      .onSelect((index: number) => {
+                        console.info(this.arr2[index] + ' Selected!')
+                      })
+                      .onRequestPopupData((index: number) => {
+                        if (this.arr2[index] == 'A') {
+                          return this.arrayA
+                        } else if (this.arr2[index] == 'B') {
+                          return this.arrayB
+                        } else if (this.arr2[index] == 'C') {
+                          return this.arrayC
+                        } else if (this.arr2[index] == 'K') {
+                          return this.arrayK
+                        } else {
+                          return []
+                        }
+                      })
+                      .onPopupSelect((index: number) => {
+                        console.info('onPopupSelected:' + index)
+                      })
+                  }
+                }
+              }
+            }.width('50%')
+          }.height('31%')
         }
-        .width('100%')
-        .height('100%')
       }
-      .height('70%')
+      Row() {
+        Column() {
+          Row() {
+            Column() {
+              Column() {
+                Text('9<所有字符数≤13 短折叠').fontSize(15)
+              }
+              Column() {
+                Stack({ alignContent: Alignment.Start }) {
+                  Row() {
+                    List({ space: 20, initialIndex: 0 }) {
+                      ForEach(this.arrayA, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
 
-      Column() {
-        Row() {
-          Button('9<所有字符数<=13 全显示')
-            .id('9-13全显示')
-            .margin('5vp')
-            .onClick(() => {
-              this.value = ['#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
-              this.indexerHeight = '70%';
-            })
-          Button('9<所有字符数<=13 短折叠')
-            .id('9-13短折叠')
-            .margin('5vp')
-            .onClick(() => {
-              this.value = ['#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
-              this.indexerHeight = '40%';
-            })
-        }
-        Row() {
-          Button('所有字符数>13 短折叠')
-            .id('>13短折叠')
-            .margin('5vp')
-            .onClick(() => {
-              this.value = ['#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
-              this.indexerHeight = '40%';
-            })
-          Button('所有字符数>13 长折叠')
-            .id('>13长折叠')
-            .margin('5vp')
-            .onClick(() => {
-              this.value = ['#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
-              this.indexerHeight = '70%';
-            })
+                      ForEach(this.arrayB, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+
+                      ForEach(this.arrayC, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+
+                      ForEach(this.arrayK, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+                    }.width('20%').height('80%')
+
+                    AlphabetIndexer({ arrayValue: this.arr2, selected: $$this.selectedIndex })
+                      .height('100%')
+                      .autoCollapse(true)
+                      .enableHapticFeedback(true)
+                      .selectedColor(0xFFFFFF)
+                      .popupColor(0xFFFAF0)
+                      .selectedBackgroundColor(0xCCCCCC)
+                      .popupBackground(0xD2B48C)
+                      .usingPopup(true)
+                      .selectedFont({ size: 28, weight: FontWeight.Bolder })
+                      .popupFont({ size: 25, weight: FontWeight.Bolder })
+                      .itemSize(30)
+                      .alignStyle(IndexerAlign.Right)
+                      .popupItemBorderRadius(24)
+                      .itemBorderRadius(14)
+                      .popupBackgroundBlurStyle(BlurStyle.NONE)
+                      .popupTitleBackground(0xCCCCCC)
+                      .popupSelectedColor(0x00FF00)
+                      .popupUnselectedColor(0x0000FF)
+                      .popupItemFont({ size: 25, style: FontStyle.Normal })
+                      .popupItemBackgroundColor(0xCCCCCC)
+                      .onSelect((index: number) => {
+                        console.info(this.arr2[index] + ' Selected!')
+                      })
+                      .onRequestPopupData((index: number) => {
+                        if (this.arr2[index] == 'A') {
+                          return this.arrayA
+                        } else if (this.arr2[index] == 'B') {
+                          return this.arrayB
+                        } else if (this.arr2[index] == 'C') {
+                          return this.arrayC
+                        } else if (this.arr2[index] == 'K') {
+                          return this.arrayK
+                        } else {
+                          return []
+                        }
+                      })
+                      .onPopupSelect((index: number) => {
+                        console.info('onPopupSelected:' + index)
+                      })
+                  }
+                }
+              }
+            }.width('50%')
+            Column() {
+              Column() {
+                Text('所有字符数>13 短折叠').fontSize(15)
+              }
+              Column() {
+                Stack({ alignContent: Alignment.Start }) {
+                  Row() {
+                    List({ space: 20, initialIndex: 0 }) {
+                      ForEach(this.arrayA, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+
+                      ForEach(this.arrayB, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+
+                      ForEach(this.arrayC, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+
+                      ForEach(this.arrayK, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+                    }.width('20%').height('80%')
+
+                    AlphabetIndexer({ arrayValue: this.arr3, selected: $$this.selectedIndex })
+                      .height('100%')
+                      .autoCollapse(true)
+                      .enableHapticFeedback(true)
+                      .selectedColor(0xFFFFFF)
+                      .popupColor(0xFFFAF0)
+                      .selectedBackgroundColor(0xCCCCCC)
+                      .popupBackground(0xD2B48C)
+                      .usingPopup(true)
+                      .selectedFont({ size: 28, weight: FontWeight.Bolder })
+                      .popupFont({ size: 25, weight: FontWeight.Bolder })
+                      .itemSize(30)
+                      .alignStyle(IndexerAlign.Right)
+                      .popupItemBorderRadius(24)
+                      .itemBorderRadius(14)
+                      .popupBackgroundBlurStyle(BlurStyle.NONE)
+                      .popupTitleBackground(0xCCCCCC)
+                      .popupSelectedColor(0x00FF00)
+                      .popupUnselectedColor(0x0000FF)
+                      .popupItemFont({ size: 25, style: FontStyle.Normal })
+                      .popupItemBackgroundColor(0xCCCCCC)
+                      .onSelect((index: number) => {
+                        console.info(this.arr3[index] + ' Selected!')
+                      })
+                      .onRequestPopupData((index: number) => {
+                        if (this.arr3[index] == 'A') {
+                          return this.arrayA
+                        } else if (this.arr3[index] == 'B') {
+                          return this.arrayB
+                        } else if (this.arr3[index] == 'C') {
+                          return this.arrayC
+                        } else if (this.arr3[index] == 'K') {
+                          return this.arrayK
+                        } else {
+                          return []
+                        }
+                      })
+                      .onPopupSelect((index: number) => {
+                        console.info('onPopupSelected:' + index)
+                      })
+                  }
+                }
+              }
+            }.width('50%')
+          }.height('31%')
         }
       }
-      .height('15%')
+      Row() {
+        Column() {
+          Row() {
+            Column() {
+              Column() {
+                Text('所有字符数>13 长折叠').fontSize(15)
+              }
+              Column() {
+                Stack({ alignContent: Alignment.Start }) {
+                  Row() {
+                    List({ space: 20, initialIndex: 0 }) {
+                      ForEach(this.arrayA, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+
+                      ForEach(this.arrayB, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+
+                      ForEach(this.arrayC, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+
+                      ForEach(this.arrayK, (item: string) => {
+                        ListItem() {
+                          Text(item)
+                            .width('80%')
+                            .height(10)
+                            .fontSize(15)
+                            .textAlign(TextAlign.Center)
+                        }
+                      }, (item: string) => item)
+                    }.width('20%').height('80%')
+
+                    AlphabetIndexer({ arrayValue: this.arr3, selected: $$this.selectedIndex })
+                      .height('100%')
+                      .autoCollapse(true)
+                      .enableHapticFeedback(true)
+                      .selectedColor(0xFFFFFF)
+                      .popupColor(0xFFFAF0)
+                      .selectedBackgroundColor(0xCCCCCC)
+                      .popupBackground(0xD2B48C)
+                      .usingPopup(true)
+                      .selectedFont({ size: 15, weight: FontWeight.Bolder })
+                      .popupFont({ size: 25, weight: FontWeight.Bolder })
+                      .itemSize(17)
+                      .alignStyle(IndexerAlign.Right)
+                      .popupItemBorderRadius(24)
+                      .itemBorderRadius(14)
+                      .popupBackgroundBlurStyle(BlurStyle.NONE)
+                      .popupTitleBackground(0xCCCCCC)
+                      .popupSelectedColor(0x00FF00)
+                      .popupUnselectedColor(0x0000FF)
+                      .popupItemFont({ size: 25, style: FontStyle.Normal })
+                      .popupItemBackgroundColor(0xCCCCCC)
+                      .onSelect((index: number) => {
+                        console.info(this.arr3[index] + ' Selected!')
+                      })
+                      .onRequestPopupData((index: number) => {
+                        if (this.arr3[index] == 'A') {
+                          return this.arrayA
+                        } else if (this.arr3[index] == 'B') {
+                          return this.arrayB
+                        } else if (this.arr3[index] == 'C') {
+                          return this.arrayC
+                        } else if (this.arr3[index] == 'K') {
+                          return this.arrayK
+                        } else {
+                          return []
+                        }
+                      })
+                      .onPopupSelect((index: number) => {
+                        console.info('onPopupSelected:' + index)
+                      })
+                  }
+                }
+              }
+            }.width('50%')
+          }.height('31%')
+        }
+      }
+
     }
     .backgroundColor(0xDCDCDC)
     .width('100%')

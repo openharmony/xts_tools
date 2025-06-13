@@ -17,7 +17,7 @@ import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
-import { Driver, MouseButton } from '@ohos.UiTest'
+import { Driver, MouseButton, ON, Component } from '@ohos.UiTest'
 
 export default function UIComponentOtherAlphabetIndexerVibration() {
   describe('UIComponentOtherAlphabetIndexerVibration', () => {
@@ -46,11 +46,12 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration001");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      await driver.mouseClick({x:370, y:900}, MouseButton.MOUSE_BUTTON_LEFT);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlphabetIndexerVibration0180');
+      let driver: Driver = Driver.create();
+      let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
+      let point = await alphabetIndexer.getBoundsCenter();
+      await driver.mouseClick({x:point.x, y: point.y - 150}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180 finish.`);
       done();
@@ -65,11 +66,12 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration002");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      await driver.mouseClick({x:370, y:900}, MouseButton.MOUSE_BUTTON_LEFT);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlphabetIndexerVibration0010');
+      let driver: Driver = Driver.create();
+      let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
+      let point = await alphabetIndexer.getBoundsCenter();
+      await driver.mouseClick({x:point.x, y: point.y - 150}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010 finish.`);
       done();
@@ -84,11 +86,12 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration003");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      await driver.mouseLongClick({x:370, y:900}, MouseButton.MOUSE_BUTTON_LEFT);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlphabetIndexerVibration0100');
+      let driver: Driver = Driver.create();
+      let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
+      let point = await alphabetIndexer.getBoundsCenter();
+      await driver.mouseLongClick({x:point.x, y: point.y - 150}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100 finish.`);
       done();
@@ -103,11 +106,12 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration004");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      await driver.mouseScroll({x:370, y:990}, true, 5, 2072);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlphabetIndexerVibration0110');
+      let driver: Driver = Driver.create();
+      let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
+      let point = await alphabetIndexer.getBoundsCenter();
+      await driver.fling({x: point.x, y: point.y - 40}, {x: point.x, y: point.y}, 5, 600);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110 finish.`);
       done();
@@ -122,11 +126,12 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerVibration/UIComponentOtherAlphabetIndexerVibration005");
-      await Utils.sleep(1000);
-      let driver:Driver = Driver.create();
-      await driver.mouseScroll({x:370, y:990}, true, 5, 2072);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherAlphabetIndexerVibration0030');
+      let driver: Driver = Driver.create();
+      let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
+      let point = await alphabetIndexer.getBoundsCenter();
+      await driver.fling({x: point.x, y: point.y - 40}, {x: point.x, y: point.y}, 5, 600);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030 finish.`);
       done();

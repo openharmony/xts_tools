@@ -17,7 +17,7 @@ import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
-import { Driver } from '@ohos.UiTest'
+import { Driver, MouseButton, ON, Component } from '@ohos.UiTest'
 
 export default function UIComponentOtherRefreshAnimation() {
   describe('UIComponentOtherRefreshAnimation', () => {
@@ -46,11 +46,13 @@ export default function UIComponentOtherRefreshAnimation() {
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ANIMATION_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ANIMATION_0120 start.`);
       Settings.createWindow("testability/pages/UIComponentOtherRefreshAnimation/UIComponentOtherRefreshAnimation001");
-      await Utils.sleep(1000);
       let driver:Driver = Driver.create();
-      await driver.mouseScroll({x:360, y:640}, false, 30);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('UIComponentOtherRefreshAnimation0120');
+      let refresh: Component = await driver.waitForComponent(ON.type('Refresh'), 1000);
+      let point = await refresh.getBoundsCenter();
+      await driver.waitForIdle(500, 1000);
+      await driver.mouseScroll({x: point.x, y: point.y}, false, 30);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ANIMATION_0120 finish.`);
       done();
