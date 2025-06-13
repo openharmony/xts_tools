@@ -13,8 +13,9 @@
  * limitations under the License.
  */
 import ComponentTextSpanInterface from './ComponentTextSpanInterfaceTest/ComponentTextSpanInterface.test'
-
+import ComponentTextSpanUI from './ComponentTextSpanUITest/ComponentTextSpanUI.test'
 
 export default function testsuite() {
   ComponentTextSpanInterface();
+  ComponentTextSpanUI();
 }
