@@ -51,7 +51,7 @@ export default function TestCase() {
         Logger.info(`[${TAG}]`, `Succeeded in destroy the window.`);
       })
       await Utils.sleep(1000);
-      done()
+      done();
     })
 
     afterAll(() => {
@@ -68,20 +68,20 @@ export default function TestCase() {
       TAG = 'TestCase_7b95b49b1c6b41b0a17704449c409e0d';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/TestCase/TestCase001');
-      await Utils.sleep(1000);
       let driver: Driver = Driver.create();
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('TestCase001_01');
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('TestCase001_02');
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
-      await Utils.sleep(1000);
-      windowSnap.snapShot('TestCase001_03');
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot('TestCase001_04');
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -96,24 +96,24 @@ export default function TestCase() {
       TAG = 'TestCase_c4b7742b9a304b6faa16642b1d99b837';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/TestCase/TestCase002');
-      await Utils.sleep(1000);
       let driver: Driver = Driver.create();
-      let textInput: Component = await driver.findComponent(ON.id('TestCase002_001'));
+      let textInput: Component = await driver.waitForComponent(ON.id('TestCase002_001'), 1000);
       await textInput.click();
-      await Utils.sleep(1000);
-      windowSnap.snapShot('TestCase002_01');
-      let search: Component = await driver.findComponent(ON.id('TestCase002_002'));
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let search: Component = await driver.waitForComponent(ON.id('TestCase002_002'), 1000);
       await search.click();
-      await Utils.sleep(1000);
-      windowSnap.snapShot('TestCase002_02');
-      let richEditor: Component = await driver.findComponent(ON.id('TestCase002_003'));
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let richEditor: Component = await driver.waitForComponent(ON.id('TestCase002_003'), 1000);
       await richEditor.click();
-      await Utils.sleep(1000);
-      windowSnap.snapShot('TestCase002_03');
-      let xComponent: Component = await driver.findComponent(ON.id('TestCase002_004'));
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let xComponent: Component = await driver.waitForComponent(ON.id('TestCase002_004'), 1000);
       await xComponent.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot('TestCase002_04');
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })

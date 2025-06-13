@@ -2,7 +2,6 @@
   "src": [
     "testability/pages/Index",
     "testability/pages/demo",
-    "testability/pages/UIAttributeFontInterface/UIAttributeFontInterface001",
     "testability/pages/TestCase/TestCase001",
     "testability/pages/TestCase/TestCase002",
     "testability/pages/UIComponentLayoutStack/UIComponentLayoutStack014",

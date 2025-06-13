@@ -51,7 +51,7 @@ export default function UIComponentLayoutStack() {
         Logger.info(`[${TAG}]`, `Succeeded in destroy the window.`);
       })
       await Utils.sleep(1000);
-      done()
+      done();
     })
 
     afterAll(() => {
@@ -69,11 +69,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack014');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack014_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack014_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -89,11 +90,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack015');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack015_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack015_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -109,11 +111,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack016');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack016_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack016_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -129,11 +132,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack017');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack017_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack017_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -149,11 +153,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack018');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack018_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack018_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -169,11 +174,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack019');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack019_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack019_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -189,11 +195,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack020');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack020_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack020_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -209,11 +216,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack021');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack021_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack021_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -229,11 +237,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack022');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack022_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack022_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -249,11 +258,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack023');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack023_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack023_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -269,11 +279,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack024');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack024_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack024_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -288,8 +299,10 @@ export default function UIComponentLayoutStack() {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack040');
+      const driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot(TAG);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -305,11 +318,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack060');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack060_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack060_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -325,11 +339,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack061');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack061_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack061_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -345,11 +360,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack062');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack062_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack062_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -365,11 +381,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack063');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack063_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack063_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -385,11 +402,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack073');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack073_003'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack073_003'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -405,11 +423,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack074');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack074_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack074_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -425,11 +444,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack075');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack075_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack075_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -445,11 +465,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack076');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack076_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack076_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -465,11 +486,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack077');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack077_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack077_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -485,11 +507,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack078');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack078_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack078_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -505,11 +528,12 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack079');
       const driver = Driver.create();
-      await Utils.sleep(1000);
-      let button: Component = await driver.findComponent(ON.id('UIComponentLayoutStack079_001'));
+      await driver.waitForIdle(500, 1000);
+      let button: Component = await driver.waitForComponent(ON.id('UIComponentLayoutStack079_001'), 1000);
       await button.click();
-      await Utils.sleep(500);
-      windowSnap.snapShot(TAG);
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -525,8 +549,9 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack080');
       const driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot(TAG);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -542,8 +567,9 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack081');
       const driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot(TAG);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -559,8 +585,9 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack082');
       const driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot(TAG);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -576,8 +603,9 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack083');
       const driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot(TAG);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -593,8 +621,9 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack084');
       const driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot(TAG);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -610,8 +639,9 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack085');
       const driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot(TAG);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -627,8 +657,9 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack086');
       const driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot(TAG);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -644,8 +675,9 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack087');
       const driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot(TAG);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
@@ -661,8 +693,9 @@ export default function UIComponentLayoutStack() {
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack088');
       const driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
       await Utils.sleep(1000);
-      windowSnap.snapShot(TAG);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
     })
