@@ -7355,6 +7355,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/network/netstack/net_http",
+            "bundle_name": [
+                "netstack"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/resourceschedule/ffrt",
             "bundle_name": [
                 "ffrt"
