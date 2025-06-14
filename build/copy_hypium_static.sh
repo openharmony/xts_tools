@@ -18,4 +18,4 @@ code_root=$(realpath $(dirname $(readlink -f $0))/../../../../)
 
 mkdir -p $1/entry/src/hypium
 cp -rf ${code_root}/test/testfwk/arkxtest/jsunit/src_static/module $1/entry/src/hypium/
-find ${code_root}/test/testfwk/arkxtest/jsunit/src_static -maxdepth 1 -type f -name "*.ets" -exec cp {} $1/entry/src/hypium/ \;
+find ${code_root}/test/testfwk/arkxtest/jsunit/src_static -maxdepth 1 -type f -name "*.ets" -exec cp {} $1/entry/src/hypium/
