@@ -16,4 +16,6 @@ echo exec $@
 
 code_root=$(realpath $(dirname $(readlink -f $0))/../../../../)
 
-cp -rf ${code_root}/test/xts/tools/hypium_static/* $1/entry/src/
+mkdir -p $1/entry/src/hypium
+cp -rf ${code_root}/test/testfwk/arkxtest/jsunit/src_static/module $1/entry/src/hypium/
+cp -f ${code_root}/test/testfwk/arkxtest/jsunit/src_static/*.ets $1/entry/src/hypium/
