@@ -1,0 +1,23 @@
+{
+  "src": [
+    "testability/pages/Index",
+    "testability/pages/focus_TextUI/FocusTextUI0140",
+    "testability/pages/focus_TextUI/FocusTextUI0160",
+    "testability/pages/focus_TextUI/FocusTextUI1210",
+    "testability/pages/focus_TextUI/FocusTextUI0770",
+    "testability/pages/focus_TextUI/FocusTextUI0550",
+    "testability/pages/focus_TextUI/FocusTextUI0460",
+    "testability/pages/focus_TextUI/FocusTextUI0340",
+    "testability/pages/focus_TextUI/FocusTextUI0330",
+    "testability/pages/focus_TextUI/FocusTextUI0410",
+    "testability/pages/focus_TextUI/FocusTextUI1110",
+    "testability/pages/focus_TextUI/FocusTextUI0980",
+    "testability/pages/focus_TextUI/FocusTextUI1120",
+    "testability/pages/focus_TextUI/FocusTextUI0310",
+    "testability/pages/focus_TextUI/FocusTextUI0780",
+    "testability/pages/focus_TextUI/FocusTextUI0860",
+    "testability/pages/focus_TextUI/FocusTextUI0950",
+    "testability/pages/focus_TextUI/FocusTextUI0260",
+    "testability/pages/focus_TextUI/FocusTextUI0540"
+  ]
+}
