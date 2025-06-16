@@ -1,0 +1,15 @@
+{
+  "src": [
+    "testability/pages/focus_TextUI/FocusTextUI2020",
+    "testability/pages/focus_TextUI/FocusTextUI1780",
+    "testability/pages/focus_TextUI/FocusTextUI1660",
+    "testability/pages/focus_TextUI/FocusTextUI1230",
+    "testability/pages/focus_TextUI/FocusTextUI1940",
+    "testability/pages/focus_TextUI/FocusTextUI1640",
+    "testability/pages/focus_TextUI/FocusTextUI1410",
+    "testability/pages/focus_TextUI/FocusTextUI1430",
+    "testability/pages/focus_TextUI/FocusTextUI1380",
+    "testability/pages/focus_TextUI/FocusTextUI1460",
+    "testability/pages/focus_TextUI/FocusTextUI1750"
+  ]
+}
