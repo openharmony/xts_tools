@@ -13,17 +13,28 @@
  * limitations under the License.
  */
 
+class progressModifier implements AttributeModifier<ProgressAttribute> {
+  public flag = 1;
+  private color1: LinearGradient =
+    new LinearGradient([{ color: "#65EEC9A3", offset: 0 }, { color: "#FFEF629F", offset: 1 }]);
+  private color2: LinearGradient =
+    new LinearGradient([{ color: "#FF67F9D4", offset: 0 }, { color: "#FFFF9554", offset: 1 }]);
+
+  applyNormalAttribute(instance: ProgressAttribute): void {
+    if (this.flag == 1) {
+      instance.color(this.color2);
+    } else {
+      instance.color(this.color1);
+    }
+  }
+}
+
 @Entry
 @Component
 struct UIComponentInfomationProgressModifierColor0010 {
   @State name: string = 'UIComponentInfomationProgressModifierColor0010';
   @State message: string = 'message';
-  private color1: LinearGradient =
-    new LinearGradient([{ color: "#65EEC9A3", offset: 0 }, { color: "#FFEF629F", offset: 1 }]);
-  private color2: LinearGradient =
-    new LinearGradient([{ color: "#FF67F9D4", offset: 0 }, { color: "#FFFF9554", offset: 1 }]);
-  @State color: LinearGradient = this.color1;
-  private flag = 1;
+  @State modifier: progressModifier = new progressModifier();
 
   build() {
     Column() {
@@ -32,17 +43,15 @@ struct UIComponentInfomationProgressModifierColor0010 {
 
           Progress({ value: 70, total: 100, type: ProgressType.Ring })
             .width(100).style({ strokeWidth: 20 })
-            .color(this.color)
+            .attributeModifier(this.modifier)
 
           Button('切换渐变色')
             .id(this.name + '_01')
             .onClick(() => {
-              if (this.flag == 1) {
-                this.color = this.color2;
-                this.flag = 2;
+              if (this.modifier.flag == 1) {
+                this.modifier.flag = 2;
               } else {
-                this.color = this.color1;
-                this.flag = 1;
+                this.modifier.flag = 1;
               }
             })
             .margin({top: 10})
