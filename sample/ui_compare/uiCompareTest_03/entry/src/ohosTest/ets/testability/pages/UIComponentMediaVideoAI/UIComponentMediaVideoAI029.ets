@@ -74,7 +74,7 @@ struct UIComponentMediaVideoAI029 {
           .onClick(() => {
             if (this.srcFlag == 1) {
               // this.videoSrc = 'https://media.w3.org/2010/05/sintel/trailer.mp4';
-              this.videoSrc = 'https://gitee.com/drthrhr/test-resources/raw/master/ShortTrailer.mp4';
+              this.videoSrc = 'https://gitee.com/drthrhr/test-resources/raw/testResources/ShortTrailer.mp4';
               this.srcFlag = 2;
             } else {
               this.videoSrc = 'https://stream7.iqilu.com/10339/upload_transcode/202002/09/20200209105011F0zPoYzHry.mp4';
