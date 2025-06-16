@@ -62,7 +62,6 @@ struct UIComponentTextRichEditorUI0160 {
             font: {
               size: 25,
               weight: FontWeight.Regular,
-              family: "HarmonyOS Sans",
               style: FontStyle.Normal
             }
           })
