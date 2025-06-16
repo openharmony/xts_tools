@@ -107,7 +107,7 @@ struct UIComponentMediaImagePredownload0012 {
         .width(50)
 
       Text('网络bmp图片资源，可以显示：')
-      Image('https://gitee.com/drthrhr/test-images/raw/master/bmpImage.bmp')
+      Image('https://gitee.com/drthrhr/test-images/raw/testImages/bmpImage.bmp')
         .onComplete((event) => {
           this.message += '\n bmp image onComplete, width: ' + event?.width + ', height: ' + event?.height;
         })
