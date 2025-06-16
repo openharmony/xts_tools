@@ -47,6 +47,18 @@
       },
       {
         "name":"ohos.permission.CAPTURE_SCREEN"
+      },
+      {
+        "name":"ohos.permission.UPDATE_CONFIGURATION"
+      },
+      {
+        "name":"ohos.permission.INTERNET"
+      },
+      {
+        "name":"ohos.permission.SET_WIFI_INFO"
+      },
+      {
+        "name":"ohos.permission.MANAGE_WIFI_CONNECTION"
       }
     ],
     "abilities": [
@@ -69,6 +81,26 @@
             ]
           }
         ]
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "MyEmbeddedUIExtAbility",
+        "srcEntry": "./ets/testability/MyEmbeddedUIExtAbility/MyEmbeddedUIExtAbility.ets",
+        "description": "MyEmbeddedUIExtAbility",
+        "type": "embeddedUI"
+      },
+      {
+        "name": "MyEmbeddedUIExtAbilityNested",
+        "srcEntry": "./ets/testability/MyEmbeddedUIExtAbility/MyEmbeddedUIExtAbilityNested.ets",
+        "description": "MyEmbeddedUIExtAbilityNested",
+        "type": "embeddedUI"
+      },
+      {
+        "name": "MyEmbeddedUIExtAbilitySecond",
+        "srcEntry": "./ets/testability/MyEmbeddedUIExtAbility/MyEmbeddedUIExtAbilitySecond.ets",
+        "description": "MyEmbeddedUIExtAbilitySecond",
+        "type": "embeddedUI"
       }
     ]
   }
