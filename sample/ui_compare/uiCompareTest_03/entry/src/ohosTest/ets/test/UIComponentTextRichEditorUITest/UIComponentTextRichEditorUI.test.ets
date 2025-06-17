@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -67,7 +67,7 @@ export default function UIComponentTextRichEditorUI() {
      * @tc.desc    RichEditor#RichEditorTest#RichEditorTest_007
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0070', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0070';
       let pageName = 'UIComponentTextRichEditorUI0070';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -86,7 +86,7 @@ export default function UIComponentTextRichEditorUI() {
      * @tc.desc    RichEditor#RichEditorTest#RichEditorTest_016
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0160', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0160', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0160';
       let pageName = 'UIComponentTextRichEditorUI0160';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -105,7 +105,7 @@ export default function UIComponentTextRichEditorUI() {
      * @tc.desc    RichEditor#RichEditorTest#RichEditorTest_040
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0400', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0400', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0400';
       let pageName = 'UIComponentTextRichEditorUI0400';
       Logger.info(`[${TAG}]`, `Case start.`);

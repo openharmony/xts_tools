@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -67,7 +67,7 @@ export default function UIComponentTextRichEditorAction() {
      * @tc.desc    Drag selected text in richeditor
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0290', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0290', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0290';
       let pageName = 'UIComponentTextRichEditorAction0290';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -101,7 +101,7 @@ export default function UIComponentTextRichEditorAction() {
      * @tc.desc    Multi-line text selection operation with handles highlighted correctly
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0320', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0320', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0320';
       let pageName = 'UIComponentTextRichEditorAction0320';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -127,7 +127,7 @@ export default function UIComponentTextRichEditorAction() {
      * @tc.desc    Keyboard does not auto-pop up when selecting text in preview mode
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0290_960', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0290_960', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0290_960';
       let pageName = 'UIComponentTextRichEditorAction0290_960';
       Logger.info(`[${TAG}]`, `Case start.`);

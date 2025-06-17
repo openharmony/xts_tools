@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -67,7 +67,7 @@ export default function UIComponentTextRichEditorInterface() {
      * @tc.desc    getTypingStyle correctly retrieves the user's preset style
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0013', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0013', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0013';
       let pageName = 'UIComponentTextRichEditorInterface0013';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -88,7 +88,7 @@ export default function UIComponentTextRichEditorInterface() {
      * @tc.desc    getCaretOffset correctly returns the current cursor position
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0016', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0016', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0016';
       let pageName = 'UIComponentTextRichEditorInterface0016';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -123,7 +123,7 @@ export default function UIComponentTextRichEditorInterface() {
      * @tc.desc    Verify the setCaretOffset functionality
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999_817', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999_817', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999_817';
       let pageName = 'UIComponentTextRichEditorInterface9999_817';
       Logger.info(`[${TAG}]`, `Case start.`);

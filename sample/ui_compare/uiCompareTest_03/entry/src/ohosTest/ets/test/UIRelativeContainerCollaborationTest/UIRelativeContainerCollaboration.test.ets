@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import { Driver, ON ,Component } from '@kit.TestKit';
@@ -64,7 +64,7 @@ export default function UIRelativeContainerCollaboration() {
      * @tc.desc    Create a new .ets file and copy the sample code for compilation (example 1 to example 3)
      * @tc.level   0
      */
-    it('SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0680', 0, async (done: Function) => {
+    it('SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0680', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0680';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIRelativeContainerCollaboration/UIRelativeContainerCollaboration001');
@@ -117,7 +117,7 @@ export default function UIRelativeContainerCollaboration() {
      * @tc.desc    Create a new .ets file and copy the sample code for compilation (example 4 to example 6)
      * @tc.level   0
      */
-    it('SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0690', 0, async (done: Function) => {
+    it('SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0690', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0690';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIRelativeContainerCollaboration/UIRelativeContainerCollaboration004');
@@ -170,7 +170,7 @@ export default function UIRelativeContainerCollaboration() {
      * @tc.desc    Create a new .ets file and copy the sample code for compilation (example 7 to example 9)
      * @tc.level   0
      */
-    it('SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0700', 0, async (done: Function) => {
+    it('SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0700', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0700';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIRelativeContainerCollaboration/UIRelativeContainerCollaboration007');

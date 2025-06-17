@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -68,7 +68,7 @@ export default function UIComponentWaterFlowMirror() {
      * @tc.desc    Test waterflow mirroring capability with columnsTemplate: 1fr 1fr 1fr layout
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0010_014', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0010_014', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0010_014';
       let pageName = 'UIComponentWaterFlowMirror0010_014';
       Logger.info(`[${TAG}]`, `Case start.`);
