@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -73,7 +73,7 @@ export default function UIComponentMediaVideoReset() {
      * @tc.desc    Enable or disable autoplay. When playing an online video, disconnect the network, then call 'reset' after reconnecting to restart playback
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentMediaVideoReset/UIComponentMediaVideoReset010');
@@ -182,7 +182,7 @@ export default function UIComponentMediaVideoReset() {
      * @tc.desc    If the network is disconnected initially, the video can play normally after reconnecting and calling 'reset'
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0011', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0011', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0011';
       Logger.info(`[${TAG}]`, `Case start.`);
       try {
@@ -221,7 +221,7 @@ export default function UIComponentMediaVideoReset() {
      * @tc.desc    Play the video online, call 'reset' after disconnecting from the network, and the video can play normally once reconnected
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0012', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0012', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0012';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentMediaVideoReset/UIComponentMediaVideoReset012');
@@ -274,7 +274,7 @@ export default function UIComponentMediaVideoReset() {
      * @tc.desc    During video playback, when the screen turns off and is then unlocked, call reset()
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0024', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0024', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0024';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentMediaVideoReset/UIComponentMediaVideoReset024');
@@ -301,7 +301,7 @@ export default function UIComponentMediaVideoReset() {
      * @tc.desc    During video playback, when the screen turns off and is then unlocked, call reset()
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0030', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentMediaVideoReset/UIComponentMediaVideoReset030');

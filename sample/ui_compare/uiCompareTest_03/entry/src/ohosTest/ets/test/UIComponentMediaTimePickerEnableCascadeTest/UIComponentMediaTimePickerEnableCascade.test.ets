@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -68,7 +68,7 @@ export default function UIComponentMediaTimePickerEnableCascade() {
      * @tc.desc    TimePicker_enableCascade : false
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010';
       let pageName = 'UIComponentMediaTimePickerEnableCascade0010';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -97,7 +97,7 @@ export default function UIComponentMediaTimePickerEnableCascade() {
      * @tc.desc    TimePicker_enableCascade : false
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0011', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0011', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0011';
       let pageName = 'UIComponentMediaTimePickerEnableCascade0011';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -126,7 +126,7 @@ export default function UIComponentMediaTimePickerEnableCascade() {
      * @tc.desc    TimePicker_enableCascade : null
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0012', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0012', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0012';
       let pageName = 'UIComponentMediaTimePickerEnableCascade0012';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -155,7 +155,7 @@ export default function UIComponentMediaTimePickerEnableCascade() {
      * @tc.desc    TimePicker_enableCascade : null
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0013', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0013', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0013';
       let pageName = 'UIComponentMediaTimePickerEnableCascade0013';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -184,7 +184,7 @@ export default function UIComponentMediaTimePickerEnableCascade() {
      * @tc.desc    TimePickerDialog_enableCascade : true
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0034', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0034', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0034';
       let pageName = 'UIComponentMediaTimePickerEnableCascade0034';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -214,7 +214,7 @@ export default function UIComponentMediaTimePickerEnableCascade() {
      * @tc.desc    TimePickerDialog_enableCascade : false
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0035', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0035', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0035';
       let pageName = 'UIComponentMediaTimePickerEnableCascade0035';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -244,7 +244,7 @@ export default function UIComponentMediaTimePickerEnableCascade() {
      * @tc.desc    TimePickerDialog_enableCascade : null
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0036', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0036', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0036';
       let pageName = 'UIComponentMediaTimePickerEnableCascade0036';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -274,7 +274,7 @@ export default function UIComponentMediaTimePickerEnableCascade() {
      * @tc.desc    TimePickerDialog_enableCascade : undefined
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0037', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0037', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0037';
       let pageName = 'UIComponentMediaTimePickerEnableCascade0037';
       Logger.info(`[${TAG}]`, `Case start.`);

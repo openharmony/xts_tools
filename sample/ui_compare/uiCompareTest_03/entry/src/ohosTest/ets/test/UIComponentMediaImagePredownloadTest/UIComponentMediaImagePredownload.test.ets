@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -68,7 +68,7 @@ export default function UIComponentMediaImagePredownload() {
      * @tc.desc    Image component loads web image, firing OnComplete on success and OnError on failure
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0010';
       let pageName = 'UIComponentMediaImagePredownload0010';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -87,7 +87,7 @@ export default function UIComponentMediaImagePredownload() {
      * @tc.desc    Image component loads parameterized web image, triggering OnComplete on success and OnError on failure
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0011', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0011', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0011';
       let pageName = 'UIComponentMediaImagePredownload0011';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -106,7 +106,7 @@ export default function UIComponentMediaImagePredownload() {
      * @tc.desc    Image component preloads web image via API, firing OnComplete on success and OnError on failure
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0012', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0012', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0012';
       let pageName = 'UIComponentMediaImagePredownload0012';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -125,7 +125,7 @@ export default function UIComponentMediaImagePredownload() {
      * @tc.desc    Image component preloads web image via API, firing OnComplete on success and OnError on failure
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0013', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0013', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0013';
       let pageName = 'UIComponentMediaImagePredownload0013';
       Logger.info(`[${TAG}]`, `Case start.`);

@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -68,7 +68,7 @@ export default function UIComponentArcListScrollBarColor() {
      * @tc.desc    Set ArcList_scrollBarColor with valid Color value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0010';
       let pageName = 'UIComponentArcListScrollBarColor0010';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -87,7 +87,7 @@ export default function UIComponentArcListScrollBarColor() {
      * @tc.desc    Set ArcList_scrollBarColor with valid number value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0020', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0020';
       let pageName = 'UIComponentArcListScrollBarColor0020';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -106,7 +106,7 @@ export default function UIComponentArcListScrollBarColor() {
      * @tc.desc    Set ArcList_scrollBarColor with valid string value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0030', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0030';
       let pageName = 'UIComponentArcListScrollBarColor0030';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -125,7 +125,7 @@ export default function UIComponentArcListScrollBarColor() {
      * @tc.desc    Dynamically switch ArcList_scrollBarColor
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0040', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0040';
       let pageName = 'UIComponentArcListScrollBarColor0040';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -167,7 +167,7 @@ export default function UIComponentArcListScrollBarColor() {
      * @tc.desc    Set ArcList_scrollBarColor with invalid value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0050', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0050', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0050';
       let pageName = 'UIComponentArcListScrollBarColor0050';
       Logger.info(`[${TAG}]`, `Case start.`);

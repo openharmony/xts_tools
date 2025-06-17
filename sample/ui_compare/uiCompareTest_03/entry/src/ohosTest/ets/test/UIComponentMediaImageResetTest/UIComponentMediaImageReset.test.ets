@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -68,7 +68,7 @@ export default function UIComponentMediaImageReset() {
      * @tc.desc    Combine Image component with draggable
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0034', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0034', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0034';
       let pageName = 'UIComponentMediaImageReset0034';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -94,7 +94,7 @@ export default function UIComponentMediaImageReset() {
      * @tc.desc    Combine Image component with draggable
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0035', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0035', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0035';
       let pageName = 'UIComponentMediaImageReset0035';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -117,7 +117,7 @@ export default function UIComponentMediaImageReset() {
      * @tc.desc    Combine Image component with draggable
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0039', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0039', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0039';
       let pageName = 'UIComponentMediaImageReset0039';
       Logger.info(`[${TAG}]`, `Case start.`);

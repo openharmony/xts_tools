@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -68,7 +68,7 @@ export default function UIComponentMediaImageSvgAnimateTransform() {
      * @tc.desc    <animateTransform> sets attributeName='transform' type='rotate' to support rotation
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0022', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0022', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0022';
       let pageName = 'UIComponentMediaImageSvgAnimateTransform0022';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -89,7 +89,7 @@ export default function UIComponentMediaImageSvgAnimateTransform() {
      * @tc.desc    <animateTransform> sets attributeName='transform' type='skewX' to enable horizontal skewing
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0027', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0027', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0027';
       let pageName = 'UIComponentMediaImageSvgAnimateTransform0027';
       Logger.info(`[${TAG}]`, `Case start.`);

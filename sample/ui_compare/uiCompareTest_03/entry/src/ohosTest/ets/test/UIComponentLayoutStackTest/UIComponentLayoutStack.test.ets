@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import { Driver, ON ,Component } from '@kit.TestKit';
@@ -64,7 +64,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_014', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_014', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_014';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack014');
@@ -84,7 +84,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200.5
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_015', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_015', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_015';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack015');
@@ -104,7 +104,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 199.5
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_016', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_016', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_016';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack016');
@@ -124,7 +124,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to -10
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_017', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_017', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_017';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack017');
@@ -144,7 +144,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to "pp"
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_018', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_018', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_018';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack018');
@@ -164,7 +164,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add stack, alignContent is the default value, width and height use resource references, assigned to 200
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_019', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_019', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_019';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack019');
@@ -184,7 +184,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to "80%"
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_020', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack020');
@@ -204,7 +204,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_021', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_021', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_021';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack021');
@@ -224,7 +224,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_022', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_022', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_022';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack022');
@@ -244,7 +244,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_023', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_023', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_023';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack023');
@@ -264,7 +264,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_024', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_024', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_024';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack024');
@@ -284,7 +284,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack040');
@@ -300,7 +300,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and add a scale property with parameters "0.5,0.5,0.5,0.5"
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_060', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack060');
@@ -320,7 +320,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component with the rotate property set to "0.5,0.5,0.0,0,0,1,300,0"
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_061', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_061', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_061';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack061');
@@ -340,7 +340,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and add a brightness property with parameters "10"
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_062', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_062', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_062';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack062');
@@ -360,7 +360,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and add a saturate property with parameters "10"
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_063', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_063', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_063';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack063');
@@ -380,7 +380,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and add an onClick event handler: () => console.log("touch event")
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_073', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_073', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_073';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack073');
@@ -400,7 +400,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set the margin property with parameters {10, 20, 30, 40}
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_074', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_074', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_074';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack074');
@@ -420,7 +420,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set the margin property with parameters { 9.5, 20.4, 29.9, 40.1}
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_075', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_075', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_075';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack075');
@@ -440,7 +440,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set the margin property with parameters {10}
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_076', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_076', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_076';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack076');
@@ -460,7 +460,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set the margin property with parameters { 10, 20, 30}
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_077', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_077', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_077';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack077');
@@ -480,7 +480,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set the margin property with parameters { 10, 20, 30, 40, 50}
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_078', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_078', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_078';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack078');
@@ -500,7 +500,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set the margin property with parameters { 10, 20, 30, 40, 50}
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_079', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_079', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_079';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack079');
@@ -520,7 +520,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set its align property to 'top-start'
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_080', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack080');
@@ -537,7 +537,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set its align property to 'top'
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_081', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_081', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_081';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack081');
@@ -554,7 +554,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set its align property to 'top-end'
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_082', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_082', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_082';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack082');
@@ -571,7 +571,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set its align property to 'start'
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_083', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_083', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_083';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack083');
@@ -588,7 +588,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set its align property to 'center'
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_084', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_084', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_084';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack084');
@@ -605,7 +605,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set its align property to 'end'
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_085', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_085', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_085';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack085');
@@ -622,7 +622,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set its align property to 'bottom-start'
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_086', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_086', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_086';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack086');
@@ -639,7 +639,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set its align property to 'bottom'
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_087', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_087', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_087';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack087');
@@ -656,7 +656,7 @@ export default function UIComponentLayoutStack() {
      * @tc.desc    Create a Stack component and set its align property to 'bottom-end'
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_088', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_088', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_088';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/UIComponentLayoutStack/UIComponentLayoutStack088');

@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -68,7 +68,7 @@ export default function UIComponentMediaImageAnimatorMonitorInvisibleArea() {
      * @tc.desc    Set ImageAnimator's monitorInvisibleArea property to false
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0011', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0011', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0011';
       let pageName = 'UIComponentMediaImageAnimatorMonitorInvisibleArea0011';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -94,7 +94,7 @@ export default function UIComponentMediaImageAnimatorMonitorInvisibleArea() {
      * @tc.desc    Set ImageAnimator's monitorInvisibleArea property to true
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0012', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0012', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0012';
       let pageName = 'UIComponentMediaImageAnimatorMonitorInvisibleArea0012';
       Logger.info(`[${TAG}]`, `Case start.`);
