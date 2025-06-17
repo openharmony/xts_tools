@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -68,7 +68,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    List top pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0010';
       let pageName = 'UIComponentScrollPullDown0010';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -97,7 +97,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    List bottom pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0020', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0020';
       let pageName = 'UIComponentScrollPullDown0020';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -128,7 +128,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    List top pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0030', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0030';
       let pageName = 'UIComponentScrollPullDown0030';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -151,7 +151,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    Scroll bottom pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0090', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0090', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0090';
       let pageName = 'UIComponentScrollPullDown0090';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -182,7 +182,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    Scroll top pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0100', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0100';
       let pageName = 'UIComponentScrollPullDown0100';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -205,7 +205,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    Scroll top pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0080', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0080';
       let pageName = 'UIComponentScrollPullDown0080';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -234,7 +234,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    Grid top pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0150', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0150', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0150';
       let pageName = 'UIComponentScrollPullDown0150';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -263,7 +263,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    Grid bottom pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0160', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0160', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0160';
       let pageName = 'UIComponentScrollPullDown0160';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -294,7 +294,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    Grid top pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0170', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0170', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0170';
       let pageName = 'UIComponentScrollPullDown0170';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -317,7 +317,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    WaterFlow top pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0230', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0230', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0230';
       let pageName = 'UIComponentScrollPullDown0230';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -346,7 +346,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    WaterFlow bottom pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0240', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0240', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0240';
       let pageName = 'UIComponentScrollPullDown0240';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -377,7 +377,7 @@ export default function UIComponentScrollPullDown() {
      * @tc.desc    WaterFlow top pull-to-follow effect
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0250', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0250', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0250';
       let pageName = 'UIComponentScrollPullDown0250';
       Logger.info(`[${TAG}]`, `Case start.`);

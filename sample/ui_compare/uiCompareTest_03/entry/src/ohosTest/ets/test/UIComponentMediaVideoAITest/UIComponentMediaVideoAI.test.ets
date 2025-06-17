@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -74,7 +74,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    Set enableAnalyzer(true) for the video component
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0150', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0150', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0150';
       let pageName = 'UIComponentMediaVideoAI015';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -108,7 +108,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    Set enableAnalyzer(false) for the video component
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0160', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0160', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0160';
       let pageName = 'UIComponentMediaVideoAI016';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -142,7 +142,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    Set enableAnalyzer(undefined) for the video component
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0170', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0170', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0170';
       let pageName = 'UIComponentMediaVideoAI017';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -176,7 +176,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    Set enableAnalyzer(null) for the video component
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0180', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0180', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0180';
       let pageName = 'UIComponentMediaVideoAI018';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -210,7 +210,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    Set enableAnalyzer(false) for the video component
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0190', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0190', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0190';
       let pageName = 'UIComponentMediaVideoAI019';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -269,7 +269,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    The video component's ImageAnalyzerConfig only supports the 'text' type
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0200', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0200', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0200';
       let pageName = 'UIComponentMediaVideoAI020';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -303,7 +303,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    The video component's ImageAnalyzerConfig only supports the 'subject' type
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0210', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0210', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0210';
       let pageName = 'UIComponentMediaVideoAI021';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -337,7 +337,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    Manually configured: video component's ImageAnalyzerConfig = 333
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0220', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0220', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0220';
       let pageName = 'UIComponentMediaVideoAI022';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -371,7 +371,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    Manually configured: video component's ImageAnalyzerConfig as undefined
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0230', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0230', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0230';
       let pageName = 'UIComponentMediaVideoAI023';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -405,7 +405,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    Manually configured: video component's ImageAnalyzerConfig as null
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0240', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0240', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0240';
       let pageName = 'UIComponentMediaVideoAI024';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -439,7 +439,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    Manually configured: video component's ImageAnalyzerConfig as null
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0250', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0250', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0250';
       let pageName = 'UIComponentMediaVideoAI025';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -473,7 +473,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    While the video component is paused, drag the progress bar to the middle position. After releasing, play the video and immediately pause it again
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0270', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0270', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0270';
       let pageName = 'UIComponentMediaVideoAI027';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -521,7 +521,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    While the video component is in idle state (not playing), drag the progress bar to the mid-point. After releasing, verify that playback starts automatically and then immediately pauses again
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0280', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0280', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0280';
       let pageName = 'UIComponentMediaVideoAI027';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -558,7 +558,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    Play the video until it stops naturally, with AI recognition not available during playback
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0290', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0290', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0290';
       let pageName = 'UIComponentMediaVideoAI029';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -606,7 +606,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    After pausing the video, dynamically change objectFit to Contain, Cover, Auto, Fill, ScaleDown, and None, then observe the AI recognition results for each mode
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0300', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0300', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0300';
       let pageName = 'UIComponentMediaVideoAI030';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -677,7 +677,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    AI recognition functions normally when the video is paused in full-screen mode
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0310', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0310', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0310';
       let pageName = 'UIComponentMediaVideoAI031';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -714,7 +714,7 @@ export default function UIComponentMediaVideoAI() {
      * @tc.desc    Repeatedly switch between full-screen and windowed modes to verify proper overlay destruction and consistent AI recognition performance
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0320', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0320', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0320';
       let pageName = 'UIComponentMediaVideoAI032';
       Logger.info(`[${TAG}]`, `Case start.`);

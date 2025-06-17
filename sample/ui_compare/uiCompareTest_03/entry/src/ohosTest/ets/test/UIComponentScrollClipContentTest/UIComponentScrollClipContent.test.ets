@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -68,7 +68,7 @@ export default function UIComponentScrollClipContent() {
      * @tc.desc    Switch Scroll_clipContent's ContentClipMode enum values
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0010';
       let pageName = 'UIComponentScrollClipContent0010';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -95,7 +95,7 @@ export default function UIComponentScrollClipContent() {
      * @tc.desc    Set Scroll_safeAreaPadding with valid Padding value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0020', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0020';
       let pageName = 'UIComponentScrollClipContent0020';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -114,7 +114,7 @@ export default function UIComponentScrollClipContent() {
      * @tc.desc    Set Scroll_safeAreaPadding with invalid Padding value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0030', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0030';
       let pageName = 'UIComponentScrollClipContent0030';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -136,7 +136,7 @@ export default function UIComponentScrollClipContent() {
      * @tc.desc    Set Scroll_safeAreaPadding with valid LengthMetrics value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0040', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0040';
       let pageName = 'UIComponentScrollClipContent0040';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -155,7 +155,7 @@ export default function UIComponentScrollClipContent() {
      * @tc.desc    Set Scroll_safeAreaPadding with invalid LengthMetrics value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0050', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0050', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0050';
       let pageName = 'UIComponentScrollClipContent0050';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -189,7 +189,7 @@ export default function UIComponentScrollClipContent() {
      * @tc.desc    Set Scroll_safeAreaPadding with valid LocalizedPadding value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0060', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0060';
       let pageName = 'UIComponentScrollClipContent0060';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -208,7 +208,7 @@ export default function UIComponentScrollClipContent() {
      * @tc.desc    Set Scroll_safeAreaPadding with invalid LocalizedPadding value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0070', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0070';
       let pageName = 'UIComponentScrollClipContent0070';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -230,7 +230,7 @@ export default function UIComponentScrollClipContent() {
      * @tc.desc    Set Scroll_clipContent with valid RectShape value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0080', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0080';
       let pageName = 'UIComponentScrollClipContent0080';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -249,7 +249,7 @@ export default function UIComponentScrollClipContent() {
      * @tc.desc    Set Scroll_clipContent with invalid RectShape value
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0090', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0090', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0090';
       let pageName = 'UIComponentScrollClipContent0090';
       Logger.info(`[${TAG}]`, `Case start.`);

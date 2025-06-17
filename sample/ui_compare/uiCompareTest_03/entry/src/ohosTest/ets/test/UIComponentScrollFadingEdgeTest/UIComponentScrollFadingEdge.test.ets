@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -68,7 +68,7 @@ export default function UIComponentScrollFadingEdge() {
      * @tc.desc    Enable scroll_fadingEdge with true
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0010';
       let pageName = 'UIComponentScrollFadingEdge0010';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -94,7 +94,7 @@ export default function UIComponentScrollFadingEdge() {
      * @tc.desc    Disable scroll_fadingEdge with false
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0020', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0020';
       let pageName = 'UIComponentScrollFadingEdge0020';
       Logger.info(`[${TAG}]`, `Case start.`);
