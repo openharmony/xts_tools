@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager, systemParameterEnhance } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -73,7 +73,7 @@ export default function UIComponentSpecialComponentsEmbeddedComponentFingerClick
      * @tc.desc    Right mouse button click
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_FINGERCLICK_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_FINGERCLICK_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_FINGERCLICK_0010';
       let pageName = 'UIComponentSpecialComponentsEmbeddedComponentFingerClick0010';
       Logger.info(`[${TAG}]`, `Case start.`);

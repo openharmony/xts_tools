@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager, systemParameterEnhance } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -73,7 +73,7 @@ export default function UIComponentSpecialComponentsEmbeddedComponentLoader() {
      * @tc.desc    Update bundleName, abilityName, and parameters to launch different providers
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_LOADER_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_LOADER_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_LOADER_0010';
       let pageName = 'UIComponentSpecialComponentsEmbeddedComponentLoader0010';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -102,7 +102,7 @@ export default function UIComponentSpecialComponentsEmbeddedComponentLoader() {
      * @tc.desc    Update bundleName, abilityName, and parameters to launch different providers
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_LOADER_0020', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_LOADER_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_LOADER_0020';
       let pageName = 'UIComponentSpecialComponentsEmbeddedComponentLoader0020';
       Logger.info(`[${TAG}]`, `Case start.`);

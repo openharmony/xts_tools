@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -67,7 +67,7 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
      * @tc.desc    Set controller and type as SURFACE for XComponent, use getXComponentContext method, and add onload event
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0010';
       let pageName = 'UIComponentSpecialComponentsXComponentOnload0010';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -89,7 +89,7 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
      * @tc.desc    Set controller and type as TEXTURE for XComponent, use getXComponentContext method, and add onload event
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0020', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0020';
       let pageName = 'UIComponentSpecialComponentsXComponentOnload0020';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -111,7 +111,7 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
      * @tc.desc    Configure XComponent with controller and SURFACE type, use setXComponentSurfaceSize and getXComponentSurfaceId methods, and add onload event
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0030', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0030';
       let pageName = 'UIComponentSpecialComponentsXComponentOnload0030';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -139,7 +139,7 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
      * @tc.desc    Configure XComponent with controller and TEXTURE type, use setXComponentSurfaceSize and getXComponentSurfaceId methods, and add onload event
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0040', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0040';
       let pageName = 'UIComponentSpecialComponentsXComponentOnload0040';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -167,7 +167,7 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
      * @tc.desc    Set XComponent with controller and TEXTURE type, use setXComponentSurfaceRotation and getXComponentSurfaceRotation methods, and add onload event
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0060', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0060';
       let pageName = 'UIComponentSpecialComponentsXComponentOnload0060';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -226,7 +226,7 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
      * @tc.desc    Configure XComponent with controller and SURFACE type, use setXComponentSurfaceRect and getXComponentSurfaceRect methods, and add onload event
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0070', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0070';
       let pageName = 'UIComponentSpecialComponentsXComponentOnload0070';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -253,7 +253,7 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
      * @tc.desc    Set width and height for EmbeddedComponent via Size
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0080', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0080';
       let pageName = 'UIComponentSpecialComponentsXComponentOnload0080';
       Logger.info(`[${TAG}]`, `Case start.`);

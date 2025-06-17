@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager, systemParameterEnhance } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -73,7 +73,7 @@ export default function UIComponentSpecialComponentsEmbeddedComponentOnTouch() {
      * @tc.desc    Finger touch
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0010';
       let pageName = 'UIComponentSpecialComponentsEmbeddedComponentOnTouch0010';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -115,7 +115,7 @@ export default function UIComponentSpecialComponentsEmbeddedComponentOnTouch() {
      * @tc.desc    Finger press
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0020', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0020';
       let pageName = 'UIComponentSpecialComponentsEmbeddedComponentOnTouch0020';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -148,7 +148,7 @@ export default function UIComponentSpecialComponentsEmbeddedComponentOnTouch() {
      * @tc.desc    Finger release
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0030', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0030';
       let pageName = 'UIComponentSpecialComponentsEmbeddedComponentOnTouch0030';
       Logger.info(`[${TAG}]`, `Case start.`);

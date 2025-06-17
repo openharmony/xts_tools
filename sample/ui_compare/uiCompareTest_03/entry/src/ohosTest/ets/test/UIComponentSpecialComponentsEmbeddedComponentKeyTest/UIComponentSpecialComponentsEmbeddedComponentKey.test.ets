@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError, commonEventManager, systemParameterEnhance } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import screenLock from '@ohos.screenLock';
@@ -73,7 +73,7 @@ export default function UIComponentSpecialComponentsEmbeddedComponentKey() {
      * @tc.desc    Focus navigation key - End
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0010', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0010';
       let pageName = 'UIComponentSpecialComponentsEmbeddedComponentKey0010';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -106,7 +106,7 @@ export default function UIComponentSpecialComponentsEmbeddedComponentKey() {
      * @tc.desc    Focus navigation key - Tab
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0020', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0020';
       let pageName = 'UIComponentSpecialComponentsEmbeddedComponentKey0020';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -139,7 +139,7 @@ export default function UIComponentSpecialComponentsEmbeddedComponentKey() {
      * @tc.desc    Focus navigation key - Home
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0030', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0030';
       let pageName = 'UIComponentSpecialComponentsEmbeddedComponentKey0030';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -181,7 +181,7 @@ export default function UIComponentSpecialComponentsEmbeddedComponentKey() {
      * @tc.desc    Focus navigation key - Home
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0040', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0040';
       let pageName = 'UIComponentSpecialComponentsEmbeddedComponentKey0040';
       Logger.info(`[${TAG}]`, `Case start.`);
@@ -223,7 +223,7 @@ export default function UIComponentSpecialComponentsEmbeddedComponentKey() {
      * @tc.desc    Focus navigation keys - Up/Down/Left/Right
      * @tc.level   0
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0050', 0, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0050', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0050';
       let pageName = 'UIComponentSpecialComponentsEmbeddedComponentKey0050';
       Logger.info(`[${TAG}]`, `Case start.`);
