@@ -14,7 +14,7 @@
  */
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium';
 import { BusinessError } from '@kit.BasicServicesKit';
 import { KeyCode } from '@kit.InputKit';
 import { Driver, ON ,Component } from '@kit.TestKit';
@@ -64,7 +64,7 @@ export default function TestCase() {
      * @tc.desc    Verify whether the soft keyboard closes after XComponent gains focus (via Tab key) when the keyboard is active by default
      * @tc.level   0
      */
-    it('TestCase_7b95b49b1c6b41b0a17704449c409e0d', 0, async (done: Function) => {
+    it('TestCase_7b95b49b1c6b41b0a17704449c409e0d', Level.LEVEL0, async (done: Function) => {
       TAG = 'TestCase_7b95b49b1c6b41b0a17704449c409e0d';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/TestCase/TestCase001');
@@ -92,7 +92,7 @@ export default function TestCase() {
      * @tc.desc    Verify whether the soft keyboard closes after XComponent gains focus (via clicking) when the keyboard is active by default
      * @tc.level   0
      */
-    it('TestCase_c4b7742b9a304b6faa16642b1d99b837', 0, async (done: Function) => {
+    it('TestCase_c4b7742b9a304b6faa16642b1d99b837', Level.LEVEL0, async (done: Function) => {
       TAG = 'TestCase_c4b7742b9a304b6faa16642b1d99b837';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/TestCase/TestCase002');
