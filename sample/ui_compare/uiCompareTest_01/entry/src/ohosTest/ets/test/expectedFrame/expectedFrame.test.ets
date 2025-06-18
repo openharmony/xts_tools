@@ -20,6 +20,7 @@ import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { displaySync } from '@kit.ArkGraphics2D'
+import { BusinessError } from '@kit.BasicServicesKit'
 
 export default function expectedFrameTest() {
 
@@ -29,7 +30,7 @@ export default function expectedFrameTest() {
         return
       }
 
-      Settings.windowClass.destroyWindow((err) => {
+      Settings.windowClass.destroyWindow((err:BusinessError) => {
         if (err.code) {
           Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
           return;

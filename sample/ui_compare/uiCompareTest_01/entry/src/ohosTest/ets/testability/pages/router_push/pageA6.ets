@@ -17,8 +17,8 @@ import { BusinessError } from '@kit.BasicServicesKit';
 import { Router } from '@kit.ArkUI';
 import Utils from '../../../test/model/Utils';
 
-import ('./PageB6')
-import ('./PageC6')
+import ('./pageB6')
+import ('./pageC6')
 
 @Entry
 @Component
