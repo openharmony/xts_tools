@@ -45,6 +45,6 @@ struct ComponentNavNavigation0541_001 {
             this.pageInfos.pushPath({ name: 'pageOne' }) //将name指定的NavDestination页面信息入栈
           })
       }
-    }.title('NavIndex').navDestination(this.PageMap).backgroundColor(Color.Pink).backgroundBlurStyle(BlurStyle.BACKGROUND_REGULAR)
+    }.title('NavIndex',{backgroundColor:Color.Pink,backgroundBlurStyle:BlurStyle.BACKGROUND_THIN}).navDestination(this.PageMap)
   }
 }
