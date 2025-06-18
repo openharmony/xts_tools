@@ -43,7 +43,6 @@ struct ComponentNavNavigation001 {
 
       }
     }
-    .title({main:'这是主标题这是主标题这是主标题',sub:'这是副标题这是副标题这是副标题'})
-    .titleMode(this.titleMode)
+    .title({main:'这是主标题这是主标题这是主标题',sub:'这是副标题这是副标题这是副标题'},{backgroundColor:Color.Pink}).titleMode(this.titleMode)
   }
 }
