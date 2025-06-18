@@ -353,7 +353,7 @@ class GetInterfaceData(Ci_Manager):
                     self.sum_change_list_path.append(path)
                     for source_path in driver_interface_json_data:
                         # 从 drivers/interface 下第一级目录截取路径在配置文件中查找 bundle_name
-                        if self.get_first_levels_path(path, 3) == source_path.get('path'):
+                        if PathUtils.is_parent_path(source_path.get('path'), path):
                             store.set_already_match_utils(True)
                             self.bundle_name_list += source_path.get('bundle_name')
                             self.match_path_list.append(path)
