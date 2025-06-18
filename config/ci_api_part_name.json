@@ -3703,6 +3703,27 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.selectionInput.SelectionExtensionAbility.d.ts",
+            "bundle_name": [
+                "selectionfwk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.selectionInput.selectionManager.d.ts",
+            "bundle_name": [
+                "selectionfwk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.selectionInput.SelectionPanel.d.ts",
+            "bundle_name": [
+                "selectionfwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.sensor.d.ts",
             "bundle_name": [
                 "sensor"
