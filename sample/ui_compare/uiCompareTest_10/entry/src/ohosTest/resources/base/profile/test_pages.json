@@ -1,0 +1,18 @@
+{
+  "src": [
+    "testability/pages/Index",
+    "testability/pages/ComponentTextSpanInterface/ComponentTextSpanInterface0028",
+    "testability/pages/ComponentTextSpanInterface/ComponentTextSpanInterface0039",
+    "testability/pages/ComponentTextSpanInterface/ComponentTextSpanInterface0042",
+    "testability/pages/ComponentTextSpanInterface/ComponentTextSpanInterface0050",
+    "testability/pages/ComponentTextSpanInterface/ComponentTextSpanInterface0066",
+    "testability/pages/ComponentTextSpanInterface/ComponentTextSpanInterface0052",
+    "testability/pages/ComponentTextSpanInterface/ComponentTextSpanInterface0017",
+    "testability/pages/ComponentTextSpanInterface/ComponentTextSpanInterface0016",
+    "testability/pages/ComponentTextSpanInterface/ComponentTextSpanInterface0075",
+    "testability/pages/ComponentTextSpanInterface/ComponentTextSpanInterface0010",
+    "testability/pages/ComponentTextSpanUI/ComponentTextSpanUI0160",
+    "testability/pages/ComponentTextSpanUI/ComponentTextSpanUI0140",
+    "testability/pages/ComponentTextSpanUI/ComponentTextSpanUI0270"
+  ]
+}
