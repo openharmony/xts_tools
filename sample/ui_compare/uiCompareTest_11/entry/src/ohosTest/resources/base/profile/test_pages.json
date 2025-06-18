@@ -1,0 +1,32 @@
+{
+  "src": [
+    "testability/pages/Index",
+    "testability/pages/ComponentTextHalfLeading/ComponentTextHalfLeading0030",
+    "testability/pages/ComponentTextHalfLeading/ComponentTextHalfLeading0040",
+    "testability/pages/ComponentTextTextUI/ComponentTextTextUI0580",
+    "testability/pages/ComponentTextTextUI/ComponentTextTextUI1960",
+    "testability/pages/ComponentTextTextUI/ComponentTextTextUI1770",
+    "testability/pages/ComponentTextTextUI/ComponentTextTextUI1090",
+    "testability/pages/ComponentTextTextUI/ComponentTextTextUI1000",
+    "testability/pages/ComponentTextTextUI/ComponentTextTextUI1730",
+    "testability/pages/ComponentTextTextUI/ComponentTextTextUI0020",
+    "testability/pages/ComponentTextTextUI/ComponentTextTextUI0590",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface1990",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface0630",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface1350",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface1760",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface0750",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface1030",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface1700",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface1780",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface1280",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface0480",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface0920",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface1000",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface1310",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface1910",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface0070",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface1340",
+    "testability/pages/ComponentTextTextInterface/ComponentTextTextInterface0460"
+  ]
+}
