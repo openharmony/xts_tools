@@ -34,8 +34,7 @@ struct ComponentNavNavigation0541_A {
             this.pageInfos.pushPathByName('pageTwo', null) //将name指定的NavDestination页面信息入栈，传递的数据为param
           })
       }.width('100%').height('100%')
-    }.title('test only blur')
-    .backgroundColor(Color.Red)
+    }.title('test only blur',{backgroundColor:Color.Red})
   }
 }
 
