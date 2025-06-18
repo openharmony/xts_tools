@@ -143,16 +143,16 @@ class Settings {
       // 如果未定义 切成横屏
       // 如果是竖屏 切成横屏
       // 如果是横屏 切成竖屏
-      if (orientation == window.Orientation.UNSPECIFIED) {
+      if(end){
+        orientation = window.Orientation.PORTRAIT
+      } else if (orientation == window.Orientation.UNSPECIFIED) {
         orientation = window.Orientation.LANDSCAPE
       } else if (orientation == window.Orientation.PORTRAIT) {
         orientation = window.Orientation.LANDSCAPE
       } else if (orientation = window.Orientation.LANDSCAPE) {
         orientation = window.Orientation.PORTRAIT
       }
-      if(end){
-        orientation = window.Orientation.PORTRAIT
-      }
+
       // lastWindow.setPreferredOrientation(orientation)
       try {
         let promise = lastWindow.setPreferredOrientation(orientation);

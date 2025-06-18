@@ -29,7 +29,7 @@ struct AnimatorTest06 {
     new SimpleAnimatorOptions(100, 200).duration(1000).easing("ease").delay(0).fill(FillMode.Forwards).direction(PlayMode.Normal).iterations(1),
   ]
   create(index:number) {
-    let options: SimpleAnimatorOptions = this.options[0]
+    let options: SimpleAnimatorOptions = this.options[index]
     this.backAnimator = animator.create(options);
     this.backAnimator.onFinish = () => {
       this.flag = true
