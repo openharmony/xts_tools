@@ -1,0 +1,69 @@
+/**
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+{
+  "app": {
+    "signingConfigs": [
+      //      {
+      //        "name": "default",
+      //        "material": {
+      //          "certpath": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompareTest_01_UK6n8FJJZ7mmxAf2ns2gj6mxlIbE8sL9qOUDO0X3kEI=.cer",
+      //          "keyAlias": "debugKey",
+      //          "keyPassword": "0000001B75FDF6346D29DEEBE0BA009CA506458C8465CF948DE8A6DB4794E11326E342A9D58287FD2A1B34",
+      //          "profile": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompareTest_01_UK6n8FJJZ7mmxAf2ns2gj6mxlIbE8sL9qOUDO0X3kEI=.p7b",
+      //          "signAlg": "SHA256withECDSA",
+      //          "storeFile": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompareTest_01_UK6n8FJJZ7mmxAf2ns2gj6mxlIbE8sL9qOUDO0X3kEI=.p12",
+      //          "storePassword": "0000001B500FC8C3EA3D988220DF5FD8771C71DC784049757E2D22B5DEDEAD0581970F7B359258296EFCB8"
+      //        }
+      //      }
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_01_pCDr0ZFOule0M7-Aa1-Nxfo9GzOwG42uFBJO_Czw5to=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B09FC6C7BA228DE41A89D8062C9BF266A12C333EB747CEA3418AE885791FB7306DF7B055A5CD9DD",
+          "profile": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_01_pCDr0ZFOule0M7-Aa1-Nxfo9GzOwG42uFBJO_Czw5to=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_01_pCDr0ZFOule0M7-Aa1-Nxfo9GzOwG42uFBJO_Czw5to=.p12",
+          "storePassword": "0000001B7746DD0682F0864AF20180F89BE4EE9545D45F9EEA8269FB102FDAC4E655B1D2C39E0FFDE648D2"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        //        "compatibleSdkVersion": "5.0.3(15)",
+        //        "runtimeOS": "HarmonyOS",
+        "compileSdkVersion": 18,
+        "compatibleSdkVersion": 18
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
