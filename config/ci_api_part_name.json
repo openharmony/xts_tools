@@ -8756,6 +8756,13 @@
                 "bluetooth"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.distributedHardware.mechanicManager.d.ts",
+            "bundle_name": [
+                "mechbody_controller"
+            ],
+            "build_targets": []
         }
     ]
 }
