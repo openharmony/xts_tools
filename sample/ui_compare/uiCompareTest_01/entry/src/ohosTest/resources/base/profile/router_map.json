@@ -1,0 +1,20 @@
+{
+  "routerMap": [
+    {
+      "name": "pageOne",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation04.ets",
+      "buildFunction": "PageOneBuilder",
+      "data": {
+        "description": "this is pageOne"
+      }
+    },
+    {
+      "name": "pageTwo",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation04.ets",
+      "buildFunction": "PageOneBuilder",
+      "data": {
+        "description": "this is pageTwo"
+      }
+    }
+  ]
+}

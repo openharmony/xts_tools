@@ -8,7 +8,8 @@
                     "SystemCapability.Startup.SystemInfo",
                     "SystemCapability.Test.UiTest",
                     "SystemCapability.ArkUI.ArkUI.Full",
-                    "SystemCapability.Base"
+                    "SystemCapability.Base",
+                    "SystemCapability.WindowManager.WindowManager.Core"
                 ]
             }
         ]

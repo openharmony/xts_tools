@@ -1407,7 +1407,7 @@ export default function RouterPushTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0480
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0480
-     * @tc.desc   : Verification of router push jump interruption and continuation function (one onclick triggers two pushNamedRoute)
+     * @tc.desc   : Verification of normal combined navigation functionality (back + push) for custom animated router
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1434,7 +1434,7 @@ export default function RouterPushTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780
-     * @tc.desc   : Verification of router push jump interruption and continuation function (one onclick triggers two pushNamedRoute)
+     * @tc.desc   : Perform continuous back operations
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1462,25 +1462,79 @@ export default function RouterPushTest() {
       done()
     })
 
-
     /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780
-     * @tc.desc   : Verification of router push jump interruption and continuation function (one onclick triggers two pushNamedRoute)
+     * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240
+     * @tc.desc   : Validate the effect of interrupted and resumed navigation stack under screen orientation
+     * changes (push + push)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780 start.`);
+    it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240 start.`);
       Settings.createWindow("testability/pages/router_push/pageA")
       let driver: Driver = Driver.create();
-      let buttonInit: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
-      await buttonInit.click();
+      let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
+      await buttonA.click();
+      let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button1'), 1000);
+      await buttonB.click();
+      await Settings.changeWindowOrientation()
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
       await Utils.sleep(800)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780 finish.`);
+      await Settings.changeWindowOrientation('end')
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320
+     * @tc.desc   : Validate the effect of interrupted and resumed navigation stack under screen orientation
+     * changes (push + push)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320 start.`);
+      Settings.createWindow("testability/pages/router_push/pageA2")
+      let driver: Driver = Driver.create();
+      let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
+      await buttonA.click();
+      let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button2_5'), 1000);
+      await buttonB.click();
+      windowSnap.snapShot()
+      await Utils.sleep(800)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130
+     * @tc.desc   : Validate the effect of interrupted and resumed navigation stack under screen orientation
+     * changes (push + push)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130 start.`);
+      Settings.createWindow("testability/pages/router_push/pageA")
+      let driver: Driver = Driver.create();
+      let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
+      await buttonA.click();
+      let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button1'), 1000);
+      await buttonB.click();
+      let buttonC: Component = await driver.waitForComponent(ON.id('PageB_Button1'), 1000);
+      await buttonC.click();
+      let buttonB2: Component = await driver.waitForComponent(ON.id('PageB_Button3'), 1000);
+      await buttonB2.click();
+      windowSnap.snapShot()
+      await Utils.sleep(800)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130 finish.`);
       done()
     })
   })

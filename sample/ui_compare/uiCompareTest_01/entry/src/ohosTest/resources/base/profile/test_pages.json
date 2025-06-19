@@ -86,6 +86,10 @@
 
     "testability/pages/image_span/image01",
     "testability/pages/selectionMenu_symbol/selectionMenu01",
-    "testability/pages/selectionMenu_symbol/selectionMenu02"
+    "testability/pages/selectionMenu_symbol/selectionMenu02",
+    "testability/pages/navigation_interface/navigation01",
+    "testability/pages/navigation_interface/navigation02",
+    "testability/pages/navigation_interface/navigation03",
+    "testability/pages/navigation_interface/navigation04"
   ]
 }

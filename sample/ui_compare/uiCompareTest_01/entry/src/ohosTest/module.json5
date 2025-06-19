@@ -74,6 +74,7 @@
           }
         ]
       }
-    ]
+    ],
+    "routerMap": "$profile:router_map"
   }
 }
