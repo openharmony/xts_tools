@@ -15,6 +15,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/process_internal.pydeps",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/BUILD.gn",
             "bundle_name": [
                 "ability_runtime"
