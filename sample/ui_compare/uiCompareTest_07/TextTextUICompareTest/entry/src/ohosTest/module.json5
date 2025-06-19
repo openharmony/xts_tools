@@ -13,6 +13,8 @@
  * limitations under the License.
  */
 
+
+
 {
   "module": {
     "name": "entry_test",
@@ -53,15 +55,6 @@
       },
       {
         "name": "ohos.permission.INTERNET"
-      },
-      {
-        "name": "ohos.permission.READ_USER_STORAGE"
-      },
-      {
-        "name": "ohos.permission.WRITE_USER_STORAGE"
-      },
-      {
-        "name": "ohos.permission.SET_WALLPAPER"
       }
     ],
     "abilities": [
