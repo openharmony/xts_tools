@@ -18,6 +18,8 @@ import UiComponentMediaTimepickerEnablecascade from './UiComponentMediaTimepicke
 import TextRichEditorShortcutkey from './TextRichEditorShortcutkeyTest/TextRichEditorShortcutkey.test'
 import MediaTextpickerColumnwidths from './MediaTextpickerColumnwidthsTest/MediaTextpickerColumnwidths.test'
 import UiComponentInfomationProgressModifierColor from './UiComponentInfomationProgressModifierColorTest/UiComponentInfomationProgressModifierColor.test'
+import TextRicheditorSearch from './TextRicheditorSearchTest/TextRicheditorSearch.test'
+import TextRicheditorStopBackPress from './TextRicheditorStopBackPressTest/TextRicheditorStopBackPress.test'
 
 export default function testsuite() {
   UIComponentTextRicheditorKeyboardAppearance();
@@ -25,4 +27,6 @@ export default function testsuite() {
   TextRichEditorShortcutkey();
   MediaTextpickerColumnwidths();
   UiComponentInfomationProgressModifierColor();
+  TextRicheditorSearch();
+  TextRicheditorStopBackPress();
 }
