@@ -25,6 +25,12 @@ import UiComponentHalfLeading from './UiComponentHalfLeading/UiComponentHalfLead
 import UiComponentInputFontsTzeScale from  './UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale.test'
 import UiComponentOnWillChange from  './UiComponentOnWillChange/UiComponentOnWillChange.test'
 import UiComponentTextResponseDefault from './UiComponentTextResponseDefault/UiComponentTextResponseDefault.test'
+import ActionEventCommonEventKeyEventDispatch from './ActionEventCommonEventKeyEventDispatch/ActionEventCommonEventKeyEventDispatch.test'
+import ActionEventCommonEventFrameNode from './ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode.test'
+import UiComponentArrowKey from './UiComponentArrowKey/UiComponentArrowKey.test'
+import UiComponentTextInputTwoWayBinding from './UiComponentTextInputTwoWayBinding/UiComponentTextInputTwoWayBinding.test'
+import UiComponentTextShareMenu from './UiComponentTextShareMenu/UiComponentTextShareMenu.test'
+import UiComponentTextTranslateMenu from './UiComponentTextTranslateMenu/UiComponentTextTranslateMenu.test'
 export default function testsuite() {
 
   UiTestCase();
@@ -37,4 +43,10 @@ export default function testsuite() {
   UiComponentInputFontsTzeScale();
   UiComponentOnWillChange();
   UiComponentTextResponseDefault();
+  UiComponentTextTranslateMenu();
+  ActionEventCommonEventKeyEventDispatch();
+  ActionEventCommonEventFrameNode();
+  UiComponentArrowKey();
+  UiComponentTextInputTwoWayBinding();
+  UiComponentTextShareMenu();
 }
