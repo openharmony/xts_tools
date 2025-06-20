@@ -31,6 +31,38 @@
       "data": {
         "description": "this is PageFour"
       }
+    },
+    {
+      "name": "pageFive",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation11.ets",
+      "buildFunction": "PageFiveBuilder",
+      "data": {
+        "description": "this is pageFive"
+      }
+    },
+    {
+      "name": "pageSix",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation15.ets",
+      "buildFunction": "PageSixBuilder",
+      "data": {
+        "description": "this is pageSix"
+      }
+    },
+    {
+      "name": "pageSeven",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation16.ets",
+      "buildFunction": "PageSevenBuilder",
+      "data": {
+        "description": "this is pageSeven"
+      }
+    },
+    {
+      "name": "pageEight",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation17.ets",
+      "buildFunction": "PageEightBuilder",
+      "data": {
+        "description": "this is pageEight"
+      }
     }
   ]
 }

@@ -46,7 +46,7 @@ export default function NavigationInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0290_177
      * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0290_177
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.desc   : When mode is not set in Navigation, it defaults to NavigationMode.Auto
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,14 +65,14 @@ export default function NavigationInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0170_861
      * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0170_861
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.desc   : When hideToolBar is not set in Navigation, it defaults to false (toolbar is visible)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0170_861', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0170_861 start.`);
-      Settings.createWindow("testability/pages/navigation_interface/navigation02")
+      Settings.createWindow("testability/pages/navigation_interface/navigation01")
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot()
@@ -82,9 +82,29 @@ export default function NavigationInterfaceTest() {
     })
 
     /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045
+     * @tc.desc   : Navigation component supports HM Symbol: Pass symbol for title bar/toolbar/back button, with
+     * fontSize set to $r(app.integer.integer_30)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation02")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045 finish.`);
+      done()
+    })
+
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0370
      * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0370
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.desc   : Set minContentWidth for Navigation
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,7 +125,7 @@ export default function NavigationInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496
      * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.desc   : Enable auto-switch between single/dual-pane modes in Navigation, set backButtonIcon with String type
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -175,7 +195,8 @@ export default function NavigationInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024
      * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.desc   : Verify status bar color switching when navigating between two full-screen NavDestinations with
+     * systemBarStyle set
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -202,7 +223,7 @@ export default function NavigationInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405
      * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.desc   : When hideTitleBar is false in NavDestination, the title bar is visible
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,7 +244,7 @@ export default function NavigationInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811
      * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.desc   : When hideBackButton is false in Navigation, the back button is visible
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -242,7 +263,7 @@ export default function NavigationInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227
      * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.desc   : In Stack mode, hide both toolbar and title bar → content area extends to status bar and AI Bar
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -261,7 +282,7 @@ export default function NavigationInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354
      * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.desc   : When hideNavBar is false in Navigation, the navigation bar is visible
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -274,6 +295,182 @@ export default function NavigationInterfaceTest() {
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530
+     * @tc.desc   : Set page title with Resource type → successfully configured
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation10")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299
+     * @tc.desc   : Set title as customBuilder type in NavDestination with font size 30 (without explicit width/height)
+     * → successfully configured
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation11")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226
+     * @tc.desc   : Navigation supports HM Symbol: Simultaneously set icon/symbolIcon for title bar, and
+     * icon/symbolIcon/activeIcon/activeSymbolIcon for toolbar
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation12")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250
+     * @tc.desc   : Set navBarPosition to NavBarPosition.Start in Navigation → successfully configured
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation13")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508
+     * @tc.desc   : When hideNavBar is true in Navigation, the navigation bar is hidden
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation14")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618
+     * @tc.desc   : Set title as NavigationCustomTitle type with height: MainOnly in NavDestination → successfully
+     * configured
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation15")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571
+     * @tc.desc   : Set title as NavigationCommonTitle type in NavDestination → successfully configured
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation16")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771
+     * @tc.desc   : Set title as NavigationCustomTitle type with height: MainWithSub in NavDestination → successfully
+     * configured
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation17")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771
+     * @tc.desc   : Set the title of NavDestination to NavigationCustomTitle type with height configured as
+     * MainWithSub → successfully configured
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation18")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771 finish.`);
       done()
     })
   })

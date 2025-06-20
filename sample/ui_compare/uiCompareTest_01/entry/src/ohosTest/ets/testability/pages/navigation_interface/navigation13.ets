@@ -12,7 +12,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { SymbolGlyphModifier } from '@kit.ArkUI';
 
 class A {
   text: string = '';
@@ -21,23 +20,18 @@ class A {
 
 @Entry
 @Component
-struct Navigation02 {
+struct Navigation13 {
   private arr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
   @State currentIndex: number = 0;
 
   @Builder
   NavigationTitle() {
     Column() {
-      Text('Navigation02'){
-        SymbolSpan($r('sys.symbol.ohos_trash'))
-          .fontWeight(FontWeight.Lighter)
-          .fontSize(24)
-      }
+      Text('Navigation13')
         .fontColor('#182431')
-      .fontSize($r('app.integer.integer_30'))
+        .fontSize(30)
         .lineHeight(41)
         .fontWeight(700)
-
     }.alignItems(HorizontalAlign.Center)
   }
 
@@ -77,49 +71,11 @@ struct Navigation02 {
       }
       .title(this.NavigationTitle)
       .menus(this.NavigationMenus)
-      .titleMode(NavigationTitleMode.Mini)
-      .hideTitleBar(false)
+      .titleMode(NavigationTitleMode.Full)
+      .navBarPosition(NavBarPosition.Start)
       .onTitleModeChange((titleModel: NavigationTitleMode) => {
         console.info('titleMode' + titleModel)
       })
-      .backButtonIcon(new SymbolGlyphModifier($r('sys.symbol.ohos_folder_badge_plus')))
-      .toolbarConfiguration([
-        {
-          value: $r("app.string.navigation_tools"),
-          icon: $r("sys.symbol.ohos_folder_badge_plus"),
-          activeIcon: $r("sys.symbol.ohos_trash"),
-        },
-        {
-          value: $r("app.string.navigation_tools"),
-          icon: $r("sys.symbol.ohos_folder_badge_plus"),
-          activeIcon: $r("sys.symbol.ohos_trash"),
-        },
-        {
-          value: $r("app.string.navigation_tools"),
-          icon: $r("sys.symbol.ohos_folder_badge_plus"),
-          activeIcon: $r("sys.symbol.ohos_trash"),
-        },
-        {
-          value: $r("app.string.navigation_tools"),
-          icon: $r("sys.symbol.ohos_folder_badge_plus"),
-          activeIcon: $r("sys.symbol.ohos_trash"),
-        },
-        {
-          value: $r("app.string.navigation_tools"),
-          icon: $r("sys.symbol.ohos_folder_badge_plus"),
-          activeIcon: $r("sys.symbol.ohos_trash"),
-        },
-        {
-          value: $r("app.string.navigation_tools"),
-          icon: $r("sys.symbol.ohos_folder_badge_plus"),
-          activeIcon: $r("sys.symbol.ohos_trash"),
-        },
-        {
-          value: $r("app.string.navigation_tools"),
-          icon: $r("sys.symbol.ohos_folder_badge_plus"),
-          activeIcon: $r("sys.symbol.ohos_trash"),
-        },
-      ])
     }.width('100%').height('100%').backgroundColor('#F1F3F5')
   }
 }

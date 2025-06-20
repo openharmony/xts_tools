@@ -21,20 +21,38 @@ class A {
 
 @Entry
 @Component
-struct Navigation02 {
+struct Navigation12 {
   private arr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
   @State currentIndex: number = 0;
 
   @Builder
   NavigationTitle() {
     Column() {
-      Text('Navigation02'){
+      Text('Navigation12'){
+        SymbolSpan($r('sys.symbol.ohos_trash'))
+          .fontWeight(FontWeight.Lighter)
+          .fontSize(24)
+        SymbolSpan($r('sys.symbol.ohos_trash'))
+          .fontWeight(FontWeight.Lighter)
+          .fontSize(24)
+        SymbolSpan($r('sys.symbol.ohos_trash'))
+          .fontWeight(FontWeight.Lighter)
+          .fontSize(24)
+        SymbolSpan($r('sys.symbol.ohos_trash'))
+          .fontWeight(FontWeight.Lighter)
+          .fontSize(24)
+        SymbolSpan($r('sys.symbol.ohos_trash'))
+          .fontWeight(FontWeight.Lighter)
+          .fontSize(24)
+        SymbolSpan($r('sys.symbol.ohos_trash'))
+          .fontWeight(FontWeight.Lighter)
+          .fontSize(24)
         SymbolSpan($r('sys.symbol.ohos_trash'))
           .fontWeight(FontWeight.Lighter)
           .fontSize(24)
       }
         .fontColor('#182431')
-      .fontSize($r('app.integer.integer_30'))
+        .fontSize(30)
         .lineHeight(41)
         .fontWeight(700)
 
@@ -87,37 +105,51 @@ struct Navigation02 {
         {
           value: $r("app.string.navigation_tools"),
           icon: $r("sys.symbol.ohos_folder_badge_plus"),
+          symbolIcon:new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
           activeIcon: $r("sys.symbol.ohos_trash"),
+          activeSymbolIcon: new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
         },
         {
           value: $r("app.string.navigation_tools"),
           icon: $r("sys.symbol.ohos_folder_badge_plus"),
+          symbolIcon:new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
           activeIcon: $r("sys.symbol.ohos_trash"),
+          activeSymbolIcon: new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
         },
         {
           value: $r("app.string.navigation_tools"),
           icon: $r("sys.symbol.ohos_folder_badge_plus"),
+          symbolIcon:new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
           activeIcon: $r("sys.symbol.ohos_trash"),
+          activeSymbolIcon: new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
         },
         {
           value: $r("app.string.navigation_tools"),
           icon: $r("sys.symbol.ohos_folder_badge_plus"),
+          symbolIcon:new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
           activeIcon: $r("sys.symbol.ohos_trash"),
+          activeSymbolIcon: new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
         },
         {
           value: $r("app.string.navigation_tools"),
           icon: $r("sys.symbol.ohos_folder_badge_plus"),
+          symbolIcon:new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
           activeIcon: $r("sys.symbol.ohos_trash"),
+          activeSymbolIcon: new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
         },
         {
           value: $r("app.string.navigation_tools"),
           icon: $r("sys.symbol.ohos_folder_badge_plus"),
+          symbolIcon:new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
           activeIcon: $r("sys.symbol.ohos_trash"),
+          activeSymbolIcon: new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
         },
         {
           value: $r("app.string.navigation_tools"),
           icon: $r("sys.symbol.ohos_folder_badge_plus"),
+          symbolIcon:new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
           activeIcon: $r("sys.symbol.ohos_trash"),
+          activeSymbolIcon: new SymbolGlyphModifier($r('sys.symbol.ohos_lungs')),
         },
       ])
     }.width('100%').height('100%').backgroundColor('#F1F3F5')
