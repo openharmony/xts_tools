@@ -90,6 +90,9 @@
     "testability/pages/navigation_interface/navigation01",
     "testability/pages/navigation_interface/navigation02",
     "testability/pages/navigation_interface/navigation03",
-    "testability/pages/navigation_interface/navigation04"
+    "testability/pages/navigation_interface/navigation04",
+    "testability/pages/navigation_interface/navigation05",
+    "testability/pages/navigation_interface/navigation06",
+    "testability/pages/navigation_interface/navigation07"
   ]
 }

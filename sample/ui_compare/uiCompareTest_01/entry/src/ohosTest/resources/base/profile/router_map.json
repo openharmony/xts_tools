@@ -15,6 +15,22 @@
       "data": {
         "description": "this is pageTwo"
       }
+    },
+    {
+      "name": "pageThree",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation05.ets",
+      "buildFunction": "PageThreeBuilder",
+      "data": {
+        "description": "this is PageThree"
+      }
+    },
+    {
+      "name": "pageFour",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation06.ets",
+      "buildFunction": "PageFourBuilder",
+      "data": {
+        "description": "this is PageFour"
+      }
     }
   ]
 }

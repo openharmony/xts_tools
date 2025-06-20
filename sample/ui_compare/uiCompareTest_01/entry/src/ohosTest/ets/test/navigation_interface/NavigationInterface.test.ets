@@ -102,7 +102,6 @@ export default function NavigationInterfaceTest() {
       done()
     })
 
-
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496
      * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496
@@ -170,6 +169,111 @@ export default function NavigationInterfaceTest() {
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024
+     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation05")
+      let driver: Driver = Driver.create();
+      let button1: Component = await driver.waitForComponent(ON.id('nav05PushPageThree'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      let button2: Component = await driver.waitForComponent(ON.id('nav05ChangeSystemBarStyle'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405
+     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation06")
+      let driver: Driver = Driver.create();
+      // let button1: Component = await driver.waitForComponent(ON.id('nav06PushPageFour'), 1000);
+      // await button1.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811
+     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation07")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227
+     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation08")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354
+     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation09")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354 finish.`);
       done()
     })
   })
