@@ -139,6 +139,15 @@
     "testability/pages/ActionEventCommonEventFrameNodeGesture/ActionEventCommonEventFrameNodeGesture017",
     "testability/pages/ActionGestureConfiguration/ActionGestureConfiguration001",
     "testability/pages/ActionGestureConfiguration/ActionGestureConfiguration002",
-    "testability/pages/ActionGestureConfiguration/ActionGestureConfiguration003"
+    "testability/pages/ActionGestureConfiguration/ActionGestureConfiguration003",
+    "testability/pages/StatusManagerV2RepeatFreezeStatusManager/StatusManagerV2RepeatFreezeStatusManager001",
+    "testability/pages/StatusManagerV2LazyForEachBetter/StatusManagerV2LazyForEachBetter001",
+    "testability/pages/StatusManagerV2LazyForEachBetter/StatusManagerV2LazyForEachBetter002",
+    "testability/pages/StatusManagerV2LazyForEachBetter/StatusManagerV2LazyForEachBetter003",
+    "testability/pages/StatusManagerV2LazyForEachBetter/StatusManagerV2LazyForEachBetter004",
+    "testability/pages/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus001",
+    "testability/pages/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus002",
+    "testability/pages/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus003",
+    "testability/pages/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus004"
   ]
 }
