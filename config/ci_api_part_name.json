@@ -8763,6 +8763,13 @@
                 "mechbody_controller"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.MechanicKit.d.ts",
+            "bundle_name": [
+                "mechbody_controller"
+            ],
+            "build_targets": []
         }
     ]
 }
