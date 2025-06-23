@@ -1491,8 +1491,7 @@ export default function RouterPushTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320
-     * @tc.desc   : Validate the effect of interrupted and resumed navigation stack under screen orientation
-     * changes (push + push)
+     * @tc.desc   : Verification of normal combined navigation functionality (push + back) with system animations disabled
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1514,8 +1513,7 @@ export default function RouterPushTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130
-     * @tc.desc   : Validate the effect of interrupted and resumed navigation stack under screen orientation
-     * changes (push + push)
+     * @tc.desc   : Click verification of router back navigation interruption and resumption functionality (via back last page)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1528,10 +1526,8 @@ export default function RouterPushTest() {
       await buttonA.click();
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button1'), 1000);
       await buttonB.click();
-      let buttonC: Component = await driver.waitForComponent(ON.id('PageB_Button1'), 1000);
+      let buttonC: Component = await driver.waitForComponent(ON.id('PageC_Button6'), 1000);
       await buttonC.click();
-      let buttonB2: Component = await driver.waitForComponent(ON.id('PageB_Button3'), 1000);
-      await buttonB2.click();
       windowSnap.snapShot()
       await Utils.sleep(800)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130 finish.`);

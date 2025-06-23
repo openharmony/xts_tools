@@ -15,9 +15,20 @@
 
 @Entry
 @Component
-struct Navigation10 {
+struct Navigation19 {
   private arr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
   @State currentIndex: number = 0;
+
+  @Builder
+  NavigationTitle() {
+    Column() {
+      Text('Navigation19')
+        .fontColor('#182431')
+        .fontSize(30)
+        .lineHeight(41)
+        .fontWeight(700)
+    }.alignItems(HorizontalAlign.Center)
+  }
 
   @Builder
   NavigationMenus() {
@@ -53,10 +64,10 @@ struct Navigation10 {
         .width('100%')
         .margin({ top: 12, left: '10%' })
       }
-      .title($r("app.string.navigation_title"))
+      .title(this.NavigationTitle)
       .menus(this.NavigationMenus)
       .titleMode(NavigationTitleMode.Full)
-      .hideNavBar(false)
+      .navBarWidth('200vp')
       .onTitleModeChange((titleModel: NavigationTitleMode) => {
         console.info('titleMode' + titleModel)
       })

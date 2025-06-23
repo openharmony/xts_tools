@@ -13,11 +13,6 @@
  * limitations under the License.
  */
 
-class A {
-  text: string = '';
-  num: number = 0;
-}
-
 @Entry
 @Component
 struct Navigation09 {
