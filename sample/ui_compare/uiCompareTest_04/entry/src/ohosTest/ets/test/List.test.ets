@@ -30,6 +30,12 @@ import UIComponentAlphabetIndexerAttributeAutocollapse from './UIComponentAlphab
 import UIComponentMediaQualitys from './UIComponentMediaQualitysTest/UIComponentMediaQualitys.test'
 import UIComponentMediaSvgLinkImageColorFilter from './UIComponentMediaSvgLinkImageColorFilterTest/UIComponentMediaSvgLinkImageColorFilter.test'
 import UIComponentScrollScrollAccessible from './UIComponentScrollScrollAccessibleTest/UIComponentScrollAccessible.test'
+import UIComponentListAndGridListFadingEdgeTest from './UIComponentListAndGridListFadingEdgeTest/UIComponentListAndGridListFadingEdge.test';
+import UIComponentListAndGridGridMirrorTest from './UIComponentListAndGridGridMirrorTest/UIComponentListAndGridGridMirror.test';
+import StateRepeatArrayLikeTest from './StateRepeatArrayLikeTest/StateRepeatArrayLike.test';
+import ActionEventCommonEventKeyEventDispatchTest from './ActionEventCommonEventKeyEventDispatchTest/ActionEventCommonEventKeyEventDispatch.test';
+import ActionEventCommonEventFrameNodeGestureTest from './ActionEventCommonEventFrameNodeGestureTest/ActionEventCommonEventFrameNodeGesture.test';
+import ActionGestureConfigurationTest from './ActionGestureConfigurationTest/ActionGestureConfiguration.test';
 
 export default function testsuite() {
   UIComponentScrollScrollBarScrollEdge();
@@ -49,4 +55,10 @@ export default function testsuite() {
   UIComponentMediaQualitys();
   UIComponentMediaSvgLinkImageColorFilter();
   UIComponentScrollScrollAccessible();
+  UIComponentListAndGridListFadingEdgeTest();
+  UIComponentListAndGridGridMirrorTest();
+  StateRepeatArrayLikeTest();
+  ActionEventCommonEventKeyEventDispatchTest();
+  ActionEventCommonEventFrameNodeGestureTest();
+  ActionGestureConfigurationTest();
 }
