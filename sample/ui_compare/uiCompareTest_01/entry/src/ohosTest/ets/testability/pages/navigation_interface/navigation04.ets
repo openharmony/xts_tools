@@ -100,7 +100,7 @@ struct PageOneComponent {
           .height(25)
           .id('nav04ChangeImgJpg')
           .onClick(()=>{
-            this.backImg = 'resources/base/media/icon1.jpg';
+            this.backImg = 'https://images.openharmony.cn/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg';
           })
 
         Button('ChangeImgGif')
@@ -124,7 +124,7 @@ struct PageOneComponent {
           .height(25)
           .id('nav04ChangeImgBmp')
           .onClick(()=>{
-            this.backImg = 'resources/base/media/icon4.bmp';
+            this.backImg = 'https://docimg9.docs.qq.com/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114';
           })
       }
       .size({ width: '100%', height: '100%' })
