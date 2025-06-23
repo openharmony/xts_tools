@@ -541,7 +541,7 @@ export default function NavigationInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_216
      * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_216
-     * @tc.desc   : The title page title parameter of type string was successfully set to an overly long string.
+     * @tc.desc   : The NavigationMode.Split was successfully set for navigation.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
