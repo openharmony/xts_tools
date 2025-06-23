@@ -1,21 +1,24 @@
+/**
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 @Entry
 @Component
-struct NavDestinationCustomTransition {
+struct Navigation04 {
   stack: NavPathStack = new NavPathStack();
   @State mode:NavigationMode = NavigationMode.Stack;
   @State titleMode:NavigationTitleMode = NavigationTitleMode.Free;
-
-  @Builder
-  pageMap(name: string) {
-    if (name) {
-      PageOneComponent();
-      PageTwoComponent();
-    }
-  }
-
-  aboutToAppear(): void {
-    this.stack.pushPath({name: 'pageOne'});
-  }
 
   build() {
     Column(){
@@ -34,7 +37,6 @@ struct NavDestinationCustomTransition {
       .width('100%')
       .height('60%')
       .navDestination(PageOneBuilder)
-      // .hideNavBar(true)
       .title('Main Page')
       .titleMode(NavigationTitleMode.Mini)
 
@@ -100,6 +102,7 @@ struct PageOneComponent {
           .onClick(()=>{
             this.backImg = 'resources/base/media/icon1.jpg';
           })
+
         Button('ChangeImgGif')
           .margin({top:30})
           .height(25)
@@ -107,6 +110,7 @@ struct PageOneComponent {
           .onClick(()=>{
             this.backImg = 'resources/base/media/icon3.gif';
           })
+
         Button('ChangeImgSvg')
           .margin({top:30})
           .height(25)
@@ -114,6 +118,7 @@ struct PageOneComponent {
           .onClick(()=>{
             this.backImg = 'resources/base/media/icon2.svg';
           })
+
         Button('ChangeImgBmp')
           .margin({top:30})
           .height(25)
@@ -124,6 +129,7 @@ struct PageOneComponent {
       }
       .size({ width: '100%', height: '100%' })
     }
+    .backButtonIcon(this.backImg)
     .height('100%')
     .title(this.name)
     .translate({ y: this.y })

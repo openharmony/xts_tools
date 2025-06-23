@@ -152,8 +152,12 @@ class Settings {
       } else if (orientation = window.Orientation.LANDSCAPE) {
         orientation = window.Orientation.PORTRAIT
       }
-
+      // globalThis.orientation = orientation;
+      // Logger.info(`prepare to set window orientation: ${orientation}`)
+      // Logger.info(`prepare to set window orientation: ${globalThis.orientation}`)
       // lastWindow.setPreferredOrientation(orientation)
+      sleep(400)
+      globalThis.orientation = orientation;
       try {
         let promise = lastWindow.setPreferredOrientation(orientation);
         promise.then(() => {

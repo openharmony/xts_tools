@@ -13,6 +13,38 @@
  * limitations under the License.
  */
 
+@Entry
+@Component
+struct Navigation05 {
+  stack: NavPathStack = new NavPathStack();
+  @State mode:NavigationMode = NavigationMode.Stack;
+  @State titleMode:NavigationTitleMode = NavigationTitleMode.Free;
+
+  build() {
+    Column(){
+      Navigation(this.stack) {
+        Stack({ alignContent: Alignment.Center }) {
+          Button('pushPath', { stateEffect: true, type: ButtonType.Capsule })
+            .id('nav05PushPageThree')
+            .width('80%')
+            .height(40)
+            .margin(20)
+            .onClick(() => {
+              this.stack.pushPath({ name: "pageThree" });
+            })
+        }
+      }
+      .width('100%')
+      .height('60%')
+      .navDestination(PageThreeBuilder)
+      .title('Main Page')
+      .titleMode(NavigationTitleMode.Mini)
+    }
+    .width('100%')
+    .height('100%')
+  }
+}
+
 @Builder
 export function PageThreeBuilder(name: string, param: Object) {
   PageThreeComponent();
@@ -20,30 +52,25 @@ export function PageThreeBuilder(name: string, param: Object) {
 
 @Component
 struct PageThreeComponent {
-  private stack: NavPathStack | null = null;
   @State eventStr: string = '';
+  @State name: string = 'pageThree';
+  @State destWidth: string = '100%';
+  stack: NavPathStack = new NavPathStack();
   @State barColor: string = '#FF0000';
+  @State y: string = '0';
 
   build() {
     NavDestination() {
       Column() {
-        Text("event: " + this.eventStr)
+        Text(" pageThree event: " + this.eventStr)
 
-        Button('pushPath', { stateEffect: true, type: ButtonType.Capsule })
+        Button('push next page', { stateEffect: true, type: ButtonType.Capsule })
+          .id('nav05PushPageNine')
           .width('80%')
           .height(40)
           .margin(20)
           .onClick(() => {
-            if (this.stack) {
-              this.stack.pushPath({ name: "pageTwo" });
-            }
-          })
-        Button('pop', { stateEffect: true, type: ButtonType.Capsule })
-          .width('80%')
-          .height(40)
-          .margin(20)
-          .onClick(() => {
-            this.stack?.pop();
+            this.stack.pushPath({ name: "pageOne" });
           })
 
         Button('ChangeSystemBarStyle')
@@ -53,12 +80,11 @@ struct PageThreeComponent {
           .onClick(()=>{
             this.barColor = '#FFFF00';
           })
+
       }
-      .width('100%')
-      .height('100%')
+      .size({ width: '100%', height: '100%' })
     }
     .systemBarStyle({statusBarContentColor:this.barColor})
-    .title('PageThree')
     .onAppear(() => {
       this.eventStr += "<onAppear>";
     })
@@ -83,44 +109,12 @@ struct PageThreeComponent {
     .onWillHide(() => {
       this.eventStr += "<onWillHide>";
     })
-    // onReady会在onAppear之前调用
-    .onReady((ctx: NavDestinationContext) => {
-      try {
-        this.eventStr += "<onReady>";
-        this.stack = ctx.pathStack;
-      } catch (e) {
-        console.log(`testTag onReady catch exception: ${JSON.stringify(e)}`);
-      }
+    .title(this.name)
+    .translate({ y: this.y })
+    .onReady((context) => {
+      this.name = context.pathInfo.name;
+      this.stack = context.pathStack;
     })
   }
 }
 
-@Entry
-@Component
-struct Navigation05 {
-  private stack: NavPathStack = new NavPathStack();
-  @State mode:NavigationMode = NavigationMode.Auto;
-  @State titleMode:NavigationTitleMode = NavigationTitleMode.Full;
-
-  build() {
-    Navigation(this.stack) {
-      Stack({ alignContent: Alignment.Center }) {
-        Button('pushPath', { stateEffect: true, type: ButtonType.Capsule })
-          .id('nav05PushPageThree')
-          .width('80%')
-          .height(40)
-          .margin(20)
-          .onClick(() => {
-            this.stack.pushPath({ name: "PageThree" });
-          })
-      }
-      .width('100%')
-      .height('100%')
-    }
-    .titleMode(this.titleMode)
-    .mode(this.mode)
-    .width('100%')
-    .height('100%')
-    .title('Navigation')
-  }
-}
