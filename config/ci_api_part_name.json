@@ -7879,6 +7879,20 @@
                 "ability_runtime"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.distributedHardware.mechanicManager.d.ts",
+            "bundle_name": [
+                "mechbody_controller"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.MechanicKit.d.ts",
+            "bundle_name": [
+                "mechbody_controller"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c":[
@@ -8754,20 +8768,6 @@
             "path": "interface/sdk-js/api/@ohos.bluetooth.pbap.d.ts",
             "bundle_name": [
                 "bluetooth"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.distributedHardware.mechanicManager.d.ts",
-            "bundle_name": [
-                "mechbody_controller"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/kits/@kit.MechanicKit.d.ts",
-            "bundle_name": [
-                "mechbody_controller"
             ],
             "build_targets": []
         }
