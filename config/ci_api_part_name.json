@@ -3402,6 +3402,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.multimodalAwareness.roomLocation.d.ts",
+            "bundle_name": [
+                "spatial_awareness"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundle.appControl.d.ts",
             "bundle_name": [
                 "bundle_framework"
