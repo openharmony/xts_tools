@@ -418,6 +418,17 @@ template("ohos_js_app_suite") {
 }
 
 # arkts 1.2 hap entrance
+template("ohos_js_app_assist_static_suite") {
+  target("ohos_testsuite_base_with_filter", target_name) {
+    forward_variables_from(invoker, "*")
+    project_type = "testappassist"
+    suite_type = "hap_static"
+    hvigor_home = "//prebuilts/command-line-tools/hvigor"
+    nodejs_path =
+        "//prebuilts/build-tools/common/nodejs/node-v18.20.1-linux-x64/bin/node"
+  }
+}
+
 template("ohos_js_app_static_suite") {
   target("ohos_testsuite_base_with_filter", "${target_name}") {
     forward_variables_from(invoker, "*")
