@@ -3549,6 +3549,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.multimodalAwareness.userStatus.d.ts",
+            "bundle_name": [
+                "device_status"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundle.appControl.d.ts",
             "bundle_name": [
                 "bundle_framework"
