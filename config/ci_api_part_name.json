@@ -7853,6 +7853,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.distributedsched.proxyChannelManager.d.ts",
+            "bundle_name": [
+                "proxyChannelManager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/StepperModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
