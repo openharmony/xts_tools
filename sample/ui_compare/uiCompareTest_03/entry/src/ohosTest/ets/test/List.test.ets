@@ -60,10 +60,15 @@ import UIComponentSpecialComponentsEmbeddedComponent
   from './UIComponentSpecialComponentsEmbeddedComponentTest/UIComponentSpecialComponentsEmbeddedComponent.test';
 import UIComponentSpecialComponentsEmbeddedComponentWidthAndHeight
   from './UIComponentSpecialComponentsEmbeddedComponentWidthAndHeightTest/UIComponentSpecialComponentsEmbeddedComponentWidthAndHeight.test';
+import UIComponentSpecialComponentsUIContextAddMenuFocus
+  from './UIComponentSpecialComponentsUIContextAddMenuFocusTest/UIComponentSpecialComponentsUIContextAddMenuFocus.test';
+import UIComponentSpecialComponentsUIContextComponentSnapshot
+  from './UIComponentSpecialComponentsUIContextComponentSnapshotTest/UIComponentSpecialComponentsUIContextComponentSnapshot.test';
 import UIComponentSpecialComponentsXComponentOnload
   from './UIComponentSpecialComponentsXComponentOnloadTest/UIComponentSpecialComponentsXComponentOnload.test';
 import UIComponentSymbolGlyphFontSizeScale
   from './UIComponentSymbolGlyphFontSizeScaleTest/UIComponentSymbolGlyphFontSizeScale.test';
+import UIComponentTextChipInterface from './UIComponentTextChipInterfaceTest/UIComponentTextChipInterface.test';
 import UIComponentTextRichEditorAction
   from './UIComponentTextRichEditorActionTest/UIComponentTextRichEditorAction.test';
 import UIComponentTextRichEditorInterface
@@ -115,4 +120,7 @@ export default function testsuite() {
   UIComponentScrollPullDown();
   UIComponentWaterFlowMirror();
   UIComponentWaterFlowSections();
+  UIComponentSpecialComponentsUIContextComponentSnapshot();
+  UIComponentSpecialComponentsUIContextAddMenuFocus();
+  UIComponentTextChipInterface();
 }
