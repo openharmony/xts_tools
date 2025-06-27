@@ -31,6 +31,13 @@ import UiComponentArrowKey from './UiComponentArrowKey/UiComponentArrowKey.test'
 import UiComponentTextInputTwoWayBinding from './UiComponentTextInputTwoWayBinding/UiComponentTextInputTwoWayBinding.test'
 import UiComponentTextShareMenu from './UiComponentTextShareMenu/UiComponentTextShareMenu.test'
 import UiComponentTextTranslateMenu from './UiComponentTextTranslateMenu/UiComponentTextTranslateMenu.test'
+import UiComponentTextWithTheme from  './UiComponentTextWithTheme/UiComponentTextWithTheme.test'
+import UiComponentWordBreakHyphenation from './UiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation.test'
+import UiComponentThemeFontFamily from './UiComponentThemeFontFamily/UiComponentThemeFontFamily.test'
+import UiComponentWordTextHalfLeading from './UiComponentWordTextHalfLeading/UiComponentWordTextHalfLeading.test'
+import UiComponentTextareaBarState from './UiComponentTextareaBarState/UiComponentTextareaBarState.test'
+import UiAttributesUseEffectEffectType from './UiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType.test'
+import UiImportComponentContent from './UiImportComponentContent/UiImportComponentContent.test'
 export default function testsuite() {
 
   UiTestCase();
@@ -49,4 +56,11 @@ export default function testsuite() {
   UiComponentArrowKey();
   UiComponentTextInputTwoWayBinding();
   UiComponentTextShareMenu();
+  UiComponentTextWithTheme();
+  UiComponentWordBreakHyphenation();
+  UiComponentThemeFontFamily();
+  UiComponentWordTextHalfLeading();
+  UiComponentTextareaBarState();
+  UiAttributesUseEffectEffectType();
+  UiImportComponentContent();
 }
