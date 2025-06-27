@@ -50,6 +50,7 @@ import StatusManagerV2LazyForEachBetterTest from './StatusManagerV2LazyForEachBe
 import UIComponentListAndGridListFocusTest from './UIComponentListAndGridListFocusTest/UIComponentListAndGridListFocus.test';
 import UIComponentListAndGridListInitialIndexTest from './UIComponentListAndGridListInitialIndexTest/UIComponentListAndGridListInitialIndex.test';
 import StatusManagerV2RepeatFreezeStatusManagerTest from './StatusManagerV2RepeatFreezeStatusManagerTest/StatusManagerV2RepeatFreezeStatusManager.test';
+import UIComponentGridSettingLayoutTest from './UIComponentGridSettingLayoutTest/UIComponentGridSettingLayout.test';
 
 export default function testsuite() {
   UIComponentScrollScrollBarScrollEdge();
@@ -89,4 +90,5 @@ export default function testsuite() {
   UIComponentListAndGridListFocusTest();
   UIComponentListAndGridListInitialIndexTest();
   StatusManagerV2RepeatFreezeStatusManagerTest();
+  UIComponentGridSettingLayoutTest();
 }
