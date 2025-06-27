@@ -15,8 +15,26 @@
 
 import UIComponentTextRicheditorKeyboardAppearance from './UIComponentTextRicheditorKeyboardAppearanceTest/UIComponentTextRicheditorKeyboardAppearance.test';
 import UiComponentMediaTimepickerEnablecascade from './UiComponentMediaTimepickerEnablecascadeTest/UiComponentMediaTimepickerEnablecascade.test'
+import TextRichEditorShortcutkey from './TextRichEditorShortcutkeyTest/TextRichEditorShortcutkey.test'
+import MediaTextpickerColumnwidths from './MediaTextpickerColumnwidthsTest/MediaTextpickerColumnwidths.test'
+import UiComponentInfomationProgressModifierColor from './UiComponentInfomationProgressModifierColorTest/UiComponentInfomationProgressModifierColor.test'
+import TextRicheditorSearch from './TextRicheditorSearchTest/TextRicheditorSearch.test'
+import TextRicheditorStopBackPress from './TextRicheditorStopBackPressTest/TextRicheditorStopBackPress.test'
+import CounterMirrorImage from './CounterMirrorImageTest/CounterMirrorImage.test'
+import MediaBadgeLargeFont from './MediaBadgeLargeFontTest/MediaBadgeLargeFont.test'
+import UiArkuiTexttimer from './UiArkuiTexttimerTest/UiArkuiTexttimer.test'
+import MediaTextpickerDisabletsa from './MediaTextpickerDisabletsaTest/MediaTextpickerDisabletsa.test'
 
 export default function testsuite() {
   UIComponentTextRicheditorKeyboardAppearance();
   UiComponentMediaTimepickerEnablecascade();
+  TextRichEditorShortcutkey();
+  MediaTextpickerColumnwidths();
+  UiComponentInfomationProgressModifierColor();
+  TextRicheditorSearch();
+  TextRicheditorStopBackPress();
+  CounterMirrorImage();
+  MediaBadgeLargeFont();
+  UiArkuiTexttimer();
+  MediaTextpickerDisabletsa();
 }

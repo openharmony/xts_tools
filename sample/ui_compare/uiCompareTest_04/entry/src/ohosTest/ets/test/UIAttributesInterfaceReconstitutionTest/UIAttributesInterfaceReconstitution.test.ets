@@ -569,5 +569,494 @@ export default function UIAttributesInterfaceReconstitutionTest() {
       Logger.info('TEST', `${caseName} finish.`);
       done();
     });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0630
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0630
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0630', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0630';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution029");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      let button: Component = await driver.waitForComponent(ON.id('setting'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0640
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0640
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0640', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0640';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution030");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      let button: Component = await driver.waitForComponent(ON.id('setting'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0620
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0620
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0620', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0620';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution031");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      let button: Component = await driver.waitForComponent(ON.id('setting'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0170
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0170
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0170', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0170';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution032");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      let button: Component = await driver.waitForComponent(ON.id('setting'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0190
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0190
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0190', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0190';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution033");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      let button: Component = await driver.waitForComponent(ON.id('setting'), 2000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0180
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0180
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0180', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0180';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution034");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      let button: Component = await driver.waitForComponent(ON.id('setting'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0210
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0210
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0210', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0210';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution035");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      let button: Component = await driver.waitForComponent(ON.id('setting'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0200
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0200
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0200', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0200';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution036");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      let button: Component = await driver.waitForComponent(ON.id('setting'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0220
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0220
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0220', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0220';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution037");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button: Component = await driver.waitForComponent(ON.id('setting'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0230
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0230
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0230', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0230';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution038");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0240
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0240
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0240', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0240';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution039");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0250
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0250
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0250', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0250';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution040");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0260
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0260
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0260', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0260';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution041");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0270
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0270
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0270', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0270';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution042");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0280
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0280
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0280', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0280';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution043");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0290
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0290
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0290', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0290';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution044");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0300
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0300
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0300', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0300';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution045");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0310
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0310
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0310', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0310';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution046");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0320
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0320
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0320', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0320';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution047");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0330
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0330
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0330', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0330';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution048");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0340
+     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0340
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0340', Level.LEVEL0, async (done: Function) => {
+      let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0340';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution049");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button1: Component = await driver.waitForComponent(ON.id('normal'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
+      await button2.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
   })
 }

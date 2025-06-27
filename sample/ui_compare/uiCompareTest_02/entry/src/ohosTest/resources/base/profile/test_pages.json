@@ -153,7 +153,27 @@
     "testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale12",
     "testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault01",
     "testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault02",
-    "testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault03"
+    "testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault03",
+    "testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode01",
+    "testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode02",
+    "testability/pages/ActionEventCommonEventKeyEventDispatch/ActionEventCommonEventKeyEventDispatch01",
+    "testability/pages/ActionEventCommonEventKeyEventDispatch/ActionEventCommonEventKeyEventDispatch02",
+    "testability/pages/ActionEventCommonEventKeyEventDispatch/ActionEventCommonEventKeyEventDispatch03",
+    "testability/pages/ActionEventCommonEventKeyEventDispatch/ActionEventCommonEventKeyEventDispatch04",
+    "testability/pages/UiComponentArrowKey/UiComponentArrowKey01",
+    "testability/pages/UiComponentArrowKey/UiComponentArrowKey02",
+    "testability/pages/UiComponentArrowKey/UiComponentArrowKey03",
+    "testability/pages/UiComponentArrowKey/UiComponentArrowKey04",
+    "testability/pages/UiComponentArrowKey/UiComponentArrowKey05",
+    "testability/pages/UiComponentArrowKey/UiComponentArrowKey06",
+    "testability/pages/UiComponentArrowKey/UiComponentArrowKey07",
+    "testability/pages/UiComponentTextInputTwoWayBinding/UiComponentTextInputTwoWayBinding01",
+    "testability/pages/UiComponentTextInputTwoWayBinding/UiComponentTextInputTwoWayBinding02",
+    "testability/pages/UiComponentTextShareMenu/UiComponentTextShareMenu01",
+    "testability/pages/UiComponentTextShareMenu/UiComponentTextShareMenu02",
+    "testability/pages/UiComponentTextTranslateMenu/UiComponentTextTranslateMenu01",
+    "testability/pages/UiComponentTextTranslateMenu/UiComponentTextTranslateMenu02",
+    "testability/pages/UiComponentTextTranslateMenu/UiComponentTextTranslateMenu03"
 
   ]
 }
