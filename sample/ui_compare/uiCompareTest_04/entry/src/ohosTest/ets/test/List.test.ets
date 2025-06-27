@@ -97,10 +97,10 @@ export default function testsuite() {
   UIComponentArcListInitialIndexTest();
   UIComponentArcListAutoScaleTest();
   StatusManagerV2WithThemeTest();
-  UIComponentArcListFlingSpeedLimitTest();
   UIComponentSnapShotComponentContentTest();
   StatusManagerV2LazyForEachBetterTest();
   UIComponentListAndGridListFocusTest();
   UIComponentListAndGridListInitialIndexTest();
   StatusManagerV2RepeatFreezeStatusManagerTest();
+  UIComponentArcListFlingSpeedLimitTest();
 }
