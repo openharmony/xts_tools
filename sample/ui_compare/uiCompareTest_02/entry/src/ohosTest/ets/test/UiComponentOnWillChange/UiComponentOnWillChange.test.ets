@@ -331,5 +331,29 @@ export default function UiComponentOnWillChange() {
       done();
     })
 
+    /*
+      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210
+      * @tc.name    Empty text deletion
+      * @tc.desc    Function test
+      * @tc.size    MediumTest
+      * @tc.type    Function
+      * @tc.level   0
+      */
+    it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210 start.`);
+      Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange13");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange13'),1000);
+      await textarea.click();
+      await driver.triggerKey(2071);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210 finish.`);
+      done();
+    })
+
+
   })
 }

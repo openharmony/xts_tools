@@ -236,5 +236,82 @@ export default function UiComponentBlankLineSelected() {
       done();
     })
 
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370
+       * @tc.name    Text/TextArea/TextInput inline mode, set the space carriage return
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370 start.`);
+      Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected09");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected09_area'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected09_input'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected09_text'),1000);
+      await button03.longClick();
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      await button01.click();
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      await button02.click();
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400
+       * @tc.name    Text/TextArea/TextInput inline mode, set the space carriage return
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400 start.`);
+      Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected10");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      await driver.mouseDrag({x:100, y:170},{x:300, y:250}, 600);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      await driver.mouseDrag({x:100, y:400},{x:300, y:500}, 600);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      await driver.mouseDrag({x:100, y:570},{x:300, y:650}, 600);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0180
+       * @tc.name    Text component, set the baselineoffset to the property string
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0180', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0180 start.`);
+      Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected11");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0180 finish.`);
+      done();
+    })
+
   })
 }
