@@ -24,6 +24,10 @@ import CounterMirrorImage from './CounterMirrorImageTest/CounterMirrorImage.test
 import MediaBadgeLargeFont from './MediaBadgeLargeFontTest/MediaBadgeLargeFont.test'
 import UiArkuiTexttimer from './UiArkuiTexttimerTest/UiArkuiTexttimer.test'
 import MediaTextpickerDisabletsa from './MediaTextpickerDisabletsaTest/MediaTextpickerDisabletsa.test'
+import MediaFramenode from './MediaFramenodeTest/MediaFramenode.test'
+import ProgressLinear from './ProgressLinearTest/ProgressLinear.test'
+import SymbolglyphFontstzescale from './SymbolglyphFontstzescaleTest/SymbolglyphFontstzescale.test'
+import TextRichtexteditorMenuReinforcing from './TextRichtexteditorMenuReinforcingTest/TextRichtexteditorMenuReinforcing.test'
 
 export default function testsuite() {
   UIComponentTextRicheditorKeyboardAppearance();
@@ -37,4 +41,8 @@ export default function testsuite() {
   MediaBadgeLargeFont();
   UiArkuiTexttimer();
   MediaTextpickerDisabletsa();
+  MediaFramenode();
+  ProgressLinear();
+  SymbolglyphFontstzescale();
+  TextRichtexteditorMenuReinforcing();
 }

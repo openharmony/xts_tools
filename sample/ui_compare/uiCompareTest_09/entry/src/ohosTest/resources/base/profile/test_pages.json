@@ -33,6 +33,15 @@
     "testability/pages/UiArkuiTexttimer/UiArkuiTexttimer30",
     "testability/pages/MediaTextpickerDisabletsa/MediaTextpickerDisabletsa",
     "testability/pages/MediaTextpickerDisabletsa/MediaTextpickerOnenterselectedareaMtbf01",
-    "testability/pages/MediaTextpickerDisabletsa/MediaTextpickerOnenterselectedareaMtbf02"
+    "testability/pages/MediaTextpickerDisabletsa/MediaTextpickerOnenterselectedareaMtbf02",
+    "testability/pages/MediaFramenode/MediaFramenode21",
+    "testability/pages/MediaFramenode/MediaFramenode10",
+    "testability/pages/MediaFramenode/MediaFramenode23",
+    "testability/pages/MediaFramenode/MediaFramenode25",
+    "testability/pages/MediaFramenode/MediaFramenode18",
+    "testability/pages/ProgressLinear/ProgressLinear01",
+    "testability/pages/ProgressLinear/ProgressLinear03",
+    "testability/pages/SymbolglyphFontstzescale/SymbolglyphFontstzescale",
+    "testability/pages/TextRichtexteditorMenuReinforcing/TextRichtexteditorMenuReinforcing"
   ]
 }
