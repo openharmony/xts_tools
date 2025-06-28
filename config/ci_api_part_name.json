@@ -3360,6 +3360,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.window.floatingBall.d.ts",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.screenshot.d.ts",
             "bundle_name": [
                 "window_manager"
