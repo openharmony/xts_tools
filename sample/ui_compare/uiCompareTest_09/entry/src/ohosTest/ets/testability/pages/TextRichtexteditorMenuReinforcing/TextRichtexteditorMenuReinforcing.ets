@@ -187,7 +187,7 @@ struct SelectionMenu {
           fontSize: 16,
           fontColor: Color.Black,
           fontWeight: FontWeight.Normal,
-          fontFamily: "HarmonyOS Sans",
+          fontFamily: "Noto Sans",
           fontStyle: FontStyle.Normal,
           decoration: { type: TextDecorationType.None, color: "#FF000000", style: TextDecorationStyle.SOLID }
         }

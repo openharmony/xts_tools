@@ -28,6 +28,7 @@ import MediaFramenode from './MediaFramenodeTest/MediaFramenode.test'
 import ProgressLinear from './ProgressLinearTest/ProgressLinear.test'
 import SymbolglyphFontstzescale from './SymbolglyphFontstzescaleTest/SymbolglyphFontstzescale.test'
 import TextRichtexteditorMenuReinforcing from './TextRichtexteditorMenuReinforcingTest/TextRichtexteditorMenuReinforcing.test'
+import SpecialcomponentsUicontext from './SpecialcomponentsUicontextTest/SpecialcomponentsUicontext.test'
 
 export default function testsuite() {
   UIComponentTextRicheditorKeyboardAppearance();
@@ -45,4 +46,5 @@ export default function testsuite() {
   ProgressLinear();
   SymbolglyphFontstzescale();
   TextRichtexteditorMenuReinforcing();
+  SpecialcomponentsUicontext();
 }

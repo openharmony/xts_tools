@@ -28,6 +28,8 @@
     "testability/pages/TextRicheditorSearch/TextRicheditorSearch01",
     "testability/pages/TextRicheditorStopBackPress/TextRicheditorStopBackPress03",
     "testability/pages/CounterMirrorImage/CounterMirrorImage30",
+    "testability/pages/CounterMirrorImage/CounterMirrorImage10",
+    "testability/pages/CounterMirrorImage/CounterMirrorImage50",
     "testability/pages/MediaBadgeLargeFont/MediaBadgeLargeFont36",
     "testability/pages/UiArkuiTexttimer/UiArkuiTexttimer20",
     "testability/pages/UiArkuiTexttimer/UiArkuiTexttimer30",
@@ -42,6 +44,9 @@
     "testability/pages/ProgressLinear/ProgressLinear01",
     "testability/pages/ProgressLinear/ProgressLinear03",
     "testability/pages/SymbolglyphFontstzescale/SymbolglyphFontstzescale",
-    "testability/pages/TextRichtexteditorMenuReinforcing/TextRichtexteditorMenuReinforcing"
+    "testability/pages/TextRichtexteditorMenuReinforcing/TextRichtexteditorMenuReinforcing",
+    "testability/pages/SpecialcomponentsUicontext/SpecialcomponentsUicontext50",
+    "testability/pages/SpecialcomponentsUicontext/SpecialcomponentsUicontext290",
+    "testability/pages/SpecialcomponentsUicontext/SpecialcomponentsUicontext420"
   ]
 }
