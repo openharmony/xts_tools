@@ -1,6 +1,13 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/ CODEOWNERS",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/remove_list.json",
             "bundle_name": [
                 "ability_runtime"
