@@ -2933,6 +2933,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.net.eap.d.ts",
+            "bundle_name": [
+                "netmanager_ext"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.request.d.ts",
             "bundle_name": [
                 "request"
