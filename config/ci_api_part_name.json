@@ -3738,6 +3738,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.selectionInput.SelectionExtensionContext.d.ts",
+            "bundle_name": [
+                "selectionfwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.selectionInput.selectionManager.d.ts",
             "bundle_name": [
                 "selectionfwk"
