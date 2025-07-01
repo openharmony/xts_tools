@@ -12,6 +12,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+
 @Entry
 @Component
 struct ComponentNavNavigationBack0294_A {
@@ -34,7 +36,7 @@ struct ComponentNavNavigationBack0294_A {
           .margin(20)
           .id('ComponentNavNavigationBack0294_A2')
           .onClick(() => {
-            this.backButtonIcon = $r('app.media.test4')
+            this.backButtonIcon = 'https://docimg9.docs.qq.com/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114'
           })
       }.width('100%').height('100%')
     }.title('pageOne')

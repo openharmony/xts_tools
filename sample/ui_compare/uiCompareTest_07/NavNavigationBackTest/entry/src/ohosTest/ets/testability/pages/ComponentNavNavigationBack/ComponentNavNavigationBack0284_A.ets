@@ -52,7 +52,7 @@ struct ComponentNavNavigationBack0284_A {
 
   async loadGifIcon() {
     try {
-      const filePath = '$rawfile/media/test4.bmp';
+      const filePath = 'https://docimg9.docs.qq.com/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114';
       fileio.opendir(filePath); // 打开文件
       const color = new ArrayBuffer(96); // 96 为需要创建的像素 buffer 大小
       // 创建 PixelMap

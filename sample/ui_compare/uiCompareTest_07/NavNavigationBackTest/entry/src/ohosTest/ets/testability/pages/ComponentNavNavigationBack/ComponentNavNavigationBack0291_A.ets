@@ -34,7 +34,7 @@ struct ComponentNavNavigationBack0291_A {
           .margin(20)
           .id('ComponentNavNavigationBack0291_A2')
           .onClick(() => {
-            this.backButtonIcon = $r('app.media.test1')
+            this.backButtonIcon = 'https://images.openharmony.cn/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg'
           })
       }.width('100%').height('100%')
     }.title('pageOne')
