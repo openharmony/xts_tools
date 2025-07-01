@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -62,9 +62,9 @@ export default function UiAttributesUseEffectEffectType() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   3
        */
-    it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0010 start.`);
       Settings.createWindow("testability/pages/UiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType01")
       let driver:Driver=Driver.create();
@@ -84,9 +84,9 @@ export default function UiAttributesUseEffectEffectType() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   3
        */
-    it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050 start.`);
       Settings.createWindow("testability/pages/UiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType02")
       let driver:Driver=Driver.create();
@@ -106,9 +106,9 @@ export default function UiAttributesUseEffectEffectType() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   3
        */
-    it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020 start.`);
       Settings.createWindow("testability/pages/UiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType03")
       let driver:Driver=Driver.create();
@@ -128,9 +128,9 @@ export default function UiAttributesUseEffectEffectType() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   3
        */
-    it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060 start.`);
       Settings.createWindow("testability/pages/UiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType04")
       let driver:Driver=Driver.create();
