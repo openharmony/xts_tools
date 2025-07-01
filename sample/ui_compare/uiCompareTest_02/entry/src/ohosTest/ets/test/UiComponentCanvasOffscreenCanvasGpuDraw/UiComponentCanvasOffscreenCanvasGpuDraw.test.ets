@@ -60,7 +60,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1960', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1960 start.`);
@@ -79,7 +79,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1740', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1740 start.`);
@@ -98,7 +98,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1130 start.`);
@@ -117,7 +117,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1290', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1290 start.`);
@@ -136,7 +136,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2630', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2630 start.`);
@@ -155,7 +155,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0270', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0270 start.`);
@@ -174,7 +174,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1770', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1770 start.`);
@@ -193,7 +193,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0280', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0280 start.`);
@@ -212,7 +212,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2660', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2660 start.`);
@@ -231,7 +231,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1150 start.`);
@@ -250,7 +250,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3000', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3000 start.`);
@@ -269,7 +269,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2720', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2720 start.`);
@@ -288,7 +288,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2390 start.`);
@@ -307,7 +307,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2020 start.`);
@@ -326,7 +326,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1870', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1870 start.`);
@@ -345,7 +345,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2080 start.`);
@@ -364,7 +364,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1810', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1810 start.`);
@@ -383,7 +383,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2100 start.`);
@@ -402,7 +402,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3070 start.`);
@@ -421,7 +421,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3060 start.`);
@@ -440,7 +440,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2040 start.`);
@@ -459,7 +459,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0130 start.`);
@@ -478,7 +478,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2890', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2890 start.`);
@@ -497,7 +497,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2840', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2840 start.`);
@@ -516,7 +516,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2880', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2880 start.`);
@@ -535,7 +535,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2810', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2810 start.`);
@@ -554,7 +554,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2830', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2830 start.`);
@@ -573,7 +573,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2850', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2850 start.`);
@@ -592,7 +592,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2800', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2800 start.`);
@@ -611,7 +611,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2910', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2910 start.`);
@@ -630,7 +630,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2820', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2820 start.`);
@@ -649,7 +649,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
       it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2870', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2870 start.`);
@@ -668,7 +668,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2900', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2900 start.`);
@@ -687,7 +687,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2860', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2860 start.`);
@@ -706,7 +706,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2920', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2920 start.`);
@@ -725,7 +725,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0970', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0970 start.`);
@@ -744,7 +744,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0960', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0960 start.`);
@@ -763,7 +763,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0940', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0940 start.`);
@@ -782,7 +782,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0950', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0950 start.`);
@@ -801,7 +801,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0980', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0980 start.`);
@@ -820,7 +820,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2070 start.`);
@@ -839,7 +839,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2090 start.`);
@@ -858,7 +858,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2060 start.`);
@@ -877,7 +877,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2200', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2200 start.`);
@@ -896,7 +896,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2730', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2730 start.`);
@@ -915,7 +915,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1280', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1280 start.`);
@@ -934,7 +934,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2400', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2400 start.`);
@@ -953,7 +953,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2440 start.`);
@@ -972,7 +972,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2470', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2470 start.`);
@@ -991,7 +991,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
-       * @tc.level   0
+       * @tc.level   2
        */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2460', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2460 start.`);
