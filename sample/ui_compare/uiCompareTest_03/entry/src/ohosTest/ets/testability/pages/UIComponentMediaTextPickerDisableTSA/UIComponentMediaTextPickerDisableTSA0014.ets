@@ -40,7 +40,6 @@ struct UIComponentMediaTextPickerDisableTSA0014 {
           font: {
             size: 38,
             weight: 700,
-            family: 'HarmonyOS Sans',
             style: FontStyle.Italic
           },
           minFontSize: 18,

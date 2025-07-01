@@ -61,7 +61,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
         Text('===原生调用===')
 
         Text('png图片:')
-        Image("/images/image.png")
+        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.png")
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -69,7 +69,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('jpg图片:')
-        Image("/images/image.jpg")
+        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.jpg")
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -77,7 +77,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('jpeg图片:')
-        Image("/images/image.jpeg")
+        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.jpeg")
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -85,7 +85,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('webp图片:')
-        Image("/images/image.webp")
+        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.webp")
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -93,7 +93,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('gif图片:')
-        Image("/images/image.gif")
+        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.gif")
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -101,7 +101,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('bmp图片:')
-        Image('/images/image.bmp')
+        Image('https://gitee.com/drthrhr/test-resources/raw/testResources/image.bmp')
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -109,7 +109,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('heif图片:')
-        Image('/images/image.heif')
+        Image('https://gitee.com/drthrhr/test-resources/raw/testResources/image.heif')
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -800,7 +800,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
         Text('===Modifier调用===')
 
         Text('png图片:')
-        Image("/images/image.png")
+        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.png")
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -808,7 +808,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('jpg图片:')
-        Image("/images/image.jpg")
+        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.jpg")
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -816,7 +816,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('jpeg图片:')
-        Image("/images/image.jpeg")
+        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.jpeg")
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -824,7 +824,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('webp图片:')
-        Image("/images/image.webp")
+        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.webp")
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -832,7 +832,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('gif图片:')
-        Image("/images/image.gif")
+        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.gif")
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -840,7 +840,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('bmp图片:')
-        Image('/images/image.bmp')
+        Image('https://gitee.com/drthrhr/test-resources/raw/testResources/image.bmp')
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -848,7 +848,7 @@ struct UIComponentMediaImageSupportThumbnails0016 {
           .backgroundColor(Color.Orange)
 
         Text('heif图片:')
-        Image('/images/image.heif')
+        Image('https://gitee.com/drthrhr/test-resources/raw/testResources/image.heif')
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
