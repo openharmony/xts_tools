@@ -74,5 +74,43 @@ export default function UIComponentListAndGridListFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0020 finish.`);
       done();
     });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040
+     * @tc.desc    Component 3 groups
+     * @tc.level   1
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge003");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150
+     * @tc.desc    Component 3 groups
+     * @tc.level   1
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge004");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150 finish.`);
+      done();
+    });
   })
 }

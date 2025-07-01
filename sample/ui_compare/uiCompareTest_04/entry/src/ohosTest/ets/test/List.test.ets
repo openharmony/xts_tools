@@ -49,6 +49,12 @@ import UIComponentSnapShotComponentContentTest from './UIComponentSnapShotCompon
 import StatusManagerV2LazyForEachBetterTest from './StatusManagerV2LazyForEachBetterTest/StatusManagerV2LazyForEachBetter.test';
 import UIComponentListAndGridListFocusTest from './UIComponentListAndGridListFocusTest/UIComponentListAndGridListFocus.test';
 import UIComponentListAndGridListInitialIndexTest from './UIComponentListAndGridListInitialIndexTest/UIComponentListAndGridListInitialIndex.test';
+import UIComponentGridCapabilityTest from './UIComponentGridCapabilityTest/UIComponentGridCapability.test';
+import UIComponentGridAlignItemsTest from './UIComponentGridAlignItemsTest/UIComponentGridAlignItems.test';
+import UIComponentGridEventEnhancementTest from './UIComponentGridEventEnhancementTest/UIComponentGridEventEnhancement.test';
+import UIComponentGridFadingEdgeTest from './UIComponentGridFadingEdgeTest/UIComponentGridFadingEdge.test';
+import UIComponentListChildMainSizeTest from './UIComponentListChildMainSizeTest/UIComponentListChildMainSize.test';
+import UIComponentListScrollBarColorTest from './UIComponentListScrollBarColorTest/UIComponentListScrollBarColor.test';
 import StatusManagerV2RepeatFreezeStatusManagerTest from './StatusManagerV2RepeatFreezeStatusManagerTest/StatusManagerV2RepeatFreezeStatusManager.test';
 
 export default function testsuite() {
@@ -88,5 +94,11 @@ export default function testsuite() {
   StatusManagerV2LazyForEachBetterTest();
   UIComponentListAndGridListFocusTest();
   UIComponentListAndGridListInitialIndexTest();
+  UIComponentGridCapabilityTest();
+  UIComponentGridAlignItemsTest();
+  UIComponentGridEventEnhancementTest();
+  UIComponentGridFadingEdgeTest();
+  UIComponentListChildMainSizeTest();
+  UIComponentListScrollBarColorTest();
   StatusManagerV2RepeatFreezeStatusManagerTest();
 }
