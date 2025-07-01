@@ -8118,6 +8118,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/distributedhardware/device_manager",
+            "bundle_name": [
+                "device_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/drivers/external_device_manager/base",
             "bundle_name": [
                 "external_device_manager"
