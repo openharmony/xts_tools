@@ -120,8 +120,6 @@ class AccurateTarget:
 
 def generate(xts_root_dir, change_info_file, build_target):
     print("{}:{}: build_target={}".format(__file__, sys._getframe().f_lineno, build_target))
-    if "xts_acts_static" in build_target:
-        return 0, build_target
     if not os.path.exists(change_info_file):
         print("warning: {} not exist".format(change_info_file))
         return 0, build_target
