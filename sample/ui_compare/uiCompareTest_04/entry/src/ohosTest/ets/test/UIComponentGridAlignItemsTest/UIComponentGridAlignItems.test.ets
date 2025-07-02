@@ -41,9 +41,9 @@ export default function UIComponentGridAlignItemsTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010
      * @tc.name    SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010 start.`);
       Settings.createWindow("testability/pages/UIComponentGridAlignItems/UIComponentGridAlignItems001");
       let driver: Driver = Driver.create();
@@ -58,9 +58,9 @@ export default function UIComponentGridAlignItemsTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060
      * @tc.name    SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060 start.`);
       Settings.createWindow("testability/pages/UIComponentGridAlignItems/UIComponentGridAlignItems002");
       let driver: Driver = Driver.create();
@@ -75,9 +75,9 @@ export default function UIComponentGridAlignItemsTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020
      * @tc.name    SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020 start.`);
       Settings.createWindow("testability/pages/UIComponentGridAlignItems/UIComponentGridAlignItems003");
       let driver: Driver = Driver.create();
@@ -92,9 +92,9 @@ export default function UIComponentGridAlignItemsTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300
      * @tc.name    SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300';
       Logger.info('TEST', `${caseName} start.`);
       Settings.createWindow("testability/pages/UIComponentGridAlignItems/UIComponentGridAlignItems004");

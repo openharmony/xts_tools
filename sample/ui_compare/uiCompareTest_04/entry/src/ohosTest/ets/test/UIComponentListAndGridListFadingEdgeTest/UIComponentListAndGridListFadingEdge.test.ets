@@ -79,9 +79,9 @@ export default function UIComponentListAndGridListFadingEdgeTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040 start.`);
       Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge003");
       let driver: Driver = Driver.create();
@@ -98,9 +98,9 @@ export default function UIComponentListAndGridListFadingEdgeTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150 start.`);
       Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge004");
       let driver: Driver = Driver.create();

@@ -42,9 +42,9 @@ export default function UIComponentGridCapabilityTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0170_437
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0170_437
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0170_437', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0170_437', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0170_437';
       Logger.info('TEST', `${caseName} start.`);
       Settings.createWindow("testability/pages/UIComponentGridCapability/UIComponentGridCapability001");
@@ -60,9 +60,9 @@ export default function UIComponentGridCapabilityTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0250_596
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0250_596
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0250_596', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0250_596', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0250_596';
       Logger.info('TEST', `${caseName} start.`);
       Settings.createWindow("testability/pages/UIComponentGridCapability/UIComponentGridCapability002");
