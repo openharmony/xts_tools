@@ -779,7 +779,14 @@
         {
             "path": "interface/sdk-js/api/@ohos.data.distributedKVStore.d.ts",
             "bundle_name": [
-                "data_share"
+                "kv_store"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.data.distributedKVStore.d.ets",
+            "bundle_name": [
+                "kv_store"
             ],
             "build_targets": []
         },
