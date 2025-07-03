@@ -30,7 +30,11 @@ declare_args() {
   # create testsuite archive is time-consuming, do it only if necessary
   make_archive = false
   XTS_SUITENAME = getenv("XTS_SUITENAME")
-  XTS_SUITETYPE = getenv("XTS_SUITETYPE")
+  if (getenv("XTS_SUITETYPE") != "") {
+    XTS_SUITETYPE = string_split(getenv("XTS_SUITETYPE"), ",")
+  } else {
+    XTS_SUITETYPE = []
+}
 }
 
 template("ohos_testsuite_base") {
@@ -52,17 +56,6 @@ template("ohos_testsuite_base") {
     print("precise_xts is on ,${_part_name} is not on build")
     precise_build_boolean = false
   }
-
-  if (defined(invoker.suite_type) && XTS_SUITETYPE != "") {
-    _suite_type = invoker.suite_type
-    if (XTS_SUITETYPE != _suite_type) {
-      precise_build_boolean = false
-      not_needed([ "_part_name" ])
-    }
-  } else if (defined(invoker.suite_type)) {
-    not_needed(invoker, [ "suite_type" ])
-  }
-
   if (precise_build_boolean) {
     _subsystem_name = "common"
     if (defined(invoker.subsystem_name)) {
@@ -338,8 +331,33 @@ template("ohos_testsuite_base") {
   }
 }
 
+# 过滤suite_type
+template("ohos_testsuite_base_with_filter") {
+  if (XTS_SUITETYPE == [] ||
+      filter_include(XTS_SUITETYPE, [ invoker.suite_type ]) != []) {
+    # Begin:临时方案：复制hypium到工程路径，hvigor支持ohosTest后可删除
+    if (invoker.suite_type == "hap_static") {
+      _project_dir = rebase_path(".")
+      exec_script(rebase_path("//test/xts/tools/build/copy_hypium_static.sh"),
+                  [ _project_dir ])
+    }
+
+    # End  :临时方案：复制hypium到工程路径，hvigor支持ohosTest后可删除
+
+    target("ohos_testsuite_base", "${target_name}") {
+      not_needed(invoker, [ invoker.suite_type ])
+      forward_variables_from(invoker, "*")
+    }
+  } else {
+    group(target_name) {
+      print("[XTS] suite_type mismatch, no need build " + target_name)
+      not_needed(invoker, "*")
+    }
+  }
+}
+
 template("ohos_moduletest_suite") {
-  target("ohos_testsuite_base", "${target_name}") {
+  target("ohos_testsuite_base_with_filter", "${target_name}") {
     forward_variables_from(invoker, "*")
     if (!defined(module_out_path)) {
       module_out_path = "xts/modules"
@@ -350,7 +368,8 @@ template("ohos_moduletest_suite") {
 }
 
 template("ohos_hap_suite") {
-  target("ohos_testsuite_base", "${target_name}") {
+  suite_type = "hap_dynamic"
+  target("ohos_testsuite_base_with_filter", "${target_name}") {
     forward_variables_from(invoker, "*")
 
     # auto add HJUnitRunner entry ability and test-framework
@@ -376,26 +395,48 @@ template("ohos_hap_suite") {
     } else {
       deps = [ "//test/xts/tools/hjunit:testkit_harmonyjunitrunner_java" ]
     }
-    suite_type = "hap"
+
     project_type = "testhap"
+    arkts_type = "dynamic"
   }
 }
 
 template("ohos_js_hap_suite") {
-  target("ohos_testsuite_base", "${target_name}") {
+  target("ohos_testsuite_base_with_filter", "${target_name}") {
     forward_variables_from(invoker, "*")
     project_type = "testhap"
-    suite_type = "bin"
-
-    #js_build_mode = "debug"
+    suite_type = "hap_dynamic"
   }
 }
 
 template("ohos_js_app_suite") {
-  target("ohos_testsuite_base", "${target_name}") {
+  target("ohos_testsuite_base_with_filter", "${target_name}") {
     forward_variables_from(invoker, "*")
-    suite_type = "hap"
     project_type = "testapp"
+    suite_type = "hap_dynamic"
+  }
+}
+
+# arkts 1.2 hap entrance
+template("ohos_js_app_assist_static_suite") {
+  target("ohos_testsuite_base_with_filter", target_name) {
+    forward_variables_from(invoker, "*")
+    project_type = "testappassist"
+    suite_type = "hap_static"
+    hvigor_home = "//prebuilts/command-line-tools/hvigor"
+    nodejs_path =
+        "//prebuilts/build-tools/common/nodejs/node-v18.20.1-linux-x64/bin/node"
+  }
+}
+
+template("ohos_js_app_static_suite") {
+  target("ohos_testsuite_base_with_filter", "${target_name}") {
+    forward_variables_from(invoker, "*")
+    project_type = "testapp"
+    suite_type = "hap_static"
+    hvigor_home = "//prebuilts/command-line-tools/hvigor"
+    nodejs_path =
+        "//prebuilts/build-tools/common/nodejs/node-v18.20.1-linux-x64/bin/node"
   }
 }
 
@@ -643,29 +684,30 @@ template("js_hap_suite") {
   }
   target("ohos_testsuite_base", "${target_name}") {
     forward_variables_from(invoker, "*")
-    suite_type = "hap"
     project_type = "js_test_hap"
+    suite_type = "hap_dynamic"
   }
 }
 
 template("ohos_hap_assist_suite") {
-  target("ohos_testsuite_base", target_name) {
+  target("ohos_testsuite_base_with_filter", target_name) {
     forward_variables_from(invoker, "*")
-    suite_type = "hap"
     project_type = "testhapassist"
+    suite_type = "hap_dynamic"
   }
 }
 
 template("ohos_app_assist_suite") {
-  target("ohos_testsuite_base", target_name) {
+  target("ohos_testsuite_base_with_filter", target_name) {
     forward_variables_from(invoker, "*")
-    suite_type = "hap"
     project_type = "testappassist"
+    suite_type = "hap_dynamic"
   }
 }
 
-template("ohos_sh_assist_suite") {
+template("ohos_sh_assist_suite_base") {
   _part_name = "common"
+
   if (defined(invoker.part_name)) {
     _part_name = invoker.part_name
   }
@@ -680,13 +722,6 @@ template("ohos_sh_assist_suite") {
     precise_build_boolean = false
   }
 
-  if (XTS_SUITETYPE != "") {
-    suite_type = "bin"
-    if (XTS_SUITETYPE != suite_type) {
-      precise_build_boolean = false
-    }
-  }
-
   if (precise_build_boolean) {
     action(target_name) {
       forward_variables_from(invoker, "*")
@@ -698,6 +733,23 @@ template("ohos_sh_assist_suite") {
     }
   }
 }
+
+# 过滤suite_type
+template("ohos_sh_assist_suite") {
+  if (XTS_SUITETYPE == [] ||
+      filter_include(XTS_SUITETYPE, [ invoker.suite_type ]) != []) {
+    target("ohos_sh_assist_suite_base", "${target_name}") {
+      not_needed(invoker, [ invoker.suite_type ])
+      forward_variables_from(invoker, "*")
+    }
+  } else {
+    group(target_name) {
+      print("[XTS] suite_type mismatch, no need build " + target_name)
+      not_needed(invoker, "*")
+    }
+  }
+}
+
 template("merge_xts_notice") {
   _deps = []
   if (defined(invoker.deps)) {
@@ -739,5 +791,77 @@ template("merge_xts_notice") {
       "--depfile",
       rebase_path(depfile, root_build_dir),
     ]
+  }
+}
+
+# 过滤suite_type
+template("ohos_xts_static_library") {
+  if (XTS_SUITETYPE == [] || filter_include(XTS_SUITETYPE, [ "bin" ]) != []) {
+    target("ohos_static_library", "${target_name}") {
+      forward_variables_from(invoker, "*")
+    }
+  } else {
+    group(target_name) {
+      print("[XTS] suite_type mismatch, no need build " + target_name)
+      not_needed(invoker, "*")
+    }
+  }
+}
+
+# 过滤suite_type
+template("ohos_xts_executable") {
+  if (XTS_SUITETYPE == [] || filter_include(XTS_SUITETYPE, [ "bin" ]) != []) {
+    target("ohos_executable", "${target_name}") {
+      forward_variables_from(invoker, "*")
+    }
+  } else {
+    group(target_name) {
+      print("[XTS] suite_type mismatch, no need build " + target_name)
+      not_needed(invoker, "*")
+    }
+  }
+}
+
+# 过滤suite_type
+template("ohos_xts_action") {
+  if (defined(invoker.suite_type)) {
+    _suite_type = invoker.suite_type
+    not_needed(invoker, [ invoker.suite_type ])
+  } else {
+    _suite_type = "bin"
+  }
+  not_needed(invoker, [ _suite_type ])
+  if (XTS_SUITETYPE == [] ||
+      filter_include(XTS_SUITETYPE, [ _suite_type ]) != []) {
+    action("${target_name}") {
+      forward_variables_from(invoker, "*")
+    }
+  } else {
+    group(target_name) {
+      print("[XTS] suite_type mismatch, no need build " + target_name)
+      not_needed(invoker, "*")
+    }
+  }
+}
+
+# 过滤suite_type
+template("ohos_xts_group") {
+  if (defined(invoker.suite_type)) {
+    _suite_type = invoker.suite_type
+    not_needed(invoker, [ invoker.suite_type ])
+  } else {
+    _suite_type = "bin"
+  }
+  not_needed([ _suite_type ])
+  if (XTS_SUITETYPE == [] ||
+      filter_include(XTS_SUITETYPE, [ _suite_type ]) != []) {
+    group("${target_name}") {
+      forward_variables_from(invoker, "*")
+    }
+  } else {
+    group(target_name) {
+      print("[XTS] suite_type mismatch, no need build " + target_name)
+      not_needed(invoker, "*")
+    }
   }
 }
