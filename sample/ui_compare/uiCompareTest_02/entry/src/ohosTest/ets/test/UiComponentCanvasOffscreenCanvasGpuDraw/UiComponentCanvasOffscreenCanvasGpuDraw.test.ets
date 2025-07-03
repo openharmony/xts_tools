@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -651,7 +651,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
        * @tc.type    Function
        * @tc.level   3
        */
-      it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2870', Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2870 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw32")
       let driver:Driver=Driver.create();
@@ -1004,5 +1004,1619 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
       done()
     })
 
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2450
+       * @tc.name    Set the horizontal alignment of the text: textAlign = "end"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2450', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2450 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw51")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2450 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2480
+       * @tc.name    Set the horizontal alignment of the text: textAlign = "right"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2480', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2480 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw52")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2480 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2710
+       * @tc.name    To set the font style in text drawing: font = "normal bolder 50px sans-serif"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2710', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2710 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw53")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2710 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2740
+       * @tc.name    To set the font style in text drawing: font = "italic 50px sans-serif"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2740', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2740 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw54")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2740 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2750
+       * @tc.name    To set the font style in text drawing: font = "xxxx abd italic bold adb 50px sans-serif"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2750', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2750 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw55")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2750 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2700
+       * @tc.name    To set the font style in text drawing: font = "normal normal 50px sans-serif"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2700', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2700 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw56")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2700 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2680
+       * @tc.name    To set the font style in text drawing: font = "normal bold 50px sans-serif"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2680', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2680 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw57")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2680 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2490
+       * @tc.name    Set the horizontal alignment of the text: textAlign is not set
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2490', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2490 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw58")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2490 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2550
+       * @tc.name    To set the horizontal alignment in text drawing: textBaseline = "bottom"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2550', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2550 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw59")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2550 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2500
+       * @tc.name    To set the horizontal alignment in text drawing: textBaseline = "alphabetic"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2500', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2500 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw60")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2500 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2530
+       * @tc.name    To set the horizontal alignment in text drawing: textBaseline = "middle"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2530', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2530 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw61")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2530 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2510
+       * @tc.name    To set the horizontal alignment in text drawing: textBaseline = "top"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2510', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2510 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw62")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2510 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2540
+       * @tc.name    To set the horizontal alignment in text drawing: textBaseline = "ideographic"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2540', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2540 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw63")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2540 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2110
+       * @tc.name    Verify that the moveTo(x,y) call does not create a line to a new point
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2110', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2110 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw64")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2110 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1200
+       * @tc.name    Set the color to a gradient: fillStyle = "rgb(255, 0, 0)"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1200', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1200 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw65")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1200 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1210
+       * @tc.name    Set the color to a gradient: fillStyle = "abcd"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1210', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1210 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw66")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1210 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1230
+       * @tc.name    Set the color to a gradient: fillStyle = "#ffff00"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1230', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1230 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw67")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1230 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3020
+       * @tc.name    Set the parameters of the drawImage interface as follows:this.context.drawImage( this.img,0,0,-200,-200)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3020 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw68")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3020 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3040
+       * @tc.name    Set the parameters of the drawImage interface as follows:this.context.drawImage( this.img,-20,-20,100,100,0,0,300,300)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3040', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3040 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw69")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3040 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2990
+       * @tc.name    Set the parameters of the drawImage interface as follows:this.context.drawImage( this.img,0,0)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2990', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2990 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw70")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2990 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3030
+       * @tc.name    Set the parameters of the drawImage interface as follows:this.context.drawImage( this.img,0,0,100,100,0,0,300,300)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3030 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw71")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3030 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3010
+       * @tc.name    Set the parameters of the drawImage interface as follows:this.context.drawImage( this.img,0,0,200,200)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3010', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3010 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw72")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3010 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2570
+       * @tc.name    Set to draw fill text: fillText("Hello World!", 50, 100)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2570', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2570 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw73")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2570 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2580
+       * @tc.name    Set to draw fill text: fillText("Hello World!", -50, 100)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2580', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2580 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw74")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2580 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1170
+       * @tc.name    set the strokeStyle of the stroke color property to:string： "#ffff00"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1170', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1170 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw75")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1170 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1850
+       * @tc.name    Set the draw component interface strokeRect to strokeRect(100,100,-100,100)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1850', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1850 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw76")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1850 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1320
+       * @tc.name    Set radial gradient: createRadialGradient(200,200,100,200,200,50)grad.addColorStop(0,"white" )grad.addColorStop(0, "red")
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1320', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1320 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw77")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1320 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1300
+       * @tc.name    Set radial gradient: createRadialGradient(200,200,100,200,200,-50)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1300', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1300 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw78")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1300 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1310
+       * @tc.name    Set radial gradient: createRadialGradient(200,200,100,200,200,50)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1310', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1310 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw79")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1310 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2760
+       * @tc.name    To set the font style in text drawing:font = "sans-serif bold italic 50px "
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2760', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2760 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw80")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2760 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2950
+       * @tc.name    Set the miterLimit property to miterLimit = -1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2950', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2950 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw81")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2950 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2970
+       * @tc.name    Set the miterLimit property to miterLimit = 1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2970', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2970 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw82")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2970 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2980
+       * @tc.name    Set the miterLimit property to miterLimit = 10 more than lineWidth
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2980', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2980 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw83")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2980 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2960
+       * @tc.name    Set the miterLimit property to miterLimit = 0
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2960', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2960 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw84")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2960 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0990
+       * @tc.name    Set the transparency property of the draw component: Assign the value multiple times
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0990', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0990 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw85")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0990 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1370
+       * @tc.name    Set the lineCap property of the drawn line to "round"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1370', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1370 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw86")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1370 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1380
+       * @tc.name    Set the lineCap property of the drawn line to "butt"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1380', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1380 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw87")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1380 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1410
+       * @tc.name    Set the lineCap property of the drawn line to Not set
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1410', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1410 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw88")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1410 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1390
+       * @tc.name    Set the lineCap property of the drawn line to square
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1390', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1390 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw89")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1390 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1440
+       * @tc.name    Set the lineJoin property to "round" for drawing two intersecting lines
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1440', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1440 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw90")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1440 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1420
+       * @tc.name    Set the lineJoin property to "bevel" for drawing two intersecting lines
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1420 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw91")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1420 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1430
+       * @tc.name    Set the lineJoin property to "miter" for drawing two intersecting lines
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1430 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw92")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1430 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1460
+       * @tc.name    Set the lineJoin property to None for drawing two intersecting lines
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1460', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1460 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw93")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1460 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2010
+       * @tc.name    Verify that the closePath() interface is not called to generate a closed graph
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2010', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2010 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw94")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2010 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3700
+       * @tc.name    Verify that the ImageData parameter of the image pixel apid getImageData is used to obtain the data
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3700', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3700 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw95")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3700 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1980
+       * @tc.name    Call the stroke interface for border drawing
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1980', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1980 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw96")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1980 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2430
+       * @tc.name    Set the current path to clipping path: The parameter of the clip interface is not setThe color-filled area contains a partially cropped area
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2430 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw97")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2430 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2690
+       * @tc.name    To set the font style in text drawing:font = "normal lighter 50px sans-serif"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2690', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2690 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw98")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2690 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2620
+       * @tc.name    Set the font style in text drawing: font= "50px sans-serif"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2620', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2620 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw99")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2620 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1860
+       * @tc.name    Set the draw component interface strokeRect to strokeRect(100,100,100,-100)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1860', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1860 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw100")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1860 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1820
+       * @tc.name    Set the draw component interface strokeRect to strokeRect(0,0,100,100)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1820', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1820 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw101")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1820 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2610
+       * @tc.name    Set the font style in text drawing: font is not set
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2610', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2610 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw102")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2610 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2520
+       * @tc.name    To set the horizontal alignment in text drawing: textBaseline ="hanging"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2520', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2520 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw103")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2520 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2560
+       * @tc.name    To set the horizontal alignment in text drawing: textBaseline ="alphabetic"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2560', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2560 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw104")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2560 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1780
+       * @tc.name    Set the drawing component interface fillRect to fillRect(100,100,100,-100)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1780', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1780 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw105")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1780 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1840
+       * @tc.name    Set the drawing component interface strokeRect to strokeRect(100,100,0,100)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1840', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1840 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw106")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1840 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1190
+       * @tc.name    Set the strokeStyle of the stroke color property to:strokeStyle = "#ffff00" fillStyle = 0xf0000
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1190', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1190 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw107")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1190 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2670
+       * @tc.name    To set the font style in text drawing: font = "italic bold 50px sans-serif"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2670', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2670 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw108")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2670 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2640
+       * @tc.name    To set the font style in text drawing: font = "50px monospace"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2640', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2640 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw109")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2640 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2420
+       * @tc.name    Set the current path to clipping path: The parameter of the clip interface is not set The color-filled area does not reach the cropping area
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2420 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw110")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2420 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2410
+       * @tc.name    Set the current path to clipping path: The parameter of the clip interface is "evenodd".
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2410', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2410 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw111")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2410 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1270
+       * @tc.name    Set createPattern to repeat.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1270', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1270 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw112")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1270 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1240
+       * @tc.name    Set createPattern to np-repeat.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1240', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1240 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw113")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1240 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1260
+       * @tc.name    Set createPattern to repeat-y.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1260', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1260 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw114")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1260 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1250
+       * @tc.name    Set createPattern to repeat-x.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1250', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1250 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw115")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1250 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0260
+       * @tc.name    Set the saves of the canvas component: Pushes the current state into the state stack
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0260', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0260 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw116")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0260 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2030
+       * @tc.name    Set the fill parameter to "evenodd"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2030 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw117")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2030 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3840
+       * @tc.name    Sets the dashed offset of the canvas to a negative value
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3840', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3840 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw118")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3840 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3820
+       * @tc.name    Sets the dashed offset of the canvas to a positive value
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3820', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3820 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw119")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3820 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3830
+       * @tc.name    Sets the dashed offset of the canvas to zero
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3830', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3830 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw120")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3830 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1790
+       * @tc.name    Set the drawing component interface fillRect to fillRect(100,100,-100,-100)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1790', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1790 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw121")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1790 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1750
+       * @tc.name    Set the drawing component interface fillRect to fillRect(-100,-100,200,200)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1750', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1750 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw122")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1750 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1760
+       * @tc.name    Set the drawing component interface fillRect to fillRect(100,100,0,100)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1760', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1760 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw123")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1760 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2930
+       * @tc.name    Set the property of the current text direction to rtl
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2930', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2930 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw124")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2930 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2940
+       * @tc.name    Set the property of the current text direction to ltr
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2940', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2940 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw125")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2940 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1730
+       * @tc.name    Set fillRect to fillRect(100,100,100,100)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1730', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1730 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw126")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1730 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1830
+       * @tc.name    Set the draw component interface strokeRect to strokeRect(-100,-100,200,200)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1830', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1830 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw127")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1830 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3080
+       * @tc.name    Set the imageSmoothingQuality smoothness of the drawn image to low
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3080', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3080 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw128")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3080 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3090
+       * @tc.name    Set the imageSmoothingQuality smoothness of the drawn image to medium
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3090', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3090 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw129")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3090 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3100
+       * @tc.name    Set the imageSmoothingQuality smoothness of the drawn image to high
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3100', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3100 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw130")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3100 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3050
+       * @tc.name    Set the Draw Image property imageSmoothingEnabled to Not set
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3050 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw131")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3050 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0070
+       * @tc.name    Set the height of the canvas object property to: number：0
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0070', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0070 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw132")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0070 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0020
+       * @tc.name    Set the width of the canvas object property to: number：0
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0020 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw133")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0020 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0030
+       * @tc.name    Set the width of the canvas object property to: number：300
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0030 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw134")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0030 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0080
+       * @tc.name    Set the heihgt of the canvas object property to: number：150
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0080', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0080 start.`);
+      Settings.createWindow("testability/pages/UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw135")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0080 finish.`);
+      done()
+    })
   })
 }
