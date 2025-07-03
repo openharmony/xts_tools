@@ -1082,7 +1082,7 @@ export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
 
     /*
        * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2750
-       * @tc.name    To set the font style in text drawing: font = "xxxx italic bold adb 50px sans-serif"
+       * @tc.name    To set the font style in text drawing: font = "xxxx italic bold 50px sans-serif"
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
