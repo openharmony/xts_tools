@@ -1,6 +1,14 @@
 {
     "repo_list": [
       {
+        "path": "base/global/resource_management",
+        "bundle_name": "resource_management",
+        "add_bundle": [],
+        "add_target": [
+          "test/xts/acts/global/perf/perfjs:perfjs_test"
+        ]
+      },
+      {
         "path": "base/global/i18n",
         "bundle_name": "i18n",
         "add_bundle": [],
@@ -121,7 +129,7 @@
         "bundle_name": "",
         "add_bundle": [],
         "add_target": [
-          "FULL_IMPACT_TOTALLY"
+          "test/xts/acts:xts_acts"
         ]
       },
       {

@@ -1,6 +1,13 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/ CODEOWNERS",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/remove_list.json",
             "bundle_name": [
                 "ability_runtime"
@@ -16,41 +23,6 @@
         },
         {
             "path": "interface/sdk-js/process_internal.pydeps",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/arkui_transformer.py",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/exists_path.py",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/.gitignore",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/OAT.xml",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/bundle.json",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -168,13 +140,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.fastbuffer.d.ts",
-            "bundle_name": [
-                "ets_utils"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.bundle.d.ts",
             "bundle_name": [
                 "bundle_framework"
@@ -183,13 +148,6 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.abilityManager.d.ts",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.app.ability.CompletionHandler.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -350,13 +308,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.test.PerfTest.d.ts",
-            "bundle_name": [
-                "arkxtest"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.hiTraceMeter.d.ts",
             "bundle_name": [
                 "hitrace"
@@ -386,13 +337,6 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimedia.image.d.ts",
-            "bundle_name": [
-                "image_framework"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.multimedia.image.d.ets",
             "bundle_name": [
                 "image_framework"
             ],
@@ -805,13 +749,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.file.fs.d.ets",
-            "bundle_name": [
-                "file_api"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.driver.deviceManager.d.ts",
             "bundle_name": [
                 "external_device_manager"
@@ -827,13 +764,6 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.base.d.ts",
-            "bundle_name": [
-                "init"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.base.d.ets",
             "bundle_name": [
                 "init"
             ],
@@ -1086,13 +1016,6 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.form.FormEditExtensionAbility.d.ts",
-            "bundle_name": [
-                "form_fwk"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.app.form.LiveFormExtensionAbility.d.ts",
             "bundle_name": [
                 "form_fwk"
             ],
@@ -1596,20 +1519,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.app.ability.InsightIntentDecorator.d.ts",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.app.ability.InsightIntentEntryExecutor.d.ts",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.app.appstartup.startupManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -1785,13 +1694,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.fontManager.d.ts",
-            "bundle_name": [
-                "font_manager"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.data.rdb.d.ts",
             "bundle_name": [
                 "relational_store"
@@ -1849,13 +1751,6 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.abilityAccessCtrl.d.ts",
-            "bundle_name": [
-                "access_token"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.abilityAccessCtrl.d.ets",
             "bundle_name": [
                 "access_token"
             ],
@@ -1933,13 +1828,6 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.privacyManager.d.ts",
-            "bundle_name": [
-                "access_token"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.privacyManager.d.ets",
             "bundle_name": [
                 "access_token"
             ],
@@ -2367,13 +2255,6 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.deviceInfo.d.ts",
-            "bundle_name": [
-                "init"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.deviceInfo.d.ets",
             "bundle_name": [
                 "init"
             ],
@@ -2933,13 +2814,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.net.eap.d.ts",
-            "bundle_name": [
-                "netmanager_ext"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.request.d.ts",
             "bundle_name": [
                 "request"
@@ -3367,13 +3241,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.window.floatingBall.d.ts",
-            "bundle_name": [
-                "window_manager"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.screenshot.d.ts",
             "bundle_name": [
                 "window_manager"
@@ -3472,13 +3339,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.data.UdmfComponents.d.ets",
-            "bundle_name": [
-                "udmf"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.net.http.d.ts",
             "bundle_name": [
                 "netstack"
@@ -3487,13 +3347,6 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.batteryInfo.d.ts",
-            "bundle_name": [
-                "battery_manager"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.batteryInfo.d.ets",
             "bundle_name": [
                 "battery_manager"
             ],
@@ -3549,13 +3402,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.multimodalAwareness.deviceStatus.d.ts",
-            "bundle_name": [
-                "device_status"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.multimodalAwareness.metadataBinding.d.ts",
             "bundle_name": [
                 "device_status"
@@ -3563,9 +3409,9 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.multimodalAwareness.userStatus.d.ts",
+            "path": "interface/sdk-js/api/@ohos.multimodalAwareness.roomLocation.d.ts",
             "bundle_name": [
-                "device_status"
+                "spatial_awareness"
             ],
             "build_targets": []
         },
@@ -3731,34 +3577,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.selectionInput.SelectionExtensionAbility.d.ts",
-            "bundle_name": [
-                "selectionfwk"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.selectionInput.SelectionExtensionContext.d.ts",
-            "bundle_name": [
-                "selectionfwk"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.selectionInput.selectionManager.d.ts",
-            "bundle_name": [
-                "selectionfwk"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.selectionInput.SelectionPanel.d.ts",
-            "bundle_name": [
-                "selectionfwk"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.sensor.d.ts",
             "bundle_name": [
                 "sensor"
@@ -3837,20 +3655,6 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.util.d.ts",
-            "bundle_name": [
-                "ets_utils"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.util.d.ets",
-            "bundle_name": [
-                "ets_utils"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/kits/@kit.ArkTS.d.ets",
             "bundle_name": [
                 "ets_utils"
             ],
@@ -4095,13 +3899,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@internal/ets/global.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@internal/ets/lifecycle.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -4138,13 +3935,6 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/toggle.d.ts",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@internal/component/ets/toolbar.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -5061,783 +4851,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.arkui.UIContext.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.component.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.componentSnapshot.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.componentUtils.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.dragController.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.drawableDescriptor.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.inspector.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.node.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.observer.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.performanceMonitor.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.shape.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.stateManagement.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.theme.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.arkui.uiExtension.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/AttributeUpdater.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/BuilderNode.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/ComponentContent.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/Content.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/FrameNode.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/Graphics.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/ImageModifier.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/NodeContent.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/NodeController.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/RenderNode.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/SymbolGlyphModifier.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/TextModifier.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/UserView.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/XComponentNode.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/alphabetIndexer.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/blank.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/button.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/column.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/common.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/customComponent.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/enums.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/forEach.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/gesture.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/grid.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/griditem.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/image.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/imageCommon.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/lazyForEach.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/list.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/locationButton.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/mediaCachedImage.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/navigation.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/pasteButton.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/progress.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/resources.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/row.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/saveButton.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/scroll.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/scrollBar.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/securityComponent.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/stack.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/symbolglyph.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/text.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/textCommon.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/units.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/web.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/external/resource.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.annotations.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.common.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.internals.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.memo.bind.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.memo.changeListener.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.memo.contextLocal.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.memo.entry.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.memo.node.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.memo.remember.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.memo.repeat.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.memo.testing.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.states.Disposable.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.states.GlobalStateManager.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.states.State.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.tree.IncrementalNode.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.tree.PrimeNumbers.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.tree.ReadonlyTreeNode.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.tree.TreeNode.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/runtime-api/@koalaui.runtime.tree.TreePath.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/base/backingValue.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/base/decoratorBase.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/base/iObservedObject.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/base/mutableStateMeta.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/common.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/decorators/decoratorLink.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/decorators/decoratorProp.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/decorators/decoratorState.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/decorators/decoratorStorageLink.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/decorators/decoratorStorageProp.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/decorators/decoratorWatch.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/runtime.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/storage.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/storages/appStorage.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/storages/localStorage.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.animator.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.curves.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.font.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.matrix4.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.measure.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.mediaquery.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.pluginComponent.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.prompt.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.router.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.uiExtensionHost.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@system.app.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@system.mediaquery.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.promptAction.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@system.prompt.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@system.router.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/common/full/canvaspattern.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/data/rdb/resultSet.d.ts",
             "bundle_name": [
                 "relational_store"
@@ -6133,13 +5146,6 @@
         },
         {
             "path": "interface/sdk-js/api/security/PermissionRequestResult.d.ts",
-            "bundle_name": [
-                "access_token"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/security/PermissionRequestResult.d.ets",
             "bundle_name": [
                 "access_token"
             ],
@@ -7231,13 +6237,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/application/LiveFormExtensionContext.d.ts",
-            "bundle_name": [
-                "form_fwk"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/application/ContinueCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -7865,76 +6864,6 @@
             "path": "interface/sdk-js/arkts/@arkts.math.Decimal.d.ets",
             "bundle_name": [],
             "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.distributedsched.linkEnhance.d.ts",
-            "bundle_name": [
-                "linkEnhance"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.distributedsched.proxyChannelManager.d.ts",
-            "bundle_name": [
-                "proxyChannelManager"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/StepperModifier.d.ts",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.app.ability.AppServiceExtensionAbility.d.ts",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/application/AppServiceExtensionContext.d.ts",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.enterprise.telephonyManager.d.ts",
-            "bundle_name": [
-                "enterprise_device_management"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.app.ability.kioskManager.d.ts",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/application/KioskStatus.d.ts",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/@ohos.distributedHardware.mechanicManager.d.ts",
-            "bundle_name": [
-                "mechbody_controller"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/kits/@kit.MechanicKit.d.ts",
-            "bundle_name": [
-                "mechbody_controller"
-            ],
-            "build_targets": []
         }
     ],
     "sdk_c":[
@@ -8336,13 +7265,6 @@
         },
         {
             "path": "interface/sdk_c/network/netstack/net_websocket",
-            "bundle_name": [
-                "netstack"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk_c/network/netstack/net_http",
             "bundle_name": [
                 "netstack"
             ],
@@ -8814,4 +7736,4 @@
             "build_targets": []
         }
     ]
-}
+}   
