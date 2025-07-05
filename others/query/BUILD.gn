@@ -44,7 +44,7 @@ ohos_copy("cpQueStan") {
   part_name = "tools"
 }
 
-ohos_xts_group("libQuery") {
+group("libQuery") {
   testonly = true
   if (is_standard_system) {
     deps = [

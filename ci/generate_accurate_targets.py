@@ -18,18 +18,23 @@
 import os
 import sys
 import json
-from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, HOME
+from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
 from ci_manager import ComponentManager, XTSManager, WhitelistManager, OldPreciseManager, GetInterfaceData
 
 
 class AccurateTarget:
 
-    def __init__(self, xts_root_dir, change_info_file):
+    def __init__(self, xts_root_dir, change_info_file, device_type):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = os.path.realpath(os.path.join(xts_root_dir, "../../.."))
         self._change_info_file = change_info_file
         self._testsuite = None
         self.util_class_list = []
+        self._device_type = "phone"
+        if "_watch_" in device_type:
+            self._device_type = "watch"
+        elif "_pc_" in device_type:
+            self._device_type = "pc"
 
         if self._xts_root_dir.endswith('acts'):
             # 测试套件仓修改,只查看当前编译套件仓
@@ -41,23 +46,30 @@ class AccurateTarget:
             # 原精准方案兜底计算
             self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
             # interface 仓
-            self.get_interface_data = GetInterfaceData(self._xts_root_dir, self._code_root_dir)
+            self.interface_manager = GetInterfaceData(self._xts_root_dir, self._code_root_dir)
 
             self.util_list = [
                 self.xts_manager,
-                self.get_interface_data,
+                self.interface_manager,
                 self.com_manager,
                 self.wlist_manager,
                 self.old_manager
             ]
-        else:
+        else:  # hats/dcts/hits
             # 测试套件仓修改,只查看当前编译套件仓
             self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
-            # 原精准方案兜底计算
-            self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
+            # 部件仓修改
+            self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
+            # 白名单计算
+            self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir)
+            # interface 仓
+            self.interface_manager = GetInterfaceData(self._xts_root_dir, self._code_root_dir)
+
             self.util_list = [
                 self.xts_manager,
-                self.old_manager
+                self.interface_manager,
+                self.com_manager,
+                self.wlist_manager,
             ]
 
     # def _get_full_target(self, xts_suitename):
@@ -115,15 +127,17 @@ class AccurateTarget:
             for path in sum_path:
                 targets.update(set(XTSTargetUtils.getTargetfromPath(self._xts_root_dir, path)))
 
-        return 0, list(targets)
+            ci_target = XTSTargetUtils.del_uncompile_target(self._xts_root_dir, self._device_type, targets)
+
+        return 0, ci_target
 
 
-def generate(xts_root_dir, change_info_file, build_target):
+def generate(xts_root_dir, change_info_file, build_target, device_type = "phone"):
     print("{}:{}: build_target={}".format(__file__, sys._getframe().f_lineno, build_target))
     if not os.path.exists(change_info_file):
         print("warning: {} not exist".format(change_info_file))
         return 0, build_target
 
-    obj = AccurateTarget(xts_root_dir, change_info_file)
+    obj = AccurateTarget(xts_root_dir, change_info_file, device_type)
     ret, accurate_targets = obj.get_targets()
     return ret, accurate_targets
