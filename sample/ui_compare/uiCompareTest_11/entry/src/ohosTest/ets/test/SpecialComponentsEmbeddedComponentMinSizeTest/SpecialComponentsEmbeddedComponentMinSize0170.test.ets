@@ -51,15 +51,15 @@ export default function SpecialComponentsEmbeddedComponentMinSize0170() {
       Settings.createWindow("testability/pages/SpecialComponentsEmbeddedComponentMinSize/SpecialComponentsEmbeddedComponentMinSize0170")
       let driver:Driver = Driver.create();
       await driver.triggerKey(2049);
-      await driver.waitForIdle(1000,2000)
+      await driver.waitForIdle(500,2000)
       let buttonA: Component = await driver.waitForComponent(ON.id('SpecialComponentsEmbeddedComponentMinSize0170_002'),1000);
       await buttonA.click();
-      await driver.waitForIdle(1000,2000)
+      await driver.waitForIdle(500,2000)
       await driver.triggerKey(2049);
-      await driver.waitForIdle(1000,2000)
+      await driver.waitForIdle(500,2000)
       let buttonB: Component = await driver.waitForComponent(ON.id('SpecialComponentsEmbeddedComponentMinSize0170_003'),1000);
       await buttonB.click();
-      await Utils.sleep(2000)
+      await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
 
@@ -79,15 +79,15 @@ export default function SpecialComponentsEmbeddedComponentMinSize0170() {
       Settings.createWindow("testability/pages/SpecialComponentsEmbeddedComponentMinSize/SpecialComponentsEmbeddedComponentMinSize0020")
       let driver:Driver = Driver.create();
       await driver.triggerKey(2049);
-      await driver.waitForIdle(1000,2000)
+      await driver.waitForIdle(500,2000)
       let buttonA: Component = await driver.waitForComponent(ON.id('SpecialComponentsEmbeddedComponentMinSize0020_002'),1000);
       await buttonA.click();
-      await driver.waitForIdle(1000,2000)
+      await driver.waitForIdle(500,2000)
       await driver.triggerKey(2049);
-      await driver.waitForIdle(1000,2000)
+      await driver.waitForIdle(500,2000)
       let buttonB: Component = await driver.waitForComponent(ON.id('SpecialComponentsEmbeddedComponentMinSize0020_003'),1000);
       await buttonB.click();
-      await Utils.sleep(2000)
+      await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
 
