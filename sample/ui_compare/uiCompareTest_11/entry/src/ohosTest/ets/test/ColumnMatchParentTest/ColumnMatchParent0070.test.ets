@@ -50,7 +50,7 @@ export default function ColumnMatchParent0070() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0070 start.`);
       Settings.createWindow("testability/pages/ColumnMatchParent/ColumnMatchParent0070")
       let driver:Driver = Driver.create();
-      await Utils.sleep(2000)
+      await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0070 finish.`);
@@ -68,7 +68,7 @@ export default function ColumnMatchParent0070() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0060 start.`);
       Settings.createWindow("testability/pages/ColumnMatchParent/ColumnMatchParent0060")
       let driver:Driver = Driver.create();
-      await Utils.sleep(2000)
+      await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0060 finish.`);
@@ -86,7 +86,7 @@ export default function ColumnMatchParent0070() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0010 start.`);
       Settings.createWindow("testability/pages/ColumnMatchParent/ColumnMatchParent0010")
       let driver:Driver = Driver.create();
-      await Utils.sleep(2000)
+      await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0010 finish.`);
@@ -104,7 +104,7 @@ export default function ColumnMatchParent0070() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0050 start.`);
       Settings.createWindow("testability/pages/ColumnMatchParent/ColumnMatchParent0050")
       let driver:Driver = Driver.create();
-      await Utils.sleep(2000)
+      await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0050 finish.`);
@@ -122,7 +122,7 @@ export default function ColumnMatchParent0070() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0090 start.`);
       Settings.createWindow("testability/pages/ColumnMatchParent/ColumnMatchParent0090")
       let driver:Driver = Driver.create();
-      await Utils.sleep(2000)
+      await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0090 finish.`);
@@ -140,7 +140,7 @@ export default function ColumnMatchParent0070() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0020 start.`);
       Settings.createWindow("testability/pages/ColumnMatchParent/ColumnMatchParent0020")
       let driver:Driver = Driver.create();
-      await Utils.sleep(2000)
+      await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0020 finish.`);
@@ -158,7 +158,7 @@ export default function ColumnMatchParent0070() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0030 start.`);
       Settings.createWindow("testability/pages/ColumnMatchParent/ColumnMatchParent0030")
       let driver:Driver = Driver.create();
-      await Utils.sleep(2000)
+     await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0030 finish.`);
@@ -176,7 +176,7 @@ export default function ColumnMatchParent0070() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0130 start.`);
       Settings.createWindow("testability/pages/ColumnMatchParent/ColumnMatchParent0130")
       let driver:Driver = Driver.create();
-      await Utils.sleep(2000)
+      await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0130 finish.`);
@@ -194,7 +194,7 @@ export default function ColumnMatchParent0070() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0100 start.`);
       Settings.createWindow("testability/pages/ColumnMatchParent/ColumnMatchParent0100")
       let driver:Driver = Driver.create();
-      await Utils.sleep(2000)
+      await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0100 finish.`);
@@ -212,7 +212,7 @@ export default function ColumnMatchParent0070() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0110 start.`);
       Settings.createWindow("testability/pages/ColumnMatchParent/ColumnMatchParent0110")
       let driver:Driver = Driver.create();
-      await Utils.sleep(2000)
+      await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0110 finish.`);
