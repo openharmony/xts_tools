@@ -1,6 +1,13 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/build_api_check_plugin.py",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/run_compile_declgen.py",
             "bundle_name": [
                 "ability_runtime"
