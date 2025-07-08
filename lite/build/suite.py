@@ -179,7 +179,7 @@ class XDeviceBuilder:
         :return:
         """
         ohos_dir = os.path.join(self.args.project_dir, 'plugins', 'ohos')
-        command = [utils.get_python_cmd(), "setup.py", "sdist"]
+        command = [utils.get_python_cmd(), "setup.py", "install", "--user"]
         factory_script = os.path.join(self.args.project_dir, "factory.sh")
         if os.path.exists(factory_script):
             os.chmod(factory_script, 0o775)
