@@ -1,5 +1,3 @@
-import { ProgressModifier, SelectOptions } from '@kit.ArkUI';
-
 /**
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,6 +13,8 @@ import { ProgressModifier, SelectOptions } from '@kit.ArkUI';
  * limitations under the License.
  */
 // xxx.ets
+import { ProgressModifier, SelectOptions } from '@kit.ArkUI';
+
 class MyProgressModifier implements AttributeModifier<ProgressModifier> {
   public isDark: boolean = false;
 

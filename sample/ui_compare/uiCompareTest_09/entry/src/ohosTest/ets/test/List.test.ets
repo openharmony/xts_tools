@@ -53,6 +53,6 @@ export default function testsuite() {
   SpecialcomponentsUicontext();
   TextSearchInterface();
   InfomationLoadingprogressAnimation();
-  //Statusmanagerv2Freezing();
+  Statusmanagerv2Freezing();
   RoutingSupportstageInterface();
 }
