@@ -14,22 +14,28 @@
  */
 @Entry
 @Component
-struct MediaTextpickerOnenterselectedareaMtbf02 {
-  private options: string[] = ['苹果', '香蕉', '橙子', '葡萄'];
-  @State selectedItem: string = '苹果';
+struct MediaTextpickerDisabletsa01 {
+  @State selectedValue: string = ''
+  private timerId: number = 0
+
+  // 防抖处理函数
+  private debounceSelect(value: string) {
+    clearTimeout(this.timerId)
+    this.timerId = setTimeout(() => {
+      this.selectedValue = value
+      console.log('Final selection:', value)
+    }, 300) // 300ms防抖间隔
+  }
 
   build() {
     Column() {
-      Button('打开选择器')
-        .onClick(() => {
-          // 核心调用
-          TextPickerDialog.show({
-            range: this.options,                // 选项数组
-            selected: this.options.indexOf(this.selectedItem), // 默认选中项索引
-          })
-        })
+      TimePicker()
         .id('MediaTextpickerDisabletsa01')
+        .onEnterSelectedArea(() => {
+
+        })
+
+      Text('Selected: ' + this.selectedValue)
     }
-    .padding(20)
   }
 }

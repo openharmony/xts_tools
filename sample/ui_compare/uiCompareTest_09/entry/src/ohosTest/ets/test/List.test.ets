@@ -29,6 +29,10 @@ import ProgressLinear from './ProgressLinearTest/ProgressLinear.test'
 import SymbolglyphFontstzescale from './SymbolglyphFontstzescaleTest/SymbolglyphFontstzescale.test'
 import TextRichtexteditorMenuReinforcing from './TextRichtexteditorMenuReinforcingTest/TextRichtexteditorMenuReinforcing.test'
 import SpecialcomponentsUicontext from './SpecialcomponentsUicontextTest/SpecialcomponentsUicontext.test'
+import TextSearchInterface from './TextSearchInterfaceTest/TextSearchInterface.test'
+import InfomationLoadingprogressAnimation from './InfomationLoadingprogressAnimationTest/InfomationLoadingprogressAnimation.test'
+import Statusmanagerv2Freezing from './Statusmanagerv2FreezingTest/Statusmanagerv2Freezing.test'
+import RoutingSupportstageInterface from './RoutingSupportstageInterfaceTest/RoutingSupportstageInterface.test'
 
 export default function testsuite() {
   UIComponentTextRicheditorKeyboardAppearance();
@@ -47,4 +51,8 @@ export default function testsuite() {
   SymbolglyphFontstzescale();
   TextRichtexteditorMenuReinforcing();
   SpecialcomponentsUicontext();
+  TextSearchInterface();
+  InfomationLoadingprogressAnimation();
+  //Statusmanagerv2Freezing();
+  RoutingSupportstageInterface();
 }

@@ -91,5 +91,42 @@ export default function ProgressLinear() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0012 finish.`);
       done();
     })
+
+    /*
+    * @tc.number  SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013
+    * @tc.name    SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013
+    * @tc.desc    ProgressLinear sets the strokeRadius property
+    * @tc.size    MediumTest
+    * @tc.type    Function
+    * @tc.level   0
+    */
+    it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013 start.`);
+      Settings.createWindow("testability/pages/ProgressLinear/ProgressLinear04")
+
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013 finish.`);
+      done();
+    })
+
+    /*
+    * @tc.number  SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014
+    * @tc.name    SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014
+    * @tc.desc    ProgressLinear sets the strokeRadius property
+    * @tc.size    MediumTest
+    * @tc.type    Function
+    * @tc.level   0
+    */
+    it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014 start.`);
+      Settings.createWindow("testability/pages/ProgressLinear/ProgressLinear05")
+
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014 finish.`);
+      done();
+    })
+
   })
 }

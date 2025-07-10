@@ -61,5 +61,31 @@ export default function UiComponentInfomationProgressModifierColor() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0011 finish.`);
       done();
     })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0012
+     * @tc.name   : Select partial content via gesture, then verify the position of the search button.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0012', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0012 start.`);
+      Settings.createWindow("testability/pages/UiComponentInfomationProgressModifierColor/UiComponentInfomationProgressModifierColor0012")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('UiComponentInfomationProgressModifierColor0011_001'), 1000);  // 显式等待组件出现[6](@ref)
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      await component.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0012 finish.`);
+      done();
+    })
+
+
   })
 }
