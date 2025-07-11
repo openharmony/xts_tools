@@ -50,8 +50,24 @@ import StatusManagerV2LazyForEachBetterTest from './StatusManagerV2LazyForEachBe
 import UIComponentListAndGridListFocusTest from './UIComponentListAndGridListFocusTest/UIComponentListAndGridListFocus.test';
 import UIComponentListAndGridListInitialIndexTest from './UIComponentListAndGridListInitialIndexTest/UIComponentListAndGridListInitialIndex.test';
 import StatusManagerV2RepeatFreezeStatusManagerTest from './StatusManagerV2RepeatFreezeStatusManagerTest/StatusManagerV2RepeatFreezeStatusManager.test';
+import OptimizationOfDragAndDropZoomRulesTest from './OptimizationOfDragAndDropZoomRulesTest/OptimizationOfDragAndDropZoomRules.test';
+import UIArkUIGridCachedCountTest from './UIArkUIGridCachedCountTest/UIArkUIGridCachedCount.test';
+import UIComponentListCapabilityTest from './UIComponentListCapabilityTest/UIComponentListCapability.test';
+import UIComponentListOffSetTest from './UIComponentListOffSetTest/UIComponentListOffSet.test';
+import UIComponentGridAutoStretchTest from './UIComponentGridAutoStretchTest/UIComponentGridAutoStretch.test';
+import UIComponentListScrollBarWidthTest from './UIComponentListScrollBarWidthTest/UIComponentListScrollBarWidth.test';
+import UIComponentListScrollBarColorTest from './UIComponentListScrollBarColorTest/UIComponentListScrollBarColor.test';
+import UIComponentListInterfaceTest from './UIComponentListInterfaceTest/UIComponentListInterface.test';
 
 export default function testsuite() {
+  OptimizationOfDragAndDropZoomRulesTest();
+  UIArkUIGridCachedCountTest();
+  UIComponentListCapabilityTest();
+  UIComponentListOffSetTest();
+  UIComponentGridAutoStretchTest();
+  UIComponentListInterfaceTest();
+  UIComponentListScrollBarWidthTest();
+  UIComponentListScrollBarColorTest();
   UIComponentScrollScrollBarScrollEdge();
   UIComponentScrollScrollBarVelocity();
   UIComponentOtherRefreshInterface();
