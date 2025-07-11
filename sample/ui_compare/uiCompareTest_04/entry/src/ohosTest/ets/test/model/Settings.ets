@@ -221,6 +221,33 @@ class Settings {
     });
   }
 
+  async changeWindowOrientation(end:string) {
+    window.getLastWindow(GlobalThis.getInstance().getContext('context')).then((lastWindow:window.Window) => {
+      let orientation:window.Orientation = this.windowClass!.getPreferredOrientation();
+      Logger.info(`before set window orientation: ${orientation}}`)
+      if(end === 'end'){
+        orientation = window.Orientation.PORTRAIT
+      } else if (end === 'landScape') {
+        orientation = window.Orientation.LANDSCAPE
+      } else if (end === 'portrait') {
+        orientation = window.Orientation.PORTRAIT
+      }
+      sleep(400)
+      try {
+        let promise = lastWindow.setPreferredOrientation(orientation);
+        promise.then(() => {
+          Logger.info('Succeeded in setting the window orientation.');
+          let orientation2 = lastWindow.getPreferredOrientation();
+          Logger.info(`after set window orientation: ${orientation2}}`)
+          globalThis.orientation = orientation;
+        }).catch((err: BusinessError) => {
+          Logger.error(`Failed to set the window orientation. Cause code: ${err.code}, message: ${err.message}`);
+        });
+      } catch (exception) {
+        Logger.error(`Failed to set window orientation. Cause code: ${exception.code}, message: ${exception.message}`);
+      }
+    })
+  }
 }
 
 export default new Settings()
