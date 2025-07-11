@@ -58,9 +58,9 @@ export default function StateRepeatArrayLikeTest() {
      * @tc.number  SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020
      * @tc.name    SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020
      * @tc.desc    Ecological Group 1
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020 start.`);
       Settings.createWindow("testability/pages/StateRepeatArrayLike/StateRepeatArrayLike002");
       let driver: Driver = Driver.create();
@@ -75,9 +75,9 @@ export default function StateRepeatArrayLikeTest() {
      * @tc.number  SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030
      * @tc.name    SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030
      * @tc.desc    Ecological Group 1
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030 start.`);
       Settings.createWindow("testability/pages/StateRepeatArrayLike/StateRepeatArrayLike003");
       let driver: Driver = Driver.create();

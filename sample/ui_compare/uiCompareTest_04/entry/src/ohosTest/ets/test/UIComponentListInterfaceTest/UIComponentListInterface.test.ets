@@ -42,9 +42,9 @@ export default function UIComponentListInterfaceTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250';
       Logger.info('TEST', `${caseName} start.`);
       Settings.createWindow("testability/pages/UIComponentListInterface/UIComponentListInterface001");
@@ -60,9 +60,9 @@ export default function UIComponentListInterfaceTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060';
       Logger.info('TEST', `${caseName} start.`);
       Settings.createWindow("testability/pages/UIComponentListInterface/UIComponentListInterface002");

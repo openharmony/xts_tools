@@ -62,9 +62,9 @@ export default function UIComponentListAndGridListInterfaceCachedCountShowTest()
       * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020
       * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020
       * @tc.desc    Component 3 groups
-      * @tc.level   1
+      * @tc.level   3
       */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020 start.`);
       Settings.createWindow("testability/pages/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow002");
       let driver: Driver = Driver.create();
@@ -79,9 +79,9 @@ export default function UIComponentListAndGridListInterfaceCachedCountShowTest()
       * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030
       * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030
       * @tc.desc    Component 3 groups
-      * @tc.level   1
+      * @tc.level   3
       */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030 start.`);
       Settings.createWindow("testability/pages/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow003");
       let driver: Driver = Driver.create();

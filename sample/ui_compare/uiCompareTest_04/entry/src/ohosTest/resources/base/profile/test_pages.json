@@ -78,6 +78,8 @@
     "testability/pages/UIComponentListAndGridListLeftSwipDeleteBuilderComponent/UIComponentListAndGridListLeftSwipDeleteBuilderComponent004",
     "testability/pages/UIComponentListAndGridListLeftSwipDeleteBuilderComponent/UIComponentListAndGridListLeftSwipDeleteBuilderComponent005",
     "testability/pages/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow001",
+    "testability/pages/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow002",
+    "testability/pages/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow003",
     "testability/pages/ActionEventCommonEventAreaChangeApproximateChange/ActionEventCommonEventAreaChangeApproximateChange001",
     "testability/pages/UIComponentListAndGridListComponent/UIComponentListAndGridListComponent001",
     "testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution001",
@@ -214,6 +216,12 @@
     "testability/pages/UIComponentListCapability/UIComponentListCapability008",
     "testability/pages/UIComponentListCapability/UIComponentListCapability009",
     "testability/pages/UIComponentListScrollBarColor/UIComponentListScrollBarColor004",
-    "testability/pages/UIComponentListScrollBarColor/UIComponentListScrollBarColor005"
+    "testability/pages/UIComponentListScrollBarColor/UIComponentListScrollBarColor005",
+    "testability/pages/UIComponentListInterface/UIComponentListInterface001",
+    "testability/pages/UIComponentListInterface/UIComponentListInterface002",
+    "testability/pages/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth001",
+    "testability/pages/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth002",
+    "testability/pages/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth003",
+    "testability/pages/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth004"
   ]
 }

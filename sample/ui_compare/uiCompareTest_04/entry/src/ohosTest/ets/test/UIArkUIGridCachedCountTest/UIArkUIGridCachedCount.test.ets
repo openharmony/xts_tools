@@ -41,9 +41,9 @@ export default function UIArkUIGridCachedCountTest() {
      * @tc.number  SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010
      * @tc.name    SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010 start.`);
       Settings.createWindow("testability/pages/UIArkUIGridCachedCount/UIArkUIGridCachedCount001");
       let driver: Driver = Driver.create();

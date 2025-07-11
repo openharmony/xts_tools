@@ -111,9 +111,9 @@ export default function UIComponentListAndGridGridMirrorTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430 start.`);
       Settings.createWindow("testability/pages/UIComponentListAndGridGridMirror/UIComponentListAndGridGridMirror005");
       let driver: Driver = Driver.create();
@@ -128,9 +128,9 @@ export default function UIComponentListAndGridGridMirrorTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420 start.`);
       Settings.createWindow("testability/pages/UIComponentListAndGridGridMirror/UIComponentListAndGridGridMirror006");
       let driver: Driver = Driver.create();

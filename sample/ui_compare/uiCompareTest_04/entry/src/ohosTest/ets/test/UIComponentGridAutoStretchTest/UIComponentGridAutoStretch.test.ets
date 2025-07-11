@@ -41,9 +41,9 @@ export default function UIComponentGridAutoStretchTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070 start.`);
       Settings.createWindow("testability/pages/UIComponentGridAutoStretch/UIComponentGridAutoStretch001");
       let driver: Driver = Driver.create();
@@ -60,9 +60,9 @@ export default function UIComponentGridAutoStretchTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060 start.`);
       Settings.createWindow("testability/pages/UIComponentGridAutoStretch/UIComponentGridAutoStretch002");
       let driver: Driver = Driver.create();
@@ -79,9 +79,9 @@ export default function UIComponentGridAutoStretchTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050 start.`);
       Settings.createWindow("testability/pages/UIComponentGridAutoStretch/UIComponentGridAutoStretch003");
       let driver: Driver = Driver.create();
@@ -98,9 +98,9 @@ export default function UIComponentGridAutoStretchTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410 start.`);
       Settings.createWindow("testability/pages/UIComponentGridAutoStretch/UIComponentGridAutoStretch004");
       let driver: Driver = Driver.create();

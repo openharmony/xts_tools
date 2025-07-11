@@ -41,9 +41,9 @@ export default function UIComponentListOffSetTest() {
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050
      * @tc.desc    Component 3 groups
-     * @tc.level   1
+     * @tc.level   3
      */
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050', Level.LEVEL1, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050 start.`);
       Settings.createWindow("testability/pages/UIComponentListOffSet/UIComponentListOffSet001");
       let driver: Driver = Driver.create();
