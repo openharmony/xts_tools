@@ -1,148 +1,212 @@
 {
-    "repo_list": [
-      {
-        "path": "base/global/resource_management",
-        "bundle_name": "resource_management",
-        "add_bundle": [],
-        "add_target": [
-          "test/xts/acts/global/perf/perfjs:perfjs_test"
-        ]
-      },
-      {
-        "path": "base/global/i18n",
-        "bundle_name": "i18n",
-        "add_bundle": [],
-        "add_target": [
-          "test/xts/acts/global/global_stage:global_stage_hap"
-        ]
-      },
-      {
-        "path": "third_party/vk-gl-cts",
-        "bundle_name": "vk-gl-cts",
-        "add_bundle": [],
-        "add_target": [
-          "test/xts/acts/graphic/vkgl:cpvkgl",
-          "test/xts/acts/graphic/vktest:cpVulkan"
-        ]
-      },
-      {
-        "path": "third_party/glslang",
-        "bundle_name": "glslang",
-        "add_bundle": [],
-        "add_target": [
-          "test/xts/acts/graphic/vkgl:cpvkgl",
-          "test/xts/acts/graphic/vktest:cpVulkan"
-        ]
-      },
-      {
-        "path": "third_party/spirv-headers",
-        "bundle_name": "",
-        "add_bundle": [],
-        "add_target": [
-          "test/xts/acts/graphic/vkgl:cpvkgl",
-          "test/xts/acts/graphic/vktest:cpVulkan"
-        ]
-      },
-      {
-        "path": "third_party/spirv-tools",
-        "bundle_name": "spirv-tools",
-        "add_bundle": [],
-        "add_target": [
-          "test/xts/acts/graphic/vkgl:cpvkgl",
-          "test/xts/acts/graphic/vktest:cpVulkan"
-        ]
-      },
-      {
-        "path": "build",
-        "bundle_name": "",
-        "add_bundle": [],
-        "add_target": [
-          "FULL_IMPACT"
-        ]
-      },
-      {
-        "path": "developtools/ace_ets2bundle",
-        "bundle_name": "",
-        "add_bundle": [],
-        "add_target": [
-          "FULL_IMPACT"
-        ]
-      },
-      {
-        "path": "developtools/ace_js2bundle",
-        "bundle_name": "",
-        "add_bundle": [],
-        "add_target": [
-          "FULL_IMPACT"
-        ]
-      },
-      {
-        "path": "developtools/hapsigner",
-        "bundle_name": "",
-        "add_bundle": [],
-        "add_target": [
-          "FULL_IMPACT"
-        ]
-      },
-      {
-        "path": "developtools/packing_tool",
-        "bundle_name": "",
-        "add_bundle": [],
-        "add_target": [
-          "FULL_IMPACT"
-        ]
-      },
-      {
-        "path": "third_party/parse5",
-        "bundle_name": "",
-        "add_bundle": [],
-        "add_target": [
-          "FULL_IMPACT"
-        ]
-      },
-      {
-        "path": "third_party/typescript",
-        "bundle_name": "",
-        "add_bundle": [],
-        "add_target": [
-          "FULL_IMPACT"
-        ]
-      },
-      {
-        "path": "third_party/weex-loader",
-        "bundle_name": "",
-        "add_bundle": [],
-        "add_target": [
-          "FULL_IMPACT"
-        ]
-      },
-      {
-        "path": "ide/tools/previewer",
-        "bundle_name": "",
-        "add_bundle": [],
-        "add_target": [
-          "FULL_IMPACT"
-        ]
-      },
-      {
-        "path": "prebuilts/config/ohos_sdk",
-        "bundle_name": "",
-        "add_bundle": [],
-        "add_target": [
-          "test/xts/acts:xts_acts"
-        ]
-      },
-      {
-        "path": "arkcompiler/ets_runtime",
-        "bundle_name": "ets_runtime",
-        "add_bundle": [
-          "ets_utils",
-          "memory_utils",
-          "musl",
-          "ets_fronted",
-          "node"
-        ],
-        "add_target": []
-      }
-    ]
-  }
+  "repo_list": [
+    {
+      "path": "base/global/resource_management",
+      "bundle_name": "resource_management",
+      "add_bundle": [],
+      "add_target": [
+        "test/xts/acts/global/perf/perfjs:perfjs_test"
+      ]
+    },
+    {
+      "path": "base/global/i18n",
+      "bundle_name": "i18n",
+      "add_bundle": [],
+      "add_target": [
+        "test/xts/acts/global/global_stage:global_stage_hap"
+      ]
+    },
+    {
+      "path": "third_party/vk-gl-cts",
+      "bundle_name": "vk-gl-cts",
+      "add_bundle": [],
+      "add_target": [
+        "test/xts/acts/graphic/vkgl:cpvkgl",
+        "test/xts/acts/graphic/vktest:cpVulkan"
+      ]
+    },
+    {
+      "path": "third_party/glslang",
+      "bundle_name": "glslang",
+      "add_bundle": [],
+      "add_target": [
+        "test/xts/acts/graphic/vkgl:cpvkgl",
+        "test/xts/acts/graphic/vktest:cpVulkan"
+      ]
+    },
+    {
+      "path": "third_party/spirv-headers",
+      "bundle_name": "",
+      "add_bundle": [],
+      "add_target": [
+        "test/xts/acts/graphic/vkgl:cpvkgl",
+        "test/xts/acts/graphic/vktest:cpVulkan"
+      ]
+    },
+    {
+      "path": "third_party/spirv-tools",
+      "bundle_name": "spirv-tools",
+      "add_bundle": [],
+      "add_target": [
+        "test/xts/acts/graphic/vkgl:cpvkgl",
+        "test/xts/acts/graphic/vktest:cpVulkan"
+      ]
+    },
+    {
+      "path": "build",
+      "bundle_name": "",
+      "add_bundle": [],
+      "add_target": [
+        "FULL_IMPACT"
+      ]
+    },
+    {
+      "path": "developtools/ace_ets2bundle",
+      "bundle_name": "",
+      "add_bundle": [],
+      "add_target": [
+        "FULL_IMPACT"
+      ]
+    },
+    {
+      "path": "developtools/ace_js2bundle",
+      "bundle_name": "",
+      "add_bundle": [],
+      "add_target": [
+        "FULL_IMPACT"
+      ]
+    },
+    {
+      "path": "developtools/hapsigner",
+      "bundle_name": "",
+      "add_bundle": [],
+      "add_target": [
+        "FULL_IMPACT"
+      ]
+    },
+    {
+      "path": "developtools/packing_tool",
+      "bundle_name": "",
+      "add_bundle": [],
+      "add_target": [
+        "FULL_IMPACT"
+      ]
+    },
+    {
+      "path": "third_party/parse5",
+      "bundle_name": "",
+      "add_bundle": [],
+      "add_target": [
+        "FULL_IMPACT"
+      ]
+    },
+    {
+      "path": "third_party/typescript",
+      "bundle_name": "",
+      "add_bundle": [],
+      "add_target": [
+        "FULL_IMPACT"
+      ]
+    },
+    {
+      "path": "third_party/weex-loader",
+      "bundle_name": "",
+      "add_bundle": [],
+      "add_target": [
+        "FULL_IMPACT"
+      ]
+    },
+    {
+      "path": "ide/tools/previewer",
+      "bundle_name": "",
+      "add_bundle": [],
+      "add_target": [
+        "FULL_IMPACT"
+      ]
+    },
+    {
+      "path": "prebuilts/config/ohos_sdk",
+      "bundle_name": "",
+      "add_bundle": [],
+      "add_target": [
+        "test/xts/acts:xts_acts"
+      ]
+    },
+    {
+      "path": "arkcompiler/ets_runtime",
+      "bundle_name": "ets_runtime",
+      "add_bundle": [
+        "ets_utils",
+        "memory_utils",
+        "musl",
+        "ets_fronted",
+        "node"
+      ],
+      "add_target": []
+    },
+    {
+      "path": "arkcompiler/ets_frontend",
+      "bundle_name": "ets_frontend",
+      "add_bundle": [],
+      "add_target": [
+        "test/xts/acts/ability/ability_runtime/actscollaborateresultteststatic:actscollaborateresultstatictest",
+        "test/xts/acts/ability/crossplatform/ability_runtime/actscontextteststatic:ActsCrossplatformAbilityContextStaticTest",
+        "test/xts/acts/ability/form/ActsFormTestStatic:ActsFormStaticTest",
+        "test/xts/acts/account/account_nopermissiontest_static:ActsAccountNoPermissionStaticTest",
+        "test/xts/acts/arkcompiler/arkts_ani_test_static:ActsArktsAniStaticTest",
+        "test/xts/acts/arkui/ace_ets_display_sync_static:DisplaySyncStaticTest",
+        "test/xts/acts/barrierfree/accessibilitysendaccessibilityeventstatic:ActsAccessibilitySendAccessibilityEventStaticTest",
+        "test/xts/acts/bundlemanager/bundle_standard/bundlemanager/actsabilitybmsenumteststatic:ActsAbilityBMSEnumStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/bitVector_standard_test_static:ActsBitVectorStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/buffer_standard_test_static:ActsBufferStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/com_container_standard_static:ActsContainerStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/com_uri_standard_static:ActsUriStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/com_url_standard_static:ActsUrlStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/decima_standard_static:ActsDecimaStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/global_standard_static:ActsGlobalStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/stream_standard_test_static:ActsStreamStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/stringDecoder_standard_test_static:ActsStringDecoderStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/util_standard_test_static:ActsUtilStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/util_types_standard_static:ActsUtilTypesStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/xml_standard_static:ActsXmlStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/builtin_static/builtin001_standard_test_static:ActsBuiltin1StaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/builtin_static/builtin002_standard_test_static:ActsBuiltin2StaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/concurrency_static/asynclock_test_static:ActsAsyncLockStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/concurrency_static/atomics_test_static:ActsAtomicsStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/concurrency_static/eaworker_test_static:ActsEAWorkerStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/concurrency_static/process_test_static:ActsProcessStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/concurrency_static/promise_test_static:ActsPromiseStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/concurrency_static/sharedarraybuffer_test_static:ActsSharedArrayBufferStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/concurrency_static/taskpool_base_test_static:ActsTaskpoolBaseStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/concurrency_static/taskpool_sendable_test_static:ActsTaskpoolSendableStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/concurrency_static/thread_safe_container_test_static:ActsThreadSafeContainerStaticTest",
+        "test/xts/acts/commonlibrary/ets_utils/utils_static/concurrency_static/timer_test_static:ActsTimerStaticTest",
+        "test/xts/acts/communication/bluetooth_ble_static:ActsBluetoothBleJsStaticTest",
+        "test/xts/acts/customization/config_policy_static:ActsConfigPolicyStaticTest",
+        "test/xts/acts/distributeddatamgr/UDMFtest/UDMFndktestHvigor:ActsUDMFNdkTest",
+        "test/xts/acts/global/global_stage_static:global_stage_static_hap",
+        "test/xts/acts/graphic/acts_graphicXTSDrawing_static:ActsDrawingTsStaticTest",
+        "test/xts/acts/hdf/device_manager/device_manager_noper_static:ActsDeviceManagerNoperStaticTest",
+        "test/xts/acts/hiviewdfx/hiappeventtest/hiappeventetsteststatic:ActsHiAppEventStaticTest",
+        "test/xts/acts/inputmethod/InputMethodAuthorityTestStatic:ActsInputMethodAuthorityStaticTest",
+        "test/xts/acts/notification/ans_standard/actsNotificationBadgeTestStatic:ActsNotificationBadgeStaticTest",
+        "test/xts/acts/notification/ces_standard/subScribeAndPublishTestStatic/actsSubScriberUnorderTestStatic:ActsSubscriberUnorderStaticTest",
+        "test/xts/acts/powermgr/battery_manager_static:powermgr_battery_static_test",
+        "test/xts/acts/print/PrintXtsTestStatic:ActsPrintXtsStaticTest",
+        "test/xts/acts/request/newRequestAuthorityTestStatic:ActsRequestAuthorityStaticTest",
+        "test/xts/acts/security/accessTokenTestStatic:ActsAccessTokenStaticTest",
+        "test/xts/acts/sensors/miscdevice_static:ActsMiscdeviceStaticTest",
+        "test/xts/acts/startup/startup_standard/deviceinfo_static:ActsStartupInitDeviceInfoStaticTest",
+        "test/xts/acts/storage/backupextensionteststatic:backupextension_js_test_static",
+        "test/xts/acts/telephony/networkmanager/connection/ActsNetworkMgrConnectionNoAnyPTestStatic:ActsNetworkMgrConnectionNopStaticTest",
+        "test/xts/acts/testfwk/uitest_errorcode_static:ActsUiTestErrorCodeStaticTest",
+        "test/xts/acts/testfwk/uitest_quarantine_static:ActsUiTestQuarStaticTest",
+        "test/xts/acts/testfwk/uitestStatic:ActsUiStaticTest",
+        "test/xts/acts/time/dateTimeTestStatic:ActsDateTimeAPIStaticTest",
+        "test/xts/acts/usb/usb_standard_ets_static:ActsUsbETSApiStaticTest",
+        "test/xts/acts/useriam/face_auth/js_api_test/function_test/userauthpart2_static:ActsUserauthTwoStaticTest",
+        "test/xts/acts/web/page_interaction/keyboard_mouse_operations_static:ActsWebKeyboardMouseOperationsStaticTest"
+      ]
+    }
+  ]
+}
