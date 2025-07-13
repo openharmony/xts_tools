@@ -162,7 +162,6 @@
         "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/com_container_standard_static:ActsContainerStaticTest",
         "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/com_uri_standard_static:ActsUriStaticTest",
         "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/com_url_standard_static:ActsUrlStaticTest",
-        "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/decima_standard_static:ActsDecimaStaticTest",
         "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/global_standard_static:ActsGlobalStaticTest",
         "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/stream_standard_test_static:ActsStreamStaticTest",
         "test/xts/acts/commonlibrary/ets_utils/utils_static/arkts_static/stringDecoder_standard_test_static:ActsStringDecoderStaticTest",
