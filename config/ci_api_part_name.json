@@ -7914,6 +7914,11 @@
                 "mechbody_controller"
             ],
             "build_targets": []
+        },
+        {
+           "path": "interface/sdk-js/api/@ohos.transfer.d.ets",
+           "bundle_name": ["ets_utils"],
+           "build_targets": []
         }
     ],
     "sdk_c":[
