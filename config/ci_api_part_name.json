@@ -6899,13 +6899,6 @@
                 "mechbody_controller"
             ],
             "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/interop.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
         }
     ],
     "sdk_c":[
