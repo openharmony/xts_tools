@@ -8597,6 +8597,13 @@
             "build_targets": []
         },
         {
+            "path": "drivers/interface/low_power_player",
+            "bundle_name": [
+                "drivers_interface_lpplayer"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "drivers/interface/motion",
             "bundle_name": [
                 "drivers_interface_motion"
