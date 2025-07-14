@@ -21,7 +21,7 @@ interface ArrObject {
 
 @Entry
 @Component
-struct UIComponentListAndGridListFocus005 {
+struct UIComponentListAndGridListInitialIndex005 {
   @State message: string = 'Hello';
   private arr: ArrObject[] = [
     {
