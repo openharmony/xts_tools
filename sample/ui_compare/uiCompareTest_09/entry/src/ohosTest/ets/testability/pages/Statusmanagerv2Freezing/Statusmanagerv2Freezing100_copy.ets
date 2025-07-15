@@ -96,7 +96,7 @@ class MyDataSource extends BasicDataSource {
 
 @Entry
 @Component({ freezeWhenInactive: true })
-struct LforEachTest70 {
+struct LforEachTest70_copy {
   private data: MyDataSource = new MyDataSource();
   @State @Watch("onMessageUpdated") message: number = 0;
 
