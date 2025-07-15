@@ -68,6 +68,10 @@
     "testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing80",
     "testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing80_copy",
     "testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing30",
-    "testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing30_copy"
+    "testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing30_copy",
+    "testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing160",
+    "testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing50",
+    "testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing100",
+    "testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing100_copy"
   ]
 }
