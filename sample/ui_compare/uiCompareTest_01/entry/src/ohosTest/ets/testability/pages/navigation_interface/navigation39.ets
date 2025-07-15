@@ -12,10 +12,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import { http } from '@kit.NetworkKit';
+import { image } from '@kit.ImageKit';
+import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct Navigation33 {
+struct Navigation39 {
   stack: NavPathStack = new NavPathStack();
   @State mode:NavigationMode = NavigationMode.Stack;
   @State titleMode:NavigationTitleMode = NavigationTitleMode.Free;
@@ -25,25 +28,25 @@ struct Navigation33 {
       Navigation(this.stack) {
         Stack({ alignContent: Alignment.Center }) {
           Button('pushPath', { stateEffect: true, type: ButtonType.Capsule })
-            .id('nav33PushPage12')
+            .id('nav39PushPage15')
             .width('80%')
             .height(40)
             .margin(20)
             .onClick(() => {
-              this.stack.pushPath({ name: "page12" });
+              this.stack.pushPath({ name: "page15" });
             })
         }
       }
       .width('100%')
       .height('60%')
-      .navDestination(Page12Builder)
+      .navDestination(Page15Builder)
       .title('Main Page')
       .titleMode(NavigationTitleMode.Mini)
 
       Button('ChangeMode')
         .margin({top:30})
         .height(40)
-        .id('nav33ChangeMode')
+        .id('nav39ChangeMode')
         .onClick(()=>{
           this.mode = NavigationMode.Auto;
         })
@@ -51,7 +54,7 @@ struct Navigation33 {
       Button('ChangeTitleMode')
         .margin({top:30})
         .height(40)
-        .id('nav33ChangeTitleMode')
+        .id('nav39ChangeTitleMode')
         .onClick(()=>{
           this.titleMode = NavigationTitleMode.Full;
         })
@@ -62,24 +65,65 @@ struct Navigation33 {
 }
 
 @Builder
-export function Page12Builder(name: string, param: Object) {
-  Page12Component();
+export function Page15Builder(name: string, param: Object) {
+  Page15Component();
 }
 
 @Builder
-export function Page13Builder(name: string, param: Object) {
-  Page13Component();
+export function Page16Builder(name: string, param: Object) {
+  Page16Component();
 }
 
 declare type voidFunc = () => void;
 
+function createPixelMapImage(img: PixelMap | undefined, url: string) {
+  let OutData: http.HttpResponse;
+  let code: http.ResponseCode | number;
+  http.createHttp().request(url,
+    (error: BusinessError, data: http.HttpResponse) => {
+      if (error) {
+        console.error(`http request failed with. Code: ${error.code}, message: ${error.message}`);
+      } else {
+        OutData = data;
+        code = OutData.responseCode;
+        if (http.ResponseCode.OK === code) {
+          let imageData: ArrayBuffer = OutData.result as ArrayBuffer;
+          let imageSource: image.ImageSource = image.createImageSource(imageData);
+
+          class tmp {
+            height: number = 100;
+            width: number = 100;
+          }
+
+          // 创建图片大小
+          let options: Record<string, number | boolean | tmp> = {
+            'alphaType': 0, // 透明度
+            'editable': false, // 是否可编辑
+            'pixelFormat': 3, // 像素格式
+            'scaleMode': 1, // 缩略值
+            'size': { height: 100, width: 100 }
+          }
+
+          imageSource.createPixelMap(options).then((pixelMap: PixelMap) => {
+            img = pixelMap;
+          })
+        }
+      }
+    }
+  );
+}
+
 @Component
-struct Page12Component {
-  @State name: string = 'page12';
+struct Page15Component {
+  @State name: string = 'page15';
   @State destWidth: string = '100%';
   stack: NavPathStack = new NavPathStack();
-  @State backImg: Resource | string = $r("app.media.icon");
+  @State backImg: PixelMap | undefined = undefined;
   @State y: string = '0';
+
+  aboutToAppear(): void {
+    createPixelMapImage(this.backImg,'https://i.imgs.ovh/2025/06/26/RtRhM.png')
+  }
 
   build() {
     NavDestination() {
@@ -89,47 +133,47 @@ struct Page12Component {
           .height(40)
           .margin(20)
           .onClick(() => {
-            this.stack.pushPath({ name: "Page13" });
+            this.stack.pushPath({ name: "Page16" });
           })
 
         Button('ChangeImgPng')
           .margin({top:30})
           .height(25)
-          .id('nav33ChangeImgPng')
+          .id('nav39ChangeImgPng')
           .onClick(()=>{
-            this.backImg = $r("app.media.icon");
+            createPixelMapImage(this.backImg,'https://i.imgs.ovh/2025/06/26/RtRhM.png')
           })
 
         Button('ChangeImgJpg')
           .margin({top:30})
           .height(25)
-          .id('nav33ChangeImgJpg')
+          .id('nav39ChangeImgJpg')
           .onClick(()=>{
-            this.backImg = 'https://images.openharmony.cn/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg';
+            createPixelMapImage(this.backImg,'http://images.openharmony.cn/活动/开发者大会20250428/大会顶端banner图.jpg')
           })
 
         Button('ChangeImgGif')
           .margin({top:30})
           .height(25)
-          .id('nav33ChangeImgGif')
+          .id('nav39ChangeImgGif')
           .onClick(()=>{
-            this.backImg = $r("app.media.icon3");
+            createPixelMapImage(this.backImg,'https://www.runoob.com/try/demo_source/smiley-2.gif')
           })
 
         Button('ChangeImgSvg')
           .margin({top:30})
           .height(25)
-          .id('nav33ChangeImgSvg')
+          .id('nav39ChangeImgSvg')
           .onClick(()=>{
-            this.backImg = $r("app.media.icon2");
+            createPixelMapImage(this.backImg,'https://images.openharmony.cn/活动/技术大会20240923/补充头像/默认男头像.svg')
           })
 
         Button('ChangeImgBmp')
           .margin({top:30})
           .height(25)
-          .id('nav33ChangeImgBmp')
+          .id('nav39ChangeImgBmp')
           .onClick(()=>{
-            this.backImg = 'https://docimg9.docs.qq.com/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114';
+            createPixelMapImage(this.backImg,'')
           })
       }
       .size({ width: '100%', height: '100%' })
@@ -142,12 +186,12 @@ struct Page12Component {
       this.name = context.pathInfo.name;
       this.stack = context.pathStack;
     })
-    .backgroundColor(this.name == 'Page12' ? '#F1F3F5' : '#ff11dee5')
+    .backgroundColor(this.name == 'Page15' ? '#F1F3F5' : '#ff11dee5')
   }
 }
 
 @Component
-struct Page13Component {
+struct Page16Component {
   private stack: NavPathStack | null = null;
   @State eventStr: string = "";
 
@@ -166,7 +210,7 @@ struct Page13Component {
       .width('100%')
       .height('100%')
     }
-    .title('page13')
+    .title('page16')
     .backButtonIcon('resources/base/media/icon.png')
     .onAppear(() => {
       this.eventStr += "<onAppear>";

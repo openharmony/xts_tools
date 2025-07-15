@@ -910,5 +910,263 @@ export default function NavigationInterfaceTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747 finish.`);
       done()
     })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957
+     * @tc.desc   : Do not set hideNavBar for navigation, navigation bar displayed by default
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation36")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072
+     * @tc.desc   : Set NavigationTitleMode.Free for navigation, the title bar zooms in and out with vertical scrolling
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation37")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      let scrollBar: Component = await driver.waitForComponent(ON.id('nav37ScrollList'), 1000);
+      await scrollBar.scrollToTop();
+      await scrollBar.scrollToBottom();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await scrollBar.scrollToBottom();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165
+     * @tc.desc   : Set hideBackButton of navigation to true, hiding the back button
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation38")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916
+     * @tc.desc   : Set Navigation to automatically switch between single/double column modes, set backButtonIcon
+     * property with PixelMap type
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation39")
+      let driver: Driver = Driver.create();
+      Logger.info('TEST', `button1.click begin.`);
+      let button1: Component = await driver.waitForComponent(ON.id('nav39ChangeMode'), 1000);
+      await button1.click();
+      Logger.info('TEST', `button1.click success.`);
+      let button2: Component = await driver.waitForComponent(ON.id('nav39ChangeTitleMode'), 1000);
+      await button2.click();
+      Logger.info('TEST', `button2.click success.`);
+      let button3: Component = await driver.waitForComponent(ON.id('nav39PushPage15'), 1000);
+      await button3.click();
+      Logger.info('TEST', `button3.click success.`);
+
+      let button4: Component = await driver.waitForComponent(ON.id('nav39ChangeImgPng'), 1000);
+      let button5: Component = await driver.waitForComponent(ON.id('nav39ChangeImgJpg'), 1000);
+      let button6: Component = await driver.waitForComponent(ON.id('nav39ChangeImgGif'), 1000);
+      let button7: Component = await driver.waitForComponent(ON.id('nav39ChangeImgSvg'), 1000);
+      let button8: Component = await driver.waitForComponent(ON.id('nav39ChangeImgBmp'), 1000);
+      await button4.click();
+      Logger.info('TEST', `button4.click success.`);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      await button5.click();
+      Logger.info('TEST', `button5.click success.`);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      await button6.click();
+      Logger.info('TEST', `button6.click success.`);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      await button7.click();
+      Logger.info('TEST', `button7.click success.`);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      await button8.click();
+      Logger.info('TEST', `button8.click success.`);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      await Settings.changeWindowOrientation('landScape');
+      await driver.waitForIdle(500, 2000);
+      Logger.info('TEST', `changeWindowOrientation first success. orientation is: ${globalThis.orientation}`);
+      if (globalThis.orientation === window.Orientation.LANDSCAPE) {
+        windowSnap.snapShot()
+        await Utils.sleep(1000)
+        await Settings.changeWindowOrientation('portrait');
+        await driver.waitForIdle(500, 2000);
+        Logger.info('TEST', `changeWindowOrientation second success. orientation is: ${globalThis.orientation}`);
+        if (globalThis.orientation === window.Orientation.PORTRAIT) {
+          Logger.info('TEST', `button9.click begin.`);
+          let button9: Component = await driver.waitForComponent(ON.id('nav39ChangeImgPng'), 1000);
+          await button9.click();
+          Logger.info('TEST', `button9.click success.`);
+          windowSnap.snapShot()
+          await Utils.sleep(1000)
+          let button10: Component = await driver.waitForComponent(ON.id('nav39ChangeImgJpg'), 1000);
+          await button10.click();
+          windowSnap.snapShot()
+          await Utils.sleep(1000)
+          let button11: Component = await driver.waitForComponent(ON.id('nav39ChangeImgGif'), 1000);
+          await button11.click();
+          windowSnap.snapShot()
+          await Utils.sleep(1000)
+          let button12: Component = await driver.waitForComponent(ON.id('nav39ChangeImgSvg'), 1000);
+          await button12.click();
+          windowSnap.snapShot()
+          await Utils.sleep(1000)
+          let button13: Component = await driver.waitForComponent(ON.id('nav39ChangeImgBmp'), 1000);
+          await button13.click();
+          windowSnap.snapShot()
+          await Utils.sleep(1000)
+        }
+        await driver.waitForIdle(500, 2000);
+        windowSnap.snapShot()
+        await Utils.sleep(1000)
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916 finish.`);
+        done()
+      }
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249
+     * @tc.desc   : Do not set hideTitleBar for NavDestination, default is false (title bar visible)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation05")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448
+     * @tc.desc   : Set NavigationTitleMode.Full for navigation, title bar becomes large title
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation40")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781
+     * @tc.desc   : Set NavigationMode.Split for navigation, switch to split mode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation41")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await Settings.changeWindowOrientation('landScape');
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await Settings.changeWindowOrientation('end');
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_100
+     * @tc.desc   : Navigation pop transition animation (side slide)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_100', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_100 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation42")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_100 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_030
+     * @tc.desc   : Navigation pushPathByName transition animation
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_030 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation42")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_030 finish.`);
+      done()
+    })
   })
 }
