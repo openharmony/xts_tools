@@ -19,6 +19,7 @@ import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
+import { BusinessError } from '@kit.BasicServicesKit'
 
 export default function RouterPushTest() {
 
@@ -28,7 +29,7 @@ export default function RouterPushTest() {
         return
       }
 
-      Settings.windowClass.destroyWindow((err) => {
+      Settings.windowClass.destroyWindow((err:BusinessError) => {
         if (err.code) {
           Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
           return;
@@ -117,6 +118,7 @@ export default function RouterPushTest() {
       await Settings.changeWindowOrientation()
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270_02')
+      await Utils.sleep(800)
       await Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270 finish.`);
       done()
@@ -936,7 +938,7 @@ export default function RouterPushTest() {
       let buttonC: Component = await driver.waitForComponent(ON.id('PageC_Button4_3'), 1000);
       await buttonC.click();
 
-      await Utils.sleep(1000)
+      await driver.waitForIdle(500,2000);
 
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0580')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0580 finish.`);
@@ -1399,6 +1401,136 @@ export default function RouterPushTest() {
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0100')
       await Utils.sleep(800)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0100 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0480
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0480
+     * @tc.desc   : Verification of normal combined navigation functionality (back + push) for custom animated router
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0480', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0480 start.`);
+      Settings.createWindow("testability/pages/router_push/pageA4")
+      let driver: Driver = Driver.create();
+      let buttonA1: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
+      await buttonA1.click();
+      await driver.waitForIdle(500,2000);
+      let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button4_1'), 1000);
+      await buttonB.click();
+      await driver.waitForIdle(500,2000);
+      let buttonA2: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
+      await buttonA2.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(800)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0480 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780
+     * @tc.desc   : Perform continuous back operations
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780 start.`);
+      Settings.createWindow("testability/pages/router_push/pages1_32/page01")
+      let driver: Driver = Driver.create();
+      let buttonInit: Component = await driver.waitForComponent(ON.id('Push_Pages'), 1000);
+      await buttonInit.click();
+      await driver.waitForIdle(500,2000);
+      for (let i = 0; i < 31; i++) {
+        let str:string = `${32-i}`
+        if (32-i < 10) {
+          str = '0' + str
+        }
+        let buttonId:string = 'Page' + str + '_Back';
+        Logger.info('TEST', `buttonId is: ${buttonId}.`);
+        let button: Component = await driver.waitForComponent(ON.id(buttonId), 1000);
+        await button.click();
+      }
+      windowSnap.snapShot()
+      await Utils.sleep(800)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240
+     * @tc.desc   : Validate the effect of interrupted and resumed navigation stack under screen orientation
+     * changes (push + push)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240 start.`);
+      Settings.createWindow("testability/pages/router_push/pageA")
+      let driver: Driver = Driver.create();
+      let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
+      await buttonA.click();
+      let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button1'), 1000);
+      await buttonB.click();
+      await Settings.changeWindowOrientation()
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(800)
+      await Settings.changeWindowOrientation('end')
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320
+     * @tc.desc   : Verification of normal combined navigation functionality (push + back) with system animations disabled
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320 start.`);
+      Settings.createWindow("testability/pages/router_push/pageA2")
+      let driver: Driver = Driver.create();
+      let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
+      await buttonA.click();
+      let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button2_5'), 1000);
+      await buttonB.click();
+      windowSnap.snapShot()
+      await Utils.sleep(800)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130
+     * @tc.desc   : Click verification of router back navigation interruption and resumption functionality (via back last page)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130 start.`);
+      Settings.createWindow("testability/pages/router_push/pageA")
+      let driver: Driver = Driver.create();
+      let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
+      await buttonA.click();
+      let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button1'), 1000);
+      await buttonB.click();
+      let buttonC: Component = await driver.waitForComponent(ON.id('PageC_Button6'), 1000);
+      await buttonC.click();
+      windowSnap.snapShot()
+      await Utils.sleep(800)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130 finish.`);
       done()
     })
   })

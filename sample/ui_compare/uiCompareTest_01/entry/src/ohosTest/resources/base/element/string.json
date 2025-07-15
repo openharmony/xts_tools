@@ -51,6 +51,14 @@
     {
       "name": "abc",
       "value": "abc"
+    },
+    {
+      "name": "navigation_tools",
+      "value": "icon"
+    },
+    {
+      "name": "navigation_title",
+      "value": "test"
     }
   ]
 }

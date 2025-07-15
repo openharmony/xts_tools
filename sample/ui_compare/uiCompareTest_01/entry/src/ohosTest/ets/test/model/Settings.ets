@@ -13,8 +13,8 @@
  * limitations under the License.
  */
 
-import screen from '@ohos.screen';
-import window from '@ohos.window';
+import { screen } from '@kit.ArkUI';
+import { window } from '@kit.ArkUI';
 import Logger from './Logger';
 import { GlobalThis } from './globalThis'
 import { BusinessError } from '@ohos.base'
@@ -41,7 +41,7 @@ class Settings {
 
   changeWindowPosition(windowClass: window.Window, X: number | undefined, Y: number | undefined) {
     //为悬浮窗设置位置
-    windowClass.moveWindowTo(X, Y, (err) => {
+    windowClass.moveWindowTo(X, Y, (err: BusinessError) => {
       if (err.code) {
         Logger.error(TAG, `Failed to move the window. Cause : ${JSON.stringify(err)}`)
         return;
@@ -52,7 +52,7 @@ class Settings {
 
   changeWindowSize(windowClass: window.Window, width: number | undefined, height: number | undefined) {
     //为悬浮窗设置大小
-    windowClass.resize(width, height, (err) => {
+    windowClass.resize(width, height, (err: BusinessError) => {
       if (err.code) {
         Logger.error(TAG, `Failed to change the window size. Cause : ${JSON.stringify(err)}`)
         return;
@@ -63,7 +63,7 @@ class Settings {
 
   loadContent(windowClass: window.Window, pageURI: string) {
     //为悬浮窗加载对应的目标页面
-    windowClass.setUIContent(pageURI, (err) => {
+    windowClass.setUIContent(pageURI, (err: BusinessError) => {
       if (err.code) {
         Logger.error(TAG, `Failed to load the window. Cause : ${JSON.stringify(err)}`)
         return;
@@ -71,7 +71,7 @@ class Settings {
       Logger.info(TAG, `Succeeded in loading the content.`);
 
       //显示悬浮窗
-      windowClass.showWindow((err) => {
+      windowClass.showWindow((err: BusinessError) => {
         if (err.code) {
           Logger.error(TAG, `Failed to show the window. Cause : ${JSON.stringify(err)}`)
           return;
@@ -83,7 +83,7 @@ class Settings {
 
   loadContentChange(windowClass: window.Window, pageURI: string) {
     //为悬浮窗加载对应的目标页面
-    windowClass.setUIContent(pageURI, (err) => {
+    windowClass.setUIContent(pageURI, (err: BusinessError) => {
       if (err.code) {
         Logger.error(TAG, `Failed to load the window. Cause : ${JSON.stringify(err)}`)
         return;
@@ -127,7 +127,7 @@ class Settings {
 
   destroyWindow(windowClass: window.Window) {
     //销毁窗口
-    windowClass.destroyWindow((err) => {
+    windowClass.destroyWindow((err: BusinessError) => {
       if (err.code) {
         Logger.error(TAG, `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
         return;
@@ -137,8 +137,8 @@ class Settings {
   }
 
   async changeWindowOrientation(end?:string) {
-    window.getLastWindow(GlobalThis.getInstance().getContext('context')).then((lastWindow) => {
-      let orientation = this.windowClass!.getPreferredOrientation();
+    window.getLastWindow(GlobalThis.getInstance().getContext('context')).then((lastWindow:window.Window) => {
+      let orientation:window.Orientation = this.windowClass!.getPreferredOrientation();
       Logger.info(`before set window orientation: ${orientation}}`)
       // 如果未定义 切成横屏
       // 如果是竖屏 切成横屏
@@ -152,14 +152,19 @@ class Settings {
       } else if (orientation = window.Orientation.LANDSCAPE) {
         orientation = window.Orientation.PORTRAIT
       }
-
+      // globalThis.orientation = orientation;
+      // Logger.info(`prepare to set window orientation: ${orientation}`)
+      // Logger.info(`prepare to set window orientation: ${globalThis.orientation}`)
       // lastWindow.setPreferredOrientation(orientation)
+      sleep(400)
+      globalThis.orientation = orientation;
       try {
         let promise = lastWindow.setPreferredOrientation(orientation);
         promise.then(() => {
           Logger.info('Succeeded in setting the window orientation.');
           let orientation2 = lastWindow.getPreferredOrientation();
           Logger.info(`after set window orientation: ${orientation2}}`)
+          globalThis.orientation = orientation;
         }).catch((err: BusinessError) => {
           Logger.error(`Failed to set the window orientation. Cause code: ${err.code}, message: ${err.message}`);
         });

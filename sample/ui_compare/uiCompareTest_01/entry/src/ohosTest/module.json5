@@ -20,8 +20,6 @@
     "description": "$string:module_test_desc",
     "mainElement": "TestAbility",
     "deviceTypes": [
-      "default",
-      "tablet"
     ],
     "deliveryWithInstall": true,
     "installationFree": false,
@@ -76,6 +74,7 @@
           }
         ]
       }
-    ]
+    ],
+    "routerMap": "$profile:router_map"
   }
 }

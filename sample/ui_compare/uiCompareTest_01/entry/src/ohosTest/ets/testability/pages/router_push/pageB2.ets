@@ -67,13 +67,21 @@ struct PageB2 {
           this.routePush('testability/pages/router_push/pageB2')
         })
 
-
       Button('Back PageA')
         .margin({top:30})
         .height(40)
         .id('PageB_Button2_4')
         .onClick(()=>{
           this.router.back()
+        })
+
+
+      Button('Back uri PageA')
+        .margin({top:30})
+        .height(40)
+        .id('PageB_Button2_5')
+        .onClick(()=>{
+          this.router.back({url:'testability/pages/router_push/pageB2'})
         })
     }
   }

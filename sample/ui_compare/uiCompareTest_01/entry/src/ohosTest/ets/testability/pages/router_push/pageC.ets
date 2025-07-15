@@ -77,6 +77,24 @@ struct PageC {
             Utils.sleep(500)
             this.routePush('testability/pages/router_push/pageA')
           })
+
+        Button('Back url pageB')
+          .margin({top:30})
+          .height(40)
+          .id('PageC_Button5')
+          .onClick(()=>{
+            this.router.back({url:'testability/pages/router_push/pageB'})
+          })
+
+        Button('Back url and Back')
+          .margin({top:30})
+          .height(40)
+          .id('PageC_Button6')
+          .onClick(()=>{
+            this.router.back({url:'testability/pages/router_push/pageB'})
+            Utils.sleep(500)
+            this.router.back()
+          })
       }
       .width('100%')
     }
