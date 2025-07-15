@@ -70,7 +70,6 @@ struct textTimer01 {
           .fontSize(30)
           .fontStyle(FontStyle.Normal)
           .fontWeight(10)
-          .fontFamily('HarmonyOS Sans')
           .textShadow(this.textShadow)
           .contentModifier(this.myTimerModifier)
           .onTimer((utc: number, elapsedTime: number) => {
@@ -84,7 +83,6 @@ struct textTimer01 {
           .fontSize(36)
           .fontStyle(FontStyle.Italic)
           .fontWeight(18)
-          .fontFamily('HarmonyOS Sans')
           .textShadow(this.textShadow)
           .onTimer((utc: number, elapsedTime: number) => {
             console.info('textTimer onTimer utc is：' + utc + ', elapsedTime: ' + elapsedTime);

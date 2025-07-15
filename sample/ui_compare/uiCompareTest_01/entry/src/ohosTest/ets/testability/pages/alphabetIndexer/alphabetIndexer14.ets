@@ -94,8 +94,7 @@ struct AlphabetIndexer14 {
           .popupFont(
             { size: 10,
               weight: FontWeight.Normal,
-              style:FontStyle.Normal,
-              family:'HarmonyOS Sans'
+              style:FontStyle.Normal
             }) // 提示弹窗一级索引的文本样式
           .itemSize(28) // 索引项的尺寸大小
           .popupItemBorderRadius(24) // 设置提示弹窗索引项背板圆角半径
