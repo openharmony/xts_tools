@@ -14,22 +14,26 @@
  */
 @Entry
 @Component
-struct MediaTextpickerOnenterselectedareaMtbf02 {
-  private options: string[] = ['苹果', '香蕉', '橙子', '葡萄'];
-  @State selectedItem: string = '苹果';
+struct ProgressLinear03 {
+
 
   build() {
     Column() {
-      Button('打开选择器')
-        .onClick(() => {
-          // 核心调用
-          TextPickerDialog.show({
-            range: this.options,                // 选项数组
-            selected: this.options.indexOf(this.selectedItem), // 默认选中项索引
-          })
-        })
-        .id('MediaTextpickerDisabletsa01')
+      Text('进度条1:')
+      Progress({ value: 10, type: ProgressType.Linear })
+        .style({strokeWidth:20,strokeRadius:0})
+      Text('进度条2:')
+      Progress({ value: 10, type: ProgressType.Linear })
+        .style({strokeWidth: 20,strokeRadius:5})
+      Text('进度条3:')
+      Progress({ value: 10, type: ProgressType.Linear })
+        .style({strokeWidth: 20,strokeRadius:30})
+      Text('进度条4:')
+      Progress({ value: 10, type: ProgressType.Linear })
+        .style({strokeWidth: 20,strokeRadius:-2})
     }
-    .padding(20)
+    .width('100%')
+    .height('100%')
+    .justifyContent(FlexAlign.Center)
   }
 }

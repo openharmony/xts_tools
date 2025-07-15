@@ -24,14 +24,18 @@ class MyProgressModifier implements AttributeModifier<ProgressModifier> {
       instance.backgroundColor(Color.Black);
     }
     else {
-      instance.backgroundColor(Color.Red);
+      instance.backgroundColor(Color.Blue);
+      instance.linearGradient({
+        angle: 90,
+        colors: [[0xff0000, 0.0], [0x0000ff, 0.3], [0xffff00, 1.0]]
+      })
     }
   }
 }
 
 @Entry
 @Component
-struct UiComponentInfomationProgressModifierColor0011 {
+struct UiComponentInfomationProgressModifierColor0012 {
   @State modifier: MyProgressModifier = new MyProgressModifier();
 
   build() {
