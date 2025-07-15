@@ -41,18 +41,20 @@ struct ReusableFlowItem {
 
 @Entry
 @Component
-struct WaterFlowFad29 {
+struct WaterFlowFad48 {
   minSize: number = 80;
   maxSize: number = 180;
   fontSize: number = 24;
   @State endInfo: string = 'Na';
   @State scrollInfo: string = 'Na';
+  @State sections: WaterFlowSections = new WaterFlowSections();
+  @State flowItemWidth: Length = '100%';
+  @State mode:WaterFlowLayoutMode = WaterFlowLayoutMode.ALWAYS_TOP_DOWN
   colors: number[] = [0xFFC0CB, 0xDA70D6, 0x6B8E23, 0x6A5ACD, 0x00FFFF, 0x00FF7F];
   scroller: Scroller = new Scroller();
   dataSource: WaterFlowDataSource01 = new WaterFlowDataSource01();
   dataCount: number = this.dataSource.totalCount();
   private itemHeightArray: number[] = [];
-  @State sections: WaterFlowSections = new WaterFlowSections();
   sectionMargin: Margin = { top: 10, left: 5, bottom: 10, right: 5 };
   oneColumnSection: SectionOptions = {
     itemsCount: 4,
@@ -118,8 +120,8 @@ struct WaterFlowFad29 {
   build() {
     Column({ space: 2 }) {
       Row() {
-        Button('splice')
-          .id('WaterFlowFad29_Splice')
+        Button('Add')
+          .id('WaterFlowFad48_Add')
           .height('5%')
           .onClick(() => {
             // 将所有分组替换成一个新分组，注意保证LazyForEach中数据数量和新分组itemsCount保持一致
@@ -135,49 +137,6 @@ struct WaterFlowFad29 {
             this.sections.splice(0, oldLength, [newSection]);
           })
           .margin({ top: 10, left: 20 })
-        Button('update')
-          .height('5%')
-          .onClick(() => {
-            // 在第二个分组增加4个FlowItem，注意保证LazyForEach中数据数量和所有分组itemsCount的和保持一致
-            let newSection: SectionOptions = {
-              itemsCount: 6,
-              crossCount: 3,
-              columnsGap: 5,
-              rowsGap: 10,
-              margin: this.sectionMargin,
-              onGetItemMainSizeByIndex: (index: number) => {
-                return this.itemHeightArray[index % 100];
-              }
-            }
-            this.dataSource.addItem(this.oneColumnSection.itemsCount);
-            this.dataSource.addItem(this.oneColumnSection.itemsCount + 1);
-            this.dataSource.addItem(this.oneColumnSection.itemsCount + 2);
-            this.dataSource.addItem(this.oneColumnSection.itemsCount + 3);
-            const result: boolean = this.sections.update(1, newSection);
-            console.info('update:' + result);
-          })
-          .margin({ top: 10, left: 20 })
-        Button('delete')
-          .height('5%')
-          .onClick(() => {
-            // 先点击update再点击delete
-            let newSection: SectionOptions = {
-              itemsCount: 2,
-              crossCount: 2,
-              columnsGap: 5,
-              rowsGap: 10,
-              margin: this.sectionMargin,
-              onGetItemMainSizeByIndex: (index: number) => {
-                return this.itemHeightArray[index % 100];
-              }
-            }
-            this.dataSource.deleteItem(this.oneColumnSection.itemsCount);
-            this.dataSource.deleteItem(this.oneColumnSection.itemsCount);
-            this.dataSource.deleteItem(this.oneColumnSection.itemsCount);
-            this.dataSource.deleteItem(this.oneColumnSection.itemsCount);
-            this.sections.update(1, newSection);
-          })
-          .margin({ top: 10, left: 20 })
         Button('values')
           .height('5%')
           .onClick(() => {
@@ -190,21 +149,29 @@ struct WaterFlowFad29 {
           .margin({ top: 10, left: 20 })
       }.margin({ bottom: 20 })
 
-      Button('scroll 150')
-        .id('waterFlowFad_29')
-        .height('5%')
-        .onClick(() => {
-          // 点击后下滑指定距离150vp
-          this.scroller.scrollBy(0, 150)
-        })
-        .margin({ top: 10, left: 20 })
+      Row() {
+        Button('change WaterFlowLayoutMode')
+          .id('waterFlowFad_48_01')
+          .height('5%')
+          .onClick(() => {
+            this.mode = WaterFlowLayoutMode.SLIDING_WINDOW
+          })
 
-      WaterFlow({ scroller: this.scroller, sections: this.sections, layoutMode: WaterFlowLayoutMode.SLIDING_WINDOW }) {
+        Button('change WaterFlowLayoutMode')
+          .id('waterFlowFad_48_02')
+          .height('5%')
+          .onClick(() => {
+            this.mode = WaterFlowLayoutMode.ALWAYS_TOP_DOWN
+          })
+          .margin({ left: 20 })
+      }.margin({ bottom: 20 })
+
+      WaterFlow({ scroller: this.scroller, sections: this.sections, layoutMode: this.mode }) {
         LazyForEach(this.dataSource, (item: number) => {
           FlowItem() {
             ReusableFlowItem({ item: item })
           }
-          .width('100%')
+          .width(this.flowItemWidth)
           // 以onGetItemMainSizeByIndex为准
           // .height(this.itemHeightArray[item % 100])
           .backgroundColor(this.colors[item % 5])
