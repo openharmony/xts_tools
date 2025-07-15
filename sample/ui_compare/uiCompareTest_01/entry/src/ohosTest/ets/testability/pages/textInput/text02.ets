@@ -58,8 +58,8 @@ struct Text02 {
           .objectFit(ImageFit.Fill)
           .verticalAlign(ImageSpanAlignment.CENTER)
 
-        Span('             ')
-          .id('Text02SpanBlank')
+        Span('                      ')
+          .width('50%')
           .textShadow(this.textShadows)
           .decoration({ type: TextDecorationType.LineThrough, color: Color.Red })
           .fontSize(25)
@@ -73,9 +73,10 @@ struct Text02 {
             .width('40vp')
             .height('40vp')
             .verticalAlign(ImageSpanAlignment.CENTER)
-          Span('   Hello World !   ').fontSize('16fp').fontColor(Color.White)
+          Span('Hello!').fontSize('16fp').fontColor(Color.White)
         }.textBackgroundStyle({ color: "#7F007DFF", radius: "12vp" })
       }
+      .id('Text02SpanBlank')
       .width('100%')
       .textIndent(10)
     }.width('100%').height('100%').backgroundColor('#F1F3F5')

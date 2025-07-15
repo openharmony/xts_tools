@@ -32,7 +32,7 @@ struct TextArea01 {
         placeholder: 'The text area can hold an unlimited amount of text. input your word...',
         controller: this.controller
       })
-        .id('textArea01_01')
+        .id('TextArea01_01')
         .placeholderFont({ size: 16, weight: 400 })
         .width('70%')
         .lineSpacing(this.lineSpacing)
@@ -48,7 +48,7 @@ struct TextArea01 {
       Button('Change lineSpacing')
         .margin({top:30})
         .height(40)
-        .id('textArea01_02')
+        .id('TextArea01_02')
         .onClick( () => {
           this.lineSpacing = LengthMetrics.vp(10)
         })

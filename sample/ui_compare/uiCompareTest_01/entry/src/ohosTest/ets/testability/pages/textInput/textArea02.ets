@@ -31,7 +31,7 @@ struct TextArea02 {
         placeholder: 'The text area can hold an unlimited amount of text. input your word...',
         controller: this.controller
       })
-        .id('textArea02_01')
+        .id('TextArea02_01')
         .selectedBackgroundColor(this.selectedColor)
         .placeholderFont({ size: 16, weight: 400 })
         .width('70%')
@@ -48,7 +48,7 @@ struct TextArea02 {
       Button('Change selectedBackgroundColor')
         .margin({top:30})
         .height(40)
-        .id('textArea02_02')
+        .id('TextArea02_02')
         .onClick( () => {
           this.selectedColor = Color.Red
         })
