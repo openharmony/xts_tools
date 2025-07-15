@@ -51,6 +51,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0270_321 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad01")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_01'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -71,6 +72,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0020 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad02")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_02'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -91,6 +93,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0050 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad03")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_03'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -111,6 +114,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637_672 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad04")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_04'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -131,6 +135,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad05")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_05'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -151,6 +156,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637_672_462_424_902 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad06")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_06_01'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -174,6 +180,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637_672_952 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad07")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_07_01'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -197,6 +204,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0410 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad08")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_08'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -217,6 +225,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0360 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad09")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_09'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -237,6 +246,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0420 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad10")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_10'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -257,6 +267,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0350 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad11")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_11'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -277,6 +288,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0380 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad12")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_12'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -297,6 +309,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0390 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad13")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_13'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -317,6 +330,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0370 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad14")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_14'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -337,6 +351,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0400 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad15")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_15'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -357,6 +372,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0010 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad16")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_16'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -377,6 +393,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0240 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad17")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_17'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -397,6 +414,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0130 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad18")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_18'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -417,6 +435,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0120 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad19")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_19'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -437,6 +456,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0110 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad20")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_20'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -457,6 +477,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0220 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad21")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_21'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -477,6 +498,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0230 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad22")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_22'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -799,6 +821,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0150 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad36")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_36_01'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -822,6 +845,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0050 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad37")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('WaterFlowFad37_Splice'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -842,6 +866,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0030 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad38")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_38'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -862,6 +887,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0140 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad39")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_39'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -882,6 +908,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0170 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad40")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1500,2000);
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_40'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
@@ -925,6 +952,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0220 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad42")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_42'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -945,6 +973,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0240 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad43")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_43'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -965,6 +994,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0210 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad44")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_44'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -985,6 +1015,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0230 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad45")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_45'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -1025,6 +1056,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0200 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad47")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1500,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_47_01'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -1048,6 +1080,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0170 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad48")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_48_01'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -1071,6 +1104,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0260 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad49")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_49'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -1091,6 +1125,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0250 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad50")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_50_01'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -1142,6 +1177,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0240 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad52")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_52_01'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -1193,6 +1229,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0220 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad54")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_54_01'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -1239,6 +1276,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0270 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad56")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_56_01'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -1267,6 +1305,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0290 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad57")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_57_01'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -1295,6 +1334,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0300 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad58")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_58'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -1316,6 +1356,7 @@ export default function WaterFlowFadingEdgeTest() {
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad59")
 
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_59_01'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
@@ -1354,6 +1395,7 @@ export default function WaterFlowFadingEdgeTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0440 start.`);
       Settings.createWindow("testability/pages/waterflow_fadingedge/waterflowFad60")
       let driver:Driver = Driver.create();
+      await driver.waitForIdle(1000,2000);
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_60'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);

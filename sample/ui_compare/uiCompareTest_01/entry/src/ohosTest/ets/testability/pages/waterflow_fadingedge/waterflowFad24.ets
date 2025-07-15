@@ -188,6 +188,22 @@ struct WaterFlowFad24 {
           .margin({ top: 10, left: 8 })
       }.margin({ bottom: 20 })
 
+      Row() {
+        Button('scroll 500')
+          .id('waterFlowFad_24_01')
+          .height('5%')
+          .onClick(() => {
+            this.scroller.scrollBy(0, 500)
+          })
+
+        Button('scroll -150')
+          .id('waterFlowFad_24_02')
+          .height('5%')
+          .onClick(() => {
+            this.scroller.scrollBy(0, -150)
+          })
+          .margin({ left: 20 })
+      }.margin({ bottom: 20 })
       WaterFlow({ scroller: this.scroller, sections: this.sections, layoutMode: WaterFlowLayoutMode.SLIDING_WINDOW }) {
         LazyForEach(this.dataSource, (item: number) => {
           FlowItem() {
@@ -219,22 +235,6 @@ struct WaterFlowFad24 {
           this.sections.update(-1, newSection);
         }
       })
-
-      Button('scroll 500')
-        .id('waterFlowFad_24_01')
-        .height('5%')
-        .onClick(() => {
-          this.scroller.scrollBy(0, 500)
-        })
-        .margin({ top: 10, left: 20 })
-
-      Button('scroll -150')
-        .id('waterFlowFad_24_02')
-        .height('5%')
-        .onClick(() => {
-          this.scroller.scrollBy(0, -150)
-        })
-        .margin({ top: 10, left: 20 })
     }
   }
 }
