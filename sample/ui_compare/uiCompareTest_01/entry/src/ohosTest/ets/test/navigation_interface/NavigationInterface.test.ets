@@ -175,13 +175,13 @@ export default function NavigationInterfaceTest() {
       windowSnap.snapShot()
       await Utils.sleep(1000)
 
-      await Settings.changeWindowOrientation();
+      await Settings.changeWindowOrientation('landScape');
       await driver.waitForIdle(500, 2000);
       Logger.info('TEST', `changeWindowOrientation first success. orientation is: ${globalThis.orientation}`);
       if (globalThis.orientation === window.Orientation.LANDSCAPE) {
         windowSnap.snapShot()
         await Utils.sleep(1000)
-        await Settings.changeWindowOrientation();
+        await Settings.changeWindowOrientation('portrait');
         await driver.waitForIdle(500, 2000);
         Logger.info('TEST', `changeWindowOrientation second success. orientation is: ${globalThis.orientation}`);
         if (globalThis.orientation === window.Orientation.PORTRAIT) {
@@ -258,8 +258,6 @@ export default function NavigationInterfaceTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405 start.`);
       Settings.createWindow("testability/pages/navigation_interface/navigation06")
       let driver: Driver = Driver.create();
-      // let button1: Component = await driver.waitForComponent(ON.id('nav06PushPageFour'), 1000);
-      // await button1.click();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot()
       await Utils.sleep(1000)
@@ -554,6 +552,362 @@ export default function NavigationInterfaceTest() {
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_216 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0590_474
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0590_474
+     * @tc.desc   : Set NavigationMode.Stack for navigation, switch to stack mode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0590_474', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0590_474 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation22")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      await Settings.changeWindowOrientation('landScape');
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await Settings.changeWindowOrientation('end');
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0590_474 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0360
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0360
+     * @tc.desc   : Set navBarPosition of navigation to NavBarPosition.End, set successfully
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0360', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0360 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation23")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('nav23ChangeNavBarPosition'), 1000);
+      await button.click();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0360 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0260
+     * @tc.desc   : Set hideToolBar for navigation to true, hiding toolbar
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0260', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0260 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation24")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('nav24ChangeHideToolBar'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0260 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0720_462
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0720_462
+     * @tc.desc   : Set the parameter type of page title to NavigationCustomTitle, set successfully
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0720_462', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0720_462 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation25")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('nav25ChangeTitle'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0720_462 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470
+     * @tc.desc   : Set menus for navigation to type Array<NavigationMenuItem>, set successfully
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation26")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369
+     * @tc.desc   : Set hideTitleBar of NavDestination to true, hiding title bar
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation27")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448
+     * @tc.desc   : Set title of NavDestination to customBuilder type, without setting width and height, set successfully
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation28")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053
+     * @tc.desc   : Set NavigationMode.Stack for navigation, set successfully
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation29")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557
+     * @tc.desc   : Set title of NavDestination to string type, set successfully
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation30")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0570_324
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0570_324
+     * @tc.desc   : Set NavigationMode for navigation to Auto, switch to Auto mode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0570_324', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0570_324 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation31")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      await Settings.changeWindowOrientation('landScape');
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await Settings.changeWindowOrientation('end');
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0570_324 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250
+     * @tc.desc   : Set navBarWidth of navigation to Resource type, set successfully
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation32")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await Settings.changeWindowOrientation('end');
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249
+     * @tc.desc   : Set Navigation to automatically switch between single and double column modes, set backButtonIcon
+     * property, pass Resource type
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation33")
+      let driver: Driver = Driver.create();
+      Logger.info('TEST', `button1.click begin.`);
+      let button1: Component = await driver.waitForComponent(ON.id('nav33ChangeMode'), 1000);
+      await button1.click();
+      Logger.info('TEST', `button1.click success.`);
+      let button2: Component = await driver.waitForComponent(ON.id('nav33ChangeTitleMode'), 1000);
+      await button2.click();
+      Logger.info('TEST', `button2.click success.`);
+      let button3: Component = await driver.waitForComponent(ON.id('nav33PushPage12'), 1000);
+      await button3.click();
+      Logger.info('TEST', `button3.click success.`);
+
+      let button4: Component = await driver.waitForComponent(ON.id('nav33ChangeImgPng'), 1000);
+      let button5: Component = await driver.waitForComponent(ON.id('nav33ChangeImgJpg'), 1000);
+      let button6: Component = await driver.waitForComponent(ON.id('nav33ChangeImgGif'), 1000);
+      let button7: Component = await driver.waitForComponent(ON.id('nav33ChangeImgSvg'), 1000);
+      let button8: Component = await driver.waitForComponent(ON.id('nav33ChangeImgBmp'), 1000);
+      await button4.click();
+      Logger.info('TEST', `button4.click success.`);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      await button5.click();
+      Logger.info('TEST', `button5.click success.`);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      await button6.click();
+      Logger.info('TEST', `button6.click success.`);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      await button7.click();
+      Logger.info('TEST', `button7.click success.`);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      await button8.click();
+      Logger.info('TEST', `button8.click success.`);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      await Settings.changeWindowOrientation('landScape');
+      await driver.waitForIdle(500, 2000);
+      Logger.info('TEST', `changeWindowOrientation first success. orientation is: ${globalThis.orientation}`);
+      if (globalThis.orientation === window.Orientation.LANDSCAPE) {
+        windowSnap.snapShot()
+        await Utils.sleep(1000)
+        await Settings.changeWindowOrientation('portrait');
+        await driver.waitForIdle(500, 2000);
+        Logger.info('TEST', `changeWindowOrientation second success. orientation is: ${globalThis.orientation}`);
+        if (globalThis.orientation === window.Orientation.PORTRAIT) {
+          Logger.info('TEST', `button9.click begin.`);
+          let button9: Component = await driver.waitForComponent(ON.id('nav33ChangeImgPng'), 1000);
+          await button9.click();
+          Logger.info('TEST', `button9.click success.`);
+          windowSnap.snapShot()
+          await Utils.sleep(1000)
+          let button10: Component = await driver.waitForComponent(ON.id('nav33ChangeImgJpg'), 1000);
+          await button10.click();
+          windowSnap.snapShot()
+          await Utils.sleep(1000)
+          let button11: Component = await driver.waitForComponent(ON.id('nav33ChangeImgGif'), 1000);
+          await button11.click();
+          windowSnap.snapShot()
+          await Utils.sleep(1000)
+          let button12: Component = await driver.waitForComponent(ON.id('nav33ChangeImgSvg'), 1000);
+          await button12.click();
+          windowSnap.snapShot()
+          await Utils.sleep(1000)
+          let button13: Component = await driver.waitForComponent(ON.id('nav33ChangeImgBmp'), 1000);
+          await button13.click();
+          windowSnap.snapShot()
+          await Utils.sleep(1000)
+        }
+        await driver.waitForIdle(500, 2000);
+        windowSnap.snapShot()
+        await Utils.sleep(1000)
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249 finish.`);
+        done()
+      }
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285
+     * @tc.desc   : Set title of NavDestination to NavigationCustomTitle type, set height to Length type, set
+     * successfully
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation34")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747
+     * @tc.desc   : Set toolBar for navigation to CustomBuilder type, in single column mode, set successfully
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigation35")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747 finish.`);
       done()
     })
   })
