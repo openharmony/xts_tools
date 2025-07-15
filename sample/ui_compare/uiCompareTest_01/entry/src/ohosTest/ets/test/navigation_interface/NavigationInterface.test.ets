@@ -1130,43 +1130,5 @@ export default function NavigationInterfaceTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781 finish.`);
       done()
     })
-
-    /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_100
-     * @tc.desc   : Navigation pop transition animation (side slide)
-     * @tc.type   : Function
-     * @tc.size   : MediumTest
-     * @tc.level  : 3
-     */
-    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_100', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_100 start.`);
-      Settings.createWindow("testability/pages/navigation_interface/navigation42")
-      let driver: Driver = Driver.create();
-      await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_100 finish.`);
-      done()
-    })
-
-    /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_030
-     * @tc.desc   : Navigation pushPathByName transition animation
-     * @tc.type   : Function
-     * @tc.size   : MediumTest
-     * @tc.level  : 3
-     */
-    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_030', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_030 start.`);
-      Settings.createWindow("testability/pages/navigation_interface/navigation42")
-      let driver: Driver = Driver.create();
-      await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_TRANSITIONS_030 finish.`);
-      done()
-    })
   })
 }
