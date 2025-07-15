@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-class MyDataSource implements IDataSource {
+class MyDataSource2 implements IDataSource {
   private list: number[] = []
 
   constructor(list: number[]) {
@@ -39,14 +39,14 @@ class MyDataSource implements IDataSource {
 @Component
 struct SwiperExample {
   private swiperController: SwiperController = new SwiperController()
-  private data: MyDataSource = new MyDataSource([])
+  private data: MyDataSource2 = new MyDataSource2([])
 
   aboutToAppear(): void {
     let list: number[] = []
     for (let i = 1; i <= 10; i++) {
       list.push(i);
     }
-    this.data = new MyDataSource(list)
+    this.data = new MyDataSource2(list)
   }
 
   build() {

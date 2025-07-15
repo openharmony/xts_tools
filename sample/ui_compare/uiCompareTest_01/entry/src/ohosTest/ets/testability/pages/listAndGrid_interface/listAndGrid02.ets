@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct listAndGrid02 {
-  private timeTable: TimeTable[] = [
+  private timeTable: TimeTable2[] = [
     {
       title: '星期一',
       projects: ['语文']
@@ -44,7 +44,7 @@ struct listAndGrid02 {
   build() {
     Column() {
       List({ space: 20 }) {
-        ForEach(this.timeTable, (item: TimeTable) => {
+        ForEach(this.timeTable, (item: TimeTable2) => {
           ListItemGroup({ header: this.itemHead(item.title), footer: this.itemFoot(item.projects.length), style:ListItemGroupStyle.NONE }) {
             ForEach(item.projects, (project: string) => {
               ListItem({ style: ListItemStyle.CARD }) {
@@ -69,7 +69,7 @@ struct listAndGrid02 {
   }
 }
 
-interface TimeTable {
+interface TimeTable2 {
   title: string;
   projects: string[];
 }

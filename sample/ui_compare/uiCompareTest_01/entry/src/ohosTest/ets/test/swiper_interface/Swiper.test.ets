@@ -41,7 +41,7 @@ export default function SwiperTest() {
     })
 
     /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0010
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0200
      * @tc.name   : For displayArrow(value: ArrowStyle | boolean, isHoverShow?: boolean), set the arrowSize parameter
      * of ArrowStyle to a string type value "abcd"
      * @tc.type   : Function

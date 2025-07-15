@@ -89,8 +89,6 @@ export default function ArcSwiperTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0190 start.`);
       Settings.createWindow("testability/pages/arc_interface/arcDotIndicator03")
       let driver:Driver = Driver.create();
-      let button: Component = await driver.waitForComponent(ON.id('arcDotIndicator03'), 1000);
-      await button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
       await Utils.sleep(1000)
@@ -109,8 +107,6 @@ export default function ArcSwiperTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0200 start.`);
       Settings.createWindow("testability/pages/arc_interface/arcDotIndicator04")
       let driver:Driver = Driver.create();
-      let button: Component = await driver.waitForComponent(ON.id('arcDotIndicator04'), 1000);
-      await button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
       await Utils.sleep(1000)
