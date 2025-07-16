@@ -22,7 +22,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw55 {
   private context2: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.settings2)
   private offContext: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings)
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
-  @State text :string = 'set font to xxxx italic bold adb 50px sans-serif'
+  @State text :string = 'set font to xxxx italic bold 50px sans-serif'
   @State text2 :string = 'set font to 50px'
   private img:ImageBitmap = new ImageBitmap("/icon.png")
 
@@ -53,7 +53,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw55 {
           this.context.stroke()
           this.offContext.moveTo(140, 10)
           this.offContext.lineTo(140, 90)
-          ctx.font = 'xxxx italic bold adb 50px sans-serif'
+          ctx.font = 'xxxx italic bold 50px sans-serif'
           ctx.textAlign = 'start'
           ctx.fillText('textAlign=start', 140, 60)
           ctx.fillText('Hello World!', 140, 90)
