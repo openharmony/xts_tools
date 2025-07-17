@@ -19,6 +19,7 @@ import ComponentNavNavigationBack from './ComponentNavNavigationBackTest/Compone
 import ComponentNavNavigation from './ComponentNavNavigationTest/ComponentNavNavigation.test'
 import ComponentNavModifier from './ComponentNavModifierTest/ComponentNavModifier.test'
 import InfomationGaugeUi from './InfomationGaugeUiTest/InfomationGaugeUi.test'
+import MediaGaugeWatches from './MediaGaugeWatchesTest/MediaGaugeWatches.test'
 
 
 
@@ -28,4 +29,5 @@ export default function testsuite() {
   ComponentNavNavigation();
   ComponentNavModifier();
   InfomationGaugeUi();
+  MediaGaugeWatches();
 }

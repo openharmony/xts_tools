@@ -66,5 +66,12 @@
     "testability/pages/InfomationGaugeUi/InfomationGaugeUi0170",
     "testability/pages/InfomationGaugeUi/InfomationGaugeUi0180",
     "testability/pages/InfomationGaugeUi/InfomationGaugeUi0190",
+    "testability/pages/MediaGaugeWatches/MediaGaugeWatches0012",
+    "testability/pages/MediaGaugeWatches/MediaGaugeWatches0016",
+    "testability/pages/MediaGaugeWatches/MediaGaugeWatches0011",
+    "testability/pages/MediaGaugeWatches/MediaGaugeWatches0010",
+    "testability/pages/MediaGaugeWatches/MediaGaugeWatches0013",
+    "testability/pages/MediaGaugeWatches/MediaGaugeWatches0014",
+    "testability/pages/MediaGaugeWatches/MediaGaugeWatches0015"
   ]
 }
