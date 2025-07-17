@@ -18,6 +18,7 @@
 import ComponentNavNavigationBack from './ComponentNavNavigationBackTest/ComponentNavNavigationBack.test'
 import ComponentNavNavigation from './ComponentNavNavigationTest/ComponentNavNavigation.test'
 import ComponentNavModifier from './ComponentNavModifierTest/ComponentNavModifier.test'
+import InfomationGaugeUi from './InfomationGaugeUiTest/InfomationGaugeUi.test'
 
 
 
@@ -26,4 +27,5 @@ export default function testsuite() {
   ComponentNavNavigationBack();
   ComponentNavNavigation();
   ComponentNavModifier();
+  InfomationGaugeUi();
 }
