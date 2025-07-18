@@ -1825,7 +1825,328 @@ export default function UIComponentTextChipInterface() {
       done();
     })
 
-    
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890
+     * @tc.desc    Set chip suffixIcon fillColor to Color Red for SVG image
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890';
+      let pageName = "UIComponentTextChipInterface0890";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900
+     * @tc.desc    Set chip suffixIcon fillColor to 0xff0000 for SVG image
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900';
+      let pageName = "UIComponentTextChipInterface0900";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910
+     * @tc.desc    Set chip suffixIcon fillColor to #ff000000 for SVG image
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910';
+      let pageName = "UIComponentTextChipInterface0910";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920
+     * @tc.desc    Set chip suffixIcon fillColor to $r('app.color.yellow') for SVG image
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920';
+      let pageName = "UIComponentTextChipInterface0920";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930
+     * @tc.desc    Not set chip suffixIcon fillColor for SVG image
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930';
+      let pageName = "UIComponentTextChipInterface0930";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950
+     * @tc.desc    Set chip label text to "操作块"
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950';
+      let pageName = "UIComponentTextChipInterface0950";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960
+     * @tc.desc    Dynamically increase text length in chip label
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960';
+      let pageName = "UIComponentTextChipInterface0960";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000)
+      await driver.waitForIdle(500, 1000);
+      await button.click();
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970
+     * @tc.desc    Set chip label fontSize to 20px
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970';
+      let pageName = "UIComponentTextChipInterface0970";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980
+     * @tc.desc    Set chip label fontSize to '50%'
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980';
+      let pageName = "UIComponentTextChipInterface0980";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990
+     * @tc.desc    Set chip label fontSize to 10vp
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990';
+      let pageName = "UIComponentTextChipInterface0990";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000
+     * @tc.desc    Set chip label fontSize to 10fp
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000';
+      let pageName = "UIComponentTextChipInterface1000";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010
+     * @tc.desc    Set chip label fontSize to 10lpx
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010';
+      let pageName = "UIComponentTextChipInterface1010";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020
+     * @tc.desc    Set chip label fontSize to 0
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020';
+      let pageName = "UIComponentTextChipInterface1020";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030
+     * @tc.desc    Set chip label fontSize to -10vp
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030';
+      let pageName = "UIComponentTextChipInterface1030";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040
+     * @tc.desc    Set chip label fontSize to $r('app.integer.name')
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040';
+      let pageName = "UIComponentTextChipInterface1040";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060
+     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060
+     * @tc.desc    Not set chip label fontSize
+     * @tc.level   0
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060', Level.LEVEL0, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060';
+      let pageName = "UIComponentTextChipInterface1060";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentTextChipInterface/' + pageName);
+      let driver: Driver = Driver.create();
+      let chip: Component = await driver.waitForComponent(ON.text('操作块'), 1000);
+      await driver.waitForIdle(500, 1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
 
   })
 }
