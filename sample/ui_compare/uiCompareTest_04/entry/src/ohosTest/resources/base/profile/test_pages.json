@@ -161,7 +161,6 @@
     "testability/pages/ActionGestureConfiguration/ActionGestureConfiguration001",
     "testability/pages/ActionGestureConfiguration/ActionGestureConfiguration002",
     "testability/pages/ActionGestureConfiguration/ActionGestureConfiguration003",
-    "testability/pages/StatusManagerV2WithTheme/StatusManagerV2WithTheme001",
     "testability/pages/StatusManagerV2RepeatFreezeStatusManager/StatusManagerV2RepeatFreezeStatusManager001",
     "testability/pages/StatusManagerV2LazyForEachBetter/StatusManagerV2LazyForEachBetter001",
     "testability/pages/StatusManagerV2LazyForEachBetter/StatusManagerV2LazyForEachBetter002",
