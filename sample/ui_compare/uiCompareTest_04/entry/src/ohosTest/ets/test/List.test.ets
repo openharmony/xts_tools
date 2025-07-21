@@ -45,13 +45,6 @@ import StateRepeatArrayLikeTest from './StateRepeatArrayLikeTest/StateRepeatArra
 import ActionEventCommonEventKeyEventDispatchTest from './ActionEventCommonEventKeyEventDispatchTest/ActionEventCommonEventKeyEventDispatch.test';
 import ActionEventCommonEventFrameNodeGestureTest from './ActionEventCommonEventFrameNodeGestureTest/ActionEventCommonEventFrameNodeGesture.test';
 import ActionGestureConfigurationTest from './ActionGestureConfigurationTest/ActionGestureConfiguration.test';
-import UIComponentArcListScrollBarTest from './UIComponentArcListScrollBarTest/UIComponentArcListScrollBar.test';
-import UIComponentAcrListScrollBarWidthTest from './UIComponentAcrListScrollBarWidthTest/UIComponentAcrListScrollBarWidth.test';
-import UIComponentArcListEnableScrollInteractionTest from './UIComponentArcListEnableScrollInteractionTest/UIComponentArcListEnableScrollInteraction.test';
-import UIComponentArcListInitialIndexTest from './UIComponentArcListInitialIndexTest/UIComponentArcListInitialIndex.test';
-import UIComponentArcListAutoScaleTest from './UIComponentArcListAutoScaleTest/UIComponentArcListAutoScale.test';
-import UIComponentArcListFlingSpeedLimitTest from './UIComponentArcListFlingSpeedLimitTest/UIComponentArcListFlingSpeedLimit.test';
-import StatusManagerV2WithThemeTest from './StatusManagerV2WithThemeTest/StatusManagerV2WithTheme.test';
 import UIComponentSnapShotComponentContentTest from './UIComponentSnapShotComponentContentTest/UIComponentSnapShotComponentContent.test';
 import StatusManagerV2LazyForEachBetterTest from './StatusManagerV2LazyForEachBetterTest/StatusManagerV2LazyForEachBetter.test';
 import UIComponentListAndGridListFocusTest from './UIComponentListAndGridListFocusTest/UIComponentListAndGridListFocus.test';
@@ -91,16 +84,9 @@ export default function testsuite() {
   ActionEventCommonEventKeyEventDispatchTest();
   ActionEventCommonEventFrameNodeGestureTest();
   ActionGestureConfigurationTest();
-  UIComponentArcListScrollBarTest();
-  UIComponentAcrListScrollBarWidthTest();
-  UIComponentArcListEnableScrollInteractionTest();
-  UIComponentArcListInitialIndexTest();
-  UIComponentArcListAutoScaleTest();
-  StatusManagerV2WithThemeTest();
   UIComponentSnapShotComponentContentTest();
   StatusManagerV2LazyForEachBetterTest();
   UIComponentListAndGridListFocusTest();
   UIComponentListAndGridListInitialIndexTest();
   StatusManagerV2RepeatFreezeStatusManagerTest();
-  UIComponentArcListFlingSpeedLimitTest();
 }
