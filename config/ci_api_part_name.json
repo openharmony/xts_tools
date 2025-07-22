@@ -8553,6 +8553,13 @@
             "path": "interface/sdk_c/patches/patches.json",
             "bundle_name": [],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/TEEKit",
+            "bundle_name": [
+                "tee_dev_kit"
+            ],
+            "build_targets": []
         }
     ],
     "driver_interface": [
