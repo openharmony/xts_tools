@@ -39,6 +39,60 @@ export default function UIComponentListScrollBarColorTest() {
     })
 
     /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010', Level.LEVEL3, async (done: Function) => {
+      const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIComponentListScrollBarColor/UIComponentListScrollBarColor001");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020', Level.LEVEL3, async (done: Function) => {
+      const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIComponentListScrollBarColor/UIComponentListScrollBarColor002");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030', Level.LEVEL3, async (done: Function) => {
+      const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030';
+      Logger.info('TEST', `${caseName} start.`);
+      Settings.createWindow("testability/pages/UIComponentListScrollBarColor/UIComponentListScrollBarColor003");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `${caseName} finish.`);
+      done();
+    });
+
+    /*
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0040
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0040
      * @tc.desc    Component 3 groups

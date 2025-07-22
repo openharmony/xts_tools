@@ -15,12 +15,12 @@
 
 @Entry
 @Component
-struct UIComponentListOffSet001 {
+struct UIComponentListScrollBarColor001 {
   @State numbers: number[] = [];
   @State columnsGap: number = 10;
   @State rowsGap: number = 10;
   private scroller: Scroller = new Scroller();
-  private caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050';
+  private caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010';
 
   aboutToAppear(): void {
     for(let i: number = 0; i < 20; i++) {
@@ -31,7 +31,7 @@ struct UIComponentListOffSet001 {
   build() {
     Column() {
       Column() {
-        Text(`设置contentStartOffset=5`)
+        Text(`scrollBarColor的值为0xffa500`)
           .fontSize(20)
           .width('100%')
           .height('10%')
@@ -50,8 +50,7 @@ struct UIComponentListOffSet001 {
             }.backgroundColor(0xF9CF93)
           }, (item: string) => item)
         }
-        .contentStartOffset(5)
-        .scrollBarColor(Color.Gray)
+        .scrollBarColor(0xffa500)
         .enableScrollInteraction(true)
         .multiSelectable(false)
         .edgeEffect(EdgeEffect.Spring)
