@@ -81,7 +81,6 @@ import UIComponentListOffSetTest from './UIComponentListOffSetTest/UIComponentLi
 import UIComponentGridLayoutTest from './UIComponentGridLayoutTest/UIComponentGridLayout.test';
 import UIArkUIGridCachedCountTest from './UIArkUIGridCachedCountTest/UIArkUIGridCachedCount.test';
 import UIComponentGridCapabilityTest from './UIComponentGridCapabilityTest/UIComponentGridCapability.test';
-import StatusManagerProviderTest from './StatusManagerProviderTest/StatusManagerProvider.test';
 import StatusManagerV2IfElseAnimateToTest from './StatusManagerV2IfElseAnimateToTest/StatusManagerV2IfElseAnimateTo.test';
 
 export default function testsuite() {
@@ -152,7 +151,6 @@ export default function testsuite() {
   UIComponentGridLayoutTest();
   UIArkUIGridCachedCountTest();
   UIComponentGridCapabilityTest();
-  StatusManagerProviderTest();
   StatusManagerV2IfElseAnimateToTest();
   UIComponentArcListFlingSpeedLimitTest();
 }
