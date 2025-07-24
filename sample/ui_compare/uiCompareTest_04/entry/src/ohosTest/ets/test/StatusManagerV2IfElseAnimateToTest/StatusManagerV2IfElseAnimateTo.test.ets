@@ -56,5 +56,78 @@ export default function StatusManagerV2IfElseAnimateToTest() {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0010 finish.`);
       done();
     });
+    
+    /*
+     * @tc.number  SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020
+     * @tc.name    SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020 start.`);
+      Settings.createWindow("testability/pages/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo002");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('changeData'), 1000);
+      await button.click();
+      await driver.waitForIdle(3000, 3000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040
+     * @tc.name    SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040 start.`);
+      Settings.createWindow("testability/pages/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo003");
+      let driver: Driver = Driver.create();
+      let button1: Component = await driver.waitForComponent(ON.id('changeData1'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('pushUrl'), 1000);
+      await button2.click();
+      let button3: Component = await driver.waitForComponent(ON.id('changeData2'), 1000);
+      await button3.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050
+     * @tc.name    SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050 start.`);
+      Settings.createWindow("testability/pages/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo005");
+      let driver: Driver = Driver.create();
+      let button1: Component = await driver.waitForComponent(ON.id('changeData1'), 1000);
+      await button1.click();
+      await driver.waitForIdle(500, 2000);
+      await button1.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      let button2: Component = await driver.waitForComponent(ON.id('pushUrl'), 1000);
+      await button2.click();
+      let button3: Component = await driver.waitForComponent(ON.id('changeData2'), 1000);
+      await button3.click();
+      await driver.waitForIdle(500, 2000);
+      await button3.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050 finish.`);
+      done();
+    });
   })
 }
