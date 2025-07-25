@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,29 +13,90 @@
  * limitations under the License.
  */
 
-import demoTest from  './Demo.test';
+import UIComponentGridEvent
+  from './UIComponentGridEventTest/UIComponentGridEvent.test';
+import UIComponentGridEdgeEffect
+  from './UIComponentGridEdgeEffectTest/UIComponentGridEdgeEffect.test';
+import UIComponentGridClipComent
+  from './UIComponentGridClipComentTest/UIComponentGridClipComent.test';
+import UIComponentGridAnimation
+  from './UIComponentGridAnimationTest/UIComponentGridAnimation.test';
+import UICustomDrawingSafeAreaScene
+  from './UICustomDrawingSafeAreaSceneTest/UICustomDrawingSafeAreaScene.test';
+import UIUIAppearanceDarkMode
+  from './UIUIAppearanceDarkModeTest/UIUIAppearanceDarkMode.test';
+import UIComponentPopupBoxSelectMirror
+  from './UIComponentPopupBoxSelectMirrorTest/UIComponentPopupBoxSelectMirror.test';
+import UIComponentPopupBoxPopupScenarios
+  from './UIComponentPopupBoxPopupScenariosTest/UIComponentPopupBoxPopupScenarios.test';
+import UIComponentScrollSwiperIgnoreBlank
+  from './UIComponentScrollSwiperIgnoreBlankTest/UIComponentScrollSwiperIgnoreBlank.test';
 import TestCase from './TestCaseTest/TestCase.test';
 import UIComponentLayoutStack from './UIComponentLayoutStackTest/UIComponentLayoutStack.test';
+import UIComponentDrawingSafeAreaE
+  from './UIComponentDrawingSafeAreaETest/UIComponentDrawingSafeAreaE.test';
+import UIComponentPopupBoxModalTransitionKeyboard
+  from './UIComponentPopupBoxModalTransitionKeyboardTest/UIComponentPopupBoxModalTransitionKeyboard.test';
+import UIComponentPopupBoxModalTransitionHover
+  from './UIComponentPopupBoxModalTransitionHoverTest/UIComponentPopupBoxModalTransitionHover.test';
+import UIComponentPopupBoxModalTransitionHeightFree
+  from './UIComponentPopupBoxModalTransitionHeightFreeTest/UIComponentPopupBoxModalTransitionHeightFree.test';
+import ActionEventCommonEventKeyEventDispatch
+  from './ActionEventCommonEventKeyEventDispatchTest/ActionEventCommonEventKeyEventDispatch.test';
+import ArkUIComponentFunctionSpecialComponentsDialogCustomSelectInputMethodOptimization
+  from './ArkUIComponentFunctionSpecialComponentsDialogCustomSelectInputMethodOptimizationTest/ArkUIComponentFunctionSpecialComponentsDialogCustomSelectInputMethodOptimization.test';
+import BackgroundImageCommonPropertySupportSyncLoad
+  from './BackgroundImageCommonPropertySupportSyncLoadTest/BackgroundImageCommonPropertySupportSyncLoad.test';
+import UIAttributesHoverEffectDoubleStrokeInterface
+  from './UIAttributesHoverEffectDoubleStrokeInterfaceTest/UIAttributesHoverEffectDoubleStrokeInterface.test';
+import UIAttributesImageEffectSpherical
+  from './UIAttributesImageEffectSphericalTest/UIAttributesImageEffectSpherical.test';
 import UIComponentArcListScrollBarColor
   from './UIComponentArcListScrollBarColorTest/UIComponentArcListScrollBarColor.test';
+import UIComponentButtonTextPickerDefaultTextStyle
+  from './UIComponentButtonTextPickerDefaultTextStyleTest/UIComponentButtonTextPickerDefaultTextStyle.test';
 import UIComponentInfomationProgressModifierColor
   from './UIComponentInfomationProgressModifierColorTest/UIComponentInfomationProgressModifierColor.test';
+import UIComponentMediaCalendarPickerDate
+  from './UIComponentMediaCalendarPickerDateTest/UIComponentMediaCalendarPickerDate.test';
+import UIComponentMediaDatePickerMode from './UIComponentMediaDatePickerModeTest/UIComponentMediaDatePickerMode.test';
 import UIComponentMediaImageAnimatorMonitorInvisibleArea
   from './UIComponentMediaImageAnimatorMonitorInvisibleAreaTest/UIComponentMediaImageAnimatorMonitorInvisibleArea.test';
+import UIComponentMediaImageFillColorReset
+  from './UIComponentMediaImageFillColorResetTest/UIComponentMediaImageFillColorReset.test';
 import UIComponentMediaImagePredownload
   from './UIComponentMediaImagePredownloadTest/UIComponentMediaImagePredownload.test';
 import UIComponentMediaImageReset from './UIComponentMediaImageResetTest/UIComponentMediaImageReset.test';
+import UIComponentMediaImageSupportThumbnails
+  from './UIComponentMediaImageSupportThumbnailsTest/UIComponentMediaImageSupportThumbnails.test';
 import UIComponentMediaImageSvgAnimateTransform
   from './UIComponentMediaImageSvgAnimateTransformTest/UIComponentMediaImageSvgAnimateTransform.test';
+import UIComponentMediaPatternLockForeground
+  from './UIComponentMediaPatternLockForegroundTest/UIComponentMediaPatternLockForeground.test';
+import UIComponentMediaTextPickerDisableTSA
+  from './UIComponentMediaTextPickerDisableTSATest/UIComponentMediaTextPickerDisableTSA.test';
 import UIComponentMediaTimePickerEnableCascade
   from './UIComponentMediaTimePickerEnableCascadeTest/UIComponentMediaTimePickerEnableCascade.test';
 import UIComponentMediaTimePickerStartEndTime
   from './UIComponentMediaTimePickerStartEndTimeTest/UIComponentMediaTimePickerStartEndTime.test';
 import UIComponentMediaVideoAI from './UIComponentMediaVideoAITest/UIComponentMediaVideoAI.test';
 import UIComponentMediaVideoReset from './UIComponentMediaVideoResetTest/UIComponentMediaVideoReset.test';
+import UIComponentPopUpBoxDoubleStroke
+  from './UIComponentPopUpBoxDoubleStrokeTest/UIComponentPopUpBoxDoubleStroke.test';
+import UIComponentPopUpBoxEnter from './UIComponentPopUpBoxEnterTest/UIComponentPopUpBoxEnter.test';
+import UIComponentPopUpBoxFollowDialog
+  from './UIComponentPopUpBoxFollowDialogTest/UIComponentPopUpBoxFollowDialog.test';
+import UIComponentPopUpBoxModalTransitionBindSheetBottomStyle
+  from './UIComponentPopUpBoxModalTransitionBindSheetBottomStyleTest/UIComponentPopUpBoxModalTransitionBindSheetBottomStyle.test';
+import UIComponentPopUpBoxModalTransitionBindSheetStyle
+  from './UIComponentPopUpBoxModalTransitionBindSheetStyleTest/UIComponentPopUpBoxModalTransitionBindSheetStyle.test';
 import UIComponentScrollClipContent from './UIComponentScrollClipContentTest/UIComponentScrollClipContent.test';
 import UIComponentScrollFadingEdge from './UIComponentScrollFadingEdgeTest/UIComponentScrollFadingEdge.test';
 import UIComponentScrollPullDown from './UIComponentScrollPullDownTest/UIComponentScrollPullDown.test';
+import UIComponentScrollScrollPage from './UIComponentScrollScrollPageTest/UIComponentScrollScrollPage.test';
+import UIComponentScrollToTop from './UIComponentScrollToTopTest/UIComponentScrollToTop.test';
+import UIComponentSnapshotComponentContent
+  from './UIComponentSnapshotComponentContentTest/UIComponentSnapshotComponentContent.test';
 import UIComponentSpecialComponentsEmbeddedComponentFingerClick
   from './UIComponentSpecialComponentsEmbeddedComponentFingerClickTest/UIComponentSpecialComponentsEmbeddedComponentFingerClick.test';
 import UIComponentSpecialComponentsEmbeddedComponentKey
@@ -60,10 +121,15 @@ import UIComponentSpecialComponentsEmbeddedComponent
   from './UIComponentSpecialComponentsEmbeddedComponentTest/UIComponentSpecialComponentsEmbeddedComponent.test';
 import UIComponentSpecialComponentsEmbeddedComponentWidthAndHeight
   from './UIComponentSpecialComponentsEmbeddedComponentWidthAndHeightTest/UIComponentSpecialComponentsEmbeddedComponentWidthAndHeight.test';
+import UIComponentSpecialComponentsUIContextAddMenuFocus
+  from './UIComponentSpecialComponentsUIContextAddMenuFocusTest/UIComponentSpecialComponentsUIContextAddMenuFocus.test';
+import UIComponentSpecialComponentsUIContextComponentSnapshot
+  from './UIComponentSpecialComponentsUIContextComponentSnapshotTest/UIComponentSpecialComponentsUIContextComponentSnapshot.test';
 import UIComponentSpecialComponentsXComponentOnload
   from './UIComponentSpecialComponentsXComponentOnloadTest/UIComponentSpecialComponentsXComponentOnload.test';
 import UIComponentSymbolGlyphFontSizeScale
   from './UIComponentSymbolGlyphFontSizeScaleTest/UIComponentSymbolGlyphFontSizeScale.test';
+import UIComponentTextChipInterface from './UIComponentTextChipInterfaceTest/UIComponentTextChipInterface.test';
 import UIComponentTextRichEditorAction
   from './UIComponentTextRichEditorActionTest/UIComponentTextRichEditorAction.test';
 import UIComponentTextRichEditorInterface
@@ -76,9 +142,7 @@ import UIComponentWaterFlowSections from './UIComponentWaterFlowSectionsTest/UIC
 import UIRelativeContainerCollaboration
   from './UIRelativeContainerCollaborationTest/UIRelativeContainerCollaboration.test';
 
-
 export default function testsuite() {
-  // demoTest();
   TestCase();
   UIComponentLayoutStack();
   UIRelativeContainerCollaboration();
@@ -115,4 +179,40 @@ export default function testsuite() {
   UIComponentScrollPullDown();
   UIComponentWaterFlowMirror();
   UIComponentWaterFlowSections();
+  UIComponentMediaImageSupportThumbnails();
+  UIComponentMediaImageFillColorReset();
+  UIComponentMediaTextPickerDisableTSA();
+  UIComponentMediaCalendarPickerDate();
+  UIComponentMediaDatePickerMode();
+  UIComponentMediaPatternLockForeground();
+  UIComponentSpecialComponentsUIContextComponentSnapshot();
+  UIComponentSpecialComponentsUIContextAddMenuFocus();
+  UIComponentSnapshotComponentContent();
+  ArkUIComponentFunctionSpecialComponentsDialogCustomSelectInputMethodOptimization();
+  ActionEventCommonEventKeyEventDispatch();
+  BackgroundImageCommonPropertySupportSyncLoad();
+  UIComponentScrollToTop();
+  UIAttributesHoverEffectDoubleStrokeInterface();
+  UIAttributesImageEffectSpherical();
+  UIComponentPopUpBoxDoubleStroke();
+  UIComponentPopUpBoxEnter();
+  UIComponentPopUpBoxFollowDialog();
+  UIComponentPopUpBoxModalTransitionBindSheetBottomStyle();
+  UIComponentPopUpBoxModalTransitionBindSheetStyle();
+  UIComponentButtonTextPickerDefaultTextStyle();
+  UIComponentScrollScrollPage();
+  UIComponentTextChipInterface();
+  UIComponentPopupBoxModalTransitionHeightFree();
+  UIComponentPopupBoxModalTransitionHover();
+  UIComponentPopupBoxModalTransitionKeyboard();
+  UIComponentDrawingSafeAreaE();
+  UIComponentScrollSwiperIgnoreBlank();
+  UIComponentPopupBoxPopupScenarios();
+  UIComponentPopupBoxSelectMirror();
+  UIUIAppearanceDarkMode();
+  UICustomDrawingSafeAreaScene();
+  UIComponentGridAnimation();
+  UIComponentGridClipComent();
+  UIComponentGridEdgeEffect();
+  UIComponentGridEvent();
 }

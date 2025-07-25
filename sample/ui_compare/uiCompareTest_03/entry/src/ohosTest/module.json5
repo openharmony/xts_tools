@@ -26,6 +26,12 @@
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:test_pages",
+    "metadata": [
+      {
+        "name": "avoid_cutout",
+        "value": "true",
+      }
+    ],
     "requestPermissions": [
       {
         "name": "ohos.permission.SYSTEM_FLOAT_WINDOW",
