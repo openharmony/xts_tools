@@ -135,7 +135,7 @@ struct UIComponentGridEvent0090 {
         this.message += `\n Grid onItemDragMove, event: ${event.toString()}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}`;
       })
       .onItemDrop((event: ItemDragInfo, itemIndex: number, insertIndex: number, isSuccess: boolean) => {
-        console.info("Grid onItemDragMove");
+        console.info("Grid onItemDrop");
         if (!isSuccess || insertIndex >= this.numbers.length) {
           return;
         }
@@ -145,7 +145,7 @@ struct UIComponentGridEvent0090 {
       .onScrollIndex((first: number, last: number) => {
         console.info(first.toString());
         console.info(last.toString());
-        this.message += `\n Grid onReachEnd, first: ${first.toString()}, last: ${last.toString()}`;
+        this.message += `\n Grid onScrollIndex, first: ${first.toString()}, last: ${last.toString()}`;
       })
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
         console.info(scrollOffset.toString());

@@ -115,7 +115,7 @@ struct UIComponentGridAnimation0110 {
       .onScrollIndex((first: number, last: number) => {
         console.info(first.toString());
         console.info(last.toString());
-        this.message += `\n Grid onReachEnd, first: ${first.toString()}, last: ${last.toString()}`;
+        this.message += `\n Grid onScrollIndex, first: ${first.toString()}, last: ${last.toString()}`;
       })
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
         console.info(scrollOffset.toString());
