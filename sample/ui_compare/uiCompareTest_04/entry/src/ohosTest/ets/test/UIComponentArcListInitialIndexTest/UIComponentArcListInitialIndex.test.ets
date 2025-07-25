@@ -80,5 +80,176 @@ export default function UIComponentArcListInitialIndexTest() {
       Logger.info('TEST', `${caseName} finish.`);
       done();
     });
+
+    /*
+    * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040
+    * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040
+    * @tc.desc    Component 3 groups
+    * @tc.level   3
+    */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge003");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge004");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge005");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge006");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge007");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge008");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge009");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge010");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridListFadingEdge/UIComponentListAndGridListFadingEdge011");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110 finish.`);
+      done();
+    });
   })
 }

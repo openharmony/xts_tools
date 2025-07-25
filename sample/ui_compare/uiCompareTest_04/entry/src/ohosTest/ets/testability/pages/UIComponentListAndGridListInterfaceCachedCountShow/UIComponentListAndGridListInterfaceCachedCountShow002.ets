@@ -12,35 +12,34 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import { LengthMetrics } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct UIComponentListAndGridListInitialIndex006 {
-  @State message: string = 'Hello';
-  @State arr: string[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8'];
-  private scrollerForList: ListScroller = new ListScroller();
+struct UIComponentListAndGridListInterfaceCachedCountShow002 {
+  @State arr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+  private scrollerForList: Scroller = new Scroller();
+  @State showNum: number = 0;
 
   build() {
     Column() {
-      List({ initialIndex: 2, space: 20, scroller: this.scrollerForList }) {
+      List({ space: 20, scroller: this.scrollerForList }) {
         ForEach(this.arr, (item: number) => {
           ListItem() {
-            Button('' + item)
+            Text('' + item)
               .width('100%')
-              .height(100)
-              .fontSize(16)
-              .borderRadius(10)
-              .backgroundColor(0xF9CF93)
-              .stateEffect(true)
-          }
+              .height('20%')
+              .textAlign(TextAlign.Center)
+              .fontStyle(FontStyle.Normal)
+          }.backgroundColor(0xF9CF93)
         }, (item: string) => item)
       }
-      .height('80%')
+      .height('50%')
       .scrollBar(BarState.On)
-      .onAppear(() => {
-        this.scrollerForList.scrollEdge(Edge.Bottom, { velocity: 100 });
-      })
+      .clip(false)
+      .cachedCount(2, undefined)
     }
+    .backgroundColor(0xDCDCDC)
     .width('100%')
   }
 }
