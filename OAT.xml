@@ -69,6 +69,29 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filename" name="*.gif" desc="all gif file have check "/>
                 <filteritem type="filename" name="*.png" desc="all png file have check "/>
                 <filteritem type="filename" name="*.mp4" desc="all mp4 file have check "/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/ConcurrentModule/screenshots/device/workerTab.jpg" desc="Provide by sample/EnhanceSampleArk1.2/ConcurrentModule"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/convertxml.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/StateManagement/screenshots/device/Home.jpeg" desc="Provide by sample/EnhanceSampleArk1.2/StateManagement"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/scopehelper.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/ConcurrentModule/screenshots/device/index.jpg" desc="Provide by sample/EnhanceSampleArk1.2/ConcurrentModule"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/process.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/ConcurrentModule/screenshots/device/taskpoolTab.jpg" desc="Provide by sample/EnhanceSampleArk1.2/ConcurrentModule"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/typecheck.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/arraylist.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/ConcurrentModule/screenshots/device/copyFile.jpg" desc="Provide by sample/EnhanceSampleArk1.2/ConcurrentModule"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/StateManagement/screenshots/device/ParentChildPartialContentSync.jpeg" desc="Provide by sample/EnhanceSampleArk1.2/StateManagement"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/home.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/lib/ProcessMessage-1.0.0.tgz" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/StateManagement/screenshots/device/ApplyGlobalDataSync.jpeg" desc="Provide by sample/EnhanceSampleArk1.2/StateManagement"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/rationalnumber.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/lib/ProcessMessage-1.0.0.hap" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/lrucache.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/url.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/PageLoading/pageloading/src/main/resources/base/media/page_loading_light_mode_banner.jpg" desc="Provide by sample/EnhanceSampleArk1.2/PageLoading"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/stringcode.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/StateManagement/screenshots/device/DeepNestComponent.jpeg" desc="Provide by sample/EnhanceSampleArk1.2/StateManagement"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/util.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
+                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary/screenshots/devices/base64.jpg" desc="Provide by sample/EnhanceSampleArk1.2/LanguageBaseClassLibrary"/>
             </filefilter>
             <filefilter name="defaultPolicyFilter" desc="License文件头校验策略的过滤条件" >
                 <filteritem type="filepath" name="sample/ServerSampleD/java/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/sample/mapper/xml/VideoMapper.xml" desc="xml配置文件，无需添加License头"/>
