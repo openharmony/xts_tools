@@ -135,6 +135,14 @@
           "node"
         ],
         "add_target": []
+      },
+      {
+        "path": "arkcompiler/ets_frontend/ets2panda",
+        "bundle_name": "ets_frontend",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT_TOTALLY"
+        ]
       }
     ]
   }
