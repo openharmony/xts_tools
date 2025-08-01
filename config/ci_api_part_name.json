@@ -7963,6 +7963,13 @@
                 "mechbody_controller"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.app.ability.CompletionHandlerForAtomicService.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c":[
