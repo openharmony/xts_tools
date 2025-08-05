@@ -106,9 +106,10 @@ class MatchConfig:
     @classmethod
     def initialization(cls):
         if cls.exception_path == {}:
-            print("MatchConfig 开始初始化")
+            print("MatchConfig initialization begin...")
             if not os.path.exists(cls.MACTH_CONFIG_PATH):
-                print(f"{cls.MACTH_CONFIG_PATH} 不存在,读取配置文件异常")
+                print("warning: Reading the configuration file is abnormal because {} not exist".format(
+                    cls.MACTH_CONFIG_PATH))
             with open(cls.MACTH_CONFIG_PATH, 'r') as file:
                 rules_data = json.load(file)
                 cls.exception_path = rules_data['exception_path']
@@ -118,22 +119,23 @@ class MatchConfig:
                 cls.acts_All_template_ex_list = rules_data['acts_All_template_ex']
                 cls.xts_path_list = rules_data['xts_path_list']
                 cls.interface_path_list = rules_data['interface_path_list']
-        print("MatchConfig 已完成初始化")
+        print("MatchConfig initialization end.")
     
     @classmethod
     def interface_initialization(cls):
 
         if cls.interface_js_data == {}:
-            print("INTERFACE_BUNDLE_NAME 开始初始化")
+            print("INTERFACE_BUNDLE_NAME initialization begin...")
             if not os.path.exists(cls.INTERFACE_BUNDLE_NAME_PATH):
-                print(f"{cls.INTERFACE_BUNDLE_NAME_PATH} 不存在,读取配置文件异常\n")
+                print("warning: Reading the configuration file is abnormal because {} not exist".format(
+                    cls.INTERFACE_BUNDLE_NAME_PATH))
             with open(cls.INTERFACE_BUNDLE_NAME_PATH, 'r') as file:
                 interface_data = json.load(file)
                 cls.interface_js_data = interface_data['sdk-js']
                 cls.interface_c_data = interface_data['sdk_c']
                 cls.driver_interface = interface_data['driver_interface']
 
-        print("INTERFACE_BUNDLE_NAME 已完成初始化")
+        print("INTERFACE_BUNDLE_NAME initialization end.")
     
     @classmethod
     def get_interface_json_js_data(cls):
@@ -198,15 +200,16 @@ class MatchConfig:
     @classmethod
     def initialization_white_list(cls):
         if cls.white_list_repo == {}:
-            print("白名单开始初始化")
+            print("WhiteList initialization begin...")
             if not os.path.exists(cls.WHITE_LIST_PATH):
-                print(f"{cls.WHITE_LIST_PATH} 不存在,读取配置文件异常")
+                print("warning: Reading the configuration file is abnormal because {} not exist".format(
+                    cls.WHITE_LIST_PATH))
             with open(cls.WHITE_LIST_PATH, 'r') as file:
                 white_file = json.load(file)
                 white_repos = white_file["repo_list"]
                 for white_repo in white_repos:
                     cls.white_list_repo[white_repo["path"]] = white_repo
-        print("白名单已完成初始化")
+        print("WhiteList initialization end.")
 
     @classmethod
     def get_white_list_repo(cls):
@@ -221,7 +224,7 @@ class MatchConfig:
             xts_name = os.path.basename(xts_root_dir)
             UNCOMPILE_PATH = os.path.join(HOME, "test", "xts", xts_name, "ci_uncompile_suite.json")
             if not os.path.exists(UNCOMPILE_PATH):
-                print(f"{UNCOMPILE_PATH} 不存在,读取不参与编译测试套异常")
+                print("Get uncompile testsuite failed because {} not exist".format(UNCOMPILE_PATH))
                 return []
             with open(UNCOMPILE_PATH, 'r') as file:
                 cls.uncompile_suite[xts_suite] = json.load(file)
@@ -318,11 +321,11 @@ class XTSTargetUtils:
     def del_uncompile_target(xts_root_dir, device_type, targets) -> list:
         ci_target = set()
         uncompile_suite_list = MatchConfig.get_uncompile_suite_list(xts_root_dir, device_type)
-        print(f'配置未参与编译用例: {uncompile_suite_list}')
+        print("Config uncompile testsuite: {}".format(uncompile_suite_list))
         for path_target in targets:
             if path_target not in uncompile_suite_list:
                 ci_target.add(path_target)
-        print(f'精准编译目标: {ci_target}')
+        print("Accurte compile target: {}".format(ci_target))
         return list(ci_target)
 
 
