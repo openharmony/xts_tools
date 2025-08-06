@@ -6510,6 +6510,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/stateManagement/storage/localStorage.static.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/ListItemModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
