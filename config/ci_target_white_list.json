@@ -125,6 +125,14 @@
         ]
       },
       {
+        "path": "test/testfwk/arkxtest/jsunit",
+        "bundle_name": "",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT_TOTALLY"
+        ]
+      },
+      {
         "path": "arkcompiler/ets_runtime",
         "bundle_name": "ets_runtime",
         "add_bundle": [
