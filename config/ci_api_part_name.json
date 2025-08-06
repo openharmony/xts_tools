@@ -1,5 +1,12 @@
 {
     "sdk-js": [
+                {
+            "path": "interface/sdk-js/delete_arkui_label.pydeps",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
         {
             "path": "interface/sdk-js/build-tools/declgen.js",
             "bundle_name": [
