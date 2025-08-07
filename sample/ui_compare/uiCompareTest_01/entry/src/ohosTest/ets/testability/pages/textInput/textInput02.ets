@@ -18,7 +18,7 @@ import { hilog } from '@kit.PerformanceAnalysisKit';
 
 @Entry
 @Component
-struct TextInput01 {
+struct TextInput02 {
   @State text: string = '';
   controller: TextInputController = new TextInputController();
 

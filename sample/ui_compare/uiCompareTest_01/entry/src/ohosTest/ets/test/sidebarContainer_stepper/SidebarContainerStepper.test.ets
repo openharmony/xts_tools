@@ -145,7 +145,7 @@ export default function SidebarContainerStepperTest() {
      */
     it('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0010 start.`);
-      Settings.createWindow("testability/pages/sidebarcontainer_stepper/sidebarContainer05")
+      Settings.createWindow("testability/pages/sidebarcontainer_stepper/sidebarContainer06")
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

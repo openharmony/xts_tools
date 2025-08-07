@@ -412,17 +412,17 @@ export default function TextPicker01Test () {
       let button1: Component = await driver.waitForComponent(ON.id('textPicker20_01'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0050_01')
       await Utils.sleep(1000)
       let button2: Component = await driver.waitForComponent(ON.id('textPicker20_02'), 1000);
       await button2.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0050_02')
       await Utils.sleep(1000)
       let button3: Component = await driver.waitForComponent(ON.id('textPicker20_03'), 1000);
       await button3.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0050_03')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0050 finish.`);
       done()

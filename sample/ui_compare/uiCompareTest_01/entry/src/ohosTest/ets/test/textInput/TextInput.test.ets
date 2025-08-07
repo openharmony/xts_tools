@@ -248,7 +248,7 @@ export default function TextInputTest() {
       let point1 = await button1.getBoundsCenter();
       await driver.doubleClick(point1.x,point1.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0020_01')
       await Utils.sleep(1000)
 
       let button2: Component = await driver.waitForComponent(ON.id('TextArea03_02'), 1000);
@@ -256,7 +256,7 @@ export default function TextInputTest() {
       let point2 = await button1.getBoundsCenter();
       await driver.doubleClick(point2.x,point2.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0020_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0020 finish.`);
       done()
@@ -284,28 +284,28 @@ export default function TextInputTest() {
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0040_01')
       await Utils.sleep(1000)
 
       await button2.click()
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0040_02')
       await Utils.sleep(1000)
 
       await button3.click()
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0040_03')
       await Utils.sleep(1000)
 
       await button4.click()
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0040_04')
       await Utils.sleep(1000)
 
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0040 finish.`);
@@ -580,28 +580,28 @@ export default function TextInputTest() {
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0130_01')
       await Utils.sleep(1000)
 
       await button2.click()
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0130_02')
       await Utils.sleep(1000)
 
       await button3.click()
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0130_03')
       await Utils.sleep(1000)
 
       await button4.click()
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0130_04')
       await Utils.sleep(1000)
 
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0130 finish.`);
@@ -651,28 +651,28 @@ export default function TextInputTest() {
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0190_01')
       await Utils.sleep(1000)
 
       await button2.click()
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0190_02')
       await Utils.sleep(1000)
 
       await button3.click()
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0190_03')
       await Utils.sleep(1000)
 
       await button4.click()
       await driver.waitForIdle(500,2000);
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0190_04')
       await Utils.sleep(1000)
 
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0190 finish.`);

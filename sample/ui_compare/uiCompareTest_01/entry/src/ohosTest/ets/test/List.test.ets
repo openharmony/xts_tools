@@ -26,7 +26,23 @@ import FocusDynamicTest from './focus_dynamic/FocusDynamic.test';
 import RouterPushTest from './router_push/RouterPush.test';
 import ImageSpanTest from './image_span/imageSpan.test';
 import SelectionMenuSymbolTest from './selectionMenu_symbol/selectionMenuSymbol.test';
+
 import NavigationInterfaceTest from './navigation_interface/NavigationInterface.test';
+import TextInputTest from './textInput/TextInput.test';
+import columnTest from './column_matchParent/Column.test';
+import componentOutliersTest from './component_outliers/ComponentOutliers.test';
+import AlphabetIndexerTest from './alphabetIndexer/AlphabetIndexer.test';
+import WaterFlowFadingEdgeTest from './waterflow_fadingedge/WaterflowFadingedge.test';
+import TextClockTest from './textClock/TextClock.test';
+import ImageSvgAnimateTest from './image_svg_animate/ImageSvgAnimate.test';
+import NavTabsTest from './navTabs_interface/NavTabs.test';
+import PatternLockTest from './patternLock/PatternLock.test';
+import SwiperTest from './swiper_interface/Swiper.test';
+import TextPicker01Test from './textPicker/TextPicker01.test';
+import TextPicker02Test from './textPicker/TextPicker02.test';
+import SidebarContainerStepperTest from './sidebarContainer_stepper/SidebarContainerStepper.test';
+import ArcSwiperTest from './arc_interface/ArcSwiper.test';
+import ListAndGridTest from './listAndGrid_interface/ListAndGrid.test';
 
 export default function testsuite() {
   gestureMonopolize01Test();
@@ -43,4 +59,19 @@ export default function testsuite() {
   ImageSpanTest();
   SelectionMenuSymbolTest();
   NavigationInterfaceTest();
+  TextInputTest();
+  columnTest();
+  componentOutliersTest();
+  AlphabetIndexerTest();
+  WaterFlowFadingEdgeTest();
+  TextClockTest();
+  ImageSvgAnimateTest();
+  NavTabsTest();
+  PatternLockTest();
+  SwiperTest();
+  TextPicker01Test();
+  TextPicker02Test();
+  SidebarContainerStepperTest();
+  ArcSwiperTest();
+  ListAndGridTest();
 }

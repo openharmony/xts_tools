@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { WaterFlowDataSource02 } from './WaterFlowDataSource02';
+import { WaterFlowDataSource } from './WaterFlowDataSource';
 
 @Reusable
 @Component

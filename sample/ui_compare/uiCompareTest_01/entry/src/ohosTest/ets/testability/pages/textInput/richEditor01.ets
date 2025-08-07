@@ -194,7 +194,7 @@ struct richEditor01 {
           fontSize: 16,
           fontColor: Color.Black,
           fontWeight: FontWeight.Normal,
-          fontFamily: '',
+          fontFamily: "HarmonyOS Sans",
           fontStyle: FontStyle.Normal,
           decoration: { type: TextDecorationType.None, color: "#FF000000", style: TextDecorationStyle.SOLID }
         }

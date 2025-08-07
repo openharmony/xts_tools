@@ -51,6 +51,9 @@
       },
       {
         "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.UPDATE_CONFIGURATION"
       }
     ],
     "abilities": [

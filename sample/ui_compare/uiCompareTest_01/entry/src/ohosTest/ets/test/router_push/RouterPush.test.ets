@@ -139,7 +139,7 @@ export default function RouterPushTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2'), 1000);
       await buttonA.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270_01')
+      windowSnap.snapShot()
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270 finish.`);
       done()
@@ -169,7 +169,7 @@ export default function RouterPushTest() {
       await buttonC1.click();
       let buttonB2: Component = await driver.waitForComponent(ON.id('PageB_Button2'), 1000);
       await buttonB2.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0560')
+      windowSnap.snapShot()
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0560 finish.`);
       done()
@@ -195,7 +195,7 @@ export default function RouterPushTest() {
       await buttonB1.click();
       let buttonA1: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA1.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0200')
+      windowSnap.snapShot()
 
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0200 finish.`);
@@ -217,7 +217,7 @@ export default function RouterPushTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button3'), 1000);
       await buttonA.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0290')
+      windowSnap.snapShot()
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0290 finish.`);
       done()
@@ -241,7 +241,7 @@ export default function RouterPushTest() {
       let buttonC: Component = await driver.waitForComponent(ON.id('PageC_Button2'), 1000);
       await buttonC.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0570')
+      windowSnap.snapShot()
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0570 finish.`);
       done()
@@ -262,7 +262,7 @@ export default function RouterPushTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button5'), 1000);
       await buttonA.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0170')
+      windowSnap.snapShot()
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0170 finish.`);
       done()
@@ -286,7 +286,7 @@ export default function RouterPushTest() {
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button3'), 1000);
       await buttonB.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0740')
+      windowSnap.snapShot()
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0740 finish.`);
       done()
@@ -308,7 +308,7 @@ export default function RouterPushTest() {
       await buttonA.click();
       Settings.changeWindowOrientation()
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0250')
+      windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0250 finish.`);
@@ -329,7 +329,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button9'), 1000);
       await buttonA.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0340')
+      windowSnap.snapShot()
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0340 finish.`);
       done()
@@ -349,7 +349,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button8'), 1000);
       await buttonA.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0650')
+      windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0650 finish.`);
@@ -374,7 +374,7 @@ export default function RouterPushTest() {
       await buttonB.click();
       let buttonC: Component = await driver.waitForComponent(ON.id('PageC_Button3'), 1000);
       await buttonC.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0550')
+      windowSnap.snapShot()
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0550 finish.`);
       done()
@@ -394,7 +394,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button9'), 1000);
       await buttonA.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0080')
+      windowSnap.snapShot()
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0080 finish.`);
       done()
@@ -416,7 +416,7 @@ export default function RouterPushTest() {
       await buttonA.click();
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button4'), 1000);
       await buttonB.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0230')
+      windowSnap.snapShot()
       await Settings.changeWindowOrientation('end')
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0230 finish.`);
@@ -438,7 +438,7 @@ export default function RouterPushTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button10'), 1000);
       await buttonA.click();
       await Utils.sleep(1500)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0770')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0770 finish.`);
       done()
     })
@@ -458,7 +458,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_1'), 1000);
       await buttonA.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0380')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0380 finish.`);
       done()
     })
@@ -481,7 +481,7 @@ export default function RouterPushTest() {
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button4_1'), 1000);
       await buttonB.click();
       await Utils.sleep(1500)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0470')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0470 finish.`);
       done()
     })
@@ -505,7 +505,7 @@ export default function RouterPushTest() {
       await buttonB.click();
       await Utils.sleep(600)
       Settings.changeWindowOrientation()
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0660')
+      windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0660 finish.`);
       done()
@@ -529,7 +529,7 @@ export default function RouterPushTest() {
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button3_3'), 1000);
       await buttonB.click();
       await Utils.sleep(400)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0090')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0090 finish.`);
       done()
     })
@@ -551,7 +551,7 @@ export default function RouterPushTest() {
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button3_1'), 1000);
       await buttonB.click();
       await Utils.sleep(400)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0040')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0040 finish.`);
       done()
     })
@@ -575,7 +575,7 @@ export default function RouterPushTest() {
       let buttonA2: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA2.click();
       await Utils.sleep(400)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0060')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0060 finish.`);
       done()
     })
@@ -596,7 +596,7 @@ export default function RouterPushTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button3_3'), 1000);
       await buttonA.click();
       await Utils.sleep(400)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0520')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0520 finish.`);
       done()
     })
@@ -619,7 +619,7 @@ export default function RouterPushTest() {
       await Utils.sleep(600)
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button5'), 1000);
       await buttonB.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0210')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0210 finish.`);
       done()
     })
@@ -644,7 +644,7 @@ export default function RouterPushTest() {
       await Utils.sleep(1000)
       let buttonC: Component = await driver.waitForComponent(ON.id('PageC_Button4'), 1000);
       await buttonC.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0760')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0760 finish.`);
       done()
     })
@@ -669,7 +669,7 @@ export default function RouterPushTest() {
       let buttonA2: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA2.click();
       Settings.changeWindowOrientation()
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0680')
+      windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0680 finish.`);
       done()
@@ -694,7 +694,7 @@ export default function RouterPushTest() {
       await driver.waitForIdle(500,2000);
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button2_3'), 1000);
       await buttonB.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0390')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0390 finish.`);
       done()
     })
@@ -717,7 +717,7 @@ export default function RouterPushTest() {
       await Utils.sleep(1000)
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button4_1'), 1000);
       await buttonB.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0590')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0590 finish.`);
       done()
     })
@@ -741,7 +741,7 @@ export default function RouterPushTest() {
       await buttonB.click();
       let buttonC: Component = await driver.waitForComponent(ON.id('PageC_Button4_2'), 1000);
       await buttonC.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0730')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0730 finish.`);
       done()
     })
@@ -764,7 +764,7 @@ export default function RouterPushTest() {
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button4_1'), 1000);
       await buttonB.click();
       Settings.changeWindowOrientation()
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0670')
+      windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0670 finish.`);
       done()
@@ -786,7 +786,7 @@ export default function RouterPushTest() {
       await buttonA.click();
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button5_1'), 1000);
       await buttonB.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0460')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0460 finish.`);
       done()
     })
@@ -805,7 +805,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0430')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0430 finish.`);
       done()
     })
@@ -827,7 +827,7 @@ export default function RouterPushTest() {
       await buttonA.click();
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button2_4'), 1000);
       await buttonB.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0410')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0410 finish.`);
       done()
     })
@@ -850,7 +850,7 @@ export default function RouterPushTest() {
       await buttonB.click();
       let buttonC: Component = await driver.waitForComponent(ON.id('PageC_Button2_3'), 1000);
       await buttonC.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0420')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0420 finish.`);
       done()
     })
@@ -870,7 +870,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
       await buttonA.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0400')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0400 finish.`);
       done()
     })
@@ -892,7 +892,7 @@ export default function RouterPushTest() {
       await buttonA.click();
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button4_2'), 1000);
       await buttonB.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0490')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0490 finish.`);
       done()
     })
@@ -911,7 +911,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button3_2'), 1000);
       await buttonA.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0440')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0440 finish.`);
       done()
     })
@@ -940,7 +940,7 @@ export default function RouterPushTest() {
 
       await driver.waitForIdle(500,2000);
 
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0580')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0580 finish.`);
       done()
     })
@@ -964,7 +964,7 @@ export default function RouterPushTest() {
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button4_3'), 1000);
       await buttonB.click();
 
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0630')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0630 finish.`);
       done()
     })
@@ -984,7 +984,7 @@ export default function RouterPushTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
       Settings.changeWindowOrientation()
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0640')
+      windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0640 finish.`);
       done()
@@ -1004,7 +1004,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_2'), 1000);
       await buttonA.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0280')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0280 finish.`);
       done()
     })
@@ -1024,7 +1024,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_3'), 1000);
       await buttonA.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0610')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0610 finish.`);
       done()
     })
@@ -1048,7 +1048,7 @@ export default function RouterPushTest() {
       await buttonB.click();
       let buttonA2: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA2.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0620')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0620 finish.`);
       done()
     })
@@ -1068,7 +1068,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_4'), 1000);
       await buttonA.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0500')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0500 finish.`);
       done()
     })
@@ -1090,7 +1090,7 @@ export default function RouterPushTest() {
       await buttonA.click();
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button3_3'), 1000);
       await buttonB.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0510')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0510 finish.`);
       done()
     })
@@ -1115,7 +1115,7 @@ export default function RouterPushTest() {
       let buttonA2: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA2.click();
       Settings.changeWindowOrientation()
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0260')
+      windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0260 finish.`);
       done()
@@ -1140,7 +1140,7 @@ export default function RouterPushTest() {
       await buttonB.click();
       let buttonC: Component = await driver.waitForComponent(ON.id('PageC_Button2_4'), 1000);
       await buttonC.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0370')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0370 finish.`);
       done()
     })
@@ -1161,7 +1161,7 @@ export default function RouterPushTest() {
       await buttonA.click();
       Settings.changeWindowOrientation()
       await Utils.sleep(800)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0220')
+      windowSnap.snapShot()
       await Utils.sleep(800)
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0220 finish.`);
@@ -1183,7 +1183,7 @@ export default function RouterPushTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button6_1'), 1000);
       await buttonA.click();
       await Utils.sleep(1000)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0350')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0350 finish.`);
       done()
     })
@@ -1206,7 +1206,7 @@ export default function RouterPushTest() {
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button6_1'), 1000);
       await buttonB.click();
       await Utils.sleep(800)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0300')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0300 finish.`);
       done()
     })
@@ -1229,7 +1229,7 @@ export default function RouterPushTest() {
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button6_2'), 1000);
       await buttonB.click();
       await Utils.sleep(800)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0310')
+      windowSnap.snapShot()
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0310 finish.`);
       done()
     })
@@ -1256,7 +1256,7 @@ export default function RouterPushTest() {
       await buttonC.click();
       Settings.changeWindowOrientation()
       await Utils.sleep(800)
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0690')
+      windowSnap.snapShot()
       await Utils.sleep(800)
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0690 finish.`);
@@ -1281,7 +1281,7 @@ export default function RouterPushTest() {
       await driver.waitForIdle(500,2000);
       let buttonA1: Component = await driver.waitForComponent(ON.id('PageC_Button2_4'), 1000);
       await buttonA1.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0360')
+      windowSnap.snapShot()
       await Utils.sleep(800)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0360 finish.`);
       done()
@@ -1304,7 +1304,7 @@ export default function RouterPushTest() {
       await driver.waitForIdle(500,2000);
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button3'), 1000);
       await buttonB.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0030')
+      windowSnap.snapShot()
       await Utils.sleep(800)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0030 finish.`);
       done()
@@ -1327,7 +1327,7 @@ export default function RouterPushTest() {
       await driver.waitForIdle(500,2000);
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button3'), 1000);
       await buttonB.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0050')
+      windowSnap.snapShot()
       await Utils.sleep(800)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0050 finish.`);
       done()
@@ -1351,7 +1351,7 @@ export default function RouterPushTest() {
       await driver.waitForIdle(500,2000);
       let buttonC: Component = await driver.waitForComponent(ON.id('PageC_Button2'), 1000);
       await buttonC.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0150')
+      windowSnap.snapShot()
       await Utils.sleep(800)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0150 finish.`);
       done()
@@ -1377,7 +1377,7 @@ export default function RouterPushTest() {
       await driver.waitForIdle(500,2000);
       let buttonA2: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
       await buttonA2.click();
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0330')
+      windowSnap.snapShot()
       await Utils.sleep(800)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0330 finish.`);
       done()
@@ -1398,7 +1398,7 @@ export default function RouterPushTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button13'), 1000);
       await buttonA.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0100')
+      windowSnap.snapShot()
       await Utils.sleep(800)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0100 finish.`);
       done()
