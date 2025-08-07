@@ -53,5 +53,39 @@ export default function StateRepeatArrayLikeTest() {
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010 finish.`);
       done();
     });
+
+    /*
+     * @tc.number  SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020
+     * @tc.name    SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020
+     * @tc.desc    Ecological Group 1
+     * @tc.level   3
+     */
+    it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020 start.`);
+      Settings.createWindow("testability/pages/StateRepeatArrayLike/StateRepeatArrayLike002");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 4000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030
+     * @tc.name    SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030
+     * @tc.desc    Ecological Group 1
+     * @tc.level   3
+     */
+    it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030 start.`);
+      Settings.createWindow("testability/pages/StateRepeatArrayLike/StateRepeatArrayLike003");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 4000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030 finish.`);
+      done();
+    });
   })
 }

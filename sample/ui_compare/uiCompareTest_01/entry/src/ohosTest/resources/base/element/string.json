@@ -51,6 +51,34 @@
     {
       "name": "abc",
       "value": "abc"
+    },
+    {
+      "name": "navigation_tools",
+      "value": "icon"
+    },
+    {
+      "name": "navigation_title",
+      "value": "test"
+    },
+    {
+      "name": "apple1",
+      "value": "apple1"
+    },
+    {
+      "name": "apple2",
+      "value": "apple2"
+    },
+    {
+      "name": "apple3",
+      "value": "apple3"
+    },
+    {
+      "name": "apple4",
+      "value": "apple4"
+    },
+    {
+      "name": "titleBar_width",
+      "value": "240"
     }
   ]
 }

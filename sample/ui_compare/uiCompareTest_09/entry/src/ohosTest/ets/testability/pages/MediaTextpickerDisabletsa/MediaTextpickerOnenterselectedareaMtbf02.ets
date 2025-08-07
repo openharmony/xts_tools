@@ -14,7 +14,7 @@
  */
 @Entry
 @Component
-struct TextPickerDialogExample {
+struct MediaTextpickerOnenterselectedareaMtbf02 {
   private options: string[] = ['苹果', '香蕉', '橙子', '葡萄'];
   @State selectedItem: string = '苹果';
 

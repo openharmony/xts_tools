@@ -33,17 +33,17 @@ class Ci_Manager(ABC):
         pass
 
     def write_result(self, target_path_set: set, target_set: set):
-        print(f"{self.__class__.__name__} 增加 build_targets : {self._build_targets}")
-        print(f"{self.__class__.__name__} 增加 build_paths : {self._build_paths}")
+        print(f"{self.__class__.__name__} append build_targets : {self._build_targets}")
+        print(f"{self.__class__.__name__} append build_paths : {self._build_paths}")
 
         xts_root_target = PathUtils.get_root_target(self._xts_root_dir)
         if xts_root_target in target_set:
-            print("编译全量代码")
+            print("compile full testsuites")
             return
         if xts_root_target in self._build_targets:
             target_set.add(xts_root_target)
             target_path_set.clear()
-            print("编译全量代码")
+            print("compile full testsuites")
             return
 
         target_set.update(set(self._build_targets))
@@ -63,7 +63,7 @@ class ComponentManager(Ci_Manager):
             if changeFileEntity.path not in MatchConfig.get_xts_path_list():
                 ret = self.getTargetsPaths(changeFileEntity)
                 if ret == 1:
-                    return 1
+                    continue
         return 0
 
     def getTargetsPaths(self, change_file_entity: ChangeFileEntity):
@@ -71,9 +71,9 @@ class ComponentManager(Ci_Manager):
         try:
             bundle_name = self.getBundleName(change_file_entity.path)
         except Exception as e:
-            print(f"读取{change_file_entity.name}部件仓bundle_name失败")
+            print("warning: Get bundle_name failed from cmoponent repository {}".format(change_file_entity.name))
             return 1
-        print(f"{self.__class__.__name__} 增加 bundle_name : {bundle_name}")
+        print(f"{self.__class__.__name__} append bundle_name : {bundle_name}")
         # 部件名(partname)获取paths
         paths = XTSTargetUtils.getPathsByBundle([bundle_name], self._xts_root_dir)
         if paths:
@@ -107,7 +107,7 @@ class XTSManager(Ci_Manager):
                 # 只有当前编译的xts仓修改参与计算
                 ret = self.getTargetsPaths(changeFileEntity)
                 if ret == 1:
-                    print(f"{changeFileEntity.name}仓修改解析失败")
+                    print("warning: failed to parse modification of repository {}".format(self.__class__.__name__))
                     return 1
         if self._need_all:
             self._build_targets += PathUtils.get_all_build_target(self._xts_root_dir)
@@ -284,7 +284,7 @@ class GetInterfaceData(Ci_Manager):
 
     def path_error(self, path_list):
         if len(path_list) > 0:
-            raise Exception('Error:  interface 路径无法匹配 bundle_name, 请前往 test/xts/tools/config/ci_api_part_name.json 配置对应 path 与 bundle_name')
+            raise Exception('error: Failed to obtain interface file ownership, Please config in test/xts/tools/config/ci_api_part_name.json')
 
     def get_targets_from_change(self, change_list):
         if "acts" in self._xts_root_dir:
@@ -295,7 +295,9 @@ class GetInterfaceData(Ci_Manager):
             # 筛选出未匹配路径
             for path in self.sum_change_list_path:
                 if path not in self.match_path_list:
-                   self.no_match_path_list.append(path)
+                    # feature 分支.d.ets后缀无需编译用例
+                    if not path.endswith(".d.ets"):
+                        self.no_match_path_list.append(path)
 
             self.bundle_name_list = list(set(self.bundle_name_list))
             self._build_targets = list(set(self._build_targets))
@@ -307,7 +309,7 @@ class GetInterfaceData(Ci_Manager):
             except Exception as e:
                 print(e)
                 for path in self.no_match_path_list:
-                    print('Error: 无法匹配路径： ', path)
+                    print("error: Cannot match path {}".format(path))
                 sys.exit(1)
 
             # 根据bundle_name 查找对应 build_paths
@@ -368,7 +370,7 @@ class GetInterfaceData(Ci_Manager):
                                 if k == 'component':
                                     add_bundle_json_path.append([path, v['name']])
                     except FileNotFoundError:
-                        print('Error:  drivers/interface仓新增目录且在目录下未发现 bundle.json， 无法匹配 bundle_name， 请添加 bundle.json 文件')
+                        print("error: The repository drivers/interface has a new directory and no bundle.json is found under the directory, Please add bundle.json")
                         sys.exit(1)
 
             # 处理新增目录下其他文件

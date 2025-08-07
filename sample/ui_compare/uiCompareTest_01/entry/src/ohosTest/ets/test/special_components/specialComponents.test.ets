@@ -19,6 +19,7 @@ import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
+import { BusinessError } from '@kit.BasicServicesKit'
 
 export default function specialComponentsTest() {
 
@@ -28,7 +29,7 @@ export default function specialComponentsTest() {
         return
       }
 
-      Settings.windowClass.destroyWindow((err) => {
+      Settings.windowClass.destroyWindow((err:BusinessError) => {
         if (err.code) {
           Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
           return;

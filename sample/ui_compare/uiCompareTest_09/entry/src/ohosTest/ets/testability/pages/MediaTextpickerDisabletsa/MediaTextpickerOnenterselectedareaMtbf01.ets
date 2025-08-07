@@ -14,7 +14,7 @@
  */
 @Entry
 @Component
-struct MediaTextpickerDisabletsa01 {
+struct MediaTextpickerOnenterselectedareaMtbf01 {
   @State selectedValue: string = ''
   private timerId: number = 0
 

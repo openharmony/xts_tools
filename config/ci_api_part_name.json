@@ -1,6 +1,20 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/build_api_check_plugin.py",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/run_compile_declgen.py",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/remove_list.json",
             "bundle_name": [
                 "ability_runtime"
@@ -51,6 +65,13 @@
         },
         {
             "path": "interface/sdk-js/bundle.json",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/CODEOWNERS",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -3808,6 +3829,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.scan.d.ets",
+            "bundle_name": [
+                "print_fwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.util.TreeMap.d.ts",
             "bundle_name": [
                 "ets_utils"
@@ -3844,6 +3872,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.util.d.ets",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.transfer.d.ets",
             "bundle_name": [
                 "ets_utils"
             ],
@@ -7935,6 +7970,13 @@
                 "mechbody_controller"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.app.ability.CompletionHandlerForAtomicService.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c":[
@@ -8114,6 +8156,13 @@
             "path": "interface/sdk_c/distributeddatamgr/udmf",
             "bundle_name": [
                 "udmf"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/distributedhardware/device_manager",
+            "bundle_name": [
+                "device_manager"
             ],
             "build_targets": []
         },
@@ -8546,6 +8595,13 @@
             "path": "interface/sdk_c/patches/patches.json",
             "bundle_name": [],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/TEEKit",
+            "bundle_name": [
+                "tee_dev_kit"
+            ],
+            "build_targets": []
         }
     ],
     "driver_interface": [
@@ -8586,6 +8642,13 @@
             "path": "drivers/interface/codec",
             "bundle_name": [
                 "drivers_interface_codec"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "drivers/interface/low_power_player",
+            "bundle_name": [
+                "drivers_interface_lpplayer"
             ],
             "build_targets": []
         },
