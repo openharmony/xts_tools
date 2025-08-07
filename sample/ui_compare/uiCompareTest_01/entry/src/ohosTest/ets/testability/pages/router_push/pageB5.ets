@@ -15,7 +15,7 @@
 
 import { BusinessError } from '@kit.BasicServicesKit';
 import { Router } from '@kit.ArkUI';
-import ('./PageA5')
+import ('./pageA5')
 
 @Entry({ routeName: 'PageB5' })
 @Component

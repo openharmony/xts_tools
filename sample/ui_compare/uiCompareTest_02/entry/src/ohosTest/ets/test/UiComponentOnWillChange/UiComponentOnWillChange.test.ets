@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -330,6 +330,30 @@ export default function UiComponentOnWillChange() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0100 finish.`);
       done();
     })
+
+    /*
+      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210
+      * @tc.name    Empty text deletion
+      * @tc.desc    Function test
+      * @tc.size    MediumTest
+      * @tc.type    Function
+      * @tc.level   0
+      */
+    it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210 start.`);
+      Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange13");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange13'),1000);
+      await textarea.click();
+      await driver.triggerKey(2071);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210 finish.`);
+      done();
+    })
+
 
   })
 }
