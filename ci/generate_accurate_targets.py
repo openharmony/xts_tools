@@ -80,7 +80,8 @@ class AccurateTarget:
                 # 读取文件内容并解析为Python字典
                 data = json.load(file)
         except Exception as e:
-            print(f"读取change_info_file文件失败,全量编译\nchange_info_file路径: {self._change_info_file}")
+            print("warning: Because the change_info_file {} was not read, compile full testsuites".format(
+                self._change_info_file))
             return 1
 
         # 存储新增/修改/删除的文件
@@ -96,7 +97,7 @@ class AccurateTarget:
             if "deleted" in data[item]["changed_file_list"]:
                 changeFileEntity.addDeletePaths(data[item]["changed_file_list"]["deleted"])
             if changeFileEntity.isEmpty():
-                print(f"读取change_info_file文件失败,未找到修改文件")
+                print("warning: Failed to read change_info_file, no changed files were found.")
                 return 1
             change_list.append(changeFileEntity)
         self._change_list = change_list
@@ -106,7 +107,7 @@ class AccurateTarget:
         ret = self._get_change_info()
         if ret == 1:
             # changeinfo读取失败-全量编译
-            print("未获取到修改文件列表,编译全量代码")
+            print("warning: The list of files to be modifed was not obtained, compile full testsuites.")
             xts_suite = os.path.basename(self._xts_root_dir)
             relative_path = os.path.relpath(self._xts_root_dir, HOME)
             targets = [f"{relative_path}:xts_{xts_suite}"]
@@ -118,7 +119,7 @@ class AccurateTarget:
             for manager in self.util_list:
                 retcode = manager.get_targets_from_change(self._change_list)
                 if retcode == 1:
-                    print(f"{manager.__class__.__name__} 执行失败")
+                    print("error: Execution of {} failed.".format(manager.__class__.__name__))
                 manager.write_result(target_paths, targets)
 
             # 处理target_paths, 去除子目录\重复目录

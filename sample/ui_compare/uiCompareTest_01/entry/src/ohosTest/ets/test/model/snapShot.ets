@@ -18,12 +18,11 @@ import image from '@ohos.multimedia.image';
 import fs from '@ohos.file.fs';
 import common from '@ohos.app.ability.common'
 import { GlobalThis } from './globalThis'
-import screenshot from '@ohos.screenshot'
+import { screenshot } from '@kit.ArkUI';
 import { BusinessError } from '@ohos.base'
 import Settings from './Settings';
 
 const TAG: string = '[TEST]';
-
 
 class windowSnap {
   filePath(pageName ?: string) {

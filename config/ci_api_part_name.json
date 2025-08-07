@@ -1,6 +1,20 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/build_api_check_plugin.py",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/run_compile_declgen.py",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/remove_list.json",
             "bundle_name": [
                 "ability_runtime"
@@ -51,6 +65,13 @@
         },
         {
             "path": "interface/sdk-js/bundle.json",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/CODEOWNERS",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -3802,6 +3823,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.print.d.ts",
+            "bundle_name": [
+                "print_fwk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.scan.d.ets",
             "bundle_name": [
                 "print_fwk"
             ],
@@ -7940,6 +7968,13 @@
             "path": "interface/sdk-js/kits/@kit.MechanicKit.d.ts",
             "bundle_name": [
                 "mechbody_controller"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.app.ability.CompletionHandlerForAtomicService.d.ts",
+            "bundle_name": [
+                "ability_runtime"
             ],
             "build_targets": []
         }

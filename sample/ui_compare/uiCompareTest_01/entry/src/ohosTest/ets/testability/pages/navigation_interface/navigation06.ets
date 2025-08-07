@@ -102,7 +102,7 @@ struct Navigation05 {
           .height(40)
           .margin(20)
           .onClick(() => {
-            this.stack.pushPath({ name: "PageFour" });
+            this.stack.pushPath({ name: "pageFour" });
           })
       }
       .width('100%')
