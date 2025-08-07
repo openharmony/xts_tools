@@ -111,14 +111,14 @@ export default function Statusmanagerv2Freezing() {
       done();
     })
 
-    /*
-  * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0110
-  * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0110
-  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-  * @tc.type   : Function
-  * @tc.size   : MediumTest
-  * @tc.level  : 3
-  */
+      /*
+    * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0110
+    * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0110
+    * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0110 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing110")
@@ -136,314 +136,314 @@ export default function Statusmanagerv2Freezing() {
       done();
     })
 
-    // /*
-    //   * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0020
-    //   * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0020
-    //   * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //   * @tc.type   : Function
-    //   * @tc.size   : MediumTest
-    //   * @tc.level  : 3
-    //   */
-    // it('SUB_ACE_STATUSMANAGERV2_FREEZING_0020', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0020 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing20")
-    //   let driver:Driver = Driver.create();
-    //   // 通过ID定位（推荐）
-    //   let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-    //   await component.click();
-    //   await driver.waitForIdle(500,2000);
-    //   component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-    //   await component.click();
-    //   await driver.waitForIdle(500,2000);
-    //   windowSnap.screenShot();
-    //   await Utils.sleep(1000);
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0020 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    // * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0080
-    // * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0080
-    // * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    // * @tc.type   : Function
-    // * @tc.size   : MediumTest
-    // * @tc.level  : 3
-    // */
-    // it('SUB_ACE_STATUSMANAGERV2_FREEZING_0080', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0080 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing80")
-    //   let driver:Driver = Driver.create();
-    //   // 通过ID定位（推荐）
-    //   let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-    //   await component.click();
-    //   await driver.waitForIdle(500,2000);
-    //   component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-    //   await component.click();
-    //   await driver.waitForIdle(500,2000);
-    //   windowSnap.screenShot();
-    //   await Utils.sleep(1000);
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0080 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //   * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0030
-    //   * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0030
-    //   * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //   * @tc.type   : Function
-    //   * @tc.size   : MediumTest
-    //   * @tc.level  : 3
-    //   */
-    // it('SUB_ACE_STATUSMANAGERV2_FREEZING_0030', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0030 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing30")
-    //   let driver:Driver = Driver.create();
-    //   // 通过ID定位（推荐）
-    //   let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-    //   await component.click();
-    //   await driver.waitForIdle(500,2000);
-    //   component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-    //   await component.click();
-    //   await driver.waitForIdle(500,2000);
-    //   windowSnap.screenShot();
-    //   await Utils.sleep(1000);
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0030 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0160
-    //  * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0160
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGERV2_FREEZING_0160', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0160 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing160")
-    //   await windowSnap.snapShot()
-    //   await Utils.sleep(3000)
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0160 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0050
-    //  * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0050
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGERV2_FREEZING_0050', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0050 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing50")
-    //   windowSnap.screenShot();
-    //   await Utils.sleep(1000);
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0160 finish.`);
-    //   done();
-    // })
+    /*
+      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0020
+      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0020
+      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+      * @tc.type   : Function
+      * @tc.size   : MediumTest
+      * @tc.level  : 3
+      */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0020 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing20")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0020 finish.`);
+      done();
+    })
 
-  //   /*
-  //    * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0100
-  //    * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0100
-  //    * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-  //    * @tc.type   : Function
-  //    * @tc.size   : MediumTest
-  //    * @tc.level  : 3
-  //    */
-  //   it('SUB_ACE_STATUSMANAGERV2_FREEZING_0100', Level.LEVEL3, async (done: Function) => {
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0100 start.`);
-  //     Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing100")
-  //     let driver:Driver = Driver.create();
-  //     // 通过ID定位（推荐）
-  //     let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     windowSnap.screenShot();
-  //     await Utils.sleep(1000);
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0080 finish.`);
-  //     done();
-  //   })
-  //
-  //   /*
-  //   * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0150
-  //   * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0150
-  //   * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-  //   * @tc.type   : Function
-  //   * @tc.size   : MediumTest
-  //   * @tc.level  : 3
-  //   */
-  //   it('SUB_ACE_STATUSMANAGERV2_FREEZING_0150', Level.LEVEL3, async (done: Function) => {
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0150 start.`);
-  //     Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing150")
-  //     let driver:Driver = Driver.create();
-  //     // 通过ID定位（推荐）
-  //     let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     windowSnap.screenShot();
-  //     await Utils.sleep(1000);
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0150 finish.`);
-  //     done();
-  //   })
-  //
-  //   /*
-  //     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0140
-  //     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0140
-  //     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-  //     * @tc.type   : Function
-  //     * @tc.size   : MediumTest
-  //     * @tc.level  : 3
-  //     */
-  //   it('SUB_ACE_STATUSMANAGERV2_FREEZING_0140', Level.LEVEL3, async (done: Function) => {
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0140 start.`);
-  //     Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing140")
-  //     let driver:Driver = Driver.create();
-  //     // 通过ID定位（推荐）
-  //     let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     windowSnap.screenShot();
-  //     await Utils.sleep(1000);
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0140 finish.`);
-  //     done();
-  //   })
-  //
-  //   /*
-  //     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0130
-  //     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0130
-  //     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-  //     * @tc.type   : Function
-  //     * @tc.size   : MediumTest
-  //     * @tc.level  : 3
-  //     */
-  //   it('SUB_ACE_STATUSMANAGERV2_FREEZING_0130', Level.LEVEL3, async (done: Function) => {
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0030 start.`);
-  //     Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing130")
-  //     let driver:Driver = Driver.create();
-  //     // 通过ID定位（推荐）
-  //     let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     windowSnap.screenShot();
-  //     await Utils.sleep(1000);
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0130 finish.`);
-  //     done();
-  //   })
-  //
-  //   /*
-  // * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0010
-  // * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0010
-  // * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-  // * @tc.type   : Function
-  // * @tc.size   : MediumTest
-  // * @tc.level  : 3
-  // */
-  //   it('SUB_ACE_STATUSMANAGERV2_FREEZING_0010', Level.LEVEL3, async (done: Function) => {
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0010 start.`);
-  //     Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing10")
-  //     let driver:Driver = Driver.create();
-  //     // 通过ID定位（推荐）
-  //     let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     windowSnap.screenShot();
-  //     await Utils.sleep(1000);
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0010 finish.`);
-  //     done();
-  //   })
-  //
-  //   /*
-  //    * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0170
-  //    * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0170
-  //    * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-  //    * @tc.type   : Function
-  //    * @tc.size   : MediumTest
-  //    * @tc.level  : 3
-  //    */
-  //   it('SUB_ACE_STATUSMANAGERV2_FREEZING_0170', Level.LEVEL3, async (done: Function) => {
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0170 start.`);
-  //     Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing170")
-  //     let driver:Driver = Driver.create();
-  //     // 通过ID定位（推荐）
-  //     let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     windowSnap.screenShot();
-  //     await Utils.sleep(1000);
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0170 finish.`);
-  //     done();
-  //   })
-  //
-  //   /*
-  //    * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0210
-  //    * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0210
-  //    * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-  //    * @tc.type   : Function
-  //    * @tc.size   : MediumTest
-  //    * @tc.level  : 3
-  //    */
-  //   it('SUB_ACE_STATUSMANAGERV2_FREEZING_0210', Level.LEVEL3, async (done: Function) => {
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0210 start.`);
-  //     Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing210")
-  //     let driver:Driver = Driver.create();
-  //     // 通过ID定位（推荐）
-  //     let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     windowSnap.screenShot();
-  //     await Utils.sleep(1000);
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0210 finish.`);
-  //     done();
-  //   })
-  //
-  //   /*
-  //    * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0200
-  //    * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0200
-  //    * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-  //    * @tc.type   : Function
-  //    * @tc.size   : MediumTest
-  //    * @tc.level  : 3
-  //    */
-  //   it('SUB_ACE_STATUSMANAGERV2_FREEZING_0200', Level.LEVEL3, async (done: Function) => {
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0200 start.`);
-  //     Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing200")
-  //     let driver:Driver = Driver.create();
-  //     // 通过ID定位（推荐）
-  //     let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
-  //     await component.click();
-  //     await driver.waitForIdle(500,2000);
-  //     windowSnap.screenShot();
-  //     await Utils.sleep(1000);
-  //     Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0200 finish.`);
-  //     done();
-  //   })
+    /*
+    * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0080
+    * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0080
+    * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0080', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0080 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing80")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0080 finish.`);
+      done();
+    })
+
+    /*
+      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0030
+      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0030
+      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+      * @tc.type   : Function
+      * @tc.size   : MediumTest
+      * @tc.level  : 3
+      */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0030 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing30")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0030 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0160
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0160
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0160', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0160 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing160")
+      await windowSnap.snapShot()
+      await Utils.sleep(3000)
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0160 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0050
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0050
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0050 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing50")
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0160 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0100
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0100
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0100', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0100 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing100")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0080 finish.`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0150
+    * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0150
+    * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0150', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0150 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing150")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0150 finish.`);
+      done();
+    })
+
+    /*
+      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0140
+      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0140
+      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+      * @tc.type   : Function
+      * @tc.size   : MediumTest
+      * @tc.level  : 3
+      */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0140', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0140 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing140")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0140 finish.`);
+      done();
+    })
+
+    /*
+      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0130
+      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0130
+      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+      * @tc.type   : Function
+      * @tc.size   : MediumTest
+      * @tc.level  : 3
+      */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0130', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0030 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing130")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.screenShot();
+      await Utils.sleep(10000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0130 finish.`);
+      done();
+    })
+
+    /*
+      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0010
+      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0010
+      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+      * @tc.type   : Function
+      * @tc.size   : MediumTest
+      * @tc.level  : 3
+      */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0010', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0010 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing10")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0010 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0170
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0170
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0170', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0170 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing170")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0170 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0210
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0210
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0210', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0210 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing210")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0210 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0200
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0200
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0200', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0200 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing200")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0200 finish.`);
+      done();
+    })
   //
   //   /*
   //    * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0190
@@ -978,6 +978,111 @@ export default function Statusmanagerv2Freezing() {
     //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0280 start.`);
     //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2280")
     //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0280 finish.`);
+    //   done();
+    // })
+
+    // /*
+    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0310
+    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0310
+    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+    //  * @tc.type   : Function
+    //  * @tc.size   : MediumTest
+    //  * @tc.level  : 3
+    //  */
+    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0310', Level.LEVEL3, async (done: Function) => {
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0310 start.`);
+    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2310")
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0310 finish.`);
+    //   done();
+    // })
+
+    // /*
+    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0300
+    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0300
+    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+    //  * @tc.type   : Function
+    //  * @tc.size   : MediumTest
+    //  * @tc.level  : 3
+    //  */
+    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0300', Level.LEVEL3, async (done: Function) => {
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0300 start.`);
+    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2300")
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0300 finish.`);
+    //   done();
+    // })
+
+    // /*
+    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0320
+    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0320
+    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+    //  * @tc.type   : Function
+    //  * @tc.size   : MediumTest
+    //  * @tc.level  : 3
+    //  */
+    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0320', Level.LEVEL3, async (done: Function) => {
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0320 start.`);
+    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2320")
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0320 finish.`);
+    //   done();
+    // })
+
+    // /*
+    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0330
+    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0330
+    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+    //  * @tc.type   : Function
+    //  * @tc.size   : MediumTest
+    //  * @tc.level  : 3
+    //  */
+    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0330', Level.LEVEL3, async (done: Function) => {
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0330 start.`);
+    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2330")
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0330 finish.`);
+    //   done();
+    // })
+
+    // /*
+    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0340
+    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0340
+    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+    //  * @tc.type   : Function
+    //  * @tc.size   : MediumTest
+    //  * @tc.level  : 3
+    //  */
+    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0340', Level.LEVEL3, async (done: Function) => {
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0340 start.`);
+    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2340")
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0340 finish.`);
+    //   done();
+    // })
+
+    // /*
+    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0350
+    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0350
+    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+    //  * @tc.type   : Function
+    //  * @tc.size   : MediumTest
+    //  * @tc.level  : 3
+    //  */
+    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0350', Level.LEVEL3, async (done: Function) => {
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0350 start.`);
+    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2350")
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0350 finish.`);
+    //   done();
+    // })
+
+    // /*
+    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0360
+    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0360
+    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+    //  * @tc.type   : Function
+    //  * @tc.size   : MediumTest
+    //  * @tc.level  : 3
+    //  */
+    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0360', Level.LEVEL3, async (done: Function) => {
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0360 start.`);
+    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2360")
+    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0360 finish.`);
     //   done();
     // })
 
