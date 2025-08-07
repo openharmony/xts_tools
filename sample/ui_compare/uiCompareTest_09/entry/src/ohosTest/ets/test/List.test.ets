@@ -33,6 +33,8 @@ import TextSearchInterface from './TextSearchInterfaceTest/TextSearchInterface.t
 import InfomationLoadingprogressAnimation from './InfomationLoadingprogressAnimationTest/InfomationLoadingprogressAnimation.test'
 import Statusmanagerv2Freezing from './Statusmanagerv2FreezingTest/Statusmanagerv2Freezing.test'
 import RoutingSupportstageInterface from './RoutingSupportstageInterfaceTest/RoutingSupportstageInterface.test'
+import Statusmanagerv2Optimize from './Statusmanagerv2OptimizeTest/Statusmanagerv2Optimize.test'
+import StatusmanagerComponentreuse from './StatusmanagerComponentreuseTest/StatusmanagerComponentreuse.test'
 
 export default function testsuite() {
   UIComponentTextRicheditorKeyboardAppearance();
@@ -55,4 +57,6 @@ export default function testsuite() {
   InfomationLoadingprogressAnimation();
   Statusmanagerv2Freezing();
   RoutingSupportstageInterface();
+  Statusmanagerv2Optimize();
+  StatusmanagerComponentreuse();
 }

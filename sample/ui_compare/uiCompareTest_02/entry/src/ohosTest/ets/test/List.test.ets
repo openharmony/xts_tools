@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -31,8 +31,21 @@ import UiComponentArrowKey from './UiComponentArrowKey/UiComponentArrowKey.test'
 import UiComponentTextInputTwoWayBinding from './UiComponentTextInputTwoWayBinding/UiComponentTextInputTwoWayBinding.test'
 import UiComponentTextShareMenu from './UiComponentTextShareMenu/UiComponentTextShareMenu.test'
 import UiComponentTextTranslateMenu from './UiComponentTextTranslateMenu/UiComponentTextTranslateMenu.test'
+import UiComponentTextWithTheme from  './UiComponentTextWithTheme/UiComponentTextWithTheme.test'
+import UiComponentWordBreakHyphenation from './UiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation.test'
+import UiComponentThemeFontFamily from './UiComponentThemeFontFamily/UiComponentThemeFontFamily.test'
+import UiComponentWordTextHalfLeading from './UiComponentWordTextHalfLeading/UiComponentWordTextHalfLeading.test'
+import UiComponentTextareaBarState from './UiComponentTextareaBarState/UiComponentTextareaBarState.test'
+import UiAttributesUseEffectEffectType from './UiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType.test'
+import UiImportComponentContent from './UiImportComponentContent/UiImportComponentContent.test'
+import UiComponentCanvasMatrix2D from './UiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D.test'
+import UiComponentCanvasModifier from  './UiComponentCanvasModifier/UiComponentCanvasModifier.test'
+import UiComponentTextImageSpanColorFilter from  './UiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter.test'
+import UiComponentTextInputEllipsisMode from './UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode.test'
+import UiComponentCanvasMatrix2D from './UiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D.test'
+import UiComponentCanvasOffscreenCanvasGpuDraw from './UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw.test'
+import UiComponentCanvasPath2DAndCanvasPattern from './UiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern.test'
 export default function testsuite() {
-
   UiTestCase();
   UiComponentTextCommonLineSpace();
   UiComponentTextRicheditor();
@@ -49,4 +62,18 @@ export default function testsuite() {
   UiComponentArrowKey();
   UiComponentTextInputTwoWayBinding();
   UiComponentTextShareMenu();
+  UiComponentTextWithTheme();
+  UiComponentWordBreakHyphenation();
+  UiComponentThemeFontFamily();
+  UiComponentWordTextHalfLeading();
+  UiComponentTextareaBarState();
+  UiAttributesUseEffectEffectType();
+  UiImportComponentContent();
+  UiComponentCanvasMatrix2D();
+  UiComponentCanvasModifier();
+  UiComponentTextInputEllipsisMode();
+  UiComponentTextImageSpanColorFilter();
+  UiComponentCanvasMatrix2D();
+  UiComponentCanvasOffscreenCanvasGpuDraw();
+  UiComponentCanvasPath2DAndCanvasPattern();
 }

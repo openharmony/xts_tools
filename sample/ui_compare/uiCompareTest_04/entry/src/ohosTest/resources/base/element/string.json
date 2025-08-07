@@ -51,6 +51,10 @@
     {
       "name": "abc",
       "value": "abc"
+    },
+    {
+      "name": "strokeWidth",
+      "value": "20vp"
     }
   ]
 }
