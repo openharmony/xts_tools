@@ -693,204 +693,204 @@ export default function Statusmanagerv2Freezing() {
       done();
     })
 
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0330
-    //  * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0330
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGERV2_FREEZING_0330', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0330 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing330")
-    //
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0330 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Appstoragev2Persistancev2more20")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0090
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0090
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0090', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0090 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev290")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0090 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0050
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0050
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0050', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0050 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev250")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0050 finish.`);
-    //   done();
-    // })
-    //
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0010
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0010
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0010', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0010 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev250")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0010 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0060
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0060
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0060', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0060 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev250")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0060 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0100
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0100
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0100', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0100 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2100")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0100 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0110
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0110
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0110', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0110 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2110")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0110 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0150
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0150
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0150', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0150 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2150")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0150 finish.`);
-    //   done();
-    // })
-    //
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0120
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0120
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0120', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0120 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2120")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0120 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0200
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0200
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0200', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0200 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2200")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0200 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0210
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0210
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0210', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0210 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2210")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0210 finish.`);
-    //   done();
-    // })
-    //
-    // /*
-    //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0220
-    //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0220
-    //  * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    //  * @tc.type   : Function
-    //  * @tc.size   : MediumTest
-    //  * @tc.level  : 3
-    //  */
-    // it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0220', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0220 start.`);
-    //   Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2220")
-    //   Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0220 finish.`);
-    //   done();
-    // })
-    //
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0330
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0330
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_FREEZING_0330', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0330 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing330")
+
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0330 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020
+     * @tc.name   : SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Appstoragev2Persistancev2more20")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0090
+     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0090
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0090', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0090 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev290")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0090 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0050
+     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0050
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0050 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev250")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0050 finish.`);
+      done();
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0010
+     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0010
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0010', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0010 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev250")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0010 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0060
+     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0060
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0060', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0060 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev250")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0060 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0100
+     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0100
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0100', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0100 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2100")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0100 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0110
+     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0110
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0110', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0110 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2110")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0110 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0150
+     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0150
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0150', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0150 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2150")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0150 finish.`);
+      done();
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0120
+     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0120
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0120', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0120 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2120")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0120 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0200
+     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0200
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0200', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0200 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2200")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0200 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0210
+     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0210
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0210', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0210 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2210")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0210 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0220
+     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0220
+     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0220', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0220 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Freezing/StatusmanagerRusablev2220")
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0220 finish.`);
+      done();
+    })
+
     // /*
     //  * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0230
     //  * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0230
