@@ -24,6 +24,17 @@ import CounterMirrorImage from './CounterMirrorImageTest/CounterMirrorImage.test
 import MediaBadgeLargeFont from './MediaBadgeLargeFontTest/MediaBadgeLargeFont.test'
 import UiArkuiTexttimer from './UiArkuiTexttimerTest/UiArkuiTexttimer.test'
 import MediaTextpickerDisabletsa from './MediaTextpickerDisabletsaTest/MediaTextpickerDisabletsa.test'
+import MediaFramenode from './MediaFramenodeTest/MediaFramenode.test'
+import ProgressLinear from './ProgressLinearTest/ProgressLinear.test'
+import SymbolglyphFontstzescale from './SymbolglyphFontstzescaleTest/SymbolglyphFontstzescale.test'
+import TextRichtexteditorMenuReinforcing from './TextRichtexteditorMenuReinforcingTest/TextRichtexteditorMenuReinforcing.test'
+import SpecialcomponentsUicontext from './SpecialcomponentsUicontextTest/SpecialcomponentsUicontext.test'
+import TextSearchInterface from './TextSearchInterfaceTest/TextSearchInterface.test'
+import InfomationLoadingprogressAnimation from './InfomationLoadingprogressAnimationTest/InfomationLoadingprogressAnimation.test'
+import Statusmanagerv2Freezing from './Statusmanagerv2FreezingTest/Statusmanagerv2Freezing.test'
+import RoutingSupportstageInterface from './RoutingSupportstageInterfaceTest/RoutingSupportstageInterface.test'
+import Statusmanagerv2Optimize from './Statusmanagerv2OptimizeTest/Statusmanagerv2Optimize.test'
+import StatusmanagerComponentreuse from './StatusmanagerComponentreuseTest/StatusmanagerComponentreuse.test'
 
 export default function testsuite() {
   UIComponentTextRicheditorKeyboardAppearance();
@@ -37,4 +48,15 @@ export default function testsuite() {
   MediaBadgeLargeFont();
   UiArkuiTexttimer();
   MediaTextpickerDisabletsa();
+  MediaFramenode();
+  ProgressLinear();
+  SymbolglyphFontstzescale();
+  TextRichtexteditorMenuReinforcing();
+  SpecialcomponentsUicontext();
+  TextSearchInterface();
+  InfomationLoadingprogressAnimation();
+  Statusmanagerv2Freezing();
+  RoutingSupportstageInterface();
+  Statusmanagerv2Optimize();
+  StatusmanagerComponentreuse();
 }

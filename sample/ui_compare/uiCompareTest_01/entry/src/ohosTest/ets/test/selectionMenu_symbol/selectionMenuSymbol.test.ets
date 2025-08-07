@@ -19,6 +19,7 @@ import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver } from '@kit.TestKit'
+import { BusinessError } from '@kit.BasicServicesKit'
 
 export default function SelectionMenuSymbolTest() {
 
@@ -29,7 +30,7 @@ export default function SelectionMenuSymbolTest() {
         return
       }
 
-      Settings.windowClass.destroyWindow((err) => {
+      Settings.windowClass.destroyWindow((err:BusinessError) => {
         if (err.code) {
           Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
           return;

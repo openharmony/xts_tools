@@ -151,27 +151,7 @@ export default function testsuite() {
   UIComponentScrollPullDown();
   UIComponentWaterFlowMirror();
   UIComponentWaterFlowSections();
-  UIComponentMediaImageSupportThumbnails();
-  UIComponentMediaImageFillColorReset();
-  UIComponentMediaTextPickerDisableTSA();
-  UIComponentMediaCalendarPickerDate();
-  UIComponentMediaDatePickerMode();
-  UIComponentMediaPatternLockForeground();
   UIComponentSpecialComponentsUIContextComponentSnapshot();
   UIComponentSpecialComponentsUIContextAddMenuFocus();
-  UIComponentSnapshotComponentContent();
-  ArkUIComponentFunctionSpecialComponentsDialogCustomSelectInputMethodOptimization();
-  ActionEventCommonEventKeyEventDispatch();
-  BackgroundImageCommonPropertySupportSyncLoad();
-  UIComponentScrollToTop();
-  UIAttributesHoverEffectDoubleStrokeInterface();
-  UIAttributesImageEffectSpherical();
-  UIComponentPopUpBoxDoubleStroke();
-  UIComponentPopUpBoxEnter();
-  UIComponentPopUpBoxFollowDialog();
-  UIComponentPopUpBoxModalTransitionBindSheetBottomStyle();
-  UIComponentPopUpBoxModalTransitionBindSheetStyle();
-  UIComponentButtonTextPickerDefaultTextStyle();
-  UIComponentScrollScrollPage();
   UIComponentTextChipInterface();
 }

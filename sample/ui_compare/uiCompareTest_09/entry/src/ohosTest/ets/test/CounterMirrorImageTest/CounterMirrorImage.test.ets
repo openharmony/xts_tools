@@ -19,6 +19,8 @@ import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
+import I18n from '@ohos.i18n';
+import { BusinessError } from '@kit.BasicServicesKit';
 
 export default function CounterMirrorImage() {
 
@@ -60,6 +62,109 @@ export default function CounterMirrorImage() {
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0030 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_ARKUI_COUNTER-MIRROR-IMAGE_0070
+     * @tc.name   : SUB_ACE_UI_ARKUI_COUNTER-MIRROR-IMAGE_0070
+     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0070', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0070 start.`);
+      try {
+        I18n.System.setSystemLanguage('gu');
+      } catch (error) {
+        let err: BusinessError = error as BusinessError;
+        console.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow("testability/pages/CounterMirrorImage/CounterMirrorImage30")
+      let driver:Driver = Driver.create();
+      // 通过ID定位（推荐）
+      let component = await driver.waitForComponent(ON.id('Counter_01'), 1000);  // 显式等待组件出现[6](@ref)
+      await component.click();
+      let button_1 = await driver.waitForComponent(ON.id('Button_01'),1000);
+      await button_1.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0030 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0010
+     * @tc.name   : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0010
+     * @tc.desc   : Badge Chinese mode mirror position setting BadgePosition.Left
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0010', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0010 start.`);
+      // 设置系统语言
+      try {
+        I18n.System.setSystemLanguage('zh'); // 设置系统当前语言为 "zh"
+      } catch(error) {
+        let err: BusinessError = error as BusinessError;
+        console.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow("testability/pages/CounterMirrorImage/CounterMirrorImage10")
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0010 finish.`);
+      done();
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0050
+     * @tc.name   : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0050
+     * @tc.desc   : BadgeEnglish mode mirror position setting BadgePosition.Right
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0050', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0050 start.`);
+      // 设置系统当前语言为'zh-Hans'
+      try {
+        I18n.System.setSystemLanguage('en');
+      } catch (error) {
+        let err: BusinessError = error as BusinessError;
+        console.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow("testability/pages/CounterMirrorImage/CounterMirrorImage50")
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0050 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0090
+     * @tc.name   : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0090
+     * @tc.desc   : BadgeEnglish mode mirror position setting BadgePosition.Right
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0090', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0090 start.`);
+      // 设置系统当前语言为'zh-Hans'
+      try {
+        I18n.System.setSystemLanguage('gu');
+      } catch (error) {
+        let err: BusinessError = error as BusinessError;
+        console.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+      }
+      Settings.createWindow("testability/pages/CounterMirrorImage/CounterMirrorImage50")
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0090 finish.`);
       done();
     })
 
