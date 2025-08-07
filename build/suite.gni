@@ -33,7 +33,7 @@ declare_args() {
   if (getenv("XTS_SUITETYPE") != "") {
     XTS_SUITETYPE = string_split(getenv("XTS_SUITETYPE"), ",")
   } else {
-    XTS_SUITETYPE = []
+    XTS_SUITETYPE = ["bin", "hap_dynamic"]
   }
 }
 

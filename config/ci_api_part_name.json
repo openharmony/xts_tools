@@ -3829,6 +3829,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.scan.d.ets",
+            "bundle_name": [
+                "print_fwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.util.TreeMap.d.ts",
             "bundle_name": [
                 "ets_utils"
@@ -7961,6 +7968,13 @@
             "path": "interface/sdk-js/kits/@kit.MechanicKit.d.ts",
             "bundle_name": [
                 "mechbody_controller"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.app.ability.CompletionHandlerForAtomicService.d.ts",
+            "bundle_name": [
+                "ability_runtime"
             ],
             "build_targets": []
         }
