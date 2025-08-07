@@ -18,8 +18,8 @@ import { Router } from '@kit.ArkUI';
 import Utils from '../../../test/model/Utils';
 import Settings from '../../../test/model/Settings';
 
-import ('./PageB3')
-import ('./PageC3')
+import ('./pageB3')
+import ('./pageC3')
 @Entry
 @Component
 struct PageA3 {

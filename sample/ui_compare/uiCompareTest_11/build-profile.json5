@@ -19,13 +19,13 @@
       {
         "name": "default",
         "material": {
-          "certpath": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_07_arY8wurK8c65FZ6LVoShRA5LDPS6pKtoyMihKW_xx1c=.cer",
+          "certpath": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_01_98_4mQADA4WKBbjNCg1W0tE6c5GWNs_wxwgILomW1Ro=.cer",
+          "storePassword": "00000018B31F2D46D6D5DFD9F44A39CB0FABFBEFB4C859330AB474D28C00D00F07C79D19F2503499",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001B8FB268D8F8F1AC65AA89A51558617702D004DBB9F73F1DC02B13CC9FD1162683F787F9AC38D5E3",
-          "profile": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_07_arY8wurK8c65FZ6LVoShRA5LDPS6pKtoyMihKW_xx1c=.p7b",
+          "keyPassword": "00000018D6581596131CA2CE0D8A6C02E146108E6C1D76478E8D5094DE1D347A5B7C6878B400FB83",
+          "profile": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_01_98_4mQADA4WKBbjNCg1W0tE6c5GWNs_wxwgILomW1Ro=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_07_arY8wurK8c65FZ6LVoShRA5LDPS6pKtoyMihKW_xx1c=.p12",
-          "storePassword": "0000001B7E8BF2BB23C6C17F1982A14388829C23C6DA321AA386CA0AC2898B9DBA4750F23C85AD834CD91C"
+          "storeFile": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_01_98_4mQADA4WKBbjNCg1W0tE6c5GWNs_wxwgILomW1Ro=.p12"
         }
       }
     ],

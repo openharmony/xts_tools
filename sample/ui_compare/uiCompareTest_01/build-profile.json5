@@ -21,11 +21,11 @@
         "material": {
           "certpath": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompareTest_01_UK6n8FJJZ7mmxAf2ns2gj6mxlIbE8sL9qOUDO0X3kEI=.cer",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001B75FDF6346D29DEEBE0BA009CA506458C8465CF948DE8A6DB4794E11326E342A9D58287FD2A1B34",
+          "keyPassword": "0000001BB8C2E0FE04B1569CF749FFA4377260761FFDDAB025EAA6D4C3AB5804852051E0E4C53CF4E9C4EB",
           "profile": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompareTest_01_UK6n8FJJZ7mmxAf2ns2gj6mxlIbE8sL9qOUDO0X3kEI=.p7b",
           "signAlg": "SHA256withECDSA",
           "storeFile": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompareTest_01_UK6n8FJJZ7mmxAf2ns2gj6mxlIbE8sL9qOUDO0X3kEI=.p12",
-          "storePassword": "0000001B500FC8C3EA3D988220DF5FD8771C71DC784049757E2D22B5DEDEAD0581970F7B359258296EFCB8"
+          "storePassword": "0000001B2EB7FF92E8699A740D8CB400CB0A5DDDD8FDAADD5E62EA97DC046D230B1765C710FEF88B71828F"
         }
       }
     ],
@@ -33,8 +33,15 @@
       {
         "name": "default",
         "signingConfig": "default",
-        "compileSdkVersion": 18,
-        "compatibleSdkVersion": 18
+        "compileSdkVersion": 20,
+        "compatibleSdkVersion": 20,
+        "runtimeOS": "OpenHarmony",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
       }
     ]
   },

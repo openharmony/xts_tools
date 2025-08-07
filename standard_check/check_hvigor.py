@@ -25,6 +25,7 @@ class HvigorChecker:
 
     HVIGOR_BASE_VERSION = [
         '4.0.5',
+        '4.0.9',
         '5.0.0'
     ]
     

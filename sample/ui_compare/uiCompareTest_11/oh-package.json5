@@ -14,7 +14,7 @@
  */
 
 {
-  "modelVersion": "5.0.3",
+  "modelVersion": "5.0.2", //5.0.3会报错，改为了5.0.2
   "license": "",
   "devDependencies": {
     "@ohos/hypium": "1.0.6"

@@ -19,9 +19,7 @@ import windowSnap from '../model/snapShot'
 import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
-import mouseEvent from '@ohos.multimodalInput.mouseEvent'
-import { AxisValue, MouseEvent } from '@ohos.multimodalInput.mouseEvent'
-import inputkeyCode from '@ohos.multimodalInput.keyCode'
+import { BusinessError } from '@kit.BasicServicesKit'
 
 export default function animatorCreate01Test() {
 
@@ -31,7 +29,7 @@ export default function animatorCreate01Test() {
         return
       }
 
-      Settings.windowClass.destroyWindow((err) => {
+      Settings.windowClass.destroyWindow((err:BusinessError) => {
         if (err.code) {
           Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
           return;
