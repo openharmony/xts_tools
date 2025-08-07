@@ -136,28 +136,18 @@ class Settings {
     })
   }
 
-  async changeWindowOrientation(end?:string) {
+  async changeWindowOrientation(end:string) {
     window.getLastWindow(GlobalThis.getInstance().getContext('context')).then((lastWindow:window.Window) => {
       let orientation:window.Orientation = this.windowClass!.getPreferredOrientation();
       Logger.info(`before set window orientation: ${orientation}}`)
-      // 如果未定义 切成横屏
-      // 如果是竖屏 切成横屏
-      // 如果是横屏 切成竖屏
-      if(end){
+      if(end === 'end'){
         orientation = window.Orientation.PORTRAIT
-      } else if (orientation == window.Orientation.UNSPECIFIED) {
+      } else if (end === 'landScape') {
         orientation = window.Orientation.LANDSCAPE
-      } else if (orientation == window.Orientation.PORTRAIT) {
-        orientation = window.Orientation.LANDSCAPE
-      } else if (orientation = window.Orientation.LANDSCAPE) {
+      } else if (end === 'portrait') {
         orientation = window.Orientation.PORTRAIT
       }
-      // globalThis.orientation = orientation;
-      // Logger.info(`prepare to set window orientation: ${orientation}`)
-      // Logger.info(`prepare to set window orientation: ${globalThis.orientation}`)
-      // lastWindow.setPreferredOrientation(orientation)
       sleep(400)
-      globalThis.orientation = orientation;
       try {
         let promise = lastWindow.setPreferredOrientation(orientation);
         promise.then(() => {
