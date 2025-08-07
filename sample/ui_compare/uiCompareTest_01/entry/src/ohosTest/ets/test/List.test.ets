@@ -26,7 +26,7 @@ import FocusDynamicTest from './focus_dynamic/FocusDynamic.test';
 import RouterPushTest from './router_push/RouterPush.test';
 import ImageSpanTest from './image_span/imageSpan.test';
 import SelectionMenuSymbolTest from './selectionMenu_symbol/selectionMenuSymbol.test';
-import NavigationInterfaceTest from './navigation_interface/NavigationInterface.test'
+import NavigationInterfaceTest from './navigation_interface/NavigationInterface.test';
 
 export default function testsuite() {
   gestureMonopolize01Test();

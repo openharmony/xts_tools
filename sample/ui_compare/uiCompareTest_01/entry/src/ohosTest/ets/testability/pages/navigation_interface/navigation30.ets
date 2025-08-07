@@ -13,43 +13,77 @@
  * limitations under the License.
  */
 
-@Builder
-export function PageFourBuilder(name: string, param: Object) {
-  PageFourComponent();
+@Entry
+@Component
+struct Navigation30 {
+  stack: NavPathStack = new NavPathStack();
+  @State mode:NavigationMode = NavigationMode.Stack;
+  @State titleMode:NavigationTitleMode = NavigationTitleMode.Free;
+
+  build() {
+    Column(){
+      Navigation(this.stack) {
+        Stack({ alignContent: Alignment.Center }) {
+          Button('pushPath', { stateEffect: true, type: ButtonType.Capsule })
+            .id('nav30PushPage')
+            .width('80%')
+            .height(40)
+            .margin(20)
+            .onClick(() => {
+              this.stack.pushPath({ name: "pageEleven" });
+            })
+        }
+      }
+      .width('100%')
+      .height('60%')
+      .navDestination(PageElevenBuilder)
+      .title('Main Page')
+      .titleMode(NavigationTitleMode.Mini)
+    }
+    .width('100%')
+    .height('100%')
+  }
 }
 
+@Builder
+export function PageElevenBuilder(name: string, param: Object) {
+  PageElevenComponent();
+}
+
+declare type voidFunc = () => void;
+
 @Component
-struct PageFourComponent {
-  private stack: NavPathStack | null = null;
-  @State eventStr: string = '';
+struct PageElevenComponent {
+  @State name: string = 'pageEleven';
+  @State destWidth: string = '100%';
+  @State eventStr: string = "";
+  stack: NavPathStack = new NavPathStack();
+  @State backImg: string = 'resources/base/media/icon.png';
+  @State y: string = '0';
 
   build() {
     NavDestination() {
       Column() {
-        Text("event: " + this.eventStr)
+        Text(" pageEleven event: " + this.eventStr)
 
-        Button('pushPath', { stateEffect: true, type: ButtonType.Capsule })
+        Button('push next page', { stateEffect: true, type: ButtonType.Capsule })
           .width('80%')
           .height(40)
           .margin(20)
           .onClick(() => {
-            if (this.stack) {
-              this.stack.pushPath({ name: "pageTwo" });
-            }
-          })
-        Button('pop', { stateEffect: true, type: ButtonType.Capsule })
-          .width('80%')
-          .height(40)
-          .margin(20)
-          .onClick(() => {
-            this.stack?.pop();
+            this.stack.pushPath({ name: "PageEleven" });
           })
       }
-      .width('100%')
-      .height('100%')
+      .size({ width: '100%', height: '100%' })
     }
-    .hideTitleBar(false)
-    .title('PageThree')
+    .backButtonIcon(this.backImg)
+    .title(this.name)
+    .translate({ y: this.y })
+    .onReady((context) => {
+      this.name = context.pathInfo.name;
+      this.stack = context.pathStack;
+    })
+    .backgroundColor('#F1F3F5')
     .onAppear(() => {
       this.eventStr += "<onAppear>";
     })
@@ -86,32 +120,3 @@ struct PageFourComponent {
   }
 }
 
-@Entry
-@Component
-struct Navigation05 {
-  private stack: NavPathStack = new NavPathStack();
-  @State mode:NavigationMode = NavigationMode.Auto;
-  @State titleMode:NavigationTitleMode = NavigationTitleMode.Full;
-
-  build() {
-    Navigation(this.stack) {
-      Stack({ alignContent: Alignment.Center }) {
-        Button('pushPath', { stateEffect: true, type: ButtonType.Capsule })
-          .id('nav06PushPageFour')
-          .width('80%')
-          .height(40)
-          .margin(20)
-          .onClick(() => {
-            this.stack.pushPath({ name: "pageFour" });
-          })
-      }
-      .width('100%')
-      .height('100%')
-    }
-    .titleMode(this.titleMode)
-    .mode(this.mode)
-    .width('100%')
-    .height('100%')
-    .title('Navigation')
-  }
-}

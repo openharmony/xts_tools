@@ -14,12 +14,12 @@
  */
 
 @Builder
-export function PageFourBuilder(name: string, param: Object) {
-  PageFourComponent();
+export function Page14Builder(name: string, param: Object) {
+  Page14Component();
 }
 
 @Component
-struct PageFourComponent {
+struct Page14Component {
   private stack: NavPathStack | null = null;
   @State eventStr: string = '';
 
@@ -49,7 +49,7 @@ struct PageFourComponent {
       .height('100%')
     }
     .hideTitleBar(false)
-    .title('PageThree')
+    .title('Page14')
     .onAppear(() => {
       this.eventStr += "<onAppear>";
     })
@@ -88,21 +88,32 @@ struct PageFourComponent {
 
 @Entry
 @Component
-struct Navigation05 {
+struct Navigation34 {
   private stack: NavPathStack = new NavPathStack();
   @State mode:NavigationMode = NavigationMode.Auto;
   @State titleMode:NavigationTitleMode = NavigationTitleMode.Full;
+
+  @Builder
+  NavigationCustomTitle() {
+    Column() {
+      Text('Navigation34')
+        .fontColor('#182431')
+        .fontSize(30)
+        .lineHeight(41)
+        .fontWeight(700)
+        .height('200')
+    }.alignItems(HorizontalAlign.Center)
+  }
 
   build() {
     Navigation(this.stack) {
       Stack({ alignContent: Alignment.Center }) {
         Button('pushPath', { stateEffect: true, type: ButtonType.Capsule })
-          .id('nav06PushPageFour')
           .width('80%')
           .height(40)
           .margin(20)
           .onClick(() => {
-            this.stack.pushPath({ name: "pageFour" });
+            this.stack.pushPath({ name: "Page14" });
           })
       }
       .width('100%')
@@ -112,6 +123,6 @@ struct Navigation05 {
     .mode(this.mode)
     .width('100%')
     .height('100%')
-    .title('Navigation')
+    .title(this.NavigationCustomTitle)
   }
 }
