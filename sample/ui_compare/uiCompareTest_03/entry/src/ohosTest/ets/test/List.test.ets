@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,29 +13,20 @@
  * limitations under the License.
  */
 
-import demoTest from  './Demo.test'
+import demoTest from  './Demo.test';
+import TestCase from './TestCaseTest/TestCase.test';
+import UIComponentLayoutStack from './UIComponentLayoutStackTest/UIComponentLayoutStack.test';
 import UIComponentArcListScrollBarColor
   from './UIComponentArcListScrollBarColorTest/UIComponentArcListScrollBarColor.test';
 import UIComponentInfomationProgressModifierColor
   from './UIComponentInfomationProgressModifierColorTest/UIComponentInfomationProgressModifierColor.test';
-import UIComponentMediaCalendarPickerDate
-  from './UIComponentMediaCalendarPickerDateTest/UIComponentMediaCalendarPickerDate.test';
-import UIComponentMediaDatePickerMode from './UIComponentMediaDatePickerModeTest/UIComponentMediaDatePickerMode.test';
 import UIComponentMediaImageAnimatorMonitorInvisibleArea
   from './UIComponentMediaImageAnimatorMonitorInvisibleAreaTest/UIComponentMediaImageAnimatorMonitorInvisibleArea.test';
-import UIComponentMediaImageFillColorReset
-  from './UIComponentMediaImageFillColorResetTest/UIComponentMediaImageFillColorReset.test';
 import UIComponentMediaImagePredownload
   from './UIComponentMediaImagePredownloadTest/UIComponentMediaImagePredownload.test';
 import UIComponentMediaImageReset from './UIComponentMediaImageResetTest/UIComponentMediaImageReset.test';
-import UIComponentMediaImageSupportThumbnails
-  from './UIComponentMediaImageSupportThumbnailsTest/UIComponentMediaImageSupportThumbnails.test';
 import UIComponentMediaImageSvgAnimateTransform
   from './UIComponentMediaImageSvgAnimateTransformTest/UIComponentMediaImageSvgAnimateTransform.test';
-import UIComponentMediaPatternLockForeground
-  from './UIComponentMediaPatternLockForegroundTest/UIComponentMediaPatternLockForeground.test';
-import UIComponentMediaTextPickerDisableTSA
-  from './UIComponentMediaTextPickerDisableTSATest/UIComponentMediaTextPickerDisableTSA.test';
 import UIComponentMediaTimePickerEnableCascade
   from './UIComponentMediaTimePickerEnableCascadeTest/UIComponentMediaTimePickerEnableCascade.test';
 import UIComponentMediaTimePickerStartEndTime
@@ -90,8 +81,11 @@ import UIComponentWaterFlowSections from './UIComponentWaterFlowSectionsTest/UIC
 import UIRelativeContainerCollaboration
   from './UIRelativeContainerCollaborationTest/UIRelativeContainerCollaboration.test';
 
+
 export default function testsuite() {
   // demoTest();
+  TestCase();
+  UIComponentLayoutStack();
   UIRelativeContainerCollaboration();
   UIComponentMediaVideoReset();
   UIComponentMediaVideoAI();
@@ -126,12 +120,6 @@ export default function testsuite() {
   UIComponentScrollPullDown();
   UIComponentWaterFlowMirror();
   UIComponentWaterFlowSections();
-  UIComponentMediaImageSupportThumbnails();
-  UIComponentMediaImageFillColorReset();
-  UIComponentMediaTextPickerDisableTSA();
-  UIComponentMediaCalendarPickerDate();
-  UIComponentMediaDatePickerMode();
-  UIComponentMediaPatternLockForeground();
   UIComponentSpecialComponentsUIContextComponentSnapshot();
   UIComponentSpecialComponentsUIContextAddMenuFocus();
   UIComponentTextChipInterface();
