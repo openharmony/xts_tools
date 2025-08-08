@@ -12,46 +12,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-//使用以下ets
-@ObservedV2
-class User_320 {
-  name: string;
-  age: number;
-
-  constructor(name: string, age: number) {
-    this.name = name;
-    this.age = age;
-  }
-}
 @Entry
 @ComponentV2
-struct Parent_320 {
-
-  @Provider('data1') users1: User_320 = new User_320('XIAOL',18);
-
+struct Index_100 {
   build() {
     Column() {
-      Text(`name: ${this.users1.age}`).fontSize(30)
-
-      Divider()
-      Child_320()
-
+      ReusableV2Component_100()
+        .reuse({reuseId: () => 'reuseComponent'}) // 使用'reuseComponent'作为reuseId
+      ReusableV2Component_100()
+        .reuse({reuseId: () => 'reuseComponent'}) // 使用空字符串将默认使用组件名'ReusableV2Component'作为reuseId
+      ReusableV2Component_100() // 未指定reuseId将默认使用组件名'ReusableV2Component'作为reuseId
     }
   }
 }
-
+@ReusableV2
 @ComponentV2
-struct Child_320 {
-  @Consumer('data1') users1: User_320= new User_320('XIAOL',18);
-
+struct ReusableV2Component_100 {
   build() {
-    Column() {
-      Text(`name: ${this.users1.name}`).fontSize(30)
-      Button('add new user')
-        .onClick(() => {
-          this.users1= new User_320('Molly', 19);//Provider
-        })
-        .id('btn1')
-    }
+    Text('HELLO').onClick(()=>{}).id('btn')
   }
 }

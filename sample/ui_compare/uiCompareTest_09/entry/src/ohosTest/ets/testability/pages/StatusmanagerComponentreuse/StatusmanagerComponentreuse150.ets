@@ -12,46 +12,35 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-//使用以下ets
-@ObservedV2
-class User_300 {
-  name: string;
-  age: number;
-
-  constructor(name: string, age: number) {
-    this.name = name;
-    this.age = age;
-  }
-}
 @Entry
 @ComponentV2
-struct Parent_300 {
-
-  @Provider('data1') users1: User_300 = new User_300('XIAOL',18);
-
+struct ReusableConditionalExample {
+  @Local condition: boolean = true;
   build() {
     Column() {
-      Text(`name: ${this.users1.age}`).fontSize(30)
-
-      Divider()
-      Child_300()
-      Button('add new user')
-        .onClick(() => {
-          this.users1= new User_300('Molly', 19);//Provider
-        })
-        .id('btn1')
-
+      Button('回收/复用').onClick(()=>{this.condition=!this.condition;}).id('btn') // 点击切换回收/复用状态
+      if (this.condition) {
+        ReusableV2Component_re150()
+      }
     }
   }
 }
 
+// 可复用组件定义
+@ReusableV2
 @ComponentV2
-struct Child_300 {
-  @Consumer('data1') users1: User_300= new User_300('XIAOL',18);
+struct ReusableV2Component_re150 {
 
+  @Local message: string = 'Hello World';
+  aboutToRecycle() {
+    console.log('ReusableV2Component aboutToRecycle'); // 回收时被调用
+  }
+  aboutToReuse() {
+    console.log('ReusableV2Component aboutToReuse'); // 复用时被调用
+  }
   build() {
     Column() {
-      Text(`name: ${this.users1.name}`).fontSize(30)
+      Text(this.message)
     }
   }
 }

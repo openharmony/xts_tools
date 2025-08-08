@@ -12,46 +12,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-//使用以下ets
-@ObservedV2
-class User {
-  @Trace name: string;
-  age: number;
-
-  constructor(name: string, age: number) {
-    this.name = name;
-    this.age = age;
-  }
-}
 @Entry
 @ComponentV2
-struct Parent {
-
-  @Provider('data1') users1: User = new User('XIAOL',18);
-
+struct Index_re40 {
   build() {
     Column() {
-      Text(`name: ${this.users1.age}`).fontSize(30)
-
-      Divider()
-      Childop330()
-
+      ReusableV2Component_40()
+      ReusableV2Component_40()
+      ReusableV2Component_40() // 未指定reuseId将默认使用组件名'ReusableV2Component'作为reuseId
     }
   }
 }
-
+@ReusableV2
 @ComponentV2
-struct Childop330 {
-  @Consumer('data1') users1: User= new User('XIAOL',18);
-
+struct ReusableV2Component_40 {
   build() {
-    Column() {
-      Text(`name: ${this.users1.name}`).fontSize(30)
-      Button('add new user')
-        .onClick(() => {
-          this.users1= new User('Molly', 19);//Provider
-        })
-        .id('btn1')
-    }
+    Button().onClick(()=>{}).id('btn')
   }
 }

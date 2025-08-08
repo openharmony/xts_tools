@@ -455,31 +455,6 @@ export default function Statusmanagerv2Optimize() {
     })
 
     /*
-     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
-     * @tc.type   : Function
-     * @tc.size   : MediumTest
-     * @tc.level  : 1
-     */
-    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240 start.`);
-      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize240")
-      let driver:Driver = Driver.create();
-      // 通过ID定位（推荐）
-      let component = await driver.waitForComponent(ON.id('btn1'), 1000);  // 显式等待组件出现[6](@ref)
-      await component.click();
-      await driver.waitForIdle(500,2000)
-      // 通过ID定位（推荐）
-      let component_1 = await driver.waitForComponent(ON.id('btn2'), 1000);  // 显式等待组件出现[6](@ref)
-      await component_1.click();
-      await driver.waitForIdle(500,2000)
-      windowSnap.screenShot();
-      await Utils.sleep(1000);
-      done();
-    })
-
-    /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0270
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0270
      * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
@@ -490,31 +465,6 @@ export default function Statusmanagerv2Optimize() {
     it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0270 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize270")
-      let driver:Driver = Driver.create();
-      // 通过ID定位（推荐）
-      let component = await driver.waitForComponent(ON.id('btn1'), 1000);  // 显式等待组件出现[6](@ref)
-      await component.click();
-      await driver.waitForIdle(500,2000)
-      // 通过ID定位（推荐）
-      let component_1 = await driver.waitForComponent(ON.id('btn2'), 1000);  // 显式等待组件出现[6](@ref)
-      await component_1.click();
-      await driver.waitForIdle(500,2000)
-      windowSnap.screenShot();
-      await Utils.sleep(1000);
-      done();
-    })
-
-    /*
-     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
-     * @tc.type   : Function
-     * @tc.size   : MediumTest
-     * @tc.level  : 1
-     */
-    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250 start.`);
-      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize250")
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn1'), 1000);  // 显式等待组件出现[6](@ref)
@@ -563,93 +513,6 @@ export default function Statusmanagerv2Optimize() {
     it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0290 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize290")
-      let driver:Driver = Driver.create();
-      // 通过ID定位（推荐）
-      let component = await driver.waitForComponent(ON.id('btn1'), 1000);  // 显式等待组件出现[6](@ref)
-      await component.click();
-      await driver.waitForIdle(500,2000)
-      windowSnap.screenShot();
-      await Utils.sleep(1000);
-      done();
-    })
-
-
-    /*
-     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
-     * @tc.type   : Function
-     * @tc.size   : MediumTest
-     * @tc.level  : 1
-     */
-    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300 start.`);
-      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize300")
-      let driver:Driver = Driver.create();
-      // 通过ID定位（推荐）
-      let component = await driver.waitForComponent(ON.id('btn1'), 1000);  // 显式等待组件出现[6](@ref)
-      await component.click();
-      await driver.waitForIdle(500,2000)
-      windowSnap.screenShot();
-      await Utils.sleep(1000);
-      done();
-    })
-
-
-    /*
-     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
-     * @tc.type   : Function
-     * @tc.size   : MediumTest
-     * @tc.level  : 1
-     */
-    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310 start.`);
-      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize310")
-      let driver:Driver = Driver.create();
-      // 通过ID定位（推荐）
-      let component = await driver.waitForComponent(ON.id('btn1'), 1000);  // 显式等待组件出现[6](@ref)
-      await component.click();
-      await driver.waitForIdle(500,2000)
-      windowSnap.screenShot();
-      await Utils.sleep(1000);
-      done();
-    })
-
-    /*
-     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
-     * @tc.type   : Function
-     * @tc.size   : MediumTest
-     * @tc.level  : 1
-     */
-    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320 start.`);
-      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize320")
-      let driver:Driver = Driver.create();
-      // 通过ID定位（推荐）
-      let component = await driver.waitForComponent(ON.id('btn1'), 1000);  // 显式等待组件出现[6](@ref)
-      await component.click();
-      await driver.waitForIdle(500,2000)
-      windowSnap.screenShot();
-      await Utils.sleep(1000);
-      done();
-    })
-
-
-    /*
-     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
-     * @tc.type   : Function
-     * @tc.size   : MediumTest
-     * @tc.level  : 1
-     */
-    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330 start.`);
-      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize330")
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn1'), 1000);  // 显式等待组件出现[6](@ref)
