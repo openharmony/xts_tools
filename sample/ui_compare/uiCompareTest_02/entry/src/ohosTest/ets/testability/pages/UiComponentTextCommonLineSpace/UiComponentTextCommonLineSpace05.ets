@@ -14,7 +14,7 @@
  */
 
 @Extend(Text)
-function style1(TextAlign: TextAlign) {
+function linespace05style1(TextAlign: TextAlign) {
   .textAlign(TextAlign)
   .fontSize(12)
   .border({ width: 1 })
@@ -35,7 +35,7 @@ struct UiComponentTextCommonLineSpace05 {
         .height(60)
       Text('This is the text with the line height set. This is the text with the line height set.' +
         'This is the text with the line height set. This is the text with the line height set.')
-        .style1(TextAlign.Start)
+        .linespace05style1(TextAlign.Start)
         .lineHeight(20)
     }
   }

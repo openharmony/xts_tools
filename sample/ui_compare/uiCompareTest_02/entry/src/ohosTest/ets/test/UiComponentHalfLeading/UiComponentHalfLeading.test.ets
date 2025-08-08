@@ -67,10 +67,10 @@ export default function UiComponentHalfLeading() {
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0100_01")
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading01'),1000);
       await button01.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0100_02")
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0100 finish.`);
       done()
@@ -89,18 +89,18 @@ export default function UiComponentHalfLeading() {
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading02");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0010_01")
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading02_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading02_02'),1000);
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading02_03'),1000);
       await button03.inputText('hell world');
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0010_02")
       await button02.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0010_03")
       await button01.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0010_04")
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0010 finish.`);
       done()
@@ -119,18 +119,18 @@ export default function UiComponentHalfLeading() {
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading03");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0020_01")
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading03_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading03_02'),1000);
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading03_03'),1000);
       await button03.inputText('hell world');
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0020_02")
       await button02.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0020_03")
       await button01.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0020_04")
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0020 finish.`);
       done();
@@ -187,21 +187,21 @@ export default function UiComponentHalfLeading() {
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading06");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0070_01")
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading06_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading06_02'),1000);
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading06_03'),1000);
       await button02.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0070_02")
       await button01.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0070_03")
       await button03.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0070_04")
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0070_05")
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0070 finish.`);
       done();
@@ -223,10 +223,10 @@ export default function UiComponentHalfLeading() {
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading07_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading07_02'),1000);
       await button01.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0110_01")
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0110_02")
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0110 finish.`);
       done();
@@ -245,10 +245,10 @@ export default function UiComponentHalfLeading() {
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading08");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0080_01")
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading08_01'),1000);
       await button01.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0080_02")
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0080 finish.`);
       done();
@@ -267,10 +267,10 @@ export default function UiComponentHalfLeading() {
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading09");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0090_01")
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading09_01'),1000);
       await button01.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0090_02")
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0090 finish.`);
       done();
@@ -289,18 +289,18 @@ export default function UiComponentHalfLeading() {
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading10");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0150_01")
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading10_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading10_02'),1000);
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading10_03'),1000);
       await button03.inputText('你好hello こんにちは안녕하세요😊');
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0150_02")
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0150_03")
       await driver.waitForIdle(500,2000);
       await button01.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0150_04")
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0150 finish.`);
       done();
@@ -319,21 +319,21 @@ export default function UiComponentHalfLeading() {
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading11");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0060_01")
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading11_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading11_02'),1000);
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading11_03'),1000);
       await button02.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0060_02")
       await button01.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0060_03")
       await button03.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0060_04")
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0060_05")
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0060 finish.`);
       done();
@@ -352,23 +352,23 @@ export default function UiComponentHalfLeading() {
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading12");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0050_01")
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading12_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading12_02'),1000);
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading12_03'),1000);
       let button04: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading12_04'),1000);
       await button04.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0050_02")
       await button03.inputText('123456');
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0050_03")
       await button02.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0050_04")
       await driver.waitForIdle(500,2000);
       await button01.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0050_05")
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0050 finish.`);
       done();
@@ -387,10 +387,10 @@ export default function UiComponentHalfLeading() {
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading13");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0160_01")
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading13_01'),1000);
       await button01.click();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_HALFLEADING_0160_02")
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0160 finish.`);
       done();

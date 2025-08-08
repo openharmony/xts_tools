@@ -86,12 +86,12 @@ export default function UiComponentWordBreakHyphenation() {
       Settings.createWindow("testability/pages/UiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation02");
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190_01");
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentWordBreakHyphenation02'),1000);
       for(let i=0;i<4;++i)
       {
         await button01.click();
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190_0"+i+2);
         await driver.waitForIdle(500,2000);
       }
       await Utils.sleep(1000);

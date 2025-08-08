@@ -73,14 +73,14 @@ export default function UiComponentTextShareMenu() {
       await textarea.click();
       await textarea.doubleClick();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0110_02");
       await textinput.click();
       await textinput.doubleClick();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0110_03");
       await driver.click(200,525);
       await driver.doubleClick(200,525);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0110_04");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0110 finish.`);
       done()
@@ -99,12 +99,12 @@ export default function UiComponentTextShareMenu() {
       Settings.createWindow("testability/pages/UiComponentTextShareMenu/UiComponentTextShareMenu02")
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0060_01");
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentTextShareMenu02'),1000);
       await textarea.longClick();
       await driver.waitForIdle(500,2000);
       await driver.mouseClick({x:120, y:200}, MouseButton.MOUSE_BUTTON_LEFT);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0060_02");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0110 finish.`);
       done()

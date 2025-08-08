@@ -71,12 +71,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale01'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0230_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0230_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0230 finish.`);
@@ -97,12 +97,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale02'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0220_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0220_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0220 finish.`);
@@ -123,12 +123,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale03'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0200_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0200_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0200 finish.`);
@@ -149,12 +149,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale04'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0120_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0120_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0120 finish.`);
@@ -175,12 +175,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale05'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0010_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0010_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0010 finish.`);
@@ -201,12 +201,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale06'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0150_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0150_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0150 finish.`);
@@ -227,12 +227,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale07'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0140_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0140_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0140 finish.`);
@@ -253,12 +253,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale08'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0210_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0210_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0210 finish.`);
@@ -279,12 +279,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale09'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0190_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0190_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0190 finish.`);
@@ -305,12 +305,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale10'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0170_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0170_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0170 finish.`);
@@ -331,12 +331,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale11'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0160_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0160_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0160 finish.`);
@@ -357,12 +357,12 @@ export default function UiComponentInputFontsTzeScale() {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentInputFontsTzeScale12'),1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0180_01");
       for(let i=0;i<4;++i)
       {
         await button01.click();
         await driver.waitForIdle(500,2000);
-        windowSnap.snapShot();
+        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0180_0"+i+2);
       }
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0180 finish.`);

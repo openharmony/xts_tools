@@ -66,13 +66,13 @@ export default function UiComponentTextInputTwoWayBinding() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputTwoWayBinding/UiComponentTextInputTwoWayBinding01")
       let driver:Driver=Driver.create();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0060_01")
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentTextInputTwoWayBinding01_01'),1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextInputTwoWayBinding01_02'),1000);
       await textarea.inputText('aaa');
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0060_02")
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0060 finish.`);
       done()
@@ -90,13 +90,13 @@ export default function UiComponentTextInputTwoWayBinding() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputTwoWayBinding/UiComponentTextInputTwoWayBinding02")
       let driver:Driver=Driver.create();
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0050_01")
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentTextInputTwoWayBinding02_01'),1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextInputTwoWayBinding02_02'),1000);
       await textarea.inputText('hello world');
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0050_02")
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0050 finish.`);
       done()
