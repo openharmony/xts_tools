@@ -84,13 +84,13 @@ export default function specialComponentsTest() {
       let button: Component = await driver.waitForComponent(ON.id('textInput01'), 1000);
       await button.click();
       await Utils.sleep(500)
-      Settings.changeWindowOrientation()
+      Settings.changeWindowOrientation('landScape')
       await Utils.sleep(500)
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0250_01')
-      Settings.changeWindowOrientation()
+      Settings.changeWindowOrientation('portrait')
       await Utils.sleep(500)
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0250_02')
-      Settings.changeWindowOrientation()
+      Settings.changeWindowOrientation('landScape')
       await Utils.sleep(500)
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0250_03')
       await Utils.sleep(1000)

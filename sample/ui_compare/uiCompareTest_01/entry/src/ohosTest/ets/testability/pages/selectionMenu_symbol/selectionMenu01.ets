@@ -68,7 +68,7 @@ struct selectionMenu01 {
         }
       },
       {
-        icon: $r("app.media.app_icon"), action: () => {
+        icon: $r("app.media.icon"), action: () => {
           }, builder: (): void => this.sliderPanel()
       }
     ]

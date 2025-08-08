@@ -13,15 +13,15 @@
  * limitations under the License.
  */
 
-import gestureMonopolize01Test from './gesture_monopolize/gestureMonopolize01.test';
+import gestureMonopolize01Test from './gesture_monopolize/GestureMonopolize01.test';
 import stepperInterface01Test from './stepper_interface/stepperInterface01.test';
 import navigationContent01Test from './navigation_content/navigationContent01.test';
 import animatorCreate01Test from './animator_sample/animatorCreate01.test';
 import expectedFrameTest from './expectedFrame/expectedFrame.test';
 import waterflowMirrorTest from './waterflow_mirror/waterflowMirror.test';
-import scrollAccessibleTest from './scroll_accessible/scrollAccessible.test';
+import scrollAccessibleTest from './scroll_accessible/ScrollAccessible.test';
 import specialComponentsTest from './special_components/specialComponents.test';
-import measureResultTest from './measureResult/measureResult.test';
+import measureResultTest from './measureResult/MeasureResult.test';
 import FocusDynamicTest from './focus_dynamic/FocusDynamic.test';
 import RouterPushTest from './router_push/RouterPush.test';
 import ImageSpanTest from './image_span/imageSpan.test';

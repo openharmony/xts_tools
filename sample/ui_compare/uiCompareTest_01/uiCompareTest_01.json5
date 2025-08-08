@@ -22,7 +22,7 @@
   ],
   "driver": {
     "type": "DeviceTest",
-    "bundle-name": "com.example.uicompare",
+    "bundle-name": "com.example.uiCompare_01",
     "py_file": "ace/testcases/UI_Compare_Tools_Common.py"
   },
   "kits": [

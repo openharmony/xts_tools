@@ -47,7 +47,7 @@ struct WaterFlowFad59 {
   fontSize: number = 24;
   @State endInfo: string = 'Na';
   @State scrollInfo: string = 'Na';
-  @State sections: WaterFlowSections02 = new WaterFlowSections02();
+  @State sections: WaterFlowSections = new WaterFlowSections();
   @State flowItemWidth: Length = '100%';
   @State rowsGap: Length = 5;
   @State columnsGap: Length = 10;

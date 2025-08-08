@@ -51,7 +51,7 @@ struct WaterFlowFad40 {
   @State flowItemWidth: Length = '100%';
   colors: number[] = [0xFFC0CB, 0xDA70D6, 0x6B8E23, 0x6A5ACD, 0x00FFFF, 0x00FF7F];
   scroller: Scroller = new Scroller();
-  dataSource: WaterFlowDataSource01 = new WaterFlowDataSource01();
+  dataSource: WaterFlowDataSource = new WaterFlowDataSource();
   dataCount: number = this.dataSource.totalCount();
   private itemHeightArray: number[] = [];
   sectionMargin: Margin = { top: 10, left: 5, bottom: 10, right: 5 };

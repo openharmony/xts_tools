@@ -15,14 +15,11 @@
 
 {
   "modelVersion": "5.1.1",
-  "license": "",
-  "devDependencies": {
-    "@ohos/hypium": "1.0.6"
-  },
-  "author": "",
-  "name": "uicompare",
   "description": "Please describe the basic information.",
-  "main": "",
-  "version": "1.0.0",
-  "dependencies": {}
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.21",
+    "@ohos/hamock": "1.0.0"
+  }
 }

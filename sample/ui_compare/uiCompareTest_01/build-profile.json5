@@ -19,13 +19,13 @@
       {
         "name": "default",
         "material": {
-          "certpath": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompareTest_01_UK6n8FJJZ7mmxAf2ns2gj6mxlIbE8sL9qOUDO0X3kEI=.cer",
+          "certpath": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompare_01_TaAC4sMybPddKYTCUrW9jQeXy51zPEG7l2VgxOnoNS8=.cer",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001BB8C2E0FE04B1569CF749FFA4377260761FFDDAB025EAA6D4C3AB5804852051E0E4C53CF4E9C4EB",
-          "profile": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompareTest_01_UK6n8FJJZ7mmxAf2ns2gj6mxlIbE8sL9qOUDO0X3kEI=.p7b",
+          "keyPassword": "0000001BAC02CC6B5D31D5F6C685E084E13FCE0DDDBEECBE677916EE1A67238A04F7FB662FA93A618A91C0",
+          "profile": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompare_01_TaAC4sMybPddKYTCUrW9jQeXy51zPEG7l2VgxOnoNS8=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompareTest_01_UK6n8FJJZ7mmxAf2ns2gj6mxlIbE8sL9qOUDO0X3kEI=.p12",
-          "storePassword": "0000001B2EB7FF92E8699A740D8CB400CB0A5DDDD8FDAADD5E62EA97DC046D230B1765C710FEF88B71828F"
+          "storeFile": "C:/Users/Administrator/.ohos/config/openharmony/default_uiCompare_01_TaAC4sMybPddKYTCUrW9jQeXy51zPEG7l2VgxOnoNS8=.p12",
+          "storePassword": "0000001BC0B7167B69C849F18B3AD51C5BCD555424E4934E672A37412B4C388C10C9B1B3EEBB76A91FA29A"
         }
       }
     ],
@@ -35,13 +35,23 @@
         "signingConfig": "default",
         "compileSdkVersion": 20,
         "compatibleSdkVersion": 20,
+        "targetSdkVersion": 20,
         "runtimeOS": "OpenHarmony",
         "buildOption": {
           "strictMode": {
             "caseSensitiveCheck": true,
             "useNormalizedOHMUrl": true
           }
-        }
+        },
+
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
       }
     ]
   },

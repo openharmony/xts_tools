@@ -115,7 +115,7 @@ export default function RouterPushTest() {
 
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270_01')
-      await Settings.changeWindowOrientation()
+      await Settings.changeWindowOrientation('landScape');
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270_02')
       await Utils.sleep(800)
@@ -306,7 +306,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button7'), 1000);
       await buttonA.click();
-      Settings.changeWindowOrientation()
+      Settings.changeWindowOrientation('landScape');
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
@@ -504,7 +504,7 @@ export default function RouterPushTest() {
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button4_2'), 1000);
       await buttonB.click();
       await Utils.sleep(600)
-      Settings.changeWindowOrientation()
+      Settings.changeWindowOrientation('landScape');
       windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0660 finish.`);
@@ -668,7 +668,7 @@ export default function RouterPushTest() {
       await buttonB.click();
       let buttonA2: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA2.click();
-      Settings.changeWindowOrientation()
+      Settings.changeWindowOrientation('landScape');
       windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0680 finish.`);
@@ -763,7 +763,7 @@ export default function RouterPushTest() {
       await buttonA.click();
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button4_1'), 1000);
       await buttonB.click();
-      Settings.changeWindowOrientation()
+      Settings.changeWindowOrientation('landScape');
       windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0670 finish.`);
@@ -983,7 +983,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
-      Settings.changeWindowOrientation()
+      Settings.changeWindowOrientation('landScape');
       windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0640 finish.`);
@@ -1114,7 +1114,7 @@ export default function RouterPushTest() {
       await buttonB.click();
       let buttonA2: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA2.click();
-      Settings.changeWindowOrientation()
+      Settings.changeWindowOrientation('landScape');
       windowSnap.snapShot()
       Settings.changeWindowOrientation('end')
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0260 finish.`);
@@ -1159,7 +1159,7 @@ export default function RouterPushTest() {
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
-      Settings.changeWindowOrientation()
+      Settings.changeWindowOrientation('landScape');
       await Utils.sleep(800)
       windowSnap.snapShot()
       await Utils.sleep(800)
@@ -1254,7 +1254,7 @@ export default function RouterPushTest() {
       await driver.waitForIdle(500,2000);
       let buttonC: Component = await driver.waitForComponent(ON.id('PageC_Button4_1'), 1000);
       await buttonC.click();
-      Settings.changeWindowOrientation()
+      Settings.changeWindowOrientation('landScape');
       await Utils.sleep(800)
       windowSnap.snapShot()
       await Utils.sleep(800)
@@ -1479,7 +1479,7 @@ export default function RouterPushTest() {
       await buttonA.click();
       let buttonB: Component = await driver.waitForComponent(ON.id('PageB_Button1'), 1000);
       await buttonB.click();
-      await Settings.changeWindowOrientation()
+      await Settings.changeWindowOrientation('landScape');
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
       await Utils.sleep(800)

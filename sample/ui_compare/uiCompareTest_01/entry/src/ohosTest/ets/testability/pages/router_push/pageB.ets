@@ -75,7 +75,7 @@ struct PageB {
         .id('PageB_Button4')
         .onClick(async ()=>{
           this.routePush('testability/pages/router_push/pageA')
-          await Settings.changeWindowOrientation()
+          await Settings.changeWindowOrientation('landScape')
         })
 
       Button('Back and push')
