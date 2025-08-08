@@ -18,8 +18,22 @@
 import ComponentNavNavigationBack from './ComponentNavNavigationBackTest/ComponentNavNavigationBack.test'
 import ComponentNavNavigation from './ComponentNavNavigationTest/ComponentNavNavigation.test'
 import ComponentNavModifier from './ComponentNavModifierTest/ComponentNavModifier.test'
+import PrivacySensitiveGauge from './PrivacySensitiveGaugeTest/PrivacySensitiveGauge.test'
 import InfomationGaugeUi from './InfomationGaugeUiTest/InfomationGaugeUi.test'
 import MediaGaugeWatches from './MediaGaugeWatchesTest/MediaGaugeWatches.test'
+import SearchInteraction from './SearchInteractionTest/SearchInteraction.test'
+import SearchInterface from './SearchInterfaceTest/SearchInterface.test'
+import ComponentTextTv from './ComponentTextTvTest/ComponentTextTv.test'
+import TextFadingEdgeTV from './TextFadingEdgeTVTest/TextFadingEdgeTV.test'
+import ComponentTextSpanInterface from './ComponentTextSpanInterfaceTest/ComponentTextSpanInterface.test'
+import ComponentTextSpanUI from './ComponentTextSpanUITest/ComponentTextSpanUI.test'
+import FocusDynamicEffect from './FocusDynamicEffectTest/FocusDynamicEffect.test'
+import ComponentTextHalfLeading from './ComponentTextHalfLeadingTest/ComponentTextHalfLeading.test'
+import ComponentTextTextUI from './ComponentTextTextUITest/ComponentTextTextUI.test'
+import ComponentTextTextInterface from './ComponentTextTextInterfaceTest/ComponentTextTextInterface.test'
+import PopToName from './PopToNameTest/PopToName.test'
+import MediaImageSpanError from './MediaImageSpanErrorTest/MediaImageSpanError.test'
+import PropertyAnmationAnimations from './PropertyAnmationAnimationsTest/PropertyAnmationAnimations.test'
 
 
 
@@ -28,6 +42,20 @@ export default function testsuite() {
   ComponentNavNavigationBack();
   ComponentNavNavigation();
   ComponentNavModifier();
+  PrivacySensitiveGauge();
   InfomationGaugeUi();
   MediaGaugeWatches();
+  SearchInteraction();
+  SearchInterface();
+  ComponentTextTv();
+  TextFadingEdgeTV();
+  ComponentTextSpanInterface();
+  ComponentTextSpanUI();
+  FocusDynamicEffect();
+  ComponentTextHalfLeading();
+  ComponentTextTextUI();
+  ComponentTextTextInterface();
+  PopToName();
+  MediaImageSpanError();
+  PropertyAnmationAnimations();
 }
