@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  Resource,
+  $r,
+  StorageLink,
+  Column,
+  AppStorage,
+} from '@kit.ArkUI';
 
 import ApplyGlobalDataSyncCode from './ApplyGlobalDataSyncCode';
 import { CodeView } from '../../../commoncomponents/CodeView';
@@ -29,11 +41,11 @@ struct ApplyGlobalDataSync {
     Column() {
       // 展示不同模式状态下的标题
       if (this.currentModelStatus) {
-        TitleBarDark({ title: $title })
+        TitleBarDark({ title: this.title })
       } else {
-        TitleBar({ title: $title })
+        TitleBar({ title: this.title })
       }
-      CodeView({ title: $title, isShowTitle: false }) {
+      CodeView({ title: this.title, isShowTitle: false }) {
         ApplyGlobalDataSyncCode()
       }
     }.width('100%')

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,13 +14,31 @@
  * limitations under the License.
  */
 
+import {
+  getUIContext,
+  Component,
+  State,
+  Link,
+  Resource,
+  Column,
+  $rawfile,
+  Row,
+  Select,
+  $r,
+  Circle,
+  FlexAlign,
+  Text,
+  TextAlign,
+  Color,
+} from '@kit.ArkUI';
+
 import common from '@ohos.app.ability.common';
 import { ColorType } from '../model/ColorType';
 import { COLOR_SELECT_DATA } from '../data/ColorData';
 import { getResourceString } from '../../../../utils/ResourceUtils';
 import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
 
-const CONTEXT: common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
+const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
 
 @Component
 export struct LinkDescendentComponent {
@@ -36,7 +55,7 @@ export struct LinkDescendentComponent {
       Row() {
         Select(this.selectColors)
           .selected(this.currentSelectIndex)
-          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex].value))
+          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex as int].value))
           .fontColor($r('app.color.button_text_color'))
           .font({ size: $r('app.float.tips_font_size') })
           .selectedOptionFont({ size: $r('app.float.tips_font_size') })
@@ -45,7 +64,7 @@ export struct LinkDescendentComponent {
           .onSelect((index: number) => {
             // 孙组件@Link组件数据页面更新，爷组件同步更新
             this.currentSelectIndex = index;
-            this.circleColor = this.selectColors[index].color;
+            this.circleColor = this.selectColors[index as int].color;
           })
         Circle()
           .size({ width: $r('app.float.circle_size'), height: $r('app.float.circle_size') })

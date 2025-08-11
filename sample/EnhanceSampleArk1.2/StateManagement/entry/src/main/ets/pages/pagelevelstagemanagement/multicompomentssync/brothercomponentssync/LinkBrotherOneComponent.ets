@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,13 +14,31 @@
  * limitations under the License.
  */
 
+import {
+  getUIContext,
+  Component,
+  State,
+  Link,
+  Resource,
+  Column,
+  $rawfile,
+  Text,
+  $r,
+  TextAlign,
+  Row,
+  Select,
+  Circle,
+  FlexAlign,
+  Color,
+} from '@kit.ArkUI';
+
 import common from '@ohos.app.ability.common';
 import { ColorType } from '../model/ColorType';
 import { COLOR_SELECT_DATA } from '../data/ColorData';
 import { getResourceString } from '../../../../utils/ResourceUtils';
 import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
 
-const CONTEXT: common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
+const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
 
 @Component
 export struct LinkBrotherOneComponent {
@@ -43,7 +62,7 @@ export struct LinkBrotherOneComponent {
         Select(this.selectColors)
           .id('linkSelectCompA')
           .selected(this.currentSelectIndex)
-          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex].value))
+          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex as int].value))
           .fontColor($r('app.color.button_text_color'))
           .font({ size: $r('app.float.select_font_size') })
           .selectedOptionFont({ size: $r('app.float.select_font_size') })
@@ -51,7 +70,7 @@ export struct LinkBrotherOneComponent {
           .onSelect((index: number) => {
             // 此组件@Link声明的数据页面更新，兄弟组件@Link的数据页面同步更新
             this.currentSelectIndex = index;
-            this.circleColor = this.selectColors[index].color;
+            this.circleColor = this.selectColors[index as int].color;
           })
         Circle()
           .size({ width: $r('app.float.circle_size'), height: $r('app.float.circle_size') })

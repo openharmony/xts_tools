@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,23 @@
  * limitations under the License.
  */
 
+import {
+  LocalStorage,
+  Entry,
+  Component,
+  State,
+  Resource,
+  $r,
+  LocalStorageLink,
+  Column,
+  $rawfile,
+  Text,
+  TextAlign,
+  Button,
+  ButtonType,
+  AppStorage,
+} from '@kit.ArkUI';
+
 import { CodeView } from '../../../commoncomponents/CodeView';
 import { ViewCodeText } from '../../../commoncomponents/ViewCodeText';
 import { TitleBarDark } from '../../../commoncomponents/TitleBarDark';
@@ -20,7 +38,8 @@ import { TitleBar } from '../../../commoncomponents/TitleBar';
 
 let storage: LocalStorage = LocalStorage.GetShared();
 
-@Entry(storage)
+const __get_local_storage__ = (): LocalStorage => storage;
+@Entry({ storage: "__get_local_storage__" })
 @Component
 struct AbilityOutOfSyncPage {
   // 判断是否关联ability的变量
@@ -34,11 +53,11 @@ struct AbilityOutOfSyncPage {
   build() {
     Column() {
       if (this.currentModelStatus) {
-        TitleBarDark({ title: $title, isAbility: true })
+        TitleBarDark({ title: this.title, isAbility: true })
       } else {
-        TitleBar({ title: $title, isAbility: true })
+        TitleBar({ title: this.title, isAbility: true })
       }
-      CodeView({ title: $title, isShowTitle: false }) {
+      CodeView({ title: this.title, isShowTitle: false }) {
         Column({ space: 30 }) {
           // 查看源码
           ViewCodeText({ webSrc: $rawfile('AbilityOutOfSyncPage.ets.html') })

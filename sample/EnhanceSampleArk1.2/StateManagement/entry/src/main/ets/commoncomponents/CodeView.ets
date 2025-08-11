@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  BuilderParam,
+  Link,
+  Resource,
+  StorageLink,
+  Watch,
+  $rawfile,
+  Builder,
+  Column,
+  Text,
+  $r,
+  Color,
+  ItemAlign,
+  Web,
+  SideBarContainer,
+  SideBarContainerType,
+  Scroll,
+  Alignment,
+  BarState,
+  SideBarPosition,
+} from '@kit.ArkUI';
 
 import webView from '@ohos.web.webview';
 import { TitleBar } from './TitleBar';
@@ -57,7 +81,7 @@ export struct CodeView {
   build() {
     Column() {
       if (this.isShowTitle) {
-        TitleBar({ title: $title })
+        TitleBar({ title: this.title })
       }
       SideBarContainer(this.curBp === 'sm' ? SideBarContainerType.Overlay : SideBarContainerType.Embed) {
         this.codeView()

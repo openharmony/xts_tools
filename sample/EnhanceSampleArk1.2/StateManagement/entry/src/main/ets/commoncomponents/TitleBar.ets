@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,12 +14,26 @@
  * limitations under the License.
  */
 
+import {
+  getUIContext,
+  Component,
+  Link,
+  Resource,
+  Column,
+  Row,
+  Button,
+  Image,
+  $r,
+  Text,
+  Divider,
+} from '@kit.ArkUI';
+
 import router from '@ohos.router';
 import common from '@ohos.app.ability.common';
 import { startSpecifiedAbility } from '../utils/StartAbilityUtils';
 
 //声明一个上下文信息
-const CONTEXT: common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
+const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
 
 @Component
 export struct TitleBar {
@@ -35,7 +50,7 @@ export struct TitleBar {
         .backgroundColor($r('app.color.background_shallow_grey'))
         .id('backBtn')
         .onClick(() => {
-          this.isAbility ? startSpecifiedAbility(CONTEXT, 'EntryAbility') : router.back();
+          this.isAbility ? startSpecifiedAbility(CONTEXT, 'EntryAbility') : getUIContext().getRouter.back();
         })
 
         Text(this.title)

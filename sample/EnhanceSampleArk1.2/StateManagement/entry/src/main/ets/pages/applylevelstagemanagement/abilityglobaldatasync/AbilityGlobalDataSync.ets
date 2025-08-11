@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,18 @@
  * limitations under the License.
  */
 
+import {
+  LocalStorage,
+  Entry,
+  Component,
+  State,
+  Resource,
+  $r,
+  LocalStorageLink,
+  Column,
+  AppStorage,
+} from '@kit.ArkUI';
+
 import { AbilityGlobalDataSyncCode } from './AbilityGlobalDataSyncCode';
 import { CodeView } from '../../../commoncomponents/CodeView';
 import { TitleBarDark } from '../../../commoncomponents/TitleBarDark';
@@ -20,7 +33,8 @@ import { TitleBar } from '../../../commoncomponents/TitleBar';
 
 let storage: LocalStorage = LocalStorage.GetShared();
 
-@Entry(storage)
+const __get_local_storage__ = (): LocalStorage => storage;
+@Entry({ storage: "__get_local_storage__" })
 @Component
 struct AbilityGlobalDataSync {
   @State title: Resource = $r('app.string.ability_storage_ui');
@@ -31,11 +45,11 @@ struct AbilityGlobalDataSync {
     Column() {
       // 展示不同模式下的标题
       if (this.currentModelStatus) {
-        TitleBarDark({ title: $title })
+        TitleBarDark({ title: this.title })
       } else {
-        TitleBar({ title: $title })
+        TitleBar({ title: this.title })
       }
-      CodeView({ title: $title, isShowTitle: false }) {
+      CodeView({ title: this.title, isShowTitle: false }) {
         AbilityGlobalDataSyncCode()
       }
     }

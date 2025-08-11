@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Resource,
+  $r,
+  Component,
+  State,
+  Column,
+  $rawfile,
+  List,
+  ForEach,
+  ListItem,
+  Button,
+  ButtonType,
+  Color,
+  getUIContext,
+  Text,
+  Divider,
+} from '@kit.ArkUI';
 
 import promptAction from '@ohos.promptAction';
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText'
@@ -85,7 +104,7 @@ export struct ArrayTypeCode {
       case 1:
         if (this.arrayTypeData.length === 0) {
           // 当数据没有数据的时候，点击删除按钮，出现提示弹窗
-          promptAction.showToast({
+          getUIContext().getPromptAction.showToast({
             message: $r('app.string.array_type_deletetoast')
           });
         } else {
@@ -96,7 +115,7 @@ export struct ArrayTypeCode {
       case 2:
         if (this.arrayTypeData.length === 0) {
           // 当数据没有数据的时候，点击更新按钮，出现提示弹窗
-          promptAction.showToast({
+          getUIContext().getPromptAction.showToast({
             message: $r('app.string.array_type_updatetoast')
           });
           break;

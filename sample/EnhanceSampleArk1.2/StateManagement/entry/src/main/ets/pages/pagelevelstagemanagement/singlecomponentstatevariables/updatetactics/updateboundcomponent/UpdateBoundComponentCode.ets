@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,20 @@
  * limitations under the License.
  */
 
+import {
+  Component,
+  State,
+  Column,
+  $rawfile,
+  Text,
+  $r,
+  Row,
+  FlexAlign,
+  Button,
+  ButtonType,
+  Color,
+} from '@kit.ArkUI';
+
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
 
 @Component
@@ -22,7 +37,7 @@ export struct UpdateBoundComponentCode {
   // 组件内private变量
   private content: string = 'content';
   // 组件内变量更新的次数
-  private updateCount: number = 0;
+  private updateCount: int = 0;
 
   build() {
     Column({ space: 10 }) {

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  State,
+  Link,
+  Resource,
+  Column,
+  $rawfile,
+  Text,
+  $r,
+  TextAlign,
+  Row,
+  Select,
+  getUIContext,
+  Circle,
+  FlexAlign,
+  Color,
+} from '@kit.ArkUI';
 
 import common from '@ohos.app.ability.common';
 import { ColorType } from '../model/ColorType';
@@ -41,7 +60,7 @@ export struct LinkBrotherTwoComponent {
         Select(this.selectColors)
           .id('linkSelectCompB')
           .selected(this.currentSelectIndex)
-          .value(getResourceString(getContext(this) as common.UIAbilityContext, this.selectColors[this.currentSelectIndex].value))
+          .value(getResourceString(getUIContext().getHostContext(this) as common.UIAbilityContext, this.selectColors[this.currentSelectIndex as int].value))
           .fontColor($r('app.color.button_text_color'))
           .font({ size: $r('app.float.select_font_size') })
           .selectedOptionFont({ size: $r('app.float.select_font_size') })
@@ -49,7 +68,7 @@ export struct LinkBrotherTwoComponent {
           .onSelect((index: number) => {
             // 此组件@Link声明的数据页面更新，兄弟组件@Link的数据页面同步更新
             this.currentSelectIndex = index;
-            this.circleColor = this.selectColors[index].color;
+            this.circleColor = this.selectColors[index as int].color;
           })
         Circle()
           .size({ width: $r('app.float.circle_size'), height: $r('app.float.circle_size') })

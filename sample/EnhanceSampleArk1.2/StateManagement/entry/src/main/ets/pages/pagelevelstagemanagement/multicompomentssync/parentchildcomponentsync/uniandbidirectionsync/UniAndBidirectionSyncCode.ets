@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  State,
+  Column,
+  $rawfile,
+  Text,
+  $r,
+  TextAlign,
+  Circle,
+  Button,
+  ButtonType,
+  Color,
+} from '@kit.ArkUI';
+
 import { ChildCompLink } from './ComponentLink';
 import { ChildCompProp } from './ComponentProp';
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
@@ -66,7 +82,7 @@ export struct UniAndBidirectionSyncCode {
       // 单向同步子组件
       ChildCompProp({ circleColor: this.circleColor })
       // 双向同步子组件
-      ChildCompLink({ circleColor: $circleColor })
+      ChildCompLink({ circleColor: this.circleColor })
     }
     .padding(10)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })

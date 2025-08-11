@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,13 +14,35 @@
  * limitations under the License.
  */
 
+import {
+  getUIContext,
+  Component,
+  LocalStorageLink,
+  Column,
+  $rawfile,
+  Row,
+  Text,
+  $r,
+  Toggle,
+  ToggleType,
+  Color,
+  FlexAlign,
+  TextAlign,
+  Slider,
+  SliderStyle,
+  SliderChangeMode,
+  Button,
+  ButtonType,
+  Divider,
+} from '@kit.ArkUI';
+
 import router from '@ohos.router';
 import common from '@ohos.app.ability.common';
 import { ViewCodeText } from '../../../commoncomponents/ViewCodeText';
 import { startSpecifiedAbility } from '../../../utils/StartAbilityUtils';
 
 // 声明一个上下文信息
-const CONTEXT: common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
+const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
 
 @Component
 export struct AbilityGlobalDataSyncCode {
@@ -102,7 +125,7 @@ export struct AbilityGlobalDataSyncCode {
       .backgroundColor($r('app.color.button_background_color'))
       .padding($r('app.float.page_padding'))
       .onClick(() => {
-        router.pushUrl({ url: 'pages/applylevelstagemanagement/abilityglobaldatasync/LocalStoragePropPage' });
+        getUIContext().getRouter.pushUrl({ url: 'pages/applylevelstagemanagement/abilityglobaldatasync/LocalStoragePropPage' });
       })
 
       Button() {
@@ -117,7 +140,7 @@ export struct AbilityGlobalDataSyncCode {
       .backgroundColor($r('app.color.button_background_color'))
       .padding($r('app.float.page_padding'))
       .onClick(() => {
-        router.pushUrl({ url: 'pages/applylevelstagemanagement/abilityglobaldatasync/LocalStorageLinkPage' });
+        getUIContext().getRouter.pushUrl({ url: 'pages/applylevelstagemanagement/abilityglobaldatasync/LocalStorageLinkPage' });
       })
 
       Divider().width('100%').strokeWidth(1)

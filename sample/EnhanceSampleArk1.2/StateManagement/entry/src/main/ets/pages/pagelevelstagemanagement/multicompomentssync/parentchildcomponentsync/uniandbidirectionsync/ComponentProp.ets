@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,13 +14,28 @@
  * limitations under the License.
  */
 
+import { PropRef } from '@kit.ArkUI';
+
+import {
+  Component,
+  Column,
+  $rawfile,
+  Text,
+  $r,
+  TextAlign,
+  Circle,
+  Button,
+  ButtonType,
+  Color,
+} from '@kit.ArkUI';
+
 import { COLOR_DATA } from './UniAndBidirectionSyncCode';
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
 
 @Component
 export struct ChildCompProp {
   // 圆形颜色，和父组件中的状态变量单向同步，只支持基础类型
-  @Prop circleColor: string;
+  @PropRef circleColor: string;
 
   build() {
     Column({ space: 10 }) {

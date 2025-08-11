@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License")
@@ -13,14 +14,36 @@
  * limitations under the License.
  */
 
+import {
+  ColumnAttribute,
+  Color,
+  Preview,
+  Component,
+  Column,
+  List,
+  ForEach,
+  ListItem,
+  Text,
+  TextAlign,
+  $r,
+  Blank,
+  Divider,
+  ItemAlign,
+  State,
+  Row,
+  Image,
+  Alignment,
+} from '@kit.ArkUI';
+
 import router from '@ohos.router';
 import { SecondLevelCategory, ThirdLevelCategory, FourthLevelCategory } from './model/CategoricalDataType';
 
-@Extend(Column) function ColumnStyle() {
-  .width('100%')
-  .borderRadius(24)
-  .backgroundColor(Color.White)
-  .padding({ left: 12, right: 12, bottom: 4, top: 4 })
+function ColumnStyle(this: ColumnAttribute): this {
+    this.width('100%');
+    this.borderRadius(24);
+    this.backgroundColor(Color.White);
+    this.padding({ left: 12, right: 12, bottom: 4, top: 4 });
+    return this;
 }
 
 @Preview
@@ -95,7 +118,7 @@ export struct TabContentNavigation {
 struct ThirdLevelNavigation {
   @State isUnfold: boolean = false;
   private thirdLevelCategory: ThirdLevelCategory;
-  private ThirdLevelNavigationIndex: number;
+  private ThirdLevelNavigationIndex: int;
   private secondLevelCategoryIndex: number;
 
   build() {

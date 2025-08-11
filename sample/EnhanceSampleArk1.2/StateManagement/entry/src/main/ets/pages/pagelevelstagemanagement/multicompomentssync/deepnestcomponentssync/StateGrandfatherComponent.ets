@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,24 @@
  * limitations under the License.
  */
 
+import {
+  getUIContext,
+  Component,
+  State,
+  Resource,
+  $r,
+  Column,
+  $rawfile,
+  Text,
+  TextAlign,
+  Row,
+  Select,
+  Circle,
+  FlexAlign,
+  Color,
+  Link,
+} from '@kit.ArkUI';
+
 import common from '@ohos.app.ability.common';
 import { LinkDescendentComponent } from './LinkDescendentComponent';
 import { ColorType } from '../model/ColorType';
@@ -21,7 +40,7 @@ import { getResourceString } from '../../../../utils/ResourceUtils';
 import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
 
 // 声明一个上下文变量
-const CONTEXT: common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
+const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
 
 @Component
 export struct StateGrandfatherComponent {
@@ -44,7 +63,7 @@ export struct StateGrandfatherComponent {
       Row() {
         Select(this.selectColors)
           .selected(this.currentSelectIndex)
-          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex].value))
+          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex as int].value))
           .fontColor($r('app.color.button_text_color'))
           .font({ size: $r('app.float.tips_font_size') })
           .selectedOptionFont({ size: $r('app.float.tips_font_size') })
@@ -53,7 +72,7 @@ export struct StateGrandfatherComponent {
           .onSelect((index: number) => {
             // 爷组件@State声明的数据页面更新，孙组件@Link关联的变量同步更新
             this.currentSelectIndex = index;
-            this.circleColor = this.selectColors[index].color;
+            this.circleColor = this.selectColors[index as int].color;
           })
         Circle()
           .size({ width: $r('app.float.circle_size'), height: $r('app.float.circle_size') })
@@ -61,7 +80,7 @@ export struct StateGrandfatherComponent {
       }.justifyContent(FlexAlign.SpaceAround)
       .width('100%')
       // 双向同步子组件
-      LinkChildComp({ circleColor: $circleColor, currentSelectIndex: $currentSelectIndex })
+      LinkChildComp({ circleColor: this.circleColor, currentSelectIndex: this.currentSelectIndex })
     }.padding(10)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })
   }
@@ -84,8 +103,8 @@ struct LinkChildComp {
         .height($r('app.float.button_height'))
       // 双向同步孙组件
       LinkDescendentComponent({
-        circleColor: $circleColor,
-        currentSelectIndex: $currentSelectIndex
+        circleColor: this.circleColor,
+        currentSelectIndex: this.currentSelectIndex
       })
     }
     .padding(10)

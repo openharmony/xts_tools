@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  Resource,
+  $r,
+  StorageLink,
+  Column,
+  $rawfile,
+  Text,
+  TextAlign,
+  Button,
+  ButtonType,
+  AppStorage,
+} from '@kit.ArkUI';
 
 
 import { CodeView } from '../../../commoncomponents/CodeView';
@@ -33,11 +50,11 @@ struct StorageLinkAbilityPage {
   build() {
     Column() {
       if (this.currentModelStatus) {
-        TitleBarDark({ title: $title, isAbility: true })
+        TitleBarDark({ title: this.title, isAbility: true })
       } else {
-        TitleBar({ title: $title, isAbility: true })
+        TitleBar({ title: this.title, isAbility: true })
       }
-      CodeView({ title: $title, isShowTitle: false }) {
+      CodeView({ title: this.title, isShowTitle: false }) {
         Column({ space: 30 }) {
           // 查看源码
           ViewCodeText({ webSrc: $rawfile('StorageLinkAbilityPage.ets.html') })

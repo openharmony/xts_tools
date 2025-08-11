@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  Link,
+  Column,
+  $rawfile,
+  Text,
+  $r,
+  TextAlign,
+  Circle,
+  Button,
+  ButtonType,
+  Color,
+} from '@kit.ArkUI';
 
 import { COLOR_DATA } from './UniAndBidirectionSyncCode';
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
