@@ -98,14 +98,14 @@ export default function ArkUIComponentFunctionSpecialComponentsDialogCustomSelec
       await driver.waitForIdle(500, 2000);
       await button.click();
       await driver.waitForIdle(2000, 5000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       let textInput: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
       await textInput.click();
       await driver.waitForIdle(2000, 5000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await driver.triggerKey(2054);
       await driver.waitForIdle(2000, 5000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_03');
       await driver.triggerKey(2070);
 
       let screenClass: screen.Screen | null = null;
@@ -131,13 +131,13 @@ export default function ArkUIComponentFunctionSpecialComponentsDialogCustomSelec
         await driver.waitForIdle(500, 2000);
         await button.click();
         await driver.waitForIdle(2000, 5000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_04');
         let textInput: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
         await textInput.click();
         await driver.waitForIdle(2000, 5000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_05');
         await driver.waitForIdle(2000, 5000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_06');
         await driver.triggerKey(2070);
 
         screenClass.setOrientation(screen.Orientation.VERTICAL, (err: BusinessError) => {
@@ -170,14 +170,14 @@ export default function ArkUIComponentFunctionSpecialComponentsDialogCustomSelec
       await driver.waitForIdle(500, 2000);
       await button.click();
       await driver.waitForIdle(2000, 5000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       let textInput: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
       await textInput.click();
       await driver.waitForIdle(2000, 5000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await driver.triggerKey(2054);
       await driver.waitForIdle(2000, 5000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_03');
       await driver.triggerKey(2070);
 
       let screenClass: screen.Screen | null = null;
@@ -203,13 +203,13 @@ export default function ArkUIComponentFunctionSpecialComponentsDialogCustomSelec
         await driver.waitForIdle(500, 2000);
         await button.click();
         await driver.waitForIdle(2000, 5000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_04');
         let textInput: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
         await textInput.click();
         await driver.waitForIdle(2000, 5000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_05');
         await driver.waitForIdle(2000, 5000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_06');
         await driver.triggerKey(2070);
 
         screenClass.setOrientation(screen.Orientation.VERTICAL, (err: BusinessError) => {
