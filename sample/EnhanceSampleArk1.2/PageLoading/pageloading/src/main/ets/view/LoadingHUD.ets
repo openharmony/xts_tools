@@ -28,6 +28,9 @@ import {
   ProgressType,
   Text,
   FlexAlign,
+  Margin,
+  ProgressStyleOptions,
+  $r,
 } from '@kit.ArkUI';
 
 import lottie from '@ohos/lottie';
@@ -75,11 +78,11 @@ export struct LoadingHUD {
           })
         Row() {
           Progress({ value: this.nowProgress, total: 100.0, type: ProgressType.Linear })
-            .style({ strokeWidth: 10.0, enableSmoothEffect: true })
+            .style({ strokeWidth: 10.0, enableSmoothEffect: true } as ProgressStyleOptions)
             .color(this.gradientColor)
         }
         .width('60%')
-        .margin({ top: $r('app.integer.lottie_view_canvas_height') })
+        .margin({ top: $r('app.integer.lottie_view_canvas_height') } as Margin)
       }.height($r('app.integer.lottie_view_canvas_size'))
 
       Text(`当前已加载${this.nowProgress}%`)

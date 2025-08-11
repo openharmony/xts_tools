@@ -37,7 +37,7 @@ import { LoadingHUD } from './LoadingHUD';
  * 2.进入页面首先展示LoadingHUD加载页，5秒后，LoadingHUD加载页消失且出现GoodsList商品列表页。
  */
 
-const MILLISECONDS: number = 5000.0; // 毫秒数
+const MILLISECONDS: int = 5000; // 毫秒数
 
 @Component
 export struct PageLoadingComponent {
@@ -51,8 +51,8 @@ export struct PageLoadingComponent {
     }, MILLISECONDS);
     //模拟进度，开发者可在实际业务中与服务端协调当前进度，自行实现
     setInterval(()=>{
-      this.nowProgress += 10.0
-    },MILLISECONDS / 10.0)
+      this.nowProgress += 10
+    },MILLISECONDS / 10)
   }
 
   build() {
