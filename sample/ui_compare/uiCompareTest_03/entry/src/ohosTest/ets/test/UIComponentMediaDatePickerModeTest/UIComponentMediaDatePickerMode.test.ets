@@ -81,10 +81,10 @@ export default function UIComponentMediaDatePickerMode() {
       let point2 = await dialogButton2.getBoundsCenter();
       let switchPoint = await switchLunarButton.getBoundsCenter();
       await driver.waitForIdle(500, 1000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await dialogButton1.click();
       await driver.waitForIdle(4000, 5000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await driver.mouseMoveTo(point1);
       await driver.waitForIdle(4000, 5000);
       await driver.click(point1.x, point1.y);
@@ -93,7 +93,7 @@ export default function UIComponentMediaDatePickerMode() {
       await driver.waitForIdle(4000, 5000);
       await dialogButton2.click();
       await driver.waitForIdle(4000, 5000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_03');
       await driver.mouseMoveWithTrack(point2, switchPoint);
       await driver.waitForIdle(4000, 5000);
       await driver.click(switchPoint.x, switchPoint.y);
@@ -104,7 +104,7 @@ export default function UIComponentMediaDatePickerMode() {
       await driver.waitForIdle(4000, 5000);
       await driver.click(switchPoint.x, switchPoint.y);
       await driver.waitForIdle(4000, 5000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_04');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();

@@ -85,7 +85,7 @@ export default function UIComponentMediaCalendarPickerDate() {
       await driver.waitForIdle(500, 1000);
       await driver.click(buttonCenter.x, buttonCenter.y);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.mouseMoveTo({x: buttonCenter.x, y: buttonCenter.y});
       await driver.waitForIdle(3000, 5000);
       await driver.click(buttonCenter.x, buttonCenter.y);
@@ -96,7 +96,7 @@ export default function UIComponentMediaCalendarPickerDate() {
       await driver.mouseMoveTo({x: CalendarPickerCenter.x, y: CalendarPickerCenter.y});
       await driver.click(CalendarPickerCenter.x, CalendarPickerCenter.y);
       await driver.waitForIdle(3000, 5000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();

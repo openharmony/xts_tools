@@ -80,11 +80,11 @@ export default function UIComponentMediaPatternLockForeground() {
       await driver.mouseMoveTo({x: center1.x - 150, y: center1.y});
       await driver.drag(center1.x - 150, center1.y, center1.x + 150, center1.y);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       let center2 = await patternLock2.getBoundsCenter();
       await driver.drag(center2.x - 150, center2.y, center2.x + 150, center2.y);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -108,11 +108,11 @@ export default function UIComponentMediaPatternLockForeground() {
       await driver.mouseMoveTo({x: center1.x - 150, y: center1.y});
       await driver.drag(center1.x - 150, center1.y, center1.x + 150, center1.y);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       let center2 = await patternLock2.getBoundsCenter();
       await driver.drag(center2.x - 150, center2.y, center2.x + 150, center2.y);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -140,7 +140,7 @@ export default function UIComponentMediaPatternLockForeground() {
       pointers1.setPoint(0, 3, {x: center1.x - 150, y: center1.y});
       await driver.injectMultiPointerAction(pointers1);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       let center2 = await patternLock2.getBoundsCenter();
       let pointers2: PointerMatrix = PointerMatrix.create(1, 4);
       pointers2.setPoint(0, 0, {x: center2.x, y: center2.y - 150});
@@ -149,7 +149,7 @@ export default function UIComponentMediaPatternLockForeground() {
       pointers2.setPoint(0, 3, {x: center2.x - 150, y: center2.y});
       await driver.injectMultiPointerAction(pointers2);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -177,7 +177,7 @@ export default function UIComponentMediaPatternLockForeground() {
       pointers1.setPoint(0, 3, {x: center1.x - 150, y: center1.y});
       await driver.injectMultiPointerAction(pointers1);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       let center2 = await patternLock2.getBoundsCenter();
       let pointers2: PointerMatrix = PointerMatrix.create(1, 4);
       pointers2.setPoint(0, 0, {x: center2.x, y: center2.y - 150});
@@ -186,7 +186,7 @@ export default function UIComponentMediaPatternLockForeground() {
       pointers2.setPoint(0, 3, {x: center2.x - 150, y: center2.y});
       await driver.injectMultiPointerAction(pointers2);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();

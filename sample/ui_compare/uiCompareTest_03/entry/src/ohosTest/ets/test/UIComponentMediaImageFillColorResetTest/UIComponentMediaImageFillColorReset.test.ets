@@ -76,11 +76,11 @@ export default function UIComponentMediaImageFillColorReset() {
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
       await driver.waitForIdle(500, 1000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.waitForIdle(500, 1000);
       await button.click();
       await driver.waitForIdle(500, 1000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
