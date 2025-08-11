@@ -106,5 +106,41 @@ export default function UIComponentListAndGridGridMirrorTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450 finish.`);
       done();
     });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridGridMirror/UIComponentListAndGridGridMirror005");
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430 finish.`);
+      done();
+    });
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420
+     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420
+     * @tc.desc    Component 3 groups
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420 start.`);
+      Settings.createWindow("testability/pages/UIComponentListAndGridGridMirror/UIComponentListAndGridGridMirror006");
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420 finish.`);
+      done();
+    });
   })
 }

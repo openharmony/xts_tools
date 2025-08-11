@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -143,6 +143,119 @@ export default function UiComponentTextResponseDefault() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020 finish.`);
       done()
     })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0050
+       * @tc.name    Text component, set the custom menu, TextSpanType.MIXED, bind the TextResponseType.DEFAULT menu
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0050', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0050 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault04")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      await driver.mouseDrag({x:50, y:100},{x:300, y:200},600);
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0050 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030
+       * @tc.name    Text component, set custom menus, TextSpanType.IMAGE,bind TextResponseType.DEFAULT
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault05")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let text: Component = await driver.findComponent(ON.id('UiComponentTextResponseDefault05'));
+      await driver.waitForIdle(500,2000);
+      await driver.mouseDrag({x:50, y:100},{x:200, y:200},600);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await text.longClick();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await driver.mouseClick({x:75, y:125}, MouseButton.MOUSE_BUTTON_RIGHT);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await driver.doubleClick(75,125)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040
+       * @tc.name    Text component, set custom menus, TextSpanType.IMAGE,bind TextResponseType.DEFAULT, RIGHT_CLICK, LONG_PRESS, and SELECT menus
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault06")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let text: Component = await driver.waitForComponent(ON.id('UiComponentTextResponseDefault06'),1000);
+      await driver.waitForIdle(500,2000);
+      await driver.mouseDrag({x:50, y:100},{x:200, y:200},600);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await text.longClick();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await driver.mouseClick({x:75, y:125}, MouseButton.MOUSE_BUTTON_RIGHT);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await driver.doubleClick(75,125)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070
+       * @tc.name    Text component, set a custom menu, TextSpanType.DEFAULT,bind TextResponseType.DEFAULT, RIGHT_CLICK, LONG_PRESS, and SELECT menus
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault07")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let text: Component = await driver.waitForComponent(ON.id('UiComponentTextResponseDefault07'),1000);
+      await text.longClick();
+      windowSnap.snapShot()
+      await driver.waitForIdle(500,2000);
+      await driver.mouseDrag({x:50, y:100},{x:200, y:200},600);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await driver.mouseClick({x:75, y:125}, MouseButton.MOUSE_BUTTON_RIGHT);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await driver.doubleClick(75,125)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070 finish.`);
+      done()
+    })
+
 
   })
 }

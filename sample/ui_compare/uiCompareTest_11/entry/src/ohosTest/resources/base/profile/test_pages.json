@@ -1,0 +1,21 @@
+{
+  "src": [
+    "testability/pages/Index",
+    "testability/pages/focus_dynamic/focusDynamic01",
+    "testability/pages/router_push/pageA",
+    "testability/pages/router_push/pageB",
+    "testability/pages/router_push/pageC",
+    "testability/pages/SpecialComponentsEmbeddedComponentMinSize/SpecialComponentsEmbeddedComponentMinSize0170",
+    "testability/pages/SpecialComponentsEmbeddedComponentMinSize/SpecialComponentsEmbeddedComponentMinSize0020",
+    "testability/pages/ColumnMatchParent/ColumnMatchParent0070",
+    "testability/pages/ColumnMatchParent/ColumnMatchParent0060",
+    "testability/pages/ColumnMatchParent/ColumnMatchParent0010",
+    "testability/pages/ColumnMatchParent/ColumnMatchParent0050",
+    "testability/pages/ColumnMatchParent/ColumnMatchParent0090",
+    "testability/pages/ColumnMatchParent/ColumnMatchParent0020",
+    "testability/pages/ColumnMatchParent/ColumnMatchParent0030",
+    "testability/pages/ColumnMatchParent/ColumnMatchParent0130",
+    "testability/pages/ColumnMatchParent/ColumnMatchParent0100",
+    "testability/pages/ColumnMatchParent/ColumnMatchParent0110"
+  ]
+}

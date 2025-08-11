@@ -65,13 +65,13 @@ export default function StatusManagerV2LazyForEachBetterTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0020
-     * @tc.name    SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0020
+     * @tc.number  SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030
+     * @tc.name    SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030
      * @tc.desc    Ecological Group 1
      * @tc.level   0
      */
-    it('SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0020', Level.LEVEL0, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0020 start.`);
+    it('SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030 start.`);
       Settings.createWindow("testability/pages/StatusManagerV2LazyForEachBetter/StatusManagerV2LazyForEachBetter003");
       let driver:Driver = Driver.create();
       let list: Component = await driver.waitForComponent(ON.type('List'), 1000);
@@ -87,7 +87,7 @@ export default function StatusManagerV2LazyForEachBetterTest() {
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot();
       await Utils.sleep(1000);
-      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0020 finish.`);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030 finish.`);
       done();
     });
   })
