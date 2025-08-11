@@ -125,12 +125,12 @@ export default function UIComponentListAndGridGridScrollbar() {
       await driver.waitForIdle(1000, 2000);
       await driver.mouseMoveTo({x: bounds.right - 5, y: bounds.top + 50});
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await button.click();
       await Utils.sleep(2000);
       await driver.mouseMoveTo({x: bounds.left + 5, y: bounds.top + 50});
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
