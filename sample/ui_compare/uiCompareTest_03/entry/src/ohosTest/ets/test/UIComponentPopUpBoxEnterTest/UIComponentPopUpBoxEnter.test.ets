@@ -79,13 +79,13 @@ export default function UIComponentPopUpBoxEnter() {
       await driver.waitForIdle(500, 1000);
       await driver.click(point.x, point.y);
       await driver.waitForIdle(3000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.click(point.x, point.y);
       await driver.waitForIdle(3000, 4000);
       point = await button.getBoundsCenter();
       await driver.mouseClick(point, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(3000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
