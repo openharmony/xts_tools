@@ -75,7 +75,7 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
       await driver.waitForIdle(500, 1000);
       await button.click();
       await driver.waitForIdle(500, 1000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.waitForIdle(500, 1000);
       let screenClass: screen.Screen | null = null;
       screen.getAllScreens(async (err: BusinessError, data: Array<screen.Screen>) => {
@@ -95,7 +95,7 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
           Logger.info(`[${TAG}]: Succeeded in setting the horizontal orientation.`);
         });
         await driver.waitForIdle(2000, 5000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_02');
         await driver.waitForIdle(2000, 5000);
         screenClass.setOrientation(screen.Orientation.VERTICAL, (err: BusinessError) => {
           const errCode: number = err.code;
@@ -127,7 +127,7 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
       await driver.waitForIdle(500, 1000);
       await button.click();
       await driver.waitForIdle(500, 1000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.waitForIdle(500, 1000);
       let screenClass: screen.Screen | null = null;
       screen.getAllScreens(async (err: BusinessError, data: Array<screen.Screen>) => {
@@ -147,7 +147,7 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
           Logger.info(`[${TAG}]: Succeeded in setting the horizontal orientation.`);
         });
         await driver.waitForIdle(2000, 5000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_02');
         await driver.waitForIdle(2000, 5000);
         screenClass.setOrientation(screen.Orientation.VERTICAL, (err: BusinessError) => {
           const errCode: number = err.code;
@@ -179,7 +179,7 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
       await driver.waitForIdle(500, 1000);
       await button.click();
       await driver.waitForIdle(500, 1000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.waitForIdle(500, 1000);
       let screenClass: screen.Screen | null = null;
       screen.getAllScreens(async (err: BusinessError, data: Array<screen.Screen>) => {
@@ -199,7 +199,7 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
           Logger.info(`[${TAG}]: Succeeded in setting the horizontal orientation.`);
         });
         await driver.waitForIdle(2000, 5000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_02');
         await driver.waitForIdle(2000, 5000);
         screenClass.setOrientation(screen.Orientation.VERTICAL, (err: BusinessError) => {
           const errCode: number = err.code;

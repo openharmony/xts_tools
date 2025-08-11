@@ -96,24 +96,24 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
       await driver.waitForIdle(500, 1000);
       await button.click();
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
 
       // 2.
       let textInput: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
       await driver.waitForIdle(2000, 4000);
       await textInput.click();
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
 
       // 3.
       await driver.triggerKey(2054);
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_03');
 
       // 4.
       await textInput.click();
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_04');
 
       // 5.
       let bindSheetColumn: Component = await driver.waitForComponent(ON.id(pageName + '_04'), 1000);
@@ -122,7 +122,7 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
       await driver.mouseMoveTo({x: sheetBounds.left - 50, y: sheetCenter.y});
       await driver.click(sheetBounds.left - 50, sheetCenter.y);
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_05');
 
       // 6.
       await button.click();
@@ -130,7 +130,7 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
       textInput = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
       await textInput.click();
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_06');
 
       // 7.
       let pageColumn: Component = await driver.waitForComponent(ON.id(pageName + '_05'), 1000);
@@ -139,19 +139,19 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
       await driver.mouseMoveTo({x: pageBounds.left, y: pageCenter.y});
       await driver.swipe(pageBounds.left, pageCenter.y, pageBounds.left + 150, pageCenter.y);
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_07');
 
       // 8.
       await textInput.click();
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_08');
 
       // 9.
       let closeButton: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
       await driver.waitForIdle(500, 1000);
       await closeButton.click();
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_09');
 
       // 10.
       let screenClass: screen.Screen | null = null;
@@ -177,7 +177,7 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
         await driver.waitForIdle(500, 1000);
         await button.click();
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_10');
         Logger.info(`[${TAG}]: Done 1`);
 
         // 2.
@@ -185,19 +185,19 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
         await driver.waitForIdle(2000, 4000);
         await textInput.click();
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_11');
         Logger.info(`[${TAG}]: Done 2`);
 
         // 3.
         await driver.triggerKey(2054);
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_12');
         Logger.info(`[${TAG}]: Done 3`);
 
         // 4.
         await textInput.click();
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_13');
         Logger.info(`[${TAG}]: Done 4`);
 
         // 5.
@@ -209,7 +209,7 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
         await driver.mouseMoveTo({x: sheetBounds.right + 50, y: sheetCenter.y});
         await driver.click(sheetBounds.left - 50, sheetCenter.y);
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_14');
         Logger.info(`[${TAG}]: Done 5`);
 
 
@@ -219,7 +219,7 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
         textInput = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
         await textInput.click();
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_15');
         Logger.info(`[${TAG}]: Done 6`);
 
         // 7.
@@ -232,13 +232,13 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
         await driver.waitForIdle(500, 1000);
         await driver.swipe(pageBounds.left, pageCenter.y, pageBounds.left + 150, pageCenter.y);
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_16');
         Logger.info(`[${TAG}]: Done 7`);
 
         // 8.
         await textInput.click();
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_17');
         Logger.info(`[${TAG}]: Done 8`);
 
         // 9.
@@ -248,7 +248,7 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
         closeButton = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
         await closeButton.click();
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_18');
         Logger.info(`[${TAG}]: Done 9`);
 
         screenClass.setOrientation(screen.Orientation.VERTICAL, (err: BusinessError) => {
@@ -275,7 +275,7 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
       await driver.mouseMoveTo({x: sheetCenter.x, y: sheetBounds.top - 100});
       await driver.drag(sheetCenter.x, sheetBounds.top - 100, sheetCenter.x, sheetBounds.top - 300);
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_19');
 
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
@@ -300,24 +300,24 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
       await driver.waitForIdle(500, 1000);
       await button.click();
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
 
       // 2.
       let textInput: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
       await driver.waitForIdle(2000, 4000);
       await textInput.click();
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
 
       // 3.
       await driver.triggerKey(2054);
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_03');
 
       // 4.
       await textInput.click();
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_04');
 
       // 5.
       await driver.waitForIdle(500, 1000);
@@ -328,12 +328,12 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
       await driver.mouseMoveTo({x: pageBounds.left, y: pageCenter.y});
       await driver.swipe(pageBounds.left, pageCenter.y, pageBounds.left + 150, pageCenter.y);
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_05');
 
       // 6.
       await textInput.click();
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_06');
 
       // 7.
       await driver.waitForIdle(500, 1000);
@@ -342,7 +342,7 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
       await driver.waitForIdle(500, 1000);
       await closeButton.click();
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_07');
 
       // 8.
       let screenClass: screen.Screen | null = null;
@@ -368,7 +368,7 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
         await driver.waitForIdle(500, 1000);
         await button.click();
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_08');
         Logger.info(`[${TAG}]: Done 1`);
 
         // 2.
@@ -376,19 +376,19 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
         await driver.waitForIdle(2000, 4000);
         await textInput.click();
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_09');
         Logger.info(`[${TAG}]: Done 2`);
 
         // 3.
         await driver.triggerKey(2054);
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_10');
         Logger.info(`[${TAG}]: Done 3`);
 
         // 4.
         await textInput.click();
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_11');
         Logger.info(`[${TAG}]: Done 4`);
 
         // 5.
@@ -402,13 +402,13 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
         await driver.waitForIdle(500, 1000);
         await driver.swipe(pageBounds.left, pageCenter.y, pageBounds.left + 150, pageCenter.y);
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_12');
         Logger.info(`[${TAG}]: Done 5`);
 
         // 6.
         await textInput.click();
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_13');
         Logger.info(`[${TAG}]: Done 6`);
 
         // 7.
@@ -418,7 +418,7 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
         closeButton = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
         await closeButton.click();
         await driver.waitForIdle(2000, 4000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_14');
         Logger.info(`[${TAG}]: Done 7`);
 
         screenClass.setOrientation(screen.Orientation.VERTICAL, (err: BusinessError) => {
@@ -445,7 +445,7 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
       await driver.mouseMoveTo({x: sheetCenter.x, y: sheetBounds.top - 100});
       await driver.drag(sheetCenter.x, sheetBounds.top - 100, sheetCenter.x, sheetBounds.top - 300);
       await driver.waitForIdle(2000, 4000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_15');
 
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
