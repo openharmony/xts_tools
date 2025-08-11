@@ -58,45 +58,6 @@ export default function UIComponentListAndGridGridInterface() {
 
     })
 
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0180', Level.LEVEL3, async (done: Function) => {
-      TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0180';
-      let pageName = "UIComponentListAndGridGridFadingEdge0180";
-      Logger.info(`[${TAG}]`, `Case start.`);
-      Settings.createWindow('testability/pages/UIComponentListAndGridGridFadingEdge/' + pageName);
-      let driver: Driver = Driver.create();
-      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
-      let grid: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
-      await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
-      let center = await grid.getBoundsCenter();
-      let bounds = await grid.getBounds();
-      await driver.swipe(center.x, center.y, center.x, bounds.top - 100, 1000);
-      await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
-      await Utils.sleep(1000);
-      Logger.info(`[${TAG}]`, `Case finish.`);
-      done();
-    })
-    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0120', Level.LEVEL3, async (done: Function) => {
-      TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0120';
-      let pageName = "UIComponentListAndGridGridFadingEdge0120";
-      Logger.info(`[${TAG}]`, `Case start.`);
-      Settings.createWindow('testability/pages/UIComponentListAndGridGridFadingEdge/' + pageName);
-      let driver: Driver = Driver.create();
-      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
-      let grid: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
-      await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
-      await button.click();
-      await driver.waitForIdle(1000, 2000);
-      await grid.scrollToBottom(2000);
-      await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
-      await Utils.sleep(1000);
-      Logger.info(`[${TAG}]`, `Case finish.`);
-      done();
-    })
-
     /*
      * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0040_950
      * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0040_950
@@ -242,9 +203,9 @@ export default function UIComponentListAndGridGridInterface() {
       await driver.waitForIdle(1000, 2000);
       await grid.scrollToBottom(2000);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await Utils.sleep(3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
