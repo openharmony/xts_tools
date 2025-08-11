@@ -95,12 +95,12 @@ export default function UICustomDrawingSafeAreaScene() {
       await driver.waitForIdle(500, 1000);
       await textinput.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.triggerKey(2070);
       await driver.waitForIdle(2000, 3000);
       await textarea.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -124,13 +124,13 @@ export default function UICustomDrawingSafeAreaScene() {
       await driver.waitForIdle(500, 1000);
       await tab1.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await tab2.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await tab3.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_03');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -157,7 +157,7 @@ export default function UICustomDrawingSafeAreaScene() {
       let textinput: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
       await textinput.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.triggerKey(2070);
       await driver.waitForIdle(2000, 3000);
       await tab3.click();
@@ -165,7 +165,7 @@ export default function UICustomDrawingSafeAreaScene() {
       let textarea: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
       await driver.waitForIdle(2000, 3000);
       await textarea.click();
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -188,13 +188,13 @@ export default function UICustomDrawingSafeAreaScene() {
       let bounds = await stepper.getBounds();
       await driver.mouseMoveTo({x: bounds.right - 50, y: bounds.bottom - 30});
       await driver.waitForIdle(500, 1000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.mouseClick({x: bounds.right - 50, y: bounds.bottom - 30}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await driver.mouseClick({x: bounds.right - 50, y: bounds.bottom - 30}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_03');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -219,7 +219,7 @@ export default function UICustomDrawingSafeAreaScene() {
       let textinput: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
       await textinput.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.triggerKey(2070);
       await driver.waitForIdle(2000, 3000);
 
@@ -232,7 +232,7 @@ export default function UICustomDrawingSafeAreaScene() {
       let textarea: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
       await driver.waitForIdle(2000, 3000);
       await textarea.click();
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
 
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
@@ -276,12 +276,12 @@ export default function UICustomDrawingSafeAreaScene() {
       await driver.waitForIdle(500, 1000);
       await textinput.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.triggerKey(2070);
       await driver.waitForIdle(2000, 3000);
       await textarea.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -301,10 +301,10 @@ export default function UICustomDrawingSafeAreaScene() {
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id(pageName + '_pageA' + '_03'), 1000);
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await button.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
