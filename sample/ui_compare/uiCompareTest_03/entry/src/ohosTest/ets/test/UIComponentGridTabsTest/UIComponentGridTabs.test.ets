@@ -79,14 +79,14 @@ export default function UIComponentGridTabs() {
       await driver.waitForIdle(1000, 2000);
       await grid1.scrollToBottom(3000);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
 
       await tab2.click();
       await driver.waitForIdle(1000, 2000);
       let grid2: Component = await driver.waitForComponent(ON.id(pageName + '_04'), 1000);
       await grid2.scrollToBottom(3000);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
 
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
