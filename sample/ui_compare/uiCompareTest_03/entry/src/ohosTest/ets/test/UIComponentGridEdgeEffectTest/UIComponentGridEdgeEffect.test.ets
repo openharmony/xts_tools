@@ -74,7 +74,7 @@ export default function UIComponentGridEdgeEffect() {
       await driver.waitForIdle(1000, 2000);
       await button.click();
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
 
       let screenClass: screen.Screen | null = null;
       screen.getAllScreens(async (err: BusinessError, data: Array<screen.Screen>) => {
@@ -95,7 +95,7 @@ export default function UIComponentGridEdgeEffect() {
         });
 
         await driver.waitForIdle(4000, 5000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_02');
 
         screenClass.setOrientation(screen.Orientation.VERTICAL, (err: BusinessError) => {
           const errCode: number = err.code;

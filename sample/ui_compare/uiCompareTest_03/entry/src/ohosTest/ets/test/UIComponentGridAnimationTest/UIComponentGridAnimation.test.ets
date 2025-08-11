@@ -75,12 +75,12 @@ export default function UIComponentGridAnimation() {
       await driver.waitForIdle(500, 1000);
       await nextButton.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await changeButton.click();
       await driver.waitForIdle(2000, 3000);
       await nextButton.click();
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
