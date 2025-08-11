@@ -444,7 +444,7 @@ export default function UIComponentDrawingSafeAreaE() {
       await driver.waitForIdle(2000, 3000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.triggerKey(2054);
       await driver.waitForIdle(2000, 3000);
 
@@ -458,7 +458,7 @@ export default function UIComponentDrawingSafeAreaE() {
       await driver.waitForIdle(2000, 3000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await driver.triggerKey(2054);
       await driver.waitForIdle(2000, 3000);
 
@@ -493,7 +493,7 @@ export default function UIComponentDrawingSafeAreaE() {
       await driver.waitForIdle(2000, 3000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.triggerKey(2054);
       await driver.waitForIdle(2000, 3000);
 
@@ -507,7 +507,7 @@ export default function UIComponentDrawingSafeAreaE() {
       await driver.waitForIdle(2000, 3000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(2000, 3000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await driver.triggerKey(2054);
       await driver.waitForIdle(2000, 3000);
 
