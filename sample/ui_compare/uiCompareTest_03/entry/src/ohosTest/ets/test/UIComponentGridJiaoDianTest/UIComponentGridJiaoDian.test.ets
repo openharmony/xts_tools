@@ -277,12 +277,12 @@ export default function UIComponentGridJiaoDian() {
           Logger.info(`[${TAG}]: Succeeded in setting the horizontal orientation.`);
         });
         await driver.waitForIdle(4000, 5000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_01');
         await driver.triggerKey(2049);
         await driver.waitForIdle(1000, 2000);
         await driver.triggerKey(2049);
         await driver.waitForIdle(1000, 2000);
-        await windowSnap.snapShot();
+        await windowSnap.snapShot(TAG + '_02');
         await driver.waitForIdle(1000, 2000);
         screenClass.setOrientation(screen.Orientation.VERTICAL, (err: BusinessError) => {
           const errCode: number = err.code;
@@ -364,7 +364,7 @@ export default function UIComponentGridJiaoDian() {
       await windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
-      // done();
+      done();
     })   
 
     /*
@@ -396,13 +396,13 @@ export default function UIComponentGridJiaoDian() {
       await driver.waitForIdle(1000, 2000);
       await grid.scrollToTop(3000);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.waitForIdle(1000, 2000);
       await button.click();
       await driver.waitForIdle(1000, 2000);
       await grid.scrollToBottom(6000);
 
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -606,12 +606,12 @@ export default function UIComponentGridJiaoDian() {
       await driver.waitForIdle(1000, 2000);
       await grid.scrollToTop(3000);
       await driver.waitForIdle(1000, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.waitForIdle(1000, 2000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(1000, 2000);
 
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
