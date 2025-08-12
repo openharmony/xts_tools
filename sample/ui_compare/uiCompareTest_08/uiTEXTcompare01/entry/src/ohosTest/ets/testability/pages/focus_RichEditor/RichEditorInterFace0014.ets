@@ -147,7 +147,7 @@ struct RichEditorSpan0014 {
             font: {
               size: 16,
               weight: FontWeight.Normal,
-              family: "HarmonyOS Sans",
+              family: "sans-serif",
               style: FontStyle.Normal
             }
           })
