@@ -14,18 +14,27 @@
  */
 
 {
-  "apiType": 'stageMode',
+  "apiType": "stageMode",
   "buildOption": {
-    "sourceOption": {
-      "workers": [
-        './src/main/ets/workers/Worker.ts',
-        "./src/main/ets/workers/WorkerCopy.ts",
-      ]
-    }
   },
+  "buildOptionSet": [
+    {
+      "name": "release",
+      "arkOptions": {
+        "obfuscation": {
+          "ruleOptions": {
+            "enable": false,
+            "files": [
+              "./obfuscation-rules.txt"
+            ]
+          }
+        }
+      }
+    },
+  ],
   "targets": [
     {
-      "name": "default",
+      "name": "default"
     },
     {
       "name": "ohosTest",

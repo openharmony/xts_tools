@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,8 @@
  * limitations under the License.
  */
 
+import { AppStorage } from '@kit.ArkUI';
+
 import worker from '@ohos.worker';
 import fs from '@ohos.file.fs';
 import { Logger, sleep } from '../common/Common';
@@ -20,17 +23,17 @@ import { BusinessError } from '@ohos.base';
 
 const CONTENT = 'hello world';
 const TAG: string = '[ConcurrentModule].[MyWorker]';
-const FILE_NUM: number = 200; // 预制200 1m以下的小文件
-const FILE_NUMBER: number = 9; // 文件1-9命名时加上0
-const LIST_FILE_TWO: number = 2; // 显示拷贝成功后的第二个文件名
-const SLEEP_TIME: number = 100; // 睡眠时间
+const FILE_NUM: number = 200.0; // 预制200 1m以下的小文件
+const FILE_NUMBER: number = 9.0; // 文件1-9命名时加上0
+const LIST_FILE_TWO: number = 2.0; // 显示拷贝成功后的第二个文件名
+const SLEEP_TIME: number = 100.0; // 睡眠时间
 
 let workerInstance: worker.ThreadWorker | null = null;
 let fileFlag: boolean = false;
 
 export default class MyFile {
   public baseDir: string | undefined = '';
-  public filesCount: number = 0;
+  public filesCount: number = 0.0;
   private flag: boolean = false;
   public realFileNames: Array<string> = [];
 
@@ -60,12 +63,12 @@ export default class MyFile {
         fs.mkdirSync(workerDir);
       }
       Logger.info(TAG, 'readyFilesToWorker dpath = ' + workerDir);
-      for (let i = 0; i < FILE_NUM; i++) {
+      for (let i: number = 0.0; i < FILE_NUM; i++) {
         let myFile = '';
         if (i < FILE_NUMBER) {
-          myFile = workerDir + `/TestFile0${i + 1}.txt`;
+          myFile = workerDir + `/TestFile0${i + 1.0}.txt`;
         } else {
-          myFile = workerDir + `/TestFile${i + 1}.txt`;
+          myFile = workerDir + `/TestFile${i + 1.0}.txt`;
         }
         Logger.info(TAG, 'readyFilesToWorker myFile = ' + myFile);
         let file = fs.openSync(myFile, fs.OpenMode.CREATE | fs.OpenMode.READ_WRITE);
@@ -89,25 +92,25 @@ export default class MyFile {
       if (fs.accessSync(destPath)) {
         fs.listFile(destPath).then((filenames) => {
           Logger.info(TAG, 'listFile succeed');
-          for (let i = 0; i < filenames.length; i++) {
-            Logger.info(TAG, 'Workerets fileName: ' + filenames[i]);
+          for (let i: number = 0.0; i < filenames.length; i++) {
+            Logger.info(TAG, 'Workerets fileName: ' + filenames[i as int]);
           }
         }).catch((err: BusinessError) => {
           Logger.info(TAG, 'list file failed with error message: ' + err.message + ', error code: ' + err.code);
         });
       }
       if (files !== null) {
-        this.realFileNames.length = 0;
-        for (let i = 0; i < files.length; i++) {
-          if (files[i] === 'deletedTag') {
+        this.realFileNames.length = 0.0;
+        for (let i: number = 0.0; i < files.length; i++) {
+          if (files[i as int] === 'deletedTag') {
             continue;
           }
-          this.realFileNames.push(files[i]);
+          this.realFileNames.push(files[i as int]);
         }
       }
-      let count = this.realFileNames.length;
-      for (let j = 0; j < count; j++) {
-        Logger.info(TAG, 'workToCopyFiles this.realFileNames = ' + this.realFileNames[j]);
+      let count: number = this.realFileNames.length;
+      for (let j: number = 0.0; j < count; j++) {
+        Logger.info(TAG, 'workToCopyFiles this.realFileNames = ' + this.realFileNames[j as int]);
       }
       workerInstance = new worker.ThreadWorker('entry/ets/workers/WorkerCopy.ts');
       if (this.realFileNames !== null) {
@@ -137,7 +140,7 @@ export default class MyFile {
           this.flag = true;
           let fileName1: string | null = null;
           let fileName2: string | null = null;
-          for (let i: number = 0; i < message.data.listFileNames.length; i++) {
+          for (let i: number = 0.0; i < message.data.listFileNames.length; i++) {
             Logger.info(TAG, `Worker workerInstance::onmessage receive listFileNames: ${message.data.listFileNames[i]}`);
           }
           if (message.data.listFileNames[0] !== undefined && message.data.listFileNames[1] !== undefined && message.data.listFileNames[LIST_FILE_TWO] === undefined) {
@@ -163,7 +166,7 @@ export default class MyFile {
           }
           Logger.info(TAG, `Worker workerInstance::onmessage receive count: ${JSON.stringify(this.filesCount)}`);
         }
-        if (this.filesCount !== 0) {
+        if (this.filesCount !== 0.0) {
           AppStorage.SetOrCreate('fileNumber', JSON.stringify(this.filesCount));
         } else {
           AppStorage.SetOrCreate('fileNumber', '0');

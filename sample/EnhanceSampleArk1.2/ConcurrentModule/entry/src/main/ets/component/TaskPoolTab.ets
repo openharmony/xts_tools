@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,8 +14,26 @@
  * limitations under the License.
  */
 
-import taskpool from '@ohos.taskpool';
-import utils from '@arkts.utils';
+import {
+  Component,
+  State,
+  Column,
+  Text,
+  Button,
+  Row,
+  Image,
+  TextAlign,
+  TextArea,
+  Scroll,
+  Alignment,
+  GridRow,
+  GridRowDirection,
+  GridCol,
+  FlexAlign,
+} from '@kit.ArkUI';
+
+
+
 import stack from '@ohos.util.Stack';
 import { BusinessError } from '@ohos.base';
 import { SendableClass, a } from './SendableTest';
@@ -26,7 +45,7 @@ export struct TaskPoolTab {
   @State taskPoolInPutStr: string = '';
   taskPoolInPutArr: string[] = [];
   isTaskGroup : boolean = false;
-  gStack: stack<taskpool.Task> = new stack();
+  gStack: stack<taskpool.Task> = new stack<taskpool.Task>();
   taskGroup: taskpool.TaskGroup = new taskpool.TaskGroup();
 
 
@@ -39,15 +58,15 @@ export struct TaskPoolTab {
         .fontFamily("HarmonyHeiTi-Medium")
         .fontSize("16fp")
         .fontColor("#182431")
-        .lineHeight(22)
-        .fontWeight(500)
+        .lineHeight(22.0)
+        .fontWeight(500.0)
 
       Button() {
         Row() {
           Image($r('app.media.public_add'))
-            .width(20)
-            .height(20)
-            .margin({ left: 4 })
+            .width(20.0)
+            .height(20.0)
+            .margin({ left: 4.0 })
           Text($r('app.string.Add_task'))
             .width("75%")
             .height("22")
@@ -55,8 +74,8 @@ export struct TaskPoolTab {
             .fontSize("14fp")
             .fontColor("#182431")
             .textAlign(TextAlign.Center)
-            .lineHeight(22)
-            .fontWeight(500)
+            .lineHeight(22.0)
+            .fontWeight(500.0)
         }
       }
       .id("addButton")
@@ -64,8 +83,8 @@ export struct TaskPoolTab {
       .borderRadius("10vp")
       .backgroundColor("#00000000")
       .position({ x: "67%", y: "1.5%" })
-      .width(135)
-      .height(35)
+      .width(135.0)
+      .height(35.0)
       .onClick(() => {
         this.taskAdd();
       })
@@ -73,9 +92,9 @@ export struct TaskPoolTab {
       Button() {
         Row() {
           Image($r('app.media.empties'))
-            .width(20)
-            .height(20)
-            .margin({ left: 4 })
+            .width(20.0)
+            .height(20.0)
+            .margin({ left: 4.0 })
           Text($r('app.string.Clear_desc'))
             .width("35%")
             .height("22")
@@ -83,8 +102,8 @@ export struct TaskPoolTab {
             .fontSize("14fp")
             .fontColor("#182431")
             .textAlign(TextAlign.Center)
-            .lineHeight(22)
-            .fontWeight(500)
+            .lineHeight(22.0)
+            .fontWeight(500.0)
         }
       }
       .id("taskPoolClearButton")
@@ -92,8 +111,8 @@ export struct TaskPoolTab {
       .borderRadius("10vp")
       .backgroundColor("#00000000")
       .position({ x: "71%", y: "31.5%" })
-      .width(135)
-      .height(35)
+      .width(135.0)
+      .height(35.0)
       .onClick(() => {
         this.Clear();
       })
@@ -109,7 +128,7 @@ export struct TaskPoolTab {
         .fontFamily("HarmonyHeiTi")
         .fontSize("16fp")
         .fontColor("#182431")
-        .fontWeight(400)
+        .fontWeight(400.0)
         .padding({ top: "8vp" , left: "16vp", right: "16vp", bottom: "21vp" })
         .onChange((value: string) => {
           this.taskPoolInPutStr = value;
@@ -124,8 +143,8 @@ export struct TaskPoolTab {
         .fontFamily("HarmonyHeiTi-Medium")
         .fontSize("16fp")
         .fontColor("#182431")
-        .lineHeight(22)
-        .fontWeight(500)
+        .lineHeight(22.0)
+        .fontWeight(500.0)
 
       Scroll() {
         Text(this.taskPoolOutPutStr)
@@ -133,7 +152,7 @@ export struct TaskPoolTab {
           .fontFamily("HarmonyHeiTi")
           .fontSize("16fp")
           .fontColor("#182431")
-          .fontWeight(400)
+          .fontWeight(400.0)
           .padding({ top: "8vp" , left: "16vp", right: "16vp", bottom: "21vp" })
       }
       .id("taskPoolOutPutScroll")
@@ -144,11 +163,11 @@ export struct TaskPoolTab {
       .backgroundColor("#ffffff")
       .align(Alignment.TopStart)
 
-      GridRow({columns: 4,
-        gutter: { x: 12, y: 12 },
+      GridRow({columns: 4.0,
+        gutter: { x: 12.0, y: 12.0 },
         breakpoints: { value: ["360vp", "480vp"]},
         direction: GridRowDirection.Row}) {
-        GridCol ({ span: 2, offset: 0 }) {
+        GridCol ({ span: 2.0, offset: 0.0 }) {
           Button() {
             Text($r('app.string.Execute_After_3s_desc'))
               .width("100%")
@@ -157,8 +176,8 @@ export struct TaskPoolTab {
               .fontSize("16fp")
               .fontColor("#007DFF")
               .textAlign(TextAlign.Center)
-              .lineHeight(22)
-              .fontWeight(500)
+              .lineHeight(22.0)
+              .fontWeight(500.0)
           }
           .id("exeDelayButton")
           .height("40vp")
@@ -169,7 +188,7 @@ export struct TaskPoolTab {
           })
         }
 
-        GridCol ({ span: 2, offset: 0 }) {
+        GridCol ({ span: 2.0, offset: 0.0 }) {
           Button() {
             Text($r('app.string.Execute_Immediately_desc'))
               .width("100%")
@@ -178,8 +197,8 @@ export struct TaskPoolTab {
               .fontSize("16fp")
               .fontColor("#FFFFFF")
               .textAlign(TextAlign.Center)
-              .lineHeight(22)
-              .fontWeight(500)
+              .lineHeight(22.0)
+              .fontWeight(500.0)
           }
           .id("exeImmButton")
           .height("40vp")
@@ -194,7 +213,7 @@ export struct TaskPoolTab {
           })
         }
 
-        GridCol ({ span: 2, offset: 0 }) {
+        GridCol ({ span: 2.0, offset: 0.0 }) {
           Button() {
             Text($r('app.string.Function_Task_desc'))
               .width("100%")
@@ -203,8 +222,8 @@ export struct TaskPoolTab {
               .fontSize("16fp")
               .fontColor("#007DFF")
               .textAlign(TextAlign.Center)
-              .lineHeight(22)
-              .fontWeight(500)
+              .lineHeight(22.0)
+              .fontWeight(500.0)
           }
           .id("exeFunctionButton")
           .height("40vp")
@@ -215,7 +234,7 @@ export struct TaskPoolTab {
           })
         }
 
-        GridCol ({ span: 2, offset: 0 }) {
+        GridCol ({ span: 2.0, offset: 0.0 }) {
           Button() {
             Text($r('app.string.Cancel_Task_desc'))
               .width("100%")
@@ -224,8 +243,8 @@ export struct TaskPoolTab {
               .fontSize("16fp")
               .fontColor("#FFFFFF")
               .textAlign(TextAlign.Center)
-              .lineHeight(22)
-              .fontWeight(500)
+              .lineHeight(22.0)
+              .fontWeight(500.0)
           }
           .id("exeCancelButton")
           .height("40vp")
@@ -236,7 +255,7 @@ export struct TaskPoolTab {
           })
         }
 
-        GridCol ({ span: 4, offset: 0 }) {
+        GridCol ({ span: 4.0, offset: 0.0 }) {
           Button() {
             Text($r('app.string.transferSendableClass'))
               .width("100%")
@@ -245,8 +264,8 @@ export struct TaskPoolTab {
               .fontSize("16fp")
               .fontColor("#007DFF")
               .textAlign(TextAlign.Center)
-              .lineHeight(22)
-              .fontWeight(500)
+              .lineHeight(22.0)
+              .fontWeight(500.0)
           }
           .id("sendableButton")
           .height("40vp")
@@ -360,11 +379,11 @@ export struct TaskPoolTab {
 
   async sendableTask(): Promise<void> {
     // 定义主线程异步锁sendableTask_lock
-    let lock: utils.locks.AsyncLock = utils.locks.AsyncLock.request("sendableTask_lock");
-    let count: number = 0;
+    let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request("sendableTask_lock");
+    let count: number = 0.0;
     lock.lockAsync(async () => {
       // 主线程调用实例a.data1的方法setCount、getCount
-      a.data1.setCount(111);
+      a.data1.setCount(111.0);
       count = await a.data1.getCount();
       console.info("this data1 count is: " + await a.data1.getCount());
     })
@@ -378,7 +397,7 @@ export struct TaskPoolTab {
       this.taskPoolOutPutStr += "Sendable data TestA v3 is: " + a.data1.v3 + "\n";
       this.taskPoolOutPutStr += "Sendable data TestA count is: " + count + "\n";
       this.taskPoolOutPutStr += "Sendable data TestB v1 length is: " + a.data2.v1.length + "\n";
-      this.taskPoolOutPutStr += "Sendable data TestB v2 has key: " + a.data2.v2.has(100) + "\n";
+      this.taskPoolOutPutStr += "Sendable data TestB v2 has key: " + a.data2.v2.has(100.0) + "\n";
       this.taskPoolOutPutStr += "Sendable data TestB v3 size is: " + a.data2.v3.size + "\n";
     } catch(e) {
       this.taskPoolOutPutStr += "Task execute failed: "+ (e as BusinessError).toString()+ "\n";
@@ -386,42 +405,42 @@ export struct TaskPoolTab {
   }
 }
 
-@Concurrent
+
 function strSort(inPutArr: string[]) : string[] {
   let newArr: string[] = inPutArr.sort();
   return newArr;
 }
 
-@Concurrent
+
 function strSortDelay(inPutArr: string[]) : string[] {
   let start: number= new Date().getTime();
-  while (new Date().getTime() - start < 3000) {
+  while (new Date().getTime() - start < 3000.0) {
     continue;
   }
   let newArr: string[] = inPutArr.sort();
   return newArr;
 }
 
-@Concurrent
+
 async function createSendableData(data: SendableClass): Promise<void> {
   // 定义taskpool子线程异步锁sendableTask_lock
-  let lock: utils.locks.AsyncLock = utils.locks.AsyncLock.request("sendableTask_lock");
+  let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request("sendableTask_lock");
 
   // 构造TestA、TestB实例，组装SendableClass实例
   let d1: TestA = new TestA();
-  d1.v1 = 1010;
+  d1.v1 = 1010.0;
   d1.v2 = "aaa";
   d1.v3 = true;
   let d2: TestB = new TestB();
-  d2.v2.set(100, "aaa");
-  for(let i = 0;i < 1000;i++) {
+  d2.v2.set(100.0, "aaa");
+  for(let i: number = 0.0;i < 1000.0;i++) {
     d2.v1.push(i);
   }
   d2.v3.add("hello");
 
   lock.lockAsync(async () => {
     // 子线程调用实例方法setCount、getCount
-    await d1.setCount(10);
+    await d1.setCount(10.0);
     console.info("taskpool: this data1 count is: " + await d1.getCount());
   })
 

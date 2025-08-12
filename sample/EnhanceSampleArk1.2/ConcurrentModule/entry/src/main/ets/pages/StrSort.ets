@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,23 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  TabsController,
+  State,
+  Builder,
+  Column,
+  Text,
+  TextAlign,
+  Line,
+  Row,
+  Tabs,
+  BarPosition,
+  TabContent,
+  BarMode,
+} from '@kit.ArkUI';
+
 import { WorkerTab } from '../component/WorkerTab';
 import { TaskPoolTab } from '../component/TaskPoolTab';
 
@@ -20,7 +38,7 @@ import { TaskPoolTab } from '../component/TaskPoolTab';
 @Component
 struct Index {
   private controller: TabsController = new TabsController();
-  @State index: number = 0;
+  @State index: number = 0.0;
 
   @Builder tabJsWorker() {
     Column() {
@@ -29,24 +47,24 @@ struct Index {
         .height("22vp")
         .position({ x: "0vp", y: "17vp" })
         .fontFamily("HarmonyHeiTi-Medium")
-        .fontSize(16)
-        .fontColor(this.index === 0 ? "#007DFF" : "#182431")
+        .fontSize(16.0)
+        .fontColor(this.index === 0.0 ? "#007DFF" : "#182431")
         .textAlign(TextAlign.Center)
-        .lineHeight(22)
-        .fontWeight(this.index === 0 ? 500 : 400)
-        .opacity(this.index === 0 ? 1 : 0.6)
+        .lineHeight(22.0)
+        .fontWeight(this.index === 0.0 ? 500.0 : 400.0)
+        .opacity(this.index === 0.0 ? 1.0 : 0.6)
       Line()
         .width("57vp")
         .height("2vp")
         .position({ x: "0", y: "46vp" })
-        .backgroundColor(this.index === 0 ? "#007DFF" : "linear-gradient(269deg,rgba(0,0,0,0.00)%,#FFFFFF 10%)")
+        .backgroundColor(this.index === 0.0 ? "#007DFF" : "linear-gradient(269deg,rgba(0,0,0,0.00)%,#FFFFFF 10%)")
     }
     .id("tabJsWorker")
     .width("100%")
     .height("100%")
     .position({ x: "65%", y: "0vp" })
     .onClick(() => {
-      this.index = 0;
+      this.index = 0.0;
       this.controller.changeIndex(this.index);
     })
   }
@@ -58,24 +76,24 @@ struct Index {
         .height("22vp")
         .position({ x: "10vp", y: "17vp" })
         .fontFamily("HarmonyHeiTi-Medium")
-        .fontSize(16)
-        .fontColor(this.index === 1 ? "#007DFF" : "#182431")
+        .fontSize(16.0)
+        .fontColor(this.index === 1.0 ? "#007DFF" : "#182431")
         .textAlign(TextAlign.Center)
-        .lineHeight(22)
-        .fontWeight(this.index === 1 ? 500 : 400)
-        .opacity(this.index === 1 ? 1 : 0.6)
+        .lineHeight(22.0)
+        .fontWeight(this.index === 1.0 ? 500.0 : 400.0)
+        .opacity(this.index === 1.0 ? 1.0 : 0.6)
       Line()
         .width("68vp")
         .height("2vp")
         .position({ x: "10vp", y: "46vp" })
-        .backgroundColor(this.index === 1 ? "#007DFF" : "linear-gradient(269deg,rgba(0,0,0,0.00)%,#FFFFFF 10%)")
+        .backgroundColor(this.index === 1.0 ? "#007DFF" : "linear-gradient(269deg,rgba(0,0,0,0.00)%,#FFFFFF 10%)")
     }
     .id("tabTaskPool")
     .height("100%")
     .width("100%")
     .position({ x: "4%", y: "0" })
     .onClick(() => {
-      this.index = 1;
+      this.index = 1.0;
       this.controller.changeIndex(this.index);
     })
   }
@@ -90,8 +108,8 @@ struct Index {
           .fontColor("#182431")
           .fontSize("30fp")
           .fontFamily("HarmonyHeiTi-Bold")
-          .lineHeight(41)
-          .fontWeight(700)
+          .lineHeight(41.0)
+          .fontWeight(700.0)
           .textAlign(TextAlign.Start)
 
         Tabs({

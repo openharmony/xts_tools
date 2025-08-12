@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,16 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  Scroller,
+  Scroll,
+  Row,
+  Column,
+  Button,
+} from '@kit.ArkUI';
+
 import router from '@ohos.router';
 import { Logger } from '../common/Common';
 import fs from '@ohos.file.fs';
@@ -27,11 +38,11 @@ struct Index {
       Row() {
         Column() {
           Button($r('app.string.strSortText'))
-            .fontSize(16)
+            .fontSize(16.0)
             .fontColor('#FFFFFF')
-            .fontWeight(500)
-            .padding(15)
-            .margin(10)
+            .fontWeight(500.0)
+            .padding(15.0)
+            .margin(10.0)
             .width('300')
             .height('60')
             .id('strSort')
@@ -45,11 +56,11 @@ struct Index {
             })
 
           Button($r('app.string.copyFileText'))
-            .fontSize(16)
+            .fontSize(16.0)
             .fontColor('#FFFFFF')
-            .fontWeight(500)
-            .padding(15)
-            .margin(10)
+            .fontWeight(500.0)
+            .padding(15.0)
+            .margin(10.0)
             .width('300')
             .height('60')
             .id('fileCopy')

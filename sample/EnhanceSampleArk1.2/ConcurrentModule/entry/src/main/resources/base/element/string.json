@@ -10,91 +10,91 @@
     },
     {
       "name": "EntryAbility_label",
-      "value": "ConcurrentModule"
+      "value": "label"
     },
     {
       "name": "Text_desc",
-      "value": "enter the string to be sorted, separated by commas"
+      "value": "请输入待排序字符串"
     },
     {
       "name": "Default_desc",
-      "value": "enter the string to be sorted"
-    },
-    {
-      "name": "Add_task",
-      "value": "add task to taskGroup"
+      "value": "请输入待排序字符串，并以逗号分割"
     },
     {
       "name": "Result_desc",
-      "value": "execution result"
+      "value": "执行结果"
+    },
+    {
+      "name": "Add_task",
+      "value": "添加至任务组"
     },
     {
       "name": "SortString_desc",
-      "value": "Sort String"
+      "value": "字符串排序"
     },
     {
       "name": "Clear_desc",
-      "value": "Clear"
+      "value": "清除"
     },
     {
       "name": "Execute_After_3s_desc",
-      "value": "Execute After 3s"
+      "value": "超时3s执行"
     },
     {
       "name": "Execute_Immediately_desc",
-      "value": "Execute Immediately"
+      "value": "立即执行"
     },
     {
       "name": "Function_Task_desc",
-      "value": "Function Task"
+      "value": "函数任务"
     },
     {
       "name": "Cancel_Task_desc",
-      "value": "Cancel Task"
+      "value": "取消任务"
     },
     {
       "name": "strSortText",
-      "value": "String Sort Text"
+      "value": "字符串排序"
     },
     {
       "name": "copyFileText",
-      "value": "CopyFile Text"
+      "value": "拷贝文件"
     },
     {
       "name": "workerTitleText",
-      "value": "Worker Title Text"
+      "value": "公共目录下文件列表"
     },
     {
       "name": "logTitle",
-      "value": "Log Title"
+      "value": "触发事件后日志"
     },
     {
       "name": "workerLog1",
-      "value": "Sandbox File Number"
+      "value": "1、沙箱目录文件个数"
     },
     {
       "name": "workerLog2",
-      "value": "Sandbox File Number Unit"
+      "value": "个"
     },
     {
       "name": "workerLog3",
-      "value": "File"
+      "value": "文件"
     },
     {
       "name": "workerLog4",
-      "value": "Finish"
+      "value": "完成"
     },
     {
       "name": "workerLog5",
-      "value": "And So On"
+      "value": "等"
     },
     {
       "name": "workerLogChooseFile",
-      "value": "Please select a file"
+      "value": "2、请选择文件"
     },
     {
       "name": "transferSendableClass",
-      "value": "transfer SendableClass"
+      "value": "传递SendableClass"
     }
   ]
 }

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,22 +14,22 @@
  * limitations under the License.
  */
 
-import collections from '@arkts.collections';
-import utils from '@arkts.utils';
-@Sendable
+
+
+
 export class TestA {
-  v1: number = 0;
+  v1: number = 0.0;
   v2: string = "";
   v3: boolean = false;
-  count_: number = 0;
+  count_: number = 0.0;
   async getCount(): Promise<number> {
-    let lock: utils.locks.AsyncLock = utils.locks.AsyncLock.request("lock_1");
+    let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request("lock_1");
     return lock.lockAsync(() => {
       return this.count_;
     })
   }
   async setCount(count: number) {
-    let lock: utils.locks.AsyncLock = utils.locks.AsyncLock.request("lock_1");
+    let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request("lock_1");
     await lock.lockAsync(() => {
       this.count_ = count;
     })
@@ -39,7 +40,7 @@ export class TestA {
 }
 
 
-@Sendable
+
 export class TestB {
   v1: collections.Array<number> = new collections.Array<number>();
   v2: collections.Map<number, string> = new collections.Map<number, string>();

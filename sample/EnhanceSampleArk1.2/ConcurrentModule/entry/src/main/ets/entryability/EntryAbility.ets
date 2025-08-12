@@ -12,102 +12,33 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+ 
+'use static'
 import UIAbility from '@ohos.app.ability.UIAbility';
-import hilog from '@ohos.hilog';
-import window from '@ohos.window';
-import Want from '@ohos.app.ability.Want';
 import AbilityConstant from '@ohos.app.ability.AbilityConstant';
-import { BusinessError } from '@ohos.base';
+import Want from '@ohos.app.ability.Want';
+import window from '@ohos.window';
+import { BusinessError } from '@ohos.base'
+import hilog from '@ohos.hilog'
 
-
-export default class EntryAbility extends UIAbility {
-  onCreate(want: Want, launchParam: AbilityConstant.LaunchParam) {
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onCreate');
+class EntryAbility extends UIAbility {
+  onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
+    hilog.info(0x0000, 'testTag', 'EntryAbility onCreate');
   }
 
-  onDestroy() {
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onDestroy');
-  }
-
-  onWindowStageCreate(windowStage: window.WindowStage) {
-    // Main window is created, set main page for this ability
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
-    let filesDir = this.context.filesDir;
-    AppStorage.SetOrCreate('sanBoxFileDir', filesDir);
-    this.getResourceStr();
-    windowStage.loadContent('pages/Index', (err, data) => {
-      if (err.code) {
-        hilog.error(0x0000, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
-        return;
-      }
-      hilog.info(0x0000, 'testTag', 'Succeeded in loading the content. Data: %{public}s', JSON.stringify(data) ?? '');
-    });
-  }
-
-  getResourceStr(): void {
+  onWindowStageCreate(windowStage: window.WindowStage): void {
+    hilog.info(0x0000, 'testTag', 'EntryAbility onWindowStageCreate');
     try {
-      this.context.resourceManager.getStringValue($r('app.string.workerLog1').id)
-        .then(value => {
-          AppStorage.SetOrCreate('copyFileLog1', value);
-          hilog.info(0x0000, 'testTag', '%{public}s', 'getStringValue value' + value);
-        })
-        .catch((error: BusinessError) => {
-          hilog.error(0x0000, 'testTag', 'Failed to getStringValue. Cause: %{public}s', error ?? '');
-        });
-
-      this.context.resourceManager.getStringValue($r('app.string.workerLog2').id)
-        .then(value => {
-          AppStorage.SetOrCreate('copyFileLog2', value);
-          hilog.info(0x0000, 'testTag', '%{public}s', 'getStringValue value' + value);
-        })
-        .catch((error: BusinessError) => {
-          hilog.error(0x0000, 'testTag', 'Failed to getStringValue. Cause: %{public}s', error ?? '');
-        });
-
-      this.context.resourceManager.getStringValue($r('app.string.workerLog3').id)
-        .then(value => {
-          AppStorage.SetOrCreate('copyFileLog3', value);
-          hilog.info(0x0000, 'testTag', '%{public}s', 'getStringValue value' + value);
-        })
-        .catch((error: BusinessError) => {
-          hilog.error(0x0000, 'testTag', 'Failed to getStringValue. Cause: %{public}s', error ?? '');
-        });
-
-      this.context.resourceManager.getStringValue($r('app.string.workerLog4').id)
-        .then(value => {
-          AppStorage.SetOrCreate('copyFileLog4', value);
-          hilog.info(0x0000, 'testTag', '%{public}s', 'getStringValue value' + value);
-        })
-        .catch((error: BusinessError) => {
-          hilog.error(0x0000, 'testTag', 'Failed to getStringValue. Cause: %{public}s', error ?? '');
-        });
-
-      this.context.resourceManager.getStringValue($r('app.string.workerLog5').id)
-        .then(value => {
-          AppStorage.SetOrCreate('copyFileLog5', value);
-          hilog.info(0x0000, 'testTag', '%{public}s', 'getStringValue value' + value);
-        })
-        .catch((error: BusinessError) => {
-          hilog.error(0x0000, 'testTag', 'Failed to getStringValue. Cause: %{public}s', error ?? '');
-        });
-    } catch (error) {
-      hilog.error(0x0000, 'testTag', 'callback getStringValue failed. Cause: %{public}s', error.message ?? '');
+      windowStage.loadContent('pages/Index', (err: BusinessError<void> | null): void => {
+        hilog.info(0x0000, 'testTag', 'loadContent entering');
+        if (err && err.code) {
+          hilog.info(0x0000, 'testTag', 'loadContent error');
+          return;
+        }
+        hilog.info(0x0000, 'testTag', 'loadContent ok');
+      });
+    } catch (e: Error) {
+      hilog.info(0x0000, 'testTag', 'loadContent catch error：-----------' + e.message);
     }
-  }
-
-  onWindowStageDestroy() {
-    // Main window is destroyed, release UI related resources
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onWindowStageDestroy');
-  }
-
-  onForeground() {
-    // Ability has brought to foreground
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onForeground');
-  }
-
-  onBackground() {
-    // Ability has back to background
-    hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onBackground');
   }
 }
