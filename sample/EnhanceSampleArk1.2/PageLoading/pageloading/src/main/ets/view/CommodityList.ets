@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,17 +14,39 @@
  * limitations under the License.
  */
 
+import { PropRef } from '@kit.ArkUI';
+
+import {
+  Component,
+  Column,
+  Image,
+  ImageFit,
+  Text,
+  Color,
+  FontWeight,
+  TextAlign,
+  List,
+  LazyForEach,
+  ListItem,
+  RelativeContainer,
+  VerticalAlign,
+  HorizontalAlign,
+  Row,
+  FlexAlign,
+  getUIContext,
+} from '@kit.ArkUI';
+
 import { PRODUCTS_DATA } from '../mock/CommodityMock';
 import { CommodityDataModel } from '../model/CommodityDataModel';
 import { CommodityDataSource } from '../model/CommodityDataSource';
 import { promptAction } from '@kit.ArkUI';
 
-const IMAGE_ASPECT_RATIO: number = 1; // 图片的宽高比
-const OFFSET: number = -4; // 价格控件偏移量
-const OFFSETX: number = 10; // banner阴影X轴偏移量
-const OFFSETY: number = 10; // banner阴影Y轴偏移量
-const LAYOUT_WEIGHT: number = 1; // 分配剩余空间
-const ANGLE: number = 180; // 自上而下渐变
+const IMAGE_ASPECT_RATIO: number = 1.0; // 图片的宽高比
+const OFFSET: number = -4.0; // 价格控件偏移量
+const OFFSETX: number = 10.0; // banner阴影X轴偏移量
+const OFFSETY: number = 10.0; // banner阴影Y轴偏移量
+const LAYOUT_WEIGHT: number = 1.0; // 分配剩余空间
+const ANGLE: number = 180.0; // 自上而下渐变
 
 @Component
 export struct CommodityList {
@@ -85,7 +108,7 @@ export struct CommodityList {
 
 @Component
 struct ItemView {
-  @Prop item: CommodityDataModel;
+  @PropRef item: CommodityDataModel;
 
   build() {
     // TODO: 知识点：相对布局组件，用于复杂场景中元素对齐的布局，容器内子组件区分水平方向，垂直方向子组件可以将容器或者其他子组件设为锚点。
@@ -167,7 +190,7 @@ struct ItemView {
       })
       .id('column')
       .onClick(() => {
-        promptAction.showToast({ message: $r('app.string.page_loading_commodity_other_function') });
+        getUIContext().getPromptAction.showToast({ message: $r('app.string.page_loading_commodity_other_function') });
       })
     }
     .height($r('app.integer.page_loading_commodity_list_item_height'))

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,6 +17,12 @@
 /**
  * 商品的数据类
  */
+
+import { Observed } from '@kit.ArkUI';
+
+import { ResourceStr } from '@kit.ArkUI';
+
+@Observed
 export class CommodityDataModel {
   public id: number;
   public uri: ResourceStr;

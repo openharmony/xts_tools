@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  IDataSource,
+  DataChangeListener,
+} from '@kit.ArkUI';
 
 import { logger } from '../utils/logger';
 
@@ -28,21 +34,22 @@ class BasicDataSource<T> implements IDataSource {
    * 获取数据的长度
    */
   public totalCount(): number {
-    return 0;
+    return 0.0;
   }
 
   /**
    * 获取指定数据项
    */
-  public getData(index: number): T | void {
+  public getData(index: number): T | undefined {
     logger.info('getData, index:' + index);
+    return undefined;
   }
 
   /**
    * 该方法为框架侧调用，为LazyForEach组件向其数据源处添加listener监听
    */
   registerDataChangeListener(listener: DataChangeListener): void {
-    if (this.listeners.indexOf(listener) < 0) {
+    if (this.listeners.indexOf(listener) < 0.0) {
       logger.info('add listener');
       this.listeners.push(listener);
     }
@@ -52,10 +59,10 @@ class BasicDataSource<T> implements IDataSource {
    * 该方法为框架侧调用，为对应的LazyForEach组件在数据源处去除listener监听
    */
   unregisterDataChangeListener(listener: DataChangeListener): void {
-    const pos = this.listeners.indexOf(listener);
-    if (pos >= 0) {
+    const pos: number = this.listeners.indexOf(listener);
+    if (pos >= 0.0) {
       logger.info('remove listener');
-      this.listeners.splice(pos, 1);
+      this.listeners.splice(pos, 1.0);
     }
   }
 
@@ -111,7 +118,7 @@ export class CommodityDataSource extends BasicDataSource<CommodityDataModel> {
    * 获取指定数据项
    */
   getData(index: number): CommodityDataModel {
-    return this.commodityList[index];
+    return this.commodityList[index as int];
   }
 
   /**
@@ -119,6 +126,6 @@ export class CommodityDataSource extends BasicDataSource<CommodityDataModel> {
    */
   pushData(data: CommodityDataModel[]): void {
     this.commodityList.push(...data);
-    this.notifyDataAdd(this.commodityList.length - 1);
+    this.notifyDataAdd(this.commodityList.length - 1.0);
   }
 }

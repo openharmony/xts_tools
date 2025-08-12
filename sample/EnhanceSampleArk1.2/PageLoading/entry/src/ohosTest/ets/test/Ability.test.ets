@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -27,7 +28,7 @@ export default function abilityTest() {
     /**
      * 打开应用
      */
-    it(BUNDLE + '_StartAbility', 0, async (done: Function) => {
+    it(BUNDLE + '_StartAbility', 0.0, async (done: Function) => {
       logger.info(TAG, BUNDLE + '_StartAbility start');
       let abilityDelegator = AbilityDelegatorRegistry.getAbilityDelegator();
       try {
@@ -40,27 +41,27 @@ export default function abilityTest() {
         expect().assertFail();
       }
       logger.info(TAG, BUNDLE + '_StartAbility end');
-      done();
+      done.unsafeCall();
     })
 
     /**
      * 页面加载效果实现案例只能断言页面加载后的列表是否正常滚动和展示（加载lottie动画需手工用例进行测试）
      */
-    it(BUNDLE, 0, async (done: Function) => {
+    it(BUNDLE, 0.0, async (done: Function) => {
       let driver = Driver.create();
 
-      await driver.delayMs(5000); // 进度条加载耗时
+      await driver.delayMs((5000.0).toInt()); // 进度条加载耗时
 
       const loadProgressHide = await driver.findComponent(ON.id('loadingHUD'));
       expect(loadProgressHide).assertEqual(null); // 断言界面数据正在加载完成并消失
 
       await driver.assertComponentExist(ON.id('commodity_list')); // 断言数据列表加载成功
-      await driver.swipe(200, 1500, 200, 100, 2200); // 向上滑动
-      await driver.delayMs(1000);
+      await driver.swipe((200.0).toInt().toInt(), (1500.0).toInt().toInt(), (200.0).toInt(), (100.0).toInt().toInt(), (2200.0).toInt().toInt()); // 向上滑动
+      await driver.delayMs((1000.0).toInt());
       const isScroll = await (await driver.findComponent(ON.id('commodity_list'))).isScrollable();
       expect(isScroll).assertEqual(true); // 断言商品列表可滚动
 
-      done();
+      done.unsafeCall();
     })
   })
 }
