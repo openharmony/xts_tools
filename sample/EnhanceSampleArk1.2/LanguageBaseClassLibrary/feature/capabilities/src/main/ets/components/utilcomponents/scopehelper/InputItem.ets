@@ -18,7 +18,6 @@ import {
   Component,
   Link,
   Resource,
-  $r,
   Row,
   Text,
   TextInput,
@@ -26,6 +25,10 @@ import {
   FontStyle,
   FontWeight,
   EnterKeyType,
+  $r,
+  Padding,
+  Margin,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 @Component
@@ -37,19 +40,19 @@ export struct InputItem {
   build() {
     Row() {
       Text(this.textValue)
-        .layoutWeight(1)
-        .fontSize(20)
+        .layoutWeight(1.0)
+        .fontSize(20.0)
       TextInput({ placeholder: this.placeHolder })
         .key('shortestSleepTime')
-        .layoutWeight(1)
+        .layoutWeight(1.0)
         .type(InputType.Normal)
-        .fontSize(20)
+        .fontSize(20.0)
         .fontStyle(FontStyle.Italic)
-        .maxLength(20)
+        .maxLength(20.0)
         .fontWeight(FontWeight.Bold)
-        .placeholderFont({ size: 16, weight: FontWeight.Normal })
+        .placeholderFont({ size: 16.0, weight: FontWeight.Normal })
         .enterKeyType(EnterKeyType.Go)
-        .onChange((value: string) => {
+        .onChange((value: string):void => {
           this.value = Number(value);
         })
     }

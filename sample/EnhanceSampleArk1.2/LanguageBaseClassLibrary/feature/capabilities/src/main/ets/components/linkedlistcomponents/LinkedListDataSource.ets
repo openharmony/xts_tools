@@ -15,40 +15,40 @@
 */
 
 import LinkedList from '@ohos.util.LinkedList';
-import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSource';
+import { BaseDataSource } from 'common';
 import { Information } from '../../model/Information';
 
-export class LinkedListDataSource extends BaseDataSource {
-  private linkedList: LinkedList<Information> = new LinkedList<Information>();
+export class LinkedListDataSource extends BaseDataSource<Information> {
+  private linkedList = new LinkedList<Information>();
 
   public totalCount(): number {
     return this.linkedList.length;
   }
 
   public getData(index: number): Information {
-    return this.linkedList[index];
+    return this.linkedList.get(index as int) as Information;;
   }
 
   public addData(item: Information): void {
     this.linkedList.add(item);
-    this.notifyDataAdd(this.linkedList.length - 1);
+    this.notifyDataAdd(this.linkedList.length - 1.0);
     this.notifyDataReload();
   }
 
   public deleteFirst(): void {
     this.linkedList.removeFirst();
-    this.notifyDataDelete(0);
+    this.notifyDataDelete(0.0);
     this.notifyDataReload();
   }
 
   public deleteLast(): void {
     this.linkedList.removeLast();
-    this.notifyDataDelete(this.linkedList.length - 1);
+    this.notifyDataDelete(this.linkedList.length - 1.0);
     this.notifyDataReload();
   }
 
   public deleteData(index: number): void {
-    this.linkedList.removeByIndex(index.toInt());
+    this.linkedList.removeByIndex(index as int);
     this.notifyDataDelete(index);
     this.notifyDataReload();
   }

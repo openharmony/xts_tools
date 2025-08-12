@@ -16,38 +16,41 @@
 
 import PlainArray from '@ohos.util.PlainArray';
 import ArrayList from '@ohos.util.ArrayList';
-import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSource';
+import { BaseDataSource } from 'common';
 import { KeyValuePair } from '../../model/KeyValuePair';
 
-export class PlainArrayDataSource extends BaseDataSource {
+export class PlainArrayDataSource extends BaseDataSource<KeyValuePair> {
   private dataArr: PlainArray<string> = new PlainArray<string>();
-  private arr: ArrayList<number> = new ArrayList<number>();
+  private arr: ArrayList<int> = new ArrayList<int>();
 
   public totalCount(): number {
     return this.arr.length;
   }
 
   public getData(index: number): KeyValuePair {
-    let key: number = this.arr[index];
-    let value: string = this.dataArr.get(key.toInt());
-    this.dataArr.get(this.arr[index].toInt());
-    let keyValuePair: KeyValuePair = new KeyValuePair(`${this.arr[index]}`, value);
+    let key: int = this.arr[index as int];
+    let value: string = this.dataArr.get(key) as string
+    this.dataArr.get(key);
+    if (value === undefined) {
+      value = "";
+    }
+    let keyValuePair: KeyValuePair = new KeyValuePair(`${key}`, value);
     return keyValuePair;
   }
 
   public addData(keyValuePair: KeyValuePair): void {
-    let key: number = Number(keyValuePair.key);
-    if (!this.dataArr.has(key.toInt())) {
+    let key: int = Number(keyValuePair.key) as int
+    if (!this.dataArr.has(key)) {
       this.arr.add(key)
     }
     this.dataArr.add(key, keyValuePair.value);
-    this.notifyDataAdd(this.dataArr.length - 1);
+    this.notifyDataAdd(this.dataArr.length - 1.0);
     this.notifyDataReload();
   }
 
-  public deleteData(index: number): void {
-    this.dataArr.removeAt(index.toInt());
-    this.arr.removeByIndex(index.toInt());
+  public deleteData(index: int): void {
+    this.dataArr.removeAt(index);
+    this.arr.removeByIndex(index);
     this.notifyDataDelete(index);
     this.notifyDataReload();
   }

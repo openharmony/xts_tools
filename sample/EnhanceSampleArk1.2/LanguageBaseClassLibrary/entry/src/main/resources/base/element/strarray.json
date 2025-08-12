@@ -3,7 +3,6 @@
     {
       "name": "language_base_class_library_list",
       "value": [
-
         {
           "value": "Xml & ConvertXml (XML Parsing,Generation and convert)"
         },
@@ -57,9 +56,6 @@
         },
         {
           "value": "TreeSet (Nonlinear Container TreeSet)"
-        },
-        {
-          "value": "Vector (Linear Container Vector)"
         }
       ]
     }

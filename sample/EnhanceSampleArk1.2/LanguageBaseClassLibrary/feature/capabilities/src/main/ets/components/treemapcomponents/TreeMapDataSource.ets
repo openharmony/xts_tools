@@ -16,11 +16,11 @@
 
 import TreeMap from '@ohos.util.TreeMap';
 import ArrayList from '@ohos.util.ArrayList';
-import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSource';
+import { BaseDataSource } from 'common';
 import { KeyValuePair } from '../../model/KeyValuePair';
 
-export class TreeMapDataSource extends BaseDataSource {
-  private dataArr: TreeMap<string, string> = new TreeMap<string, string>();
+export class TreeMapDataSource extends BaseDataSource<KeyValuePair> {
+  private dataArr = new TreeMap<string,string>();
   private arr: ArrayList<string> = new ArrayList<string>();
 
   public totalCount(): number {
@@ -28,10 +28,13 @@ export class TreeMapDataSource extends BaseDataSource {
   }
 
   public getData(index: number): KeyValuePair {
-    let key: string = this.arr[index];
-    let value: string = this.dataArr.get(key);
-    this.dataArr.get(this.arr[index]);
-    let keyValuePair: KeyValuePair = new KeyValuePair(`${this.arr[index]}`, value);
+    let key: string = this.arr[index as int];
+    let value: string |undefined= this.dataArr.get(key) as string;
+    this.dataArr.get(key);
+    let keyValuePair: KeyValuePair = new KeyValuePair(`${key}`, value);
+    if (value === undefined) {
+      value = "";
+    }
     return keyValuePair;
   }
 
@@ -40,13 +43,13 @@ export class TreeMapDataSource extends BaseDataSource {
       this.arr.add(keyValuePair.key)
     }
     this.dataArr.set(keyValuePair.key, keyValuePair.value);
-    this.notifyDataChange(this.dataArr.length - 1);
+    this.notifyDataChange(this.dataArr.length - 1.0);
     this.notifyDataReload();
   }
 
   public deleteData(key: string): void {
     this.dataArr.remove(key);
-    let index = this.arr.getIndexOf(key);
+    let index: number = this.arr.getIndexOf(key);
     this.arr.remove(key);
     this.notifyDataDelete(index);
     this.notifyDataReload();

@@ -16,9 +16,9 @@
 
 import TreeSet from '@ohos.util.TreeSet';
 import ArrayList from '@ohos.util.ArrayList';
-import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSource';
+import { BaseDataSource } from 'common';
 
-export class TreeSetDataSource extends BaseDataSource {
+export class TreeSetDataSource extends BaseDataSource<string> {
   private dataArr: TreeSet<string> = new TreeSet<string>();
   private arr: ArrayList<string> = new ArrayList<string>();
 
@@ -27,19 +27,19 @@ export class TreeSetDataSource extends BaseDataSource {
   }
 
   public getData(index: number): string {
-    return this.arr[index];
+    return this.arr[index as int];
   }
 
   public addData(value: string): void {
     this.dataArr.add(value);
     this.arr.add(value);
-    this.notifyDataAdd(this.dataArr.length - 1);
+    this.notifyDataAdd(this.dataArr.length - 1.0);
     this.notifyDataReload();
   }
 
   public deleteData(value: string, index: number): void {
     this.dataArr.remove(value);
-    this.arr.removeByIndex(index.toInt());
+    this.arr.removeByIndex(index as int);
     this.notifyDataDelete(index);
     this.notifyDataReload();
   }

@@ -21,13 +21,14 @@ import {
   List,
   LazyForEach,
   ListItem,
-  $r,
+  Padding,
+  $r
 } from '@kit.ArkUI';
 
 import LightWeightSet from '@ohos.util.LightWeightSet';
 import emitter from '@ohos.events.emitter';
-import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
-import { logger } from '@ohos/common/src/main/ets/util/Logger';
+import { EmptyPage } from 'common';
+import { logger } from 'common';
 import { ValueItemView } from '../components/ValueItemView';
 import { LightWeightSetDataSource } from '../components/lightweightsetcomponents/LightWeightSetDataSource';
 import { Constant } from '../Constant';
@@ -36,16 +37,16 @@ const TAG = 'LightWeightSetView';
 
 @Component
 export struct LightWeightSetView {
-  @State totalCount: number = 0;
+  @State totalCount: number = 0.0;
   @State lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
   private dataSource: LightWeightSetDataSource = new LightWeightSetDataSource();
 
   aboutToAppear() {
-    emitter.on({ eventId: Constant.EMITTER_ID_LIGHT_WEIGHT_SET }, (eventData: emitter.EventData) => {
+    emitter.on({ eventId: Constant.EMITTER_ID_LIGHT_WEIGHT_SET } as emitter.InnerEvent, (eventData: emitter.EventData) => {
       if (eventData.data === undefined) {
         return;
       }
-      let item: string = eventData.data.value;
+      let item = (eventData.data as Record<string, object>)['value'] as string;
       this.dataSource.addData(item);
       this.lightWeightSet.add(item);
       this.totalCount = this.dataSource.totalCount();
@@ -53,13 +54,13 @@ export struct LightWeightSetView {
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_LIGHT_WEIGHT_SET.toLong());
+    emitter.off(Constant.EMITTER_ID_LIGHT_WEIGHT_SET);
   }
 
   build() {
     Column() {
-      if (this.totalCount != 0) {
-        List({ space: 12 }) {
+      if (this.totalCount != 0.0) {
+        List({ space: 12.0 }) {
           LazyForEach(this.dataSource, (item: string, index: number) => {
             ListItem() {
               ValueItemView({
@@ -73,13 +74,13 @@ export struct LightWeightSetView {
                 }
               })
             }
-            .height(72)
+            .height(72.0)
             .width('100%')
           }, (item: string, index: number) => JSON.stringify(item) + index)
         }
         .width('100%')
         .height('100%')
-        .padding({ top: 8, left: 12, right: 12 })
+        .padding({ top: 8.0, left: 12.0, right: 12.0 } as Padding)
       } else {
         EmptyPage()
       }

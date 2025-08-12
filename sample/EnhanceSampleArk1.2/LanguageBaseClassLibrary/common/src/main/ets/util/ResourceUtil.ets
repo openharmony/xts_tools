@@ -16,18 +16,17 @@
 
 import {
   Resource,
-  getUIContext,
+  UIContext,
+  Context
 } from '@kit.ArkUI';
 
-import common from '@ohos.app.ability.common';
-
-export async function getStringArray(resource: Resource): Promise<Array<string>> {
-  let context = getUIContext().getHostContext() as common.UIAbilityContext;
-  let menuList: Array<string> = await context.resourceManager.getStringArrayValue(resource);
+export function getStringArray(resource: Resource, uIContext: UIContext): Array<string> {
+  let context = uIContext.getHostContext() as Context;
+  let menuList: Array<string> = context.resourceManager.getStringArrayValueSync(resource.id);
   return menuList;
 }
 
-export function getString(resource: Resource): string {
-  let context = getUIContext().getHostContext() as common.UIAbilityContext;
-  return context.resourceManager.getStringSync(resource);
+export function getString(resource: Resource, uIContext: UIContext): string {
+  let context = uIContext.getHostContext() as Context;
+  return context.resourceManager.getStringSync(resource.id);
 }

@@ -23,16 +23,19 @@ import {
   LazyForEach,
   ListItem,
   $r,
+  Padding,
+  Margin,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 import emitter from '@ohos.events.emitter';
-import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
+import { EmptyPage } from 'common';
 import { Information } from '../model/Information';
 import { ListDateSource } from '../components/listcomponents/ListDataSource';
 import { InformationItemView } from '../components/InformationItemView';
 import { Constant } from '../Constant';
 
-const MIN_LENGTH: int = 0;
+const MIN_LENGTH: number = 0.0;
 
 @Entry
 @Component
@@ -41,14 +44,14 @@ export struct ListView {
   @State totalCount: number = MIN_LENGTH;
 
   aboutToAppear() {
-    emitter.on({ eventId: Constant.EMITTER_ID_LIST }, (eventData) => {
-      this.dataSource.addData(eventData.data as Information);
+    emitter.on({ eventId: Constant.EMITTER_ID_LIST } as emitter.InnerEvent, (eventData: emitter.EventData) => {
+      this.dataSource.addData((eventData.data as Record<string, object>)['value'] as Information);
       this.totalCount = this.dataSource.totalCount();
     });
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_LIST.toLong());
+    emitter.off(Constant.EMITTER_ID_LIST);
   }
 
   build() {
@@ -58,17 +61,17 @@ export struct ListView {
           LazyForEach(this.dataSource, (item: Information, index: number) => {
             ListItem() {
               InformationItemView({ index: index, information: item, deleteAction: () => {
-                this.dataSource.deleteData(index);
+                this.dataSource.deleteData(index.toInt());
                 this.totalCount = this.dataSource.totalCount();
               } })
             }
-            .height(72)
+            .height(72.0)
             .width('100%')
-            .margin({ bottom: 20 })
+            .margin({ bottom: 20.0 } as Margin)
           }, (item: Information, index: number) => JSON.stringify(item) + index)
         }
         .width('100%')
-        .layoutWeight(1)
+        .layoutWeight(1.0)
 
       } else {
         EmptyPage()

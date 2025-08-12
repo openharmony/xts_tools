@@ -57,9 +57,6 @@
         },
         {
           "value": "TreeSet (Nonlinear Container TreeSet)"
-        },
-        {
-          "value": "Vector (Linear Container Vector)"
         }
       ]
     }

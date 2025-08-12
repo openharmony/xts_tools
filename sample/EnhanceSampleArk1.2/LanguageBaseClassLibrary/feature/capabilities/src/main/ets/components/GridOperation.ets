@@ -29,34 +29,38 @@ import {
   Color,
   ButtonType,
   FlexAlign,
+  Padding,
+  Margin,
+  ClickEvent,
+  ButtonOptions
 } from '@kit.ArkUI';
 
-import { getStringArray } from '@ohos/common/src/main/ets/util/ResourceUtil';
+import { getStringArray } from 'common';
 
 @Component
 export struct GridOperation {
   private operationRes: Resource | undefined = undefined;
-  @State operationSource: string[] = [];
+  @State operationSource: string[] = [''];
   private doOperation: (index: number) => void = () => {};
 
   build() {
     Column() {
-      GridRow({ columns: 12, gutter: { x: 2, y: 5 },
+      GridRow({ columns: 12.0, gutter: { x: 2.0, y: 5.0 },
         direction: GridRowDirection.Row
       }) {
         ForEach(this.operationSource, (item: string, index: number) => {
-          GridCol({ span: { xs: 6, sm: 6, md: 4, lg: 4 } }) {
+          GridCol({ span: { xs: 6.0, sm: 6.0, md: 4.0, lg: 4.0 } }) {
             Row() {
-              Button() {
+              Button({} as ButtonOptions) {
                 Text(item)
-                  .fontSize(16)
+                  .fontSize(16.0)
                   .fontColor(Color.White)
               }
-              .width(160)
-              .height(50)
+              .width(160.0)
+              .height(50.0)
               .type(ButtonType.Capsule)
-              .margin({ right: 10, top: 10 })
-              .onClick(() => {
+              .margin({ right: 10.0, top: 10.0 } as Margin)
+              .onClick((e:ClickEvent) => {
                 this.doOperation(index);
               })
             }
@@ -66,12 +70,12 @@ export struct GridOperation {
       }
     }
     .width('100%')
-    .padding({ bottom: 15 })
+    .padding({ bottom: 15.0 } as Padding)
   }
 
-  async aboutToAppear() {
+  aboutToAppear() {
     if (this.operationRes) {
-      let menuList = await getStringArray(this.operationRes);
+      let menuList = getStringArray(this.operationRes as Resource, this.getUIContext());
       this.operationSource = menuList;
     }
   }

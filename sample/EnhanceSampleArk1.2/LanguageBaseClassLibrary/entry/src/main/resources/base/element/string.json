@@ -9,6 +9,10 @@
       "value": "description"
     },
     {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
       "name": "lable_name",
       "value": "LanguageBaseClassLibrary"
     },

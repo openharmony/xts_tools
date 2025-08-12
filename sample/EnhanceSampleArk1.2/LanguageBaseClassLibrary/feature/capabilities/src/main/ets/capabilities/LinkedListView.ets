@@ -22,11 +22,14 @@ import {
   LazyForEach,
   ListItem,
   $r,
+  Padding,
+  Margin,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 import emitter from '@ohos.events.emitter';
-import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
-import { logger } from '@ohos/common/src/main/ets/util/Logger';
+import { EmptyPage } from 'common';
+import { logger } from 'common';
 import { Information } from '../model/Information'
 import { InformationItemView } from '../components/InformationItemView';
 import { LinkedListDataSource } from '../components/linkedlistcomponents/LinkedListDataSource'
@@ -36,53 +39,54 @@ const TAG = 'LinkedListView'
 
 @Component
 export struct LinkedListView {
-  @State totalCount: number = 0;
+  @State totalCount: number = 0.0;
   private dataSource: LinkedListDataSource = new LinkedListDataSource();
 
+
   aboutToAppear() {
-    emitter.on({ eventId: Constant.EMITTER_ID_LINKED_LIST }, (eventData) => {
-      let item = eventData.data as Information;
+    emitter.on({ eventId: Constant.EMITTER_ID_LINKED_LIST } as emitter.InnerEvent, (eventData: emitter.EventData) => {
+      let item = (eventData.data as Record<string, object>)['value'] as Information;
       this.dataSource.addData(item);
       this.totalCount = this.dataSource.totalCount();
     });
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_LINKED_LIST.toLong());
+    emitter.off(Constant.EMITTER_ID_LINKED_LIST);
   }
 
   build() {
     Column() {
-      if (this.totalCount != 0) {
+      if (this.totalCount != 0.0) {
         List() {
-          LazyForEach(this.dataSource, (item: Information, index: number) => {
+          LazyForEach(this.dataSource, (item: Information, index: number):void => {
+
             ListItem() {
               InformationItemView({
                 index: index,
                 information: item,
                 deleteAction: () => {
                   logger.info(TAG, `deleteAction: ${JSON.stringify(item)}`);
+
                   if (index === 0) {
                     this.dataSource.deleteFirst();
-                    this.totalCount = this.dataSource.totalCount();
                   } else if (index === this.totalCount - 1) {
                     this.dataSource.deleteLast();
-                    this.totalCount = this.dataSource.totalCount();
                   } else {
-                    this.dataSource.deleteData(index);
-                    this.totalCount = this.dataSource.totalCount();
+                    this.dataSource.deleteData(index.toInt());
                   }
+                  this.totalCount = this.dataSource.totalCount();
                 }
               })
             }
-            .height(72)
+                .height(72.0)
             .width('100%')
-            .margin({ bottom: 20 })
+            .margin({ bottom: 20.0 } as Margin)
           }, (item: Information, index: number) => JSON.stringify(item) + index)
         }
         .width('100%')
         .height('100%')
-        .padding({ top: 8, left: 12, right: 12 })
+        .padding({ top: 8.0, left: 12.0, right: 12.0 }as Padding)
       } else {
         EmptyPage()
       }

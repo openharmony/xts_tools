@@ -15,28 +15,28 @@
 */
 
 import ListUtil from '@ohos.util.List';
-import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSource';
+import { BaseDataSource } from 'common';
 import { Information } from '../../model/Information';
 
-export class ListDateSource extends BaseDataSource {
+export class ListDateSource extends BaseDataSource<Information> {
   private dataArr: ListUtil<Information> = new ListUtil<Information>();
 
   public totalCount(): number {
     return this.dataArr.length;
   }
 
-  public getData(index: int): Information {
-    return this.dataArr.get(index);
+  public getData(index: number): Information {
+    return this.dataArr.get(index as int) as Information;
   }
 
   public addData(information: Information): void {
     this.dataArr.add(information);
-    this.notifyDataAdd(this.dataArr.length - 1);
+    this.notifyDataAdd(this.dataArr.length - 1.0);
     this.notifyDataReload();
   }
 
-  public deleteData(index: number): void {
-    this.dataArr.removeByIndex(index.toInt());
+  public deleteData(index: int): void {
+    this.dataArr.removeByIndex(index);
     this.notifyDataDelete(index);
     this.notifyDataReload();
   }

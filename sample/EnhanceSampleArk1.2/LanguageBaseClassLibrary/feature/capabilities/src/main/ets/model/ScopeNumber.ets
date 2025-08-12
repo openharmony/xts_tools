@@ -13,23 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import util from '@ohos.util'
 
-export class ScopeNumber {
+export class ScopeNumber implements util.ScopeComparable<ScopeNumber> {
   temp: number;
 
   constructor(value: number) {
     this.temp = value;
   }
 
-  compareTo(value: ScopeNumber) {
-    return this.temp >= value.getTemp();
+  compareTo(other: ScopeNumber): boolean {
+    return this.getTemp() >= other.getTemp();
   }
 
-  getTemp() {
+  getTemp(): number {
     return this.temp;
   }
 
-  toString() {
+  toString(): string {
     return this.temp.toString();
   }
 }

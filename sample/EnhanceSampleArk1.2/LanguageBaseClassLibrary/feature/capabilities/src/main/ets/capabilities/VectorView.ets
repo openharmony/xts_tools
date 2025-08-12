@@ -1,3 +1,4 @@
+// 'use static'
 'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
@@ -13,65 +14,68 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
-import {
-  Component,
-  State,
-  Column,
-  List,
-  LazyForEach,
-  ListItem,
-  $r,
-} from '@kit.ArkUI';
-
-import emitter from '@ohos.events.emitter';
-import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
-import { Information } from '../model/Information';
-import { VectorDataSource } from '../components/vectorcomponents/VectorDataSource';
-import { InformationItemView } from '../components/InformationItemView';
-import { Constant } from '../Constant';
-
-const MIN_LENGTH = 0;
-
-@Component
-export struct VectorView {
-  private dataSource: VectorDataSource = new VectorDataSource();
-  @State totalCount: number = MIN_LENGTH;
-
-  aboutToAppear() {
-    emitter.on({ eventId: Constant.EMITTER_ID_VECTOR }, (eventData) => {
-      this.dataSource.addData(eventData.data as Information);
-      this.totalCount = this.dataSource.totalCount();
-    });
-  }
-
-  aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_VECTOR.toLong());
-  }
-
-  build() {
-    Column() {
-      if (this.totalCount > MIN_LENGTH) {
-        List() {
-          LazyForEach(this.dataSource, (item: Information, index: number) => {
-            ListItem() {
-              InformationItemView({ index: index, information: item, deleteAction: () => {
-                this.dataSource.deleteData(index);
-                this.totalCount = this.dataSource.totalCount();
-              } })
-            }
-            .height(72)
-            .width('100%')
-            .margin({ bottom: 20 })
-          }, (item: Information, index: number) => JSON.stringify(item) + index)
-        }
-        .width('100%')
-        .layoutWeight(1)
-
-      } else {
-        EmptyPage()
-      }
-    }
-    .backgroundColor($r('sys.color.ohos_id_color_sub_background'))
-  }
-}
+//
+// import {
+//   Component,
+//   State,
+//   Column,
+//   List,
+//   LazyForEach,
+//   ListItem,
+//   $r,
+//   Padding,
+//   Margin,
+//   ClickEvent,
+// } from '@kit.ArkUI';
+//
+// import emitter from '@ohos.events.emitter';
+// import { EmptyPage } from 'common';
+// import { Information } from '../model/Information';
+// import { VectorDataSource } from '../components/vectorcomponents/VectorDataSource';
+// import { InformationItemView } from '../components/InformationItemView';
+// import { Constant } from '../Constant';
+//
+// const MIN_LENGTH: number = 0.0;
+//
+// @Component
+// export struct VectorView {
+//   private dataSource: VectorDataSource = new VectorDataSource();
+//   @State totalCount: number = MIN_LENGTH;
+//
+//   aboutToAppear() {
+//     emitter.on({ eventId: Constant.EMITTER_ID_VECTOR } as emitter.InnerEvent, (eventData: emitter.EventData) => {
+//       this.dataSource.addData((eventData.data as Record<string, object>)['value'] as Information);
+//       this.totalCount = this.dataSource.totalCount();
+//     });
+//   }
+//
+//   aboutToDisappear() {
+//     emitter.off(Constant.EMITTER_ID_VECTOR);
+//   }
+//
+//   build() {
+//     Column() {
+//       if (this.totalCount > MIN_LENGTH) {
+//         List() {
+//           LazyForEach(this.dataSource, (item: Information, index: number) => {
+//             ListItem() {
+//               InformationItemView({ index: index, information: item, deleteAction: () => {
+//                 this.dataSource.deleteData(index as int);
+//                 this.totalCount = this.dataSource.totalCount();
+//               } })
+//             }
+//             .height(72.0)
+//             .width('100%')
+//             .margin({ bottom: 20.0 } as Margin)
+//           }, (item: Information, index: number) => JSON.stringify(item) + index)
+//         }
+//         .width('100%')
+//         .layoutWeight(1.0)
+//
+//       } else {
+//         EmptyPage()
+//       }
+//     }
+//     .backgroundColor($r('sys.color.ohos_id_color_sub_background'))
+//   }
+// }

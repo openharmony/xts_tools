@@ -14,9 +14,9 @@
 * limitations under the License.
 */
 
-import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSource';
+import { BaseDataSource } from 'common';
 
-export class LightWeightSetDataSource extends BaseDataSource {
+export class LightWeightSetDataSource extends BaseDataSource<string> {
   public dataArr: string[] = []
 
   public totalCount(): number {
@@ -29,12 +29,12 @@ export class LightWeightSetDataSource extends BaseDataSource {
 
   public addData(item: string): void {
     this.dataArr.push(item);
-    this.notifyDataAdd(this.dataArr.length - 1);
+    this.notifyDataAdd(this.dataArr.length - 1.0);
     this.notifyDataReload();
   }
 
   public deleteData(item: string, index: number): void {
-    this.dataArr.splice(index, 1);
+    this.dataArr.splice(index, 1.0);
     this.notifyDataDelete(index);
     this.notifyDataReload();
   }

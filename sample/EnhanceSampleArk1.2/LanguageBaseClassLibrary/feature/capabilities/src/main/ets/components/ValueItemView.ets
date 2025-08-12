@@ -21,10 +21,12 @@ import {
   Row,
   Column,
   Text,
-  $r,
   FlexAlign,
   HorizontalAlign,
   VerticalAlign,
+  Margin,
+  Padding,
+  $r
 } from '@kit.ArkUI';
 
 import { DeleteView } from './DeleteView';
@@ -34,31 +36,32 @@ export struct ValueItemView {
   @State deleteEnabled: boolean = true;
   private value: string = '';
   private deleteAction: (event?: ClickEvent) => void = () => {};
-  private index: number = 0;
+  private index: number = 0.0;
 
   build() {
     Row() {
       Column() {
         Text(`Value: ${this.value}`)
           .fontColor($r('app.color.text_color_primary'))
-          .fontSize(16)
+          .fontSize(16.0)
       }
       .height('100%')
-      .layoutWeight(1)
-      .padding({ left: 16, right: 16, top: 12, bottom: 12 })
-      .borderRadius(16)
+      .layoutWeight(1.0)
+      .padding({ left: 16.0, right: 16.0, top: 12.0, bottom: 12.0 } as Padding)
+      .borderRadius(16.0)
       .backgroundColor($r('app.color.bg_white'))
       .justifyContent(FlexAlign.Center)
       .alignItems(HorizontalAlign.Start)
 
-      DeleteView({ enable: this.deleteEnabled })
-        .id(`delete${this.index}`)
-        .margin({ left: 12 })
-        .enabled(this.deleteEnabled)
-        .onClick(this.deleteAction)
+      DeleteView({
+        enable: this.deleteEnabled,
+        id: `delete${this.index}`,
+        enabled: this.deleteEnabled,
+        onClick: this.deleteAction
+      })
     }
     .width('100%')
-    .height(64)
+    .height(64.0)
     .alignItems(VerticalAlign.Center)
   }
 }

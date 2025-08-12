@@ -15,10 +15,10 @@
 */
 
 import Deque from '@ohos.util.Deque';
-import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSource';
+import { BaseDataSource } from 'common';
 import { Information } from '../../model/Information';
 
-export class DequeDataSource extends BaseDataSource {
+export class DequeDataSource extends BaseDataSource<Information> {
   private deque = new Deque<Information>();
 
   public totalCount(): number {
@@ -26,21 +26,22 @@ export class DequeDataSource extends BaseDataSource {
   }
 
   public getData(index: number): Information {
-    return this.deque[index]
+    return this.deque[index as int]
   }
 
   public insertFront(information: Information): void {
     this.deque.insertFront(information);
     this.deque.forEach((value, index) => {
-      value.clickAble = index === 0 || index === this.deque.length - 1;
+      value.clickAble = index === 0.0 || index === this.deque.length - 1.0;
     });
     this.notifyDataReload();
+    console.info('wzrinsert')
   }
 
   public insertEnd(information: Information): void {
     this.deque.insertEnd(information);
     this.deque.forEach((value, index) => {
-      value.clickAble = index === 0 || index === this.deque.length - 1;
+      value.clickAble = index === 0.0 || index === this.deque.length - 1.0;
     });
     this.notifyDataReload();
   }
@@ -48,7 +49,7 @@ export class DequeDataSource extends BaseDataSource {
   public deleteFront(): void {
     this.deque.popFirst();
     this.deque.forEach((value, index) => {
-      value.clickAble = index === 0 || index === this.deque.length - 1;
+      value.clickAble = index === 0.0 || index === this.deque.length - 1.0;
     });
     this.notifyDataReload();
   }
@@ -56,7 +57,7 @@ export class DequeDataSource extends BaseDataSource {
   public deleteEnd(): void {
     this.deque.popLast();
     this.deque.forEach((value, index) => {
-      value.clickAble = index === 0 || index === this.deque.length - 1;
+      value.clickAble = index === 0.0 || index === this.deque.length - 1.0;
     });
     this.notifyDataReload();
   }

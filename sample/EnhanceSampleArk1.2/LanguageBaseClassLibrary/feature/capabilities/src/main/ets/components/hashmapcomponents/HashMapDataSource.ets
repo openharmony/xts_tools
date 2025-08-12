@@ -14,10 +14,10 @@
 * limitations under the License.
 */
 
-import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSource';
+import { BaseDataSource } from 'common';
 import { KeyValuePair } from '../../model/KeyValuePair';
 
-export class HashMapDataSource extends BaseDataSource {
+export class HashMapDataSource extends BaseDataSource<KeyValuePair> {
   public dataArr: KeyValuePair[] = [];
 
   public totalCount(): number {
@@ -30,13 +30,13 @@ export class HashMapDataSource extends BaseDataSource {
 
   public addData(item: KeyValuePair): void {
     this.dataArr.push(item);
-    this.notifyDataAdd(this.dataArr.length - 1);
+    this.notifyDataAdd(this.dataArr.length - 1.0);
     this.notifyDataReload();
   }
 
   public deleteData(item: KeyValuePair, index: number): void {
     this.notifyDataDelete(index);
-    this.dataArr.splice(index, 1);
+    this.dataArr.splice(index, 1.0);
     this.notifyDataReload();
   }
 }

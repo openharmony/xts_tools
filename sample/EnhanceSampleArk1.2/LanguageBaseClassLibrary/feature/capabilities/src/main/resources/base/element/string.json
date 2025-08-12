@@ -49,6 +49,10 @@
       "value": "close success"
     },
     {
+      "name": "process",
+      "value": "process"
+    },
+    {
       "name": "child_null",
       "value": "child process is null"
     },

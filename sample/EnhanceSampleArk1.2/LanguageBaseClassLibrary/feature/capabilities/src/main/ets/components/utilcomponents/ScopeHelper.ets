@@ -15,16 +15,16 @@
  */
 
 import {
-  Preview,
+  // Preview,
   Component,
   State,
   Scroll,
   Column,
   Text,
-  $r,
   Color,
   TextAlign,
   Row,
+  RowOptions,
   TextInput,
   InputType,
   FontStyle,
@@ -35,8 +35,10 @@ import {
   BarState,
   Alignment,
   ResourceStr,
-  getUIContext,
-  AlertDialog,
+  ColumnOptions,
+  $r,
+  AlertDialogParamWithConfirm,
+  ButtonOptions
 } from '@kit.ArkUI';
 
 import util from '@ohos.util';
@@ -44,69 +46,69 @@ import { ScopeNumber } from '../../model/ScopeNumber';
 import { TempView } from './scopehelper/TempView';
 import { SleepView } from './scopehelper/SleepView';
 
-const AGE_MIN: int = 16;
-const AGE_MAX: int = 62;
+const AGE_MIN: number = 16.0;
+const AGE_MAX: number = 62.0;
 
-@Preview
+// @Preview
 @Component
 export struct ScopeHelper {
-  @State age: number = 0;
-  @State tempMorning: number = 0;
-  @State tempNoon: number = 1;
-  @State tempNight: number = 2;
-  @State shortTime: number = 0;
-  @State longTime: number = 0;
+  @State age: number = 0.0;
+  @State tempMorning: number = 0.0;
+  @State tempNoon: number = 1.0;
+  @State tempNight: number = 2.0;
+  @State shortTime: number = 0.0;
+  @State longTime: number = 0.0;
 
   build() {
     Scroll() {
-      Column({ space: 12 }) {
+      Column({ space: 12.0 } as ColumnOptions) {
         Text($r('app.string.judge_age'))
-          .fontSize(20)
+          .fontSize(20.0)
           .fontColor(Color.White)
           .backgroundColor(Color.Gray)
           .textAlign(TextAlign.Start)
-        Row({ space: 5 }) {
+        Row({ space: 5.0 } as RowOptions) {
           TextInput({ placeholder: $r('app.string.age_placeholder') })
             .key('inputAge')
             .height('100%')
-            .layoutWeight(6)
+            .layoutWeight(6.0)
             .type(InputType.Number)
-            .fontSize(24)
+            .fontSize(24.0)
             .fontStyle(FontStyle.Italic)
-            .maxLength(20)
+            .maxLength(20.0)
             .fontWeight(FontWeight.Bold)
-            .placeholderFont({ size: 24, weight: FontWeight.Normal })
+            .placeholderFont({ size: 24.0, weight: FontWeight.Normal })
             .enterKeyType(EnterKeyType.Go)
             .onChange((value: string) => {
               this.age = Number(value);
             })
 
-          Button() {
+          Button({} as ButtonOptions) {
             Text($r('app.string.age_analyse'))
               .fontColor(Color.White)
-              .fontSize(16)
+              .fontSize(16.0)
           }
           .key('ageAnalysis')
-          .layoutWeight(4)
-          .height(40)
+          .layoutWeight(4.0)
+          .height(40.0)
           .type(ButtonType.Capsule)
           .onClick(() => {
             this.ageRange();
           })
         }
-        .height(50)
+        .height(50.0)
         TempView()
         SleepView()
       }
       .width('100%')
-      .padding(16)
+      .padding(16.0)
     }
     .scrollBar(BarState.Off)
     .align(Alignment.Start)
   }
 
   dialog(title: ResourceStr, message: ResourceStr, value: ResourceStr) {
-    getUIContext().showAlertDialog(
+    this.getUIContext().showAlertDialog(
       {
         title: title,
         message: message,
@@ -115,14 +117,14 @@ export struct ScopeHelper {
           action: () => {
           }
         },
-      }
+      } as AlertDialogParamWithConfirm
     );
   }
 
   ageRange() {
     let tempLower = new ScopeNumber(AGE_MIN);
     let tempUpper = new ScopeNumber(AGE_MAX);
-    let range = new util.Scope(tempLower, tempUpper);
+    let range = new util.ScopeHelper<ScopeNumber>(tempLower, tempUpper);
     let ageTemp = new ScopeNumber(this.age);
     if (range.contains(ageTemp)) {
       this.dialog($r('app.string.age'), $r('app.string.age_message_confirm'), $r('app.string.determine'));

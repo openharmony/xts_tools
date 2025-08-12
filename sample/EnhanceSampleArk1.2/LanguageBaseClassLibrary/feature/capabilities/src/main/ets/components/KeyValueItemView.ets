@@ -22,9 +22,12 @@ import {
   Row,
   Column,
   Text,
-  $r,
   HorizontalAlign,
   VerticalAlign,
+  Margin,
+  Padding,
+  $r,
+  Link
 } from '@kit.ArkUI';
 
 import { KeyValuePair } from '../model/KeyValuePair';
@@ -32,37 +35,42 @@ import { DeleteView } from './DeleteView';
 
 @Component
 export struct KeyValueItemView {
-  @ObjectLink keyValuePair: KeyValuePair;
+  @ObjectLink keyValuePair: KeyValuePair = new KeyValuePair('', '');
   @State deleteEnabled: boolean = true;
-  private deleteAction: (event?: ClickEvent) => void = () => {
-  };
-  private index: number = 0;
+  private deleteAction: (event?: ClickEvent) => void = () => {};
+  private index: number = 0.0;
 
   build() {
     Row() {
       Column() {
         Text(`Key: ${this.keyValuePair.key}`)
           .fontColor($r('app.color.text_color_primary'))
-          .fontSize(16)
+          .fontSize(16.0)
         Text(`Value: ${this.keyValuePair.value}`)
           .fontColor($r('app.color.text_color_second'))
-          .fontSize(14)
+          .fontSize(14.0)
       }
       .height('100%')
-      .layoutWeight(1)
-      .padding({ left: 16, right: 16, top: 12, bottom: 12 })
-      .borderRadius(16)
+      .layoutWeight(1.0)
+      .padding({
+        left: 16.0,
+        right: 16.0,
+        top: 12.0,
+        bottom: 12.0
+      } as Padding)
+      .borderRadius(16.0)
       .backgroundColor($r('app.color.bg_white'))
       .alignItems(HorizontalAlign.Start)
 
-      DeleteView({ enable: this.deleteEnabled })
-        .id(`delete${this.index}`)
-        .margin({ left: 12 })
-        .enabled(this.deleteEnabled)
-        .onClick(this.deleteAction)
+      DeleteView({
+        enable: this.deleteEnabled,
+        id: `delete${this.index}`,
+        enabled: this.deleteEnabled,
+        onClick: this.deleteAction
+      })
     }
     .width('100%')
-    .height(64)
+    .height(64.0)
     .alignItems(VerticalAlign.Center)
   }
 }

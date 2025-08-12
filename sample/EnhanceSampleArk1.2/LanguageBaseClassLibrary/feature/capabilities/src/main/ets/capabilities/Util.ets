@@ -18,19 +18,25 @@ import {
   Component,
   StorageLink,
   Builder,
-  $r,
   Column,
   Divider,
+  $r,
+  Padding,
+  Margin,
+  ClickEvent,
+  NavDestination,
+  Row,
+  Text,
+  FlexAlign,
+  FontWeight
 } from '@kit.ArkUI';
-
-import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
-import { LRUCache } from '../components/utilcomponents/LRUCache';
-import { Base64Helper } from '../components/utilcomponents/Base64Helper';
-import { MenuList } from '@ohos/menuitems';
+import { getString } from 'common';
+import { LRUCache } from '../components/utilcomponents/LRUCache.ets';
+import { Base64Helper } from '../components/utilcomponents/Base64Helper.ets';
 import { RationalNumber } from '../components/utilcomponents/RationalNumber';
-import { ScopeHelper } from '../components/utilcomponents/ScopeHelper';
-import { StringCode } from '../components/utilcomponents/StringCode';
-import { TypeCheck } from '../components/utilcomponents/TypeCheck';
+import { ScopeHelper } from '../components/utilcomponents/ScopeHelper.ets';
+import { StringCode } from '../components/utilcomponents/StringCode.ets';
+import { TypeCheck } from '../components/utilcomponents/TypeCheck.ets';
 
 @Component
 export struct Util {
@@ -38,37 +44,59 @@ export struct Util {
 
   @Builder
   UtilCapabilities() {
-    if (this.selectedSecondLabel === getString($r('app.string.lru_cache'))) {
+    const uIContext = this.getUIContext()
+    if (this.selectedSecondLabel === getString($r('app.string.lru_cache'), uIContext)) {
       LRUCache()
     }
-    if (this.selectedSecondLabel === getString($r('app.string.base64'))) {
+    if (this.selectedSecondLabel === getString($r('app.string.base64'), uIContext)) {
       Base64Helper()
     }
-    if (this.selectedSecondLabel === getString($r('app.string.string_code'))) {
+    if (this.selectedSecondLabel === getString($r('app.string.string_code'), uIContext)) {
       StringCode()
     }
-    if (this.selectedSecondLabel === getString($r('app.string.rational_number'))) {
+    if (this.selectedSecondLabel === getString($r('app.string.rational_number'), uIContext)) {
       RationalNumber()
     }
-    if (this.selectedSecondLabel === getString($r('app.string.type_check'))) {
+    if (this.selectedSecondLabel === getString($r('app.string.type_check'), uIContext)) {
       TypeCheck()
     }
-    if (this.selectedSecondLabel === getString($r('app.string.scope_helper'))) {
+    if (this.selectedSecondLabel === getString($r('app.string.scope_helper'), uIContext)) {
       ScopeHelper()
     }
   }
 
   build() {
-    Column() {
-      MenuList({ menuList: $r('app.strarray.util_menu') }) {
-        Column() {
-          Divider()
-            .strokeWidth('1px')
-            .color($r('sys.color.ohos_id_color_list_separator'))
-          this.UtilCapabilities()
-        }
+    NavDestination() {
+      Divider()
+        .strokeWidth('1px')
+        .color($r('sys.color.ohos_id_color_list_separator'))
+
+      Column() {
+        this.UtilCapabilities()
       }
+      .height('100%')
+      .padding({ left: 12.0, right: 12.0 }as Padding)
+      .backgroundColor($r('sys.color.ohos_id_color_sub_background'))
     }
-    .margin({ left: -12, right: -12 })
+    .title(() => {
+      this.CustomTitle(this.selectedSecondLabel)
+    }, {backgroundColor: $r("sys.color.ohos_id_color_sub_background")})
+    .width('100%')
+    .height('100%')
+    .backgroundColor($r('sys.color.ohos_id_color_sub_background'))
+  }
+
+  @Builder
+  CustomTitle(title: string) {
+    Row() {
+      Text(title)
+        .fontColor($r('app.color.black'))
+        .fontSize(16.0)
+        .fontWeight(FontWeight.Bold)
+    }
+    .width('85%')
+    .height(56.0)
+    .justifyContent(FlexAlign.SpaceBetween)
+    .backgroundColor($r("sys.color.ohos_id_color_sub_background"))
   }
 }

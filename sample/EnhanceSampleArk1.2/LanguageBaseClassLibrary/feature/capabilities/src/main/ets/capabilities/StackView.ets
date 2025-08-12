@@ -21,17 +21,18 @@ import {
   List,
   LazyForEach,
   ListItem,
-  $r,
+  Margin,
+  $r
 } from '@kit.ArkUI';
 
 import emitter from '@ohos.events.emitter';
-import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
+import { EmptyPage } from 'common';
 import { Information } from '../model/Information';
 import { StackDataSource } from '../components/stackcomponents/StackDataSource';
 import { InformationItemView } from '../components/InformationItemView';
 import { Constant } from '../Constant';
 
-const MIN_LENGTH = 0;
+const MIN_LENGTH: number = 0.0;
 
 @Component
 export struct StackView {
@@ -39,14 +40,14 @@ export struct StackView {
   @State totalCount: number = MIN_LENGTH;
 
   aboutToAppear() {
-    emitter.on({ eventId: Constant.EMITTER_ID_STACK }, (eventData) => {
-      this.dataSource.addData(eventData.data as Information);
+    emitter.on({ eventId: Constant.EMITTER_ID_STACK } as emitter.InnerEvent, (eventData: emitter.EventData) => {
+      this.dataSource.addData((eventData.data as Record<string, object>)['value'] as Information);
       this.totalCount = this.dataSource.totalCount();
     });
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_STACK.toLong());
+    emitter.off(Constant.EMITTER_ID_STACK);
   }
 
   build() {
@@ -64,13 +65,13 @@ export struct StackView {
                 }
               })
             }
-            .height(72)
+            .height(72.0)
             .width('100%')
-            .margin({ bottom: 20 })
+            .margin({ bottom: 20.0 } as Margin)
           }, (item: Information, index: number) => JSON.stringify(item) + index)
         }
         .width('100%')
-        .layoutWeight(1)
+        .layoutWeight(1.0)
 
       } else {
         EmptyPage()

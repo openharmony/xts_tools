@@ -17,11 +17,11 @@
 import {
   Component,
   Resource,
-  $r,
   Link,
   Row,
   Text,
   TextAlign,
+  $r,
 } from '@kit.ArkUI';
 
 @Component
@@ -32,15 +32,15 @@ export struct SpecInput {
   build() {
     Row() {
       Text(this.result_str)
-        .height(30)
-        .fontSize(15)
+        .height(30.0)
+        .fontSize(15.0)
         .textAlign(TextAlign.Start)
       Text(this.specStrInput)
-        .height(30)
-        .layoutWeight(1)
-        .fontSize(15)
+        .height(30.0)
+        .layoutWeight(1.0)
+        .fontSize(15.0)
         .textAlign(TextAlign.Start)
-        .border({ width: 2, radius: 5, color: "#0D9FFB" })
+        .border({ width: 2.0, radius: 5.0, color: "#0D9FFB" })
     }
     .width('100%')
   }

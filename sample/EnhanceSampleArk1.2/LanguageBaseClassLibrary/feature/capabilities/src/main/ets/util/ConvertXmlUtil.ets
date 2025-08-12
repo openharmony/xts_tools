@@ -16,12 +16,12 @@
 
 import ConvertXML from '@ohos.convertxml';
 import xml from '@ohos.xml';
-import { logger } from '@ohos/common/src/main/ets/util/Logger';
+import { logger } from 'common';
 
 const TAG: string = 'ConvertXmlUtil';
 
 export function serializerNode(): string {
-  let arrayBuffer = new ArrayBuffer(1024);
+  let arrayBuffer = new ArrayBuffer(1024.0);
   let serializer = new xml.XmlSerializer(arrayBuffer);
   serializer.setDeclaration();
   serializer.setNamespace('h', 'https://gitee.com/openharmony');
@@ -35,22 +35,22 @@ export function serializerNode(): string {
   serializer.endElement();
   let array = new Uint8Array(arrayBuffer);
   let serializerStr = '';
-  for (let i: int = 0; i < array.length; ++i) {
-    serializerStr = serializerStr + String.fromCodePoint(array[i]);
+  for (let i: number = 0.0; i < array.length; ++i) {
+    serializerStr = serializerStr + String.fromCodePoint(array[i as int]);
   }
   return serializerStr;
 }
 
 export function parserNode(input: string): string {
-  let arrayBuffer = new ArrayBuffer(input.length * 2);
+  let arrayBuffer = new ArrayBuffer(input.length * 2.0);
   let bufView = new Uint8Array(arrayBuffer);
-  let strLen = input.length;
-  for (let k: int = 0; k < strLen; ++k) {
-    bufView[k] = input.charCodeAt(k);
+  let strLen: number = input.length;
+  for (let k: number = 0.0; k < strLen; ++k) {
+    bufView[k as int] = input.charCodeAt(k);
   }
   let parser = new xml.XmlPullParser(arrayBuffer);
   let arr: Record<number, string> = {};
-  let i: int = 0;
+  let i: number = 0.0;
 
   let func = (key: xml.EventType, info: xml.ParseInfo) => {
     arr[i] = `key:${key}, value:${info.getDepth()} ${info.getColumnNumber()} ` +
@@ -61,9 +61,9 @@ export function parserNode(input: string): string {
   }
 
   let options: xml.ParseOptions = { supportDoctype: true, ignoreNameSpace: true, tokenValueCallbackFunction: func };
-  parser.parse(options);
+  parser.parseXml(options);
   let str = '';
-  for (let j: int = 0; j < i; ++j) {
+  for (let j: number = 0.0; j < i; ++j) {
     str = str + arr[j];
   }
   return str;
@@ -90,4 +90,5 @@ export function convertNode(input: string): string {
   let result = JSON.stringify(conv.convertToJSObject(input, options));
   logger.info(TAG, `convertNode conv.convert result = ${result}`);
   return JSON.stringify(result);
+  return ''
 }

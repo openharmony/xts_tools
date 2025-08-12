@@ -21,9 +21,10 @@ import {
   Column,
   Text,
   Color,
-  $r,
   BarState,
   Alignment,
+  Margin,
+  $r,
 } from '@kit.ArkUI';
 
 import { ColumnOperation } from '../components/ColumnOperation';
@@ -46,21 +47,21 @@ export struct ConvertXml {
         Text(this.output)
           .width('90%')
           .height('60%')
-          .fontSize(15)
-          .padding(10)
-          .margin({ left: 10, right: 10, top: 20, bottom: 10 })
-          .border({ width: 2, radius: 5, color: Color.Gray })
+          .fontSize(15.0)
+          .padding(10.0)
+          .margin({ left: 10.0, right: 10.0, top: 20.0, bottom: 10.0 } as Margin)
+          .border({ width: 2.0, radius: 5.0, color: Color.Gray })
         ColumnOperation({ operationRes: $r('app.strarray.convert_xml_operations'), doOperation: this.doOperation })
       }
       .width('100%')
-      .padding(16)
+      .padding(16.0)
     }
     .scrollBar(BarState.Off)
     .align(Alignment.Start)
   }
 
-  doOperation = (index: number) => {
-    switch (index) {
+  doOperation (index: number)  {
+    switch (index as int) {
       case 0:
         this.output = serializerNode();
         break;

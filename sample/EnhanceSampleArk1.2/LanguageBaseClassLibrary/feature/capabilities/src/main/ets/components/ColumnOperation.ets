@@ -26,32 +26,37 @@ import {
   Color,
   ButtonType,
   FlexAlign,
+  Padding,
+  Margin,
+  ClickEvent,
+  UIContext,
+  ButtonOptions
 } from '@kit.ArkUI';
 
-import { getStringArray } from '@ohos/common/src/main/ets/util/ResourceUtil';
+import { getStringArray } from 'common';
 
 @Component
 export struct ColumnOperation {
   private operationRes: Resource | undefined = undefined;
-  @State operationSource: string[] = [];
-  private doOperation: (index: number) => void = () => {
+  @State operationSource: string[] = [''];
+  private doOperation: (index: number) => void = (index: number) => {
   };
 
   build() {
     Column() {
       ForEach(this.operationSource, (item: string, index: number) => {
         Row() {
-          Button() {
+          Button({} as ButtonOptions) {
             Text(item)
-              .fontSize(16)
+              .fontSize(16.0)
               .fontColor(Color.White)
           }
           .id(`item${index}`)
           .width('100%')
-          .height(50)
+          .height(50.0)
           .type(ButtonType.Capsule)
-          .margin({ right: 15, top: 15 })
-          .onClick(() => {
+          .margin({ right: 15.0, top: 15.0 } as Margin)
+          .onClick((e: ClickEvent) => {
             this.doOperation(index);
           })
         }
@@ -60,12 +65,12 @@ export struct ColumnOperation {
       }, (index: string) => index)
     }
     .width('100%')
-    .padding({ bottom: 15 })
+    .padding({ bottom: 15.0 } as Padding)
   }
 
-  async aboutToAppear() {
+  aboutToAppear() {
     if (this.operationRes) {
-      let menuList = await getStringArray(this.operationRes);
+      let menuList = getStringArray(this.operationRes as Resource, this.getUIContext());
       this.operationSource = menuList;
     }
   }

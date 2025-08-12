@@ -16,50 +16,72 @@
 
 import {
   Component,
-  State,
-  BuilderParam,
+  // BuilderParam,
   Resource,
   List,
   ListItem,
-  $r,
   BarState,
+  Padding,
+  Margin,
+  $r,
+  Column,
+  ForEach,
+  Builder,
+  Divider
 } from '@kit.ArkUI';
-
-import { getStringArray } from '@ohos/common/src/main/ets/util/ResourceUtil';
-import { MenuNavRouter } from '../components/MenuNavRouter';
+import { getStringArray } from 'common';
+import { MainItem } from '../components/MainItem';
+import { ItemGroup } from '../components/ItemGroup';
+// import { MenuNavRouter } from '../components/MenuNavRouter';
 
 @Component
 export struct MenuList {
-  @State menuListData: Array<string> = [];
-  @BuilderParam childNavDestination: () => void;
+  // @BuilderParam childNavDestination: () => void = ()=>{};
+  private menuListData: Array<string> = [''];
   private menuList: Resource | undefined = undefined;
-  private addAction?: (title: string) => void;
+  // private addAction?: (title: string) => void;
+  private isSecond: boolean = false;
+
+  aboutToAppear() {
+    if (this.menuList) {
+      this.menuListData = getStringArray(this.menuList as Resource, this.getUIContext());
+    }
+  }
 
   build() {
-    List({ space: 12 }) {
+    List({ space: 12.0 }) {
       ListItem() {
         if (this.menuListData.length > 0) {
-          MenuNavRouter({ childList: this.menuListData, addAction: this.addAction }) {
-            this.childNavDestination()
+          // MenuNavRouter({
+          //   childList: this.menuListData,
+          //   addAction: this.addAction,
+          //   navDestination: this.childNavDestination
+          // })
+          ItemGroup() {
+            Column() {
+              ForEach(this.menuListData, (item: string, index: number) => {
+                if (index > 0.0) {
+                  this.CustomDivider()
+                }
+                MainItem({ title: item, isSecond: this.isSecond })
+              }, (item: string) => JSON.stringify(item))
+            }
           }
         }
       }
     }
     .id('menu_list')
     .width('100%')
-    .padding({ left: 12, right: 12 })
-    .margin({ top: 12 })
+    .height('100%')
+    .padding({ left: 12.0, right: 12.0, top: 12.0, bottom: 12.0 } as Padding)
     .backgroundColor($r('sys.color.ohos_id_color_sub_background'))
     .scrollBar(BarState.Off)
   }
 
-  aboutToAppear() {
-    this.getData();
-  }
-
-  getData = async () => {
-    if (this.menuList) {
-      this.menuListData = await getStringArray(this.menuList);
-    }
+  @Builder CustomDivider() {
+    Divider()
+      .strokeWidth('1px')
+      .color($r('sys.color.ohos_id_color_list_separator'))
+      .margin({ left: 8.0, right: 8.0 }as Margin)
   }
 }

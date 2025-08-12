@@ -17,23 +17,26 @@
 import {
   Component,
   State,
-  getUIContext,
-  $r,
   Column,
   List,
   LazyForEach,
   ListItem,
+  $r,
+  Padding,
+  Margin,
+  ClickEvent,
+  Observed,
 } from '@kit.ArkUI';
 
 import emitter from '@ohos.events.emitter';
 import promptAction from '@ohos.promptAction';
-import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
+import { EmptyPage } from 'common';
 import { KeyValuePair } from '../model/KeyValuePair';
 import { PlainArrayDataSource } from '../components/plainarraycomponents/PlainArrayDataSource';
 import { KeyValueItemView } from '../components/KeyValueItemView';
 import { Constant } from '../Constant';
 
-const MIN_LENGTH: int = 0;
+const MIN_LENGTH: number = 0.0;
 const isNaturalNumber = (str: string): boolean => {
   let regExp: RegExp = new RegExp('^\\d+$');
   return regExp.test(str);
@@ -41,23 +44,23 @@ const isNaturalNumber = (str: string): boolean => {
 
 @Component
 export struct PlainArrayView {
-  private dataSource: PlainArrayDataSource = new PlainArrayDataSource();
+  @Observed dataSource: PlainArrayDataSource = new PlainArrayDataSource();
   @State totalCount: number = MIN_LENGTH;
 
   aboutToAppear() {
-    emitter.on({ eventId: Constant.EMITTER_ID_PLAIN_ARRAY }, (eventData) => {
-      let data = eventData.data as KeyValuePair;
+    emitter.on({ eventId: Constant.EMITTER_ID_PLAIN_ARRAY } as emitter.InnerEvent, (eventData: emitter.EventData) => {
+      let data = (eventData.data as Record<string, object>)['value'] as KeyValuePair;
       if (isNaturalNumber(data.key)) {
-        this.dataSource.addData(eventData.data as KeyValuePair);
+        this.dataSource.addData(data);
         this.totalCount = this.dataSource.totalCount();
       } else {
-        getUIContext().getPromptAction.showToast({ message: $r('app.string.key_limit') });
+        this.getUIContext().getPromptAction().showToast({ message: $r('app.string.key_limit') });
       }
     });
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_PLAIN_ARRAY.toLong());
+    emitter.off(Constant.EMITTER_ID_PLAIN_ARRAY);
   }
 
   build() {
@@ -67,17 +70,17 @@ export struct PlainArrayView {
           LazyForEach(this.dataSource, (item: KeyValuePair, index: number) => {
             ListItem() {
               KeyValueItemView({ index: index, keyValuePair: item, deleteAction: () => {
-                this.dataSource.deleteData(index);
+                this.dataSource.deleteData(index as int);
                 this.totalCount = this.dataSource.totalCount();
               } })
             }
-            .height(72)
+            .height(72.0)
             .width('100%')
-            .margin({ bottom: 20 })
+            .margin({ bottom: 20.0 } as Margin)
           }, (item: KeyValuePair, index: number) => JSON.stringify(item) + index)
         }
         .width('100%')
-        .layoutWeight(1)
+        .layoutWeight(1.0)
 
       } else {
         EmptyPage()

@@ -17,9 +17,9 @@
 import hilog from '@ohos.hilog';
 
 class Logger {
-  private domain: number;
+  private domain: int;
   private prefix: string;
-  private format: string = '%{public}s, %{public}s';
+  private format: string = '%{public}s';
 
   constructor(prefix: string) {
     this.prefix = prefix;
@@ -27,19 +27,19 @@ class Logger {
   }
 
   debug(...args: string[]): void {
-    hilog.debug(this.domain, this.prefix, this.format, args);
+    hilog.debug(this.domain, this.prefix, this.format, args.join(' '));
   }
 
   info(...args: string[]): void {
-    hilog.info(this.domain, this.prefix, this.format, args);
+    hilog.info(this.domain, this.prefix, this.format, args.join(' '));
   }
 
   warn(...args: string[]): void {
-    hilog.warn(this.domain, this.prefix, this.format, args);
+    hilog.warn(this.domain, this.prefix, this.format, args.join(' '));
   }
 
   error(...args: string[]): void {
-    hilog.error(this.domain, this.prefix, this.format, args);
+    hilog.error(this.domain, this.prefix, this.format, args.join(' '));
   }
 }
 

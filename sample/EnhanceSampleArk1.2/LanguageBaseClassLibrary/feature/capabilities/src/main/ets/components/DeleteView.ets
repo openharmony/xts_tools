@@ -16,26 +16,37 @@
 
 import {
   Component,
+  State,
   Row,
   Image,
-  $r,
   FlexAlign,
   VerticalAlign,
+  $r,
+  Margin,
+  ClickEvent,
+  Link
 } from '@kit.ArkUI';
 
 @Component
 export struct DeleteView {
   private enable: boolean = false;
+  private id: string = '';
+  private enabled: boolean = true;
+  private onClick?: (event?: ClickEvent) => void;
 
   build() {
     Row() {
       Image($r('app.media.ic_delete_plane'))
-        .width(24)
-        .aspectRatio(1)
+        .width(24.0)
+        .aspectRatio(1.0)
     }
-    .width(40)
-    .aspectRatio(1)
-    .borderRadius(20)
+    .id(this.id)
+    .enabled(this.enabled)
+    .onClick(this.onClick)
+    .margin({ left: 12.0 } as Margin)
+    .width(40.0)
+    .aspectRatio(1.0)
+    .borderRadius(20.0)
     .justifyContent(FlexAlign.Center)
     .alignItems(VerticalAlign.Center)
     .backgroundColor($r('app.color.bg_btn_red'))

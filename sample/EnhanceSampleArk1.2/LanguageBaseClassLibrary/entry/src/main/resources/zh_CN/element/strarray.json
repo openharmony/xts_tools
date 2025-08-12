@@ -3,7 +3,6 @@
     {
       "name": "language_base_class_library_list",
       "value": [
-
         {
           "value": "Xml & ConvertXml (XML解析,生成与转换)"
         },
@@ -57,9 +56,6 @@
         },
         {
           "value": "TreeSet (非线性容器TreeSet)"
-        },
-        {
-          "value": "Vector (线性容器Vector)"
         }
       ]
     }

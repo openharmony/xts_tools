@@ -15,7 +15,7 @@
  */
 
 import {
-  Preview,
+  // Preview,
   Component,
   State,
   CustomDialogController,
@@ -25,27 +25,30 @@ import {
   Blank,
   Button,
   Image,
-  $r,
   ImageFit,
   Alignment,
   ButtonType,
   List,
   ForEach,
   ListItem,
+  $r,
+  Padding,
+  Margin,
+  ClickEvent,
+  ButtonOptions
 } from '@kit.ArkUI';
-
 import ArrayList from '@ohos.util.ArrayList';
 import { AddDialog } from '../components/arraylistcomponents/AddDialog';
 import { ArrayListItem } from '../components/arraylistcomponents/ArrayListItem';
 import { Information } from '../model/Information';
-import { logger } from '@ohos/common/src/main/ets/util/Logger';
+import { logger } from 'common';
 
 const TAG: string = 'ArrayListView';
 
-@Preview
+// @Preview
 @Component
 export struct ArrayListView {
-  @State dataSource: Information[] = [];
+  @State dataSource: Array<Information> = new Array<Information>();
   private informations: ArrayList<Information> = new ArrayList<Information>();
   private dialogController: CustomDialogController = new CustomDialogController({
     builder: AddDialog({
@@ -63,40 +66,41 @@ export struct ArrayListView {
     Column() {
       Row() {
         Blank()
-        Button() {
+
+        Button({} as ButtonOptions) {
           Image($r('app.media.ic_add'))
-            .height(35)
+            .height(35.0)
             .width('100%')
             .objectFit(ImageFit.Contain)
             .align(Alignment.End)
         }
         .key('addBtn')
-        .width(35)
+        .width(35.0)
         .type(ButtonType.Normal)
         .backgroundColor($r("app.color.button_bg"))
         .align(Alignment.End)
-        .onClick(() => {
+        .onClick((event: ClickEvent) => {
           this.dialogController.open();
           logger.info(TAG, `enter the AddDialog`);
         })
       }
       .width('100%')
 
-      List({ space: 12 }) {
+      List({ space: 12.0 }) {
         ForEach(this.dataSource, (item: Information, index: number) => {
           ListItem() {
             ArrayListItem({ information: item, index: index, handleOnClick: this.handleOnClick })
           }
         }, (item: Information, index: number) => JSON.stringify(item) + index)
       }
-      .margin({ top: 10 })
+      .margin({ top: 10.0 } as Margin)
     }
     .width('100%')
     .height('100%')
   }
 
-  handleOnClick = (index: int) => {
-    this.informations.removeByIndex(index);
+  handleOnClick(index: number) {
+    this.informations.removeByIndex(index as int);
     this.dataSource = this.informations.convertToArray();
   }
 }

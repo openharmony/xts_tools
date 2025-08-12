@@ -21,20 +21,21 @@ import {
   Row,
   Column,
   Text,
-  $r,
   Blank,
+  $r,
+  Padding,
+  Margin,
 } from '@kit.ArkUI';
 
 import { Information } from '../model/Information';
 import { DeleteView } from './DeleteView';
-import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
+import { getString } from 'common';
 
 @Component
 export struct InformationItemView {
   @ObjectLink information: Information;
-  private deleteAction: (event?: ClickEvent) => void = () => {
-  };
-  private index: number = 0;
+  private deleteAction: (event?: ClickEvent) => void = () => {};
+  private index: number = 0.0;
 
   build() {
     Row() {
@@ -42,32 +43,34 @@ export struct InformationItemView {
         Column() {
           Text(this.information.name)
             .fontColor($r('app.color.text_color_primary'))
-            .fontSize(16)
+            .fontSize(16.0)
           Text(this.information.phone)
             .fontColor($r('app.color.text_color_second'))
-            .fontSize(14)
-            .margin({ top: 5 })
+            .fontSize(14.0)
+            .margin({ top: 5.0 } as Margin)
         }
 
         Blank()
-        Text(`${this.information.age}${getString($r('app.string.old'))}`)
+        Text(`${this.information.age}${getString($r('app.string.old'), this.getUIContext())}`)
           .fontColor($r('app.color.text_color_second'))
-          .fontSize(12)
+          .fontSize(12.0)
       }
-      .height(72)
-      .layoutWeight(1)
-      .padding({ left: 16, right: 15 })
-      .margin({ right: 12 })
+      .height(72.0)
+      .layoutWeight(1.0)
+      .padding({ left: 16.0, right: 15.0 } as Padding)
+      .margin({ right: 12.0 } as Margin)
       .backgroundColor($r('app.color.bg_white'))
-      .borderRadius(16)
+      .borderRadius(16.0)
 
-      DeleteView({ enable: this.information.clickAble })
-        .id(`delete${this.index}`)
-        .enabled(this.information.clickAble)
-        .onClick(this.deleteAction)
+      DeleteView({
+        enable: this.information.clickAble,
+        id: `delete${this.index}`,
+        enabled: this.information.clickAble,
+        onClick: this.deleteAction
+      })
     }
-    .padding({ left: 12 })
+    .padding({ left: 12.0 } as Padding)
     .width('100%')
-    .margin({ top: 12, right: 12 })
+    .margin({ top: 12.0, right: 12.0 } as Margin)
   }
 }

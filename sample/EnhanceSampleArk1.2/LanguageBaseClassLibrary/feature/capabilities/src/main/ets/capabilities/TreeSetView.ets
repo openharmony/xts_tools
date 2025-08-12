@@ -22,16 +22,19 @@ import {
   LazyForEach,
   ListItem,
   $r,
+  Padding,
+  Margin,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 
 import emitter from '@ohos.events.emitter';
-import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
+import { EmptyPage } from 'common';
 import { TreeSetDataSource } from '../components/treesetcomponents/TreeSetDataSource';
 import { ValueItemView } from '../components/ValueItemView';
 import { Constant } from '../Constant';
 
-const MIN_LENGTH = 0;
+const MIN_LENGTH: number = 0.0;
 
 @Component
 export struct TreeSetView {
@@ -39,14 +42,14 @@ export struct TreeSetView {
   @State totalCount: number = MIN_LENGTH;
 
   aboutToAppear() {
-    emitter.on({ eventId: Constant.EMITTER_ID_TREE_SET }, (eventData) => {
-      this.dataSource.addData((eventData.data as Record<string, Object>)['value'] as string);
+    emitter.on({ eventId: Constant.EMITTER_ID_TREE_SET } as emitter.InnerEvent, (eventData: emitter.EventData) => {
+      this.dataSource.addData((eventData.data as Record<string, object>)['value'] as string);
       this.totalCount = this.dataSource.totalCount();
     });
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_TREE_SET.toLong());
+    emitter.off(Constant.EMITTER_ID_TREE_SET);
   }
 
   build() {
@@ -60,13 +63,13 @@ export struct TreeSetView {
                 this.totalCount = this.dataSource.totalCount();
               } })
             }
-            .height(72)
+            .height(72.0)
             .width('100%')
-            .margin({ bottom: 20 })
+            .margin({ bottom: 20.0 } as Margin)
           }, (item: string, index: number) => JSON.stringify(item) + index)
         }
         .width('100%')
-        .layoutWeight(1)
+        .layoutWeight(1.0)
 
       } else {
         EmptyPage()

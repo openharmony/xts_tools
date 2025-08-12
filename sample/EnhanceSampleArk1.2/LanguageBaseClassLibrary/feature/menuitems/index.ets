@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,4 +16,4 @@
 
 export { MenuList } from './src/main/ets/menulist/MenuList';
 
-export { MenuNavRouter } from './src/main/ets/components/MenuNavRouter';
+// export { MenuNavRouter } from './src/main/ets/components/MenuNavRouter';

@@ -1,4 +1,4 @@
-'use static'
+// 'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,30 +14,31 @@
 * limitations under the License.
 */
 
-import Vector from '@ohos.util.Vector';
-import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSource';
-import { Information } from '../../model/Information';
-
-export class VectorDataSource extends BaseDataSource {
-  private dataArr: Vector<Information> = new Vector<Information>();
-
-  public totalCount(): number {
-    return this.dataArr.length;
-  }
-
-  public getData(index: number): Information {
-    return this.dataArr.get(index);
-  }
-
-  public addData(information: Information): void {
-    this.dataArr.add(information);
-    this.notifyDataAdd(this.dataArr.length - 1);
-    this.notifyDataReload();
-  }
-
-  public deleteData(index: number): void {
-    this.dataArr.removeByIndex(index);
-    this.notifyDataDelete(index);
-    this.notifyDataReload();
-  }
-}
+// // import { Vector } from '@kit.ArkTS';
+// // import Vector from '@ohos.util.Vector';
+// import { BaseDataSource } from 'common';
+// import { Information } from '../../model/Information';
+//
+// export class VectorDataSource extends BaseDataSource<Information> {
+//   private dataArr: Vector<Information> = new Vector<Information>();
+//
+//   public totalCount(): number {
+//     return this.dataArr.length;
+//   }
+//
+//   public getData(index: number): Information {
+//     return this.dataArr.get(index);
+//   }
+//
+//   public addData(information: Information): void {
+//     this.dataArr.add(information);
+//     this.notifyDataAdd(this.dataArr.length - 1.0);
+//     this.notifyDataReload();
+//   }
+//
+//   public deleteData(index: int): void {
+//     this.dataArr.removeByIndex(index);
+//     this.notifyDataDelete(index);
+//     this.notifyDataReload();
+//   }
+// }

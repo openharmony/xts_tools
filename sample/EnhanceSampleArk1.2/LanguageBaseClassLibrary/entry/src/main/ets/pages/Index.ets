@@ -14,30 +14,26 @@
  * limitations under the License.
  */
 
-import { StoragePropRef } from '@kit.ArkUI';
-
 import {
   Entry,
   Component,
-  State,
-  getUIContext,
   $r,
   Navigation,
   Divider,
   NavigationMode,
-  Stack,
+  NavPathStack,
   NavigationTitleMode,
   Builder,
   Row,
   Text,
   FontWeight,
+  StoragePropRef,
+  AppStorage,
 } from '@kit.ArkUI';
-
-import router from '@ohos.router';
 import { Capabilities } from './components/Capabilities';
-import { MenuList } from '@ohos/menuitems';
-import { logger } from '@ohos/common/src/main/ets/util/Logger';
-import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
+import { Util } from 'capabilities';
+import { MenuList } from 'menuitems'
+import { getString } from 'common';
 
 const TAG: string = 'Index';
 
@@ -46,57 +42,83 @@ const TAG: string = 'Index';
 struct Index {
   @StoragePropRef('windowWidth') windowWidth: number = 300;
   @StoragePropRef('isSplitMode') isSplitMode: boolean = false;
-  @State title: string = '';
+  private title: string = '';
+  pageStack: NavPathStack = new NavPathStack()
 
   aboutToAppear() {
-    this.title = getUIContext().getHostContext().resourceManager.getStringSync($r('app.string.lable_name').id.toLong());
+    this.title = getString($r('app.string.lable_name'), this.getUIContext())
+    AppStorage.setOrCreate<NavPathStack>('PathStack', this.pageStack);
   }
 
+  // addAction(title: string) {
+  //   logger.info(TAG, `addAction: title = ${title}`)
+  //   const uIContext = this.getUIContext()
+  //   switch (title) {
+  //     case getString($r('app.string.deque'), uIContext):
+  //     case getString($r('app.string.linked_list'), uIContext):
+  //     case getString($r('app.string.list'), uIContext):
+  //     case getString($r('app.string.queue'), uIContext):
+  //     case getString($r('app.string.stack'), uIContext):
+  //     // case getString($r('app.string.vector'), uIContext):
+  //       uIContext.getRouter().pushUrl({
+  //         url: 'pages/AddInformationView',
+  //         params: { 'title': title } as Record<string, string>
+  //       })
+  //       break;
+  //     case getString($r('app.string.plain_array'), uIContext):
+  //     case getString($r('app.string.hash_map'), uIContext):
+  //     case getString($r('app.string.light_weight_map'), uIContext):
+  //     case getString($r('app.string.tree_map'), uIContext):
+  //       uIContext.getRouter().pushUrl({
+  //         url: 'pages/AddKeyValuePairView',
+  //         params: { 'title': title } as Record<string, string>
+  //       })
+  //       break;
+  //     case getString($r('app.string.hash_set'), uIContext):
+  //     case getString($r('app.string.light_weight_set'), uIContext):
+  //     case getString($r('app.string.tree_set'), uIContext):
+  //       uIContext.getRouter().pushUrl({
+  //         url: 'pages/AddStringView',
+  //         params: { 'title': title } as Record<string, string>
+  //       })
+  //       break;
+  //   }
+  // }
+
   build() {
-    Navigation() {
+    Navigation(this.pageStack) {
       Divider()
         .strokeWidth('1px')
         .color($r('sys.color.ohos_id_color_list_separator'))
+
       MenuList({
         menuList: $r('app.strarray.language_base_class_library_list'),
-        addAction: (title: string) => {
-          logger.info(TAG, `addAction: title = ${title}`)
-          switch (title) {
-            case getString($r('app.string.deque')):
-            case getString($r('app.string.linked_list')):
-            case getString($r('app.string.list')):
-            case getString($r('app.string.queue')):
-            case getString($r('app.string.stack')):
-            case getString($r('app.string.vector')):
-              getUIContext().getRouter.pushUrl({ url: 'pages/AddInformationView', params: { 'title': title } })
-              break;
-            case getString($r('app.string.hash_map')):
-            case getString($r('app.string.light_weight_map')):
-            case getString($r('app.string.plain_array')):
-            case getString($r('app.string.tree_map')):
-              getUIContext().getRouter.pushUrl({ url: 'pages/AddKeyValuePairView', params: { 'title': title } })
-              break;
-            case getString($r('app.string.hash_set')):
-            case getString($r('app.string.light_weight_set')):
-            case getString($r('app.string.tree_set')):
-              getUIContext().getRouter.pushUrl({ url: 'pages/AddStringView', params: { 'title': title } })
-              break;
-          }
-        }
-      }) {
-        Capabilities()
-      }
+        // addAction: this.addAction,
+        // childNavDestination: () => {
+        //   Capabilities()
+        // }
+      })
     }
+    .navDestination(this.NavRouter)
     .title(() => {
       this.CustomTitle()
     })
     .mode(this.isSplitMode ? NavigationMode.Split : NavigationMode.Stack)
     .navBarWidth(0.4 * this.windowWidth)
     .titleMode(NavigationTitleMode.Mini)
-    .hideToolBar(true)
+    .hideToolBar(true, false)
     .width('100%')
     .height('100%')
     .backgroundColor($r("sys.color.ohos_id_color_sub_background"))
+  }
+
+  @Builder
+  NavRouter(name: string, param?: Object) {
+    if (name == 'Capabilities') {
+      Capabilities()
+    } else if (name == 'Util') {
+      Util()
+    }
   }
 
   @Builder
