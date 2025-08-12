@@ -18,12 +18,13 @@ import {
   Component,
   State,
   Resource,
-  $r,
   Column,
-  $rawfile,
   Text,
   TextAlign,
   Color,
+  $r,
+  $rawfile,
+  ColumnOptions
 } from '@kit.ArkUI';
 
 import { ColorType } from '../model/ColorType';
@@ -37,12 +38,11 @@ export struct StateFatherComponent {
   // 共同父组件使用@State初始化圆形颜色
   @State circleColor: Resource = $r('app.color.circle_blue');
   // 初始化一个颜色数组
-  @State selectColors: ColorType[] = COLOR_SELECT_DATA;
   // 初始化当前Select的Index为0
-  @State currentSelectIndex: number = 0;
+  @State currentSelectIndex: number = 0.0;
 
   build() {
-    Column({ space: 10 }) {
+    Column({ space: 10.0 }as ColumnOptions) {
       // 点击查看源码
       ViewCodeText({ webSrc: $rawfile('StateFatherComponent.ets.html') })
       Text($r('app.string.parent_titleone'))
@@ -60,7 +60,7 @@ export struct StateFatherComponent {
         circleColor: this.circleColor,
         currentSelectIndex: this.currentSelectIndex
       })
-    }.padding(10)
+    }.padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })
   }
 }

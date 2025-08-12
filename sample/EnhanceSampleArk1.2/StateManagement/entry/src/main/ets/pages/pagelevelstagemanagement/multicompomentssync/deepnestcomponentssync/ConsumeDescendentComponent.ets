@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,55 +15,55 @@
  */
 
 import {
-  getUIContext,
   Component,
   State,
   Consume,
   Resource,
   Column,
-  $rawfile,
   Row,
   Select,
-  $r,
-  Circle,
   FlexAlign,
   Text,
   TextAlign,
   Color,
+  $r,
+  $rawfile,
+  Margin,
+  SelectOption
 } from '@kit.ArkUI';
 
 import common from '@ohos.app.ability.common';
 import { ColorType } from '../model/ColorType';
-import { COLOR_SELECT_DATA } from '../data/ColorData';
+import { COLOR_SELECT_DATA, NEW_COLOR_SELECT_DATA } from '../data/ColorData';
 import { getResourceString } from '../../../../utils/ResourceUtils';
 import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
-
-// 声明一个上下文变量
-const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
+import { Circle, } from '@ohos.arkui.component';
 
 @Component
 export struct ConsumeDescendentComponent {
   // 初始化一个颜色数组数据
   @State selectColors: ColorType[] = COLOR_SELECT_DATA;
+  @State selectValues: SelectOption[] = NEW_COLOR_SELECT_DATA;
   // 和爷组件双向同步圆形颜色
   @Consume consumeCircleColor: Resource;
   // 和爷组件双向同步Select的Index值
   @Consume currentSelectIndex: number;
+  private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
 
   build() {
     Column() {
       // 点击查看源码
       ViewCodeText({ webSrc: $rawfile('ConsumeDescendentComponent.ets.html') })
       Row() {
-        Select(this.selectColors)
+        Select(this.selectValues)
           .selected(this.currentSelectIndex)
-          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex as int].value))
+          .value(this.selectValues[this.currentSelectIndex].value)
           .fontColor($r('app.color.button_text_color'))
           .font({ size: $r('app.float.tips_font_size') })
           .selectedOptionFont({ size: $r('app.float.tips_font_size') })
           .optionFont({ size: $r('app.float.tips_font_size') })
           .id('grandsonCompB')
-          .onSelect((index: number) => {
+          .onSelect((index: number, text?: string | undefined) => {
             // 孙组件@Consume声明的数据页面更新，爷组件@Provide的数据页面同步更新
             this.currentSelectIndex = index;
             this.consumeCircleColor = this.selectColors[index as int].color;
@@ -74,7 +74,7 @@ export struct ConsumeDescendentComponent {
 
       }.justifyContent(FlexAlign.SpaceAround)
       .width('100%')
-      .margin({ bottom: 6 })
+      .margin({ bottom: 6.0 } as Margin)
 
       Text($r('app.string.deepnest_descendent_titletwo'))
         .fontColor($r('app.color.tips_font_color'))
@@ -82,7 +82,7 @@ export struct ConsumeDescendentComponent {
         .width('100%')
         .textAlign(TextAlign.Center)
     }
-    .padding(10)
+    .padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Red, width: $r('app.float.border_width') })
   }
 }

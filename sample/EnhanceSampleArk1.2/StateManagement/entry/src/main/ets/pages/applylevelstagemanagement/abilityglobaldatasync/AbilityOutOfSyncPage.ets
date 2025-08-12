@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -20,15 +20,17 @@ import {
   Component,
   State,
   Resource,
-  $r,
   LocalStorageLink,
   Column,
-  $rawfile,
   Text,
   TextAlign,
   Button,
   ButtonType,
   AppStorage,
+  $r,
+  $rawfile,
+  ColumnOptions,
+  ClickEvent
 } from '@kit.ArkUI';
 
 import { CodeView } from '../../../commoncomponents/CodeView';
@@ -36,9 +38,10 @@ import { ViewCodeText } from '../../../commoncomponents/ViewCodeText';
 import { TitleBarDark } from '../../../commoncomponents/TitleBarDark';
 import { TitleBar } from '../../../commoncomponents/TitleBar';
 
-let storage: LocalStorage = LocalStorage.GetShared();
+let storage: LocalStorage = new LocalStorage();
 
 const __get_local_storage__ = (): LocalStorage => storage;
+
 @Entry({ storage: "__get_local_storage__" })
 @Component
 struct AbilityOutOfSyncPage {
@@ -48,7 +51,7 @@ struct AbilityOutOfSyncPage {
   // 和主页、Page1、Page2不同步夜间模式状态
   @LocalStorageLink('currentModelStatus') currentModelStatus: boolean = true;
   // 和主页、Page1、Page2不同步内容字体大小
-  @LocalStorageLink('contentFontSize') contentFontSize: number = 18;
+  @LocalStorageLink('contentFontSize') contentFontSize: number = 18.0;
 
   build() {
     Column() {
@@ -58,7 +61,7 @@ struct AbilityOutOfSyncPage {
         TitleBar({ title: this.title, isAbility: true })
       }
       CodeView({ title: this.title, isShowTitle: false }) {
-        Column({ space: 30 }) {
+        Column({ space: 30.0 } as ColumnOptions) {
           // 查看源码
           ViewCodeText({ webSrc: $rawfile('AbilityOutOfSyncPage.ets.html') })
           Text($r('app.string.localStorage_both_data_binding'))
@@ -76,7 +79,7 @@ struct AbilityOutOfSyncPage {
             .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.tips_font_color'))
             .width('100%')
             .textAlign(TextAlign.Center)
-          Button() {
+          Button('') {
             Text(this.currentModelStatus ? $r('app.string.close_nightmode') : $r('app.string.start_nightmode'))
               .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.button_text_color'))
               .fontSize(this.contentFontSize)
@@ -87,7 +90,7 @@ struct AbilityOutOfSyncPage {
           .type(ButtonType.Capsule)
           .backgroundColor($r('app.color.button_background_color'))
           .padding($r('app.float.page_padding'))
-          .onClick(() => {
+          .onClick((event: ClickEvent) => {
             // 更新控制夜间模式状态的变量数据，@LocalStorageLink和@LocalStorageProp关联的数据变量刷新
             this.currentModelStatus = !this.currentModelStatus;
           })
@@ -98,10 +101,11 @@ struct AbilityOutOfSyncPage {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(this.currentModelStatus ? $r('app.color.nightnode_color') : $r('app.color.background_shallow_grey'))
+    .backgroundColor(this.currentModelStatus ? $r('app.color.nightnode_color') :
+      $r('app.color.background_shallow_grey'))
   }
 
   aboutToDisappear(): void {
-    AppStorage.SetOrCreate('sideBarShow', false);
+    AppStorage.set('sideBarShow', false);
   }
 }

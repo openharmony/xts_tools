@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -18,8 +18,10 @@ import {
   Component,
   Column,
   Text,
-  $r,
   TextAlign,
+  $r,
+  Margin,
+  Resource
 } from '@kit.ArkUI';
 
 import { ProvideFatherComponent } from './ProvideFatherComponent';
@@ -27,7 +29,6 @@ import { StateFatherComponent } from './StateFatherComponent';
 
 @Component
 export struct BrotherComponentSyncCode {
-
   build() {
     Column() {
       Column() {
@@ -47,7 +48,7 @@ export struct BrotherComponentSyncCode {
         // 共同父组件@Provide
         ProvideFatherComponent()
       }
-      .margin({ top: 10 })
+      .margin({ top: 10.0 } as Margin)
     }
   }
 }

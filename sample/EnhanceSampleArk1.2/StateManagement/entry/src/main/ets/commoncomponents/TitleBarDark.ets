@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,7 +15,6 @@
  */
 
 import {
-  getUIContext,
   Component,
   Link,
   Resource,
@@ -23,40 +22,44 @@ import {
   Row,
   Button,
   Image,
-  $r,
   Text,
   Color,
   Divider,
+  $r,
+  $rawfile,
+  ColumnOptions,
+  ClickEvent,
+  TextAttribute,
+  Margin
 } from '@kit.ArkUI';
 
 import router from '@ohos.router';
 import common from '@ohos.app.ability.common';
 import { startSpecifiedAbility } from '../utils/StartAbilityUtils';
 
-//声明一个上下文信息
-const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
-
 @Component
 export struct TitleBarDark {
   @Link title: Resource;
   private isAbility: boolean = false;
+  private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
 
   build() {
     Column() {
       Row() {
-        Button() {
+        Button('') {
           Image($r('app.media.ic_back_white'))
             .size({ width: $r('app.float.icon_back_size'), height: $r('app.float.icon_back_size') })
         }
         .id('backBtn')
-        .onClick(() => {
-          this.isAbility ? startSpecifiedAbility(CONTEXT, 'EntryAbility') : getUIContext().getRouter.back();
+        .onClick((event: ClickEvent) => {
+            this.isAbility ? startSpecifiedAbility(this.CONTEXT, 'EntryAbility') :
+            this.getUIContext().getRouter().back();
         })
         .backgroundColor($r('app.color.nightnode_color'))
 
         Text(this.title)
           .fontSize($r('app.float.title_font_size'))
-          .margin({ left: $r('app.float.title_margin') })
+          .margin({ left: $r('app.float.title_margin') } as Margin)
           .fontColor(Color.White)
       }
       .width('100%')
@@ -66,7 +69,7 @@ export struct TitleBarDark {
         .width('100%')
         .height($r('app.float.divider_height'))
         .color($r('app.color.divider_color'))
-        .margin({ bottom: 12 })
+        .margin({ bottom: 12.0 } as Margin)
     }
     .width('100%')
   }

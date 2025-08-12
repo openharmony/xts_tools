@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,14 +15,11 @@
  */
 
 import {
-  getUIContext,
   Component,
   StorageLink,
   Column,
-  $rawfile,
   Row,
   Text,
-  $r,
   Toggle,
   ToggleType,
   Color,
@@ -34,26 +31,29 @@ import {
   SliderChangeMode,
   Button,
   ButtonType,
+  ColumnOptions,
+  $r,
+  $rawfile,
+  ClickEvent,
+  Margin
 } from '@kit.ArkUI';
 
 import common from '@ohos.app.ability.common';
 import { ViewCodeText } from '../../../commoncomponents/ViewCodeText';
 import { startSpecifiedAbility } from '../../../utils/StartAbilityUtils';
 
-// 声明一个上下文信息
-const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
-
 @Component
-export default struct ApplyGlobalDataSyncCode {
+export struct ApplyGlobalDataSyncCode {
   // 和Ability1、Ability2页面双向同步内容字体大小
-  @StorageLink('contentFontSize') contentFontSize: number = 18;
+  @StorageLink('contentFontSize') contentFontSize: number = 18.0;
   // 和Ability1、Ability2页面双向同步夜间模式状态
   @StorageLink('currentModelStatus') currentModelStatus: boolean = true;
   // 初始化字体大小最小值
-  private minFontSize: number = 10;
+  private minFontSize: number = 10.0;
+  private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
 
   build() {
-    Column({ space: 10 }) {
+    Column({ space: 10.0 } as ColumnOptions) {
       // 查看源码
       ViewCodeText({ webSrc: $rawfile('ApplyGlobalDataSyncCode.ets.html') })
       Row() {
@@ -68,11 +68,11 @@ export default struct ApplyGlobalDataSyncCode {
           .onChange((isOn: boolean) => {
             // 更新控制夜间模式状态的变量数据，@StorageLink和@StorageLink关联的数据变量刷新
             this.currentModelStatus = isOn;
-            AppStorage.SetOrCreate<boolean>('currentModelStatus', this.currentModelStatus);
+            AppStorage.set<boolean>('currentModelStatus', this.currentModelStatus);
           })
       }.justifyContent(FlexAlign.SpaceAround)
       .width('70%')
-      .border({ radius: 50, color: Color.Grey, width: $r('app.float.border_width') })
+      .border({ radius: 50.0, color: Color.Grey, width: $r('app.float.border_width') })
 
       Text($r('app.string.nightmode_text'))
         .fontSize(this.contentFontSize)
@@ -92,29 +92,29 @@ export default struct ApplyGlobalDataSyncCode {
           Slider({
             value: this.contentFontSize,
             min: this.minFontSize, // 字体大小最小值
-            max: 30, // 字体大小最大值
+            max: 30.0, // 字体大小最大值
             style: SliderStyle.OutSet
           })
             .showTips(true)
             .onChange((value: number, mode: SliderChangeMode) => {
               // 更新控制字体大小状态的变量数据，@StorageLink和@StorageProp关联的数据变量刷新
               this.contentFontSize = value;
-              AppStorage.SetOrCreate<number>('contentFontSize', this.contentFontSize);
+              AppStorage.set<number>('contentFontSize', this.contentFontSize);
             })
           // toFixed(0)将滑动条返回值处理为整数精度
-          Text(this.contentFontSize.toFixed(0))
+          Text(this.contentFontSize.toFixed(0.0))
             .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.tips_font_color'))
             .fontSize($r('app.float.tips_font_size'))
         }
         .width('80%')
-      }.margin({ top: 50 })
+      }.margin({ top: 50.0 } as Margin)
 
       Text($r('app.string.fontSize_singlesync_textone'))
         .fontSize(this.contentFontSize)
         .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.tips_font_color'))
         .width('100%')
         .textAlign(TextAlign.Center)
-      Button() {
+      Button('') {
         Text($r('app.string.enter_abilityone'))
           .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.button_text_color'))
           .fontSize(this.contentFontSize)
@@ -125,11 +125,11 @@ export default struct ApplyGlobalDataSyncCode {
       .type(ButtonType.Capsule)
       .backgroundColor($r('app.color.button_background_color'))
       .padding($r('app.float.page_padding'))
-      .onClick(() => {
-        startSpecifiedAbility(CONTEXT, 'StoragePropAbility');
+      .onClick((event: ClickEvent) => {
+        startSpecifiedAbility(this.CONTEXT, 'StoragePropAbility');
       })
 
-      Button() {
+      Button('') {
         Text($r('app.string.enter_abilitytwo'))
           .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.button_text_color'))
           .fontSize(this.contentFontSize)
@@ -140,8 +140,8 @@ export default struct ApplyGlobalDataSyncCode {
       .type(ButtonType.Capsule)
       .backgroundColor($r('app.color.button_background_color'))
       .padding($r('app.float.page_padding'))
-      .onClick(() => {
-        startSpecifiedAbility(CONTEXT, 'StorageLinkAbility');
+      .onClick((event: ClickEvent) => {
+        startSpecifiedAbility(this.CONTEXT, 'StorageLinkAbility');
       })
     }.padding($r('app.float.page_padding'))
   }

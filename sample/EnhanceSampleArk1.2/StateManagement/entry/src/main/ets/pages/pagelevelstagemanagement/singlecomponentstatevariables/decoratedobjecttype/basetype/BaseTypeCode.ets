@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -18,27 +18,30 @@ import {
   Component,
   State,
   Resource,
-  $r,
   Column,
-  $rawfile,
   Text,
   TextAlign,
   Circle,
   Button,
   ButtonType,
   Color,
+  $r,
+  $rawfile,
+  ColumnOptions,
+  ClickEvent
 } from '@kit.ArkUI';
 
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText'
+import { Circle } from '@ohos.arkui.component';
 
 @Component
 export struct BaseTypeCode {
   @State circleColor: Resource = $r('app.color.circle_pink');
 
   build() {
-    Column({ space: 10 }) {
+    Column({ space: 10.0 } as ColumnOptions) {
       // 点击查看源码
-      ViewCodeText({webSrc: $rawfile('BaseTypeCode.ets.html')})
+      ViewCodeText({ webSrc: $rawfile('BaseTypeCode.ets.html') })
 
       Text($r('app.string.base_type_tip_text'))
         .fontColor($r('app.color.tips_font_color'))
@@ -48,7 +51,7 @@ export struct BaseTypeCode {
       Circle()
         .size({ width: $r('app.float.circle_size'), height: $r('app.float.circle_size') })
         .fill(this.circleColor)
-      Button() {
+      Button('') {
         Text(this.circleColor.id === $r('app.color.circle_pink')
           .id ? $r('app.string.set_to_blue') : $r('app.string.set_to_pink'))
           .fontColor($r('app.color.button_text_color'))
@@ -60,7 +63,7 @@ export struct BaseTypeCode {
       .height($r('app.float.button_height'))
       .type(ButtonType.Capsule)
       .backgroundColor($r('app.color.button_background_color'))
-      .onClick(() => {
+      .onClick((event: ClickEvent) => {
         if (this.circleColor.id === $r('app.color.circle_pink').id) {
           this.circleColor = $r('app.color.circle_blue');
         } else {
@@ -68,7 +71,7 @@ export struct BaseTypeCode {
         }
       })
     }
-    .padding(10)
+    .padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })
   }
 }

@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -19,9 +19,9 @@ import {
   Component,
   State,
   Resource,
-  $r,
   Column,
   AppStorage,
+  $r
 } from '@kit.ArkUI';
 
 import { ArrayTypeCode } from './ArrayTypeCode';
@@ -29,7 +29,7 @@ import { CodeView } from '../../../../../commoncomponents/CodeView'
 
 @Entry
 @Component
-struct ArrayType {
+struct ArrayTypes {
   @State title: Resource = $r('app.string.array_type');
 
   build() {
@@ -45,6 +45,6 @@ struct ArrayType {
   }
 
   aboutToDisappear(): void {
-    AppStorage.SetOrCreate('sideBarShow', false);
+    AppStorage.set('sideBarShow', false);
   }
 }

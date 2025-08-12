@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -18,34 +18,35 @@ import {
   Component,
   StorageLink,
   Resource,
-  $rawfile,
   Column,
   Text,
-  $r,
   ItemAlign,
   AppStorage,
   FlexAlign,
+  $r,
+  $rawfile,
+  ClickEvent
 } from '@kit.ArkUI';
 
 @Component
 export struct ViewCodeText {
   @StorageLink('sideBarShow') sideBarShow: boolean = false;
-  private webSrc: Resource =  $rawfile('BaseTypeCode.ets.html');
+  private webSrc: Resource = $rawfile('BaseTypeCode.ets.html');
 
   build() {
-    Column(){
+    Column() {
       Text($r('app.string.source_code'))
         .fontColor($r('app.color.source_code_font_color'))
         .fontSize($r('app.float.source_code_font_size'))
         .alignSelf(ItemAlign.End)
         .id('viewSourceCode')
-        .onClick(() => {
-          // 点击查看源码
-          AppStorage.SetOrCreate('sideBarShow', !this.sideBarShow);
-          AppStorage.SetOrCreate('webSrc', this.webSrc);
-        })
+        .onClick((event: ClickEvent) => {
+          this.sideBarShow = !this.sideBarShow; // 自动同步（因 @StorageLink）
+          AppStorage.set<boolean>('sideBarShow', this.sideBarShow);
+          AppStorage.set<Resource>('webSrc', this.webSrc);
+        });
     }
     .width('100%')
-    .justifyContent(FlexAlign.End)
+    .justifyContent(FlexAlign.End);
   }
 }

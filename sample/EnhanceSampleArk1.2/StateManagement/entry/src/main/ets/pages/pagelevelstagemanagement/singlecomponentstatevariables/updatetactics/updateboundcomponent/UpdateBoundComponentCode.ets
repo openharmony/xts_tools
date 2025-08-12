@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -18,14 +18,17 @@ import {
   Component,
   State,
   Column,
-  $rawfile,
   Text,
-  $r,
   Row,
   FlexAlign,
   Button,
   ButtonType,
   Color,
+  ColumnOptions,
+  ClickEvent,
+  $r,
+  $rawfile,
+  Margin
 } from '@kit.ArkUI';
 
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
@@ -37,12 +40,12 @@ export struct UpdateBoundComponentCode {
   // 组件内private变量
   private content: string = 'content';
   // 组件内变量更新的次数
-  private updateCount: int = 0;
+  private updateCount: number = 0.0;
 
   build() {
-    Column({ space: 10 }) {
+    Column({ space: 10.0 } as ColumnOptions) {
       // 点击查看源码
-      ViewCodeText({webSrc: $rawfile('UpdateBoundComponentCode.ets.html')})
+      ViewCodeText({ webSrc: $rawfile('UpdateBoundComponentCode.ets.html') })
 
       Column() {
         Text($r('app.string.only_update_state'))
@@ -55,35 +58,35 @@ export struct UpdateBoundComponentCode {
             .fontSize($r('app.float.button_text_size'))
           Text(`${this.titleName}`) // titleName为状态变量，绑定Text组件
             .fontColor($r('app.color.button_text_color'))
-            .fontSize(20)
+            .fontSize(20.0)
         }
         .width('100%')
-        .margin(10)
+        .margin(10.0)
 
         Text($r('app.string.only_update_private'))
           .fontColor($r('app.color.tips_font_color'))
           .fontSize($r('app.float.tips_font_size'))
           .width('100%')
-          .margin({ top: 20 })
+          .margin({ top: 20.0 } as Margin)
         Row() {
           Text($r('app.string.only_update_content'))
             .fontColor($r('app.color.button_text_color'))
             .fontSize($r('app.float.button_text_size'))
           Text(`${this.content}`) // content为private，绑定Text组件
             .fontColor($r('app.color.button_text_color'))
-            .fontSize(20)
+            .fontSize(20.0)
         }
         .width('100%')
-        .margin(10)
+        .margin(10.0)
       }
       .width('100%')
-      .padding(10)
+      .padding(10.0)
       .justifyContent(FlexAlign.SpaceAround)
       .backgroundColor($r('app.color.component_background_pink'))
 
       Column() {
         Button($r('app.string.update_title_content'))
-          .onClick(() => {
+          .onClick((event: ClickEvent) => {
             // 点击更新@State和Private声明的变量，更新策略为：@State和Private的数据发生变化，@State变量绑定的组件更新，Private变量绑定的组件不更新。
             this.updateCount++;
             this.content = `content ${this.updateCount}`;
@@ -99,10 +102,10 @@ export struct UpdateBoundComponentCode {
         Text($r('app.string.only_update_state_components'))
           .fontColor($r('app.color.tips_font_color'))
           .fontSize($r('app.float.button_text_size'))
-          .margin({ top: 30 })
+          .margin({ top: 30.0 } as Margin)
       }.width('100%')
     }
-    .padding(10)
+    .padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })
   }
 }

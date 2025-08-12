@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,32 +15,30 @@
  */
 
 import {
-  getUIContext,
   Component,
   State,
   Resource,
-  $r,
   Column,
-  $rawfile,
   Text,
   TextAlign,
   Row,
   Select,
-  Circle,
   FlexAlign,
   Color,
   Link,
+  $r,
+  $rawfile,
+  ColumnOptions,
+  SelectOption
 } from '@kit.ArkUI';
 
 import common from '@ohos.app.ability.common';
 import { LinkDescendentComponent } from './LinkDescendentComponent';
 import { ColorType } from '../model/ColorType';
-import { COLOR_SELECT_DATA } from '../data/ColorData';
+import { COLOR_SELECT_DATA, NEW_COLOR_SELECT_DATA } from '../data/ColorData';
 import { getResourceString } from '../../../../utils/ResourceUtils';
 import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
-
-// 声明一个上下文变量
-const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
+import { Circle } from '@ohos.arkui.component';
 
 @Component
 export struct StateGrandfatherComponent {
@@ -48,11 +46,13 @@ export struct StateGrandfatherComponent {
   @State circleColor: Resource = $r('app.color.circle_blue');
   // 初始化一个颜色数组
   @State selectColors: ColorType[] = COLOR_SELECT_DATA;
+  @State selectValues: SelectOption[] = NEW_COLOR_SELECT_DATA;
   // 初始化当前select组件的index
-  @State currentSelectIndex: number = 0;
+  @State currentSelectIndex: number = 0.0;
+  private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
 
   build() {
-    Column({ space: 10 }) {
+    Column({ space: 10.0 } as ColumnOptions) {
       // 点击查看源码
       ViewCodeText({ webSrc: $rawfile('StateGrandfatherComponent.ets.html') })
       Text($r('app.string.deepnest_parent_titleone'))
@@ -61,15 +61,15 @@ export struct StateGrandfatherComponent {
         .width('100%')
         .textAlign(TextAlign.Center)
       Row() {
-        Select(this.selectColors)
+        Select(this.selectValues)
           .selected(this.currentSelectIndex)
-          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex as int].value))
+          .value(this.selectValues[this.currentSelectIndex].value)
           .fontColor($r('app.color.button_text_color'))
           .font({ size: $r('app.float.tips_font_size') })
           .selectedOptionFont({ size: $r('app.float.tips_font_size') })
           .optionFont({ size: $r('app.float.tips_font_size') })
           .id('grandfatherCompA')
-          .onSelect((index: number) => {
+          .onSelect((index: number, text?: string | undefined) => {
             // 爷组件@State声明的数据页面更新，孙组件@Link关联的变量同步更新
             this.currentSelectIndex = index;
             this.circleColor = this.selectColors[index as int].color;
@@ -79,9 +79,10 @@ export struct StateGrandfatherComponent {
           .fill(this.circleColor)
       }.justifyContent(FlexAlign.SpaceAround)
       .width('100%')
+
       // 双向同步子组件
       LinkChildComp({ circleColor: this.circleColor, currentSelectIndex: this.currentSelectIndex })
-    }.padding(10)
+    }.padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })
   }
 }
@@ -107,7 +108,7 @@ struct LinkChildComp {
         currentSelectIndex: this.currentSelectIndex
       })
     }
-    .padding(10)
+    .padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Blue, width: $r('app.float.border_width') })
   }
 }

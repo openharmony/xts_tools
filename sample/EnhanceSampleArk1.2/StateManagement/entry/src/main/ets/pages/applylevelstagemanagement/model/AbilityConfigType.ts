@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-export type AbilityConfigType = {
-  bundleName: string,
+export interface  AbilityConfigType {
+  bundleName: string;
   abilityName: string
 };

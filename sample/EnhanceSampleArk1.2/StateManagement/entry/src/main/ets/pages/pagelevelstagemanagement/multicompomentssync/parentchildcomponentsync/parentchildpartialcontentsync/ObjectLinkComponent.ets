@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -18,14 +18,15 @@ import {
   Component,
   ObjectLink,
   Column,
-  $rawfile,
   Text,
-  $r,
   TextAlign,
   Row,
   TextInput,
   FlexAlign,
   Color,
+  ColumnOptions,
+  $r,
+  $rawfile
 } from '@kit.ArkUI';
 
 import { ClassObject } from './ParentChildPartialContentSyncCode';
@@ -37,7 +38,7 @@ export struct ObjectLinkComponent {
   @ObjectLink childObjectData: ClassObject;
 
   build() {
-    Column({ space: 10 }) {
+    Column({ space: 10.0 } as ColumnOptions) {
       // 点击查看源码
       ViewCodeText({ webSrc: $rawfile('ObjectLinkComponent.ets.html') })
 
@@ -51,12 +52,12 @@ export struct ObjectLinkComponent {
           .fontColor($r('app.color.tips_font_color'))
           .fontSize($r('app.float.tips_font_size'))
           .textAlign(TextAlign.Center)
-          .layoutWeight(1)
+          .layoutWeight(1.0)
         TextInput({ text: this.childObjectData.attributeType })
-          .fontSize(20)
-          .layoutWeight(1)
+          .fontSize(20.0)
+          .layoutWeight(1.0)
           .id('childAttribute')
-          .onChange((value: string) => {
+          .onChange((value: string): void => {
             // 子组件对象属性更新，父元素同步
             this.childObjectData.attributeType = value;
           })
@@ -64,6 +65,6 @@ export struct ObjectLinkComponent {
       .justifyContent(FlexAlign.SpaceAround)
     }
     .border({ radius: $r('app.float.component_radius'), color: Color.Blue, width: $r('app.float.border_width') })
-    .padding(10)
+    .padding(10.0)
   }
 }

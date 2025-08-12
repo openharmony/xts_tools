@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -19,12 +19,13 @@ import {
   State,
   Provide,
   Resource,
-  $r,
   Column,
-  $rawfile,
   Text,
   TextAlign,
   Color,
+  $r,
+  $rawfile,
+  ColumnOptions,
 } from '@kit.ArkUI';
 
 import { ColorType } from '../model/ColorType';
@@ -40,10 +41,10 @@ export struct ProvideFatherComponent {
   // 共同父组件使用@Provide初始化圆形颜色
   @Provide consumeCircleColor: Resource = $r('app.color.circle_blue');
   // 初始化Select组件的Index为0
-  @Provide currentSelectIndex: number = 0;
+  @Provide currentSelectIndex: number = 0.0;
 
   build() {
-    Column({ space: 10 }) {
+    Column({ space: 10.0 } as ColumnOptions) {
       // 点击查看源码
       ViewCodeText({ webSrc: $rawfile('ProvideFatherComponent.ets.html') })
       Text($r('app.string.parent_titletwo'))
@@ -55,7 +56,7 @@ export struct ProvideFatherComponent {
       ConsumeBrotherOneComponent()
       // 和父组件双向同步子组件B
       ConsumeBrotherTwoComponent()
-    }.padding(10)
+    }.padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })
   }
 }

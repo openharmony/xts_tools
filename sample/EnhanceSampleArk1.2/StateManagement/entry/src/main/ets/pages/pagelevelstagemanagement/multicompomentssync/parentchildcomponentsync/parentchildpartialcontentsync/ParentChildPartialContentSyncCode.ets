@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -14,22 +14,23 @@
  * limitations under the License.
  */
 
-import { PropRef } from '@kit.ArkUI';
-
 import {
   Observed,
   Resource,
-  $r,
   Component,
   State,
   Column,
-  $rawfile,
   Text,
   TextAlign,
   ForEach,
   Color,
   ObjectLink,
   TextInput,
+  $r,
+  $rawfile,
+  ColumnOptions,
+  PropRef,
+  ClickEvent
 } from '@kit.ArkUI';
 
 import { ObjectLinkComponent } from './ObjectLinkComponent';
@@ -48,19 +49,20 @@ export class ClassObject {
 }
 
 // 初始化父组件中的数据
-const PARENT_DATA: ClassObject[] = [new ClassObject($r('app.string.partial_sync_element_one'), $r('app.string.partial_sync_attribute_one')),
-  new ClassObject($r('app.string.partial_sync_element_two'), $r('app.string.partial_sync_attribute_two')),
-  new ClassObject($r('app.string.partial_sync_element_three'), $r('app.string.partial_sync_attribute_three'))];
+const PARENT_DATA: ClassObject[] =
+  [new ClassObject($r('app.string.partial_sync_element_one'), $r('app.string.partial_sync_attribute_one')),
+    new ClassObject($r('app.string.partial_sync_element_two'), $r('app.string.partial_sync_attribute_two')),
+    new ClassObject($r('app.string.partial_sync_element_three'), $r('app.string.partial_sync_attribute_three'))];
 
 @Component
 export struct ParentChildPartialContentSyncCode {
   // 初始化父组件中状态变量
   @State parentData: ClassObject[] = PARENT_DATA;
   // 与子组件同步的的数据是数组的第几个元素，默认选中第一个
-  @State syncIndex: number = 0;
+  @State syncIndex: number = 0.0;
 
   build() {
-    Column({ space: 10 }) {
+    Column({ space: 10.0 } as ColumnOptions) {
       // 点击查看源码
       ViewCodeText({ webSrc: $rawfile('ParentChildPartialContentSyncCode.ets.html') })
 
@@ -76,19 +78,19 @@ export struct ParentChildPartialContentSyncCode {
             ParentCompDataItem({ index: index, syncIndex: this.syncIndex, childObject: item })
           }
           .backgroundColor(index === this.syncIndex ? $r('app.color.component_background_pink') : undefined)
-          .onClick(() => {
+          .onClick((): void => {
             this.syncIndex = index;
           })
-        }, item => JSON.stringify(item))
+        }, index => index.toString())
       }
       .width('100%')
       .backgroundColor($r('app.color.component_background_pink'))
 
       //与父组件状态同步的子组件
-      ObjectLinkComponent({ childObjectData: this.parentData[this.syncIndex as int] })
+      ObjectLinkComponent({ childObjectData: this.parentData[this.syncIndex] })
     }
     .width('100%')
-    .padding(10)
+    .padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })
   }
 }
@@ -96,8 +98,8 @@ export struct ParentChildPartialContentSyncCode {
 // 展示数组中单个元素的子组件
 @Component
 struct ParentCompDataItem {
-  private index: int;
-  @PropRef syncIndex: number;
+  private index: number;
+  syncIndex: number;
   // 使用@ObjectLink修饰，与父组件中元素同步
   @ObjectLink childObject: ClassObject;
 
@@ -105,22 +107,22 @@ struct ParentCompDataItem {
     Column() {
       Text(this.childObject.elementType)
         .width('100%')
-        .fontSize(20)
+        .fontSize(20.0)
       if (this.index === this.syncIndex) {
         TextInput({ text: this.childObject.attributeType })
-          .fontSize(20)
-          .id(`attribute${this.index + 1}`)
-          .onChange((value: string) => {
+          .fontSize(20.0)
+          .id(`attribute${this.index + 1.0}`)
+          .onChange((value: string): void => {
             // 更新父组件中元素的属性，子组件同步
             this.childObject.attributeType = value;
           })
       } else {
         Text(this.childObject.attributeType)
           .width('100%')
-          .fontSize(20)
+          .fontSize(20.0)
       }
     }
-    .padding(10)
+    .padding(10.0)
     .id(`arrayElement${this.index}`)
   }
 }

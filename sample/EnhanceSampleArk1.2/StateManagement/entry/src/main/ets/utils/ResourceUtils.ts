@@ -14,13 +14,14 @@
  */
 
 import type common from '@ohos.app.ability.common';
+import { resourceManager } from '@kit.LocalizationKit'
 
 /**
  * getResourceString将Resource类型的数据转换成string类型的数据
  * @param context
  * @param ResourceData
  */
-export function getResourceString(context: common.UIAbilityContext, resourceData: Resource): string {
+export function getResourceString(context: common.UIAbilityContext, resourceData: resourceManager.Resource): string {
   let stringData: string = context.resourceManager.getStringSync(resourceData.id);
   return stringData;
 }

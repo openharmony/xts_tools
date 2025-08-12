@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -16,14 +16,15 @@
 
 import {
   LocalStorage,
+  StorageLink,
   Entry,
   Component,
   State,
   Resource,
-  $r,
   LocalStorageLink,
   Column,
   AppStorage,
+  $r
 } from '@kit.ArkUI';
 
 import { AbilityGlobalDataSyncCode } from './AbilityGlobalDataSyncCode';
@@ -31,9 +32,10 @@ import { CodeView } from '../../../commoncomponents/CodeView';
 import { TitleBarDark } from '../../../commoncomponents/TitleBarDark';
 import { TitleBar } from '../../../commoncomponents/TitleBar';
 
-let storage: LocalStorage = LocalStorage.GetShared();
+let storage: LocalStorage = new LocalStorage();
 
 const __get_local_storage__ = (): LocalStorage => storage;
+
 @Entry({ storage: "__get_local_storage__" })
 @Component
 struct AbilityGlobalDataSync {
@@ -55,10 +57,11 @@ struct AbilityGlobalDataSync {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(this.currentModelStatus ? $r('app.color.nightnode_color') : $r('app.color.background_shallow_grey'))
+    .backgroundColor(this.currentModelStatus ? $r('app.color.nightnode_color') :
+      $r('app.color.background_shallow_grey'))
   }
 
   aboutToDisappear(): void {
-    AppStorage.SetOrCreate('sideBarShow', false);
+    AppStorage.set('sideBarShow', false);
   }
 }

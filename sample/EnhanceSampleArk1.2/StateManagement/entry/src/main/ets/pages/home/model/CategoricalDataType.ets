@@ -1,7 +1,7 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
- * Licensed under the Apache License, Version 2.0 (the "License")
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
@@ -17,13 +17,14 @@
 import { Resource } from '@kit.ArkUI';
 
 export interface FirstLevelCategory {
-  childNodes: SecondLevelCategory[] | ThirdLevelCategory[],
+  childNodes: Array<ThirdLevelCategory | SecondLevelCategory>,
   iconSelected: Resource, // The icon for the first-level category is selected
   icon: Resource, // The icon for the first-level category is not selected
   tabBarName: Resource // First-level category title
 }
 
 export interface SecondLevelCategory {
+  tag?: number,
   title: Resource, // Second-level category titles
   childNodes: ThirdLevelCategory[]
 }
