@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -34,7 +35,7 @@ export function serializerNode(): string {
   serializer.endElement();
   let array = new Uint8Array(arrayBuffer);
   let serializerStr = '';
-  for (let i = 0; i < array.length; ++i) {
+  for (let i: int = 0; i < array.length; ++i) {
     serializerStr = serializerStr + String.fromCodePoint(array[i]);
   }
   return serializerStr;
@@ -44,12 +45,12 @@ export function parserNode(input: string): string {
   let arrayBuffer = new ArrayBuffer(input.length * 2);
   let bufView = new Uint8Array(arrayBuffer);
   let strLen = input.length;
-  for (let k = 0; k < strLen; ++k) {
+  for (let k: int = 0; k < strLen; ++k) {
     bufView[k] = input.charCodeAt(k);
   }
   let parser = new xml.XmlPullParser(arrayBuffer);
   let arr: Record<number, string> = {};
-  let i = 0;
+  let i: int = 0;
 
   let func = (key: xml.EventType, info: xml.ParseInfo) => {
     arr[i] = `key:${key}, value:${info.getDepth()} ${info.getColumnNumber()} ` +
@@ -62,7 +63,7 @@ export function parserNode(input: string): string {
   let options: xml.ParseOptions = { supportDoctype: true, ignoreNameSpace: true, tokenValueCallbackFunction: func };
   parser.parse(options);
   let str = '';
-  for (let j = 0; j < i; ++j) {
+  for (let j: int = 0; j < i; ++j) {
     str = str + arr[j];
   }
   return str;

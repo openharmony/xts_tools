@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,11 +14,24 @@
 * limitations under the License.
 */
 
-import taskpool from '@ohos.taskpool'
+import {
+  Component,
+  State,
+  Column,
+  Row,
+  Text,
+  $r,
+  Blank,
+  Button,
+  ButtonType,
+  FlexAlign,
+} from '@kit.ArkUI';
+
+
 import router from '@ohos.router'
 
 function functionForTasks(numberOfExecutions: number) {
-  "use concurrent"
+  
   return numberOfExecutions + 1
 }
 
@@ -74,7 +88,7 @@ export struct TaskPool {
             if (!this.clickAble) {
               return;
             }
-            for (let i = 0; i > -1; i++) {
+            for (let i: int = 0; i > -1; i++) {
               this.task = new taskpool.Task(functionForTasks, i);
               if (!this.isExecute) {
                 this.isExecute = true;

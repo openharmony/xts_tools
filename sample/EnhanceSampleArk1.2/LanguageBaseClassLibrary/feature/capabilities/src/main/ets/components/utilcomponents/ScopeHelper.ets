@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,13 +14,38 @@
  * limitations under the License.
  */
 
+import {
+  Preview,
+  Component,
+  State,
+  Scroll,
+  Column,
+  Text,
+  $r,
+  Color,
+  TextAlign,
+  Row,
+  TextInput,
+  InputType,
+  FontStyle,
+  FontWeight,
+  EnterKeyType,
+  Button,
+  ButtonType,
+  BarState,
+  Alignment,
+  ResourceStr,
+  getUIContext,
+  AlertDialog,
+} from '@kit.ArkUI';
+
 import util from '@ohos.util';
 import { ScopeNumber } from '../../model/ScopeNumber';
 import { TempView } from './scopehelper/TempView';
 import { SleepView } from './scopehelper/SleepView';
 
-const AGE_MIN: number = 16;
-const AGE_MAX: number = 62;
+const AGE_MIN: int = 16;
+const AGE_MAX: int = 62;
 
 @Preview
 @Component
@@ -80,7 +106,7 @@ export struct ScopeHelper {
   }
 
   dialog(title: ResourceStr, message: ResourceStr, value: ResourceStr) {
-    AlertDialog.show(
+    getUIContext().showAlertDialog(
       {
         title: title,
         message: message,

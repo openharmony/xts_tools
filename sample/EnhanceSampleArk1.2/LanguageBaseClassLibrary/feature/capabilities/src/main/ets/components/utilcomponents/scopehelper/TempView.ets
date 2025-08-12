@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,14 +14,31 @@
  * limitations under the License.
  */
 
+import {
+  Component,
+  State,
+  Column,
+  Text,
+  $r,
+  Color,
+  TextAlign,
+  Button,
+  ButtonType,
+  HorizontalAlign,
+  FlexAlign,
+  ResourceStr,
+  getUIContext,
+  AlertDialog,
+} from '@kit.ArkUI';
+
 import promptAction from '@ohos.promptAction';
 import util from '@ohos.util';
 import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
 import { InputItem } from './InputItem';
 import { ScopeNumber } from '../../../model/ScopeNumber';
 
-const ZERO: number = 0;
-const TEMPERATURE_MIN: number = 36;
+const ZERO: int = 0;
+const TEMPERATURE_MIN: int = 36;
 const TEMPERATURE_MAX: number = 37.2;
 
 @Component
@@ -40,17 +58,17 @@ export struct TempView {
       InputItem({
         textValue: $r('app.string.temp_morning'),
         placeHolder: $r('app.string.morning_placeholder'),
-        value: $tempMorning
+        value: this.tempMorning
       })
       InputItem({
         textValue: $r('app.string.temp_noon'),
         placeHolder: $r('app.string.noon_placeholder'),
-        value: $tempNoon
+        value: this.tempNoon
       })
       InputItem({
         textValue: $r('app.string.temp_night'),
         placeHolder: $r('app.string.night_placeholder'),
-        value: $tempNight
+        value: this.tempNight
       })
       Button() {
         Text($r('app.string.temp_analyse'))
@@ -72,7 +90,7 @@ export struct TempView {
   }
 
   alertDialog(title: ResourceStr, message: ResourceStr, value: ResourceStr) {
-    AlertDialog.show(
+    getUIContext().showAlertDialog(
       {
         title: title,
         message: message,
@@ -87,7 +105,7 @@ export struct TempView {
 
   tempRange() {
     if (this.tempMorning <= ZERO || this.tempNoon <= ZERO || this.tempNight <= ZERO) {
-      promptAction.showToast({ message: $r("app.string.scope_temp_tips") });
+      getUIContext().getPromptAction.showToast({ message: $r("app.string.scope_temp_tips") });
       return;
     }
     let arr = [this.tempMorning, this.tempNoon, this.tempNight].sort();

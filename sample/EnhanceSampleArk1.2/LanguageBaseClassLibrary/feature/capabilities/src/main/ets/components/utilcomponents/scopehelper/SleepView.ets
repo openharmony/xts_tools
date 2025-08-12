@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,22 @@
  * limitations under the License.
  */
 
+import {
+  Component,
+  State,
+  Column,
+  Text,
+  $r,
+  Color,
+  TextAlign,
+  Button,
+  ButtonType,
+  HorizontalAlign,
+  FlexAlign,
+  getUIContext,
+  AlertDialog,
+} from '@kit.ArkUI';
+
 import promptAction from '@ohos.promptAction';
 import util from '@ohos.util';
 import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
@@ -20,8 +37,8 @@ import { InputItem } from './InputItem';
 import { ScopeNumber } from '../../../model/ScopeNumber';
 
 const ZERO: number = 0;
-const SLEEP_TIME_SHORT: number = 7;
-const SLEEP_TIME_LONG: number = 10;
+const SLEEP_TIME_SHORT: int = 7;
+const SLEEP_TIME_LONG: int = 10;
 
 @Component
 export struct SleepView {
@@ -40,12 +57,12 @@ export struct SleepView {
       InputItem({
         textValue: $r('app.string.short_sleep'),
         placeHolder: $r('app.string.enter_sleep_time'),
-        value: $shortTime
+        value: this.shortTime
       })
       InputItem({
         textValue: $r('app.string.long_sleep'),
         placeHolder: $r('app.string.enter_sleep_time'),
-        value: $longTime
+        value: this.longTime
       })
 
       Text($r('app.string.sleep_time'))
@@ -75,11 +92,11 @@ export struct SleepView {
 
   sleepRange() {
     if (this.shortTime <= ZERO || this.longTime <= ZERO) {
-      promptAction.showToast({ message: $r("app.string.scope_sleep_tips") });
+      getUIContext().getPromptAction.showToast({ message: $r("app.string.scope_sleep_tips") });
       return;
     }
     if (this.longTime <= this.shortTime) {
-      promptAction.showToast({ message: $r("app.string.scope_sleep_tips_less") });
+      getUIContext().getPromptAction.showToast({ message: $r("app.string.scope_sleep_tips_less") });
       return;
     }
     let timeLower = new ScopeNumber(SLEEP_TIME_SHORT);
@@ -100,7 +117,7 @@ export struct SleepView {
     } catch {
       message += getString($r('app.string.empty'));
     }
-    AlertDialog.show(
+    getUIContext().showAlertDialog(
       {
         title: $r('app.string.sleep_analyse'),
         message: message,

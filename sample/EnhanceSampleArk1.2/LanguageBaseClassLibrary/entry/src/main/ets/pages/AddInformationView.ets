@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,14 +14,36 @@
 * limitations under the License.
 */
 
+import {
+  $r,
+  CustomDialog,
+  CustomDialogController,
+  State,
+  Column,
+  Text,
+  TextAlign,
+  TextPicker,
+  Row,
+  Divider,
+  Entry,
+  Component,
+  DialogAlignment,
+  getUIContext,
+  Image,
+  ImageFit,
+  Blank,
+  TextInput,
+  FlexAlign,
+} from '@kit.ArkUI';
+
 import router from '@ohos.router';
 import emitter from '@ohos.events.emitter';
 import { Constant, Information } from '@ohos/capabilities';
 import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
 
-const MIN_AGE = 1;
-const AGE_RANGE = 9;
-const AGE_DEFAULT = 0;
+const MIN_AGE: int = 1;
+const AGE_RANGE: int = 9;
+const AGE_DEFAULT: int = 0;
 
 const arr = Array(AGE_RANGE)
   .fill(0)
@@ -101,7 +124,7 @@ export struct AddInformationView {
   @State flag: string = '';
 
   aboutToAppear() {
-    let tem: string = (router.getParams() as Record<string, Object>)['title'] as string;
+    let tem: string = (getUIContext().getRouter.getParams() as Record<string, Object>)['title'] as string;
     if (!tem) {
       return;
     }
@@ -121,7 +144,7 @@ export struct AddInformationView {
         .aspectRatio(1)
         .padding({ left: 24 })
         .onClick(() => {
-          router.back();
+          getUIContext().getRouter.back();
         })
 
         Text($r('app.string.add_new_contact'))
@@ -182,7 +205,7 @@ export struct AddInformationView {
           };
 
           emitter.emit(event, eventData);
-          router.back();
+          getUIContext().getRouter.back();
         })
 
       }

@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,8 +20,8 @@ import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSou
 import { KeyValuePair } from '../../model/KeyValuePair';
 
 export class TreeMapDataSource extends BaseDataSource {
-  private dataArr: TreeMap<string, string> = new TreeMap();
-  private arr: ArrayList<string> = new ArrayList();
+  private dataArr: TreeMap<string, string> = new TreeMap<string, string>();
+  private arr: ArrayList<string> = new ArrayList<string>();
 
   public totalCount(): number {
     return this.arr.length;

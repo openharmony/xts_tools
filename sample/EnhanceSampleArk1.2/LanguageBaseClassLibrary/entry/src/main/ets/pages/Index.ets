@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,25 @@
  * limitations under the License.
  */
 
+import { StoragePropRef } from '@kit.ArkUI';
+
+import {
+  Entry,
+  Component,
+  State,
+  getUIContext,
+  $r,
+  Navigation,
+  Divider,
+  NavigationMode,
+  Stack,
+  NavigationTitleMode,
+  Builder,
+  Row,
+  Text,
+  FontWeight,
+} from '@kit.ArkUI';
+
 import router from '@ohos.router';
 import { Capabilities } from './components/Capabilities';
 import { MenuList } from '@ohos/menuitems';
@@ -24,12 +44,12 @@ const TAG: string = 'Index';
 @Entry
 @Component
 struct Index {
-  @StorageProp('windowWidth') windowWidth: number = 300;
-  @StorageProp('isSplitMode') isSplitMode: boolean = false;
+  @StoragePropRef('windowWidth') windowWidth: number = 300;
+  @StoragePropRef('isSplitMode') isSplitMode: boolean = false;
   @State title: string = '';
 
   aboutToAppear() {
-    this.title = getContext().resourceManager.getStringSync($r('app.string.lable_name').id);
+    this.title = getUIContext().getHostContext().resourceManager.getStringSync($r('app.string.lable_name').id.toLong());
   }
 
   build() {
@@ -48,18 +68,18 @@ struct Index {
             case getString($r('app.string.queue')):
             case getString($r('app.string.stack')):
             case getString($r('app.string.vector')):
-              router.pushUrl({ url: 'pages/AddInformationView', params: { 'title': title } })
+              getUIContext().getRouter.pushUrl({ url: 'pages/AddInformationView', params: { 'title': title } })
               break;
             case getString($r('app.string.hash_map')):
             case getString($r('app.string.light_weight_map')):
             case getString($r('app.string.plain_array')):
             case getString($r('app.string.tree_map')):
-              router.pushUrl({ url: 'pages/AddKeyValuePairView', params: { 'title': title } })
+              getUIContext().getRouter.pushUrl({ url: 'pages/AddKeyValuePairView', params: { 'title': title } })
               break;
             case getString($r('app.string.hash_set')):
             case getString($r('app.string.light_weight_set')):
             case getString($r('app.string.tree_set')):
-              router.pushUrl({ url: 'pages/AddStringView', params: { 'title': title } })
+              getUIContext().getRouter.pushUrl({ url: 'pages/AddStringView', params: { 'title': title } })
               break;
           }
         }
@@ -67,7 +87,9 @@ struct Index {
         Capabilities()
       }
     }
-    .title(this.CustomTitle())
+    .title(() => {
+      this.CustomTitle()
+    })
     .mode(this.isSplitMode ? NavigationMode.Split : NavigationMode.Stack)
     .navBarWidth(0.4 * this.windowWidth)
     .titleMode(NavigationTitleMode.Mini)

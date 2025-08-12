@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,18 @@
  * limitations under the License.
  */
 
+import {
+  Component,
+  State,
+  Link,
+  Button,
+  Text,
+  $r,
+  Color,
+  TextAlign,
+  ButtonType,
+} from '@kit.ArkUI';
+
 import util from '@ohos.util';
 
 @Component
@@ -23,7 +36,7 @@ export struct CheckType {
 
   check(value: Object) {
     let utilType: util.types = new util.types();
-    let utilData: Map<string, boolean> | null = new Map([
+    let utilData: Map<string, boolean> | null = new Map<string, boolean>([
       ['ArrayBuffer', utilType.isAnyArrayBuffer(value)],
       ['Int8Array', utilType.isInt8Array(value)],
       ['Number', utilType.isNumberObject(value)],
@@ -48,7 +61,7 @@ export struct CheckType {
 
   show() {
     let showResult: string = '';
-    for (let i = 0; i < this.presetValue.length; i++) {
+    for (let i: int = 0; i < this.presetValue.length; i++) {
       let typeResult = this.check(this.presetValue[i]);
       showResult = showResult + `${this.presetValue[i]} check success,this value type is ${typeResult}\n`;
     }

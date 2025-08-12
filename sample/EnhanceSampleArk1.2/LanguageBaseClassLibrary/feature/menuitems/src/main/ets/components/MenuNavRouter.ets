@@ -1,3 +1,4 @@
+'use static'
 /**
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  StorageLink,
+  BuilderParam,
+  Builder,
+  Divider,
+  $r,
+  Column,
+  ForEach,
+  NavRouter,
+  NavDestination,
+  Row,
+  Text,
+  FontWeight,
+  Image,
+  ImageFit,
+  Visibility,
+  FlexAlign,
+  Resource,
+  getUIContext,
+} from '@kit.ArkUI';
 
 import common from '@ohos.app.ability.common';
 import { ItemGroup } from './ItemGroup';
@@ -50,7 +73,9 @@ export struct MenuNavRouter {
             NavDestination() {
               this.navDestination()
             }
-            .title(this.CustomTitle(item))
+            .title(() => {
+              this.CustomTitle(item)
+            })
             .backgroundColor($r('sys.color.ohos_id_color_sub_background'))
           }
           .onStateChange((isActivated: boolean) => {
@@ -126,7 +151,7 @@ export struct MenuNavRouter {
   }
 
   getString(resource: Resource) {
-    let context = getContext(this) as common.UIAbilityContext;
+    let context = getUIContext().getHostContext(this) as common.UIAbilityContext;
     let resultStr = context.resourceManager.getStringSync(resource);
     logger.info(TAG, `getString = ${resultStr}`);
     return resultStr;

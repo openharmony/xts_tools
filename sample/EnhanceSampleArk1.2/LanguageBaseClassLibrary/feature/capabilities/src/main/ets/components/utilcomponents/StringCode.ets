@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Preview,
+  Component,
+  State,
+  Scroll,
+  Column,
+  Row,
+  Text,
+  $r,
+  TextAlign,
+  Button,
+  FontWeight,
+  Color,
+  Divider,
+  BarState,
+  Alignment,
+} from '@kit.ArkUI';
 
 import util from '@ohos.util';
 import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
@@ -42,10 +61,10 @@ export struct StringCode {
             .textAlign(TextAlign.Start)
         }
 
-        SpecInput({ result_str: $r('app.string.result_f'), specStrInput: $specStrInput_f })
-        SpecInput({ result_str: $r('app.string.result_i'), specStrInput: $specStrInput_i })
-        SpecInput({ result_str: $r('app.string.result_d'), specStrInput: $specStrInput_d })
-        SpecInput({ result_str: $r('app.string.result_s'), specStrInput: $specStrInput_s })
+        SpecInput({ result_str: $r('app.string.result_f'), specStrInput: this.specStrInput_f })
+        SpecInput({ result_str: $r('app.string.result_i'), specStrInput: this.specStrInput_i })
+        SpecInput({ result_str: $r('app.string.result_d'), specStrInput: this.specStrInput_d })
+        SpecInput({ result_str: $r('app.string.result_s'), specStrInput: this.specStrInput_s })
         Button() {
           Text($r('app.string.SpecFormOutput'))
             .fontSize(15)

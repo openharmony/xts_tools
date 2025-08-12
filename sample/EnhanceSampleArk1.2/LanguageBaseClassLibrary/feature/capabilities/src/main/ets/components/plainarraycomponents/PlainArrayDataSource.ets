@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,8 +20,8 @@ import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSou
 import { KeyValuePair } from '../../model/KeyValuePair';
 
 export class PlainArrayDataSource extends BaseDataSource {
-  private dataArr: PlainArray<string> = new PlainArray();
-  private arr: ArrayList<number> = new ArrayList();
+  private dataArr: PlainArray<string> = new PlainArray<string>();
+  private arr: ArrayList<number> = new ArrayList<number>();
 
   public totalCount(): number {
     return this.arr.length;
@@ -28,15 +29,15 @@ export class PlainArrayDataSource extends BaseDataSource {
 
   public getData(index: number): KeyValuePair {
     let key: number = this.arr[index];
-    let value: string = this.dataArr.get(key);
-    this.dataArr.get(this.arr[index]);
+    let value: string = this.dataArr.get(key.toInt());
+    this.dataArr.get(this.arr[index].toInt());
     let keyValuePair: KeyValuePair = new KeyValuePair(`${this.arr[index]}`, value);
     return keyValuePair;
   }
 
   public addData(keyValuePair: KeyValuePair): void {
     let key: number = Number(keyValuePair.key);
-    if (!this.dataArr.has(key)) {
+    if (!this.dataArr.has(key.toInt())) {
       this.arr.add(key)
     }
     this.dataArr.add(key, keyValuePair.value);
@@ -45,8 +46,8 @@ export class PlainArrayDataSource extends BaseDataSource {
   }
 
   public deleteData(index: number): void {
-    this.dataArr.removeAt(index);
-    this.arr.removeByIndex(index);
+    this.dataArr.removeAt(index.toInt());
+    this.arr.removeByIndex(index.toInt());
     this.notifyDataDelete(index);
     this.notifyDataReload();
   }

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  State,
+  Scroll,
+  Column,
+  Text,
+  Color,
+  $r,
+  BarState,
+  Alignment,
+} from '@kit.ArkUI';
 
 import { ColumnOperation } from '../components/ColumnOperation';
 import { serializerNode, parserNode, convertNode } from '../util/ConvertXmlUtil';

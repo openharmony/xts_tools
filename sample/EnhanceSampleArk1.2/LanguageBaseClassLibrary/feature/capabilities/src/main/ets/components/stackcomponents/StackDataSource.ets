@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +19,7 @@ import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSou
 import { Information } from '../../model/Information';
 
 export class StackDataSource extends BaseDataSource {
-  private dataArr: Stack<Information> = new Stack();
+  private dataArr: Stack<Information> = new Stack<Information>();
 
   public totalCount(): number {
     return this.dataArr.length;

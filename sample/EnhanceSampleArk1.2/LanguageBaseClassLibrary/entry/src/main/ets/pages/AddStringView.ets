@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,21 @@
 * limitations under the License.
 */
 
+import {
+  Entry,
+  Component,
+  State,
+  getUIContext,
+  $r,
+  Column,
+  Row,
+  Image,
+  ImageFit,
+  Text,
+  Blank,
+  TextInput,
+} from '@kit.ArkUI';
+
 import router from '@ohos.router';
 import emitter from '@ohos.events.emitter';
 import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
@@ -26,7 +42,7 @@ export struct AddKeyValueView {
   @State flag: string = '';
 
   aboutToAppear() {
-    let tem: string = (router.getParams() as Record<string, Object>)['title'] as string;
+    let tem: string = (getUIContext().getRouter.getParams() as Record<string, Object>)['title'] as string;
     if (!tem) {
       return;
     }
@@ -51,7 +67,7 @@ export struct AddKeyValueView {
         .aspectRatio(1)
         .padding({ left: 24 })
         .onClick(() => {
-          router.back();
+          getUIContext().getRouter.back();
         })
 
         Text(this.title)
@@ -98,7 +114,7 @@ export struct AddKeyValueView {
           };
 
           emitter.emit(event, eventData);
-          router.back();
+          getUIContext().getRouter.back();
         })
       }
       .width('100%')

@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,13 +19,13 @@ import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSou
 import { Information } from '../../model/Information';
 
 export class ListDateSource extends BaseDataSource {
-  private dataArr: ListUtil<Information> = new ListUtil();
+  private dataArr: ListUtil<Information> = new ListUtil<Information>();
 
   public totalCount(): number {
     return this.dataArr.length;
   }
 
-  public getData(index: number): Information {
+  public getData(index: int): Information {
     return this.dataArr.get(index);
   }
 
@@ -35,7 +36,7 @@ export class ListDateSource extends BaseDataSource {
   }
 
   public deleteData(index: number): void {
-    this.dataArr.removeByIndex(index);
+    this.dataArr.removeByIndex(index.toInt());
     this.notifyDataDelete(index);
     this.notifyDataReload();
   }

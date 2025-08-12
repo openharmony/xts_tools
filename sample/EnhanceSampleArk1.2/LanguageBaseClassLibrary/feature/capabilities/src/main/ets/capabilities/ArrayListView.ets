@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,26 @@
  * limitations under the License.
  */
 
+import {
+  Preview,
+  Component,
+  State,
+  CustomDialogController,
+  DialogAlignment,
+  Column,
+  Row,
+  Blank,
+  Button,
+  Image,
+  $r,
+  ImageFit,
+  Alignment,
+  ButtonType,
+  List,
+  ForEach,
+  ListItem,
+} from '@kit.ArkUI';
+
 import ArrayList from '@ohos.util.ArrayList';
 import { AddDialog } from '../components/arraylistcomponents/AddDialog';
 import { ArrayListItem } from '../components/arraylistcomponents/ArrayListItem';
@@ -25,7 +46,7 @@ const TAG: string = 'ArrayListView';
 @Component
 export struct ArrayListView {
   @State dataSource: Information[] = [];
-  private informations: ArrayList<Information> = new ArrayList();
+  private informations: ArrayList<Information> = new ArrayList<Information>();
   private dialogController: CustomDialogController = new CustomDialogController({
     builder: AddDialog({
       saveData: (writeInformation: Information) => {
@@ -74,7 +95,7 @@ export struct ArrayListView {
     .height('100%')
   }
 
-  handleOnClick = (index: number) => {
+  handleOnClick = (index: int) => {
     this.informations.removeByIndex(index);
     this.dataSource = this.informations.convertToArray();
   }

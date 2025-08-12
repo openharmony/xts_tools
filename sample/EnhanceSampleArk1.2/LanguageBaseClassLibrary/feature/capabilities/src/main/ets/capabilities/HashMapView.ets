@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,16 @@
 * limitations under the License.
 */
 
+import {
+  Component,
+  State,
+  Column,
+  List,
+  LazyForEach,
+  ListItem,
+  $r,
+} from '@kit.ArkUI';
+
 import HashMap from '@ohos.util.HashMap';
 import emitter from '@ohos.events.emitter';
 import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
@@ -27,7 +38,7 @@ const TAG = 'HashMapView';
 @Component
 export struct HashMapView {
   @State totalCount: number = 0;
-  private hashMap: HashMap<string, string> = new HashMap();
+  private hashMap: HashMap<string, string> = new HashMap<string, string>();
   private dataSource: HashMapDataSource = new HashMapDataSource();
 
   aboutToAppear() {
@@ -40,7 +51,7 @@ export struct HashMapView {
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_HASH_MAP);
+    emitter.off(Constant.EMITTER_ID_HASH_MAP.toLong());
   }
 
   build() {

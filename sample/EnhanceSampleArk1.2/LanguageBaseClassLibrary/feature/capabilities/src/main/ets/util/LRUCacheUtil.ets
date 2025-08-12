@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,13 +14,19 @@
  * limitations under the License.
  */
 
+import {
+  $r,
+  Resource,
+  getUIContext,
+} from '@kit.ArkUI';
+
 import common from '@ohos.app.ability.common';
 import util from '@ohos.util';
 
-export let lruBuffer: util.LRUCache<string, string> = new util.LRUCache();
+export let lruBuffer: util.LRUCache<string, string> = new util.LRUCache<string, string>();
 
 export function initLRUCache(): string {
-  lruBuffer = new util.LRUCache();
+  lruBuffer = new util.LRUCache<string, string>();
   return getString($r('app.string.create_lru_cache'));
 }
 
@@ -57,7 +64,7 @@ export function operationLog(): string {
 }
 
 export function getString(resource: Resource) {
-  let context = getContext() as common.UIAbilityContext;
+  let context = getUIContext().getHostContext() as common.UIAbilityContext;
   let resultStr = context.resourceManager.getStringSync(resource);
   return resultStr;
 }
@@ -67,7 +74,7 @@ export function randomString(length: number): string {
   let string = 'abcdefhijkmnprstwxyz123456789';
   let maxLength = string.length;
   let resultString = '';
-  for (let i = 0; i < length; i++) {
+  for (let i: int = 0; i < length; i++) {
     resultString += string.charAt(Math.floor(Math.random() * maxLength));
   }
   return resultString;
@@ -78,7 +85,7 @@ export function getAllKeyValues(): string {
   let keyArr: string[] = lruBuffer.keys();
   let valueArr: string[] = lruBuffer.values();
   keyArr.forEach((key: string, index: number) => {
-    result += `key: ${key}, value: ${valueArr[index]}\n`;
+    result += `key: ${key}, value: ${valueArr[index as int]}\n`;
   })
 
   return result;

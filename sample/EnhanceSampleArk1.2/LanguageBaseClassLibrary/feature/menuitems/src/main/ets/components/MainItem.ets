@@ -1,3 +1,4 @@
+'use static'
 /**
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,10 +14,28 @@
  * limitations under the License.
  */
 
+import { LocalStoragePropRef } from '@kit.ArkUI';
+
+import {
+  Component,
+  Resource,
+  State,
+  Row,
+  Text,
+  FontWeight,
+  $r,
+  Alignment,
+  Blank,
+  Image,
+  VerticalAlign,
+  TouchEvent,
+  TouchType,
+} from '@kit.ArkUI';
+
 @Component
 export struct MainItem {
   private title: string | Resource = '';
-  @LocalStorageProp('isSplitMode') isSplitMode: boolean = false;
+  @LocalStoragePropRef('isSplitMode') isSplitMode: boolean = false;
   @State isTouched: boolean = false;
 
   build() {

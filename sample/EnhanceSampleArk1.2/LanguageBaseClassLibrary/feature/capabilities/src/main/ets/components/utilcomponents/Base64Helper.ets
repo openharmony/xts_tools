@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  State,
+  Scroll,
+  Column,
+  Row,
+  Text,
+  $r,
+  FontWeight,
+  TextAlign,
+  Color,
+  Button,
+  ButtonType,
+  BarState,
+  Alignment,
+} from '@kit.ArkUI';
 
 import util from '@ohos.util';
 
@@ -90,7 +108,7 @@ export struct Base64Helper {
 
   encode() {
     let strToAscii: number[] = [];
-    for (let i = 0;i < this.input.length; i++) {
+    for (let i: int = 0;i < this.input.length; i++) {
       strToAscii.push(this.input.charCodeAt(i));
     }
     let that = new util.Base64Helper();
@@ -105,7 +123,7 @@ export struct Base64Helper {
     }
     let decodeNum = that.decodeSync(this.resultEncode);
     this.resultDecode = '';
-    for (let i = 0; i < decodeNum.length; i++) {
+    for (let i: int = 0; i < decodeNum.length; i++) {
       this.resultDecode += String.fromCharCode(decodeNum[i]);
     }
   }

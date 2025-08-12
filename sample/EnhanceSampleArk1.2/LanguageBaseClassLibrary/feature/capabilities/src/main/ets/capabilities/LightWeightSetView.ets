@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,16 @@
 * limitations under the License.
 */
 
+import {
+  Component,
+  State,
+  Column,
+  List,
+  LazyForEach,
+  ListItem,
+  $r,
+} from '@kit.ArkUI';
+
 import LightWeightSet from '@ohos.util.LightWeightSet';
 import emitter from '@ohos.events.emitter';
 import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
@@ -26,7 +37,7 @@ const TAG = 'LightWeightSetView';
 @Component
 export struct LightWeightSetView {
   @State totalCount: number = 0;
-  @State lightWeightSet: LightWeightSet<string> = new LightWeightSet();
+  @State lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
   private dataSource: LightWeightSetDataSource = new LightWeightSetDataSource();
 
   aboutToAppear() {
@@ -42,7 +53,7 @@ export struct LightWeightSetView {
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_LIGHT_WEIGHT_SET);
+    emitter.off(Constant.EMITTER_ID_LIGHT_WEIGHT_SET.toLong());
   }
 
   build() {

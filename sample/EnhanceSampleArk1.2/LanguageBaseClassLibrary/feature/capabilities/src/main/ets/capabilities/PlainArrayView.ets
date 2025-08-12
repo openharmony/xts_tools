@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,17 @@
 * limitations under the License.
 */
 
+import {
+  Component,
+  State,
+  getUIContext,
+  $r,
+  Column,
+  List,
+  LazyForEach,
+  ListItem,
+} from '@kit.ArkUI';
+
 import emitter from '@ohos.events.emitter';
 import promptAction from '@ohos.promptAction';
 import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
@@ -21,7 +33,7 @@ import { PlainArrayDataSource } from '../components/plainarraycomponents/PlainAr
 import { KeyValueItemView } from '../components/KeyValueItemView';
 import { Constant } from '../Constant';
 
-const MIN_LENGTH = 0;
+const MIN_LENGTH: int = 0;
 const isNaturalNumber = (str: string): boolean => {
   let regExp: RegExp = new RegExp('^\\d+$');
   return regExp.test(str);
@@ -39,13 +51,13 @@ export struct PlainArrayView {
         this.dataSource.addData(eventData.data as KeyValuePair);
         this.totalCount = this.dataSource.totalCount();
       } else {
-        promptAction.showToast({ message: $r('app.string.key_limit') });
+        getUIContext().getPromptAction.showToast({ message: $r('app.string.key_limit') });
       }
     });
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_PLAIN_ARRAY);
+    emitter.off(Constant.EMITTER_ID_PLAIN_ARRAY.toLong());
   }
 
   build() {

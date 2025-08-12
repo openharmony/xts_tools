@@ -1,3 +1,4 @@
+'use static'
 /**
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  StorageLink,
+  Column,
+  Divider,
+  $r,
+} from '@kit.ArkUI';
 
 import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
 import {
