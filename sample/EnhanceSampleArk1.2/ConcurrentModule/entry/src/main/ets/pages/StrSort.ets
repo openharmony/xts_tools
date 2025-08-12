@@ -29,7 +29,14 @@ import {
   BarPosition,
   TabContent,
   BarMode,
+  Padding,
+  Margin,
+  $r,
+  Image,
+  Alignment,
+  Stack
 } from '@kit.ArkUI';
+import { Position } from '@ohos.arkui.component';
 
 import { WorkerTab } from '../component/WorkerTab';
 import { TaskPoolTab } from '../component/TaskPoolTab';
@@ -45,7 +52,7 @@ struct Index {
       Text("Worker")
         .width("57vp")
         .height("22vp")
-        .position({ x: "0vp", y: "17vp" })
+        .position({ x: "0vp", y: "17vp" } as Position)
         .fontFamily("HarmonyHeiTi-Medium")
         .fontSize(16.0)
         .fontColor(this.index === 0.0 ? "#007DFF" : "#182431")
@@ -56,14 +63,14 @@ struct Index {
       Line()
         .width("57vp")
         .height("2vp")
-        .position({ x: "0", y: "46vp" })
+        .position({ x: "0", y: "46vp" } as Position)
         .backgroundColor(this.index === 0.0 ? "#007DFF" : "linear-gradient(269deg,rgba(0,0,0,0.00)%,#FFFFFF 10%)")
     }
     .id("tabJsWorker")
     .width("100%")
     .height("100%")
-    .position({ x: "65%", y: "0vp" })
-    .onClick(() => {
+    .position({ x: "65%", y: "0vp" } as Position)
+    .onClick((): void => {
       this.index = 0.0;
       this.controller.changeIndex(this.index);
     })
@@ -74,7 +81,7 @@ struct Index {
       Text("TaskPool")
         .width("68vp")
         .height("22vp")
-        .position({ x: "10vp", y: "17vp" })
+        .position({ x: "10vp", y: "17vp" } as Position)
         .fontFamily("HarmonyHeiTi-Medium")
         .fontSize(16.0)
         .fontColor(this.index === 1.0 ? "#007DFF" : "#182431")
@@ -85,26 +92,26 @@ struct Index {
       Line()
         .width("68vp")
         .height("2vp")
-        .position({ x: "10vp", y: "46vp" })
+        .position({ x: "10vp", y: "46vp" } as Position)
         .backgroundColor(this.index === 1.0 ? "#007DFF" : "linear-gradient(269deg,rgba(0,0,0,0.00)%,#FFFFFF 10%)")
     }
     .id("tabTaskPool")
     .height("100%")
     .width("100%")
-    .position({ x: "4%", y: "0" })
-    .onClick(() => {
+    .position({ x: "4%", y: "0" } as Position)
+    .onClick((): void => {
       this.index = 1.0;
       this.controller.changeIndex(this.index);
     })
   }
 
   build() {
-    Row() {
+    Row(undefined) {
       Column() {
         Text("ConcurrentModule")
           .width("100%")
           .height("41vp")
-          .position({ x: "7%", y: "31vp" })
+          .position({ x: "7%", y: "31vp" } as Position)
           .fontColor("#182431")
           .fontSize("30fp")
           .fontFamily("HarmonyHeiTi-Bold")
@@ -134,8 +141,8 @@ struct Index {
         .height("696vp")
         .barWidth("100%")
         .barHeight("56vp")
-        .position({ x: "0vp", y: "80vp" })
-        .padding({ bottom: "24vp" })
+        .position({ x: "0vp", y: "80vp" } as Position)
+        .padding({ bottom: "24vp" } as Padding)
         .backgroundImage("linear-gradient(269deg,rgba(0,0,0,0.00)%,#FFFFFF 10%)")
         .barMode(BarMode.Fixed)
         .onChange((index: number) => {

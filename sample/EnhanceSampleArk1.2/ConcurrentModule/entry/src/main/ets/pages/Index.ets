@@ -22,11 +22,8 @@ import {
   Row,
   Column,
   Button,
+  $r
 } from '@kit.ArkUI';
-
-import router from '@ohos.router';
-import { Logger } from '../common/Common';
-import fs from '@ohos.file.fs';
 
 @Entry
 @Component
@@ -35,42 +32,36 @@ struct Index {
 
   build() {
     Scroll(this.scroller) {
-      Row() {
+      Row(undefined) {
         Column() {
           Button($r('app.string.strSortText'))
-            .fontSize(16.0)
+            .fontSize('16')
             .fontColor('#FFFFFF')
             .fontWeight(500.0)
-            .padding(15.0)
-            .margin(10.0)
+            .padding('15')
+            .margin('10')
             .width('300')
             .height('60')
             .id('strSort')
-            .onClick(() => {
-              router.pushUrl({
+            .onClick((): void => {
+              this.getUIContext().getRouter().pushUrl({
                 url: 'pages/StrSort',
-                params: {
-                  data: 'message',
-                }
-              }, router.RouterMode.Standard);
+              });
             })
 
           Button($r('app.string.copyFileText'))
-            .fontSize(16.0)
+            .fontSize('16')
             .fontColor('#FFFFFF')
             .fontWeight(500.0)
-            .padding(15.0)
-            .margin(10.0)
+            .padding('15')
+            .margin('10')
             .width('300')
             .height('60')
             .id('fileCopy')
-            .onClick(() => {
-              router.pushUrl({
+            .onClick((): void => {
+              this.getUIContext().getRouter().pushUrl({
                 url: 'pages/CopyFile',
-                params: {
-                  data3: 'message',
-                }
-              }, router.RouterMode.Standard);
+              });
             })
         }
         .width('100%')
@@ -80,3 +71,4 @@ struct Index {
     }
   }
 }
+

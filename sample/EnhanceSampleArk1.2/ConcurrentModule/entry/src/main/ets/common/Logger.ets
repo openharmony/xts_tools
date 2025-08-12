@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +19,7 @@ import hilog from '@ohos.hilog';
  * Common log for all features.
  */
 export class Logger {
-  private domain: number;
+  private domain: int;
   private prefix: string;
   private format: string = '%{public}s, %{public}s';
 
@@ -47,7 +48,7 @@ export class Logger {
     hilog.fatal(this.domain, this.prefix, this.format, args);
   }
 
-  isLoggable(level: number): void {
+  isLoggable(level: hilog.LogLevel): void {
     hilog.isLoggable(this.domain, this.prefix, level);
   }
 }
