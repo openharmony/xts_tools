@@ -28,7 +28,7 @@ struct UIComponentTextChipInterface0310 {
 
       Chip({
         prefixIcon: {
-          src: '/images/image.bmp',
+          src: 'https://gitee.com/drthrhr/test-resources/raw/testResources/image.bmp',
           size: {
             width: 16,
             height: 16

@@ -16,8 +16,8 @@ import { Chip, ChipOptions, ChipSize } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct UIComponentTextChipInterface0290 {
-  @State name: string = 'UIComponentTextChipInterface0290';
+struct UIComponentTextChipInterface0540 {
+  @State name: string = 'UIComponentTextChipInterface0540';
   @State message: string = this.name;
 
   build() {
@@ -28,11 +28,9 @@ struct UIComponentTextChipInterface0290 {
 
       Chip({
         prefixIcon: {
-          src: 'https://gitee.com/drthrhr/test-resources/raw/testResources/image.jpg',
-          size: {
-            width: 16,
-            height: 16
-          },
+          src: '/images/start.svg',
+          fillColor: Color.Brown,
+          activatedFillColor: Color.Pink
         },
         label: {
           text: "操作块",
