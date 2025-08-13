@@ -19,6 +19,14 @@
     {
       "name": "colorRed",
       "value": "#FF0000"
+    },
+    {
+      "name": "green",
+      "value": "#4ac960"
+    },
+    {
+      "name": "red",
+      "value": "#FF0000"
     }
   ]
 }
