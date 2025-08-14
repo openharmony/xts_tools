@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,15 +14,17 @@
  * limitations under the License.
  */
 
+import { DataChangeListener } from '@kit.ArkUI';
+
 import ArrayList from '@ohos.util.ArrayList';
 import { Information } from '../../model/Information';
 
 export class MyDataSource {
-  public dataArray: ArrayList<Information> = new ArrayList();
+  public dataArray: ArrayList<Information> = new ArrayList<Information>();
   private listeners: DataChangeListener[] = [];
 
   constructor(ele: ArrayList<Information>) {
-    for (let index = 0;index < ele.length; index++) {
+    for (let index: int = 0;index < ele.length; index++) {
       this.dataArray.add(ele[index]);
     }
   }
@@ -34,7 +37,7 @@ export class MyDataSource {
     return this.dataArray[index];
   }
 
-  public addData(index: number, data: Information): void {
+  public addData(index: int, data: Information): void {
     this.dataArray.removeByIndex(index);
     this.notifyDataAdd(index);
   }

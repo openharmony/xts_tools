@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,13 +14,15 @@
  * limitations under the License.
  */
 
+import { $r } from '@kit.ArkUI';
+
 import util from '@ohos.util';
 import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
 
-const NUMERATOR1: number = 1;
-const DENOMINATOR1: number = 2;
-const NUMERATOR2: number = 3;
-const DENOMINATOR2: number = 4;
+const NUMERATOR1: int = 1;
+const DENOMINATOR1: int = 2;
+const NUMERATOR2: int = 3;
+const DENOMINATOR2: int = 4;
 const RATIONAL_NUMBER1 = util.RationalNumber.parseRationalNumber(NUMERATOR1, DENOMINATOR1);
 const RATIONAL_NUMBER2 = util.RationalNumber.parseRationalNumber(NUMERATOR2, DENOMINATOR2);
 

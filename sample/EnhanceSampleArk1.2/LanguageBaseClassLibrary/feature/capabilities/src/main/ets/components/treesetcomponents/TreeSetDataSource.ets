@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,8 +19,8 @@ import ArrayList from '@ohos.util.ArrayList';
 import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSource';
 
 export class TreeSetDataSource extends BaseDataSource {
-  private dataArr: TreeSet<string> = new TreeSet();
-  private arr: ArrayList<string> = new ArrayList();
+  private dataArr: TreeSet<string> = new TreeSet<string>();
+  private arr: ArrayList<string> = new ArrayList<string>();
 
   public totalCount(): number {
     return this.dataArr.length;
@@ -38,7 +39,7 @@ export class TreeSetDataSource extends BaseDataSource {
 
   public deleteData(value: string, index: number): void {
     this.dataArr.remove(value);
-    this.arr.removeByIndex(index);
+    this.arr.removeByIndex(index.toInt());
     this.notifyDataDelete(index);
     this.notifyDataReload();
   }

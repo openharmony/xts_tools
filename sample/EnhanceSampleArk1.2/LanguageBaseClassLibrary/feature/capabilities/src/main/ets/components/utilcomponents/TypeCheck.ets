@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,18 @@
  * limitations under the License.
  */
 
+import {
+  Preview,
+  Component,
+  State,
+  Scroll,
+  Column,
+  Text,
+  Color,
+  BarState,
+  Alignment,
+} from '@kit.ArkUI';
+
 import { ShowKey } from './typecheck/ShowKey';
 import { CheckType } from './typecheck/CheckType';
 
@@ -22,7 +35,7 @@ let numVal: Number = new Number(55);
 let strVal: String = new String('zhangsan');
 let boolVal: Boolean = new Boolean(true);
 ;
-for (let i = 0; i < int8Array.length; i++) {
+for (let i: int = 0; i < int8Array.length; i++) {
   int8Array[i] = i;
 }
 
@@ -42,8 +55,8 @@ export struct TypeCheck {
           .margin(20)
           .padding({ left: 5, right: 5 })
           .border({ width: 2, radius: 15, color: Color.Gray })
-        ShowKey({ presetValue: $presetValue, checkResult: $checkResult })
-        CheckType({ presetValue: $presetValue, checkResult: $checkResult })
+        ShowKey({ presetValue: this.presetValue, checkResult: this.checkResult })
+        CheckType({ presetValue: this.presetValue, checkResult: this.checkResult })
       }
       .width('100%')
       .padding(16)

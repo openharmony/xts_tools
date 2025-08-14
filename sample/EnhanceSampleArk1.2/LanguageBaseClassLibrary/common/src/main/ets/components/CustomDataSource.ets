@@ -1,3 +1,4 @@
+'use static'
 /**
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  IDataSource,
+  DataChangeListener,
+} from '@kit.ArkUI';
 
 class BasicDataSource implements IDataSource {
   private listeners: DataChangeListener[] = [];
@@ -61,7 +67,7 @@ export class CustomDataSource extends BasicDataSource {
 
   constructor(ele: string[]) {
     super();
-    for (let index = 0;index < ele.length; index++) {
+    for (let index: int = 0;index < ele.length; index++) {
       this.dataArray.push(ele[index]);
     }
   }
@@ -71,7 +77,7 @@ export class CustomDataSource extends BasicDataSource {
   }
 
   public getData(index: number): string {
-    return this.dataArray[index];
+    return this.dataArray[index as int];
   }
 
   public addData(index: number, data: string): void {

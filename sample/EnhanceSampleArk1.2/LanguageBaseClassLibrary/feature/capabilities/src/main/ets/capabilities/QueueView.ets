@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,16 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
+
+import {
+  Component,
+  State,
+  Column,
+  List,
+  LazyForEach,
+  ListItem,
+  $r,
+} from '@kit.ArkUI';
 
 import emitter from '@ohos.events.emitter';
 import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
@@ -35,7 +46,7 @@ export struct QueueView {
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_QUEUE);
+    emitter.off(Constant.EMITTER_ID_QUEUE.toLong());
   }
 
   build() {

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  ObjectLink,
+  Row,
+  Image,
+  $r,
+  ImageFit,
+  Column,
+  Text,
+  Color,
+  FlexAlign,
+  Blank,
+  Button,
+  TextAlign,
+  ButtonType,
+  Alignment,
+} from '@kit.ArkUI';
 
 import { Information } from '../../model/Information';
 

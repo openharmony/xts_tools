@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,17 @@
 * limitations under the License.
 */
 
+import {
+  Entry,
+  Component,
+  State,
+  Column,
+  List,
+  LazyForEach,
+  ListItem,
+  $r,
+} from '@kit.ArkUI';
+
 import emitter from '@ohos.events.emitter';
 import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
 import { Information } from '../model/Information';
@@ -20,7 +32,7 @@ import { ListDateSource } from '../components/listcomponents/ListDataSource';
 import { InformationItemView } from '../components/InformationItemView';
 import { Constant } from '../Constant';
 
-const MIN_LENGTH = 0;
+const MIN_LENGTH: int = 0;
 
 @Entry
 @Component
@@ -36,7 +48,7 @@ export struct ListView {
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_LIST);
+    emitter.off(Constant.EMITTER_ID_LIST.toLong());
   }
 
   build() {

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,15 +14,20 @@
  * limitations under the License.
  */
 
+import {
+  Resource,
+  getUIContext,
+} from '@kit.ArkUI';
+
 import common from '@ohos.app.ability.common';
 
 export async function getStringArray(resource: Resource): Promise<Array<string>> {
-  let context = getContext() as common.UIAbilityContext;
+  let context = getUIContext().getHostContext() as common.UIAbilityContext;
   let menuList: Array<string> = await context.resourceManager.getStringArrayValue(resource);
   return menuList;
 }
 
 export function getString(resource: Resource): string {
-  let context = getContext() as common.UIAbilityContext;
+  let context = getUIContext().getHostContext() as common.UIAbilityContext;
   return context.resourceManager.getStringSync(resource);
 }

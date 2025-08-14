@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Huawei Device Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,8 @@
 * limitations under the License.
 */
 
+import { $r } from '@kit.ArkUI';
+
 import url from '@ohos.url';
 import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
 
@@ -20,7 +23,7 @@ let urlObject = url.URL.parseURL('https://gitee.com/openharmony/');
 let paramsObject = new url.URLParams(urlObject.search.slice(1));
 let nodeValue: string = 'nodeValue';
 let nodeKey: string = 'node';
-let nodeNum: number = 0;
+let nodeNum: int = 0;
 
 export function insertNode(): string {
   nodeNum++;

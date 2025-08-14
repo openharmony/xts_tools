@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,7 +24,7 @@ export class LightWeightSetDataSource extends BaseDataSource {
   }
 
   public getData(index: number): string {
-    return this.dataArr[index];
+    return this.dataArr[index as int];
   }
 
   public addData(item: string): void {

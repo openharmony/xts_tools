@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +19,7 @@ import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSou
 import { Information } from '../../model/Information';
 
 export class LinkedListDataSource extends BaseDataSource {
-  private linkedList: LinkedList<Information> = new LinkedList();
+  private linkedList: LinkedList<Information> = new LinkedList<Information>();
 
   public totalCount(): number {
     return this.linkedList.length;
@@ -47,7 +48,7 @@ export class LinkedListDataSource extends BaseDataSource {
   }
 
   public deleteData(index: number): void {
-    this.linkedList.removeByIndex(index);
+    this.linkedList.removeByIndex(index.toInt());
     this.notifyDataDelete(index);
     this.notifyDataReload();
   }

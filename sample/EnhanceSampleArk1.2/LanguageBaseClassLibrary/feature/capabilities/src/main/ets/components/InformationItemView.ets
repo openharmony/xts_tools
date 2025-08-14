@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,17 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
+
+import {
+  Component,
+  ObjectLink,
+  ClickEvent,
+  Row,
+  Column,
+  Text,
+  $r,
+  Blank,
+} from '@kit.ArkUI';
 
 import { Information } from '../model/Information';
 import { DeleteView } from './DeleteView';

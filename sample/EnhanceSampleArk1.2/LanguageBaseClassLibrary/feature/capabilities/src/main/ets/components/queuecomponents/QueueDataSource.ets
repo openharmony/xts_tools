@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +19,7 @@ import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSou
 import { Information } from '../../model/Information';
 
 export class QueueDataSource extends BaseDataSource {
-  private dataArr: Queue<Information> = new Queue();
+  private dataArr: Queue<Information> = new Queue<Information>();
 
   public totalCount(): number {
     return this.dataArr.length;

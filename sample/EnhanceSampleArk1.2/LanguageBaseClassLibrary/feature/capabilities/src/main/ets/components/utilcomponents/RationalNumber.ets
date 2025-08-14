@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,26 @@
  * limitations under the License.
  */
 
+import {
+  TextAttribute,
+  BorderStyle,
+  TextAlign,
+  Preview,
+  Component,
+  State,
+  Scroll,
+  Column,
+  Text,
+  $r,
+  BarState,
+  Alignment,
+  Builder,
+  Row,
+  FontWeight,
+  VerticalAlign,
+  FlexAlign,
+} from '@kit.ArkUI';
+
 import { compareTo, getDenominator, getValueOf, isFinite, isNaN, isZero } from '../../util/RationalNumberUtil';
 import { GridOperation } from '../GridOperation';
 
@@ -21,10 +42,11 @@ const DENOMINATOR1: number = 2;
 const NUMERATOR2: number = 3;
 const DENOMINATOR2: number = 4;
 
-@Extend(Text) function textStyle() {
-  .border({ width: 1, color: '#000000', radius: 10, style: BorderStyle.Solid })
-  .fontSize(24)
-  .textAlign(TextAlign.Center)
+function textStyle(this: TextAttribute): this {
+    this.border({ width: 1, color: '#000000', radius: 10, style: BorderStyle.Solid });
+    this.fontSize(24);
+    this.textAlign(TextAlign.Center);
+    return this;
 }
 
 @Preview

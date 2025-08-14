@@ -1,3 +1,4 @@
+'use static'
 /*
 * Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,16 @@
 * limitations under the License.
 */
 
+import {
+  Component,
+  State,
+  Column,
+  List,
+  LazyForEach,
+  ListItem,
+  $r,
+} from '@kit.ArkUI';
+
 import HashSet from '@ohos.util.HashSet';
 import emitter from '@ohos.events.emitter';
 import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
@@ -26,7 +37,7 @@ const TAG = 'HashSetView'
 @Component
 export struct HashSetView {
   @State totalCount: number = 0;
-  private hashSet: HashSet<string> = new HashSet();
+  private hashSet: HashSet<string> = new HashSet<string>();
   private dataSource: HashSetDataSource = new HashSetDataSource();
 
   aboutToAppear() {
@@ -42,7 +53,7 @@ export struct HashSetView {
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_HASH_SET);
+    emitter.off(Constant.EMITTER_ID_HASH_SET.toLong());
   }
 
   build() {
