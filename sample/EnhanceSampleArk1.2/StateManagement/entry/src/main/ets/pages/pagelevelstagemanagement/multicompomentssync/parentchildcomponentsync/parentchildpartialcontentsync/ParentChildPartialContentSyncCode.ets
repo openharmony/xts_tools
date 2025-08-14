@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import { PropRef } from '@kit.ArkUI';
+
+import {
+  Observed,
+  Resource,
+  $r,
+  Component,
+  State,
+  Column,
+  $rawfile,
+  Text,
+  TextAlign,
+  ForEach,
+  Color,
+  ObjectLink,
+  TextInput,
+} from '@kit.ArkUI';
 
 import { ObjectLinkComponent } from './ObjectLinkComponent';
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
@@ -66,7 +85,7 @@ export struct ParentChildPartialContentSyncCode {
       .backgroundColor($r('app.color.component_background_pink'))
 
       //与父组件状态同步的子组件
-      ObjectLinkComponent({ childObjectData: this.parentData[this.syncIndex] })
+      ObjectLinkComponent({ childObjectData: this.parentData[this.syncIndex as int] })
     }
     .width('100%')
     .padding(10)
@@ -77,8 +96,8 @@ export struct ParentChildPartialContentSyncCode {
 // 展示数组中单个元素的子组件
 @Component
 struct ParentCompDataItem {
-  private index: number;
-  @Prop syncIndex: number;
+  private index: int;
+  @PropRef syncIndex: number;
   // 使用@ObjectLink修饰，与父组件中元素同步
   @ObjectLink childObject: ClassObject;
 

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,29 @@
  * limitations under the License.
  */
 
+import { LocalStoragePropRef } from '@kit.ArkUI';
+
+import {
+  LocalStorage,
+  Entry,
+  Component,
+  State,
+  Resource,
+  $r,
+  LocalStorageLink,
+  Column,
+  $rawfile,
+  Text,
+  TextAlign,
+  Button,
+  ButtonType,
+  Row,
+  Slider,
+  SliderStyle,
+  SliderChangeMode,
+  AppStorage,
+} from '@kit.ArkUI';
+
 import { CodeView } from '../../../commoncomponents/CodeView';
 import { ViewCodeText } from '../../../commoncomponents/ViewCodeText';
 import { TitleBarDark } from '../../../commoncomponents/TitleBarDark';
@@ -20,7 +44,8 @@ import { TitleBar } from '../../../commoncomponents/TitleBar';
 
 let storage: LocalStorage = LocalStorage.GetShared();
 
-@Entry(storage)
+const __get_local_storage__ = (): LocalStorage => storage;
+@Entry({ storage: "__get_local_storage__" })
 @Component
 struct StoragePropAbilityPage {
   @State title: Resource = $r('app.string.localStorage_pagetitleone');
@@ -29,16 +54,16 @@ struct StoragePropAbilityPage {
   // 和主页、Page1双向同步夜间模式状态
   @LocalStorageLink('currentModelStatus') currentModelStatus: boolean = true;
   // 和主页、Page1单向同步内容字体大小
-  @LocalStorageProp('contentFontSize') contentFontSize: number = 18;
+  @LocalStoragePropRef('contentFontSize') contentFontSize: number = 18;
 
   build() {
     Column() {
       if (this.currentModelStatus) {
-        TitleBarDark({ title: $title })
+        TitleBarDark({ title: this.title })
       } else {
-        TitleBar({ title: $title })
+        TitleBar({ title: this.title })
       }
-      CodeView({ title: $title, isShowTitle: false }) {
+      CodeView({ title: this.title, isShowTitle: false }) {
         Column({ space: 20 }) {
           // 查看源码
           ViewCodeText({ webSrc: $rawfile('LocalStoragePropPage.ets.html') })

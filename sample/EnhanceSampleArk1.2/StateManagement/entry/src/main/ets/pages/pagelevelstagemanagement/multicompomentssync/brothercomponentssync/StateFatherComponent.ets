@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  State,
+  Resource,
+  $r,
+  Column,
+  $rawfile,
+  Text,
+  TextAlign,
+  Color,
+} from '@kit.ArkUI';
 
 import { ColorType } from '../model/ColorType';
 import { COLOR_SELECT_DATA } from '../data/ColorData';
@@ -39,13 +52,13 @@ export struct StateFatherComponent {
         .textAlign(TextAlign.Center)
       // 和父组件双向同步子组件A
       LinkBrotherOneComponent({
-        circleColor: $circleColor,
-        currentSelectIndex: $currentSelectIndex
+        circleColor: this.circleColor,
+        currentSelectIndex: this.currentSelectIndex
       })
       // 和父组件双向同步子组件B
       LinkBrotherTwoComponent({
-        circleColor: $circleColor,
-        currentSelectIndex: $currentSelectIndex
+        circleColor: this.circleColor,
+        currentSelectIndex: this.currentSelectIndex
       })
     }.padding(10)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })

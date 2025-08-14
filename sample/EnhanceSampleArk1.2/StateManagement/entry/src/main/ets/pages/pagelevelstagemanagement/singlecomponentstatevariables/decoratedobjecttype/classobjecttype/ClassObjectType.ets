@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,16 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  State,
+  Resource,
+  $r,
+  Column,
+  AppStorage,
+} from '@kit.ArkUI';
+
 import { ClassObjectTypeCode } from './ClassObjectTypeCode';
 import { CodeView } from '../../../../../commoncomponents/CodeView';
 
@@ -23,7 +34,7 @@ struct ClassObjectType {
 
   build() {
     Column() {
-      CodeView({ title: $title }) {
+      CodeView({ title: this.title }) {
         ClassObjectTypeCode()
       }
     }

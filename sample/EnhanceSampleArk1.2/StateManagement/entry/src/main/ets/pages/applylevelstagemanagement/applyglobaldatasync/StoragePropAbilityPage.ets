@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,28 @@
  * limitations under the License.
  */
 
+import { StoragePropRef } from '@kit.ArkUI';
+
+import {
+  Entry,
+  Component,
+  State,
+  Resource,
+  $r,
+  StorageLink,
+  Column,
+  $rawfile,
+  Text,
+  TextAlign,
+  Button,
+  ButtonType,
+  Row,
+  Slider,
+  SliderStyle,
+  SliderChangeMode,
+  AppStorage,
+} from '@kit.ArkUI';
+
 import { CodeView } from '../../../commoncomponents/CodeView';
 import { ViewCodeText } from '../../../commoncomponents/ViewCodeText';
 import { TitleBarDark } from '../../../commoncomponents/TitleBarDark';
@@ -27,16 +50,16 @@ struct StoragePropAbilityPage {
   // 和主页、Ability2页面双向同步夜间模式状态
   @StorageLink('currentModelStatus') currentModelStatus: boolean = true;
   // 和主页、Ability2页面单向同步内容字体大小
-  @StorageProp('contentFontSize') contentFontSize: number = 18;
+  @StoragePropRef('contentFontSize') contentFontSize: number = 18;
 
   build() {
     Column() {
       if (this.currentModelStatus) {
-        TitleBarDark({ title: $title, isAbility: true })
+        TitleBarDark({ title: this.title, isAbility: true })
       } else {
-        TitleBar({ title: $title, isAbility: true })
+        TitleBar({ title: this.title, isAbility: true })
       }
-      CodeView({ title: $title, isShowTitle: false }) {
+      CodeView({ title: this.title, isShowTitle: false }) {
         Column({ space: 20 }) {
           // 查看源码
           ViewCodeText({ webSrc: $rawfile('StoragePropAbilityPage.ets.html') })

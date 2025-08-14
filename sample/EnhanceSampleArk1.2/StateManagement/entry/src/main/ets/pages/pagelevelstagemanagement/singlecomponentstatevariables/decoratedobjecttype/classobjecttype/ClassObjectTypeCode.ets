@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,11 +14,33 @@
  * limitations under the License.
  */
 
+import { applyStyles } from '@kit.ArkUI';
+
+import {
+  getUIContext,
+  Component,
+  State,
+  $r,
+  Column,
+  $rawfile,
+  Row,
+  Text,
+  TextAlign,
+  Divider,
+  FlexAlign,
+  Button,
+  ButtonType,
+  Color,
+  ObjectLink,
+  CommonMethod,
+  Observed,
+} from '@kit.ArkUI';
+
 import common from '@ohos.app.ability.common';
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
 import { getResourceString } from '../../../../../utils/ResourceUtils';
 
-const CONTEXT: common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
+const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
 
 @Component
 export struct ClassObjectTypeCode {
@@ -26,7 +49,7 @@ export struct ClassObjectTypeCode {
                                         getResourceString(CONTEXT, $r('app.string.class_attribute')), 1,
                                         new ChildClass(getResourceString(CONTEXT, $r('app.string.class_child_attribute')), 2));
   // 更新对象的次数
-  private clickedCount: number = 0;
+  private clickedCount: int = 0;
 
   build() {
     Column({ space: 10 }) {
@@ -84,7 +107,7 @@ export struct ClassObjectTypeCode {
         .fontColor($r('app.color.button_text_color'))
         .fontSize($r('app.float.button_text_size'))
         .type(ButtonType.Capsule)
-        .buttonStyle()
+        .applyStyles(buttonStyle)
       Button($r('app.string.class_type_update_attribute'))
         .onClick(() => {
           // 点击更新对象的属性
@@ -94,7 +117,7 @@ export struct ClassObjectTypeCode {
         .fontColor($r('app.color.button_text_color'))
         .fontSize($r('app.float.button_text_size'))
         .type(ButtonType.Capsule)
-        .buttonStyle()
+        .applyStyles(buttonStyle)
       Button($r('app.string.class_type_update_child_attribute'))
         .onClick(() => {
           // 点击更新对象属性的属性
@@ -104,7 +127,7 @@ export struct ClassObjectTypeCode {
         .fontColor($r('app.color.button_text_color'))
         .fontSize($r('app.float.button_text_size'))
         .type(ButtonType.Capsule)
-        .buttonStyle()
+        .applyStyles(buttonStyle)
     }
     .width('100%')
     .padding(10)
@@ -139,10 +162,10 @@ struct ChildObjectComp {
   }
 }
 
-@Styles function buttonStyle() {
-  .width('100%')
-  .height($r('app.float.button_height'))
-  .backgroundColor($r('app.color.button_background_color'))
+function buttonStyle(instance: CommonMethod): void {
+    instance.width('100%');
+    instance.height($r('app.float.button_height'));
+    instance.backgroundColor($r('app.color.button_background_color'));
 }
 
 // 要更新对象属性的属性，对象属性的类需要使用@Observed修饰
@@ -157,6 +180,7 @@ class ChildClass {
   }
 }
 
+@Observed
 class ParentClass {
   public title: string;
   public attributeTitle: string;

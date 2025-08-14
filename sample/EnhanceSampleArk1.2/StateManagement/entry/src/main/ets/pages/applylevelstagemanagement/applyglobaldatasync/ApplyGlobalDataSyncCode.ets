@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,12 +14,34 @@
  * limitations under the License.
  */
 
+import {
+  getUIContext,
+  Component,
+  StorageLink,
+  Column,
+  $rawfile,
+  Row,
+  Text,
+  $r,
+  Toggle,
+  ToggleType,
+  Color,
+  AppStorage,
+  FlexAlign,
+  TextAlign,
+  Slider,
+  SliderStyle,
+  SliderChangeMode,
+  Button,
+  ButtonType,
+} from '@kit.ArkUI';
+
 import common from '@ohos.app.ability.common';
 import { ViewCodeText } from '../../../commoncomponents/ViewCodeText';
 import { startSpecifiedAbility } from '../../../utils/StartAbilityUtils';
 
 // 声明一个上下文信息
-const CONTEXT: common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
+const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
 
 @Component
 export default struct ApplyGlobalDataSyncCode {

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,24 @@
  * limitations under the License.
  */
 
+import {
+  getUIContext,
+  Component,
+  State,
+  Provide,
+  Resource,
+  $r,
+  Column,
+  $rawfile,
+  Text,
+  TextAlign,
+  Row,
+  Select,
+  Circle,
+  FlexAlign,
+  Color,
+} from '@kit.ArkUI';
+
 
 import common from '@ohos.app.ability.common';
 import { ColorType } from '../model/ColorType';
@@ -21,7 +40,7 @@ import { ConsumeDescendentComponent } from './ConsumeDescendentComponent';
 import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
 import { getResourceString } from '../../../../utils/ResourceUtils';
 
-const CONTEXT: common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
+const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
 
 @Component
 export struct ProvideGrandfatherComponent {
@@ -44,7 +63,7 @@ export struct ProvideGrandfatherComponent {
       Row() {
         Select(this.selectColors)
           .selected(this.currentSelectIndex)
-          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex].value))
+          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex as int].value))
           .fontColor($r('app.color.button_text_color'))
           .font({ size: $r('app.float.tips_font_size') })
           .selectedOptionFont({ size: $r('app.float.tips_font_size') })
@@ -53,7 +72,7 @@ export struct ProvideGrandfatherComponent {
           .onSelect((index: number) => {
             // 爷组件@Provide声明的数据页面更新，孙组件@Consume关联的变量同步更新
             this.currentSelectIndex = index;
-            this.consumeCircleColor = this.selectColors[index].color;
+            this.consumeCircleColor = this.selectColors[index as int].color;
           })
         Circle()
           .size({ width: $r('app.float.circle_size'), height: $r('app.float.circle_size') })

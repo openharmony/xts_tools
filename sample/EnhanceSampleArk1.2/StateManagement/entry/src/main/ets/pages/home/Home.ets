@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  StorageLink,
+  Tabs,
+  BarPosition,
+  ForEach,
+  TabContent,
+  BarMode,
+  $r,
+  Builder,
+  Column,
+  Image,
+  Text,
+  HorizontalAlign,
+} from '@kit.ArkUI';
 
 import { FirstLevelCategory } from './model/CategoricalDataType';
 import { HOME_TABS } from './data/HomeData';
@@ -30,7 +49,9 @@ struct Home {
         TabContent() {
           TabContentNavigation({ categories: item.childNodes })
         }
-        .tabBar(this.CustomTabBar(item, index))
+        .tabBar(() => {
+          this.CustomTabBar(item, index)
+        })
       }, item => JSON.stringify(item))
     }
     .vertical(this.curBp === 'sm' ? false : true)
