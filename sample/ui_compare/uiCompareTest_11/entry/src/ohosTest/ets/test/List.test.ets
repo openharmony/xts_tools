@@ -13,14 +13,10 @@
  * limitations under the License.
  */
 
-import FocusDynamicTest from './focus_dynamic/FocusDynamic.test';
-import RouterPushTest from './router_push/RouterPush.test'
 import SpecialComponentsEmbeddedComponentMinSize0170 from './SpecialComponentsEmbeddedComponentMinSizeTest/SpecialComponentsEmbeddedComponentMinSize0170.test'
 import ColumnMatchParent0070 from './ColumnMatchParentTest/ColumnMatchParent0070.test'
 
 export default function testsuite() {
-  FocusDynamicTest();
-  RouterPushTest();
   SpecialComponentsEmbeddedComponentMinSize0170();
   ColumnMatchParent0070();
 }

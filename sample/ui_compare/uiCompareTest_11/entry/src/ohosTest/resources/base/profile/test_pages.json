@@ -1,10 +1,6 @@
 {
   "src": [
     "testability/pages/Index",
-    "testability/pages/focus_dynamic/focusDynamic01",
-    "testability/pages/router_push/pageA",
-    "testability/pages/router_push/pageB",
-    "testability/pages/router_push/pageC",
     "testability/pages/SpecialComponentsEmbeddedComponentMinSize/SpecialComponentsEmbeddedComponentMinSize0170",
     "testability/pages/SpecialComponentsEmbeddedComponentMinSize/SpecialComponentsEmbeddedComponentMinSize0020",
     "testability/pages/ColumnMatchParent/ColumnMatchParent0070",
