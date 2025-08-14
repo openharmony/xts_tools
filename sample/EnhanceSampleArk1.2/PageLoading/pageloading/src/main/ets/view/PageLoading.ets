@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  State,
+  Stack,
+  Color,
+} from '@kit.ArkUI';
 
 import { CommodityList } from './CommodityList';
 import { LoadingHUD } from './LoadingHUD';
@@ -29,12 +37,12 @@ import { LoadingHUD } from './LoadingHUD';
  * 2.进入页面首先展示LoadingHUD加载页，5秒后，LoadingHUD加载页消失且出现GoodsList商品列表页。
  */
 
-const MILLISECONDS: number = 5000; // 毫秒数
+const MILLISECONDS: number = 5000.0; // 毫秒数
 
 @Component
 export struct PageLoadingComponent {
   @State isLoading: Boolean = true;
-  @State nowProgress: number = 0;
+  @State nowProgress: number = 0.0;
 
   aboutToAppear(): void {
     // 模拟网络请求操作，请求网络3秒后得到数据，通知组件，变更列表数据
@@ -43,8 +51,8 @@ export struct PageLoadingComponent {
     }, MILLISECONDS);
     //模拟进度，开发者可在实际业务中与服务端协调当前进度，自行实现
     setInterval(()=>{
-      this.nowProgress += 10
-    },MILLISECONDS / 10)
+      this.nowProgress += 10.0
+    },MILLISECONDS / 10.0)
   }
 
   build() {

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -36,7 +37,7 @@ export default function localUnitTest() {
       // Presets a clear action, which is performed after all test cases of the test suite end.
       // This API supports only one parameter: clear action function.
     });
-    it('assertContain', 0, () => {
+    it('assertContain', 0.0, () => {
       // Defines a test case. This API supports three parameters: test case name, filter parameter, and test case function.
       let a = 'abc';
       let b = 'b';

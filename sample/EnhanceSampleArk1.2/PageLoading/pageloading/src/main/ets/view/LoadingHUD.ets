@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  Link,
+  CanvasRenderingContext2D,
+  LinearGradient,
+  Color,
+  Column,
+  Stack,
+  Canvas,
+  Row,
+  Progress,
+  ProgressType,
+  Text,
+  FlexAlign,
+} from '@kit.ArkUI';
 
 import lottie from '@ohos/lottie';
 
@@ -57,8 +74,8 @@ export struct LoadingHUD {
             this.initAnimation();
           })
         Row() {
-          Progress({ value: this.nowProgress, total: 100, type: ProgressType.Linear })
-            .style({ strokeWidth: 10, enableSmoothEffect: true })
+          Progress({ value: this.nowProgress, total: 100.0, type: ProgressType.Linear })
+            .style({ strokeWidth: 10.0, enableSmoothEffect: true })
             .color(this.gradientColor)
         }
         .width('60%')
