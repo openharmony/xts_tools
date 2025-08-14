@@ -91,10 +91,10 @@ export default function UiImportComponentContent() {
       let button02: Component = await driver.waitForComponent(ON.id('UiImportComponentContent02_02'),1000);
       await button01.click()
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0090_01")
       await button02.click()
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot("SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0090_02")
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0090 finish.`);
       done()

@@ -55,15 +55,15 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080
+       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0080
        * @tc.name    Set the ImageAttachment property string to add an image, and set colorFilter and objectFit at the same time
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
        * @tc.level   3
        */
-    it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080 start.`);
+    it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0080', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter01")
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter01_01'),1000);
@@ -74,7 +74,7 @@ export default function UiComponentImageAttachmentColorFilter() {
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0080 finish.`);
       done()
     })
 

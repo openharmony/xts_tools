@@ -38,11 +38,6 @@ import UiComponentWordTextHalfLeading from './UiComponentWordTextHalfLeading/UiC
 import UiComponentTextareaBarState from './UiComponentTextareaBarState/UiComponentTextareaBarState.test'
 import UiAttributesUseEffectEffectType from './UiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType.test'
 import UiImportComponentContent from './UiImportComponentContent/UiImportComponentContent.test'
-import UiComponentCanvasMatrix2D from './UiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D.test'
-import UiComponentCanvasModifier from  './UiComponentCanvasModifier/UiComponentCanvasModifier.test'
-import UiComponentTextImageSpanColorFilter from  './UiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter.test'
-import UiComponentTextInputEllipsisMode from './UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode.test'
-import UiComponentCanvasMatrix2D from './UiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D.test'
 import UiComponentCanvasOffscreenCanvasGpuDraw from './UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw.test'
 import UiComponentCanvasPath2DAndCanvasPattern from './UiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern.test'
 export default function testsuite() {
@@ -69,11 +64,6 @@ export default function testsuite() {
   UiComponentTextareaBarState();
   UiAttributesUseEffectEffectType();
   UiImportComponentContent();
-  UiComponentCanvasMatrix2D();
-  UiComponentCanvasModifier();
-  UiComponentTextInputEllipsisMode();
-  UiComponentTextImageSpanColorFilter();
-  UiComponentCanvasMatrix2D();
   UiComponentCanvasOffscreenCanvasGpuDraw();
   UiComponentCanvasPath2DAndCanvasPattern();
 }
