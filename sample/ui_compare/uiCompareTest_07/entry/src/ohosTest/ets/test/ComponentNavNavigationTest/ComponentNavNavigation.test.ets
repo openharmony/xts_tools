@@ -81,5 +81,249 @@ export default function ComponentNavNavigation() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0541 finish.`);
       done()
     })
+
+
+/*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_029
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_029
+     * @tc.type   : In Split mode, the title is not customizable. In Full mode, the title includes both the main and subtitle. Input Chinese characters.
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_029', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_029 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation029")
+      let driver: Driver = Driver.create();
+      let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation029_001'),1000);
+      await Button1.click();
+      await driver.waitForIdle(500,2000)
+      let Button2: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation029_002'),1000);
+      await Button2.click();
+      await driver.waitForIdle(500,2000)
+      let Button3: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation029_003'),1000);
+      await Button3.click();
+      await driver.waitForIdle(2000,3000)
+      await Utils.sleep(2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_029 finish.`);
+      done()
+    })
+
+
+    /*
+   * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007
+   * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007
+   * @tc.type   : In Stack mode, the title is not customizable. In Full mode, the subtitle is included, and both the main title and subtitle are set to display extremely long strings in Chinese characters.
+   * @tc.size   : MediumTest
+   * @tc.level  : 1
+   */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation007")
+      let driver: Driver = Driver.create();
+      let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation007_001'),1000);
+      await Button1.click();
+      await driver.waitForIdle(500,2000)
+      let Button2: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation007_002'),1000);
+      await Button2.click();
+      await driver.waitForIdle(2000,3000)
+      await Utils.sleep(2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007 finish.`);
+      done()
+    })
+
+
+    /*
+   * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023
+   * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023
+   * @tc.type   : In Stack mode, the title in Free mode includes both the main title and subtitle, and they are set to display extremely long strings in Chinese characters.
+   * @tc.size   : MediumTest
+   * @tc.level  : 1
+   */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation023")
+      let driver: Driver = Driver.create();
+      let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation023_001'),1000);
+      await Button1.click();
+      await driver.waitForIdle(500,2000)
+      let Button2: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation023_002'),1000);
+      await Button2.click();
+      await driver.waitForIdle(2000,3000)
+      await Utils.sleep(2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_045
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_045
+     * @tc.type   : In Split mode, the title in Free mode includes both the main title and subtitle, and Chinese characters are passed in.
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_045', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_045 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation045")
+      let driver: Driver = Driver.create();
+      let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation045_001'),1000);
+      await Button1.click();
+      await driver.waitForIdle(500,2000)
+      let Button2: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation045_002'),1000);
+      await Button2.click();
+      await driver.waitForIdle(500,2000)
+      let Button3: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation045_003'),1000);
+      await Button3.click();
+      await driver.waitForIdle(2000,3000)
+      await Utils.sleep(2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_045 finish.`);
+      done()
+    })
+
+
+    /*
+   * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043
+   * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043
+   * @tc.type   : In Split mode, the title in Free mode includes only the main title, which is set to display an extremely long string in Chinese characters.
+   * @tc.size   : MediumTest
+   * @tc.level  : 1
+   */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation043")
+      let driver: Driver = Driver.create();
+      let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation043_001'),1000);
+      await Button1.click();
+      await driver.waitForIdle(500,2000)
+      let Button2: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation043_002'),1000);
+      await Button2.click();
+      await driver.waitForIdle(500,2000)
+      let Button3: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation043_003'),1000);
+      await Button3.click();
+      await driver.waitForIdle(2000,3000)
+      await Utils.sleep(2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043 finish.`);
+      done()
+    })
+
+
+    /*
+  * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037
+  * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037
+  * @tc.type   : In Split mode, under the mini mode, dynamically toggle the visibility of the back icon, set both the main title and subtitle, and input Chinese characters.
+  * @tc.size   : MediumTest
+  * @tc.level  : 1
+  */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation037")
+      let driver: Driver = Driver.create();
+      let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation037_001'),1000);
+      await Button1.click();
+      await driver.waitForIdle(500,2000)
+      let Button2: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation037_002'),1000);
+      await Button2.click();
+      await driver.waitForIdle(500,2000)
+      let Button3: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation037_003'),1000);
+      await Button3.click();
+      await driver.waitForIdle(500,2000)
+      let Button4: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation037_004'),1000);
+      await Button4.click();
+      await driver.waitForIdle(2000,3000)
+      await Utils.sleep(2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037 finish.`);
+      done()
+    })
+
+
+    /*
+  * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054
+  * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054
+  * @tc.type   : Set the title bar of the NavDestination page to dynamically switch to blue.
+  * @tc.size   : MediumTest
+  * @tc.level  : 1
+  */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation054_001")
+      let driver: Driver = Driver.create();
+      let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation054_001'),1000);
+      await Button1.click();
+      await driver.waitForIdle(2000,3000)
+      let Button2: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation054_A1'),1000);
+      await Button2.click();
+      await driver.waitForIdle(2000,3000)
+      await Utils.sleep(2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054 finish.`);
+      done()
+    })
+
+
+    /*
+  * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015
+  * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015
+  * @tc.type   : In Stack mode, dynamically hide the back icon in the mini title bar, set primary and secondary titles, and pass in an extremely long Chinese string.
+  * @tc.size   : MediumTest
+  * @tc.level  : 1
+  */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation015")
+      let driver: Driver = Driver.create();
+      let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation015_001'),1000);
+      await Button1.click();
+      await driver.waitForIdle(500,2000)
+      let Button2: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation015_002'),1000);
+      await Button2.click();
+      await driver.waitForIdle(500,2000)
+      let Button3: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation015_003'),1000);
+      await Button3.click();
+      await driver.waitForIdle(2000,3000)
+      await Utils.sleep(2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015 finish.`);
+      done()
+    })
+
+
+    /*
+  * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019
+  * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019
+  * @tc.type   : In Stack mode, the title bar in Free mode only includes the primary title and sets the display for extremely long Chinese strings.
+  * @tc.size   : MediumTest
+  * @tc.level  : 1
+  */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation019")
+      let driver: Driver = Driver.create();
+      let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation019_001'),1000);
+      await Button1.click();
+      await driver.waitForIdle(500,2000)
+      let Button2: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation019_001'),1000);
+      await Button2.click();
+      await driver.waitForIdle(2000,3000)
+      await Utils.sleep(2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019 finish.`);
+      done()
+    })
+
   })
 }
