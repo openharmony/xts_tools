@@ -19,6 +19,10 @@
     {
       "name": "strokeWidth",
       "value": "50fp"
+    },
+    {
+      "name": "float_value_10",
+      "value": "10"
     }
   ]
 }

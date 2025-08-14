@@ -75,6 +75,10 @@
     {
       "name": "scale",
       "value": "50"
+    },
+    {
+      "name": "string_value_5",
+      "value": "5"
     }
   ]
 }
