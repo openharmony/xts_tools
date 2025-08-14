@@ -34,6 +34,12 @@ import ComponentTextTextInterface from './ComponentTextTextInterfaceTest/Compone
 import PopToName from './PopToNameTest/PopToName.test'
 import MediaImageSpanError from './MediaImageSpanErrorTest/MediaImageSpanError.test'
 import PropertyAnmationAnimations from './PropertyAnmationAnimationsTest/PropertyAnmationAnimations.test'
+import GaugeContentmodifier from './GaugeContentmodifierTest/GaugeContentmodifier.test'
+import AnimateTo from './AnimateToTest/AnimateTo.test'
+import Builder from './BuilderTest/Builder.test'
+import ProgressBuilder from './ProgressBuilderTest/ProgressBuilder.test'
+import ProgressModifierColor from './ProgressModifierColorTest/ProgressModifierColor.test'
+import ProgressInterface from './ProgressInterfaceTest/ProgressInterface.test'
 
 
 
@@ -58,4 +64,10 @@ export default function testsuite() {
   PopToName();
   MediaImageSpanError();
   PropertyAnmationAnimations();
+  GaugeContentmodifier();
+  AnimateTo();
+  Builder();
+  ProgressBuilder();
+  ProgressModifierColor();
+  ProgressInterface();
 }
