@@ -52,7 +52,7 @@ export default function stepperInterface01Test() {
       Settings.createWindow("testability/pages/stepper_interface/stepper01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0160')
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020 finish.`);
       done()
@@ -70,7 +70,7 @@ export default function stepperInterface01Test() {
       Settings.createWindow("testability/pages/stepper_interface/stepper02")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0100')
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0100 finish.`);
       done()
@@ -88,7 +88,7 @@ export default function stepperInterface01Test() {
       Settings.createWindow("testability/pages/stepper_interface/stepper03")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0190')
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0190 finish.`);
       done()

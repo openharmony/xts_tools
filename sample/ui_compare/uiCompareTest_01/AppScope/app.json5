@@ -15,7 +15,7 @@
 
 {
   "app": {
-    "bundleName": "com.example.uicompare",
+    "bundleName": "com.example.uiCompare_01",
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",

@@ -82,7 +82,7 @@ export default function gestureMonopolize01Test() {
       await driver.mouseScroll(point,true,2)
       Logger.info('TEST001', `button.getBoundsCenter point is : ${JSON.stringify(point)}`);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110')
+      windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110 finish.`);
       done()

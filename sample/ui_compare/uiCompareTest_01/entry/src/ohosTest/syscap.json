@@ -1,6 +1,7 @@
 {
     "devices": {
         "general": [
+            "default"
         ],
         "custom": [
             {
@@ -25,7 +26,9 @@
                     "SystemCapability.Global.I18n",
                     "SystemCapability.ArkUI.UiAppearance",
                     "SystemCapability.MiscServices.Pasteboard",
-                    "SystemCapability.ArkUI.ArkUI.Circle"
+                    "SystemCapability.ArkUI.ArkUI.Circle",
+                    "SystemCapability.Global.ResourceManager",
+                    "SystemCapability.Graphics.Drawing"
                 ]
             }
         ]

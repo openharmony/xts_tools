@@ -152,34 +152,34 @@ export default function NavigationInterfaceTest() {
       let button8: Component = await driver.waitForComponent(ON.id('nav04ChangeImgBmp'), 1000);
       await button4.click();
       Logger.info('TEST', `button4.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_01')
       await Utils.sleep(1000)
 
       await button5.click();
       Logger.info('TEST', `button5.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_02')
       await Utils.sleep(1000)
 
       await button6.click();
       Logger.info('TEST', `button6.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_03')
       await Utils.sleep(1000)
 
       await button7.click();
       Logger.info('TEST', `button7.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_04')
       await Utils.sleep(1000)
 
       await button8.click();
       Logger.info('TEST', `button8.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_05')
       await Utils.sleep(1000)
 
       await Settings.changeWindowOrientation('landScape');
       await driver.waitForIdle(500, 2000);
       Logger.info('TEST', `changeWindowOrientation first success. orientation is: ${globalThis.orientation}`);
       if (globalThis.orientation === window.Orientation.LANDSCAPE) {
-        windowSnap.snapShot()
+        windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_06')
         await Utils.sleep(1000)
         await Settings.changeWindowOrientation('portrait');
         await driver.waitForIdle(500, 2000);
@@ -189,27 +189,27 @@ export default function NavigationInterfaceTest() {
           let button9: Component = await driver.waitForComponent(ON.id('nav04ChangeImgPng'), 1000);
           await button9.click();
           Logger.info('TEST', `button9.click success.`);
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_07')
           await Utils.sleep(1000)
           let button10: Component = await driver.waitForComponent(ON.id('nav04ChangeImgJpg'), 1000);
           await button10.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_08')
           await Utils.sleep(1000)
           let button11: Component = await driver.waitForComponent(ON.id('nav04ChangeImgGif'), 1000);
           await button11.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_09')
           await Utils.sleep(1000)
           let button12: Component = await driver.waitForComponent(ON.id('nav04ChangeImgSvg'), 1000);
           await button12.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_10')
           await Utils.sleep(1000)
           let button13: Component = await driver.waitForComponent(ON.id('nav04ChangeImgBmp'), 1000);
           await button13.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_11')
           await Utils.sleep(1000)
         }
         await driver.waitForIdle(500, 2000);
-        windowSnap.snapShot()
+        windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496_12')
         await Utils.sleep(1000)
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496 finish.`);
         done()
@@ -233,14 +233,14 @@ export default function NavigationInterfaceTest() {
       await button1.click();
       Logger.info('TEST', `push PageThree success.`);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024_01')
       await Utils.sleep(1000)
 
       let button2: Component = await driver.waitForComponent(ON.id('nav05ChangeSystemBarStyle'), 1000);
       await button2.click();
       Logger.info('TEST', `change barColor success.`);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024 finish.`);
       done()
@@ -808,34 +808,34 @@ export default function NavigationInterfaceTest() {
       let button8: Component = await driver.waitForComponent(ON.id('nav33ChangeImgBmp'), 1000);
       await button4.click();
       Logger.info('TEST', `button4.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_01')
       await Utils.sleep(1000)
 
       await button5.click();
       Logger.info('TEST', `button5.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_02')
       await Utils.sleep(1000)
 
       await button6.click();
       Logger.info('TEST', `button6.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_03')
       await Utils.sleep(1000)
 
       await button7.click();
       Logger.info('TEST', `button7.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_04')
       await Utils.sleep(1000)
 
       await button8.click();
       Logger.info('TEST', `button8.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_05')
       await Utils.sleep(1000)
 
       await Settings.changeWindowOrientation('landScape');
       await driver.waitForIdle(500, 2000);
       Logger.info('TEST', `changeWindowOrientation first success. orientation is: ${globalThis.orientation}`);
       if (globalThis.orientation === window.Orientation.LANDSCAPE) {
-        windowSnap.snapShot()
+        windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_06')
         await Utils.sleep(1000)
         await Settings.changeWindowOrientation('portrait');
         await driver.waitForIdle(500, 2000);
@@ -845,27 +845,27 @@ export default function NavigationInterfaceTest() {
           let button9: Component = await driver.waitForComponent(ON.id('nav33ChangeImgPng'), 1000);
           await button9.click();
           Logger.info('TEST', `button9.click success.`);
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_07')
           await Utils.sleep(1000)
           let button10: Component = await driver.waitForComponent(ON.id('nav33ChangeImgJpg'), 1000);
           await button10.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_08')
           await Utils.sleep(1000)
           let button11: Component = await driver.waitForComponent(ON.id('nav33ChangeImgGif'), 1000);
           await button11.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_09')
           await Utils.sleep(1000)
           let button12: Component = await driver.waitForComponent(ON.id('nav33ChangeImgSvg'), 1000);
           await button12.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_10')
           await Utils.sleep(1000)
           let button13: Component = await driver.waitForComponent(ON.id('nav33ChangeImgBmp'), 1000);
           await button13.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_11')
           await Utils.sleep(1000)
         }
         await driver.waitForIdle(500, 2000);
-        windowSnap.snapShot()
+        windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249_12')
         await Utils.sleep(1000)
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249 finish.`);
         done()
@@ -946,10 +946,10 @@ export default function NavigationInterfaceTest() {
       let scrollBar: Component = await driver.waitForComponent(ON.id('nav37ScrollList'), 1000);
       await scrollBar.scrollToTop();
       await scrollBar.scrollToBottom();
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072_01')
       await Utils.sleep(1000)
       await scrollBar.scrollToBottom();
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072 finish.`);
       done()
@@ -1005,34 +1005,34 @@ export default function NavigationInterfaceTest() {
       let button8: Component = await driver.waitForComponent(ON.id('nav39ChangeImgBmp'), 1000);
       await button4.click();
       Logger.info('TEST', `button4.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_01')
       await Utils.sleep(1000)
 
       await button5.click();
       Logger.info('TEST', `button5.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_02')
       await Utils.sleep(1000)
 
       await button6.click();
       Logger.info('TEST', `button6.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_03')
       await Utils.sleep(1000)
 
       await button7.click();
       Logger.info('TEST', `button7.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_04')
       await Utils.sleep(1000)
 
       await button8.click();
       Logger.info('TEST', `button8.click success.`);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_05')
       await Utils.sleep(1000)
 
       await Settings.changeWindowOrientation('landScape');
       await driver.waitForIdle(500, 2000);
       Logger.info('TEST', `changeWindowOrientation first success. orientation is: ${globalThis.orientation}`);
       if (globalThis.orientation === window.Orientation.LANDSCAPE) {
-        windowSnap.snapShot()
+        windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_06')
         await Utils.sleep(1000)
         await Settings.changeWindowOrientation('portrait');
         await driver.waitForIdle(500, 2000);
@@ -1042,27 +1042,27 @@ export default function NavigationInterfaceTest() {
           let button9: Component = await driver.waitForComponent(ON.id('nav39ChangeImgPng'), 1000);
           await button9.click();
           Logger.info('TEST', `button9.click success.`);
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_07')
           await Utils.sleep(1000)
           let button10: Component = await driver.waitForComponent(ON.id('nav39ChangeImgJpg'), 1000);
           await button10.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_08')
           await Utils.sleep(1000)
           let button11: Component = await driver.waitForComponent(ON.id('nav39ChangeImgGif'), 1000);
           await button11.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_09')
           await Utils.sleep(1000)
           let button12: Component = await driver.waitForComponent(ON.id('nav39ChangeImgSvg'), 1000);
           await button12.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_10')
           await Utils.sleep(1000)
           let button13: Component = await driver.waitForComponent(ON.id('nav39ChangeImgBmp'), 1000);
           await button13.click();
-          windowSnap.snapShot()
+          windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_11')
           await Utils.sleep(1000)
         }
         await driver.waitForIdle(500, 2000);
-        windowSnap.snapShot()
+        windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916_12')
         await Utils.sleep(1000)
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916 finish.`);
         done()
@@ -1120,11 +1120,11 @@ export default function NavigationInterfaceTest() {
       Settings.createWindow("testability/pages/navigation_interface/navigation41")
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781_01')
       await Utils.sleep(1000)
       await Settings.changeWindowOrientation('landScape');
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781_02')
       await Utils.sleep(1000)
       await Settings.changeWindowOrientation('end');
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781 finish.`);

@@ -135,7 +135,7 @@ struct PageA {
           .id('PageA_Button8')
           .onClick(()=>{
             this.routePush('testability/pages/router_push/pageB')
-            Settings.changeWindowOrientation()
+            Settings.changeWindowOrientation('landScape')
             Utils.sleep(600)
             this.routePush('testability/pages/router_push/pageA')
           })
