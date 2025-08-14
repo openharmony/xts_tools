@@ -1,7 +1,7 @@
 {
   "src": [
-    "pages/StrSort",
     "pages/Index",
+    "pages/StrSort",
     "pages/CopyFile"
   ]
 }

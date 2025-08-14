@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,23 +18,23 @@ import { describe, it, expect } from '@ohos/hypium';
 import util from '@ohos.util';
 import Logger from '../common/Logger';
 
-const INDEX: number = 2;
-const SLEEP_TIME: number = 10;
-const RADIX: number = 16;
+const INDEX: number = 2.0;
+const SLEEP_TIME: number = 10.0;
+const RADIX: number = 16.0;
 
 export function strToUtf8Bytes(content: string): Array<number> {
   const code = encodeURIComponent(content);
   let bytes: Array<number> = [];
-  for (let i = 0; i < code.length; i++) {
+  for (let i: number = 0.0; i < code.length; i++) {
     const char: string = code.charAt(i);
     if (char === '%') {
-      const hex: string = code.charAt(i + 1) + code.charAt(i + INDEX);
+      const hex: string = code.charAt(i + 1.0) + code.charAt(i + INDEX);
       const hexValue: number = Math.floor(Number(hex));
       // const hexValue: number = parseInt(hex, RADIX);
       bytes.push(hexValue);
       i += INDEX;
     } else {
-      bytes.push(char.charCodeAt(0));
+      bytes.push(char.charCodeAt(0.0));
     }
   }
   return bytes;
@@ -43,8 +44,8 @@ export function strToArrayBuffer(text: string): ArrayBuffer {
   const bytes: number[] = strToUtf8Bytes(text);
   const buffer: ArrayBuffer = new ArrayBuffer(bytes.length);
   const bufView: DataView = new DataView(buffer);
-  for (let i: number = 0; i < bytes.length; i++) {
-    bufView.setUint8(i, bytes[i]);
+  for (let i: number = 0.0; i < bytes.length; i++) {
+    bufView.setUint8(i, bytes[i as int]);
   }
   return buffer;
 }
@@ -57,10 +58,10 @@ export async function sleep(times: number): Promise<void> {
 }
 
 export function randomString(num: number, chars: string): string {
-  let len = num;
-  let maxPos = chars.length;
+  let len: number = num;
+  let maxPos: number = chars.length;
   let pwd = '';
-  for (let i = 0; i < len; i++) {
+  for (let i: number = 0.0; i < len; i++) {
     pwd += chars.charAt(Math.floor(Math.random() * maxPos));
   }
   return pwd;

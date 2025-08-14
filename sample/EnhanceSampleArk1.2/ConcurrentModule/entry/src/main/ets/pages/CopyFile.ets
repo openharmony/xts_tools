@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,34 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  Resource,
+  getContext,
+  StorageLink,
+  Scroller,
+  AppStorage,
+  Scroll,
+  Row,
+  Column,
+  Image,
+  Alignment,
+  Text,
+  TextAlign,
+  Flex,
+  FlexDirection,
+  List,
+  ForEach,
+  ListItem,
+  Checkbox,
+  ListItemAlign,
+  BarState,
+  Button,
+} from '@kit.ArkUI';
+
 import MyWorker from '../fileFs/MyWorker';
 import common from '@ohos.app.ability.common';
 import fs from '@ohos.file.fs';
@@ -46,11 +75,11 @@ struct Watcher {
     let filePathDir = this.baseDir + '/workerDir';
     let filenames = fs.listFileSync(filePathDir);
     Logger.info(TAG, 'listFile succeed');
-    for (let i = 0; i < filenames.length; i++) {
-      Logger.info(TAG, 'filename: %s', filenames[i]);
-      this.showFilePath[i] = filenames[i];
-      let filePath = filePathDir + '/' + filenames[i]
-      this.filePathSize[i] = fs.statSync(filePath).size;
+    for (let i: number = 0.0; i < filenames.length; i++) {
+      Logger.info(TAG, 'filename: %s', filenames[i as int]);
+      this.showFilePath[i as int] = filenames[i as int];
+      let filePath = filePathDir + '/' + filenames[i as int]
+      this.filePathSize[i as int] = fs.statSync(filePath).size;
     }
     this.dirPath = this.baseDir + '/workerCopy';
     if (!fs.accessSync(this.dirPath)) {
@@ -82,23 +111,23 @@ struct Watcher {
           Row() {
             Image($r('app.media.ic_back'))
               .id('backIndex2')
-              .width(20)
-              .height(18)
+              .width(20.0)
+              .height(18.0)
               .align(Alignment.Start)
-              .margin({ top: 13, bottom: 15, left: 26, right: 18 })
+              .margin({ top: 13.0, bottom: 15.0, left: 26.0, right: 18.0 })
               .onClick(() => {
                 router.back();
               })
             Text(this.message)
-              .fontSize(20)
+              .fontSize(20.0)
               .fontColor('#182431')
               .textAlign(TextAlign.Start)
-              .lineHeight(28)
-              .fontWeight(700)
-              .margin({ top: 13, bottom: 15 })
+              .lineHeight(28.0)
+              .fontWeight(700.0)
+              .margin({ top: 13.0, bottom: 15.0 })
           }
           .width('100%')
-          .height(56)
+          .height(56.0)
           .backgroundColor('#f1f3f5')
           .align(Alignment.Start)
 
@@ -108,54 +137,54 @@ struct Watcher {
               Row() {
                 Row() {
                   Text($r('app.string.workerTitleText'))
-                    .fontSize(14)
+                    .fontSize(14.0)
                     .margin({ top: 19.5, bottom: 9.5 })
-                    .lineHeight(19)
-                    .width(176)
+                    .lineHeight(19.0)
+                    .width(176.0)
                     .fontColor('#182431')
-                    .fontWeight(500)
+                    .fontWeight(500.0)
                     .textAlign(TextAlign.Start)
                 }
                 .width('100%')
                 .backgroundColor('#f1f3f5')
               }
-              .margin({ left: 24, right: 52 })
-              .height(48)
+              .margin({ left: 24.0, right: 52.0 })
+              .height(48.0)
               .backgroundColor('#f1f3f5')
 
               Column() {
-                List({ space: 12, initialIndex: 0 }) {
+                List({ space: 12.0, initialIndex: 0.0 }) {
                   ForEach(this.showFilePath, (item: string, index: number) => {
                     ListItem() {
                       Row() {
                         Text(item)
-                          .fontSize(16)
+                          .fontSize(16.0)
                           .fontColor('#182431')
                           .width('86%')
-                          .lineHeight(22)
+                          .lineHeight(22.0)
                           .textAlign(TextAlign.Start)
-                          .fontWeight(500)
-                          .margin({ left: 12 })
-                          .borderRadius(10)
+                          .fontWeight(500.0)
+                          .margin({ left: 12.0 })
+                          .borderRadius(10.0)
                           .backgroundColor(0xFFFFFF)
                         Row() {
                           Checkbox()
                             .select(false)
                             .id('checkbox' + index)
-                            .width(20)
-                            .height(20)
-                            .margin({ right: 12 })
+                            .width(20.0)
+                            .height(20.0)
+                            .margin({ right: 12.0 })
                             .selectedColor('#007DFF')
-                            .borderRadius(4)
+                            .borderRadius(4.0)
                             .onChange((value: boolean) => {
                               Logger.info(TAG, 'Checkbox1 change is' + value);
                               if (value) {
                                 Logger.info(TAG, 'Workerets Checkbox1 index ' + index + ' is true');
-                                this.eventFilePath.push(this.showFilePath[index]);
+                                this.eventFilePath.push(this.showFilePath[index as int]);
                               } else {
-                                for (let i: number = 0; i < this.eventFilePath.length; i++) {
-                                  if (this.eventFilePath[i] === this.showFilePath[index]) {
-                                    this.eventFilePath[i] = 'deletedTag';
+                                for (let i: number = 0.0; i < this.eventFilePath.length; i++) {
+                                  if (this.eventFilePath[i as int] === this.showFilePath[index as int]) {
+                                    this.eventFilePath[i as int] = 'deletedTag';
                                   }
                                 }
                               }
@@ -164,9 +193,9 @@ struct Watcher {
                         .id('row' + index)
                         .width('9%')
                       }
-                      .borderRadius(20)
-                      .margin({ left: 12, right: 12 })
-                      .height(56)
+                      .borderRadius(20.0)
+                      .margin({ left: 12.0, right: 12.0 })
+                      .height(56.0)
                       .backgroundColor(0xFFFFFF)
                     }
                     .id('listItem')
@@ -177,19 +206,19 @@ struct Watcher {
                 .scrollBar(BarState.Auto)
               }
               .backgroundColor('#f1f3f5')
-              .height(436)
+              .height(436.0)
               .align(Alignment.Center)
 
               Column() {
                 Row() {
                   Text($r('app.string.logTitle'))
-                    .fontSize(14)
+                    .fontSize(14.0)
                     .fontColor('#182431')
                     .textAlign(TextAlign.Start)
-                    .lineHeight(19)
-                    .fontWeight(500)
-                    .margin({ top: 19.5, left: 24 })
-                    .width(176)
+                    .lineHeight(19.0)
+                    .fontWeight(500.0)
+                    .margin({ top: 19.5, left: 24.0 })
+                    .width(176.0)
                 }
                 .width('100%')
                 .align(Alignment.Start)
@@ -197,33 +226,33 @@ struct Watcher {
                 Column() {
                   Column() {
                     Text(this.copyFileLog1 + this.fileNum + this.copyFileLog2)
-                      .fontSize(16)
+                      .fontSize(16.0)
                       .fontColor('#182431')
-                      .fontWeight(400)
+                      .fontWeight(400.0)
                       .width('100%')
                     Text(this.copyFileShowLog)
-                      .fontSize(16)
+                      .fontSize(16.0)
                       .id("copyFileLog")
                       .fontColor('#182431')
-                      .fontWeight(400)
+                      .fontWeight(400.0)
                       .width('100%')
                   }
-                  .margin({ top: 8, left: 12, right: 12, bottom: 8 })
-                  .height(64)
+                  .margin({ top: 8.0, left: 12.0, right: 12.0, bottom: 8.0 })
+                  .height(64.0)
                 }
-                .borderRadius(20)
-                .height(80)
-                .margin({ top: 9.5, left: 16, right: 16 })
+                .borderRadius(20.0)
+                .height(80.0)
+                .margin({ top: 9.5, left: 16.0, right: 16.0 })
                 .backgroundColor('#ffffff')
 
-                Row({ space: 1 }) {
+                Row({ space: 1.0 }) {
                   Column() {
                     Button($r('app.string.copyFileText'))
-                      .fontSize(16)
-                      .width(312)
-                      .height(40)
+                      .fontSize(16.0)
+                      .width(312.0)
+                      .height(40.0)
                       .fontColor('#FFFFFF')
-                      .fontWeight(500)
+                      .fontWeight(500.0)
                       .id('copyFile')
                       .onClick(async () => {
                         this.myWorker.deleteCopyFile(this.dirPath);
@@ -235,11 +264,11 @@ struct Watcher {
                 }
                 .align(Alignment.Center)
                 .width('100%')
-                .margin({ top: 24, left: 24, right: 24, bottom: 24 })
+                .margin({ top: 24.0, left: 24.0, right: 24.0, bottom: 24.0 })
               }
               .backgroundColor('#f1f3f5')
               .width('100%')
-              .height(216)
+              .height(216.0)
             }
             .backgroundColor('#f1f3f5')
             .width('100%')

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  State,
+  Column,
+  Text,
+  TextArea,
+  TextAlign,
+  Scroll,
+  Alignment,
+  GridRow,
+  GridRowDirection,
+  Row,
+  GridCol,
+  Button,
+  FlexAlign,
+} from '@kit.ArkUI';
 
 import worker from '@ohos.worker';
 
@@ -32,8 +50,8 @@ export struct WorkerTab {
         .fontFamily("HarmonyHeiTi-Medium")
         .fontSize("16fp")
         .fontColor("#182431")
-        .lineHeight(22)
-        .fontWeight(500)
+        .lineHeight(22.0)
+        .fontWeight(500.0)
 
       TextArea({text:this.jsWorkerInPutStr})
         .id("jsWorkerInPutTextArea")
@@ -44,7 +62,7 @@ export struct WorkerTab {
         .fontFamily("HarmonyHeiTi")
         .fontSize("16fp")
         .fontColor("#182431")
-        .fontWeight(400)
+        .fontWeight(400.0)
         .padding({ top: "8vp" , left: "16vp", right: "16vp", bottom: "21vp" })
         .borderRadius("24vp")
         .backgroundColor("#ffffff")
@@ -61,8 +79,8 @@ export struct WorkerTab {
         .fontFamily("HarmonyHeiTi-Medium")
         .fontSize("16fp")
         .fontColor("#182431")
-        .lineHeight(22)
-        .fontWeight(500)
+        .lineHeight(22.0)
+        .fontWeight(500.0)
 
       Scroll() {
         Text(this.jsWorkerOutPutStr)
@@ -70,7 +88,7 @@ export struct WorkerTab {
           .fontFamily("HarmonyHeiTi")
           .fontSize("16fp")
           .fontColor("#182431")
-          .fontWeight(400)
+          .fontWeight(400.0)
           .padding({ top: "8vp" , left: "16vp", right: "16vp", bottom: "21vp" })
       }
       .id("jsWorkerOutPutScroll")
@@ -81,11 +99,11 @@ export struct WorkerTab {
       .backgroundColor("#ffffff")
       .align(Alignment.TopStart)
 
-      GridRow({columns: 4,
-        gutter: { x: 12, y: 12 },
+      GridRow({columns: 4.0,
+        gutter: { x: 12.0, y: 12.0 },
         breakpoints: { value: ["360vp", "480vp"]},
         direction: GridRowDirection.Row}) {
-        GridCol ({ span: 2, offset: 0 }) {
+        GridCol ({ span: 2.0, offset: 0.0 }) {
           Button() {
             Text($r('app.string.Clear_desc'))
               .width("100%")
@@ -94,8 +112,8 @@ export struct WorkerTab {
               .fontSize("16fp")
               .fontColor("#007DFF")
               .textAlign(TextAlign.Center)
-              .lineHeight(22)
-              .fontWeight(500)
+              .lineHeight(22.0)
+              .fontWeight(500.0)
           }
           .id("workerClearButton")
           .height("40vp")
@@ -107,7 +125,7 @@ export struct WorkerTab {
           })
         }
 
-        GridCol ({ span: 2, offset: 0 }) {
+        GridCol ({ span: 2.0, offset: 0.0 }) {
           Button() {
             Text($r('app.string.SortString_desc'))
               .width("100%")
@@ -116,8 +134,8 @@ export struct WorkerTab {
               .fontSize("16fp")
               .fontColor("#FFFFFF")
               .textAlign(TextAlign.Center)
-              .lineHeight(22)
-              .fontWeight(500)
+              .lineHeight(22.0)
+              .fontWeight(500.0)
           }
           .id("workerStrSort")
           .height("40vp")
@@ -160,8 +178,8 @@ export struct WorkerTab {
 function promiseCase() : Promise<Object | void> {
   let p: Promise<Object | void> = new Promise<Object>((resolve: Function, reject: Function) => {
     setTimeout(() => {
-      resolve(1)
-    }, 100)
+      resolve.unsafeCall(1.0)
+    }, 100.0)
   }).then(undefined, () => {
   })
   return p;
