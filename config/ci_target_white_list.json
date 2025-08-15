@@ -145,8 +145,16 @@
         "add_target": []
       },
       {
-        "path": "arkcompiler/ets_frontend/ets2panda",
+        "path": "arkcompiler/ets_frontend",
         "bundle_name": "ets_frontend",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT_TOTALLY"
+        ]
+      },
+      {
+        "path": "test/xts/tools",
+        "bundle_name": "xts_tools",
         "add_bundle": [],
         "add_target": [
           "FULL_IMPACT_TOTALLY"
