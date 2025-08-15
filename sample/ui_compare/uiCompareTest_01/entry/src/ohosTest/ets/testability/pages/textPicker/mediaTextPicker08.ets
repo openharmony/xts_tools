@@ -22,7 +22,7 @@ let bott:bottom = new bottom();
 
 @Entry
 @Component
-struct mediaTextPicker05 {
+struct mediaTextPicker08 {
   private select: number = 1;
   private apfruits: string[] = [
     'apple11111',
@@ -34,10 +34,34 @@ struct mediaTextPicker05 {
   @State singleColumnWidths: LengthMetrics[] = [
     LengthMetrics.vp(this.widthNum)
   ];
+  @State message:string = 'before swipe';
 
   build() {
     Column() {
+      Text('disableTextStyleAnimation = false')
+        .height(30)
+        .fontSize(15)
+        .textAlign(TextAlign.Center)
+        .fontColor(Color.Black)
+        .width('80%')
+        .border({ width: 1 })
+        .lineHeight(20)
+        .fontWeight(300)
+        .margin(6)
+
+      Text(this.message)
+        .height(30)
+        .fontSize(15)
+        .textAlign(TextAlign.Center)
+        .fontColor(Color.Black)
+        .width('80%')
+        .border({ width: 1 })
+        .lineHeight(20)
+        .fontWeight(300)
+        .margin(6)
+
       TextPicker({ range: this.apfruits, selected: this.select, columnWidths: [LengthMetrics.vp(this.widthNum)] })
+        .id('mediaTextPicker08')
         .onChange((value: string | string[], index: number | number[]) => {
           console.info('Picker item changed, value: ' + value + ', index: ' + index);
         })
@@ -47,22 +71,9 @@ struct mediaTextPicker05 {
         .onEnterSelectedArea((value: string | string[], index: number | number[]) => {
           console.info('Picker item enter selected area, value: ' + value + ', index: ' + index);
         })
-        .disableTextStyleAnimation(true)
+        .disableTextStyleAnimation(false)
         .defaultTextStyle({ minFontSize: 18, maxFontSize: 28, overflow: TextOverflow.Ellipsis })
         .margin({top:'10%'})
-
-      Button('change width')
-        .id('mediaTextPicker05')
-        .height(40)
-        .fontSize(15)
-        .fontColor(Color.Black)
-        .width('70%')
-        .border({ width: 1 })
-        .fontWeight(300)
-        .margin(10)
-        .onClick(() => {
-          this.widthNum = 400;
-        })
-    }.width('80%')
+    }.width('100%')
   }
 }

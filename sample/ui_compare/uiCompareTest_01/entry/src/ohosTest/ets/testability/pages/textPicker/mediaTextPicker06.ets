@@ -16,13 +16,14 @@
 import { LengthMetrics } from '@kit.ArkUI';
 
 class bottom {
-  bottom:number = 50;
+  bottom: number = 50;
 }
-let bott:bottom = new bottom();
+
+let bott: bottom = new bottom();
 
 @Entry
 @Component
-struct mediaTextPicker05 {
+struct mediaTextPicker06 {
   private select: number = 1;
   private apfruits: string[] = [
     'apple11111',
@@ -31,28 +32,53 @@ struct mediaTextPicker05 {
     'apple11111'
   ];
   @State widthNum: number = 90;
+  @State minFontSize: Length = 14;
+  @State maxFontSize: Length = 28;
+  @State fontSize: Length = 28;
   @State singleColumnWidths: LengthMetrics[] = [
     LengthMetrics.vp(this.widthNum)
   ];
 
   build() {
     Column() {
+      Text('TextPicker test change fontSize')
+        .height(30)
+        .fontSize(15)
+        .textAlign(TextAlign.Center)
+        .fontColor(Color.Black)
+        .width('80%')
+        .border({ width: 1 })
+        .lineHeight(20)
+        .fontWeight(300)
+        .margin(6)
+
       TextPicker({ range: this.apfruits, selected: this.select, columnWidths: [LengthMetrics.vp(this.widthNum)] })
         .onChange((value: string | string[], index: number | number[]) => {
           console.info('Picker item changed, value: ' + value + ', index: ' + index);
         })
         .onScrollStop((value: string | string[], index: number | number[]) => {
           console.info('Picker scroll stopped, value: ' + value + ', index: ' + index);
-        }).margin(bott)
+        })
+        .margin(bott)
         .onEnterSelectedArea((value: string | string[], index: number | number[]) => {
           console.info('Picker item enter selected area, value: ' + value + ', index: ' + index);
         })
         .disableTextStyleAnimation(true)
-        .defaultTextStyle({ minFontSize: 18, maxFontSize: 28, overflow: TextOverflow.Ellipsis })
-        .margin({top:'10%'})
+          .defaultTextStyle(
+          {
+            font:
+            {
+              size: this.fontSize,
+              weight: FontWeight.Normal
+            },
+            minFontSize: this.minFontSize,
+            maxFontSize: this.maxFontSize,
+            overflow: TextOverflow.Ellipsis
+          })
+        .margin({ top: '10%' })
 
-      Button('change width')
-        .id('mediaTextPicker05')
+      Button('change fontSize')
+        .id('mediaTextPicker06')
         .height(40)
         .fontSize(15)
         .fontColor(Color.Black)
@@ -61,8 +87,8 @@ struct mediaTextPicker05 {
         .fontWeight(300)
         .margin(10)
         .onClick(() => {
-          this.widthNum = 400;
+          this.maxFontSize = 14;
         })
-    }.width('80%')
+    }.width('100%')
   }
 }

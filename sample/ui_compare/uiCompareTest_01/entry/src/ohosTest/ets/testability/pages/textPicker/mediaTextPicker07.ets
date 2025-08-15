@@ -16,13 +16,14 @@
 import { LengthMetrics } from '@kit.ArkUI';
 
 class bottom {
-  bottom:number = 50;
+  bottom: number = 50;
 }
-let bott:bottom = new bottom();
+
+let bott: bottom = new bottom();
 
 @Entry
 @Component
-struct mediaTextPicker05 {
+struct mediaTextPicker07 {
   private select: number = 1;
   private apfruits: string[] = [
     'apple11111',
@@ -31,38 +32,56 @@ struct mediaTextPicker05 {
     'apple11111'
   ];
   @State widthNum: number = 90;
+  @State minFontSize: Length = 14;
+  @State maxFontSize: Length = 28;
+  @State fontSize: Length = 28;
   @State singleColumnWidths: LengthMetrics[] = [
     LengthMetrics.vp(this.widthNum)
   ];
+  @State message:string = 'before swipe';
 
   build() {
     Column() {
+      Text('TextPicker test without defaultTextStyle')
+        .height(30)
+        .fontSize(15)
+        .textAlign(TextAlign.Center)
+        .fontColor(Color.Black)
+        .width('80%')
+        .border({ width: 1 })
+        .lineHeight(20)
+        .fontWeight(300)
+        .margin(6)
+
+      Text(this.message)
+        .height(30)
+        .fontSize(15)
+        .textAlign(TextAlign.Center)
+        .fontColor(Color.Black)
+        .width('80%')
+        .border({ width: 1 })
+        .lineHeight(20)
+        .fontWeight(300)
+        .margin(6)
+
       TextPicker({ range: this.apfruits, selected: this.select, columnWidths: [LengthMetrics.vp(this.widthNum)] })
+        .id('mediaTextPicker07')
         .onChange((value: string | string[], index: number | number[]) => {
           console.info('Picker item changed, value: ' + value + ', index: ' + index);
         })
         .onScrollStop((value: string | string[], index: number | number[]) => {
           console.info('Picker scroll stopped, value: ' + value + ', index: ' + index);
-        }).margin(bott)
+          this.message = 'after swipe';
+        })
+        .margin(bott)
         .onEnterSelectedArea((value: string | string[], index: number | number[]) => {
           console.info('Picker item enter selected area, value: ' + value + ', index: ' + index);
         })
         .disableTextStyleAnimation(true)
-        .defaultTextStyle({ minFontSize: 18, maxFontSize: 28, overflow: TextOverflow.Ellipsis })
-        .margin({top:'10%'})
-
-      Button('change width')
-        .id('mediaTextPicker05')
-        .height(40)
-        .fontSize(15)
-        .fontColor(Color.Black)
-        .width('70%')
-        .border({ width: 1 })
-        .fontWeight(300)
-        .margin(10)
-        .onClick(() => {
-          this.widthNum = 400;
-        })
-    }.width('80%')
+        .disappearTextStyle({ color: Color.Red, font: { size: 15, weight: FontWeight.Lighter } })
+        .textStyle({ color: Color.Black, font: { size: 20, weight: FontWeight.Normal } })
+        .selectedTextStyle({ color: Color.Blue, font: { size: 30, weight: FontWeight.Bolder } })
+        .margin({ top: '10%' })
+    }.width('100%')
   }
 }

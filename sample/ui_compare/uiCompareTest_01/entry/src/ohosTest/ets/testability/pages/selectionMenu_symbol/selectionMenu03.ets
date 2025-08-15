@@ -18,8 +18,11 @@ import {
   ExpandedMenuOptions,
   EditorEventInfo,
   SelectionMenuOptions,
-  SymbolGlyphModifier
+  SymbolGlyphModifier,
+  uiAppearance
 } from '@kit.ArkUI'
+import { i18n } from '@kit.LocalizationKit';
+import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
@@ -327,6 +330,44 @@ struct selectionMenu03 {
         .borderColor(Color.Red)
         .width(200)
         .height(200)
+
+      // 设置维吾尔族语言
+      Button('setLanguage')
+        .margin({top:30})
+        .height(40)
+        .id('setUg')
+        .onClick( () => {
+          try {
+            i18n.System.setSystemLanguage('ug');
+          } catch(error) {
+            let err: BusinessError = error as BusinessError;
+            console.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+          }
+        })
+
+      Button('setFontSize')
+        .margin({top:30})
+        .height(40)
+        .id('setFontSize')
+        .onClick( () => {
+          uiAppearance.setFontScale(999).then(() => {
+            console.info('Set fontScale successfully.');
+          }).catch((error:Error) => {
+            console.error('Set fontScale failed, ' + error.message);
+          });
+        })
+
+      Button('setFontWeight')
+        .margin({top:30})
+        .height(40)
+        .id('setFontWeight')
+        .onClick( () => {
+          uiAppearance.setFontWeightScale(999).then(() => {
+            console.info('Set fontWeightScale successfully.');
+          }).catch((error:Error) => {
+            console.error('Set fontWeightScale failed, ' + error.message);
+          });
+        })
     }
   }
 }
