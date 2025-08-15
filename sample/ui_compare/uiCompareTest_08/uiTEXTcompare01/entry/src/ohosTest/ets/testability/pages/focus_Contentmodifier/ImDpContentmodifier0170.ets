@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import config from '@ohos.accessibility.config';
+import accessibilityConfig from '@ohos.accessibility.config';
 
 @Builder
 function buildDataPanel0170(config: DataPanelConfiguration) {
