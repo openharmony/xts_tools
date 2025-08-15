@@ -41,7 +41,7 @@ struct PreventDefault0001 {
 
             }
           })
-          this.controller.addImageSpan($r("app.media.res1"), {
+          this.controller.addImageSpan($r("app.media.img2"), {
             imageStyle: {
               size: ["57px", "57px"]
             },
