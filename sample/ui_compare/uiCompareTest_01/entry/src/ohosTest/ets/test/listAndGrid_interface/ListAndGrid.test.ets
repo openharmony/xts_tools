@@ -42,7 +42,7 @@ export default function ListAndGridTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0550
-     * @tc.name   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0550
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -62,7 +62,7 @@ export default function ListAndGridTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0780
-     * @tc.name   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0780
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,7 +80,7 @@ export default function ListAndGridTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0790
-     * @tc.name   :
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0790
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,6 +93,62 @@ export default function ListAndGridTest() {
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0790 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0600', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0600 start.`);
+      Settings.createWindow("testability/pages/listAndGrid_interface/listAndGrid04")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let button: Component = await driver.findComponent(ON.type('listAndGrid04'));
+      await button.longClick();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0600 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0100', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0100 start.`);
+      Settings.createWindow("testability/pages/listAndGrid_interface/listAndGrid05")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0100 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0250', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0250 start.`);
+      Settings.createWindow("testability/pages/listAndGrid_interface/listAndGrid06")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0250 finish.`);
       done()
     })
   })
