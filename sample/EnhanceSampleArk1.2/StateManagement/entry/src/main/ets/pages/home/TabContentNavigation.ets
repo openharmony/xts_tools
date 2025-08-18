@@ -20,6 +20,7 @@ import {
   Component,
   Column,
   List,
+  ForEach,
   ListItem,
   Text,
   TextAlign,
@@ -34,13 +35,12 @@ import {
   ClickEvent,
   Margin,
   $r,
-  ColumnOptions
+  ColumnOptions,
 } from '@kit.ArkUI';
 
 import router from '@ohos.router';
 import { SecondLevelCategory, ThirdLevelCategory, FourthLevelCategory } from './model/CategoricalDataType';
 import { UIContext } from '@ohos.arkui.UIContext';
-import { ForEach } from '@ohos.arkui.component';
 
 function ColumnStyle(this: ColumnAttribute): ColumnAttribute {
   this.width('100%');
@@ -57,7 +57,8 @@ function ColumnStyle(this: ColumnAttribute): ColumnAttribute {
 
 @Component
 export struct TabContentNavigation {
-  private categories: (ThirdLevelCategory | SecondLevelCategory)[] = [];
+  private categories: Array<ThirdLevelCategory | SecondLevelCategory> =
+    new Array<ThirdLevelCategory | SecondLevelCategory>();
 
   hasSecondLevelCategory(category: ThirdLevelCategory | SecondLevelCategory): boolean {
     return (category as SecondLevelCategory).tag !== undefined;
@@ -86,7 +87,7 @@ export struct TabContentNavigation {
                       thirdLevelCategoryIndex: number) => {
                       ThirdLevelNavigation({
                         thirdLevelCategory: thirdLevelCategory,
-                        secondLevelCategoryIndex: index, // 使用外层索引
+                        secondLevelCategoryIndex: index,
                         ThirdLevelNavigationIndex: thirdLevelCategoryIndex
                       })
                     })
@@ -135,14 +136,14 @@ export struct TabContentNavigation {
 @Component
 struct ThirdLevelNavigation {
   @State isUnfold: boolean = false;
-  private thirdLevelCategory: ThirdLevelCategory;
+  private thirdLevelCategory?: ThirdLevelCategory;
   private ThirdLevelNavigationIndex: number;
   private secondLevelCategoryIndex: number;
 
   build() {
     Column() {
       Row() {
-        Text(this.thirdLevelCategory.title)
+        Text(this.thirdLevelCategory?.title)
           .fontSize(16.0)
           .margin({ left: 16.0 } as Margin)
           .fontFamily('HarmonyHeiTi-Medium')
@@ -150,7 +151,7 @@ struct ThirdLevelNavigation {
 
         Blank()
 
-        if (this.thirdLevelCategory.childNodes) {
+        if (this.thirdLevelCategory?.childNodes) {
           Image(this.isUnfold ? $r('app.media.ic_down_arrow') : $r('app.media.ic_right_arrow'))
             .width(this.isUnfold ? 24.0 : 12.0)
             .height(this.isUnfold ? 12.0 : 24.0)
@@ -160,9 +161,9 @@ struct ThirdLevelNavigation {
       .height(56.0)
       .width('100%')
       .onClick((event: ClickEvent) => {
-        if (this.thirdLevelCategory.childNodes === undefined) {
+        if (!this.thirdLevelCategory?.childNodes) {
           this.getUIContext().getRouter().pushUrl({
-            url: this.thirdLevelCategory.url as string
+            url: this.thirdLevelCategory?.url as string
           });
         } else {
           this.isUnfold = !this.isUnfold;
@@ -170,7 +171,7 @@ struct ThirdLevelNavigation {
       })
 
       if (this.isUnfold) {
-        ForEach(this.thirdLevelCategory.childNodes, (fourthLevelCategory: FourthLevelCategory, index: number) => {
+        ForEach(this.thirdLevelCategory?.childNodes!, (fourthLevelCategory: FourthLevelCategory, index: number) => {
           Column() {
             Divider()
               .height(1.0)
@@ -180,7 +181,7 @@ struct ThirdLevelNavigation {
 
             FourthLevelNavigation({ fourthLevelCategory: fourthLevelCategory })
           }
-        }, (item: FourthLevelCategory) => item.toString()) // 添加key生成函数
+        }, (item: FourthLevelCategory) => item.title.toString()) // 添加key生成函数
       }
     }
     .id(`secondLevelMenu${this.secondLevelCategoryIndex}${this.secondLevelCategoryIndex === 1 ? 0 :
@@ -190,11 +191,11 @@ struct ThirdLevelNavigation {
 
 @Component
 struct FourthLevelNavigation {
-  private fourthLevelCategory: FourthLevelCategory;
+  private fourthLevelCategory?: FourthLevelCategory;
 
   build() {
     Row() {
-      Text(this.fourthLevelCategory.title)
+      Text(this.fourthLevelCategory?.title)
         .fontSize(16.0)
         .layoutWeight(1.0)
         .margin({ left: 42.0 } as Margin)
@@ -208,7 +209,7 @@ struct FourthLevelNavigation {
     .onClick((event: ClickEvent) => {
       // Click to jump to the corresponding page
       this.getUIContext().getRouter().pushUrl({
-        url: this.fourthLevelCategory.url as string
+        url: this.fourthLevelCategory?.url as string
       });
     })
   }
