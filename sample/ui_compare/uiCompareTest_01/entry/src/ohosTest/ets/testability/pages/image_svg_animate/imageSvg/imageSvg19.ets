@@ -15,13 +15,13 @@
 
 @Entry
 @Component
-struct imageSvg18 {
+struct imageSvg19 {
   build() {
     Column() {
       Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Start }) {
         Row() {
 
-          Image($r('app.media.animate18'))
+          Image($r('app.media.animate19'))
             .width(110)
             .height(110)
             .margin(15)
