@@ -207,7 +207,7 @@ export default function TextPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0025', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0025 start.`);
-      Settings.createWindow("testability/pages/textPicker/mediaTextPicker08")
+      Settings.createWindow("testability/pages/textPicker/mediaTextPicker09")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let textPicker: Component = await driver.waitForComponent(ON.id('mediaTextPicker09'), 1000);
