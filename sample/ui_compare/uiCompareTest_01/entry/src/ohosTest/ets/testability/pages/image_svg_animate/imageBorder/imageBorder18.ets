@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageBorder17 {
+struct imageBorder18 {
   @State info:string = 'loading~~';
 
   build() {
