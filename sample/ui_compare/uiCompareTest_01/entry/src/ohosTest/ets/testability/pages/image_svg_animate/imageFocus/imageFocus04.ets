@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageFocus03 {
+struct imageFocus04 {
 
   build() {
     Column() {
