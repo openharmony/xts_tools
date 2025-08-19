@@ -14,19 +14,18 @@
  */
 
 import gestureMonopolize01Test from './gesture_monopolize/GestureMonopolize01.test';
-import stepperInterface01Test from './stepper_interface/stepperInterface01.test';
-import navigationContent01Test from './navigation_content/navigationContent01.test';
+import stepperInterface01Test from './stepper_interface/StepperInterface01.test';
+import navigationContent01Test from './navigation_content/NavigationContent01.test';
 import animatorCreate01Test from './animator_sample/animatorCreate01.test';
-import expectedFrameTest from './expectedFrame/expectedFrame.test';
-import waterflowMirrorTest from './waterflow_mirror/waterflowMirror.test';
+import expectedFrameTest from './expectedFrame/ExpectedFrame.test';
+import waterflowMirrorTest from './waterflow_mirror/WaterflowMirror.test';
 import scrollAccessibleTest from './scroll_accessible/ScrollAccessible.test';
-import specialComponentsTest from './special_components/specialComponents.test';
+import SpecialComponentsTest from './special_components/SpecialComponents.test';
 import measureResultTest from './measureResult/MeasureResult.test';
 import FocusDynamicTest from './focus_dynamic/FocusDynamic.test';
 import RouterPushTest from './router_push/RouterPush.test';
-import ImageSpanTest from './image_span/imageSpan.test';
-import SelectionMenuSymbolTest from './selectionMenu_symbol/selectionMenuSymbol.test';
-
+import ImageSpanTest from './image_span/ImageSpan.test';
+import SelectionMenuSymbolTest from './selectionMenu_symbol/SelectionMenuSymbol.test';
 import NavigationInterfaceTest from './navigation_interface/NavigationInterface.test';
 import TextInputTest from './textInput/TextInput.test';
 import columnTest from './column_matchParent/Column.test';
@@ -43,6 +42,26 @@ import TextPicker02Test from './textPicker/TextPicker02.test';
 import SidebarContainerStepperTest from './sidebarContainer_stepper/SidebarContainerStepper.test';
 import ArcSwiperTest from './arc_interface/ArcSwiper.test';
 import ListAndGridTest from './listAndGrid_interface/ListAndGrid.test';
+import ImageRadiusTest from './image_svg_animate/ImageRadius.test';
+import UiReverseTest from './uiReverse/UiReverse.test';
+import RepeatWaterFlowTest from './repeatWaterFlow/RepeatWaterFlow.test';
+import LoadingProgressTest from './loadingProgress/LoadingProgress.test';
+import DatePickerModeTest from './datePicker/DatePickerMode.test';
+import ImageLatticeTest from './image_svg_animate/ImageLattice.test';
+import ImageRotateTest from './image_svg_animate/ImageRotate.test';
+import ImageModifierTest from './image_svg_animate/ImageModifier.test';
+import ImageNetworkTest from './image_svg_animate/ImageNetwork.test';
+import ImageObjectFitTest from './image_svg_animate/ImageObjectFit.test';
+import ImageOnCompleteTest from './image_svg_animate/ImageOnComplete.test';
+import ImageSvgLabelTest from './image_svg_animate/ImageSvgLabel.test';
+import ImageSvgParseTest from './image_svg_animate/ImageSvgParse.test';
+import ImageResetTest from './image_svg_animate/ImgaeReset.test';
+import ImageBorderTest from './image_svg_animate/ImgaeBorder.test';
+import ImageFocusTest from './image_svg_animate/ImageFocus.test';
+import ImageOpacityTest from './image_svg_animate/ImageOpacity.test';
+import MediaImageTest from './mediaImage/MediaImage.test';
+import ImageOutliersTest from './image_svg_animate/ImageOutliers.test';
+import ImageThumbNailsTest from './image_svg_animate/ImageThumbNails.test';
 
 export default function testsuite() {
   gestureMonopolize01Test();
@@ -53,7 +72,7 @@ export default function testsuite() {
   waterflowMirrorTest();
   scrollAccessibleTest();
   measureResultTest();
-  specialComponentsTest();
+  SpecialComponentsTest();
   FocusDynamicTest();
   RouterPushTest();
   ImageSpanTest();
@@ -74,4 +93,24 @@ export default function testsuite() {
   SidebarContainerStepperTest();
   ArcSwiperTest();
   ListAndGridTest();
+  ImageRadiusTest();
+  UiReverseTest();
+  RepeatWaterFlowTest();
+  LoadingProgressTest();
+  DatePickerModeTest();
+  ImageLatticeTest();
+  ImageRotateTest();
+  ImageModifierTest();
+  ImageNetworkTest();
+  ImageObjectFitTest();
+  ImageOnCompleteTest();
+  ImageSvgLabelTest();
+  ImageSvgParseTest();
+  ImageResetTest();
+  ImageBorderTest();
+  ImageFocusTest();
+  ImageOpacityTest();
+  MediaImageTest();
+  ImageOutliersTest();
+  ImageThumbNailsTest();
 }
