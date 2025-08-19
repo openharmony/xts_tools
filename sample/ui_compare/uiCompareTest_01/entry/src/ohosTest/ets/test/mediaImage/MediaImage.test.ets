@@ -180,7 +180,7 @@ export default function MediaImageTest() {
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
       await Utils.sleep(1000)
-      let button: Component = await driver.findComponent(ON.type('changeFillColor'));
+      let button: Component = await driver.findComponent(ON.id('changeFillColor'));
       await button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
