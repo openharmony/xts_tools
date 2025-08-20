@@ -64,6 +64,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/arkui_interop_copy_dynamic.sh",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/build_api_check_plugin.py",
             "bundle_name": [
                 "ability_runtime"
