@@ -24,7 +24,7 @@ from ci_manager import ComponentManager, XTSManager, WhitelistManager, OldPrecis
 
 class AccurateTarget:
 
-    def __init__(self, xts_root_dir, change_info_file, device_type):
+    def __init__(self, xts_root_dir, change_info_file, suite_type, device_type):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = os.path.realpath(os.path.join(xts_root_dir, "../../.."))
         self._change_info_file = change_info_file
@@ -42,7 +42,7 @@ class AccurateTarget:
             # 部件仓修改
             self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
             # 白名单计算
-            self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir)
+            self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir, suite_type)
             # 原精准方案兜底计算
             self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
             # interface 仓
@@ -61,7 +61,7 @@ class AccurateTarget:
             # 部件仓修改
             self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
             # 白名单计算
-            self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir)
+            self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir, suite_type)
             # interface 仓
             self.interface_manager = GetInterfaceData(self._xts_root_dir, self._code_root_dir)
 
@@ -133,12 +133,12 @@ class AccurateTarget:
         return 0, ci_target
 
 
-def generate(xts_root_dir, change_info_file, build_target, device_type = "phone"):
+def generate(xts_root_dir, change_info_file, build_target, suite_type, device_type = "phone"):
     print("{}:{}: build_target={}".format(__file__, sys._getframe().f_lineno, build_target))
     if not os.path.exists(change_info_file):
         print("warning: {} not exist".format(change_info_file))
         return 0, build_target
 
-    obj = AccurateTarget(xts_root_dir, change_info_file, device_type)
+    obj = AccurateTarget(xts_root_dir, change_info_file, suite_type.split(','), device_type)
     ret, accurate_targets = obj.get_targets()
     return ret, accurate_targets

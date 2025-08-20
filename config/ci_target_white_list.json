@@ -147,10 +147,29 @@
       {
         "path": "arkcompiler/ets_frontend",
         "bundle_name": "ets_frontend",
-        "add_bundle": [],
-        "add_target": [
-          "FULL_IMPACT_TOTALLY"
-        ]
+        "subdirectory": {
+          "arkcompiler/ets_frontend/ets2panda": {
+            "suite_type": ["hap_static"],
+            "add_bundle": [],
+            "add_target": ["FULL_IMPACT_TOTALLY"]
+          },
+          "arkcompiler/ets_frontend/es2panda": {
+            "suite_type": ["hap_dynamic"],
+            "add_bundle": [],
+            "add_target": ["test/xts/acts/ability/ability_runtime/abilitymontior:ActsAbilityMonitorTest"]
+          }
+        }
+      },
+      {
+        "path": "arkcompiler/runtime_core",
+        "bundle_name": "runtime_core",
+        "subdirectory": {
+          "arkcompiler/runtime_core/static_core": {
+            "suite_type": ["hap_static"],
+            "add_bundle": [],
+            "add_target": ["FULL_IMPACT_TOTALLY"]
+          }
+        }
       },
       {
         "path": "test/xts/tools",

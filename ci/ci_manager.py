@@ -157,13 +157,14 @@ class XTSManager(Ci_Manager):
 
 class WhitelistManager(Ci_Manager):
 
-    def __init__(self, xts_root_dir, code_root_dir):
+    def __init__(self, xts_root_dir, code_root_dir, suite_type):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
         self._build_paths = []
         self._build_targets = []
         self.full_impact_flag = "FULL_IMPACT"
         self.full_impact_flag_totally = "FULL_IMPACT_TOTALLY"
+        self._suite_type = suite_type
 
     def get_targets_from_change(self, change_list):
         for changeFileEntity in change_list:
@@ -177,27 +178,49 @@ class WhitelistManager(Ci_Manager):
         white_list = MatchConfig.get_white_list_repo()
         if change_file_entity.path not in white_list:
             return 0
-        bundles = white_list[change_file_entity.path]["add_bundle"]
-        add_targets = white_list[change_file_entity.path]["add_target"]
+        change_file_entity.set_already_match_utils(True)
+        whitelist_item = white_list.get(change_file_entity.path)
+        if whitelist_item.get("subdirectory"):
+            self.getTargetsandPathsOfSubdirectory(change_file_entity, whitelist_item.get("subdirectory"))
+        else:
+            self.getTargetsAndPathsByCfg(
+                whitelist_item.get("suite_type"), whitelist_item.get("add_bundle"), whitelist_item.get("add_target"))
+        return 0
+
+    def getTargetsandPathsOfSubdirectory(self, change_file_entity, whitelist_subdir):
+        change_file_list = change_file_entity.add + change_file_entity.modified + change_file_entity.delete
+        for path in whitelist_subdir:
+            isMatch = False
+            for file in change_file_list:
+                if file.startswith(path):
+                    isMatch = True
+                    break
+            if not isMatch:
+                continue
+
+            config = whitelist_subdir.get(path)
+            self.getTargetsAndPathsByCfg(config.get("suite_type"), config.get("add_bundle"), config.get("add_target"))
+
+    def getTargetsAndPathsByCfg(self, suite_type, add_bundle, add_target):
+        if suite_type and not list(set(suite_type) & set(self._suite_type)):
+            return
         targets = []
-        if add_targets:
-            if add_targets[0] == self.full_impact_flag:
+        if add_target:
+            if add_target[0] == self.full_impact_flag:
                 targets = PathUtils.get_all_build_target(self._xts_root_dir, 0)
-            if add_targets[0] == self.full_impact_flag_totally:
+            if add_target[0] == self.full_impact_flag_totally:
                 targets = PathUtils.get_all_build_target(self._xts_root_dir, 1)
             else:
                 xts_parts = "/".join([p for p in os.path.normpath(self._xts_root_dir).split(os.sep) if p][-3:])
-                for target in add_targets:
+                for target in add_target:
                     if xts_parts in target:
                         targets.append(target)
-        change_file_entity.set_already_match_utils(True)
-        if bundles:
-            paths = XTSTargetUtils.getPathsByBundle(bundles, self._xts_root_dir)
+        if add_bundle:
+            paths = XTSTargetUtils.getPathsByBundle(add_bundle, self._xts_root_dir)
             if paths:
                 self._build_paths += paths
         if targets:
             self._build_targets += targets
-        return 0
 
 
 class OldPreciseManager(Ci_Manager):
