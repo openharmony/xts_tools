@@ -143,6 +143,14 @@
         "add_target": [
           "FULL_IMPACT_TOTALLY"
         ]
+      },
+      {
+        "path": "arkcompiler/runtime_core/static_core",
+        "bundle_name": "runtime_core",
+        "add_bundle": [],
+        "add_target": [
+          "FULL_IMPACT_TOTALLY"
+        ]
       }
     ]
   }
