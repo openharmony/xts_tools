@@ -19,5 +19,3 @@ code_root=$(realpath $(dirname $(readlink -f $0))/../../../../)
 mkdir -p $1/entry/src/hypium
 cp -rf ${code_root}/test/testfwk/arkxtest/jsunit/src/main/module $1/entry/src/hypium/
 cp -f ${code_root}/test/testfwk/arkxtest/jsunit/src/main/*.ets $1/entry/src/hypium/
-rm -v $1/entry/src/hypium/Index.ets
-mv $1/entry/src/hypium/IndexStatic.ets $1/entry/src/hypium/index.ets
