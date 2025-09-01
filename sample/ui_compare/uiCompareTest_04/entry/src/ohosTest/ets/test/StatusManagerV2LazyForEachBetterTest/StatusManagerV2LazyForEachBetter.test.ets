@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -78,14 +78,14 @@ export default function StatusManagerV2LazyForEachBetterTest() {
       let point = await list.getBoundsCenter();
       await driver.mouseScroll(point, true, 20);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot('SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030_03');
+      windowSnap.snapShot('SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030_01');
       let button: Component = await driver.waitForComponent(ON.id('reusable'), 1000);
       await button.click();
       let list1: Component = await driver.waitForComponent(ON.type('List'), 1000);
       let point1 = await list1.getBoundsCenter();
       await driver.mouseScroll(point1, true, 50);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot('SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030_04');
+      windowSnap.snapShot('SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030 finish.`);
       done();

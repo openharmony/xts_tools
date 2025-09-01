@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,7 +41,7 @@ class Settings {
 
 
   changeWindowPosition(windowClass: window.Window, X: number | undefined, Y: number | undefined) {
-    //为悬浮窗设置位置
+    //涓烘偓娴獥璁剧疆浣嶇疆
     windowClass.moveWindowTo(X, Y, (err) => {
       if (err.code) {
         Logger.error(TAG, `Failed to move the window. Cause : ${JSON.stringify(err)}`)
@@ -52,7 +52,7 @@ class Settings {
   }
 
   changeWindowSize(windowClass: window.Window, width: number | undefined, height: number | undefined) {
-    //为悬浮窗设置大小
+    //涓烘偓娴獥璁剧疆澶у皬
     windowClass.resize(width, height, (err) => {
       if (err.code) {
         Logger.error(TAG, `Failed to change the window size. Cause : ${JSON.stringify(err)}`)
@@ -63,16 +63,14 @@ class Settings {
   }
 
   loadContent(windowClass: window.Window, pageURI: string) {
-    //为悬浮窗加载对应的目标页面
-    windowClass.setUIContent(pageURI, (err) => {
+    //涓烘偓娴獥鍔犺浇瀵瑰簲鐨勭洰鏍囬〉闈?    windowClass.setUIContent(pageURI, (err) => {
       if (err.code) {
         Logger.error(TAG, `Failed to load the window. Cause : ${JSON.stringify(err)}`)
         return;
       }
       Logger.info(TAG, `Succeeded in loading the content.`);
 
-      //显示悬浮窗
-      windowClass.showWindow((err) => {
+      //鏄剧ず鎮诞绐?      windowClass.showWindow((err) => {
         if (err.code) {
           Logger.error(TAG, `Failed to show the window. Cause : ${JSON.stringify(err)}`)
           return;
@@ -83,8 +81,7 @@ class Settings {
   }
 
   loadContentChange(windowClass: window.Window, pageURI: string) {
-    //为悬浮窗加载对应的目标页面
-    windowClass.setUIContent(pageURI, (err) => {
+    //涓烘偓娴獥鍔犺浇瀵瑰簲鐨勭洰鏍囬〉闈?    windowClass.setUIContent(pageURI, (err) => {
       if (err.code) {
         Logger.error(TAG, `Failed to load the window. Cause : ${JSON.stringify(err)}`)
         return;
@@ -104,7 +101,7 @@ class Settings {
       Logger.info(TAG, `Succeeded in getting all screens. Data:${JSON.stringify(data)}`);
 
       screenClass = data[0];
-      //设置设备dpi
+      //璁剧疆璁惧dpi
       screenClass.setDensityDpi(dpi, (err: BusinessError) => {
         if (err.code) {
           Logger.error(TAG, `Failed to set the pixel density. Code : ${JSON.stringify(err)}`)
@@ -127,8 +124,7 @@ class Settings {
   }
 
   destroyWindow(windowClass: window.Window) {
-    //销毁窗口
-    windowClass.destroyWindow((err) => {
+    //閿€姣佺獥鍙?    windowClass.destroyWindow((err) => {
       if (err.code) {
         Logger.error(TAG, `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
         return;
@@ -138,14 +134,11 @@ class Settings {
   }
 
   /*
-   * 窗口页面更新
+   * 绐楀彛椤甸潰鏇存柊
    * Setting.createWindow(pageURI: String, {X,Y,width,height,dpi}?:{X?:number,Y?:number,width?:number,height?:number,dpi?:number}):void
-   * 必填：
-   * pageURI：页面路由
-   * 选填：
-   * X,Y：窗口相对于左上角的位置，默认X=100,Y=100 单位为px
-   * width,height:窗口宽高，默认width=600,height=1250 可配置范围：[0,2560],单位为vp
-   * dpi:像素密度，默认dpi=330，可配置范围：80-640
+   * 蹇呭～锛?   * pageURI锛氶〉闈㈣矾鐢?   * 閫夊～锛?   * X,Y锛氱獥鍙ｇ浉瀵逛簬宸︿笂瑙掔殑浣嶇疆锛岄粯璁=100,Y=100 鍗曚綅涓簆x
+   * width,height:绐楀彛瀹介珮锛岄粯璁idth=600,height=1250 鍙厤缃寖鍥达細[0,2560],鍗曚綅涓簐p
+   * dpi:鍍忕礌瀵嗗害锛岄粯璁pi=330锛屽彲閰嶇疆鑼冨洿锛?0-640
    * */
 
   createWindow(pageURI: string, X?: number | undefined, Y?: number | undefined, width?: number | undefined, height?: number | undefined, dpi?: number | undefined) {

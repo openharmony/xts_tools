@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -54,7 +54,7 @@ export default function StatusManagerV2RepeatFreezeStatusManagerTest() {
       let button3: Component = await driver.waitForComponent(ON.id('add'), 1000);
       await button3.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot('SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010_01');
+      windowSnap.snapShot('SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010 finish.`);
       done();
