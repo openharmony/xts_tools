@@ -50,7 +50,7 @@ export default function ActionGestureConfigurationTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120_01');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120 finish.`);
       done();
@@ -69,7 +69,7 @@ export default function ActionGestureConfigurationTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130_01');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130 finish.`);
       done();
@@ -88,7 +88,7 @@ export default function ActionGestureConfigurationTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140_01');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140 finish.`);
       done();

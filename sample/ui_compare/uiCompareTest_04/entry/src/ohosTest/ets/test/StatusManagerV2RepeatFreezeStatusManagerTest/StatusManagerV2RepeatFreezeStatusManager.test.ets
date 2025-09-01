@@ -54,7 +54,7 @@ export default function StatusManagerV2RepeatFreezeStatusManagerTest() {
       let button3: Component = await driver.waitForComponent(ON.id('add'), 1000);
       await button3.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010_01');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010 finish.`);
       done();

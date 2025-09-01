@@ -50,7 +50,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let button: Component = await driver.waitForComponent(ON.id('buttonA'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_002_01');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_002 finish.`);
       done();
@@ -68,7 +68,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let button: Component = await driver.waitForComponent(ON.id('buttonA'), 1000);
       await button.doubleClick();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_001_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_001 finish.`);
       done();
@@ -86,7 +86,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let button: Component = await driver.waitForComponent(ON.id('buttonA'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_004_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_004 finish.`);
       done();
@@ -105,7 +105,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       await buttonA.click();
       await buttonA.longClick();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_016_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_016 finish.`);
       done();
@@ -123,7 +123,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('buttonA'), 1000);
       await buttonA.longClick();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_012_05');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_012 finish.`);
       done();
@@ -141,7 +141,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('buttonA'), 1000);
       await buttonA.longClick();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_014_06');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_014 finish.`);
       done();
@@ -159,7 +159,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('buttonA'), 1000);
       await buttonA.longClick();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_011_07');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_011 finish.`);
       done();
@@ -177,7 +177,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let buttonA: Component = await driver.waitForComponent(ON.id('buttonA'), 1000);
       await buttonA.longClick();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_013_08');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_013 finish.`);
       done();
@@ -196,7 +196,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       await buttonA.click();
       await buttonA.longClick();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_015_09');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_015 finish.`);
       done();
@@ -215,7 +215,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let point = await screen.getBoundsCenter();
       await driver.fling({x: point.x, y: point.y + 100}, {x: point.x, y: point.y - 100}, 10, 600);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_022_10');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_022 finish.`);
       done();
@@ -234,7 +234,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let point = await screen.getBoundsCenter();
       await driver.fling({x: point.x + 100, y: point.y}, {x: point.x - 100, y: point.y}, 10, 600);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_023_11');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_023 finish.`);
       done();
@@ -254,7 +254,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       await driver.fling({x: point.x + 100, y: point.y}, {x: point.x - 100, y: point.y}, 10, 600);
       await driver.fling({x: point.x - 100, y: point.y}, {x: point.x + 100, y: point.y}, 10, 600);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_024_12');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_024 finish.`);
       done();
@@ -273,7 +273,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let point = await screen.getBoundsCenter();
       await driver.fling({x: point.x, y: point.y}, {x: point.x - 100, y: point.y + 100}, 10, 600);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_025_13');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_025 finish.`);
       done();
@@ -292,7 +292,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let point = await screen.getBoundsCenter();
       await driver.fling({x: point.x, y: point.y}, {x: point.x - 100, y: point.y + 100}, 10, 600);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_031_14');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_031 finish.`);
       done();
@@ -311,7 +311,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let point = await screen.getBoundsCenter();
       await driver.fling({x: point.x, y: point.y}, {x: point.x - 100, y: point.y + 100}, 10, 600);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_033_15');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_033 finish.`);
       done();
@@ -330,7 +330,7 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
       let point = await screen.getBoundsCenter();
       await driver.fling({x: point.x, y: point.y}, {x: point.x - 100, y: point.y}, 10, 600);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_032_16');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_032 finish.`);
       done();

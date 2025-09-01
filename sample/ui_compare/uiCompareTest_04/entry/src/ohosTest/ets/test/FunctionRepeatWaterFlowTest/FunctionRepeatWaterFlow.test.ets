@@ -51,7 +51,7 @@ export default function FunctionRepeatWaterFlowTest() {
       let button: Component = await driver.waitForComponent(ON.id('changeDir'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070_01');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070 finish.`);
       done();
@@ -70,7 +70,7 @@ export default function FunctionRepeatWaterFlowTest() {
       let button: Component = await driver.waitForComponent(ON.id('changeColumnsGap'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050 finish.`);
       done();
@@ -92,7 +92,7 @@ export default function FunctionRepeatWaterFlowTest() {
       console.info(`${caseName} point of waterFlow is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 3);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0110_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -110,7 +110,7 @@ export default function FunctionRepeatWaterFlowTest() {
       Settings.createWindow("testability/pages/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow004");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -130,7 +130,7 @@ export default function FunctionRepeatWaterFlowTest() {
       let button: Component = await driver.waitForComponent(ON.id('changeRowsGap'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0060_05');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -152,7 +152,7 @@ export default function FunctionRepeatWaterFlowTest() {
       console.info(`${caseName} point of List is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 3);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0200_06');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -172,7 +172,7 @@ export default function FunctionRepeatWaterFlowTest() {
       let button: Component = await driver.waitForComponent(ON.id('changeScrollBarState'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0120_07');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -198,7 +198,7 @@ export default function FunctionRepeatWaterFlowTest() {
       let point2: Point = { x: point.x, y: point.y + 100 };
       await driver.drag(point1.x, point1.y, point2.x, point2.y);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0130_08');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
