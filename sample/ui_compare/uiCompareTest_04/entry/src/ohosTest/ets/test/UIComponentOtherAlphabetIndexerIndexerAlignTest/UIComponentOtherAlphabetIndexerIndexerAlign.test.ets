@@ -61,7 +61,7 @@ export default function UIComponentOtherAlphabetIndexerIndexerAlign() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseLongClick({x:point.x - 70, y: point.y + 50}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090 finish.`);
       done();
@@ -89,7 +89,7 @@ export default function UIComponentOtherAlphabetIndexerIndexerAlign() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseLongClick({x:point.x - 70, y: point.y + 50}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320 finish.`);
       done();

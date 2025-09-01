@@ -51,7 +51,7 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
       let point = await alphabetIndexer.getBoundsCenter();
       await driver.mouseClick({x:point.x, y: point.y - 150}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180 finish.`);
       done();
@@ -71,7 +71,7 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
       let point = await alphabetIndexer.getBoundsCenter();
       await driver.mouseClick({x:point.x, y: point.y - 150}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010 finish.`);
       done();
@@ -91,7 +91,7 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
       let point = await alphabetIndexer.getBoundsCenter();
       await driver.mouseLongClick({x:point.x, y: point.y - 150}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100 finish.`);
       done();
@@ -111,7 +111,7 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
       let point = await alphabetIndexer.getBoundsCenter();
       await driver.fling({x: point.x, y: point.y - 40}, {x: point.x, y: point.y}, 5, 600);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110 finish.`);
       done();
@@ -131,7 +131,7 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
       let point = await alphabetIndexer.getBoundsCenter();
       await driver.fling({x: point.x, y: point.y - 40}, {x: point.x, y: point.y}, 5, 600);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030 finish.`);
       done();

@@ -52,7 +52,7 @@ export default function UIComponentGridFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0010");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -72,7 +72,7 @@ export default function UIComponentGridFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0050");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -92,7 +92,7 @@ export default function UIComponentGridFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0140");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -112,7 +112,7 @@ export default function UIComponentGridFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0020");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

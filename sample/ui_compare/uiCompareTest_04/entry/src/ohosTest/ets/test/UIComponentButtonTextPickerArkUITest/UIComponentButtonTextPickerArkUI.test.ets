@@ -50,7 +50,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0100");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -68,7 +68,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI002");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0090");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -92,7 +92,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let point2: Point = {x: point.x, y: point.y - 40};
       await driver.mouseDrag(point1, point2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0080");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -110,7 +110,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI004");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0060");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -128,7 +128,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI005");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0050");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -152,7 +152,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let point2: Point = {x: point.x, y: point.y - 40};
       await driver.mouseDrag(point1, point2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0070");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -170,7 +170,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI007");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0010");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -188,7 +188,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI008");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0130");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -206,7 +206,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI009");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0140");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -224,7 +224,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI010");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0110");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -242,7 +242,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI011");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0120");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -260,7 +260,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI012");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0150");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -284,7 +284,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let point2: Point = {x: point.x, y: point.y - 100};
       await driver.mouseDrag(point1, point2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0030");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -302,7 +302,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI014");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0160");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -320,7 +320,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI015");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0020");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -344,7 +344,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let point2: Point = {x: point.x, y: point.y - 100};
       await driver.mouseDrag(point1, point2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0040");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -362,7 +362,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI017");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0580");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -380,7 +380,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI018");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0560");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -404,7 +404,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let point2: Point = {x: point.x, y: point.y - 100};
       await driver.mouseDrag(point1, point2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0550");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -422,7 +422,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI020");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0570");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -440,7 +440,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI021");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0600");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -458,7 +458,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI022");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0590");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -476,7 +476,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI023");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0510");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -494,7 +494,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI024");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0630");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -512,7 +512,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI025");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0640");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -530,7 +530,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI026");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0610");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -548,7 +548,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI027");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0650");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -566,7 +566,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI028");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0660");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -584,7 +584,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI029");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0530");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -602,7 +602,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI030");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0620");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -620,7 +620,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI031");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0520");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -638,7 +638,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       Settings.createWindow("testability/pages/UIComponentButtonTextPickerArkUI/UIComponentButtonTextPickerArkUI032");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0540");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -658,7 +658,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1080");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -678,7 +678,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1050");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -698,7 +698,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1060");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -718,7 +718,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1100");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -738,7 +738,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1070");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -758,7 +758,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1090");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -778,7 +778,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1130");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -798,7 +798,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1110");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -818,7 +818,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1150");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -838,7 +838,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1120");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -858,7 +858,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1140");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -878,7 +878,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1010");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -898,7 +898,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1030");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -918,7 +918,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1160");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -942,7 +942,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       console.info(`${caseName} point of Select is ${JSON.stringify(point)}`);
       await driver.mouseClick({x: point.x, y: point.y + 70}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1020");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -962,7 +962,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let select: Component = await driver.waitForComponent(ON.id('select'), 1000);
       await select.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1040");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -986,7 +986,7 @@ export default function UIComponentButtonTextPickerArkUITest() {
       let point2: Point = {x: point.x, y: point.y - 40};
       await driver.mouseDrag(point1, point2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0170");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

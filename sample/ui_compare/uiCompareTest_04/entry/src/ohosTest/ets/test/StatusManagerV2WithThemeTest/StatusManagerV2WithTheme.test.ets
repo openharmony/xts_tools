@@ -53,7 +53,7 @@ export default function StatusManagerV2WithThemeTest() {
       let button2: Component = await driver.waitForComponent(ON.id('TextPickerDialog'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020");
       let list: Component = await driver.waitForComponent(ON.id('screen'), 1000);
       let rect = await list.getBounds();
       console.log(`${caseName} point of List is ${JSON.stringify(rect)}`);

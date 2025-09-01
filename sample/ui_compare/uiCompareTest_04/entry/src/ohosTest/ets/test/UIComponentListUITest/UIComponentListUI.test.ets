@@ -48,7 +48,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0510");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0510 finish.`);
       done();
@@ -65,7 +65,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI002");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0060");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0060 finish.`);
       done();
@@ -82,7 +82,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI003");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0240");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0240 finish.`);
       done();
@@ -99,7 +99,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI004");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0200");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0200 finish.`);
       done();
@@ -116,7 +116,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI005");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0170");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0170 finish.`);
       done();
@@ -133,7 +133,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI006");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0180");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0180 finish.`);
       done();
@@ -150,7 +150,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI007");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0490");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0490 finish.`);
       done();
@@ -167,7 +167,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI008");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0540");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0540 finish.`);
       done();
@@ -184,7 +184,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI009");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0160");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0160 finish.`);
       done();
@@ -201,7 +201,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI010");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0220");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0220 finish.`);
       done();
@@ -218,7 +218,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI011");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0090");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0090 finish.`);
       done();
@@ -235,7 +235,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI012");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0080");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0080 finish.`);
       done();
@@ -252,7 +252,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI013");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0430");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0430 finish.`);
       done();
@@ -269,7 +269,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI014");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0410");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0410 finish.`);
       done();
@@ -286,7 +286,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI015");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0150");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0150 finish.`);
       done();
@@ -303,7 +303,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI016");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0450");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0450 finish.`);
       done();
@@ -320,7 +320,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI017");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0480");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0480 finish.`);
       done();
@@ -337,7 +337,7 @@ export default function UIComponentListUITest() {
       Settings.createWindow("testability/pages/UIComponentListUI/UIComponentListUI018");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0440");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0440 finish.`);
       done();

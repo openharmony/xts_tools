@@ -50,7 +50,7 @@ export default function UIComponentGridCapabilityTest() {
       Settings.createWindow("testability/pages/UIComponentGridCapability/UIComponentGridCapability001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0170_437");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -68,7 +68,7 @@ export default function UIComponentGridCapabilityTest() {
       Settings.createWindow("testability/pages/UIComponentGridCapability/UIComponentGridCapability002");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0250_596");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -86,7 +86,7 @@ export default function UIComponentGridCapabilityTest() {
       Settings.createWindow("testability/pages/UIComponentGridCapability/UIComponentGridCapability003");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0180_869");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -104,7 +104,7 @@ export default function UIComponentGridCapabilityTest() {
       Settings.createWindow("testability/pages/UIComponentGridCapability/UIComponentGridCapability004");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0260_366");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -122,7 +122,7 @@ export default function UIComponentGridCapabilityTest() {
       Settings.createWindow("testability/pages/UIComponentGridCapability/UIComponentGridCapability005");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0230_836");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

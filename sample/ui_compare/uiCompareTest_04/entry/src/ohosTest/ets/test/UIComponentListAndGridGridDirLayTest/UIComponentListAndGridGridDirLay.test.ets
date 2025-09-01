@@ -50,7 +50,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0210_490");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -68,7 +68,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay002");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0200_884");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -86,7 +86,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay003");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0220_319");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -104,7 +104,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay004");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0250_399");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -122,7 +122,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay005");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0070_906");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -140,7 +140,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay006");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0170_563");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -158,7 +158,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay007");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0140_163");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -176,7 +176,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay008");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0160_537");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -194,7 +194,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay009");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0190_805");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -212,7 +212,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay010");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0280_150");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -230,7 +230,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay011");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0270_746");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -248,7 +248,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay012");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0260_977");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -266,7 +266,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay013");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0150_305");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -284,7 +284,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay014");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0120_025");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -302,7 +302,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay015");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0100_931");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -320,7 +320,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay016");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0240_252");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -338,7 +338,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay017");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0290_857");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -356,7 +356,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay018");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0180_428");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -374,7 +374,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay019");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0130_674");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -392,7 +392,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay020");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0300_293");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -410,7 +410,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay021");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0230_083");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -428,7 +428,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay022");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0030_924");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -446,7 +446,7 @@ export default function UIComponentListAndGridGridDirLayTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridDirLay/UIComponentListAndGridGridDirLay023");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0010_187");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

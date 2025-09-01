@@ -48,7 +48,7 @@ export default function UIComponentOtherAlphabetIndexerWidth() {
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerWidth/UIComponentOtherAlphabetIndexerWidth001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070 finish.`);
       done();
@@ -65,7 +65,7 @@ export default function UIComponentOtherAlphabetIndexerWidth() {
       Settings.createWindow("testability/pages/UIComponentOtherAlphabetIndexerWidth/UIComponentOtherAlphabetIndexerWidth002");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080 finish.`);
       done();

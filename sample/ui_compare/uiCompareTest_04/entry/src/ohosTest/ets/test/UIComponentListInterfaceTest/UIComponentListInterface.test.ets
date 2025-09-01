@@ -50,7 +50,7 @@ export default function UIComponentListInterfaceTest() {
       Settings.createWindow("testability/pages/UIComponentListInterface/UIComponentListInterface001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -68,7 +68,7 @@ export default function UIComponentListInterfaceTest() {
       Settings.createWindow("testability/pages/UIComponentListInterface/UIComponentListInterface002");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

@@ -48,7 +48,7 @@ export default function UIComponentGridAlignItemsTest() {
       Settings.createWindow("testability/pages/UIComponentGridAlignItems/UIComponentGridAlignItems001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010 finish.`);
       done();
@@ -65,7 +65,7 @@ export default function UIComponentGridAlignItemsTest() {
       Settings.createWindow("testability/pages/UIComponentGridAlignItems/UIComponentGridAlignItems002");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060 finish.`);
       done();
@@ -82,7 +82,7 @@ export default function UIComponentGridAlignItemsTest() {
       Settings.createWindow("testability/pages/UIComponentGridAlignItems/UIComponentGridAlignItems003");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020 finish.`);
       done();
@@ -104,7 +104,7 @@ export default function UIComponentGridAlignItemsTest() {
       console.info(`${caseName} rect of Grid is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 15, y: rect.top + 10}, {x: rect.right - 15, y: rect.top + 100}, 1000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

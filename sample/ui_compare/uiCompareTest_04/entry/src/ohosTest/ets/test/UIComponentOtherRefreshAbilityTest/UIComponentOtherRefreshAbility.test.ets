@@ -50,7 +50,7 @@ export default function UIComponentOtherRefreshAbility() {
       let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190 finish.`);
       done();
@@ -69,7 +69,7 @@ export default function UIComponentOtherRefreshAbility() {
       let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020 finish.`);
       done();
@@ -88,7 +88,7 @@ export default function UIComponentOtherRefreshAbility() {
       let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030 finish.`);
       done();
@@ -107,7 +107,7 @@ export default function UIComponentOtherRefreshAbility() {
       let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060 finish.`);
       done();

@@ -52,9 +52,9 @@ export default function UIComponentRefreshPromptText() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020");
       await Utils.sleep(1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020_02");
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020 finish.`);
       done();
     });

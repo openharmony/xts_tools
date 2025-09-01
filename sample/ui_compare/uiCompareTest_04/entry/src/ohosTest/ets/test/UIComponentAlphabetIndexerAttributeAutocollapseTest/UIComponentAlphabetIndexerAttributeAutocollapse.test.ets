@@ -49,7 +49,7 @@ export default function UIComponentAlphabetIndexerAttributeAutocollapse() {
       let driver: Driver = Driver.create();
       let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010 finish.`);
       done();

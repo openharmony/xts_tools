@@ -50,7 +50,7 @@ export default function UIComponentScrollScrollBarVelocity() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0310");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0310 finish.`);
       done();
@@ -69,7 +69,7 @@ export default function UIComponentScrollScrollBarVelocity() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0320");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0320 finish.`);
       done();
@@ -88,7 +88,7 @@ export default function UIComponentScrollScrollBarVelocity() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0330");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0330 finish.`);
       done();
@@ -107,7 +107,7 @@ export default function UIComponentScrollScrollBarVelocity() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0360");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0360 finish.`);
       done();
@@ -126,7 +126,7 @@ export default function UIComponentScrollScrollBarVelocity() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0370");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0370 finish.`);
       done();
@@ -145,7 +145,7 @@ export default function UIComponentScrollScrollBarVelocity() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0380");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0380 finish.`);
       done();
@@ -166,7 +166,7 @@ export default function UIComponentScrollScrollBarVelocity() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.mouseClick({x: point.x, y:point.y}, MouseButton.MOUSE_BUTTON_LEFT);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0400");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0400 finish.`);
       done();

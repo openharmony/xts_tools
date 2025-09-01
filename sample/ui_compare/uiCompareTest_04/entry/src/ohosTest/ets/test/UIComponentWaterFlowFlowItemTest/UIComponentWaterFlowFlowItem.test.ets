@@ -48,7 +48,7 @@ export default function UIComponentWaterFlowFlowItemTest() {
       Settings.createWindow("testability/pages/UIComponentWaterFlowFlowItem/UIComponentWaterFlowFlowItem001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010 finish.`);
       done();
@@ -65,7 +65,7 @@ export default function UIComponentWaterFlowFlowItemTest() {
       Settings.createWindow("testability/pages/UIComponentWaterFlowFlowItem/UIComponentWaterFlowFlowItem002");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020 finish.`);
       done();

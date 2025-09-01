@@ -53,13 +53,12 @@ export default function UIComponentListAndGridListScrollPageTest() {
       console.info(`${caseName} rect of List is ${JSON.stringify(rect1)}`);
       await driver.mouseLongClick({x: rect1.right - 10, y: rect1.bottom - 200}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140");
       let scrollBar: Component = await driver.waitForComponent(ON.type('ScrollBar'), 1000);
       let rect2 = await scrollBar.getBounds();
       console.info(`${caseName} rect of List is ${JSON.stringify(rect2)}`);
-      await driver.mouseLongClick({x: rect2.right - 2, y: rect2.top + 2}, MouseButton.MOUSE_BUTTON_LEFT);
-      await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      await driver.mouseLongClick({x: rect2.right - 2, y: rect2.top + 2}, MouseButton.MOUSE_BUTTON_LwindowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140_02");er.waitForIdle(500, 1000);
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
