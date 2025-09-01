@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -26,7 +26,7 @@ import {
   Color,
   ColumnOptions,
   $r,
-  $rawfile
+  $rawfile,
 } from '@kit.ArkUI';
 
 import { ClassObject } from './ParentChildPartialContentSyncCode';
@@ -34,12 +34,10 @@ import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
 
 @Component
 export struct ObjectLinkComponent {
-  // 使用@ObjectLink修饰，与父组件中元素同步
   @ObjectLink childObjectData: ClassObject;
 
   build() {
-    Column({ space: 10.0 } as ColumnOptions) {
-      // 点击查看源码
+    Column({ space: 10.0 }as ColumnOptions) {
       ViewCodeText({ webSrc: $rawfile('ObjectLinkComponent.ets.html') })
 
       Text($r('app.string.partial_sync_text'))
@@ -57,8 +55,7 @@ export struct ObjectLinkComponent {
           .fontSize(20.0)
           .layoutWeight(1.0)
           .id('childAttribute')
-          .onChange((value: string): void => {
-            // 子组件对象属性更新，父元素同步
+          .onChange((value: string): void=> {
             this.childObjectData.attributeType = value;
           })
       }

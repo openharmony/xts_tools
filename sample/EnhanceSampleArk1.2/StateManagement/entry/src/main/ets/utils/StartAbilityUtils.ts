@@ -24,11 +24,9 @@ export function startSpecifiedAbility(context: common.UIAbilityContext, abilityN
   };
   context.startAbility(abilityConfig, (err) => {
     if (err.code) {
-      // 处理业务逻辑错误
       Logger.error(`startAbility failed, code is ${err.code}, message is ${err.message}`);
       return;
     }
-    // 执行正常业务
     Logger.info('startAbility succeed');
   });
 }

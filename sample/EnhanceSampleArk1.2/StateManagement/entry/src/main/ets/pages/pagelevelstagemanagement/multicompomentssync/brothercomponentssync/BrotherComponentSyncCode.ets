@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -21,7 +21,8 @@ import {
   TextAlign,
   $r,
   Margin,
-  Resource
+  Resource,
+
 } from '@kit.ArkUI';
 
 import { ProvideFatherComponent } from './ProvideFatherComponent';
@@ -29,6 +30,7 @@ import { StateFatherComponent } from './StateFatherComponent';
 
 @Component
 export struct BrotherComponentSyncCode {
+
   build() {
     Column() {
       Column() {
@@ -36,7 +38,6 @@ export struct BrotherComponentSyncCode {
           .fontSize($r('app.float.tips_font_size'))
           .width('100%')
           .textAlign(TextAlign.Start)
-        // 共同父组件@State
         StateFatherComponent()
       }
 
@@ -45,10 +46,9 @@ export struct BrotherComponentSyncCode {
           .fontSize($r('app.float.tips_font_size'))
           .width('100%')
           .textAlign(TextAlign.Start)
-        // 共同父组件@Provide
         ProvideFatherComponent()
       }
-      .margin({ top: 10.0 } as Margin)
+      .margin({ top: 10.0 }as Margin)
     }
   }
 }

@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -14,8 +14,9 @@
  * limitations under the License.
  */
 
+import { StoragePropRef } from '@kit.ArkUI';
+
 import {
-  StoragePropRef,
   Entry,
   Component,
   State,
@@ -35,7 +36,8 @@ import {
   $rawfile,
   ColumnOptions,
   ClickEvent,
-  Margin
+  Margin,
+
 } from '@kit.ArkUI';
 
 import { CodeView } from '../../../commoncomponents/CodeView';
@@ -47,11 +49,8 @@ import { TitleBar } from '../../../commoncomponents/TitleBar';
 @Component
 struct StoragePropAbilityPage {
   @State title: Resource = $r('app.string.abilityone_page');
-  // 初始化字体大小最小值
   private minFontSize: number = 10.0;
-  // 和主页、Ability2页面双向同步夜间模式状态
   @StorageLink('currentModelStatus') currentModelStatus: boolean = true;
-  // 和主页、Ability2页面单向同步内容字体大小
   private contentFontSize: number = 18.0;
 
   build() {
@@ -63,7 +62,6 @@ struct StoragePropAbilityPage {
       }
       CodeView({ title: this.title, isShowTitle: false }) {
         Column({ space: 20.0 }as ColumnOptions) {
-          // 查看源码
           ViewCodeText({ webSrc: $rawfile('StoragePropAbilityPage.ets.html') })
           Text($r('app.string.both_data_binding'))
             .fontSize(this.contentFontSize)
@@ -87,7 +85,6 @@ struct StoragePropAbilityPage {
           .type(ButtonType.Capsule)
           .backgroundColor($r('app.color.button_background_color'))
           .onClick(() : void=> {
-            // 更新控制夜间模式状态的变量数据，@StorageLink和@StorageProp关联的数据变量刷新
             this.currentModelStatus = !this.currentModelStatus;
           })
 
@@ -96,7 +93,6 @@ struct StoragePropAbilityPage {
             .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.tips_font_color'))
             .width('100%')
             .textAlign(TextAlign.Center)
-          // slider模块控制字体大小
           Column() {
             Text($r('app.string.fontSize_text'))
               .fontSize(this.contentFontSize)
@@ -110,15 +106,13 @@ struct StoragePropAbilityPage {
               Slider({
                 value: this.contentFontSize,
                 min: this.minFontSize,
-                max: 30.0, // 字体大小最大值
+                max: 30.0,
                 style: SliderStyle.OutSet
               })
                 .showTips(true)
                 .onChange((value: number, mode: SliderChangeMode) => {
-                  // 更新控制字体大小的变量数据，@StorageLink关联的数据变量不刷新同步
                   this.contentFontSize = value;
                 })
-              // toFixed(0)将滑动条返回值处理为整数精度
               Text(this.contentFontSize.toFixed(0.0))
                 .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.tips_font_color'))
                 .fontSize($r('app.float.tips_font_size'))
@@ -141,6 +135,6 @@ struct StoragePropAbilityPage {
   }
 
   aboutToDisappear(): void {
-    AppStorage.set('sideBarShow', false);
+    AppStorage.setOrCreate('sideBarShow', false);
   }
 }

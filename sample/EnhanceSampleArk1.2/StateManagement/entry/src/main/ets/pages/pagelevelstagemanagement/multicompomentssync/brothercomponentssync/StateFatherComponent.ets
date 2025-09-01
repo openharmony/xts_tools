@@ -24,7 +24,7 @@ import {
   Color,
   $r,
   $rawfile,
-  ColumnOptions
+  ColumnOptions,
 } from '@kit.ArkUI';
 
 import { ColorType } from '../model/ColorType';
@@ -35,27 +35,21 @@ import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
 
 @Component
 export struct StateFatherComponent {
-  // 共同父组件使用@State初始化圆形颜色
   @State circleColor: Resource = $r('app.color.circle_blue');
-  // 初始化一个颜色数组
-  // 初始化当前Select的Index为0
-  @State currentSelectIndex: number = 0.0;
+  @State currentSelectIndex: int = 0;
 
   build() {
     Column({ space: 10.0 }as ColumnOptions) {
-      // 点击查看源码
       ViewCodeText({ webSrc: $rawfile('StateFatherComponent.ets.html') })
       Text($r('app.string.parent_titleone'))
         .fontSize($r('app.float.tips_font_size'))
         .fontColor($r('app.color.tips_font_color'))
         .width('100%')
         .textAlign(TextAlign.Center)
-      // 和父组件双向同步子组件A
       LinkBrotherOneComponent({
         circleColor: this.circleColor,
         currentSelectIndex: this.currentSelectIndex
       })
-      // 和父组件双向同步子组件B
       LinkBrotherTwoComponent({
         circleColor: this.circleColor,
         currentSelectIndex: this.currentSelectIndex

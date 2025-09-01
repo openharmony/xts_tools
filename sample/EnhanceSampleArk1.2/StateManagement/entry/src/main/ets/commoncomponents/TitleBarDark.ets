@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -30,7 +30,7 @@ import {
   ColumnOptions,
   ClickEvent,
   TextAttribute,
-  Margin
+  Margin,
 } from '@kit.ArkUI';
 
 import router from '@ohos.router';
@@ -51,15 +51,14 @@ export struct TitleBarDark {
             .size({ width: $r('app.float.icon_back_size'), height: $r('app.float.icon_back_size') })
         }
         .id('backBtn')
-        .onClick((event: ClickEvent) => {
-            this.isAbility ? startSpecifiedAbility(this.CONTEXT, 'EntryAbility') :
-            this.getUIContext().getRouter().back();
+        .onClick((event:ClickEvent) => {
+          this.isAbility ? startSpecifiedAbility(this.CONTEXT, 'EntryAbility') : this.getUIContext().getRouter().back();
         })
         .backgroundColor($r('app.color.nightnode_color'))
 
         Text(this.title)
           .fontSize($r('app.float.title_font_size'))
-          .margin({ left: $r('app.float.title_margin') } as Margin)
+          .margin({ left: $r('app.float.title_margin') }as Margin)
           .fontColor(Color.White)
       }
       .width('100%')
@@ -69,7 +68,7 @@ export struct TitleBarDark {
         .width('100%')
         .height($r('app.float.divider_height'))
         .color($r('app.color.divider_color'))
-        .margin({ bottom: 12.0 } as Margin)
+        .margin({ bottom: 12.0 }as Margin)
     }
     .width('100%')
   }

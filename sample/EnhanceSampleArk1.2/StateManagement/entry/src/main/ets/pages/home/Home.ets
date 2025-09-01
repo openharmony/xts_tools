@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -32,7 +32,6 @@ import {
   $r,
   Padding,
   Margin,
-  ArrayLike
 } from '@kit.ArkUI';
 
 import { FirstLevelCategory, SecondLevelCategory, ThirdLevelCategory } from './model/CategoricalDataType';
@@ -42,8 +41,7 @@ import { TabContentNavigation } from './TabContentNavigation';
 @Entry
 @Component
 struct Home {
-  // 初始化tabsBar的index值为0
-  tabsIndex: number = 0.0;
+  @State tabsIndex: number = 0.0;
   @StorageLink('currentBreakpoint') curBp: string = 'sm';
 
   build() {
@@ -58,9 +56,7 @@ struct Home {
       }, (item, index) => index.toString())
     }
     .vertical(this.curBp === 'sm' ? false : true)
-    // 大型设备tabbar的高度为40%，小型设备的高度为56vp
     .barHeight(this.curBp === 'sm' ? '56vp' : '40%')
-    // 大型设备tabbar的宽度为56vp，小型设备的宽度为100%
     .barWidth(this.curBp === 'sm' ? '100%' : '56vp')
     .barMode(BarMode.Fixed)
     .backgroundColor($r('app.color.background_shallow_grey'))

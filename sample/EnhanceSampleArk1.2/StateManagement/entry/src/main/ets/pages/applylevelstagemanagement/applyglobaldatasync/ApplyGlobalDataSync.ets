@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -22,10 +22,10 @@ import {
   StorageLink,
   Column,
   AppStorage,
-  $r
+  $r,
 } from '@kit.ArkUI';
 
-import { ApplyGlobalDataSyncCode } from './ApplyGlobalDataSyncCode';
+import {ApplyGlobalDataSyncCode} from './ApplyGlobalDataSyncCode';
 import { CodeView } from '../../../commoncomponents/CodeView';
 import { TitleBarDark } from '../../../commoncomponents/TitleBarDark';
 import { TitleBar } from '../../../commoncomponents/TitleBar';
@@ -34,12 +34,10 @@ import { TitleBar } from '../../../commoncomponents/TitleBar';
 @Component
 struct ApplyGlobalDataSync {
   @State title: Resource = $r('app.string.application_storage_ui');
-  // 当前夜间模式的状态
   @StorageLink('currentModelStatus') currentModelStatus: boolean = true;
 
   build() {
     Column() {
-      // 展示不同模式状态下的标题
       if (this.currentModelStatus) {
         TitleBarDark({ title: this.title })
       } else {
@@ -50,11 +48,10 @@ struct ApplyGlobalDataSync {
       }
     }.width('100%')
     .height('100%')
-    .backgroundColor(this.currentModelStatus ? $r('app.color.nightnode_color') :
-      $r('app.color.background_shallow_grey'))
+    .backgroundColor(this.currentModelStatus ? $r('app.color.nightnode_color') : $r('app.color.background_shallow_grey'))
   }
 
   aboutToDisappear(): void {
-    AppStorage.set('sideBarShow', false);
+    AppStorage.setOrCreate('sideBarShow', false);
   }
 }

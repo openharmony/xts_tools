@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -37,21 +37,18 @@ import { ColorType } from '../model/ColorType';
 import { COLOR_SELECT_DATA, NEW_COLOR_SELECT_DATA } from '../data/ColorData';
 import { getResourceString } from '../../../../utils/ResourceUtils';
 import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
-import { Circle, } from '@ohos.arkui.component';
+import { Circle,} from '@ohos.arkui.component';
 
 @Component
 export struct ConsumeBrotherTwoComponent {
   @State selectColors: ColorType[] = COLOR_SELECT_DATA;
   @State selectValues: SelectOption[] = NEW_COLOR_SELECT_DATA;
-  // 和父组件、子组件B双向同步圆形颜色
   @Consume consumeCircleColor: Resource;
-  // 和父组件、子组件A双向同步Select组件的Index值
-  @Consume currentSelectIndex: number;
+  @Consume currentSelectIndex: int;
   private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
 
   build() {
-    Column({ space: 10.0 } as ColumnOptions) {
-      // 点击查看源码
+    Column({ space: 10.0 }as ColumnOptions) {
       ViewCodeText({ webSrc: $rawfile('ConsumeBrotherTwoComponent.ets.html') })
       Text($r('app.string.consume_brothers_title'))
         .fontColor($r('app.color.tips_font_color'))
@@ -69,14 +66,11 @@ export struct ConsumeBrotherTwoComponent {
           .selectedOptionFont({ size: $r('app.float.select_font_size') })
           .optionFont({ size: $r('app.float.select_font_size') })
           .onSelect((index: number, text: string) => {
-            // 此组件@Consume声明的数据页面更新，兄弟组件@Consume的数据页面同步更新
-            this.currentSelectIndex = index;
+            this.currentSelectIndex = index as int;
             this.consumeCircleColor = this.selectColors[index as int].color;
           })
         Circle()
           .size({ width: $r('app.float.circle_size'), height: $r('app.float.circle_size') })
-          .width($r('app.float.circle_size'))
-          .height($r('app.float.circle_size'))
           .fill(this.consumeCircleColor)
 
       }.justifyContent(FlexAlign.SpaceAround)

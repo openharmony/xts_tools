@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License")
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -41,8 +41,7 @@ import {
 import router from '@ohos.router';
 import { SecondLevelCategory, ThirdLevelCategory, FourthLevelCategory } from './model/CategoricalDataType';
 import { UIContext } from '@ohos.arkui.UIContext';
-
-function ColumnStyle(this: ColumnAttribute): ColumnAttribute {
+function ColumnStyle(this: ColumnAttribute): ColumnAttribute  {
   this.width('100%');
   this.borderRadius(24.0);
   this.backgroundColor(Color.White);
@@ -57,8 +56,7 @@ function ColumnStyle(this: ColumnAttribute): ColumnAttribute {
 
 @Component
 export struct TabContentNavigation {
-  private categories: Array<ThirdLevelCategory | SecondLevelCategory> =
-    new Array<ThirdLevelCategory | SecondLevelCategory>();
+ private categories: Array<ThirdLevelCategory | SecondLevelCategory> = new Array<ThirdLevelCategory | SecondLevelCategory>();
 
   hasSecondLevelCategory(category: ThirdLevelCategory | SecondLevelCategory): boolean {
     return (category as SecondLevelCategory).tag !== undefined;
@@ -96,7 +94,7 @@ export struct TabContentNavigation {
                 }
               }
             }
-          }, (item: ThirdLevelCategory | SecondLevelCategory) => item.toString()) // 添加key生成函数
+          }, (item: ThirdLevelCategory | SecondLevelCategory) => item.toString())
         } else {
           ForEach(this.categories, (item: ThirdLevelCategory | SecondLevelCategory, index: number) => {
             if (!this.hasSecondLevelCategory(item)) {
@@ -105,7 +103,7 @@ export struct TabContentNavigation {
                 Column() {
                   ThirdLevelNavigation({
                     thirdLevelCategory: thirdLevelCategory,
-                    secondLevelCategoryIndex: -1, // 标记为没有二级分类
+                    secondLevelCategoryIndex: -1,
                     ThirdLevelNavigationIndex: index
                   })
                 }
@@ -113,7 +111,7 @@ export struct TabContentNavigation {
               }
               .margin({ top: 4.0, bottom: 4.0 } as Margin)
             }
-          }, (item: ThirdLevelCategory | SecondLevelCategory) => item.toString()) // 添加key生成函数
+          }, (item: ThirdLevelCategory | SecondLevelCategory) => item.toString())
         }
       }
       .width('100%')
@@ -170,7 +168,7 @@ struct ThirdLevelNavigation {
         }
       })
 
-      if (this.isUnfold) {
+      if (this.isUnfold ) {
         ForEach(this.thirdLevelCategory?.childNodes!, (fourthLevelCategory: FourthLevelCategory, index: number) => {
           Column() {
             Divider()
@@ -181,11 +179,10 @@ struct ThirdLevelNavigation {
 
             FourthLevelNavigation({ fourthLevelCategory: fourthLevelCategory })
           }
-        }, (item: FourthLevelCategory) => item.title.toString()) // 添加key生成函数
+        }, (item: FourthLevelCategory) => item.title.toString() )
       }
     }
-    .id(`secondLevelMenu${this.secondLevelCategoryIndex}${this.secondLevelCategoryIndex === 1 ? 0 :
-      this.ThirdLevelNavigationIndex}`)
+    .id(`secondLevelMenu${this.secondLevelCategoryIndex}${this.secondLevelCategoryIndex === 1 ? 0 : this.ThirdLevelNavigationIndex}`)
   }
 }
 

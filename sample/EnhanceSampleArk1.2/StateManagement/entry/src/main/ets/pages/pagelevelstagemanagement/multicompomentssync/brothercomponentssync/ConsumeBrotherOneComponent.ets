@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -29,13 +29,12 @@ import {
   Color,
   ColumnOptions,
   $r,
-  $rawfile
+  $rawfile,
 } from '@kit.ArkUI';
-
-import { Circle } from '@ohos.arkui.component';
+import { Circle} from '@ohos.arkui.component';
 import common from '@ohos.app.ability.common';
 import { ColorType } from '../model/ColorType';
-import { COLOR_SELECT_DATA, NEW_COLOR_SELECT_DATA } from '../data/ColorData';
+import { COLOR_SELECT_DATA,NEW_COLOR_SELECT_DATA } from '../data/ColorData';
 import { getResourceString } from '../../../../utils/ResourceUtils';
 import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
 
@@ -43,15 +42,12 @@ import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
 export struct ConsumeBrotherOneComponent {
   @State selectColors: ColorType[] = COLOR_SELECT_DATA;
   @State selectValues: SelectOption[] = NEW_COLOR_SELECT_DATA;
-  // 和父组件、子组件B双向同步圆形颜色
   @Consume consumeCircleColor: Resource;
-  // 和父组件、子组件B双向同步Select组件的Index值
-  @Consume currentSelectIndex: number = 0;
+  @Consume currentSelectIndex: int = 0;
   private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
 
   build() {
-    Column({ space: 10.0 } as ColumnOptions) {
-      // 点击查看源码
+    Column({ space: 10.0 }as ColumnOptions) {
       ViewCodeText({ webSrc: $rawfile('ConsumeBrotherOneComponent.ets.html') })
       Text($r('app.string.consume_brothers_title'))
         .fontSize($r('app.float.tips_font_size'))
@@ -67,9 +63,8 @@ export struct ConsumeBrotherOneComponent {
           .font({ size: $r('app.float.select_font_size') })
           .selectedOptionFont({ size: $r('app.float.select_font_size') })
           .optionFont({ size: $r('app.float.select_font_size') })
-          .onSelect((index: number, text: string) => {
-            // 孙组件@Consume声明的数据页面更新，爷组件@Provide的数据页面同步更新
-            this.currentSelectIndex = index;
+          .onSelect((index: number,text: string ) => {
+            this.currentSelectIndex = index as int;
             this.consumeCircleColor = this.selectColors[index as int].color;
           })
 

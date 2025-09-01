@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -36,7 +36,8 @@ import {
   ColumnOptions,
   ClickEvent,
   Margin,
-  StorageLink
+  StorageLink,
+
 } from '@kit.ArkUI';
 
 import { CodeView } from '../../../commoncomponents/CodeView';
@@ -47,18 +48,13 @@ import { TitleBar } from '../../../commoncomponents/TitleBar';
 let storage: LocalStorage = new LocalStorage();
 
 const __get_local_storage__ = (): LocalStorage => storage;
-
 @Entry({ storage: "__get_local_storage__" })
 @Component
 struct StoragePropAbilityPage {
   @State title: Resource = $r('app.string.localStorage_pagetitleone');
-  // 初始化字体大小最小值
   private minFontSize: number = 10.0;
-  // 和主页、Page1双向同步夜间模式状态
   @StorageLink('currentModelStatus') currentModelStatus: boolean = true;
-  // 和主页、Page1单向同步内容字体大小
   @StorageLink('contentFontSize') contentFontSize: number = 18.0;
-
   build() {
     Column() {
       if (this.currentModelStatus) {
@@ -67,8 +63,7 @@ struct StoragePropAbilityPage {
         TitleBar({ title: this.title })
       }
       CodeView({ title: this.title, isShowTitle: false }) {
-        Column({ space: 20.0 } as ColumnOptions) {
-          // 查看源码
+        Column({ space: 20.0 }as ColumnOptions) {
           ViewCodeText({ webSrc: $rawfile('LocalStoragePropPage.ets.html') })
           Text($r('app.string.localStorage_both_data_binding'))
             .fontSize(this.contentFontSize)
@@ -80,7 +75,7 @@ struct StoragePropAbilityPage {
             .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.tips_font_color'))
             .width('100%')
             .textAlign(TextAlign.Center)
-          Button('') {
+          Button('') {    //修改添加 ''
             Text(this.currentModelStatus ? $r('app.string.close_nightmode') : $r('app.string.start_nightmode'))
               .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.button_text_color'))
               .fontSize(this.contentFontSize)
@@ -91,8 +86,7 @@ struct StoragePropAbilityPage {
           .padding($r('app.float.page_padding'))
           .type(ButtonType.Capsule)
           .backgroundColor($r('app.color.button_background_color'))
-          .onClick((event: ClickEvent) => {
-            // 更新控制夜间模式状态的变量数据，@StorageLink和@StorageProp关联的数据变量刷新
+          .onClick((event:ClickEvent) => {
             this.currentModelStatus = !this.currentModelStatus;
           })
 
@@ -101,7 +95,6 @@ struct StoragePropAbilityPage {
             .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.tips_font_color'))
             .width('100%')
             .textAlign(TextAlign.Center)
-          // slider模块控制字体大小
           Column() {
             Text($r('app.string.fontSize_text'))
               .fontSize(this.contentFontSize)
@@ -114,22 +107,20 @@ struct StoragePropAbilityPage {
                 .fontSize($r('app.float.tips_font_size'))
               Slider({
                 value: this.contentFontSize,
-                min: 10.0, // 字体大小最小值
-                max: 30.0, // 字体大小最大值
+                min: 10.0,
+                max: 30.0,
                 style: SliderStyle.OutSet
               })
                 .showTips(true)
                 .onChange((value: number, mode: SliderChangeMode) => {
-                  // 更新控制字体大小的变量数据，@LocalStorageLink关联的数据变量不刷新同步
                   this.contentFontSize = value;
                 })
-              // toFixed(0)将滑动条返回值处理为整数精度
               Text(this.contentFontSize.toFixed(0.0))
                 .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.tips_font_color'))
                 .fontSize($r('app.float.tips_font_size'))
             }
             .width('80%')
-          }.margin({ top: 50.0 } as Margin)
+          }.margin({ top: 50.0 }as Margin)
 
           Text($r('app.string.localStorage_single_fontsize_binding'))
             .fontSize(this.contentFontSize)
@@ -142,11 +133,10 @@ struct StoragePropAbilityPage {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(this.currentModelStatus ? $r('app.color.nightnode_color') :
-      $r('app.color.background_shallow_grey'))
+    .backgroundColor(this.currentModelStatus ? $r('app.color.nightnode_color') : $r('app.color.background_shallow_grey'))
   }
 
   aboutToDisappear(): void {
-    AppStorage.set('sideBarShow', false);
+    AppStorage.setOrCreate('sideBarShow', false);
   }
 }

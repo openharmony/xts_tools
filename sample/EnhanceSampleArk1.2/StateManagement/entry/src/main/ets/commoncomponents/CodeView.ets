@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -38,16 +38,14 @@ import {
   ClickEvent,
   $r,
   $rawfile,
-  Padding
+  Padding,
 } from '@kit.ArkUI';
 
 import webView from '@ohos.web.webview';
 import { TitleBar } from './TitleBar';
-
 @Component
 export struct CodeView {
-  @BuilderParam contentView: () => void = () => {
-  };
+  @BuilderParam contentView: () => void = () => {};
   @Link title: Resource;
   @StorageLink('sideBarShow') sideBarShow: boolean = false;
   @StorageLink('webSrc') @Watch('webSrcChange') webSrc: Resource = $rawfile('BaseTypeCode.ets.html');
@@ -55,19 +53,18 @@ export struct CodeView {
   private isShowTitle: boolean = true;
   private controller: webView.WebviewController = new webView.WebviewController();
 
-  webSrcChange(propName: string): void {
+  webSrcChange(propName: string):void {
     this.controller.loadUrl(this.webSrc);
   }
 
-  @Builder
-  codeView() {
-    Column({ space: 10.0 } as ColumnOptions) {
+  @Builder codeView() {
+    Column({ space: 10.0 }as ColumnOptions) {
       Text($r('app.string.close'))
         .fontSize($r('app.float.source_code_font_size'))
         .fontColor(Color.White)
         .alignSelf(ItemAlign.End)
         .id('close')
-        .onClick((): void => {
+        .onClick(() : void=> {
           this.sideBarShow = !this.sideBarShow;
         })
       Column() {
@@ -77,7 +74,7 @@ export struct CodeView {
       }
       .width('100%')
       .height('100%')
-      .padding({ bottom: $r('app.float.code_view_bottom') } as Padding)
+      .padding({ bottom: $r('app.float.code_view_bottom') }as Padding )
     }
     .height('100%')
     .padding($r('app.float.page_padding'))
@@ -104,7 +101,6 @@ export struct CodeView {
       .layoutWeight(1.0)
       .sideBarWidth('100%')
       .showControlButton(false)
-      // 大型设备查看源码和界面4:6的比例，所以占60%
       .maxSideBarWidth(this.curBp === 'sm' ? '100%' : '60%')
       .sideBarPosition(SideBarPosition.End)
     }

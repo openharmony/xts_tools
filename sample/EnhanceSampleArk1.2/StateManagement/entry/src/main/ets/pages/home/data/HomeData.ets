@@ -97,7 +97,6 @@ const PAGE_LEVEL_CATEGORY: Array<SecondLevelCategory | ThirdLevelCategory> = [
   }
 ];
 
-
 const APP_LEVEL_CATEGORY: Array<SecondLevelCategory | ThirdLevelCategory> = [
   {
     tag: 1.0,
@@ -110,7 +109,6 @@ const APP_LEVEL_CATEGORY: Array<SecondLevelCategory | ThirdLevelCategory> = [
     url: 'pages/applylevelstagemanagement/abilityglobaldatasync/AbilityGlobalDataSync',
   }
 ];
-
 
 export const HOME_TABS: FirstLevelCategory[] = [
   {

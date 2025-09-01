@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -28,7 +28,7 @@ import {
   $r,
   $rawfile,
   ColumnOptions,
-  ClickEvent
+  ClickEvent,
 } from '@kit.ArkUI';
 
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText'
@@ -39,9 +39,8 @@ export struct BaseTypeCode {
   @State circleColor: Resource = $r('app.color.circle_pink');
 
   build() {
-    Column({ space: 10.0 } as ColumnOptions) {
-      // 点击查看源码
-      ViewCodeText({ webSrc: $rawfile('BaseTypeCode.ets.html') })
+    Column({ space: 10.0 }as ColumnOptions) {
+      ViewCodeText({webSrc: $rawfile('BaseTypeCode.ets.html')})
 
       Text($r('app.string.base_type_tip_text'))
         .fontColor($r('app.color.tips_font_color'))
@@ -63,7 +62,7 @@ export struct BaseTypeCode {
       .height($r('app.float.button_height'))
       .type(ButtonType.Capsule)
       .backgroundColor($r('app.color.button_background_color'))
-      .onClick((event: ClickEvent) => {
+      .onClick((event:ClickEvent) => {
         if (this.circleColor.id === $r('app.color.circle_pink').id) {
           this.circleColor = $r('app.color.circle_blue');
         } else {

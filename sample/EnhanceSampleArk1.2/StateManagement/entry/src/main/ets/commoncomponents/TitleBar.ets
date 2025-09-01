@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -28,10 +28,9 @@ import {
   ColumnOptions,
   TextAttribute,
   Margin,
-  ClickEvent
+  ClickEvent,
 } from '@kit.ArkUI';
-
-import { Context, UIContext } from '@ohos.arkui.UIContext';
+import { Context,UIContext} from '@ohos.arkui.UIContext';
 import router from '@ohos.router';
 import common from '@ohos.app.ability.common';
 import { startSpecifiedAbility } from '../utils/StartAbilityUtils';
@@ -51,14 +50,13 @@ export struct TitleBar {
         }
         .backgroundColor($r('app.color.background_shallow_grey'))
         .id('backBtn')
-        .onClick((event: ClickEvent) => {
-            this.isAbility ? startSpecifiedAbility(this.CONTEXT, 'EntryAbility') :
-            this.getUIContext().getRouter().back();
+        .onClick((event:ClickEvent) => {
+          this.isAbility ? startSpecifiedAbility(this.CONTEXT, 'EntryAbility') : this.getUIContext().getRouter().back();
         })
 
         Text(this.title)
           .fontSize($r('app.float.title_font_size'))
-          .margin({ left: $r('app.float.title_margin') } as Margin)
+          .margin({ left: $r('app.float.title_margin') }as Margin)
       }
       .width('100%')
       .padding($r('app.float.page_padding'))

@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -26,38 +26,28 @@ import {
   ColumnOptions,
   ClickEvent,
   $r,
-  $rawfile
+  $rawfile,
 } from '@kit.ArkUI';
 
 import { ChildCompLink } from './ComponentLink';
 import { ChildCompProp } from './ComponentProp';
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
-import { Circle, } from '@ohos.arkui.component';
+import { Circle,} from '@ohos.arkui.component';
 
-interface ColorData {
-  GREY: string;
-  BLUE: string;
-  PINK: string;
-  RED: string;
-}
-
-// 初始化圆形的可设置颜色
-export const COLOR_DATA: ColorData = {
-  GREY: '#eebebeba',
-  BLUE: '#4A90E2',
-  PINK: '#8DF8BEBE',
-  RED: '#FFF30823',
+export enum COLOR_DATA {
+  GREY = '#eebebeba',
+  BLUE = '#4A90E2',
+  PINK = '#8DF8BEBE',
+  RED = '#FFF30823',
 }
 
 @Component
 export struct UniAndBidirectionSyncCode {
-  // 初始化圆形颜色的状态变量
   @State circleColor: string = COLOR_DATA.GREY;
 
   build() {
-    Column({ space: 10.0 } as ColumnOptions) {
-      Column({ space: 10.0 } as ColumnOptions) {
-        // 点击查看源码
+    Column({ space: 10.0 }as ColumnOptions) {
+      Column({ space: 10.0 }as ColumnOptions) {
         ViewCodeText({ webSrc: $rawfile('UniAndBidirectionSyncCode.ets.html') })
         Text($r('app.string.parent_component'))
           .fontSize($r('app.float.tips_font_size'))
@@ -72,7 +62,6 @@ export struct UniAndBidirectionSyncCode {
         Circle()
           .size({ width: $r('app.float.circle_size'), height: $r('app.float.circle_size') })
           .fill(this.circleColor)
-        // 点击更新父组件的圆形颜色变量，父组件更新，子组件@Link以及@Prop继承的变量同步
         Button('') {
           Text($r('app.string.uni_and_bidirection_sync_btn'))
             .fontColor($r('app.color.button_text_color'))
@@ -84,14 +73,11 @@ export struct UniAndBidirectionSyncCode {
         .height($r('app.float.button_height'))
         .type(ButtonType.Capsule)
         .backgroundColor($r('app.color.button_background_color'))
-        .onClick((event: ClickEvent) => {
+        .onClick((event:ClickEvent) => {
           this.circleColor = COLOR_DATA.PINK;
         })
       }
-
-      // 单向同步子组件
       ChildCompProp({ circleColor: this.circleColor })
-      // 双向同步子组件
       ChildCompLink({ circleColor: this.circleColor })
     }
     .padding(10.0)

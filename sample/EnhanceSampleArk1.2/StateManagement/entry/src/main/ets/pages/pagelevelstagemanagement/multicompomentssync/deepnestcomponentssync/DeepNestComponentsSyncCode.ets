@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -20,7 +20,7 @@ import {
   Text,
   TextAlign,
   Margin,
-  $r
+  $r,
 } from '@kit.ArkUI';
 
 import { StateGrandfatherComponent } from './StateGrandfatherComponent';
@@ -35,16 +35,14 @@ export struct DeepNestComponentsSyncCode {
           .fontSize($r('app.float.tips_font_size'))
           .width('100%')
           .textAlign(TextAlign.Start)
-        // 爷组件@State
         StateGrandfatherComponent()
-      }.margin({ bottom: 16.0 } as Margin)
+      }.margin({ bottom: 16.0 }as Margin)
 
       Column() {
         Text($r('app.string.realize_by_provide_consume'))
           .fontSize($r('app.float.tips_font_size'))
           .width('100%')
           .textAlign(TextAlign.Start)
-        // 爷组件@Provide
         ProvideGrandfatherComponent()
       }
     }

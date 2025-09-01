@@ -1,6 +1,5 @@
-'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -25,7 +24,7 @@ import {
   FlexAlign,
   $r,
   $rawfile,
-  ClickEvent
+  ClickEvent,
 } from '@kit.ArkUI';
 
 @Component
@@ -41,9 +40,9 @@ export struct ViewCodeText {
         .alignSelf(ItemAlign.End)
         .id('viewSourceCode')
         .onClick((event: ClickEvent) => {
-          this.sideBarShow = !this.sideBarShow; // 自动同步（因 @StorageLink）
-          AppStorage.set<boolean>('sideBarShow', this.sideBarShow);
-          AppStorage.set<Resource>('webSrc', this.webSrc);
+          this.sideBarShow = !this.sideBarShow;
+          AppStorage.setOrCreate<boolean>('sideBarShow', this.sideBarShow);
+          AppStorage.setOrCreate<Resource>('webSrc', this.webSrc);
         });
     }
     .width('100%')
