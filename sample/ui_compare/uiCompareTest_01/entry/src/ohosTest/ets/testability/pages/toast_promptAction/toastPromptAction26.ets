@@ -59,7 +59,7 @@ struct toastPromptAction26 {
             try {
               this.promptAction.openToast({
                 message: '这是SYSTEM_TOP_MOST模式的Toast消息',
-                duration: 3000,
+                duration: 1500,
                 showMode: promptAction.ToastShowMode.SYSTEM_TOP_MOST
               }).then((toastId: number) => {
                 this.toastId = toastId;

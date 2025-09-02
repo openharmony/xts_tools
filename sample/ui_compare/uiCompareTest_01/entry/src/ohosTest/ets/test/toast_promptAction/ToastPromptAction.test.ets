@@ -56,34 +56,37 @@ export default function ToastPromptActionTest () {
       // 先查找所有按钮，确保页面完全加载
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_04'), 1000);
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_04'), 1000);
-      
+
       // 依次启动多个Toast
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       console.log('ToastPromptActionTest Toast1.click success')
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0040_01')
       await Utils.sleep(1000)
-      
+
       await toast2Button.click();
-      console.log('ToastPromptActionTest Toast2.click success')
+      console.log('ToastPromptActionTest Toast2.click success1')
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0040_02')
-      await Utils.sleep(1000)
+      await Utils.sleep(2500)
 
+      await driver.waitForIdle(500,2000);
       let close1Button: Component = await driver.waitForComponent(ON.id('close1_button_04'), 1000);
       let close2Button: Component = await driver.waitForComponent(ON.id('close2_button_04'), 1000);
+
       // 依次关闭Toast
+      await close2Button.click();
+      console.log('ToastPromptActionTest Close2.click success')
+      await driver.waitForIdle(500,2000);
+
       await close1Button.click();
       console.log('ToastPromptActionTest Close1.click success')
       await driver.waitForIdle(500,2000);
       await Utils.sleep(1000);
-      
-      await close2Button.click();
-      console.log('ToastPromptActionTest Close2.click success')
-      await driver.waitForIdle(500,2000);
+
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0040_03')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0040 finish.`);
       done()
     })
@@ -100,31 +103,47 @@ export default function ToastPromptActionTest () {
       Settings.createWindow("testability/pages/toast_promptAction/toastPromptAction02")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
-      
+
       // 打开Toast
-      let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_02'), 1000);
-      await openButton.click();
+      let openButton1: Component = await driver.waitForComponent(ON.id('open_toast_button_02'), 1000);
+      await openButton1.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0020_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
+      await driver.waitForIdle(1500,2500);
       // 关闭Toast
-      let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_02'), 1000);
-      await closeButton.click();
+      let closeButton1: Component = await driver.waitForComponent(ON.id('close_toast_button_02'), 1000);
+      await closeButton1.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0020_02')
       await Utils.sleep(1000)
-      
-      // 连续多次操作
-      for (let i = 0; i < 2; i++) {
-        await openButton.click();
-        await driver.waitForIdle(500,2000);
-        await Utils.sleep(500);
-        await closeButton.click();
-        await driver.waitForIdle(500,2000);
-        await Utils.sleep(500);
-      }
-      
+
+      // 多次打开关闭
+      // 打开Toast
+      let openButton2: Component = await driver.waitForComponent(ON.id('open_toast_button_02'), 1000);
+      await openButton2.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(2500);
+
+      // 关闭Toast
+      let closeButton2: Component = await driver.waitForComponent(ON.id('close_toast_button_02'), 1000);
+      await closeButton2.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000);
+
+      // 打开Toast
+      let openButton3: Component = await driver.waitForComponent(ON.id('open_toast_button_02'), 1000);
+      await openButton3.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(2500);
+
+      // 关闭Toast
+      let closeButton3: Component = await driver.waitForComponent(ON.id('close_toast_button_02'), 1000);
+      await closeButton3.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000);
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0020 finish.`);
       done()
     })
@@ -142,20 +161,20 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_01'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0010_01')
       await Utils.sleep(1000)
-      
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_01'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0010_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0010 finish.`);
       done()
     })
@@ -173,20 +192,20 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_09'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0090_01')
       await Utils.sleep(1000)
-      
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_09'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0090_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0090 finish.`);
       done()
     })
@@ -204,14 +223,14 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast并截图验证
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_07'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0070_01')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0070 finish.`);
       done()
     })
@@ -229,14 +248,14 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast并截图验证
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_08'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0080_01')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0080 finish.`);
       done()
     })
@@ -254,21 +273,21 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_06'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0060_01')
       await Utils.sleep(1000)
-      
+
       // 关闭Toast
       let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_06'), 1000);
       await closeButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0060_02')
       await Utils.sleep(1000)
-      
+
       // 连续多次操作
       for (let i = 0; i < 2; i++) {
         await openButton.click();
@@ -278,7 +297,7 @@ export default function ToastPromptActionTest () {
         await driver.waitForIdle(500,2000);
         await Utils.sleep(500);
       }
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0060 finish.`);
       done()
     })
@@ -295,32 +314,32 @@ export default function ToastPromptActionTest () {
       Settings.createWindow("testability/pages/toast_promptAction/toastPromptAction10")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
-      
+
       // 先查找所有按钮，确保页面完全加载
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_10'), 1000);
       let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_10'), 1000);
-      
+
       // 验证按钮是否可见
       await driver.assertComponentExist(ON.id('open_toast_button_10'));
       await driver.assertComponentExist(ON.id('close_toast_button_10'));
-      
+
       // 打开Toast
       await openButton.click();
       console.log('ToastPromptActionTest open_toast_button_10.click success')
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0100_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 重新查找关闭按钮，确保它仍然可用
       closeButton = await driver.waitForComponent(ON.id('close_toast_button_10'), 1000);
-      
+
       // 关闭Toast
       await closeButton.click();
       console.log('close_toast_button_10 close_toast_button_10.click success')
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0100_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0100 finish.`);
       done()
     })
@@ -338,7 +357,7 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_05'), 1000);
       await toast1Button.click();
@@ -346,28 +365,28 @@ export default function ToastPromptActionTest () {
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0050_01')
       await Utils.sleep(1000)
-      
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_05'), 1000);
       await toast2Button.click();
       console.log('toastLog toast2_button_05 click success')
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0050_02')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 依次关闭Toast
       let close1Button: Component = await driver.waitForComponent(ON.id('close1_button_05'), 1000);
       await close1Button.click();
       console.log('toastLog close1_button_05 click success')
       await driver.waitForIdle(500,2000);
       await Utils.sleep(500);
-      
+
       let close2Button: Component = await driver.waitForComponent(ON.id('close2_button_05'), 1000);
       await close2Button.click();
       console.log('toastLog close2_button_05 click success')
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0050_03')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0050 finish.`);
       done()
     })
@@ -385,21 +404,21 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_03'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0030_01')
       await Utils.sleep(1000)
-      
+
       // 关闭Toast
       let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_03'), 1000);
       await closeButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0030_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0030 finish.`);
       done()
     })
@@ -417,32 +436,32 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_12'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0120_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_12'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0120_02')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 依次关闭Toast
       let close1Button: Component = await driver.waitForComponent(ON.id('close1_button_12'), 1000);
       await close1Button.click();
       await driver.waitForIdle(500,2000);
       await Utils.sleep(500);
-      
+
       let close2Button: Component = await driver.waitForComponent(ON.id('close2_button_12'), 1000);
       await close2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0120_03')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0120 finish.`);
       done()
     })
@@ -460,32 +479,32 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_11'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0110_01')
       await Utils.sleep(1000)
-      
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_11'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0110_02')
       await Utils.sleep(1000)
-      
+
       // 依次关闭Toast
       let close1Button: Component = await driver.waitForComponent(ON.id('close1_button_11'), 1000);
       await close1Button.click();
       await driver.waitForIdle(500,2000);
       await Utils.sleep(500);
-      
+
       let close2Button: Component = await driver.waitForComponent(ON.id('close2_button_11'), 1000);
       await close2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0110_03')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0110 finish.`);
       done()
     })
@@ -503,14 +522,14 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast并截图验证
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_16'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0160_01')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0160 finish.`);
       done()
     })
@@ -528,31 +547,46 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast
-      let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_14'), 1000);
-      await openButton.click();
+      let openButton1: Component = await driver.waitForComponent(ON.id('open_toast_button_14'), 1000);
+      await openButton1.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0140_01')
       await Utils.sleep(1000)
-      
+
       // 关闭Toast
-      let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_14'), 1000);
-      await closeButton.click();
+      let closeButton1: Component = await driver.waitForComponent(ON.id('close_toast_button_14'), 1000);
+      await closeButton1.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0140_02')
       await Utils.sleep(1000)
-      
-      // 连续多次操作
-      for (let i = 0; i < 2; i++) {
-        await openButton.click();
-        await driver.waitForIdle(500,2000);
-        await Utils.sleep(500);
-        await closeButton.click();
-        await driver.waitForIdle(500,2000);
-        await Utils.sleep(500);
-      }
-      
+
+      // 多次打开关闭
+      // 打开Toast
+      let openButton2: Component = await driver.waitForComponent(ON.id('open_toast_button_14'), 1000);
+      await openButton2.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000);
+
+      // 关闭Toast
+      let closeButton2: Component = await driver.waitForComponent(ON.id('close_toast_button_14'), 1000);
+      await closeButton2.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000);
+
+      // 打开Toast
+      let openButton3: Component = await driver.waitForComponent(ON.id('open_toast_button_14'), 1000);
+      await openButton3.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000);
+
+      // 关闭Toast
+      let closeButton3: Component = await driver.waitForComponent(ON.id('close_toast_button_14'), 1000);
+      await closeButton3.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000);
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0140 finish.`);
       done()
     })
@@ -570,20 +604,20 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_15'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0150_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_15'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0150_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0150 finish.`);
       done()
     })
@@ -601,21 +635,21 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_13'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0130_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 关闭Toast
       let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_13'), 1000);
       await closeButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0130_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0130 finish.`);
       done()
     })
@@ -633,31 +667,46 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast
-      let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_17'), 1000);
-      await openButton.click();
+      let openButton1: Component = await driver.waitForComponent(ON.id('open_toast_button_17'), 1000);
+      await openButton1.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0170_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 关闭Toast
-      let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_17'), 1000);
-      await closeButton.click();
+      let closeButton1: Component = await driver.waitForComponent(ON.id('close_toast_button_17'), 1000);
+      await closeButton1.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0170_02')
       await Utils.sleep(1000)
-      
-      // 连续多次操作
-      for (let i = 0; i < 2; i++) {
-        await openButton.click();
-        await driver.waitForIdle(500,2000);
-        await Utils.sleep(500);
-        await closeButton.click();
-        await driver.waitForIdle(500,2000);
-        await Utils.sleep(500);
-      }
-      
+
+      // 多次打开关闭
+      // 打开Toast
+      let openButton2: Component = await driver.waitForComponent(ON.id('open_toast_button_17'), 1000);
+      await openButton2.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(2500)
+
+      // 关闭Toast
+      let closeButton2: Component = await driver.waitForComponent(ON.id('close_toast_button_17'), 1000);
+      await closeButton2.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000)
+
+      // 打开Toast
+      let openButton3: Component = await driver.waitForComponent(ON.id('open_toast_button_17'), 1000);
+      await openButton3.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(2500)
+
+      // 关闭Toast
+      let closeButton3: Component = await driver.waitForComponent(ON.id('close_toast_button_17'), 1000);
+      await closeButton3.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000)
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0170 finish.`);
       done()
     })
@@ -675,20 +724,20 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_18'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0180_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_18'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0180_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0180 finish.`);
       done()
     })
@@ -706,20 +755,20 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_20'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0200_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_20'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0200_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0200 finish.`);
       done()
     })
@@ -737,32 +786,32 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_19'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0190_01')
       await Utils.sleep(1000)
-      
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_19'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0190_02')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 依次关闭Toast
       let close1Button: Component = await driver.waitForComponent(ON.id('close1_button_19'), 1000);
       await close1Button.click();
       await driver.waitForIdle(500,2000);
       await Utils.sleep(500);
-      
+
       let close2Button: Component = await driver.waitForComponent(ON.id('close2_button_19'), 1000);
       await close2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0190_03')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0190 finish.`);
       done()
     })
@@ -780,20 +829,20 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_21'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0210_01')
       await Utils.sleep(1000)
-      
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_21'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0210_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0210 finish.`);
       done()
     })
@@ -811,14 +860,14 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast并截图验证
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_25'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0250_01')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0250 finish.`);
       done()
     })
@@ -836,20 +885,20 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_24'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0240_01')
       await Utils.sleep(1000)
-      
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_24'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0240_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0240 finish.`);
       done()
     })
@@ -867,21 +916,21 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_23'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0230_01')
       await Utils.sleep(1000)
-      
+
       // 关闭Toast
       let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_23'), 1000);
       await closeButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0230_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0230 finish.`);
       done()
     })
@@ -899,20 +948,20 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_27'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0270_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_27'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0270_02')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0270 finish.`);
       done()
     })
@@ -930,21 +979,21 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_30'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0300_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 关闭Toast
       let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_30'), 1000);
       await closeButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0300_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0300 finish.`);
       done()
     })
@@ -962,14 +1011,14 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast并截图验证
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_31'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0310_01')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0310 finish.`);
       done()
     })
@@ -987,14 +1036,14 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast并截图验证
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_22'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0220_01')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0220 finish.`);
       done()
     })
@@ -1012,31 +1061,46 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast
-      let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_26'), 1000);
-      await openButton.click();
+      let openButton1: Component = await driver.waitForComponent(ON.id('open_toast_button_26'), 1000);
+      await openButton1.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0260_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 关闭Toast
-      let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_26'), 1000);
-      await closeButton.click();
+      let closeButton1: Component = await driver.waitForComponent(ON.id('close_toast_button_26'), 1000);
+      await closeButton1.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0260_02')
       await Utils.sleep(1000)
-      
-      // 连续多次操作
-      for (let i = 0; i < 2; i++) {
-        await openButton.click();
-        await driver.waitForIdle(500,2000);
-        await Utils.sleep(500);
-        await closeButton.click();
-        await driver.waitForIdle(500,2000);
-        await Utils.sleep(500);
-      }
-      
+
+      // 多次打开关闭
+      // 打开Toast
+      let openButton2: Component = await driver.waitForComponent(ON.id('open_toast_button_26'), 1000);
+      await openButton2.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(2500)
+
+      // 关闭Toast
+      let closeButton2: Component = await driver.waitForComponent(ON.id('close_toast_button_26'), 1000);
+      await closeButton2.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000)
+
+      // 打开Toast
+      let openButton3: Component = await driver.waitForComponent(ON.id('open_toast_button_26'), 1000);
+      await openButton3.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(2500)
+
+      // 关闭Toast
+      let closeButton3: Component = await driver.waitForComponent(ON.id('close_toast_button_26'), 1000);
+      await closeButton3.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000)
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0260 finish.`);
       done()
     })
@@ -1054,32 +1118,32 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_29'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0290_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_29'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0290_02')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 依次关闭Toast
       let close1Button: Component = await driver.waitForComponent(ON.id('close1_button_29'), 1000);
       await close1Button.click();
       await driver.waitForIdle(500,2000);
       await Utils.sleep(500);
-      
+
       let close2Button: Component = await driver.waitForComponent(ON.id('close2_button_29'), 1000);
       await close2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0290_03')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0290 finish.`);
       done()
     })
@@ -1097,32 +1161,32 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_32'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0320_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_32'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0320_02')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 依次关闭Toast
       let close1Button: Component = await driver.waitForComponent(ON.id('close1_button_32'), 1000);
       await close1Button.click();
       await driver.waitForIdle(500,2000);
       await Utils.sleep(500);
-      
+
       let close2Button: Component = await driver.waitForComponent(ON.id('close2_button_32'), 1000);
       await close2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0320_03')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0320 finish.`);
       done()
     })
@@ -1140,20 +1204,20 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 依次启动多个Toast
       let toast1Button: Component = await driver.waitForComponent(ON.id('toast1_button_28'), 1000);
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0280_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       let toast2Button: Component = await driver.waitForComponent(ON.id('toast2_button_28'), 1000);
       await toast2Button.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0280_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0280 finish.`);
       done()
     })
@@ -1171,31 +1235,46 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast
-      let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_33'), 1000);
-      await openButton.click();
+      let openButton1: Component = await driver.waitForComponent(ON.id('open_toast_button_33'), 1000);
+      await openButton1.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0330_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 关闭Toast
-      let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_33'), 1000);
-      await closeButton.click();
+      let closeButton1: Component = await driver.waitForComponent(ON.id('close_toast_button_33'), 1000);
+      await closeButton1.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0330_02')
       await Utils.sleep(1000)
-      
-      // 连续多次操作
-      for (let i = 0; i < 2; i++) {
-        await openButton.click();
-        await driver.waitForIdle(500,2000);
-        await Utils.sleep(500);
-        await closeButton.click();
-        await driver.waitForIdle(500,2000);
-        await Utils.sleep(500);
-      }
-      
+
+      // 多次打开关闭
+      // 打开Toast
+      let openButton2: Component = await driver.waitForComponent(ON.id('open_toast_button_33'), 1000);
+      await openButton2.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(2500);
+
+      // 关闭Toast
+      let closeButton2: Component = await driver.waitForComponent(ON.id('close_toast_button_33'), 1000);
+      await closeButton2.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000);
+
+      // 打开Toast
+      let openButton3: Component = await driver.waitForComponent(ON.id('open_toast_button_33'), 1000);
+      await openButton3.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(2500);
+
+      // 关闭Toast
+      let closeButton3: Component = await driver.waitForComponent(ON.id('close_toast_button_33'), 1000);
+      await closeButton3.click();
+      await driver.waitForIdle(500,2000);
+      await Utils.sleep(1000);
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0330 finish.`);
       done()
     })
@@ -1213,21 +1292,21 @@ export default function ToastPromptActionTest () {
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       await Utils.sleep(1000);
-      
+
       // 打开Toast
       let openButton: Component = await driver.waitForComponent(ON.id('open_toast_button_34'), 1000);
       await openButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0340_01')
-      await Utils.sleep(1000)
-      
+      await Utils.sleep(2500)
+
       // 关闭Toast
       let closeButton: Component = await driver.waitForComponent(ON.id('close_toast_button_34'), 1000);
       await closeButton.click();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0340_02')
       await Utils.sleep(1000)
-      
+
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0340 finish.`);
       done()
     })

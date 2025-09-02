@@ -59,7 +59,7 @@ struct toastPromptAction01 {
             try {
               this.promptAction.openToast({
                 message: '这是第一个Toast消息',
-                duration: 3000,
+                duration: 1500,
                 showMode: promptAction.ToastShowMode.DEFAULT
               }).then((toastId: number) => {
                 this.toastId = toastId;
@@ -78,7 +78,7 @@ struct toastPromptAction01 {
             try {
               this.promptAction.openToast({
                 message: '这是第二个Toast消息',
-                duration: 3000,
+                duration: 1500,
                 showMode: promptAction.ToastShowMode.DEFAULT
               }).then((toastId: number) => {
                 this.toastId = toastId;

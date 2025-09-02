@@ -59,7 +59,7 @@ struct toastPromptAction25 {
             try {
               this.promptAction.openToast({
                 message: '这是DEFAULT模式的Toast消息',
-                duration: 3000,
+                duration: 1500,
                 showMode: promptAction.ToastShowMode.DEFAULT
               }).then((toastId: number) => {
                 this.toastId = toastId;
