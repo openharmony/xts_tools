@@ -52,7 +52,7 @@ export default function TextPicker02Test () {
       Settings.createWindow("testability/pages/textPicker/mediaTextPicker01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0012')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0012 finish.`);
       done()
@@ -70,7 +70,7 @@ export default function TextPicker02Test () {
       Settings.createWindow("testability/pages/textPicker/mediaTextPicker02")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0013')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0013 finish.`);
       done()
@@ -88,7 +88,7 @@ export default function TextPicker02Test () {
       Settings.createWindow("testability/pages/textPicker/mediaTextPicker03")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0015')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0015 finish.`);
       done()
@@ -106,7 +106,7 @@ export default function TextPicker02Test () {
       Settings.createWindow("testability/pages/textPicker/mediaTextPicker04")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0019')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0019 finish.`);
       done()
@@ -127,7 +127,7 @@ export default function TextPicker02Test () {
       let button: Component = await driver.waitForComponent(ON.id('mediaTextPicker05'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0020')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0020 finish.`);
       done()

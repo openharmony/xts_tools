@@ -54,7 +54,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0180')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0180 finish.`);
       done()
@@ -74,7 +74,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0150')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0150 finish.`);
       done()
@@ -94,7 +94,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0200')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0200 finish.`);
       done()
@@ -114,7 +114,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0190')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0190 finish.`);
       done()
@@ -134,7 +134,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0170')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0170 finish.`);
       done()
@@ -154,7 +154,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0010')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0010 finish.`);
       done()
@@ -174,7 +174,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0020')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0020 finish.`);
       done()
@@ -194,7 +194,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0240')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0240 finish.`);
       done()
@@ -214,7 +214,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0230')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0230 finish.`);
       done()
@@ -234,7 +234,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0210')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0210 finish.`);
       done()
@@ -254,7 +254,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0260')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0260 finish.`);
       done()
@@ -274,7 +274,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0250')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0250 finish.`);
       done()
@@ -294,7 +294,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0300')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0300 finish.`);
       done()
@@ -314,7 +314,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0280')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0280 finish.`);
       done()
@@ -334,7 +334,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0480')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0480 finish.`);
       done()
@@ -354,7 +354,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0500')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0500 finish.`);
       done()
@@ -374,7 +374,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0490')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0490 finish.`);
       done()
@@ -394,7 +394,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0380')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0380 finish.`);
       done()
@@ -414,7 +414,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0310')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0310 finish.`);
       done()
@@ -434,7 +434,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0220')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0220 finish.`);
       done()
@@ -454,7 +454,7 @@ export default function AlphabetIndexerTest() {
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0250')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0250 finish.`);
       done()
