@@ -1694,6 +1694,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.ability.verticalPanelManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.touchEvent.d.ts",
             "bundle_name": [
                 "input"
