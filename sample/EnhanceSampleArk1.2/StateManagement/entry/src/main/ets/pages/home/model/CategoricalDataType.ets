@@ -25,14 +25,16 @@ export interface FirstLevelCategory {
 export interface SecondLevelCategory {
   tag?: number,
   title: Resource, // Second-level category titles
-  childNodes: ThirdLevelCategory[]
+  childNodes: ThirdLevelCategory[],
+  type: string
 }
 
 export interface ThirdLevelCategory {
   tag: number, //  Third-level category tag
   title: Resource, // Third-level category headings
   url?: string, // Third-level category detail page URL
-  childNodes?: FourthLevelCategory[]
+  childNodes?: FourthLevelCategory[],
+  type: string
 }
 
 export interface FourthLevelCategory {

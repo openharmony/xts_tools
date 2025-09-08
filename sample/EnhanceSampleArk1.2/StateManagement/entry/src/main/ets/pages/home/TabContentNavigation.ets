@@ -36,6 +36,7 @@ import {
   Margin,
   $r,
   ColumnOptions,
+  Scroll,
 } from '@kit.ArkUI';
 
 import router from '@ohos.router';
@@ -59,11 +60,12 @@ export struct TabContentNavigation {
  private categories: Array<ThirdLevelCategory | SecondLevelCategory> = new Array<ThirdLevelCategory | SecondLevelCategory>();
 
   hasSecondLevelCategory(category: ThirdLevelCategory | SecondLevelCategory): boolean {
-    return (category as SecondLevelCategory).tag !== undefined;
+    return category.type === "secondLevelCategory";
   }
 
   build() {
     Column() {
+      Blank()
       List() {
         if (this.categories.length > 0 && this.hasSecondLevelCategory(this.categories[0])) {
           ForEach(this.categories, (item: ThirdLevelCategory | SecondLevelCategory, index: number) => {
@@ -168,7 +170,7 @@ struct ThirdLevelNavigation {
         }
       })
 
-      if (this.isUnfold ) {
+      if (this.isUnfold) {
         ForEach(this.thirdLevelCategory?.childNodes!, (fourthLevelCategory: FourthLevelCategory, index: number) => {
           Column() {
             Divider()
@@ -179,7 +181,7 @@ struct ThirdLevelNavigation {
 
             FourthLevelNavigation({ fourthLevelCategory: fourthLevelCategory })
           }
-        }, (item: FourthLevelCategory) => item.title.toString() )
+        }, (item: FourthLevelCategory) => item.title.toString())
       }
     }
     .id(`secondLevelMenu${this.secondLevelCategoryIndex}${this.secondLevelCategoryIndex === 1 ? 0 : this.ThirdLevelNavigationIndex}`)
@@ -207,7 +209,7 @@ struct FourthLevelNavigation {
       // Click to jump to the corresponding page
       this.getUIContext().getRouter().pushUrl({
         url: this.fourthLevelCategory?.url as string
-      });
+      })
     })
   }
 }

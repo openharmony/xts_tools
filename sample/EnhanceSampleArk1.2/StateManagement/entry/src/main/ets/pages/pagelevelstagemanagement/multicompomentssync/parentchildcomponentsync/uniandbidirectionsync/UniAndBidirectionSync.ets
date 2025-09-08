@@ -34,9 +34,10 @@ struct UniAndBidirectionSync {
 
   build() {
     Column() {
-      CodeView({ title: this.title }) {
+      // TODO Exception
+      // CodeView({ title: this.title }) {
         UniAndBidirectionSyncCode()
-      }
+      // }
     }
     .width('100%')
     .height('100%')

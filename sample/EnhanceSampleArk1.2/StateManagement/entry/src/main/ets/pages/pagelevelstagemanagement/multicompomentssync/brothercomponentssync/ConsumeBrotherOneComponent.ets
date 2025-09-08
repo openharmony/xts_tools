@@ -43,8 +43,12 @@ export struct ConsumeBrotherOneComponent {
   @State selectColors: ColorType[] = COLOR_SELECT_DATA;
   @State selectValues: SelectOption[] = NEW_COLOR_SELECT_DATA;
   @Consume consumeCircleColor: Resource;
-  @Consume currentSelectIndex: int = 0;
-  private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
+  @Consume currentSelectIndex: number = 0.0;
+  private CONTEXT: common.UIAbilityContext | undefined = undefined;
+
+  aboutToAppear() {
+    this.CONTEXT = ((this.getUIContext()?.getHostContext()) as common.UIAbilityContext);
+  }
 
   build() {
     Column({ space: 10.0 }as ColumnOptions) {
@@ -58,13 +62,13 @@ export struct ConsumeBrotherOneComponent {
         Select(this.selectValues)
           .id('consumeSelectCompA')
           .selected(this.currentSelectIndex)
-          .value(this.selectValues[this.currentSelectIndex].value)
+          .value(this.selectValues[this.currentSelectIndex as int].value)
           .fontColor($r('app.color.button_text_color'))
           .font({ size: $r('app.float.select_font_size') })
           .selectedOptionFont({ size: $r('app.float.select_font_size') })
           .optionFont({ size: $r('app.float.select_font_size') })
-          .onSelect((index: number,text: string ) => {
-            this.currentSelectIndex = index as int;
+          .onSelect((index: number, text: string ) => {
+            this.currentSelectIndex = index;
             this.consumeCircleColor = this.selectColors[index as int].color;
           })
 

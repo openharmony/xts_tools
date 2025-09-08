@@ -43,9 +43,10 @@ struct ApplyGlobalDataSync {
       } else {
         TitleBar({ title: this.title })
       }
-      CodeView({ title: this.title, isShowTitle: false }) {
+      // TODO Exception
+      // CodeView({ title: this.title, isShowTitle: false }) {
         ApplyGlobalDataSyncCode()
-      }
+      // }
     }.width('100%')
     .height('100%')
     .backgroundColor(this.currentModelStatus ? $r('app.color.nightnode_color') : $r('app.color.background_shallow_grey'))

@@ -34,9 +34,10 @@ struct ArrayTypes {
 
   build() {
     Column() {
-      CodeView({ title: this.title }) {
+      // TODO Exception
+      // CodeView({ title: this.title }) {
         ArrayTypeCode()
-      }
+      // }
     }
     .width('100%')
     .height('100%')

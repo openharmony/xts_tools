@@ -34,9 +34,10 @@ struct DeepNestComponentsSync {
 
   build() {
     Column() {
-      CodeView({ title: this.title }) {
+      // TODO Exception
+      // CodeView({ title: this.title }) {
         DeepNestComponentsSyncCode()
-      }
+      // }
     }
     .width('100%')
     .height('100%')

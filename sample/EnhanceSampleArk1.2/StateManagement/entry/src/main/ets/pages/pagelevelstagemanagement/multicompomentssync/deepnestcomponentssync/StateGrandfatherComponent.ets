@@ -46,7 +46,11 @@ export struct StateGrandfatherComponent {
   @State selectColors: ColorType[] = COLOR_SELECT_DATA;
   @State selectValues: SelectOption[] = NEW_COLOR_SELECT_DATA;
   @State currentSelectIndex: int = 0;
-  private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
+  private CONTEXT: common.UIAbilityContext | undefined = undefined;
+
+  aboutToAppear() {
+    this.CONTEXT = ((this.getUIContext()?.getHostContext()) as common.UIAbilityContext);
+  }
 
   build() {
     Column({ space: 10.0 }as ColumnOptions) {
@@ -95,7 +99,7 @@ struct LinkChildComp {
         .height($r('app.float.button_height'))
       LinkDescendentComponent({
         circleColor: this.circleColor,
-        currentSelectIndex: this.currentSelectIndex as int
+        currentSelectIndex: this.currentSelectIndex
       })
     }
     .padding(10.0)

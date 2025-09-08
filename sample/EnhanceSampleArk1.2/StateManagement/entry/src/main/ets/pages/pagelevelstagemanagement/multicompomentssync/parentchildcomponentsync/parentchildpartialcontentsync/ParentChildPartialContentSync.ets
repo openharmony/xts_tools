@@ -34,9 +34,10 @@ struct ParentChildPartialContentSync {
 
   build() {
     Column() {
-      CodeView({ title: this.title }) {
+      // TODO Exception
+      // CodeView({ title: this.title }) {
         ParentChildPartialContentSyncCode()
-      }
+      // }
     }
     .width('100%')
     .height('100%')

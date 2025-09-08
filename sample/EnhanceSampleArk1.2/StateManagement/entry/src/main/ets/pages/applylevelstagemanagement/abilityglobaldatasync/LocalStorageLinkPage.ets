@@ -55,7 +55,8 @@ struct StorageLinkAbilityPage {
       } else {
         TitleBar({ title: this.title })
       }
-      CodeView({ title: this.title, isShowTitle: false }) {
+      // TODO Exception
+      // CodeView({ title: this.title, isShowTitle: false }) {
         Column({ space: 30.0 }as ColumnOptions) {
           ViewCodeText({ webSrc: $rawfile('LocalStorageLinkPage.ets.html') })
           Text($r('app.string.localStorage_both_data_binding'))
@@ -92,7 +93,7 @@ struct StorageLinkAbilityPage {
         .height('100%')
         .padding($r('app.float.page_padding'))
       }
-    }
+    // }
     .width('100%')
     .height('100%')
     .backgroundColor(this.currentModelStatus ? $r('app.color.nightnode_color') : $r('app.color.background_shallow_grey'))

@@ -24,7 +24,6 @@ import {
   $r,
 } from '@kit.ArkUI';
 
-
 import { BaseTypeCode } from './BaseTypeCode';
 import { CodeView } from '../../../../../commoncomponents/CodeView'
 
@@ -35,9 +34,10 @@ struct BaseType {
 
   build() {
     Column() {
-      CodeView({ title: this.title}){
+      // TODO Exception
+      // CodeView({ title: this.title }) {
         BaseTypeCode()
-      }
+      // }
     }
     .width('100%')
     .height('100%')

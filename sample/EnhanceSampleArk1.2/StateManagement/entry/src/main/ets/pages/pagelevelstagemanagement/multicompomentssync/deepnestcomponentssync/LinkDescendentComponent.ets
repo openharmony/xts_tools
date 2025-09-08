@@ -45,7 +45,11 @@ export struct LinkDescendentComponent {
   @State selectValues: SelectOption[] = NEW_COLOR_SELECT_DATA;
   @Link circleColor: Resource;
   @Link currentSelectIndex: int;
-  private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
+  private CONTEXT: common.UIAbilityContext | undefined = undefined;
+
+  aboutToAppear() {
+    this.CONTEXT = ((this.getUIContext()?.getHostContext()) as common.UIAbilityContext);
+  }
 
   build() {
     Column() {

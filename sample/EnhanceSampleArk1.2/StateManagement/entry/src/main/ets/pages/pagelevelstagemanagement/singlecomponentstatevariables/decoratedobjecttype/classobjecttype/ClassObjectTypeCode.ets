@@ -45,18 +45,23 @@ import { getResourceString } from '../../../../../utils/ResourceUtils';
 
 @Component
 export struct ClassObjectTypeCode {
-  @State classObjectData: ParentClass = new ParentClass(getResourceString(this.CONTEXT, $r('app.string.class_object')),
-                                        getResourceString(this.CONTEXT, $r('app.string.class_attribute')), 1.0,
-                                        new ChildClass(getResourceString(this.CONTEXT, $r('app.string.class_child_attribute')), 2.0));
+  @State classObjectData: ParentClass | undefined = undefined;
   private clickedCount: number = 0.0;
-  private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
+  private CONTEXT: common.UIAbilityContext | undefined = undefined;
+
+  aboutToAppear() {
+    this.CONTEXT = ((this.getUIContext()?.getHostContext()) as common.UIAbilityContext);
+    this.classObjectData = new ParentClass(getResourceString(this.CONTEXT as common.UIAbilityContext, $r('app.string.class_object')),
+                           getResourceString(this.CONTEXT as common.UIAbilityContext, $r('app.string.class_attribute')), 1.0,
+                           new ChildClass(getResourceString(this.CONTEXT as common.UIAbilityContext, $r('app.string.class_child_attribute')), 2.0));
+  }
 
   build() {
     Column({ space: 10.0 }as ColumnOptions) {
       ViewCodeText({ webSrc: $rawfile('ClassObjectTypeCode.ets.html') })
       Column({ space: 15.0 }as ColumnOptions) {
         Row() {
-          Text(this.classObjectData.title)
+          Text((this.classObjectData as ParentClass).title)
             .fontSize(20.0)
             .textAlign(TextAlign.End)
           Divider()
@@ -68,9 +73,9 @@ export struct ClassObjectTypeCode {
 
         Column() {
           Row() {
-            Text(this.classObjectData.attributeTitle)
+            Text((this.classObjectData as ParentClass).attributeTitle)
               .fontSize(20.0)
-            Text(`${this.classObjectData.attribute}`)
+            Text(`${(this.classObjectData as ParentClass).attribute}`)
               .fontSize(20.0)
               .textAlign(TextAlign.End)
           }
@@ -84,7 +89,7 @@ export struct ClassObjectTypeCode {
         .width('100%')
         .padding({ left: 50.0 }as Padding )
 
-        ChildObjectComp({ childObject: this.classObjectData.child })
+        ChildObjectComp({ childObject: (this.classObjectData as ParentClass).child })
       }
       .width('100%')
       .backgroundColor($r('app.color.component_background_pink'))
@@ -92,12 +97,12 @@ export struct ClassObjectTypeCode {
       Button($r('app.string.class_type_update_object'))
         .onClick((event:ClickEvent) => {
           this.clickedCount++;
-          let objectTitle: string = getResourceString(this.CONTEXT, $r('app.string.class_object')) + this.clickedCount;
-          let attributeTitle: string = getResourceString(this.CONTEXT, $r('app.string.class_attribute')) + this.clickedCount;
-          let childAttributeTitle: string = getResourceString(this.CONTEXT, $r('app.string.class_child_attribute'))
+          let objectTitle: string = getResourceString(this.CONTEXT as common.UIAbilityContext, $r('app.string.class_object')) + this.clickedCount;
+          let attributeTitle: string = getResourceString(this.CONTEXT as common.UIAbilityContext, $r('app.string.class_attribute')) + this.clickedCount;
+          let childAttributeTitle: string = getResourceString(this.CONTEXT as common.UIAbilityContext, $r('app.string.class_child_attribute'))
           + this.clickedCount;
-          let newObject = new ParentClass(objectTitle, attributeTitle, this.classObjectData.attribute + 1.0,
-                          new ChildClass(childAttributeTitle, this.classObjectData.child.attribute + 1.0));
+          let newObject = new ParentClass(objectTitle, attributeTitle, (this.classObjectData as ParentClass).attribute + 1.0,
+                          new ChildClass(childAttributeTitle, (this.classObjectData as ParentClass).child.attribute + 1.0));
           this.classObjectData = newObject;
         })
         .id('updateObject')
@@ -107,7 +112,7 @@ export struct ClassObjectTypeCode {
         .applyStyles(buttonStyle)
       Button($r('app.string.class_type_update_attribute'))
         .onClick((event:ClickEvent) => {
-          this.classObjectData.attribute++;
+          (this.classObjectData as ParentClass).attribute++;
         })
         .id('updateObjectAttribute')
         .fontColor($r('app.color.button_text_color'))
@@ -116,7 +121,7 @@ export struct ClassObjectTypeCode {
         .applyStyles(buttonStyle)
       Button($r('app.string.class_type_update_child_attribute'))
         .onClick((event:ClickEvent) => {
-          this.classObjectData.child.attribute++;
+          (this.classObjectData as ParentClass).child.attribute++;
         })
         .id('updateAttributeOfAttribute')
         .fontColor($r('app.color.button_text_color'))

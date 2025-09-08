@@ -47,9 +47,10 @@ struct AbilityGlobalDataSync {
       } else {
         TitleBar({ title: this.title })
       }
-      CodeView({ title: this.title, isShowTitle: false }) {
+      // TODO Exception
+      // CodeView({ title: this.title, isShowTitle: false }) {
         AbilityGlobalDataSyncCode()
-      }
+      // }
     }
     .width('100%')
     .height('100%')

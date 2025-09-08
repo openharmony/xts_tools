@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -20,8 +20,9 @@
     "description": "$string:module_desc",
     "mainElement": "EntryAbility",
     "deviceTypes": [
-      "default",
-      "tablet"
+      "phone",
+      "tablet",
+      "2in1"
     ],
     "deliveryWithInstall": true,
     "installationFree": false,
@@ -29,37 +30,27 @@
     "abilities": [
       {
         "name": "EntryAbility",
-        "srcEntrance": "./ets/entryability/EntryAbility.ts",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
         "description": "$string:EntryAbility_desc",
         "icon": "$media:icon",
         "label": "$string:EntryAbility_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background",
-        "visible": true,
+        "exported": true,
         "skills": [
           {
             "entities": [
               "entity.system.home"
             ],
             "actions": [
-              "action.system.home"
+              "ohos.want.action.home"
             ]
           }
         ]
       },
       {
-        "name": "StoragePropAbility",
-        "srcEntrance": "./ets/storagepropability/StoragePropAbility.ts",
-        "description": "$string:storagepropability_desc",
-        "icon": "$media:icon",
-        "label": "$string:storagepropability_label",
-        "startWindowIcon": "$media:icon",
-        "startWindowBackground": "$color:start_window_background",
-        "visible": true
-      },
-      {
         "name": "StorageLinkAbility",
-        "srcEntrance": "./ets/storagelinkability/StorageLinkAbility.ts",
+        "srcEntry": "./ets/storagelinkability/StorageLinkAbility.ets",
         "description": "$string:storagelinkability_desc",
         "icon": "$media:icon",
         "label": "$string:storagelinkability_label",
@@ -69,7 +60,7 @@
       },
       {
         "name": "OutOfSyncAbility",
-        "srcEntrance": "./ets/outofsyncability/OutOfSyncAbility.ts",
+        "srcEntry": "./ets/outofsyncability/OutOfSyncAbility.ets",
         "description": "$string:outofsyncability_desc",
         "icon": "$media:icon",
         "label": "$string:outofsyncability_label",
