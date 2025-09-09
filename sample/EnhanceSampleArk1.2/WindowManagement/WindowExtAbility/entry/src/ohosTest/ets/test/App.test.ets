@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -43,7 +44,7 @@ export default function appTest() {
       let driver = Driver.create();
       await driver.delayMs(1000);
       // 点击进入食物详情
-      for (let i = 0; i < 3; i++) {
+      for (let i: int = 0; i < 3; i++) {
         await driver.delayMs(1000);
         // 点击相应的设置类型进入详情页
         await driver.assertComponentExist(ON.id(`settingType${i}`));

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  Column,
+  Button,
+  $r,
+  getUIContext,
+  FlexAlign,
+  HorizontalAlign,
+  ButtonAttribute,
+  Length,
+} from '@kit.ArkUI';
 
 import router from '@ohos.router';
 
@@ -30,7 +45,7 @@ struct Index {
         .standardButton(20, '80%')
         .margin({ top: 80 })
         .onClick(() => {
-          router.pushUrl({
+          getUIContext().getRouter().pushUrl({
             url: "pages/Video"
           })
           this.isChangeWindow = true
@@ -38,14 +53,14 @@ struct Index {
       Button($r("app.string.get_properties_of_system_bar_page"))
         .standardButton(20, '80%')
         .onClick(() => {
-          router.pushUrl({
+          getUIContext().getRouter().pushUrl({
             url: "system_bar/pages/GetPropertiesOfSystemBar"
           })
         })
       Button($r("app.string.set_touchable_area_of_window_page"))
         .standardButton(20, '80%')
         .onClick(() => {
-          router.pushUrl({
+          getUIContext().getRouter().pushUrl({
             url: "touchable/pages/SetTouchableAreas"
           })
         })
@@ -58,12 +73,12 @@ struct Index {
   }
 }
 
-@Extend(Button)
-function standardButton(fontSize: number, value: Length) {
-  .fontSize(fontSize)
-  .fontColor($r('app.color.dark_gray'))
-  .backgroundColor($r('app.color.white'))
-  .padding(15)
-  .margin({ top: 20 })
-  .width(value)
+function standardButton(this: ButtonAttribute, fontSize: number, value: Length): this {
+    this.fontSize(fontSize);
+    this.fontColor($r('app.color.dark_gray'));
+    this.backgroundColor($r('app.color.white'));
+    this.padding(15);
+    this.margin({ top: 20 });
+    this.width(value);
+    return this;
 }

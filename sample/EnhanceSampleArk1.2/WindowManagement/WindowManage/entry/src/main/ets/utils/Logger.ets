@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +16,7 @@
 import hilog from '@ohos.hilog';
 
 class Logger {
-  private domain: number = 0xFF00
+  private domain: int = 0xFF00
   private prefix: string = '[Sample_Window]'
 
   public debug(args: string) {

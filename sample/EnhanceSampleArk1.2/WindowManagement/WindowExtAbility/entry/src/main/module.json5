@@ -17,91 +17,32 @@
   "module": {
     "name": "entry",
     "type": "entry",
-    "srcEntrance": "./ets/Application/MyAbilityStage.ts",
-    "description": "$string:description_mainability",
-    "mainElement": "MainAbility",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
     "deviceTypes": [
-      "default",
-      "tablet"
+      "phone"
     ],
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:main_pages",
-    "uiSyntax": "ets",
-    "metadata": [
-      {
-        "name": "ArkTSPartialUpdate",
-        "value": "true"
-      }
-    ],
     "abilities": [
       {
-        "name": "MainAbility",
-        "srcEntrance": "./ets/MainAbility/MainAbility.ts",
-        "description":"$string:description_mainability",
-        "icon": "$media:icon",
-        "label": "$string:entry_MainAbility",
-        "startWindowIcon": "$media:icon",
-        "startWindowBackground": "$color:white",
-        "visible": true,
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
         "skills": [
           {
             "entities": [
               "entity.system.home"
             ],
             "actions": [
-              "action.system.home"
+              "ohos.want.action.home"
             ]
-          }
-        ]
-      }
-    ],
-    "extensionAbilities": [
-      {
-        "name": "WlanExtAbility",
-        "srcEntrance": "./ets/MainAbility/WlanExtAbility.ts",
-        "icon": "$media:icon",
-        "description": "WindowExtension",
-        "type": "window",
-        "permissions": [],
-        "visible": true,
-        "skills": [
-          {
-            "actions": [],
-            "entities": [],
-            "uris": []
-          }
-        ]
-      },
-      {
-        "name": "BluetoothExtAbility",
-        "srcEntrance": "./ets/MainAbility/BluetoothExtAbility.ts",
-        "icon": "$media:icon",
-        "description": "WindowExtension",
-        "type": "window",
-        "permissions": [],
-        "visible": true,
-        "skills": [
-          {
-            "actions": [],
-            "entities": [],
-            "uris": []
-          }
-        ]
-      },
-      {
-        "name": "MobileDataExtAbility",
-        "srcEntrance": "./ets/MainAbility/MobileDataExtAbility.ts",
-        "icon": "$media:icon",
-        "description": "WindowExtension",
-        "type": "window",
-        "permissions": [],
-        "visible": true,
-        "skills": [
-          {
-            "actions": [],
-            "entities": [],
-            "uris": []
           }
         ]
       }

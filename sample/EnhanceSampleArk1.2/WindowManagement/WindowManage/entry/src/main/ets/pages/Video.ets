@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,15 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  State,
+  Resource,
+  $rawfile,
+  Column,
+} from '@kit.ArkUI';
+
 import { WindowComponent } from "@ohos/window-component";
 
 @Entry
@@ -22,7 +32,7 @@ struct VideoPlayer {
 
   build() {
     Column() {
-      WindowComponent({ videoSrc: $videoSrc })
+      WindowComponent({ videoSrc: this.videoSrc })
     }
     .width('100%').height('100%')
   }

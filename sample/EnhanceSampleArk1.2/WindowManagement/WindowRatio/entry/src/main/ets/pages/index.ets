@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,12 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  StorageLink,
+  Row,
+  Column,
+  Text,
+  $r,
+  HorizontalAlign,
+  Select,
+  Color,
+  TextAlign,
+  Alignment,
+  Button,
+  AppStorage,
+} from '@kit.ArkUI';
+
 import window from '@ohos.window';
 
 @Entry
 @Component
 struct Index {
-  @State windowRatio: number = (4 / 3) * 1.0;
+  @State windowRatio: number = (4.0 / 3.0) * 1.0;
   @State showWindowRatio: string = '4:3';
   @StorageLink('windowWidth') windowWidth: string = 'unknown';
   @StorageLink('windowHeight') windowHeight: string = 'unknown';
@@ -58,13 +78,13 @@ struct Index {
                 console.info("Select:" + index);
                 this.numbers = index;
                 if (index === 0) {
-                  this.windowRatio = (4 / 3) * 1.0;
+                  this.windowRatio = (4.0 / 3.0) * 1.0;
                   this.showWindowRatio = '4:3';
                 } else if (index === 1) {
                   this.windowRatio = 1.0;
                   this.showWindowRatio = '1:1';
                 } else {
-                  this.windowRatio = (16 / 9) * 1.0;
+                  this.windowRatio = (16.0 / 9.0) * 1.0;
                   this.showWindowRatio = '16:9';
                 }
               })

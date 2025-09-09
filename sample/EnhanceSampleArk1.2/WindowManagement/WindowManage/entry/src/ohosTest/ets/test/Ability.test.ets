@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Context,
+  $r,
+} from '@kit.ArkUI';
 
 import AbilityDelegatorRegistry from '@ohos.app.ability.abilityDelegatorRegistry';
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
@@ -51,7 +57,7 @@ export default function abilityTest() {
         await driver.assertComponentExist(ON.text(await manager.getStringValue($r("app.string.set_touchable_area_of_window_page"))));
         await driver.assertComponentExist(ON.text(await manager.getStringValue($r("app.string.get_properties_of_system_bar_page"))));
 
-        done();
+        done.unsafeCall();
         Logger.info(TAG, BUNDLE + 'StartAbility_001 end');
 
       })
@@ -208,13 +214,13 @@ export default function abilityTest() {
         let windowBtn = await driver.findComponent(ON.id('windowBtn'));
         let originVideo = await driver.findComponent(ON.id('mainVideo'));
         // 记录旋转窗口前的left信息
-        let originLeft = (await originVideo.getBounds()).left;
+        let originLeft: int = (await originVideo.getBounds()).left;
         // 点击按钮选装窗口
         await windowBtn.click();
         await driver.delayMs(1000);
         let rotateVideo = await driver.findComponent(ON.id('mainVideo'));
         // 记录旋转窗口后的left信息
-        let rotateLeft = (await rotateVideo.getBounds()).left;
+        let rotateLeft: int = (await rotateVideo.getBounds()).left;
         Logger.info(TAG, `originLeft: ${originLeft}, rotateLeft: ${rotateLeft}`);
         // 竖屏旋转后，video组件的left坐标变大
         await expect(rotateLeft).assertLess(originLeft);

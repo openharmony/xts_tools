@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,24 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  VideoController,
+  getUIContext,
+  Flex,
+  FlexDirection,
+  Column,
+  FlexAlign,
+  ItemAlign,
+  Button,
+  $r,
+  Video,
+  $rawfile,
+  PlaybackSpeed,
+  TouchEvent,
+} from '@kit.ArkUI';
+
 import emitter from '@ohos.events.emitter';
 import common from '@ohos.app.ability.common';
 import { BusinessError } from '@ohos.base';
@@ -25,7 +44,7 @@ struct SubWindowPage {
   videoController: VideoController = new VideoController();
 
   async startNewAbility() {
-    let context = getContext(this) as common.UIAbilityContext; // UIAbilityContext
+    let context = getUIContext().getHostContext(this) as common.UIAbilityContext; // UIAbilityContext
     let want: Want = {
       bundleName: 'com.samples.windowratio',
       abilityName: 'MainAbility',

@@ -15,14 +15,42 @@
 
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/bahityar/.ohos/config/openharmony/default_WindowManage_6ru4DChVMMkEgQYkJORW2SIgSw52Lit-iZsUJQ-YmSI=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BCC070B7326F0C4A2F3CF66AB3441F44CB012780090128762AA4FED41AD090F96AF5E1B078068C7",
+          "profile": "C:/Users/bahityar/.ohos/config/openharmony/default_WindowManage_6ru4DChVMMkEgQYkJORW2SIgSw52Lit-iZsUJQ-YmSI=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/bahityar/.ohos/config/openharmony/default_WindowManage_6ru4DChVMMkEgQYkJORW2SIgSw52Lit-iZsUJQ-YmSI=.p12",
+          "storePassword": "0000001B6578B69153764117B71C74548C9CC636CF1C92CE40A2B5B0235EB0DD7237D6E8306C51F93E849C"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
-        "compileSdkVersion": 12,
-        "compatibleSdkVersion": 12,
-        "runtimeOS": "OpenHarmony"
+        "targetSdkVersion": "6.0.0(20)",
+        "arkTSVersion": "1.2",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
       }
     ]
   },
@@ -38,10 +66,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "WindowComponent",
-      "srcPath": "./WindowComponent"
     }
   ]
 }

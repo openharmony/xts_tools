@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  StorageLink,
+  Link,
+  Resource,
+  Column,
+  Row,
+  getUIContext,
+  State,
+  VideoController,
+  Video,
+  PlaybackSpeed,
+  ImageFit,
+  Button,
+  $r,
+  Text,
+  TextAlign,
+  Color,
+  Alignment,
+} from '@kit.ArkUI';
 
 import window from '@ohos.window';
 import common from '@ohos.app.ability.common';
@@ -45,10 +67,10 @@ export struct WindowComponent {
     Column() {
       // 窗口顶部规避区域
       Row()
-        .width(px2vp(this.topWidth))
-        .height(px2vp(this.topHeight))
+        .width(getUIContext().px2vp(this.topWidth))
+        .height(getUIContext().px2vp(this.topHeight))
       // video视频
-      VideoWindow({ videoSrc: $videoSrc })
+      VideoWindow({ videoSrc: this.videoSrc })
     }
     .width('100%')
     .height('100%')
@@ -67,7 +89,7 @@ struct VideoWindow {
   private showSubWindow: Boolean = false;
 
   aboutToAppear() {
-    this.context = getContext(this) as common.UIAbilityContext;
+    this.context = getUIContext().getHostContext(this) as common.UIAbilityContext;
     let data: Datastring = {
       context: this.context,
       launchWant: ' ',

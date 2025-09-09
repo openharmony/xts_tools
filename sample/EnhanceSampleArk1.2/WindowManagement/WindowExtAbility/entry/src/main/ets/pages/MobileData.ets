@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  Column,
+  $r,
+  Row,
+  Text,
+  Blank,
+  Toggle,
+  ToggleType,
+  Color,
+  ForEach,
+  Image,
+  ImageFit,
+  Builder,
+  getUIContext,
+} from '@kit.ArkUI';
 
 import router from '@ohos.router'
 import { RESOURCES } from '../mock/InfoData'
@@ -105,7 +124,7 @@ struct MobileData {
 
   aboutToAppear() {
     try {
-      this.isLand = router.getParams()['bool']
+      this.isLand = getUIContext().getRouter().getParams()['bool']
     } catch (err) {
       this.isLand = false
     }
