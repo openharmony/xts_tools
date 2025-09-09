@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,13 +13,36 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  CustomDialogController,
+  getUIContext,
+  DialogAlignment,
+  Column,
+  Scroll,
+  Row,
+  Text,
+  $r,
+  ItemAlign,
+  Blank,
+  Toggle,
+  ToggleType,
+  Divider,
+  LineCapStyle,
+  ForEach,
+  AlertDialog,
+} from '@kit.ArkUI';
+
 import bluetooth from '@ohos.bluetooth'
 import logger from '../Model/Logger'
 import { TitleBar } from '../Commom/TitleBar'
 import { PinDialog } from '../Commom/PinDialog'
 
 const TAG: string = 'Index'
-const TIME: number = 0 // 设备可被发现的持续时间
+const TIME: int = 0 // 设备可被发现的持续时间
 
 @Entry
 @Component
@@ -30,7 +54,7 @@ struct Index {
   private pinDialogController: CustomDialogController | null = null
   private intervalId: number = -1
   handlerClickButton = () => {
-    let context = getContext(this) as any
+    let context = getUIContext().getHostContext(this) as any
     context.terminateSelf()
   }
 
@@ -181,7 +205,7 @@ struct Index {
               .margin({ left: '5%', top: '1%' })
               .id(`pairedDevice${index}`)
               .onClick(() => {
-                AlertDialog.show({
+                getUIContext().showAlertDialog({
                   title: $r('app.string.disconnect'),
                   message: '此操作将会断开您与以下设备的连接：' + item,
                   primaryButton: {

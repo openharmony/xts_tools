@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  CustomDialog,
+  CustomDialogController,
+  State,
+  Builder,
+  Resource,
+  Text,
+  TextAlign,
+  Column,
+  $r,
+  ItemAlign,
+  FontWeight,
+  Flex,
+  FlexDirection,
+  Row,
+  Checkbox,
+  Divider,
+} from '@kit.ArkUI';
+
 import bluetooth from '@ohos.bluetooth'
 import logger from '../Model/Logger'
 

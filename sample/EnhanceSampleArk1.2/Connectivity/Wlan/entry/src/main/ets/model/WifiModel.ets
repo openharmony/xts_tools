@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import { $r } from '@kit.ArkUI';
 
 import prompt from '@ohos.promptAction'
 import wifi from '@ohos.wifiManager'
@@ -41,7 +44,7 @@ export class WifiModel {
       return wifiList
     }
     Logger.log(TAG, `scan info call back: ${result.length}`)
-    for (var i = 0; i < result.length; ++i) {
+    for (var i: int = 0; i < result.length; ++i) {
       wifiList.push({
         ssid: result[i].ssid,
         bssid: result[i].bssid,
