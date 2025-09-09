@@ -12,24 +12,34 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import router from '@ohos.router'
+import { BusinessError } from '@ohos.base';
+class routerParams {
+  data1:string
+
+  constructor(str:string) {
+    this.data1 = str
+  }
+}
 @Entry
 @Component
-struct ProgressLinear01 {
+struct routerPage70 {
 
 
   build() {
     Column() {
-      Text('进度条1:')
-      Progress({ value: 10, type: ProgressType.Linear })
-      Text('进度条2:')
-      Progress({ value: 10, type: ProgressType.Linear })
-        .style({strokeWidth: 0})
-      Text('进度条3:')
-      Progress({ value: 10, type: ProgressType.Linear })
-        .style({strokeWidth: -2})
-      Text('进度条4:')
-      Progress({ value: 10, type: ProgressType.Linear })
-        .style({strokeWidth: 20})
+      Text('点击替换RepalceUrl:')
+        .onClick(()=>{
+          try {
+            router.replaceUrl({
+              url: 'pages/RoutingSupportstageInterface/RoutingSupportstageInterface70_copy',
+              params: new routerParams('message')
+            }, router.RouterMode.Standard)
+          } catch (err) {
+            console.error(`replaceUrl failed, code is ${(err as BusinessError).code}, message is ${(err as BusinessError).message}`);
+          }
+        })
+        .id('btn')
     }
     .width('100%')
     .height('100%')
