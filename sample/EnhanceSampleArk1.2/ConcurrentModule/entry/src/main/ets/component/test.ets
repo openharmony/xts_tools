@@ -14,23 +14,21 @@
  * limitations under the License.
  */
 
-
-
-
 export class TestA {
   v1: number = 0.0;
   v2: string = "";
   v3: boolean = false;
   count_: number = 0.0;
   async getCount(): Promise<number> {
-    let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request("lock_1");
+    let lock: AsyncLock = AsyncLock.request("lock_1");
     return lock.lockAsync(() => {
       return this.count_;
     })
   }
   async setCount(count: number) {
-    let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request("lock_1");
-    await lock.lockAsync(() => {
+    let lock: AsyncLock = AsyncLock.request("lock_1");
+    // await
+    lock.lockAsync(() => {
       this.count_ = count;
     })
   }
@@ -42,9 +40,9 @@ export class TestA {
 
 
 export class TestB {
-  v1: collections.Array<number> = new collections.Array<number>();
-  v2: collections.Map<number, string> = new collections.Map<number, string>();
-  v3: collections.Set<string> = new collections.Set<string>();
+  v1: Array<number> = new Array<number>();
+  v2: Map<number, string> = new Map<number, string>();
+  v3: Set<string> = new Set<string>();
 
   constructor() {
   }

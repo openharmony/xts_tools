@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 import abilityAccessCtrl, { Permissions } from '@ohos.abilityAccessCtrl';
-import { describe, it, expect } from '@ohos/hypium';
+import { describe, it, expect } from '../hypium/index';
 import util from '@ohos.util';
-import Logger from '../common/Logger';
+import Logger from './Logger';
 
 const INDEX: number = 2.0;
 const SLEEP_TIME: number = 10.0;
@@ -26,15 +26,15 @@ export function strToUtf8Bytes(content: string): Array<number> {
   const code = encodeURIComponent(content);
   let bytes: Array<number> = [];
   for (let i: number = 0.0; i < code.length; i++) {
-    const char: string = code.charAt(i);
-    if (char === '%') {
+    const chaar: string = code.charAt(i);
+    if (chaar === '%') {
       const hex: string = code.charAt(i + 1.0) + code.charAt(i + INDEX);
       const hexValue: number = Math.floor(Number(hex));
       // const hexValue: number = parseInt(hex, RADIX);
       bytes.push(hexValue);
       i += INDEX;
     } else {
-      bytes.push(char.charCodeAt(0.0));
+      bytes.push(chaar.charCodeAt(0.0));
     }
   }
   return bytes;
@@ -44,8 +44,8 @@ export function strToArrayBuffer(text: string): ArrayBuffer {
   const bytes: number[] = strToUtf8Bytes(text);
   const buffer: ArrayBuffer = new ArrayBuffer(bytes.length);
   const bufView: DataView = new DataView(buffer);
-  for (let i: number = 0.0; i < bytes.length; i++) {
-    bufView.setUint8(i, bytes[i as int]);
+  for (let i: int = 0; i < bytes.length; i++) {
+    bufView.setUint8(i as int, bytes[i as int]);
   }
   return buffer;
 }
@@ -54,7 +54,7 @@ export async function sleep(times: number): Promise<void> {
   if (!times) {
     times = SLEEP_TIME;
   }
-  await new Promise<Object>((res) => setTimeout(res, times));
+  await new Promise<Object>((res):void => setTimeout(res, times as int));
 }
 
 export function randomString(num: number, chars: string): string {
@@ -67,15 +67,15 @@ export function randomString(num: number, chars: string): string {
   return pwd;
 }
 
-export function bufferToString(buffer: ArrayBuffer): string {
-  let textDecoder = new util.TextDecoder('utf-8', {
-    ignoreBOM: true
-  });
-  let resultPut = textDecoder.decodeWithStream(new Uint8Array(buffer), {
-    stream: true
-  });
-  return resultPut;
-}
+// export function bufferToString(buffer: ArrayBuffer): string {
+//   let textDecoder = new util.TextDecoder('utf-8', {
+//     ignoreBOM: true
+//   });
+//   let resultPut = textDecoder.decodeWithStream(new Uint8Array(buffer), {
+//     stream: true
+//   });
+//   return resultPut;
+// }
 
 export function stringToBuffer(content: string): Uint8Array {
   let textEncoder = new util.TextEncoder('utf-8');

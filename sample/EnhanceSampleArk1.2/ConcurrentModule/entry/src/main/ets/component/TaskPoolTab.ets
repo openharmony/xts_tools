@@ -30,8 +30,11 @@ import {
   GridRowDirection,
   GridCol,
   FlexAlign,
+  Padding,
+  Margin,
+  $r
 } from '@kit.ArkUI';
-
+import { Position } from '@ohos.arkui.component';
 
 
 import stack from '@ohos.util.Stack';
@@ -39,11 +42,13 @@ import { BusinessError } from '@ohos.base';
 import { SendableClass, a } from './SendableTest';
 import { TestA, TestB } from './test'
 
+import hilog from '@ohos.hilog'
+
 @Component
 export struct TaskPoolTab {
   @State taskPoolOutPutStr: string = '';
   @State taskPoolInPutStr: string = '';
-  taskPoolInPutArr: string[] = [];
+  taskPoolInPutArr: string[] = [''];
   isTaskGroup : boolean = false;
   gStack: stack<taskpool.Task> = new stack<taskpool.Task>();
   taskGroup: taskpool.TaskGroup = new taskpool.TaskGroup();
@@ -54,19 +59,19 @@ export struct TaskPoolTab {
       Text($r('app.string.Text_desc'))
         .width("100%")
         .height("48vp")
-        .position({ x: "7%", y: "0" })
+        .position({ x: "7%", y: "0" } as Position)
         .fontFamily("HarmonyHeiTi-Medium")
         .fontSize("16fp")
         .fontColor("#182431")
         .lineHeight(22.0)
         .fontWeight(500.0)
 
-      Button() {
+      Button('') {
         Row() {
           Image($r('app.media.public_add'))
-            .width(20.0)
-            .height(20.0)
-            .margin({ left: 4.0 })
+            .width('20.0')
+            .height('20.0')
+            .margin({ left: '4.0' } as Margin)
           Text($r('app.string.Add_task'))
             .width("75%")
             .height("22")
@@ -82,19 +87,19 @@ export struct TaskPoolTab {
       .height("10vp")
       .borderRadius("10vp")
       .backgroundColor("#00000000")
-      .position({ x: "67%", y: "1.5%" })
-      .width(135.0)
-      .height(35.0)
-      .onClick(() => {
+      .position({ x: "67%", y: "1.5%" } as Position)
+      .width('135.0')
+      .height('35.0')
+      .onClick((): void => {
         this.taskAdd();
       })
 
-      Button() {
+      Button('') {
         Row() {
           Image($r('app.media.empties'))
-            .width(20.0)
-            .height(20.0)
-            .margin({ left: 4.0 })
+            .width('20.0')
+            .height('20.0')
+            .margin({ left: '4.0' } as Margin)
           Text($r('app.string.Clear_desc'))
             .width("35%")
             .height("22")
@@ -110,10 +115,10 @@ export struct TaskPoolTab {
       .height("10vp")
       .borderRadius("10vp")
       .backgroundColor("#00000000")
-      .position({ x: "71%", y: "31.5%" })
-      .width(135.0)
-      .height(35.0)
-      .onClick(() => {
+      .position({ x: "71%", y: "31.5%" } as Position)
+      .width('135.0')
+      .height('35.0')
+      .onClick((): void => {
         this.Clear();
       })
 
@@ -121,7 +126,7 @@ export struct TaskPoolTab {
         .id("taskPoolInPutTextArea")
         .width("93.3%")
         .height("139vp")
-        .position({ x: "3.3%", y: "48vp" })
+        .position({ x: "3.3%", y: "48vp" } as Position)
         .textAlign(TextAlign.Start)
         .borderRadius("24vp")
         .backgroundColor("#ffffff")
@@ -129,8 +134,8 @@ export struct TaskPoolTab {
         .fontSize("16fp")
         .fontColor("#182431")
         .fontWeight(400.0)
-        .padding({ top: "8vp" , left: "16vp", right: "16vp", bottom: "21vp" })
-        .onChange((value: string) => {
+        .padding({ top: "8vp" , left: "16vp", right: "16vp", bottom: "21vp" } as Padding)
+        .onChange((value: string): void => {
           this.taskPoolInPutStr = value;
           this.taskPoolInPutArr = this.taskPoolInPutStr.trim().split(',');
           this.taskPoolOutPutStr = '';
@@ -139,7 +144,7 @@ export struct TaskPoolTab {
       Text($r('app.string.Result_desc'))
         .width("50%")
         .height("48")
-        .position({ x: "7%", y: "187vp" })
+        .position({ x: "7%", y: "187vp" } as Position)
         .fontFamily("HarmonyHeiTi-Medium")
         .fontSize("16fp")
         .fontColor("#182431")
@@ -153,22 +158,22 @@ export struct TaskPoolTab {
           .fontSize("16fp")
           .fontColor("#182431")
           .fontWeight(400.0)
-          .padding({ top: "8vp" , left: "16vp", right: "16vp", bottom: "21vp" })
+          .padding({ top: "8vp" , left: "16vp", right: "16vp", bottom: "21vp" } as Padding)
       }
       .id("taskPoolOutPutScroll")
       .width("93.3%")
       .height("139vp")
-      .position({ x: "3.3%", y: "235vp" })
+      .position({ x: "3.3%", y: "235vp" } as Position)
       .borderRadius("24vp")
       .backgroundColor("#ffffff")
       .align(Alignment.TopStart)
 
       GridRow({columns: 4.0,
-        gutter: { x: 12.0, y: 12.0 },
+        gutter: { x: '12.0', y: '12.0' },
         breakpoints: { value: ["360vp", "480vp"]},
         direction: GridRowDirection.Row}) {
         GridCol ({ span: 2.0, offset: 0.0 }) {
-          Button() {
+          Button('') {
             Text($r('app.string.Execute_After_3s_desc'))
               .width("100%")
               .height("22")
@@ -183,13 +188,13 @@ export struct TaskPoolTab {
           .height("40vp")
           .borderRadius("20vp")
           .backgroundColor("rgba(24,36,49,0.05)")
-          .onClick(()=>{
+          .onClick((): void=>{
             this.executeDelay();
           })
         }
 
         GridCol ({ span: 2.0, offset: 0.0 }) {
-          Button() {
+          Button('') {
             Text($r('app.string.Execute_Immediately_desc'))
               .width("100%")
               .height("22")
@@ -204,7 +209,7 @@ export struct TaskPoolTab {
           .height("40vp")
           .borderRadius("20vp")
           .backgroundColor("#007DFF")
-          .onClick(()=>{
+          .onClick((): void=>{
             if(this.isTaskGroup == true) {
               this.TaskGroupExec();
             } else {
@@ -214,7 +219,7 @@ export struct TaskPoolTab {
         }
 
         GridCol ({ span: 2.0, offset: 0.0 }) {
-          Button() {
+          Button('') {
             Text($r('app.string.Function_Task_desc'))
               .width("100%")
               .height("22")
@@ -229,13 +234,13 @@ export struct TaskPoolTab {
           .height("40vp")
           .borderRadius("20vp")
           .backgroundColor("rgba(24,36,49,0.05)")
-          .onClick(()=>{
+          .onClick((): void=>{
             this.executeFunc();
           })
         }
 
         GridCol ({ span: 2.0, offset: 0.0 }) {
-          Button() {
+          Button('') {
             Text($r('app.string.Cancel_Task_desc'))
               .width("100%")
               .height("22")
@@ -250,13 +255,13 @@ export struct TaskPoolTab {
           .height("40vp")
           .borderRadius("20vp")
           .backgroundColor("#007DFF")
-          .onClick(()=>{
+          .onClick((): void=>{
             this.cancelTask();
           })
         }
 
         GridCol ({ span: 4.0, offset: 0.0 }) {
-          Button() {
+          Button('') {
             Text($r('app.string.transferSendableClass'))
               .width("100%")
               .height("22")
@@ -271,15 +276,15 @@ export struct TaskPoolTab {
           .height("40vp")
           .borderRadius("20vp")
           .backgroundColor("rgba(24,36,49,0.05)")
-          .onClick(()=>{
+          .onClick((): void=>{
             this.sendableTask();
           })
         }
       }
       .width("100%")
       .height("168vp")
-      .position({ x: "0", y: "73%" })
-      .padding({ left: "25vp", right: "25vp" })
+      .position({ x: "0", y: "73%" } as Position)
+      .padding({ left: "25vp", right: "25vp" } as Padding)
     }
     .width("100%")
     .height("100%")
@@ -294,7 +299,7 @@ export struct TaskPoolTab {
     let task = new taskpool.Task(strSort,this.taskPoolInPutArr);
     this.gStack.push(task);
     try {
-      let result: taskpool.Task = await taskpool.execute(task) as taskpool.Task;
+      let result: string[] = await taskpool.execute(task) as string[];
       this.taskPoolOutPutStr += "Task executed successfully: "+ result.toString()+ "\n";
     } catch(e) {
       this.taskPoolOutPutStr += "Task executed failed: "+ (e as BusinessError).toString()+ "\n";
@@ -354,7 +359,7 @@ export struct TaskPoolTab {
 
   async TaskGroupExec(): Promise<void> {
     try {
-      let res: string[] = await taskpool.execute(this.taskGroup) as string[];
+      let res = await taskpool.execute(this.taskGroup);
       this.taskPoolOutPutStr += "TaskGroup executed successfully: "+ res.toString()+ "\n";
     } catch(e) {
       this.taskPoolOutPutStr += "TaskGroup executed failed: "+ (e as BusinessError).toString()+ "\n";
@@ -379,7 +384,7 @@ export struct TaskPoolTab {
 
   async sendableTask(): Promise<void> {
     // 定义主线程异步锁sendableTask_lock
-    let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request("sendableTask_lock");
+    let lock: AsyncLock = AsyncLock.request("sendableTask_lock");
     let count: number = 0.0;
     lock.lockAsync(async () => {
       // 主线程调用实例a.data1的方法setCount、getCount
@@ -424,7 +429,7 @@ function strSortDelay(inPutArr: string[]) : string[] {
 
 async function createSendableData(data: SendableClass): Promise<void> {
   // 定义taskpool子线程异步锁sendableTask_lock
-  let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request("sendableTask_lock");
+  let lock: AsyncLock = AsyncLock.request("sendableTask_lock");
 
   // 构造TestA、TestB实例，组装SendableClass实例
   let d1: TestA = new TestA();

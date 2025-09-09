@@ -14,9 +14,8 @@
  * limitations under the License.
  */
 
-import { AppStorage } from '@kit.ArkUI';
-
-import worker from '@ohos.worker';
+import { AppStorage, $r } from '@kit.ArkUI';
+import { EAWorker } from '@ohos.arkui.component';
 import fs from '@ohos.file.fs';
 import { Logger, sleep } from '../common/Common';
 import { BusinessError } from '@ohos.base';
@@ -28,8 +27,31 @@ const FILE_NUMBER: number = 9.0; // 文件1-9命名时加上0
 const LIST_FILE_TWO: number = 2.0; // 显示拷贝成功后的第二个文件名
 const SLEEP_TIME: number = 100.0; // 睡眠时间
 
-let workerInstance: worker.ThreadWorker | null = null;
 let fileFlag: boolean = false;
+
+class MessageObjectCopy {
+  count: number
+  strFlag: boolean
+  listFileNames:string[]
+
+  constructor(count: number, strFlag: boolean, listFileNames:string[]) {
+    this.count = count;
+    this.strFlag = strFlag;
+    this.listFileNames = listFileNames;
+  }
+}
+
+class MessageObject {
+  srcDir: string
+  destDir: string
+  fileNames: Array<string>
+
+  constructor(srcDir: string, destDir: string, fileNames: Array<string>) {
+    this.srcDir = srcDir;
+    this.destDir = destDir;
+    this.fileNames = fileNames;
+  }
+}
 
 export default class MyFile {
   public baseDir: string | undefined = '';
@@ -37,8 +59,12 @@ export default class MyFile {
   private flag: boolean = false;
   public realFileNames: Array<string> = [];
 
+  public fileListName1: string = '';
+  public fileListName2: string = '';
+  public copyFileShowLog: string = '';
+
   constructor() {
-    this.baseDir = AppStorage.Get('sanBoxFileDir');
+    this.baseDir = AppStorage.get<string>('sanBoxFileDir');
   }
 
   readyFileToFileFs(): void {
@@ -57,18 +83,17 @@ export default class MyFile {
   readyFilesToWorker(): void {
     let content = CONTENT + CONTENT + new Date() + '\n';
     let workerDir = this.baseDir + '/workerDir';
-
     try {
       if (!fs.accessSync(workerDir)) {
         fs.mkdirSync(workerDir);
       }
       Logger.info(TAG, 'readyFilesToWorker dpath = ' + workerDir);
-      for (let i: number = 0.0; i < FILE_NUM; i++) {
+      for (let i: int = 0; i < FILE_NUM; i++) {
         let myFile = '';
         if (i < FILE_NUMBER) {
-          myFile = workerDir + `/TestFile0${i + 1.0}.txt`;
+          myFile = workerDir + `/TestFile0${i + 1}.txt`;
         } else {
-          myFile = workerDir + `/TestFile${i + 1.0}.txt`;
+          myFile = workerDir + `/TestFile${i + 1}.txt`;
         }
         Logger.info(TAG, 'readyFilesToWorker myFile = ' + myFile);
         let file = fs.openSync(myFile, fs.OpenMode.CREATE | fs.OpenMode.READ_WRITE);
@@ -83,6 +108,7 @@ export default class MyFile {
 
   async workToCopyFiles(files: Array<string>, filePath: string): Promise<void> {
     try {
+      fileFlag = false;
       Logger.info(TAG, 'WorkCreator start to create worker');
       let destPath = filePath;
       Logger.info(TAG, 'Workerets destPath ' + destPath);
@@ -90,17 +116,17 @@ export default class MyFile {
         fs.mkdirSync(destPath);
       }
       if (fs.accessSync(destPath)) {
-        fs.listFile(destPath).then((filenames) => {
+        fs.listFile(destPath).then((filenames :string[]) => {
           Logger.info(TAG, 'listFile succeed');
-          for (let i: number = 0.0; i < filenames.length; i++) {
-            Logger.info(TAG, 'Workerets fileName: ' + filenames[i as int]);
+          for (let i: int = 0; i < filenames.length.toInt(); i++) {
+            Logger.info(TAG, 'Workerets fileName: ' + filenames[i]);
           }
-        }).catch((err: BusinessError) => {
+        }).catch((err: Error) => {
           Logger.info(TAG, 'list file failed with error message: ' + err.message + ', error code: ' + err.code);
         });
       }
       if (files !== null) {
-        this.realFileNames.length = 0.0;
+        this.realFileNames.length = 0;
         for (let i: number = 0.0; i < files.length; i++) {
           if (files[i as int] === 'deletedTag') {
             continue;
@@ -112,73 +138,134 @@ export default class MyFile {
       for (let j: number = 0.0; j < count; j++) {
         Logger.info(TAG, 'workToCopyFiles this.realFileNames = ' + this.realFileNames[j as int]);
       }
-      workerInstance = new worker.ThreadWorker('entry/ets/workers/WorkerCopy.ts');
-      if (this.realFileNames !== null) {
-        let srcPath = this.baseDir + '/workerDir';
-        workerInstance.postMessage({
-          srcDir: srcPath,
-          destDir: destPath,
-          fileNames: this.realFileNames
-        });
-      }
 
-      workerInstance.onexit = (code): void => {
-        Logger.info(TAG, `workerInstance::onexit has been exit ${code}`);
-      };
-      workerInstance.onerror = (err): void => {
-        Logger.info(TAG, `workerInstance::onerror has errors: ${JSON.stringify(err)}`);
-      };
-      workerInstance.onmessageerror = (event): void => {
-        Logger.info(TAG, `workerInstance::onmessageerror has errors: ${JSON.stringify(event)}`);
-      };
-      workerInstance.onmessage = (message): void => {
-        Logger.info(TAG, `workerInstance::onmessage receive data: ${JSON.stringify(message.data)}`);
-        if (message.data.hasOwnProperty('count')) {
-          Logger.info(TAG, `workerInstance::onmessage receive data length = ${message.data.count}`);
-          this.filesCount = message.data.count;
-          fileFlag = message.data.strFlag;
+      //TODO: worker
+      let currentworker = EAWorker.current();
+      let workerInstance = new EAWorker();
+      workerInstance.start();
+
+      let currentCB = (msg: concurrency.Message) => {
+        Logger.info(TAG, `workerInstance::onmessage receive data: ${JSON.stringify((msg.getObject() as MessageObjectCopy) as String)}`);
+        if ((msg.getObject() as MessageObjectCopy).hasOwnProperty('count')) {
+          Logger.info(TAG, `workerInstance::onmessage receive data length = ${(msg.getObject() as MessageObjectCopy).count}`);
+          this.filesCount = (msg.getObject() as MessageObjectCopy).count;
           this.flag = true;
           let fileName1: string | null = null;
           let fileName2: string | null = null;
-          for (let i: number = 0.0; i < message.data.listFileNames.length; i++) {
-            Logger.info(TAG, `Worker workerInstance::onmessage receive listFileNames: ${message.data.listFileNames[i]}`);
+
+          for (let i: int = 0; i < (msg.getObject() as MessageObjectCopy).listFileNames.length; i++) {
+            Logger.info(TAG, `Worker workerInstance::onmessage receive listFileNames: ${(msg.getObject() as MessageObjectCopy).listFileNames[i]}`);
           }
-          if (message.data.listFileNames[0] !== undefined && message.data.listFileNames[1] !== undefined && message.data.listFileNames[LIST_FILE_TWO] === undefined) {
-            fileName1 = message.data.listFileNames[0] + '、';
-            fileName2 = message.data.listFileNames[1];
-          } else if (message.data.listFileNames[0] !== undefined && message.data.listFileNames[1] === undefined) {
-            fileName1 = message.data.listFileNames[0];
+          if ((msg.getObject() as MessageObjectCopy).listFileNames.length === 2) {
+            fileName1 = (msg.getObject() as MessageObjectCopy).listFileNames[0] + '、';
+            fileName2 = (msg.getObject() as MessageObjectCopy).listFileNames[1];
+          } else if ((msg.getObject() as MessageObjectCopy).listFileNames.length === 1) {
+            fileName1 = (msg.getObject() as MessageObjectCopy).listFileNames[0];
             fileName2 = '';
           } else {
-            fileName1 = message.data.listFileNames[0] + '、';
-            let copyFileLog: string | undefined = AppStorage.Get('copyFileLog5');
-            fileName2 = message.data.listFileNames[1] + copyFileLog;
+            fileName1 = (msg.getObject() as MessageObjectCopy).listFileNames[0] + '、';
+            let copyFileLog: string | undefined = AppStorage.get<string>('copyFileLog5');
+            fileName2 = (msg.getObject() as MessageObjectCopy).listFileNames[1] + copyFileLog;
           }
-          AppStorage.SetOrCreate('fileListName1', fileName1);
-          AppStorage.SetOrCreate('fileListName2', fileName2);
-          let copyFileLog3: string | undefined = AppStorage.Get('copyFileLog3');
-          let copyFileLog4: string | undefined = AppStorage.Get('copyFileLog4');
+          this.fileListName1 = fileName1;
+          // AppStorage.setOrCreate<string>('fileListName1', fileName1);
+          this.fileListName2 = fileName2;
+          // AppStorage.setOrCreate<string>('fileListName2', fileName2);
+          let copyFileLog3: string | undefined = AppStorage.get<string>('copyFileLog3');
+          let copyFileLog4: string | undefined = AppStorage.get<string>('copyFileLog4');
           let copyFileLog = '2、' + fileName1 + fileName2 + copyFileLog3 + 'copy' + copyFileLog4;
           if (fileName1 !== 'undefined、') {
-            AppStorage.SetOrCreate('copyFileShowLog', copyFileLog);
+            this.copyFileShowLog = copyFileLog;
+            // AppStorage.setOrCreate<string>('copyFileShowLog', copyFileLog);
           } else {
-            AppStorage.SetOrCreate('copyFileShowLog', $r('app.string.workerLogChooseFile'));
+            this.copyFileShowLog = '2、请选择文件';
+            // AppStorage.setOrCreate<string>('copyFileShowLog', $r('app.string.workerLogChooseFile'));
+            // AppStorage.setOrCreate<string>('copyFileShowLog', '2、请选择文件');
           }
           Logger.info(TAG, `Worker workerInstance::onmessage receive count: ${JSON.stringify(this.filesCount)}`);
         }
         if (this.filesCount !== 0.0) {
-          AppStorage.SetOrCreate('fileNumber', JSON.stringify(this.filesCount));
+          // AppStorage.setOrCreate<string>('fileNumber', JSON.stringify(this.filesCount));
         } else {
-          AppStorage.SetOrCreate('fileNumber', '0');
-          AppStorage.SetOrCreate('fileListName1', '');
-          AppStorage.SetOrCreate('fileListName2', '');
+          // AppStorage.setOrCreate<string>('fileNumber', '0');
+          // AppStorage.setOrCreate<string>('fileListName1', '');
+          // AppStorage.setOrCreate<string>('fileListName2', '');
+          this.filesCount = 0;
+          this.fileListName1 = '';
+          this.fileListName2 = '';
         }
         Logger.info(TAG, 'workerInstance::onmessage Finish to process data from WorkerCopy.ts');
-        workerInstance?.terminate();
-      };
-      while (!fileFlag) {
-        await sleep(SLEEP_TIME);
+        workerInstance?.quitSafely();
+        fileFlag = (msg.getObject() as MessageObjectCopy).strFlag;
       }
+      let currentHandler = new concurrency.MessageHandler(currentCB, workerInstance);
+      const workerCB = (msg: concurrency.Message) => {
+        let srcPath: string = '';
+        let destPathCb: string = '';
+        let fileNames: Array<string> = (msg.getObject() as MessageObject).fileNames;
+        for (let i = 0; i < fileNames.length; i++) {
+          srcPath = (msg.getObject() as MessageObject).srcDir + '/' + fileNames[i];
+          Logger.info(TAG, ' srcPath ' + srcPath);
+          destPathCb = (msg.getObject() as MessageObject).destDir + '/' + fileNames[i];
+          Logger.info(TAG, ' destPathCb ' + destPathCb);
+          try {
+            fs.copyFileSync(srcPath, destPathCb);
+            let countTest = fs.listFileSync((msg.getObject() as MessageObject).destDir).length;
+            Logger.info(TAG, `Worker workerInstance::onmessage receive countTest: ${countTest}`);
+          } catch (e) {
+            Logger.error(TAG, 'WorkerCopy::copyFile has failed for: ' + JSON.stringify(e));
+          }
+        }
+
+        let listFileNames: string[] = [''];
+        listFileNames.length = 0;
+        try {
+          let count = fs.listFileSync((msg.getObject() as MessageObject).destDir).length;
+          let listFiles: string[] = fs.listFileSync((msg.getObject() as MessageObject).destDir);
+          Logger.info(TAG, 'listFile succeed');
+          for (let i: int = 0; i < listFiles.length; i++) {
+            listFileNames.push(listFiles[i]);
+            Logger.info(TAG, `Worker workerInstance::onmessage receive listFileNames: ${listFileNames[i]}`);
+          }
+
+          let workerPortMsgObj = new MessageObjectCopy(count, true, listFileNames);
+          let msg2 = new concurrency.Message(1, workerPortMsgObj, currentHandler);
+          currentHandler.sendMessage(msg2);
+          Logger.info(TAG, 'WorkerCopy::onmessage thread post message successfully');
+        } catch (e) {
+          Logger.error(TAG, 'WorkerCopy::onmessage has failed for: ' + JSON.stringify(e));
+        }
+      }
+      let workerHandler = new concurrency.MessageHandler(workerCB, workerInstance);
+
+      if (this.realFileNames !== null) {
+        let srcPath = this.baseDir + '/workerDir';
+        let messageObj = new MessageObject(srcPath, destPath, this.realFileNames);
+        let workerMessage = new concurrency.Message(1, messageObj, workerHandler);
+        workerMessage.sendToTarget();
+      }
+
+      // workerInstance.onexit = (code): void => {//没有这个方法了
+      //   Logger.info(TAG, `workerInstance::onexit has been exit ${code}`);
+      // };
+      workerInstance.setUncaughtExceptionHandler((err: Error) => {
+        Logger.info(TAG, `workerInstance::onerror has errors: ${JSON.stringify(err)}`);
+      });
+
+      // workerInstance.onmessageerror = (event): void => {//没有这个方法了
+      //   Logger.info(TAG, `workerInstance::onmessageerror has errors: ${JSON.stringify(event)}`);
+      // };
+
+      // while (!fileFlag) {
+      //   // await sleep(SLEEP_TIME);
+      // }
+      const end = Date.now() + 500;
+      while (Date.now() < end) {
+      }
+      AppStorage.setOrCreate<string>('fileNumber', this.filesCount.toString());
+      AppStorage.setOrCreate<string>('fileListName1', this.fileListName1);
+      AppStorage.setOrCreate<string>('fileListName2', this.fileListName2);
+      AppStorage.setOrCreate<string>('copyFileShowLog', this.copyFileShowLog);
     } catch (e) {
       Logger.error(TAG, `Worker WorkCreator error package: message: ${(e as BusinessError).message}, code: ${(e as BusinessError).code}`);
     }
