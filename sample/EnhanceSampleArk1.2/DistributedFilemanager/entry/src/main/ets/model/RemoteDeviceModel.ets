@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +19,7 @@ import { BusinessError } from '@ohos.base';
 import { Callback } from '@ohos.base';
 import { Logger } from '@ohos/feature-file-manager';
 
-let SUBSCRIBE_ID = 100;
+let SUBSCRIBE_ID: int = 100;
 const TAG: string = '[RemoteDeviceModel]';
 
 export class RemoteDeviceModel {
@@ -66,7 +67,7 @@ export class RemoteDeviceModel {
       return;
     }
     let list: deviceManager.DeviceBasicInfo[] = new Array();
-    for (let i = 0; i < this.deviceList.length; i++) {
+    for (let i: int = 0; i < this.deviceList.length; i++) {
       if (this.deviceList[i].deviceId !== device.deviceId) {
         list[i] = device;
       }
@@ -81,7 +82,7 @@ export class RemoteDeviceModel {
       this.callback();
       return;
     }
-    for (let j = 0; j < this.deviceList.length; j++) {
+    for (let j: int = 0; j < this.deviceList.length; j++) {
       if (this.deviceList[j].deviceId === device.deviceId) {
         this.deviceList[j] = device;
         break;
@@ -154,7 +155,7 @@ export class RemoteDeviceModel {
   }
 
   deviceFound(data: deviceManager.DeviceBasicInfo) {
-    for (let i = 0; i < this.discoverList.length; i++) {
+    for (let i: int = 0; i < this.discoverList.length; i++) {
       if (data.deviceId && this.discoverList[i].deviceId === data.deviceId) {
         Logger.info(TAG, `device founded ignored`);
         return;
@@ -212,7 +213,7 @@ export class RemoteDeviceModel {
 
   authenticateDevice(device: deviceManager.DeviceBasicInfo, callBack: Callback<void>) {
     Logger.info(TAG, `authenticateDevice ${JSON.stringify(device)}`)
-    for (let i = 0; i < this.discoverList.length; i++) {
+    for (let i: int = 0; i < this.discoverList.length; i++) {
       if (device.deviceId && this.discoverList[i].deviceId !== device.deviceId) {
         continue;
       }
