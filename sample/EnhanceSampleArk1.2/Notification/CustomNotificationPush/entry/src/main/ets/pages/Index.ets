@@ -1,10 +1,11 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *     http://www.apache.org/licenses/LICENSE-2.0
+ *   http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -12,6 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import { CustomStyles } from '@kit.ArkUI';
+
+import {
+  Resource,
+  TextAttribute,
+  TextAlign,
+  ColumnAttribute,
+  Color,
+  Entry,
+  Component,
+  getUIContext,
+  State,
+  $r,
+  Builder,
+  Row,
+  Text,
+  Blank,
+  Checkbox,
+  CommonMethod,
+  Column,
+  Toggle,
+  ToggleType,
+  ForEach,
+} from '@kit.ArkUI';
 
 import { notificationFilter, ContentCallBackType } from '../feature/NotificationFilterUtil';
 
@@ -21,26 +47,28 @@ interface checkBoxesMsg {
   contentType: ContentCallBackType
 }
 
-@Extend(Text) function listTitleStyle() {
-  .textAlign(TextAlign.Start)
-  .fontWeight(500)
-  .fontSize(22)
-  .fontFamily('HarmonyHeiTi-Medium')
-  .opacity(1)
+function listTitleStyle(this: TextAttribute): this {
+    this.textAlign(TextAlign.Start);
+    this.fontWeight(500);
+    this.fontSize(22);
+    this.fontFamily('HarmonyHeiTi-Medium');
+    this.opacity(1);
+    return this;
 }
 
-@Extend(Column) function cardStyle() {
-  .backgroundColor(Color.White)
-  .borderRadius(24)
-  .width('100%')
-  .margin({ top: 0 })
-  .padding(15)
+function cardStyle(this: ColumnAttribute): this {
+    this.backgroundColor(Color.White);
+    this.borderRadius(24);
+    this.width('100%');
+    this.margin({ top: 0 });
+    this.padding(15);
+    return this;
 }
 
 @Entry
 @Component
 struct Index {
-  context = getContext(this);
+  context = getUIContext().getHostContext(this);
   @State isNotificationOn: boolean = false;
   @State isStaticSubscribeEnable: boolean = false;
   @State checkBoxes: checkBoxesMsg[] = [
@@ -102,11 +130,11 @@ struct Index {
     .margin({ top: 0 });
   }
 
-  @Styles toggleStyle(){
-    .width(36)
-    .height(20)
-    .margin({ right: 12 })
-  }
+  toggleStyle: CustomStyles = (instance: CommonMethod): void => {
+    instance.width(36);
+    instance.height(20);
+    instance.margin({ right: 12 });
+  };
 
   build() {
     Column() {
@@ -118,7 +146,7 @@ struct Index {
             .listTitleStyle()
           Blank()
           Toggle({ type: ToggleType.Switch, isOn: this.isNotificationOn })
-            .toggleStyle()
+            .applyStyles(this.toggleStyle)
             .selectedColor(0x007DFF)
             .id('toggle')
             .onChange((value: boolean) => {

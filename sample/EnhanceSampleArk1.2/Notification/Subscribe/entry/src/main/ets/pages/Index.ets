@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023-2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  Builder,
+  Text,
+  TextAlign,
+  Flex,
+  FlexAlign,
+  ItemAlign,
+  FlexDirection,
+  Column,
+  $r,
+  Row,
+  Image,
+  TextOverflow,
+  WordBreak,
+  Button,
+  getUIContext,
+} from '@kit.ArkUI';
 
 import promptAction from '@ohos.promptAction';
 import notificationSubscribe from '@ohos.notificationSubscribe';
@@ -103,13 +125,13 @@ struct Subscribe {
                     bundle: 'com.samples.notificationpublish'
                   };
                   // 通知ID
-                  let notificationId = 1;
+                  let notificationId: int = 1;
                   // 按钮信息
                   let buttonOptions: notificationManager.ButtonOptions = {
                     buttonName: this.notifications,
                   }
                   notificationManager.triggerSystemLiveView(bundle, notificationId, buttonOptions).then((data) => {
-                    promptAction.showToast({
+                    getUIContext().getPromptAction().showToast({
                       message: $r('app.string.pullSuccess'),
                       duration: 2000,
                       bottom: 464
@@ -141,7 +163,7 @@ struct Subscribe {
                 if (err) {
                   console.error(`subscribe failed, code is ${err.code}, message is ${err.message}`);
                 } else {
-                  promptAction.showToast({
+                  getUIContext().getPromptAction().showToast({
                     message: $r('app.string.subscribeSuccess'),
                     duration: 2000,
                     bottom: 464

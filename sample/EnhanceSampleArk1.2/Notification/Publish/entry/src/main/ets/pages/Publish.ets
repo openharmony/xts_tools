@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023-2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,17 +14,37 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  State,
+  getUIContext,
+  Flex,
+  FlexAlign,
+  ItemAlign,
+  FlexDirection,
+  Column,
+  Text,
+  $r,
+  TextAlign,
+  Row,
+  Image,
+  TextOverflow,
+  WordBreak,
+  Button,
+} from '@kit.ArkUI';
+
 import promptAction from '@ohos.promptAction';
 import notificationManager from '@ohos.notificationManager';
 import Base from '@ohos.base';
 import image from '@ohos.multimedia.image';
 import common from '@ohos.app.ability.common';
-import * as EntryAbility from './../entryability/EntryAbility';
+import * as EntryAbility from '../entryability/EntryAbility';
 
 @Entry
 @Component
 struct DialogExample {
-  @State context: common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
+  @State context: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
   @State callBackButton: string = '';
   @State showPublishFlag: Boolean = false;
   @State notificationPublishContent: string = '';
@@ -119,7 +140,7 @@ struct DialogExample {
                 onResponse: onResponseCallback,
               };
               notificationManager.subscribeSystemLiveView(subscriber).then(() => {
-                promptAction.showToast({
+                getUIContext().getPromptAction().showToast({
                   message: $r('app.string.subscribeSuccess'),
                   duration: 2000,
                   bottom: 464,
@@ -142,7 +163,7 @@ struct DialogExample {
               let publishCallback = (err: Base.BusinessError): void => {
                 if (err) {
                 } else {
-                  promptAction.showToast({
+                  getUIContext().getPromptAction().showToast({
                     message: $r('app.string.publishSuccess'),
                     duration: 2000,
                     bottom: 464
