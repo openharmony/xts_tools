@@ -15,6 +15,7 @@
  */
 
 import { CommodityDataModel } from '../model/CommodityDataModel';
+import { $r } from '@ohos.arkui.component';
 
 /**
  * 商品列表数据源

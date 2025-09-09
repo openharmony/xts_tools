@@ -26,9 +26,10 @@ import { CommodityDataModel } from './CommodityDataModel';
 /**
  * Basic implementation of IDataSource to handle data listener
  */
-class BasicDataSource<T> implements IDataSource {
+export class BasicDataSource<T> implements IDataSource<T> {
   // 数据变化监听器
   private listeners: DataChangeListener[] = [];
+  private tList: T[] = [];
 
   /**
    * 获取数据的长度
@@ -40,9 +41,9 @@ class BasicDataSource<T> implements IDataSource {
   /**
    * 获取指定数据项
    */
-  public getData(index: number): T | undefined {
+  public getData(index: number): T {
     logger.info('getData, index:' + index);
-    return undefined;
+    return this.tList[index as int];
   }
 
   /**

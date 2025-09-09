@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-import { PropRef } from '@kit.ArkUI';
-
 import {
   Component,
   Column,
@@ -33,13 +31,17 @@ import {
   HorizontalAlign,
   Row,
   FlexAlign,
-  getUIContext,
+  Padding,
+  Margin,
+  ShadowOptions,
+  $r,
 } from '@kit.ArkUI';
 
 import { PRODUCTS_DATA } from '../mock/CommodityMock';
 import { CommodityDataModel } from '../model/CommodityDataModel';
 import { CommodityDataSource } from '../model/CommodityDataSource';
-import { promptAction } from '@kit.ArkUI';
+import { Position } from '@ohos.arkui.component';
+import { UIContext } from '@ohos.arkui.UIContext';
 
 const IMAGE_ASPECT_RATIO: number = 1.0; // 图片的宽高比
 const OFFSET: number = -4.0; // 价格控件偏移量
@@ -62,14 +64,14 @@ export struct CommodityList {
         Image($r('app.media.page_loading_light_mode_banner'))
           .objectFit(ImageFit.Contain)
           .borderRadius($r('app.integer.page_loading_banner_border_radius'))
-          .margin({ top: $r('app.integer.page_loading_banner_margin_top') })
+          .margin({ top: $r('app.integer.page_loading_banner_margin_top') } as Margin)
           .width('100%')
           .shadow({
             radius: $r('app.integer.page_loading_banner_shadow_border_radius'),
             color: $r('app.color.page_loading_banner_shadow_color'),
             offsetX: OFFSETX,
             offsetY: OFFSETY
-          })
+          } as ShadowOptions)
 
         Text($r('app.string.page_loading_goods_title_text'))
           .fontColor(Color.Black)
@@ -79,7 +81,7 @@ export struct CommodityList {
           .width('100%')
           .textAlign(TextAlign.Center)
       }
-      .padding({ left: $r('app.integer.page_loading_column_padding_left'), right: $r('app.integer.page_loading_column_padding_right') })
+      .padding({ left: $r('app.integer.page_loading_column_padding_left'), right: $r('app.integer.page_loading_column_padding_right') } as Padding)
       .backgroundColor(Color.White)
 
       List() {
@@ -90,8 +92,8 @@ export struct CommodityList {
           .padding({
             left: $r('app.integer.page_loading_commodity_list_item_padding'),
             right: $r('app.integer.page_loading_commodity_list_item_padding')
-          })
-          .margin({ top: $r('app.integer.page_loading_commodity_list_item_margin_top') })
+          } as Padding)
+          .margin({ top: $r('app.integer.page_loading_commodity_list_item_margin_top') } as Margin)
         }, (item: CommodityDataModel) => item.id.toString())
       }
       .id('commodity_list')
@@ -108,7 +110,7 @@ export struct CommodityList {
 
 @Component
 struct ItemView {
-  @PropRef item: CommodityDataModel;
+  item: CommodityDataModel = new CommodityDataModel(0.0, '', '', '', '', '');
 
   build() {
     // TODO: 知识点：相对布局组件，用于复杂场景中元素对齐的布局，容器内子组件区分水平方向，垂直方向子组件可以将容器或者其他子组件设为锚点。
@@ -120,7 +122,7 @@ struct ItemView {
         .padding({
           top: $r('app.integer.page_loading_commodity_image_padding_top'),
           bottom: $r('app.integer.page_loading_commodity_image_padding_bottom')
-        })
+        } as Padding)
         .alignRules({
           top: { anchor: '__container__', align: VerticalAlign.Top },
           left: { anchor: '__container__', align: HorizontalAlign.Start }
@@ -138,8 +140,8 @@ struct ItemView {
           right: $r('app.integer.page_loading_commodity_insurance_padding_right'),
           top: $r('app.integer.page_loading_commodity_insurance_padding_top'),
           bottom: $r('app.integer.page_loading_commodity_insurance_padding_bottom')
-        })
-        .margin({ right: $r('app.integer.page_loading_commodity_insurance_margin_right') })
+        } as Padding)
+        .margin({ right: $r('app.integer.page_loading_commodity_insurance_margin_right') } as Margin)
         .alignRules({
           right: { anchor: '__container__', align: HorizontalAlign.End },
           center: { anchor: '__container__', align: VerticalAlign.Center }
@@ -154,12 +156,12 @@ struct ItemView {
 
         Text(this.item.views)
           .fontSize($r('app.integer.page_loading_views_font'))
-          .margin({ left: $r('app.integer.page_loading_views_margin_left') })
+          .margin({ left: $r('app.integer.page_loading_views_margin_left') } as Margin)
           .fontColor(Color.Black)
       }
       .height($r('app.integer.page_loading_views_height'))
       .width($r('app.integer.page_loading_views_width'))
-      .margin({ top: $r('app.integer.page_loading_views_margin_top') })
+      .margin({ top: $r('app.integer.page_loading_views_margin_top') } as Margin)
       .justifyContent(FlexAlign.End)
       .alignRules({
         middle: { anchor: 'insurance', align: HorizontalAlign.Center },
@@ -177,9 +179,9 @@ struct ItemView {
         Text(this.item.price)
           .fontSize($r('app.integer.page_loading_commodity_price_text_font_size'))
           .fontWeight(FontWeight.Bold)
-          .offset({ x: OFFSET })// 因为￥是中文字符，上面的是中文字符，占的宽度不一样，所以需要对齐，添加offset
+          .offset({ x: OFFSET } as Position)// 因为￥是中文字符，上面的是中文字符，占的宽度不一样，所以需要对齐，添加offset
           .fontColor($r('app.color.page_loading_goods_price_text_color'))
-          .margin({ top: $r('app.integer.page_loading_commodity_price_margin_top') })
+          .margin({ top: $r('app.integer.page_loading_commodity_price_margin_top') } as Margin)
           .width('100%')
       }
       .justifyContent(FlexAlign.Start)
@@ -189,8 +191,8 @@ struct ItemView {
         center: { anchor: 'image', align: VerticalAlign.Center }
       })
       .id('column')
-      .onClick(() => {
-        getUIContext().getPromptAction.showToast({ message: $r('app.string.page_loading_commodity_other_function') });
+      .onClick((): void => {
+        this.getUIContext().getPromptAction().showToast({ message: $r('app.string.page_loading_commodity_other_function') });
       })
     }
     .height($r('app.integer.page_loading_commodity_list_item_height'))

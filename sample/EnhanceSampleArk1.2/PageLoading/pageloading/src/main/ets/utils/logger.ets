@@ -20,7 +20,7 @@ import hilog from '@ohos.hilog';
  * 日志打印类
  */
 class Logger {
-  private domain: number;
+  private domain: int;
   private prefix: string;
   private format: string = '%{public}s, %{public}s';
 
