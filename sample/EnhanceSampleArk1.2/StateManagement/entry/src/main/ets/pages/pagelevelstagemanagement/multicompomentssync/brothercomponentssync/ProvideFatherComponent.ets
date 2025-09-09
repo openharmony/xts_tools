@@ -19,12 +19,13 @@ import {
   State,
   Provide,
   Resource,
-  $r,
   Column,
-  $rawfile,
   Text,
   TextAlign,
   Color,
+  $r,
+  $rawfile,
+  ColumnOptions,
 } from '@kit.ArkUI';
 
 import { ColorType } from '../model/ColorType';
@@ -35,27 +36,21 @@ import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
 
 @Component
 export struct ProvideFatherComponent {
-  // 初始化一个颜色数组
   @State selectColors: ColorType[] = COLOR_SELECT_DATA;
-  // 共同父组件使用@Provide初始化圆形颜色
   @Provide consumeCircleColor: Resource = $r('app.color.circle_blue');
-  // 初始化Select组件的Index为0
-  @Provide currentSelectIndex: number = 0;
+  @Provide currentSelectIndex: number = 0.0;
 
   build() {
-    Column({ space: 10 }) {
-      // 点击查看源码
+    Column({ space: 10.0 }as ColumnOptions) {
       ViewCodeText({ webSrc: $rawfile('ProvideFatherComponent.ets.html') })
       Text($r('app.string.parent_titletwo'))
         .fontSize($r('app.float.tips_font_size'))
         .fontColor($r('app.color.tips_font_color'))
         .width('100%')
         .textAlign(TextAlign.Center)
-      // 和父组件双向同步子组件A
       ConsumeBrotherOneComponent()
-      // 和父组件双向同步子组件B
       ConsumeBrotherTwoComponent()
-    }.padding(10)
+    }.padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })
   }
 }

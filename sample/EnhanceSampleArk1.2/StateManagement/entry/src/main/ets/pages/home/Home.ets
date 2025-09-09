@@ -24,40 +24,39 @@ import {
   ForEach,
   TabContent,
   BarMode,
-  $r,
   Builder,
   Column,
   Image,
   Text,
   HorizontalAlign,
+  $r,
+  Padding,
+  Margin,
 } from '@kit.ArkUI';
 
-import { FirstLevelCategory } from './model/CategoricalDataType';
+import { FirstLevelCategory, SecondLevelCategory, ThirdLevelCategory } from './model/CategoricalDataType';
 import { HOME_TABS } from './data/HomeData';
 import { TabContentNavigation } from './TabContentNavigation';
 
 @Entry
 @Component
 struct Home {
-  // 初始化tabsBar的index值为0
-  @State tabsIndex: number = 0;
+  @State tabsIndex: number = 0.0;
   @StorageLink('currentBreakpoint') curBp: string = 'sm';
 
   build() {
     Tabs({ barPosition: this.curBp === 'sm' ? BarPosition.End : BarPosition.Start }) {
       ForEach(HOME_TABS, (item: FirstLevelCategory, index: number) => {
         TabContent() {
-          TabContentNavigation({ categories: item.childNodes })
+          TabContentNavigation({ categories: item.childNodes });
         }
         .tabBar(() => {
           this.CustomTabBar(item, index)
         })
-      }, item => JSON.stringify(item))
+      }, (item, index) => index.toString())
     }
     .vertical(this.curBp === 'sm' ? false : true)
-    // 大型设备tabbar的高度为40%，小型设备的高度为56vp
     .barHeight(this.curBp === 'sm' ? '56vp' : '40%')
-    // 大型设备tabbar的宽度为56vp，小型设备的宽度为100%
     .barWidth(this.curBp === 'sm' ? '100%' : '56vp')
     .barMode(BarMode.Fixed)
     .backgroundColor($r('app.color.background_shallow_grey'))
@@ -66,21 +65,22 @@ struct Home {
     })
   }
 
-  @Builder CustomTabBar(item: FirstLevelCategory, index: number) {
+  @Builder
+  CustomTabBar(item: FirstLevelCategory, index: number) {
     Column() {
       Image(this.tabsIndex === index ? item.iconSelected : item.icon)
-        .width(24)
-        .height(24)
-        .margin({ bottom: 4 })
+        .width(24.0)
+        .height(24.0)
+        .margin({ bottom: 4.0 } as Margin)
 
       Text(item.tabBarName)
-        .fontSize(10)
+        .fontSize(10.0)
         .fontFamily('HarmonyHeiTi-Medium')
         .fontColor(this.tabsIndex === index ? $r('app.color.tab_bar_select') : $r('app.color.tab_bar_unselect'))
     }
     .width('100%')
     .id(`tabBar${index}`)
-    .padding({ top: 6, bottom: 6 })
+    .padding({ top: 6.0, bottom: 6.0 } as Padding)
     .alignItems(HorizontalAlign.Center)
   }
 }

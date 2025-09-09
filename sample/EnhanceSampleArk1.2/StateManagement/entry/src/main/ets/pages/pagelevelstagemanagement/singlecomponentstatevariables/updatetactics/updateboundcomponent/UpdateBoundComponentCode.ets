@@ -18,30 +18,29 @@ import {
   Component,
   State,
   Column,
-  $rawfile,
   Text,
-  $r,
   Row,
   FlexAlign,
   Button,
   ButtonType,
   Color,
+  ColumnOptions,
+  ClickEvent,
+  $r,
+  $rawfile,
+  Margin,
 } from '@kit.ArkUI';
 
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
 
 @Component
 export struct UpdateBoundComponentCode {
-  // 组件内状态变量
   @State titleName: string = 'title';
-  // 组件内private变量
   private content: string = 'content';
-  // 组件内变量更新的次数
-  private updateCount: int = 0;
+  private updateCount: number = 0.0;
 
   build() {
-    Column({ space: 10 }) {
-      // 点击查看源码
+    Column({ space: 10.0 }as ColumnOptions) {
       ViewCodeText({webSrc: $rawfile('UpdateBoundComponentCode.ets.html')})
 
       Column() {
@@ -53,38 +52,37 @@ export struct UpdateBoundComponentCode {
           Text($r('app.string.only_update_title'))
             .fontColor($r('app.color.button_text_color'))
             .fontSize($r('app.float.button_text_size'))
-          Text(`${this.titleName}`) // titleName为状态变量，绑定Text组件
+          Text(`${this.titleName}`)
             .fontColor($r('app.color.button_text_color'))
-            .fontSize(20)
+            .fontSize(20.0)
         }
         .width('100%')
-        .margin(10)
+        .margin(10.0)
 
         Text($r('app.string.only_update_private'))
           .fontColor($r('app.color.tips_font_color'))
           .fontSize($r('app.float.tips_font_size'))
           .width('100%')
-          .margin({ top: 20 })
+          .margin({ top: 20.0 }as Margin)
         Row() {
           Text($r('app.string.only_update_content'))
             .fontColor($r('app.color.button_text_color'))
             .fontSize($r('app.float.button_text_size'))
-          Text(`${this.content}`) // content为private，绑定Text组件
+          Text(`${this.content}`)
             .fontColor($r('app.color.button_text_color'))
-            .fontSize(20)
+            .fontSize(20.0)
         }
         .width('100%')
-        .margin(10)
+        .margin(10.0)
       }
       .width('100%')
-      .padding(10)
+      .padding(10.0)
       .justifyContent(FlexAlign.SpaceAround)
       .backgroundColor($r('app.color.component_background_pink'))
 
       Column() {
         Button($r('app.string.update_title_content'))
-          .onClick(() => {
-            // 点击更新@State和Private声明的变量，更新策略为：@State和Private的数据发生变化，@State变量绑定的组件更新，Private变量绑定的组件不更新。
+          .onClick((event:ClickEvent) => {
             this.updateCount++;
             this.content = `content ${this.updateCount}`;
             this.titleName = `title ${this.updateCount}`;
@@ -99,10 +97,10 @@ export struct UpdateBoundComponentCode {
         Text($r('app.string.only_update_state_components'))
           .fontColor($r('app.color.tips_font_color'))
           .fontSize($r('app.float.button_text_size'))
-          .margin({ top: 30 })
+          .margin({ top: 30.0 }as Margin)
       }.width('100%')
     }
-    .padding(10)
+    .padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })
   }
 }

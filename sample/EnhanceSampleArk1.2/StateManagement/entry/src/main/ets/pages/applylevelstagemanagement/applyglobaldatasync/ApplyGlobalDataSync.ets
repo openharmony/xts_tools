@@ -19,13 +19,13 @@ import {
   Component,
   State,
   Resource,
-  $r,
   StorageLink,
   Column,
   AppStorage,
+  $r,
 } from '@kit.ArkUI';
 
-import ApplyGlobalDataSyncCode from './ApplyGlobalDataSyncCode';
+import {ApplyGlobalDataSyncCode} from './ApplyGlobalDataSyncCode';
 import { CodeView } from '../../../commoncomponents/CodeView';
 import { TitleBarDark } from '../../../commoncomponents/TitleBarDark';
 import { TitleBar } from '../../../commoncomponents/TitleBar';
@@ -34,26 +34,25 @@ import { TitleBar } from '../../../commoncomponents/TitleBar';
 @Component
 struct ApplyGlobalDataSync {
   @State title: Resource = $r('app.string.application_storage_ui');
-  // 当前夜间模式的状态
   @StorageLink('currentModelStatus') currentModelStatus: boolean = true;
 
   build() {
     Column() {
-      // 展示不同模式状态下的标题
       if (this.currentModelStatus) {
         TitleBarDark({ title: this.title })
       } else {
         TitleBar({ title: this.title })
       }
-      CodeView({ title: this.title, isShowTitle: false }) {
+      // TODO Exception
+      // CodeView({ title: this.title, isShowTitle: false }) {
         ApplyGlobalDataSyncCode()
-      }
+      // }
     }.width('100%')
     .height('100%')
     .backgroundColor(this.currentModelStatus ? $r('app.color.nightnode_color') : $r('app.color.background_shallow_grey'))
   }
 
   aboutToDisappear(): void {
-    AppStorage.SetOrCreate('sideBarShow', false);
+    AppStorage.setOrCreate('sideBarShow', false);
   }
 }

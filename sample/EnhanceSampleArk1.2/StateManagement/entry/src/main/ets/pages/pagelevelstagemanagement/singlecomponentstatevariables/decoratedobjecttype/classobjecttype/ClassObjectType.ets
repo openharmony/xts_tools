@@ -19,9 +19,9 @@ import {
   Component,
   State,
   Resource,
-  $r,
   Column,
   AppStorage,
+  $r,
 } from '@kit.ArkUI';
 
 import { ClassObjectTypeCode } from './ClassObjectTypeCode';
@@ -34,9 +34,10 @@ struct ClassObjectType {
 
   build() {
     Column() {
-      CodeView({ title: this.title }) {
+      // TODO Exception
+      // CodeView({ title: this.title }) {
         ClassObjectTypeCode()
-      }
+      // }
     }
     .width('100%')
     .height('100%')
@@ -45,6 +46,6 @@ struct ClassObjectType {
   }
 
   aboutToDisappear(): void {
-    AppStorage.SetOrCreate('sideBarShow', false);
+    AppStorage.setOrCreate('sideBarShow', false);
   }
 }

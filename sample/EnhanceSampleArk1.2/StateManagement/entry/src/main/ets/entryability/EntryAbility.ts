@@ -30,7 +30,6 @@ export default class EntryAbility extends UIAbility {
   onCreate(want, launchParam): void {
     this.storage = new LocalStorage();
     this.storage.setOrCreate<boolean>('currentModelStatus', true);
-    // 设置当前内容字体为18
     this.storage.setOrCreate<number>('contentFontSize', FONT_SIZE);
     Logger.info(TAG, 'Ability onCreate');
   }
@@ -42,7 +41,6 @@ export default class EntryAbility extends UIAbility {
   updateBreakpoint(windowWidth: number): void {
     let windowWidthVp: number = windowWidth / (display.getDefaultDisplaySync().densityDPI / DPI);
     let curBp: string;
-    // 520以及840分别为小屏和中屏的最大宽度
     if (windowWidthVp < SMALL_SCREEN_WIDTH) {
       curBp = 'sm';
     } else if (windowWidthVp < MIDDLE_SCREEN_WIDTH) {

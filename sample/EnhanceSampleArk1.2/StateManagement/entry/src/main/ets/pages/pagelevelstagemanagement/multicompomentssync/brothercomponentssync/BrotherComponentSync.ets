@@ -19,9 +19,9 @@ import {
   Component,
   State,
   Resource,
-  $r,
   Column,
   AppStorage,
+  $r,
 } from '@kit.ArkUI';
 
 import { CodeView } from '../../../../commoncomponents/CodeView';
@@ -34,9 +34,10 @@ struct BrotherComponentSync {
 
   build() {
     Column() {
-      CodeView({ title: this.title }) {
+      // TODO Exception
+      // CodeView({ title: this.title }) {
         BrotherComponentSyncCode()
-      }
+      // }
     }
     .width('100%')
     .height('100%')
@@ -45,6 +46,6 @@ struct BrotherComponentSync {
   }
 
   aboutToDisappear(): void {
-    AppStorage.SetOrCreate('sideBarShow', false);
+    AppStorage.setOrCreate('sideBarShow', false);
   }
 }

@@ -18,8 +18,11 @@ import {
   Component,
   Column,
   Text,
-  $r,
   TextAlign,
+  $r,
+  Margin,
+  Resource,
+
 } from '@kit.ArkUI';
 
 import { ProvideFatherComponent } from './ProvideFatherComponent';
@@ -35,7 +38,6 @@ export struct BrotherComponentSyncCode {
           .fontSize($r('app.float.tips_font_size'))
           .width('100%')
           .textAlign(TextAlign.Start)
-        // 共同父组件@State
         StateFatherComponent()
       }
 
@@ -44,10 +46,9 @@ export struct BrotherComponentSyncCode {
           .fontSize($r('app.float.tips_font_size'))
           .width('100%')
           .textAlign(TextAlign.Start)
-        // 共同父组件@Provide
         ProvideFatherComponent()
       }
-      .margin({ top: 10 })
+      .margin({ top: 10.0 }as Margin)
     }
   }
 }

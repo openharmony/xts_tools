@@ -20,35 +20,39 @@ import {
   Consume,
   Resource,
   Column,
-  $rawfile,
   Text,
-  $r,
   TextAlign,
   Row,
   Select,
-  getUIContext,
-  Circle,
   FlexAlign,
   Color,
+  ColumnOptions,
+  $r,
+  $rawfile,
+  SelectOption
 } from '@kit.ArkUI';
 
 import common from '@ohos.app.ability.common';
 import { ColorType } from '../model/ColorType';
-import { COLOR_SELECT_DATA } from '../data/ColorData';
+import { COLOR_SELECT_DATA, NEW_COLOR_SELECT_DATA } from '../data/ColorData';
 import { getResourceString } from '../../../../utils/ResourceUtils';
 import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
+import { Circle,} from '@ohos.arkui.component';
 
 @Component
 export struct ConsumeBrotherTwoComponent {
   @State selectColors: ColorType[] = COLOR_SELECT_DATA;
-  // 和父组件、子组件B双向同步圆形颜色
+  @State selectValues: SelectOption[] = NEW_COLOR_SELECT_DATA;
   @Consume consumeCircleColor: Resource;
-  // 和父组件、子组件A双向同步Select组件的Index值
-  @Consume currentSelectIndex: number;
+  @Consume currentSelectIndex: number = 0.0;
+  private CONTEXT: common.UIAbilityContext | undefined = undefined;
+
+  aboutToAppear() {
+    this.CONTEXT = ((this.getUIContext()?.getHostContext()) as common.UIAbilityContext);
+  }
 
   build() {
-    Column({ space: 10 }) {
-      // 点击查看源码
+    Column({ space: 10.0 }as ColumnOptions) {
       ViewCodeText({ webSrc: $rawfile('ConsumeBrotherTwoComponent.ets.html') })
       Text($r('app.string.consume_brothers_title'))
         .fontColor($r('app.color.tips_font_color'))
@@ -57,17 +61,15 @@ export struct ConsumeBrotherTwoComponent {
         .textAlign(TextAlign.Center)
         .height($r('app.float.button_height'))
       Row() {
-        Select(this.selectColors)
+        Select(this.selectValues)
           .id('consumeSelectCompB')
           .selected(this.currentSelectIndex)
-          .value(getResourceString(getUIContext().getHostContext(this) as common.UIAbilityContext,
-                                   this.selectColors[this.currentSelectIndex as int].value))
+          .value(this.selectValues[this.currentSelectIndex as int].value)
           .fontColor($r('app.color.button_text_color'))
           .font({ size: $r('app.float.select_font_size') })
           .selectedOptionFont({ size: $r('app.float.select_font_size') })
           .optionFont({ size: $r('app.float.select_font_size') })
-          .onSelect((index: number) => {
-            // 此组件@Consume声明的数据页面更新，兄弟组件@Consume的数据页面同步更新
+          .onSelect((index: number, text: string) => {
             this.currentSelectIndex = index;
             this.consumeCircleColor = this.selectColors[index as int].color;
           })
@@ -78,7 +80,7 @@ export struct ConsumeBrotherTwoComponent {
       }.justifyContent(FlexAlign.SpaceAround)
       .width('100%')
     }
-    .padding(10)
+    .padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Blue, width: $r('app.float.border_width') })
   }
 }

@@ -18,8 +18,9 @@ import {
   Component,
   Column,
   Text,
-  $r,
   TextAlign,
+  Margin,
+  $r,
 } from '@kit.ArkUI';
 
 import { StateGrandfatherComponent } from './StateGrandfatherComponent';
@@ -34,16 +35,14 @@ export struct DeepNestComponentsSyncCode {
           .fontSize($r('app.float.tips_font_size'))
           .width('100%')
           .textAlign(TextAlign.Start)
-        // 爷组件@State
         StateGrandfatherComponent()
-      }.margin({ bottom: 16 })
+      }.margin({ bottom: 16.0 }as Margin)
 
       Column() {
         Text($r('app.string.realize_by_provide_consume'))
           .fontSize($r('app.float.tips_font_size'))
           .width('100%')
           .textAlign(TextAlign.Start)
-        // 爷组件@Provide
         ProvideGrandfatherComponent()
       }
     }

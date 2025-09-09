@@ -14,17 +14,26 @@
  * limitations under the License.
  */
 
-import { $r } from '@kit.ArkUI';
-
 import { ColorType } from '../model/ColorType'
+import {
+  $r,
+  SelectOption,
+} from '@kit.ArkUI';
 
 export const COLOR_SELECT_DATA: ColorType[] = [
   {
-    value: $r('app.string.select_colorblue'),
     color: $r('app.color.circle_blue')
   },
   {
-    value: $r('app.string.select_colorpink'),
     color: $r('app.color.circle_pink')
+  }
+]
+
+export const NEW_COLOR_SELECT_DATA: SelectOption[] = [
+  {
+    value: $r('app.string.select_colorblue'),
+  },
+  {
+    value: $r('app.string.select_colorpink'),
   }
 ]

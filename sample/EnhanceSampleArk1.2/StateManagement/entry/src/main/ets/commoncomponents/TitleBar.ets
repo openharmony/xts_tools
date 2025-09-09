@@ -15,7 +15,6 @@
  */
 
 import {
-  getUIContext,
   Component,
   Link,
   Resource,
@@ -23,39 +22,41 @@ import {
   Row,
   Button,
   Image,
-  $r,
   Text,
   Divider,
+  $r,
+  ColumnOptions,
+  TextAttribute,
+  Margin,
+  ClickEvent,
 } from '@kit.ArkUI';
-
+import { Context,UIContext} from '@ohos.arkui.UIContext';
 import router from '@ohos.router';
 import common from '@ohos.app.ability.common';
 import { startSpecifiedAbility } from '../utils/StartAbilityUtils';
-
-//声明一个上下文信息
-const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
 
 @Component
 export struct TitleBar {
   @Link title: Resource;
   private isAbility: boolean = false;
+  private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
 
   build() {
     Column() {
       Row() {
-        Button() {
+        Button('') {
           Image($r('app.media.ic_back'))
             .size({ width: $r('app.float.icon_back_size'), height: $r('app.float.icon_back_size') })
         }
         .backgroundColor($r('app.color.background_shallow_grey'))
         .id('backBtn')
-        .onClick(() => {
-          this.isAbility ? startSpecifiedAbility(CONTEXT, 'EntryAbility') : getUIContext().getRouter.back();
+        .onClick((event:ClickEvent) => {
+          this.isAbility ? startSpecifiedAbility(this.CONTEXT, 'EntryAbility') : this.getUIContext().getRouter().back();
         })
 
         Text(this.title)
           .fontSize($r('app.float.title_font_size'))
-          .margin({ left: $r('app.float.title_margin') })
+          .margin({ left: $r('app.float.title_margin') }as Margin)
       }
       .width('100%')
       .padding($r('app.float.page_padding'))
@@ -64,7 +65,7 @@ export struct TitleBar {
         .width('100%')
         .height($r('app.float.divider_height'))
         .color($r('app.color.divider_color'))
-        .margin({ bottom: 12 })
+        .margin({ bottom: 12.0 } as Margin)
     }
     .width('100%')
   }

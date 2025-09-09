@@ -16,7 +16,8 @@
 
 import { Resource } from '@kit.ArkUI';
 
-export type ColorType = {
-  value:Resource,
-  color:Resource,
+export interface ColorType {
+  color:	Resource,
 };
+
+

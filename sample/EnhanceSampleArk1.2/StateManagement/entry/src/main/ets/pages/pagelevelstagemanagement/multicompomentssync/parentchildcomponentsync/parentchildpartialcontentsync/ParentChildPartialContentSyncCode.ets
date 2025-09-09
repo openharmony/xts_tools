@@ -19,23 +19,24 @@ import { PropRef } from '@kit.ArkUI';
 import {
   Observed,
   Resource,
-  $r,
   Component,
   State,
   Column,
-  $rawfile,
   Text,
   TextAlign,
   ForEach,
   Color,
   ObjectLink,
   TextInput,
+  $r,
+  $rawfile,
+  ColumnOptions,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 import { ObjectLinkComponent } from './ObjectLinkComponent';
 import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
 
-// 数组中元素的类，使用@Observed修饰
 @Observed
 export class ClassObject {
   public elementType: Resource;
@@ -47,21 +48,17 @@ export class ClassObject {
   }
 }
 
-// 初始化父组件中的数据
 const PARENT_DATA: ClassObject[] = [new ClassObject($r('app.string.partial_sync_element_one'), $r('app.string.partial_sync_attribute_one')),
   new ClassObject($r('app.string.partial_sync_element_two'), $r('app.string.partial_sync_attribute_two')),
   new ClassObject($r('app.string.partial_sync_element_three'), $r('app.string.partial_sync_attribute_three'))];
 
 @Component
 export struct ParentChildPartialContentSyncCode {
-  // 初始化父组件中状态变量
   @State parentData: ClassObject[] = PARENT_DATA;
-  // 与子组件同步的的数据是数组的第几个元素，默认选中第一个
-  @State syncIndex: number = 0;
+  @State syncIndex: int = 0;
 
   build() {
-    Column({ space: 10 }) {
-      // 点击查看源码
+    Column({ space: 10.0 }as ColumnOptions) {
       ViewCodeText({ webSrc: $rawfile('ParentChildPartialContentSyncCode.ets.html') })
 
       Text($r('app.string.partial_sync_parent_tips'))
@@ -69,58 +66,53 @@ export struct ParentChildPartialContentSyncCode {
         .fontSize($r('app.float.tips_font_size'))
         .width('100%')
         .textAlign(TextAlign.Start)
-      // 父组件中List展示状态变量中的内容
       Column() {
         ForEach(this.parentData, (item: ClassObject, index: number) => {
           Column() {
             ParentCompDataItem({ index: index, syncIndex: this.syncIndex, childObject: item })
           }
           .backgroundColor(index === this.syncIndex ? $r('app.color.component_background_pink') : undefined)
-          .onClick(() => {
-            this.syncIndex = index;
+          .onClick(() : void=> {
+            this.syncIndex = index as int;
           })
-        }, item => JSON.stringify(item))
+        }, index => index.toString())
       }
       .width('100%')
       .backgroundColor($r('app.color.component_background_pink'))
 
-      //与父组件状态同步的子组件
       ObjectLinkComponent({ childObjectData: this.parentData[this.syncIndex as int] })
     }
     .width('100%')
-    .padding(10)
+    .padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })
   }
 }
 
-// 展示数组中单个元素的子组件
 @Component
 struct ParentCompDataItem {
-  private index: int;
-  @PropRef syncIndex: number;
-  // 使用@ObjectLink修饰，与父组件中元素同步
+  private index: number;
+  syncIndex: number;
   @ObjectLink childObject: ClassObject;
 
   build() {
     Column() {
       Text(this.childObject.elementType)
         .width('100%')
-        .fontSize(20)
+        .fontSize(20.0)
       if (this.index === this.syncIndex) {
         TextInput({ text: this.childObject.attributeType })
-          .fontSize(20)
-          .id(`attribute${this.index + 1}`)
-          .onChange((value: string) => {
-            // 更新父组件中元素的属性，子组件同步
+          .fontSize(20.0)
+          .id(`attribute${this.index + 1.0}`)
+          .onChange((value: string):void => {
             this.childObject.attributeType = value;
           })
       } else {
         Text(this.childObject.attributeType)
           .width('100%')
-          .fontSize(20)
+          .fontSize(20.0)
       }
     }
-    .padding(10)
+    .padding(10.0)
     .id(`arrayElement${this.index}`)
   }
 }

@@ -19,9 +19,9 @@ import {
   Component,
   State,
   Resource,
-  $r,
   Column,
   AppStorage,
+  $r,
 } from '@kit.ArkUI';
 
 import { ParentChildPartialContentSyncCode } from './ParentChildPartialContentSyncCode';
@@ -34,9 +34,10 @@ struct ParentChildPartialContentSync {
 
   build() {
     Column() {
-      CodeView({ title: this.title }) {
+      // TODO Exception
+      // CodeView({ title: this.title }) {
         ParentChildPartialContentSyncCode()
-      }
+      // }
     }
     .width('100%')
     .height('100%')
@@ -45,6 +46,6 @@ struct ParentChildPartialContentSync {
   }
 
   aboutToDisappear(): void {
-    AppStorage.SetOrCreate('sideBarShow', false);
+    AppStorage.setOrCreate('sideBarShow', false);
   }
 }

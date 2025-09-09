@@ -15,55 +15,56 @@
  */
 
 import {
-  getUIContext,
   Component,
   State,
   Link,
   Resource,
   Column,
-  $rawfile,
   Row,
   Select,
-  $r,
-  Circle,
   FlexAlign,
   Text,
   TextAlign,
   Color,
+  $r,
+  $rawfile,
+  Margin,
+  SelectOption,
 } from '@kit.ArkUI';
 
 import common from '@ohos.app.ability.common';
 import { ColorType } from '../model/ColorType';
-import { COLOR_SELECT_DATA } from '../data/ColorData';
+import { COLOR_SELECT_DATA, NEW_COLOR_SELECT_DATA } from '../data/ColorData';
 import { getResourceString } from '../../../../utils/ResourceUtils';
 import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
-
-const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
+import { Circle,} from '@ohos.arkui.component';
 
 @Component
 export struct LinkDescendentComponent {
   @State selectColors: ColorType[] = COLOR_SELECT_DATA;
-  // 和父组件和爷组件双向同步圆形颜色
+  @State selectValues: SelectOption[] = NEW_COLOR_SELECT_DATA;
   @Link circleColor: Resource;
-  // 和父组件和爷组件双向同步Select的Index值
-  @Link currentSelectIndex: number;
+  @Link currentSelectIndex: int;
+  private CONTEXT: common.UIAbilityContext | undefined = undefined;
+
+  aboutToAppear() {
+    this.CONTEXT = ((this.getUIContext()?.getHostContext()) as common.UIAbilityContext);
+  }
 
   build() {
     Column() {
-      // 点击查看源码
       ViewCodeText({ webSrc: $rawfile('LinkDescendentComponent.ets.html') })
       Row() {
-        Select(this.selectColors)
+        Select(this.selectValues)
           .selected(this.currentSelectIndex)
-          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex as int].value))
+          .value(this.selectValues[this.currentSelectIndex].value)
           .fontColor($r('app.color.button_text_color'))
           .font({ size: $r('app.float.tips_font_size') })
           .selectedOptionFont({ size: $r('app.float.tips_font_size') })
           .optionFont({ size: $r('app.float.tips_font_size') })
           .id('grandsonCompA')
-          .onSelect((index: number) => {
-            // 孙组件@Link组件数据页面更新，爷组件同步更新
-            this.currentSelectIndex = index;
+          .onSelect((index: number,text?: string | undefined) => {
+            this.currentSelectIndex = index as int;
             this.circleColor = this.selectColors[index as int].color;
           })
         Circle()
@@ -71,7 +72,7 @@ export struct LinkDescendentComponent {
           .fill(this.circleColor)
       }.justifyContent(FlexAlign.SpaceAround)
       .width('100%')
-      .margin({ bottom: 6 })
+      .margin({ bottom: 6.0 }as Margin)
 
       Text($r('app.string.deepnest_descendent_titleone'))
         .fontColor($r('app.color.tips_font_color'))
@@ -79,7 +80,7 @@ export struct LinkDescendentComponent {
         .width('100%')
         .textAlign(TextAlign.Center)
     }
-    .padding(10)
+    .padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Red, width: $r('app.float.border_width') })
   }
 }

@@ -14,15 +14,13 @@
  * limitations under the License.
  */
 
-import { $r } from '@kit.ArkUI';
-
 import {
   FirstLevelCategory,
   FourthLevelCategory,
   SecondLevelCategory,
-  ThirdLevelCategory
+  ThirdLevelCategory,
 } from '../model/CategoricalDataType';
-
+import { $r } from '@kit.ArkUI';
 
 const DECORATED_OBJECT_TYPE: FourthLevelCategory[] = [
   {
@@ -48,14 +46,16 @@ const UPDATE_PRINCIPLE: FourthLevelCategory[] = [
 
 const SINGLE_COMPONENT_CATEGORY: ThirdLevelCategory[] = [
   {
-    tag: 1,
+    tag: 1.0,
     title: $r('app.string.decorated_object_type'),
-    childNodes: DECORATED_OBJECT_TYPE
+    childNodes: DECORATED_OBJECT_TYPE,
+    type: "thirdLevelCategory"
   },
   {
-    tag: 1,
+    tag: 1.0,
     title: $r('app.string.update_principle'),
-    childNodes: UPDATE_PRINCIPLE
+    childNodes: UPDATE_PRINCIPLE,
+    type: "thirdLevelCategory"
   }
 ];
 
@@ -72,47 +72,52 @@ const PARENT_CHILD_SYNC: FourthLevelCategory[] = [
 
 const MULTI_COMPONENTS_CATEGORY: ThirdLevelCategory[] = [
   {
-    tag: 1,
+    tag: 1.0,
     title: $r('app.string.parent_child_sync'),
-    childNodes: PARENT_CHILD_SYNC
+    childNodes: PARENT_CHILD_SYNC,
+    type: "thirdLevelCategory"
   },
   {
-    tag: 1,
+    tag: 1.0,
     title: $r('app.string.parent_descendent_sync'),
-    url: 'pages/pagelevelstagemanagement/multicompomentssync/deepnestcomponentssync/DeepNestComponentsSync'
+    url: 'pages/pagelevelstagemanagement/multicompomentssync/deepnestcomponentssync/DeepNestComponentsSync',
+    type: "thirdLevelCategory"
   },
   {
-    tag: 1,
+    tag: 1.0,
     title: $r('app.string.brother_sync'),
-    url: 'pages/pagelevelstagemanagement/multicompomentssync/brothercomponentssync/BrotherComponentSync'
+    url: 'pages/pagelevelstagemanagement/multicompomentssync/brothercomponentssync/BrotherComponentSync',
+    type: "thirdLevelCategory"
   }
 ];
 
-const PAGE_LEVEL_CATEGORY: SecondLevelCategory[] = [
+const PAGE_LEVEL_CATEGORY: Array<SecondLevelCategory | ThirdLevelCategory> = [
   {
     title: $r('app.string.single_component_state'),
-    childNodes: SINGLE_COMPONENT_CATEGORY
+    childNodes: SINGLE_COMPONENT_CATEGORY,
+    type: "secondLevelCategory"
   },
   {
     title: $r('app.string.multi_component_sync'),
-    childNodes: MULTI_COMPONENTS_CATEGORY
+    childNodes: MULTI_COMPONENTS_CATEGORY,
+    type: "secondLevelCategory"
   }
 ];
 
-
-const APP_LEVEL_CATEGORY: ThirdLevelCategory[] = [
+const APP_LEVEL_CATEGORY: Array<SecondLevelCategory | ThirdLevelCategory> = [
   {
-    tag: 1,
+    tag: 1.0,
     title: $r('app.string.application_storage_ui'),
     url: 'pages/applylevelstagemanagement/applyglobaldatasync/ApplyGlobalDataSync',
+    type: "thirdLevelCategory"
   },
   {
-    tag: 1,
+    tag: 1.0,
     title: $r('app.string.ability_storage_ui'),
     url: 'pages/applylevelstagemanagement/abilityglobaldatasync/AbilityGlobalDataSync',
+    type: "thirdLevelCategory"
   }
 ];
-
 
 export const HOME_TABS: FirstLevelCategory[] = [
   {

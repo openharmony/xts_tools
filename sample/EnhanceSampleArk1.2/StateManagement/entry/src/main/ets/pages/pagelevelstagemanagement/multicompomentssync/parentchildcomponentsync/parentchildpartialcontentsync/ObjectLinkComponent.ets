@@ -18,14 +18,15 @@ import {
   Component,
   ObjectLink,
   Column,
-  $rawfile,
   Text,
-  $r,
   TextAlign,
   Row,
   TextInput,
   FlexAlign,
   Color,
+  ColumnOptions,
+  $r,
+  $rawfile,
 } from '@kit.ArkUI';
 
 import { ClassObject } from './ParentChildPartialContentSyncCode';
@@ -33,12 +34,10 @@ import { ViewCodeText } from '../../../../../commoncomponents/ViewCodeText';
 
 @Component
 export struct ObjectLinkComponent {
-  // 使用@ObjectLink修饰，与父组件中元素同步
   @ObjectLink childObjectData: ClassObject;
 
   build() {
-    Column({ space: 10 }) {
-      // 点击查看源码
+    Column({ space: 10.0 }as ColumnOptions) {
       ViewCodeText({ webSrc: $rawfile('ObjectLinkComponent.ets.html') })
 
       Text($r('app.string.partial_sync_text'))
@@ -51,19 +50,18 @@ export struct ObjectLinkComponent {
           .fontColor($r('app.color.tips_font_color'))
           .fontSize($r('app.float.tips_font_size'))
           .textAlign(TextAlign.Center)
-          .layoutWeight(1)
+          .layoutWeight(1.0)
         TextInput({ text: this.childObjectData.attributeType })
-          .fontSize(20)
-          .layoutWeight(1)
+          .fontSize(20.0)
+          .layoutWeight(1.0)
           .id('childAttribute')
-          .onChange((value: string) => {
-            // 子组件对象属性更新，父元素同步
+          .onChange((value: string): void=> {
             this.childObjectData.attributeType = value;
           })
       }
       .justifyContent(FlexAlign.SpaceAround)
     }
     .border({ radius: $r('app.float.component_radius'), color: Color.Blue, width: $r('app.float.border_width') })
-    .padding(10)
+    .padding(10.0)
   }
 }

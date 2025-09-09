@@ -19,15 +19,17 @@ import {
   Component,
   State,
   Resource,
-  $r,
   StorageLink,
   Column,
-  $rawfile,
   Text,
   TextAlign,
   Button,
   ButtonType,
   AppStorage,
+  $r,
+  $rawfile,
+  ColumnOptions,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 
@@ -40,12 +42,9 @@ import { TitleBar } from '../../../commoncomponents/TitleBar';
 @Component
 struct StorageLinkAbilityPage {
   @State title: Resource = $r('app.string.abilitytwo_page');
-  // 判断是否关联ability的变量
   @State isAbility: boolean = true;
-  // 和主页、Ability1页面双向同步夜间模式状态
   @StorageLink('currentModelStatus') currentModelStatus: boolean = true;
-  // 和主页、Ability1页面双向同步内容字体大小
-  @StorageLink('contentFontSize') contentFontSize: number = 18;
+  @StorageLink('contentFontSize') contentFontSize: number = 18.0;
 
   build() {
     Column() {
@@ -55,8 +54,7 @@ struct StorageLinkAbilityPage {
         TitleBar({ title: this.title, isAbility: true })
       }
       CodeView({ title: this.title, isShowTitle: false }) {
-        Column({ space: 30 }) {
-          // 查看源码
+        Column({ space: 30.0 }as ColumnOptions) {
           ViewCodeText({ webSrc: $rawfile('StorageLinkAbilityPage.ets.html') })
           Text($r('app.string.both_data_binding'))
             .fontSize(this.contentFontSize)
@@ -68,7 +66,7 @@ struct StorageLinkAbilityPage {
             .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.tips_font_color'))
             .width('100%')
             .textAlign(TextAlign.Center)
-          Button() {
+          Button('') {
             Text(this.currentModelStatus ? $r('app.string.close_nightmode') : $r('app.string.start_nightmode'))
               .fontColor(this.currentModelStatus ? $r('app.color.color_white') : $r('app.color.button_text_color'))
               .fontSize(this.contentFontSize)
@@ -79,8 +77,7 @@ struct StorageLinkAbilityPage {
           .type(ButtonType.Capsule)
           .backgroundColor($r('app.color.button_background_color'))
           .padding($r('app.float.page_padding'))
-          .onClick(() => {
-            // 更新控制夜间模式状态的变量数据，@StorageLink和@StorageProp关联的数据变量刷新
+          .onClick((event:ClickEvent) => {
             this.currentModelStatus = !this.currentModelStatus;
           })
 
@@ -98,6 +95,6 @@ struct StorageLinkAbilityPage {
   }
 
   aboutToDisappear(): void {
-    AppStorage.SetOrCreate('sideBarShow', false);
+    AppStorage.setOrCreate('sideBarShow', false);
   }
 }

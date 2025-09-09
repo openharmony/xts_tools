@@ -15,63 +15,60 @@
  */
 
 import {
-  getUIContext,
   Component,
   State,
   Provide,
   Resource,
-  $r,
   Column,
-  $rawfile,
   Text,
   TextAlign,
   Row,
   Select,
-  Circle,
   FlexAlign,
   Color,
+  $r,
+  $rawfile,
+  Margin,
+  SelectOption
 } from '@kit.ArkUI';
 
 
 import common from '@ohos.app.ability.common';
 import { ColorType } from '../model/ColorType';
-import { COLOR_SELECT_DATA } from '../data/ColorData';
+import { COLOR_SELECT_DATA, NEW_COLOR_SELECT_DATA } from '../data/ColorData';
 import { ConsumeDescendentComponent } from './ConsumeDescendentComponent';
 import { ViewCodeText } from '../../../../commoncomponents/ViewCodeText';
 import { getResourceString } from '../../../../utils/ResourceUtils';
-
-const CONTEXT: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
+import { Circle,} from '@ohos.arkui.component';
 
 @Component
 export struct ProvideGrandfatherComponent {
   @State selectColors: ColorType[] = COLOR_SELECT_DATA;
-  // 初始化爷组件@Provide的原型颜色
+  @State selectValues: SelectOption[] = NEW_COLOR_SELECT_DATA;
   @Provide consumeCircleColor: Resource = $r('app.color.circle_blue');
-  // 初始化Select组件的Index
-  @Provide currentSelectIndex: number = 0;
+  @Provide currentSelectIndex: int = 0;
+  private CONTEXT: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
 
   build() {
     Column() {
-      // 点击查看源码
       ViewCodeText({ webSrc:  $rawfile('ProvideGrandfatherComponent.ets.html') })
       Text($r('app.string.deepnest_parent_titletwo'))
         .fontSize($r('app.float.tips_font_size'))
         .fontColor($r('app.color.tips_font_color'))
         .width('100%')
         .textAlign(TextAlign.Center)
-        .margin({ top: 10 })
+        .margin({ top: 10.0 }as Margin)
       Row() {
-        Select(this.selectColors)
+        Select(this.selectValues)
           .selected(this.currentSelectIndex)
-          .value(getResourceString(CONTEXT, this.selectColors[this.currentSelectIndex as int].value))
+          .value(this.selectValues[this.currentSelectIndex].value)
           .fontColor($r('app.color.button_text_color'))
           .font({ size: $r('app.float.tips_font_size') })
           .selectedOptionFont({ size: $r('app.float.tips_font_size') })
           .optionFont({ size: $r('app.float.tips_font_size') })
           .id('grandfatherCompB')
-          .onSelect((index: number) => {
-            // 爷组件@Provide声明的数据页面更新，孙组件@Consume关联的变量同步更新
-            this.currentSelectIndex = index;
+          .onSelect((index: number, text?: string | undefined) => {
+            this.currentSelectIndex = index as int;
             this.consumeCircleColor = this.selectColors[index as int].color;
           })
         Circle()
@@ -79,10 +76,9 @@ export struct ProvideGrandfatherComponent {
           .fill(this.consumeCircleColor)
       }.justifyContent(FlexAlign.SpaceAround)
       .width('100%')
-      .margin({ bottom: 6 })
-      // 子组件
+      .margin({ bottom: 6.0 }as Margin)
       ConsumeChildComp()
-    }.padding(10)
+    }.padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Grey, width: $r('app.float.border_width') })
   }
 }
@@ -98,10 +94,9 @@ struct ConsumeChildComp {
         .width('100%')
         .textAlign(TextAlign.Center)
         .height($r('app.float.button_height'))
-      // 双向同步孙组件
       ConsumeDescendentComponent()
     }
-    .padding(10)
+    .padding(10.0)
     .border({ radius: $r('app.float.component_radius'), color: Color.Blue, width: $r('app.float.border_width') })
   }
 }

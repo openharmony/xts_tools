@@ -427,6 +427,9 @@
     {
       "name": "outofsyncability_label",
       "value": "label"
+    },{
+      "name": "app_name",
+      "value": "MyApplication"
     }
   ]
 }

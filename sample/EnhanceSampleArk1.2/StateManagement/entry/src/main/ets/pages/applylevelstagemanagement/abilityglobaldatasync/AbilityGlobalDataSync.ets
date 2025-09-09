@@ -16,14 +16,15 @@
 
 import {
   LocalStorage,
+  StorageLink,
   Entry,
   Component,
   State,
   Resource,
-  $r,
   LocalStorageLink,
   Column,
   AppStorage,
+  $r,
 } from '@kit.ArkUI';
 
 import { AbilityGlobalDataSyncCode } from './AbilityGlobalDataSyncCode';
@@ -31,27 +32,25 @@ import { CodeView } from '../../../commoncomponents/CodeView';
 import { TitleBarDark } from '../../../commoncomponents/TitleBarDark';
 import { TitleBar } from '../../../commoncomponents/TitleBar';
 
-let storage: LocalStorage = LocalStorage.GetShared();
+let storage: LocalStorage = new LocalStorage();
 
 const __get_local_storage__ = (): LocalStorage => storage;
 @Entry({ storage: "__get_local_storage__" })
 @Component
 struct AbilityGlobalDataSync {
   @State title: Resource = $r('app.string.ability_storage_ui');
-  // 初始化夜间模式的状态
   @LocalStorageLink('currentModelStatus') currentModelStatus: boolean = true;
-
   build() {
     Column() {
-      // 展示不同模式下的标题
       if (this.currentModelStatus) {
         TitleBarDark({ title: this.title })
       } else {
         TitleBar({ title: this.title })
       }
-      CodeView({ title: this.title, isShowTitle: false }) {
+      // TODO Exception
+      // CodeView({ title: this.title, isShowTitle: false }) {
         AbilityGlobalDataSyncCode()
-      }
+      // }
     }
     .width('100%')
     .height('100%')
@@ -59,6 +58,6 @@ struct AbilityGlobalDataSync {
   }
 
   aboutToDisappear(): void {
-    AppStorage.SetOrCreate('sideBarShow', false);
+    AppStorage.setOrCreate('sideBarShow', false);
   }
 }

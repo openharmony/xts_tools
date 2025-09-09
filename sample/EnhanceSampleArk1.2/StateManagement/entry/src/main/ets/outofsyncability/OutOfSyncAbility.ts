@@ -19,7 +19,7 @@ import Logger from '../utils/Logger';
 
 const TAG = 'OutOfSyncAbility';
 
-export default class OutOfSyncAbility extends UIAbility {
+export class OutOfSyncAbility extends UIAbility {
   onCreate(want, launchParam): void {
     Logger.info(TAG, 'Ability onCreate');
   }
