@@ -1,0 +1,91 @@
+/*
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+{
+  "float": [
+    {
+      "name": "title_font_size",
+      "value": "20fp"
+    },
+    {
+      "name": "category_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "category_margin_top",
+      "value": "8vp"
+    },
+    {
+      "name": "title_image_width",
+      "value": "24vp"
+    },
+    {
+      "name": "title_image_height",
+      "value": "24vp"
+    },
+    {
+      "name": "crop_image_width",
+      "value": "48vp"
+    },
+    {
+      "name": "crop_image_height",
+      "value": "48vp"
+    },
+    {
+      "name": "rotate_image_width",
+      "value": "36vp"
+    },
+    {
+      "name": "rotate_image_height",
+      "value": "36vp"
+    },
+    {
+      "name": "adjust_icon_width",
+      "value": "20vp"
+    },
+    {
+      "name": "adjust_icon_height",
+      "value": "20vp"
+    },
+    {
+      "name": "adjust_font_size",
+      "value": "12fp"
+    },
+    {
+      "name": "adjust_margin_top",
+      "value": "8vp"
+    },
+    {
+      "name": "adjust_margin_bottom",
+      "value": "10vp"
+    },
+    {
+      "name": "slider_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "slider_margin_top",
+      "value": "12vp"
+    },
+    {
+      "name": "title_margin_top",
+      "value": "15vp"
+    },
+    {
+      "name": "title_margin_left",
+      "value": "20vp"
+    }
+  ]
+}

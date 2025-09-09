@@ -1,0 +1,91 @@
+/*
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "ImageEdit"
+    },
+    {
+      "name": "reason",
+      "value": "点击页面右上角的保存按钮，把当前编辑的图片保存至相册。"
+    },
+    {
+      "name": "image_edit",
+      "value": "图片编辑"
+    },
+    {
+      "name": "crop",
+      "value": "裁剪"
+    },
+    {
+      "name": "rotate",
+      "value": "旋转"
+    },
+    {
+      "name": "adjust",
+      "value": "调节"
+    },
+    {
+      "name": "brightness",
+      "value": "亮度"
+    },
+    {
+      "name": "transparency",
+      "value": "透明度"
+    },
+    {
+      "name": "saturation",
+      "value": "饱和度"
+    },
+    {
+      "name": "save_image",
+      "value": "保存图片"
+    },
+    {
+      "name": "confirm_save",
+      "value": "确定要保存图片吗"
+    },
+    {
+      "name": "save",
+      "value": "保存"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "exec_edit",
+      "value": "正在执行编辑"
+    },
+    {
+      "name": "ok",
+      "value": "确认"
+    },
+    {
+      "name": "image_save",
+      "value": "图片已保存至相册"
+    }
+  ]
+}
