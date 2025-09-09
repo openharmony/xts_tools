@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,11 @@
  * limitations under the License.
  */
 
+import {
+  Curve,
+  getUIContext,
+} from '@kit.ArkUI';
+
 import { ImageViewerConstants } from '../constants/ImageViewerConstants';
 
 /**
@@ -25,8 +31,8 @@ export function runWithAnimation(
   fn: Function,
   duration: number = ImageViewerConstants.ANIMATE_DURATION,
   curve: Curve = Curve.Smooth): void {
-  animateTo({ duration: duration, curve: curve }, () => {
-    fn();
+  getUIContext().animateTo({ duration: duration, curve: curve }, () => {
+    fn.unsafeCall();
   })
 }
 
@@ -37,7 +43,7 @@ export function runWithAnimation(
  */
 export function simplestRotationQuarter(angle: number): number {
   // 一个完整的圆的角度是360度
-  const FULL_CIRCLE: number = 360;
+  const FULL_CIRCLE: int = 360;
   // 每个象限的角度是90度
   const QUADRANT_DEGREES: number = 90;
   // 为了正确处理角度在象限边界的情况，使用44.5作为偏移量。
@@ -52,7 +58,9 @@ export function simplestRotationQuarter(angle: number): number {
 
   // 根据象限确定旋转角度
   const standardRotations: number[] = [0, 90, 180, 270];
-  let rotation = standardRotations[QUADRANT];
+  if(QUADRANT as int < standardRotations.length) {
+    let rotation = standardRotations[QUADRANT as int];
+  }
 
   // 保持原始角度的方向
   let finalRotation = rotation * (angle >= 0 ? 1 : -1);

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,6 +15,15 @@
  */
 
 // Basic implementation of IDataSource to handle data listener
+
+import { Observed } from '@kit.ArkUI';
+
+import {
+  IDataSource,
+  DataChangeListener,
+} from '@kit.ArkUI';
+
+@Observed
 class BasicDataSource <T> implements IDataSource {
   private listeners: DataChangeListener[] = [];
   private originDataArray: T[] = [];
@@ -23,7 +33,7 @@ class BasicDataSource <T> implements IDataSource {
   }
 
   public getData(index: number): T {
-    return this.originDataArray[index];
+    return this.originDataArray[index as int];
   }
 
   // 该方法为框架侧调用，为LazyForEach组件向其数据源处添加listener监听
@@ -79,6 +89,7 @@ class BasicDataSource <T> implements IDataSource {
   }
 }
 
+@Observed
 export class CommonLazyDataSourceModel<T> extends BasicDataSource<T> {
   private dataArray: T[] = [];
 
@@ -87,7 +98,7 @@ export class CommonLazyDataSourceModel<T> extends BasicDataSource<T> {
   }
 
   public getData(index: number): T {
-    return this.dataArray[index];
+    return this.dataArray[index as int];
   }
 
   public addData(index: number, data: T): void {

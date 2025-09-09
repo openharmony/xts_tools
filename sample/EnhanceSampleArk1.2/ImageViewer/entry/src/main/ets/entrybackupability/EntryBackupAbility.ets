@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,7 +17,7 @@
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { BackupExtensionAbility, BundleVersion } from '@kit.CoreFileKit';
 
-const DOMAIN = 0x0000;
+const DOMAIN: int = 0x0000;
 
 export default class EntryBackupAbility extends BackupExtensionAbility {
   async onBackup() {

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,34 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import { PropRef } from '@kit.ArkUI';
+
+import {
+  Reusable,
+  Component,
+  Link,
+  Color,
+  Require,
+  Axis,
+  State,
+  ImageLoadResult,
+  getUIContext,
+  GestureEvent,
+  Stack,
+  Image,
+  $r,
+  ImageFit,
+  SafeAreaType,
+  SafeAreaEdge,
+  Alignment,
+  GestureGroup,
+  GestureMode,
+  TapGesture,
+  PanGesture,
+  RotationGesture,
+  PinchGesture,
+} from '@kit.ArkUI';
 
 import { image } from '@kit.ImageKit';
 import { matrix4, window } from '@kit.ArkUI';
@@ -55,11 +84,11 @@ export struct PicturePreviewImage {
   // 图片滑动方向
   @Require @Prop listDirection: Axis;
   // 图片滑动多大距离需要切换图片
-  @Prop togglePercent: number = 0.2;
+  @PropRef togglePercent: number = 0.2;
   // 当前图片下标
-  @Prop imageIndex: number = 0;
+  @PropRef imageIndex: number = 0;
   // 最多几张图片
-  @Prop imageMaxLength: number = 0;
+  @PropRef imageMaxLength: number = 0;
   // 设置偏移尺寸
   setListOffset: (offset: number, animationDuration?: number) => void =
     (offset: number, animationDuration?: number) => {
@@ -102,7 +131,7 @@ export struct PicturePreviewImage {
    * - - 添加 30 则为了让抵达边缘后 向next 拓展距离让用户感知到已经在切换图片行为了然后固定交叉轴
    * - 30 为可看到 next 图片，良好的距离
    */
-  private moveMaxOffset: 30 = 30;
+  private moveMaxOffset: number = 30;
 
   /**
    * 根据图片宽高比及窗口大小计算图片的默认宽高，即，图片最适配屏幕的大小
@@ -172,7 +201,7 @@ export struct PicturePreviewImage {
    * 在图片消失时，将当前图片的信息设置为默认值
    */
   resetCurrentImageInfo(): void {
-    animateTo({
+    getUIContext().animateTo({
       duration: this.restImageAnimation
     }, () => {
       this.imageScaleInfo.reset();
@@ -319,7 +348,7 @@ export struct PicturePreviewImage {
   }
 
   // 设置对应轴方向的数据
-  setCurrentOffsetXY(direction: ImageFitType.TYPE_WIDTH | ImageFitType.TYPE_HEIGHT, offset: number) {
+  setCurrentOffsetXY(direction: ImageFitType, offset: number) {
     if (direction === ImageFitType.TYPE_WIDTH) {
       this.imageOffsetInfo.currentX = offset;
     } else {
@@ -361,7 +390,7 @@ export struct PicturePreviewImage {
         // 双击切换图片大小
         TapGesture({ count: 2 })
           .onAction(() => {
-            let fn: Function;
+            let fn: Function = () => {};
             // 当前大小倍数 大于 默认的倍数，则是放大状态需要缩小
             if (this.imageScaleInfo.scaleValue > this.imageScaleInfo.defaultScaleValue) {
               fn = () => {

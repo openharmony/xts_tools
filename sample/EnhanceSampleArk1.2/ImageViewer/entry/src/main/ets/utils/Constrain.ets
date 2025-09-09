@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -64,7 +65,7 @@ export interface ConstrainOffsetAndAnimationType {
 export function getMaxAllowedOffset(winSize: number, imageSize: number, scale: number): number {
   const maxNum: number = Math.max(imageSize * scale, winSize);
   const minNum: number = Math.min(imageSize * scale, winSize);
-  return (maxNum - minNum) / 2;
+  return (maxNum - minNum) / 2.0;
 }
 
 /**
@@ -101,9 +102,9 @@ function isToggle(offset: number, winSize: number, imageSize: number, scale: num
 
 // 查询当前是尺寸
 export function getImgSize(imageSize: image.Size, rotate: number,
-  dimensionWH: ImageFitType.TYPE_WIDTH | ImageFitType.TYPE_HEIGHT): number {
+  dimensionWH: ImageFitType ): number {
   const isStandardRotation: boolean = [90, 270].includes(Math.abs(rotate % 360));
-  const key: ImageFitType.TYPE_WIDTH | ImageFitType.TYPE_HEIGHT =
+  const key: ImageFitType =
     isStandardRotation ? (dimensionWH == ImageFitType.TYPE_WIDTH ? ImageFitType.TYPE_HEIGHT : ImageFitType.TYPE_WIDTH) :
       dimensionWH;
   return imageSize[key];
@@ -128,8 +129,13 @@ export function constrainOffsetAndAnimation(info: ConstrainOffsetAndAnimationTyp
   // 获取窗口对应轴的尺寸
   const WIN_AXIS_SIZE: number = WIN_SIZE[info.dimensionWH];
   // 获取图片在该轴上的最后偏移量
-  let currentOffset: number =
-    (info.imageOffsetInfo as object)[`last${info.dimensionWH == ImageFitType.TYPE_WIDTH ? 'X' : 'Y'}`];
+  if (info.dimensionWH == ImageFitType.TYPE_WIDTH) {
+    let currentOffset: number = info.imageOffsetInfo.lastX;
+  } else {
+    let currentOffset: number = info.imageOffsetInfo.lastY;
+  }
+  // let currentOffset: number =
+  //   (info.imageOffsetInfo as object)[`last${info.dimensionWH == ImageFitType.TYPE_WIDTH ? 'X' : 'Y'}`];
   // 最后的图片的偏移量需要加上list偏移量来计算
   currentOffset += info.imageListOffset;
   const CLAMPED_OFFSET: number = constrainOffset(currentOffset, WIN_AXIS_SIZE, IMG_SIZE, info.scaleValue);
@@ -137,8 +143,13 @@ export function constrainOffsetAndAnimation(info: ConstrainOffsetAndAnimationTyp
   if (CLAMPED_OFFSET !== currentOffset) {
     let updateFn: () => void =
       () => {
-        (info.imageOffsetInfo as object)[`current${info.dimensionWH == ImageFitType.TYPE_WIDTH ? 'X' : 'Y'}`] =
-          CLAMPED_OFFSET;
+        if (info.dimensionWH == ImageFitType.TYPE_WIDTH) {
+          info.imageOffsetInfo.lastX = CLAMPED_OFFSET;
+        } else {
+          info.imageOffsetInfo.lastY = CLAMPED_OFFSET;
+        }
+        // (info.imageOffsetInfo as object)[`current${info.dimensionWH == ImageFitType.TYPE_WIDTH ? 'X' : 'Y'}`] =
+        //   CLAMPED_OFFSET;
         // 保存当前的偏移状态
         info.imageOffsetInfo.stash();
       }

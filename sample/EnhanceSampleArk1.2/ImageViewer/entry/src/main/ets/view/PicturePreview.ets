@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import { PropRef } from '@kit.ArkUI';
+
+import {
+  Component,
+  Axis,
+  Link,
+  Watch,
+  State,
+  Color,
+  ListScroller,
+  NavDestination,
+  List,
+  LazyForEach,
+  ListItem,
+  $r,
+  ScrollSnapAlign,
+  BarState,
+  SafeAreaType,
+  SafeAreaEdge,
+} from '@kit.ArkUI';
 
 import { CommonLazyDataSourceModel } from '../model/CommonLazyDataSourceModel';
 import { windowSizeManager } from '../utils/Managers';
@@ -43,13 +65,13 @@ import { window } from '@kit.ArkUI';
 @Component
 export struct PicturePreview {
   // 滑动方向
-  @Prop listDirection: Axis = Axis.Vertical;
+  @PropRef listDirection: Axis = Axis.Vertical;
   // 外部传入的图片数据
   @Link @Watch('getListMaxLength') imageList: string[];
   // 背景颜色
   @State listBGColor: Color = Color.White;
   // 图片懒加载数据源
-  @State lazyImageList: CommonLazyDataSourceModel<string> = new CommonLazyDataSourceModel();
+  @State lazyImageList: CommonLazyDataSourceModel<string> = new CommonLazyDataSourceModel<string>();
   // 当前视图下标
   private listIndex: number = 0;
   // 图片数量
@@ -84,7 +106,7 @@ export struct PicturePreview {
     })
   }
   // 改变到具体页面
-  setListToIndex = (index: number) => {
+  setListToIndex = (index: int) => {
     const WIN_SIZE :window.Size= windowSizeManager.get();
     let nIndex :number= index;
     if (nIndex < 0) {

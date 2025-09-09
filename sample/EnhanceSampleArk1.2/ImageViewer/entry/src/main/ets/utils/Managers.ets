@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,16 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import { px2vp } from '@kit.ArkUI';
+
 import { window } from '@kit.ArkUI';
 
 class WindowSizeManager {
   private size: window.Size = { width: 0, height: 0 };
 
   constructor() {
-    window.getLastWindow(getContext()).then((value: window.Window) => {
+    window.getLastWindow(getUIContext().getHostContext()).then((value: window.Window) => {
       const rect: window.Rect = value.getWindowProperties().windowRect;
-      this.size.width = px2vp(rect.width);
-      this.size.height = px2vp(rect.height);
+      this.size.width = getUIContext().px2vp(rect.width);
+      this.size.height = getUIContext().px2vp(rect.height);
       console.log(`[windowWidth]${this.size.width} [windowHeight]${this.size.height}`);
     })
   }
