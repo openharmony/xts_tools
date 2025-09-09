@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  VerticalAlign,
+  Builder,
+  Column,
+} from '@kit.ArkUI';
+
 import { BaseInterface } from './BaseInterface';
 import { CommonConstants } from '../common/CommonConstants';
 import { SizeMode } from './SizeMode';
@@ -45,16 +53,39 @@ export class IndicatorBarAttribute {
   // 背景条垂直布局
   private innerBarAlign: VerticalAlign;
 
-  constructor(indicatorBar: (index: BaseInterface) => void, sizeMode: SizeMode = SizeMode.Normal,
-    indicatorWidth: number = 0, indicatorHeight: number = 0, maxIndicatorBarLeft: number = -1,
-    indicatorExpand: number = 1, barAlign: VerticalAlign = VerticalAlign.Center) {
+  // constructor(indicatorBar: (index: BaseInterface) => void,
+  //   sizeMode: SizeMode = SizeMode.Normal,
+  //   indicatorWidth: number = 0,
+  //   indicatorHeight: number = 0,
+  //   maxIndicatorBarLeft: number = -1,
+  //   indicatorExpand: number = 1,
+  //   barAlign: VerticalAlign = VerticalAlign.Center
+  // ) {
+  //   this.innerIndicatorBar = indicatorBar;
+  //   this.innerSizeMode = sizeMode;
+  //   this.innerWidth = indicatorWidth;
+  //   this.innerHeight = indicatorHeight;
+  //   this.innerBarAlign = barAlign;
+  //   this.innerIndicatorExpand = indicatorExpand;
+  //   this.innerMaxIndicatorBarLeft = maxIndicatorBarLeft;
+  // }
+
+  constructor(
+    indicatorBar: (index: BaseInterface) => void,
+    sizeMode: SizeMode,
+    indicatorWidth: number,
+    indicatorHeight: number,
+    maxIndicatorBarLeft: number,
+    indicatorExpand: number,
+    barAlign: VerticalAlign
+  ) {
     this.innerIndicatorBar = indicatorBar;
     this.innerSizeMode = sizeMode;
     this.innerWidth = indicatorWidth;
     this.innerHeight = indicatorHeight;
-    this.innerBarAlign = barAlign;
-    this.innerIndicatorExpand = indicatorExpand;
     this.innerMaxIndicatorBarLeft = maxIndicatorBarLeft;
+    this.innerIndicatorExpand = indicatorExpand;
+    this.innerBarAlign = barAlign;
   }
 
   get indicatorBar(): (index: BaseInterface) => void {

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import { WrappedBuilder } from '@kit.ArkUI';
+
 import { TabBarItemInterface } from './TabBarItemInterface';
 import { TabInfo } from './TabInfo';
 
@@ -30,7 +34,7 @@ export class ComponentFactory {
    * 构造器
    */
   public constructor() {
-    this.tabsInfo = new Map();
+    this.tabsInfo = new Map<string, TabInfo>();
   }
 
   /**
@@ -65,7 +69,11 @@ export class ComponentFactory {
    * @param name - tab项标题
    * @returns: 输入参数
    */
-  public getParams(name: string): ESObject {
+  // public getParams(name: string): ESObject {
+  //   return this.tabsInfo.get(name)?.params;
+  // }
+
+  public getParams(name: string): ESObject | undefined {
     return this.tabsInfo.get(name)?.params;
   }
 

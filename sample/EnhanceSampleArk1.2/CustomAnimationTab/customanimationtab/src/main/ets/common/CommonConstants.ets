@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,6 +19,9 @@
  *
  * @since 1.0
  */
+
+import { VerticalAlign } from '@kit.ArkUI';
+
 export class CommonConstants {
   // 默认背景条伸缩比例
   public static readonly DEFAULT_INDICATOR_EXPAND = 1.5;

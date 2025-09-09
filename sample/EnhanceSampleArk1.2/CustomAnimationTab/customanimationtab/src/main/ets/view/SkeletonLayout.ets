@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,25 @@
  * limitations under the License.
  */
 
+import {
+  Component,
+  Reusable,
+  Row,
+  Column,
+  $r,
+  HorizontalAlign,
+  FlexAlign,
+  Color,
+  VerticalAlign,
+  Builder,
+  CommonMethod,
+  Length,
+  ColumnOptions,
+  Padding,
+  RowOptions,
+  Margin,
+} from '@kit.ArkUI';
+
 @Component
 @Reusable
 export struct SkeletonLayout {
@@ -24,7 +44,7 @@ export struct SkeletonLayout {
   build() {
     Row() {
       Column() {
-        Column({ space: 4 }) {
+        Column({ space: 4 } as ColumnOptions) {
           // 标题
           textArea($r('app.float.custom_animation_tab_ske_card_title_height'))
           // 内容
@@ -43,22 +63,22 @@ export struct SkeletonLayout {
             // 收藏量
             actionArea()
           }
-          .padding({ top: $r('app.float.custom_animation_tab_ske_md_padding_margin') })
+          .padding({ top: $r('app.float.custom_animation_tab_ske_md_padding_margin') } as Padding)
           .height($r('app.float.custom_animation_tab_ske_row_height'))
           .width($r('app.string.custom_animation_tab_one_hundred_percent'))
           .justifyContent(FlexAlign.SpaceBetween)
         } else {
-          Row({ space: 12 }) {
+          Row({ space: 12 } as RowOptions) {
             // 摄影作品标签
             Row()
               .width($r('app.float.custom_animation_tab_ske_lg_topic_width'))
-              .topicStyle()
+              .applyStyles(topicStyle)
             // 自然风光标签
             Row()
               .width($r('app.float.custom_animation_tab_ske_lg_topic_width'))
-              .topicStyle()
+              .applyStyles(topicStyle)
           }
-          .padding({ top: $r('app.float.custom_animation_tab_ske_md_padding_margin') })
+          .padding({ top: $r('app.float.custom_animation_tab_ske_md_padding_margin') } as Padding)
           .height($r('app.float.custom_animation_tab_ske_row_height'))
           .width($r('app.string.custom_animation_tab_one_hundred_percent'))
           .justifyContent(FlexAlign.Start)
@@ -72,7 +92,7 @@ export struct SkeletonLayout {
         .borderRadius($r('app.float.custom_animation_tab_ske_small_border_radius'))
         .width($r('app.float.custom_animation_tab_ske_image_width'))
         .height($r('app.float.custom_animation_tab_ske_image_height'))
-        .margin({ left: $r('app.float.custom_animation_tab_ske_md_padding_margin') })
+        .margin({ left: $r('app.float.custom_animation_tab_ske_md_padding_margin') } as Margin)
     }
     .padding($r('app.float.custom_animation_tab_ske_md_padding_margin'))
     .borderRadius($r('app.float.custom_animation_tab_ske_large_border_radius'))
@@ -92,11 +112,10 @@ function actionArea() {
     .backgroundColor($r('app.color.custom_animation_tab_skeleton_color_medium'))
 }
 
-@Styles
-function topicStyle() {
-  .height($r('app.float.custom_animation_tab_ske_topic_height'))
-  .backgroundColor($r('app.color.custom_animation_tab_skeleton_color_medium'))
-  .borderRadius($r('app.float.custom_animation_tab_ske_xs_border_radius'))
+function topicStyle(instance: CommonMethod): void {
+    instance.height($r('app.float.custom_animation_tab_ske_topic_height'));
+    instance.backgroundColor($r('app.color.custom_animation_tab_skeleton_color_medium'));
+    instance.borderRadius($r('app.float.custom_animation_tab_ske_xs_border_radius'));
 }
 
 @Builder

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,6 +18,10 @@
  * 动效属性，提供了必需的动效属性，后续添加属性可通过继承该类实现
  *
  */
+
+import { Observed } from '@kit.ArkUI';
+
+@Observed
 export class AnimationAttribute {
   // 背景条左边距，即：背景条左侧离tab组件左侧的距离
   public left: number = 0;

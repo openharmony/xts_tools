@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,17 +14,29 @@
  * limitations under the License.
  */
 
+import {
+  IDataSource,
+  DataChangeListener,
+  Observed,
+} from '@kit.ArkUI';
+
 const TAG = '[BasicDataSource]';
 
-class BasicDataSource<T> implements IDataSource {
+@Observed
+class BasicDataSource<T> implements IDataSource<T> {
+  // class BasicDataSource<T> implements IDataSource {
   private listeners: DataChangeListener[] = [];
 
   public totalCount(): number {
     return 0;
   }
 
-  public getData(index: number): T | undefined {
-    return undefined;
+  // public getData(index: number): T  {
+  //   return undefined;
+  // }
+
+  public getData(index: Double): T {
+    return this.dataArray[index as number];
   }
 
   registerDataChangeListener(listener: DataChangeListener): void {
@@ -79,8 +92,9 @@ export default class LazyDataSource<T> extends BasicDataSource<T> {
   }
 
   public getData(index: number): T {
-    return this.dataArray[index];
+    return this.dataArray[index as int];
   }
+
 
   public addData(index: number, data: T): void {
     this.dataArray.splice(index, 0, data);
@@ -97,9 +111,14 @@ export default class LazyDataSource<T> extends BasicDataSource<T> {
     this.notifyDataDelete(index);
   }
 
+  // public clear(): void {
+  //   this.dataArray.splice(0, this.dataArray?.length);
+  // }
+
   public clear(): void {
-    this.dataArray.splice(0, this.dataArray?.length);
+    this.dataArray.splice(0, this.dataArray.length);
   }
+
 
   public isEmpty(): boolean {
     return this.dataArray.length === 0;

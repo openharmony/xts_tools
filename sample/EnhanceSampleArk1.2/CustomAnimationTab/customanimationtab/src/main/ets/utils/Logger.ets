@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -30,19 +31,19 @@ class Logger {
   }
 
   debug(...args: string[]) {
-    hilog.debug(this.domain, this.prefix, this.format, args);
+    hilog.debug(this.domain as int, this.prefix, this.format, args);
   }
 
   info(...args: string[]) {
-    hilog.info(this.domain, this.prefix, this.format, args);
+    hilog.info(this.domain as int, this.prefix, this.format, args);
   }
 
   warn(...args: string[]) {
-    hilog.warn(this.domain, this.prefix, this.format, args);
+    hilog.warn(this.domain as int, this.prefix, this.format, args);
   }
 
   error(...args: string[]) {
-    hilog.error(this.domain, this.prefix, this.format, args);
+    hilog.error(this.domain as int, this.prefix, this.format, args);
   }
 }
 

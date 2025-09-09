@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,6 +18,9 @@
  * 自定义动效tab控制器，控制自定义动效Tab组件进行页签切换
  *
  */
+
+import { SwiperController } from '@kit.ArkUI';
+
 export class CustomAnimationTabController extends SwiperController {
   // 状态监听器
   private listener: (state: number) => void = (state: number) => {};
