@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023-2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,12 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 import {
   Entry,
   Component,
   State,
-  getUIContext,
+  // getUIContext,
   Flex,
   FlexAlign,
   ItemAlign,
@@ -32,25 +31,30 @@ import {
   TextOverflow,
   WordBreak,
   Button,
+  Padding,
+  Margin,
 } from '@kit.ArkUI';
 
 import promptAction from '@ohos.promptAction';
 import notificationManager from '@ohos.notificationManager';
-import Base from '@ohos.base';
+// import Base from '@ohos.base';
+import { BusinessError } from '@ohos.base'
 import image from '@ohos.multimedia.image';
 import common from '@ohos.app.ability.common';
 import * as EntryAbility from '../entryability/EntryAbility';
+import { UIContext } from '@ohos.arkui.UIContext';
 
 @Entry
 @Component
-struct DialogExample {
-  @State context: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
+//struct Publish {
+  struct DialogExample {
+  @State context: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
   @State callBackButton: string = '';
-  @State showPublishFlag: Boolean = false;
+  @State showPublishFlag: boolean = false;
   @State notificationPublishContent: string = '';
   @State pullNotification: string = 'pullNot';
 
-  async getPixmap() {
+ async getPixmap() {
     let resourceMgr = EntryAbility.entryAbility.resourceManager;
     try {
       let fileData: Uint8Array = await resourceMgr.getRawFileContent('notification.png');
@@ -66,12 +70,11 @@ struct DialogExample {
       return pixelMap;
     }
   }
-
   build() {
-    Flex() {
-      Flex({
-        justifyContent: FlexAlign.SpaceBetween, alignItems: ItemAlign.Center, direction: FlexDirection.Column
-      }) {
+Flex() {
+     Flex({
+       justifyContent: FlexAlign.SpaceBetween, alignItems: ItemAlign.Center, direction: FlexDirection.Column
+     }) {
         Column() {
           Text($r('app.string.notionContent'))
             .fontWeight('HarmonyHeiTi-Medium')
@@ -80,17 +83,17 @@ struct DialogExample {
             .textAlign(TextAlign.Start)
             .lineHeight(82)
             .fontWeight(500)
-            .padding({ bottom: 40, left: 24 })
+            .padding({ bottom: 40, left: 24 } as Padding)
             .width('100%')
           if (this.showPublishFlag === true) {
             Row() {
               Image($r('app.media.notification'))
                 .width(96)
                 .height(96)
-                .margin({ left: 24, right: 32 })
+                .margin({ left: 24, right: 32 } as Margin)
               Column() {
                 Text($r('app.string.notificationTitle'))
-                  .margin({ bottom: 8 })
+                  .margin({ bottom: 8 } as Margin)
                   .fontFamily('HarmonyHeiTi-Medium')
                   .fontSize(32)
                   .fontColor('#182431')
@@ -115,8 +118,8 @@ struct DialogExample {
             }
             .backgroundColor('#FFFFFF')
             .borderRadius(16)
-            .margin({ left: 12, right: 12 })
-            .padding({ top: 24, bottom: 24 })
+            .margin({ left: 12, right: 12 } as Margin)
+            .padding({ top: 24, bottom: 24 } as Padding)
           }
         }
 
@@ -126,13 +129,13 @@ struct DialogExample {
             .fontSize(32)
             .width('100%')
             .fontColor('#FFFFFF')
-            .padding({ top: 18, bottom: 18 })
+            .padding({ top: 18, bottom: 18 } as Padding)
             .fontWeight(500)
             .backgroundColor('#007DFF')
             .height(80)
-            .margin({ left: 24, right: 24, bottom: 24 })
-            .onClick(() => {
-              let onResponseCallback = (id: number, option: notificationManager.ButtonOptions) => {
+            .margin({ left: 24, right: 24, bottom: 24 } as Margin)
+            .onClick((): void => {
+              let onResponseCallback = (id: int, option: notificationManager.ButtonOptions) => {
                 this.showPublishFlag = true;
                 this.notificationPublishContent = 'pullNot：' + JSON.stringify(option.buttonName)
               }
@@ -140,12 +143,12 @@ struct DialogExample {
                 onResponse: onResponseCallback,
               };
               notificationManager.subscribeSystemLiveView(subscriber).then(() => {
-                getUIContext().getPromptAction().showToast({
+                this.getUIContext().getPromptAction().showToast({
                   message: $r('app.string.subscribeSuccess'),
                   duration: 2000,
                   bottom: 464,
                 })
-              }).catch((error: Base.BusinessError) => {
+              }).catch((error: Error) => {
               });
             })
           Button($r('app.string.publishNotification'))
@@ -154,16 +157,16 @@ struct DialogExample {
             .width('100%')
             .fontColor('#FFFFFF')
             .backgroundColor('#007DFF')
-            .padding({ top: 18, bottom: 18 })
+            .padding({ top: 18, bottom: 18 } as Padding)
             .fontWeight(500)
             .height(80)
-            .margin({ left: 24, right: 24, bottom: 48 })
-            .onClick(async () => {
+            .margin({ left: 24, right: 24, bottom: 48 } as Margin)
+            .onClick(async (): void => {
               // publish回调
-              let publishCallback = (err: Base.BusinessError): void => {
+              let publishCallback = (err: BusinessError<void>|null, data: undefined): void => {
                 if (err) {
                 } else {
-                  getUIContext().getPromptAction().showToast({
+                  this.getUIContext().getPromptAction().showToast({
                     message: $r('app.string.publishSuccess'),
                     duration: 2000,
                     bottom: 464
@@ -186,21 +189,22 @@ struct DialogExample {
                       names: [this.pullNotification],
                       icons: []
                     }
-                  }
+                  } as notificationManager.NotificationSystemLiveViewContent
                 }
               };
 
-              notificationManager.requestEnableNotification().then(() => {
+              notificationManager.requestEnableNotification(this.context).then(() => {
                 notificationManager.publish(notificationRequest, publishCallback);
               });
 
             })
         }
-        .padding({ left: 24, right: 24 })
-      }
-      .padding({ left: 24, right: 24 })
+        .padding({ left: 24, right: 24 } as Padding)
+     }
+      .padding({ left: 24, right: 24 } as Padding)
     }
     .width('100%')
     .backgroundColor('#F1F3F5')
+
   }
 }

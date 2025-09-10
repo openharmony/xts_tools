@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+
 import AbilityConstant from '@ohos.app.ability.AbilityConstant';
 import hilog from '@ohos.hilog';
 import UIAbility from '@ohos.app.ability.UIAbility';
@@ -21,7 +22,8 @@ import Want from '@ohos.app.ability.Want';
 import window from '@ohos.window';
 import type common from '@ohos.app.ability.common';
 
-export let entryAbility: common.UIAbilityContext = undefined;
+// export let entryAbility: common.UIAbilityContext = undefined;
+export let entryAbility: common.UIAbilityContext;
 
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam) {
@@ -38,7 +40,7 @@ export default class EntryAbility extends UIAbility {
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
 
     windowStage.loadContent('pages/Publish', (err, data) => {
-      if (err.code) {
+      if (err && err.code) {
         hilog.error(0x0000, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
         return;
       }

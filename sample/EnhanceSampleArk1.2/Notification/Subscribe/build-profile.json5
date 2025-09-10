@@ -20,6 +20,7 @@
       {
         "name": "default",
         "signingConfig": "default",
+        "arkTSVersion": "1.2",
         "targetSdkVersion": "20",
         "compileSdkVersion": "20",
         "compatibleSdkVersion": "20",
@@ -30,6 +31,14 @@
             "useNormalizedOHMUrl": true
           }
         }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
       }
     ]
   },
