@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2023-2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2023-2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,12 +14,14 @@
  * limitations under the License.
  */
 
+import { AppStorage } from '@kit.ArkUI';
+
 
 import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { window } from '@kit.ArkUI';
 
-const DOMAIN = 0xF811;
+const DOMAIN: int = 0xF811;
 const BUNDLE = 'ZipLib_';
 const TAG: string = '[EntryAbility]'
 

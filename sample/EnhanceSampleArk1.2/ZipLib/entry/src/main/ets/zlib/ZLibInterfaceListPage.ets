@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2024-2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the 'License');
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,6 +14,26 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  AppStorage,
+  Context,
+  getUIContext,
+  $r,
+  Column,
+  Row,
+  Image,
+  ImageFit,
+  Text,
+  FontWeight,
+  TextAlign,
+  FlexAlign,
+  HorizontalAlign,
+  Button,
+  ButtonType,
+} from '@kit.ArkUI';
+
 import { fileIo } from '@kit.CoreFileKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { promptAction, router } from '@kit.ArkUI';
@@ -21,8 +42,8 @@ import { zlib } from '@kit.BasicServicesKit';
 const DOMAIN = 0xF811;
 const BUNDLE = 'ZipLib_';
 const TAG: string = '[ZLibInterfaceListPage]';
-const SLEEP_TIME = 3000;
-const BUFFER_SIZE = 13;
+const SLEEP_TIME: int = 3000;
+const BUFFER_SIZE: int = 13;
 const OFFSET = 0;
 const STRING_DATA = 'hello, hello!';
 
@@ -64,13 +85,13 @@ struct ZLibInterfaceListPage {
           fileIo.openSync(pathDir + '/zlibDeflateFile.txt', fileIo.OpenMode.READ_WRITE | fileIo.OpenMode.CREATE);
         fileIo.writeSync(zlibDeflateFile.fd, arrayBufferOut);
         fileIo.closeSync(zlibDeflateFile);
-        promptAction.showToast({
+        getUIContext().getPromptAction.showToast({
           message: $r('app.string.zlib_compress_success', STRING_DATA),
           bottom: '11%'
         });
       })
     } catch (errData) {
-      promptAction.showToast({
+      getUIContext().getPromptAction.showToast({
         message: $r('app.string.zlib_compress_failure'),
         bottom: '11%'
       });
@@ -93,7 +114,7 @@ struct ZLibInterfaceListPage {
       }, zlib.CompressFlushMode.NO_FLUSH).then((data) => {
         let array = new Uint8Array(inflateArrayBufferOut);
         let dataString = '';
-        for (let i = 0; i < array.length; i++) {
+        for (let i: int = 0; i < array.length; i++) {
           dataString += String.fromCharCode(array[i]);
         }
         // 将解压后的数据写入zlibInflateFile.txt文件中
@@ -103,14 +124,14 @@ struct ZLibInterfaceListPage {
         fileIo.closeSync(zlibInflateFile);
         // 验证压缩与解压的数据是否一致
         if (STRING_DATA == dataString) {
-          promptAction.showToast({
+          getUIContext().getPromptAction.showToast({
             message: $r('app.string.zlib_uncompress_success', dataString),
             bottom: '11%'
           });
         }
       })
     } catch (errData) {
-      promptAction.showToast({
+      getUIContext().getPromptAction.showToast({
         message: $r('app.string.zlib_uncompress_failure'),
         bottom: '11%'
       });
@@ -135,19 +156,19 @@ struct ZLibInterfaceListPage {
     let str = STRING_DATA;
     let arrayBufferIn = new ArrayBuffer(BUFFER_SIZE);
     let byteArray = new Uint8Array(arrayBufferIn);
-    for (let i = 0, j = str.length; i < j; i++) {
+    for (let i: int = 0, j = str.length; i < j; i++) {
       byteArray[i] = str.charCodeAt(i);
     }
     try {
       // 将bufferWithData压缩并写入文件
       await gzip.gzfwrite(arrayBufferIn, 8, 2).then((data) => {
-        promptAction.showToast({
+        getUIContext().getPromptAction.showToast({
           message: $r('app.string.gzip_compress_success', str),
           bottom: '11%'
         });
       })
     } catch (errData) {
-      promptAction.showToast({
+      getUIContext().getPromptAction.showToast({
         message: $r('app.string.gzip_compress_failure'),
         bottom: '11%'
       });
@@ -164,11 +185,11 @@ struct ZLibInterfaceListPage {
       await gzip.gzfread(bufferWithDataOut, 8, 2).then((data) => {
         let array = new Uint8Array(bufferWithDataOut);
         let dataString = '';
-        for (let i = 0; i < array.length; i++) {
+        for (let i: int = 0; i < array.length; i++) {
           dataString += String.fromCharCode(array[i]);
         }
         if (dataString == str) {
-          promptAction.showToast({
+          getUIContext().getPromptAction.showToast({
             message: $r('app.string.gzip_uncompress_success', dataString),
             bottom: '11%'
           });
@@ -179,7 +200,7 @@ struct ZLibInterfaceListPage {
         }
       })
     } catch (errData) {
-      promptAction.showToast({
+      getUIContext().getPromptAction.showToast({
         message: $r('app.string.gzip_uncompress_failure'),
         bottom: '11%'
       });
@@ -196,7 +217,7 @@ struct ZLibInterfaceListPage {
             .size({ height: '71%' })
             .objectFit(ImageFit.Contain)
             .onClick(() => {
-              router.pushUrl({
+              getUIContext().getRouter.pushUrl({
                 url: 'pages/Index'
               });
             })
@@ -221,7 +242,7 @@ struct ZLibInterfaceListPage {
         }
         .id('compressFiles')
         .onClick(() => {
-          router.pushUrl({
+          getUIContext().getRouter.pushUrl({
             url: 'zlib/CompressFilesPage'
           });
         })
