@@ -19,33 +19,35 @@ import formInfo from '@ohos.app.form.formInfo'
 
 export default class FormAbility extends FormExtension {
   onCreate(want) {
+    // Called to return a FormBindingData object.
     // 创建卡片
     let formData = {}
     return formBindingData.createFormBindingData(formData)
   }
 
   onCastToNormal(formId) {
-    // 通知表单提供者临时表单已成功转换为常规表单
+    // Called when the form provider is notified that a temporary form is successfully
+    // converted to a normal form.
   }
 
   onUpdate(formId) {
-    // 表单提供者更新指定表单
+    // Called to notify the form provider to update a specified form.
   }
 
   onVisibilityChange(newStatus) {
-    // 通知表单提供者从系统接收单事件
+    // Called when the form provider receives form events from the system.
   }
 
   onEvent(formId, message) {
-    // 当表单提供者定义的特定消息事件被触发时调用
+    // Called when a specified message event defined by the form provider is triggered.
   }
 
   onAcquireFormState(want) {
-    // 返回{@link FormState} 对象
+    // Called to return a {@link FormState} object.
     return formInfo.FormState.READY
   }
 
   onDestroy(formId) {
-    // 用于通知表单提供者指定表单已被销毁
+    // Called to notify the form provider that a specified form has been destroyed.
   }
 }

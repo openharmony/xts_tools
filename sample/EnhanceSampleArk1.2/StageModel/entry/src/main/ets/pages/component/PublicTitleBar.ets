@@ -20,8 +20,9 @@ import {
   Row,
   Image,
   $r,
-  getUIContext,
   Text,
+  Margin,
+  Padding
 } from '@kit.ArkUI';
 
 import router from '@ohos.router'
@@ -35,16 +36,16 @@ export struct PublicTitleBar {
       Image($r('app.media.back'))
         .width(32)
         .height(32)
-        .onClick(() => {
-          getUIContext().getRouter.back()
+        .onClick((): void => {
+          this.getUIContext().getRouter().back();
         })
 
       Text(this.textName)
         .fontSize(24)
-        .margin({ left: 80 })
+        .margin({ left: 80 } as Margin)
     }
     .height('8%')
     .width('100%')
-    .padding({ left: 15, right: 15 })
+    .padding({ left: 15, right: 15 } as Padding)
   }
 }

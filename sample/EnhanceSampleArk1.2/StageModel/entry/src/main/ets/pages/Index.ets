@@ -25,6 +25,7 @@ import {
   ButtonAttribute,
   ClickEvent,
   Alignment,
+  Margin
 } from '@kit.ArkUI';
 
 import router from '@ohos.router'
@@ -40,49 +41,49 @@ struct Index {
         Column() {
           Button($r('app.string.data_share_ext_ability_page'))
             .fancy(() => {
-              router.push({
+              this.getUIContext().getRouter().pushUrl({
                 url: 'pages/DataShareExtAbilityPage'
               })
             })
 
           Button($r('app.string.ability_context_page'))
             .fancy(() => {
-              router.push({
+              this.getUIContext().getRouter().pushUrl({
                 url: 'pages/AbilityContextPage'
               })
             })
 
           Button($r('app.string.service_extension_contextPage'))
             .fancy(() => {
-              router.push({
+              this.getUIContext().getRouter().pushUrl({
                 url: 'pages/ServiceExtContextPage'
               })
             })
 
           Button($r('app.string.bundle_page'))
             .fancy(() => {
-              router.push({
+              this.getUIContext().getRouter().pushUrl({
                 url: 'pages/BundlePage'
               })
             })
 
           Button($r('app.string.ability_access_ctrl_page'))
             .fancy(() => {
-              router.push({
+              this.getUIContext().getRouter().pushUrl({
                 url: 'pages/AbilityAccessCtrlPage'
               })
             })
 
           Button($r('app.string.data_share_helper_page'))
             .fancy(() => {
-              router.push({
+              this.getUIContext().getRouter().pushUrl({
                 url: 'pages/DataShareHelperPage'
               })
             })
 
           Button($r('app.string.window_page'))
             .fancy(() => {
-              router.push({
+              this.getUIContext().getRouter().pushUrl({
                 url: 'pages/WindowPage'
               })
             })
@@ -100,7 +101,7 @@ function fancy(this: ButtonAttribute, click: (event?: ClickEvent) => void): this
     this.width('60%');
     this.height(40);
     this.align(Alignment.Center);
-    this.margin({ top: 30 });
+    this.margin({ top: 30 } as Margin);
     this.onClick(click);
     return this;
 }

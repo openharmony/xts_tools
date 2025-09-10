@@ -21,12 +21,13 @@ import {
   $r,
   Scroll,
   Button,
-  getUIContext,
   ButtonAttribute,
   ClickEvent,
   Alignment,
+  Margin,
+  Padding
 } from '@kit.ArkUI';
-
+import  common  from '@ohos.app.ability.common'
 import { PublicTitleBar } from './component/PublicTitleBar'
 import ServiceExContextController from '../feature/ServiceExtContextController'
 
@@ -34,7 +35,19 @@ import ServiceExContextController from '../feature/ServiceExtContextController'
 @Component
 struct ServiceExContextPage {
   private serviceExContext?: ServiceExContextController = undefined;
-
+  aboutToAppear(){
+    try {
+      const uiContext = this.getUIContext();
+      if (uiContext) {
+        const context = uiContext.getHostContext() as common.UIAbilityContext;
+        this.serviceExContext = new ServiceExContextController(context, uiContext)
+      } else {
+        console.error('UIContext is undefined')
+      }
+    } catch (err) {
+      console.error('Failed to initialize controller:', err)
+    }
+  }
   build() {
     Column() {
       PublicTitleBar({ textName: $r("app.string.service_extension_contextPage") })
@@ -89,20 +102,15 @@ struct ServiceExContextPage {
     .width('100%')
     .height('100%')
     .backgroundColor('#F1F3F5')
-    .padding({ left: '3%', right: '3%' })
-  }
-
-  aboutToAppear() {
-    let context = getUIContext().getHostContext(this);
-    this.serviceExContext = new ServiceExContextController(context);
+    .padding({ left: '3%', right: '3%' } as Padding)
   }
 }
 
 function fancy(this: ButtonAttribute, click: (event?: ClickEvent) => void): this {
-    this.width('60%');
-    this.height(40);
-    this.align(Alignment.Center);
-    this.margin({ top: 30 });
-    this.onClick(click);
-    return this;
+  this.width('60%');
+  this.height(40);
+  this.align(Alignment.Center);
+  this.margin({ top: 30 } as Margin);
+  this.onClick(click);
+  return this;
 }

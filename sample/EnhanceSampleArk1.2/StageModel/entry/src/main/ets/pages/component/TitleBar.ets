@@ -20,9 +20,10 @@ import {
   Row,
   Image,
   $r,
-  getUIContext,
   Text,
   FlexAlign,
+  Margin,
+  Padding
 } from '@kit.ArkUI';
 
 import router from '@ohos.router'
@@ -34,16 +35,15 @@ import { BookModel, getBooksFromResultSet } from '../../feature/BookModel'
 export struct TitleBar {
   // @Link books: Array<BookModel>;
   @Link books: BookModel[];
-
   build() {
     Row() {
       Image($r('app.media.back'))
         .id('btnBack')
         .width(32)
         .height(32)
-        .margin({ right: 40 })
-        .onClick(() => {
-          getUIContext().getRouter.back()
+        .margin({ right: 40 } as Margin)
+        .onClick((): void => {
+          this.getUIContext().getRouter().back();
         })
 
       Text($r('app.string.title'))
@@ -53,19 +53,40 @@ export struct TitleBar {
         .id('btnAdd')
         .width(40)
         .height(40)
-        .margin({ left: 30 })
-        .onClick(() => {
+        .margin({ left: 30 } as Margin)
+        .onClick((): void => {
           this.add()
         })
     }
     .height('8%')
     .width('100%')
-    .padding({ left: 15, right: 15 })
+    .padding({ left: 15, right: 15 } as Padding)
     .justifyContent(FlexAlign.Center)
   }
 
   async add() {
-    let data: Promise<DataShareResultSet> = await DataShareHelper.insert();
-    this.books = getBooksFromResultSet(data);
+    try {
+      // 执行插入操作
+      await DataShareHelper.insert() as String;
+      // 插入成功后重新加载所有数据
+      await this.refreshBooks();
+    } catch (error) {
+      console.error('Add book failed:', error);
+    }
+  }
+
+  // 刷新数据方法
+  async refreshBooks() {
+    let context = this.getUIContext()?.getHostContext();
+    if (context) {
+      try{
+        await DataShareHelper.getDataShareHelper(context);
+      }catch(err){
+      }
+      let resultSet = await DataShareHelper.queryAll();
+      if (resultSet) {
+        this.books = getBooksFromResultSet(resultSet as DataShareResultSet);
+      }
+    }
   }
 }
