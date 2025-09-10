@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -31,15 +31,16 @@ import {
   ImageFit,
   Button,
   ButtonType,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 import { DeviceDataModel } from '../model/DeviceDataModel';
 
 @CustomDialog
 export struct DeviceDialog {
-  controller: CustomDialogController;
-  private deviceList: DeviceDataModel[] = [];
-  private selectedIndex: int = 0;
+  controller: CustomDialogController | undefined = undefined;
+  private deviceList: Array<DeviceDataModel> = new Array<DeviceDataModel>();
+  private selectedIndex: number = 0;
   private handleSelectDevice: (selectedIndex: number) => void = (selectedIndex: number) => {};
 
   build() {
@@ -51,7 +52,7 @@ export struct DeviceDialog {
         .fontColor(Color.Black)
         .fontWeight(FontWeight.Bold)
       List() {
-        ForEach(this.deviceList, (item: DeviceDataModel, index: number) => {
+        ForEach(this.deviceList!, (item: DeviceDataModel, index: number) => {
           ListItem() {
             Row() {
               Text(item.deviceName)
@@ -69,7 +70,7 @@ export struct DeviceDialog {
               }
             }
             .height(55)
-            .onClick(() => {
+            .onClick((event: ClickEvent) => {
               this.handleSelectDevice(index);
             })
           }
@@ -77,7 +78,7 @@ export struct DeviceDialog {
       }
       .layoutWeight(1)
 
-      Button() {
+      Button('') {
         Text($r('app.string.cancel'))
           .fontColor('#0D9FFB')
           .width('90%')
@@ -87,8 +88,8 @@ export struct DeviceDialog {
       .id('cancel')
       .type(ButtonType.Capsule)
       .backgroundColor(Color.White)
-      .onClick(() => {
-        this.controller.close();
+      .onClick((event: ClickEvent) => {
+        this.controller?.close();
       })
     }
     .backgroundColor(Color.White)

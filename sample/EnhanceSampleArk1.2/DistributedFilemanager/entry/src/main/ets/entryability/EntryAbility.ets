@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023-2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -20,31 +20,45 @@ import DataObject from '../model/DataObject';
 import UIAbility from '@ohos.app.ability.UIAbility';
 import window from '@ohos.window';
 import Want from '@ohos.app.ability.Want';
-import { Logger } from '@ohos/feature-file-manager';
+import { Logger } from 'library';
 
-let sessionId : string;
+let sessionId : string = '';
+const TAG: string = 'EntryAbility';
+const DOMAIN = 0x0000;
 
+interface SesId{
+  distributedSessionId: string;
+
+}
 export default class EntryAbility extends UIAbility {
-  async onCreate(want: Want, launchParam: AbilityConstant.LaunchParam) {
-    Logger.info('0x0000', 'testTag', '%{public}s', 'Ability onCreate');
-    //user grant
-    let atManager: abilityAccessCtrl.AtManager = abilityAccessCtrl.createAtManager();
-    try {
-      let requestPermissionsResult = await atManager.requestPermissionsFromUser(this.context,
-        ['ohos.permission.DISTRIBUTED_DATASYNC']);
-      Logger.info(`requestPermissionsResult: ${JSON.stringify(requestPermissionsResult)}`);
-    } catch (err) {
-      Logger.error(`catch err: ${JSON.stringify(err)}`);
-    }
+  onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
+    (async ()=>{
+      Logger.info('0x0000', 'testTag', '%{public}s', 'Ability onCreate');
+      //user grant
+      let atManager: abilityAccessCtrl.AtManager = abilityAccessCtrl.createAtManager();
+      try {
+        let requestPermissionsResult = await atManager.requestPermissionsFromUser(this.context,
+          ['ohos.permission.DISTRIBUTED_DATASYNC']);
+        Logger.info(`requestPermissionsResult: ${JSON.stringify(requestPermissionsResult)}`);
+      } catch (err) {
+        Logger.error(`catch err: ${JSON.stringify(err)}`);
+      }
+      let sesId = want!.parameters! as SesId
+      // 判断是否被拉起
+      if (sesId && sesId.distributedSessionId) {
+        sessionId = sesId.distributedSessionId;
+        DataObject.createDataObject(this.context, sessionId);
+      }else {
+        DataObject.callRemote(this.context);
+        DataObject.createDataObject(this.context);
+      }
+      // const params = want?.parameters as Record<string, Object>
+      // if(params &&params[ 'distributedSessionId' ]) {
+      //   let sessionId: string = params['distributedSessionId' ] as string
+      //   Data0bject.createData0bject(this.context, sessionId)
+      // }
 
-    // 判断是否被拉起
-    if (want.parameters && want.parameters.distributedSessionId) {
-      sessionId = want.parameters.distributedSessionId as string;
-      DataObject.createDataObject(this.context, sessionId);
-    } else {
-      DataObject.callRemote(this.context);
-      DataObject.createDataObject(this.context);
-    }
+    })();
   }
 
   onDestroy() {
@@ -56,11 +70,11 @@ export default class EntryAbility extends UIAbility {
     Logger.info('0x0000', 'testTag', '%{public}s', 'Ability onWindowStageCreate');
 
     windowStage.loadContent('pages/Index', (err, data) => {
-      if (err.code) {
-        Logger.error('0x0000', 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
+      if (err?.code) {
+        Logger.error('0x0000', 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err));
         return;
       }
-      Logger.info('0x0000', 'testTag', 'Succeeded in loading the content. Data: %{public}s', JSON.stringify(data) ?? '');
+      Logger.info('0x0000', 'testTag', 'Succeeded in loading the content. Data: %{public}s', JSON.stringify(data));
     });
   }
 

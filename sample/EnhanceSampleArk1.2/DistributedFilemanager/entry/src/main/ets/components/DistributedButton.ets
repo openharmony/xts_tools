@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -19,25 +19,38 @@ import {
   CustomDialogController,
   State,
   Link,
-  getUIContext,
   Row,
   Image,
   $r,
   ImageFit,
+  Button,
+  ClickEvent,
+  Padding
 } from '@kit.ArkUI';
 
 import { DeviceDialog } from './Dialog';
 import { DeviceDataModel } from '../model/DeviceDataModel';
-import { Logger } from '@ohos/feature-file-manager';
+// import { Logger } from 'library';
+import Logger from '../../../../../Library/src/main/ets/utils/Logger';
 import { RemoteDeviceModel } from '../model/RemoteDeviceModel';
 import common from '@ohos.app.ability.common';
+import {Context, UIContext} from '@ohos.arkui.UIContext';
+import deviceManager from '@ohos.distributedDeviceManager';
+import { RecordData } from '@ohos.base';
 
 const TAG: string = '[DistributedButton]';
 const DEVICE_DISCOVERY_RANGE: int = 1000;
 
+class AbilityParameter {
+  public isStage: string;
+  constructor(isStage: string){
+    this.isStage = isStage;
+  }
+}
+
 @Component
 export struct DistributedButton {
-  private selectedIndex: int = 0;
+  private selectedIndex: number = 0;
   private remoteDeviceModel: RemoteDeviceModel | null = null;
   private dialogController: CustomDialogController | null = null;
   @State deviceList: DeviceDataModel[] = [];
@@ -53,18 +66,20 @@ export struct DistributedButton {
   selectDevice() {
     Logger.info(TAG, 'start ability ......');
     this.isDistributed = true;
-    if (this.remoteDeviceModel === null || this.remoteDeviceModel.discoverList.length <= 0) {
+    if (this.remoteDeviceModel === null || (this.remoteDeviceModel?.discoverList?.length ?? 0) <= 0){
       Logger.info(TAG, `continue unauthed device:${JSON.stringify(this.deviceList)}`);
-      this.startAbility(this.deviceList[this.selectedIndex].networkId);
+      this.startAbility(this.deviceList[this.selectedIndex as int].networkId!);
       this.clearSelectState();
       return;
     }
     Logger.info(TAG, 'start ability1, needAuth：');
-    this.remoteDeviceModel.authenticateDevice(this.deviceList[this.selectedIndex], () => {
+
+    this.remoteDeviceModel?.authenticateDevice(this.deviceList[this.selectedIndex as int],
+      () => {
       Logger.info(TAG, 'auth and online finished');
       for (let i: int = 0; i < this.remoteDeviceModel!.deviceList.length; i++) {
         if (this.remoteDeviceModel!.deviceList[i].deviceName ===
-        this.deviceList[this.selectedIndex].deviceName) {
+        this.deviceList[this.selectedIndex as int].deviceName) {
           this.startAbility(this.remoteDeviceModel!.deviceList[i].networkId as string);
         }
       }
@@ -73,7 +88,7 @@ export struct DistributedButton {
     this.clearSelectState();
   }
 
-  handleSelectDevice = (index: number) => {
+  handleSelectDevice (index: number) {
     Logger.info(TAG, 'selectedIndexChange');
     this.selectedIndex = index;
     if (this.selectedIndex === 0) {
@@ -89,14 +104,16 @@ export struct DistributedButton {
 
   startAbility(deviceId: string) {
     Logger.info(TAG, `startAbility deviceId:${deviceId}`);
-    let context = getUIContext().getHostContext(this) as common.UIAbilityContext;
+
+    let context = UIContext.getFocusedUIContext()?.getHostContext() as common.UIAbilityContext;
+    let wantParameters :Record<string, RecordData>={
+      'isStage': 'Stage'
+    }
     context.startAbility({
       bundleName: 'com.samples.distributedfilemanager',
       abilityName: 'EntryAbility',
       deviceId: deviceId,
-      parameters: {
-        isStage: 'Stage'
-      }
+      parameters: wantParameters
     }).then((data) => {
       Logger.info(TAG, `start ability finished:${JSON.stringify(data)}`);
     });
@@ -110,7 +127,7 @@ export struct DistributedButton {
       this.deviceList.push(new DeviceDataModel('0', 'Local device', '0', false, '', DEVICE_DISCOVERY_RANGE));
       let deviceTempList = this.remoteDeviceModel!.discoverList.length > 0 ? this.remoteDeviceModel!.discoverList :
       this.remoteDeviceModel!.deviceList;
-      for (let i: int = 0; i < deviceTempList.length; i++) {
+      for (let i = 0; i < deviceTempList.length; i++) {
         Logger.info(TAG, `device ${i}/${deviceTempList.length} deviceId=${deviceTempList[i].deviceId}
         deviceName=${deviceTempList[i].deviceName} deviceType=${deviceTempList[i].deviceType}`);
         this.deviceList.push(new DeviceDataModel(deviceTempList[i].deviceId, deviceTempList[i].deviceName,
@@ -127,10 +144,10 @@ export struct DistributedButton {
           }),
           autoCancel: true
         });
-        this.dialogController.open();
+        this.dialogController!.open();
       }
     })
-    if (this.dialogController === null) {
+    if (!this.dialogController) {
       this.dialogController = new CustomDialogController({
         builder: DeviceDialog({
           deviceList: this.deviceList,
@@ -139,7 +156,7 @@ export struct DistributedButton {
         }),
         autoCancel: true
       });
-      this.dialogController.open();
+      this.dialogController?.open();
     }
   }
 
@@ -149,12 +166,12 @@ export struct DistributedButton {
         .width(24)
         .height(24)
         .objectFit(ImageFit.Contain)
-        .onClick(() => {
+        .onClick((event:ClickEvent) => {
           Logger.info(TAG, 'showDialog start');
           this.showDialog();
         })
     }
     .constraintSize({ minHeight: 70 })
-    .padding({ left: 15, right: 15 })
+    .padding({ left: 15, right: 15 } as Padding)
   }
 }

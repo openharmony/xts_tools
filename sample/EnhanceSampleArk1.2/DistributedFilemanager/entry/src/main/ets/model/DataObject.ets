@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023-2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -21,13 +21,27 @@ import fs from '@ohos.file.fs';
 import Want from '@ohos.app.ability.Want';
 import { BusinessError } from '@ohos.base';
 import { Caller } from '@ohos.app.ability.UIAbility';
-import { Logger } from '@ohos/feature-file-manager';
+import { Logger } from 'library';
+
+class SourceObject {
+  public from: string;
+  public localFileUriList: string[];
+  public disFileUriList: string[];
+  public disFileList: string[];
+
+  constructor(from: string, localFileUriList: string[], disFileUriList: string[], disFileList: string[]) {
+    this.from = from;
+    this.localFileUriList = localFileUriList;
+    this.disFileUriList = disFileUriList;
+    this.disFileList = disFileList;
+  }
+}
 
 const TAG: string = 'DataObjectModel';
-let caller: Caller;
+let caller: Caller | null = null;
 
-class DataObject {
-  public distributedObject: distributedDataObject.DataObject | undefined = undefined;
+export class DataObject {
+  public distributedObject: distributedDataObject.DataObject;
   private sessionId: string = '';
 
   createDataObject(context: common.UIAbilityContext, sessionId?: string) {
@@ -37,25 +51,20 @@ class DataObject {
     }
 
     // 创建分布式数据对象实例
-    this.distributedObject = distributedDataObject.create(context, {
-      from: '',
-      localFileUriList: [],
-      disFileUriList: [],
-      disFileList: []
-    });
-
+    let source: SourceObject = new SourceObject('', [], [], []);
+    this.distributedObject = distributedDataObject.create(context, source);
     // 设置数据变更监听
-    this.distributedObject.on('change', (sessionId: string, fields: Array<string>) => {
+    this.distributedObject?.on('change', (sessionId: string, fields: Array<string>) => {
       Logger.info(TAG, `change, sessionId: ${sessionId}, fields: ${JSON.stringify(fields)}`);
-      fields.forEach((field) => {
-        Logger.info(TAG, `${field}: ${this.distributedObject![field]}`);
-      });
+      for (let index: int = 0; index < fields.length; index++) {
+        console.info("changed !" + fields[index]);
+      }
     });
     // 设置同步sessionId加入组网
     if (sessionId) {
       this.sessionId = sessionId;
     }
-    this.distributedObject.setSessionId(this.sessionId);
+    this.distributedObject?.setSessionId(this.sessionId);
   }
 
   // 调用端调用startAbilityByCall接口拉起对端Ability
@@ -100,33 +109,34 @@ class DataObject {
     }
   }
 
-  update(from: string, localFileUriList: string[], disFileUriList: string[], disFileList: string[]) {
+  update(from: string, localFileUriList: (string |undefined)[], disFileUriList: (string |undefined)[],
+    disFileList: (string |undefined)[]) {
     Logger.info(TAG, `doUpdate,${from},${localFileUriList},${disFileUriList},${disFileList}`)
-    this.distributedObject!['from'] = from;
-    this.distributedObject!['localFileUriList'] = localFileUriList;
-    this.distributedObject!['disFileUriList'] = disFileUriList;
-    this.distributedObject!['disFileList'] = disFileList;
+    this.distributedObject!.from = from;
+    this.distributedObject!.localFileUriList = localFileUriList;
+    this.distributedObject!.disFileUriList = disFileUriList;
+    this.distributedObject!.disFileList = disFileList;
   }
 
   clear() {
-    try{
-      let disFileArray: Array<string> = this.distributedObject!["disFileList"];
-      disFileArray.forEach( item  => {
+    try {
+      let disFileArray: Array<string> = this.distributedObject!.disFileList;
+      disFileArray.forEach(item => {
         //判断uri前缀是否有“file+”，如果有则为文件
-        if(item.includes("file+")){
+        if (item.includes("file+")) {
           item = item.substring(5, item.length);
           fs.unlinkSync(item);
         } else {
           fs.rmdirSync(item);
         }
       })
-    } catch (err) {
+    } catch (err: BusinessError) {
       Logger.error(TAG, `delete failed, code is ${err.code}, message is ${err.message}`);
     }
-    this.distributedObject!['from'] = '';
-    this.distributedObject!['localFileUriList'] = [];
-    this.distributedObject!['disFileUriList'] = [];
-    this.distributedObject!['disFileList'] = [];
+    this.distributedObject!.from = '';
+    this.distributedObject!.localFileUriList = [];
+    this.distributedObject!.disFileUriList = [];
+    this.distributedObject!.disFileList = [];
   }
 }
 
@@ -136,11 +146,11 @@ function getRemoteDeviceId() {
   try {
     let deviceManager = distributedDeviceManager.createDeviceManager('com.samples.distributedfilemanager');
     let devices = deviceManager.getAvailableDeviceListSync();
-    for (let device of devices) {
-      if (device.networkId) {
+    devices.forEach(device => {
+      if (device?.networkId) {
         deviceId = device.networkId;
       }
-    }
+    });
   } catch (e) {
     let err = e as BusinessError;
     Logger.error(TAG, `get remote deviceId error, error code: ${err.code}, error message: ${err.message}`);
