@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,6 +23,12 @@
 // NAV_SELECTED_COLOR 导航选中字体颜色
 // MAIN_BACKGROUND_COLOR 主体背景色
 // 自定义主题
+
+import {
+  $r,
+  Color,
+} from '@kit.ArkUI';
+
 export class CustomTheme {
   static DEFAULT_COLOR = $r('app.color.white')
   static BACKGROUND_COLOR = $r('app.color.custom_main_color')

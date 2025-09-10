@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,19 @@
  * limitations under the License.
  */
 
+import { StoragePropRef } from '@kit.ArkUI';
+
+import {
+  Component,
+  StorageLink,
+  State,
+  Swiper,
+  ForEach,
+  Image,
+  ImageFit,
+  $r,
+} from '@kit.ArkUI';
+
 import { SwiperModel } from '../../models/HomeModel'
 import { indexData } from '../../mocks/HomeData'
 import { INDEX_DATA } from '../../mocks/ProductsData'
@@ -21,7 +35,7 @@ import { INDEX_DATA } from '../../mocks/ProductsData'
 export struct SwiperComponent {
   @StorageLink('theme') theme: number = -1 // 初始主题theme值
   @State swiperData: Array<SwiperModel> = indexData
-  @StorageProp('curBp') curBp: string = 'md'
+  @StoragePropRef('curBp') curBp: string = 'md'
 
   build() {
     Swiper() {

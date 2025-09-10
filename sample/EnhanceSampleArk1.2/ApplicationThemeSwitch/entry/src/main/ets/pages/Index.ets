@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,30 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  TabsController,
+  StorageLink,
+  State,
+  Builder,
+  Flex,
+  FlexAlign,
+  FlexDirection,
+  Column,
+  ItemAlign,
+  Image,
+  ImageFit,
+  Text,
+  FontWeight,
+  Color,
+  AppStorage,
+  Tabs,
+  BarPosition,
+  TabContent,
+  BarMode,
+} from '@kit.ArkUI';
+
 import display from '@ohos.display'
 import mediaQuery from '@ohos.mediaquery'
 import { MainPage } from './components/MainPage'
@@ -21,13 +46,13 @@ import { getTabTitleData } from '../mocks/HomeData'
 import { getTheme } from '../utils/ThemeGet'
 
 const SCREEN_RATIO: number = 0.5 // 设备的屏幕宽高比
-const TABLE_INDEX_HOME: number = 0 // tabBar切换的索引
-const TABLE_INDEX_PRODUCT: number = 1 // tabBar切换的索引
-const TABLE_INDEX_CART: number = 2 // tabBar切换的索引
-const TABLE_INDEX_ME: number = 3 // tabBar切换的索引
+const TABLE_INDEX_HOME: int = 0 // tabBar切换的索引
+const TABLE_INDEX_PRODUCT: int = 1 // tabBar切换的索引
+const TABLE_INDEX_CART: int = 2 // tabBar切换的索引
+const TABLE_INDEX_ME: int = 3 // tabBar切换的索引
 const RATIO: number = 1.3 // 适配到设备上放大的倍数
 const OPACITY: number = 0.6 // 默认的透明度
-const OPACITY_MATCH: number = 1 // 索引匹配时的透明度
+const OPACITY_MATCH: int = 1 // 索引匹配时的透明度
 
 @Entry
 @Component
@@ -51,7 +76,7 @@ struct NavigationHomePage {
   private lgListener: any
   @StorageLink('shoppingCartGoodsList') shoppingCartGoodsList: { data: { id: number } }[] = []
 
-  @Builder TabBarBuilder(index: number) {
+  @Builder TabBarBuilder(index: int) {
     Flex({ justifyContent: FlexAlign.SpaceBetween }) {
       Flex({ direction: FlexDirection.Column, justifyContent: FlexAlign.Center, alignItems: ItemAlign.Center }) {
         Image(this.tabsIndex === this.tabTitleData[index].id ? getTabTitleData(this.theme)[index].selectedUri :
@@ -85,7 +110,7 @@ struct NavigationHomePage {
 
     this.listener.on('change', this.onPortrait.bind(this))
     display.getAllDisplay((err, data) => {
-      let aspect = data[0].width / data[0].height
+      let aspect: number = data[0].width / data[0].height
       if (aspect === SCREEN_RATIO) {
         this.ratio = RATIO
       }
@@ -123,11 +148,19 @@ struct NavigationHomePage {
         TabContent() {
           MainPage({ ratio: this.ratio, isLand: this.isLand })
         }
-        .tabBar(this.TabBarBuilder(TABLE_INDEX_HOME))
+        .tabBar(() => {
+          this.TabBarBuilder(TABLE_INDEX_HOME)
+        })
 
-        TabContent().tabBar(this.TabBarBuilder(TABLE_INDEX_PRODUCT))
-        TabContent().tabBar(this.TabBarBuilder(TABLE_INDEX_CART))
-        TabContent().tabBar(this.TabBarBuilder(TABLE_INDEX_ME))
+        TabContent().tabBar(() => {
+                this.TabBarBuilder(TABLE_INDEX_PRODUCT)
+        })
+        TabContent().tabBar(() => {
+                this.TabBarBuilder(TABLE_INDEX_CART)
+        })
+        TabContent().tabBar(() => {
+                this.TabBarBuilder(TABLE_INDEX_ME)
+        })
       }
       .barHeight(60)
       .scrollable(false)

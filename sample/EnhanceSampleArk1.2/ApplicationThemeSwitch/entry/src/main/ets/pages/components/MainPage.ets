@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,31 @@
  * limitations under the License.
  */
 
+import {
+  PropRef,
+  StoragePropRef,
+} from '@kit.ArkUI';
+
+import {
+  Component,
+  StorageLink,
+  State,
+  TabsController,
+  Column,
+  $r,
+  ImageRepeat,
+  Scroll,
+  Row,
+  ForEach,
+  Text,
+  Alignment,
+  Divider,
+  Image,
+  ImageFit,
+  FlexAlign,
+  BarState,
+} from '@kit.ArkUI';
+
 import { NavigationDataModel } from '../../models/HomeModel'
 import { navigationData } from '../../mocks/HomeData'
 import { getTheme } from '../../utils/ThemeGet'
@@ -22,15 +48,15 @@ import { NAV_DATA } from '../../mocks/ProductsData'
 
 @Component
 export struct MainPage {
-  @Prop ratio: number
-  @Prop isLand: boolean
+  @PropRef ratio: number
+  @PropRef isLand: boolean
   @StorageLink('theme') theme: number = -1 // 初始主题theme值
   @State navigationTabsIndex: number = 0 // tabs索引
   @State navigationData: Array<NavigationDataModel> = navigationData
   @State navTabsIndex: number = 0
   private url: string
   private navController: TabsController = new TabsController()
-  @StorageProp('curBp') curBp: string = 'sm'
+  @StoragePropRef('curBp') curBp: string = 'sm'
 
   build() {
     Column() {

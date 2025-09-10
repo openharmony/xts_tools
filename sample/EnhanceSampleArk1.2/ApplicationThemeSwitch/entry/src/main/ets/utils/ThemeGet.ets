@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +16,7 @@
 
 import { CustomTheme, DefaultTheme } from '../models/ThemeConst'
 
-const CUSTOM_THEME: number = 3 // 3为自定义主题
+const CUSTOM_THEME: int = 3 // 3为自定义主题
 
 // 根据全局变量theme来控制模式 theme 0 1 为系统主题浅色、深色 3为自定义主题
 // 判断是否是自定义主题 返回对应类
