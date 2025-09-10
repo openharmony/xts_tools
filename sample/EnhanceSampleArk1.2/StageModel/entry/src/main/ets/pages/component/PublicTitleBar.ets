@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,16 @@
  * limitations under the License.
  */
 
+import {
+  Component,
+  Resource,
+  Row,
+  Image,
+  $r,
+  getUIContext,
+  Text,
+} from '@kit.ArkUI';
+
 import router from '@ohos.router'
 
 @Component
@@ -25,7 +36,7 @@ export struct PublicTitleBar {
         .width(32)
         .height(32)
         .onClick(() => {
-          router.back()
+          getUIContext().getRouter.back()
         })
 
       Text(this.textName)

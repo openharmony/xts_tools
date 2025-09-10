@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,17 @@
  * limitations under the License.
  */
 
+import {
+  Component,
+  Link,
+  Row,
+  Image,
+  $r,
+  getUIContext,
+  Text,
+  FlexAlign,
+} from '@kit.ArkUI';
+
 import router from '@ohos.router'
 import DataShareResultSet from '@ohos.data.DataShareResultSet'
 import DataShareHelper from '../../feature/DataShareHelper'
@@ -20,7 +32,8 @@ import { BookModel, getBooksFromResultSet } from '../../feature/BookModel'
 
 @Component
 export struct TitleBar {
-  @Link books: Array<BookModel>;
+  // @Link books: Array<BookModel>;
+  @Link books: BookModel[];
 
   build() {
     Row() {
@@ -30,7 +43,7 @@ export struct TitleBar {
         .height(32)
         .margin({ right: 40 })
         .onClick(() => {
-          router.back()
+          getUIContext().getRouter.back()
         })
 
       Text($r('app.string.title'))

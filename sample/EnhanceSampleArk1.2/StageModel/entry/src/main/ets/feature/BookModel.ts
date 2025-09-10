@@ -30,7 +30,7 @@ export class BookModel {
 }
 
 export function getBooksFromResultSet(resultSet) {
-  let books = []
+  let books:BookModel[] = []
   Logger.info(TAG, `getBooksFromResultSet columnNames= ${resultSet.columnNames}, rowCount= ${resultSet.rowCount}`)
   if (resultSet !== null) {
     resultSet.goToFirstRow()

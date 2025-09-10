@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  Column,
+  $r,
+  Scroll,
+  Button,
+  FlexAlign,
+  ButtonAttribute,
+  ClickEvent,
+  Alignment,
+} from '@kit.ArkUI';
 
 import router from '@ohos.router'
 import { IndexTitleBar } from './component/IndexTitleBar'
@@ -82,10 +96,11 @@ struct Index {
   }
 }
 
-@Extend(Button) function fancy (click: (event?: ClickEvent) => void) {
-  .width('60%')
-  .height(40)
-  .align(Alignment.Center)
-  .margin({ top: 30 })
-  .onClick(click)
+function fancy(this: ButtonAttribute, click: (event?: ClickEvent) => void): this {
+    this.width('60%');
+    this.height(40);
+    this.align(Alignment.Center);
+    this.margin({ top: 30 });
+    this.onClick(click);
+    return this;
 }

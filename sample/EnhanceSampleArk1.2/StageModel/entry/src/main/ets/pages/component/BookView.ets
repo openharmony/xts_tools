@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,25 @@
  * limitations under the License.
  */
 
+import {
+  Component,
+  Link,
+  Row,
+  Image,
+  $r,
+  ImageFit,
+  Flex,
+  FlexDirection,
+  Column,
+  ItemAlign,
+  Text,
+  Color,
+  FontWeight,
+  Button,
+  ButtonType,
+  Circle,
+} from '@kit.ArkUI';
+
 import DataShareResultSet from '@ohos.data.DataShareResultSet'
 import DateShareHelper from '../../feature/DataShareHelper'
 import Logger from '../../util/Logger'
@@ -23,6 +43,7 @@ const TAG = 'bookView'
 @Component
 export struct BookView {
   @Link books: Array<BookModel>;
+  // @Link books: BookModel[];
   private book: BookModel = new BookModel();
 
   build() {

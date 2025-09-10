@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  Column,
+  $r,
+  Scroll,
+  Button,
+  getUIContext,
+  ButtonAttribute,
+  Alignment,
+} from '@kit.ArkUI';
 
 import DateShareHelper from '../feature/DataShareHelper'
 import { PublicTitleBar } from './component/PublicTitleBar'
@@ -47,15 +60,16 @@ struct DataShareHelperPage {
   }
 
   async aboutToAppear() {
-    let context = getContext(this)
+    let context = getUIContext().getHostContext(this)
     await DateShareHelper.getDataShareHelper(context)
   }
 }
 
-@Extend(Button) function fancy (handleClick: ()=>void) {
-  .width('60%')
-  .height(40)
-  .align(Alignment.Center)
-  .margin({ top: 30 })
-  .onClick(handleClick)
+function fancy(this: ButtonAttribute, handleClick: () => void): this {
+    this.width('60%');
+    this.height(40);
+    this.align(Alignment.Center);
+    this.margin({ top: 30 });
+    this.onClick(handleClick);
+    return this;
 }

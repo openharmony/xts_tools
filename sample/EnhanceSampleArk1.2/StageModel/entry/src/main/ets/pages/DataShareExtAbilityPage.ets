@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,19 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  State,
+  CustomDialogController,
+  Column,
+  List,
+  ForEach,
+  ListItem,
+  Color,
+  getUIContext,
+} from '@kit.ArkUI';
+
 import DateShareHelper from '../feature/DataShareHelper'
 import DataShareResultSet from '@ohos.data.DataShareResultSet'
 import { BookModel, getBooksFromResultSet } from '../feature/BookModel'
@@ -24,17 +38,18 @@ import { UpdateDataDialog } from '../pages/component/UpdateDataDialog'
 @Component
 struct DataShareExtAbilityPage {
   @State message: string = '';
-  @State books: Array<BookModel> = [];
+  // @State books: Array<BookModel> = [];
+  @State books: BookModel[] = [];
   private fileFd: number = 0;
   private dialogController?: CustomDialogController;
 
   build() {
     Column() {
-      TitleBar({ books: $books })
+      TitleBar({ books: this.books })
       List() {
           ForEach(this.books, (item: BookModel) => {
             ListItem() {
-              BookView({ book: item, books: $books })
+              BookView({ book: item, books: this.books })
             }
             .height(90)
             .backgroundColor('#ffffff')
@@ -46,7 +61,7 @@ struct DataShareExtAbilityPage {
               this.dialogController = new CustomDialogController({
                 builder: UpdateDataDialog({
                   book: item,
-                  books: $books
+                  books: this.books
                 }),
                 autoCancel: true
               })
@@ -65,7 +80,7 @@ struct DataShareExtAbilityPage {
   }
 
   async aboutToAppear() {
-    let context = getContext(this);
+    let context = getUIContext().getHostContext(this);
     await DateShareHelper.getDataShareHelper(context);
     let data: Promise<DataShareResultSet> = await DateShareHelper.queryAll();
     this.books = getBooksFromResultSet(data);
