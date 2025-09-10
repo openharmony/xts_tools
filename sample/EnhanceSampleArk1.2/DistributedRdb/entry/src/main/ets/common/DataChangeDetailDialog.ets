@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -30,6 +30,9 @@ import {
   Row,
   Button,
   ButtonType,
+  Padding,
+  Margin,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 import Contact from '../model/Contact';
@@ -38,7 +41,7 @@ import { TYPE_DELETE, TYPE_INSERT, TYPE_UPDATE } from '../model/RdbConst'
 @CustomDialog
 export struct DataChangeDetailDialog {
   private controller?: CustomDialogController;
-  @State detailList: Array<Contact> = [];
+  @State detailList: Array<Contact> = new Array<Contact>();
 
   build() {
     Column() {
@@ -148,7 +151,7 @@ export struct DataChangeDetailDialog {
                 }
               }
               .margin(8)
-              .padding({ left: 12 })
+              .padding({ left: 12 } as Padding)
             }
           }
 
@@ -158,7 +161,7 @@ export struct DataChangeDetailDialog {
       .width('80%')
       .height('80%')
 
-      Button() {
+      Button('') {
         Text($r('app.string.sure'))
           .fontColor('#0D9FFB')
           .width('90%')
@@ -168,9 +171,9 @@ export struct DataChangeDetailDialog {
       .key('sureBtn')
       .type(ButtonType.Capsule)
       .backgroundColor(Color.White)
-      .onClick(() => {
+      .onClick((event: ClickEvent) => {
         if (this.controller != null) {
-          this.controller.close()
+          this.controller?.close()
         }
       })
     }

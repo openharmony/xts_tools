@@ -20,7 +20,6 @@ import {
   $r,
   CustomDialogController,
   Link,
-  getUIContext,
   Stack,
   Alignment,
   Column,
@@ -31,19 +30,26 @@ import {
   Text,
   Color,
   Divider,
+  Padding,
+  Margin,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 import deviceManager from '@ohos.distributedDeviceManager';
 import common from '@ohos.app.ability.common'
 import router from '@ohos.router'
+import { RecordData } from '@ohos.base'
+
 import Logger from '../model/Logger'
 import RemoteDeviceModel from '../model/RemoteDeviceModel'
 import { BUNDLE, ABILITY } from '../model/RdbConst'
 import { DeviceDialog } from '../common/DeviceDialog'
-import { stateType } from '../pages/Index';
+import { StateType } from '../pages/Index';
+import { UIContext } from '@ohos.arkui.UIContext';
+import { WantParameters } from '../model/Contact'
+import { SyncState } from '../model/LiteStore'
 
 const TAG: string = 'PopupMenu'
-
 
 interface menuResourceItem {
   text: Resource,
@@ -51,29 +57,31 @@ interface menuResourceItem {
 }
 @Component
 export struct PopupMenu {
-  private menuResource: Array<menuResourceItem> = [
-    { icon: $r('app.media.setting'), text: $r('app.string.setting') },
-    { icon: $r('app.media.connect'), text: $r('app.string.connect') }]
+  private menuResource: Array<menuResourceItem> = new Array<menuResourceItem>();
   private handleStartAbility: () => void = () => {};
-  private deviceList: Array<deviceManager.DeviceBasicInfo> = [];
+  private deviceList: Array<deviceManager.DeviceBasicInfo> = new Array<deviceManager.DeviceBasicInfo>();
   private dialogController: CustomDialogController | null = null;
-  @Link state: stateType;
-
+  @Link state: StateType =new StateType(false,false,false,0,SyncState.ManualSync,'',1);
+  aboutToAppear() {
+    this.menuResource.push(
+      { icon: $r('app.media.setting'), text: $r('app.string.setting') },
+      { icon: $r('app.media.connect'), text: $r('app.string.connect') })
+  }
   selectDevice() {
     Logger.info(TAG, 'start ability ......')
     if (RemoteDeviceModel === null || RemoteDeviceModel.discoverList.length <= 0) {
       Logger.info(TAG, `start ability device:${JSON.stringify(this.deviceList)}`)
-      if (this.deviceList[this.state.selectedIndex].networkId != undefined) {
-        this.startAbility(this.deviceList[this.state.selectedIndex].networkId as string)
+      if (this.deviceList[this.state.selectedIndex as int].networkId != undefined) {
+        this.startAbility(this.deviceList[this.state.selectedIndex as int].networkId as string)
         this.clearSelectState()
       }
       return
     }
     Logger.info(TAG, 'start ability, needAuth')
-    RemoteDeviceModel.authenticateDevice(this.deviceList[this.state.selectedIndex], (device: deviceManager.DeviceBasicInfo) => {
+    RemoteDeviceModel.authenticateDevice(this.deviceList[this.state.selectedIndex as int], (device: deviceManager.DeviceBasicInfo) => {
       Logger.info(TAG, 'auth and online finished')
       if (device.networkId != undefined) {
-        this.startAbility(device.networkId)
+        this.startAbility(device.networkId as string)
       }
     })
     Logger.info(TAG, 'start ability2 ......')
@@ -82,26 +90,27 @@ export struct PopupMenu {
     this.state.opacityValue = 1;
   }
 
-  onSelectedIndexChange = (selectedIndex: number) => {
+  onSelectedIndexChange(selectedIndex: number) {
     Logger.info(TAG, `selectedIndexChange,selectedIndex=${selectedIndex}`)
     if (selectedIndex === 0) {
       Logger.info(TAG, 'stop sync')
-      let context = getUIContext().getHostContext(this) as common.UIAbilityContext
+      let context = this.getUIContext().getHostContext() as common.UIAbilityContext
+      let wantParameters :Record<string, RecordData>={
+        'isStage': 'EXIT'
+      }
       context.startAbility({
         bundleName: BUNDLE,
         abilityName: ABILITY,
-        deviceId: this.deviceList[this.state.selectedIndex].deviceId,
-        parameters: {
-          isStage: 'EXIT'
-        }
+        deviceId: this.deviceList[this.state.selectedIndex as int].deviceId,
+        parameters: wantParameters
       })
       this.state.isDistributed = false
       this.state.selectedIndex = 0
       this.state.distributedDevice = ''
       if(this.dialogController != undefined) {
-        this.dialogController.close()
+        this.dialogController?.close()
       }
-      this.deviceList = []
+      this.deviceList = new Array<deviceManager.DeviceBasicInfo>();
       return
     }
     this.state.selectedIndex = selectedIndex
@@ -112,15 +121,18 @@ export struct PopupMenu {
     Logger.info(TAG, `startAbility deviceId:${deviceId}`)
     let localDevice = RemoteDeviceModel.getLocalDevice()
     Logger.info(TAG, `startAbility localDevice:${localDevice}`)
-    let context = getUIContext().getHostContext(this) as common.UIAbilityContext
+    let context = this.getUIContext().getHostContext() as common.UIAbilityContext
+    // todo
+    let wantParameters :Record<string, RecordData>={
+      'isStage': 'Stage',
+      'dmsSrcNetworkId': localDevice
+
+    }
     await context.startAbility({
       bundleName: BUNDLE,
       abilityName: ABILITY,
       deviceId: deviceId,
-      parameters: {
-        isStage: 'Stage',
-        dmsSrcNetworkId: localDevice
-      }
+      parameters: wantParameters
     })
     setTimeout(() => {
       this.state.isDistributed = true
@@ -129,10 +141,10 @@ export struct PopupMenu {
     }, 1500)
   }
 
-  showDialog() {
+  showDialog () {
     RemoteDeviceModel.registerDeviceListCallback(() => {
       Logger.info(TAG, 'registerDeviceListCallback, callback entered' + JSON.stringify(RemoteDeviceModel.discoverList));
-      this.deviceList = []
+      this.deviceList = new Array<deviceManager.DeviceBasicInfo>();
       this.deviceList.push({
         deviceId: '0',
         deviceName: 'Local device',
@@ -146,7 +158,7 @@ export struct PopupMenu {
       }
 
       if (this.dialogController !== null) {
-        this.dialogController.close()
+        this.dialogController?.close()
         this.dialogController = null
       }
       this.dialogController = new CustomDialogController({
@@ -157,14 +169,14 @@ export struct PopupMenu {
         }),
         autoCancel: true
       })
-      this.dialogController.open()
+      this.dialogController?.open()
     })
   }
 
   clearSelectState() {
-    this.deviceList = []
+    this.deviceList = new Array<deviceManager.DeviceBasicInfo>();
     if (this.dialogController !== null) {
-      this.dialogController.close()
+      this.dialogController?.close()
       this.dialogController = null
     }
   }
@@ -181,14 +193,14 @@ export struct PopupMenu {
             Text(item.text)
               .fontSize(20)
               .fontColor(Color.Black)
-              .margin({ left: 10 })
+              .margin({ left: 10 } as Margin)
           }
           .width('100%')
-          .margin({ top: 6, bottom: 6 })
-          .onClick(() => {
+          .margin({ top: 6, bottom: 6 } as Margin)
+          .onClick((event: ClickEvent) => {
             if (index === 0) {
               this.state.popupMenu = false;
-              getUIContext().getRouter().pushUrl({
+              this.getUIContext().getRouter().pushUrl({
                 url: 'pages/Settings'
               })
             } else {
@@ -204,14 +216,14 @@ export struct PopupMenu {
       }
       .width('40%')
       .border({ width: 1, color: Color.Black, radius: 10 })
-      .margin({ right: 16 })
+      .margin({ right: 16 } as Margin)
       .backgroundColor(Color.White)
       .padding(6)
       .opacity(this.state.opacityValue)
     }
     .size({ width: '100%', height: '92%' })
-    .margin({ right: 16 })
-    .onClick(() => {
+    .margin({ right: 16 } as Margin)
+    .onClick((event: ClickEvent) => {
       if (this.state.popupMenu) {
         this.state.popupMenu = false
       }

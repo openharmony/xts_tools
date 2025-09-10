@@ -1,4 +1,4 @@
-'use static';
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,10 +14,11 @@
  * limitations under the License.
  */
 import { Observed } from '@kit.ArkUI';
+import Want from '@ohos.app.ability.Want'
 
 @Observed
 export default class Contact {
-  id: number;
+  id: number|long;
   name: string;
   gender: number;
   phone: string;
@@ -36,4 +37,19 @@ export default class Contact {
     this.isSelected = false;
     this.type = type;
   }
+}
+export class RouterParams {
+  public contact: Contact;
+  public isInsert: boolean;
+
+  constructor(contact: Contact, isInsert: boolean){
+    this.contact = contact;
+    this.isInsert = isInsert;
+  }
+}
+
+
+export interface WantParameters {
+  isStage: string,
+  dmsSrcNetworkId?: string
 }

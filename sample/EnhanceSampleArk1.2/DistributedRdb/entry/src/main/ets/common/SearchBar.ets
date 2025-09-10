@@ -21,10 +21,12 @@ import {
   $r,
   ImageFit,
   Text,
-  getUIContext,
+  Margin,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 import router from '@ohos.router';
+import { Context, UIContext } from '@ohos.arkui.UIContext';
 
 @Component
 export struct SearchBar {
@@ -32,14 +34,14 @@ export struct SearchBar {
     Row() {
       Image($r('app.media.search_gray'))
         .height('100%').width(40)
-        .margin({ left: 16 })
+        .margin({ left: 16 } as Margin)
         .objectFit(ImageFit.Contain)
 
       Text($r('app.string.search_placeholder'))
         .height('100%')
         .width('80%')
         .fontSize(25)
-        .margin({ right: 10 })
+        .margin({ right: 10 } as Margin)
         .backgroundColor('#FAFAFA')
     }
     .id('searchBar')
@@ -48,9 +50,9 @@ export struct SearchBar {
     .backgroundColor('#FAFAFA')
     .constraintSize({ minHeight: 60 })
     .border({ radius: 45 })
-    .margin({ top: 10 })
-    .onClick(() => {
-      getUIContext().getRouter().pushUrl({
+    .margin({ top: 10 } as Margin)
+    .onClick((event: ClickEvent) => {
+      this.getUIContext().getRouter().pushUrl({
         url: 'pages/SearchPage'
       });
     })

@@ -1,4 +1,4 @@
-// 构造单例对象
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,7 +16,7 @@
 
 export class GlobalContext {
   private constructor() {}
-  private static instance: GlobalContext;
+  private static instance: GlobalContext= new GlobalContext();
   private _objects = new Map<string, Object>();
 
   public static getContext(): GlobalContext {

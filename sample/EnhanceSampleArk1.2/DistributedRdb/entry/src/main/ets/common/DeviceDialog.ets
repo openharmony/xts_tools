@@ -32,6 +32,7 @@ import {
   ImageFit,
   Button,
   ButtonType,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 import deviceManager from '@ohos.distributedDeviceManager';
@@ -41,7 +42,7 @@ export struct DeviceDialog {
   private controller?: CustomDialogController;
   private selectedIndex: number = 0;
   private onSelectedIndexChange: (selectedIndex: number) => void = (selectedIndex: number) => {}
-  @State deviceList: Array<deviceManager.DeviceBasicInfo> = [];
+  @State deviceList: Array<deviceManager.DeviceBasicInfo> = new Array<deviceManager.DeviceBasicInfo>();
 
   build() {
     Column() {
@@ -70,7 +71,7 @@ export struct DeviceDialog {
               }
             }
             .height(55)
-            .onClick(() => {
+            .onClick((event: ClickEvent) => {
               this.selectedIndex = index
               this.onSelectedIndexChange(index)
             })
@@ -80,7 +81,7 @@ export struct DeviceDialog {
       .width('80%')
       .height(150)
 
-      Button() {
+      Button('') {
         Text($r('app.string.cancel'))
           .fontColor('#0D9FFB')
           .width('90%')
@@ -90,9 +91,9 @@ export struct DeviceDialog {
       .key('cancelBtn')
       .type(ButtonType.Capsule)
       .backgroundColor(Color.White)
-      .onClick(() => {
+      .onClick((event: ClickEvent) => {
         if (this.controller != null) {
-          this.controller.close()
+          this.controller?.close()
         }
       })
     }
