@@ -21,7 +21,6 @@ import {
   Resource,
   $r,
   CustomDialogController,
-  getUIContext,
   Column,
   Row,
   Image,
@@ -39,21 +38,26 @@ import {
   Button,
   ButtonType,
   HorizontalAlign,
+  Margin,
+  Padding,
 } from '@kit.ArkUI';
 
 import { common } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { preferences } from '@kit.ArkData';
-import { promptAction, router } from '@kit.ArkUI';
+import preferences from '@ohos.data.preferences';
 import { zlib } from '@kit.BasicServicesKit';
-import fileio from '@ohos.fileio';
+import fileIo from '@ohos.file.fs';
+
 import { AddDialog } from '../common/AddDialog';
 import { ZipLibSource } from '../model/DataSource';
+
+import { Entry, Text, Column, Component, Button, ClickEvent } from '@ohos.arkui.component'
+import { State } from '@ohos.arkui.stateManagement'
 
 const DOMAIN: int = 0xF811;
 const BUNDLE = 'ZipLib_';
 const TAG: string = '[CompressFilesPage]';
-let fileList: preferences.Preferences;
+let fileList: preferences.Preferences = undefined!;
 
 @Entry
 @Component
@@ -61,10 +65,11 @@ struct CompressFilesPage {
   @State isInserted: boolean = false;
   @State files: ZipLibSource = new ZipLibSource([]);
   @State fileName: string = '';
-  @State slectFileName: string[] = [];
-  @State zipFileNames: string[] = [];
+  @State slectFileName: string[] = new Array<string>();
+  @State zipFileNames: string[] = new Array<string>();
   @State fileContent: string = '';
   @State isSelect: boolean = false;
+
   private path: string = '';
   private title: Resource = $r('app.string.CompressFiles');
   private dialogController: CustomDialogController = new CustomDialogController({
@@ -72,38 +77,79 @@ struct CompressFilesPage {
       fileName: this.fileName,
       fileContent: this.fileContent,
       isInserted: this.isInserted,
-      createFile: async (isInserted: boolean, fileName: string, fileContent: string) => {
+      createFile: async (isInserted: boolean, fileName: string, fileContent: string): Promise<void> => {
         hilog.info(DOMAIN, TAG, BUNDLE + `enter the createFile`);
         this.fileName = `${fileName}.txt`;
         let isDuplication = this.files.fileData.includes(this.fileName);
         hilog.info(DOMAIN, TAG, BUNDLE + `isInserted = ${isInserted}  isDuplication = ${isDuplication}`);
         if (!isInserted || isDuplication) {
-          return;
+          return Promise.resolve();
         }
-        let fd = fileio.openSync(`${this.path}/${this.fileName}`, 0o100 | 0o2, 0o666);
-        let number = fileio.writeSync(fd, fileContent);
-        hilog.info(DOMAIN, TAG, BUNDLE + `fd = ${fd} number = ${number}`);
+
+        // let fd = fileio.openSync(`${this.path}/${this.fileName}`, 0o100 | 0o2, 0o666);
+        // let numb = fileio.writeSync(fd, fileContent);
+        // hilog.info(DOMAIN, TAG, BUNDLE + `fd = ${fd} numb = ${numb}`);
+
+        let zlibFile = fileIo.openSync(`${this.path}/${this.fileName}`, 0o100 | 0o2);
+        let numb = fileIo.writeSync(zlibFile.fd, fileContent);
+        hilog.info(DOMAIN, TAG, BUNDLE + `fd = ${zlibFile.fd} numb = ${numb}`);
+
         this.files.pushData(this.fileName);
         hilog.info(DOMAIN, TAG, BUNDLE + `this.files = ${JSON.stringify(this.files.fileData)}`);
-        await fileList.put('fileNames', JSON.stringify(this.files.fileData));
+        fileList.put('fileNames', JSON.stringify(this.files.fileData));
         await fileList.flush();
       }
     }),
     autoCancel: true,
   })
 
-  async aboutToAppear() {
-    fileList = await preferences.getPreferences(getUIContext().getHostContext(this), 'fileList');
-    let ctx = getUIContext().getHostContext(this) as common.Context;
-    this.path = ctx.filesDir;
-    let value = await fileList.get('fileNames', '');
-    this.files.fileData = JSON.parse(`${value}`);
-    this.files.notifyDataReload();
-    this.zipFileNames.length = 0;
-    this.zipFileNames = this.files.fileData.filter(item => item.endsWith('.zip'));
+  // async aboutToAppear() {
+  //   fileList = await preferences.getPreferences(this.getUIContext().getHostContext() as common.UIAbilityContext, 'fileList');
+  //   let ctx = this.getUIContext().getHostContext() as common.UIAbilityContext;
+  //   this.path = ctx.filesDir;
+  //   let value = await fileList.get('fileNames', '');
+  //   this.files.fileData = (JSON.parse<Array<String>>(`${value}`,Type.from<Array<String>>())) as Array<String>;
+  //   this.files.notifyDataReload();
+  //   this.zipFileNames.length = 0;
+  //   this.zipFileNames = this.files.fileData.filter(item => item.endsWith('.zip'));
+  // }
+
+  aboutToAppear() {
+    this.loadPreferencesData().then(() => {
+      hilog.info(DOMAIN, TAG, BUNDLE + 'Data loaded successfully');
+      this.zipFileNames.length = 0;
+      this.zipFileNames = this.files.fileData.filter(item => item.endsWith('.zip'));
+    }).catch((error) => {
+      hilog.error(DOMAIN, TAG, BUNDLE + `Failed to load data: ${error}`);
+    });
+  }
+
+
+  private async loadPreferencesData(): Promise<void> {
+    try {
+      const fileList = await preferences.getPreferences(
+        this.getUIContext().getHostContext() as common.UIAbilityContext,
+        'fileList'
+      );
+
+      let ctx = this.getUIContext().getHostContext() as common.UIAbilityContext;
+      this.path = ctx.filesDir;
+
+      let value = await fileList.get('fileNames', '');
+      this.files.fileData = JSON.parse<Array<String>>(`${value}`, Type.from<Array<String>>()) as Array<String>;
+      this.files.notifyDataReload();
+    } catch (error) {
+      hilog.error(DOMAIN, TAG, BUNDLE + `Error loading preferences: ${error}`);
+      throw error;
+    }
   }
 
   async zipcompressFiles(path: string, zipfileNames: Array<string>): Promise<void> {
+
+    const warning_failed = $r('app.string.warning_failed');
+    const CompressFiles_success_size = $r('app.string.CompressFiles_success_size');
+    const CompressFiles_failure = $r('app.string.CompressFiles_failure');
+
     let files: string[] = [];
     for (let index: int = 0; index < zipfileNames.length; index++) {
       files[index] = `${path}/${zipfileNames[index]}`;
@@ -115,8 +161,9 @@ struct CompressFilesPage {
     hilog.debug(DOMAIN, TAG, BUNDLE + `zipOutFile = ${zipOutFile}`);
 
     if (this.files.fileData.includes(newName)) {
-      getUIContext().getPromptAction.showToast({
-        message: $r('app.string.warning_failed'),
+      this.getUIContext().getPromptAction().showToast({
+        message: warning_failed,
+        // message: $r('app.string.warning_failed'),
         bottom: '11%'
       });
       return;
@@ -124,17 +171,19 @@ struct CompressFilesPage {
     try {
       await zlib.compressFiles(zipFiles, zipOutFile, {}).then(data => {
         zlib.getOriginalSize(zipOutFile).then((num) => {
-          getUIContext().getPromptAction.showToast({
-            message: $r('app.string.CompressFiles_success_size', num),
+          this.getUIContext().getPromptAction().showToast({
+            message: CompressFiles_success_size,
+            // message: $r('app.string.CompressFiles_success_size', num),
             bottom: '11%'
           });
         })
         this.files.pushData(`${newName}`);
         this.zipFileNames.push(newName);
       })
-    } catch {
-      getUIContext().getPromptAction.showToast({
-        message: $r('app.string.CompressFiles_failure'),
+    } catch (error) {
+      this.getUIContext().getPromptAction().showToast({
+        message: CompressFiles_failure,
+        // message: $r('app.string.CompressFiles_failure'),
         bottom: '11%'
       });
     }
@@ -150,24 +199,23 @@ struct CompressFilesPage {
             Image($r('app.media.icon_back'))
               .size({ height: '71%' })
               .objectFit(ImageFit.Contain)
-              .onClick(() => {
-                getUIContext().getRouter.pushUrl({
+              .onClick((): void => {
+                this.getUIContext().getRouter().pushUrl({
                   url: 'zlib/ZLibInterfaceListPage'
                 });
               })
             Text(this.title)
               .fontSize(20)
-              .margin({ left: 8 })
+              .margin({ left: 8 } as Margin)
               .fontWeight(FontWeight.Bold)
           }
-
           Row() {
             Image($r('app.media.add'))
               .size({ height: '71%' })
               .id('addFile')
-              .margin({ left: '3%' })
+              .margin({ left: '3%' } as Margin)
               .objectFit(ImageFit.Contain)
-              .onClick(() => {
+              .onClick((): void => {
                 this.dialogController.open();
               })
           }
@@ -189,7 +237,7 @@ struct CompressFilesPage {
                     Text(item)
                       .width('50%')
                       .fontSize(16)
-                      .margin({ left: 16 })
+                      .margin({ left: 16 } as Margin)
                   }
                 }
 
@@ -214,16 +262,16 @@ struct CompressFilesPage {
                   })
               }
               .justifyContent(FlexAlign.SpaceBetween)
-              .padding({ right: 12, left: 12 })
+              .padding({ right: 12, left: 12 } as Padding)
               .width('100%')
               .height('14.2%')
               .borderRadius(16)
               .backgroundColor($r('app.color.start_window_background'))
             }
-            .margin({ bottom: 12 })
+            .margin({ bottom: 12 } as Margin)
           }, (item: string) => item)
         }
-        .margin({ top: 8 })
+        .margin({ top: 8 } as Margin)
         .height('85.875%')
         .width('91%')
         .backgroundColor($r('app.color.index_bg'))
@@ -239,7 +287,7 @@ struct CompressFilesPage {
           .fontColor($r('app.color.tip_Gzip_backeGround'))
           .width('86.4%')
           .height('22.3%')
-          .margin({ bottom: 24 })
+          .margin({ bottom: 24 } as Margin)
 
         Row() {
           Button($r('app.string.zip'))
@@ -252,13 +300,13 @@ struct CompressFilesPage {
             .backgroundColor($r('app.color.button_color'))
             .fontColor($r('app.color.text_white_color'))
             .borderRadius(20)
-            .onClick(() => {
+            .onClick((): void => {
               if (this.isSelect) {
                 this.zipcompressFiles(this.path, this.slectFileName);
               }
             })
         }
-        .margin({ bottom: 16 })
+        .margin({ bottom: 16 } as Margin)
         .height('28%')
         .width('91%')
       }

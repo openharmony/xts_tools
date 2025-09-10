@@ -14,12 +14,13 @@
  * limitations under the License.
  */
 
-import { AppStorage } from '@kit.ArkUI';
+import { AppStorage, Context } from '@kit.ArkUI';
 
-
-import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
-import { hilog } from '@kit.PerformanceAnalysisKit';
-import { window } from '@kit.ArkUI';
+import UIAbility from '@ohos.app.ability.UIAbility';
+import AbilityConstant from '@ohos.app.ability.AbilityConstant';
+import Want from '@ohos.app.ability.Want';
+import window from '@ohos.window';
+import hilog from '@ohos.hilog';
 
 const DOMAIN: int = 0xF811;
 const BUNDLE = 'ZipLib_';
@@ -37,9 +38,9 @@ export default class EntryAbility extends UIAbility {
   onWindowStageCreate(windowStage: window.WindowStage) {
     // Main window is created, set main page for this ability
     hilog.info(DOMAIN, TAG, BUNDLE + 'Ability onWindowStageCreate');
-    AppStorage.setOrCreate('context', this.context);
+    AppStorage.setOrCreate<Context>('context', this.context);
     windowStage.loadContent('pages/Index', (err, data) => {
-      if (err.code) {
+      if (err && err.code) {
         hilog.error(DOMAIN, TAG, BUNDLE + `Failed to load the content. Cause: ${JSON.stringify(err)}`);
         return
       }

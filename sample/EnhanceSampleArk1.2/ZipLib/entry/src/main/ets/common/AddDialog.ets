@@ -29,11 +29,11 @@ import {
   TextInput,
   Divider,
   Button,
-  getUIContext,
   FlexAlign,
+  Margin,
 } from '@kit.ArkUI';
 
-import { promptAction } from '@kit.ArkUI';
+import { UIContext } from '@ohos.arkui.UIContext';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 
 const DOMAIN: int = 0xF811;
@@ -45,10 +45,10 @@ export struct AddDialog {
   private fileName: string = '';
   private fileContent: string = '';
   private isInserted: boolean = false;
-  private createFile: (isInserted: boolean, fileName: string, content: string) => void =
-    (isInserted: boolean, fileName: string, content: string) => {
+  private createFile: (isInserted: boolean, fileName: string, content: string) => Promise<void> =
+    async (isInserted: boolean, fileName: string, content: string) => {
     };
-  private controller: CustomDialogController;
+  private controller: CustomDialogController | undefined;
   @State oneBorderColor: Resource = $r('app.color.border_blur_color');
   @State twoBorderColor: Resource = $r('app.color.border_blur_color');
   @State onePlaceholderColor: Resource = $r('app.color.focus_color');
@@ -84,7 +84,7 @@ export struct AddDialog {
           .focusable(true)
           .backgroundColor($r('app.color.start_window_background'))
           .id('inputFileName')
-          .onChange((value: string) => {
+          .onChange((value: string): void => {
             this.fileName = value;
             if (value === '' && this.fileContent === '') {
               this.buttonColor = $r('app.color.button_light_color');
@@ -122,7 +122,7 @@ export struct AddDialog {
           .focusable(true)
           .backgroundColor($r('app.color.start_window_background'))
           .id('inputFileContent')
-          .onChange((value: string) => {
+          .onChange((value: string): void => {
             this.fileContent = value;
             if (value === '' && this.fileName === '') {
               this.buttonColor = $r('app.color.button_light_color');
@@ -158,7 +158,7 @@ export struct AddDialog {
       })
 
       Row() {
-        Button() {
+        Button('') {
           Text($r('app.string.button_cancel'))
             .fontColor($r('app.color.button_color'))
             .fontSize(16)
@@ -168,14 +168,16 @@ export struct AddDialog {
         }
         .height('18.5%')
         .width('44%')
-        .margin({ top: 8 })
+        .margin({ top: 8 } as Margin)
         .borderRadius(20)
         .backgroundColor($r('app.color.start_window_background'))
-        .onClick(() => {
-          this.controller.close();
+        .onClick((): void => {
+          if (this.controller) {
+            (this.controller as CustomDialogController).close();
+          }
         })
 
-        Button() {
+        Button('') {
           Text($r('app.string.button_confirm'))
             .fontColor($r('app.color.start_window_background'))
             .fontSize(16)
@@ -188,18 +190,20 @@ export struct AddDialog {
         .borderRadius(20)
         .height('18.5%')
         .width('44%')
-        .margin({ left: '2%', top: 8 })
-        .onClick(() => {
+        .margin({ left: '2%', top: 8 } as Margin)
+        .onClick((): void => {
           hilog.info(DOMAIN, TAG, BUNDLE + `this.fileName = ${this.fileName}`);
           if (this.fileName === '') {
-            getUIContext().getPromptAction.showToast({ message: $r('app.string.warning_empty'), bottom: '11%', duration: 1000 });
+            this.getUIContext().getPromptAction().showToast({ message: $r('app.string.warning_empty'), bottom: '11%', duration: 1000 });
             return;
           }
           this.isInserted = true;
           hilog.info(DOMAIN, TAG, BUNDLE + `fileName = ${this.fileName}`);
           this.createFile(this.isInserted, this.fileName, this.fileContent);
           hilog.info(DOMAIN, TAG, BUNDLE + `isInserted = ${this.isInserted}`);
-          this.controller.close();
+          if (this.controller) {
+            (this.controller as CustomDialogController).close();
+          }
         })
       }
       .justifyContent(FlexAlign.Center)
