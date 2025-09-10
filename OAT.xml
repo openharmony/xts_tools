@@ -139,21 +139,6 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/ImageEditTaskPool/entry/src/main/resources/base/media/icon.png" desc="Provide by sample/EnhanceSampleArk1.2/ImageEditTaskPool"/>
                 <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/ImageEditTaskPool/entry/src/main/resources/rawfile/low.jpg" desc="Provide by sample/EnhanceSampleArk1.2/ImageEditTaskPool"/>
                 <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/ImageEditTaskPool/screenshots/device/ImageEditTaskPool_CN.gif" desc="Provide by sample/EnhanceSampleArk1.2/ImageEditTaskPool"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowExtAbility/AppScope/resources/base/media/background.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowExtAbility/AppScope/resources/base/media/foreground.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowExtAbility/entry/src/main/resources/base/media/background.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowExtAbility/entry/src/main/resources/base/media/foreground.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowExtAbility/entry/src/main/resources/base/media/startIcon.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowManage/AppScope/resources/base/media/background.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowManage/AppScope/resources/base/media/foreground.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowManage/entry/src/main/resources/base/media/background.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowManage/entry/src/main/resources/base/media/foreground.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowManage/entry/src/main/resources/base/media/startIcon.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowRatio/AppScope/resources/base/media/background.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowRatio/AppScope/resources/base/media/foreground.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowRatio/entry/src/main/resources/base/media/background.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowRatio/entry/src/main/resources/base/media/foreground.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
-                <filteritem type="filepath" name="sample/EnhanceSampleArk1.2/WindowManagement/WindowRatio/entry/src/main/resources/base/media/startIcon.png" desc="Provide by sample/EnhanceSampleArk1.2/WindowManagement"/>
             </filefilter>
             <filefilter name="defaultPolicyFilter" desc="License文件头校验策略的过滤条件" >
                 <filteritem type="filepath" name="sample/ServerSampleD/java/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/sample/mapper/xml/VideoMapper.xml" desc="xml配置文件，无需添加License头"/>
