@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -146,7 +147,7 @@ export default class RdbModel {
     Logger.info(TAG, 'syncData')
     if (this.rdbStore != undefined) {
       let result = await this.rdbStore.sync(data_rdb.SyncMode.SYNC_MODE_PUSH, predicates)
-      for (let i = 0; i < result.length; i++) {
+      for (let i: int = 0; i < result.length; i++) {
         Logger.info(TAG, `device=${result[i][0]}, status = ${result[i][1]}`)
       }
     }
@@ -200,7 +201,7 @@ export default class RdbModel {
       let resultSet = await this.rdbStore.query(predicates, this.columns)
       let result = this.getListFromResultSet(resultSet)
       Logger.info(TAG, `on dataChange,result.length=${result.length}`)
-      for (let i = 0; i < result.length; i++) {
+      for (let i: int = 0; i < result.length; i++) {
         Logger.info(TAG, `on dataChange,insert${result[i].name}`)
         let predicate = new data_rdb.RdbPredicates(this.tableName)
         predicate.equalTo('name', result[i].name)
@@ -214,7 +215,7 @@ export default class RdbModel {
         }
       }
       if (this.dataChangeCallback != null) {
-        this.dataChangeCallback(result)
+        this.dataChangeCallback.unsafeCall(result)
       }
     }
   }
@@ -224,7 +225,7 @@ export default class RdbModel {
     if (this.rdbStore != undefined) {
       if (changeInfo.length > 0) {
         let result: Contact[] = [];
-        for (let i = 0; i < changeInfo.length; i++) {
+        for (let i: int = 0; i < changeInfo.length; i++) {
           let table: string = changeInfo[i].table;
           if (table !== TABLE_NAME) {
             return;
@@ -245,14 +246,14 @@ export default class RdbModel {
             });
           }
           if (deleted.length > 0) {
-            for (let index = 0; index < deleted.length; index++) {
+            for (let index: int = 0; index < deleted.length; index++) {
               result.push(new Contact(deleted[index] as number, '', 0, '', 0, '', TYPE_DELETE));
             }
           }
         }
         Logger.info(TAG, `result:` + JSON.stringify(result));
         if (this.dataChangeDetailCallback !== null) {
-          this.dataChangeDetailCallback(result);
+          this.dataChangeDetailCallback.unsafeCall(result);
         }
       }
     }
@@ -265,7 +266,7 @@ export default class RdbModel {
     Logger.info(TAG, `type:${type}`);
     Logger.info(TAG, `aData:` + JSON.stringify(aData));
     if (aData.length > 0) {
-      for (let i = 0; i < aData.length; i++) {
+      for (let i: int = 0; i < aData.length; i++) {
         aData[i].type = type;
       }
     }
@@ -275,7 +276,7 @@ export default class RdbModel {
   offDataChange() {
     if (this.rdbStore != undefined) {
       this.rdbStore.off('dataChange', data_rdb.SubscribeType.SUBSCRIBE_TYPE_REMOTE, (devices) => {
-        for (let i = 0; i < devices.length; i++) {
+        for (let i: int = 0; i < devices.length; i++) {
           Logger.info(TAG, `device=${devices[i]} off data changed`)
         }
       })
@@ -285,7 +286,7 @@ export default class RdbModel {
   offDataChangeDetail() {
     if (this.rdbStore != undefined) {
       this.rdbStore.off('dataChange', data_rdb.SubscribeType.SUBSCRIBE_TYPE_LOCAL_DETAILS, (devices) => {
-        for (let i = 0; i < devices.length; i++) {
+        for (let i: int = 0; i < devices.length; i++) {
           Logger.info(TAG, `device=${devices[i]} off data changed`)
         }
       })

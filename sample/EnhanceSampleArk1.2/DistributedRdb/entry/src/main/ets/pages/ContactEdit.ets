@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,6 +14,27 @@
  * limitations under the License.
  */
 
+import {
+  getUIContext,
+  Entry,
+  Component,
+  State,
+  Builder,
+  Resource,
+  InputType,
+  Row,
+  Image,
+  ImageFit,
+  TextInput,
+  Color,
+  Column,
+  Text,
+  $r,
+  Divider,
+  Scroll,
+  TextAlign,
+} from '@kit.ArkUI';
+
 import data_rdb from '@ohos.data.relationalStore'
 import router from '@ohos.router'
 import promptAction from '@ohos.promptAction'
@@ -24,7 +46,7 @@ import { TitleBar } from '../common/TitleBar'
 import { TABLE_NAME, SQL_CREATE_TABLE, COLUMNS } from '../model/RdbConst'
 
 const TAG = 'ContactEdit'
-let rdbModel = new RdbModel(TABLE_NAME, SQL_CREATE_TABLE, COLUMNS, getContext(this) as common.UIAbilityContext)
+let rdbModel = new RdbModel(TABLE_NAME, SQL_CREATE_TABLE, COLUMNS, getUIContext().getHostContext(this) as common.UIAbilityContext)
 
 interface paramstype {
   isInsert: boolean,
@@ -33,7 +55,7 @@ interface paramstype {
 @Entry
 @Component
 struct ContactEdit {
-  private params = router.getParams() as paramstype
+  private params = getUIContext().getRouter().getParams() as paramstype
   private isInsert: boolean = this.params.isInsert
   @State contact: Contact = this.params.contact
 
@@ -91,16 +113,16 @@ struct ContactEdit {
   handleSubmit = async () => {
 
     if (this.contact.name === '') {
-      promptAction.showToast({ message: $r('app.string.name_validate'), duration: 1000 })
+      getUIContext().getPromptAction().showToast({ message: $r('app.string.name_validate'), duration: 1000 })
       return
     }
     if (this.contact.phone === '') {
-      promptAction.showToast({ message: $r('app.string.phone_validate'), duration: 1000 })
+      getUIContext().getPromptAction().showToast({ message: $r('app.string.phone_validate'), duration: 1000 })
       return
     }
 
     if (this.contact.age < 0) {
-      promptAction.showToast({ message: $r('app.string.age_validate'), duration: 1000 })
+      getUIContext().getPromptAction().showToast({ message: $r('app.string.age_validate'), duration: 1000 })
       return
     }
 
@@ -124,7 +146,7 @@ struct ContactEdit {
     } catch (err) {
       Logger.error(JSON.stringify(err))
     }
-    router.back()
+    getUIContext().getRouter().back()
   }
 
   build() {

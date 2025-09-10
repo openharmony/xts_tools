@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -18,7 +19,7 @@ import Logger from '../model/Logger'
 import { BUNDLE } from '../model/RdbConst'
 import { BusinessError } from '@ohos.base';
 
-let SUBSCRIBE_ID = 100
+let SUBSCRIBE_ID: int = 100
 const TAG: string = 'RemoteDeviceModel'
 class Data {
   device: deviceManager.DeviceBasicInfo = {
@@ -68,7 +69,7 @@ class RemoteDeviceModel {
       return
     }
     let list: Array<deviceManager.DeviceBasicInfo> = new Array()
-    for (let i = 0; i < this.deviceList.length; i++) {
+    for (let i: int = 0; i < this.deviceList.length; i++) {
       if (this.deviceList[i].deviceId !== device.deviceId) {
         list[i] = device
       }
@@ -83,7 +84,7 @@ class RemoteDeviceModel {
       this.callback()
       return
     }
-    for (let j = 0; j < this.deviceList.length; j++) {
+    for (let j: int = 0; j < this.deviceList.length; j++) {
       if (this.deviceList[j].deviceId === device.deviceId) {
         this.deviceList[j] = device
         break
@@ -156,7 +157,7 @@ class RemoteDeviceModel {
   deviceFound(data: Data) {
     if(data != undefined) {
       if (data.device != undefined) {
-        for (let i = 0; i < this.discoverList.length; i++) {
+        for (let i: int = 0; i < this.discoverList.length; i++) {
           if (this.discoverList[i].deviceId === data.device.deviceId) {
             Logger.info(TAG, 'device founded ignored')
             return
@@ -201,7 +202,7 @@ class RemoteDeviceModel {
 
   authenticateDevice(device: deviceManager.DeviceBasicInfo, callBack: (device: deviceManager.DeviceBasicInfo) => void) {
     Logger.info(TAG, `bindTarget${JSON.stringify(device)}`);
-    for (let i = 0; i < this.discoverList.length; i++) {
+    for (let i: int = 0; i < this.discoverList.length; i++) {
       if (this.discoverList[i].deviceId !== device.deviceId) {
         continue
       }

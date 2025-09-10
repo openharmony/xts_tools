@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,6 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Resource,
+  Component,
+  $r,
+  CustomDialogController,
+  Link,
+  getUIContext,
+  Stack,
+  Alignment,
+  Column,
+  ForEach,
+  Row,
+  Image,
+  ImageFit,
+  Text,
+  Color,
+  Divider,
+} from '@kit.ArkUI';
 
 import deviceManager from '@ohos.distributedDeviceManager';
 import common from '@ohos.app.ability.common'
@@ -66,7 +86,7 @@ export struct PopupMenu {
     Logger.info(TAG, `selectedIndexChange,selectedIndex=${selectedIndex}`)
     if (selectedIndex === 0) {
       Logger.info(TAG, 'stop sync')
-      let context = getContext(this) as common.UIAbilityContext
+      let context = getUIContext().getHostContext(this) as common.UIAbilityContext
       context.startAbility({
         bundleName: BUNDLE,
         abilityName: ABILITY,
@@ -92,7 +112,7 @@ export struct PopupMenu {
     Logger.info(TAG, `startAbility deviceId:${deviceId}`)
     let localDevice = RemoteDeviceModel.getLocalDevice()
     Logger.info(TAG, `startAbility localDevice:${localDevice}`)
-    let context = getContext(this) as common.UIAbilityContext
+    let context = getUIContext().getHostContext(this) as common.UIAbilityContext
     await context.startAbility({
       bundleName: BUNDLE,
       abilityName: ABILITY,
@@ -120,7 +140,7 @@ export struct PopupMenu {
         networkId: '0'
       })
       let deviceTempList = RemoteDeviceModel.discoverList.length > 0 ? RemoteDeviceModel.discoverList : RemoteDeviceModel.deviceList
-      for (let i = 0; i < deviceTempList.length; i++) {
+      for (let i: int = 0; i < deviceTempList.length; i++) {
         Logger.info(TAG, `device[${i}]=${JSON.stringify(deviceTempList[i])}`)
         this.deviceList.push(deviceTempList[i])
       }
@@ -168,7 +188,7 @@ export struct PopupMenu {
           .onClick(() => {
             if (index === 0) {
               this.state.popupMenu = false;
-              router.pushUrl({
+              getUIContext().getRouter().pushUrl({
                 url: 'pages/Settings'
               })
             } else {

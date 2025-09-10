@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this.searchData file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,6 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  InputType,
+  Resource,
+  $r,
+  getUIContext,
+} from '@kit.ArkUI';
 
 import common from '@ohos.app.ability.common';
 import data_rdb from '@ohos.data.relationalStore';
@@ -51,7 +59,7 @@ class SearchData {
 }
 
 export default class SearchModel {
-  private rdbModel = new RdbModel(TABLE_NAME, SQL_CREATE_TABLE, COLUMNS, getContext(this) as common.UIAbilityContext);
+  private rdbModel = new RdbModel(TABLE_NAME, SQL_CREATE_TABLE, COLUMNS, getUIContext().getHostContext(this) as common.UIAbilityContext);
   searchData: SearchData = new SearchData();
   queryData: Array<Contact> = [];
   queryOtherData: Array<Contact> = [];

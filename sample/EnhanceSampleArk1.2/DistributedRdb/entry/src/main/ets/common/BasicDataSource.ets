@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,8 +14,16 @@
  * limitations under the License.
  */
 
+import { Observed } from '@kit.ArkUI';
+
+import {
+  IDataSource,
+  DataChangeListener,
+} from '@kit.ArkUI';
+
 import Contact from '../model/Contact'
 
+@Observed
 export default class ContactDataSource implements IDataSource {
   public dataArray: Array<Contact> = new Array<Contact>();
   private listeners: Array<DataChangeListener> = [];
@@ -68,7 +77,7 @@ export default class ContactDataSource implements IDataSource {
   }
 
 
-  public getData(index: number): Contact {
+  public getData(index: int): Contact {
     return this.dataArray[index];
   }
 
