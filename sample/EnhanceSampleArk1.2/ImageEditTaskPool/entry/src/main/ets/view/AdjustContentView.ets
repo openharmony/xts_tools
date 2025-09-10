@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License,Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,8 +13,37 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import { PropRef } from '@kit.ArkUI';
+
+import {
+  Component,
+  State,
+  Consume,
+  Builder,
+  ResourceStr,
+  Column,
+  Row,
+  Image,
+  VerticalAlign,
+  FlexAlign,
+  Text,
+  Color,
+  Tabs,
+  BarPosition,
+  TabContent,
+  $r,
+  Link,
+  CustomDialogController,
+  DialogAlignment,
+  Slider,
+  SliderChangeMode,
+  CustomDialog,
+  LoadingProgress,
+} from '@kit.ArkUI';
+
 import { MessageEvents, worker } from '@kit.ArkTS';
-import { taskpool } from '@kit.ArkTS';
+
 import { image } from '@kit.ImageKit';
 import { adjustIconList, IconStatus } from '../viewModel/IconListViewModel';
 import { adjustImageValue, adjustSaturation } from '../utils/AdjustUtil';
@@ -69,7 +99,9 @@ export default struct AdjustContentView {
           bottom: 24
         })
       }
-      .tabBar(this.TabBuilder(AdjustId.BRIGHTNESS, $r('app.string.brightness')))
+      .tabBar(() => {
+        this.TabBuilder(AdjustId.BRIGHTNESS, $r('app.string.brightness'))
+      })
 
       TabContent() {
         Column() {
@@ -86,7 +118,9 @@ export default struct AdjustContentView {
           bottom: 24
         })
       }
-      .tabBar(this.TabBuilder(AdjustId.TRANSPARENCY, $r('app.string.transparency')))
+      .tabBar(() => {
+        this.TabBuilder(AdjustId.TRANSPARENCY, $r('app.string.transparency'))
+      })
 
       TabContent() {
         Column() {
@@ -103,7 +137,9 @@ export default struct AdjustContentView {
           bottom: 24
         })
       }
-      .tabBar(this.TabBuilder(AdjustId.SATURATION, $r('app.string.saturation')))
+      .tabBar(() => {
+        this.TabBuilder(AdjustId.SATURATION, $r('app.string.saturation'))
+      })
     }
     .barHeight(60)
     .padding({ bottom: 24 })
@@ -115,10 +151,10 @@ export default struct AdjustContentView {
 
 @Component
 struct SliderCustom {
-  @Prop currentIndex: number;
+  @PropRef currentIndex: number;
   @Link currentAdjustData: number[];
-  @Prop min: number;
-  @Prop max: number;
+  @PropRef min: number;
+  @PropRef max: number;
   @Consume('pixelMap') pixelMap?: image.PixelMap;
   @Consume('isPixelMapChange') isPixelMapChange: boolean;
   private postState: boolean = true;
@@ -276,7 +312,7 @@ function splitTask(buffers: ArrayBuffer[], type: AdjustId, sliderValue: number, 
 
 // [End postProcess_start]
 
-@Concurrent
+
 async function imageProcessing(args: ImageProcessing) {
   const type: AdjustId = args.type;
   const bufferArray: ArrayBuffer = args.bufferArray;
@@ -301,12 +337,12 @@ interface ImageProcessing {
 // [Start split_buffer1]
 //Split the picture pixel data ArrayBuffer according to the number of tasks N.
 function splitArrayBuffer(buffer: ArrayBuffer, n: number): ArrayBuffer[] {
-  let num = Math.floor(buffer.byteLength / n);
+  let num: number = Math.floor(buffer.byteLength / n);
   while (num % 4 !== 0) {
     num += 1;
   }
   let result: ArrayBuffer[] = [];
-  for (let index = 0; index < n; index++) {
+  for (let index: int = 0; index < n; index++) {
     if (index === n - 1) {
       result[index] = buffer.slice(index * num);
     } else {
@@ -317,19 +353,19 @@ function splitArrayBuffer(buffer: ArrayBuffer, n: number): ArrayBuffer[] {
 }
 
 // [StartExclude split_buffer1]
-function buffer(bufferArray: ESObject, taskNum: number, sliderValue: number, value: number) {
+function buffer(bufferArray: ESObject, taskNum: int, sliderValue: number, value: number) {
   let Workers: ESObject
   // [EndExclude split_buffer1]
   // Assign the split pixels to the Worker instance.
   const buffers: ArrayBuffer[] = splitArrayBuffer(bufferArray, taskNum);
   let messages: MessageItem[] = [];
-  for (let i = 0; i < taskNum; i++) { // Encapsulating corresponding task data according to the number of tasks.
+  for (let i: int = 0; i < taskNum; i++) { // Encapsulating corresponding task data according to the number of tasks.
     let message = new MessageItem(buffers[i], sliderValue, value); //Construct task message
     messages.push(message);
   }
-  let n: number = 0;
-  let allocation: number = taskNum; // Number of tasks to be assigned
-  for (let index = 0; index < taskNum; index++) {
+  let n: int = 0;
+  let allocation: int = taskNum; // Number of tasks to be assigned
+  for (let index: int = 0; index < taskNum; index++) {
     Workers[index].postMessage(messages[n]); // Distribute the task to the corresponding Worker child thread instance.
     allocation = allocation - 1; // Number of remaining tasks to be assigned
     n += 1;
@@ -349,7 +385,7 @@ function mergeArrayBuffers(buffers: Object[]) {
   let mergedBuffer = new ArrayBuffer(totalLength);
   // Create a Uint8Array to operate the new Uint8Array
   let mergedArray = new Uint8Array(mergedBuffer);
-  let offset = 0;
+  let offset: number = 0;
   for (let buffer of thisBuffers) {
     let array = new Uint8Array(buffer);
     mergedArray.set(array, offset);
@@ -360,10 +396,10 @@ function mergeArrayBuffers(buffers: Object[]) {
 
 function taskNum(WorkerName: string) {
   // [Start task1]
-  let taskNum: number = 14; // The number of concurrent tasks is controlled, which can be adjusted according to the demand.
-  let curTaskNum: number = taskNum <= 64 ? taskNum : 64; // Control allows up to 64 Worker instances to run at the same time.
+  let taskNum: int = 14; // The number of concurrent tasks is controlled, which can be adjusted according to the demand.
+  let curTaskNum: int = taskNum <= 64 ? taskNum : 64; // Control allows up to 64 Worker instances to run at the same time.
   let Workers: worker.ThreadWorker[] = [];
-  for (let i = 0; i < curTaskNum; i++) { // Control the number of instantiations of the Worker according to the limit.
+  for (let i: int = 0; i < curTaskNum; i++) { // Control the number of instantiations of the Worker according to the limit.
     let WorkerInstance = new worker.ThreadWorker(WorkerName);
     Workers.push(WorkerInstance);
   }

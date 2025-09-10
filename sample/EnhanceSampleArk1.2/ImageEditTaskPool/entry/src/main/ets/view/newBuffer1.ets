@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,19 +15,19 @@
  */
 
 let Workers: ESObject;
-let taskNum: number = 1;
-let allocation: number = 1
-let index: number = 0
+let taskNum: int = 1;
+let allocation: int = 1
+let index: int = 0
 let messages: number[];
-let n = 0;
-let curTaskNum = 2
+let n: int = 0;
+let curTaskNum: int = 2
 let that = this
 
 function test() {
   // [Start buffer_test]
-  let num = 0; // Number of tasks processed
+  let num: int = 0; // Number of tasks processed
   let newBuffers: ArrayBuffer[] = [];
-  for (let i = 0; i < taskNum; i++) {
+  for (let i: int = 0; i < taskNum; i++) {
     newBuffers[i] = new ArrayBuffer(0); // Initialize calculation result data of each task
   }
   Workers[index].onmessage = (e: ESObject) => {
@@ -37,7 +38,7 @@ function test() {
       n += 1;
       allocation = allocation - 1;
     } else if (num === taskNum) {
-      for (let i = 0; i < curTaskNum; i++) {
+      for (let i: int = 0; i < curTaskNum; i++) {
         Workers[i].terminate(); // When all tasks are processed, the child thread is destroyed.
       }
       const entireArrayBuffer = mergeArrayBuffers(newBuffers); // Merge all task calculation results
@@ -60,7 +61,7 @@ function mergeArrayBuffers(buffers: ArrayBuffer[]) {
   // Create a Uint8Array to operate the new ArrayBuffer.
   let mergedArray = new Uint8Array(mergedBuffer);
   // Copy the contents of each ArrayBuffer to the new ArrayBuffer in turn.
-  let offset = 0;
+  let offset: number = 0;
   for (let buffer of buffers) {
     let array = new Uint8Array(buffer);
     mergedArray.set(array, offset);
