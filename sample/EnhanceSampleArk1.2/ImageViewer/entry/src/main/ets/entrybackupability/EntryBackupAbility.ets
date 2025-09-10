@@ -19,14 +19,22 @@ import { BackupExtensionAbility, BundleVersion } from '@kit.CoreFileKit';
 
 const DOMAIN: int = 0x0000;
 
+async function asyncOnBackup() {
+  hilog.info(DOMAIN, 'testTag', 'onBackup ok');
+  await Promise.resolve();
+}
+
+async function asyncOnRestore(bundleVersion: BundleVersion) {
+  hilog.info(DOMAIN, 'testTag', 'onRestore ok %{public}s', JSON.stringify(bundleVersion));
+  await Promise.resolve();
+}
+
 export default class EntryBackupAbility extends BackupExtensionAbility {
-  async onBackup() {
-    hilog.info(DOMAIN, 'testTag', 'onBackup ok');
-    await Promise.resolve();
+  onBackup() {
+    asyncOnBackup();
   }
 
-  async onRestore(bundleVersion: BundleVersion) {
-    hilog.info(DOMAIN, 'testTag', 'onRestore ok %{public}s', JSON.stringify(bundleVersion));
-    await Promise.resolve();
+  onRestore(bundleVersion: BundleVersion) {
+    asyncOnRestore(bundleVersion);
   }
 }

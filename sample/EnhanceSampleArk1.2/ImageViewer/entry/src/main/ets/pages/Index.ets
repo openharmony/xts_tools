@@ -31,7 +31,9 @@ struct Index {
     Column(){
       PicturePreviewSample()
     }
-    .height($r('app.string.imageviewer_full_size'))
-    .width($r('app.string.imageviewer_full_size'))
+    // .height($r('app.string.imageviewer_full_size'))//TODO $r存在问题 DTS2025082031897
+    // .width($r('app.string.imageviewer_full_size'))//TODO $r存在问题 DTS2025082031897
+    .width('100%')
+    .height('100%')
   }
 }

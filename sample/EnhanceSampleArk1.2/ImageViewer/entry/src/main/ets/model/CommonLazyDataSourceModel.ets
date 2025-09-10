@@ -16,15 +16,14 @@
 
 // Basic implementation of IDataSource to handle data listener
 
-import { Observed } from '@kit.ArkUI';
-
 import {
   IDataSource,
   DataChangeListener,
+  Observed,
 } from '@kit.ArkUI';
 
 @Observed
-class BasicDataSource <T> implements IDataSource {
+class BasicDataSource<T> implements IDataSource<T> {
   private listeners: DataChangeListener[] = [];
   private originDataArray: T[] = [];
 

@@ -14,20 +14,31 @@
  * limitations under the License.
  */
 
-import { px2vp } from '@kit.ArkUI';
+import {
+  px2vp,
+  Context,
+} from '@kit.ArkUI';
 
-import { window } from '@kit.ArkUI';
+import window from '@ohos.window';
+import { UIContext } from '@ohos.arkui.UIContext';
+import display from '@ohos.display';
 
 class WindowSizeManager {
   private size: window.Size = { width: 0, height: 0 };
-
   constructor() {
-    window.getLastWindow(getUIContext().getHostContext()).then((value: window.Window) => {
-      const rect: window.Rect = value.getWindowProperties().windowRect;
-      this.size.width = getUIContext().px2vp(rect.width);
-      this.size.height = getUIContext().px2vp(rect.height);
-      console.log(`[windowWidth]${this.size.width} [windowHeight]${this.size.height}`);
-    })
+
+    // 原始方法
+    // window.getLastWindow(getUIContext().getHostContext()).then((value: window.Window) => {
+    //   const rect: window.Rect = value.getWindowProperties().windowRect;
+    //   this.size.width = Double.toInt(value.getUIContext().px2vp(rect.width));
+    //   this.size.height = Double.toInt(value.getUIContext().px2vp(rect.height));
+    //   console.log(`[windowWidth]${this.size.width} [windowHeight]${this.size.height}`);
+    // })
+    // 方法二 用其他方式获取屏幕宽高，跳过getUIContext
+    let displayClass: display.Display | null = null;
+    displayClass = display.getDefaultDisplaySync();
+    this.size.width = Long.toInt(displayClass.width);
+    this.size.height = Long.toInt(displayClass.height);
   }
 
   get(): window.Size {

@@ -14,12 +14,7 @@
  * limitations under the License.
  */
 
-import {
-  Component,
-  State,
-  Axis,
-  $r,
-} from '@kit.ArkUI';
+import { Component, State, Axis, $r, } from '@kit.ArkUI';
 
 import { PicturePreview } from '../view/PicturePreview';
 
@@ -46,13 +41,12 @@ import { PicturePreview } from '../view/PicturePreview';
  */
 @Component
 export struct PicturePreviewSample {
-  @State imageList: string[] = [];
+  @State imageList: string[] = ['app.media.picturepreview_image'];
   @State listDirection: Axis = Axis.Horizontal;
 
   aboutToAppear(): void {
-    let imageSource:string = $r('app.media.picturepreview_image') as ESObject;
+    let imageSource: string = 'app.media.picturepreview_image';
     this.imageList.push(
-      imageSource,
       imageSource,
       imageSource
     )

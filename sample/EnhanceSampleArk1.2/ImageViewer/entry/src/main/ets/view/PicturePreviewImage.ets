@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { PropRef } from '@kit.ArkUI';
+import { PropRef, Prop } from '@kit.ArkUI';
 
 import {
   Reusable,
@@ -25,10 +25,11 @@ import {
   Axis,
   State,
   ImageLoadResult,
-  getUIContext,
+  UIContext,
   GestureEvent,
   Stack,
   Image,
+  ImageCompleteEvent,
   $r,
   ImageFit,
   SafeAreaType,
@@ -40,16 +41,22 @@ import {
   PanGesture,
   RotationGesture,
   PinchGesture,
+  PanGestureOptions,
+  Edges,
+  LocalizedEdges,
 } from '@kit.ArkUI';
 
 import { image } from '@kit.ImageKit';
-import { matrix4, window } from '@kit.ArkUI';
+import window from '@ohos.window';
+import matrix4 from '@ohos.matrix4';
 import { OffsetModel } from '../model/OffsetModel';
 import { ScaleModel } from '../model/ScaleModel';
 import { runWithAnimation, simplestRotationQuarter } from '../utils/FuncUtils';
 import { windowSizeManager } from '../utils/Managers';
 import { RotateModel } from '../model/RotateModel';
 import { constrainOffsetAndAnimation, getImgSize, getMaxAllowedOffset, ImageFitType } from '../utils/Constrain';
+import { Position } from '@ohos.arkui.component'
+import { UIContext } from '@ohos.arkui.UIContext';
 
 
 /**
@@ -101,7 +108,7 @@ export struct PicturePreviewImage {
   // 图片缩放信息
   @State imageScaleInfo: ScaleModel = new ScaleModel(1.0, 1.0, 1.5, 0.3);
   // 图片默认大小 -- 是转化后的大小
-  @State imageDefaultSize: image.Size = { width: 0, height: 0 }; // 图片默认大小，即，与屏幕大小最适配的显示大小
+  @State imageDefaultSize: image.Size = { width: 0, height: 0 } as image.Size; // 图片默认大小，即，与屏幕大小最适配的显示大小
   // 表示当前图片是根据宽度适配还是高度适配
   @State imageWH: ImageFitType = ImageFitType.TYPE_DEFAULT;
   // 本模块提供矩阵变换功能，可对图形进行平移、旋转和缩放等。
@@ -133,6 +140,8 @@ export struct PicturePreviewImage {
    */
   private moveMaxOffset: number = 30;
 
+  private panOption: PanGestureOptions = new PanGestureOptions({ fingers: 1 });
+
   /**
    * 根据图片宽高比及窗口大小计算图片的默认宽高，即，图片最适配屏幕的大小
    * @param imageWHRatio：图片原始宽高比
@@ -150,7 +159,7 @@ export struct PicturePreviewImage {
       height = windowSize.height;
       width = windowSize.height * imageWHRatio;
     }
-    return { width: width, height: height };
+    return { width: Double.toInt(width), height: Double.toInt(height) };
   }
 
   /**
@@ -173,7 +182,7 @@ export struct PicturePreviewImage {
    * 设置当前图片的相关信息：uri、whRatio、pixelMap、fitWH、defaultSize、maxScaleValue
    * TODO：知识点：提前获取图片的信息，以进行Image组件的尺寸设置及后续的相关计算
    */
-  initCurrentImageInfo(event: ImageLoadResult): void {
+  initCurrentImageInfo(event: ImageLoadResult | ImageCompleteEvent): void {
     let imageW = event.width;
     let imageH = event.height;
     let windowSize = windowSizeManager.get();
@@ -182,26 +191,27 @@ export struct PicturePreviewImage {
     // 图片默认大小
     this.imageDefaultSize = this.calcImageDefaultSize(this.imageWHRatio, windowSize);
     // 图片宽度 等于 视口宽度 则图片使用宽度适配 否则 使用 高度适配
-    if (this.imageDefaultSize.width === windowSize.width) {
-      this.imageWH = ImageFitType.TYPE_WIDTH;
-    } else {
-      this.imageWH = ImageFitType.TYPE_HEIGHT;
-    }
+    // if (this.imageDefaultSize.width === windowSize.width) {
+    //   this.imageWH = ImageFitType.TYPE_WIDTH;
+    // } else {
+    //   this.imageWH = ImageFitType.TYPE_HEIGHT;
+    // }
     /**
      * 1.5 的基本倍数上添加 撑满全屏需要多少倍数
      * 1.5 是初始化时候给的值
      *      在1.5上面加是为了让图片可以放的更大
      */
-    this.imageScaleInfo.maxScaleValue += this.imageWH === ImageFitType.TYPE_WIDTH ?
-      (windowSize.height / this.imageDefaultSize.height) :
-      (windowSize.width / this.imageDefaultSize.width);
+    // this.imageScaleInfo.maxScaleValue += this.imageWH === ImageFitType.TYPE_WIDTH ?
+    //   (windowSize.height / this.imageDefaultSize.height) :
+    //   (windowSize.width / this.imageDefaultSize.width);
+    this.imageScaleInfo.maxScaleValue += 0.6;
   }
 
   /**
    * 在图片消失时，将当前图片的信息设置为默认值
    */
   resetCurrentImageInfo(): void {
-    getUIContext().animateTo({
+      this.getUIContext().animateTo({
       duration: this.restImageAnimation
     }, () => {
       this.imageScaleInfo.reset();
@@ -215,6 +225,7 @@ export struct PicturePreviewImage {
    * TODO：需求：在偏移时评估是否到达边界，以便进行位移限制与图片的切换
    */
   evaluateBound(): void {
+    let uiContext: UIContext = this.getUIContext();
     const xBol = constrainOffsetAndAnimation({
       dimensionWH: ImageFitType.TYPE_WIDTH,
       imageDefaultSize: this.imageDefaultSize,
@@ -223,7 +234,7 @@ export struct PicturePreviewImage {
       rotate: this.imageRotateInfo.lastRotate,
       togglePercent: this.togglePercent,
       imageListOffset: this.imageListOffset
-    });
+    }, uiContext);
 
     const yBol = constrainOffsetAndAnimation({
       dimensionWH: ImageFitType.TYPE_HEIGHT,
@@ -233,7 +244,7 @@ export struct PicturePreviewImage {
       rotate: this.imageRotateInfo.lastRotate,
       togglePercent: this.togglePercent,
       imageListOffset: this.imageListOffset
-    });
+    }, uiContext);
     if (this.listDirection === Axis.Horizontal) {
       if (xBol[0] || xBol[1]) {
         if (xBol[0]) {
@@ -287,7 +298,11 @@ export struct PicturePreviewImage {
       // 获取交叉轴中对应的是 width 还是 height
       let imageWH = this.listDirection === Axis.Horizontal ? ImageFitType.TYPE_HEIGHT : ImageFitType.TYPE_WIDTH;
       // 获取手指在主轴移动偏移量
-      let offset = event[`offset${direction}`];
+      // let offset = event[`offset${direction}`];
+      let offset = event.offsetX;
+      if (this.listDirection === Axis.Horizontal) {
+        offset = event.offsetY;
+      }
       // 获取图片最后一次在主轴移动的数据
       let lastOffset = imageWH === ImageFitType.TYPE_WIDTH ? this.imageOffsetInfo.lastX : this.imageOffsetInfo.lastY;
       // 计算当前移动后偏移量结果
@@ -305,7 +320,13 @@ export struct PicturePreviewImage {
     let imageWH: ImageFitType =
       this.listDirection === Axis.Horizontal ? ImageFitType.TYPE_WIDTH : ImageFitType.TYPE_HEIGHT;
     // 获取手指在主轴移动偏移量
-    let offset: number = event[`offset${direction}`];
+    // let offset: number = event[`offset${direction}`];
+    let offset: number = 0.0;
+    if (this.listDirection === Axis.Horizontal) {
+      offset = event.offsetX;
+    } else {
+      offset = event.offsetY;
+    }
     // 获取图片最后一次在主轴移动的数据
     let lastOffset: number =
       imageWH === ImageFitType.TYPE_WIDTH ? this.imageOffsetInfo.lastX : this.imageOffsetInfo.lastY;
@@ -313,7 +334,13 @@ export struct PicturePreviewImage {
     const IMG_SIZE: number = getImgSize(this.imageDefaultSize, this.imageRotateInfo.lastRotate, imageWH);
     const WIN_SIZE: window.Size = windowSizeManager.get();
     // 获取窗口对应轴的尺寸
-    const WIN_AXIS_SIZE: number = WIN_SIZE[imageWH];
+    // const WIN_AXIS_SIZE: number = WIN_SIZE[imageWH];
+    let WIN_AXIS_SIZE: number = 0.0;
+    if (this.listDirection === Axis.Horizontal) {
+      WIN_AXIS_SIZE = WIN_SIZE.width;
+    } else {
+      WIN_AXIS_SIZE = WIN_SIZE.height;
+    }
     // 当前最大移动距离
     let maxAllowedOffset: number = getMaxAllowedOffset(WIN_AXIS_SIZE, IMG_SIZE, this.imageScaleInfo.scaleValue);
     // 计算当前移动后偏移量结果
@@ -358,7 +385,7 @@ export struct PicturePreviewImage {
 
   build() {
     Stack() {
-      Image(this.imageUrl)// TODO：知识点：宽高只根据其尺寸设置一个，通过保持宽高比来设置另一个属性
+      Image($r(this.imageUrl))// TODO：知识点：宽高只根据其尺寸设置一个，通过保持宽高比来设置另一个属性
         .id('scale_image')
         .width(this.imageWH === ImageFitType.TYPE_WIDTH ? $r('app.string.imageviewer_image_default_width') : undefined)
         .height(this.imageWH === ImageFitType.TYPE_HEIGHT ? $r('app.string.imageviewer_image_default_height') :
@@ -373,17 +400,19 @@ export struct PicturePreviewImage {
           // TODO：知识点：通过offset控制图片的偏移
           x: this.imageOffsetInfo.currentX,
           y: this.imageOffsetInfo.currentY
-        })
-        .onComplete((event: ImageLoadResult) => {
-          if (event) {
-            this.initCurrentImageInfo(event);
+        } as Position)
+        .onComplete((loadEvent?: ImageCompleteEvent | undefined) => {
+          if (loadEvent) {
+            this.initCurrentImageInfo(loadEvent);
           }
         })
     }
     .alignContent(Alignment.Center)
     .expandSafeArea([SafeAreaType.SYSTEM], [SafeAreaEdge.TOP, SafeAreaEdge.BOTTOM])
-    .width($r('app.string.imageviewer_image_item_stack_width'))
-    .height($r('app.string.imageviewer_image_item_stack_height'))
+    // .width($r('app.string.imageviewer_image_item_stack_width'))//TODO $r存在问题 DTS2025082031897
+    // .height($r('app.string.imageviewer_image_item_stack_height'))//TODO $r存在问题 DTS2025082031897
+    .width('100%')
+    .height('100%')
     .gesture(
       GestureGroup(
         GestureMode.Parallel,
@@ -425,19 +454,20 @@ export struct PicturePreviewImage {
                 this.imageScaleInfo.stash();
               }
             }
-            runWithAnimation(fn);
+            let uiContext: UIContext = this.getUIContext();
+            runWithAnimation(fn, uiContext);
           }),
         // 拖动图片
-        PanGesture({ fingers: 1 })
+        PanGesture(this.panOption)
           .onActionUpdate((event: GestureEvent) => {
-            if (this.imageWH != ImageFitType.TYPE_DEFAULT) {
+            // if (this.imageWH != ImageFitType.TYPE_DEFAULT) {
               if (this.eventOffsetX != event.offsetX || event.offsetY != this.eventOffsetY) {
                 this.eventOffsetX = event.offsetX;
                 this.eventOffsetY = event.offsetY;
                 this.setCrossAxis(event);
                 this.setPrincipalAxis(event);
               }
-            }
+            // }
           })
           .onActionEnd((event: GestureEvent) => {
             this.imageOffsetInfo.stash();
@@ -473,6 +503,7 @@ export struct PicturePreviewImage {
           })
           .onActionEnd((event: GestureEvent) => {
             let rotate = simplestRotationQuarter(this.imageRotateInfo.currentRotate);
+            let uiContext: UIContext = this.getUIContext();
             runWithAnimation(() => {
               this.imageRotateInfo.currentRotate = rotate;
               this.matrix = matrix4.identity()
@@ -485,7 +516,7 @@ export struct PicturePreviewImage {
               this.imageRotateInfo.stash();
               this.imageScaleInfo.reset();
               this.imageOffsetInfo.reset();
-            })
+            }, uiContext)
           }),
         // TODO：知识点：双指捏合缩放图片
         PinchGesture({ fingers: 2, distance: 1 })
@@ -520,6 +551,7 @@ export struct PicturePreviewImage {
           .onActionEnd((event: GestureEvent) => {
             // TODO：知识点：当小于默认大小时，恢复为默认大小4
             if (this.imageScaleInfo.scaleValue < this.imageScaleInfo.defaultScaleValue) {
+              let uiContext: UIContext = this.getUIContext();
               runWithAnimation(() => {
                 this.imageScaleInfo.reset();
                 this.imageOffsetInfo.reset();
@@ -529,10 +561,11 @@ export struct PicturePreviewImage {
                   z: 1,
                   angle: this.imageRotateInfo.currentRotate,
                 }).copy();
-              })
+              }, uiContext)
             }
             // TODO：知识点：当大于最大缩放因子时，恢复到最大
             if (this.imageScaleInfo.scaleValue > this.imageScaleInfo.maxScaleValue) {
+              let uiContext: UIContext = this.getUIContext();
               runWithAnimation(() => {
                 this.imageScaleInfo.scaleValue = this.imageScaleInfo.maxScaleValue;
                 this.matrix = matrix4.identity()
@@ -545,7 +578,7 @@ export struct PicturePreviewImage {
                     z: 1,
                     angle: this.imageRotateInfo.currentRotate,
                   });
-              })
+              }, uiContext)
             }
             this.imageScaleInfo.stash();
           })
