@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,6 +17,9 @@
 /**
  *  首页瀑布流列表信息
  */
+
+import { ResourceStr } from '@kit.ArkUI';
+
 export class SceneModuleInfo {
   // 首页列表名称
   public name: string;

@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,51 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  PersistentStorage,
+  Component,
+  StorageLink,
+  State,
+  AppStorage,
+  getUIContext,
+  $r,
+  Curve,
+  TouchEvent,
+  Builder,
+  Column,
+  Text,
+  HorizontalAlign,
+  Grid,
+  ForEach,
+  GridItem,
+  Color,
+  Span,
+  Row,
+  Image,
+  TransitionEffect,
+  FlexAlign,
+  Search,
+  ItemAlign,
+  FontWeight,
+  Blank,
+  DialogAlignment,
+  Visibility,
+  Scroll,
+  Flex,
+  FlexWrap,
+  BarState,
+  Alignment,
+  TouchType,
+  List,
+  ListItem,
+  TextOverflow,
+  VerticalAlign,
+  EdgeEffect,
+  StickyStyle,
+  Header,
+  ModalTransition,
+} from '@kit.ArkUI';
 
 import { SceneModuleInfo } from '../model/SceneModuleInfo';
 import { promptAction, ShowDialogSuccessResponse } from '@kit.ArkUI';
@@ -55,7 +101,7 @@ export struct SearchComponent {
   @State searchInputWidth: number = 0;
   private searchClassifyData: String[] = ['UI布局', '动效', '三方库', 'Native', '性能示例', '其他'];
   // 从AppStorage中获取设别类别，判断是否为折叠屏
-  isFoldable: boolean | undefined = AppStorage.get('isFoldable');
+  isFoldable: boolean | undefined = AppStorage.get<boolean>('isFoldable');
 
   aboutToAppear(): void {
     this.setSearchInputWidth();
@@ -66,7 +112,7 @@ export struct SearchComponent {
         this.avoidAreaHeight = avoidArea.topRect.height;
       }
     })
-    let context = getContext() as common.UIAbilityContext
+    let context = getUIContext().getHostContext() as common.UIAbilityContext
     window.getLastWindow(context).then((windowClass) => {
       windowClass.on('windowSizeChange', () => {
         this.setSearchInputWidth();
@@ -75,11 +121,11 @@ export struct SearchComponent {
   }
 
   setSearchInputWidth() {
-    let context = getContext() as common.UIAbilityContext;
+    let context = getUIContext().getHostContext() as common.UIAbilityContext;
     window.getLastWindow(context).then((windowClass) => {
       const windowsProperties = windowClass.getWindowProperties().windowRect.width;
       //32为左右边距、24为菜单图标宽度、8为搜索宽与图标之间的距离
-      this.searchInputWidth = px2vp(windowsProperties) - 32 - 24 - 8;
+      this.searchInputWidth = getUIContext().px2vp(windowsProperties) - 32 - 24 - 8;
     })
   }
 
@@ -90,7 +136,7 @@ export struct SearchComponent {
   searchFunc(value: string, category: string | undefined) {
     let newListData: SceneModuleInfo[] = [];
     if (this.searchListData !== undefined) {
-      for (let i = 0; i < this.searchListData.length; i++) {
+      for (let i: int = 0; i < this.searchListData.length; i++) {
         // 通过传入的category与范例数据进行匹配，category为undefined和空时表示不进行分类查找
         const isCategoryItem: boolean =
           (category === undefined || category?.length === 0) ? true :
@@ -105,7 +151,7 @@ export struct SearchComponent {
       }
     }
     if (value !== '' && newListData.length === 0) {
-      promptAction.showToast({ message: $r('app.string.search_component_content_alarm') });
+      getUIContext().getPromptAction.showToast({ message: $r('app.string.search_component_content_alarm') });
     }
     // 判断是否有输入的值
     if (value.length !== 0) {
@@ -121,7 +167,7 @@ export struct SearchComponent {
    */
   private onSearchClicked(): void {
     this.geometryId = 'search';
-    animateTo({
+    getUIContext().animateTo({
       duration: 100,
       // 构造插值器弹簧曲线对象，生成一条从0到1的动画曲线
       curve: curves.interpolatingSpring(0, 1, 324, 38)
@@ -136,7 +182,7 @@ export struct SearchComponent {
    */
   private onArrowClicked(): void {
     this.geometryId = 'search';
-    animateTo({
+    getUIContext().animateTo({
       // 构造插值器弹簧曲线对象，生成一条从0到1的动画曲线
       curve: curves.interpolatingSpring(0, 1, 342, 38)
     }, () => {
@@ -151,7 +197,7 @@ export struct SearchComponent {
   // 点击提示列表/历史记录进入范例页
   private onItemClicked(): void {
     this.geometryId = 'search';
-    animateTo({
+    getUIContext().animateTo({
       curve: Curve.Ease,
       duration: 20
     }, () => {
@@ -294,7 +340,7 @@ export struct SearchComponent {
             .id('delete_history')
             .onClick(() => {
               // 清空历史记录-确认弹框
-              promptAction.showDialog({
+              getUIContext().getPromptAction.showDialog({
                 message: $r('app.string.search_component_search_delete_title'),
                 alignment: DialogAlignment.Center,
                 buttons: [
@@ -452,7 +498,7 @@ export struct SearchComponent {
     .transition(TransitionEffect.opacity(0))
     .backgroundColor(Color.White)
     .padding({
-      top: px2vp(this.avoidAreaHeight)
+      top: getUIContext().px2vp(this.avoidAreaHeight)
     })
     .width('100%')
     .height('120%')
@@ -479,7 +525,9 @@ export struct SearchComponent {
       }))
       .backgroundColor('#E7E9E8')
       .borderRadius($r('app.integer.search_component_search_border_radius'))// TODO：知识点：通过bindContentCover属性为组件绑定全屏模态页面，在组件插入和删除时可通过设置转场参数ModalTransition显示过渡动效
-      .bindContentCover(this.isSearchPageShow, this.searchPage(), {
+      .bindContentCover(this.isSearchPageShow, () => {
+        this.searchPage()
+      }, {
         modalTransition: ModalTransition.NONE,
         onDisappear: () => {
           this.onArrowClicked();
