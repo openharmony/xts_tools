@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 
+import Ability from '@ohos.app.ability.Ability';//新增
+import Want from '@ohos.app.ability.Want';//新增
+import AbilityConstant from '@ohos.app.ability.AbilityConstant';
 import Logger from '../model/Logger'
 import UIAbility from '@ohos.app.ability.UIAbility';
 import Window from '@ohos.window'
@@ -21,7 +24,7 @@ import abilityAccessCtrl from '@ohos.abilityAccessCtrl';
 import type { Permissions } from '@ohos.abilityAccessCtrl';
 
 export default class EntryAbility extends UIAbility {
-  onCreate(want, launchParam) {
+  onCreate(want: Want, launchParam:AbilityConstant.LaunchParam): void {
     Logger.info('Ability onCreate')
     const PERMISSIONS: Array<Permissions> = ['ohos.permission.LOCATION', 'ohos.permission.APPROXIMATELY_LOCATION'];
     try {
@@ -38,7 +41,7 @@ export default class EntryAbility extends UIAbility {
   onWindowStageCreate(windowStage: Window.WindowStage) {
     Logger.info('Ability onWindowStageCreate')
     windowStage.loadContent('pages/Index', (err, data) => {
-      if (err.code) {
+      if (err!.code) {
         Logger.error(`Failed to load the content. Cause: ${JSON.stringify(err)}`)
         return
       }

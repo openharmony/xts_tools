@@ -24,9 +24,10 @@ import {
   Image,
   ImageFit,
   ButtonType,
-  getUIContext,
+  Margin,
+  Padding,
 } from '@kit.ArkUI';
-
+import { UIContext } from '@ohos.arkui.UIContext'
 import router from '@ohos.router'
 
 @Component
@@ -38,7 +39,7 @@ export struct TitleBar {
         .fontSize(25)
         .layoutWeight(1)
 
-      Button() {
+      Button($r('app.string.sure')) {
         Image($r('app.media.about'))
           .size({ width: 60, height: '95%' })
           .objectFit(ImageFit.Contain)
@@ -48,13 +49,13 @@ export struct TitleBar {
       .height('90%')
       .backgroundColor($r('app.color.button_color'))
       .onClick(() => {
-        getUIContext().getRouter.pushUrl({ url: 'pages/About' })
+        this.getUIContext().getRouter().pushUrl({ url: 'pages/About' })
       })
     }
     .width('100%')
     .height('8%')
     .constraintSize({ minHeight: 50 })
-    .padding({ left: 15 })
+    .padding({ left: 15 }as Padding)
     .backgroundColor($r('app.color.button_color'))
   }
 }

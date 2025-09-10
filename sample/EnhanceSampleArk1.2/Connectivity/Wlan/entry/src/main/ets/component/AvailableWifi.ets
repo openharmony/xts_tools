@@ -27,6 +27,10 @@ import {
   $r,
   LazyForEach,
   Color,
+  Margin,
+  Padding,
+  ClickEvent,
+  IDataSource
 } from '@kit.ArkUI';
 
 import prompt from '@ohos.promptAction'
@@ -35,7 +39,22 @@ import { PswDialog } from '../component/PswDialog'
 import { WifiModel } from '../model/WifiModel'
 import { WifiView } from '../component/WifiView'
 import WifiDataSource from '../component/BasicDataSource'
-import wifi from '@ohos.wifiManager'
+import wifiManager from '@ohos.wifiManager'
+interface WifiScanInfo {
+  ssid: string;
+  bssid: string;
+  securityType: number; // 0: OPEN, 1: WEP, 2: WPA, etc.
+  rssi: number;
+  frequency: number;
+  timestamp: number;
+}
+interface WifiData {
+  ssid: string;        // WiFi名称
+  bssid: string;       // BSSID（MAC地址）
+  securityType: number; // 安全类型
+  rssi: number;        // 信号强度
+
+}
 
 const TAG = 'AvailableWiFi'
 let self = null
@@ -43,10 +62,11 @@ let self = null
 @Component
 export struct AvailableWifi {
   private wifiModel = new WifiModel()
-  private linkedInfo: wifi.WifiLinkedInfo = null
-  @StorageLink('wifiList') @Watch('wifiListRefresh') wifiList: Array<wifi.WifiScanInfo> = []
+  private linkedInfo: wifiManager.WifiLinkedInfo| null  = null
+  private self: AvailableWifi | null = null;
+  @StorageLink('wifiList') @Watch('wifiListRefresh') wifiList: Array<wifiManager.WifiScanInfo> = []
   @State wifiDataResource: WifiDataSource = new WifiDataSource(this.wifiList)
-  @State scanInfo: wifi.WifiScanInfo = undefined
+  @State scanInfo: wifiManager.WifiScanInfo| undefined = undefined
   private pswDialogController: CustomDialogController = new CustomDialogController({
     builder: PswDialog({ scanInfo: this.scanInfo, action: this.onAccept }),
     autoCancel: true
@@ -64,16 +84,16 @@ export struct AvailableWifi {
         .width('100%')
       }
 
-      LazyForEach(this.wifiDataResource, (item, index) => {
+      LazyForEach(this.wifiDataResource as IDataSource<wifiManager.WifiScanInfo>, (item:wifiManager.WifiScanInfo, index:number) => {
         ListItem() {
           WifiView({ wifi: item })
         }
         .id(`Wifi${index}`)
-        .onClick(() => {
+        .onClick((e:ClickEvent) => {
           Logger.info(TAG, 'wifi click')
           this.scanInfo = item
-          if (this.linkedInfo !== null && item.ssid === this.linkedInfo.ssid) {
-            prompt.showToast({ message: 'this wifi is connected' })
+          if (this.linkedInfo !== null && item.ssid === this.linkedInfo!.ssid) {
+            prompt.openToast({ message: 'this wifi is connected' })
             return
           }
           if (item.securityType === 0 || item.securityType === 1) {
@@ -82,27 +102,27 @@ export struct AvailableWifi {
           }
           this.pswDialogController.open()
         })
-      }, item => JSON.stringify(item))
+      }, (item:wifiManager.WifiScanInfo) => JSON.stringify(item ))
     }
     .width('100%')
     .height('100%')
-    .padding({ left: 16, right: 16 })
+    .padding({ left: 16, right: 16 }as Padding)
     .layoutWeight(1)
     .divider({ strokeWidth: 1, color: Color.Gray, startMargin: 10, endMargin: 10 })
-    .margin({ top: 10 })
+    .margin({ top: 10 }as Margin)
   }
 
-  onAccept(scanInfo, psw) {
+  onAccept(scanInfo: wifiManager.WifiScanInfo, psw: string) {
     Logger.info(TAG, 'connect wifi')
-    self.wifiModel.connectNetwork(scanInfo, psw)
+    this.self!.wifiModel.connectNetwork(scanInfo, psw)
   }
 
   aboutToAppear() {
-    self = this
+    this.self = this
   }
 
   wifiListRefresh() {
-    this.wifiDataResource['dataArray'] = this.wifiList
+    this.wifiDataResource.dataArray = this.wifiList
     this.wifiDataResource.notifyDataReload()
   }
 }

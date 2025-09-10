@@ -27,32 +27,55 @@ import {
   Toggle,
   ToggleType,
   Color,
+  Margin,
+  Padding,
+  ClickEvent,
 } from '@kit.ArkUI';
 
-import wifi from '@ohos.wifiManager';
+import wifiManager from '@ohos.wifiManager';
 import { AvailableWifi } from '../component/AvailableWifi';
 import Logger from '../model/Logger';
 import { TitleBar } from '../component/TitleBar';
-import { WifiModel, WifiType } from '../model/WifiModel';
+import { WifiModel } from '../model/WifiModel';
+interface AppError {
+  code?: string | number;
+  message?: string;
+  // 其他可能的属性
+}
 
 const TAG = 'Index';
+interface WifiItem {
+  ssid: string;
+  bssid: string;
+  securityType: number;
+  rssi: number;
 
+}
+interface WifiType  {
+  ssid: string
+  bssid: string
+  securityType: wifiManager.WifiSecurityType
+  rssi: number
+  band: number
+  frequency: number
+  timestamp: number
+}
 @Entry
 @Component
 struct Index {
   private wifiModel: WifiModel = new WifiModel();
-  private linkedInfo: wifi.WifiLinkedInfo = null;
+  private linkedInfo: wifiManager.WifiLinkedInfo|null = null;
   @State isLinked: boolean = false;
   @State isSwitchOn: boolean = false;
 
   // 扫描wifi
   async scan() {
     // 获取有关Wi-Fi连接的信息,存入linkedInfo
-    await this.getLinkedInfo();
+     this.getLinkedInfo();
     // 不停地扫描wifi
-    let result: Array<WifiType> = await this.wifiModel.getScanInfos();
+    let result: Array<WifiType> = await this.wifiModel.getScanInfos() as Array<WifiType>;
     if (this.isSwitchOn) {
-      AppStorage.SetOrCreate('wifiList', result);
+      AppStorage.setOrCreate('wifiList', result);
       setTimeout(async () => {
         await this.scan();
       }, 3000)
@@ -62,11 +85,11 @@ struct Index {
   // 获取有关Wi-Fi连接的信息,存入linkedInfo
   async getLinkedInfo() {
     try {
-      let wifiLinkedInfo = await wifi.getLinkedInfo();
+      let wifiLinkedInfo = await wifiManager.getLinkedInfo();
       if (wifiLinkedInfo === null || wifiLinkedInfo.bssid === '') {
         this.isLinked = false;
         this.linkedInfo = null;
-        return;
+        return undefined;
       }
       this.isLinked = true;
       this.linkedInfo = wifiLinkedInfo;
@@ -78,14 +101,14 @@ struct Index {
   // 监听wifi的变化
   addListener() {
     // 连接状态改变时，修改连接信息
-    wifi.on('wifiConnectionChange', async state => {
+    wifiManager.on('wifiConnectionChange', (state) => {
       Logger.log(TAG, `wifiConnectionChange: ${state}`);
-      await this.getLinkedInfo();
+    this.getLinkedInfo();
     })
     // wifi状态改变时，先清空wifi列表，然后判断是否是开启状态，如果是就扫描
-    wifi.on('wifiStateChange', state => {
+    wifiManager.on('wifiStateChange', state => {
       Logger.log(TAG, `wifiStateLisener state: ${state}`);
-      AppStorage.SetOrCreate('wifiList', []);
+      AppStorage.setOrCreate('wifiList', [] as WifiItem[]);
       if (state === 1) { // 1: wifi is enable, 0:wifi is disable
         this.scan();
       }
@@ -94,11 +117,11 @@ struct Index {
 
   aboutToAppear() {
     // 如果wifi是开的，就记录下状态，然后扫描wifi，并获取连接信息
-    if (wifi.isWifiActive()) {
+    if (wifiManager.isWifiActive()) {
       Logger.log(TAG, 'wifi is active');
       this.isSwitchOn = true;
       try {
-        wifi.scan();
+        wifiManager.scan();
       } catch (error) {
         Logger.error(TAG, "scan faild:" + JSON.stringify(error));
       }
@@ -122,28 +145,28 @@ struct Index {
             .id('switch')
             .onChange((isOn: boolean) => {
               Logger.log(`LSQ: wifi swtich is: ${isOn}`);
-              AppStorage.SetOrCreate('wifiList', []);
+              AppStorage.setOrCreate('wifiList', []as WifiItem[]);
               try {
                 // 如果是打开状态，记录状态，打开网络，开始扫描
                 if (isOn) {
                   this.isSwitchOn = true;
-                  wifi.enableWifi();
+                  wifiManager.enableWifi();
                   return
                 } else {
                   // 记录状态，断开网络禁用网络
                   this.isSwitchOn = false;
                   this.isLinked = false;
-                  wifi.disconnect();
-                  wifi.disableWifi();
+                  wifiManager.disconnect();
+                  wifiManager.disableWifi();
                 }
               } catch (error) {
-                Logger.error(TAG, `failed,code:${JSON.stringify(error.code)},message:${JSON.stringify(error.message)}`);
+                Logger.error(TAG, `failed,code:${JSON.stringify((error as AppError).code)},message:${JSON.stringify((error as AppError).message)}`);
               }
             })
         }
       }
       .width('100%')
-      .padding({ left: 16, right: 16 })
+      .padding({ left: 16, right: 16 }as Padding)
 
       if (this.isLinked && this.isSwitchOn) {
         Column() {
@@ -151,7 +174,7 @@ struct Index {
             .fontSize(22)
             .width('100%')
           Row() {
-            Text(this.linkedInfo.ssid)
+            Text(this.linkedInfo!.ssid)
               .fontSize(20)
               .fontColor(Color.Black)
               .layoutWeight(1)
@@ -161,12 +184,12 @@ struct Index {
           }
           .width('100%')
           .padding(10)
-          .margin({ left: 16, right: 16 })
+          .margin({ left: 16, right: 16 }as Margin)
           .border({ radius: 15, color: Color.Gray, width: 1 })
           .backgroundColor(Color.White)
         }
         .width('100%')
-        .padding({ left: 16, right: 16 })
+        .padding({ left: 16, right: 16 }as Padding)
       }
       if (this.isSwitchOn) {
         AvailableWifi({ linkedInfo: this.linkedInfo });
@@ -178,7 +201,7 @@ struct Index {
   }
 
   aboutToDisappear() {
-    wifi.off('wifiConnectionChange');
-    wifi.off('wifiStateChange');
+    wifiManager.off('wifiConnectionChange');
+    wifiManager.off('wifiStateChange');
   }
 }

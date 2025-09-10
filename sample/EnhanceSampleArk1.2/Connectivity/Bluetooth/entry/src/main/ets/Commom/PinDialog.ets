@@ -31,6 +31,8 @@ import {
   Row,
   Checkbox,
   Divider,
+  ColumnOptions,
+  Margin,
 } from '@kit.ArkUI';
 
 import bluetooth from '@ohos.bluetooth'
@@ -45,7 +47,7 @@ export struct PinDialog {
   @State titleText: string = ''
   @State pinCode: string = ''
 
-  @Builder choiceText(message: Resource, handlerClick) {
+  @Builder choiceText(message: Resource, handlerClick: () => void) {//解决
     Text(message)
       .width('50%')
       .fontSize(30)
@@ -55,23 +57,24 @@ export struct PinDialog {
   }
 
   aboutToAppear() {
-    this.titleText = `"${this.data.deviceId}"要与您配对。请确认此配对码已在"${this.data.deviceId}"上直接显示，且不是手动输入的。`
-    this.pinCode = JSON.stringify(this.data.pinCode)
+    this.titleText = `"${this.data!.deviceId?.toString() ?? '未知设备'}"要与您配对。请确认此配对码已在"${this.data!.deviceId ?? '该设备'}"上直接显示，且不是手动输入的。`
+    this.pinCode = JSON.stringify(Number(this.data!.pinCode));//新增
+
   }
 
   build() {
-    Column({ space: 10 }) {
+    Column({ space: 10 } as ColumnOptions) {
       Text($r('app.string.match_request'))
         .fontSize(30)
         .alignSelf(ItemAlign.Start)
       Text(this.titleText)
         .alignSelf(ItemAlign.Start)
-        .margin({ top: 20 })
+        .margin({ top: 20 } as Margin)
         .fontSize(21)
       Text(this.pinCode)
         .fontSize(40)
         .fontWeight(FontWeight.Bold)
-        .margin({ top: 20 })
+        .margin({ top: 20 }as Margin)
       Flex({ direction: FlexDirection.Row, alignItems: ItemAlign.Center }) {
         Checkbox({ name: 'checkbox' })
           .select(false)
@@ -79,17 +82,17 @@ export struct PinDialog {
           .key('checkBox')
         Text($r('app.string.grant_permission'))
           .fontSize(15)
-          .margin({ left: 3, top: 6 })
+          .margin({ left: 3, top: 6 } as Margin)
       }
       .alignSelf(ItemAlign.Start)
       .width('95%')
-      .margin({ top: 5 })
+      .margin({ top: 5 } as Margin)
 
       Row() {
         this.choiceText($r('app.string.cancel'), () => {
-          bluetooth.setDevicePairingConfirmation(this.data.deviceId, false)
-          logger.info(TAG, `setDevicePairingConfirmation = ${bluetooth.setDevicePairingConfirmation(this.data.deviceId, false)}`)
-          this.controller.close()
+          bluetooth.setDevicePairingConfirmation(this.data!.deviceId, false)
+          logger.info(TAG, `setDevicePairingConfirmation = ${bluetooth.setDevicePairingConfirmation(this.data!.deviceId, false)}`)
+          this.controller!.close()
         })
 
         Divider()
@@ -97,12 +100,12 @@ export struct PinDialog {
           .height(32)
 
         this.choiceText($r('app.string.match'), () => {
-          bluetooth.setDevicePairingConfirmation(this.data.deviceId, true)
-          logger.info(TAG, `setDevicePairingConfirmation = ${bluetooth.setDevicePairingConfirmation(this.data.deviceId, true)}`)
-          this.controller.close()
+          bluetooth.setDevicePairingConfirmation(this.data!.deviceId, true)
+          logger.info(TAG, `setDevicePairingConfirmation = ${bluetooth.setDevicePairingConfirmation(this.data!.deviceId, true)}`)
+          this.controller!.close()
         })
       }
-      .margin({ top: 20 })
+      .margin({ top: 20 } as Margin)
     }
     .width('100%')
     .padding(15)

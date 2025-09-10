@@ -26,6 +26,9 @@ import {
   Row,
   Button,
   $r,
+  Margin,
+  ClickEvent,
+  State
 } from '@kit.ArkUI';
 
 import wifi from '@ohos.wifiManager'
@@ -34,8 +37,8 @@ import wifi from '@ohos.wifiManager'
 export struct PswDialog {
   @Link scanInfo: wifi.WifiScanInfo
   private psw: string = ''
-  private controller: CustomDialogController
-  private action: (scanInfo, psw) => void
+  private controller: CustomDialogController= new CustomDialogController({builder:()=>{}})
+  private action: (scanInfo: wifi.WifiScanInfo, psw: string) => void= (scanInfo, psw) => {};
 
   build() {
     Column() {
@@ -48,15 +51,15 @@ export struct PswDialog {
         .type(InputType.Password)
         .placeholderColor(Color.Gray)
         .fontSize(19)
-        .margin({ top: 15 })
+        .margin({ top: 15 } as Margin)
         .width('95%')
         .height(36)
-        .onChange((value: string) => {
+        .onChange((value: string) :void => {
           this.psw = value
         })
 
       Row() {
-        Button() {
+        Button($r('app.string.sure')) {
           Text($r('app.string.sure'))
             .fontColor(Color.Blue)
             .fontSize(17)
@@ -65,7 +68,7 @@ export struct PswDialog {
         .layoutWeight(7)
         .backgroundColor(Color.White)
         .margin(5)
-        .onClick(() => {
+        .onClick((e:ClickEvent) => {
           this.controller.close()
           this.action(this.scanInfo, this.psw)
         })
@@ -76,7 +79,7 @@ export struct PswDialog {
           .height(35)
           .backgroundColor($r('app.color.text_color'))
 
-        Button() {
+        Button($r('app.string.sure')) {
           Text($r('app.string.cancel'))
             .fontColor(Color.Red)
             .fontSize(17)
@@ -84,12 +87,12 @@ export struct PswDialog {
         .layoutWeight(7)
         .backgroundColor(Color.White)
         .margin(5)
-        .onClick(() => {
+        .onClick((e:ClickEvent) => {
           this.controller.close()
         })
       }
       .width('100%')
-      .margin({ top: '3%' })
+      .margin({ top: '3%' } as Margin)
     }
     .padding(15)
   }

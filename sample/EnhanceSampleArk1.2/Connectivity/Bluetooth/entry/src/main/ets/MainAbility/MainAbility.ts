@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import UIAbility from '@ohos.app.ability.UIAbility'
 import logger from '../Model/Logger'
 import abilityAccessCtrl from '@ohos.abilityAccessCtrl'

@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import hilog from '@ohos.hilog'
 
 class Logger {
@@ -24,19 +25,19 @@ class Logger {
     this.domain = 0xFF00
   }
 
-  debug(...args: any[]) {
+  debug(...args: (string | number | boolean)[]) {
     hilog.debug(this.domain, this.prefix, this.format, args)
   }
 
-  info(...args: any[]) {
+  info(...args: (string | number | boolean)[]) {
     hilog.info(this.domain, this.prefix, this.format, args)
   }
 
-  warn(...args: any[]) {
+  warn(...args: (string | number | boolean)[]) {
     hilog.warn(this.domain, this.prefix, this.format, args)
   }
 
-  error(...args: any[]) {
+  error(...args: (string | number | boolean)[]) {
     hilog.error(this.domain, this.prefix, this.format, args)
   }
 }
