@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,6 +15,9 @@
  */
 
 // 旋转信息
+
+import { Observed } from '@kit.ArkUI';
+
 @Observed
 export class RotateModel {
   // 当前旋转角度
@@ -36,7 +40,7 @@ export class RotateModel {
   // 保存最后的数据
   stash(): void {
     // 一个完整的圆的角度是360度
-    let angle = 360;
+    let angle: int = 360;
     this.lastRotate = this.currentRotate % angle;
   }
 

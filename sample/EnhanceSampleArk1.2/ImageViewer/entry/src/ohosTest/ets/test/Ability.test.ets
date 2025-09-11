@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,7 +21,7 @@ import AbilityDelegatorRegistry from '@ohos.app.ability.abilityDelegatorRegistry
 const TAG = '[Sample_ImageViewer]';
 const CASE: string = 'imageviewer'; // 案例名称
 const CASE_NAME: string = '图片缩放效果实现'; // 案例中文名称
-const DELAY_MS_2000: number = 2000; // 指定2000ms的延迟
+const DELAY_MS_2000: int = 2000; // 指定2000ms的延迟
 
 export default function abilityTest() {
   describe('ActsAbilityTest', () => {
@@ -38,7 +39,7 @@ export default function abilityTest() {
       }
       await driver.delayMs(DELAY_MS_2000);
       Logger.info(TAG, 'beforeAll end');
-      done();
+      done.unsafeCall();
     });
 
     const driver = Driver.create();
@@ -54,7 +55,7 @@ export default function abilityTest() {
       const afterTop = (await image.getBounds()).top;
       await expect(afterTop < beforeTop).assertEqual(true); // 通过图片顶部位置来判断
       await driver.delayMs(500);
-      done();
+      done.unsafeCall();
     })
 
     /**
@@ -67,7 +68,7 @@ export default function abilityTest() {
       const afterBottom = (await image.getBounds()).bottom;
       await expect(afterBottom < beforeBottom).assertEqual(true); // 通过图片中部位置来判断是否拖动
       await driver.delayMs(500);
-      done();
+      done.unsafeCall();
     })
 
     /**
@@ -80,7 +81,7 @@ export default function abilityTest() {
       const afterTop = (await image.getBounds()).top;
       await expect(afterTop > beforeTop).assertEqual(true); // 通过图片中部位置来判断图片大小是否改变
       await driver.delayMs(500);
-      done();
+      done.unsafeCall();
     })
   })
 }
