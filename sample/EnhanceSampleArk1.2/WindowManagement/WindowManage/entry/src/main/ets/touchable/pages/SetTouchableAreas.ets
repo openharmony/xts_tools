@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,19 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  Callback,
+  getUIContext,
+  Column,
+  Text,
+  $r,
+  TextAlign,
+  FlexAlign,
+  HorizontalAlign,
+} from '@kit.ArkUI';
+
 import { window } from '@kit.ArkUI';
 import logger from '../../utils/Logger';
 import promptAction from '@ohos.promptAction';
@@ -21,7 +35,7 @@ import promptAction from '@ohos.promptAction';
 @Component
 struct SetTouchableAreas {
   private onButtonClick: Callback<string> = (msg: string) => {
-    promptAction.showToast({
+    getUIContext().getPromptAction().showToast({
       message: `click ${msg}`,
       duration: 2000,
       bottom: 100
@@ -44,7 +58,7 @@ struct SetTouchableAreas {
         .backgroundColor($r("app.color.light_gray"))
         .textAlign(TextAlign.Center)
         .id('area1')
-        .onClick(async () => this.onButtonClick(await getContext(this)
+        .onClick(async () => this.onButtonClick(await getUIContext().getHostContext(this)
           .resourceManager
           .getStringValue($r("app.string.area1"))))
       Text($r("app.string.area2"))
@@ -53,7 +67,7 @@ struct SetTouchableAreas {
         .backgroundColor($r("app.color.blue"))
         .textAlign(TextAlign.Center)
         .id('area2')
-        .onClick(async () => this.onButtonClick(await getContext(this)
+        .onClick(async () => this.onButtonClick(await getUIContext().getHostContext(this)
           .resourceManager
           .getStringValue($r("app.string.area2"))))
       Text($r("app.string.area3"))
@@ -62,7 +76,7 @@ struct SetTouchableAreas {
         .backgroundColor($r("app.color.red"))
         .textAlign(TextAlign.Center)
         .id('area3')
-        .onClick(async () => this.onButtonClick(await getContext(this)
+        .onClick(async () => this.onButtonClick(await getUIContext().getHostContext(this)
           .resourceManager
           .getStringValue($r("app.string.area3"))))
       Text($r("app.string.area4"))
@@ -71,7 +85,7 @@ struct SetTouchableAreas {
         .backgroundColor($r("app.color.green"))
         .textAlign(TextAlign.Center)
         .id('area4')
-        .onClick(async () => this.onButtonClick(await getContext(this)
+        .onClick(async () => this.onButtonClick(await getUIContext().getHostContext(this)
           .resourceManager
           .getStringValue($r("app.string.area4"))))
     }
@@ -83,18 +97,18 @@ struct SetTouchableAreas {
   }
 
   async clearTouchableAreas() {
-    const parentWindow: window.Window = await window.getLastWindow(getContext(this));
+    const parentWindow: window.Window = await window.getLastWindow(getUIContext().getHostContext(this));
     parentWindow.setTouchableAreas([]);
   }
 
   async setTouchableAreas() {
-    const parentWindow: window.Window = await window.getLastWindow(getContext(this));
+    const parentWindow: window.Window = await window.getLastWindow(getUIContext().getHostContext(this));
     const windowWidth = parentWindow.getWindowProperties();
     const rect = windowWidth.windowRect;
-    const top = rect.top;
-    const left = rect.left;
-    const width = rect.width;
-    const height = rect.height;
+    const top: int = rect.top;
+    const left: int = rect.left;
+    const width: int = rect.width;
+    const height: int = rect.height;
     try {
       parentWindow.setTouchableAreas([
         { top: top, left: left, width: width, height: height / 4 },

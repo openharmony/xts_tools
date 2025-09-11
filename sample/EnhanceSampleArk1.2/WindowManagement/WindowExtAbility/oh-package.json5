@@ -14,13 +14,10 @@
  */
 
 {
-  "license": "ISC",
-  "devDependencies": {
-    "@ohos/hypium": "1.0.6"
+  "modelVersion": "6.0.0",
+  "description": "Please describe the basic information.",
+  "dependencies": {
   },
-  "name": "windowextability",
-  "description": "example description",
-  "repository": {},
-  "version": "1.0.0",
-  "dependencies": {}
+  "devDependencies": {
+  }
 }

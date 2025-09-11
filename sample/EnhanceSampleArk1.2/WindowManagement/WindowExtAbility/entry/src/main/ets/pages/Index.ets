@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  Row,
+  Column,
+  Text,
+  $r,
+  FontWeight,
+  Blank,
+  ForEach,
+  Divider,
+  Image,
+  ImageFit,
+  Color,
+  Builder,
+} from '@kit.ArkUI';
 
 import router from '@ohos.router'
 import mediaQuery from '@ohos.mediaquery'

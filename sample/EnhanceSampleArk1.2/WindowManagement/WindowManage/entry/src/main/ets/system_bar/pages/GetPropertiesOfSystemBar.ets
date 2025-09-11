@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  Column,
+  Text,
+  Button,
+  $r,
+  FlexAlign,
+  HorizontalAlign,
+  getUIContext,
+  ButtonAttribute,
+  Length,
+} from '@kit.ArkUI';
 
 import { window } from '@kit.ArkUI';
 
@@ -45,18 +61,18 @@ struct GetPropertiesOfSystemBar {
   }
 
   async showPropertiesOfSystemBar() {
-    const parentWindow: window.Window = await window.getLastWindow(getContext(this));
+    const parentWindow: window.Window = await window.getLastWindow(getUIContext().getHostContext(this));
     const windowSystemBarProperties: window.SystemBarProperties = parentWindow.getWindowSystemBarProperties();
     this.colorText = JSON.stringify(windowSystemBarProperties, null, 4);
   }
 }
 
-@Extend(Button)
-function standardButton(fontSize: number, width: Length) {
-  .fontSize(fontSize)
-  .fontColor($r('app.color.dark_gray'))
-  .backgroundColor($r('app.color.white'))
-  .padding(15)
-  .margin({ top: 20 })
-  .width(width)
+function standardButton(this: ButtonAttribute, fontSize: number, width: Length): this {
+    this.fontSize(fontSize);
+    this.fontColor($r('app.color.dark_gray'));
+    this.backgroundColor($r('app.color.white'));
+    this.padding(15);
+    this.margin({ top: 20 });
+    this.width(width);
+    return this;
 }
