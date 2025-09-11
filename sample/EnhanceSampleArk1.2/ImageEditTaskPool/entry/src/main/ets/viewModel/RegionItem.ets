@@ -18,14 +18,14 @@ export class RegionItem {
   /**
    * width coordinate.
    */
-  x: number;
+  x: int;
 
   /**
    * height coordinate.
    */
-  y: number;
+  y: int;
 
-  constructor(x: number, y: number) {
+  constructor(x: int, y: int) {
     this.x = x;
     this.y = y;
   }

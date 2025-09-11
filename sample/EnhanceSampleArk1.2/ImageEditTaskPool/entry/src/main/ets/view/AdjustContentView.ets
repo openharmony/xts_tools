@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-import { PropRef } from '@kit.ArkUI';
-
 import {
   Component,
   State,
@@ -40,9 +38,11 @@ import {
   SliderChangeMode,
   CustomDialog,
   LoadingProgress,
+  Padding,
+  Margin,
+  EAWorker,
+  PropRef
 } from '@kit.ArkUI';
-
-import { MessageEvents, worker } from '@kit.ArkTS';
 
 import { image } from '@kit.ImageKit';
 import { adjustIconList, IconStatus } from '../viewModel/IconListViewModel';
@@ -51,15 +51,24 @@ import { AdjustId, HSVIndex, RGBIndex } from '../viewModel/OptionViewModel';
 import { adjustOpacity } from '../utils/OpacityUtil';
 import { MessageItem } from '../viewModel/MessageItem';
 import { CommonConstants } from '../common/constant/CommonConstants';
+import { adjustImageValues } from './WorkerPort'
+
+
+interface abc {
+  type: AdjustId,
+  bufferArray: ArrayBuffer,
+  sliderValue: number,
+  value: number
+}
 
 @Component
-export default struct AdjustContentView {
+export struct AdjustContentView {
   @State currentAdjustIndex: number = 0;
   @Consume('currentAdjustData') currentAdjustData: Array<number>;
   adjustIconList: Array<IconStatus> = adjustIconList;
 
   @Builder
-  TabBuilder(index: number, name: ResourceStr) {
+  TabBuilder(index: int, name: ResourceStr) {
     Column() {
       Row() {
         Image(this.currentAdjustIndex === index ? this.adjustIconList[index]?.chosen :
@@ -77,7 +86,7 @@ export default struct AdjustContentView {
       Text(name)
         .fontColor(this.currentAdjustIndex === index ? '#006CDE' : Color.White)
         .fontSize(10)
-        .padding({ top: 8 })
+        .padding({ top: 8 } as Padding)
     }
     .width('100%')
   }
@@ -97,7 +106,7 @@ export default struct AdjustContentView {
         .height('100%')
         .padding({
           bottom: 24
-        })
+        } as Padding)
       }
       .tabBar(() => {
         this.TabBuilder(AdjustId.BRIGHTNESS, $r('app.string.brightness'))
@@ -116,7 +125,7 @@ export default struct AdjustContentView {
         .height('100%')
         .padding({
           bottom: 24
-        })
+        } as Padding)
       }
       .tabBar(() => {
         this.TabBuilder(AdjustId.TRANSPARENCY, $r('app.string.transparency'))
@@ -135,14 +144,14 @@ export default struct AdjustContentView {
         .height('100%')
         .padding({
           bottom: 24
-        })
+        } as Padding)
       }
       .tabBar(() => {
         this.TabBuilder(AdjustId.SATURATION, $r('app.string.saturation'))
       })
     }
     .barHeight(60)
-    .padding({ bottom: 24 })
+    .padding({ bottom: 24 } as Padding)
     .onChange((index: number) => {
       this.currentAdjustIndex = index;
     })
@@ -151,11 +160,11 @@ export default struct AdjustContentView {
 
 @Component
 struct SliderCustom {
-  @PropRef currentIndex: number;
+  @PropRef currentIndex: int;
   @Link currentAdjustData: number[];
   @PropRef min: number;
   @PropRef max: number;
-  @Consume('pixelMap') pixelMap?: image.PixelMap;
+  @Consume('pixelMap') pixelMap: image.PixelMap;
   @Consume('isPixelMapChange') isPixelMapChange: boolean;
   private postState: boolean = true;
   saturationLastSlider: number = 100;
@@ -171,7 +180,7 @@ struct SliderCustom {
     Column() {
       Text(`${this.currentAdjustData[this.currentIndex]}`)
         .fontColor(Color.White)
-        .margin({ top: -24 })
+        .margin({ top: -24 } as Margin)
         .fontSize(16)
       Row() {
         Slider({
@@ -189,7 +198,7 @@ struct SliderCustom {
           .padding({
             right: 60,
             left: 60
-          })
+          } as Padding)
           .onChange((value: number, mode: SliderChangeMode) => {
             this.sliderChange(value > this.max ? this.max : value, mode);
           })
@@ -203,10 +212,10 @@ struct SliderCustom {
     if ((mode === SliderChangeMode.End) && (value !== this.currentAdjustData[this.currentIndex])) {
       this.currentAdjustData[this.currentIndex] = Math.round(value);
       switch (this.currentIndex) {
-        case AdjustId.BRIGHTNESS:
+        case AdjustId.BRIGHTNESS as int:
           this.postProcess(AdjustId.BRIGHTNESS, value);
           break;
-        case AdjustId.TRANSPARENCY:
+        case AdjustId.TRANSPARENCY as int:
           if (this.pixelMap) {
             adjustOpacity(this.pixelMap, Math.round(value))
               .then((pixelMap?: image.PixelMap) => {
@@ -217,7 +226,7 @@ struct SliderCustom {
               });
           }
           break;
-        case AdjustId.SATURATION:
+        case AdjustId.SATURATION as int:
           this.postProcess(AdjustId.SATURATION, value);
           break;
         default:
@@ -228,15 +237,15 @@ struct SliderCustom {
 
   // [Start postProcess_start]
   // ImageEditTaskPool/entry/src/main/ets/view/AdjustContentView.ets
-  async postProcess(type: AdjustId, value: number) {
+  async postProcess(type: AdjustId, value: number):Promise<void> {
     // [StartExclude postProcess_start]
     if (!this.pixelMap) {
       return;
     }
     let sliderValue = type === AdjustId.BRIGHTNESS ? this.brightnessLastSlider : this.saturationLastSlider;
-    const bufferArray = new ArrayBuffer(this.pixelMap.getPixelBytesNumber());
+    const bufferArray = new ArrayBuffer(this.pixelMap!.getPixelBytesNumber());
     // [EndExclude postProcess_start]
-    this.pixelMap.readPixelsToBuffer(bufferArray)
+    this.pixelMap!.readPixelsToBuffer(bufferArray)
       .then(() => {
         const buffers: ArrayBuffer[] = splitArrayBuffer(bufferArray, 240);
         const group = splitTask(buffers, type, sliderValue, value);
@@ -245,7 +254,7 @@ struct SliderCustom {
         taskpool.execute(group, taskpool.Priority.HIGH).then((ret) => {
           // Combine the results of each task execution
           const entireArrayBuffer = mergeArrayBuffers(ret);
-          // Update the UI based on the calculation results
+          // // Update the UI based on the calculation results
           this.updatePixelMap(entireArrayBuffer);
         });
         // [End execute_start]
@@ -305,7 +314,7 @@ function splitTask(buffers: ArrayBuffer[], type: AdjustId, sliderValue: number, 
       bufferArray: buffer,
       sliderValue,
       value
-    });
+    } as abc);
   }
   return group;
 }
@@ -313,7 +322,7 @@ function splitTask(buffers: ArrayBuffer[], type: AdjustId, sliderValue: number, 
 // [End postProcess_start]
 
 
-async function imageProcessing(args: ImageProcessing) {
+async function imageProcessing(args: ImageProcessing):Promise<undefined|ArrayBuffer> {
   const type: AdjustId = args.type;
   const bufferArray: ArrayBuffer = args.bufferArray;
   const value: number = args.value;
@@ -353,8 +362,8 @@ function splitArrayBuffer(buffer: ArrayBuffer, n: number): ArrayBuffer[] {
 }
 
 // [StartExclude split_buffer1]
-function buffer(bufferArray: ESObject, taskNum: int, sliderValue: number, value: number) {
-  let Workers: ESObject
+function buffer(bufferArray: ArrayBuffer, taskNum: int, sliderValue: number, value: number) {
+  let Workers: EAWorker = new EAWorker()
   // [EndExclude split_buffer1]
   // Assign the split pixels to the Worker instance.
   const buffers: ArrayBuffer[] = splitArrayBuffer(bufferArray, taskNum);
@@ -366,7 +375,9 @@ function buffer(bufferArray: ESObject, taskNum: int, sliderValue: number, value:
   let n: int = 0;
   let allocation: int = taskNum; // Number of tasks to be assigned
   for (let index: int = 0; index < taskNum; index++) {
-    Workers[index].postMessage(messages[n]); // Distribute the task to the corresponding Worker child thread instance.
+    let workerHandler = new concurrency.MessageHandler((msg: concurrency.Message) => {}, Workers);
+    let workerMessage = new concurrency.Message(1, messages, workerHandler);
+    workerHandler.sendMessage(workerMessage); // Distribute the task to the corresponding Worker child thread instance.
     allocation = allocation - 1; // Number of remaining tasks to be assigned
     n += 1;
   }
@@ -374,10 +385,10 @@ function buffer(bufferArray: ESObject, taskNum: int, sliderValue: number, value:
 }
 
 
-function mergeArrayBuffers(buffers: Object[]) {
+function mergeArrayBuffers(buffers: ArrayBuffer[]) {
   let thisBuffers = buffers as ArrayBuffer[];
   // Calculate the combined total length
-  let totalLength = thisBuffers.reduce((length, buffer) => {
+  let totalLength = thisBuffers.reduce((length: number, buffer: ArrayBuffer) => {
     length += buffer.byteLength;
     return length;
   }, 0);
@@ -397,12 +408,44 @@ function mergeArrayBuffers(buffers: Object[]) {
 function taskNum(WorkerName: string) {
   // [Start task1]
   let taskNum: int = 14; // The number of concurrent tasks is controlled, which can be adjusted according to the demand.
-  let curTaskNum: int = taskNum <= 64 ? taskNum : 64; // Control allows up to 64 Worker instances to run at the same time.
-  let Workers: worker.ThreadWorker[] = [];
-  for (let i: int = 0; i < curTaskNum; i++) { // Control the number of instantiations of the Worker according to the limit.
-    let WorkerInstance = new worker.ThreadWorker(WorkerName);
-    Workers.push(WorkerInstance);
+  let curTaskNum: int =
+    taskNum <= 64 ? taskNum : 64; // Control allows up to 64 Worker instances to run at the same time.
+  let Workers: EAWorker[] = [];
+  for (let i: int = 0; i < curTaskNum;
+    i++) { // Control the number of instantiations of the Worker according to the limit.
+    if (WorkerName = 'WorkerPort') {
+      const currentWorker = EAWorker.current();
+      let workerInstance = new EAWorker(WorkerName)
+      const currentCB = (msg: concurrency.Message) => {
+        console.log("receive data from worker.ets");
+      }
+      let currentHandler = new concurrency.MessageHandler(currentCB, currentWorker);
+      const workerCB = (msg: concurrency.Message) => {
+        let bufferArray: ArrayBuffer = msg.getObject() as ArrayBuffer;
+        let last: number = msg.getObject() as number;
+        let cur: number = msg.getObject() as number;
+        let index: number = msg.getObject() as number;
+        let buffer: ArrayBuffer = adjustImageValues(bufferArray, last, cur); // Pixel calculation executio
+        let output: WorkerBuffer = new WorkerBuffer(buffer, index);
+        let msgs = new concurrency.Message(1, output, currentHandler);
+        currentHandler.sendMessage(msgs);
+      }
+      let workerHandler = new concurrency.MessageHandler(workerCB, workerInstance);
+      let data: number = 8
+      let workerMessage = new concurrency.Message(1, data, workerHandler);
+      workerMessage.sendToTarget();
+      Workers.push(workerInstance);
+      // [End task1]
+    }
   }
-  // [End task1]
 }
 
+class WorkerBuffer {
+  public buffer: ArrayBuffer
+  public index: number
+
+  constructor(buffer: ArrayBuffer, index: number) {
+    this.buffer = buffer;
+    this.index = index;
+  }
+}

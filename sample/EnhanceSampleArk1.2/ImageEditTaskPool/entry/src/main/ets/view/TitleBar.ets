@@ -22,12 +22,14 @@ import {
   Color,
   Blank,
   FlexAlign,
+  Padding,
+  Margin,
 } from '@kit.ArkUI';
 
 import { CommBackgroundIcon } from './CommBackgroundIcon';
 
 @Component
-export default struct TitleBar {
+export struct TitleBar {
   private onBack: () => void = () => {
   };
   private onReset: () => void = () => {
@@ -47,7 +49,7 @@ export default struct TitleBar {
         Text($r('app.string.image_edit'))
           .fontSize(20)
           .fontColor(Color.White)
-          .margin({ left: 8 })
+          .margin({ left: 8 } as Margin)
       }
 
       Row() {
@@ -69,7 +71,7 @@ export default struct TitleBar {
     .padding({
       right: 16,
       left: 16
-    })
+    } as Padding)
     .justifyContent(FlexAlign.SpaceBetween)
     .width('100%')
     .backgroundColor(Color.Black)

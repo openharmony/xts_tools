@@ -25,7 +25,7 @@ import { RegionItem } from '../viewModel/RegionItem';
  * @param width.
  * @param height.
  */
-export async function square(pixelMap: PixelMap, width: number, height: number): Promise<void> {
+export async function square(pixelMap: PixelMap, width: int, height: int): Promise<void> {
   if (width < height) {
     await pixelMap.crop({
       size: {
@@ -33,7 +33,7 @@ export async function square(pixelMap: PixelMap, width: number, height: number):
         height: width
       },
       x: 0,
-      y: Math.round((height - width) / 2)
+      y: (Math.round((height - width) / 2)).toInt()
     });
   } else {
     await pixelMap.crop({
@@ -41,7 +41,7 @@ export async function square(pixelMap: PixelMap, width: number, height: number):
         width: height,
         height: height
       },
-      x: Math.round((width - height) / 2),
+      x: Math.round((width - height) / 2).toInt(),
       y: 0
     });
   }
@@ -55,7 +55,7 @@ export async function square(pixelMap: PixelMap, width: number, height: number):
  * @param cropHeight.
  * @param cropPosition.
  */
-export async function cropCommon(pixelMap: PixelMap, cropWidth: number, cropHeight: number,
+export async function cropCommon(pixelMap: PixelMap, cropWidth: int, cropHeight: int,
   cropPosition: RegionItem): Promise<void> {
   await pixelMap.crop({
     size: {
@@ -74,25 +74,25 @@ export async function cropCommon(pixelMap: PixelMap, cropWidth: number, cropHeig
  * @param width.
  * @param height.
  */
-export async function banner(pixelMap: PixelMap, width: number, height: number): Promise<void> {
+export async function banner(pixelMap: PixelMap, width: int, height: int): Promise<void> {
   if (width <= height) {
     const cropWidth = width;
-    const cropHeight = Math.floor(width * 0.75);
-    const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0));
+    const cropHeight = Math.floor(width * 0.75).toInt();
+    const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0).toInt());
     await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
     return;
   }
   if (width * 0.75 >= height) {
-    const cropWidth = Math.floor(height / 0.75);
+    const cropWidth = Math.floor(height / 0.75).toInt();
     const cropHeight = height;
-    const cropPosition = new RegionItem(Math.floor((width - cropWidth) / 2.0), 0);
+    const cropPosition = new RegionItem(Math.floor((width - cropWidth) / 2.0).toInt(), 0);
     await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
     return;
   }
 
   const cropWidth = width;
-  const cropHeight = Math.floor(width * 0.75);
-  const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0));
+  const cropHeight = Math.floor(width * 0.75).toInt();
+  const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0).toInt());
   await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
 }
 
@@ -103,24 +103,24 @@ export async function banner(pixelMap: PixelMap, width: number, height: number):
  * @param width.
  * @param height.
  */
-export async function rectangle(pixelMap: PixelMap, width: number, height: number): Promise<void> {
+export async function rectangle(pixelMap: PixelMap, width: int, height: int): Promise<void> {
   if (width <= height) {
     const cropWidth = width;
-    const cropHeight = Math.floor(width * (9.0 / 16.0));
-    const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0));
+    const cropHeight = Math.floor(width * (9.0 / 16.0)).toInt();
+    const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0).toInt());
     await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
     return;
   }
   if (width * (9.0 / 16.0) >= height) {
-    const cropWidth = Math.floor(height / (9.0 / 16.0));
+    const cropWidth = Math.floor(height / (9.0 / 16.0)).toInt();
     const cropHeight = height;
-    const cropPosition = new RegionItem(Math.floor((width - cropWidth) / 2.0), 0);
+    const cropPosition = new RegionItem(Math.floor((width - cropWidth) / 2.0).toInt(), 0);
     await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
     return;
   }
 
   const cropWidth = width;
-  const cropHeight = Math.floor(width * (9.0 / 16.0));
-  const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0));
+  const cropHeight = Math.floor(width * (9.0 / 16.0)).toInt();
+  const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0).toInt());
   await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
 }

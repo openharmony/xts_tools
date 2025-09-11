@@ -14,14 +14,12 @@
  * limitations under the License.
  */
 
-import {
-  UIContext,
-  $r,
-} from '@kit.ArkUI';
+import { UIContext, $r, Resource } from '@kit.ArkUI';
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { fileIo } from '@kit.CoreFileKit';
 import { image } from '@kit.ImageKit';
+import getMediaContent from '@ohos.resourceManager';
 
 const TAG: string = '[DecodeUtil]';
 
@@ -33,11 +31,12 @@ const TAG: string = '[DecodeUtil]';
 async function getResourceFd(component: UIContext): Promise<number> {
   const context = component.getHostContext()!;
   const resourceMgr = context.resourceManager;
-  let imageBuffer = await resourceMgr.getMediaContent($r('app.media.ic_low'));
+  let imageBuffer = await resourceMgr.getMediaContent($r('app.media.ic_low').id);
   let filePath = context.cacheDir + '/low.jpg';
   let file = fileIo.openSync(filePath, fileIo.OpenMode.READ_WRITE | fileIo.OpenMode.CREATE);
   fileIo.writeSync(file.fd, imageBuffer.buffer);
-  return file.fd;
+  let res: number = file.fd
+  return res;
 }
 
 /**
