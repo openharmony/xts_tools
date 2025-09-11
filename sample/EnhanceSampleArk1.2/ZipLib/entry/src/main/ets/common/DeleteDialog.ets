@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2024-2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,9 +14,21 @@
  * limitations under the License.
  */
 
+import {
+  CustomDialog,
+  CustomDialogController,
+  State,
+  Resource,
+  $r,
+  Column,
+  Text,
+  TextAlign,
+  Row,
+} from '@kit.ArkUI';
+
 import { hilog } from '@kit.PerformanceAnalysisKit';
 
-const DOMAIN = 0xF811;
+const DOMAIN: int = 0xF811;
 const BUNDLE = 'ZipLib_';
 const TAG: string = '[DeleteDialog]';
 

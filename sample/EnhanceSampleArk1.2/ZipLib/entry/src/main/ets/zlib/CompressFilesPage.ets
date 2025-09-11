@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2024-2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,6 +14,33 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  State,
+  Resource,
+  $r,
+  CustomDialogController,
+  getUIContext,
+  Column,
+  Row,
+  Image,
+  ImageFit,
+  Text,
+  FontWeight,
+  FlexAlign,
+  List,
+  LazyForEach,
+  ListItem,
+  Checkbox,
+  Visibility,
+  CheckBoxShape,
+  TextAlign,
+  Button,
+  ButtonType,
+  HorizontalAlign,
+} from '@kit.ArkUI';
+
 import { common } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { preferences } from '@kit.ArkData';
@@ -22,7 +50,7 @@ import fileio from '@ohos.fileio';
 import { AddDialog } from '../common/AddDialog';
 import { ZipLibSource } from '../model/DataSource';
 
-const DOMAIN = 0xF811;
+const DOMAIN: int = 0xF811;
 const BUNDLE = 'ZipLib_';
 const TAG: string = '[CompressFilesPage]';
 let fileList: preferences.Preferences;
@@ -65,8 +93,8 @@ struct CompressFilesPage {
   })
 
   async aboutToAppear() {
-    fileList = await preferences.getPreferences(getContext(this), 'fileList');
-    let ctx = getContext(this) as common.Context;
+    fileList = await preferences.getPreferences(getUIContext().getHostContext(this), 'fileList');
+    let ctx = getUIContext().getHostContext(this) as common.Context;
     this.path = ctx.filesDir;
     let value = await fileList.get('fileNames', '');
     this.files.fileData = JSON.parse(`${value}`);
@@ -77,7 +105,7 @@ struct CompressFilesPage {
 
   async zipcompressFiles(path: string, zipfileNames: Array<string>): Promise<void> {
     let files: string[] = [];
-    for (let index = 0; index < zipfileNames.length; index++) {
+    for (let index: int = 0; index < zipfileNames.length; index++) {
       files[index] = `${path}/${zipfileNames[index]}`;
     }
     let zipFiles = Array.from(files);
@@ -87,7 +115,7 @@ struct CompressFilesPage {
     hilog.debug(DOMAIN, TAG, BUNDLE + `zipOutFile = ${zipOutFile}`);
 
     if (this.files.fileData.includes(newName)) {
-      promptAction.showToast({
+      getUIContext().getPromptAction.showToast({
         message: $r('app.string.warning_failed'),
         bottom: '11%'
       });
@@ -96,7 +124,7 @@ struct CompressFilesPage {
     try {
       await zlib.compressFiles(zipFiles, zipOutFile, {}).then(data => {
         zlib.getOriginalSize(zipOutFile).then((num) => {
-          promptAction.showToast({
+          getUIContext().getPromptAction.showToast({
             message: $r('app.string.CompressFiles_success_size', num),
             bottom: '11%'
           });
@@ -105,7 +133,7 @@ struct CompressFilesPage {
         this.zipFileNames.push(newName);
       })
     } catch {
-      promptAction.showToast({
+      getUIContext().getPromptAction.showToast({
         message: $r('app.string.CompressFiles_failure'),
         bottom: '11%'
       });
@@ -123,7 +151,7 @@ struct CompressFilesPage {
               .size({ height: '71%' })
               .objectFit(ImageFit.Contain)
               .onClick(() => {
-                router.pushUrl({
+                getUIContext().getRouter.pushUrl({
                   url: 'zlib/ZLibInterfaceListPage'
                 });
               })

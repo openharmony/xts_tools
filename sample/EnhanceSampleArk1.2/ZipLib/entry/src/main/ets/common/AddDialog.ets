@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2022-2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2022-2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,10 +14,29 @@
  * limitations under the License.
  */
 
+import {
+  CustomDialog,
+  CustomDialogController,
+  State,
+  Resource,
+  $r,
+  Builder,
+  Column,
+  Text,
+  FontWeight,
+  TextAlign,
+  Row,
+  TextInput,
+  Divider,
+  Button,
+  getUIContext,
+  FlexAlign,
+} from '@kit.ArkUI';
+
 import { promptAction } from '@kit.ArkUI';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 
-const DOMAIN = 0xF811;
+const DOMAIN: int = 0xF811;
 const BUNDLE = 'ZipLib_';
 const TAG: string = '[AddDiaglog]';
 
@@ -172,7 +192,7 @@ export struct AddDialog {
         .onClick(() => {
           hilog.info(DOMAIN, TAG, BUNDLE + `this.fileName = ${this.fileName}`);
           if (this.fileName === '') {
-            promptAction.showToast({ message: $r('app.string.warning_empty'), bottom: '11%', duration: 1000 });
+            getUIContext().getPromptAction.showToast({ message: $r('app.string.warning_empty'), bottom: '11%', duration: 1000 });
             return;
           }
           this.isInserted = true;

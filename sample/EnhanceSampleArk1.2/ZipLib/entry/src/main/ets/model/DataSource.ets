@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2022-2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2022-2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,6 +14,14 @@
  * limitations under the License.
  */
 
+import { Observed } from '@kit.ArkUI';
+
+import {
+  IDataSource,
+  DataChangeListener,
+} from '@kit.ArkUI';
+
+@Observed
 class BasicDataSource implements IDataSource {
   private listeners: DataChangeListener[] = []
 
@@ -70,6 +79,7 @@ class BasicDataSource implements IDataSource {
   }
 }
 
+@Observed
 export class ZipLibSource extends BasicDataSource {
   public fileData: Array<string>
 
@@ -83,7 +93,7 @@ export class ZipLibSource extends BasicDataSource {
   }
 
   public getData(index: number): string {
-    return this.fileData[index]
+    return this.fileData[index as int]
   }
 
   public addData(index: number, data: string): void {

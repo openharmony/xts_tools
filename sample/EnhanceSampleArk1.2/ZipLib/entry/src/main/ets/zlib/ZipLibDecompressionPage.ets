@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2024-2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,6 +14,31 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  State,
+  Resource,
+  $r,
+  CustomDialogController,
+  DialogAlignment,
+  getUIContext,
+  Flex,
+  FlexDirection,
+  Column,
+  FlexAlign,
+  ItemAlign,
+  Row,
+  Image,
+  ImageFit,
+  Text,
+  FontWeight,
+  List,
+  LazyForEach,
+  ListItem,
+  Button,
+} from '@kit.ArkUI';
+
 import { common } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { preferences } from '@kit.ArkData';
@@ -23,7 +49,7 @@ import { AddDialog } from '../common/AddDialog';
 import { ZipLibSource } from '../model/DataSource';
 import { router } from '@kit.ArkUI';
 
-const DOMAIN = 0xF811;
+const DOMAIN: int = 0xF811;
 const BUNDLE = 'ZipLib_';
 const TAG: string = '[ZipLibDecompressionPage]';
 let fileList: preferences.Preferences;
@@ -64,8 +90,8 @@ struct ZipLibDecompressionPage {
   })
 
   async aboutToAppear() {
-    fileList = await preferences.getPreferences(getContext(this), 'fileList');
-    let ctx = getContext(this) as common.Context;
+    fileList = await preferences.getPreferences(getUIContext().getHostContext(this), 'fileList');
+    let ctx = getUIContext().getHostContext(this) as common.Context;
     this.path = ctx.filesDir;
     let value = await fileList.get('fileName', '');
     this.files.fileData = JSON.parse(`${value}`);
@@ -86,7 +112,7 @@ struct ZipLibDecompressionPage {
       strategy: zlib.CompressStrategy.COMPRESS_STRATEGY_DEFAULT_STRATEGY
     }
     if (this.files.fileData.includes(newName)) {
-      promptAction.showToast({
+      getUIContext().getPromptAction.showToast({
         message: $r('app.string.warning_failed'),
         bottom: '11%'
       });
@@ -95,14 +121,14 @@ struct ZipLibDecompressionPage {
     try {
       zlib.compressFile(zipFile, zipOutFile, options).then(data => {
         hilog.info(DOMAIN, TAG, BUNDLE + `data = ${JSON.stringify(data)}`);
-        promptAction.showToast({
+        getUIContext().getPromptAction.showToast({
           message: $r('app.string.tip_complete'),
           bottom: '11%'
         });
         this.files.pushData(`${newName}`);
       })
     } catch {
-      promptAction.showToast({
+      getUIContext().getPromptAction.showToast({
         message: $r('app.string.warning_failure'),
         bottom: '11%'
       });
@@ -119,7 +145,7 @@ struct ZipLibDecompressionPage {
     let zipOutFile = `${this.path}/${newName}`;
     hilog.info(DOMAIN, TAG, BUNDLE + `zipOutFile = ${zipOutFile}`);
     if (this.files.fileData.includes(newName)) {
-      promptAction.showToast({
+      getUIContext().getPromptAction.showToast({
         message: $r('app.string.warning_failed'),
         bottom: '11%'
       });
@@ -134,7 +160,7 @@ struct ZipLibDecompressionPage {
     zlib.decompressFile(zipFile, zipOutFile, options).then(data => {
       hilog.info(DOMAIN, TAG, BUNDLE + `data = ${JSON.stringify(data)}`);
     })
-    promptAction.showToast({
+    getUIContext().getPromptAction.showToast({
       message: $r('app.string.tip_complete'),
       bottom: '11%'
     });
@@ -152,7 +178,7 @@ struct ZipLibDecompressionPage {
               .size({ height: '71%' })
               .objectFit(ImageFit.Contain)
               .onClick(() => {
-                router.pushUrl({
+                getUIContext().getRouter.pushUrl({
                   url: 'pages/Index'
                 });
               })
