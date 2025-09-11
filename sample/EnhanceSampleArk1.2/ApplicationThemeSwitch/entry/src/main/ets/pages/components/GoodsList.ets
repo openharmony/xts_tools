@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,23 @@
  * limitations under the License.
  */
 
+import {
+  Component,
+  StorageLink,
+  GridRow,
+  getUIContext,
+  ForEach,
+  GridCol,
+  Column,
+  Image,
+  ImageFit,
+  Text,
+  $r,
+  HorizontalAlign,
+  Area,
+  AppStorage,
+} from '@kit.ArkUI';
+
 import { getTheme } from '../../utils/ThemeGet'
 import { PRODUCT_DATA } from '../../mocks/ProductsData'
 
@@ -21,7 +39,7 @@ export struct GoodsList {
   @StorageLink('theme') theme: number = -1 // 初始主题theme值
 
   build() {
-    GridRow({ gutter: { x: vp2px(8), y: vp2px(8) }, }) {
+    GridRow({ gutter: { x: getUIContext().vp2px(8), y: getUIContext().vp2px(8) }, }) {
       ForEach(PRODUCT_DATA, item => {
         GridCol({ span: { sm: 6, md: 6, lg: 4 } }) {
           Column() {

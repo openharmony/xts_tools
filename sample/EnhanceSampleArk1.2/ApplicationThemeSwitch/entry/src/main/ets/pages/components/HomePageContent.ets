@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,22 @@
  * limitations under the License.
  */
 
+import { PropRef } from '@kit.ArkUI';
+
+import {
+  Component,
+  TabsController,
+  StorageLink,
+  State,
+  Column,
+  Row,
+  ForEach,
+  Text,
+  FlexAlign,
+  Tabs,
+  TabContent,
+} from '@kit.ArkUI';
+
 import { TitleBarModel } from '../../models/HomeModel'
 import { titleBarData } from '../../mocks/HomeData'
 import { GoodsList } from './GoodsList'
@@ -23,8 +40,8 @@ import { getTheme } from '../../utils/ThemeGet'
 @Component
 export struct HomePageContent {
   private controller: TabsController = new TabsController()
-  @Prop isLand: boolean
-  @Prop ratio: number
+  @PropRef isLand: boolean
+  @PropRef ratio: number
   @StorageLink('theme') theme: number = -1 // 初始主题theme值
   @State tabsIndex: number = 0 // tabs索引
   @State titleBarData: Array<TitleBarModel> = titleBarData

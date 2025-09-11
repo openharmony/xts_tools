@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,17 +14,38 @@
  * limitations under the License.
  */
 
+import {
+  Component,
+  StorageLink,
+  State,
+  Builder,
+  Column,
+  Text,
+  $r,
+  Color,
+  Flex,
+  FlexAlign,
+  ItemAlign,
+  FlexWrap,
+  Row,
+  Image,
+  ImageFit,
+  Swiper,
+  ForEach,
+  HorizontalAlign,
+} from '@kit.ArkUI';
+
 import AbilityManager from '@ohos.application.abilityManager'
 import { SearchTextModel } from '../../models/HomeModel'
 import { searchTextData } from '../../mocks/HomeData'
 import { getTheme } from '../../utils/ThemeGet'
 import { FIND_SEARCH_TEXT_DATA } from '../../mocks/ProductsData'
 
-const DEFAULT_THEME: number = -1 // 默认主题
-const DARK: number = 0 // 深色主题模式
-const LIGHT: number = 1 // 浅色主题模式
-const CUSTOM_THEME: number = 3 // 自定义主题定义为3
-const PLAY_BACK_TIME: number = 2000 //swiper组件自动回放的时间
+const DEFAULT_THEME: int = -1 // 默认主题
+const DARK: int = 0 // 深色主题模式
+const LIGHT: int = 1 // 浅色主题模式
+const CUSTOM_THEME: int = 3 // 自定义主题定义为3
+const PLAY_BACK_TIME: int = 2000 //swiper组件自动回放的时间
 @Component
 export struct TitleBarComponent {
   @StorageLink('theme') theme: number = -1 // 初始主题theme值
