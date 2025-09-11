@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Builder,
+  Column,
+  Color,
+  Component,
+  State,
+  $r,
+  EdgeEffect,
+  BarPosition,
+  Scroller,
+  RelativeContainer,
+  Button,
+  Resource,
+  FlexAlign,
+  Image,
+  ImageFit,
+  Text,
+  FontWeight,
+  TextAlign,
+} from '@kit.ArkUI';
 
 import { BaseInterface } from '../model/BaseInterface';
 import { baseBuilder } from './BasePage';

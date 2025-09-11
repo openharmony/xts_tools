@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,8 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import { Observed } from '@kit.ArkUI';
+
+import { ResourceColor } from '@kit.ArkUI';
+
 import { AnimationAttribute } from '../model/AnimationAttribute';
 
+@Observed
 export class MyAnimationAttribute extends AnimationAttribute {
   // 背景条颜色
   public indicatorBarColor: ResourceColor;

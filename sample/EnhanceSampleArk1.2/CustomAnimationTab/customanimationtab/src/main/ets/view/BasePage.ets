@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Builder,
+  Component,
+  State,
+  Column,
+  List,
+  LazyForEach,
+  ListItem,
+  $r,
+} from '@kit.ArkUI';
+
 import { SkeletonLayout } from './SkeletonLayout';
 import LazyDataSource from './LazyDataSource';
 
@@ -25,7 +38,7 @@ struct BasePage {
   @State data: LazyDataSource<string> = new LazyDataSource<string>();
 
   aboutToAppear(): void {
-    for (let i = 0; i < 100; i++) {
+    for (let i: int = 0; i < 100; i++) {
       this.data.pushData(`${i}`);
     }
   }

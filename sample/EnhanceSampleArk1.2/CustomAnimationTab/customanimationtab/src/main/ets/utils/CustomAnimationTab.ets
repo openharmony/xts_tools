@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,7 +14,51 @@
  * limitations under the License.
  */
 
-import { ComponentUtils, curves } from '@kit.ArkUI';
+import {
+  Component,
+  Link,
+  Scroller,
+  Curve,
+  State,
+  Length,
+  BuilderParam,
+  VerticalAlign,
+  EdgeEffect,
+  RelativeContainer,
+  Swiper,
+  ForEach,
+  BarPosition,
+  TabsAnimationEvent,
+  Area,
+  Stack,
+  Alignment,
+  Row,
+  Column,
+  Scroll,
+  List,
+  ListItem,
+  SizeOptions,
+  ListItemAlign,
+  Axis,
+  BarState,
+  ScrollDirection,
+  TouchEvent,
+  TouchType,
+  ScrollState,
+  HorizontalAlign,
+  // getUIContext,
+  Builder,
+  Text,
+  FlexAlign,
+  FontWeight,
+  TextAlign,
+  Color,
+} from '@kit.ArkUI';
+
+
+import { ComponentUtils } from '@ohos.arkui.ComponentUtils';
+import { UIContext } from '@ohos.arkui.UIContext';
+import { curves } from '@kit.ArkUI';
 import { CommonConstants } from '../common/CommonConstants';
 import { AnimationAttribute } from '../model/AnimationAttribute';
 import { BaseInterface } from '../model/BaseInterface';
@@ -87,11 +132,11 @@ export struct CustomAnimationTab {
    */
   gestureAnimation: (index: number, targetIndex: number, elementsInfo: IndicatorAnimationInfo[],
     ratio: number) => void =
-    (index: number, targetIndex: number, elementsInfo: IndicatorAnimationInfo[], ratio: number): void => {
+    (index: number, targetIndex: number, elementsInfo: IndicatorAnimationInfo[], ratio: int): void => {
       this.animationAttribute.left =
-        elementsInfo[index].left + (elementsInfo[targetIndex].left - elementsInfo[index].left) * ratio;
+        elementsInfo[index as int].left + (elementsInfo[targetIndex as int].left - elementsInfo[index as int].left) * ratio;
       this.scroller!.scrollTo({
-        xOffset: elementsInfo[index].offset + (elementsInfo[targetIndex].offset - elementsInfo[index].offset) * ratio,
+        xOffset: elementsInfo[index as int].offset + (elementsInfo[targetIndex as int].offset - elementsInfo[index as int].offset) * ratio,
         yOffset: 0
       });
       let indicatorSize: [number, number] = this.getIndicatorSize(ratio, index, targetIndex);
@@ -107,11 +152,11 @@ export struct CustomAnimationTab {
    * @returns
    */
   autoAnimation: (index: number, targetIndex: number, elementsInfo: IndicatorAnimationInfo[], ratio: number) => void =
-    (index: number, targetIndex: number, elementsInfo: IndicatorAnimationInfo[], ratio: number): void => {
+    (index: number, targetIndex: number, elementsInfo: IndicatorAnimationInfo[], ratio: int): void => {
       this.animationAttribute.left =
-        elementsInfo[index].left + (elementsInfo[targetIndex].left - elementsInfo[index].left) * ratio;
+        elementsInfo[index as int].left + (elementsInfo[targetIndex as int].left - elementsInfo[index as int].left) * ratio;
       this.scroller!.scrollTo({
-        xOffset: elementsInfo[index].offset + (elementsInfo[targetIndex].offset - elementsInfo[index].offset) * ratio,
+        xOffset: elementsInfo[index as int].offset + (elementsInfo[targetIndex as int].offset - elementsInfo[index as int].offset) * ratio,
         yOffset: 0
       });
       let indicatorSize: [number, number] = this.getIndicatorSize(ratio, index, targetIndex);
@@ -131,11 +176,11 @@ export struct CustomAnimationTab {
     elementsInfo: IndicatorAnimationInfo[]) => void =
     (targetIndex: number, targetIndexInfo: Record<string, number>, elementsInfo: IndicatorAnimationInfo[]): void => {
       // 根据targetIndex页签当前位置获取对应的背景条位置
-      this.animationAttribute.left = targetIndexInfo.center - this.elementsInfo[targetIndex].width / 2;
-      this.animationAttribute.indicatorBarWidth = this.elementsInfo[targetIndex].width;
-      this.animationAttribute.indicatorBarHeight = this.elementsInfo[targetIndex].height;
+      this.animationAttribute.left = targetIndexInfo.center - this.elementsInfo[targetIndex as int].width / 2.0;
+      this.animationAttribute.indicatorBarWidth = this.elementsInfo[targetIndex as int].width;
+      this.animationAttribute.indicatorBarHeight = this.elementsInfo[targetIndex as int].height;
       this.scroller!.scrollTo({
-        xOffset: elementsInfo[targetIndex].offset,
+        xOffset: elementsInfo[targetIndex as int].offset,
         yOffset: 0,
         animation: { duration: this.animationDuration, curve: Curve.Linear }
       });
@@ -149,7 +194,7 @@ export struct CustomAnimationTab {
   getScrollInfo: (center: number, width: number) => [number, number] =
     (center: number, width: number): [number, number] => {
       // 获取背景条位置
-      let indicatorLeft: number = center - width / 2;
+      let indicatorLeft: number = center - width / 2.0;
       // TODO: 知识点: 当背景条位置大于默认的背景条最大位置时，选取背景条最大位置作为背景条实际位置
       let finalIndicatorLeft: number =
         this.maxIndicatorBarLeft >= 0 ? Math.min(indicatorLeft, this.maxIndicatorBarLeft) : indicatorLeft;
@@ -221,9 +266,9 @@ export struct CustomAnimationTab {
     this.indicatorHeight = this.indicatorBarAttribute.indicatorHeight;
     this.indicatorWidth = this.indicatorBarAttribute.indicatorWidth;
     if (!this.scrollable) {
-      this.barItemWidth = (100 / this.barTitles.length).toString() + '%';
+      this.barItemWidth = (100.0 / this.barTitles.length).toString() + '%';
     }
-    for (let i = 0; i < this.barTitles.length; i++) {
+    for (let i: int = 0; i < this.barTitles.length; i++) {
       this.elementsInfo[i] = {
         left: 0,
         offset: 0,
@@ -309,7 +354,7 @@ export struct CustomAnimationTab {
         }
         this.curIndex = index;
       })
-      .onContentDidScroll((selectedIndex: number, index: number, position: number, mainAxisLength: number) => {
+      .onContentDidScroll((selectedIndex: number, index: int, position: number, mainAxisLength: number) => {
         // 动画启动，选取当前index索引页签的属性来执行背景条和页签条滑动
         if (this.isAnimationStart && index === this.curIndex) {
           // 使用选中页签相对于Swiper主轴起始位置的移动比例判断滑动的目标页签targetIndex的位置
@@ -318,6 +363,7 @@ export struct CustomAnimationTab {
             console.warn(`Warning: targetIndex exceeds the limit range:
             selectedIndex: ${selectedIndex}, curIndex: ${this.curIndex}, index: ${index},
             targetIndex: ${targetIndex}, position: ${position}, mainAxisLength: ${mainAxisLength}`);
+            // targetIndex: int = index; // 保证背景条在index页签位置
             targetIndex = index; // 保证背景条在index页签位置
           }
           let ratio: number = Math.abs(position);
@@ -404,11 +450,11 @@ export struct CustomAnimationTab {
                   : 0)
                 // TODO: 知识点: 通过column与padding组合获取内边距模式下背景条的尺寸
                 .onSizeChange((oldValue: SizeOptions, newValue: SizeOptions): void => {
-                  if (this.barTitleSize[index] === undefined && newValue.width !== undefined &&
+                  if (this.barTitleSize[index as int] === undefined && newValue.width !== undefined &&
                     newValue.height !== undefined) {
                     let width: number = Number.parseFloat(newValue.width.toString());
                     let height: number = Number.parseFloat(newValue.height.toString());
-                    this.barTitleSize[index] = [width, height];
+                    this.barTitleSize[index as int] = [width, height];
                     if (this.barHeight === undefined) {
                       this.barHeight = height;
                     }
@@ -437,23 +483,23 @@ export struct CustomAnimationTab {
               })
               .onAreaChange((oldValue: Area, newValue: Area) => {
                 console.log(`onAreaChange item`);
-                if (newValue.position.x !== undefined && !this.elementsInfo[index].flag) {
+                if (newValue.position.x !== undefined && !this.elementsInfo[index as int].flag) {
                   let width: number = Number.parseFloat(newValue.width.toString());
                   let positionX: number = Number.parseFloat(newValue.position.x.toString());
                   // 内边距模式下背景条的尺寸
                   if (this.sizeMode === SizeMode.Padding) {
-                    this.indicatorHeight = this.barTitleSize[index][1];
+                    this.indicatorHeight = this.barTitleSize[index as int][1];
                   }
                   if (this.sizeMode === SizeMode.Padding) {
-                    this.indicatorWidth = this.barTitleSize[index][0];
+                    this.indicatorWidth = this.barTitleSize[index as int][0];
                   }
                   // 计算每一个页签对应的背景条位置与页签条偏移
                   // TODO: 知识点: 当页签宽度之和小于List大小时，需要加上差值的一半
                   let scrollInfo: [number, number] =
-                    this.getScrollInfo(positionX + width / 2 - Math.min(0, this.maxListOffset) / 2,
+                    this.getScrollInfo(positionX + width / 2.0 - Math.min(0, this.maxListOffset) / 2.0,
                       this.indicatorWidth);
-                  scrollInfo[0] += this.elementsInfo[index].left;
-                  this.elementsInfo[index] = {
+                  scrollInfo[0] += this.elementsInfo[index as int].left;
+                  this.elementsInfo[index as int] = {
                     left: scrollInfo[0],
                     offset: scrollInfo[1],
                     height: this.indicatorHeight,
@@ -461,8 +507,8 @@ export struct CustomAnimationTab {
                     flag: true
                   };
                   if (this.curIndex === index) {
-                    this.animationAttribute.left = this.elementsInfo[index].left;
-                    this.scroller!.scrollTo({ xOffset: this.elementsInfo[index].offset, yOffset: 0 });
+                    this.animationAttribute.left = this.elementsInfo[index as int].left;
+                    this.scroller!.scrollTo({ xOffset: this.elementsInfo[index as int].offset, yOffset: 0 });
                     this.animationAttribute.indicatorBarWidth = this.indicatorWidth;
                     this.animationAttribute.indicatorBarHeight = this.indicatorHeight;
                   }
@@ -529,8 +575,8 @@ export struct CustomAnimationTab {
     .height(CommonConstants.FULL_PERCENT)
     .onSizeChange((oldValue: SizeOptions, newValue: SizeOptions) => {
       // 保证背景条最大偏移不会超出屏幕
-      let width = newValue.width === undefined ? 0 : Number.parseFloat(newValue.width.toString());
-      this.maxIndicatorBarLeft = this.maxIndicatorBarLeft > width ? (width / 2) : this.maxIndicatorBarLeft;
+      let width: number = newValue.width === undefined ? 0 : Number.parseFloat(newValue.width.toString());
+      this.maxIndicatorBarLeft = this.maxIndicatorBarLeft > width ? (width / 2.0) : this.maxIndicatorBarLeft;
     })
   }
 
@@ -540,13 +586,16 @@ export struct CustomAnimationTab {
    * @returns {Record<string, number>} index页签当前的中心位置以及其宽度
    */
   private getElementInfo(index: number): Record<string, number> {
-    let rectangle = this.componentUtils.getRectangleById(index.toString());
+    // let: let rectangle: rectangle;
+    // let: let width: number = rectangle.size.width;
+    // let: let center: number = rectangle.localOffset.x + width / 2.0;
+    let rectangle: rectangle;
     let width: number = rectangle.size.width;
-    let center: number = rectangle.localOffset.x + width / 2;
+    let center: number = rectangle.localOffset.x + width / 2.0;
     // TODO: 知识点: 由于页签条使用offset进行偏移，因此localOffset.x等于页签在页签条中的位置，为了得到相对于tab容器的位置，需要减去一个页签条的偏移
     // TODO: 知识点: 当页签宽度之和小于List大小时，需要加上差值的一半
     return {
-      'center': px2vp(center) - Math.min(0, this.maxListOffset) / 2 - this.scroller!.currentOffset().xOffset +
+      'center': this.getUIContext().px2vp(center) - Math.min(0, this.maxListOffset) / 2.0 - this.scroller!.currentOffset().xOffset +
       this.leftMargin,
       'width': width
     };
@@ -564,16 +613,16 @@ export struct CustomAnimationTab {
     let width: number = 0;
     let height: number = 0;
     // 获取背景条扩展阶段的起始宽度和终止宽度
-    let fromWidth: number = this.elementsInfo[fromIndex].width;
+    let fromWidth: number = this.elementsInfo[fromIndex as int].width;
     let toWidth: number =
-      (this.elementsInfo[fromIndex].width + this.elementsInfo[toIndex].width) * this.indicatorExpand / 2;
-    let fromHeight: number = this.elementsInfo[fromIndex].height;
-    let toHeight: number = this.elementsInfo[toIndex].height;
+      (this.elementsInfo[fromIndex as int].width + this.elementsInfo[toIndex as int].width) * this.indicatorExpand / 2.0;
+    let fromHeight: number = this.elementsInfo[fromIndex as int].height;
+    let toHeight: number = this.elementsInfo[toIndex as int].height;
     let stageRatio: number = ratio * 2;
     // 获取背景条缩短阶段的起始宽度和终止宽度
     if (ratio >= 0.5) {
       fromWidth = toWidth;
-      toWidth = this.elementsInfo[toIndex].width;
+      toWidth = this.elementsInfo[toIndex as int].width;
       stageRatio = (ratio - 0.5) * 2;
     }
     // 获取当前ratio，背景条的实际宽度
