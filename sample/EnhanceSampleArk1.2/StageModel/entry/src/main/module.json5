@@ -17,7 +17,7 @@
   "module": {
     "name": "entry",
     "type": "entry",
-    "srcEntrance": "./ets/Application/MyAbilityStage.ts",
+    "srcEntry": "./ets/Application/MyAbilityStage.ts",
     "description": "$string:entry_desc",
     "mainElement": "MainAbility",
     "deviceTypes": [
@@ -27,17 +27,15 @@
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:main_pages",
-    "uiSyntax": "ets",
     "abilities": [
       {
         "name": "MainAbility",
-        "srcEntrance": "./ets/MainAbility/MainAbility.ts",
+        "srcEntry": "./ets/MainAbility/MainAbility.ts",
         "description": "$string:MainAbility_desc",
         "icon": "$media:icon",
         "label": "$string:MainAbility_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:white",
-        "visible": true,
         "priority": 5,
         "skills": [
           {
@@ -52,13 +50,12 @@
       },
       {
         "name": "JumpAbility",
-        "srcEntrance": "./ets/JumpAbility/JumpAbility.ts",
+        "srcEntry": "./ets/JumpAbility/JumpAbility.ts",
         "description": "$string:TestAbility_desc",
         "icon": "$media:icon",
         "label": "$string:TestAbility_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:white",
-        "visible": true
       }
     ],
     "requestPermissions": [
@@ -81,7 +78,7 @@
     "extensionAbilities": [
       {
         "name": "FormAbility",
-        "srcEntrance": "./ets/FormAbility/FormAbility.ts",
+        "srcEntry": "./ets/FormAbility/FormAbility.ts",
         "label": "$string:form_FormAbility_label",
         "description": "$string:form_FormAbility_desc",
         "type": "form",
@@ -97,17 +94,15 @@
         "icon": "$media:icon",
         "description": "service",
         "type": "service",
-        "visible": true,
-        "srcEntrance": "./ets/ServiceExtAbility/ServiceExtAbility.ts"
+        "srcEntry": "./ets/ServiceExtAbility/ServiceExtAbility.ts"
       },
       {
         "name": "DataShareExtAbility",
-        "srcEntrance": "./ets/DataShareExtensionAbility/DataShareExtAbility.ts",
+        "srcEntry": "./ets/DataShareExtensionAbility/DataShareExtAbility.ts",
         "icon": "$media:icon",
         "description": "$string:DataShareExtensionAbility_desc",
         "type": "dataShare",
         "uri": "datashare://ohos.samples.stagemodel.DataShare",
-        "visible": true
       }
     ]
   }

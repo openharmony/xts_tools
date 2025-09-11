@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  $r,
+  Resource,
+} from '@kit.ArkUI';
 
 import AbilityDelegatorRegistry from '@ohos.app.ability.abilityDelegatorRegistry';
 import { describe, it, expect } from '@ohos/hypium';
@@ -30,7 +36,7 @@ export default function abilityTest() {
       logger.info(TAG, `${BUNDLE}StartAbility_001 begin`);
       await startMainAbility();
       logger.info(TAG, `${BUNDLE}StartAbility_001 end`);
-      done();
+      done.unsafeCall();
     })
 
     // 进入DataShareExtAbility
@@ -42,7 +48,7 @@ export default function abilityTest() {
       await driver.delayMs(1000);
       await driver.assertComponentExist(ON.id('btnAdd'));
       logger.info(TAG, `${BUNDLE}DataShareExtAbility_001 end`);
-      done();
+      done.unsafeCall();
     })
 
     // DataShareExtAbility 添加、更新、删除功能
@@ -78,7 +84,7 @@ export default function abilityTest() {
       if (listItems1.length > 0) {
         // 删除功能
         let bundle = await listItems1[0].getBounds();
-        await driver.click(bundle.right - 30, bundle.top + 30);
+        await driver.click((bundle.right - 30).toInt(), (bundle.top + 30).toInt());
         await driver.delayMs(1000);
         let listItems2 = await driver.findComponents(ON.type('ListItem'));
         expect((listItems1.length - 1) === listItems2.length).assertTrue();
@@ -89,7 +95,7 @@ export default function abilityTest() {
       await btnBack.click();
       await driver.delayMs(1000);
       logger.info(TAG, `${BUNDLE}DataShareExtAbility_002 end`);
-      done();
+      done.unsafeCall();
     })
 
     // AbilityContext 相关功能
@@ -105,7 +111,7 @@ export default function abilityTest() {
       await clickAndToast('stopServiceExtAbility');
       await clickAndToast('connectAbility');
       logger.info(TAG, `${BUNDLE}AbilityContext_001 end`);
-      done();
+      done.unsafeCall();
     })
 
     // AbilityContext 相关功能
@@ -116,7 +122,7 @@ export default function abilityTest() {
       await clickAndToast('requestPermissionsFromUser');
       await clickAndToast('resourceManager');
       logger.info(TAG, `${BUNDLE}AbilityContext_002 end`);
-      done();
+      done.unsafeCall();
     })
 
     // AbilityContext 相关功能
@@ -127,7 +133,7 @@ export default function abilityTest() {
       await clickAndToast('stageMode');
       await driver.delayMs(1000);
       logger.info(TAG, `${BUNDLE}AbilityContext_003 end`);
-      done();
+      done.unsafeCall();
     })
 
     // AbilityContext 相关功能
@@ -142,7 +148,7 @@ export default function abilityTest() {
       await driver.pressBack();
       await driver.delayMs(1000);
       logger.info(TAG, `${BUNDLE}AbilityContext_004 end`);
-      done();
+      done.unsafeCall();
     })
 
     // ServiceExtContext相关
@@ -160,7 +166,7 @@ export default function abilityTest() {
       await driver.pressBack();
       await driver.delayMs(1000);
       logger.info(TAG, `${BUNDLE}ServiceExtContext_001 end`);
-      done();
+      done.unsafeCall();
     })
 
     // Bundle相关
@@ -178,7 +184,7 @@ export default function abilityTest() {
       await driver.pressBack();
       await driver.delayMs(1000);
       logger.info(TAG, `${BUNDLE}Bundle_001 end`);
-      done();
+      done.unsafeCall();
     })
 
     // AbilityAccessCtrl相关
@@ -197,7 +203,7 @@ export default function abilityTest() {
       await driver.pressBack();
       await driver.delayMs(1000);
       logger.info(TAG, `${BUNDLE}AbilityAccessCtrl_001 end`);
-      done();
+      done.unsafeCall();
     })
 
     // DataShareHelper相关
@@ -215,7 +221,7 @@ export default function abilityTest() {
       await driver.pressBack();
       await driver.delayMs(1000);
       logger.info(TAG, `${BUNDLE}DataShareHelper_001 end`);
-      done();
+      done.unsafeCall();
     })
 
     // Window相关
@@ -232,7 +238,7 @@ export default function abilityTest() {
       await driver.pressBack();
       await driver.delayMs(1000);
       logger.info(TAG, `${BUNDLE}Window_001 end`);
-      done();
+      done.unsafeCall();
     })
   })
 

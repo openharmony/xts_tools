@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,22 @@
  * limitations under the License.
  */
 
+import {
+  CustomDialog,
+  Link,
+  CustomDialogController,
+  Column,
+  Text,
+  $r,
+  FontWeight,
+  Color,
+  TextInput,
+  InputType,
+  Blank,
+  Row,
+  TextAlign,
+} from '@kit.ArkUI';
+
 import DataShareResultSet from '@ohos.data.DataShareResultSet';
 import { BookModel, getBooksFromResultSet } from '../../feature/BookModel';
 import DateShareHelper from '../../feature/DataShareHelper';
@@ -22,7 +39,8 @@ const TAG: string = 'UpdateData';
 
 @CustomDialog
 export struct UpdateDataDialog {
-  @Link books: Array<BookModel>;
+  // @Link books: Array<BookModel>;
+  @Link books: BookModel[];
   private book: BookModel = new BookModel();
   controller?: CustomDialogController;
 
