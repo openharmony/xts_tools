@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,7 +21,7 @@ import { Driver, ON } from '@ohos.UiTest';
 import Base from '@ohos.base';
 
 const TAG: string = '[Sample_CustomPush]';
-const DOMAIN = 0xF811;
+const DOMAIN: int = 0xF811;
 const BUNDLE = 'CustomPush_';
 
 export default function abilityTest() {
@@ -36,11 +37,11 @@ export default function abilityTest() {
           bundleName: 'com.samples.customnotificationpush',
           abilityName: 'EntryAbility'
         });
-        done();
+        done.unsafeCall();
       } catch (expection) {
         hilog.info(DOMAIN, TAG, 'StartAbility end err:' + JSON.stringify(expection as Base.BusinessError));
         expect(0).assertEqual(expection.code);
-        done();
+        done.unsafeCall();
       }
       hilog.info(DOMAIN, TAG, BUNDLE + 'StartAbility_001 end');
     })

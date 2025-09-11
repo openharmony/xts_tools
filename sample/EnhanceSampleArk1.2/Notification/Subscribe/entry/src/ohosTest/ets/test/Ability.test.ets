@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,8 @@
  * limitations under the License.
  */
 
+import { $r } from '@kit.ArkUI';
+
 import hilog from '@ohos.hilog';
 import { describe, it, expect } from '@ohos/hypium'
 import AbilityDelegatorRegistry from '@ohos.app.ability.abilityDelegatorRegistry';
@@ -21,12 +24,12 @@ import { BusinessError } from '@ohos.base';
 
 let abilityDelegator = AbilityDelegatorRegistry.getAbilityDelegator();
 const TAG = '[Sample_Subscribe]';
-const DOMAIN = 0xF811;
+const DOMAIN: int = 0xF811;
 const BUNDLE = 'Subscribe_';
-const TIMEOUT_ONE = 1000;
-const TIMEOUT_TWO = 2000;
-const TIMEOUT_THREE = 3000;
-const TIMEOUT_FOUR = 4000;
+const TIMEOUT_ONE: int = 1000;
+const TIMEOUT_TWO: int = 2000;
+const TIMEOUT_THREE: int = 3000;
+const TIMEOUT_FOUR: int = 4000;
 const PUBLISH_BUNDLE_NAME = 'com.samples.notificationpublish';
 const SUBSCRIBE_BUNDLE_NAME = 'com.samples.notificationsubscribe';
 
@@ -98,7 +101,7 @@ export default function abilityTest() {
         expect().assertFail()
       })
       hilog.info(DOMAIN, TAG, '%{public}s', 'test end');
-      done()
+      done.unsafeCall()
     })
   })
 }

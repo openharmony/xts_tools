@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -27,10 +28,10 @@ export enum ContentCallBackType {
   CALLBACK_NOTIFICATION_CONTENT_CONVERSATION
 }
 
-const CONTENT_TYPE_COUNT = 7;
+const CONTENT_TYPE_COUNT: int = 7;
 
 class NotificationFilterUtil {
-  private disableContentTypes: Array<boolean> = new Array(CONTENT_TYPE_COUNT);
+  private disableContentTypes: Array<boolean> = new Array<boolean>(CONTENT_TYPE_COUNT);
 
   constructor() {
     this.disableContentTypes.fill(false);
