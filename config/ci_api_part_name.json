@@ -2163,6 +2163,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.hiviewdfx.FaultLogExtensionAbility.d.ts",
+            "bundle_name": [
+                "hiview"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@system.battery.d.ts",
             "bundle_name": [
                 "battery_lite"
@@ -6863,6 +6870,13 @@
             "path": "interface/sdk-js/api/application/WorkSchedulerExtensionContext.d.ts",
             "bundle_name": [
                 "work_scheduler"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.hiviewdfx.FaultLogExtensionContext.d.ts",
+            "bundle_name": [
+                "hiview"
             ],
             "build_targets": []
         },
