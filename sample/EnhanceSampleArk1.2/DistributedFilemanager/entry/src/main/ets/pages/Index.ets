@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023-2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,32 @@
  * limitations under the License.
  */
 
+import {
+  getUIContext,
+  Entry,
+  Component,
+  StorageLink,
+  State,
+  Watch,
+  AppStorage,
+  Column,
+  Row,
+  Image,
+  $r,
+  Text,
+  FlexAlign,
+  List,
+  ForEach,
+  ListItem,
+  Blank,
+  LongPressGesture,
+  GestureEvent,
+  Color,
+  Button,
+  Progress,
+  ProgressType,
+} from '@kit.ArkUI';
+
 import common from '@ohos.app.ability.common';
 import distributedObject from '@ohos.data.distributedDataObject';
 import distributedDeviceManager from '@ohos.distributedDeviceManager';
@@ -22,7 +49,7 @@ import { DistributedButton } from '../components/DistributedButton';
 import { RemoteDeviceModel } from '../model/RemoteDeviceModel';
 import { FileSystem, FileStructure, FileType, Logger } from '@ohos/feature-file-manager';
 
-let context = getContext(this) as common.UIAbilityContext; // 获取设备A的UIAbilityContext信息
+let context = getUIContext().getHostContext(this) as common.UIAbilityContext; // 获取设备A的UIAbilityContext信息
 const BASE_PATH = context.filesDir+"/";
 
 @Entry
@@ -57,8 +84,8 @@ export struct Index {
 
   aboutToAppear() {
     // 有路由参数就加载当前路由文件路径
-    if(router.getParams()){
-      let params = router.getParams() as Record<string, Object>;
+    if(getUIContext().getRouter.getParams()){
+      let params = getUIContext().getRouter.getParams() as Record<string, Object>;
       this.directoryPath = params.directoryPath as string;
       this.directoryName = params.directoryName as string;
     }
@@ -134,7 +161,7 @@ export struct Index {
               })
             DistributedButton({
               remoteDeviceModel: this.remoteDeviceModel,
-              isDistributed: $isDistributed
+              isDistributed: this.isDistributed
             })
           }.margin({ right: 26 })
           .justifyContent(FlexAlign.End)
@@ -162,7 +189,7 @@ export struct Index {
                 .onClick(() => {
                   this.fileData = [];
                   AppStorage.setOrCreate('flashPage',!AppStorage.get<string>('flashPage'));
-                  router.back();
+                  getUIContext().getRouter.back();
                 })
             }
             Text(this.directoryName)
@@ -246,7 +273,7 @@ export struct Index {
                 } else {
                   // 如果是目录就跳转页面
                   if ((file.type === 1) && (!this.isCopying)) {
-                    router.pushUrl({
+                    getUIContext().getRouter.pushUrl({
                       url: 'pages/Index',
                       params: {
                         directoryName: file.name,

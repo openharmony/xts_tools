@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023-2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  getUIContext,
+  $r,
+  AppStorage,
+} from '@kit.ArkUI';
 
 import common from '@ohos.app.ability.common';
 import fs from '@ohos.file.fs';
@@ -110,7 +117,7 @@ class FsManager {
 
   listFiles(dir: string): Array<string> {
     let files: string[] = [];
-    let context = getContext(this) as common.UIAbilityContext;
+    let context = getUIContext().getHostContext(this) as common.UIAbilityContext;
     let fileDir = (dir == 'files' ? context.filesDir : (dir == 'temp' ? context.tempDir : context.cacheDir));
     Logger.info(TAG, `listFiles fileDir =${fileDir}`);
     try {
@@ -257,10 +264,10 @@ class FsManager {
     Logger.info(TAG, `innerPasteFromDistributedDir--to: ${to}`);
     try {
       // 定义拷贝回调
-      let totalProgress: number = 0;
-      let totalCopySize: number = 0;
-      let copiedSize: number = 0;
-      let lastCopiedSize: number = 0;
+      let totalProgress: int = 0;
+      let totalCopySize: int = 0;
+      let copiedSize: int = 0;
+      let lastCopiedSize: int = 0;
       let firstCopy = true;
       let progressListener: fs.ProgressListener = (progress: fs.Progress) => {
         Logger.info(TAG, "progressSize: " + progress.processedSize + ", totalSize: " + progress.totalSize);

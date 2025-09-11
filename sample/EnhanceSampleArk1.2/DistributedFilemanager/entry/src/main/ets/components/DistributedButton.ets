@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +14,18 @@
  * limitations under the License.
  */
 
+import {
+  Component,
+  CustomDialogController,
+  State,
+  Link,
+  getUIContext,
+  Row,
+  Image,
+  $r,
+  ImageFit,
+} from '@kit.ArkUI';
+
 import { DeviceDialog } from './Dialog';
 import { DeviceDataModel } from '../model/DeviceDataModel';
 import { Logger } from '@ohos/feature-file-manager';
@@ -20,11 +33,11 @@ import { RemoteDeviceModel } from '../model/RemoteDeviceModel';
 import common from '@ohos.app.ability.common';
 
 const TAG: string = '[DistributedButton]';
-const DEVICE_DISCOVERY_RANGE: number = 1000;
+const DEVICE_DISCOVERY_RANGE: int = 1000;
 
 @Component
 export struct DistributedButton {
-  private selectedIndex: number = 0;
+  private selectedIndex: int = 0;
   private remoteDeviceModel: RemoteDeviceModel | null = null;
   private dialogController: CustomDialogController | null = null;
   @State deviceList: DeviceDataModel[] = [];
@@ -49,7 +62,7 @@ export struct DistributedButton {
     Logger.info(TAG, 'start ability1, needAuth：');
     this.remoteDeviceModel.authenticateDevice(this.deviceList[this.selectedIndex], () => {
       Logger.info(TAG, 'auth and online finished');
-      for (let i = 0; i < this.remoteDeviceModel!.deviceList.length; i++) {
+      for (let i: int = 0; i < this.remoteDeviceModel!.deviceList.length; i++) {
         if (this.remoteDeviceModel!.deviceList[i].deviceName ===
         this.deviceList[this.selectedIndex].deviceName) {
           this.startAbility(this.remoteDeviceModel!.deviceList[i].networkId as string);
@@ -76,7 +89,7 @@ export struct DistributedButton {
 
   startAbility(deviceId: string) {
     Logger.info(TAG, `startAbility deviceId:${deviceId}`);
-    let context = getContext(this) as common.UIAbilityContext;
+    let context = getUIContext().getHostContext(this) as common.UIAbilityContext;
     context.startAbility({
       bundleName: 'com.samples.distributedfilemanager',
       abilityName: 'EntryAbility',
@@ -97,7 +110,7 @@ export struct DistributedButton {
       this.deviceList.push(new DeviceDataModel('0', 'Local device', '0', false, '', DEVICE_DISCOVERY_RANGE));
       let deviceTempList = this.remoteDeviceModel!.discoverList.length > 0 ? this.remoteDeviceModel!.discoverList :
       this.remoteDeviceModel!.deviceList;
-      for (let i = 0; i < deviceTempList.length; i++) {
+      for (let i: int = 0; i < deviceTempList.length; i++) {
         Logger.info(TAG, `device ${i}/${deviceTempList.length} deviceId=${deviceTempList[i].deviceId}
         deviceName=${deviceTempList[i].deviceName} deviceType=${deviceTempList[i].deviceType}`);
         this.deviceList.push(new DeviceDataModel(deviceTempList[i].deviceId, deviceTempList[i].deviceName,

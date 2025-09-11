@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -66,7 +67,7 @@ class FileSystem {
     do {
       dirent = dir.readSync();
       if (dirent) {
-        let subdirectoryNum: number = 0;
+        let subdirectoryNum: int = 0;
         let fileSize: string = '';
         let time: Date = new Date();
         // 如果是文件夹，就读取文件夹中文件的数量
@@ -95,7 +96,7 @@ class FileSystem {
     // 读取的结果
     let dirent: fileio.Dirent;
     // 记录子目录的个数
-    let subdirectoryNum = 0;
+    let subdirectoryNum: int = 0;
     do {
       dirent = dir.readSync();
       if (dirent) {
@@ -108,7 +109,7 @@ class FileSystem {
   // 获取文件修改时间
   getFileTime(filePath: string): Date {
     try {
-      let fileTime = fileio.statSync(filePath).ctime;
+      let fileTime: number = fileio.statSync(filePath).ctime;
       return new Date(fileTime * 1000);
     } catch (err) {
       Logger.error(`getFileTime failed, code is ${err.code}, message is ${err.message}`);

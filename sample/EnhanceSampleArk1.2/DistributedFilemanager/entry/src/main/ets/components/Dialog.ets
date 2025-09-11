@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,13 +14,32 @@
  * limitations under the License.
  */
 
+import {
+  CustomDialog,
+  CustomDialogController,
+  Column,
+  Text,
+  $r,
+  TextAlign,
+  Color,
+  FontWeight,
+  List,
+  ForEach,
+  ListItem,
+  Row,
+  Image,
+  ImageFit,
+  Button,
+  ButtonType,
+} from '@kit.ArkUI';
+
 import { DeviceDataModel } from '../model/DeviceDataModel';
 
 @CustomDialog
 export struct DeviceDialog {
   controller: CustomDialogController;
   private deviceList: DeviceDataModel[] = [];
-  private selectedIndex: number = 0;
+  private selectedIndex: int = 0;
   private handleSelectDevice: (selectedIndex: number) => void = (selectedIndex: number) => {};
 
   build() {
