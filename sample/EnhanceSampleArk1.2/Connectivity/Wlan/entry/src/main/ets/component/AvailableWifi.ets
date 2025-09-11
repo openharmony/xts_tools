@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  StorageLink,
+  Watch,
+  State,
+  CustomDialogController,
+  List,
+  ListItem,
+  Row,
+  Text,
+  $r,
+  LazyForEach,
+  Color,
+} from '@kit.ArkUI';
 
 import prompt from '@ohos.promptAction'
 import Logger from '../model/Logger'
@@ -32,7 +48,7 @@ export struct AvailableWifi {
   @State wifiDataResource: WifiDataSource = new WifiDataSource(this.wifiList)
   @State scanInfo: wifi.WifiScanInfo = undefined
   private pswDialogController: CustomDialogController = new CustomDialogController({
-    builder: PswDialog({ scanInfo: $scanInfo, action: this.onAccept }),
+    builder: PswDialog({ scanInfo: this.scanInfo, action: this.onAccept }),
     autoCancel: true
   })
 

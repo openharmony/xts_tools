@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  Resource,
+  $r,
+  State,
+  Row,
+  Column,
+  Text,
+  Color,
+  Stack,
+  Alignment,
+  Image,
+  ImageFit,
+} from '@kit.ArkUI';
 
 import Logger from '../model/Logger'
 import wifi from '@ohos.wifiManager'

@@ -18,142 +18,30 @@
     "name": "entry",
     "type": "entry",
     "description": "$string:module_desc",
-    "mainElement": "MainAbility",
+    "mainElement": "EntryAbility",
     "deviceTypes": [
-      "default",
-      "tablet"
+      "phone"
     ],
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:main_pages",
-    "requestPermissions": [
-      {
-        "name": "ohos.permission.GET_WIFI_INFO",
-        "reason": "$string:GET_WIFI_INFO",
-        "usedScene": {
-          "abilities": [
-            "MainAbility"
-          ],
-          "when": "inuse"
-        },
-      },
-      {
-        "name": "ohos.permission.SET_WIFI_INFO",
-        "reason": "$string:SET_WIFI_INFO",
-        "usedScene": {
-          "abilities": [
-            "MainAbility"
-          ],
-          "when": "inuse"
-        }
-      },
-      {
-        "name": "ohos.permission.LOCATION",
-        "reason": "$string:location_permission",
-        "usedScene": {
-          "abilities": [
-            "MainAbility"
-          ],
-          "when": "inuse"
-        }
-      },
-      {
-        "name": "ohos.permission.APPROXIMATELY_LOCATION",
-        "reason": "$string:approximately_location_permission",
-        "usedScene": {
-          "abilities": [
-            "MainAbility"
-          ],
-          "when": "inuse"
-        }},
-      {
-        "name": "ohos.permission.GET_WIFI_INFO_INTERNAL",
-        "reason": "$string:GET_WIFI_INFO_INTERNAL",
-        "usedScene": {
-          "abilities": [
-            "MainAbility"
-          ],
-          "when": "inuse"
-        }
-      },
-      {
-        "name": "ohos.permission.GET_WIFI_PEERS_MAC",
-        "reason": "$string:GET_WIFI_PEERS_MAC",
-        "usedScene": {
-          "abilities": [
-            "MainAbility"
-          ],
-          "when": "inuse"
-        }
-      },
-      {
-        "name": "ohos.permission.GET_WIFI_LOCAL_MAC",
-        "reason": "$string:GET_WIFI_LOCAL_MAC",
-        "usedScene": {
-          "abilities": [
-            "MainAbility"
-          ],
-          "when": "inuse"
-        }
-      },
-      {
-        "name": "ohos.permission.GET_WIFI_CONFIG",
-        "reason": "$string:GET_WIFI_CONFIG",
-        "usedScene": {
-          "abilities": [
-            "MainAbility"
-          ],
-          "when": "inuse"
-        }
-      },
-      {
-        "name": "ohos.permission.SET_WIFI_CONFIG",
-        "reason": "$string:SET_WIFI_CONFIG",
-        "usedScene": {
-          "abilities": [
-            "MainAbility"
-          ],
-          "when": "inuse"
-        }
-      },
-      {
-        "name": "ohos.permission.MANAGE_WIFI_CONNECTION",
-        "reason": "$string:MANAGE_WIFI_CONNECTION",
-        "usedScene": {
-          "abilities": [
-            "MainAbility"
-          ],
-          "when": "inuse"
-        }
-      },
-      {
-        "name": "ohos.permission.MANAGE_WIFI_HOTSPOT",
-        "reason": "$string:MANAGE_WIFI_HOTSPOT",
-        "usedScene": {
-          "abilities": [
-            "MainAbility"
-          ],
-          "when": "inuse"
-        }
-      }
-    ],
     "abilities": [
       {
         "name": "EntryAbility",
-        "srcEntrance": "./ets/entryability/EntryAbility.ets",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
         "description": "$string:EntryAbility_desc",
-        "icon": "$media:icon",
+        "icon": "$media:layered_image",
         "label": "$string:EntryAbility_label",
-        "startWindowIcon": "$media:icon",
+        "startWindowIcon": "$media:startIcon",
         "startWindowBackground": "$color:start_window_background",
-        "visible": true,
+        "exported": true,
         "skills": [
           {
             "entities": [
               "entity.system.home"
             ],
             "actions": [
-              "action.system.home"
+              "ohos.want.action.home"
             ]
           }
         ]

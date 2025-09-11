@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  Row,
+  Text,
+  $r,
+  Color,
+  Button,
+  Image,
+  ImageFit,
+  ButtonType,
+  getUIContext,
+} from '@kit.ArkUI';
 
 import router from '@ohos.router'
 
@@ -34,7 +48,7 @@ export struct TitleBar {
       .height('90%')
       .backgroundColor($r('app.color.button_color'))
       .onClick(() => {
-        router.pushUrl({ url: 'pages/About' })
+        getUIContext().getRouter.pushUrl({ url: 'pages/About' })
       })
     }
     .width('100%')

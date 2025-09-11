@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,9 +14,14 @@
  * limitations under the License.
  */
 
+import { Observed } from '@kit.ArkUI';
+
+import { DataChangeListener } from '@kit.ArkUI';
+
 import wifi from '@ohos.wifiManager'
 import Logger from '../model/Logger'
 
+@Observed
 export default class WifiDataSource {
   private listeners: DataChangeListener[] = []
   private dataArray: wifi.WifiScanInfo[] = []
@@ -28,7 +34,7 @@ export default class WifiDataSource {
     return this.dataArray.length
   }
 
-  public getData(index: number): wifi.WifiScanInfo {
+  public getData(index: int): wifi.WifiScanInfo {
     return this.dataArray[index]
   }
 

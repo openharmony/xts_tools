@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  Column,
+  Row,
+  Image,
+  $r,
+  ImageFit,
+  getUIContext,
+  Text,
+  Color,
+  Scroll,
+} from '@kit.ArkUI';
 
 import router from '@ohos.router'
 import { WifiModel } from '../model/WifiModel'
@@ -29,7 +44,7 @@ struct About {
           .size({ width: 50, height: '100%' })
           .objectFit(ImageFit.Contain)
           .onClick(() => {
-            router.back()
+            getUIContext().getRouter.back()
           })
           .id('back')
 

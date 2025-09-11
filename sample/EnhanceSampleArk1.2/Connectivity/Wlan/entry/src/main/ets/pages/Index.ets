@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2022-2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  AppStorage,
+  Column,
+  Row,
+  Text,
+  $r,
+  FontWeight,
+  Toggle,
+  ToggleType,
+  Color,
+} from '@kit.ArkUI';
 
 import wifi from '@ohos.wifiManager';
 import { AvailableWifi } from '../component/AvailableWifi';
