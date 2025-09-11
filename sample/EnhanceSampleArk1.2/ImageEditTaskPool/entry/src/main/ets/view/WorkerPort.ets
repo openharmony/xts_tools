@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -41,9 +42,9 @@ function execColorInfo(bufferArray: ArrayBuffer, last: number, cur: number, hsvI
   // ...
   const newBufferArr = bufferArray;
   let colorInfo = new Uint8Array(newBufferArr);
-  for (let i = 0; i < colorInfo?.length; i += CommonConstants.PIXEL_STEP) {
+  for (let i: number = 0; i < colorInfo?.length; i += CommonConstants.PIXEL_STEP) {
     const hsv = rgb2hsv(colorInfo[i + RGBIndex.RED], colorInfo[i + RGBIndex.GREEN], colorInfo[i + RGBIndex.BLUE]);
-    let rate = cur / last;
+    let rate: number = cur / last;
     hsv[hsvIndex] *= rate;
     const rgb: ESObject = hsv2rgb(hsv[HSVIndex.HUE], hsv[HSVIndex.SATURATION], hsv[HSVIndex.VALUE]);
     colorInfo[i + RGBIndex.RED] = rgb[RGBIndex.RED];
@@ -55,7 +56,7 @@ function execColorInfo(bufferArray: ArrayBuffer, last: number, cur: number, hsvI
 
 // [End WorkerPort]
 function colorTransform(rgbValue: number): number {
-  return Number((rgbValue / 255).toFixed(2));
+  return Number((rgbValue / 255.0).toFixed(2));
 }
 
 function rgb2hsv(red: number, green: number, blue: number): number[] {
@@ -63,8 +64,8 @@ function rgb2hsv(red: number, green: number, blue: number): number[] {
   const rgbR: number = colorTransform(red);
   const rgbG: number = colorTransform(green);
   const rgbB: number = colorTransform(blue);
-  const maxValue = Math.max(rgbR, Math.max(rgbG, rgbB));
-  const minValue = Math.min(rgbR, Math.min(rgbG, rgbB));
+  const maxValue: number = Math.max(rgbR, Math.max(rgbG, rgbB));
+  const minValue: number = Math.min(rgbR, Math.min(rgbG, rgbB));
   hsvV = maxValue * 100;
   if (maxValue === 0) {
     hsvS = 0;
@@ -92,13 +93,13 @@ function rgb2hsv(red: number, green: number, blue: number): number[] {
 function hsv2rgb(hue: number, saturation: number, value: number): ESObject {
   let rgbR: number = 0, rgbG: number = 0, rgbB: number = 0;
   if (saturation === 0) {
-    rgbR = rgbG = rgbB = Math.round((value * 255) / 100);
+    rgbR = rgbG = rgbB = Math.round((value * 255) / 100.0);
     return { rgbR, rgbG, rgbB };
   }
-  const cxmC = (value * saturation) / (100 * 100);
-  const cxmX = cxmC * (1 - Math.abs((hue / 60) % 2 - 1));
-  const cxmM = (value - cxmC * 100) / 100;
-  const hsvHRange = Math.floor(hue / 60);
+  const cxmC: number = (value * saturation) / (100 * 100);
+  const cxmX: number = cxmC * (1 - Math.abs((hue / 60.0) % 2 - 1));
+  const cxmM: number = (value - cxmC * 100) / 100.0;
+  const hsvHRange = Math.floor(hue / 60.0);
   switch (hsvHRange) {
     case AngelRange.ANGEL_0_60:
       rgbR = (cxmC + cxmM) * 255;

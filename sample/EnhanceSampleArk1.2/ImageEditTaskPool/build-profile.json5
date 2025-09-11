@@ -20,9 +20,24 @@
       {
         "name": "default",
         "signingConfig": "default",
-        "compatibleSdkVersion": "5.0.5(17)",
-        "targetSdkVersion": "5.0.5(17)",
-        "runtimeOS": "HarmonyOS"
+        "targetSdkVersion": "6.0.0(20)",
+        "arkTSVersion": "1.2",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
       }
     ]
   },

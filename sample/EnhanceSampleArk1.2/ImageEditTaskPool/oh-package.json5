@@ -14,14 +14,10 @@
  */
 
 {
-  "modelVersion": "5.0.0",
-  "license": "",
-  "devDependencies": {
-  },
-  "author": "",
-  "name": "imageedit",
+  "modelVersion": "6.0.0",
   "description": "Please describe the basic information.",
-  "main": "",
-  "version": "1.0.0",
-  "dependencies": {}
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
 }

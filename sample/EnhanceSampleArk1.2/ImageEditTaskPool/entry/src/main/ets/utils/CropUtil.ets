@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License,Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,6 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import { PixelMap } from '@kit.ArkUI';
 
 import { RegionItem } from '../viewModel/RegionItem';
 
@@ -75,21 +78,21 @@ export async function banner(pixelMap: PixelMap, width: number, height: number):
   if (width <= height) {
     const cropWidth = width;
     const cropHeight = Math.floor(width * 0.75);
-    const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2));
+    const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0));
     await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
     return;
   }
   if (width * 0.75 >= height) {
     const cropWidth = Math.floor(height / 0.75);
     const cropHeight = height;
-    const cropPosition = new RegionItem(Math.floor((width - cropWidth) / 2), 0);
+    const cropPosition = new RegionItem(Math.floor((width - cropWidth) / 2.0), 0);
     await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
     return;
   }
 
   const cropWidth = width;
   const cropHeight = Math.floor(width * 0.75);
-  const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2));
+  const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0));
   await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
 }
 
@@ -103,21 +106,21 @@ export async function banner(pixelMap: PixelMap, width: number, height: number):
 export async function rectangle(pixelMap: PixelMap, width: number, height: number): Promise<void> {
   if (width <= height) {
     const cropWidth = width;
-    const cropHeight = Math.floor(width * (9 / 16));
-    const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2));
+    const cropHeight = Math.floor(width * (9.0 / 16.0));
+    const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0));
     await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
     return;
   }
-  if (width * (9 / 16) >= height) {
-    const cropWidth = Math.floor(height / (9 / 16));
+  if (width * (9.0 / 16.0) >= height) {
+    const cropWidth = Math.floor(height / (9.0 / 16.0));
     const cropHeight = height;
-    const cropPosition = new RegionItem(Math.floor((width - cropWidth) / 2), 0);
+    const cropPosition = new RegionItem(Math.floor((width - cropWidth) / 2.0), 0);
     await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
     return;
   }
 
   const cropWidth = width;
-  const cropHeight = Math.floor(width * (9 / 16));
-  const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2));
+  const cropHeight = Math.floor(width * (9.0 / 16.0));
+  const cropPosition = new RegionItem(0, Math.floor((height - cropHeight) / 2.0));
   await cropCommon(pixelMap, cropWidth, cropHeight, cropPosition);
 }

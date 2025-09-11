@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License,Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,6 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  State,
+  Provide,
+  Watch,
+  CustomDialogController,
+  $r,
+  Builder,
+  Resource,
+  Column,
+  Image,
+  Text,
+  Color,
+  Navigation,
+  ImageFit,
+  FlexAlign,
+  Tabs,
+  BarPosition,
+  TabContent,
+  Row,
+  ForEach,
+  AppStorage,
+} from '@kit.ArkUI';
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { AlertDialog } from '@kit.ArkUI';
@@ -33,7 +59,7 @@ const TAG: string = '[HomePage]';
 struct HomePage {
   @State currentIndex: number = 0;
   @State currentCropIndex: number = 0;
-  @Provide('imageInfo') imageInfo: image.ImageInfo = {
+  @Provide({ alias: 'imageInfo' }) imageInfo: image.ImageInfo = {
     size: { height: 0, width: 0 },
     density: 0,
     stride: 0,
@@ -42,10 +68,10 @@ struct HomePage {
     mimeType: '',
     isHdr: false
   };
-  @Provide('currentAdjustData') currentAdjustData: Array<number> =
+  @Provide({ alias: 'currentAdjustData' }) currentAdjustData: Array<number> =
     CommonConstants.ADJUST_SLIDER_VALUE.map((item: number) => item);
-  @Provide('isPixelMapChange') @Watch('flushPixelMap') isPixelMapChange: boolean = false;
-  @Provide('pixelMap') pixelMap?: image.PixelMap = undefined;
+  @Provide({ alias: 'isPixelMapChange' }) @Watch('flushPixelMap') isPixelMapChange: boolean = false;
+  @Provide({ alias: 'pixelMap' }) pixelMap?: image.PixelMap = undefined;
   menuIconChangeList = menuIconList;
   cropIconChange: Array<IconStatus> = cropIconChangeList;
   dialogControllerConfirm: CustomDialogController = new CustomDialogController({
@@ -91,8 +117,8 @@ struct HomePage {
     }
     const imageInfo = await this.pixelMap.getImageInfo();
     const size = imageInfo.size;
-    const imageWidth = size?.width;
-    const imageHeight = size?.height;
+    const imageWidth: int = size?.width;
+    const imageHeight: int = size?.height;
     switch (proportion) {
       case CropType.ORIGINAL_IMAGE:
         this.pixelInit();
@@ -231,7 +257,9 @@ struct HomePage {
               .height('100%')
               .justifyContent(FlexAlign.SpaceEvenly)
             }
-            .tabBar(this.TabBuilderMenu(MainTabId.CROP, $r('app.string.crop')))
+            .tabBar(() => {
+              this.TabBuilderMenu(MainTabId.CROP, $r('app.string.crop'))
+            })
 
             TabContent() {
               Row() {
@@ -253,12 +281,16 @@ struct HomePage {
               .width('100%')
               .height('100%')
             }
-            .tabBar(this.TabBuilderMenu(MainTabId.ROTATE, $r('app.string.rotate')))
+            .tabBar(() => {
+              this.TabBuilderMenu(MainTabId.ROTATE, $r('app.string.rotate'))
+            })
 
             TabContent() {
               AdjustContentView()
             }
-            .tabBar(this.TabBuilderMenu(MainTabId.ADJUST, $r('app.string.adjust')))
+            .tabBar(() => {
+              this.TabBuilderMenu(MainTabId.ADJUST, $r('app.string.adjust'))
+            })
           }
           .scrollable(false)
           .onChange((index: number) => {
