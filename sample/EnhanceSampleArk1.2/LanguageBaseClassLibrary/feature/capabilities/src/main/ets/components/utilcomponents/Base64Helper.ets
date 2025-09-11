@@ -21,7 +21,6 @@ import {
   Column,
   Row,
   Text,
-  $r,
   FontWeight,
   TextAlign,
   Color,
@@ -29,6 +28,12 @@ import {
   ButtonType,
   BarState,
   Alignment,
+  $r,
+  Padding,
+  Margin,
+  ClickEvent,
+  ColumnOptions,
+  ButtonOptions,
 } from '@kit.ArkUI';
 
 import util from '@ohos.util';
@@ -41,15 +46,15 @@ export struct Base64Helper {
 
   build() {
     Scroll() {
-      Column({ space: 12 }) {
+      Column({ space: 12.0 } as ColumnOptions) {
         Row() {
           Text($r('app.string.change_str'))
-            .fontSize(20)
+            .fontSize(20.0)
             .fontWeight(FontWeight.Bold)
             .textAlign(TextAlign.End)
 
           Text(this.input)
-            .fontSize(20)
+            .fontSize(20.0)
             .fontWeight(FontWeight.Bold)
             .textAlign(TextAlign.Start)
         }
@@ -59,48 +64,48 @@ export struct Base64Helper {
         Text(this.resultEncode)
           .width('100%')
           .height('10%')
-          .padding({ left: 10 })
-          .fontSize(20)
+          .padding({ left: 10.0 }as Padding)
+          .fontSize(20.0)
           .fontWeight(FontWeight.Bold)
-          .border({ width: 2, radius: 10, color: Color.Black })
+          .border({ width: 2.0, radius: 10.0, color: Color.Black })
 
-        Button() {
+        Button({} as ButtonOptions) {
           Text($r("app.string.encode"))
-            .fontSize(25)
+            .fontSize(25.0)
             .fontColor(Color.White)
         }
         .key('encodeBtn')
         .width('100%')
-        .height(50)
+        .height(50.0)
         .type(ButtonType.Capsule)
-        .onClick(() => {
+        .onClick((e:ClickEvent) => {
           this.encode();
         })
 
         Text(this.resultDecode)
           .width('100%')
           .height('10%')
-          .fontSize(20)
-          .padding({ left: 10 })
+          .fontSize(20.0)
+          .padding({ left: 10.0 } as Padding)
           .fontWeight(FontWeight.Bold)
-          .border({ width: 2, radius: 10, color: Color.Black })
-          .margin({ top: 50 })
+          .border({ width: 2.0, radius: 10.0, color: Color.Black })
+          .margin({ top: 50.0 } as Margin)
 
-        Button() {
+        Button({} as ButtonOptions) {
           Text($r("app.string.decode"))
-            .fontSize(25)
+            .fontSize(25.0)
             .fontColor(Color.White)
         }
         .key('decodeBtn')
         .width('100%')
-        .height(50)
+        .height(50.0)
         .type(ButtonType.Capsule)
-        .onClick(() => {
+        .onClick((e:ClickEvent) => {
           this.decode();
         })
       }
       .width('100%')
-      .padding(16)
+      .padding(16.0)
     }
     .scrollBar(BarState.Off)
     .align(Alignment.Start)
@@ -108,7 +113,7 @@ export struct Base64Helper {
 
   encode() {
     let strToAscii: number[] = [];
-    for (let i: int = 0;i < this.input.length; i++) {
+    for (let i: number = 0.0;i < this.input.length; i++) {
       strToAscii.push(this.input.charCodeAt(i));
     }
     let that = new util.Base64Helper();
@@ -123,8 +128,8 @@ export struct Base64Helper {
     }
     let decodeNum = that.decodeSync(this.resultEncode);
     this.resultDecode = '';
-    for (let i: int = 0; i < decodeNum.length; i++) {
-      this.resultDecode += String.fromCharCode(decodeNum[i]);
+    for (let i: number = 0.0; i < decodeNum.length; i++) {
+      this.resultDecode += String.fromCharCode(decodeNum[i as int]);
     }
   }
 }

@@ -22,9 +22,12 @@ import {
   Text,
   Color,
   BarState,
-  $r,
   Alignment,
   CustomDialogController,
+  $r,
+  Padding,
+  Margin,
+  ClickEvent,
 } from '@kit.ArkUI';
 
 import { ActionSheetDialog } from './lrucache/ActionSheetDialog';
@@ -44,7 +47,7 @@ import {
 @Component
 export struct LRUCache {
   @State resultText: string = '';
-  @State actionSheets: Array<string> = [];
+  @State actionSheets: Array<string> = [''];
   private isGet: boolean = true;
 
   build() {
@@ -53,25 +56,25 @@ export struct LRUCache {
         Scroll() {
           Text(this.resultText)
             .width('100%')
-            .fontSize(16)
+            .fontSize(16.0)
         }
         .width('90%')
-        .height(240)
-        .margin({ top: 10 })
-        .border({ width: 1, color: Color.Gray, radius: 15 })
+        .height(240.0)
+        .margin({ top: 10.0 } as Margin)
+        .border({ width: 1.0, color: Color.Gray, radius: 15.0 })
         .scrollBar(BarState.Off)
-        .padding(15)
+        .padding(15.0)
 
         GridOperation({ operationRes: $r('app.strarray.lru_cache_operations'), doOperation: this.doOperation })
       }
       .width('100%')
-      .padding(16)
+      .padding(16.0)
     }
     .scrollBar(BarState.Off)
     .align(Alignment.Start)
   }
 
-  action = (key: string) => {
+  action (key: string)  {
     if (this.isGet) {
       if (lruBuffer.contains(key)) {
         let value: string = lruBuffer.get(key) as string;
@@ -92,14 +95,15 @@ export struct LRUCache {
     }),
     autoCancel: true
   });
-  doOperation = (index: number) => {
-    if (index !== 0 && lruBuffer === null) {
+  doOperation  (index: number)  {
+    if (index !== 0.0 && lruBuffer === null) {
       this.resultText = 'Click the first button and then operate';
       return;
     }
-    switch (index) {
+    const uIContext = this.getUIContext()
+    switch (index as int) {
       case 0:
-        this.resultText = initLRUCache();
+        this.resultText = initLRUCache(uIContext);
         break;
       case 1:
         this.resultText = getCapacity();
@@ -111,7 +115,7 @@ export struct LRUCache {
         this.resultText = getCacheString();
         break;
       case 4:
-        this.resultText = putKeyValue();
+        this.resultText = putKeyValue(uIContext);
         break;
       case 5:
         this.isGet = true;
@@ -127,7 +131,7 @@ export struct LRUCache {
         this.actionDialogController.open();
         break;
       case 8:
-        this.resultText = clear();
+        this.resultText = clear(uIContext);
         break;
       case 9:
         this.resultText = operationLog();

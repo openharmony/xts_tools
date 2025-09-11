@@ -1,4 +1,4 @@
-'use static'
+// 'use static'
 /**
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,74 +14,74 @@
  * limitations under the License.
  */
 
-import {
-  IDataSource,
-  DataChangeListener,
-} from '@kit.ArkUI';
-
-class BasicDataSource implements IDataSource {
-  private listeners: DataChangeListener[] = [];
-
-  public totalCount(): number {
-    return 0;
-  }
-
-  public getData(index: number): Object {
-    return '';
-  }
-
-  registerDataChangeListener(listener: DataChangeListener): void {
-    if (this.listeners.indexOf(listener) < 0) {
-      this.listeners.push(listener);
-    }
-  }
-
-  unregisterDataChangeListener(listener: DataChangeListener): void {
-    const pos = this.listeners.indexOf(listener);
-    if (pos >= 0) {
-      this.listeners.splice(pos, 1);
-    }
-  }
-
-  notifyDataReload(): void {
-    this.listeners.forEach(listener => {
-      listener.onDataReloaded();
-    })
-  }
-
-  notifyDataAdd(index: number): void {
-    this.listeners.forEach(listener => {
-      listener.onDataAdded(index);
-    })
-  }
-
-  notifyDataChange(index: number): void {
-    this.listeners.forEach(listener => {
-      listener.onDataChanged(index);
-    })
-  }
-}
-
-export class CustomDataSource extends BasicDataSource {
-  public dataArray: string[] = [];
-
-  constructor(ele: string[]) {
-    super();
-    for (let index: int = 0;index < ele.length; index++) {
-      this.dataArray.push(ele[index]);
-    }
-  }
-
-  public totalCount(): number {
-    return this.dataArray.length;
-  }
-
-  public getData(index: number): string {
-    return this.dataArray[index as int];
-  }
-
-  public addData(index: number, data: string): void {
-    this.dataArray.splice(index, 0, data);
-    this.notifyDataAdd(index);
-  }
-}
+// import {
+//   IDataSource,
+//   DataChangeListener,
+// } from '@kit.ArkUI';
+//
+// class BasicDataSource <T> implements IDataSource<T> {
+//   private listeners: DataChangeListener[] = [];
+//
+//   public totalCount(): number {
+//     return 0;
+//   }
+//
+//   public getData(index: number): T {
+//     // return '';
+//   }
+//
+//   registerDataChangeListener(listener: DataChangeListener): void {
+//     if (this.listeners.indexOf(listener) < 0.0) {
+//       this.listeners.push(listener);
+//     }
+//   }
+//
+//   unregisterDataChangeListener(listener: DataChangeListener): void {
+//     const pos: number = this.listeners.indexOf(listener);
+//     if (pos >= 0.0) {
+//       this.listeners.splice(pos, 1.0);
+//     }
+//   }
+//
+//   notifyDataReload(): void {
+//     this.listeners.forEach(listener => {
+//       listener.onDataReloaded();
+//     })
+//   }
+//
+//   notifyDataAdd(index: number): void {
+//     this.listeners.forEach(listener => {
+//       listener.onDataAdd(index);
+//     })
+//   }
+//
+//   notifyDataChange(index: number): void {
+//     this.listeners.forEach(listener => {
+//       listener.onDataChange(index);
+//     })
+//   }
+// }
+//
+// export class CustomDataSource extends BasicDataSource<string>{
+//   public dataArray: string[] = [];
+//
+//   constructor(ele: string[]) {
+//     super();
+//     for (let index: number = 0.0;index < ele.length; index++) {
+//       this.dataArray.push(ele[index as int]);
+//     }
+//   }
+//
+//   public totalCount(): number {
+//     return this.dataArray.length;
+//   }
+//
+//   public getData(index: number): string {
+//     return this.dataArray[index as int];
+//   }
+//
+//   public addData(index: number, data: string): void {
+//     this.dataArray.splice(index, 0.0, data);
+//     this.notifyDataAdd(index);
+//   }
+// }

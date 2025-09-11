@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -49,10 +50,10 @@ export { TreeMapView } from './src/main/ets/capabilities/TreeMapView';
 
 export { TreeSetView } from './src/main/ets/capabilities/TreeSetView';
 
-export { VectorView } from './src/main/ets/capabilities/VectorView';
+// export { VectorView } from './src/main/ets/capabilities/VectorView';
 
 export { KeyValuePair } from './src/main/ets/model/KeyValuePair';
 
 export { Information } from './src/main/ets/model/Information';
 
-export { Constant as Constant } from './src/main/ets/Constant';
+export { Constant } from './src/main/ets/Constant';

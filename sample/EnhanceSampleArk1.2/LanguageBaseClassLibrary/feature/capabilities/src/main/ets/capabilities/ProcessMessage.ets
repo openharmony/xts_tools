@@ -19,43 +19,45 @@ import {
   Column,
   Button,
   Text,
-  $r,
   Color,
   ButtonType,
   AppStorage,
   FlexAlign,
   HorizontalAlign,
+  $r,
+  ButtonOptions
 } from '@kit.ArkUI';
 
+import { common, Want } from '@kit.AbilityKit';
 import { BusinessError } from '@ohos.base';
-import Want from '@ohos.app.ability.Want';
-import common from '@ohos.app.ability.common';
-import { logger } from '@ohos/common/src/main/ets/util/Logger';
+import { logger } from 'common';
 
 @Component
 export struct ProcessMessage {
 
   build() {
     Column() {
-      Button() {
+      Button({} as ButtonOptions) {
         Text($r('app.string.process'))
-          .fontSize(16)
+          .fontSize(16.0)
           .fontColor(Color.White)
       }
       .width('100%')
-      .height(50)
+      .height(50.0)
       .type(ButtonType.Capsule)
       .onClick(() => {
-        let context: common.UIAbilityContext | undefined = AppStorage.get('context');
+        let context: common.UIAbilityContext | undefined = AppStorage.get<common.UIAbilityContext>('context');
         let want: Want = {
           bundleName: "com.samples.process_message",
           abilityName: "EntryAbility",
         };
-        context && context.startAbility(want,  (err: BusinessError) => {
-          if (err.code) {
-            logger.error('StartAbility', `Failed to startAbility. Code: ${err.code}, message: ${err.message}`);
-          }
-        });
+        if(context){
+          context.startAbility(want,  (err: BusinessError | null, data: undefined) => {
+            if (err && err.code) {
+              logger.error('StartAbility', `Failed to startAbility. Code: ${err.code}, message: ${err.message}`);
+            }
+          });
+        }
       })
     }
     .width('100%')

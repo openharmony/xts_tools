@@ -20,10 +20,12 @@ import {
   Link,
   Button,
   Text,
-  $r,
   Color,
   TextAlign,
   ButtonType,
+  $r,
+  Margin,
+  ButtonOptions
 } from '@kit.ArkUI';
 
 import util from '@ohos.util';
@@ -36,20 +38,22 @@ export struct CheckType {
 
   check(value: Object) {
     let utilType: util.types = new util.types();
-    let utilData: Map<string, boolean> | null = new Map<string, boolean>([
-      ['ArrayBuffer', utilType.isAnyArrayBuffer(value)],
-      ['Int8Array', utilType.isInt8Array(value)],
-      ['Number', utilType.isNumberObject(value)],
-      ['String', utilType.isStringObject(value)],
-      ['Boolean', utilType.isBooleanObject(value)],
-      ['ArrayBuffer', utilType.isAnyArrayBuffer(value)],
+    let mapArray: Array<[string, boolean]> = [
+      ['AnyArrayBuffer', utilType.isAnyArrayBuffer(value)],
+      ['ArrayBuffer', utilType.isArrayBuffer(value)],
+      ['ArrayBufferView', utilType.isArrayBufferView(value)],
       ['DataView', utilType.isDataView(value)],
-      ['Arguments', utilType.isArgumentsObject(value)],
-      ['AsyncFunction', utilType.isAsyncFunction(value)],
-      ['External', utilType.isExternal(value)],
+      ['Int8Array', utilType.isInt8Array(value)],
       ['Float32Array', utilType.isFloat32Array(value)],
-      ['Generator', utilType.isGeneratorFunction(value)]
-    ]);
+      // ['Number', utilType.isNumberObject(value)],
+      // ['String', utilType.isStringObject(value)],
+      // ['Boolean', utilType.isBooleanObject(value)],
+      // ['Arguments', utilType.isArgumentsObject(value)],
+      // ['AsyncFunction', utilType.isAsyncFunction(value)],
+      // ['External', utilType.isExternal(value)],
+      // ['Generator', utilType.isGeneratorFunction(value)]
+    ]
+    let utilData: Map<string, boolean> | null = new Map<string, boolean>(mapArray);
     for (let item of utilData) {
       if (item[1] === true) {
         this.result = item[0];
@@ -61,26 +65,26 @@ export struct CheckType {
 
   show() {
     let showResult: string = '';
-    for (let i: int = 0; i < this.presetValue.length; i++) {
-      let typeResult = this.check(this.presetValue[i]);
-      showResult = showResult + `${this.presetValue[i]} check success,this value type is ${typeResult}\n`;
+    for (let i: number = 0.0; i < this.presetValue.length; i++) {
+      let typeResult = this.check(this.presetValue[i as int]);
+      showResult = showResult + `${this.presetValue[i as int]} check success,this value type is ${typeResult}\n`;
     }
     this.checkResult = showResult;
   }
 
   build() {
-    Button() {
+    Button({} as ButtonOptions) {
       Text($r('app.string.check'))
         .fontColor(Color.Black)
-        .fontSize(20)
+        .fontSize(20.0)
         .textAlign(TextAlign.Center)
         .width('85%')
     }
     .key('checkPresetValue')
     .type(ButtonType.Capsule)
     .backgroundColor('#0D9FFB')
-    .padding(5)
-    .margin({ top: 10 })
+    .padding(5.0)
+    .margin({ top: 10.0 } as Margin)
     .onClick(() => {
       this.show();
     })

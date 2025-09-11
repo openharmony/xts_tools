@@ -2,8 +2,9 @@
   "string": [
     {
       "name": "page_show",
-      "value": "page from npm package"
+      "value": "page from package"
     },
+
     {
       "name": "tv_no_data",
       "value": "No data"

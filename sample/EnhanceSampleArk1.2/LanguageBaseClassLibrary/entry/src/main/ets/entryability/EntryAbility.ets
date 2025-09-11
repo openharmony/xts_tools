@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,12 +14,11 @@
  * limitations under the License.
  */
 
+import { AppStorage, Context } from '@kit.ArkUI';
+import { AbilityConstant, UIAbility, Want, common } from '@kit.AbilityKit';
 import display from '@ohos.display';
-import UIAbility from '@ohos.app.ability.UIAbility';
 import window from '@ohos.window';
-import { logger } from '@ohos/common/src/main/ets/util/Logger';
-import Want from '@ohos.app.ability.Want';
-import AbilityConstant from '@ohos.app.ability.AbilityConstant';
+import { logger } from 'common';
 
 const BREAKPOINT_MD: number = 600;
 const BREAKPOINT_BIG: number = 840;
@@ -28,9 +28,9 @@ const TAG: string = 'EntryAbility';
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     logger.info(TAG, 'Ability onCreate');
-    AppStorage.setOrCreate('selectedLabel', '');
-    AppStorage.setOrCreate('selectedSecondLabel', '');
-    AppStorage.setOrCreate('context', this.context);
+    AppStorage.setOrCreate<string>('selectedLabel', '');
+    AppStorage.setOrCreate<string>('selectedSecondLabel', '');
+    AppStorage.setOrCreate<common.UIAbilityContext>('context', this.context as common.UIAbilityContext);
   }
 
   updateBreakpoint(windowWidth: number): void {
@@ -44,9 +44,9 @@ export default class EntryAbility extends UIAbility {
       curBp = 'lg';
     }
     logger.info(TAG, 'window width: ' + windowWidth + ', window width vp: ' + windowWidthVp + ', breakpoint: ' + curBp);
-    AppStorage.SetOrCreate('currentBreakpoint', curBp);
-    AppStorage.SetOrCreate('windowWidth', windowWidthVp);
-    AppStorage.SetOrCreate('isSplitMode', curBp === 'sm' ? false : true);
+    // AppStorage.setOrCreate<string>('currentBreakpoint', curBp);
+    AppStorage.setOrCreate<number>('windowWidth', windowWidthVp);
+    AppStorage.setOrCreate<boolean>('isSplitMode', curBp === 'sm' ? false : true);
   }
 
   onDestroy(): void {
@@ -74,7 +74,7 @@ export default class EntryAbility extends UIAbility {
     });
 
     windowStage.loadContent('pages/Index', (err, data) => {
-      if (err.code) {
+      if (err && err.code) {
         logger.error(TAG, `Failed to load the content. Cause: ${JSON.stringify(err)}`);
         return;
       }

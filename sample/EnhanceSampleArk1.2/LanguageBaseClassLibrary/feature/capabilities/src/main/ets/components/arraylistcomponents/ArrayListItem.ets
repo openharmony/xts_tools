@@ -19,7 +19,6 @@ import {
   ObjectLink,
   Row,
   Image,
-  $r,
   ImageFit,
   Column,
   Text,
@@ -30,6 +29,11 @@ import {
   TextAlign,
   ButtonType,
   Alignment,
+  $r,
+  Padding,
+  Margin,
+  ClickEvent,
+  ButtonOptions
 } from '@kit.ArkUI';
 
 import { Information } from '../../model/Information';
@@ -37,7 +41,7 @@ import { Information } from '../../model/Information';
 @Component
 export struct ArrayListItem {
   @ObjectLink information: Information;
-  private index: number = 0;
+  private index: number = 0.0;
   private handleOnClick: (index: number) => void = () => {};
 
   build() {
@@ -48,61 +52,61 @@ export struct ArrayListItem {
       Column() {
         Row() {
           Text($r("app.string.contact_name"))
-            .fontSize(24)
+            .fontSize(24.0)
             .fontColor(Color.Black)
           Text(this.information.name)
             .fontColor(Color.Black)
-            .fontSize(24)
+            .fontSize(24.0)
         }
         .width('100%')
-        .margin({ top: 5 })
+        .margin({ top: 5.0 } as Margin)
 
         Row() {
           Text($r("app.string.contact_age"))
             .fontColor(Color.Black)
-            .fontSize(24)
+            .fontSize(24.0)
           Text(this.information.age.toString())
             .fontColor(Color.Black)
-            .fontSize(24)
+            .fontSize(24.0)
         }
         .width('100%')
-        .margin({ top: 5 })
+        .margin({ top: 5.0 } as Margin)
 
         Row() {
           Text($r("app.string.contact_phone"))
             .fontColor(Color.Black)
-            .fontSize(24)
+            .fontSize(24.0)
           Text(this.information.phone)
             .fontColor(Color.Black)
-            .fontSize(24)
+            .fontSize(24.0)
         }
         .width('100%')
-        .margin({ top: 5 })
+        .margin({ top: 5.0 } as Margin)
       }
       .width('55%')
-      .margin({ left: 10 })
+      .margin({ left: 10.0 } as Margin)
       .justifyContent(FlexAlign.Start)
 
       Blank()
-      Button() {
+      Button({} as ButtonOptions) {
         Text($r('app.string.button_delete'))
           .key('delContact')
           .fontColor(Color.Red)
-          .fontSize(19)
-          .width(100)
+          .fontSize(19.0)
+          .width(100.0)
           .textAlign(TextAlign.Center)
       }
       .type(ButtonType.Capsule)
       .backgroundColor($r("app.color.button_bg"))
-      .height(40)
-      .onClick(() => {
+      .height(40.0)
+      .onClick((event:ClickEvent) => {
         this.handleOnClick(this.index);
       })
     }
     .width('100%')
-    .padding(10)
+    .padding(10.0)
     .align(Alignment.Center)
-    .borderRadius(20)
+    .borderRadius(20.0)
     .backgroundColor(Color.White)
   }
 }

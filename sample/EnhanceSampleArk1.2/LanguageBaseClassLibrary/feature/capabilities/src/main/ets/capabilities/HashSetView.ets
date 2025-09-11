@@ -21,13 +21,14 @@ import {
   List,
   LazyForEach,
   ListItem,
-  $r,
+  Padding,
+  $r
 } from '@kit.ArkUI';
 
 import HashSet from '@ohos.util.HashSet';
 import emitter from '@ohos.events.emitter';
-import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
-import { logger } from '@ohos/common/src/main/ets/util/Logger';
+import { EmptyPage } from 'common';
+import { logger } from 'common';
 import { ValueItemView } from '../components/ValueItemView';
 import { HashSetDataSource } from '../components/hashsetcomponents/HashSetDataSource';
 import { Constant } from '../Constant';
@@ -36,16 +37,16 @@ const TAG = 'HashSetView'
 
 @Component
 export struct HashSetView {
-  @State totalCount: number = 0;
+  @State totalCount: number = 0.0;
   private hashSet: HashSet<string> = new HashSet<string>();
   private dataSource: HashSetDataSource = new HashSetDataSource();
 
   aboutToAppear() {
-    emitter.on({ eventId: Constant.EMITTER_ID_HASH_SET }, (eventData: emitter.EventData) => {
+    emitter.on({ eventId: Constant.EMITTER_ID_HASH_SET } as emitter.InnerEvent, (eventData: emitter.EventData) => {
       if (eventData.data === undefined) {
         return;
       }
-      let item: string = eventData.data.value;
+      let item = (eventData.data as Record<string, object>)['value'] as string;
       this.dataSource.addData(item);
       this.totalCount = this.dataSource.totalCount();
       this.hashSet.add(item);
@@ -53,13 +54,13 @@ export struct HashSetView {
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_HASH_SET.toLong());
+    emitter.off(Constant.EMITTER_ID_HASH_SET);
   }
 
   build() {
     Column() {
-      if (this.totalCount != 0) {
-        List({ space: 12 }) {
+      if (this.totalCount != 0.0) {
+        List({ space: 12.0 }) {
           LazyForEach(this.dataSource, (item: string, index: number) => {
             ListItem() {
               ValueItemView({
@@ -73,13 +74,13 @@ export struct HashSetView {
                 }
               })
             }
-            .height(72)
+            .height(72.0)
             .width('100%')
           }, (item: string, index: number) => JSON.stringify(item) + index)
         }
         .width('100%')
         .height('100%')
-        .padding({ top: 8, left: 12, right: 12 })
+        .padding({ top: 8.0, left: 12.0, right: 12.0 } as Padding)
       } else {
         EmptyPage()
       }

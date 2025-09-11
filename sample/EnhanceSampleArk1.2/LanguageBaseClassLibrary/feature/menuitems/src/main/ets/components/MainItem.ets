@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-import { LocalStoragePropRef } from '@kit.ArkUI';
-
 import {
   Component,
   Resource,
@@ -23,51 +21,69 @@ import {
   Row,
   Text,
   FontWeight,
-  $r,
   Alignment,
   Blank,
   Image,
   VerticalAlign,
   TouchEvent,
   TouchType,
+  Margin,
+  Padding,
+  $r,
+  StorageLink,
+  NavPathStack,
+  AppStorage
 } from '@kit.ArkUI';
 
 @Component
 export struct MainItem {
-  private title: string | Resource = '';
-  @LocalStoragePropRef('isSplitMode') isSplitMode: boolean = false;
   @State isTouched: boolean = false;
+  @StorageLink('selectedLabel') selectedLabel: string = '';
+  @StorageLink('selectedSecondLabel') selectedSecondLabel: string = '';
+  private title: string | Resource = '';
+  pageStack: NavPathStack = AppStorage.get<NavPathStack>('PathStack') as NavPathStack;
+  private isSecond: boolean = false;
+
 
   build() {
     Row() {
       Text(this.title)
-        .fontSize(16)
-        .lineHeight(22)
+        .fontSize(16.0)
+        .lineHeight(22.0)
         .fontWeight(FontWeight.Medium)
         .fontFamily('HarmonyHeiTi')
         .fontColor($r('sys.color.ohos_id_color_text_primary'))
         .align(Alignment.Start)
-        .margin({ left: 16 })
+        .margin({ left: 16.0 } as Margin)
 
       Blank()
 
       Image($r('app.media.ic_arrow'))
-        .width(12)
-        .height(24)
-        .margin({ left: 4 })
+        .width(12.0)
+        .height(24.0)
+        .margin({ left: 4.0 } as Margin)
         .fillColor($r('sys.color.ohos_id_color_fourth'))
     }
     .alignItems(VerticalAlign.Center)
     .width('100%')
-    .height(56)
-    .borderRadius(20)
-    .padding({ left: 8, right: 8 })
+    .height(56.0)
+    .borderRadius(20.0)
+    .padding({ left: 8.0, right: 8.0 } as Padding)
     .backgroundColor(this.isTouched ? $r('app.color.itemActivated') : $r('app.color.itemInactivated'))
     .onTouch((event: TouchEvent) => {
       if (event.type === TouchType.Down) {
         this.isTouched = true;
       } else if (event.type === TouchType.Up) {
         this.isTouched = false;
+      }
+    })
+    .onClick(() => {
+      if (this.isSecond == false) {
+        this.selectedLabel = this.title as string
+        this.pageStack.pushPathByName('Capabilities', new Object(), () => {})
+      } else {
+        this.selectedSecondLabel = this.title as string
+        this.pageStack.pushPathByName('Util', new Object(), () => {})
       }
     })
   }

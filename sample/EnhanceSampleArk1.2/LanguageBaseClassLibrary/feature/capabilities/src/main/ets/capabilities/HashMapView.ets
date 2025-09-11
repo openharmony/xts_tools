@@ -21,13 +21,14 @@ import {
   List,
   LazyForEach,
   ListItem,
-  $r,
+  Padding,
+  $r
 } from '@kit.ArkUI';
 
 import HashMap from '@ohos.util.HashMap';
 import emitter from '@ohos.events.emitter';
-import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
-import { logger } from '@ohos/common/src/main/ets/util/Logger';
+import { EmptyPage } from 'common';
+import { logger } from 'common';
 import { KeyValueItemView } from '../components/KeyValueItemView';
 import { KeyValuePair } from '../model/KeyValuePair';
 import { HashMapDataSource } from '../components/hashmapcomponents/HashMapDataSource';
@@ -37,13 +38,13 @@ const TAG = 'HashMapView';
 
 @Component
 export struct HashMapView {
-  @State totalCount: number = 0;
+  @State totalCount: number = 0.0;
   private hashMap: HashMap<string, string> = new HashMap<string, string>();
   private dataSource: HashMapDataSource = new HashMapDataSource();
 
   aboutToAppear() {
-    emitter.on({ eventId: Constant.EMITTER_ID_HASH_MAP }, (eventData) => {
-      let item: KeyValuePair = eventData.data as KeyValuePair;
+    emitter.on({ eventId: Constant.EMITTER_ID_HASH_MAP } as emitter.InnerEvent, (eventData: emitter.EventData) => {
+      let item = (eventData.data as Record<string, object>)['value'] as KeyValuePair;
       this.dataSource.addData(item);
       this.totalCount = this.dataSource.totalCount();
       this.hashMap.set(item.key, item.value);
@@ -51,13 +52,13 @@ export struct HashMapView {
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_HASH_MAP.toLong());
+    emitter.off(Constant.EMITTER_ID_HASH_MAP);
   }
 
   build() {
     Column() {
-      if (this.totalCount != 0) {
-        List({ space: 12 }) {
+      if (this.totalCount != 0.0) {
+        List({ space: 12.0 }) {
           LazyForEach(this.dataSource, (item: KeyValuePair, index: number) => {
             ListItem() {
               KeyValueItemView({
@@ -71,13 +72,13 @@ export struct HashMapView {
                 }
               })
             }
-            .height(72)
+            .height(72.0)
             .width('100%')
           }, (item: KeyValuePair, index: number) => JSON.stringify(item) + index)
         }
         .width('100%')
         .height('100%')
-        .padding({ top: 8, left: 12, right: 12 })
+        .padding({ top: 8.0, left: 12.0, right: 12.0 } as Padding)
       } else {
         EmptyPage()
       }

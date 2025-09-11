@@ -20,10 +20,12 @@ import {
   Link,
   Button,
   Text,
-  $r,
   Color,
   TextAlign,
   ButtonType,
+  Margin,
+  $r,
+  ButtonOptions
 } from '@kit.ArkUI';
 
 @Component
@@ -33,18 +35,18 @@ export struct ShowKey {
   @Link presetValue: Array<Int8Array | Number | String | Boolean>;
 
   build() {
-    Button() {
+    Button({} as ButtonOptions) {
       Text($r('app.string.show'))
         .fontColor(Color.Black)
-        .fontSize(20)
+        .fontSize(20.0)
         .textAlign(TextAlign.Center)
         .width('85%')
     }
     .key('displayPresetValue')
     .type(ButtonType.Capsule)
     .backgroundColor('#0D9FFB')
-    .padding(5)
-    .margin({ top: 10 })
+    .padding(5.0)
+    .margin({ top: 10.0 } as Margin)
     .onClick(() => {
       this.checkResult = `numberVal = ${this.presetValue[0]}\n`
       +`stringVal = ${this.presetValue[1]}\n`

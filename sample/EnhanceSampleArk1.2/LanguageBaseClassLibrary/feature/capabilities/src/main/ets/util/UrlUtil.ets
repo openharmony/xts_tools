@@ -1,29 +1,28 @@
-'use static'
+'use static';
 /*
-* Copyright (c) 2023 Huawei Device Co., Ltd.
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*     http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
-import { $r } from '@kit.ArkUI';
-
+import { $r, UIContext } from '@kit.ArkUI';
 import url from '@ohos.url';
-import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
+import { getString } from 'common';
 
 let urlObject = url.URL.parseURL('https://gitee.com/openharmony/');
-let paramsObject = new url.URLParams(urlObject.search.slice(1));
+let paramsObject = new url.URLParams(urlObject.search.slice(1.0));
 let nodeValue: string = 'nodeValue';
 let nodeKey: string = 'node';
-let nodeNum: int = 0;
+let nodeNum: number = 0.0;
 
 export function insertNode(): string {
   nodeNum++;
@@ -34,24 +33,24 @@ export function insertNode(): string {
 export function deleteNode(): string {
   if (paramsObject.has(nodeKey)) {
     paramsObject.delete(nodeKey);
-    nodeNum = 0;
+    nodeNum = 0.0;
     return urlObject.toString() + paramsObject.toString();
   } else {
-    return "It does not exist. Please insert first";
+    return 'It does not exist. Please insert first';
   }
 }
 
-export function getFirstNode(): string {
+export function getFirstNode(uIContext: UIContext): string {
   if (paramsObject.has(nodeKey)) {
-    let fod = paramsObject.get(nodeKey);
+    let fod = paramsObject.get(nodeKey) as string;;
     return fod !== null ? fod.toString() : '';
   } else {
-    return getString($r('app.string.please_insert'));
+    return getString($r('app.string.please_insert'), uIContext);
   }
 }
 
 export function changeValue(): string {
   paramsObject.set(nodeKey, 'newValue');
-  nodeNum = 0;
+  nodeNum = 0.0;
   return urlObject.toString() + paramsObject.toString();
 }

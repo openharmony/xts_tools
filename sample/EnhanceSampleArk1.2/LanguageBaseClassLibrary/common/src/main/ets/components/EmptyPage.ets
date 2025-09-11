@@ -18,13 +18,14 @@ import {
   Component,
   PixelMap,
   Resource,
-  $r,
   ResourceStr,
   Column,
   Image,
   Text,
   FlexAlign,
   HorizontalAlign,
+  $r,
+  Margin,
 } from '@kit.ArkUI';
 
 @Component
@@ -35,13 +36,13 @@ export struct EmptyPage {
   build() {
     Column() {
       Image(this.img)
-        .width(120)
-        .aspectRatio(1)
+        .width(120.0)
+        .aspectRatio(1.0)
 
       Text(this.message)
-        .fontSize(14)
+        .fontSize(14.0)
         .fontColor($r('app.color.text_color_second'))
-        .margin({ top: 8 })
+        .margin({ top: 8.0 } as Margin)
     }
     .width('100%')
     .height('100%')

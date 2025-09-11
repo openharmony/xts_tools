@@ -15,35 +15,49 @@
 */
 
 import Queue from '@ohos.util.Queue';
-import { BaseDataSource } from '@ohos/common/src/main/ets/components/BaseDataSource';
+import { BaseDataSource } from 'common';
 import { Information } from '../../model/Information';
 
-export class QueueDataSource extends BaseDataSource {
-  private dataArr: Queue<Information> = new Queue<Information>();
+export class QueueDataSource extends BaseDataSource<Information> {
+  private dataArr = new Queue<Information>();
 
   public totalCount(): number {
     return this.dataArr.length;
   }
 
   public getData(index: number): Information {
-    return this.dataArr[index];
+    let result: Information | undefined;
+    let currentIndex: number = 0;
+    for (const item of this.dataArr) {
+      if (currentIndex === index) {
+        result = item;
+        break;
+      }
+      currentIndex++;
+    }
+
+    if (!result) {
+      throw new Error(`Index ${index} out of bounds`);
+    }
+
+    return result;
   }
 
   public addData(information: Information): void {
     this.dataArr.add(information);
     this.dataArr.forEach((value, index) => {
-      value.clickAble = index === 0;
+      value.clickAble = index === 0.0;
     });
-    this.notifyDataAdd(this.dataArr.length - 1);
+    this.notifyDataAdd(this.dataArr.length - 1.0);
     this.notifyDataReload();
   }
 
   public deleteData(): void {
     this.dataArr.pop();
     this.dataArr.forEach((value, index) => {
-      value.clickAble = index === 0;
+      value.clickAble = index === 0.0;
     });
-    this.notifyDataDelete(0);
+    this.notifyDataDelete(0.0);
     this.notifyDataReload();
   }
 }

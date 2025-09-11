@@ -23,29 +23,34 @@ import { logger } from '../util/Logger';
 
 const TAG: string = 'BaseDataSource';
 
-export class BaseDataSource implements IDataSource {
+export class BaseDataSource <T> implements IDataSource<T> {
+  private data: T[] = []
   private listeners: DataChangeListener[] = [];
 
   public totalCount(): number {
     return 0;
   }
 
-  public getData(index: number): Object {
-    return '';
+  public setData(data: T[]) {
+    this.data = data
+  }
+
+  public getData(index: number): T {
+    return this.data[index as int]
   }
 
   registerDataChangeListener(listener: DataChangeListener): void {
-    if (this.listeners.indexOf(listener) < 0) {
+    if (this.listeners.indexOf(listener) < 0.0) {
       logger.info(TAG, 'add listener');
       this.listeners.push(listener);
     }
   }
 
   unregisterDataChangeListener(listener: DataChangeListener): void {
-    const pos = this.listeners.indexOf(listener);
-    if (pos >= 0) {
+    const pos: number = this.listeners.indexOf(listener);
+    if (pos >= 0.0) {
       logger.info(TAG, 'remove listener');
-      this.listeners.splice(pos, 1);
+      this.listeners.splice(pos, 1.0);
     }
   }
 

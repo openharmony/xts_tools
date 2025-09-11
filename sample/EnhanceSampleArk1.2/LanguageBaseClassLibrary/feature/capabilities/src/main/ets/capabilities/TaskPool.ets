@@ -19,27 +19,29 @@ import {
   State,
   Column,
   Row,
+  RowOptions,
   Text,
-  $r,
   Blank,
   Button,
   ButtonType,
   FlexAlign,
+  $r,
+  Padding,
+  Margin,
+  ClickEvent,
 } from '@kit.ArkUI';
 
-
-import router from '@ohos.router'
+"use concurrent"
 
 function functionForTasks(numberOfExecutions: number) {
-  
   return numberOfExecutions + 1
 }
 
 @Component
 export struct TaskPool {
-  @State numberOfExecutions: number = 0;
-  private isExecute = true;
-  private clickAble = true;
+  @State numberOfExecutions: number = 0.0;
+  private isExecute: boolean  = true;
+  private clickAble: boolean = true;
   @State task: taskpool.Task | null = null;
   @State msg: string = 'task ready';
 
@@ -47,7 +49,7 @@ export struct TaskPool {
     Column() {
       Row() {
         Text($r('app.string.click_exec_add_one'))
-          .margin({ top: 22 })
+          .margin({ top: 22.0 } as Margin)
       }
       .width('90%')
 
@@ -68,37 +70,37 @@ export struct TaskPool {
         }
         .width('100%')
       }
-      .height(160)
-      .margin({ top: 12 })
-      .padding(16)
-      .borderRadius(16)
+      .height(160.0)
+      .margin({ top: 12.0 } as Margin)
+      .padding(16.0)
+      .borderRadius(16.0)
       .backgroundColor($r('app.color.bg_white'))
 
       Blank()
-        .layoutWeight(1)
+        .layoutWeight(1.0)
 
-      Row({ space: 20 }) {
+      Row({ space: 20.0 } as RowOptions) {
         Button('Execute task')
           .id('execute_task')
           .type(ButtonType.Capsule)
           .width('45%')
           .fontColor($r('app.color.text_color_accent'))
           .backgroundColor($r('app.color.bg_btn_grey'))
-          .onClick(async () => {
+          .onClick((event: ClickEvent): void => {
             if (!this.clickAble) {
               return;
             }
-            for (let i: int = 0; i > -1; i++) {
+            for (let i: number = 0.0; i > -1.0; i++) {
               this.task = new taskpool.Task(functionForTasks, i);
               if (!this.isExecute) {
                 this.isExecute = true;
-                taskpool.cancel(this.task);
+                taskpool.cancel(this.task as taskpool.Task);
               } else {
                 this.clickAble = false;
                 this.msg = 'task is running';
-                await taskpool.execute(this.task)
-                  .then((res: Object) => {
-                    this.numberOfExecutions = Number(JSON.parse(JSON.stringify(res)));
+                await taskpool.execute(this.task as taskpool.Task)
+                  .then((res) => {
+                    this.numberOfExecutions = JSON.parse<number>(JSON.stringify(res), DoubleType.VAL) as number
                   });
               }
             }
@@ -110,7 +112,7 @@ export struct TaskPool {
           .width('45%')
           .fontColor($r('app.color.text_color_red'))
           .backgroundColor($r('app.color.bg_btn_grey'))
-          .onClick(() => {
+          .onClick((event: ClickEvent) => {
             if (!this.clickAble) {
               this.msg = 'task cancel';
               this.clickAble = true;
@@ -119,7 +121,7 @@ export struct TaskPool {
           })
       }
       .width('100%')
-      .margin({ top: 12, bottom: 16 })
+      .margin({ top: 12.0, bottom: 16.0 } as Margin)
       .justifyContent(FlexAlign.Center)
     }
     .width('100%')

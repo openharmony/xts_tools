@@ -19,7 +19,6 @@ import {
   State,
   Column,
   Text,
-  $r,
   Color,
   TextAlign,
   Button,
@@ -27,18 +26,23 @@ import {
   HorizontalAlign,
   FlexAlign,
   ResourceStr,
-  getUIContext,
-  AlertDialog,
+  $r,
+  Padding,
+  Margin,
+  ClickEvent,
+  ColumnOptions,
+  UIContext,
+  AlertDialogParamWithConfirm,
+  ButtonOptions
 } from '@kit.ArkUI';
 
-import promptAction from '@ohos.promptAction';
 import util from '@ohos.util';
-import { getString } from '@ohos/common/src/main/ets/util/ResourceUtil';
+import { getString } from 'common';
 import { InputItem } from './InputItem';
 import { ScopeNumber } from '../../../model/ScopeNumber';
 
-const ZERO: int = 0;
-const TEMPERATURE_MIN: int = 36;
+const ZERO: number = 0.0;
+const TEMPERATURE_MIN: number = 36.0;
 const TEMPERATURE_MAX: number = 37.2;
 
 @Component
@@ -48,13 +52,13 @@ export struct TempView {
   @State tempNight: number = ZERO;
 
   build() {
-    Column({ space: 12 }) {
+    Column({ space: 12.0 }as ColumnOptions) {
       Text($r('app.string.judge_temp'))
-        .fontSize(20)
+        .fontSize(20.0)
         .fontColor(Color.White)
         .backgroundColor(Color.Gray)
         .textAlign(TextAlign.Start)
-        .margin({ top: 2 })
+        .margin({ top: 2.0 } as Margin)
       InputItem({
         textValue: $r('app.string.temp_morning'),
         placeHolder: $r('app.string.morning_placeholder'),
@@ -70,17 +74,17 @@ export struct TempView {
         placeHolder: $r('app.string.night_placeholder'),
         value: this.tempNight
       })
-      Button() {
+      Button({} as ButtonOptions) {
         Text($r('app.string.temp_analyse'))
           .fontColor(Color.White)
-          .fontSize(16)
+          .fontSize(16.0)
       }
       .key('temperatureAnalysis')
       .type(ButtonType.Capsule)
       .width('100%')
-      .height(45)
+      .height(45.0)
       .backgroundColor(0x317aff)
-      .onClick(() => {
+      .onClick((e: ClickEvent) => {
         this.tempRange();
       })
     }
@@ -90,7 +94,7 @@ export struct TempView {
   }
 
   alertDialog(title: ResourceStr, message: ResourceStr, value: ResourceStr) {
-    getUIContext().showAlertDialog(
+    this.getUIContext().showAlertDialog(
       {
         title: title,
         message: message,
@@ -99,24 +103,26 @@ export struct TempView {
           action: () => {
           }
         },
-      }
+      } as AlertDialogParamWithConfirm
     );
   }
 
   tempRange() {
     if (this.tempMorning <= ZERO || this.tempNoon <= ZERO || this.tempNight <= ZERO) {
-      getUIContext().getPromptAction.showToast({ message: $r("app.string.scope_temp_tips") });
+      this.getUIContext().getPromptAction().showToast({ message: $r("app.string.scope_temp_tips") });
       return;
     }
-    let arr = [this.tempMorning, this.tempNoon, this.tempNight].sort();
+    let arrLength: number = 3.0;
+    let arr: Array<number> = new Array<number>(this.tempMorning, this.tempNoon, this.tempNight).sort();
     let max = new ScopeNumber(arr[2]);
     let min = new ScopeNumber(arr[0]);
     let tempLower = new ScopeNumber(TEMPERATURE_MIN);
     let tempUpper = new ScopeNumber(TEMPERATURE_MAX);
-    let standardRange = new util.ScopeHelper(tempLower, tempUpper);
+    let standardRange =  new util.ScopeHelper<ScopeNumber>(tempLower, tempUpper);
     if (standardRange.contains(min) && standardRange.contains(max)) {
-      this.alertDialog($r('app.string.temperature'), getString($r('app.string.temp_min')) + min + getString($r('app.string.temp_max'))
-      + max + getString($r('app.string.temp_normal_range')), $r('app.string.determine'));
+      this.alertDialog($r('app.string.temperature'), getString($r('app.string.temp_min'), this.getUIContext())
+        + min + getString($r('app.string.temp_max'), this.getUIContext()) + max
+        + getString($r('app.string.temp_normal_range'), this.getUIContext()), $r('app.string.determine'));
     } else {
       this.alertDialog($r('app.string.temperature'), $r('app.string.temp_message_abnormal'), $r('app.string.determine'));
     }

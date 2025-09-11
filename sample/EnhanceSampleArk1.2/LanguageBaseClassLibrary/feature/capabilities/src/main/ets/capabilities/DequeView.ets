@@ -21,12 +21,17 @@ import {
   List,
   LazyForEach,
   ListItem,
+  Padding,
+  Margin,
   $r,
+
+  Text
 } from '@kit.ArkUI';
 
+import { Callback } from '@kit.BasicServicesKit';
 import emitter from "@ohos.events.emitter";
-import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
-import { logger } from '@ohos/common/src/main/ets/util/Logger';
+import { EmptyPage } from 'common';
+import { logger } from 'common';
 import { Information } from '../model/Information'
 import { InformationItemView } from '../components/InformationItemView';
 import { DequeDataSource } from '../components/dequecomponents/DequeDataSource';
@@ -36,25 +41,39 @@ const TAG = 'DequeView';
 
 @Component
 export struct DequeView {
-  @State totalCount: number = 0;
+  @State totalCount: number = 0.0;
   private dataSource: DequeDataSource = new DequeDataSource();
 
   aboutToAppear() {
-    emitter.on({ eventId: Constant.EMITTER_ID_DEQUE }, (eventData) => {
-      let item = eventData.data as Information;
-      this.dataSource.insertFront(item);
+    emitter.on({ eventId: Constant.EMITTER_ID_DEQUE } as emitter.InnerEvent, (eventData: emitter.EventData) => {
+      // this.getUIContext().getPromptAction().showToast({ message: `${eventData.data}`, duration: 2000 })
+      // console.info('1111111111'+JSON.stringify((eventData.data as Record<string, object>)['name']))
+
+      let item = eventData.data as Record<string, object>;
+      console.info('wzr'+JSON.stringify(item))
+      const data: Information = new Information(
+      item['name'] as string,
+      item['age'] as number,
+      item['phone'] as string,
+      item['clickAble'] as boolean
+      );
+      console.info('wzr'+JSON.stringify(data))
+      this.dataSource.insertFront(data);
+      console.info('wzr'+`${this.dataSource.totalCount()}`)
       this.totalCount = this.dataSource.totalCount();
     });
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_DEQUE.toLong());
+    emitter.off(Constant.EMITTER_ID_DEQUE);
   }
 
   build() {
     Column() {
-      if (this.totalCount != 0) {
+      if (this.totalCount != 0.0) {
         List() {
+          Text("11111")
+
           LazyForEach(this.dataSource, (item: Information, index: number) => {
             ListItem() {
               InformationItemView({
@@ -62,24 +81,24 @@ export struct DequeView {
                 information: item,
                 deleteAction: () => {
                   logger.info(TAG, `deleteAction: ${JSON.stringify(item)}`);
-                  if (index === 0) {
+                  if (index === 0.0) {
                     this.dataSource.deleteFront();
                     this.totalCount = this.dataSource.totalCount();
-                  } else if (index === this.totalCount - 1) {
+                  } else if (index === this.totalCount - 1.0) {
                     this.dataSource.deleteEnd();
                     this.totalCount = this.dataSource.totalCount();
                   }
                 }
               })
             }
-            .height(72)
+            .height(72.0)
             .width('100%')
-            .margin({ bottom: 20 })
+            .margin({ bottom: 20.0 } as Margin)
           }, (item: Information, index: number) => JSON.stringify(item) + index)
         }
         .width('100%')
         .height('100%')
-        .padding({ top: 8, left: 12, right: 12 })
+        .padding({ top: 8.0, left: 12.0, right: 12.0 } as Padding)
       } else {
         EmptyPage()
       }

@@ -21,13 +21,14 @@ import {
   List,
   LazyForEach,
   ListItem,
+  Padding,
   $r,
 } from '@kit.ArkUI';
 
 import LightWeightMap from '@ohos.util.LightWeightMap';
 import emitter from '@ohos.events.emitter';
-import { EmptyPage } from '@ohos/common/src/main/ets/components/EmptyPage';
-import { logger } from '@ohos/common/src/main/ets/util/Logger';
+import { EmptyPage } from 'common';
+import { logger } from 'common';
 import { KeyValueItemView } from '../components/KeyValueItemView';
 import { KeyValuePair } from '../model/KeyValuePair';
 import { LightWeightMapDataSource } from '../components/lightweightmapcomponents/LightWeightMapDataSource';
@@ -37,13 +38,13 @@ const TAG = 'LightWeightMapView';
 
 @Component
 export struct LightWeightMapView {
-  @State totalCount: number = 0;
+  @State totalCount: number = 0.0;
   private lightWeightMap: LightWeightMap<string, string> = new LightWeightMap<string, string>();
   private dataSource: LightWeightMapDataSource = new LightWeightMapDataSource();
 
   aboutToAppear() {
-    emitter.on({ eventId: Constant.EMITTER_ID_LIGHT_WEIGHT_MAP }, (eventData) => {
-      let item: KeyValuePair = eventData.data as KeyValuePair;
+    emitter.on({ eventId: Constant.EMITTER_ID_LIGHT_WEIGHT_MAP } as emitter.InnerEvent, (eventData: emitter.EventData) => {
+      let item = (eventData.data as Record<string, object>)['value'] as KeyValuePair;
       this.dataSource.addData(item);
       this.totalCount = this.dataSource.totalCount();
       this.lightWeightMap.set(item.key, item.value);
@@ -51,13 +52,13 @@ export struct LightWeightMapView {
   }
 
   aboutToDisappear() {
-    emitter.off(Constant.EMITTER_ID_LIGHT_WEIGHT_MAP.toLong());
+    emitter.off(Constant.EMITTER_ID_LIGHT_WEIGHT_MAP);
   }
 
   build() {
     Column() {
-      if (this.totalCount != 0) {
-        List({ space: 12 }) {
+      if (this.totalCount != 0.0) {
+        List({ space: 12.0 }) {
           LazyForEach(this.dataSource, (item: KeyValuePair, index: number) => {
             ListItem() {
               KeyValueItemView({
@@ -71,13 +72,13 @@ export struct LightWeightMapView {
                 }
               })
             }
-            .height(72)
+            .height(72.0)
             .width('100%')
           }, (item: KeyValuePair, index: number) => JSON.stringify(item) + index)
         }
         .width('100%')
         .height('100%')
-        .padding({ top: 8, left: 12, right: 12 })
+        .padding({ top: 8.0, left: 12.0, right: 12.0 } as Padding)
       } else {
         EmptyPage()
       }

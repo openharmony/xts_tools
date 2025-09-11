@@ -25,48 +25,53 @@ import {
   ForEach,
   ListItem,
   Row,
+  $r,
+  Padding,
+  Margin,
+  ClickEvent,
+
 } from '@kit.ArkUI';
 
 @CustomDialog
 export struct ActionSheetDialog {
   private controller?: CustomDialogController;
   private title: string = '';
-  private sheets: string[] = [];
+  private sheets: Array<string> = new Array<string>();
   private action: (key: string) => void = () => {};
 
   build() {
     Column() {
       Text(this.title)
         .width('100%')
-        .fontSize(18)
+        .fontSize(18.0)
         .fontColor(Color.Black)
         .textAlign(TextAlign.Center)
-        .margin({ top: 10, bottom: 10 })
+        .margin({ top: 10.0, bottom: 10.0 } as Margin)
       List() {
         ForEach(this.sheets, (item: string) => {
           ListItem() {
             Row() {
               Text('key:')
-                .fontSize(18)
+                .fontSize(18.0)
                 .fontColor(Color.Gray)
               Text(item)
-                .fontSize(18)
+                .fontSize(18.0)
                 .fontColor(Color.Gray)
             }
             .key('getValueOfTheKey')
             .width('100%')
-            .margin(10)
+            .margin(10.0)
           }
           .width('100%')
-          .onClick(() => {
+          .onClick((e: ClickEvent) => {
             this.controller?.close();
             this.action(item);
           })
         })
       }
       .width('100%')
-      .margin({ bottom: 56 })
-      .divider({ strokeWidth: 1, color: Color.Gray, startMargin: 5, endMargin: 5 })
+      .margin({ bottom: 56.0 } as Margin)
+      .divider({ strokeWidth: 1.0, color: Color.Gray, startMargin: 5.0, endMargin: 5.0 })
     }
     .width('80%')
   }
