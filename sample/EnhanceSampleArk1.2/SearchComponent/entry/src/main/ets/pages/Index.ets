@@ -22,7 +22,7 @@ import {
   $r,
 } from '@kit.ArkUI';
 
-import { SearchComponent } from 'searchcomponent';
+import { SearchComponent } from 'searchcomponent/src/main/ets/components/mainpage/SearchComponent';
 
 @Entry
 @Component

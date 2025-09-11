@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-import { AppStorage } from '@kit.ArkUI';
+import { AppStorage, window } from '@kit.ArkUI';
 
 import { AbilityConstant, ConfigurationConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { window } from '@kit.ArkUI';
+import WindowStage from '@ohos.window';
 
 const DOMAIN: int = 0x0000;
 
@@ -28,7 +28,7 @@ export default class EntryAbility extends UIAbility {
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onCreate');
 
     // 绑定上下文信息
-    AppStorage.setOrCreate('context', this.context);
+    AppStorage.set('context', this.context);
   }
 
   onDestroy(): void {
@@ -40,8 +40,8 @@ export default class EntryAbility extends UIAbility {
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
 
     windowStage.loadContent('pages/Index', (err) => {
-      if (err.code) {
-        hilog.error(DOMAIN, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err));
+      if (err) {
+        hilog.error(DOMAIN, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err.code));
         return;
       }
       hilog.info(DOMAIN, 'testTag', 'Succeeded in loading the content.');
