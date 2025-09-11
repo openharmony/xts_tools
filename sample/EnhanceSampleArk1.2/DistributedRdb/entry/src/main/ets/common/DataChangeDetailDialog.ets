@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,6 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  CustomDialog,
+  CustomDialogController,
+  State,
+  Column,
+  Text,
+  $r,
+  TextAlign,
+  Color,
+  FontWeight,
+  List,
+  ForEach,
+  ListItem,
+  Row,
+  Button,
+  ButtonType,
+} from '@kit.ArkUI';
 
 import Contact from '../model/Contact';
 import { TYPE_DELETE, TYPE_INSERT, TYPE_UPDATE } from '../model/RdbConst'

@@ -1,5 +1,6 @@
+'use static';
 /*
- * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -17,7 +18,8 @@ import data_rdb from '@ohos.data.relationalStore';
 
 export const TABLE_NAME = 'contact';
 
-export const SQL_CREATE_TABLE = 'CREATE TABLE IF NOT EXISTS contact(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, gender INTEGER, phone TEXT NOT NULL UNIQUE, remark TEXT,age INTEGER)';
+export const SQL_CREATE_TABLE =
+  'CREATE TABLE IF NOT EXISTS contact(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, gender INTEGER, phone TEXT NOT NULL UNIQUE, remark TEXT,age INTEGER)';
 
 export const COLUMNS = ['id', 'name', 'gender', 'phone', 'remark', 'age'];
 

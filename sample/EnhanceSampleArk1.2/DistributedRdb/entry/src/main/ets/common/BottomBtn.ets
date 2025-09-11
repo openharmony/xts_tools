@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2022 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,6 +14,25 @@
  * limitations under the License.
  */
 
+import { PropRef } from '@kit.ArkUI';
+
+import {
+  Resource,
+  Component,
+  $r,
+  Flex,
+  FlexDirection,
+  Row,
+  ItemAlign,
+  FlexAlign,
+  ForEach,
+  Column,
+  Image,
+  ImageFit,
+  Text,
+  Color,
+} from '@kit.ArkUI';
+
 interface BottomBtnItem {
   text: Resource,
   icon: Resource
@@ -20,8 +40,8 @@ interface BottomBtnItem {
 
 @Component
 export struct BottomBtn {
-  @Prop isMultiCheck: boolean
-  @Prop isSelectedAll: boolean
+  @PropRef isMultiCheck: boolean
+  @PropRef isSelectedAll: boolean
   private bottomBtn: Array<BottomBtnItem> = [
     { icon: $r('app.media.select_all'), text: $r('app.string.select_all') },
     { icon: $r('app.media.delete'), text: $r('app.string.delete') },

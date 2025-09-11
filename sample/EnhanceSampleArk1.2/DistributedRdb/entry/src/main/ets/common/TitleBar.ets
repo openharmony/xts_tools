@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,6 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Component,
+  Resource,
+  $r,
+  Row,
+  Image,
+  ImageFit,
+  getUIContext,
+  Text,
+  Color,
+  Blank,
+} from '@kit.ArkUI';
 
 import router from '@ohos.router';
 
@@ -29,7 +43,7 @@ export struct TitleBar {
           .width(50).height('100%')
           .objectFit(ImageFit.Contain)
           .onClick(() => {
-            router.back();
+            getUIContext().getRouter().back();
           })
       }
 

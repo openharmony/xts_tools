@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,6 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import {
+  Entry,
+  Component,
+  getUIContext,
+  CustomDialogController,
+  State,
+  AppStorage,
+  AlertDialog,
+  $r,
+  Color,
+  Stack,
+  Alignment,
+  Column,
+  Row,
+  Blank,
+  Image,
+  List,
+  LazyForEach,
+  ListItem,
+  Button,
+  ImageFit,
+  ButtonType,
+  Circle,
+} from '@kit.ArkUI';
 
 import data_rdb from '@ohos.data.relationalStore'
 import common from '@ohos.app.ability.common'
@@ -46,8 +72,8 @@ export interface stateType {
 @Entry
 @Component
 struct Index {
-  private liteStore = new LiteStore("sync_state", getContext(this) as common.UIAbilityContext)
-  private rdbModel = new RdbModel(TABLE_NAME, SQL_CREATE_TABLE, COLUMNS, getContext(this) as common.UIAbilityContext)
+  private liteStore = new LiteStore("sync_state", getUIContext().getHostContext(this) as common.UIAbilityContext)
+  private rdbModel = new RdbModel(TABLE_NAME, SQL_CREATE_TABLE, COLUMNS, getUIContext().getHostContext(this) as common.UIAbilityContext)
   private intervalId: number = 0
   private dialogController: CustomDialogController | null = null;
   @State contacts: ContactDataSource = new ContactDataSource([])
@@ -93,7 +119,7 @@ struct Index {
         this.state.isStage = true
         this.state.isDistributed = true
         this.state.distributedDevice = want.parameters.dmsSrcNetworkId as string;
-        let context = getContext(this) as common.UIAbilityContext
+        let context = getUIContext().getHostContext(this) as common.UIAbilityContext
         context.startAbility({
           bundleName: BUNDLE,
           abilityName: ABILITY,
@@ -153,7 +179,7 @@ struct Index {
     if (deleteContacts.length == 0) {
       return
     }
-    AlertDialog.show({
+    getUIContext().showAlertDialog({
       message: $r('app.string.delete_contact'),
       primaryButton: {
         value: $r('app.string.sure'),
@@ -197,7 +223,7 @@ struct Index {
       this.contacts.dataArray = tempContacts
       this.contacts.notifyDataReload()
     } else {
-      router.pushUrl({
+      getUIContext().getRouter().pushUrl({
         url: 'pages/ContactEdit',
         params: { contact: item, isInsert: false }
       })
@@ -266,9 +292,9 @@ struct Index {
 
         SearchBar()
         List() {
-          LazyForEach(this.contacts, (item: Contact, index) => {
+          LazyForEach(this.contacts, (item: Contact, index: number) => {
             ListItem() {
-              ContactItem({ contact: item, isMultiCheck: $isMultiCheck })
+              ContactItem({ contact: item, isMultiCheck: this.isMultiCheck })
             }
             .onClick(() => {
               this.handleClickContact(item, index)
@@ -284,7 +310,7 @@ struct Index {
       .height('100%')
 
       if (this.state.popupMenu) {
-        PopupMenu({ state: $state, handleStartAbility: this.syncData })
+        PopupMenu({ state: this.state, handleStartAbility: this.syncData })
       }
 
       BottomBtn({
@@ -309,7 +335,7 @@ struct Index {
         .backgroundColor('#0D9FFB')
         .onClick(() => {
           Logger.info(TAG, 'onClick')
-          router.pushUrl({
+          getUIContext().getRouter().pushUrl({
             url: 'pages/ContactEdit',
             params: { contact: new Contact(0, '', 0, '', -1, ''), isInsert: true }
           })
@@ -322,7 +348,7 @@ struct Index {
 
   onBackPress() {
     Logger.info(TAG, 'onBackPress')
-    let context = getContext(this) as common.UIAbilityContext
+    let context = getUIContext().getHostContext(this) as common.UIAbilityContext
     context.startAbility({
       bundleName: BUNDLE,
       abilityName: ABILITY,

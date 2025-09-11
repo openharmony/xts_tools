@@ -1,5 +1,6 @@
+'use static'
 /*
- * Copyright (c) 2022-2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,6 +14,23 @@
  * limitations under the License.
  */
 
+import {
+  Entry,
+  Component,
+  State,
+  getUIContext,
+  Builder,
+  Resource,
+  Row,
+  Text,
+  FontWeight,
+  Column,
+  Toggle,
+  ToggleType,
+  Color,
+  $r,
+} from '@kit.ArkUI';
+
 import common from '@ohos.app.ability.common';
 import LiteStore from '../model/LiteStore';
 import Logger from '../model/Logger';
@@ -25,7 +43,7 @@ const TAG: string = 'Settings';
 @Component
 struct Settings {
   @State syncState: string = SyncState.ManualSync;
-  private liteStore = new LiteStore('sync_state', getContext(this) as common.UIAbilityContext);
+  private liteStore = new LiteStore('sync_state', getUIContext().getHostContext(this) as common.UIAbilityContext);
 
   aboutToAppear() {
     this.liteStore.getValue().then((value) => {
