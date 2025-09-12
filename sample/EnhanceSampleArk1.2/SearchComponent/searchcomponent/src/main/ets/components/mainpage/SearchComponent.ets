@@ -20,7 +20,6 @@ import {
   StorageLink,
   State,
   AppStorage,
-  getUIContext,
   $r,
   Curve,
   TouchEvent,
@@ -57,18 +56,25 @@ import {
   StickyStyle,
   Header,
   ModalTransition,
+  Padding,
+  Margin,
+  BorderOptions,
+  EdgeWidths,
+  EdgeColors,
+  window,
+  ContentCoverOptions
 } from '@kit.ArkUI';
 
 import { SceneModuleInfo } from '../model/SceneModuleInfo';
-import { promptAction, ShowDialogSuccessResponse } from '@kit.ArkUI';
 import { waterFlowData } from '../data/WaterFlowData';
 import curves from '@ohos.curves';
-import window from '@ohos.window';
 import common from '@ohos.app.ability.common';
 import { inputMethod } from '@kit.IMEKit';
+import { UIContext } from '@ohos.arkui.UIContext';
+import push from "@ohos.pluginComponent";
 
 // 持久化存储保证应用退出后再进入数据还在
-PersistentStorage.persistProp('searchHistoryData', []);
+PersistentStorage.persistProp('searchHistoryData', false);
 
 /**
  * 搜索实现思路：
@@ -86,7 +92,7 @@ PersistentStorage.persistProp('searchHistoryData', []);
  */
 @Component
 export struct SearchComponent {
-  @StorageLink('listData') searchListData: SceneModuleInfo[] | undefined = waterFlowData; // 搜索原始数据
+  @StorageLink('listData') searchListData: SceneModuleInfo[] = waterFlowData; // 搜索原始数据   | undefined
   @StorageLink('searchHistoryData') searchHistoryData: SceneModuleInfo[] = []; // 搜索历史数组
   @State searchContext: string = ''; // 搜索输入内容
   @State isSearchPageShow: boolean = false; // 搜索页面是否显示标志位
@@ -101,31 +107,31 @@ export struct SearchComponent {
   @State searchInputWidth: number = 0;
   private searchClassifyData: String[] = ['UI布局', '动效', '三方库', 'Native', '性能示例', '其他'];
   // 从AppStorage中获取设别类别，判断是否为折叠屏
-  isFoldable: boolean | undefined = AppStorage.get<boolean>('isFoldable');
+  private isFoldable: boolean | undefined = AppStorage.get<boolean>('isFoldable');
 
   aboutToAppear(): void {
     this.setSearchInputWidth();
     const type = window.AvoidAreaType.TYPE_SYSTEM;
-    window.getLastWindow(this.uiContext, (err, data) => {
-      if (data !== undefined) {
-        let avoidArea = data.getWindowAvoidArea(type);
+    let context = this.getUIContext().getHostContext() as common.UIAbilityContext;
+    window.getLastWindow(context).then((windowClass) => {
+      if (windowClass !== undefined) {
+        let avoidArea = windowClass.getWindowAvoidArea(type);
         this.avoidAreaHeight = avoidArea.topRect.height;
       }
-    })
-    let context = getUIContext().getHostContext() as common.UIAbilityContext
-    window.getLastWindow(context).then((windowClass) => {
       windowClass.on('windowSizeChange', () => {
         this.setSearchInputWidth();
       })
+    }).catch((err) => {
+      console.error('Failed to get Last window : ', err);
     })
   }
 
   setSearchInputWidth() {
-    let context = getUIContext().getHostContext() as common.UIAbilityContext;
+    let context = this.getUIContext().getHostContext() as common.UIAbilityContext;
     window.getLastWindow(context).then((windowClass) => {
       const windowsProperties = windowClass.getWindowProperties().windowRect.width;
       //32为左右边距、24为菜单图标宽度、8为搜索宽与图标之间的距离
-      this.searchInputWidth = getUIContext().px2vp(windowsProperties) - 32 - 24 - 8;
+      this.searchInputWidth = this.getUIContext().px2vp(windowsProperties) - 32 - 24 - 8;
     })
   }
 
@@ -135,7 +141,7 @@ export struct SearchComponent {
    */
   searchFunc(value: string, category: string | undefined) {
     let newListData: SceneModuleInfo[] = [];
-    if (this.searchListData !== undefined) {
+    if ((this.searchListData.length !== undefined) && (this.searchListData.length !== null)) {
       for (let i: int = 0; i < this.searchListData.length; i++) {
         // 通过传入的category与范例数据进行匹配，category为undefined和空时表示不进行分类查找
         const isCategoryItem: boolean =
@@ -151,7 +157,9 @@ export struct SearchComponent {
       }
     }
     if (value !== '' && newListData.length === 0) {
-      getUIContext().getPromptAction.showToast({ message: $r('app.string.search_component_content_alarm') });
+      this.getUIContext()
+        .getPromptAction()
+        .showToast({ message: $r('app.string.search_component_content_alarm') });
     }
     // 判断是否有输入的值
     if (value.length !== 0) {
@@ -167,7 +175,7 @@ export struct SearchComponent {
    */
   private onSearchClicked(): void {
     this.geometryId = 'search';
-    getUIContext().animateTo({
+    this.getUIContext().animateTo({
       duration: 100,
       // 构造插值器弹簧曲线对象，生成一条从0到1的动画曲线
       curve: curves.interpolatingSpring(0, 1, 324, 38)
@@ -182,7 +190,7 @@ export struct SearchComponent {
    */
   private onArrowClicked(): void {
     this.geometryId = 'search';
-    getUIContext().animateTo({
+    this.getUIContext().animateTo({
       // 构造插值器弹簧曲线对象，生成一条从0到1的动画曲线
       curve: curves.interpolatingSpring(0, 1, 342, 38)
     }, () => {
@@ -197,7 +205,7 @@ export struct SearchComponent {
   // 点击提示列表/历史记录进入范例页
   private onItemClicked(): void {
     this.geometryId = 'search';
-    getUIContext().animateTo({
+    this.getUIContext().animateTo({
       curve: Curve.Ease,
       duration: 20
     }, () => {
@@ -227,7 +235,7 @@ export struct SearchComponent {
       }
       .width('100%')
       .alignItems(HorizontalAlign.Start)
-      .margin({ bottom: $r('app.integer.search_component_classify_description_margin') })
+      .margin({ bottom: $r('app.integer.search_component_classify_description_margin') } as Margin)
 
       Grid() {
         // TODO：知识点：使用ForEach加载分类搜索列表数据
@@ -256,11 +264,11 @@ export struct SearchComponent {
       .columnsGap($r('app.integer.search_component_classify_category_columns_gap'))
     }
     .width('100%')
-    .padding($r('app.integer.search_component_classify_category_padding'))
+    .padding($r('app.integer.search_component_classify_category_padding') as Padding)
     .border({
-      width: { bottom: $r('app.integer.search_component_classify_category_split_line') },
-      color: { bottom: $r('app.color.search_classify_split_line_color') }
-    })
+      width: { bottom: $r('app.integer.search_component_classify_category_split_line') } as EdgeWidths,
+      color: { bottom: $r('app.color.search_classify_split_line_color') } as EdgeColors
+    } as BorderOptions)
   }
 
   /**
@@ -315,13 +323,13 @@ export struct SearchComponent {
           .geometryTransition(this.geometryId, { follow: true })
           .layoutWeight(1)
           .height($r('app.string.search_component_search_height'))
-          .margin({ left: $r('app.integer.search_component_search_margin') })
+          .margin({ left: $r('app.integer.search_component_search_margin') } as Margin)
           .backgroundColor($r('app.string.search_component_search_background_color'))
       }
       .padding({
         left: $r('app.integer.search_component_search_padding'),
         right: $r('app.integer.search_component_search_padding')
-      })
+      } as Padding)
       .alignSelf(ItemAlign.Start)
 
       // 搜索分类
@@ -340,7 +348,7 @@ export struct SearchComponent {
             .id('delete_history')
             .onClick(() => {
               // 清空历史记录-确认弹框
-              getUIContext().getPromptAction.showDialog({
+              this.getUIContext().getPromptAction().showDialog({
                 message: $r('app.string.search_component_search_delete_title'),
                 alignment: DialogAlignment.Center,
                 buttons: [
@@ -353,7 +361,7 @@ export struct SearchComponent {
                     color: $r('app.string.search_component_button_text_color')
                   }
                 ]
-              }).then((data: ShowDialogSuccessResponse) => {
+              }).then((data) => {
                 // 点击删除
                 if (data.index === 1) {
                   this.searchHistoryData = [];
@@ -365,7 +373,7 @@ export struct SearchComponent {
           this.searchNewListData.length !== 0 ? Visibility.None : Visibility.Visible) // 没有搜索历史时隐藏
         .height($r('app.string.search_component_search_history_delete_size'))
         .width('100%')
-        .margin({ top: $r('app.string.search_component_search_history_text_padding_margin1') })
+        .margin({ top: $r('app.string.search_component_search_history_text_padding_margin1') } as Margin)
 
         //搜索历史内容区
         Scroll() {
@@ -376,15 +384,15 @@ export struct SearchComponent {
                 Text(item.name)
                   .fontSize($r('app.string.search_component_search_history_font_size3'))
                   .backgroundColor($r('app.string.search_component_search_list_text_color'))
-                  .padding($r('app.string.search_component_search_history_text_padding_margin3'))
+                  .padding($r('app.string.search_component_search_history_text_padding_margin3') as Padding)
                   .borderRadius($r('app.string.search_component_main_page_top_borderRadius'))
               }
-              .margin({ top: $r('app.string.search_component_search_history_text_padding_margin4') })
-              .padding({ right: $r('app.string.search_component_search_history_text_padding_margin2') })
+              .margin({ top: $r('app.string.search_component_search_history_text_padding_margin4') } as Margin)
+              .padding({ right: $r('app.string.search_component_search_history_text_padding_margin2') } as Padding)
               .onClick(() => {
                 this.onItemClicked();
                 // 点击的项提到历史记录的最前面
-                this.searchHistoryData.map((historyItem, index) => {
+                this.searchHistoryData.map((historyItem, index: number) => {
                   if (historyItem === item) {
                     this.searchHistoryData.unshift(this.searchHistoryData.splice(index, 1)[0]);
                   }
@@ -392,7 +400,7 @@ export struct SearchComponent {
               })
             })
           }
-          .margin({ top: $r('app.string.search_component_search_history_text_padding_margin3') })
+          .margin({ top: $r('app.string.search_component_search_history_text_padding_margin3') } as Margin)
         }
         .scrollBar(BarState.Off) // 滚动条常驻不显示
         .align(Alignment.TopStart)
@@ -400,10 +408,8 @@ export struct SearchComponent {
           this.searchNewListData.length !== 0 ? Visibility.None : Visibility.Visible) // 没有搜索历史时隐藏
         .height($r('app.string.search_component_scroll_height'))
         .onTouch((event) => {
-          switch (event.type) {
-            case TouchType.Down:
-              this.onTouchDown(event);
-              break;
+          if (event.type === TouchType.Down) {
+            this.onTouchDown(event);
           }
           event.stopPropagation(); // 阻止冒泡
         })
@@ -411,7 +417,7 @@ export struct SearchComponent {
       .padding({
         left: $r('app.integer.search_component_history_padding'),
         right: $r('app.integer.search_component_history_padding')
-      })
+      } as Padding)
       .alignItems(HorizontalAlign.Start)
       // TODO：知识点：通过transition属性配置转场参数，在组件插入和删除时显示过渡动效。非对称对称转场，第一个为出现动效有150的延迟，第二个为消失动效
       .transition(TransitionEffect.asymmetric(
@@ -440,7 +446,7 @@ export struct SearchComponent {
                     .fontWeight(500)
                     .fontSize($r('app.string.search_component_search_history_font_size2'))
                     .opacity(0.9)
-                    .margin({ left: $r('app.string.search_component_search_history_text_padding_margin2') })
+                    .margin({ left: $r('app.string.search_component_search_history_text_padding_margin2') } as Margin)
                     .textOverflow({ overflow: TextOverflow.Ellipsis })
                 }
 
@@ -457,14 +463,14 @@ export struct SearchComponent {
           }
           .id('itemId')
           .width('100%')
-          .margin({ top: $r('app.string.search_component_search_history_text_padding_margin1') })
+          .margin({ top: $r('app.string.search_component_search_history_text_padding_margin1') } as Margin)
           .onClick(() => {
             if (!this.searchHistoryData.includes(item)) {
               // 更新搜索历史数据,插入数组最前侧
               this.searchHistoryData.unshift(item);
             } else {
               // 搜索点击的为已有历史记录内容，该记录提到最前
-              this.searchHistoryData.map((historyItem, index) => {
+              this.searchHistoryData.map((historyItem, index: number) => {
                 if (historyItem === item) {
                   this.searchHistoryData.unshift(this.searchHistoryData.splice(index, 1)[0]);
                 }
@@ -476,10 +482,8 @@ export struct SearchComponent {
         }, (item: SceneModuleInfo) => JSON.stringify(item))
       }
       .onTouch((event) => {
-        switch (event.type) {
-          case TouchType.Down:
-            this.onTouchDown(event);
-            break;
+        if (event.type === TouchType.Down) {
+          this.onTouchDown(event);
         }
         event.stopPropagation(); // 阻止冒泡
       })
@@ -487,19 +491,19 @@ export struct SearchComponent {
       .margin({
         left: $r('app.integer.search_component_list_margin'),
         right: $r('app.integer.search_component_list_margin')
-      })
+      } as Margin)
       .edgeEffect(EdgeEffect.Spring)
       .sticky(StickyStyle.Header)
       .chainAnimation(false)
-      .transition({ opacity: 0 })
+      .transition(TransitionEffect.opacity(0))
       .scrollBar(BarState.Off)
       .id('search_result_list')
     }
     .transition(TransitionEffect.opacity(0))
     .backgroundColor(Color.White)
     .padding({
-      top: getUIContext().px2vp(this.avoidAreaHeight)
-    })
+      top: this.getUIContext().px2vp(this.avoidAreaHeight)
+    } as Padding)
     .width('100%')
     .height('120%')
   }
@@ -533,6 +537,6 @@ export struct SearchComponent {
           this.onArrowClicked();
           this.searchContext = '';
         }
-      })
+      } as ContentCoverOptions)
   }
 }
