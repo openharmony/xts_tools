@@ -20,30 +20,33 @@ import {
   Image,
   $r,
   Text,
+  Margin,
+  Padding,
+  ClickEvent
 } from '@kit.ArkUI';
 
 @Component
 export struct TitleBar {
-  private handlerClickButton: () => void
+  private handlerClickButton: () => void = () => {};
 
   build() {
     Row() {
       Image($r('app.media.ic_back'))
         .width(40)
         .height(30)
-        .onClick(() => {
+        .onClick((e:ClickEvent) => {
           this.handlerClickButton()
         })
       Text($r('app.string.bluetooth'))
         .fontSize(30)
         .width(150)
         .height(50)
-        .margin({ left: 15 })
+        .margin({ left: 15 }as Margin )
         .fontColor('#ffa2a3a4')
     }
     .width('100%')
     .height(60)
-    .padding({ left: 20, top: 10 })
+    .padding({ left: 20, top: 10 }as Padding)
     .backgroundColor('#ff2d30cb')
     .constraintSize({ minHeight: 50 })
   }

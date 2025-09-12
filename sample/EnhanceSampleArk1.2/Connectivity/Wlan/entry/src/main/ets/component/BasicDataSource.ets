@@ -18,15 +18,15 @@ import { Observed } from '@kit.ArkUI';
 
 import { DataChangeListener } from '@kit.ArkUI';
 
-import wifi from '@ohos.wifiManager'
+import wifiManager from '@ohos.wifiManager'
 import Logger from '../model/Logger'
 
 @Observed
 export default class WifiDataSource {
   private listeners: DataChangeListener[] = []
-  private dataArray: wifi.WifiScanInfo[] = []
+  private dataArray: wifiManager.WifiScanInfo[] = []
 
-  constructor(data: wifi.WifiScanInfo[]) {
+  constructor(data: wifiManager.WifiScanInfo[]) {
     this.dataArray = data
   }
 
@@ -34,16 +34,16 @@ export default class WifiDataSource {
     return this.dataArray.length
   }
 
-  public getData(index: int): wifi.WifiScanInfo {
-    return this.dataArray[index]
+  public getData(index: number): wifiManager.WifiScanInfo {
+    return this.dataArray[index as int]
   }
 
-  public addData(index: number, data: wifi.WifiScanInfo): void {
+  public addData(index: number, data: wifiManager.WifiScanInfo): void {
     this.dataArray.splice(index, 0, data)
     this.notifyDataAdd(index)
   }
 
-  public pushData(data: wifi.WifiScanInfo): void {
+  public pushData(data: wifiManager.WifiScanInfo): void {
     this.dataArray.push(data)
     this.notifyDataAdd(this.dataArray.length - 1)
   }

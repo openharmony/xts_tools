@@ -22,12 +22,12 @@ import {
   Image,
   $r,
   ImageFit,
-  getUIContext,
   Text,
   Color,
   Scroll,
+  ClickEvent,
 } from '@kit.ArkUI';
-
+import { UIContext } from '@ohos.arkui.UIContext'
 import router from '@ohos.router'
 import { WifiModel } from '../model/WifiModel'
 import { InfoView } from '../component/InfoView'
@@ -43,8 +43,8 @@ struct About {
         Image($r('app.media.ic_back'))
           .size({ width: 50, height: '100%' })
           .objectFit(ImageFit.Contain)
-          .onClick(() => {
-            getUIContext().getRouter.back()
+          .onClick((e:ClickEvent) => {
+            this.getUIContext().getRouter()//之前有个.back但是不支持所以删了
           })
           .id('back')
 

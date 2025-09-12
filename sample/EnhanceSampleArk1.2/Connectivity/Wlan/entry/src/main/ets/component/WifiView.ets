@@ -27,6 +27,7 @@ import {
   Alignment,
   Image,
   ImageFit,
+  Margin,
 } from '@kit.ArkUI';
 
 import Logger from '../model/Logger'
@@ -36,15 +37,16 @@ const TAG: string = 'WifiView'
 
 @Component
 export struct WifiView {
-  private wifi: wifi.WifiScanInfo = null
+  private wifi: wifi.WifiScanInfo| null = null
   private securityString: Resource = $r('app.string.encryption')
   @State isLock: boolean = true
 
   aboutToAppear() {
     Logger.debug(TAG, `aboutToAppear ${JSON.stringify(this.wifi)}`)
+
     if (this.wifi) {
-      if (this.wifi.securityType) {
-        if (this.wifi.securityType === 0 || this.wifi.securityType === 1) {
+      if (this.wifi!.securityType) {
+        if (this.wifi!.securityType === 0 || this.wifi!.securityType === 1) {
           this.securityString = $r('app.string.open')
           this.isLock = false
         }
@@ -56,8 +58,8 @@ export struct WifiView {
     Row() {
       Column() {
         if (this.wifi) {
-          if (this.wifi.ssid) {
-            Text(this.wifi.ssid)
+          if (this.wifi!.ssid) {
+            Text(this.wifi!.ssid)
               .fontSize(20)
               .width('100%')
           }
@@ -83,7 +85,7 @@ export struct WifiView {
       }
       .width(40)
       .height(40)
-      .margin({ right: 10 })
+      .margin({ right: 10 }as Margin)
     }
     .backgroundColor(Color.White)
     .width('100%')
