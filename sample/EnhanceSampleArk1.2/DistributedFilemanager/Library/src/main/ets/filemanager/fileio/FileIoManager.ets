@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-import fileio from '@ohos.fileio';
+import fs from '@ohos.file.fs';
 import Logger from '../../utils/Logger';
 import { FileType, SubDirectoryType } from '../../mock/local/FileData';
+import { BusinessError } from '@ohos.base';
 
 // 大小和单位
 const GB_MAGNITUDE: number = 1024 * 1024 * 1024;
@@ -27,11 +28,25 @@ const MB_SYMBOL: string = 'MB';
 const KB_SYMBOL: string = 'KB';
 const BYTE_SYMBOL: string = 'B';
 
+class SubDirectory implements SubDirectoryType {
+  name: string[] = []
+  type: number = 0
+  time: Date
+  childrenNum?: number;
+  fileSize?: string;
+  constructor(time: Date) {
+    this.time = time
+    this.childrenNum = 0;
+    this.fileSize = '';
+  }
+}
+
 class FileSystem {
   // 获取文件大小
   getFileSize(filePath: string): string {
     try {
-      let fileSize = fileio.statSync(filePath).size;
+      const stats = fs.statSync(filePath);
+      const fileSize = Number(stats.size);
       if (fileSize / GB_MAGNITUDE > 1) {
         return `${(fileSize / GB_MAGNITUDE).toFixed(2)}${GB_SYMBOL}`;
       } else if (fileSize / MB_MAGNITUDE > 1) {
@@ -41,81 +56,83 @@ class FileSystem {
       } else {
         return `${fileSize}${BYTE_SYMBOL}`;
       }
-    } catch (err) {
+    } catch (err: BusinessError) {
       Logger.error(`getFileSize failed, code is ${err.code}, message is ${err.message}`);
       throw new Error(`getFileSize failed, code is ${err.code}, message is ${err.message}`);
     }
   }
+
   // 根据沙箱路径打开目录
-  getSubdirectory(filePath: string): Array<SubDirectoryType> {
-    // 获取目录
-    let dir = fileio.opendirSync(filePath);
-    // 读取的结果
-    let dirent: fileio.Dirent;
-    // 结果数组
-    class SubDirectory {
-      name: string = ''
-      type: number = 0
-      time: Date
-      childrenNum: number = 0
-      fileSize: string = ''
-      constructor(time: Date) {
-        this.time = time
-      }
-    }
-    let subdirectory: Array<SubDirectory> = [];
-    do {
-      dirent = dir.readSync();
-      if (dirent) {
-        let subdirectoryNum: int = 0;
-        let fileSize: string = '';
-        let time: Date = new Date();
-        // 如果是文件夹，就读取文件夹中文件的数量
-        if (dirent.isDirectory()) {
-          subdirectoryNum = this.getSubdirectoryNum(filePath + `${dirent.name}`);
-        } else {
-          // 如果不是文件夹，就读取文件大小和时间
-          fileSize = this.getFileSize(filePath + `${dirent.name}`);
-          time = this.getFileTime(filePath + `${dirent.name}`);
+  getSubdirectory(filePath: string): SubDirectory[] {
+    try {
+      let subdirectory: SubDirectory[] = [];
+      const fileList = fs.listFileSync(filePath);
+
+      for (const fileName of fileList) {
+        const fullPath = `${filePath}/${fileName}`;
+        try {
+          const stats = fs.statSync(fullPath);
+          const isDirectory = stats.isDirectory();
+          const time = new Date(stats.ctime * 1000);
+
+          let item = new SubDirectory(time);
+          item.name = [fileName];
+          item.type = isDirectory ? 1 : 2;
+
+          if (isDirectory) {
+            item.childrenNum = this.getSubdirectoryNum(fullPath);
+          } else {
+            item.fileSize = this.getFileSize(fullPath);
+          }
+
+          subdirectory.push(item);
+        } catch (err) {
+          Logger.error(`Error processing file ${fileName}: ${err}`);
         }
-        let item = new SubDirectory(time);
-        item.name = dirent.name;
-        item.type = dirent.isDirectory() ? 1 : 2;
-        item.childrenNum = subdirectoryNum;
-        item.fileSize = fileSize;
-        subdirectory.push(item);
       }
-    } while (dirent);
-    return subdirectory;
+
+      return subdirectory;
+    } catch (err: BusinessError) {
+      Logger.error(`getSubdirectory failed, code is ${err.code}, message is ${err.message}`);
+      throw new Error(`getSubdirectory failed, code is ${err.code}, message is ${err.message}`);
+    }
   }
 
   // 获取目录中的子目录个数
   getSubdirectoryNum(filePath: string): number {
-    Logger.info("----getSubdirectoryNum filePath="+filePath);
-    let dir = fileio.opendirSync(filePath);
-    // 读取的结果
-    let dirent: fileio.Dirent;
-    // 记录子目录的个数
-    let subdirectoryNum: int = 0;
-    do {
-      dirent = dir.readSync();
-      if (dirent) {
-        subdirectoryNum++;
+    try {
+      let count = 0;
+      const fileList = fs.listFileSync(filePath);
+
+      for (const fileName of fileList) {
+        const fullPath = `${filePath}/${fileName}`;
+        try {
+          const stats = fs.statSync(fullPath);
+          if (stats.isDirectory()) {
+            count++;
+          }
+        } catch (err) {
+          Logger.error(`Error checking file ${fileName}: ${err}`);
+        }
       }
-    } while (dirent);
-    return subdirectoryNum;
+
+      return count;
+    } catch (err: BusinessError) {
+      Logger.error(`getSubdirectoryNum failed, code is ${err.code}, message is ${err.message}`);
+      throw new Error(`getSubdirectoryNum failed, code is ${err.code}, message is ${err.message}`);
+    }
   }
 
   // 获取文件修改时间
   getFileTime(filePath: string): Date {
     try {
-      let fileTime: number = fileio.statSync(filePath).ctime;
-      return new Date(fileTime * 1000);
-    } catch (err) {
+      const stats = fs.statSync(filePath);
+      return new Date(stats.ctime * 1000);
+    } catch (err: BusinessError) {
       Logger.error(`getFileTime failed, code is ${err.code}, message is ${err.message}`);
       throw new Error(`getFileTime failed, code is ${err.code}, message is ${err.message}`);
     }
   }
 }
 
-export default new FileSystem()
+export default new FileSystem();

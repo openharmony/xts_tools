@@ -1,6 +1,6 @@
 'use static'
 /*
- * Copyright (c) 2023-2024 Huawei Device Co., Ltd.
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,14 +15,16 @@
  */
 
 import  BackupExtensionAbility, { BundleVersion } from '@ohos.application.BackupExtensionAbility';
-import { Logger } from '@ohos/feature-file-manager';
+// import {Logger} from 'library';
+import Logger from '../../../../../Library/src/main/ets/utils/Logger';
+const TAG: string = 'EntryAbility';
 
 export default class EntryBackupAbility extends BackupExtensionAbility {
-  async onBackup() {
+  onBackup() {
     Logger.info('0x0000', 'testTag', 'onBackup ok');
   }
 
-  async onRestore(bundleVersion: BundleVersion) {
+  onRestore(bundleVersion: BundleVersion) {
     Logger.info('0x0000', 'testTag', 'onRestore ok %{public}s', JSON.stringify(bundleVersion));
   }
 }

@@ -1,6 +1,6 @@
 'use static'
 /*
-* Copyright (c) 2023 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+* Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
 * You may obtain a copy of the License at
@@ -19,13 +19,12 @@ import hilog from '@ohos.hilog';
  * Common log for all features.
  */
 export class Logger {
-  private domain: number;
+  private domain: int = 0xFF00;
   private prefix: string;
   private format: string = '%{public}s, %{public}s';
 
   constructor(prefix: string) {
     this.prefix = prefix;
-    this.domain = 0xFF00;
   }
 
   debug(...args: string[]): void {
@@ -48,7 +47,7 @@ export class Logger {
     hilog.fatal(this.domain, this.prefix, this.format, args);
   }
 
-  isLoggable(level: number): void {
+  isLoggable(level: hilog.LogLevel): void {
     hilog.isLoggable(this.domain, this.prefix, level);
   }
 }

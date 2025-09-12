@@ -15,7 +15,6 @@
  */
 
 import {
-  getUIContext,
   $r,
   AppStorage,
 } from '@kit.ArkUI';
@@ -27,7 +26,8 @@ import Logger from '../../../../../Library/src/main/ets/utils/Logger';
 import prompt from '@ohos.promptAction';
 import DataObject from './DataObject';
 import { BusinessError } from '@ohos.base';
-import { FileStructure, FileType } from '@ohos/feature-file-manager/src/main/ets/mock/local/FileData';
+import { FileStructure, FileType } from 'library/src/main/ets/mock/local/FileData';
+import { UIContext} from '@ohos.arkui.UIContext';
 
 const TAG: string = 'FsManager';
 const BASE_PATH = "/data/storage/el2/base/haps/entry/files";
@@ -41,8 +41,15 @@ let precastFiles: string[] = [
 
 let isCopying: boolean = false;
 const fileCopy: string = '-副本';
+const INDEX_0: int = 0;
+const INDEX_1: int = 1;
 
-class FsManager {
+export class FsManager {
+  private context: common.UIAbilityContext;
+
+  constructor(context: common.UIAbilityContext) {
+    this.context = context;
+  }
   initFiles(): void {
     try {
       let res = fs.accessSync(filesDir1);
@@ -115,10 +122,9 @@ class FsManager {
     }
   }
 
-  listFiles(dir: string): Array<string> {
+  listFiles(dir: string): string[] {
     let files: string[] = [];
-    let context = getUIContext().getHostContext(this) as common.UIAbilityContext;
-    let fileDir = (dir == 'files' ? context.filesDir : (dir == 'temp' ? context.tempDir : context.cacheDir));
+    let fileDir = (dir == 'files' ? this.context.filesDir : (dir == 'temp' ? this.context.tempDir : this.context.cacheDir));
     Logger.info(TAG, `listFiles fileDir =${fileDir}`);
     try {
       files = fs.listFileSync(fileDir);
@@ -131,9 +137,9 @@ class FsManager {
 
   copyFilesToDistributedDir(deviceId: string, needMoveFiles: Array<FileType>, disPathInSandbox: string) {
     let distributedUri0 = fileuri.getUriFromPath(disPathInSandbox);
-    let localFileUriList: Array<string> = [];
-    let disFileUriList: Array<string> = [];
-    let disFileList: Array<string> = [];
+    let localFileUriList: (string | undefined)[] = [];
+    let disFileUriList: (string | undefined)[] = [];
+    let disFileList: (string | undefined)[] = [];
     let distributedUri = '';
     needMoveFiles.forEach((file: FileType) => {
       Logger.info(TAG, `in copyToDistributedDir--file type : ${file.type}`);
@@ -177,9 +183,10 @@ class FsManager {
       // 进行拷贝
       fs.copy(from, to, options).then(() => {
         Logger.info("Succeeded in copying. ");
-      }).catch((err: BusinessError) => {
-        Logger.info(`Failed to copy. Code: ${err.code}, message: ${err.message}`);
-        return prompt.showToast({ message: $r('app.string.label_copy2disfailed') });
+      }).catch((err?: BusinessError) => {
+        Logger.info(`Failed to copy. Code: ${err?.code}, message: ${err?.message}`);
+        // return prompt.showToast({ message: $r('app.string.label_copy2disfailed') });
+        return prompt.openToast({ message: $r('app.string.label_copy2disfailed') });
       })
     } catch (error) {
       let err: BusinessError = error as BusinessError;
@@ -190,12 +197,15 @@ class FsManager {
   pasteFromDistributedDir(deviceId: string, directoryPath: string, fileData: Array<FileStructure>) {
     let localDstUri = fileuri.getUriFromPath(directoryPath);
 
-    if (DataObject.distributedObject!["disFileUriList"].length === 0) {
-      return prompt.showToast({ message: $r('app.string.label_nodata') });
+    // if (DataObject.distributedObject!["disFileUriList"].length === 0) {
+    if (DataObject.distributedObject!.disFileUriList.length === 0) {
+      return prompt.openToast({ message: $r('app.string.label_nodata') });
     }
     //本地拷贝:文件需进行重命名操作
-    if (deviceId == DataObject.distributedObject!["from"]) {
-      let localFileArray: Array<string> = DataObject.distributedObject!["localFileUriList"];
+    // if (deviceId == DataObject.distributedObject!["from"]) {
+    if (deviceId == DataObject.distributedObject!.from) {
+      // let localFileArray: Array<string> = DataObject.distributedObject!["localFileUriList"];
+      let localFileArray: Array<string> = DataObject.distributedObject!.localFileUriList;
       let newFileName: string = '';
       localFileArray.forEach(item => {
         //判断uri前缀是否有“file+”，如果是文件类型，去掉“file+”前缀，在localDstUri后面加上文件名称
@@ -215,7 +225,9 @@ class FsManager {
               let extension: string = newFileName.slice((newFileName.lastIndexOf(".") - 1 >>> 0) + 2);
               if (extension) {
                 let fileParts = newFileName.split('.');
-                newFileName = fileParts[0] + fileCopy + '.' + fileParts[1];
+                if(INDEX_1<fileParts.length){
+                  newFileName = fileParts[INDEX_0] + fileCopy + '.' + fileParts[INDEX_1];
+                }
               } else {
                 newFileName = newFileName + fileCopy;
               }
@@ -225,7 +237,7 @@ class FsManager {
         this.innerPasteFromDistributedDir(item, localDstUri + newFileName);
       })
     } else { //跨设备拷贝
-      let disFileUriArray: Array<string> = DataObject.distributedObject!["disFileUriList"];
+      let disFileUriArray: Array<string> = DataObject.distributedObject!.disFileUriList;
       disFileUriArray.forEach(item => {
         if (item.includes("file+")) {
           item = item.substring(5, item.length);
@@ -241,7 +253,10 @@ class FsManager {
                 let extension: string = newFileName.slice((newFileName.lastIndexOf(".") - 1 >>> 0) + 2);
                 if (extension) {
                   let fileParts = newFileName.split('.');
-                  newFileName = fileParts[0] + fileCopy + '.' + fileParts[1];
+                  if(INDEX_1<fileParts.length){
+                    newFileName = fileParts[INDEX_0] + fileCopy + '.' + fileParts[INDEX_1];
+                  }
+
                 } else {
                   newFileName = newFileName + fileCopy;
                 }
@@ -264,60 +279,64 @@ class FsManager {
     Logger.info(TAG, `innerPasteFromDistributedDir--to: ${to}`);
     try {
       // 定义拷贝回调
-      let totalProgress: int = 0;
-      let totalCopySize: int = 0;
-      let copiedSize: int = 0;
-      let lastCopiedSize: int = 0;
+      let totalProgress: number = 0;
+      let totalCopySize: number = 0;
+      let copiedSize: number = 0;
+      let lastCopiedSize: number = 0;
       let firstCopy = true;
-      let progressListener: fs.ProgressListener = (progress: fs.Progress) => {
-        Logger.info(TAG, "progressSize: " + progress.processedSize + ", totalSize: " + progress.totalSize);
-        //第一次进入回调
-        if (firstCopy === true) {
-          Logger.info(TAG, "firstCopy");
-          totalCopySize += progress.totalSize;
-          copiedSize += progress.processedSize;
-          lastCopiedSize = progress.processedSize;
-          firstCopy = false;
-        } else {
-          copiedSize -= lastCopiedSize;
-          copiedSize += progress.processedSize;
-          lastCopiedSize = progress.processedSize;
-        }
 
-        totalProgress = Number(((copiedSize / totalCopySize) * 100).toFixed(0));
-        AppStorage.setOrCreate('progress', totalProgress);
-        Logger.info(TAG, "totalCopySize: " + totalCopySize + ", copiedSize: " + copiedSize);
-        if (totalCopySize != copiedSize) {
-          isCopying = true;
-          AppStorage.setOrCreate('isCopying', true);
-        } else {
-          Logger.info(TAG, "totalCopySize == copiedSize,Successfully coppied");
-          isCopying = false;
-          AppStorage.setOrCreate('isCopying', false);
-          AppStorage.setOrCreate('flashPage',!AppStorage.get<string>('flashPage'));
-          DataObject.clear();
-          return prompt.showToast({ message: $r('app.string.label_dirupdate') });
-        }
-      };
       let options: fs.CopyOptions = {
-        "progressListener": progressListener
+        // "progressListener": progressListener
+        progressListener: (progress: fs.Progress) =>{
+          const processedSize = Number(progress.processedSize);
+          const totalSize = Number(progress.totalSize);
+          Logger.info(TAG, "progressSize: " + progress.processedSize + ", totalSize: " + progress.totalSize);
+          if (firstCopy) {
+            Logger.info(TAG, "firstCopy");
+            totalCopySize += progress.totalSize;
+            copiedSize += progress.processedSize;
+            lastCopiedSize = progress.processedSize;
+            firstCopy = false;
+          } else {
+            copiedSize -= lastCopiedSize;
+            copiedSize += progress.processedSize;
+            lastCopiedSize = progress.processedSize;
+          }
+
+          totalProgress = Number(((copiedSize / totalCopySize) * 100).toFixed(0));
+          AppStorage.setOrCreate('progress', totalProgress);
+          Logger.info(TAG, "totalCopySize: " + totalCopySize + ", copiedSize: " + copiedSize);
+          if (totalCopySize != copiedSize) {
+            isCopying = true;
+            AppStorage.setOrCreate('isCopying', true);
+          } else {
+            Logger.info(TAG, "totalCopySize == copiedSize,Successfully coppied");
+            isCopying = false;
+            AppStorage.setOrCreate('isCopying', false);
+            AppStorage.setOrCreate('flashPage', !AppStorage.get<string>('flashPage'));
+            DataObject.clear();
+            prompt.openToast({ message: $r('app.string.label_dirupdate') });
+          }
+        }
       };
       // 进行拷贝
       fs.copy(from, to, options).then(() => {
         isCopying = false;
         AppStorage.setOrCreate('isCopying', false);
         Logger.info(TAG, "Succeeded in copying. ");
-      }).catch((err: BusinessError) => {
+      }).catch((err) => {
         isCopying = false;
         AppStorage.setOrCreate('isCopying', false);
         Logger.info(TAG, `Failed to copy. Code: ${err.code}, message: ${err.message}`);
         DataObject.clear();
-        return prompt.showToast({ message: $r('app.string.label_copyfailed') });
+        return prompt.openToast({ message: $r('app.string.label_copyfailed') });
       })
-    } catch (err) {
+    } catch (err:BusinessError) {
       Logger.error(TAG, `Failed to getData. Code: ${err.code}, message: ${err.message}`);
     }
   }
 }
 
-export default new FsManager();
+export function createFsManager(context: common.UIAbilityContext): FsManager {
+  return new FsManager(context);
+}
