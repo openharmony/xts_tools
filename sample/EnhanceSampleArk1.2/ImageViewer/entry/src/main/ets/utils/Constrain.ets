@@ -18,7 +18,8 @@ import { image } from '@kit.ImageKit';
 import { windowSizeManager } from './Managers';
 import { OffsetModel } from '../model/OffsetModel';
 import { runWithAnimation } from './FuncUtils';
-import { window } from '@kit.ArkUI';
+import { UIContext } from '@ohos.arkui.UIContext';
+import window from '@ohos.window';
 
 /**
  * 图片适配类型
@@ -103,11 +104,21 @@ function isToggle(offset: number, winSize: number, imageSize: number, scale: num
 // 查询当前是尺寸
 export function getImgSize(imageSize: image.Size, rotate: number,
   dimensionWH: ImageFitType ): number {
-  const isStandardRotation: boolean = [90, 270].includes(Math.abs(rotate % 360));
-  const key: ImageFitType =
-    isStandardRotation ? (dimensionWH == ImageFitType.TYPE_WIDTH ? ImageFitType.TYPE_HEIGHT : ImageFitType.TYPE_WIDTH) :
-      dimensionWH;
-  return imageSize[key];
+  // let rotateTemp: number = Math.abs(rotate % 360);
+  // const isStandardRotation: boolean = [90, 270].includes(rotateTemp);
+  const rotatedAngle = Math.abs(rotate % 360);
+  const isStandardRotation: boolean = rotatedAngle === 90 || rotatedAngle === 270;
+  // const key: ImageFitType =
+  //   isStandardRotation ? (dimensionWH == ImageFitType.TYPE_WIDTH ? ImageFitType.TYPE_HEIGHT : ImageFitType.TYPE_WIDTH) :
+  //     dimensionWH;
+  // return (imageSize as any)[key];
+  if (isStandardRotation) {
+    // 90/270度旋转时，宽高互换
+    return dimensionWH === ImageFitType.TYPE_WIDTH ? imageSize.height : imageSize.width;
+  } else {
+    // 其他角度时保持原样
+    return dimensionWH === ImageFitType.TYPE_WIDTH ? imageSize.width : imageSize.height;
+  }
 }
 
 
@@ -115,11 +126,12 @@ export function getImgSize(imageSize: image.Size, rotate: number,
  * 用来计算 图片所需要的偏移量
  * 防止 图片超出显示视图
  * @param { ConstrainOffsetAndAnimationType } info  -  所需要的数据
+ * @param { UIContext } uiContext  -  所需要的节点
  * @return { [boolean, boolean] }  - 返回是否移动
  *    如果是 info.dimensionWH 是 "width" 返回值为 [ 左边超出， 右边超出]
  *    如果是 info.dimensionWH 是 "height" 返回值为 [ 上边超出， 下边超出]
  */
-export function constrainOffsetAndAnimation(info: ConstrainOffsetAndAnimationType): [boolean, boolean] {
+export function constrainOffsetAndAnimation(info: ConstrainOffsetAndAnimationType, uiContext: UIContext | undefined): [boolean, boolean] {
   if (info.dimensionWH === ImageFitType.TYPE_DEFAULT) {
     return [false, false];
   }
@@ -127,12 +139,19 @@ export function constrainOffsetAndAnimation(info: ConstrainOffsetAndAnimationTyp
   // 获取图片在指定轴上的原始尺寸
   const IMG_SIZE: number = getImgSize(info.imageDefaultSize, info.rotate, info.dimensionWH);
   // 获取窗口对应轴的尺寸
-  const WIN_AXIS_SIZE: number = WIN_SIZE[info.dimensionWH];
-  // 获取图片在该轴上的最后偏移量
+  let WIN_AXIS_SIZE: number = 0.0;
   if (info.dimensionWH == ImageFitType.TYPE_WIDTH) {
-    let currentOffset: number = info.imageOffsetInfo.lastX;
+    WIN_AXIS_SIZE = WIN_SIZE.width;
   } else {
-    let currentOffset: number = info.imageOffsetInfo.lastY;
+    WIN_AXIS_SIZE = WIN_SIZE.height;
+  }
+  // const WIN_AXIS_SIZE: number = WIN_SIZE[info.dimensionWH];
+  // 获取图片在该轴上的最后偏移量
+  let currentOffset: number = 0;
+  if (info.dimensionWH == ImageFitType.TYPE_WIDTH) {
+    currentOffset = info.imageOffsetInfo.lastX;
+  } else {
+    currentOffset = info.imageOffsetInfo.lastY;
   }
   // let currentOffset: number =
   //   (info.imageOffsetInfo as object)[`last${info.dimensionWH == ImageFitType.TYPE_WIDTH ? 'X' : 'Y'}`];
@@ -153,7 +172,7 @@ export function constrainOffsetAndAnimation(info: ConstrainOffsetAndAnimationTyp
         // 保存当前的偏移状态
         info.imageOffsetInfo.stash();
       }
-    runWithAnimation(updateFn);
+    runWithAnimation(updateFn, uiContext);
     let bol: boolean = isToggle(currentOffset, WIN_AXIS_SIZE, IMG_SIZE, info.scaleValue, info.togglePercent);
     if (bol) {
       const BOL: boolean = currentOffset >= 0 ? true : false;

@@ -16,8 +16,9 @@
 
 import {
   Curve,
-  getUIContext,
 } from '@kit.ArkUI';
+
+import { UIContext } from '@ohos.arkui.UIContext';
 
 import { ImageViewerConstants } from '../constants/ImageViewerConstants';
 
@@ -29,9 +30,10 @@ import { ImageViewerConstants } from '../constants/ImageViewerConstants';
  */
 export function runWithAnimation(
   fn: Function,
+  uiContext: UIContext | undefined,
   duration: number = ImageViewerConstants.ANIMATE_DURATION,
   curve: Curve = Curve.Smooth): void {
-  getUIContext().animateTo({ duration: duration, curve: curve }, () => {
+  uiContext?.animateTo({ duration: duration, curve: curve }, () => {
     fn.unsafeCall();
   })
 }
@@ -58,8 +60,9 @@ export function simplestRotationQuarter(angle: number): number {
 
   // 根据象限确定旋转角度
   const standardRotations: number[] = [0, 90, 180, 270];
+  let rotation = 0.0;
   if(QUADRANT as int < standardRotations.length) {
-    let rotation = standardRotations[QUADRANT as int];
+    rotation = standardRotations[QUADRANT as int];
   }
 
   // 保持原始角度的方向

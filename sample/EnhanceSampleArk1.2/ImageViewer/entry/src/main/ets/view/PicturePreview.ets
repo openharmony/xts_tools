@@ -19,6 +19,7 @@ import { PropRef } from '@kit.ArkUI';
 import {
   Component,
   Axis,
+  ClickEvent,
   Link,
   Watch,
   State,
@@ -38,8 +39,7 @@ import {
 import { CommonLazyDataSourceModel } from '../model/CommonLazyDataSourceModel';
 import { windowSizeManager } from '../utils/Managers';
 import { PicturePreviewImage } from './PicturePreviewImage';
-import { window } from '@kit.ArkUI';
-
+import window from '@ohos.window';
 
 /**
  * 使用图片预览组件样例
@@ -67,7 +67,8 @@ export struct PicturePreview {
   // 滑动方向
   @PropRef listDirection: Axis = Axis.Vertical;
   // 外部传入的图片数据
-  @Link @Watch('getListMaxLength') imageList: string[];
+  // @Link @Watch('getListMaxLength') imageList: string[];
+  @Link imageList: string[];
   // 背景颜色
   @State listBGColor: Color = Color.White;
   // 图片懒加载数据源
@@ -90,13 +91,13 @@ export struct PicturePreview {
   }
 
   // 改变偏移量
-  setListOffset = (offset: number, animationDuration: number = 0) => {
+  setListOffset (offset: number, animationDuration: number = 0) {
     const WIN_SIZE :window.Size= windowSizeManager.get();
     let principalAxisSize:number = this.listDirection === Axis.Horizontal ? WIN_SIZE.width : WIN_SIZE.height;
-    let principalAxisOffset :number= principalAxisSize * this.listIndex;
-    let space :number= this.listSpace * this.listIndex;
+    let principalAxisOffset :number = principalAxisSize * this.listIndex;
+    let space :number = this.listSpace * this.listIndex;
     principalAxisOffset = principalAxisOffset + space;
-    let calculatedOffset :number= offset + principalAxisOffset;
+    let calculatedOffset :number = offset + principalAxisOffset;
     this.listScroll.scrollTo({
       yOffset: this.listDirection === Axis.Horizontal ? 0 : calculatedOffset,
       xOffset: this.listDirection === Axis.Horizontal ? calculatedOffset : 0,
@@ -106,17 +107,17 @@ export struct PicturePreview {
     })
   }
   // 改变到具体页面
-  setListToIndex = (index: int) => {
-    const WIN_SIZE :window.Size= windowSizeManager.get();
-    let nIndex :number= index;
+  setListToIndex (index: Double) {
+    const WIN_SIZE :window.Size = windowSizeManager.get();
+    let nIndex :number = index;
     if (nIndex < 0) {
       nIndex = 0;
     } else if (nIndex >= this.listMaxLength) {
       nIndex = this.listMaxLength - 1;
     }
     this.listIndex = nIndex;
-    let principalAxisSize :number= this.listDirection === Axis.Horizontal ? WIN_SIZE.width : WIN_SIZE.height;
-    let calculatedOffset :number= Math.abs(nIndex * principalAxisSize) + this.listSpace * nIndex;
+    let principalAxisSize :number = this.listDirection === Axis.Horizontal ? WIN_SIZE.width : WIN_SIZE.height;
+    let calculatedOffset :number = Math.abs(nIndex * principalAxisSize) + this.listSpace * nIndex;
     this.listScroll.scrollTo({
       yOffset: this.listDirection === Axis.Horizontal ? 0 : calculatedOffset,
       xOffset: this.listDirection === Axis.Horizontal ? calculatedOffset : 0,
@@ -136,7 +137,7 @@ export struct PicturePreview {
   build() {
     NavDestination() {
       List({ scroller: this.listScroll, space: this.listSpace }) {
-        LazyForEach(this.lazyImageList, (imageUrl: string, index: number) => {
+        LazyForEach(this.lazyImageList as CommonLazyDataSourceModel<String>, (imageUrl: string, index: number) => {
           ListItem() {
             PicturePreviewImage({
               imageUrl: imageUrl,
@@ -148,18 +149,21 @@ export struct PicturePreview {
               listBGColor: this.listBGColor
             })
           }
-          .width($r('app.string.imageviewer_full_size'))
+          // .width($r('app.string.imageviewer_full_size'))//TODO $r存在问题 DTS2025082031897
+          .width('100%')
         })
       }
       .enableScrollInteraction(false) // PicturePreviewImage中根据自定义手势控制滑动，需要禁止List本身的滑动，否则会出现滑动冲突
       .scrollSnapAlign(ScrollSnapAlign.START)
-      .width($r('app.string.imageviewer_full_size'))
-      .height($r('app.string.imageviewer_full_size'))
+      // .width($r('app.string.imageviewer_full_size'))//TODO $r存在问题 DTS2025082031897
+      // .height($r('app.string.imageviewer_full_size'))//TODO $r存在问题 DTS2025082031897
+      .width('100%')
+      .height('100%')
       .cachedCount(1)
       .listDirection(this.listDirection)
       .scrollBar(BarState.Off)
       .backgroundColor(this.listBGColor)
-      .onClick(() => {
+      .onClick((event: ClickEvent) => {
         this.listBGColor = this.listBGColor === Color.White ? Color.Black : Color.White;
       })
       .expandSafeArea([SafeAreaType.SYSTEM], [SafeAreaEdge.TOP, SafeAreaEdge.BOTTOM])
@@ -167,7 +171,7 @@ export struct PicturePreview {
       .borderWidth(1)
       .borderColor(Color.Transparent)
     }
-    .hideTitleBar(true)
+    // .hideTitleBar(true)//TODO hideTitleBar运行时报错 DTS2025082225489
   }
 }
 
