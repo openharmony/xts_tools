@@ -16,7 +16,7 @@
 
 import common from '@ohos.app.ability.common'
 import preferences from '@ohos.data.preferences'
-import Logger from '../model/Logger'
+import Logger from './Logger'
 
 const TAG: string = 'LiteStore'
 
@@ -41,8 +41,8 @@ class LiteStore {
     }
     Logger.info(TAG, `setValue: ${value}`)
     if(this.store != undefined) {
-      await this.store.put(this.key, value)
-      await this.store.flush()
+      this.store?.putSync(this.key, value)
+      this.store?.flushSync()
     }
   }
 
@@ -53,7 +53,7 @@ class LiteStore {
     }
     // 获取Preferences对象中的数据
     if(this.store != undefined) {
-      let result = await this.store.get(this.key, 'ManualSync')
+      let result = this.store?.getSync(this.key, 'ManualSync')
       Logger.info(TAG, `getValue: ${result}`)
       return result
     }

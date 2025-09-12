@@ -15,7 +15,6 @@
  */
 
 import {
-  getUIContext,
   Entry,
   Component,
   State,
@@ -33,20 +32,23 @@ import {
   Divider,
   Scroll,
   TextAlign,
+  ClickEvent,
+  Margin,
+  ColumnOptions,
 } from '@kit.ArkUI';
 
+import { UIContext } from '@ohos.arkui.UIContext';
 import data_rdb from '@ohos.data.relationalStore'
 import router from '@ohos.router'
 import promptAction from '@ohos.promptAction'
 import common from '@ohos.app.ability.common'
-import Contact from '../model/Contact'
+import Contact, { RouterParams }  from '../model/Contact'
 import Logger from '../model/Logger'
 import RdbModel from '../model/RdbModel'
 import { TitleBar } from '../common/TitleBar'
 import { TABLE_NAME, SQL_CREATE_TABLE, COLUMNS } from '../model/RdbConst'
 
 const TAG = 'ContactEdit'
-let rdbModel = new RdbModel(TABLE_NAME, SQL_CREATE_TABLE, COLUMNS, getUIContext().getHostContext(this) as common.UIAbilityContext)
 
 interface paramstype {
   isInsert: boolean,
@@ -55,9 +57,10 @@ interface paramstype {
 @Entry
 @Component
 struct ContactEdit {
-  private params = getUIContext().getRouter().getParams() as paramstype
+  private params: RouterParams = new RouterParams(new Contact(0, '', 0, '', -1, ''), false);
   private isInsert: boolean = this.params.isInsert
   @State contact: Contact = this.params.contact
+  @State rdbModel: RdbModel = new RdbModel(TABLE_NAME, SQL_CREATE_TABLE, COLUMNS, this.getUIContext().getHostContext() as common.UIAbilityContext)
 
   @Builder InputText(icon: Resource, placeHolder: Resource, key: string, text: string, filter: string, maxLength: number, type: InputType, onChange: (value: string) => void) {
     Row() {
@@ -80,18 +83,18 @@ struct ContactEdit {
     }
     .width('95%')
     .padding(16)
-    .margin({ top: 16 })
+    .margin({ top: 16 } as Margin)
     .backgroundColor(Color.White)
     .borderRadius(16)
   }
 
   @Builder menuBuilder() {
-    Column({ space: 2 }) {
+    Column({ space: 2 } as ColumnOptions) {
       Text($r('app.string.male'))
         .fontSize(25)
         .width('100%')
         .padding(5)
-        .onClick(() => {
+        .onClick((event: ClickEvent) => {
           this.contact.gender = 0
         })
 
@@ -101,7 +104,7 @@ struct ContactEdit {
         .fontSize(25)
         .width('100%')
         .padding(5)
-        .onClick(() => {
+        .onClick((event: ClickEvent) => {
           this.contact.gender = 1
         })
     }
@@ -110,45 +113,55 @@ struct ContactEdit {
     .backgroundColor(Color.White)
   }
 
-  handleSubmit = async () => {
-
+  handleSubmit () {
     if (this.contact.name === '') {
-      getUIContext().getPromptAction().showToast({ message: $r('app.string.name_validate'), duration: 1000 })
+      this.getUIContext().getPromptAction().showToast({ message: $r('app.string.name_validate'), duration: 1000 })
       return
     }
     if (this.contact.phone === '') {
-      getUIContext().getPromptAction().showToast({ message: $r('app.string.phone_validate'), duration: 1000 })
+      this.getUIContext().getPromptAction().showToast({ message: $r('app.string.phone_validate'), duration: 1000 })
       return
     }
 
     if (this.contact.age < 0) {
-      getUIContext().getPromptAction().showToast({ message: $r('app.string.age_validate'), duration: 1000 })
+      this.getUIContext().getPromptAction().showToast({ message: $r('app.string.age_validate'), duration: 1000 })
       return
     }
+    this.handleSubmitNext()
+  }
 
+  async handleSubmitNext () {
     try {
       if (this.isInsert) {
         let predicates = new data_rdb.RdbPredicates(TABLE_NAME)
         predicates.equalTo('name', this.contact.name)
-        let alreadyExist = await rdbModel.query(predicates)
+        let alreadyExist = await this.rdbModel.query(predicates)
         if (alreadyExist.length > 0) {
           Logger.info(TAG, 'already exist, need update')
           this.contact.id = alreadyExist[0].id
-          await rdbModel.updateData(this.contact)
+          await this.rdbModel.updateData(this.contact)
         } else {
-          await rdbModel.insertData(this.contact)
+          await this.rdbModel.insertData(this.contact)
           Logger.info(TAG, 'insert success')
         }
       } else {
-        await rdbModel.updateData(this.contact)
+        await this.rdbModel.updateData(this.contact)
         Logger.info(TAG, 'update success')
       }
     } catch (err) {
       Logger.error(JSON.stringify(err))
     }
-    getUIContext().getRouter().back()
+    this.getUIContext().getRouter().back()
   }
-
+  aboutToAppear(): void {
+    setTimeout(()=>{
+      if(this.getUIContext().getRouter().getParams()){
+        this.params = this.getUIContext().getRouter().getParams() as RouterParams;
+        this.isInsert = this.params.isInsert
+        this.contact = this.params.contact
+      }
+    },1);
+  }
   build() {
     Column() {
       TitleBar({
@@ -174,7 +187,7 @@ struct ContactEdit {
               .border({ width: 1, color: Color.Black })
               .width('30%')
               .padding(5)
-              .margin({ left: 5 })
+              .margin({ left: 5 } as Margin)
               .textAlign(TextAlign.Center)
               .bindMenu(this.menuBuilder)
           }

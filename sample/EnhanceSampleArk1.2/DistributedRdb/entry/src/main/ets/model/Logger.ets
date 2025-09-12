@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,33 +14,27 @@
  * limitations under the License.
  */
 
-import hilog from '@ohos.hilog';
+import hilog from '@ohos.hilog'
 
 class Logger {
-  private domain: number;
-  private prefix: string;
-  private format: string = '%{public}s, %{public}s';
-
+  private domain: Int
+  private prefix: string
+  private format: string = "%{public}s, %{public}s"
   constructor(prefix: string) {
-    this.prefix = prefix;
-    this.domain = 0xff00;
+    this.prefix = prefix
+    this.domain = 0xFF00
   }
-
   debug(...args: string[]) {
-    hilog.debug(this.domain, this.prefix, this.format, args);
+    hilog.debug(this.domain, this.prefix, this.format, args)
   }
-
   info(...args: string[]) {
-    hilog.info(this.domain, this.prefix, this.format, args);
+    hilog.info(this.domain, this.prefix, this.format, args)
   }
-
   warn(...args: string[]) {
-    hilog.warn(this.domain, this.prefix, this.format, args);
+    hilog.warn(this.domain, this.prefix, this.format, args)
   }
-
   error(...args: string[]) {
-    hilog.error(this.domain, this.prefix, this.format, args);
+    hilog.error(this.domain, this.prefix, this.format, args)
   }
 }
-
-export default new Logger('[Sample_eTSDistributedRdb]');
+export default new Logger('[Sample_eTSDistributedRdb]')

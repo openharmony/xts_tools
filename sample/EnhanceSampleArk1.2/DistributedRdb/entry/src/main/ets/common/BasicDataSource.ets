@@ -21,10 +21,10 @@ import {
   DataChangeListener,
 } from '@kit.ArkUI';
 
-import Contact from '../model/Contact'
+import Contact from '../model/Contact';
 
 @Observed
-export default class ContactDataSource implements IDataSource {
+export default class ContactDataSource implements IDataSource<Contact> {
   public dataArray: Array<Contact> = new Array<Contact>();
   private listeners: Array<DataChangeListener> = [];
 
@@ -35,8 +35,8 @@ export default class ContactDataSource implements IDataSource {
   public replaceDataArray(dataArray: Array<Contact>): number {
     if (this.dataArray.length < dataArray.length) {
       // 新增联系人
-      dataArray.forEach(item => {
-        let contact = this.dataArray.find(obj => obj.id === item.id);
+      dataArray.forEach((item: Contact) => {
+        let contact = this.dataArray.find((obj: Contact) => obj.id === item.id);
         if (!contact) {
           this.dataArray.push(item);
         }
@@ -77,8 +77,8 @@ export default class ContactDataSource implements IDataSource {
   }
 
 
-  public getData(index: int): Contact {
-    return this.dataArray[index];
+  public getData(index: number): Contact {
+    return this.dataArray[index as int];
   }
 
   public addData(index: number, data: Contact): void {

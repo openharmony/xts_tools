@@ -22,6 +22,7 @@ import {
   ImageFit,
   Column,
   Text,
+  Margin,
 } from '@kit.ArkUI';
 
 import Contact from '../model/Contact'
@@ -33,10 +34,10 @@ const enum Gender {
 
 @Component
 export struct QueryItem {
-  private contact: Contact | undefined = undefined;
+  private contact: Contact = new Contact(0, '', 0, '', -1, '');
 
   aboutToAppear() {
-    if (this.contact) {
+    if (this.contact != undefined) {
       let phone: string = this.contact.phone;
       phone = phone.replace(phone.substring(3, 7), '****');
       this.contact.phone = phone;
@@ -57,7 +58,7 @@ export struct QueryItem {
               .fontColor($r("app.color.grey"))
             Text(this.contact.name)
               .fontSize(30)
-              .margin({ left: 16 })
+              .margin({ left: 16 } as Margin)
               .fontColor($r("app.color.grey"))
           }.width('100%')
 
@@ -68,7 +69,7 @@ export struct QueryItem {
 
             Text(this.contact.phone)
               .fontSize(25)
-              .margin({ left: 16 })
+              .margin({ left: 16 } as Margin)
               .fontColor($r("app.color.grey"))
           }.width('100%')
 
@@ -79,7 +80,7 @@ export struct QueryItem {
 
             Text(this.contact.age == 0 ? "--" : this.contact.age + "")
               .fontSize(25)
-              .margin({ left: 16 })
+              .margin({ left: 16 } as Margin)
               .fontColor($r("app.color.grey"))
           }.width('100%')
         }

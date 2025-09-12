@@ -36,7 +36,14 @@ import {
   ListItem,
   ForEach,
   ListItemAlign,
+  Margin,
+  ClickEvent,
+  Padding,
+  EditableTextOnChangeCallback,
+  OnSelectCallback,
 } from '@kit.ArkUI';
+import common from '@ohos.app.ability.common';
+import { UIContext } from '@ohos.arkui.UIContext';
 
 import { TitleBar } from '../common/TitleBar';
 import { QueryItem } from '../common/QueryItem';
@@ -46,7 +53,7 @@ import Contact from '../model/Contact';
 @Entry
 @Component
 struct SearchPage {
-  private model: SearchModel = new SearchModel();
+  private model: SearchModel = new SearchModel(this.getUIContext().getHostContext() as common.UIAbilityContext);
 
   build() {
     Column() {
@@ -65,7 +72,7 @@ struct SearchPage {
 
 @Component
 struct ConditionOption {
-  private model: SearchModel = new SearchModel();
+  private model: SearchModel = new SearchModel(this.getUIContext().getHostContext() as common.UIAbilityContext);
 
   async getData(): Promise<void> {
     await this.model.getData();
@@ -76,7 +83,7 @@ struct ConditionOption {
       Row() {
         Text($r('app.string.query_criteria'))
           .fontSize(25)
-          .margin({ right: 10 })
+          .margin({ right: 10 } as Margin)
 
         Select([{ value: 'beginsWith', icon: $r('app.media.select') },
           { value: 'endsWith', icon: $r('app.media.select') },
@@ -93,7 +100,7 @@ struct ConditionOption {
           .optionFont({ size: 18, weight: FontWeight.Regular })
           .onSelect((index: number) => {
             this.model.onSelect(index)
-          })
+          } as OnSelectCallback)
       }
       .justifyContent(FlexAlign.SpaceAround)
       .width("100%")
@@ -102,7 +109,7 @@ struct ConditionOption {
       Row() {
         Text($r('app.string.sort_the_results'))
           .fontSize(25)
-          .margin({ right: 10 })
+          .margin({ right: 10 } as Margin)
 
         Select([{ value: $r('app.string.ascending'), icon: $r('app.media.Ascending') },
           { value: $r('app.string.descending'), icon: $r('app.media.Descending') }])
@@ -111,9 +118,9 @@ struct ConditionOption {
           .fontColor($r("app.color.color_182431"))
           .selectedOptionFont({ size: 18, weight: FontWeight.Regular })
           .optionFont({ size: 18, weight: FontWeight.Regular })
-          .onSelect(async (index: number) => {
+          .onSelect((index: number) => {
             this.model.searchData.isAscending = (index === 0);
-          })
+          } as OnSelectCallback)
       }
       .justifyContent(FlexAlign.SpaceAround)
       .width("100%")
@@ -122,9 +129,9 @@ struct ConditionOption {
 
       Button($r('app.string.search'))
         .fontSize(25)
-        .margin({ top: 20 })
+        .margin({ top: 20 } as Margin)
         .type(ButtonType.Capsule)
-        .onClick(() => {
+        .onClick((event: ClickEvent) => {
           this.getData()
         })
     }
@@ -136,18 +143,18 @@ struct ConditionOption {
 
 @Component
 struct InputArea {
-  private model: SearchModel = new SearchModel();
+  private model: SearchModel = new SearchModel(this.getUIContext().getHostContext() as common.UIAbilityContext);
   @State isDoubleInput: boolean = false;
   @State searchPlaceholder: Resource = $r('app.string.search_placeholder_start');
   @State searchText: string = "";
-  @State searchTexts: Array<string> = [];
+  @State searchTexts: Array<string> = new Array<string>();
   @State inputType: InputType = InputType.Normal
 
   aboutToAppear() {
-    this.model.onSelectCallback =()=> this.onSelectCallback;
+    this.model.onSelectCallback = this.onSelectCallback;
   }
 
-  onSelectCallback() {
+  onSelectCallback(): void {
     this.isDoubleInput = this.model.searchData.isDoubleInput;
     this.searchPlaceholder = this.model.searchData.searchPlaceholder;
     this.searchText = this.model.searchData.searchText;
@@ -166,7 +173,7 @@ struct InputArea {
         Image($r('app.media.search_gray'))
           .height('100%')
           .width(40)
-          .margin({ left: 16 })
+          .margin({ left: 16 } as Margin)
           .objectFit(ImageFit.Contain)
 
         TextInput({ placeholder: this.searchPlaceholder, text: this.searchText })
@@ -174,16 +181,16 @@ struct InputArea {
           .width('80%')
           .fontSize(25)
           .type(this.inputType)
-          .margin({ right: 10 })
+          .margin({ right: 10 } as Margin)
           .backgroundColor($r("app.color.color_fa"))
           .onChange((value: string) => {
             this.model.searchData.searchText = value
-          })
+          } as EditableTextOnChangeCallback)
       }
       .width('95%')
       .height(60)
       .border({ radius: 45 })
-      .margin({ top: 10 })
+      .margin({ top: 10 } as Margin)
     } else {
       Row() {
         Column() {
@@ -192,20 +199,20 @@ struct InputArea {
             .width('95%')
             .fontSize(25)
             .type(InputType.Number)
-            .margin({ right: 10, top: 5 })
+            .margin({ right: 10, top: 5 } as Margin)
             .backgroundColor($r("app.color.color_fa"))
             .onChange((value: string) => {
               this.model.searchData.searchTexts[0] = value
-            })
+            } as EditableTextOnChangeCallback)
         }
         .width('40%')
         .height(80)
         .border({ radius: 45 })
-        .margin({ top: 10 })
+        .margin({ top: 10 } as Margin)
 
         Column() {
           Text('——')
-            .margin({ top: 5 })
+            .margin({ top: 5 } as Margin)
         }
         .width('10%')
 
@@ -215,16 +222,16 @@ struct InputArea {
             .width('95%')
             .fontSize(25)
             .type(InputType.Number)
-            .margin({ right: 10, top: 5 })
+            .margin({ right: 10, top: 5 } as Margin)
             .backgroundColor($r("app.color.color_fa"))
             .onChange((value: string) => {
               this.model.searchData.searchTexts[1] = value
-            })
+            } as EditableTextOnChangeCallback)
         }
         .width('40%')
         .height(60)
         .border({ radius: 45 })
-        .margin({ top: 10 })
+        .margin({ top: 10 } as Margin)
       }.width("95%")
     }
 
@@ -233,8 +240,8 @@ struct InputArea {
 
 @Component
 struct DataAndTips {
-  private model: SearchModel = new SearchModel();
-  @State searchTips: Array<string> = [];
+  private model: SearchModel = new SearchModel(this.getUIContext().getHostContext() as common.UIAbilityContext);
+  @State searchTips: string[] = ['', ''];
   @State contacts: Array<Contact> = new Array<Contact>();
   @State otherContacts: Array<Contact> = new Array<Contact>();
 
@@ -263,7 +270,7 @@ struct DataAndTips {
           }
           .width('100%')
           .justifyContent(FlexAlign.Start)
-          .padding({ left: 16 })
+          .padding({ left: 16 } as Padding)
         }
 
         if (this.contacts.length === 0) {
@@ -275,7 +282,7 @@ struct DataAndTips {
             }
             .width('100%')
             .justifyContent(FlexAlign.Center)
-            .padding({ left: 16 })
+            .padding({ left: 16 } as Padding)
           }
         } else {
           ForEach(this.contacts, (item: Contact) => {
@@ -295,7 +302,7 @@ struct DataAndTips {
           }
           .width('100%')
           .justifyContent(FlexAlign.Start)
-          .padding({ left: 16 })
+          .padding({ left: 16 } as Padding)
         }
 
 
@@ -308,7 +315,7 @@ struct DataAndTips {
             }
             .width('100%')
             .justifyContent(FlexAlign.Center)
-            .padding({ left: 16 })
+            .padding({ left: 16 } as Padding)
           }
         } else {
           ForEach(this.otherContacts, (item: Contact) => {

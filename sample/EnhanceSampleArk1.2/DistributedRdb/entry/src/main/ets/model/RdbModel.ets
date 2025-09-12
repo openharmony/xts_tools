@@ -14,17 +14,18 @@
  * limitations under the License.
  */
 
+import { Observed } from '@kit.ArkUI';
 import data_rdb from '@ohos.data.relationalStore'
 import common from '@ohos.app.ability.common'
 import Contact from '../model/Contact'
-import Logger from '../model/Logger'
+import Logger from './Logger'
 import { STORE_CONFIG, TABLE_NAME, TYPE_INSERT, TYPE_UPDATE, TYPE_DELETE } from '../model/RdbConst'
-import { ValuesBucket } from '@ohos.data.ValuesBucket';
-
+// import { ValuesBucket } from '@ohos.data.ValuesBucket';
+import { BusinessError } from '@ohos.base';
 const TAG = 'RdbModel'
 
+@Observed
 export default class RdbModel {
-  private rdbStore: data_rdb.RdbStore | undefined = undefined
   private tableName: string = ''
   private sqlCreateTable: string = ''
   private columns: Array<string> = []
@@ -33,13 +34,14 @@ export default class RdbModel {
   private dataChangeDetailCallback: Function | null = null
   private isCreateDbDone: boolean = false
   private context: common.UIAbilityContext
+  private rdbStore: data_rdb.RdbStore;
 
   constructor(tableName: string, sqlCreateTable: string, columns: Array<string>, context: common.UIAbilityContext) {
     this.tableName = tableName
     this.sqlCreateTable = sqlCreateTable
     this.columns = columns
     this.context = context
-
+    this.rdbStore = await data_rdb.getRdbStore(this.context, STORE_CONFIG);
     this.getRdbStore()
   }
 
@@ -48,29 +50,30 @@ export default class RdbModel {
     Logger.info(TAG, 'getRdbStore begin')
     if (this.isCreateDbDone) {
       Logger.info(TAG, 'getRdbStore isCreateDbDone')
-      return
-    }
-    try {
-      // 获取数据库存储对象
-      this.rdbStore = await data_rdb.getRdbStore(this.context, STORE_CONFIG);
-    } catch (err) {
-      console.info(`getRdbStore err ${JSON.stringify(err)}`);
-    }
-    Logger.info(TAG, 'getRdbStore end')
-    try {
-      // 执行sql语句，联系人个各个属性设定
-      if (this.rdbStore != undefined) {
-        await this.rdbStore.executeSql(this.sqlCreateTable)
-        console.info(`create tabe start ` + this.sqlCreateTable);
-        // 设置分布式表，表明为contact
-        await this.rdbStore.setDistributedTables([this.tableName])
+    } else {
+      try {
+        // 获取数据库存储对象
+        this.rdbStore = await data_rdb.getRdbStore(this.context, STORE_CONFIG);
+      } catch (err) {
+        console.info(`getRdbStore err ${JSON.stringify(err)}`);
       }
-    } catch (e) {
-      Logger.error(TAG, 'getRdbStore:' + JSON.stringify(e))
+      Logger.info(TAG, 'getRdbStore end')
+      try {
+        // 执行sql语句，联系人个各个属性设定
+        if (this.rdbStore != undefined) {
+          await this.rdbStore.execute(this.sqlCreateTable)
+          console.info(`create tabe start ` + this.sqlCreateTable);
+          // 设置分布式表，表明为contact
+          // todo
+          // await this.rdbStore.setDistributedTables([this.tableName])
+        }
+      } catch (e) {
+        Logger.error(TAG, 'getRdbStore:' + JSON.stringify(e))
+      }
+      // 分布式数据库创建为完成
+      this.isCreateDbDone = true
+      Logger.info(TAG, 'create table done')
     }
-    // 分布式数据库创建为完成
-    this.isCreateDbDone = true
-    Logger.info(TAG, 'create table done')
   }
 
   async insertData(contact: Contact) {
@@ -80,7 +83,7 @@ export default class RdbModel {
     let value4 = contact.remark;
     let value5 = contact.age;
 
-    const valueBucket: ValuesBucket = {
+    const valueBucket: data_rdb.ValuesBucket = {
       'name': value1,
       'gender': value2,
       'phone': value3,
@@ -88,6 +91,7 @@ export default class RdbModel {
       'age': value5,
     }
     if (this.rdbStore != undefined) {
+      // todo
       let ret = await this.rdbStore.insert(this.tableName, valueBucket, data_rdb.ConflictResolution.ON_CONFLICT_REPLACE)
       Logger.info(TAG, `insert done:${ret}`)
     }
@@ -100,7 +104,7 @@ export default class RdbModel {
     let value4 = contact.remark;
     let value5 = contact.age;
 
-    const valueBucket: ValuesBucket = {
+    const valueBucket: data_rdb.ValuesBucket = {
       'name': value1,
       'gender': value2,
       'phone': value3,
@@ -111,6 +115,7 @@ export default class RdbModel {
     Logger.info(TAG, `updateData id=${contact.id}`)
     predicates.equalTo('id', contact.id)
     if (this.rdbStore != undefined) {
+      // todo
       let ret = await this.rdbStore.update(valueBucket, predicates)
       Logger.info(TAG, `updated row count: ${ret}`)
     }
@@ -123,7 +128,7 @@ export default class RdbModel {
         .equalTo('id', contact.id)
     })
     if (this.rdbStore != undefined) {
-      let rows = await this.rdbStore.delete(predicates)
+      let rows = this.rdbStore.deleteSync(predicates)
       Logger.info(TAG, `delete rows: ${rows}`)
     }
   }
@@ -135,12 +140,12 @@ export default class RdbModel {
 
     if (this.rdbStore != undefined) {
       // 默认查询所有列
-      let resultSet: data_rdb.ResultSet = await this.rdbStore.query(predicates, this.columns);
+      let resultSet: data_rdb.ResultSet = this.rdbStore.querySync(predicates, this.columns);
       Logger.info(TAG, 'result is ' + JSON.stringify(resultSet.rowCount))
       // 处理查询到的结果数组
       return this.getListFromResultSet(resultSet)
     }
-    return []
+    return new Array<Contact>()
   }
 
   async syncData(predicates: data_rdb.RdbPredicates) {
@@ -157,19 +162,21 @@ export default class RdbModel {
     Logger.info(TAG, `onDataChange enter，device=` + device + ` ,tableName = ` + this.tableName)
     try {
       if (this.rdbStore != undefined) {
-        this.distributedTable = await this.rdbStore.obtainDistributedTableName(device, this.tableName)
-        Logger.info(TAG, `obtainDistributedTableName,distributedTable=` + this.distributedTable)
+        // todo
+        // this.distributedTable = await this.rdbStore?.obtainDistributedTableName(device, this.tableName)
+        // Logger.info(TAG, `obtainDistributedTableName,distributedTable=` + this.distributedTable)
       }
-    } catch (err) {
+    } catch (err: BusinessError) {
       Logger.error(TAG, `ObtainDistributedTableName failed, code is ${err.code},message is ${err.message}`)
     }
     this.dataChangeCallback = callback
     await this.pullData()
     if (this.rdbStore != undefined) {
-      this.rdbStore.on('dataChange', data_rdb.SubscribeType.SUBSCRIBE_TYPE_REMOTE, async (devices) => {
-        Logger.info(TAG, `on dataChange, callback`)
-        await this.pullData()
-      })
+      // todo
+      // this.rdbStore.on('dataChange', data_rdb.SubscribeType.SUBSCRIBE_TYPE_REMOTE, async (devices) => {
+      //   Logger.info(TAG, `on dataChange, callback`)
+      //   await this.pullData()
+      // })
     }
   }
 
@@ -177,35 +184,37 @@ export default class RdbModel {
     Logger.info(TAG, `onDataChangeDetail enter，device=` + device + ` ,tableName = ` + this.tableName);
     try {
       if (this.rdbStore != undefined) {
-        this.distributedTable = await this.rdbStore.obtainDistributedTableName(device, this.tableName);
-        Logger.info(TAG, `obtainDistributedTableName,distributedTable=` + this.distributedTable);
+        // todo
+        // this.distributedTable = await this.rdbStore.obtainDistributedTableName(device, this.tableName);
+        // Logger.info(TAG, `obtainDistributedTableName,distributedTable=` + this.distributedTable);
       }
-    } catch (err) {
+    } catch (err: BusinessError) {
       Logger.error(TAG, `ObtainDistributedTableName failed, code is ${err.code},message is ${err.message}`);
     }
     this.dataChangeDetailCallback = callback;
     if (this.rdbStore != undefined) {
-      this.rdbStore.on('dataChange', data_rdb.SubscribeType.SUBSCRIBE_TYPE_LOCAL_DETAILS, async (changeInfo: Array<data_rdb.ChangeInfo>) => {
-        Logger.info(TAG, `on dataChange SUBSCRIBE_TYPE_REMOTE, callback`);
-        Logger.info(TAG, `on dataChange SUBSCRIBE_TYPE_REMOTE =` + JSON.stringify(changeInfo));
-        await this.pullDataDetail(changeInfo);
-      })
+      // todo
+      // this.rdbStore.on('dataChange', data_rdb.SubscribeType.SUBSCRIBE_TYPE_LOCAL_DETAILS, async (changeInfo: Array<data_rdb.ChangeInfo>) => {
+      //   Logger.info(TAG, `on dataChange SUBSCRIBE_TYPE_REMOTE, callback`);
+      //   Logger.info(TAG, `on dataChange SUBSCRIBE_TYPE_REMOTE =` + JSON.stringify(changeInfo));
+      //   await this.pullDataDetail(changeInfo);
+      // })
     }
   }
 
   async pullData() {
     Logger.info(TAG, `start pullData`)
     if (this.rdbStore != undefined) {
-      await this.rdbStore.executeSql('delete from ' + this.tableName)
+      await this.rdbStore.execute('delete from ' + this.tableName)
       let predicates = new data_rdb.RdbPredicates(this.distributedTable)
-      let resultSet = await this.rdbStore.query(predicates, this.columns)
-      let result = this.getListFromResultSet(resultSet)
+      let resultSet:data_rdb.ResultSet = this.rdbStore.querySync(predicates, this.columns)
+      let result : Array<Contact> = this.getListFromResultSet(resultSet)
       Logger.info(TAG, `on dataChange,result.length=${result.length}`)
       for (let i: int = 0; i < result.length; i++) {
         Logger.info(TAG, `on dataChange,insert${result[i].name}`)
         let predicate = new data_rdb.RdbPredicates(this.tableName)
         predicate.equalTo('name', result[i].name)
-        let exit = await this.rdbStore.query(predicate, this.columns)
+        let exit: data_rdb.ResultSet = this.rdbStore.querySync(predicate, this.columns)
         exit.goToFirstRow()
         if (exit.rowCount === 0) {
           await this.insertData(result[i])
@@ -215,7 +224,7 @@ export default class RdbModel {
         }
       }
       if (this.dataChangeCallback != null) {
-        this.dataChangeCallback.unsafeCall(result)
+        this.dataChangeCallback?.unsafeCall(result)
       }
     }
   }
@@ -223,16 +232,13 @@ export default class RdbModel {
   async pullDataDetail(changeInfo: Array<data_rdb.ChangeInfo>) {
     Logger.info(TAG, `start pullDataDetail`);
     if (this.rdbStore != undefined) {
-      if (changeInfo.length > 0) {
+      if (changeInfo.length > 0 && changeInfo[0].table == TABLE_NAME) {
         let result: Contact[] = [];
         for (let i: int = 0; i < changeInfo.length; i++) {
           let table: string = changeInfo[i].table;
-          if (table !== TABLE_NAME) {
-            return;
-          }
-          let inserted: Array<string> | Array<number> = changeInfo[i].inserted;
-          let updated: Array<string> | Array<number> = changeInfo[i].updated;
-          let deleted: Array<string> | Array<number> = changeInfo[i].deleted;
+          let inserted: Array<string> | Array<long> = changeInfo[i].inserted;
+          let updated: Array<string> | Array<long> = changeInfo[i].updated;
+          let deleted: Array<string> | Array<long> = changeInfo[i].deleted;
           if (inserted.length > 0) {
             let insertData: Contact[] = await this.getDetailByType(inserted, TYPE_INSERT);
             insertData.forEach(element => {
@@ -247,21 +253,25 @@ export default class RdbModel {
           }
           if (deleted.length > 0) {
             for (let index: int = 0; index < deleted.length; index++) {
-              result.push(new Contact(deleted[index] as number, '', 0, '', 0, '', TYPE_DELETE));
+              // todo
+              // result.push(new Contact(deleted[index] as number, '', 0, '', 0, '', TYPE_DELETE));
             }
           }
         }
         Logger.info(TAG, `result:` + JSON.stringify(result));
         if (this.dataChangeDetailCallback !== null) {
-          this.dataChangeDetailCallback.unsafeCall(result);
+          this.dataChangeDetailCallback?.unsafeCall(result);
         }
       }
     }
   }
 
-  async getDetailByType(id: Array<string> | Array<number>, type: string): Promise<Array<Contact>> {
+  async getDetailByType(id: Array<string> | Array<Long>, type: string): Promise<Array<Contact>> {
     let predicates = new data_rdb.RdbPredicates(TABLE_NAME);
-    predicates.in('id', id);
+    // todo
+    // inValues(field: string, value: Array<ValueType>): RdbPredicates;
+    // type ValueType = null | long | double | string | boolean | Uint8Array | Asset | Assets | Float32Array | bigint;
+    // predicates.inValues('id', id);
     let aData = await this.query(predicates);
     Logger.info(TAG, `type:${type}`);
     Logger.info(TAG, `aData:` + JSON.stringify(aData));
@@ -275,33 +285,35 @@ export default class RdbModel {
 
   offDataChange() {
     if (this.rdbStore != undefined) {
-      this.rdbStore.off('dataChange', data_rdb.SubscribeType.SUBSCRIBE_TYPE_REMOTE, (devices) => {
-        for (let i: int = 0; i < devices.length; i++) {
-          Logger.info(TAG, `device=${devices[i]} off data changed`)
-        }
-      })
+      // todo
+      // this.rdbStore.off('dataChange', data_rdb.SubscribeType.SUBSCRIBE_TYPE_REMOTE, (devices) => {
+      //   for (let i: int = 0; i < devices.length; i++) {
+      //     Logger.info(TAG, `device=${devices[i]} off data changed`)
+      //   }
+      // })
     }
   }
 
   offDataChangeDetail() {
     if (this.rdbStore != undefined) {
-      this.rdbStore.off('dataChange', data_rdb.SubscribeType.SUBSCRIBE_TYPE_LOCAL_DETAILS, (devices) => {
-        for (let i: int = 0; i < devices.length; i++) {
-          Logger.info(TAG, `device=${devices[i]} off data changed`)
-        }
-      })
+      // todo
+      // this.rdbStore.off('dataChange', data_rdb.SubscribeType.SUBSCRIBE_TYPE_LOCAL_DETAILS, (devices) => {
+      //   for (let i: int = 0; i < devices.length; i++) {
+      //     Logger.info(TAG, `device=${devices[i]} off data changed`)
+      //   }
+      // })
     }
   }
 
   // 处理数据格式
-  getListFromResultSet(resultSet: data_rdb.ResultSet): Contact[] {
+  getListFromResultSet(resultSet: data_rdb.ResultSet): Array<Contact> {
     // 声明结果变量
-    let contacts: Contact[] = []
+    let contacts: Array<Contact> = new Array<Contact>()
     // 进入结果集的第一行
     resultSet.goToFirstRow()
+    // todo
     // 如果没有结束就继续遍历
-    while (!resultSet.isEnded) {
-      // 读取各个属性，初始化临时变量contact
+    for (let i = 0; i < resultSet.rowCount; i++) {
       let contact: Contact = new Contact(resultSet.getDouble(resultSet.getColumnIndex('id'))
         , resultSet.getString(resultSet.getColumnIndex('name'))
         , resultSet.getDouble(resultSet.getColumnIndex('gender'))
@@ -315,6 +327,21 @@ export default class RdbModel {
       // 进入下一行
       resultSet.goToNextRow()
     }
+    // while (!resultSet.isEnded) {
+    //   // 读取各个属性，初始化临时变量contact
+    //   let contact: Contact = new Contact(resultSet.getDouble(resultSet.getColumnIndex('id'))
+    //     , resultSet.getString(resultSet.getColumnIndex('name'))
+    //     , resultSet.getDouble(resultSet.getColumnIndex('gender'))
+    //     , resultSet.getString(resultSet.getColumnIndex('phone'))
+    //     , resultSet.getLong(resultSet.getColumnIndex('age'))
+    //     , resultSet.getString(resultSet.getColumnIndex('remark')))
+    //   if (!contacts.includes(contact)) {
+    //     // 如果数据集合中没有这条数据就添加进去
+    //     contacts.push(contact)
+    //   }
+    //   // 进入下一行
+    //   resultSet.goToNextRow()
+    // }
     // 数据整合完毕就释放资源
     resultSet.close()
     Logger.info(TAG, 'contacts number is ' + contacts.length)

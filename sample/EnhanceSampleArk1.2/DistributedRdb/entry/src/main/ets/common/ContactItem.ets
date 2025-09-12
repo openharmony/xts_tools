@@ -28,6 +28,7 @@ import {
   Color,
   LongPressGesture,
   GestureEvent,
+  Margin,
 } from '@kit.ArkUI';
 
 import Contact from '../model/Contact'
@@ -68,7 +69,7 @@ export struct ContactItem {
             .fontColor($r("app.color.black"))
           Text(this.contact.name)
             .fontSize(30)
-            .margin({ left: 16 })
+            .margin({ left: 16 } as Margin)
             .fontColor($r("app.color.grey"))
         }.width('100%')
 
@@ -79,7 +80,7 @@ export struct ContactItem {
 
           Text(this.contact.phone)
             .fontSize(25)
-            .margin({ left: 16 })
+            .margin({ left: 16 } as Margin)
             .fontColor($r("app.color.grey"))
         }.width('100%')
 
@@ -89,11 +90,11 @@ export struct ContactItem {
             .fontColor($r("app.color.black"))
           Text(this.contact.age == 0 ? "--" : this.contact.age + "")
             .fontSize(25)
-            .margin({ left: 16 })
+            .margin({ left: 16 } as Margin)
             .fontColor($r("app.color.grey"))
         }.width('100%')
       }
-      .margin({ left: 16 })
+      .margin({ left: 16 } as Margin)
       .layoutWeight(1)
 
       if (this.isMultiCheck) {
@@ -101,7 +102,7 @@ export struct ContactItem {
           .select(this.contact.isSelected)
           .selectedColor(0x39a2db)
           .size({ width: 25, height: 25 })
-          .margin({ right: 5 })
+          .margin({ right: 5 } as Margin)
           .onChange((value: boolean) => {
             this.contact.isSelected = value
           })

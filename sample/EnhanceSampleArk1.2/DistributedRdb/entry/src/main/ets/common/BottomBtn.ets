@@ -31,6 +31,7 @@ import {
   ImageFit,
   Text,
   Color,
+  ClickEvent
 } from '@kit.ArkUI';
 
 interface BottomBtnItem {
@@ -42,10 +43,7 @@ interface BottomBtnItem {
 export struct BottomBtn {
   @PropRef isMultiCheck: boolean
   @PropRef isSelectedAll: boolean
-  private bottomBtn: Array<BottomBtnItem> = [
-    { icon: $r('app.media.select_all'), text: $r('app.string.select_all') },
-    { icon: $r('app.media.delete'), text: $r('app.string.delete') },
-    { icon: $r('app.media.close'), text: $r('app.string.quit') }]
+  private bottomBtn: Array<BottomBtnItem> = new Array<BottomBtnItem>() ;
   private handleBottomBtnClick: (index: number) => void = (index: number) => {}
 
   getIcon(item: BottomBtnItem, index: Number): Resource {
@@ -62,11 +60,16 @@ export struct BottomBtn {
     }
     return item.text
   }
-
+  aboutToAppear() {
+    this.bottomBtn.push(
+      { icon: $r('app.media.select_all'), text: $r('app.string.select_all') },
+      { icon: $r('app.media.delete'), text: $r('app.string.delete') } ,
+      { icon: $r('app.media.close'), text: $r('app.string.quit') })
+  }
   build() {
     if (this.isMultiCheck) {
       Flex({ direction: FlexDirection.Row, alignItems: ItemAlign.Center, justifyContent: FlexAlign.SpaceEvenly }) {
-        ForEach(this.bottomBtn, (item: BottomBtnItem, index) => {
+        ForEach(this.bottomBtn, (item: BottomBtnItem, index: number) => {
           Column() {
             Image(this.getIcon(item, index))
               .size({ width: 40, height: 40 })
@@ -76,10 +79,10 @@ export struct BottomBtn {
               .fontColor(Color.Black)
           }
           .flexShrink(1)
-          .onClick(() => {
+          .onClick((event: ClickEvent) => {
             this.handleBottomBtnClick(index)
           })
-        }, (item: BottomBtnItem) => JSON.stringify(item))
+        }, (item: BottomBtnItem) => JSON.stringify(item.text))
       }
       .height('8%')
     }

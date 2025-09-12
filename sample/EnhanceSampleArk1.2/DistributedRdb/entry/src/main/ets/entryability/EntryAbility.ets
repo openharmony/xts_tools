@@ -1,4 +1,4 @@
-'use static';
+'use static'
 /*
  * Copyright (c) 2025 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,22 +23,22 @@ import abilityAccessCtrl from '@ohos.abilityAccessCtrl';
 import Want from '@ohos.app.ability.Want';
 import AbilityConstant from '@ohos.app.ability.AbilityConstant';
 import { GlobalContext } from '../model/GlobalContext';
-
+import { BusinessError } from '@ohos.base'
+import hilog from '@ohos.hilog'
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     GlobalContext.getContext().setObject('context', this.context);
-    AppStorage.setOrCreate('want', want);
-  }
+    AppStorage.setOrCreate<Want>('want', want);
 
-  async onWindowStageCreate(windowStage: Window.WindowStage): Promise<void> {
+  }
+   onWindowStageCreate(windowStage: Window.WindowStage): void {
     // Main window is created, set main page for this ability
-    windowStage.loadContent('pages/Index', (err, data: void) => {
-      if (err.code) {
-        Logger.error('Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
-        return;
-      }
-      Logger.info('Succeeded in loading the content. Data: %{public}s', JSON.stringify(data) ?? '');
-    });
+     windowStage.loadContent('pages/Index', (err: BusinessError<void>|null) => {
+       if (err && err && err.code) {
+         Logger.error('Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
+         return;
+       }
+     });
 
     let atManager: abilityAccessCtrl.AtManager = abilityAccessCtrl.createAtManager();
     await atManager.requestPermissionsFromUser(this.context, ['ohos.permission.DISTRIBUTED_DATASYNC']);

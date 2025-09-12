@@ -15,7 +15,7 @@
  */
 
 import deviceManager from '@ohos.distributedDeviceManager';
-import Logger from '../model/Logger'
+import Logger from './Logger'
 import { BUNDLE } from '../model/RdbConst'
 import { BusinessError } from '@ohos.base';
 
@@ -30,11 +30,11 @@ class Data {
   }
 }
 class RemoteDeviceModel {
-  public deviceList: Array<deviceManager.DeviceBasicInfo> = [];
-  public discoverList: Array<deviceManager.DeviceBasicInfo> = [];
+  public deviceList: Array<deviceManager.DeviceBasicInfo> = new Array<deviceManager.DeviceBasicInfo>();
+  public discoverList: Array<deviceManager.DeviceBasicInfo> = new Array<deviceManager.DeviceBasicInfo>();
   private callback: () => void = () => {};
-  private authCallback: (device: deviceManager.DeviceBasicInfo) => void = (device: deviceManager.DeviceBasicInfo) => '';
-  private deviceManager: deviceManager.DeviceManager | undefined = undefined
+  private authCallback: (device: deviceManager.DeviceBasicInfo) => void = (device: deviceManager.DeviceBasicInfo) => {};
+  private deviceManager: deviceManager.DeviceManager =deviceManager.createDeviceManager(BUNDLE);
 
   registerDeviceListCallback(callback: () => void) {
     if (typeof (this.deviceManager) !== 'undefined') {
@@ -55,7 +55,7 @@ class RemoteDeviceModel {
   }
 
   deviceStateChangeActionOnline(device: deviceManager.DeviceBasicInfo) {
-    this.deviceList[this.deviceList.length] = device
+    this.deviceList[this.deviceList.length as int] = device
     Logger.info(TAG, `online, device list=${JSON.stringify(this.deviceList)}`)
     if (this.authCallback !== undefined) {
       this.authCallback(device)
@@ -68,7 +68,7 @@ class RemoteDeviceModel {
       this.callback()
       return
     }
-    let list: Array<deviceManager.DeviceBasicInfo> = new Array()
+    let list: Array<deviceManager.DeviceBasicInfo> = new Array<deviceManager.DeviceBasicInfo>()
     for (let i: int = 0; i < this.deviceList.length; i++) {
       if (this.deviceList[i].deviceId !== device.deviceId) {
         list[i] = device
@@ -96,7 +96,7 @@ class RemoteDeviceModel {
   getLocalDevice(): string {
     Logger.info(TAG, `getLocalDevice`);
     if(this.deviceManager != undefined) {
-      let deviceId: string = this.deviceManager.getLocalDeviceId();
+      let deviceId: string = this.deviceManager? this.deviceManager.getLocalDeviceId() : '';
       Logger.info(TAG, `local deviceInfo=${JSON.stringify(deviceId)}`);
       return deviceId;
     }
@@ -112,11 +112,11 @@ class RemoteDeviceModel {
       return
     }
     Logger.info(TAG, 'getTrustedDeviceListSync begin' + JSON.stringify(this.deviceManager));
-    let list = this.deviceManager.getAvailableDeviceListSync();
-    Logger.info(TAG, `getTrustedDeviceListSync end, deviceList=${JSON.stringify(list)}`)
-    if (typeof (list) !== 'undefined' && typeof (list.length) !== 'undefined') {
-      this.deviceList = list
-    }
+    // let list = this.deviceManager.getAvailableDeviceListSync();
+    // Logger.info(TAG, `getTrustedDeviceListSync end, deviceList=${JSON.stringify(list)}`)
+    // if (typeof (list) !== 'undefined' && typeof (list.length) !== 'undefined') {
+    //   this.deviceList = list
+    // }
     this.callback()
     Logger.info(TAG, 'callback finished')
     this.deviceManager.on('deviceStateChange', (data) => {
@@ -138,7 +138,7 @@ class RemoteDeviceModel {
           break
       }
     })
-    this.deviceManager.on('discoverSuccess', (data: Data) => {
+    this.deviceManager.on('discoverSuccess', (data: deviceManager.DiscoverySuccessResult) => {
       if (data === null) {
         return
       }
@@ -154,7 +154,7 @@ class RemoteDeviceModel {
     this.startDeviceDiscovery()
   }
 
-  deviceFound(data: Data) {
+  deviceFound(data: deviceManager.DiscoverySuccessResult) {
     if(data != undefined) {
       if (data.device != undefined) {
         for (let i: int = 0; i < this.discoverList.length; i++) {
@@ -163,7 +163,7 @@ class RemoteDeviceModel {
             return
           }
         }
-        this.discoverList[this.discoverList.length] = data.device
+        this.discoverList[this.discoverList.length as int] = data.device
         Logger.info(TAG, `deviceFound self.discoverList=${JSON.stringify(this.discoverList)}`);
         this.callback()
       }
@@ -180,7 +180,7 @@ class RemoteDeviceModel {
     Logger.info(TAG, `startDeviceDiscovery${SUBSCRIBE_ID}`);
     try {
       if(this.deviceManager != undefined) {
-        this.deviceManager.startDiscovering(discoverParam, filterOptions);
+        // this.deviceManager.startDiscovering(discoverParam, filterOptions);
       }
     } catch (error) {
       Logger.error(TAG, `startDeviceDiscovery throw error, code: ${(error as BusinessError).code} message: ${(error as BusinessError).message}`);
@@ -190,14 +190,14 @@ class RemoteDeviceModel {
   unregisterDeviceListCallback() {
     if(this.deviceManager != undefined) {
       Logger.info(TAG, `stopDeviceDiscovery${SUBSCRIBE_ID}`);
-      this.deviceManager.stopDiscovering();
+      // this.deviceManager.stopDiscovering();
       this.deviceManager.off('deviceStateChange');
       this.deviceManager.off('discoverSuccess');
       this.deviceManager.off('discoverFailure');
       this.deviceManager.off('serviceDie');
     }
-    this.deviceList = [];
-    this.discoverList = [];
+    this.deviceList = new Array<deviceManager.DeviceBasicInfo>();
+    this.discoverList = new Array<deviceManager.DeviceBasicInfo>();
   }
 
   authenticateDevice(device: deviceManager.DeviceBasicInfo, callBack: (device: deviceManager.DeviceBasicInfo) => void) {
@@ -211,21 +211,21 @@ class RemoteDeviceModel {
       }
       try {
         if (this.deviceManager !== null) {
-          this.deviceManager.bindTarget(device.deviceId, {
-            bindLevel: 3,
-            bindType: 1,
-            targetPkgName: BUNDLE,
-            appName: 'Distributed distributedrdb',
-          }, (err, data) => {
-            if (err) {
-              Logger.error(TAG, `authenticateDevice throw error, code: ${(err as BusinessError).code} message: ${(err as BusinessError).message}`);
-              this.authCallback = () => {
-              }
-              return
-            }
-            Logger.debug(TAG, `authenticateDevice succeed: ${JSON.stringify(data)}`);
-            this.authCallback = callBack;
-          })
+          // this.deviceManager.bindTarget(device.deviceId, {
+          //   bindLevel: 3,
+          //   bindType: 1,
+          //   targetPkgName: BUNDLE,
+          //   appName: 'Distributed distributedrdb',
+          // }, (err, data) => {
+          //   if (err) {
+          //     Logger.error(TAG, `authenticateDevice throw error, code: ${(err as BusinessError).code} message: ${(err as BusinessError).message}`);
+          //     this.authCallback = () => {
+          //     }
+          //     return
+          //   }
+          //   Logger.debug(TAG, `authenticateDevice succeed: ${JSON.stringify(data)}`);
+          //   this.authCallback = callBack;
+          // })
         }
       } catch (error) {
         Logger.error(TAG, `authenticateDevice throw error, code: ${(error as BusinessError).code} message: ${(error as BusinessError).message}`);

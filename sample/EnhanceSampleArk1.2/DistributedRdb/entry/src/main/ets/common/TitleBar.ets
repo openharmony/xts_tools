@@ -21,18 +21,20 @@ import {
   Row,
   Image,
   ImageFit,
-  getUIContext,
   Text,
   Color,
   Blank,
+  ClickEvent,
+  Padding,
 } from '@kit.ArkUI';
 
 import router from '@ohos.router';
+import { UIContext } from '@ohos.arkui.UIContext';
 
 @Component
 export struct TitleBar {
   private title: string | Resource = $r('app.string.module_desc');
-  private rightBtn: Resource | null = null;
+  private rightBtn: Resource | string = '';
   private handleRightBtn: () => void = () => {};
   private hasBackPress: boolean = false;
 
@@ -42,8 +44,8 @@ export struct TitleBar {
         Image($r('app.media.ic_back'))
           .width(50).height('100%')
           .objectFit(ImageFit.Contain)
-          .onClick(() => {
-            getUIContext().getRouter().back();
+          .onClick((event: ClickEvent) => {
+            this.getUIContext().getRouter().back();
           })
       }
 
@@ -65,7 +67,7 @@ export struct TitleBar {
     .width('100%')
     .height('8%')
     .constraintSize({ minHeight: 70 })
-    .padding({ left: 10, right: 10 })
+    .padding({ left: 10, right: 10 } as Padding)
     .backgroundColor('#0D9FFB')
   }
 }

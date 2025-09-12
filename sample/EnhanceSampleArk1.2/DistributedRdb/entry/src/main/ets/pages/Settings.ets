@@ -18,7 +18,6 @@ import {
   Entry,
   Component,
   State,
-  getUIContext,
   Builder,
   Resource,
   Row,
@@ -29,6 +28,7 @@ import {
   ToggleType,
   Color,
   $r,
+  Margin,
 } from '@kit.ArkUI';
 
 import common from '@ohos.app.ability.common';
@@ -43,7 +43,7 @@ const TAG: string = 'Settings';
 @Component
 struct Settings {
   @State syncState: string = SyncState.ManualSync;
-  private liteStore = new LiteStore('sync_state', getUIContext().getHostContext(this) as common.UIAbilityContext);
+  private liteStore: LiteStore = new LiteStore('sync_state', this.getUIContext().getHostContext() as common.UIAbilityContext);
 
   aboutToAppear() {
     this.liteStore.getValue().then((value) => {
@@ -66,7 +66,7 @@ struct Settings {
     }
     .width('95%')
     .padding(16)
-    .margin({ top: 10 })
+    .margin({ top: 10 } as Margin)
     .backgroundColor(Color.White)
     .borderRadius(16)
   }
