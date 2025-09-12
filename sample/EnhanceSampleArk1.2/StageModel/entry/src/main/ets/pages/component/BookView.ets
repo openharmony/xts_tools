@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+
 import {
   Component,
   Link,
@@ -31,6 +32,8 @@ import {
   Button,
   ButtonType,
   Circle,
+  Margin,
+  Padding
 } from '@kit.ArkUI';
 
 import DataShareResultSet from '@ohos.data.DataShareResultSet'
@@ -42,8 +45,8 @@ const TAG = 'bookView'
 
 @Component
 export struct BookView {
-  @Link books: Array<BookModel>;
-  // @Link books: BookModel[];
+  // @Link books: Array<BookModel>;
+  @Link books: BookModel[];
   private book: BookModel = new BookModel();
 
   build() {
@@ -57,19 +60,19 @@ export struct BookView {
           Text(this.book.name)
             .fontColor(Color.Black)
             .fontSize(22)
-            .margin({ top: 14 })
+            .margin({ top: 14 } as Margin)
             .fontWeight(FontWeight.Bold)
           Text(this.book.introduction)
             .fontColor(Color.Grey)
             .fontSize(20)
-            .margin({ top: 10 })
+            .margin({ top: 10 } as Margin)
         }
       }
       .height('100%')
       .layoutWeight(1)
-      .margin({ left: 12 })
+      .margin({ left: 12 } as Margin)
 
-      Button() {
+      Button('') {
         Image($r('app.media.delete'))
           .height(50)
           .width(50)
@@ -79,20 +82,34 @@ export struct BookView {
       .height(80)
       .width(80)
       .backgroundColor('#F5F5F5')
-      .onClick(() => {
+      .onClick((): void => {
         Logger.info(TAG, 'deleteBook start')
         this.delete()
       })
     }
     .width('100%')
     .height('100%')
-    .padding({ left: 15, right: 15 })
+    .padding({ left: 15, right: 15 } as Padding)
   }
 
-  async delete(){
-    let data: Promise<DataShareResultSet> = await DateShareHelper.deleteBook(this.book);
-    if (data !== undefined) {
-      this.books = getBooksFromResultSet(data);
+  async delete() {
+    try {
+      await DateShareHelper.deleteBook(this.book);
+      await this.refreshBooks();
+    } catch (error) {
+      console.error('Delete failed:', error);
+    }
+  }
+
+  // 添加刷新方法
+  async refreshBooks() {
+    let context = this.getUIContext()?.getHostContext();
+    if (context) {
+      await DateShareHelper.getDataShareHelper(context);
+      let data = await DateShareHelper.queryAll();
+      if (data) {
+        this.books = getBooksFromResultSet(data as DataShareResultSet);
+      }
     }
   }
 }

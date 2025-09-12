@@ -28,6 +28,7 @@ import {
   Blank,
   Row,
   TextAlign,
+  Margin
 } from '@kit.ArkUI';
 
 import DataShareResultSet from '@ohos.data.DataShareResultSet';
@@ -49,15 +50,15 @@ export struct UpdateDataDialog {
       Text($r('app.string.book_name'))
         .fontWeight(FontWeight.Bold)
         .fontSize(22)
-        .margin({ top: 20 })
+        .margin({ top: 20 } as Margin)
         .fontColor(Color.Black)
       TextInput({ placeholder: 'input name', text: this.book.name })
         .id('bookNameInput')
         .type(InputType.Normal)
         .placeholderColor(Color.Gray)
         .fontSize(19)
-        .margin({ top: 10, left: 12, right: 12 })
-        .onChange((value: string) => {
+        .margin({ top: 10, left: 12, right: 12 } as Margin)
+        .onChange((value: string): void => {
           this.book.name = value;
         })
 
@@ -65,14 +66,14 @@ export struct UpdateDataDialog {
         .fontWeight(FontWeight.Bold)
         .fontSize(22)
         .fontColor(Color.Black)
-        .margin({ top: 20 })
+        .margin({ top: 20 } as Margin)
       TextInput({ placeholder: 'input introduction', text: this.book.introduction })
         .id('bookNameIntro')
         .type(InputType.Normal)
         .placeholderColor(Color.Gray)
         .fontSize(20)
-        .margin({ left: 12, right: 12, top: 10 })
-        .onChange((value: string) => {
+        .margin({ left: 12, right: 12, top: 10 } as Margin)
+        .onChange((value: string): void => {
           this.book.introduction = value;
         })
 
@@ -83,14 +84,14 @@ export struct UpdateDataDialog {
           .fontSize(21)
           .layoutWeight(1)
           .textAlign(TextAlign.Center)
-          .onClick(() => {
+          .onClick((): void => {
             this.controller?.close()
           })
         Text($r('app.string.ok'))
           .fontSize(21)
           .layoutWeight(1)
           .textAlign(TextAlign.Center)
-          .onClick(() => {
+          .onClick((): void => {
             this.update();
           })
       }
@@ -102,8 +103,28 @@ export struct UpdateDataDialog {
 
   async update() {
     Logger.info(TAG, 'updateBook start');
-    let data: Promise<DataShareResultSet> = await DateShareHelper.updateBook(this.book);
-    this.books = getBooksFromResultSet(data);
-    this.controller?.close();
+    try {
+      // 执行更新操作
+      await DateShareHelper.updateBook(this.book);
+
+      // 更新成功后重新加载所有数据
+      await this.refreshBooks();
+      this.controller?.close();
+    } catch (error) {
+      Logger.error(TAG, 'Update book failed: ' + error);
+      this.controller?.close();
+    }
+  }
+
+  // 刷新数据方法
+  async refreshBooks() {
+    let context = this.getUIContext()?.getHostContext();
+    if (context) {
+      await DateShareHelper.getDataShareHelper(context);
+      let resultSet = await DateShareHelper.queryAll();
+      if (resultSet) {
+        this.books = getBooksFromResultSet(resultSet as DataShareResultSet);
+      }
+    }
   }
 }

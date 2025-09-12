@@ -21,19 +21,21 @@ import {
   Column,
   $r,
   Button,
-  getUIContext,
   ButtonAttribute,
   ClickEvent,
   Alignment,
+  Margin,
+  Padding
 } from '@kit.ArkUI';
 
 import FormExContextController from '../feature/FormExtContextController'
 import { PublicTitleBar } from './component/PublicTitleBar'
+import { common } from '@kit.AbilityKit';
 
 @Entry
 @Component
 struct FormExContextPage {
-  private formExContext: FormExContextController = new FormExContextController()
+  private formExContext: FormExContextController = new FormExContextController(this.getUIContext())
 
   build() {
     Row() {
@@ -42,7 +44,7 @@ struct FormExContextPage {
         Column() {
           Button($r("app.string.start_ability"))
             .fancy(() => {
-              this.formExContext.startAbility(getUIContext().getHostContext(this))
+              this.formExContext.startAbility(this.getUIContext().getHostContext() as common.UIAbilityContext)
             })
         }
       }
@@ -52,7 +54,7 @@ struct FormExContextPage {
     .width('100%')
     .height('100%')
     .backgroundColor('#F1F3F5')
-    .padding({ left: '3%', right: '3%' })
+    .padding({ left: '3%', right: '3%' } as Padding)
   }
 }
 
@@ -60,7 +62,7 @@ function fancy(this: ButtonAttribute, click: (event?: ClickEvent) => void): this
     this.width('60%');
     this.height(40);
     this.align(Alignment.Center);
-    this.margin({ top: 30 });
+    this.margin({ top: 30 } as Margin);
     this.onClick(click);
     return this;
 }

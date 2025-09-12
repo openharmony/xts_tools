@@ -24,15 +24,31 @@ import {
   ButtonAttribute,
   ClickEvent,
   Alignment,
+  Margin
 } from '@kit.ArkUI';
 
 import BundleController from '../feature/BundleController'
 import { PublicTitleBar } from './component/PublicTitleBar'
+import common from '@ohos.app.ability.common'
 
 @Entry
 @Component
 struct BundlePage {
-  private bundles: BundleController = new BundleController()
+  private bundles: BundleController| null = null
+
+  aboutToAppear(){
+    try {
+      const uiContext = this.getUIContext();
+      if (uiContext) {
+        const context = uiContext.getHostContext() as common.UIAbilityContext;
+        this.bundles = new BundleController(context, uiContext)
+      } else {
+        console.error('UIContext is undefined')
+      }
+    } catch (err) {
+      console.error('Failed to initialize controller:', err)
+    }
+  }
 
   build() {
     Column() {
@@ -41,33 +57,33 @@ struct BundlePage {
         Column() {
           Button($r('app.string.get_application_info'))
             .fancy(() => {
-              this.bundles.getApplicationInfo()
+              this.bundles?.getApplicationInfo()
             })
 
           Button($r('app.string.entity_type'))
             .fancy(() => {
-              this.bundles.entityType()
+              this.bundles?.entityType()
             })
 
           Button($r('app.string.process'))
             .fancy(() => {
-              this.bundles.process()
+              this.bundles?.process()
             })
 
           Button($r('app.string.entry_dir'))
             .fancy(() => {
-              this.bundles.entryDir()
+              this.bundles?.entryDir()
             })
 
           Button($r('app.string.get_dispatcher_version'))
             .fancy(() => {
-              this.bundles.getDispatcherVersion()
+              this.bundles?.getDispatcherVersion()
             })
 
           // 获取当前ability的ohos.bundle.ElementName对象,对应FA的getElementName()
           Button($r('app.string.get_ability_info'))
             .fancy(() => {
-              this.bundles.getAbilityInfo()
+              this.bundles?.getAbilityInfo()
             })
         }
         .width('100%')
@@ -79,10 +95,10 @@ struct BundlePage {
 }
 
 function fancy(this: ButtonAttribute, click: (event?: ClickEvent) => void): this {
-    this.width('60%');
-    this.height(40);
-    this.align(Alignment.Center);
-    this.margin({ top: 30 });
-    this.onClick(click);
-    return this;
+  this.width('60%');
+  this.height(40);
+  this.align(Alignment.Center);
+  this.margin({ top: 30 } as Margin);
+  this.onClick(click);
+  return this;
 }

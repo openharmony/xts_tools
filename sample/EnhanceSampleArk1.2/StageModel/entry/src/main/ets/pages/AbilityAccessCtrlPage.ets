@@ -23,15 +23,33 @@ import {
   ButtonAttribute,
   ClickEvent,
   Alignment,
+  Margin,
+  Padding
 } from '@kit.ArkUI';
 
 import AbilityAccessCtrlController from '../feature/AbilityAccessCtrlController'
 import { PublicTitleBar } from './component/PublicTitleBar'
+import  common  from '@ohos.app.ability.common'
+import { UIContext } from '@ohos.arkui.UIContext'
 
 @Entry
 @Component
 struct AbilityAccessCtrlPage {
-  private abilityAccessCtrl: AbilityAccessCtrlController = new AbilityAccessCtrlController()
+  private abilityAccessCtrl: AbilityAccessCtrlController | null = null
+
+  aboutToAppear(){
+    try {
+      const uiContext = this.getUIContext();
+      if (uiContext) {
+        const context = uiContext.getHostContext() as common.UIAbilityContext;
+        this.abilityAccessCtrl = new AbilityAccessCtrlController(context, uiContext)
+      } else {
+        console.error('UIContext is undefined')
+      }
+    } catch (err) {
+      console.error('Failed to initialize controller:', err)
+    }
+  }
 
   build() {
     Column() {
@@ -39,7 +57,7 @@ struct AbilityAccessCtrlPage {
       Column() {
         Button($r('app.string.verify_access_token'))
           .fancy(() => {
-            this.abilityAccessCtrl.verifyAccessToken()
+            this.abilityAccessCtrl?.verifyAccessToken()
           })
       }
       .width('100%')
@@ -48,15 +66,15 @@ struct AbilityAccessCtrlPage {
     .width('100%')
     .height('100%')
     .backgroundColor('#F1F3F5')
-    .padding({ left: '3%', right: '3%' })
+    .padding({ left: '3%', right: '3%' } as Padding)
   }
 }
 
 function fancy(this: ButtonAttribute, click: (event?: ClickEvent) => void): this {
-    this.width('60%');
-    this.height(40);
-    this.align(Alignment.Center);
-    this.margin({ top: 30 });
-    this.onClick(click);
-    return this;
+  this.width('60%');
+  this.height(40);
+  this.align(Alignment.Center);
+  this.margin({ top: 30 } as Margin);
+  this.onClick(click);
+  return this;
 }

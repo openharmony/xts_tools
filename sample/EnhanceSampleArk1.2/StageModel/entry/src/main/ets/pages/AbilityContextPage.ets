@@ -17,7 +17,6 @@
 import {
   Entry,
   Component,
-  getUIContext,
   Column,
   $r,
   Scroll,
@@ -25,6 +24,8 @@ import {
   ButtonAttribute,
   ClickEvent,
   Alignment,
+  Margin,
+  Padding
 } from '@kit.ArkUI';
 
 import prompt from '@ohos.prompt'
@@ -35,8 +36,22 @@ import { PublicTitleBar } from './component/PublicTitleBar'
 @Entry
 @Component
 struct AbilityContextPage {
-  private appContext: common.UIAbilityContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
-  private abilityContext: AbilityContextController = new AbilityContextController(this.appContext);
+  private appContext: common.UIAbilityContext = this.getUIContext().getHostContext() as common.UIAbilityContext;
+  private abilityContext: AbilityContextController | null = null
+
+  aboutToAppear(){
+    try {
+      const uiContext = this.getUIContext();
+      if (uiContext) {
+        const context = uiContext.getHostContext() as common.UIAbilityContext;
+        this.abilityContext = new AbilityContextController(context, uiContext)
+      } else {
+        console.error('UIContext is undefined')
+      }
+    } catch (err) {
+      console.error('Failed to initialize controller:', err)
+    }
+  }
 
   build() {
     Column() {
@@ -45,73 +60,73 @@ struct AbilityContextPage {
         Column() {
           Button($r('app.string.start_ability'))
             .fancy(() => {
-              this.abilityContext.startAbility()
+              this.abilityContext?.startAbility()
             })
           Button($r('app.string.start_ability_forResult'))
             .fancy(() => {
-              this.abilityContext.startAbilityForResult()
+              this.abilityContext?.startAbilityForResult()
             })
           Button($r('app.string.start_ability_for_result_with_account'))
             .fancy(() => {
-              this.abilityContext.startAbilityForResultWithAccount()
+              this.abilityContext?.startAbilityForResultWithAccount()
             })
           Button($r('app.string.start_service_extension_ability'))
             .fancy(() => {
-              this.abilityContext.startServiceExtensionAbility()
+              this.abilityContext?.startServiceExtensionAbility()
             })
           Button($r('app.string.start_service_extension_ability_with_account'))
             .fancy(() => {
-              this.abilityContext.startServiceExtensionAbilityWithAccount()
+              this.abilityContext?.startServiceExtensionAbilityWithAccount()
             })
           Button($r('app.string.stop_service_extension_ability'))
             .fancy(() => {
-              this.abilityContext.stopServiceExtensionAbility()
+              this.abilityContext?.stopServiceExtensionAbility()
             })
           Button($r('app.string.stop_service_extension_ability_with_account'))
             .fancy(() => {
-              this.abilityContext.stopServiceExtensionAbilityWithAccount()
+              this.abilityContext?.stopServiceExtensionAbilityWithAccount()
             })
           Button($r('app.string.terminate_self'))
             .fancy(() => {
-              this.abilityContext.terminateSelf()
+              this.abilityContext?.terminateSelf()
             })
           Button($r('app.string.terminate_self_with_result'))
             .fancy(() => {
-              this.abilityContext.terminateSelfWithResult()
+              this.abilityContext?.terminateSelfWithResult()
             })
           Button($r('app.string.connect_ability'))
             .fancy(() => {
-              this.abilityContext.connectAbility()
+              this.abilityContext?.connectAbility()
             })
           Button($r('app.string.connect_ability_with_account'))
             .fancy(() => {
-              this.abilityContext.connectAbilityWithAccount()
+              this.abilityContext?.connectAbilityWithAccount()
             })
           Button($r('app.string.disconnect_ability'))
             .fancy(() => {
-              this.abilityContext.disconnectAbility()
+              this.abilityContext?.disconnectAbility()
             })
           Button($r('app.string.start_ability_with_account'))
             .fancy(() => {
-              this.abilityContext.startAbilityWithAccount()
+              this.abilityContext?.startAbilityWithAccount()
             })
           Button($r('app.string.request_permissions_from_user'))
             .fancy(() => {
-              this.abilityContext.requestPermissionsFromUser()
+              this.abilityContext?.requestPermissionsFromUser()
             })
           Button($r('app.string.set_mission_label'))
             .fancy(() => {
-              this.abilityContext.setMissionLabel()
+              this.abilityContext?.setMissionLabel()
             })
           Button($r('app.string.is_terminating'))
             .fancy(() => {
-              this.abilityContext.isTerminating()
+              this.abilityContext?.isTerminating()
             })
 
           // 指示有关能力的配置信息,对应FA模型的getAbilityInfo方法
           Button($r('app.string.ability_info'))
             .fancy(() => {
-              this.appContext.abilityInfo
+              // this.appContext.abilityInfo
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.abilityInfo)}`
               })
@@ -120,7 +135,7 @@ struct AbilityContextPage {
           // 指示有关模块的配置信息,对应FA模型的getHapModuleInfo()方法
           Button($r('app.string.current_hap_module_info'))
             .fancy(() => {
-              this.appContext.currentHapModuleInfo
+              // this.appContext.currentHapModuleInfo
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.currentHapModuleInfo)}`
               })
@@ -129,7 +144,7 @@ struct AbilityContextPage {
           // 指示配置信息。
           Button($r('app.string.config'))
             .fancy(() => {
-              this.appContext.config
+              // this.appContext.config
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.config)}`
               })
@@ -138,7 +153,7 @@ struct AbilityContextPage {
           // 指示访问应用程序资源的能力。
           Button($r('app.string.resource_manager'))
             .fancy(() => {
-              this.appContext.resourceManager
+              // this.appContext.resourceManager
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.resourceManager)}`
               })
@@ -147,7 +162,7 @@ struct AbilityContextPage {
           // 指示有关应用程序的配置信息。
           Button($r('app.string.application_info'))
             .fancy(() => {
-              this.appContext.applicationInfo
+              // this.appContext.applicationInfo
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.applicationInfo)}`
               })
@@ -156,7 +171,7 @@ struct AbilityContextPage {
           // 指示应用缓存目录，对应FA模型appContext下的getCacheDir()方法
           Button($r('app.string.cache_dir'))
             .fancy(() => {
-              this.appContext.cacheDir
+              // this.appContext.cacheDir
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.cacheDir)}`
               })
@@ -165,7 +180,7 @@ struct AbilityContextPage {
           // 指示应用程序临时目录。
           Button($r('app.string.temp_dir'))
             .fancy(() => {
-              this.appContext.tempDir
+              // this.appContext.tempDir
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.tempDir)}`
               })
@@ -174,7 +189,7 @@ struct AbilityContextPage {
           // 指示应用程序文件目录,对应FA模型的getFilesDir()方法
           Button($r('app.string.files_dir'))
             .fancy(() => {
-              this.appContext.filesDir
+              // this.appContext.filesDir
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.filesDir)}`
               })
@@ -183,7 +198,7 @@ struct AbilityContextPage {
           // 指示应用程序数据库目录。
           Button($r('app.string.database_dir'))
             .fancy(() => {
-              this.appContext.databaseDir
+              // this.appContext.databaseDir
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.databaseDir)}`
               })
@@ -192,7 +207,7 @@ struct AbilityContextPage {
           // 指示应用程序首选项目录。
           Button($r('app.string.preferences_dir'))
             .fancy(() => {
-              this.appContext.preferencesDir
+              // this.appContext.preferencesDir
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.preferencesDir)}`
               })
@@ -201,7 +216,7 @@ struct AbilityContextPage {
           // 指示应用程序分发文件目录,对应FA模型的getOrCreateDistributedDir()方法
           Button($r('app.string.distributed_files_dir'))
             .fancy(() => {
-              this.appContext.distributedFilesDir
+              // this.appContext.distributedFilesDir
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.distributedFilesDir)}`
               })
@@ -210,16 +225,16 @@ struct AbilityContextPage {
           // 指示当前设备的屏幕方向。对应FA的getDisplayOrientation()
           Button($r('app.string.direction'))
             .fancy(() => {
-              this.appContext.config.direction
+              // this.appContext.config.direction
               this.getUIContext().getPromptAction().showToast({
-                message: `${JSON.stringify(this.appContext.config.direction)}`
+                message: `${this.appContext.config.direction}`
               })
             })
 
           // 指示文件区域。
           Button($r('app.string.area'))
             .fancy(() => {
-              this.appContext.area
+              // this.appContext.area
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.area)}`
               })
@@ -228,7 +243,7 @@ struct AbilityContextPage {
           // 指示上下文是FA模式或阶段模式。
           Button($r('app.string.stage_mode'))
             .fancy(() => {
-              this.appContext.stageMode
+              // this.appContext.stageMode
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.stageMode)}`
               })
@@ -237,7 +252,7 @@ struct AbilityContextPage {
           // 获取应用上下文信息,对应FA模型的getApplicationContext()方法
           Button($r('app.string.get_application_context'))
             .fancy(() => {
-              this.appContext.getApplicationContext()
+              // this.appContext.getApplicationContext()
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.getApplicationContext())}`
               })
@@ -246,7 +261,7 @@ struct AbilityContextPage {
           // 获取当前ability的捆绑包名称,对应FA模型的getBundleName()
           Button($r('app.string.bundle_name'))
             .fancy(() => {
-              this.appContext.abilityInfo.bundleName
+              // this.appContext.abilityInfo.bundleName
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.abilityInfo.bundleName)}`
               })
@@ -255,7 +270,7 @@ struct AbilityContextPage {
           // 获取有关当前进程的信息，包括进程名称,对应FA模型的getProcessInfo()
           Button($r('app.string.description_id'))
             .fancy(() => {
-              this.appContext.abilityInfo.descriptionId
+              // this.appContext.abilityInfo.descriptionId
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.abilityInfo.descriptionId)}`
               })
@@ -264,7 +279,7 @@ struct AbilityContextPage {
           // 获取有关当前进程的信息，包括进程ID,对应FA模型的getProcessInfo()
           Button($r('app.string.name'))
             .fancy(() => {
-              this.appContext.abilityInfo.name
+              // this.appContext.abilityInfo.name
               this.getUIContext().getPromptAction().showToast({
                 message: `${JSON.stringify(this.appContext.abilityInfo.name)}`
               })
@@ -278,20 +293,16 @@ struct AbilityContextPage {
     .width('100%')
     .height('100%')
     .backgroundColor('#F1F3F5')
-    .padding({ left: '3%', right: '3%' })
+    .padding({ left: '3%', right: '3%' } as Padding)
   }
 
-  aboutToAppear() {
-    this.appContext = getUIContext().getHostContext(this) as common.UIAbilityContext;
-    this.abilityContext = new AbilityContextController(this.appContext);
-  }
 }
 
 function fancy(this: ButtonAttribute, click: (event?: ClickEvent) => void): this {
-    this.width('60%');
-    this.height(40);
-    this.align(Alignment.Center);
-    this.margin({ top: 30 });
-    this.onClick(click);
-    return this;
+  this.width('60%');
+  this.height(40);
+  this.align(Alignment.Center);
+  this.margin({ top: 30 } as Margin);
+  this.onClick(click);
+  return this;
 }

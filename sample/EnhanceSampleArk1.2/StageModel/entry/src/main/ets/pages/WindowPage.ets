@@ -21,10 +21,10 @@ import {
   $r,
   Scroll,
   Button,
-  getUIContext,
   ButtonAttribute,
   ClickEvent,
   Alignment,
+  Margin
 } from '@kit.ArkUI';
 
 import WindowController from '../feature/WindowController'
@@ -33,7 +33,7 @@ import { PublicTitleBar } from './component/PublicTitleBar'
 @Entry
 @Component
 struct WindowPage {
-  private windows: WindowController = new WindowController()
+  private windows: WindowController = new WindowController(this.getUIContext())
 
   build() {
     Column() {
@@ -42,7 +42,7 @@ struct WindowPage {
         Column() {
           Button($r('app.string.set_wake_up_screen'))
             .fancy(() => {
-              this.windows.setWakeUpScreen(getUIContext().getHostContext(this))
+              this.windows.setWakeUpScreen(this.getUIContext().getHostContext())
             })
 
           Button($r('app.string.set_preferred_orientation'))
@@ -52,7 +52,7 @@ struct WindowPage {
 
           Button($r('app.string.get_top_window'))
             .fancy(() => {
-              this.windows.getTopWindow(getUIContext().getHostContext(this))
+              this.windows.getTopWindow(this.getUIContext().getHostContext())
             })
         }
         .width('100%')
@@ -64,10 +64,10 @@ struct WindowPage {
 }
 
 function fancy(this: ButtonAttribute, click: (event?: ClickEvent) => void): this {
-    this.width('60%');
-    this.height(40);
-    this.align(Alignment.Center);
-    this.margin({ top: 30 });
-    this.onClick(click);
-    return this;
+  this.width('60%');
+  this.height(40);
+  this.align(Alignment.Center);
+  this.margin({ top: 30 } as Margin);
+  this.onClick(click);
+  return this;
 }

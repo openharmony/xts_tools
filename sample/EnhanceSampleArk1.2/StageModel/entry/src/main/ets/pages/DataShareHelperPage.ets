@@ -21,9 +21,10 @@ import {
   $r,
   Scroll,
   Button,
-  getUIContext,
   ButtonAttribute,
   Alignment,
+  Margin,
+  Padding
 } from '@kit.ArkUI';
 
 import DateShareHelper from '../feature/DataShareHelper'
@@ -56,20 +57,21 @@ struct DataShareHelperPage {
     .width('100%')
     .height('100%')
     .backgroundColor('#F1F3F5')
-    .padding({ left: '3%', right: '3%' })
+    .padding({ left: '3%', right: '3%' } as Padding)
   }
 
-  async aboutToAppear() {
-    let context = getUIContext().getHostContext(this)
-    await DateShareHelper.getDataShareHelper(context)
+  aboutToAppear() {
+    let context = this.getUIContext().getHostContext()
+    // await DateShareHelper.getDataShareHelper(context)
+    DateShareHelper.getDataShareHelper(context)
   }
 }
 
 function fancy(this: ButtonAttribute, handleClick: () => void): this {
-    this.width('60%');
-    this.height(40);
-    this.align(Alignment.Center);
-    this.margin({ top: 30 });
-    this.onClick(handleClick);
-    return this;
+  this.width('60%');
+  this.height(40);
+  this.align(Alignment.Center);
+  this.margin({ top: 30 } as Margin);
+  this.onClick(handleClick);
+  return this;
 }

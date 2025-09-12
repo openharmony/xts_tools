@@ -24,12 +24,13 @@ import {
   ForEach,
   ListItem,
   Color,
-  getUIContext,
+  Margin
 } from '@kit.ArkUI';
 
 import DateShareHelper from '../feature/DataShareHelper'
 import DataShareResultSet from '@ohos.data.DataShareResultSet'
 import { BookModel, getBooksFromResultSet } from '../feature/BookModel'
+
 import { BookView } from './component/BookView'
 import { TitleBar } from './component/TitleBar'
 import { UpdateDataDialog } from '../pages/component/UpdateDataDialog'
@@ -38,51 +39,73 @@ import { UpdateDataDialog } from '../pages/component/UpdateDataDialog'
 @Component
 struct DataShareExtAbilityPage {
   @State message: string = '';
-  // @State books: Array<BookModel> = [];
-  @State books: BookModel[] = [];
+  @State books: Array<BookModel>|undefined = undefined;
+  // @State books: BookModel[] = [];
   private fileFd: number = 0;
   private dialogController?: CustomDialogController;
 
   build() {
     Column() {
-      TitleBar({ books: this.books })
-      List() {
-          ForEach(this.books, (item: BookModel) => {
+      if(this.books != undefined){
+        TitleBar({ books: this.books as Array<BookModel> })
+        List() {
+          ForEach(this.books as Array<BookModel>, (item: BookModel) => {
             ListItem() {
-              BookView({ book: item, books: this.books })
+              BookView({ book: item, books: this.books as Array<BookModel> })
             }
             .height(90)
             .backgroundColor('#ffffff')
             .borderRadius(20)
-            .onClick(() => {
+            .onClick((): void => {
               if (this.dialogController !== null) {
                 this.dialogController = undefined;
               }
-              this.dialogController = new CustomDialogController({
-                builder: UpdateDataDialog({
-                  book: item,
-                  books: this.books
-                }),
-                autoCancel: true
-              })
-              this.dialogController.open()
+              // this.dialogController = new CustomDialogController({
+              //   builder: UpdateDataDialog({
+              //     book: item,
+              //     books: this.books
+              //   }),
+              //   autoCancel: true
+              // })
+              // this.dialogController?.open()
             })
           }, (item: BookModel) => JSON.stringify(item))
         }
         .width('100%')
         .height('100%')
-        .margin({ bottom: 100 })
+        .margin({ bottom: 100 } as Margin)
         .constraintSize({ minHeight: '100%' })
         .divider({ strokeWidth: 1, color: Color.Gray, startMargin: 10, endMargin: 10 })
+      }
     }
     .width('100%')
     .height('100%')
   }
 
-  async aboutToAppear() {
-    let context = getUIContext().getHostContext(this);
-    await DateShareHelper.getDataShareHelper(context);
-    let data: Promise<DataShareResultSet> = await DateShareHelper.queryAll();
-    this.books = getBooksFromResultSet(data);
+  // aboutToAppear() {
+  //   let context = this.getUIContext().getHostContext();
+  //   // await DateShareHelper.getDataShareHelper(context);
+  //   DateShareHelper.getDataShareHelper(context);
+  //   // let data: Promise<DataShareResultSet> = await DateShareHelper.queryAll();
+  //   let data = DateShareHelper.queryAll();
+  //   this.books = getBooksFromResultSet(data);
+  // }
+  aboutToAppear() {
+    this.aboutToAppearDo();
+  }
+  async aboutToAppearDo() {
+    let context = this.getUIContext().getHostContext();
+    try{
+      await DateShareHelper.getDataShareHelper(context);
+      let data = await DateShareHelper.queryAll();
+      if (data) {
+        this.books = getBooksFromResultSet(data as DataShareResultSet);
+      } else {
+        this.books = [];
+      }
+    }catch(err){
+
+    }
+
   }
 }
