@@ -34,7 +34,7 @@ export async function adjustOpacity(pixelMap: image.PixelMap, value: number): Pr
   const newPixelMap = pixelMap;
   await newPixelMap.opacity(value / 100.0).then(() => {
     hilog.info(0x0000, TAG, '%{public}s', 'Success in setting opacity.');
-  }).catch((err: BusinessError) => {
+  }).catch((err:Error) => {
     hilog.error(0x0000, TAG, '%{public}s', `Failed to set opacity: ${JSON.stringify(err.message)}`);
   })
 

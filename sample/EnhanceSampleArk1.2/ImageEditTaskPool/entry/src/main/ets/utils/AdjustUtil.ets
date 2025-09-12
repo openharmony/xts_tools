@@ -1,11 +1,11 @@
 'use static'
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
- * Licensed under the Apache License, Version 2.0 (the "License");
+ * Copyright (c) 2024 Huawei Device Co., Ltd.
+ * Licensed under the Apache License,Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *     http://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -14,26 +14,52 @@
  * limitations under the License.
  */
 
-import { MessageEvents } from '@kit.ArkTS';
-import { CommonConstants } from '../common/constant/CommonConstants';
-import { AngelRange, HSVIndex, RGBIndex } from '../viewModel/OptionViewModel';
+import { RGBIndex, HSVIndex, AngelRange } from '../viewModel/OptionViewModel';
 
-import { EAWorker } from '@kit.ArkUI';
+/**
+ * Saturation adjust.
+ *
+ * @param pixelMap.
+ * @param value saturation's value.
+ * @return arrayBuffer.
+ */
+export function adjustSaturation(bufferArray: ArrayBuffer, last: number, cur: number): ArrayBuffer | undefined {
+  return execColorInfo(bufferArray, last, cur, HSVIndex.SATURATION);
+}
 
-export function adjustImageValues(bufferArray: ArrayBuffer, last: number, cur: number, hsvIndex?: number): ArrayBuffer {
+/**
+ * Image brightness adjust.
+ *
+ * @param pixelMap.
+ * @param value image's brigtness.
+ * @return arrayBuffer.
+ */
+export function adjustImageValue(bufferArray: ArrayBuffer, last: number, cur: number): ArrayBuffer | undefined {
   return execColorInfo(bufferArray, last, cur, HSVIndex.VALUE);
 }
 
-// Picture pixel calculation
-function execColorInfo(bufferArray: ArrayBuffer, last: number, cur: number, hsvIndex: number) {
-  // ...
+/**
+ * Exec color transform.
+ *
+ * @param bufferArray.
+ * @param last.
+ * @param cur.
+ * @param hsvIndex.
+ * @return arrayBuffer.
+ */
+export function execColorInfo(bufferArray: ArrayBuffer, last: number, cur: number,
+  hsvIndex: number): ArrayBuffer | undefined {
+  if (!bufferArray) {
+    return undefined;
+  }
   const newBufferArr = bufferArray;
   let colorInfo = new Uint8Array(newBufferArr);
-  for (let i: int = 0; i < colorInfo!.length; i += CommonConstants.PIXEL_STEP) {
-    const hsv = rgb2hsv(colorInfo[i + RGBIndex.RED], colorInfo[i + RGBIndex.GREEN], colorInfo[i + RGBIndex.BLUE]);
+  for (let i: int = 0; i < colorInfo?.length as int; i += 4) {
+    const hsv: number[] =
+      rgb2hsv(colorInfo[i + RGBIndex.RED], colorInfo[i + RGBIndex.GREEN], colorInfo[i + RGBIndex.BLUE]);
     let rate: number = cur / last;
     hsv[hsvIndex as int] *= rate;
-    const rgb: Array<number> = hsv2rgb(hsv[HSVIndex.HUE], hsv[HSVIndex.SATURATION], hsv[HSVIndex.VALUE]);
+    const rgb: number[] = hsv2rgb(hsv[HSVIndex.HUE as int] as int, hsv[HSVIndex.SATURATION], hsv[HSVIndex.VALUE]);
     colorInfo[i + RGBIndex.RED] = rgb[RGBIndex.RED];
     colorInfo[i + RGBIndex.GREEN] = rgb[RGBIndex.GREEN];
     colorInfo[i + RGBIndex.BLUE] = rgb[RGBIndex.BLUE];
@@ -41,11 +67,24 @@ function execColorInfo(bufferArray: ArrayBuffer, last: number, cur: number, hsvI
   return newBufferArr;
 }
 
-// [End WorkerPort]
+/**
+ * Color transform.
+ *
+ * @param rgbValue 0 - 255.
+ * @return 0 - 1.
+ */
 function colorTransform(rgbValue: number): number {
   return Number((rgbValue / 255.0).toFixed(2));
 }
 
+/**
+ * RGB transform to HSV.
+ *
+ * @param red 0- 255.
+ * @param green 0- 255.
+ * @param blue 0- 255.
+ * @return h (0 - 360) s(0 - 100) v (0 - 100).
+ */
 function rgb2hsv(red: number, green: number, blue: number): number[] {
   let hsvH: number = 0, hsvS: number = 0, hsvV: number = 0;
   const rgbR: number = colorTransform(red);
@@ -77,16 +116,36 @@ function rgb2hsv(red: number, green: number, blue: number): number[] {
   return [hsvH, hsvS, hsvV];
 }
 
-function hsv2rgb(hue: number, saturation: number, value: number): Array<number> {
+/**
+ *  HSV to RGB conversion formula:
+ *  When 0 <= H <= 360, 0 <= S <= 1 and 0 <= V <= 1:
+ *  C = V * S
+ *  X = C * (1 - Math.abs((H / 60) mod 2 - 1))
+ *  m = V - C
+ *                   | (C, X ,0),  0 <= H < 60
+ *                   | (X, C, 0),  60 <= H < 120
+ *                   | (0, C, X),  120 <= H < 180
+ *  (R', G', B') =   | (0, X, C),  180 <= H < 240
+ *                   | (X, 0, C),  240 <= H < 300
+ *                   | (C, 0, X),  300 <= H < 360
+ *
+ *  (R, G, B) = ((R' + m) * 255, (G' + m) * 255, (B' + m) * 255)
+ *
+ * @param h hue 0 ~ 360.
+ * @param s saturation 0 ~ 100.
+ * @param v value 0 ~ 100.
+ * @return rgb value.
+ */
+function hsv2rgb(hue: int, saturation: number, value: number): number[] {
   let rgbR: number = 0, rgbG: number = 0, rgbB: number = 0;
   if (saturation === 0) {
-    rgbR = rgbG = rgbB = Math.floor((value * 255) / 100.0);
-    return [ rgbR, rgbG, rgbB ];
+    rgbR = rgbG = rgbB = Math.round((value * 255) / 100.0);
+    return [rgbR, rgbG, rgbB];
   }
   const cxmC: number = (value * saturation) / (100 * 100);
   const cxmX: number = cxmC * (1 - Math.abs((hue / 60.0) % 2 - 1));
   const cxmM: number = (value - cxmC * 100) / 100.0;
-  const hsvHRange = Math.floor(hue / 60.0);
+  const hsvHRange: number = Math.floor(hue / 60.0);
   switch (hsvHRange as int) {
     case 0:
       rgbR = (cxmC + cxmM) * 255;
@@ -122,8 +181,8 @@ function hsv2rgb(hue: number, saturation: number, value: number): Array<number> 
       break;
   }
   return [
-    Math.floor(rgbR),
-    Math.floor(rgbG),
-    Math.floor(rgbB)
+    Math.round((rgbR) * 255),
+    Math.round((rgbG) * 255),
+    Math.round((rgbB) * 255)
   ];
 }

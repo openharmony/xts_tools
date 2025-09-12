@@ -14,9 +14,8 @@
  * limitations under the License.
  */
 
-import { PropRef } from '@kit.ArkUI';
-
 import {
+  PropRef,
   Component,
   Resource,
   Row,

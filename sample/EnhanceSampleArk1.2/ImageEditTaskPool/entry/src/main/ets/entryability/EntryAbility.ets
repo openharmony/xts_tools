@@ -13,11 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { AppStorage } from '@kit.ArkUI';
 
-import { UIAbility, abilityAccessCtrl, Permissions, Want, AbilityConstant } from '@kit.AbilityKit';
+import { AppStorage,window } from '@kit.ArkUI';
+
+import { UIAbility, Want, Permissions, AbilityConstant } from '@kit.AbilityKit';
+import abilityAccessCtrl from '@ohos.abilityAccessCtrl';
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { window } from '@kit.ArkUI';
 import { BusinessError } from '@kit.BasicServicesKit';
 
 const TAG: string = '[EntryAbility]';
@@ -59,14 +60,14 @@ export default class EntryAbility extends UIAbility {
     let promise = windowClass.setWindowSystemBarProperties(SystemBarProperties);
     promise.then(() => {
       hilog.info(0x0000, TAG, 'Succeeded in setting the system bar properties.');
-    }).catch((err: BusinessError) => {
+    }).catch((err: Error) => {
       hilog.error(0x0000, TAG,
         `Failed to set the system bar properties. Cause code: ${err.code}, message: ${err.message}`);
     });
 
 
     windowStage.loadContent('pages/HomePage', (err, data) => {
-      if (err.code) {
+      if (err && err.code) {
         hilog.error(0x0000, TAG, 'Failed to load the content. Cause: %{public}s',
           JSON.stringify(err) ?? '');
         return;

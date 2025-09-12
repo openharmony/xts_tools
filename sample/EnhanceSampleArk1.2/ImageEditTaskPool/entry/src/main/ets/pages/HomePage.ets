@@ -37,10 +37,12 @@ import {
   Row,
   ForEach,
   AppStorage,
+  Padding,
+  Margin,
 } from '@kit.ArkUI';
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { AlertDialog } from '@kit.ArkUI';
+import { AlertDialog } from '@ohos.arkui.advanced.Dialog';
 import { image } from '@kit.ImageKit';
 import { cropIconChangeList, menuIconList } from '../viewModel/IconListViewModel';
 import { RotateType, CropType, MainTabId } from '../viewModel/OptionViewModel';
@@ -48,10 +50,12 @@ import { CommonConstants } from '../common/constant/CommonConstants';
 import { square, banner, rectangle } from '../utils/CropUtil';
 import { IconStatus } from '../viewModel/IconListViewModel';
 import { encode } from '../utils/EncodeUtil';
-import AdjustContentView from '../view/AdjustContentView';
+import { AdjustContentView } from '../view/AdjustContentView';
 import getPixelMap from '../utils/DecodeUtil';
-import TitleBar from '../view/TitleBar';
-
+import { TitleBar } from '../view/TitleBar';
+import AlphaType from "@ohos.multimedia.image";
+import PixelMapFormat from "@ohos.multimedia.image";
+import PixelMap from "@ohos.multimedia.image";
 const TAG: string = '[HomePage]';
 
 @Entry
@@ -63,15 +67,15 @@ struct HomePage {
     size: { height: 0, width: 0 },
     density: 0,
     stride: 0,
-    alphaType: 0,
-    pixelFormat: 0,
+    alphaType: image.AlphaType.UNKNOWN,
+    pixelFormat: image.PixelMapFormat.UNKNOWN,
     mimeType: '',
     isHdr: false
-  };
+  } as image.ImageInfo;
   @Provide({ alias: 'currentAdjustData' }) currentAdjustData: Array<number> =
     CommonConstants.ADJUST_SLIDER_VALUE.map((item: number) => item);
   @Provide({ alias: 'isPixelMapChange' }) @Watch('flushPixelMap') isPixelMapChange: boolean = false;
-  @Provide({ alias: 'pixelMap' }) pixelMap?: image.PixelMap = undefined;
+  @Provide({ alias: 'pixelMap' }) pixelMap?: image.PixelMap;
   menuIconChangeList = menuIconList;
   cropIconChange: Array<IconStatus> = cropIconChangeList;
   dialogControllerConfirm: CustomDialogController = new CustomDialogController({
@@ -87,8 +91,8 @@ struct HomePage {
       secondaryButton: {
         value: $r('app.string.ok'),
         action: () => {
-          if (this.pixelMap) {
-            encode(this, this.pixelMap);
+          if (this.pixelMap!) {
+            encode(this, this.pixelMap!);
           }
         }
       }
@@ -96,7 +100,7 @@ struct HomePage {
   });
 
   @Builder
-  TabBuilderMenu(index: number, name: string | Resource) {
+  TabBuilderMenu(index: int, name: string | Resource) {
     Column() {
       Image(this.currentIndex === index ? this.menuIconChangeList[index]?.chosen :
         this.menuIconChangeList[index]?.normal)
@@ -106,7 +110,7 @@ struct HomePage {
       Text(name)
         .fontColor(this.currentIndex === index ? '#006CDE' : Color.White)
         .fontSize(10)
-        .margin({ top: 8 })
+        .margin({ top: 8 } as Margin)
     }
     .width('100%')
   }
@@ -115,31 +119,31 @@ struct HomePage {
     if (!this.pixelMap) {
       return;
     }
-    const imageInfo = await this.pixelMap.getImageInfo();
+    const imageInfo = await this.pixelMap!.getImageInfo();
     const size = imageInfo.size;
-    const imageWidth: int = size?.width;
-    const imageHeight: int = size?.height;
+    const imageWidth: undefined|Int = size?.width;
+    const imageHeight:undefined|Int = size?.height;
     switch (proportion) {
       case CropType.ORIGINAL_IMAGE:
         this.pixelInit();
         break;
       case CropType.SQUARE:
         if (this.pixelMap) {
-          square(this.pixelMap, imageWidth, imageHeight).then(() => {
+          square(this.pixelMap as image.PixelMap , imageWidth as int, imageHeight as int).then(() => {
             this.flushPixelMapChange();
           });
         }
         break;
       case CropType.BANNER:
         if (this.pixelMap) {
-          banner(this.pixelMap, imageWidth, imageHeight).then(() => {
+          banner(this.pixelMap as image.PixelMap, imageWidth as int, imageHeight as int).then(() => {
             this.flushPixelMapChange();
           });
         }
         break;
       case CropType.RECTANGLE:
         if (this.pixelMap) {
-          rectangle(this.pixelMap, imageWidth, imageHeight).then(() => {
+          rectangle(this.pixelMap as image.PixelMap, imageWidth as int, imageHeight as int).then(() => {
             this.flushPixelMapChange();
           });
         }
@@ -155,12 +159,12 @@ struct HomePage {
         return;
       }
       try {
-        this.pixelMap.rotate(90)
+        this.pixelMap!.rotate(90)
           .then(() => {
             this.flushPixelMapChange();
           })
       } catch (error) {
-        hilog.error(0x0000, TAG, '%{public}s', `there is a error in rotate process with ${error?.code}`);
+        hilog.error(0x0000, TAG, '%{public}s', `there is a error in rotate process with ${error}`);
       }
     }
     if (rotateType === RotateType.ANTI_CLOCK) {
@@ -168,12 +172,12 @@ struct HomePage {
         return;
       }
       try {
-        this.pixelMap.rotate(-90)
+        this.pixelMap!.rotate(-90)
           .then(() => {
             this.flushPixelMapChange();
           })
       } catch (error) {
-        hilog.error(0x0000, TAG, '%{public}s', `there is a error in rotate process with ${error?.code}`);
+        hilog.error(0x0000, TAG, '%{public}s', `there is a error in rotate process with ${error}`);
       }
     }
   }
@@ -182,7 +186,7 @@ struct HomePage {
     this.isPixelMapChange = !this.isPixelMapChange;
   }
 
-  flushPixelMap(): void {
+  flushPixelMap(value: string): void {
     const temp = this.pixelMap;
     this.pixelMap = undefined;
     this.pixelMap = temp;
@@ -233,7 +237,7 @@ struct HomePage {
           }
         }
         .justifyContent(FlexAlign.Start)
-        .padding({ top: 8 })
+        .padding({ top: 8 } as Padding)
         .width('100%')
         .height('70%')
 
@@ -241,14 +245,15 @@ struct HomePage {
           Tabs({ barPosition: BarPosition.End }) {
             TabContent() {
               Row() {
-                ForEach(this.cropIconChange, (item: IconStatus, index?: number | undefined) => {
+                ForEach(this.cropIconChange, (item: IconStatus, index: number) => {
                   Image(this.currentCropIndex === index ? item?.chosen : item?.normal)
                     .width(36)
                     .height(36)
                     .onClick(() => {
                       if (typeof (index) === 'number') {
-                        this.currentCropIndex = index;
-                        this.cropImage(index);
+                        this.currentCropIndex = index as number;
+                        let cropIndex = index.toInt() as CropType
+                        this.cropImage(cropIndex as CropType);
                       }
                     })
                 }, (item: IconStatus) => JSON.stringify(item))
@@ -297,7 +302,7 @@ struct HomePage {
             this.currentIndex = index;
           })
         }
-        .padding({ bottom: 16 })
+        .padding({ bottom: 16 } as Padding)
         .width('100%')
         .height('30%')
       }
@@ -307,7 +312,7 @@ struct HomePage {
     .padding({
       top: (AppStorage.get<number>('statusBarHeight') ?? 0),
       bottom: (AppStorage.get<number>('naviIndicatorHeight') ?? 0)
-    })
+    } as Padding )
     .hideToolBar(true)
     .hideTitleBar(true)
     .width('100%')

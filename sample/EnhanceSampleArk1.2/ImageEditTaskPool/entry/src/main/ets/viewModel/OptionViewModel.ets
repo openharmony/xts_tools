@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Copyright (c) 2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License,Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -17,10 +17,10 @@
  * Crop type.
  */
 export enum CropType {
-  ORIGINAL_IMAGE,
-  SQUARE,
-  BANNER,
-  RECTANGLE
+  ORIGINAL_IMAGE = 0,
+  SQUARE = 1,
+  BANNER = 2,
+  RECTANGLE = 3
 }
 
 /**
@@ -57,7 +57,6 @@ export enum RGBIndex {
   GREEN,
   BLUE
 }
-
 /**
  * HSV type.
  */
@@ -71,10 +70,10 @@ export enum HSVIndex {
  * Angel range.
  */
 export enum AngelRange {
-  ANGEL_0_60 = 0,
-  ANGEL_60_120,
-  ANGEL_120_180,
-  ANGEL_180_240,
-  ANGEL_240_300,
-  ANGEL_300_360
+  ANGEL_0_60 = 0.0,
+  ANGEL_60_120 = 1.0,
+  ANGEL_120_180 = 2.0,
+  ANGEL_180_240 = 3.0,
+  ANGEL_240_300 = 4.0,
+  ANGEL_300_360 = 5.0
 }
