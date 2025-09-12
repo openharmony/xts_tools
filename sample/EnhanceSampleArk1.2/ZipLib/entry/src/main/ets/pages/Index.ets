@@ -25,11 +25,9 @@ import {
   FontWeight,
   Button,
   ButtonType,
-  getUIContext,
   FlexAlign,
+  Margin,
 } from '@kit.ArkUI';
-
-import { router } from '@kit.ArkUI';
 
 @Entry
 @Component
@@ -43,7 +41,7 @@ struct Index {
             .textAlign(TextAlign.Start)
             .fontWeight(FontWeight.Bold)
         }
-        .margin({ top: 63 })
+        .margin({ top: 63 } as Margin)
         .width('86.7%')
         .height('15.6%')
       }
@@ -59,14 +57,14 @@ struct Index {
           .backgroundColor($r('app.color.button_color'))
           .fontColor($r('app.color.text_white_color'))
           .fontSize(16)
-          .onClick(() => {
-            getUIContext().getRouter.pushUrl({
+          .onClick((): void => {
+            this.getUIContext().getRouter().pushUrl({
               url: 'zlib/ZipLibDecompressionPage'
             });
           })
           .width('91%')
           .height('11.2%')
-          .margin({ bottom: 12})
+          .margin({ bottom: 12} as Margin)
 
         Button($r('app.string.zlibInterface'))
           .id('zlibInterface')
@@ -76,14 +74,14 @@ struct Index {
           .backgroundColor($r('app.color.button_color'))
           .fontColor($r('app.color.text_white_color'))
           .fontSize(16)
-          .onClick(() => {
-            getUIContext().getRouter.pushUrl({
+          .onClick((): void => {
+            this.getUIContext().getRouter().pushUrl({
               url: 'zlib/ZLibInterfaceListPage'
             });
           })
           .width('91%')
           .height('11.2%')
-          .margin({ bottom: 16 })
+          .margin({ bottom: 16 } as Margin)
       }
       .justifyContent(FlexAlign.End)
       .width('100%')

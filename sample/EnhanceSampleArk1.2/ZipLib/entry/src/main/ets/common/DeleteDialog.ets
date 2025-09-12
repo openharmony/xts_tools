@@ -24,6 +24,7 @@ import {
   Text,
   TextAlign,
   Row,
+  Margin,
 } from '@kit.ArkUI';
 
 import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -34,22 +35,22 @@ const TAG: string = '[DeleteDialog]';
 
 @CustomDialog
 export struct DeleteDialog {
-  private fileNames: string[] = [];
+  private fileNames: string[] = new Array<string>();
   private isInserted: boolean = false;
   private deleteFiles: (isInserted: boolean, fileNames: Array<string>) => void =
     (isInserted: boolean, fileNames: Array<string>) => {
     };
-  private controller: CustomDialogController;
+  private controller: CustomDialogController | undefined;
   @State buttonColor: Resource = $r('app.color.button_light_color');
 
   build() {
     Column() {
-      Text($r('app.string.delete_file'))
-        .fontSize(16)
-        .width('100%')
-        .height('40%')
-        .margin({ top: '3%' })
-        .textAlign(TextAlign.Center)
+      // Text($r('app.string.delete_file'))
+      //   .fontSize(16)
+      //   .width('100%')
+      //   .height('40%')
+      //   .margin({ top: '3%' } as Margin)
+      //   .textAlign(TextAlign.Center)
 
       Row() {
         Text($r('app.string.button_cancel'))
@@ -57,9 +58,11 @@ export struct DeleteDialog {
           .fontSize(16)
           .height('18.5%')
           .width('44%')
-          .margin({ left: '23%', top: '3%' })
-          .onClick(() => {
-            this.controller.close();
+          .margin({ left: '23%', top: '3%' } as Margin)
+          .onClick((): void => {
+            if (this.controller) {
+              (this.controller as CustomDialogController).close();
+            }
           })
 
         Text($r('app.string.button_confirm'))
@@ -67,13 +70,15 @@ export struct DeleteDialog {
           .fontSize(16)
           .height('18.5%')
           .width('44%')
-          .margin({ right: '23%', top: '3%' })
-          .onClick(() => {
+          .margin({ right: '23%', top: '3%' } as Margin)
+          .onClick((): void => {
             this.isInserted = true;
             hilog.info(DOMAIN, TAG, BUNDLE + `fileName = ${this.fileNames}`);
             this.deleteFiles(this.isInserted, this.fileNames);
             hilog.info(DOMAIN, TAG, BUNDLE + `isInserted = ${this.isInserted}`);
-            this.controller.close();
+            if (this.controller) {
+              (this.controller as CustomDialogController).close();
+            }
           })
       }
       .width('100%')

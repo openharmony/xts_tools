@@ -22,15 +22,15 @@ import {
 } from '@kit.ArkUI';
 
 @Observed
-class BasicDataSource implements IDataSource {
+class BasicDataSource implements IDataSource<string> {
   private listeners: DataChangeListener[] = []
 
   public totalCount(): number {
     return 0
   }
 
-  public getData(index: number): string | undefined {
-    return undefined
+  public getData(index: number): string {
+    return ''
   }
 
   registerDataChangeListener(listener: DataChangeListener): void {

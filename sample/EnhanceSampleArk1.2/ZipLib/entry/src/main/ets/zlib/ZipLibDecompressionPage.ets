@@ -22,7 +22,6 @@ import {
   $r,
   CustomDialogController,
   DialogAlignment,
-  getUIContext,
   Flex,
   FlexDirection,
   Column,
@@ -37,22 +36,24 @@ import {
   LazyForEach,
   ListItem,
   Button,
+  Margin,
+  Padding,
+  TextArea,
 } from '@kit.ArkUI';
 
 import { common } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { preferences } from '@kit.ArkData';
+import preferences from '@ohos.data.preferences';
 import { promptAction } from '@kit.ArkUI';
 import { zlib } from '@kit.BasicServicesKit';
-import fileio from '@ohos.fileio';
+import fileIo from '@ohos.file.fs';
 import { AddDialog } from '../common/AddDialog';
 import { ZipLibSource } from '../model/DataSource';
-import { router } from '@kit.ArkUI';
 
 const DOMAIN: int = 0xF811;
 const BUNDLE = 'ZipLib_';
 const TAG: string = '[ZipLibDecompressionPage]';
-let fileList: preferences.Preferences;
+let fileList: preferences.Preferences = undefined!;
 
 @Entry
 @Component
@@ -68,17 +69,23 @@ struct ZipLibDecompressionPage {
       fileName: this.fileName,
       fileContent: this.fileContent,
       isInserted: this.isInserted,
-      createFile: async (isInserted: boolean, fileName: string, fileContent: string) => {
+      createFile: async (isInserted: boolean, fileName: string, fileContent: string): Promise<void> => {
         hilog.info(DOMAIN, TAG, BUNDLE + `enter the createFile`);
         this.fileName = `${fileName}.txt`;
         let isDuplication = this.files.fileData.includes(this.fileName);
         hilog.info(DOMAIN, TAG, BUNDLE + `isInserted = ${isInserted}  isDuplication = ${isDuplication}`);
         if (!isInserted || isDuplication) {
-          return;
+          return Promise.resolve();
         }
-        let fd = fileio.openSync(`${this.path}/${this.fileName}`, 0o100 | 0o2, 0o666);
-        let number = fileio.writeSync(fd, fileContent);
-        hilog.info(DOMAIN, TAG, BUNDLE + `fd = ${fd} number = ${number}`);
+
+        // let fd = fileio.openSync(`${this.path}/${this.fileName}`, 0o100 | 0o2, 0o666);
+        // let numb = fileio.writeSync(fd, fileContent);
+        // hilog.info(DOMAIN, TAG, BUNDLE + `fd = ${fd} numb = ${numb}`);
+
+        let zlibFile = fileIo.openSync(`${this.path}/${this.fileName}`, 0o100 | 0o2);
+        let numb = fileIo.writeSync(zlibFile.fd, fileContent);
+        hilog.info(DOMAIN, TAG, BUNDLE + `fd = ${zlibFile.fd} numb = ${numb}`);
+
         this.files.pushData(this.fileName);
         hilog.info(DOMAIN, TAG, BUNDLE + `this.files = ${JSON.stringify(this.files.fileData)}`);
         await fileList.put('fileName', JSON.stringify(this.files.fileData));
@@ -89,13 +96,35 @@ struct ZipLibDecompressionPage {
     alignment: DialogAlignment.Default
   })
 
-  async aboutToAppear() {
-    fileList = await preferences.getPreferences(getUIContext().getHostContext(this), 'fileList');
-    let ctx = getUIContext().getHostContext(this) as common.Context;
-    this.path = ctx.filesDir;
-    let value = await fileList.get('fileName', '');
-    this.files.fileData = JSON.parse(`${value}`);
-    this.files.notifyDataReload();
+  // async aboutToAppear() {
+  //   fileList = await preferences.getPreferences(this.getUIContext().getHostContext() as common.UIAbilityContext, 'fileList');
+  //   let ctx = this.getUIContext().getHostContext() as common.UIAbilityContext;
+  //   this.path = ctx.filesDir;
+  //   let value = await fileList.get('fileName', '');
+  //   this.files.fileData = JSON.parse<Array<String>>(`${value}`, Type.from<Array<String>>()) as Array<String>;
+  //   this.files.notifyDataReload();
+  // }
+
+  aboutToAppear() {
+    this.loadPreferencesData().then(() => {
+      hilog.info(DOMAIN, TAG, BUNDLE + 'Data loaded successfully');
+    }).catch((error) => {
+      hilog.error(DOMAIN, TAG, BUNDLE + `Failed to load data: ${error}`);
+    });
+  }
+
+  private async loadPreferencesData(): Promise<void> {
+    try {
+      fileList = await preferences.getPreferences(this.getUIContext().getHostContext() as common.UIAbilityContext, 'fileList');
+      let ctx = this.getUIContext().getHostContext() as common.UIAbilityContext;
+      this.path = ctx.filesDir;
+      let value = await fileList.get('fileName', '');
+      this.files.fileData = JSON.parse<Array<String>>(`${value}`, Type.from<Array<String>>()) as Array<String>;
+      this.files.notifyDataReload();
+    } catch (error) {
+      hilog.error(DOMAIN, TAG, BUNDLE + `Error loading preferences: ${error}`);
+      throw error;
+    }
   }
 
   async zipHandler(path: string, fileName: string): Promise<void> {
@@ -112,7 +141,7 @@ struct ZipLibDecompressionPage {
       strategy: zlib.CompressStrategy.COMPRESS_STRATEGY_DEFAULT_STRATEGY
     }
     if (this.files.fileData.includes(newName)) {
-      getUIContext().getPromptAction.showToast({
+      this.getUIContext().getPromptAction().showToast({
         message: $r('app.string.warning_failed'),
         bottom: '11%'
       });
@@ -120,15 +149,15 @@ struct ZipLibDecompressionPage {
     }
     try {
       zlib.compressFile(zipFile, zipOutFile, options).then(data => {
-        hilog.info(DOMAIN, TAG, BUNDLE + `data = ${JSON.stringify(data)}`);
-        getUIContext().getPromptAction.showToast({
+        hilog.info(DOMAIN, TAG, BUNDLE + `data = ${JSON.stringify(data, null, 2)}`);
+        this.getUIContext().getPromptAction().showToast({
           message: $r('app.string.tip_complete'),
           bottom: '11%'
         });
         this.files.pushData(`${newName}`);
       })
-    } catch {
-      getUIContext().getPromptAction.showToast({
+    } catch (error) {
+      this.getUIContext().getPromptAction().showToast({
         message: $r('app.string.warning_failure'),
         bottom: '11%'
       });
@@ -145,7 +174,7 @@ struct ZipLibDecompressionPage {
     let zipOutFile = `${this.path}/${newName}`;
     hilog.info(DOMAIN, TAG, BUNDLE + `zipOutFile = ${zipOutFile}`);
     if (this.files.fileData.includes(newName)) {
-      getUIContext().getPromptAction.showToast({
+      this.getUIContext().getPromptAction().showToast({
         message: $r('app.string.warning_failed'),
         bottom: '11%'
       });
@@ -158,9 +187,9 @@ struct ZipLibDecompressionPage {
     }
 
     zlib.decompressFile(zipFile, zipOutFile, options).then(data => {
-      hilog.info(DOMAIN, TAG, BUNDLE + `data = ${JSON.stringify(data)}`);
+      hilog.info(DOMAIN, TAG, BUNDLE + `data = ${JSON.stringify(data, null, 2)}`);
     })
-    getUIContext().getPromptAction.showToast({
+    this.getUIContext().getPromptAction().showToast({
       message: $r('app.string.tip_complete'),
       bottom: '11%'
     });
@@ -177,14 +206,14 @@ struct ZipLibDecompressionPage {
             Image($r('app.media.icon_back'))
               .size({ height: '71%' })
               .objectFit(ImageFit.Contain)
-              .onClick(() => {
-                getUIContext().getRouter.pushUrl({
+              .onClick((): void => {
+                this.getUIContext().getRouter().pushUrl({
                   url: 'pages/Index'
                 });
               })
             Text(this.title)
               .fontSize(20)
-              .margin({ left: 8 })
+              .margin({ left: 8 } as Margin)
               .fontWeight(FontWeight.Bold)
           }
 
@@ -192,7 +221,7 @@ struct ZipLibDecompressionPage {
             .size({ height: '71%' })
             .id('addFileBtn')
             .objectFit(ImageFit.Contain)
-            .onClick(() => {
+            .onClick((): void => {
               this.dialogController.open();
             })
         }
@@ -214,7 +243,7 @@ struct ZipLibDecompressionPage {
                       Text(item)
                         .width('50%')
                         .fontSize(16)
-                        .margin({ left: 16 })
+                        .margin({ left: 16 } as Margin)
                     }
                   }
 
@@ -226,7 +255,7 @@ struct ZipLibDecompressionPage {
                       .fontColor($r('app.color.text_white_color'))
                       .width('100%')
                       .height('100%')
-                      .onClick(() => {
+                      .onClick((): void => {
                         item.includes('.zip') ? this.unzipHandler(this.path, item) : this.zipHandler(this.path, item);
                       })
                       .id('compress_' + index)
@@ -237,16 +266,16 @@ struct ZipLibDecompressionPage {
                   .height('50%')
                 }
                 .justifyContent(FlexAlign.SpaceBetween)
-                .padding({ right: 12, left: 12 })
+                .padding({ right: 12, left: 12 } as Padding)
                 .width('100%')
                 .height('14.2%')
                 .borderRadius(20)
                 .backgroundColor($r('app.color.start_window_background'))
               }
-              .margin({ bottom: 12 })
+              .margin({ bottom: 12 } as Margin)
             }, (item: string) => item)
           }
-          .margin({ top: 8 })
+          .margin({ top: 8 } as Margin)
           .height('68.7%')
           .width('91%')
           .backgroundColor($r('app.color.index_bg'))
