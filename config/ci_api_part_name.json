@@ -427,6 +427,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.file.cloudDiskManager.d.ts",
+            "bundle_name": [
+                "user_file_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@system.geolocation.d.ts",
             "bundle_name": [
                 "location"
