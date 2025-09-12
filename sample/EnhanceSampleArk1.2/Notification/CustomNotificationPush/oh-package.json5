@@ -12,7 +12,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 {
   "modelVersion": "6.0.0",
   "license": "",
@@ -20,7 +19,6 @@
     "@ohos/hypium": "1.0.6"
   },
   "author": "",
-  "name": "customnotificationpush",
   "description": "Please describe the basic information.",
   "main": "",
   "version": "1.0.0",
