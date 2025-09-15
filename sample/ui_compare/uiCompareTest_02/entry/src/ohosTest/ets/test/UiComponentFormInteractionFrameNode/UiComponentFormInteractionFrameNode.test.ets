@@ -1933,4 +1933,461 @@ export default function UiComponentFormInteractionFrameNode() {
       done()
     })
 
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0750
+       * @tc.name    (FrameNode capability) 078: The blockColor of the Slider component is Color.Green
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0750', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0750 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode80")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0750 finish.`);
+      done()
+    })
 
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1050
+       * @tc.name    (FrameNode capability) 079: The blockColor of the Slider component is #FF00FF
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1050 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode81")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1050 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0640
+       * @tc.name    (FrameNode capability) 080: The blockColor of the Slider component is 0xffff00
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0640', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0640 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode82")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0640 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1060
+       * @tc.name    (FrameNode capability) 081: The blockColor of the Slider component is null
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1060', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1060 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode83")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1060 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0480
+       * @tc.name    (FrameNode capability) 082: The blockColor of the Slider component is undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0480', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0480 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode84")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0480 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0990
+       * @tc.name    (FrameNode capability) 083: Slider component showTips is true
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0990', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0990 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode85")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let slider1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode85_01'),1000);
+      let slider2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode85_02'),1000);
+      await driver.waitForIdle(500,2000)
+      await slider1.click();
+      await slider2.click();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0990 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0610
+       * @tc.name    (FrameNode capability) 084: Slider component showTips is false
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0610', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0610 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode86")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let slider1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode86_01'),1000);
+      let slider2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode86_02'),1000);
+      await driver.waitForIdle(500,2000)
+      await slider1.click();
+      await slider2.click();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0610 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0130
+       * @tc.name    (FrameNode capability) 086: Slider component showTips is undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0130', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0130 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode87")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let slider1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode87_01'),1000);
+      let slider2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode87_02'),1000);
+      await driver.waitForIdle(500,2000)
+      await slider1.click();
+      await slider2.click();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0130 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0250
+       * @tc.name    (FrameNode capability) 085: Slider component showTips is null
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0250', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0250 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode88")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let slider1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode88_01'),1000);
+      let slider2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode88_02'),1000);
+      await driver.waitForIdle(500,2000)
+      await slider1.click();
+      await slider2.click();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0250 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0070
+       * @tc.name    (FrameNode capability) 089: Slider component SliderOptions parameter correctness 3 (undefined)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0070', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0070 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode89")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0070 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0770
+       * @tc.name    (FrameNode capability) 088: Slider component SliderOptions parameter correctness 2 (null)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0770', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0770 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode90")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0770 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0710
+       * @tc.name    (FrameNode capability) 087: Slider component SliderOptions parameter correctness 1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0710', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0710 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode91")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0710 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0820
+       * @tc.name    (FrameNode capability) 090: Slider component contentModifier customizes the Slider content area
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0820', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0820 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode92")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let button1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode92_01'),1000);
+      let button2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode92_02'),1000);
+      let button3: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode92_03'),1000);
+      let button4: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode92_04'),1000);
+      await driver.waitForIdle(500,2000)
+      await button1.click();
+      await button3.click();
+      windowSnap.snapShot()
+      await driver.waitForIdle(500,2000)
+      await button2.click();
+      await button4.click();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0250 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0090
+       * @tc.name    (FrameNode capability) 028: The CheckboxGroup component selectedColor is undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0090', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0090 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode93")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let slider1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode93_01'),1000);
+      let slider2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode93_02'),1000);
+      await driver.waitForIdle(500,2000)
+      await slider1.click();
+      await slider2.click();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0090 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0560
+       * @tc.name    (FrameNode capability) 024: The CheckboxGroup component selectedColor is Color.Green
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0560', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0560 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode94")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let slider1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode94_01'),1000);
+      let slider2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode94_02'),1000);
+      await driver.waitForIdle(500,2000)
+      await slider1.click();
+      await slider2.click();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0560 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0190
+       * @tc.name    (FrameNode capability) 025: The CheckboxGroup component selectedColor is #FF00FF
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0190', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0190 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode95")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let slider1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode95_01'),1000);
+      let slider2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode95_02'),1000);
+      await driver.waitForIdle(500,2000)
+      await slider1.click();
+      await slider2.click();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0190 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0310
+       * @tc.name    (FrameNode capability) 026: The CheckboxGroup component selectedColor is 0xffff00
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0310', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0310 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode96")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let slider1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode96_01'),1000);
+      let slider2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode96_02'),1000);
+      await driver.waitForIdle(500,2000)
+      await slider1.click();
+      await slider2.click();
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0310 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0400
+       * @tc.name    (FrameNode capability) 027: The CheckboxGroup component selectedColor is null
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0400', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0400 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode97")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let slider1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode97_01'),1000);
+      let slider2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode97_02'),1000);
+      await driver.waitForIdle(500,2000)
+      await slider1.click();
+      await slider2.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0400 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0920
+       * @tc.name    (FrameNode capability) 023: The CheckboxGroup component group is of string type "checkboxgroup1" and "checkboxgroup2"
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0920', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0920 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode98")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let slider1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode98_01'),1000);
+      let slider2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode98_02'),1000);
+      let slider3: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode98_03'),1000);
+      let slider4: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode98_04'),1000);
+      await driver.waitForIdle(500,2000)
+      await slider1.click();
+      await slider2.click();
+      await driver.waitForIdle(500,2000)
+      await slider1.click();
+      await slider2.click();
+      await slider3.click();
+      await slider4.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0920 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0440
+       * @tc.name    (FrameNode capability) 022: Checkbox component contentModifier custom selectedColor to Color.RED
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0440', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0440 start.`);
+      Settings.createWindow("testability/pages/UiComponentFormInteractionFrameNode/UiComponentFormInteractionFrameNode99")
+      let driver:Driver=Driver.create();
+      windowSnap.snapShot()
+      let checkbox1: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode99_01'),1000);
+      let checkbox2: Component = await driver.waitForComponent(ON.id('UiComponentFormInteractionFrameNode99_02'),1000);
+      await driver.waitForIdle(500,2000)
+      let point1 = await checkbox1.getBoundsCenter()
+      let point2 = await checkbox2.getBoundsCenter()
+      await driver.mouseClick({x:point1.x-70,y:point1.y+100},MouseButton.MOUSE_BUTTON_LEFT)
+      await driver.mouseClick({x:point2.x-70,y:point2.y+100},MouseButton.MOUSE_BUTTON_LEFT)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0440 finish.`);
+      done()
+    })
+  })
+}

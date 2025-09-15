@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Copyright (c) 2024 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
 import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
@@ -67,10 +67,10 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange01");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);;
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0060_01");
+      windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange_01'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0060_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0060 finish.`);
       done();
@@ -89,12 +89,12 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange02");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0050_01");
+      windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange02_01'),1000);
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange02_03'),1000);
       await textarea.click();
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0050_02");
+      windowSnap.snapShot();
       await driver.waitForIdle(500,2000);
       await driver.triggerKey(2017);
       windowSnap.snapShot();
@@ -116,10 +116,10 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange03");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0030_01");
+      windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange03_01'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0030_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0050 finish.`);
       done();
@@ -138,10 +138,10 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange04");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0040_01");
+      windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange04_01'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0040_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0040 finish.`);
       done();
@@ -160,15 +160,15 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange05");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0020_01");
+      windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange05_02'),1000);
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange05_01'),1000);
       await textarea.click();
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0020_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       await driver.triggerKey(2071);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0020_03");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0020 finish.`);
       done();
@@ -187,11 +187,11 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange06");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0170_01");
+      windowSnap.snapShot();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange06'),1000);
       await textarea.click();
       await driver.triggerKey(2055);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0170_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0170 finish.`);
       done();
@@ -210,11 +210,11 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange07");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0180_01");
+      windowSnap.snapShot();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange07'),1000);
       await textarea.click();
       await driver.triggerKey(2055);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0180_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0180 finish.`);
       done();
@@ -233,11 +233,11 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange08");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0190_01");
+      windowSnap.snapShot();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange08'),1000);
       await textarea.click();
       await driver.triggerKey(2055);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0190_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0190 finish.`);
       done();
@@ -256,10 +256,10 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange09");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0110_01");
+      windowSnap.snapShot();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange09'),1000);
       await textarea.inputText('aaa')
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0110_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0110 finish.`);
       done();
@@ -278,10 +278,10 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange10");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0240_01");
+      windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange10'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0240_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0240 finish.`);
       done();
@@ -300,10 +300,10 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange11");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0090_01");
+      windowSnap.snapShot();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange11'),1000);
       await textarea.inputText('aaa')
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0090_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0090 finish.`);
       done();
@@ -322,10 +322,10 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange12");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0100_01");
+      windowSnap.snapShot();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange12'),1000);
       await textarea.inputText('aaa')
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0100_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0100 finish.`);
       done();
@@ -344,13 +344,135 @@ export default function UiComponentOnWillChange() {
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange13");
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210_01");
+      windowSnap.snapShot();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange13'),1000);
       await textarea.click();
       await driver.triggerKey(2071);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210_02");
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210 finish.`);
+      done();
+    })
+
+    /*
+      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0260
+      * @tc.name    modifier test
+      * @tc.desc    Function test
+      * @tc.size    MediumTest
+      * @tc.type    Function
+      * @tc.level   0
+      */
+    it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0260', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0260 start.`);
+      Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange14");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange14'),1000);
+      await textarea.inputText('he');
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0260 finish.`);
+      done();
+    })
+
+    /*
+      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0140
+      * @tc.name    Replace the text, set onWillInsert to true, onWillDelete to false, and onWillChange to true
+      * @tc.desc    Function test
+      * @tc.size    MediumTest
+      * @tc.type    Function
+      * @tc.level   0
+      */
+    it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0140', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0140 start.`);
+      Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange15");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange15'),1000);
+      await textarea.click();
+      await textarea.doubleClick();
+      await driver.waitForIdle(500,2000);
+      await textarea.inputText('t');
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0140 finish.`);
+      done();
+    })
+
+    /*
+      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0150
+      * @tc.name    Replace the text, set onWillInsert to true, onWillDelete to false, and onWillChange to false
+      * @tc.desc    Function test
+      * @tc.size    MediumTest
+      * @tc.type    Function
+      * @tc.level   0
+      */
+    it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0150', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0150 start.`);
+      Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange16");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange16'),1000);
+      await textarea.click();
+      await textarea.doubleClick();
+      await driver.waitForIdle(500,2000);
+      await textarea.inputText('t');
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0150 finish.`);
+      done();
+    })
+
+    /*
+      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0120
+      * @tc.name    Replace the text, set onWillInsert to true, onWillDelete to true, and onWillChange to true
+      * @tc.desc    Function test
+      * @tc.size    MediumTest
+      * @tc.type    Function
+      * @tc.level   0
+      */
+    it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0120', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0120 start.`);
+      Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange17");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange17'),1000);
+      await textarea.click();
+      await textarea.doubleClick();
+      await driver.waitForIdle(500,2000);
+      await textarea.inputText('t');
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0120 finish.`);
+      done();
+    })
+
+    /*
+      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0160
+      * @tc.name    Replace the text, set onWillInsert to false, onWillDelete to true, and onWillChange to true
+      * @tc.desc    Function test
+      * @tc.size    MediumTest
+      * @tc.type    Function
+      * @tc.level   0
+      */
+    it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0160', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0160 start.`);
+      Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange18");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      let textarea: Component = await driver.waitForComponent(ON.id('UiComponentOnWillChange18'),1000);
+      await textarea.click();
+      await textarea.doubleClick();
+      await driver.waitForIdle(500,2000);
+      await textarea.inputText('t');
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0160 finish.`);
       done();
     })
 
