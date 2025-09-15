@@ -1162,6 +1162,27 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.web.WebNativeMessagingExtensionAbility.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.web.WebNativeMessagingExtensionContext.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.web.webNativeMessagingExtensionManager.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.hilog.d.ts",
             "bundle_name": [
                 "hilog"
