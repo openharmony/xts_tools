@@ -2667,6 +2667,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.bluetooth.common.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.telephony.sim.d.ts",
             "bundle_name": [
                 "core_service"
