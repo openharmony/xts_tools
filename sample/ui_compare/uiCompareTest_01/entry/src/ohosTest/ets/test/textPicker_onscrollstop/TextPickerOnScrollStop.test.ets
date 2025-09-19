@@ -64,15 +64,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop01");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker閿洏涓婇敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘上键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_01'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_UP);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1110');
       await Utils.sleep(1000);
       
@@ -91,15 +91,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop02");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker閿洏涓婇敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘上键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_02'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_UP);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1150');
       await Utils.sleep(1000);
       
@@ -118,15 +118,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop03");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker閿洏涓嬮敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘下键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_03'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_DOWN);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1130');
       await Utils.sleep(1000);
       
@@ -145,15 +145,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop04");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker閿洏涓嬮敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘下键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_04'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_DOWN);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1030');
       await Utils.sleep(1000);
       
@@ -172,15 +172,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop05");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker閿洏涓婇敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘上键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_05'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_UP);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1080');
       await Utils.sleep(1000);
       
@@ -199,15 +199,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop06");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker閿洏涓婇敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘上键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_06'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_UP);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0190');
       await Utils.sleep(1000);
       
@@ -226,15 +226,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop07");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker閿洏涓嬮敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘下键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_07'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_DOWN);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1260');
       await Utils.sleep(1000);
       
@@ -253,15 +253,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop08");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker閿洏涓嬮敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘下键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_08'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_DOWN);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0010');
       await Utils.sleep(1000);
       
@@ -280,13 +280,13 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop09");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker榧犳爣鐐瑰嚮
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker鼠标点击
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_09'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1220');
       await Utils.sleep(1000);
       
@@ -305,13 +305,13 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop10");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker榧犳爣鐐瑰嚮
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker鼠标点击
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_10'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1310');
       await Utils.sleep(1000);
       
@@ -330,13 +330,13 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop11");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker榧犳爣鐐瑰嚮
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker鼠标点击
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_11'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1140');
       await Utils.sleep(1000);
       
@@ -355,13 +355,13 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop12");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker榧犳爣鐐瑰嚮
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker鼠标点击
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_12'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0990');
       await Utils.sleep(1000);
       
@@ -380,8 +380,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop13");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker鍚戜笂婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker向上滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_13'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -391,7 +391,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0170');
       await Utils.sleep(1000);
       
@@ -410,8 +410,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop14");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker鍚戜笂婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker向上滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_14'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -421,7 +421,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0330');
       await Utils.sleep(1000);
       
@@ -440,8 +440,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop15");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker鍚戜笅婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker向下滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_15'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -451,7 +451,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1250');
       await Utils.sleep(1000);
       
@@ -470,8 +470,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop16");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker鍚戜笅婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker向下滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_16'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -481,7 +481,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1000');
       await Utils.sleep(1000);
       
@@ -500,8 +500,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop17");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker鍚戜笂婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker向上滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_17'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -511,7 +511,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1390');
       await Utils.sleep(1000);
       
@@ -530,8 +530,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop18");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker鍚戜笂婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker向上滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_18'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -541,7 +541,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1270');
       await Utils.sleep(1000);
       
@@ -560,8 +560,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop19");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker鍚戜笅婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker向下滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_19'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -571,7 +571,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1290');
       await Utils.sleep(1000);
       
@@ -590,8 +590,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop20");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker鍚戜笅婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker向下滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_20'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -601,7 +601,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1450');
       await Utils.sleep(1000);
       
@@ -620,8 +620,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop21");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker鍚戜笂蹇€熸粦鍔?
+      // 1、设置循环滑动状态
+      // 2銆佸崟列TextPicker向上蹇€熸粦鍔?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_21'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -629,7 +629,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.fling({x: centerX, y: centerY}, {x: centerX, y: centerY - 200}, 5, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1420');
       await Utils.sleep(1000);
       
@@ -648,8 +648,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop22");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker鍚戜笂蹇€熸粦鍔?
+      // 1、设置循环滑动状态
+      // 2銆佸崟列TextPicker向上蹇€熸粦鍔?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_22'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -657,7 +657,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.fling({x: centerX, y: centerY}, {x: centerX, y: centerY - 200}, 5, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1280');
       await Utils.sleep(1000);
       
@@ -676,8 +676,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop23");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker鍚戜笅蹇€熸粦鍔?
+      // 1、设置循环滑动状态
+      // 2銆佸崟列TextPicker向下蹇€熸粦鍔?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_23'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -685,7 +685,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.fling({x: centerX, y: centerY}, {x: centerX, y: centerY + 200}, 5, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1410');
       await Utils.sleep(1000);
       
@@ -704,8 +704,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop24");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker鍚戜笅蹇€熸粦鍔?
+      // 1、设置循环滑动状态
+      // 2銆佸崟列TextPicker向下蹇€熸粦鍔?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_24'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -713,7 +713,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.fling({x: centerX, y: centerY}, {x: centerX, y: centerY + 200}, 5, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1430');
       await Utils.sleep(1000);
       
@@ -732,8 +732,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop25");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker鍚戜笂蹇€熸粦鍔?
+      // 1、设置循环滑动状态
+      // 2銆佸列TextPicker向上蹇€熸粦鍔?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_25'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -741,7 +741,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.fling({x: centerX, y: centerY}, {x: centerX, y: centerY - 200}, 5, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0500');
       await Utils.sleep(1000);
       
@@ -760,8 +760,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop26");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker鍚戜笂蹇€熸粦鍔?
+      // 1、设置循环滑动状态
+      // 2銆佸列TextPicker向上蹇€熸粦鍔?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_26'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -769,7 +769,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.fling({x: centerX, y: centerY}, {x: centerX, y: centerY - 200}, 5, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0050');
       await Utils.sleep(1000);
       
@@ -788,8 +788,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop27");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker鍚戜笅蹇€熸粦鍔?
+      // 1、设置循环滑动状态
+      // 2銆佸列TextPicker向下蹇€熸粦鍔?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_27'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -797,7 +797,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.fling({x: centerX, y: centerY}, {x: centerX, y: centerY + 200}, 5, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0100');
       await Utils.sleep(1000);
       
@@ -816,8 +816,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop28");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker鍚戜笅蹇€熸粦鍔?
+      // 1、设置循环滑动状态
+      // 2銆佸列TextPicker向下蹇€熸粦鍔?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_28'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -825,7 +825,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.fling({x: centerX, y: centerY}, {x: centerX, y: centerY + 200}, 5, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0020');
       await Utils.sleep(1000);
       
@@ -844,8 +844,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop29");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker鍚戜笂鎷栨嫿
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker拖拽
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_29'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -855,7 +855,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 500);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0150');
       await Utils.sleep(1000);
       
@@ -874,8 +874,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop30");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker鍚戜笂鎷栨嫿
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker拖拽
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_30'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -885,7 +885,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 500);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0240');
       await Utils.sleep(1000);
       
@@ -904,8 +904,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop31");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker鍚戜笅鎷栨嫿
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker拖拽
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_31'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -915,7 +915,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 500);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0420');
       await Utils.sleep(1000);
       
@@ -934,8 +934,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop32");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker鍚戜笅鎷栨嫿
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker拖拽
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_32'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -945,7 +945,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 500);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0030');
       await Utils.sleep(1000);
       
@@ -964,8 +964,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop33");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker鍚戜笂鎷栨嫿
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker拖拽
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_33'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -975,7 +975,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 500);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0380');
       await Utils.sleep(1000);
       
@@ -994,8 +994,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop34");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker鍚戜笂鎷栨嫿
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker拖拽
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_34'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1005,7 +1005,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 500);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0130');
       await Utils.sleep(1000);
       
@@ -1024,8 +1024,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop35");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker鍚戜笅鎷栨嫿
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker拖拽
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_35'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1035,7 +1035,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 500);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0290');
       await Utils.sleep(1000);
       
@@ -1054,8 +1054,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop36");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker鍚戜笅鎷栨嫿
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker拖拽
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_36'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1065,7 +1065,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 500);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0160');
       await Utils.sleep(1000);
       
@@ -1084,8 +1084,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop37");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker婊戝姩鍒拌竟鐣屽洖寮?
+      // 1、设置循环滑动状态
+      // 2銆佸崟列TextPicker滑动鍒拌竟鐣屽洖寮?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_37'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1095,7 +1095,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0430');
       await Utils.sleep(1000);
       
@@ -1114,8 +1114,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop38");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker婊戝姩鍒拌竟鐣屽洖寮?
+      // 1、设置循环滑动状态
+      // 2銆佸崟列TextPicker滑动鍒拌竟鐣屽洖寮?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_38'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1125,7 +1125,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0140');
       await Utils.sleep(1000);
       
@@ -1144,8 +1144,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop39");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker婊戝姩鍒拌竟鐣屽洖寮?
+      // 1、设置循环滑动状态
+      // 2銆佸列TextPicker滑动鍒拌竟鐣屽洖寮?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_39'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1155,7 +1155,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0280');
       await Utils.sleep(1000);
       
@@ -1174,8 +1174,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop40");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker婊戝姩鍒拌竟鐣屽洖寮?
+      // 1、设置循环滑动状态
+      // 2銆佸列TextPicker滑动鍒拌竟鐣屽洖寮?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_40'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1185,7 +1185,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0410');
       await Utils.sleep(1000);
       
@@ -1204,8 +1204,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop41");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker璺熸墜婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker跟手滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_41'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1215,7 +1215,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 800);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0300');
       await Utils.sleep(1000);
       
@@ -1234,8 +1234,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop42");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker璺熸墜婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker跟手滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_42'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1245,7 +1245,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 800);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0270');
       await Utils.sleep(1000);
       
@@ -1264,8 +1264,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop43");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker璺熸墜婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker跟手滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_43'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1275,7 +1275,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 800);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0510');
       await Utils.sleep(1000);
       
@@ -1294,8 +1294,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop44");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker璺熸墜婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker跟手滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_44'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1305,7 +1305,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 800);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0310');
       await Utils.sleep(1000);
       
@@ -1324,8 +1324,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop45");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker鍙屾寚婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker双指滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_45'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1335,7 +1335,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0440');
       await Utils.sleep(1000);
       
@@ -1354,8 +1354,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop46");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker鍙屾寚婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker双指滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_46'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1365,7 +1365,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0870');
       await Utils.sleep(1000);
       
@@ -1384,8 +1384,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop47");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker鍙屾寚婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker双指滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_47'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1395,7 +1395,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0470');
       await Utils.sleep(1000);
       
@@ -1414,8 +1414,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop48");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker鍙屾寚婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker双指滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_48'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1425,7 +1425,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0680');
       await Utils.sleep(1000);
       
@@ -1444,15 +1444,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop49");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker閿洏宸﹂敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘左键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_49'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_LEFT);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0450');
       await Utils.sleep(1000);
       
@@ -1471,15 +1471,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop50");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker閿洏宸﹂敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘左键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_50'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_LEFT);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0590');
       await Utils.sleep(1000);
       
@@ -1498,15 +1498,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop51");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker閿洏鍙抽敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘右键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_51'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_RIGHT);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0730');
       await Utils.sleep(1000);
       
@@ -1525,15 +1525,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop52");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker閿洏鍙抽敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘右键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_52'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_RIGHT);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0650');
       await Utils.sleep(1000);
       
@@ -1552,15 +1552,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop53");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker閿洏宸﹂敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘左键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_53'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_LEFT);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0630');
       await Utils.sleep(1000);
       
@@ -1579,15 +1579,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop54");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker閿洏宸﹂敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘左键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_54'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_LEFT);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0900');
       await Utils.sleep(1000);
       
@@ -1606,15 +1606,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop55");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker閿洏鍙抽敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘右键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_55'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_RIGHT);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0620');
       await Utils.sleep(1000);
       
@@ -1633,15 +1633,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop56");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker閿洏鍙抽敭
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘右键
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_56'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_RIGHT);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0520');
       await Utils.sleep(1000);
       
@@ -1660,8 +1660,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop57");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker鍙屾寚婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker双指滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_57'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1671,7 +1671,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0640');
       await Utils.sleep(1000);
       
@@ -1690,8 +1690,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop58");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker鍙屾寚婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker双指滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_58'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1701,7 +1701,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0770');
       await Utils.sleep(1000);
       
@@ -1720,8 +1720,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop59");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker鍙屾寚婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker双指滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_59'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1731,7 +1731,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0540');
       await Utils.sleep(1000);
       
@@ -1750,8 +1750,8 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop60");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker鍙屾寚婊戝姩
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker双指滑动
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_60'), 1000);
       let rect = await textPicker.getBounds();
       let centerX = rect.left + (rect.right - rect.left) / 2;
@@ -1761,7 +1761,7 @@ export default function TextPickerOnScrollStopTest() {
       await driver.swipe(centerX, startY, centerX, endY, 1000);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0820');
       await Utils.sleep(1000);
       
@@ -1780,15 +1780,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop61");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker閿洏鍥炶溅閿?
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘回车键?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_61'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_ENTER);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0660');
       await Utils.sleep(1000);
       
@@ -1807,15 +1807,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop62");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker閿洏鍥炶溅閿?
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘回车键?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_62'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_ENTER);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0760');
       await Utils.sleep(1000);
       
@@ -1834,15 +1834,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop63");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸鍒桾extPicker閿洏鍥炶溅閿?
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘回车键?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_63'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_ENTER);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0930');
       await Utils.sleep(1000);
       
@@ -1861,15 +1861,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop64");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸鍒桾extPicker閿洏鍥炶溅閿?
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘回车键?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_64'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_ENTER);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0780');
       await Utils.sleep(1000);
       
@@ -1888,15 +1888,15 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop65");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃潪寰幆婊戝姩鐘舵€?
-      // 2銆佸崟鍒桾extPicker閿洏Tab閿?
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘Tab键?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_65'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0960');
       await Utils.sleep(1000);
       
@@ -1915,22 +1915,276 @@ export default function TextPickerOnScrollStopTest() {
       Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop66");
       await driver.waitForIdle(500, 2000);
       
-      // 1銆佽缃惊鐜粦鍔ㄧ姸鎬?
-      // 2銆佸崟鍒桾extPicker閿洏Tab閿?
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘Tab键?
       let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_66'), 1000);
       await textPicker.click();
       await driver.waitForIdle(500, 2000);
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
       await driver.waitForIdle(500, 2000);
       
-      // 3銆佽瀵無nScrollStop浜嬩欢瑙﹀彂锛堥€氳繃鏃ュ織楠岃瘉锛?
+      // 3、观察onScrollStop事件触发（通过日志验证）
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0910');
+      await Utils.sleep(1000);
+      
+      done();
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0920
+     * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode keyboard tab
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0920', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop67");
+      await driver.waitForIdle(500, 2000);
+      
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘Tab键?
+      let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_67'), 1000);
+      await textPicker.click();
+      await driver.waitForIdle(500, 2000);
+      await driver.triggerKey(KeyCode.KEYCODE_TAB);
+      await driver.waitForIdle(500, 2000);
+      
+      // 3、观察onScrollStop事件触发（通过日志验证）
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0920');
+      await Utils.sleep(1000);
+      
+      done();
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0940
+     * @tc.name   : TextPicker onScrollStop event test - multi column loop mode keyboard tab
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0940', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop68");
+      await driver.waitForIdle(500, 2000);
+      
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘Tab键?
+      let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_68'), 1000);
+      await textPicker.click();
+      await driver.waitForIdle(500, 2000);
+      await driver.triggerKey(KeyCode.KEYCODE_TAB);
+      await driver.waitForIdle(500, 2000);
+      
+      // 3、观察onScrollStop事件触发（通过日志验证）
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0940');
+      await Utils.sleep(1000);
+      
+      done();
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0800
+     * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode keyboard escape
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0800', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop69");
+      await driver.waitForIdle(500, 2000);
+      
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘Escape键?
+      let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_69'), 1000);
+      await textPicker.click();
+      await driver.waitForIdle(500, 2000);
+      await driver.triggerKey(KeyCode.KEYCODE_ESCAPE);
+      await driver.waitForIdle(500, 2000);
+      
+      // 3、观察onScrollStop事件触发（通过日志验证）
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0800');
+      await Utils.sleep(1000);
+      
+      done();
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1170
+     * @tc.name   : TextPicker onScrollStop event test - single column loop mode keyboard escape
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1170', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop70");
+      await driver.waitForIdle(500, 2000);
+      
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘Escape键?
+      let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_70'), 1000);
+      await textPicker.click();
+      await driver.waitForIdle(500, 2000);
+      await driver.triggerKey(KeyCode.KEYCODE_ESCAPE);
+      await driver.waitForIdle(500, 2000);
+      
+      // 3、观察onScrollStop事件触发（通过日志验证）
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1170');
+      await Utils.sleep(1000);
+      
+      done();
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1010
+     * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode keyboard escape
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1010', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop71");
+      await driver.waitForIdle(500, 2000);
+      
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘Escape键?
+      let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_71'), 1000);
+      await textPicker.click();
+      await driver.waitForIdle(500, 2000);
+      await driver.triggerKey(KeyCode.KEYCODE_ESCAPE);
+      await driver.waitForIdle(500, 2000);
+      
+      // 3、观察onScrollStop事件触发（通过日志验证）
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1010');
+      await Utils.sleep(1000);
+      
+      done();
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0790
+     * @tc.name   : TextPicker onScrollStop event test - multi column loop mode keyboard escape
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0790', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop72");
+      await driver.waitForIdle(500, 2000);
+      
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘Escape键?
+      let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_72'), 1000);
+      await textPicker.click();
+      await driver.waitForIdle(500, 2000);
+      await driver.triggerKey(KeyCode.KEYCODE_ESCAPE);
+      await driver.waitForIdle(500, 2000);
+      
+      // 3、观察onScrollStop事件触发（通过日志验证）
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0790');
+      await Utils.sleep(1000);
+      
+      done();
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1360
+     * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode keyboard space
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1360', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop73");
+      await driver.waitForIdle(500, 2000);
+      
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘空格键?
+      let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_73'), 1000);
+      await textPicker.click();
+      await driver.waitForIdle(500, 2000);
+      await driver.triggerKey(KeyCode.KEYCODE_SPACE);
+      await driver.waitForIdle(500, 2000);
+      
+      // 3、观察onScrollStop事件触发（通过日志验证）
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1360');
+      await Utils.sleep(1000);
+      
+      done();
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1400
+     * @tc.name   : TextPicker onScrollStop event test - single column loop mode keyboard space
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1400', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop74");
+      await driver.waitForIdle(500, 2000);
+      
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘空格键?
+      let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_74'), 1000);
+      await textPicker.click();
+      await driver.waitForIdle(500, 2000);
+      await driver.triggerKey(KeyCode.KEYCODE_SPACE);
+      await driver.waitForIdle(500, 2000);
+      
+      // 3、观察onScrollStop事件触发（通过日志验证）
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1400');
+      await Utils.sleep(1000);
+      
+      done();
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1120
+     * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode keyboard space
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1120', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/textPicker_onscrollstop/textPickerOnScrollStop75");
+      await driver.waitForIdle(500, 2000);
+      
+      // 1、设置循环滑动状态
+      // 2、单列TextPicker键盘空格键?
+      let textPicker: Component = await driver.waitForComponent(ON.id('onscrollstop_picker_75'), 1000);
+      await textPicker.click();
+      await driver.waitForIdle(500, 2000);
+      await driver.triggerKey(KeyCode.KEYCODE_SPACE);
+      await driver.waitForIdle(500, 2000);
+      
+      // 3、观察onScrollStop事件触发（通过日志验证）
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1120');
       await Utils.sleep(1000);
       
       done();
     });
   });
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
