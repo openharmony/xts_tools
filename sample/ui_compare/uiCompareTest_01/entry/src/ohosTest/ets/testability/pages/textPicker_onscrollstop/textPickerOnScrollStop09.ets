@@ -19,10 +19,10 @@ import { LengthMetrics } from '@kit.ArkUI';
 @Component
 struct textPickerOnScrollStop09 {
   @State selectedIndex: number = 2;
-  @State private eventLog: string = '绛夊緟onScrollStop浜嬩欢瑙﹀彂...';
-  private range1: string[] = ['閫夐」1', '閫夐」2', '閫夐」3', '閫夐」4', '閫夐」5'];
-  private range2: string[] = ['閫夐」A', '閫夐」B', '閫夐」C', '閫夐」D', '閫夐」E'];
-  private range3: string[] = ['閫夐」X', '閫夐」Y', '閫夐」Z', '閫夐」W', '閫夐」V'];
+  @State private eventLog: string = '等待onScrollStop事件触发...';
+  private range1: string[] = ['选项1', '选项2', '选项3', '选项4', '选项5'];
+  private range2: string[] = ['选项A', '选项B', '选项C', '选项D', '选项E'];
+  private range3: string[] = ['选项X', '选项Y', '选项Z', '选项W', '选项V'];
   private multiRange: string[][] = [this.range1, this.range2, this.range3];
   private multipleColumnWidths: LengthMetrics[] = [
     LengthMetrics.percent(33),
@@ -32,7 +32,7 @@ struct textPickerOnScrollStop09 {
 
   build() {
     Column() {
-      Text('澶氬垪TextPicker闈炲惊鐜ā寮忓崟涓€夐」婊戝姩鍥炲脊娴嬭瘯')
+      Text('多列TextPicker非循环ā寮忓崟涓€夐」滑动回弹测试')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
@@ -43,13 +43,13 @@ struct textPickerOnScrollStop09 {
         .textStyle({ color: Color.Black, font: { size: 18, weight: FontWeight.Normal } })
         .selectedTextStyle({ color: Color.Blue, font: { size: 20, weight: FontWeight.Bold } })
         .defaultPickerItemHeight(50)
-        .canLoop(false) // 闈炲惊鐜ā寮?
+        .canLoop(false) // 非循环ā寮?
         .onChange((value: string | string[], index: number | number[]) => {
           console.info('TextPicker onChange: ' + JSON.stringify(value) + ', index: ' + JSON.stringify(index));
         })
         .onScrollStop((value: string | string[], index: number | number[]) => {
           console.info('TextPicker onScrollStop: ' + JSON.stringify(value) + ', index: ' + JSON.stringify(index));
-          this.eventLog = `鉁?onScrollStop 瑙﹀彂!\n鍊? ${JSON.stringify(value)}\n绱㈠紩: ${JSON.stringify(index)}`;
+          this.eventLog = `鉁? onScrollStop 触发!\\\n值:? ${JSON.stringify(value)}\\n索引: ${JSON.stringify(index)}`;
         })
         .width('90%')
         .height(200)
@@ -57,7 +57,7 @@ struct textPickerOnScrollStop09 {
         .borderRadius(10)
         .margin({ bottom: 20 })
       
-      Text('娴嬭瘯璇存槑: 澶氬垪TextPicker闈炲惊鐜ā寮忥紝鍗曚釜閫夐」婊戝姩鍥炲脊瑙﹀彂onScrollStop浜嬩欢')
+      Text('测试说明: 多列TextPicker非循环ā寮忥紝单个选项滑动回弹触发onScrollStop事件')
         .fontSize(14)
         .fontColor(Color.Gray)
         .textAlign(TextAlign.Center)

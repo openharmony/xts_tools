@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -45,7 +45,7 @@ struct textPickerOnScrollStop03 {
         })
         .onScrollStop((value: string | string[], index: number | number[]) => {
           console.info('TextPicker onScrollStop: ' + value + ', index: ' + index);
-          this.eventLog = `✅ onScrollStop 触发!\n值: ${value}\n索引: ${index}`;
+          this.eventLog = `✅  onScrollStop 触发!\\\n值: ${value}\\n索引: ${index}`;
         })
         .width('80%')
         .height(200)
@@ -77,3 +77,4 @@ struct textPickerOnScrollStop03 {
     .justifyContent(FlexAlign.Center)
   }
 }
+

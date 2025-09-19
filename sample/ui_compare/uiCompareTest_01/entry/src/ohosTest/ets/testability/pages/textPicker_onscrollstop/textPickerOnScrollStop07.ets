@@ -19,15 +19,15 @@ import { LengthMetrics } from '@kit.ArkUI';
 @Component
 struct textPickerOnScrollStop07 {
   @State selectedIndex: number = 2;
-  @State private eventLog: string = '绛夊緟onScrollStop浜嬩欢瑙﹀彂...';
-  private range: string[] = ['閫夐」1', '閫夐」2', '閫夐」3', '閫夐」4', '閫夐」5', '閫夐」6', '閫夐」7', '閫夐」8', '閫夐」9', '閫夐」10'];
+  @State private eventLog: string = '等待onScrollStop事件触发...';
+  private range: string[] = ['选项1', '选项2', '选项3', '选项4', '选项5', '选项6', '选项7', '选项8', '选项9', '选项10'];
   private singleColumnWidths: LengthMetrics[] = [
     LengthMetrics.percent(100)
   ];
 
   build() {
     Column() {
-      Text('鍗曞垪TextPicker寰幆妯″紡閿洏涓婃柟鍚戦敭娴嬭瘯')
+      Text('单列TextPicker寰幆妯″紡閿洏涓婃柟鍚戦敭测试')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
@@ -45,7 +45,7 @@ struct textPickerOnScrollStop07 {
         })
         .onScrollStop((value: string | string[], index: number | number[]) => {
           console.info('TextPicker onScrollStop: ' + value + ', index: ' + index);
-          this.eventLog = `鉁?onScrollStop 瑙﹀彂!\n鍊? ${value}\n绱㈠紩: ${index}`;
+          this.eventLog = `鉁? onScrollStop 触发!\\\n值:? ${value}\\n索引: ${index}`;
         })
         .width('80%')
         .height(200)
@@ -53,7 +53,7 @@ struct textPickerOnScrollStop07 {
         .borderRadius(10)
         .margin({ bottom: 20 })
       
-      Text('娴嬭瘯璇存槑: 鍗曞垪TextPicker寰幆妯″紡锛岄敭鐩樹笂鏂瑰悜閿Е鍙憃nScrollStop浜嬩欢')
+      Text('测试说明: 单列TextPicker寰幆妯″紡锛岄敭鐩樹笂鏂瑰悜閿Е鍙憃nScrollStop事件')
         .fontSize(14)
         .fontColor(Color.Gray)
         .textAlign(TextAlign.Center)

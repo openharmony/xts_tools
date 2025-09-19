@@ -65,10 +65,3 @@ struct textPickerOnScrollStop22 {
   }
 }
 
-
-
-
-
-
-
-
