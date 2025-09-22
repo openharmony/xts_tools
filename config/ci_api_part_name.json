@@ -8279,6 +8279,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/filemanagement/cloud_disk_manager",
+            "bundle_name": [
+                "dfs_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/filemanagement/environment",
             "bundle_name": [
                 "file_api"
