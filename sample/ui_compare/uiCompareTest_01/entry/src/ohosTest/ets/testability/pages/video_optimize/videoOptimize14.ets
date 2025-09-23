@@ -192,7 +192,7 @@ struct videoOptimize14 {
 
         Row() {
           Button('⏹️ 停止播放')
-            .id('stopButton')
+            .id('stopButton_14')
             .width('48%')
             .height(44)
             .fontSize(16)
@@ -209,7 +209,7 @@ struct videoOptimize14 {
             })
           
           Button('👁️ 显示Video')
-            .id('showButton')
+            .id('showButton_14')
             .width('48%')
             .height(44)
             .fontSize(16)
