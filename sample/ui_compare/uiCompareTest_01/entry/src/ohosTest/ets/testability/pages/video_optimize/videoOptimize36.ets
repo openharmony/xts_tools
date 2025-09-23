@@ -57,37 +57,37 @@ struct videoOptimize36 {
       // 页面标题
       Row() {
         Text('🔄')
-          .fontSize(32)
-          .margin({ right: 12 })
+          .fontSize(24)
+          .margin({ right: 8 })
         
         Column() {
           Text('Video组件切换视频源和停止播放重复测试(三Video)')
-            .fontSize(22)
+            .fontSize(16)
             .fontWeight(FontWeight.Bold)
             .fontColor('#2C3E50')
           
           Text('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0360')
-            .fontSize(14)
+            .fontSize(12)
             .fontColor('#7F8C8D')
-            .margin({ top: 4 })
+            .margin({ top: 2 })
         }
         .alignItems(HorizontalAlign.Start)
       }
       .width('100%')
       .justifyContent(FlexAlign.Start)
-      .padding({ bottom: 24 })
+      .padding({ bottom: 8 })
 
       // 视频列表指示器
       Row() {
         ForEach([0, 1, 2], (index: number) => {
-          Circle({ width: 12, height: 12 })
+          Circle({ width: 8, height: 8 })
             .fill(index === 2 ? '#3498DB' : '#BDC3C7')
-            .margin({ left: 6, right: 6 });
+            .margin({ left: 4, right: 4 });
         });
       }
       .width('100%')
       .justifyContent(FlexAlign.Center)
-      .margin({ bottom: 16 })
+      .margin({ bottom: 8 })
 
       // 视频列表
       Column() {
@@ -97,32 +97,32 @@ struct videoOptimize36 {
             .fontSize(16)
             .fontWeight(FontWeight.Medium)
             .fontColor('#34495E')
-            .margin({ bottom: 8 })
+            .margin({ bottom: 4 })
 
           Video({
             src: $rawfile('video1.mp4')
           })
             .width('100%')
-            .height(200)
-            .borderRadius(12)
+            .height(80)
+            .borderRadius(8)
             .shadow({
-              radius: 6,
+              radius: 4,
               color: '#1F000000',
               offsetX: 0,
-              offsetY: 3
+              offsetY: 2
             })
         }
         .width('100%')
-        .padding(16)
+        .padding(6)
         .backgroundColor(Color.White)
-        .borderRadius(16)
+        .borderRadius(8)
         .shadow({
-          radius: 8,
+          radius: 4,
           color: '#1A000000',
           offsetX: 0,
-          offsetY: 4
+          offsetY: 2
         })
-        .margin({ bottom: 16 })
+        .margin({ bottom: 4 })
 
         // 视频2
         Column() {
@@ -130,32 +130,32 @@ struct videoOptimize36 {
             .fontSize(16)
             .fontWeight(FontWeight.Medium)
             .fontColor('#34495E')
-            .margin({ bottom: 8 })
+            .margin({ bottom: 4 })
 
           Video({
             src: $rawfile('video2.mp4')
           })
             .width('100%')
-            .height(200)
-            .borderRadius(12)
+            .height(80)
+            .borderRadius(8)
             .shadow({
-              radius: 6,
+              radius: 4,
               color: '#1F000000',
               offsetX: 0,
-              offsetY: 3
+              offsetY: 2
             })
         }
         .width('100%')
-        .padding(16)
+        .padding(6)
         .backgroundColor(Color.White)
-        .borderRadius(16)
+        .borderRadius(8)
         .shadow({
-          radius: 8,
+          radius: 4,
           color: '#1A000000',
           offsetX: 0,
-          offsetY: 4
+          offsetY: 2
         })
-        .margin({ bottom: 16 })
+        .margin({ bottom: 4 })
 
         // 视频3 (主要测试视频)
         Column() {
@@ -174,7 +174,7 @@ struct videoOptimize36 {
           }
           .width('100%')
           .justifyContent(FlexAlign.SpaceBetween)
-          .margin({ bottom: 8 })
+          .margin({ bottom: 4 })
 
           Video({
             src: this.videoSrc,
@@ -182,13 +182,13 @@ struct videoOptimize36 {
           })
             .id('video_36')
             .width('100%')
-            .height(200)
-            .borderRadius(12)
+            .height(120)
+            .borderRadius(8)
             .shadow({
-              radius: 6,
+              radius: 4,
               color: '#1F000000',
               offsetX: 0,
-              offsetY: 3
+              offsetY: 2
             })
             .border({
               width: 2,
@@ -213,34 +213,34 @@ struct videoOptimize36 {
             })
         }
         .width('100%')
-        .padding(16)
+        .padding(6)
         .backgroundColor(Color.White)
-        .borderRadius(16)
+        .borderRadius(8)
         .shadow({
-          radius: 8,
+          radius: 4,
           color: '#1A000000',
           offsetX: 0,
-          offsetY: 4
+          offsetY: 2
         })
       }
       .width('100%')
-      .margin({ bottom: 24 })
+      .margin({ bottom: 8 })
 
       // 重复测试信息
       Column() {
         Text('🔄 重复测试信息')
-          .fontSize(18)
+          .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .fontColor('#2C3E50')
-          .margin({ bottom: 16 })
+          .margin({ bottom: 4 })
 
         Row() {
           Column() {
             Text('重复次数')
-              .fontSize(12)
+              .fontSize(10)
               .fontColor('#7F8C8D')
             Text(`${this.repeatCount}/5`)
-              .fontSize(20)
+              .fontSize(16)
               .fontWeight(FontWeight.Bold)
               .fontColor('#3498DB')
           }
@@ -248,10 +248,10 @@ struct videoOptimize36 {
 
           Column() {
             Text('操作次数')
-              .fontSize(12)
+              .fontSize(10)
               .fontColor('#7F8C8D')
             Text(`${this.operationCount}`)
-              .fontSize(20)
+              .fontSize(16)
               .fontWeight(FontWeight.Bold)
               .fontColor('#E74C3C')
           }
@@ -259,10 +259,10 @@ struct videoOptimize36 {
 
           Column() {
             Text('视频时长')
-              .fontSize(12)
+              .fontSize(10)
               .fontColor('#7F8C8D')
             Text(`${Math.floor(this.duration)}秒`)
-              .fontSize(20)
+              .fontSize(16)
               .fontWeight(FontWeight.Bold)
               .fontColor('#9B59B6')
           }
@@ -344,21 +344,21 @@ struct videoOptimize36 {
       // 控制面板
       Column() {
         Text('🎮 控制面板')
-          .fontSize(18)
+          .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .fontColor('#2C3E50')
-          .margin({ bottom: 16 })
+          .margin({ bottom: 4 })
 
         Row() {
           Button('🔄 切换成视频源video4')
-            .id('switchButton')
+            .id('switchButton_36')
             .width('48%')
-            .height(44)
-            .fontSize(16)
+            .height(32)
+            .fontSize(12)
             .fontWeight(FontWeight.Medium)
             .backgroundColor('#3498DB')
             .fontColor(Color.White)
-            .borderRadius(8)
+            .borderRadius(6)
             .onClick(() => {
               this.videoSrc = $rawfile('video4.mp4');
               this.operationCount++;
@@ -370,14 +370,14 @@ struct videoOptimize36 {
             })
 
           Button('⏹️ 停止播放')
-            .id('stopButton')
+            .id('stopButton_36')
             .width('48%')
-            .height(44)
-            .fontSize(16)
+            .height(32)
+            .fontSize(12)
             .fontWeight(FontWeight.Medium)
             .backgroundColor('#E74C3C')
             .fontColor(Color.White)
-            .borderRadius(8)
+            .borderRadius(6)
             .onClick(() => {
               this.controller.stop();
               this.operationCount++;
@@ -389,95 +389,95 @@ struct videoOptimize36 {
         .justifyContent(FlexAlign.SpaceBetween)
       }
       .width('100%')
-      .padding(20)
+      .padding(8)
       .backgroundColor(Color.White)
-      .borderRadius(16)
+      .borderRadius(8)
       .shadow({
-        radius: 8,
+        radius: 4,
         color: '#1A000000',
         offsetX: 0,
-        offsetY: 4
+        offsetY: 2
       })
-      .margin({ bottom: 24 })
+      .margin({ bottom: 8 })
 
       // 操作序列记录
       Column() {
         Text('📝 操作序列')
-          .fontSize(18)
+          .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .fontColor('#2C3E50')
-          .margin({ bottom: 16 })
+          .margin({ bottom: 4 })
 
         Text(this.operationSequence.length > 0 ? this.operationSequence.join('\\n') : '暂无操作记录')
-          .fontSize(14)
+          .fontSize(12)
           .fontColor('#5D6D7E')
-          .lineHeight(20)
+          .lineHeight(16)
           .textAlign(TextAlign.Start)
           .width('100%')
-          .padding(16)
+          .padding(8)
           .backgroundColor('#F8F9FA')
-          .borderRadius(8)
+          .borderRadius(6)
           .border({ width: 1, color: '#E9ECEF' })
       }
       .width('100%')
-      .padding(20)
+      .padding(8)
       .backgroundColor(Color.White)
-      .borderRadius(16)
+      .borderRadius(8)
       .shadow({
-        radius: 8,
+        radius: 4,
         color: '#1A000000',
         offsetX: 0,
-        offsetY: 4
+        offsetY: 2
       })
-      .margin({ bottom: 24 })
+      .margin({ bottom: 8 })
 
       // 事件历史记录
       Column() {
         Text('📝 事件历史')
-          .fontSize(18)
+          .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .fontColor('#2C3E50')
-          .margin({ bottom: 16 })
+          .margin({ bottom: 4 })
 
         Text(this.eventHistory.length > 0 ? this.eventHistory.join('\\n') : '暂无事件记录')
-          .fontSize(14)
+          .fontSize(12)
           .fontColor('#5D6D7E')
-          .lineHeight(20)
+          .lineHeight(16)
           .textAlign(TextAlign.Start)
           .width('100%')
-          .padding(16)
+          .padding(8)
           .backgroundColor('#F8F9FA')
-          .borderRadius(8)
+          .borderRadius(6)
           .border({ width: 1, color: '#E9ECEF' })
       }
       .width('100%')
-      .padding(20)
+      .padding(8)
       .backgroundColor(Color.White)
-      .borderRadius(16)
+      .borderRadius(8)
       .shadow({
-        radius: 8,
+        radius: 4,
         color: '#1A000000',
         offsetX: 0,
-        offsetY: 4
+        offsetY: 2
       })
-      .margin({ bottom: 24 })
+      .margin({ bottom: 8 })
 
       // 状态显示区域
       Column() {
         Text('📊 状态信息')
-          .fontSize(18)
+          .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .fontColor('#2C3E50')
-          .margin({ bottom: 16 })
+          .margin({ bottom: 4 })
 
         // 操作统计
         Row() {
           Column() {
             Text('操作次数')
-              .fontSize(12)
+              .fontSize(10)
               .fontColor('#7F8C8D')
             Text(`${this.operationCount}`)
-              .fontSize(20)
+              .fontSize(16)
               .fontWeight(FontWeight.Bold)
               .fontColor('#3498DB')
           }
@@ -485,10 +485,10 @@ struct videoOptimize36 {
 
           Column() {
             Text('事件数量')
-              .fontSize(12)
+              .fontSize(10)
               .fontColor('#7F8C8D')
             Text(`${this.eventHistory.length}`)
-              .fontSize(20)
+              .fontSize(16)
               .fontWeight(FontWeight.Bold)
               .fontColor('#9B59B6')
           }
@@ -496,10 +496,10 @@ struct videoOptimize36 {
 
           Column() {
             Text('当前源')
-              .fontSize(12)
+              .fontSize(10)
               .fontColor('#7F8C8D')
             Text(this.currentVideoIndex === 0 ? 'video1' : 'video4')
-              .fontSize(16)
+              .fontSize(14)
               .fontWeight(FontWeight.Medium)
               .fontColor('#E67E22')
           }
@@ -507,61 +507,61 @@ struct videoOptimize36 {
         }
         .width('100%')
         .justifyContent(FlexAlign.SpaceAround)
-        .margin({ bottom: 16 })
+        .margin({ bottom: 4 })
 
         // 事件日志
         Text(this.eventLog)
-          .fontSize(14)
+          .fontSize(12)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)
           .width('100%')
-          .padding(16)
+          .padding(6)
           .backgroundColor('#F8F9FA')
-          .borderRadius(8)
+          .borderRadius(6)
           .border({ width: 1, color: '#E9ECEF' })
       }
       .width('100%')
-      .padding(20)
+      .padding(8)
       .backgroundColor(Color.White)
-      .borderRadius(16)
+      .borderRadius(8)
       .shadow({
-        radius: 8,
+        radius: 4,
         color: '#1A000000',
         offsetX: 0,
-        offsetY: 4
+        offsetY: 2
       })
-      .margin({ bottom: 24 })
+      .margin({ bottom: 8 })
 
       // 测试说明
       Column() {
         Text('📋 测试说明')
-          .fontSize(18)
+          .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .fontColor('#2C3E50')
-          .margin({ bottom: 16 })
+          .margin({ bottom: 4 })
 
         Text('1. 查看三个视频的展示效果\\n2. 点击"切换成视频源video4"按钮切换第三个视频源\\n3. 点击"停止播放"按钮停止第三个视频播放\\n4. 重复以上操作5次\\n5. 观察onPrepared事件是否正确触发')
-          .fontSize(14)
+          .fontSize(12)
           .fontColor('#5D6D7E')
-          .lineHeight(20)
+          .lineHeight(16)
           .textAlign(TextAlign.Start)
           .width('100%')
       }
       .width('100%')
-      .padding(20)
+      .padding(8)
       .backgroundColor(Color.White)
-      .borderRadius(16)
+      .borderRadius(8)
       .shadow({
-        radius: 8,
+        radius: 4,
         color: '#1A000000',
         offsetX: 0,
-        offsetY: 4
+        offsetY: 2
       })
     }
     .width('100%')
     .height('100%')
     .backgroundColor('#F5F7FA')
-    .padding(20)
+    .padding(8)
     .justifyContent(FlexAlign.Start)
   }
 }

@@ -206,7 +206,7 @@ struct videoOptimize31 {
 
         Row() {
           Button('⏩ 跳转到第10s')
-            .id('seekButton')
+            .id('seekButton_31')
             .width('48%')
             .height(44)
             .fontSize(16)
@@ -223,7 +223,7 @@ struct videoOptimize31 {
             })
 
           Button('🔄 重置AVPlayer')
-            .id('resetButton')
+            .id('resetButton_31')
             .width('48%')
             .height(44)
             .fontSize(16)

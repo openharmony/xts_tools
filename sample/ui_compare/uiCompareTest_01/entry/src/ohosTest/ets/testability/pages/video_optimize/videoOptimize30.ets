@@ -55,37 +55,37 @@ struct videoOptimize30 {
       // 页面标题
       Row() {
         Text('⏹️')
-          .fontSize(32)
-          .margin({ right: 12 })
+          .fontSize(24)
+          .margin({ right: 8 })
         
         Column() {
           Text('Video组件onStop事件重复测试(三Video)')
-            .fontSize(22)
+            .fontSize(16)
             .fontWeight(FontWeight.Bold)
             .fontColor('#2C3E50')
           
           Text('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0300')
-            .fontSize(14)
+            .fontSize(12)
             .fontColor('#7F8C8D')
-            .margin({ top: 4 })
+            .margin({ top: 2 })
         }
         .alignItems(HorizontalAlign.Start)
       }
       .width('100%')
       .justifyContent(FlexAlign.Start)
-      .padding({ bottom: 24 })
+      .padding({ bottom: 16 })
 
       // 视频列表指示器
       Row() {
         ForEach([0, 1, 2], (index: number) => {
-          Circle({ width: 12, height: 12 })
+          Circle({ width: 8, height: 8 })
             .fill(index === 2 ? '#3498DB' : '#BDC3C7')
-            .margin({ left: 6, right: 6 });
+            .margin({ left: 4, right: 4 });
         });
       }
       .width('100%')
       .justifyContent(FlexAlign.Center)
-      .margin({ bottom: 16 })
+      .margin({ bottom: 12 })
 
       // 视频列表
       Column() {
@@ -101,26 +101,26 @@ struct videoOptimize30 {
             src: $rawfile('video1.mp4')
           })
             .width('100%')
-            .height(200)
-            .borderRadius(12)
+            .height(100)
+            .borderRadius(8)
             .shadow({
-              radius: 6,
+              radius: 4,
               color: '#1F000000',
               offsetX: 0,
-              offsetY: 3
+              offsetY: 2
             })
         }
         .width('100%')
-        .padding(16)
+        .padding(8)
         .backgroundColor(Color.White)
-        .borderRadius(16)
+        .borderRadius(8)
         .shadow({
-          radius: 8,
+          radius: 4,
           color: '#1A000000',
           offsetX: 0,
-          offsetY: 4
+          offsetY: 2
         })
-        .margin({ bottom: 16 })
+        .margin({ bottom: 8 })
 
         // 视频2
         Column() {
@@ -134,26 +134,26 @@ struct videoOptimize30 {
             src: $rawfile('video2.mp4')
           })
             .width('100%')
-            .height(200)
-            .borderRadius(12)
+            .height(100)
+            .borderRadius(8)
             .shadow({
-              radius: 6,
+              radius: 4,
               color: '#1F000000',
               offsetX: 0,
-              offsetY: 3
+              offsetY: 2
             })
         }
         .width('100%')
-        .padding(16)
+        .padding(8)
         .backgroundColor(Color.White)
-        .borderRadius(16)
+        .borderRadius(8)
         .shadow({
-          radius: 8,
+          radius: 4,
           color: '#1A000000',
           offsetX: 0,
-          offsetY: 4
+          offsetY: 2
         })
-        .margin({ bottom: 16 })
+        .margin({ bottom: 8 })
 
         // 视频3 (主要测试视频)
         Column() {
@@ -181,13 +181,13 @@ struct videoOptimize30 {
           })
             .id('video_30')
             .width('100%')
-            .height(200)
-            .borderRadius(12)
+            .height(100)
+            .borderRadius(8)
             .shadow({
-              radius: 6,
+              radius: 4,
               color: '#1F000000',
               offsetX: 0,
-              offsetY: 3
+              offsetY: 2
             })
             .border({
               width: 2,
@@ -221,7 +221,7 @@ struct videoOptimize30 {
         })
       }
       .width('100%')
-      .margin({ bottom: 24 })
+      .margin({ bottom: 12 })
 
       // 重复测试信息
       Column() {
@@ -289,7 +289,7 @@ struct videoOptimize30 {
           .margin({ bottom: 16 })
 
         Button('⏹️ 停止播放')
-          .id('stopButton')
+          .id('stopButton_30')
           .width('100%')
           .height(50)
           .fontSize(18)

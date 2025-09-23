@@ -201,7 +201,7 @@ struct videoOptimize27 {
 
         Row() {
           Button('🔄 重置AVPlayer')
-            .id('resetButton')
+            .id('resetButton_27')
             .width('30%')
             .height(44)
             .fontSize(14)
@@ -218,7 +218,7 @@ struct videoOptimize27 {
             })
           
           Button('🎯 打开自动播放')
-            .id('enableAutoPlayButton')
+            .id('enableAutoPlayButton_27')
             .width('30%')
             .height(44)
             .fontSize(14)
@@ -235,7 +235,7 @@ struct videoOptimize27 {
             })
           
           Button('🚫 关闭自动播放')
-            .id('disableAutoPlayButton')
+            .id('disableAutoPlayButton_27')
             .width('30%')
             .height(44)
             .fontSize(14)
