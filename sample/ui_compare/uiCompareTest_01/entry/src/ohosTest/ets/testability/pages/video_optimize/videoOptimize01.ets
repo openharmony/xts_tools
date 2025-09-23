@@ -37,25 +37,25 @@ struct videoOptimize01 {
       // 页面标题
       Row() {
         Text('🎬')
-          .fontSize(32)
-          .margin({ right: 12 })
+          .fontSize(24)
+          .margin({ right: 8 })
         
         Column() {
           Text('Video组件重置AVPlayer和自动播放测试')
-            .fontSize(22)
+            .fontSize(16)
             .fontWeight(FontWeight.Bold)
             .fontColor('#2C3E50')
           
           Text('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0010')
-            .fontSize(14)
+            .fontSize(12)
             .fontColor('#7F8C8D')
-            .margin({ top: 4 })
+            .margin({ top: 2 })
         }
         .alignItems(HorizontalAlign.Start)
       }
       .width('100%')
       .justifyContent(FlexAlign.Start)
-      .padding({ bottom: 24 })
+      .padding({ bottom: 16 })
 
       // 视频播放区域
       Column() {
@@ -65,14 +65,14 @@ struct videoOptimize01 {
         })
           .id('video_01')
           .width('100%')
-          .height(300)
+          .height(180)
           .autoPlay(this.isAutoPlay)
-          .borderRadius(12)
+          .borderRadius(8)
           .shadow({
-            radius: 8,
+            radius: 6,
             color: '#1F000000',
             offsetX: 0,
-            offsetY: 4
+            offsetY: 3
           })
           .onPrepared((e?: PreparedInfo) => {
             console.info('Video onPrepared: ' + JSON.stringify(e));
@@ -86,49 +86,49 @@ struct videoOptimize01 {
 
         // 视频状态指示器
         Row() {
-          Circle({ width: 12, height: 12 })
+          Circle({ width: 8, height: 8 })
             .fill(this.videoStatus === 'success' ? '#27AE60' : 
                   this.videoStatus === 'error' ? '#E74C3C' : 
                   this.videoStatus === 'loading' ? '#F39C12' : '#95A5A6')
-            .margin({ right: 8 })
+            .margin({ right: 6 })
           
           Text(`视频状态: ${this.getStatusText()}`)
-            .fontSize(14)
+            .fontSize(12)
             .fontColor('#34495E')
         }
-        .margin({ top: 12 })
+        .margin({ top: 8 })
         .justifyContent(FlexAlign.Center)
       }
       .width('100%')
-      .padding(16)
+      .padding(12)
       .backgroundColor(Color.White)
-      .borderRadius(16)
+      .borderRadius(12)
       .shadow({
-        radius: 12,
+        radius: 8,
         color: '#1A000000',
         offsetX: 0,
-        offsetY: 6
+        offsetY: 4
       })
-      .margin({ bottom: 24 })
+      .margin({ bottom: 16 })
 
       // 控制面板
       Column() {
         Text('🎮 控制面板')
-          .fontSize(18)
+          .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .fontColor('#2C3E50')
-          .margin({ bottom: 16 })
+          .margin({ bottom: 12 })
 
         Row() {
           Button('🔄 重置AVPlayer')
-            .id('resetButton')
+            .id('resetButton_01')
             .width('48%')
-            .height(44)
-            .fontSize(16)
+            .height(36)
+            .fontSize(14)
             .fontWeight(FontWeight.Medium)
             .backgroundColor('#3498DB')
             .fontColor(Color.White)
-            .borderRadius(8)
+            .borderRadius(6)
             .onClick(() => {
               this.controller.reset();
               this.operationCount++;
@@ -137,14 +137,14 @@ struct videoOptimize01 {
             })
           
           Button('🎯 打开自动播放')
-            .id('autoPlayButton')
+            .id('autoPlayButton_01')
             .width('48%')
-            .height(44)
-            .fontSize(16)
+            .height(36)
+            .fontSize(14)
             .fontWeight(FontWeight.Medium)
             .backgroundColor('#27AE60')
             .fontColor(Color.White)
-            .borderRadius(8)
+            .borderRadius(6)
             .onClick(() => {
               this.isAutoPlay = true;
               this.operationCount++;
@@ -156,33 +156,33 @@ struct videoOptimize01 {
         .justifyContent(FlexAlign.SpaceBetween)
       }
       .width('100%')
-      .padding(20)
+      .padding(16)
       .backgroundColor(Color.White)
-      .borderRadius(16)
+      .borderRadius(12)
       .shadow({
-        radius: 8,
+        radius: 6,
         color: '#1A000000',
         offsetX: 0,
-        offsetY: 4
+        offsetY: 3
       })
-      .margin({ bottom: 24 })
+      .margin({ bottom: 16 })
 
       // 状态显示区域
       Column() {
         Text('📊 状态信息')
-          .fontSize(18)
+          .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .fontColor('#2C3E50')
-          .margin({ bottom: 16 })
+          .margin({ bottom: 12 })
 
         // 操作统计
         Row() {
           Column() {
             Text('操作次数')
-              .fontSize(12)
+              .fontSize(10)
               .fontColor('#7F8C8D')
             Text(`${this.operationCount}`)
-              .fontSize(20)
+              .fontSize(16)
               .fontWeight(FontWeight.Bold)
               .fontColor('#3498DB')
           }
@@ -190,10 +190,10 @@ struct videoOptimize01 {
 
           Column() {
             Text('自动播放')
-              .fontSize(12)
+              .fontSize(10)
               .fontColor('#7F8C8D')
             Text(this.isAutoPlay ? '已启用' : '已禁用')
-              .fontSize(16)
+              .fontSize(14)
               .fontWeight(FontWeight.Medium)
               .fontColor(this.isAutoPlay ? '#27AE60' : '#E74C3C')
           }
@@ -201,10 +201,10 @@ struct videoOptimize01 {
 
           Column() {
             Text('视频状态')
-              .fontSize(12)
+              .fontSize(10)
               .fontColor('#7F8C8D')
             Text(this.getStatusText())
-              .fontSize(16)
+              .fontSize(14)
               .fontWeight(FontWeight.Medium)
               .fontColor('#34495E')
           }
@@ -212,61 +212,61 @@ struct videoOptimize01 {
         }
         .width('100%')
         .justifyContent(FlexAlign.SpaceAround)
-        .margin({ bottom: 16 })
+        .margin({ bottom: 12 })
 
         // 事件日志
         Text(this.eventLog)
-          .fontSize(14)
+          .fontSize(12)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)
           .width('100%')
-          .padding(16)
+          .padding(12)
           .backgroundColor('#F8F9FA')
-          .borderRadius(8)
+          .borderRadius(6)
           .border({ width: 1, color: '#E9ECEF' })
       }
       .width('100%')
-      .padding(20)
+      .padding(16)
       .backgroundColor(Color.White)
-      .borderRadius(16)
+      .borderRadius(12)
       .shadow({
-        radius: 8,
+        radius: 6,
         color: '#1A000000',
         offsetX: 0,
-        offsetY: 4
+        offsetY: 3
       })
-      .margin({ bottom: 24 })
+      .margin({ bottom: 16 })
 
       // 测试说明
       Column() {
         Text('📋 测试说明')
-          .fontSize(18)
+          .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .fontColor('#2C3E50')
-          .margin({ bottom: 16 })
+          .margin({ bottom: 12 })
 
         Text('1. 点击"重置AVPlayer"按钮重置视频播放器\\n2. 点击"打开自动播放"按钮启用自动播放\\n3. 观察视频是否自动开始播放\\n4. 检查onPrepared事件是否正确触发')
-          .fontSize(14)
+          .fontSize(12)
           .fontColor('#5D6D7E')
-          .lineHeight(20)
+          .lineHeight(16)
           .textAlign(TextAlign.Start)
           .width('100%')
       }
       .width('100%')
-      .padding(20)
+      .padding(16)
       .backgroundColor(Color.White)
-      .borderRadius(16)
+      .borderRadius(12)
       .shadow({
-        radius: 8,
+        radius: 6,
         color: '#1A000000',
         offsetX: 0,
-        offsetY: 4
+        offsetY: 3
       })
     }
     .width('100%')
     .height('100%')
     .backgroundColor('#F5F7FA')
-    .padding(20)
+    .padding(16)
     .justifyContent(FlexAlign.Start)
   }
 }

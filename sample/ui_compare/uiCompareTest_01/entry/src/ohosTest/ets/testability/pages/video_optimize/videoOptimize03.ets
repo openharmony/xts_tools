@@ -131,7 +131,7 @@ struct videoOptimize03 {
 
         Row() {
           Button('⏹️ 停止播放')
-            .id('stopButton')
+            .id('stopButton_03')
             .width('30%')
             .height(44)
             .fontSize(14)
@@ -148,7 +148,7 @@ struct videoOptimize03 {
             })
           
           Button('🔄 重置AVPlayer')
-            .id('resetButton')
+            .id('resetButton_03')
             .width('30%')
             .height(44)
             .fontSize(14)
@@ -165,7 +165,7 @@ struct videoOptimize03 {
             })
           
           Button('🎯 打开自动播放')
-            .id('autoPlayButton')
+            .id('autoPlayButton_03')
             .width('30%')
             .height(44)
             .fontSize(14)

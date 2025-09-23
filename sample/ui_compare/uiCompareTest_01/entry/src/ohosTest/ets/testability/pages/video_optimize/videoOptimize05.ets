@@ -135,7 +135,7 @@ struct videoOptimize05 {
           .margin({ bottom: 16 })
 
         Button('⏹️ 停止播放')
-          .id('stopButton')
+          .id('stopButton_05')
           .width('100%')
           .height(50)
           .fontSize(18)
