@@ -220,7 +220,7 @@ struct videoOptimize25 {
 
         Row() {
           Button('▶️ 开始播放')
-            .id('startButton')
+            .id('startButton_25')
             .width('30%')
             .height(44)
             .fontSize(14)
@@ -235,7 +235,7 @@ struct videoOptimize25 {
             })
           
           Button('⏹️ 停止播放')
-            .id('stopButton')
+            .id('stopButton_25')
             .width('30%')
             .height(44)
             .fontSize(14)
@@ -250,7 +250,7 @@ struct videoOptimize25 {
             })
           
           Button('🔄 切换成视频源video4')
-            .id('switchButton')
+            .id('switchButton_25')
             .width('30%')
             .height(44)
             .fontSize(14)

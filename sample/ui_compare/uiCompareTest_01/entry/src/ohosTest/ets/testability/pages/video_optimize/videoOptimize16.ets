@@ -200,7 +200,7 @@ struct videoOptimize16 {
           .margin({ bottom: 16 })
 
         Button('🔄 切换成视频源video4')
-          .id('switchButton')
+          .id('switchButton_16')
           .width('100%')
           .height(50)
           .fontSize(18)
