@@ -17,7 +17,7 @@ import { ConfigurationConstant, } from '@kit.AbilityKit';
 
 @Entry
 @Component
-struct RichEditor016_3900 {
+struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0017 {
   // 创建RichEditor控制器
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
