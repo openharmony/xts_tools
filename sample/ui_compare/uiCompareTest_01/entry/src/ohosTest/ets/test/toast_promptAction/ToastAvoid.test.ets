@@ -1981,5 +1981,393 @@ export default function ToastAvoidTest () {
         expect().assertFail();
       }
     });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0920
+     * @tc.name   : Toast alignment BottomStart with bottom 80, delayed popup test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0920', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/toast_promptAction/toastAvoid47");
+      await driver.waitForIdle(500, 2000);
+
+      try {
+        console.info('TEST_0920: 开始查找Toast按钮 (toastButton_47)');
+        let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_47'), 1000);
+        console.info('TEST_0920: 成功找到Toast按钮');
+
+        console.info('TEST_0920: 开始查找键盘按钮 (keyboardButton_47)');
+        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_47'), 1000);
+        console.info('TEST_0920: 成功找到键盘按钮');
+
+        console.info('TEST_0920: 开始点击Toast按钮');
+        await toastButton.click();
+        console.info('TEST_0920: Toast按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        console.info('TEST_0920: 开始点击键盘按钮');
+        await keyboardButton.click();
+        console.info('TEST_0920: 键盘按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0920');
+        await Utils.sleep(1000);
+
+        console.info('TEST_0920: 测试用例执行成功');
+        done();
+      } catch (error) {
+        console.error('TEST_0920: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_0920: 错误堆栈: ' + error.message);
+        expect().assertFail();
+      }
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0930
+     * @tc.name   : Toast alignment BottomStart with bottom 80, keyboard avoidance test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0930', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/toast_promptAction/toastAvoid48");
+      await driver.waitForIdle(500, 2000);
+
+      try {
+        console.info('TEST_0930: 开始查找Toast按钮 (toastButton_48)');
+        let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_48'), 1000);
+        console.info('TEST_0930: 成功找到Toast按钮');
+
+        console.info('TEST_0930: 开始查找键盘按钮 (keyboardButton_48)');
+        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_48'), 1000);
+        console.info('TEST_0930: 成功找到键盘按钮');
+
+        console.info('TEST_0930: 开始点击Toast按钮');
+        await toastButton.click();
+        console.info('TEST_0930: Toast按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        console.info('TEST_0930: 开始点击键盘按钮');
+        await keyboardButton.click();
+        console.info('TEST_0930: 键盘按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0930');
+        await Utils.sleep(1000);
+
+        console.info('TEST_0930: 测试用例执行成功');
+        done();
+      } catch (error) {
+        console.error('TEST_0930: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_0930: 错误堆栈: ' + error.message);
+        expect().assertFail();
+      }
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0940
+     * @tc.name   : Toast alignment Bottom with bottom 80, keyboard first then toast test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0940', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/toast_promptAction/toastAvoid49");
+      await driver.waitForIdle(500, 2000);
+
+      try {
+        console.info('TEST_0940: 开始查找Toast按钮 (toastButton_49)');
+        let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_49'), 1000);
+        console.info('TEST_0940: 成功找到Toast按钮');
+
+        console.info('TEST_0940: 开始查找键盘按钮 (keyboardButton_49)');
+        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_49'), 1000);
+        console.info('TEST_0940: 成功找到键盘按钮');
+
+        console.info('TEST_0940: 开始点击Toast按钮');
+        await toastButton.click();
+        console.info('TEST_0940: Toast按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        console.info('TEST_0940: 开始点击键盘按钮');
+        await keyboardButton.click();
+        console.info('TEST_0940: 键盘按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0940');
+        await Utils.sleep(1000);
+
+        console.info('TEST_0940: 测试用例执行成功');
+        done();
+      } catch (error) {
+        console.error('TEST_0940: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_0940: 错误堆栈: ' + error.message);
+        expect().assertFail();
+      }
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0950
+     * @tc.name   : Toast alignment Bottom with bottom 80, keyboard avoidance test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0950', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/toast_promptAction/toastAvoid50");
+      await driver.waitForIdle(500, 2000);
+
+      try {
+        console.info('TEST_0950: 开始查找Toast按钮 (toastButton_50)');
+        let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_50'), 1000);
+        console.info('TEST_0950: 成功找到Toast按钮');
+
+        console.info('TEST_0950: 开始查找键盘按钮 (keyboardButton_50)');
+        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_50'), 1000);
+        console.info('TEST_0950: 成功找到键盘按钮');
+
+        console.info('TEST_0950: 开始点击Toast按钮');
+        await toastButton.click();
+        console.info('TEST_0950: Toast按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        console.info('TEST_0950: 开始点击键盘按钮');
+        await keyboardButton.click();
+        console.info('TEST_0950: 键盘按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0950');
+        await Utils.sleep(1000);
+
+        console.info('TEST_0950: 测试用例执行成功');
+        done();
+      } catch (error) {
+        console.error('TEST_0950: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_0950: 错误堆栈: ' + error.message);
+        expect().assertFail();
+      }
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0960
+     * @tc.name   : Toast alignment End with bottom 80, position unchanged test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0960', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/toast_promptAction/toastAvoid51");
+      await driver.waitForIdle(500, 2000);
+
+      try {
+        console.info('TEST_0960: 开始查找Toast按钮 (toastButton_51)');
+        let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_51'), 1000);
+        console.info('TEST_0960: 成功找到Toast按钮');
+
+        console.info('TEST_0960: 开始查找键盘按钮 (keyboardButton_51)');
+        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_51'), 1000);
+        console.info('TEST_0960: 成功找到键盘按钮');
+
+        console.info('TEST_0960: 开始点击Toast按钮');
+        await toastButton.click();
+        console.info('TEST_0960: Toast按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        console.info('TEST_0960: 开始点击键盘按钮');
+        await keyboardButton.click();
+        console.info('TEST_0960: 键盘按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0960');
+        await Utils.sleep(1000);
+
+        console.info('TEST_0960: 测试用例执行成功');
+        done();
+      } catch (error) {
+        console.error('TEST_0960: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_0960: 错误堆栈: ' + error.message);
+        expect().assertFail();
+      }
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0970
+     * @tc.name   : Toast alignment Start with bottom 80, position unchanged test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0970', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/toast_promptAction/toastAvoid52");
+      await driver.waitForIdle(500, 2000);
+
+      try {
+        console.info('TEST_0970: 开始查找Toast按钮 (toastButton_52)');
+        let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_52'), 1000);
+        console.info('TEST_0970: 成功找到Toast按钮');
+
+        console.info('TEST_0970: 开始查找键盘按钮 (keyboardButton_52)');
+        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_52'), 1000);
+        console.info('TEST_0970: 成功找到键盘按钮');
+
+        console.info('TEST_0970: 开始点击Toast按钮');
+        await toastButton.click();
+        console.info('TEST_0970: Toast按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        console.info('TEST_0970: 开始点击键盘按钮');
+        await keyboardButton.click();
+        console.info('TEST_0970: 键盘按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0970');
+        await Utils.sleep(1000);
+
+        console.info('TEST_0970: 测试用例执行成功');
+        done();
+      } catch (error) {
+        console.error('TEST_0970: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_0970: 错误堆栈: ' + error.message);
+        expect().assertFail();
+      }
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0980
+     * @tc.name   : Toast alignment Center with bottom 80, position unchanged test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0980', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/toast_promptAction/toastAvoid53");
+      await driver.waitForIdle(500, 2000);
+
+      try {
+        console.info('TEST_0980: 开始查找Toast按钮 (toastButton_53)');
+        let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_53'), 1000);
+        console.info('TEST_0980: 成功找到Toast按钮');
+
+        console.info('TEST_0980: 开始查找键盘按钮 (keyboardButton_53)');
+        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_53'), 1000);
+        console.info('TEST_0980: 成功找到键盘按钮');
+
+        console.info('TEST_0980: 开始点击Toast按钮');
+        await toastButton.click();
+        console.info('TEST_0980: Toast按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        console.info('TEST_0980: 开始点击键盘按钮');
+        await keyboardButton.click();
+        console.info('TEST_0980: 键盘按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0980');
+        await Utils.sleep(1000);
+
+        console.info('TEST_0980: 测试用例执行成功');
+        done();
+      } catch (error) {
+        console.error('TEST_0980: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_0980: 错误堆栈: ' + error.message);
+        expect().assertFail();
+      }
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0990
+     * @tc.name   : Toast alignment TopEnd with bottom 80, position unchanged test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0990', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/toast_promptAction/toastAvoid54");
+      await driver.waitForIdle(500, 2000);
+
+      try {
+        console.info('TEST_0990: 开始查找Toast按钮 (toastButton_54)');
+        let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_54'), 1000);
+        console.info('TEST_0990: 成功找到Toast按钮');
+
+        console.info('TEST_0990: 开始查找键盘按钮 (keyboardButton_54)');
+        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_54'), 1000);
+        console.info('TEST_0990: 成功找到键盘按钮');
+
+        console.info('TEST_0990: 开始点击Toast按钮');
+        await toastButton.click();
+        console.info('TEST_0990: Toast按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        console.info('TEST_0990: 开始点击键盘按钮');
+        await keyboardButton.click();
+        console.info('TEST_0990: 键盘按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0990');
+        await Utils.sleep(1000);
+
+        console.info('TEST_0990: 测试用例执行成功');
+        done();
+      } catch (error) {
+        console.error('TEST_0990: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_0990: 错误堆栈: ' + error.message);
+        expect().assertFail();
+      }
+    });
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1000
+     * @tc.name   : Toast alignment TopStart with bottom 80, position unchanged test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1000', Level.LEVEL3, async (done: Function) => {
+      let driver: Driver = Driver.create();
+      Settings.createWindow("testability/pages/toast_promptAction/toastAvoid55");
+      await driver.waitForIdle(500, 2000);
+
+      try {
+        console.info('TEST_1000: 开始查找Toast按钮 (toastButton_55)');
+        let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_55'), 1000);
+        console.info('TEST_1000: 成功找到Toast按钮');
+
+        console.info('TEST_1000: 开始查找键盘按钮 (keyboardButton_55)');
+        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_55'), 1000);
+        console.info('TEST_1000: 成功找到键盘按钮');
+
+        console.info('TEST_1000: 开始点击Toast按钮');
+        await toastButton.click();
+        console.info('TEST_1000: Toast按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        console.info('TEST_1000: 开始点击键盘按钮');
+        await keyboardButton.click();
+        console.info('TEST_1000: 键盘按钮点击完成');
+        await driver.waitForIdle(1000, 2000);
+
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1000');
+        await Utils.sleep(1000);
+
+        console.info('TEST_1000: 测试用例执行成功');
+        done();
+      } catch (error) {
+        console.error('TEST_1000: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_1000: 错误堆栈: ' + error.message);
+        expect().assertFail();
+      }
+    });
+
   })
 }
