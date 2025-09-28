@@ -26,9 +26,10 @@ class HvigorChecker:
     HVIGOR_BASE_VERSION = [
         '4.0.5',
         '4.0.9',
-        '5.0.0'
+        '5.0.0',
+        '6.0.0',
     ]
-    
+
     def __init__(self, suite_name):
         self._current_dir = os.path.dirname(os.path.realpath(__file__))
         self._suite_name = suite_name
@@ -48,6 +49,22 @@ class HvigorChecker:
             if version:
                 return version
             return data.get('modelVersion')
+
+    def get_compileSdkVersion(self, json_file):
+        with open(json_file, 'r') as f:
+            data = json5.load(f)
+            apiversion = data.get('app').get('products')[0].get('compileSdkVersion')
+            return int(apiversion)
+
+    def get_api_version(self):
+        root_dir = os.path.realpath(os.path.join(self._xts_root_dir, "../../.."))
+        api_version = -1
+        with open(os.path.join(root_dir, "build/version.gni"), "r") as f:
+            for line in f:
+                if 'api_version' in line:
+                    api_version = int(line.split('=')[1].strip().replace('"', ''))
+                    break
+        return int(api_version)
 
     def output_unmatched_project(self, prject_list, filename):
         print("")
@@ -87,6 +104,21 @@ class HvigorChecker:
             return False
         return True
 
+    def check_compileSdkVersion(self, hvigor_prj_list):
+        api_version = self.get_api_version()
+        unmatch_prj_list = []
+        for dir in hvigor_prj_list:
+            filename = os.path.join(dir, 'build-profile.json5')
+            compileSdkVersion = self.get_compileSdkVersion(filename)
+            if compileSdkVersion != api_version:
+                unmatch_prj_list.append((compileSdkVersion, filename))
+
+        if len(unmatch_prj_list):
+            self.output_unmatched_project(unmatch_prj_list, 'build-profile.json5')
+            print("Plesse update compileSdkVersion to {}".format(api_version))
+            return False
+        return True
+
     def check_hvigorw_bat(self, hvigor_prj_list):
         unmatch_info = []
         baseline_file = os.path.join(self._current_dir, 'hvigorw.bat')
@@ -115,6 +147,19 @@ class HvigorChecker:
                     hvigor_prj_list.append(root)
         return hvigor_prj_list
 
+    def check_hvigor(self):
+        hvigor_prj_list = self.get_hvigor_prject_list()
+        check_func_list = [
+            self.check_hvigor_wrapper_js,
+            self.check_hvigor_version,
+            self.check_hvigorw_bat,
+            self.check_compileSdkVersion
+        ]
+        isValid = True
+        for check_func in check_func_list:
+            isValid &= check_func(hvigor_prj_list)
+        return isValid
+
 
 def main():
     suite_name = ""
@@ -127,13 +172,7 @@ def main():
 
     obj = HvigorChecker(suite_name)
 
-    hvigor_prj_list = obj.get_hvigor_prject_list()
-
-    js_valid = obj.check_hvigor_wrapper_js(hvigor_prj_list)
-    json_valid = obj.check_hvigor_version(hvigor_prj_list)
-    bat_valid = obj.check_hvigorw_bat(hvigor_prj_list)
-
-    if not js_valid or not json_valid or not bat_valid:
+    if not obj.check_hvigor():
         return 1
     return 0
 
