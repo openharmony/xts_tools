@@ -57,18 +57,18 @@ export default function ToastAvoidTest () {
         let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_01'), 1000);
         console.info('TEST_1010: 成功找到Toast按钮');
 
-        console.info('TEST_1010: 开始查找键盘按钮 (keyboardButton_01)');
-        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_01'), 1000);
-        console.info('TEST_1010: 成功找到键盘按钮');
+        console.info('TEST_1010: 开始查找键盘输入框 (keyboardButton_01)');
+        let keyboardInput: Component = await driver.waitForComponent(ON.id('keyboardButton_01'), 1000);
+        console.info('TEST_1010: 成功找到键盘输入框');
 
         console.info('TEST_1010: 开始点击Toast按钮');
         await toastButton.click();
         console.info('TEST_1010: Toast按钮点击完成');
         await driver.waitForIdle(1000, 2000);
 
-        console.info('TEST_1010: 开始点击键盘按钮');
-        await keyboardButton.click();
-        console.info('TEST_1010: 键盘按钮点击完成');
+        console.info('TEST_1010: 开始点击键盘输入框');
+        await keyboardInput.click();
+        console.info('TEST_1010: 键盘输入框点击完成');
         await driver.waitForIdle(1000, 2000);
 
         await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1010');
@@ -100,18 +100,18 @@ export default function ToastAvoidTest () {
         let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_02'), 1000);
         console.info('TEST_1050: 成功找到Toast按钮');
 
-        console.info('TEST_1050: 开始查找键盘按钮 (keyboardButton_02)');
-        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_02'), 1000);
-        console.info('TEST_1050: 成功找到键盘按钮');
+        console.info('TEST_1050: 开始查找键盘输入框 (keyboardButton_02)');
+        let keyboardInput: Component = await driver.waitForComponent(ON.id('keyboardButton_02'), 1000);
+        console.info('TEST_1050: 成功找到键盘输入框');
 
         console.info('TEST_1050: 开始点击Toast按钮');
         await toastButton.click();
         console.info('TEST_1050: Toast按钮点击完成');
         await driver.waitForIdle(1000, 2000);
 
-        console.info('TEST_1050: 开始点击键盘按钮');
-        await keyboardButton.click();
-        console.info('TEST_1050: 键盘按钮点击完成');
+        console.info('TEST_1050: 开始点击键盘输入框');
+        await keyboardInput.click();
+        console.info('TEST_1050: 键盘输入框点击完成');
         await driver.waitForIdle(1000, 2000);
 
         await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1050');
@@ -143,18 +143,18 @@ export default function ToastAvoidTest () {
         let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_03'), 1000);
         console.info('TEST_1020: 成功找到Toast按钮');
 
-        console.info('TEST_1020: 开始查找键盘按钮 (keyboardButton_03)');
-        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_03'), 1000);
-        console.info('TEST_1020: 成功找到键盘按钮');
+        console.info('TEST_1020: 开始查找键盘输入框 (keyboardButton_03)');
+        let keyboardInput: Component = await driver.waitForComponent(ON.id('keyboardButton_03'), 1000);
+        console.info('TEST_1020: 成功找到键盘输入框');
 
         console.info('TEST_1020: 开始点击Toast按钮');
         await toastButton.click();
         console.info('TEST_1020: Toast按钮点击完成');
         await driver.waitForIdle(1000, 2000);
 
-        console.info('TEST_1020: 开始点击键盘按钮');
-        await keyboardButton.click();
-        console.info('TEST_1020: 键盘按钮点击完成');
+        console.info('TEST_1020: 开始点击键盘输入框');
+        await keyboardInput.click();
+        console.info('TEST_1020: 键盘输入框点击完成');
         await driver.waitForIdle(1000, 2000);
 
         await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1020');
@@ -186,18 +186,18 @@ export default function ToastAvoidTest () {
         let toastButton: Component = await driver.waitForComponent(ON.id('toastButton_04'), 1000);
         console.info('TEST_1070: 成功找到Toast按钮');
 
-        console.info('TEST_1070: 开始查找键盘按钮 (keyboardButton_04)');
-        let keyboardButton: Component = await driver.waitForComponent(ON.id('keyboardButton_04'), 1000);
-        console.info('TEST_1070: 成功找到键盘按钮');
+        console.info('TEST_1070: 开始查找键盘输入框 (keyboardButton_04)');
+        let keyboardInput: Component = await driver.waitForComponent(ON.id('keyboardButton_04'), 1000);
+        console.info('TEST_1070: 成功找到键盘输入框');
 
         console.info('TEST_1070: 开始点击Toast按钮');
         await toastButton.click();
         console.info('TEST_1070: Toast按钮点击完成');
         await driver.waitForIdle(1000, 2000);
 
-        console.info('TEST_1070: 开始点击键盘按钮');
-        await keyboardButton.click();
-        console.info('TEST_1070: 键盘按钮点击完成');
+        console.info('TEST_1070: 开始点击键盘输入框');
+        await keyboardInput.click();
+        console.info('TEST_1070: 键盘输入框点击完成');
         await driver.waitForIdle(1000, 2000);
 
         await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1070');
