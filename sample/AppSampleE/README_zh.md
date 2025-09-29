@@ -96,7 +96,7 @@ AppSampleE/src/main/ets/
 git init
 git config core.sparsecheckout true
 echo sample/AppSampleE/ > .git/info/sparse-checkout
-git remote add origin https://gitee.com/openharmony/xts_tools.git
+git remote add origin https://gitcode.com/openharmony/xts_tools.git
 git pull origin master
 ```
 
