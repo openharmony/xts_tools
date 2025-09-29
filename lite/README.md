@@ -522,9 +522,9 @@ Execute  **ActsDemoTest.bin**  to trigger test case execution, and analyze seria
 
 ## Repositories Involved<a name="section1371113476307"></a>
 
-[X Test Suite](https://gitee.com/openharmony/docs/blob/master/en/readme/xts.md)
+[X Test Suite](https://gitcode.com/openharmony/docs/blob/master/en/readme/xts.md)
 
-[xts\_acts](https://gitee.com/openharmony/xts_acts/blob/master/README.md)
+[xts\_acts](https://gitcode.com/openharmony/xts_acts/blob/master/README.md)
 
 **xts\_tools**
 
