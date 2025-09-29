@@ -57,21 +57,19 @@ struct toastAvoid32 {
         })
         .margin({ bottom: 20 });
 
-      Button('拉起键盘')
+      TextInput({ placeholder: '点击此输入框拉起键盘' })
         .id('keyboardButton_32')
-        .onClick(() => {
-          this.isKeyboardVisible = !this.isKeyboardVisible;
+        .width('90%')
+        .height(50)
+        .backgroundColor('#F5F5F5')
+        .borderRadius(8)
+        .margin({ bottom: 20 })
+        .onFocus(() => {
+          this.isKeyboardVisible = true;
         })
-        .margin({ bottom: 20 });
-
-      if (this.isKeyboardVisible) {
-        TextInput({ placeholder: '输入框 - 用于测试键盘避让' })
-          .width('90%')
-          .height(50)
-          .backgroundColor('#F5F5F5')
-          .borderRadius(8)
-          .margin({ bottom: 20 });
-      }
+        .onBlur(() => {
+          this.isKeyboardVisible = false;
+        });
 
       Text('当前状态：')
         .fontSize(14)
