@@ -2,7 +2,7 @@ OpenHarmony Sample仿应用后台服务
 ===============
 
 ## 简介
-本服务为[xts_tools sample](https://gitee.com/openharmony/xts_tools) sample中AppSampleD提供的后台服务，如视频上传、视频审核、消息发送等，同时提供了相应的web后台管理页面，体验端云侧应用系统闭环。本服务使用了[JeecgBoot](http://www.jeecg.com) 低代码开发平台，能够快速的开发和部署。
+本服务为[xts_tools sample](https://gitcode.com/openharmony/xts_tools) sample中AppSampleD提供的后台服务，如视频上传、视频审核、消息发送等，同时提供了相应的web后台管理页面，体验端云侧应用系统闭环。本服务使用了[JeecgBoot](http://www.jeecg.com) 低代码开发平台，能够快速的开发和部署。
  
  
 ## JeecgBoot源码下载

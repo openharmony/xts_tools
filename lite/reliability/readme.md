@@ -63,7 +63,7 @@ xts_tools/reliability
   或 The device xxx can not start APP after reboot.  #重启后系统关键能力不可用
 ```  
 ## Native的测试用例进行反复压力测试执行步骤<a name="section129654513265"></a>
-1.  按照https://gitee.com/openharmony/xts_acts#%E7%94%A8%E4%BE%8B%E5%BC%80%E5%8F%91%E6%8C%87%E5%AF%BC 链接的描述设计可靠性测试用例并完成编译
+1.  按照https://gitcode.com/openharmony/xts_acts#%E7%94%A8%E4%BE%8B%E5%BC%80%E5%8F%91%E6%8C%87%E5%AF%BC 链接的描述设计可靠性测试用例并完成编译
 2.  修改测试工具代码
     NativePressTest.py文件中关键部分介绍如下
 ```
@@ -96,7 +96,7 @@ Process finished with exit code 1
 问题日志：Native稳定性测试完成之后，异常日志会从设备中导出并保存在NativePressTest.py文件所在目录下的faultlog目录下，请根据日志中的调用栈信息进行问题定位。
 
 ## JS的测试用例进行反复压力测试执行步骤<a name="section129654513266"></a>
-1.  按照https://gitee.com/openharmony/xts_acts#js%E8%AF%AD%E8%A8%80%E7%94%A8%E4%BE%8B%E5%BC%80%E5%8F%91%E6%8C%87%E5%AF%BC%E9%80%82%E7%94%A8%E4%BA%8E%E6%A0%87%E5%87%86%E7%B3%BB%E7%BB%9F 链接的描述设计JS可靠性测试用例及其测试环境
+1.  按照https://gitcode.com/openharmony/xts_acts#js%E8%AF%AD%E8%A8%80%E7%94%A8%E4%BE%8B%E5%BC%80%E5%8F%91%E6%8C%87%E5%AF%BC%E9%80%82%E7%94%A8%E4%BA%8E%E6%A0%87%E5%87%86%E7%B3%BB%E7%BB%9F 链接的描述设计JS可靠性测试用例及其测试环境
 2.  将JSPressTest.js测试工具放到测试用例工程的pages/index目录下，和index.js同目录，目录及文件效果如下图所示
 ```
 ├── BUILD.gn   
