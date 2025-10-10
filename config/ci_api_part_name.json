@@ -8054,6 +8054,13 @@
                 "ability_runtime"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.inputMethod.ExtraConfig.d.ts",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c":[
