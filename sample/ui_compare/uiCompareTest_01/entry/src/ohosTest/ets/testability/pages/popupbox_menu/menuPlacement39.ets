@@ -13,8 +13,6 @@
  * limitations under the License.
  */
 
-import { Menu, MenuItem, Text, Column, Row, Button, FlexAlign, HorizontalAlign, VerticalAlign, Placement, ResponseType, FontWeight, Stack, GradientDirection, Circle } from '@kit.ArkUI';
-
 @Entry
 @Component
 struct MenuPlacement39 {
@@ -126,7 +124,7 @@ struct MenuPlacement39 {
               placement: Placement.RightBottom
             })
             .onClick(() => {
-              // 保持测试逻辑不变
+              console.info('MenuPlacement39: 按钮被点击');
             })
         }
         .width("100%")

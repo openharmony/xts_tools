@@ -124,7 +124,7 @@ struct MenuPlacement01 {
               placement: Placement.BottomRight
             })
             .onClick(() => {
-              // 保持测试逻辑不变
+              console.info('MenuPlacement01: 按钮被点击');
             })
         }
         .width("100%")

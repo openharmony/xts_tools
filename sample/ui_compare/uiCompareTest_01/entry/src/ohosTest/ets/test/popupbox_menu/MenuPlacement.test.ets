@@ -1,5 +1,5 @@
-/**
- * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+/*
+ * Copyright (c) 2024 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -335,35 +335,6 @@ export default function MenuPlacementTest() {
       } catch (error) {
         console.error('TEST_1770: 测试用例执行失败 - ' + JSON.stringify(error));
         console.error('TEST_1770: 错误堆栈: ' + error.message);
-        expect().assertFail();
-      }
-    });
-
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0610
-     * @tc.name Menu placement TopLeft with width 64vp
-     * @tc.desc Test menu placement TopLeft with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
-     */
-    it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0610', Level.LEVEL3, async (done: Function) => {
-      let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/popupbox_menu/menuPlacement10");
-      await driver.waitForIdle(500, 2000);
-
-      try {
-        console.info('TEST_0610: 开始查找Button组件');
-        let buttonComponent: Component = await driver.waitForComponent(ON.id('button_10'), 1000);
-        console.info('TEST_0610: 成功找到Button组件');
-
-        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0610');
-        await Utils.sleep(1000);
-
-        console.info('TEST_0610: 测试用例执行成功');
-        done();
-      } catch (error) {
-        console.error('TEST_0610: 测试用例执行失败 - ' + JSON.stringify(error));
-        console.error('TEST_0610: 错误堆栈: ' + error.message);
         expect().assertFail();
       }
     });

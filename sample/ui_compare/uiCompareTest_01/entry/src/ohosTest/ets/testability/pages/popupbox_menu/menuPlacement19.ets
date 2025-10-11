@@ -144,11 +144,11 @@ struct MenuPlacement19 {
               offsetX: 0,
               offsetY: 4
             })
-            .bindMenu(this.MyMenu, ResponseType.RightClick, {
+            .bindContextMenu(this.MyMenu, ResponseType.RightClick, {
               placement: Placement.BottomLeft
             })
             .onClick(() => {
-              // 保持测试逻辑不变
+              console.info('MenuPlacement19: 按钮被点击');
             })
         }
         .width("100%")
