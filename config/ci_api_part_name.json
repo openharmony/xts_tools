@@ -8328,6 +8328,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/global/i18n",
+            "bundle_name": [
+                "i18n"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/graphic/graphic_2d",
             "bundle_name": [
                 "graphic_2d"
