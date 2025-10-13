@@ -2128,6 +2128,27 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.application.NotificationSubscriberExtensionAbility.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.application.NotificationSubscriberExtensionContext.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.notificationExtensionSubscription.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.SubHeader.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -7477,6 +7498,27 @@
         },
         {
             "path": "interface/sdk-js/api/notification/notificationSortingMap.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/notification/NotificationExtensionContent.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/notification/NotificationExtensionSubscriptionInfo.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/notification/NotificationInfo.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
