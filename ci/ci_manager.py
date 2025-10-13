@@ -17,11 +17,8 @@
 
 import json
 import os
-import re
-import fnmatch
 import sys
 from abc import ABC, abstractmethod
-import xml.etree.ElementTree as ET
 
 from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
 
@@ -57,8 +54,11 @@ class ComponentManager(Ci_Manager):
         self._code_root_dir = code_root_dir
         self._build_paths = []
         self._build_targets = []
+        self._ieyes_xts_cfg_file = os.path.join(self._code_root_dir, 'ieyes_xts.json')
 
     def get_targets_from_change(self, change_list):
+        if not os.path.exists(self._ieyes_xts_cfg_file):
+            return 0
         for changeFileEntity in change_list:
             if changeFileEntity.path not in MatchConfig.get_xts_path_list():
                 ret = self.getTargetsPaths(changeFileEntity)
@@ -222,70 +222,6 @@ class WhitelistManager(Ci_Manager):
         if targets:
             self._build_targets += targets
 
-
-class OldPreciseManager(Ci_Manager):
-
-    def __init__(self, xts_root_dir, code_root_dir):
-        self._xts_root_dir = xts_root_dir
-        self._code_root_dir = code_root_dir
-        self._build_paths = []
-        self._build_targets = []
-        self._precise_compilation_file = os.path.join(HOME, "test", "xts", "tools", "config",
-                                                      "precise_compilation.json")
-        self._init_old_precise_map()
-
-    def _init_old_precise_map(self):
-        self._old_precise_map = {}
-        with open(self._precise_compilation_file, 'r') as file:
-            data_list = json.load(file)
-        for item in data_list:
-            name = item['name']
-            build_target = item['buildTarget']
-            self._old_precise_map[name] = build_target
-
-    def get_targets_from_change(self, change_list):
-        for changeFileEntity in change_list:
-            if changeFileEntity.path not in MatchConfig.get_xts_path_list() and \
-                    not changeFileEntity.get_already_match_utils():
-                if self._xts_root_dir.endswith("acts"):
-                    ret = self.getTargets(changeFileEntity)
-                    if ret == 1:
-                        pass
-                else:
-                    self._build_targets += PathUtils.get_all_build_target(self._xts_root_dir)
-        return 0
-
-    # 获取path接口
-    def getTargets(self, changeFileEntity: ChangeFileEntity):
-        # 获取开源仓名
-        repo_name = self.search_repo_name(changeFileEntity.path)
-        # precise_compilation.json配置文件中获取对应目标
-        if repo_name in self._old_precise_map:
-            self._build_targets.append(self._old_precise_map[repo_name])
-        return 0
-
-    def getTargetsbyRepoName(self, repo_name):
-        with open(repo_name, 'r') as file:
-            data_list = json.load(file)
-        # 遍历列表中的每个字典
-        for item in data_list:
-            # 获取 name 和 buildTarget 的值
-            name = item['name']
-            build_target = item['buildTarget']
-            # 打印结果
-            print(f'Name: {name}, Build Target: {build_target}')
-
-    def search_repo_name(self, repo_path, directory=os.path.join(HOME, ".repo", "manifests")):
-        for root, dirs, files in os.walk(directory):
-            for filename in fnmatch.filter(files, '*.xml'):
-                file_path = os.path.join(root, filename)
-                for child in ET.parse(file_path).getroot().findall('project'):
-                    if 'path' in child.attrib and child.attrib['path'] == repo_path:
-                        if 'gitee_name' in child.attrib:
-                            return child.attrib['gitee_name']
-                        if 'name' in child.attrib:
-                            return child.attrib['name']
-        return None
 
 class GetInterfaceData(Ci_Manager):
 
