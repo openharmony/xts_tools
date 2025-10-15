@@ -43,7 +43,7 @@ class AccurateTarget:
         # 白名单计算
         self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir, suite_type)
         # interface 仓
-        self.interface_manager = GetInterfaceData(self._xts_root_dir, self._code_root_dir)
+        self.interface_manager = GetInterfaceData(self._xts_root_dir, self._code_root_dir, suite_type)
 
         self.util_list = [
             self.xts_manager,
