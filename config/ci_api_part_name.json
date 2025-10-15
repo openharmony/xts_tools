@@ -2177,6 +2177,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.enterprise.common.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.document.d.ts",
             "bundle_name": [
                 "user_file_service"
