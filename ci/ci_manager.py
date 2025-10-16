@@ -289,7 +289,7 @@ class OldPreciseManager(Ci_Manager):
 
 class GetInterfaceData(Ci_Manager):
 
-    def __init__(self, xts_root_dir, code_root_dir):
+    def __init__(self, xts_root_dir, code_root_dir, suite_type):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
         self._build_paths = []
@@ -298,6 +298,7 @@ class GetInterfaceData(Ci_Manager):
         self.bundle_name_list = []
         self.match_path_list = []
         self.no_match_path_list = []
+        self._suite_type = suite_type
 
     # 截取路径
     def get_first_levels_path(self, path, num):
@@ -310,6 +311,9 @@ class GetInterfaceData(Ci_Manager):
             raise Exception('error: Failed to obtain interface file ownership, Please config in test/xts/tools/config/ci_api_part_name.json')
 
     def get_targets_from_change(self, change_list):
+        if "hap_static" in self._suite_type:
+            self._build_targets = "xts_{}".format(os.path.basename(self._xts_root_dir))
+            return
         if "acts" in self._xts_root_dir:
             # 分开处理三个 interface 仓
             self.get_c_bundle_name(change_list, MatchConfig.get_interface_json_c_data())
