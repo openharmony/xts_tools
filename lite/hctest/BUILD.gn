@@ -10,9 +10,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-import("//test/xts/device_attest_lite/build/devattestconfig.gni")
-
 static_library("hctest") {
   sources = [
     "//third_party/unity/src/unity.c",
@@ -37,16 +34,6 @@ static_library("hctest") {
   defines = [ "UNITY_INCLUDE_CONFIG_H" ]
 
   deps = []
-
-  if (integrate_attest_mini_module) {
-    include_dirs += [
-      "//test/xts/device_attest_lite/interfaces/kit/js/include",
-      "//test/xts/device_attest_lite/interfaces/innerkits",
-      "//test/xts/device_attest_lite/framework/mini",
-    ]
-    defines += [ "INTER_ATTEST_MINI_MODULE" ]
-    deps += [ "${devattest_path}/framework:devattest_sdk" ]
-  }
 
   if (board_toolchain_type != "iccarm") {
     cflags = [ "-Wno-error" ]
