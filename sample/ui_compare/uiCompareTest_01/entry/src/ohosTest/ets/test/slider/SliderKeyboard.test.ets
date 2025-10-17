@@ -51,7 +51,7 @@ export default function SliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0120 start.`);
-      Settings.createWindow("testability/pages/slider/slider02")
+      Settings.createWindow("testability/pages/slider/slider01")
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -81,7 +81,7 @@ export default function SliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0140 start.`);
-      Settings.createWindow("testability/pages/slider/slider03")
+      Settings.createWindow("testability/pages/slider/slider02")
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -111,11 +111,11 @@ export default function SliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0170 start.`);
-      Settings.createWindow("testability/pages/slider/slider04")
+      Settings.createWindow("testability/pages/slider/slider03")
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
-      let sliderComponent: Component = await driver.waitForComponent(ON.id('vertical_slider'), 1000);
+      let sliderComponent: Component = await driver.waitForComponent(ON.id('horizontal_slider'), 1000);
       
       // 点击Slider获取焦点
       await sliderComponent.click();
@@ -141,7 +141,7 @@ export default function SliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0150 start.`);
-      Settings.createWindow("testability/pages/slider/slider05")
+      Settings.createWindow("testability/pages/slider/slider04")
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -171,11 +171,11 @@ export default function SliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0110 start.`);
-      Settings.createWindow("testability/pages/slider/slider06")
+      Settings.createWindow("testability/pages/slider/slider05")
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
-      let sliderComponent: Component = await driver.waitForComponent(ON.id('horizontal_slider'), 1000);
+      let sliderComponent: Component = await driver.waitForComponent(ON.id('vertical_slider'), 1000);
       
       // 点击Slider获取焦点
       await sliderComponent.click();
@@ -201,11 +201,11 @@ export default function SliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0200 start.`);
-      Settings.createWindow("testability/pages/slider/slider07")
+      Settings.createWindow("testability/pages/slider/slider06")
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
-      let sliderComponent: Component = await driver.waitForComponent(ON.id('dynamic_slider'), 1000);
+      let sliderComponent: Component = await driver.waitForComponent(ON.id('horizontal_slider'), 1000);
       
       // 点击Slider获取焦点
       await sliderComponent.click();
@@ -215,13 +215,8 @@ export default function SliderKeyboardTest() {
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_RIGHT);
       await driver.waitForIdle(500, 2000);
       
-      // 切换为垂直方向
-      let toggleVerticalButton: Component = await driver.waitForComponent(ON.id('toggle_vertical'), 1000);
-      await toggleVerticalButton.click();
-      await driver.waitForIdle(500, 2000);
-      
-      // 垂直方向测试
-      await driver.triggerKey(KeyCode.KEYCODE_DPAD_UP);
+      // 测试其他方向键
+      await driver.triggerKey(KeyCode.KEYCODE_DPAD_LEFT);
       await driver.waitForIdle(500, 2000);
       
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0200')
@@ -240,11 +235,11 @@ export default function SliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0160 start.`);
-      Settings.createWindow("testability/pages/slider/slider08")
+      Settings.createWindow("testability/pages/slider/slider07")
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
-      let sliderComponent: Component = await driver.waitForComponent(ON.id('vertical_slider'), 1000);
+      let sliderComponent: Component = await driver.waitForComponent(ON.id('dynamic_slider'), 1000);
       
       // 点击Slider获取焦点
       await sliderComponent.click();
@@ -270,7 +265,7 @@ export default function SliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0180 start.`);
-      Settings.createWindow("testability/pages/slider/slider09")
+      Settings.createWindow("testability/pages/slider/slider08")
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -300,11 +295,11 @@ export default function SliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0190 start.`);
-      Settings.createWindow("testability/pages/slider/slider10")
+      Settings.createWindow("testability/pages/slider/slider09")
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
-      let sliderComponent: Component = await driver.waitForComponent(ON.id('landscape_slider'), 1000);
+      let sliderComponent: Component = await driver.waitForComponent(ON.id('vertical_slider'), 1000);
       
       // 点击Slider获取焦点
       await sliderComponent.click();
@@ -338,11 +333,11 @@ export default function SliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0130 start.`);
-      Settings.createWindow("testability/pages/slider/slider11")
+      Settings.createWindow("testability/pages/slider/slider10")
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
-      let sliderComponent: Component = await driver.waitForComponent(ON.id('horizontal_slider'), 1000);
+      let sliderComponent: Component = await driver.waitForComponent(ON.id('landscape_slider'), 1000);
       
       // 点击Slider获取焦点
       await sliderComponent.click();
