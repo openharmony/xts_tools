@@ -15,9 +15,11 @@
 
 import FocusTextUITest from './focus_TextUI/FocusTextUIall.test';
 import FocusMediaBadgeFont from './focus_TextUI/FocusMediaBadgeFont.test';
+import FocusMediaBadgeBorder from './focus_TextUI/FocusMediaBadgeBorder.test';
 
 export default function testsuite() {
   FocusTextUITest();
   FocusMediaBadgeFont();
+  FocusMediaBadgeLargeFont();
 
 }
