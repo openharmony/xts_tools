@@ -14,7 +14,9 @@
  */
 
 import FocusTextUITest from './focus_TextUI/FocusTextUIall.test';
-
+import FocusMediaBadgeLargeFont from './focus_TextUI/FocusMediaBadgeLargeFont.test';
 export default function testsuite() {
   FocusTextUITest();
+  FocusMediaBadgeLargeFont();
+
 }
