@@ -1463,6 +1463,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.security.CryptoExtensionAbility.d.ts",
+            "bundle_name": [
+                "huks"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.security.huksExternalCrypto.d.ts",
+            "bundle_name": [
+                "huks"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.infraredEmitter.d.ts",
             "bundle_name": [
                 "input"
