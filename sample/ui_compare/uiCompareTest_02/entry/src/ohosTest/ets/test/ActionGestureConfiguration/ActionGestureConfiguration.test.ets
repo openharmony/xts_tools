@@ -1598,3 +1598,1214 @@ export default function ActionGestureConfiguration() {
       done();
     })
 
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0340
+       * @tc.name    PanGesture is set distance to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0340', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0340`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration69")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration69'),1000);
+      let point =await button01.getBoundsCenter()
+      windowSnap.snapShot();
+      await driver.drag(point.x+100,point.y,point.x-100,point.y,1000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0340 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0440
+       * @tc.name    PanGesture is set isFingerCountLimited to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0440', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0440`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration70")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration70'),1000);
+      let point =await button01.getBoundsCenter()
+      windowSnap.snapShot();
+      await driver.drag(point.x+100,point.y,point.x-100,point.y,1000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0440 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0430
+       * @tc.name    PanGesture is set isFingerCountLimited to true
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0430`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration71")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration71'),1000);
+      let point =await button01.getBoundsCenter()
+      windowSnap.snapShot();
+      await driver.drag(point.x+100,point.y,point.x-100,point.y,1000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0430 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0420
+       * @tc.name    PanGesture is set isFingerCountLimited to false
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0420`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration72")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration72'),1000);
+      let point =await button01.getBoundsCenter()
+      windowSnap.snapShot();
+      await driver.drag(point.x+100,point.y,point.x-100,point.y,1000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0420 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0350
+       * @tc.name    PanGesture is set fingers to -1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0350', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0350`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration73")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration73'),1000);
+      let point =await button01.getBoundsCenter()
+      windowSnap.snapShot();
+      await driver.drag(point.x+100,point.y,point.x-100,point.y,1000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0350 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0360
+       * @tc.name    PanGesture is set fingers to 1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0360', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0360`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration74")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration74'),1000);
+      let point =await button01.getBoundsCenter()
+      windowSnap.snapShot();
+      await driver.drag(point.x+100,point.y,point.x-100,point.y,1000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0360 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0370
+       * @tc.name    PanGesture is set fingers to 11
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0370', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0370`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration75")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration75'),1000);
+      let point =await button01.getBoundsCenter()
+      windowSnap.snapShot();
+      await driver.drag(point.x+100,point.y,point.x-100,point.y,1000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0370 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0400
+       * @tc.name    PanGesture is set fingers to null
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0400', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0400`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration76")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration76'),1000);
+      let point =await button01.getBoundsCenter()
+      windowSnap.snapShot();
+      await driver.drag(point.x+100,point.y,point.x-100,point.y,1000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0400 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0410
+       * @tc.name    PanGesture is set fingers to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0410', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0410`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration77")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration77'),1000);
+      let point =await button01.getBoundsCenter()
+      windowSnap.snapShot();
+      await driver.drag(point.x+100,point.y,point.x-100,point.y,1000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0410 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1260
+       * @tc.name    TapGesture is set fingers to 4
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1260', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1260`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration78")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration78'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(4,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      pointers.setPoint(2,0,{x:point.x,y:point.y});
+      pointers.setPoint(2,1,{x:point.x,y:point.y});
+      pointers.setPoint(3,0,{x:point.x,y:point.y});
+      pointers.setPoint(3,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1260 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0380
+       * @tc.name    PanGesture is set fingers to 2.5
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0380', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0380`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration79")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration79'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y+20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y+20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0380 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0390
+       * @tc.name    PanGesture is set fingers to 4
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0390', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0390`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration80")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration80'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(4,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y+20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y+20});
+      pointers.setPoint(2,0,{x:point.x,y:point.y});
+      pointers.setPoint(2,1,{x:point.x,y:point.y+20});
+      pointers.setPoint(3,0,{x:point.x,y:point.y});
+      pointers.setPoint(3,1,{x:point.x,y:point.y+20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0390 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0570
+       * @tc.name    PinchGesture is set fingers to 1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0570', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0570`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration81")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration81'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0570 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0560
+       * @tc.name    PinchGesture is set fingers to -1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0560', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0560`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration82")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration82'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0560 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0590
+       * @tc.name    PinchGesture is set fingers to 2.5
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0590', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0590`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration83")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration83'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0590 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0580
+       * @tc.name    PinchGesture is set fingers to 11
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0580', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0580`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration84")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration84'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0580 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0620
+       * @tc.name    PinchGesture is set fingers to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0620', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0620`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration85")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration85'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0620 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0600
+       * @tc.name    PinchGesture is set fingers to 4
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0600', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0600`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration86")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration86'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(4,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      pointers.setPoint(2,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(2,1,{x:point.x,y:point.y});
+      pointers.setPoint(3,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(3,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0600 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0550
+       * @tc.name    PinchGesture is set distance to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0550', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0550`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration87")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration87'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0550 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0510
+       * @tc.name    PinchGesture is set distance to 2.5
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0510', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0510`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration88")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration88'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0510 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0520
+       * @tc.name    PinchGesture is set distance to 20.55
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0520', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0520`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration89")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration89'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0520 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0540
+       * @tc.name    PinchGesture is set distance to 5
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0540', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0540`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration90")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration90'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0540 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0650
+       * @tc.name    PinchGesture is set isFingerCountLimited to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0650', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0650`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration91")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration91'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0650 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0640
+       * @tc.name    PinchGesture is set isFingerCountLimited to true
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0640', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0640`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration92")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration92'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0640 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0630
+       * @tc.name    PinchGesture is set isFingerCountLimited to false
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0630', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0630`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration93")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration93'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0630 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0530
+       * @tc.name    PinchGesture is set distance to 30
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0530', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0530`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration94")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration94'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0530 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0700
+       * @tc.name    RotationGesture is set angle to 0
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0700', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0700`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration95")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration95'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0700 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0690
+       * @tc.name    RotationGesture is set angle to -1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0690', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0690`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration96")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration96'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0690 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0710
+       * @tc.name    RotationGesture is set angle to 1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0710', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0710`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration97")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration97'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0710 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0750
+       * @tc.name    RotationGesture is set angle to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0750', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0750`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration98")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration98'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0750 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0730
+       * @tc.name    RotationGesture is set angle to 370
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0730', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0730`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration99")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration99'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0730 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0770
+       * @tc.name    RotationGesture is set fingers to 1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0770', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0770`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration100")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration100'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0770 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0760
+       * @tc.name    RotationGesture is set fingers to -1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0760', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0760`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration101")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration101'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0760 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0810
+       * @tc.name    RotationGesture is set fingers to null
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0810', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0810`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration102")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration102'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0810 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0790
+       * @tc.name    RotationGesture is set fingers to 2.5
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0790', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0790`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration103")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration103'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0790 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0780
+       * @tc.name    RotationGesture is set fingers to 11
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0780', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0780`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration104")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration104'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0780 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0800
+       * @tc.name    RotationGesture is set fingers to 4
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0800', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0800`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration105")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration105'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(4,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(2,0,{x:point.x,y:point.y});
+      pointers.setPoint(2,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(3,0,{x:point.x,y:point.y});
+      pointers.setPoint(3,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0800 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0850
+       * @tc.name    RotationGesture is set isFingerCountLimited to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0850', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0850`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration106")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration106'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0850 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0830
+       * @tc.name    RotationGesture is set isFingerCountLimited to false
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0830', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0830`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration107")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration107'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0830 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0840
+       * @tc.name    RotationGesture is set isFingerCountLimited to true
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0840', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0840`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration108")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration108'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y-20});
+      pointers.setPoint(1,0,{x:point.x,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y-20});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0840 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0500
+       * @tc.name    PinchGesture is set distance to 1
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0500', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0500`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration109")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration109'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0500 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0490
+       * @tc.name    PinchGesture is set distance to 0
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0490', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0490`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration110")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration110'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0490 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0480
+       * @tc.name    PinchGesture is set distance to -10
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0480', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0480`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration111")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration111'),1000);
+      windowSnap.snapShot();
+      await driver.waitForIdle(500,2000);
+      let point =await button01.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x-50,y:point.y});
+      pointers.setPoint(0,1,{x:point.x,y:point.y});
+      pointers.setPoint(1,0,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0480 finish.`);
+      done();
+    })
+
+  })
+}
