@@ -1898,5 +1898,1560 @@ export default function ButtonAgingTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0110 finish.`);
       done()
     })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480
+     * @tc.desc   : Button适老化测试 - 设置buttonStyle为NORMAL，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480 start.`);
+      Settings.createWindow("testability/pages/button/button68")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置buttonStyle为NORMAL
+      let buttonStyleButton: Component = await driver.waitForComponent(ON.id('buttonStyle_normal_68'), 1000);
+      await buttonStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150
+     * @tc.desc   : Button适老化测试 - 设置fontWeight为Lighter，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150 start.`);
+      Settings.createWindow("testability/pages/button/button69")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontWeight为Lighter
+      let fontWeightButton: Component = await driver.waitForComponent(ON.id('fontWeight_lighter_69'), 1000);
+      await fontWeightButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030
+     * @tc.desc   : Button适老化测试 - 基础属性测试，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030 start.`);
+      Settings.createWindow("testability/pages/button/button70")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510
+     * @tc.desc   : Button适老化测试 - 设置buttonStyle为TEXTUAL，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510 start.`);
+      Settings.createWindow("testability/pages/button/button71")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置buttonStyle为TEXTUAL
+      let buttonStyleButton: Component = await driver.waitForComponent(ON.id('buttonStyle_textual_71'), 1000);
+      await buttonStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140
+     * @tc.desc   : Button适老化测试 - 设置fontWeight为Normal，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140 start.`);
+      Settings.createWindow("testability/pages/button/button72")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontWeight为Normal
+      let fontWeightButton: Component = await driver.waitForComponent(ON.id('fontWeight_normal_72'), 1000);
+      await fontWeightButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060
+     * @tc.desc   : Button适老化测试 - 设置buttonStyle为EMPHASIZED，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060 start.`);
+      Settings.createWindow("testability/pages/button/button73")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置buttonStyle为EMPHASIZED
+      let buttonStyleButton: Component = await driver.waitForComponent(ON.id('buttonStyle_emphasized_73'), 1000);
+      await buttonStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490
+     * @tc.desc   : Button适老化测试 - 设置buttonStyle为NORMAL，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490 start.`);
+      Settings.createWindow("testability/pages/button/button74")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置buttonStyle为NORMAL
+      let buttonStyleButton: Component = await driver.waitForComponent(ON.id('buttonStyle_normal_74'), 1000);
+      await buttonStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180
+     * @tc.desc   : Button适老化测试 - 设置fontWeight为Bolder，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180 start.`);
+      Settings.createWindow("testability/pages/button/button75")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontWeight为Bolder
+      let fontWeightButton: Component = await driver.waitForComponent(ON.id('fontWeight_bolder_75'), 1000);
+      await fontWeightButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140
+     * @tc.desc   : Button适老化测试 - 预览器测试
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140 start.`);
+      Settings.createWindow("testability/pages/button/button76")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 开启预览器测试
+      // 系统切换为特大一档、特大二挡、特大三挡
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140_175')
+      await Utils.sleep(1000)
+
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140_200')
+      await Utils.sleep(1000)
+
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140_320')
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500
+     * @tc.desc   : Button适老化测试 - 设置buttonStyle为TEXTUAL，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500 start.`);
+      Settings.createWindow("testability/pages/button/button77")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置buttonStyle为TEXTUAL
+      let buttonStyleButton: Component = await driver.waitForComponent(ON.id('buttonStyle_textual_77'), 1000);
+      await buttonStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240
+     * @tc.desc   : Button适老化测试 - 设置fontStyle为Italic，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240 start.`);
+      Settings.createWindow("testability/pages/button/button78")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontStyle为Italic
+      let fontStyleButton: Component = await driver.waitForComponent(ON.id('fontStyle_italic_78'), 1000);
+      await fontStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150
+     * @tc.desc   : Button适老化测试 - 默认按钮，不设置任何属性
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150 start.`);
+      Settings.createWindow("testability/pages/button/button79")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520
+     * @tc.desc   : Button适老化测试 - 设置buttonStyle为TEXTUAL，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520 start.`);
+      Settings.createWindow("testability/pages/button/button80")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置buttonStyle为TEXTUAL
+      let buttonStyleButton: Component = await driver.waitForComponent(ON.id('buttonStyle_textual_80'), 1000);
+      await buttonStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220
+     * @tc.desc   : Button适老化测试 - 设置fontStyle为Normal，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220 start.`);
+      Settings.createWindow("testability/pages/button/button81")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontStyle为Normal
+      let fontStyleButton: Component = await driver.waitForComponent(ON.id('fontStyle_normal_81'), 1000);
+      await fontStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130
+     * @tc.desc   : Button适老化测试 - 系统切换为特大一档、特大二挡、特大三挡，锁屏后启动
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130 start.`);
+      Settings.createWindow("testability/pages/button/button82")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 系统切换为特大一档、特大二挡、特大三挡
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130_175')
+      await Utils.sleep(1000)
+
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130_200')
+      await Utils.sleep(1000)
+
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130_320')
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540
+     * @tc.desc   : Button适老化测试 - 设置role为Normal，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540 start.`);
+      Settings.createWindow("testability/pages/button/button83")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置role为Normal
+      let roleButton: Component = await driver.waitForComponent(ON.id('role_normal_83'), 1000);
+      await roleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210
+     * @tc.desc   : Button适老化测试 - 设置fontStyle为Normal，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210 start.`);
+      Settings.createWindow("testability/pages/button/button84")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontStyle为Normal
+      let fontStyleButton: Component = await driver.waitForComponent(ON.id('fontStyle_normal_84'), 1000);
+      await fontStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190
+     * @tc.desc   : Button适老化测试 - 自定义宽高场景
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190 start.`);
+      Settings.createWindow("testability/pages/button/button85")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560
+     * @tc.desc   : Button适老化测试 - 设置role为Error，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560 start.`);
+      Settings.createWindow("testability/pages/button/button86")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置role为Error
+      let roleButton: Component = await driver.waitForComponent(ON.id('role_error_86'), 1000);
+      await roleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250
+     * @tc.desc   : Button适老化测试 - 设置fontStyle为Italic，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250 start.`);
+      Settings.createWindow("testability/pages/button/button87")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontStyle为Italic
+      let fontStyleButton: Component = await driver.waitForComponent(ON.id('fontStyle_italic_87'), 1000);
+      await fontStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180
+     * @tc.desc   : Button适老化测试 - 内部包含其他组件（超大字体）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180 start.`);
+      Settings.createWindow("testability/pages/button/button88")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600
+     * @tc.desc   : Button适老化测试 - 设置type为Capsule，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600 start.`);
+      Settings.createWindow("testability/pages/button/button89")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170
+     * @tc.desc   : Button适老化测试 - 设置fontWeight为Lighter，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170 start.`);
+      Settings.createWindow("testability/pages/button/button90")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontWeight为Lighter
+      let fontWeightButton: Component = await driver.waitForComponent(ON.id('fontWeight_lighter_90'), 1000);
+      await fontWeightButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200
+     * @tc.desc   : Button适老化测试 - 设置labelStyle({maxLines: undefined, })和不设置labelStyle属性
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200 start.`);
+      Settings.createWindow("testability/pages/button/button91")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230
+     * @tc.desc   : Button适老化测试 - 超长文本，不设置labelStyle
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230 start.`);
+      Settings.createWindow("testability/pages/button/button92")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530
+     * @tc.desc   : Button适老化测试 - 设置role为Normal，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530 start.`);
+      Settings.createWindow("testability/pages/button/button93")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置role为Normal
+      let roleButton: Component = await driver.waitForComponent(ON.id('role_normal_93'), 1000);
+      await roleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570
+     * @tc.desc   : Button适老化测试 - 设置role为Error，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570 start.`);
+      Settings.createWindow("testability/pages/button/button94")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置role为Error
+      let roleButton: Component = await driver.waitForComponent(ON.id('role_error_94'), 1000);
+      await roleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230
+     * @tc.desc   : Button适老化测试 - 设置fontStyle为Italic，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230 start.`);
+      Settings.createWindow("testability/pages/button/button95")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontStyle为Italic
+      let fontStyleButton: Component = await driver.waitForComponent(ON.id('fontStyle_italic_95'), 1000);
+      await fontStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780
+     * @tc.desc   : Button适老化测试 - 默认按钮，不设置任何属性
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780 start.`);
+      Settings.createWindow("testability/pages/button/button96")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240
+     * @tc.desc   : Button适老化测试 - 设置fontSize为16，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240 start.`);
+      Settings.createWindow("testability/pages/button/button97")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontSize为16
+      let fontSizeButton: Component = await driver.waitForComponent(ON.id('fontSize_16_97'), 1000);
+      await fontSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580
+     * @tc.desc   : Button适老化测试 - 内部包含其他组件，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580 start.`);
+      Settings.createWindow("testability/pages/button/button98")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260
+     * @tc.desc   : Button适老化测试 - 设置横屏，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260 start.`);
+      Settings.createWindow("testability/pages/button/button99")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置横屏
+      await Settings.changeWindowOrientation('landScape');
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220
+     * @tc.desc   : Button适老化测试 - 设置maxLines为1，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220 start.`);
+      Settings.createWindow("testability/pages/button/button100")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置maxLines为1
+      let maxLinesButton: Component = await driver.waitForComponent(ON.id('maxLines_1_100'), 1000);
+      await maxLinesButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550
+     * @tc.desc   : Button适老化测试 - 设置role为Error，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550 start.`);
+      Settings.createWindow("testability/pages/button/button101")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置role为Error
+      let roleButton: Component = await driver.waitForComponent(ON.id('role_error_101'), 1000);
+      await roleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270
+     * @tc.desc   : Button适老化测试 - 设置横屏，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270 start.`);
+      Settings.createWindow("testability/pages/button/button102")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置横屏
+      await Settings.changeWindowOrientation('landScape');
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170
+     * @tc.desc   : Button适老化测试 - 设置type属性，内部不包含其他组件
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170 start.`);
+      Settings.createWindow("testability/pages/button/button103")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590
+     * @tc.desc   : Button适老化测试 - 内部包含其他组件，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590 start.`);
+      Settings.createWindow("testability/pages/button/button104")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790
+     * @tc.desc   : Button适老化测试 - 默认按钮，不设置任何属性
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790 start.`);
+      Settings.createWindow("testability/pages/button/button105")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260
+     * @tc.desc   : Button适老化测试 - 设置fontStyle为Normal，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260 start.`);
+      Settings.createWindow("testability/pages/button/button106")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontStyle为Normal
+      let fontStyleButton: Component = await driver.waitForComponent(ON.id('fontStyle_normal_106'), 1000);
+      await fontStyleButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610
+     * @tc.desc   : Button适老化测试 - 设置type为Capsule，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610 start.`);
+      Settings.createWindow("testability/pages/button/button107")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190
+     * @tc.desc   : Button适老化测试 - 设置fontWeight为Bolder，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190 start.`);
+      Settings.createWindow("testability/pages/button/button108")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontWeight为Bolder
+      let fontWeightButton: Component = await driver.waitForComponent(ON.id('fontWeight_bolder_108'), 1000);
+      await fontWeightButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250
+     * @tc.desc   : Button适老化测试 - 设置fontWeight为Normal，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250 start.`);
+      Settings.createWindow("testability/pages/button/button109")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontWeight为Normal
+      let fontWeightButton: Component = await driver.waitForComponent(ON.id('fontWeight_normal_109'), 1000);
+      await fontWeightButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960
+     * @tc.desc   : Button适老化测试 - 设置maxLines为3，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960 start.`);
+      Settings.createWindow("testability/pages/button/button110")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置maxLines为3
+      let maxLinesButton: Component = await driver.waitForComponent(ON.id('maxLines_3_110'), 1000);
+      await maxLinesButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210
+     * @tc.desc   : Button适老化测试 - 设置转折符号
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210 start.`);
+      Settings.createWindow("testability/pages/button/button111")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970
+     * @tc.desc   : Button适老化测试 - 设置maxLines为4，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970 start.`);
+      Settings.createWindow("testability/pages/button/button112")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置maxLines为4
+      let maxLinesButton: Component = await driver.waitForComponent(ON.id('maxLines_4_112'), 1000);
+      await maxLinesButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340
+     * @tc.desc   : Button适老化测试 - 设置type为Circle，字体1.75倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340 start.`);
+      Settings.createWindow("testability/pages/button/button113")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为1.75倍
+      await uiAppearance.setFontScale(1.75);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置type为Circle
+      let typeButton: Component = await driver.waitForComponent(ON.id('type_circle_113'), 1000);
+      await typeButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980
+     * @tc.desc   : Button适老化测试 - 设置maxLines为4，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980 start.`);
+      Settings.createWindow("testability/pages/button/button114")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置maxLines为4
+      let maxLinesButton: Component = await driver.waitForComponent(ON.id('maxLines_4_114'), 1000);
+      await maxLinesButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360
+     * @tc.desc   : Button适老化测试 - 设置type为Circle，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360 start.`);
+      Settings.createWindow("testability/pages/button/button115")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010
+     * @tc.desc   : Button适老化测试 - 超长文本，不设置labelStyle，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010 start.`);
+      Settings.createWindow("testability/pages/button/button116")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310
+     * @tc.desc   : Button适老化测试 - 基础按钮，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310 start.`);
+      Settings.createWindow("testability/pages/button/button117")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000
+     * @tc.desc   : Button适老化测试 - 超长文本，不设置labelStyle，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000 start.`);
+      Settings.createWindow("testability/pages/button/button118")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350
+     * @tc.desc   : Button适老化测试 - 设置type为Circle，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350 start.`);
+      Settings.createWindow("testability/pages/button/button119")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030
+     * @tc.desc   : Button适老化测试 - 设置fontSize为16，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030 start.`);
+      Settings.createWindow("testability/pages/button/button120")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontSize为16
+      let fontSizeButton: Component = await driver.waitForComponent(ON.id('fontSize_16_3x'), 1000);
+      await fontSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300
+     * @tc.desc   : Button适老化测试 - 基础按钮，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300 start.`);
+      Settings.createWindow("testability/pages/button/button121")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020
+     * @tc.desc   : Button适老化测试 - 设置fontSize为16，字体2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020 start.`);
+      Settings.createWindow("testability/pages/button/button122")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为2倍
+      await uiAppearance.setFontScale(2.0);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置fontSize为16
+      let fontSizeButton: Component = await driver.waitForComponent(ON.id('fontSize_16_2x'), 1000);
+      await fontSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330
+     * @tc.desc   : Button适老化测试 - 设置type为Capsule，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330 start.`);
+      Settings.createWindow("testability/pages/button/button123")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990
+     * @tc.desc   : Button适老化测试 - 设置maxLines为4，字体3.2倍
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990 start.`);
+      Settings.createWindow("testability/pages/button/button124")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 设置字体为3.2倍
+      await uiAppearance.setFontScale(3.2);
+      await driver.waitForIdle(500, 2000);
+
+      // 设置maxLines为4
+      let maxLinesButton: Component = await driver.waitForComponent(ON.id('maxLines_4_124'), 1000);
+      await maxLinesButton.click();
+      await driver.waitForIdle(500, 2000);
+
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990')
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990 finish.`);
+      done()
+    })
   })
 }
