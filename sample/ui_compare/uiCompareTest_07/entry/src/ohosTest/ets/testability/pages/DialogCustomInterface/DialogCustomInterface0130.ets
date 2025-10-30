@@ -15,7 +15,7 @@
 
 
 @CustomDialog
-struct CustomDialogExample {
+struct CustomDialogExample0130 {
   controller: CustomDialogController
 
   build() {
@@ -38,9 +38,9 @@ struct CustomDialogExample {
 @Component
 struct DialogCustomInterface0130 {
   dialogController: CustomDialogController = new CustomDialogController({
-    builder: CustomDialogExample(),
+    builder: CustomDialogExample0130(),
     openAnimation: {
-      curve: $$ // 设置异常值$$
+      // curve: $$ // 设置异常值$$
     },
     autoCancel: true
   })

@@ -15,7 +15,7 @@
 
 
 @CustomDialog
-struct CustomDialogExample {
+struct CustomDialogExample0100 {
   controller: CustomDialogController
 
   build() {
@@ -38,8 +38,8 @@ struct CustomDialogExample {
 @Component
 struct DialogCustomInterface0100 {
   dialogController: CustomDialogController = new CustomDialogController({
-    builder: CustomDialogExample(),
-    maskRect: { x: $$, y: $$, width: $$, height: $$ }, // 设置异常值$$
+    builder: CustomDialogExample0100(),
+    // maskRect: { x: $$, y: $$, width: $$, height: $$ }, // 设置异常值$$
     autoCancel: true
   })
 
