@@ -1843,3 +1843,1114 @@ export default function SpecificationsTransition() {
       done()
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0350
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0350
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to Translate, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0350', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0350 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0350")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Translate】
+      let button_duration_10000_translate = await driver.waitForComponent(ON.id("button_duration_10000_translate"), 500)
+      await button_duration_10000_translate.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 步骤5：左/右滑/点击遮蔽层/button按钮
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 预期结果5：弹窗消失，消失动画正常播放，持续时间10000ms
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0350 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0470
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0470
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to pat_IDENTITY, clicking other buttons during the animation process, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0470', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0470 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0470")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_pat_IDENTITY】
+      let button_duration_10000_pat_identity = await driver.waitForComponent(ON.id("button_duration_10000_pat_identity"), 500)
+      await button_duration_10000_pat_identity.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
+      // 等待一小段时间让动画开始播放，但不等动画完成
+      await Utils.sleep(2000)
+      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 步骤6：退出动画过程中，再次点击【AlertDialog: autoCancel_True】按钮
+      // 先关闭当前的AlertDialog
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 再次触发ActionSheet
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 点击遮蔽层开始退出动画
+      await driver.click(100, 100)
+      await Utils.sleep(1000)
+      
+      // 在退出动画过程中点击AlertDialog按钮
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 预期结果6：弹窗ActionSheet退出动效正常播放，弹窗AlertDialog正常弹出
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0470 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0430
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0430
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to Opacity, clicking other buttons during the animation process, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0430 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0430")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Opacity】
+      let button_duration_10000_opacity = await driver.waitForComponent(ON.id("button_duration_10000_opacity"), 500)
+      await button_duration_10000_opacity.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
+      // 等待一小段时间让动画开始播放，但不等动画完成
+      await Utils.sleep(2000)
+      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 步骤6：退出动画过程中，再次点击【AlertDialog: autoCancel_True】按钮
+      // 先关闭当前的AlertDialog
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 再次触发ActionSheet
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 点击遮蔽层开始退出动画
+      await driver.click(100, 100)
+      await Utils.sleep(1000)
+      
+      // 在退出动画过程中点击AlertDialog按钮
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 预期结果6：弹窗ActionSheet退出动效正常播放，弹窗AlertDialog正常弹出
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0430 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0330
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0330
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to Rotate, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0330', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0330 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0330")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Rotate】
+      let button_duration_10000_rotate = await driver.waitForComponent(ON.id("button_duration_10000_rotate"), 500)
+      await button_duration_10000_rotate.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 步骤5：左/右滑/点击遮蔽层/button按钮
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 预期结果5：弹窗消失，消失动画正常播放，持续时间10000ms
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0330 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0320
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to Opacity, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0320', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0320 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0320")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Opacity】
+      let button_duration_10000_opacity = await driver.waitForComponent(ON.id("button_duration_10000_opacity"), 500)
+      await button_duration_10000_opacity.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 步骤5：左/右滑/点击遮蔽层/button按钮
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 预期结果5：弹窗消失，消失动画正常播放，持续时间10000ms
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0320 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0520
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0520
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when pressing the home key during the ActionSheet animation process and returning to the app, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0520', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0520 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0520")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_pat_SLIDE_SWITCH】
+      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide_switch"), 500)
+      await button_duration_10000_pat_slide_switch.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+
+      // 模拟按下Home键（将应用切换到后台）
+      await driver.triggerKey(2015) // 2015 是 Home 键的键码
+      await Utils.sleep(1000)
+      
+      // 返回应用（模拟从后台切换回前台）
+      await driver.triggerKey(2015)
+      await Utils.sleep(500)
+
+      // 点击遮蔽层开始退出动画
+      await driver.click(100, 100)
+      await Utils.sleep(1000)
+      
+      // 在退出动画过程中按Home键
+      await driver.triggerKey(2015)
+      await Utils.sleep(1000)
+      
+      // 返回应用
+      await driver.triggerKey(2015)
+      await Utils.sleep(500)
+      
+      // 预期结果6：切后台时弹窗ActionSheet的退出动效继续播放
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0520 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0310
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to Move, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0310', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0310 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0310")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Move】
+      let button_duration_10000_move = await driver.waitForComponent(ON.id("button_duration_10000_move"), 500)
+      await button_duration_10000_move.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+
+      
+      // 步骤5：左/右滑/点击遮蔽层/button按钮
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 预期结果5：弹窗消失，消失动画正常播放，持续时间10000ms
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0310 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0550
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0550
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation iterations is set to -1, the show/exit animation effects play infinitely.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0550', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0550 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0550")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【iter_Duration_2000】
+      let button_iter_duration_2000 = await driver.waitForComponent(ON.id("iter_duration_2000"), 500)
+      await button_iter_duration_2000.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_2000_Opacity】
+      let button_duration_2000_opacity = await driver.waitForComponent(ON.id("button_duration_2000_opacity"), 500)
+      await button_duration_2000_opacity.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+
+      // 步骤5：左/右滑/点击遮蔽层/button按钮
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 预期结果5：弹窗ActionSheet的显示动效终止，并且开始无限次执行退出动效
+      // 等待几个动画循环周期，验证退出动画持续播放
+      await Utils.sleep(5000)
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0550 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0460
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0460
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to Translate, clicking other buttons during the animation process, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0460', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0460 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0460")
+      let driver: Driver = Driver.create();
+
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Translate】
+      let button_duration_10000_translate = await driver.waitForComponent(ON.id("button_duration_10000_translate"), 500)
+      await button_duration_10000_translate.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
+      // 等待2秒让动画开始播放(但不等动画完成，因为动画持续10000ms)
+      await Utils.sleep(2000)
+      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 关闭AlertDialog
+      await driver.click(100, 100)
+      await Utils.sleep(1000)
+      
+      // 步骤6：再次触发ActionSheet，在退出动画过程中点击【AlertDialog: autoCancel_True】按钮
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+
+      // 点击遮蔽层触发退出动画
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 在退出动画过程中点击AlertDialog按钮
+      await Utils.sleep(2000)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 预期结果6：弹窗ActionSheet退出动效正常播放，弹窗AlertDialog正常弹出
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0460 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0510
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0510
+     * @tc.type   : Function
+     * @tc.desc   : Validate that after locking and unlocking the screen during the ActionSheet animation process, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0510', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0510 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0510")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_pat_SLIDE_SWITCH】
+      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide_switch"), 500)
+      await button_duration_10000_pat_slide_switch.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+
+      // 模拟锁屏操作(按电源键)
+      await driver.triggerKey(26) // 26是电源键的keycode
+      await Utils.sleep(1000)
+      
+      // 模拟解锁操作(再次按电源键)
+      await driver.triggerKey(26)
+      await Utils.sleep(1000)
+
+      // 步骤6：退出动画过程中，锁屏后再解锁
+      // 点击遮蔽层触发退出动画
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 在退出动画过程中锁屏
+      await Utils.sleep(2000)
+      
+      // 模拟锁屏操作(按电源键)
+      await driver.triggerKey(26)
+      await Utils.sleep(1000)
+      
+      // 模拟解锁操作(再次按电源键)
+      await driver.triggerKey(26)
+      await Utils.sleep(1000)
+      
+      // 预期结果6：锁屏后弹窗ActionSheet的退出动效继续播放
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0510 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0400
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0400
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to Asymmetric, clicking other buttons during the animation process, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0400', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0400 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0400")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Asymmetric】
+      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id("button_duration_10000_asymmetric"), 500)
+      await button_duration_10000_asymmetric.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
+      // 等待2秒让动画开始播放(但不等动画完成，因为动画持续10000ms)
+      await Utils.sleep(2000)
+      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+
+      
+      // 关闭AlertDialog
+      await driver.click(100, 100)
+      await Utils.sleep(1000)
+      
+      // 步骤6：再次触发ActionSheet，在退出动画过程中点击【AlertDialog: autoCancel_True】按钮
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 点击遮蔽层触发退出动画
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 在退出动画过程中点击AlertDialog按钮
+      await Utils.sleep(2000)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 预期结果6：弹窗ActionSheet退出动效正常播放，弹窗AlertDialog正常弹出
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0400 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0490
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0490
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to pat_SLIDE, clicking other buttons during the animation process, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0490', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0490 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0490")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_pat_SLIDE】
+      let button_duration_10000_pat_slide = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide"), 500)
+      await button_duration_10000_pat_slide.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
+      // 等待2秒让动画开始播放(但不等动画完成，因为动画持续10000ms)
+      await Utils.sleep(2000)
+      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+
+      // 关闭AlertDialog
+      await driver.click(100, 100)
+      await Utils.sleep(1000)
+      
+      // 步骤6：再次触发ActionSheet，在退出动画过程中点击【AlertDialog: autoCancel_True】按钮
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 点击遮蔽层触发退出动画
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 在退出动画过程中点击AlertDialog按钮
+      await Utils.sleep(2000)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 预期结果6：弹窗ActionSheet退出动效正常播放，弹窗AlertDialog正常弹出
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0490 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0380
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0380
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to pat_SLIDE, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0380', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0380 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0380")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_pat_SLIDE】
+      let button_duration_10000_pat_slide = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide"), 500)
+      await button_duration_10000_pat_slide.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+
+      // 步骤5：左/右滑/点击遮蔽层/button按钮
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 预期结果5：弹窗消失，消失动画正常播放，持续时间10000ms
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0380 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0420
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0420
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to Move, clicking other buttons during the animation process, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0420 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0420")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Move】
+      let button_duration_10000_move = await driver.waitForComponent(ON.id("button_duration_10000_move"), 500)
+      await button_duration_10000_move.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+
+      // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
+      // 等待2秒让动画开始播放(但不等动画完成，因为动画持续10000ms)
+      await Utils.sleep(2000)
+      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 关闭AlertDialog
+      await driver.click(100, 100)
+      await Utils.sleep(1000)
+      
+      // 步骤6：再次触发ActionSheet，在退出动画过程中点击【AlertDialog: autoCancel_True】按钮
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+
+      // 点击遮蔽层触发退出动画
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 在退出动画过程中点击AlertDialog按钮
+      await Utils.sleep(2000)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 预期结果6：弹窗ActionSheet退出动效正常播放，弹窗AlertDialog正常弹出
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0420 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0290
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0290
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to Asymmetric, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0290', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0290 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0290")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Asymmetric】
+      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id("button_duration_10000_asymmetric"), 500)
+      await button_duration_10000_asymmetric.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+
+      // 步骤5：左/右滑/点击遮蔽层/button按钮
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 预期结果5：弹窗消失，消失动画正常播放，持续时间10000ms
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0290 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0530
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0530
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when pressing the back key multiple times during the ActionSheet animation process, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0530', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0530 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0530")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Asymmetric】
+      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id("button_duration_10000_asymmetric"), 500)
+      await button_duration_10000_asymmetric.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 步骤5：弹出动画过程中，点击back键
+      // 等待2秒让动画开始播放(但不等动画完成，因为动画持续10000ms)
+      await Utils.sleep(2000)
+      await driver.triggerKey(2) // 2是Back键的keycode
+      await Utils.sleep(500)
+      
+      // 步骤6：再次点击back键
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      
+      // 步骤7：再次点击back键
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      
+      // 预期结果7：应用返回上一级
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0530 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0560
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0560
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation PlayMode is set to Reverse, the animation effect plays in reverse.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0560', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0560 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0560")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【playMode_Duration_2000】
+      let button_playmode_duration_2000 = await driver.waitForComponent(ON.id("playmode_duration_2000"), 500)
+      await button_playmode_duration_2000.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_2000_Asymmetric】
+      let button_duration_2000_asymmetric = await driver.waitForComponent(ON.id("button_duration_2000_asymmetric"), 500)
+      await button_duration_2000_asymmetric.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 预期结果4：反向弹出ActionSheet
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0560 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0360
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0360
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to pat_IDENTITY, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0360', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0360 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0360")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_pat_IDENTITY】
+      let button_duration_10000_pat_identity = await driver.waitForComponent(ON.id("button_duration_10000_pat_identity"), 500)
+      await button_duration_10000_pat_identity.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+
+      // 步骤5：左/右滑/点击遮蔽层/button按钮
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 预期结果5：弹窗消失，消失动画正常播放，持续时间10000ms
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0360 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0440
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0440
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet animation is set to Rotate, clicking other buttons during the animation process, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0440', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0440 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0440")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Rotate】
+      let button_duration_10000_rotate = await driver.waitForComponent(ON.id("button_duration_10000_rotate"), 500)
+      await button_duration_10000_rotate.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【ActionSheet: autoCancel_True】
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
+      // 等待2秒让动画开始播放(但不等动画完成，因为动画持续10000ms)
+      await Utils.sleep(2000)
+      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 关闭AlertDialog
+      await driver.click(100, 100)
+      await Utils.sleep(1000)
+      
+      // 步骤6：再次触发ActionSheet，在退出动画过程中点击【AlertDialog: autoCancel_True】按钮
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 点击遮蔽层触发退出动画
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 在退出动画过程中点击AlertDialog按钮
+      await Utils.sleep(2000)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 预期结果6：弹窗ActionSheet退出动效正常播放，弹窗AlertDialog正常弹出
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0440 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0540
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0540
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the ActionSheet does not set transition, it uses the default show/exit animation effects.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0540', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0540 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0540")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【不设置】
+      let button_no_set = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_no_set.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【ActionSheet】
+      let button_no_transition = await driver.waitForComponent(ON.id("button_no_transition"), 500)
+      await button_no_transition.click()
+      await Utils.sleep(500)
+
+      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 500)
+      await button_action_sheet.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：左/右滑/点击遮蔽层/button按钮
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 预期结果5：弹窗消失，使用默认消失动画
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0540 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0040
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the AlertDialog animation is set to Opacity, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0040', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0040 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0040")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Opacity】
+      let button_duration_10000_opacity = await driver.waitForComponent(ON.id("button_duration_10000_opacity"), 500)
+      await button_duration_10000_opacity.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【AlertDialog: autoCancel_True】
+      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+
+      // 步骤5：左/右滑/点击遮蔽层/button按钮
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 预期结果5：弹窗消失，消失动画正常播放，持续时间10000ms
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0040 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0070
+     * @tc.type   : Function
+     * @tc.desc   : Validate that when the AlertDialog animation is set to Translate, the show/exit animation effects are normal.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0070', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0070 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SpecificationsTransition/SpecificationsTransition0070")
+      let driver: Driver = Driver.create();
+      await Utils.sleep(500)
+      
+      // 步骤2：点击【Duration_10000_Index】
+      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      await button_duration_10000_index.click()
+      await Utils.sleep(500)
+      
+      // 步骤3：点击【Duration_10000_Translate】
+      let button_duration_10000_translate = await driver.waitForComponent(ON.id("button_duration_10000_translate"), 500)
+      await button_duration_10000_translate.click()
+      await Utils.sleep(500)
+      
+      // 步骤4：点击【AlertDialog: autoCancel_True】
+      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      await button_alert_dialog.click()
+      await Utils.sleep(500)
+      
+      // 步骤5：左/右滑/点击遮蔽层/button按钮
+      await driver.click(100, 100)
+      await Utils.sleep(500)
+      
+      // 预期结果5：弹窗消失，消失动画正常播放，持续时间10000ms
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0070 finish.`);
+      done()
+    })
+
+  })
+}
