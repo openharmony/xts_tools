@@ -64,7 +64,7 @@ export default function KeyboardEventTest() {
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_UP);
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0014')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0014 finish.`);
       done()
@@ -100,7 +100,7 @@ export default function KeyboardEventTest() {
       await driver.triggerKey(KeyCode.KEYCODE_DPAD_RIGHT);
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0015')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0015 finish.`);
       done()
@@ -129,7 +129,7 @@ export default function KeyboardEventTest() {
       await outerInput.click();
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0010')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0010 finish.`);
       done()
@@ -156,7 +156,7 @@ export default function KeyboardEventTest() {
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0011')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0011 finish.`);
       done()
@@ -185,7 +185,7 @@ export default function KeyboardEventTest() {
       await innerImage.click();
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0012')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0012 finish.`);
       done()
@@ -212,7 +212,7 @@ export default function KeyboardEventTest() {
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0013')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0013 finish.`);
       done()
@@ -241,7 +241,7 @@ export default function KeyboardEventTest() {
       await innerInput.click();
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0014')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0014 finish.`);
       done()
@@ -268,7 +268,7 @@ export default function KeyboardEventTest() {
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0015')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0015 finish.`);
       done()
@@ -297,7 +297,7 @@ export default function KeyboardEventTest() {
       await innerImage.click();
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0016')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0016 finish.`);
       done()
@@ -324,7 +324,7 @@ export default function KeyboardEventTest() {
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0017')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0017 finish.`);
       done()
@@ -363,7 +363,7 @@ export default function KeyboardEventTest() {
       await innerImage.click();
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0018')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0018 finish.`);
       done()
@@ -392,7 +392,7 @@ export default function KeyboardEventTest() {
       await innerInput.click();
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0019')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0019 finish.`);
       done()
@@ -419,7 +419,7 @@ export default function KeyboardEventTest() {
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0020')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0020 finish.`);
       done()
@@ -448,7 +448,7 @@ export default function KeyboardEventTest() {
       await innerImage.click();
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0021')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0021 finish.`);
       done()
@@ -475,7 +475,7 @@ export default function KeyboardEventTest() {
       await driver.triggerKey(KeyCode.KEYCODE_TAB);
       await driver.waitForIdle(500, 2000);
       
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0022')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0022 finish.`);
       done()
