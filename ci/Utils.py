@@ -18,7 +18,8 @@
 import os
 import re
 import json
-from enum import Enum
+import sys
+import logging
 
 HOME = os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
@@ -235,6 +236,7 @@ class MatchConfig:
         else:
             return cls.uncompile_suite[xts_suite]
 
+
 class XTSTargetUtils:
 
     @staticmethod
@@ -425,3 +427,113 @@ class PathUtils:
             if PathUtils.is_parent_path(f, file):
                 return True
         return False
+
+
+class Singleton(type):
+    _instances = {}
+
+    def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            cls._instances[cls] = super().__call__(*args, **kwargs)
+        return cls._instances[cls]
+
+
+class XTSLogger(metaclass = Singleton):
+    """
+    Wrapper class of logging.Logger.
+
+    By default, the logger writes into stdout, not to a file.
+    
+    Examples:
+        logger = XTSLogger()
+        logger.logging_phase = "PHASE STRING"
+        logger.info("hello world.")
+    """
+    def __init__(self, name = "xts_logger", level = logging.INFO,
+                 format = "[XTS %(levelname)s] %(message)s"):
+        if hasattr(self, "_logger"):
+            return
+        
+        self._logger = logging.getLogger(name)
+        self._logging_phase = None
+        self._logger.setLevel(level)
+
+        console_handler = logging.StreamHandler(sys.stdout)
+        console_handler.setFormatter(logging.Formatter(format))
+        console_handler.setLevel(level)
+        self._logger.addHandler(console_handler)
+
+    @property
+    def logger(self):
+        return self._logger
+    
+    @property
+    def logging_phase(self):
+        return self._logging_phase
+    
+    @logging_phase.setter
+    def logging_phase(self, phase: str):
+        self._logging_phase = phase
+
+
+    def add_file_handler(self, fpath: str, level = logging.INFO,
+                         format = "[XTS %(levelname)s] %(message)s"):
+        """
+        Add FileHandler to the internal logger.
+
+        Args:
+            fpath: Log file path, default access mode is 'w'.
+            level: Log level, default to INFO.
+            format: Format string for Formatter.
+
+        Returns:
+            The new FileHandler object.
+        """
+        abs_fpath = os.path.abspath(fpath)
+        handlers = {
+            os.path.abspath(h.baseFilename): h
+                for h in self._logger.handlers
+                    if isinstance(h, logging.FileHandler)
+        }
+
+        file_handler = handlers.get(abs_fpath)
+        if file_handler:
+            return file_handler
+        
+        file_handler = logging.FileHandler(abs_fpath, 'w')
+        file_handler.setFormatter(logging.Formatter(format))
+        file_handler.setLevel(level)
+        self._logger.addHandler(file_handler)
+        return file_handler
+
+    def remove_file_handler(self, fpath: str):
+        abs_fpath = os.path.abspath(fpath)
+        for handler in list(self._logger.handlers):
+            if not isinstance(handler, logging.FileHandler):
+                continue
+            
+            handler_fpath = os.path.abspath(handler.baseFilename)
+
+            if (abs_fpath == handler_fpath):
+                handler.close()
+                self._logger.removeHandler(handler)
+                return
+
+    def _process_msg(self, msg):
+        return msg if not self._logging_phase \
+                else f"[{self.logging_phase}] {msg}"
+    
+    def debug(self, msg, *args, **kwargs):
+        self._logger.debug(self._process_msg(msg), *args, **kwargs)
+    
+    def info(self, msg, *args, **kwargs):
+        self._logger.info(self._process_msg(msg), *args, **kwargs)
+
+    def warning(self, msg, *args, **kwargs):
+        self._logger.warning(self._process_msg(msg), *args, **kwargs)
+
+    def error(self, msg, *args, **kwargs):
+        self._logger.error(self._process_msg(msg), *args, **kwargs)
+
+    def critical(self, msg, *args, **kwargs):
+        self._logger.critical(self._process_msg(msg), *args, **kwargs)
