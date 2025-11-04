@@ -2611,6 +2611,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.ability.InteropAbilityLifecycleCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.net.connection.d.ts",
             "bundle_name": [
                 "netstack"
