@@ -18,10 +18,7 @@
 import os
 import sys
 import json
-import io
-import subprocess
-from typing import List
-from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, XTSLogger, HOME
+from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, HOME
 from ci_manager import ComponentManager, XTSManager, WhitelistManager, GetInterfaceData
 
 
@@ -123,73 +120,3 @@ def generate(xts_root_dir, change_info_file, build_target, suite_type, device_ty
     obj = AccurateTarget(xts_root_dir, change_info_file, suite_type.split(','), device_type)
     ret, accurate_targets = obj.get_targets()
     return ret, accurate_targets
-
-
-def calc_final_targets(out_path: str, gn_path: str, targets: List[str]):
-    """
-    Retrive xts accurate build targes from GN dependency tree.
-
-    Args:
-        out_path: The output dir of GN gen (abspath required).
-        gn_path: The GN executable path (abspath required).
-        targets: Original targets for xts accurate build.
-
-    Returns:
-        New xts accurate build target list; None on error.
-    """
-    cmd_list = [
-        gn_path,
-        "desc", 
-        out_path,
-        "//test/xts/acts:xts_acts",
-        "deps",
-        "--tree"
-    ]
-
-    logger = XTSLogger()
-    logger.logging_phase = "TARGET_PICK"
-
-    try:
-        proc = subprocess.Popen(
-            cmd_list,
-            stdout = subprocess.PIPE,
-            stderr = subprocess.PIPE
-        )
-
-        logger.info("Start picking xts build targets from dep tree, "
-                    "this would take a short while...")
-
-        # keep non-acts targets
-        targets, final_tgts = set(targets), set()
-        for tgt in targets:
-            if not tgt.startswith("test/xts/acts"):
-                final_tgts.add(tgt)
-                logger.info(f"Picking target: '{tgt}'")
-
-        with io.TextIOWrapper(proc.stdout, encoding = "utf-8") as stream:
-            for ln in stream:
-                ln = ln.strip()
-                if ln.startswith("//test/xts/acts"):
-                    ln = ln[2:]
-                    if ln in targets:
-                        logger.info(f"Picking target: '{ln}'")
-                        final_tgts.add(ln)
-                        targets.remove(ln)
-
-        rc = proc.wait()
-        if rc != 0:
-            err_msg = proc.stderr.read().decode("utf-8")
-            logger.error(f"command '{str.join(' ', cmd_list)}' exited with code: {rc}")
-            logger.error(f"Error Message: {err_msg}")
-            raise Exception("GN command returned unexpectedly.")
-    except Exception as e:
-        logger.error(e)
-        logger.error("Something went wrong "
-                     "while calculating xts final build targets, "
-                     "fall back to the original build targets")
-        final_tgts = None
-    finally:
-        if final_tgts is not None:
-            final_tgts = list(final_tgts)
-            logger.info(f"Pick done, results: {final_tgts}")
-        return final_tgts

@@ -455,6 +455,7 @@ class XTSLogger(metaclass = Singleton):
             return
         
         self._logger = logging.getLogger(name)
+        self._logger.propagate = False
         self._logging_phase = None
         self._logger.setLevel(level)
 
@@ -472,7 +473,7 @@ class XTSLogger(metaclass = Singleton):
         return self._logging_phase
     
     @logging_phase.setter
-    def logging_phase(self, phase: str):
+    def logging_phase(self, phase: str | None):
         self._logging_phase = phase
 
 
