@@ -1705,3 +1705,1645 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0600 finish.`);
       done()
     })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0610
+       * @tc.name    Verify that when CustomDialogController sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 59.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0610', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0610 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay59")
+      let driver:Driver=Driver.create();
+      let button00: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay59_03'),1000);
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay59_04'),1000);
+      await button00.click()
+      await driver.waitForIdle(500,2000)
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay59_01'),1000);
+      await button02.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay_NextPage'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0610 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1590
+       * @tc.name    Verify that when showDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the page top layer 60.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1590', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1590 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay60")
+      let driver:Driver=Driver.create();
+      let button00: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay60_01'),1000);
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay60_02'),1000);
+      await button00.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:1230},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1590 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1640
+       * @tc.name    Verify that when showDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the page top layer 61.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1640', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1640 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay61")
+      let driver:Driver=Driver.create();
+      let button00: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay61_01'),1000);
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay61_02'),1000);
+      await button00.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:1230},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1640 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1680
+       * @tc.name    Verify that when showDialog sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value, and levelUniqueId to a normal value, the dialog node that pops up is at the page top layer 62.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1680', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1680 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay62")
+      let driver:Driver=Driver.create();
+      let button00: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay62_01'),1000);
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay62_02'),1000);
+      await button00.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:1230},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1680 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0840
+       * @tc.name    Verify that when CustomDialogController sets LevelMode to OverLay and ImmersiveMode to an abnormal value, the popped-up dialog node is at the global window top level 63
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0840', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0840 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay63")
+      let driver:Driver=Driver.create();
+      let button00: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay63_04'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay63_03'),1000);
+      await button02.click()
+      await button00.click()
+      windowSnap.snapShot()
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay63_01'),1000);
+      await button01.click()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0840 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0860
+       * @tc.name    Verify that when CustomDialogController sets LevelMode to an abnormal value and ImmersiveMode to DEFAULT, the popped-up dialog node is at the top layer of the global window.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0860', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0860 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay64")
+      let driver:Driver=Driver.create();
+      let button00: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay64_04'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay64_03'),1000);
+      await button02.click()
+      await button00.click()
+      windowSnap.snapShot()
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay64_01'),1000);
+      await button01.click()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0860 finish.`);
+      done()
+    })
+
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0660
+       * @tc.name    Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to EXTEND, and levelUniqueId is set to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0660', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0660 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay65")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay65_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay65_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay65_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0660 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0740
+       * @tc.name    Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to abnormal value, and levelUniqueId is set to a normal value, the dialog node that pops up is at the current page top layer 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0740', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0740 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay66")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay66_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay66_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0740 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0620
+       * @tc.name    Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to DEFAULT, and levelUniqueId is set to a normal value, the dialog node that pops up is at the current page top layer 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0620', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0620 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay67")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay67_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay67_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0620 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0700
+       * @tc.name    Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to abnormal value, and levelUniqueId is set to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0700', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0700 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay68")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay68_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay68_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay68_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0700 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0900
+       * @tc.name    Verify that when CustomDialogController sets LevelMode to abnormal value and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0900', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0900 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay69")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay69_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay69_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay69_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0900 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0590
+       * @tc.name    Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to DEFAULT, and levelUniqueId is set to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0590', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0590 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay70")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay70_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay70_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay70_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0590 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1070
+       * @tc.name    Verify that when prompt_openCustomDialog is set with LevelMode as EMBEDDED or ImmersiveMode with abnormal values, and levelUniqueId is set to an abnormal value, the popped-up dialog node appears as the global window top-level
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1070', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1070 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay71")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay71_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay71_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay71_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1070 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1030
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED and ImmersiveMode to EXTEND, and levelUniqueId is set to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1030', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1030 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay72")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay72_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay72_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay72_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1030 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1180
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1180', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1180 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay73")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay73_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay73_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay73_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1180 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1190
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1190', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1190 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay74")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay74_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay74_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay74_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1190 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1240
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to abnormal value and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1240', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1240 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay75")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay75_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay75_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay75_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1240 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1270
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to abnormal value and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1270', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1270 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay76")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay76_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay76_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay76_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1270 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1280
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to abnormal value and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1280', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1280 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay77")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay77_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay77_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay77_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1280 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1150
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1150', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1150 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay78")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay78_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay78_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay78_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1150 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0960
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0960', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0960 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay79")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay79_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay79_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay79_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0960 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1110
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1110', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1110 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay80")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay80_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay80_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1110 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0970
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0970', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0970 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay81")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay81_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay81_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0970 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2150
+       * @tc.name    Verify that when uiContext_openCustomDialogWithController sets LevelMode to abnormal value and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2150', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2150 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay82")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay82_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay82_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay82_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2150 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2060
+       * @tc.name    Verify that when uiContext_openCustomDialogWithController sets LevelMode to OVERLAY and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2060', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2060 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay83")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay83_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay83_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay83_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2060 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2050
+       * @tc.name    Verify that when uiContext_openCustomDialogWithController sets LevelMode to OVERLAY and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2050', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2050 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay84")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay84_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay84_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay84_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2050 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2020
+       * @tc.name    Verify that when uiContext_openCustomDialogWithController sets LevelMode to OVERLAY and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2020', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2020 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay85")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay85_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay85_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay85_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2020 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2140
+       * @tc.name    Verify that when uiContext_openCustomDialogWithController sets LevelMode to abnormal value and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2140', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2140 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay86")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay86_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay86_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay86_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2140 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2200
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2200', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2200 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay87")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay87_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay87_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay87_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2200 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2270
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2270', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2270 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay88")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay88_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay88_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay88_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2270 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2310
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2310', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2310 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay89")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay89_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay89_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay89_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2310 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2480
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to abnormal value and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2480', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2480 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay90")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay90_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay90_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay90_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2480 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2210
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2210', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2210 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay91")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay91_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay91_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2210 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2350
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2350', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2350 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay92")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay92_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay92_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2350 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2110
+       * @tc.name    Verify that when uiContext_openCustomDialogWithController sets LevelMode to abnormal value and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2110', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2110 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay93")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay93_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay93_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay93_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2110 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1830
+       * @tc.name    Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1830', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1830 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay94")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay94_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay94_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay94_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1830 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1900
+       * @tc.name    Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1900', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1900 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay95")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay95_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay95_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay95_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1900 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1940
+       * @tc.name    Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1940', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1940 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay96")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay96_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay96_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay96_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1940 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1840
+       * @tc.name    Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1840', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1840 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay97")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay97_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay97_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1840 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1980
+       * @tc.name    Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1980', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1980 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay98")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay98_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay98_04'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1980 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2760
+       * @tc.name    Verify that when uiContext_presentCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2760', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2760 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay99")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay99_05'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay99_02'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay99_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2760 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2790
+       * @tc.name    Verify that when uiContext_presentCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2790', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2790 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay100")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay100_05'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay100_02'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay100_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2790 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2800
+       * @tc.name    Verify that when uiContext_presentCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2800', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2800 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay101")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay101_05'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay101_02'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay101_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2800 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2850
+       * @tc.name    Verify that when uiContext_presentCustomDialog sets LevelMode to abnormal value and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2850', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2850 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay102")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay102_05'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay102_02'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay102_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2850 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2880
+       * @tc.name    Verify that when uiContext_presentCustomDialog sets LevelMode to abnormal value and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2880', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2880 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay103")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay103_05'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay103_02'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay103_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2880 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2890
+       * @tc.name    Verify that when uiContext_presentCustomDialog sets LevelMode to abnormal value and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2890', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2890 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay104")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay104_05'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay104_02'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay104_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2890 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2570
+       * @tc.name    Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2570', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2570 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay105")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay105_05'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay105_02'),1000);
+      await button01.click()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay105_01'),1000);
+      await button03.click();
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:200,y:200},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2570 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2580
+       * @tc.name    Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2580', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2580 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay106")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay106_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay106_02'),1000);
+      await button01.click()
+      await Utils.sleep(1000)
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2580 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2720
+       * @tc.name    Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value, and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2720', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2720 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay107")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay107_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay107_02'),1000);
+      await button01.click()
+      await Utils.sleep(1000)
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2720 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1330
+       * @tc.name    Verify that when ShowActionSheet is set with LevelMode as EMBEDDED, ImmersiveMode as DEFAULT, and levelUniqueId is set to a normal value, the popped-up dialog node is at the top level of the global window 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1330', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1330 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay108")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay108_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay108_02'),1000);
+      await button01.click()
+      await Utils.sleep(1000)
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1330 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1420
+       * @tc.name    Verify that when ShowActionSheet is set with LevelMode as EMBEDDED, ImmersiveMode is set to an abnormal value, and levelUniqueId is set to a normal value, the dialog that pops up appears as the top-level window of the global node 01.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1420', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1420 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay109")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay109_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay109_02'),1000);
+      await button01.click()
+      await Utils.sleep(1000)
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1420 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0370
+       * @tc.name    Verify that when AlertDialog is set with LevelMode as EMBEDDED, ImmersiveMode set to an abnormal value, and levelUniqueId set to a normal value, the popped-up dialog node is the top layer 01 of the current page.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0370', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0370 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay110")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay110_03'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay110_02'),1000);
+      await button01.click()
+      await Utils.sleep(1000)
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0370 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0630
+       * @tc.name    Verify that when CustomDialogController sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0630', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0630 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay111")
+      let driver:Driver=Driver.create();
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay111_04'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay111_01'),1000);
+      await button03.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:1230},MouseButton.MOUSE_BUTTON_LEFT)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0630 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1600
+       * @tc.name    Verify that when showDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1600', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1600 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay112")
+      let driver:Driver=Driver.create();
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay112_01'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay112_02'),1000);
+      let point = await button03.getBoundsCenter()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.click(point.x,point.y)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:1230},MouseButton.MOUSE_BUTTON_LEFT)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1600 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2610
+       * @tc.name    Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2610', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2610 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay113")
+      let driver:Driver=Driver.create();
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay113_01'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay113_02'),1000);
+      await button03.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:1230},MouseButton.MOUSE_BUTTON_LEFT)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2610 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1870
+       * @tc.name    Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1870', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1870 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay114")
+      let driver:Driver=Driver.create();
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay114_04'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay114_01'),1000);
+      await button03.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:1230},MouseButton.MOUSE_BUTTON_LEFT)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1870 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2240
+       * @tc.name    Verify that when uiContext_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2240', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2240 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay115")
+      let driver:Driver=Driver.create();
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay115_04'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay115_01'),1000);
+      await button03.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:1230},MouseButton.MOUSE_BUTTON_LEFT)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2240 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1350
+       * @tc.name    Verify that when ShowActionSheet sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1350', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1350 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay116")
+      let driver:Driver=Driver.create();
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay116_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay116_01'),1000);
+      let point = await button03.getBoundsCenter()
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.click(point.x,point.y)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:1230},MouseButton.MOUSE_BUTTON_LEFT)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1350 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1000
+       * @tc.name    Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1000', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1000 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsPageDisplay/UiComponentPopupBoxSpecificationsPageDisplay117")
+      let driver:Driver=Driver.create();
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay117_04'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsPageDisplay117_01'),1000);
+      await button03.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await driver.mouseClick({x:200,y:1230},MouseButton.MOUSE_BUTTON_LEFT)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1000 finish.`);
+      done()
+    })
+  })
+}
