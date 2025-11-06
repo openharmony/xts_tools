@@ -121,6 +121,11 @@ def parse_args(args: List[str]):
                 ret[arg[2:]] = args[idx + 1]
             _args.extend([arg, args[idx + 1]])
             continue
+        elif arg == "--prebuilts-sdk-gn-args":
+            # Do make sure the '--prebuilts-sdk-gn-args'
+            # being the last named arg in arg list.
+            ret["prebuilts-sdk-gn-args"] = args[idx:]
+            return ret, _args
         _args.append(arg)
     return ret, _args
 
@@ -140,20 +145,28 @@ def xts_accurate_build(code_base: str, args: List[str]):
     os.chdir(code_base)
     logger = XTSLogger()
 
+    def ext_build_target(args: List[str], targets: List[str]):
+        for tgt in targets:
+            args.extend(["--build-target", tgt])
+        return args
+
+    arg_dict, base_args = parse_args(args)
+    targets = arg_dict.get("targets", [])
+    prebuilts_sdk_gn_args = arg_dict.get("prebuilts-sdk-gn-args", [])
+    _args = ext_build_target(base_args.copy(), targets)
+    _args.append("--build-only-gn")
+    _args.extend(prebuilts_sdk_gn_args)
+
     # gn gen
-    args.append("--build-only-gn")
-    logger.info(">>> Compile command: {}".format(str.join(' ', args)))
-    rc = subprocess.run(args).returncode
+    logger.info(">>> Compile command: {}".format(str.join(' ', _args)))
+    rc = subprocess.run(_args).returncode
     if (rc != 0):
         return rc
 
     # gn desc
-    args.pop()
-    arg_dict, args = parse_args(args)
     gn_path = os.path.join(code_base, "prebuilts/build-tools/linux-x86/bin/gn")
-    targets = arg_dict.get("targets", [])
-
     out_path = os.path.join(code_base, "out")
+
     if arg_dict.get("abi-type") is not None:
         out_path = os.path.join(out_path, arg_dict.get("abi-type"), arg_dict.get("device-type"))
     else:
@@ -175,12 +188,10 @@ def xts_accurate_build(code_base: str, args: List[str]):
     _tgts = calc_final_targets(out_path, gn_path, targets, env)
 
     if _tgts is None:
-        for tgt in targets:
-            args.extend(["--build-target", tgt])
+        _args = ext_build_target(base_args.copy(), targets)
     elif len(_tgts) > 1 or not \
         (len(_tgts) == 1 and _tgts[0] == "deploy_testtools"):
-        for tgt in _tgts:
-            args.extend(["--build-target", tgt])
+        _args = ext_build_target(base_args.copy(), _tgts)
     else:
         logger.info("XTS accurate target list is empty, skip building.")
         return 0
@@ -192,6 +203,7 @@ def xts_accurate_build(code_base: str, args: List[str]):
         os.utime(ctx)
 
     # ninja
-    args.append("--fast-rebuild")
-    logger.info(">>> Compile command: {}".format(str.join(' ', args)))
-    return subprocess.run(args).returncode
+    _args.append("--fast-rebuild")
+    _args.extend(prebuilts_sdk_gn_args)
+    logger.info(">>> Compile command: {}".format(str.join(' ', _args)))
+    return subprocess.run(_args).returncode
