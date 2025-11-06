@@ -1,6 +1,27 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/delete_arkui_label.py",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/process_label_noninterop.py",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkui_interop_copy_dynamic.sh",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/build_api_check_plugin.py",
             "bundle_name": [
                 "ability_runtime"
