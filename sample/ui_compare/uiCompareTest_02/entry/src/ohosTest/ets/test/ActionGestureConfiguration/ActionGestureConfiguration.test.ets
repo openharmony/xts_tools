@@ -2807,5 +2807,248 @@ export default function ActionGestureConfiguration() {
       done();
     })
 
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0160
+       * @tc.name    LongPressGesture设置fingers为4
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0160', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0160 start.`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration112")
+      let driver:Driver=Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration112'),1000);
+      const point = await button.getBoundsCenter();
+      let pointers3: PointerMatrix = PointerMatrix.create(4,2);
+      pointers3.setPoint(0,0,{x:point.x+10,y:point.y});
+      pointers3.setPoint(0,1,{x:point.x,y:point.y});
+      pointers3.setPoint(1,0,{x:point.x+20,y:point.y});
+      pointers3.setPoint(1,1,{x:point.x,y:point.y});
+      pointers3.setPoint(2,0,{x:point.x+30,y:point.y});
+      pointers3.setPoint(2,1,{x:point.x,y:point.y});
+      pointers3.setPoint(3,0,{x:point.x+40,y:point.y});
+      pointers3.setPoint(3,1,{x:point.x,y:point.y});
+      await driver.injectMultiPointerAction(pointers3);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0160 finish.`);
+      done();
+    })
+
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0150
+       * @tc.name    LongPressGesture设置fingers为2.5
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0150', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0150 start.`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration113")
+      let driver:Driver=Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration113'),1000);
+      let point = await button.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2,2);
+      pointers.setPoint(0,0,{x:point.x,y:point.y});
+      pointers.setPoint(0,1,{x:point.x+50,y:point.y});
+      pointers.setPoint(1,0,{x:point.x-50,y:point.y+20});
+      pointers.setPoint(1,1,{x:point.x+50,y:point.y+20});
+      await driver.injectMultiPointerAction(pointers,300);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0150 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0740
+       * @tc.name    RotationGesture设置angle为50
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0740', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0740 start.`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration114")
+      let driver:Driver=Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration114'),1000);
+      const btnBounds = await button.getBounds();
+      const centerX = btnBounds.left + (btnBounds.right - btnBounds.left) / 2;
+      const centerY = btnBounds.top + (btnBounds.bottom - btnBounds.top) / 2;
+      const radius = 100;
+      const pointers: PointerMatrix = PointerMatrix.create(2, 40);
+      for (let i = 0; i < 40; i++) {
+        const angle = (60 / 39) * i;
+        const rad = angle * Math.PI / 180;
+        const f0x = centerX + radius * Math.cos(rad);
+        const f0y = centerY - radius * Math.sin(rad);
+        const f1x = centerX - radius * Math.cos(rad);
+        const f1y = centerY + radius * Math.sin(rad);
+        pointers.setPoint(0, i, {x: Math.round(f0x), y: Math.round(f0y)});
+        pointers.setPoint(1, i, {x: Math.round(f1x), y: Math.round(f1y)});
+      }
+      await driver.injectMultiPointerAction(pointers, 50);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0740 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0720
+       * @tc.name    RotationGesture设置angle为2.5
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0720', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0720 start.`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration115")
+      let driver:Driver=Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration115'),1000);
+      const btnBounds = await button.getBounds();
+      const centerX = btnBounds.left + (btnBounds.right - btnBounds.left) / 2;
+      const centerY = btnBounds.top + (btnBounds.bottom - btnBounds.top) / 2;
+      const radius = 150;
+      const targetAngle = 2.5;
+      const pointers: PointerMatrix = PointerMatrix.create(2, 20);
+      for (let i = 0; i < 20; i++) {
+        const currentAngle = (targetAngle / 19) * i;
+        const rad = currentAngle * Math.PI / 180;
+        const f0x = centerX + radius * Math.cos(rad);
+        const f0y = centerY - radius * Math.sin(rad);
+        const f1x = centerX - radius * Math.cos(rad);
+        const f1y = centerY + radius * Math.sin(rad);
+        pointers.setPoint(0, i, {x: Math.round(f0x), y: Math.round(f0y)});
+        pointers.setPoint(1, i, {x: Math.round(f1x), y: Math.round(f1y)});
+      }
+      await driver.injectMultiPointerAction(pointers, 30);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0720 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1180
+       * @tc.name    TapGesture设置count为3.5
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1180', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1180 start.`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration116")
+      let driver:Driver=Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration116'),1000);
+      await button.click()
+      await button.click()
+      await button.click()
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1180 finish.`);
+      done();
+    })
+
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0820
+       * @tc.name    RotationGesture设置fingers为undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0820', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0820 start.`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration117")
+      let driver:Driver=Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration117'),1000);
+      const btnBounds = await button.getBounds();
+      const centerX = btnBounds.left + (btnBounds.right - btnBounds.left) / 2;
+      const centerY = btnBounds.top + (btnBounds.bottom - btnBounds.top) / 2;
+      const radius = 100;
+      const pointers: PointerMatrix = PointerMatrix.create(2, 30);
+      for (let i = 0; i < 30; i++) {
+        const angle = (30 / 29) * i;
+        const rad = angle * Math.PI / 180;
+        pointers.setPoint(0, i, {
+          x: Math.round(centerX + radius * Math.cos(rad)),
+          y: Math.round(centerY - radius * Math.sin(rad))
+        });
+        pointers.setPoint(1, i, {
+          x: Math.round(centerX - radius * Math.cos(rad)),
+          y: Math.round(centerY + radius * Math.sin(rad))
+        });
+      }
+      await driver.injectMultiPointerAction(pointers, 50);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0820 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0610
+       * @tc.name    PinchGesture设置fingers为null
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0610', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0610 start.`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration118")
+      let driver:Driver=Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration118'),1000);
+      let point = await button.getBoundsCenter()
+      let pointers: PointerMatrix = PointerMatrix.create(2, 10);
+      for (let i = 0; i < 10; i++) {
+        pointers.setPoint(0, i, {x: point.x - 20 - i * 5, y: point.y});
+        pointers.setPoint(1, i, {x: point.x + 20 + i * 5, y: point.y});
+      }
+      await driver.injectMultiPointerAction(pointers);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0610 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1190
+       * @tc.name    TapGesture设置count为4
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1190', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1190 start.`);
+      Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration119")
+      let driver:Driver=Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('ActionGestureConfiguration119'),1000);
+      let point = await button.getBoundsCenter()
+      await button.click()
+      await button.click()
+      await button.click()
+      await button.click()
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1190 finish.`);
+      done();
+    })
   })
 }
