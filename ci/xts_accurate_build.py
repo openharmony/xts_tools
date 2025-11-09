@@ -35,25 +35,39 @@ def calc_final_targets(out_path: str, gn_path: str, targets: List[str], env: Dic
     Returns:
         New xts accurate build target list; None on error.
     """
-    cmd_list = [
-        gn_path,
-        "desc",
-        out_path,
-        "//test/xts/acts:xts_acts",
-        "deps",
-        "--tree"
-    ]
-
     logger = XTSLogger()
-    # keep non-acts targets
+    # keep virtual or non-acts targets.
+    keep_set = {
+        "test/xts/acts:xts_acts",
+        "test/xts/dcts:xts_dcts",
+        "test/xts/hats:xts_hats",
+        "test/xts/hits:xts_hits",
+        "test/xts/tools:xts_tools"
+    }
+
     _targets, final_tgts = set(targets), set()
     for tgt in _targets:
-        if not tgt.startswith("test/xts/acts"):
+        if tgt in keep_set or not tgt.startswith("test/xts/acts"):
             final_tgts.add(tgt)
-            logger.info(f"Keep non-acts target: '{tgt}'")
+            logger.info(f"Keep target: '{tgt}'")
     _targets.difference_update(final_tgts)
 
+    if len(_targets) == 0:
+        final_tgts = list(final_tgts)
+        logger.info(f"Keep all targets, build targets: {final_tgts}")
+        return final_tgts
+
     try:
+        cmd_list = [
+            gn_path,
+            "desc",
+            out_path,
+            "//test/xts/acts:xts_acts",
+            "deps",
+            "--tree"
+        ]
+        logger.info(">>> Execute command: {}".format(str.join(' ', cmd_list)))
+
         proc = subprocess.Popen(
             cmd_list,
             stdout = subprocess.PIPE,
