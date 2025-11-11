@@ -166,7 +166,8 @@ export default class RdbModel {
         // this.distributedTable = await this.rdbStore?.obtainDistributedTableName(device, this.tableName)
         // Logger.info(TAG, `obtainDistributedTableName,distributedTable=` + this.distributedTable)
       }
-    } catch (err: BusinessError) {
+    } catch (err) {
+      err = err as BusinessError;
       Logger.error(TAG, `ObtainDistributedTableName failed, code is ${err.code},message is ${err.message}`)
     }
     this.dataChangeCallback = callback
@@ -188,7 +189,8 @@ export default class RdbModel {
         // this.distributedTable = await this.rdbStore.obtainDistributedTableName(device, this.tableName);
         // Logger.info(TAG, `obtainDistributedTableName,distributedTable=` + this.distributedTable);
       }
-    } catch (err: BusinessError) {
+    } catch (err) {
+      err = err as BusinessError;
       Logger.error(TAG, `ObtainDistributedTableName failed, code is ${err.code},message is ${err.message}`);
     }
     this.dataChangeDetailCallback = callback;

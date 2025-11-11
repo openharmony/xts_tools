@@ -56,7 +56,8 @@ class FileSystem {
       } else {
         return `${fileSize}${BYTE_SYMBOL}`;
       }
-    } catch (err: BusinessError) {
+    } catch (err) {
+      err = err as BusinessError;
       Logger.error(`getFileSize failed, code is ${err.code}, message is ${err.message}`);
       throw new Error(`getFileSize failed, code is ${err.code}, message is ${err.message}`);
     }
@@ -92,7 +93,8 @@ class FileSystem {
       }
 
       return subdirectory;
-    } catch (err: BusinessError) {
+    } catch (err) {
+      err = err as BusinessError;
       Logger.error(`getSubdirectory failed, code is ${err.code}, message is ${err.message}`);
       throw new Error(`getSubdirectory failed, code is ${err.code}, message is ${err.message}`);
     }
@@ -117,7 +119,8 @@ class FileSystem {
       }
 
       return count;
-    } catch (err: BusinessError) {
+    } catch (err) {
+      err = err as BusinessError;
       Logger.error(`getSubdirectoryNum failed, code is ${err.code}, message is ${err.message}`);
       throw new Error(`getSubdirectoryNum failed, code is ${err.code}, message is ${err.message}`);
     }
@@ -128,7 +131,8 @@ class FileSystem {
     try {
       const stats = fs.statSync(filePath);
       return new Date(stats.ctime * 1000);
-    } catch (err: BusinessError) {
+    } catch (err) {
+      err = err as BusinessError;
       Logger.error(`getFileTime failed, code is ${err.code}, message is ${err.message}`);
       throw new Error(`getFileTime failed, code is ${err.code}, message is ${err.message}`);
     }

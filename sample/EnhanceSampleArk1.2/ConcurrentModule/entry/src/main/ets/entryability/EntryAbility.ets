@@ -41,7 +41,7 @@ class EntryAbility extends UIAbility {
         }
         hilog.info(0x0000, 'testTag', 'loadContent ok');
       });
-    } catch (e: Error) {
+    } catch (e) {
       hilog.info(0x0000, 'testTag', 'loadContent catch error：-----------' + e.message);
     }
   }
@@ -92,7 +92,8 @@ class EntryAbility extends UIAbility {
         .catch((error: Error) => {
           hilog.error(0x0000, 'testTag', 'Failed to getStringValue. Cause: %{public}s', error ?? '');
         });
-    } catch (error: BusinessError) {
+    } catch (error) {
+      error = error as BusinessError;
       hilog.error(0x0000, 'testTag', 'callback getStringValue failed. Cause: %{public}s', error.message ?? '');
     }
   }
