@@ -55,10 +55,13 @@ class ComponentManager(Ci_Manager):
         self._build_paths = []
         self._build_targets = []
         self._ieyes_xts_cfg_file = os.path.join(self._code_root_dir, 'ieyes_xts.json')
+        self._ieyes_xts_map = {}
 
     def get_targets_from_change(self, change_list):
         if not os.path.exists(self._ieyes_xts_cfg_file):
             return 0
+        with open(self._ieyes_xts_cfg_file, 'r') as f:
+            self._ieyes_xts_map = json.load(f)
         for changeFileEntity in change_list:
             if changeFileEntity.path not in MatchConfig.get_xts_path_list():
                 ret = self.getTargetsPaths(changeFileEntity)
@@ -75,7 +78,7 @@ class ComponentManager(Ci_Manager):
             return 1
         print(f"{self.__class__.__name__} append bundle_name : {bundle_name}")
         # 部件名(partname)获取paths
-        paths = XTSTargetUtils.getPathsByBundle([bundle_name], self._xts_root_dir)
+        paths = XTSTargetUtils.getPathsByBundle([bundle_name], self._xts_root_dir, self._ieyes_xts_map)
         if paths:
             change_file_entity.set_already_match_utils(True)
             self._build_paths += paths
@@ -247,9 +250,10 @@ class GetInterfaceData(Ci_Manager):
             raise Exception('error: Failed to obtain interface file ownership, Please config in test/xts/tools/config/ci_api_part_name.json')
 
     def get_targets_from_change(self, change_list):
-        if "hap_static" in self._suite_type:
-            self._build_targets = "xts_{}".format(os.path.basename(self._xts_root_dir))
-            return
+        for store in change_list:
+            if store.path in MatchConfig.get_interface_path_list() and "hap_static" in self._suite_type:
+                self._build_targets = "xts_{}".format(os.path.basename(self._xts_root_dir))
+                return
         if "acts" in self._xts_root_dir:
             # 分开处理三个 interface 仓
             self.get_c_bundle_name(change_list, MatchConfig.get_interface_json_c_data())
@@ -258,9 +262,7 @@ class GetInterfaceData(Ci_Manager):
             # 筛选出未匹配路径
             for path in self.sum_change_list_path:
                 if path not in self.match_path_list:
-                    # feature 分支.d.ets后缀无需编译用例
-                    if not path.endswith(".d.ets"):
-                        self.no_match_path_list.append(path)
+                    self.no_match_path_list.append(path)
 
             self.bundle_name_list = list(set(self.bundle_name_list))
             self._build_targets = list(set(self._build_targets))
