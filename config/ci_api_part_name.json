@@ -5663,6 +5663,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/common.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/external/resource.d.ets",
             "bundle_name": [
                 "ace_engine"
