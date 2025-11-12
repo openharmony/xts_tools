@@ -5495,6 +5495,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/forEach.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/gesture.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -5537,6 +5544,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/lazyForEach.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/list.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -5573,6 +5587,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/progress.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/repeat.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
