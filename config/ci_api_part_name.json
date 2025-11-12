@@ -322,6 +322,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.measure.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.photoAccessHelper.d.ts",
             "bundle_name": [
                 "media_library"
@@ -4515,6 +4522,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/styledString.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/gridItem.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -4578,6 +4592,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/hyperlink.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/animator.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -4599,6 +4620,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/textInput.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/scroll_bar.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -4614,6 +4642,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/text_common.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/textCommon.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -4698,6 +4733,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/marquee.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/marquee.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -4893,6 +4935,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/symbolSpan.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/navigator.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -4943,6 +4992,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/text_area.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/textArea.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -5019,6 +5075,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/span.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/menu.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -5041,6 +5104,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/enums.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/enums.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
