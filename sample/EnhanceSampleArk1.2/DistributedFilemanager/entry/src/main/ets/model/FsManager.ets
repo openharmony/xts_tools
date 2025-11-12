@@ -331,7 +331,8 @@ export class FsManager {
         DataObject.clear();
         return prompt.openToast({ message: $r('app.string.label_copyfailed') });
       })
-    } catch (err:BusinessError) {
+    } catch (err) {
+      err = err as BusinessError;
       Logger.error(TAG, `Failed to getData. Code: ${err.code}, message: ${err.message}`);
     }
   }

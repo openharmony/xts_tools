@@ -130,7 +130,8 @@ export class DataObject {
           fs.rmdirSync(item);
         }
       })
-    } catch (err: BusinessError) {
+    } catch (err) {
+      err = err as BusinessError;
       Logger.error(TAG, `delete failed, code is ${err.code}, message is ${err.message}`);
     }
     this.distributedObject!.from = '';
