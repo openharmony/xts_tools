@@ -9238,6 +9238,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.animator.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/arkui/display_manager",
             "bundle_name": [
                 "window_manager"
