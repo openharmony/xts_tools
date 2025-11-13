@@ -4956,6 +4956,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/withTheme.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/pattern_lock.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -5383,6 +5390,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.UIContext.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.component.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -5439,6 +5453,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.observer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.performanceMonitor.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -5468,6 +5489,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.theme.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.theme.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
