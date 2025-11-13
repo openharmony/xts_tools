@@ -1197,7 +1197,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.web.webview.static.d.ets",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.web.WebNativeMessagingExtensionAbility.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.web.WebNativeMessagingExtensionAbility.static.d.ets",
             "bundle_name": [
                 "webview"
             ],
@@ -1211,7 +1225,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.web.WebNativeMessagingExtensionContext.static.d.ets",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.web.webNativeMessagingExtensionManager.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.web.webNativeMessagingExtensionManager.static.d.ets",
             "bundle_name": [
                 "webview"
             ],
@@ -1618,6 +1646,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.web.netErrorList.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.web.netErrorList.static.d.ets",
             "bundle_name": [
                 "webview"
             ],
@@ -5761,7 +5796,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/component/web.d.ets",
+            "path": "interface/sdk-js/api/arkui/component/web.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
