@@ -3094,6 +3094,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.Counter.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.EnterpriseAdminExtensionAbility.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
@@ -3522,6 +3529,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.SegmentButtonV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SegmentButtonV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7831,6 +7845,13 @@
                 "ets_utils",
                 "ets_runtime",
                 "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.ArkUI.d.ets",
+            "bundle_name": [
+                "ace_engine"
             ],
             "build_targets": []
         },
