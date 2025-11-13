@@ -1,6 +1,20 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/api/arkui/component/extendableComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/stateManagement/decorators.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/stateManagement/storage/persistenceV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
