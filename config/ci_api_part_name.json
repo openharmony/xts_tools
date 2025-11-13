@@ -4307,7 +4307,7 @@
         {
             "path": "interface/sdk-js/api/@internal/component/ets/security_component.d.ts",
             "bundle_name": [
-                "ace_engine"
+                "security_component_manager"
             ],
             "build_targets": []
         },
@@ -5642,9 +5642,9 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/component/pasteButton.d.ets",
+            "path": "interface/sdk-js/api/arkui/component/pasteButton.static.d.ets",
             "bundle_name": [
-                "ace_engine"
+                "security_component_manager"
             ],
             "build_targets": []
         },
@@ -5670,9 +5670,9 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/component/saveButton.d.ets",
+            "path": "interface/sdk-js/api/arkui/component/saveButton.static.d.ets",
             "bundle_name": [
-                "ace_engine"
+                "security_component_manager"
             ],
             "build_targets": []
         },
@@ -5691,9 +5691,9 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/component/securityComponent.d.ets",
+            "path": "interface/sdk-js/api/arkui/component/securityComponent.static.d.ets",
             "bundle_name": [
-                "ace_engine"
+                "security_component_manager"
             ],
             "build_targets": []
         },
