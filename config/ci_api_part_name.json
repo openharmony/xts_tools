@@ -1,6 +1,55 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/delete_arkui_label.pydeps",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/build-tools/declgen.js",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/build-tools/remove_declgen.json",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/run_compile_declgen.py",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/bundle.json",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/compile_ets_ts.py",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/compile_ets_ts.json",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/extendableComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
