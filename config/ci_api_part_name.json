@@ -5628,6 +5628,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/canvas.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/column.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -5713,6 +5720,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/locationButton.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/matrix2d.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -5825,6 +5839,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/units.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/video.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
