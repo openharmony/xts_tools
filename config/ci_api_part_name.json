@@ -8348,6 +8348,769 @@
                 "bluetooth"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/actionSheet.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/alertDialog.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/alphabetIndexer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/badge.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/blank.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/builder.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/button.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/calendarPicker.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/canvas.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/checkbox.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/checkboxgroup.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/circle.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/column.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/columnSplit.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/common.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/containerSpan.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/contentSlot.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/counter.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/customComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/customDialogController.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/dataPanel.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/datePicker.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/divider.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/effectComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/ellipse.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/embeddedComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/flex.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/flowItem.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/folderStack.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/forEach.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/formComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/formLink.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/gauge.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/grid.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/gridCol.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/gridItem.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/gridRow.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/image.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/imageAnimator.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/imageSpan.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/indicatorcomponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/inspector.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/lazyForEach.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/lazyGridLayout.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/line.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/list.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/listItem.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/listItemGroup.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/loadingProgress.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/matrix2d.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/menu.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/menuItem.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/menuItemGroup.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/navDestination.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/navigation.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/nodeContainer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/pageTransition.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/particle.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/pasteButton.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/path.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/patternLock.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/pluginComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/polygon.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/polyline.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/progress.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/qrcode.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/radio.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/rating.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/rect.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/refresh.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/relativeContainer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/repeat.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/richEditor.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/richText.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/row.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/rowSplit.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/saveButton.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/scroll.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/scrollBar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/search.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/securityComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/select.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/shape.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/sidebar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/slider.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/stack.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/stepper.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/stepperItem.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/styledString.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/swiper.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/symbolglyph.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/tabContent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/tabs.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/text.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/textPicker.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/textTimer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/timePicker.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/toggle.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/toolbar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/uiExtensionComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/units.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/video.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/waterFlow.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/web.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/withTheme.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/xcomponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/incremental/annotation.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/stateManagement/decorator.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/stateManagement/runtime.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c":[
@@ -9258,769 +10021,6 @@
             "path": "drivers/interface/input",
             "bundle_name": [
                 "drivers_interface_input"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/actionSheet.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/alertDialog.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/alphabetIndexer.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/badge.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/blank.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/builder.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/button.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/calendarPicker.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/canvas.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/checkbox.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/checkboxgroup.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/circle.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/column.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/columnSplit.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/common.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/containerSpan.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/contentSlot.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/counter.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/customComponent.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/customDialogController.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/dataPanel.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/datePicker.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/divider.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/effectComponent.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/ellipse.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/embeddedComponent.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/flex.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/flowItem.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/folderStack.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/forEach.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/formComponent.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/formLink.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/gauge.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/grid.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/gridCol.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/gridItem.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/gridRow.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/image.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/imageAnimator.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/imageSpan.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/indicatorcomponent.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/inspector.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/lazyForEach.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/lazyGridLayout.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/line.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/list.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/listItem.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/listItemGroup.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/loadingProgress.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/matrix2d.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/menu.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/menuItem.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/menuItemGroup.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/navDestination.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/navigation.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/nodeContainer.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/pageTransition.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/particle.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/pasteButton.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/path.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/patternLock.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/pluginComponent.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/polygon.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/polyline.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/progress.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/qrcode.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/radio.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/rating.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/rect.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/refresh.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/relativeContainer.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/repeat.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/richEditor.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/richText.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/row.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/rowSplit.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/saveButton.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/scroll.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/scrollBar.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/search.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/securityComponent.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/select.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/shape.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/sidebar.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/slider.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/stack.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/stepper.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/stepperItem.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/styledString.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/swiper.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/symbolglyph.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/tabContent.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/tabs.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/text.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/textPicker.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/textTimer.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/timePicker.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/toggle.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/toolbar.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/uiExtensionComponent.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/units.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/video.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/waterFlow.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/web.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/withTheme.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/component/xcomponent.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/incremental/annotation.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/decorator.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/stateManagement/runtime.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
             ],
             "build_targets": []
         }
