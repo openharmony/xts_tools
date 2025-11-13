@@ -25,7 +25,7 @@ from typing import List
 from Utils import XTSLogger
 
 
-class XtsAccurateBuild:
+class XtsAccurateBuild(abc.ABC):
     def __init__(self, code_base: str, args: List[str], root_target: str):
         self._code_base = code_base
         self._args = args
