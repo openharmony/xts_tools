@@ -8952,6 +8952,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/remoteWindow.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/stack.static.d.ets",
             "bundle_name": [
                 "ace_engine"
