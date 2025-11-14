@@ -9127,6 +9127,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.modifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/text.static.d.ets",
             "bundle_name": [
                 "ace_engine"
