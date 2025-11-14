@@ -8,7 +8,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/stateManagement/decorators.static.d.ets",
+            "path": "interface/sdk-js/api/arkui/stateManagement/decorator.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
