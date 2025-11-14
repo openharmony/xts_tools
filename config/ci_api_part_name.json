@@ -5544,6 +5544,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/FrameNode.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/Graphics.d.ets",
             "bundle_name": [
                 "ace_engine"
