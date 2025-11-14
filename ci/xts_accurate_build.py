@@ -352,7 +352,6 @@ def xts_accurate_build(code_base: str, args: List[str], proprietary_build = Fals
 
     Args:
         code_base: abspath of ohos source code.
-        out_path: GN build output abspath.
         args: _CMD to run, as in subprocess.run(_CMD).
         proprietary_build: build in proprietary mode.
 
