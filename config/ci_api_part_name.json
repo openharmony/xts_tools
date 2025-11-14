@@ -1001,6 +1001,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ExceptionPrompt.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.wantAgent.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -1576,6 +1583,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.Filter.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.Filter.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -2254,7 +2268,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SubHeader.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.SubHeaderV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SubHeaderV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -2821,6 +2849,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.TabTitleBar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bluetooth.constant.d.ts",
             "bundle_name": [
                 "bluetooth"
@@ -2933,6 +2968,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ComposeTitleBar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.secureElement.d.ts",
             "bundle_name": [
                 "secure_element"
@@ -2968,7 +3010,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.Dialog.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.DialogV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.DialogV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -3073,6 +3129,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ComposeListItem.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.graphics.displaySync.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -3143,6 +3206,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SwipeRefresher.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.net.netFirewall.d.ts",
             "bundle_name": [
                 "netmanager_ext"
@@ -3206,7 +3276,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ToolBar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.ToolBarV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ToolBarV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -3500,7 +3584,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ProgressButton.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.ProgressButtonV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ProgressButtonV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -3634,6 +3732,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.TreeView.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.TreeView.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -3864,6 +3969,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.GridObjectSortComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.notificationManager.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
@@ -3893,6 +4005,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.EditableTitleBar.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.EditableTitleBar.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -4012,6 +4131,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.SplitLayout.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SplitLayout.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
