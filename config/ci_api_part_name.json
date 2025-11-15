@@ -5733,6 +5733,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/NodeContent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/NodeController.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -5741,6 +5748,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/RenderNode.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/RenderNode.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
