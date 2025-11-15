@@ -7462,6 +7462,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/application/AutoFillTriggerType.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AppForegroundStateObserver.d.ts",
             "bundle_name": [
                 "ability_runtime"
