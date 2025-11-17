@@ -5607,7 +5607,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.arkui.inspector.d.ets",
+            "path": "interface/sdk-js/api/@ohos.arkui.inspector.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
