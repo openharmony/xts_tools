@@ -6370,6 +6370,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.mediaquery.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.pluginComponent.d.ets",
             "bundle_name": [
                 "ace_engine"
