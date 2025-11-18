@@ -298,25 +298,47 @@ class XTSTargetUtils:
 
         return all_deps
 
+    '''
+    {
+        "部件A": ["用例A1", "用例A2", ... "用例Am"],
+        "部件B": ["用例B1", "用例B2", ... "用例Bn"],
+    }
+    '''
     @staticmethod
-    def getPathsByBundle(bundle, test_home) -> list:
+    def getPathsByBundle(bundle, test_home, filter=None) -> list:
         matching_files = []
         # 遍历根目录及其子目录
         for root, dirs, files in os.walk(test_home):
             if PathUtils.isMatchRules(root, MatchConfig.get_exception_path()):
                 continue
             for file in files:
-                if file == 'BUILD.gn':
-                    file_path = os.path.join(root, file)
-                    # 读取文件内容
-                    with open(file_path, 'r', encoding='utf-8') as f:
-                        content = f.read()
-                        # 检查是否包含bundle
-                        for bundle_ in bundle:
-                            part_name = f'part_name = "{bundle_}"'
-                            if part_name in content:
-                                matching_files.append(root)
-                                continue
+                if file != 'BUILD.gn':
+                    continue
+                file_path = os.path.join(root, file)
+                # 读取文件内容
+                content = ""
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                # 检查是否包含bundle
+                for bundle_ in bundle:
+                    part_name = f'part_name = "{bundle_}"'
+                    if part_name not in content:
+                        continue
+                    if not filter:
+                        matching_files.append(root)
+                        break
+                    testsuite_list = filter.get(bundle_)
+                    if not testsuite_list:
+                        continue
+                    isHapNameMatch = False
+                    for testsuite in testsuite_list:
+                        hap_name = f'hap_name = "{testsuite}"'
+                        if hap_name in content:
+                            isHapNameMatch = True
+                            break
+                    if isHapNameMatch:
+                        matching_files.append(root)
+                        break
         return matching_files
 
     @staticmethod

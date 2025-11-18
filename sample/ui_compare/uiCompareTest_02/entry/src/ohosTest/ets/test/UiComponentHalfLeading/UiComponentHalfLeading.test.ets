@@ -396,5 +396,49 @@ export default function UiComponentHalfLeading() {
       done();
     })
 
+        /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0120
+       * @tc.name    If halfleading is true, set align in the input field
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_HALFLEADING_0120', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0120 start.`);
+      Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading14");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading14_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentHalfLeading14_02'),1000);
+      await button01.click();
+      await button02.click();
+      windowSnap.snapShot()
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0120 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0140
+       * @tc.name    Modifier test
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_HALFLEADING_0140', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0140 start.`);
+      Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading15");
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      windowSnap.snapShot()
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0140 finish.`);
+      done();
+    })
+
   })
 }
