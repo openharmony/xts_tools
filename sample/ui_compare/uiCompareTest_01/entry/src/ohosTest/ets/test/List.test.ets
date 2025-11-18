@@ -62,6 +62,17 @@ import ImageOpacityTest from './image_svg_animate/ImageOpacity.test';
 import MediaImageTest from './mediaImage/MediaImage.test';
 import ImageOutliersTest from './image_svg_animate/ImageOutliers.test';
 import ImageThumbNailsTest from './image_svg_animate/ImageThumbNails.test';
+import ImageAnimatorMonitorTest from './imageAnimator/ImageAnimatorMonitor.test';
+import CheckboxScenariosTest from './button/CheckboxScenarios.test';
+import RefreshTest from './other/RefreshTest.test';
+import SwiperIndicatorInteractiveTest from './swiper_indicatorInteractive/SwiperIndicatorInteractive.test';
+import ListFadingEdgeTest from './list_fadingEdge/ListFadingEdge.test';
+import ArcScrollBarTest from './arcScrollBar/ArcScrollBar.test';
+import ToastPromptActionTest from './toast_promptAction/ToastPromptAction.test';
+import AttributesFeatureOutliersTest from './attributesFeatureOutliers/AttributesFeatureOutliers.test';
+import ListScrollbarHoverTest from './list_scrollbar_hover/ListScrollbarHover.test';
+import TextPickerWearTest from './textPicker_wear/TextPickerWear.test';
+import TextPickerOnScrollStopTest from './textPicker_onscrollstop/TextPickerOnScrollStop.test';
 
 export default function testsuite() {
   gestureMonopolize01Test();
@@ -113,4 +124,15 @@ export default function testsuite() {
   MediaImageTest();
   ImageOutliersTest();
   ImageThumbNailsTest();
+  ImageAnimatorMonitorTest();
+  CheckboxScenariosTest();
+  RefreshTest();
+  SwiperIndicatorInteractiveTest();
+  ListFadingEdgeTest();
+  ArcScrollBarTest();
+  ToastPromptActionTest();
+  AttributesFeatureOutliersTest();
+  ListScrollbarHoverTest();
+  TextPickerWearTest();
+  TextPickerOnScrollStopTest();
 }
