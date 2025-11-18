@@ -595,6 +595,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.drawableDescriptor.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.hidebug.d.ts",
             "bundle_name": [
                 "hiprofiler"
@@ -5244,6 +5251,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/textArea.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/textClock.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
