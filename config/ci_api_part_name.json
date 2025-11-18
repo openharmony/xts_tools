@@ -9896,7 +9896,14 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk_c/security/huks",
+            "path": "interface/sdk_c/security/device_certificate/certmanager",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/security/dcm/certm",
             "bundle_name": [
                 "huks"
             ],
