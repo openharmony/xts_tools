@@ -1848,6 +1848,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.ability.insightIntentProvider.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.verticalPanelManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
