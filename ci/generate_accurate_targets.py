@@ -18,8 +18,8 @@
 import os
 import sys
 import json
-from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
-from ci_manager import ComponentManager, XTSManager, WhitelistManager, OldPreciseManager, GetInterfaceData
+from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, HOME
+from ci_manager import ComponentManager, XTSManager, WhitelistManager, GetInterfaceData
 
 
 class AccurateTarget:
@@ -36,43 +36,21 @@ class AccurateTarget:
         elif "_pc_" in device_type:
             self._device_type = "pc"
 
-        if self._xts_root_dir.endswith('acts'):
-            # 测试套件仓修改,只查看当前编译套件仓
-            self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
-            # 部件仓修改
-            self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
-            # 白名单计算
-            self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir, suite_type)
-            # 原精准方案兜底计算
-            self.old_manager = OldPreciseManager(self._xts_root_dir, self._code_root_dir)
-            # interface 仓
-            self.interface_manager = GetInterfaceData(self._xts_root_dir, self._code_root_dir)
+        # 测试套件仓修改,只查看当前编译套件仓
+        self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
+        # 部件仓修改
+        self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
+        # 白名单计算
+        self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir, suite_type)
+        # interface 仓
+        self.interface_manager = GetInterfaceData(self._xts_root_dir, self._code_root_dir, suite_type)
 
-            self.util_list = [
-                self.xts_manager,
-                self.interface_manager,
-                self.com_manager,
-                self.wlist_manager,
-                self.old_manager
-            ]
-        else:  # hats/dcts/hits
-            # 测试套件仓修改,只查看当前编译套件仓
-            self.xts_manager = XTSManager(self._xts_root_dir, self._code_root_dir)
-            # 部件仓修改
-            self.com_manager = ComponentManager(self._xts_root_dir, self._code_root_dir)
-            # 白名单计算
-            self.wlist_manager = WhitelistManager(self._xts_root_dir, self._code_root_dir, suite_type)
-            # interface 仓
-            self.interface_manager = GetInterfaceData(self._xts_root_dir, self._code_root_dir)
-
-            self.util_list = [
-                self.xts_manager,
-                self.interface_manager,
-                self.com_manager,
-                self.wlist_manager,
-            ]
-
-    # def _get_full_target(self, xts_suitename):
+        self.util_list = [
+            self.xts_manager,
+            self.interface_manager,
+            self.com_manager,
+            self.wlist_manager,
+        ]
 
     def _get_change_info(self):
         try:
@@ -110,7 +88,7 @@ class AccurateTarget:
             print("warning: The list of files to be modifed was not obtained, compile full testsuites.")
             xts_suite = os.path.basename(self._xts_root_dir)
             relative_path = os.path.relpath(self._xts_root_dir, HOME)
-            targets = [f"{relative_path}:xts_{xts_suite}"]
+            ci_target = [f"{relative_path}:xts_{xts_suite}"]
         else:
             # 处理结果
             target_paths = set()

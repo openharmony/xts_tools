@@ -17,11 +17,8 @@
 
 import json
 import os
-import re
-import fnmatch
 import sys
 from abc import ABC, abstractmethod
-import xml.etree.ElementTree as ET
 
 from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
 
@@ -57,8 +54,14 @@ class ComponentManager(Ci_Manager):
         self._code_root_dir = code_root_dir
         self._build_paths = []
         self._build_targets = []
+        self._ieyes_xts_cfg_file = os.path.join(self._code_root_dir, 'ieyes_xts.json')
+        self._ieyes_xts_map = {}
 
     def get_targets_from_change(self, change_list):
+        if not os.path.exists(self._ieyes_xts_cfg_file):
+            return 0
+        with open(self._ieyes_xts_cfg_file, 'r') as f:
+            self._ieyes_xts_map = json.load(f)
         for changeFileEntity in change_list:
             if changeFileEntity.path not in MatchConfig.get_xts_path_list():
                 ret = self.getTargetsPaths(changeFileEntity)
@@ -75,7 +78,7 @@ class ComponentManager(Ci_Manager):
             return 1
         print(f"{self.__class__.__name__} append bundle_name : {bundle_name}")
         # 部件名(partname)获取paths
-        paths = XTSTargetUtils.getPathsByBundle([bundle_name], self._xts_root_dir)
+        paths = XTSTargetUtils.getPathsByBundle([bundle_name], self._xts_root_dir, self._ieyes_xts_map)
         if paths:
             change_file_entity.set_already_match_utils(True)
             self._build_paths += paths
@@ -223,73 +226,9 @@ class WhitelistManager(Ci_Manager):
             self._build_targets += targets
 
 
-class OldPreciseManager(Ci_Manager):
-
-    def __init__(self, xts_root_dir, code_root_dir):
-        self._xts_root_dir = xts_root_dir
-        self._code_root_dir = code_root_dir
-        self._build_paths = []
-        self._build_targets = []
-        self._precise_compilation_file = os.path.join(HOME, "test", "xts", "tools", "config",
-                                                      "precise_compilation.json")
-        self._init_old_precise_map()
-
-    def _init_old_precise_map(self):
-        self._old_precise_map = {}
-        with open(self._precise_compilation_file, 'r') as file:
-            data_list = json.load(file)
-        for item in data_list:
-            name = item['name']
-            build_target = item['buildTarget']
-            self._old_precise_map[name] = build_target
-
-    def get_targets_from_change(self, change_list):
-        for changeFileEntity in change_list:
-            if changeFileEntity.path not in MatchConfig.get_xts_path_list() and \
-                    not changeFileEntity.get_already_match_utils():
-                if self._xts_root_dir.endswith("acts"):
-                    ret = self.getTargets(changeFileEntity)
-                    if ret == 1:
-                        pass
-                else:
-                    self._build_targets += PathUtils.get_all_build_target(self._xts_root_dir)
-        return 0
-
-    # 获取path接口
-    def getTargets(self, changeFileEntity: ChangeFileEntity):
-        # 获取开源仓名
-        repo_name = self.search_repo_name(changeFileEntity.path)
-        # precise_compilation.json配置文件中获取对应目标
-        if repo_name in self._old_precise_map:
-            self._build_targets.append(self._old_precise_map[repo_name])
-        return 0
-
-    def getTargetsbyRepoName(self, repo_name):
-        with open(repo_name, 'r') as file:
-            data_list = json.load(file)
-        # 遍历列表中的每个字典
-        for item in data_list:
-            # 获取 name 和 buildTarget 的值
-            name = item['name']
-            build_target = item['buildTarget']
-            # 打印结果
-            print(f'Name: {name}, Build Target: {build_target}')
-
-    def search_repo_name(self, repo_path, directory=os.path.join(HOME, ".repo", "manifests")):
-        for root, dirs, files in os.walk(directory):
-            for filename in fnmatch.filter(files, '*.xml'):
-                file_path = os.path.join(root, filename)
-                for child in ET.parse(file_path).getroot().findall('project'):
-                    if 'path' in child.attrib and child.attrib['path'] == repo_path:
-                        if 'gitee_name' in child.attrib:
-                            return child.attrib['gitee_name']
-                        if 'name' in child.attrib:
-                            return child.attrib['name']
-        return None
-
 class GetInterfaceData(Ci_Manager):
 
-    def __init__(self, xts_root_dir, code_root_dir):
+    def __init__(self, xts_root_dir, code_root_dir, suite_type):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
         self._build_paths = []
@@ -298,6 +237,7 @@ class GetInterfaceData(Ci_Manager):
         self.bundle_name_list = []
         self.match_path_list = []
         self.no_match_path_list = []
+        self._suite_type = suite_type
 
     # 截取路径
     def get_first_levels_path(self, path, num):
@@ -310,6 +250,10 @@ class GetInterfaceData(Ci_Manager):
             raise Exception('error: Failed to obtain interface file ownership, Please config in test/xts/tools/config/ci_api_part_name.json')
 
     def get_targets_from_change(self, change_list):
+        for store in change_list:
+            if store.path in MatchConfig.get_interface_path_list() and "hap_static" in self._suite_type:
+                self._build_targets = "xts_{}".format(os.path.basename(self._xts_root_dir))
+                return
         if "acts" in self._xts_root_dir:
             # 分开处理三个 interface 仓
             self.get_c_bundle_name(change_list, MatchConfig.get_interface_json_c_data())
@@ -318,9 +262,7 @@ class GetInterfaceData(Ci_Manager):
             # 筛选出未匹配路径
             for path in self.sum_change_list_path:
                 if path not in self.match_path_list:
-                    # feature 分支.d.ets后缀无需编译用例
-                    if not path.endswith(".d.ets"):
-                        self.no_match_path_list.append(path)
+                    self.no_match_path_list.append(path)
 
             self.bundle_name_list = list(set(self.bundle_name_list))
             self._build_targets = list(set(self._build_targets))

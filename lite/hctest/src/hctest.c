@@ -22,12 +22,6 @@
 #include "parameter.h"
 #include "samgr_lite.h"
 
-#ifdef INTER_ATTEST_MINI_MODULE
-#include "devattest_interface.h"
-
-#define DEVATTEST_SUCCESS 0
-#endif
-
 #define UDIDSIZE_LEN 64
 
 void setUp(void)
@@ -267,23 +261,6 @@ void ObtainProductParams(void)
     }
 }
 
-#ifdef INTER_ATTEST_MINI_MODULE
-void ObtainAttestResultParams(void)
-{
-    AttestResultInfo attestResultInfo = {0};
-    attestResultInfo.ticket = NULL;
-    int32_t retStatus = GetAttestStatus(&attestResultInfo);
-    if (retStatus != DEVATTEST_SUCCESS) {
-        printf("[CLIENT MAIN] wrong. retStatus:%d\n", retStatus);
-        printf("authResult = %d\n", attestResultInfo.authResult);
-        printf("softwareResult = %d\n", attestResultInfo.softwareResult);
-    } else {
-        printf("authResult = %d\n", attestResultInfo.authResult);
-        printf("softwareResult = %d\n", attestResultInfo.softwareResult);
-    }
-}
-#endif
-
 void ObtainSystemParams(void)
 {
     printf("******To Obtain Product Params Start******\n");
@@ -321,10 +298,6 @@ void ObtainSystemParams(void)
     } else {
         printf("VersionID = NULL\n");
     }
-
-#ifdef INTER_ATTEST_MINI_MODULE
-    ObtainAttestResultParams();
-#endif
 
     char udid[UDIDSIZE_LEN + 1] = {0};
     int retUdid = GetDevUdid(udid, UDIDSIZE_LEN + 1);

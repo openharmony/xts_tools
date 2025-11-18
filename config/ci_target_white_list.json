@@ -57,7 +57,7 @@
         "bundle_name": "",
         "add_bundle": [],
         "add_target": [
-          "FULL_IMPACT"
+          "FULL_IMPACT_TOTALLY"
         ]
       },
       {
@@ -142,7 +142,7 @@
         "subdirectory": {
           "arkcompiler/ets_frontend/ets2panda": {
             "suite_type": ["hap_static"],
-        "add_bundle": [],
+            "add_bundle": [],
             "add_target": ["FULL_IMPACT_TOTALLY"]
           },
           "arkcompiler/ets_frontend/es2panda": {
