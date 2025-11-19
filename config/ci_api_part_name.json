@@ -9931,6 +9931,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/security/device_certificate/certmanager",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/sensors/miscdevice/vibrator",
             "bundle_name": [
                 "miscdevice"
