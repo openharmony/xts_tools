@@ -47,6 +47,14 @@ import UiComponentTextRichEditorCustomKeyboardAvoidance
   from './UiComponentTextRichEditorCustomKeyboardAvoidanceTest/UiComponentTextRichEditorCustomKeyboardAvoidance.test';
 import UiComponentTextRichEditorInterface
   from './UiComponentTextRichEditorInterfaceTest/UiComponentTextRichEditorInterface.test';
+import UiComponentTextRichEditorCopyPasteAttributeStrings
+  from './UiComponentTextRichEditorCopyPasteAttributeStringsTest/UiComponentTextRichEditorCopyPasteAttributeStrings.test';
+import UiComponentTextRichEditorSelectScroll
+  from './UiComponentTextRichEditorSelectScrollTest/UiComponentTextRichEditorSelectScroll.test';
+import UiComponentTextRichEditorLongPress
+  from './UiComponentTextRichEditorLongPressTest/UiComponentTextRichEditorLongPress.test';
+import UiComponentTextRichEditorSetStyledString
+  from './UiComponentTextRichEditorSetStyledStringTest/UiComponentTextRichEditorSetStyledString.test';
 
 
 // 定义总测试函数，依次调用所有测试套
@@ -68,4 +76,8 @@ export default function testSuites() {
   UiComponentTextRichEditorFloatOff()
   UiComponentTextRichEditorCustomKeyboardAvoidance()
   UiComponentTextRichEditorInterface()
+  UiComponentTextRichEditorCopyPasteAttributeStrings()
+  UiComponentTextRichEditorSelectScroll()
+  UiComponentTextRichEditorLongPress()
+  UiComponentTextRichEditorSetStyledString()
 }
