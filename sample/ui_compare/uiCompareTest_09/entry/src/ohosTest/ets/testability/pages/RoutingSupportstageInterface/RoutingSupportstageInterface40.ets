@@ -14,30 +14,40 @@
  */
 import router from '@ohos.router'
 import { BusinessError } from '@ohos.base';
+class innerParams {
+  data3:number[]
+
+  constructor(tuple:number[]) {
+    this.data3 = tuple
+  }
+}
+
 class routerParams {
   data1:string
+  data2:innerParams
 
-  constructor(str:string) {
+  constructor(str:string, tuple:number[]) {
     this.data1 = str
+    this.data2 = new innerParams(tuple)
   }
 }
 @Entry
 @Component
-struct routerPage70 {
-
+struct routerPage40 {
 
   build() {
     Column() {
-      Text('点击替换RepalceUrl:')
-        .onClick(()=>{
-          try {
-            router.replaceUrl({
-              url: 'pages/RoutingSupportstageInterface/RoutingSupportstageInterface70_copy',
-              params: new routerParams('message')
-            }, router.RouterMode.Standard)
-          } catch (err) {
-            console.error(`replaceUrl failed, code is ${(err as BusinessError).code}, message is ${(err as BusinessError).message}`);
-          }
+      Button('跳转到详情页（带参数）')
+        .onClick(() => {
+          // pushUrl保留当前页，参数通过params传递
+          router.pushUrl({
+            url: 'testability/pages/RoutingSupportstageInterface/RoutingSupportstageInterface40_copy',
+            params: { id: 123, title: 'oh_course' } // 支持对象、数组等复杂参数
+          }, router.RouterMode.Standard, (err) => {
+            if (err) {
+              console.error(`跳转失败，错误码：${err.code}, 原因：${err.message}`);
+            }
+          });
         })
         .id('btn')
     }
