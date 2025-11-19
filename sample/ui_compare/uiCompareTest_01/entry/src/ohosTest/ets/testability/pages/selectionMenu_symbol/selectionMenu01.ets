@@ -223,6 +223,7 @@ struct selectionMenu01 {
         })
 
       RichEditor(this.options)
+        .id('selectionMenu01')
         .onReady(() => {
           this.controller.addTextSpan(this.message, { style: { fontColor: Color.Orange, fontSize: 30 } });
           this.controller.addTextSpan(this.message, { style: { fontColor: Color.Black, fontSize: 25 } });

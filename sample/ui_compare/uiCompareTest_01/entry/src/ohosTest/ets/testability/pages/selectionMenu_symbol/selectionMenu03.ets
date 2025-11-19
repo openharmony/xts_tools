@@ -18,8 +18,11 @@ import {
   ExpandedMenuOptions,
   EditorEventInfo,
   SelectionMenuOptions,
-  SymbolGlyphModifier
+  SymbolGlyphModifier,
+  uiAppearance
 } from '@kit.ArkUI'
+import { i18n } from '@kit.LocalizationKit';
+import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
@@ -38,7 +41,7 @@ struct selectionMenu03 {
   private editorMenuOptions: Array<EditorMenuOptions> =
     [
       {
-        icon: $r("sys.media.wifi_router_fill"),
+        icon: $r("sys.symbol.wifi_router_fill"),
         symbolStyle: new SymbolGlyphModifier($r('sys.symbol.save')),
         action: () => {
           if (this.controller) {
@@ -96,7 +99,7 @@ struct selectionMenu03 {
         }
       },
       {
-        icon: $r("sys.media.waveform_folder_fill"),
+        icon: $r("sys.symbol.waveform_folder_fill"),
         symbolStyle: new SymbolGlyphModifier($r('sys.symbol.car')),
         action: () => {
           if (this.controller) {
@@ -129,11 +132,11 @@ struct selectionMenu03 {
         }
       },
       {
-        icon: $r("app.media.app_icon"), action: () => {
+        icon: $r("app.media.icon"), action: () => {
       }, builder: (): void => this.sliderPanel()
       },
       {
-        icon: $r("sys.media.thermometer_fill"), action: () => {
+        icon: $r("sys.symbol.thermometer_fill"), action: () => {
         if (this.controller) {
           let selection = this.controller.getSelection();
           let spans = selection.spans;
@@ -161,13 +164,13 @@ struct selectionMenu03 {
       }]
   private expandedMenuOptions: Array<ExpandedMenuOptions> =
     [{
-      startIcon: $r("app.media.startIcon"), content: '词典', action: () => {
+      startIcon: $r("app.media.icon"), content: '词典', action: () => {
       }
     }, {
-      startIcon: $r("app.media.startIcon"), content: '翻译', action: () => {
+      startIcon: $r("app.media.icon"), content: '翻译', action: () => {
       }
     }, {
-      startIcon: $r("app.media.startIcon"), content: '搜索', action: () => {
+      startIcon: $r("app.media.icon"), content: '搜索', action: () => {
       }
     }]
   private expandedMenuOptions1: Array<ExpandedMenuOptions> = []
@@ -309,24 +312,69 @@ struct selectionMenu03 {
           }
         })
 
-      RichEditor(this.options)
-        .onReady(() => {
-          this.controller.addTextSpan(this.message, { style: { fontColor: Color.Orange, fontSize: 30 } });
-          this.controller.addTextSpan(this.message, { style: { fontColor: Color.Black, fontSize: 25 } });
-        })
-        .onSelect((value: RichEditorSelection) => {
-          if (value.selection[0] == -1 && value.selection[1] == -1) {
-            return;
-          }
-          this.start = value.selection[0];
-          this.end = value.selection[1];
-        })
-        .bindSelectionMenu(RichEditorSpanType.TEXT, this.MyMenu3(), RichEditorResponseType.RIGHT_CLICK)
-        .bindSelectionMenu(RichEditorSpanType.TEXT, this.MyMenu2(), RichEditorResponseType.SELECT)
-        .borderWidth(1)
-        .borderColor(Color.Red)
-        .width(200)
-        .height(200)
+      Row(){
+        RichEditor(this.options)
+          .id('selectionMenu03')
+          .onReady(() => {
+            this.controller.addTextSpan(this.message, { style: { fontColor: Color.Orange, fontSize: 30 } });
+            this.controller.addTextSpan(this.message, { style: { fontColor: Color.Black, fontSize: 25 } });
+            this.controller.addTextSpan(this.message, { style: { fontColor: Color.Black, fontSize: 25 } });
+          })
+          .onSelect((value: RichEditorSelection) => {
+            if (value.selection[0] == -1 && value.selection[1] == -1) {
+              return;
+            }
+            this.start = value.selection[0];
+            this.end = value.selection[1];
+          })
+          .bindSelectionMenu(RichEditorSpanType.TEXT, this.MyMenu3(), RichEditorResponseType.RIGHT_CLICK)
+          .bindSelectionMenu(RichEditorSpanType.TEXT, this.MyMenu2(), RichEditorResponseType.SELECT)
+          .borderWidth(1)
+          .borderColor(Color.Red)
+          .width(200)
+          .height(200)
+
+        Column(){
+          // 设置维吾尔族语言
+          Button('setLanguage')
+            .margin({top:30})
+            .height(40)
+            .id('setUg')
+            .onClick( () => {
+              try {
+                i18n.System.setSystemLanguage('ug');
+              } catch(error) {
+                let err: BusinessError = error as BusinessError;
+                console.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
+              }
+            })
+
+          Button('setFontSize')
+            .margin({top:30})
+            .height(40)
+            .id('setFontSize')
+            .onClick( () => {
+              uiAppearance.setFontScale(999).then(() => {
+                console.info('Set fontScale successfully.');
+              }).catch((error:Error) => {
+                console.error('Set fontScale failed, ' + error.message);
+              });
+            })
+
+          Button('setFontWeight')
+            .margin({top:30})
+            .height(40)
+            .id('setFontWeight')
+            .onClick( () => {
+              uiAppearance.setFontWeightScale(999).then(() => {
+                console.info('Set fontWeightScale successfully.');
+              }).catch((error:Error) => {
+                console.error('Set fontWeightScale failed, ' + error.message);
+              });
+            })
+        }
+
+      }.width('100%')
     }
   }
 }
