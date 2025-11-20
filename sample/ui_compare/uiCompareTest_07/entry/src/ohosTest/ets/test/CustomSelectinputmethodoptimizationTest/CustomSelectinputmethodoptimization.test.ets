@@ -71,7 +71,7 @@ export default function CustomSelectinputmethodoptimization() {
 
       
         // 步骤9：验证横屏状态下自定义弹窗不会避让输入法，进行截图
-        await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0010_01")
+        await windowSnap.snapShot()
         await Utils.sleep(1000)
       
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0010 finish.`);
