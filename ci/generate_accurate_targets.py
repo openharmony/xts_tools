@@ -18,7 +18,7 @@
 import os
 import sys
 import json
-from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
+from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, HOME
 from ci_manager import ComponentManager, XTSManager, WhitelistManager, GetInterfaceData
 
 
@@ -88,7 +88,7 @@ class AccurateTarget:
             print("warning: The list of files to be modifed was not obtained, compile full testsuites.")
             xts_suite = os.path.basename(self._xts_root_dir)
             relative_path = os.path.relpath(self._xts_root_dir, HOME)
-            targets = [f"{relative_path}:xts_{xts_suite}"]
+            ci_target = [f"{relative_path}:xts_{xts_suite}"]
         else:
             # 处理结果
             target_paths = set()

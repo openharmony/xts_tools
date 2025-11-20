@@ -865,3 +865,25 @@ template("ohos_xts_group") {
     }
   }
 }
+
+# 过滤suite_type
+template("ohos_xts_app") {
+  if (defined(invoker.suite_type)) {
+    _suite_type = invoker.suite_type
+    not_needed(invoker, [ invoker.suite_type ])
+  } else {
+    _suite_type = "hap_dynamic"
+  }
+  not_needed([ _suite_type ])
+  if (XTS_SUITETYPE == [] ||
+      filter_include(XTS_SUITETYPE, [ _suite_type ]) != []) {
+    ohos_app("${target_name}") {
+      forward_variables_from(invoker, "*")
+    }
+  } else {
+    group(target_name) {
+      print("[XTS] suite_type mismatch, no need build " + target_name)
+      not_needed(invoker, "*")
+    }
+  }
+}
