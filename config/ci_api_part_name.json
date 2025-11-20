@@ -980,6 +980,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.promptAction.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.MultiNavigation.d.ets",
             "bundle_name": [
                 "ace_engine"
