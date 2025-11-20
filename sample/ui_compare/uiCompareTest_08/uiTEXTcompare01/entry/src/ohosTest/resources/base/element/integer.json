@@ -23,6 +23,14 @@
     {
       "name": "integer_value_20",
       "value": 20
+    },
+    {
+      "name": "select_select_5",
+      "value": 5
+    },
+    {
+      "name": "select_select_20",
+      "value": 20
     }
   ]
 }
