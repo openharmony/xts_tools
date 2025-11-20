@@ -9134,6 +9134,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/picker.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/PickerModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/pluginComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
