@@ -6874,6 +6874,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.componentSnapshot.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/EventHub.d.ts",
             "bundle_name": [
                 "ability_runtime"
