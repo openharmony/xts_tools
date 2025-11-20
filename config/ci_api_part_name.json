@@ -3129,6 +3129,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.FoldSplitContainer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bluetooth.socket.d.ts",
             "bundle_name": [
                 "bluetooth"
