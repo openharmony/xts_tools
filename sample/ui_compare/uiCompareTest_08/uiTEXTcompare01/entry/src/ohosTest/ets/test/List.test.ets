@@ -14,12 +14,19 @@
  */
 
 import FocusTextUITest from './focus_TextUI/FocusTextUIall.test';
-import FocusMediaBadgeFont from './focus_TextUI/FocusMediaBadgeFont.test';
-import FocusMediaBadgeBorder from './focus_TextUI/FocusMediaBadgeBorder.test';
+import FocusRichEditor from './focus_TextUI/FocusRichEditorTest.test';
+import FocusContentModifierTest from './focus_TextUI/FocusContentmodifier.test';
+import FocusTextTimerTest from './focus_TextUI/FocusTextTimerTest.test';
+import FocusDataPanelTest from './focus_TextUI/FocusDataPanelTest.test';
+import FocusFrameNodeTest from './focus_TextUI/FocusFrameNodeTest.test';
+import FocusOtherBadgeInterface from './focus_TextUI/FocusOtherBadgeInterface.test';
 
 export default function testsuite() {
   FocusTextUITest();
-  FocusMediaBadgeFont();
-  FocusMediaBadgeLargeFont();
-
+  FocusDataPanelTest();
+  FocusFrameNodeTest();
+  FocusOtherBadgeInterface();
+  FocusContentModifierTest();
+  FocusRichEditor();
+  FocusTextTimerTest();
 }

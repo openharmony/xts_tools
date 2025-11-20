@@ -57,6 +57,100 @@ export default function FocusTextUITest() {
       done()
     })
 
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0400
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0400
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0400', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0400  start.`);
+      Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0400")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let buttonA: Component = await driver.waitForComponent(ON.id('changeResBtn0400'), 1000);
+      await buttonA.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0400');
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0400 finish.`);
+      done()
+    })
+
+    /*
+      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220
+      * @tc.name   : Text#TextTest#TextTest_122
+      * @tc.type   : Function
+      * @tc.size   : MediumTest
+      * @tc.level  : 1
+      */
+    it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220  start.`);
+      Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1220")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let buttonA: Component = await driver.waitForComponent(ON.id('paramBtn1220'), 1000);
+      await buttonA.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220');
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1310
+     * @tc.name   : Text#TextTest#TextTest_131
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1310', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1310  start.`);
+      Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1310")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let buttonA: Component = await driver.waitForComponent(ON.id('testBtn1310'), 1000);
+      await buttonA.click();
+      await driver.waitForIdle(500,2000);
+      await buttonA.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1310mid')
+      await Utils.sleep(1000)
+      await buttonA.click();
+      await driver.waitForIdle(500,2000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1310 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1440
+     * @tc.name   : Text#TextTest#TextTest_144
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1440 ', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1440  start.`);
+      Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1440")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let buttonA: Component = await driver.waitForComponent(ON.id('testBtn1440'), 1000);
+      await buttonA.click();
+      await driver.waitForIdle(500,2000);
+      await buttonA.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1440mid')
+      await Utils.sleep(1000)
+      await buttonA.click();
+      await driver.waitForIdle(500,2000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1440 finish.`);
+      done()
+    })
+
+
     /*
     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0160
     * @tc.name   : Text#TextTest#TextTest_016
