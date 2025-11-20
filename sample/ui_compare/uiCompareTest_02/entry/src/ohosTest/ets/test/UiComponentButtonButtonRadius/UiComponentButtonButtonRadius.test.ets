@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
 import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
@@ -262,5 +262,878 @@ export default function UiComponentButtonButtonRadius() {
       done()
     })
 
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380
+       * @tc.name    Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and it displays correctly when accessibility mode is enabled.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius11")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius11_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius11_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius11_03'),1000);
+      let button04: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius11_04'),1000);
+      let button: Component = await driver.waitForComponent(ON.id('TestButton'),1000);
+      await button04.click();
+      await driver.waitForIdle(500,2000)
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000)
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000)
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button01.click();
+      await driver.waitForIdle(500,2000)
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0430
+       * @tc.name    Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and font style is manually set.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0430 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius12")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius12_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0430 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0370
+       * @tc.name    Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and borderRadius is manually set in Chinese environment.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0370', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0370 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius13")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius13_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0370 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0420
+       * @tc.name    Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and borderRadius is set to reference type.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0420 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius14")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius14_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0420 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0480
+       * @tc.name    Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to small, and button height is manually set.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0480', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0480 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius15")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius15_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0480 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0500
+       * @tc.name    Verify that Type is manually set to ROUNDED_RECTANGLE.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0500', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0500 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius17")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius17_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius17_02'),1000);
+      await button02.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0500 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0280
+       * @tc.name    Verify that Type is set to Capsule without borderRadius.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0280', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0280 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius16")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius16_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0280 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0460
+       * @tc.name    Verify that button displays correctly with extra long text.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0460', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0460 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius18")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius18_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0460 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0290
+       * @tc.name    Verify that Type is set to Capsule with borderRadius.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0290', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0290 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius19")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius19_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0290 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0510
+       * @tc.name    Verify that all properties are set to default values.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0510', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0510 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius20")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius20_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0510 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0300
+       * @tc.name    Verify that Type is set to Capsule with font style.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0300', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0300 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius21")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius21_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0300 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0310
+       * @tc.name    Verify that Type is set to Capsule with extra long text.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0310', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0310 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius22")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius22_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0310 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0320
+       * @tc.name    Verify that Type is set to Circle without width/height and abnormal borderRadius.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0320', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0320 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius23")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0320 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0340
+       * @tc.name    Verify that Type is set to Circle with width/height and borderRadius.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0340', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0340 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius24")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius24_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0340 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0330
+       * @tc.name    Verify that Type is set to Circle without width/height and with borderRadius.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0330', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0330 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius25")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius25_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0330 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0350
+       * @tc.name    Verify that Type is set to Normal without borderRadius.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0350', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0350 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius26")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius26_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0350 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0450
+       * @tc.name    Verify that button displays correctly with height 50vp.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0450', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0450 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius27")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius27_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius27_02'),1000);
+      await button02.click();
+      await driver.waitForIdle(500,2000)
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0450 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0440
+       * @tc.name    Verify that button displays correctly with height 30vp.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0440', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0440 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius28")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius28_01'),1000);
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius28_02'),1000);
+      await button01.click();
+      await driver.waitForIdle(500,2000)
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0440 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0030
+       * @tc.name    Verify that stateEffect set to false displays correctly.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0030 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius29")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius29_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0030 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0490
+       * @tc.name    Verify that SMALL controlSize with height 30vp displays correctly.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0490', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0490 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius30")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius30_01'),1000);
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius30_02'),1000);
+      await button01.click();
+      await driver.waitForIdle(500,2000)
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0490 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0470
+       * @tc.name    Verify that button displays correctly in Uyghur environment with custom borderRadius.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0470', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0470 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius31")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius31_01'),1000);
+      let button2: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius31_02'),1000);
+      let button3: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius31_03'),1000);
+      await button2.click()
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await driver.waitForIdle(500,2000)
+      await button3.click()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0470 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0390
+       * @tc.name    Verify that button displays correctly with manual borderRadius 20vp.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0390', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0390 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius32")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius32_01'),1000);
+      let button2: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius32_02'),1000);
+      await button2.click();
+      await driver.waitForIdle(500,2000)
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0390 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0020
+       * @tc.name    Verify that role set to ERROR displays correctly.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0020 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius33")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius33_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0020 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0520
+       * @tc.name    Verify that button created with modifier displays correctly.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0520', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0520 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius34")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius34_01'),1000);
+      await button.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0520 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530
+       * @tc.name    Verify Toggle button displays correctly with accessibility.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius35")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius35_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius35_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius35_03'),1000);
+      let button04: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius35_04'),1000);
+      await button04.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button01.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160
+       * @tc.name    Verify BindPopup buttons display correctly with accessibility.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius36")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius36_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius36_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius36_03'),1000);
+      let button04: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius36_04'),1000);
+      await button04.click();
+      await driver.waitForIdle(500,2000)
+      let button05: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius36_05'),1000);
+      await button05.click();
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000)
+      await button05.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000)
+      await button05.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button01.click();
+      await driver.waitForIdle(500,2000)
+      await button05.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170
+       * @tc.name    Verify Button displays correctly with accessibility.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius37")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius37_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius37_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius37_03'),1000);
+      let button04: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius37_04'),1000);
+      await button04.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button01.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180
+       * @tc.name    Verify CalendarPickerDialog buttons display correctly with accessibility.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius38")
+      let driver:Driver=Driver.create();
+      let button05: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius38_05'),1000);
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius38_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius38_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius38_03'),1000);
+      let button04: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius38_04'),1000);
+      await button04.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.mouseClick({x:300,y:300},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button03.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button02.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button01.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210
+       * @tc.name    Verify TimePickerDialog buttons display correctly with accessibility.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius39")
+      let driver:Driver=Driver.create();
+      let button05: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius39_05'),1000);
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius39_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius39_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius39_03'),1000);
+      let button04: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius39_04'),1000);
+      await button04.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.mouseClick({x:300,y:300},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button03.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button02.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button01.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190
+       * @tc.name    Verify DatePickerDialog buttons display correctly with accessibility.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius40")
+      let driver:Driver=Driver.create();
+      let button05: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius40_05'),1000);
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius40_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius40_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius40_03'),1000);
+      let button04: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius40_04'),1000);
+      await button04.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.mouseClick({x:300,y:300},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button03.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button02.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button01.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200
+       * @tc.name    Verify TextPickerDialog buttons display correctly with accessibility.
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius41")
+      let driver:Driver=Driver.create();
+      let button05: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius41_05'),1000);
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius41_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius41_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius41_03'),1000);
+      let button04: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius41_04'),1000);
+      await button04.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.mouseClick({x:300,y:300},MouseButton.MOUSE_BUTTON_LEFT)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button03.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button02.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await button01.click();
+      await Utils.sleep(500)
+      await button05.click();
+      await Utils.sleep(500)
+      await driver.triggerKey(2)
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200 finish.`);
+      done()
+    })
   })
 }
