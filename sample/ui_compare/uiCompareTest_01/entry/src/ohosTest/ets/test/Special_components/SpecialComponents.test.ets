@@ -21,9 +21,9 @@ import Utils from '../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function specialComponentsTest() {
+export default function SpecialComponentsTest() {
 
-  describe('specialComponentsTest', () => {
+  describe('SpecialComponentsTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return
