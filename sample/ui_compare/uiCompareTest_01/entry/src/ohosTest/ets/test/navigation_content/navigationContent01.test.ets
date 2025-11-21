@@ -57,7 +57,7 @@ export default function navigationContent01Test() {
       let button2: Component = await driver.waitForComponent(ON.id('changeHideToolBar01'), 1000);
       await button2.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030 finish.`);
       done()
@@ -79,7 +79,7 @@ export default function navigationContent01Test() {
       let button2: Component = await driver.waitForComponent(ON.id('changeHideToolBar02'), 1000);
       await button2.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290 finish.`);
       done()

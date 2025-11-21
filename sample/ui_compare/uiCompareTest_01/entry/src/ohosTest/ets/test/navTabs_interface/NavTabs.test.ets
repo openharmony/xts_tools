@@ -52,12 +52,12 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0190')
       await Utils.sleep(1000)
       let button: Component = await driver.waitForComponent(ON.id('tabs_01'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0190')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0190 finish.`);
       done()
@@ -75,7 +75,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs02")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0550')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0550 finish.`);
       done()
@@ -93,7 +93,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs03")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0520')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0520 finish.`);
       done()
@@ -111,7 +111,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs04")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0890')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0890 finish.`);
       done()
@@ -129,7 +129,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs05")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0800')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0800 finish.`);
       done()
@@ -147,7 +147,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs06")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0490')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0490 finish.`);
       done()
@@ -165,7 +165,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs07")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0880')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0880 finish.`);
       done()
@@ -183,7 +183,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs08")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0860')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0860 finish.`);
       done()
@@ -201,7 +201,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs09")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0590')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0590 finish.`);
       done()
@@ -219,7 +219,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs10")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0670')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0670 finish.`);
       done()
@@ -237,7 +237,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs11")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0680')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0680 finish.`);
       done()
@@ -255,7 +255,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs12")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0690')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0690 finish.`);
       done()
@@ -273,7 +273,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs13")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0700')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0700 finish.`);
       done()
@@ -291,7 +291,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs14")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_1150')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_1150 finish.`);
       done()
@@ -309,7 +309,7 @@ export default function NavTabsTest() {
       Settings.createWindow("testability/pages/navTabs_interface/tabs15")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0980')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0980 finish.`);
       done()
