@@ -27,6 +27,14 @@
     {
       "name": "ColorRed",
       "value": "#FF0000"
+    },
+    {
+      "name": "white",
+      "value": "#F0F0FF"
+    },
+    {
+      "name": "pink",
+      "value": "#EE5EeE"
     }
   ]
 }

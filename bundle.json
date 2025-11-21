@@ -27,7 +27,8 @@
       "components": [
         "init",
         "c_utils",
-        "device_attest"
+        "device_attest",
+        "ipc"
       ],
       "third_party": []
     },

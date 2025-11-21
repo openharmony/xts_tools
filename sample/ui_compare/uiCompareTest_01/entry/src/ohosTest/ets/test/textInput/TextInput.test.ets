@@ -53,7 +53,7 @@ export default function TextInputTest() {
       Settings.createWindow("testability/pages/textInput/textInput01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTINPUT_SHOWUNDERLINE_0010')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SHOWUNDERLINE_0010 finish.`);
       done()
@@ -71,7 +71,7 @@ export default function TextInputTest() {
       Settings.createWindow("testability/pages/textInput/textInput02")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_INPUT_KEYBOARDAVOIDMODE_0180')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_KEYBOARDAVOIDMODE_0180 finish.`);
       done()
@@ -91,7 +91,7 @@ export default function TextInputTest() {
       let button: Component = await driver.waitForComponent(ON.id('inputUrl03'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TYPE_URL_0010')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TYPE_URL_0010 finish.`);
       done()
@@ -111,7 +111,7 @@ export default function TextInputTest() {
       let button: Component = await driver.waitForComponent(ON.id('textInput03TextInput'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TYPE_URL_0130')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TYPE_URL_0130 finish.`);
       done()
@@ -131,7 +131,7 @@ export default function TextInputTest() {
       let button: Component = await driver.waitForComponent(ON.id('richEditor01'), 1000);
       await button.doubleClick();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0140')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0140 finish.`);
       done()
@@ -157,7 +157,7 @@ export default function TextInputTest() {
         console.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
       }
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0120')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0120 finish.`);
       done()
@@ -177,7 +177,7 @@ export default function TextInputTest() {
       let button: Component = await driver.waitForComponent(ON.id('richEditor01'), 1000);
       await button.doubleClick();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0100')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0100 finish.`);
       done()
@@ -202,7 +202,7 @@ export default function TextInputTest() {
       await button2.click();
 
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0100')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0100 finish.`);
       done()
@@ -227,7 +227,7 @@ export default function TextInputTest() {
       await button2.click();
 
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0060')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0060 finish.`);
       done()
@@ -339,7 +339,7 @@ export default function TextInputTest() {
       await button2.click()
       await driver.waitForIdle(500,2000);
 
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0030')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0030 finish.`);
       done()
@@ -364,7 +364,7 @@ export default function TextInputTest() {
       await button2.click();
 
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0090')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0090 finish.`);
       done()
@@ -389,7 +389,7 @@ export default function TextInputTest() {
       await button2.click();
 
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0080')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0080 finish.`);
       done()
@@ -417,7 +417,7 @@ export default function TextInputTest() {
       await button2.click()
       await driver.waitForIdle(500,2000);
 
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0010')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0010 finish.`);
       done()
@@ -456,7 +456,7 @@ export default function TextInputTest() {
       await button2.click()
       await driver.waitForIdle(500,2000);
 
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0050')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0050 finish.`);
       done()
@@ -477,7 +477,7 @@ export default function TextInputTest() {
       await button.click()
       await driver.waitForIdle(500,2000);
 
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0070')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0070 finish.`);
       done()
@@ -502,7 +502,7 @@ export default function TextInputTest() {
       await button2.click();
 
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0110')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0110 finish.`);
       done()
@@ -527,7 +527,7 @@ export default function TextInputTest() {
       await button2.click();
 
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0120')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0120 finish.`);
       done()
@@ -552,7 +552,7 @@ export default function TextInputTest() {
       await button2.click();
 
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0140')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0140 finish.`);
       done()
@@ -623,7 +623,7 @@ export default function TextInputTest() {
       await button.click()
       await driver.waitForIdle(500,2000);
 
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0150')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0150 finish.`);
       done()
@@ -694,7 +694,7 @@ export default function TextInputTest() {
       let point = await text.getBoundsCenter();
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0230')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0230 finish.`);
       done()
@@ -715,7 +715,7 @@ export default function TextInputTest() {
       let point = await text.getBoundsCenter();
       await driver.doubleClick(point.x,point.y);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0170')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0170 finish.`);
       done()

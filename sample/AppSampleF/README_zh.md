@@ -4,7 +4,7 @@
 
 仿应用扫一扫,选择“扫一扫”功能，将手机对准二维码或条形码即可自动识别。
 扫描成功后，APP将自动跳转到对应的商品详情页面，用户可以查看商品的详细信息。
-[@ohos.multimedia.image](https://gitee.com/openharmony/docs/blob/OpenHarmony-4.0-Beta1/zh-cn/application-dev/reference/apis/js-apis-image.md)，[@ohos.multimedia.camera](https://gitee.com/openharmony/docs/blob/OpenHarmony-4.0-Beta1/zh-cn/application-dev/reference/apis/js-apis-camera.md)
+[@ohos.multimedia.image](https://gitcode.com/openharmony/docs/blob/OpenHarmony-4.0-Beta1/zh-cn/application-dev/reference/apis/js-apis-image.md)，[@ohos.multimedia.camera](https://gitcode.com/openharmony/docs/blob/OpenHarmony-4.0-Beta1/zh-cn/application-dev/reference/apis/js-apis-camera.md)
 等接口,实现了拉起相机识别二维码的功能。实现效果如下;
 
 ### 效果预览
@@ -43,18 +43,18 @@ AppSampleF/src/main/ets/
 ### 具体实现
 + 本示例通过相机循环拍照获取byteBuffer后，传给zxing解码库的解码方法来识别二维码、条形码信息，源码参考[DeCode.ets](entry%2Fsrc%2Fmain%2Fets%2Futils%2FDeCode.ets)，
 [CameraModel.ets](entry%2Fsrc%2Fmain%2Fets%2Fmodel%2FCameraModel.ets)；
-+ 接口参考：[@ohos.worker](https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis/js-apis-worker.md)
-，[@ohos.multimedia.camera](https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis/js-apis-camera.md)
-，[@ohos.multimedia.image](https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis/js-apis-image.md)
-，[@ohos.events.emitter](https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis/js-apis-emitter.md)；
++ 接口参考：[@ohos.worker](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis/js-apis-worker.md)
+，[@ohos.multimedia.camera](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis/js-apis-camera.md)
+，[@ohos.multimedia.image](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis/js-apis-image.md)
+，[@ohos.events.emitter](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis/js-apis-emitter.md)；
 
 ### 相关权限
 #### 本示例需要在module.json5中配置如下权限:
-#### 允许使用相机服务：[ohos.permission.CAMERA](https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/security/permission-list.md#ohospermissioncamera)
+#### 允许使用相机服务：[ohos.permission.CAMERA](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/security/permission-list.md#ohospermissioncamera)
 
 ### 依赖
 
-1.第三方解码库：[Zxing](https://gitee.com/openharmony-tpc/zxing)，[参考如何安装ohpm包](https://gitee.com/openharmony-tpc/docs/blob/master/OpenHarmony_har_usage.md)。
+1.第三方解码库：[Zxing](https://gitcode.com/openharmony-tpc/zxing)，[参考如何安装ohpm包](https://gitcode.com/openharmony-tpc/docs/blob/master/OpenHarmony_har_usage.md)。
 
 ### 约束与限制
 
@@ -74,6 +74,6 @@ AppSampleF/src/main/ets/
 git init
 git config core.sparsecheckout true
 echo sample/AppSampleF/ > .git/info/sparse-checkout
-git remote add origin https://gitee.com/openharmony/xts_tools.git
+git remote add origin https://gitcode.com/openharmony/xts_tools.git
 git pull origin master
 ```

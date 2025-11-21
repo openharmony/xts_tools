@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -53,27 +53,27 @@ export default function UIComponentMediaCounterLargeFontTest() {
       let button1: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010_06");
       let button2: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010_05");
       let button3: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button3.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010_04");
       let button4: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button4.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010_03");
       let button5: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button5.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010_02");
       let button6: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button6.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010");
       try {
         uiAppearance.setFontScale(1).then(() => {
           console.info(`${caseName} Set fontScale1 successfully.`);
@@ -102,22 +102,22 @@ export default function UIComponentMediaCounterLargeFontTest() {
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button1.click();
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018_06");
       let button2: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button2.click();
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018_05");
       let button3: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button3.click();
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018_04");
       let button4: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button4.click();
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018_03");
       let button5: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button5.click();
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018_02");
       let button6: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button6.click();
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018");
       try {
         uiAppearance.setFontScale(1).then(() => {
           console.info(`${caseName} Set fontScale1 successfully.`);

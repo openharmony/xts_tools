@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -58,7 +58,7 @@ export default function UIComponentScrollBarVelocityTest() {
       await button2.click();
       await driver.mouseClick(point, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -85,7 +85,7 @@ export default function UIComponentScrollBarVelocityTest() {
       await button2.click();
       await driver.mouseClick(point, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

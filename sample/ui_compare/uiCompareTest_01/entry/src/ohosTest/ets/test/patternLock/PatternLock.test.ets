@@ -285,7 +285,7 @@ export default function PatternLockTest () {
       Settings.createWindow("testability/pages/patternLock/patternLock09")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0035')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0035 finish.`);
       done()
@@ -352,7 +352,7 @@ export default function PatternLockTest () {
       Settings.createWindow("testability/pages/patternLock/patternLock12")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0038')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0038 finish.`);
       done()

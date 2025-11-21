@@ -54,7 +54,7 @@ export default function waterflowMirrorTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlow_01'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0270_321')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0270_321 finish.`);
       done()

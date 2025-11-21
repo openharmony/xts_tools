@@ -53,7 +53,7 @@ export default function TextClockTest () {
       Settings.createWindow("testability/pages/textClock/textClockSet01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0067')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0067 finish.`);
       done()
