@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,15 +48,15 @@ export default function UIComponentListAndGridListInitialIndexTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridListInitialIndex/UIComponentListAndGridListInitialIndex001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010_03");
       let button1: Component = await driver.waitForComponent(ON.id('scrollToItemInGroup'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010_02");
       let button2: Component = await driver.waitForComponent(ON.id('scrollEdge'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010 finish.`);
       done();
@@ -73,15 +73,15 @@ export default function UIComponentListAndGridListInitialIndexTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridListInitialIndex/UIComponentListAndGridListInitialIndex004");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020_03");
       let button1: Component = await driver.waitForComponent(ON.id('scrollToItemInGroup'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020_02");
       let button2: Component = await driver.waitForComponent(ON.id('scrollEdge'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020 finish.`);
       done();

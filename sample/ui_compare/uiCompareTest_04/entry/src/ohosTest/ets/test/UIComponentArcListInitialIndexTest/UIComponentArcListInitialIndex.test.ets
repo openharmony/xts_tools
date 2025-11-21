@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,16 +48,16 @@ export default function UIComponentArcListInitialIndexTest() {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010';
       Logger.info('TEST', `${caseName} start.`);
       Settings.createWindow("testability/pages/UIComponentArcListInitialIndex/UIComponentArcListInitialIndex001");
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010_03");
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010_02");
       let button2: Component = await driver.waitForComponent(ON.id('undefined'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -75,7 +75,7 @@ export default function UIComponentArcListInitialIndexTest() {
       Settings.createWindow("testability/pages/UIComponentArcListInitialIndex/UIComponentArcListInitialIndex004");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0020");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -94,7 +94,7 @@ export default function UIComponentArcListInitialIndexTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040 finish.`);
       done();
@@ -113,7 +113,7 @@ export default function UIComponentArcListInitialIndexTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150 finish.`);
       done();
@@ -132,7 +132,7 @@ export default function UIComponentArcListInitialIndexTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030 finish.`);
       done();
@@ -151,7 +151,7 @@ export default function UIComponentArcListInitialIndexTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060 finish.`);
       done();
@@ -170,7 +170,7 @@ export default function UIComponentArcListInitialIndexTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100 finish.`);
       done();
@@ -189,7 +189,7 @@ export default function UIComponentArcListInitialIndexTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090 finish.`);
       done();
@@ -208,7 +208,7 @@ export default function UIComponentArcListInitialIndexTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050 finish.`);
       done();
@@ -227,7 +227,7 @@ export default function UIComponentArcListInitialIndexTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070 finish.`);
       done();
@@ -246,7 +246,7 @@ export default function UIComponentArcListInitialIndexTest() {
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110 finish.`);
       done();
