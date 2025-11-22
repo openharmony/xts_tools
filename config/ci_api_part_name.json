@@ -931,7 +931,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/component/screen.static.d.ts",
+            "path": "interface/sdk-js/api/arkui/component/screen.static.d.ets",
             "bundle_name": [
                 "window_manager"
             ],
