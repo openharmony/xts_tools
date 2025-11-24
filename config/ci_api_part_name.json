@@ -931,6 +931,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/screen.static.d.ets",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.fs.d.ts",
             "bundle_name": [
                 "file_api"
@@ -4760,6 +4767,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/rootScene.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/date_picker.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -5559,6 +5573,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/window_scene.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/windowScene.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
