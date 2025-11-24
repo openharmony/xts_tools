@@ -3900,6 +3900,1370 @@ export default function ButtonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1220 finish.`);
       done()
     })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1230
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为20
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1230', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1230 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin123")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_123'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1230_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1230_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1230_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1230 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1240
+     * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1240', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1240 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin124")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_124'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1240_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1240_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1240_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1240 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1250
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1250', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1250 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin125")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_125'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1250_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1250_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1250_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1250 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1260
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.7，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1260', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1260 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin126")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_126'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1260_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1260_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1260_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1260 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1270
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1.5，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1270', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1270 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin127")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_127'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1270_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1270_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1270_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1270 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1280
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为-1，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1280', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1280 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin128")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_128'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1280_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1280_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1280_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1280 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1290
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为undefined，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1290', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1290 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin129")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_129'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1290_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1290_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1290_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1290 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1300
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为null，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1300', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1300 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin130")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_130'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1300_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1300_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1300_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1300 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1310
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1310', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1310 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin131")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_131'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1310_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1310_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1310_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1310 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1320
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1320', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1320 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin132")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_132'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1320_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1320_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1320_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1320 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1330
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为20，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1330', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1330 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin133")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_133'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1330_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1330_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1330_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1330 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1340
+     * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1340', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1340 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin134")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_134'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1340_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1340_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1340_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1340 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1350
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1350', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1350 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin135")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_135'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1350_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1350_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1350_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1350 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1360
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.75
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1360', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1360 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin136")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_136'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1360_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1360_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1360_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1360 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1370
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1370', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1370 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin137")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_137'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1370_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1370_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1370_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1370 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1380
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为-1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1380', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1380 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin138")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_138'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1380_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1380_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1380_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1380 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1390
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1390', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1390 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin139")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_139'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1390_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1390_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1390_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1390 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1400
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1400', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1400 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin140")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_140'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1400_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1400_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1400_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1400 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1410
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1410', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1410 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin141")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_141'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1410_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1410_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1410_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1410 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1420
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1420 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin142")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_142'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1420_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1420_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1420_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1420 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1430
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为20
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1430 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin143")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_143'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1430_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1430_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1430_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1430 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1440
+     * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1440', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1440 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin144")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_144'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1440_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1440_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1440_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1440 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1450
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1450', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1450 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin145")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_145'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1450_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1450_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1450_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1450 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1460
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.7，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1460', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1460 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin146")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_146'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1460_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1460_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1460_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1460 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1470
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1.5，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1470', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1470 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin147")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_147'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1470_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1470_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1470_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1470 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1480
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为-1，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1480', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1480 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin148")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_148'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1480_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1480_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1480_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1480 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1490
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为undefined，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1490', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1490 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin149")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_149'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1490_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1490_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1490_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1490 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1500
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为null，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1500', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1500 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin150")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_150'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1500_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1500_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1500_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1500 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1510
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1510', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1510 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin151")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_151'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1510_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1510_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1510_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1510 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1520
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1520', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1520 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin152")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_152'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1520_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1520_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1520_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1520 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1530
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为20，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1530', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1530 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin153")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_153'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1530_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1530_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1530_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1530 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1540
+     * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1540', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1540 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin154")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_154'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1540_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1540_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1540_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1540 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1550
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1550', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1550 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin155")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_155'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1550_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1550_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1550_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1550 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1560
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.75
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1560', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1560 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin156")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_156'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1560_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1560_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1560_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1560 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1570
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1570', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1570 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin157")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_157'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1570_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1570_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1570_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1570 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1580
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为-1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1580', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1580 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin158")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_158'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1580_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1580_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1580_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1580 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1590
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1590', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1590 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin159")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_159'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1590_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1590_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1590_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1590 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1600
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1600', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1600 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin160")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_160'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1600_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1600_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1600_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1600 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1610
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1610', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1610 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin161")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_161'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1610_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1610_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1610_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1610 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1620
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1620', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1620 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin162")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_162'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1620_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1620_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1620_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1620 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1630
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为20
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1630', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1630 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin163")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_163'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1630_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1630_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1630_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1630 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1650
+     * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1650', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1650 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin165")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_165'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1650_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1650_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1650_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1650 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1660
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1660', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1660 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin166")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_166'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1660_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1660_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1660_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1660 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1670
+     * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1670', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1670 start.`);
+      await uiAppearance.setFontScale(3.2);
+      await Utils.sleep(500);
+      Settings.createWindow("testability/pages/button/buttonMaxAndMin167")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_167'), 1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1670_175')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1670_200')
+      await Utils.sleep(1000);
+      await changeSizeButton.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1670_320')
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1670 finish.`);
+      done()
+    })
   })
 }
 
