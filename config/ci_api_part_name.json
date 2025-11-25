@@ -4340,13 +4340,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/kits/@kit.ArkTS.d.ets",
-            "bundle_name": [
-                "ets_utils"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.app.ability.appRecovery.d.ts",
             "bundle_name": [
                 "ability_runtime"
