@@ -4340,6 +4340,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/kits/@kit.ArkTS.d.ets",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.appRecovery.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -8167,13 +8174,6 @@
                 "ets_utils",
                 "ets_runtime",
                 "runtime_core"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/kits/@kit.ArkUI.d.ets",
-            "bundle_name": [
-                "ace_engine"
             ],
             "build_targets": []
         },
