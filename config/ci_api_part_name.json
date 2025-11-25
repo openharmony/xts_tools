@@ -5467,6 +5467,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/component3d.static.d.ets",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/search.d.ts",
             "bundle_name": [
                 "ace_engine"
