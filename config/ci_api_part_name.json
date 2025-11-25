@@ -8178,13 +8178,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/kits/@kit.ArkUI.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/kits/@kit.ArkUI.static.d.ets",
             "bundle_name": [
                 "ace_engine"
