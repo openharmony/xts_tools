@@ -1380,5 +1380,1040 @@ export default function CommonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0270 finish.`);
       done()
     })
+ /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0280
+     * @tc.type   : function
+     * @tc.desc   : Test setting the saturate property with negative boundary value (-1).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0280', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0280 start.`);
 
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0280")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let saturate_component = await driver.waitForComponent(ON.id("saturate_component_commonmodifier_0280"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0280"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0280"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个saturate值(-1)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0280 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0290
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0290
+     * @tc.type   : function
+     * @tc.desc   : Test setting the saturate property with zero boundary value (0).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0290', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0290 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0290")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let saturate_component = await driver.waitForComponent(ON.id("saturate_component_commonmodifier_0290"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0290"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0290"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个saturate值(0)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0290 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0300
+     * @tc.type   : function
+     * @tc.desc   : Test setting the saturate property with double value (2.0).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0300', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0300 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0300")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let saturate_component = await driver.waitForComponent(ON.id("saturate_component_commonmodifier_0300"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0300"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0300"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个saturate值(2.0)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0300 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0310
+     * @tc.type   : function
+     * @tc.desc   : Test setting the colorBlend property with orange color.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0310', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0310 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0310")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0310"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0310"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0310"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个colorBlend值(Color.Orange)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0310 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0320
+     * @tc.type   : function
+     * @tc.desc   : Test setting the colorBlend property with green string.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0320', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0320 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0320")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0320"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0320"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0320"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个colorBlend值("green")，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0320 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0330
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0330
+     * @tc.type   : function
+     * @tc.desc   : Test setting the colorBlend property with orange color (enhanced version).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0330', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0330 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0330")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0330"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0330"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0330"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个colorBlend值(Color.Orange)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0330 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0340
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0340
+     * @tc.type   : function
+     * @tc.desc   : Test setting the colorBlend property with RGBA semi-transparent red.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0340', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0340 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0340")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0340"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0340"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0340"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个colorBlend值("rgba(255, 100, 100, 0.5)")，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0340 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0350
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0350
+     * @tc.type   : function
+     * @tc.desc   : Test setting the colorBlend property with resource reference blue.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0350', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0350 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0350")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0350"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0350"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0350"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个colorBlend值(Color.Red)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0350 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0360
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0360
+     * @tc.type   : function
+     * @tc.desc   : Test setting the colorBlend property with resource reference red.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0360', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0360 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0360")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0360"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0360"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0360"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个colorBlend值(Color.Red)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0360 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0370
+     * @tc.type   : function
+     * @tc.desc   : Test setting the colorBlend property with empty string boundary value.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0370', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0370 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0370")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0370"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0370"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0370"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个colorBlend值("")，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0370 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0380
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0380
+     * @tc.type   : function
+     * @tc.desc   : Test setting the colorBlend property with no setting (default behavior).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0380', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0380 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0380")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0380"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0380"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0380"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个colorBlend值(undefined)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0380 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0390
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0390
+     * @tc.type   : function
+     * @tc.desc   : Test setting the colorBlend property with blue color (simple version).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0390', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0390 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0390")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0390"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0390"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0390"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个colorBlend值(Color.Blue)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0390 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0400
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0400
+     * @tc.type   : function
+     * @tc.desc   : Test setting the grayscale property with value 0.3.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0400', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0400 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0400")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0400"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0400"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0400"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个grayscale值(0.3)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0400 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0410
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0410
+     * @tc.type   : function
+     * @tc.desc   : Test setting the grayscale property with value 0.8.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0410', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0410 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0410")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0410"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0410"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0410"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个grayscale值(0.8)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0410 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0420
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0420
+     * @tc.type   : function
+     * @tc.desc   : Test setting the grayscale property with value 1 (complete grayscale).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0420 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0420")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0420"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0420"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0420"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个grayscale值(1)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0420 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0430
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0430
+     * @tc.type   : function
+     * @tc.desc   : Test setting the grayscale property with negative value (-1).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0430 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0430")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0430"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0430"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0430"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个grayscale值(-1)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0430 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0440
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0440
+     * @tc.type   : function
+     * @tc.desc   : Test setting the grayscale property with extreme value (10).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0440', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0440 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0440")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0440"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0440"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0440"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个grayscale值(10)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0440 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0450
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0450
+     * @tc.type   : function
+     * @tc.desc   : Test setting the grayscale property with minimal value (0.05).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0450', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0450 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0450")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0450"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0450"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0450"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个grayscale值(0.05)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0450 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0460
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0460
+     * @tc.type   : function
+     * @tc.desc   : Test setting the grayscale property with extreme negative value (-10000).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0460', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0460 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0460")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0460"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0460"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0460"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个grayscale值(-10000)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0460 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0470
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0470
+     * @tc.type   : function
+     * @tc.desc   : Test setting the grayscale property with no setting (default behavior).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0470', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0470 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0470")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0470"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0470"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0470"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个grayscale值(undefined)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0470 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0480
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0480
+     * @tc.type   : function
+     * @tc.desc   : Test setting the grayscale property with extreme positive value (10000).
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0480', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0480 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0480")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0480"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0480"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0480"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个grayscale值(10000)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0480 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0490
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0490
+     * @tc.type   : function
+     * @tc.desc   : Test setting the contrast property with value 0.3.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0490', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0490 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0490")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let contrast_component = await driver.waitForComponent(ON.id("contrast_component_commonmodifier_0490"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0490"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0490"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个contrast值(0.3)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0490 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0500
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0500
+     * @tc.type   : function
+     * @tc.desc   : Test setting the contrast property with value 0.8.
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0500', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0500 start.`);
+
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/CommonAttrCommonModifier/CommonAttrCommonModifier0500")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 查找组件
+      let contrast_component = await driver.waitForComponent(ON.id("contrast_component_commonmodifier_0500"), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0500"), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0500"), 500)
+
+      // 步骤2：按下index++或index--按钮轮巡测试用例
+      // 由于只有一个contrast值(0.8)，测试按钮功能
+      await Utils.sleep(200)
+
+      // 尝试点击index++按钮（应该没有变化，因为只有一个值）
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 尝试点击index--按钮（应该没有变化，因为已经是第一个值）
+      await index_decrease_button.click()
+      await Utils.sleep(100)
+
+      // 再次点击确保功能稳定
+      await index_increase_button.click()
+      await Utils.sleep(100)
+
+      // 步骤3：对比是否与原生效果是否一致
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0500 finish.`);
+      done()
+    })
+  })
+}
    
