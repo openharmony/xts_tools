@@ -9582,6 +9582,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/stateManagement/utils.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/gesture.static.d.ets",
             "bundle_name": [
                 "ace_engine"
