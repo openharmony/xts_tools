@@ -3997,7 +3997,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.multimodalAwareness.distanceMeaurement.d.ts",
+            "path": "interface/sdk-js/api/@ohos.multimodalAwareness.spatialAwareness.d.ts",
             "bundle_name": [
                 "device_status"
             ],
