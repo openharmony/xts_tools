@@ -3731,6 +3731,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SegmentButton.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.SegmentButtonV2.d.ets",
             "bundle_name": [
                 "ace_engine"
