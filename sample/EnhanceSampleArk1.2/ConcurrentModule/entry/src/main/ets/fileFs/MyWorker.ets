@@ -195,7 +195,7 @@ export default class MyFile {
           this.fileListName2 = '';
         }
         Logger.info(TAG, 'workerInstance::onmessage Finish to process data from WorkerCopy.ts');
-        workerInstance?.quitSafely();
+        workerInstance?.quit();
         fileFlag = (msg.getObject() as MessageObjectCopy).strFlag;
       }
       let currentHandler = new concurrency.MessageHandler(currentCB, workerInstance);
