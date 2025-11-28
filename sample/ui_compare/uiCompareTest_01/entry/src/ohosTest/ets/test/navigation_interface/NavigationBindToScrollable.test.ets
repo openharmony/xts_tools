@@ -1767,6 +1767,696 @@ export default function NavigationBindToScrollableTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0340 finish.`);
       done()
     })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(抛滑场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(抛滑场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable35")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let navFlingBtn = await driver.findComponent(ON.id('navFlingBtn_35'));
+      await navFlingBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_35'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350_01');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_35'));
+      await driver.swipe(500, 800, 500, 100, 100);
+      await driver.waitForIdle(1000, 3000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350_02');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 100, 500, 800, 100);
+      await driver.waitForIdle(1000, 3000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350_03');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_35'));
+      await driver.swipe(500, 800, 500, 100, 100);
+      await driver.waitForIdle(1000, 3000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350_04');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 100, 500, 800, 100);
+      await driver.waitForIdle(1000, 3000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(滑动滚动条场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(滑动滚动条场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable36")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let navScrollBarBtn = await driver.findComponent(ON.id('navScrollBarBtn_36'));
+      await navScrollBarBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_36'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360_01');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_36'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360_02');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360_03');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_36'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360_04');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(横竖屏切换场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(横竖屏切换场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable37")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let modeAutoBtn = await driver.findComponent(ON.id('modeAutoBtn_37'));
+      await modeAutoBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      await Settings.changeWindowOrientation('start');
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370_01');
+      await Utils.sleep(500);
+      
+      let navNestedScrollBtn = await driver.findComponent(ON.id('navNestedScrollBtn_37'));
+      await navNestedScrollBtn.click();
+      await driver.waitForIdle(500, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_37'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370_02');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_37'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370_03');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370_04');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_37'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370_05');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370_06');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation非全屏场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation非全屏场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable39")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let nonFullScreenBtn = await driver.findComponent(ON.id('nonFullScreenBtn_39'));
+      await nonFullScreenBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let navNestedScrollBtn = await driver.findComponent(ON.id('navNestedScrollBtn_39'));
+      await navNestedScrollBtn.click();
+      await driver.waitForIdle(500, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_39'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390_01');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_39'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390_02');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390_03');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_39'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390_04');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(只设置标题栏场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(只设置标题栏场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable40")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let navTitleOnlyBtn = await driver.findComponent(ON.id('navTitleOnlyBtn_40'));
+      await navTitleOnlyBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_40'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400_01');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_40'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400_02');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400_03');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_40'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400_04');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(只设置工具栏场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(只设置工具栏场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable41")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let navToolBarOnlyBtn = await driver.findComponent(ON.id('navToolBarOnlyBtn_41'));
+      await navToolBarOnlyBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_41'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410_01');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_41'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410_02');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410_03');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_41'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410_04');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏自定义、工具栏非自定义场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏自定义、工具栏非自定义场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable42")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let navCustomTitleBtn = await driver.findComponent(ON.id('navCustomTitleBtn_42'));
+      await navCustomTitleBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_42'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420_01');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_42'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420_02');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420_03');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_42'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420_04');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏非自定义、工具栏自定义场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏非自定义、工具栏自定义场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable43")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let navCustomToolBarBtn = await driver.findComponent(ON.id('navCustomToolBarBtn_43'));
+      await navCustomToolBarBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_43'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430_01');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_43'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430_02');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430_03');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_43'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430_04');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏自定义、工具栏自定义场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏自定义、工具栏自定义场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable44")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let navCustomBothBtn = await driver.findComponent(ON.id('navCustomBothBtn_44'));
+      await navCustomBothBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_44'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440_01');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_44'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440_02');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440_03');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_44'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440_04');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(接口滑动场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(接口滑动场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable45")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let navInterfaceScrollBtn = await driver.findComponent(ON.id('navInterfaceScrollBtn_45'));
+      await navInterfaceScrollBtn.click();
+      await driver.waitForIdle(500, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_45'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450_01');
+      await Utils.sleep(500);
+      
+      let scrollToBtn = await driver.findComponent(ON.id('scrollToBtn_45'));
+      await scrollToBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450_02');
+      await Utils.sleep(500);
+      
+      let scrollByBtn = await driver.findComponent(ON.id('scrollByBtn_45'));
+      await scrollByBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450_03');
+      await Utils.sleep(500);
+      
+      let backBottomBtn = await driver.findComponent(ON.id('backBottomBtn_45'));
+      await backBottomBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450_04');
+      await Utils.sleep(500);
+      
+      let nextPageBtn = await driver.findComponent(ON.id('nextPageBtn_45'));
+      await nextPageBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(padding场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(padding场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable46")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let padding10Btn = await driver.findComponent(ON.id('padding10Btn_46'));
+      await padding10Btn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let padding30Btn = await driver.findComponent(ON.id('padding30Btn_46'));
+      await padding30Btn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let navNestedScrollBtn = await driver.findComponent(ON.id('navNestedScrollBtn_46'));
+      await navNestedScrollBtn.click();
+      await driver.waitForIdle(500, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_46'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460_01');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_46'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460_02');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460_03');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_46'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460_04');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(BarStyle场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(BarStyle场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable47")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let barStyleStandardBtn = await driver.findComponent(ON.id('barStyleStandardBtn_47'));
+      await barStyleStandardBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let barStyleStackBtn = await driver.findComponent(ON.id('barStyleStackBtn_47'));
+      await barStyleStackBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let navNestedScrollBtn = await driver.findComponent(ON.id('navNestedScrollBtn_47'));
+      await navNestedScrollBtn.click();
+      await driver.waitForIdle(500, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_47'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470_01');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_47'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470_02');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470_03');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_47'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470_04');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480
+     * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(ignoreLayoutSafeArea场景)
+     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(ignoreLayoutSafeArea场景)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/navigationBindToScrollable48")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let ignoreTopBtn = await driver.findComponent(ON.id('ignoreTopBtn_48'));
+      await ignoreTopBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let ignoreBottomBtn = await driver.findComponent(ON.id('ignoreBottomBtn_48'));
+      await ignoreBottomBtn.click();
+      await driver.waitForIdle(300, 1000);
+      
+      let navNestedScrollBtn = await driver.findComponent(ON.id('navNestedScrollBtn_48'));
+      await navNestedScrollBtn.click();
+      await driver.waitForIdle(500, 1000);
+      
+      let pushPageOneBtn = await driver.findComponent(ON.id('pushPageOneBtn_48'));
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(300, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480_01');
+      await Utils.sleep(500);
+      
+      let parentScrollComponent = await driver.findComponent(ON.id('parentScrollComponent_48'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480_02');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480_03');
+      await Utils.sleep(500);
+      
+      let childScrollComponent = await driver.findComponent(ON.id('childScrollComponent_48'));
+      await driver.swipe(500, 800, 500, 200, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480_04');
+      await Utils.sleep(500);
+      
+      await driver.swipe(500, 200, 500, 800, 2000);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480_05');
+      await Utils.sleep(500);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480 finish.`);
+      done()
+    })
+
   })
 }
 
