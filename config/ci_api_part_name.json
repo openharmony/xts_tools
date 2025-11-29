@@ -987,6 +987,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.intelligence.imageGeneration.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.intelligence.imageGeneration.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.inspector.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -8176,7 +8190,7 @@
                 "drivers_interface_connected_nfc_tag",
                 "secure_element",
                 "wifi"
-        ],
+            ],
             "build_targets": []
         },
         {
@@ -9224,7 +9238,7 @@
             ],
             "build_targets": []
         },
-         {
+        {
             "path": "interface/sdk-js/api/arkui/component/textClock.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -9603,7 +9617,7 @@
             "build_targets": []
         }
     ],
-    "sdk_c":[
+    "sdk_c": [
         {
             "path": "interface/sdk_c/AbilityKit/ability_runtime",
             "bundle_name": [
