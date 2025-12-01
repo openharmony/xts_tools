@@ -50,6 +50,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.annotation.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/extendableComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
