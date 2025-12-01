@@ -75,9 +75,9 @@ export default function UIComponentMediaImageSvgAnimateTransform() {
       Settings.createWindow('testability/pages/UIComponentMediaImageSvgAnimateTransform/' + pageName);
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -96,9 +96,9 @@ export default function UIComponentMediaImageSvgAnimateTransform() {
       Settings.createWindow('testability/pages/UIComponentMediaImageSvgAnimateTransform/' + pageName);
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();

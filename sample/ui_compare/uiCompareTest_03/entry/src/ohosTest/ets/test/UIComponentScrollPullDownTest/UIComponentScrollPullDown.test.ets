@@ -79,13 +79,13 @@ export default function UIComponentScrollPullDown() {
       let scrollCenter = await scrollComponent.getBoundsCenter();
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await switchButton.click();
       await scrollComponent.scrollToTop(20000);
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -110,13 +110,13 @@ export default function UIComponentScrollPullDown() {
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y - 400, scrollCenter.x, scrollCenter.y + 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await switchButton.click();
       await scrollComponent.scrollToBottom(20000);
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y - 400, scrollCenter.x, scrollCenter.y + 400, 3000);
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -139,7 +139,7 @@ export default function UIComponentScrollPullDown() {
       let scrollCenter = await scrollComponent.getBoundsCenter();
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot(pageName);
+      await windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -164,13 +164,13 @@ export default function UIComponentScrollPullDown() {
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y - 400, scrollCenter.x, scrollCenter.y + 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await switchButton.click();
       await scrollComponent.scrollToBottom(20000);
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y - 400, scrollCenter.x, scrollCenter.y + 400, 3000);
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -193,7 +193,7 @@ export default function UIComponentScrollPullDown() {
       let scrollCenter = await scrollComponent.getBoundsCenter();
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot(pageName);
+      await windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -216,13 +216,13 @@ export default function UIComponentScrollPullDown() {
       let scrollCenter = await scrollComponent.getBoundsCenter();
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await switchButton.click();
       await scrollComponent.scrollToTop(20000);
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -245,13 +245,13 @@ export default function UIComponentScrollPullDown() {
       let scrollCenter = await scrollComponent.getBoundsCenter();
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await switchButton.click();
       await scrollComponent.scrollToTop(20000);
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -276,13 +276,13 @@ export default function UIComponentScrollPullDown() {
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y - 400, scrollCenter.x, scrollCenter.y + 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await switchButton.click();
       await scrollComponent.scrollToBottom(20000);
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y - 400, scrollCenter.x, scrollCenter.y + 400, 3000);
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -305,7 +305,7 @@ export default function UIComponentScrollPullDown() {
       let scrollCenter = await scrollComponent.getBoundsCenter();
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot(pageName);
+      await windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -328,13 +328,13 @@ export default function UIComponentScrollPullDown() {
       let scrollCenter = await scrollComponent.getBoundsCenter();
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await switchButton.click();
       await scrollComponent.scrollToTop(20000);
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -359,13 +359,13 @@ export default function UIComponentScrollPullDown() {
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y - 400, scrollCenter.x, scrollCenter.y + 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await switchButton.click();
       await scrollComponent.scrollToBottom(20000);
       await driver.waitForIdle(500, 500);
       await driver.swipe(scrollCenter.x, scrollCenter.y - 400, scrollCenter.x, scrollCenter.y + 400, 3000);
       await driver.waitForIdle(500, 2000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
@@ -388,7 +388,7 @@ export default function UIComponentScrollPullDown() {
       let scrollCenter = await scrollComponent.getBoundsCenter();
       await driver.swipe(scrollCenter.x, scrollCenter.y + 400, scrollCenter.x, scrollCenter.y - 400, 3000);
       await driver.waitForIdle(500, 2000)
-      await windowSnap.snapShot(pageName);
+      await windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();
