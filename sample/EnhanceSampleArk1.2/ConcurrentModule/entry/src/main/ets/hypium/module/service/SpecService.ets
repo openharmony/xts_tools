@@ -110,8 +110,7 @@ class SpecService {
         if (cService.filterDesc(curSuite.description, desc, filter) && isFilter && !sService.fullRun) {
           this.initSpecService();
         } else {
-          const funcStr = Type.of(func as object).getLiteral();
-          const argsCount = getFunctionArgumentsCount(funcStr);
+          const argsCount = getFunctionArgumentsCount(func as object);
 
           const isAsync = checkIsAsyncFunction(funcStr);
           let processedFunc: (() => Promise<void>) | ((paramItem: AnyType) => Promise<void>) = (): Promise<void> => {

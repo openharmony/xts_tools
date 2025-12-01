@@ -159,24 +159,21 @@ function eqOfArray<T>(a: Array<T>, b: Array<T>): boolean {
   return true;
 }
 
+function objToMap(obj: object): Map<PropertyKey, Any> {
+  const result = new Map<PropertyKey, Any>()
+
+  const entries = Object.entries(obj)
+  for (const entry of entries) {
+    if (entry !== null && entry !== undefined) {
+      const entryName = entry[0]
+      const entryVal = entry[1]
+      result.set(entryName, entryVal)
+    }
+  }
+
+  return result
+}
+
 function eqOfObj(a: object, b: object): boolean {
-  const aKeys = DeepTypeUtils.getAllKeys(a);
-  const bKeys = DeepTypeUtils.getAllKeys(b);
-  if (aKeys.length !== bKeys.length) {
-    return false;
-  }
-  for (const entries of Object.entries(a)) {
-    if(!entries) {
-      continue
-    }
-    const aKey = entries[0]
-    const aValue = entries[1]
-    if(!bKeys.includes(aKey)) {
-      return false
-    }
-    if(!eq(aValue as object, (reflect.Value.of(b) as ClassValue).getFieldByName(aKey).getData() as object)) {
-      return false
-    }
-  }
-  return true;
+  return eqOfMap(objToMap(a), objToMap(b))
 }
