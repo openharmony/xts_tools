@@ -9596,6 +9596,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/stateManagement/remember.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/stateManagement/runtime.static.d.ets",
             "bundle_name": [
                 "ace_engine"
