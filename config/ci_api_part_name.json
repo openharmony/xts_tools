@@ -4172,6 +4172,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.intl.static.d.ets",
+            "bundle_name": [
+                "i18n"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.deviceControl.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
