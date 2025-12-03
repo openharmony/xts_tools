@@ -78,6 +78,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@internal/component/ets/lifecycle.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/delete_arkui_label.py",
             "bundle_name": [
                 "ability_runtime"
