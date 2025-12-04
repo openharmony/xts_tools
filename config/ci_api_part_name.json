@@ -7070,6 +7070,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/ButtonModifier.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+         {
+            "path": "interface/sdk-js/api/arkui/ButtonModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/ToggleModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
