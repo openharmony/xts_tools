@@ -164,23 +164,24 @@ class SuiteService {
     return;
   }
 
-  handleHookFunction(core: Core, func: HookFuncType) {
-    const funcStr = Type.of(func as object).getLiteral();
-    const isAsyncFunc = checkIsAsyncFunction(funcStr);
-    const argsCount = getFunctionArgumentsCount(funcStr);
+  handleHookFunction(core: Core, func: SyncHookFuncType) {
+    const argsCount = getFunctionArgumentsCount(func as object);
     let fn = (): Promise<void> => { }
     if (argsCount === 1) {
-      if (isAsyncFunc) {
-        fn = processAsyncFuncWithArgOne(core, func as ((done: () => void) => Promise<void>));
-      } else {
-        fn = processFuncWithArgOne(core, func as ((done: () => void) => void));
-      }
+      fn = processFuncWithArgOne(core, func as ((done: () => void) => void));
     } else {
-      if (isAsyncFunc) {
-        fn = processAsyncFunc(core, func as (() => Promise<void>));
-      } else {
-        fn = processFunc(core, func as (() => void));
-      }
+      fn = processFunc(core, func as (() => void));
+    }
+    return fn
+  }
+
+  handleHookFunction(core: Core, func: AsyncHookFuncType) {
+    const argsCount = getFunctionArgumentsCount(func as object);
+    let fn = (): Promise<void> => { }
+    if (argsCount === 1) {
+      fn = processAsyncFuncWithArgOne(core, func as ((done: () => void) => Promise<void>));
+    } else {
+      fn = processAsyncFunc(core, func as (() => Promise<void>));
     }
     return fn
   }

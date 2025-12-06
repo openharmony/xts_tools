@@ -108,7 +108,7 @@ struct CompressFilesPage {
   //   let ctx = this.getUIContext().getHostContext() as common.UIAbilityContext;
   //   this.path = ctx.filesDir;
   //   let value = await fileList.get('fileNames', '');
-  //   this.files.fileData = (JSON.parse<Array<String>>(`${value}`,Type.from<Array<String>>())) as Array<String>;
+  //   this.files.fileData = (JSON.parse<Array<String>>(`${value}`,Class.from<Array<String>>()));
   //   this.files.notifyDataReload();
   //   this.zipFileNames.length = 0;
   //   this.zipFileNames = this.files.fileData.filter(item => item.endsWith('.zip'));
@@ -136,7 +136,7 @@ struct CompressFilesPage {
       this.path = ctx.filesDir;
 
       let value = await fileList.get('fileNames', '');
-      this.files.fileData = JSON.parse<Array<String>>(`${value}`, Type.from<Array<String>>()) as Array<String>;
+      this.files.fileData = JSON.parse<Array<String>>(`${value}`, Class.from<Array<String>>());
       this.files.notifyDataReload();
     } catch (error) {
       hilog.error(DOMAIN, TAG, BUNDLE + `Error loading preferences: ${error}`);

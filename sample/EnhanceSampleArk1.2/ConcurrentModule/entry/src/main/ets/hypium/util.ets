@@ -299,19 +299,28 @@ export function processFuncWithArgTwo(coreContext: Core, func: (param1: () => vo
   };
 }
 
-export function getFunctionArgumentsCount(funcStr: string): number {
-  const regex = new RegExp('^[0123456789]$', 'g');
-  let count: string = '';
-  for (let s of funcStr) {
-    const str = new string(s);
-    if (regex.test(str)) {
-      count = str;
-    }
-  }
-  if (count.length) {
-    return Number(count);
-  }
-  return 0;
+export function getFunctionArgumentsCount(fnObj: object): number {
+  if (fnObj instanceof Function0) { return 0 }
+  if (fnObj instanceof Function1) { return 1 }
+  if (fnObj instanceof Function2) { return 2 }
+  if (fnObj instanceof Function3) { return 3 }
+  if (fnObj instanceof Function4) { return 4 }
+  if (fnObj instanceof Function5) { return 5 }
+  if (fnObj instanceof Function6) { return 6 }
+  if (fnObj instanceof Function7) { return 7 }
+  if (fnObj instanceof Function8) { return 8 }
+  if (fnObj instanceof Function9) { return 9 }
+  if (fnObj instanceof Function10) { return 10 }
+  if (fnObj instanceof Function11) { return 11 }
+  if (fnObj instanceof Function12) { return 12 }
+  if (fnObj instanceof Function13) { return 13 }
+  if (fnObj instanceof Function14) { return 14 }
+  if (fnObj instanceof Function15) { return 15 }
+  if (fnObj instanceof Function16) { return 16 }
+
+  const fnType = Class.of(fnObj)
+  const fnTypeName = fnType.getSuper()?.getName()
+  throw new AssertionError("unexpected fn type: " + fnTypeName)
 }
 
 export function checkIsAsyncFunction(funcStr: string): boolean {

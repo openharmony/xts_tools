@@ -101,7 +101,7 @@ struct ZipLibDecompressionPage {
   //   let ctx = this.getUIContext().getHostContext() as common.UIAbilityContext;
   //   this.path = ctx.filesDir;
   //   let value = await fileList.get('fileName', '');
-  //   this.files.fileData = JSON.parse<Array<String>>(`${value}`, Type.from<Array<String>>()) as Array<String>;
+  //   this.files.fileData = JSON.parse<Array<String>>(`${value}`, Class.from<Array<String>>());
   //   this.files.notifyDataReload();
   // }
 
@@ -119,7 +119,7 @@ struct ZipLibDecompressionPage {
       let ctx = this.getUIContext().getHostContext() as common.UIAbilityContext;
       this.path = ctx.filesDir;
       let value = await fileList.get('fileName', '');
-      this.files.fileData = JSON.parse<Array<String>>(`${value}`, Type.from<Array<String>>()) as Array<String>;
+      this.files.fileData = JSON.parse<Array<String>>(`${value}`, Class.from<Array<String>>());
       this.files.notifyDataReload();
     } catch (error) {
       hilog.error(DOMAIN, TAG, BUNDLE + `Error loading preferences: ${error}`);

@@ -93,8 +93,7 @@ class StaticSpec {
       const dataDriver = dataDriverMap.get('dataDriver') as DataDriver;
       const suiteParams = dataDriver.getSuiteParams();
       const specParams = dataDriver.getSpecParams();
-      const funcStr = Type.of(this.asyncFn as object).getLiteral();
-      const argsCount = getFunctionArgumentsCount(funcStr)
+      const argsCount = getFunctionArgumentsCount(this.asyncFn as object)
       if(argsCount === 1) {
         if(specParams.length === 0) {
           await (this.asyncFn as ((params: AnyType) => Promise<void>))(suiteParams);
