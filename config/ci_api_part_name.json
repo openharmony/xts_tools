@@ -994,7 +994,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.base.d.ets",
+            "path": "interface/sdk-js/api/@ohos.base.static.d.ets",
             "bundle_name": [
                 "init"
             ],
