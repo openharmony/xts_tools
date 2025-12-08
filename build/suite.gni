@@ -23,6 +23,7 @@ declare_args() {
   TESTCONFIG_FILENAME = "Test.xml"
   XTS_ROOT = "//test/xts"
   ACTS_ROOT = "//test/xts/acts"
+  ACTS_DEVICES_ROOT = "//test/xts/acts_devices"
   HATS_ROOT = "//test/xts/hats"
   HITS_ROOT = "//test/xts/hits"
   DCTS_ROOT = "//test/xts/dcts"
