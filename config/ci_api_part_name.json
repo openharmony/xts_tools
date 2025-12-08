@@ -71,6 +71,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/stateManagement/storage/appStorageV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/stateManagement/storage/persistenceV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
