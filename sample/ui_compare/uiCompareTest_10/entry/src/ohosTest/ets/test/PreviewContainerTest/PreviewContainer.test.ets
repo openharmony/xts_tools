@@ -45,10 +45,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the ColumnSplit component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0010', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0010 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0010")
       let driver:Driver = Driver.create();
@@ -65,10 +65,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the Column component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0020', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0020 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0020")
       let driver:Driver = Driver.create();
@@ -85,10 +85,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the Flex component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0030', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0030 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0030")
       let driver:Driver = Driver.create();
@@ -105,10 +105,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the FlowItem component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0040', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0040 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0040")
       let driver:Driver = Driver.create();
@@ -125,10 +125,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the GridItem component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0050', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0050 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0050")
       let driver:Driver = Driver.create();
@@ -145,10 +145,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the Grid component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0060', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0060 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0060")
       let driver:Driver = Driver.create();
@@ -165,10 +165,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the ListItemGroup component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0070', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0070 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0070")
       let driver:Driver = Driver.create();
@@ -185,10 +185,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the ListItem component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0080', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0080 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0080")
       let driver:Driver = Driver.create();
@@ -205,10 +205,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the List component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0090', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0090 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0090")
       let driver:Driver = Driver.create();
@@ -225,10 +225,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the RelativeContainer component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0100', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0100 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0100")
       let driver:Driver = Driver.create();
@@ -245,10 +245,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the RowSplit component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0110', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0110 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0110")
       let driver:Driver = Driver.create();
@@ -265,10 +265,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the Row component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0120', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0120 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0120")
       let driver:Driver = Driver.create();
@@ -285,10 +285,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the Scroll component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0130', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0130 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0130")
       let driver:Driver = Driver.create();
@@ -305,10 +305,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the SideBarContainer component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0140', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0140 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0140")
       let driver:Driver = Driver.create();
@@ -325,10 +325,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the Stack component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0150', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0150 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0150")
       let driver:Driver = Driver.create();
@@ -345,10 +345,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the Swiper component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0160', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0160 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0160")
       let driver:Driver = Driver.create();
@@ -365,10 +365,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the TabContent component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0170', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0170 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0170")
       let driver:Driver = Driver.create();
@@ -385,10 +385,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the Tabs component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0180', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0180 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0180")
       let driver:Driver = Driver.create();
@@ -405,10 +405,10 @@ export default function PreviewContainer() {
      * @tc.desc   : Preview of the WaterFlow component
      * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : 4
+     * @tc.level  : 3
      */
 
-    it('SUB_ACE_PREVIEW_CONTINER_0190', Level.LEVEL4, async (done: Function) => {
+    it('SUB_ACE_PREVIEW_CONTINER_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0190 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0190")
       let driver:Driver = Driver.create();
