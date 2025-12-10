@@ -9685,6 +9685,41 @@
                 "ace_engine"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.performanceMonitor.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.uiAppearance.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/Graphics.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/NodeController.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/resources.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c": [
