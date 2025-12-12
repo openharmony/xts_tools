@@ -2800,6 +2800,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ArcSlider.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.nfc.controller.d.ts",
             "bundle_name": [
                 "nfc"
@@ -3067,6 +3074,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.Popup.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.Popup.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -3788,6 +3802,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.ArcButton.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ArcButton.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
