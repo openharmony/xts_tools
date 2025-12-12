@@ -8770,6 +8770,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/application/EnterpriseAdminExtensionContext.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.kioskManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
