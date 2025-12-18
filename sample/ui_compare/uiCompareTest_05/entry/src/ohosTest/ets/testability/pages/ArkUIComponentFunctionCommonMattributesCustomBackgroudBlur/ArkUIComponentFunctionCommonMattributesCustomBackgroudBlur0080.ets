@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct Index {
+struct ArkUIComponentFunctionCommonMattributesCustomBackgroudBlur0080 {
 
   build() {
     Row() {

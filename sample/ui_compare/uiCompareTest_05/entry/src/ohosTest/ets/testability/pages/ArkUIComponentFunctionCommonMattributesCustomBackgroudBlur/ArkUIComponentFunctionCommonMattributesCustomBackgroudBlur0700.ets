@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct ContextMenuExample {
+struct ArkUIComponentFunctionCommonMattributesCustomBackgroudBlur0700 {
   @Builder MenuBuilder() {
     Flex({ direction: FlexDirection.Column, justifyContent: FlexAlign.Center, alignItems: ItemAlign.Center }) {
       Text('Test menu item 1')

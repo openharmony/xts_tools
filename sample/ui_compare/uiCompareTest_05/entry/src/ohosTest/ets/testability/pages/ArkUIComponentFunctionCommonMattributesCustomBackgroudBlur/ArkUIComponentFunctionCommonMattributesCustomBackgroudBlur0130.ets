@@ -14,45 +14,9 @@
  */
 
 
-// 1、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（blurOptions：[0,0]）
-// 4、点击“bindMenu”按钮	1、 blurOptions状态选择为“blurOptions：0,0”状态
-// 2、点击“BlurStyleOptions1”按钮
-// 1、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（blurOptions：[66,66]）
-// 4、点击“bindMenu”按钮	1、 blurOptions状态选择为“blurOptions：66,66”状态
-// 2、点击“BlurStyleOptions1”按钮
-// 1、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（blurOptions：[66,66]）
-// 4、点击“bindMenu”按钮	1、 blurOptions状态选择为“blurOptions：127,127”状态
-// 2、点击“BlurStyleOptions1”按钮
-// 1、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（    policy：  ALWAYS_ACTIVE ）
-// 4、点击“bindMenu”按钮	1、  policy状态选择为“  policy：1”状态
-// 2、点击“BlurStyleOptions1”按钮
-// 1、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（    policy：  ALWAYS_INACTIVE ）
-// 4、点击“bindMenu”按钮	1、  policy状态选择为“  policy：2”状态
-// 2、点击“BlurStyleOptions1”按钮
-// 1、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（    policy：  FOLLOWS_WINDOW_ACTIVE_STATE ）
-// 4、点击“bindMenu”按钮	1、  policy状态选择为“  policy：0”状态
-// 2、点击“BlurStyleOptions1”按钮
-// 1、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（    policy：   undefined ）
-// 4、点击“bindMenu”按钮	1、  policy状态选择为“  policy： undefined”状态
-// 2、点击“BlurStyleOptions1”按钮
-
 @Entry
 @Component
-struct Index {
+struct ArkUIComponentFunctionCommonMattributesCustomBackgroudBlur0130 {
 
   build() {
     Row() {

@@ -13,35 +13,9 @@
  * limitations under the License.
  */
 
-// 1、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（  scale：1）
-// 4、点击“bindMenu”按钮	1、scale状态选择为“scale：1”状态
-// 2、点击“BlurStyleOptions1”按钮
-// 1、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（  scale：0）
-// 4、点击“bindMenu”按钮	1、scale状态选择为“scale：0”状态
-// 2、点击“BlurStyleOptions1”按钮
-//   -1、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（  scale：-1）
-// 4、点击“bindMenu”按钮	1、scale状态选择为“scale：-1”状态
-// 2、点击“BlurStyleOptions1”按钮
-// 1、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（  scale：50）
-// 4、点击“bindMenu”按钮	1、scale状态选择为“scale：50”状态
-// 2、点击“BlurStyleOptions1”按钮
-// undefined、创建button组件和menu组件
-// 2、button组件绑定menu组件
-// 3、bindMenu设置MenuElement、backgroundBlurStyleOptions（  scale： undefined）
-// 4、点击“bindMenu”按钮	1、scale状态选择为“scale： undefined”状态
-// 2、点击“BlurStyleOptions1”按钮
-
 @Entry
 @Component
-struct Index {
+struct ArkUIComponentFunctionCommonMattributesCustomBackgroudBlur0040 {
 
   build() {
     Row() {
