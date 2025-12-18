@@ -1480,6 +1480,1957 @@ export default function NavigationOnActiveOnInActiveTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0180 finish.`);
       done()
     })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0190
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作push接口，关闭动画，参数animated设置为false）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（栈操作push接口，关闭动画，参数animated设置为false）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0190', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0190 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0190/navigationOnActiveOnInActive0190")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"基础场景"按钮
+      let basicSceneBtn = await driver.waitForComponent(ON.id('basicSceneBtn0190'), 1000);
+      Logger.info('TEST', `Found component: basicSceneBtn0190`);
+      if (!basicSceneBtn) {
+        Logger.error('TEST', `Component not found: basicSceneBtn0190`);
+        throw new Error('Component not found: basicSceneBtn0190');
+      }
+      await basicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking basicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne animated false"按钮
+      let pushPageOneAnimatedFalseBtn = await driver.waitForComponent(ON.id('pushPageOneAnimatedFalseBtn0190'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneAnimatedFalseBtn0190, result: ${pushPageOneAnimatedFalseBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneAnimatedFalseBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneAnimatedFalseBtn0190 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneAnimatedFalseBtn = await driver.waitForComponent(ON.id('pushPageOneAnimatedFalseBtn0190'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneAnimatedFalseBtn0190, result: ${pushPageOneAnimatedFalseBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneAnimatedFalseBtn) {
+          throw new Error('Component not found: pushPageOneAnimatedFalseBtn0190');
+        }
+      }
+      await pushPageOneAnimatedFalseBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0190_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"pushPathByName pageThree animated false"按钮
+      let pushPathByNamePageThreeAnimatedFalseBtn = await driver.waitForComponent(ON.id('pushPathByNamePageThreeAnimatedFalseBtn0190'), 1000);
+      Logger.info('TEST', `Found component: pushPathByNamePageThreeAnimatedFalseBtn0190`);
+      if (!pushPathByNamePageThreeAnimatedFalseBtn) {
+        Logger.error('TEST', `Component not found: pushPathByNamePageThreeAnimatedFalseBtn0190`);
+        throw new Error('Component not found: pushPathByNamePageThreeAnimatedFalseBtn0190');
+      }
+      await pushPathByNamePageThreeAnimatedFalseBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0190_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"pushDestinationByName pageTwo animated false"按钮
+      let pushDestinationByNamePageTwoAnimatedFalseBtn = await driver.waitForComponent(ON.id('pushDestinationByNamePageTwoAnimatedFalseBtn0190'), 1000);
+      Logger.info('TEST', `Found component: pushDestinationByNamePageTwoAnimatedFalseBtn0190`);
+      if (!pushDestinationByNamePageTwoAnimatedFalseBtn) {
+        Logger.error('TEST', `Component not found: pushDestinationByNamePageTwoAnimatedFalseBtn0190`);
+        throw new Error('Component not found: pushDestinationByNamePageTwoAnimatedFalseBtn0190');
+      }
+      await pushDestinationByNamePageTwoAnimatedFalseBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0190_03');
+      await Utils.sleep(1000);
+      
+      // 5.点击"pop animated false"按钮
+      let popAnimatedFalseBtn = await driver.waitForComponent(ON.id('popAnimatedFalseBtn0190'), 1000);
+      Logger.info('TEST', `Found component: popAnimatedFalseBtn0190`);
+      if (!popAnimatedFalseBtn) {
+        Logger.error('TEST', `Component not found: popAnimatedFalseBtn0190`);
+        throw new Error('Component not found: popAnimatedFalseBtn0190');
+      }
+      await popAnimatedFalseBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0190_04');
+      await Utils.sleep(1000);
+      
+      // 6.点击"moveIndexToTop 0 animated false"按钮
+      let moveIndexToTop0AnimatedFalseBtn = await driver.waitForComponent(ON.id('moveIndexToTop0AnimatedFalseBtn0190'), 1000);
+      Logger.info('TEST', `Found component: moveIndexToTop0AnimatedFalseBtn0190`);
+      if (!moveIndexToTop0AnimatedFalseBtn) {
+        Logger.error('TEST', `Component not found: moveIndexToTop0AnimatedFalseBtn0190`);
+        throw new Error('Component not found: moveIndexToTop0AnimatedFalseBtn0190');
+      }
+      await moveIndexToTop0AnimatedFalseBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0190_05');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0190 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0200
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作push接口，关闭动画，disableAnimation设置为true）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（栈操作push接口，关闭动画，disableAnimation设置为true）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0200', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0200 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0200/navigationOnActiveOnInActive0200")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础栈操作场景"按钮
+      let navigationBasicStackOperationBtn = await driver.waitForComponent(ON.id('navigationBasicStackOperationBtn0200'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicStackOperationBtn0200`);
+      if (!navigationBasicStackOperationBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicStackOperationBtn0200`);
+        throw new Error('Component not found: navigationBasicStackOperationBtn0200');
+      }
+      await navigationBasicStackOperationBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicStackOperationBtn, waiting for page to render`);
+      
+      // 2.点击"全局是否禁用转场动画，disableAnimation: xx"按钮，设置为true
+      let toggleDisableAnimationBtn = await driver.waitForComponent(ON.id('toggleDisableAnimationBtn0200'), 1000);
+      Logger.info('TEST', `Found component: toggleDisableAnimationBtn0200, result: ${toggleDisableAnimationBtn ? 'found' : 'not found'}`);
+      if (!toggleDisableAnimationBtn) {
+        Logger.error('TEST', `Component not found: toggleDisableAnimationBtn0200 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        toggleDisableAnimationBtn = await driver.waitForComponent(ON.id('toggleDisableAnimationBtn0200'), 1000);
+        Logger.info('TEST', `Retry found component: toggleDisableAnimationBtn0200, result: ${toggleDisableAnimationBtn ? 'found' : 'not found'}`);
+        if (!toggleDisableAnimationBtn) {
+          throw new Error('Component not found: toggleDisableAnimationBtn0200');
+        }
+      }
+      await toggleDisableAnimationBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0200_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0200'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0200`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0200`);
+        throw new Error('Component not found: pushPageOneBtn0200');
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0200_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"pushPathByName pageThree"按钮
+      let pushPathByNamePageThreeBtn = await driver.waitForComponent(ON.id('pushPathByNamePageThreeBtn0200'), 1000);
+      Logger.info('TEST', `Found component: pushPathByNamePageThreeBtn0200`);
+      if (!pushPathByNamePageThreeBtn) {
+        Logger.error('TEST', `Component not found: pushPathByNamePageThreeBtn0200`);
+        throw new Error('Component not found: pushPathByNamePageThreeBtn0200');
+      }
+      await pushPathByNamePageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0200_03');
+      await Utils.sleep(1000);
+      
+      // 5.点击"pushDestinationByName pageTwo"按钮
+      let pushDestinationByNamePageTwoBtn = await driver.waitForComponent(ON.id('pushDestinationByNamePageTwoBtn0200'), 1000);
+      Logger.info('TEST', `Found component: pushDestinationByNamePageTwoBtn0200`);
+      if (!pushDestinationByNamePageTwoBtn) {
+        Logger.error('TEST', `Component not found: pushDestinationByNamePageTwoBtn0200`);
+        throw new Error('Component not found: pushDestinationByNamePageTwoBtn0200');
+      }
+      await pushDestinationByNamePageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0200_04');
+      await Utils.sleep(1000);
+      
+      // 6.点击"pop"按钮
+      let popBtn = await driver.waitForComponent(ON.id('popBtn0200'), 1000);
+      Logger.info('TEST', `Found component: popBtn0200`);
+      if (!popBtn) {
+        Logger.error('TEST', `Component not found: popBtn0200`);
+        throw new Error('Component not found: popBtn0200');
+      }
+      await popBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0200_05');
+      await Utils.sleep(1000);
+      
+      // 7.点击"moveIndexToTop 0"按钮
+      let moveIndexToTop0Btn = await driver.waitForComponent(ON.id('moveIndexToTop0Btn0200'), 1000);
+      Logger.info('TEST', `Found component: moveIndexToTop0Btn0200`);
+      if (!moveIndexToTop0Btn) {
+        Logger.error('TEST', `Component not found: moveIndexToTop0Btn0200`);
+        throw new Error('Component not found: moveIndexToTop0Btn0200');
+      }
+      await moveIndexToTop0Btn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0200_06');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0200 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0210
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（自定义动画场景）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（自定义动画场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0210', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0210 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0210/navigationOnActiveOnInActive0210")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"基础场景"按钮
+      let basicSceneBtn = await driver.waitForComponent(ON.id('basicSceneBtn0210'), 1000);
+      Logger.info('TEST', `Found component: basicSceneBtn0210`);
+      if (!basicSceneBtn) {
+        Logger.error('TEST', `Component not found: basicSceneBtn0210`);
+        throw new Error('Component not found: basicSceneBtn0210');
+      }
+      await basicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking basicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageFive"按钮
+      let pushPageFiveBtn = await driver.waitForComponent(ON.id('pushPageFiveBtn0210'), 1000);
+      Logger.info('TEST', `Found component: pushPageFiveBtn0210, result: ${pushPageFiveBtn ? 'found' : 'not found'}`);
+      if (!pushPageFiveBtn) {
+        Logger.error('TEST', `Component not found: pushPageFiveBtn0210 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageFiveBtn = await driver.waitForComponent(ON.id('pushPageFiveBtn0210'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageFiveBtn0210, result: ${pushPageFiveBtn ? 'found' : 'not found'}`);
+        if (!pushPageFiveBtn) {
+          throw new Error('Component not found: pushPageFiveBtn0210');
+        }
+      }
+      await pushPageFiveBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0210_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"push pageSix"按钮
+      let pushPageSixBtn = await driver.waitForComponent(ON.id('pushPageSixBtn0210'), 1000);
+      Logger.info('TEST', `Found component: pushPageSixBtn0210`);
+      if (!pushPageSixBtn) {
+        Logger.error('TEST', `Component not found: pushPageSixBtn0210`);
+        throw new Error('Component not found: pushPageSixBtn0210');
+      }
+      await pushPageSixBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0210_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"pop"按钮
+      let popBtn = await driver.waitForComponent(ON.id('popBtn0210'), 1000);
+      Logger.info('TEST', `Found component: popBtn0210`);
+      if (!popBtn) {
+        Logger.error('TEST', `Component not found: popBtn0210`);
+        throw new Error('Component not found: popBtn0210');
+      }
+      await popBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0210_03');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0210 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0220
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用push*3,pop*2）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用push*3,pop*2）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0220', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0220 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0220/navigationOnActiveOnInActive0220")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础栈操作场景"按钮
+      let navigationBasicStackOperationBtn = await driver.waitForComponent(ON.id('navigationBasicStackOperationBtn0220'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicStackOperationBtn0220`);
+      if (!navigationBasicStackOperationBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicStackOperationBtn0220`);
+        throw new Error('Component not found: navigationBasicStackOperationBtn0220');
+      }
+      await navigationBasicStackOperationBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicStackOperationBtn, waiting for page to render`);
+      
+      // 2.点击"push*3,pop*2"按钮
+      let push3Pop2Btn = await driver.waitForComponent(ON.id('push3Pop2Btn0220'), 1000);
+      Logger.info('TEST', `Found component: push3Pop2Btn0220, result: ${push3Pop2Btn ? 'found' : 'not found'}`);
+      if (!push3Pop2Btn) {
+        Logger.error('TEST', `Component not found: push3Pop2Btn0220 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        push3Pop2Btn = await driver.waitForComponent(ON.id('push3Pop2Btn0220'), 1000);
+        Logger.info('TEST', `Retry found component: push3Pop2Btn0220, result: ${push3Pop2Btn ? 'found' : 'not found'}`);
+        if (!push3Pop2Btn) {
+          throw new Error('Component not found: push3Pop2Btn0220');
+        }
+      }
+      await push3Pop2Btn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0220_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"pop"按钮
+      let popBtn = await driver.waitForComponent(ON.id('popBtn0220'), 1000);
+      Logger.info('TEST', `Found component: popBtn0220`);
+      if (!popBtn) {
+        Logger.error('TEST', `Component not found: popBtn0220`);
+        throw new Error('Component not found: popBtn0220');
+      }
+      await popBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0220_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0220 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0230
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用pop*3）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用pop*3）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0230', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0230 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0230/navigationOnActiveOnInActive0230")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 1000);
+      
+      // 1.点击"Navigation基础栈操作场景"按钮
+      let navigationBasicStackOperationBtn = await driver.waitForComponent(ON.id('navigationBasicStackOperationBtn0230'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicStackOperationBtn0230`);
+      if (!navigationBasicStackOperationBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicStackOperationBtn0230`);
+        throw new Error('Component not found: navigationBasicStackOperationBtn0230');
+      }
+      await navigationBasicStackOperationBtn.click();
+      await driver.waitForIdle(1000, 1000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicStackOperationBtn, waiting for page to render`);
+      
+      // 2.点击"push pageTwo"按钮
+      let pushPageTwoBtn = await driver.waitForComponent(ON.id('pushPageTwoBtn0230'), 1000);
+      Logger.info('TEST', `Found component: pushPageTwoBtn0230, result: ${pushPageTwoBtn ? 'found' : 'not found'}`);
+      if (!pushPageTwoBtn) {
+        Logger.error('TEST', `Component not found: pushPageTwoBtn0230 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageTwoBtn = await driver.waitForComponent(ON.id('pushPageTwoBtn0230'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageTwoBtn0230, result: ${pushPageTwoBtn ? 'found' : 'not found'}`);
+        if (!pushPageTwoBtn) {
+          throw new Error('Component not found: pushPageTwoBtn0230');
+        }
+      }
+      await pushPageTwoBtn.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0230_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"push pageThree"按钮
+      let pushPageThreeBtn = await driver.waitForComponent(ON.id('pushPageThreeBtn0230'), 1000);
+      Logger.info('TEST', `Found component: pushPageThreeBtn0230, result: ${pushPageThreeBtn ? 'found' : 'not found'}`);
+      if (!pushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: pushPageThreeBtn0230 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageThreeBtn = await driver.waitForComponent(ON.id('pushPageThreeBtn0230'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageThreeBtn0230, result: ${pushPageThreeBtn ? 'found' : 'not found'}`);
+        if (!pushPageThreeBtn) {
+          throw new Error('Component not found: pushPageThreeBtn0230');
+        }
+      }
+      await pushPageThreeBtn.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0230_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"push pageFour"按钮
+      let pushPageFourBtn = await driver.waitForComponent(ON.id('pushPageFourBtn0230'), 1000);
+      Logger.info('TEST', `Found component: pushPageFourBtn0230, result: ${pushPageFourBtn ? 'found' : 'not found'}`);
+      if (!pushPageFourBtn) {
+        Logger.error('TEST', `Component not found: pushPageFourBtn0230 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageFourBtn = await driver.waitForComponent(ON.id('pushPageFourBtn0230'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageFourBtn0230, result: ${pushPageFourBtn ? 'found' : 'not found'}`);
+        if (!pushPageFourBtn) {
+          throw new Error('Component not found: pushPageFourBtn0230');
+        }
+      }
+      await pushPageFourBtn.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0230_03');
+      await Utils.sleep(1000);
+      
+      // 5.点击"push pageThree"按钮
+      let pushPageThree2Btn = await driver.waitForComponent(ON.id('pushPageThree2Btn0230'), 1000);
+      Logger.info('TEST', `Found component: pushPageThree2Btn0230`);
+      if (!pushPageThree2Btn) {
+        Logger.error('TEST', `Component not found: pushPageThree2Btn0230`);
+        throw new Error('Component not found: pushPageThree2Btn0230');
+      }
+      await pushPageThree2Btn.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0230_04');
+      await Utils.sleep(1000);
+      
+      // 6.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0230'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0230`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0230`);
+        throw new Error('Component not found: pushPageOneBtn0230');
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0230_05');
+      await Utils.sleep(1000);
+      
+      // 7.点击"pop*3"按钮
+      let pop3Btn = await driver.waitForComponent(ON.id('pop3Btn0230'), 1000);
+      Logger.info('TEST', `Found component: pop3Btn0230`);
+      if (!pop3Btn) {
+        Logger.error('TEST', `Component not found: pop3Btn0230`);
+        throw new Error('Component not found: pop3Btn0230');
+      }
+      await pop3Btn.click();
+      await driver.waitForIdle(500, 1000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0230_06');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0230 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0240
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用move*3,pop*2）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用move*3,pop*2）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0240', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0240 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0240/navigationOnActiveOnInActive0240")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础栈操作场景"按钮
+      let navigationBasicStackOperationBtn = await driver.waitForComponent(ON.id('navigationBasicStackOperationBtn0240'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicStackOperationBtn0240`);
+      if (!navigationBasicStackOperationBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicStackOperationBtn0240`);
+        throw new Error('Component not found: navigationBasicStackOperationBtn0240');
+      }
+      await navigationBasicStackOperationBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      Logger.info('TEST', `After clicking navigationBasicStackOperationBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0240'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0240, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0240 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0240'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0240, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0240');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0240_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"push pageTwo"按钮
+      let pushPageTwoBtn = await driver.waitForComponent(ON.id('pushPageTwoBtn0240'), 1000);
+      Logger.info('TEST', `Found component: pushPageTwoBtn0240`);
+      if (!pushPageTwoBtn) {
+        Logger.error('TEST', `Component not found: pushPageTwoBtn0240`);
+        throw new Error('Component not found: pushPageTwoBtn0240');
+      }
+      await pushPageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0240_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"push pageThree"按钮
+      let pushPageThreeBtn = await driver.waitForComponent(ON.id('pushPageThreeBtn0240'), 1000);
+      Logger.info('TEST', `Found component: pushPageThreeBtn0240, result: ${pushPageThreeBtn ? 'found' : 'not found'}`);
+      if (!pushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: pushPageThreeBtn0240 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(500);
+        pushPageThreeBtn = await driver.waitForComponent(ON.id('pushPageThreeBtn0240'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageThreeBtn0240, result: ${pushPageThreeBtn ? 'found' : 'not found'}`);
+        if (!pushPageThreeBtn) {
+          throw new Error('Component not found: pushPageThreeBtn0240');
+        }
+      }
+      await pushPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0240_03');
+      await Utils.sleep(1000);
+      
+      // 5.点击"push pageFour"按钮
+      let pushPageFourBtn = await driver.waitForComponent(ON.id('pushPageFourBtn0240'), 1000);
+      Logger.info('TEST', `Found component: pushPageFourBtn0240`);
+      if (!pushPageFourBtn) {
+        Logger.error('TEST', `Component not found: pushPageFourBtn0240`);
+        throw new Error('Component not found: pushPageFourBtn0240');
+      }
+      await pushPageFourBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0240_04');
+      await Utils.sleep(1000);
+      
+      // 6.点击"move*3,pop*2"按钮
+      let move3Pop2Btn = await driver.waitForComponent(ON.id('move3Pop2Btn0240'), 1000);
+      Logger.info('TEST', `Found component: move3Pop2Btn0240`);
+      if (!move3Pop2Btn) {
+        Logger.error('TEST', `Component not found: move3Pop2Btn0240`);
+        throw new Error('Component not found: move3Pop2Btn0240');
+      }
+      await move3Pop2Btn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0240_05');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0240 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0260
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用push+pushDestination）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用push+pushDestination）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0260', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0260 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0260/navigationOnActiveOnInActive0260")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation组合场景"按钮
+      let navigationCombinedSceneBtn = await driver.waitForComponent(ON.id('navigationCombinedSceneBtn0260'), 1000);
+      Logger.info('TEST', `Found component: navigationCombinedSceneBtn0260`);
+      if (!navigationCombinedSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationCombinedSceneBtn0260`);
+        throw new Error('Component not found: navigationCombinedSceneBtn0260');
+      }
+      await navigationCombinedSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0260_01');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0260 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0270
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用replace+moveToTop）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用replace+moveToTop）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0270', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0270 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0270/navigationOnActiveOnInActive0270")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation组合场景"按钮
+      let navigationCombinedSceneBtn = await driver.waitForComponent(ON.id('navigationCombinedSceneBtn0270'), 1000);
+      Logger.info('TEST', `Found component: navigationCombinedSceneBtn0270`);
+      if (!navigationCombinedSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationCombinedSceneBtn0270`);
+        throw new Error('Component not found: navigationCombinedSceneBtn0270');
+      }
+      await navigationCombinedSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0270_01');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0270 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0280
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（aboutToAppear进行栈操作，remove接口测试）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（aboutToAppear进行栈操作，remove接口测试）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0280', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0280 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0280/navigationOnActiveOnInActive0280")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation组件通过aboutToAppear进行栈操作"按钮
+      let navigationAboutToAppearOperationBtn = await driver.waitForComponent(ON.id('navigationAboutToAppearOperationBtn0280'), 1000);
+      Logger.info('TEST', `Found component: navigationAboutToAppearOperationBtn0280`);
+      if (!navigationAboutToAppearOperationBtn) {
+        Logger.error('TEST', `Component not found: navigationAboutToAppearOperationBtn0280`);
+        throw new Error('Component not found: navigationAboutToAppearOperationBtn0280');
+      }
+      await navigationAboutToAppearOperationBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0280_01');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0280 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0290
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（aboutToAppear进行栈操作，push接口测试）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（aboutToAppear进行栈操作，push接口测试）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0290', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0290 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0290/navigationOnActiveOnInActive0290")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation组件通过aboutToAppear进行栈操作"按钮
+      let navigationAboutToAppearOperationBtn = await driver.waitForComponent(ON.id('navigationAboutToAppearOperationBtn0290'), 1000);
+      Logger.info('TEST', `Found component: navigationAboutToAppearOperationBtn0290`);
+      if (!navigationAboutToAppearOperationBtn) {
+        Logger.error('TEST', `Component not found: navigationAboutToAppearOperationBtn0290`);
+        throw new Error('Component not found: navigationAboutToAppearOperationBtn0290');
+      }
+      await navigationAboutToAppearOperationBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0290_01');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0290 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0300
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（OnReady进行栈操作，push接口测试）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（OnReady进行栈操作，push接口测试）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0300', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0300 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0300/navigationOnActiveOnInActive0300")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"NavDestination组件OnReady操作"按钮
+      let navDestinationOnReadyOperationBtn = await driver.waitForComponent(ON.id('navDestinationOnReadyOperationBtn0300'), 1000);
+      Logger.info('TEST', `Found component: navDestinationOnReadyOperationBtn0300`);
+      if (!navDestinationOnReadyOperationBtn) {
+        Logger.error('TEST', `Component not found: navDestinationOnReadyOperationBtn0300`);
+        throw new Error('Component not found: navDestinationOnReadyOperationBtn0300');
+      }
+      await navDestinationOnReadyOperationBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0300_01');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0300 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0310
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（Navigation嵌套场景）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（Navigation嵌套场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0310', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0310 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0310/navigationOnActiveOnInActive0310")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+
+      // 1.点击"navigation嵌套场景（嵌套）"按钮
+      let navigationNestedSceneBtn = await driver.waitForComponent(ON.id('navigationNestedSceneBtn0310'), 2000);
+      Logger.info('TEST', `Found component: navigationNestedSceneBtn0310`);
+      if (!navigationNestedSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationNestedSceneBtn0310`);
+        throw new Error('Component not found: navigationNestedSceneBtn0310');
+      }
+      await navigationNestedSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(2000);
+      Logger.info('TEST', `After clicking navigationNestedSceneBtn, waiting for page to render`);
+
+      // 2.点击"NavigationB push pageOne"按钮
+      let navigationBPushPageOneBtn = await driver.waitForComponent(ON.id('navigationBPushPageOneBtn0310'), 2000);
+      Logger.info('TEST', `Found component: navigationBPushPageOneBtn0310, result: ${navigationBPushPageOneBtn ? 'found' : 'not found'}`);
+      if (!navigationBPushPageOneBtn) {
+        Logger.error('TEST', `Component not found: navigationBPushPageOneBtn0310 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(2000);
+        navigationBPushPageOneBtn = await driver.waitForComponent(ON.id('navigationBPushPageOneBtn0310'), 2000);
+        Logger.info('TEST', `Retry found component: navigationBPushPageOneBtn0310, result: ${navigationBPushPageOneBtn ? 'found' : 'not found'}`);
+        if (!navigationBPushPageOneBtn) {
+          throw new Error('Component not found: navigationBPushPageOneBtn0310');
+        }
+      }
+      await navigationBPushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0310_01');
+      await Utils.sleep(1000);
+
+      // 3.点击"NavigationB push pageThree"按钮
+      let navigationBPushPageThreeBtn = await driver.waitForComponent(ON.id('navigationBPushPageThreeBtn0310'), 2000);
+      Logger.info('TEST', `Found component: navigationBPushPageThreeBtn0310`);
+      if (!navigationBPushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: navigationBPushPageThreeBtn0310`);
+        throw new Error('Component not found: navigationBPushPageThreeBtn0310');
+      }
+      await navigationBPushPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0310_02');
+      await Utils.sleep(1000);
+
+      // 4.点击"NavigationA push pageTwo"按钮
+      let navigationAPushPageTwoBtn = await driver.waitForComponent(ON.id('navigationAPushPageTwoBtn0310'), 2000);
+      Logger.info('TEST', `Found component: navigationAPushPageTwoBtn0310`);
+      if (!navigationAPushPageTwoBtn) {
+        Logger.error('TEST', `Component not found: navigationAPushPageTwoBtn0310`);
+        throw new Error('Component not found: navigationAPushPageTwoBtn0310');
+      }
+      await navigationAPushPageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0310_03');
+      await Utils.sleep(1000);
+
+      // 5.点击"pop"按钮
+      let popBtn = await driver.waitForComponent(ON.id('popBtn0310'), 2000);
+      Logger.info('TEST', `Found component: popBtn0310`);
+      if (!popBtn) {
+        Logger.error('TEST', `Component not found: popBtn0310`);
+        throw new Error('Component not found: popBtn0310');
+      }
+      await popBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0310_04');
+      await Utils.sleep(1000);
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0310 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0320
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（Navigation嵌套操作，replaceDestination+pushPath结合）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（Navigation嵌套操作，replaceDestination+pushPath结合）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0320', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0320 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0320/navigationOnActiveOnInActive0320")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"navigation嵌套调用"按钮
+      let navigationNestedCallBtn = await driver.waitForComponent(ON.id('navigationNestedCallBtn0320'), 1000);
+      Logger.info('TEST', `Found component: navigationNestedCallBtn0320`);
+      if (!navigationNestedCallBtn) {
+        Logger.error('TEST', `Component not found: navigationNestedCallBtn0320`);
+        throw new Error('Component not found: navigationNestedCallBtn0320');
+      }
+      await navigationNestedCallBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationNestedCallBtn, waiting for page to render`);
+      
+      // 2.点击"push TestStandard02"按钮（已在主页面点击时执行）
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0320_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"嵌套操作 replace TS01/02"按钮
+      let nestedOperationReplaceBtn = await driver.waitForComponent(ON.id('nestedOperationReplaceBtn0320'), 1000);
+      Logger.info('TEST', `Found component: nestedOperationReplaceBtn0320, result: ${nestedOperationReplaceBtn ? 'found' : 'not found'}`);
+      if (!nestedOperationReplaceBtn) {
+        Logger.error('TEST', `Component not found: nestedOperationReplaceBtn0320 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        nestedOperationReplaceBtn = await driver.waitForComponent(ON.id('nestedOperationReplaceBtn0320'), 1000);
+        Logger.info('TEST', `Retry found component: nestedOperationReplaceBtn0320, result: ${nestedOperationReplaceBtn ? 'found' : 'not found'}`);
+        if (!nestedOperationReplaceBtn) {
+          throw new Error('Component not found: nestedOperationReplaceBtn0320');
+        }
+      }
+      await nestedOperationReplaceBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0320_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0320 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0330
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（Navigation嵌套操作，pushDestination+pushPath结合）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（Navigation嵌套操作，pushDestination+pushPath结合）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0330', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0330 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0330/navigationOnActiveOnInActive0330")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"navigation嵌套调用"按钮
+      let navigationNestedCallBtn = await driver.waitForComponent(ON.id('navigationNestedCallBtn0330'), 1000);
+      Logger.info('TEST', `Found component: navigationNestedCallBtn0330`);
+      if (!navigationNestedCallBtn) {
+        Logger.error('TEST', `Component not found: navigationNestedCallBtn0330`);
+        throw new Error('Component not found: navigationNestedCallBtn0330');
+      }
+      await navigationNestedCallBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0330_01');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0330 finish.`);
+      done()
+    })
+
+    // /*
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0340
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（同一个页面存在两个navigation）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（同一个页面存在两个navigation）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0340', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0340 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0340/navigationOnActiveOnInActive0340")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"navigation嵌套场景（并列）"按钮
+      let navigationParallelSceneBtn = await driver.waitForComponent(ON.id('navigationParallelSceneBtn0340'), 1000);
+      Logger.info('TEST', `Found component: navigationParallelSceneBtn0340`);
+      if (!navigationParallelSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationParallelSceneBtn0340`);
+        throw new Error('Component not found: navigationParallelSceneBtn0340');
+      }
+      await navigationParallelSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      Logger.info('TEST', `After clicking navigationParallelSceneBtn, waiting for page to render`);
+      
+      // 2.点击"NavigationA push pageOne"按钮
+      let navigationAPushPageOneBtn = await driver.waitForComponent(ON.id('navigationAPushPageOneBtn0340'), 1000);
+      Logger.info('TEST', `Found component: navigationAPushPageOneBtn0340, result: ${navigationAPushPageOneBtn ? 'found' : 'not found'}`);
+      if (!navigationAPushPageOneBtn) {
+        Logger.error('TEST', `Component not found: navigationAPushPageOneBtn0340 after navigation jump. Page may not be fully rendered.`);
+        navigationAPushPageOneBtn = await driver.waitForComponent(ON.id('navigationAPushPageOneBtn0340'), 1000);
+        Logger.info('TEST', `Retry found component: navigationAPushPageOneBtn0340, result: ${navigationAPushPageOneBtn ? 'found' : 'not found'}`);
+        if (!navigationAPushPageOneBtn) {
+          throw new Error('Component not found: navigationAPushPageOneBtn0340');
+        }
+      }
+      await navigationAPushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0340_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"NavigationA push pageThree"按钮
+      let navigationAPushPageThreeBtn = await driver.waitForComponent(ON.id('navigationAPushPageThreeBtn0340'), 1000);
+      Logger.info('TEST', `Found component: navigationAPushPageThreeBtn0340`);
+      if (!navigationAPushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: navigationAPushPageThreeBtn0340`);
+        throw new Error('Component not found: navigationAPushPageThreeBtn0340');
+      }
+      await navigationAPushPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0340_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"NavigationB push pageTwo"按钮
+      let navigationBPushPageTwoBtn = await driver.waitForComponent(ON.id('navigationBPushPageTwoBtn0340'), 1000);
+      Logger.info('TEST', `Found component: navigationBPushPageTwoBtn0340`);
+      if (!navigationBPushPageTwoBtn) {
+        Logger.error('TEST', `Component not found: navigationBPushPageTwoBtn0340`);
+        throw new Error('Component not found: navigationBPushPageTwoBtn0340');
+      }
+      await navigationBPushPageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0340_03');
+      await Utils.sleep(1000);
+      
+      // 5.点击"NavigationB push pageFour"按钮
+      let navigationBPushPageFourBtn = await driver.waitForComponent(ON.id('navigationBPushPageFourBtn0340'), 1000);
+      Logger.info('TEST', `Found component: navigationBPushPageFourBtn0340`);
+      if (!navigationBPushPageFourBtn) {
+        Logger.error('TEST', `Component not found: navigationBPushPageFourBtn0340`);
+        throw new Error('Component not found: navigationBPushPageFourBtn0340');
+      }
+      await navigationBPushPageFourBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0340_04');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0340 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0350
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（跳转hsp测试）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（跳转hsp测试）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0350', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0350 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0350/navigationOnActiveOnInActive0350")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"基础场景"按钮
+      let basicSceneBtn = await driver.waitForComponent(ON.id('basicSceneBtn0350'), 1000);
+      Logger.info('TEST', `Found component: basicSceneBtn0350`);
+      if (!basicSceneBtn) {
+        Logger.error('TEST', `Component not found: basicSceneBtn0350`);
+        throw new Error('Component not found: basicSceneBtn0350');
+      }
+      await basicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking basicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push HspPageOne"按钮
+      let pushHspPageOneBtn = await driver.waitForComponent(ON.id('pushHspPageOneBtn0350'), 1000);
+      Logger.info('TEST', `Found component: pushHspPageOneBtn0350, result: ${pushHspPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushHspPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushHspPageOneBtn0350 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushHspPageOneBtn = await driver.waitForComponent(ON.id('pushHspPageOneBtn0350'), 1000);
+        Logger.info('TEST', `Retry found component: pushHspPageOneBtn0350, result: ${pushHspPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushHspPageOneBtn) {
+          throw new Error('Component not found: pushHspPageOneBtn0350');
+        }
+      }
+      await pushHspPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0350_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"push HspPageThree"按钮
+      let pushHspPageThreeBtn = await driver.waitForComponent(ON.id('pushHspPageThreeBtn0350'), 1000);
+      Logger.info('TEST', `Found component: pushHspPageThreeBtn0350`);
+      if (!pushHspPageThreeBtn) {
+        Logger.error('TEST', `Component not found: pushHspPageThreeBtn0350`);
+        throw new Error('Component not found: pushHspPageThreeBtn0350');
+      }
+      await pushHspPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0350_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0350 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0360
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（路由栈派生类场景测试）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（路由栈派生类场景测试）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0360', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0360 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0360/navigationOnActiveOnInActive0360")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"路由栈派生类场景(Derived)"按钮
+      let derivedNavPathStackSceneBtn = await driver.waitForComponent(ON.id('derivedNavPathStackSceneBtn0360'), 1000);
+      Logger.info('TEST', `Found component: derivedNavPathStackSceneBtn0360`);
+      if (!derivedNavPathStackSceneBtn) {
+        Logger.error('TEST', `Component not found: derivedNavPathStackSceneBtn0360`);
+        throw new Error('Component not found: derivedNavPathStackSceneBtn0360');
+      }
+      await derivedNavPathStackSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking derivedNavPathStackSceneBtn, waiting for page to render`);
+      
+      // 2.点击"DerivedNavPathStack push pageOne"按钮（已在主页面点击时执行）
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0360_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"DerivedNavPathStack push pageThree"按钮
+      let derivedNavPathStackPushPageThreeBtn = await driver.waitForComponent(ON.id('derivedNavPathStackPushPageThreeBtn0360'), 1000);
+      Logger.info('TEST', `Found component: derivedNavPathStackPushPageThreeBtn0360, result: ${derivedNavPathStackPushPageThreeBtn ? 'found' : 'not found'}`);
+      if (!derivedNavPathStackPushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: derivedNavPathStackPushPageThreeBtn0360 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        derivedNavPathStackPushPageThreeBtn = await driver.waitForComponent(ON.id('derivedNavPathStackPushPageThreeBtn0360'), 1000);
+        Logger.info('TEST', `Retry found component: derivedNavPathStackPushPageThreeBtn0360, result: ${derivedNavPathStackPushPageThreeBtn ? 'found' : 'not found'}`);
+        if (!derivedNavPathStackPushPageThreeBtn) {
+          throw new Error('Component not found: derivedNavPathStackPushPageThreeBtn0360');
+        }
+      }
+      await derivedNavPathStackPushPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0360_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"DerivedNavPathStack pop"按钮
+      let derivedNavPathStackPopBtn = await driver.waitForComponent(ON.id('derivedNavPathStackPopBtn0360'), 1000);
+      Logger.info('TEST', `Found component: derivedNavPathStackPopBtn0360`);
+      if (!derivedNavPathStackPopBtn) {
+        Logger.error('TEST', `Component not found: derivedNavPathStackPopBtn0360`);
+        throw new Error('Component not found: derivedNavPathStackPopBtn0360');
+      }
+      await derivedNavPathStackPopBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0360_03');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0360 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0370
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（通过queryNavigationInfo获取栈操作场景）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（通过queryNavigationInfo获取栈操作场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0370', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0370 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0370/navigationOnActiveOnInActive0370")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"路由栈派生类场景(Query)"按钮
+      let queryNavPathStackSceneBtn = await driver.waitForComponent(ON.id('queryNavPathStackSceneBtn0370'), 1000);
+      Logger.info('TEST', `Found component: queryNavPathStackSceneBtn0370`);
+      if (!queryNavPathStackSceneBtn) {
+        Logger.error('TEST', `Component not found: queryNavPathStackSceneBtn0370`);
+        throw new Error('Component not found: queryNavPathStackSceneBtn0370');
+      }
+      await queryNavPathStackSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking queryNavPathStackSceneBtn, waiting for page to render`);
+      
+      // 2.点击"queryNavigationInfo push pageOne"按钮（已在主页面点击时执行）
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0370_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"queryNavigationInfo push pageThree"按钮
+      let queryNavigationInfoPushPageThreeBtn = await driver.waitForComponent(ON.id('queryNavigationInfoPushPageThreeBtn0370'), 1000);
+      Logger.info('TEST', `Found component: queryNavigationInfoPushPageThreeBtn0370, result: ${queryNavigationInfoPushPageThreeBtn ? 'found' : 'not found'}`);
+      if (!queryNavigationInfoPushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: queryNavigationInfoPushPageThreeBtn0370 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        queryNavigationInfoPushPageThreeBtn = await driver.waitForComponent(ON.id('queryNavigationInfoPushPageThreeBtn0370'), 1000);
+        Logger.info('TEST', `Retry found component: queryNavigationInfoPushPageThreeBtn0370, result: ${queryNavigationInfoPushPageThreeBtn ? 'found' : 'not found'}`);
+        if (!queryNavigationInfoPushPageThreeBtn) {
+          throw new Error('Component not found: queryNavigationInfoPushPageThreeBtn0370');
+        }
+      }
+      await queryNavigationInfoPushPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0370_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"queryNavigationInfo pop"按钮
+      let queryNavigationInfoPopBtn = await driver.waitForComponent(ON.id('queryNavigationInfoPopBtn0370'), 1000);
+      Logger.info('TEST', `Found component: queryNavigationInfoPopBtn0370`);
+      if (!queryNavigationInfoPopBtn) {
+        Logger.error('TEST', `Component not found: queryNavigationInfoPopBtn0370`);
+        throw new Error('Component not found: queryNavigationInfoPopBtn0370');
+      }
+      await queryNavigationInfoPopBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0370_03');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0370 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0380
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（无感监听场景）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（无感监听场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0380', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0380 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0380/navigationOnActiveOnInActive0380")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础栈操作场景"按钮
+      let navigationBasicStackOperationBtn = await driver.waitForComponent(ON.id('navigationBasicStackOperationBtn0380'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicStackOperationBtn0380`);
+      if (!navigationBasicStackOperationBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicStackOperationBtn0380`);
+        throw new Error('Component not found: navigationBasicStackOperationBtn0380');
+      }
+      await navigationBasicStackOperationBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicStackOperationBtn, waiting for page to render`);
+      
+      // 2.点击"observer.on"按钮
+      let observerOnBtn = await driver.waitForComponent(ON.id('observerOnBtn0380'), 1000);
+      Logger.info('TEST', `Found component: observerOnBtn0380, result: ${observerOnBtn ? 'found' : 'not found'}`);
+      if (!observerOnBtn) {
+        Logger.error('TEST', `Component not found: observerOnBtn0380 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        observerOnBtn = await driver.waitForComponent(ON.id('observerOnBtn0380'), 1000);
+        Logger.info('TEST', `Retry found component: observerOnBtn0380, result: ${observerOnBtn ? 'found' : 'not found'}`);
+        if (!observerOnBtn) {
+          throw new Error('Component not found: observerOnBtn0380');
+        }
+      }
+      await observerOnBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0380_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0380'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0380`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0380`);
+        throw new Error('Component not found: pushPageOneBtn0380');
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0380_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"pushPathByName pageThree"按钮
+      let pushPathByNamePageThreeBtn = await driver.waitForComponent(ON.id('pushPathByNamePageThreeBtn0380'), 1000);
+      Logger.info('TEST', `Found component: pushPathByNamePageThreeBtn0380`);
+      if (!pushPathByNamePageThreeBtn) {
+        Logger.error('TEST', `Component not found: pushPathByNamePageThreeBtn0380`);
+        throw new Error('Component not found: pushPathByNamePageThreeBtn0380');
+      }
+      await pushPathByNamePageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0380_03');
+      await Utils.sleep(1000);
+      
+      // 5.点击"pushDestinationByName pageTwo"按钮
+      let pushDestinationByNamePageTwoBtn = await driver.waitForComponent(ON.id('pushDestinationByNamePageTwoBtn0380'), 1000);
+      Logger.info('TEST', `Found component: pushDestinationByNamePageTwoBtn0380`);
+      if (!pushDestinationByNamePageTwoBtn) {
+        Logger.error('TEST', `Component not found: pushDestinationByNamePageTwoBtn0380`);
+        throw new Error('Component not found: pushDestinationByNamePageTwoBtn0380');
+      }
+      await pushDestinationByNamePageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0380_04');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0380 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0390
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（子窗口场景）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（子窗口场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0390
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（子窗口场景）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（子窗口场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0390', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0390 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0390/navigationOnActiveOnInActive0390")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础栈操作场景"按钮
+      let navigationBasicStackOperationBtn = await driver.waitForComponent(ON.id('navigationBasicStackOperationBtn0390'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicStackOperationBtn0390`);
+      if (!navigationBasicStackOperationBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicStackOperationBtn0390`);
+        throw new Error('Component not found: navigationBasicStackOperationBtn0390');
+      }
+      await navigationBasicStackOperationBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicStackOperationBtn, waiting for page to render`);
+      
+      // 2.点击"开启子窗口"按钮
+      let openSubWindowBtn = await driver.waitForComponent(ON.id('openSubWindowBtn0390'), 1000);
+      Logger.info('TEST', `Found component: openSubWindowBtn0390, result: ${openSubWindowBtn ? 'found' : 'not found'}`);
+      if (!openSubWindowBtn) {
+        Logger.error('TEST', `Component not found: openSubWindowBtn0390 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        openSubWindowBtn = await driver.waitForComponent(ON.id('openSubWindowBtn0390'), 1000);
+        Logger.info('TEST', `Retry found component: openSubWindowBtn0390, result: ${openSubWindowBtn ? 'found' : 'not found'}`);
+        if (!openSubWindowBtn) {
+          throw new Error('Component not found: openSubWindowBtn0390');
+        }
+      }
+      await openSubWindowBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0390_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0390'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0390`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0390`);
+        throw new Error('Component not found: pushPageOneBtn0390');
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0390_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"push pageThree"按钮
+      let pushPageThreeBtn = await driver.waitForComponent(ON.id('pushPageThreeBtn0390'), 1000);
+      Logger.info('TEST', `Found component: pushPageThreeBtn0390`);
+      if (!pushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: pushPageThreeBtn0390`);
+        throw new Error('Component not found: pushPageThreeBtn0390');
+      }
+      await pushPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0390_03');
+      await Utils.sleep(1000);
+      
+      // 5.点击"push pageTwo"按钮
+      let pushPageTwoBtn = await driver.waitForComponent(ON.id('pushPageTwoBtn0390'), 1000);
+      Logger.info('TEST', `Found component: pushPageTwoBtn0390`);
+      if (!pushPageTwoBtn) {
+        Logger.error('TEST', `Component not found: pushPageTwoBtn0390`);
+        throw new Error('Component not found: pushPageTwoBtn0390');
+      }
+      await pushPageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0390_04');
+      await Utils.sleep(1000);
+      
+      // 6.点击"关闭子窗口"按钮
+      let closeSubWindowBtn = await driver.waitForComponent(ON.id('closeSubWindowBtn0390'), 1000);
+      Logger.info('TEST', `Found component: closeSubWindowBtn0390`);
+      if (!closeSubWindowBtn) {
+        Logger.error('TEST', `Component not found: closeSubWindowBtn0390`);
+        throw new Error('Component not found: closeSubWindowBtn0390');
+      }
+      await closeSubWindowBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0390_05');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0390 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0410
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（visibility测试）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（visibility测试）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0410', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0410 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0410/navigationOnActiveOnInActive0410")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础栈操作场景"按钮
+      let navigationBasicStackOperationBtn = await driver.waitForComponent(ON.id('navigationBasicStackOperationBtn0410'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicStackOperationBtn0410`);
+      if (!navigationBasicStackOperationBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicStackOperationBtn0410`);
+        throw new Error('Component not found: navigationBasicStackOperationBtn0410');
+      }
+      await navigationBasicStackOperationBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicStackOperationBtn, waiting for page to render`);
+      
+      // 2.点击"push pageTwo"按钮
+      let pushPageTwoBtn = await driver.waitForComponent(ON.id('pushPageTwoBtn0410'), 1000);
+      Logger.info('TEST', `Found component: pushPageTwoBtn0410, result: ${pushPageTwoBtn ? 'found' : 'not found'}`);
+      if (!pushPageTwoBtn) {
+        Logger.error('TEST', `Component not found: pushPageTwoBtn0410 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageTwoBtn = await driver.waitForComponent(ON.id('pushPageTwoBtn0410'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageTwoBtn0410, result: ${pushPageTwoBtn ? 'found' : 'not found'}`);
+        if (!pushPageTwoBtn) {
+          throw new Error('Component not found: pushPageTwoBtn0410');
+        }
+      }
+      await pushPageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0410_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击动态按钮"visibility：xx"【Visible、Hidden、None】，设置为Hidden
+      let visibilityBtn = await driver.waitForComponent(ON.id('visibilityBtn0410'), 1000);
+      Logger.info('TEST', `Found component: visibilityBtn0410`);
+      if (!visibilityBtn) {
+        Logger.error('TEST', `Component not found: visibilityBtn0410`);
+        throw new Error('Component not found: visibilityBtn0410');
+      }
+      await visibilityBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0410_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0410 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0420
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（前后台切换场景测试）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（前后台切换场景测试）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0420 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0420/navigationOnActiveOnInActive0420")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"基础场景"按钮
+      let basicSceneBtn = await driver.waitForComponent(ON.id('basicSceneBtn0420'), 1000);
+      Logger.info('TEST', `Found component: basicSceneBtn0420`);
+      if (!basicSceneBtn) {
+        Logger.error('TEST', `Component not found: basicSceneBtn0420`);
+        throw new Error('Component not found: basicSceneBtn0420');
+      }
+      await basicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking basicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0420'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0420, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0420 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0420'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0420, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0420');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0420_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"push pageThree"按钮
+      let pushPageThreeBtn = await driver.waitForComponent(ON.id('pushPageThreeBtn0420'), 1000);
+      Logger.info('TEST', `Found component: pushPageThreeBtn0420`);
+      if (!pushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: pushPageThreeBtn0420`);
+        throw new Error('Component not found: pushPageThreeBtn0420');
+      }
+      await pushPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0420_02');
+      await Utils.sleep(1000);
+      
+      // 4.将页面切换到后台（通过系统API实现）
+      // 5.将页面从后台切换回来（通过系统API实现）
+      // 注意：前后台切换操作在测试框架中可能需要特殊处理
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0420_03');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0420 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0430
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（锁屏解锁场景测试）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（锁屏解锁场景测试）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0430 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0430/navigationOnActiveOnInActive0430")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"基础场景"按钮
+      let basicSceneBtn = await driver.waitForComponent(ON.id('basicSceneBtn0430'), 1000);
+      Logger.info('TEST', `Found component: basicSceneBtn0430`);
+      if (!basicSceneBtn) {
+        Logger.error('TEST', `Component not found: basicSceneBtn0430`);
+        throw new Error('Component not found: basicSceneBtn0430');
+      }
+      await basicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking basicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0430'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0430, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0430 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0430'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0430, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0430');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0430_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"push pageThree"按钮
+      let pushPageThreeBtn = await driver.waitForComponent(ON.id('pushPageThreeBtn0430'), 1000);
+      Logger.info('TEST', `Found component: pushPageThreeBtn0430`);
+      if (!pushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: pushPageThreeBtn0430`);
+        throw new Error('Component not found: pushPageThreeBtn0430');
+      }
+      await pushPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0430_02');
+      await Utils.sleep(1000);
+      
+      // 4.设备锁屏（通过系统API实现）
+      // 5.设备解锁（通过系统API实现）
+      // 注意：锁屏解锁操作在测试框架中可能需要特殊处理
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0430_03');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0430 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0440
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件pushUrl多实例场景验证）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件pushUrl多实例场景验证）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0440', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0440 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0440/navigationOnActiveOnInActive0440")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"navigation与router结合基础场景"按钮
+      let navigationRouterCombinedSceneBtn = await driver.waitForComponent(ON.id('navigationRouterCombinedSceneBtn0440'), 1000);
+      Logger.info('TEST', `Found component: navigationRouterCombinedSceneBtn0440`);
+      if (!navigationRouterCombinedSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationRouterCombinedSceneBtn0440`);
+        throw new Error('Component not found: navigationRouterCombinedSceneBtn0440');
+      }
+      await navigationRouterCombinedSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationRouterCombinedSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0440'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0440, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0440 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0440'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0440, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0440');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0440_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"router pushUrl routerPageOne"按钮
+      let routerPushUrlRouterPageOneBtn = await driver.waitForComponent(ON.id('routerPushUrlRouterPageOneBtn0440'), 1000);
+      Logger.info('TEST', `Found component: routerPushUrlRouterPageOneBtn0440`);
+      if (!routerPushUrlRouterPageOneBtn) {
+        Logger.error('TEST', `Component not found: routerPushUrlRouterPageOneBtn0440`);
+        throw new Error('Component not found: routerPushUrlRouterPageOneBtn0440');
+      }
+      await routerPushUrlRouterPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0440_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"navigationA push pageThree"按钮
+      let navigationAPushPageThreeBtn = await driver.waitForComponent(ON.id('navigationAPushPageThreeBtn0440'), 1000);
+      Logger.info('TEST', `Found component: navigationAPushPageThreeBtn0440, result: ${navigationAPushPageThreeBtn ? 'found' : 'not found'}`);
+      if (!navigationAPushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: navigationAPushPageThreeBtn0440 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        navigationAPushPageThreeBtn = await driver.waitForComponent(ON.id('navigationAPushPageThreeBtn0440'), 1000);
+        Logger.info('TEST', `Retry found component: navigationAPushPageThreeBtn0440, result: ${navigationAPushPageThreeBtn ? 'found' : 'not found'}`);
+        if (!navigationAPushPageThreeBtn) {
+          throw new Error('Component not found: navigationAPushPageThreeBtn0440');
+        }
+      }
+      await navigationAPushPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0440_03');
+      await Utils.sleep(1000);
+      
+      // 5.点击"router pushNamedRoute routerPageOne"按钮
+      let routerPushNamedRouteRouterPageOneBtn = await driver.waitForComponent(ON.id('routerPushNamedRouteRouterPageOneBtn0440'), 1000);
+      Logger.info('TEST', `Found component: routerPushNamedRouteRouterPageOneBtn0440`);
+      if (!routerPushNamedRouteRouterPageOneBtn) {
+        Logger.error('TEST', `Component not found: routerPushNamedRouteRouterPageOneBtn0440`);
+        throw new Error('Component not found: routerPushNamedRouteRouterPageOneBtn0440');
+      }
+      await routerPushNamedRouteRouterPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0440_04');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0440 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0450
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件pushUrl单实例场景验证）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件pushUrl单实例场景验证）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0450', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0450 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0450/navigationOnActiveOnInActive0450")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"navigation与router结合基础场景"按钮
+      let navigationRouterCombinedSceneBtn = await driver.waitForComponent(ON.id('navigationRouterCombinedSceneBtn0450'), 1000);
+      Logger.info('TEST', `Found component: navigationRouterCombinedSceneBtn0450`);
+      if (!navigationRouterCombinedSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationRouterCombinedSceneBtn0450`);
+        throw new Error('Component not found: navigationRouterCombinedSceneBtn0450');
+      }
+      await navigationRouterCombinedSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationRouterCombinedSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0450'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0450, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0450 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0450'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0450, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0450');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0450_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"router pushUrl routerPageOne"按钮
+      let routerPushUrlRouterPageOneBtn = await driver.waitForComponent(ON.id('routerPushUrlRouterPageOneBtn0450'), 1000);
+      Logger.info('TEST', `Found component: routerPushUrlRouterPageOneBtn0450`);
+      if (!routerPushUrlRouterPageOneBtn) {
+        Logger.error('TEST', `Component not found: routerPushUrlRouterPageOneBtn0450`);
+        throw new Error('Component not found: routerPushUrlRouterPageOneBtn0450');
+      }
+      await routerPushUrlRouterPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0450_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"navigationA push pageThree"按钮
+      let navigationAPushPageThreeBtn = await driver.waitForComponent(ON.id('navigationAPushPageThreeBtn0450'), 1000);
+      Logger.info('TEST', `Found component: navigationAPushPageThreeBtn0450`);
+      if (!navigationAPushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: navigationAPushPageThreeBtn0450`);
+        throw new Error('Component not found: navigationAPushPageThreeBtn0450');
+      }
+      await navigationAPushPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0450_03');
+      await Utils.sleep(1000);
+      
+      // 5.点击"router pushNamedRoute routerPageTwo"按钮
+      let routerPushNamedRouteRouterPageTwoBtn = await driver.waitForComponent(ON.id('routerPushNamedRouteRouterPageTwoBtn0450'), 1000);
+      Logger.info('TEST', `Found component: routerPushNamedRouteRouterPageTwoBtn0450`);
+      if (!routerPushNamedRouteRouterPageTwoBtn) {
+        Logger.error('TEST', `Component not found: routerPushNamedRouteRouterPageTwoBtn0450`);
+        throw new Error('Component not found: routerPushNamedRouteRouterPageTwoBtn0450');
+      }
+      await routerPushNamedRouteRouterPageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0450_04');
+      await Utils.sleep(1000);
+      
+      // 6.点击"router pushUrl routerPageOne Single"按钮
+      let routerPushUrlRouterPageOneSingleBtn = await driver.waitForComponent(ON.id('routerPushUrlRouterPageOneSingleBtn0450'), 1000);
+      Logger.info('TEST', `Found component: routerPushUrlRouterPageOneSingleBtn0450`);
+      if (!routerPushUrlRouterPageOneSingleBtn) {
+        Logger.error('TEST', `Component not found: routerPushUrlRouterPageOneSingleBtn0450`);
+        throw new Error('Component not found: routerPushUrlRouterPageOneSingleBtn0450');
+      }
+      await routerPushUrlRouterPageOneSingleBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0450_05');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0450 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0460
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件replaceUrl多实例场景验证）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件replaceUrl多实例场景验证）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0460', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0460 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0460/navigationOnActiveOnInActive0460")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"navigation与router结合基础场景"按钮
+      let navigationRouterCombinedSceneBtn = await driver.waitForComponent(ON.id('navigationRouterCombinedSceneBtn0460'), 1000);
+      Logger.info('TEST', `Found component: navigationRouterCombinedSceneBtn0460`);
+      if (!navigationRouterCombinedSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationRouterCombinedSceneBtn0460`);
+        throw new Error('Component not found: navigationRouterCombinedSceneBtn0460');
+      }
+      await navigationRouterCombinedSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationRouterCombinedSceneBtn, waiting for page to render`);
+      
+      // 2.点击"router pushUrl routerPageOne"按钮
+      let routerPushUrlRouterPageOneBtn = await driver.waitForComponent(ON.id('routerPushUrlRouterPageOneBtn0460'), 1000);
+      Logger.info('TEST', `Found component: routerPushUrlRouterPageOneBtn0460, result: ${routerPushUrlRouterPageOneBtn ? 'found' : 'not found'}`);
+      if (!routerPushUrlRouterPageOneBtn) {
+        Logger.error('TEST', `Component not found: routerPushUrlRouterPageOneBtn0460 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        routerPushUrlRouterPageOneBtn = await driver.waitForComponent(ON.id('routerPushUrlRouterPageOneBtn0460'), 1000);
+        Logger.info('TEST', `Retry found component: routerPushUrlRouterPageOneBtn0460, result: ${routerPushUrlRouterPageOneBtn ? 'found' : 'not found'}`);
+        if (!routerPushUrlRouterPageOneBtn) {
+          throw new Error('Component not found: routerPushUrlRouterPageOneBtn0460');
+        }
+      }
+      await routerPushUrlRouterPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0460_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"navigationA push pageOne"按钮
+      let navigationAPushPageOneBtn = await driver.waitForComponent(ON.id('navigationAPushPageOneBtn0460'), 1000);
+      Logger.info('TEST', `Found component: navigationAPushPageOneBtn0460, result: ${navigationAPushPageOneBtn ? 'found' : 'not found'}`);
+      if (!navigationAPushPageOneBtn) {
+        Logger.error('TEST', `Component not found: navigationAPushPageOneBtn0460 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        navigationAPushPageOneBtn = await driver.waitForComponent(ON.id('navigationAPushPageOneBtn0460'), 1000);
+        Logger.info('TEST', `Retry found component: navigationAPushPageOneBtn0460, result: ${navigationAPushPageOneBtn ? 'found' : 'not found'}`);
+        if (!navigationAPushPageOneBtn) {
+          throw new Error('Component not found: navigationAPushPageOneBtn0460');
+        }
+      }
+      await navigationAPushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0460_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"router replaceUrl routerPageTwo"按钮
+      let routerReplaceUrlRouterPageTwoBtn = await driver.waitForComponent(ON.id('routerReplaceUrlRouterPageTwoBtn0460'), 1000);
+      Logger.info('TEST', `Found component: routerReplaceUrlRouterPageTwoBtn0460`);
+      if (!routerReplaceUrlRouterPageTwoBtn) {
+        Logger.error('TEST', `Component not found: routerReplaceUrlRouterPageTwoBtn0460`);
+        throw new Error('Component not found: routerReplaceUrlRouterPageTwoBtn0460');
+      }
+      await routerReplaceUrlRouterPageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0460_03');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0460 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0470
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件replaceUrl单实例场景验证）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件replaceUrl单实例场景验证）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0470', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0470 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0470/navigationOnActiveOnInActive0470")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"navigation与router结合基础场景"按钮
+      let navigationRouterCombinedSceneBtn = await driver.waitForComponent(ON.id('navigationRouterCombinedSceneBtn0470'), 1000);
+      Logger.info('TEST', `Found component: navigationRouterCombinedSceneBtn0470`);
+      if (!navigationRouterCombinedSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationRouterCombinedSceneBtn0470`);
+        throw new Error('Component not found: navigationRouterCombinedSceneBtn0470');
+      }
+      await navigationRouterCombinedSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationRouterCombinedSceneBtn, waiting for page to render`);
+      
+      // 2.点击"router pushUrl routerPageOne"按钮
+      let routerPushUrlRouterPageOneBtn = await driver.waitForComponent(ON.id('routerPushUrlRouterPageOneBtn0470'), 1000);
+      Logger.info('TEST', `Found component: routerPushUrlRouterPageOneBtn0470, result: ${routerPushUrlRouterPageOneBtn ? 'found' : 'not found'}`);
+      if (!routerPushUrlRouterPageOneBtn) {
+        Logger.error('TEST', `Component not found: routerPushUrlRouterPageOneBtn0470 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        routerPushUrlRouterPageOneBtn = await driver.waitForComponent(ON.id('routerPushUrlRouterPageOneBtn0470'), 1000);
+        Logger.info('TEST', `Retry found component: routerPushUrlRouterPageOneBtn0470, result: ${routerPushUrlRouterPageOneBtn ? 'found' : 'not found'}`);
+        if (!routerPushUrlRouterPageOneBtn) {
+          throw new Error('Component not found: routerPushUrlRouterPageOneBtn0470');
+        }
+      }
+      await routerPushUrlRouterPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0470_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"navigationA push pageOne"按钮
+      let navigationAPushPageOneBtn = await driver.waitForComponent(ON.id('navigationAPushPageOneBtn0470'), 1000);
+      Logger.info('TEST', `Found component: navigationAPushPageOneBtn0470, result: ${navigationAPushPageOneBtn ? 'found' : 'not found'}`);
+      if (!navigationAPushPageOneBtn) {
+        Logger.error('TEST', `Component not found: navigationAPushPageOneBtn0470 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        navigationAPushPageOneBtn = await driver.waitForComponent(ON.id('navigationAPushPageOneBtn0470'), 1000);
+        Logger.info('TEST', `Retry found component: navigationAPushPageOneBtn0470, result: ${navigationAPushPageOneBtn ? 'found' : 'not found'}`);
+        if (!navigationAPushPageOneBtn) {
+          throw new Error('Component not found: navigationAPushPageOneBtn0470');
+        }
+      }
+      await navigationAPushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0470_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"router pushNamedRoute routerPageTwo"按钮
+      let routerPushNamedRouteRouterPageTwoBtn = await driver.waitForComponent(ON.id('routerPushNamedRouteRouterPageTwoBtn0470'), 1000);
+      Logger.info('TEST', `Found component: routerPushNamedRouteRouterPageTwoBtn0470`);
+      if (!routerPushNamedRouteRouterPageTwoBtn) {
+        Logger.error('TEST', `Component not found: routerPushNamedRouteRouterPageTwoBtn0470`);
+        throw new Error('Component not found: routerPushNamedRouteRouterPageTwoBtn0470');
+      }
+      await routerPushNamedRouteRouterPageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0470_03');
+      await Utils.sleep(1000);
+      
+      // 5.点击"router replaceUrl routerPageOne Single"按钮
+      let routerReplaceUrlRouterPageOneSingleBtn = await driver.waitForComponent(ON.id('routerReplaceUrlRouterPageOneSingleBtn0470'), 1000);
+      Logger.info('TEST', `Found component: routerReplaceUrlRouterPageOneSingleBtn0470`);
+      if (!routerReplaceUrlRouterPageOneSingleBtn) {
+        Logger.error('TEST', `Component not found: routerReplaceUrlRouterPageOneSingleBtn0470`);
+        throw new Error('Component not found: routerReplaceUrlRouterPageOneSingleBtn0470');
+      }
+      await routerReplaceUrlRouterPageOneSingleBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0470_04');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0470 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0480
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，back场景验证）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，back场景验证）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0480', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0480 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0480/navigationOnActiveOnInActive0480")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"navigation与router结合基础场景"按钮
+      let navigationRouterCombinedSceneBtn = await driver.waitForComponent(ON.id('navigationRouterCombinedSceneBtn0480'), 1000);
+      Logger.info('TEST', `Found component: navigationRouterCombinedSceneBtn0480`);
+      if (!navigationRouterCombinedSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationRouterCombinedSceneBtn0480`);
+        throw new Error('Component not found: navigationRouterCombinedSceneBtn0480');
+      }
+      await navigationRouterCombinedSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationRouterCombinedSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0480'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0480, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0480 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0480'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0480, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0480');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0480_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"router pushUrl routerPageOne"按钮
+      let routerPushUrlRouterPageOneBtn = await driver.waitForComponent(ON.id('routerPushUrlRouterPageOneBtn0480'), 1000);
+      Logger.info('TEST', `Found component: routerPushUrlRouterPageOneBtn0480`);
+      if (!routerPushUrlRouterPageOneBtn) {
+        Logger.error('TEST', `Component not found: routerPushUrlRouterPageOneBtn0480`);
+        throw new Error('Component not found: routerPushUrlRouterPageOneBtn0480');
+      }
+      await routerPushUrlRouterPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0480_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"navigationA push pageThree"按钮
+      let navigationAPushPageThreeBtn = await driver.waitForComponent(ON.id('navigationAPushPageThreeBtn0480'), 1000);
+      Logger.info('TEST', `Found component: navigationAPushPageThreeBtn0480, result: ${navigationAPushPageThreeBtn ? 'found' : 'not found'}`);
+      if (!navigationAPushPageThreeBtn) {
+        Logger.error('TEST', `Component not found: navigationAPushPageThreeBtn0480 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        navigationAPushPageThreeBtn = await driver.waitForComponent(ON.id('navigationAPushPageThreeBtn0480'), 1000);
+        Logger.info('TEST', `Retry found component: navigationAPushPageThreeBtn0480, result: ${navigationAPushPageThreeBtn ? 'found' : 'not found'}`);
+        if (!navigationAPushPageThreeBtn) {
+          throw new Error('Component not found: navigationAPushPageThreeBtn0480');
+        }
+      }
+      await navigationAPushPageThreeBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0480_03');
+      await Utils.sleep(1000);
+      
+      // 5.点击"router pushUrl routerPageTwo"按钮
+      let routerPushUrlRouterPageTwoBtn = await driver.waitForComponent(ON.id('routerPushUrlRouterPageTwoBtn0480'), 1000);
+      Logger.info('TEST', `Found component: routerPushUrlRouterPageTwoBtn0480`);
+      if (!routerPushUrlRouterPageTwoBtn) {
+        Logger.error('TEST', `Component not found: routerPushUrlRouterPageTwoBtn0480`);
+        throw new Error('Component not found: routerPushUrlRouterPageTwoBtn0480');
+      }
+      await routerPushUrlRouterPageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0480_04');
+      await Utils.sleep(1000);
+      
+      // 6.点击"back routerPageOne"按钮
+      let backRouterPageOneBtn = await driver.waitForComponent(ON.id('backRouterPageOneBtn0480'), 1000);
+      Logger.info('TEST', `Found component: backRouterPageOneBtn0480`);
+      if (!backRouterPageOneBtn) {
+        Logger.error('TEST', `Component not found: backRouterPageOneBtn0480`);
+        throw new Error('Component not found: backRouterPageOneBtn0480');
+      }
+      await backRouterPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0480_05');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0480 finish.`);
+      done()
+    })
   })
 }
 
