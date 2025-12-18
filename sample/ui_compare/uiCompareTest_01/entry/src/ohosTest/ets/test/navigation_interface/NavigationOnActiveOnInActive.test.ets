@@ -3431,6 +3431,1057 @@ export default function NavigationOnActiveOnInActiveTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0480 finish.`);
       done()
     })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0490
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，replaceNamedRoute场景验证）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，replaceNamedRoute场景验证）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0490', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0490 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0490/navigationOnActiveOnInActive0490")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"navigation与router结合基础场景"按钮
+      let navigationRouterCombinedSceneBtn = await driver.waitForComponent(ON.id('navigationRouterCombinedSceneBtn0490'), 1000);
+      Logger.info('TEST', `Found component: navigationRouterCombinedSceneBtn0490`);
+      if (!navigationRouterCombinedSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationRouterCombinedSceneBtn0490`);
+        throw new Error('Component not found: navigationRouterCombinedSceneBtn0490');
+      }
+      await navigationRouterCombinedSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationRouterCombinedSceneBtn, waiting for page to render`);
+      
+      // 2.点击"router pushUrl routerPageOne"按钮
+      let routerPushUrlRouterPageOneBtn = await driver.waitForComponent(ON.id('routerPushUrlRouterPageOneBtn0490'), 1000);
+      Logger.info('TEST', `Found component: routerPushUrlRouterPageOneBtn0490, result: ${routerPushUrlRouterPageOneBtn ? 'found' : 'not found'}`);
+      if (!routerPushUrlRouterPageOneBtn) {
+        Logger.error('TEST', `Component not found: routerPushUrlRouterPageOneBtn0490 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        routerPushUrlRouterPageOneBtn = await driver.waitForComponent(ON.id('routerPushUrlRouterPageOneBtn0490'), 1000);
+        Logger.info('TEST', `Retry found component: routerPushUrlRouterPageOneBtn0490, result: ${routerPushUrlRouterPageOneBtn ? 'found' : 'not found'}`);
+        if (!routerPushUrlRouterPageOneBtn) {
+          throw new Error('Component not found: routerPushUrlRouterPageOneBtn0490');
+        }
+      }
+      await routerPushUrlRouterPageOneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1500);
+      Logger.info('TEST', `After clicking routerPushUrlRouterPageOneBtn, waiting for target page to render`);
+      
+      // 等待目标页面的组件出现，确认跳转成功
+      let navigationAPushPageOneBtn = await driver.waitForComponent(ON.id('navigationAPushPageOneBtn0490'), 2000);
+      Logger.info('TEST', `Found target component: navigationAPushPageOneBtn0490, result: ${navigationAPushPageOneBtn ? 'found' : 'not found'}`);
+      if (!navigationAPushPageOneBtn) {
+        Logger.error('TEST', `Component not found: navigationAPushPageOneBtn0490 after router jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        navigationAPushPageOneBtn = await driver.waitForComponent(ON.id('navigationAPushPageOneBtn0490'), 2000);
+        Logger.info('TEST', `Retry found target component: navigationAPushPageOneBtn0490, result: ${navigationAPushPageOneBtn ? 'found' : 'not found'}`);
+        if (!navigationAPushPageOneBtn) {
+          throw new Error('Component not found: navigationAPushPageOneBtn0490 after router jump. Router navigation may have failed.');
+        }
+      }
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0490_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"navigationA push pageOne"按钮（已在步骤2中确认存在）
+      if (!navigationAPushPageOneBtn) {
+        throw new Error('Component not found: navigationAPushPageOneBtn0490');
+      }
+      await navigationAPushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0490_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"router replaceNamedRoute routerPageTwo"按钮
+      let routerReplaceNamedRouteRouterPageTwoBtn = await driver.waitForComponent(ON.id('routerReplaceNamedRouteRouterPageTwoBtn0490'), 1000);
+      Logger.info('TEST', `Found component: routerReplaceNamedRouteRouterPageTwoBtn0490`);
+      if (!routerReplaceNamedRouteRouterPageTwoBtn) {
+        Logger.error('TEST', `Component not found: routerReplaceNamedRouteRouterPageTwoBtn0490`);
+        throw new Error('Component not found: routerReplaceNamedRouteRouterPageTwoBtn0490');
+      }
+      await routerReplaceNamedRouteRouterPageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0490_03');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0490 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0500
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0500', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0500 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0500/navigationOnActiveOnInActive0500")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0500'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0500`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0500`);
+        throw new Error('Component not found: navigationBasicSceneBtn0500');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push HalfModal"按钮
+      let pushHalfModalBtn = await driver.waitForComponent(ON.id('pushHalfModalBtn0500'), 1000);
+      Logger.info('TEST', `Found component: pushHalfModalBtn0500, result: ${pushHalfModalBtn ? 'found' : 'not found'}`);
+      if (!pushHalfModalBtn) {
+        Logger.error('TEST', `Component not found: pushHalfModalBtn0500 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushHalfModalBtn = await driver.waitForComponent(ON.id('pushHalfModalBtn0500'), 1000);
+        Logger.info('TEST', `Retry found component: pushHalfModalBtn0500, result: ${pushHalfModalBtn ? 'found' : 'not found'}`);
+        if (!pushHalfModalBtn) {
+          throw new Error('Component not found: pushHalfModalBtn0500');
+        }
+      }
+      await pushHalfModalBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0500_01');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0500 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0510
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景，push half-modal）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景，push half-modal）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0510', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0510 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0510/navigationOnActiveOnInActive0510")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0510'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0510`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0510`);
+        throw new Error('Component not found: navigationBasicSceneBtn0510');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push HalfModal"按钮
+      let pushHalfModalBtn = await driver.waitForComponent(ON.id('pushHalfModalBtn0510'), 1000);
+      Logger.info('TEST', `Found component: pushHalfModalBtn0510, result: ${pushHalfModalBtn ? 'found' : 'not found'}`);
+      if (!pushHalfModalBtn) {
+        Logger.error('TEST', `Component not found: pushHalfModalBtn0510 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushHalfModalBtn = await driver.waitForComponent(ON.id('pushHalfModalBtn0510'), 1000);
+        Logger.info('TEST', `Retry found component: pushHalfModalBtn0510, result: ${pushHalfModalBtn ? 'found' : 'not found'}`);
+        if (!pushHalfModalBtn) {
+          throw new Error('Component not found: pushHalfModalBtn0510');
+        }
+      }
+      await pushHalfModalBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0510_01');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0510 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0520
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景，pop half-modal）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景，pop half-modal）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0520', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0520 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0520/navigationOnActiveOnInActive0520")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0520'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0520`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0520`);
+        throw new Error('Component not found: navigationBasicSceneBtn0520');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push HalfModal"按钮
+      let pushHalfModalBtn = await driver.waitForComponent(ON.id('pushHalfModalBtn0520'), 1000);
+      Logger.info('TEST', `Found component: pushHalfModalBtn0520, result: ${pushHalfModalBtn ? 'found' : 'not found'}`);
+      if (!pushHalfModalBtn) {
+        Logger.error('TEST', `Component not found: pushHalfModalBtn0520 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushHalfModalBtn = await driver.waitForComponent(ON.id('pushHalfModalBtn0520'), 1000);
+        Logger.info('TEST', `Retry found component: pushHalfModalBtn0520, result: ${pushHalfModalBtn ? 'found' : 'not found'}`);
+        if (!pushHalfModalBtn) {
+          throw new Error('Component not found: pushHalfModalBtn0520');
+        }
+      }
+      await pushHalfModalBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0520_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"pop"按钮
+      let popBtn = await driver.waitForComponent(ON.id('popBtn0520'), 1000);
+      Logger.info('TEST', `Found component: popBtn0520`);
+      if (!popBtn) {
+        Logger.error('TEST', `Component not found: popBtn0520`);
+        throw new Error('Component not found: popBtn0520');
+      }
+      await popBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0520_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0520 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0530
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景，replace half-modal）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景，replace half-modal）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0530', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0530 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0530/navigationOnActiveOnInActive0530")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0530'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0530`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0530`);
+        throw new Error('Component not found: navigationBasicSceneBtn0530');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push HalfModal"按钮
+      let pushHalfModalBtn = await driver.waitForComponent(ON.id('pushHalfModalBtn0530'), 1000);
+      Logger.info('TEST', `Found component: pushHalfModalBtn0530, result: ${pushHalfModalBtn ? 'found' : 'not found'}`);
+      if (!pushHalfModalBtn) {
+        Logger.error('TEST', `Component not found: pushHalfModalBtn0530 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushHalfModalBtn = await driver.waitForComponent(ON.id('pushHalfModalBtn0530'), 1000);
+        Logger.info('TEST', `Retry found component: pushHalfModalBtn0530, result: ${pushHalfModalBtn ? 'found' : 'not found'}`);
+        if (!pushHalfModalBtn) {
+          throw new Error('Component not found: pushHalfModalBtn0530');
+        }
+      }
+      await pushHalfModalBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0530_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"replace HalfModal"按钮
+      let replaceHalfModalBtn = await driver.waitForComponent(ON.id('replaceHalfModalBtn0530'), 1000);
+      Logger.info('TEST', `Found component: replaceHalfModalBtn0530`);
+      if (!replaceHalfModalBtn) {
+        Logger.error('TEST', `Component not found: replaceHalfModalBtn0530`);
+        throw new Error('Component not found: replaceHalfModalBtn0530');
+      }
+      await replaceHalfModalBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0530_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0530 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0540
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（full-modal场景，push full-modal）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（full-modal场景，push full-modal）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0540', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0540 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0540/navigationOnActiveOnInActive0540")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0540'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0540`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0540`);
+        throw new Error('Component not found: navigationBasicSceneBtn0540');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push FullModal"按钮
+      let pushFullModalBtn = await driver.waitForComponent(ON.id('pushFullModalBtn0540'), 1000);
+      Logger.info('TEST', `Found component: pushFullModalBtn0540, result: ${pushFullModalBtn ? 'found' : 'not found'}`);
+      if (!pushFullModalBtn) {
+        Logger.error('TEST', `Component not found: pushFullModalBtn0540 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushFullModalBtn = await driver.waitForComponent(ON.id('pushFullModalBtn0540'), 1000);
+        Logger.info('TEST', `Retry found component: pushFullModalBtn0540, result: ${pushFullModalBtn ? 'found' : 'not found'}`);
+        if (!pushFullModalBtn) {
+          throw new Error('Component not found: pushFullModalBtn0540');
+        }
+      }
+      await pushFullModalBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0540_01');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0540 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0550
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（full-modal场景，pop full-modal）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（full-modal场景，pop full-modal）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0550', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0550 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0550/navigationOnActiveOnInActive0550")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0550'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0550`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0550`);
+        throw new Error('Component not found: navigationBasicSceneBtn0550');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push FullModal"按钮
+      let pushFullModalBtn = await driver.waitForComponent(ON.id('pushFullModalBtn0550'), 1000);
+      Logger.info('TEST', `Found component: pushFullModalBtn0550, result: ${pushFullModalBtn ? 'found' : 'not found'}`);
+      if (!pushFullModalBtn) {
+        Logger.error('TEST', `Component not found: pushFullModalBtn0550 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushFullModalBtn = await driver.waitForComponent(ON.id('pushFullModalBtn0550'), 1000);
+        Logger.info('TEST', `Retry found component: pushFullModalBtn0550, result: ${pushFullModalBtn ? 'found' : 'not found'}`);
+        if (!pushFullModalBtn) {
+          throw new Error('Component not found: pushFullModalBtn0550');
+        }
+      }
+      await pushFullModalBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0550_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"pop"按钮
+      let popBtn = await driver.waitForComponent(ON.id('popBtn0550'), 1000);
+      Logger.info('TEST', `Found component: popBtn0550`);
+      if (!popBtn) {
+        Logger.error('TEST', `Component not found: popBtn0550`);
+        throw new Error('Component not found: popBtn0550');
+      }
+      await popBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0550_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0550 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0560
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（full-modal场景，replace full-modal）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（full-modal场景，replace full-modal）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0560', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0560 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0560/navigationOnActiveOnInActive0560")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0560'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0560`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0560`);
+        throw new Error('Component not found: navigationBasicSceneBtn0560');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push FullModal"按钮
+      let pushFullModalBtn = await driver.waitForComponent(ON.id('pushFullModalBtn0560'), 1000);
+      Logger.info('TEST', `Found component: pushFullModalBtn0560, result: ${pushFullModalBtn ? 'found' : 'not found'}`);
+      if (!pushFullModalBtn) {
+        Logger.error('TEST', `Component not found: pushFullModalBtn0560 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushFullModalBtn = await driver.waitForComponent(ON.id('pushFullModalBtn0560'), 1000);
+        Logger.info('TEST', `Retry found component: pushFullModalBtn0560, result: ${pushFullModalBtn ? 'found' : 'not found'}`);
+        if (!pushFullModalBtn) {
+          throw new Error('Component not found: pushFullModalBtn0560');
+        }
+      }
+      await pushFullModalBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0560_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"replace FullModal"按钮
+      let replaceFullModalBtn = await driver.waitForComponent(ON.id('replaceFullModalBtn0560'), 1000);
+      Logger.info('TEST', `Found component: replaceFullModalBtn0560`);
+      if (!replaceFullModalBtn) {
+        Logger.error('TEST', `Component not found: replaceFullModalBtn0560`);
+        throw new Error('Component not found: replaceFullModalBtn0560');
+      }
+      await replaceFullModalBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0560_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0560 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0570
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（CustomDialog场景，show CustomDialog）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（CustomDialog场景，show CustomDialog）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0570', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0570 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0570/navigationOnActiveOnInActive0570")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0570'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0570`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0570`);
+        throw new Error('Component not found: navigationBasicSceneBtn0570');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0570'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0570, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0570 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0570'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0570, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0570');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0570_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"show CustomDialog"按钮
+      let showCustomDialogBtn = await driver.waitForComponent(ON.id('showCustomDialogBtn0570'), 1000);
+      Logger.info('TEST', `Found component: showCustomDialogBtn0570`);
+      if (!showCustomDialogBtn) {
+        Logger.error('TEST', `Component not found: showCustomDialogBtn0570`);
+        throw new Error('Component not found: showCustomDialogBtn0570');
+      }
+      await showCustomDialogBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0570_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0570 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0580
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（CustomDialog场景，close CustomDialog）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（CustomDialog场景，close CustomDialog）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0580', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0580 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0580/navigationOnActiveOnInActive0580")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0580'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0580`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0580`);
+        throw new Error('Component not found: navigationBasicSceneBtn0580');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0580'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0580, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0580 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0580'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0580, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0580');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0580_01');
+      await Utils.sleep(1000);
+
+      // 3.点击"show CustomDialog"按钮
+      let showCustomDialogBtn = await driver.waitForComponent(ON.id('showCustomDialogBtn0580'), 1000);
+      Logger.info('TEST', `Found component: showCustomDialogBtn0580`);
+      if (!showCustomDialogBtn) {
+        Logger.error('TEST', `Component not found: showCustomDialogBtn0580`);
+        throw new Error('Component not found: showCustomDialogBtn0580');
+      }
+      await showCustomDialogBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0580_02');
+      await Utils.sleep(1000);
+
+      // 4.点击"close CustomDialog"按钮
+      let closeCustomDialogBtn = await driver.waitForComponent(ON.id('closeCustomDialogBtn0580'), 1000);
+      Logger.info('TEST', `Found component: closeCustomDialogBtn0580`);
+      if (!closeCustomDialogBtn) {
+        Logger.error('TEST', `Component not found: closeCustomDialogBtn0580`);
+        throw new Error('Component not found: closeCustomDialogBtn0580');
+      }
+      await closeCustomDialogBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0580_03');
+      await Utils.sleep(1000);
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0580 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0590
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（CustomDialog场景，show multiple CustomDialog）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（CustomDialog场景，show multiple CustomDialog）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0590', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0590 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0590/navigationOnActiveOnInActive0590")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0590'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0590`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0590`);
+        throw new Error('Component not found: navigationBasicSceneBtn0590');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0590'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0590, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0590 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0590'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0590, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0590');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0590_01');
+      await Utils.sleep(1000);
+
+      // 3.点击"show CustomDialog 1"按钮
+      let showCustomDialog1Btn = await driver.waitForComponent(ON.id('showCustomDialog1Btn0590'), 1000);
+      Logger.info('TEST', `Found component: showCustomDialog1Btn0590`);
+      if (!showCustomDialog1Btn) {
+        Logger.error('TEST', `Component not found: showCustomDialog1Btn0590`);
+        throw new Error('Component not found: showCustomDialog1Btn0590');
+      }
+      await showCustomDialog1Btn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0590_02');
+      await Utils.sleep(1000);
+
+      // 4.点击"show CustomDialog 2"按钮
+      let showCustomDialog2Btn = await driver.waitForComponent(ON.id('showCustomDialog2Btn0590'), 1000);
+      Logger.info('TEST', `Found component: showCustomDialog2Btn0590`);
+      if (!showCustomDialog2Btn) {
+        Logger.error('TEST', `Component not found: showCustomDialog2Btn0590`);
+        throw new Error('Component not found: showCustomDialog2Btn0590');
+      }
+      await showCustomDialog2Btn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0590_03');
+      await Utils.sleep(1000);
+
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0590 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0620
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（promptAction.showDialog场景，show dialog）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（promptAction.showDialog场景，show dialog）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0620', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0620 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0620/navigationOnActiveOnInActive0620")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0620'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0620`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0620`);
+        throw new Error('Component not found: navigationBasicSceneBtn0620');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0620'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0620, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0620 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0620'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0620, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0620');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0620_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"show dialog"按钮
+      let showDialogBtn = await driver.waitForComponent(ON.id('showDialogBtn0620'), 1000);
+      Logger.info('TEST', `Found component: showDialogBtn0620`);
+      if (!showDialogBtn) {
+        Logger.error('TEST', `Component not found: showDialogBtn0620`);
+        throw new Error('Component not found: showDialogBtn0620');
+      }
+      await showDialogBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0620_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0620 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0630
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（promptAction.showDialog场景，close dialog）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（promptAction.showDialog场景，close dialog）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0630', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0630 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0630/navigationOnActiveOnInActive0630")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0630'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0630`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0630`);
+        throw new Error('Component not found: navigationBasicSceneBtn0630');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0630'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0630, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0630 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0630'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0630, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0630');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0630_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"show dialog"按钮
+      let showDialogBtn = await driver.waitForComponent(ON.id('showDialogBtn0630'), 1000);
+      Logger.info('TEST', `Found component: showDialogBtn0630`);
+      if (!showDialogBtn) {
+        Logger.error('TEST', `Component not found: showDialogBtn0630`);
+        throw new Error('Component not found: showDialogBtn0630');
+      }
+      await showDialogBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0630_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"close dialog"按钮
+      let closeDialogBtn = await driver.waitForComponent(ON.id('closeDialogBtn0630'), 1000);
+      Logger.info('TEST', `Found component: closeDialogBtn0630`);
+      if (!closeDialogBtn) {
+        Logger.error('TEST', `Component not found: closeDialogBtn0630`);
+        throw new Error('Component not found: closeDialogBtn0630');
+      }
+      await closeDialogBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0630_03');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0630 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0640
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（promptAction.showDialog场景，push page while dialog showing）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（promptAction.showDialog场景，push page while dialog showing）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0640', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0640 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0640/navigationOnActiveOnInActive0640")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0640'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0640`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0640`);
+        throw new Error('Component not found: navigationBasicSceneBtn0640');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0640'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0640, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0640 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0640'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0640, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0640');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0640_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"show dialog"按钮
+      let showDialogBtn = await driver.waitForComponent(ON.id('showDialogBtn0640'), 1000);
+      Logger.info('TEST', `Found component: showDialogBtn0640`);
+      if (!showDialogBtn) {
+        Logger.error('TEST', `Component not found: showDialogBtn0640`);
+        throw new Error('Component not found: showDialogBtn0640');
+      }
+      await showDialogBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0640_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"push pageTwo"按钮
+      let pushPageTwoBtn = await driver.waitForComponent(ON.id('pushPageTwoBtn0640'), 1000);
+      Logger.info('TEST', `Found component: pushPageTwoBtn0640`);
+      if (!pushPageTwoBtn) {
+        Logger.error('TEST', `Component not found: pushPageTwoBtn0640`);
+        throw new Error('Component not found: pushPageTwoBtn0640');
+      }
+      await pushPageTwoBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0640_03');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0640 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0650
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（promptAction.openCustomDialog场景，show custom dialog）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（promptAction.openCustomDialog场景，show custom dialog）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0650', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0650 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0650/navigationOnActiveOnInActive0650")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0650'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0650`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0650`);
+        throw new Error('Component not found: navigationBasicSceneBtn0650');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0650'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0650, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0650 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0650'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0650, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0650');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0650_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"show custom dialog"按钮
+      let showCustomDialogBtn = await driver.waitForComponent(ON.id('showCustomDialogBtn0650'), 1000);
+      Logger.info('TEST', `Found component: showCustomDialogBtn0650`);
+      if (!showCustomDialogBtn) {
+        Logger.error('TEST', `Component not found: showCustomDialogBtn0650`);
+        throw new Error('Component not found: showCustomDialogBtn0650');
+      }
+      await showCustomDialogBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0650_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0650 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0680
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（promptAction.openCustomDialog场景，show multiple custom dialog）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（promptAction.openCustomDialog场景，show multiple custom dialog）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0680', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0680 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0680/navigationOnActiveOnInActive0680")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0680'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0680`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0680`);
+        throw new Error('Component not found: navigationBasicSceneBtn0680');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0680'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0680, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0680 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0680'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0680, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0680');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0680_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"show custom dialog 1"按钮
+      let showCustomDialog1Btn = await driver.waitForComponent(ON.id('showCustomDialog1Btn0680'), 1000);
+      Logger.info('TEST', `Found component: showCustomDialog1Btn0680`);
+      if (!showCustomDialog1Btn) {
+        Logger.error('TEST', `Component not found: showCustomDialog1Btn0680`);
+        throw new Error('Component not found: showCustomDialog1Btn0680');
+      }
+      await showCustomDialog1Btn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0680_02');
+      await Utils.sleep(1000);
+      
+      // 4.点击"show custom dialog 2"按钮
+      let showCustomDialog2Btn = await driver.waitForComponent(ON.id('showCustomDialog2Btn0680'), 1000);
+      Logger.info('TEST', `Found component: showCustomDialog2Btn0680`);
+      if (!showCustomDialog2Btn) {
+        Logger.error('TEST', `Component not found: showCustomDialog2Btn0680`);
+        throw new Error('Component not found: showCustomDialog2Btn0680');
+      }
+      await showCustomDialog2Btn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0680_03');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0680 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0690
+     * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（UIContext dialog场景，show dialog）
+     * @tc.desc   : NavDestination新增OnActive和OnInActive生命周期（UIContext dialog场景，show dialog）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0690', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0690 start.`);
+      Settings.createWindow("testability/pages/navigation_interface/activeOn/0690/navigationOnActiveOnInActive0690")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      // 1.点击"Navigation基础场景"按钮
+      let navigationBasicSceneBtn = await driver.waitForComponent(ON.id('navigationBasicSceneBtn0690'), 1000);
+      Logger.info('TEST', `Found component: navigationBasicSceneBtn0690`);
+      if (!navigationBasicSceneBtn) {
+        Logger.error('TEST', `Component not found: navigationBasicSceneBtn0690`);
+        throw new Error('Component not found: navigationBasicSceneBtn0690');
+      }
+      await navigationBasicSceneBtn.click();
+      await driver.waitForIdle(1000, 2000);
+      await Utils.sleep(1000);
+      Logger.info('TEST', `After clicking navigationBasicSceneBtn, waiting for page to render`);
+      
+      // 2.点击"push pageOne"按钮
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0690'), 1000);
+      Logger.info('TEST', `Found component: pushPageOneBtn0690, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+      if (!pushPageOneBtn) {
+        Logger.error('TEST', `Component not found: pushPageOneBtn0690 after navigation jump. Page may not be fully rendered.`);
+        await Utils.sleep(1000);
+        pushPageOneBtn = await driver.waitForComponent(ON.id('pushPageOneBtn0690'), 1000);
+        Logger.info('TEST', `Retry found component: pushPageOneBtn0690, result: ${pushPageOneBtn ? 'found' : 'not found'}`);
+        if (!pushPageOneBtn) {
+          throw new Error('Component not found: pushPageOneBtn0690');
+        }
+      }
+      await pushPageOneBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0690_01');
+      await Utils.sleep(1000);
+      
+      // 3.点击"show UIContext dialog"按钮
+      let showUIContextDialogBtn = await driver.waitForComponent(ON.id('showUIContextDialogBtn0690'), 1000);
+      Logger.info('TEST', `Found component: showUIContextDialogBtn0690`);
+      if (!showUIContextDialogBtn) {
+        Logger.error('TEST', `Component not found: showUIContextDialogBtn0690`);
+        throw new Error('Component not found: showUIContextDialogBtn0690');
+      }
+      await showUIContextDialogBtn.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0690_02');
+      await Utils.sleep(1000);
+      
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0690 finish.`);
+      done()
+    })
   })
 }
 
