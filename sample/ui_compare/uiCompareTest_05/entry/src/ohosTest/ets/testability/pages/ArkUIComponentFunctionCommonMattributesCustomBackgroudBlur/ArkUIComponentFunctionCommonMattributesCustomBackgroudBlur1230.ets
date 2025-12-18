@@ -36,6 +36,7 @@ struct ArkUIComponentFunctionCommonMattributesCustomBackgroudBlur1230 {
     Column() {
       Text('LongPress for menu')
     }
+    .id('bindMenu')
     .width('100%')
     .margin({ top: 5 })
     .bindContextMenu(this.MenuBuilder, ResponseType.RightClick,
