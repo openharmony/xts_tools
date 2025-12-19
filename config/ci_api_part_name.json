@@ -6608,6 +6608,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.router.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.uiExtensionHost.d.ets",
             "bundle_name": [
                 "ace_engine"
