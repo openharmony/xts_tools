@@ -10034,6 +10034,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@internal/component/ets/union_effect_container.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/unionEffectContainer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/radio.static.d.ets",
             "bundle_name": [
                 "ace_engine"
