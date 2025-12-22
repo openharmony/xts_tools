@@ -11350,6 +11350,13 @@
                 "drivers_interface_input"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/FormComponentModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
         }
     ]
 }
