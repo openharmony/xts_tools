@@ -6061,7 +6061,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/ImageModifier.d.ets",
+            "path": "interface/sdk-js/api/arkui/ImageModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7552,7 +7552,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/ImageModifier.static.d.ets",
+            "path": "interface/sdk-js/api/arkui/ImageModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
