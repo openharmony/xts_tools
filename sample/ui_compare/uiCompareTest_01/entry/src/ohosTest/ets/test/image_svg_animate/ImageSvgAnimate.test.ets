@@ -52,7 +52,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0010')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0010 finish.`);
       done()
@@ -70,7 +70,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg02")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0011')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0011 finish.`);
       done()
@@ -88,7 +88,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg03")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0012')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0012 finish.`);
       done()
@@ -106,7 +106,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg04")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0013')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0013 finish.`);
       done()
@@ -124,7 +124,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg05")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0014')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0014 finish.`);
       done()
@@ -142,7 +142,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg06")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0015')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0015 finish.`);
       done()
@@ -160,7 +160,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg07")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0016')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0016 finish.`);
       done()
@@ -178,7 +178,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg08")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0017')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0017 finish.`);
       done()
@@ -196,7 +196,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg09")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0018')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0018 finish.`);
       done()
@@ -214,7 +214,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg10")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0019')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0019 finish.`);
       done()
@@ -232,7 +232,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg11")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0020')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0020 finish.`);
       done()
@@ -250,7 +250,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg12")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0021')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0021 finish.`);
       done()
@@ -268,7 +268,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg13")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0023')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0023 finish.`);
       done()
@@ -286,7 +286,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg14")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0024')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0024 finish.`);
       done()
@@ -304,7 +304,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg15")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0025')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0025 finish.`);
       done()
@@ -322,7 +322,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg16")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0026')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0026 finish.`);
       done()
@@ -340,7 +340,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg17")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0028')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0028 finish.`);
       done()
@@ -358,7 +358,7 @@ export default function ImageSvgAnimateTest () {
       Settings.createWindow("testability/pages/image_svg_animate/imageSvg18")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0029')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0029 finish.`);
       done()

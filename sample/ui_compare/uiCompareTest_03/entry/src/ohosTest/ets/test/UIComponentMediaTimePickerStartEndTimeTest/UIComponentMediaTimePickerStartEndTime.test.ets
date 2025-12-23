@@ -78,10 +78,10 @@ export default function UIComponentMediaTimePickerStartEndTime() {
       let showDialogButton: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
       let timePickerCenter = await timePicker.getBoundsCenter();
       await driver.waitForIdle(500, 500);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_01');
       await showDialogButton.click();
       await driver.waitForIdle(500, 500);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_02');
       await timePicker.click();
       await driver.waitForIdle(500, 500);
       await driver.mouseMoveTo({x: timePickerCenter.x - 200, y: timePickerCenter.y});
@@ -89,10 +89,10 @@ export default function UIComponentMediaTimePickerStartEndTime() {
       await driver.waitForIdle(500, 1000);
       await driver.swipe(timePickerCenter.x - 200, timePickerCenter.y, timePickerCenter.x - 200, timePickerCenter.y - 200, 3000);
       await driver.waitForIdle(500, 1000);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_03');
       await showDialogButton.click();
       await driver.waitForIdle(500, 500);
-      await windowSnap.snapShot();
+      await windowSnap.snapShot(TAG + '_04');
       await Utils.sleep(1000);
       Logger.info(`[${TAG}]`, `Case finish.`);
       done();

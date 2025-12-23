@@ -55,7 +55,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_01'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0010')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0010 finish.`);
       done()
@@ -76,7 +76,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_02'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0020')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0020 finish.`);
       done()
@@ -97,7 +97,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_03'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0050')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0050 finish.`);
       done()
@@ -118,7 +118,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_04'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0060')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637_672 finish.`);
       done()
@@ -139,7 +139,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_05'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0070')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637 finish.`);
       done()
@@ -163,7 +163,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_06_02'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0080')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637_672_462_424_902 finish.`);
       done()
@@ -187,7 +187,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_07_02'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0090')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637_672_952 finish.`);
       done()
@@ -208,7 +208,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_08'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0100')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0410 finish.`);
       done()
@@ -229,7 +229,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_09'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0110')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0360 finish.`);
       done()
@@ -250,7 +250,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_10'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0120')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0420 finish.`);
       done()
@@ -271,7 +271,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_11'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0130')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0350 finish.`);
       done()
@@ -292,7 +292,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_12'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0140')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0380 finish.`);
       done()
@@ -313,7 +313,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_13'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0150')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0390 finish.`);
       done()
@@ -334,7 +334,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_14'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0160')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0370 finish.`);
       done()
@@ -355,7 +355,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_15'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0170')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0400 finish.`);
       done()
@@ -376,7 +376,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_16'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0180')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0010 finish.`);
       done()
@@ -397,7 +397,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_17'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0190')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0240 finish.`);
       done()
@@ -418,7 +418,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_18'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0200')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0130 finish.`);
       done()
@@ -439,7 +439,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_19'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0210')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0120 finish.`);
       done()
@@ -460,7 +460,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_20'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0220')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0110 finish.`);
       done()
@@ -481,7 +481,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_21'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0230')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0220 finish.`);
       done()
@@ -502,7 +502,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_22'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0240')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0230 finish.`);
       done()
@@ -526,7 +526,7 @@ export default function WaterFlowFadingEdgeTest() {
       let point = await button.getBoundsCenter();
       await driver.mouseScroll({x:point.x, y:point.y}, true, 2)
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0250')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0300 finish.`);
       done()
@@ -554,7 +554,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button3: Component = await driver.waitForComponent(ON.id('waterFlowFad_24_02'), 1000);
       await button3.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0260')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0200 finish.`);
       done()
@@ -577,7 +577,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_25'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0270')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0320 finish.`);
       done()
@@ -600,7 +600,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_26'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0280')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0340 finish.`);
       done()
@@ -623,7 +623,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_27'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0290')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0350 finish.`);
       done()
@@ -646,7 +646,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_28'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0300')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0360 finish.`);
       done()
@@ -669,7 +669,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_29'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0310')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0190 finish.`);
       done()
@@ -692,7 +692,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_30'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0320')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0370 finish.`);
       done()
@@ -715,7 +715,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_31'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0330')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0330 finish.`);
       done()
@@ -738,7 +738,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('WaterFlowFad32_Delete'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0340')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0060 finish.`);
       done()
@@ -758,7 +758,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button1: Component = await driver.waitForComponent(ON.id('WaterFlowFad33_Add'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0350')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0090 finish.`);
       done()
@@ -781,7 +781,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('WaterFlowFad34_Values'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0360')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0070 finish.`);
       done()
@@ -804,7 +804,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('WaterFlowFad35_Update'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0370')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0040 finish.`);
       done()
@@ -828,7 +828,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_36_02'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0380')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0150 finish.`);
       done()
@@ -849,7 +849,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('WaterFlowFad37_Splice'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0390')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0050 finish.`);
       done()
@@ -870,7 +870,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_38'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0400')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0030 finish.`);
       done()
@@ -891,7 +891,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_39'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0410')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0140 finish.`);
       done()
@@ -912,7 +912,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button: Component = await driver.waitForComponent(ON.id('waterFlowFad_40'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0420')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0170 finish.`);
       done()
@@ -935,7 +935,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button2: Component = await driver.waitForComponent(ON.id('waterFlowFad_41_02'), 1000);
       await button2.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0430')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0180 finish.`);
       done()
@@ -956,7 +956,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_42'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0440')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0220 finish.`);
       done()
@@ -977,7 +977,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_43'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0450')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0240 finish.`);
       done()
@@ -998,7 +998,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_44'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0460')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0210 finish.`);
       done()
@@ -1019,7 +1019,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_45'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0470')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0230 finish.`);
       done()
@@ -1039,7 +1039,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_46'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0480')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0310 finish.`);
       done()
@@ -1063,7 +1063,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button2: Component = await driver.waitForComponent(ON.id('waterFlowFad_47_02'), 1000);
       await button2.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0490')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0200 finish.`);
       done()
@@ -1087,7 +1087,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button2: Component = await driver.waitForComponent(ON.id('waterFlowFad_48_02'), 1000);
       await button2.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0500')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0170 finish.`);
       done()
@@ -1108,7 +1108,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_49'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0260')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0260 finish.`);
       done()
@@ -1160,7 +1160,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button2: Component = await driver.waitForComponent(ON.id('waterFlowFad_51_02'), 1000);
       await button2.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0230')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0230 finish.`);
       done()
@@ -1189,7 +1189,7 @@ export default function WaterFlowFadingEdgeTest() {
       let point = await button.getBoundsCenter();
       await driver.mouseScroll({x:point.x, y:point.y}, true, 2)
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0240')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0240 finish.`);
       done()
@@ -1212,7 +1212,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button2: Component = await driver.waitForComponent(ON.id('waterFlowFad_53_02'), 1000);
       await button2.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0210')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0210 finish.`);
       done()
@@ -1236,7 +1236,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button2: Component = await driver.waitForComponent(ON.id('waterFlowFad_54_02'), 1000);
       await button2.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0220')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0220 finish.`);
       done()
@@ -1259,7 +1259,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button2: Component = await driver.waitForComponent(ON.id('waterFlowFad_55_02'), 1000);
       await button2.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0280')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0280 finish.`);
       done()
@@ -1338,7 +1338,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_58'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0300')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0300 finish.`);
       done()
@@ -1399,7 +1399,7 @@ export default function WaterFlowFadingEdgeTest() {
       let button1: Component = await driver.waitForComponent(ON.id('waterFlowFad_60'), 1000);
       await button1.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0440')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0440 finish.`);
       done()

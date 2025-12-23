@@ -52,7 +52,7 @@ export default function TextPicker02Test () {
       Settings.createWindow("testability/pages/textPicker/mediaTextPicker01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0012')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0012 finish.`);
       done()
@@ -70,7 +70,7 @@ export default function TextPicker02Test () {
       Settings.createWindow("testability/pages/textPicker/mediaTextPicker02")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0013')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0013 finish.`);
       done()
@@ -88,7 +88,7 @@ export default function TextPicker02Test () {
       Settings.createWindow("testability/pages/textPicker/mediaTextPicker03")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0015')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0015 finish.`);
       done()
@@ -106,7 +106,7 @@ export default function TextPicker02Test () {
       Settings.createWindow("testability/pages/textPicker/mediaTextPicker04")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0019')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0019 finish.`);
       done()
@@ -127,9 +127,154 @@ export default function TextPicker02Test () {
       let button: Component = await driver.waitForComponent(ON.id('mediaTextPicker05'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0020')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0020 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0021
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0021
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0021', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0021 start.`);
+      Settings.createWindow("testability/pages/textPicker/mediaTextPicker06")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let button: Component = await driver.waitForComponent(ON.id('mediaTextPicker06'), 1000);
+      await button.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0021 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0023
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0023
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0023', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0023 start.`);
+      Settings.createWindow("testability/pages/textPicker/mediaTextPicker07")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let textPicker: Component = await driver.waitForComponent(ON.id('mediaTextPicker07'), 1000);
+      let point = await textPicker.getBoundsCenter();
+      await driver.swipe(point.x, point.y, point.x, point.y + 60, 3000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0023 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0024
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0024
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0024', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0024 start.`);
+      Settings.createWindow("testability/pages/textPicker/mediaTextPicker08")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let textPicker: Component = await driver.waitForComponent(ON.id('mediaTextPicker08'), 1000);
+      let point = await textPicker.getBoundsCenter();
+      await driver.swipe(point.x, point.y, point.x, point.y + 60, 3000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0024 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0025
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0025
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0025', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0025 start.`);
+      Settings.createWindow("testability/pages/textPicker/mediaTextPicker09")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let textPicker: Component = await driver.waitForComponent(ON.id('mediaTextPicker09'), 1000);
+      let point = await textPicker.getBoundsCenter();
+      await driver.swipe(point.x, point.y, point.x, point.y + 60, 3000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0025 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0026
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0026
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0026', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0026 start.`);
+      Settings.createWindow("testability/pages/textPicker/mediaTextPicker10")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      let textPicker: Component = await driver.waitForComponent(ON.id('mediaTextPicker10'), 1000);
+      let point = await textPicker.getBoundsCenter();
+      await driver.swipe(point.x, point.y, point.x, point.y + 60, 3000);
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0026 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0028
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0028
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0028', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0028 start.`);
+      Settings.createWindow("testability/pages/textPicker/mediaTextPicker11")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0028 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0029
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0029
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0029', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0029 start.`);
+      Settings.createWindow("testability/pages/textPicker/mediaTextPicker12")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0029 finish.`);
       done()
     })
   })

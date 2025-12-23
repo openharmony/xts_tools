@@ -53,11 +53,16 @@ struct mediaTextPicker05 {
 
       Button('change width')
         .id('mediaTextPicker05')
-        .height('5%')
+        .height(40)
+        .fontSize(15)
+        .fontColor(Color.Black)
+        .width('70%')
+        .border({ width: 1 })
+        .fontWeight(300)
+        .margin(10)
         .onClick(() => {
           this.widthNum = 400;
         })
-        .margin({ top: 10, left: 20 })
     }.width('80%')
   }
 }

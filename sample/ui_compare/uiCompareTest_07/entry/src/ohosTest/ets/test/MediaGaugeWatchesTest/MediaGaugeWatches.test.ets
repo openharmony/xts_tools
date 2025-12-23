@@ -43,7 +43,8 @@ export default function MediaGaugeWatches() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0012
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0012
-     * @tc.type   : Default stroke width for the arrow in the mobile Gauge component
+     * @tc.type   : Function
+     * @tc.desc   : Default stroke width for the arrow in the mobile Gauge component
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -62,7 +63,8 @@ export default function MediaGaugeWatches() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0016
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0016
-     * @tc.type   : Default multi-color gauge segment spacing specifications for the mobile Gauge component
+     * @tc.type   : Function
+     * @tc.desc   : Default multi-color gauge segment spacing specifications for the mobile Gauge component
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -81,7 +83,8 @@ export default function MediaGaugeWatches() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0011
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0011
-     * @tc.type   : Default border-radius specification for the arrow in the mobile Gauge component
+     * @tc.type   : Function
+     * @tc.desc   : Default border-radius specification for the arrow in the mobile Gauge component
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -100,7 +103,8 @@ export default function MediaGaugeWatches() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0010
-     * @tc.type   : Default width and height specifications for the arrow in the mobile Gauge component
+     * @tc.type   : Function
+     * @tc.desc   : Default width and height specifications for the arrow in the mobile Gauge component
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -119,7 +123,8 @@ export default function MediaGaugeWatches() {
     /*
    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0013
    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0013
-   * @tc.type   : Default color specification for the arrow in the mobile Gauge component
+   * @tc.type   : Function
+   * @tc.desc   : Default color specification for the arrow in the mobile Gauge component
    * @tc.size   : MediumTest
    * @tc.level  : 2
    */
@@ -138,7 +143,8 @@ export default function MediaGaugeWatches() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0014
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0014
-     * @tc.type   : Default stroke color specification for the arrow in the mobile Gauge component
+     * @tc.type   : Function
+     * @tc.desc   : Default stroke color specification for the arrow in the mobile Gauge component
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -157,7 +163,8 @@ export default function MediaGaugeWatches() {
     /*
     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0015
     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0015
-    * @tc.type   : Default circular stroke width specification for the mobile Gauge component
+    * @tc.type   : Function
+    * @tc.desc   : Default circular stroke width specification for the mobile Gauge component
     * @tc.size   : MediumTest
     * @tc.level  : 2
     */

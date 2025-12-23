@@ -53,7 +53,7 @@ export default function SwiperTest() {
       Settings.createWindow("testability/pages/swiper_interface/swiper01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0200')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0200 finish.`);
       done()
@@ -72,7 +72,7 @@ export default function SwiperTest() {
       Settings.createWindow("testability/pages/swiper_interface/swiper02")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0170')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0170 finish.`);
       done()

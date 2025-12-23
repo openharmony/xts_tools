@@ -98,7 +98,7 @@ export default function expectedFrameTest() {
       let backDisplaySync: displaySync.DisplaySync = displaySync.create();
       backDisplaySync?.on("frame", callback)
       await buttonCircle.click()
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010 finish.`);
       done()

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -65,7 +65,7 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
       await driver.longClick(point1.x, point1.y);
       await driver.drag(point1.x, point1.y, point2.x, point2.y, 2000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_004');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -96,7 +96,7 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
       await driver.mouseLongClick({ x: point1.x, y: ((rect.top + rect.bottom)/2-200)/2 }, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.drag(point1.x, ((rect.top + rect.bottom)/2-200)/2, point2.x, point2.y, 7000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_002');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -128,7 +128,7 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
       await driver.mouseLongClick(point3, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.drag(point3.x, point3.y, point2.x, point2.y, 7000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_003');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -154,7 +154,7 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseLongClick(point1, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.drag(point1.x, point1.y, point2.x, point2.y, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_016');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -180,7 +180,7 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseLongClick(point1, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.drag(point1.x, point1.y, point2.x, point2.y, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_014');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -207,7 +207,7 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
       await driver.mouseLongClick(point1, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.drag(point1.x, point1.y, point2.x, point2.y, 2000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_015');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
