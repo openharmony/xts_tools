@@ -7034,6 +7034,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/multimedia/SystemSoundPlayer.d.ts",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/global/rawFileDescriptor.d.ts",
             "bundle_name": [
                 "resource_management"
