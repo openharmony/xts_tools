@@ -15,36 +15,26 @@
 
 import router from '@ohos.router';
 
-@Entry
+@Entry({ routeName: 'RoutingNamedRoutesInterface20' })
 @Component
-struct RoutingRedirection30 {
-  @State message: string = 'Router Redirection Test 0030';
+struct RoutingNamedRoutesInterface20 {
+  @State message: string = 'SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0020';
+  @State currentPackage: string = '普通ETS页面';
   @State operationLog: string = '';
 
-  aboutToAppear() {
+  aboutToAppear(): void {
     this.addLog('页面初始化完成');
-    this.addLog('测试场景：A包拉起B包页面，B里面router跳转');
+    this.addLog('测试场景：har包/hsp包/普通包相互之间路由跳转');
   }
 
-  addLog(msg: string) {
+  addLog(msg: string): void {
     const time = new Date().toLocaleTimeString();
     this.operationLog = `[${time}] ${msg}\n${this.operationLog}`;
   }
 
-  performRouterPush() {
-    this.addLog('执行 router.pushUrl 操作...');
-    router.pushUrl({
-      url: 'testability/pages/RoutingRedirection/RoutingRedirection30'
-    }).then(() => {
-      this.addLog('router.pushUrl 成功');
-    }).catch((err: Error) => {
-      this.addLog(`router.pushUrl 失败: ${err.message}`);
-    });
-  }
-
-  performRouterBack() {
-    this.addLog('执行 router.back 操作...');
-    router.back();
+  navigateToPage(): void {
+    this.addLog('尝试跨模块路由跳转...');
+    this.addLog('注意：此测试需要实际配置HAR/HSP模块');
   }
 
   build() {
@@ -54,33 +44,20 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20 })
 
-      Text('SUB_ACE_Routing_redirection_0030')
+      Text('har包/hsp包/普通包相互之间路由跳转测试')
         .fontSize(14)
         .fontColor(Color.Gray)
 
       Divider()
 
-      Text('测试说明')
+      Text(`当前页面类型: ${this.currentPackage}`)
         .fontSize(16)
         .fontWeight(FontWeight.Medium)
-        .alignSelf(ItemAlign.Start)
 
-      Text('两个hap包之间相互跳转，A包拉起B包页面，B包内router跳转')
-        .fontSize(14)
-        .margin({ bottom: 10 })
-
-      Row({ space: 10 }) {
-        Button('Router Push')
-          .onClick(() => this.performRouterPush())
-          .width('45%')
-          .id('btn')
-
-        Button('Router Back')
-          .onClick(() => this.performRouterBack())
-          .width('45%')
-      }
-      .width('100%')
-      .justifyContent(FlexAlign.SpaceEvenly)
+      Button('执行跨包路由跳转')
+        .onClick(() => this.navigateToPage())
+        .width('80%')
+        .id('btn')
 
       Text('操作日志')
         .fontSize(16)
@@ -102,7 +79,7 @@ struct RoutingRedirection30 {
       .scrollable(ScrollDirection.Vertical)
       .scrollBar(BarState.Auto)
 
-      Text('预期结果：成功上报页面路径给元能力')
+      Text('预期结果：能够在不同类型的模块间进行路由跳转')
         .fontSize(14)
         .fontColor(Color.Green)
         .margin({ top: 20 })
@@ -112,3 +89,4 @@ struct RoutingRedirection30 {
     .padding(20)
   }
 }
+

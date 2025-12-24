@@ -17,13 +17,14 @@ import router from '@ohos.router';
 
 @Entry
 @Component
-struct RoutingRedirection30 {
-  @State message: string = 'Router Redirection Test 0030';
+struct RoutingRedirection60 {
+  @State message: string = 'Router Redirection Test 0060';
   @State operationLog: string = '';
+  @State namedRouteCount: number = 0;
 
   aboutToAppear() {
     this.addLog('页面初始化完成');
-    this.addLog('测试场景：A包拉起B包页面，B里面router跳转');
+    this.addLog('测试场景：router.pushNamedRoute命名路由跳转');
   }
 
   addLog(msg: string) {
@@ -31,20 +32,24 @@ struct RoutingRedirection30 {
     this.operationLog = `[${time}] ${msg}\n${this.operationLog}`;
   }
 
-  performRouterPush() {
-    this.addLog('执行 router.pushUrl 操作...');
+  performPushNamedRoute() {
+    this.namedRouteCount++;
+    this.addLog(`执行第 ${this.namedRouteCount} 次 router.pushNamedRoute...`);
+    
+    // 使用 pushUrl 模拟命名路由行为
     router.pushUrl({
-      url: 'testability/pages/RoutingRedirection/RoutingRedirection30'
+      url: 'testability/pages/RoutingRedirection/RoutingRedirection60',
+      params: {
+        routeName: 'RoutingRedirection60',
+        routeType: 'namedRoute',
+        count: this.namedRouteCount
+      }
     }).then(() => {
-      this.addLog('router.pushUrl 成功');
+      this.addLog(`pushNamedRoute 成功 (第 ${this.namedRouteCount} 次)`);
+      this.addLog('预期：NotifyPageHide 日志已上报');
     }).catch((err: Error) => {
-      this.addLog(`router.pushUrl 失败: ${err.message}`);
+      this.addLog(`pushNamedRoute 失败: ${err.message}`);
     });
-  }
-
-  performRouterBack() {
-    this.addLog('执行 router.back 操作...');
-    router.back();
   }
 
   build() {
@@ -54,7 +59,7 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20 })
 
-      Text('SUB_ACE_Routing_redirection_0030')
+      Text('SUB_ACE_Routing_redirection_0060')
         .fontSize(14)
         .fontColor(Color.Gray)
 
@@ -65,22 +70,20 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Medium)
         .alignSelf(ItemAlign.Start)
 
-      Text('两个hap包之间相互跳转，A包拉起B包页面，B包内router跳转')
+      Text('router.pushNamedRoute点击后成功获取日志，跳转到指定命名路由')
         .fontSize(14)
         .margin({ bottom: 10 })
 
-      Row({ space: 10 }) {
-        Button('Router Push')
-          .onClick(() => this.performRouterPush())
-          .width('45%')
-          .id('btn')
+      Text(`已执行 pushNamedRoute 次数: ${this.namedRouteCount}`)
+        .fontSize(14)
+        .fontColor('#E6A23C')
+        .margin({ bottom: 10 })
 
-        Button('Router Back')
-          .onClick(() => this.performRouterBack())
-          .width('45%')
-      }
-      .width('100%')
-      .justifyContent(FlexAlign.SpaceEvenly)
+      Button('执行 PushNamedRoute')
+        .onClick(() => this.performPushNamedRoute())
+        .width('80%')
+        .backgroundColor('#E6A23C')
+        .id('btn')
 
       Text('操作日志')
         .fontSize(16)
@@ -106,9 +109,15 @@ struct RoutingRedirection30 {
         .fontSize(14)
         .fontColor(Color.Green)
         .margin({ top: 20 })
+
+      Text('验证方式：hilog | grep NotifyPageHide')
+        .fontSize(12)
+        .fontColor('#909399')
+        .margin({ top: 10 })
     }
     .width('100%')
     .height('100%')
     .padding(20)
   }
 }
+

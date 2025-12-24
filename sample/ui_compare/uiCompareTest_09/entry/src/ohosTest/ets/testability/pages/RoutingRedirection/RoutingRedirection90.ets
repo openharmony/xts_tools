@@ -17,13 +17,14 @@ import router from '@ohos.router';
 
 @Entry
 @Component
-struct RoutingRedirection30 {
-  @State message: string = 'Router Redirection Test 0030';
+struct RoutingRedirection90 {
+  @State message: string = 'Router Redirection Test 0090';
   @State operationLog: string = '';
+  @State operationCount: number = 0;
 
   aboutToAppear() {
     this.addLog('页面初始化完成');
-    this.addLog('测试场景：A包拉起B包页面，B里面router跳转');
+    this.addLog('测试场景：反复进行页面跳转');
   }
 
   addLog(msg: string) {
@@ -31,20 +32,47 @@ struct RoutingRedirection30 {
     this.operationLog = `[${time}] ${msg}\n${this.operationLog}`;
   }
 
-  performRouterPush() {
-    this.addLog('执行 router.pushUrl 操作...');
-    router.pushUrl({
-      url: 'testability/pages/RoutingRedirection/RoutingRedirection30'
-    }).then(() => {
-      this.addLog('router.pushUrl 成功');
-    }).catch((err: Error) => {
-      this.addLog(`router.pushUrl 失败: ${err.message}`);
-    });
+  performRepeatRouting() {
+    this.operationCount++;
+    const operation = this.operationCount % 2 === 0 ? 'pushUrl' : 'replaceUrl';
+    
+    this.addLog(`执行第 ${this.operationCount} 次路由操作: ${operation}`);
+    
+    if (operation === 'pushUrl') {
+      router.pushUrl({
+        url: 'testability/pages/RoutingRedirection/RoutingRedirection90',
+        params: { count: this.operationCount }
+      }).then(() => {
+        this.addLog(`${operation} 成功 (第 ${this.operationCount} 次)`);
+      }).catch((err: Error) => {
+        this.addLog(`${operation} 失败: ${err.message}`);
+      });
+    } else {
+      router.replaceUrl({
+        url: 'testability/pages/RoutingRedirection/RoutingRedirection90',
+        params: { count: this.operationCount }
+      }).then(() => {
+        this.addLog(`${operation} 成功 (第 ${this.operationCount} 次)`);
+      }).catch((err: Error) => {
+        this.addLog(`${operation} 失败: ${err.message}`);
+      });
+    }
   }
 
   performRouterBack() {
-    this.addLog('执行 router.back 操作...');
-    router.back();
+    this.addLog('执行 router.back 返回...');
+    try {
+      router.back();
+      this.addLog('router.back 执行成功');
+    } catch (err) {
+      this.addLog(`router.back 失败: ${JSON.stringify(err)}`);
+    }
+  }
+
+  clearLog() {
+    this.operationLog = '';
+    this.operationCount = 0;
+    this.addLog('日志已清空，计数器已重置');
   }
 
   build() {
@@ -54,7 +82,7 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20 })
 
-      Text('SUB_ACE_Routing_redirection_0030')
+      Text('SUB_ACE_Routing_redirection_0090')
         .fontSize(14)
         .fontColor(Color.Gray)
 
@@ -65,19 +93,30 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Medium)
         .alignSelf(ItemAlign.Start)
 
-      Text('两个hap包之间相互跳转，A包拉起B包页面，B包内router跳转')
+      Text('反复进行页面跳转，测试路由操作稳定性')
         .fontSize(14)
         .margin({ bottom: 10 })
 
+      Text(`已执行路由操作次数: ${this.operationCount}`)
+        .fontSize(14)
+        .fontColor('#F56C6C')
+        .margin({ bottom: 10 })
+
       Row({ space: 10 }) {
-        Button('Router Push')
-          .onClick(() => this.performRouterPush())
-          .width('45%')
+        Button('反复路由')
+          .onClick(() => this.performRepeatRouting())
+          .width('30%')
+          .backgroundColor('#F56C6C')
           .id('btn')
 
-        Button('Router Back')
+        Button('返回')
           .onClick(() => this.performRouterBack())
-          .width('45%')
+          .width('30%')
+
+        Button('清空日志')
+          .onClick(() => this.clearLog())
+          .width('30%')
+          .backgroundColor('#909399')
       }
       .width('100%')
       .justifyContent(FlexAlign.SpaceEvenly)
@@ -112,3 +151,4 @@ struct RoutingRedirection30 {
     .padding(20)
   }
 }
+

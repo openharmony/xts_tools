@@ -17,13 +17,14 @@ import router from '@ohos.router';
 
 @Entry
 @Component
-struct RoutingRedirection30 {
-  @State message: string = 'Router Redirection Test 0030';
+struct RoutingRedirection50 {
+  @State message: string = 'Router Redirection Test 0050';
   @State operationLog: string = '';
+  @State pushCount: number = 0;
 
   aboutToAppear() {
     this.addLog('页面初始化完成');
-    this.addLog('测试场景：A包拉起B包页面，B里面router跳转');
+    this.addLog('测试场景：router.pushUrl点击后成功获取日志');
   }
 
   addLog(msg: string) {
@@ -32,18 +33,23 @@ struct RoutingRedirection30 {
   }
 
   performRouterPush() {
-    this.addLog('执行 router.pushUrl 操作...');
+    this.pushCount++;
+    this.addLog(`执行第 ${this.pushCount} 次 router.pushUrl 操作...`);
     router.pushUrl({
-      url: 'testability/pages/RoutingRedirection/RoutingRedirection30'
+      url: 'testability/pages/RoutingRedirection/RoutingRedirection50',
+      params: {
+        count: this.pushCount,
+        timestamp: Date.now()
+      }
     }).then(() => {
-      this.addLog('router.pushUrl 成功');
+      this.addLog(`router.pushUrl 成功 (第 ${this.pushCount} 次)`);
     }).catch((err: Error) => {
       this.addLog(`router.pushUrl 失败: ${err.message}`);
     });
   }
 
   performRouterBack() {
-    this.addLog('执行 router.back 操作...');
+    this.addLog('执行 router.back 返回...');
     router.back();
   }
 
@@ -54,7 +60,7 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20 })
 
-      Text('SUB_ACE_Routing_redirection_0030')
+      Text('SUB_ACE_Routing_redirection_0050')
         .fontSize(14)
         .fontColor(Color.Gray)
 
@@ -65,12 +71,17 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Medium)
         .alignSelf(ItemAlign.Start)
 
-      Text('两个hap包之间相互跳转，A包拉起B包页面，B包内router跳转')
+      Text('router.pushUrl点击后成功获取日志，跳转到应用内的指定页面')
         .fontSize(14)
         .margin({ bottom: 10 })
 
+      Text(`已执行 pushUrl 次数: ${this.pushCount}`)
+        .fontSize(14)
+        .fontColor('#409EFF')
+        .margin({ bottom: 10 })
+
       Row({ space: 10 }) {
-        Button('Router Push')
+        Button('Router PushUrl')
           .onClick(() => this.performRouterPush())
           .width('45%')
           .id('btn')
@@ -112,3 +123,4 @@ struct RoutingRedirection30 {
     .padding(20)
   }
 }
+

@@ -17,13 +17,13 @@ import router from '@ohos.router';
 
 @Entry
 @Component
-struct RoutingRedirection30 {
-  @State message: string = 'Router Redirection Test 0030';
+struct RoutingRedirection10 {
+  @State message: string = 'Router Redirection Test 0010';
   @State operationLog: string = '';
 
   aboutToAppear() {
     this.addLog('页面初始化完成');
-    this.addLog('测试场景：A包拉起B包页面，B里面router跳转');
+    this.addLog('测试场景：页面正常跳转，上报页面路径给元能力');
   }
 
   addLog(msg: string) {
@@ -32,19 +32,19 @@ struct RoutingRedirection30 {
   }
 
   performRouterPush() {
-    this.addLog('执行 router.pushUrl 操作...');
+    this.addLog('执行 router.pushUrl 页面跳转...');
     router.pushUrl({
-      url: 'testability/pages/RoutingRedirection/RoutingRedirection30'
+      url: 'testability/pages/RoutingRedirection/RoutingRedirection10',
+      params: {
+        data: '测试数据',
+        timestamp: Date.now()
+      }
     }).then(() => {
-      this.addLog('router.pushUrl 成功');
+      this.addLog('router.pushUrl 成功，页面已跳转');
+      this.addLog('预期：NotifyPageHide 日志已上报');
     }).catch((err: Error) => {
       this.addLog(`router.pushUrl 失败: ${err.message}`);
     });
-  }
-
-  performRouterBack() {
-    this.addLog('执行 router.back 操作...');
-    router.back();
   }
 
   build() {
@@ -54,7 +54,7 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20 })
 
-      Text('SUB_ACE_Routing_redirection_0030')
+      Text('SUB_ACE_Routing_redirection_0010')
         .fontSize(14)
         .fontColor(Color.Gray)
 
@@ -65,22 +65,14 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Medium)
         .alignSelf(ItemAlign.Start)
 
-      Text('两个hap包之间相互跳转，A包拉起B包页面，B包内router跳转')
+      Text('页面跳转支持上报页面路径给元能力，页面正常跳转')
         .fontSize(14)
         .margin({ bottom: 10 })
 
-      Row({ space: 10 }) {
-        Button('Router Push')
-          .onClick(() => this.performRouterPush())
-          .width('45%')
-          .id('btn')
-
-        Button('Router Back')
-          .onClick(() => this.performRouterBack())
-          .width('45%')
-      }
-      .width('100%')
-      .justifyContent(FlexAlign.SpaceEvenly)
+      Button('执行页面跳转')
+        .onClick(() => this.performRouterPush())
+        .width('80%')
+        .id('btn')
 
       Text('操作日志')
         .fontSize(16)
@@ -106,9 +98,15 @@ struct RoutingRedirection30 {
         .fontSize(14)
         .fontColor(Color.Green)
         .margin({ top: 20 })
+
+      Text('验证方式：hilog | grep NotifyPageHide')
+        .fontSize(12)
+        .fontColor('#909399')
+        .margin({ top: 10 })
     }
     .width('100%')
     .height('100%')
     .padding(20)
   }
 }
+

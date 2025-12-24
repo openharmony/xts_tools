@@ -14,37 +14,35 @@
  */
 
 import router from '@ohos.router';
+import { BusinessError } from '@ohos.base';
 
-@Entry
+@Entry({ routeName: 'RoutingNamedRoutesInterface230' })
 @Component
-struct RoutingRedirection30 {
-  @State message: string = 'Router Redirection Test 0030';
+struct RoutingNamedRoutesInterface230 {
+  @State message: string = 'SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0230';
   @State operationLog: string = '';
 
-  aboutToAppear() {
+  aboutToAppear(): void {
     this.addLog('页面初始化完成');
-    this.addLog('测试场景：A包拉起B包页面，B里面router跳转');
+    this.addLog('测试场景：当命名路由不唯一时，使用pushNamedRoute接口能够成功跳转最后加载的页面');
   }
 
-  addLog(msg: string) {
+  addLog(msg: string): void {
     const time = new Date().toLocaleTimeString();
     this.operationLog = `[${time}] ${msg}\n${this.operationLog}`;
   }
 
-  performRouterPush() {
-    this.addLog('执行 router.pushUrl 操作...');
-    router.pushUrl({
-      url: 'testability/pages/RoutingRedirection/RoutingRedirection30'
+  testDuplicateRouteName(): void {
+    this.addLog('测试重复命名路由的跳转行为...');
+    this.addLog('注意：如果存在同名路由，会跳转到最后加载的页面');
+    router.pushNamedRoute({
+      name: 'RoutingNamedRoutesInterface10',
+      params: { from: '0230', testType: 'duplicate route test' }
     }).then(() => {
-      this.addLog('router.pushUrl 成功');
-    }).catch((err: Error) => {
-      this.addLog(`router.pushUrl 失败: ${err.message}`);
+      this.addLog('跳转成功，应跳转到最后加载的同名路由页面');
+    }).catch((err: BusinessError) => {
+      this.addLog(`跳转失败: ${JSON.stringify(err)}`);
     });
-  }
-
-  performRouterBack() {
-    this.addLog('执行 router.back 操作...');
-    router.back();
   }
 
   build() {
@@ -54,33 +52,16 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20 })
 
-      Text('SUB_ACE_Routing_redirection_0030')
+      Text('当命名路由不唯一时跳转最后加载的页面')
         .fontSize(14)
         .fontColor(Color.Gray)
 
       Divider()
 
-      Text('测试说明')
-        .fontSize(16)
-        .fontWeight(FontWeight.Medium)
-        .alignSelf(ItemAlign.Start)
-
-      Text('两个hap包之间相互跳转，A包拉起B包页面，B包内router跳转')
-        .fontSize(14)
-        .margin({ bottom: 10 })
-
-      Row({ space: 10 }) {
-        Button('Router Push')
-          .onClick(() => this.performRouterPush())
-          .width('45%')
-          .id('btn')
-
-        Button('Router Back')
-          .onClick(() => this.performRouterBack())
-          .width('45%')
-      }
-      .width('100%')
-      .justifyContent(FlexAlign.SpaceEvenly)
+      Button('测试重复命名路由')
+        .onClick(() => this.testDuplicateRouteName())
+        .width('80%')
+        .id('btn')
 
       Text('操作日志')
         .fontSize(16)
@@ -102,7 +83,7 @@ struct RoutingRedirection30 {
       .scrollable(ScrollDirection.Vertical)
       .scrollBar(BarState.Auto)
 
-      Text('预期结果：成功上报页面路径给元能力')
+      Text('预期结果：跳转到最后加载的同名路由页面')
         .fontSize(14)
         .fontColor(Color.Green)
         .margin({ top: 20 })
@@ -112,3 +93,4 @@ struct RoutingRedirection30 {
     .padding(20)
   }
 }
+

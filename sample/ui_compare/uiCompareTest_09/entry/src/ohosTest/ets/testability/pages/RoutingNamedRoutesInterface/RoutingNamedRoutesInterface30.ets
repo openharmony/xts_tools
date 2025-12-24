@@ -14,37 +14,55 @@
  */
 
 import router from '@ohos.router';
+import { BusinessError } from '@ohos.base';
 
-@Entry
+@Entry({ routeName: 'RoutingNamedRoutesInterface30' })
 @Component
-struct RoutingRedirection30 {
-  @State message: string = 'Router Redirection Test 0030';
+struct RoutingNamedRoutesInterface30 {
+  @State message: string = 'SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0030';
+  @State paramsReceived: string = '无参数';
   @State operationLog: string = '';
 
-  aboutToAppear() {
+  aboutToAppear(): void {
     this.addLog('页面初始化完成');
-    this.addLog('测试场景：A包拉起B包页面，B里面router跳转');
+    this.addLog('测试场景：replaceNameRoute接口和getParams接口组合测试');
+    this.getRouteParams();
   }
 
-  addLog(msg: string) {
+  addLog(msg: string): void {
     const time = new Date().toLocaleTimeString();
     this.operationLog = `[${time}] ${msg}\n${this.operationLog}`;
   }
 
-  performRouterPush() {
-    this.addLog('执行 router.pushUrl 操作...');
-    router.pushUrl({
-      url: 'testability/pages/RoutingRedirection/RoutingRedirection30'
-    }).then(() => {
-      this.addLog('router.pushUrl 成功');
-    }).catch((err: Error) => {
-      this.addLog(`router.pushUrl 失败: ${err.message}`);
-    });
+  getRouteParams(): void {
+    try {
+      const params = router.getParams();
+      if (params) {
+        this.paramsReceived = JSON.stringify(params);
+        this.addLog(`成功获取参数: ${this.paramsReceived}`);
+      } else {
+        this.paramsReceived = '未接收到参数';
+        this.addLog('未接收到参数');
+      }
+    } catch (err) {
+      this.addLog(`获取参数失败: ${JSON.stringify(err)}`);
+    }
   }
 
-  performRouterBack() {
-    this.addLog('执行 router.back 操作...');
-    router.back();
+  replaceToSecondPage(): void {
+    this.addLog('执行 replaceNamedRoute 替换到 RoutingNamedRoutesInterface40...');
+    router.replaceNamedRoute({
+      name: 'RoutingNamedRoutesInterface40',
+      params: {
+        source: 'RoutingNamedRoutesInterface30',
+        data: 'Replaced from 0030',
+        timestamp: Date.now()
+      }
+    }).then(() => {
+      this.addLog('replaceNamedRoute 成功');
+    }).catch((err: BusinessError) => {
+      this.addLog(`replaceNamedRoute 失败: ${JSON.stringify(err)}`);
+    });
   }
 
   build() {
@@ -54,33 +72,31 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20 })
 
-      Text('SUB_ACE_Routing_redirection_0030')
+      Text('replaceNameRoute接口和getParams接口组合测试')
         .fontSize(14)
         .fontColor(Color.Gray)
 
       Divider()
 
-      Text('测试说明')
+      Text('接收到的参数:')
         .fontSize(16)
         .fontWeight(FontWeight.Medium)
         .alignSelf(ItemAlign.Start)
 
-      Text('两个hap包之间相互跳转，A包拉起B包页面，B包内router跳转')
+      Text(this.paramsReceived)
         .fontSize(14)
+        .fontColor('#409EFF')
         .margin({ bottom: 10 })
 
-      Row({ space: 10 }) {
-        Button('Router Push')
-          .onClick(() => this.performRouterPush())
-          .width('45%')
-          .id('btn')
+      Button('替换到第二个页面 (带参数)')
+        .onClick(() => this.replaceToSecondPage())
+        .width('80%')
+        .id('btn')
 
-        Button('Router Back')
-          .onClick(() => this.performRouterBack())
-          .width('45%')
-      }
-      .width('100%')
-      .justifyContent(FlexAlign.SpaceEvenly)
+      Button('刷新参数')
+        .onClick(() => this.getRouteParams())
+        .width('80%')
+        .backgroundColor('#67C23A')
 
       Text('操作日志')
         .fontSize(16)
@@ -102,7 +118,7 @@ struct RoutingRedirection30 {
       .scrollable(ScrollDirection.Vertical)
       .scrollBar(BarState.Auto)
 
-      Text('预期结果：成功上报页面路径给元能力')
+      Text('预期结果：使用replace跳转后，无法回退到当前页面')
         .fontSize(14)
         .fontColor(Color.Green)
         .margin({ top: 20 })
@@ -112,3 +128,4 @@ struct RoutingRedirection30 {
     .padding(20)
   }
 }
+

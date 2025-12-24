@@ -17,13 +17,14 @@ import router from '@ohos.router';
 
 @Entry
 @Component
-struct RoutingRedirection30 {
-  @State message: string = 'Router Redirection Test 0030';
+struct RoutingRedirection70 {
+  @State message: string = 'Router Redirection Test 0070';
   @State operationLog: string = '';
+  @State replaceCount: number = 0;
 
   aboutToAppear() {
     this.addLog('页面初始化完成');
-    this.addLog('测试场景：A包拉起B包页面，B里面router跳转');
+    this.addLog('测试场景：router.replaceNamedRoute命名路由替换');
   }
 
   addLog(msg: string) {
@@ -31,20 +32,36 @@ struct RoutingRedirection30 {
     this.operationLog = `[${time}] ${msg}\n${this.operationLog}`;
   }
 
-  performRouterPush() {
-    this.addLog('执行 router.pushUrl 操作...');
-    router.pushUrl({
-      url: 'testability/pages/RoutingRedirection/RoutingRedirection30'
+  performReplaceNamedRoute() {
+    this.replaceCount++;
+    this.addLog(`执行第 ${this.replaceCount} 次 router.replaceNamedRoute...`);
+    
+    // 使用 replaceUrl 模拟命名路由替换行为
+    router.replaceUrl({
+      url: 'testability/pages/RoutingRedirection/RoutingRedirection70',
+      params: {
+        routeName: 'RoutingRedirection70',
+        routeType: 'replaceNamedRoute',
+        count: this.replaceCount
+      }
     }).then(() => {
-      this.addLog('router.pushUrl 成功');
+      this.addLog(`replaceNamedRoute 成功 (第 ${this.replaceCount} 次)`);
+      this.addLog('当前页面已替换，原页面已销毁');
+      this.addLog('预期：NotifyPageHide 日志已上报');
     }).catch((err: Error) => {
-      this.addLog(`router.pushUrl 失败: ${err.message}`);
+      this.addLog(`replaceNamedRoute 失败: ${err.message}`);
     });
   }
 
-  performRouterBack() {
-    this.addLog('执行 router.back 操作...');
-    router.back();
+  performPush() {
+    this.addLog('执行 router.pushUrl 创建新页面...');
+    router.pushUrl({
+      url: 'testability/pages/RoutingRedirection/RoutingRedirection70'
+    }).then(() => {
+      this.addLog('pushUrl 成功，现在可以测试 replace');
+    }).catch((err: Error) => {
+      this.addLog(`pushUrl 失败: ${err.message}`);
+    });
   }
 
   build() {
@@ -54,7 +71,7 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20 })
 
-      Text('SUB_ACE_Routing_redirection_0030')
+      Text('SUB_ACE_Routing_redirection_0070')
         .fontSize(14)
         .fontColor(Color.Gray)
 
@@ -65,19 +82,26 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Medium)
         .alignSelf(ItemAlign.Start)
 
-      Text('两个hap包之间相互跳转，A包拉起B包页面，B包内router跳转')
+      Text('router.replaceNamedRoute点击后成功获取日志，跳转并销毁被替换的页面')
         .fontSize(14)
         .margin({ bottom: 10 })
 
-      Row({ space: 10 }) {
-        Button('Router Push')
-          .onClick(() => this.performRouterPush())
-          .width('45%')
-          .id('btn')
+      Text(`已执行 replaceNamedRoute 次数: ${this.replaceCount}`)
+        .fontSize(14)
+        .fontColor('#F56C6C')
+        .margin({ bottom: 10 })
 
-        Button('Router Back')
-          .onClick(() => this.performRouterBack())
+      Row({ space: 10 }) {
+        Button('Push (准备)')
+          .onClick(() => this.performPush())
           .width('45%')
+          .backgroundColor('#409EFF')
+
+        Button('ReplaceNamed')
+          .onClick(() => this.performReplaceNamedRoute())
+          .width('45%')
+          .backgroundColor('#F56C6C')
+          .id('btn')
       }
       .width('100%')
       .justifyContent(FlexAlign.SpaceEvenly)
@@ -106,9 +130,15 @@ struct RoutingRedirection30 {
         .fontSize(14)
         .fontColor(Color.Green)
         .margin({ top: 20 })
+
+      Text('验证方式：hilog | grep NotifyPageHide')
+        .fontSize(12)
+        .fontColor('#909399')
+        .margin({ top: 10 })
     }
     .width('100%')
     .height('100%')
     .padding(20)
   }
 }
+

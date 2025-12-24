@@ -15,36 +15,33 @@
 
 import router from '@ohos.router';
 
-@Entry
+@Entry({ routeName: 'RoutingNamedRoutesInterface150' })
 @Component
-struct RoutingRedirection30 {
-  @State message: string = 'Router Redirection Test 0030';
+struct RoutingNamedRoutesInterface150 {
+  @State message: string = 'SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0150';
   @State operationLog: string = '';
 
-  aboutToAppear() {
+  aboutToAppear(): void {
     this.addLog('页面初始化完成');
-    this.addLog('测试场景：A包拉起B包页面，B里面router跳转');
+    this.addLog('测试场景：router.replaceNamedRoute含mode同步接口错误码测试');
   }
 
-  addLog(msg: string) {
+  addLog(msg: string): void {
     const time = new Date().toLocaleTimeString();
     this.operationLog = `[${time}] ${msg}\n${this.operationLog}`;
   }
 
-  performRouterPush() {
-    this.addLog('执行 router.pushUrl 操作...');
-    router.pushUrl({
-      url: 'testability/pages/RoutingRedirection/RoutingRedirection30'
-    }).then(() => {
-      this.addLog('router.pushUrl 成功');
-    }).catch((err: Error) => {
-      this.addLog(`router.pushUrl 失败: ${err.message}`);
-    });
-  }
-
-  performRouterBack() {
-    this.addLog('执行 router.back 操作...');
-    router.back();
+  testInvalidReplaceMode(): void {
+    this.addLog('测试replace无效mode...');
+    try {
+      router.replaceNamedRoute({
+        name: 'RoutingNamedRoutesInterface160',
+        params: {}
+      }, 999 as router.RouterMode);
+      this.addLog('调用未抛出异常（预期应该失败）');
+    } catch (err) {
+      this.addLog(`捕获到预期错误: ${JSON.stringify(err)}`);
+    }
   }
 
   build() {
@@ -54,33 +51,16 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20 })
 
-      Text('SUB_ACE_Routing_redirection_0030')
+      Text('router.replaceNamedRoute含mode同步接口错误码测试')
         .fontSize(14)
         .fontColor(Color.Gray)
 
       Divider()
 
-      Text('测试说明')
-        .fontSize(16)
-        .fontWeight(FontWeight.Medium)
-        .alignSelf(ItemAlign.Start)
-
-      Text('两个hap包之间相互跳转，A包拉起B包页面，B包内router跳转')
-        .fontSize(14)
-        .margin({ bottom: 10 })
-
-      Row({ space: 10 }) {
-        Button('Router Push')
-          .onClick(() => this.performRouterPush())
-          .width('45%')
-          .id('btn')
-
-        Button('Router Back')
-          .onClick(() => this.performRouterBack())
-          .width('45%')
-      }
-      .width('100%')
-      .justifyContent(FlexAlign.SpaceEvenly)
+      Button('测试无效mode')
+        .onClick(() => this.testInvalidReplaceMode())
+        .width('80%')
+        .id('btn')
 
       Text('操作日志')
         .fontSize(16)
@@ -102,7 +82,7 @@ struct RoutingRedirection30 {
       .scrollable(ScrollDirection.Vertical)
       .scrollBar(BarState.Auto)
 
-      Text('预期结果：成功上报页面路径给元能力')
+      Text('预期结果：能够捕获错误码')
         .fontSize(14)
         .fontColor(Color.Green)
         .margin({ top: 20 })
@@ -112,3 +92,4 @@ struct RoutingRedirection30 {
     .padding(20)
   }
 }
+

@@ -15,36 +15,46 @@
 
 import router from '@ohos.router';
 
-@Entry
+@Entry({ routeName: 'RoutingNamedRoutesInterface60' })
 @Component
-struct RoutingRedirection30 {
-  @State message: string = 'Router Redirection Test 0030';
+struct RoutingNamedRoutesInterface60 {
+  @State message: string = 'SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0060';
   @State operationLog: string = '';
 
-  aboutToAppear() {
+  aboutToAppear(): void {
     this.addLog('页面初始化完成');
-    this.addLog('测试场景：A包拉起B包页面，B里面router跳转');
+    this.addLog('测试场景：router.pushNamedRoute含mode同步接口功能测试');
   }
 
-  addLog(msg: string) {
+  addLog(msg: string): void {
     const time = new Date().toLocaleTimeString();
     this.operationLog = `[${time}] ${msg}\n${this.operationLog}`;
   }
 
-  performRouterPush() {
-    this.addLog('执行 router.pushUrl 操作...');
-    router.pushUrl({
-      url: 'testability/pages/RoutingRedirection/RoutingRedirection30'
-    }).then(() => {
-      this.addLog('router.pushUrl 成功');
-    }).catch((err: Error) => {
-      this.addLog(`router.pushUrl 失败: ${err.message}`);
-    });
+  testStandardMode(): void {
+    this.addLog('测试 Standard 模式...');
+    try {
+      router.pushNamedRoute({
+        name: 'RoutingNamedRoutesInterface70',
+        params: { mode: 'Standard' }
+      }, router.RouterMode.Standard);
+      this.addLog('Standard 模式跳转成功');
+    } catch (err) {
+      this.addLog(`Standard 模式跳转失败: ${JSON.stringify(err)}`);
+    }
   }
 
-  performRouterBack() {
-    this.addLog('执行 router.back 操作...');
-    router.back();
+  testSingleMode(): void {
+    this.addLog('测试 Single 模式...');
+    try {
+      router.pushNamedRoute({
+        name: 'RoutingNamedRoutesInterface70',
+        params: { mode: 'Single' }
+      }, router.RouterMode.Single);
+      this.addLog('Single 模式跳转成功');
+    } catch (err) {
+      this.addLog(`Single 模式跳转失败: ${JSON.stringify(err)}`);
+    }
   }
 
   build() {
@@ -54,33 +64,21 @@ struct RoutingRedirection30 {
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20 })
 
-      Text('SUB_ACE_Routing_redirection_0030')
+      Text('router.pushNamedRoute含mode同步接口功能测试')
         .fontSize(14)
         .fontColor(Color.Gray)
 
       Divider()
 
-      Text('测试说明')
-        .fontSize(16)
-        .fontWeight(FontWeight.Medium)
-        .alignSelf(ItemAlign.Start)
+      Button('测试 Standard 模式')
+        .onClick(() => this.testStandardMode())
+        .width('80%')
+        .id('btn')
 
-      Text('两个hap包之间相互跳转，A包拉起B包页面，B包内router跳转')
-        .fontSize(14)
-        .margin({ bottom: 10 })
-
-      Row({ space: 10 }) {
-        Button('Router Push')
-          .onClick(() => this.performRouterPush())
-          .width('45%')
-          .id('btn')
-
-        Button('Router Back')
-          .onClick(() => this.performRouterBack())
-          .width('45%')
-      }
-      .width('100%')
-      .justifyContent(FlexAlign.SpaceEvenly)
+      Button('测试 Single 模式')
+        .onClick(() => this.testSingleMode())
+        .width('80%')
+        .backgroundColor('#67C23A')
 
       Text('操作日志')
         .fontSize(16)
@@ -102,7 +100,7 @@ struct RoutingRedirection30 {
       .scrollable(ScrollDirection.Vertical)
       .scrollBar(BarState.Auto)
 
-      Text('预期结果：成功上报页面路径给元能力')
+      Text('预期结果：不同模式能够正常跳转')
         .fontSize(14)
         .fontColor(Color.Green)
         .margin({ top: 20 })
@@ -112,3 +110,4 @@ struct RoutingRedirection30 {
     .padding(20)
   }
 }
+

@@ -12,59 +12,51 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-@Reusable
-@Component
-struct ReusableChild250 {
-  message: string = "hello";
+
+@ObservedV2
+class User240 {
+  @Trace name: string;
+  @Trace age: number;
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+}
+
+@Entry
+@ComponentV2
+struct Parent240 {
+  @Provider('data1') users1: User240 = new User240('XIAOL', 18);
 
   build() {
     Column() {
-      Text(this.message)
-        .fontSize(50)
-        .fontWeight(FontWeight.Bold)
+      Text(`name: ${this.users1.name}`).fontSize(30)
+      Child240()
+      Button('add new user')
         .onClick(() => {
-          this.message = 'world';
+          this.users1 = new User240('Molly', 19);//Provider
         })
-      Child_252()
+        .id('btn_add_user')
+
+      Button('change name')
+        .onClick(() => {
+          this.users1.name = 'Shelly';//Trace
+        })
+        .id('btn_change_name')
     }
   }
 }
 
 @ComponentV2
-struct Child_252 {
-  @Local message: string = "hello";
+struct Child240 {
+  @Consumer('data1') users1: User240 = new User240('XIAOL', 18);
 
   build() {
     Column() {
-      Text(this.message)
-        .fontSize(50)
-        .fontWeight(FontWeight.Bold)
-        .onClick(() => {
-          this.message = 'world';
-        })
-    }
-  }
-}
-
-@Entry
-@Component
-struct Indexre250 {
-  @State message: string = 'Hello World';
-
-  build() {
-    Column() {
-      Text(this.message)
-        .fontSize(50)
-        .fontWeight(FontWeight.Bold)
-        .onClick(() => {
-          this.message = 'world hello';
-        })
+      Text(`age: ${this.users1.age}`).fontSize(30)
       Divider()
-        .color(Color.Blue)
-      ReusableChild250()
     }
-    .height('100%')
-    .width('100%')
   }
 }
 
