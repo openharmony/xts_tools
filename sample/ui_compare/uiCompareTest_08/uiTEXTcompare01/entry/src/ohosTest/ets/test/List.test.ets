@@ -28,5 +28,5 @@ export default function testsuite() {
   FocusOtherBadgeInterface();
   FocusContentModifierTest();
   FocusRichEditor();
-  FocusTextTimerTest();
+  FocusTextTimerTest(); 
 }
