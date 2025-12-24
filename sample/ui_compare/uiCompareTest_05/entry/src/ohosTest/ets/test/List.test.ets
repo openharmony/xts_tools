@@ -17,9 +17,13 @@ import ArkUIComponentFunctionAdvancedComponentsMirror
   from './ArkUIComponentFunctionAdvancedComponentsTest/ArkUIComponentFunctionAdvancedComponentsMirror.test';
 import UIComponentScrollScrollbarScrolledge from './UIComponentScrollTest/UIComponentScrollScrollbarScrolledge.test';
 import UIComponentScrollScrollbarVelocity from './UIComponentScrollTest/UIComponentScrollScrollbarVelocity.test';
+import ArkUIComponentFunctionCommonMattributesCustomBackgroudBlurTest
+  from "./ArkUIComponentFunctionCommonMattributesCustomBackgroudBlurTest/ArkUIComponentFunctionCommonMattributesCustomBackgroudBlur.test";
+
 
 export default function testsuite() {
   UIComponentScrollScrollbarScrolledge();
   UIComponentScrollScrollbarVelocity();
   ArkUIComponentFunctionAdvancedComponentsMirror();
+  ArkUIComponentFunctionCommonMattributesCustomBackgroudBlurTest()
 }
