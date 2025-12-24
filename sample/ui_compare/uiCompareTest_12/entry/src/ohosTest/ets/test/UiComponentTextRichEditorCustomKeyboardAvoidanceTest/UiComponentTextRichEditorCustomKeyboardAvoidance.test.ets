@@ -39,6 +39,57 @@ export default function UiComponentTextRichEditorCustomKeyboardAvoidance() {
     })
 
     /*
+        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0018
+        * @tc.name   : Continue inputting content after the page avoids the custom keyboard
+        * @tc.type   : Function
+        * @tc.size   : UiTest
+        * @tc.level  : 3
+     */
+    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0018", Level.LEVEL3, async (done: Function) => {
+      // 1、打开页面
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorCustomKeyboardAvoidance/UiComponentTextRichEditorCustomkeyboardavoidance0018")
+      let driver = await Driver.create()
+      await Utils.sleep(500)
+
+      // 2、点击RichEditor组件，调出自定义键盘
+      let add_text_btn_0018 = await driver.waitForComponent(ON.id("add_text_btn_0018"),500)
+      await add_text_btn_0018.click()
+      let richeditor_customkeyboardavoidance_0018 = await driver.waitForComponent(ON.id("richeditor_customkeyboardavoidance_0018"), 500)
+      await richeditor_customkeyboardavoidance_0018.click()
+      await Utils.sleep(1000)
+
+      // 3、截图1：调出自定义键盘时，窗口上抬并延伸至顶部状态栏
+      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0018_01")
+      await Utils.sleep(1000)
+
+      // 4、持续输入内容，测试键盘避让光标
+      let keyboard_btn_测_0018 = await driver.waitForComponent(ON.id("keyboard_btn_测_0018"), 500)
+      let keyboard_btn_试_0018 = await driver.waitForComponent(ON.id("keyboard_btn_试_0018"), 500)
+      let keyboard_btn_文_0018 = await driver.waitForComponent(ON.id("keyboard_btn_文_0018"), 500)
+      let keyboard_btn_本_0018 = await driver.waitForComponent(ON.id("keyboard_btn_本_0018"), 500)
+      let keyboard_btn_内_0018 = await driver.waitForComponent(ON.id("keyboard_btn_内_0018"), 500)
+      let keyboard_btn_容_0018 = await driver.waitForComponent(ON.id("keyboard_btn_容_0018"), 500)
+      
+      for (let i = 0; i < 5; i++) {
+        await keyboard_btn_测_0018.click()
+        await keyboard_btn_试_0018.click()
+        await keyboard_btn_文_0018.click()
+        await keyboard_btn_本_0018.click()
+        await keyboard_btn_内_0018.click()
+        await keyboard_btn_容_0018.click()
+        await Utils.sleep(50)
+      }
+
+      await Utils.sleep(1000)
+
+      // 5、截图2：持续输入内容时，自定义键盘能避让光标，确保光标不被键盘遮挡
+      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0018_02")
+      await Utils.sleep(1000)
+
+      done();
+    })
+
+    /*
         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0020
         * @tc.name   : Continue inputting content after the page avoids the custom keyboard
         * @tc.type   : Function
@@ -60,7 +111,7 @@ export default function UiComponentTextRichEditorCustomKeyboardAvoidance() {
      await Utils.sleep(2000)
 
       // 4、截图并等待
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0020_01")
+      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0020_01")
       await Utils.sleep(1000)
       done();
     })
