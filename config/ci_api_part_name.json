@@ -6222,6 +6222,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/if.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/image.d.ets",
             "bundle_name": [
                 "ace_engine"
