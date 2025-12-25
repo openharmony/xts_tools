@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,7 +48,7 @@ export default function UIComponentListAndGridGridMirrorTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridMirror/UIComponentListAndGridGridMirror001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100 finish.`);
       done();
@@ -67,7 +67,7 @@ export default function UIComponentListAndGridGridMirrorTest() {
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380 finish.`);
       done();
@@ -84,7 +84,7 @@ export default function UIComponentListAndGridGridMirrorTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridMirror/UIComponentListAndGridGridMirror003");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440 finish.`);
       done();
@@ -101,7 +101,7 @@ export default function UIComponentListAndGridGridMirrorTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridMirror/UIComponentListAndGridGridMirror004");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450 finish.`);
       done();
@@ -118,7 +118,7 @@ export default function UIComponentListAndGridGridMirrorTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridGridMirror/UIComponentListAndGridGridMirror005");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430 finish.`);
       done();
@@ -137,7 +137,7 @@ export default function UIComponentListAndGridGridMirrorTest() {
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420 finish.`);
       done();

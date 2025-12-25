@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,11 +48,11 @@ export default function UIComponentListAndGridListInterfaceCachedCountShowTest()
       Settings.createWindow("testability/pages/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010_02");
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010 finish.`);
       done();
@@ -69,7 +69,7 @@ export default function UIComponentListAndGridListInterfaceCachedCountShowTest()
       Settings.createWindow("testability/pages/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow002");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020 finish.`);
       done();
@@ -86,7 +86,7 @@ export default function UIComponentListAndGridListInterfaceCachedCountShowTest()
       Settings.createWindow("testability/pages/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow003");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030 finish.`);
       done();

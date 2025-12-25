@@ -53,7 +53,7 @@ export default function SidebarContainerStepperTest() {
       Settings.createWindow("testability/pages/sidebarcontainer_stepper/sidebarContainer01")
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0060')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0060 finish.`);
       done()
@@ -72,7 +72,7 @@ export default function SidebarContainerStepperTest() {
       Settings.createWindow("testability/pages/sidebarcontainer_stepper/sidebarContainer02")
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0030')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0030 finish.`);
       done()
@@ -91,7 +91,7 @@ export default function SidebarContainerStepperTest() {
       Settings.createWindow("testability/pages/sidebarcontainer_stepper/sidebarContainer03")
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0020')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0020 finish.`);
       done()
@@ -110,7 +110,7 @@ export default function SidebarContainerStepperTest() {
       Settings.createWindow("testability/pages/sidebarcontainer_stepper/sidebarContainer04")
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0040')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0040 finish.`);
       done()
@@ -129,7 +129,7 @@ export default function SidebarContainerStepperTest() {
       Settings.createWindow("testability/pages/sidebarcontainer_stepper/sidebarContainer05")
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0050')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0050 finish.`);
       done()
@@ -148,7 +148,7 @@ export default function SidebarContainerStepperTest() {
       Settings.createWindow("testability/pages/sidebarcontainer_stepper/sidebarContainer06")
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0010')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0010 finish.`);
       done()

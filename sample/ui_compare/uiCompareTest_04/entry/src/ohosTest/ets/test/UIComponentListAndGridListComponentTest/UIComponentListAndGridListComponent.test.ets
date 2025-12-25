@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,11 +48,10 @@ export default function UIComponentListAndGridListComponentTest() {
       Settings.createWindow("testability/pages/UIComponentListAndGridListComponent/UIComponentListAndGridListComponent001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020");
       let button: Component = await driver.waitForComponent(ON.id('Test++'), 1000);
-      await button.click();
-      await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      await button.clicwindowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020_02");r.waitForIdle(500, 2000);
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020 finish.`);
       done();

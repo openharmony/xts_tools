@@ -54,7 +54,7 @@ export default function scrollAccessibleTest() {
       let button: Component = await driver.waitForComponent(ON.id('scroll_01'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350_597')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350_597 finish.`);
       done()
@@ -79,7 +79,7 @@ export default function scrollAccessibleTest() {
       let button1: Component = await driver.waitForComponent(ON.id('offSetText02'), 1000);
       await button1.click()
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340_280')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340_280 finish.`);
       done()
@@ -103,7 +103,7 @@ export default function scrollAccessibleTest() {
       await driver.waitForIdle(500,2000);
       let button1: Component = await driver.waitForComponent(ON.id('offSetText05'), 1000);
       await button1.click()
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360_034')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360_034 finish.`);
       done()
@@ -129,7 +129,7 @@ export default function scrollAccessibleTest() {
       let button1: Component = await driver.waitForComponent(ON.id('offSetText04'), 1000);
       await button1.click()
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370_698')
       await Utils.sleep(1000)
       done();
     })
