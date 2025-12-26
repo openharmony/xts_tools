@@ -59,7 +59,7 @@ export default class TestAbility extends UIAbility {
     hilog.info(0x0000, 'testTag', '%{public}s', 'TestAbility onWindowStageCreate');
     GlobalThis.getInstance().setContext("context", this.context)
 
-    //  
+    //
     let atManager = abilityAccessCtrl.createAtManager();
     let appFlags = bundleManager.BundleFlag.GET_BUNDLE_INFO_WITH_APPLICATION;
     let permissionFlags = 0;
