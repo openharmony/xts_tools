@@ -3862,4 +3862,1612 @@ export default function FocusPBHeightWidthTest() {
       done()
     })
 
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to string type -50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1730");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1730'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type number 50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1740");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1740'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type number 0
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1750");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1750'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type number -50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1760");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1760'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type string 50vp
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1770");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1770'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type string 0vp
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1780");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1780'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type string -50vp
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1790");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1790'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to string type rgba
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1800");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1800'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to Color.Red
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1810");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1810'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to number type 0xFFFFFF
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1820");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1820'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to Resource type Color.Red
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1830");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1830'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to Resource type number 0xFFFFFF
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1840");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1840'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to Resource type rgba string
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1850");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1850'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to number type 50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1860");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1860'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to number type 0
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1870");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1870'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to number type -50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1880");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1880'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Lighter
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1890");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1890'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Normal
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1900");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1900'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Regular
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1910");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1910'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Medium
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1920");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1920'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Bold
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1930");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1930'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Bolder
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1940");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1940'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to string type 50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1950");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1950'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to string type 0
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1960");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1960'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to string type -50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1970");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1970'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with showClose set to true
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1980");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1980'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with showClose set to false
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1990");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton1990'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup, onClose callback triggered when clicking X button
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2000");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2000'), 1000);
+      await button.click();
+      await driver.waitForIdle(1000, 2000);
+      windowSnap.snapShot()
+      await driver.waitForIdle(1000, 2000);
+      // 点击X关闭按钮，触发onClose
+      try {
+        let closeButton: Component = await driver.waitForComponent(ON.type('Image'), 3000);
+        await closeButton.click();
+        await driver.waitForIdle(2000, 2000);
+        Logger.info('TEST', `Clicked X button, onClose should be triggered.`);
+      } catch (e) {
+        Logger.error('TEST', `Failed to click X button: ${e}`);
+      }
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup, onClose callback not triggered when clicking buttons or overlay
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2010");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2010'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      // 点击popup内的按钮，onClose不应触发
+      try {
+        let popupButton: Component = await driver.waitForComponent(ON.text('关闭按钮'), 3000);
+        await popupButton.click();
+        await driver.waitForIdle(1000, 2000);
+        Logger.info('TEST', `Clicked popup button, onClose should NOT be triggered.`);
+      } catch (e) {
+        Logger.error('TEST', `Failed to click popup button: ${e}`);
+      }
+      await Utils.sleep(2000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to Chinese string
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2020");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2020'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to English string
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2030");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2030'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to special characters
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2040");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2040'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to Chinese Resource
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2050");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2050'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to English Resource
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2060");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2060'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to special characters Resource
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2070");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2070'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button action callback
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2080");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2080'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to number 50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2090");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2090'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to number 0
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2100");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2100'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to number -50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2110");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2110'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to string 50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2120");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2120'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to string 0
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2130");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2130'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to string -50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2140");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2140'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource number 50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2150");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2150'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource number 0
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2160");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2160'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource number -50
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2170");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2170'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource string 50vp
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2180");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2180'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource string 0vp
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2190");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2190'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource string -50vp
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2200");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2200'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to string rgba
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2210");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2210'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to Color.Red
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2220");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2220'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to number 0xFFFFFF
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2230");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2230'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to Resource Color.Red
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2240");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2240'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to Resource number 0xFFFFFF
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2250");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2250'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to Resource string rgba
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2260");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+      let button: Component = await driver.waitForComponent(ON.id('showPopupButton2260'), 1000);
+      await button.click();
+      await driver.waitForIdle(2000, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Light mode visual display conforms to UX specification
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2500");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 点击切换到浅色模式按钮
+      let setModeButton: Component = await driver.waitForComponent(ON.id('setLightModeButton2500'), 1000);
+      await setModeButton.click();
+      Logger.info('TEST', `Clicked set light mode button`);
+      await driver.waitForIdle(500, 1000);
+
+      // 点击显示Popup按钮
+      let showButton: Component = await driver.waitForComponent(ON.id('showPopupButton2500'), 1000);
+      await showButton.click();
+      await driver.waitForIdle(2000, 2000);
+
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500 finish.`);
+      done()
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600
+    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Advanced component Popup - Dark mode visual display conforms to UX specification
+    */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600 start.`);
+      try {
+        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2600");
+      } catch (e) {
+        Logger.error('TEST', `Failed to create window: ${e}`);
+        done();
+        return;
+      }
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 点击切换到深色模式按钮
+      let setModeButton: Component = await driver.waitForComponent(ON.id('setDarkModeButton2600'), 1000);
+      await setModeButton.click();
+      Logger.info('TEST', `Clicked set dark mode button`);
+      await driver.waitForIdle(500, 1000);
+
+      // 点击显示Popup按钮
+      let showButton: Component = await driver.waitForComponent(ON.id('showPopupButton2600'), 1000);
+      await showButton.click();
+      await driver.waitForIdle(2000, 2000);
+
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600 finish.`);
+      done()
+    })
+
+  })
+}
 
