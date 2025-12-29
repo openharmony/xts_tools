@@ -3923,4 +3923,1341 @@ export default function FocusSegmentButtonV2TestPart4() {
       done();
     })
 
-    
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4870
+    * @tc.name   : testCapsuleSegmentButtonV2ModifierWithStringIcon
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify CapsuleSegmentButtonV2 with textModifier and iconModifier
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4870', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4870 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-单选，三种modifier写法）
+      Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with modifier');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV24870");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击第一个分段按钮的操作按钮（textModifier设置黄色字体）
+      Logger.info('TEST', 'Step 2: Click option1 button - textModifier with yellow font');
+      let option1Button = await driver.findComponent(ON.id('option1Button'));
+      if (option1Button) {
+        await option1Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击第二个分段按钮的操作按钮（iconModifier，icon读取本地图片）
+      Logger.info('TEST', 'Step 3: Click option2 button - iconModifier with local icon');
+      let option2Button = await driver.findComponent(ON.id('option2Button'));
+      if (option2Button) {
+        await option2Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击第三个分段按钮的操作按钮（textModifier设置字体加粗）
+      Logger.info('TEST', 'Step 4: Click option3 button - textModifier with bold font');
+      let option3Button = await driver.findComponent(ON.id('option3Button'));
+      if (option3Button) {
+        await option3Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察三个分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the three segment buttons display');
+      Logger.info('TEST', 'Expected: 三个按钮都是modifier写法，能正常显示');
+      Logger.info('TEST', 'Expected: 第一个textModifier字体为黄色，第二个iconModifier icon能正常读取本地图片，第三个textModifier字体为加粗');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4870 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4880
+    * @tc.name   : testCapsuleSegmentButtonV2TextIconMixed
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify CapsuleSegmentButtonV2 with text and icon mixed (图文混排)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4880', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4880 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-单选，图文混排）
+      Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with text and icon mixed');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV24880");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击放大镜图标
+      Logger.info('TEST', 'Step 2: Click search icon button');
+      let searchButton = await driver.findComponent(ON.id('searchButton'));
+      if (searchButton) {
+        await searchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击扫一扫图标
+      Logger.info('TEST', 'Step 3: Click scan icon button');
+      let scanButton = await driver.findComponent(ON.id('scanButton'));
+      if (scanButton) {
+        await scanButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击分享图标
+      Logger.info('TEST', 'Step 4: Click share icon button');
+      let shareButton = await driver.findComponent(ON.id('shareButton'));
+      if (shareButton) {
+        await shareButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击放大镜、扫一扫、分享图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4880 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4890
+    * @tc.name   : testCapsuleSegmentButtonV2PureHMSymbolIcon
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify CapsuleSegmentButtonV2 with pure HM Symbol icon (resource type)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4890', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4890 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-单选，纯HM Symbol图标）
+      Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with pure HM Symbol icon');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV24890");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击手机图标
+      Logger.info('TEST', 'Step 2: Click phone icon button');
+      let phoneButton = await driver.findComponent(ON.id('phoneButton'));
+      if (phoneButton) {
+        await phoneButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击平板图标
+      Logger.info('TEST', 'Step 3: Click pad icon button');
+      let padButton = await driver.findComponent(ON.id('padButton'));
+      if (padButton) {
+        await padButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击穿戴图标
+      Logger.info('TEST', 'Step 4: Click watch icon button');
+      let watchButton = await driver.findComponent(ON.id('watchButton'));
+      if (watchButton) {
+        await watchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击手机、平板、穿戴图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4890 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4900
+    * @tc.name   : testCapsuleSegmentButtonV2PureImageIcon
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify CapsuleSegmentButtonV2 with pure image icon (resource type)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4900', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4900 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-单选，纯image图标）
+      Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with pure image icon');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV24900");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击放大镜图标
+      Logger.info('TEST', 'Step 2: Click search icon button');
+      let searchButton = await driver.findComponent(ON.id('searchButton'));
+      if (searchButton) {
+        await searchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击扫一扫图标
+      Logger.info('TEST', 'Step 3: Click scan icon button');
+      let scanButton = await driver.findComponent(ON.id('scanButton'));
+      if (scanButton) {
+        await scanButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击分享图标
+      Logger.info('TEST', 'Step 4: Click share icon button');
+      let shareButton = await driver.findComponent(ON.id('shareButton'));
+      if (shareButton) {
+        await shareButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击放大镜、扫一扫、分享图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4900 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4910
+    * @tc.name   : testCapsuleSegmentButtonV2PureTextString
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify CapsuleSegmentButtonV2 with pure text (string type)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4910', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4910 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-单选，纯文本string类型）
+      Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with pure text string');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV24910");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击"年"按钮
+      Logger.info('TEST', 'Step 2: Click year button');
+      let yearButton = await driver.findComponent(ON.id('yearButton'));
+      if (yearButton) {
+        await yearButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击"日"按钮
+      Logger.info('TEST', 'Step 3: Click day button');
+      let dayButton = await driver.findComponent(ON.id('dayButton'));
+      if (dayButton) {
+        await dayButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：观察分段按钮的情况
+      Logger.info('TEST', 'Step 4: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击"年"提示第0个选项被点击，点击"日"提示第2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4910 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4920
+    * @tc.name   : testCapsuleSegmentButtonV2PureTextEnabledFalse
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify CapsuleSegmentButtonV2 with pure text and enabled=false
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4920', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4920 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-单选，"月"设置enabled=false）
+      Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with enabled=false');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV24920");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：尝试点击"月"按钮（禁用状态）
+      Logger.info('TEST', 'Step 2: Try to click month button (disabled)');
+      let monthButton = await driver.findComponent(ON.id('monthButton'));
+      if (monthButton) {
+        await monthButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：观察分段按钮的情况
+      Logger.info('TEST', 'Step 3: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击"月"时不能交互，无法点击');
+      Logger.info('TEST', 'Expected: 样式符合UX规范（禁用状态样式）');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4920 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4930
+    * @tc.name   : testCapsuleSegmentButtonV2PureTextLongText
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify CapsuleSegmentButtonV2 with pure text and long text
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4930', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4930 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-单选，包含超长文本）
+      Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with long text');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV24930");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击"超长文本..."按钮
+      Logger.info('TEST', 'Step 2: Click long text button');
+      let longTextButton = await driver.findComponent(ON.id('longTextButton'));
+      if (longTextButton) {
+        await longTextButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：观察分段按钮的情况
+      Logger.info('TEST', 'Step 3: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击超长文本提示第3个选项被点击');
+      Logger.info('TEST', 'Expected: 超长文本显示不下，以省略号代替，分段按钮正常切换');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4930 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4940
+    * @tc.name   : testCapsuleSegmentButtonV2CustomTextIconMixed
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify CapsuleSegmentButtonV2 with custom text and icon mixed
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4940', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4940 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-单选，自定义图文混排）
+      Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with custom text and icon');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV24940");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击放大镜图标
+      Logger.info('TEST', 'Step 2: Click search icon button');
+      let searchButton = await driver.findComponent(ON.id('searchButton'));
+      if (searchButton) {
+        await searchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击扫一扫图标
+      Logger.info('TEST', 'Step 3: Click scan icon button');
+      let scanButton = await driver.findComponent(ON.id('scanButton'));
+      if (scanButton) {
+        await scanButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击分享图标
+      Logger.info('TEST', 'Step 4: Click share icon button');
+      let shareButton = await driver.findComponent(ON.id('shareButton'));
+      if (shareButton) {
+        await shareButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击放大镜、扫一扫、分享图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4940 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5000
+    * @tc.name   : testMultiCapsuleSegmentButtonV2Modifier
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 with textModifier and iconModifier
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5000', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5000 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-多选，modifier写法）
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 with modifier');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25000");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击选项1按钮（黄色字体）
+      Logger.info('TEST', 'Step 2: Click option1 button - yellow font');
+      let option1Button = await driver.findComponent(ON.id('option1Button'));
+      if (option1Button) {
+        await option1Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击选项2按钮（String图标）
+      Logger.info('TEST', 'Step 3: Click option2 button - string icon');
+      let option2Button = await driver.findComponent(ON.id('option2Button'));
+      if (option2Button) {
+        await option2Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击选项3按钮（加粗字体）
+      Logger.info('TEST', 'Step 4: Click option3 button - bold font');
+      let option3Button = await driver.findComponent(ON.id('option3Button'));
+      if (option3Button) {
+        await option3Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 三个按钮都是modifier写法，能正常显示');
+      Logger.info('TEST', 'Expected: 第一个黄色字体，第二个string类型icon，第三个加粗字体');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5000 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5010
+    * @tc.name   : testMultiCapsuleSegmentButtonV2TextIconMixed
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 with text and icon mixed
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5010', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5010 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-多选，图文混排）
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 with text and icon');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25010");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击放大镜图标
+      Logger.info('TEST', 'Step 2: Click search icon button');
+      let searchButton = await driver.findComponent(ON.id('searchButton'));
+      if (searchButton) {
+        await searchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击扫一扫图标
+      Logger.info('TEST', 'Step 3: Click scan icon button');
+      let scanButton = await driver.findComponent(ON.id('scanButton'));
+      if (scanButton) {
+        await scanButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击分享图标
+      Logger.info('TEST', 'Step 4: Click share icon button');
+      let shareButton = await driver.findComponent(ON.id('shareButton'));
+      if (shareButton) {
+        await shareButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击放大镜、扫一扫、分享图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5010 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5020
+    * @tc.name   : testMultiCapsuleSegmentButtonV2PureHMSymbolIcon
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 with pure HM Symbol icon (resource type)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5020 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-多选，纯HM Symbol图标）
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 with pure HM Symbol icon');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25020");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击手机图标
+      Logger.info('TEST', 'Step 2: Click phone icon button');
+      let phoneButton = await driver.findComponent(ON.id('phoneButton'));
+      if (phoneButton) {
+        await phoneButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击平板图标
+      Logger.info('TEST', 'Step 3: Click pad icon button');
+      let padButton = await driver.findComponent(ON.id('padButton'));
+      if (padButton) {
+        await padButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击穿戴图标
+      Logger.info('TEST', 'Step 4: Click watch icon button');
+      let watchButton = await driver.findComponent(ON.id('watchButton'));
+      if (watchButton) {
+        await watchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击手机、平板、穿戴图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5020 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5030
+    * @tc.name   : testMultiCapsuleSegmentButtonV2PureImageIcon
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 with pure image icon (resource type)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5030 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-多选，纯image图标）
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 with pure image icon');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25030");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击放大镜图标
+      Logger.info('TEST', 'Step 2: Click search icon button');
+      let searchButton = await driver.findComponent(ON.id('searchButton'));
+      if (searchButton) {
+        await searchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击扫一扫图标
+      Logger.info('TEST', 'Step 3: Click scan icon button');
+      let scanButton = await driver.findComponent(ON.id('scanButton'));
+      if (scanButton) {
+        await scanButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击分享图标
+      Logger.info('TEST', 'Step 4: Click share icon button');
+      let shareButton = await driver.findComponent(ON.id('shareButton'));
+      if (shareButton) {
+        await shareButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击放大镜、扫一扫、分享图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5030 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5040
+    * @tc.name   : testMultiCapsuleSegmentButtonV2PureTextString
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 with pure text (string type)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5040', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5040 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-多选，纯文本string类型）
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 with pure text string');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25040");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击"年"按钮
+      Logger.info('TEST', 'Step 2: Click year button');
+      let yearButton = await driver.findComponent(ON.id('yearButton'));
+      if (yearButton) {
+        await yearButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击"日"按钮
+      Logger.info('TEST', 'Step 3: Click day button');
+      let dayButton = await driver.findComponent(ON.id('dayButton'));
+      if (dayButton) {
+        await dayButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：观察分段按钮的情况
+      Logger.info('TEST', 'Step 4: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击"年"提示第0个选项被点击，点击"日"提示第2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5040 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5050
+    * @tc.name   : testMultiCapsuleSegmentButtonV2PureTextEnabledFalse
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 with pure text and enabled=false
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5050 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-多选，"月"设置enabled=false）
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 with enabled=false');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25050");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：尝试点击"月"按钮（禁用状态）
+      Logger.info('TEST', 'Step 2: Try to click month button (disabled)');
+      let monthButton = await driver.findComponent(ON.id('monthButton'));
+      if (monthButton) {
+        await monthButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：观察分段按钮的情况
+      Logger.info('TEST', 'Step 3: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击"月"时不能交互，无法点击');
+      Logger.info('TEST', 'Expected: 样式符合UX规范（禁用状态样式）');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5050 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5060
+    * @tc.name   : testMultiCapsuleSegmentButtonV2PureTextLongText
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 with pure text and long text
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5060', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5060 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-多选，包含超长文本）
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 with long text');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25060");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击"超长文本..."按钮
+      Logger.info('TEST', 'Step 2: Click long text button');
+      let longTextButton = await driver.findComponent(ON.id('longTextButton'));
+      if (longTextButton) {
+        await longTextButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：观察分段按钮的情况
+      Logger.info('TEST', 'Step 3: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击超长文本提示第3个选项被点击');
+      Logger.info('TEST', 'Expected: 超长文本显示不下，以省略号代替，分段按钮正常切换');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5060 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5070
+    * @tc.name   : testMultiCapsuleSegmentButtonV2CustomTextIconMixed
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 with custom text and icon mixed
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5070', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5070 start`);
+
+      // 步骤1：进入测试页面（胶囊型分段按钮-多选，自定义图文混排）
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 with custom text and icon');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25070");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击放大镜图标
+      Logger.info('TEST', 'Step 2: Click search icon button');
+      let searchButton = await driver.findComponent(ON.id('searchButton'));
+      if (searchButton) {
+        await searchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击扫一扫图标
+      Logger.info('TEST', 'Step 3: Click scan icon button');
+      let scanButton = await driver.findComponent(ON.id('scanButton'));
+      if (scanButton) {
+        await scanButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击分享图标
+      Logger.info('TEST', 'Step 4: Click share icon button');
+      let shareButton = await driver.findComponent(ON.id('shareButton'));
+      if (shareButton) {
+        await shareButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击放大镜、扫一扫、分享图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5070 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5130
+    * @tc.name   : testTabSegmentButtonV2Modifier
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 with textModifier and iconModifier
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5130', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5130 start`);
+
+      // 步骤1：进入测试页面（页签式分段按钮，modifier写法）
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 with modifier');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25130");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击选项1按钮（黄色字体）
+      Logger.info('TEST', 'Step 2: Click option1 button - yellow font');
+      let option1Button = await driver.findComponent(ON.id('option1Button'));
+      if (option1Button) {
+        await option1Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击选项2按钮（String图标）
+      Logger.info('TEST', 'Step 3: Click option2 button - string icon');
+      let option2Button = await driver.findComponent(ON.id('option2Button'));
+      if (option2Button) {
+        await option2Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击选项3按钮（加粗字体）
+      Logger.info('TEST', 'Step 4: Click option3 button - bold font');
+      let option3Button = await driver.findComponent(ON.id('option3Button'));
+      if (option3Button) {
+        await option3Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 三个按钮都是modifier写法，能正常显示');
+      Logger.info('TEST', 'Expected: 第一个黄色字体，第二个string类型icon，第三个加粗字体');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5130 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5140
+    * @tc.name   : testTabSegmentButtonV2TextIconMixed
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 with text and icon mixed
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5140', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5140 start`);
+
+      // 步骤1：进入测试页面（页签式分段按钮，图文混排）
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 with text and icon');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25140");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击放大镜图标
+      Logger.info('TEST', 'Step 2: Click search icon button');
+      let searchButton = await driver.findComponent(ON.id('searchButton'));
+      if (searchButton) {
+        await searchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击扫一扫图标
+      Logger.info('TEST', 'Step 3: Click scan icon button');
+      let scanButton = await driver.findComponent(ON.id('scanButton'));
+      if (scanButton) {
+        await scanButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击分享图标
+      Logger.info('TEST', 'Step 4: Click share icon button');
+      let shareButton = await driver.findComponent(ON.id('shareButton'));
+      if (shareButton) {
+        await shareButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击放大镜、扫一扫、分享图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5140 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5150
+    * @tc.name   : testTabSegmentButtonV2PureHMSymbolIcon
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 with pure HM Symbol icon (resource type)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5150', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5150 start`);
+
+      // 步骤1：进入测试页面（页签式分段按钮，纯HM Symbol图标）
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 with pure HM Symbol icon');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25150");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击手机图标
+      Logger.info('TEST', 'Step 2: Click phone icon button');
+      let phoneButton = await driver.findComponent(ON.id('phoneButton'));
+      if (phoneButton) {
+        await phoneButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击平板图标
+      Logger.info('TEST', 'Step 3: Click pad icon button');
+      let padButton = await driver.findComponent(ON.id('padButton'));
+      if (padButton) {
+        await padButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击穿戴图标
+      Logger.info('TEST', 'Step 4: Click watch icon button');
+      let watchButton = await driver.findComponent(ON.id('watchButton'));
+      if (watchButton) {
+        await watchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击手机、平板、穿戴图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5150 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5160
+    * @tc.name   : testTabSegmentButtonV2PureImageIcon
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 with pure image icon (resource type)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5160', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5160 start`);
+
+      // 步骤1：进入测试页面（页签式分段按钮，纯image图标）
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 with pure image icon');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25160");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击放大镜图标
+      Logger.info('TEST', 'Step 2: Click search icon button');
+      let searchButton = await driver.findComponent(ON.id('searchButton'));
+      if (searchButton) {
+        await searchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击扫一扫图标
+      Logger.info('TEST', 'Step 3: Click scan icon button');
+      let scanButton = await driver.findComponent(ON.id('scanButton'));
+      if (scanButton) {
+        await scanButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击分享图标
+      Logger.info('TEST', 'Step 4: Click share icon button');
+      let shareButton = await driver.findComponent(ON.id('shareButton'));
+      if (shareButton) {
+        await shareButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击放大镜、扫一扫、分享图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5160 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5170
+    * @tc.name   : testTabSegmentButtonV2PureTextString
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 with pure text (string type)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5170', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5170 start`);
+
+      // 步骤1：进入测试页面（页签式分段按钮，纯文本string类型）
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 with pure text string');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25170");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击"年"按钮
+      Logger.info('TEST', 'Step 2: Click year button');
+      let yearButton = await driver.findComponent(ON.id('yearButton'));
+      if (yearButton) {
+        await yearButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击"日"按钮
+      Logger.info('TEST', 'Step 3: Click day button');
+      let dayButton = await driver.findComponent(ON.id('dayButton'));
+      if (dayButton) {
+        await dayButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：观察分段按钮的情况
+      Logger.info('TEST', 'Step 4: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击"年"提示第0个选项被点击，点击"日"提示第2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5170 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5180
+    * @tc.name   : testTabSegmentButtonV2PureTextEnabledFalse
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 with pure text and enabled=false
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5180', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5180 start`);
+
+      // 步骤1：进入测试页面（页签式分段按钮，"月"设置enabled=false）
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 with enabled=false');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25180");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：尝试点击"月"按钮（禁用状态）
+      Logger.info('TEST', 'Step 2: Try to click month button (disabled)');
+      let monthButton = await driver.findComponent(ON.id('monthButton'));
+      if (monthButton) {
+        await monthButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：观察分段按钮的情况
+      Logger.info('TEST', 'Step 3: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击"月"时不能交互，无法点击');
+      Logger.info('TEST', 'Expected: 样式符合UX规范（禁用状态样式）');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5180 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5190
+    * @tc.name   : testTabSegmentButtonV2PureTextLongText
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 with pure text and long text
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5190', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5190 start`);
+
+      // 步骤1：进入测试页面（页签式分段按钮，包含超长文本）
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 with long text');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25190");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击"超长文本..."按钮
+      Logger.info('TEST', 'Step 2: Click long text button');
+      let longTextButton = await driver.findComponent(ON.id('longTextButton'));
+      if (longTextButton) {
+        await longTextButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：观察分段按钮的情况
+      Logger.info('TEST', 'Step 3: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击超长文本提示第3个选项被点击');
+      Logger.info('TEST', 'Expected: 超长文本显示不下，以省略号代替，分段按钮正常切换');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5190 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5200
+    * @tc.name   : testTabSegmentButtonV2CustomTextIconMixed
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 with custom text and icon mixed
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5200', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5200 start`);
+
+      // 步骤1：进入测试页面（页签式分段按钮，自定义图文混排）
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 with custom text and icon');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25200");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击放大镜图标
+      Logger.info('TEST', 'Step 2: Click search icon button');
+      let searchButton = await driver.findComponent(ON.id('searchButton'));
+      if (searchButton) {
+        await searchButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击扫一扫图标
+      Logger.info('TEST', 'Step 3: Click scan icon button');
+      let scanButton = await driver.findComponent(ON.id('scanButton'));
+      if (scanButton) {
+        await scanButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击分享图标
+      Logger.info('TEST', 'Step 4: Click share icon button');
+      let shareButton = await driver.findComponent(ON.id('shareButton'));
+      if (shareButton) {
+        await shareButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 点击放大镜、扫一扫、分享图标，分别提示第0、1、2个选项被点击');
+      Logger.info('TEST', 'Expected: 分段按钮正常切换，样式符合UX规范');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5200 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5210
+    * @tc.name   : testSegmentButtonV2ChangeItemsArrayLength
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify SegmentButtonV2 with changing items array length (push/pop/splice)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5210', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5210 start`);
+
+      // 步骤1：进入测试页面（改变items数组长度）
+      Logger.info('TEST', 'Step 1: Open test page - Change items array length');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25210");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击Push按钮
+      Logger.info('TEST', 'Step 2: Click push button');
+      let pushButton = await driver.findComponent(ON.id('pushButton'));
+      if (pushButton) {
+        await pushButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击Pop按钮
+      Logger.info('TEST', 'Step 3: Click pop button');
+      let popButton = await driver.findComponent(ON.id('popButton'));
+      if (popButton) {
+        await popButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：点击Splice按钮
+      Logger.info('TEST', 'Step 4: Click splice button');
+      let spliceButton = await driver.findComponent(ON.id('spliceButton'));
+      if (spliceButton) {
+        await spliceButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 三种SegmentButton类型功能正常');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5210 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5220
+    * @tc.name   : testSegmentButtonV2ReplaceItemsArray
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify SegmentButtonV2 with replacing items array
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5220', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5220 start`);
+
+      // 步骤1：进入测试页面（更换items数组）
+      Logger.info('TEST', 'Step 1: Open test page - Replace items array');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25220");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：点击第一套按钮
+      Logger.info('TEST', 'Step 2: Click set1 button');
+      let set1Button = await driver.findComponent(ON.id('set1Button'));
+      if (set1Button) {
+        await set1Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤3：点击第二套按钮
+      Logger.info('TEST', 'Step 3: Click set2 button');
+      let set2Button = await driver.findComponent(ON.id('set2Button'));
+      if (set2Button) {
+        await set2Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤4：再次点击第一套按钮
+      Logger.info('TEST', 'Step 4: Click set1 button again');
+      if (set1Button) {
+        await set1Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 三种SegmentButton类型功能正常');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5220 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5230
+    * @tc.name   : testSegmentButtonV2SymbolDualConfig
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify SegmentButtonV2 with symbol dual configuration (icon and symbol)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5230', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5230 start`);
+
+      // 步骤1：进入测试页面（symbol双重配置）
+      Logger.info('TEST', 'Step 1: Open test page - Symbol dual configuration');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV25230");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2：切换Tab选项
+      Logger.info('TEST', 'Step 2: Switch tab items');
+      let tab0Button = await driver.findComponent(ON.id('tab0Button'));
+      let tab1Button = await driver.findComponent(ON.id('tab1Button'));
+      let tab2Button = await driver.findComponent(ON.id('tab2Button'));
+      if (tab0Button) {
+        await tab0Button.click();
+        await driver.waitForIdle(500, 1000);
+      }
+      if (tab1Button) {
+        await tab1Button.click();
+        await driver.waitForIdle(500, 1000);
+      }
+      if (tab2Button) {
+        await tab2Button.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤3：切换Capsule选项
+      Logger.info('TEST', 'Step 3: Switch capsule items');
+      let capsule0Button = await driver.findComponent(ON.id('capsule0Button'));
+      let capsule1Button = await driver.findComponent(ON.id('capsule1Button'));
+      let capsule2Button = await driver.findComponent(ON.id('capsule2Button'));
+      if (capsule0Button) {
+        await capsule0Button.click();
+        await driver.waitForIdle(500, 1000);
+      }
+      if (capsule1Button) {
+        await capsule1Button.click();
+        await driver.waitForIdle(500, 1000);
+      }
+      if (capsule2Button) {
+        await capsule2Button.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤4：切换Multi选项
+      Logger.info('TEST', 'Step 4: Switch multi items');
+      let multi0Button = await driver.findComponent(ON.id('multi0Button'));
+      let multi1Button = await driver.findComponent(ON.id('multi1Button'));
+      let multi2Button = await driver.findComponent(ON.id('multi2Button'));
+      if (multi0Button) {
+        await multi0Button.click();
+        await driver.waitForIdle(500, 1000);
+      }
+      if (multi1Button) {
+        await multi1Button.click();
+        await driver.waitForIdle(500, 1000);
+      }
+      if (multi2Button) {
+        await multi2Button.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮的情况
+      Logger.info('TEST', 'Step 5: Observe the segment button display');
+      Logger.info('TEST', 'Expected: 三种SegmentButton类型功能正常');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5230 end`);
+      done();
+    })
+  })
+}
