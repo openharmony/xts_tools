@@ -1960,5 +1960,288 @@ export default function BlurMaterialSeparatedLayerTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0990 finish.`);
       done()
     })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1000
+     * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（CustomBuilder），backgroundBlurStyle（COMPONENT_THICK）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1000', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1000 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1000")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1000'), 1000);
+      let point = await button.getBoundsCenter();
+      await driver.mouseClick({x: point.x, y: point.y}, MouseButton.MOUSE_BUTTON_LEFT, 1500);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1000 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1010
+     * @tc.name   : bindMenu不设置isShown，content（Array<MenuElement>有3个菜单），enableArrow（true），backgroundBlurStyle（Regular）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1010', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1010 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1010")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1010'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1010 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1020
+     * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（CustomBuilder），backgroundBlurStyle（undefined）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1020 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1020")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1020'), 1000);
+      let point = await button.getBoundsCenter();
+      await driver.mouseClick({x: point.x, y: point.y}, MouseButton.MOUSE_BUTTON_LEFT, 1500);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1020 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1030
+     * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（RightClick），enableArrow（true），二级菜单设置为EMBEDDED_EXPAND，backgroundBlurStyle（BACKGROUND_ULTRA_THICK）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1030 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1030")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1030'), 1000);
+      let point = await button.getBoundsCenter();
+      await driver.mouseClick({x: point.x, y: point.y}, MouseButton.MOUSE_BUTTON_RIGHT);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1030 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1040
+     * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（IMAGE），backgroundBlurStyle（COMPONENT_REGULAR）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1040', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1040 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1040")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1040'), 1000);
+      let point = await button.getBoundsCenter();
+      await driver.mouseClick({x: point.x, y: point.y}, MouseButton.MOUSE_BUTTON_LEFT, 1500);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1040 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1050
+     * @tc.name   : bindMenu不设置isShown，content（Array<MenuElement>有3个菜单），enableArrow（false），backgroundBlurStyle（Thin）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1050 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1050")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1050'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1050 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1060
+     * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），二级菜单设置为SIDE_EXPAND，backgroundBlurStyle（BACKGROUND_THICK）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1060', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1060 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1060")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1060'), 1000);
+      let point = await button.getBoundsCenter();
+      await driver.mouseClick({x: point.x, y: point.y}, MouseButton.MOUSE_BUTTON_LEFT, 1500);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1060 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1070
+     * @tc.name   : bindMenu设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），title(HelloWorld)，showInSubWindow（false），enableArrow（true），二级菜单设置为SIDE_EXPAND，backgroundBlurStyle（Thick）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1070', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1070 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1070")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let bindBtn: Component = await driver.waitForComponent(ON.id('bindMenu01Btn1070'), 1000);
+      await bindBtn.click();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1070'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1070 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1080
+     * @tc.name   : bindMenu设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），title(HelloWorld)，showInSubWindow（true），enableArrow（true），二级菜单设置为EMBEDDED_EXPAND，backgroundBlurStyle（BACKGROUND_THIN）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1080', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1080 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1080")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let bindBtn: Component = await driver.waitForComponent(ON.id('bindMenu01Btn1080'), 1000);
+      await bindBtn.click();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1080'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1080 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1090
+     * @tc.name   : bindMenu设置isShown，content（CustomBuilder有3个菜单），showInSubWindow（true），enableArrow（true），二级菜单设置为STACK_EXPAND，backgroundBlurStyle（BACKGROUND_REGULAR）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1090', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1090 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1090")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let bindBtn: Component = await driver.waitForComponent(ON.id('bindMenu01Btn1090'), 1000);
+      await bindBtn.click();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1090'), 1000);
+      await button.click();
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1090 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1100
+     * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（IMAGE），backgroundBlurStyle（COMPONENT_THIN）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1100', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1100 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1100")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1100'), 1000);
+      let point = await button.getBoundsCenter();
+      await driver.mouseClick({x: point.x, y: point.y}, MouseButton.MOUSE_BUTTON_LEFT, 1500);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1100 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1110
+     * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（CustomBuilder），backgroundBlurStyle（null）的效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1110', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1110 start.`);
+      Settings.createWindow("testability/pages/popupbox_blurMaterialSeparatedLayer/blurMaterialSeparatedLayer1110")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500, 2000);
+      
+      let button: Component = await driver.waitForComponent(ON.id('menuBtn1110'), 1000);
+      let point = await button.getBoundsCenter();
+      await driver.mouseClick({x: point.x, y: point.y}, MouseButton.MOUSE_BUTTON_LEFT, 1500);
+      await driver.waitForIdle(500, 2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1110 finish.`);
+      done()
+    })
   })
 }
