@@ -462,6 +462,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.multimedia.avMusicTemplate.d.ts",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/permissions.d.ts",
             "bundle_name": [
                 "access_token"
