@@ -3823,5 +3823,1188 @@ export default function FocusSegmentButtonV2TestPart2() {
       done();
     })
 
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2220
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2220
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontSize with -1 (default 14fp)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2220', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2220 start`);
 
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontSize -1');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22220");
 
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set -1 (default 14fp)');
+      let negativeFontSizeButton = await driver.findComponent(ON.id('negativeFontSizeButton'));
+      if (negativeFontSizeButton) {
+        await negativeFontSizeButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示，为默认值14fp');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2220 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2230
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2230
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontSize with 20vp
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2230', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2230 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontSize 20vp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22230");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set 20vp');
+      let vpFontSizeButton = await driver.findComponent(ON.id('vpFontSizeButton'));
+      if (vpFontSizeButton) {
+        await vpFontSizeButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示，为20vp');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2230 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2240
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2240
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontSize with 40%
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2240', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2240 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontSize 40%');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22240");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set 40%');
+      let percentFontSizeButton = await driver.findComponent(ON.id('percentFontSizeButton'));
+      if (percentFontSizeButton) {
+        await percentFontSizeButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2240 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2250
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2250
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontSize with 40fp
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2250', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2250 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontSize 40fp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22250");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set 40fp');
+      let fpFontSizeButton = await driver.findComponent(ON.id('fpFontSizeButton'));
+      if (fpFontSizeButton) {
+        await fpFontSizeButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2250 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2260
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2260
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontSize with 40lpx
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2260', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2260 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontSize 40lpx');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22260");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set 40lpx');
+      let lpxFontSizeButton = await driver.findComponent(ON.id('lpxFontSizeButton'));
+      if (lpxFontSizeButton) {
+        await lpxFontSizeButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2260 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2270
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2270
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontSize with 40px
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2270', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2270 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontSize 40px');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22270");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set 40px');
+      let pxFontSizeButton = await driver.findComponent(ON.id('pxFontSizeButton'));
+      if (pxFontSizeButton) {
+        await pxFontSizeButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2270 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2280
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2280
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontSize with resource reference
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2280', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2280 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontSize resource');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22280");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set resource($r("app.string.string1"))');
+      let resourceFontSizeButton = await driver.findComponent(ON.id('resourceFontSizeButton'));
+      if (resourceFontSizeButton) {
+        await resourceFontSizeButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2280 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2290
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2290
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontSize with undefined (default 14fp)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2290', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2290 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontSize undefined');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22290");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set undefined');
+      let undefinedFontSizeButton = await driver.findComponent(ON.id('undefinedFontSizeButton'));
+      if (undefinedFontSizeButton) {
+        await undefinedFontSizeButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示，为默认值14fp');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2290 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2300
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2300
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontWeight with Bolder
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2300', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2300 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontWeight Bolder');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22300");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set Bolder');
+      let bolderFontWeightButton = await driver.findComponent(ON.id('bolderFontWeightButton'));
+      if (bolderFontWeightButton) {
+        await bolderFontWeightButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮文字粗细是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font weight displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮文字粗细按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2300 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2310
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2310
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontWeight with Bold
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2310', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2310 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontWeight Bold');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22310");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set Bold');
+      let boldFontWeightButton = await driver.findComponent(ON.id('boldFontWeightButton'));
+      if (boldFontWeightButton) {
+        await boldFontWeightButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮文字粗细是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font weight displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮文字粗细按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2310 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2320
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2320
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontWeight with Lighter
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2320', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2320 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontWeight Lighter');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22320");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set Lighter');
+      let lighterFontWeightButton = await driver.findComponent(ON.id('lighterFontWeightButton'));
+      if (lighterFontWeightButton) {
+        await lighterFontWeightButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮文字粗细是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font weight displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮文字粗细按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2320 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2330
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2330
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontWeight with Medium
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2330', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2330 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontWeight Medium');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22330");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set Medium');
+      let mediumFontWeightButton = await driver.findComponent(ON.id('mediumFontWeightButton'));
+      if (mediumFontWeightButton) {
+        await mediumFontWeightButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮文字粗细是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font weight displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮文字粗细按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2330 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2340
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2340
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontWeight with Normal
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2340', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2340 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontWeight Normal');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22340");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set Normal');
+      let normalFontWeightButton = await driver.findComponent(ON.id('normalFontWeightButton'));
+      if (normalFontWeightButton) {
+        await normalFontWeightButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮文字粗细是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font weight displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮文字粗细按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2340 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2350
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2350
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontWeight with Regular
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2350', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2350 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontWeight Regular');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22350");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set Regular');
+      let regularFontWeightButton = await driver.findComponent(ON.id('regularFontWeightButton'));
+      if (regularFontWeightButton) {
+        await regularFontWeightButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮文字粗细是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font weight displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮文字粗细按照预设的大小正常显示，Regular和Normal的字体大小是一致的');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2350 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2360
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2360
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemFontWeight with undefined (default Medium)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2360', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2360 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemFontWeight undefined');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22360");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set undefined');
+      let undefinedFontWeightButton = await driver.findComponent(ON.id('undefinedFontWeightButton'));
+      if (undefinedFontWeightButton) {
+        await undefinedFontWeightButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮文字粗细是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font weight displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮文字粗细按照预设的大小正常显示，取得默认值Medium');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2360 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2370
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2370
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemIconFillColor with rgba type color (yellow)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2370', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2370 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemIconFillColor rgba');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22370");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set rgba(1000,1000,0,1000)');
+      let rgbaIconFillColorButton = await driver.findComponent(ON.id('rgbaIconFillColorButton'));
+      if (rgbaIconFillColorButton) {
+        await rgbaIconFillColorButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察未选择的分段按钮的图标是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the icon fill color displays normally');
+      Logger.info('TEST', 'Expected: 未选择的分段按钮的图标按照预设颜色正常显示，为黄色');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2370 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2380
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2380
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemIconFillColor with custom colors
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2380', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2380 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemIconFillColor custom');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22380");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮（测试红色）
+      Logger.info('TEST', 'Step 2-4: Click button to set custom color (red)');
+      let redIconFillColorButton = await driver.findComponent(ON.id('redIconFillColorButton'));
+      if (redIconFillColorButton) {
+        await redIconFillColorButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察未选择的分段按钮的图标是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the icon fill color displays normally');
+      Logger.info('TEST', 'Expected: 未选择的分段按钮的图标按照预设颜色正常显示，Alpha透明度调节功能正常');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2380 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2390
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2390
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemIconFillColor with preset colors
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2390', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2390 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemIconFillColor preset');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22390");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮（测试蓝色）
+      Logger.info('TEST', 'Step 2-4: Click button to set preset color (blue)');
+      let blueIconFillColorButton = await driver.findComponent(ON.id('blueIconFillColorButton'));
+      if (blueIconFillColorButton) {
+        await blueIconFillColorButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察未选择的分段按钮的图标是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the icon fill color displays normally');
+      Logger.info('TEST', 'Expected: 未选择的分段按钮的图标按照预设颜色正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2390 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2400
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2400
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemIconSize with undefined (default 24vp)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2400', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2400 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemIconSize undefined');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22400");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set undefined');
+      let undefinedIconSizeButton = await driver.findComponent(ON.id('undefinedIconSizeButton'));
+      if (undefinedIconSizeButton) {
+        await undefinedIconSizeButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察图标大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the icon size displays normally');
+      Logger.info('TEST', 'Expected: 图标大小按照预设的大小正常显示，为默认值24vp');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2400 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2410
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2410
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemIconSize with -1vp (invalid value)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2410', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2410 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemIconSize -1vp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22410");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set -1vp');
+      let negativeIconSizeButton = await driver.findComponent(ON.id('negativeIconSizeButton'));
+      if (negativeIconSizeButton) {
+        await negativeIconSizeButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察图标大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the icon size displays normally');
+      Logger.info('TEST', 'Expected: 图标大小按照预设的大小正常显示，为默认值24vp');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2410 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2420
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2420
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemIconSize with 20vp
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2420 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemIconSize 20vp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22420");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set 20vp');
+      let iconSize20vpButton = await driver.findComponent(ON.id('iconSize20vpButton'));
+      if (iconSize20vpButton) {
+        await iconSize20vpButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察图标大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the icon size displays normally');
+      Logger.info('TEST', 'Expected: 图标大小按照预设的大小正常显示，为20vp');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2420 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2430
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2430
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemIconSize with 40fp width and 40% height
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2430 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemIconSize 40fp/40%');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22430");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set 40fp/40%');
+      let iconSize40fpButton = await driver.findComponent(ON.id('iconSize40fpButton'));
+      if (iconSize40fpButton) {
+        await iconSize40fpButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察图标大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the icon size displays normally');
+      Logger.info('TEST', 'Expected: 图标大小按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2430 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2440
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2440
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemIconSize with 40px width and 40lpx height
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2440', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2440 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemIconSize 40px/40lpx');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22440");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set 40px/40lpx');
+      let iconSize40pxButton = await driver.findComponent(ON.id('iconSize40pxButton'));
+      if (iconSize40pxButton) {
+        await iconSize40pxButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察图标大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the icon size displays normally');
+      Logger.info('TEST', 'Expected: 图标大小按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2440 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2450
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2450
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemIconSize with 50vp width and $r("app.string.string1") height
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2450', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2450 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemIconSize resource');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22450");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set resource');
+      let iconSizeResourceButton = await driver.findComponent(ON.id('iconSizeResourceButton'));
+      if (iconSizeResourceButton) {
+        await iconSizeResourceButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察图标大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the icon size displays normally');
+      Logger.info('TEST', 'Expected: 图标大小按照预设的大小正常显示');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2450 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2460
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2460
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMaxFontScale with abnormal number value
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2460', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2460 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemMaxFontScale abnormal');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22460");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set abnormal value');
+      let negativeScaleButton = await driver.findComponent(ON.id('negativeScaleButton'));
+      if (negativeScaleButton) {
+        await negativeScaleButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察字体是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font scale displays normally');
+      Logger.info('TEST', 'Expected: 不生效');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2460 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2470
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2470
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMaxFontScale with resource type
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2470', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2470 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemMaxFontScale resource');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22470");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set resource type');
+      let resourceScaleButton = await driver.findComponent(ON.id('resourceScaleButton'));
+      if (resourceScaleButton) {
+        await resourceScaleButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察字体是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font scale displays normally');
+      Logger.info('TEST', 'Expected: 和之前设置number为1.9一致');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2470 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2480
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2480
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMaxFontScale with normal range number (1-2)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2480', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2480 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemMaxFontScale normal');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22480");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set normal range value');
+      let scale15Button = await driver.findComponent(ON.id('scale15Button'));
+      if (scale15Button) {
+        await scale15Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察字体是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font scale displays normally');
+      Logger.info('TEST', 'Expected: 在1-2之间调节可以观察到字体的明显放大');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2480 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2490
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2490
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMinFontScale with abnormal number value
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2490', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2490 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemMinFontScale abnormal');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22490");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set abnormal value');
+      let negativeScaleButton = await driver.findComponent(ON.id('negativeScaleButton'));
+      if (negativeScaleButton) {
+        await negativeScaleButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察字体是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font scale displays normally');
+      Logger.info('TEST', 'Expected: 不生效');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2490 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2500
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2500
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMinFontScale with resource type
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2500', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2500 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemMinFontScale resource');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22500");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set resource type');
+      let resourceScaleButton = await driver.findComponent(ON.id('resourceScaleButton'));
+      if (resourceScaleButton) {
+        await resourceScaleButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察字体是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font scale displays normally');
+      Logger.info('TEST', 'Expected: 和之前设置number为0.5一致');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2500 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2510
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2510
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMinFontScale with normal range number (0-1)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2510', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2510 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemMinFontScale normal');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22510");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set normal range value');
+      let scale09Button = await driver.findComponent(ON.id('scale09Button'));
+      if (scale09Button) {
+        await scale09Button.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察字体是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font scale displays normally');
+      Logger.info('TEST', 'Expected: 在0.8-1之间调节可以观察到字体的明显缩小');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2510 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2520
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2520
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMinHeight with $r("app.string.string1") (50vp)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2520', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2520 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemMinHeight resource');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22520");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set resource');
+      let resourceMinHeightButton = await driver.findComponent(ON.id('resourceMinHeightButton'));
+      if (resourceMinHeightButton) {
+        await resourceMinHeightButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮按钮最小高度是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the min height displays normally');
+      Logger.info('TEST', 'Expected: 此时分段按钮自适应最小高度，当前分段按钮的高度就是设置的最小高度50vp');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2520 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2530
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2530
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMinHeight with -1vp (invalid value)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2530', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2530 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 itemMinHeight -1vp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV22530");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set -1vp');
+      let negativeMinHeightButton = await driver.findComponent(ON.id('negativeMinHeightButton'));
+      if (negativeMinHeightButton) {
+        await negativeMinHeightButton.click();
+        await driver.waitForIdle(1000, 2000);
+      }
+
+      // 步骤5：观察分段按钮按钮最小高度是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the min height displays normally');
+      Logger.info('TEST', 'Expected: 此时分段按钮自适应最小高度，当前分段按钮的高度就是设置的最小高度40vp');
+
+      // 截图验证
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2530 end`);
+      done();
+    })
+  })
+}
