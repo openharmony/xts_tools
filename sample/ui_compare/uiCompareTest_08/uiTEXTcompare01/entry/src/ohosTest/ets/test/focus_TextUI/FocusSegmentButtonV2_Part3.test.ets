@@ -3894,4 +3894,1151 @@ export default function FocusSegmentButtonV2TestPart3() {
       done();
     })
 
-   
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3500
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3500
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with 90lpx
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3500', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3500 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 buttonMinHeight 90lpx');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23500");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set buttonMinHeight to 90lpx');
+      let lpxHeightButton = await driver.findComponent(ON.id('lpxHeightButton'));
+      if (lpxHeightButton) {
+        await lpxHeightButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮按钮最小高度是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the min height displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮自适应最小高度，当前分段按钮的高度就是设置的最小高度');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3500 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3510
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3510
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with 90px
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3510', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3510 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 buttonMinHeight 90px');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23510");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set buttonMinHeight to 90px');
+      let pxHeightButton = await driver.findComponent(ON.id('pxHeightButton'));
+      if (pxHeightButton) {
+        await pxHeightButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮按钮最小高度是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the min height displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮自适应最小高度，当前分段按钮的高度就是默认值40vp');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3510 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3520
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3520
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with 90vp
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3520', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3520 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 buttonMinHeight 90vp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23520");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set buttonMinHeight to 90vp');
+      let vpHeightButton = await driver.findComponent(ON.id('vpHeightButton'));
+      if (vpHeightButton) {
+        await vpHeightButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮按钮最小高度是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the min height displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮自适应最小高度，当前分段按钮的高度就是设置的最小高度90vp');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3520 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3530
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3530
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with undefined
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3530', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3530 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 buttonMinHeight undefined');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23530");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set buttonMinHeight to undefined');
+      let undefinedHeightButton = await driver.findComponent(ON.id('undefinedHeightButton'));
+      if (undefinedHeightButton) {
+        await undefinedHeightButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮按钮最小高度是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the min height displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮自适应最小高度，当前分段按钮的高度就是默认值40vp');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3530 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3540
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3540
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with resource value (100vp)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3540', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3540 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 buttonPadding resource');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23540");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set buttonPadding to resource');
+      let resourcePaddingButton = await driver.findComponent(ON.id('resourcePaddingButton'));
+      if (resourcePaddingButton) {
+        await resourcePaddingButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮背板内边距和布局是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the padding displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮背板的内边距依照设置的内边距显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3540 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3550
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3550
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with 10%
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3550', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3550 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 buttonPadding 10%');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23550");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set buttonPadding to 10%');
+      let percentPaddingButton = await driver.findComponent(ON.id('percentPaddingButton'));
+      if (percentPaddingButton) {
+        await percentPaddingButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮背板内边距和布局是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the padding displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮背板的内边距依照设置的内边距显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3550 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3560
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3560
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with 50fp
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3560', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3560 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 buttonPadding 50fp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23560");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set buttonPadding to 50fp');
+      let fpPaddingButton = await driver.findComponent(ON.id('fpPaddingButton'));
+      if (fpPaddingButton) {
+        await fpPaddingButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮背板内边距和布局是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the padding displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮背板的内边距依照设置的内边距显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3560 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3570
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3570
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with 50lpx
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3570', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3570 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 buttonPadding 50lpx');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23570");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set buttonPadding to 50lpx');
+      let lpxPaddingButton = await driver.findComponent(ON.id('lpxPaddingButton'));
+      if (lpxPaddingButton) {
+        await lpxPaddingButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮背板内边距和布局是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the padding displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮背板的内边距依照设置的内边距显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3570 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3580
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3580
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with 50px
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3580', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3580 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 buttonPadding 50px');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23580");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set buttonPadding to 50px');
+      let pxPaddingButton = await driver.findComponent(ON.id('pxPaddingButton'));
+      if (pxPaddingButton) {
+        await pxPaddingButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮背板内边距和布局是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the padding displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮背板的内边距依照设置的内边距显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3580 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3590
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3590
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with 50vp
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3590', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3590 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 buttonPadding 50vp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23590");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set buttonPadding to 50vp');
+      let vpPaddingButton = await driver.findComponent(ON.id('vpPaddingButton'));
+      if (vpPaddingButton) {
+        await vpPaddingButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮背板内边距和布局是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the padding displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮背板的内边距依照设置的内边距显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3590 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3600
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3600
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with undefined
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3600', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3600 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 buttonPadding undefined');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23600");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set buttonPadding to undefined');
+      let undefinedPaddingButton = await driver.findComponent(ON.id('undefinedPaddingButton'));
+      if (undefinedPaddingButton) {
+        await undefinedPaddingButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮背板内边距和布局是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the padding displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮背板的内边距依照设置的内边距显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3600 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3610
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3610
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with resource value (100vp)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3610', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3610 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemBorderRadius resource');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23610");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemBorderRadius to resource');
+      let resourceRadiusButton = await driver.findComponent(ON.id('resourceRadiusButton'));
+      if (resourceRadiusButton) {
+        await resourceRadiusButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮按钮圆角是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the border radius displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮的圆角正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3610 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3620
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3620
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with 10%
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3620', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3620 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemBorderRadius 10%');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23620");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemBorderRadius to 10%');
+      let percentRadiusButton = await driver.findComponent(ON.id('percentRadiusButton'));
+      if (percentRadiusButton) {
+        await percentRadiusButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮按钮圆角是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the border radius displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮的圆角正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3620 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3630
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3630
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with 10fp
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3630', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3630 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemBorderRadius 10fp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23630");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemBorderRadius to 10fp');
+      let fpRadiusButton = await driver.findComponent(ON.id('fpRadiusButton'));
+      if (fpRadiusButton) {
+        await fpRadiusButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮按钮圆角是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the border radius displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮的圆角正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3630 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3640
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3640
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with 10lpx
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3640', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3640 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemBorderRadius 10lpx');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23640");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemBorderRadius to 10lpx');
+      let lpxRadiusButton = await driver.findComponent(ON.id('lpxRadiusButton'));
+      if (lpxRadiusButton) {
+        await lpxRadiusButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮按钮圆角是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the border radius displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮的圆角正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3640 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3650
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3650
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with 10px
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3650', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3650 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemBorderRadius 10px');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23650");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemBorderRadius to 10px');
+      let pxRadiusButton = await driver.findComponent(ON.id('pxRadiusButton'));
+      if (pxRadiusButton) {
+        await pxRadiusButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮item的圆角是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the border radius displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮的圆角正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3650 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3660
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3660
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with 10vp
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3660', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3660 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemBorderRadius 10vp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23660");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemBorderRadius to 10vp');
+      let vpRadiusButton = await driver.findComponent(ON.id('vpRadiusButton'));
+      if (vpRadiusButton) {
+        await vpRadiusButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮按钮圆角是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the border radius displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮的圆角正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3660 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3670
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3670
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with undefined
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3670', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3670 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemBorderRadius undefined');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23670");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemBorderRadius to undefined');
+      let undefinedRadiusButton = await driver.findComponent(ON.id('undefinedRadiusButton'));
+      if (undefinedRadiusButton) {
+        await undefinedRadiusButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮按钮圆角是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the border radius displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮的圆角正常显示，使用默认圆角值');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3670 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3680
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3680
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontColor with rgba color (yellow)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3680', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3680 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontColor rgba');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23680");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemFontColor to rgba yellow');
+      let rgbaColorButton = await driver.findComponent(ON.id('rgbaColorButton'));
+      if (rgbaColorButton) {
+        await rgbaColorButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察非选中的分段按钮的字体颜色是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font color displays normally');
+      Logger.info('TEST', 'Expected: 非选中的分段按钮的字体颜色按照预设颜色正常显示，为黄色');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3680 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3690
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3690
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontColor with custom colors
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3690', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3690 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontColor custom colors');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23690");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击多个颜色按钮测试自定义颜色
+      Logger.info('TEST', 'Step 2-4: Click buttons to test custom colors');
+
+      // 点击红色按钮
+      let redButton = await driver.findComponent(ON.id('redButton'));
+      if (redButton) {
+        await redButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 点击绿色按钮
+      let greenButton = await driver.findComponent(ON.id('greenButton'));
+      if (greenButton) {
+        await greenButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 点击蓝色按钮
+      let blueButton = await driver.findComponent(ON.id('blueButton'));
+      if (blueButton) {
+        await blueButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 点击黄色按钮
+      let yellowButton = await driver.findComponent(ON.id('yellowButton'));
+      if (yellowButton) {
+        await yellowButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 点击青色按钮
+      let cyanButton = await driver.findComponent(ON.id('cyanButton'));
+      if (cyanButton) {
+        await cyanButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 点击品红色按钮
+      let magentaButton = await driver.findComponent(ON.id('magentaButton'));
+      if (magentaButton) {
+        await magentaButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 点击白色按钮
+      let whiteButton = await driver.findComponent(ON.id('whiteButton'));
+      if (whiteButton) {
+        await whiteButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 点击半透明红色按钮
+      let semiTransparentRedButton = await driver.findComponent(ON.id('semiTransparentRedButton'));
+      if (semiTransparentRedButton) {
+        await semiTransparentRedButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察非选中的分段按钮的字体颜色是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font color displays normally');
+      Logger.info('TEST', 'Expected: 非选中的分段按钮的字体颜色按照预设颜色正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3690 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3700
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3700
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontColor with preset colors
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3700', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3700 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontColor preset colors');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23700");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击预设颜色按钮
+      Logger.info('TEST', 'Step 2-4: Click buttons to test preset colors');
+
+      // 点击预设蓝色按钮
+      let presetBlueButton = await driver.findComponent(ON.id('presetBlueButton'));
+      if (presetBlueButton) {
+        await presetBlueButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 点击预设灰色按钮
+      let presetGrayButton = await driver.findComponent(ON.id('presetGrayButton'));
+      if (presetGrayButton) {
+        await presetGrayButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 点击预设白色按钮
+      let presetWhiteButton = await driver.findComponent(ON.id('presetWhiteButton'));
+      if (presetWhiteButton) {
+        await presetWhiteButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察非选中的分段按钮的字体颜色是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font color displays normally');
+      Logger.info('TEST', 'Expected: 非选中的分段按钮的字体颜色按照预设颜色正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3700 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3710
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3710
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with -1 (abnormal value)
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3710', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3710 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontSize -1');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23710");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemFontSize to -1');
+      let negativeSizeButton = await driver.findComponent(ON.id('negativeSizeButton'));
+      if (negativeSizeButton) {
+        await negativeSizeButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示，为默认值14fp');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3710 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3720
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3720
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with 20vp
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3720', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3720 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontSize 20vp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23720");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemFontSize to 20vp');
+      let vpSizeButton = await driver.findComponent(ON.id('vpSizeButton'));
+      if (vpSizeButton) {
+        await vpSizeButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示，为20vp');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3720 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3730
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3730
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with 40%
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3730', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3730 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontSize 40%');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23730");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemFontSize to 40%');
+      let percentSizeButton = await driver.findComponent(ON.id('percentSizeButton'));
+      if (percentSizeButton) {
+        await percentSizeButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3730 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3740
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3740
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with 40fp
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3740', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3740 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontSize 40fp');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23740");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemFontSize to 40fp');
+      let fpSizeButton = await driver.findComponent(ON.id('fpSizeButton'));
+      if (fpSizeButton) {
+        await fpSizeButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3740 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3750
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3750
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with 40lpx
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3750', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3750 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontSize 40lpx');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23750");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemFontSize to 40lpx');
+      let lpxSizeButton = await driver.findComponent(ON.id('lpxSizeButton'));
+      if (lpxSizeButton) {
+        await lpxSizeButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3750 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3760
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3760
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with 40px
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3760', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3760 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontSize 40px');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23760");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemFontSize to 40px');
+      let pxSizeButton = await driver.findComponent(ON.id('pxSizeButton'));
+      if (pxSizeButton) {
+        await pxSizeButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3760 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3770
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3770
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with resource($r("app.string.string1"))
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3770', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3770 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontSize resource');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23770");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemFontSize to resource');
+      let resourceSizeButton = await driver.findComponent(ON.id('resourceSizeButton'));
+      if (resourceSizeButton) {
+        await resourceSizeButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3770 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3780
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3780
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with undefined
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3780', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3780 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontSize undefined');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23780");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮设置为undefined
+      Logger.info('TEST', 'Step 2-4: Click button to set itemFontSize to undefined');
+      let undefinedSizeButton = await driver.findComponent(ON.id('undefinedSizeButton'));
+      if (undefinedSizeButton) {
+        await undefinedSizeButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察未选择的item的字体大小是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font size displays normally');
+      Logger.info('TEST', 'Expected: 未选择的item的字体大小按照预设的大小正常显示，为默认值14fp');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3780 end`);
+      done();
+    })
+
+    /*
+    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3790
+    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3790
+    * @tc.type   : Function
+    * @tc.size   : MediumTest
+    * @tc.level  : 3
+    * @tc.desc   : Verify TabSegmentButtonV2 itemFontWeight with Bolder
+    */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3790', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3790 start`);
+
+      // 步骤1：进入测试页面
+      Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 itemFontWeight Bolder');
+      Settings.createWindow("testability/pages/focus_SegmentButtonV2/SegmentButtonV23790");
+
+      let driver = Driver.create();
+      await driver.waitForIdle(1000, 2000);
+
+      // 步骤2-4：点击设置按钮
+      Logger.info('TEST', 'Step 2-4: Click button to set itemFontWeight to Bolder');
+      let bolderButton = await driver.findComponent(ON.id('bolderButton'));
+      if (bolderButton) {
+        await bolderButton.click();
+        await driver.waitForIdle(500, 1000);
+      }
+
+      // 步骤5：观察分段按钮文字粗细是否正常显示
+      Logger.info('TEST', 'Step 5: Observe if the font weight displays normally');
+      Logger.info('TEST', 'Expected: 分段按钮文字粗细按照预设的大小正常显示');
+
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3790 end`);
+      done();
+    })
+  })
+}
