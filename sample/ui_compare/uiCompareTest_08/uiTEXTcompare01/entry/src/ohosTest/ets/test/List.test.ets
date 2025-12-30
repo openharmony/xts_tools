@@ -20,6 +20,13 @@ import FocusTextTimerTest from './focus_TextUI/FocusTextTimerTest.test';
 import FocusDataPanelTest from './focus_TextUI/FocusDataPanelTest.test';
 import FocusFrameNodeTest from './focus_TextUI/FocusFrameNodeTest.test';
 import FocusOtherBadgeInterface from './focus_TextUI/FocusOtherBadgeInterface.test';
+import FocusMediaBadgeFont from './focus_TextUI/FocusMediaBadgeFont.test';
+import FocusMediaBadgeBorder from './focus_TextUI/FocusMediaBadgeBorder.test';
+import FocusMediaBadgeLargeFont from './focus_TextUI/FocusMediaBadgeLargeFont.test';
+import FocusPatternLockTest from './focus_TextUI/FocusPatternLock.test';
+import FocusPopupBoxTest from './focus_TextUI/FocusPopupBox.test';
+import FocusTextPickerTest from './focus_TextUI/FocusTextPicker.test';
+import FocusChipGroupInterfaceTest from './focus_TextUI/FocusChipGroupInterface.test';
 
 export default function testsuite() {
   FocusTextUITest();
@@ -28,5 +35,12 @@ export default function testsuite() {
   FocusOtherBadgeInterface();
   FocusContentModifierTest();
   FocusRichEditor();
-  FocusTextTimerTest(); 
+  FocusTextTimerTest();
+  FocusPatternLockTest();
+  FocusMediaBadgeFont();
+  FocusMediaBadgeBorder();
+  FocusMediaBadgeLargeFont();
+  FocusPopupBoxTest();
+  FocusTextPickerTest();
+  FocusChipGroupInterfaceTest();
 }
