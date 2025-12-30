@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -52,7 +52,7 @@ export default function ActionEventCommonEventKeyEventDispatchTest() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2025);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0010 finish.`);
       done();
@@ -73,7 +73,7 @@ export default function ActionEventCommonEventKeyEventDispatchTest() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2025);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0150');
       await Utils.sleep(2000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0150 finish.`);
       done();
@@ -94,7 +94,7 @@ export default function ActionEventCommonEventKeyEventDispatchTest() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2025);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0290');
       await Utils.sleep(2000);
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0290 finish.`);
       done();

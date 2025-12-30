@@ -54,7 +54,7 @@ export default function gestureMonopolize01Test() {
       let button: Component = await driver.waitForComponent(ON.id('innerColumn01'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020 finish.`);
       done()
@@ -82,7 +82,7 @@ export default function gestureMonopolize01Test() {
       await driver.mouseScroll(point,true,2)
       Logger.info('TEST001', `button.getBoundsCenter point is : ${JSON.stringify(point)}`);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110 finish.`);
       done()
@@ -158,7 +158,7 @@ export default function gestureMonopolize01Test() {
       let button: Component = await driver.waitForComponent(ON.id('monopolizeButton05'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_ACTION_GESTURE_RECONSTRUCTION_INTERFACE_0020')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_RECONSTRUCTION_INTERFACE_0020 finish.`);
       done()

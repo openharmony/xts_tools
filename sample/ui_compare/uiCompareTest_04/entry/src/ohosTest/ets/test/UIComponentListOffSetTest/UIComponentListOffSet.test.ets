@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,7 +48,7 @@ export default function UIComponentListOffSetTest() {
       Settings.createWindow("testability/pages/UIComponentListOffSet/UIComponentListOffSet001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050 finish.`);
       done();
@@ -65,7 +65,7 @@ export default function UIComponentListOffSetTest() {
       Settings.createWindow("testability/pages/UIComponentListOffSet/UIComponentListOffSet002");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220 finish.`);
       done();
@@ -82,7 +82,7 @@ export default function UIComponentListOffSetTest() {
       Settings.createWindow("testability/pages/UIComponentListOffSet/UIComponentListOffSet003");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030 finish.`);
       done();
@@ -106,10 +106,10 @@ export default function UIComponentListOffSetTest() {
       let point2 = await List2.getBoundsCenter();
       console.info(`${caseName} point of List2 is ${JSON.stringify(point2)}`);
       await driver.drag(point1.x, point1.y - 170, point1.x, point1.y + 170);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251_02");
       await driver.waitForIdle(500, 2000);
       await driver.drag(point2.x, point2.y + 170, point2.x, point2.y - 170);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

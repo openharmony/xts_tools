@@ -14,7 +14,7 @@
  */
 @ReusableV2
 @ComponentV2
-struct Child320 {
+struct ReusableChild320 {
   @Local message: string = "hello";
 
   build() {

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -53,7 +53,7 @@ export default function UIComponentOtherAlphabetIndexerUX() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x:point.x + 120, y: point.y + 150}, true, 70, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_UX_0120");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_UX_0120 finish.`);
       done();

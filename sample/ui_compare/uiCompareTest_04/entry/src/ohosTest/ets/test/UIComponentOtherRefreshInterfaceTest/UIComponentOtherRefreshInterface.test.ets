@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -52,7 +52,7 @@ export default function UIComponentOtherRefreshInterface() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0050");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0050 finish.`);
       done();
@@ -73,7 +73,7 @@ export default function UIComponentOtherRefreshInterface() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0240");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0240 finish.`);
       done();
@@ -94,7 +94,7 @@ export default function UIComponentOtherRefreshInterface() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0250");
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0250 finish.`);
       done();

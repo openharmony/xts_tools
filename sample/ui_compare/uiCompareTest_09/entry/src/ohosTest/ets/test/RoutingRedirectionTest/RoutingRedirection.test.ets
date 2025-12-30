@@ -41,6 +41,48 @@ export default function RoutingRedirection() {
     })
 
     /*
+       * @tc.number  SUB_ACE_Routing_redirection_0010
+       * @tc.name    SUB_ACE_Routing_redirection_0010
+       * @tc.desc    Test router page navigation and upload page path to meta-ability
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_Routing_redirection_0010', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_Routing_redirection_0010 start.`);
+      Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection10")
+      let driver:Driver = Driver.create();
+      let component = await driver.waitForComponent(ON.id('btn'), 1000);
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_Routing_redirection_0010 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_Routing_redirection_0020
+       * @tc.name    SUB_ACE_Routing_redirection_0020
+       * @tc.desc    Test cross hap package routing: Package A launches Package B page
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_Routing_redirection_0020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_Routing_redirection_0020 start.`);
+      Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection20")
+      let driver:Driver = Driver.create();
+      let component = await driver.waitForComponent(ON.id('btn'), 1000);
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_Routing_redirection_0020 finish.`);
+      done();
+    })
+
+    /*
        * @tc.number  SUB_ACE_Routing_redirection_0030
        * @tc.name    SUB_ACE_Routing_redirection_0030
        * @tc.desc    Test cross hap package routing: Package A launches Package B page, then Package B internal router navigation
@@ -103,6 +145,48 @@ export default function RoutingRedirection() {
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0050 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_Routing_redirection_0060
+       * @tc.name    SUB_ACE_Routing_redirection_0060
+       * @tc.desc    Test router.pushNamedRoute success and upload page path to meta-ability
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_Routing_redirection_0060', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_Routing_redirection_0060 start.`);
+      Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection60")
+      let driver:Driver = Driver.create();
+      let component = await driver.waitForComponent(ON.id('btn'), 1000);
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_Routing_redirection_0060 finish.`);
+      done();
+    })
+
+    /*
+       * @tc.number  SUB_ACE_Routing_redirection_0070
+       * @tc.name    SUB_ACE_Routing_redirection_0070
+       * @tc.desc    Test router.replaceNamedRoute success and upload page path to meta-ability
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_Routing_redirection_0070', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_Routing_redirection_0070 start.`);
+      Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection70")
+      let driver:Driver = Driver.create();
+      let component = await driver.waitForComponent(ON.id('btn'), 1000);
+      await component.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_Routing_redirection_0070 finish.`);
       done();
     })
 

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,7 +48,7 @@ export default function StateRepeatArrayLikeTest() {
       Settings.createWindow("testability/pages/StateRepeatArrayLike/StateRepeatArrayLike001");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 4000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010 finish.`);
       done();
@@ -65,7 +65,7 @@ export default function StateRepeatArrayLikeTest() {
       Settings.createWindow("testability/pages/StateRepeatArrayLike/StateRepeatArrayLike002");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 4000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020 finish.`);
       done();
@@ -82,7 +82,7 @@ export default function StateRepeatArrayLikeTest() {
       Settings.createWindow("testability/pages/StateRepeatArrayLike/StateRepeatArrayLike003");
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 4000);
-      windowSnap.snapShot();
+      windowSnap.snapShot('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030 finish.`);
       done();

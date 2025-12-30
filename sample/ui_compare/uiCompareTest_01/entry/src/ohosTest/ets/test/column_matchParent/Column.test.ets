@@ -55,7 +55,7 @@ export default function columnTest() {
       Settings.createWindow("testability/pages/column_matchParent/column01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0040')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0040 finish.`);
       done()
@@ -75,7 +75,7 @@ export default function columnTest() {
       Settings.createWindow("testability/pages/column_matchParent/column02")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0080')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0080 finish.`);
       done()
@@ -94,7 +94,7 @@ export default function columnTest() {
       Settings.createWindow("testability/pages/column_matchParent/row01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0150')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0150 finish.`);
       done()
@@ -114,7 +114,7 @@ export default function columnTest() {
       Settings.createWindow("testability/pages/column_matchParent/row02")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0160')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0160 finish.`);
       done()
@@ -134,7 +134,7 @@ export default function columnTest() {
       Settings.createWindow("testability/pages/column_matchParent/row03")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0120')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0120 finish.`);
       done()
@@ -153,7 +153,7 @@ export default function columnTest() {
       Settings.createWindow("testability/pages/column_matchParent/row04")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0140')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0140 finish.`);
       done()

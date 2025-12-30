@@ -49,7 +49,7 @@ export default function ImageSpanTest() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGESPAN_ERROR_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGESPAN_ERROR_0060 start.`);
       Settings.createWindow("testability/pages/image_span/image01")
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGESPAN_ERROR_0060')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGESPAN_ERROR_0060 finish.`);
       done()
