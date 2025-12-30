@@ -77,7 +77,7 @@ export default function componentOutliersTest() {
       let button8: Component = await driver.waitForComponent(ON.id('TextTimer_08'), 1000);
       await button8.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTIMER_OUTLIERS_0056')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTIMER_OUTLIERS_0056 finish.`);
       done()
@@ -120,7 +120,7 @@ export default function componentOutliersTest() {
       let button8: Component = await driver.waitForComponent(ON.id('TextClock_08'), 1000);
       await button8.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0074')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0074 finish.`);
       done()
@@ -174,7 +174,7 @@ export default function componentOutliersTest() {
       let button9: Component = await driver.waitForComponent(ON.id('PatternLock_09'), 1000);
       await button9.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0040')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0040 finish.`);
       done()

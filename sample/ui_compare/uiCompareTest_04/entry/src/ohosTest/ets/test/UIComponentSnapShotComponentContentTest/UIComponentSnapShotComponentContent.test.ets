@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -54,7 +54,7 @@ export default function UIComponentSnapShotComponentContentTest() {
       let button1: Component = await driver.waitForComponent(ON.id('snapShot'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -80,7 +80,7 @@ export default function UIComponentSnapShotComponentContentTest() {
       let button2: Component = await driver.waitForComponent(ON.id('snapShot'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -106,7 +106,7 @@ export default function UIComponentSnapShotComponentContentTest() {
       let button2: Component = await driver.waitForComponent(ON.id('snapShot'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -132,7 +132,7 @@ export default function UIComponentSnapShotComponentContentTest() {
       let button2: Component = await driver.waitForComponent(ON.id('snapShot'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -158,7 +158,7 @@ export default function UIComponentSnapShotComponentContentTest() {
       let button2: Component = await driver.waitForComponent(ON.id('snapShot'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

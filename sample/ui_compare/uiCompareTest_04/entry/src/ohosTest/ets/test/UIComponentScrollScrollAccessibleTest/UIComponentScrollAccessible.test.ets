@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -53,7 +53,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button2: Component = await driver.waitForComponent(ON.id('getScrollOffSet'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0290");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -78,7 +78,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('getScrollOffSet'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0310");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -102,7 +102,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('getScrollOffSet'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0280");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -128,7 +128,7 @@ export default function UIComponentScrollScrollAccessible() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0300");
       await driver.waitForIdle(500, 1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -150,7 +150,7 @@ export default function UIComponentScrollScrollAccessible() {
       console.log(`${caseName} rect of List is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 10, y: rect.top + 120}, {x: rect.right - 10, y: rect.top + 150});
       await driver.waitForIdle(500, 3000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0120");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -170,7 +170,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0050");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -196,7 +196,7 @@ export default function UIComponentScrollScrollAccessible() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0110");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -216,7 +216,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0020");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -238,7 +238,7 @@ export default function UIComponentScrollScrollAccessible() {
       console.log(`${caseName} point of List is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0090");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -258,7 +258,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0100");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -292,7 +292,7 @@ export default function UIComponentScrollScrollAccessible() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -312,7 +312,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -334,7 +334,7 @@ export default function UIComponentScrollScrollAccessible() {
       console.log(`${caseName} rect of WaterFlow is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 10, y: rect.top + 120}, {x: rect.right - 10, y: rect.top + 150});
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -354,7 +354,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0230");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -376,7 +376,7 @@ export default function UIComponentScrollScrollAccessible() {
       console.log(`${caseName} rect of Grid is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 10, y: rect.top + 120}, {x: rect.right - 10, y: rect.top + 150});
       await driver.waitForIdle(500, 3000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0250");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -396,7 +396,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0140");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -416,7 +416,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0150");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -436,7 +436,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0160");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -456,7 +456,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0170");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -486,7 +486,7 @@ export default function UIComponentScrollScrollAccessible() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0240");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -508,7 +508,7 @@ export default function UIComponentScrollScrollAccessible() {
       console.log(`${caseName} point of Grid is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0220");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -530,7 +530,7 @@ export default function UIComponentScrollScrollAccessible() {
       console.log(`${caseName} point of WaterFlow is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -550,7 +550,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0040");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -570,7 +570,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0030");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -590,7 +590,7 @@ export default function UIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0060");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -612,7 +612,7 @@ export default function UIComponentScrollScrollAccessible() {
       console.log(`${caseName} point of ListGroup is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0070");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -634,7 +634,7 @@ export default function UIComponentScrollScrollAccessible() {
       console.log(`${caseName} point of ListGroup is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0200");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -656,7 +656,7 @@ export default function UIComponentScrollScrollAccessible() {
       console.log(`${caseName} point of ListGroup is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

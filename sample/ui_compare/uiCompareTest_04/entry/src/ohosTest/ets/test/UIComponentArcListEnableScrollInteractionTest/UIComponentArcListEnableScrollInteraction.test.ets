@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -54,17 +54,16 @@ export default function UIComponentArcListEnableScrollInteractionTest() {
       console.info(`${caseName} point is ${JSON.stringify(point)}`);
       await driver.swipe(point.x, point.y + 40, point.x, point.y - 40);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_ENABLESCROLLINTERACTION_0010");
       let button1: Component = await driver.waitForComponent(ON.id('false'), 1000);
       await button1.click();
-      await driver.swipe(point.x, point.y + 40, point.x, point.y - 40);
-      await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      await driver.swipe(point.x, point.y + 40, point.x, pointwindowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_ENABLESCROLLINTERACTION_0010_02");driver.waitForIdle(500, 1000);
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_ENABLESCROLLINTERACTION_0010");
       let button2: Component = await driver.waitForComponent(ON.id('undefined'), 1000);
       await button2.click();
-      await driver.swipe(point.x, point.y + 40, point.x, point.y - 40);
+windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_ENABLESCROLLINTERACTION_0010_03");pe(point.x, point.y + 40, point.x, point.y - 40);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_ENABLESCROLLINTERACTION_0010");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

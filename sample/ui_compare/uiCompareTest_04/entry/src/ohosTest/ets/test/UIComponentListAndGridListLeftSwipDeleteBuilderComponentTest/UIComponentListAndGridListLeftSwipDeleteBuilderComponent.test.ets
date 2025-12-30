@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -53,7 +53,7 @@ export default function UIComponentListAndGridListLeftSwipDeleteBuilderComponent
       console.log(`${caseName} point of List is ${JSON.stringify(point)}`);
       await driver.mouseDrag({x: point.x + 300, y: point.y}, {x: point.x - 300, y: point.y}, 1000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0100");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -75,7 +75,7 @@ export default function UIComponentListAndGridListLeftSwipDeleteBuilderComponent
       console.log(`${caseName} point of List is ${JSON.stringify(point)}`);
       await driver.mouseDrag({x: point.x - 300, y: point.y}, {x: point.x + 300, y: point.y}, 1000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0090");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -97,7 +97,7 @@ export default function UIComponentListAndGridListLeftSwipDeleteBuilderComponent
       console.log(`${caseName} point of List is ${JSON.stringify(point)}`);
       await driver.mouseDrag({x: point.x + 300, y: point.y}, {x: point.x - 300, y: point.y}, 1000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0040");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -119,13 +119,13 @@ export default function UIComponentListAndGridListLeftSwipDeleteBuilderComponent
       console.log(`${caseName} point of List is ${JSON.stringify(point)}`);
       await driver.mouseDrag({x: point.x + 300, y: point.y}, {x: point.x - 300, y: point.y}, 1000);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0180_02");
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 1000);
       await driver.mouseDrag({x: point.x + 300, y: point.y}, {x: point.x - 300, y: point.y}, 1000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0180");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -147,13 +147,13 @@ export default function UIComponentListAndGridListLeftSwipDeleteBuilderComponent
       console.log(`${caseName} point of List is ${JSON.stringify(point)}`);
       await driver.mouseDrag({x: point.x + 300, y: point.y}, {x: point.x - 300, y: point.y}, 1000);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0080_02");
       await driver.mouseClick({x: point.x, y: point.y + 400}, MouseButton.MOUSE_BUTTON_LEFT);
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.mouseDrag({x: point.x + 300, y: point.y}, {x: point.x - 300, y: point.y}, 1000);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot();
+      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0080");
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

@@ -53,6 +53,30 @@
       "value": "abc"
     },
     {
+      "name": "font",
+      "value": "21"
+    },
+    {
+      "name": "string_value_20",
+      "value": "20"
+    },
+    {
+      "name": "stroke1",
+      "value": "50vp"
+    },
+    {
+      "name": "stroke2",
+      "value": "50fp"
+    },
+    {
+      "name": "stroke3",
+      "value": "50px"
+    },
+    {
+      "name": "scale",
+      "value": "50"
+    },
+    {
       "name": "string_value_5",
       "value": "5"
     }

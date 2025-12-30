@@ -14,19 +14,18 @@
  */
 
 import gestureMonopolize01Test from './gesture_monopolize/GestureMonopolize01.test';
-import stepperInterface01Test from './stepper_interface/stepperInterface01.test';
-import navigationContent01Test from './navigation_content/navigationContent01.test';
+import stepperInterface01Test from './stepper_interface/StepperInterface01.test';
+import navigationContent01Test from './navigation_content/NavigationContent01.test';
 import animatorCreate01Test from './animator_sample/animatorCreate01.test';
-import expectedFrameTest from './expectedFrame/expectedFrame.test';
-import waterflowMirrorTest from './waterflow_mirror/waterflowMirror.test';
+import expectedFrameTest from './expectedFrame/ExpectedFrame.test';
+import waterflowMirrorTest from './waterflow_mirror/WaterflowMirror.test';
 import scrollAccessibleTest from './scroll_accessible/ScrollAccessible.test';
-import specialComponentsTest from './special_components/specialComponents.test';
+import SpecialComponentsTest from './special_components/SpecialComponents.test';
 import measureResultTest from './measureResult/MeasureResult.test';
 import FocusDynamicTest from './focus_dynamic/FocusDynamic.test';
 import RouterPushTest from './router_push/RouterPush.test';
-import ImageSpanTest from './image_span/imageSpan.test';
-import SelectionMenuSymbolTest from './selectionMenu_symbol/selectionMenuSymbol.test';
-
+import ImageSpanTest from './image_span/ImageSpan.test';
+import SelectionMenuSymbolTest from './selectionMenu_symbol/SelectionMenuSymbol.test';
 import NavigationInterfaceTest from './navigation_interface/NavigationInterface.test';
 import TextInputTest from './textInput/TextInput.test';
 import columnTest from './column_matchParent/Column.test';
@@ -84,7 +83,7 @@ export default function testsuite() {
   waterflowMirrorTest();
   scrollAccessibleTest();
   measureResultTest();
-  specialComponentsTest();
+  SpecialComponentsTest();
   FocusDynamicTest();
   RouterPushTest();
   ImageSpanTest();

@@ -52,7 +52,7 @@ export default function ArcSwiperTest() {
       Settings.createWindow("testability/pages/arc_interface/arcDotIndicator01")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0090')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0090 finish.`);
       done()
@@ -72,7 +72,7 @@ export default function ArcSwiperTest() {
       let button: Component = await driver.waitForComponent(ON.id('arcDotIndicator02'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0170')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0170 finish.`);
       done()
@@ -90,7 +90,7 @@ export default function ArcSwiperTest() {
       Settings.createWindow("testability/pages/arc_interface/arcDotIndicator03")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0190')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0190 finish.`);
       done()
@@ -108,7 +108,7 @@ export default function ArcSwiperTest() {
       Settings.createWindow("testability/pages/arc_interface/arcDotIndicator04")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0200')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0200 finish.`);
       done()
@@ -128,7 +128,7 @@ export default function ArcSwiperTest() {
       let button: Component = await driver.waitForComponent(ON.id('arcDotIndicator05'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0220')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0220 finish.`);
       done()
@@ -148,7 +148,7 @@ export default function ArcSwiperTest() {
       let button: Component = await driver.waitForComponent(ON.id('arcDotIndicator06'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0210')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0210 finish.`);
       done()
@@ -168,7 +168,7 @@ export default function ArcSwiperTest() {
       let button: Component = await driver.waitForComponent(ON.id('arcDotIndicator07'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0230')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0230 finish.`);
       done()
@@ -188,7 +188,7 @@ export default function ArcSwiperTest() {
       let button: Component = await driver.waitForComponent(ON.id('arcDotIndicator08'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0240')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0240 finish.`);
       done()
@@ -208,7 +208,7 @@ export default function ArcSwiperTest() {
       let button: Component = await driver.waitForComponent(ON.id('arcDotIndicator09'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0250')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0250 finish.`);
       done()
@@ -228,7 +228,7 @@ export default function ArcSwiperTest() {
       let button: Component = await driver.waitForComponent(ON.id('arcDotIndicator10'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0260')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0260 finish.`);
       done()
@@ -246,7 +246,7 @@ export default function ArcSwiperTest() {
       Settings.createWindow("testability/pages/arc_interface/arcDotIndicator11")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0080')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0080 finish.`);
       done()
@@ -266,7 +266,7 @@ export default function ArcSwiperTest() {
       let button: Component = await driver.waitForComponent(ON.id('arcDotIndicator12'), 1000);
       await button.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0150')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0150 finish.`);
       done()
