@@ -1472,3 +1472,930 @@ export default function SetAutofocusTransferFocusview() {
       done()
     })
 
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0330
+     * @tc.name   : Verify that clicking the "Confirm button" on ActionSheet does not cause the TextInput on sheetPage to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击sheetPage页面的Click to Show ActionSheet的"Confirm button"按钮，sheetPage页面TextInput未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0330', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0330 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0330")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击sheetPage场景测试按钮
+      let sheetTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0330_sheet_test"), 500)
+      await sheetTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击输入框
+      let textInput = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0330_textinput"), 500)
+      await textInput.click()
+      await driver.waitForIdle(1000, 2000)
+      await driver.pressBack()
+      await driver.waitForIdle(500,1000)
+
+      // 步骤4：点击"Click to Show ActionSheet"按钮
+      let showSheetBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0330_show_sheet_btn"), 500)
+      await showSheetBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤5：点击"Confirm button"按钮
+      let confirmBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0330_confirm_btn"), 500)
+      await confirmBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：回到原页面，焦点在原输入框，未失焦
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0330 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0340
+     * @tc.name   : Verify that opening and closing the second Dialog does not cause the TextInput on Dialog page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证开关Dialog页面的第二个弹窗，Dialog页面TextInput未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0340', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0340 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0340")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Dialog场景测试按钮
+      let dialogTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0340_dialog_test"), 500)
+      await dialogTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击输入框
+      let textInput = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0340_textinput"), 500)
+      await textInput.click()
+      await driver.waitForIdle(1000, 2000)
+      await driver.pressBack()
+      await driver.waitForIdle(500,1000)
+
+      // 步骤4：点击"Click me"按钮打开第一个弹窗
+      let openDialogBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0340_open_dialog"), 500)
+      await openDialogBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤5：点击"点我打开第二个弹窗"按钮
+      let openSecondDialogBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0340_open_second_dialog"), 500)
+      await openSecondDialogBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤6：点击"点我关闭第二个弹窗"按钮
+      let closeSecondDialogBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0340_close_second_dialog"), 500)
+      await closeSecondDialogBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤7：点击空白处关闭第一个弹窗
+      await driver.click(500, 500)
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：回到原页面，焦点在原输入框，未失焦
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0340 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0350
+     * @tc.name   : Verify that clicking the "pop" button on pushpageOne page does not cause the Navigation page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击pushpageOne页面的"pop"按钮，Navigation页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0350', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0350 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0350")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Navigation场景测试按钮
+      let navTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0350_nav_test"), 500)
+      await navTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"pushpageOne"按钮
+      let pushBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0350_push"), 500)
+      await pushBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击pop按钮
+      let popBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0350_pop"), 500)
+      await popBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：焦点回到初始页面管理栈栈顶
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0350 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0360
+     * @tc.name   : Verify that clicking the "clear" button on pushpageOne page does not cause the Navigation page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击pushpageOne页面的"clear"按钮，Navigation页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0360', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0360 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0360")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Navigation场景测试按钮
+      let navTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0360_nav_test"), 500)
+      await navTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"pushpageOne"按钮
+      let pushBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0360_push"), 500)
+      await pushBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击clear按钮
+      let clearBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0360_clear"), 500)
+      await clearBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：焦点回到初始页面管理栈栈顶
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0360 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0370
+     * @tc.name   : Verify that clicking the "pop" button on pageThree page does not cause the Navigation page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击pageThree页面的"pop"按钮，Navigation页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0370', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0370 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0370")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Navigation场景测试按钮
+      let navTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0370_nav_test"), 500)
+      await navTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"replacePageThree"按钮
+      let replaceBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0370_replace"), 500)
+      await replaceBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击pop按钮
+      let popBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0370_pop"), 500)
+      await popBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：回到原页面，焦点在defaultFocus上
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0370 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0380
+     * @tc.name   : Verify that clicking the "clear" button on pageThree page does not cause the Navigation page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击pageThree页面的"clear"按钮，Navigation页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0380', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0380 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0380")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Navigation场景测试按钮
+      let navTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0380_nav_test"), 500)
+      await navTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"replacePageThree"按钮
+      let replaceBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0380_replace"), 500)
+      await replaceBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击clear按钮
+      let clearBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0380_clear"), 500)
+      await clearBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：焦点在原来的defaultFocus上
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0380 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0390
+     * @tc.name   : Verify that clicking the "click me" button on Dialog page does not cause the Dialog page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击Dialog页面的"click me"按钮，Dialog页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0390', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0390 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0390")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Dialog场景测试按钮
+      let dialogTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0390_dialog_test"), 500)
+      await dialogTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"click me"按钮打开弹窗
+      let openDialogBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0390_open_dialog"), 500)
+      await openDialogBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击空白处关闭弹窗
+      await driver.click(100, 100)
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：焦点在初始页面defaultFocus
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0390 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0400
+     * @tc.name   : Verify that clicking the "跳转" button on defaultFocus page does not cause the defaultFocus page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击defaultFocus页面的"跳转"按钮，defaultFocus页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0400', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0400 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0400")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击defaultFocus场景测试按钮
+      let focusTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0400_focus_test"), 500)
+      await focusTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"跳转"按钮
+      let jumpBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0400_jump"), 500)
+      await jumpBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击返回按钮
+      let backBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0400_back"), 500)
+      await backBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：焦点回到原页面栈顶
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0400 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0410
+     * @tc.name   : Verify that clicking the "Dialog" button on defaultFocus page does not cause the defaultFocus page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击defaultFocus页面的"Dialog"按钮，defaultFocus页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0410', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0410 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0410")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击defaultFocus场景测试按钮
+      let focusTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0410_focus_test"), 500)
+      await focusTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"Dialog"按钮
+      let dialogBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0410_dialog"), 500)
+      await dialogBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击空白处关闭弹窗
+      await driver.click(100, 100)
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：焦点回到初始页面栈顶
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0410 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0420
+     * @tc.name   : Verify that clicking the "Dialog2" button on defaultFocus page does not cause the defaultFocus page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击defaultFocus页面的"Dialog2"按钮，defaultFocus页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0420', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0420 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0420")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击defaultFocus场景测试按钮
+      let focusTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0420_focus_test"), 500)
+      await focusTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"Dialog2"按钮，跳转到pageTwo并弹出弹窗
+      let dialog2Btn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0420_dialog2"), 500)
+      await dialog2Btn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击弹窗内容
+      let dialogContentBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0420_dialog_content"), 500)
+      await dialogContentBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：焦点回到初始页面栈顶
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0420 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0430
+     * @tc.name   : Verify that clicking the "文本+勾选弹出框" button on defaultFocus page does not cause the defaultFocus page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击defaultFocus页面的"文本+勾选弹出框"按钮，defaultFocus页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0430', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0430 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0430")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击defaultFocus场景测试按钮
+      let focusTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0430_focus_test"), 500)
+      await focusTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"文本+勾选弹出框"按钮
+      let checkboxDialogBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0430_checkbox_dialog"), 500)
+      await checkboxDialogBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击弹窗内容选项
+      let option1 = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0430_option1"), 500)
+      await option1.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：焦点回到初始页面栈顶
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0430 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0440
+     * @tc.name   : Verify that clicking the "跳转" and "dialog" button on defaultFocus page does not cause the defaultFocus page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击defaultFocus页面的"跳转"的"dialog"按钮，defaultFocus页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0440', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0440 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0440")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击defaultFocus场景测试按钮
+      let focusTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0440_focus_test"), 500)
+      await focusTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"跳转"按钮，页面跳转到pageOne
+      let jumpBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0440_jump"), 500)
+      await jumpBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击"dialog"按钮
+      let dialogBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0440_dialog"), 500)
+      await dialogBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤5：点击空白处关闭弹窗
+      await driver.click(100, 100)
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：pageOne页面defaultFocus失焦，焦点回到栈顶
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0440 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0450
+     * @tc.name   : Verify that clicking the "dialog2" button on defaultFocus page does not cause the defaultFocus page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击defaultFocus页面的"跳转"的"dialog2"按钮，defaultFocus页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0450', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0450 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0450")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击defaultFocus场景测试按钮
+      let focusTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0450_focus_test"), 500)
+      await focusTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"跳转"按钮
+      let jumpBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0450_jump"), 500)
+      await jumpBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击"dialog2"按钮
+      let dialog2Btn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0450_dialog2"), 500)
+      await dialog2Btn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤5：点击弹窗内容按钮
+      let dialogContentBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0450_dialog_content"), 500)
+      await dialogContentBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：pageOne页面defaultFocus失焦，焦点回到栈顶
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0450 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0460
+     * @tc.name   : Verify that clicking the "文本+勾选弹出框" button on defaultFocus page does not cause the defaultFocus page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击defaultFocus页面的"跳转"的"文本+勾选弹出框"按钮，defaultFocus页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0460', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0460 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0460")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击defaultFocus场景测试按钮
+      let focusTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0460_focus_test"), 500)
+      await focusTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"跳转"按钮
+      let jumpBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0460_jump"), 500)
+      await jumpBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击"文本+勾选弹出框"按钮
+      let checkboxDialogBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0460_checkbox_dialog"), 500)
+      await checkboxDialogBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤5：点击弹窗内容选项
+      let option1 = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0460_option1"), 500)
+      await option1.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：pageOne页面defaultFocus失焦，焦点回到栈顶
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0460 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0470
+     * @tc.name   : Verify that clicking the "show next" and "show previous" buttons on swiper page does not cause the swiper page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击swiper页面的"show next"和"show previous"按钮，swiper页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0470', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0470 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0470")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击swiper场景测试按钮
+      let swiperTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0470_swiper_test"), 500)
+      await swiperTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"show next"按钮
+      let showNextBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0470_show_next"), 500)
+      await showNextBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击"show previous"按钮
+      let showPreviousBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0470_show_previous"), 500)
+      await showPreviousBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：页面切换，焦点在defaultFocus上
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0470 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0490
+     * @tc.name   : Verify that clicking the "show menu" button on Menu page does not cause the Menu page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击Menu页面的"show menu"按钮，Menu页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0490', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0490 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0490")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Menu场景测试按钮
+      let menuTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0490_menu_test"), 500)
+      await menuTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"show menu"按钮
+      let showMenuBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0490_show_menu"), 500)
+      await showMenuBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击标题内容后返回
+      let menuItem1 = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0490_menu_item1"), 500)
+      await menuItem1.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：回到原页面，焦点在defaultFocus上
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0490 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0500
+     * @tc.name   : Verify that clicking the "Popup" button on Popup page does not cause the Popup page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击Popup页面的"Popup"按钮，Popup页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0500', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0500 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0500")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Popup场景测试按钮
+      let popupTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0500_popup_test"), 500)
+      await popupTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"Popup"按钮
+      let popupBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0500_popup_btn"), 500)
+      await popupBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击空白处关闭Popup
+      await driver.click(100, 100)
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：回到原页面，焦点在defaultFocus上
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0500 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0510
+     * @tc.name   : Verify that clicking the "PopupOptions" button on Popup page does not cause the Popup page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击Popup页面的"PopupOptions"按钮，Popup页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0510', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0510 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0510")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Popup场景测试按钮
+      let popupTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0510_popup_test"), 500)
+      await popupTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"PopupOptions"按钮
+      let popupOptionsBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0510_popup_options_btn"), 500)
+      await popupOptionsBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击空白处关闭Popup
+      await driver.click(100, 100)
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：回到原页面，焦点在defaultFocus上
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0510 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0520
+     * @tc.name   : Verify that clicking the "CustomPopupOptions" button on Popup page does not cause the Popup page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击Popup页面的"CustomPopupOptions"按钮，Popup页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0520', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0520 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0520")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Popup场景测试按钮
+      let popupTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0520_popup_test"), 500)
+      await popupTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"CustomPopupOptions"按钮
+      let customPopupBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0520_custom_popup_btn"), 500)
+      await customPopupBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击空白处关闭Popup
+      await driver.click(100, 100)
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：回到原页面，焦点在defaultFocus上
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0520 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0530
+     * @tc.name   : Verify that clicking the "transition modal 1" button on modal page does not cause the modal 1 page to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击modal页面的"transition modal 1"按钮，modal 1页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0530', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0530 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0530")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击modal场景测试按钮
+      let modalTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0530_modal_test"), 500)
+      await modalTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"transition modal 1"按钮
+      let modal1Btn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0530_modal1_btn"), 500)
+      await modal1Btn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：切换页面到modal 1，焦点在modal 1页面defaultFocus上
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0530 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0550
+     * @tc.name   : Verify that clicking the "Confirm button" on Sheetpage does not cause the Sheetpage to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击Sheetpage页面的"Confirm button"按钮，Sheetpage页面未失焦
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0550', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0550 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0550")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Sheetpage场景测试按钮
+      let sheetTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0550_sheet_test"), 500)
+      await sheetTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"Click to show actionSheet"按钮
+      let showSheetBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0550_show_sheet_btn"), 500)
+      await showSheetBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击"Confirm button"按钮
+      let confirmBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0550_confirm_btn"), 500)
+      await confirmBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：回到原页面，焦点在defaultFocus上
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0550 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0560
+     * @tc.name   : Verify that clicking the "Confirm button" on ModalPage with abnormal setAutoFocusTransfer value does not cause TextInput to lose focus.
+     * @tc.type   : function
+     * @tc.desc   : 验证点击ModalPage页面的transition modal1按钮，ModalPage页面TextInput未失焦（setAutoFocusTransfer设为异常值）
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0560', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0560 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0560")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击Sheetpage场景测试按钮
+      let sheetTestBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0560_sheet_test"), 500)
+      await sheetTestBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：点击"Click to show actionSheet"按钮
+      let showSheetBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0560_show_sheet_btn"), 500)
+      await showSheetBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤4：点击"Confirm button"按钮
+      let confirmBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0560_confirm_btn"), 500)
+      await confirmBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：焦点在原页面defaultFocus上
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0560 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0570
+     * @tc.name   : Verify that setAutoFocusTransfer with abnormal value (null/undefined) behaves same as true.
+     * @tc.type   : function
+     * @tc.desc   : 验证setAutoFocusTransfer状态设为异常值null或undefined，焦点变化与setAutoFocusTransfer为true一致
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0570', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0570 start.`);
+      // 步骤1：启动应用
+      Settings.createWindow("testability/pages/SetAutofocusTransferFocusview/SetAutofocusTransferFocusview0570")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+
+      // 步骤2：点击异常值场景测试按钮
+      let testBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0570_test"), 500)
+      await testBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 步骤3：测试Navigation场景 - 点击pushPageOne
+      let pushBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0570_push"), 500)
+      await pushBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 点击pop返回
+      let popBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0570_pop"), 500)
+      await popBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 测试Popup场景 - 点击show Popup
+      let showPopupBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0570_show_popup"), 500)
+      await showPopupBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 关闭Popup
+      let closePopupBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0570_close_popup"), 500)
+      if (closePopupBtn) {
+        await closePopupBtn.click()
+        await driver.waitForIdle(1000, 2000)
+      }
+
+      // 测试Sheet场景 - 点击show Sheet
+      let showSheetBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0570_show_sheet"), 500)
+      await showSheetBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 点击Confirm关闭Sheet
+      let confirmBtn = await driver.waitForComponent(ON.id("setautofocustransfer_focusview_0570_confirm"), 500)
+      await confirmBtn.click()
+      await driver.waitForIdle(1000, 2000)
+
+      // 截图验证：测试结果与值为true结果相同
+      await windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0570 finish.`);
+      done()
+    })
+
+
+  })
+}
