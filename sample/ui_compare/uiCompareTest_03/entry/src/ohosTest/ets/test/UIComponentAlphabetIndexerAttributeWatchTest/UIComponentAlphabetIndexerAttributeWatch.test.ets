@@ -1842,7 +1842,1585 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
       done();
     })
 
-    
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0670
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0670
+     * @tc.desc    Property usePopup set to false
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0670', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0670';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0670";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0680
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0680
+     * @tc.desc    Property usePopup set to true
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0680', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0680';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0680";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0690
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0690
+     * @tc.desc    Property usePopup not configured
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0690', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0690';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0690";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0700
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0700
+     * @tc.desc    Property usePopup configured with non-boolean
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0700', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0700';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0700";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0710
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0710
+     * @tc.desc    Verify effect when usePopup is false
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0710', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0710';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0710";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0720
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0720
+     * @tc.desc    Verify effect when usePopup is true
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0720', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0720';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0720";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0730
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0730
+     * @tc.desc    Property selectedFont uses invalid value
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0730', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0730';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0730";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0740
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0740
+     * @tc.desc    Property selectedFont uses default config
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0740', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0740';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0740";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0750
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0750
+     * @tc.desc    Property popupFont uses invalid value
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0750', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0750';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0750";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0760
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0760
+     * @tc.desc    Property popupFont uses default config
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0760', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0760';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0760";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0770
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0770
+     * @tc.desc    Property font uses invalid value
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0770', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0770';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0770";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0780
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0780
+     * @tc.desc    Property font uses default config
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0780', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0780';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0780";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0790
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0790
+     * @tc.desc    Verify font property effect
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0790', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0790';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0790";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0800
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0800
+     * @tc.desc    Property selected set to 2
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0800', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0800';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0800";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0810
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0810
+     * @tc.desc    Property selected set to other invalid values
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0810', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0810';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0810";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0820
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0820
+     * @tc.desc    Property selected uses default value
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0820', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0820';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0820";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0830
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0830
+     * @tc.desc    Property autoCollapse: character count greater than 13 shows all
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0830', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0830';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0830";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0840
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0840
+     * @tc.desc    Property autoCollapse: character count greater than 9 and not greater than 13 adapts
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0840', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0840';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0840";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0850
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0850
+     * @tc.desc    Property autoCollapse: character count not greater than 9 shows all
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0850', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0850';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0850";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0860
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0860
+     * @tc.desc    Property autoCollapse set to False
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0860', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0860';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0860";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0870
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0870
+     * @tc.desc    Property autoCollapse uses default value
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0870', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0870';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0870";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0880
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0880
+     * @tc.desc    Set popupBackgroundBlurStyle to BACKGROUND_REGULAR
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0880', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0880';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0880";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0890
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0890
+     * @tc.desc    Set popupBackgroundBlurStyle to BACKGROUND_THICK
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0890', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0890';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0890";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0900
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0900
+     * @tc.desc    Set popupBackgroundBlurStyle to BACKGROUND_THIN
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0900', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0900';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0900";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0910
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0910
+     * @tc.desc    Set popupBackgroundBlurStyle to BACKGROUND_ULTRA_THICK
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0910', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0910';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0910";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0920
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0920
+     * @tc.desc    Set popupBackgroundBlurStyle to COMPONENT_REGULAR
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0920', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0920';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0920";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0930
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0930
+     * @tc.desc    Set popupBackgroundBlurStyle to COMPONENT_THICK
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0930', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0930';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0930";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0940
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0940
+     * @tc.desc    Set popupBackgroundBlurStyle to COMPONENT_THIN
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0940', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0940';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0940";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0950
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0950
+     * @tc.desc    Set popupBackgroundBlurStyle to COMPONENT_ULTRA_THICK
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0950', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0950';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0950";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0960
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0960
+     * @tc.desc    Set popupBackgroundBlurStyle to COMPONENT_ULTRA_THIN
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0960', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0960';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0960";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0970
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0970
+     * @tc.desc    Set popupBackgroundBlurStyle to NONE
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0970', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0970';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0970";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0980
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0980
+     * @tc.desc    Set popupBackgroundBlurStyle to null
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0980', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0980';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0980";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0990
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0990
+     * @tc.desc    Set popupBackgroundBlurStyle to Regular
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0990', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0990';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch0990";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1000
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1000
+     * @tc.desc    Set popupBackgroundBlurStyle to Thick
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1000', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1000';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1000";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1010
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1010
+     * @tc.desc    Set popupBackgroundBlurStyle to Thin
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1010', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1010';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1010";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await driver.mouseMoveTo({x: indexCenter.x, y: indexBounds.top + 75});
+      await driver.waitForIdle(1000, 2000);
+      await driver.click(indexCenter.x, indexBounds.top + 75);
+      await Utils.sleep(1000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1020
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1020
+     * @tc.desc    Set popupBackgroundBlurStyle to undefined
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1020', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1020';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1020";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1030
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1030
+     * @tc.desc    AlphabetIndexer width is string
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1030', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1030';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1030";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1040
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1040
+     * @tc.desc    AlphabetIndexer width is string with long text
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1040', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1040';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1040";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1050
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1050
+     * @tc.desc    AlphabetIndexer width is undefined
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1050', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1050';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1050";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1060
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1060
+     * @tc.desc    AlphabetIndexer width is undefined with long text
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1060', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1060';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1060";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1070
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1070
+     * @tc.desc    AlphabetIndexer width is 'auto auto'
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1070', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1070';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1070";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1080
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1080
+     * @tc.desc    AlphabetIndexer width is 'auto auto' with long text
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1080', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1080';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1080";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1090
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1090
+     * @tc.desc    AlphabetIndexer width is empty string
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1090', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1090';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1090";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1100
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1100
+     * @tc.desc    AlphabetIndexer width is empty string with long text
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1100', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1100';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1100";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1110
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1110
+     * @tc.desc    AlphabetIndexer width is not set
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1110', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1110';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1110";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1120
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1120
+     * @tc.desc    AlphabetIndexer width is not set with long text
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1120', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1120';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1120";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1130
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1130
+     * @tc.desc    AlphabetIndexer width is extremely large value
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1130', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1130';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1130";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1140
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1140
+     * @tc.desc    AlphabetIndexer width is negative value
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1140', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1140';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1140";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1150
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1150
+     * @tc.desc    AlphabetIndexer width is negative value with long text
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1150', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1150';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1150";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1160
+     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1160
+     * @tc.desc    Event onSelect callback test
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1160', Level.LEVEL3, async (done: Function) => {
+      TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1160';
+      let pageName = "UIComponentAlphabetIndexerAttributeWatch1160";
+      Logger.info(`[${TAG}]`, `Case start.`);
+      Settings.createWindow('testability/pages/UIComponentAlphabetIndexerAttributeWatch/' + pageName);
+      let driver: Driver = Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id(pageName + '_01'), 1000);
+      let targetComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02'), 1000);
+      let listComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_1'), 1000);
+      let indexComponent: Component = await driver.waitForComponent(ON.id(pageName + '_02_2'), 1000);
+      let logComponent: Component = await driver.waitForComponent(ON.id(pageName + '_03'), 1000);
+      let center = await targetComponent.getBoundsCenter();
+      let bounds = await targetComponent.getBounds();
+      let listCenter = await listComponent.getBoundsCenter();
+      let listBounds = await listComponent.getBounds();
+      let indexCenter = await indexComponent.getBoundsCenter();
+      let indexBounds = await indexComponent.getBounds();
+      await driver.waitForIdle(1000, 2000);
+      await windowSnap.snapShot();
+      await Utils.sleep(1000);
+      Logger.info(`[${TAG}]`, `Case finish.`);
+      done();
+    })
 
   })
 }
