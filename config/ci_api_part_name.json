@@ -10445,6 +10445,27 @@
                 "ace_engine"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.FusionConnectivity.partnerAgent.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.FusionConnectivity.PartnerAgentExtensionContext.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.FusionConnectivity.PartnerAgentExtensionAbility.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c": [
