@@ -29,6 +29,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/remove_internal.py",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/bundle.json",
             "bundle_name": [
                 "sdk"
