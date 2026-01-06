@@ -153,6 +153,42 @@
         }
       },
       {
+        "path": "test/testfwk/arkxtest",
+        "bundle_name": "arkxtest",
+        "subdirectory": {
+          "test/testfwk/arkxtest/jsunit/src_static": {
+            "suite_type": ["hap_static"],
+            "add_bundle": [],
+            "add_target": ["FULL_IMPACT_TOTALLY"]
+          },
+          "test/testfwk/arkxtest/jsunit/src": {
+            "suite_type": ["hap_dynamic"],
+            "add_bundle": [],
+            "add_target": ["test/xts/acts/ability/ability_runtime/abilitymontior:ActsAbilityMonitorTest"]
+          },
+          "test/testfwk/arkxtest/jsunit/index.d.ts": {
+            "suite_type": ["hap_dynamic"],
+            "add_bundle": [],
+            "add_target": ["test/xts/acts/ability/ability_runtime/abilitymontior:ActsAbilityMonitorTest"]
+          },
+          "test/testfwk/arkxtest/jsunit/index.ts": {
+            "suite_type": ["hap_dynamic"],
+            "add_bundle": [],
+            "add_target": ["test/xts/acts/ability/ability_runtime/abilitymontior:ActsAbilityMonitorTest"]
+          },
+          "test/testfwk/arkxtest/jsunit/index.js": {
+            "suite_type": ["hap_dynamic"],
+            "add_bundle": [],
+            "add_target": ["test/xts/acts/ability/ability_runtime/abilitymontior:ActsAbilityMonitorTest"]
+          },
+          "test/testfwk/arkxtest/jsunit/index.ets": {
+            "suite_type": ["hap_dynamic"],
+            "add_bundle": [],
+            "add_target": ["test/xts/acts/ability/ability_runtime/abilitymontior:ActsAbilityMonitorTest"]
+          }
+        }
+      },
+      {
         "path": "arkcompiler/runtime_core",
         "bundle_name": "runtime_core",
         "subdirectory": {
