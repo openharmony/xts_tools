@@ -1080,7 +1080,7 @@
         {
             "path": "interface/sdk-js/api/@ohos.data.distributedKVStore.d.ts",
             "bundle_name": [
-                "data_share"
+                "kv_store"
             ],
             "build_targets": []
         },
@@ -9178,7 +9178,8 @@
                 "data_object",
                 "preferences",
                 "udmf",
-                "arkdata_intelligence_platform"
+                "arkdata_intelligence_platform",
+                "kv_store"
             ],
             "build_targets": []
         },
