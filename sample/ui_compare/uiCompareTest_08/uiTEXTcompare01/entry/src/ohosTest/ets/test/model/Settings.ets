@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import screen from '@ohos.screen';
+import { display } from '@kit.ArkUI';
 import window from '@ohos.window';
 import Logger from './Logger';
 import { GlobalThis } from './globalThis'
@@ -94,24 +94,14 @@ class Settings {
   }
 
   changeDpi(dpi: number) {
-    let screenClass: screen.Screen;
-    screen.getAllScreens((err: BusinessError, data: Array<screen.Screen>) => {
-      if (err.code) {
-        Logger.error(TAG, `Failed to get all screens. Cause : ${JSON.stringify(err)}`);
-        return;
-      }
-      Logger.info(TAG, `Succeeded in getting all screens. Data:${JSON.stringify(data)}`);
-
-      screenClass = data[0];
-      //设置设备dpi
-      screenClass.setDensityDpi(dpi, (err: BusinessError) => {
-        if (err.code) {
-          Logger.error(TAG, `Failed to set the pixel density. Code : ${JSON.stringify(err)}`)
-          return;
-        }
-        Logger.info(TAG, `Succeeded in setting the pixel density`);
-      })
-    })
+    try {
+      let displayClass = display.getDefaultDisplaySync();
+      Logger.info(TAG, `Succeeded in getting default display. Data:${JSON.stringify(displayClass)}`);
+      // 注意：display API 不支持动态修改 DPI，这里仅记录日志
+      Logger.info(TAG, `Current DPI: ${displayClass.densityDPI}, requested DPI: ${dpi}`);
+    } catch (err) {
+      Logger.error(TAG, `Failed to get default display. Cause : ${JSON.stringify(err)}`);
+    }
   }
 
   setWindowSystemBarEnable(windowClass: window.Window, names: Array<'status' | 'navigation'>) {
@@ -149,7 +139,8 @@ class Settings {
 
   async changeWindowOrientation(end?:string) {
     window.getLastWindow(GlobalThis.getInstance().getContext('context')).then((lastWindow) => {
-      let orientation = this.windowClass!.getPreferredOrientation();
+      this.windowClass = lastWindow;
+      let orientation = lastWindow.getPreferredOrientation();
       Logger.info(`before set window orientation: ${orientation}}`)
       // 如果未定义 切成横屏
       // 如果是竖屏 切成横屏
@@ -158,7 +149,7 @@ class Settings {
         orientation = window.Orientation.LANDSCAPE
       } else if (orientation == window.Orientation.PORTRAIT) {
         orientation = window.Orientation.LANDSCAPE
-      } else if (orientation = window.Orientation.LANDSCAPE) {
+      } else if (orientation == window.Orientation.LANDSCAPE) {
         orientation = window.Orientation.PORTRAIT
       }
       if(end){

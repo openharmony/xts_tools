@@ -27,6 +27,13 @@ import FocusPatternLockTest from './focus_TextUI/FocusPatternLock.test';
 import FocusPopupBoxTest from './focus_TextUI/FocusPopupBox.test';
 import FocusTextPickerTest from './focus_TextUI/FocusTextPicker.test';
 import FocusChipGroupInterfaceTest from './focus_TextUI/FocusChipGroupInterface.test';
+import FocusPBHeightWidthTest from './focus_TextUI/FocusPBHeightWidth.test';
+import FocusPBMaxWidthTest from './focus_TextUI/FocusPBMaxWidth.test';
+import FocusSegmentButtonTest from './focus_TextUI/FocusSegmentButton.test';
+import FocusSegmentButtonV2TestPart1 from './focus_TextUI/FocusSegmentButtonV2_Part1.test';
+import FocusSegmentButtonV2TestPart2 from './focus_TextUI/FocusSegmentButtonV2_Part2.test';
+import FocusSegmentButtonV2TestPart3 from './focus_TextUI/FocusSegmentButtonV2_Part3.test';
+import FocusSegmentButtonV2TestPart4 from './focus_TextUI/FocusSegmentButtonV2_Part4.test';
 
 export default function testsuite() {
   FocusTextUITest();
@@ -43,4 +50,11 @@ export default function testsuite() {
   FocusPopupBoxTest();
   FocusTextPickerTest();
   FocusChipGroupInterfaceTest();
+  FocusPBHeightWidthTest();
+  FocusPBMaxWidthTest();
+  FocusSegmentButtonTest();
+  FocusSegmentButtonV2TestPart1();
+  FocusSegmentButtonV2TestPart2();
+  FocusSegmentButtonV2TestPart3();
+  FocusSegmentButtonV2TestPart4();
 }

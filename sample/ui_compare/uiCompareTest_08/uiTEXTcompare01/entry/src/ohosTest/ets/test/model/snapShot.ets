@@ -18,18 +18,33 @@ import image from '@ohos.multimedia.image';
 import fs from '@ohos.file.fs';
 import common from '@ohos.app.ability.common'
 import { GlobalThis } from './globalThis'
-import screenshot from '@ohos.screenshot'
 import { BusinessError } from '@ohos.base'
 import Settings from './Settings';
 
 const TAG: string = '[TEST]';
 
+interface ScreenRect {
+  left: number;
+  top: number;
+  width: number;
+  height: number;
+}
+
+interface ImageSize {
+  width: number;
+  height: number;
+}
+
+interface ScreenshotOptions {
+  screenRect: ScreenRect;
+  imageSize: ImageSize;
+}
 
 class windowSnap {
   filePath(pageName ?: string) {
     let context: common.UIAbilityContext | undefined = GlobalThis.getInstance().getContext('context')
     Logger.info(TAG, 'deleteFile start');
-    let pathDir = context ? context.filesDir : "/"
+    let pathDir:string = context ? context.filesDir : "/"
     Logger.info(TAG, `deleteFile pathDir = ${pathDir}`)
     let name = pageName ? pageName : "test"
     let displayName = `IMG_${name}.webp`
@@ -117,45 +132,10 @@ class windowSnap {
   **/
 
   async screenShot(pageName?: string) {
-    Logger.info(TAG, 'start screen shot')
-    if (Settings.windowClass == undefined) {
-      Logger.info(TAG, 'getWindowClass error')
-      return;
-    }
-    Logger.info(TAG, 'find window success')
-    let filePath = this.filePath(pageName)
-    this.deleteFile(filePath)
-
-    // 获取窗口属性
-    try {
-      let properties = Settings.windowClass.getWindowProperties();
-      Logger.info(TAG, 'properties.windowRect =  ' + JSON.stringify(properties))
-
-      let screenshotOptions: screenshot.ScreenshotOptions = {
-        "screenRect": properties.windowRect,
-        "imageSize": {
-          "width": properties.windowRect.width,
-          "height": properties.windowRect.height
-        }
-      };
-      Logger.info(TAG, 'screenshotOptions: ' + JSON.stringify(screenshotOptions));
-      try {
-        screenshot.save(screenshotOptions, (err: BusinessError, pixelMap: image.PixelMap) => {
-          if (err) {
-            Logger.info('failed to save screenshot .Code : ' + JSON.stringify(err))
-            return;
-          }
-          Logger.info(TAG, 'Succeed in saving screenshot. Pixel bytes number: ' + pixelMap.getPixelBytesNumber())
-          this.save(filePath, pixelMap) //pixelMap 保存生成文件
-          pixelMap.release();
-        });
-      } catch (exception) {
-        Logger.error(TAG, 'failed to : save screenshot. code: ' + JSON.stringify(exception));
-      }
-
-    } catch (exception) {
-      Logger.error(TAG, 'failed to obtain the window properties .Cause : ' + JSON.stringify(exception))
-    }
+    Logger.info(TAG, 'start screen shot - using window snapshot instead')
+    // 注意：screenshot.save API 在新版本中已废弃，使用 window.snapshot 代替
+    // 直接调用 snapShot 方法来实现截图功能
+    await this.snapShot(pageName);
   }
 }
 
