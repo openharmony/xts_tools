@@ -5823,20 +5823,6 @@
             ],
             "build_targets": []
         },
-        {	 
-            "path": "interface/sdk-js/api/@internal/component/ets/picker.d.ts",	 
-            "bundle_name": [	 
-                "ace_engine"	 
-            ],	 
-            "build_targets": []	 
-        },	 
-        {	 
-            "path": "interface/sdk-js/api/arkui/PickerModifier.d.ts",	 
-            "bundle_name": [	 
-                "ace_engine"	 
-            ],	 
-            "build_targets": []	 
-        },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/ui_picker_component.d.ts",
             "bundle_name": [
@@ -9977,20 +9963,6 @@
                 "ace_engine"
             ],
             "build_targets": []
-        },
-        {	 
-            "path": "interface/sdk-js/api/arkui/component/picker.static.d.ets",	 
-            "bundle_name": [	 
-                "ace_engine"	 
-            ],	 
-            "build_targets": []	 
-        },	 
-        {	 
-            "path": "interface/sdk-js/api/arkui/PickerModifier.static.d.ets",	 
-            "bundle_name": [	 
-                "ace_engine"	 
-            ],	 
-            "build_targets": []	 
         },
         {
             "path": "interface/sdk-js/api/arkui/component/uiPickerComponent.static.d.ets",
