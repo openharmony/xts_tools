@@ -10467,6 +10467,13 @@
                 "fusion_connectivity"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.intelligentScene.d.ts",
+            "bundle_name": [
+                "settings"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c": [
