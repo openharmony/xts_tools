@@ -1540,14 +1540,32 @@ export default function SnapshotAttribute() {
     /*
      * @tc.number  SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0190
      * @tc.name    SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0190
-     * @tc.desc    ProgressLinear sets the strokeRadius property
+     * @tc.desc    设置属性linearGradient
      * @tc.size    MediumTest
      * @tc.type    Function
-     * @tc.level   0
+     * @tc.level   3
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0190 start.`);
       Settings.createWindow("testability/pages/SnapshotAttribute/Snapshotlevel190")
+      let driver:Driver = Driver.create();
+      // 点击Snapshotlevel0_2按钮
+      let btnLevel = await driver.waitForComponent(ON.id('btn_level'), 1000);
+      await btnLevel.click();
+      await driver.waitForIdle(500, 2000);
+      // 点击linearGradient按钮，设置渐变属性
+      let btnGradient = await driver.waitForComponent(ON.id('btn_gradient'), 1000);
+      await btnGradient.click();
+      await driver.waitForIdle(500, 2000);
+      // 点击get promise按钮
+      let btnPromise = await driver.waitForComponent(ON.id('btn_promise'), 1000);
+      await btnPromise.click();
+      await driver.waitForIdle(500, 2000);
+      // 点击get callback按钮
+      let btnCallback = await driver.waitForComponent(ON.id('btn_callback'), 1000);
+      await btnCallback.click();
+      await driver.waitForIdle(500, 2000);
+      // 截图验证
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0190 finish.`);

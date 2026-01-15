@@ -238,72 +238,6 @@ export default function SnapshotComponentContent() {
     })
 
     /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0600
-     * @tc.desc   : Set the scale parameter of the createFromComponent interface to null
-     * @tc.size   : MediumTest
-     * @tc.type   : Function
-     * @tc.level  : 4
-     */
-    it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0600', Level.LEVEL4, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0600 start.`);
-      Settings.createWindow("testability/pages/SnapshotComponentContent/SnapshotComponentContent0600")
-      let driver:Driver = Driver.create();
-      await driver.waitForIdle(500,2000)
-      let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
-      await Button1.click();
-      await driver.waitForIdle(500,2000)
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0600 finish.`);
-      done()
-    })
-
-    /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0610
-     * @tc.desc   : Set the waitUntilRenderFinished parameter of the createFromComponent interface to null
-     * @tc.size   : MediumTest
-     * @tc.type   : Function
-     * @tc.level  : 4
-     */
-    it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0610', Level.LEVEL4, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0610 start.`);
-      Settings.createWindow("testability/pages/SnapshotComponentContent/SnapshotComponentContent0610")
-      let driver:Driver = Driver.create();
-      await driver.waitForIdle(500,2000)
-      let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
-      await Button1.click();
-      await driver.waitForIdle(500,2000)
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0610 finish.`);
-      done()
-    })
-
-    /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0620
-     * @tc.desc   : Set the waitUntilRenderFinished parameter of the createFromComponent interface to undefined
-     * @tc.size   : MediumTest
-     * @tc.type   : Function
-     * @tc.level  : 4
-     */
-    it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0620', Level.LEVEL4, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0620 start.`);
-      Settings.createWindow("testability/pages/SnapshotComponentContent/SnapshotComponentContent0620")
-      let driver:Driver = Driver.create();
-      await driver.waitForIdle(500,2000)
-      let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
-      await Button1.click();
-      await driver.waitForIdle(500,2000)
-      windowSnap.snapShot()
-      await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0620 finish.`);
-      done()
-    })
-
-    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0570
      * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0570
      * @tc.desc   : Set the scale parameter of the createFromComponent interface to 4
@@ -1042,7 +976,7 @@ export default function SnapshotComponentContent() {
       }
       await Button1.click(); // 确保 Button1 不是 null 再点击
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot()
+      windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0320 finish.`);
       done();
@@ -1138,6 +1072,28 @@ export default function SnapshotComponentContent() {
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0150 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0120
+     * @tc.desc   : Get a screenshot of the video component
+     * @tc.size   : MediumTest
+     * @tc.type   : Function
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0120', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0120 start.`);
+      Settings.createWindow("testability/pages/SnapshotComponentContent/SnapshotComponentContent0120")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000)
+      let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
+      await Button1.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0120 finish.`);
       done()
     })
 

@@ -503,6 +503,58 @@ export default function Statusmanagerv2Optimize() {
 
 
     /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240
+     * @tc.desc   : 当Provider->Consumer装饰的状态变量为复杂类型object时可正确dump信息
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize240")
+      let driver:Driver = Driver.create();
+      // 点击 "add new user" 按钮
+      let btnAddUser = await driver.waitForComponent(ON.id('btn_add_user'), 1000);
+      await btnAddUser.click();
+      await driver.waitForIdle(500,2000)
+      // 点击 "change name" 按钮
+      let btnChangeName = await driver.waitForComponent(ON.id('btn_change_name'), 1000);
+      await btnChangeName.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250
+     * @tc.desc   : 当@Consumer->Provider装饰的状态变量为复杂类型object时可正确dump信息
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize250")
+      let driver:Driver = Driver.create();
+      // 点击 "add new user" 按钮（在Child组件中）
+      let btnAddUser = await driver.waitForComponent(ON.id('btn_add_user'), 1000);
+      await btnAddUser.click();
+      await driver.waitForIdle(500,2000)
+      // 点击 "change name" 按钮（在Child组件中）
+      let btnChangeName = await driver.waitForComponent(ON.id('btn_change_name'), 1000);
+      await btnChangeName.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250 finish.`);
+      done();
+    })
+
+    /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0290
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0290
      * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
@@ -523,6 +575,109 @@ export default function Statusmanagerv2Optimize() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300
+     * @tc.desc   : 当@Provider->Consumer修饰class对象嵌套没有装饰器装饰的class
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize300")
+      let driver:Driver = Driver.create();
+      // 点击刷新用户信息按钮，实例化赋值刷新@Provider装饰的状态变量
+      let btnRefresh = await driver.waitForComponent(ON.id('btn_refresh_user'), 1000);
+      await btnRefresh.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310
+     * @tc.desc   : 当@Provider->Consumer修饰class对象嵌套被装饰器装饰的class
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize310")
+      let driver:Driver = Driver.create();
+      // 步骤1: 刷新用户对象
+      let btnRefreshUser = await driver.waitForComponent(ON.id('btn_refresh_user'), 1000);
+      await btnRefreshUser.click();
+      await driver.waitForIdle(500,2000)
+      // 步骤2: 刷新Trace属性
+      let btnRefreshTrace = await driver.waitForComponent(ON.id('btn_refresh_trace'), 1000);
+      await btnRefreshTrace.click();
+      await driver.waitForIdle(500,2000)
+      // 步骤3: 刷新普通属性
+      let btnRefreshNormal = await driver.waitForComponent(ON.id('btn_refresh_normal'), 1000);
+      await btnRefreshNormal.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320
+     * @tc.desc   : 当@Consumer->Provider修饰class对象嵌套没有装饰器装饰的class
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize320")
+      let driver:Driver = Driver.create();
+      // 在Consumer中刷新用户对象
+      let btnRefresh = await driver.waitForComponent(ON.id('btn_refresh_user'), 1000);
+      await btnRefresh.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320 finish.`);
+      done();
+    })
+
+    /*
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330
+     * @tc.desc   : 当@Consumer->Provider修饰class对象嵌套被装饰器装饰的class
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330 start.`);
+      Settings.createWindow("testability/pages/Statusmanagerv2Optimize/Statusmanagerv2Optimize330")
+      let driver:Driver = Driver.create();
+      // 步骤1: 在Consumer中刷新用户对象
+      let btnRefreshUser = await driver.waitForComponent(ON.id('btn_refresh_user'), 1000);
+      await btnRefreshUser.click();
+      await driver.waitForIdle(500,2000)
+      // 步骤2: 刷新Trace属性
+      let btnRefreshTrace = await driver.waitForComponent(ON.id('btn_refresh_trace'), 1000);
+      await btnRefreshTrace.click();
+      await driver.waitForIdle(500,2000)
+      // 步骤3: 刷新普通属性
+      let btnRefreshNormal = await driver.waitForComponent(ON.id('btn_refresh_normal'), 1000);
+      await btnRefreshNormal.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.screenShot();
+      await Utils.sleep(1000);
+      Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330 finish.`);
+      done();
+    })
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0340
