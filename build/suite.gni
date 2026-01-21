@@ -23,6 +23,7 @@ declare_args() {
   TESTCONFIG_FILENAME = "Test.xml"
   XTS_ROOT = "//test/xts"
   ACTS_ROOT = "//test/xts/acts"
+  ACTS_DEVICES_ROOT = "//test/xts/acts_devices"
   HATS_ROOT = "//test/xts/hats"
   HITS_ROOT = "//test/xts/hits"
   DCTS_ROOT = "//test/xts/dcts"
@@ -809,20 +810,6 @@ template("ohos_xts_static_library") {
 }
 
 # 过滤suite_type
-template("ohos_xts_executable") {
-  if (XTS_SUITETYPE == [] || filter_include(XTS_SUITETYPE, [ "bin" ]) != []) {
-    target("ohos_executable", "${target_name}") {
-      forward_variables_from(invoker, "*")
-    }
-  } else {
-    group(target_name) {
-      print("[XTS] suite_type mismatch, no need build " + target_name)
-      not_needed(invoker, "*")
-    }
-  }
-}
-
-# 过滤suite_type
 template("ohos_xts_action") {
   if (defined(invoker.suite_type)) {
     _suite_type = invoker.suite_type
@@ -885,5 +872,85 @@ template("ohos_xts_app") {
       print("[XTS] suite_type mismatch, no need build " + target_name)
       not_needed(invoker, "*")
     }
+  }
+}
+
+template("ohos_xts_part_name_filter") {
+  _subsystem_name = "common"
+  if (defined(invoker.subsystem_name)) {
+    _subsystem_name = invoker.subsystem_name
+  }
+
+  _part_name = "common"
+  if (defined(invoker.part_name)) {
+    _part_name = invoker.part_name
+  }
+
+  # suite_type filter.
+  if (XTS_SUITETYPE == [] || filter_include(XTS_SUITETYPE, [ "bin" ]) != []) {
+    _build_suite = true
+  } else {
+    _build_suite = false
+  }
+
+  # part_name filter.
+  if (_build_suite) {
+    _build_part = false
+    if (_subsystem_name == "kernel" || _subsystem_name == "common") {
+      _build_part = true
+    } else {
+      _part_judge_script = "//test/xts/tools/build/judgePart.py"
+      _script_args = [
+        rebase_path("$preloader_output_dir") + "/parts_config.json",
+        "${_subsystem_name}_${_part_name}",
+        "judgePart",
+      ]
+      _judge_result = exec_script(rebase_path(_part_judge_script),
+                                  _script_args, "trim string")
+      if (_judge_result == "True") {
+        _build_part = true
+      }
+    }
+  }
+
+  if (_build_suite && _build_part) {
+    target(invoker.actual_target_type, target_name) {
+      forward_variables_from(invoker, "*", ["actual_target_type"])
+    }
+  } else {
+    group(target_name) {
+      print("[XTS] No need to build: " + target_name +
+            " due to suite_type or part_name mismatch.")
+      if (defined(invoker.public_configs)) {
+        print(invoker.public_configs)
+      }
+      if (defined(invoker.external_deps)) {
+        print(invoker.external_deps)
+      }
+      if (defined(invoker.deps)) {
+        print(invoker.deps)
+      }
+      if (defined(invoker.configs)) {
+        print(invoker.configs)
+      }
+      if (defined(invoker.sources)) {
+        print(invoker.sources)
+      }
+      not_needed(invoker, "*")
+    }
+  }
+}
+
+template("ohos_xts_shared_library") {
+  ohos_xts_part_name_filter(target_name) {
+    actual_target_type = "ohos_shared_library"
+    forward_variables_from(invoker, "*")
+  }
+}
+
+template("ohos_xts_executable") {
+  ohos_xts_part_name_filter(target_name) {
+    actual_target_type = "ohos_executable"
+    forward_variables_from(invoker, "*")
   }
 }

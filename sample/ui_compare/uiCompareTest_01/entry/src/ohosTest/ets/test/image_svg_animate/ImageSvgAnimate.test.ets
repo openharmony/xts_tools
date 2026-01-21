@@ -364,5 +364,22 @@ export default function ImageSvgAnimateTest () {
       done()
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0030
+     * @tc.name   : SVG animateTransform test case 30
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0030 start.`);
+      Settings.createWindow("testability/pages/image_svg_animate/imageSvg19")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0030 finish.`);
+      done()
+    })
   })
 }
