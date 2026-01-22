@@ -10488,6 +10488,13 @@
                 "ace_engine"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.userIAM.companionDeviceAuth.d.ts",
+            "bundle_name": [
+                "companion_device_auth"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c": [
