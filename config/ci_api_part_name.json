@@ -2282,6 +2282,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.DownloadFileButton.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.systemparameter.d.ts",
             "bundle_name": [
                 "init"
