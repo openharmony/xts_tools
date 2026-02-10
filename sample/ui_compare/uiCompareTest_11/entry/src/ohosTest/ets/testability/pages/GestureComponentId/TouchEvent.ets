@@ -13,9 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架 Sheet3 - 组件响应触摸事件（0500/0510）
- */
 @Entry
 @Component
 struct TouchEventPage {

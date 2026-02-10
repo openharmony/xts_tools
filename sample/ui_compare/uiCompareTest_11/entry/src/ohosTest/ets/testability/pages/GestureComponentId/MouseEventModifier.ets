@@ -13,9 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架 Sheet3 - modifier 组件响应鼠标事件（0470/0480）
- */
 @Entry
 @Component
 struct MouseEventModifier {

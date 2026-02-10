@@ -13,10 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架测试用例_20241025 Sheet1 - 验证按键返回unicode值
- * 创建1个带有onKeyEvent事件触发的ets应用，按下按键后显示 keyCode/unicode
- */
 @Entry
 @Component
 struct KeyEventUnicode {

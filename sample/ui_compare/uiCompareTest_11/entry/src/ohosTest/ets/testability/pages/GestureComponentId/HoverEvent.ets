@@ -13,9 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架 Sheet3 - 组件响应悬浮事件（0430）
- */
 @Entry
 @Component
 struct HoverEvent {

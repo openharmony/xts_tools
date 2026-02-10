@@ -13,9 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架 Sheet3 - 组件响应点击事件，组件信息获取正确（0410/0420）
- */
 @Entry
 @Component
 struct ClickEvent {

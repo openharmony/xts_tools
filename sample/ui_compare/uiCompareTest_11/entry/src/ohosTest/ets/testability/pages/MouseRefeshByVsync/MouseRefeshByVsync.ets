@@ -13,10 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架测试用例_20241025 Sheet2 - 鼠标样式/备忘录栏位显示（MOUSE_REFESHBYVSYNC_0010~0140）
- * 占位页：模拟第一栏、第二栏、第三栏及 sideBar 区域，用于验证默认/修改鼠标样式
- */
 @Entry
 @Component
 struct MouseRefeshByVsync {

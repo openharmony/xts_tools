@@ -13,9 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架测试用例_20241025 Sheet2 - 将鼠标从一个组件来回快速移动到另一个组件，验证坐标
- */
 @Entry
 @Component
 struct MouseBackwardanalysis {

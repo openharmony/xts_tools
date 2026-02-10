@@ -13,9 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架 Sheet3 - 组件响应无障碍悬浮事件（0490）
- */
 @Entry
 @Component
 struct AccessibilityHoverEvent {

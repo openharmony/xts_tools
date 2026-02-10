@@ -13,9 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架 Sheet3 - 组件响应 TapGesture/PanGesture/PinchGesture/SwipeGesture、组合手势、父子重叠（0520/0540/0550/0570/0640/0690）
- */
 @Entry
 @Component
 struct GestureEventPage {

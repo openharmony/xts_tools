@@ -13,11 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架测试用例_20241025 Sheet2 - 鼠标按键点击onMouse / API12 hover与onMouse回调规格
- * 0020: Button 绑定 onMouse，点击打印信息
- * 0030/0060: [no hover] 与 [onMouse] 两个按钮，验证按下移动不报 hover、onMouse 回调范围
- */
 @Entry
 @Component
 struct Mouse {

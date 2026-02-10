@@ -13,9 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架 Sheet3 - modifier 组件响应各类手势（0580/0600/0610/0630）
- */
 @Entry
 @Component
 struct GestureEventModifier {

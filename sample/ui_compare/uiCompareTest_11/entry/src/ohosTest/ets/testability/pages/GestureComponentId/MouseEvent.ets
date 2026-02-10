@@ -13,9 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架 Sheet3 - 组件响应鼠标事件，悬浮/点击组件信息获取正确（0450/0460）
- */
 @Entry
 @Component
 struct MouseEventPage {

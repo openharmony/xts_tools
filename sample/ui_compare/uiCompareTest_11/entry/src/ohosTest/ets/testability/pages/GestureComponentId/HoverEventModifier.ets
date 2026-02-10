@@ -13,9 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架 Sheet3 - modifier 组件响应悬浮事件（0440）
- */
 @Entry
 @Component
 struct HoverEventModifier {

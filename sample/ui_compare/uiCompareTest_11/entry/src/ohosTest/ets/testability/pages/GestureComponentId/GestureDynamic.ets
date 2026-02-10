@@ -13,9 +13,6 @@
  * limitations under the License.
  */
 
-/**
- * 交互框架 Sheet3 - 动态切换 id/key、父子冒泡、连续点击等（0730/0740-0790）
- */
 @Entry
 @Component
 struct GestureDynamic {
