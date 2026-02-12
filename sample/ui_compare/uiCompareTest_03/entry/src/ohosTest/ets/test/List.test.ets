@@ -13,6 +13,84 @@
  * limitations under the License.
  */
 
+import UIComponentWaterFlowSlidingWindow
+  from './UIComponentWaterFlowSlidingWindowTest/UIComponentWaterFlowSlidingWindow.test';
+import UIComponentWaterFlowSliding
+  from './UIComponentWaterFlowSlidingTest/UIComponentWaterFlowSliding.test';
+import UIComponentWaterFlowSldingWindow
+  from './UIComponentWaterFlowSldingWindowTest/UIComponentWaterFlowSldingWindow.test';
+import UIComponentWaterFlowFooter
+  from './UIComponentWaterFlowFooterTest/UIComponentWaterFlowFooter.test';
+import UIComponentWaterFlowFlowItem
+  from './UIComponentWaterFlowFlowItemTest/UIComponentWaterFlowFlowItem.test';
+import UIComponentWaterFlowEventModifier
+  from './UIComponentWaterFlowEventModifierTest/UIComponentWaterFlowEventModifier.test';
+import UIComponentWaterFlowClipComent
+  from './UIComponentWaterFlowClipComentTest/UIComponentWaterFlowClipComent.test';
+import UIComponentWaterFlowCachedCount
+  from './UIComponentWaterFlowCachedCountTest/UIComponentWaterFlowCachedCount.test';
+import UIComponentScrollScrollbarInteraction
+  from './UIComponentScrollScrollbarInteractionTest/UIComponentScrollScrollbarInteraction.test';
+import UIComponentScrollScrollPaging
+  from './UIComponentScrollScrollPagingTest/UIComponentScrollScrollPaging.test';
+import UIComponentScrollScrollInterface
+  from './UIComponentScrollScrollInterfaceTest/UIComponentScrollScrollInterface.test';
+import UIComponentScrollScrollGetItemRect
+  from './UIComponentScrollScrollGetItemRectTest/UIComponentScrollScrollGetItemRect.test';
+import UIComponentScrollScrollAlwaysEnable
+  from './UIComponentScrollScrollAlwaysEnableTest/UIComponentScrollScrollAlwaysEnable.test';
+import UIComponentScrollAlphabetIndexerModifier
+  from './UIComponentScrollAlphabetIndexerModifierTest/UIComponentScrollAlphabetIndexerModifier.test';
+import UIComponentOtherScrollableAnimation
+  from './UIComponentOtherScrollableAnimationTest/UIComponentOtherScrollableAnimation.test';
+import UIComponentListAndGridModifier
+  from './UIComponentListAndGridModifierTest/UIComponentListAndGridModifier.test';
+import UIComponentListAndGridGridGetItemIndex
+  from './UIComponentListAndGridGridGetItemIndexTest/UIComponentListAndGridGridGetItemIndex.test';
+import UIComponentListAndGridXommonSmooth
+  from './UIComponentListAndGridXommonSmoothTest/UIComponentListAndGridXommonSmooth.test';
+import UIComponentListAndGridXommonOnScroll
+  from './UIComponentListAndGridXommonOnScrollTest/UIComponentListAndGridXommonOnScroll.test';
+import UIComponentListAndGridXommonOnDidScroll
+  from './UIComponentListAndGridXommonOnDidScrollTest/UIComponentListAndGridXommonOnDidScroll.test';
+import UIComponentListAndGridWaterFlowSpring
+  from './UIComponentListAndGridWaterFlowSpringTest/UIComponentListAndGridWaterFlowSpring.test';
+import UIComponentListAndGridWaterFlowSections
+  from './UIComponentListAndGridWaterFlowSectionsTest/UIComponentListAndGridWaterFlowSections.test';
+import UIComponentListAndGridWaterFlowScrollbar
+  from './UIComponentListAndGridWaterFlowScrollbarTest/UIComponentListAndGridWaterFlowScrollbar.test';
+import UIComponentListAndGridWaterFlowNiXiang
+  from './UIComponentListAndGridWaterFlowNiXiangTest/UIComponentListAndGridWaterFlowNiXiang.test';
+import UIComponentListAndGridXommonScrollTo
+  from './UIComponentListAndGridXommonScrollToTest/UIComponentListAndGridXommonScrollTo.test';
+import UIComponentListAndGridWaterFlowGetItemIndex
+  from './UIComponentListAndGridWaterFlowGetItemIndexTest/UIComponentListAndGridWaterFlowGetItemIndex.test';
+import UIComponentListAndGridWaterFlowFadingEdge
+  from './UIComponentListAndGridWaterFlowFadingEdgeTest/UIComponentListAndGridWaterFlowFadingEdge.test';
+import UIComponentListAndGridWaterFlowAdd
+  from './UIComponentListAndGridWaterFlowAddTest/UIComponentListAndGridWaterFlowAdd.test';
+import UIComponentListAndGridListItemGroupScrollToIndex
+  from './UIComponentListAndGridListItemGroupScrollToIndexTest/UIComponentListAndGridListItemGroupScrollToIndex.test';
+import UIComponentListAndGridListUniversalPropertyConstraintSize
+  from './UIComponentListAndGridListUniversalPropertyConstraintSizeTest/UIComponentListAndGridListUniversalPropertyConstraintSize.test';
+import UIComponentListAndGridListUI
+  from './UIComponentListAndGridListUITest/UIComponentListAndGridListUI.test';
+import UIComponentListAndGridListMouseGesture
+  from './UIComponentListAndGridListMouseGestureTest/UIComponentListAndGridListMouseGesture.test';
+import UIComponentListAndGridListMouse
+  from './UIComponentListAndGridListMouseTest/UIComponentListAndGridListMouse.test';
+import UIComponentListAndGridListMirror
+  from './UIComponentListAndGridListMirrorTest/UIComponentListAndGridListMirror.test';
+import UIComponentListAndGridListLeftSeipeDeleteChain
+  from './UIComponentListAndGridListLeftSeipeDeleteChainTest/UIComponentListAndGridListLeftSeipeDeleteChain.test';
+import UIComponentListAndGridListInterface
+  from './UIComponentListAndGridListInterfaceTest/UIComponentListAndGridListInterface.test';
+import UIComponentListAndGridListFadingEdge
+  from './UIComponentListAndGridListFadingEdgeTest/UIComponentListAndGridListFadingEdge.test';
+import UIComponentListAndGridListChildMainSize
+  from './UIComponentListAndGridListChildMainSizeTest/UIComponentListAndGridListChildMainSize.test';
+import UIComponentListAndGridListChainAnimation
+  from './UIComponentListAndGridListChainAnimationTest/UIComponentListAndGridListChainAnimation.test';
 import UIComponentListAndGridListCapability
   from './UIComponentListAndGridListCapabilityTest/UIComponentListAndGridListCapability.test';
 import UIComponentListAndGridListAnimation
@@ -266,4 +344,43 @@ export default function testsuite() {
   UIComponentListAndGridListAlign();
   UIComponentListAndGridListAnimation();
   UIComponentListAndGridListCapability();
+  UIComponentListAndGridListChainAnimation();
+  UIComponentListAndGridListChildMainSize();
+  UIComponentListAndGridListFadingEdge();
+  UIComponentListAndGridListInterface();
+  UIComponentListAndGridListLeftSeipeDeleteChain();
+  UIComponentListAndGridListMirror();
+  UIComponentListAndGridListMouse();
+  UIComponentListAndGridListMouseGesture();
+  UIComponentListAndGridListUI();
+  UIComponentListAndGridListUniversalPropertyConstraintSize();
+  UIComponentListAndGridListItemGroupScrollToIndex();
+  UIComponentListAndGridWaterFlowAdd();
+  UIComponentListAndGridWaterFlowFadingEdge();
+  UIComponentListAndGridWaterFlowGetItemIndex();
+  UIComponentListAndGridXommonScrollTo();
+  UIComponentListAndGridWaterFlowNiXiang();
+  UIComponentListAndGridWaterFlowScrollbar();
+  UIComponentListAndGridWaterFlowSections();
+  UIComponentListAndGridWaterFlowSpring();
+  UIComponentListAndGridXommonOnDidScroll();
+  UIComponentListAndGridXommonOnScroll();
+  UIComponentListAndGridXommonSmooth();
+  UIComponentListAndGridGridGetItemIndex();
+  UIComponentListAndGridModifier();
+  UIComponentOtherScrollableAnimation();
+  UIComponentScrollAlphabetIndexerModifier();
+  UIComponentScrollScrollAlwaysEnable();
+  UIComponentScrollScrollGetItemRect();
+  UIComponentScrollScrollInterface();
+  UIComponentScrollScrollPaging();
+  UIComponentScrollScrollbarInteraction();
+  UIComponentWaterFlowCachedCount();
+  UIComponentWaterFlowClipComent();
+  UIComponentWaterFlowEventModifier();
+  UIComponentWaterFlowFlowItem();
+  UIComponentWaterFlowFooter();
+  UIComponentWaterFlowSldingWindow();
+  UIComponentWaterFlowSliding();
+  UIComponentWaterFlowSlidingWindow();
 }
