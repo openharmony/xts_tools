@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
 import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
@@ -1057,6 +1057,353 @@ export default function UiComponentButtonTextPickerArkui() {
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0730 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0670
+       * @tc.name    timePicker set dateTimeOptions to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0670', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0670 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui52")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0670 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0490
+       * @tc.name    DatePicker set disappearTextStyle to blue
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0490', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0490 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui53")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0490 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0500
+       * @tc.name    DatePicker set disappearTextStyle to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0500', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0500 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui54")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0500 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0470
+       * @tc.name    DatePicker set lunar to true
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0470', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0470 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui55")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0470 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0480
+       * @tc.name    DatePicker set lunar to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0480', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0480 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui56")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0480 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0420
+       * @tc.name    CalendarPicker set CalendarAlign to START
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0420', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0420 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui57")
+      let driver:Driver=Driver.create();
+      let CalendarPicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui57'),1000);
+      await driver.waitForIdle(500,2000)
+      await CalendarPicker.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0420 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0430
+       * @tc.name    CalendarPicker set CalendarAlign to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0430', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0430 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui58")
+      let driver:Driver=Driver.create();
+      let CalendarPicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui58'),1000);
+      await driver.waitForIdle(500,2000)
+      await CalendarPicker.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0430 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0780
+       * @tc.name    rating set stepSize to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0780', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0780 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui59")
+      let driver:Driver=Driver.create();
+      let CalendarPicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui59'),1000);
+      await driver.waitForIdle(500,2000)
+      await CalendarPicker.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0780 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0450
+       * @tc.name    calendarPicker set textStyle font to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0450', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0450 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui60")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0450 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0440
+       * @tc.name    calendarPicker set textStyle font to 20
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0440', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0440 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui61")
+      let driver:Driver=Driver.create();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0440 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0810
+       * @tc.name    rating set onChange to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0810', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0810 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui62")
+      let driver:Driver=Driver.create();
+      let Rating: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui62'),1000);
+      await Rating.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0810 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0740
+       * @tc.name    radio set onChange to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0740', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0740 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui63")
+      let driver:Driver=Driver.create();
+      let Rating: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui63_02'),1000);
+      await Rating.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0740 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0410
+       * @tc.name    checkboxGroup set onChange to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0410', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0410 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui64")
+      let driver:Driver=Driver.create();
+      let Rating: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui64'),1000);
+      await Rating.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0410 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0290
+       * @tc.name    checkbox set onChange to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0290', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0290 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui65")
+      let driver:Driver=Driver.create();
+      let Rating: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui65'),1000);
+      await Rating.click();
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0290 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0700
+       * @tc.name    timePicker set onChange to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0700', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0700 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui66")
+      let driver:Driver=Driver.create();
+      let TimePicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui66'),1000);
+      let point = await TimePicker.getBoundsCenter()
+      await driver.mouseDrag({x:point.x, y:point.y},{x:point.x, y:point.y-100},600);
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0700 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0460
+       * @tc.name    CalendarPicker set onChange to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0460', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0460 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui67")
+      let driver:Driver=Driver.create();
+      let CalendarPicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui67'),1000);
+      let point = await CalendarPicker.getBoundsCenter();
+      await CalendarPicker.click()
+      await driver.mouseClick({x:point.x,y:point.y+400},MouseButton.MOUSE_BUTTON_LEFT)
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0460 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0180
+       * @tc.name    CalendarPicker set onChange to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0180', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0180 start.`);
+      Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui68")
+      let driver:Driver=Driver.create();
+      let TextPicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui68'),1000);
+      let point = await TextPicker.getBoundsCenter();
+      await driver.mouseDrag({x:point.x, y:point.y},{x:point.x, y:point.y-100},600);
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0180 finish.`);
       done()
     })
 
