@@ -19,12 +19,12 @@ import { image } from '@kit.ImageKit';
 
 @Entry
 @Component
-struct Image011 {
+struct Image01 {
   @State pixelMapImg: PixelMap | undefined = undefined;
   @State message: string = 'Image01'
 
   aboutToAppear() {
-    this.requestImageUrl('https://docs.openharmony.cn/doc_v5.1_1748472324/zh-cn/application-dev/reference/apis-arkui/arkui-ts/figures/TextInputUnderline.png'); // 请填写一个具体的网络图片地址
+    this.requestImageUrl('http://images.openharmony.cn/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E6%B4%BB%E5%8A%A8/419/3.2releas-656-432.jpg'); // 请填写一个具体的网络图片地址
   }
 
   requestImageUrl(url: string) {
@@ -58,8 +58,15 @@ struct Image011 {
   build() {
     Column() {
       Text(this.message)
-        .fontSize(50)
-        .fontWeight(FontWeight.Bold)
+        .height(80)
+        .fontSize(15)
+        .textAlign(TextAlign.Center)
+        .fontColor(Color.Black)
+        .width('70%')
+        .border({ width: 1 })
+        .lineHeight(20)
+        .fontWeight(300)
+        .margin(10)
 
 
       Image(this.pixelMapImg)

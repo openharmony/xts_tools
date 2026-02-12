@@ -1,6 +1,48 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/api/arkui/LayoutAlgorithm.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.layoutAlgorithm.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.components.ArkDynamicLayout.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/LayoutAlgorithm.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.layoutAlgorithm.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.components.ArkDynamicLayout.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/delete_arkui_label.pydeps",
             "bundle_name": [
                 "sdk"
@@ -23,6 +65,13 @@
         },
         {
             "path": "interface/sdk-js/run_compile_declgen.py",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/remove_internal.py",
             "bundle_name": [
                 "sdk"
             ],
@@ -2275,6 +2324,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.DownloadFileButton.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.systemparameter.d.ts",
             "bundle_name": [
                 "init"
@@ -4060,6 +4116,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.data.UdmfComponents.static.d.ets",
+            "bundle_name": [
+                "udmf"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.net.http.d.ts",
             "bundle_name": [
                 "netstack"
@@ -4523,6 +4586,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.userIAM.userAuthIcon.d.ets",
+            "bundle_name": [
+                "user_auth_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.userIAM.userAuthIcon.static.d.ets",
             "bundle_name": [
                 "user_auth_framework"
             ],
@@ -5789,6 +5859,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.ArcAlphabetIndexer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/nav_router.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -5824,14 +5901,14 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@internal/component/ets/picker.d.ts",
+            "path": "interface/sdk-js/api/@internal/component/ets/ui_picker_component.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/PickerModifier.d.ts",
+            "path": "interface/sdk-js/api/arkui/UIPickerComponentModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -9965,14 +10042,14 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/component/picker.static.d.ets",
+            "path": "interface/sdk-js/api/arkui/component/uiPickerComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/PickerModifier.static.d.ets",
+            "path": "interface/sdk-js/api/arkui/UIPickerComponentModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -10465,6 +10542,34 @@
             "path": "interface/sdk-js/api/@ohos.FusionConnectivity.PartnerAgentExtensionAbility.d.ts",
             "bundle_name": [
                 "fusion_connectivity"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.intelligentScene.d.ts",
+            "bundle_name": [
+                "settings"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/FormComponentModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.userIAM.companionDeviceAuth.d.ts",
+            "bundle_name": [
+                "companion_device_auth"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.app.ability.systemConfiguration.d.ts",
+            "bundle_name": [
+                "ability_runtime"
             ],
             "build_targets": []
         }
@@ -11391,13 +11496,6 @@
             "path": "drivers/interface/input",
             "bundle_name": [
                 "drivers_interface_input"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/api/arkui/FormComponentModifier.static.d.ets",
-            "bundle_name": [
-                "ace_engine"
             ],
             "build_targets": []
         }

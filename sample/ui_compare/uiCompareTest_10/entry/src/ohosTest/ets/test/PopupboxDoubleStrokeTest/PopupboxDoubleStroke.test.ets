@@ -1,0 +1,228 @@
+/**
+ * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
+import Settings from '../model/Settings'
+import windowSnap from '../model/snapShot'
+import Logger from '../model/Logger'
+import Utils from '../model/Utils'
+import { Driver, ON, Component } from '@kit.TestKit';
+
+export default function PopupboxDoubleStroke() {
+
+  describe('PopupboxDoubleStroke', () => {
+    afterEach(async (done: Function) => {
+      if (Settings.windowClass == undefined) {
+        return
+      }
+
+      Settings.windowClass.destroyWindow((err) => {
+        if (err.code) {
+          Logger.error('TEST', `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
+          return;
+        }
+        Logger.info('TEST', `Succeeded in destroy the window.`);
+      })
+      await Utils.sleep(1000);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020
+     * @tc.desc   : On ALN: alertDialog – without setting stroke properties (stroke width, stroke color, stroke material), observe whether the double-stroke and corner radius comply with the UX design.
+     * @tc.size   : MediumTest
+     * @tc.type   : Function
+     * @tc.level  : 3
+     */
+
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020 start.`);
+      Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0020")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(5000,8000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050
+     * @tc.desc   : On ALN: customDialog – without setting stroke properties (stroke width, stroke color, stroke material), observe whether the double-stroke and corner radius comply with the UX design.
+     * @tc.size   : MediumTest
+     * @tc.type   : Function
+     * @tc.level  : 3
+     */
+
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050 start.`);
+      Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0050")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(5000,8000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080
+     * @tc.desc   : On ALN: openCustomDialog – without setting stroke properties (stroke width, stroke color, stroke material), observe whether the double-stroke and corner radius comply with the UX design.
+     * @tc.size   : MediumTest
+     * @tc.type   : Function
+     * @tc.level  : 3
+     */
+
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080 start.`);
+      Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0080")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(5000,8000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090
+     * @tc.desc   : On ALN: showActionMenu – observe whether the double-stroke and corner radius comply with the UX design.
+     * @tc.size   : MediumTest
+     * @tc.type   : Function
+     * @tc.level  : 3
+     */
+
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090 start.`);
+      Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0090")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(5000,8000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110
+     * @tc.desc   : On ALN: showToast – observe whether the double-stroke and corner radius comply with the UX design.
+     * @tc.size   : MediumTest
+     * @tc.type   : Function
+     * @tc.level  : 3
+     */
+
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110 start.`);
+      Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0110")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(5000,8000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160
+     * @tc.desc   : On ALN: UIContext.showAlertDialog – without setting stroke properties (stroke width, stroke color, stroke material), observe whether the double-stroke and corner radius comply with the UX design.
+     * @tc.size   : MediumTest
+     * @tc.type   : Function
+     * @tc.level  : 3
+     */
+
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160 start.`);
+      Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0160")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(5000,8000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180
+     * @tc.desc   : On ALN: UIContext.showDialog – observe whether the double-stroke and corner radius comply with the UX design.
+     * @tc.size   : MediumTest
+     * @tc.type   : Function
+     * @tc.level  : 3
+     */
+
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180', Level.LEVEL3, async (done: Function) => {
+      try {
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180 start.`);
+        Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0180")
+        let driver:Driver = Driver.create();
+        await driver.waitForIdle(5000,8000)
+        windowSnap.snapShot()
+        await Utils.sleep(1000)
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180 finish.`);
+        done()
+      } catch (error) {
+        Logger.error('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180 error: ${JSON.stringify(error)}`);
+        done()
+      }
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210
+     * @tc.desc   : On ALN: UIContext.showToast – observe whether the double-stroke and corner radius comply with the UX design.
+     * @tc.size   : MediumTest
+     * @tc.type   : Function
+     * @tc.level  : 3
+     */
+
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210 start.`);
+      Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0210")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(5000,8000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210 finish.`);
+      done()
+    })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030
+     * @tc.desc   : On XYAO device: view Dialog double-stroke and corner radius display, observe whether it complies with the UX design.
+     * @tc.size   : MediumTest
+     * @tc.type   : Function
+     * @tc.level  : 3
+     */
+
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030 start.`);
+      Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke1030")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(5000,8000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030 finish.`);
+      done()
+    })
+
+  })
+}

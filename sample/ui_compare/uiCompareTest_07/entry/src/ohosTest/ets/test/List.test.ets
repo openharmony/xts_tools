@@ -40,6 +40,41 @@ import Builder from './BuilderTest/Builder.test'
 import ProgressBuilder from './ProgressBuilderTest/ProgressBuilder.test'
 import ProgressModifierColor from './ProgressModifierColorTest/ProgressModifierColor.test'
 import ProgressInterface from './ProgressInterfaceTest/ProgressInterface.test'
+import ForegroundColor from './ForegroundColorTest/ForegroundColor.test'
+import QrcodeWatches from './QrcodeWatchesTest/QrcodeWatches.test'
+import ProgressAnimateTo from './ProgressAnimateToTest/ProgressAnimateTo.test'
+import CommonSize from './CommonSizeTest/CommonSize.test'
+import ProgressBorder from './ProgressBorderTest/ProgressBorder.test'
+import ProgressBackground from './ProgressBackgroundTest/ProgressBackground.test'
+import TextClockContentModifier from './TextClockContentModifierTest/TextClockContentModifier.test'
+import ComponentProgressLinear from './ComponentProgressLinearTest/ComponentProgressLinear.test'
+import ProgressCommonLocation from './ProgressCommonLocationTest/ProgressCommonLocation.test'
+import ProgressAdaptiveAging from './ProgressAdaptiveAgingTest/ProgressAdaptiveAging.test'
+import TextClockPrefixed from './TextClockPrefixedTest/TextClockPrefixed.test'
+import CounterUxconsistency from './CounterUxconsistencyTest/CounterUxconsistency.test'
+import DialogSpecificationsHand from './DialogSpecificationsHandTest/DialogSpecificationsHand.test'
+import DialogSpecificationsUi from './DialogSpecificationsUiTest/DialogSpecificationsUi.test'
+import CustomDialogInterface from './CustomDialogInterfaceTest/CustomDialogInterface.test'
+import DialogCustomInterface from './DialogCustomInterfaceTest/DialogCustomInterface.test'
+import CustomDialogScenarios from './CustomDialogScenariosTest/CustomDialogScenarios.test'
+import SpecificationsTransition from './SpecificationsTransitionTest/SpecificationsTransition.test'
+import PopupboxAttribute from './PopupboxAttributeTest/PopupboxAttribute.test'
+import PopupBoxFullDialog from './PopupBoxFullDialogTest/PopupBoxFullDialog.test'
+import PopupboxSpecification from './PopupboxSpecificationTest/PopupboxSpecification.test'
+import PopupboxSpecificationsAlignment from './PopupboxSpecificationsAlignmentTest/PopupboxSpecificationsAlignment.test'
+import PopupboxSpecificationsBind from './PopupboxSpecificationsBindTest/PopupboxSpecificationsBind.test'
+import PopupBoxActionSheetScenarios from './PopupBoxActionSheetScenariosTest/PopupBoxActionSheetScenarios.test'
+import AvoidContinuumshuWindow from './AvoidContinuumshuWindowTest/AvoidContinuumshuWindow.test'
+import PopupBoxAlertdialogInterface from './PopupBoxAlertdialogInterfaceTest/PopupBoxAlertdialogInterface.test'
+import PopupBoxAlertdialogScenarios from './PopupBoxAlertdialogScenariosTest/PopupBoxAlertdialogScenarios.test'
+import PopupBoxBack from './PopupBoxBackTest/PopupBoxBack.test'
+import DialogAlertInterface from './DialogAlertInterfaceTest/DialogAlertInterface.test'
+import DialogActionsheet from './DialogActionsheetTest/DialogActionsheet.test'
+import NodecontrollerLifeCycle from './NodecontrollerLifeCycleTest/NodecontrollerLifeCycle.test'
+import CustomSelectinputmethodoptimization from './CustomSelectinputmethodoptimizationTest/CustomSelectinputmethodoptimization.test'
+import PrivacySensitiveProgress from './PrivacySensitiveProgressTest/PrivacySensitiveProgress.test'
+
+
 
 
 
@@ -70,4 +105,37 @@ export default function testsuite() {
   ProgressBuilder();
   ProgressModifierColor();
   ProgressInterface();
+  ForegroundColor();
+  QrcodeWatches();
+  ProgressAnimateTo();
+  CommonSize();
+  ProgressBorder();
+  ProgressBackground();
+  TextClockContentModifier();
+  ComponentProgressLinear();
+  ProgressCommonLocation();
+  ProgressAdaptiveAging();
+  TextClockPrefixed();
+  CounterUxconsistency();
+  DialogSpecificationsHand();
+  DialogSpecificationsUi();
+  CustomDialogInterface();
+  DialogCustomInterface();
+  CustomDialogScenarios();
+  SpecificationsTransition();
+  PopupboxAttribute();
+  PopupBoxFullDialog();
+  PopupboxSpecification();
+  PopupboxSpecificationsAlignment();
+  PopupboxSpecificationsBind();
+  PopupBoxActionSheetScenarios();
+  AvoidContinuumshuWindow();
+  PopupBoxAlertdialogInterface();
+  PopupBoxAlertdialogScenarios();
+  PopupBoxBack();
+  DialogAlertInterface();
+  DialogActionsheet();
+  NodecontrollerLifeCycle();
+  CustomSelectinputmethodoptimization();
+  PrivacySensitiveProgress();
 }
