@@ -638,5 +638,378 @@ export default function UiComponentTextRichEditorInterface() {
       done()
     })
 
+    /*
+ 	        * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1480
+ 	        * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and then click/left mouse button to click on the text
+ 	        * @tc.desc    Function test
+ 	        * @tc.size    MediumTest
+ 	        * @tc.type    Function
+ 	        * @tc.level   0
+ 	        */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1480', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1480 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface24")
+      let driver:Driver=Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface24'),1000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.waitForIdle(500,2000)
+      await driver.mouseClick({x:point.x,y:point.y},MouseButton.MOUSE_BUTTON_RIGHT);
+      windowSnap.snapShot()
+      await driver.waitForIdle(500,2000)
+      await driver.mouseClick({x:point.x-30,y:point.y},MouseButton.MOUSE_BUTTON_RIGHT);
+      windowSnap.snapShot()
+      await driver.waitForIdle(500,2000)
+      await driver.mouseClick({x:point.x-60,y:point.y},MouseButton.MOUSE_BUTTON_RIGHT);
+      windowSnap.snapShot()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1480 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1470
+       * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType:LongPress,options:onAppear,OnDisappear, and then click/left click on the text
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1470', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1470 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface25")
+      let driver:Driver=Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface25'),1000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.waitForIdle(500,2000)
+      await richeditor.longClick()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await driver.click(point.x-70,point.y)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1470 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1420
+       * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType：RightClick，options：onAppear，OnDisappear
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1420', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1420 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface26")
+      let driver:Driver=Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface26'),1000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.waitForIdle(500,2000)
+      await driver.mouseClick({x:point.x,y:point.y-20},MouseButton.MOUSE_BUTTON_RIGHT);
+      await Utils.sleep(1000)
+      windowSnap.snapShot()
+      await driver.mouseClick({x:point.x-100,y:point.y+50},MouseButton.MOUSE_BUTTON_RIGHT);
+      await Utils.sleep(1500)
+      windowSnap.snapShot()
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1420 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1390
+       * @tc.name    do not set bindSelectMenu, right-click the image content
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1390', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1390 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface27")
+      let driver:Driver=Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface27'),1000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.mouseClick({x:point.x-100,y:point.y+50},MouseButton.MOUSE_BUTTON_RIGHT);
+      await Utils.sleep(1500)
+      windowSnap.snapShot()
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1390 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1410
+       * @tc.name    If you do not set bindSelectMenu, select the image and text with the mouse, and right-click the image content
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1410', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1410 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface28")
+      let driver:Driver=Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface28'),1000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.mouseDrag({x:point.x-200, y:point.y-50},{x:point.x+100, y:point.y+30},600);
+      await driver.waitForIdle(500,2000)
+      await driver.mouseClick({x:point.x,y:point.y},MouseButton.MOUSE_BUTTON_RIGHT);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1410 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1500
+       * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and long-press again to select text
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1500', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1500 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface29")
+      let driver:Driver=Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface29'),1000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.mouseDrag({x:point.x-200, y:point.y-50},{x:point.x+100, y:point.y+30},600);
+      await driver.waitForIdle(500,2000)
+      await driver.mouseClick({x:point.x,y:point.y},MouseButton.MOUSE_BUTTON_RIGHT);
+      await Utils.sleep(1000)
+      await driver.longClick(point.x-100,point.y);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1500 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1430
+       * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and long-press again to select text
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1430', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1430 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface30")
+      let driver:Driver=Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface30'),1000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.mouseDrag({x:point.x, y:point.y},{x:point.x-250, y:point.y-100},1200);
+      await driver.mouseClick({x:point.x-250, y:point.y-100},MouseButton.MOUSE_BUTTON_RIGHT);
+      windowSnap.snapShot()
+      await Utils.sleep(500)
+      await driver.mouseClick({x:point.x-250, y:point.y-100},MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.mouseDrag({x:point.x, y:point.y},{x:point.x+250, y:point.y+100},1200);
+      await driver.mouseClick({x:point.x+250, y:point.y+100},MouseButton.MOUSE_BUTTON_RIGHT);
+      windowSnap.snapShot()
+      await Utils.sleep(500)
+      await driver.mouseClick({x:point.x-250, y:point.y-100},MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.mouseDrag({x:point.x-250, y:point.y-100},{x:point.x+250, y:point.y+100},1200);
+      await driver.mouseClick({x:point.x+250, y:point.y+100},MouseButton.MOUSE_BUTTON_RIGHT);
+      windowSnap.snapShot()
+      await Utils.sleep(500)
+      await driver.mouseClick({x:point.x-250, y:point.y-100},MouseButton.MOUSE_BUTTON_LEFT);
+      await Utils.sleep(500)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1430 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1440
+       * @tc.name    bindSelectionMenu parameter spantype:MIXED; content：Builder； responType：RightClick，options：onAppear，OnDisappear
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1440', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1440 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface31")
+      let driver:Driver=Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface31'),1000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.mouseDrag({x:point.x, y:point.y},{x:point.x-250, y:point.y-100},1200);
+      await driver.mouseClick({x:point.x-250, y:point.y-100},MouseButton.MOUSE_BUTTON_RIGHT);
+      windowSnap.snapShot()
+      await Utils.sleep(500)
+      await driver.mouseClick({x:point.x-250, y:point.y-100},MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.mouseDrag({x:point.x, y:point.y},{x:point.x+250, y:point.y+100},1200);
+      await driver.mouseClick({x:point.x+250, y:point.y+100},MouseButton.MOUSE_BUTTON_RIGHT);
+      windowSnap.snapShot()
+      await Utils.sleep(500)
+      await driver.mouseClick({x:point.x-250, y:point.y-100},MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.mouseDrag({x:point.x-250, y:point.y-100},{x:point.x+250, y:point.y+100},1200);
+      await driver.mouseClick({x:point.x+250, y:point.y+100},MouseButton.MOUSE_BUTTON_RIGHT);
+      windowSnap.snapShot()
+      await Utils.sleep(500)
+      await driver.mouseClick({x:point.x-250, y:point.y-100},MouseButton.MOUSE_BUTTON_LEFT);
+      await Utils.sleep(500)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1440 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1370
+       * @tc.name    not set bindSelectMenu, select the content in Chinese and right-click the text area
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1370', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1370 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface32")
+      let driver:Driver=Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface32'),1000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.mouseDrag({x:point.x, y:point.y},{x:point.x-250, y:point.y-100},1200);
+      await driver.mouseClick({x:point.x-250, y:point.y-100},MouseButton.MOUSE_BUTTON_RIGHT);
+      windowSnap.snapShot()
+      await Utils.sleep(500)
+      await driver.mouseClick({x:point.x-250, y:point.y-100},MouseButton.MOUSE_BUTTON_LEFT);
+      await Utils.sleep(500)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1370 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1460
+       * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType：LongPress，options：onAppear，OnDisappearSet the custom builder width and height to the percentage format
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1460', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1460 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface33")
+      let driver:Driver=Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface33'),1000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.mouseClick({x:point.x, y:point.y},MouseButton.MOUSE_BUTTON_RIGHT);
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1460 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0400
+       * @tc.name    Set up a long-press event for TextSpan
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0400', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0400 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface34")
+      let driver: Driver = Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface34'), 2000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.longClick( point.x,point.y)
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(500)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0400 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370
+       * @tc.name    Set click events for ImageSpan
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface35")
+      let driver: Driver = Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface35'), 2000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.mouseClick({x: point.x-200, y: point.y+100}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0380
+       * @tc.name    Set up a click event for TextSpan
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0380', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0380 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface36")
+      let driver: Driver = Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface36'), 2000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.mouseClick({x: point.x, y: point.y}, MouseButton.MOUSE_BUTTON_LEFT);
+      await driver.waitForIdle(500, 2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0380 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0390
+       * @tc.name    Set up a long press event for ImageSpan
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0390', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0390 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface37")
+      let driver: Driver = Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface37'), 2000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.longClick(point.x-200,point.y+100);
+      await driver.waitForIdle(500, 2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0390 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490
+       * @tc.name    bindSelectionMenu with long press to select text
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490 start.`);
+      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface38")
+      let driver: Driver = Driver.create();
+      let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface38'), 2000);
+      let point = await richeditor.getBoundsCenter()
+      await driver.longClick(point.x-100, point.y);
+      await driver.waitForIdle(500, 2000)
+      await driver.longClick(point.x-50, point.y);
+      await driver.waitForIdle(500, 2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490 finish.`);
+      done()
+    })
+
   })
 }
