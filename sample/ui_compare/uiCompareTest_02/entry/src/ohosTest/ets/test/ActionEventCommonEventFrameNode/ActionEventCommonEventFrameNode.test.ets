@@ -97,5 +97,298 @@ export default function ActionEventCommonEventFrameNode() {
       done()
     })
 
+    /*
+       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0061
+       * @tc.name    Create a new FrameNode (with no child nodes) and query the first child node using getFirstChild
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0061', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0061 start.`);
+      Settings.createWindow("testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode03")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode03_01'),1000)
+      let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode03_02'),1000)
+      let button03: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode03_03'),1000)
+      await button01.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0061 finish.`);
+      done()
+    })
+
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0071
+       * @tc.name    Create a new FrameNode and query child node (query for non-existent node) using getChild
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   Level 2
+       */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0071', Level.LEVEL2, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0071 start.`);
+      Settings.createWindow("testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode04")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode04_01'),1000)
+      let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode04_02'),1000)
+      let button03: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode04_03'),1000)
+      await button01.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0071 finish.`);
+      done()
+    })
+
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0081
+       * @tc.name    Create a new FrameNode and query sibling node (no next sibling node) using getNextSibling
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   Level 2
+       */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0081', Level.LEVEL2, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0081 start.`);
+      Settings.createWindow("testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode05")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode05_01'),1000)
+      let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode05_02'),1000)
+      let button03: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode05_03'),1000)
+      await button01.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0081 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0361
+       * @tc.name    Call dispose in FrameNode after remove
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   Level 2
+       */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0361', Level.LEVEL2, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0081 start.`);
+      Settings.createWindow("testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode06")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode06_01'),1000)
+      let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode06_02'),1000)
+      let button03: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode06_03'),1000)
+      await button01.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0361 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0362
+       * @tc.name    Call dispose in FrameNode before remove
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   Level 2
+       */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0362', Level.LEVEL2, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0362 start.`);
+      Settings.createWindow("testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode07")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode07_01'),1000)
+      let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode07_02'),1000)
+      let button03: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode07_03'),1000)
+      await button01.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      await button02.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0362 finish.`);
+      done()
+    })
+
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0401
+       * @tc.name    BuilderNode obtained frameNode add child node through appendChild new FrameNode(UIContext)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   Level 2
+       */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0401', Level.LEVEL2, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0401 start.`);
+      Settings.createWindow("testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode08")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode08_01'),1000)
+      let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode08_02'),1000)
+      await button01.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0401 finish.`);
+      done()
+    })
+
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0440
+       * @tc.name    Create new FrameNode, delete all child nodes using clearChildren
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   Level 2
+       */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0440', Level.LEVEL2, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0440 start.`);
+      Settings.createWindow("testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode09")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode09_01'),1000)
+      let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode09_02'),1000)
+      await button01.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0440 finish.`);
+      done()
+    })
+
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0441
+       * @tc.name    Create new FrameNode, delete all child nodes (no child nodes) using clearChildren
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   Level 2
+       */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0441', Level.LEVEL2, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0441 start.`);
+      Settings.createWindow("testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode10")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode10_01'),1000)
+      let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode10_02'),1000)
+      let button03: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode10_03'),1000)
+      await button01.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0441 finish.`);
+      done()
+    })
+
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4171
+       * @tc.name    FrameNode call isClipToFrame after dispose, will not crash
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   Level 2
+       */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4171', Level.LEVEL2, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4171 start.`);
+      Settings.createWindow("testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode11")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode11_01'),1000)
+      let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode11_02'),1000)
+      let button03: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode11_03'),1000)
+      await button01.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4171 finish.`);
+      done()
+    })
+
+
+    /*
+       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4291
+       * @tc.name    FrameNode call addComponentContent after dispose, will not crash
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   Level 2
+       */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4291', Level.LEVEL2, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4291 start.`);
+      Settings.createWindow("testability/pages/ActionEventCommonEventFrameNode/ActionEventCommonEventFrameNode12")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode12_01'),1000)
+      let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode12_02'),1000)
+      let button03: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode12_03'),1000)
+      await button01.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button02.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await button03.click();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4291 finish.`);
+      done()
+    })
+
   })
 }
