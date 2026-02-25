@@ -28,6 +28,44 @@ export default function UiComponentTextFadingedge() {
     });
 
     /**
+     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0010
+     * @tc.name FadingedgeTv0010
+     * @tc.desc Search disable态未超长渐隐测试
+     */
+    it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0010', 0, async () => {
+      Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0010 begin');
+      
+      await Settings.createWindow('testability/pages/UiComponentTextFadingedge/FadingedgeTv0010');
+      const driver = Driver.create();
+      await driver.delayMs(1000);
+      
+      await windowSnap.snapShot('Text_FadingEdge_TV_0010');
+      Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0010 end');
+    });
+
+    /**
+     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0090
+     * @tc.name FadingedgeTv0090
+     * @tc.desc Search预置文本超长渐隐测试
+     */
+    it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0090', 0, async () => {
+      Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0090 begin');
+      
+      await Settings.createWindow('testability/pages/UiComponentTextFadingedge/FadingedgeTv0090');
+      const driver = Driver.create();
+      await driver.delayMs(1000);
+      
+      const searchInput = await driver.findComponent(ON.id('searchLongText'));
+      if (searchInput) {
+        await searchInput.click();
+        await driver.delayMs(500);
+      }
+      
+      await windowSnap.snapShot('Text_FadingEdge_TV_0090');
+      Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0090 end');
+    });
+
+    /**
      * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0470
      * @tc.name FadingedgeTv0470
      * @tc.desc Search文本超长和非超长间反复切换
@@ -116,6 +154,66 @@ export default function UiComponentTextFadingedge() {
       await windowSnap.snapShot('Text_FadingEdge_TV_0950');
       
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0950 end');
+    });
+
+    /**
+     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0510
+     * @tc.name FadingedgeTv0510
+     * @tc.desc TextInput disable态未超长渐隐测试
+     */
+    it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0510', 0, async () => {
+      Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0510 begin');
+      
+      await Settings.createWindow('testability/pages/UiComponentTextFadingedge/FadingedgeTv0510');
+      const driver = Driver.create();
+      await driver.delayMs(1000);
+      
+      await windowSnap.snapShot('Text_FadingEdge_TV_0510');
+      Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0510 end');
+    });
+
+    /**
+     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0600
+     * @tc.name FadingedgeTv0600
+     * @tc.desc TextInput超长文本编辑渐隐测试
+     */
+    it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0600', 0, async () => {
+      Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0600 begin');
+      
+      await Settings.createWindow('testability/pages/UiComponentTextFadingedge/FadingedgeTv0600');
+      const driver = Driver.create();
+      await driver.delayMs(1000);
+      
+      const textInput = await driver.findComponent(ON.id('textInputLong'));
+      if (textInput) {
+        await textInput.click();
+        await driver.delayMs(500);
+      }
+      
+      await windowSnap.snapShot('Text_FadingEdge_TV_0600');
+      Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0600 end');
+    });
+
+    /**
+     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0960
+     * @tc.name FadingedgeTv0960
+     * @tc.desc TextInput超长文本光标位置渐隐测试
+     */
+    it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0960', 0, async () => {
+      Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0960 begin');
+      
+      await Settings.createWindow('testability/pages/UiComponentTextFadingedge/FadingedgeTv0960');
+      const driver = Driver.create();
+      await driver.delayMs(1000);
+      
+      const textInput = await driver.findComponent(ON.id('textInputCursor'));
+      if (textInput) {
+        await textInput.click();
+        await driver.delayMs(500);
+      }
+      
+      await windowSnap.snapShot('Text_FadingEdge_TV_0960');
+      Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0960 end');
     });
 
     /**

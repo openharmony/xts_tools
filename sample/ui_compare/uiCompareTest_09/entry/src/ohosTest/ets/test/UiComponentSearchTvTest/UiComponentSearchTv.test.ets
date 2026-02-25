@@ -28,6 +28,66 @@ export default function UiComponentSearchTv() {
     });
 
     /**
+     * @tc.number SUB_ACE_UI_COMPONENT_SEARCH_TV_0400
+     * @tc.name SearchTv0400
+     * @tc.desc 【Search】深色模式下手机样式检查
+     */
+    it('SUB_ACE_UI_COMPONENT_SEARCH_TV_0400', 0, async () => {
+      Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0400 begin');
+      
+      await Settings.createWindow('testability/pages/UiComponentSearchTv/SearchTv0400');
+      const driver = Driver.create();
+      await driver.delayMs(1000);
+      
+      const searchInput = await driver.findComponent(ON.id('searchInput'));
+      if (searchInput) {
+        await searchInput.click();
+        await driver.delayMs(500);
+      }
+      
+      await windowSnap.snapShot('SEARCH_TV_0400');
+      Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0400 end');
+    });
+
+    /**
+     * @tc.number SUB_ACE_UI_COMPONENT_SEARCH_TV_0410
+     * @tc.name SearchTv0410
+     * @tc.desc 【Search】标准模式下手机样式检查
+     */
+    it('SUB_ACE_UI_COMPONENT_SEARCH_TV_0410', 0, async () => {
+      Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0410 begin');
+      
+      await Settings.createWindow('testability/pages/UiComponentSearchTv/SearchTv0410');
+      const driver = Driver.create();
+      await driver.delayMs(1000);
+      
+      const searchInput = await driver.findComponent(ON.id('searchInput'));
+      if (searchInput) {
+        await searchInput.click();
+        await driver.delayMs(500);
+      }
+      
+      await windowSnap.snapShot('SEARCH_TV_0410');
+      Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0410 end');
+    });
+
+    /**
+     * @tc.number SUB_ACE_UI_COMPONENT_SEARCH_TV_0470
+     * @tc.name SearchTv0470
+     * @tc.desc 【Search】超长占位符样式检查
+     */
+    it('SUB_ACE_UI_COMPONENT_SEARCH_TV_0470', 0, async () => {
+      Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0470 begin');
+      
+      await Settings.createWindow('testability/pages/UiComponentSearchTv/SearchTv0470');
+      const driver = Driver.create();
+      await driver.delayMs(1000);
+      
+      await windowSnap.snapShot('SEARCH_TV_0470');
+      Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0470 end');
+    });
+
+    /**
      * @tc.number SUB_ACE_UI_COMPONENT_SEARCH_TV_0510
      * @tc.name SearchTv0510
      * @tc.desc 【search】搜索框输入法避让测试
