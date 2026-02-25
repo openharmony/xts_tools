@@ -4550,6 +4550,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.userIAM.userAuthIcon.static.d.ets",
+            "bundle_name": [
+                "user_auth_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.appstartup.StartupConfig.d.ts",
             "bundle_name": [
                 "ability_runtime"
