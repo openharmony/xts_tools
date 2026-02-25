@@ -325,5 +325,96 @@ export default function ComponentNavNavigation() {
       done()
     })
 
+
+  /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_050
+     * @tc.name   : The title bar floats above the content area, and the title bar is set with a background color.
+     * @tc.type   : function
+     * @tc.desc   : 标题栏悬浮在内容区之上，标题栏设置背景颜色
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_050', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_050 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation050")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000,3000)
+      // 步骤1：上下滑动内容区
+      let swip= await driver.waitForComponent(ON.id("list_content_050"), 2000)
+      await swip.scrollToTop()
+      await Utils.sleep(500)
+      await swip.scrollToBottom()
+      await Utils.sleep(500)
+      // 步骤2：点击切换barStyle按钮
+      let barStylebutton= await driver.waitForComponent(ON.id("button_bar_style_050"), 2000)
+      await barStylebutton.click()
+      await Utils.sleep(500)
+      // 步骤3：点击切换NavigationTitleMode按钮
+      let NavigationTitleModebutton= await driver.waitForComponent(ON.id("button_title_mode_050"), 2000)
+      await NavigationTitleModebutton.click()
+      await Utils.sleep(500)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_050 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0501
+     * @tc.name   : The title bar floats above the content area, scroll the content area up and down.
+     * @tc.type   : Function
+     * @tc.desc   : 标题栏悬浮在内容区之上，标题栏设置背景颜色，上下滑动内容区
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0501', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0501 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation0501")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+      // 步骤1：上下滑动内容区
+      let swip = await driver.waitForComponent(ON.id("list_content_0501"), 2000)
+      await swip.scrollToTop()
+      await Utils.sleep(500)
+      await swip.scrollToBottom()
+      await Utils.sleep(500)
+      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0501_01")
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0501 finish.`);
+      done()
+    })
+
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0502
+     * @tc.name   : The title bar floats above the content area, scroll the content area and set to stack mode.
+     * @tc.type   : Function
+     * @tc.desc   : 标题栏悬浮在内容区之上，标题栏设置背景颜色，上下滑动内容区，设置为stack模式
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0502', Level.LEVEL1, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0502 start.`);
+      Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation0502")
+      let driver: Driver = Driver.create();
+      await driver.waitForIdle(2000, 3000)
+      // 步骤1：上下滑动内容区
+      let swip = await driver.waitForComponent(ON.id("list_content_0502"), 2000)
+      await swip.scrollToTop()
+      await Utils.sleep(500)
+      await swip.scrollToBottom()
+      await Utils.sleep(500)
+      // 步骤2：点击"barStyle:BarStyle.STACK"按钮
+      let barStyleButton = await driver.waitForComponent(ON.id("button_bar_style_0502"), 2000)
+      await barStyleButton.click()
+      await Utils.sleep(500)
+      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0502_01")
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0502 finish.`);
+      done()
+    })
+
+
   })
 }
