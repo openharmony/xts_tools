@@ -13,6 +13,8 @@
  * limitations under the License.
  */
 
+import UIComponentAlphabetIndexerAttributeWatch
+  from './UIComponentAlphabetIndexerAttributeWatchTest/UIComponentAlphabetIndexerAttributeWatch.test';
 import UIComponentWaterFlowSlidingWindow
   from './UIComponentWaterFlowSlidingWindowTest/UIComponentWaterFlowSlidingWindow.test';
 import UIComponentWaterFlowSliding
@@ -383,4 +385,5 @@ export default function testsuite() {
   UIComponentWaterFlowSldingWindow();
   UIComponentWaterFlowSliding();
   UIComponentWaterFlowSlidingWindow();
+  UIComponentAlphabetIndexerAttributeWatch();
 }
