@@ -19,6 +19,10 @@
     {
       "name": "colorRed",
       "value": "#FF0000"
+    },
+    {
+      "name": "color1",
+      "value": "#FF00FF"
     }
   ]
 }

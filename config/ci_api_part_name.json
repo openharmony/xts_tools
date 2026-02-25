@@ -1,6 +1,48 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/api/arkui/LayoutAlgorithm.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.layoutAlgorithm.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.components.ArkDynamicLayout.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/LayoutAlgorithm.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.layoutAlgorithm.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.components.ArkDynamicLayout.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/delete_arkui_label.pydeps",
             "bundle_name": [
                 "sdk"
@@ -29,6 +71,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/remove_internal.py",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/bundle.json",
             "bundle_name": [
                 "sdk"
@@ -50,7 +99,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.annotation.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/extendableComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/web.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -64,7 +127,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/stateManagement/storage/appStorageV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/stateManagement/storage/persistenceV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@internal/component/ets/lifecycle.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -343,6 +420,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.multimedia.avVolumePanel.static.d.ets",
+            "bundle_name": [
+                "audio_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.relationalStore.d.ts",
             "bundle_name": [
                 "relational_store"
@@ -413,7 +497,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.FullScreenLaunchComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.avsession.d.ts",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.multimedia.avMusicTemplate.d.ts",
             "bundle_name": [
                 "av_session"
             ],
@@ -875,7 +973,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.multimedia.avCastPicker.static.d.ets",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.avInputCastPicker.d.ets",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.multimedia.avInputCastPicker.static.d.ets",
             "bundle_name": [
                 "av_session"
             ],
@@ -980,9 +1092,23 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.base.d.ets",
+            "path": "interface/sdk-js/api/@ohos.base.static.d.ets",
             "bundle_name": [
                 "init"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.intelligence.imageGeneration.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.intelligence.imageGeneration.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
             ],
             "build_targets": []
         },
@@ -1003,7 +1129,7 @@
         {
             "path": "interface/sdk-js/api/@ohos.data.distributedKVStore.d.ts",
             "bundle_name": [
-                "data_share"
+                "kv_store"
             ],
             "build_targets": []
         },
@@ -1037,6 +1163,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.MultiNavigation.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.MultiNavigation.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -1527,6 +1660,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.atomicservice.HalfScreenLaunchComponent.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.atomicservice.AtomicServiceMenuBar.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -2093,6 +2233,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.Prefetcher.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.inputMethodEngine.d.ts",
             "bundle_name": [
                 "imf"
@@ -2171,6 +2318,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.DownloadFileButton.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.DownloadFileButton.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -2485,6 +2639,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SelectionMenu.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.convertxml.d.ts",
             "bundle_name": [
                 "ets_utils"
@@ -2639,6 +2800,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.font.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.EmbeddedUIExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -2759,6 +2927,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.ArcSlider.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ArcSlider.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -3017,6 +3192,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SelectTitleBar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.media.d.ts",
             "bundle_name": [
                 "player_framework"
@@ -3032,6 +3214,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.Popup.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.Popup.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -3067,6 +3256,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.pluginComponent.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.pluginComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -3731,6 +3927,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SegmentButton.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.SegmentButtonV2.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -3746,6 +3949,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.ArcButton.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ArcButton.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -3906,6 +4116,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.data.UdmfComponents.static.d.ets",
+            "bundle_name": [
+                "udmf"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.net.http.d.ts",
             "bundle_name": [
                 "netstack"
@@ -3998,6 +4215,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimodalAwareness.onScreen.d.ts",
+            "bundle_name": [
+                "device_status"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.multimodalAwareness.spatialAwareness.d.ts",
             "bundle_name": [
                 "device_status"
             ],
@@ -4131,6 +4355,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.intl.d.ts",
+            "bundle_name": [
+                "i18n"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.intl.static.d.ets",
             "bundle_name": [
                 "i18n"
             ],
@@ -4326,7 +4557,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.util.d.ets",
+            "path": "interface/sdk-js/api/@ohos.util.static.d.ets",
             "bundle_name": [
                 "ets_utils"
             ],
@@ -4355,6 +4586,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.userIAM.userAuthIcon.d.ets",
+            "bundle_name": [
+                "user_auth_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.userIAM.userAuthIcon.static.d.ets",
             "bundle_name": [
                 "user_auth_framework"
             ],
@@ -5369,6 +5607,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/focus.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/paste_button.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -5461,6 +5706,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/component3d.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/component3d.static.d.ets",
             "bundle_name": [
                 "graphic_3d"
             ],
@@ -5607,6 +5859,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.ArcAlphabetIndexer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/nav_router.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -5642,14 +5901,14 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@internal/component/ets/picker.d.ts",
+            "path": "interface/sdk-js/api/@internal/component/ets/ui_picker_component.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/PickerModifier.d.ts",
+            "path": "interface/sdk-js/api/arkui/UIPickerComponentModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -5671,6 +5930,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.component.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.component.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -5712,7 +5978,55 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.arkui.node.d.ets",
+            "path": "interface/sdk-js/api/@ohos.arkui.node.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },    {
+            "path": "interface/sdk-js/api/@ohos.arkui.Test.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/interop.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/incremental/runtime/state.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/stateManagement/memorize/state.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/stateManagement/storage/environment.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/stateManagement/storage/persistentStorage.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/stateManagement/storage/storageProperty.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -5782,28 +6096,28 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/AttributeUpdater.d.ets",
+            "path": "interface/sdk-js/api/arkui/AttributeUpdater.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/BuilderNode.d.ets",
+            "path": "interface/sdk-js/api/arkui/BuilderNode.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/ComponentContent.d.ets",
+            "path": "interface/sdk-js/api/arkui/ComponentContent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/Content.d.ets",
+            "path": "interface/sdk-js/api/arkui/Content.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -5831,7 +6145,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/ImageModifier.d.ets",
+            "path": "interface/sdk-js/api/arkui/ImageModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -5880,7 +6194,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/TextModifier.d.ets",
+            "path": "interface/sdk-js/api/arkui/SymbolGlyphModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -5992,6 +6306,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/if.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/image.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -6000,6 +6321,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/imageCommon.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/imageCommon.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -6041,7 +6369,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/component/mediaCachedImage.d.ets",
+            "path": "interface/sdk-js/api/arkui/component/mediaCachedImage.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -6433,14 +6761,14 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/stateManagement/storages/appStorage.d.ets",
+            "path": "interface/sdk-js/api/arkui/stateManagement/storage/appStorage.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/arkui/stateManagement/storages/localStorage.d.ets",
+            "path": "interface/sdk-js/api/arkui/stateManagement/storage/localStorage.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -6489,6 +6817,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.mediaquery.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.pluginComponent.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -6510,6 +6845,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.router.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.uiExtensionHost.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -6524,7 +6866,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@system.mediaquery.d.ets",
+            "path": "interface/sdk-js/api/@system.mediaquery.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -6783,6 +7125,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/multimedia/SystemSoundPlayer.d.ts",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/global/rawFileDescriptor.d.ts",
             "bundle_name": [
                 "resource_management"
@@ -6909,6 +7258,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/SliderModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/CheckboxModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -6916,7 +7272,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/CheckboxModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/SelectModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/SelectModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -6937,7 +7307,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/DataPanelModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/CommonModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/CommonModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -6958,7 +7342,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/ImageSpanModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/CounterModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/CounterModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -6972,7 +7370,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/MenuItemModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/GaugeModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/GaugeModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -6993,7 +7405,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/WaterFlowModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/StepperItemModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/StepperItemModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7007,7 +7433,28 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/LineModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/ButtonModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/ButtonModifier.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+         {
+            "path": "interface/sdk-js/api/arkui/ButtonModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7021,6 +7468,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/ToggleModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/VideoModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7028,7 +7482,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/VideoModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/NavigationModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/NavigationModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7049,7 +7517,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/GridColModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/ScrollModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/ScrollModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7063,7 +7545,35 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/RatingModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/DividerModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/DividerModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/FlexModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/FolderStackModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7077,7 +7587,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/TextInputModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/CalendarPickerModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/CalendarPickerModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7099,6 +7623,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/ListItemGroupModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/ListItemGroupModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7133,7 +7664,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/PolygonModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/DatePickerModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/DatePickerModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7147,6 +7692,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/GridModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/RectModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7154,7 +7706,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/RectModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/CheckboxGroupModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/CheckboxGroupModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7175,7 +7741,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/TextPickerModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/ListItemModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/ListItemModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7196,7 +7776,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/RichEditorModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/TextAreaModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/TextAreaModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7210,7 +7804,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/SwiperModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/ColumnModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/ColumnModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7224,7 +7832,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/GridRowModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/HyperlinkModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/HyperlinkModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7238,7 +7860,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/RowSplitModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/RowModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/RowModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7252,6 +7888,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/TextModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/TextClockModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7259,7 +7902,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/TextClockModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/ContainerSpanModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/ContainerSpanModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7280,6 +7937,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/TabsModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/StackModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7287,7 +7951,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/StackModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/TimePickerModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/TimePickerModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7315,7 +7993,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/QRCodeModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/SideBarContainerModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/SideBarContainerModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7329,7 +8021,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/PolylineModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/BlankModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/BlankModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7343,7 +8049,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/ListModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/GridItemModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/GridItemModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7357,7 +8077,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/PatternLockModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/SpanModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/SpanModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7371,7 +8105,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/TextTimerModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/SearchModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/SearchModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7385,7 +8133,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/ColumnSplitModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/PathModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/PathModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7406,7 +8168,28 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/MarqueeModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/RefreshModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/RefreshModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/RelativeContainerModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7420,7 +8203,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/RadioModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/MenuModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/MenuModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7434,7 +8231,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/LoadingProgressModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/ImageAnimatorModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/ImageAnimatorModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7455,6 +8266,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/ProgressModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/SymbolSpanModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7462,7 +8280,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/SymbolSpanModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/ParticleModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/ParticleModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7483,6 +8315,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/AlphabetIndexerModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/RenderNode.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7497,7 +8336,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/NavDestinationModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/ShapeModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/ShapeModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8155,7 +9008,7 @@
                 "drivers_interface_connected_nfc_tag",
                 "secure_element",
                 "wifi"
-        ],
+            ],
             "build_targets": []
         },
         {
@@ -8174,13 +9027,6 @@
                 "ets_utils",
                 "ets_runtime",
                 "runtime_core"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/kits/@kit.ArkUI.d.ets",
-            "bundle_name": [
-                "ace_engine"
             ],
             "build_targets": []
         },
@@ -8409,7 +9255,8 @@
                 "data_object",
                 "preferences",
                 "udmf",
-                "arkdata_intelligence_platform"
+                "arkdata_intelligence_platform",
+                "kv_store"
             ],
             "build_targets": []
         },
@@ -8639,6 +9486,11 @@
             ]
         },
         {
+            "path": "interface/sdk-js/arkts/@arkts.collections.static.d.ets",
+            "bundle_name": [],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/arkts/@arkts.math.Decimal.d.ets",
             "bundle_name": [],
             "build_targets": []
@@ -8665,6 +9517,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/StepperModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.AppServiceExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -8680,6 +9539,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.telephonyManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/application/EnterpriseAdminExtensionContext.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
@@ -9176,6 +10042,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/uiPickerComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/UIPickerComponentModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/pluginComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -9205,6 +10085,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/qrcode.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/textClock.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -9247,6 +10134,20 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.uiMaterial.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@internal/component/ets/union_effect_container.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/unionEffectContainer.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -9561,14 +10462,119 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/stateManagement/remember.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/stateManagement/runtime.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/stateManagement/utils.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/gesture.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.performanceMonitor.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.uiAppearance.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/Graphics.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/NodeController.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/resources.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.FusionConnectivity.partnerAgent.d.ts",
+            "bundle_name": [
+                "fusion_connectivity"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.FusionConnectivity.PartnerAgentExtensionContext.d.ts",
+            "bundle_name": [
+                "fusion_connectivity"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.FusionConnectivity.PartnerAgentExtensionAbility.d.ts",
+            "bundle_name": [
+                "fusion_connectivity"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.intelligentScene.d.ts",
+            "bundle_name": [
+                "settings"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/FormComponentModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.userIAM.companionDeviceAuth.d.ts",
+            "bundle_name": [
+                "companion_device_auth"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.app.ability.systemConfiguration.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
         }
     ],
-    "sdk_c":[
+    "sdk_c": [
         {
             "path": "interface/sdk_c/AbilityKit/ability_runtime",
             "bundle_name": [

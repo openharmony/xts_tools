@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import screen from '@ohos.screen';
+import { display } from '@kit.ArkUI';
 import window from '@ohos.window';
 import Logger from './Logger';
 import { GlobalThis } from './globalThis'
@@ -94,24 +94,14 @@ class Settings {
   }
 
   changeDpi(dpi: number) {
-    let screenClass: screen.Screen;
-    screen.getAllScreens((err: BusinessError, data: Array<screen.Screen>) => {
-      if (err.code) {
-        Logger.error(TAG, `Failed to get all screens. Cause : ${JSON.stringify(err)}`);
-        return;
-      }
-      Logger.info(TAG, `Succeeded in getting all screens. Data:${JSON.stringify(data)}`);
-
-      screenClass = data[0];
-      //设置设备dpi
-      screenClass.setDensityDpi(dpi, (err: BusinessError) => {
-        if (err.code) {
-          Logger.error(TAG, `Failed to set the pixel density. Code : ${JSON.stringify(err)}`)
-          return;
-        }
-        Logger.info(TAG, `Succeeded in setting the pixel density`);
-      })
-    })
+    try {
+      let displayClass = display.getDefaultDisplaySync();
+      Logger.info(TAG, `Succeeded in getting default display. Data:${JSON.stringify(displayClass)}`);
+      // 注意：display API 不支持动态修改 DPI，这里仅记录日志
+      Logger.info(TAG, `Current DPI: ${displayClass.densityDPI}, requested DPI: ${dpi}`);
+    } catch (err) {
+      Logger.error(TAG, `Failed to get default display. Cause : ${JSON.stringify(err)}`);
+    }
   }
 
   setWindowSystemBarEnable(windowClass: window.Window, names: Array<'status' | 'navigation'>) {
@@ -125,20 +115,32 @@ class Settings {
     });
   }
 
-  destroyWindow(windowClass: window.Window) {
-    //销毁窗口
-    windowClass.destroyWindow((err) => {
-      if (err.code) {
-        Logger.error(TAG, `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
-        return;
-      }
-      Logger.info(TAG, `Succeeded in destroy the window.`);
-    })
+  destroyWindow(windowClass: window.Window): Promise<void> {
+    return new Promise((resolve, reject) => {
+      //销毁窗口
+      windowClass.destroyWindow((err) => {
+        if (err.code) {
+          Logger.error(TAG, `Failed to destroy the window. Cause : ${JSON.stringify(err)}`)
+          reject(err);
+          return;
+        }
+        Logger.info(TAG, `Succeeded in destroy the window.`);
+        resolve();
+      })
+    });
+  }
+
+  async destroyCurrentWindow(): Promise<void> {
+    if (this.windowClass) {
+      await this.destroyWindow(this.windowClass);
+      this.windowClass = undefined;
+    }
   }
 
   async changeWindowOrientation(end?:string) {
     window.getLastWindow(GlobalThis.getInstance().getContext('context')).then((lastWindow) => {
-      let orientation = this.windowClass!.getPreferredOrientation();
+      this.windowClass = lastWindow;
+      let orientation = lastWindow.getPreferredOrientation();
       Logger.info(`before set window orientation: ${orientation}}`)
       // 如果未定义 切成横屏
       // 如果是竖屏 切成横屏
@@ -147,7 +149,7 @@ class Settings {
         orientation = window.Orientation.LANDSCAPE
       } else if (orientation == window.Orientation.PORTRAIT) {
         orientation = window.Orientation.LANDSCAPE
-      } else if (orientation = window.Orientation.LANDSCAPE) {
+      } else if (orientation == window.Orientation.LANDSCAPE) {
         orientation = window.Orientation.PORTRAIT
       }
       if(end){
@@ -180,44 +182,50 @@ class Settings {
    * dpi:像素密度，默认dpi=330，可配置范围：80-640
    * */
 
-  createWindow(pageURI: string, X?: number | undefined, Y?: number | undefined, width?: number | undefined, height?: number | undefined, dpi?: number | undefined) {
-
-    this.windowCreateType = "createWindow"
-    if (X == undefined) {
-      X = Settings.DEFAULT_OFFSET_X;
-    }
-    if (Y == undefined) {
-      Y = Settings.DEFAULT_OFFSET_Y;
-    }
-    if (width == undefined) {
-      width = Settings.DEFAULT_WIDTH;
-    }
-    if (height == undefined) {
-      height = Settings.DEFAULT_HEIGHT - Settings.DEFAULT_OFFSET_Y;
-    }
-    if (dpi == undefined) {
-      dpi = Settings.DEFAULT_DPI;
-    }
-    Logger.info(TAG, `params,pageURI=${pageURI},X=${X},Y=${Y},width=${width},height=${height},dpi=${dpi}`)
-    this.changeDpi(dpi)
-    sleep(1000)
-    let config: window.Configuration = {
-      name: "floatWindow",
-      windowType: window.WindowType.TYPE_FLOAT,
-      ctx: GlobalThis.getInstance().getContext('context')
-    };
-
-    window.createWindow(config, (err, data) => {
-      if (err.code) {
-        Logger.error(TAG, `Failed to create the floatWindow. Cause : ${JSON.stringify(err)}`)
-        return;
+  createWindow(pageURI: string, X?: number | undefined, Y?: number | undefined, width?: number | undefined, height?: number | undefined, dpi?: number | undefined): Promise<void> {
+    return new Promise(async (resolve, reject) => {
+      this.windowCreateType = "createWindow"
+      if (X == undefined) {
+        X = Settings.DEFAULT_OFFSET_X;
       }
-      Logger.info(TAG, `Succeeded in creating the floatWindow. Data : ${JSON.stringify(err)}`);
-      this.windowClass = data;
-      this.changeWindowPosition(this.windowClass, X, Y);
-      this.changeWindowSize(this.windowClass, width, height);
-      this.loadContent(this.windowClass, pageURI)
-    })
+      if (Y == undefined) {
+        Y = Settings.DEFAULT_OFFSET_Y;
+      }
+      if (width == undefined) {
+        width = Settings.DEFAULT_WIDTH;
+      }
+      if (height == undefined) {
+        height = Settings.DEFAULT_HEIGHT - Settings.DEFAULT_OFFSET_Y;
+      }
+      if (dpi == undefined) {
+        dpi = Settings.DEFAULT_DPI;
+      }
+      Logger.info(TAG, `params,pageURI=${pageURI},X=${X},Y=${Y},width=${width},height=${height},dpi=${dpi}`)
+      this.changeDpi(dpi)
+      await sleep(1000)
+      let config: window.Configuration = {
+        name: "floatWindow",
+        windowType: window.WindowType.TYPE_FLOAT,
+        ctx: GlobalThis.getInstance().getContext('context')
+      };
+
+      window.createWindow(config, (err, data) => {
+        if (err.code) {
+          Logger.error(TAG, `Failed to create the floatWindow. Cause : ${JSON.stringify(err)}`)
+          reject(err);
+          return;
+        }
+        Logger.info(TAG, `Succeeded in creating the floatWindow. Data : ${JSON.stringify(data)}`);
+        this.windowClass = data;
+        this.changeWindowPosition(this.windowClass, X, Y);
+        this.changeWindowSize(this.windowClass, width, height);
+        this.loadContent(this.windowClass, pageURI);
+        // 等待页面加载完成
+        setTimeout(() => {
+          resolve();
+        }, 2000);
+      })
+    });
   }
 
   async changeWindow(pageURI: string, width?: number | undefined, height?: number | undefined, dpi?: number | undefined) {

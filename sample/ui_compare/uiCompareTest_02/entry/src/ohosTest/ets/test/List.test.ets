@@ -40,6 +40,17 @@ import UiAttributesUseEffectEffectType from './UiAttributesUseEffectEffectType/U
 import UiImportComponentContent from './UiImportComponentContent/UiImportComponentContent.test'
 import UiComponentCanvasOffscreenCanvasGpuDraw from './UiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw.test'
 import UiComponentCanvasPath2DAndCanvasPattern from './UiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern.test'
+import AceActionEventCommonEventAxisEventsListen from './AceActionEventCommonEventAxisEventsListen/AceActionEventCommonEventAxisEventsListen.test'
+import UiArkuiProgressMirror from './UiArkuiProgressMirror/UiArkuiProgressMirror.test'
+import UIAttributesInterfaceReconstitution from './UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution.test'
+import UIComponentListAndGridGridEventEnhancement from './UIComponentListAndGridGridEventEnhancement/UIComponentListAndGridGridEventEnhancement.test'
+import UiComponentMediaCalendarPickerDate from './UiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate.test'
+import UiComponentMediaTextPickerColumnWidths from './UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths.test'
+import UiComponentMediaTimepickerStartEndTime from './UiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime.test'
+import UIComponentPopupBoxSpecifications from './UIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications.test'
+import UiComponentSpecialComponentsUiContextAbility from './UiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility.test'
+import UiComponentTextRichEditorHandleAnimation from './UiComponentTextRichEditorHandleAnimation/UiComponentTextRichEditorHandleAnimation.test'
+import UiComponentTextRichEditorLineBreakStrategy from './UiComponentTextRichEditorLineBreakStrategy/UiComponentTextRichEditorLineBreakStrategy.test'
 export default function testsuite() {
   UiTestCase();
   UiComponentTextCommonLineSpace();
@@ -66,4 +77,15 @@ export default function testsuite() {
   UiImportComponentContent();
   UiComponentCanvasOffscreenCanvasGpuDraw();
   UiComponentCanvasPath2DAndCanvasPattern();
+  AceActionEventCommonEventAxisEventsListen();
+  UiArkuiProgressMirror();
+  UIAttributesInterfaceReconstitution();
+  UIComponentListAndGridGridEventEnhancement();
+  UiComponentMediaCalendarPickerDate();
+  UiComponentMediaTextPickerColumnWidths();
+  UiComponentMediaTimepickerStartEndTime();
+  UIComponentPopupBoxSpecifications();
+  UiComponentSpecialComponentsUiContextAbility();
+  UiComponentTextRichEditorHandleAnimation();
+  UiComponentTextRichEditorLineBreakStrategy();
 }

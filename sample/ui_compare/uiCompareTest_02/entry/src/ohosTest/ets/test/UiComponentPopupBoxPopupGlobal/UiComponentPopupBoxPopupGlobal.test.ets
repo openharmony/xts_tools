@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
 import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
@@ -348,14 +348,14 @@ export default function UiComponentPopupBoxPopupGlobal() {
       done()
     })
 
-      /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1300
-       * @tc.name    036: Verify the openPopup interface when the options parameter enableArrow is set to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1300
+     * @tc.name    036: Verify the openPopup interface when the options parameter enableArrow is set to true
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1300 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal15")
@@ -1630,6 +1630,461 @@ export default function UiComponentPopupBoxPopupGlobal() {
       windowSnap.snapShot()
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1540 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0660
+       * @tc.name    0151 Verify the updatePopup interface when the initial placement parameter in options is set to LEFT, and then changed to BOTTOM (with partialUpdate set to false)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0660', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0660 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal74")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal74'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal74_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0660 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0680
+       * @tc.name    0153  Verify the updatePopup interface when the initial enableArrow parameter in options is set to true, and then changed to false (with partialUpdate set to false)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0680', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0680 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal75")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal75'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal75_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0680 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0710
+       * @tc.name    0156 Verify the updatePopup interface when the initial arrowOffset parameter in options is set to "15", and then changed to 30 (with partialUpdate set to false)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0710', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0710 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal76")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal76'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal76_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0710 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0740
+       * @tc.name    0159 Verify the updatePopup interface when the initial targetSpace parameter in options is set to "10", and then changed to 20 (with partialUpdate set to false)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0740', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0740 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal77")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal77'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal77_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0740 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0730
+       * @tc.name    0158 Verify the updatePopup interface when the initial mask parameter in options is set to true, and then changed to {color:Color.Green} (with partialUpdate set to false)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0730', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0730 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal78")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal78'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal78_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0730 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0810
+       * @tc.name    0165 Verify the updatePopup interface when the initial radius parameter in options is set to "10px", and then changed to "40lpx" (with partialUpdate set to false)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0810', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0810 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal79")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal79'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal79_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0810 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0780
+       * @tc.name    0162 Verify the updatePopup interface when the initial arrowPointPosition parameter in options is set to START, and then changed to END (with partialUpdate set to false)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0780', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0780 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal80")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal80'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal80_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0780 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0820
+       * @tc.name    0166 Verify the updatePopup interface when the initial shadow parameter in options is set to OUTER_DEFAULT_XS, and then changed to OUTER_DEFAULT_LG (with partialUpdate set to false)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0820', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0820 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal81")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal81'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal81_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0820 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0830
+       * @tc.name    0167 Verify the updatePopup interface when the initial backgroundBlurStyle parameter in options is set to BlurStyle.Thick, and then changed to NONE (with partialUpdate set to false)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0830', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0830 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal82")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal82'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal82_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0830 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0910
+       * @tc.name    0174 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (with partialUpdate set to undefined)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0910', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0910 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal83")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal83'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal83_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0910 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0890
+       * @tc.name    0172 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (with partialUpdate set to true)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0890', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0890 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal84")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal84'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal84_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0890 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0920
+       * @tc.name    0175 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (not set partialUpdate)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0920', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0920 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal85")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal85'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal85_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0920 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900
+       * @tc.name    0175 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (set partialUpdate to null)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal86")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal86'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal86_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0950
+       * @tc.name    0175 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (not set partialUpdate and closePopup)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0950', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0950 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal87")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal87'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal87_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal87_03'),1000);
+      await button03.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0950 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900
+       * @tc.name    0175 Verify the updatePopup interface when the initial autoCancel parameter in options is set to false, and then changed to true (set partialUpdate to false)
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0690', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0690 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal88")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal88'),1000);
+      let text: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal88_03'),1000);
+      let point = await text.getBoundsCenter()
+      await button01.click()
+      await driver.click(point.x,point.y)
+      windowSnap.snapShot()
+      await Utils.sleep(2000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal88_02'),1000);
+      await button02.click()
+      await driver.click(point.x,point.y)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0690 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960
+       * @tc.name    0178: Directly call closePopup after verifying the openPopup interface
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal89")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal89'),1000);
+      await button01.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal89_02'),1000);
+      await button02.click()
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960
+       * @tc.name    0142: Verify the openPopup interface when setting followTransformOfTarget to true
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0560', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0560 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal90")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal90'),1000);
+      await button01.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0560 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0570
+       * @tc.name    0143: Verify the openPopup interface when setting followTransformOfTarget to false
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0570', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0570 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal91")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal91'),1000);
+      await button01.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0570 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590
+       * @tc.name    0145: Verify the openPopup interface when setting followTransformOfTarget to undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   0
+       */
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590', Level.LEVEL0, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590 start.`);
+      Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal92")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal92'),1000);
+      await button01.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590 finish.`);
       done()
     })
 

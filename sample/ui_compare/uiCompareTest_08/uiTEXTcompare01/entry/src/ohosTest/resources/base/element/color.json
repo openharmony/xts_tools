@@ -35,6 +35,22 @@
     {
       "name": "pink",
       "value": "#EE5EeE"
+    },
+    {
+      "name": "ColorWhiteNumber",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "ColorPurpleRgba",
+      "value": "#FF64FF80"
+    },
+    {
+      "name": "Blue",
+      "value": "#0066CC"
+    },
+    {
+      "name": "Green",
+      "value": "#00CC66"
     }
   ]
 }

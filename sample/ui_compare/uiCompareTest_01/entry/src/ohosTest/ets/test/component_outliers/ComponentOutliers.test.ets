@@ -179,5 +179,23 @@ export default function componentOutliersTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0040 finish.`);
       done()
     })
+
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_OUTLIERS_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_OUTLIERS_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it('SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_OUTLIERS_0010', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_OUTLIERS_0010 start.`);
+      Settings.createWindow("testability/pages/component_outliers/guage01")
+      let driver:Driver = Driver.create();
+      await driver.waitForIdle(500,2000);
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_OUTLIERS_0010 finish.`);
+      done()
+    })
   })
 }

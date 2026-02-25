@@ -14,7 +14,7 @@
  */
 @Reusable
 @Component
-struct Child240 {
+struct ReusableChild240 {
   message: string = "hello";
 
   build() {
@@ -61,7 +61,7 @@ struct Index240 {
         })
       Divider()
         .color(Color.Blue)
-      Child240()
+      ReusableChild240()
     }
     .height('100%')
     .width('100%')

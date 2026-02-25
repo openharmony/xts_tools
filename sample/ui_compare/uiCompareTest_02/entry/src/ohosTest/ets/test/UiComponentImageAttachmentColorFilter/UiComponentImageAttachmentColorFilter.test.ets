@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
 import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'
@@ -55,15 +55,15 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0080
+       * @tc.number  SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080
        * @tc.name    Set the ImageAttachment property string to add an image, and set colorFilter and objectFit at the same time
        * @tc.desc    Function test
        * @tc.size    MediumTest
        * @tc.type    Function
        * @tc.level   3
        */
-    it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0080', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0080 start.`);
+    it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter01")
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter01_01'),1000);
@@ -74,7 +74,7 @@ export default function UiComponentImageAttachmentColorFilter() {
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
       await Utils.sleep(1000)
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0080 finish.`);
+      Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080 finish.`);
       done()
     })
 
@@ -337,9 +337,256 @@ export default function UiComponentImageAttachmentColorFilter() {
       done()
     })
 
+    /*
+     * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0040
+     * @tc.name    Set ImageAttachment with colorFilter 21 bits
+     * @tc.desc    Function test
+     * @tc.size    MediumTest
+     * @tc.type    Function
+     * @tc.level   3
+     */
+    it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0040', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0040 start.`);
+      Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter12")
+      let driver:Driver=Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter12_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter12_02'),1000);
+      windowSnap.snapShot()
+      await button.click()
+      await button02.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0040 finish.`);
+      done()
+    })
 
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0050
+       * @tc.name    Set ImageAttachment with colorFilter null/undefined
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0050 start.`);
+      Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter13")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter13_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter13_02'),1000);
+      windowSnap.snapShot()
+      await button01.click()
+      await driver.waitForIdle(500,2000)
+      await button02.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0050 finish.`);
+      done()
+    })
 
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0120
+       * @tc.name    Set ImageAttachment with colorFilter and removeString
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0120', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0120 start.`);
+      Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter14")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter14_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter14_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter14_03'),1000);
+      windowSnap.snapShot()
+      await button01.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button02.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button03.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0120 finish.`);
+      done()
+    })
 
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0130
+       * @tc.name    Set ImageAttachment with colorFilter and replaceStyle
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0130', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0130 start.`);
+      Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter15")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter15_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter15_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter15_03'),1000);
+      windowSnap.snapShot()
+      await button01.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button02.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button03.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0130 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0140
+       * @tc.name    Set ImageAttachment with colorFilter and setStyle
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0140', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0140 start.`);
+      Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter16")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter16_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter16_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter16_03'),1000);
+      windowSnap.snapShot()
+      await button01.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button02.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button03.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0140 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0150
+       * @tc.name    Set ImageAttachment with colorFilter and clearStyles
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0150', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0150 start.`);
+      Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter17")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter17_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter17_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter17_03'),1000);
+      windowSnap.snapShot()
+      await button01.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button02.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button03.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0150 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0160
+       * @tc.name    Set ImageAttachment with colorFilter and removeStyle
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0160', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0160 start.`);
+      Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter18")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter18_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter18_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter18_03'),1000);
+      windowSnap.snapShot()
+      await button01.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button02.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button03.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0160 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0170
+       * @tc.name    Set ImageAttachment with colorFilter and removeStyles
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0170', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0170 start.`);
+      Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter19")
+      let driver:Driver=Driver.create();
+      let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter19_01'),1000);
+      let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter19_02'),1000);
+      let button03: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter19_03'),1000);
+      windowSnap.snapShot()
+      await button01.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button02.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await button03.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0170 finish.`);
+      done()
+    })
+
+    /*
+       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0220
+       * @tc.name    Set ImageAttachment with colorFilter in RichEditor
+       * @tc.desc    Function test
+       * @tc.size    MediumTest
+       * @tc.type    Function
+       * @tc.level   3
+       */
+    it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0220', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0220 start.`);
+      Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter21")
+      let driver:Driver=Driver.create();
+      let button: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter21_01'),1000);
+      windowSnap.snapShot()
+      await button.click()
+      await driver.waitForIdle(500,2000)
+      windowSnap.snapShot()
+      await Utils.sleep(1000)
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0220 finish.`);
+      done()
+    })
 
   })
 }
