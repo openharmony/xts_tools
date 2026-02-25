@@ -380,7 +380,7 @@
     },
     {
       "name": "PageOne0090",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0090/pageOne0090.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0090/pageOne0090.ets",
       "buildFunction": "PageOne0090Builder",
       "data": {
         "description": "this is pageOne for test case 0090"
