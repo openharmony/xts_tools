@@ -1649,6 +1649,150 @@
       "data": {
         "description": "this is pageOne for test case 0690"
       }
+    },
+    {
+      "name": "RouterScene0010",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0010/routerScene0010.ets",
+      "buildFunction": "RouterScene0010Builder",
+      "data": {
+        "description": "this is routerScene for test case 0010"
+      }
+    },
+    {
+      "name": "RouterScene0020",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0020/routerScene0020.ets",
+      "buildFunction": "RouterScene0020Builder",
+      "data": {
+        "description": "this is routerScene for test case 0020"
+      }
+    },
+    {
+      "name": "RouterScene0030",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0030/routerScene0030.ets",
+      "buildFunction": "RouterScene0030Builder",
+      "data": {
+        "description": "this is routerScene for test case 0030"
+      }
+    },
+    {
+      "name": "RouterScene0040",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0040/routerScene0040.ets",
+      "buildFunction": "RouterScene0040Builder",
+      "data": {
+        "description": "this is routerScene for test case 0040"
+      }
+    },
+    {
+      "name": "RouterScene0050",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0050/routerScene0050.ets",
+      "buildFunction": "RouterScene0050Builder",
+      "data": {
+        "description": "this is routerScene for test case 0050"
+      }
+    },
+    {
+      "name": "RouterScene0060",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0060/routerScene0060.ets",
+      "buildFunction": "RouterScene0060Builder",
+      "data": {
+        "description": "this is routerScene for test case 0060"
+      }
+    },
+    {
+      "name": "RouterScene0070",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0070/routerScene0070.ets",
+      "buildFunction": "RouterScene0070Builder",
+      "data": {
+        "description": "this is routerScene for test case 0070"
+      }
+    },
+    {
+      "name": "ResourceTitlePage0010",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0010/resourceTitlePage0010.ets",
+      "buildFunction": "ResourceTitlePage0010Builder",
+      "data": {
+        "description": "this is ResourceTitlePage for test case 0010"
+      }
+    },
+    {
+      "name": "StringTitlePage0020",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0020/stringTitlePage0020.ets",
+      "buildFunction": "StringTitlePage0020Builder",
+      "data": {
+        "description": "this is StringTitlePage for test case 0020"
+      }
+    },
+    {
+      "name": "NavigationCommonTitlePage0030",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0030/navigationCommonTitlePage0030.ets",
+      "buildFunction": "NavigationCommonTitlePage0030Builder",
+      "data": {
+        "description": "this is NavigationCommonTitlePage for test case 0030"
+      }
+    },
+    {
+      "name": "CustomBuilderTitlePage0040",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0040/customBuilderTitlePage0040.ets",
+      "buildFunction": "CustomBuilderTitlePage0040Builder",
+      "data": {
+        "description": "this is CustomBuilderTitlePage for test case 0040"
+      }
+    },
+    {
+      "name": "NavigationCustomTitlePage0050",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0050/navigationCustomTitlePage0050.ets",
+      "buildFunction": "NavigationCustomTitlePage0050Builder",
+      "data": {
+        "description": "this is NavigationCustomTitlePage for test case 0050"
+      }
+    },
+    {
+      "name": "ResourceTitleWithMenuPage0060",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0060/resourceTitleWithMenuPage0060.ets",
+      "buildFunction": "ResourceTitleWithMenuPage0060Builder",
+      "data": {
+        "description": "this is ResourceTitleWithMenuPage for test case 0060"
+      }
+    },
+    {
+      "name": "StringTitleWithMenuPage0070",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0070/stringTitleWithMenuPage0070.ets",
+      "buildFunction": "StringTitleWithMenuPage0070Builder",
+      "data": {
+        "description": "this is StringTitleWithMenuPage for test case 0070"
+      }
+    },
+    {
+      "name": "NavigationCommonTitleNonCustomMenuPage0080",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0080/navigationCommonTitleNonCustomMenuPage0080.ets",
+      "buildFunction": "NavigationCommonTitleNonCustomMenuPage0080Builder",
+      "data": {
+        "description": "this is NavigationCommonTitleNonCustomMenuPage for test case 0080"
+      }
+    },
+    {
+      "name": "CustomBuilderTitleCustomMenuPage0090",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0090/customBuilderTitleCustomMenuPage0090.ets",
+      "buildFunction": "CustomBuilderTitleCustomMenuPage0090Builder",
+      "data": {
+        "description": "this is CustomBuilderTitleCustomMenuPage for test case 0090"
+      }
+    },
+    {
+      "name": "NavigationCustomTitleNonCustomMenuPage0100",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0100/navigationCustomTitleNonCustomMenuPage0100.ets",
+      "buildFunction": "NavigationCustomTitleNonCustomMenuPage0100Builder",
+      "data": {
+        "description": "this is NavigationCustomTitleNonCustomMenuPage for test case 0100"
+      }
+    },
+    {
+      "name": "CustomControlButtonPage0200",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0200/customControlButtonPage0200.ets",
+      "buildFunction": "CustomControlButtonPage0200Builder",
+      "data": {
+        "description": "this is CustomControlButtonPage for test case 0200"
+      }
     }
   ]
 }
