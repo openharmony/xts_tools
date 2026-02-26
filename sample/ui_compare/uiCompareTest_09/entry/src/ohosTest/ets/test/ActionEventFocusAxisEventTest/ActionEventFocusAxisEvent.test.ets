@@ -349,6 +349,150 @@ export default function ActionEventFocusAxisEventTest() {
       Logger.info('TEST', '手动验证: Modifier方式获取source为1');
       done();
     });
+
+    /*
+     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0300
+     * @tc.name: FocusAxisEvent0300
+     * @tc.desc: 子组件设置stopPropagation（Modifier）
+     */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0300', 0, async (done: Function) => {
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0300 start');
+      let driver = Driver.create();
+      await driver.delayMs(500);
+      await windowSnap.snapShot();
+      await driver.delayMs(500);
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0300 end');
+      Logger.info('TEST', '手动验证: Modifier+stopPropagation，只有子组件触发');
+      done();
+    });
+
+    /*
+     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0310
+     * @tc.name: FocusAxisEvent0310
+     * @tc.desc: 子组件不设置stopPropagation（Modifier）
+     */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0310', 0, async (done: Function) => {
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0310 start');
+      let driver = Driver.create();
+      await driver.delayMs(500);
+      await windowSnap.snapShot();
+      await driver.delayMs(500);
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0310 end');
+      Logger.info('TEST', '手动验证: Modifier无stopPropagation，父子都触发');
+      done();
+    });
+
+    /*
+     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0410
+     * @tc.name: FocusAxisEvent0410
+     * @tc.desc: KeyEvent-intentionCode（Modifier）
+     */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0410', 0, async (done: Function) => {
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0410 start');
+      let driver = Driver.create();
+      await driver.delayMs(500);
+      await windowSnap.snapShot();
+      await driver.delayMs(500);
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0410 end');
+      Logger.info('TEST', '手动验证: Modifier方式获取intentionCode正确');
+      done();
+    });
+
+    /*
+     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0420
+     * @tc.name: FocusAxisEvent0420
+     * @tc.desc: KeyEvent和onKeyPreIme（Modifier）
+     */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0420', 0, async (done: Function) => {
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0420 start');
+      let driver = Driver.create();
+      await driver.delayMs(500);
+      await windowSnap.snapShot();
+      await driver.delayMs(500);
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0420 end');
+      Logger.info('TEST', '手动验证: Modifier方式A/B/X/Y被拦截');
+      done();
+    });
+
+    /*
+     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0430
+     * @tc.name: FocusAxisEvent0430
+     * @tc.desc: 组件设置enable为false（Modifier）
+     */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0430', 0, async (done: Function) => {
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0430 start');
+      let driver = Driver.create();
+      await driver.delayMs(500);
+      await windowSnap.snapShot();
+      await driver.delayMs(500);
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0430 end');
+      Logger.info('TEST', '手动验证: Modifier方式按RT后事件响应不完全');
+      done();
+    });
+
+    /*
+     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0440
+     * @tc.name: FocusAxisEvent0440
+     * @tc.desc: 横竖屏切换（Modifier）
+     */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0440', 0, async (done: Function) => {
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0440 start');
+      let driver = Driver.create();
+      await driver.delayMs(500);
+      await windowSnap.snapShot();
+      await driver.delayMs(500);
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0440 end');
+      Logger.info('TEST', '手动验证: Modifier方式横竖屏切换后轴值正确');
+      done();
+    });
+
+    /*
+     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0630
+     * @tc.name: FocusAxisEvent0630
+     * @tc.desc: 频繁移动手柄遥杆（5分钟压力测试）
+     */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0630', 0, async (done: Function) => {
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0630 start');
+      let driver = Driver.create();
+      await driver.delayMs(500);
+      await windowSnap.snapShot();
+      await driver.delayMs(500);
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0630 end');
+      Logger.info('TEST', '手动验证: 5分钟压力测试，事件正常响应');
+      done();
+    });
+
+    /*
+     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0640
+     * @tc.name: FocusAxisEvent0640
+     * @tc.desc: 频繁调用FocusAxisEvent事件（100次）
+     */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0640', 0, async (done: Function) => {
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0640 start');
+      let driver = Driver.create();
+      await driver.delayMs(500);
+      await windowSnap.snapShot();
+      await driver.delayMs(500);
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0640 end');
+      Logger.info('TEST', '手动验证: 100次事件正常响应');
+      done();
+    });
+
+    /*
+     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0650
+     * @tc.name: FocusAxisEvent0650
+     * @tc.desc: FocusAxisEvent事件内存泄漏测试
+     */
+    it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0650', 0, async (done: Function) => {
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0650 start');
+      let driver = Driver.create();
+      await driver.delayMs(500);
+      await windowSnap.snapShot();
+      await driver.delayMs(500);
+      Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0650 end');
+      Logger.info('TEST', '手动验证: 内存泄漏不超过500KB');
+      done();
+    });
   });
 }
 
