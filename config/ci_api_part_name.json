@@ -484,6 +484,14 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.photoAccessHelper.d.ts",
+            
+            "bundle_name": [
+                "media_library"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.multimedia.MovingPhotoView.static.d.ets",
             "bundle_name": [
                 "media_library"
             ],
