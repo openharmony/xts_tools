@@ -2849,6 +2849,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.deviceInfo.static.d.ets",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.insightIntent.d.ts",
             "bundle_name": [
                 "ability_runtime"
