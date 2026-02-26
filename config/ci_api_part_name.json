@@ -343,6 +343,62 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.agent.AgentExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.app.agent.AgentUIExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.app.agent.agentManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/application/AgentCard.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/application/AgentExtensionConnectCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/application/AgentExtensionContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/application/AgentHostProxy.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/application/AgentProxy.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.cameraPicker.d.ts",
             "bundle_name": [
                 "camera_framework"
