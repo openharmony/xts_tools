@@ -540,7 +540,6 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.photoAccessHelper.d.ts",
-            
             "bundle_name": [
                 "media_library"
             ],
@@ -11025,6 +11024,13 @@
             "path": "interface/sdk_c/multimedia/media_library",
             "bundle_name": [
                 "media_library"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/multimedia/midi_framework",
+            "bundle_name": [
+                "midi_framework"
             ],
             "build_targets": []
         },
