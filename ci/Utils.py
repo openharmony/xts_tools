@@ -89,7 +89,6 @@ class MatchConfig:
     all_com_path = {}
     skip_judge_build_path = {}
     temple_list = []
-    acts_All_template_ex_list = []
     xts_path_list = []
     interface_path_list = []
 
@@ -101,8 +100,8 @@ class MatchConfig:
     WHITE_LIST_PATH = os.path.join(config_path, "ci_target_white_list.json")
     white_list_repo = {}
 
-    # 不参与编译测试套配置
-    uncompile_suite = {}
+    uncompile_suites = {}
+    verify_suites = {}
 
     @classmethod
     def initialization(cls):
@@ -117,7 +116,6 @@ class MatchConfig:
                 cls.all_com_path = rules_data['all_com_path']
                 cls.skip_judge_build_path = rules_data['skip_judge_build_path']
                 cls.temple_list = rules_data['temple_list']
-                cls.acts_All_template_ex_list = rules_data['acts_All_template_ex']
                 cls.xts_path_list = rules_data['xts_path_list']
                 cls.interface_path_list = rules_data['interface_path_list']
         print("MatchConfig initialization end.")
@@ -187,10 +185,26 @@ class MatchConfig:
         return cls.temple_list
 
     @classmethod
-    def get_acts_All_template_ex_list(cls):
-        if cls.acts_All_template_ex_list == []:
-            cls.initialization()
-        return cls.acts_All_template_ex_list
+    def get_verify_suites(cls, xts_root_dir):
+        root_tgt = PathUtils.get_root_target(xts_root_dir)
+
+        if root_tgt not in cls.verify_suites:
+            verify_path = os.path.join(xts_root_dir, 'ci_verify_suites.json')
+
+            try:
+                with open(verify_path, 'r') as file:
+                    cls.verify_suites[root_tgt] = json.load(file)
+
+                if not isinstance(cls.verify_suites[root_tgt], list):
+                    print(f'Config file: {verify_path} malformed, ' \
+                          f'list expected, got: {type(cls.verify_suites[root_tgt]).__name__}.')
+                    cls.verify_suites[root_tgt] = [root_tgt]
+
+            except Exception as err:
+                print(f'Error reading config file: {verify_path}, reason: {type(err).__name__} - {err}.')
+                cls.verify_suites[root_tgt] = [root_tgt]
+
+        return cls.verify_suites[root_tgt]
 
     @classmethod
     def get_xts_path_list(cls):
@@ -220,21 +234,20 @@ class MatchConfig:
 
     @classmethod
     def get_uncompile_suite_list(cls, xts_root_dir, device_type):
-        xts_suite = PathUtils.get_root_target(xts_root_dir)
-        if xts_suite not in cls.uncompile_suite:
-            xts_name = os.path.basename(xts_root_dir)
-            UNCOMPILE_PATH = os.path.join(HOME, "test", "xts", xts_name, "ci_uncompile_suite.json")
-            if not os.path.exists(UNCOMPILE_PATH):
-                print("Get uncompile testsuite failed because {} not exist".format(UNCOMPILE_PATH))
+        root_tgt = PathUtils.get_root_target(xts_root_dir)
+        if root_tgt not in cls.uncompile_suites:
+            uncompile_path = os.path.join(xts_root_dir, 'ci_uncompile_suite.json')
+            if not os.path.exists(uncompile_path):
+                print('Get uncompile testsuite failed because {} not exist'.format(uncompile_path))
                 return []
-            with open(UNCOMPILE_PATH, 'r') as file:
-                cls.uncompile_suite[xts_suite] = json.load(file)
-        if device_type in cls.uncompile_suite[xts_suite]:
-            return cls.uncompile_suite[xts_suite][device_type]
-        elif isinstance(cls.uncompile_suite[xts_suite], dict):
+            with open(uncompile_path, 'r') as file:
+                cls.uncompile_suites[root_tgt] = json.load(file)
+        if device_type in cls.uncompile_suites[root_tgt]:
+            return cls.uncompile_suites[root_tgt][device_type]
+        elif isinstance(cls.uncompile_suites[root_tgt], dict):
             return []
         else:
-            return cls.uncompile_suite[xts_suite]
+            return cls.uncompile_suites[root_tgt]
 
 
 class XTSTargetUtils:
@@ -420,15 +433,14 @@ class PathUtils:
 
     @staticmethod
     def get_all_build_target(xts_root_dir, full_flag = 0):
-        if xts_root_dir.endswith("acts") and full_flag == 0:
-            return MatchConfig.get_acts_All_template_ex_list()
-        return [PathUtils.get_root_target(xts_root_dir)]
+        return MatchConfig.get_verify_suites(xts_root_dir) \
+            if full_flag == 0 \
+            else [PathUtils.get_root_target(xts_root_dir)]
 
     @staticmethod
     def get_root_target(xts_root_dir):
-        xts_suite = os.path.basename(xts_root_dir)
-        # relative_path = os.path.relpath(xts_root_dir, HOME)
-        target = f"xts_{xts_suite}"
+        suite_name = os.path.basename(xts_root_dir)
+        target = f'xts_{suite_name}'
         return target
 
     @staticmethod

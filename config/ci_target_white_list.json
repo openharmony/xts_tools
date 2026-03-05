@@ -202,10 +202,20 @@
       {
         "path": "test/xts/tools",
         "bundle_name": "xts_tools",
-        "add_bundle": [],
-        "add_target": [
-          "FULL_IMPACT_TOTALLY"
-        ]
+        "subdirectory": {
+          "test/xts/tools/build": {
+            "add_bundle": [],
+            "add_target": [
+              "FULL_IMPACT_TOTALLY"
+            ]
+          },
+          "test/xts/tools/ci": {
+            "add_bundle": [],
+            "add_target": [
+              "FULL_IMPACT"
+            ]
+          }
+        }
       }
     ]
   }
