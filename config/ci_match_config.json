@@ -37,20 +37,11 @@
         "ohos_sh_assist_suite",
         "group"
     ],
-    "acts_All_template_ex":[
-        "ActsMindSporeTest",
-        "ActsBmsAccessTokenTest",
-        "AACommandImplicitStartTest",
-        "StageSupplement",
-        "AACommand07",
-        "cpLibuv",
-        "ActsNetworkMgrStatisticsNetTest"
-    ],
     "xts_path_list": [
         "test/xts/acts",
         "test/xts/dcts",
         "test/xts/hats",
-        "test/xts/tools"
+        "test/xts/hits"
     ],
     "interface_path_list": [
         "interface/sdk-js",
