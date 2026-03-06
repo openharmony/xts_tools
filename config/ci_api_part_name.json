@@ -10635,6 +10635,20 @@
                 "ability_runtime"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/common/full/webgl.d.ts",
+            "bundle_name": [
+                "graphic_2d"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/common/full/webgl2.d.ts",
+            "bundle_name": [
+                "graphic_2d"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c": [
