@@ -38,6 +38,51 @@ declare_args() {
   }
 }
 
+declare_args() {
+  if (XTS_SUITENAME == "acts") {
+    SUITE_OUT_DIR = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts"
+  } else {
+    SUITE_OUT_DIR = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
+  }
+}
+
+template("ohos_app_xts_base") {
+  _hap_name = invoker.hap_name
+  _deps = []
+  if (defined(invoker.deps)) {
+    _deps = invoker.deps
+  }
+
+  _target_name_syscap = "${_hap_name}_syscap"
+  copy("${_target_name_syscap}") {
+    if (invoker.project_type == "testappassist") {
+      sources = [ "entry/src/main/syscap.json" ]
+    } else if (invoker.project_type == "testapp") {
+      if (invoker.suite_type == "hap_static") {
+        sources = [ "entry/src/main/syscap.json" ]
+      } else {
+        if (path_exists("entry/src/ohosTest")) {
+          sources = [ "entry/src/ohosTest/syscap.json" ]
+        } else {
+          sources = [ "entry/src/main/syscap.json" ]
+        }
+      }
+    }
+    outputs = [ "${SUITE_OUT_DIR}/testcases/${_hap_name}.syscap.json" ]
+    testonly = true
+  }
+
+  if (XTS_SUITENAME == "acts") {
+    _deps += [ ":${_target_name_syscap}" ]
+  }
+
+  target("ohos_app", "${target_name}") {
+    forward_variables_from(invoker, "*")
+    deps = []
+    deps += _deps
+  }
+}
+
 template("ohos_testsuite_base") {
   assert(defined(invoker.project_type),
          "project_type is required in target ${target_name}")
@@ -179,14 +224,14 @@ template("ohos_testsuite_base") {
       _archive_filename = "${_hap_name}.hap"
       if (_build_part_boolean == true) {
         if (_project_type == "testapp") {
-          target("ohos_app", _target_name) {
+          target("ohos_app_xts_base", _target_name) {
             forward_variables_from(invoker, "*")
             subsystem_name = XTS_SUITENAME
             hap_out_dir = "${SUITES_OUTPUT_ROOT}/haps"
             testonly = true
           }
         } else if (_project_type == "testappassist") {
-          target("ohos_app", target_name) {
+          target("ohos_app_xts_base", target_name) {
             forward_variables_from(invoker, "*")
             subsystem_name = XTS_SUITENAME
             hap_out_dir = "${_suite_out_dir}/testcases"
@@ -864,8 +909,9 @@ template("ohos_xts_app") {
   not_needed([ _suite_type ])
   if (XTS_SUITETYPE == [] ||
       filter_include(XTS_SUITETYPE, [ _suite_type ]) != []) {
-    ohos_app("${target_name}") {
+    ohos_app_xts_base("${target_name}") {
       forward_variables_from(invoker, "*")
+      project_type = "testappassist"
     }
   } else {
     group(target_name) {
