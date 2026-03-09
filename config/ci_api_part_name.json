@@ -11077,6 +11077,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/network/netstack/http_interceptor",
+            "bundle_name": [
+                "netstack"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/network/netstack/net_websocket",
             "bundle_name": [
                 "netstack"
