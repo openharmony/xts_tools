@@ -2121,6 +2121,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.ability.InsightIntentDecorator.static.d.ets",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.verticalPanelManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -6053,7 +6060,8 @@
                 "ace_engine"
             ],
             "build_targets": []
-        },    {
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.Test.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -7523,7 +7531,7 @@
             ],
             "build_targets": []
         },
-         {
+        {
             "path": "interface/sdk-js/api/arkui/ButtonModifier.static.d.ets",
             "bundle_name": [
                 "ace_engine"
