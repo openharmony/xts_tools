@@ -35,6 +35,7 @@
         "ohos_hap_assist_suite",
         "ohos_app_assist_suite",
         "ohos_sh_assist_suite",
+        "ohos_xts_group",
         "group"
     ],
     "xts_path_list": [
