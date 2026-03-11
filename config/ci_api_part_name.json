@@ -11456,6 +11456,13 @@
                 "drivers_interface_input"
             ],
             "build_targets": []
+        },
+        {
+            "path": "drivers/interface/midi",
+            "bundle_name": [
+                "drivers_interface_midi"
+            ],
+            "build_targets": []
         }
     ]
 }
