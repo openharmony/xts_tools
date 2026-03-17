@@ -249,18 +249,6 @@ template("ohos_testsuite_base") {
         print(tmp_subsystem_part + " is not build")
         not_needed(invoker, "*")
       }
-    } else if (_project_type == "pythontest") {
-      if (defined(invoker.outputs_dir)) {
-        _out_put_dir = invoker.outputs_dir
-        _archive_filename = "${_subsystem_name}/${_out_put_dir}"
-      } else {
-        _archive_filename = "${_subsystem_name}"
-      }
-      _test_files = invoker.output_file
-      _deps = []
-      if (defined(invoker.deps)) {
-        _deps = invoker.deps
-      }
     } else if (_project_type == "js_test_hap") {
       _hap_name = invoker.test_hap_name
       _output_file = invoker.hap_source_path
@@ -274,11 +262,9 @@ template("ohos_testsuite_base") {
       }
     }
 
-    if (_project_type != "pythontest" && _project_type != "js_test_hap" &&
+    if (_project_type != "js_test_hap" &&
         _project_type != "testhapassist" && _project_type != "testappassist") {
       _deps = [ ":module_${target_name}" ]
-    } else if (_project_type == "pythontest") {
-      print("this is pythontest")
     } else if (_project_type != "testhapassist" &&
                _project_type != "testappassist") {
       _deps = []
@@ -635,88 +621,6 @@ template("ohos_test_suite") {
     deps = _deps
     args = _gen_args
     outputs = [ _output ]
-  }
-}
-
-template("pythontest_suite") {
-  assert(defined(invoker.script), "script is required in target ${target_name}")
-
-  _subsystem_name = ""
-  if (defined(invoker.subsystem_name)) {
-    _subsystem_name = invoker.subsystem_name
-  } else {
-    _local_path = rebase_path(".")
-    _args1 = [
-      "--method_name",
-      "get_subsystem_name",
-      "--arguments",
-      "path=${_local_path}",
-    ]
-    _subsystem_name =
-        exec_script(rebase_path("//test/xts/tools/build/utils.py"),
-                    _args1,
-                    "trim string")
-  }
-  _deps = []
-  if (defined(invoker.deps)) {
-    _deps = invoker.deps + _deps
-  }
-  _outputs_dir = ""
-  if (defined(invoker.outputs_dir)) {
-    _outputs_dir = invoker.outputs_dir
-  }
-  _output_file = rebase_path("${invoker.script}")
-
-  target("ohos_testsuite_base", "${target_name}") {
-    project_type = "pythontest"
-    subsystem_name = _subsystem_name
-    output_file = _output_file
-    deps = _deps
-    outputs_dir = _outputs_dir
-  }
-}
-
-template("executable_suite") {
-  assert(defined(invoker.suite_name),
-         "suite_name is required in target ${target_name}")
-  _suite_name = invoker.suite_name
-  _local_path = rebase_path(".")
-  _args1 = [
-    "--method_name",
-    "get_subsystem_name",
-    "--arguments",
-    "path=${_local_path}",
-  ]
-  _subsystem_name = exec_script(rebase_path("//test/xts/tools/build/utils.py"),
-                                _args1,
-                                "trim string")
-
-  _outputs_dir = ""
-  if (defined(invoker.outputs_dir)) {
-    _outputs_dir = "${invoker.outputs_dir}"
-  }
-  ohos_executable(target_name) {
-    forward_variables_from(invoker,
-                           "*",
-                           [
-                             "test_type",
-                             "module_out_path",
-                             "visibility",
-                           ])
-    forward_variables_from(invoker, [ "visibility" ])
-    if (!defined(deps)) {
-      deps = []
-    }
-
-    subsystem_name = "tests"
-    part_name = "ssts"
-    ohos_test = true
-    testonly = true
-    output_name = "$target_name"
-    test_output_dir = "$SUITES_OUTPUT_ROOT/${_suite_name}/testcases/${_subsystem_name}/${_outputs_dir}"
-    if (defined(invoker.output_extension)) {
-      output_extension = invoker.output_extension
-    }
   }
 }
 

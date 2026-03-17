@@ -161,52 +161,6 @@ template("hcpptest_suite") {
   }
 }
 
-template("pythontest_suite") {
-  assert(defined(invoker.script), "script is required in target ${target_name}")
-  assert(defined(invoker.suite_name),
-         "suite_name is required in target ${target_name}")
-  _suite_name = invoker.suite_name
-  _project_dir = rebase_path(".")
-
-  _subsystem_name = ""
-  if (defined(invoker.subsystem_name)) {
-    _subsystem_name = invoker.subsystem_name
-  } else {
-    _local_path = rebase_path(".")
-    _args1 = [
-      "--method_name",
-      "get_subsystem_name",
-      "--arguments",
-      "path=${_local_path}",
-    ]
-    _subsystem_name = exec_script(rebase_path("$BUILD_DIR_PREFIX/utils.py"),
-                                  _args1,
-                                  "trim string")
-  }
-  _deps = []
-  if (defined(invoker.deps)) {
-    _deps = invoker.deps + _deps
-  }
-  _outputs_dir = ""
-  if (defined(invoker.outputs_dir)) {
-    _outputs_dir = invoker.outputs_dir
-  }
-  _output_file = rebase_path("${invoker.script}")
-
-  _archive_filename = "${target_name}"
-
-  target("testsuite_common", "${target_name}") {
-    suite_name = _suite_name
-    project_type = "pythontest"
-    subsystem_name = _subsystem_name
-    output_file = _output_file
-    project_dir = _project_dir
-    archive_filename = _archive_filename
-    deps = _deps
-    outputs_dir = _outputs_dir
-  }
-}
-
 template("test_suite") {
   assert(defined(invoker.deps), "deps is required in target ${target_name}")
   _output = "${SUITE_OUTPUT_PREFIX}${target_name}.zip"
@@ -252,54 +206,6 @@ template("test_suite") {
     deps = _deps
     args = _gen_args
     outputs = [ _output ]
-  }
-}
-
-template("executable_suite") {
-  assert(defined(invoker.suite_name),
-         "suite_name is required in target ${target_name}")
-  _suite_name = invoker.suite_name
-  _local_path = rebase_path(".")
-  _args1 = [
-    "--method_name",
-    "get_subsystem_name",
-    "--arguments",
-    "path=${_local_path}",
-  ]
-  _subsystem_name = exec_script(rebase_path("$BUILD_DIR_PREFIX/utils.py"),
-                                _args1,
-                                "trim string")
-
-  _extension = ""
-  if (defined(invoker.output_extension)) {
-    _extension = ".${invoker.output_extension}"
-  }
-  _outputs_dir = ""
-  if (defined(invoker.outputs_dir)) {
-    _outputs_dir = "${invoker.outputs_dir}"
-  }
-
-  _module_target_name = "module_${target_name}"
-  _source_file = rebase_path("${root_out_dir}/bin/${target_name}${_extension}")
-  _origi_target = target_name
-  target("executable", "${_module_target_name}") {
-    forward_variables_from(invoker, "*")
-    output_name = _origi_target
-  }
-  _output_file = rebase_path(
-          "${SUITE_OUTPUT_PREFIX}${_suite_name}/${SUITE_TESTCASES_NAME}/${_subsystem_name}/${_outputs_dir}")
-
-  _args2 = [
-    "--method_name",
-    "copy_file",
-    "--arguments",
-    "output=${_output_file}#sources=${_source_file}",
-  ]
-  action(target_name) {
-    script = rebase_path("$BUILD_DIR_PREFIX/utils.py")
-    deps = [ ":${_module_target_name}" ]
-    args = _args2
-    outputs = [ "${SUITE_OUTPUT_PREFIX}${_suite_name}/${SUITE_TESTCASES_NAME}/${_subsystem_name}/${target_name}${_extension}" ]
   }
 }
 
