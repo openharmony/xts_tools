@@ -357,6 +357,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.agent.agentConstant.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.agent.agentManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
