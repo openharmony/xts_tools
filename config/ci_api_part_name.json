@@ -1148,6 +1148,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.dlpSetDlpFeature.d.ts",
+            "bundle_name": [
+                "dlp_permission_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.base.d.ts",
             "bundle_name": [
                 "init"
