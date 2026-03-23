@@ -12,10 +12,14 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+set -e
 echo exec $@
 
-code_root=$(realpath $(dirname $(readlink -f $0))/../../../../)
+code_root=$(realpath $(dirname $(readlink -f "$0"))/../../../../)
 
-mkdir -p $1/entry/src/hypium
-cp -rf ${code_root}/test/testfwk/arkxtest/jsunit/src_static/module $1/entry/src/hypium/
-cp -f ${code_root}/test/testfwk/arkxtest/jsunit/src_static/*.ets $1/entry/src/hypium/
+mkdir -p "$1/entry/src/hypium"
+cp -rf "${code_root}/test/testfwk/arkxtest/jsunit/src_static/module" "$1/entry/src/hypium/"
+cp -f "${code_root}/test/testfwk/arkxtest/jsunit/src_static/"*.ets "$1/entry/src/hypium/"
+
+mkdir -p "$2"
+touch "$2/$3.stamp"

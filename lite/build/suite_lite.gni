@@ -18,6 +18,56 @@ declare_args() {
   ohos_xts_test_args = ""
 }
 
+SUBSYSTEM_LIST = [
+  "kernel",
+  "hiviewdfx",
+  "communication",
+  "security",
+  "update",
+  "sstsutils",
+  "commonlibrary",
+  "multimedia",
+  "hdf",
+  "ability",
+  "appexecfwk",
+  "distributed_schedule",
+  "startup",
+  "sensors",
+  "sample",
+  "iothardware",
+  "open_posix_testsuite",
+  "graphic",
+  "ace",
+  "applications",
+  "ai",
+  "global",
+  "telephony",
+  "dcts",
+  "distributeddatamgr",
+  "xts",
+]
+
+NO_FILTER_SUBSYSTEM_LIST = [
+  "appexecfwk",
+  "applications",
+  "kernel",
+  "open_posix_testsuite",
+  "sample",
+  "telephony",
+  "dcts",
+  "hiviewdfx",
+  "security",
+  "update",
+  "sstsutils",
+  "hdf",
+  "distributed_schedule",
+  "xts",
+  "commonlibrary",
+  "communication",
+  "distributeddatamgr",
+  "startup",
+]
+
 template("testsuite_base") {
   assert(defined(invoker.project_type),
          "project_type is required in target ${target_name}")
@@ -75,17 +125,17 @@ template("testsuite_base") {
   if (defined(invoker.subsystem_name)) {
     _subsystem_name = invoker.subsystem_name
   } else {
-    _local_path = rebase_path(".")
-    _args1 = [
-      "--method_name",
-      "get_subsystem_name",
-      "--arguments",
-      "path=${_local_path}",
-    ]
-    _subsystem_name = exec_script(rebase_path("$BUILD_DIR_PREFIX/utils.py"),
-                                  _args1,
-                                  "trim string")
+    foreach(sub, SUBSYSTEM_LIST) {
+      if (_subsystem_name == "" && filter_include([ rebase_path(".") ],
+                                                  [
+                                                    "*/${sub}/*",
+                                                    "*/${sub}_lite/*",
+                                                  ]) != []) {
+        _subsystem_name = sub
+      }
+    }
   }
+
   target("testsuite_common", target_name) {
     suite_name = _suite_name
     project_type = _project_type
@@ -213,7 +263,7 @@ template("open_source_suite") {
   assert(defined(invoker.suite_name),
          "suite_name is required in target ${target_name}")
   assert(defined(invoker.exec_command_path),
-         "exec_script_path is required in target ${target_name}")
+         "exec_command_path is required in target ${target_name}")
   _suite_name = invoker.suite_name
   _exec_command_path = invoker.exec_command_path
   _exec_sub_dir = invoker.exec_sub_dir
@@ -246,16 +296,15 @@ template("open_source_suite") {
   if (defined(invoker.subsystem_name)) {
     _subsystem_name = invoker.subsystem_name
   } else {
-    _local_path = rebase_path(".")
-    _args1 = [
-      "--method_name",
-      "get_subsystem_name",
-      "--arguments",
-      "path=${_local_path}",
-    ]
-    _subsystem_name = exec_script(rebase_path("$BUILD_DIR_PREFIX/utils.py"),
-                                  _args1,
-                                  "trim string")
+    foreach(sub, SUBSYSTEM_LIST) {
+      if (_subsystem_name == "" && filter_include([ rebase_path(".") ],
+                                                  [
+                                                    "*/${sub}/*",
+                                                    "*/${sub}_lite/*",
+                                                  ]) != []) {
+        _subsystem_name = sub
+      }
+    }
   }
 
   _archive_filename = "${target_name}"
@@ -277,50 +326,5 @@ template("open_source_suite") {
     archive_filename = _archive_filename
     outputs_dir = _outputs_dir
     deps = _build_deps
-  }
-}
-template("hjsunit_suite") {
-  assert(defined(invoker.suite_name),
-         "suite_name is required in target ${target_name}")
-  assert(defined(invoker.hap_name),
-         "hap_name is required in target ${target_name}")
-  _suite_name = invoker.suite_name
-  _hap_name = invoker.hap_name
-
-  _hap_sign = "true"
-  if (defined(invoker.need_sign)) {
-    _hap_sign = invoker.need_sign
-  }
-
-  _output_files = ","
-
-  _subsystem_name = ""
-  if (defined(invoker.subsystem_name)) {
-    _subsystem_name = invoker.subsystem_name
-  } else {
-    _local_path = rebase_path(".")
-    _args1 = [
-      "--method_name",
-      "get_subsystem_name",
-      "--arguments",
-      "path=${_local_path}",
-    ]
-    _subsystem_name = exec_script(rebase_path("$BUILD_DIR_PREFIX/utils.py"),
-                                  _args1,
-                                  "trim string")
-  }
-
-  _archive_filename = "${target_name}"
-  _project_dir = rebase_path(".")
-
-  target("testsuite_common", "${target_name}") {
-    suite_name = _suite_name
-    subsystem_name = _subsystem_name
-    project_type = "hjsunit"
-    project_dir = _project_dir
-    output_file = _output_files
-    archive_filename = _archive_filename
-    hap_name = _hap_name
-    hap_sign = _hap_sign
   }
 }
