@@ -3654,6 +3654,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.file.RecentPhotoComponent.static.d.ets",
+            "bundle_name": [
+                "media_library"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.ToolBar.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -4333,6 +4340,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.file.AlbumPickerComponent.static.d.ets",
+            "bundle_name": [
+                "media_library"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.ApplicationStateChangeCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -4488,6 +4502,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.PhotoPickerComponent.d.ets",
+            "bundle_name": [
+                "media_library"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.file.PhotoPickerComponent.static.d.ets",
             "bundle_name": [
                 "media_library"
             ],
