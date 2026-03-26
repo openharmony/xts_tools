@@ -72,7 +72,7 @@ template("ohos_app_xts_base") {
     testonly = true
   }
 
-  if (XTS_SUITENAME == "acts") {
+  if (XTS_SUITENAME != "hits") {
     _deps += [ ":${_target_name_syscap}" ]
   }
 
