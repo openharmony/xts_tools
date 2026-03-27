@@ -18,6 +18,7 @@ declare_args() {
   SUITE_TOOLS_NAME = "tools"
   BUILD_DIR_PREFIX = "//test/xts/tools/lite/build/"
 }
+
 template("testsuite_common") {
   assert(defined(invoker.suite_name),
          "suite_name is required in target ${target_name}")
@@ -49,19 +50,27 @@ template("testsuite_common") {
   if (defined(invoker.hap_sign)) {
     _hap_sign = invoker.hap_sign
   }
-  _args2 = [
-    "--method_name",
-    "gen_suite_out",
-    "--arguments",
-    "suite_output_prefix=${SUITE_OUTPUT_PREFIX}#suite_names=${_suite_name}#out_suffix=${SUITE_TESTCASES_NAME}/${_subsystem_name}/${_outputs_dir}",
-  ]
-  _output_files = exec_script(rebase_path("$BUILD_DIR_PREFIX/utils.py"),
-                              _args2,
-                              "list lines")
+
+  _output_files = []
+  foreach(sn, string_split(_suite_name, ",")) {
+    if (_subsystem_name == "" && _outputs_dir == "") {
+      _output_files += [ "${SUITE_OUTPUT_PREFIX}${sn}/${SUITE_TESTCASES_NAME}" ]
+    } else if (_outputs_dir == "") {
+      _output_files += [ "${SUITE_OUTPUT_PREFIX}${sn}/${SUITE_TESTCASES_NAME}/${_subsystem_name}" ]
+    } else {
+      _output_files += [ "${SUITE_OUTPUT_PREFIX}${sn}/${SUITE_TESTCASES_NAME}/${_subsystem_name}/${_outputs_dir}" ]
+    }
+  }
+
   _outputs = []
   _out_paths = ""
   foreach(out, _output_files) {
-    _outputs += [ "$out/$_archive_filename" ]
+    if (filter_include([ out ], [ "*/" ]) != []) {
+      _outputs += [ "${out}${_archive_filename}" ]
+    } else {
+      _outputs += [ "${out}/${_archive_filename}" ]
+    }
+
     _out_paths = _out_paths + rebase_path(out) + ","
   }
 
@@ -101,31 +110,29 @@ template("deploy_suite") {
   assert(defined(invoker.suite_name),
          "suite_name is required in target ${target_name}")
   _suite_name = invoker.suite_name
-  _output_prefix = "$SUITE_OUTPUT_PREFIX"
-  _args = [
-    "--method_name",
-    "gen_suite_out",
-    "--arguments",
-    "suite_output_prefix=${_output_prefix}#suite_names=${_suite_name}#out_suffix=${SUITE_TOOLS_NAME}",
-  ]
-  _output_dirs = exec_script(rebase_path("$BUILD_DIR_PREFIX/utils.py"),
-                             _args,
-                             "list lines")
+
+  _output_dirs = []
+  foreach(sn, string_split(_suite_name, ",")) {
+    _output_dirs += [ "${SUITE_OUTPUT_PREFIX}${sn}/${SUITE_TOOLS_NAME}" ]
+  }
+
   _outputs = ""
   foreach(dir, _output_dirs) {
     _outputs = _outputs + rebase_path(dir) + ","
   }
-  _arguments = [
+
+  _args = [
     "build_xdevice",
     "--project_dir",
     rebase_path("//test/testfwk/xdevice"),
     "--output_dirs",
     _outputs,
   ]
+
   action(target_name) {
     deps = []
     script = rebase_path("$BUILD_DIR_PREFIX/suite.py")
-    args = _arguments
+    args = _args
     outputs = _output_dirs
   }
 }

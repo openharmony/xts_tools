@@ -34,7 +34,10 @@ declare_args() {
   if (getenv("XTS_SUITETYPE") != "") {
     XTS_SUITETYPE = string_split(getenv("XTS_SUITETYPE"), ",")
   } else {
-    XTS_SUITETYPE = ["bin", "hap_dynamic"]
+    XTS_SUITETYPE = [
+      "bin",
+      "hap_dynamic",
+    ]
   }
 }
 
@@ -77,9 +80,8 @@ template("ohos_app_xts_base") {
   }
 
   target("ohos_app", "${target_name}") {
-    forward_variables_from(invoker, "*")
-    deps = []
-    deps += _deps
+    forward_variables_from(invoker, "*", [ "deps" ])
+    deps = _deps
   }
 }
 
@@ -93,39 +95,38 @@ template("ohos_testsuite_base") {
     _part_name = invoker.part_name
   }
 
-  precise_build_boolean = true
+  _precise_build = true
   if (precise_xts && filter_include(precise_run,
                                     [
                                       "all",
                                       _part_name,
                                     ]) == []) {
-    print("precise_xts is on ,${_part_name} is not on build")
-    precise_build_boolean = false
+    print("precise_xts is on, ${_part_name} is not on build")
+    _precise_build = false
   }
-  if (precise_build_boolean) {
+
+  if (_precise_build) {
     _subsystem_name = "common"
     if (defined(invoker.subsystem_name)) {
       _subsystem_name = invoker.subsystem_name
     }
     _project_type = invoker.project_type
 
-    _build_part_boolean = false
-    tmp_subsystem_part = "${_subsystem_name}_${_part_name}"
-    _part_script_judge = "//test/xts/tools/build/judgePart.py"
-    _script_judge_args1 = [
-      rebase_path("$preloader_output_dir") + "/parts_config.json",
-      tmp_subsystem_part,
-      "judgePart",
-    ]
-    _build_part_boolean_str = exec_script(rebase_path(_part_script_judge),
-                                          _script_judge_args1,
-                                          "trim string")
-    if (_build_part_boolean_str == "True") {
-      _build_part_boolean = true
+    _part_full_name = "${_subsystem_name}_${_part_name}"
+    _parts_config =
+        read_file(rebase_path("${preloader_output_dir}") + "/parts_config.json",
+                  "json")
+
+    _build_part = false
+    if (defined(_parts_config[_part_full_name]) ||
+        defined(_parts_config["${_part_full_name}_override"])) {
+      _build_part = true
     }
 
+    not_needed([ "_parts_config" ])
+
     if (_subsystem_name == "kernel" || _subsystem_name == "common") {
-      _build_part_boolean = true
+      _build_part = true
     }
 
     _test_files = ""
@@ -152,13 +153,13 @@ template("ohos_testsuite_base") {
     if (_project_type == "gtest" || _project_type == "ctestbundle") {
       _output_file = "${_output_file_dir}/${target_name}"
       _archive_filename = "${target_name}"
-      if (_build_part_boolean == true) {
+      if (_build_part == true) {
         target("ohos_moduletest", "module_${target_name}") {
           forward_variables_from(invoker, "*")
           testonly = true
         }
       } else {
-        print(tmp_subsystem_part + " is not build")
+        print("No need to build: ${_part_full_name}")
         if (defined(invoker.public_configs)) {
           print(invoker.public_configs)
         }
@@ -179,7 +180,7 @@ template("ohos_testsuite_base") {
     } else if (_project_type == "zunit" || _project_type == "javatestbundle") {
       _output_file = "${_output_file_dir}/module_${target_name}.dex"
       _archive_filename = "${target_name}.dex"
-      if (_build_part_boolean == true) {
+      if (_build_part == true) {
         target("ohos_java_moduletest", "module_${target_name}") {
           forward_variables_from(invoker, "*")
           testonly = true
@@ -191,7 +192,7 @@ template("ohos_testsuite_base") {
         _output_file = invoker.final_jar_path
       }
       _archive_filename = "${target_name}.jar"
-      if (_build_part_boolean == true) {
+      if (_build_part == true) {
         target("java_library", "module_${target_name}") {
           forward_variables_from(invoker, "*")
           is_host_library = true
@@ -222,7 +223,7 @@ template("ohos_testsuite_base") {
       }
       _output_file = _final_hap_path
       _archive_filename = "${_hap_name}.hap"
-      if (_build_part_boolean == true) {
+      if (_build_part == true) {
         if (_project_type == "testapp") {
           target("ohos_app_xts_base", _target_name) {
             forward_variables_from(invoker, "*")
@@ -246,7 +247,7 @@ template("ohos_testsuite_base") {
           }
         }
       } else {
-        print(tmp_subsystem_part + " is not build")
+        print("No need to build: ${_part_full_name}")
         not_needed(invoker, "*")
       }
     } else if (_project_type == "js_test_hap") {
@@ -262,17 +263,18 @@ template("ohos_testsuite_base") {
       }
     }
 
-    if (_project_type != "js_test_hap" &&
-        _project_type != "testhapassist" && _project_type != "testappassist") {
+    if (_project_type != "js_test_hap" && _project_type != "testhapassist" &&
+        _project_type != "testappassist") {
       _deps = [ ":module_${target_name}" ]
     } else if (_project_type != "testhapassist" &&
                _project_type != "testappassist") {
       _deps = []
     }
-    _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
 
+    _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}"
     _archive_testfile = ""
     subsystem_name = XTS_SUITENAME
+
     if (subsystem_name == "acts") {
       _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts"
     }
@@ -290,6 +292,7 @@ template("ohos_testsuite_base") {
     } else {
       _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
     }
+
     _arguments = [
       "build_module_with_testbundle",
       "--build_gen_dir",
@@ -316,12 +319,14 @@ template("ohos_testsuite_base") {
         _subsystem_name,
       ]
     }
+
     if (_part_name != "") {
       _arguments += [
         "--part_name",
         _part_name,
       ]
     }
+
     if (_apilibrary_deps != "") {
       _arguments += [
         "--apilibrary_deps",
@@ -335,7 +340,8 @@ template("ohos_testsuite_base") {
         _test_files,
       ]
     }
-    if (_build_part_boolean == true && _project_type != "testhapassist" &&
+
+    if (_build_part == true && _project_type != "testhapassist" &&
         _project_type != "testappassist") {
       action(target_name) {
         deps = _deps
@@ -344,15 +350,15 @@ template("ohos_testsuite_base") {
         outputs = [ _archive_testfile ]
         testonly = true
       }
-    } else if (_build_part_boolean == false) {
-      action(target_name) {
-        script = rebase_path("//test/xts/tools/build/judgePart.py")
-        args = _arguments
-        outputs = [ _archive_testfile ]
-        testonly = true
-      }
-      if (defined(_deps)) {
-        print(_deps)
+    } else if (_build_part == false) {
+      group(target_name) {
+        print("No need to build: ${_part_full_name}")
+        not_needed(invoker, "*")
+        not_needed([
+                     "_deps",
+                     "_arguments",
+                     _archive_testfile,
+                   ])
       }
     }
   } else {
@@ -367,22 +373,43 @@ template("ohos_testsuite_base") {
 template("ohos_testsuite_base_with_filter") {
   if (XTS_SUITETYPE == [] ||
       filter_include(XTS_SUITETYPE, [ invoker.suite_type ]) != []) {
-    # Begin:临时方案：复制hypium到工程路径，hvigor支持ohosTest后可删除
+    # Begin: 临时方案：复制hypium到工程路径，hvigor支持ohosTest后可删除
     if (invoker.suite_type == "hap_static") {
-      _project_dir = rebase_path(".")
-      exec_script(rebase_path("//test/xts/tools/build/copy_hypium_static.sh"),
-                  [ _project_dir ])
+      _cwd = rebase_path(".")
+      _cp_hypium = "${target_name}_cp_hypium"
+      _cp_script = rebase_path("//test/xts/tools/build/copy_hypium_static.sh")
+      _stamp_out_dir = "${root_out_dir}/copy_hypium_static"
+
+      action(_cp_hypium) {
+        testonly = true
+        script = _cp_script
+        args = [
+          _cwd,
+          rebase_path(_stamp_out_dir),
+          _cp_hypium,
+        ]
+        inputs = [ _cp_script ]
+        outputs = [ "${_stamp_out_dir}/${_cp_hypium}.stamp" ]
+      }
     }
 
-    # End  :临时方案：复制hypium到工程路径，hvigor支持ohosTest后可删除
-
     target("ohos_testsuite_base", "${target_name}") {
-      not_needed(invoker, [ invoker.suite_type ])
-      forward_variables_from(invoker, "*")
+      forward_variables_from(invoker, "*", [ "deps" ])
+
+      deps = []
+      if (invoker.suite_type == "hap_static") {
+        deps += [ ":${_cp_hypium}" ]
+      }
+
+      # End: 临时方案：复制hypium到工程路径，hvigor支持ohosTest后可删除
+
+      if (defined(invoker.deps)) {
+        deps += invoker.deps
+      }
     }
   } else {
     group(target_name) {
-      print("[XTS] suite_type mismatch, no need build " + target_name)
+      print("[XTS] suite_type mismatch, no need to build: ${target_name}")
       not_needed(invoker, "*")
     }
   }
@@ -403,24 +430,6 @@ template("ohos_hap_suite") {
   suite_type = "hap_dynamic"
   target("ohos_testsuite_base_with_filter", "${target_name}") {
     forward_variables_from(invoker, "*")
-
-    # auto add HJUnitRunner entry ability and test-framework
-    if (defined(hap_profile)) {
-      # NOTE:: the GN tool disallow source files located in the ${out_dir}
-      # so we put the generated files in the xts dir. remember to REMOVE these.
-      _profile_relative_path = rebase_path(hap_profile, rebase_path(XTS_ROOT))
-      _fixed_profile_path =
-          "${XTS_ROOT}/autogen_apiobjs/${_profile_relative_path}"
-      _fixer_script = rebase_path(
-              "//test/xts/tools/build/adapter/haptest_manifest_fixer.py")
-      exec_script(_fixer_script,
-                  [
-                    "add_entryability",
-                    "--raw_file=" + rebase_path(hap_profile),
-                    "--dest_file=" + rebase_path(_fixed_profile_path),
-                  ])
-      hap_profile = _fixed_profile_path
-    }
 
     if (defined(deps)) {
       deps += [ "//test/xts/tools/hjunit:testkit_harmonyjunitrunner_java" ]
@@ -662,17 +671,17 @@ template("ohos_sh_assist_suite_base") {
     _part_name = invoker.part_name
   }
 
-  precise_build_boolean = true
+  _precise_build = true
   if (precise_xts && filter_include(precise_run,
                                     [
                                       "all",
                                       _part_name,
                                     ]) == []) {
     print("precise_xts is on ,${_part_name} is not on build")
-    precise_build_boolean = false
+    _precise_build = false
   }
 
-  if (precise_build_boolean) {
+  if (_precise_build) {
     action(target_name) {
       forward_variables_from(invoker, "*")
     }
@@ -849,23 +858,23 @@ template("ohos_xts_part_name_filter") {
     if (_subsystem_name == "kernel" || _subsystem_name == "common") {
       _build_part = true
     } else {
-      _part_judge_script = "//test/xts/tools/build/judgePart.py"
-      _script_args = [
-        rebase_path("$preloader_output_dir") + "/parts_config.json",
-        "${_subsystem_name}_${_part_name}",
-        "judgePart",
-      ]
-      _judge_result = exec_script(rebase_path(_part_judge_script),
-                                  _script_args, "trim string")
-      if (_judge_result == "True") {
+      _part_full_name = "${_subsystem_name}_${_part_name}"
+      _parts_config = read_file(
+              rebase_path("${preloader_output_dir}") + "/parts_config.json",
+              "json")
+
+      if (defined(_parts_config[_part_full_name]) ||
+          defined(_parts_config["${_part_full_name}_override"])) {
         _build_part = true
       }
+
+      not_needed([ "_parts_config" ])
     }
   }
 
   if (_build_suite && _build_part) {
     target(invoker.actual_target_type, target_name) {
-      forward_variables_from(invoker, "*", ["actual_target_type"])
+      forward_variables_from(invoker, "*", [ "actual_target_type" ])
     }
   } else {
     group(target_name) {

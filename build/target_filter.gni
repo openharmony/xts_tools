@@ -1,0 +1,100 @@
+# Copyright (c) 2026 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+template("xts_target_filter") {
+  assert(defined(invoker.xts_suite_root_path),
+         "'xts_suite_root_path' is required in ${target_name}")
+  assert(defined(invoker.build_targets), "'build_targets' is required in ${target_name}")
+  assert(defined(invoker.subsystem_conf_path),
+         "'subsystem_conf_path' is required in ${target_name}")
+  _xts_suite_root_path = invoker.xts_suite_root_path
+  _build_targets = invoker.build_targets
+  _subsystem_conf_path = invoker.subsystem_conf_path
+
+  # prepare subsystem candidates
+  _x_subsystems = [
+    "demo",
+    "storage",
+    "arkXtest",
+    "validator",
+    "pcs",
+    "appbuild",
+  ]
+  _subsystem_map = read_file(_subsystem_conf_path, "json")
+
+  # prepare build target candidates
+  _build_tgt_subsystems = []
+  foreach(tgt, _build_targets) {
+    _rel_tgt = string_replace(tgt, "${_xts_suite_root_path}/", "")
+    _path_parts = string_split(_rel_tgt, ":")
+    if (_rel_tgt == _path_parts[0]) {
+      print("[WARN] Malformed build target: ${tgt}")
+    } else {
+      _build_tgt_subsystems += [
+        {
+          target = tgt
+          subsystem = _path_parts[0]
+        },
+      ]
+    }
+    _path_parts = []
+  }
+  print("[XTS] Build target candidates: ${_build_tgt_subsystems}")
+
+  # calc build targets
+  _final_tgts = []
+  _tgt_subsystem = getenv("target_subsystem")
+  if (_tgt_subsystem == "" || _tgt_subsystem == "all") {
+    print("[XTS] No filtering subsystems, default to all available ones.")
+    foreach(s, _build_tgt_subsystems) {
+      if (defined(_subsystem_map[s.subsystem]) ||
+          filter_include(_x_subsystems, [ s.subsystem ]) != []) {
+        _final_tgts += [ s.target ]
+      }
+    }
+  } else {
+    _dest_subsystems = []
+    _src_subsystems = string_split(_tgt_subsystem, ",")
+    foreach(s, _src_subsystems) {
+      if (defined(_subsystem_map[s]) ||
+          filter_include(_x_subsystems, [ s ]) != []) {
+        _dest_subsystems += [ s ]
+      }
+    }
+    print("[XTS] Filtered subsystems: ${_dest_subsystems}")
+
+    foreach(s, _build_tgt_subsystems) {
+      if (filter_include(_dest_subsystems, s.subsystem) != []) {
+        _final_tgts += [ s.target ]
+      }
+    }
+  }
+  print("[XTS] Filtered build targets: ${_final_tgts}")
+
+  not_needed([
+               "_x_subsystems",
+               "_subsystem_map",
+               "_build_targets",
+               _xts_suite_root_path,
+               _subsystem_conf_path,
+             ])
+
+  group(target_name) {
+    testonly = true
+    deps = _final_tgts
+    if (defined(invoker.extra_deps)) {
+      deps += invoker.extra_deps
+    }
+    print("[XTS] Deps for ${target_name}: ${deps}")
+  }
+}
