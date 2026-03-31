@@ -3502,7 +3502,7 @@
         {
             "path": "interface/sdk-js/api/@ohos.settingsLite.d.ts",
             "bundle_name": [
-                "settings_lite"
+                "ui_lite"
             ],
             "build_targets": []
         },
