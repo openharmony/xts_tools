@@ -3367,6 +3367,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.settingsLite.d.ts",
+            "bundle_name": [
+                "ui_lite"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.ComposeListItem.d.ets",
             "bundle_name": [
                 "ace_engine"
