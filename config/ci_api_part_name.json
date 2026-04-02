@@ -9742,6 +9742,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.inputMethodSystemPanelManager.d.ts",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bluetooth.pbap.d.ts",
             "bundle_name": [
                 "bluetooth"
