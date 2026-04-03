@@ -6041,6 +6041,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@internal/component/ets/depth_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/UIPickerComponentModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -10198,6 +10205,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/UIPickerComponentModifier.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/depthComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
