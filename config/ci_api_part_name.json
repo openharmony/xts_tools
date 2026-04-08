@@ -1,7 +1,7 @@
 {
     "sdk-js": [
         {
-            "path": "interface/sdk-js/api/@ohos.arkui.components.ArkContainerReader.d.ts",
+            "path": "interface/sdk-js/api/@ohos.arkui.components.ContainerReader.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
