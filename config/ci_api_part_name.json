@@ -10316,6 +10316,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@internal/component/ets/distortion_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/distortionComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/radio.static.d.ets",
             "bundle_name": [
                 "ace_engine"
