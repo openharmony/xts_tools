@@ -10762,6 +10762,13 @@
                 "graphic_2d"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.hiviewdfx.hiRetrieval.d.ts",
+            "bundle_name": [
+                "hiview"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c": [
