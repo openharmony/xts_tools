@@ -7105,6 +7105,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/graphics3d/SceneBoidsSim.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/bundle/hapModuleInfo.d.ts",
             "bundle_name": [
                 "bundle_framework"
