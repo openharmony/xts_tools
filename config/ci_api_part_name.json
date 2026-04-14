@@ -8925,6 +8925,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/application/InteropAbilityMonitor.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/MissionCallbacks.d.ts",
             "bundle_name": [
                 "ability_runtime"
