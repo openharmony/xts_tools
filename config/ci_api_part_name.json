@@ -10804,6 +10804,181 @@
                 "hiview"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Array.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/ArrayBuffer.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Boolean.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Char.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Class.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Console.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Date.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Double.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Error.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Int.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Json.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Long.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Map.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Math.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/ReflecStaticField.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/ReflectConstructor.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/ReflectInstanceField.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/ReflectInstanceMethod.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/ReflectProxy.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/ReflectStaticMethod.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/RegExp.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Set.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/SparseArray.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/String.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/StringBuilder.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c": [
