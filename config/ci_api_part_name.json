@@ -1638,6 +1638,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.notificationSubscribe.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.bluetoothManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
@@ -2045,6 +2052,13 @@
         },
         {
             "path": "interface/sdk-js/api/@system.notification.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@system.notification.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
@@ -2562,7 +2576,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.notification.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.application.NotificationSubscriberExtensionAbility.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.NotificationSubscriberExtensionAbility.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
@@ -2576,7 +2604,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.NotificationSubscriberExtensionContext.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.notificationExtensionSubscription.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.notificationExtensionSubscription.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
@@ -4446,6 +4488,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.notificationManager.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.notificationManager.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
@@ -9079,7 +9128,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/notification/notificationContent.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/notification/NotificationCommonDef.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/notification/NotificationCommonDef.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
@@ -9093,7 +9156,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/notification/notificationSubscribeInfo.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/notification/notificationUserInput.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/notification/notificationUserInput.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
@@ -9107,7 +9184,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/notification/notificationSubscriber.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/notification/notificationSorting.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/notification/notificationSorting.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
@@ -9121,7 +9212,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/notification/notificationRequest.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/notification/notificationFlags.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/notification/notificationFlags.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
@@ -9135,7 +9240,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/notification/notificationActionButton.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/notification/notificationTemplate.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/notification/notificationTemplate.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
@@ -9149,7 +9268,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/notification/notificationSlot.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/notification/notificationSortingMap.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/notification/notificationSortingMap.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
@@ -9163,6 +9296,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/notification/NotificationExtensionContent.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/notification/NotificationExtensionSubscriptionInfo.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
@@ -9170,7 +9310,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/notification/NotificationExtensionSubscriptionInfo.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/notification/NotificationInfo.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/notification/NotificationInfo.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
@@ -9467,6 +9621,15 @@
         },
         {
             "path": "interface/sdk-js/kits/@kit.NotificationKit.d.ts",
+            "bundle_name": [
+                "distributed_notification_service",
+                "eventhandler",
+                "common_event_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/kits/@kit.NotificationKit.d.ts",
             "bundle_name": [
                 "distributed_notification_service",
                 "eventhandler",
