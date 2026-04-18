@@ -6006,6 +6006,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@internal/component/ets/security_ui_extension_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/dynamic_component.d.ts",
             "bundle_name": [
                 "ace_engine"
