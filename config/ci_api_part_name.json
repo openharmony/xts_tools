@@ -952,6 +952,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.graphics.common2D.d.ts",
+            "bundle_name": [
+                "graphic_2d"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.cloudSyncManager.d.ts",
             "bundle_name": [
                 "dfs_service"
@@ -1093,6 +1100,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.graphics.drawing.d.ts",
+            "bundle_name": [
+                "graphic_2d"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.graphics.drawing.d.ts",
             "bundle_name": [
                 "graphic_2d"
             ],
