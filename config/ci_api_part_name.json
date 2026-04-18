@@ -11444,6 +11444,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/zh-cn/graphic/graphic_2d",
+            "bundle_name": [
+                "graphic_2d"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/hiviewdfx/hiappevent",
             "bundle_name": [
                 "hiappevent"
