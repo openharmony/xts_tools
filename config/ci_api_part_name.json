@@ -11219,6 +11219,13 @@
                 "runtime_core"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Global.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c": [
