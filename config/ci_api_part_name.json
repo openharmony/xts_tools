@@ -11226,6 +11226,13 @@
                 "runtime_core"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/retention.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c": [
