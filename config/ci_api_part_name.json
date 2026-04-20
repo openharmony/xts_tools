@@ -455,6 +455,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.ability.wantConstant.d.ts",
+            "bundle_name": [
+                "ability_base"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.net.socket.d.ts",
             "bundle_name": [
                 "netstack"
@@ -736,6 +743,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.application.Configuration.d.ts",
+            "bundle_name": [
+                "ability_base"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.Configuration.d.ts",
             "bundle_name": [
                 "ability_base"
             ],
@@ -1330,6 +1344,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.wantAgent.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.keyEvent.d.ts",
             "bundle_name": [
                 "input"
@@ -1708,6 +1729,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.abilityDelegatorRegistry.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@system.device.d.ts",
             "bundle_name": [
                 "init"
@@ -2038,6 +2066,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.application.appManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.appManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -2527,6 +2562,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.ConfigurationConstant.d.ts",
+            "bundle_name": [
+                "ability_base"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.resourceschedule.deviceStandby.d.ts",
             "bundle_name": [
                 "device_standby"
@@ -2891,6 +2933,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.missionManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bluetooth.wearDetection.d.ts",
             "bundle_name": [
                 "bluetooth"
@@ -3067,6 +3116,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.application.Want.d.ts",
+            "bundle_name": [
+                "ability_base"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.Want.d.ts",
             "bundle_name": [
                 "ability_base"
             ],
@@ -3836,6 +3892,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.abilityDelegatorRegistry.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.form.formObserver.d.ts",
             "bundle_name": [
                 "form_fwk"
@@ -4110,6 +4173,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.application.abilityManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.abilityManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -4607,6 +4677,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.application.testRunner.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.testRunner.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -8701,6 +8778,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/abilityDelegatorArgs.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AutoFillRect.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -8933,6 +9017,13 @@
         },
         {
             "path": "interface/sdk-js/api/application/shellCmdResult.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/shellCmdResult.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
