@@ -43,6 +43,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.components.ArkLazyWaterFlowLayout.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.components.ArkLazyWaterFlowLayout.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/delete_arkui_label.pydeps",
             "bundle_name": [
                 "sdk"
