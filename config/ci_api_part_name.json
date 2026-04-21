@@ -2156,6 +2156,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.customization.customConfig.d.ts",
+            "bundle_name": [
+                "config_policy"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.UserAuthExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -4635,6 +4642,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.configPolicy.d.ts",
+            "bundle_name": [
+                "config_policy"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.configPolicy.d.ts",
             "bundle_name": [
                 "config_policy"
             ],
