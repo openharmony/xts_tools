@@ -777,6 +777,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.fileio.d.ts",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@system.network.d.ts",
             "bundle_name": [
                 "netmanager_base"
@@ -1169,6 +1176,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.fs.d.ts",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.fs.static.d.ets",
             "bundle_name": [
                 "file_api"
@@ -1324,6 +1338,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.hash.d.ts",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.hash.d.ts",
             "bundle_name": [
                 "file_api"
             ],
@@ -2457,6 +2478,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.statfs.d.ts",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.errorManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -2625,6 +2653,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.statvfs.d.ts",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.nfc.cardEmulation.d.ts",
             "bundle_name": [
                 "nfc"
@@ -2738,6 +2773,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.document.d.ts",
+            "bundle_name": [
+                "user_file_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.document.d.ts",
             "bundle_name": [
                 "user_file_service"
             ],
@@ -3829,6 +3871,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@system.file.d.ts",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.filemanagement.userFileManager.d.ts",
             "bundle_name": [
                 "media_library"
@@ -4096,6 +4145,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.environment.d.ts",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.environment.d.ts",
             "bundle_name": [
                 "file_api"
             ],
@@ -4782,6 +4838,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.securityLabel.d.ts",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.securityLabel.d.ts",
             "bundle_name": [
                 "file_api"
             ],
