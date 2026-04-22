@@ -714,7 +714,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.fileExtensionInfo.d.ts",
+            "bundle_name": [
+                "user_file_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.cloudDiskManager.d.ts",
+            "bundle_name": [
+                "user_file_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.cloudDiskManager.d.ts",
             "bundle_name": [
                 "user_file_service"
             ],
@@ -1205,6 +1219,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.fs.d.ets",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.fs.d.ets",
             "bundle_name": [
                 "file_api"
             ],
@@ -1751,6 +1772,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.fileAccess.d.ts",
+            "bundle_name": [
+                "user_file_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.fileAccess.d.ts",
             "bundle_name": [
                 "user_file_service"
             ],
@@ -2366,6 +2394,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.trash.d.ts",
+            "bundle_name": [
+                "user_file_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.drm.d.ts",
             "bundle_name": [
                 "drm_framework"
@@ -2542,6 +2577,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.picker.d.ts",
+            "bundle_name": [
+                "user_file_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.picker.d.ts",
             "bundle_name": [
                 "user_file_service"
             ],
@@ -3885,6 +3927,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.volumeManager.d.ts",
+            "bundle_name": [
+                "storage_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.encryptedVolumeManager.d.ts",
             "bundle_name": [
                 "storage_service"
@@ -4032,6 +4081,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.storageStatistics.d.ts",
+            "bundle_name": [
+                "storage_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.inputDeviceCooperate.d.ts",
             "bundle_name": [
                 "input"
@@ -4089,6 +4145,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.recent.d.ts",
+            "bundle_name": [
+                "user_file_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.recent.d.ts",
             "bundle_name": [
                 "user_file_service"
             ],
@@ -4431,6 +4494,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.keyManager.d.ts",
+            "bundle_name": [
+                "storage_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.TreeView.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -4467,6 +4537,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.distributedHardware.deviceManager.d.ts",
+            "bundle_name": [
+                "device_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.distributedHardware.deviceManager.d.ts",
             "bundle_name": [
                 "device_manager"
             ],
@@ -4789,6 +4866,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.distributedDeviceManager.d.ts",
+            "bundle_name": [
+                "device_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.distributedDeviceManager.d.ts",
             "bundle_name": [
                 "device_manager"
             ],
@@ -11661,6 +11745,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/zh-cn/distributedhardware/device_manager",
+            "bundle_name": [
+                "device_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/drivers/external_device_manager/base",
             "bundle_name": [
                 "external_device_manager"
@@ -11697,6 +11788,13 @@
         },
         {
             "path": "interface/sdk_c/filemanagement/cloud_disk_manager",
+            "bundle_name": [
+                "dfs_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/filemanagement/cloud_disk_manager",
             "bundle_name": [
                 "dfs_service"
             ],
