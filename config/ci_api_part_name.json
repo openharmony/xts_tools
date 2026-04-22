@@ -1736,14 +1736,14 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/zh-cn/api/@ohos.file.fileAccess.d.ts",
+            "path": "interface/sdk-js/api/@ohos.file.fileAccess.d.ts",
             "bundle_name": [
                 "user_file_service"
             ],
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.file.fileAccess.d.ts",
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.fileAccess.d.ts",
             "bundle_name": [
                 "user_file_service"
             ],
