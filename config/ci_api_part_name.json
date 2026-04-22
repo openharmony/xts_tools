@@ -2702,6 +2702,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.certManagerDialog.d.ts",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.InputMethodExtensionContext.d.ts",
             "bundle_name": [
                 "imf"
