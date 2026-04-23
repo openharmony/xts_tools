@@ -3255,6 +3255,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.update.d.ts",
+            "bundle_name": [
+                "update_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.util.List.d.ts",
             "bundle_name": [
                 "ets_utils"
