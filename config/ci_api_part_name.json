@@ -4613,6 +4613,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.batteryInfo.static.d.ets",
+            "bundle_name": [
+                "battery_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.FenceExtensionAbility.d.ts",
             "bundle_name": [
                 "location"
