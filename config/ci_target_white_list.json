@@ -13,6 +13,7 @@
         "bundle_name": "vk-gl-cts",
         "add_bundle": [],
         "add_target": [
+          "test/xts/acts/graphic/gltest:cpOpenGL",
           "test/xts/acts/graphic/vkgl:cpvkgl",
           "test/xts/acts/graphic/vktest:cpVulkan"
         ]
@@ -22,6 +23,7 @@
         "bundle_name": "glslang",
         "add_bundle": [],
         "add_target": [
+          "test/xts/acts/graphic/gltest:cpOpenGL",
           "test/xts/acts/graphic/vkgl:cpvkgl",
           "test/xts/acts/graphic/vktest:cpVulkan"
         ]
@@ -31,6 +33,7 @@
         "bundle_name": "",
         "add_bundle": [],
         "add_target": [
+          "test/xts/acts/graphic/gltest:cpOpenGL",
           "test/xts/acts/graphic/vkgl:cpvkgl",
           "test/xts/acts/graphic/vktest:cpVulkan"
         ]
@@ -40,6 +43,7 @@
         "bundle_name": "spirv-tools",
         "add_bundle": [],
         "add_target": [
+          "test/xts/acts/graphic/gltest:cpOpenGL",
           "test/xts/acts/graphic/vkgl:cpvkgl",
           "test/xts/acts/graphic/vktest:cpVulkan"
         ]
