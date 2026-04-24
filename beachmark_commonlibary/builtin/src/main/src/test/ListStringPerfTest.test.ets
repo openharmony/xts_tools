@@ -24,8 +24,8 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../../../../hypium/index";
-import performance from '../Performance.util';
+} from "../../../hypium/index";
+import performance from './Performance.util';
 
 class MockListString implements containers.ListString {
   pushFront(e: String): void {}

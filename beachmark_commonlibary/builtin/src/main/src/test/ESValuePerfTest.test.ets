@@ -24,8 +24,8 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../../../../hypium/index";
-import performance from '../Performance.util';
+} from "../../../hypium/index";
+import performance from './Performance.util';
 export default function ESValuePerfTest(): void {
   describe('ESValuePerfTest', () => {
     const BASE_COUNT = 50000;
