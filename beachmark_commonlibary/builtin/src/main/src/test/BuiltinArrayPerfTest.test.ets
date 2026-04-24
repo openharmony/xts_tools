@@ -3704,7 +3704,328 @@ export default function BuiltinArrayPerfTest() {
             'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
         expect(result.length).assertEqual(3);
     })
-	
+
+    it('PerformanceTest_BuiltinArrayTest_24000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+        let result = new FixedArray<float>(4);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = toSpliced(fixArray, 1, 2, 8.8 as float);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[1]).assertClose(8.8, 0.01);
+    })
+
+
+
+    it('PerformanceTest_BuiltinArrayTest_24100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+        let result = new FixedArray<float>(3);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = toSpliced(fixArray, 1, 2);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[1]).assertClose(4.4, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_24200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+        let result: boolean = false;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = includes(fixArray, 3.3 as float);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result).assertEqual(true);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_24300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+        let result: int = -1;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = indexOf(fixArray, 4.4 as float);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result).assertEqual(3);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_24400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+        let result = new FixedArray<float>(3);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = toSorted(fixArray);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[0]).assertClose(1.1, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_24500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+        let result = new FixedArray<float>(3);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = toSorted(fixArray, (a: float, b: float): int => { return b > a ? 1 : -1; });
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[0]).assertClose(3.3, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_24600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+        let result = new FixedArray<float>(3);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = reverse(fixArray);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[0]).assertClose(3.3, 2.2);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_24700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+        let result = new FixedArray<float>(3);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = toReversed(fixArray);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[0]).assertClose(3.3, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_24800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+        let result = new FixedArray<float>(3);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = with(fixArray, 1, 9.9 as float);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[1]).assertClose(9.9, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_24900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+        let result = values(fixArray);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = values(fixArray);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result.next().value).assertClose(1.1, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_25000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+        let fixArray2: FixedArray<float> = [1.12 as float, 2.22 as float, 3.32 as float];
+
+        let result = entries(fixArray2);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = entries(fixArray);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result.next().value![0]).assertEqual(0);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_25100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+        let result = new FixedArray<float>(3);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = map(fixArray, (value: float) => value * 2.0 as float);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[0]).assertClose(2.2, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_25200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+        let result: float = 0.0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = reduceRight(fixArray, (previousValue: float, currentValue: float) => previousValue + currentValue);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result).assertClose(6.6, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_25300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+        let result = new FixedArray<float>(3);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = filter(fixArray, (v: float) => v > 2.2);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[0]).assertClose(3.3, 1);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_25400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+        let fixArray2: FixedArray<float> = [4.4 as float, 5.5 as float, 6.6 as float];
+        let result = new FixedArray<float>(6);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = concat(fixArray, fixArray2);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[3]).assertClose(4.4, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_25500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+        let result = new FixedArray<float>(5);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = concat(fixArray, [4.4 as float, 5.5 as float] as FixedArray<float>);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[3]).assertClose(4.4, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_25600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+        let result = new FixedArray<float>(3);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = sort(fixArray, (a: float, b: float): int => { return a > b ? 1 : -1; });
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[0]).assertClose(1.1, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_25700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+        let result = new FixedArray<float>(3);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = sort(fixArray);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[0]).assertClose(1.1, 0.01);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_25800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+        let result = keys(fixArray);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = keys(fixArray);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result.next().value).assertEqual(0);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_25900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<double> = [1.11, 2.22, 3.33];
+        let result: Double = 0.0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = at(fixArray, 1);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result).assertClose(2.22, 0.001);
+    })
+
+    it('PerformanceTest_BuiltinArrayTest_26000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fixArray: FixedArray<double> = [1.11, 2.22, 3.33, 4.44, 5.55];
+        let result = new FixedArray<double>(5);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            result = copyWithin(fixArray, 0);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
+            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        expect(result[0]).assertClose(1.11, 0.001);
+    })
+
+    
 
     })
 }
