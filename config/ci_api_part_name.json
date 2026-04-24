@@ -1141,6 +1141,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.certManager.d.ts",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.telephony.data.d.ts",
             "bundle_name": [
                 "cellular_data"
