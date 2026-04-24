@@ -55,44 +55,129 @@ import BigIntPerfTest from './BigIntPerfTest.test';
 import BootRuntimeLinkerPerfTest from './BootRuntimeLinkerPerfTest.test';
 
 
+//------------------------------------containers----------------------------------------------------
+import ArrayAsListIntPerfTest from './ArrayAsListIntPerfTest.test';
+import ArrayAsListStringPerfTest from './ArrayAsListStringPerfTest.test';
+import ArrayBlockingQueuePerfTest from './ArrayBlockingQueuePerfTest.test';
+import BlockingQueuePerfTest from './BlockingQueuePerfTest.test';
+import ConcurrentHashMapPerfTest from './ConcurrentHashMapPerfTest.test';
+import ConcurrentSetPerfTest from'./ConcurrentSetPerfTest.test.ets';
+import LinkedBlockingQueuePerfTest from'./LinkedBlockingQueuePerfTest.test.ets';
+import ListIntPerfTest from'./ListIntPerfTest.test.ets';
+import ListObjectPerfTest from'./ListObjectPerfTest.test.ets';
+import ListStringPerfTest from'./ListStringPerfTest.test.ets';
+import UndefinableObjectArrayPerfTest from'./UndefinableObjectArrayPerfTest.test.ets';
+import UndefinableStringArrayPerfTest from'./UndefinableStringArrayPerfTest.test.ets';
+import WeakMapPerfTest from'./WeakMapPerfTest.test.ets';
+import WeakSetPerfTest from'./WeakSetPerfTest.test.ets';
+
+
+//-------------------------------------interop---------------------------------------------------------
+import ESErrorPerfTest from './ESErrorPerfTest.test';
+import ESObjectPerfTest from './ESObjectPerfTest.test';
+import InteropTransferHelperPerfTest from './InteropTransferHelperPerfTest.test';
+import JSRuntimePerfTest from './JSRuntimePerfTest.test';
+import JSValuePerfTest from './JSValuePerfTest.test';
+import NoContextInteropErrorPerfTest from './NoContextInteropErrorPerfTest.test';
+import PromiseInteropPerfTest from './PromiseInteropPerfTest.test';
+
+import ESValuePerfTest from './ESValuePerfTest.test';
+import InteropContextPerfTest from './InteropContextPerfTest.test';
+import InteropSerializeHelperPerfTest from './InteropSerializeHelperPerfTest.test';
+
+
+
+
+//-------------------------------------testing---------------------------------------------
+import ArktestPerfTest from './ArktestPerfTest.test';
+
+//--------------------------------------math---------------------------------------------------
+import MathPerfTest from './MathPerfTest.test';
+import ConstsPerfTest from './ConstsPerfTest.test';
+
+//--------------------------------------time-----------------------------------------------------------
+import ChronoPerfTest from './ChronoPerfTest.test';
+
+
+
 export default function testsuite() {
-     ArrayPerfTest();
-     ArrayLikePerfTest();
-     BooleanPerfTest();
-     BoxPerfTest();
-     AbcFilePerfTest();
-     BuiltinArrayPerfTest();
-     BuiltinArrayAlgorithmsPerfTest();
-     AbcRuntimeLinkerPerfTest()
-     ArrayBufferPerfTest()
-     BaseEnumPerfTest()
-     BigIntPerfTest()
-     BootRuntimeLinkerPerfTest()
-     BytePerfTest();
-     BuiltinArrayPerfTest1() 
-     BuiltinArraySortPerfTest()
-     CharPerfTest();
-     ClassPerfTest();
-     ComparablePerfTest();
-     ConcatArrayPerfTest();
-     ConsolePerfTest();
-     ConsoleHelperPerfTest();
-     CoroutinePerfTest();
-     DataViewPerfTest();
-     DatePerfTest();
-     DoublePerfTest();
-     EAWorkerPerfTest();
-     ErrorHandlerPerfTest();
-     ErrorsPerfTest();
-     ExceptionsPerfTest();
-     EnumConstantPerfTest()
-     FieldPerfTest()
-     FinalizationRegistryPerfTest()
-     FloatPertTest();
-     FunctionPerfTest();
-     GCPerfTest();
-     IntlPerfTest();
-     IntPerfTest()
-     IteratorPerfTest();
+  ArrayPerfTest();
+  ArrayLikePerfTest();
+  BooleanPerfTest();
+  BoxPerfTest();
+  AbcFilePerfTest();
+  BuiltinArrayPerfTest();
+  BuiltinArrayAlgorithmsPerfTest();
+  AbcRuntimeLinkerPerfTest()
+  ArrayBufferPerfTest()
+  BaseEnumPerfTest()
+  BigIntPerfTest()
+  BootRuntimeLinkerPerfTest()
+  BytePerfTest();
+  BuiltinArrayPerfTest1() 
+  BuiltinArraySortPerfTest()
+  CharPerfTest();
+  ClassPerfTest();
+  ComparablePerfTest();
+  ConcatArrayPerfTest();
+  ConsolePerfTest();
+  ConsoleHelperPerfTest();
+  CoroutinePerfTest();
+  DataViewPerfTest();
+  DatePerfTest();
+  DoublePerfTest();
+  EAWorkerPerfTest();
+  ErrorHandlerPerfTest();
+  ErrorsPerfTest();
+  ExceptionsPerfTest();
+  EnumConstantPerfTest()
+  FieldPerfTest()
+  FinalizationRegistryPerfTest()
+  FloatPertTest();
+  FunctionPerfTest();
+  GCPerfTest();
+  IntlPerfTest();
+  IntPerfTest()
+  IteratorPerfTest();
+//==========================containers===========================
+  ArrayAsListIntPerfTest();
+  ArrayAsListStringPerfTest();
+  ArrayBlockingQueuePerfTest();
+  BlockingQueuePerfTest();
+  ConcurrentHashMapPerfTest();
+  ConcurrentSetPerfTest();
+  LinkedBlockingQueuePerfTest();
+  ListIntPerfTest();
+  ListObjectPerfTest();
+  ListStringPerfTest();
+  UndefinableObjectArrayPerfTest();
+  UndefinableStringArrayPerfTest();
+  WeakMapPerfTest();
+  WeakSetPerfTest();
+
+
+//=============================testing============================
+  ArktestPerfTest();
+
+//============================interop===============================
+  ESErrorPerfTest();
+  ESObjectPerfTest();
+  InteropTransferHelperPerfTest();
+  JSRuntimePerfTest();
+  JSValuePerfTest();
+  NoContextInteropErrorPerfTest();
+  PromiseInteropPerfTest();
+
+  ESValuePerfTest();
+  InteropContextPerfTest();
+  InteropSerializeHelperPerfTest();
+
+//==============================math==============================
+  MathPerfTest();
+
+  ConstsPerfTest();
+
+//==============================time==============================
+  ChronoPerfTest();
 
 }
