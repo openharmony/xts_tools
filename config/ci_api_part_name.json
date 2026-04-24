@@ -2471,6 +2471,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.logLibrary.d.ts",
+            "bundle_name": [
+                "hiview"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundle.overlay.d.ts",
             "bundle_name": [
                 "bundle_framework"
