@@ -74,7 +74,7 @@ template("xts_target_filter") {
     print("[XTS] Filtered subsystems: ${_dest_subsystems}")
 
     foreach(s, _build_tgt_subsystems) {
-      if (filter_include(_dest_subsystems, s.subsystem) != []) {
+      if (filter_include(_dest_subsystems, [ s.subsystem ]) != []) {
         _final_tgts += [ s.target ]
       }
     }
