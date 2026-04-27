@@ -1624,6 +1624,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.web.webview.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.web.webview.static.d.ets",
             "bundle_name": [
                 "webview"
@@ -6329,6 +6336,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/web.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/web.d.ts",
             "bundle_name": [
                 "webview"
             ],
