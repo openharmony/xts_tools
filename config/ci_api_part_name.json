@@ -43,13 +43,6 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/api/@ohos.arkui.WithEnv.d.ts",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": []
-        },
-        {
             "path": "interface/sdk-js/delete_arkui_label.pydeps",
             "bundle_name": [
                 "sdk"
@@ -519,6 +512,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.theme.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.WithEnv.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
