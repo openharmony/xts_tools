@@ -5061,7 +5061,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.print.d.ts",
+            "bundle_name": [
+                "print_fwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.scan.d.ets",
+            "bundle_name": [
+                "print_fwk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.scan.d.ts",
             "bundle_name": [
                 "print_fwk"
             ],
@@ -11609,6 +11623,17 @@
         },
         {
             "path": "interface/sdk_c/BasicServicesKit",
+            "bundle_name": [
+                "os_account",
+                "common_event_service",
+                "time_service",
+                "print_fwk",
+                "battery_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/BasicServicesKit",
             "bundle_name": [
                 "os_account",
                 "common_event_service",
