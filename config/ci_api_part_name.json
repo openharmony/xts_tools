@@ -1666,6 +1666,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.sendableResourceManager.d.ets",
+            "bundle_name": [
+                "resource_management"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.camera.d.ts",
             "bundle_name": [
                 "camera_framework"
@@ -2751,7 +2758,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.resourceManager.d.ts",
+            "bundle_name": [
+                "resource_management"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.fontManager.d.ts",
+            "bundle_name": [
+                "font_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.fontManager.d.ts",
             "bundle_name": [
                 "font_manager"
             ],
@@ -8288,6 +8309,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/global/rawFileDescriptor.d.ts",
+            "bundle_name": [
+                "resource_management"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/global/sendableResource.d.ets",
             "bundle_name": [
                 "resource_management"
@@ -8295,7 +8323,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/global/sendableResource.d.ets",
+            "bundle_name": [
+                "resource_management"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/global/resource.d.ts",
+            "bundle_name": [
+                "resource_management"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/global/resource.d.ts",
             "bundle_name": [
                 "resource_management"
             ],
