@@ -3631,7 +3631,7 @@
                 "bundle_framework"
             ],
             "build_targets": []
-        }
+        },
         {
             "path": "interface/sdk-js/api/@ohos.bundle.launcherBundleManager.d.ts",
             "bundle_name": [
