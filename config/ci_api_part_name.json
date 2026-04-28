@@ -2016,6 +2016,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@system.device.d.ts",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.graphics.colorSpaceManager.d.ts",
             "bundle_name": [
                 "graphic_2d"
@@ -2227,6 +2234,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.systemParameterEnhance.d.ts",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.systemParameterEnhance.d.ts",
             "bundle_name": [
                 "init"
             ],
@@ -2919,6 +2933,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.systemparameter.d.ts",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.privacyManager.d.ts",
             "bundle_name": [
                 "access_token"
@@ -3500,6 +3521,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.deviceInfo.d.ts",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.deviceInfo.d.ets",
             "bundle_name": [
                 "init"
@@ -3508,6 +3536,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.deviceInfo.static.d.ets",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.deviceInfo.static.d.ets",
             "bundle_name": [
                 "init"
             ],
