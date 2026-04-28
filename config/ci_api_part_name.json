@@ -2996,6 +2996,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.busManager.serial.d.ts",
+            "bundle_name": [
+                "serial_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.telephony.radio.d.ts",
             "bundle_name": [
                 "core_service"
@@ -9958,6 +9965,7 @@
                 "thermal_manager",
                 "update_service",
                 "usb_manager",
+                "serial_manager",
                 "wallpaper_mgr",
                 "bundle_framework",
                 "zlib",
