@@ -1841,6 +1841,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.hilog.d.ts",
+            "bundle_name": [
+                "hilog"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.UIAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
