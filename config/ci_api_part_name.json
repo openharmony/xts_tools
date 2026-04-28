@@ -350,7 +350,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.UIExtensionContentSession.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.ChildProcessOptions.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.ChildProcessOptions.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -455,7 +469,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.abilityManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.CompletionHandler.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.CompletionHandler.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -526,6 +554,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.ShareExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.ShareExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -630,7 +665,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.EmbeddableUIAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.Ability.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.Ability.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -798,6 +847,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.appstartup.StartupConfigEntry.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.fileio.d.ts",
             "bundle_name": [
                 "file_api"
@@ -931,6 +987,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.appManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.hyperSnapManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -945,6 +1008,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.wantConstant.d.ts",
+            "bundle_name": [
+                "ability_base"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.dialogRequest.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -952,7 +1022,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.dialogRequest.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.ActionExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.ActionExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -988,6 +1072,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.application.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.application.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -1065,6 +1156,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.Configuration.d.ts",
+            "bundle_name": [
+                "ability_base"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.Configuration.d.ts",
             "bundle_name": [
                 "ability_base"
             ],
@@ -1372,6 +1470,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.UIServiceExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.inputEvent.d.ts",
             "bundle_name": [
                 "input"
@@ -1442,6 +1547,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.missionManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.componentSnapshot.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -1464,6 +1576,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.EnvironmentCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.EnvironmentCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -1555,6 +1674,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.ability.particleAbility.d.ts",
+            "bundle_name": [
+                "background_task_mgr"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.ability.particleAbility.d.ts",
             "bundle_name": [
                 "background_task_mgr"
             ],
@@ -1694,6 +1820,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.UIAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.bundleManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
@@ -1709,6 +1842,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.StartOptions.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.StartOptions.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -1744,6 +1884,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.Want.d.ts",
+            "bundle_name": [
+                "ability_base"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.Want.d.ts",
             "bundle_name": [
                 "ability_base"
             ],
@@ -1800,6 +1947,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.ChildProcessArgs.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.ChildProcessArgs.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -1863,6 +2017,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.AtomicServiceOptions.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.AtomicServiceOptions.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -1946,6 +2107,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.ConfigurationConstant.d.ts",
+            "bundle_name": [
+                "ability_base"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.systemTimer.d.ts",
             "bundle_name": [
                 "time_service"
@@ -1954,6 +2122,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.ability.ability.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.ability.ability.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -2051,6 +2226,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.autoStartupManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.accessibility.d.ts",
             "bundle_name": [
                 "accessibility"
@@ -2142,6 +2324,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.ability.featureAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.runningLock.d.ts",
             "bundle_name": [
                 "power_manager"
@@ -2226,7 +2415,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.InsightIntentContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.InsightIntentDecorator.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.InsightIntentDecorator.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -2240,7 +2443,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.InsightIntentEntryExecutor.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.appstartup.startupManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.appstartup.startupManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -2289,6 +2506,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.common.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.form.formInfo.d.ts",
             "bundle_name": [
                 "form_fwk"
@@ -2310,7 +2534,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.insightIntentDriver.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.insightIntentProvider.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.insightIntentProvider.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -2325,6 +2563,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.verticalPanelManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.verticalPanelManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -2430,6 +2675,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.UIExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.UIExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -2738,6 +2990,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.AbilityStage.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.AbilityStage.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -3171,6 +3430,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.EmbeddedUIExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundle.innerBundleManager.d.ts",
             "bundle_name": [
                 "bundle_framework"
@@ -3220,6 +3486,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.insightIntent.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.dataAbility.d.ts",
             "bundle_name": [
                 "data_share"
@@ -3249,6 +3522,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.dialogSession.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.dialogSession.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -3332,6 +3612,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.AutoFillExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.zlib.d.ts",
             "bundle_name": [
                 "bundle_framework"
@@ -3360,7 +3647,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.AbilityLifecycleCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.InteropAbilityLifecycleCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.InteropAbilityLifecycleCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -3465,6 +3766,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.InsightIntentExecutor.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.atomicservice.AtomicServiceNavigation.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -3528,6 +3836,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.sendableContextManager.d.ets",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.net.webSocket.d.ts",
             "bundle_name": [
                 "netstack"
@@ -3550,6 +3865,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.appstartup.StartupListener.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.appstartup.StartupListener.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -3801,6 +4123,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.childProcessManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.settings.d.ts",
             "bundle_name": [
                 "settings"
@@ -3948,7 +4277,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.wantAgent.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.ExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.ExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -4109,6 +4452,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.ChildProcess.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.storageStatistics.d.ts",
             "bundle_name": [
                 "storage_service"
@@ -4249,6 +4599,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.ability.dataUriUtils.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.hiTraceChain.d.ts",
             "bundle_name": [
                 "hitrace"
@@ -4257,6 +4614,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.ability.errorCode.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.ability.errorCode.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -4389,6 +4753,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.ServiceExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.adminManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
@@ -4501,6 +4872,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.OpenLinkOptions.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.distributedBundle.d.ts",
             "bundle_name": [
                 "distributed_bundle_framework"
@@ -4592,6 +4970,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.uriPermissionManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.uniformDataStruct.d.ts",
             "bundle_name": [
                 "udmf"
@@ -4669,6 +5054,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.quickFixManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.xml.d.ts",
             "bundle_name": [
                 "ets_utils"
@@ -4677,6 +5069,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.autoFillManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.autoFillManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -4760,6 +5159,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.ApplicationStateChangeCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.performanceMonitor.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -4831,6 +5237,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.AbilityConstant.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.AbilityConstant.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -5033,6 +5446,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.appstartup.StartupTask.d.ets",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.geolocation.d.ts",
             "bundle_name": [
                 "location"
@@ -5055,6 +5475,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.contextConstant.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.contextConstant.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -5181,6 +5608,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.appstartup.StartupConfig.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.appstartup.StartupConfig.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -7777,7 +8211,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/ability/want.d.ts",
+            "bundle_name": [
+                "ability_base"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/ability/abilityResult.d.ts",
+            "bundle_name": [
+                "ability_base"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/ability/abilityResult.d.ts",
             "bundle_name": [
                 "ability_base"
             ],
@@ -7791,7 +8239,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/ability/connectOptions.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/ability/dataAbilityHelper.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/ability/dataAbilityHelper.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -7805,6 +8267,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/ability/dataAbilityResult.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/ability/dataAbilityOperation.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -7812,7 +8281,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/ability/dataAbilityOperation.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/ability/startAbilityParameter.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/ability/startAbilityParameter.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -7840,7 +8323,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/wantAgent/triggerInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/wantAgent/wantAgentInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/wantAgent/wantAgentInfo.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -7854,6 +8351,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/app/processInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/app/appVersionInfo.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -7861,7 +8365,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/app/appVersionInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/app/context.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/app/context.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -8988,6 +9506,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/EventHub.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/ContinueDeviceInfo.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -9002,7 +9527,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/PageNodeInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/ProcessRunningInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/ProcessRunningInfo.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9030,6 +9569,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/ExtensionRunningInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/ProcessInformation.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -9037,7 +9583,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/ProcessInformation.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/CustomData.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/CustomData.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9058,7 +9618,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/abilityDelegatorArgs.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AutoFillRect.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AutoFillRect.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9072,7 +9646,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AbilityStageMonitor.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/UIServiceExtensionConnectCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/UIServiceExtensionConnectCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9086,7 +9674,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/ExtensionContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AutoFillType.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AutoFillType.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9100,7 +9702,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AutoFillTriggerType.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AppForegroundStateObserver.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AppForegroundStateObserver.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9114,7 +9730,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AbilityStartCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AbilityForegroundStateObserver.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AbilityForegroundStateObserver.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9135,7 +9765,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/MissionListener.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/MultiAppMode.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/MultiAppMode.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9149,7 +9793,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AutoStartupInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AutoStartupCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AutoStartupCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9177,7 +9835,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AbilityRunningInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AbilityFirstFrameStateData.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AbilityFirstFrameStateData.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9191,7 +9863,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/UIExtensionContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/ApplicationStateObserver.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/ApplicationStateObserver.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9219,7 +9905,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AutoFillRequest.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/ApplicationContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/ApplicationContext.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9233,6 +9933,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/Context.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/BaseContext.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -9240,7 +9947,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/BaseContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/ProcessData.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/ProcessData.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9261,7 +9982,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AbilityStageContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/UIServiceExtensionContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/UIServiceExtensionContext.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9289,6 +10024,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/RunningMultiInstanceInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/shellCmdResult.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -9310,7 +10052,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/RunningAppClone.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/ViewData.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/ViewData.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9324,7 +10080,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/RunningMultiAppInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AbilityFirstFrameStateObserver.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AbilityFirstFrameStateObserver.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9345,7 +10115,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AbilityStateData.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AutoFillExtensionContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AutoFillExtensionContext.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9380,7 +10164,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/UIAbilityContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AbilityMonitor.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AbilityMonitor.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9422,6 +10220,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/MissionSnapshot.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/LoopObserver.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -9436,7 +10241,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/UIServiceProxy.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AutoFillPopupConfig.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AutoFillPopupConfig.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9450,7 +10269,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AbilityDelegator.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/MissionInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/MissionInfo.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -9500,6 +10333,13 @@
         },
         {
             "path": "interface/sdk-js/api/application/SendableContext.d.ets",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/SendableContext.d.ets",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -10318,7 +11158,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.AppServiceExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AppServiceExtensionContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AppServiceExtensionContext.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -10346,7 +11200,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.kioskManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/KioskStatus.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/KioskStatus.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -10374,7 +11242,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.CompletionHandlerForAtomicService.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.CompletionHandlerForAbilityStartCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.CompletionHandlerForAbilityStartCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
