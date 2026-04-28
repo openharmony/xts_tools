@@ -11234,6 +11234,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/zh-cn/BasicServicesKit",
+            "bundle_name": [
+                "common_event_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/ConnectivityKit/bluetooth",
             "bundle_name": [
                 "bluetooth"
