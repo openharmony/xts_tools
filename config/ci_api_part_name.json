@@ -3451,6 +3451,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.bundle.skillManager.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/bundleManager/SkillInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.security.cryptoFramework.d.ts",
             "bundle_name": [
                 "crypto_framework"
