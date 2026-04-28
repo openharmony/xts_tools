@@ -1183,6 +1183,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.hiSysEvent.d.ts",
+            "bundle_name": [
+                "hisysevent"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.rpc.d.ts",
             "bundle_name": [
                 "ipc"
