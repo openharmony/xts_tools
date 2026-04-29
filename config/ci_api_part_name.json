@@ -3717,6 +3717,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.zlib.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundle.launcherBundleManager.d.ts",
             "bundle_name": [
                 "bundle_framework"
