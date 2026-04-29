@@ -5075,7 +5075,7 @@
             "build_targets": []
         },
         {
-            "path": "interface/sdk-js/zh-cn/api/@ohos.scan.d.ts",
+            "path": "interface/sdk-js/zh-cn/api/@ohos.scan.d.ets",
             "bundle_name": [
                 "print_fwk"
             ],
