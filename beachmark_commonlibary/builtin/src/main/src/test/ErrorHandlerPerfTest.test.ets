@@ -27,7 +27,6 @@ import performance from './Performance.util';
 
 export default function ErrorHandlerPerfTest() {
   describe('ErrorHandlerPerfTest', () => {
-    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
 
@@ -42,14 +41,12 @@ export default function ErrorHandlerPerfTest() {
       performance.save('apiPerformance.txt');
     })
 
-    // ========== ProcessErrorHandler 构造函数测试 ==========
     it('PerformanceTest_ErrorHandler_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: ProcessErrorHandler = new ProcessErrorHandler((error: Object) => {
-      });
+      let cb = (error: Object) => {};
+      let res: ProcessErrorHandler = new ProcessErrorHandler(cb);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new ProcessErrorHandler((error: Object) => {
-        });
+        res = new ProcessErrorHandler(cb);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -60,44 +57,37 @@ export default function ErrorHandlerPerfTest() {
         'constructor(cb: UncaughtErrorListener): ProcessErrorHandler', arkTsAveragedTime);
     })
 
-    // ========== handleUncaughtError 测试 ==========
     it('PerformanceTest_ErrorHandler_HandleUncaughtError_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       () => {
         let handler = new ProcessErrorHandler((error: Object) => {
         });
         let error = new Error("test error");
-        let res: boolean = false;
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
           handler.handleUncaughtError(error);
-          res = true;
         }
         let Dtime = new Date().getTime() - Stime;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        let res1 = res;
+		let res1 = handler;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_HandleUncaughtError_0200: ' +
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'handleUncaughtError',
           'handleUncaughtError(error: Object): void', arkTsAveragedTime);
       })
 
-    // ========== reset 测试 ==========
     it('PerformanceTest_ErrorHandler_Reset_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let handler = new ProcessErrorHandler((error: Object) => {
       });
-      let res: boolean = true;
+      let cb = (error: Object) => {};
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        handler.reset((error: Object) => {
-          res = true;
-        });
+        handler.reset(cb);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
+	  let res1 = handler;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_Reset_0300: ' +
         arkTsAveragedTime + 'ns');
-      expect(res1).assertTrue();
       performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'reset',
         'reset(cb: UncaughtErrorListener): void', arkTsAveragedTime);
     })

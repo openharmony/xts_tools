@@ -26,6 +26,7 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
+import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 // 自定义测试类
 class TestClass {
@@ -65,7 +66,7 @@ class TestClassWithInterface implements TestInterface {
   interfaceMethod(): void { }
 }
 
-let str = '';
+
 
 export default function ClassPerfTest() {
   describe('ClassPerfTest', () => {
@@ -84,12 +85,12 @@ export default function ClassPerfTest() {
       performance.save('apiPerformance.txt');
     })
 
-    // ========== 静态方法测试 ==========
     it('PerformanceTest_Class_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: Class = Class.of(new TestClass());
+      let obj: Object = new TestClass();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Class.of(new TestClass());
+        res = Class.of(obj);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -142,7 +143,6 @@ export default function ClassPerfTest() {
         'static ofCaller(): Class | undefined', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getName ==========
     it('PerformanceTest_Class_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: string = '';
@@ -158,7 +158,6 @@ export default function ClassPerfTest() {
         'getName(): string', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getSuper ==========
     it('PerformanceTest_Class_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new SubTestClass());
       let res: Class | undefined = cls.getSuper();
@@ -174,7 +173,6 @@ export default function ClassPerfTest() {
         'getSuper(): Class | undefined', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - isSubtypeOf ==========
     it('PerformanceTest_Class_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let subCls: Class = Class.of(new SubTestClass());
       let parentCls: Class = Class.of(new TestClass());
@@ -191,7 +189,6 @@ export default function ClassPerfTest() {
         'isSubtypeOf(other: Class): boolean', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getLinker ==========
     it('PerformanceTest_Class_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: RuntimeLinker = cls.getLinker();
@@ -207,7 +204,6 @@ export default function ClassPerfTest() {
         'getLinker(): RuntimeLinker', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - isEnum ==========
     it('PerformanceTest_Class_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: boolean = false;
@@ -223,7 +219,6 @@ export default function ClassPerfTest() {
         'isEnum(): boolean', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - isInterface ==========
     it('PerformanceTest_Class_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClassWithInterface());
       let res: boolean = false;
@@ -239,7 +234,6 @@ export default function ClassPerfTest() {
         'isInterface(): boolean', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - isFixedArray ==========
     it('PerformanceTest_Class_Instance_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: boolean = false;
@@ -255,7 +249,6 @@ export default function ClassPerfTest() {
         'isFixedArray(): boolean', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - isUnion ==========
     it('PerformanceTest_Class_Instance_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: boolean = false;
@@ -271,7 +264,6 @@ export default function ClassPerfTest() {
         'isUnion(): boolean', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - isFinal ==========
     it('PerformanceTest_Class_Instance_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: boolean = false;
@@ -287,7 +279,6 @@ export default function ClassPerfTest() {
         'isFinal(): boolean', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - isAbstract ==========
     it('PerformanceTest_Class_Instance_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: boolean = false;
@@ -303,7 +294,6 @@ export default function ClassPerfTest() {
         'isAbstract(): boolean', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - isPrimitive ==========
     it('PerformanceTest_Class_Instance_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: boolean = false;
@@ -319,7 +309,6 @@ export default function ClassPerfTest() {
         'isPrimitive(): boolean', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getInstanceMethods ==========
     it('PerformanceTest_Class_Instance_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: FixedArray<reflect.InstanceMethod> = cls.getInstanceMethods();
@@ -335,7 +324,6 @@ export default function ClassPerfTest() {
         'getInstanceMethods(): FixedArray<reflect.InstanceMethod>', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getInstanceMethod ==========
     it('PerformanceTest_Class_Instance_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: reflect.InstanceMethod | undefined = cls.getInstanceMethod("instanceMethod");
@@ -351,7 +339,6 @@ export default function ClassPerfTest() {
         'getInstanceMethod(name: string): reflect.InstanceMethod | undefined', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getStaticMethods ==========
     it('PerformanceTest_Class_Instance_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: FixedArray<reflect.StaticMethod> = cls.getStaticMethods();
@@ -367,7 +354,6 @@ export default function ClassPerfTest() {
         'getStaticMethods(): FixedArray<reflect.StaticMethod>', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getStaticMethod ==========
     it('PerformanceTest_Class_Instance_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: reflect.StaticMethod | undefined = cls.getStaticMethod("staticMethod");
@@ -383,7 +369,6 @@ export default function ClassPerfTest() {
         'getStaticMethod(name: string): reflect.StaticMethod | undefined', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getInstanceFields ==========
     it('PerformanceTest_Class_Instance_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: FixedArray<reflect.InstanceField> = cls.getInstanceFields();
@@ -399,7 +384,6 @@ export default function ClassPerfTest() {
         'getInstanceFields(): FixedArray<reflect.InstanceField>', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getInstanceField ==========
     it('PerformanceTest_Class_Instance_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: reflect.InstanceField | undefined = cls.getInstanceField("name");
@@ -415,7 +399,6 @@ export default function ClassPerfTest() {
         'getInstanceField(name: string): reflect.InstanceField | undefined', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getStaticFields ==========
     it('PerformanceTest_Class_Instance_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: FixedArray<reflect.StaticField> = cls.getStaticFields();
@@ -431,7 +414,6 @@ export default function ClassPerfTest() {
         'getStaticFields(): FixedArray<reflect.StaticField>', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getStaticField ==========
     it('PerformanceTest_Class_Instance_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: reflect.StaticField | undefined = cls.getStaticField("staticField");
@@ -447,7 +429,6 @@ export default function ClassPerfTest() {
         'getStaticField(name: string): reflect.StaticField | undefined', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getConstructors ==========
     it('PerformanceTest_Class_Instance_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: FixedArray<reflect.Constructor> = cls.getConstructors();
@@ -463,7 +444,6 @@ export default function ClassPerfTest() {
         'getConstructors(): FixedArray<reflect.Constructor>', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getInterfaces ==========
     it('PerformanceTest_Class_Instance_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClassWithInterface());
       let res: FixedArray<Class> = cls.getInterfaces();
@@ -479,7 +459,6 @@ export default function ClassPerfTest() {
         'getInterfaces(): FixedArray<Class>', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - initialize ==========
     it('PerformanceTest_Class_Instance_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let Stime = new Date().getTime();
@@ -488,13 +467,12 @@ export default function ClassPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = true;
+	  let res1 = cls
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Class_Instance_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Class', 'initialize',
         'initialize(): void', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - createInstance ==========
     it('PerformanceTest_Class_Instance_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: Object = new Object();
@@ -510,7 +488,6 @@ export default function ClassPerfTest() {
         'createInstance(): Object', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getDescriptor ==========
     it('PerformanceTest_Class_Instance_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: string = '';
@@ -526,7 +503,6 @@ export default function ClassPerfTest() {
         'getDescriptor(): string', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - isNamespace ==========
     it('PerformanceTest_Class_Instance_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: boolean = false;
@@ -542,7 +518,6 @@ export default function ClassPerfTest() {
         'isNamespace(): boolean', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getFixedArrayComponentType ==========
     it('PerformanceTest_Class_Instance_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: Class | undefined = cls.getFixedArrayComponentType();
@@ -558,7 +533,6 @@ export default function ClassPerfTest() {
         'getFixedArrayComponentType(): Class | undefined', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 - getUnionConstituentTypes ==========
     it('PerformanceTest_Class_Instance_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let cls: Class = Class.of(new TestClass());
       let res: FixedArray<Class> | undefined = cls.getUnionConstituentTypes();
@@ -574,7 +548,6 @@ export default function ClassPerfTest() {
         'getUnionConstituentTypes(): FixedArray<Class> | undefined', arkTsAveragedTime);
     })
 
-    // ========== 原始类型常量测试 ==========
     it('PerformanceTest_Class_Primitive_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: string = '';
       let Stime = new Date().getTime();

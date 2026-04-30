@@ -26,6 +26,7 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
+import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 class MyClass {
     num: int = 1;

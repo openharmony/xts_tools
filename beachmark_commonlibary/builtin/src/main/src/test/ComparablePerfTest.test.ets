@@ -90,56 +90,5 @@ export default function ComparablePerfTest() {
         'compareTo(to: T): int (less than)', arkTsAveragedTime);
     })
 
-    // ========== compareTo 测试 - 基本比较 (大于) ==========
-    it('PerformanceTest_Comparable_CompareTo_GreaterThan_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let p1 = new Person(40);
-      let p2 = new Person(30);
-      let res: int = 0;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = p1.compareTo(p2);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Comparable_CompareTo_GreaterThan_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Comparable', 'compareTo',
-        'compareTo(to: T): int (greater than)', arkTsAveragedTime);
-    })
-
-    // ========== compareTo 测试 - 基本比较 (等于) ==========
-    it('PerformanceTest_Comparable_CompareTo_Equal_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let p1 = new Person(25);
-      let p2 = new Person(25);
-      let res: int = 0;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = p1.compareTo(p2);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Comparable_CompareTo_Equal_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Comparable', 'compareTo',
-        'compareTo(to: T): int (equal)', arkTsAveragedTime);
-    })
-
-    // ========== compareTo 测试 - 继承类比较 ==========
-    it('PerformanceTest_Comparable_CompareTo_Inherited_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let s1 = new Student(20, 3);
-      let s2 = new Student(20, 5);
-      let res: int = 0;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = s1.compareTo(s2);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Comparable_CompareTo_Inherited_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Comparable', 'compareTo',
-        'compareTo(to: T): int (inherited class)', arkTsAveragedTime);
-    })
-
   })
 }

@@ -24,7 +24,7 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../hypium/index";
+} from "../../../../../hypium/index";
 import performance from './Performance.util';
 
 export default function ESErrorPerfTest(): void {
@@ -48,72 +48,62 @@ export default function ESErrorPerfTest(): void {
     // ================================================================
 
     it('PerformanceTest_ESError_GetName_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let err = new ESError();
+      let res: string = "";
+
       let Stime = new Date().getTime();
-      let mockName = "UnknownError";
-      for (let i = 0; i < BASE_COUNT; i++) {
-        mockName = "UnknownError";
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = err.name;}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _mockName=mockName;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'ESError', 'name(get)', 'get name(): string', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ESError_SetName_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let err = new ESError();
       let val = "TestErrorName";
-      let Stime = new Date().getTime();
-      let mockNameTarget = val;
-      for (let i = 0; i < BASE_COUNT; i++) {
 
-        mockNameTarget = val;
-      }
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {err.name = val;}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _mockNameTarget = mockNameTarget;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'ESError', 'name(set)', 'set name(val: string)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ESError_GetMessage_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let err = new ESError();
+      let res: string = "";
+
       let Stime = new Date().getTime();
-      let mockMessage = "Error Message";
-      for (let i = 0; i < BASE_COUNT; i++) {
-        mockMessage = "Error Message";
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = err.message;}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _mockMessage=mockMessage;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'ESError', 'message(get)', 'get message(): string', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ESError_SetMessage_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let err = new ESError();
       let val = "Test error message";
       let Stime = new Date().getTime();
-      let mockMessageTarget = val;
-      for (let i = 0; i < BASE_COUNT; i++) {
-        mockMessageTarget = val;
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {err.message = val;}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _mockMessageTarget=mockMessageTarget;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'ESError', 'message(set)', 'set message(val: string)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ESError_GetCause_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let err = new ESError();
+      let res: Object | undefined = undefined;
       let Stime = new Date().getTime();
-      let mockCause = undefined;
-      for (let i = 0; i < BASE_COUNT; i++) {
-        mockCause = undefined;
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = err.cause;}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _mockCause=mockCause;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'ESError', 'cause(get)', 'get cause(): ESValue | undefined', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ESError_SetCause_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let err = new ESError();
       let causeObj = new Object();
       let Stime = new Date().getTime();
-      let mockCauseTarget = causeObj;
-      for (let i = 0; i < BASE_COUNT; i++) {
-        mockCauseTarget = causeObj;
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {err.cause = causeObj;}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _mockCauseTarget=mockCauseTarget;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'ESError', 'cause(set)', 'set cause(val: Object | undefined)', arkTsAveragedTime);
     })
 
@@ -122,14 +112,12 @@ export default function ESErrorPerfTest(): void {
     // ================================================================
 
     it('PerformanceTest_ESError_GetValue_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let err = new ESError();
+      let res: Object | undefined = undefined;
       let Stime = new Date().getTime();
-      let mockValue = new Object();
-      for (let i = 0; i < BASE_COUNT; i++) {
-
-        mockValue = new Object();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = err.getValue();}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _mockValue=mockValue;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'ESError', 'getValue', 'getValue(): ESValue', arkTsAveragedTime);
     })
 

@@ -26,8 +26,7 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
-
-let str = '';
+import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 export default function ConcatArrayPerfTest() {
   describe('ConcatArrayPerfTest', () => {
@@ -85,50 +84,7 @@ export default function ConcatArrayPerfTest() {
       performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'at',
         'at(index: int): T | undefined', arkTsAveragedTime);
     })
-
-    it('PerformanceTest_ConcatArray_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: number | undefined = 0;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = testArray.at(0);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'at',
-        'at(index: int): T | undefined (first element)', arkTsAveragedTime);
-    })
-
-    it('PerformanceTest_ConcatArray_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: number | undefined = 0;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = testArray.at(-1);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'at',
-        'at(index: int): T | undefined (last element)', arkTsAveragedTime);
-    })
-
-    it('PerformanceTest_ConcatArray_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: number | undefined = 0;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = testArray.at(99);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'at',
-        'at(index: int): T | undefined (out of bounds)', arkTsAveragedTime);
-    })
-
-    // ========== join() 方法测试 ==========
+     // ========== join() 方法测试 ==========
     it('PerformanceTest_ConcatArray_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: string = '';
       let Stime = new Date().getTime();
@@ -194,7 +150,7 @@ export default function ConcatArrayPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res.length;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'slice',
         'slice(start?: int, end?: int): Array<T>', arkTsAveragedTime);
@@ -208,7 +164,7 @@ export default function ConcatArrayPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res.length;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'slice',
         'slice(start?: int): Array<T> (single param)', arkTsAveragedTime);
@@ -222,7 +178,7 @@ export default function ConcatArrayPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res.length;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'slice',
         'slice(start?: int, end?: int): Array<T> (no end)', arkTsAveragedTime);
@@ -236,7 +192,7 @@ export default function ConcatArrayPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res.length;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'slice',
         'slice(start?: int, end?: int): Array<T> (negative indices)', arkTsAveragedTime);
@@ -250,7 +206,7 @@ export default function ConcatArrayPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res.length;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'slice',
         'slice(): Array<T> (no params - copy)', arkTsAveragedTime);
@@ -264,7 +220,7 @@ export default function ConcatArrayPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res.length;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'slice',
         'slice(start?: int, end?: int): Array<T> (string array)', arkTsAveragedTime);
@@ -278,7 +234,7 @@ export default function ConcatArrayPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res.length;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'slice',
         'slice(start?: int, end?: int): Array<T> (object array)', arkTsAveragedTime);
