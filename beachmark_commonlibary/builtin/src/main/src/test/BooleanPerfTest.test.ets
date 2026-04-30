@@ -28,8 +28,6 @@ import {
 import performance from './Performance.util';
 import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-let str = '';
-
 export default function BooleanPerfTest() {
   describe('BooleanPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
@@ -62,21 +60,7 @@ export default function BooleanPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'function constructor(value: boolean)', arkTsAveragedTime);
-    })
-
-    it('PerformanceTest_Boolean_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Boolean = new Boolean(false);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Boolean(false);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'function constructor(value: boolean)', arkTsAveragedTime);
+        'constructor(value: boolean)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -90,7 +74,7 @@ export default function BooleanPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'function constructor(value: byte)', arkTsAveragedTime);
+        'constructor(value: byte)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -104,7 +88,7 @@ export default function BooleanPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'function constructor(value: char)', arkTsAveragedTime);
+        'constructor(value: char)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -118,7 +102,7 @@ export default function BooleanPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'function constructor(value: short)', arkTsAveragedTime);
+        'constructor(value: short)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -132,7 +116,7 @@ export default function BooleanPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'function constructor(value: number)', arkTsAveragedTime);
+        'constructor(value: number)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -146,21 +130,22 @@ export default function BooleanPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'function constructor(value: long)', arkTsAveragedTime);
+        'constructor(value: long)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: Boolean = new Boolean(false);
+      let comt = new BigInt(123)
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Boolean(new BigInt(123));
+        res = new Boolean(comt);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'function constructor(value: BigInt)', arkTsAveragedTime);
+        'constructor(value: BigInt)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -175,20 +160,6 @@ export default function BooleanPerfTest() {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
         'function constructor(value: float)', arkTsAveragedTime);
-    })
-
-    it('PerformanceTest_Boolean_Constructor_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Boolean = new Boolean(false);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Boolean(42.5);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_1000: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'function constructor(value: number)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {

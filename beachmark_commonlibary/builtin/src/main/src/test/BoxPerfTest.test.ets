@@ -26,8 +26,7 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
-
-let str = '';
+import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 export default function BoxPerfTest() {
   describe('BoxPerfTest', () => {
@@ -58,7 +57,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Box_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Box', 'constructor',
-        'function constructor()', arkTsAveragedTime);
+        'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Box_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -72,7 +71,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Box_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Box', 'constructor',
-        'function constructor(value: T)', arkTsAveragedTime);
+        ' constructor(value: T)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Box_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -131,7 +130,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BooleanBox_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BooleanBox', 'constructor',
-        'function constructor()', arkTsAveragedTime);
+        'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_BooleanBox_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -145,7 +144,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BooleanBox_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BooleanBox', 'constructor',
-        'function constructor(value: boolean)', arkTsAveragedTime);
+        'constructor(value: boolean)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_BooleanBox_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -204,7 +203,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ByteBox_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ByteBox', 'constructor',
-        'function constructor()', arkTsAveragedTime);
+        'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ByteBox_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -218,7 +217,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ByteBox_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ByteBox', 'constructor',
-        'function constructor(value: byte)', arkTsAveragedTime);
+        'constructor(value: byte)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ByteBox_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -277,7 +276,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CharBox_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'CharBox', 'constructor',
-        'function constructor()', arkTsAveragedTime);
+        'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_CharBox_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -291,7 +290,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CharBox_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'CharBox', 'constructor',
-        'function constructor(value: char)', arkTsAveragedTime);
+        'constructor(value: char)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_CharBox_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -350,7 +349,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ShortBox_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ShortBox', 'constructor',
-        'function constructor()', arkTsAveragedTime);
+        'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ShortBox_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -423,7 +422,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_IntBox_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'IntBox', 'constructor',
-        'function constructor()', arkTsAveragedTime);
+        'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_IntBox_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -437,7 +436,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_IntBox_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'IntBox', 'constructor',
-        'function constructor(value: int)', arkTsAveragedTime);
+        'constructor(value: int)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_IntBox_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -496,7 +495,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongBox_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LongBox', 'constructor',
-        'function constructor()', arkTsAveragedTime);
+        'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_LongBox_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -510,7 +509,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongBox_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LongBox', 'constructor',
-        'function constructor(value: long)', arkTsAveragedTime);
+        'constructor(value: long)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_LongBox_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -569,7 +568,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FloatBox_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FloatBox', 'constructor',
-        'function constructor()', arkTsAveragedTime);
+        'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_FloatBox_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -583,7 +582,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FloatBox_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FloatBox', 'constructor',
-        'function constructor(value: float)', arkTsAveragedTime);
+        'constructor(value: float)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_FloatBox_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -642,7 +641,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DoubleBox_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DoubleBox', 'constructor',
-        'function constructor()', arkTsAveragedTime);
+        'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_DoubleBox_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -656,7 +655,7 @@ export default function BoxPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DoubleBox_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DoubleBox', 'constructor',
-        'function constructor(value: double)', arkTsAveragedTime);
+        'constructor(value: double)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_DoubleBox_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
