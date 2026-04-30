@@ -9891,6 +9891,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/application/AppForegroundStateObserver.static.d.ets",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AppForegroundStateObserver.static.d.ets",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AbilityStartCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
