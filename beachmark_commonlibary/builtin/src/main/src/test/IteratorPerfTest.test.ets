@@ -59,7 +59,6 @@ class NumberCollection implements Iterable<number> {
 
 export default function IteratorPerfTest() {
   describe('IteratorPerfTest', () => {
-    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
 
@@ -74,7 +73,6 @@ export default function IteratorPerfTest() {
       performance.save('apiPerformance.txt');
     })
 
-    // ========== IteratorResult 构造函数测试 - 无参 ==========
     it('PerformanceTest_Iterator_IteratorResult_Constructor_NoArg_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: IteratorResult<number> = new IteratorResult<number>();
       let Stime = new Date().getTime();
@@ -89,7 +87,6 @@ export default function IteratorPerfTest() {
         'constructor(): IteratorResult<T>', arkTsAveragedTime);
     })
 
-    // ========== IteratorResult 构造函数测试 - 带值 ==========
     it('PerformanceTest_Iterator_IteratorResult_Constructor_WithValue_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: IteratorResult<number> = new IteratorResult<number>(42);
       let Stime = new Date().getTime();
@@ -104,7 +101,6 @@ export default function IteratorPerfTest() {
         'constructor(value: T): IteratorResult<T>', arkTsAveragedTime);
     })
 
-    // ========== IteratorResult 构造函数测试 - done 和 value ==========
     it('PerformanceTest_Iterator_IteratorResult_Constructor_DoneAndValue_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: IteratorResult<number> = new IteratorResult<number>(false, 42);
       let Stime = new Date().getTime();
@@ -119,9 +115,8 @@ export default function IteratorPerfTest() {
         'constructor(done: boolean, value: T | undefined): IteratorResult<T>', arkTsAveragedTime);
     })
 
-    // ========== Iterator next 测试 ==========
     it('PerformanceTest_Iterator_Next_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let iter = new NumberIterator(100);
+      let iter = new NumberIterator(BASE_COUNT);
       let res: IteratorResult<number> = iter.next();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -135,7 +130,6 @@ export default function IteratorPerfTest() {
         'next(): IteratorResult<T>', arkTsAveragedTime);
     })
 
-    // ========== Iterable $_iterator 测试 ==========
     it('PerformanceTest_Iterator_Iterable_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let collection = new NumberCollection();
       let res: Iterator<number> = collection.$_iterator();
@@ -151,28 +145,20 @@ export default function IteratorPerfTest() {
         '$_iterator(): Iterator<T>', arkTsAveragedTime);
     })
 
-    // ========== iteratorForEach 测试 ==========
-    it('PerformanceTest_Iterator_IteratorForEach_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Iterator_Reset_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let iter = new NumberIterator(10);
-      let sum: number = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         iter.reset();
-        let result = iter.next();
-        while (!result.done) {
-          sum += result.value as number;
-          result = iter.next();
-        }
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = iter;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = sum;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_IteratorForEach_0600: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'iteratorForEach', 'iteratorForEach',
-        'iteratorForEach<V>(x: Iterator<V>, fn: (x: V) => void): void', arkTsAveragedTime);
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_Reset_0600: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Iterator', 'reset',
+        'reset(): void', arkTsAveragedTime);
     })
 
-    // ========== IteratorResult 属性访问测试 - done ==========
     it('PerformanceTest_Iterator_IteratorResult_Done_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let result = new IteratorResult<number>(false, 42);
       let res: boolean = result.done;
@@ -188,7 +174,6 @@ export default function IteratorPerfTest() {
         'done: boolean', arkTsAveragedTime);
     })
 
-    // ========== IteratorResult 属性访问测试 - value ==========
     it('PerformanceTest_Iterator_IteratorResult_Value_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let result = new IteratorResult<number>(false, 42);
       let res: number | undefined = result.value;

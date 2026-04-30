@@ -24,6 +24,8 @@ import {
   afterAll
 } from "../../../hypium/index";
 import performance from './Performance.util';
+import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
+
 
 class GCTestObj {
   value: int = 42
@@ -46,7 +48,6 @@ export default function GCPerfTest() {
       performance.save('apiPerformance.txt');
     })
 
-    // ========== getFreeHeapSize 测试 ==========
     it('PerformanceTest_GC_GetFreeHeapSize_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: long = GC.getFreeHeapSize();
       let Stime = new Date().getTime();
@@ -61,7 +62,6 @@ export default function GCPerfTest() {
         'getFreeHeapSize(): long', arkTsAveragedTime);
     })
 
-    // ========== getUsedHeapSize 测试 ==========
     it('PerformanceTest_GC_GetUsedHeapSize_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: long = GC.getUsedHeapSize();
       let Stime = new Date().getTime();
@@ -76,7 +76,6 @@ export default function GCPerfTest() {
         'getUsedHeapSize(): long', arkTsAveragedTime);
     })
 
-    // ========== getReservedHeapSize 测试 ==========
     it('PerformanceTest_GC_GetReservedHeapSize_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: long = GC.getReservedHeapSize();
       let Stime = new Date().getTime();
@@ -91,7 +90,6 @@ export default function GCPerfTest() {
         'getReservedHeapSize(): long', arkTsAveragedTime);
     })
 
-    // ========== getObjectSize 测试 ==========
     it('PerformanceTest_GC_GetObjectSize_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let obj = new GCTestObj();
       let res: long = GC.getObjectSize(obj);
@@ -107,7 +105,6 @@ export default function GCPerfTest() {
         'getObjectSize(obj: Object): long', arkTsAveragedTime);
     })
 
-    // ========== getObjectAddress 测试 ==========
     it('PerformanceTest_GC_GetObjectAddress_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let obj = new GCTestObj();
       let res: long = GC.getObjectAddress(obj);
@@ -123,60 +120,56 @@ export default function GCPerfTest() {
         'getObjectAddress(obj: Object): long', arkTsAveragedTime);
     })
 
-    // ========== pinObject 测试 ==========
     it('PerformanceTest_GC_PinObject_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let obj = new GCTestObj();
-      let res: boolean = true;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         GC.pinObject(obj);
-        GC.unpinObject(obj);
-        res = true;
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
+      let res1 = obj;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_PinObject_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'pinObject',
         'pinObject(obj: Object): void', arkTsAveragedTime);
     })
 
-    // ========== unpinObject 测试 ==========
     it('PerformanceTest_GC_UnpinObject_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let obj = new GCTestObj();
-      GC.pinObject(obj);
-      let res: boolean = true;
+      let objArray = new Array<GCTestObj>();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        let obj = new GCTestObj();
+        GC.pinObject(obj);
+        objArray.push(obj);
+      }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        GC.unpinObject(obj);
-        GC.pinObject(obj);
-        res = true;
+        GC.unpinObject(objArray[i]);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
+      let res1 = objArray[0];
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_UnpinObject_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'unpinObject',
         'unpinObject(obj: Object): void', arkTsAveragedTime);
     })
 
-    // ========== allocatePinnedIntArray 测试 ==========
     it('PerformanceTest_GC_AllocatePinnedIntArray_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<int> | undefined = GC.allocatePinnedIntArray(1024);
+      let arr: FixedArray<int> | undefined = undefined;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         arr = GC.allocatePinnedIntArray(1024);
-        GC.unpinObject(arr);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = arr;
+      if (arr !== undefined) {
+        GC.unpinObject(arr);
+      }
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_AllocatePinnedIntArray_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'allocatePinnedIntArray',
         'allocatePinnedIntArray(length: long): FixedArray<int>', arkTsAveragedTime);
     })
 
-    // ========== getObjectSpaceType 测试 ==========
     it('PerformanceTest_GC_GetObjectSpaceType_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let obj = new GCTestObj();
       let res: GC.ObjectSpaceType = GC.getObjectSpaceType(obj);
@@ -192,7 +185,6 @@ export default function GCPerfTest() {
         'getObjectSpaceType(obj: Object): ObjectSpaceType', arkTsAveragedTime);
     })
 
-    // ========== isScheduledGCTriggered 测试 ==========
     it('PerformanceTest_GC_IsScheduledGCTriggered_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: boolean = GC.isScheduledGCTriggered();
       let Stime = new Date().getTime();

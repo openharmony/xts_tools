@@ -24,7 +24,7 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../hypium/index";
+} from "../../../../../hypium/index";
 import performance from './Performance.util';
 
 export default function NoContextInteropErrorPerfTest(): void {
@@ -48,12 +48,9 @@ export default function NoContextInteropErrorPerfTest(): void {
     // ================================================================
 
     it('PerformanceTest_NoInteropContextError_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let Stime = new Date().getTime();
       let res: NoInteropContextError = new NoInteropContextError();
-      for (let i = 0; i < BASE_COUNT; i++) {
-
-        res = new NoInteropContextError();
-      }
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {res = new NoInteropContextError();}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'NoInteropContextError', 'constructor', 'constructor()', arkTsAveragedTime);
@@ -61,12 +58,9 @@ export default function NoContextInteropErrorPerfTest(): void {
 
     it('PerformanceTest_NoInteropContextError_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let msg = new String("Test Error Message");
-      let Stime = new Date().getTime();
       let res: NoInteropContextError = new NoInteropContextError(msg);
-      for (let i = 0; i < BASE_COUNT; i++) {
-
-        res = new NoInteropContextError(msg);
-      }
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {res = new NoInteropContextError(msg);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'NoInteropContextError', 'constructor', 'constructor(message?: String)', arkTsAveragedTime);
@@ -75,12 +69,9 @@ export default function NoContextInteropErrorPerfTest(): void {
     it('PerformanceTest_NoInteropContextError_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let msg = new String("Test Error Message");
       let options = { cause: "Test Cause" } as ErrorOptions;
-
-      let Stime = new Date().getTime();
       let res: NoInteropContextError = new NoInteropContextError(msg, options);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new NoInteropContextError(msg, options);
-      }
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {res = new NoInteropContextError(msg, options);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'NoInteropContextError', 'constructor', 'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);

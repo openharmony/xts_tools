@@ -24,7 +24,7 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../hypium/index";
+} from "../../../../../hypium/index";
 import performance from './Performance.util';
 
 export default function JSValuePerfTest(): void {
@@ -48,11 +48,10 @@ export default function JSValuePerfTest(): void {
     // ================================================================
 
     it('PerformanceTest_JSValue_ToString_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = new Object();
+      let realJSValue = JSRuntime.newJSValueBoolean(true);
+      let res: Object = new Object();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Object();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = realJSValue.toString() as Object; }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSValue', 'toString', 'toString(): String', arkTsAveragedTime);
@@ -63,11 +62,10 @@ export default function JSValuePerfTest(): void {
     // ================================================================
 
     it('PerformanceTest_JSValue_JSValueN_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = new Object();
+      let realJSValue = JSRuntime.newJSValueBoolean(true);
+      let res: JSValueN = realJSValue as JSValueN;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Object();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = realJSValue as JSValueN; }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSValue', 'JSValueN', 'type JSValueN = JSValue | null | undefined', arkTsAveragedTime);

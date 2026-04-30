@@ -24,7 +24,7 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../hypium/index";
+} from "../../../../../hypium/index";
 import performance from './Performance.util';
 
 export default function InteropSerializeHelperPerfTest(): void {
@@ -48,11 +48,8 @@ export default function InteropSerializeHelperPerfTest(): void {
     it('PerformanceTest_InteropArgRecord_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let record: InteropArgRecord = new InteropArgRecord();
         let Stime: number = new Date().getTime();
-        for (let i: number = 0; i < BASE_COUNT; i++) {
-          record = new InteropArgRecord();
-        }
-        let arkTsAveragedTime: number =
-          (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+        for (let i: number = 0; i < BASE_COUNT; i++) {record = new InteropArgRecord();}
+        let arkTsAveragedTime: number = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
         let _record = record;
         performance.apiWithClassAndKeywordTxt(PKG_NAME, 'InteropArgRecord', 'constructor', 'constructor()', arkTsAveragedTime);
       })
@@ -61,11 +58,8 @@ export default function InteropSerializeHelperPerfTest(): void {
     it('PerformanceTest_InteropArgRecord_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let record: InteropArgRecord = new InteropArgRecord(InteropArgType.DIRECT, 0);
         let Stime: number = new Date().getTime();
-        for (let i: number = 0; i < BASE_COUNT; i++) {
-          record = new InteropArgRecord(InteropArgType.DIRECT, i);
-        }
-        let arkTsAveragedTime: number =
-          (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+        for (let i: number = 0; i < BASE_COUNT; i++) {record = new InteropArgRecord(InteropArgType.DIRECT, i);}
+        let arkTsAveragedTime: number = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
         let _record = record;
         performance.apiWithClassAndKeywordTxt(PKG_NAME, 'InteropArgRecord', 'constructor', 'constructor(type: InteropArgType, value: Any)', arkTsAveragedTime);
       })
@@ -75,11 +69,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         let record: InteropArgRecord = new InteropArgRecord(InteropArgType.DIRECT, 0);
         let res: InteropArgType = InteropArgType.DIRECT;
         let Stime: number = new Date().getTime();
-        for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = record.type;
-        }
-        let arkTsAveragedTime: number =
-          (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+        for (let i: number = 0; i < BASE_COUNT; i++) {res = record.type;}
+        let arkTsAveragedTime: number = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
         let _res = res;
         performance.apiWithClassAndKeywordTxt(PKG_NAME, 'InteropArgRecord', 'type', 'type: InteropArgType', arkTsAveragedTime);
       })
@@ -89,11 +80,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         let record: InteropArgRecord = new InteropArgRecord(InteropArgType.DIRECT, 42);
         let res: Any = undefined;
         let Stime: number = new Date().getTime();
-        for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = record.value;
-        }
-        let arkTsAveragedTime: number =
-          (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+        for (let i: number = 0; i < BASE_COUNT; i++) {res = record.value;}
+        let arkTsAveragedTime: number = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
         let _res = res;
         performance.apiWithClassAndKeywordTxt(PKG_NAME, 'InteropArgRecord', 'value', 'value: Any', arkTsAveragedTime);
       })
@@ -106,11 +94,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         args[2] = true;
         let helper: InteropSerializeHelper = new InteropSerializeHelper(args);
         let Stime: number = new Date().getTime();
-        for (let i: number = 0; i < BASE_COUNT; i++) {
-          helper = new InteropSerializeHelper(args);
-        }
-        let arkTsAveragedTime: number =
-          (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+        for (let i: number = 0; i < BASE_COUNT; i++) {helper = new InteropSerializeHelper(args);}
+        let arkTsAveragedTime: number = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
         let _helper = helper;
         performance.apiWithClassAndKeywordTxt(PKG_NAME, 'InteropSerializeHelper', 'constructor', 'constructor(args: FixedArray<Any>)', arkTsAveragedTime);
       })
@@ -124,11 +109,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         let helper: InteropSerializeHelper = new InteropSerializeHelper(args);
         let res: FixedArray<Any> = new FixedArray<Any>(0);
         let Stime: number = new Date().getTime();
-        for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = helper.deserialize();
-        }
-        let arkTsAveragedTime: number =
-          (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+        for (let i: number = 0; i < BASE_COUNT; i++) {res = helper.deserialize();}
+        let arkTsAveragedTime: number = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
         let _res = res;
         performance.apiWithClassAndKeywordTxt(PKG_NAME, 'InteropSerializeHelper', 'deserialize', 'deserialize(): FixedArray<Any>', arkTsAveragedTime);
       })
@@ -138,11 +120,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         let res: boolean = false;
         let testVal: Any = 42;
         let Stime: number = new Date().getTime();
-        for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = InteropSerializeHelper.isJSInteropRef(testVal);
-        }
-        let arkTsAveragedTime: number =
-          (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+        for (let i: number = 0; i < BASE_COUNT; i++) {res = InteropSerializeHelper.isJSInteropRef(testVal);}
+        let arkTsAveragedTime: number = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
         let _res = res;
         performance.apiWithClassAndKeywordTxt(PKG_NAME, 'InteropSerializeHelper', 'isJSInteropRef', 'isJSInteropRef(value: Any): boolean', arkTsAveragedTime);
       })
