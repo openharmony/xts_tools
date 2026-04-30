@@ -4942,6 +4942,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.graphics.text.d.ts",
+            "bundle_name": [
+                "graphic_2d"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.PiPWindow.d.ts",
             "bundle_name": [
                 "window_manager"
