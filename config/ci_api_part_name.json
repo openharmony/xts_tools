@@ -11396,7 +11396,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.distributedsched.linkEnhance.d.ts",
+            "bundle_name": [
+                "linkEnhance"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.distributedsched.proxyChannelManager.d.ts",
+            "bundle_name": [
+                "proxyChannelManager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.distributedsched.proxyChannelManager.d.ts",
             "bundle_name": [
                 "proxyChannelManager"
             ],
