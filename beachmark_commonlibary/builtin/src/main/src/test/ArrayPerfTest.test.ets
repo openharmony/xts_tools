@@ -26,8 +26,7 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
-
-let str = '';
+import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 export default function ArrayPerfTest() {
   describe('ArrayPerfTest', () => {
@@ -91,9 +90,10 @@ export default function ArrayPerfTest() {
 
     it('PerformanceTest_Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: Array<number> = new Array<number>();
+      let callback = (index: int): number => {return index;};
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Array<number>(10, (index: int): number => { return index; });
+        res = new Array<number>(10, callback);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -106,9 +106,10 @@ export default function ArrayPerfTest() {
     // ========== 静态方法测试 ==========
     it('PerformanceTest_Array_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: boolean = false;
+      let comp = [1, 2, 3]
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Array.isArray([1, 2, 3]);
+        res = Array.isArray(comp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -161,19 +162,6 @@ export default function ArrayPerfTest() {
         'static from<T>(arr: ArrayLike<T>): Array<T>', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Array_Static_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Array<number> = new Array<number>();
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Array.$_invoke<number>(1, 2, 3);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Array_Static_0500: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Array', '$_invoke',
-        'static $_invoke<T>(...items: T[]): Array<T>', arkTsAveragedTime);
-    })
 
     // ========== 实例属性测试 ==========
     it('PerformanceTest_Array_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -191,21 +179,6 @@ export default function ArrayPerfTest() {
         'get length(): int', arkTsAveragedTime);
     })
 
-    // ========== 实例方法测试 ==========
-    it('PerformanceTest_Array_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
-      let res: number = 0;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.$_get(50);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Array_Instance_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Array', '$_get',
-        'native $_get(idx: int): T', arkTsAveragedTime);
-    })
 
     it('PerformanceTest_Array_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Array<number> = new Array<number>(100);
@@ -223,8 +196,8 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
-      let res: number | undefined = undefined;
+      let arr: Array<number> = new Array<number>(BASE_COUNT+10);
+      let res =arr.pop();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.pop();
@@ -238,7 +211,7 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(BASE_COUNT+10);
       let res: number | undefined = undefined;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -253,11 +226,14 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
-      let res: Array<number> = new Array<number>();
+      let arrs: Array<Array<number>> = new Array<Array<number>>(BASE_COUNT+10);
+      for (let i = 0; i < BASE_COUNT; i++) {
+        arrs[i] = new Array<number>(100).fill(0);
+      }
+      let res = new Array<number>();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.splice(50, 10);
+        res = arrs[i].splice(1, 1);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -315,9 +291,10 @@ export default function ArrayPerfTest() {
     it('PerformanceTest_Array_Instance_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Array<number> = new Array<number>(100);
       let res: Array<number> = new Array<number>();
+      let comp = arr.concat([1,2,3]);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.concat([1, 2, 3]);
+        res = arr.concat(comp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -359,7 +336,7 @@ export default function ArrayPerfTest() {
 
     it('PerformanceTest_Array_Instance_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Array<number> = new Array<number>(100);
-      let res: number | undefined = undefined;
+      let res: number = arr.at(50);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.at(50);
@@ -373,11 +350,12 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(100).fill(0)
       let res: Array<number> = new Array<number>();
+      let comp =(v: number, i: int, a: Array<number>): boolean => { return v > 50; }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.filter((v: number, i: int, a: Array<number>): boolean => { return v > 50; });
+        res = arr.filter(comp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -424,11 +402,12 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(100).fill(0);
       let res: Array<number> = new Array<number>();
+      let comp = (v: number, k: int, arr: Array<number>): Array<number> => { return [v]; }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.flatMap<number>((v: number, k: int, arr: Array<number>): Array<number> => { return [v]; });
+        res = arr.flatMap<number>(comp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -439,11 +418,12 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(100).fill(0);
       let res: number | undefined = undefined;
+      let comp = (v: number, i: int, a: Array<number>): boolean => { return v > 50; }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.find((v: number, i: int, a: Array<number>): boolean => { return v > 50; });
+        res = arr.find(comp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -454,11 +434,12 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(100).fill(0);
       let res: int = 0;
+      let comp = (v: number, i: int, a: Array<number>): boolean => { return v > 50; };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.findIndex((v: number, i: int, a: Array<number>): boolean => { return v > 50; });
+        res = arr.findIndex(comp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -469,11 +450,12 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(100).fill(0);
       let res: number | undefined = undefined;
+      let comp = (v: number, i: int, a: Array<number>): boolean => { return v > 50; };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.findLast((v: number, i: int, a: Array<number>): boolean => { return v > 50; });
+        res = arr.findLast(comp)
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -484,11 +466,12 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(100).fill(0);
       let res: int = 0;
+      let comp = (v: number, i: int, a: Array<number>): boolean => { return v > 50; };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.findLastIndex((v: number, i: int, a: Array<number>): boolean => { return v > 50; });
+        res = arr.findLastIndex(comp)
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -499,11 +482,12 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(100).fill(0);
       let res: boolean = false;
+      let comp = (v: number, i: int, a: Array<number>): boolean => { return v >= 0; };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.every((v: number, i: int, a: Array<number>): boolean => { return v >= 0; });
+        res = arr.every(comp)
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -514,11 +498,12 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(100).fill(0);
       let res: boolean = false;
+      let comp = (v: number, i: int, a: Array<number>): boolean => { return v > 50; };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.some((v: number, i: int, a: Array<number>): boolean => { return v > 50; });
+        res = arr.some(comp)
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -529,11 +514,12 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(100).fill(0);
       let res: number = 0;
+      let comp =(prev: number, curr: number, index: int, array: Array<number>): number => { return prev + curr; }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.reduce<number>((prev: number, curr: number, index: int, array: Array<number>): number => { return prev + curr; }, 0);
+        res = arr.reduce<number>(comp, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -544,11 +530,12 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(100).fill(0);
       let res: number = 0;
+      let comp = (prev: number, curr: number, index: int, array: Array<number>): number => { return prev + curr; }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.reduceRight<number>((prev: number, curr: number, index: int, array: Array<number>): number => { return prev + curr; }, 0);
+        res = arr.reduceRight<number>(comp, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -559,15 +546,16 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
+      let arr: Array<number> = new Array<number>(100).fill(0);
       let count: number = 0;
+     let comp = (v: number, i: int, a: Array<number>): void => { count += v; }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.forEach((v: number, i: int, a: Array<number>): void => { count += v; });
+        arr.forEach(comp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = count;
+	  let res1 = arr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Array_Instance_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'forEach',
         'forEach(callbackfn: (value: T, index: int, array: Array<T>) => void): void', arkTsAveragedTime);
@@ -620,31 +608,27 @@ export default function ArrayPerfTest() {
 
     it('PerformanceTest_Array_Instance_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Array<number> = new Array<number>(100);
-      let res: boolean | Array<number> = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.extendTo(200, 0);
-        res = true;
+        arr.extendTo(200+i, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
+      let res1 = arr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Array_Instance_3000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'extendTo',
         'extendTo(arrayLength: int, initialValue: T): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Array_Instance_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<number> = new Array<number>(100);
-      let res: boolean | Array<number> = false;
+      let arr: Array<number> = new Array<number>(BASE_COUNT);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.shrinkTo(50);
-        res = true;
+        arr.shrinkTo(BASE_COUNT-i);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
+      let res1 = arr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Array_Instance_3100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'shrinkTo',
         'shrinkTo(arrayLength: int): void', arkTsAveragedTime);

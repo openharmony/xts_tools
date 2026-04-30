@@ -26,6 +26,8 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
+import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
+
 
 export default function AbcFilePerfTest() {
   describe('AbcFilePerfTest', () => {
@@ -37,6 +39,8 @@ export default function AbcFilePerfTest() {
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
+      let ret1 = GC.startGC(GC.Cause.FULL, true);
+      GC.waitForFinishGC(ret1);
     })
 
     afterAll(() => {
@@ -44,16 +48,14 @@ export default function AbcFilePerfTest() {
     })
 
     it('PerformanceTest_AbcFile_loadAbcFile_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: AbcFile | null = null;
+      let res=AbcFile.loadAbcFile(getNearestNonBootRuntimeLinker()!, '/data/test.abc');
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-        try {
+        for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
           res = AbcFile.loadAbcFile(getNearestNonBootRuntimeLinker()!, '/data/test.abc');
-        } catch (e) {
         }
-      }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcFile_loadAbcFile_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'AbcFile', 'loadAbcFile',
         'static loadAbcFile(runtimeLinker: RuntimeLinker, path: string): AbcFile', arkTsAveragedTime);
@@ -61,16 +63,14 @@ export default function AbcFilePerfTest() {
 
     it('PerformanceTest_AbcFile_loadFromMemory_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let rawData: FixedArray<byte> = [0x41, 0x42, 0x43];
-      let res: AbcFile | null = null;
+      let res = AbcFile.loadFromMemory(getNearestNonBootRuntimeLinker()!, rawData);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-        try {
+        for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
           res = AbcFile.loadFromMemory(getNearestNonBootRuntimeLinker()!, rawData);
-        } catch (e) {
         }
-      }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcFile_loadFromMemory_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'AbcFile', 'loadFromMemory',
         'static loadFromMemory(runtimeLinker: RuntimeLinker, rawFile: FixedArray<byte>): AbcFile', arkTsAveragedTime);
@@ -78,20 +78,15 @@ export default function AbcFilePerfTest() {
 
     it('PerformanceTest_AbcFile_loadClass_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fileInstance: AbcFile | null = null;
-      try {
-        fileInstance = AbcFile.loadAbcFile(getNearestNonBootRuntimeLinker()!, '/data/test.abc');
-      } catch (e) {
-      }
-      let res: Class | undefined;
+      fileInstance = AbcFile.loadAbcFile(getNearestNonBootRuntimeLinker()!, '/data/test.abc');
+      let res = fileInstance!.loadClass(getNearestNonBootRuntimeLinker()!, 'TestClass', true);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-        try {
+        for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
           res = fileInstance!.loadClass(getNearestNonBootRuntimeLinker()!, 'TestClass', true);
-        } catch (e) {
         }
-      }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcFile_loadClass_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'AbcFile', 'loadClass',
         'loadClass(runtimeLinker: RuntimeLinker, clsName: string, init: boolean): Class | undefined', arkTsAveragedTime);
@@ -99,20 +94,15 @@ export default function AbcFilePerfTest() {
 
     it('PerformanceTest_AbcFile_getFilename_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fileInstance: AbcFile | null = null;
-      try {
-        fileInstance = AbcFile.loadAbcFile(getNearestNonBootRuntimeLinker()!, '/data/test.abc');
-      } catch (e) {
-      }
+      fileInstance = AbcFile.loadAbcFile(getNearestNonBootRuntimeLinker()!, '/data/test.abc');
       let res: string = '';
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-        try {
+        for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
           res = fileInstance!.getFilename();
-        } catch (e) {
         }
-      }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcFile_getFilename_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'AbcFile', 'getFilename',
         'getFilename(): string', arkTsAveragedTime);

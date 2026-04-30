@@ -20,10 +20,13 @@ import {
   TestType,
   Size,
   Level,
+  beforeAll,
+  afterAll,
   beforeEach,
-  afterAll
+  afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
+
 
 class TestArrayLike<T> implements ArrayLike<T> {
   private items: T[] = [];
@@ -93,10 +96,10 @@ export default function ArrayLikePerfTest() {
     // ========== ArrayLike $_iterator 测试 ==========
     it('PerformanceTest_ArrayLike_Iterator_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: TestArrayLike<int> = new TestArrayLike<int>([1, 2, 3, 4, 5]);
-      let res: int = 0;
+      let res: IterableIterator<int> | null = null;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        let res = arr.$_iterator();
+        res = arr.$_iterator();
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
