@@ -53,17 +53,17 @@ class HvigorChecker:
         with open(json_file, 'r') as f:
             data = json5.load(f)
             apiversion = data.get('app').get('products')[0].get('compileSdkVersion')
-            return int(apiversion)
+            return str(apiversion)
 
-    def get_api_version(self):
+    def get_api_full_version(self):
         root_dir = os.path.realpath(os.path.join(self._xts_root_dir, "../../.."))
-        api_version = -1
+        api_full_version = ''
         with open(os.path.join(root_dir, "build/version.gni"), "r") as f:
             for line in f:
-                if 'api_version' in line:
-                    api_version = int(line.split('=')[1].strip().replace('"', ''))
+                if 'api_full_version' in line:
+                    api_full_version = line.split('=')[1].strip().replace('"', '')
                     break
-        return int(api_version)
+        return api_full_version
 
     def output_unmatched_project(self, prject_list, filename):
         print("")
@@ -104,17 +104,17 @@ class HvigorChecker:
         return True
 
     def check_compileSdkVersion(self, hvigor_prj_list):
-        api_version = self.get_api_version()
+        api_full_version = self.get_api_full_version()
         unmatch_prj_list = []
         for dir in hvigor_prj_list:
             filename = os.path.join(dir, 'build-profile.json5')
             compileSdkVersion = self.get_compileSdkVersion(filename)
-            if compileSdkVersion != api_version:
+            if compileSdkVersion != api_full_version:
                 unmatch_prj_list.append((compileSdkVersion, filename))
 
         if len(unmatch_prj_list):
             self.output_unmatched_project(unmatch_prj_list, 'build-profile.json5')
-            print("Plesse update compileSdkVersion to {}".format(api_version))
+            print("Plesse update compileSdkVersion to {}".format(api_full_version))
             return False
         return True
 
