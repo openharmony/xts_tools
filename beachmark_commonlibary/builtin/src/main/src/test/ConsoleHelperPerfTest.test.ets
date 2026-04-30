@@ -26,6 +26,7 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
+import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 // 自定义测试类
 class TestObject {
@@ -43,8 +44,6 @@ class Point3D {
   y: int = 2;
   z: int = 3;
 }
-
-let str = '';
 
 export default function ConsoleHelperPerfTest() {
   describe('ConsoleHelperPerfTest', () => {
