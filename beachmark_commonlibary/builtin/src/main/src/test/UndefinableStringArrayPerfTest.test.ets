@@ -24,7 +24,7 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../hypium/index";
+} from "../../../../../hypium/index";
 import performance from './Performance.util';
 
 export default function UndefinableStringArrayPerfTest(): void {
@@ -48,30 +48,19 @@ export default function UndefinableStringArrayPerfTest(): void {
     // ================================================================
 
     it('PerformanceTest_UndefinableStringArray_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      // 1. 提前赋初值，防止 ArkCompiler 报未赋值错误
       let arr = new containers.UndefinableStringArray();
-
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        // 2. 循环内不断重新赋值
-        arr = new containers.UndefinableStringArray();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { arr = new containers.UndefinableStringArray(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-
-      // 3. 兜底引用，防止死代码消除 (DCE) 优化
       let _arr = arr;
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'constructor', 'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_UndefinableStringArray_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr = new containers.UndefinableStringArray(10 as int);
-
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr = new containers.UndefinableStringArray(10 as int);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { arr = new containers.UndefinableStringArray(10 as int); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-
       let _arr = arr;
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'constructor', 'constructor(capacity: int)', arkTsAveragedTime);
     })
@@ -79,13 +68,9 @@ export default function UndefinableStringArrayPerfTest(): void {
     it('PerformanceTest_UndefinableStringArray_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let val = new String("test");
       let arr = new containers.UndefinableStringArray(10 as int, val);
-
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr = new containers.UndefinableStringArray(10 as int, val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { arr = new containers.UndefinableStringArray(10 as int, val); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-
       let _arr = arr;
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'constructor', 'constructor(capacity: int, val: UndefinableString)', arkTsAveragedTime);
     })
@@ -97,9 +82,7 @@ export default function UndefinableStringArrayPerfTest(): void {
     it('PerformanceTest_UndefinableStringArray_Reserve_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr = new containers.UndefinableStringArray();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr.reserve(100 as int);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { arr.reserve(100 as int); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _arr=arr;
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'reserve', 'reserve(capacity: int): void', arkTsAveragedTime);
@@ -108,36 +91,36 @@ export default function UndefinableStringArrayPerfTest(): void {
     it('PerformanceTest_UndefinableStringArray_ToArray_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr = new containers.UndefinableStringArray();
       arr.pushBack(new String("test"));
+      let res: String[] = [];
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr.toArray();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = arr.toArray(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _arr=arr;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'toArray', 'toArray(): String[]', arkTsAveragedTime);
     })
 
     it('PerformanceTest_UndefinableStringArray_ToFixedArray_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr = new containers.UndefinableStringArray();
       arr.pushBack(new String("test"));
+      let res: FixedArray<String> | undefined = undefined;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr.toFixedArray();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = arr.toFixedArray(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _arr=arr;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'toFixedArray', 'toFixedArray(): FixedArray<String>', arkTsAveragedTime);
     })
 
     it('PerformanceTest_UndefinableStringArray_ToUndefinableArray_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr = new containers.UndefinableStringArray();
       arr.pushBack(new String("test"));
+      let res: (String | undefined)[] = [];
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr.toUndefinableArray();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = arr.toUndefinableArray(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _arr=arr;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'toUndefinableArray', 'toUndefinableArray(): (String | undefined)[]', arkTsAveragedTime);
     })
 
@@ -145,9 +128,7 @@ export default function UndefinableStringArrayPerfTest(): void {
       let arr = new containers.UndefinableStringArray();
       let val = new String("test");
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr.pushBack(val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { arr.pushBack(val); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _arr=arr;
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'pushBack', 'pushBack(e: UndefinableString): void', arkTsAveragedTime);
@@ -156,44 +137,37 @@ export default function UndefinableStringArrayPerfTest(): void {
     it('PerformanceTest_UndefinableStringArray_PopBack_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr = new containers.UndefinableStringArray();
       let val = new String("test");
-
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr.pushBack(val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {arr.pushBack(val);}
+      let res: String | undefined = undefined;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr.popBack();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = arr.popBack(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _arr=arr;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'popBack', 'popBack(): UndefinableString', arkTsAveragedTime);
     })
 
     it('PerformanceTest_UndefinableStringArray_Size_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr = new containers.UndefinableStringArray();
       arr.pushBack(new String("test"));
-      let Stime = new Date().getTime();
       let currentSize = 0;
-      for (let i = 0; i < BASE_COUNT; i++) {
-
-        currentSize = arr.size();
-      }
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) { currentSize = arr.size(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _arr = arr;
       let _size = currentSize;
-
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'size', 'size(): int', arkTsAveragedTime);
     })
 
     it('PerformanceTest_UndefinableStringArray_At_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr = new containers.UndefinableStringArray();
       arr.pushBack(new String("test"));
+      let res: String | undefined = undefined;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr.at(0 as int);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = arr.at(0 as int); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _arr=arr;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'at', 'at(index: int): UndefinableString', arkTsAveragedTime);
     })
 
@@ -202,9 +176,7 @@ export default function UndefinableStringArrayPerfTest(): void {
       arr.pushBack(new String("test"));
       let val = new String("test2");
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr.set(0 as int, val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { arr.set(0 as int, val); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _arr=arr;
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'set', 'set(index: int, e: UndefinableString): void', arkTsAveragedTime);

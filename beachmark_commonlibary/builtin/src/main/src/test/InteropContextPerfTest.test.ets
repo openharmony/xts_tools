@@ -24,7 +24,7 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../hypium/index";
+} from "../../../../../hypium/index";
 import performance from './Performance.util';
 
 export default function InteropContextPerfTest(): void {
@@ -46,19 +46,17 @@ export default function InteropContextPerfTest(): void {
     const PKG_NAME = 'std.interop';
 
     // ================================================================
-    // 1. InteropContext Private Native APIs
+    // 1. InteropContext Public APIs
     // ================================================================
 
-    it('PerformanceTest_InteropContext_GetInteropRuntimeLinker_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_InteropContext_SetDefaultInteropLinker_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let mockLinker = new Object();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-
-        let mockLinkerResult = null;
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {InteropContext.setDefaultInteropLinker(mockLinker as RuntimeLinker);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      performance.apiWithClassAndKeywordTxt(PKG_NAME, 'InteropContext', 'getInteropRuntimeLinker', 'getInteropRuntimeLinker(): RuntimeLinker', arkTsAveragedTime);
+      let _linker = mockLinker;
+      performance.apiWithClassAndKeywordTxt(PKG_NAME, 'InteropContext', 'setDefaultInteropLinker', 'setDefaultInteropLinker(linker: RuntimeLinker): void', arkTsAveragedTime);
     })
-
 
   })
 }

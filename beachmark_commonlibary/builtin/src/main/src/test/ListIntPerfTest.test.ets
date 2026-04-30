@@ -24,19 +24,8 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../hypium/index";
+} from "../../../../../hypium/index";
 import performance from './Performance.util';
-
-class MockListInt implements containers.ListInt {
-  pushFront(e: Int): void {}
-  popFront(): Int { return new Int(0); }
-  pushBack(e: Int): void {}
-  popBack(): Int { return new Int(0); }
-  size(): int { return 0 as int; }
-  at(index: int): Int { return new Int(0); }
-  set(index: int, e: Int): void {}
-  has(e: Int): boolean { return true; }
-}
 
 export default function ListIntPerfTest(): void {
   describe('ListIntPerfTest', () => {
@@ -59,111 +48,92 @@ export default function ListIntPerfTest(): void {
     // ================================================================
 
     it('PerformanceTest_ListInt_PushFront_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListInt = new MockListInt();
+      let list: containers.ListInt = new containers.ArrayAsListInt();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.pushFront(new Int(i as int));
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {list.pushFront(new Int(i));}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _list=list;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListInt', 'pushFront', 'pushFront(e: Int): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListInt_PopFront_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListInt = new MockListInt();
-
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.pushBack(new Int(i as int));
-      }
+      let list: containers.ListInt = new containers.ArrayAsListInt();
+      for (let i = 0; i < BASE_COUNT; i++) {list.pushBack(new Int(i));}
+      let res: Int = new Int(0);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.popFront();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = list.popFront();}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _list=list;
+      let _list = list;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListInt', 'popFront', 'popFront(): Int', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListInt_PushBack_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListInt = new MockListInt();
+      let list: containers.ListInt = new containers.ArrayAsListInt();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.pushBack(new Int(i as int));
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {list.pushBack(new Int(i));}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _list=list;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListInt', 'pushBack', 'pushBack(e: Int): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListInt_PopBack_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListInt = new MockListInt();
-
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.pushBack(new Int(i as int));
-      }
+      let list: containers.ListInt = new containers.ArrayAsListInt();
+      for (let i = 0; i < BASE_COUNT; i++) {list.pushBack(new Int(i));}
+      let res: Int = new Int(0);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.popBack();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = list.popBack();}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _list=list;
+      let _list = list;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListInt', 'popBack', 'popBack(): Int', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListInt_Size_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListInt = new MockListInt();
+      let list: containers.ListInt = new containers.ArrayAsListInt();
       list.pushBack(new Int(1 as int));
-
-      let Stime = new Date().getTime();
-
       let currentSize = 0;
-      for (let i = 0; i < BASE_COUNT; i++) {
-        currentSize = list.size();
-      }
-
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {currentSize = list.size();}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-
       let _list = list;
       let _size = currentSize;
-
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListInt', 'size', 'size(): int', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListInt_At_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListInt = new MockListInt();
+      let list: containers.ListInt = new containers.ArrayAsListInt();
       list.pushBack(new Int(1 as int));
+      let res: Int = new Int(0);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.at(0 as int);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = list.at(0 as int);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _list=list;
+      let _list = list;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListInt', 'at', 'at(index: int): Int', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListInt_Set_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListInt = new MockListInt();
+      let list: containers.ListInt = new containers.ArrayAsListInt();
       list.pushBack(new Int(1 as int));
       let val = new Int(2 as int);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.set(0 as int, val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {list.set(0 as int, val);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _list=list;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListInt', 'set', 'set(index: int, e: Int): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListInt_Has_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListInt = new MockListInt();
+      let list: containers.ListInt = new containers.ArrayAsListInt();
       let val = new Int(1 as int);
       list.pushBack(val);
+      let res: boolean = false;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.has(val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = list.has(val);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _list=list;
+      let _list = list;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListInt', 'has', 'has(e: Int): boolean', arkTsAveragedTime);
     })
 

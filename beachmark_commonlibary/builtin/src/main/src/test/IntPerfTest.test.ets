@@ -26,20 +26,11 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
-import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
-
-let str = '';
 
 export default function IntPerfTest(): void {
   describe('IntPerfTest', () => {
-    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
-    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
-    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
-    // buffer.from
-    const BASE_COUNT_MIX = 100;
-
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
@@ -441,7 +432,7 @@ export default function IntPerfTest(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'Int', 'toString',
         'toString(radix: number): string', arkTsAveragedTime);
     })
-    // 被卡住了
+
     // it('PerformanceTest_Int_Instance_toLocaleString_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
     //   let intObj = new Int(123);
     //   let res: String = new String('');

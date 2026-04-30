@@ -64,21 +64,6 @@ export default function FunctionPerfTest() {
         'get name(): string', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Function_Name_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let func: Function = () => { return 1; };
-      let res: string = '';
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = func.name;
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Function_Name_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Function', 'name',
-        'get name(): string', arkTsAveragedTime);
-    })
-
     it('PerformanceTest_Function0_Invoke0_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let func: () => number = () => { return 1; };
       let res: number = 0;

@@ -12,23 +12,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+//------------------------------------core----------------------------------------------------
 import AbcFilePerfTest from './AbcFilePerfTest.test';
 import ArrayPerfTest from './ArrayPerfTest.test';
 import ArrayLikePerfTest from './ArrayLikePerfTest.test';
 import BooleanPerfTest from './BooleanPerfTest.test';
 import BoxPerfTest from './BoxPerfTest.test';
-import BuiltinArrayPerfTest from './BuiltinArrayPerfTest.test';
+import BuiltinArrayPerfTest00 from './BuiltinArrayPerfTest00.test';
+import BuiltinArrayPerfTest01 from './BuiltinArrayPerfTest01.test';
+import BuiltinArrayPerfTest02 from './BuiltinArrayPerfTest02.test';
+import BuiltinArrayPerfTest03 from './BuiltinArrayPerfTest03.test';
 import BuiltinArrayAlgorithmsPerfTest from './BuiltinArrayAlgorithmsPerfTest.test';
-import BytePerfTest from './BytePertfTest.test'
-import BuiltinArrayPerfTest1 from './BuiltinArrayPerfTest1.test';
+import BytePerfTest from './BytePerfTest.test'
 import CharPerfTest from './CharPerfTest.test'
 import ClassPerfTest from './ClassPerfTest.test';
 import ComparablePerfTest from './ComparablePerfTest.test';
 import ConcatArrayPerfTest from './ConcatArrayPerfTest.test';
 import ConsolePerfTest from './ConsolePerfTest.test';
 import ConsoleHelperPerfTest from './ConsoleHelperPerfTest.test';
-import CoroutinePerfTest from './CoroutinePerfTest.test';
 import DataViewPerfTest from './DataViewPerfTest.test';
 import DatePerfTest from './DatePerfTest.test';
 import DoublePerfTest from './DoublePerfTest.test';
@@ -36,7 +37,7 @@ import EAWorkerPerfTest from './EAWorkerPerfTest.test';
 import ErrorHandlerPerfTest from './ErrorHandlerPerfTest.test';
 import ErrorsPerfTest from './ErrorsPerfTest.test';
 import ExceptionsPerfTest from './ExceptionsPerfTest.test';
-import FloatPertTest from './FloatPertTest.test';
+import FloatPertTest from './FloatPerfTest.test';
 import FunctionPerfTest from './FunctionPerfTest.test';
 import GCPerfTest from './GCPerfTest.test';
 import IntlPerfTest from './IntlPerfTest.test';
@@ -61,15 +62,15 @@ import ArrayAsListStringPerfTest from './ArrayAsListStringPerfTest.test';
 import ArrayBlockingQueuePerfTest from './ArrayBlockingQueuePerfTest.test';
 import BlockingQueuePerfTest from './BlockingQueuePerfTest.test';
 import ConcurrentHashMapPerfTest from './ConcurrentHashMapPerfTest.test';
-import ConcurrentSetPerfTest from'./ConcurrentSetPerfTest.test.ets';
-import LinkedBlockingQueuePerfTest from'./LinkedBlockingQueuePerfTest.test.ets';
-import ListIntPerfTest from'./ListIntPerfTest.test.ets';
-import ListObjectPerfTest from'./ListObjectPerfTest.test.ets';
-import ListStringPerfTest from'./ListStringPerfTest.test.ets';
-import UndefinableObjectArrayPerfTest from'./UndefinableObjectArrayPerfTest.test.ets';
-import UndefinableStringArrayPerfTest from'./UndefinableStringArrayPerfTest.test.ets';
-import WeakMapPerfTest from'./WeakMapPerfTest.test.ets';
-import WeakSetPerfTest from'./WeakSetPerfTest.test.ets';
+import ConcurrentSetPerfTest from './ConcurrentSetPerfTest.test';
+import LinkedBlockingQueuePerfTest from './LinkedBlockingQueuePerfTest.test';
+import ListIntPerfTest from './ListIntPerfTest.test';
+import ListObjectPerfTest from './ListObjectPerfTest.test';
+import ListStringPerfTest from './ListStringPerfTest.test';
+import UndefinableObjectArrayPerfTest from './UndefinableObjectArrayPerfTest.test';
+import UndefinableStringArrayPerfTest from './UndefinableStringArrayPerfTest.test';
+import WeakMapPerfTest from './WeakMapPerfTest.test';
+import WeakSetPerfTest from './WeakSetPerfTest.test';
 
 
 //-------------------------------------interop---------------------------------------------------------
@@ -79,7 +80,6 @@ import InteropTransferHelperPerfTest from './InteropTransferHelperPerfTest.test'
 import JSRuntimePerfTest from './JSRuntimePerfTest.test';
 import JSValuePerfTest from './JSValuePerfTest.test';
 import NoContextInteropErrorPerfTest from './NoContextInteropErrorPerfTest.test';
-import PromiseInteropPerfTest from './PromiseInteropPerfTest.test';
 
 import ESValuePerfTest from './ESValuePerfTest.test';
 import InteropContextPerfTest from './InteropContextPerfTest.test';
@@ -99,22 +99,24 @@ import ConstsPerfTest from './ConstsPerfTest.test';
 import ChronoPerfTest from './ChronoPerfTest.test';
 
 
-
 export default function testsuite() {
+//------------------------------------core----------------------------------------------------
+  ArrayBufferPerfTest()
   ArrayPerfTest();
   ArrayLikePerfTest();
   BooleanPerfTest();
   BoxPerfTest();
   AbcFilePerfTest();
-  BuiltinArrayPerfTest();
+  BuiltinArrayPerfTest00();
+  BuiltinArrayPerfTest01();
+  BuiltinArrayPerfTest02();
+  BuiltinArrayPerfTest03();
   BuiltinArrayAlgorithmsPerfTest();
+  BytePerfTest();
   AbcRuntimeLinkerPerfTest()
-  ArrayBufferPerfTest()
   BaseEnumPerfTest()
   BigIntPerfTest()
   BootRuntimeLinkerPerfTest()
-  BytePerfTest();
-  BuiltinArrayPerfTest1() 
   BuiltinArraySortPerfTest()
   CharPerfTest();
   ClassPerfTest();
@@ -122,7 +124,6 @@ export default function testsuite() {
   ConcatArrayPerfTest();
   ConsolePerfTest();
   ConsoleHelperPerfTest();
-  CoroutinePerfTest();
   DataViewPerfTest();
   DatePerfTest();
   DoublePerfTest();
@@ -166,7 +167,6 @@ export default function testsuite() {
   JSRuntimePerfTest();
   JSValuePerfTest();
   NoContextInteropErrorPerfTest();
-  PromiseInteropPerfTest();
 
   ESValuePerfTest();
   InteropContextPerfTest();
@@ -179,5 +179,4 @@ export default function testsuite() {
 
 //==============================time==============================
   ChronoPerfTest();
-
 }

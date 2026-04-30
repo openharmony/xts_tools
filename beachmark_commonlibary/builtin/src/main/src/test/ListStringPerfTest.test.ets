@@ -24,19 +24,8 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../hypium/index";
+} from "../../../../../hypium/index";
 import performance from './Performance.util';
-
-class MockListString implements containers.ListString {
-  pushFront(e: String): void {}
-  popFront(): String { return new String(""); }
-  pushBack(e: String): void {}
-  popBack(): String { return new String(""); }
-  size(): int { return 0 as int; }
-  at(index: int): String { return new String(""); }
-  set(index: int, e: String): void {}
-  has(e: String): boolean { return true; }
-}
 
 export default function ListStringPerfTest(): void {
   describe('ListStringPerfTest', () => {
@@ -59,114 +48,96 @@ export default function ListStringPerfTest(): void {
     // ================================================================
 
     it('PerformanceTest_ListString_PushFront_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListString = new MockListString();
+      let list: containers.ListString = new containers.ArrayAsListString();
       let val = new String("test");
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.pushFront(val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {list.pushFront(val);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _list=list;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'pushFront', 'pushFront(e: String): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListString_PopFront_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListString = new MockListString();
+      let list: containers.ListString = new containers.ArrayAsListString();
       let val = new String("test");
-
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.pushBack(val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {list.pushBack(val);}
+      let res: String = new String("");
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.popFront();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = list.popFront();}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _list=list;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'popFront', 'popFront(): String', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListString_PushBack_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListString = new MockListString();
+      let list: containers.ListString = new containers.ArrayAsListString();
       let val = new String("test");
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.pushBack(val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {list.pushBack(val);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _list=list;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'pushBack', 'pushBack(e: String): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListString_PopBack_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListString = new MockListString();
+      let list: containers.ListString = new containers.ArrayAsListString();
       let val = new String("test");
-
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.pushBack(val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {list.pushBack(val);}
+      let res: String = new String("");
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.popBack();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = list.popBack();}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _list=list;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'popBack', 'popBack(): String', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListString_Size_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListString = new MockListString();
+      let list: containers.ListString = new containers.ArrayAsListString();
       list.pushBack(new String("test"));
-      let Stime = new Date().getTime();
-
       let currentSize = 0;
-
-      for (let i = 0; i < BASE_COUNT; i++) {
-        currentSize = list.size();
-      }
-
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {currentSize = list.size();}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _list = list;
       let _size = currentSize;
-
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'size', 'size(): int', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListString_At_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListString = new MockListString();
+      let list: containers.ListString = new containers.ArrayAsListString();
       list.pushBack(new String("test"));
+      let res: String = new String("");
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.at(0 as int);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = list.at(0 as int);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _list=list;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'at', 'at(index: int): String', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListString_Set_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListString = new MockListString();
+      let list: containers.ListString = new containers.ArrayAsListString();
       list.pushBack(new String("test1"));
       let val = new String("test2");
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.set(0 as int, val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {list.set(0 as int, val);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _list=list;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'set', 'set(index: int, e: String): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListString_Has_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let list: containers.ListString = new MockListString();
+      let list: containers.ListString = new containers.ArrayAsListString();
       let val = new String("test");
       list.pushBack(val);
+      let res: boolean = false;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        list.has(val);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = list.has(val);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _list=list;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'has', 'has(e: String): boolean', arkTsAveragedTime);
     })
 
