@@ -25,7 +25,6 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-
 export default function BuiltinArrayAlgorithmsPerfTest() {
   describe('BuiltinArrayAlgorithmsPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
@@ -238,14 +237,14 @@ export default function BuiltinArrayAlgorithmsPerfTest() {
       for (let i = 0; i < 10; i++) {
         src[i] = i;
       }
-      let dst: FixedArray<long> = new FixedArray<long>(10);
+      let res: FixedArray<long> = new FixedArray<long>(10);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        copyTo(src, dst, 0, 0, 10);
+        copyTo(src, res, 0, 0, 10);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = dst;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_CopyTo_Long_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'copyTo',
         'copyTo(src: FixedArray<long>, dst: FixedArray<long>, dstStart: int, srcStart: int, srcEnd: int): void', arkTsAveragedTime);

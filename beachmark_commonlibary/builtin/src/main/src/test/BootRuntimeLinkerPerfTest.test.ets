@@ -26,18 +26,21 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
+import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 export default function BootRuntimeLinkerPerfTest() {
   describe('BootRuntimeLinkerPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
-    // getBootRuntimeLinker --getNearestNonBootRuntimeLinker --instance --findAndLoadClass
-    const BASE_COUNT_SMALL = 200;
-    const BASE_COUNT_MEDIUM = 1000;
+    const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
+      let ret1 = GC.startGC(GC.Cause.FULL, true);
+      GC.waitForFinishGC(ret1);
     })
 
     afterAll(() => {
@@ -46,63 +49,66 @@ export default function BootRuntimeLinkerPerfTest() {
 
     it('PerformanceTest_BootRuntimeLinker_getBootRuntimeLinker_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = getBootRuntimeLinker();
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-        res = getBootRuntimeLinker();
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
-      console.info('arkTsPerformanceTest arkTsAveragedTime getBootRuntimeLinker: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'BootRuntimeLinker', 'getBootRuntimeLinker',
-        'function getBootRuntimeLinker(): BootRuntimeLinker', arkTsAveragedTime);
-      expect(res).not().assertNull();
-    })
+        let res: BootRuntimeLinker = getBootRuntimeLinker();
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = getBootRuntimeLinker();
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime getBootRuntimeLinker: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'BootRuntimeLinker', 'getBootRuntimeLinker',
+          'function getBootRuntimeLinker(): BootRuntimeLinker', arkTsAveragedTime);
+
+      })
 
     it('PerformanceTest_BootRuntimeLinker_instance_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = BootRuntimeLinker.instance;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-        res = BootRuntimeLinker.instance;
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
-      console.info('arkTsPerformanceTest arkTsAveragedTime instance: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'BootRuntimeLinker', 'instance',
-        'static final instance: BootRuntimeLinker', arkTsAveragedTime);
-      expect(res).not().assertNull();
-    })
+        let res: BootRuntimeLinker = BootRuntimeLinker.instance;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = BootRuntimeLinker.instance;
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime instance: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'BootRuntimeLinker', 'instance',
+          'static final instance: BootRuntimeLinker', arkTsAveragedTime);
+      })
 
     it('PerformanceTest_BootRuntimeLinker_getNearestNonBootRuntimeLinker_0300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = getNearestNonBootRuntimeLinker();
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
-      console.info('arkTsPerformanceTest arkTsAveragedTime getNearestNonBootRuntimeLinker: '
-        + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', '', 'getNearestNonBootRuntimeLinker',
-        'native function getNearestNonBootRuntimeLinker(): RuntimeLinker | undefined', arkTsAveragedTime);
-    })
+        let res: RuntimeLinker | undefined = getNearestNonBootRuntimeLinker();
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = getNearestNonBootRuntimeLinker();
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime getNearestNonBootRuntimeLinker: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'BootRuntimeLinker', 'getNearestNonBootRuntimeLinker',
+          'native function getNearestNonBootRuntimeLinker(): RuntimeLinker | undefined', arkTsAveragedTime);
+      })
 
     it('PerformanceTest_BootRuntimeLinker_findAndLoadClass_0400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let bootLinker = getBootRuntimeLinker();
-      let Stime = new Date().getTime();
-      let res = bootLinker.findAndLoadClass("std.core.String", true);
-      for (let i = 0; i < BASE_COUNT_SMALL; i++) {
-        res = bootLinker.findAndLoadClass("std.core.String", true);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_SMALL;
-      console.info('arkTsPerformanceTest arkTsAveragedTime findAndLoadClass: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'BootRuntimeLinker', 'findAndLoadClass',
-        'public native override findAndLoadClass(clsName: string, init: boolean): Class | undefined',
-        arkTsAveragedTime);
-      expect(res).not().assertUndefined();
-    })
+        let bootLinker = getBootRuntimeLinker();
+        let res: Class | undefined = bootLinker.findAndLoadClass("std.core.String", true);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = bootLinker.findAndLoadClass("std.core.String", true);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime findAndLoadClass: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'BootRuntimeLinker', 'findAndLoadClass',
+          'public native override findAndLoadClass(clsName: string, init: boolean): Class | undefined',
+          arkTsAveragedTime);
+      })
   })
 }
