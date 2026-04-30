@@ -24,9 +24,8 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../hypium/index";
+} from "../../../../../hypium/index";
 import performance from './Performance.util';
-
 
 export default function ChronoPerfTest() {
   describe('ChronoPerfTest', () => {
@@ -45,56 +44,48 @@ export default function ChronoPerfTest() {
     })
 
     // ================================================================
-    // 1. NS_PER_MS
+    // 1. NS_PER_MS (Static Readonly Field)
     // ================================================================
     it('PerformanceTest_Chrono_NS_PER_MS_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let Stime = new Date().getTime();
       let res: long = 0 as long;
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Chrono.NS_PER_MS;
-      }
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) { res = Chrono.NS_PER_MS; }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.time', 'Chrono', 'NS_PER_MS', 'NS_PER_MS: long', arkTsAveragedTime);
     })
 
     // ================================================================
-    // 2. NanoNow
+    // 2. NanoNow (Static Native Method)
     // ================================================================
     it('PerformanceTest_Chrono_NanoNow_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let Stime = new Date().getTime();
       let res: long = 0 as long;
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Chrono.nanoNow();
-      }
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) { res = Chrono.nanoNow(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.time', 'Chrono', 'nanoNow', 'nanoNow(): long', arkTsAveragedTime);
     })
 
     // ================================================================
-    // 2. MilliNow
+    // 3. MilliNow (Static Method)
     // ================================================================
     it('PerformanceTest_Chrono_MilliNow_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let Stime = new Date().getTime();
       let res: number = 0.0;
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Chrono.milliNow();
-      }
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) { res = Chrono.milliNow(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.time', 'Chrono', 'milliNow', 'milliNow(): number', arkTsAveragedTime);
     })
 
     // ================================================================
-    // 2. GetCpuTime
+    // 4. GetCpuTime (Static Native Method)
     // ================================================================
     it('PerformanceTest_Chrono_GetCpuTime_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let Stime = new Date().getTime();
       let res: long = 0 as long;
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Chrono.getCpuTime();
-      }
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) { res = Chrono.getCpuTime(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.time', 'Chrono', 'getCpuTime', 'getCpuTime(): long', arkTsAveragedTime);

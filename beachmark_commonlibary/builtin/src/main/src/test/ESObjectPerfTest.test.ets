@@ -24,8 +24,9 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../hypium/index";
+} from "../../../../../hypium/index";
 import performance from './Performance.util';
+
 
 export default function ESObjectPerfTest(): void {
   describe('ESObjectPerfTest', () => {
@@ -48,11 +49,12 @@ export default function ESObjectPerfTest(): void {
     // ================================================================
 
     it('PerformanceTest_ESObject_TypeAlias_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dummyObj = new Object();
+      let res: ESObject = new ESValue(dummyObj);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        let mockESObject = new Object();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) {res = new ESValue(dummyObj);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'ESObject', 'TypeAlias', 'type ESObject = ESValue', arkTsAveragedTime);
     })
 

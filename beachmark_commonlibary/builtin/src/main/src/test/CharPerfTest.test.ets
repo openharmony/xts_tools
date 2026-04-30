@@ -28,8 +28,6 @@ import {
 import performance from './Performance.util';
 import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-let str = '';
-
 export default function CharPerfTest(): void {
   describe('CharPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒

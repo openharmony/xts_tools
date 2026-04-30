@@ -24,10 +24,10 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../hypium/index";
+} from "../../../../../hypium/index";
 import performance from './Performance.util';
 
-export default function ConcurrentSetPerfTest() {
+export default function ConcurrentSetPerfTest(): void {
   describe('ConcurrentSetPerfTest', () => {
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
@@ -46,196 +46,160 @@ export default function ConcurrentSetPerfTest() {
     // ================================================================
     // 1. ConcurrentSet Constructors
     // ================================================================
+
     it('PerformanceTest_ConcurrentSet_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
-
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set = new containers.ConcurrentSet<Int>();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { set = new containers.ConcurrentSet<Int>(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-
       let _set = set;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'constructor', 'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ConcurrentSet_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Array<Int> = [new Int(1)];
+      let val = new Int(1);
+      let arr: Array<Int> = [val];
       let set = new containers.ConcurrentSet<Int>(arr);
-
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set = new containers.ConcurrentSet<Int>(arr);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { set = new containers.ConcurrentSet<Int>(arr); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-
       let _set = set;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'constructor', 'constructor(values: ArrayLike<T>)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ConcurrentSet_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let iterableSet = new containers.ConcurrentSet<Int>();
-      iterableSet.add(new Int(1));
-      let set = new containers.ConcurrentSet<Int>(iterableSet);
-
+      let val = new Int(1);
+      let entries: Array<Int> = [val];
+      let set = new containers.ConcurrentSet<Int>(entries as Iterable<Int>);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set = new containers.ConcurrentSet<Int>(iterableSet);
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { set = new containers.ConcurrentSet<Int>(entries as Iterable<Int>); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-
       let _set = set;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'constructor', 'constructor(iterable: Iterable<T>)', arkTsAveragedTime);
-    })
-
-    it('PerformanceTest_ConcurrentSet_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let stdSet = new Set<Int>();
-      stdSet.add(new Int(1));
-      let set = new containers.ConcurrentSet<Int>(stdSet);
-
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set = new containers.ConcurrentSet<Int>(stdSet);
-      }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-
-      let _set = set;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'constructor', 'constructor(set: Set<T>)', arkTsAveragedTime);
     })
 
     // ================================================================
     // 2. ConcurrentSet Methods
     // ================================================================
+
     it('PerformanceTest_ConcurrentSet_Add_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
+      let vals: Int[] = [];
+      for (let i = 0; i < BASE_COUNT; i++) { vals.push(new Int(i as int)); }
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set.add(new Int(i));
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { set.add(vals[i]); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _set = set;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'add', 'add(val: T): this', arkTsAveragedTime);
+      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'add', 'add(v: K): ConcurrentSet<K>', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ConcurrentSet_Has_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
-      set.add(new Int(1));
+      let val = new Int(1);
+      set.add(val);
+      let res: boolean = false;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set.has(new Int(1));
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = set.has(val); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'has', 'has(val: T): boolean', arkTsAveragedTime);
+      let _res = res;
+      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'has', 'has(v: K): boolean', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ConcurrentSet_Size_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
       set.add(new Int(1));
-
-      let Stime = new Date().getTime();
-
       let currentSize = 0;
-
-      for (let i = 0; i < BASE_COUNT; i++) {
-        currentSize = set.size;
-      }
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) { currentSize = set.size; }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
       let _size = currentSize;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'size', 'get size(): int', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ConcurrentSet_Delete_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
+      let vals: Int[] = [];
+      for (let i = 0; i < BASE_COUNT; i++) {let v = new Int(i as int);vals.push(v);set.add(v);}
+      let res: boolean = false;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set.add(new Int(i));
-        set.delete(new Int(i));
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = set.delete(vals[i]); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'delete', 'delete(val: T): boolean', arkTsAveragedTime);
+      let _res = res;
+      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'delete', 'delete(v: K): boolean', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ConcurrentSet_Clear_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let set = new containers.ConcurrentSet<Int>();
+
+      let sets: containers.ConcurrentSet<Int>[] = [];
+      let val = new Int(1);
+      for (let i = 0; i < BASE_COUNT; i++) {let set = new containers.ConcurrentSet<Int>();set.add(val);sets.push(set);}
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set.add(new Int(1));
-        set.clear();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { sets[i].clear(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'clear', 'clear(): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ConcurrentSet_ToString_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
       set.add(new Int(1));
+      let res: String = new String("");
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set.toString();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = set.toString(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'toString', 'toString(): String', arkTsAveragedTime);
+      let _res = res;
+      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'toString', 'toString(): string', arkTsAveragedTime);
     })
 
-    // ================================================================
-    // 3. ConcurrentSet Iterators
-    // ================================================================
     it('PerformanceTest_ConcurrentSet_Keys_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
+      set.add(new Int(1));
+      let res: IterableIterator<Int> | null = null;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set.keys();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = set.keys(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'keys', 'keys(): IterableIterator<T>', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ConcurrentSet_Values_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
+      set.add(new Int(1));
+      let res: IterableIterator<Int> | null = null;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set.values();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = set.values(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'values', 'values(): IterableIterator<T>', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ConcurrentSet_Entries_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
+      set.add(new Int(1));
+      let res: IterableIterator<[Int, Int]> | null = null;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set.entries();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = set.entries(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'entries', 'entries(): IterableIterator<[T, T]>', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ConcurrentSet_Iterator_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
+      set.add(new Int(1));
+      let res: IterableIterator<Int> | null = null;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set.$_iterator();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = set.$_iterator(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', '$_iterator', '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ConcurrentSet_ForEach_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
       set.add(new Int(1));
+      let cb = (value: Int, value2: Int, set: containers.ConcurrentSet<Int>) => {};
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        set.forEach((v1, v2, s) => {});
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { set.forEach(cb); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _set = set;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'forEach', 'forEach(callbackfn): void', arkTsAveragedTime);
@@ -243,27 +207,25 @@ export default function ConcurrentSetPerfTest() {
 
     it('PerformanceTest_ConcurrentSetIterator_Next_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
-      set.add(new Int(1));
+      for (let i = 0; i < BASE_COUNT; i++) {set.add(new Int(i as int));}
       let iter = set.values();
+      let res: IteratorResult<Int> | null = null;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        iter.next();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = iter.next(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = iter;
+      let _res = res;
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSetIterator', 'next', 'next(): IteratorResult<T>', arkTsAveragedTime);
     })
 
     it('PerformanceTest_EmptyConcurrentSetIterator_Next_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new containers.ConcurrentSet<Int>();
       let iter = set.values();
+      let res: IteratorResult<Int> | null = null;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        iter.next();
-      }
+      for (let i = 0; i < BASE_COUNT; i++) { res = iter.next(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = iter;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'EmptyConcurrentSetIterator', 'next', 'next(): IteratorResult<T>', arkTsAveragedTime);
+      let _res = res;
+      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSetIterator', 'next', 'next(): IteratorResult<T>', arkTsAveragedTime);
     })
 
   })

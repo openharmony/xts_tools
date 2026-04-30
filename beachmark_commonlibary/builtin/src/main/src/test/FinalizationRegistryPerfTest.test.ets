@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-  import {
+import {
   describe,
   it,
   expect,
@@ -28,13 +28,10 @@
 import performance from './Performance.util';
 import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-let str = '';
-
-
 export default function FinalizationRegistryPerfTest() {
   describe('FinalizationRegistryPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
-    const BASE_COUNT = 500;
+    const BASE_COUNT = 50000;
     // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
@@ -62,9 +59,9 @@ export default function FinalizationRegistryPerfTest() {
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
 
-        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
-            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'FinalizationRegistry', 'constructor',
+            'constructor(cleanupCallback: (heldValue: T) => void)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_FinalizationRegistryPerfTest_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -78,9 +75,9 @@ export default function FinalizationRegistryPerfTest() {
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
 
-        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
-            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0200: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'FinalizationRegistry', 'getSize',
+            'getSize(): number', arkTsAveragedTime);
     })
 
 
@@ -93,24 +90,32 @@ export default function FinalizationRegistryPerfTest() {
         }
         let Dtime = new Date().getTime() - Stime;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
-            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        let res1 = registry;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0300: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'FinalizationRegistry', 'register',
+            'register(target: Object, heldValue: T): void', arkTsAveragedTime);
     })
 
 
     it('PerformanceTest_FinalizationRegistryPerfTest_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let registry = new FinalizationRegistry<number>((value: number) => {});
-        let obj: Object = {}
+        let objArray = new Array<Object>();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            let obj: Object = {}
+            registry.register(obj, i)
+            objArray.push(obj)
+        }
+
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-            registry.unregister(obj)
+            registry.unregister(objArray[i])
         }
         let Dtime = new Date().getTime() - Stime;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime format: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'format',
-            'function format(format: string, ...args: Object[]): string;', arkTsAveragedTime);
+        let res1 = registry;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0400: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'FinalizationRegistry', 'unregister',
+            'unregister(target: Object): void', arkTsAveragedTime);
     })
     })
 
