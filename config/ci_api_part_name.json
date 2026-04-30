@@ -2905,6 +2905,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.errorManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundle.appDomainVerify.d.ts",
             "bundle_name": [
                 "app_domain_verify"
@@ -5713,6 +5720,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.appRecovery.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.appRecovery.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -10353,6 +10367,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/ErrorObserver.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/ServiceExtensionContext.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -10445,6 +10466,13 @@
         },
         {
             "path": "interface/sdk-js/api/application/LoopObserver.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/LoopObserver.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
