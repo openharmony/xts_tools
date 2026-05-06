@@ -889,6 +889,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.events.emitter.d.ts",
+            "bundle_name": [
+                "eventhandler"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.restrictions.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
