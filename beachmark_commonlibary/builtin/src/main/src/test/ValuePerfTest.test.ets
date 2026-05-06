@@ -1873,7 +1873,751 @@ export default function ValuePerfTest(): void {
         );
       });
 
+    it('PerformanceTest_FloatValue_getType_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: FloatValue = createFloatValueObj();
+        let result: Type = value.getType();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getType();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FloatValue_getType_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'FloatValue',
+          'getType',
+          'getType(): Type',
+          arkTsAveragedTime
+        );
+      });
 
+    it('PerformanceTest_FloatValue_getData_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: FloatValue = createFloatValueObj();
+        let result: Any = value.getData();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getData();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FloatValue_getData_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'FloatValue',
+          'getData',
+          'getData(): Any',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_FloatValue_getValueData_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: FloatValue = createFloatValueObj();
+        let result: float = value.getValueData();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getValueData();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FloatValue_getValueData_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'FloatValue',
+          'getValueData',
+          'getValueData(): float',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_FloatValue_toPrint_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: FloatValue = createFloatValueObj();
+        let result: string = value.toPrint(1);
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toPrint(1);
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FloatValue_toPrint_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'FloatValue',
+          'toPrint',
+          'toPrint(depth: int): string',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_FloatValue_toString_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: FloatValue = createFloatValueObj();
+        let result: string = value.toString();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toString();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FloatValue_toString_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'FloatValue',
+          'toString',
+          'toString(): string',
+          arkTsAveragedTime
+        );
+      });
+
+    /*
+     * DoubleValue
+     */
+
+    it('PerformanceTest_DoubleValue_constructor_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: DoubleValue = new DoubleValue(DoubleType.VAL, 3.14);
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = new DoubleValue(DoubleType.VAL, 3.14);
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DoubleValue_constructor_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'DoubleValue',
+          'constructor',
+          'constructor(typ: DoubleType, data: double)',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_DoubleValue_getType_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: DoubleValue = createDoubleValueObj();
+        let result: Type = value.getType();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getType();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DoubleValue_getType_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'DoubleValue',
+          'getType',
+          'getType(): Type',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_DoubleValue_getData_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: DoubleValue = createDoubleValueObj();
+        let result: Any = value.getData();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getData();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DoubleValue_getData_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'DoubleValue',
+          'getData',
+          'getData(): Any',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_DoubleValue_getValueData_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: DoubleValue = createDoubleValueObj();
+        let result: double = value.getValueData();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getValueData();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DoubleValue_getValueData_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'DoubleValue',
+          'getValueData',
+          'getValueData(): double',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_DoubleValue_toPrint_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: DoubleValue = createDoubleValueObj();
+        let result: string = value.toPrint(1);
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toPrint(1);
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DoubleValue_toPrint_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'DoubleValue',
+          'toPrint',
+          'toPrint(depth: int): string',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_DoubleValue_toString_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: DoubleValue = createDoubleValueObj();
+        let result: string = value.toString();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toString();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DoubleValue_toString_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'DoubleValue',
+          'toString',
+          'toString(): string',
+          arkTsAveragedTime
+        );
+      });
+
+    /*
+     * LongValue
+     */
+
+    it('PerformanceTest_LongValue_constructor_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let data: long = toLongValue(7);
+        let result: LongValue = new LongValue(LongType.VAL, data);
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = new LongValue(LongType.VAL, data);
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongValue_constructor_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'LongValue',
+          'constructor',
+          'constructor(typ: LongType, data: long)',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_LongValue_getType_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: LongValue = createLongValueObj();
+        let result: Type = value.getType();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getType();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongValue_getType_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'LongValue',
+          'getType',
+          'getType(): Type',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_LongValue_getData_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: LongValue = createLongValueObj();
+        let result: Any = value.getData();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getData();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongValue_getData_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'LongValue',
+          'getData',
+          'getData(): Any',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_LongValue_getValueData_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: LongValue = createLongValueObj();
+        let result: long = value.getValueData();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getValueData();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongValue_getValueData_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'LongValue',
+          'getValueData',
+          'getValueData(): long',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_LongValue_toPrint_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: LongValue = createLongValueObj();
+        let result: string = value.toPrint(1);
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toPrint(1);
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongValue_toPrint_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'LongValue',
+          'toPrint',
+          'toPrint(depth: int): string',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_LongValue_toString_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: LongValue = createLongValueObj();
+        let result: string = value.toString();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toString();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongValue_toString_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'LongValue',
+          'toString',
+          'toString(): string',
+          arkTsAveragedTime
+        );
+      });
+
+    /*
+     * StringValue
+     */
+
+    it('PerformanceTest_StringValue_constructor_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let data: String = createStringObject();
+        let result: StringValue = new StringValue(StringType.REF, data);
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = new StringValue(StringType.REF, data);
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StringValue_constructor_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'StringValue',
+          'constructor',
+          'constructor(typ: StringType, data: String)',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_StringValue_getType_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: StringValue = createStringValue();
+        let result: Type = value.getType();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getType();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StringValue_getType_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'StringValue',
+          'getType',
+          'getType(): Type',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_StringValue_getData_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: StringValue = createStringValue();
+        let result: Any = value.getData();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getData();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StringValue_getData_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'StringValue',
+          'getData',
+          'getData(): Any',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_StringValue_toPrint_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: StringValue = createStringValue();
+        let result: string = value.toPrint(1);
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toPrint(1);
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StringValue_toPrint_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'StringValue',
+          'toPrint',
+          'toPrint(depth: int): string',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_StringValue_toString_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: StringValue = createStringValue();
+        let result: string = value.toString();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toString();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StringValue_toString_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'StringValue',
+          'toString',
+          'toString(): string',
+          arkTsAveragedTime
+        );
+      });
+
+    /*
+     * NullValue
+     */
+
+    it('PerformanceTest_NullValue_constructor_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: NullValue = new NullValue();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = new NullValue();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_NullValue_constructor_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'NullValue',
+          'constructor',
+          'constructor()',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_NullValue_getType_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: NullValue = NullValue.INSTANCE;
+        let result: Type = value.getType();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getType();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_NullValue_getType_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'NullValue',
+          'getType',
+          'getType(): Type',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_NullValue_getData_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: NullValue = NullValue.INSTANCE;
+        let result: Any = value.getData();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getData();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_NullValue_getData_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'NullValue',
+          'getData',
+          'getData(): Any',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_NullValue_toPrint_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: NullValue = NullValue.INSTANCE;
+        let result: string = value.toPrint(1);
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toPrint(1);
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_NullValue_toPrint_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'NullValue',
+          'toPrint',
+          'toPrint(depth: int): string',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_NullValue_toString_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: NullValue = NullValue.INSTANCE;
+        let result: string = value.toString();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toString();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_NullValue_toString_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'NullValue',
+          'toString',
+          'toString(): string',
+          arkTsAveragedTime
+        );
+      });
+
+    /*
+     * UndefinedValue
+     */
+
+    it('PerformanceTest_UndefinedValue_constructor_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: UndefinedValue = new UndefinedValue();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = new UndefinedValue();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinedValue_constructor_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'UndefinedValue',
+          'constructor',
+          'constructor()',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_UndefinedValue_getType_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: UndefinedValue = UndefinedValue.INSTANCE;
+        let result: Type = value.getType();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getType();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinedValue_getType_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'UndefinedValue',
+          'getType',
+          'getType(): Type',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_UndefinedValue_getData_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: UndefinedValue = UndefinedValue.INSTANCE;
+        let result: Any = value.getData();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.getData();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinedValue_getData_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'UndefinedValue',
+          'getData',
+          'getData(): Any',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_UndefinedValue_toPrint_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: UndefinedValue = UndefinedValue.INSTANCE;
+        let result: string = value.toPrint(1);
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toPrint(1);
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinedValue_toPrint_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'UndefinedValue',
+          'toPrint',
+          'toPrint(depth: int): string',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_UndefinedValue_toString_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: UndefinedValue = UndefinedValue.INSTANCE;
+        let result: string = value.toString();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = value.toString();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinedValue_toString_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'UndefinedValue',
+          'toString',
+          'toString(): string',
+          arkTsAveragedTime
+        );
+      });
+
+    /*
+     * VoidValue
+     */
+
+    it('PerformanceTest_VoidValue_constructor_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: VoidValue = new VoidValue();
+        let sTime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = new VoidValue();
+        }
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_VoidValue_constructor_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'VoidValue',
+          'constructor',
+          'constructor()',
+          arkTsAveragedTime
+        );
+      });
 
     it('PerformanceTest_VoidValue_getType_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
