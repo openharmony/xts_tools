@@ -24,7 +24,7 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../../../hypium/index";
+} from "../../../hypium/index";
 import performance from './Performance.util';
 
 export default function MathPerfTest() {
@@ -70,9 +70,9 @@ export default function MathPerfTest() {
     // 2. Math Trigonometric & Hyperbolic Functions (0300 - 2600)
     // ================================================================
     it('PerformanceTest_math_Acosh_Float_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = acosh(2.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = acosh(2.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'acosh', 'acosh(v: float): float', arkTsAveragedTime);
@@ -81,16 +81,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Acosh_Double_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = acosh(2.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = acosh(2.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'acosh', 'acosh(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Acos_Float_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = acos(0.5 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = acos(0.5); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'acos', 'acos(v: float): float', arkTsAveragedTime);
@@ -99,16 +99,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Acos_Double_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = acos(0.5 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = acos(0.5); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'acos', 'acos(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Asinh_Float_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = asinh(1.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = asinh(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'asinh', 'asinh(v: float): float', arkTsAveragedTime);
@@ -117,16 +117,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Asinh_Double_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = asinh(1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = asinh(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'asinh', 'asinh(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Asin_Float_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = asin(0.5 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = asin(0.5); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'asin', 'asin(v: float): float', arkTsAveragedTime);
@@ -135,16 +135,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Asin_Double_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = asin(0.5 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = asin(0.5); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'asin', 'asin(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Atan2_Float_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = atan2(1.0 as float, 1.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = atan2(1.0, 1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'atan2', 'atan2(y: float, x: float): float', arkTsAveragedTime);
@@ -153,16 +153,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Atan2_Double_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = atan2(1.0 as double, 1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = atan2(1.0, 1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'atan2', 'atan2(y: double, x: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Atanh_Float_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = atanh(0.5 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = atanh(0.5); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'atanh', 'atanh(v: float): float', arkTsAveragedTime);
@@ -171,16 +171,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Atanh_Double_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = atanh(0.5 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = atanh(0.5); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'atanh', 'atanh(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Atan_Float_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = atan(1.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = atan(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'atan', 'atan(v: float): float', arkTsAveragedTime);
@@ -189,16 +189,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Atan_Double_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = atan(1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = atan(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'atan', 'atan(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Cosh_Float_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = cosh(1.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = cosh(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'cosh', 'cosh(v: float): float', arkTsAveragedTime);
@@ -207,7 +207,7 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Cosh_Double_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = cosh(1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = cosh(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'cosh', 'cosh(v: double): double', arkTsAveragedTime);
@@ -216,16 +216,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Cos_Double_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = cos(1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = cos(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'cos', 'cos(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Sinh_Float_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = sinh(1.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = sinh(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'sinh', 'sinh(v: float): float', arkTsAveragedTime);
@@ -234,7 +234,7 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Sinh_Double_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = sinh(1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = sinh(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'sinh', 'sinh(v: double): double', arkTsAveragedTime);
@@ -243,16 +243,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Sin_Double_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = sin(1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = sin(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'sin', 'sin(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Tanh_Float_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = tanh(1.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = tanh(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'tanh', 'tanh(v: float): float', arkTsAveragedTime);
@@ -261,16 +261,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Tanh_Double_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = tanh(1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = tanh(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'tanh', 'tanh(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Tan_Float_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = tan(1.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = tan(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'tan', 'tan(v: float): float', arkTsAveragedTime);
@@ -279,7 +279,7 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Tan_Double_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = tan(1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = tan(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'tan', 'tan(v: double): double', arkTsAveragedTime);
@@ -289,9 +289,9 @@ export default function MathPerfTest() {
     // 3. Math Exponential, Roots & Logarithms (2700 - 4500)
     // ================================================================
     it('PerformanceTest_math_Cbrt_Float_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = cbrt(8.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = cbrt(8.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'cbrt', 'cbrt(v: float): float', arkTsAveragedTime);
@@ -300,7 +300,7 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Cbrt_Double_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = cbrt(8.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = cbrt(8.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'cbrt', 'cbrt(v: double): double', arkTsAveragedTime);
@@ -309,16 +309,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Power2_Double_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = power2(3.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = power2(3.0 ); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'power2', 'power2(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Expm1_Float_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = expm1(1.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = expm1(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'expm1', 'expm1(v: float): float', arkTsAveragedTime);
@@ -327,16 +327,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Expm1_Double_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = expm1(1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = expm1(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'expm1', 'expm1(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Exp_Float_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = exp(1.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = exp(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'exp', 'exp(v: float): float', arkTsAveragedTime);
@@ -345,16 +345,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Exp_Double_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = exp(1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = exp(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'exp', 'exp(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Hypot_Float_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = hypot(3.0 as float, 4.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = hypot(3.0, 4.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'hypot', 'hypot(u: float, v: float): float', arkTsAveragedTime);
@@ -363,7 +363,7 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Hypot_Double_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = hypot(3.0 as double, 4.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = hypot(3.0, 4.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'hypot', 'hypot(u: double, v: double): double', arkTsAveragedTime);
@@ -372,7 +372,7 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Sqrt_Double_3600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = sqrt(9.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = sqrt(9.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'sqrt', 'sqrt(v: double): double', arkTsAveragedTime);
@@ -381,16 +381,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Power_Double_3700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = power(2.0 as double, 3.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = power(2.0, 3.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'power', 'power(v: double, u: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Log10_Float_3800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = log10(100.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = log10(100.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'log10', 'log10(v: float): float', arkTsAveragedTime);
@@ -399,16 +399,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Log10_Double_3900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = log10(100.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = log10(100.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'log10', 'log10(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Log1p_Float_4000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = log1p(1.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = log1p(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'log1p', 'log1p(v: float): float', arkTsAveragedTime);
@@ -417,16 +417,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Log1p_Double_4100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = log1p(1.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = log1p(1.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'log1p', 'log1p(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Log2_Float_4200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = log2(8.0 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = log2(8.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'log2', 'log2(v: float): float', arkTsAveragedTime);
@@ -435,16 +435,16 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Log2_Double_4300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = log2(8.0 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = log2(8.0); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'log2', 'log2(v: double): double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_math_Log_Float_4400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = log(2.718 as float); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = log(2.718f); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'log', 'log(v: float): float', arkTsAveragedTime);
@@ -453,7 +453,7 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Log_Double_4500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = log(2.718 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = log(2.718).toDouble(); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'log', 'log(v: double): double', arkTsAveragedTime);
@@ -465,7 +465,7 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Ceil_Double_4600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = ceil(1.5 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = ceil(1.5); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'ceil', 'ceil(v: double): double', arkTsAveragedTime);
@@ -474,7 +474,7 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Floor_Double_4700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = floor(1.5 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = floor(1.5); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'floor', 'floor(v: double): double', arkTsAveragedTime);
@@ -483,7 +483,7 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Round_Double_4800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = round(1.5 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = round(1.5); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'round', 'round(v: double): double', arkTsAveragedTime);
@@ -492,7 +492,7 @@ export default function MathPerfTest() {
     it('PerformanceTest_math_Trunc_Double_4900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = trunc(1.5 as double); }
+      for (let i = 0; i < BASE_COUNT; i++) { res = trunc(1.5); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       performance.apiWithClassAndKeywordTxt('std.math', 'math', 'trunc', 'trunc(v: double): double', arkTsAveragedTime);
@@ -626,7 +626,7 @@ export default function MathPerfTest() {
 
     it('PerformanceTest_math_SeedRandom_Long_6300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let seeds: long[] = [];
-      for (let i = 0; i < BASE_COUNT; i++) {seeds.push((12345 + i) as long);}
+      for (let i = 0; i < BASE_COUNT; i++) {seeds.push((12345 + i));}
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { seedRandom(seeds[i]); }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;

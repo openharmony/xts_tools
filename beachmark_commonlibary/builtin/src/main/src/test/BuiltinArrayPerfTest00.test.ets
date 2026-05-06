@@ -27,7 +27,7 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function BuiltinArrayPerfTest00() {
+export default function BuiltinArrayPerfTest00(): void {
   describe('BuiltinArrayPerfTest00', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
@@ -889,7 +889,7 @@ export default function BuiltinArrayPerfTest00() {
       let result: byte = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = reduce(fixArray, (previousValue: byte, currentValue: byte) => previousValue + currentValue as byte);
+        result = reduce(fixArray, (previousValue: byte, currentValue: byte) => Int.toByte(previousValue + currentValue) );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -1258,7 +1258,7 @@ export default function BuiltinArrayPerfTest00() {
       let result = new FixedArray<byte>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = map(fixArray, (value: byte) => value * 2 as byte);
+        result = map(fixArray, (value: byte) => Int.toByte(value * 2 ));
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -1274,7 +1274,7 @@ export default function BuiltinArrayPerfTest00() {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result =
-          reduceRight(fixArray, (previousValue: byte, currentValue: byte) => previousValue + currentValue as byte);
+          reduceRight(fixArray, (previousValue: byte, currentValue: byte) => Int.toByte(previousValue + currentValue));
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -1548,7 +1548,7 @@ export default function BuiltinArrayPerfTest00() {
       let result: short = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = reduce(fixArray, (previousValue: short, currentValue: short) => previousValue + currentValue as short);
+        result = reduce(fixArray, (previousValue: short, currentValue: short) => Int.toShort(previousValue + currentValue));
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;

@@ -27,7 +27,7 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function EAWorkerPerfTest() {
+export default function EAWorkerPerfTest(): void {
   describe('EAWorkerPerfTest', () => {
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
@@ -240,7 +240,7 @@ export default function EAWorkerPerfTest() {
       let worker = new EAWorker();
       worker.start();
       let fn = () => { return 42; };
-      let res: Job<number> | undefined = undefined;
+      let res: Job<Double> | undefined = undefined;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = worker.run<number>(fn);
@@ -251,7 +251,7 @@ export default function EAWorkerPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'run',
-        'run<R>(task: Function, ...args: FixedArray<Any>): Job<R>', arkTsAveragedTime);
+        'run<R>(task: Function, ...args: FixedArray<Any>): Promise<R>', arkTsAveragedTime);
     })
 
     it('PerformanceTest_EAWorker_Instance_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -306,7 +306,7 @@ export default function EAWorkerPerfTest() {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'join',
-        'join(): Job<void>', arkTsAveragedTime);
+        'join(): Promise<void>', arkTsAveragedTime);
     })
 
     it('PerformanceTest_EAWorker_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {

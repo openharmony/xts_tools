@@ -27,7 +27,7 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function BuiltinArrayPerfTest02() {
+export default function BuiltinArrayPerfTest02(): void {
   describe('BuiltinArrayPerfTest02', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
@@ -190,7 +190,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_21600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result: Float = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -205,7 +205,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_21700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result = new FixedArray<float>(5);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -220,7 +220,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_21800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result = new FixedArray<float>(5);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -235,7 +235,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_21900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result = new FixedArray<float>(5);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -250,11 +250,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_22000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result = new FixedArray<float>(5);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = fill(fixArray, 9.9 as float);
+        result = fill(fixArray, 9.9f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -265,11 +265,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_22100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result: Float | undefined = undefined;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = find(fixArray, (value: float) => value > 3.3);
+        result = find(fixArray, (value: float) => value > 3.3f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -280,11 +280,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_22200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result: int = -1;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = findIndex(fixArray, (value: float) => value > 3.3);
+        result = findIndex(fixArray, (value: float) => value > 3.3f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -295,11 +295,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_22300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result: Float | undefined = undefined;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = findLast(fixArray, (elem: float) => elem < 5.5);
+        result = findLast(fixArray, (elem: float) => elem < 5.5f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -310,11 +310,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_22400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = every(fixArray, (value: float) => value > 1.0);
+        result = every(fixArray, (value: float) => value > 1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -325,11 +325,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_22500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = some(fixArray, (value: float) => value > 5.0);
+        result = some(fixArray, (value: float) => value > 5.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -340,11 +340,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_22600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result: int = -1;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = findLastIndex(fixArray, (element: float) => element < 5.5);
+        result = findLastIndex(fixArray, (element: float) => element < 5.5f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -355,7 +355,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_22700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float,];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result: float = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -371,11 +371,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_22800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float,];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result: float = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = reduce(fixArray, (previousValue: float, currentValue: float) => previousValue + currentValue, 10.0);
+        result = reduce(fixArray, (previousValue: float, currentValue: float) => previousValue + currentValue, 10.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -387,7 +387,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_22900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float,];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result: string = "";
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -404,7 +404,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_23000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float,];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result: float = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -421,7 +421,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_23100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -436,7 +436,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_23200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result = new FixedArray<float>(2);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -451,11 +451,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_23300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 2.2 as float, 1.1 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 2.2f, 1.1f];
       let result: int = -1;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = lastIndexOf(fixArray, 2.2 as float);
+        result = lastIndexOf(fixArray, 2.2f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -466,7 +466,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_23400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float,];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result: string = "";
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -481,7 +481,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_23500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float,];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result: string = "";
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -496,7 +496,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_23600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float,];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let locales: Object = "en-US";
       let options: Object = {};
       let res = toLocaleString(fixArray, locales, options);
@@ -513,7 +513,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_23700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float,];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let locales: Object = "zh-CN";
       let res = toLocaleString(fixArray, locales);
       let Stime = new Date().getTime();
@@ -529,7 +529,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_23800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float,];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result: string = "";
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -544,7 +544,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_23900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result = new FixedArray<float>(1);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -559,11 +559,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_24000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result = new FixedArray<float>(4);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = toSpliced(fixArray, 1, 2, 8.8 as float);
+        result = toSpliced(fixArray, 1, 2, 8.8f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -575,7 +575,7 @@ export default function BuiltinArrayPerfTest02() {
 
 
     it('PerformanceTest_BuiltinArrayTest_24100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -590,11 +590,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_24200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = includes(fixArray, 3.3 as float);
+        result = includes(fixArray, 3.3f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -605,11 +605,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_24300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result: int = -1;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = indexOf(fixArray, 4.4 as float);
+        result = indexOf(fixArray, 4.4f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -620,7 +620,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_24400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -635,7 +635,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_24500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -652,7 +652,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_24600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -667,7 +667,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_24700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -682,11 +682,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_24800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = with(fixArray, 1, 9.9 as float);
+        result = with(fixArray, 1, 9.9f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -697,7 +697,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_24900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result = values(fixArray);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -712,8 +712,8 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_25000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
-      let fixArray2: FixedArray<float> = [1.12 as float, 2.22 as float, 3.32 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
+      let fixArray2: FixedArray<float> = [1.12f, 2.22f, 3.32f];
 
       let result = entries(fixArray2);
       let Stime = new Date().getTime();
@@ -729,11 +729,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_25100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = map(fixArray, (value: float) => value * 2.0 as float);
+        result = map(fixArray, (value: float) => value * 2.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -744,7 +744,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_25200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result: float = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -760,11 +760,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_25300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float, 4.4 as float, 5.5 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = filter(fixArray, (v: float) => v > 2.2);
+        result = filter(fixArray, (v: float) => v > 2.2f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -775,8 +775,8 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_25400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
-      let fixArray2: FixedArray<float> = [4.4 as float, 5.5 as float, 6.6 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
+      let fixArray2: FixedArray<float> = [4.4f, 5.5f, 6.6f];
       let result = new FixedArray<float>(6);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -791,11 +791,11 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_25500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result = new FixedArray<float>(5);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = concat(fixArray, [4.4 as float, 5.5 as float] as FixedArray<float>);
+        result = concat(fixArray, [4.4f, 5.5f] as FixedArray<float>);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -806,7 +806,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_25600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -823,7 +823,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_25700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -838,7 +838,7 @@ export default function BuiltinArrayPerfTest02() {
     })
 
     it('PerformanceTest_BuiltinArrayTest_25800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [1.1 as float, 2.2 as float, 3.3 as float];
+      let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f];
       let result = keys(fixArray);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {

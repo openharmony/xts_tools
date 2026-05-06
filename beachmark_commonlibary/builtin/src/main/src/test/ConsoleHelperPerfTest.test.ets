@@ -45,7 +45,7 @@ class Point3D {
   z: int = 3;
 }
 
-export default function ConsoleHelperPerfTest() {
+export default function ConsoleHelperPerfTest(): void {
   describe('ConsoleHelperPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;

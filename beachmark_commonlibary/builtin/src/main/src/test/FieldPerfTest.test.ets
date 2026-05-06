@@ -33,7 +33,7 @@ class MyClass {
     name: string = "test";
 }
 
-export default function FieldPerfTest() {
+export default function FieldPerfTest(): void {
   describe('FieldPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;

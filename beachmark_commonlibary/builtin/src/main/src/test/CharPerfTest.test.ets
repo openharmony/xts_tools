@@ -77,19 +77,6 @@ export default function CharPerfTest(): void {
         'function constructor(value: char)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Char_Static_valueOf_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Char = new Char();
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Char.valueOf(c'A');
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Char_Static_valueOf_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Char', 'valueOf',
-        'static valueOf(value: char): Char', arkTsAveragedTime);
-    })
 
     it('PerformanceTest_Char_Static_compare_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let char1 = new Char(c'A');
@@ -164,7 +151,7 @@ export default function CharPerfTest(): void {
     })
 
     it('PerformanceTest_Char_Static_toFloat_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 0.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Char.toFloat(c'A');
@@ -608,7 +595,7 @@ export default function CharPerfTest(): void {
 
     it('PerformanceTest_Char_Instance_toFloat_4000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let charObj = new Char(c'A');
-      let res: float = 0.0 as float;
+      let res: float = 0.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = charObj.toFloat();

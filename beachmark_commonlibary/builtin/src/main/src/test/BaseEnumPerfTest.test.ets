@@ -28,7 +28,7 @@ import {
 import performance from './Performance.util';
 import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-export default function BaseEnumPerfTest() {
+export default function BaseEnumPerfTest(): void {
   describe('BaseEnumPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     // BaseEnum.constructor --BaseEnum.value
@@ -47,10 +47,10 @@ export default function BaseEnumPerfTest() {
     })
 
     it('PerformanceTest_BaseEnum_constructor_int_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: BaseEnum<int> = new BaseEnum<int>(42);
+      let res: BaseEnum<int> = new BaseEnum<int>(42, 'TestEnum');
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new BaseEnum<int>(42);
+        res = new BaseEnum<int>(42, 'TestEnum');
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;

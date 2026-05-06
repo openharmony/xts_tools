@@ -27,7 +27,7 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function ErrorsPerfTest() {
+export default function ErrorsPerfTest(): void {
   describe('ErrorsPerfTest', () => {
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
@@ -399,22 +399,6 @@ export default function ErrorsPerfTest() {
       performance.apiWithClassAndKeywordTxt('std.core', 'IllegalLockStateError', 'constructor',
         'constructor()', arkTsAveragedTime);
     })
-
-
-    it('PerformanceTest_InvalidCoroutineOperationError_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: InvalidCoroutineOperationError = new InvalidCoroutineOperationError();
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new InvalidCoroutineOperationError();
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InvalidCoroutineOperationError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'InvalidCoroutineOperationError', 'constructor',
-        'constructor()', arkTsAveragedTime);
-    })
-
 
     it('PerformanceTest_ArgumentsUnderapplicationError_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: ArgumentsUnderapplicationError = new ArgumentsUnderapplicationError();

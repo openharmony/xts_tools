@@ -27,7 +27,7 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function BuiltinArrayPerfTest01() {
+export default function BuiltinArrayPerfTest01(): void {
   describe('BuiltinArrayPerfTest01', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
@@ -281,7 +281,7 @@ export default function BuiltinArrayPerfTest01() {
       let result = new FixedArray<short>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = map(fixArray, (value: short) => value * 2 as short);
+        result = map(fixArray, (value: short) => Int.toShort(value * 2));
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -297,7 +297,7 @@ export default function BuiltinArrayPerfTest01() {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result =
-          reduceRight(fixArray, (previousValue: short, currentValue: short) => previousValue + currentValue as short);
+          reduceRight(fixArray, (previousValue: short, currentValue: short) => Int.toShort(previousValue + currentValue));
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;

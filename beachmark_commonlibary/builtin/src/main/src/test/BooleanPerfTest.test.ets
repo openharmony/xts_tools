@@ -28,7 +28,7 @@ import {
 import performance from './Performance.util';
 import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-export default function BooleanPerfTest() {
+export default function BooleanPerfTest(): void {
   describe('BooleanPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
@@ -152,7 +152,7 @@ export default function BooleanPerfTest() {
       let res: Boolean = new Boolean(false);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Boolean(3.14 as float);
+        res = new Boolean(3.14f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -194,7 +194,7 @@ export default function BooleanPerfTest() {
       let res: Boolean = new Boolean(false);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Boolean.TRUE.valueOf();
+        res = Boolean.TRUE;
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -216,20 +216,6 @@ export default function BooleanPerfTest() {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'toBoolean',
         'static toBoolean(value: boolean): boolean', arkTsAveragedTime);
-    })
-
-    it('PerformanceTest_Boolean_Static_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Boolean = new Boolean(false);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Boolean.valueOf(true);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'valueOf',
-        'static valueOf(value: boolean): Boolean', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Static_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {

@@ -28,7 +28,7 @@ import {
 import performance from './Performance.util';
 import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-export default function BuiltinArraySortPerfTest() {
+export default function BuiltinArraySortPerfTest(): void {
   describe('BuiltinArraySortPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
@@ -117,7 +117,7 @@ export default function BuiltinArraySortPerfTest() {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<Float> = [3.3 as float, 1.1 as float, 2.2 as float];
+      let fixArray: FixedArray<Float> = [3.3f, 1.1f, 2.2f];
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         arr_sort_stable(fixArray, 0, 3, (lhs: float, rhs: float): int => {
@@ -619,7 +619,11 @@ export default function BuiltinArraySortPerfTest() {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+      let fixArray: FixedArray<float> = [
+        Double.toFloat(3.3),  // 或者 Float.valueOf(3.3)
+        Double.toFloat(1.1),
+        Double.toFloat(2.2)
+      ];
       let result = new FixedArray<float>(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -636,7 +640,7 @@ export default function BuiltinArraySortPerfTest() {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         sort(fixArray, 0, 3);
@@ -650,7 +654,7 @@ export default function BuiltinArraySortPerfTest() {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         swap(fixArray, 0, 1);
@@ -664,7 +668,7 @@ export default function BuiltinArraySortPerfTest() {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         sort_subarray(fixArray, 0, 3, (lhs: float, rhs: float) => {
@@ -682,7 +686,7 @@ export default function BuiltinArraySortPerfTest() {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         sort_subarray(fixArray, (lhs: float, rhs: float) => {
@@ -700,7 +704,7 @@ export default function BuiltinArraySortPerfTest() {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3 as float, 1.1 as float, 2.2 as float];
+      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         sort_subarray(fixArray, 0, (lhs: float, rhs: float) => {

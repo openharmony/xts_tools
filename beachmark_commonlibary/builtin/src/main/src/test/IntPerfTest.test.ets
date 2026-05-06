@@ -70,20 +70,6 @@ export default function IntPerfTest(): void {
         'function constructor(value: int)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Int_Static_valueOf_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Int = new Int();
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Int.valueOf(100);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int_Static_valueOf_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Int', 'valueOf',
-        'static valueOf(value: int): Int', arkTsAveragedTime);
-    })
-
     it('PerformanceTest_Int_Static_Properties_MIN_VALUE_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -113,7 +99,7 @@ export default function IntPerfTest(): void {
     })
 
     it('PerformanceTest_Int_Static_Properties_BIT_SIZE_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: byte = 0 as byte;
+      let res: byte = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Int.BIT_SIZE;
@@ -127,7 +113,7 @@ export default function IntPerfTest(): void {
     })
 
     it('PerformanceTest_Int_Static_Properties_BYTE_SIZE_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: byte = 0 as byte;
+      let res: byte = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Int.BYTE_SIZE;
@@ -141,7 +127,7 @@ export default function IntPerfTest(): void {
     })
 
     it('PerformanceTest_Int_Static_toByte_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: byte = 0 as byte;
+      let res: byte = 0 ;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Int.toByte(100);
@@ -155,7 +141,7 @@ export default function IntPerfTest(): void {
     })
 
     it('PerformanceTest_Int_Static_toShort_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: short = 0 as short;
+      let res: short = 0 ;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Int.toShort(100);
@@ -169,7 +155,7 @@ export default function IntPerfTest(): void {
     })
 
     it('PerformanceTest_Int_Static_toLong_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: long = 0 as long;
+      let res: long = 0 ;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Int.toLong(100);
@@ -183,7 +169,7 @@ export default function IntPerfTest(): void {
     })
 
     it('PerformanceTest_Int_Static_toFloat_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0.0 as float;
+      let res: float = 1.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Int.toFloat(100);
@@ -268,7 +254,7 @@ export default function IntPerfTest(): void {
 
     it('PerformanceTest_Int_Instance_toByte_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let intObj = new Int(100);
-      let res: byte = 0 as byte;
+      let res: byte = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = intObj.toByte();
@@ -328,7 +314,7 @@ export default function IntPerfTest(): void {
 
     it('PerformanceTest_Int_Instance_toFloat_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let intObj = new Int(100);
-      let res: float = 0.0 as float;
+      let res: float = 1.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = intObj.toFloat();
