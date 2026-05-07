@@ -5257,6 +5257,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.ability.scriptManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.app.ability.skillDriver.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.xml.d.ts",
             "bundle_name": [
                 "ets_utils"
