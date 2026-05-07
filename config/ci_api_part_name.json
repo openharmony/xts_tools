@@ -847,6 +847,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.distributedMissionManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.appstartup.StartupConfigEntry.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -1758,6 +1765,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.continuation.continuationManager.d.ts",
+            "bundle_name": [
+                "dmsfwk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.continuation.continuationManager.d.ts",
             "bundle_name": [
                 "dmsfwk"
             ],
@@ -4277,6 +4291,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.distributedHardware.hardwareManager.d.ts",
+            "bundle_name": [
+                "distributed_hardware_fwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.distributedData.d.ts",
             "bundle_name": [
                 "kv_store"
@@ -6034,7 +6055,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/continuation/continuationExtraParams.d.ts",
+            "bundle_name": [
+                "dmsfwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/continuation/continuationResult.d.ts",
+            "bundle_name": [
+                "dmsfwk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/continuation/continuationResult.d.ts",
             "bundle_name": [
                 "dmsfwk"
             ],
@@ -6048,7 +6083,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.distributedsched.abilityConnectionManager.d.ts",
+            "bundle_name": [
+                "dmsfwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.continueManager.d.ts",
+            "bundle_name": [
+                "dmsfwk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.continueManager.d.ts",
             "bundle_name": [
                 "dmsfwk"
             ],
@@ -6062,7 +6111,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.DistributedExtensionAbility.d.ts",
+            "bundle_name": [
+                "dmsfwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.application.DistributedExtensionContext.d.ts",
+            "bundle_name": [
+                "dmsfwk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.DistributedExtensionContext.d.ts",
             "bundle_name": [
                 "dmsfwk"
             ],
@@ -9793,6 +9856,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/ContinueDeviceInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/PageNodeInfo.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -10136,7 +10206,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/MissionDeviceInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/ContinuableInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/ContinuableInfo.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -10353,6 +10437,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/MissionParameter.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/RunningMultiInstanceInfo.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -10556,6 +10647,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/MissionCallbacks.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/application/AppStateData.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -10571,6 +10669,13 @@
         },
         {
             "path": "interface/sdk-js/api/application/ContinueMissionInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/ContinueMissionInfo.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -10683,6 +10788,13 @@
         },
         {
             "path": "interface/sdk-js/api/application/ContinueCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/ContinueCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
