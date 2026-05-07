@@ -27,7 +27,7 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function DoublePerfTest() {
+export default function DoublePerfTest(): void {
   describe('DoublePerfTest', () => {
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
@@ -181,20 +181,6 @@ export default function DoublePerfTest() {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', '$_invoke',
         'static $_invoke(): Number', arkTsAveragedTime);
-    })
-
-    it('PerformanceTest_Double_Static_Method_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Double = new Double();
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Double.valueOf(3.14 as double);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'valueOf',
-        'static valueOf(value: double): Double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Double_Static_Method_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {

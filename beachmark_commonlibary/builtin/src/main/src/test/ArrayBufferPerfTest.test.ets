@@ -28,7 +28,7 @@ import {
 import performance from './Performance.util';
 import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-export default function ArrayBufferPerfTest() {
+export default function ArrayBufferPerfTest(): void {
   describe('ArrayBufferPerfTest', () => {
 
     const BASE_COUNT = 50000;
@@ -256,10 +256,8 @@ export default function ArrayBufferPerfTest() {
     it('PerformanceTest_ArrayBuffer_from_buffer_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let src: ArrayBuffer = new ArrayBuffer(10);
       let res: ArrayBuffer = ArrayBuffer.from(src, 2 as number, 5 as number);
-
-        let Stime = new Date().getTime();
-      
-        for (let i = 0; i < BASE_COUNT; i++) {
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
           res = ArrayBuffer.from(src, 2 as number, 5 as number);
         }
       let Dtime = new Date().getTime() - Stime;
@@ -273,7 +271,6 @@ export default function ArrayBufferPerfTest() {
     it('PerformanceTest_ArrayBuffer_bytesLength_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: int = 0;
       let Stime = new Date().getTime();
-      
         for (let i = 0; i < BASE_COUNT; i++) {
           res = ArrayBuffer.bytesLength('Hello World', 'utf8');
         }

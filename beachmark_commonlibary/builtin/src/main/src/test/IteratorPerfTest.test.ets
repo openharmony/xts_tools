@@ -57,7 +57,7 @@ class NumberCollection implements Iterable<number> {
   }
 }
 
-export default function IteratorPerfTest() {
+export default function IteratorPerfTest(): void {
   describe('IteratorPerfTest', () => {
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;

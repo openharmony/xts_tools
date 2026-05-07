@@ -24,7 +24,7 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../../../hypium/index";
+} from "../../../hypium/index";
 import performance from './Performance.util';
 
 class RealListObjectImpl implements containers.ListObject {

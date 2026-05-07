@@ -28,17 +28,21 @@ import {
 import performance from './Performance.util';
 import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-export default function ArrayPerfTest() {
+export default function ArrayPerfTest(): void {
   describe('ArrayPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
-      let ret = GC.startGC(GC.Cause.FULL, true);
-      GC.waitForFinishGC(ret);
-      let ret1 = GC.startGC(GC.Cause.FULL, true);
-      GC.waitForFinishGC(ret1);
+      let ret = GC.startGC(GC.Cause.FULL);
+      if (ret > 0) {
+        GC.waitForFinishGC(ret);
+      }
+      let ret1 = GC.startGC(GC.Cause.FULL);
+      if (ret1 > 0) {
+        GC.waitForFinishGC(ret1);
+      }
     })
 
     afterAll(() => {
@@ -185,14 +189,14 @@ export default function ArrayPerfTest() {
       let res: int = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.push(999);
+        res = arr.pushOne(999);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Array_Instance_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'push',
-        'push(val: T): int', arkTsAveragedTime);
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'pushOne',
+        'pushOne(val: T): int', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Array_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -226,7 +230,7 @@ export default function ArrayPerfTest() {
     })
 
     it('PerformanceTest_Array_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arrs: Array<Array<number>> = new Array<Array<number>>(BASE_COUNT+10);
+      let arrs: Array<Array<number>> = Array.create<Array<number>>(BASE_COUNT+10, new Array<number>(100));
       for (let i = 0; i < BASE_COUNT; i++) {
         arrs[i] = new Array<number>(100).fill(0);
       }

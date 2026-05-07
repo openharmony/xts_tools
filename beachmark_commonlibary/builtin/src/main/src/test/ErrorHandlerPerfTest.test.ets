@@ -25,7 +25,7 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function ErrorHandlerPerfTest() {
+export default function ErrorHandlerPerfTest(): void {
   describe('ErrorHandlerPerfTest', () => {
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;

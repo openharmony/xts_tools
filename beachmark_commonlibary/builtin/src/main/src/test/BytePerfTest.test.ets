@@ -28,7 +28,7 @@ import {
 import performance from './Performance.util';
 import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-export default function BytePerfTest() {
+export default function BytePerfTest(): void {
   describe('BytePerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
@@ -50,10 +50,10 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Byte = new Byte();
+      let res: Byte = new Byte(0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Byte();
+        res = new Byte(0);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -67,7 +67,7 @@ export default function BytePerfTest() {
       let res: Byte = new Byte(0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Byte(10 as byte);
+        res = new Byte(10);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -133,26 +133,12 @@ export default function BytePerfTest() {
         'static BYTE_SIZE: byte', arkTsAveragedTime);
     })
 
-    // 静态方法测试
-    it('PerformanceTest_Byte_Static_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Byte = new Byte(0);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Byte.valueOf(10 as byte);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Byte_Static_0500: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Byte', 'valueOf',
-        'static valueOf(value: byte): Byte', arkTsAveragedTime);
-    })
 
     it('PerformanceTest_Byte_Static_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: byte = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Byte.toByte(10 as byte);
+        res = Byte.toByte(10);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -166,7 +152,7 @@ export default function BytePerfTest() {
       let res: short = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Byte.toShort(10 as byte);
+        res = Byte.toShort(10);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -180,7 +166,7 @@ export default function BytePerfTest() {
       let res: int = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Byte.toInt(10 as byte);
+        res = Byte.toInt(10);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -194,7 +180,7 @@ export default function BytePerfTest() {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Byte.toLong(10 as byte);
+        res = Byte.toLong(10);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -208,7 +194,7 @@ export default function BytePerfTest() {
       let res: float = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Byte.toFloat(10 as byte);
+        res = Byte.toFloat(10);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -222,7 +208,7 @@ export default function BytePerfTest() {
       let res: double = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Byte.toDouble(10 as byte);
+        res = Byte.toDouble(10);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -236,7 +222,7 @@ export default function BytePerfTest() {
       let res: char = c'\u0000';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Byte.toChar(65 as byte);
+        res = Byte.toChar(65);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -250,7 +236,7 @@ export default function BytePerfTest() {
       let res: string = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Byte.toString(10 as byte);
+        res = Byte.toString(10);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -261,7 +247,7 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
+      let byteObj = new Byte(10);
       let res: byte = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -276,7 +262,7 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
+      let byteObj = new Byte(10);
       let res: short = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -291,7 +277,7 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
+      let byteObj = new Byte(10);
       let res: int = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -306,7 +292,7 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
+      let byteObj = new Byte(10);
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -321,7 +307,7 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
+      let byteObj = new Byte(10);
       let res: float = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -336,7 +322,7 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
+      let byteObj = new Byte(10);
       let res: double = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -351,7 +337,7 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(65 as byte);
+      let byteObj = new Byte(65);
       let res: char = c'\u0000';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -366,7 +352,7 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
+      let byteObj = new Byte(10);
       let res: string = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -381,7 +367,7 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
+      let byteObj = new Byte(10);
       let res: string = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -396,7 +382,7 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
+      let byteObj = new Byte(10);
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -411,8 +397,8 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
-      let other = new Byte(5 as byte);
+      let byteObj = new Byte(10);
+      let other = new Byte(5);
       let res: int = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -428,8 +414,8 @@ export default function BytePerfTest() {
 
     // 算术运算方法测试
     it('PerformanceTest_Byte_Instance_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
-      let other = new Byte(5 as byte);
+      let byteObj = new Byte(10);
+      let other = new Byte(5);
       let res: Byte = new Byte(0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -444,8 +430,8 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
-      let other = new Byte(5 as byte);
+      let byteObj = new Byte(10);
+      let other = new Byte(5);
       let res: Byte = new Byte(0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -460,8 +446,8 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
-      let other = new Byte(5 as byte);
+      let byteObj = new Byte(10);
+      let other = new Byte(5);
       let res: Byte = new Byte(0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -476,8 +462,8 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
-      let other = new Byte(2 as byte);
+      let byteObj = new Byte(10);
+      let other = new Byte(2);
       let res: Byte = new Byte(0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -493,8 +479,8 @@ export default function BytePerfTest() {
 
     // 比较方法测试
     it('PerformanceTest_Byte_Instance_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
-      let other = new Byte(5 as byte);
+      let byteObj = new Byte(10);
+      let other = new Byte(5);
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -509,8 +495,8 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
-      let other = new Byte(10 as byte);
+      let byteObj = new Byte(10);
+      let other = new Byte(10);
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -525,8 +511,8 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
-      let other = new Byte(5 as byte);
+      let byteObj = new Byte(10);
+      let other = new Byte(5);
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -541,8 +527,8 @@ export default function BytePerfTest() {
     })
 
     it('PerformanceTest_Byte_Instance_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let byteObj = new Byte(10 as byte);
-      let other = new Byte(10 as byte);
+      let byteObj = new Byte(10);
+      let other = new Byte(10);
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -558,7 +544,7 @@ export default function BytePerfTest() {
 
     // toLocaleString方法测试
     // it('PerformanceTest_Byte_Instance_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-    //   let byteObj = new Byte(123 as byte);
+    //   let byteObj = new Byte(123);
     //   let res: String = new String();
     //   let Stime = new Date().getTime();
     //   for (let i = 0; i < BASE_COUNT; i++) {

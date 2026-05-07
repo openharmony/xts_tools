@@ -31,17 +31,21 @@ class GCTestObj {
   value: int = 42
 }
 
-export default function GCPerfTest() {
+export default function GCPerfTest(): void {
   describe('GCPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
-      let ret = GC.startGC(GC.Cause.FULL, true);
-      GC.waitForFinishGC(ret);
-      let ret1 = GC.startGC(GC.Cause.FULL, true);
-      GC.waitForFinishGC(ret1);
+      let ret = GC.startGC(GC.Cause.FULL);
+      if (ret > 0) {
+        GC.waitForFinishGC(ret);
+      }
+      let ret1 = GC.startGC(GC.Cause.FULL);
+      if (ret1 > 0) {
+        GC.waitForFinishGC(ret1);
+      }
     })
 
     afterAll(() => {
@@ -154,7 +158,7 @@ export default function GCPerfTest() {
     })
 
     it('PerformanceTest_GC_AllocatePinnedIntArray_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<int> | undefined = undefined;
+      let arr: ValueArray<int> | undefined = undefined;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         arr = GC.allocatePinnedIntArray(1024);

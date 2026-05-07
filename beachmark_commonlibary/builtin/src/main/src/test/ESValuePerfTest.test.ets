@@ -24,7 +24,7 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../../../hypium/index";
+} from "../../../hypium/index";
 import performance from './Performance.util';
 export default function ESValuePerfTest(): void {
   describe('ESValuePerfTest', () => {
@@ -124,63 +124,63 @@ export default function ESValuePerfTest(): void {
     })
 
     it('PerformanceTest_ESValue_wrapByte_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = ESValue.wrapByte(1 as byte);
+      let res = ESValue.wrapByte(1);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapByte(1 as byte);}
+      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapByte(1);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop', 'ESValue', 'wrapByte', 'wrapByte(b: byte): ESValue', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ESValue_wrapShort_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = ESValue.wrapShort(1 as short);
+      let res = ESValue.wrapShort(1);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapShort(1 as short);}
+      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapShort(1);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop', 'ESValue', 'wrapShort', 'wrapShort(s: short): ESValue', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ESValue_wrapInt_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = ESValue.wrapInt(0 as int);
+      let res = ESValue.wrapInt(0);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapInt(i as int);}
+      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapInt(i);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop', 'ESValue', 'wrapInt', 'wrapInt(i: int): ESValue', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ESValue_wrapLong_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = ESValue.wrapLong(0 as long);
+      let res = ESValue.wrapLong(0);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapLong(i as long);}
+      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapLong(i);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop', 'ESValue', 'wrapLong', 'wrapLong(l: long): ESValue', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ESValue_wrapLongLossy_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = ESValue.wrapLongLossy(0 as long);
+      let res = ESValue.wrapLongLossy(0);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapLongLossy(i as long);}
+      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapLongLossy(i);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop', 'ESValue', 'wrapLongLossy', 'wrapLongLossy(l: long): ESValue', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ESValue_wrapFloat_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = ESValue.wrapFloat(1.0 as float);
+      let res = ESValue.wrapFloat(1.0);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapFloat(1.0 as float);}
+      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapFloat(1.0);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop', 'ESValue', 'wrapFloat', 'wrapFloat(f: float): ESValue', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ESValue_wrapDouble_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = ESValue.wrapDouble(1.0 as double);
+      let res = ESValue.wrapDouble(1.0);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapDouble(1.0 as double);}
+      for (let i = 0; i < BASE_COUNT; i++) {res = ESValue.wrapDouble(1.0);}
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop', 'ESValue', 'wrapDouble', 'wrapDouble(d: double): ESValue', arkTsAveragedTime);

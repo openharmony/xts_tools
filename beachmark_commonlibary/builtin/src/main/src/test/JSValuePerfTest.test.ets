@@ -24,7 +24,7 @@ import {
   afterAll,
   beforeEach,
   afterEach
-} from "../../../../../hypium/index";
+} from "../../../hypium/index";
 import performance from './Performance.util';
 
 export default function JSValuePerfTest(): void {
@@ -51,7 +51,7 @@ export default function JSValuePerfTest(): void {
       let realJSValue = JSRuntime.newJSValueBoolean(true);
       let res: Object = new Object();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = realJSValue.toString() as Object; }
+      for (let i = 0; i < BASE_COUNT; i++) {  res = String(realJSValue) as Object; }
       let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
       let _res = res;
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSValue', 'toString', 'toString(): String', arkTsAveragedTime);

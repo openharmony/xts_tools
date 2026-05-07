@@ -44,7 +44,7 @@ class TestArrayLike<T> implements ArrayLike<T> {
   }
 }
 
-export default function ArrayLikePerfTest() {
+export default function ArrayLikePerfTest(): void {
   describe('ArrayLikePerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;

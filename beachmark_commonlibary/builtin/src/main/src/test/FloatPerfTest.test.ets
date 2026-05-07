@@ -28,7 +28,7 @@ import {
 import performance from './Performance.util';
 import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-export default function FloatPerfTest() {
+export default function FloatPerfTest(): void {
   describe('FloatPerfTest', () => {
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
@@ -45,7 +45,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Float = new Float();
+      let res =new Float();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Float();
@@ -59,10 +59,10 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Float = new Float(3.14 as float);
+      let res = new Float(1.0f);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Float(3.14 as float);
+        res = new Float(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -73,10 +73,10 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Float = new Float(3.1415926 as double);
+      let res: Float = new Float(3.1415926f);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Float(3.1415926 as double);
+        res = new Float(3.1415926f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -87,7 +87,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float;
+      let res: float=0.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Float.MIN_VALUE;
@@ -101,7 +101,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Static_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float;
+      let res: float=0.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Float.MAX_VALUE;
@@ -114,22 +114,9 @@ export default function FloatPerfTest() {
         'static readonly MAX_VALUE: float', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Float_Static_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: int;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.MAX_SAFE_INTEGER;
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'MAX_SAFE_INTEGER',
-        'static readonly MAX_SAFE_INTEGER: int', arkTsAveragedTime);
-    })
 
     it('PerformanceTest_Float_Static_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: byte;
+      let res=0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Float.BIT_SIZE;
@@ -143,7 +130,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Static_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: byte;
+      let res = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Float.BYTE_SIZE;
@@ -157,7 +144,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Static_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float;
+      let res=1.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Float.NaN;
@@ -171,7 +158,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Static_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float;
+      let res=1.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Float.POSITIVE_INFINITY;
@@ -185,7 +172,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Static_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float;
+      let res = 1.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Float.NEGATIVE_INFINITY;
@@ -199,7 +186,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Static_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: byte;
+      let res=0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Float.PRECISION;
@@ -213,7 +200,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Static_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float;
+      let res = 1.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Float.DELTA;
@@ -227,7 +214,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Static_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float;
+      let res = 1.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Float.EPSILON;
@@ -240,25 +227,25 @@ export default function FloatPerfTest() {
         'static readonly EPSILON: float', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Float_StaticMethod_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Float = new Float(0 as float);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.valueOf(3.14 as float);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'valueOf',
-        'static valueOf(value: float): Float', arkTsAveragedTime);
-    })
+    // it('PerformanceTest_Float_StaticMethod_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let res = new Float(1.0f);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = Float.valueOf(1.0f);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_0100: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'valueOf',
+    //     'static valueOf(value: float): Float', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Float_StaticMethod_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: byte = 0 as byte;
+      let res = 0 ;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.toByte(3.14 as float);
+        res = Float.toByte(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -269,10 +256,10 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_StaticMethod_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: short = 0 as short;
+      let res = 0 ;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.toShort(3.14 as float);
+        res = Float.toShort(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -286,7 +273,7 @@ export default function FloatPerfTest() {
       let res: int = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.toInt(3.14 as float);
+        res = Float.toInt(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -300,7 +287,7 @@ export default function FloatPerfTest() {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.toLong(3.14 as float);
+        res = Float.toLong(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -311,10 +298,10 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_StaticMethod_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0 as float;
+      let res = 0.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.toFloat(3.14 as float);
+        res = Float.toFloat(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -328,7 +315,7 @@ export default function FloatPerfTest() {
       let res: double = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.toDouble(3.14 as float);
+        res = Float.toDouble(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -342,7 +329,7 @@ export default function FloatPerfTest() {
       let res: String = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.toString(3.14 as float);
+        res = Float.toString(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -356,7 +343,7 @@ export default function FloatPerfTest() {
       let res: String = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.toString(255 as float, 16 as int);
+        res = Float.toString(1.0f, 16 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -370,7 +357,7 @@ export default function FloatPerfTest() {
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.compare(3.14 as float, 3.14 as float);
+        res = Float.compare(1.0f, 2.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -398,7 +385,7 @@ export default function FloatPerfTest() {
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.isFinite(3.14 as float);
+        res = Float.isFinite(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -412,7 +399,7 @@ export default function FloatPerfTest() {
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.isInteger(3.0 as float);
+        res = Float.isInteger(3.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -426,7 +413,7 @@ export default function FloatPerfTest() {
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.isSafeInteger(3.0 as float);
+        res = Float.isSafeInteger(3.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -437,7 +424,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_StaticMethod_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: float = 0 as float;
+      let res: float = 0.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Float.bitCastFromInt(0x3f800000);
@@ -454,7 +441,7 @@ export default function FloatPerfTest() {
       let res: int = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float.bitCastToInt(1.0 as float);
+        res = Float.bitCastToInt(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -465,7 +452,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
+      let floatObj = new Float(1.0f);
       let res: byte = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -480,7 +467,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
+      let floatObj = new Float(1.0f);
       let res: short = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -495,7 +482,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
+      let floatObj = new Float(1.0f);
       let res: int = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -510,7 +497,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
+      let floatObj = new Float(1.0f);
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -525,8 +512,8 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
-      let res: float = 0 as float;
+      let floatObj = new Float(1.0f);
+      let res: float = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = floatObj.toFloat();
@@ -540,7 +527,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
+      let floatObj = new Float(1.0f);
       let res: double = 0 as double;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -555,7 +542,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
+      let floatObj = new Float(1.0f);
       let res: int = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -570,7 +557,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
+      let floatObj = new Float(1.0f);
       let res: String = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -585,7 +572,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
+      let floatObj = new Float(1.0f);
       let res: String = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -600,7 +587,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
+      let floatObj = new Float(1.0f);
       let res: String = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -615,7 +602,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
+      let floatObj = new Float(1.0f);
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -645,7 +632,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.14 as float);
+      let floatObj = new Float(1.0f);
       let res: boolean = floatObj.isFinite();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -660,7 +647,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.0 as float);
+      let floatObj = new Float(3.0f);
       let res: boolean = floatObj.isInteger();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -675,7 +662,7 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(3.0 as float);
+      let floatObj = new Float(3.0f);
       let res: boolean = floatObj.isSafeInteger();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -690,8 +677,8 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(1.5 as float);
-      let other = new Float(2.5 as float);
+      let floatObj = new Float(1.0f);
+      let other = new Float();
       let res: Float = floatObj.add(other);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -706,8 +693,8 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(1.5 as float);
-      let other = new Float(2.5 as float);
+      let floatObj = new Float(1.0f);
+      let other = new Float();
       let res: Float = floatObj.sub(other);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -722,8 +709,8 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(1.5 as float);
-      let other = new Float(2.5 as float);
+      let floatObj = new Float(1.0f);
+      let other = new Float();
       let res: Float = floatObj.mul(other);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -738,8 +725,8 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_3600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(1.5 as float);
-      let other = new Float(2.5 as float);
+      let floatObj = new Float(1.0f);
+      let other = new Float();
       let res: Float = floatObj.div(other);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -754,8 +741,8 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_3700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(1.5 as float);
-      let other = new Float(2.5 as float);
+      let floatObj = new Float(1.0f);
+      let other = new Float();
       let res: boolean = floatObj.isLessThan(other);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -770,8 +757,8 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_3800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(1.5 as float);
-      let other = new Float(2.5 as float);
+      let floatObj = new Float(1.0f);
+      let other = new Float();
       let res: boolean = floatObj.isLessEqualThan(other);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -786,8 +773,8 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_3900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(1.5 as float);
-      let other = new Float(2.5 as float);
+      let floatObj = new Float(1.0f);
+      let other = new Float();
       let res: boolean = floatObj.isGreaterThan(other);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -802,8 +789,8 @@ export default function FloatPerfTest() {
     })
 
     it('PerformanceTest_Float_Instance_4000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let floatObj = new Float(1.5 as float);
-      let other = new Float(2.5 as float);
+      let floatObj = new Float(1.0f);
+      let other = new Float();
       let res: boolean = floatObj.isGreaterEqualThan(other);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {

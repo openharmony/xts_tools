@@ -33,7 +33,7 @@ class MyClass {
   name: string = "test";
 }
 
-export default function EnumConstantPerfTest() {
+export default function EnumConstantPerfTest(): void {
   describe('EnumConstantPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;

@@ -56,7 +56,7 @@ class Student extends Person {
   }
 }
 
-export default function ComparablePerfTest() {
+export default function ComparablePerfTest(): void {
   describe('ComparablePerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;

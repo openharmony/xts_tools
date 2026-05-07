@@ -25,7 +25,7 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function BuiltinArrayAlgorithmsPerfTest() {
+export default function BuiltinArrayAlgorithmsPerfTest(): void {
   describe('BuiltinArrayAlgorithmsPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
