@@ -1771,6 +1771,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.uiExtension.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.cloudData.d.ts",
             "bundle_name": [
                 "relational_store"
@@ -2955,6 +2962,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.uiExtensionHost.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.uiExtensionHost.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8282,6 +8296,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.uiExtensionHost.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.uiExtensionHost.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
