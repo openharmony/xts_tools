@@ -5180,6 +5180,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.asset.d.ts",
+            "bundle_name": [
+                "asset"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bluetooth.pan.d.ts",
             "bundle_name": [
                 "bluetooth"
@@ -13529,6 +13536,13 @@
         },
         {
             "path": "interface/sdk_c/security/asset",
+            "bundle_name": [
+                "asset"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/security/asset",
             "bundle_name": [
                 "asset"
             ],
