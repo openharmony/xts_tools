@@ -4501,6 +4501,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ChipV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ChipV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.uniformTypeDescriptor.d.ts",
             "bundle_name": [
                 "udmf"
@@ -6532,6 +6546,20 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.ChipGroup.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ChipGroupV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ChipGroupV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
