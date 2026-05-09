@@ -3591,6 +3591,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.cryptoFramework.d.ts",
+            "bundle_name": [
+                "crypto_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.account.distributedAccount.d.ts",
             "bundle_name": [
                 "os_account"
@@ -3725,6 +3732,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.security.cert.d.ts",
+            "bundle_name": [
+                "certificate_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.cert.d.ts",
             "bundle_name": [
                 "certificate_framework"
             ],
