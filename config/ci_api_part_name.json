@@ -12622,6 +12622,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/dynamicComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/component/securityUIExtensionComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/units.static.d.ets",
             "bundle_name": [
                 "ace_engine"
