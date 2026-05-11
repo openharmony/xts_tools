@@ -763,6 +763,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.WindowExtensionAbility.d.ts",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.dataShare.d.ts",
             "bundle_name": [
                 "data_share"
@@ -1246,6 +1253,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.display.d.ts",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.audio.d.ts",
             "bundle_name": [
                 "audio_framework"
@@ -1394,6 +1408,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.screen.d.ts",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.screen.d.ts",
             "bundle_name": [
                 "window_manager"
             ],
@@ -1750,6 +1771,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.uiExtension.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.cloudData.d.ts",
             "bundle_name": [
                 "relational_store"
@@ -1863,6 +1891,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.window.d.ts",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.window.d.ts",
             "bundle_name": [
                 "window_manager"
             ],
@@ -2927,6 +2962,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.uiExtensionHost.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.uiExtensionHost.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -5103,7 +5145,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.PiPWindow.d.ts",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.window.floatingBall.d.ts",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.window.floatingBall.d.ts",
             "bundle_name": [
                 "window_manager"
             ],
@@ -5118,6 +5174,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.screenshot.d.ts",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.screenshot.d.ts",
             "bundle_name": [
                 "window_manager"
             ],
@@ -8260,6 +8323,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.uiExtensionHost.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@system.app.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -10340,6 +10410,13 @@
         },
         {
             "path": "interface/sdk-js/api/application/WindowExtensionContext.d.ts",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/WindowExtensionContext.d.ts",
             "bundle_name": [
                 "window_manager"
             ],
@@ -13157,6 +13234,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/zh-cn/arkui/display_manager",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/arkui/napi",
             "bundle_name": [
                 "napi"
@@ -13165,6 +13249,13 @@
         },
         {
             "path": "interface/sdk_c/arkui/window_manager",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/arkui/window_manager",
             "bundle_name": [
                 "window_manager"
             ],
