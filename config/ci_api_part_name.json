@@ -13096,6 +13096,48 @@
                 "runtime_core"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/dynamic/lib.es5.d.ts",
+            "bundle_name": [
+                "typescript"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/dynamic/lib.es2022.error.d.ts",
+            "bundle_name": [
+                "typescript"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/dynamic/lib.es2015.iterable.d.ts",
+            "bundle_name": [
+                "typescript"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/dynamic/lib.es2015.collection.d.ts",
+            "bundle_name": [
+                "typescript"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/dynamic/lib.es2015.core.d.ts",
+            "bundle_name": [
+                "typescript"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/dynamic/lib.es2015.reflect.d.ts",
+            "bundle_name": [
+                "typescript"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c": [
