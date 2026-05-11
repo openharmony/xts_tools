@@ -13009,6 +13009,20 @@
     ],
     "sdk_c": [
         {
+            "path": "interface/sdk_c/build-tools/header_processor.py",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/build-tools/parse_native_headers.py",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/AbilityKit/ability_runtime",
             "bundle_name": [
                 "ability_runtime"
