@@ -51,9 +51,13 @@ class HvigorChecker:
 
     def get_compileSdkVersion(self, json_file):
         with open(json_file, 'r') as f:
-            data = json5.load(f)
-            apiversion = data.get('app').get('products')[0].get('compileSdkVersion')
-            return str(apiversion)
+            try:
+                data = json5.load(f)
+                apiversion = data.get('app').get('products')[0].get('compileSdkVersion')
+                return str(apiversion)
+            except Exception:
+                print(f'Error processing config file: {json_file}')
+                raise
 
     def get_api_full_version(self):
         root_dir = os.path.realpath(os.path.join(self._xts_root_dir, "../../.."))
