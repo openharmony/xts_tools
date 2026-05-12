@@ -854,6 +854,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.account.appAccount.d.ts",
+            "bundle_name": [
+                "os_account"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.application.Configuration.d.ts",
             "bundle_name": [
                 "ability_base"
@@ -3668,6 +3675,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.account.distributedAccount.d.ts",
+            "bundle_name": [
+                "os_account"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.util.Stack.d.ts",
             "bundle_name": [
                 "ets_utils"
@@ -4873,6 +4887,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.account.osAccount.d.ts",
+            "bundle_name": [
+                "os_account"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.account.osAccount.d.ts",
             "bundle_name": [
                 "os_account"
             ],
