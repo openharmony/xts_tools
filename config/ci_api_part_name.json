@@ -1904,6 +1904,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.web.webview.static.d.ets",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.web.WebNativeMessagingExtensionAbility.d.ts",
             "bundle_name": [
                 "webview"
@@ -7889,6 +7896,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/web.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/common.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -13683,6 +13697,13 @@
         },
         {
             "path": "interface/sdk_c/web/webview/interfaces/native",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/web/webview/interfaces/native",
             "bundle_name": [
                 "webview"
             ],
