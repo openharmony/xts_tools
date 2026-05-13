@@ -75,7 +75,12 @@ template("ohos_app_xts_base") {
     testonly = true
   }
 
-  if (XTS_SUITENAME != "hits") {
+  if (defined(invoker.without_syscap_json) && invoker.without_syscap_json == true) {
+    assert(!path_exists("entry/src/main/syscap.json"))
+    assert(!path_exists("entry/src/ohosTest/syscap.json"))
+  }
+
+  if (XTS_SUITENAME != "hits" && (!defined(invoker.without_syscap_json) || invoker.without_syscap_json != true)) {
     _deps += [ ":${_target_name_syscap}" ]
   }
 
