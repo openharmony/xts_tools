@@ -1484,6 +1484,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.dlpPermission.d.ts",
+            "bundle_name": [
+                "dlp_permission_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.security.identifySensitiveContent.d.ts",
             "bundle_name": [
                 "dlp_permission_service"
@@ -13249,6 +13256,13 @@
         },
         {
             "path": "interface/sdk_c/DataProtectionKit",
+            "bundle_name": [
+                "dlp_permission_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/DataProtectionKit",
             "bundle_name": [
                 "dlp_permission_service"
             ],
