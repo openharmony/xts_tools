@@ -13899,6 +13899,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/zh-cn/GameControllerKit",
+            "bundle_name": [
+                "game_controller"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/telephony/core_service",
             "bundle_name": [
                 "core_service"
