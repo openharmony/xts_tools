@@ -3458,6 +3458,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.WorkSchedulerExtensionAbility.d.ts",
+            "bundle_name": [
+                "work_scheduler"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.hiviewdfx.FaultLogExtensionAbility.d.ts",
             "bundle_name": [
                 "hiview"
@@ -3704,6 +3711,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.resourceschedule.backgroundTaskManager.d.ts",
+            "bundle_name": [
+                "background_task_mgr"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.resourceschedule.backgroundTaskManager.d.ts",
             "bundle_name": [
                 "background_task_mgr"
             ],
@@ -4515,6 +4529,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.backgroundTaskManager.d.ts",
+            "bundle_name": [
+                "background_task_mgr"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.pasteboard.d.ts",
             "bundle_name": [
                 "pasteboard"
@@ -4565,6 +4586,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.resourceschedule.workScheduler.d.ts",
+            "bundle_name": [
+                "work_scheduler"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.resourceschedule.workScheduler.d.ts",
             "bundle_name": [
                 "work_scheduler"
             ],
@@ -10087,6 +10115,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/WorkSchedulerExtensionContext.d.ts",
+            "bundle_name": [
+                "work_scheduler"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.hiviewdfx.FaultLogExtensionContext.d.ts",
             "bundle_name": [
                 "hiview"
@@ -13403,6 +13438,13 @@
         },
         {
             "path": "interface/sdk_c/backgroundtasks/transient",
+            "bundle_name": [
+                "background_task_mgr"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/backgroundtasks/transient",
             "bundle_name": [
                 "background_task_mgr"
             ],
