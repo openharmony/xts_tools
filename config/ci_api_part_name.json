@@ -13465,6 +13465,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/zh-cn/bundlemanager/bundle_framework/bundle",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/commonlibrary/memory_utils/libpurgeablemem",
             "bundle_name": [
                 "memory_utils"
