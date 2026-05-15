@@ -310,6 +310,342 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.bundleMonitor.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.bundleResourceManager.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.defaultAppManager.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.distributedBundleManager.d.ts",
+            "bundle_name": [
+                "distributed_bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.freeInstall.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.innerBundleManager.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.installer.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.launcherBundleManager.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.overlay.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.shortcutManager.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.distributedBundle.d.ts",
+            "bundle_name": [
+                "distributed_bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@system.package.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/PermissionDef.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/abilityInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/applicationInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/bundleInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/bundleInstaller.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/bundleStatusCallback.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/customizeData.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/elementName.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/hapModuleInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/launcherAbilityInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/moduleInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/remoteAbilityInfo.d.ts",
+            "bundle_name": [
+                "distributed_bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundle/shortcutInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/AbilityInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/AppProvisionInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/ApplicationInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/BundleInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/BundlePackInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/BundleResourceInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/DispatchInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/ElementName.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/ExtensionAbilityInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/HapModuleInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/LauncherAbilityInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/LauncherAbilityResourceInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/Metadata.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/OverlayModuleInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/PermissionDef.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/PluginBundleInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/RecoverableApplicationInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/RemoteAbilityInfo.d.ts",
+            "bundle_name": [
+                "distributed_bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/SharedBundleInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/ShortcutInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/Skill.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/bundleManager/SkillInfo.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/config",
             "bundle_name": [],
             "build_targets": []
@@ -5580,6 +5916,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.bundle.appControl.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.appControl.d.ts",
             "bundle_name": [
                 "bundle_framework"
             ],
