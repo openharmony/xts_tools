@@ -1813,6 +1813,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.driver.deviceManager.d.ts",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.dlpPermission.d.ts",
             "bundle_name": [
                 "dlp_permission_service"
@@ -2241,6 +2248,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.DriverExtensionAbility.d.ts",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.DriverExtensionAbility.d.ts",
             "bundle_name": [
                 "external_device_manager"
             ],
@@ -10711,6 +10725,13 @@
         },
         {
             "path": "interface/sdk-js/api/application/DriverExtensionContext.d.ts",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/DriverExtensionContext.d.ts",
             "bundle_name": [
                 "external_device_manager"
             ],
