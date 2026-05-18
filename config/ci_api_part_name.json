@@ -4599,6 +4599,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.media.d.ts",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.contact.d.ts",
             "bundle_name": [
                 "contacts_data"
@@ -9052,6 +9059,13 @@
         },
         {
             "path": "interface/sdk-js/api/multimedia/soundPool.d.ts",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/multimedia/soundPool.d.ts",
             "bundle_name": [
                 "player_framework"
             ],
@@ -13852,6 +13866,153 @@
             "path": "interface/sdk_c/ani",
             "bundle_name": [
                 "ani"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avimage_generator.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avimage_generator_base.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avmedia_base.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avmedia_source.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avmetadata_extractor.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avmetadata_extractor_base.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avmetakeys.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avplayer.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avplayer_base.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avrecorder.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avrecorder_base.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avtranscoder.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/avtranscoder_base.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/lowpower_audio_sink.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/lowpower_audio_sink_base.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/lowpower_avsink_base.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/lowpower_video_sink.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/lowpower_video_sink_base.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/native_avscreen_capture.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/native_avscreen_capture_base.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/player_framework/native_avscreen_capture_errors.h",
+            "bundle_name": [
+                "player_framework"
             ],
             "build_targets": []
         },
