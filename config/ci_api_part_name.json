@@ -2107,6 +2107,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.batteryStatistics.d.ts",
+            "bundle_name": [
+                "battery_statistics"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.deviceSettings.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
@@ -2548,6 +2555,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.charger.d.ts",
+            "bundle_name": [
+                "battery_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@system.vibrator.d.ts",
             "bundle_name": [
                 "miscdevice"
@@ -2913,6 +2927,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.runningLock.d.ts",
+            "bundle_name": [
+                "power_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.runningLock.d.ts",
             "bundle_name": [
                 "power_manager"
             ],
@@ -3577,6 +3598,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.power.d.ts",
+            "bundle_name": [
+                "power_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.prompt.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -3816,6 +3844,13 @@
         },
         {
             "path": "interface/sdk-js/api/@system.battery.d.ts",
+            "bundle_name": [
+                "battery_lite"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@system.battery.d.ts",
             "bundle_name": [
                 "battery_lite"
             ],
@@ -4767,6 +4802,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.thermal.d.ts",
+            "bundle_name": [
+                "thermal_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.distributedHardware.hardwareManager.d.ts",
             "bundle_name": [
                 "distributed_hardware_fwk"
@@ -5117,6 +5159,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@system.brightness.d.ts",
+            "bundle_name": [
+                "display_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.inputConsumer.d.ts",
             "bundle_name": [
                 "input"
@@ -5384,6 +5433,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.brightness.d.ts",
+            "bundle_name": [
+                "display_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.brightness.d.ts",
             "bundle_name": [
                 "display_manager"
             ],
@@ -5789,6 +5845,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.batteryInfo.d.ts",
+            "bundle_name": [
+                "battery_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.batteryInfo.d.ets",
             "bundle_name": [
                 "battery_manager"
@@ -5797,6 +5860,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.batteryInfo.static.d.ets",
+            "bundle_name": [
+                "battery_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.batteryInfo.static.d.ets",
             "bundle_name": [
                 "battery_manager"
             ],
