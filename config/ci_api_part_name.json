@@ -1022,6 +1022,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.advertising.AdComponent.d.ets",
+            "bundle_name": [
+                "advertising"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.EmbeddableUIAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -2871,6 +2878,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.identifier.oaid.d.ts",
+            "bundle_name": [
+                "oaid"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.identifier.oaid.d.ts",
             "bundle_name": [
                 "oaid"
             ],
@@ -5474,6 +5488,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.advertising.AutoAdComponent.d.ets",
+            "bundle_name": [
+                "advertising"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.application.AccessibilityExtensionAbility.d.ts",
             "bundle_name": [
                 "accessibility"
@@ -5482,6 +5503,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.advertising.d.ts",
+            "bundle_name": [
+                "advertising"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.advertising.d.ts",
             "bundle_name": [
                 "advertising"
             ],
@@ -6091,6 +6119,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.advertising.AdsServiceExtensionAbility.d.ts",
+            "bundle_name": [
+                "advertising"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.advertising.AdsServiceExtensionAbility.d.ts",
             "bundle_name": [
                 "advertising"
             ],
@@ -11768,6 +11803,13 @@
         },
         {
             "path": "interface/sdk-js/api/advertising/advertisement.d.ts",
+            "bundle_name": [
+                "advertising"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/advertising/advertisement.d.ts",
             "bundle_name": [
                 "advertising"
             ],
