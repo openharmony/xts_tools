@@ -14683,6 +14683,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/zh-cn/resourceschedule/background_process_manager",
+            "bundle_name": [
+                "resource_schedule_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/security/access_token",
             "bundle_name": [
                 "access_token"
