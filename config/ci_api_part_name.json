@@ -2709,6 +2709,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.systemTimer.d.ts",
+            "bundle_name": [
+                "time_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.ability.ability.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -2996,6 +3003,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.systemTime.d.ts",
+            "bundle_name": [
+                "time_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.inputDevice.d.ts",
             "bundle_name": [
                 "input"
@@ -3004,6 +3018,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.systemDateTime.d.ts",
+            "bundle_name": [
+                "time_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.systemDateTime.d.ts",
             "bundle_name": [
                 "time_service"
             ],
@@ -3221,6 +3242,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.request.cacheDownload.d.ts",
+            "bundle_name": [
+                "request"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.request.cacheDownload.d.ts",
             "bundle_name": [
                 "request"
             ],
@@ -5082,6 +5110,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.request.d.ts",
+            "bundle_name": [
+                "request"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@system.router.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -6196,6 +6231,13 @@
         },
         {
             "path": "interface/sdk-js/api/@system.request.d.ts",
+            "bundle_name": [
+                "request"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@system.request.d.ts",
             "bundle_name": [
                 "request"
             ],
