@@ -5040,6 +5040,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.DatePickerComponent.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.DatePickerComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.EnterpriseAdminExtensionAbility.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
