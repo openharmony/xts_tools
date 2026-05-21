@@ -2485,6 +2485,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.reminderAgentManager.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.Want.d.ts",
             "bundle_name": [
                 "ability_base"
@@ -4067,6 +4074,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.resourceschedule.usageStatistics.d.ts",
+            "bundle_name": [
+                "device_usage_statistics"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.InputMethodSubtype.d.ts",
             "bundle_name": [
                 "imf"
@@ -4578,6 +4592,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundleState.d.ts",
+            "bundle_name": [
+                "device_usage_statistics"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundle.freeInstall.d.ts",
             "bundle_name": [
                 "bundle_framework"
@@ -4656,6 +4677,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.reminderAgent.d.ts",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.reminderAgent.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
             ],
