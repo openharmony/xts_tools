@@ -4060,6 +4060,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/application/PrintExtensionContext.d.ts",
+            "bundle_name": [
+                "print_fwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.movingphotoview.d.ts",
             "bundle_name": [
                 "media_library"
@@ -6581,13 +6588,6 @@
         },
         {
             "path": "interface/sdk-js/zh-cn/api/@ohos.scan.d.ets",
-            "bundle_name": [
-                "print_fwk"
-            ],
-            "build_targets": []
-        },
-        {
-            "path": "interface/sdk-js/zh-cn/api/application/PrintExtensionContext.d.ts",
             "bundle_name": [
                 "print_fwk"
             ],
