@@ -6587,6 +6587,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/PrintExtensionContext.d.ts",
+            "bundle_name": [
+                "print_fwk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.util.TreeMap.d.ts",
             "bundle_name": [
                 "ets_utils"
