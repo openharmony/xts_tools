@@ -7854,6 +7854,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/rich_editor.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/component3d.d.ts",
             "bundle_name": [
                 "graphic_3d"
@@ -13253,6 +13260,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/repeat.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/richEditor.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
