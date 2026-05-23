@@ -13957,6 +13957,13 @@
                 "typescript"
             ],
             "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.annotation.static.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
         }
     ],
     "sdk_c": [
