@@ -4025,7 +4025,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.usbManager.d.ts",
+            "bundle_name": [
+                "usb_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.usbManager.serial.d.ts",
+            "bundle_name": [
+                "usb_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.usbManager.serial.d.ts",
             "bundle_name": [
                 "usb_manager"
             ],
