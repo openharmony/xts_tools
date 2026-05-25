@@ -14375,7 +14375,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/zh-cn/drivers/external_device_manager/base",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/drivers/external_device_manager/hid",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/drivers/external_device_manager/hid",
             "bundle_name": [
                 "external_device_manager"
             ],
@@ -14389,6 +14403,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/zh-cn/drivers/external_device_manager/scsi_peripheral",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/drivers/external_device_manager/usb_serial",
             "bundle_name": [
                 "external_device_manager"
@@ -14396,7 +14417,21 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/zh-cn/drivers/external_device_manager/usb_serial",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk_c/drivers/external_device_manager/usb",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/drivers/external_device_manager/usb",
             "bundle_name": [
                 "external_device_manager"
             ],
