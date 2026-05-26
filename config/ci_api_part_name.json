@@ -364,6 +364,48 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.annotation.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.base.d.ts",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.base.static.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.annotation.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.base.d.ts",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.base.static.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.UIExtensionContentSession.d.ts",
             "bundle_name": [
                 "ability_runtime"
