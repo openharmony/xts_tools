@@ -2037,6 +2037,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ExceptionPromptV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ExceptionPromptV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.wantAgent.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -4858,6 +4872,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ComposeTitleBarV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ComposeTitleBarV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.secureElement.d.ts",
             "bundle_name": [
                 "secure_element"
@@ -5068,6 +5096,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ComposeListItemV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ComposeListItemV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.graphics.displaySync.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -5188,6 +5230,20 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.SwipeRefresher.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SwipeRefresherV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SwipeRefresherV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -6364,6 +6420,20 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.EditableTitleBar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.EditableTitleBarV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.EditableTitleBarV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
