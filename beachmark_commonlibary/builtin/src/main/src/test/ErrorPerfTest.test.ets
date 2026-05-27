@@ -27,10 +27,13 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function ErrorPerfTest() {
+export default function ErrorPerfTest(): void {
   describe('ErrorPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -54,7 +57,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'constructor',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
         'constructor(code: int, message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })
 
@@ -68,7 +71,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'constructor',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
         'constructor(code: int, message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })
 
@@ -82,7 +85,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'constructor',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })
 
@@ -96,7 +99,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'constructor',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })
 
@@ -110,7 +113,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0500: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'constructor',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
         'constructor(name: String, code: int, message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })
 
@@ -125,7 +128,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0600: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'constructor',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
         'constructor(name: String, code: int, message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })
 
@@ -139,7 +142,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0700: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'constructor',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
         'constructor(name: String, message: String | undefined, options?: ErrorOptions)', arkTsAveragedTime);
     })
 
@@ -154,7 +157,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0800: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'constructor',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
         'constructor(name: String, message: String | undefined, options?: ErrorOptions)', arkTsAveragedTime);
     })
 
@@ -168,7 +171,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Static_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', '$_invoke',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', '$_invoke',
         'static $_invoke(message?: String, options?: ErrorOptions): Error', arkTsAveragedTime);
     })
 
@@ -183,7 +186,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Static_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', '$_invoke',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', '$_invoke',
         'static $_invoke(message?: String, options?: ErrorOptions): Error', arkTsAveragedTime);
     })
 
@@ -198,7 +201,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'name',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'name',
         'get name(): string', arkTsAveragedTime);
     })
 
@@ -215,7 +218,7 @@ export default function ErrorPerfTest() {
 	  res = error.name;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'name',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'name',
         'set name(val: string)', arkTsAveragedTime);
     })
 
@@ -230,7 +233,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'code',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'code',
         'get code(): int', arkTsAveragedTime);
     })
 
@@ -246,7 +249,7 @@ export default function ErrorPerfTest() {
       res = error.code;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'code',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'code',
         'set code(val: int)', arkTsAveragedTime);
     })
 
@@ -261,7 +264,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0500: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'message',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'message',
         'get message(): string', arkTsAveragedTime);
     })
 
@@ -277,7 +280,7 @@ export default function ErrorPerfTest() {
       res = error.message;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0600: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'message',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'message',
         'set message(val: string)', arkTsAveragedTime);
     })
 
@@ -293,7 +296,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0700: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'cause',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'cause',
         'get cause(): Object | undefined', arkTsAveragedTime);
     })
 
@@ -311,7 +314,7 @@ export default function ErrorPerfTest() {
       res = error.cause;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0800: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'cause',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'cause',
         'set cause(val: Object | undefined)', arkTsAveragedTime);
     })
 
@@ -327,7 +330,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0900: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'stack',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'stack',
         'get stack(): String | undefined', arkTsAveragedTime);
     })
 
@@ -344,7 +347,7 @@ export default function ErrorPerfTest() {
       res = error.stack;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_1000: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'stack',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'stack',
         'set stack(newStack: String | undefined)', arkTsAveragedTime);
     })
 
@@ -360,7 +363,7 @@ export default function ErrorPerfTest() {
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_1100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Error', 'toString',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'toString',
         'toString(): String', arkTsAveragedTime);
     })
 
