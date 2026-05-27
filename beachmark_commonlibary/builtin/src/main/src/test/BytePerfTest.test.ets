@@ -35,8 +35,6 @@ export default function BytePerfTest(): void {
     // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
-    // buffer.from
-    const BASE_COUNT_MIX = 100;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -557,6 +555,38 @@ export default function BytePerfTest(): void {
     //   performance.apiWithClassAndKeywordTxt('std.core', 'Byte', 'toLocaleString',
     //     'toLocaleString(): String', arkTsAveragedTime);
     // })
+
+    // toLocaleString 方法测试
+    it('PerformanceTest_Byte_Instance_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let byteObj = new Byte(123);
+      let res: String = new String();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = byteObj.toLocaleString();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Byte_Instance_3000: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Byte', 'toLocaleString',
+        'toLocaleString(locales?: Intl.LocalesArgument, options?: Intl.NumberFormatOptions): String', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Byte_Instance_3010', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let byteObj = new Byte(123);
+      let res: String = new String();
+      let options: Intl.NumberFormatOptions = {};
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = byteObj.toLocaleString('zh-CN', options);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Byte_Instance_3010: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Byte', 'toLocaleString',
+        'toLocaleString(locales?: Intl.LocalesArgument, options?: object): String', arkTsAveragedTime);
+    })
 
   })
 }

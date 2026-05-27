@@ -35,8 +35,7 @@ export default function BuiltinArraySortPerfTest(): void {
     // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
-    // buffer.from
-    const BASE_COUNT_MIX = 100;
+
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -50,11 +49,12 @@ export default function BuiltinArraySortPerfTest(): void {
     })
     it('PerformanceTest_BuiltinArraySortPerfTest_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<Byte> = [3, 1, 2];
+      let cmp = (lhs: byte, rhs: byte): int => {
+        return lhs - rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, (lhs: byte, rhs: byte): int => {
-          return lhs - rhs;
-        });
+        arr_sort_stable(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -67,11 +67,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<Short> = [30, 10, 20];
+      let cmp = (lhs: short, rhs: short): int => {
+        return lhs - rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, (lhs: short, rhs: short): int => {
-          return lhs - rhs;
-        });
+        arr_sort_stable(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -84,11 +85,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<Int> = [300, 100, 200];
+      let cmp = (lhs: int, rhs: int): int => {
+        return lhs - rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, (lhs: int, rhs: int): int => {
-          return lhs - rhs;
-        });
+        arr_sort_stable(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -101,11 +103,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<Long> = [3000, 1000, 2000];
+      let cmp = (lhs: long, rhs: long): int => {
+        return lhs > rhs ? 1 : -1;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, (lhs: long, rhs: long): int => {
-          return lhs > rhs ? 1 : -1;
-        });
+        arr_sort_stable(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -118,11 +121,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<Float> = [3.3f, 1.1f, 2.2f];
+      let cmp = (lhs: float, rhs: float): int => {
+        return lhs > rhs ? 1 : -1;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, (lhs: float, rhs: float): int => {
-          return lhs > rhs ? 1 : -1;
-        });
+        arr_sort_stable(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -135,11 +139,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<Double> = [3.33, 1.11, 2.22];
+      let cmp = (lhs: double, rhs: double): int => {
+        return lhs > rhs ? 1 : -1;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, (lhs: double, rhs: double): int => {
-          return lhs > rhs ? 1 : -1;
-        });
+        arr_sort_stable(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -180,11 +185,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<boolean> = [true, false, true];
+      let cmp = (lhs: boolean, rhs: boolean) => {
+        return lhs === rhs ? false : !lhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, (lhs: boolean, rhs: boolean) => {
-          return lhs === rhs ? false : !lhs;
-        });
+        sort_subarray(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -197,11 +203,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<boolean> = [true, false, true];
+      let cmp = (lhs: boolean, rhs: boolean) => {
+        return lhs === rhs ? false : !lhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, (lhs: boolean, rhs: boolean) => {
-          return lhs === rhs ? false : !lhs;
-        });
+        sort_subarray(fixArray, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -214,11 +221,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<boolean> = [true, false, true];
+      let cmp = (lhs: boolean, rhs: boolean) => {
+        return lhs === rhs ? false : !lhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, (lhs: boolean, rhs: boolean) => {
-          return lhs === rhs ? false : !lhs;
-        });
+        sort_subarray(fixArray, 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -232,11 +240,12 @@ export default function BuiltinArraySortPerfTest(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<byte> = [3, 1, 2];
       let result = new FixedArray<byte>(3);
+      let cmp = (lhs: byte, rhs: byte): int => {
+        return lhs - rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = mergeSort(fixArray, (lhs: byte, rhs: byte): int => {
-          return lhs - rhs;
-        }, 0, 3);
+        result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -277,11 +286,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<byte> = [3, 1, 2];
+      let cmp = (lhs: byte, rhs: byte) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, (lhs: byte, rhs: byte) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -294,11 +304,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<byte> = [3, 1, 2];
+      let cmp = (lhs: byte, rhs: byte) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, (lhs: byte, rhs: byte) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -311,11 +322,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<byte> = [3, 1, 2];
+      let cmp = (lhs: byte, rhs: byte) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, (lhs: byte, rhs: byte) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -329,16 +341,17 @@ export default function BuiltinArraySortPerfTest(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [30, 10, 20];
       let result = new FixedArray<short>(3);
+      let cmp = (lhs: short, rhs: short): int => {
+        return lhs - rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = mergeSort(fixArray, (lhs: short, rhs: short): int => {
-          return lhs - rhs;
-        }, 0, 3);
+        result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1800: ' + arkTsAveragedTime + 'ns');
       let res1 = result;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'mergeSort',
       'mergeSort(array: FixedArray<short>, cmp: (lhs: short, rhs: short) => int, begin: int, end: int): FixedArray<short>',
       arkTsAveragedTime);
@@ -374,11 +387,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [30, 10, 20];
+      let cmp = (lhs: short, rhs: short) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, (lhs: short, rhs: short) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -392,11 +406,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [30, 10, 20];
+      let cmp = (lhs: short, rhs: short) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, (lhs: short, rhs: short) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -409,11 +424,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [30, 10, 20];
+      let cmp = (lhs: short, rhs: short) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, (lhs: short, rhs: short) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -427,11 +443,12 @@ export default function BuiltinArraySortPerfTest(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [300, 100, 200];
       let result = new FixedArray<int>(3);
+      let cmp = (lhs: int, rhs: int): int => {
+        return lhs - rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = mergeSort(fixArray, (lhs: int, rhs: int): int => {
-          return lhs - rhs;
-        }, 0, 3);
+        result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -472,11 +489,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [300, 100, 200];
+      let cmp = (lhs: int, rhs: int) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, (lhs: int, rhs: int) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -489,11 +507,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [300, 100, 200];
+      let cmp = (lhs: int, rhs: int) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, (lhs: int, rhs: int) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -505,11 +524,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [300, 100, 200];
+      let cmp = (lhs: int, rhs: int) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, (lhs: int, rhs: int) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -524,11 +544,12 @@ export default function BuiltinArraySortPerfTest(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<long> = [3000, 1000, 2000];
       let result = new FixedArray<long>(3);
+      let cmp = (lhs: long, rhs: long): int => {
+        return lhs > rhs ? 1 : -1;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = mergeSort(fixArray, (lhs: long, rhs: long): int => {
-          return lhs > rhs ? 1 : -1;
-        }, 0, 3);
+        result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -569,11 +590,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<long> = [3000, 1000, 2000];
+      let cmp = (lhs: long, rhs: long) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, (lhs: long, rhs: long) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -586,11 +608,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<long> = [3000, 1000, 2000];
+      let cmp = (lhs: long, rhs: long) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, (lhs: long, rhs: long) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -603,11 +626,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<long> = [3000, 1000, 2000];
+      let cmp = (lhs: long, rhs: long) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, (lhs: long, rhs: long) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -625,10 +649,12 @@ export default function BuiltinArraySortPerfTest(): void {
         Double.toFloat(2.2)
       ];
       let result = new FixedArray<float>(3);
+      let cmp = (lhs: float, rhs: float): int => {
+        return lhs > rhs ? 1 : -1;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = mergeSort(fixArray, (lhs: float, rhs: float): int => {
-          return lhs > rhs ? 1 : -1; }, 0, 3);
+        result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -669,11 +695,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
+      let cmp = (lhs: float, rhs: float) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, (lhs: float, rhs: float) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -687,11 +714,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
+      let cmp = (lhs: float, rhs: float) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, (lhs: float, rhs: float) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -705,11 +733,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
+      let cmp = (lhs: float, rhs: float) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, (lhs: float, rhs: float) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -724,11 +753,12 @@ export default function BuiltinArraySortPerfTest(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest_4200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<double> = [3.33, 1.11, 2.22];
       let result = new FixedArray<double>(3);
+      let cmp = (lhs: double, rhs: double): int => {
+        return lhs > rhs ? 1 : -1;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = mergeSort(fixArray, (lhs: double, rhs: double): int => {
-          return lhs > rhs ? 1 : -1;
-        }, 0, 3);
+        result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -773,11 +803,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<double> = [3.33, 1.11, 2.22];
+      let cmp = (lhs: double, rhs: double) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, (lhs: double, rhs: double) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -791,11 +822,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<double> = [3.33, 1.11, 2.22];
+      let cmp = (lhs: double, rhs: double) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, (lhs: double, rhs: double) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -809,11 +841,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<double> = [3.33, 1.11, 2.22];
+      let cmp = (lhs: double, rhs: double) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, (lhs: double, rhs: double) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -857,11 +890,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<char> = [c'c', c'a', c'b'];
+      let cmp = (lhs: char, rhs: char) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, (lhs: char, rhs: char) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -875,11 +909,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<char> = [c'c', c'a', c'b'];
+      let cmp = (lhs: char, rhs: char) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, (lhs: char, rhs: char) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -893,11 +928,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<char> = [c'c', c'a', c'b'];
+      let cmp = (lhs: char, rhs: char) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, (lhs: char, rhs: char) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -925,11 +961,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<string> = ['ccc', 'aaa', 'bbb'];
+      let cmp = (lhs: string, rhs: string) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, (lhs: string, rhs: string) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -942,11 +979,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<string> = ['ccc', 'aaa', 'bbb'];
+      let cmp = (lhs: string, rhs: string) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, (lhs: string, rhs: string) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -959,11 +997,12 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<string> = ['ccc', 'aaa', 'bbb'];
+      let cmp = (lhs: string, rhs: string) => {
+        return lhs < rhs;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, (lhs: string, rhs: string) => {
-          return lhs < rhs;
-        });
+        sort_subarray(fixArray, 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;

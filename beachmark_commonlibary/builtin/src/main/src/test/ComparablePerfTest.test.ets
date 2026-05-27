@@ -60,7 +60,11 @@ export default function ComparablePerfTest(): void {
   describe('ComparablePerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
+    // buffer.from
+    const BASE_COUNT_MIX = 100;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -88,6 +92,57 @@ export default function ComparablePerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Comparable_CompareTo_LessThan_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Comparable', 'compareTo',
         'compareTo(to: T): int (less than)', arkTsAveragedTime);
+    })
+
+    // ========== compareTo 测试 - 等于 ==========
+    it('PerformanceTest_Comparable_CompareTo_Equal_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let p1 = new Person(25);
+      let p2 = new Person(25);
+      let res: int = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = p1.compareTo(p2);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Comparable_CompareTo_Equal_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Comparable', 'compareTo',
+        'compareTo(to: T): int (equal)', arkTsAveragedTime);
+    })
+
+    // ========== compareTo 测试 - 大于 ==========
+    it('PerformanceTest_Comparable_CompareTo_GreaterThan_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let p1 = new Person(40);
+      let p2 = new Person(30);
+      let res: int = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = p1.compareTo(p2);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Comparable_CompareTo_GreaterThan_0300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Comparable', 'compareTo',
+        'compareTo(to: T): int (greater than)', arkTsAveragedTime);
+    })
+
+    // ========== compareTo 测试 - 子类继承比较 ==========
+    it('PerformanceTest_Comparable_CompareTo_SubClass_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let s1 = new Student(20, 3);
+      let s2 = new Student(20, 5);
+      let res: int = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = s1.compareTo(s2);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Comparable_CompareTo_SubClass_0400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Comparable', 'compareTo',
+        'compareTo(to: T): int (subclass)', arkTsAveragedTime);
     })
 
   })
