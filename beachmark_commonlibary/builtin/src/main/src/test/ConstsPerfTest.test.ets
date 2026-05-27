@@ -44,10 +44,13 @@ import {
   doubleNegInf
 } from 'std/math/consts';
 
-export default function ConstsPerfTest() {
+export default function ConstsPerfTest(): void {
   describe('ConstsPerfTest', () => {
 
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -64,18 +67,26 @@ export default function ConstsPerfTest() {
     it('PerformanceTest_consts_PI_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = PI; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = PI;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_PI_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'PI', 'PI: double', arkTsAveragedTime);
     })
 
     it('PerformanceTest_consts_E_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: double = 0.0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = E; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = E;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_E_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'E', 'E: double', arkTsAveragedTime);
     })
 
@@ -83,8 +94,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = LN10; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_LN10_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'LN10', 'LN10: double', arkTsAveragedTime);
     })
 
@@ -92,8 +105,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = LN2; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_LN2_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'LN2', 'LN2: double', arkTsAveragedTime);
     })
 
@@ -101,8 +116,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = LOG2E; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_LOG2E_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'LOG2E', 'LOG2E: double', arkTsAveragedTime);
     })
 
@@ -110,8 +127,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = LOG10E; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_LOG10E_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'LOG10E', 'LOG10E: double', arkTsAveragedTime);
     })
 
@@ -119,8 +138,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = SQRT1_2; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_SQRT1_2_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'SQRT1_2', 'SQRT1_2: double', arkTsAveragedTime);
     })
 
@@ -128,8 +149,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = SQRT2; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_SQRT2_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'SQRT2', 'SQRT2: double', arkTsAveragedTime);
     })
 
@@ -137,8 +160,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = doubleEpsilon; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_DoubleEpsilon_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'doubleEpsilon', 'doubleEpsilon: double', arkTsAveragedTime);
     })
 
@@ -146,8 +171,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = doubleMinimum; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_DoubleMinimum_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'doubleMinimum', 'doubleMinimum: double', arkTsAveragedTime);
     })
 
@@ -155,8 +182,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = doubleMaximum; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_DoubleMaximum_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'doubleMaximum', 'doubleMaximum: double', arkTsAveragedTime);
     })
 
@@ -164,8 +193,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = doubleNaN; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_DoubleNaN_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'doubleNaN', 'doubleNaN: double', arkTsAveragedTime);
     })
 
@@ -173,8 +204,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = doubleInf; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_DoubleInf_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'doubleInf', 'doubleInf: double', arkTsAveragedTime);
     })
 
@@ -182,8 +215,10 @@ export default function ConstsPerfTest() {
       let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = doubleNegInf; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_consts_DoubleNegInf_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.math.consts', 'consts', 'doubleNegInf', 'doubleNegInf: double', arkTsAveragedTime);
     })
 

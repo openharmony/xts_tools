@@ -13,6 +13,13 @@
  * limitations under the License.
  */
 
+/*
+ * NOTE: CoroutineExtras type does not exist in doc/stdlib.
+ * All test cases using CoroutineExtras are commented out.
+ * Uncomment when std.debug.concurrency module is available.
+ */
+
+
 import {
   describe,
   it,
@@ -26,11 +33,18 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
+import {
+  CoroutineExtras
+} from 'std/debug/concurrency';
 
-export default function CoroutineExtrasPerfTest() {
+export default function CoroutineExtrasPerfTest():void {
   describe('CoroutineExtrasPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
-    const BASE_COUNT = 50000;
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
+    // const BASE_COUNT = 50000;
+    const BASE_COUNT = 1000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -337,6 +351,36 @@ export default function CoroutineExtrasPerfTest() {
         'static setTaskPoolWorkersLimit(limit: int): void', arkTsAveragedTime);
     })
 
+    // stopTaskpool() 测试 - 需要先启动taskpool才能调用，不适合性能测试
+    // it('PerformanceTest_CoroutineExtras_Static_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let res: boolean = false;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     CoroutineExtras.stopTaskpool();
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_2000: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'stopTaskpool',
+    //     'static stopTaskpool(): void', arkTsAveragedTime);
+    // })
+
+    // retriggerTaskPoolShrink() 测试 - 需要先启动taskpool才能调用，不适合性能测试
+    // it('PerformanceTest_CoroutineExtras_Static_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let res: boolean = false;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     CoroutineExtras.retriggerTaskPoolShrink();
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_2100: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'retriggerTaskPoolShrink',
+    //     'static retriggerTaskPoolShrink(): void', arkTsAveragedTime);
+    // })
+
     // increaseTaskpoolWorkersToN() 测试
     it('PerformanceTest_CoroutineExtras_Static_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: boolean = false;
@@ -352,20 +396,21 @@ export default function CoroutineExtrasPerfTest() {
         'static increaseTaskpoolWorkersToN(workersNum: int): void', arkTsAveragedTime);
     })
 
-    // dumpUnhandledFailedJobs() 测试
-    it('PerformanceTest_CoroutineExtras_Static_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        CoroutineExtras.dumpUnhandledFailedJobs();
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_2300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'dumpUnhandledFailedJobs',
-        'static dumpUnhandledFailedJobs(): void', arkTsAveragedTime);
-    })
+    // retriggerTaskPoolBlockedExpandMonitorDebug() 测试 - 需要先启动taskpool才能调用，不适合性能测试
+    // it('PerformanceTest_CoroutineExtras_Static_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let res: boolean = false;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     CoroutineExtras.retriggerTaskPoolBlockedExpandMonitorDebug();
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_2300: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'retriggerTaskPoolBlockedExpandMonitorDebug',
+    //     'static retriggerTaskPoolBlockedExpandMonitorDebug(): void', arkTsAveragedTime);
+    // })
 
   })
 }
+

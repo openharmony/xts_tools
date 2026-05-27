@@ -29,7 +29,10 @@ import performance from './Performance.util';
 
 export default function DatePerfTest(): void {
   describe('DatePerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -621,7 +624,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setTime(1234567890000 as long);
+        res = dateObj.setTime(1234567890000);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -636,7 +639,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setDate(15 as int);
+        res = dateObj.setDate(15 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -651,7 +654,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setFullYear(2024 as int);
+        res = dateObj.setFullYear(2024);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -666,7 +669,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setMonth(5 as int);
+        res = dateObj.setMonth(5 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -681,7 +684,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setHours(12 as int);
+        res = dateObj.setHours(12 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -696,7 +699,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setMinutes(30 as int);
+        res = dateObj.setMinutes(30 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -711,7 +714,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setSeconds(45 as int);
+        res = dateObj.setSeconds(45 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -726,7 +729,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setMilliseconds(500 as int);
+        res = dateObj.setMilliseconds(500 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -741,7 +744,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setUTCDate(15 as int);
+        res = dateObj.setUTCDate(15 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -756,7 +759,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setUTCFullYear(2024 as int);
+        res = dateObj.setUTCFullYear(2024 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -771,7 +774,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setUTCMonth(5 as int);
+        res = dateObj.setUTCMonth(5 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -786,7 +789,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setUTCHours(12 as int);
+        res = dateObj.setUTCHours(12 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -801,7 +804,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setUTCMinutes(30 as int);
+        res = dateObj.setUTCMinutes(30 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -816,7 +819,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setUTCSeconds(45 as int);
+        res = dateObj.setUTCSeconds(45 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -831,7 +834,7 @@ export default function DatePerfTest(): void {
       let res: long = 0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = dateObj.setUTCMilliseconds(500 as int);
+        res = dateObj.setUTCMilliseconds(500 );
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -839,6 +842,312 @@ export default function DatePerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCMilliseconds',
         'setUTCMilliseconds(value: int): long', arkTsAveragedTime);
+    })
+
+    // ========== setHours 重载方法测试 ==========
+
+    it('PerformanceTest_Date_Instance_Method_4300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setHours(12 , 30 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setHours',
+        'setHours(value: int, min: int): long', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Date_Instance_Method_4400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setHours(12 , 30 , 45 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setHours',
+        'setHours(value: int, min: int, sec: int): long', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Date_Instance_Method_4500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setHours(12 , 30 , 45 , 500);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4500: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setHours',
+        'setHours(value: int, min: int, sec: int, ms: int): long', arkTsAveragedTime);
+    })
+
+    // ========== setMinutes 重载方法测试 ==========
+
+    it('PerformanceTest_Date_Instance_Method_4600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setMinutes(30 , 45 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4600: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setMinutes',
+        'setMinutes(value: int, sec: int): long', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Date_Instance_Method_4700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setMinutes(30 , 45 , 500 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4700: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setMinutes',
+        'setMinutes(value: int, sec: int, ms: int): long', arkTsAveragedTime);
+    })
+
+    // ========== setSeconds 重载方法测试 ==========
+
+    it('PerformanceTest_Date_Instance_Method_4800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setSeconds(45 , 500 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4800: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setSeconds',
+        'setSeconds(value: int, ms: int): long', arkTsAveragedTime);
+    })
+
+    // ========== setUTCHours 重载方法测试 ==========
+
+    it('PerformanceTest_Date_Instance_Method_4900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setUTCHours(12 , 30 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4900: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCHours',
+        'setUTCHours(value: int, min: int): long', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Date_Instance_Method_5000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setUTCHours(12 , 30 , 45 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5000: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCHours',
+        'setUTCHours(value: int, min: int, sec: int): long', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Date_Instance_Method_5100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setUTCHours(12 , 30 , 45 , 500 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCHours',
+        'setUTCHours(value: int, min: int, sec: int, ms: int): long', arkTsAveragedTime);
+    })
+
+    // ========== setUTCMinutes 重载方法测试 ==========
+
+    it('PerformanceTest_Date_Instance_Method_5200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setUTCMinutes(30, 45 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCMinutes',
+        'setUTCMinutes(value: int, sec: int): long', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Date_Instance_Method_5300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setUTCMinutes(30 , 45 , 500);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCMinutes',
+        'setUTCMinutes(value: int, sec: int, ms: int): long', arkTsAveragedTime);
+    })
+
+    // ========== setUTCSeconds 重载方法测试 ==========
+
+    it('PerformanceTest_Date_Instance_Method_5400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setUTCSeconds(45 , 500);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCSeconds',
+        'setUTCSeconds(value: int, ms: int): long', arkTsAveragedTime);
+    })
+
+    // ========== setFullYear 重载方法测试 ==========
+
+    it('PerformanceTest_Date_Instance_Method_5500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setFullYear(2024 , 5 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5500: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setFullYear',
+        'setFullYear(value: int, month: int): long', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Date_Instance_Method_5600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setFullYear(2024, 5 , 15 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5600: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setFullYear',
+        'setFullYear(value: int, month: int, date: int): long', arkTsAveragedTime);
+    })
+
+    // ========== setUTCFullYear 重载方法测试 ==========
+
+    it('PerformanceTest_Date_Instance_Method_5700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setUTCFullYear(2024, 5 );
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5700: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCFullYear',
+        'setUTCFullYear(value: int, month: int): long', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Date_Instance_Method_5800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: long = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.setUTCFullYear(2024 as int, 5 as int, 15 as int);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5800: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCFullYear',
+        'setUTCFullYear(value: int, month: int, date: int): long', arkTsAveragedTime);
+    })
+
+    // ========== setYear 方法测试 ==========
+
+    it('PerformanceTest_Date_Instance_Method_5900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        dateObj.setYear(2024);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = dateObj;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5900: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setYear',
+        'setYear(value: int): void', arkTsAveragedTime);
+    })
+
+    // ========== toLocaleString 方法测试 ==========
+
+    it('PerformanceTest_Date_Instance_Method_6000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateObj = new Date();
+      let res: string = '';
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = dateObj.toLocaleString();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6000: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'toLocaleString',
+        'toLocaleString(): string', arkTsAveragedTime);
+    })
+
+    // ========== Constructor Date 对象参数测试 ==========
+
+    it('PerformanceTest_Date_Constructor_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let dateSource = new Date(2024, 5 , 15 );
+      let res: Date = new Date();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new Date(dateSource);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Constructor_0600: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'constructor',
+        'function constructor(value: Date)', arkTsAveragedTime);
     })
 
   })
