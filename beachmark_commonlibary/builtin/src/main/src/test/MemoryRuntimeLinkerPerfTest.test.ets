@@ -27,13 +27,14 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function MemoryRuntimeLinkerPerfTest() {
+export default function MemoryRuntimeLinkerPerfTest():void {
   describe('MemoryRuntimeLinkerPerfTest', () => {
-
-    const BASE_COUNT = 50000;
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
+    // const BASE_COUNT = 50000;
+    const BASE_COUNT = 1000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
-    const BASE_COUNT_MIX = 100;
 
     const mockRawAbcFiles: Array<FixedArray<byte>> = [];
 

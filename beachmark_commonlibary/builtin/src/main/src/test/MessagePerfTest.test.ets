@@ -199,7 +199,7 @@ export default function MessagePerfTest():void {
       }
       let obj = new Object();
       let msg = new concurrency.Message(1, obj, handler);
-      let res: Object | undefined = undefined;
+      let res = msg.getObject();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = msg.getObject();
@@ -278,7 +278,7 @@ export default function MessagePerfTest():void {
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = msg;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Instance_0600: ' + arkTsAveragedTime + 'ns');
-        expect(res1).assertTrue();
+        expect(res1 !== null).assertTrue();
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'sendToTarget',
           'sendToTarget(): void', arkTsAveragedTime);
       })

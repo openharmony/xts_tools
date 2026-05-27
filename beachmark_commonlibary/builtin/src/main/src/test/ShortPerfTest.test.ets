@@ -24,9 +24,6 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-const BASE_COUNT = 50000;
-const HEAVY_COUNT = 1000;
-const UNIT_TIME = 1000000;
 
 function toShortValue(value: int): short {
   return value.toShort();
@@ -58,6 +55,10 @@ function createString12345(): String {
 
 export default function ShortPerfTest(): void {
   describe('ShortPerfTest', () => {
+    const BASE_COUNT = 50000;
+    const HEAVY_COUNT = 1000;
+    const UNIT_TIME = 1000000;
+
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
@@ -116,26 +117,27 @@ export default function ShortPerfTest(): void {
         );
       });
 
-    it('PerformanceTest_Short_valueOf_0100',
+    it('PerformanceTest_Short_toString_0300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: short = toShortValue(123);
-        let result: Short = Short.valueOf(value);
+        let value: Short = createShort255();
+        let radix: int = 16;
+        let result: string = value.toString(radix);
         let sTime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = Short.valueOf(value);
+          result = value.toString(radix);
         }
 
         let dTime = new Date().getTime() - sTime;
         let res1 = result;
         let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Short_valueOf_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Short_toString_0300: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Short',
-          'valueOf',
-          'valueOf(value: short): Short',
+          'toString',
+          'toString(radix: int): string',
           arkTsAveragedTime
         );
       });
@@ -641,27 +643,27 @@ export default function ShortPerfTest(): void {
         );
       });
 
-    it('PerformanceTest_Short_toString_0300',
+    it('PerformanceTest_Short_toString_0400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Short = createShort255();
-        let radix: number = 16;
-        let result: string = Number(value).toString(radix);
+        let radix: int = 16;
+        let result: string = value.toString(radix);
         let sTime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = Number(value).toString(radix);
+          result = value.toString(radix);
         }
 
         let dTime = new Date().getTime() - sTime;
         let res1 = result;
         let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Short_toString_0300: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Short_toString_0400: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Short',
           'toString',
-          'toString(radix: number): string',
+          'toString(radix: int): string',
           arkTsAveragedTime
         );
       });

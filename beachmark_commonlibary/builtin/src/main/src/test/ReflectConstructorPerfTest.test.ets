@@ -25,6 +25,7 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
+
 const BASE_COUNT = 50000;
 const MIX_COUNT = 100;
 const UNIT_TIME = 1000000;
@@ -83,8 +84,10 @@ export default function ReflectConstructorPerfTest(): void {
 
         let Dtime = new Date().getTime() - Stime;
         let res1 = res;
-        recordPerformance('PerformanceTest_Constructor_equals_0100', 'Constructor', 'equals',
-          'equals(other: Constructor): boolean', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Constructor_equals_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Constructor', 'equals',
+          'equals(other: Constructor): boolean', arkTsAveragedTime);
       });
 
     it('PerformanceTest_Constructor_createInstance_0100',
@@ -98,8 +101,10 @@ export default function ReflectConstructorPerfTest(): void {
 
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformanceWithCount('PerformanceTest_Constructor_createInstance_0100', 'Constructor', 'createInstance',
-          'createInstance(args?: FixedArray<Any>): Any', Dtime, MIX_COUNT);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / MIX_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Constructor_createInstance_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Constructor', 'createInstance',
+          'createInstance(args?: FixedArray<Any>): Any', arkTsAveragedTime);
       });
   });
 }

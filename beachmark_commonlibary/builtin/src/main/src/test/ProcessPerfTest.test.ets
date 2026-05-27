@@ -37,9 +37,9 @@ function buildOptions(): StdProcess.ConditionType {
 }
 
 function createChildList(command: string, count: int): StdProcess.ChildProcess[] {
-  let childList: StdProcess.ChildProcess[] = [];
+  let childList: StdProcess.ChildProcess[] = new Array<StdProcess.ChildProcess>();
   for (let i = 0; i < count; i++) {
-    childList[i] = StdProcess.runCmd(command, buildOptions());
+    childList.push(StdProcess.runCmd(command, buildOptions()));
   }
   return childList;
 }
@@ -51,6 +51,7 @@ export default function ProcessPerfTest(): void {
   describe('ProcessPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
@@ -248,6 +249,7 @@ export default function ProcessPerfTest(): void {
       });
     */
 
+    //并发格式不规范
     it('PerformanceTest_ProcessManager_Kill_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let manager: StdProcess.ProcessManager = new StdProcess.ProcessManager();
@@ -283,6 +285,7 @@ export default function ProcessPerfTest(): void {
         );
       });
 
+    //并发格式不规范
     it('PerformanceTest_ChildProcess_Wait_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let warmupChild: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_COMMAND, buildOptions());
@@ -315,6 +318,7 @@ export default function ProcessPerfTest(): void {
         );
       });
 
+    //并发格式不规范
     it('PerformanceTest_ChildProcess_GetOutput_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let warmupChild: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_COMMAND, buildOptions());
@@ -353,6 +357,7 @@ export default function ProcessPerfTest(): void {
         );
       });
 
+    //并发格式不规范
     it('PerformanceTest_ChildProcess_GetErrorOutput_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let warmupChild: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_ERROR_COMMAND, buildOptions());
@@ -391,6 +396,7 @@ export default function ProcessPerfTest(): void {
         );
       });
 
+    //并发格式不规范
     it('PerformanceTest_ChildProcess_Close_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let childList: StdProcess.ChildProcess[] = createChildList(CHILD_COMMAND, PROCESS_BASE_COUNT);
@@ -421,6 +427,7 @@ export default function ProcessPerfTest(): void {
         );
       });
 
+    //并发格式不规范
     it('PerformanceTest_ChildProcess_Kill_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let warmupChild: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_SLEEP_COMMAND, buildOptions());
@@ -743,6 +750,7 @@ export default function ProcessPerfTest(): void {
         );
       });
 
+    //并发格式不规范
     it('PerformanceTest_StdProcess_RunCmd_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let options: StdProcess.ConditionType = buildOptions();
@@ -751,11 +759,11 @@ export default function ProcessPerfTest(): void {
         warmupChild.wait();
         warmupChild.close();
 
-        let childList: StdProcess.ChildProcess[] = [];
+        let childList: StdProcess.ChildProcess[] = new Array<StdProcess.ChildProcess>();
         let Stime = new Date().getTime();
 
         for (let i = 0; i < PROCESS_BASE_COUNT; i++) {
-          childList[i] = StdProcess.runCmd(CHILD_COMMAND, options);
+          childList.push(StdProcess.runCmd(CHILD_COMMAND, options));
         }
 
         let Dtime = new Date().getTime() - Stime;
@@ -811,17 +819,16 @@ export default function ProcessPerfTest(): void {
 
     it('PerformanceTest_StdProcess_On_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let res = StdProcess.on("uncaughtError", uncaughtListener);
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          StdProcess.on("uncaughtError", uncaughtListener);
+          res = StdProcess.on("uncaughtError", uncaughtListener);
         }
 
         let Dtime = new Date().getTime() - Stime;
+        let res1 = res;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-
-        StdProcess.off("uncaughtError");
-
+        // StdProcess.off("uncaughtError");
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StdProcess_On_0100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
@@ -927,6 +934,135 @@ export default function ProcessPerfTest(): void {
           'StdProcess',
           'uptime',
           'uptime(): long',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_ChildProcess_Pid_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let warmupChild: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_COMMAND, buildOptions());
+        warmupChild.wait();
+        warmupChild.close();
+
+        let child: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_COMMAND, buildOptions());
+        child.wait();
+        let result: int = child.pid;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = child.pid;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+
+        child.close();
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ChildProcess_Pid_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'ChildProcess',
+          'pid',
+          'readonly pid: int',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_ChildProcess_Ppid_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let warmupChild: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_COMMAND, buildOptions());
+        warmupChild.wait();
+        warmupChild.close();
+
+        let child: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_COMMAND, buildOptions());
+        child.wait();
+        let result: int = child.ppid;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = child.ppid;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+
+        child.close();
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ChildProcess_Ppid_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'ChildProcess',
+          'ppid',
+          'readonly ppid: int',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_ChildProcess_ExitCode_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let warmupChild: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_COMMAND, buildOptions());
+        warmupChild.wait();
+        warmupChild.close();
+
+        let child: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_COMMAND, buildOptions());
+        child.wait();
+        let result: int = child.exitCode;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = child.exitCode;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+
+        child.close();
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ChildProcess_ExitCode_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'ChildProcess',
+          'exitCode',
+          'readonly exitCode: int',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_ChildProcess_Killed_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let warmupChild: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_COMMAND, buildOptions());
+        warmupChild.wait();
+        warmupChild.close();
+
+        let child: StdProcess.ChildProcess = StdProcess.runCmd(CHILD_SLEEP_COMMAND, buildOptions());
+        child.kill('SIGTERM');
+        child.wait();
+        let result: boolean = child.killed;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = child.killed;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+
+        child.close();
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ChildProcess_Killed_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'ChildProcess',
+          'killed',
+          'readonly killed: boolean',
           arkTsAveragedTime
         );
       });

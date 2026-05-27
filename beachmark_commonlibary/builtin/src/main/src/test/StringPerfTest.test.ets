@@ -28,9 +28,12 @@ import {
 
 import performance from './Performance.util';
 
-export default function StringPerfTest() {
+export default function StringPerfTest(): void {
   describe('StringPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -1689,6 +1692,73 @@ export default function StringPerfTest() {
         'String',
         'fromCodePoint',
         'fromCodePoint(...codePoints: int[]): String',
+        arkTsAveragedTime
+      );
+    })
+
+    // localeCompare(other: String): int
+    it('PerformanceTest_String_localeCompare_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let testString: String = new String("hello");
+      let other: String = new String("world");
+      let res: int = 0;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = testString.localeCompare(other);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_String_localeCompare_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt(
+        'std.core',
+        'String',
+        'localeCompare',
+        'localeCompare(other: String): int',
+        arkTsAveragedTime
+      );
+    })
+
+    // contains(str: String, fromIndex: number): boolean
+    it('PerformanceTest_String_contains_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let testString: String = new String("Hello World");
+      let searchStr: String = new String("World");
+      let fromIdx: number = 6.0;
+      let res: boolean = false;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = testString.contains(searchStr, fromIdx);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_String_contains_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt(
+        'std.core',
+        'String',
+        'contains',
+        'contains(str: String, fromIndex: number): boolean',
+        arkTsAveragedTime
+      );
+    })
+
+    // trim(remove: char[]): String
+    it('PerformanceTest_String_trim_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let testString: String = new String("xxHelloxx");
+      let removeChars: char[] = [c'x', c'o'];
+      let res: String = "";
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = testString.trim(removeChars);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_String_trim_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt(
+        'std.core',
+        'String',
+        'trim',
+        'trim(remove: char[]): String',
         arkTsAveragedTime
       );
     })
