@@ -338,6 +338,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.bundleManager.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.bundleMonitor.d.ts",
             "bundle_name": [
                 "bundle_framework"
