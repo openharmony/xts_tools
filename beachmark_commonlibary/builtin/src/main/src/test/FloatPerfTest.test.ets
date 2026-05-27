@@ -26,11 +26,13 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
-import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 export default function FloatPerfTest(): void {
   describe('FloatPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -114,6 +116,19 @@ export default function FloatPerfTest(): void {
         'static readonly MAX_VALUE: float', arkTsAveragedTime);
     })
 
+    it('PerformanceTest_Float_Static_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: float=0.0f;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = Float.MAX_SAFE_INTEGER;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_0300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'MAX_SAFE_INTEGER',
+        'static readonly MAX_SAFE_INTEGER: float', arkTsAveragedTime);
+    })
 
     it('PerformanceTest_Float_Static_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res=0;
@@ -513,7 +528,7 @@ export default function FloatPerfTest(): void {
 
     it('PerformanceTest_Float_Instance_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let floatObj = new Float(1.0f);
-      let res: float = 0.0;
+      let res: float = 0.0f;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = floatObj.toFloat();
@@ -528,7 +543,7 @@ export default function FloatPerfTest(): void {
 
     it('PerformanceTest_Float_Instance_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let floatObj = new Float(1.0f);
-      let res: double = 0 as double;
+      let res: double = 0.0;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = floatObj.toDouble();
@@ -576,7 +591,7 @@ export default function FloatPerfTest(): void {
       let res: String = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = floatObj.toString(16 as int);
+        res = floatObj.toString(16);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -599,6 +614,21 @@ export default function FloatPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toLocaleString',
         'toLocaleString(): String', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Float_Instance_2610', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let floatObj = new Float(1.0f);
+      let res: String = '';
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = floatObj.toLocaleString('en-US', { minimumFractionDigits: 2 });
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2610: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toLocaleString',
+        'toLocaleString(locales: String, options?: NumberFormatOptions): String', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Float_Instance_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {

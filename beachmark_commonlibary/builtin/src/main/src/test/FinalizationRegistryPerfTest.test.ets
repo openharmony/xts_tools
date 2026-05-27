@@ -35,8 +35,6 @@ export default function FinalizationRegistryPerfTest(): void {
     // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
-    // buffer.from
-    const BASE_COUNT_MIX = 100;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -74,7 +72,6 @@ export default function FinalizationRegistryPerfTest(): void {
         let Dtime = new Date().getTime() - Stime;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
-
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'FinalizationRegistry', 'getSize',
             'getSize(): number', arkTsAveragedTime);
@@ -97,6 +94,7 @@ export default function FinalizationRegistryPerfTest(): void {
     })
 
 
+    //并发格式不规范
     it('PerformanceTest_FinalizationRegistryPerfTest_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let registry = new FinalizationRegistry<number>((value: number) => {});
         let objArray = new Array<Object>();
@@ -117,6 +115,23 @@ export default function FinalizationRegistryPerfTest(): void {
         performance.apiWithClassAndKeywordTxt('std.core', 'FinalizationRegistry', 'unregister',
             'unregister(target: Object): void', arkTsAveragedTime);
     })
+
+    it('PerformanceTest_FinalizationRegistryPerfTest_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let registry = new FinalizationRegistry<number>((value: number) => {});
+        let tokenArray = new Array<Object>();
+        let obj: Object = {}
+        let token: Object = {}
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+            registry.register(obj, i, token)
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = registry;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0500: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'FinalizationRegistry', 'register',
+            'register(target: Object, heldValue: T, token?: Object): void', arkTsAveragedTime);
     })
 
+  })
 }

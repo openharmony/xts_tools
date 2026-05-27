@@ -26,7 +26,6 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
-import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 class MyClass {
     num: int = 1;
@@ -37,6 +36,8 @@ export default function FieldPerfTest(): void {
   describe('FieldPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -118,21 +119,21 @@ export default function FieldPerfTest(): void {
     })
 
 
-    // it('PerformanceTest_Field_getAccessModifier_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-    //   let classType: ClassType = Type.of(new MyClass()) as ClassType;
-    //   let field: Field = classType.getField(0); 
-    //   let res: int = field.getAccessModifier();
-    //   let Stime = new Date().getTime();
-    //   for (let i = 0; i < BASE_COUNT; i++) {
-    //     res = field.getAccessModifier();
-    //   }
-    //   let Dtime = new Date().getTime() - Stime;
-    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-    //   let res1 = res;
-    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_getAccessModifier_0100: ' + arkTsAveragedTime + 'ns');
-    //   performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'getAccessModifier',
-    //     'getAccessModifier(): int', arkTsAveragedTime);
-    // })
+    it('PerformanceTest_Field_getAccessModifier_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let classType: ClassType = Type.of(new MyClass()) as ClassType;
+      let field: Field = classType.getField(0);
+      let res = field.getAccessModifier();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = field.getAccessModifier();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_getAccessModifier_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'getAccessModifier',
+        'getAccessModifier(): byte', arkTsAveragedTime);
+    })
 
 
     // it('PerformanceTest_Field_getStaticValue_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
