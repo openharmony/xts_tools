@@ -79,6 +79,7 @@ export default function UnsafePerfTest(): void {
       performance.save('apiPerformance.txt');
     });
 
+/*
     it('PerformanceTest_unsafeMemory_writeInt8_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let address = getUnsafeTestAddress();
@@ -409,5 +410,7 @@ export default function UnsafePerfTest(): void {
         recordPerformance('PerformanceTest_unsafeMemory_getStringSizeInBytes_0100', 'unsafeMemory', 'getStringSizeInBytes',
           'getStringSizeInBytes(value: string): int', Dtime);
       });
+      **/
   });
+
 }

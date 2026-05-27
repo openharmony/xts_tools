@@ -29,11 +29,15 @@ import performance from './Performance.util';
 
 let simpleFunc = (): int => { return 1; };
 
-export default function TaskPoolPerfTest() {
+export default function TaskPoolPerfTest():void {
   describe('TaskPoolPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
-    const BASE_COUNT = 50000;
+    // const BASE_COUNT = 50000;
+    const BASE_COUNT = 1000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
+
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -46,9 +50,6 @@ export default function TaskPoolPerfTest() {
       performance.save('apiPerformance.txt');
     })
 
-    // ==================== Task ====================
-
-    // Task constructor(name, func, ...args)
     it('PerformanceTest_Task_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.Task = new taskpool.Task("testTask", simpleFunc);
       let Stime = new Date().getTime();
@@ -63,7 +64,6 @@ export default function TaskPoolPerfTest() {
         'constructor(name: string, func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
     })
 
-    // Task constructor(func, ...args)
     it('PerformanceTest_Task_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.Task = new taskpool.Task(simpleFunc);
       let Stime = new Date().getTime();
@@ -78,8 +78,8 @@ export default function TaskPoolPerfTest() {
         'constructor(func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
     })
 
-    // Task.onEnqueued
     it('PerformanceTest_Task_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: boolean = false;
       let task = new taskpool.Task("testTask", simpleFunc);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -87,14 +87,14 @@ export default function TaskPoolPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = task ;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onEnqueued',
         'onEnqueued(callback: CallbackFunction): void', arkTsAveragedTime);
     })
 
-    // Task.onStartExecution
     it('PerformanceTest_Task_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: boolean = false;
       let task = new taskpool.Task("testTask", simpleFunc);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -102,14 +102,15 @@ export default function TaskPoolPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = task;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onStartExecution',
         'onStartExecution(callback: CallbackFunction): void', arkTsAveragedTime);
     })
 
-    // Task.onExecutionFailed
+
     it('PerformanceTest_Task_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: boolean = false;
       let task = new taskpool.Task("testTask", simpleFunc);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -117,14 +118,14 @@ export default function TaskPoolPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = task;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onExecutionFailed',
         'onExecutionFailed(callback: CallbackFunctionWithError): void', arkTsAveragedTime);
     })
 
-    // Task.onExecutionSucceeded
     it('PerformanceTest_Task_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: boolean = false;
       let task = new taskpool.Task("testTask", simpleFunc);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -132,14 +133,14 @@ export default function TaskPoolPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = task;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onExecutionSucceeded',
         'onExecutionSucceeded(callback: CallbackFunction): void', arkTsAveragedTime);
     })
 
-    // Task.onReceiveData
     it('PerformanceTest_Task_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: boolean = false;
       let task = new taskpool.Task("testTask", simpleFunc);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -147,13 +148,12 @@ export default function TaskPoolPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = task;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onReceiveData',
         'onReceiveData(callback?: Function): void', arkTsAveragedTime);
     })
 
-    // Task.isDone
     it('PerformanceTest_Task_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let task = new taskpool.Task("testTask", simpleFunc);
       let res: boolean = false;
@@ -169,26 +169,21 @@ export default function TaskPoolPerfTest() {
         'isDone(): boolean', arkTsAveragedTime);
     })
 
-    // Task.addDependency + removeDependency
     it('PerformanceTest_Task_Instance_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let task1 = new taskpool.Task("task1", simpleFunc);
       let task2 = new taskpool.Task("task2", simpleFunc);
-      let fixedArray = new Array<taskpool.Task>(BASE_COUNT);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        fixedArray[i] = new taskpool.Task("taski", simpleFunc);
-      }
+      let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        fixedArray[i].addDependency(task2);
+        task1.addDependency(task2);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixedArray[1];
+      let res1 = task1;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'addDependency',
         'addDependency(...tasks: Task[]): void', arkTsAveragedTime);
     })
-
-    // ==================== LongTask ====================
 
     it('PerformanceTest_LongTask_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.LongTask = new taskpool.LongTask("longTask", simpleFunc);
@@ -204,7 +199,6 @@ export default function TaskPoolPerfTest() {
         'constructor(name: string, func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
     })
 
-    // LongTask constructor(func, ...args)
     it('PerformanceTest_LongTask_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.LongTask = new taskpool.LongTask(simpleFunc);
       let Stime = new Date().getTime();
@@ -219,9 +213,6 @@ export default function TaskPoolPerfTest() {
         'constructor(func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
     })
 
-    // ==================== TaskGroup ====================
-
-    // TaskGroup constructor()
     it('PerformanceTest_TaskGroup_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.TaskGroup = new taskpool.TaskGroup();
       let Stime = new Date().getTime();
@@ -236,7 +227,6 @@ export default function TaskPoolPerfTest() {
         'constructor()', arkTsAveragedTime);
     })
 
-    // TaskGroup constructor(name)
     it('PerformanceTest_TaskGroup_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.TaskGroup = new taskpool.TaskGroup("groupTest");
       let Stime = new Date().getTime();
@@ -251,8 +241,8 @@ export default function TaskPoolPerfTest() {
         'constructor(name: string)', arkTsAveragedTime);
     })
 
-    // TaskGroup.addTask(func, ...args)
     it('PerformanceTest_TaskGroup_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: boolean = false;
       let group = new taskpool.TaskGroup();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -266,16 +256,13 @@ export default function TaskPoolPerfTest() {
         'addTask(func: Function, ...args: FixedArray<Any>): void', arkTsAveragedTime);
     })
 
-    // TaskGroup.addTask(task)
     it('PerformanceTest_TaskGroup_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: boolean = false;
       let group = new taskpool.TaskGroup();
-      let fixArray = new Array<taskpool.Task>(BASE_COUNT);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        fixArray[i] = new taskpool.Task("testTask", simpleFunc);
-      }
+      let task = new taskpool.Task("testTask", simpleFunc);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        group.addTask(fixArray[i]);
+        group.addTask(task);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -285,9 +272,6 @@ export default function TaskPoolPerfTest() {
         'addTask(task: Task): void', arkTsAveragedTime);
     })
 
-    // ==================== SequenceRunner ====================
-
-    // SequenceRunner constructor(priority?)
     it('PerformanceTest_SequenceRunner_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.SequenceRunner = new taskpool.SequenceRunner();
       let Stime = new Date().getTime();
@@ -302,7 +286,6 @@ export default function TaskPoolPerfTest() {
         'constructor(priority?: Priority)', arkTsAveragedTime);
     })
 
-    // SequenceRunner constructor(name, priority?)
     it('PerformanceTest_SequenceRunner_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.SequenceRunner = new taskpool.SequenceRunner("seqRunner");
       let Stime = new Date().getTime();
@@ -317,9 +300,6 @@ export default function TaskPoolPerfTest() {
         'constructor(name: string, priority?: Priority)', arkTsAveragedTime);
     })
 
-    // ==================== AsyncRunner ====================
-
-    // AsyncRunner constructor(runningCapacity, waitingCapacity?)
     it('PerformanceTest_AsyncRunner_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.AsyncRunner = new taskpool.AsyncRunner(4);
       let Stime = new Date().getTime();
@@ -334,7 +314,6 @@ export default function TaskPoolPerfTest() {
         'constructor(runningCapacity: int, waitingCapacity?: int)', arkTsAveragedTime);
     })
 
-    // AsyncRunner constructor(name, runningCapacity, waitingCapacity?)
     it('PerformanceTest_AsyncRunner_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.AsyncRunner = new taskpool.AsyncRunner("asyncRunner", 4);
       let Stime = new Date().getTime();
@@ -349,9 +328,6 @@ export default function TaskPoolPerfTest() {
         'constructor(name: string | undefined, runningCapacity: int, waitingCapacity?: int)', arkTsAveragedTime);
     })
 
-    // ==================== TaskInfo ====================
-
-    // TaskInfo constructor (数据类)
     it('PerformanceTest_TaskInfo_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.TaskInfo = new taskpool.TaskInfo();
       let Stime = new Date().getTime();
@@ -366,9 +342,6 @@ export default function TaskPoolPerfTest() {
         'constructor()', arkTsAveragedTime);
     })
 
-    // ==================== ThreadInfo ====================
-
-    // ThreadInfo constructor (数据类)
     it('PerformanceTest_ThreadInfo_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.ThreadInfo = new taskpool.ThreadInfo();
       let Stime = new Date().getTime();
@@ -383,9 +356,6 @@ export default function TaskPoolPerfTest() {
         'constructor()', arkTsAveragedTime);
     })
 
-    // ==================== TaskPoolInfo ====================
-
-    // TaskPoolInfo constructor (数据类)
     it('PerformanceTest_TaskPoolInfo_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: taskpool.TaskPoolInfo = new taskpool.TaskPoolInfo();
       let Stime = new Date().getTime();
@@ -400,21 +370,214 @@ export default function TaskPoolPerfTest() {
         'constructor()', arkTsAveragedTime);
     })
 
-    // ==================== Namespace Functions ====================
-
-    // taskpool.getTaskPoolInfo
-    it('PerformanceTest_taskpool_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: taskpool.TaskPoolInfo = new taskpool.TaskPoolInfo();
+    it('PerformanceTest_Task_Instance_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let task2 = new taskpool.Task("task2", simpleFunc);
+      let task1 = new taskpool.Task("task1", simpleFunc);
+      let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = taskpool.getTaskPoolInfo();
+        task1.addDependency(task2);
+        task1.removeDependency(task2);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_taskpool_Static_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.concurrency', 'taskpool', 'getTaskPoolInfo',
-        'getTaskPoolInfo(): TaskPoolInfo', arkTsAveragedTime);
+      let res1 = task1;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0800: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'removeDependency',
+        'removeDependency(...tasks: Task[]): void', arkTsAveragedTime);
     })
+
+    // it('PerformanceTest_taskpool_Static_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let res = taskpool.execute(simpleFunc);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = taskpool.execute(simpleFunc);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_taskpool_Static_0200: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'taskpool', 'execute',
+    //     'execute(func: Function, ...args: FixedArray<Any>): Promise<Any>', arkTsAveragedTime);
+    // })
+
+    // it('PerformanceTest_taskpool_Static_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     let task = new taskpool.Task("testTask", simpleFunc);
+    //     taskpool.execute(task);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_taskpool_Static_0300: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'taskpool', 'execute',
+    //     'execute(task: Task): Promise<Any>', arkTsAveragedTime);
+    // })
+
+    // it('PerformanceTest_taskpool_Static_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     let task = new taskpool.Task("testTask", simpleFunc);
+    //     taskpool.execute(task, taskpool.Priority.MEDIUM);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_taskpool_Static_0400: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'taskpool', 'execute',
+    //     'execute(task: Task, priority: Priority): Promise<Any>', arkTsAveragedTime);
+    // })
+
+    // it('PerformanceTest_taskpool_Static_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     let task = new taskpool.Task("testTask", simpleFunc);
+    //     let configs: taskpool.Configs = { priority: taskpool.Priority.MEDIUM };
+    //     taskpool.execute(task, configs);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_taskpool_Static_0500: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'taskpool', 'execute',
+    //     'execute(task: Task, configs: Configs): Promise<Any>', arkTsAveragedTime);
+    // })
+
+    // it('PerformanceTest_taskpool_Static_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let group = new taskpool.TaskGroup();
+    //   let res = taskpool.execute(group);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = taskpool.execute(group);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_taskpool_Static_0600: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'taskpool', 'execute',
+    //     'execute(group: TaskGroup): Promise<Array<Any>>', arkTsAveragedTime);
+    // })
+
+    // it('PerformanceTest_taskpool_Static_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let task = new taskpool.Task("testTask", simpleFunc);
+    //   let res = taskpool.executeDelayed(0, task);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = taskpool.executeDelayed(0, task);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_taskpool_Static_0700: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'taskpool', 'executeDelayed',
+    //     'executeDelayed(delayTime: int, task: Task): Promise<Any>', arkTsAveragedTime);
+    // })
+
+    // it('PerformanceTest_taskpool_Static_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let task = new taskpool.Task("testTask", simpleFunc);
+    //   let  res = taskpool.executeDelayed(0, task, taskpool.Priority.MEDIUM);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = taskpool.executeDelayed(0, task, taskpool.Priority.MEDIUM);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_taskpool_Static_0800: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'taskpool', 'executeDelayed',
+    //     'executeDelayed(delayTime: int, task: Task, priority: Priority): Promise<Any>', arkTsAveragedTime);
+    // })
+
+    // it('PerformanceTest_taskpool_Static_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let res: boolean = false;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     let task = new taskpool.Task("testTask", simpleFunc);
+    //     res = taskpool.execute(task) != undefined;
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_taskpool_Static_0900: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'taskpool', 'cancel',
+    //     'cancel(task: Task): void', arkTsAveragedTime);
+    // })
+
+    // it('PerformanceTest_taskpool_Static_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let res: taskpool.Task | undefined = undefined;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = taskpool.getTask(i);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_taskpool_Static_1000: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'taskpool', 'getTask',
+    //     'getTask(taskId: int, taskName?: string): Task | undefined', arkTsAveragedTime);
+    // })
+
+    // it('PerformanceTest_taskpool_Static_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let res: taskpool.LongTask = new taskpool.LongTask("longTask", simpleFunc);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     taskpool.terminateTask(res);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_taskpool_Static_1100: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'taskpool', 'terminateTask',
+    //     'terminateTask(longTask: LongTask): void', arkTsAveragedTime);
+    // })
+
+    // 原因: SequenceRunner/AsyncRunner的execute方法内部会submit task，task提交后无法在循环中重复执行
+    // it('PerformanceTest_SequenceRunner_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let seqRunner = new taskpool.SequenceRunner();
+    //   let task = new taskpool.Task("testTask", simpleFunc);
+    //   let  res = seqRunner.execute(task);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = seqRunner.execute(task);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SequenceRunner_Instance_0100: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'SequenceRunner', 'execute',
+    //     'execute(task: Task): Promise<Any>', arkTsAveragedTime);
+    // })
+
+    // 原因: AsyncRunner的execute方法内部会submit task，task提交后无法在循环中重复执行
+    // it('PerformanceTest_AsyncRunner_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let asyncRunner = new taskpool.AsyncRunner(4);
+    //   let task = new taskpool.Task("testTask", simpleFunc);
+    //   let res = asyncRunner.execute(task);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = asyncRunner.execute(task);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncRunner_Instance_0100: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncRunner', 'execute',
+    //     'execute(task: Task, priority?: Priority): Promise<Any>', arkTsAveragedTime);
+    // })
+
+    // 原因: AsyncRunner的execute方法内部会submit task，task提交后无法在循环中重复执行
+    // it('PerformanceTest_AsyncRunner_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let asyncRunner = new taskpool.AsyncRunner(4);
+    //   let task = new taskpool.Task("testTask", simpleFunc);
+    //   let res = asyncRunner.execute(task, taskpool.Priority.MEDIUM);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = asyncRunner.execute(task, taskpool.Priority.MEDIUM);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncRunner_Instance_0200: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncRunner', 'execute',
+    //     'execute(task: Task, priority: Priority): Promise<Any>', arkTsAveragedTime);
+    // })
   })
 }

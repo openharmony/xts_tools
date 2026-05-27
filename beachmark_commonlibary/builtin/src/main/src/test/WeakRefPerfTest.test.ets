@@ -27,15 +27,14 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function WeakRefPerfTest() {
+export default function WeakRefPerfTest(): void {
   describe('WeakRefPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
     // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
-    // buffer.from
-    const BASE_COUNT_MIX = 100;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -63,6 +62,23 @@ export default function WeakRefPerfTest() {
       performance.apiWithClassAndKeywordTxt('std.core', 'WeakRef', 'constructor',
         'constructor(target: T)', arkTsAveragedTime);
 
+    })
+
+    it('PerformanceTest_WeakRef_deref_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let obj: Object = {};
+      let ref = new WeakRef<Object>(obj);
+      let res: object | undefined = undefined;
+
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = ref.deref();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakRef_deref_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'WeakRef', 'deref',
+        'deref(): T | undefined', arkTsAveragedTime);
     })
 
   })
