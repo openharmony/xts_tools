@@ -14382,6 +14382,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk_c/zh-cn/arkui/ace_engine/native",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.animator.static.d.ets",
             "bundle_name": [
                 "ace_engine"
