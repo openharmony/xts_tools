@@ -27,9 +27,12 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function AsyncCondVarPerfTest() {
+export default function AsyncCondVarPerfTest() : void{
   describe('AsyncCondVarPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -56,6 +59,23 @@ export default function AsyncCondVarPerfTest() {
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncCondVar', 'constructor',
         'constructor()', arkTsAveragedTime);
     })
+
+    // it('PerformanceTest_AsyncCondVar_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, async () => {
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     let condVar = new concurrency.stackless.AsyncCondVar();
+    //     let mutex = new concurrency.stackless.AsyncMutex();
+    //     await mutex.lock();
+    //     let waitPromise = condVar.wait(mutex);
+    //     condVar.notifyOne(mutex);
+    //     await waitPromise;
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncCondVar_Instance_0100: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncCondVar', 'wait',
+    //     'wait(mutex: AsyncMutex): Promise<void>', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_AsyncCondVar_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, async () => {
       let condVar = new concurrency.stackless.AsyncCondVar();

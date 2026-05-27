@@ -27,10 +27,14 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function AsyncMutexPerfTest() {
+export default function AsyncMutexPerfTest() : void{
   describe('AsyncMutexPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
+
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
@@ -56,7 +60,7 @@ export default function AsyncMutexPerfTest() {
         'constructor()', arkTsAveragedTime);
     })
 
-
+    //并发格式不规范
     it('PerformanceTest_AsyncMutex_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, async () => {
       let mutexArray = new FixedArray<concurrency.stackless.AsyncMutex>(BASE_COUNT)
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -74,7 +78,7 @@ export default function AsyncMutexPerfTest() {
         'async lock(): Promise<void>', arkTsAveragedTime);
     })
 
-
+    //并发格式不规范
     it('PerformanceTest_AsyncMutex_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, async () => {
       let mutexArray = new FixedArray<concurrency.stackless.AsyncMutex>(BASE_COUNT)
       for (let i = 0; i < BASE_COUNT; i++) {
