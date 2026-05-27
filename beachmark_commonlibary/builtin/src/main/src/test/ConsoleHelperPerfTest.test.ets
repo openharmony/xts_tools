@@ -49,7 +49,11 @@ export default function ConsoleHelperPerfTest(): void {
   describe('ConsoleHelperPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
+    // buffer.from
+    const BASE_COUNT_MIX = 100;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -313,6 +317,86 @@ export default function ConsoleHelperPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (undefined)', arkTsAveragedTime);
+    })
+
+    // ========== Formatter.format 连续格式说明符测试 ==========
+    it('PerformanceTest_ConsoleHelper_Format_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: string = '';
+      let formatter: Formatter = new Formatter();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = formatter.format("%s%d%s", new Array<Any>(["name", 100, "end"]));
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1700: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
+        'function format(s: string, args: Array<Any>): string (consecutive flags %s%d%s)', arkTsAveragedTime);
+    })
+
+    // ========== Formatter.format 带转义字符测试 ==========
+    it('PerformanceTest_ConsoleHelper_Format_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: string = '';
+      let formatter: Formatter = new Formatter();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = formatter.format("Hello\nWorld", new Array<Any>(["test"]));
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1800: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
+        'function format(s: string, args: Array<Any>): string (escape char)', arkTsAveragedTime);
+    })
+
+    // ========== Formatter.format 带空格格式测试 ==========
+    it('PerformanceTest_ConsoleHelper_Format_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: string = '';
+      let formatter: Formatter = new Formatter();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = formatter.format("% s", new Array<Any>(["space"]));
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1900: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
+        'function format(s: string, args: Array<Any>): string (space flag % s)', arkTsAveragedTime);
+    })
+
+    // ========== Formatter.format 连续百分号测试 ==========
+    it('PerformanceTest_ConsoleHelper_Format_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: string = '';
+      let formatter: Formatter = new Formatter();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = formatter.format("100%%%", new Array<Any>(["test"]));
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_2000: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
+        'function format(s: string, args: Array<Any>): string (consecutive %%%)', arkTsAveragedTime);
+    })
+
+    // ========== Formatter.format 无效格式说明符测试 ==========
+    it('PerformanceTest_ConsoleHelper_Format_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: string = '';
+      let formatter: Formatter = new Formatter();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = formatter.format("value: %x", new Array<Any>([255]));
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_2100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
+        'function format(s: string, args: Array<Any>): string (invalid flag %x)', arkTsAveragedTime);
     })
 
   })
