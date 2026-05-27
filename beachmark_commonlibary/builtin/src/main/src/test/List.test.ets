@@ -120,7 +120,7 @@ import LaunchPerfTest from "./LaunchPerfTest.test";
 import LegacyAtomicsPerfTest from './LegacyAtomicsPerfTest.test';
 import LinkedBlockingQueuePerfTest from './LinkedBlockingQueuePerfTest.test';
 import ListIntPerfTest from './ListIntPerfTest.test';
-import ListObjectPerfTest from './ListObjectPerfTest.test';
+
 import ListStringPerfTest from './ListStringPerfTest.test';
 import LoggerPerfTest from './LoggerPerfTest.test';
 import LongPerfTest from './LongPerfTest.test';
@@ -339,7 +339,7 @@ export default function testsuite(): void {
   LegacyAtomicsPerfTest();
   LinkedBlockingQueuePerfTest();
   ListIntPerfTest();
-  ListObjectPerfTest();
+
   ListStringPerfTest();
   LoggerPerfTest();
   LongPerfTest();

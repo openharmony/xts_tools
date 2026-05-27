@@ -46,7 +46,7 @@ export default function TypedArraysPerfTest02(): void {
     // ==================== Int32Array 构造函数测试 ====================
 
     it('PerformanceTest_Int32Array_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Int32Array = new Int32Array();
+      let res = new Int32Array();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Int32Array();
@@ -59,7 +59,7 @@ export default function TypedArraysPerfTest02(): void {
     })
 
     it('PerformanceTest_Int32Array_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Int32Array = new Int32Array(100);
+      let res = new Int32Array(100);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Int32Array(100);
@@ -72,7 +72,7 @@ export default function TypedArraysPerfTest02(): void {
     })
 
     it('PerformanceTest_Int32Array_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Int32Array = new Int32Array(100 as number);
+      let res = new Int32Array(100 as number);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Int32Array(100 as number);
@@ -86,7 +86,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let srcArr: Int32Array = new Int32Array(100);
-      let res: Int32Array = new Int32Array(srcArr);
+      let res = new Int32Array(srcArr);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Int32Array(srcArr);
@@ -99,7 +99,7 @@ export default function TypedArraysPerfTest02(): void {
     })
 
     it('PerformanceTest_Int32Array_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
+      let res = new Int32Array([1, 2, 3, 4, 5]);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Int32Array([1, 2, 3, 4, 5]);
@@ -116,7 +116,7 @@ export default function TypedArraysPerfTest02(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = i;
       }
-      let res: Int32Array = new Int32Array(arr);
+      let res = new Int32Array(arr);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Int32Array(arr);
@@ -129,7 +129,7 @@ export default function TypedArraysPerfTest02(): void {
     })
 
     it('PerformanceTest_Int32Array_Constructor_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
+      let res = new Int32Array([1, 2, 3, 4, 5]);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Int32Array([1, 2, 3, 4, 5]);
@@ -143,7 +143,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_Constructor_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let buf: ArrayBuffer = new ArrayBuffer(400);
-      let res: Int32Array = new Int32Array(buf);
+      let res = new Int32Array(buf);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Int32Array(buf);
@@ -157,7 +157,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_Constructor_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let buf: ArrayBuffer = new ArrayBuffer(400);
-      let res: Int32Array = new Int32Array(buf, 100);
+      let res = new Int32Array(buf, 100);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Int32Array(buf, 100);
@@ -171,7 +171,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_Constructor_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let buf: ArrayBuffer = new ArrayBuffer(600);
-      let res: Int32Array = new Int32Array(buf, 100, 100);
+      let res = new Int32Array(buf, 100, 100);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Int32Array(buf, 100, 100);
@@ -187,7 +187,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_buffer', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array(100);
-      let res: ArrayBuffer = arr.buffer;
+      let res = arr.buffer;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.buffer;
@@ -201,7 +201,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_byteLength', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array(100);
-      let res: int = arr.byteLength;
+      let res = arr.byteLength;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.byteLength;
@@ -216,7 +216,7 @@ export default function TypedArraysPerfTest02(): void {
     it('PerformanceTest_Int32Array_byteOffset', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let buf: ArrayBuffer = new ArrayBuffer(600);
       let arr: Int32Array = new Int32Array(buf, 100, 100);
-      let res: int = arr.byteOffset;
+      let res = arr.byteOffset;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.byteOffset;
@@ -229,7 +229,7 @@ export default function TypedArraysPerfTest02(): void {
     })
 
     it('PerformanceTest_Int32Array_BYTES_PER_ELEMENT', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: int = Int32Array.BYTES_PER_ELEMENT;
+      let res = Int32Array.BYTES_PER_ELEMENT;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Int32Array.BYTES_PER_ELEMENT;
@@ -243,7 +243,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_length', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array(100);
-      let res: int = arr.length;
+      let res = arr.length;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.length;
@@ -259,7 +259,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_at', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: number | undefined = arr.at(2);
+      let res = arr.at(2);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.at(2);
@@ -340,7 +340,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_includes', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: boolean = arr.includes(3);
+      let res = arr.includes(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.includes(3);
@@ -354,7 +354,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_indexOf', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: int = arr.indexOf(3);
+      let res = arr.indexOf(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.indexOf(3);
@@ -368,7 +368,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_join', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: string = arr.join(',');
+      let res = arr.join(',');
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.join(',');
@@ -382,7 +382,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_lastIndexOf', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: int = arr.lastIndexOf(3);
+      let res = arr.lastIndexOf(3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.lastIndexOf(3);
@@ -396,7 +396,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_reverse', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: Int32Array = arr.reverse();
+      let res = arr.reverse();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.reverse();
@@ -410,7 +410,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_slice', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: Int32Array = arr.slice(1, 3);
+      let res = arr.slice(1, 3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.slice(1, 3);
@@ -424,7 +424,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_subarray', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: Int32Array = arr.subarray(1, 3);
+      let res = arr.subarray(1, 3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.subarray(1, 3);
@@ -438,7 +438,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_toReversed', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: Int32Array = arr.toReversed();
+      let res = arr.toReversed();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.toReversed();
@@ -452,7 +452,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_toSorted', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([5, 2, 3, 1, 4]);
-      let res: Int32Array = arr.toSorted();
+      let res = arr.toSorted();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.toSorted();
@@ -466,7 +466,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_toString', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: string = arr.toString();
+      let res = arr.toString();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.toString();
@@ -480,7 +480,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_keys', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: IterableIterator<int> = arr.keys();
+      let res = arr.keys();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.keys();
@@ -508,7 +508,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_with', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: Int32Array = arr.with(2, 10);
+      let res = arr.with(2, 10);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.with(2, 10);
@@ -522,10 +522,11 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_some', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: boolean = arr.some((v) => v > 3);
+      let cmp = (v: number): boolean => v > 3;
+      let res = arr.some(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.some((v) => v > 3);
+        res = arr.some(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -536,10 +537,11 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_every', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: boolean = arr.every((v) => v > 0);
+      let cmp = (v: number): boolean => v > 0;
+      let res = arr.every(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.every((v) => v > 0);
+        res = arr.every(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -550,10 +552,11 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_find', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: number | undefined = arr.find((v) => v > 3);
+      let cmp = (v: number): boolean => v > 3;
+      let res = arr.find(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.find((v) => v > 3);
+        res = arr.find(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -564,10 +567,11 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_findIndex', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: int = arr.findIndex((v) => v > 3);
+      let cmp = (v: number): boolean => v > 3;
+      let res = arr.findIndex(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.findIndex((v) => v > 3);
+        res = arr.findIndex(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -578,10 +582,11 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_filter', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: Int32Array = arr.filter((v) => v > 2);
+      let cmp = (v: number): boolean => v > 2;
+      let res = arr.filter(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.filter((v) => v > 2);
+        res = arr.filter(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -592,10 +597,11 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_map', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: Int32Array = arr.map((v) => v * 2);
+      let cmp = (v: number): number => v * 2;
+      let res = arr.map(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.map((v) => v * 2);
+        res = arr.map(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -606,12 +612,13 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_reduce', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: number = arr.reduce((previousValue: number, currentValue: number, currentIndex: int, array: Int32Array): number => {
+      let cmp = (previousValue: number, currentValue: number, currentIndex: int, array: Int32Array): number => {
         return previousValue + currentValue;
-      }, 0);
+      };
+      let res = arr.reduce(cmp, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.reduce((previousValue: number, currentValue: number, currentIndex: int, array: Int32Array): number => previousValue + currentValue, 0);
+        res = arr.reduce(cmp, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -622,12 +629,13 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_reduceRight', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let res: number = arr.reduceRight((previousValue: number, currentValue: number, currentIndex: int, array: Int32Array): number => {
+      let cmp = (previousValue: number, currentValue: number, currentIndex: int, array: Int32Array): number => {
         return previousValue + currentValue;
-      }, 0);
+      };
+      let res = arr.reduceRight(cmp, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.reduceRight((previousValue: number, currentValue: number, currentIndex: int, array: Int32Array): number => previousValue + currentValue, 0);
+        res = arr.reduceRight(cmp, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -638,9 +646,12 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_forEach', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
+      let cmp = (v: number): void => {
+        let x = v;
+      };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.forEach((v) => { let x = v; });
+        arr.forEach(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = arr;
@@ -651,7 +662,7 @@ export default function TypedArraysPerfTest02(): void {
 
     it('PerformanceTest_Int32Array_sort', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([5, 2, 3, 1, 4]);
-      let res: Int32Array = arr.sort();
+      let res = arr.sort();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arr.sort();
@@ -666,7 +677,7 @@ export default function TypedArraysPerfTest02(): void {
     // ==================== Int32Array 静态方法测试 ====================
 
     it('PerformanceTest_Int32Array_static_of', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Int32Array = Int32Array.of(1, 2, 3, 4, 5);
+      let res = Int32Array.of(1, 2, 3, 4, 5);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Int32Array.of(1, 2, 3, 4, 5);
@@ -683,7 +694,7 @@ export default function TypedArraysPerfTest02(): void {
       for (let i = 0; i < 100; i++) {
         srcArr.push(i);
       }
-      let res: Int32Array = Int32Array.from(srcArr);
+      let res = Int32Array.from(srcArr);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Int32Array.from(srcArr);
@@ -700,7 +711,7 @@ export default function TypedArraysPerfTest02(): void {
       for (let i = 0; i < 100; i++) {
         srcArr[i] = i;
       }
-      let res: Int32Array = Int32Array.from(srcArr);
+      let res = Int32Array.from(srcArr);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Int32Array.from(srcArr);
@@ -713,7 +724,7 @@ export default function TypedArraysPerfTest02(): void {
     })
 
     it('PerformanceTest_Int32Array_static_from_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: Int32Array = Int32Array.from([1, 2, 3, 4, 5]);
+      let res = Int32Array.from([1, 2, 3, 4, 5]);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Int32Array.from([1, 2, 3, 4, 5]);

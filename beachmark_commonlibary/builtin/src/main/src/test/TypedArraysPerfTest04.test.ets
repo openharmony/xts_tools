@@ -29,8 +29,8 @@ import performance from './Performance.util';
 
 export default function TypedArraysPerfTest04(): void {
   describe('TypedArraysPerfTest04', () => {
-    // const BASE_COUNT = 50000;
-    const BASE_COUNT = 500;
+    const BASE_COUNT = 50000;
+    // const BASE_COUNT = 500;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {

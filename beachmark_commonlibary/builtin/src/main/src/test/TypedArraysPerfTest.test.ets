@@ -443,10 +443,10 @@ export default function TypedArraysPerfTest(): void {
     //并发格式不规范
     it('PerformanceTest_Int8Array_sort', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int8Array = new Int8Array(100);
-      let Stime = new Date().getTime();
       for (let j = 0; j < 100; j++) {
         arr[j] = (100 - j);
       }
+      let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         arr.sort();
       }
@@ -927,13 +927,12 @@ export default function TypedArraysPerfTest(): void {
         'slice(begin?: int, end?: int): Int16Array', arkTsAveragedTime);
     })
 
-    //并发格式不规范
     it('PerformanceTest_Int16Array_sort', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int16Array = new Int16Array(100);
-      let Stime = new Date().getTime();
       for (let j = 0; j < 100; j++) {
         arr[j] = (100 - j);
       }
+      let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         arr.sort();
       }

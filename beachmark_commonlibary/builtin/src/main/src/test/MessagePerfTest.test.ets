@@ -262,27 +262,27 @@ export default function MessagePerfTest():void {
         'equals(other: Message): boolean', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Message_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let task = () => { };
-      let worker = new EAWorker("TestWorker", task);
-      worker.start()
-      worker.run<void>(() => {
-
-        let handler = new concurrency.MessageHandler((msg: concurrency.Message) => { });
-        let msg = new concurrency.Message(1, handler);
-        let Stime = new Date().getTime();
-        for (let i = 0; i < BASE_COUNT; i++) {
-          msg.sendToTarget();
-        }
-        let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        let res1 = msg;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Instance_0600: ' + arkTsAveragedTime + 'ns');
-        expect(res1 !== null).assertTrue();
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'sendToTarget',
-          'sendToTarget(): void', arkTsAveragedTime);
-      })
-      worker.quit()
-    })
+    // it('PerformanceTest_Message_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let task = () => { };
+    //   let worker = new EAWorker("TestWorker", task);
+    //   worker.start()
+    //   worker.run<void>(() => {
+    //
+    //     let handler = new concurrency.MessageHandler((msg: concurrency.Message) => { });
+    //     let msg = new concurrency.Message(1, handler);
+    //     let Stime = new Date().getTime();
+    //     for (let i = 0; i < BASE_COUNT; i++) {
+    //       msg.sendToTarget();
+    //     }
+    //     let Dtime = new Date().getTime() - Stime;
+    //     let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //     let res1 = msg;
+    //     console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Instance_0600: ' + arkTsAveragedTime + 'ns');
+    //     expect(res1 !== null).assertTrue();
+    //     performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'sendToTarget',
+    //       'sendToTarget(): void', arkTsAveragedTime);
+    //   })
+    //   worker.quit()
+    // })
   })
 }

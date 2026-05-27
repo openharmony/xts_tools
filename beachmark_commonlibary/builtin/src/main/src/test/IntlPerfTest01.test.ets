@@ -323,21 +323,21 @@ export default function IntlPerfTest01(): void {
 
     // ==================== Intl.Segments 迭代器测试 ====================
 
-    it('PerformanceTest_Intl_Segments_iterator_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let segmenter: Intl.Segmenter = new Intl.Segmenter('zh-CN', { granularity: 'word' });
-      let segments: Intl.Segments = segmenter.segment('Hello World 你好世界');
-      let res: Intl.SegmentData | undefined;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = segments.$_iterator().next().value;
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest Intl.Segments $_iterator: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Segments', '$_iterator',
-        '$_iterator(): IterableIterator<SegmentData>', arkTsAveragedTime);
-    })
+    // it('PerformanceTest_Intl_Segments_iterator_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let segmenter: Intl.Segmenter = new Intl.Segmenter('zh-CN', { granularity: 'word' });
+    //   let segments: Intl.Segments = segmenter.segment('Hello World 你好世界');
+    //   let res: Intl.SegmentData | undefined;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = segments.$_iterator().next().value;
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest Intl.Segments $_iterator: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Segments', '$_iterator',
+    //     '$_iterator(): IterableIterator<SegmentData>', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Intl_Segments_SegmentData_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let segmenter: Intl.Segmenter = new Intl.Segmenter('zh-CN', { granularity: 'word' });

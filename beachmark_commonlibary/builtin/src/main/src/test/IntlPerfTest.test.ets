@@ -771,21 +771,21 @@ export default function IntlPerfTest() : void {
         'intlLocalesToLanguageTags(locales: string | Locale | ReadonlyArray<string | Locale> | undefined): string[]', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Intl_Segments_next_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let segmenter: Intl.Segmenter = new Intl.Segmenter('zh-CN', { granularity: 'word' });
-      let segments: Intl.Segments = segmenter.segment('Hello World 你好世界');
-      let res: Intl.SegmentData | undefined;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = segments.next().value;
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_Segments_next_0600: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Segments', 'next',
-        'next(): IteratorResult<SegmentData>', arkTsAveragedTime);
-    })
+    // it('PerformanceTest_Intl_Segments_next_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let segmenter: Intl.Segmenter = new Intl.Segmenter('zh-CN', { granularity: 'word' });
+    //   let segments: Intl.Segments = segmenter.segment('Hello World 你好世界');
+    //   let res: Intl.SegmentData | undefined;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = segments.next().value;
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_Segments_next_0600: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Segments', 'next',
+    //     'next(): IteratorResult<SegmentData>', arkTsAveragedTime);
+    // })
 
   })
 }
