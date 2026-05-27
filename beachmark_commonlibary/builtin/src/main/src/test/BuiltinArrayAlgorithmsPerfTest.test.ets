@@ -28,7 +28,10 @@ import performance from './Performance.util';
 export default function BuiltinArrayAlgorithmsPerfTest(): void {
   describe('BuiltinArrayAlgorithmsPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -212,6 +215,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         'upperBoundSearch(arr: FixedArray<long>, key: long, startIndex: int, endIndex: int): int', arkTsAveragedTime);
     })
 
+    //并发格式不规范
     // ========== copyOf 测试 - long 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_CopyOf_Long_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let src: FixedArray<long> = new FixedArray<long>(10);
@@ -231,6 +235,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         'copyOf(src: FixedArray<long>): FixedArray<long>', arkTsAveragedTime);
     })
 
+    //并发格式不规范
     // ========== copyTo 测试 - long 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_CopyTo_Long_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let src: FixedArray<long> = new FixedArray<long>(10);
@@ -316,6 +321,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         'upperBoundSearch(arr: FixedArray<double>, key: double, startIndex: int, endIndex: int): int', arkTsAveragedTime);
     })
 
+    //并发格式不规范
     // ========== copyOf 测试 - double 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_CopyOf_Double_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let src: FixedArray<double> = new FixedArray<double>(10);

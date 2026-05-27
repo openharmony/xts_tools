@@ -31,8 +31,9 @@ import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 export default function BaseEnumPerfTest(): void {
   describe('BaseEnumPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
-    // BaseEnum.constructor --BaseEnum.value
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -54,10 +55,55 @@ export default function BaseEnumPerfTest(): void {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-	  let res1 = res;
+	    let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BaseEnum_constructor_int_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BaseEnum', 'constructor',
         'constructor(value: T)', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_BaseEnum_valueOf_int_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let baseEnum: BaseEnum<int> = new BaseEnum<int>(42, 'TestEnum');
+      let res = baseEnum.valueOf();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = baseEnum.valueOf();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BaseEnum_valueOf_int_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'BaseEnum', 'valueOf',
+        'valueOf(): T', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_BaseEnum_getName_string_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let baseEnum: BaseEnum<string> = new BaseEnum<string>('success', 'TestEnum');
+      let res = baseEnum.getName();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = baseEnum.getName();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BaseEnum_getName_string_0300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'BaseEnum', 'getName',
+        'getName(): string', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_BaseEnum_toString_int_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let baseEnum: BaseEnum<int> = new BaseEnum<int>(42, 'TestEnum');
+      let res = baseEnum.toString();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = baseEnum.toString();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BaseEnum_toString_int_0400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'BaseEnum', 'toString',
+        'toString(): string', arkTsAveragedTime);
     })
 
   })
