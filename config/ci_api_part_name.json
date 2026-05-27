@@ -50,6 +50,20 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.cloudSyncManager.d.ts",
+            "bundle_name": [
+                "dfs_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.cloudSync.d.ts",
+            "bundle_name": [
+                "dfs_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.components.SelectionContainer.d.ts",
             "bundle_name": [
                 "ace_engine"
