@@ -29,7 +29,7 @@ import performance from './Performance.util';
 
 export default function TypedUArraysPerfTest05(): void {
   describe('TypedUArraysPerfTest05', () => {
-    const BASE_COUNT = 500;
+    const BASE_COUNT = 50000;
     // const BASE_COUNT = 500;
     const UNIT_TIME = 1000000;
 

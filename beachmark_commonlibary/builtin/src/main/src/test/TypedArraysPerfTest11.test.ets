@@ -89,12 +89,13 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_Int8Array_sort_empty', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int8Array = new Int8Array([5 as byte, 3 as byte, 1 as byte, 4 as byte, 2 as byte]);
+      let res = arr.sort();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.sort();
+        res = arr.sort();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest Int8Array sort_empty: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'sort', 'sort(): this', arkTsAveragedTime);
@@ -102,12 +103,16 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_Int8Array_sort_cmp', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int8Array = new Int8Array([5 as byte, 3 as byte, 1 as byte, 4 as byte, 2 as byte]);
+      let cmp = (a: number, b: number): int => {
+        return (a - b).toInt();
+      };
+      let res = arr.sort(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.sort((a: number, b: number): int => { return (a - b).toInt(); });
+        res = arr.sort(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest Int8Array sort_cmp: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'sort', 'sort((number, number): => int): this', arkTsAveragedTime);
@@ -115,13 +120,14 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_Int8Array_findLast', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int8Array = new Int8Array([1 as byte, 2 as byte, 3 as byte, 4 as byte, 5 as byte]);
-      let result: number | undefined = undefined;
+      let cmp = (x: number): boolean => x > 2;
+      let res = arr.findLast(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = arr.findLast((x: number): boolean => x > 2);
+        res = arr.findLast(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest Int8Array findLast: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'findLast', 'findLast((number): => boolean): number', arkTsAveragedTime);
@@ -174,13 +180,14 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_Int32Array_findLast', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([1, 2, 3, 4, 5]);
-      let result: number | undefined = undefined;
+      let cmp = (x: number): boolean => x > 2;
+      let res = arr.findLast(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = arr.findLast((x: number): boolean => x > 2);
+        res = arr.findLast(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest Int32Array findLast: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'findLast', 'findLast((number): => boolean): number', arkTsAveragedTime);
@@ -188,12 +195,16 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_Int32Array_sort_cmp', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int32Array = new Int32Array([5, 3, 1, 4, 2]);
+      let cmp = (a: number, b: number): int => {
+        return (a - b).toInt();
+      };
+      let res = arr.sort(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.sort((a: number, b: number): int => { return (a - b).toInt(); });
+        res = arr.sort(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest Int32Array sort_cmp: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'sort', 'sort((number, number): => int): this', arkTsAveragedTime);
@@ -203,12 +214,13 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_BigInt64Array_toLocaleString', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
+      let res = arr.toLocaleString('en-US' as Intl.LocalesArgument, {} as object);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.toLocaleString('en-US' as Intl.LocalesArgument, {} as object);
+        res = arr.toLocaleString('en-US' as Intl.LocalesArgument, {} as object);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigInt64Array toLocaleString: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'toLocaleString', 'toLocaleString(Intl.LocalesArgument, object): string', arkTsAveragedTime);
@@ -216,12 +228,13 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_BigInt64Array_with_int', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
+      let res = arr.with(2 as int, 10 as int);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.with(2 as int, 10 as int);
+        res = arr.with(2 as int, 10 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr.with(2, 10 as int);
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigInt64Array with_int: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'with', 'with(int, int): BigInt64Array', arkTsAveragedTime);
@@ -229,12 +242,13 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_BigInt64Array_with_bigint', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
+      let res = arr.with(2 as int, BigInt(10));
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.with(2 as int, BigInt(10));
+        res = arr.with(2 as int, BigInt(10));
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr.with(2, BigInt(10));
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigInt64Array with_bigint: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'with', 'with(int, bigint): BigInt64Array', arkTsAveragedTime);
@@ -242,12 +256,14 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_BigInt64Array_findLast', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
+      let cmp = (x: BigInt): boolean => x > BigInt(2);
+      let res = arr.findLast(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.findLast((x: BigInt): boolean => x > BigInt(2));
+        res = arr.findLast(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigInt64Array findLast: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'findLast', 'findLast((number): => boolean): number', arkTsAveragedTime);
@@ -255,12 +271,18 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_BigInt64Array_sort_cmp', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: BigInt64Array = new BigInt64Array([BigInt(5), BigInt(3), BigInt(1), BigInt(4), BigInt(2)]);
+      let cmp = (a: BigInt, b: BigInt): int => {
+        if (a > b) return 1;
+        if (a < b) return -1;
+        return 0;
+      };
+      let res = arr.sort(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.sort((a: BigInt, b: BigInt): int => { if (a > b) return 1; if (a < b) return -1; return 0; });
+        res = arr.sort(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigInt64Array sort_cmp: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'sort', 'sort((number, number): => int): this', arkTsAveragedTime);
@@ -298,13 +320,14 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_Float32Array_findLast', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
-      let result: number | undefined = undefined;
+      let cmp = (x: number): boolean => x > 2.0;
+      let res = arr.findLast(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = arr.findLast((x: number): boolean => x > 2.0);
+        res = arr.findLast(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest Float32Array findLast: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'findLast', 'findLast((number): => boolean): number', arkTsAveragedTime);
@@ -312,18 +335,20 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_Float32Array_sort_cmp', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Float32Array = new Float32Array([5.0, 3.0, 1.0, 4.0, 2.0]);
+      let cmp = (a: number, b: number): int => {
+        return (a - b).toInt();
+      };
+      let res = arr.sort(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.sort((a: number, b: number): int => { return (a - b).toInt(); });
+        res = arr.sort(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest Float32Array sort_cmp: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'sort', 'sort((number, number): => int): this', arkTsAveragedTime);
     })
-
-    // ==================== Float64Array toLocaleString/with/findLast/sort ====================
 
     it('PerformanceTest_Float64Array_toLocaleString', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -355,13 +380,14 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_Float64Array_findLast', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
-      let result: number | undefined = undefined;
+      let cmp = (x: number): boolean => x > 2.0;
+      let res = arr.findLast(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = arr.findLast((x: number): boolean => x > 2.0);
+        res = arr.findLast(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest Float64Array findLast: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'findLast', 'findLast((number): => boolean): number', arkTsAveragedTime);
@@ -369,12 +395,16 @@ export default function TypedArraysPerfTest11(): void {
 
     it('PerformanceTest_Float64Array_sort_cmp', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Float64Array = new Float64Array([5.0, 3.0, 1.0, 4.0, 2.0]);
+      let cmp = (a: number, b: number): int => {
+        return (a - b).toInt();
+      };
+      let res = arr.sort(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.sort((a: number, b: number): int => { return (a - b).toInt(); });
+        res = arr.sort(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest Float64Array sort_cmp: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'sort', 'sort((number, number): => int): this', arkTsAveragedTime);

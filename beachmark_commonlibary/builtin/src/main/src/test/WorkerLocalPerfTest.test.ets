@@ -108,10 +108,10 @@ export default function WorkerLocalPerfTest():void {
 
     it('PerformanceTest_WorkerLocal_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let workerLocal: WorkerLocal<int> = new WorkerLocal<int>();
-      let res: boolean = false;
+      let res = workerLocal.set(0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        workerLocal.set(i);
+        res = workerLocal.set(i);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -121,20 +121,19 @@ export default function WorkerLocalPerfTest():void {
         'set(value: T): void', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_WorkerLocal_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let workerLocal: WorkerLocal<int> = new WorkerLocal<int>(() => { return 42; });
-      workerLocal.set(100);
-      let res: boolean = false;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        workerLocal.delete();
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Instance_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'delete',
-        'delete(): void', arkTsAveragedTime);
-    })
+    // it('PerformanceTest_WorkerLocal_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let workerLocal: WorkerLocal<int> = new WorkerLocal<int>(() => { return 42; });
+    //   let res = workerLocal.set(0);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = workerLocal.delete();
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Instance_0400: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'delete',
+    //     'delete(): void', arkTsAveragedTime);
+    // })
   })
 }

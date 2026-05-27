@@ -78,23 +78,18 @@ export default function UnionCasePerfTest(): void {
 
     it('PerformanceTest_UnionCase_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let unionCase = new UnionCase();
+      let res: string = '';
       let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        try {
+          res = unionCase.toString();
+        } catch (e) {
+          // ignore
+        }
+      }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-
-      let res: string = '';
-      Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-          try {
-            res = unionCase.toString();
-          } catch (e) {
-          // ignore
-          }
-      }
-      Dtime = new Date().getTime() - Stime;
-      arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
-
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UnionCase_Instance_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'UnionCase', 'toString',
         'toString(): string', arkTsAveragedTime);

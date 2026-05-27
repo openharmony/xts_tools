@@ -96,7 +96,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = i ;
       }
-      let result: boolean = arr.includes(50);
+      let result = arr.includes(50);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.includes(50);
@@ -114,7 +114,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = i ;
       }
-      let result: int = arr.indexOf(50);
+      let result = arr.indexOf(50);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.indexOf(50);
@@ -132,7 +132,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 10; i++) {
         arr[i] = i ;
       }
-      let result: string = arr.join(",");
+      let result = arr.join(",");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.join(",");
@@ -150,7 +150,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = (i % 10) ;
       }
-      let result: int = arr.lastIndexOf(5);
+      let result = arr.lastIndexOf(5);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.lastIndexOf(5);
@@ -185,7 +185,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = i ;
       }
-      let result: Uint8ClampedArray = arr.toReversed();
+      let result = arr.toReversed();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.toReversed();
@@ -203,7 +203,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = (100 - i) ;
       }
-      let result: Uint8ClampedArray = arr.toSorted();
+      let result = arr.toSorted();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.toSorted();
@@ -221,7 +221,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = i ;
       }
-      let result: Uint8ClampedArray = arr.with(50, 99);
+      let result = arr.with(50, 99);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.with(50, 99);
@@ -239,7 +239,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = i ;
       }
-      let iter: IterableIterator<[int, Number]> = arr.entries();
+      let iter = arr.entries();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         iter = arr.entries();
@@ -257,7 +257,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = i ;
       }
-      let iter: IterableIterator<int> = arr.keys();
+      let iter = arr.keys();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         iter = arr.keys();
@@ -275,7 +275,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = i ;
       }
-      let iter: IterableIterator<Number> = arr.values();
+      let iter = arr.values();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         iter = arr.values();
@@ -296,7 +296,7 @@ export default function TypedUArraysPerfTest16(): void {
       let cmp = (val: number, index: int, array: Uint8ClampedArray): boolean => {
         return val > 50;
       };
-      let result: boolean = arr.some(cmp);
+      let result = arr.some(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.some(cmp);
@@ -317,7 +317,7 @@ export default function TypedUArraysPerfTest16(): void {
       let cmp = (val: number, index: int, array: Uint8ClampedArray): boolean => {
         return val >= 0;
       };
-      let result: boolean = arr.every(cmp);
+      let result = arr.every(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.every(cmp);
@@ -338,7 +338,7 @@ export default function TypedUArraysPerfTest16(): void {
       let cmp = (val: number, index: int, obj: Uint8ClampedArray): boolean => {
         return val > 50;
       };
-      let result: number | undefined = arr.find(cmp);
+      let result = arr.find(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.find(cmp);
@@ -359,7 +359,7 @@ export default function TypedUArraysPerfTest16(): void {
       let cmp = (val: number, index: int, obj: Uint8ClampedArray): boolean => {
         return val > 50;
       };
-      let result: int = arr.findIndex(cmp);
+      let result = arr.findIndex(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.findIndex(cmp);
@@ -380,7 +380,7 @@ export default function TypedUArraysPerfTest16(): void {
       let cmp = (val: number, index: int, array: Uint8ClampedArray): boolean => {
         return val > 50;
       };
-      let result: Uint8ClampedArray = arr.filter(cmp);
+      let result = arr.filter(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.filter(cmp);
@@ -401,7 +401,7 @@ export default function TypedUArraysPerfTest16(): void {
       let cmp = (val: number, index: int, array: Uint8ClampedArray): number => {
         return val * 2;
       };
-      let result: Uint8ClampedArray = arr.map(cmp);
+      let result = arr.map(cmp);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.map(cmp);
@@ -422,7 +422,7 @@ export default function TypedUArraysPerfTest16(): void {
       let cmp = (previousValue: number, currentValue: number, currentIndex: int, array: Uint8ClampedArray): number => {
         return previousValue + currentValue;
       };
-      let result: number = arr.reduce(cmp, 0);
+      let result = arr.reduce(cmp, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.reduce(cmp, 0);
@@ -443,7 +443,7 @@ export default function TypedUArraysPerfTest16(): void {
       let cmp = (previousValue: number, currentValue: number, currentIndex: int, array: Uint8ClampedArray): number => {
         return previousValue + currentValue;
       };
-      let result: number = arr.reduceRight(cmp, 0);
+      let result = arr.reduceRight(cmp, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.reduceRight(cmp, 0);
@@ -479,7 +479,7 @@ export default function TypedUArraysPerfTest16(): void {
     // ==================== Uint8ClampedArray 静态方法测试 ====================
 
     it('PerformanceTest_Uint8ClampedArray_static_of', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let result: Uint8ClampedArray = Uint8ClampedArray.of(1, 2, 3, 4, 5);
+      let result = Uint8ClampedArray.of(1, 2, 3, 4, 5);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = Uint8ClampedArray.of(1, 2, 3, 4, 5);
@@ -497,7 +497,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         srcArr.push(i as int);
       }
-      let result: Uint8ClampedArray = Uint8ClampedArray.from(srcArr);
+      let result = Uint8ClampedArray.from(srcArr);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = Uint8ClampedArray.from(srcArr);
@@ -515,7 +515,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         srcArr[i] = i ;
       }
-      let result: Uint8ClampedArray = Uint8ClampedArray.from(srcArr);
+      let result = Uint8ClampedArray.from(srcArr);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = Uint8ClampedArray.from(srcArr);
@@ -533,7 +533,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         srcSet.add(i as int);
       }
-      let result: Uint8ClampedArray = Uint8ClampedArray.from(srcSet);
+      let result = Uint8ClampedArray.from(srcSet);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = Uint8ClampedArray.from(srcSet);
@@ -553,7 +553,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         srcArr[i] = i ;
       }
-      let result: Uint8ClampedArray = new Uint8ClampedArray(srcArr);
+      let result = new Uint8ClampedArray(srcArr);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = new Uint8ClampedArray(srcArr);
@@ -568,7 +568,7 @@ export default function TypedUArraysPerfTest16(): void {
 
     it('PerformanceTest_Uint8ClampedArray_Constructor_buffer', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let buf: ArrayBuffer = new ArrayBuffer(100);
-      let result: Uint8ClampedArray = new Uint8ClampedArray(buf);
+      let result = new Uint8ClampedArray(buf);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = new Uint8ClampedArray(buf);
@@ -583,7 +583,7 @@ export default function TypedUArraysPerfTest16(): void {
 
     it('PerformanceTest_Uint8ClampedArray_Constructor_buffer_offset', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let buf: ArrayBuffer = new ArrayBuffer(200);
-      let result: Uint8ClampedArray = new Uint8ClampedArray(buf, 50);
+      let result = new Uint8ClampedArray(buf, 50);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = new Uint8ClampedArray(buf, 50);
@@ -598,7 +598,7 @@ export default function TypedUArraysPerfTest16(): void {
 
     it('PerformanceTest_Uint8ClampedArray_Constructor_buffer_offset_length', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let buf: ArrayBuffer = new ArrayBuffer(200);
-      let result: Uint8ClampedArray = new Uint8ClampedArray(buf, 50, 100);
+      let result = new Uint8ClampedArray(buf, 50, 100);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = new Uint8ClampedArray(buf, 50, 100);
@@ -618,7 +618,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = BigInt(i);
       }
-      let result: bigint | undefined = arr.at(50);
+      let result = arr.at(50);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.at(50);
@@ -636,7 +636,7 @@ export default function TypedUArraysPerfTest16(): void {
       for (let i = 0; i < 100; i++) {
         arr[i] = BigInt(i);
       }
-      let result: BigUint64Array = arr.slice(10, 50);
+      let result = arr.slice(10, 50);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = arr.slice(10, 50);
