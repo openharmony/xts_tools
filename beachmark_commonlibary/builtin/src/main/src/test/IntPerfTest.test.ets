@@ -29,8 +29,12 @@ import performance from './Performance.util';
 
 export default function IntPerfTest(): void {
   describe('IntPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
+
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
@@ -69,6 +73,21 @@ export default function IntPerfTest(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'Int', 'constructor',
         'function constructor(value: int)', arkTsAveragedTime);
     })
+
+    // it('PerformanceTest_Int_Instance_toLocaleString_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let intObj = new Int(123);
+    //   let res: String = new String('');
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = intObj.toLocaleString();
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int_Instance_toLocaleString_2800: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Int', 'toLocaleString',
+    //     'toLocaleString(locales?: Intl.LocalesArgument, options?: Intl.NumberFormatOptions): String', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Int_Static_Properties_MIN_VALUE_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: int = 0;
@@ -419,21 +438,6 @@ export default function IntPerfTest(): void {
         'toString(radix: number): string', arkTsAveragedTime);
     })
 
-    // it('PerformanceTest_Int_Instance_toLocaleString_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-    //   let intObj = new Int(123);
-    //   let res: String = new String('');
-    //   let Stime = new Date().getTime();
-    //   for (let i = 0; i < BASE_COUNT; i++) {
-    //     res = intObj.toLocaleString();
-    //   }
-    //   let Dtime = new Date().getTime() - Stime;
-    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-    //   let res1 = res;
-    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int_Instance_toLocaleString_2800: ' + arkTsAveragedTime + 'ns');
-    //   performance.apiWithClassAndKeywordTxt('std.core', 'Int', 'toLocaleString',
-    //     'toLocaleString(locales?: Intl.LocalesArgument, options?: Intl.NumberFormatOptions): String', arkTsAveragedTime);
-    // })
-
     it('PerformanceTest_Int_Instance_add_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let intObj = new Int(100);
       let intObj2 = new Int(200);
@@ -560,6 +564,40 @@ export default function IntPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int_Instance_isGreaterEqualThan_3600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int', 'isGreaterEqualThan',
         'isGreaterEqualThan(other: Int): boolean', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Int_Instance_toLocaleString_3700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let intObj = new Int(123);
+      let res: String = new String('');
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = intObj.toLocaleString();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int_Instance_toLocaleString_3700: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Int', 'toLocaleString',
+        'toLocaleString(locales?: Intl.LocalesArgument, options?: Intl.NumberFormatOptions): String', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Int_Instance_toLocaleString_3800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let intObj = new Int(1234567);
+      let res: String = new String('');
+      let options: Intl.NumberFormatOptions = {
+        style: 'currency',
+        currency: 'USD'
+      };
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = intObj.toLocaleString('en-US', options);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int_Instance_toLocaleString_3800: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Int', 'toLocaleString',
+        'toLocaleString(locales?: Intl.LocalesArgument, options?: Intl.NumberFormatOptions): String', arkTsAveragedTime);
     })
 
   })

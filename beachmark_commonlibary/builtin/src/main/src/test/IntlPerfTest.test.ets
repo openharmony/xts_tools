@@ -28,7 +28,7 @@ import {
 import performance from './Performance.util';
 import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-export default function IntlPerfTest(): void {
+export default function IntlPerfTest() : void {
   describe('IntlPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     // const BASE_COUNT = 50000;
@@ -36,8 +36,6 @@ export default function IntlPerfTest(): void {
     // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
-    // buffer.from
-    const BASE_COUNT_MIX = 100;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -658,21 +656,21 @@ export default function IntlPerfTest(): void {
         'constructor(locales?: BCP47LanguageTag | BCP47LanguageTag[], options?: SegmenterOptions)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Intl_Segmenter_segment_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let segmenter: Intl.Segmenter = new Intl.Segmenter('zh-CN', { granularity: 'word' });
-      let text: string = 'Hello World 你好世界';
-      let res: Intl.Segments = segmenter.segment(text);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = segmenter.segment(text);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_Segmenter_segment_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Segmenter', 'segment',
-        'segment(doc: string): Segments', arkTsAveragedTime);
-    })
+    // it('PerformanceTest_Intl_Segmenter_segment_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let segmenter: Intl.Segmenter = new Intl.Segmenter('zh-CN', { granularity: 'word' });
+    //   let text: string = 'Hello World 你好世界';
+    //   let res: Intl.Segments = segmenter.segment(text);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = segmenter.segment(text);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_Segmenter_segment_0200: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Segmenter', 'segment',
+    //     'segment(doc: string): Segments', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Intl_Segmenter_resolvedOptions_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let segmenter: Intl.Segmenter = new Intl.Segmenter('zh-CN', { granularity: 'word' });
@@ -701,6 +699,92 @@ export default function IntlPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_Segmenter_supportedLocalesOf_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Segmenter', 'supportedLocalesOf',
         'supportedLocalesOf(locales: BCP47LanguageTag | BCP47LanguageTag[], options?): BCP47LanguageTag[]', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Intl_intlLookUpLocale_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: string = '';
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = Intl.intlLookUpLocale(['zh-CN', 'en-US']);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_intlLookUpLocale_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Intl', 'intlLookUpLocale',
+        'intlLookUpLocale(locale: BCP47LanguageTag | BCP47LanguageTag[]): string', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Intl_intlBestFitLocale_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: string = '';
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = Intl.intlBestFitLocale(['zh-CN', 'en-US']);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_intlBestFitLocale_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Intl', 'intlBestFitLocale',
+        'intlBestFitLocale(locale: BCP47LanguageTag | BCP47LanguageTag[]): string', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Intl_intlLookUpLocales_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: string[] = [];
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = Intl.intlLookUpLocales(['zh-CN', 'en-US', 'ja-JP']);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_intlLookUpLocales_0300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Intl', 'intlLookUpLocales',
+        'intlLookUpLocales(locale: BCP47LanguageTag | BCP47LanguageTag[]): string[]', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Intl_intlBestFitLocales_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: string[] = [];
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = Intl.intlBestFitLocales(['zh-CN', 'en-US', 'ja-JP']);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_intlBestFitLocales_0400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Intl', 'intlBestFitLocales',
+        'intlBestFitLocales(locale: BCP47LanguageTag | BCP47LanguageTag[]): string[]', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Intl_intlLocalesToLanguageTags_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: string[] = [];
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = Intl.intlLocalesToLanguageTags(['zh-CN', 'en-US']);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_intlLocalesToLanguageTags_0500: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Intl', 'intlLocalesToLanguageTags',
+        'intlLocalesToLanguageTags(locales: string | Locale | ReadonlyArray<string | Locale> | undefined): string[]', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Intl_Segments_next_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let segmenter: Intl.Segmenter = new Intl.Segmenter('zh-CN', { granularity: 'word' });
+      let segments: Intl.Segments = segmenter.segment('Hello World 你好世界');
+      let res: Intl.SegmentData | undefined;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = segments.next().value;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_Segments_next_0600: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Segments', 'next',
+        'next(): IteratorResult<SegmentData>', arkTsAveragedTime);
     })
 
   })

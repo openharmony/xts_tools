@@ -57,10 +57,34 @@ class NumberCollection implements Iterable<number> {
   }
 }
 
+class NumberIterableIterator implements IterableIterator<number> {
+  private current: number = 0;
+  private max: number = 100;
+
+  constructor(max: number) {
+    this.max = max;
+  }
+
+  next(): IteratorResult<number> {
+    if (this.current >= this.max) {
+      return new IteratorResult<number>();
+    }
+    return new IteratorResult<number>(this.current++);
+  }
+
+  $_iterator(): IterableIterator<number> {
+    return this;
+  }
+}
 export default function IteratorPerfTest(): void {
   describe('IteratorPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
+    // buffer.from
+    const BASE_COUNT_MIX = 100;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -188,6 +212,36 @@ export default function IteratorPerfTest(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'IteratorResult', 'value',
         'readonly value: T | undefined', arkTsAveragedTime);
     })
+
+    it('PerformanceTest_Iterator_IterableIterator_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let iter: IterableIterator<number> = new NumberIterableIterator(BASE_COUNT);
+      let res: Iterator<number> = iter.$_iterator();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = iter.$_iterator();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_IterableIterator_0900: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'IterableIterator', '$_iterator',
+        '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
+    })
+
+    // it('PerformanceTest_Iterator_IteratorForEach_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let count: number = 0;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     let iter: Iterator<number> = new NumberIterator(BASE_COUNT);
+    //     iteratorForEach(iter, (v: number) => { count += v; });
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = count;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_IteratorForEach_1000: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'iteratorForEach', 'function',
+    //     'iteratorForEach<V>(x: Iterator<V>, fn: (x: V) => void): void', arkTsAveragedTime);
+    // })
 
   })
 }

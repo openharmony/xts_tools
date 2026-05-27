@@ -24,7 +24,6 @@ import {
   afterAll
 } from "../../../hypium/index";
 import performance from './Performance.util';
-import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 
 class GCTestObj {
@@ -35,6 +34,8 @@ export default function GCPerfTest(): void {
   describe('GCPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -138,6 +139,7 @@ export default function GCPerfTest(): void {
         'pinObject(obj: Object): void', arkTsAveragedTime);
     })
 
+    //并发格式不规范
     it('PerformanceTest_GC_UnpinObject_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let objArray = new Array<GCTestObj>();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -201,6 +203,247 @@ export default function GCPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_IsScheduledGCTriggered_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'isScheduledGCTriggered',
         'isScheduledGCTriggered(): boolean', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_GC_WaitForFinishGC_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let gcId = GC.startGC(GC.Cause.YOUNG);
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+          GC.waitForFinishGC(gcId);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = gcId;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_WaitForFinishGC_1100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'waitForFinishGC',
+        'waitForFinishGC(gcId: long): void', arkTsAveragedTime);
+    })
+
+    // scheduleGcAfterNthAlloc 在当前 VM 上不支持（unsupported GC trigger），暂时注释
+    // it('PerformanceTest_GC_ScheduleGcAfterNthAlloc_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     GC.scheduleGcAfterNthAlloc(1000, GC.Cause.YOUNG);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = GC.Cause.YOUNG;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_ScheduleGcAfterNthAlloc_1200: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'scheduleGcAfterNthAlloc',
+    //     'scheduleGcAfterNthAlloc(counter: int, cause: Cause): void', arkTsAveragedTime);
+    // })
+
+    // postponeGCStart 与 postponeGCEnd 必须每轮迭代成对调用，无法独立在循环体中测试单个 API
+    it('PerformanceTest_GC_PostponeGCStart_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        GC.postponeGCStart();
+        GC.postponeGCEnd();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = GC.Cause.YOUNG;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_PostponeGCStart_1300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'postponeGCStart',
+        'postponeGCStart(): void', arkTsAveragedTime);
+    })
+
+    // 与 1300 循环体相同 — 两 API 不可分离，各自上报不同 API 名称以覆盖两个 API 的性能记录
+    // it('PerformanceTest_GC_PostponeGCEnd_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     GC.postponeGCStart();
+    //     GC.postponeGCEnd();
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = GC.Cause.YOUNG;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_PostponeGCEnd_1400: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'postponeGCEnd',
+    //     'postponeGCEnd(): void', arkTsAveragedTime);
+    // })
+
+    it('PerformanceTest_GC_AllocatePinnedBooleanArray_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let arr: ValueArray<boolean> | undefined = undefined;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        arr = GC.allocatePinnedBooleanArray(1024);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
+      if (arr !== undefined) {
+        GC.unpinObject(arr);
+      }
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_AllocatePinnedBooleanArray_1500: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'allocatePinnedBooleanArray',
+        'allocatePinnedBooleanArray(length: long): ValueArray<boolean>', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_GC_AllocatePinnedByteArray_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let arr: ValueArray<byte> | undefined = undefined;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        arr = GC.allocatePinnedByteArray(1024);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
+      if (arr !== undefined) {
+        GC.unpinObject(arr);
+      }
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_AllocatePinnedByteArray_1600: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'allocatePinnedByteArray',
+        'allocatePinnedByteArray(length: long): ValueArray<byte>', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_GC_AllocatePinnedCharArray_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let arr: ValueArray<char> | undefined = undefined;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        arr = GC.allocatePinnedCharArray(1024);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
+      if (arr !== undefined) {
+        GC.unpinObject(arr);
+      }
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_AllocatePinnedCharArray_1700: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'allocatePinnedCharArray',
+        'allocatePinnedCharArray(length: long): ValueArray<char>', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_GC_AllocatePinnedShortArray_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let arr: ValueArray<short> | undefined = undefined;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        arr = GC.allocatePinnedShortArray(1024);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
+      if (arr !== undefined) {
+        GC.unpinObject(arr);
+      }
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_AllocatePinnedShortArray_1800: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'allocatePinnedShortArray',
+        'allocatePinnedShortArray(length: long): ValueArray<short>', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_GC_AllocatePinnedLongArray_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let arr: ValueArray<long> | undefined = undefined;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        arr = GC.allocatePinnedLongArray(1024);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
+      if (arr !== undefined) {
+        GC.unpinObject(arr);
+      }
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_AllocatePinnedLongArray_1900: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'allocatePinnedLongArray',
+        'allocatePinnedLongArray(length: long): ValueArray<long>', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_GC_AllocatePinnedFloatArray_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let arr: ValueArray<float> | undefined = undefined;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        arr = GC.allocatePinnedFloatArray(1024);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
+      if (arr !== undefined) {
+        GC.unpinObject(arr);
+      }
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_AllocatePinnedFloatArray_2000: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'allocatePinnedFloatArray',
+        'allocatePinnedFloatArray(length: long): ValueArray<float>', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_GC_AllocatePinnedDoubleArray_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let arr: ValueArray<double> | undefined = undefined;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        arr = GC.allocatePinnedDoubleArray(1024);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
+      if (arr !== undefined) {
+        GC.unpinObject(arr);
+      }
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_AllocatePinnedDoubleArray_2100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'allocatePinnedDoubleArray',
+        'allocatePinnedDoubleArray(length: long): ValueArray<double>', arkTsAveragedTime);
+    })
+
+    // ========== startGC(cause: Cause, inPlaceMode: boolean = GC.NOT_IN_PLACE_MODE): long ==========
+    it('PerformanceTest_GC_StartGC_woCallback_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: long = GC.startGC(GC.Cause.YOUNG);
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = GC.startGC(GC.Cause.YOUNG);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_StartGC_woCallback_2200: '
+        + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'startGC',
+        'startGC(cause: Cause, inPlaceMode: boolean = GC.NOT_IN_PLACE_MODE): long', arkTsAveragedTime);
+    })
+
+    // ========== startGC(cause: Cause, callback: () => void, inPlaceMode: boolean = GC.NOT_IN_PLACE_MODE): long ==========
+    it('PerformanceTest_GC_StartGC_wCallback_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let callback: () => void = () => {};
+      let res: long = GC.startGC(GC.Cause.YOUNG, callback);
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = GC.startGC(GC.Cause.YOUNG, callback);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_StartGC_wCallback_2300: '
+        + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'startGC',
+        'startGC(cause: Cause, callback: () => void, inPlaceMode: boolean = GC.NOT_IN_PLACE_MODE): long',
+        arkTsAveragedTime);
+    })
+
+    // ========== registerNativeAllocation(size: long): void ==========
+    it('PerformanceTest_GC_RegisterNativeAllocation_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        GC.registerNativeAllocation(1024);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = GC.Cause.YOUNG;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_RegisterNativeAllocation_2400: '
+        + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'registerNativeAllocation',
+        'registerNativeAllocation(size: long): void', arkTsAveragedTime);
+    })
+
+    // ========== registerNativeFree(size: long): void ==========
+    it('PerformanceTest_GC_RegisterNativeFree_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        GC.registerNativeFree(1024);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = GC.Cause.YOUNG;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_RegisterNativeFree_2500: '
+        + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'registerNativeFree',
+        'registerNativeFree(size: long): void', arkTsAveragedTime);
     })
 
   })
