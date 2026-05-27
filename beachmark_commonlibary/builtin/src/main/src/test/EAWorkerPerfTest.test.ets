@@ -29,7 +29,11 @@ import performance from './Performance.util';
 
 export default function EAWorkerPerfTest(): void {
   describe('EAWorkerPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // const BASE_COUNT = 100; //太大要出现 app died
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -54,7 +58,7 @@ export default function EAWorkerPerfTest(): void {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'constructor',
-        'constructor()', arkTsAveragedTime);
+        'constructor(needInterop?: boolean)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_EAWorker_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -68,7 +72,7 @@ export default function EAWorkerPerfTest(): void {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'constructor',
-        'constructor(name: string)', arkTsAveragedTime);
+        'constructor(name: string, needInterop?: boolean)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_EAWorker_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -83,7 +87,7 @@ export default function EAWorkerPerfTest(): void {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'constructor',
-        'constructor(task: Task)', arkTsAveragedTime);
+        'constructor(task: Task, needInterop?: boolean)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_EAWorker_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -98,7 +102,7 @@ export default function EAWorkerPerfTest(): void {
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Constructor_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'constructor',
-        'constructor(name: string, task: Task)', arkTsAveragedTime);
+        'constructor(name: string, task: Task, needInterop?: boolean)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_EAWorker_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -114,25 +118,29 @@ export default function EAWorkerPerfTest(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'constructor',
         'constructor(needInterop: boolean)', arkTsAveragedTime);
     })
+
+    //并发格式不规范
     it('PerformanceTest_EAWorker_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let workers = new Array<EAWorker>();
-      for (let i = 0; i < BASE_COUNT; i++) {
+      const TEST_COUNT = 10;
+      let workers: EAWorker[] = new Array<EAWorker>();
+      for (let i = 0; i < TEST_COUNT; i++) {
         let worker = new EAWorker();
+        // worker.start();
         workers.push(worker);
       }
-      for (let i = 0; i < BASE_COUNT; i++) {
+      let Stime = new Date().getTime();
+      for (let i = 0; i < TEST_COUNT; i++) {
         workers[i].start();
       }
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / TEST_COUNT;
+      for (let i = 0; i < TEST_COUNT; i++) {
         workers[i].quit();
       }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-	  let res1 = workers;
+      let res1 = workers;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'quit',
-        'quit(): void', arkTsAveragedTime);
+      performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'start',
+        'start(): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_EAWorker_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -145,11 +153,11 @@ export default function EAWorkerPerfTest(): void {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      worker.quit();
       let res1 = res;
+      worker.quit();
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'isAlive',
-        'isAlive(): boolean', arkTsAveragedTime);
+      'isAlive(): boolean', arkTsAveragedTime);
     })
 
     it('PerformanceTest_EAWorker_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -161,8 +169,7 @@ export default function EAWorkerPerfTest(): void {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-	  let res1 = worker;
-      worker.quit();
+      let res1 = worker;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'setPriority',
         'setPriority(priority: WorkerPriority): void', arkTsAveragedTime);
@@ -229,8 +236,8 @@ export default function EAWorkerPerfTest(): void {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-	  let res1 = worker;
       worker.quit();
+      let res1 = worker;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'postTask',
         'postTask(task: Task): void', arkTsAveragedTime);
@@ -240,7 +247,7 @@ export default function EAWorkerPerfTest(): void {
       let worker = new EAWorker();
       worker.start();
       let fn = () => { return 42; };
-      let res: Job<Double> | undefined = undefined;
+      let res: Promise<number> | undefined = undefined;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = worker.run<number>(fn);
@@ -264,8 +271,8 @@ export default function EAWorkerPerfTest(): void {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-	  let res1 = worker;
       worker.quit();
+      let res1 = worker;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'setUncaughtExceptionHandler',
         'setUncaughtExceptionHandler(handler: (error: Error) => void): void', arkTsAveragedTime);
@@ -282,32 +289,57 @@ export default function EAWorkerPerfTest(): void {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      worker.quit();
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'getUncaughtExceptionHandler',
         'getUncaughtExceptionHandler(): ErrorHandlerType | undefined', arkTsAveragedTime);
     })
 
+    //并发格式不规范
     it('PerformanceTest_EAWorker_Instance_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let workers = new Array<EAWorker>();
-      let res: Job<void> | undefined = undefined;
-      for (let i = 0; i < BASE_COUNT; i++) {
+      const TEST_COUNT = 10;
+      let workers: EAWorker[] = new Array<EAWorker>();
+      for (let i = 0; i < TEST_COUNT; i++) {
         let worker = new EAWorker();
-        worker.start();
         workers.push(worker);
       }
+      for (let i = 0; i < TEST_COUNT; i++) {
+        workers[i].start();
+      }
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = workers[i].join();
+      for (let i = 0; i < TEST_COUNT; i++) {
+        workers[i].join();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / TEST_COUNT;
+      let res1 = workers;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'join',
         'join(): Promise<void>', arkTsAveragedTime);
     })
+
+    it('PerformanceTest_EAWorker_Instance_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      const TEST_COUNT = 10;
+      let workers: EAWorker[] = new Array<EAWorker>();
+      for (let i = 0; i < TEST_COUNT; i++) {
+        let worker = new EAWorker();
+        workers.push(worker);
+      }
+      for (let i = 0; i < TEST_COUNT; i++) {
+        workers[i].start();
+      }
+      let Stime = new Date().getTime();
+      for (let i = 0; i < TEST_COUNT; i++) {
+        workers[i].quit();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / TEST_COUNT;
+      let res1 = workers;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_1200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'quit',
+        'quit(): void', arkTsAveragedTime);
+    })
+
 
     it('PerformanceTest_EAWorker_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: EAWorker = EAWorker.main();
@@ -336,6 +368,42 @@ export default function EAWorkerPerfTest(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'current',
         'static current(): EAWorker | undefined', arkTsAveragedTime);
     })
+
+    // postToMain 每次调用在主线程调度新协程，大量累积导致 App died，使用较低迭代数
+    // it('PerformanceTest_EAWorker_Static_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   const POST_MAIN_COUNT = 5000;
+    //   let fn = () => {};
+    //   let res: Promise<void> | undefined = undefined;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < POST_MAIN_COUNT; i++) {
+    //     res = EAWorker.postToMain<void>(fn);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / POST_MAIN_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Static_0300: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'postToMain',
+    //     'static postToMain<R>(coroFun: Function, ...args: FixedArray<Any>): Promise<R>', arkTsAveragedTime);
+    // })
+
+    // 0400 与 0300 内部代码路径相同（仅 abortFlag 差异且 new LaunchParams() 默认为 false），
+    // 且大量调用同样会导致 App died，故此重载无需单独测试
+    // it('PerformanceTest_EAWorker_Static_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   const POST_MAIN_COUNT = 5000;
+    //   let launchParams = new LaunchParams();
+    //   let fn = () => {};
+    //   let res: Promise<void> | undefined = undefined;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < POST_MAIN_COUNT; i++) {
+    //     res = EAWorker.postToMain<void>(fn, launchParams);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / POST_MAIN_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Static_0400: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'postToMain',
+    //     'static postToMain<R>(coroFun: Function, launchParams: LaunchParams, ...args: FixedArray<Any>): Promise<R>', arkTsAveragedTime);
+    // })
 
 
   })
