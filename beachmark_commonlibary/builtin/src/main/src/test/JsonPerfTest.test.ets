@@ -23,8 +23,6 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-const BASE_COUNT = 50000;
-const UNIT_TIME = 1000000;
 
 function toByteValue(value: int): byte {
   return value.toByte();
@@ -155,6 +153,10 @@ function getSampleParseClass(): Class {
 
 export default function JsonPerfTest(): void {
   describe('JsonPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
+    const BASE_COUNT = 50000;
+    const UNIT_TIME = 1000000;
+
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
@@ -839,6 +841,102 @@ export default function JsonPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parseJsonRecord',
           'parseJsonRecord(text: string, options?: jsonx.ParseOptions): Record<string, JsonRecordType>', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JSON_stringifyWithGetters_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let obj: Any = createSimpleRecord();
+        let result: String = JSON.stringifyWithGetters(obj);
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = JSON.stringifyWithGetters(obj);
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringifyWithGetters_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringifyWithGetters',
+          'stringifyWithGetters(obj: Any): String', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JSON_stringifyWithGetters_0200',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let obj: Any = createSimpleRecord();
+        let result: string = JSON.stringifyWithGetters(obj, commonReviver, 2);
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = JSON.stringifyWithGetters(obj, commonReviver, 2);
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringifyWithGetters_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringifyWithGetters',
+          'stringifyWithGetters(obj: Any, replacer: ((key: string, value: Any) => Any) | undefined | null, space?: int | string): string', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JSON_stringifyWithGetters_0300',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let obj: Any = createSimpleRecord();
+        let replacer: Array<double | string> = createStringifyFilterArray();
+        let result: string = JSON.stringifyWithGetters(obj, replacer, 2);
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = JSON.stringifyWithGetters(obj, replacer, 2);
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringifyWithGetters_0300: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringifyWithGetters',
+          'stringifyWithGetters(obj: Any, replacer: Array<double | string> | Array<string> | Array<double>, space?: int | string): string', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JSON_parseUpdate_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let json: string = "{\"name\":\"test\",\"age\":25}";
+        let instance: SampleParsePojo = new SampleParsePojo();
+        let result: SampleParsePojo = JSON.parseUpdate(json, instance);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = JSON.parseUpdate(json, instance);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_parseUpdate_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parseUpdate',
+          'parseUpdate<T>(json: string, instance: T): T', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JSON_parseUpdate_0200',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let json: string = "{\"name\":\"test\",\"age\":25}";
+        let instance: SampleParsePojo = new SampleParsePojo();
+        let options: jsonx.ParseOptions = createParseOptions();
+        let result: SampleParsePojo = JSON.parseUpdate(json, commonReviver, instance, options);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = JSON.parseUpdate(json, commonReviver, instance, options);
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_parseUpdate_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parseUpdate',
+          'parseUpdate<T>(json: string, reviver: ((key: string, value: Any) => Any) | undefined, instance: T, options?: jsonx.ParseOptions): T', arkTsAveragedTime);
       });
   });
 }

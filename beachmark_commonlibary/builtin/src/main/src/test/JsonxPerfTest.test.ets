@@ -23,9 +23,6 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-const BASE_COUNT = 50000;
-const UNIT_TIME = 1000000;
-
 function toLongValue(value: int): long {
   return value.toLong();
 }
@@ -75,8 +72,38 @@ function createRemovableElement(value: jsonx.JsonElement): jsonx.JsonElement {
   return elem;
 }
 
+class SerializableClass implements jsonx.JsonElementSerializable {
+  name: string = "arkts";
+  version: int = 1;
+
+  toJSON(): jsonx.JsonElement {
+    let map = new Map<string, jsonx.JsonElement>();
+    map.set("name", jsonx.JsonElement.createString(this.name));
+    map.set("version", jsonx.JsonElement.createInteger(this.version));
+    return jsonx.JsonElement.createObject(map);
+  }
+}
+
+class DeserializableClass implements jsonx.JsonElementDeserializable {
+  name: string = "";
+  version: int = 0;
+
+  fromJSON(jsonElem: jsonx.JsonElement): void {
+    let nameElem = jsonElem.getString("name");
+    this.name = nameElem != null ? nameElem : "";
+    let versionElem = jsonElem.getInteger("version");
+    this.version = versionElem;
+  }
+}
+
 export default function JsonxPerfTest(): void {
   describe('JsonxPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
+    const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
+    const UNIT_TIME = 1000000;
+
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
@@ -541,6 +568,7 @@ export default function JsonxPerfTest(): void {
           'tryGetArray(key: string): Array<JsonElement>', arkTsAveragedTime);
       });
 
+    //并发格式不规范
     it('PerformanceTest_JsonElement_removeElement_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: jsonx.JsonElement = jsonx.JsonElement.createString("arkts");
@@ -1323,6 +1351,116 @@ export default function JsonxPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JsonElement', 'setUndefined',
           'setUndefined(): void', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Jsonx_BigIntMode_DEFAULT_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let res = jsonx.BigIntMode.DEFAULT;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = jsonx.BigIntMode.DEFAULT;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Jsonx_BigIntMode_DEFAULT_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'jsonx', 'BigIntMode.DEFAULT',
+          'BigIntMode.DEFAULT', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Jsonx_BigIntMode_PARSE_AS_BIGINT_0200',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let res = jsonx.BigIntMode.PARSE_AS_BIGINT;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = jsonx.BigIntMode.PARSE_AS_BIGINT;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Jsonx_BigIntMode_PARSE_AS_BIGINT_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'jsonx', 'BigIntMode.PARSE_AS_BIGINT',
+          'BigIntMode.PARSE_AS_BIGINT', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Jsonx_BigIntMode_ALWAYS_PARSE_AS_BIGINT_0300',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let res = jsonx.BigIntMode.ALWAYS_PARSE_AS_BIGINT;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = jsonx.BigIntMode.ALWAYS_PARSE_AS_BIGINT;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Jsonx_BigIntMode_ALWAYS_PARSE_AS_BIGINT_0300: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'jsonx', 'BigIntMode.ALWAYS_PARSE_AS_BIGINT',
+          'BigIntMode.ALWAYS_PARSE_AS_BIGINT', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Jsonx_ParseOptions_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let opts: jsonx.ParseOptions = { bigIntMode: jsonx.BigIntMode.DEFAULT };
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          opts = { bigIntMode: jsonx.BigIntMode.PARSE_AS_BIGINT };
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = opts;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Jsonx_ParseOptions_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'jsonx', 'ParseOptions',
+          'interface ParseOptions { bigIntMode: BigIntMode }', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JsonElementSerializable_toJSON_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let obj: jsonx.JsonElementSerializable = new SerializableClass();
+        let elem: jsonx.JsonElement = obj.toJSON();
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          elem = obj.toJSON();
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = elem;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JsonElementSerializable_toJSON_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JsonElementSerializable', 'toJSON',
+          'toJSON(): JsonElement', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JsonElementDeserializable_fromJSON_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let obj: jsonx.JsonElementDeserializable = new DeserializableClass();
+        let jsonStr: jsonx.JsonElement = jsonx.JsonElement.createObject(createSampleRecord());
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          obj.fromJSON(jsonStr);
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = obj;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JsonElementDeserializable_fromJSON_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JsonElementDeserializable', 'fromJSON',
+          'fromJSON(jsonElem: JsonElement): void', arkTsAveragedTime);
       });
   });
 }

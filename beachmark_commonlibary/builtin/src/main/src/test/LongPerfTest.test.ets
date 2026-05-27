@@ -12,9 +12,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import {
   describe,
   it,
+  expect,
   TestType,
   Size,
   Level,
@@ -26,6 +28,7 @@ import performance from './Performance.util';
 const BASE_COUNT = 50000;
 const UNIT_TIME = 1000000;
 const BASE_COUNT_MIX = 500;
+
 function getLong123(): long {
   return Long.parseInt("123", 10);
 }
@@ -36,10 +39,6 @@ function getLong456(): long {
 
 function getLong7(): long {
   return Long.parseInt("7", 10);
-}
-
-function getLong255(): long {
-  return Long.parseInt("255", 10);
 }
 
 function createLong123(): Long {
@@ -67,604 +66,573 @@ export default function LongPerfTest(): void {
       performance.save('apiPerformance.txt');
     });
 
-    it('PerformanceTest_Long_constructor_0100',
+    it('PerformanceTest_Long_Constructor_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let result: Long = new Long();
+        let res: Long = new Long();
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = new Long();
+          res = new Long();
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_constructor_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'constructor',
           'constructor()', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_constructor_0200',
+    it('PerformanceTest_Long_Constructor_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: long = getLong123();
-        let result: Long = new Long(value);
+        let res: Long = new Long(value);
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = new Long(value);
+          res = new Long(value);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_constructor_0200: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Constructor_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'constructor',
           'constructor(value: long)', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_valueOf_0100',
+    // ============ Static Tests ============
+    it('PerformanceTest_Long_Static_2000',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let res: long = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.MIN_VALUE;
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2000: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'MIN_VALUE',
+          'static readonly MIN_VALUE: long', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Static_2010',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let res: long = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.MAX_VALUE;
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2010: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'MAX_VALUE',
+          'static readonly MAX_VALUE: long', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Static_2020',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let res: byte = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.BIT_SIZE;
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2020: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'BIT_SIZE',
+          'static readonly BIT_SIZE: byte', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Static_2030',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let res: byte = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.BYTE_SIZE;
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2030: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'BYTE_SIZE',
+          'static readonly BYTE_SIZE: byte', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Static_2100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: long = getLong123();
-        let result: Long = Long.valueOf(value);
+        let res: string = '';
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = Long.valueOf(value);
+          res = Long.toString(value);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_valueOf_0100: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'valueOf',
-          'valueOf(value: long): Long', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toByte_0100',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: Long = createLong123();
-        let result: byte = value.toByte();
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.toByte();
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toByte_0100: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toByte',
-          'toByte(): byte', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toShort_0100',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: Long = createLong123();
-        let result: short = value.toShort();
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.toShort();
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toShort_0100: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toShort',
-          'toShort(): short', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toInt_0100',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: Long = createLong123();
-        let result: int = value.toInt();
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.toInt();
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toInt_0100: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toInt',
-          'toInt(): int', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toLong_0100',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: Long = createLong123();
-        let result: long = value.toLong();
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.toLong();
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toLong_0100: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toLong',
-          'toLong(): long', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toFloat_0100',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: Long = createLong123();
-        let result: float = value.toFloat();
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.toFloat();
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toFloat_0100: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toFloat',
-          'toFloat(): float', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toDouble_0100',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: Long = createLong123();
-        let result: double = value.toDouble();
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.toDouble();
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toDouble_0100: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toDouble',
-          'toDouble(): double', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toChar_0100',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: Long = createLong123();
-        let result: char = value.toChar();
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.toChar();
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toChar_0100: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toChar',
-          'toChar(): char', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toByte_0200',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: long = getLong123();
-        let result: byte = Long.toByte(value);
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = Long.toByte(value);
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toByte_0200: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toByte',
-          'static toByte(value: long): byte', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toShort_0200',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: long = getLong123();
-        let result: short = Long.toShort(value);
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = Long.toShort(value);
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toShort_0200: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toShort',
-          'static toShort(value: long): short', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toInt_0200',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: long = getLong123();
-        let result: int = Long.toInt(value);
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = Long.toInt(value);
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toInt_0200: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toInt',
-          'static toInt(value: long): int', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toFloat_0200',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: long = getLong123();
-        let result: float = Long.toFloat(value);
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = Long.toFloat(value);
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toFloat_0200: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toFloat',
-          'static toFloat(value: long): float', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toDouble_0200',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: long = getLong123();
-        let result: double = Long.toDouble(value);
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = Long.toDouble(value);
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toDouble_0200: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toDouble',
-          'static toDouble(value: long): double', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toChar_0200',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: long = getLong123();
-        let result: char = Long.toChar(value);
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = Long.toChar(value);
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toChar_0200: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toChar',
-          'static toChar(value: long): char', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toLong_0200',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: long = getLong123();
-        let result: long = Long.toLong(value);
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = Long.toLong(value);
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toLong_0200: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toLong',
-          'static toLong(value: long): long', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_compareTo_0100',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: Long = createLong123();
-        let other: Long = createLong456();
-        let result: int = value.compareTo(other);
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.compareTo(other);
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_compareTo_0100: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'compareTo',
-          'compareTo(other: Long): int', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_toString_0100',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: long = getLong123();
-        let result: string = Long.toString(value);
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = Long.toString(value);
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toString_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toString',
           'static toString(v: long): string', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_toString_0200',
+    it('PerformanceTest_Long_Static_2200',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: long = getLong123();
+        let res: byte = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.toByte(value);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2200: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toByte',
+          'static toByte(value: long): byte', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Static_2210',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: long = getLong123();
+        let res: short = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.toShort(value);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2210: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toShort',
+          'static toShort(value: long): short', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Static_2220',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: long = getLong123();
+        let res: int = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.toInt(value);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2220: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toInt',
+          'static toInt(value: long): int', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Static_2230',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: long = getLong123();
+        let res: long = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.toLong(value);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2230: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toLong',
+          'static toLong(value: long): long', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Static_2240',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: long = getLong123();
+        let res: float = 0.0f;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.toFloat(value);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2240: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toFloat',
+          'static toFloat(value: long): float', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Static_2250',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: long = getLong123();
+        let res: double = 0.0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.toDouble(value);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2250: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toDouble',
+          'static toDouble(value: long): double', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Static_2260',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: long = getLong123();
+        let res: char = c'\0';
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.toChar(value);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2260: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toChar',
+          'static toChar(value: long): char', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Static_2300',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let s: String = "123456";
+        let r: int = 10;
+        let res: long = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Long.parseInt(s, r);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Static_2300: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'parseInt',
+          'static parseInt(s: String, r: int): long', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Instance_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Long = createLong123();
-        let result: String = value.toString();
+        let res: byte = 0;
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.toString();
+          res = value.toByte();
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toString_0200: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toByte',
+          'toByte(): byte', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Instance_0110',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: Long = createLong123();
+        let res: short = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = value.toShort();
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0110: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toShort',
+          'toShort(): short', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Instance_0120',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: Long = createLong123();
+        let res: int = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = value.toInt();
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0120: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toInt',
+          'toInt(): int', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Instance_0130',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: Long = createLong123();
+        let res: long = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = value.toLong();
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0130: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toLong',
+          'toLong(): long', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Instance_0140',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: Long = createLong123();
+        let res: float = 0.0f;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = value.toFloat();
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0140: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toFloat',
+          'toFloat(): float', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Instance_0150',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: Long = createLong123();
+        let res: double = 0.0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = value.toDouble();
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0150: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toDouble',
+          'toDouble(): double', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Instance_0160',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: Long = createLong123();
+        let res: char = c'\0';
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = value.toChar();
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0160: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toChar',
+          'toChar(): char', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Instance_0200',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: Long = createLong123();
+        let res: String = '';
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = value.toString();
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toString',
           'toString(): String', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_equals_0100',
+    it('PerformanceTest_Long_Instance_0210',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: Long = createLong123();
+        let radix: int = 16;
+        let res: string = '';
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = value.toString(radix);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0210: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toString',
+          'toString(radix: int): string', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Instance_0300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Long = createLong123();
         let other: Any = createLong123();
-        let result: boolean = value.equals(other);
+        let res: boolean = false;
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.equals(other);
+          res = value.equals(other);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_equals_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'equals',
           'equals(other: Any): boolean', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_toLocaleString_0100',
+    it('PerformanceTest_Long_Instance_0310',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let value: Long = createLong123();
+        let other: Long = createLong456();
+        let res: int = 0;
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = value.compareTo(other);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0310: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'compareTo',
+          'compareTo(other: Long): int', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Long_Instance_0400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Long = createLong123();
         let options: Intl.NumberFormatOptions | undefined = undefined;
-        let result: String = value.toLocaleString(undefined, options);
+        let res: String = '';
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT_MIX; i++) {
-          result = value.toLocaleString(undefined, options);
+          res = value.toLocaleString(undefined, options);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MIX;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_toLocaleString_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'toLocaleString',
           'toLocaleString(locales?: Intl.LocalesArgument, options?: Intl.NumberFormatOptions): String', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_add_0100',
+    it('PerformanceTest_Long_Instance_0500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Long = createLong123();
         let other: Long = createLong456();
-        let result: Long = value.add(other);
+        let res: Long = new Long(0);
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.add(other);
+          res = value.add(other);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_add_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'add',
           'add(other: Long): Long', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_sub_0100',
+    it('PerformanceTest_Long_Instance_0510',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Long = createLong456();
         let other: Long = createLong123();
-        let result: Long = value.sub(other);
+        let res: Long = new Long(0);
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.sub(other);
+          res = value.sub(other);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_sub_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0510: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'sub',
           'sub(other: Long): Long', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_mul_0100',
+    it('PerformanceTest_Long_Instance_0520',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Long = createLong123();
         let other: Long = createLong7();
-        let result: Long = value.mul(other);
+        let res: Long = new Long(0);
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.mul(other);
+          res = value.mul(other);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_mul_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0520: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'mul',
           'mul(other: Long): Long', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_div_0100',
+    it('PerformanceTest_Long_Instance_0530',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Long = createLong456();
         let other: Long = createLong7();
-        let result: Long = value.div(other);
+        let res: Long = new Long(0);
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.div(other);
+          res = value.div(other);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_div_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0530: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'div',
           'div(other: Long): Long', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_isLessThan_0100',
+    it('PerformanceTest_Long_Instance_0600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Long = createLong123();
         let other: Long = createLong456();
-        let result: boolean = value.isLessThan(other);
+        let res: boolean = false;
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.isLessThan(other);
+          res = value.isLessThan(other);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_isLessThan_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'isLessThan',
           'isLessThan(other: Long): boolean', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_isLessEqualThan_0100',
+    it('PerformanceTest_Long_Instance_0610',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Long = createLong123();
         let other: Long = createLong456();
-        let result: boolean = value.isLessEqualThan(other);
+        let res: boolean = false;
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.isLessEqualThan(other);
+          res = value.isLessEqualThan(other);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_isLessEqualThan_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0610: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'isLessEqualThan',
           'isLessEqualThan(other: Long): boolean', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_isGreaterThan_0100',
+    it('PerformanceTest_Long_Instance_0620',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Long = createLong456();
         let other: Long = createLong123();
-        let result: boolean = value.isGreaterThan(other);
+        let res: boolean = false;
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.isGreaterThan(other);
+          res = value.isGreaterThan(other);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_isGreaterThan_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0620: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'isGreaterThan',
           'isGreaterThan(other: Long): boolean', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_Long_isGreaterEqualThan_0100',
+    it('PerformanceTest_Long_Instance_0630',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Long = createLong456();
         let other: Long = createLong123();
-        let result: boolean = value.isGreaterEqualThan(other);
+        let res: boolean = false;
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.isGreaterEqualThan(other);
+          res = value.isGreaterEqualThan(other);
         }
-
         let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_isGreaterEqualThan_0100: '
-          + arkTsAveragedTime + 'ns');
+        let res1 = res;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_Instance_0630: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'isGreaterEqualThan',
           'isGreaterEqualThan(other: Long): boolean', arkTsAveragedTime);
-      });
-
-    it('PerformanceTest_Long_parseInt_0100',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let s: String = "123456";
-        let r: int = 10;
-        let result: long = Long.parseInt(s, r);
-        let Stime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = Long.parseInt(s, r);
-        }
-
-        let Dtime = new Date().getTime() - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Long_parseInt_0100: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Long', 'parseInt',
-          'parseInt(s: String, r: int): long', arkTsAveragedTime);
       });
   });
 }

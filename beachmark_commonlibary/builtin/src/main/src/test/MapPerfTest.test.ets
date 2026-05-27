@@ -27,15 +27,13 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function MapPerfTest() {
+export default function MapPerfTest(): void {
   describe('MapPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
     // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
-    // buffer.from
-    const BASE_COUNT_MIX = 100;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -60,6 +58,20 @@ export default function MapPerfTest() {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'constructor',
         'constructor()', arkTsAveragedTime);
+    });
+
+    it('PerformanceTest_Map_Constructor_InitialCapacity_0110', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let b = new Map<string, object>(10);
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        b = new Map<string, object>(10);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = b;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_InitialCapacity_0110: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'constructor',
+        'constructor(initialCapacity: int)', arkTsAveragedTime);
     });
 
     it('PerformanceTest_Map_set_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -108,6 +120,7 @@ export default function MapPerfTest() {
         'has(key: K)', arkTsAveragedTime);
     });
 
+    //并发格式不规范
     it('PerformanceTest_Map_delete_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let maps: Map<string, object>[] = [];
       for (let i = 0; i < BASE_COUNT; i++) {
