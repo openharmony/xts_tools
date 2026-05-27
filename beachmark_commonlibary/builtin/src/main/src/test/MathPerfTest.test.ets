@@ -23,9 +23,6 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-const BASE_COUNT = 50000;
-const UNIT_TIME = 1000000;
-
 function toByteValue(value: int): byte {
   return value.toByte();
 }
@@ -48,6 +45,12 @@ function createIntObject(value: int): Int {
 
 export default function MathPerfTest(): void {
   describe('MathPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
+    const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
+    const UNIT_TIME = 1000000;
+
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
@@ -135,26 +138,24 @@ export default function MathPerfTest(): void {
           'abs(x: long): long', arkTsAveragedTime);
       });
 
-    // 注释原因：
-    // 当前环境下 Math 的 float 重载会被编译器解析为 double 版本，
-    // 导致返回值类型为 Double，无法赋值给 Float。
-    // 为保证网上提交时保留测试意图，这里仅注释，不删除。
-    /*
     it('PerformanceTest_Math_abs_0500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(-7.25);
         let result: float = Math.abs(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.abs(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_abs_0500', 'Math', 'abs',
-          'abs(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_abs_0500: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'abs',
+          'abs(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_abs_0600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -194,23 +195,24 @@ export default function MathPerfTest(): void {
           'acos(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_acos_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(0.5);
         let result: float = Math.acos(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.acos(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_acos_0200', 'Math', 'acos',
-          'acos(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_acos_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'acos',
+          'acos(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_acosh_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -231,23 +233,24 @@ export default function MathPerfTest(): void {
           'acosh(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_acosh_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(2.0);
         let result: float = Math.acosh(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.acosh(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_acosh_0200', 'Math', 'acosh',
-          'acosh(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_acosh_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'acosh',
+          'acosh(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_asin_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -268,23 +271,24 @@ export default function MathPerfTest(): void {
           'asin(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_asin_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(0.5);
         let result: float = Math.asin(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.asin(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_asin_0200', 'Math', 'asin',
-          'asin(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_asin_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'asin',
+          'asin(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_asinh_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -305,23 +309,24 @@ export default function MathPerfTest(): void {
           'asinh(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_asinh_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(1.5);
         let result: float = Math.asinh(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.asinh(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_asinh_0200', 'Math', 'asinh',
-          'asinh(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_asinh_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'asinh',
+          'asinh(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_atan_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -342,23 +347,24 @@ export default function MathPerfTest(): void {
           'atan(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_atan_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(1.0);
         let result: float = Math.atan(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.atan(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_atan_0200', 'Math', 'atan',
-          'atan(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_atan_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'atan',
+          'atan(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_atan2_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -380,24 +386,25 @@ export default function MathPerfTest(): void {
           'atan2(y: double, x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_atan2_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let y: float = toFloatValue(1.0);
         let x: float = toFloatValue(2.0);
         let result: float = Math.atan2(y, x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.atan2(y, x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_atan2_0200', 'Math', 'atan2',
-          'atan2(y: float, x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_atan2_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'atan2',
+          'atan2(y: float, x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_atanh_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -418,23 +425,24 @@ export default function MathPerfTest(): void {
           'atanh(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_atanh_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(0.5);
         let result: float = Math.atanh(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.atanh(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_atanh_0200', 'Math', 'atanh',
-          'atanh(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_atanh_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'atanh',
+          'atanh(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_cbrt_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -455,23 +463,24 @@ export default function MathPerfTest(): void {
           'cbrt(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_cbrt_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(27.0);
         let result: float = Math.cbrt(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.cbrt(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_cbrt_0200', 'Math', 'cbrt',
-          'cbrt(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_cbrt_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'cbrt',
+          'cbrt(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_ceil_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -587,41 +596,43 @@ export default function MathPerfTest(): void {
           'cosh(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_cosh_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(1.0);
         let result: float = Math.cosh(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.cosh(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_cosh_0200', 'Math', 'cosh',
-          'cosh(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_cosh_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'cosh',
+          'cosh(x: float): float', arkTsAveragedTime);
       });
-    */
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_exp_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(1.0);
         let result: float = Math.exp(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.exp(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_exp_0100', 'Math', 'exp',
-          'exp(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_exp_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'exp',
+          'exp(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_exp_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -642,23 +653,24 @@ export default function MathPerfTest(): void {
           'exp(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_expm1_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(1.0);
         let result: float = Math.expm1(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.expm1(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_expm1_0100', 'Math', 'expm1',
-          'expm1(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_expm1_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'expm1',
+          'expm1(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_expm1_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -755,23 +767,24 @@ export default function MathPerfTest(): void {
           'imul(a: double, b: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_log_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(10.0);
         let result: float = Math.log(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.log(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_log_0100', 'Math', 'log',
-          'log(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_log_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'log',
+          'log(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_log_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -811,23 +824,24 @@ export default function MathPerfTest(): void {
           'log10(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_log10_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(100.0);
         let result: float = Math.log10(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.log10(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_log10_0200', 'Math', 'log10',
-          'log10(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_log10_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'log10',
+          'log10(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_log1p_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -848,23 +862,24 @@ export default function MathPerfTest(): void {
           'log1p(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_log1p_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(1.0);
         let result: float = Math.log1p(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.log1p(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_log1p_0200', 'Math', 'log1p',
-          'log1p(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_log1p_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'log1p',
+          'log1p(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_log2_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -885,23 +900,24 @@ export default function MathPerfTest(): void {
           'log2(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_log2_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(8.0);
         let result: float = Math.log2(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.log2(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_log2_0200', 'Math', 'log2',
-          'log2(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_log2_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'log2',
+          'log2(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_max_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -1167,23 +1183,24 @@ export default function MathPerfTest(): void {
           'sinh(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_sinh_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(1.0);
         let result: float = Math.sinh(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.sinh(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_sinh_0200', 'Math', 'sinh',
-          'sinh(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_sinh_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'sinh',
+          'sinh(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_sqrt_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -1242,23 +1259,24 @@ export default function MathPerfTest(): void {
           'tanh(x: double): double', arkTsAveragedTime);
       });
 
-    // 注释原因同上：float 重载被解析成 double 版本
-    /*
     it('PerformanceTest_Math_tanh_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let x: float = toFloatValue(1.0);
         let result: float = Math.tanh(x);
-        let sTime = new Date().getTime();
+        let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
           result = Math.tanh(x);
         }
 
-        let dTime = new Date().getTime() - sTime;
-        recordPerformance('PerformanceTest_Math_tanh_0200', 'Math', 'tanh',
-          'tanh(x: float): float', dTime);
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_tanh_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'tanh',
+          'tanh(x: float): float', arkTsAveragedTime);
       });
-    */
 
     it('PerformanceTest_Math_trunc_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -1277,6 +1295,150 @@ export default function MathPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'trunc',
           'trunc(x: double): double', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Math_PI_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: double = 0.0;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = Math.PI;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_PI_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'PI',
+          'static readonly PI: double', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Math_E_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: double = 0.0;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = Math.E;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_E_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'E',
+          'static readonly E: double', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Math_LN10_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: double = 0.0;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = Math.LN10;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_LN10_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'LN10',
+          'static readonly LN10: double', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Math_LN2_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: double = 0.0;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = Math.LN2;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_LN2_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'LN2',
+          'static readonly LN2: double', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Math_LOG2E_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: double = 0.0;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = Math.LOG2E;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_LOG2E_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'LOG2E',
+          'static readonly LOG2E: double', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Math_LOG10E_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: double = 0.0;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = Math.LOG10E;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_LOG10E_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'LOG10E',
+          'static readonly LOG10E: double', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Math_SQRT1_2_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: double = 0.0;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = Math.SQRT1_2;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_SQRT1_2_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'SQRT1_2',
+          'static readonly SQRT1_2: double', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_Math_SQRT2_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: double = 0.0;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = Math.SQRT2;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Math_SQRT2_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Math', 'SQRT2',
+          'static readonly SQRT2: double', arkTsAveragedTime);
       });
   });
 }
