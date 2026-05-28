@@ -14399,7 +14399,22 @@
             "bundle_name": [
                 "crypto_framework"
             ],
-            "build_targets": {}
+            "build_targets": {
+                "acts": [
+                    "test/xts/acts/security/ActsCryptoFrameworkNapiBasicTest:ActsCryptoFrameworkNapiBasicMainTest"
+                ]
+            }
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/CryptoArchitectureKit",
+            "bundle_name": [
+                "crypto_framework"
+            ],
+            "build_targets": {
+                "acts": [
+                    "test/xts/acts/security/ActsCryptoFrameworkNapiBasicTest:ActsCryptoFrameworkNapiBasicMainTest"
+                ]
+            }
         },
         {
             "path": "interface/sdk_c/DataProtectionKit",
