@@ -3934,6 +3934,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.usb.d.ts",
+            "bundle_name": [
+                "usb_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.applicationManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
