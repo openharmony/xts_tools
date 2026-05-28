@@ -50,6 +50,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.cloudSyncManager.d.ts",
+            "bundle_name": [
+                "dfs_service"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.cloudSync.d.ts",
+            "bundle_name": [
+                "dfs_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.components.SelectionContainer.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -724,6 +738,48 @@
             "path": "interface/sdk-js/api/@ohos.bluetooth.d.ts",
             "bundle_name": [
                 "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.annotation.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.base.d.ts",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.base.static.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.annotation.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.base.d.ts",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.base.static.d.ets",
+            "bundle_name": [
+                "sdk"
             ],
             "build_targets": {}
         },
@@ -2031,6 +2087,20 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.ExceptionPrompt.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ExceptionPromptV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ExceptionPromptV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -4025,7 +4095,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.usbManager.d.ts",
+            "bundle_name": [
+                "usb_manager"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.usbManager.serial.d.ts",
+            "bundle_name": [
+                "usb_manager"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.usbManager.serial.d.ts",
             "bundle_name": [
                 "usb_manager"
             ],
@@ -4844,6 +4928,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ComposeTitleBarV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ComposeTitleBarV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.secureElement.d.ts",
             "bundle_name": [
                 "secure_element"
@@ -5054,6 +5152,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ComposeListItemV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.ComposeListItemV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.graphics.displaySync.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -5174,6 +5286,20 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.SwipeRefresher.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SwipeRefresherV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.SwipeRefresherV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -6350,6 +6476,20 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.EditableTitleBar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.EditableTitleBarV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.EditableTitleBarV2.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -13963,6 +14103,13 @@
                 "typescript"
             ],
             "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.annotation.static.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {}
         }
     ],
     "sdk_c": [
@@ -14255,6 +14402,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/arkui/ace_engine/native",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.animator.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -14381,7 +14535,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/drivers/external_device_manager/base",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/drivers/external_device_manager/hid",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/drivers/external_device_manager/hid",
             "bundle_name": [
                 "external_device_manager"
             ],
@@ -14395,6 +14563,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/drivers/external_device_manager/scsi_peripheral",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/drivers/external_device_manager/usb_serial",
             "bundle_name": [
                 "external_device_manager"
@@ -14402,7 +14577,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/drivers/external_device_manager/usb_serial",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/drivers/external_device_manager/usb",
+            "bundle_name": [
+                "external_device_manager"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/drivers/external_device_manager/usb",
             "bundle_name": [
                 "external_device_manager"
             ],
@@ -14636,6 +14825,13 @@
             "path": "interface/sdk_c/network/netssl",
             "bundle_name": [
                 "netstack"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/network/netmanager_ext/net_ethernet",
+            "bundle_name": [
+                "netmanager_ext"
             ],
             "build_targets": {}
         },

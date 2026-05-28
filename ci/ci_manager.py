@@ -201,12 +201,21 @@ class WhitelistManager(Ci_Manager):
             config = subdirs.get(dir)
             self.get_targets_and_paths_by_cfg(config.get("suite_type"), config.get("add_bundle"), config.get("add_target"))
 
+    def _check_conflict_targets(self, suite_targets):
+        targets = set(suite_targets)
+        x_flags = {self.full_impact_flag, self.full_impact_flag_totally}
+        if set(x_flags) & targets and len(targets) != 1:
+            print(f'[ERROR] These flags are exclusive: {x_flags}, '
+                  f'when set, do make sure the flag is the only target in the configuration.')
+            sys.exit(1)
+
     def get_targets_and_paths_by_cfg(self, suite_type, add_bundle, add_target):
         if suite_type and not list(set(suite_type) & set(self._suite_type)):
             return
         targets = []
         suite_targets = add_target.get(self._suite_name) if add_target else None
         if suite_targets:
+            self._check_conflict_targets(suite_targets)
             if self.full_impact_flag in suite_targets:
                 targets = PathUtils.get_all_build_target(self._xts_root_dir, 0)
             elif self.full_impact_flag_totally in suite_targets:
@@ -250,19 +259,19 @@ class GetInterfaceData(Ci_Manager):
     def get_targets_from_change(self, change_list):
         for store in change_list:
             if store.path in MatchConfig.get_interface_path_list() and "hap_static" in self._suite_type:
-                self._build_targets.append("xts_{}".format(os.path.basename(self._xts_root_dir)))
+                self._build_targets = ["xts_{}".format(os.path.basename(self._xts_root_dir))]
                 return
 
         # 处理三个 interface 仓
         self.append_bundles_and_targets(change_list,
-                                       MatchConfig.get_interface_path_list()[0],
-                                       MatchConfig.get_interface_json_js_data())
+                                        MatchConfig.get_interface_path_list()[0],
+                                        MatchConfig.get_interface_json_js_data())
         self.append_bundles_and_targets(change_list,
-                                       MatchConfig.get_interface_path_list()[1],
-                                       MatchConfig.get_interface_json_c_data())
+                                        MatchConfig.get_interface_path_list()[1],
+                                        MatchConfig.get_interface_json_c_data())
         self.append_bundles_and_targets(change_list,
-                                       MatchConfig.get_interface_path_list()[2],
-                                       MatchConfig.get_interface_json_driver_interface_data())
+                                        MatchConfig.get_interface_path_list()[2],
+                                        MatchConfig.get_interface_json_driver_interface_data())
         self.append_extra_from_driver_interface(change_list, MatchConfig.get_interface_path_list()[2])
 
         # 筛选出未匹配路径
