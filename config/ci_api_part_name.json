@@ -12818,6 +12818,62 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.nearlink.advertising.d.ts",
+            "bundle_name": [
+                "nearlink_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.nearlink.cdsm.d.ts",
+            "bundle_name": [
+                "nearlink_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.nearlink.constant.d.ts",
+            "bundle_name": [
+                "nearlink_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.nearlink.dataTransfer.d.ts",
+            "bundle_name": [
+                "nearlink_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.nearlink.manager.d.ts",
+            "bundle_name": [
+                "nearlink_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.nearlink.remoteDevice.d.ts",
+            "bundle_name": [
+                "nearlink_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.nearlink.scan.d.ts",
+            "bundle_name": [
+                "nearlink_service"
+            ],
+            "build_targets": []
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.nearlink.ssap.d.ts",
+            "bundle_name": [
+                "nearlink_service"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/actionSheet.static.d.ets",
             "bundle_name": [
                 "ace_engine"
