@@ -54,8 +54,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getValueBoolean(jsVal);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getValueBoolean: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getValueBoolean',
         'static getValueBoolean(value: JSValue): boolean', arkTsAveragedTime);
@@ -69,8 +69,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getValueDouble(jsVal);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getValueDouble: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getValueDouble',
         'static getValueDouble(value: JSValue): double', arkTsAveragedTime);
@@ -84,8 +84,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getValueString(jsVal);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getValueString: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getValueString',
         'static getValueString(value: JSValue): String', arkTsAveragedTime);
@@ -101,8 +101,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getValueObject(jsVal, ClsObj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getValueObject: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getValueObject',
         'static getValueObject(value: Any, t: Class): Any', arkTsAveragedTime);
@@ -121,8 +121,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyBoolean(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyBoolean: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyBoolean',
         'static getPropertyBoolean(object: JSValue, name: String): boolean', arkTsAveragedTime);
@@ -137,8 +137,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyByte(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyByte: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyByte',
         'static getPropertyByte(object: JSValue, name: String): byte', arkTsAveragedTime);
@@ -153,8 +153,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyChar(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyChar: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyChar',
         'static getPropertyChar(object: JSValue, name: String): char', arkTsAveragedTime);
@@ -169,8 +169,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyShort(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyShort: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyShort',
         'static getPropertyShort(object: JSValue, name: String): short', arkTsAveragedTime);
@@ -185,8 +185,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyInt(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyInt: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyInt',
         'static getPropertyInt(object: JSValue, name: String): int', arkTsAveragedTime);
@@ -201,8 +201,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyLong(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyLong: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyLong',
         'static getPropertyLong(object: JSValue, name: String): long', arkTsAveragedTime);
@@ -217,8 +217,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyFloat(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyFloat: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyFloat',
         'static getPropertyFloat(object: JSValue, name: String): float', arkTsAveragedTime);
@@ -233,8 +233,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyDouble(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyDouble: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyDouble',
         'static getPropertyDouble(object: JSValue, name: String): double', arkTsAveragedTime);
@@ -249,8 +249,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyString(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyString: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyString',
         'static getPropertyString(object: JSValue, name: String): String', arkTsAveragedTime);
@@ -266,8 +266,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyJSValue(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyJSValue_String: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyJSValue',
         'static getPropertyJSValue(object: JSValue, name: String): JSValue', arkTsAveragedTime);
@@ -284,8 +284,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyJSValue(obj, jsKey);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyJSValue_Value: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyJSValue',
         'static getPropertyJSValue(object: JSValue, key: JSValue): JSValue', arkTsAveragedTime);
@@ -300,8 +300,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getPropertyObject(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getPropertyObject: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getPropertyObject',
         'static getPropertyObject(object: Any, name: String): Any', arkTsAveragedTime);
@@ -318,8 +318,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getUndefined();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getUndefined: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getUndefined',
         'static getUndefined(): JSValue', arkTsAveragedTime);
@@ -332,8 +332,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getNull();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getNull: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getNull',
         'static getNull(): JSValue', arkTsAveragedTime);
@@ -346,8 +346,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getGlobal();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getGlobal: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getGlobal',
         'static getGlobal(): JSValue', arkTsAveragedTime);
@@ -360,8 +360,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.createObject();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime createObject: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'createObject',
         'static createObject(): JSValue', arkTsAveragedTime);
@@ -374,8 +374,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.createArray();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime createArray: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'createArray',
         'static createArray(): Any', arkTsAveragedTime);
@@ -388,8 +388,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getNumSharedJSValues();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getNumSharedJSValues: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getNumSharedJSValues',
         'static getNumSharedJSValues(): int', arkTsAveragedTime);
@@ -428,8 +428,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.hasProperty(obj, "test");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime hasProperty: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'hasProperty',
         'static hasProperty(object: Any, name: String): boolean', arkTsAveragedTime);
@@ -445,8 +445,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.hasPropertyObject(obj, prop);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime hasPropertyObject: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'hasPropertyObject',
         'static hasPropertyObject(object: Any, property: Any): boolean', arkTsAveragedTime);
@@ -462,8 +462,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.hasElement(arr, 0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime hasElement: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'hasElement',
         'static hasElement(object: Any, index: int): boolean', arkTsAveragedTime);
@@ -479,8 +479,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.hasOwnProperty(obj, "ownKey");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime hasOwnProperty: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'hasOwnProperty',
         'static hasOwnProperty(object: Any, name: String): boolean', arkTsAveragedTime);
@@ -496,8 +496,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.hasOwnPropertyJSValue(obj, prop);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime hasOwnPropertyJSValue: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'hasOwnPropertyJSValue',
         'static hasOwnPropertyJSValue(object: Any, property: Any): boolean', arkTsAveragedTime);
@@ -513,8 +513,8 @@ export default function JSRuntimePerfTest01(): void {
         result = JSRuntime.getProperty(obj, key);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest JSRuntime getProperty: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'getProperty',
         'static getProperty(object: Any, property: Any): Any', arkTsAveragedTime);

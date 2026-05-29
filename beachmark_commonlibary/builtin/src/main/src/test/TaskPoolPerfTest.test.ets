@@ -57,8 +57,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.Task("testTask", simpleFunc);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'constructor',
         'constructor(name: string, func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
@@ -71,8 +71,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.Task(simpleFunc);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'constructor',
         'constructor(func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
@@ -86,8 +86,8 @@ export default function TaskPoolPerfTest():void {
         task.onEnqueued(() => {});
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = task;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = task;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onEnqueued',
         'onEnqueued(callback: CallbackFunction): void', arkTsAveragedTime);
@@ -101,8 +101,8 @@ export default function TaskPoolPerfTest():void {
         task.onStartExecution(() => {});
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = task;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = task;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onStartExecution',
         'onStartExecution(callback: CallbackFunction): void', arkTsAveragedTime);
@@ -117,8 +117,8 @@ export default function TaskPoolPerfTest():void {
         task.onExecutionFailed((e: Error) => {});
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = task;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = task;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onExecutionFailed',
         'onExecutionFailed(callback: CallbackFunctionWithError): void', arkTsAveragedTime);
@@ -132,8 +132,8 @@ export default function TaskPoolPerfTest():void {
         task.onExecutionSucceeded(() => {});
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = task;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = task;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onExecutionSucceeded',
         'onExecutionSucceeded(callback: CallbackFunction): void', arkTsAveragedTime);
@@ -147,8 +147,8 @@ export default function TaskPoolPerfTest():void {
         task.onReceiveData(() => {});
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = task;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = task;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onReceiveData',
         'onReceiveData(callback?: Function): void', arkTsAveragedTime);
@@ -162,8 +162,8 @@ export default function TaskPoolPerfTest():void {
         res = task.isDone();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'isDone',
         'isDone(): boolean', arkTsAveragedTime);
@@ -178,8 +178,8 @@ export default function TaskPoolPerfTest():void {
         task1.addDependency(task2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = task1;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = task1;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'addDependency',
         'addDependency(...tasks: Task[]): void', arkTsAveragedTime);
@@ -192,8 +192,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.LongTask("longTask", simpleFunc);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongTask_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'LongTask', 'constructor',
         'constructor(name: string, func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
@@ -206,8 +206,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.LongTask(simpleFunc);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongTask_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'LongTask', 'constructor',
         'constructor(func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
@@ -220,8 +220,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.TaskGroup();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskGroup', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -234,8 +234,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.TaskGroup("groupTest");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskGroup', 'constructor',
         'constructor(name: string)', arkTsAveragedTime);
@@ -249,8 +249,8 @@ export default function TaskPoolPerfTest():void {
         group.addTask(simpleFunc);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = group;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = group;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskGroup', 'addTask',
         'addTask(func: Function, ...args: FixedArray<Any>): void', arkTsAveragedTime);
@@ -265,8 +265,8 @@ export default function TaskPoolPerfTest():void {
         group.addTask(task);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = group;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = group;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Instance_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskGroup', 'addTask',
         'addTask(task: Task): void', arkTsAveragedTime);
@@ -279,8 +279,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.SequenceRunner();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SequenceRunner_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'SequenceRunner', 'constructor',
         'constructor(priority?: Priority)', arkTsAveragedTime);
@@ -293,8 +293,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.SequenceRunner("seqRunner");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SequenceRunner_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'SequenceRunner', 'constructor',
         'constructor(name: string, priority?: Priority)', arkTsAveragedTime);
@@ -307,8 +307,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.AsyncRunner(4);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncRunner_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncRunner', 'constructor',
         'constructor(runningCapacity: int, waitingCapacity?: int)', arkTsAveragedTime);
@@ -321,8 +321,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.AsyncRunner("asyncRunner", 4);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncRunner_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncRunner', 'constructor',
         'constructor(name: string | undefined, runningCapacity: int, waitingCapacity?: int)', arkTsAveragedTime);
@@ -335,8 +335,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.TaskInfo();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskInfo_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskInfo', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -349,8 +349,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.ThreadInfo();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ThreadInfo_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'ThreadInfo', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -363,8 +363,8 @@ export default function TaskPoolPerfTest():void {
         res = new taskpool.TaskPoolInfo();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPoolInfo_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskPoolInfo', 'constructor',
         'constructor()', arkTsAveragedTime);

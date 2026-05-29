@@ -55,8 +55,8 @@ export default function ESValuePerfTest(): void {
         res = new ESValue(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -74,8 +74,8 @@ export default function ESValuePerfTest(): void {
         res = new ESValue(i, false);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -94,8 +94,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.Undefined;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_GetUndefined_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -113,8 +113,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.Null;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_GetNull_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -133,8 +133,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrapBoolean(true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrapBoolean_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -152,8 +152,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrapString('test');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrapString_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -171,8 +171,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrapNumber(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrapNumber_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -190,8 +190,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrapBigInt(1n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrapBigInt_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -209,8 +209,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrapByte(1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrapByte_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -228,8 +228,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrapShort(1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrapShort_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -247,8 +247,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrapInt(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrapInt_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -266,8 +266,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrapLong(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrapLong_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -285,8 +285,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrapLongLossy(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrapLongLossy_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -304,8 +304,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrapFloat(1.0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrapFloat_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -323,8 +323,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrapDouble(1.0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrapDouble_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -342,8 +342,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.wrap(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_wrap_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -365,8 +365,8 @@ export default function ESValuePerfTest(): void {
         res = ev.unwrap();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_unwrap_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -385,8 +385,8 @@ export default function ESValuePerfTest(): void {
         res = ev.isBoolean();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isBoolean_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -405,8 +405,8 @@ export default function ESValuePerfTest(): void {
         res = ev.isString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isString_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -425,8 +425,8 @@ export default function ESValuePerfTest(): void {
         res = ev.isNumber();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isNumber_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -445,8 +445,8 @@ export default function ESValuePerfTest(): void {
         res = ev.isBigInt();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isBigInt_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -465,8 +465,8 @@ export default function ESValuePerfTest(): void {
         res = ev.isUndefined();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isUndefined_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -485,8 +485,8 @@ export default function ESValuePerfTest(): void {
         res = ev.isNull();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isNull_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -505,8 +505,8 @@ export default function ESValuePerfTest(): void {
         res = ev.isStaticObject();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isStaticObject_2400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -525,8 +525,8 @@ export default function ESValuePerfTest(): void {
         res = ev.isECMAObject();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isECMAObject_2500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -545,8 +545,8 @@ export default function ESValuePerfTest(): void {
         res = ev.isObject();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isObject_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -565,8 +565,8 @@ export default function ESValuePerfTest(): void {
         res = ev.isFunction();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isFunction_2700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -588,8 +588,8 @@ export default function ESValuePerfTest(): void {
         res = ev.toBoolean();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_toBoolean_2800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -608,8 +608,8 @@ export default function ESValuePerfTest(): void {
         res = ev.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_toString_2900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -628,8 +628,8 @@ export default function ESValuePerfTest(): void {
         res = ev.toNumber();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_toNumber_3000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -648,8 +648,8 @@ export default function ESValuePerfTest(): void {
         res = ev.toBigInt();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_toBigInt_3100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -668,8 +668,8 @@ export default function ESValuePerfTest(): void {
         res = ev.toUndefined();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_toUndefined_3200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -688,8 +688,8 @@ export default function ESValuePerfTest(): void {
         res = ev.toNull();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_toNull_3300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -708,8 +708,8 @@ export default function ESValuePerfTest(): void {
         res = ev.toStaticObject();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_toStaticObject_3400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -729,8 +729,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.areEqual(ev1, ev2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_areEqual_3500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -750,8 +750,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.areStrictlyEqual(ev1, ev2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_areStrictlyEqual_3600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -771,8 +771,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.areEqualSafe(ev1, ev2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_areEqualSafe_3700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -792,8 +792,8 @@ export default function ESValuePerfTest(): void {
         res = ev1.isEqualTo(ev2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isEqualTo_3800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -813,8 +813,8 @@ export default function ESValuePerfTest(): void {
         res = ev1.isStrictlyEqualTo(ev2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isStrictlyEqualTo_3900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -834,8 +834,8 @@ export default function ESValuePerfTest(): void {
         res = ev1.isEqualToSafe(ev2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isEqualToSafe_4000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -875,8 +875,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.instantiateEmptyObject();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_instantiateEmptyObject_4200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -894,8 +894,8 @@ export default function ESValuePerfTest(): void {
         res = ESValue.instantiateEmptyArray();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_instantiateEmptyArray_4300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -914,8 +914,8 @@ export default function ESValuePerfTest(): void {
         res = func.invoke();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_invoke_4400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -935,8 +935,8 @@ export default function ESValuePerfTest(): void {
         res = pushFunc.invokeWithRecv(arr, i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_invokeWithRecv_4500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -977,8 +977,8 @@ export default function ESValuePerfTest(): void {
         res = obj.getProperty("testKey");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_getProperty_str_4700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -997,8 +997,8 @@ export default function ESValuePerfTest(): void {
         res = arr.getProperty(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_getProperty_num_4800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1018,8 +1018,8 @@ export default function ESValuePerfTest(): void {
         res = obj.getProperty(prop);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_getProperty_esv_4900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1038,8 +1038,8 @@ export default function ESValuePerfTest(): void {
         res = obj.getPropertySafe("testKey");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_getPropertySafe_str_5000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1058,8 +1058,8 @@ export default function ESValuePerfTest(): void {
         res = arr.getPropertySafe(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_getPropertySafe_num_5100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1079,8 +1079,8 @@ export default function ESValuePerfTest(): void {
         res = obj.getPropertySafe(prop);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_getPropertySafe_esv_5200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1098,8 +1098,8 @@ export default function ESValuePerfTest(): void {
         obj.setProperty("key", i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = obj;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = obj;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_setProperty_str_5300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1117,8 +1117,8 @@ export default function ESValuePerfTest(): void {
         arr.setProperty(0, i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_setProperty_num_5400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1137,8 +1137,8 @@ export default function ESValuePerfTest(): void {
         obj.setProperty(prop, i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = obj;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = obj;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_setProperty_esv_5500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1158,8 +1158,8 @@ export default function ESValuePerfTest(): void {
         res = obj.hasProperty(prop);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_hasProperty_esv_5600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1178,8 +1178,8 @@ export default function ESValuePerfTest(): void {
         res = obj.hasProperty("key");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_hasProperty_str_5700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1199,8 +1199,8 @@ export default function ESValuePerfTest(): void {
         res = obj.hasOwnProperty(prop);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_hasOwnProperty_esv_5800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1219,8 +1219,8 @@ export default function ESValuePerfTest(): void {
         res = obj.hasOwnProperty("key");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_hasOwnProperty_str_5900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1242,8 +1242,8 @@ export default function ESValuePerfTest(): void {
         res = obj.keys();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_keys_6000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1262,8 +1262,8 @@ export default function ESValuePerfTest(): void {
         res = obj.values();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_values_6100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1282,8 +1282,8 @@ export default function ESValuePerfTest(): void {
         res = obj.entries();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_entries_6200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1302,8 +1302,8 @@ export default function ESValuePerfTest(): void {
         res = obj.$_iterator();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_$_iterator_6300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1322,8 +1322,8 @@ export default function ESValuePerfTest(): void {
         res = obj.iterator();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_iterator_6400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1343,8 +1343,8 @@ export default function ESValuePerfTest(): void {
         res = obj.instanceOf(jsClass);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_instanceOf_6500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1363,8 +1363,8 @@ export default function ESValuePerfTest(): void {
         res = obj.typeOf();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_typeOf_6600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1423,8 +1423,8 @@ export default function ESValuePerfTest(): void {
         res = obj.isPromise();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValue_isPromise_6900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1465,8 +1465,8 @@ export default function ESValuePerfTest(): void {
         res = arr.$_iterator();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValueIterator_constructor_7100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1490,8 +1490,8 @@ export default function ESValuePerfTest(): void {
         res = iter.next();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValueIterator_next_7200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1511,8 +1511,8 @@ export default function ESValuePerfTest(): void {
         res = iter.$_iterator();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValueIterator_$_iterator_7300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1532,8 +1532,8 @@ export default function ESValuePerfTest(): void {
         res = arr.entries();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValueEntriesIterator_constructor_7400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1557,8 +1557,8 @@ export default function ESValuePerfTest(): void {
         res = iter.next();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValueEntriesIterator_next_7500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',
@@ -1578,8 +1578,8 @@ export default function ESValuePerfTest(): void {
         res = iter.$_iterator();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESValueEntriesIterator_$_iterator_7600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',

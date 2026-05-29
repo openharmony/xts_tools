@@ -65,8 +65,8 @@ export default function ReflectFieldPerfTest(): void {
         res = field!.isReadonly();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectField_isReadonly_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Field', 'isReadonly',
         'isReadonly(): boolean', arkTsAveragedTime);
@@ -81,8 +81,8 @@ export default function ReflectFieldPerfTest(): void {
         res = field!.isPublic();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectField_isPublic_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Field', 'isPublic',
         'isPublic(): boolean', arkTsAveragedTime);
@@ -97,8 +97,8 @@ export default function ReflectFieldPerfTest(): void {
         res = field!.isPrivate();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectField_isPrivate_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Field', 'isPrivate',
         'isPrivate(): boolean', arkTsAveragedTime);
@@ -113,8 +113,8 @@ export default function ReflectFieldPerfTest(): void {
         res = field!.isProtected();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectField_isProtected_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Field', 'isProtected',
         'isProtected(): boolean', arkTsAveragedTime);
@@ -129,8 +129,8 @@ export default function ReflectFieldPerfTest(): void {
         res = field!.getType();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectField_getType_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Field', 'getType',
         'getType(): Class', arkTsAveragedTime);
@@ -145,8 +145,8 @@ export default function ReflectFieldPerfTest(): void {
         res = field!.getOwner();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectField_getOwner_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Field', 'getOwner',
         'getOwner(): Class', arkTsAveragedTime);
@@ -161,8 +161,8 @@ export default function ReflectFieldPerfTest(): void {
         res = field!.getName();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectField_getName_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Field', 'getName',
         'getName(): string', arkTsAveragedTime);

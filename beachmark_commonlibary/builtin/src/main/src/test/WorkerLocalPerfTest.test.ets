@@ -53,8 +53,8 @@ export default function WorkerLocalPerfTest():void {
         res = new WorkerLocal<int>();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -68,8 +68,8 @@ export default function WorkerLocalPerfTest():void {
         res = new WorkerLocal<int>(initFn);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'constructor',
         'constructor(init: () => T)', arkTsAveragedTime);
@@ -84,8 +84,8 @@ export default function WorkerLocalPerfTest():void {
         res = workerLocal.get();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'get',
         'get(): T', arkTsAveragedTime);
@@ -99,8 +99,8 @@ export default function WorkerLocalPerfTest():void {
         res = workerLocal.get();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Instance_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'get',
         'get(): T (with init)', arkTsAveragedTime);
@@ -114,8 +114,8 @@ export default function WorkerLocalPerfTest():void {
         res = workerLocal.set(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Instance_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'set',
         'set(value: T): void', arkTsAveragedTime);

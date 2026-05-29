@@ -54,8 +54,8 @@ export default function AsyncCondVarBasedMutexPerfTest(): void {
         res = new concurrency.stackless.AsyncCondVarBasedMutex();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncCondVarBasedMutex_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncCondVarBasedMutex', 'constructor',
         'constructor()', arkTsAveragedTime);

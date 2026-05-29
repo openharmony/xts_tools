@@ -55,8 +55,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         queue = new containers.ArrayBlockingQueue<String>(10);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = queue;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = queue;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'constructor', 'constructor(capacity: int)', arkTsAveragedTime);
     })
@@ -71,8 +71,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         queue = new containers.ArrayBlockingQueue<String>(10, list);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = queue;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = queue;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'constructor', 'constructor(capacity: int, iterable: Iterable<T>)', arkTsAveragedTime);
     })
@@ -90,8 +90,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         queue.push(vals[i]);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = queue;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = queue;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Push_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'push', 'push(el: T): void', arkTsAveragedTime);
     })
@@ -108,8 +108,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         res = queue.pop();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Pop_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'pop', 'pop(): T', arkTsAveragedTime);
     })
@@ -127,8 +127,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         res = queue.add(vals[i]);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Add_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'add', 'add(element: T): boolean', arkTsAveragedTime);
     })
@@ -146,8 +146,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         res = queue.poll();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Poll_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'poll', 'poll(): T | undefined', arkTsAveragedTime);
     })
@@ -162,8 +162,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         res = queue.getFirst();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_GetFirst_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'getFirst', 'getFirst(): T | undefined', arkTsAveragedTime);
     })
@@ -178,8 +178,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         res = queue.getEnd();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_GetEnd_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'getEnd', 'getEnd(): T | undefined', arkTsAveragedTime);
     })
@@ -193,8 +193,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         res = queue.size;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Size_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'size', 'get size(): int', arkTsAveragedTime);
     })
@@ -208,8 +208,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         res = queue.isEmpty();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_IsEmpty_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'isEmpty', 'isEmpty(): boolean', arkTsAveragedTime);
     })
@@ -223,8 +223,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         res = queue.capacity;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Capacity_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'capacity', 'get capacity(): int', arkTsAveragedTime);
     })
@@ -238,8 +238,8 @@ export default function ArrayBlockingQueuePerfTest(): void {
         res = queue.remainingCapacity();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_RemainingCapacity_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayBlockingQueue', 'remainingCapacity', 'remainingCapacity(): int', arkTsAveragedTime);
     })

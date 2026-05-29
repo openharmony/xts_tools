@@ -53,8 +53,8 @@ export default function GlobalPerfTest(): void {
         res = parseInt("123");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'parseInt',
         'parseInt(s: String): number', arkTsAveragedTime);
@@ -67,8 +67,8 @@ export default function GlobalPerfTest(): void {
         res = parseInt("123", 16);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'parseInt_radix',
         'parseInt(s: String, radix: int): number', arkTsAveragedTime);
@@ -81,8 +81,8 @@ export default function GlobalPerfTest(): void {
         res = parseFloat("3.14");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'parseFloat',
         'parseFloat(s: String): number', arkTsAveragedTime);
@@ -95,8 +95,8 @@ export default function GlobalPerfTest(): void {
         res = isNaN(3.14);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isNaN',
         'isNaN(d: number): boolean', arkTsAveragedTime);
@@ -109,8 +109,8 @@ export default function GlobalPerfTest(): void {
         res = isNaN(Float.NaN);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isNaN_float',
         'isNaN(f: float): boolean', arkTsAveragedTime);
@@ -123,8 +123,8 @@ export default function GlobalPerfTest(): void {
         res = isFinite(3.14);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isFinite',
         'isFinite(d: number): boolean', arkTsAveragedTime);
@@ -137,8 +137,8 @@ export default function GlobalPerfTest(): void {
         res = isFinite(3.14f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isFinite_float',
         'isFinite(f: float): boolean', arkTsAveragedTime);
@@ -151,8 +151,8 @@ export default function GlobalPerfTest(): void {
         res = isInteger(42);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isInteger',
         'isInteger(v: number): boolean', arkTsAveragedTime);
@@ -165,8 +165,8 @@ export default function GlobalPerfTest(): void {
         res = parseInt("123", 16.0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'parseInt_radix_number',
         'parseInt(s: String, radix: number): number', arkTsAveragedTime);
@@ -179,8 +179,8 @@ export default function GlobalPerfTest(): void {
         res = isSafeInteger(42);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isSafeInteger',
         'isSafeInteger(v: number): boolean', arkTsAveragedTime);
@@ -194,8 +194,8 @@ export default function GlobalPerfTest(): void {
         res = isSafeInteger(longValue);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isSafeInteger_long',
         'isSafeInteger(v: long): boolean', arkTsAveragedTime);
@@ -208,8 +208,8 @@ export default function GlobalPerfTest(): void {
         res = isSafeInteger(42 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isSafeInteger_int',
         'isSafeInteger(v: int): boolean', arkTsAveragedTime);
@@ -222,8 +222,8 @@ export default function GlobalPerfTest(): void {
         res = isSafeInteger(42.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isSafeInteger_float',
         'isSafeInteger(v: float): boolean', arkTsAveragedTime);
@@ -260,8 +260,8 @@ export default function GlobalPerfTest(): void {
         clearTimeout(timerIdList[i]);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = timerIdList.length;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = timerIdList.length;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'clearTimeout',
         'clearTimeout(timerId?: int | null): void', arkTsAveragedTime);
@@ -276,8 +276,8 @@ export default function GlobalPerfTest(): void {
         timerIdList[i] = setInterval(func, 0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = timerIdList.length;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = timerIdList.length;
       for (let i = 0; i < timerIdList.length; i++) {
         clearInterval(timerIdList[i]);
       }
@@ -298,8 +298,8 @@ export default function GlobalPerfTest(): void {
         clearInterval(timerIdList[i]);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = timerIdList.length;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = timerIdList.length;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'clearInterval',
         'clearInterval(timerId?: int | null): void', arkTsAveragedTime);

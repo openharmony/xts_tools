@@ -138,8 +138,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple0();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple0_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple0', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -153,8 +153,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple0_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple0', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -168,8 +168,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple0_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple0', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -183,8 +183,8 @@ export default function TuplePerfTest(): void {
         result = value.$_iterator();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple0_$_iterator_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple0', '$_iterator',
         '$_iterator(): IterableIterator<Any>', arkTsAveragedTime);
@@ -197,8 +197,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple1<int>(1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple1_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple1', 'constructor',
         'constructor(p0: T0)', arkTsAveragedTime);
@@ -212,8 +212,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple1_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple1', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -227,8 +227,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple1_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple1', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -242,8 +242,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple1_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple1', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -256,8 +256,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple2<int, int>(1, 2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple2_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple2', 'constructor',
         'constructor(p0: T0, p1: T1)', arkTsAveragedTime);
@@ -271,8 +271,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple2_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple2', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -286,8 +286,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple2_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple2', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -301,8 +301,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple2_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple2', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -315,8 +315,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple3<int, int, int>(1, 2, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple3_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple3', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2)', arkTsAveragedTime);
@@ -330,8 +330,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple3_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple3', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -345,8 +345,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple3_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple3', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -360,8 +360,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple3_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple3', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -374,8 +374,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple4<int, int, int, int>(1, 2, 3, 4);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple4_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple4', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3)', arkTsAveragedTime);
@@ -389,8 +389,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple4_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple4', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -404,8 +404,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple4_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple4', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -419,8 +419,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple4_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple4', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -433,8 +433,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple5<int, int, int, int, int>(1, 2, 3, 4, 5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple5_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple5', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4)', arkTsAveragedTime);
@@ -448,8 +448,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple5_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple5', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -463,8 +463,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple5_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple5', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -478,8 +478,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(4);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple5_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple5', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -492,8 +492,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple6<int, int, int, int, int, int>(1, 2, 3, 4, 5, 6);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple6_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple6', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4, p5: T5)', arkTsAveragedTime);
@@ -507,8 +507,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple6_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple6', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -522,8 +522,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple6_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple6', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -537,8 +537,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple6_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple6', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -551,8 +551,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple7<int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple7_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple7', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4, p5: T5, p6: T6)', arkTsAveragedTime);
@@ -566,8 +566,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple7_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple7', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -581,8 +581,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple7_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple7', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -596,8 +596,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(6);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple7_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple7', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -610,8 +610,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple8<int, int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7, 8);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple8_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple8', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4, p5: T5, p6: T6, p7: T7)', arkTsAveragedTime);
@@ -625,8 +625,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple8_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple8', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -640,8 +640,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple8_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple8', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -655,8 +655,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(7);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple8_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple8', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -669,8 +669,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple9<int, int, int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7, 8, 9);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple9_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple9', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4, p5: T5, p6: T6, p7: T7, p8: T8)', arkTsAveragedTime);
@@ -684,8 +684,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple9_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple9', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -699,8 +699,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple9_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple9', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -714,8 +714,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(8);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple9_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple9', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -728,8 +728,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple10<int, int, int, int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple10_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple10', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4, p5: T5, p6: T6, p7: T7, p8: T8, p9: T9)', arkTsAveragedTime);
@@ -743,8 +743,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple10_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple10', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -758,8 +758,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple10_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple10', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -773,8 +773,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(9);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple10_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple10', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -787,8 +787,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple11<int, int, int, int, int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple11_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple11', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4, p5: T5, p6: T6, p7: T7, p8: T8, p9: T9, p10: T10)', arkTsAveragedTime);
@@ -802,8 +802,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple11_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple11', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -817,8 +817,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple11_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple11', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -832,8 +832,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(10);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple11_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple11', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -846,8 +846,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple12<int, int, int, int, int, int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple12_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple12', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4, p5: T5, p6: T6, p7: T7, p8: T8, p9: T9, p10: T10, p11: T11)', arkTsAveragedTime);
@@ -861,8 +861,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple12_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple12', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -876,8 +876,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple12_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple12', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -891,8 +891,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(11);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple12_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple12', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -905,8 +905,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple13<int, int, int, int, int, int, int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple13_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple13', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4, p5: T5, p6: T6, p7: T7, p8: T8, p9: T9, p10: T10, p11: T11, p12: T12)', arkTsAveragedTime);
@@ -920,8 +920,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple13_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple13', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -935,8 +935,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple13_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple13', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -950,8 +950,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(12);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple13_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple13', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -964,8 +964,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple14<int, int, int, int, int, int, int, int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple14_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple14', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4, p5: T5, p6: T6, p7: T7, p8: T8, p9: T9, p10: T10, p11: T11, p12: T12, p13: T13)', arkTsAveragedTime);
@@ -979,8 +979,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple14_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple14', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -994,8 +994,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple14_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple14', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -1009,8 +1009,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(13);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple14_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple14', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -1023,8 +1023,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple15<int, int, int, int, int, int, int, int, int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple15_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple15', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4, p5: T5, p6: T6, p7: T7, p8: T8, p9: T9, p10: T10, p11: T11, p12: T12, p13: T13, p14: T14)', arkTsAveragedTime);
@@ -1038,8 +1038,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple15_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple15', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -1053,8 +1053,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple15_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple15', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -1068,8 +1068,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(14);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple15_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple15', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -1082,8 +1082,8 @@ export default function TuplePerfTest(): void {
         result = new Tuple16<int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple16_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple16', 'constructor',
         'constructor(p0: T0, p1: T1, p2: T2, p3: T3, p4: T4, p5: T5, p6: T6, p7: T7, p8: T8, p9: T9, p10: T10, p11: T11, p12: T12, p13: T13, p14: T14, p15: T15)', arkTsAveragedTime);
@@ -1097,8 +1097,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple16_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple16', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -1112,8 +1112,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple16_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple16', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -1127,8 +1127,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(15);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Tuple16_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Tuple16', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);
@@ -1142,8 +1142,8 @@ export default function TuplePerfTest(): void {
         result = new TupleN<int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, rest);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TupleN_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'TupleN', 'constructor',
         'constructor(p0: T0, ..., p15: T15, p: Any[])', arkTsAveragedTime);
@@ -1157,8 +1157,8 @@ export default function TuplePerfTest(): void {
         result = value.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TupleN_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'TupleN', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -1172,8 +1172,8 @@ export default function TuplePerfTest(): void {
         result = value.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TupleN_length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'TupleN', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -1187,8 +1187,8 @@ export default function TuplePerfTest(): void {
         result = value.unsafeGet(16);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TupleN_unsafeGet_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'TupleN', 'unsafeGet',
         'unsafeGet(index: int): Any', arkTsAveragedTime);

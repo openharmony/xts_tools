@@ -51,8 +51,8 @@ export default function EitherPerfTest(): void {
         res = Left.$_invoke<int, int>(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Left_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Left', '$_invoke',
         'static $_invoke<L, R>(data: L): Left<L, R>', arkTsAveragedTime);
@@ -66,8 +66,8 @@ export default function EitherPerfTest(): void {
         res = Right.$_invoke<int, int>(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Right_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Right', '$_invoke',
         'static $_invoke<L, R>(data: R): Right<L, R>', arkTsAveragedTime);
@@ -82,8 +82,8 @@ export default function EitherPerfTest(): void {
         res = leftVal.isLeft();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Either_Method_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Either', 'isLeft',
         'final isLeft(): boolean', arkTsAveragedTime);
@@ -98,8 +98,8 @@ export default function EitherPerfTest(): void {
         res = rightVal.isRight();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Either_Method_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Either', 'isRight',
         'final isRight(): boolean', arkTsAveragedTime);
@@ -114,8 +114,8 @@ export default function EitherPerfTest(): void {
         res = leftVal.left;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Either_Getter_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Either', 'left',
         'final get left(): L', arkTsAveragedTime);
@@ -130,8 +130,8 @@ export default function EitherPerfTest(): void {
         res = rightVal.right;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Either_Getter_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Either', 'right',
         'final get right(): R', arkTsAveragedTime);

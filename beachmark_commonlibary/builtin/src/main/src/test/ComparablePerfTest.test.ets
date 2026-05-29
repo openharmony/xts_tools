@@ -87,8 +87,8 @@ export default function ComparablePerfTest(): void {
         res = p1.compareTo(p2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Comparable_CompareTo_LessThan_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Comparable', 'compareTo',
         'compareTo(to: T): int (less than)', arkTsAveragedTime);

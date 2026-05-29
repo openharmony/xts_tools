@@ -53,8 +53,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         arr = new containers.UndefinableStringArray();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -67,8 +67,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         arr = new containers.UndefinableStringArray(10 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'constructor',
         'constructor(capacity: int)', arkTsAveragedTime);
@@ -82,8 +82,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         arr = new containers.UndefinableStringArray(10 as int, val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'constructor',
         'constructor(capacity: int, val: UndefinableString)', arkTsAveragedTime);
@@ -96,8 +96,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         arr.reserve(100 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Reserve_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'reserve',
         'reserve(capacity: int): void', arkTsAveragedTime);
@@ -112,8 +112,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         res = arr.toArray();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_ToArray_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'toArray',
         'toArray(): String[]', arkTsAveragedTime);
@@ -128,8 +128,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         res = arr.toFixedArray();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_ToFixedArray_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'toFixedArray',
         'toFixedArray(): FixedArray<String>', arkTsAveragedTime);
@@ -144,8 +144,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         res = arr.toUndefinableArray();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_ToUndefinableArray_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'toUndefinableArray',
         'toUndefinableArray(): (String | undefined)[]', arkTsAveragedTime);
@@ -159,8 +159,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         arr.pushBack(val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_PushBack_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'pushBack',
         'pushBack(e: UndefinableString): void', arkTsAveragedTime);
@@ -178,8 +178,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         res = arr.popBack();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_PopBack_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'popBack',
         'popBack(): UndefinableString', arkTsAveragedTime);
@@ -194,8 +194,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         res = arr.size();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Size_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'size',
         'size(): int', arkTsAveragedTime);
@@ -210,8 +210,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         res = arr.at(0 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_At_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'at',
         'at(index: int): UndefinableString', arkTsAveragedTime);
@@ -226,8 +226,8 @@ export default function UndefinableStringArrayPerfTest(): void {
         arr.set(0 as int, val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = arr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Set_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableStringArray', 'set',
         'set(index: int, e: UndefinableString): void', arkTsAveragedTime);

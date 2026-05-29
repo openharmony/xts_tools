@@ -64,8 +64,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<String>(null);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -79,8 +79,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<String>(undefined);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -95,8 +95,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<String>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -111,8 +111,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Boolean>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -127,8 +127,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Number>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -143,8 +143,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<int>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -159,8 +159,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<long>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -175,8 +175,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<double>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -196,8 +196,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Array<number>>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -215,8 +215,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Set<number>>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -234,8 +234,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Map<string, number>>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -253,8 +253,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Array<number>>(src, -1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -271,8 +271,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Array<number>>(src, 0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -289,8 +289,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Array<number>>(src, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -305,8 +305,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Date>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -323,8 +323,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Byte>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -339,8 +339,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Char>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -355,8 +355,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Short>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -371,8 +371,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<Float>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);
@@ -389,8 +389,8 @@ export default function DeepCopyPerfTest():void {
         res = deepcopy<CloneableImpl>(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DeepCopy_Static_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DeepCopy', 'deepcopy',
         'function deepcopy<T>(src: T | null | undefined, depth?: int = -1): T | null | undefined', arkTsAveragedTime);

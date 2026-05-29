@@ -55,8 +55,8 @@ export default function AsyncArrayConcurrentQueuePerfTest(): void {
         res = new containers.stackless.ArrayConcurrentQueue<Int>(100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncArrayConcurrentQueue_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayConcurrentQueue', 'constructor',
         'constructor(capacity: int)', arkTsAveragedTime);
@@ -72,8 +72,8 @@ export default function AsyncArrayConcurrentQueuePerfTest(): void {
         res = new containers.stackless.ArrayConcurrentQueue<Int>(100, arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncArrayConcurrentQueue_ConstructorIterable_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayConcurrentQueue', 'constructor',
         'constructor(capacity: int, iterable: Iterable<T>)', arkTsAveragedTime);
@@ -126,8 +126,8 @@ export default function AsyncArrayConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.add(vals[i]); }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncArrayConcurrentQueue_Add_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayConcurrentQueue', 'add',
         'add(element: T): boolean', arkTsAveragedTime);
@@ -141,8 +141,8 @@ export default function AsyncArrayConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.poll(); }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncArrayConcurrentQueue_Poll_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayConcurrentQueue', 'poll',
         'poll(): T | undefined', arkTsAveragedTime);
@@ -158,8 +158,8 @@ export default function AsyncArrayConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.getFirst(); }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncArrayConcurrentQueue_GetFirst_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayConcurrentQueue', 'getFirst',
         'getFirst(): T | undefined', arkTsAveragedTime);
@@ -172,8 +172,8 @@ export default function AsyncArrayConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.getEnd(); }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncArrayConcurrentQueue_GetEnd_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayConcurrentQueue', 'getEnd',
         'getEnd(): T | undefined', arkTsAveragedTime);
@@ -185,8 +185,8 @@ export default function AsyncArrayConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.isEmpty(); }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncArrayConcurrentQueue_IsEmpty_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayConcurrentQueue', 'isEmpty',
         'isEmpty(): boolean', arkTsAveragedTime);
@@ -199,8 +199,8 @@ export default function AsyncArrayConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.size; }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncArrayConcurrentQueue_Size_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayConcurrentQueue', 'size',
         'get size(): int', arkTsAveragedTime);
@@ -212,8 +212,8 @@ export default function AsyncArrayConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.capacity; }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncArrayConcurrentQueue_Capacity_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayConcurrentQueue', 'capacity',
         'get capacity(): int', arkTsAveragedTime);
@@ -225,8 +225,8 @@ export default function AsyncArrayConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.remainingCapacity(); }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncArrayConcurrentQueue_RemainingCapacity_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayConcurrentQueue', 'remainingCapacity',
         'remainingCapacity(): int', arkTsAveragedTime);

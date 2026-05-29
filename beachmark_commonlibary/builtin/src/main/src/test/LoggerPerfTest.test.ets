@@ -47,10 +47,10 @@ export default function LoggerPerfTest() : void{
     })
 
     it('PerformanceTest_Logger_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = StdDebug.Logger.enableLogging();;
+      let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = StdDebug.Logger.enableLogging();
+        StdDebug.Logger.enableLogging();
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -61,10 +61,10 @@ export default function LoggerPerfTest() : void{
     })
 
     it('PerformanceTest_Logger_Static_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = StdDebug.Logger.disableLogging();;
+      let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = StdDebug.Logger.disableLogging();
+        StdDebug.Logger.disableLogging();
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -75,10 +75,10 @@ export default function LoggerPerfTest() : void{
     })
 
     it('PerformanceTest_Logger_Static_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = StdDebug.Logger.log("test");
+      let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = StdDebug.Logger.log("test");
+        StdDebug.Logger.log("test");
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -89,20 +89,33 @@ export default function LoggerPerfTest() : void{
     })
 
     it('PerformanceTest_Logger_Static_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: boolean = false;
       let errorMsg: String = "This is a longer error message for performance testing with more content and details";
-      let res = StdDebug.Logger.logError(errorMsg);;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = StdDebug.Logger.logError(errorMsg);
+        StdDebug.Logger.logError(errorMsg);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Logger_Static_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug', 'Logger', 'logError',
-        'static logError(m: String): void', arkTsAveragedTime);
+        'static logError(m: String): void (long msg)', arkTsAveragedTime);
     })
 
-
+    it('PerformanceTest_Logger_Static_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: boolean = false;
+      StdDebug.Logger.enableLogging(); 
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        StdDebug.Logger.log("test");
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Logger_Static_0900: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.debug', 'Logger', 'log with enable/disable',
+        'static log(m: String): void (with state switch)', arkTsAveragedTime);
+    })
   })
 }

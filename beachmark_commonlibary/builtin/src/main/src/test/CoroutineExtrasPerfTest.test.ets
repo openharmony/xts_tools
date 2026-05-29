@@ -68,8 +68,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.POLICY_ANY;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'POLICY_ANY',
         'static POLICY_ANY: int', arkTsAveragedTime);
@@ -83,8 +83,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.POLICY_NON_MAIN;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'POLICY_NON_MAIN',
         'static POLICY_NON_MAIN: int', arkTsAveragedTime);
@@ -100,8 +100,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.getWorkerId();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'getWorkerId',
         'static getWorkerId(): int', arkTsAveragedTime);
@@ -115,8 +115,8 @@ export default function CoroutineExtrasPerfTest():void {
         CoroutineExtras.setSchedulingPolicy(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'setSchedulingPolicy',
         'static setSchedulingPolicy(policy: int): void', arkTsAveragedTime);
@@ -132,8 +132,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.getCoroutineId();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'getCoroutineId',
         'static getCoroutineId(): int', arkTsAveragedTime);
@@ -147,8 +147,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.isMainWorker();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'isMainWorker',
         'static isMainWorker(): boolean', arkTsAveragedTime);
@@ -162,8 +162,8 @@ export default function CoroutineExtrasPerfTest():void {
         CoroutineExtras.scaleWorkersPool(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'scaleWorkersPool',
         'static scaleWorkersPool(scaler: int): void', arkTsAveragedTime);
@@ -177,8 +177,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.getCoroutineCount();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'getCoroutineCount',
         'static getCoroutineCount(): long', arkTsAveragedTime);
@@ -194,8 +194,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.workerHasExternalScheduler();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'workerHasExternalScheduler',
         'static workerHasExternalScheduler(): boolean', arkTsAveragedTime);
@@ -209,8 +209,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.isExternalTimerEnabled();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'isExternalTimerEnabled',
         'static isExternalTimerEnabled(): boolean', arkTsAveragedTime);
@@ -224,8 +224,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.isTaskpoolUsingLaunchMode();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'isTaskpoolUsingLaunchMode',
         'static isTaskpoolUsingLaunchMode(): boolean', arkTsAveragedTime);
@@ -239,8 +239,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.isTaskpoolSupportingInterop();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'isTaskpoolSupportingInterop',
         'static isTaskpoolSupportingInterop(): boolean', arkTsAveragedTime);
@@ -254,8 +254,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.getTaskPoolWorkersNum();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'getTaskPoolWorkersNum',
         'static getTaskPoolWorkersNum(): int', arkTsAveragedTime);
@@ -269,8 +269,8 @@ export default function CoroutineExtrasPerfTest():void {
         res = CoroutineExtras.getTaskPoolWorkersLimit();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'getTaskPoolWorkersLimit',
         'static getTaskPoolWorkersLimit(): int', arkTsAveragedTime);
@@ -284,8 +284,8 @@ export default function CoroutineExtrasPerfTest():void {
         CoroutineExtras.setTaskPoolTriggerShrinkInterval(60000);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'setTaskPoolTriggerShrinkInterval',
         'static setTaskPoolTriggerShrinkInterval(interval: int): void', arkTsAveragedTime);
@@ -299,8 +299,8 @@ export default function CoroutineExtrasPerfTest():void {
         CoroutineExtras.setTaskPoolIdleThreshold(5000);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'setTaskPoolIdleThreshold',
         'static setTaskPoolIdleThreshold(threshold: int): void', arkTsAveragedTime);
@@ -314,8 +314,8 @@ export default function CoroutineExtrasPerfTest():void {
         CoroutineExtras.setTaskPoolBlockedWorkerThresholdDebug(30000);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'setTaskPoolBlockedWorkerThresholdDebug',
         'static setTaskPoolBlockedWorkerThresholdDebug(thresholdMs: int): void', arkTsAveragedTime);
@@ -329,8 +329,8 @@ export default function CoroutineExtrasPerfTest():void {
         CoroutineExtras.setTaskPoolBlockedWorkerMonitorIntervalDebug(10000);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'setTaskPoolBlockedWorkerMonitorIntervalDebug',
         'static setTaskPoolBlockedWorkerMonitorIntervalDebug(intervalMs: int): void', arkTsAveragedTime);
@@ -344,8 +344,8 @@ export default function CoroutineExtrasPerfTest():void {
         CoroutineExtras.setTaskPoolWorkersLimit(8);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'setTaskPoolWorkersLimit',
         'static setTaskPoolWorkersLimit(limit: int): void', arkTsAveragedTime);
@@ -389,8 +389,8 @@ export default function CoroutineExtrasPerfTest():void {
         CoroutineExtras.increaseTaskpoolWorkersToN(4);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_CoroutineExtras_Static_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'CoroutineExtras', 'increaseTaskpoolWorkersToN',
         'static increaseTaskpoolWorkersToN(workersNum: int): void', arkTsAveragedTime);

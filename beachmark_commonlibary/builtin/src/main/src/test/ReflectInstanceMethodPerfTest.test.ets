@@ -66,8 +66,8 @@ export default function ReflectInstanceMethodPerfTest(): void {
         res = method!.isFinal();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InstanceMethod_isFinal_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'InstanceMethod', 'isFinal',
         'isFinal(): boolean', arkTsAveragedTime);
@@ -82,8 +82,8 @@ export default function ReflectInstanceMethodPerfTest(): void {
         res = method!.isAsync();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InstanceMethod_isAsync_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'InstanceMethod', 'isAsync',
         'isAsync(): boolean', arkTsAveragedTime);
@@ -98,8 +98,8 @@ export default function ReflectInstanceMethodPerfTest(): void {
         res = method!.isAbstract();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InstanceMethod_isAbstract_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'InstanceMethod', 'isAbstract',
         'isAbstract(): boolean', arkTsAveragedTime);
@@ -114,8 +114,8 @@ export default function ReflectInstanceMethodPerfTest(): void {
         res = method!.isGetter();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InstanceMethod_isGetter_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'InstanceMethod', 'isGetter',
         'isGetter(): boolean', arkTsAveragedTime);
@@ -130,8 +130,8 @@ export default function ReflectInstanceMethodPerfTest(): void {
         res = method!.isSetter();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InstanceMethod_isSetter_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'InstanceMethod', 'isSetter',
         'isSetter(): boolean', arkTsAveragedTime);
@@ -147,8 +147,8 @@ export default function ReflectInstanceMethodPerfTest(): void {
         res = method1!.equals(method2!);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InstanceMethod_equals_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'InstanceMethod', 'equals',
         'equals(other: InstanceMethod): boolean', arkTsAveragedTime);
@@ -164,8 +164,8 @@ export default function ReflectInstanceMethodPerfTest(): void {
         res = method!.invoke(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InstanceMethod_invoke_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'InstanceMethod', 'invoke',
         'invoke(thisObj: Object): Any', arkTsAveragedTime);
@@ -182,8 +182,8 @@ export default function ReflectInstanceMethodPerfTest(): void {
         res = method!.invoke(obj, args);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InstanceMethod_invoke_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'InstanceMethod', 'invoke',
         'invoke(thisObj: Object, args: FixedArray<Any>): Any', arkTsAveragedTime);

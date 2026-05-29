@@ -53,8 +53,8 @@ export default function InteropContextPerfTest(): void {
         InteropContext.setDefaultInteropLinker(mockLinker as RuntimeLinker);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = mockLinker;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = mockLinker;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropContext_SetDefaultInteropLinker_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.interop',

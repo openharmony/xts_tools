@@ -50,8 +50,8 @@ export default function IntlPerfTest01(): void {
         res = formatter.format(1234567890 as long);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.NumberFormat format_long: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.NumberFormat', 'format',
         'format(value: long): string', arkTsAveragedTime);
@@ -65,8 +65,8 @@ export default function IntlPerfTest01(): void {
         res = formatter.format(12345678901234567890n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.NumberFormat format_bigint: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.NumberFormat', 'format',
         'format(value: bigint): string', arkTsAveragedTime);
@@ -80,8 +80,8 @@ export default function IntlPerfTest01(): void {
         res = formatter.format(1234567.89 as number | bigint);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.NumberFormat format_number_bigint: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.NumberFormat', 'format',
         'format(value: number | bigint): string', arkTsAveragedTime);
@@ -95,8 +95,8 @@ export default function IntlPerfTest01(): void {
         res = formatter.formatToParts(1234567890n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.NumberFormat formatToParts_bigint: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.NumberFormat', 'formatToParts',
         'formatToParts(value: bigint): NumberFormatPart[]', arkTsAveragedTime);
@@ -112,8 +112,8 @@ export default function IntlPerfTest01(): void {
         res = pluralRules.select(2.5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.PluralRules select_number: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.PluralRules', 'select',
         'select(value: number): LDMLPluralRule', arkTsAveragedTime);
@@ -129,8 +129,8 @@ export default function IntlPerfTest01(): void {
         res = locale.language;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Locale language: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'language',
         'language: string | undefined', arkTsAveragedTime);
@@ -144,8 +144,8 @@ export default function IntlPerfTest01(): void {
         res = locale.region;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Locale region: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'region',
         'region: string | undefined', arkTsAveragedTime);
@@ -159,8 +159,8 @@ export default function IntlPerfTest01(): void {
         res = locale.script;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Locale script: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'script',
         'script: string | undefined', arkTsAveragedTime);
@@ -174,8 +174,8 @@ export default function IntlPerfTest01(): void {
         res = locale.calendar;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Locale calendar: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'calendar',
         'calendar: string | undefined', arkTsAveragedTime);
@@ -189,8 +189,8 @@ export default function IntlPerfTest01(): void {
         res = locale.numberingSystem;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Locale numberingSystem: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'numberingSystem',
         'numberingSystem: string | undefined', arkTsAveragedTime);
@@ -204,8 +204,8 @@ export default function IntlPerfTest01(): void {
         res = locale.hourCycle;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Locale hourCycle: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'hourCycle',
         'hourCycle: string | undefined', arkTsAveragedTime);
@@ -219,8 +219,8 @@ export default function IntlPerfTest01(): void {
         res = locale.numeric;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Locale numeric: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'numeric',
         'numeric: boolean | undefined', arkTsAveragedTime);
@@ -234,8 +234,8 @@ export default function IntlPerfTest01(): void {
         res = locale.collation;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Locale collation: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'collation',
         'collation: string | undefined', arkTsAveragedTime);
@@ -249,8 +249,8 @@ export default function IntlPerfTest01(): void {
         res = locale.caseFirst;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Locale caseFirst: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'caseFirst',
         'caseFirst: string | undefined', arkTsAveragedTime);
@@ -264,8 +264,8 @@ export default function IntlPerfTest01(): void {
         res = locale.baseName;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Locale baseName: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'baseName',
         'baseName: string | undefined', arkTsAveragedTime);
@@ -282,8 +282,8 @@ export default function IntlPerfTest01(): void {
         res = segmenter.segment(text);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Segmenter segment_grapheme: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Segmenter', 'segment',
         'segment(doc: string): Segments (grapheme)', arkTsAveragedTime);
@@ -298,8 +298,8 @@ export default function IntlPerfTest01(): void {
         res = segmenter.segment(text);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Segmenter segment_word: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Segmenter', 'segment',
         'segment(doc: string): Segments (word)', arkTsAveragedTime);
@@ -314,8 +314,8 @@ export default function IntlPerfTest01(): void {
         res = segmenter.segment(text);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Segmenter segment_sentence: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Segmenter', 'segment',
         'segment(doc: string): Segments (sentence)', arkTsAveragedTime);
@@ -351,8 +351,8 @@ export default function IntlPerfTest01(): void {
         res = segmentData.segment.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.Segments SegmentData access: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.SegmentData', 'access',
         'SegmentData properties access', arkTsAveragedTime);
@@ -368,8 +368,8 @@ export default function IntlPerfTest01(): void {
         res = formatter.formatRange(100000n, 999999n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.NumberFormat formatRange bigint: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.NumberFormat', 'formatRange',
         'formatRange(start: bigint, end: bigint): string', arkTsAveragedTime);
@@ -383,8 +383,8 @@ export default function IntlPerfTest01(): void {
         res = formatter.formatRangeToParts(100000n, 999999n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.NumberFormat formatRangeToParts bigint: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.NumberFormat', 'formatRangeToParts',
         'formatRangeToParts(start: bigint, end: bigint): NumberRangeFormatPart[]', arkTsAveragedTime);
@@ -405,8 +405,8 @@ export default function IntlPerfTest01(): void {
         res = formatter.format(items);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.ListFormat format Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.ListFormat', 'format',
         'format(list: Array<string>): string', arkTsAveragedTime);
@@ -424,8 +424,8 @@ export default function IntlPerfTest01(): void {
         res = formatter.formatToParts(items);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.ListFormat formatToParts Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.ListFormat', 'formatToParts',
         'formatToParts(list: Array<string>): FormatToPartsResult[]', arkTsAveragedTime);
@@ -443,8 +443,8 @@ export default function IntlPerfTest01(): void {
         res = formatter.format(-5, 'day');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.RelativeTimeFormat format negative: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.RelativeTimeFormat', 'format',
         'format(value: number, unit: string): string', arkTsAveragedTime);
@@ -461,8 +461,8 @@ export default function IntlPerfTest01(): void {
         res = displayNames.of('US');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.DisplayNames of region: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.DisplayNames', 'of',
         'of(code: string): string | undefined (type: region)', arkTsAveragedTime);
@@ -476,8 +476,8 @@ export default function IntlPerfTest01(): void {
         res = displayNames.of('Hans');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest Intl.DisplayNames of script: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.DisplayNames', 'of',
         'of(code: string): string | undefined (type: script)', arkTsAveragedTime);

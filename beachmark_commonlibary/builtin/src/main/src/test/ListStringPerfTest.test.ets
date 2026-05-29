@@ -55,8 +55,8 @@ export default function ListStringPerfTest(): void {
         list.pushFront(val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = list;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = list;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_PushFront_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'pushFront', 'pushFront(e: String): void', arkTsAveragedTime);
     })
@@ -74,8 +74,8 @@ export default function ListStringPerfTest(): void {
         res = list.popFront();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = list;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = list;
       let res2 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_PopFront_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'popFront', 'popFront(): String', arkTsAveragedTime);
@@ -89,8 +89,8 @@ export default function ListStringPerfTest(): void {
         list.pushBack(val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = list;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = list;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_PushBack_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'pushBack', 'pushBack(e: String): void', arkTsAveragedTime);
     })
@@ -108,8 +108,8 @@ export default function ListStringPerfTest(): void {
         res = list.popBack();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = list;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = list;
       let res2 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_PopBack_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'popBack', 'popBack(): String', arkTsAveragedTime);
@@ -124,8 +124,8 @@ export default function ListStringPerfTest(): void {
         currentSize = list.size();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = list;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = list;
       let res2 = currentSize;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_Size_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'size', 'size(): int', arkTsAveragedTime);
@@ -140,8 +140,8 @@ export default function ListStringPerfTest(): void {
         res = list.at(0 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = list;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = list;
       let res2 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_At_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'at', 'at(index: int): String', arkTsAveragedTime);
@@ -156,8 +156,8 @@ export default function ListStringPerfTest(): void {
         list.set(0 as int, val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = list;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = list;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_Set_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'set', 'set(index: int, e: String): void', arkTsAveragedTime);
     })
@@ -172,8 +172,8 @@ export default function ListStringPerfTest(): void {
         res = list.has(val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = list;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = list;
       let res2 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_Has_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'has', 'has(e: String): boolean', arkTsAveragedTime);

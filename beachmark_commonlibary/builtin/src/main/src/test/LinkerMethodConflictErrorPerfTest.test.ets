@@ -55,8 +55,8 @@ export default function LinkerMethodConflictErrorPerfTest(): void {
         err = new LinkerMethodConflictError("test message");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = err;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = err;
 
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerMethodConflictError_constructor_0100 : ' + arkTsAveragedTime + 'ns');

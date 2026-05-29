@@ -53,8 +53,8 @@ export default function AsyncMutexPerfTest() : void{
         res = new concurrency.stackless.AsyncMutex();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncMutex_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncMutex', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -71,8 +71,8 @@ export default function AsyncMutexPerfTest() : void{
         await mutexArray[i].lock();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = mutexArray[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = mutexArray[0];
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncMutex_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncMutex', 'lock',
         'async lock(): Promise<void>', arkTsAveragedTime);
@@ -92,8 +92,8 @@ export default function AsyncMutexPerfTest() : void{
         mutexArray[i].unlock();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = mutexArray[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = mutexArray[0];
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncMutex_Instance_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncMutex', 'unlock',
         'unlock(): void', arkTsAveragedTime);

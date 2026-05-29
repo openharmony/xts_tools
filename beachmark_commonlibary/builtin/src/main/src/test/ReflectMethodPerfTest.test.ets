@@ -70,8 +70,8 @@ export default function ReflectMethodPerfTest(): void {
         res = method!.isNative();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectMethod_isNative_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Method', 'isNative',
@@ -87,8 +87,8 @@ export default function ReflectMethodPerfTest(): void {
         res = method!.isPublic();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectMethod_isPublic_0200: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Method', 'isPublic',
@@ -104,8 +104,8 @@ export default function ReflectMethodPerfTest(): void {
         res = method!.isPrivate();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectMethod_isPrivate_0300: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Method', 'isPrivate',
@@ -121,8 +121,8 @@ export default function ReflectMethodPerfTest(): void {
         res = method!.isProtected();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectMethod_isProtected_0400: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Method', 'isProtected',
@@ -138,8 +138,8 @@ export default function ReflectMethodPerfTest(): void {
         res = method!.getName();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectMethod_getName_0500: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Method', 'getName',
@@ -155,8 +155,8 @@ export default function ReflectMethodPerfTest(): void {
         res = method!.getOwner();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectMethod_getOwner_0600: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Method', 'getOwner',
@@ -172,8 +172,8 @@ export default function ReflectMethodPerfTest(): void {
         res = method!.getReturnType();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectMethod_getReturnType_0700: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Method', 'getReturnType',
@@ -189,8 +189,8 @@ export default function ReflectMethodPerfTest(): void {
         res = method!.getParameterTypes();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectMethod_getParameterTypes_0800: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Method', 'getParameterTypes',
@@ -206,8 +206,8 @@ export default function ReflectMethodPerfTest(): void {
         res = method!.getParameterType(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectMethod_getParameterType_0900: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Method', 'getParameterType',
@@ -223,8 +223,8 @@ export default function ReflectMethodPerfTest(): void {
         res = method!.getParametersNum();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectMethod_getParametersNum_1000: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'Method', 'getParametersNum',

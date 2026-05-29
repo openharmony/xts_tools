@@ -56,8 +56,8 @@ export default function GCPerfTest(): void {
         res = GC.getFreeHeapSize();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_GetFreeHeapSize_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'getFreeHeapSize',
         'getFreeHeapSize(): long', arkTsAveragedTime);
@@ -70,8 +70,8 @@ export default function GCPerfTest(): void {
         res = GC.getUsedHeapSize();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_GetUsedHeapSize_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'getUsedHeapSize',
         'getUsedHeapSize(): long', arkTsAveragedTime);
@@ -84,8 +84,8 @@ export default function GCPerfTest(): void {
         res = GC.getReservedHeapSize();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_GetReservedHeapSize_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'getReservedHeapSize',
         'getReservedHeapSize(): long', arkTsAveragedTime);
@@ -99,8 +99,8 @@ export default function GCPerfTest(): void {
         res = GC.getObjectSize(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_GetObjectSize_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'getObjectSize',
         'getObjectSize(obj: Object): long', arkTsAveragedTime);
@@ -114,8 +114,8 @@ export default function GCPerfTest(): void {
         res = GC.getObjectAddress(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_GetObjectAddress_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'getObjectAddress',
         'getObjectAddress(obj: Object): long', arkTsAveragedTime);
@@ -128,8 +128,8 @@ export default function GCPerfTest(): void {
         GC.pinObject(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = obj;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = obj;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_PinObject_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'pinObject',
         'pinObject(obj: Object): void', arkTsAveragedTime);
@@ -180,8 +180,8 @@ export default function GCPerfTest(): void {
         res = GC.getObjectSpaceType(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_GetObjectSpaceType_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'getObjectSpaceType',
         'getObjectSpaceType(obj: Object): ObjectSpaceType', arkTsAveragedTime);
@@ -194,8 +194,8 @@ export default function GCPerfTest(): void {
         res = GC.isScheduledGCTriggered();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_IsScheduledGCTriggered_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'isScheduledGCTriggered',
         'isScheduledGCTriggered(): boolean', arkTsAveragedTime);
@@ -390,8 +390,8 @@ export default function GCPerfTest(): void {
       }
       GC.waitForFinishGC(prev);
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_StartGC_woCallback_2200: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'startGC',
@@ -411,8 +411,8 @@ export default function GCPerfTest(): void {
       }
       GC.waitForFinishGC(prev);
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_GC_StartGC_wCallback_2300: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'GC', 'startGC',

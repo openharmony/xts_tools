@@ -57,8 +57,8 @@ export default function ESObjectPerfTest(): void {
         res = new ESValue(dummyObj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ESObject_TypeAlias_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'ESObject', 'TypeAlias',
         'type ESObject = ESValue', arkTsAveragedTime);

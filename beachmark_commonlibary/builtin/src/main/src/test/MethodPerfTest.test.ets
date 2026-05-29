@@ -107,8 +107,8 @@ export default function MethodPerfTest() : void{
         result = method.getType();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_getType_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -128,8 +128,8 @@ export default function MethodPerfTest() : void{
         result = method.getOwnerType();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_getOwnerType_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -149,8 +149,8 @@ export default function MethodPerfTest() : void{
         result = method.getName();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_getName_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -170,8 +170,8 @@ export default function MethodPerfTest() : void{
         result = method.isStatic();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_isStatic_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -191,8 +191,8 @@ export default function MethodPerfTest() : void{
         result = method.isFinal();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_isFinal_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -212,8 +212,8 @@ export default function MethodPerfTest() : void{
         result = method.isAbstract();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_isAbstract_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -233,8 +233,8 @@ export default function MethodPerfTest() : void{
         result = method.isConstructor();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_isConstructor_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -254,8 +254,8 @@ export default function MethodPerfTest() : void{
         result = method.isGetter();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_isGetter_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -275,8 +275,8 @@ export default function MethodPerfTest() : void{
         result = method.isSetter();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_isSetter_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -296,8 +296,8 @@ export default function MethodPerfTest() : void{
         result = method.isNative();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_isNative_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -317,8 +317,8 @@ export default function MethodPerfTest() : void{
         result = method.isAsync();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_isAsync_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -338,8 +338,8 @@ export default function MethodPerfTest() : void{
         result = method.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_toString_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -361,8 +361,8 @@ export default function MethodPerfTest() : void{
         result = method.invoke(recv, args);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_invoke_instanceWithArgs_0200: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -382,8 +382,8 @@ export default function MethodPerfTest() : void{
         result = method.getAttributes();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_getAttributes_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -403,8 +403,8 @@ export default function MethodPerfTest() : void{
         result = method.getAccessModifier();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_getAccessModifier_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -425,8 +425,8 @@ export default function MethodPerfTest() : void{
         result = method.equals(otherMethod as Any);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = result;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Method_equals_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(

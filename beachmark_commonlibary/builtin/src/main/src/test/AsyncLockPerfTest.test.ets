@@ -54,8 +54,8 @@ export default function AsyncLockPerfTest(): void {
         res = AsyncLockMode.EXCLUSIVE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLock_AsyncLockMode_0100: ' +
         arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockMode', 'EXCLUSIVE',
@@ -84,8 +84,8 @@ export default function AsyncLockPerfTest(): void {
         res = AsyncLockMode.UNLOCKED;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLock_AsyncLockMode_0300: ' +
         arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockMode', 'UNLOCKED',

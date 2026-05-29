@@ -55,8 +55,8 @@ export default function BootRuntimeLinkerPerfTest(): void {
           res = getBootRuntimeLinker();
         }
         let Dtime = new Date().getTime() - Stime;
-        let res1 = res;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
         console.info('arkTsPerformanceTest arkTsAveragedTime getBootRuntimeLinker: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BootRuntimeLinker', 'getBootRuntimeLinker',
           'function getBootRuntimeLinker(): BootRuntimeLinker', arkTsAveragedTime);
@@ -71,8 +71,8 @@ export default function BootRuntimeLinkerPerfTest(): void {
           res = BootRuntimeLinker.instance;
         }
         let Dtime = new Date().getTime() - Stime;
-        let res1 = res;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
         console.info('arkTsPerformanceTest arkTsAveragedTime instance: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BootRuntimeLinker', 'instance',
           'static final instance: BootRuntimeLinker', arkTsAveragedTime);
@@ -86,8 +86,8 @@ export default function BootRuntimeLinkerPerfTest(): void {
           res = getNearestNonBootRuntimeLinker();
         }
         let Dtime = new Date().getTime() - Stime;
-        let res1 = res;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
         console.info('arkTsPerformanceTest arkTsAveragedTime getNearestNonBootRuntimeLinker: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BootRuntimeLinker', 'getNearestNonBootRuntimeLinker',
@@ -103,8 +103,8 @@ export default function BootRuntimeLinkerPerfTest(): void {
           res = bootLinker.findAndLoadClass("std.core.String", true);
         }
         let Dtime = new Date().getTime() - Stime;
-        let res1 = res;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = res;
         console.info('arkTsPerformanceTest arkTsAveragedTime findAndLoadClass: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BootRuntimeLinker', 'findAndLoadClass',
           'public native override findAndLoadClass(clsName: string, init: boolean): Class | undefined',

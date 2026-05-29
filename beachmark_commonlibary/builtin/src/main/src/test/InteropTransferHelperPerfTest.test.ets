@@ -59,8 +59,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferArrayBufferToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferArrayBufferToStatic_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferArrayBufferToStatic',
         'transferArrayBufferToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -75,8 +75,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferArrayBufferToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferArrayBufferToDynamic_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferArrayBufferToDynamic',
         'transferArrayBufferToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -91,8 +91,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferInt8ArrayToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferInt8ArrayToStatic_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferInt8ArrayToStatic',
         'transferInt8ArrayToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -107,8 +107,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferInt8ArrayToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferInt8ArrayToDynamic_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferInt8ArrayToDynamic',
         'transferInt8ArrayToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -123,8 +123,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferUint8ArrayToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferUint8ArrayToStatic_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferUint8ArrayToStatic',
         'transferUint8ArrayToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -139,8 +139,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferUint8ArrayToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferUint8ArrayToDynamic_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferUint8ArrayToDynamic',
         'transferUint8ArrayToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -156,8 +156,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferUint8ClampedArrayToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferUint8ClampedArrayToStatic_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferUint8ClampedArrayToStatic',
         'transferUint8ClampedArrayToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -172,8 +172,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferUint8ClampedArrayToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferUint8ClampedArrayToDynamic_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferUint8ClampedArrayToDynamic',
         'transferUint8ClampedArrayToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -188,8 +188,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferInt16ArrayToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferInt16ArrayToStatic_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferInt16ArrayToStatic',
         'transferInt16ArrayToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -204,8 +204,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferInt16ArrayToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferInt16ArrayToDynamic_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferInt16ArrayToDynamic',
         'transferInt16ArrayToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -221,8 +221,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferUint16ArrayToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferUint16ArrayToStatic_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferUint16ArrayToStatic',
         'transferUint16ArrayToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -237,8 +237,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferUint16ArrayToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferUint16ArrayToDynamic_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferUint16ArrayToDynamic',
         'transferUint16ArrayToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -254,8 +254,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferInt32ArrayToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferInt32ArrayToStatic_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferInt32ArrayToStatic',
         'transferInt32ArrayToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -270,8 +270,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferInt32ArrayToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferInt32ArrayToDynamic_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferInt32ArrayToDynamic',
         'transferInt32ArrayToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -287,8 +287,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferUint32ArrayToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferUint32ArrayToStatic_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferUint32ArrayToStatic',
         'transferUint32ArrayToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -303,8 +303,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferUint32ArrayToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferUint32ArrayToDynamic_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferUint32ArrayToDynamic',
         'transferUint32ArrayToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -320,8 +320,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferFloat32ArrayToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferFloat32ArrayToStatic_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferFloat32ArrayToStatic',
         'transferFloat32ArrayToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -336,8 +336,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferFloat32ArrayToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferFloat32ArrayToDynamic_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferFloat32ArrayToDynamic',
         'transferFloat32ArrayToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -352,8 +352,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferFloat64ArrayToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferFloat64ArrayToStatic_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferFloat64ArrayToStatic',
         'transferFloat64ArrayToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -368,8 +368,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferFloat64ArrayToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferFloat64ArrayToDynamic_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferFloat64ArrayToDynamic',
         'transferFloat64ArrayToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -385,8 +385,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferBigInt64ArrayToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferBigInt64ArrayToStatic_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferBigInt64ArrayToStatic',
         'transferBigInt64ArrayToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -401,8 +401,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferBigInt64ArrayToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferBigInt64ArrayToDynamic_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferBigInt64ArrayToDynamic',
         'transferBigInt64ArrayToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -418,8 +418,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferBigUint64ArrayToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferBigUint64ArrayToStatic_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferBigUint64ArrayToStatic',
         'transferBigUint64ArrayToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -434,8 +434,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferBigUint64ArrayToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferBigUint64ArrayToDynamic_2400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferBigUint64ArrayToDynamic',
         'transferBigUint64ArrayToDynamic(staticObject: Object): Any', arkTsAveragedTime);
@@ -451,8 +451,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferDataViewToStatic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferDataViewToStatic_2500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferDataViewToStatic',
         'transferDataViewToStatic(dynamicObject: Any): Object', arkTsAveragedTime);
@@ -467,8 +467,8 @@ export default function InteropTransferHelperPerfTest(): void {
         res = InteropTransferHelper.transferDataViewToDynamic(mockData);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropTransferHelper_TransferDataViewToDynamic_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'InteropTransferHelper', 'transferDataViewToDynamic',
         'transferDataViewToDynamic(staticObject: Object): Any', arkTsAveragedTime);

@@ -53,8 +53,8 @@ export default function AsyncCondVarPerfTest() : void{
         res = new concurrency.stackless.AsyncCondVar();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncCondVar_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncCondVar', 'constructor',
         'constructor()', arkTsAveragedTime);

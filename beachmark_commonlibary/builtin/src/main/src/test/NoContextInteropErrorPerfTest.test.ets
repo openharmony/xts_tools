@@ -54,8 +54,8 @@ export default function NoContextInteropErrorPerfTest(): void {
         res = new NoInteropContextError();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_NoInteropContextError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'NoInteropContextError', 'constructor', 'constructor()', arkTsAveragedTime);
     })
@@ -68,8 +68,8 @@ export default function NoContextInteropErrorPerfTest(): void {
         res = new NoInteropContextError(msg);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_NoInteropContextError_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'NoInteropContextError', 'constructor', 'constructor(message?: String)', arkTsAveragedTime);
     })
@@ -83,8 +83,8 @@ export default function NoContextInteropErrorPerfTest(): void {
         res = new NoInteropContextError(msg, options);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_NoInteropContextError_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'NoInteropContextError', 'constructor', 'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })

@@ -159,8 +159,8 @@ export default function AsyncLockManagerPerfTest() : void{
         res = state.pending;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Property_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockState', 'pending',
         'pending: AsyncLockInfo[]', arkTsAveragedTime);

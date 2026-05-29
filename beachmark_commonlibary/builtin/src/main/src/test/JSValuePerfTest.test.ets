@@ -76,8 +76,8 @@ export default function JSValuePerfTest(): void {
         res = realJSValue as JSValueN;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSValue_JSValueN_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSValue', 'JSValueN', 'type JSValueN = JSValue | null | undefined', arkTsAveragedTime);
     })

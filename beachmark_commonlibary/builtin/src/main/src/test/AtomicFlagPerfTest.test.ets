@@ -53,8 +53,8 @@ export default function AtomicFlagPerfTest(): void {
         res = new AtomicFlag(true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicFlag_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'AtomicFlag', 'constructor',
         'constructor(v: boolean)', arkTsAveragedTime);
@@ -69,8 +69,8 @@ export default function AtomicFlagPerfTest(): void {
         res = flag.get();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicFlag_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'AtomicFlag', 'get',
         'get(): boolean', arkTsAveragedTime);
@@ -84,8 +84,8 @@ export default function AtomicFlagPerfTest(): void {
         flag.set(true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = flag;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = flag;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicFlag_Instance_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'AtomicFlag', 'set',
         'set(v: boolean): void', arkTsAveragedTime);

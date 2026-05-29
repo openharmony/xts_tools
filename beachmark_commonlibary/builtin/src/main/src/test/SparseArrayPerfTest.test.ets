@@ -54,8 +54,8 @@ export default function SparseArrayPerfTest(): void {
         res = new SparseArray<number>();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -68,8 +68,8 @@ export default function SparseArrayPerfTest(): void {
         res = new SparseArray<number>(100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'constructor',
         'constructor(length: int)', arkTsAveragedTime);
@@ -82,8 +82,8 @@ export default function SparseArrayPerfTest(): void {
         res = new SparseArray<number>(1, 2, 3, 4, 5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'constructor',
         'constructor(...values: T[])', arkTsAveragedTime);
@@ -98,8 +98,8 @@ export default function SparseArrayPerfTest(): void {
         res = SparseArray.from<int>(arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'from',
         'static from<T>(arr: ArrayLike<T>): SparseArray<T>', arkTsAveragedTime);
@@ -113,8 +113,8 @@ export default function SparseArrayPerfTest(): void {
         res = SparseArray.isArray(objArray);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'isArray',
         'static isArray(o: Any): boolean', arkTsAveragedTime);
@@ -127,8 +127,8 @@ export default function SparseArrayPerfTest(): void {
         res = SparseArray.of<number>(1, 2, 3, 4, 5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Static_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'of',
         'static of<T>(...values: T[]): SparseArray<T>', arkTsAveragedTime);
@@ -146,8 +146,8 @@ export default function SparseArrayPerfTest(): void {
         res = pools[i].push(4);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'push',
         'push(val: T): int', arkTsAveragedTime);
@@ -164,8 +164,8 @@ export default function SparseArrayPerfTest(): void {
         res = pools[i].pop();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'pop',
         'pop(): T | undefined', arkTsAveragedTime);
@@ -182,8 +182,8 @@ export default function SparseArrayPerfTest(): void {
         res = pools[i].shift();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'shift',
         'shift(): T | undefined', arkTsAveragedTime);
@@ -200,8 +200,8 @@ export default function SparseArrayPerfTest(): void {
         res = pools[i].unshift(1, 2, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'unshift',
         'unshift(...values: T[]): int', arkTsAveragedTime);
@@ -219,8 +219,8 @@ export default function SparseArrayPerfTest(): void {
         res = pools[i].splice(1, 2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'splice',
         'splice(start: int, delete: int | undefined, ...items: T[]): SparseArray<T>', arkTsAveragedTime);
@@ -237,8 +237,8 @@ export default function SparseArrayPerfTest(): void {
         res = pools[i].reverse();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'reverse',
         'reverse(): this', arkTsAveragedTime);
@@ -255,8 +255,8 @@ export default function SparseArrayPerfTest(): void {
         res = pools[i].sort((a: int, b: int): int => a - b);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'sort',
         'sort(comparator?: (a: T, b: T) => int): this', arkTsAveragedTime);
@@ -274,8 +274,8 @@ export default function SparseArrayPerfTest(): void {
         res = pools[i].copyWithin(0, 2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'copyWithin',
         'copyWithin(target: int, start: int, end: int): this', arkTsAveragedTime);
@@ -292,8 +292,8 @@ export default function SparseArrayPerfTest(): void {
         res = pools[i].fill(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'fill',
         'fill(value: T, start: int, end: int): this', arkTsAveragedTime);
@@ -307,8 +307,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.concat([4, 5, 6]);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'concat',
         'concat(...items: FixedArray<ConcatArray<T>>): SparseArray<T>', arkTsAveragedTime);
@@ -322,8 +322,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.slice(1, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'slice',
         'slice(start: int, end: int): SparseArray<T>', arkTsAveragedTime);
@@ -338,8 +338,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.join(',');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'join',
         'join(sep?: String): string', arkTsAveragedTime);
@@ -353,8 +353,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -371,8 +371,8 @@ export default function SparseArrayPerfTest(): void {
         sparseArr.forEach(forEachCb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = sparseArr;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = sparseArr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'forEach',
         'forEach(callbackfn: (value: T, index: int, array: SparseArray<T>) => void): void', arkTsAveragedTime);
@@ -389,8 +389,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.map<number>(mapCb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'map',
         'map<U>(callbackfn: (value: T, index: int, array: SparseArray<T>) => U): SparseArray<U>', arkTsAveragedTime);
@@ -407,8 +407,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.filter(filterCb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'filter',
         'filter(predicate: (value: T, index: int, array: SparseArray<T>) => boolean): SparseArray<T>', arkTsAveragedTime);
@@ -426,8 +426,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.reduce(reduceCb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'reduce',
         'reduce(callbackfn: (previousValue: T, currentValue: T, index: int, array: SparseArray<T>) => T): T', arkTsAveragedTime);
@@ -444,8 +444,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.some(someCb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'some',
         'some(predicate: (value: T, index: int, array: SparseArray<T>) => boolean): boolean', arkTsAveragedTime);
@@ -462,8 +462,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.every(everyCb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'every',
         'every(predicate: (value: T, index: int, array: SparseArray<T>) => boolean): boolean', arkTsAveragedTime);
@@ -478,8 +478,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.flat<number>();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'flat',
         'flat<U = T>(): SparseArray<U>', arkTsAveragedTime);
@@ -496,8 +496,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.flatMap<number>(flatMapCb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'flatMap',
         'flatMap<U>(fn: (v: T, k: int, arr: SparseArray<T>) => U): SparseArray<U>', arkTsAveragedTime);
@@ -512,8 +512,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.values();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'values',
         'values(): IterableIterator<T>', arkTsAveragedTime);
@@ -527,8 +527,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.keys();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'keys',
         'keys(): IterableIterator<int>', arkTsAveragedTime);
@@ -542,8 +542,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.entries();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_2400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'entries',
         'entries(): IterableIterator<[int, T]>', arkTsAveragedTime);
@@ -558,8 +558,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.at(2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_2500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'at',
         'at(index: int): T | undefined', arkTsAveragedTime);
@@ -576,8 +576,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.find(findCb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'find',
         'find(predicate: (value: T, index: int, array: SparseArray<T>) => boolean): T | undefined', arkTsAveragedTime);
@@ -594,8 +594,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.findIndex(findIndexCb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_2700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'findIndex',
         'findIndex(predicate: (value: T, index: int, array: SparseArray<T>) => boolean): int', arkTsAveragedTime);
@@ -610,8 +610,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.includes(3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_2800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'includes',
         'includes(val: T, fromIndex?: int): boolean', arkTsAveragedTime);
@@ -625,8 +625,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.indexOf(3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_2900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'indexOf',
         'indexOf(val: T, fromIndex: int = 0): int', arkTsAveragedTime);
@@ -640,8 +640,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.lastIndexOf(3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_3000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'lastIndexOf',
         'lastIndexOf(searchElement: T, fromIndex?: int): int', arkTsAveragedTime);
@@ -656,8 +656,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Property_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -670,8 +670,8 @@ export default function SparseArrayPerfTest(): void {
         sparseArr.length = 10;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = sparseArr;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = sparseArr;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Property_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'length',
         'set length(newLen: int): void', arkTsAveragedTime);
@@ -686,8 +686,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.toReversed();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_3100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'toReversed',
         'toReversed(): SparseArray<T>', arkTsAveragedTime);
@@ -701,8 +701,8 @@ export default function SparseArrayPerfTest(): void {
         res = sparseArr.toSorted();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SparseArray_Instance_3200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'SparseArray', 'toSorted',
         'toSorted(): SparseArray<T>', arkTsAveragedTime);

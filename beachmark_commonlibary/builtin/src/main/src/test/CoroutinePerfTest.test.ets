@@ -50,8 +50,8 @@ export default function CoroutinePerfTest(): void {
         Coroutine.Schedule();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Coroutine_Schedule_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Coroutine', 'Schedule',

@@ -53,8 +53,8 @@ export default function FloatPerfTest(): void {
         res = new Float();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'constructor',
         'function constructor()', arkTsAveragedTime);
@@ -67,8 +67,8 @@ export default function FloatPerfTest(): void {
         res = new Float(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'constructor',
         'function constructor(value: float)', arkTsAveragedTime);
@@ -81,8 +81,8 @@ export default function FloatPerfTest(): void {
         res = new Float(3.1415926f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'constructor',
         'function constructor(value: double)', arkTsAveragedTime);
@@ -95,8 +95,8 @@ export default function FloatPerfTest(): void {
         res = Float.MIN_VALUE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'MIN_VALUE',
         'static readonly MIN_VALUE: float', arkTsAveragedTime);
@@ -109,8 +109,8 @@ export default function FloatPerfTest(): void {
         res = Float.MAX_VALUE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'MAX_VALUE',
         'static readonly MAX_VALUE: float', arkTsAveragedTime);
@@ -123,8 +123,8 @@ export default function FloatPerfTest(): void {
         res = Float.MAX_SAFE_INTEGER;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'MAX_SAFE_INTEGER',
         'static readonly MAX_SAFE_INTEGER: float', arkTsAveragedTime);
@@ -137,8 +137,8 @@ export default function FloatPerfTest(): void {
         res = Float.BIT_SIZE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'BIT_SIZE',
         'static readonly BIT_SIZE: byte', arkTsAveragedTime);
@@ -151,8 +151,8 @@ export default function FloatPerfTest(): void {
         res = Float.BYTE_SIZE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'BYTE_SIZE',
         'static readonly BYTE_SIZE: byte', arkTsAveragedTime);
@@ -165,8 +165,8 @@ export default function FloatPerfTest(): void {
         res = Float.NaN;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'NaN',
         'static readonly NaN: float', arkTsAveragedTime);
@@ -179,8 +179,8 @@ export default function FloatPerfTest(): void {
         res = Float.POSITIVE_INFINITY;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'POSITIVE_INFINITY',
         'static readonly POSITIVE_INFINITY: float', arkTsAveragedTime);
@@ -193,8 +193,8 @@ export default function FloatPerfTest(): void {
         res = Float.NEGATIVE_INFINITY;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'NEGATIVE_INFINITY',
         'static readonly NEGATIVE_INFINITY: float', arkTsAveragedTime);
@@ -207,8 +207,8 @@ export default function FloatPerfTest(): void {
         res = Float.PRECISION;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'PRECISION',
         'static readonly PRECISION: byte', arkTsAveragedTime);
@@ -221,8 +221,8 @@ export default function FloatPerfTest(): void {
         res = Float.DELTA;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'DELTA',
         'static readonly DELTA: float', arkTsAveragedTime);
@@ -235,8 +235,8 @@ export default function FloatPerfTest(): void {
         res = Float.EPSILON;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Static_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'EPSILON',
         'static readonly EPSILON: float', arkTsAveragedTime);
@@ -263,8 +263,8 @@ export default function FloatPerfTest(): void {
         res = Float.toByte(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toByte',
         'static toByte(value: float): byte', arkTsAveragedTime);
@@ -277,8 +277,8 @@ export default function FloatPerfTest(): void {
         res = Float.toShort(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toShort',
         'static toShort(value: float): short', arkTsAveragedTime);
@@ -291,8 +291,8 @@ export default function FloatPerfTest(): void {
         res = Float.toInt(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toInt',
         'static toInt(value: float): int', arkTsAveragedTime);
@@ -305,8 +305,8 @@ export default function FloatPerfTest(): void {
         res = Float.toLong(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toLong',
         'static toLong(value: float): long', arkTsAveragedTime);
@@ -319,8 +319,8 @@ export default function FloatPerfTest(): void {
         res = Float.toFloat(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toFloat',
         'static toFloat(value: float): float', arkTsAveragedTime);
@@ -333,8 +333,8 @@ export default function FloatPerfTest(): void {
         res = Float.toDouble(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toDouble',
         'static toDouble(value: float): double', arkTsAveragedTime);
@@ -347,8 +347,8 @@ export default function FloatPerfTest(): void {
         res = Float.toString(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toString',
         'static toString(f: float): String', arkTsAveragedTime);
@@ -361,8 +361,8 @@ export default function FloatPerfTest(): void {
         res = Float.toString(1.0f, 16 );
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toString',
         'static toString(f: float, r: int): String', arkTsAveragedTime);
@@ -375,8 +375,8 @@ export default function FloatPerfTest(): void {
         res = Float.compare(1.0f, 2.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'compare',
         'static compare(lhs: float, rhs: float): boolean', arkTsAveragedTime);
@@ -389,8 +389,8 @@ export default function FloatPerfTest(): void {
         res = Float.isNaN(Float.NaN);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isNaN',
         'static isNaN(v: float): boolean', arkTsAveragedTime);
@@ -403,8 +403,8 @@ export default function FloatPerfTest(): void {
         res = Float.isFinite(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isFinite',
         'static isFinite(v: float): boolean', arkTsAveragedTime);
@@ -417,8 +417,8 @@ export default function FloatPerfTest(): void {
         res = Float.isInteger(3.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isInteger',
         'static isInteger(v: float): boolean', arkTsAveragedTime);
@@ -431,8 +431,8 @@ export default function FloatPerfTest(): void {
         res = Float.isSafeInteger(3.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isSafeInteger',
         'static isSafeInteger(v: float): boolean', arkTsAveragedTime);
@@ -445,8 +445,8 @@ export default function FloatPerfTest(): void {
         res = Float.bitCastFromInt(0x3f800000);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'bitCastFromInt',
         'static bitCastFromInt(bits: int): float', arkTsAveragedTime);
@@ -459,8 +459,8 @@ export default function FloatPerfTest(): void {
         res = Float.bitCastToInt(1.0f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_StaticMethod_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'bitCastToInt',
         'static bitCastToInt(val: float): int', arkTsAveragedTime);
@@ -474,8 +474,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.toByte();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toByte',
         'toByte(): byte', arkTsAveragedTime);
@@ -489,8 +489,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.toShort();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toShort',
         'toShort(): short', arkTsAveragedTime);
@@ -504,8 +504,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.toInt();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toInt',
         'toInt(): int', arkTsAveragedTime);
@@ -519,8 +519,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.toLong();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toLong',
         'toLong(): long', arkTsAveragedTime);
@@ -534,8 +534,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.toFloat();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toFloat',
         'toFloat(): float', arkTsAveragedTime);
@@ -549,8 +549,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.toDouble();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toDouble',
         'toDouble(): double', arkTsAveragedTime);
@@ -564,8 +564,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.compareTo(floatObj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'compareTo',
         'compareTo(other: Float): int', arkTsAveragedTime);
@@ -579,8 +579,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toString',
         'toString(): String', arkTsAveragedTime);
@@ -594,8 +594,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.toString(16);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toString',
         'toString(r: int): String', arkTsAveragedTime);
@@ -609,8 +609,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.toLocaleString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toLocaleString',
         'toLocaleString(): String', arkTsAveragedTime);
@@ -624,8 +624,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.toLocaleString('en-US', { minimumFractionDigits: 2 });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2610: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'toLocaleString',
         'toLocaleString(locales: String, options?: NumberFormatOptions): String', arkTsAveragedTime);
@@ -639,8 +639,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.equals(floatObj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'equals',
         'equals(other: Any): boolean', arkTsAveragedTime);
@@ -654,8 +654,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.isNaN();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isNaN',
         'isNaN(): boolean', arkTsAveragedTime);
@@ -669,8 +669,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.isFinite();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_2900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isFinite',
         'isFinite(): boolean', arkTsAveragedTime);
@@ -684,8 +684,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.isInteger();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_3000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isInteger',
         'isInteger(): boolean', arkTsAveragedTime);
@@ -699,8 +699,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.isSafeInteger();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_3100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isSafeInteger',
         'isSafeInteger(): boolean', arkTsAveragedTime);
@@ -715,8 +715,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.add(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_3200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'add',
         'add(other: Float): Float', arkTsAveragedTime);
@@ -731,8 +731,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.sub(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_3400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'sub',
         'sub(other: Float): Float', arkTsAveragedTime);
@@ -747,8 +747,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.mul(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_3500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'mul',
         'mul(other: Float): Float', arkTsAveragedTime);
@@ -763,8 +763,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.div(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_3600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'div',
         'div(other: Float): Float', arkTsAveragedTime);
@@ -779,8 +779,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.isLessThan(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_3700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isLessThan',
         'isLessThan(other: Float): boolean', arkTsAveragedTime);
@@ -795,8 +795,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.isLessEqualThan(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_3800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isLessEqualThan',
         'isLessEqualThan(other: Float): boolean', arkTsAveragedTime);
@@ -811,8 +811,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.isGreaterThan(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_3900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isGreaterThan',
         'isGreaterThan(other: Float): boolean', arkTsAveragedTime);
@@ -827,8 +827,8 @@ export default function FloatPerfTest(): void {
         res = floatObj.isGreaterEqualThan(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float_Instance_4000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float', 'isGreaterEqualThan',
         'isGreaterEqualThan(other: Float): boolean', arkTsAveragedTime);

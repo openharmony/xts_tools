@@ -99,8 +99,8 @@ export default function ReflectStaticMethodPerfTest(): void {
         res = method!.isAsync();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StaticMethod_isAsync_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'StaticMethod', 'isAsync',
         'isAsync(): boolean', arkTsAveragedTime);
@@ -116,8 +116,8 @@ export default function ReflectStaticMethodPerfTest(): void {
         res = method1!.equals(method2!);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StaticMethod_equals_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'StaticMethod', 'equals',
         'equals(other: StaticMethod): boolean', arkTsAveragedTime);
@@ -133,8 +133,8 @@ export default function ReflectStaticMethodPerfTest(): void {
         res = method!.getName();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StaticMethod_getName_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'StaticMethod', 'getName',
         'getName(): string', arkTsAveragedTime);

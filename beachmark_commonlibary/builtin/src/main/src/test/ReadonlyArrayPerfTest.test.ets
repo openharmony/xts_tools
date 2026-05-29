@@ -58,8 +58,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.concat(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Concat_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'concat',
         'concat(...items: FixedArray<ConcatArray<T>>): Array<T>', arkTsAveragedTime);
@@ -76,8 +76,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.entries();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Entries_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'entries',
         'entries(): IterableIterator<[int, T]>', arkTsAveragedTime);
@@ -94,8 +94,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.every((value: int, index: int, array: ReadonlyArray<int>) => { return value > 0; });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Every_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'every',
         'every(predicate: (value: T, index: int, array: ReadonlyArray<T>) => boolean): boolean', arkTsAveragedTime);
@@ -112,8 +112,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.filter((value: int, index: int, array: ReadonlyArray<int>) => { return value > 2; });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Filter_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'filter',
         'filter(predicate: (value: T, index: int, array: ReadonlyArray<T>) => boolean): Array<T>', arkTsAveragedTime);
@@ -130,8 +130,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.find((value: int, index: int, obj: ReadonlyArray<int>) => { return value === 3; });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Find_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'find',
         'find(predicate: (value: T, index: int, obj: ReadonlyArray<T>) => boolean): T | undefined', arkTsAveragedTime);
@@ -148,8 +148,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.findLast((value: int, index: int, obj: ReadonlyArray<int>) => { return value > 2; });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_FindLast_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'findLast',
         'findLast(predicate: (value: T, index: int, obj: ReadonlyArray<T>) => boolean): T | undefined', arkTsAveragedTime);
@@ -166,8 +166,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.findIndex((value: int, index: int, obj: ReadonlyArray<int>) => { return value === 3; });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_FindIndex_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'findIndex',
         'findIndex(predicate: (value: T, index: int, obj: ReadonlyArray<T>) => boolean): int', arkTsAveragedTime);
@@ -184,8 +184,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.findLastIndex((value: int, index: int, obj: ReadonlyArray<int>) => { return value > 2; });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_FindLastIndex_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'findLastIndex',
         'findLastIndex(predicate: (value: T, index: int, obj: ReadonlyArray<T>) => boolean): int', arkTsAveragedTime);
@@ -202,8 +202,8 @@ export default function ReadonlyArrayPerfTest(): void {
         arr.forEach((value: int, index: int, array: ReadonlyArray<int>) => { res = value; });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_ForEach_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'forEach',
         'forEach(action: (value: T, index: int, array: ReadonlyArray<T>) => void): void', arkTsAveragedTime);
@@ -220,8 +220,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.join(',');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Join_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'join',
         'join(separator?: string): string', arkTsAveragedTime);
@@ -238,8 +238,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.includes(3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Includes_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'includes',
         'includes(searchElement: T, fromIndex?: int): boolean', arkTsAveragedTime);
@@ -256,8 +256,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.indexOf(3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_IndexOf_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'indexOf',
         'indexOf(searchElement: T, fromIndex?: int): int', arkTsAveragedTime);
@@ -274,8 +274,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.keys();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Keys_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'keys',
         'keys(): IterableIterator<int>', arkTsAveragedTime);
@@ -292,8 +292,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.lastIndexOf(2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_LastIndexOf_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'lastIndexOf',
         'lastIndexOf(searchElement: T): int', arkTsAveragedTime);
@@ -310,8 +310,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.lastIndexOf(2, 2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_LastIndexOfFromIndex_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'lastIndexOf',
         'lastIndexOf(searchElement: T, fromIndex?: int): int', arkTsAveragedTime);
@@ -328,8 +328,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.map((value: int, index: int, array: ReadonlyArray<int>) => { return value * 2; });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Map_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'map',
         'map<U>(mapper: (value: T, index: int, array: ReadonlyArray<T>) => U): Array<U>', arkTsAveragedTime);
@@ -346,8 +346,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.reduce((previousValue: int, currentValue: int, currentIndex: int, array: ReadonlyArray<int>) => { return previousValue + currentValue; });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Reduce_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'reduce',
         'reduce(reducer: (previousValue: T, currentValue: T, currentIndex: int, array: ReadonlyArray<T>) => T): T', arkTsAveragedTime);
@@ -364,8 +364,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.reduce((previousValue: int, currentValue: int, currentIndex: int, array: ReadonlyArray<int>) => { return previousValue + currentValue; }, 0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_ReduceWithInitial_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'reduce',
         'reduce<U>(reducer: (previousValue: U, currentValue: T, currentIndex: int, array: ReadonlyArray<T>) => U, initialValue: U): U', arkTsAveragedTime);
@@ -382,8 +382,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.reduceRight((previousValue: int, currentValue: int, currentIndex: int, array: ReadonlyArray<int>) => { return previousValue + currentValue; });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_ReduceRight_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'reduceRight',
         'reduceRight(reducer: (previousValue: T, currentValue: T, currentIndex: int, array: ReadonlyArray<T>) => T): T', arkTsAveragedTime);
@@ -400,8 +400,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.reduceRight((previousValue: int, currentValue: int, currentIndex: int, array: ReadonlyArray<int>) => { return previousValue + currentValue; }, 0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_ReduceRightWithInitial_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'reduceRight',
         'reduceRight<U>(reducer: (previousValue: U, currentValue: T, currentIndex: int, array: ReadonlyArray<T>) => U, initialValue: U): U', arkTsAveragedTime);
@@ -418,8 +418,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.slice(1, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Slice_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'slice',
         'slice(start?: int, end?: int): Array<T>', arkTsAveragedTime);
@@ -436,8 +436,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.some((value: int, index: int, array: ReadonlyArray<int>) => { return value > 3; });
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Some_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'some',
         'some(predicate: (value: T, index: int, array: ReadonlyArray<T>) => boolean): boolean', arkTsAveragedTime);
@@ -454,8 +454,8 @@ export default function ReadonlyArrayPerfTest(): void {
         res = arr.values();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadonlyArray_Values_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadonlyArray', 'values',
         'values(): IterableIterator<T>', arkTsAveragedTime);

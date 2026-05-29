@@ -132,11 +132,10 @@ export default function TypedArraysPerfTest09(): void {
 
     it('PerformanceTest_Int8Array_from_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let srcIter: Iterable<number> = [1, 2, 3, 4, 5];
-      let transformFn = (x: number, index: number): number => x * 2;
-      let res: Int8Array = Int8Array.from(srcIter, transformFn);
+      let res: Int8Array = Int8Array.from(srcIter, (x: number, index: number): number => x * 2);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Int8Array.from(srcIter, transformFn);
+        res = Int8Array.from(srcIter, (x: number, index: number): number => x * 2);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -232,11 +231,10 @@ export default function TypedArraysPerfTest09(): void {
 
     it('PerformanceTest_Int16Array_from_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let srcIter: Iterable<number> = [1, 2, 3, 4, 5];
-      let transformFn = (x: number, index: number): number => x * 2;
-      let res: Int16Array = Int16Array.from(srcIter, transformFn);
+      let res: Int16Array = Int16Array.from(srcIter, (x: number, index: number): number => x * 2);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Int16Array.from(srcIter, transformFn);
+        res = Int16Array.from(srcIter, (x: number, index: number): number => x * 2);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -305,11 +303,10 @@ export default function TypedArraysPerfTest09(): void {
 
     it('PerformanceTest_Int32Array_from_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let srcIter: Iterable<number> = [1, 2, 3, 4, 5];
-      let transformFn = (x: number, index: number): number => x * 2;
-      let res: Int32Array = Int32Array.from(srcIter, transformFn);
+      let res: Int32Array = Int32Array.from(srcIter, (x: number, index: number): number => x * 2);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Int32Array.from(srcIter, transformFn);
+        res = Int32Array.from(srcIter, (x: number, index: number): number => x * 2);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -466,11 +463,10 @@ export default function TypedArraysPerfTest09(): void {
 
     it('PerformanceTest_BigInt64Array_from_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let srcIter: Iterable<BigInt> = [BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)];
-      let transformFn = (x: BigInt, index: number): BigInt => x * BigInt(2);
-      let res: BigInt64Array = BigInt64Array.from(srcIter, transformFn);
+      let res: BigInt64Array = BigInt64Array.from(srcIter, (x: BigInt, index: number): BigInt => x * BigInt(2));
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = BigInt64Array.from(srcIter, transformFn);
+        res = BigInt64Array.from(srcIter, (x: BigInt, index: number): BigInt => x * BigInt(2));
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -552,11 +548,10 @@ export default function TypedArraysPerfTest09(): void {
 
     it('PerformanceTest_Float32Array_from_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let srcIter: Iterable<number> = [1.0, 2.0, 3.0, 4.0, 5.0];
-      let transformFn = (x: number, index: number): number => x * 2.0;
-      let res: Float32Array = Float32Array.from(srcIter, transformFn);
+      let res: Float32Array = Float32Array.from(srcIter, (x: number, index: number): number => x * 2.0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float32Array.from(srcIter, transformFn);
+        res = Float32Array.from(srcIter, (x: number, index: number): number => x * 2.0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -638,11 +633,10 @@ export default function TypedArraysPerfTest09(): void {
 
     it('PerformanceTest_Float64Array_from_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let srcIter: Iterable<number> = [1.0, 2.0, 3.0, 4.0, 5.0];
-      let transformFn = (x: number, index: number): number => x * 2.0;
-      let res: Float64Array = Float64Array.from(srcIter, transformFn);
+      let res: Float64Array = Float64Array.from(srcIter, (x: number, index: number): number => x * 2.0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = Float64Array.from(srcIter, transformFn);
+        res = Float64Array.from(srcIter, (x: number, index: number): number => x * 2.0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;

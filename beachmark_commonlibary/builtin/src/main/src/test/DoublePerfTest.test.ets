@@ -53,8 +53,8 @@ export default function DoublePerfTest(): void {
         res = new Double();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'constructor',
         'function constructor()', arkTsAveragedTime);
@@ -67,8 +67,8 @@ export default function DoublePerfTest(): void {
         res = new Double(3.14159);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'constructor',
         'function constructor(value: double)', arkTsAveragedTime);
@@ -82,8 +82,8 @@ export default function DoublePerfTest(): void {
         res = new Double(bigInt);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'constructor',
         'function constructor(value: BigInt)', arkTsAveragedTime);
@@ -96,8 +96,8 @@ export default function DoublePerfTest(): void {
         res = new Double('3.14159');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Constructor_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'constructor',
         'function constructor(value: String)', arkTsAveragedTime);
@@ -110,8 +110,8 @@ export default function DoublePerfTest(): void {
         res = Double.MIN_VALUE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'MIN_VALUE',
         'static readonly MIN_VALUE: double', arkTsAveragedTime);
@@ -124,8 +124,8 @@ export default function DoublePerfTest(): void {
         res = Double.MAX_VALUE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'MAX_VALUE',
         'static readonly MAX_VALUE: double', arkTsAveragedTime);
@@ -138,8 +138,8 @@ export default function DoublePerfTest(): void {
         res = Double.NaN;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'NaN',
         'static readonly NaN: double', arkTsAveragedTime);
@@ -152,8 +152,8 @@ export default function DoublePerfTest(): void {
         res = Double.POSITIVE_INFINITY;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'POSITIVE_INFINITY',
         'static readonly POSITIVE_INFINITY: double', arkTsAveragedTime);
@@ -166,8 +166,8 @@ export default function DoublePerfTest(): void {
         res = Double.NEGATIVE_INFINITY;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'NEGATIVE_INFINITY',
         'static readonly NEGATIVE_INFINITY: double', arkTsAveragedTime);
@@ -180,8 +180,8 @@ export default function DoublePerfTest(): void {
         res = Double.$_invoke();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', '$_invoke',
         'static $_invoke(): Number', arkTsAveragedTime);
@@ -194,8 +194,8 @@ export default function DoublePerfTest(): void {
         res = Double.toDouble(3.14 );
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toDouble',
         'static toDouble(value: double): double', arkTsAveragedTime);
@@ -208,8 +208,8 @@ export default function DoublePerfTest(): void {
         res = Double.toByte(3.14);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toByte',
         'static toByte(value: double): byte', arkTsAveragedTime);
@@ -222,8 +222,8 @@ export default function DoublePerfTest(): void {
         res = Double.toShort(3.14);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toShort',
         'static toShort(value: double): short', arkTsAveragedTime);
@@ -236,8 +236,8 @@ export default function DoublePerfTest(): void {
         res = Double.toInt(3.14);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toInt',
         'static toInt(value: double): int', arkTsAveragedTime);
@@ -250,8 +250,8 @@ export default function DoublePerfTest(): void {
         res = Double.toLong(3.14);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toLong',
         'static toLong(value: double): long', arkTsAveragedTime);
@@ -264,8 +264,8 @@ export default function DoublePerfTest(): void {
         res = Double.toFloat(3.14);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toFloat',
         'static toFloat(value: double): float', arkTsAveragedTime);
@@ -278,8 +278,8 @@ export default function DoublePerfTest(): void {
         res = Double.toString(3.14159);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toString',
         'static toString(d: double): String', arkTsAveragedTime);
@@ -292,8 +292,8 @@ export default function DoublePerfTest(): void {
         res = Double.isNaN(Double.NaN);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isNaN',
         'static isNaN(v: double): boolean', arkTsAveragedTime);
@@ -306,8 +306,8 @@ export default function DoublePerfTest(): void {
         res = Double.isFinite(3.14);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isFinite',
         'static isFinite(v: double): boolean', arkTsAveragedTime);
@@ -320,8 +320,8 @@ export default function DoublePerfTest(): void {
         res = Double.isInteger(3.0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isInteger',
         'static isInteger(v: double): boolean', arkTsAveragedTime);
@@ -334,8 +334,8 @@ export default function DoublePerfTest(): void {
         res = Double.isSafeInteger(123.0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isSafeInteger',
         'static isSafeInteger(v: double): boolean', arkTsAveragedTime);
@@ -348,8 +348,8 @@ export default function DoublePerfTest(): void {
         res = Double.compare(1.5, 2.5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'compare',
         'static compare(lhs: double, rhs: double): boolean', arkTsAveragedTime);
@@ -362,8 +362,8 @@ export default function DoublePerfTest(): void {
         res = Double.parseFloat('3.14159');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'parseFloat',
         'static parseFloat(s: String): double', arkTsAveragedTime);
@@ -376,8 +376,8 @@ export default function DoublePerfTest(): void {
         res = Double.parseInt('123');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'parseInt',
         'static parseInt(s: String): double', arkTsAveragedTime);
@@ -391,8 +391,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.valueOf();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'valueOf',
         'valueOf(): number', arkTsAveragedTime);
@@ -406,8 +406,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toByte();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toByte',
         'toByte(): byte', arkTsAveragedTime);
@@ -421,8 +421,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toShort();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toShort',
         'toShort(): short', arkTsAveragedTime);
@@ -436,8 +436,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toInt();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toInt',
         'toInt(): int', arkTsAveragedTime);
@@ -451,8 +451,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toLong();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toLong',
         'toLong(): long', arkTsAveragedTime);
@@ -466,8 +466,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toFloat();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toFloat',
         'toFloat(): float', arkTsAveragedTime);
@@ -481,8 +481,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toDouble();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toDouble',
         'toDouble(): double', arkTsAveragedTime);
@@ -496,8 +496,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toString',
         'toString(): String', arkTsAveragedTime);
@@ -511,8 +511,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.compareTo(doubleObj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'compareTo',
         'compareTo(other: Double): int', arkTsAveragedTime);
@@ -526,8 +526,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.isNaN();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isNaN',
         'isNaN(): boolean', arkTsAveragedTime);
@@ -541,8 +541,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.isFinite();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isFinite',
         'isFinite(): boolean', arkTsAveragedTime);
@@ -556,8 +556,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.isInteger();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isInteger',
         'isInteger(): boolean', arkTsAveragedTime);
@@ -571,8 +571,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.isSafeInteger();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isSafeInteger',
         'isSafeInteger(): boolean', arkTsAveragedTime);
@@ -587,8 +587,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.add(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'add',
         'add(other: Double): Double', arkTsAveragedTime);
@@ -603,8 +603,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.sub(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'sub',
         'sub(other: Double): Double', arkTsAveragedTime);
@@ -619,8 +619,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.mul(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'mul',
         'mul(other: Double): Double', arkTsAveragedTime);
@@ -635,8 +635,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.div(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'div',
         'div(other: Double): Double', arkTsAveragedTime);
@@ -651,8 +651,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.isLessThan(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isLessThan',
         'isLessThan(other: Double): boolean', arkTsAveragedTime);
@@ -667,8 +667,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.isLessEqualThan(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isLessEqualThan',
         'isLessEqualThan(other: Double): boolean', arkTsAveragedTime);
@@ -683,8 +683,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.isGreaterThan(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isGreaterThan',
         'isGreaterThan(other: Double): boolean', arkTsAveragedTime);
@@ -699,8 +699,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.isGreaterEqualThan(other);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'isGreaterEqualThan',
         'isGreaterEqualThan(other: Double): boolean', arkTsAveragedTime);
@@ -714,8 +714,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.equals(doubleObj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'equals',
         'equals(other: Any): boolean', arkTsAveragedTime);
@@ -729,8 +729,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toExponential();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toExponential',
         'toExponential(): String', arkTsAveragedTime);
@@ -744,8 +744,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toPrecision(4);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_2400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toPrecision',
         'toPrecision(d: double): String', arkTsAveragedTime);
@@ -759,8 +759,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toFixed(3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_2500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toFixed',
         'toFixed(d?: double): String', arkTsAveragedTime);
@@ -774,8 +774,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toLocaleString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toLocaleString',
         'toLocaleString(locales?: Intl.LocalesArgument, options?: Intl.NumberFormatOptions): String', arkTsAveragedTime);
@@ -790,8 +790,8 @@ export default function DoublePerfTest(): void {
         res = Double.MAX_SAFE_INTEGER;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'MAX_SAFE_INTEGER',
         'static readonly MAX_SAFE_INTEGER: double', arkTsAveragedTime);
@@ -804,8 +804,8 @@ export default function DoublePerfTest(): void {
         res = Double.MIN_SAFE_INTEGER;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'MIN_SAFE_INTEGER',
         'static readonly MIN_SAFE_INTEGER: double', arkTsAveragedTime);
@@ -818,8 +818,8 @@ export default function DoublePerfTest(): void {
         res = Double.BIT_SIZE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'BIT_SIZE',
         'static readonly BIT_SIZE: byte', arkTsAveragedTime);
@@ -832,8 +832,8 @@ export default function DoublePerfTest(): void {
         res = Double.BYTE_SIZE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'BYTE_SIZE',
         'static readonly BYTE_SIZE: byte', arkTsAveragedTime);
@@ -846,8 +846,8 @@ export default function DoublePerfTest(): void {
         res = Double.PRECISION;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'PRECISION',
         'static readonly PRECISION: byte', arkTsAveragedTime);
@@ -860,8 +860,8 @@ export default function DoublePerfTest(): void {
         res = Double.DELTA;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'DELTA',
         'static readonly DELTA: double', arkTsAveragedTime);
@@ -874,8 +874,8 @@ export default function DoublePerfTest(): void {
         res = Double.EPSILON;
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Property_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'EPSILON',
         'static readonly EPSILON: double', arkTsAveragedTime);
@@ -890,8 +890,8 @@ export default function DoublePerfTest(): void {
         res = Double.$_invoke(123.45);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', '$_invoke',
         'static $_invoke(value: String | Number | BigInt | undefined | null): Number', arkTsAveragedTime);
@@ -904,8 +904,8 @@ export default function DoublePerfTest(): void {
         res = Double.toString(255.0, 16 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toString',
         'static toString(d: double, r: int): String', arkTsAveragedTime);
@@ -918,8 +918,8 @@ export default function DoublePerfTest(): void {
         res = Double.parseInt('255', 16 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'parseInt',
         'static parseInt(s: String, r: int): double', arkTsAveragedTime);
@@ -932,8 +932,8 @@ export default function DoublePerfTest(): void {
         res = Double.parseInt('255', 16.0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'parseInt',
         'static parseInt(s: String, r: double): double', arkTsAveragedTime);
@@ -946,8 +946,8 @@ export default function DoublePerfTest(): void {
         res = Double.bitCastFromLong(0x3ff0000000000000 as long);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'bitCastFromLong',
         'static bitCastFromLong(bits: long): double', arkTsAveragedTime);
@@ -960,8 +960,8 @@ export default function DoublePerfTest(): void {
         res = Double.bitCastToLong(1.5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Static_Method_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'bitCastToLong',
         'static bitCastToLong(val: double): long', arkTsAveragedTime);
@@ -977,8 +977,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toString(16 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_2700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toString',
         'toString(r: int): String', arkTsAveragedTime);
@@ -992,8 +992,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toExponential(2.0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_2800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toExponential',
         'toExponential(d?: double): String', arkTsAveragedTime);
@@ -1007,8 +1007,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toPrecision();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_2900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toPrecision',
         'toPrecision(): String', arkTsAveragedTime);
@@ -1022,8 +1022,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toFixed();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_3000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toFixed',
         'toFixed(): String', arkTsAveragedTime);
@@ -1037,8 +1037,8 @@ export default function DoublePerfTest(): void {
         res = doubleObj.toLocaleString(undefined, {} as object);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Double_Instance_Method_3100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Double', 'toLocaleString',
         'toLocaleString(locales?: Intl.LocalesArgument, options?: object): String', arkTsAveragedTime);

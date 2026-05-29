@@ -56,8 +56,8 @@ export default function WeakRefPerfTest(): void {
         ref = new WeakRef<object>({});
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = ref;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = ref;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakRef_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'WeakRef', 'constructor',
         'constructor(target: T)', arkTsAveragedTime);
@@ -74,8 +74,8 @@ export default function WeakRefPerfTest(): void {
         res = ref.deref();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakRef_deref_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'WeakRef', 'deref',
         'deref(): T | undefined', arkTsAveragedTime);

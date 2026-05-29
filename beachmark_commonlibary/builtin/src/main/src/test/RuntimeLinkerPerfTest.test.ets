@@ -72,8 +72,8 @@ export default function RuntimeLinkerPerfTest(): void {
         res = new TestRuntimeLinker();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RuntimeLinker_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RuntimeLinker', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -88,8 +88,8 @@ export default function RuntimeLinkerPerfTest(): void {
         res = linker.findLoadedClass("TestClass");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RuntimeLinker_findLoadedClass_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RuntimeLinker', 'findLoadedClass',
         'findLoadedClass(clsName: string): Class | undefined', arkTsAveragedTime);
@@ -140,8 +140,8 @@ export default function RuntimeLinkerPerfTest(): void {
         res = linker.getType(td);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RuntimeLinker_getType_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RuntimeLinker', 'getType',
         'getType(td: TypeDescriptor): Type | undefined', arkTsAveragedTime);

@@ -55,8 +55,8 @@ export default function RuntimeLinkerErrorsPerfTest(): void {
         res = new LinkerError("test message", undefined);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
@@ -70,8 +70,8 @@ export default function RuntimeLinkerErrorsPerfTest(): void {
         res = new LinkerVerificationError("verification failed");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerVerificationError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerVerificationError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
@@ -85,8 +85,8 @@ export default function RuntimeLinkerErrorsPerfTest(): void {
         res = new LinkerUnresolvedClassError("class not found");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerUnresolvedClassError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerUnresolvedClassError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
@@ -100,8 +100,8 @@ export default function RuntimeLinkerErrorsPerfTest(): void {
         res = new LinkerUnresolvedFieldError("field not found");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerUnresolvedFieldError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerUnresolvedFieldError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
@@ -115,8 +115,8 @@ export default function RuntimeLinkerErrorsPerfTest(): void {
         res = new LinkerUnresolvedMethodError("method not found");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerUnresolvedMethodError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerUnresolvedMethodError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
@@ -130,8 +130,8 @@ export default function RuntimeLinkerErrorsPerfTest(): void {
         res = new LinkerBadSupertypeError("bad supertype");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerBadSupertypeError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerBadSupertypeError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
@@ -145,8 +145,8 @@ export default function RuntimeLinkerErrorsPerfTest(): void {
         res = new LinkerTypeCircularityError("type circularity detected");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerTypeCircularityError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerTypeCircularityError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
@@ -160,8 +160,8 @@ export default function RuntimeLinkerErrorsPerfTest(): void {
         res = new LinkerMethodConflictError("method conflict");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerMethodConflictError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerMethodConflictError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
@@ -175,8 +175,8 @@ export default function RuntimeLinkerErrorsPerfTest(): void {
         res = new LinkerAbstractMethodError("abstract method not implemented");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerAbstractMethodError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerAbstractMethodError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
@@ -190,8 +190,8 @@ export default function RuntimeLinkerErrorsPerfTest(): void {
         res = new LinkerClassNotFoundError("class not found");
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerClassNotFoundError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerClassNotFoundError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);

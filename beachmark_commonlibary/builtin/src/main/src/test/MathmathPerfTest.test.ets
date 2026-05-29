@@ -1495,8 +1495,8 @@ export default function MathmathPerfTest(): void {
         }
 
         let Dtime = new Date().getTime() - Stime;
-        let res1 = value;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        let res1 = value;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_mathmath_seedRandom_0100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.math', 'math', 'seedRandom',

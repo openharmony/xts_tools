@@ -58,8 +58,8 @@ export default function RuntimePerfTest(): void {
         b = Runtime.getHashCode(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = b;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = b;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_getHashCode_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'getHashCode',
@@ -76,8 +76,8 @@ export default function RuntimePerfTest(): void {
         b = Runtime.getHashCodeByValue(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = b;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = b;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_getHashCodeByValue_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'getHashCodeByValue',
@@ -93,8 +93,8 @@ export default function RuntimePerfTest(): void {
         b = Runtime.isLittleEndianPlatform();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = b;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = b;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_isLittleEndianPlatform_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'isLittleEndianPlatform',
@@ -114,8 +114,8 @@ export default function RuntimePerfTest(): void {
        b = Runtime.__getTypeInfo(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = b;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = b;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime___getTypeInfo_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', '__getTypeInfo',
@@ -135,8 +135,8 @@ export default function RuntimePerfTest(): void {
         b = Runtime.addFrontElementsStub(original, front);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = b;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = b;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_addFrontElementsStub_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'addFrontElementsStub',
@@ -155,8 +155,8 @@ export default function RuntimePerfTest(): void {
         b = Runtime.removeFrontElementsStub(original, count);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = b;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = b;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_removeFrontElementsStub_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'removeFrontElementsStub',
@@ -175,8 +175,8 @@ export default function RuntimePerfTest(): void {
         b = Runtime.restArgumentsUnderapplicationStub(rest, required);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = b;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = b;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_restArgumentsUnderapplicationStub_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'restArgumentsUnderapplicationStub',
@@ -196,8 +196,8 @@ export default function RuntimePerfTest(): void {
         b = Runtime.lambdaUnsafeCallStub(fn, r);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = b;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = b;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_lambdaUnsafeCallStub_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'lambdaUnsafeCallStub',
@@ -214,8 +214,8 @@ export default function RuntimePerfTest(): void {
         b = Runtime.toStringStub(a);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = b;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = b;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_toStringStub_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'toStringStub',
@@ -231,8 +231,8 @@ export default function RuntimePerfTest(): void {
         b = Runtime.createNeverError();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = b;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = b;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_createNeverError_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'createNeverError',

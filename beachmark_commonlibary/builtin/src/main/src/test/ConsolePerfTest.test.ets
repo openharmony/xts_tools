@@ -64,8 +64,8 @@ export default function ConsolePerfTest(): void {
         res = Console.getInstance();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_getInstance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'getInstance',
         'public static getInstance(): Console', arkTsAveragedTime);
@@ -79,8 +79,8 @@ export default function ConsolePerfTest(): void {
         con.print(true);
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_print_boolean_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'print',
         'public print(i: boolean): void', arkTsAveragedTime);
@@ -93,8 +93,8 @@ export default function ConsolePerfTest(): void {
         con.print(123);
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_print_int_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'print',
         'public print(i: int): void', arkTsAveragedTime);
@@ -107,8 +107,8 @@ export default function ConsolePerfTest(): void {
         con.print('test');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_print_string_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'print',
         'public print(i: String): void', arkTsAveragedTime);
@@ -122,8 +122,8 @@ export default function ConsolePerfTest(): void {
         con.println('test');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_println_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'println',
         'public println(i: String): void', arkTsAveragedTime);
@@ -136,8 +136,8 @@ export default function ConsolePerfTest(): void {
         con.println(123);
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_println_int_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'println',
         'public println(i: int): void', arkTsAveragedTime);
@@ -151,8 +151,8 @@ export default function ConsolePerfTest(): void {
         con.log('test');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_log_string_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'log',
         'public log(i: String): void', arkTsAveragedTime);
@@ -165,8 +165,8 @@ export default function ConsolePerfTest(): void {
         con.log(123);
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_log_int_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'log',
         'public log(i: int): void', arkTsAveragedTime);
@@ -180,8 +180,8 @@ export default function ConsolePerfTest(): void {
         con.debug('debug message');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_debug_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'debug',
         'public debug(...vals: Any[]): void', arkTsAveragedTime);
@@ -194,8 +194,8 @@ export default function ConsolePerfTest(): void {
         con.info('info message');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_info_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'info',
         'public info(...vals: Any[]): void', arkTsAveragedTime);
@@ -208,8 +208,8 @@ export default function ConsolePerfTest(): void {
         con.warn('warn message');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_warn_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'warn',
         'public warn(...vals: Any[]): void', arkTsAveragedTime);
@@ -222,8 +222,8 @@ export default function ConsolePerfTest(): void {
         con.error('error message');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_error_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'error',
         'public error(...vals: Any[]): void', arkTsAveragedTime);
@@ -237,8 +237,8 @@ export default function ConsolePerfTest(): void {
         con.assert(true);
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_assert_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'assert',
         'public assert(...vals: Any[]): void', arkTsAveragedTime);
@@ -252,8 +252,8 @@ export default function ConsolePerfTest(): void {
         con.count('test');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_count_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'count',
         'public count(label?: string): void', arkTsAveragedTime);
@@ -266,8 +266,8 @@ export default function ConsolePerfTest(): void {
         con.countReset('test');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_countReset_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'countReset',
         'public countReset(label?: string): void', arkTsAveragedTime);
@@ -281,8 +281,8 @@ export default function ConsolePerfTest(): void {
         con.time('timer');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_time_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'time',
         'public time(label?: string): void', arkTsAveragedTime);
@@ -318,8 +318,8 @@ export default function ConsolePerfTest(): void {
         con.group('group');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_group_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'group',
         'public group(...objs: Any[]): void', arkTsAveragedTime);
@@ -332,8 +332,8 @@ export default function ConsolePerfTest(): void {
         con.trace('trace message');
       }
       let Dtime = new Date().getTime() - Stime;
-	  let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+	  let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_trace_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'trace',
         'public trace(...data: Any[]): void', arkTsAveragedTime);
@@ -348,8 +348,8 @@ export default function ConsolePerfTest(): void {
         con.print(longVar);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_print_long_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'print',
         'public print(i: long): void', arkTsAveragedTime);
@@ -362,8 +362,8 @@ export default function ConsolePerfTest(): void {
         con.print(3.14f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_print_float_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'print',
         'public print(i: float): void', arkTsAveragedTime);
@@ -376,8 +376,8 @@ export default function ConsolePerfTest(): void {
         con.print(2.71828);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_print_double_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'print',
         'public print(i: double): void', arkTsAveragedTime);
@@ -391,8 +391,8 @@ export default function ConsolePerfTest(): void {
         con.println();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_println_void_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'println',
         'public println(): void', arkTsAveragedTime);
@@ -405,8 +405,8 @@ export default function ConsolePerfTest(): void {
         con.println(true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_println_boolean_2400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'println',
         'public println(i: boolean): void', arkTsAveragedTime);
@@ -420,8 +420,8 @@ export default function ConsolePerfTest(): void {
         con.println(longVar);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_println_long_2500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'println',
         'public println(i: long): void', arkTsAveragedTime);
@@ -434,8 +434,8 @@ export default function ConsolePerfTest(): void {
         con.println(3.14159);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_println_double_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'println',
         'public println(i: double): void', arkTsAveragedTime);
@@ -449,8 +449,8 @@ export default function ConsolePerfTest(): void {
         con.log();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_log_void_2700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'log',
         'public log(): void', arkTsAveragedTime);
@@ -463,8 +463,8 @@ export default function ConsolePerfTest(): void {
         con.log(true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_log_boolean_2800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'log',
         'public log(i: boolean): void', arkTsAveragedTime);
@@ -478,8 +478,8 @@ export default function ConsolePerfTest(): void {
         con.log(longVar);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_log_long_2900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'log',
         'public log(i: long): void', arkTsAveragedTime);
@@ -492,8 +492,8 @@ export default function ConsolePerfTest(): void {
         con.log('msg', 123, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_log_variadic_3000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'log',
         'public log(...vals: Any[]): void', arkTsAveragedTime);
@@ -508,8 +508,8 @@ export default function ConsolePerfTest(): void {
         con.dir(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_dir_3100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'dir',
         'public dir(obj?: Any): void', arkTsAveragedTime);
@@ -522,8 +522,8 @@ export default function ConsolePerfTest(): void {
         con.dirxml('xml data');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_dirxml_3200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'dirxml',
         'public dirxml(...obj: Any[]): void', arkTsAveragedTime);
@@ -537,8 +537,8 @@ export default function ConsolePerfTest(): void {
         con.groupEnd();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_groupEnd_3300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'groupEnd',
         'public groupEnd(): void', arkTsAveragedTime);
@@ -551,8 +551,8 @@ export default function ConsolePerfTest(): void {
         con.groupCollapsed('collapsed group');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_groupCollapsed_3400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'groupCollapsed',
         'public groupCollapsed(...objs: Any[]): void', arkTsAveragedTime);
@@ -573,8 +573,8 @@ export default function ConsolePerfTest(): void {
         con.table(data);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_table_3500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'table',
         'public table(...data: Any[]): void', arkTsAveragedTime);
@@ -589,8 +589,8 @@ export default function ConsolePerfTest(): void {
         con.timeLog('testTimer');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_timeLog_3600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'timeLog',
         'public timeLog(label?: string, ...arguments: Object[]): void', arkTsAveragedTime);
@@ -604,8 +604,8 @@ export default function ConsolePerfTest(): void {
         con.print(127 as byte);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_print_byte_3700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'print',
         'public print(i: byte): void', arkTsAveragedTime);
@@ -618,8 +618,8 @@ export default function ConsolePerfTest(): void {
         con.println(100 as byte);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_println_byte_3800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'println',
         'public println(i: byte): void', arkTsAveragedTime);
@@ -632,8 +632,8 @@ export default function ConsolePerfTest(): void {
         con.log(65 as byte);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_log_byte_3900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'log',
         'public log(i: byte): void', arkTsAveragedTime);
@@ -647,8 +647,8 @@ export default function ConsolePerfTest(): void {
         con.print(32767 as short);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_print_short_4000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'print',
         'public print(i: short): void', arkTsAveragedTime);
@@ -661,8 +661,8 @@ export default function ConsolePerfTest(): void {
         con.println(12345 as short);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_println_short_4100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'println',
         'public println(i: short): void', arkTsAveragedTime);
@@ -675,8 +675,8 @@ export default function ConsolePerfTest(): void {
         con.log(9999 as short);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_log_short_4200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'log',
         'public log(i: short): void', arkTsAveragedTime);
@@ -690,8 +690,8 @@ export default function ConsolePerfTest(): void {
         con.print('A');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_print_char_4300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'print',
         'public print(i: char): void', arkTsAveragedTime);
@@ -704,8 +704,8 @@ export default function ConsolePerfTest(): void {
         con.println('Z');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_println_char_4400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'println',
         'public println(i: char): void', arkTsAveragedTime);
@@ -718,8 +718,8 @@ export default function ConsolePerfTest(): void {
         con.log('M');
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = con;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = con;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Console_log_char_4500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'log',
         'public log(i: char): void', arkTsAveragedTime);
