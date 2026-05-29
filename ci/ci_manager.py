@@ -155,7 +155,6 @@ class XTSManager(Ci_Manager):
 
 
 class WhitelistManager(Ci_Manager):
-
     def __init__(self, xts_root_dir, code_root_dir, suite_type):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
@@ -164,56 +163,65 @@ class WhitelistManager(Ci_Manager):
         self.full_impact_flag = "FULL_IMPACT"
         self.full_impact_flag_totally = "FULL_IMPACT_TOTALLY"
         self._suite_type = suite_type
+        self._suite_name = XTSTargetUtils.get_suite_name(xts_root_dir)
 
     def get_targets_from_change(self, change_list):
-        for changeFileEntity in change_list:
-            if changeFileEntity.path not in MatchConfig.get_xts_path_list():
-                ret = self.getTargetsandPaths(changeFileEntity)
+        for chg_file_entity in change_list:
+            if chg_file_entity.path not in MatchConfig.get_xts_path_list():
+                ret = self.get_targets_and_paths(chg_file_entity)
                 if ret == 1:
                     return 1
         return 0
 
-    def getTargetsandPaths(self, change_file_entity):
+    def get_targets_and_paths(self, chg_file_entity):
         white_list = MatchConfig.get_white_list_repo()
-        if change_file_entity.path not in white_list:
+        if chg_file_entity.path not in white_list:
             return 0
-        change_file_entity.set_already_match_utils(True)
-        whitelist_item = white_list.get(change_file_entity.path)
-        if whitelist_item.get("subdirectory"):
-            self.getTargetsandPathsOfSubdirectory(change_file_entity, whitelist_item.get("subdirectory"))
+        chg_file_entity.set_already_match_utils(True)
+        whitelist_item = white_list.get(chg_file_entity.path)
+        subdirs = whitelist_item.get("subdirectory")
+        if subdirs:
+            self.get_targets_and_paths_from_subdirs(chg_file_entity, subdirs)
         else:
-            self.getTargetsAndPathsByCfg(
+            self.get_targets_and_paths_by_cfg(
                 whitelist_item.get("suite_type"), whitelist_item.get("add_bundle"), whitelist_item.get("add_target"))
         return 0
 
-    def getTargetsandPathsOfSubdirectory(self, change_file_entity, whitelist_subdir):
-        change_file_list = change_file_entity.add + change_file_entity.modified + change_file_entity.delete
-        for path in whitelist_subdir:
-            isMatch = False
-            for file in change_file_list:
-                if file.startswith(path):
-                    isMatch = True
+    def get_targets_and_paths_from_subdirs(self, chg_file_entity, subdirs):
+        chg_files = chg_file_entity.add + chg_file_entity.modified + chg_file_entity.delete
+        for dir in subdirs:
+            matched = False
+            for file in chg_files:
+                if file.startswith(dir):
+                    matched = True
                     break
-            if not isMatch:
+            if not matched:
                 continue
 
-            config = whitelist_subdir.get(path)
-            self.getTargetsAndPathsByCfg(config.get("suite_type"), config.get("add_bundle"), config.get("add_target"))
+            config = subdirs.get(dir)
+            self.get_targets_and_paths_by_cfg(config.get("suite_type"), config.get("add_bundle"), config.get("add_target"))
 
-    def getTargetsAndPathsByCfg(self, suite_type, add_bundle, add_target):
+    def _check_conflict_targets(self, suite_targets):
+        targets = set(suite_targets)
+        x_flags = {self.full_impact_flag, self.full_impact_flag_totally}
+        if set(x_flags) & targets and len(targets) != 1:
+            print(f'[ERROR] These flags are exclusive: {x_flags}, '
+                  f'when set, do make sure the flag is the only target in the configuration.')
+            sys.exit(1)
+
+    def get_targets_and_paths_by_cfg(self, suite_type, add_bundle, add_target):
         if suite_type and not list(set(suite_type) & set(self._suite_type)):
             return
         targets = []
-        if add_target:
-            if add_target[0] == self.full_impact_flag:
+        suite_targets = add_target.get(self._suite_name) if add_target else None
+        if suite_targets:
+            self._check_conflict_targets(suite_targets)
+            if self.full_impact_flag in suite_targets:
                 targets = PathUtils.get_all_build_target(self._xts_root_dir, 0)
-            if add_target[0] == self.full_impact_flag_totally:
+            elif self.full_impact_flag_totally in suite_targets:
                 targets = PathUtils.get_all_build_target(self._xts_root_dir, 1)
             else:
-                xts_parts = "/".join([p for p in os.path.normpath(self._xts_root_dir).split(os.sep) if p][-3:])
-                for target in add_target:
-                    if xts_parts in target:
-                        targets.append(target)
+                targets += XTSTargetUtils.filter_suite_targets(self._suite_name, suite_targets)
         if add_bundle:
             paths = XTSTargetUtils.getPathsByBundle(add_bundle, self._xts_root_dir)
             if paths:
@@ -223,7 +231,6 @@ class WhitelistManager(Ci_Manager):
 
 
 class GetInterfaceData(Ci_Manager):
-
     def __init__(self, xts_root_dir, code_root_dir, suite_type):
         self._xts_root_dir = xts_root_dir
         self._code_root_dir = code_root_dir
@@ -234,6 +241,7 @@ class GetInterfaceData(Ci_Manager):
         self.match_path_list = []
         self.no_match_path_list = []
         self._suite_type = suite_type
+        self._suite_name = XTSTargetUtils.get_suite_name(xts_root_dir)
 
     # 截取路径
     def get_first_levels_path(self, path, num):
@@ -243,89 +251,86 @@ class GetInterfaceData(Ci_Manager):
 
     def path_error(self, path_list):
         if len(path_list) > 0:
-            raise Exception('error: Failed to obtain interface file ownership, Please config in test/xts/tools/config/ci_api_part_name.json')
+            print('[ERROR] Failed to obtain interface file ownership, Please config in test/xts/tools/config/ci_api_part_name.json')
+            for path in path_list:
+                print("[ERROR] Cannot match path {}".format(path))
+            sys.exit(1)
 
     def get_targets_from_change(self, change_list):
         for store in change_list:
             if store.path in MatchConfig.get_interface_path_list() and "hap_static" in self._suite_type:
-                self._build_targets = "xts_{}".format(os.path.basename(self._xts_root_dir))
+                self._build_targets = ["xts_{}".format(os.path.basename(self._xts_root_dir))]
                 return
-        if "acts" in self._xts_root_dir:
-            # 分开处理三个 interface 仓
-            self.get_c_bundle_name(change_list, MatchConfig.get_interface_json_c_data())
-            self.get_driver_interface_bundle_name(change_list, MatchConfig.get_interface_json_driver_interface_data())
-            self.get_js_bundle_name(change_list, MatchConfig.get_interface_json_js_data())
-            # 筛选出未匹配路径
-            for path in self.sum_change_list_path:
-                if path not in self.match_path_list:
-                    self.no_match_path_list.append(path)
 
-            self.bundle_name_list = list(set(self.bundle_name_list))
-            self._build_targets = list(set(self._build_targets))
-            print('INTERFACE_BUNDLE_NAME = ', self.bundle_name_list)
+        # 处理三个 interface 仓
+        self.append_bundles_and_targets(change_list,
+                                        MatchConfig.get_interface_path_list()[0],
+                                        MatchConfig.get_interface_json_js_data())
+        self.append_bundles_and_targets(change_list,
+                                        MatchConfig.get_interface_path_list()[1],
+                                        MatchConfig.get_interface_json_c_data())
+        self.append_bundles_and_targets(change_list,
+                                        MatchConfig.get_interface_path_list()[2],
+                                        MatchConfig.get_interface_json_driver_interface_data())
+        self.append_extra_from_driver_interface(change_list, MatchConfig.get_interface_path_list()[2])
 
-            # 抛出未匹配到 bundle_name 的路径
-            try:
-                self.path_error(self.no_match_path_list)
-            except Exception as e:
-                print(e)
-                for path in self.no_match_path_list:
-                    print("error: Cannot match path {}".format(path))
-                sys.exit(1)
+        # 筛选出未匹配路径
+        for path in self.sum_change_list_path:
+            if path not in self.match_path_list:
+                self.no_match_path_list.append(path)
 
-            # 根据bundle_name 查找对应 build_paths
-            self._build_paths = XTSTargetUtils.getPathsByBundle(self.bundle_name_list, self._xts_root_dir)
-        else:
-            for change in change_list:
-                if change.path in MatchConfig.get_interface_path_list():
-                    self._build_targets += PathUtils.get_all_build_target(self._xts_root_dir)
-                    return
+        self.bundle_name_list = list(set(self.bundle_name_list))
+        self._build_targets = list(set(self._build_targets))
+        print('INTERFACE_BUNDLE_NAME = ', self.bundle_name_list)
 
-    # 处理 interface/sdk-js 仓
-    def get_js_bundle_name(self, change_list, js_json_data):
-        # 获取 change_list interface/sdk-js 仓数据
-        for store in change_list:
-            if store.path != MatchConfig.get_interface_path_list()[0]:
+        # 抛出未匹配到 bundle_name 的路径
+        self.path_error(self.no_match_path_list)
+
+        # 根据bundle_name 查找对应 build_paths
+        self._build_paths = XTSTargetUtils.getPathsByBundle(self.bundle_name_list, self._xts_root_dir)
+
+    def _check_config_integrity(self, path, bundle_name, build_targets):
+        if not bundle_name and not build_targets:
+            print(f'[WARN] Interface file {path} has neither bundle_name nor '
+                  f'build_targets configured for the current suite ({self._suite_name})')
+
+    # 接口仓统一处理逻辑
+    def append_bundles_and_targets(self, change_list, interface_path, interface_configs):
+        for chg in change_list:
+            if chg.path != interface_path:
                 continue
-            paths = store.add + store.modified + store.delete
-            self.sum_change_list_path += paths
-            targete_data = [data for data in js_json_data if data['path'] in paths]
-            for _data in targete_data:
-                store.set_already_match_utils(True)
-                self.match_path_list.append(_data.get('path'))
-                # 找出 bundle_name 加入 self.bundle_name_list
-                self.bundle_name_list += _data.get('bundle_name')                
-                # 针对 interface/sdk-js/kits、interface/sdk-js/arkts 在配置文件中查找 build_target
-                self._build_targets += _data.get('build_targets')
-            # 根据路径匹配
-            for path in paths:
-                for source_path in js_json_data:
-                    if PathUtils.is_parent_path(source_path.get('path'), path):
-                        self.match_path_list.append(path)
-                        store.set_already_match_utils(True)
-                        self.bundle_name_list += source_path.get('bundle_name')
+            for path in chg.add + chg.modified + chg.delete:
+                self.sum_change_list_path.append(path)
+                for conf in interface_configs:
+                    # 路径 && 目录均不匹配
+                    if path != conf.get('path') and not \
+                        PathUtils.is_parent_path(conf.get('path'), path):
+                        continue
 
-    # 处理 driver_interface 仓
-    def get_driver_interface_bundle_name(self, change_list, driver_interface_json_data):
+                    self.match_path_list.append(path)
+                    chg.set_already_match_utils(True)
+
+                    bundle_names = conf.get('bundle_name', [])
+                    build_targets = XTSTargetUtils.filter_suite_targets(self._suite_name,
+                                                                        conf.get('build_targets', {}).get(self._suite_name, []))
+                    self._check_config_integrity(path, bundle_names, build_targets)
+
+                    self.bundle_name_list += bundle_names
+                    self._build_targets += build_targets
+
+    # driver_interface 仓额外处理逻辑
+    def append_extra_from_driver_interface(self, change_list, interface_path):
         add_bundle_json_path = []
-        for store in change_list:
+        for chg in change_list:
             # 获取 change_list driver_interface 仓数据
-            if store.path != MatchConfig.get_interface_path_list()[2]:
+            if chg.path != interface_path:
                 continue
-            for path in store.add + store.modified + store.delete:
-                    self.sum_change_list_path.append(path)
-                    for source_path in driver_interface_json_data:
-                        # 从 drivers/interface 下第一级目录截取路径在配置文件中查找 bundle_name
-                        if PathUtils.is_parent_path(source_path.get('path'), path):
-                            store.set_already_match_utils(True)
-                            self.bundle_name_list += source_path.get('bundle_name')
-                            self.match_path_list.append(path)
 
             # 查看新增目录下是否有 bundle.json
-            for path in store.add:                
+            for path in chg.add:
                 if os.path.basename(path) == 'bundle.json':
                     try:
-                        # 发现 bundle.json 后进去文件寻找 bundle_name  
+                        # 发现 bundle.json 后进去文件寻找 bundle_name
                         with open(os.path.abspath(__file__).split('/test/')[0] + '/' + path, 'r') as d:
                             for k, v in json.load(d).items():
                                 if k == 'component':
@@ -335,29 +340,11 @@ class GetInterfaceData(Ci_Manager):
                         sys.exit(1)
 
             # 处理新增目录下其他文件
-            for path in store.add: 
+            for path in chg.add:
+                if path in self.match_path_list:
+                    continue
                 for path_name in add_bundle_json_path:
                     if self.get_first_levels_path(path, 3) == self.get_first_levels_path(path_name[0], 3):
                         self.match_path_list.append(path)
-                        store.set_already_match_utils(True)
+                        chg.set_already_match_utils(True)
                         self.bundle_name_list.append(path_name[1])
-
-    # 处理 interface/sdk_c 仓
-    def get_c_bundle_name(self, change_list, c_json_data):
-        for store in change_list:
-            # 获取 change_list interface/sdk_c 仓数据
-            if store.path != MatchConfig.get_interface_path_list()[1]:
-                continue
-            for path in store.add + store.modified + store.delete:
-                self.sum_change_list_path.append(path)
-                for source_path in c_json_data:
-                    # 根据目录匹配
-                    if PathUtils.is_parent_path(source_path.get('path'), path):
-                        self.match_path_list.append(path)
-                        store.set_already_match_utils(True)
-                        self.bundle_name_list += source_path.get('bundle_name')
-                    # 根据文件匹配
-                    elif path == source_path.get('path'):
-                        self.match_path_list.append(path)
-                        store.set_already_match_utils(True)
-                        self.bundle_name_list += source_path.get('bundle_name')

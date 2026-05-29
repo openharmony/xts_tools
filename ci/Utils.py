@@ -251,6 +251,31 @@ class MatchConfig:
 
 
 class XTSTargetUtils:
+    @staticmethod
+    def get_suite_name(xts_root_dir):
+        valid_suites = {'acts', 'dcts', 'hats', 'hits'}
+        suite_name = os.environ.get('XTS_SUITENAME') or \
+                     os.environ.get('xts_suitename') or \
+                     os.path.normpath(xts_root_dir).split(os.sep)[-1]
+        return suite_name if suite_name in valid_suites else 'acts'
+
+    @staticmethod
+    def filter_suite_targets(suite_name, targets: list):
+        results = []
+        if not targets:
+            return results
+        for tgt in set(targets):
+            # canonical
+            if ':' in tgt:
+                if f'test/xts/{suite_name}' in tgt:
+                    results.append(tgt)
+                else:
+                    print(f'[ERROR] {tgt} not belong to xts {suite_name} suite')
+                    sys.exit(1)
+            else:
+                # shorthand
+                results.append(tgt)
+        return results
 
     @staticmethod
     def get_current_Build(xts_root_dir, current_dir):
