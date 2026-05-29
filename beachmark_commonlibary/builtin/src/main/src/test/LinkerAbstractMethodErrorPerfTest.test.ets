@@ -53,8 +53,8 @@ export default function LinkerAbstractMethodErrorPerfTest(): void {
         err = new LinkerAbstractMethodError("test message");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = err;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerAbstractMethodError_constructor_0100 : ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerAbstractMethodError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);

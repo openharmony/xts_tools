@@ -56,8 +56,8 @@ export default function DataViewPerfTest(): void {
         res = new DataView(buffer);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'constructor',
         'function constructor(buffer: ArrayBuffer)', arkTsAveragedTime);
@@ -71,8 +71,8 @@ export default function DataViewPerfTest(): void {
         res = new DataView(buffer, 4);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'constructor',
         'function constructor(buffer: ArrayBuffer, byteOffset: int)', arkTsAveragedTime);
@@ -86,8 +86,8 @@ export default function DataViewPerfTest(): void {
         res = new DataView(buffer, 4, 8);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'constructor',
         'function constructor(buffer: ArrayBuffer, byteOffset: int, byteLength: int)', arkTsAveragedTime);
@@ -103,8 +103,8 @@ export default function DataViewPerfTest(): void {
         res = view.buffer;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Property_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'buffer',
         'get buffer(): ArrayBuffer', arkTsAveragedTime);
@@ -119,8 +119,8 @@ export default function DataViewPerfTest(): void {
         res = view.byteLength;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Property_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'byteLength',
         'get byteLength(): int', arkTsAveragedTime);
@@ -135,8 +135,8 @@ export default function DataViewPerfTest(): void {
         res = view.byteOffset;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Property_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'byteOffset',
         'get byteOffset(): int', arkTsAveragedTime);
@@ -152,8 +152,8 @@ export default function DataViewPerfTest(): void {
         res = view.getInt8(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int8_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getInt8',
         'getInt8(byteOffset: int): int', arkTsAveragedTime);
@@ -167,8 +167,8 @@ export default function DataViewPerfTest(): void {
         view.setInt8(0, 100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int8_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setInt8',
         'setInt8(byteOffset: int, value: int): void', arkTsAveragedTime);
@@ -182,8 +182,8 @@ export default function DataViewPerfTest(): void {
         view.setInt8(0, 100.5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int8_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setInt8',
         'setInt8(byteOffset: int, value: number): void', arkTsAveragedTime);
@@ -199,8 +199,8 @@ export default function DataViewPerfTest(): void {
         res = view.getUint8(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint8_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getUint8',
         'getUint8(byteOffset: int): int', arkTsAveragedTime);
@@ -214,8 +214,8 @@ export default function DataViewPerfTest(): void {
         view.setUint8(0, 200);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint8_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setUint8',
         'setUint8(byteOffset: int, value: int): void', arkTsAveragedTime);
@@ -229,8 +229,8 @@ export default function DataViewPerfTest(): void {
         view.setUint8(0, 200.5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint8_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setUint8',
         'setUint8(byteOffset: int, value: number): void', arkTsAveragedTime);
@@ -246,8 +246,8 @@ export default function DataViewPerfTest(): void {
         res = view.getInt16(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int16_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getInt16',
         'getInt16(byteOffset: int): int', arkTsAveragedTime);
@@ -262,8 +262,8 @@ export default function DataViewPerfTest(): void {
         res = view.getInt16(0, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int16_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getInt16',
         'getInt16(byteOffset: int, littleEndian?: boolean): int', arkTsAveragedTime);
@@ -277,8 +277,8 @@ export default function DataViewPerfTest(): void {
         view.setInt16(0, 1000);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int16_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setInt16',
         'setInt16(byteOffset: int, value: int): void', arkTsAveragedTime);
@@ -292,8 +292,8 @@ export default function DataViewPerfTest(): void {
         view.setInt16(0, 1000, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int16_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setInt16',
         'setInt16(byteOffset: int, value: int, littleEndian: boolean): void', arkTsAveragedTime);
@@ -307,8 +307,8 @@ export default function DataViewPerfTest(): void {
         view.setInt16(0, 1000.5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int16_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setInt16',
         'setInt16(byteOffset: int, value: number, littleEndian?: boolean): void', arkTsAveragedTime);
@@ -322,8 +322,8 @@ export default function DataViewPerfTest(): void {
         view.setInt16(0, 1000.5, false);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int16_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setInt16',
         'setInt16(byteOffset: int, value: number, littleEndian: boolean): void', arkTsAveragedTime);
@@ -339,8 +339,8 @@ export default function DataViewPerfTest(): void {
         res = view.getUint16(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint16_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getUint16',
         'getUint16(byteOffset: int): int', arkTsAveragedTime);
@@ -355,8 +355,8 @@ export default function DataViewPerfTest(): void {
         res = view.getUint16(0, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint16_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getUint16',
         'getUint16(byteOffset: int, littleEndian?: boolean): int', arkTsAveragedTime);
@@ -370,8 +370,8 @@ export default function DataViewPerfTest(): void {
         view.setUint16(0, 50000);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint16_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setUint16',
         'setUint16(byteOffset: int, value: int): void', arkTsAveragedTime);
@@ -385,8 +385,8 @@ export default function DataViewPerfTest(): void {
         view.setUint16(0, 50000, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	   let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint16_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setUint16',
         'setUint16(byteOffset: int, value: int, littleEndian: boolean): void', arkTsAveragedTime);
@@ -400,8 +400,8 @@ export default function DataViewPerfTest(): void {
         view.setUint16(0, 50000.5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint16_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setUint16',
         'setUint16(byteOffset: int, value: number, littleEndian?: boolean): void', arkTsAveragedTime);
@@ -415,8 +415,8 @@ export default function DataViewPerfTest(): void {
         view.setUint16(0, 50000.5, false);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint16_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setUint16',
         'setUint16(byteOffset: int, value: number, littleEndian: boolean): void', arkTsAveragedTime);
@@ -432,8 +432,8 @@ export default function DataViewPerfTest(): void {
         res = view.getInt32(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int32_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getInt32',
         'getInt32(byteOffset: int): int', arkTsAveragedTime);
@@ -448,8 +448,8 @@ export default function DataViewPerfTest(): void {
         res = view.getInt32(0, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int32_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getInt32',
         'getInt32(byteOffset: int, littleEndian?: boolean): int', arkTsAveragedTime);
@@ -463,8 +463,8 @@ export default function DataViewPerfTest(): void {
         view.setInt32(0, 100000);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int32_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setInt32',
         'setInt32(byteOffset: int, value: int): void', arkTsAveragedTime);
@@ -478,8 +478,8 @@ export default function DataViewPerfTest(): void {
         view.setInt32(0, 100000, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int32_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setInt32',
         'setInt32(byteOffset: int, value: int, littleEndian: boolean): void', arkTsAveragedTime);
@@ -493,8 +493,8 @@ export default function DataViewPerfTest(): void {
         view.setInt32(0, 100000.5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int32_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setInt32',
         'setInt32(byteOffset: int, value: number, littleEndian?: boolean): void', arkTsAveragedTime);
@@ -508,8 +508,8 @@ export default function DataViewPerfTest(): void {
         view.setInt32(0, 100000.5, false);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Int32_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setInt32',
         'setInt32(byteOffset: int, value: number, littleEndian: boolean): void', arkTsAveragedTime);
@@ -525,8 +525,8 @@ export default function DataViewPerfTest(): void {
         res = view.getUint32(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint32_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getUint32',
         'getUint32(byteOffset: int): number', arkTsAveragedTime);
@@ -541,8 +541,8 @@ export default function DataViewPerfTest(): void {
         res = view.getUint32(0, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint32_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getUint32',
         'getUint32(byteOffset: int, littleEndian?: boolean): number', arkTsAveragedTime);
@@ -556,8 +556,8 @@ export default function DataViewPerfTest(): void {
         view.setUint32(0, 4000000000);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint32_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setUint32',
         'setUint32(byteOffset: int, value: long): void', arkTsAveragedTime);
@@ -571,8 +571,8 @@ export default function DataViewPerfTest(): void {
         view.setUint32(0, 4000000000, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint32_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setUint32',
         'setUint32(byteOffset: int, value: long, littleEndian: boolean): void', arkTsAveragedTime);
@@ -586,8 +586,8 @@ export default function DataViewPerfTest(): void {
         view.setUint32(0, 4000000000.5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint32_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setUint32',
         'setUint32(byteOffset: int, value: number, littleEndian?: boolean): void', arkTsAveragedTime);
@@ -601,8 +601,8 @@ export default function DataViewPerfTest(): void {
         view.setUint32(0, 4000000000.5, false);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Uint32_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setUint32',
         'setUint32(byteOffset: int, value: number, littleEndian: boolean): void', arkTsAveragedTime);
@@ -618,8 +618,8 @@ export default function DataViewPerfTest(): void {
         res = view.getFloat32(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Float32_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getFloat32',
         'getFloat32(byteOffset: int): number', arkTsAveragedTime);
@@ -634,8 +634,8 @@ export default function DataViewPerfTest(): void {
         res = view.getFloat32(0, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Float32_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getFloat32',
         'getFloat32(byteOffset: int, littleEndian?: boolean): number', arkTsAveragedTime);
@@ -649,8 +649,8 @@ export default function DataViewPerfTest(): void {
         view.setFloat32(0, 3.14159f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Float32_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setFloat32',
         'setFloat32(byteOffset: int, value: float): void', arkTsAveragedTime);
@@ -664,8 +664,8 @@ export default function DataViewPerfTest(): void {
         view.setFloat32(0, 3.14159f, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Float32_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setFloat32',
         'setFloat32(byteOffset: int, value: float, littleEndian: boolean): void', arkTsAveragedTime);
@@ -679,8 +679,8 @@ export default function DataViewPerfTest(): void {
         view.setFloat32(0, 3.14159);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Float32_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setFloat32',
         'setFloat32(byteOffset: int, value: number, littleEndian?: boolean): void', arkTsAveragedTime);
@@ -694,8 +694,8 @@ export default function DataViewPerfTest(): void {
         view.setFloat32(0, 3.14159, false);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Float32_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setFloat32',
         'setFloat32(byteOffset: int, value: number, littleEndian: boolean): void', arkTsAveragedTime);
@@ -711,8 +711,8 @@ export default function DataViewPerfTest(): void {
         res = view.getFloat64(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Float64_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getFloat64',
         'getFloat64(byteOffset: int): number', arkTsAveragedTime);
@@ -727,8 +727,8 @@ export default function DataViewPerfTest(): void {
         res = view.getFloat64(0, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Float64_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getFloat64',
         'getFloat64(byteOffset: int, littleEndian?: boolean): number', arkTsAveragedTime);
@@ -742,8 +742,8 @@ export default function DataViewPerfTest(): void {
         view.setFloat64(0, 2.71828182846);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Float64_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setFloat64',
         'setFloat64(byteOffset: int, value: number): void', arkTsAveragedTime);
@@ -757,8 +757,8 @@ export default function DataViewPerfTest(): void {
         view.setFloat64(0, 2.71828182846, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_Float64_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setFloat64',
         'setFloat64(byteOffset: int, value: number, littleEndian?: boolean): void', arkTsAveragedTime);
@@ -774,8 +774,8 @@ export default function DataViewPerfTest(): void {
         res = view.getBigInt64(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigInt64_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getBigInt64',
         'getBigInt64(byteOffset: int): bigint', arkTsAveragedTime);
@@ -790,8 +790,8 @@ export default function DataViewPerfTest(): void {
         res = view.getBigInt64(0, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigInt64_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getBigInt64',
         'getBigInt64(byteOffset: int, littleEndian?: boolean): bigint', arkTsAveragedTime);
@@ -805,8 +805,8 @@ export default function DataViewPerfTest(): void {
         view.setBigInt64(0, 9007199254740992);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigInt64_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setBigInt64',
         'setBigInt64(byteOffset: int, value: long): void', arkTsAveragedTime);
@@ -820,8 +820,8 @@ export default function DataViewPerfTest(): void {
         view.setBigInt64(0, 9007199254740992, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigInt64_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setBigInt64',
         'setBigInt64(byteOffset: int, value: long, littleEndian: boolean): void', arkTsAveragedTime);
@@ -835,8 +835,8 @@ export default function DataViewPerfTest(): void {
         view.setBigInt64(0, 9007199254740992n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigInt64_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setBigInt64',
         'setBigInt64(byteOffset: int, value: bigint): void', arkTsAveragedTime);
@@ -850,8 +850,8 @@ export default function DataViewPerfTest(): void {
         view.setBigInt64(0, 9007199254740992n, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigInt64_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setBigInt64',
         'setBigInt64(byteOffset: int, value: bigint, littleEndian?: boolean): void', arkTsAveragedTime);
@@ -865,8 +865,8 @@ export default function DataViewPerfTest(): void {
         view.setBigInt64(0, 9007199254740992n, false);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigInt64_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setBigInt64',
         'setBigInt64(byteOffset: int, value: bigint, littleEndian: boolean): void', arkTsAveragedTime);
@@ -882,8 +882,8 @@ export default function DataViewPerfTest(): void {
         res = view.getBigUint64(0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigUint64_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getBigUint64',
         'getBigUint64(byteOffset: int): bigint', arkTsAveragedTime);
@@ -898,8 +898,8 @@ export default function DataViewPerfTest(): void {
         res = view.getBigUint64(0, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigUint64_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'getBigUint64',
         'getBigUint64(byteOffset: int, littleEndian?: boolean): bigint', arkTsAveragedTime);
@@ -913,8 +913,8 @@ export default function DataViewPerfTest(): void {
         view.setBigUint64(0, 18000000000000000000n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigUint64_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setBigUint64',
         'setBigUint64(byteOffset: int, value: bigint): void', arkTsAveragedTime);
@@ -928,8 +928,8 @@ export default function DataViewPerfTest(): void {
         view.setBigUint64(0, 18000000000000000000n, true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigUint64_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setBigUint64',
         'setBigUint64(byteOffset: int, value: bigint, littleEndian?: boolean): void', arkTsAveragedTime);
@@ -944,8 +944,8 @@ export default function DataViewPerfTest(): void {
         view.setBigUint64(0, 18000000000000000000n, false);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	  let res1 = view;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DataView_BigUint64_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DataView', 'setBigUint64',
         'setBigUint64(byteOffset: int, value: bigint, littleEndian: boolean): void', arkTsAveragedTime);

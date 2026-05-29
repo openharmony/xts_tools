@@ -57,8 +57,8 @@ export default function WeakMapPerfTest(): void {
         map = new WeakMap<Object, Object>();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -74,8 +74,8 @@ export default function WeakMapPerfTest(): void {
         map = new WeakMap<Object, Object>(arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'constructor',
         'constructor(entries?: ([K, V])[] | null)', arkTsAveragedTime);
@@ -91,8 +91,8 @@ export default function WeakMapPerfTest(): void {
         map = new WeakMap<Object, Object>(entries as Iterable<[Object, Object]>);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'constructor',
         'constructor(entries: Iterable<[K, V]>)', arkTsAveragedTime);
@@ -110,8 +110,8 @@ export default function WeakMapPerfTest(): void {
         res = wm.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_ToString_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'toString',
         'toString(): String', arkTsAveragedTime);
@@ -126,8 +126,8 @@ export default function WeakMapPerfTest(): void {
         wm.set(key, val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = wm;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Set_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'set',
         'set(key: K, val: V): WeakMap<K, V>', arkTsAveragedTime);
@@ -144,8 +144,8 @@ export default function WeakMapPerfTest(): void {
         res = wm.has(key);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Has_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'has',
         'has(key: K): boolean', arkTsAveragedTime);
@@ -162,8 +162,8 @@ export default function WeakMapPerfTest(): void {
         res = wm.get(key);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Get_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'get',
         'get(key: K): V | undefined', arkTsAveragedTime);
@@ -185,8 +185,8 @@ export default function WeakMapPerfTest(): void {
         res = wm.delete(keys[i]);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Delete_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'delete',
         'delete(key: K): boolean', arkTsAveragedTime);

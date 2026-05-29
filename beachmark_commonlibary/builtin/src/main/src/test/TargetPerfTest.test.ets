@@ -78,8 +78,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.CLASS;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'CLASS',
         'CLASS: AnnotationTargets', arkTsAveragedTime);
@@ -92,8 +92,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.ENUMERATION;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'ENUMERATION',
         'ENUMERATION: AnnotationTargets', arkTsAveragedTime);
@@ -106,8 +106,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.FUNCTION;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'FUNCTION',
         'FUNCTION: AnnotationTargets', arkTsAveragedTime);
@@ -120,8 +120,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.FUNCTION_WITH_RECEIVER;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'FUNCTION_WITH_RECEIVER',
         'FUNCTION_WITH_RECEIVER: AnnotationTargets', arkTsAveragedTime);
@@ -134,8 +134,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.INTERFACE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'INTERFACE',
         'INTERFACE: AnnotationTargets', arkTsAveragedTime);
@@ -148,8 +148,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.NAMESPACE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'NAMESPACE',
         'NAMESPACE: AnnotationTargets', arkTsAveragedTime);
@@ -162,8 +162,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.TYPE_ALIAS;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'TYPE_ALIAS',
         'TYPE_ALIAS: AnnotationTargets', arkTsAveragedTime);
@@ -176,8 +176,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.VARIABLE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'VARIABLE',
         'VARIABLE: AnnotationTargets', arkTsAveragedTime);
@@ -190,8 +190,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.CLASS_FIELD;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'CLASS_FIELD',
         'CLASS_FIELD: AnnotationTargets', arkTsAveragedTime);
@@ -204,8 +204,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.CLASS_METHOD;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'CLASS_METHOD',
         'CLASS_METHOD: AnnotationTargets', arkTsAveragedTime);
@@ -218,8 +218,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.CLASS_GETTER;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'CLASS_GETTER',
         'CLASS_GETTER: AnnotationTargets', arkTsAveragedTime);
@@ -232,8 +232,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.CLASS_SETTER;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'CLASS_SETTER',
         'CLASS_SETTER: AnnotationTargets', arkTsAveragedTime);
@@ -246,8 +246,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.INTERFACE_PROPERTY;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'INTERFACE_PROPERTY',
         'INTERFACE_PROPERTY: AnnotationTargets', arkTsAveragedTime);
@@ -260,8 +260,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.INTERFACE_METHOD;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'INTERFACE_METHOD',
         'INTERFACE_METHOD: AnnotationTargets', arkTsAveragedTime);
@@ -274,8 +274,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.INTERFACE_GETTER;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'INTERFACE_GETTER',
         'INTERFACE_GETTER: AnnotationTargets', arkTsAveragedTime);
@@ -288,8 +288,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.INTERFACE_SETTER;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'INTERFACE_SETTER',
         'INTERFACE_SETTER: AnnotationTargets', arkTsAveragedTime);
@@ -302,8 +302,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.LAMBDA;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'LAMBDA',
         'LAMBDA: AnnotationTargets', arkTsAveragedTime);
@@ -316,8 +316,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.PARAMETER;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'PARAMETER',
         'PARAMETER: AnnotationTargets', arkTsAveragedTime);
@@ -330,8 +330,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.STRUCT;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'STRUCT',
         'STRUCT: AnnotationTargets', arkTsAveragedTime);
@@ -344,8 +344,8 @@ export default function TargetPerfTest(): void {
         res = AnnotationTargets.TYPE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Enum_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'AnnotationTargets', 'TYPE',
         'TYPE: AnnotationTargets', arkTsAveragedTime);
@@ -360,8 +360,8 @@ export default function TargetPerfTest(): void {
         targets = [AnnotationTargets.CLASS];
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = targets;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Annotation_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'Target', 'targets',
         'targets: AnnotationTargets[]', arkTsAveragedTime);
@@ -374,8 +374,8 @@ export default function TargetPerfTest(): void {
         targets = [AnnotationTargets.CLASS, AnnotationTargets.FUNCTION, AnnotationTargets.INTERFACE];
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = targets;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Target_Annotation_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.annotations', 'Target', 'targets',
         'targets: AnnotationTargets[] (多元素)', arkTsAveragedTime);

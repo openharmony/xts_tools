@@ -75,8 +75,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%%", new Array<Any>(0));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (%% escape)', arkTsAveragedTime);
@@ -90,8 +90,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%s", new Array<Any>(["hello"]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (%s)', arkTsAveragedTime);
@@ -105,8 +105,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%d", new Array<Any>([123]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (%d)', arkTsAveragedTime);
@@ -120,8 +120,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%i", new Array<Any>([456]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (%i)', arkTsAveragedTime);
@@ -135,8 +135,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%f", new Array<Any>([3.14159]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (%f)', arkTsAveragedTime);
@@ -151,8 +151,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("User: %s, Age: %d", new Array<Any>(["张三", 25]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (mixed)', arkTsAveragedTime);
@@ -166,8 +166,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("Score: %d, Name: %s, Rate: %f", new Array<Any>([90, "李四", 4.5]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (three args)', arkTsAveragedTime);
@@ -183,8 +183,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%j", new Array<Any>([obj]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (%j)', arkTsAveragedTime);
@@ -200,8 +200,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%o", new Array<Any>([obj]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (%o)', arkTsAveragedTime);
@@ -216,8 +216,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%O", new Array<Any>([obj]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (%O)', arkTsAveragedTime);
@@ -232,8 +232,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("Hello %s", new Array<Any>(["World", "Extra"]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (extra args)', arkTsAveragedTime);
@@ -248,8 +248,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%c", new Array<Any>(["char"]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (%c)', arkTsAveragedTime);
@@ -264,8 +264,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("", new Array<Any>(["test"]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (empty format)', arkTsAveragedTime);
@@ -281,8 +281,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%s", new Array<Any>([bigInt]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (BigInt)', arkTsAveragedTime);
@@ -297,8 +297,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%s", new Array<Any>([null]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (null)', arkTsAveragedTime);
@@ -312,8 +312,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%s", new Array<Any>([undefined]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (undefined)', arkTsAveragedTime);
@@ -328,8 +328,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("%s%d%s", new Array<Any>(["name", 100, "end"]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (consecutive flags %s%d%s)', arkTsAveragedTime);
@@ -344,8 +344,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("Hello\nWorld", new Array<Any>(["test"]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (escape char)', arkTsAveragedTime);
@@ -360,8 +360,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("% s", new Array<Any>(["space"]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (space flag % s)', arkTsAveragedTime);
@@ -376,8 +376,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("100%%%", new Array<Any>(["test"]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (consecutive %%%)', arkTsAveragedTime);
@@ -392,8 +392,8 @@ export default function ConsoleHelperPerfTest(): void {
         res = formatter.format("value: %x", new Array<Any>([255]));
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConsoleHelper_Format_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ConsoleHelper', 'format',
         'function format(s: string, args: Array<Any>): string (invalid flag %x)', arkTsAveragedTime);

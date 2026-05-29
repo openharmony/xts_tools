@@ -63,8 +63,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'arr_sort_stable',
         'arr_sort_stable(arr: ValueArray<byte>, startIndex: int, endIndex: int, comp: (lhs: byte, rhs: byte) => int): void',
@@ -85,8 +85,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'arr_sort_stable',
         'arr_sort_stable(arr: ValueArray<short>, startIndex: int, endIndex: int, comp: (lhs: short, rhs: short) => int): void',
@@ -107,8 +107,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'arr_sort_stable',
         'arr_sort_stable(arr: ValueArray<int>, startIndex: int, endIndex: int, comp: (lhs: int, rhs: int) => int): void',
@@ -129,8 +129,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'arr_sort_stable',
         'arr_sort_stable(arr: ValueArray<long>, startIndex: int, endIndex: int, comp: (lhs: long, rhs: long) => int): void',
@@ -151,8 +151,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'arr_sort_stable',
         'arr_sort_stable(arr: ValueArray<float>, startIndex: int, endIndex: int, comp: (lhs: float, rhs: float) => int): void',
@@ -173,8 +173,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'arr_sort_stable',
         'arr_sort_stable(arr: ValueArray<double>, startIndex: int, endIndex: int, comp: (lhs: double, rhs: double) => int): void',
@@ -194,8 +194,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         result = mergeSort(valArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'mergeSort',
       'mergeSort(array: ValueArray<byte>, cmp: (lhs: byte, rhs: byte) => int, begin: int, end: int): ValueArray<byte>',
@@ -214,8 +214,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         result = mergeSort(valArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'mergeSort',
       'mergeSort(array: ValueArray<short>, cmp: (lhs: short, rhs: short) => int, begin: int, end: int): ValueArray<short>',
@@ -234,8 +234,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         result = mergeSort(valArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'mergeSort',
       'mergeSort(array: ValueArray<int>, cmp: (lhs: int, rhs: int) => int, begin: int, end: int): ValueArray<int>',
@@ -254,8 +254,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         result = mergeSort(valArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'mergeSort',
       'mergeSort(array: ValueArray<long>, cmp: (lhs: long, rhs: long) => int, begin: int, end: int): ValueArray<long>',
@@ -274,8 +274,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         result = mergeSort(valArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'mergeSort',
       'mergeSort(array: ValueArray<float>, cmp: (lhs: float, rhs: float) => int, begin: int, end: int): ValueArray<float>',
@@ -294,8 +294,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         result = mergeSort(valArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'mergeSort',
       'mergeSort(array: ValueArray<double>, cmp: (lhs: double, rhs: double) => int, begin: int, end: int): ValueArray<double>',
@@ -314,8 +314,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort',
         'sort(arr: ValueArray<boolean>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -332,8 +332,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort',
         'sort(arr: ValueArray<byte>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -350,8 +350,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort',
         'sort(arr: ValueArray<short>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -368,8 +368,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort',
         'sort(arr: ValueArray<int>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -386,8 +386,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort',
         'sort(arr: ValueArray<long>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -404,8 +404,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort',
         'sort(arr: ValueArray<float>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -422,8 +422,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort',
         'sort(arr: ValueArray<double>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -440,8 +440,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort',
         'sort(arr: ValueArray<char>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -456,8 +456,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         swap(valArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = valArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'swap',
         'swap(arr: ValueArray<boolean>, i: int, j: int): void', arkTsAveragedTime);
@@ -471,8 +471,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         swap(valArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = valArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'swap',
         'swap(arr: ValueArray<byte>, i: int, j: int): void', arkTsAveragedTime);
@@ -486,8 +486,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         swap(valArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = valArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'swap',
         'swap(arr: ValueArray<short>, i: int, j: int): void', arkTsAveragedTime);
@@ -501,8 +501,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         swap(valArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = valArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_2400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'swap',
         'swap(arr: ValueArray<int>, i: int, j: int): void', arkTsAveragedTime);
@@ -516,8 +516,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         swap(valArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = valArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_2500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'swap',
         'swap(arr: ValueArray<long>, i: int, j: int): void', arkTsAveragedTime);
@@ -531,8 +531,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         swap(valArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = valArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'swap',
         'swap(arr: ValueArray<float>, i: int, j: int): void', arkTsAveragedTime);
@@ -546,8 +546,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         swap(valArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = valArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_2700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'swap',
         'swap(arr: ValueArray<double>, i: int, j: int): void', arkTsAveragedTime);
@@ -561,8 +561,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         swap(valArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = valArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_2800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'swap',
         'swap(arr: ValueArray<char>, i: int, j: int): void', arkTsAveragedTime);
@@ -583,8 +583,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, 3, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_2900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<boolean>, startIndex: int, endIndex: int, mustPrecede: (lhs: boolean, rhs: boolean) => boolean): void',
@@ -605,8 +605,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, 3, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_3000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<byte>, startIndex: int, endIndex: int, mustPrecede: (lhs: byte, rhs: byte) => boolean): void',
@@ -627,8 +627,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, 3, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_3100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<short>, startIndex: int, endIndex: int, mustPrecede: (lhs: short, rhs: short) => boolean): void',
@@ -649,8 +649,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, 3, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_3200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<int>, startIndex: int, endIndex: int, mustPrecede: (lhs: int, rhs: int) => boolean): void',
@@ -671,8 +671,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, 3, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_3300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<long>, startIndex: int, endIndex: int, mustPrecede: (lhs: long, rhs: long) => boolean): void',
@@ -693,8 +693,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, 3, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_3400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<float>, startIndex: int, endIndex: int, mustPrecede: (lhs: float, rhs: float) => boolean): void',
@@ -715,8 +715,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, 3, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_3500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<double>, startIndex: int, endIndex: int, mustPrecede: (lhs: double, rhs: double) => boolean): void',
@@ -737,8 +737,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, 3, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_3600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<char>, startIndex: int, endIndex: int, mustPrecede: (lhs: char, rhs: char) => boolean): void',
@@ -760,8 +760,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_3700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<boolean>, mustPrecede: (lhs: boolean, rhs: boolean) => boolean): void',
@@ -782,8 +782,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_3800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<byte>, mustPrecede: (lhs: byte, rhs: byte) => boolean): void',
@@ -804,8 +804,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_3900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<short>, mustPrecede: (lhs: short, rhs: short) => boolean): void',
@@ -826,8 +826,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_4000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<int>, mustPrecede: (lhs: int, rhs: int) => boolean): void',
@@ -848,8 +848,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_4100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<long>, mustPrecede: (lhs: long, rhs: long) => boolean): void',
@@ -870,8 +870,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_4200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<float>, mustPrecede: (lhs: float, rhs: float) => boolean): void',
@@ -892,8 +892,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_4300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<double>, mustPrecede: (lhs: double, rhs: double) => boolean): void',
@@ -914,8 +914,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_4400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<char>, mustPrecede: (lhs: char, rhs: char) => boolean): void',
@@ -937,8 +937,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_4500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<boolean>, startIndex: int, mustPrecede: (lhs: boolean, rhs: boolean) => boolean): void',
@@ -959,8 +959,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_4600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<byte>, startIndex: int, mustPrecede: (lhs: byte, rhs: byte) => boolean): void',
@@ -981,8 +981,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_4700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<short>, startIndex: int, mustPrecede: (lhs: short, rhs: short) => boolean): void',
@@ -1003,8 +1003,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_4800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<int>, startIndex: int, mustPrecede: (lhs: int, rhs: int) => boolean): void',
@@ -1025,8 +1025,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_4900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<long>, startIndex: int, mustPrecede: (lhs: long, rhs: long) => boolean): void',
@@ -1047,8 +1047,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_5000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<float>, startIndex: int, mustPrecede: (lhs: float, rhs: float) => boolean): void',
@@ -1069,8 +1069,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_5100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<double>, startIndex: int, mustPrecede: (lhs: double, rhs: double) => boolean): void',
@@ -1091,8 +1091,8 @@ export default function BuiltinArraySortPerfTest01(): void {
         sort_subarray(pools[i], 0, mustPrecede);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = pools[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest01_5200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ValueArray', 'sort_subarray',
         'sort_subarray(arr: ValueArray<char>, startIndex: int, mustPrecede: (lhs: char, rhs: char) => boolean): void',

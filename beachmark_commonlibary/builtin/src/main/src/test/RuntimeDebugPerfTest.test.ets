@@ -59,8 +59,8 @@ export default function RuntimeDebugPerfTest(): void {
         res = RuntimeDebug.countInstancesOfClass(classType.getClass()!);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RuntimeDebug_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug', 'RuntimeDebug', 'countInstancesOfClass',
         'static countInstancesOfClass(cls: Class): int', arkTsAveragedTime);

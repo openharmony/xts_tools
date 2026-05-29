@@ -51,8 +51,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.from(srcArr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array from_FixedArrayInt_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'from', 'from(FixedArray<BigInt>): BigUint64Array', arkTsAveragedTime);
     })
@@ -65,8 +65,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.from(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array from_SetInt_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'from', 'from(Set<BigInt>): BigUint64Array', arkTsAveragedTime);
     })
@@ -79,8 +79,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.from(srcArr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array from_Uint32Array_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'from', 'from(BigUint64Array): BigUint64Array', arkTsAveragedTime);
     })
@@ -93,8 +93,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.from(srcArr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array from_ArrayInt_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'from', 'from(Array<BigInt>): BigUint64Array', arkTsAveragedTime);
     })
@@ -108,8 +108,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.from(srcArr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array from_ArrayLike_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'from', 'from(ArrayLike<BigInt>): BigUint64Array', arkTsAveragedTime);
     }) */
@@ -122,8 +122,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.from(srcArr, (v: BigInt) => v * 2n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array from_IterableCB_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'from', 'from(Iterable<BigInt>, (BigInt) => BigInt): BigUint64Array', arkTsAveragedTime);
     })
@@ -135,8 +135,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.of();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array of_empty: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'of', 'of(): BigUint64Array', arkTsAveragedTime);
     })
@@ -148,8 +148,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.of(1 as int, 2 as int, 3 as int, 4 as int, 5 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array of_FixedArrayInt: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'of', 'of(FixedArray<int>): BigUint64Array', arkTsAveragedTime);
     })
@@ -161,8 +161,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.of(1n, 2n, 3n, 4n, 5n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array of_FixedArrayLong: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'of', 'of(FixedArray<BigInt>): BigUint64Array', arkTsAveragedTime);
     })
@@ -174,8 +174,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.of(1 as number, 2 as number, 3 as number, 4 as number, 5 as number);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array of_FixedArrayNumber: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'of', 'of(FixedArray<number>): BigUint64Array', arkTsAveragedTime);
     })
@@ -189,8 +189,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.from(srcArr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array from_FixedArrayBigInt: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'from', 'from(FixedArray<BigInt>): BigUint64Array', arkTsAveragedTime);
     }) */
@@ -205,8 +205,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = BigUint64Array.from(srcArr, (v: BigInt) => v * 2n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array from_IterableBigIntCB: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'from', 'from(Iterable<BigInt>, BigInt, number): => BigInt): BigUint64Array', arkTsAveragedTime);
     }) */
@@ -219,8 +219,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = arr.includes(3n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array includes_long_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'includes', 'includes(BigInt): boolean', arkTsAveragedTime);
     })
@@ -233,8 +233,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = arr.includes(3n, 0 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array includes_long_int_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'includes', 'includes(BigInt, int): boolean', arkTsAveragedTime);
     })
@@ -247,8 +247,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = arr.indexOf(3n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array indexOf_BigInt_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'indexOf', 'indexOf(BigInt): int', arkTsAveragedTime);
     })
@@ -261,8 +261,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = arr.indexOf(3n, 0 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array indexOf_BigInt_int_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'indexOf', 'indexOf(BigInt, int): int', arkTsAveragedTime);
     })
@@ -275,8 +275,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = arr.lastIndexOf(3n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array lastIndexOf_BigInt_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'lastIndexOf', 'lastIndexOf(BigInt): int', arkTsAveragedTime);
     })
@@ -289,8 +289,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = arr.lastIndexOf(3n, 4 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array lastIndexOf_BigInt_int_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'lastIndexOf', 'lastIndexOf(BigInt, int): int', arkTsAveragedTime);
     })
@@ -304,8 +304,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = arr.lastIndexOf(3n, 4 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array lastIndexOf_number_int_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'lastIndexOf', 'lastIndexOf(BigInt, int | undefined): int', arkTsAveragedTime);
     }) */
@@ -318,8 +318,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = arr.slice(2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array slice_int: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'slice', 'slice(int): BigUint64Array', arkTsAveragedTime);
     })
@@ -333,8 +333,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = arr.sort((a: BigInt, b: BigInt) => (a >= b ? (a > b ? 1 : 0) : -1) as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array sort_compareFn_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'sort', 'sort(BigInt, BigInt): => int | BigInt): this', arkTsAveragedTime);
     })
@@ -347,8 +347,8 @@ export default function TypedUArraysPerfTest14(): void {
         result = arr.with(2, 10n);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array with_BigInt_iter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'with', 'with(int, BigInt): BigUint64Array', arkTsAveragedTime);
     })

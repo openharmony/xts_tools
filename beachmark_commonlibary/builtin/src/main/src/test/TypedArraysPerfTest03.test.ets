@@ -97,8 +97,8 @@ export default function TypedArraysPerfTest03(): void {
         result = new Float32Array(arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest Float32Array Constructor_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'constructor', 'constructor(numbers: Float32Array)', arkTsAveragedTime);
     })

@@ -57,8 +57,8 @@ export default function BlockingQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { queue.push(vals[i]); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = queue;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BlockingQueue_Push_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'BlockingQueue', 'push', 'push(element: T): void', arkTsAveragedTime);
     })
@@ -74,8 +74,8 @@ export default function BlockingQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.pop(); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BlockingQueue_Pop_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'BlockingQueue', 'pop', 'pop(): T', arkTsAveragedTime);
     })
@@ -92,8 +92,8 @@ export default function BlockingQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.add(vals[i]); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BlockingQueue_Add_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'BlockingQueue', 'add', 'add(element: T): boolean', arkTsAveragedTime);
     })
@@ -109,8 +109,8 @@ export default function BlockingQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.poll(); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BlockingQueue_Poll_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'BlockingQueue', 'poll', 'poll(): T | undefined', arkTsAveragedTime);
     })
@@ -125,8 +125,8 @@ export default function BlockingQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.getFirst(); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BlockingQueue_GetFirst_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'BlockingQueue', 'getFirst', 'getFirst(): T | undefined', arkTsAveragedTime);
     })
@@ -140,8 +140,8 @@ export default function BlockingQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.isEmpty(); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BlockingQueue_IsEmpty_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'BlockingQueue', 'isEmpty', 'isEmpty(): boolean', arkTsAveragedTime);
     })
@@ -155,8 +155,8 @@ export default function BlockingQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.size; }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BlockingQueue_Size_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'BlockingQueue', 'size', 'get size(): int', arkTsAveragedTime);
     })
@@ -170,8 +170,8 @@ export default function BlockingQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.capacity; }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BlockingQueue_Capacity_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'BlockingQueue', 'capacity', 'get capacity(): int', arkTsAveragedTime);
     })
@@ -185,8 +185,8 @@ export default function BlockingQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.remainingCapacity(); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BlockingQueue_RemainingCapacity_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'BlockingQueue', 'remainingCapacity', 'remainingCapacity(): int', arkTsAveragedTime);
     })

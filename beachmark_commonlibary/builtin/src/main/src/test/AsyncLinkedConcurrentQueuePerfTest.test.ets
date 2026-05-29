@@ -55,8 +55,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
         res = new containers.stackless.LinkedConcurrentQueue<Int>();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -69,8 +69,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
         res = new containers.stackless.LinkedConcurrentQueue<Int>(100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_ConstructorCapacity_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'constructor',
         'constructor(capacity: int)', arkTsAveragedTime);
@@ -85,8 +85,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
         res = new containers.stackless.LinkedConcurrentQueue<Int>(arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_ConstructorIterable_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'constructor',
         'constructor(iterable: Iterable<T>)', arkTsAveragedTime);
@@ -101,8 +101,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
         res = new containers.stackless.LinkedConcurrentQueue<Int>(100, arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_ConstructorCapacityIterable_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'constructor',
         'constructor(capacity: int, iterable: Iterable<T>)', arkTsAveragedTime);
@@ -155,8 +155,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.add(vals[i]); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Add_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'add',
         'add(element: T): boolean', arkTsAveragedTime);
@@ -170,8 +170,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.poll(); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Poll_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'poll',
         'poll(): T | undefined', arkTsAveragedTime);
@@ -187,8 +187,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.getFirst(); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_GetFirst_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'getFirst',
         'getFirst(): T | undefined', arkTsAveragedTime);
@@ -201,8 +201,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.getEnd(); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_GetEnd_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'getEnd',
         'getEnd(): T | undefined', arkTsAveragedTime);
@@ -214,8 +214,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.isEmpty(); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_IsEmpty_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'isEmpty',
         'isEmpty(): boolean', arkTsAveragedTime);
@@ -228,8 +228,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.size; }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Size_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'size',
         'get size(): int', arkTsAveragedTime);
@@ -241,8 +241,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.capacity; }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Capacity_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'capacity',
         'get capacity(): int', arkTsAveragedTime);
@@ -254,8 +254,8 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) { res = queue.remainingCapacity(); }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_RemainingCapacity_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedConcurrentQueue', 'remainingCapacity',
         'remainingCapacity(): int', arkTsAveragedTime);

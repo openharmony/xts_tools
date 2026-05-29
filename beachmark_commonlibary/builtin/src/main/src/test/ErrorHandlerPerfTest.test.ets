@@ -52,8 +52,8 @@ export default function ErrorHandlerPerfTest(): void {
         res = new ProcessErrorHandler(cb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_Constructor_0100: ' +
         arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'constructor',
@@ -69,8 +69,8 @@ export default function ErrorHandlerPerfTest(): void {
           handler.handleUncaughtError(error);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 		    let res1 = handler;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_HandleUncaughtError_0200: ' +
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'handleUncaughtError',
@@ -85,8 +85,8 @@ export default function ErrorHandlerPerfTest(): void {
         handler.reset(cb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = handler;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_Reset_0300: ' +
         arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'reset',

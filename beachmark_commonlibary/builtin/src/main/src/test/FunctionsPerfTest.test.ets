@@ -54,8 +54,8 @@ export default function FunctionsPerfTest(): void {
         res = encodeURI("test string with special chars: @#$%");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'encodeURI',
         'encodeURI(uri: string): string', arkTsAveragedTime);
@@ -68,8 +68,8 @@ export default function FunctionsPerfTest(): void {
         res = decodeURI("test%20string%20with%20encoded");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'decodeURI',
         'decodeURI(uri: string): string', arkTsAveragedTime);
@@ -82,8 +82,8 @@ export default function FunctionsPerfTest(): void {
         res = encodeURIComponent("test@#$%");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'encodeURIComponent',
         'encodeURIComponent(uriComponent: String | Number | Boolean): string', arkTsAveragedTime);
@@ -96,8 +96,8 @@ export default function FunctionsPerfTest(): void {
         res = decodeURIComponent("test%40%23%24%25");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'decodeURIComponent',
         'decodeURIComponent(uriComponent: string): string', arkTsAveragedTime);
@@ -110,8 +110,8 @@ export default function FunctionsPerfTest(): void {
         res = escape("test string @#$%");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'escape',
         'escape(str: string): string', arkTsAveragedTime);
@@ -124,8 +124,8 @@ export default function FunctionsPerfTest(): void {
         res = unescape("test%20string");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'unescape',
         'unescape(str: string): string', arkTsAveragedTime);

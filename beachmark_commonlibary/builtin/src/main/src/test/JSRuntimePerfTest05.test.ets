@@ -55,8 +55,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke0();
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke0: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke0',
           'invoke0(): Any', arkTsAveragedTime);
@@ -74,8 +74,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke1(1 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke1: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke1',
           'invoke1(arg1: Any): Any', arkTsAveragedTime);
@@ -93,8 +93,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke2(1 as Any, 2 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke2: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke2',
           'invoke2(arg1: Any, arg2: Any): Any', arkTsAveragedTime);
@@ -112,8 +112,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke3(1 as Any, 2 as Any, 3 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke3: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke3',
           'invoke3(arg1: Any, arg2: Any, arg3: Any): Any', arkTsAveragedTime);
@@ -131,8 +131,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke4(1 as Any, 2 as Any, 3 as Any, 4 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke4: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke4',
           'invoke4(arg1: Any, arg2: Any, arg3: Any, arg4: Any): Any', arkTsAveragedTime);
@@ -150,8 +150,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke5(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke5: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke5',
           'invoke5(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any): Any', arkTsAveragedTime);
@@ -169,8 +169,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke6(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke6: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke6',
           'invoke6(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any): Any', arkTsAveragedTime);
@@ -188,8 +188,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke7(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke7: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke7',
           'invoke7(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any): Any', arkTsAveragedTime);
@@ -208,8 +208,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke8(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke8: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke8',
           'invoke8(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any): Any', arkTsAveragedTime);
@@ -227,8 +227,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke9(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke9: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke9',
           'invoke9(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any): Any', arkTsAveragedTime);
@@ -246,8 +246,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke10(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke10: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke10',
           'invoke10(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any): Any', arkTsAveragedTime);
@@ -265,8 +265,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke11(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke11: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke11',
           'invoke11(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any): Any', arkTsAveragedTime);
@@ -284,8 +284,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke12(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any, 12 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke12: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke12',
           'invoke12(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any, arg12: Any): Any', arkTsAveragedTime);
@@ -303,8 +303,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke13(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any, 12 as Any, 13 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke13: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke13',
           'invoke13(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any, arg12: Any, arg13: Any): Any', arkTsAveragedTime);
@@ -322,8 +322,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke14(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any, 12 as Any, 13 as Any, 14 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke14: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke14',
           'invoke14(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any, arg12: Any, arg13: Any, arg14: Any): Any', arkTsAveragedTime);
@@ -341,8 +341,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke15(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any, 12 as Any, 13 as Any, 14 as Any, 15 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke15: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke15',
           'invoke15(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any, arg12: Any, arg13: Any, arg14: Any, arg15: Any): Any', arkTsAveragedTime);
@@ -360,8 +360,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invoke16(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any, 12 as Any, 13 as Any, 14 as Any, 15 as Any, 16 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invoke16: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invoke16',
           'invoke16(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any, arg12: Any, arg13: Any, arg14: Any, arg15: Any, arg16: Any): Any', arkTsAveragedTime);
@@ -383,8 +383,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR0();
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR0: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR0',
           'invokeR0(...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -402,8 +402,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR1(1 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR1: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR1',
           'invokeR1(arg1: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -421,8 +421,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR2(1 as Any, 2 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR2: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR2',
           'invokeR2(arg1: Any, arg2: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -440,8 +440,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR3(1 as Any, 2 as Any, 3 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR3: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR3',
           'invokeR3(arg1: Any, arg2: Any, arg3: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -459,8 +459,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR4(1 as Any, 2 as Any, 3 as Any, 4 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR4: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR4',
           'invokeR4(arg1: Any, arg2: Any, arg3: Any, arg4: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -478,8 +478,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR5(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR5: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR5',
           'invokeR5(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -497,8 +497,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR6(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR6: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR6',
           'invokeR6(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -516,8 +516,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR7(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR7: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR7',
           'invokeR7(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -535,8 +535,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR8(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR8: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR8',
           'invokeR8(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -554,8 +554,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR9(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR9: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR9',
           'invokeR9(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -573,8 +573,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR10(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR10: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR10',
           'invokeR10(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -592,8 +592,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR11(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR11: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR11',
           'invokeR11(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -611,8 +611,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR12(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any, 12 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR12: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR12',
           'invokeR12(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any, arg12: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -630,8 +630,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR13(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any, 12 as Any, 13 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR13: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR13',
           'invokeR13(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any, arg12: Any, arg13: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -649,8 +649,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR14(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any, 12 as Any, 13 as Any, 14 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR14: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR14',
           'invokeR14(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any, arg12: Any, arg13: Any, arg14: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -668,8 +668,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR15(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any, 12 as Any, 13 as Any, 14 as Any, 15 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR15: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR15',
           'invokeR15(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any, arg12: Any, arg13: Any, arg14: Any, arg15: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -687,8 +687,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.invokeR16(1 as Any, 2 as Any, 3 as Any, 4 as Any, 5 as Any, 6 as Any, 7 as Any, 8 as Any, 9 as Any, 10 as Any, 11 as Any, 12 as Any, 13 as Any, 14 as Any, 15 as Any, 16 as Any);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction invokeR16: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'invokeR16',
           'invokeR16(arg1: Any, arg2: Any, arg3: Any, arg4: Any, arg5: Any, arg6: Any, arg7: Any, arg8: Any, arg9: Any, arg10: Any, arg11: Any, arg12: Any, arg13: Any, arg14: Any, arg15: Any, arg16: Any, ...r: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -710,8 +710,8 @@ export default function JSRuntimePerfTest05(): void {
           result = func.unsafeCall();
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest DynamicFunction unsafeCall: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.interop.js', 'DynamicFunction', 'unsafeCall',
           'unsafeCall(...r: FixedArray<Any>): Any', arkTsAveragedTime);

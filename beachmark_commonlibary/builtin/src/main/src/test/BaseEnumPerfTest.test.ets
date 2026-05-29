@@ -54,8 +54,8 @@ export default function BaseEnumPerfTest(): void {
         res = new BaseEnum<int>(42, 'TestEnum');
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 	    let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BaseEnum_constructor_int_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BaseEnum', 'constructor',
         'constructor(value: T)', arkTsAveragedTime);
@@ -69,8 +69,8 @@ export default function BaseEnumPerfTest(): void {
         res = baseEnum.valueOf();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BaseEnum_valueOf_int_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BaseEnum', 'valueOf',
         'valueOf(): T', arkTsAveragedTime);
@@ -84,8 +84,8 @@ export default function BaseEnumPerfTest(): void {
         res = baseEnum.getName();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BaseEnum_getName_string_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BaseEnum', 'getName',
         'getName(): string', arkTsAveragedTime);
@@ -99,8 +99,8 @@ export default function BaseEnumPerfTest(): void {
         res = baseEnum.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BaseEnum_toString_int_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BaseEnum', 'toString',
         'toString(): string', arkTsAveragedTime);

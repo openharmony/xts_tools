@@ -82,8 +82,8 @@ export default function ReflectStaticFieldPerfTest(): void {
         res = field1!.equals(field2!);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StaticField_equals_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'StaticField', 'equals',
         'equals(other: StaticField): boolean', arkTsAveragedTime);
@@ -98,8 +98,8 @@ export default function ReflectStaticFieldPerfTest(): void {
         res = field!.getStaticValue();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StaticField_getStaticValue_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'StaticField', 'getStaticValue',
         'getStaticValue(): Any', arkTsAveragedTime);
@@ -114,8 +114,8 @@ export default function ReflectStaticFieldPerfTest(): void {
         res = field!.setStaticValue(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StaticField_setStaticValue_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'StaticField', 'setStaticValue',
         'setStaticValue(value: Any): void', arkTsAveragedTime);

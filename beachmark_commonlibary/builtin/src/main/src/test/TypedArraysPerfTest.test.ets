@@ -53,8 +53,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Int8Array();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor',
         'constructor(): Int8Array', arkTsAveragedTime);
@@ -67,8 +67,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Int8Array(100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor_length',
         'constructor(length: int | number): Int8Array', arkTsAveragedTime);
@@ -85,8 +85,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Int8Array(srcArr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor_array',
         'constructor(array: Array<int>): Int8Array', arkTsAveragedTime);
@@ -100,8 +100,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Int16Array();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int16Array_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'constructor',
         'constructor(): Int16Array', arkTsAveragedTime);
@@ -116,8 +116,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Int16Array(100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int16Array_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'constructor_length',
         'constructor(length: int | number): Int16Array', arkTsAveragedTime);
@@ -132,8 +132,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Int32Array();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int32Array_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor',
         'constructor(): Int32Array', arkTsAveragedTime);
@@ -148,8 +148,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Int32Array(100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int32Array_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor_length',
         'constructor(length: int | number): Int32Array', arkTsAveragedTime);
@@ -164,8 +164,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Float32Array();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float32Array_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'constructor',
         'constructor(): Float32Array', arkTsAveragedTime);
@@ -180,8 +180,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Float32Array(100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float32Array_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'constructor_length',
         'constructor(length: int | number): Float32Array', arkTsAveragedTime);
@@ -196,8 +196,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Float64Array();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float64Array_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'constructor',
         'constructor(): Float64Array', arkTsAveragedTime);
@@ -212,8 +212,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Float64Array(100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Float64Array_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'constructor_length',
         'constructor(length: int | number): Float64Array', arkTsAveragedTime);
@@ -228,8 +228,8 @@ export default function TypedArraysPerfTest(): void {
         res = new BigInt64Array();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BigInt64Array_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'constructor',
         'constructor(): BigInt64Array', arkTsAveragedTime);
@@ -244,8 +244,8 @@ export default function TypedArraysPerfTest(): void {
         res = new BigInt64Array(100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BigInt64Array_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'constructor_length',
         'constructor(length: int | number): BigInt64Array', arkTsAveragedTime);
@@ -265,8 +265,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.at(50);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_at: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'at',
         'at(index: int): Number | undefined', arkTsAveragedTime);
@@ -346,8 +346,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.includes(50 as byte);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_includes: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'includes',
         'includes(searchElement: byte): boolean', arkTsAveragedTime);
@@ -364,8 +364,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.indexOf(50);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_indexOf: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'indexOf',
         'indexOf(searchElement: int, fromIndex?: int): int', arkTsAveragedTime);
@@ -382,8 +382,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.join(",");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_join: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'join',
         'join(separator?: String): string', arkTsAveragedTime);
@@ -400,8 +400,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.lastIndexOf(5);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_lastIndexOf: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'lastIndexOf',
         'lastIndexOf(searchElement: int, fromIndex?: int): int', arkTsAveragedTime);
@@ -435,8 +435,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.slice(10, 50);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_slice: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'slice',
         'slice(begin?: int, end?: int): Int8Array', arkTsAveragedTime);
@@ -453,8 +453,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.subarray(10, 50);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_subarray: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'subarray',
         'subarray(begin?: int, end?: int): Int8Array', arkTsAveragedTime);
@@ -489,8 +489,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.toReversed();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_toReversed: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'toReversed',
         'toReversed(): Int8Array', arkTsAveragedTime);
@@ -507,8 +507,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.toSorted();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_toSorted: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'toSorted',
         'toSorted(): Int8Array', arkTsAveragedTime);
@@ -525,8 +525,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.with(50, 99 as byte);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_with: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'with',
         'with(index: int, value: byte): Int8Array', arkTsAveragedTime);
@@ -543,8 +543,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.entries();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_entries: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'entries',
         'entries(): IterableIterator<[int, Number]>', arkTsAveragedTime);
@@ -561,8 +561,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.keys();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_keys: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'keys',
         'keys(): IterableIterator<int>', arkTsAveragedTime);
@@ -579,8 +579,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.values();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_values: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'values',
         'values(): IterableIterator<Number>', arkTsAveragedTime);
@@ -600,8 +600,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.some(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_some: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'some',
         'some(predicate: (element: number, index: int, array: Int8Array) => boolean): boolean', arkTsAveragedTime);
@@ -621,8 +621,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.every(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_every: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'every',
         'every(predicate: (element: number, index: int, array: Int8Array) => boolean): boolean', arkTsAveragedTime);
@@ -642,8 +642,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.find(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_find: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'find',
         'find(predicate: (value: number, index: int, obj: Int8Array) => boolean): number | undefined', arkTsAveragedTime);
@@ -663,8 +663,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.findIndex(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_findIndex: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'findIndex',
         'findIndex(predicate: (value: number, index: int, obj: Int8Array) => boolean): int', arkTsAveragedTime);
@@ -684,8 +684,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.filter(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_filter: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'filter',
         'filter(fn: (val: number, index: int, array: Int8Array) => boolean): Int8Array', arkTsAveragedTime);
@@ -705,8 +705,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.map(cmp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_map: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'map',
         'map(fn: (val: number, index: int, array: Int8Array) => number): Int8Array', arkTsAveragedTime);
@@ -726,8 +726,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.reduce(cmp, 0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_reduce: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'reduce',
         'reduce(callbackfn: (previousValue: U, currentValue: number, currentIndex: int, array: Int8Array) => U, initialValue: U): U', arkTsAveragedTime);
@@ -747,8 +747,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.reduceRight(cmp, 0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_reduceRight: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'reduceRight',
         'reduceRight(callbackfn: (previousValue: U, currentValue: number, currentIndex: int, array: Int8Array) => U, initialValue: U): U', arkTsAveragedTime);
@@ -783,8 +783,8 @@ export default function TypedArraysPerfTest(): void {
         res = Int8Array.of(1 as byte, 2 as byte, 3 as byte, 4 as byte, 5 as byte);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_of: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'static_of',
         'static of(...items: FixedArray<byte>): Int8Array', arkTsAveragedTime);
@@ -801,8 +801,8 @@ export default function TypedArraysPerfTest(): void {
         res = Int8Array.from(srcArr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_from_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'static_from_array',
         'static from(arr: Array<int>): Int8Array', arkTsAveragedTime);
@@ -819,8 +819,8 @@ export default function TypedArraysPerfTest(): void {
         res = Int8Array.from(srcArr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_from_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'static_from_typedarray',
         'static from(arr: Int8Array): Int8Array', arkTsAveragedTime);
@@ -837,8 +837,8 @@ export default function TypedArraysPerfTest(): void {
         res = Int8Array.from(srcArr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_from_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'static_from_uint8array',
         'static from(arr: Uint8Array): Int8Array', arkTsAveragedTime);
@@ -857,8 +857,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Int8Array(srcArr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_copy: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor_copy',
         'constructor(other: Int8Array): Int8Array', arkTsAveragedTime);
@@ -872,8 +872,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Int8Array(buf);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_buffer: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor_buffer',
         'constructor(buf: ArrayBuffer): Int8Array', arkTsAveragedTime);
@@ -887,8 +887,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Int8Array(buf, 50);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_buffer_offset: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor_buffer_offset',
         'constructor(buf: ArrayBuffer, byteOffset: int): Int8Array', arkTsAveragedTime);
@@ -902,8 +902,8 @@ export default function TypedArraysPerfTest(): void {
         res = new Int8Array(buf, 50, 100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_buffer_offset_length: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor_buffer_offset_length',
         'constructor(buf: ArrayBuffer, byteOffset: int, length: int): Int8Array', arkTsAveragedTime);
@@ -923,8 +923,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.at(50);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int16Array_at: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'at',
         'at(index: int): Number | undefined', arkTsAveragedTime);
@@ -943,8 +943,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.slice(10, 50);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int16Array_slice: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'slice',
         'slice(begin?: int, end?: int): Int16Array', arkTsAveragedTime);
@@ -984,8 +984,8 @@ export default function TypedArraysPerfTest(): void {
         res = arr.at(50);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int32Array_at: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'at',
         'at(index: int): Number | undefined', arkTsAveragedTime);
@@ -1187,8 +1187,8 @@ export default function TypedArraysPerfTest(): void {
         result = arr.slice(10, 50);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BigInt64Array_slice: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'slice',
         'slice(begin?: int, end?: int): BigInt64Array', arkTsAveragedTime);
@@ -1206,8 +1206,8 @@ export default function TypedArraysPerfTest(): void {
         arr.sort();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = arr;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BigInt64Array_sort: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'sort',
         'sort(): this', arkTsAveragedTime);

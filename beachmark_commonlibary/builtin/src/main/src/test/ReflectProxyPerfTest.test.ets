@@ -89,8 +89,8 @@ export default function ReflectProxyPerfTest(): void {
         result = TestProxy.createWithHandler(testHandler);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Proxy_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Proxy', 'constructor',
         'protected constructor(handler: InvocationHandler)', arkTsAveragedTime);
@@ -104,8 +104,8 @@ export default function ReflectProxyPerfTest(): void {
         result = proxy.getHandler();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Proxy_getHandler_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Proxy', 'getHandler',
         'public getHandler(): InvocationHandler', arkTsAveragedTime);
@@ -121,8 +121,8 @@ export default function ReflectProxyPerfTest(): void {
         result = reflect.Proxy.create(linker, interfaces, handler);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Proxy_create_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Proxy', 'create',
         'public static create(linker: RuntimeLinker, interfaces: FixedArray<Class>, handler: InvocationHandler): Proxy', arkTsAveragedTime);
@@ -137,8 +137,8 @@ export default function ReflectProxyPerfTest(): void {
         result = reflect.Proxy.isProxyClass(testKlass);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Proxy_isProxyClass_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Proxy', 'isProxyClass',
         'public static isProxyClass(klass: Class): boolean', arkTsAveragedTime);
@@ -154,8 +154,8 @@ export default function ReflectProxyPerfTest(): void {
         result = testHandler.get(proxyObj, testMethod!);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InvocationHandler_get_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'InvocationHandler', 'get',
         'get(proxy: Proxy, method: InstanceMethod): Any', arkTsAveragedTime);
@@ -171,8 +171,8 @@ export default function ReflectProxyPerfTest(): void {
         testHandler.set(proxyObj, testMethod!, testValue);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = testValue;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InvocationHandler_set_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'InvocationHandler', 'set',
         'set(proxy: Proxy, method: InstanceMethod, value: Any): void', arkTsAveragedTime);
@@ -189,8 +189,8 @@ export default function ReflectProxyPerfTest(): void {
         result = testHandler.invoke(proxyObj, testMethod!, args);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InvocationHandler_invoke_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'InvocationHandler', 'invoke',
         'invoke(proxy: Proxy, method: InstanceMethod, args: FixedArray<Any>): Any', arkTsAveragedTime);

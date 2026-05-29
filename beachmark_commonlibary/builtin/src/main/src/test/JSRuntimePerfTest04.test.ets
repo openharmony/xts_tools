@@ -56,8 +56,8 @@ export default function JSRuntimePerfTest04(): void {
         result = JSRuntime.invoke(obj, func);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest JSRuntime invoke: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'invoke',
         'static invoke(recv: Any, func: Any, ...args: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -76,8 +76,8 @@ export default function JSRuntimePerfTest04(): void {
         result = JSRuntime.invokeDynamicFunction(func, args);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest JSRuntime invokeDynamicFunction: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'invokeDynamicFunction',
         'static native invokeDynamicFunction(func: Object, args: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -96,8 +96,8 @@ export default function JSRuntimePerfTest04(): void {
         result = JSRuntime.instantiate(objConstructor);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest JSRuntime instantiate: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'instantiate',
         'static instantiate(callable: Any, ...args: FixedArray<Any>): Any', arkTsAveragedTime);
@@ -115,8 +115,8 @@ export default function JSRuntimePerfTest04(): void {
         result = JSRuntime.CreateIterator(arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest JSRuntime CreateIterator: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSRuntime', 'CreateIterator',
         'static CreateIterator(val: JSValue): MimicJSValueIteratableIterator', arkTsAveragedTime);
@@ -136,8 +136,8 @@ export default function JSRuntimePerfTest04(): void {
         result = iterator.next();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest MimicJSValueIteratableIterator next: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'MimicJSValueIteratableIterator', 'next',
         'next(): IteratorResult<Any>', arkTsAveragedTime);

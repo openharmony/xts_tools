@@ -54,8 +54,8 @@ export default function UnionCasePerfTest(): void {
         res = new UnionCase();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UnionCase_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'UnionCase', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -69,8 +69,8 @@ export default function UnionCasePerfTest(): void {
         res = unionCase.isType();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UnionCase_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'UnionCase', 'isType',
         'isType(): boolean', arkTsAveragedTime);
@@ -81,11 +81,13 @@ export default function UnionCasePerfTest(): void {
         let unionCase = new UnionCase();
         let res: string = '';
         let Stime = new Date().getTime();
-        for (let i = 0; i < BASE_COUNT; i++)
+        for (let i = 0; i < BASE_COUNT; i++){
           res = unionCase.toString();
+        }
+
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UnionCase_Instance_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'UnionCase', 'toString',
         'toString(): string', arkTsAveragedTime);

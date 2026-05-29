@@ -54,8 +54,8 @@ export default function AsyncRWLockPerfTest(): void {
         res = new concurrency.stackless.AsyncReadWriteLock();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncReadWriteLock_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncReadWriteLock', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -70,8 +70,8 @@ export default function AsyncRWLockPerfTest(): void {
         res = rwLock.readLock();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncReadWriteLock_ReadLock_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncReadWriteLock', 'readLock',
         'readLock(): AsyncReadLock', arkTsAveragedTime);
@@ -86,8 +86,8 @@ export default function AsyncRWLockPerfTest(): void {
         res = rwLock.writeLock();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncReadWriteLock_WriteLock_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncReadWriteLock', 'writeLock',
         'writeLock(): AsyncWriteLock', arkTsAveragedTime);
@@ -149,8 +149,8 @@ export default function AsyncRWLockPerfTest(): void {
         res = new concurrency.stackless.AsyncReadLock(rwLock);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncReadLock_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncReadLock', 'constructor',
         'constructor(rwl: AsyncReadWriteLock)', arkTsAveragedTime);
@@ -201,8 +201,8 @@ export default function AsyncRWLockPerfTest(): void {
         res = new concurrency.stackless.AsyncWriteLock(rwLock);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncWriteLock_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncWriteLock', 'constructor',
         'constructor(rwl: AsyncReadWriteLock)', arkTsAveragedTime);

@@ -60,8 +60,8 @@ export default function MessagePerfTest():void {
         res = new concurrency.Message(handler);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       expect(res1 !== null).assertTrue();
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'constructor',
@@ -83,8 +83,8 @@ export default function MessagePerfTest():void {
         res = new concurrency.Message(1, handler);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       expect(res1 !== null).assertTrue();
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'constructor',
@@ -107,8 +107,8 @@ export default function MessagePerfTest():void {
         res = new concurrency.Message(1, obj, handler);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       expect(res1 !== null).assertTrue();
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'constructor',
@@ -131,8 +131,8 @@ export default function MessagePerfTest():void {
         res = new concurrency.Message(cb, handler);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Constructor_0400: ' + arkTsAveragedTime + 'ns');
       expect(res1 !== null).assertTrue();
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'constructor',
@@ -155,8 +155,8 @@ export default function MessagePerfTest():void {
         res = msg.getWhat();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Instance_0100: ' + arkTsAveragedTime + 'ns');
       expect(res1).assertEqual(42);
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'getWhat',
@@ -180,8 +180,8 @@ export default function MessagePerfTest():void {
         res = msg.getCallback();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Instance_0200: ' + arkTsAveragedTime + 'ns');
       expect(res1 !== undefined).assertTrue();
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'getCallback',
@@ -205,8 +205,8 @@ export default function MessagePerfTest():void {
         res = msg.getObject();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Instance_0300: ' + arkTsAveragedTime + 'ns');
       expect(res1 !== undefined).assertTrue();
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'getObject',
@@ -229,8 +229,8 @@ export default function MessagePerfTest():void {
         res = msg.getTarget();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Instance_0400: ' + arkTsAveragedTime + 'ns');
       expect(res1 !== null).assertTrue();
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'getTarget',
@@ -254,8 +254,8 @@ export default function MessagePerfTest():void {
         res = msg1.equals(msg2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Message_Instance_0500: ' + arkTsAveragedTime + 'ns');
       expect(res1).assertTrue();
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Message', 'equals',

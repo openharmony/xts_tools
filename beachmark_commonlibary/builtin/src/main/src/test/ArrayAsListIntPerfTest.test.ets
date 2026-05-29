@@ -59,8 +59,8 @@ export default function ArrayAsListIntPerfTest(): void {
         list = new containers.ArrayAsListInt(10 as int, val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'constructor', 'constructor(capacity: int, val: Int)', arkTsAveragedTime);
     })
@@ -72,8 +72,8 @@ export default function ArrayAsListIntPerfTest(): void {
         list = new containers.ArrayAsListInt();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'constructor', 'constructor()', arkTsAveragedTime);
     })
@@ -85,8 +85,8 @@ export default function ArrayAsListIntPerfTest(): void {
         list = new containers.ArrayAsListInt(10 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'constructor', 'constructor(capacity: int)', arkTsAveragedTime);
     })
@@ -102,8 +102,8 @@ export default function ArrayAsListIntPerfTest(): void {
         list.reserve(10 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_Reserve_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'reserve', 'reserve(capacity: int): void', arkTsAveragedTime);
     })
@@ -116,8 +116,8 @@ export default function ArrayAsListIntPerfTest(): void {
         res = list.toArray();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_ToArray_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'toArray', 'toArray(): Int[]', arkTsAveragedTime);
     })
@@ -134,8 +134,8 @@ export default function ArrayAsListIntPerfTest(): void {
         list.pushFront(vals[i]);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_PushFront_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'pushFront', 'pushFront(e: Int): void', arkTsAveragedTime);
     })
@@ -148,8 +148,8 @@ export default function ArrayAsListIntPerfTest(): void {
         res = list.popFront();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_PopFront_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'popFront', 'popFront(): Int', arkTsAveragedTime);
     })
@@ -166,8 +166,8 @@ export default function ArrayAsListIntPerfTest(): void {
         list.pushBack(vals[i]);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_PushBack_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'pushBack', 'pushBack(e: Int): void', arkTsAveragedTime);
     })
@@ -180,8 +180,8 @@ export default function ArrayAsListIntPerfTest(): void {
         res = list.popBack();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_PopBack_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'popBack', 'popBack(): Int', arkTsAveragedTime);
     })
@@ -194,8 +194,8 @@ export default function ArrayAsListIntPerfTest(): void {
         res = list.size();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_Size_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'size', 'size(): int', arkTsAveragedTime);
     })
@@ -208,8 +208,8 @@ export default function ArrayAsListIntPerfTest(): void {
         res = list.at(0 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_At_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'at', 'at(index: int): Int', arkTsAveragedTime);
     })
@@ -226,8 +226,8 @@ export default function ArrayAsListIntPerfTest(): void {
         list.set(0 as int, vals[i]);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_Set_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'set', 'set(index: int, e: Int): void', arkTsAveragedTime);
     })
@@ -241,8 +241,8 @@ export default function ArrayAsListIntPerfTest(): void {
         res = list.has(val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListInt_Has_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListInt', 'has', 'has(e: Int): boolean', arkTsAveragedTime);
     })
