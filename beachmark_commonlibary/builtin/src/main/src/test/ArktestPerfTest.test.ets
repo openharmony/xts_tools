@@ -54,10 +54,10 @@ export default function ArktestPerfTest() : void {
     // 1. arktest Namespace — Asserts (void)
     // ================================================================
     it('PerformanceTest_arktest_AssertTrue_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertTrue(true);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertTrue(true);
+        res = arktest.assertTrue(true);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -67,10 +67,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertFalse_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertFalse(false);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertFalse(false);
+        res = arktest.assertFalse(false);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -80,10 +80,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertEQ_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertEQ(1, 1);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertEQ(1, 1);
+        res = arktest.assertEQ(1, 1);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -93,10 +93,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertNE_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertNE(1, 2);;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertNE(1, 2);
+        res = arktest.assertNE(1, 2);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -106,10 +106,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertDoubleEQ_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertDoubleEQ(1.0, 1.0, 0.0001);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertDoubleEQ(1.0, 1.0, 0.0001);
+        res = arktest.assertDoubleEQ(1.0, 1.0, 0.0001);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -122,10 +122,10 @@ export default function ArktestPerfTest() : void {
     // 2. arktest Namespace: LT (Less Than)
     // ================================================================
     it('PerformanceTest_arktest_AssertLT_Int_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLT(1 as int, 2 as int);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLT(1 as int, 2 as int);
+        res = arktest.assertLT(1 as int, 2 as int);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -135,10 +135,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertLT_Double_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLT(1.0 , 2.0 );
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLT(1.0 , 2.0 );
+        res = arktest.assertLT(1.0 , 2.0 );
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -148,10 +148,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertLT_Byte_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLT(1 as byte, 2 as byte);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLT(1 as byte, 2 as byte);
+        res = arktest.assertLT(1 as byte, 2 as byte);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -161,10 +161,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertLT_Short_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLT(1 as short, 2 as short);;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLT(1 as short, 2 as short);
+        res = arktest.assertLT(1 as short, 2 as short);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -174,10 +174,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertLT_Long_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLT(1 as long, 2 as long);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLT(1 as long, 2 as long);
+        res = arktest.assertLT(1 as long, 2 as long);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -187,10 +187,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertLT_Float_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLT(1.0f, 2.0f);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLT(1.0f, 2.0f);
+        res = arktest.assertLT(1.0f, 2.0f);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -203,10 +203,10 @@ export default function ArktestPerfTest() : void {
     // 3. arktest Namespace: LE (Less Than or Equal)
     // ================================================================
     it('PerformanceTest_arktest_AssertLE_Int_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLE(1 as int, 1 as int);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLE(1 as int, 1 as int);
+        res = arktest.assertLE(1 as int, 1 as int);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -216,10 +216,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertLE_Double_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLE(1.0 as double, 1.0 as double);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLE(1.0 as double, 1.0 as double);
+        res = arktest.assertLE(1.0 as double, 1.0 as double);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -229,10 +229,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertLE_Byte_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLE(1 as byte, 1 as byte);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLE(1 as byte, 1 as byte);
+        res = arktest.assertLE(1 as byte, 1 as byte);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -242,10 +242,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertLE_Short_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLE(1 as short, 1 as short);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLE(1 as short, 1 as short);
+        res = arktest.assertLE(1 as short, 1 as short);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -256,10 +256,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertLE_Long_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLE(1 as long, 1 as long);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLE(1 as long, 1 as long);
+        res = arktest.assertLE(1 as long, 1 as long);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -270,10 +270,10 @@ export default function ArktestPerfTest() : void {
     })
 
     it('PerformanceTest_arktest_AssertLE_Float_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: boolean = false;
+      let res = arktest.assertLE(1.0 as float, 1.0 as float);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.assertLE(1.0 as float, 1.0 as float);
+        res = arktest.assertLE(1.0 as float, 1.0 as float);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -288,10 +288,10 @@ export default function ArktestPerfTest() : void {
     // ================================================================
     it('PerformanceTest_arktest_ExpectThrow_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let mockThrowFunc = () => { throw new Error("Expected"); };
-      let res: boolean = false;
+      let res = arktest.expectThrow(mockThrowFunc);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.expectThrow(mockThrowFunc);
+        res = arktest.expectThrow(mockThrowFunc);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -303,10 +303,10 @@ export default function ArktestPerfTest() : void {
 
     it('PerformanceTest_arktest_ExpectError_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let mockThrowFunc = () => { throw new Error("Expected"); };
-      let res: boolean = false;
+      let res = arktest.expectError(mockThrowFunc, "Expected");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.expectError(mockThrowFunc, "Expected");
+        res = arktest.expectError(mockThrowFunc, "Expected");
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -318,10 +318,10 @@ export default function ArktestPerfTest() : void {
 
     it('PerformanceTest_arktest_ExpectNoThrow_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let mockSafeFunc = () => { let a = 1; };
-      let res: boolean = false;
+      let  res = arktest.expectNoThrow(mockSafeFunc)
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arktest.expectNoThrow(mockSafeFunc);
+        res = arktest.expectNoThrow(mockSafeFunc);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -336,10 +336,10 @@ export default function ArktestPerfTest() : void {
     // ================================================================
     it('PerformanceTest_arktest_ExpectThrowAsync_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, async () => {
       let mockAsyncThrowFunc = async () => { throw new Error("Expected"); };
-      let res: boolean = false;
+      let  res = await arktest.expectThrowAsync(mockAsyncThrowFunc);
       let Stime = new Date().getTime();
       for (let i = 0; i < ASYNC_BASE_COUNT; i++) {
-        await arktest.expectThrowAsync(mockAsyncThrowFunc);
+        res = await arktest.expectThrowAsync(mockAsyncThrowFunc);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -351,10 +351,10 @@ export default function ArktestPerfTest() : void {
 
     it('PerformanceTest_arktest_ExpectErrorAsync_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, async () => {
       let mockAsyncThrowFunc = async () => { throw new Error("Expected"); };
-      let res: boolean = false;
+      let res = await arktest.expectErrorAsync(mockAsyncThrowFunc, "Expected");
       let Stime = new Date().getTime();
       for (let i = 0; i < ASYNC_BASE_COUNT; i++) {
-        await arktest.expectErrorAsync(mockAsyncThrowFunc, "Expected");
+        res = await arktest.expectErrorAsync(mockAsyncThrowFunc, "Expected");
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -366,10 +366,10 @@ export default function ArktestPerfTest() : void {
 
     it('PerformanceTest_arktest_ExpectNoThrowAsync_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, async () => {
       let mockAsyncSafeFunc = async () => { let a = 1; };
-      let res: boolean = false;
+      let res = await arktest.expectNoThrowAsync(mockAsyncSafeFunc);
       let Stime = new Date().getTime();
       for (let i = 0; i < ASYNC_BASE_COUNT; i++) {
-        await arktest.expectNoThrowAsync(mockAsyncSafeFunc);
+        res = await arktest.expectNoThrowAsync(mockAsyncSafeFunc);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -438,8 +438,8 @@ export default function ArktestPerfTest() : void {
         res = new arktest.ArkTestsuite("Suite");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArkTestsuite_Constructor_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.testing', 'ArkTestsuite', 'constructor',
         'constructor(name: string)', arkTsAveragedTime);
@@ -527,8 +527,8 @@ export default function ArktestPerfTest() : void {
         res = suite.run();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArkTestsuite_Run_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.testing', 'ArkTestsuite', 'run', 'run(): int', arkTsAveragedTime);
     })
@@ -541,8 +541,8 @@ export default function ArktestPerfTest() : void {
         res = suite.name;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArkTestsuite_Name_3500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.testing', 'ArkTestsuite', 'name', 'readonly name: string', arkTsAveragedTime);
     })

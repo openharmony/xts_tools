@@ -74,8 +74,8 @@ export default function ArrayLikePerfTest(): void {
         res = arr.$_get(2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayLike_Get_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ArrayLike', '$_get',
         '$_get(index: int): T', arkTsAveragedTime);
@@ -90,8 +90,8 @@ export default function ArrayLikePerfTest(): void {
         res = arr.length;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayLike_Length_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ArrayLike', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -106,8 +106,8 @@ export default function ArrayLikePerfTest(): void {
         res = arr.$_iterator();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayLike_Iterator_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ArrayLike', '$_iterator',
         '$_iterator(): IterableIterator<T>', arkTsAveragedTime);

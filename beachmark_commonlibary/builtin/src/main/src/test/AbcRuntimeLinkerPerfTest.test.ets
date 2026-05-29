@@ -52,8 +52,8 @@ export default function AbcRuntimeLinkerPerfTest(): void {
         res = new AbcRuntimeLinker(undefined, paths);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcRuntimeLinker_constructor_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'AbcRuntimeLinker', 'constructor',
@@ -70,8 +70,8 @@ export default function AbcRuntimeLinkerPerfTest(): void {
         res = new AbcRuntimeLinker(undefined, paths, loaders);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcRuntimeLinker_constructor_0200: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'AbcRuntimeLinker', 'constructor',
@@ -88,8 +88,8 @@ export default function AbcRuntimeLinkerPerfTest(): void {
         linker.addAbcFiles(paths);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = linker;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcRuntimeLinker_addAbcFiles_0300: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'AbcRuntimeLinker', 'addAbcFiles',
