@@ -55,11 +55,11 @@ export default function MessageHandlerPerfTest():void {
             result = new concurrency.MessageHandler(Handler);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_MessageHandler_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'MessageHandler', 'constructor',
-            'constructor(callback: MessageHandler): MessageHandler', arkTsAveragedTime);
+            'constructor(callback: (msg: Message) => void): MessageHandler', arkTsAveragedTime);
     })
 
     it('PerformanceTest_MessageHandler_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -72,8 +72,8 @@ export default function MessageHandlerPerfTest():void {
             result = messageHandler.hasCallbacks(task);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_MessageHandler_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'MessageHandler', 'hasCallbacks',
             'hasCallbacks(callback: Function): boolean', arkTsAveragedTime);
@@ -88,8 +88,8 @@ export default function MessageHandlerPerfTest():void {
             result = messageHandler.hasMessages(1);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_MessageHandler_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'MessageHandler', 'hasMessages',
             'hasMessages(what: number): boolean', arkTsAveragedTime);
@@ -105,8 +105,8 @@ export default function MessageHandlerPerfTest():void {
             result = messageHandler.hasMessages(1,objVar);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_MessageHandler_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'MessageHandler', 'hasMessages',
             'hasMessages(what: number, object: Object): boolean', arkTsAveragedTime);
@@ -125,8 +125,8 @@ export default function MessageHandlerPerfTest():void {
           messageHandler.post(task);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = messageHandler;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_MessageHandler_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'MessageHandler', 'post',
           'post(task: Runnable | Callback): void', arkTsAveragedTime);
@@ -144,8 +144,8 @@ export default function MessageHandlerPerfTest():void {
            messageHandler.removeCallbacks(task);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = messageHandler;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_MessageHandler_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'MessageHandler', 'removeCallbacks',
             'removeCallbacks(callback: Function | Runnable): void', arkTsAveragedTime);
@@ -159,8 +159,8 @@ export default function MessageHandlerPerfTest():void {
             messageHandler.removeMessages(1);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = messageHandler;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_MessageHandler_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'MessageHandler', 'removeMessages',
             'removeMessages(what: number): void', arkTsAveragedTime);
@@ -176,8 +176,8 @@ export default function MessageHandlerPerfTest():void {
             messageHandler.removeMessages(1, objVar);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = messageHandler;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_MessageHandler_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'MessageHandler', 'removeMessages',
             'removeMessages(what: number, object: Object): void', arkTsAveragedTime);
@@ -196,8 +196,8 @@ export default function MessageHandlerPerfTest():void {
                 res = messageHandler.sendEmptyMessage(1);
             }
             let Dtime = new Date().getTime() - Stime;
-            let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
             let res1 = res;
+            let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
             console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_MessageHandler_0900: ' + arkTsAveragedTime + 'ns');
             performance.apiWithClassAndKeywordTxt('std.concurrency', 'MessageHandler', 'sendEmptyMessage',
                 'sendEmptyMessage(what: number): boolean', arkTsAveragedTime);
@@ -220,8 +220,8 @@ export default function MessageHandlerPerfTest():void {
                 res = messageHandler.sendMessage(msg3);
             }
             let Dtime = new Date().getTime() - Stime;
-            let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
             let res1 = res;
+            let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
             console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_MessageHandler_1000: ' + arkTsAveragedTime + 'ns');
             performance.apiWithClassAndKeywordTxt('std.concurrency', 'MessageHandler', 'sendMessage',
                 'sendMessage(msg: Message): boolean', arkTsAveragedTime);
@@ -240,8 +240,8 @@ export default function MessageHandlerPerfTest():void {
             res = messageHandler.getWorker();
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_MessageHandler_1100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'MessageHandler', 'getWorker',
             'getWorker(): Worker', arkTsAveragedTime);

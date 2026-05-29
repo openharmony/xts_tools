@@ -56,8 +56,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = new containers.LinkedBlockingQueue<number>();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -70,8 +70,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = new containers.LinkedBlockingQueue<number>(100000);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'constructor',
         'constructor(capacity: int)', arkTsAveragedTime);
@@ -85,8 +85,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = new containers.LinkedBlockingQueue<number>(arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'constructor',
         'constructor(iterable: Iterable<T>)', arkTsAveragedTime);
@@ -100,8 +100,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = new containers.LinkedBlockingQueue<number>(100, arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_Constructor_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'constructor',
         'constructor(capacity: int, iterable: Iterable<T>)', arkTsAveragedTime);
@@ -117,8 +117,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         q.push(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = q;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_Push_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'push',
         'push(element: T): void', arkTsAveragedTime);
@@ -136,8 +136,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = q.pop();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_Pop_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'pop',
         'pop(): T', arkTsAveragedTime);
@@ -151,8 +151,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = q.add(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_Add_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'add',
         'add(element: T): boolean', arkTsAveragedTime);
@@ -170,8 +170,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = q.poll();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_Poll_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'poll',
         'poll(): T | undefined', arkTsAveragedTime);
@@ -186,8 +186,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = q.getFirst();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_GetFirst_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'getFirst',
         'getFirst(): T | undefined', arkTsAveragedTime);
@@ -202,8 +202,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = q.getEnd();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_GetEnd_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'getEnd',
         'getEnd(): T | undefined', arkTsAveragedTime);
@@ -217,8 +217,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = q.isEmpty();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_IsEmpty_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'isEmpty',
         'isEmpty(): boolean', arkTsAveragedTime);
@@ -233,8 +233,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = q.size;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_Size_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'size',
         'get size(): int', arkTsAveragedTime);
@@ -248,8 +248,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = q.capacity;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_Capacity_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'capacity',
         'get capacity(): int', arkTsAveragedTime);
@@ -263,8 +263,8 @@ export default function LinkedBlockingQueuePerfTest(): void {
         res = q.remainingCapacity();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedBlockingQueue_RemainingCapacity_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'LinkedBlockingQueue', 'remainingCapacity',
         'remainingCapacity(): int', arkTsAveragedTime);

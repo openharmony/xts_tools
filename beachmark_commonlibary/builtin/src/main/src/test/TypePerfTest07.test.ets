@@ -394,8 +394,9 @@ export default function TypePerfTest07(): void {
     }); */
 
     // ==================== StringType convertObject 测试 ====================
+    // 与 TypePerfTest.test.ets 重复，注释排除
 
-    it('PerformanceTest_StringType_convertObject_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    /* it('PerformanceTest_StringType_convertObject_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let stringType = Type.of("test");
       if (!(stringType instanceof StringType)) {
         return;
@@ -412,7 +413,7 @@ export default function TypePerfTest07(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StringType_convertObject_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'StringType', 'convertObject',
         'convertObject(obj: Any): Any', arkTsAveragedTime);
-    });
+    }); */
 
     // ==================== TypeKind 测试 ====================
 

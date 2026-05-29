@@ -54,8 +54,8 @@ export default function RejectedHandlerPerfTest(): void {
         b = new RejectedHandler();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RejectedHandler_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RejectedHandler', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -69,8 +69,8 @@ export default function RejectedHandlerPerfTest(): void {
         b = new RejectedHandler(callback);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RejectedHandler_constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RejectedHandler', 'constructor',
         'constructor(cb: RejectedObjectListener)', arkTsAveragedTime);
@@ -84,8 +84,8 @@ export default function RejectedHandlerPerfTest(): void {
         handler.register(callback);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = handler;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RejectedHandler_register_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RejectedHandler', 'register',
         'register(cb: RejectedObjectListener): void', arkTsAveragedTime);
@@ -93,12 +93,16 @@ export default function RejectedHandlerPerfTest(): void {
 
     it('PerformanceTest_RejectedHandler_unregister_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let handler = new RejectedHandler();
-      let callback = (reason: Error, obj: Object): void => {};
-      handler.register(callback);
+      let callbacks: ((reason: Error, obj: Object) => void)[] = [];
+      for (let i = 0; i < BASE_COUNT; i++) {
+        let cb = (reason: Error, obj: Object): void => {};
+        callbacks.push(cb);
+        handler.register(cb);
+      }
 
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        handler.unregister(callback);
+        handler.unregister(callbacks[i]);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -119,8 +123,8 @@ export default function RejectedHandlerPerfTest(): void {
         handler.reset();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = handler;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RejectedHandler_reset_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RejectedHandler', 'reset',
         'reset(): void', arkTsAveragedTime);
@@ -137,8 +141,8 @@ export default function RejectedHandlerPerfTest(): void {
         handler.apply(err, obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = handler;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RejectedHandler_apply_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RejectedHandler', 'apply',
@@ -156,8 +160,8 @@ export default function RejectedHandlerPerfTest(): void {
         result = handler.size;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RejectedHandler_size_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RejectedHandler', 'size',

@@ -85,19 +85,20 @@ export default function TypedArraysPerfTest05(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'constructor', 'constructor(length: number)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_BigInt64Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let srcArr: BigInt64Array = new BigInt64Array(100);
-      let result = new BigInt64Array(srcArr);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        result = new BigInt64Array(srcArr);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let res1 = result;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsPerformanceTest BigInt64Array Constructor_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'constructor', 'constructor(other: TypedArray)', arkTsAveragedTime);
-    })
+    // 注: 传入BigInt64Array参数，重载决议命中constructor(numbers: BigInt64Array)，与_0600重复，已注释
+    // it('PerformanceTest_BigInt64Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let srcArr: BigInt64Array = new BigInt64Array(100);
+    //   let result = new BigInt64Array(srcArr);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     result = new BigInt64Array(srcArr);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let res1 = result;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest BigInt64Array Constructor_0400: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'constructor', 'constructor(other: TypedArray)', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_BigInt64Array_Constructor_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: BigInt64Array = new BigInt64Array(100);

@@ -164,16 +164,19 @@ export default function TypedUArraysPerfTest16(): void {
     })
 
     it('PerformanceTest_Uint8ClampedArray_reverse', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Uint8ClampedArray = new Uint8ClampedArray(100);
+      let originalData: number[] = new Array<number>(100);
       for (let i = 0; i < 100; i++) {
-        arr[i] = i ;
+        originalData[i] = i;
       }
+      let arr: Uint8ClampedArray = new Uint8ClampedArray(originalData);
+      let res: Uint8ClampedArray = arr;
+
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr.reverse();
+        res = arr.reverse();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Uint8ClampedArray_reverse: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Uint8ClampedArray', 'reverse',
@@ -650,10 +653,11 @@ export default function TypedUArraysPerfTest16(): void {
     })
 
     it('PerformanceTest_BigUint64Array_sort', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: BigUint64Array = new BigUint64Array(100);
+      let originalData: BigInt[] = [];
       for (let j = 0; j < 100; j++) {
-        arr[j] = BigInt(100 - j);
+        originalData[j] = BigInt(100 - j);
       }
+      let arr: BigUint64Array = new BigUint64Array(originalData);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         arr.sort();

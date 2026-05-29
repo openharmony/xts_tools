@@ -161,13 +161,10 @@ export default function TypePerfTest10(): void {
         return;
       }
       let result: EnumConstant | undefined = undefined;
+      result = enumType.getConstantByName("CONST_A");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-          try {
-            result = enumType.getConstantByName("CONST_A");
-        } catch (e) {
-          // not implemented
-        }
+        result = enumType.getConstantByName("CONST_A");
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = result;

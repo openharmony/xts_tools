@@ -53,8 +53,8 @@ export default function LaunchPerfTest(): void {
         res = WorkerGroup.generateGroupId(WorkerDomain.GENERAL);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerGroup_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerGroup', 'generateGroupId',
         'static generateGroupId(domain: WorkerDomain, hint?: Array<WorkerId>): WorkerGroupId', arkTsAveragedTime);
@@ -70,8 +70,8 @@ export default function LaunchPerfTest(): void {
         res = WorkerGroup.generateGroupId(WorkerDomain.EXACT_ID, hint);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerGroup_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerGroup', 'generateGroupId',
         'static generateGroupId(domain: WorkerDomain, hint?: Array<WorkerId>): WorkerGroupId', arkTsAveragedTime);
@@ -84,8 +84,8 @@ export default function LaunchPerfTest(): void {
         res = new LaunchParams();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LaunchParams_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'LaunchParams', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -99,8 +99,8 @@ export default function LaunchPerfTest(): void {
         flag = params.abortFlag;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = flag;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LaunchParams_Property_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'LaunchParams', 'abortFlag',
         'abortFlag: boolean', arkTsAveragedTime);
@@ -114,8 +114,8 @@ export default function LaunchPerfTest(): void {
         res = params.workerGroupId;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LaunchParams_Property_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'LaunchParams', 'workerGroupId',
         'workerGroupId: WorkerGroupId', arkTsAveragedTime);
@@ -128,8 +128,8 @@ export default function LaunchPerfTest(): void {
         res = WorkerDomain.GENERAL;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerDomain_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerDomain', 'GENERAL',
         'GENERAL = 0', arkTsAveragedTime);
@@ -142,8 +142,8 @@ export default function LaunchPerfTest(): void {
         res = WorkerDomain.EXACT_ID;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerDomain_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerDomain', 'EXACT_ID',
         'EXACT_ID', arkTsAveragedTime);
@@ -156,8 +156,8 @@ export default function LaunchPerfTest(): void {
         res = WorkerDomain.MAIN;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerDomain_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerDomain', 'MAIN',
         'MAIN', arkTsAveragedTime);
@@ -170,8 +170,8 @@ export default function LaunchPerfTest(): void {
         res = WorkerDomain.EA;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerDomain_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerDomain', 'EA',
         'EA', arkTsAveragedTime);
@@ -184,8 +184,8 @@ export default function LaunchPerfTest(): void {
         res = WorkerGroup.INVALID_ID;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerGroup_Property_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerGroup', 'INVALID_ID',
         'INVALID_ID: WorkerGroupId', arkTsAveragedTime);
@@ -198,8 +198,8 @@ export default function LaunchPerfTest(): void {
         res = WorkerGroup.ANY_ID;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerGroup_Property_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerGroup', 'ANY_ID',
         'ANY_ID: WorkerGroupId', arkTsAveragedTime);

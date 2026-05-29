@@ -52,8 +52,8 @@ export default function ErrorHandlerPerfTest(): void {
         res = new ProcessErrorHandler(cb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_Constructor_0100: ' +
         arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'constructor',
@@ -62,16 +62,15 @@ export default function ErrorHandlerPerfTest(): void {
 
     it('PerformanceTest_ErrorHandler_HandleUncaughtError_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       () => {
-        let handler = new ProcessErrorHandler((error: Object) => {
-        });
+        let handler = new ProcessErrorHandler((error: Object) => {});
         let error = new Error("test error");
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
           handler.handleUncaughtError(error);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 		    let res1 = handler;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_HandleUncaughtError_0200: ' +
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'handleUncaughtError',
@@ -79,16 +78,15 @@ export default function ErrorHandlerPerfTest(): void {
       })
 
     it('PerformanceTest_ErrorHandler_Reset_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let handler = new ProcessErrorHandler((error: Object) => {
-      });
+      let handler = new ProcessErrorHandler((error: Object) => {});
       let cb = (error: Object) => {};
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         handler.reset(cb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = handler;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_Reset_0300: ' +
         arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'reset',
@@ -145,27 +143,28 @@ export default function ErrorHandlerPerfTest(): void {
     //       'handleUncaughtError(callbackThrows): void', arkTsAveragedTime);
     //   })
 
-    it('PerformanceTest_ErrorHandler_Reset_MultipleCalls_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let handler = new ProcessErrorHandler((error: Object) => {
-      });
-      let cb1 = (error: Object) => {};
-      let cb2 = (error: Object) => {};
-      let cb3 = (error: Object) => {};
-      let cb4 = (error: Object) => {};
-      let callbacks: Array<(error: Object) => void> = [cb1, cb2, cb3, cb4];
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        let cbIndex = i % 4;
-        handler.reset(callbacks[cbIndex]);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = handler;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_Reset_MultipleCalls_0600: ' +
-        arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'reset',
-        'reset(cb: UncaughtErrorListener): void', arkTsAveragedTime);
-    })
+    // Duplicate of _0300 (same reset interface, non-overload). Commented out.
+    // it('PerformanceTest_ErrorHandler_Reset_MultipleCalls_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let handler = new ProcessErrorHandler((error: Object) => {
+    //   });
+    //   let cb1 = (error: Object) => {};
+    //   let cb2 = (error: Object) => {};
+    //   let cb3 = (error: Object) => {};
+    //   let cb4 = (error: Object) => {};
+    //   let callbacks: Array<(error: Object) => void> = [cb1, cb2, cb3, cb4];
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     let cbIndex = i % 4;
+    //     handler.reset(callbacks[cbIndex]);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = handler;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_Reset_MultipleCalls_0600: ' +
+    //     arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'reset',
+    //     'reset(cb: UncaughtErrorListener): void', arkTsAveragedTime);
+    // })
 
   })
 }

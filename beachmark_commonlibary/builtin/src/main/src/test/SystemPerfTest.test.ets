@@ -54,9 +54,9 @@ export default function SystemPerfTest(): void {
          str = stackTraceLines();
        }
        let Dtime = new Date().getTime() - Stime;
-       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
        let res1 = str;
+       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_System_stackTraceLines_0100: '
          + arkTsAveragedTime + 'ns');
        performance.apiWithClassAndKeywordTxt(
@@ -75,8 +75,8 @@ export default function SystemPerfTest(): void {
          printStackTrace();
        }
        let Dtime = new Date().getTime() - Stime;
+       let res1 = printStackTrace;
        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-       let res1 = b;
        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_System_printStackTrace_0100: '
          + arkTsAveragedTime + 'ns');
        performance.apiWithClassAndKeywordTxt(

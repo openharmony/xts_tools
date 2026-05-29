@@ -23,6 +23,70 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
+function toByteValue(value: int): byte {
+  return value.toByte();
+}
+
+function toShortValue(value: int): short {
+  return value.toShort();
+}
+
+function toLongValue(value: int): long {
+  return value.toLong();
+}
+
+function toFloatValue(value: double): float {
+  return value.toFloat();
+}
+
+function createByteValueArray(): ValueArray<byte> {
+  return [toByteValue(1), toByteValue(2), toByteValue(3)] as ValueArray<byte>;
+}
+
+function createCharValueArray(): ValueArray<char> {
+  return [c'a', c'b', c'c'] as ValueArray<char>;
+}
+
+function createShortValueArray(): ValueArray<short> {
+  return [toShortValue(1), toShortValue(2), toShortValue(3)] as ValueArray<short>;
+}
+
+function createIntValueArray(): ValueArray<int> {
+  return [1, 2, 3] as ValueArray<int>;
+}
+
+function createLongValueArray(): ValueArray<long> {
+  return [toLongValue(1), toLongValue(2), toLongValue(3)] as ValueArray<long>;
+}
+
+function createFloatValueArray(): ValueArray<float> {
+  return [toFloatValue(1.1), toFloatValue(2.2), toFloatValue(3.3)] as ValueArray<float>;
+}
+
+function createDoubleValueArray(): ValueArray<double> {
+  return [1.1, 2.2, 3.3] as ValueArray<double>;
+}
+
+function createBooleanValueArray(): ValueArray<boolean> {
+  return [true, false, true] as ValueArray<boolean>;
+}
+
+class SampleJsonReplacer implements JsonReplacer {
+  public jsonReplacer(): Record<String, Any> {
+    let record = new Record<String, Any>();
+    record.set("name", "arkts");
+    record.set("version", 1);
+    return record;
+  }
+}
+
+class SampleJsonSerializable implements JsonSerializable {
+  public toJSON(): string {
+    return "{\"name\":\"arkts\",\"version\":1}";
+  }
+}
+
+
 
 
 export default function JsonPerfTest01(): void {
@@ -43,184 +107,224 @@ export default function JsonPerfTest01(): void {
       performance.save('apiPerformance.txt');
     });
 
-    it('PerformanceTest_JSON_stringify_simple_0100',
+    // ===== stringify(ValueArray<T>) — 补充 FixedArray 对应的 8 个 ValueArray 重载 =====
+
+    it('PerformanceTest_JSON_stringify_2600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let obj: Record<string, string | number | boolean> = {"name":"arkts","age":25,"active":true};
-        let result: string = JSON.stringify(obj);
+        let d: ValueArray<byte> = createByteValueArray();
+        let result: String = JSON.stringify(d);
         let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = JSON.stringify(obj);
+          result = JSON.stringify(d);
         }
 
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest PerformanceTest_JSON_stringify_simple_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_2600: '
+          + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify simple object', arkTsAveragedTime);
+          'stringify(ValueArray<byte>): String', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_JSON_stringify_largeArray_0300',
+    it('PerformanceTest_JSON_stringify_2700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let obj: Record<string, Array<number> | string | number | boolean> = {"data":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99]};
-        let result: string = JSON.stringify(obj);
+        let d: ValueArray<char> = createCharValueArray();
+        let result: String = JSON.stringify(d);
         let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = JSON.stringify(obj);
+          result = JSON.stringify(d);
         }
 
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest PerformanceTest_JSON_stringify_largeArray_0300: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_2700: '
+          + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify large array object', arkTsAveragedTime);
+          'stringify(ValueArray<char>): String', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_JSON_stringify_mixedArray_0400',
+    it('PerformanceTest_JSON_stringify_2800',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let arr = [1,"string",true,3.14,null];
-        let result: string = JSON.stringify(arr);
+        let d: ValueArray<short> = createShortValueArray();
+        let result: String = JSON.stringify(d);
         let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = JSON.stringify(arr);
+          result = JSON.stringify(d);
         }
 
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest PerformanceTest_JSON_stringify_mixedArray_0400: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_2800: '
+          + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify mixed type array', arkTsAveragedTime);
+          'stringify(ValueArray<short>): String', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_JSON_stringify_largeRecord_0500',
+    it('PerformanceTest_JSON_stringify_2900',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let obj: Record<string, string | number | boolean> = {"id":1,"name":"test","active":true};
-        let result: string = JSON.stringify(obj);
+        let d: ValueArray<int> = createIntValueArray();
+        let result: String = JSON.stringify(d);
         let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = JSON.stringify(obj);
+          result = JSON.stringify(d);
         }
 
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest PerformanceTest_JSON_stringify_largeRecord_0500: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_2900: '
+          + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify large record', arkTsAveragedTime);
+          'stringify(ValueArray<int>): String', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_JSON_stringify_specialChars_0700',
+    it('PerformanceTest_JSON_stringify_3000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let obj: Record<string, string> = {"key with space":"value","unicode":"中文测试"};
-        let result: string = JSON.stringify(obj);
+        let d: ValueArray<long> = createLongValueArray();
+        let result: String = JSON.stringify(d);
         let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = JSON.stringify(obj);
+          result = JSON.stringify(d);
         }
 
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest PerformanceTest_JSON_stringify_specialChars_0700: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_3000: '
+          + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify with special characters', arkTsAveragedTime);
+          'stringify(ValueArray<long>): String', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_JSON_parse_simple_0100',
+    it('PerformanceTest_JSON_stringify_3100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let json: string = '{"name":"arkts","age":25,"active":true}';
-        let result = JSON.parseJsonElement(json);
+        let d: ValueArray<float> = createFloatValueArray();
+        let result: String = JSON.stringify(d);
         let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = JSON.parseJsonElement(json);
+          result = JSON.stringify(d);
         }
 
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest PerformanceTest_JSON_parse_simple_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parse',
-          'parse simple JSON', arkTsAveragedTime);
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_3100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
+          'stringify(ValueArray<float>): String', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_JSON_parse_largeArray_0300',
+    it('PerformanceTest_JSON_stringify_3200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let json: string = '{"data":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99]}';
-        let result = JSON.parseJsonElement(json);
+        let d: ValueArray<double> = createDoubleValueArray();
+        let result: String = JSON.stringify(d);
         let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = JSON.parseJsonElement(json);
+          result = JSON.stringify(d);
         }
 
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest PerformanceTest_JSON_parse_largeArray_0300: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parse',
-          'parse large array JSON', arkTsAveragedTime);
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_3200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
+          'stringify(ValueArray<double>): String', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_JSON_parse_mixedArray_0400',
+    it('PerformanceTest_JSON_stringify_3300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let json: string = '[1,"string",true,3.14,null]';
-        let result = JSON.parseJsonElement(json);
+        let d: ValueArray<boolean> = createBooleanValueArray();
+        let result: String = JSON.stringify(d);
         let Stime = new Date().getTime();
 
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = JSON.parseJsonElement(json);
+          result = JSON.stringify(d);
         }
 
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest PerformanceTest_JSON_parse_mixedArray_0400: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parse',
-          'parse mixed array JSON', arkTsAveragedTime);
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_3300: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
+          'stringify(ValueArray<boolean>): String', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_JSON_parse_complexRecord_0500',
+    // ===== JsonReplacer.jsonReplacer() =====
+
+    it('PerformanceTest_JsonReplacer_jsonReplacer_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let json: string = '{"id":1,"name":"test","active":true}';
-        let result = JSON.parseJsonElement(json);
-
+        let replacer: JsonReplacer = new SampleJsonReplacer();
+        let result: Record<String, Any> = replacer.jsonReplacer();
         let Stime = new Date().getTime();
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = JSON.parseJsonElement(json);
-        }
-        let Dtime = new Date().getTime() - Stime;
 
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = replacer.jsonReplacer();
+        }
+
+        let Dtime = new Date().getTime() - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest PerformanceTest_JSON_parse_complexRecord_0500: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parse',
-          'parse complex record JSON', arkTsAveragedTime);
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JsonReplacer_jsonReplacer_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JsonReplacer', 'jsonReplacer',
+          'jsonReplacer(): Record<String, Any>', arkTsAveragedTime);
       });
 
-    it('PerformanceTest_JSON_parse_specialChars_0700',
+    // ===== JsonSerializable.toJSON() =====
+
+    it('PerformanceTest_JsonSerializable_toJSON_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let json: string = '{"key with space":"value","unicode":"中文测试"}';
-        let result = JSON.parseJsonElement(json);
-
+        let obj: JsonSerializable = new SampleJsonSerializable();
+        let result: string = obj.toJSON();
         let Stime = new Date().getTime();
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = JSON.parseJsonElement(json);
-        }
-        let Dtime = new Date().getTime() - Stime;
 
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = obj.toJSON();
+        }
+
+        let Dtime = new Date().getTime() - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest PerformanceTest_JSON_parse_specialChars_0700: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parse',
-          'parse special characters JSON', arkTsAveragedTime);
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JsonSerializable_toJSON_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JsonSerializable', 'toJSON',
+          'toJSON(): string', arkTsAveragedTime);
       });
+
+    // ===== JsonParseError.super(msg_at_offset) =====
+
+    it('PerformanceTest_JsonParseError_message_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let err: JsonParseError = new JsonParseError("test error", 5, 10);
+        let result: string = err.message;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = err.message;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JsonParseError_message_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JsonParseError', 'super',
+          'super(msg_at_offset)', arkTsAveragedTime);
+      });
+
+
+
   });
 }

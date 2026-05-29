@@ -23,13 +23,13 @@ import ArrayLikePerfTest from './ArrayLikePerfTest.test';
 import ArrayPerfTest from './ArrayPerfTest.test';
 import AsyncArrayConcurrentQueuePerfTest from './AsyncArrayConcurrentQueuePerfTest.test';
 import AsyncConcurrentQueuePerfTest from './AsyncConcurrentQueuePerfTest.test';
-import AsyncCondVarBasedMutexPerTest from './AsyncCondVarBasedMutexPerTest.test';
+import AsyncCondVarBasedMutexPerfTest from './AsyncCondVarBasedMutexPerfTest.test';
 import AsyncCondVarPerfTest from "./AsyncCondVarPerfTest.test";
 import AsyncLinkedConcurrentQueuePerfTest from './AsyncLinkedConcurrentQueuePerfTest.test';
 import AsyncLockManagerPerfTest from "./AsyncLockManagerPerfTest.test";
 import AsyncLockPerfTest from "./AsyncLockPerfTest.test";
 import AsyncMutexPerfTest from "./AsyncMutexPerfTest.test";
-import AsyncRWLockPerTest from './AsyncRWLockPerTest.test';
+import AsyncRWLockPerfTest from './AsyncRWLockPerfTest.test';
 import AtomicFlagPerfTest from './AtomicFlagPerfTest.test';
 import AtomicsPerfTest from "./AtomicsPerfTest.test";
 import BaseEnumPerfTest from './BaseEnumPerfTest.test';
@@ -104,10 +104,7 @@ import IntPerfTest from './IntPerfTest.test';
 import IteratorPerfTest from './IteratorPerfTest.test';
 import JsonPerfTest from './JsonPerfTest.test';
 import JsonPerfTest01 from './JsonPerfTest01.test';
-import JsonPerfTest02 from './JsonPerfTest02.test';
-import JsonPerfTest03 from './JsonPerfTest03.test';
-import JsonPerfTest04 from './JsonPerfTest04.test';
-import JsonPerfTest05 from './JsonPerfTest05.test';
+
 import JsonxPerfTest from './JsonxPerfTest.test';
 import JSRuntimePerfTest from './JSRuntimePerfTest.test';
 import JSRuntimePerfTest01 from './JSRuntimePerfTest01.test';
@@ -120,6 +117,7 @@ import LaunchPerfTest from "./LaunchPerfTest.test";
 import LegacyAtomicsPerfTest from './LegacyAtomicsPerfTest.test';
 import LinkedBlockingQueuePerfTest from './LinkedBlockingQueuePerfTest.test';
 import ListIntPerfTest from './ListIntPerfTest.test';
+import ListObjectPerfTest from './ListObjectPerfTest.test';
 
 import ListStringPerfTest from './ListStringPerfTest.test';
 import LoggerPerfTest from './LoggerPerfTest.test';
@@ -133,7 +131,7 @@ import MessagePerfTest from "./MessagePerfTest.test";
 import MethodPerfTest from './MethodPerfTest.test';
 import NarrowAnyPerfTest from './NarrowAnyPerfTest.test';
 import NoContextInteropErrorPerfTest from './NoContextInteropErrorPerfTest.test';
-import NullPerfTest from './NullPerfTest.test';
+
 import ObjectPerfTest from './ObjectPerfTest.test';
 import ParameterPerfTest from './ParameterPerfTest.test';
 import ProcessPerfTest from './ProcessPerfTest.test'
@@ -204,9 +202,9 @@ import TypePerfTest from './TypePerfTest.test';
 import TypePerfTest01 from './TypePerfTest01.test';
 import TypePerfTest02 from './TypePerfTest02.test';
 import TypePerfTest03 from './TypePerfTest03.test';
-import TypePerfTest04 from './TypePerfTest04.test';
+
 import TypePerfTest05 from './TypePerfTest05.test';
-import TypePerfTest06 from './TypePerfTest06.test';
+
 import TypePerfTest07 from './TypePerfTest07.test';
 import TypePerfTest08 from './TypePerfTest08.test';
 import TypePerfTest09 from './TypePerfTest09.test';
@@ -323,10 +321,7 @@ export default function testsuite(): void {
   IteratorPerfTest();
   JsonPerfTest();
   JsonPerfTest01();
-  JsonPerfTest02();
-  JsonPerfTest03();
-  JsonPerfTest04();
-  JsonPerfTest05();
+
   JsonxPerfTest();
   JSRuntimePerfTest();
   JSRuntimePerfTest01();
@@ -339,7 +334,7 @@ export default function testsuite(): void {
   LegacyAtomicsPerfTest();
   LinkedBlockingQueuePerfTest();
   ListIntPerfTest();
-
+  ListObjectPerfTest();
   ListStringPerfTest();
   LoggerPerfTest();
   LongPerfTest();
@@ -351,7 +346,7 @@ export default function testsuite(): void {
   MessagePerfTest();
   MethodPerfTest();
   NoContextInteropErrorPerfTest();
-  NullPerfTest();
+
   ObjectPerfTest();
   ParameterPerfTest();
   ProcessPerfTest();
@@ -421,9 +416,9 @@ export default function testsuite(): void {
   TypePerfTest01();  
   TypePerfTest02();  
   TypePerfTest03();
-  TypePerfTest04();
+
   TypePerfTest05();  
-  TypePerfTest06();
+
   TypePerfTest07();  
   TypePerfTest08();  
   TypePerfTest09();

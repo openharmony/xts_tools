@@ -261,31 +261,33 @@ export default function TypedArraysPerfTest08(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'set', 'set(FixedArray<number>, int): void', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Int16Array_set_FixedNumber', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Int16Array = new Int16Array(100);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr.set([1, 2, 3, 4, 5]);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsPerformanceTest Int16Array set_FixedNumber: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'set', 'set(FixedArray<number>): void', arkTsAveragedTime);
-    })
+    // DUPLICATE: Int16Array_set_FixedNumber 与 set_FixedShort(238行)完全相同,都使用相同的数组和签名
+    // it('PerformanceTest_Int16Array_set_FixedNumber', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let arr: Int16Array = new Int16Array(100);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     arr.set([1, 2, 3, 4, 5]);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let res1 = arr;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest Int16Array set_FixedNumber: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'set', 'set(FixedArray<number>): void', arkTsAveragedTime);
+    // })
 
-    it('PerformanceTest_Int16Array_set_FixedNumber_offset', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: Int16Array = new Int16Array(100);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        arr.set([1, 2, 3, 4, 5], 10 as int);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let res1 = arr;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsPerformanceTest Int16Array set_FixedNumber_offset: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'set', 'set(FixedArray<number>, int): void', arkTsAveragedTime);
-    })
+    // DUPLICATE: Int16Array_set_FixedNumber_offset 与 set_FixedShort_offset(251行)完全相同,都使用相同的数组和签名
+    // it('PerformanceTest_Int16Array_set_FixedNumber_offset', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let arr: Int16Array = new Int16Array(100);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     arr.set([1, 2, 3, 4, 5], 10 as int);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let res1 = arr;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest Int16Array set_FixedNumber_offset: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'set', 'set(FixedArray<number>, int): void', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Int16Array_set_Int16Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Int16Array = new Int16Array(100);

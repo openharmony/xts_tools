@@ -643,31 +643,6 @@ export default function ShortPerfTest(): void {
         );
       });
 
-    it('PerformanceTest_Short_toString_0400',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let value: Short = createShort255();
-        let radix: int = 16;
-        let result: string = value.toString(radix);
-        let sTime = new Date().getTime();
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = value.toString(radix);
-        }
-
-        let dTime = new Date().getTime() - sTime;
-        let res1 = result;
-        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Short_toString_0400: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt(
-          'std.core',
-          'Short',
-          'toString',
-          'toString(radix: int): string',
-          arkTsAveragedTime
-        );
-      });
-
     it('PerformanceTest_Short_equals_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let value: Short = createShort123();

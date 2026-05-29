@@ -130,8 +130,8 @@ export default function TypedArraysPerfTest00(): void {
         res = new BigUint64Array();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BigUint64Array_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'constructor',
         'constructor(): BigUint64Array', arkTsAveragedTime);
@@ -144,8 +144,8 @@ export default function TypedArraysPerfTest00(): void {
         res = new BigUint64Array(100);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BigUint64Array_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'constructor_length',
         'constructor(length: int | number): BigUint64Array', arkTsAveragedTime);

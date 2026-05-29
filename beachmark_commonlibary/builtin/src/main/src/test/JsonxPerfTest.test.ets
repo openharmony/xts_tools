@@ -587,8 +587,8 @@ export default function JsonxPerfTest(): void {
         }
 
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 		let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JsonElement_removeElement_0100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JsonElement', 'removeElement',

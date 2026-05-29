@@ -212,8 +212,9 @@ export default function TypePerfTest03(): void {
     });
 
     // ==================== Type 基类方法测试 ====================
+    // 以下用例与 TypePerfTest.test.ets 重复，注释排除
 
-    it('PerformanceTest_Type_getTypeDesc_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    /* it('PerformanceTest_Type_getTypeDesc_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let value: Type = IntType.VAL;
       let result: string = value.getTypeDesc();
       let Stime = new Date().getTime();
@@ -272,7 +273,7 @@ export default function TypePerfTest03(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Type_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Type', 'toString',
         'toString(): string', arkTsAveragedTime);
-    });
+    }); */
 
     // ==================== EnumType 特有方法测试 ====================
 
@@ -339,8 +340,9 @@ export default function TypePerfTest03(): void {
     });
 
     // ==================== ArrayType 更多方法测试 ====================
+    // 以下用例与 TypePerfTest.test.ets 重复，注释排除
 
-    it('PerformanceTest_ArrayType_convertObject_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    /* it('PerformanceTest_ArrayType_convertObject_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let value: ArrayType = ArrayType.getInstance(Class.of([1, 2, 3] as FixedArray<int>));
       let arr: FixedArray<int> = [1, 2, 3] as FixedArray<int>;
       let result: Any = value.convertObject(arr);
@@ -354,7 +356,7 @@ export default function TypePerfTest03(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayType_convertObject_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ArrayType', 'convertObject',
         'convertObject(obj: Any): Any', arkTsAveragedTime);
-    });
+    }); */
 
     // ==================== TypeAPI 静态方法测试 ====================
     // 注意：TypeAPI 是 Type.ets 的内部类，未导出，无法直接使用

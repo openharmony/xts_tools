@@ -87,8 +87,8 @@ export default function ReflectPerfTest(): void {
         result = reflect.isLiteralInitializedInterface(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Reflect_isLiteralInitializedInterface_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'reflect', 'isLiteralInitializedInterface',
@@ -103,8 +103,8 @@ export default function ReflectPerfTest(): void {
         result = reflect.isFuncObjAsync(asyncFunc);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Reflect_isFuncObjAsync_0200: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'reflect', 'isFuncObjAsync',
@@ -120,8 +120,8 @@ export default function ReflectPerfTest(): void {
         result = reflect.getInstanceGettersRecursive(cls);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Reflect_getInstanceGettersRecursive_0300: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'reflect', 'getInstanceGettersRecursive',
@@ -137,8 +137,8 @@ export default function ReflectPerfTest(): void {
         result = reflect.getInstanceFieldsRecursive(cls);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Reflect_getInstanceFieldsRecursive_0400: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'reflect', 'getInstanceFieldsRecursive',
@@ -154,8 +154,8 @@ export default function ReflectPerfTest(): void {
         result = reflect.getInstanceFieldsRecursiveByName(cls, "childField");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Reflect_getInstanceFieldsRecursiveByName_0500: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'reflect', 'getInstanceFieldsRecursiveByName',
@@ -171,8 +171,8 @@ export default function ReflectPerfTest(): void {
         result = reflect.getInstanceMethodsRecursiveByName(cls, "childMethod");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Reflect_getInstanceMethodsRecursiveByName_0600: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'reflect', 'getInstanceMethodsRecursiveByName',

@@ -71,19 +71,20 @@ export default function TypedArraysPerfTest03(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'constructor', 'constructor(length: int)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Float32Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let srcArr: Float32Array = new Float32Array(100);
-      let res = new Float32Array(srcArr);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Float32Array(srcArr);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsPerformanceTest Float32Array Constructor_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'constructor', 'constructor(other: TypedArray)', arkTsAveragedTime);
-    })
+    // 注: 传入Float32Array参数，重载决议命中constructor(numbers: Float32Array)，与_0600重复，已注释
+    // it('PerformanceTest_Float32Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let srcArr: Float32Array = new Float32Array(100);
+    //   let res = new Float32Array(srcArr);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = new Float32Array(srcArr);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let res1 = res;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest Float32Array Constructor_0400: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'constructor', 'constructor(other: TypedArray)', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Float32Array_Constructor_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: Float32Array = new Float32Array(100);
@@ -96,8 +97,8 @@ export default function TypedArraysPerfTest03(): void {
         result = new Float32Array(arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest Float32Array Constructor_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'constructor', 'constructor(numbers: Float32Array)', arkTsAveragedTime);
     })

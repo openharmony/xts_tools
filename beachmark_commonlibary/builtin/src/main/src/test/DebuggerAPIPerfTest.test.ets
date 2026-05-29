@@ -53,8 +53,8 @@ export default function DebuggerAPIPerfTest():void {
           res = DebuggerAPI.getLocalBoolean(0);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_getLocalBoolean_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'getLocalBoolean',
           'static getLocalBoolean(regNumber: long): boolean', arkTsAveragedTime);
@@ -72,8 +72,8 @@ export default function DebuggerAPIPerfTest():void {
           res = DebuggerAPI.getLocalByte(0);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_getLocalByte_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'getLocalByte',
           'static getLocalByte(regNumber: long): byte', arkTsAveragedTime);
@@ -91,8 +91,8 @@ export default function DebuggerAPIPerfTest():void {
           res = DebuggerAPI.getLocalShort(0);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_getLocalShort_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'getLocalShort',
           'static getLocalShort(regNumber: long): short', arkTsAveragedTime);
@@ -110,8 +110,8 @@ export default function DebuggerAPIPerfTest():void {
           res = DebuggerAPI.getLocalChar(0);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_getLocalChar_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'getLocalChar',
           'static getLocalChar(regNumber: long): char', arkTsAveragedTime);
@@ -129,8 +129,8 @@ export default function DebuggerAPIPerfTest():void {
           res = DebuggerAPI.getLocalInt(0);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_getLocalInt_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'getLocalInt',
           'static getLocalInt(regNumber: long): int', arkTsAveragedTime);
@@ -148,8 +148,8 @@ export default function DebuggerAPIPerfTest():void {
           res = DebuggerAPI.getLocalFloat(0);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_getLocalFloat_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'getLocalFloat',
           'static getLocalFloat(regNumber: long): float', arkTsAveragedTime);
@@ -167,8 +167,8 @@ export default function DebuggerAPIPerfTest():void {
           res = DebuggerAPI.getLocalDouble(0);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_getLocalDouble_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'getLocalDouble',
           'static getLocalDouble(regNumber: long): double', arkTsAveragedTime);
@@ -186,8 +186,8 @@ export default function DebuggerAPIPerfTest():void {
           res = DebuggerAPI.getLocalLong(0);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_getLocalLong_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'getLocalLong',
           'static getLocalLong(regNumber: long): long', arkTsAveragedTime);
@@ -205,8 +205,8 @@ export default function DebuggerAPIPerfTest():void {
           res = DebuggerAPI.getLocalObject(0);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_getLocalObject_0900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'getLocalObject',
           'static getLocalObject(regNumber: long): Object', arkTsAveragedTime);
@@ -224,8 +224,8 @@ export default function DebuggerAPIPerfTest():void {
           DebuggerAPI.setLocalBoolean(0, true);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_setLocalBoolean_1000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'setLocalBoolean',
           'static setLocalBoolean(regNumber: long, value: boolean): void', arkTsAveragedTime);
@@ -243,8 +243,8 @@ export default function DebuggerAPIPerfTest():void {
           DebuggerAPI.setLocalByte(0, 1 as byte);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_setLocalByte_1100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'setLocalByte',
           'static setLocalByte(regNumber: long, value: byte): void', arkTsAveragedTime);
@@ -262,8 +262,8 @@ export default function DebuggerAPIPerfTest():void {
           DebuggerAPI.setLocalShort(0, 100 as short);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_setLocalShort_1200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'setLocalShort',
           'static setLocalShort(regNumber: long, value: short): void', arkTsAveragedTime);
@@ -281,8 +281,8 @@ export default function DebuggerAPIPerfTest():void {
           DebuggerAPI.setLocalChar(0, c'A');
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_setLocalChar_1300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'setLocalChar',
           'static setLocalChar(regNumber: long, value: char): void', arkTsAveragedTime);
@@ -300,8 +300,8 @@ export default function DebuggerAPIPerfTest():void {
           DebuggerAPI.setLocalInt(0, 42);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_setLocalInt_1400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'setLocalInt',
           'static setLocalInt(regNumber: long, value: int): void', arkTsAveragedTime);
@@ -320,8 +320,8 @@ export default function DebuggerAPIPerfTest():void {
           DebuggerAPI.setLocalFloat(0, value);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_setLocalFloat_1500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'setLocalFloat',
           'static setLocalFloat(regNumber: long, value: float): void', arkTsAveragedTime);
@@ -339,8 +339,8 @@ export default function DebuggerAPIPerfTest():void {
           DebuggerAPI.setLocalDouble(0, 3.1415926);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_setLocalDouble_1600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'setLocalDouble',
           'static setLocalDouble(regNumber: long, value: double): void', arkTsAveragedTime);
@@ -359,8 +359,8 @@ export default function DebuggerAPIPerfTest():void {
           DebuggerAPI.setLocalLong(0,value);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_setLocalLong_1700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'setLocalLong',
           'static setLocalLong(regNumber: long, value: long): void', arkTsAveragedTime);
@@ -379,8 +379,8 @@ export default function DebuggerAPIPerfTest():void {
           DebuggerAPI.setLocalObject(0, testObj);
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DebuggerAPI_setLocalObject_1800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug', 'DebuggerAPI', 'setLocalObject',
           'static setLocalObject(regNumber: long, value: Object): void', arkTsAveragedTime);

@@ -53,8 +53,8 @@ export default function MapPerfTest(): void {
         b = new Map<string, object>();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -67,8 +67,8 @@ export default function MapPerfTest(): void {
         b = new Map<string, object>(10);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_InitialCapacity_0110: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'constructor',
         'constructor(initialCapacity: int)', arkTsAveragedTime);
@@ -81,8 +81,8 @@ export default function MapPerfTest(): void {
         map.set("a", 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_set_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'set',
         'set(key: K, val: V)', arkTsAveragedTime);
@@ -97,8 +97,8 @@ export default function MapPerfTest(): void {
         result = map.get("a");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_get_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'get',
         'get(key: K)', arkTsAveragedTime);
@@ -113,14 +113,13 @@ export default function MapPerfTest(): void {
         result = map.has("a");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_has_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'has',
         'has(key: K)', arkTsAveragedTime);
     });
 
-    //并发格式不规范
     it('PerformanceTest_Map_delete_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let maps: Map<string, object>[] = [];
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -128,13 +127,14 @@ export default function MapPerfTest(): void {
         m.set("a", 1);
         maps.push(m);
       }
+      let result: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        maps[i].delete("a");
+        result = maps[i].delete("a");
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = result;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = maps[0];
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_delete_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'delete',
         'delete(key: K)', arkTsAveragedTime);
@@ -147,8 +147,8 @@ export default function MapPerfTest(): void {
         map.clear();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_clear_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'clear',
         'clear()', arkTsAveragedTime);
@@ -162,8 +162,8 @@ export default function MapPerfTest(): void {
         s = map.size;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = s;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_size_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'size',
         'size(): int', arkTsAveragedTime);
@@ -177,8 +177,8 @@ export default function MapPerfTest(): void {
         result = map.keys();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_keys_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'keys',
         'keys(): IterableIterator<K>', arkTsAveragedTime);
@@ -192,8 +192,8 @@ export default function MapPerfTest(): void {
         result = map.values();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_values_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'values',
         'values(): IterableIterator<V>', arkTsAveragedTime);
@@ -207,8 +207,8 @@ export default function MapPerfTest(): void {
         result = map.entries();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_entries_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'entries',
         'entries(): IterableIterator<[K,V]>', arkTsAveragedTime);
@@ -221,8 +221,8 @@ export default function MapPerfTest(): void {
         map.forEach(() => {});
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_forEach_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'forEach',
         'forEach(callbackfn: Function): void', arkTsAveragedTime);
@@ -236,8 +236,8 @@ export default function MapPerfTest(): void {
         result = map.keySet();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_keySet_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'keySet',
         'keySet(): Set<K>', arkTsAveragedTime);
@@ -251,8 +251,8 @@ export default function MapPerfTest(): void {
         result = map.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_toString_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'toString',
         'toString(): String', arkTsAveragedTime);
@@ -267,8 +267,8 @@ export default function MapPerfTest(): void {
         map = new Map<string, object>(arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_Array_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'constructor', 'constructor(entries: Array<[K,V]>)', arkTsAveragedTime);
     });
@@ -282,8 +282,8 @@ export default function MapPerfTest(): void {
         map = new Map<string, object>(temp);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_Map_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'constructor', 'constructor(map: Map<K,V>)', arkTsAveragedTime);
     });
@@ -298,8 +298,8 @@ export default function MapPerfTest(): void {
         result = map.get("key", defaultValue);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_get_Default_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'get', 'get(key: K, def: V): V', arkTsAveragedTime);
     });
@@ -313,8 +313,8 @@ export default function MapPerfTest(): void {
         result = map.$_iterator();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Iterator_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Map', '$_iterator', '$_iterator(): IterableIterator<[K,V]>', arkTsAveragedTime);
     });
@@ -327,8 +327,8 @@ export default function MapPerfTest(): void {
         rec = new Record<string, object>();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = rec;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Record_Constructor_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Record', 'constructor', 'constructor()', arkTsAveragedTime);
     });
@@ -342,8 +342,8 @@ export default function MapPerfTest(): void {
         result = rec.$_get("key");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Record__get_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Record', '$_get', '$_get(k: K): V | undefined', arkTsAveragedTime);
     });
@@ -356,8 +356,8 @@ export default function MapPerfTest(): void {
         rec.$_set("key", {});
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = rec;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Record__set_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Record', '$_set', '$_set(k: K, v: V): void', arkTsAveragedTime);
     });

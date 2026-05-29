@@ -54,8 +54,8 @@ export default function EAWorkerPerfTest(): void {
         res = new EAWorker();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'constructor',
         'constructor(needInterop?: boolean)', arkTsAveragedTime);
@@ -68,8 +68,8 @@ export default function EAWorkerPerfTest(): void {
         res = new EAWorker("TestWorker");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'constructor',
         'constructor(name: string, needInterop?: boolean)', arkTsAveragedTime);
@@ -83,8 +83,8 @@ export default function EAWorkerPerfTest(): void {
         res = new EAWorker(task);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'constructor',
         'constructor(task: Task, needInterop?: boolean)', arkTsAveragedTime);
@@ -98,8 +98,8 @@ export default function EAWorkerPerfTest(): void {
         res = new EAWorker("TestWorker", task);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Constructor_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'constructor',
         'constructor(name: string, task: Task, needInterop?: boolean)', arkTsAveragedTime);
@@ -112,8 +112,8 @@ export default function EAWorkerPerfTest(): void {
         res = new EAWorker(true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Constructor_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'constructor',
         'constructor(needInterop: boolean)', arkTsAveragedTime);
@@ -121,20 +121,19 @@ export default function EAWorkerPerfTest(): void {
 
     //并发格式不规范
     it('PerformanceTest_EAWorker_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      const TEST_COUNT = 10;
       let workers: EAWorker[] = new Array<EAWorker>();
-      for (let i = 0; i < TEST_COUNT; i++) {
+      for (let i = 0; i < BASE_COUNT; i++) {
         let worker = new EAWorker();
         // worker.start();
         workers.push(worker);
       }
       let Stime = new Date().getTime();
-      for (let i = 0; i < TEST_COUNT; i++) {
+      for (let i = 0; i < BASE_COUNT; i++) {
         workers[i].start();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / TEST_COUNT;
-      for (let i = 0; i < TEST_COUNT; i++) {
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      for (let i = 0; i < BASE_COUNT; i++) {
         workers[i].quit();
       }
       let res1 = workers;
@@ -152,8 +151,8 @@ export default function EAWorkerPerfTest(): void {
         res = worker.isAlive();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       worker.quit();
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'isAlive',
@@ -169,6 +168,7 @@ export default function EAWorkerPerfTest(): void {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      worker.quit();
       let res1 = worker;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'setPriority',
@@ -289,6 +289,7 @@ export default function EAWorkerPerfTest(): void {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      worker.quit();
       let res1 = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'getUncaughtExceptionHandler',
@@ -297,44 +298,42 @@ export default function EAWorkerPerfTest(): void {
 
     //并发格式不规范
     it('PerformanceTest_EAWorker_Instance_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      const TEST_COUNT = 10;
       let workers: EAWorker[] = new Array<EAWorker>();
-      for (let i = 0; i < TEST_COUNT; i++) {
+      for (let i = 0; i < BASE_COUNT; i++) {
         let worker = new EAWorker();
         workers.push(worker);
       }
-      for (let i = 0; i < TEST_COUNT; i++) {
+      for (let i = 0; i < BASE_COUNT; i++) {
         workers[i].start();
       }
       let Stime = new Date().getTime();
-      for (let i = 0; i < TEST_COUNT; i++) {
+      for (let i = 0; i < BASE_COUNT; i++) {
         workers[i].join();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / TEST_COUNT;
       let res1 = workers;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'join',
         'join(): Promise<void>', arkTsAveragedTime);
     })
 
     it('PerformanceTest_EAWorker_Instance_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      const TEST_COUNT = 10;
       let workers: EAWorker[] = new Array<EAWorker>();
-      for (let i = 0; i < TEST_COUNT; i++) {
+      for (let i = 0; i < BASE_COUNT; i++) {
         let worker = new EAWorker();
         workers.push(worker);
       }
-      for (let i = 0; i < TEST_COUNT; i++) {
+      for (let i = 0; i < BASE_COUNT; i++) {
         workers[i].start();
       }
       let Stime = new Date().getTime();
-      for (let i = 0; i < TEST_COUNT; i++) {
+      for (let i = 0; i < BASE_COUNT; i++) {
         workers[i].quit();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / TEST_COUNT;
       let res1 = workers;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Instance_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'quit',
         'quit(): void', arkTsAveragedTime);
@@ -348,8 +347,8 @@ export default function EAWorkerPerfTest(): void {
         res = EAWorker.main();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'main',
         'static main(): EAWorker', arkTsAveragedTime);
@@ -362,8 +361,8 @@ export default function EAWorkerPerfTest(): void {
         res = EAWorker.current();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EAWorker_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'EAWorker', 'current',
         'static current(): EAWorker | undefined', arkTsAveragedTime);

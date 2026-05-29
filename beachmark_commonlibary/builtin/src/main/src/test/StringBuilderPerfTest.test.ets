@@ -209,12 +209,15 @@ export default function StringBuilderPerfTest(): void {
     it('PerformanceTest_StringBuilder_append_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testStr: String = createStringValue("test");
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testStr);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testStr);
+          result = pool[i].append(testStr);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
@@ -227,12 +230,15 @@ export default function StringBuilderPerfTest(): void {
     it('PerformanceTest_StringBuilder_append_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: boolean = true;
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
@@ -245,12 +251,15 @@ export default function StringBuilderPerfTest(): void {
     it('PerformanceTest_StringBuilder_append_0300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: byte = toByteValue(127);
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
@@ -263,12 +272,15 @@ export default function StringBuilderPerfTest(): void {
     it('PerformanceTest_StringBuilder_append_0400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: char = c'a';
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
@@ -281,12 +293,15 @@ export default function StringBuilderPerfTest(): void {
     it('PerformanceTest_StringBuilder_append_0500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: short = toShortValue(32767);
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
@@ -299,12 +314,15 @@ export default function StringBuilderPerfTest(): void {
     it('PerformanceTest_StringBuilder_append_0600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: int = 2147483647;
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
@@ -317,12 +335,15 @@ export default function StringBuilderPerfTest(): void {
     it('PerformanceTest_StringBuilder_append_0700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: long = toLongValue(123456789);
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
@@ -335,12 +356,15 @@ export default function StringBuilderPerfTest(): void {
     it('PerformanceTest_StringBuilder_append_0800',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: float = toFloatValue(3.14159);
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
@@ -353,12 +377,15 @@ export default function StringBuilderPerfTest(): void {
     it('PerformanceTest_StringBuilder_append_0900',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: double = 3.141592653589793;
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
@@ -371,12 +398,15 @@ export default function StringBuilderPerfTest(): void {
     it('PerformanceTest_StringBuilder_append_1000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testObj: Object = createObjectValue();
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testObj);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testObj);
+          result = pool[i].append(testObj);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;

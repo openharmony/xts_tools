@@ -84,19 +84,20 @@ export default function TypedArraysPerfTest01(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'constructor', 'constructor(length: number)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Int16Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let srcArr: Int16Array = new Int16Array(100);
-      let res: Int16Array = new Int16Array(srcArr);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Int16Array(srcArr);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsPerformanceTest Int16Array Constructor_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'constructor', 'constructor(other: TypedArray)', arkTsAveragedTime);
-    })
+    // 注: 传入Int16Array参数，重载决议命中constructor(numbers: Int16Array)，与_0600重复，已注释
+    // it('PerformanceTest_Int16Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let srcArr: Int16Array = new Int16Array(100);
+    //   let res: Int16Array = new Int16Array(srcArr);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = new Int16Array(srcArr);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let res1 = res;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest Int16Array Constructor_0400: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'constructor', 'constructor(other: TypedArray)', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Int16Array_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: Int16Array = new Int16Array([1 as short, 2 as short, 3 as short, 4 as short, 5 as short]);

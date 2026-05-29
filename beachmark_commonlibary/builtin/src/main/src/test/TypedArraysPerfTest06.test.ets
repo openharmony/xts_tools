@@ -194,6 +194,7 @@ export default function TypedArraysPerfTest06(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'from', 'from(Array<number>): Float64Array', arkTsAveragedTime);
     })
 
+    /* 与TypedArraysPerfTest09重复，已注释
     // ==================== BigInt64Array from(Set<BigInt>) & from(Array<BigInt>) 测试 ====================
 
     it('PerformanceTest_BigInt64Array_from_Set', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -223,5 +224,6 @@ export default function TypedArraysPerfTest06(): void {
       console.info('arkTsPerformanceTest BigInt64Array from(Array<BigInt>): ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'from', 'from(Array<BigInt>): BigInt64Array', arkTsAveragedTime);
     })
+    */
   })
 }

@@ -51,67 +51,48 @@ export default function StackTracePerfTest(): void {
 
     it('PerformanceTest_System_stackTraceLines_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let str: FixedArray<String> = stackTraceLines();
-
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         str = stackTraceLines();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-
       let res1 = str;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_System_stackTraceLines_0100: '
         + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt(
-        'std.core',
-        'System',
-        'stackTraceLines',
-        'function stackTraceLines(): FixedArray<String>',
-        arkTsAveragedTime
-      );
+      performance.apiWithClassAndKeywordTxt('std.core', 'System',    'stackTraceLines',
+        'function stackTraceLines(): FixedArray<String>', arkTsAveragedTime   );
     })
 
     it('PerformanceTest_System_printStackTrace_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let b = false;
+      let res = printStackTrace();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        printStackTrace();
+        res = printStackTrace();
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = b;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_System_printStackTrace_0100: '
         + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt(
-        'std.core',
-        'System',
-        'printStackTrace',
-        'function printStackTrace(): void',
-        arkTsAveragedTime
-      );
+      performance.apiWithClassAndKeywordTxt('std.core','System', 'printStackTrace',
+        'function printStackTrace(): void', arkTsAveragedTime  );
     })
 
     it('PerformanceTest_StackTraceHelper_getMainThreadStackTrace_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let result: String = '';
+        let res = StackTraceHelper.getMainThreadStackTrace();
         let Stime = new Date().getTime();
-
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = StackTraceHelper.getMainThreadStackTrace();
+          res = StackTraceHelper.getMainThreadStackTrace();
         }
-
         let Dtime = new Date().getTime() - Stime;
+        let res1 = res;
         let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-        let res1 = result;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StackTraceHelper_getMainThreadStackTrace_0100: '
           + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt(
-          'std.dfx',
-          'StackTraceHelper',
-          'getMainThreadStackTrace',
-          'static getMainThreadStackTrace(): String',
-          arkTsAveragedTime
-        );
+        performance.apiWithClassAndKeywordTxt('std.dfx','StackTraceHelper', 'getMainThreadStackTrace',
+          'static getMainThreadStackTrace(): String', arkTsAveragedTime );
       });
 
   })

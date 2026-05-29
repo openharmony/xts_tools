@@ -287,8 +287,9 @@ export default function TypePerfTest05(): void {
     */
 
     // ==================== LongType VAL/REF 测试 ====================
+    // 以下用例与 TypePerfTest.test.ets 重复，注释排除
 
-    it('PerformanceTest_LongType_VAL_isPrimitive_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    /* it('PerformanceTest_LongType_VAL_isPrimitive_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let value: LongType = LongType.VAL;
       let result: boolean = value.isPrimitive();
       let Stime = new Date().getTime();
@@ -316,11 +317,12 @@ export default function TypePerfTest05(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongType_REF_isReference_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LongType', 'REF.isReference',
         'isReference(): boolean', arkTsAveragedTime);
-    });
+    }); */
 
     // ==================== FloatType VAL/REF 测试 ====================
+    // 以下用例与 TypePerfTest.test.ets 重复，注释排除
 
-    it('PerformanceTest_FloatType_VAL_isPrimitive_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    /* it('PerformanceTest_FloatType_VAL_isPrimitive_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let value: FloatType = FloatType.VAL;
       let result: boolean = value.isPrimitive();
       let Stime = new Date().getTime();
@@ -348,11 +350,12 @@ export default function TypePerfTest05(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FloatType_REF_isReference_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FloatType', 'REF.isReference',
         'isReference(): boolean', arkTsAveragedTime);
-    });
+    }); */
 
     // ==================== DoubleType VAL/REF 测试 ====================
+    // 以下用例与 TypePerfTest.test.ets 重复，注释排除
 
-    it('PerformanceTest_DoubleType_VAL_isPrimitive_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    /* it('PerformanceTest_DoubleType_VAL_isPrimitive_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let value: DoubleType = DoubleType.VAL;
       let result: boolean = value.isPrimitive();
       let Stime = new Date().getTime();
@@ -380,11 +383,12 @@ export default function TypePerfTest05(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_DoubleType_REF_isReference_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'DoubleType', 'REF.isReference',
         'isReference(): boolean', arkTsAveragedTime);
-    });
+    }); */
 
     // ==================== Type.of() 各种类型重载测试 ====================
+    // 以下用例与 TypePerfTest.test.ets 重复，注释排除
 
-    it('PerformanceTest_Type_of_fixedArray_boolean_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    /* it('PerformanceTest_Type_of_fixedArray_boolean_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arr: boolean[] = [true, false, true];
       let result: Type = Type.of(arr);
       let Stime = new Date().getTime();
@@ -487,11 +491,12 @@ export default function TypePerfTest05(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Type_of_fixedArray_double_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Type', 'of',
         'of(v: FixedArray<double>): Type', arkTsAveragedTime);
-    });
+    }); */
 
     // ==================== Type.toRefType 测试 ====================
+    // 以下用例与 TypePerfTest.test.ets 重复，注释排除
 
-    it('PerformanceTest_Type_toRefType_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    /* it('PerformanceTest_Type_toRefType_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let primType: Type = IntType.VAL;
       let result: Type = Type.toRefType(primType);
       let Stime = new Date().getTime();
@@ -504,6 +509,6 @@ export default function TypePerfTest05(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Type_toRefType_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Type', 'toRefType',
         'toRefType(primitiveType: Type): Type', arkTsAveragedTime);
-    });
+    }); */
   });
 }

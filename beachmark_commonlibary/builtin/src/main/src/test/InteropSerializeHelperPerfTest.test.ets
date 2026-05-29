@@ -29,8 +29,8 @@ import performance from './Performance.util';
 
 export default function InteropSerializeHelperPerfTest(): void {
   describe('InteropSerializeHelperPerfTest', () => {
-    // const BASE_COUNT = 50000;
-    const BASE_COUNT = 1000;
+    const BASE_COUNT = 50000;
+    // const BASE_COUNT = 1000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -51,8 +51,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         res = new InteropArgRecord();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropArgRecord_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop', 'InteropArgRecord', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -65,8 +65,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         res = new InteropArgRecord(InteropArgType.DIRECT, i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropArgRecord_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop', 'InteropArgRecord', 'constructor',
         'constructor(type: InteropArgType, value: Any)', arkTsAveragedTime);
@@ -80,8 +80,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         res = record.type;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropArgRecord_Type_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop', 'InteropArgRecord', 'type',
         'type: InteropArgType', arkTsAveragedTime);
@@ -95,8 +95,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         res = record.value;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropArgRecord_Value_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop', 'InteropArgRecord', 'value',
         'value: Any', arkTsAveragedTime);
@@ -113,8 +113,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         res = new InteropSerializeHelper(args);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropSerializeHelper_Constructor_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop', 'InteropSerializeHelper', 'constructor',
         'constructor(args: FixedArray<Any>)', arkTsAveragedTime);
@@ -132,8 +132,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         res = helper.deserialize();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropSerializeHelper_Deserialize_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop', 'InteropSerializeHelper', 'deserialize',
         'deserialize(): FixedArray<Any>', arkTsAveragedTime);
@@ -147,8 +147,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         res = InteropSerializeHelper.isJSInteropRef(testVal);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropSerializeHelper_IsJSInteropRef_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop', 'InteropSerializeHelper', 'isJSInteropRef',
         'isJSInteropRef(value: Any): boolean', arkTsAveragedTime);
@@ -166,8 +166,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         res = InteropSerializeHelper.serializeHandle(jsVal);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropSerializeHelper_SerializeHandle_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop', 'InteropSerializeHelper', 'serializeHandle',
         'serializeHandle(value: JSValue): long', arkTsAveragedTime);
@@ -184,8 +184,8 @@ export default function InteropSerializeHelperPerfTest(): void {
         res = InteropSerializeHelper.deserializeHandle(handle);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropSerializeHelper_DeserializeHandle_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop', 'InteropSerializeHelper', 'deserializeHandle',
         'deserializeHandle(value: long): JSValue', arkTsAveragedTime);

@@ -55,8 +55,8 @@ export default function SyncPrimitivesPerfTest(): void {
         res = new Mutex();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Mutex_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Mutex', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -70,8 +70,8 @@ export default function SyncPrimitivesPerfTest(): void {
         mutex.unlock();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = mutex;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Mutex_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Mutex', 'lock_unlock',
         'lock(): void, unlock(): void', arkTsAveragedTime);
@@ -102,8 +102,8 @@ export default function SyncPrimitivesPerfTest(): void {
         res = new RWLock();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RWLock_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RWLock', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -154,8 +154,8 @@ export default function SyncPrimitivesPerfTest(): void {
         res = new ReadLock(rwLock);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadLock_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadLock', 'constructor',
         'constructor(lock: RWLock)', arkTsAveragedTime);
@@ -170,8 +170,8 @@ export default function SyncPrimitivesPerfTest(): void {
         readLock.unlock();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = readLock;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReadLock_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ReadLock', 'lock_unlock',
         'lock(): void, unlock(): void', arkTsAveragedTime);
@@ -186,8 +186,8 @@ export default function SyncPrimitivesPerfTest(): void {
         res = new WriteLock(rwLock);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WriteLock_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'WriteLock', 'constructor',
         'constructor(lock: RWLock)', arkTsAveragedTime);
@@ -202,8 +202,8 @@ export default function SyncPrimitivesPerfTest(): void {
         writeLock.unlock();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = writeLock;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WriteLock_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'WriteLock', 'lock_unlock',
         'lock(): void, unlock(): void', arkTsAveragedTime);

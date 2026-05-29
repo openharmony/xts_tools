@@ -53,8 +53,8 @@ export default function UndefinableObjectArrayPerfTest(): void {
         res = new containers.UndefinableObjectArray();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableObjectArray_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableObjectArray', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -67,8 +67,8 @@ export default function UndefinableObjectArrayPerfTest(): void {
         res = new containers.UndefinableObjectArray(10 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableObjectArray_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableObjectArray', 'constructor',
         'constructor(capacity: int)', arkTsAveragedTime);
@@ -82,8 +82,8 @@ export default function UndefinableObjectArrayPerfTest(): void {
         res = new containers.UndefinableObjectArray(10 as int, val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableObjectArray_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableObjectArray', 'constructor',
         'constructor(capacity: int, val: UndefinableObject)', arkTsAveragedTime);
@@ -96,8 +96,8 @@ export default function UndefinableObjectArrayPerfTest(): void {
         arr.reserve(100 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = arr;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableObjectArray_Reserve_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableObjectArray', 'reserve',
         'reserve(capacity: int): void', arkTsAveragedTime);
@@ -112,8 +112,8 @@ export default function UndefinableObjectArrayPerfTest(): void {
         res = arr.toArray();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableObjectArray_ToArray_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableObjectArray', 'toArray',
         'toArray(): Object[]', arkTsAveragedTime);
@@ -127,8 +127,8 @@ export default function UndefinableObjectArrayPerfTest(): void {
         arr.pushBack(val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = arr;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableObjectArray_PushBack_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableObjectArray', 'pushBack',
         'pushBack(e: UndefinableObject): void', arkTsAveragedTime);
@@ -146,8 +146,8 @@ export default function UndefinableObjectArrayPerfTest(): void {
         res = arr.popBack();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableObjectArray_PopBack_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableObjectArray', 'popBack',
@@ -163,8 +163,8 @@ export default function UndefinableObjectArrayPerfTest(): void {
         res = arr.size();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableObjectArray_Size_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableObjectArray', 'size',
         'size(): int', arkTsAveragedTime);
@@ -179,8 +179,8 @@ export default function UndefinableObjectArrayPerfTest(): void {
         res = arr.at(0 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableObjectArray_At_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableObjectArray', 'at',
         'at(index: int): UndefinableObject', arkTsAveragedTime);
@@ -195,8 +195,8 @@ export default function UndefinableObjectArrayPerfTest(): void {
         arr.set(0 as int, val);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = arr;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableObjectArray_Set_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'UndefinableObjectArray', 'set',
         'set(index: int, e: UndefinableObject): void', arkTsAveragedTime);

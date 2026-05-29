@@ -55,8 +55,8 @@ export default function LinkerClassNotFoundErrorPerfTest(): void {
         err = new LinkerClassNotFoundError("test message");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = err;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerClassNotFoundError_constructor_0100 : ' + arkTsAveragedTime + 'ns');

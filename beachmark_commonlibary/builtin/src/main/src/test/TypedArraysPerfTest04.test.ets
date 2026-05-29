@@ -85,19 +85,20 @@ export default function TypedArraysPerfTest04(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'constructor', 'constructor(length: number)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Float64Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let srcArr: Float64Array = new Float64Array(100);
-      let res = new Float64Array(srcArr);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Float64Array(srcArr);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsPerformanceTest Float64Array Constructor_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'constructor', 'constructor(other: TypedArray)', arkTsAveragedTime);
-    })
+    // 注: 传入Float64Array参数，重载决议命中constructor(numbers: Float64Array)，与_0600重复，已注释
+    // it('PerformanceTest_Float64Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let srcArr: Float64Array = new Float64Array(100);
+    //   let res = new Float64Array(srcArr);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = new Float64Array(srcArr);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let res1 = res;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest Float64Array Constructor_0400: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'constructor', 'constructor(other: TypedArray)', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Float64Array_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -129,18 +130,19 @@ export default function TypedArraysPerfTest04(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'constructor', 'constructor(numbers: Float64Array)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Float64Array_Constructor_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsPerformanceTest Float64Array Constructor_0700: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'constructor', 'constructor(elements: Iterable<double>)', arkTsAveragedTime);
-    })
+    // DUPLICATE: Float64Array_Constructor_0700 与 Constructor_0500 完全相同(都使用数组字面量,区别仅 Iterable vs FixedArray 签名)
+    // it('PerformanceTest_Float64Array_Constructor_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let res = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let res1 = res;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest Float64Array Constructor_0700: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'constructor', 'constructor(elements: Iterable<double>)', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Float64Array_Constructor_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let buf: ArrayBuffer = new ArrayBuffer(800);

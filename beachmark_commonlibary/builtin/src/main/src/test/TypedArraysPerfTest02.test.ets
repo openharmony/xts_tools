@@ -84,19 +84,20 @@ export default function TypedArraysPerfTest02(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor', 'constructor(length: number)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Int32Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let srcArr: Int32Array = new Int32Array(100);
-      let res = new Int32Array(srcArr);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Int32Array(srcArr);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsPerformanceTest Int32Array Constructor_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor', 'constructor(other: TypedArray)', arkTsAveragedTime);
-    })
+    // 注: 传入Int32Array参数，重载决议命中constructor(numbers: Int32Array)，与_0600重复，已注释
+    // it('PerformanceTest_Int32Array_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let srcArr: Int32Array = new Int32Array(100);
+    //   let res = new Int32Array(srcArr);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = new Int32Array(srcArr);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let res1 = res;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest Int32Array Constructor_0400: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor', 'constructor(other: TypedArray)', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Int32Array_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res = new Int32Array([1, 2, 3, 4, 5]);
@@ -128,18 +129,19 @@ export default function TypedArraysPerfTest02(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor', 'constructor(numbers: Int32Array)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Int32Array_Constructor_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = new Int32Array([1, 2, 3, 4, 5]);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Int32Array([1, 2, 3, 4, 5]);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsPerformanceTest Int32Array Constructor_0700: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor', 'constructor(elements: Iterable<int>)', arkTsAveragedTime);
-    })
+    // DUPLICATE: Int32Array_Constructor_0700 与 Constructor_0500 完全相同(都使用数组字面量,区别仅 Iterable vs FixedArray 签名)
+    // it('PerformanceTest_Int32Array_Constructor_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let res = new Int32Array([1, 2, 3, 4, 5]);
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = new Int32Array([1, 2, 3, 4, 5]);
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let res1 = res;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   console.info('arkTsPerformanceTest Int32Array Constructor_0700: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor', 'constructor(elements: Iterable<int>)', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Int32Array_Constructor_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let buf: ArrayBuffer = new ArrayBuffer(400);
