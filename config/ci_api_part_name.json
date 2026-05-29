@@ -356,7 +356,7 @@
             "bundle_name": [
                 "bundle_framework"
             ],
-            "build_targets": []
+            "build_targets": {}
         },
         {
             "path": "interface/sdk-js/zh-cn/api/@ohos.bundle.bundleMonitor.d.ts",
