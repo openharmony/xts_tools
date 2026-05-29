@@ -55,8 +55,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = lowerBoundSearch(arr, 2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Int_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'lowerBoundSearch',
         'lowerBoundSearch(arr: FixedArray<int>, key: int): int', arkTsAveragedTime);
@@ -71,8 +71,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = lowerBoundSearch(arr, 2, 0, 7);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Int_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'lowerBoundSearch',
         'lowerBoundSearch(arr: FixedArray<int>, key: int, startIndex: int, endIndex: int): int', arkTsAveragedTime);
@@ -88,8 +88,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = upperBoundSearch(arr, 2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Int_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'upperBoundSearch',
         'upperBoundSearch(arr: FixedArray<int>, key: int): int', arkTsAveragedTime);
@@ -104,8 +104,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = upperBoundSearch(arr, 2, 0, 7);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Int_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'upperBoundSearch',
         'upperBoundSearch(arr: FixedArray<int>, key: int, startIndex: int, endIndex: int): int', arkTsAveragedTime);
@@ -123,8 +123,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = copyOf(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_CopyOf_Int_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'copyOf',
         'copyOf(src: FixedArray<int>): FixedArray<int>', arkTsAveragedTime);
@@ -142,8 +142,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         copyTo(src, dst, 0, 0, 10);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = dst;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_CopyTo_Int_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'copyTo',
         'copyTo(src: FixedArray<int>, dst: FixedArray<int>, dstStart: int, srcStart: int, srcEnd: int): void', arkTsAveragedTime);
@@ -159,8 +159,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = lowerBoundSearch(arr, 2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Long_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'lowerBoundSearch',
         'lowerBoundSearch(arr: FixedArray<long>, key: long): int', arkTsAveragedTime);
@@ -175,8 +175,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = lowerBoundSearch(arr, 2, 0, 7);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Long_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'lowerBoundSearch',
         'lowerBoundSearch(arr: FixedArray<long>, key: long, startIndex: int, endIndex: int): int', arkTsAveragedTime);
@@ -192,8 +192,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = upperBoundSearch(arr, 2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Long_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'upperBoundSearch',
         'upperBoundSearch(arr: FixedArray<long>, key: long): int', arkTsAveragedTime);
@@ -208,8 +208,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = upperBoundSearch(arr, 2, 0, 7);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Long_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'upperBoundSearch',
         'upperBoundSearch(arr: FixedArray<long>, key: long, startIndex: int, endIndex: int): int', arkTsAveragedTime);
@@ -228,8 +228,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = copyOf(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_CopyOf_Long_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'copyOf',
         'copyOf(src: FixedArray<long>): FixedArray<long>', arkTsAveragedTime);
@@ -248,8 +248,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         copyTo(src, res, 0, 0, 10);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_CopyTo_Long_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'copyTo',
         'copyTo(src: FixedArray<long>, dst: FixedArray<long>, dstStart: int, srcStart: int, srcEnd: int): void', arkTsAveragedTime);
@@ -265,8 +265,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = lowerBoundSearch(arr, 2.0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Double_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'lowerBoundSearch',
         'lowerBoundSearch(arr: FixedArray<double>, key: double): int', arkTsAveragedTime);
@@ -281,8 +281,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = lowerBoundSearch(arr, 2.0, 0, 7);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Double_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'lowerBoundSearch',
         'lowerBoundSearch(arr: FixedArray<double>, key: double, startIndex: int, endIndex: int): int', arkTsAveragedTime);
@@ -298,8 +298,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = upperBoundSearch(arr, 2.0);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Double_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'upperBoundSearch',
         'upperBoundSearch(arr: FixedArray<double>, key: double): int', arkTsAveragedTime);
@@ -314,8 +314,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = upperBoundSearch(arr, 2.0, 0, 7);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Double_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'upperBoundSearch',
         'upperBoundSearch(arr: FixedArray<double>, key: double, startIndex: int, endIndex: int): int', arkTsAveragedTime);
@@ -334,8 +334,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = copyOf(src);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_CopyOf_Double_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'copyOf',
         'copyOf(src: FixedArray<double>): FixedArray<double>', arkTsAveragedTime);
@@ -353,8 +353,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         copyTo(src, dst, 0, 0, 10);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = dst;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_CopyTo_Double_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'copyTo',
         'copyTo(src: FixedArray<double>, dst: FixedArray<double>, dstStart: int, srcStart: int, srcEnd: int): void', arkTsAveragedTime);
@@ -368,8 +368,8 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
         res = KEY_NOT_FOUND;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayAlgorithms_KeyNotFound_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BuiltinArrayAlgorithms', 'KEY_NOT_FOUND',
         'const KEY_NOT_FOUND: int', arkTsAveragedTime);
