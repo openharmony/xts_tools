@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Copyright (C) 2025-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the 'License')
  * you may not use this file except in compliance with the License.
@@ -48,17 +48,20 @@ export default function BuiltinArraySortPerfTest(): void {
       performance.save('apiPerformance.txt');
     })
     it('PerformanceTest_BuiltinArraySortPerfTest_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<Byte> = [3, 1, 2];
+      let pools: FixedArray<Byte>[] = new Array<FixedArray<Byte>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3, 1, 2];
+      }
       let cmp = (lhs: byte, rhs: byte): int => {
         return lhs - rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, cmp);
+        arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'arr_sort_stable',
         'arr_sort_stable(arr: FixedArray<Byte>, startIndex: int, endIndex: int, comp: (lhs: byte, rhs: byte) => int): void',
@@ -66,17 +69,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<Short> = [30, 10, 20];
+      let pools: FixedArray<Short>[] = new Array<FixedArray<Short>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [30, 10, 20];
+      }
       let cmp = (lhs: short, rhs: short): int => {
         return lhs - rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, cmp);
+        arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'arr_sort_stable',
         'arr_sort_stable(arr: FixedArray<Short>, startIndex: int, endIndex: int, comp: (lhs: short, rhs: short) => int): void',
@@ -84,17 +90,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<Int> = [300, 100, 200];
+      let pools: FixedArray<Int>[] = new Array<FixedArray<Int>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [300, 100, 200];
+      }
       let cmp = (lhs: int, rhs: int): int => {
         return lhs - rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, cmp);
+        arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'arr_sort_stable',
         'arr_sort_stable(arr: FixedArray<Int>, startIndex: int, endIndex: int, comp: (lhs: int, rhs: int) => int): void',
@@ -102,17 +111,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<Long> = [3000, 1000, 2000];
+      let pools: FixedArray<Long>[] = new Array<FixedArray<Long>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3000, 1000, 2000];
+      }
       let cmp = (lhs: long, rhs: long): int => {
         return lhs > rhs ? 1 : -1;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, cmp);
+        arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'arr_sort_stable',
         'arr_sort_stable(arr: FixedArray<Long>, startIndex: int, endIndex: int, comp: (lhs: long, rhs: long) => int): void',
@@ -120,17 +132,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<Float> = [3.3f, 1.1f, 2.2f];
+      let pools: FixedArray<Float>[] = new Array<FixedArray<Float>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3.3f, 1.1f, 2.2f];
+      }
       let cmp = (lhs: float, rhs: float): int => {
         return lhs > rhs ? 1 : -1;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, cmp);
+        arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'arr_sort_stable',
         'arr_sort_stable(arr: FixedArray<Float>, startIndex: int, endIndex: int, comp: (lhs: float, rhs: float) => int): void',
@@ -138,17 +153,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<Double> = [3.33, 1.11, 2.22];
+      let pools: FixedArray<Double>[] = new Array<FixedArray<Double>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3.33, 1.11, 2.22];
+      }
       let cmp = (lhs: double, rhs: double): int => {
         return lhs > rhs ? 1 : -1;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        arr_sort_stable(fixArray, 0, 3, cmp);
+        arr_sort_stable(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'arr_sort_stable',
         'arr_sort_stable(arr: FixedArray<Double>, startIndex: int, endIndex: int, comp: (lhs: double, rhs: double) => int): void',
@@ -156,14 +174,17 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<boolean> = [true, false, true];
+      let pools: FixedArray<boolean>[] = new Array<FixedArray<boolean>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [true, false, true];
+      }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort(fixArray, 0, 3);
+        sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort',
         'sort(arr: FixedArray<boolean>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -176,25 +197,28 @@ export default function BuiltinArraySortPerfTest(): void {
         swap(fixArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = fixArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'swap',
         'swap(arr: FixedArray<boolean>, i: int, j: int): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<boolean> = [true, false, true];
+      let pools: FixedArray<boolean>[] = new Array<FixedArray<boolean>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [true, false, true];
+      }
       let cmp = (lhs: boolean, rhs: boolean) => {
         return lhs === rhs ? false : !lhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, cmp);
+        sort_subarray(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<boolean>, startIndex: int, endIndex: int, mustPrecede: (lhs: boolean, rhs: boolean) => boolean): void',
@@ -202,17 +226,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<boolean> = [true, false, true];
+      let pools: FixedArray<boolean>[] = new Array<FixedArray<boolean>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [true, false, true];
+      }
       let cmp = (lhs: boolean, rhs: boolean) => {
         return lhs === rhs ? false : !lhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, cmp);
+        sort_subarray(pools[i], cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<boolean>, mustPrecede: (lhs: boolean, rhs: boolean) => boolean): void',
@@ -220,17 +247,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<boolean> = [true, false, true];
+      let pools: FixedArray<boolean>[] = new Array<FixedArray<boolean>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [true, false, true];
+      }
       let cmp = (lhs: boolean, rhs: boolean) => {
         return lhs === rhs ? false : !lhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, cmp);
+        sort_subarray(pools[i], 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<boolean>, startIndex: int, mustPrecede: (lhs: boolean, rhs: boolean) => boolean): void',
@@ -248,8 +278,8 @@ export default function BuiltinArraySortPerfTest(): void {
         result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'mergeSort',
       'mergeSort(array: FixedArray<byte>, cmp: (lhs: byte, rhs: byte) => int, begin: int, end: int): FixedArray<byte>',
@@ -257,14 +287,17 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<byte> = [3, 1, 2];
+      let pools: FixedArray<byte>[] = new Array<FixedArray<byte>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3, 1, 2];
+      }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort(fixArray, 0, 3);
+        sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort',
         'sort(arr: FixedArray<byte>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -277,25 +310,28 @@ export default function BuiltinArraySortPerfTest(): void {
         swap(fixArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = fixArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'swap',
         'swap(arr: FixedArray<byte>, i: int, j: int): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<byte> = [3, 1, 2];
+      let pools: FixedArray<byte>[] = new Array<FixedArray<byte>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3, 1, 2];
+      }
       let cmp = (lhs: byte, rhs: byte) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, cmp);
+        sort_subarray(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<byte>, startIndex: int, endIndex: int, mustPrecede: (lhs: byte, rhs: byte) => boolean): void',
@@ -303,17 +339,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<byte> = [3, 1, 2];
+      let pools: FixedArray<byte>[] = new Array<FixedArray<byte>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3, 1, 2];
+      }
       let cmp = (lhs: byte, rhs: byte) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, cmp);
+        sort_subarray(pools[i], cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<byte>, mustPrecede: (lhs: byte, rhs: byte) => boolean): void',
@@ -321,17 +360,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<byte> = [3, 1, 2];
+      let pools: FixedArray<byte>[] = new Array<FixedArray<byte>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3, 1, 2];
+      }
       let cmp = (lhs: byte, rhs: byte) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, cmp);
+        sort_subarray(pools[i], 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<byte>, startIndex: int, mustPrecede: (lhs: byte, rhs: byte) => boolean): void',
@@ -349,8 +391,8 @@ export default function BuiltinArraySortPerfTest(): void {
         result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'mergeSort',
       'mergeSort(array: FixedArray<short>, cmp: (lhs: short, rhs: short) => int, begin: int, end: int): FixedArray<short>',
@@ -358,14 +400,17 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<short> = [30, 10, 20];
+      let pools: FixedArray<short>[] = new Array<FixedArray<short>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [30, 10, 20];
+      }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort(fixArray, 0, 3);
+        sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort',
         'sort(arr: FixedArray<short>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -378,25 +423,28 @@ export default function BuiltinArraySortPerfTest(): void {
         swap(fixArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = fixArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'swap',
         'swap(arr: FixedArray<short>, i: int, j: int): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<short> = [30, 10, 20];
+      let pools: FixedArray<short>[] = new Array<FixedArray<short>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [30, 10, 20];
+      }
       let cmp = (lhs: short, rhs: short) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, cmp);
+        sort_subarray(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<short>, startIndex: int, endIndex: int, mustPrecede: (lhs: short, rhs: short) => boolean): void',
@@ -405,17 +453,20 @@ export default function BuiltinArraySortPerfTest(): void {
 
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<short> = [30, 10, 20];
+      let pools: FixedArray<short>[] = new Array<FixedArray<short>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [30, 10, 20];
+      }
       let cmp = (lhs: short, rhs: short) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, cmp);
+        sort_subarray(pools[i], cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<short>, mustPrecede: (lhs: short, rhs: short) => boolean): void',
@@ -423,17 +474,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<short> = [30, 10, 20];
+      let pools: FixedArray<short>[] = new Array<FixedArray<short>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [30, 10, 20];
+      }
       let cmp = (lhs: short, rhs: short) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, cmp);
+        sort_subarray(pools[i], 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<short>, startIndex: int, mustPrecede: (lhs: short, rhs: short) => boolean): void',
@@ -451,8 +505,8 @@ export default function BuiltinArraySortPerfTest(): void {
         result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_2400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'mergeSort',
       'mergeSort(array: FixedArray<int>, cmp: (lhs: int, rhs: int) => int, begin: int, end: int): FixedArray<int>',
@@ -460,14 +514,17 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<int> = [300, 100, 200];
+      let pools: FixedArray<int>[] = new Array<FixedArray<int>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [300, 100, 200];
+      }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort(fixArray, 0, 3);
+        sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_2500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort',
         'sort(arr: FixedArray<int>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -480,25 +537,28 @@ export default function BuiltinArraySortPerfTest(): void {
         swap(fixArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = fixArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'swap',
         'swap(arr: FixedArray<int>, i: int, j: int): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<int> = [300, 100, 200];
+      let pools: FixedArray<int>[] = new Array<FixedArray<int>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [300, 100, 200];
+      }
       let cmp = (lhs: int, rhs: int) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, cmp);
+        sort_subarray(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_2700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<int>, startIndex: int, endIndex: int, mustPrecede: (lhs: int, rhs: int) => boolean): void',
@@ -506,34 +566,40 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<int> = [300, 100, 200];
+      let pools: FixedArray<int>[] = new Array<FixedArray<int>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [300, 100, 200];
+      }
       let cmp = (lhs: int, rhs: int) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, cmp);
+        sort_subarray(pools[i], cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_2800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<int>, mustPrecede: (lhs: int, rhs: int) => boolean): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<int> = [300, 100, 200];
+      let pools: FixedArray<int>[] = new Array<FixedArray<int>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [300, 100, 200];
+      }
       let cmp = (lhs: int, rhs: int) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, cmp);
+        sort_subarray(pools[i], 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_2900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<int>, startIndex: int, mustPrecede: (lhs: int, rhs: int) => boolean): void',
@@ -552,8 +618,8 @@ export default function BuiltinArraySortPerfTest(): void {
         result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_3000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'mergeSort',
       'mergeSort(array: FixedArray<long>, cmp: (lhs: long, rhs: long) => int, begin: int, end: int): FixedArray<long>',
@@ -561,14 +627,17 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<long> = [3000, 1000, 2000];
+      let pools: FixedArray<long>[] = new Array<FixedArray<long>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3000, 1000, 2000];
+      }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort(fixArray, 0, 3);
+        sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_3100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort',
         'sort(arr: FixedArray<long>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -581,25 +650,28 @@ export default function BuiltinArraySortPerfTest(): void {
         swap(fixArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = fixArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_3200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'swap',
         'swap(arr: FixedArray<long>, i: int, j: int): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<long> = [3000, 1000, 2000];
+      let pools: FixedArray<long>[] = new Array<FixedArray<long>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3000, 1000, 2000];
+      }
       let cmp = (lhs: long, rhs: long) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, cmp);
+        sort_subarray(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_3300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<long>, startIndex: int, endIndex: int, mustPrecede: (lhs: long, rhs: long) => boolean): void',
@@ -607,17 +679,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<long> = [3000, 1000, 2000];
+      let pools: FixedArray<long>[] = new Array<FixedArray<long>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3000, 1000, 2000];
+      }
       let cmp = (lhs: long, rhs: long) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, cmp);
+        sort_subarray(pools[i], cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_3400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<long>, mustPrecede: (lhs: long, rhs: long) => boolean): void',
@@ -625,17 +700,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<long> = [3000, 1000, 2000];
+      let pools: FixedArray<long>[] = new Array<FixedArray<long>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3000, 1000, 2000];
+      }
       let cmp = (lhs: long, rhs: long) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, cmp);
+        sort_subarray(pools[i], 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_3500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<long>, startIndex: int, mustPrecede: (lhs: long, rhs: long) => boolean): void',
@@ -657,8 +735,8 @@ export default function BuiltinArraySortPerfTest(): void {
         result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_3600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'mergeSort',
       'mergeSort(array: FixedArray<float>, cmp: (lhs: float, rhs: float) => int, begin: int, end: int): FixedArray<float>',
@@ -666,14 +744,17 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
+      let pools: FixedArray<float>[] = new Array<FixedArray<float>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3.3f, 1.1f, 2.2f];
+      }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort(fixArray, 0, 3);
+        sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_3700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort',
         'sort(arr: FixedArray<float>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -686,25 +767,28 @@ export default function BuiltinArraySortPerfTest(): void {
         swap(fixArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = fixArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_3800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'swap',
         'swap(arr: FixedArray<float>, i: int, j: int): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
+      let pools: FixedArray<float>[] = new Array<FixedArray<float>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3.3f, 1.1f, 2.2f];
+      }
       let cmp = (lhs: float, rhs: float) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, cmp);
+        sort_subarray(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_3900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<float>, startIndex: int, endIndex: int, mustPrecede: (lhs: float, rhs: float) => boolean): void',
@@ -713,17 +797,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
+      let pools: FixedArray<float>[] = new Array<FixedArray<float>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3.3f, 1.1f, 2.2f];
+      }
       let cmp = (lhs: float, rhs: float) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, cmp);
+        sort_subarray(pools[i], cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_4000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<float>, mustPrecede: (lhs: float, rhs: float) => boolean): void',
@@ -732,17 +819,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<float> = [3.3f, 1.1f, 2.2f];
+      let pools: FixedArray<float>[] = new Array<FixedArray<float>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3.3f, 1.1f, 2.2f];
+      }
       let cmp = (lhs: float, rhs: float) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, cmp);
+        sort_subarray(pools[i], 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_4100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<float>, startIndex: int, mustPrecede: (lhs: float, rhs: float) => boolean): void',
@@ -761,8 +851,8 @@ export default function BuiltinArraySortPerfTest(): void {
         result = mergeSort(fixArray, cmp, 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_4200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'mergeSort',
       'mergeSort(array: FixedArray<double>, cmp: (lhs: double, rhs: double) => int, begin: int, end: int): FixedArray<double>',
@@ -772,14 +862,17 @@ export default function BuiltinArraySortPerfTest(): void {
 
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<double> = [3.33, 1.11, 2.22];
+      let pools: FixedArray<double>[] = new Array<FixedArray<double>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3.33, 1.11, 2.22];
+      }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort(fixArray, 0, 3);
+        sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_4300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort',
         'sort(arr: FixedArray<double>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -793,8 +886,8 @@ export default function BuiltinArraySortPerfTest(): void {
         swap(fixArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = fixArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_4400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'swap',
         'swap(arr: FixedArray<double>, i: int, j: int): void', arkTsAveragedTime);
@@ -802,17 +895,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<double> = [3.33, 1.11, 2.22];
+      let pools: FixedArray<double>[] = new Array<FixedArray<double>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3.33, 1.11, 2.22];
+      }
       let cmp = (lhs: double, rhs: double) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, cmp);
+        sort_subarray(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_4500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<double>, startIndex: int, endIndex: int, mustPrecede: (lhs: double, rhs: double) => boolean): void',
@@ -821,17 +917,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<double> = [3.33, 1.11, 2.22];
+      let pools: FixedArray<double>[] = new Array<FixedArray<double>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3.33, 1.11, 2.22];
+      }
       let cmp = (lhs: double, rhs: double) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, cmp);
+        sort_subarray(pools[i], cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_4600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<double>, mustPrecede: (lhs: double, rhs: double) => boolean): void',
@@ -840,17 +939,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<double> = [3.33, 1.11, 2.22];
+      let pools: FixedArray<double>[] = new Array<FixedArray<double>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [3.33, 1.11, 2.22];
+      }
       let cmp = (lhs: double, rhs: double) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, cmp);
+        sort_subarray(pools[i], 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_4700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<double>, startIndex: int, mustPrecede: (lhs: double, rhs: double) => boolean): void',
@@ -859,14 +961,17 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<char> = [c'c', c'a', c'b'];
+      let pools: FixedArray<char>[] = new Array<FixedArray<char>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [c'c', c'a', c'b'];
+      }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort(fixArray, 0, 3);
+        sort(pools[i], 0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_4800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort',
         'sort(arr: FixedArray<char>, startIndex: int, endIndex: int): void', arkTsAveragedTime);
@@ -880,8 +985,8 @@ export default function BuiltinArraySortPerfTest(): void {
         swap(fixArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = fixArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_4900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'swap',
         'swap(arr: FixedArray<char>, i: int, j: int): void', arkTsAveragedTime);
@@ -889,17 +994,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<char> = [c'c', c'a', c'b'];
+      let pools: FixedArray<char>[] = new Array<FixedArray<char>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [c'c', c'a', c'b'];
+      }
       let cmp = (lhs: char, rhs: char) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, cmp);
+        sort_subarray(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_5000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<char>, startIndex: int, endIndex: int, mustPrecede: (lhs: char, rhs: char) => boolean): void',
@@ -908,17 +1016,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<char> = [c'c', c'a', c'b'];
+      let pools: FixedArray<char>[] = new Array<FixedArray<char>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [c'c', c'a', c'b'];
+      }
       let cmp = (lhs: char, rhs: char) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, cmp);
+        sort_subarray(pools[i], cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_5100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<char>, mustPrecede: (lhs: char, rhs: char) => boolean): void',
@@ -927,17 +1038,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<char> = [c'c', c'a', c'b'];
+      let pools: FixedArray<char>[] = new Array<FixedArray<char>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = [c'c', c'a', c'b'];
+      }
       let cmp = (lhs: char, rhs: char) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, cmp);
+        sort_subarray(pools[i], 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_5200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<char>, startIndex: int, ' +
@@ -952,25 +1066,28 @@ export default function BuiltinArraySortPerfTest(): void {
         swap(fixArray, 0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = fixArray;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_5300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'swap',
         'swap(arr: FixedArray<string>, i: int, j: int): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<string> = ['ccc', 'aaa', 'bbb'];
+      let pools: FixedArray<string>[] = new Array<FixedArray<string>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = ['ccc', 'aaa', 'bbb'];
+      }
       let cmp = (lhs: string, rhs: string) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, 3, cmp);
+        sort_subarray(pools[i], 0, 3, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_5400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<string>, startIndex: int, endIndex: int, ' +
@@ -978,17 +1095,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<string> = ['ccc', 'aaa', 'bbb'];
+      let pools: FixedArray<string>[] = new Array<FixedArray<string>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = ['ccc', 'aaa', 'bbb'];
+      }
       let cmp = (lhs: string, rhs: string) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, cmp);
+        sort_subarray(pools[i], cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_5500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<string>,' +
@@ -996,17 +1116,20 @@ export default function BuiltinArraySortPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest_5600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fixArray: FixedArray<string> = ['ccc', 'aaa', 'bbb'];
+      let pools: FixedArray<string>[] = new Array<FixedArray<string>>();
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pools[j] = ['ccc', 'aaa', 'bbb'];
+      }
       let cmp = (lhs: string, rhs: string) => {
         return lhs < rhs;
       };
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sort_subarray(fixArray, 0, cmp);
+        sort_subarray(pools[i], 0, cmp);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = pools[0];
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = fixArray;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArraySortPerfTest_5600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort_subarray',
         'sort_subarray(arr: FixedArray<string>, startIndex: int, ' +

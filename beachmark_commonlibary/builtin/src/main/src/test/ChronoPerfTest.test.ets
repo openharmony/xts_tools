@@ -56,8 +56,8 @@ export default function ChronoPerfTest(): void {
         res = Chrono.NS_PER_MS;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Chrono_NS_PER_MS_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.time', 'Chrono', 'NS_PER_MS',
         'NS_PER_MS: long', arkTsAveragedTime);
@@ -73,8 +73,8 @@ export default function ChronoPerfTest(): void {
         res = Chrono.nanoNow();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Chrono_NanoNow_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.time', 'Chrono', 'nanoNow',
         'nanoNow(): long', arkTsAveragedTime);
@@ -90,8 +90,8 @@ export default function ChronoPerfTest(): void {
         res = Chrono.milliNow();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Chrono_MilliNow_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.time', 'Chrono', 'milliNow',
         'milliNow(): number', arkTsAveragedTime);
@@ -107,8 +107,8 @@ export default function ChronoPerfTest(): void {
         res = Chrono.getCpuTime();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Chrono_GetCpuTime_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.time', 'Chrono', 'getCpuTime',
         'getCpuTime(): long', arkTsAveragedTime);

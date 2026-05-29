@@ -57,8 +57,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         map = new containers.ConcurrentHashMap<Int, Int>();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -74,8 +74,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         map = new containers.ConcurrentHashMap<Int, Int>(arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'constructor',
         'constructor(entries?: ([K, V])[] | null)', arkTsAveragedTime);
@@ -85,14 +85,14 @@ export default function ConcurrentHashMapPerfTest(): void {
       let key = new Int(1);
       let val = new Int(1);
       let entries: Array<[Int, Int]> = [[key, val]];
-      let map = new containers.ConcurrentHashMap<Int, Int>(entries as Iterable<[Int, Int]>);
+      let res = new containers.ConcurrentHashMap<Int, Int>(entries as Iterable<[Int, Int]>);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        map = new containers.ConcurrentHashMap<Int, Int>(entries as Iterable<[Int, Int]>);
+        res = new containers.ConcurrentHashMap<Int, Int>(entries as Iterable<[Int, Int]>);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = map;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'constructor',
         'constructor(entries: Iterable<[K, V]>)', arkTsAveragedTime);
@@ -101,14 +101,14 @@ export default function ConcurrentHashMapPerfTest(): void {
     it('PerformanceTest_ConcurrentHashMap_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let sourceMap = new Map<Int, Int>();
       sourceMap.set(new Int(1), new Int(1));
-      let map = new containers.ConcurrentHashMap<Int, Int>(sourceMap);
+      let res = new containers.ConcurrentHashMap<Int, Int>(sourceMap);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        map = new containers.ConcurrentHashMap<Int, Int>(sourceMap);
+        res = new containers.ConcurrentHashMap<Int, Int>(sourceMap);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = map;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Constructor_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'constructor',
         'constructor(map: Map<K, V>)', arkTsAveragedTime);
@@ -130,8 +130,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         map.set(keys[i], vals[i]);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Set_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'set',
         'set(key: K, val: V): ConcurrentHashMap<K, V>', arkTsAveragedTime);
@@ -148,8 +148,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         res = map.get(key);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Get_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'get',
         'get(key: K): V | undefined', arkTsAveragedTime);
@@ -166,8 +166,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         res = map.has(key);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Has_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'has',
         'has(key: K): boolean', arkTsAveragedTime);
@@ -185,8 +185,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         res = map.replace(key, val2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Replace_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'replace',
         'replace(key: K, newValue: V): boolean', arkTsAveragedTime);
@@ -203,8 +203,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         currentSize = map.size;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = currentSize;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Size_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'size',
         'size(): int', arkTsAveragedTime);
@@ -212,22 +212,22 @@ export default function ConcurrentHashMapPerfTest(): void {
 
     //并发格式不规范
     it('PerformanceTest_ConcurrentHashMap_Remove_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let map = new containers.ConcurrentHashMap<Int, Int>();
-      let keys: Int[] = [];
+      let maps: containers.ConcurrentHashMap<Int, Int>[] = [];
+      let key = new Int(1);
       let val = new Int(1);
       for (let i = 0; i < BASE_COUNT; i++) {
-        let key = new Int(i as int);
-        keys.push(key);
+        let map = new containers.ConcurrentHashMap<Int, Int>();
         map.set(key, val);
+        maps.push(map);
       }
       let res: Int | undefined = undefined;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = map.remove(keys[i]);
+        res = maps[i].remove(key);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Remove_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'remove',
         'remove(key: K): V | undefined', arkTsAveragedTime);
@@ -235,22 +235,22 @@ export default function ConcurrentHashMapPerfTest(): void {
 
     //并发格式不规范
     it('PerformanceTest_ConcurrentHashMap_Delete_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let map = new containers.ConcurrentHashMap<Int, Int>();
-      let keys: Int[] = [];
+      let maps: containers.ConcurrentHashMap<Int, Int>[] = [];
+      let key = new Int(1);
       let val = new Int(1);
       for (let i = 0; i < BASE_COUNT; i++) {
-        let key = new Int(i as int);
-        keys.push(key);
+        let map = new containers.ConcurrentHashMap<Int, Int>();
         map.set(key, val);
+        maps.push(map);
       }
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = map.delete(keys[i]);
+        res = maps[i].delete(key);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Delete_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'delete',
         'delete(key: K): boolean', arkTsAveragedTime);
@@ -271,8 +271,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         maps[i].clear();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = maps[0];
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Clear_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'clear',
         'clear(): void', arkTsAveragedTime);
@@ -286,8 +286,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         res = map.isEmpty();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_IsEmpty_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'isEmpty',
         'isEmpty(): boolean', arkTsAveragedTime);
@@ -302,8 +302,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         res = map.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_ToString_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'toString',
         'toString(): String', arkTsAveragedTime);
@@ -318,8 +318,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         res = map.keys();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Keys_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'keys',
         'keys(): IterableIterator<K>', arkTsAveragedTime);
@@ -334,8 +334,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         res = map.values();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Values_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'values',
         'values(): IterableIterator<V>', arkTsAveragedTime);
@@ -350,8 +350,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         res = map.entries();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Entries_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'entries',
         'entries(): IterableIterator<[K, V]>', arkTsAveragedTime);
@@ -366,8 +366,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         res = map.$_iterator();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_Iterator_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', '$_iterator',
         '$_iterator(): IterableIterator<[K, V]>', arkTsAveragedTime);
@@ -382,8 +382,8 @@ export default function ConcurrentHashMapPerfTest(): void {
         map.forEach(cb);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = map;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMap_ForEach_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMap', 'forEach',
         'forEach(callbackfn): void', arkTsAveragedTime);
@@ -402,28 +402,28 @@ export default function ConcurrentHashMapPerfTest(): void {
         res = iter.next();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentHashMapIterator_Next_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMapIterator', 'next',
         'next(): IteratorResult<R>', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_EmptyConcurrentHashMapIterator_Next_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let map = new containers.ConcurrentHashMap<Int, Int>();
-      let iter = map.entries();
-      let res: IteratorResult<[Int, Int]> | null = null;
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = iter.next();
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EmptyConcurrentHashMapIterator_Next_2100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMapIterator', 'next',
-        'next(): IteratorResult<R>', arkTsAveragedTime);
-    })
+    // it('PerformanceTest_EmptyConcurrentHashMapIterator_Next_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let map = new containers.ConcurrentHashMap<Int, Int>();
+    //   let iter = map.entries();
+    //   let res: IteratorResult<[Int, Int]> | null = null;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = iter.next();
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_EmptyConcurrentHashMapIterator_Next_2100: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentHashMapIterator', 'next',
+    //     'next(): IteratorResult<R>', arkTsAveragedTime);
+    // })
 
   })
 }
