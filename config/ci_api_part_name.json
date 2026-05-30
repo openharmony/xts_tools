@@ -120,6 +120,27 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.components.ArkLazyDynamicLayout.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/arkui/LazyLayoutAlgorithm.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.lazyLayoutAlgorithm.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/delete_arkui_label.pydeps",
             "bundle_name": [
                 "sdk"
