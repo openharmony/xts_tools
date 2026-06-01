@@ -20,7 +20,7 @@ import os
 import sys
 from abc import ABC, abstractmethod
 
-from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
+from utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
 
 
 class Ci_Manager(ABC):
@@ -205,8 +205,8 @@ class WhitelistManager(Ci_Manager):
         targets = set(suite_targets)
         x_flags = {self.full_impact_flag, self.full_impact_flag_totally}
         if set(x_flags) & targets and len(targets) != 1:
-            print(f'[ERROR] These flags are exclusive: {x_flags}, '
-                  f'when set, do make sure the flag is the only target in the configuration.')
+            print(f"[ERROR] These flags are exclusive: {x_flags}, "
+                  f"when set, do make sure the flag is the only target in the configuration.")
             sys.exit(1)
 
     def get_targets_and_paths_by_cfg(self, suite_type, add_bundle, add_target):
@@ -251,10 +251,11 @@ class GetInterfaceData(Ci_Manager):
 
     def path_error(self, path_list):
         if len(path_list) > 0:
-            print('[ERROR] Failed to obtain interface file ownership, Please config in test/xts/tools/config/ci_api_part_name.json')
+            print("[ERROR] Failed to obtain interface file ownership. "
+                  "Please config in test/xts/tools/config/ci_api_part_name.json")
             for path in path_list:
                 print("[ERROR] Cannot match path {}".format(path))
-            sys.exit(1)
+            raise RuntimeError("Interface file ownership mismatch")
 
     def get_targets_from_change(self, change_list):
         for store in change_list:
@@ -281,7 +282,7 @@ class GetInterfaceData(Ci_Manager):
 
         self.bundle_name_list = list(set(self.bundle_name_list))
         self._build_targets = list(set(self._build_targets))
-        print('INTERFACE_BUNDLE_NAME = ', self.bundle_name_list)
+        print(f"INTERFACE_BUNDLE_NAME = {self.bundle_name_list}")
 
         # 抛出未匹配到 bundle_name 的路径
         self.path_error(self.no_match_path_list)
@@ -289,10 +290,47 @@ class GetInterfaceData(Ci_Manager):
         # 根据bundle_name 查找对应 build_paths
         self._build_paths = XTSTargetUtils.getPathsByBundle(self.bundle_name_list, self._xts_root_dir)
 
-    def _check_config_integrity(self, path, bundle_name, build_targets):
-        if not bundle_name and not build_targets:
-            print(f'[WARN] Interface file {path} has neither bundle_name nor '
-                  f'build_targets configured for the current suite ({self._suite_name})')
+    def _validate_config_entry(self, conf, early_exit = False):
+        msg = "Invalid interface configuration"
+        err = RuntimeError(msg)
+
+        if not isinstance(conf, dict):
+            print(f"[ERROR] {msg}: config entry must be a dictionary")
+            raise err
+
+        path = conf.get("path")
+        if not path or not isinstance(path, str):
+            print(f"[ERROR] {msg}: 'path' is required as a non-empty string")
+            raise err
+
+        if early_exit:
+            return
+
+        bundle_names = conf.get("bundle_name")
+        if not (
+            isinstance(bundle_names, list)
+            and bundle_names
+            and all(isinstance(b, str) and b for b in bundle_names)
+        ):
+            print(f"[ERROR] {msg}: 'bundle_name' must be a non-empty list of non-empty strings.")
+            raise err
+
+        build_targets = conf.get("build_targets")
+        if not (
+            isinstance(build_targets, dict)
+            and (
+                not build_targets  # valid for {}
+                or all(
+                    isinstance(targets, list)
+                    and targets
+                    and all(isinstance(t, str) and t for t in targets)
+                    for targets in build_targets.values()
+                )
+            )
+        ):
+            print(f"[ERROR] {msg}: 'build_targets' must be a dictionary. "
+                  f"If not empty, every value must be a non-empty list of non-empty strings.")
+            raise err
 
     # 接口仓统一处理逻辑
     def append_bundles_and_targets(self, change_list, interface_path, interface_configs):
@@ -302,18 +340,19 @@ class GetInterfaceData(Ci_Manager):
             for path in chg.add + chg.modified + chg.delete:
                 self.sum_change_list_path.append(path)
                 for conf in interface_configs:
+                    self._validate_config_entry(conf, True)
                     # 路径 && 目录均不匹配
-                    if path != conf.get('path') and not \
-                        PathUtils.is_parent_path(conf.get('path'), path):
+                    if path != conf.get("path") and not \
+                        PathUtils.is_parent_path(conf.get("path"), path):
                         continue
 
+                    self._validate_config_entry(conf)
                     self.match_path_list.append(path)
                     chg.set_already_match_utils(True)
 
-                    bundle_names = conf.get('bundle_name', [])
+                    bundle_names = conf.get("bundle_name", [])
                     build_targets = XTSTargetUtils.filter_suite_targets(self._suite_name,
-                                                                        conf.get('build_targets', {}).get(self._suite_name, []))
-                    self._check_config_integrity(path, bundle_names, build_targets)
+                                                                        conf.get("build_targets", {}).get(self._suite_name, []))
 
                     self.bundle_name_list += bundle_names
                     self._build_targets += build_targets
@@ -336,7 +375,8 @@ class GetInterfaceData(Ci_Manager):
                                 if k == 'component':
                                     add_bundle_json_path.append([path, v['name']])
                     except FileNotFoundError:
-                        print("error: The repository drivers/interface has a new directory and no bundle.json is found under the directory, Please add bundle.json")
+                        print("[ERROR] The repository drivers/interface has a new directory "
+                              "but no bundle.json is found under the directory, Please add bundle.json")
                         sys.exit(1)
 
             # 处理新增目录下其他文件
