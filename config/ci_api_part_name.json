@@ -1414,6 +1414,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.restrictions.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.wifi.d.ts",
             "bundle_name": [
                 "wifi"
@@ -1715,6 +1722,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.networkManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.display.d.ts",
             "bundle_name": [
                 "window_manager"
@@ -1842,6 +1856,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.usbManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.usbManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
@@ -2268,6 +2289,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.deviceSettings.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.cloudExtension.d.ts",
             "bundle_name": [
                 "relational_store"
@@ -2339,6 +2367,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.systemManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.systemManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
@@ -2541,6 +2576,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.bundleManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.util.TreeSet.d.ts",
             "bundle_name": [
                 "ets_utils"
@@ -2646,6 +2688,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.bluetoothManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.fileAccess.d.ts",
             "bundle_name": [
                 "user_file_service"
@@ -2731,6 +2780,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.deviceInfo.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.deviceInfo.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
@@ -2892,6 +2948,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.securityManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.securityManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
@@ -3256,6 +3319,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.locationManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.locationManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
@@ -3983,7 +4053,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.applicationManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.common.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.common.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
@@ -4257,6 +4341,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.browser.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.browser.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
@@ -4851,6 +4942,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.accountManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.ValuesBucket.d.ts",
             "bundle_name": [
                 "data_share"
@@ -4873,6 +4971,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.dateTimeManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.dateTimeManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
@@ -5299,6 +5404,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.EnterpriseAdminExtensionAbility.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.resourceschedule.workScheduler.d.ts",
             "bundle_name": [
                 "work_scheduler"
@@ -5719,6 +5831,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.wifiManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bluetooth.baseProfile.d.ts",
             "bundle_name": [
                 "bluetooth"
@@ -5916,6 +6035,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.adminManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.adminManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
@@ -6574,6 +6700,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.deviceControl.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.deviceControl.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
@@ -12782,7 +12915,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.enterprise.telephonyManager.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/application/EnterpriseAdminExtensionContext.d.ts",
+            "bundle_name": [
+                "enterprise_device_management"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/EnterpriseAdminExtensionContext.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
             ],
