@@ -14229,6 +14229,13 @@
                 "sdk"
             ],
             "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.bundle.pluginBundleManager.d.ts",
+            "bundle_name": [
+                "bundle_framework"
+            ],
+            "build_targets": {}
         }
     ],
     "sdk_c": [
