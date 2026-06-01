@@ -29,7 +29,10 @@ import performance from './Performance.util';
 
 export default function InteropContextPerfTest(): void {
   describe('InteropContextPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -43,19 +46,23 @@ export default function InteropContextPerfTest(): void {
       performance.save('apiPerformance.txt');
     })
 
-    const PKG_NAME = 'std.interop';
-
-    // ================================================================
-    // 1. InteropContext Public APIs
-    // ================================================================
-
     it('PerformanceTest_InteropContext_SetDefaultInteropLinker_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let mockLinker = new Object();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {InteropContext.setDefaultInteropLinker(mockLinker as RuntimeLinker);}
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _linker = mockLinker;
-      performance.apiWithClassAndKeywordTxt(PKG_NAME, 'InteropContext', 'setDefaultInteropLinker', 'setDefaultInteropLinker(linker: RuntimeLinker): void', arkTsAveragedTime);
+      for (let i = 0; i < BASE_COUNT; i++) {
+        InteropContext.setDefaultInteropLinker(mockLinker as RuntimeLinker);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = mockLinker;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InteropContext_SetDefaultInteropLinker_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt(
+        'std.interop',
+        'InteropContext',
+        'setDefaultInteropLinker',
+        'setDefaultInteropLinker(linker: RuntimeLinker): void',
+        arkTsAveragedTime
+      );
     })
 
   })

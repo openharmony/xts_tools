@@ -23,8 +23,6 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-const BASE_COUNT = 50000;
-const UNIT_TIME = 1000000;
 
 function toByteValue(value: int): byte {
   return value.toByte();
@@ -155,6 +153,10 @@ function getSampleParseClass(): Class {
 
 export default function JsonPerfTest(): void {
   describe('JsonPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
+    const BASE_COUNT = 50000;
+    const UNIT_TIME = 1000000;
+
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
@@ -182,7 +184,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JsonParseError_constructor_0100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JsonParseError', 'constructor',
-          'constructor(msg: string, start_offset?: int, end_offset?: int)', arkTsAveragedTime);
+          'constructor(string, int, int)', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_0100',
@@ -201,7 +203,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_0100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: byte): String', arkTsAveragedTime);
+          'stringify(byte): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_0200',
@@ -220,7 +222,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_0200: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: char): String', arkTsAveragedTime);
+          'stringify(char): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_0300',
@@ -239,7 +241,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_0300: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: short): String', arkTsAveragedTime);
+          'stringify(short): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_0400',
@@ -258,7 +260,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_0400: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: int): String', arkTsAveragedTime);
+          'stringify(int): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_0500',
@@ -277,7 +279,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_0500: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: long): String', arkTsAveragedTime);
+          'stringify(long): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_0600',
@@ -296,7 +298,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_0600: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: float): String', arkTsAveragedTime);
+          'stringify(float): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_0700',
@@ -315,7 +317,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_0700: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: double): String', arkTsAveragedTime);
+          'stringify(double): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_0800',
@@ -334,7 +336,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_0800: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: bigint): String', arkTsAveragedTime);
+          'stringify(bigint): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_0900',
@@ -353,7 +355,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_0900: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: boolean): String', arkTsAveragedTime);
+          'stringify(boolean): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_1000',
@@ -372,7 +374,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_1000: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: String): String', arkTsAveragedTime);
+          'stringify(String): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_1100',
@@ -391,7 +393,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_1100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: FixedArray<byte>): String', arkTsAveragedTime);
+          'stringify(FixedArray<byte>): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_1200',
@@ -410,7 +412,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_1200: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: FixedArray<char>): String', arkTsAveragedTime);
+          'stringify(FixedArray<char>): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_1300',
@@ -429,7 +431,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_1300: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: FixedArray<short>): String', arkTsAveragedTime);
+          'stringify(FixedArray<short>): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_1400',
@@ -448,7 +450,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_1400: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: FixedArray<int>): String', arkTsAveragedTime);
+          'stringify(FixedArray<int>): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_1500',
@@ -467,7 +469,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_1500: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: FixedArray<long>): String', arkTsAveragedTime);
+          'stringify(FixedArray<long>): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_1600',
@@ -486,7 +488,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_1600: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: FixedArray<float>): String', arkTsAveragedTime);
+          'stringify(FixedArray<float>): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_1700',
@@ -505,7 +507,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_1700: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: FixedArray<double>): String', arkTsAveragedTime);
+          'stringify(FixedArray<double>): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_1800',
@@ -524,7 +526,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_1800: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: FixedArray<boolean>): String', arkTsAveragedTime);
+          'stringify(FixedArray<boolean>): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_1900',
@@ -543,7 +545,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_1900: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: Array<Number>): String', arkTsAveragedTime);
+          'stringify(Array<Number>): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_2000',
@@ -562,7 +564,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_2000: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(d: ArrayLike<Number>): String', arkTsAveragedTime);
+          'stringify(ArrayLike<Number>): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_2100',
@@ -581,7 +583,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_2100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(obj: JsonReplacer): String', arkTsAveragedTime);
+          'stringify(JsonReplacer): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_2200',
@@ -600,7 +602,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_2200: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(obj: Any): String', arkTsAveragedTime);
+          'stringify(Any): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_2300',
@@ -639,7 +641,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringify_2400: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringify',
-          'stringify(obj: Any, replacer: FixedArray<double | string>, space?: int | string): string', arkTsAveragedTime);
+          'stringify(Any, FixedArray<double | string>, int | string): string', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringify_2500',
@@ -678,7 +680,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringifyJsonElement_0100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringifyJsonElement',
-          'stringifyJsonElement(elem: jsonx.JsonElementSerializable): string', arkTsAveragedTime);
+          'stringifyJsonElement(jsonx.JsonElementSerializable): string', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringifyJsonElement_0200',
@@ -717,7 +719,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringifyJsonElement_0300: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringifyJsonElement',
-          'stringifyJsonElement(elem: jsonx.JsonElement): string', arkTsAveragedTime);
+          'stringifyJsonElement(jsonx.JsonElement): string', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_stringifyJsonElement_0400',
@@ -798,7 +800,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_parseJsonElement_0100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parseJsonElement',
-          'parseJsonElement(text: string, options?: jsonx.ParseOptions): jsonx.JsonElement', arkTsAveragedTime);
+          'parseJsonElement(string, jsonx.ParseOptions): jsonx.JsonElement', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_parseJsonElement_0200',
@@ -818,7 +820,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_parseJsonElement_0200: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parseJsonElement',
-          'parseJsonElement(text: string, reviver: (key: string, value: jsonx.JsonElement) => jsonx.JsonElement, options?: jsonx.ParseOptions): jsonx.JsonElement', arkTsAveragedTime);
+          'parseJsonElement(string, (string, jsonx.JsonElement) => jsonx.JsonElement, jsonx.ParseOptions): jsonx.JsonElement', arkTsAveragedTime);
       });
 
     it('PerformanceTest_JSON_parseJsonRecord_0100',
@@ -838,7 +840,103 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_parseJsonRecord_0100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parseJsonRecord',
-          'parseJsonRecord(text: string, options?: jsonx.ParseOptions): Record<string, JsonRecordType>', arkTsAveragedTime);
+          'parseJsonRecord(string, jsonx.ParseOptions): Record<string, JsonRecordType>', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JSON_stringifyWithGetters_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let obj: Any = createSimpleRecord();
+        let result: String = JSON.stringifyWithGetters(obj);
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = JSON.stringifyWithGetters(obj);
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringifyWithGetters_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringifyWithGetters',
+          'stringifyWithGetters(Any): String', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JSON_stringifyWithGetters_0200',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let obj: Any = createSimpleRecord();
+        let result: string = JSON.stringifyWithGetters(obj, commonReviver, 2);
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = JSON.stringifyWithGetters(obj, commonReviver, 2);
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringifyWithGetters_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringifyWithGetters',
+          'stringifyWithGetters(obj: Any, replacer: ((key: string, value: Any) => Any) | undefined | null, space?: int | string): string', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JSON_stringifyWithGetters_0300',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let obj: Any = createSimpleRecord();
+        let replacer: Array<double | string> = createStringifyFilterArray();
+        let result: string = JSON.stringifyWithGetters(obj, replacer, 2);
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = JSON.stringifyWithGetters(obj, replacer, 2);
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_stringifyWithGetters_0300: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'stringifyWithGetters',
+          'stringifyWithGetters(obj: Any, replacer: Array<double | string> | Array<string> | Array<double>, space?: int | string): string', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JSON_parseUpdate_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let json: string = "{\"name\":\"test\",\"age\":25}";
+        let instance: SampleParsePojo = new SampleParsePojo();
+        let result: SampleParsePojo = JSON.parseUpdate(json, instance);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = JSON.parseUpdate(json, instance);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_parseUpdate_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parseUpdate',
+          'parseUpdate<T>(json: string, instance: T): T', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_JSON_parseUpdate_0200',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let json: string = "{\"name\":\"test\",\"age\":25}";
+        let instance: SampleParsePojo = new SampleParsePojo();
+        let options: jsonx.ParseOptions = createParseOptions();
+        let result: SampleParsePojo = JSON.parseUpdate(json, commonReviver, instance, options);
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = JSON.parseUpdate(json, commonReviver, instance, options);
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_parseUpdate_0200: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'JSON', 'parseUpdate',
+          'parseUpdate<T>(json: string, reviver: ((key: string, value: Any) => Any) | undefined, instance: T, options?: jsonx.ParseOptions): T', arkTsAveragedTime);
       });
   });
 }

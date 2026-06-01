@@ -27,10 +27,13 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function NullPerfTest() {
-  describe('NullPerfTest', () => {
+
+export default function VoidPerfTest(): void {
+  describe('VoidPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -44,38 +47,32 @@ export default function NullPerfTest() {
       performance.save('apiPerformance.txt');
     })
 
-    it('PerformanceTest_Null_toString_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let b = null;
-      let result = String(b);
+    it('PerformanceTest_Void_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: Void = new Void();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = String(b);
+        res = new Void();
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = result;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Null_toString_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Null', 'toString',
-        'toString(): string', arkTsAveragedTime);
-
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Void_Static_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Void', 'constructor',
+        'constructor()', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Null_equals_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let testObj = null;
-      let b = new Null();
-      let result = b === testObj;
-
+    it('PerformanceTest_Void_Static_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: Void = new Void();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = b === testObj;
+        res = Void.void_instance;
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = result;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Null_equals_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Null', 'equals',
-        'equals(to: Any): boolean', arkTsAveragedTime);
-
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Void_Static_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Void', 'void_instance',
+        'static readonly void_instance: Void', arkTsAveragedTime);
     })
 
   })

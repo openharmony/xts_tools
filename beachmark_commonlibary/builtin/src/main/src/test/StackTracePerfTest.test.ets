@@ -26,13 +26,17 @@ import {
   beforeEach,
   afterEach
 } from "../../../hypium/index";
+
 import performance from './Performance.util';
 
-export default function StackTracePerfTest() {
+export default function StackTracePerfTest(): void {
   describe('StackTracePerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
+
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -45,26 +49,51 @@ export default function StackTracePerfTest() {
       performance.save('apiPerformance.txt');
     })
 
-    it('PerformanceTest_StackTrace_provisionStackTrace_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let stackTrace: FixedArray<StackTraceElement> = StackTrace.provisionStackTrace();
+    it('PerformanceTest_System_stackTraceLines_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let str: FixedArray<String> = stackTraceLines();
       let Stime = new Date().getTime();
-
       for (let i = 0; i < BASE_COUNT; i++) {
-        stackTrace = StackTrace.provisionStackTrace();
+        str = stackTraceLines();
       }
-
       let Dtime = new Date().getTime() - Stime;
+      let res1 = str;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = stackTrace;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StackTrace_provisionStackTrace_0100: '
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_System_stackTraceLines_0100: '
         + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt(
-        'std.core',
-        'StackTrace',
-        'provisionStackTrace',
-        'static provisionStackTrace(): FixedArray<StackTraceElement>',
-        arkTsAveragedTime
-      );
+      performance.apiWithClassAndKeywordTxt('std.core', 'System',    'stackTraceLines',
+        'function stackTraceLines(): FixedArray<String>', arkTsAveragedTime   );
     })
+
+    it('PerformanceTest_System_printStackTrace_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res = printStackTrace();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = printStackTrace();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_System_printStackTrace_0100: '
+        + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core','System', 'printStackTrace',
+        'function printStackTrace(): void', arkTsAveragedTime  );
+    })
+
+    it('PerformanceTest_StackTraceHelper_getMainThreadStackTrace_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let res = StackTraceHelper.getMainThreadStackTrace();
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = StackTraceHelper.getMainThreadStackTrace();
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StackTraceHelper_getMainThreadStackTrace_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.dfx','StackTraceHelper', 'getMainThreadStackTrace',
+          'static getMainThreadStackTrace(): String', arkTsAveragedTime );
+      });
+
   })
 }

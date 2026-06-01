@@ -32,10 +32,12 @@ class MyClass {
   name: string = "test";
 }
 
-export default function RuntimeDebugPerfTest() {
+export default function RuntimeDebugPerfTest(): void {
   describe('RuntimeDebugPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -57,8 +59,8 @@ export default function RuntimeDebugPerfTest() {
         res = RuntimeDebug.countInstancesOfClass(classType.getClass()!);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RuntimeDebug_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.debug', 'RuntimeDebug', 'countInstancesOfClass',
         'static countInstancesOfClass(cls: Class): int', arkTsAveragedTime);

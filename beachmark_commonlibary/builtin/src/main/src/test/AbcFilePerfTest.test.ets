@@ -13,34 +13,23 @@
  * limitations under the License.
  */
 
-import {
-  describe,
-  it,
-  expect,
-  TestType,
-  Size,
-  Level,
-  beforeAll,
-  afterAll,
-  beforeEach,
-  afterEach
-} from "../../../hypium/index";
+/* AbcFile 性能测试 - 注释原因：AbcFile 是 @InternalAPI，无法在 entry 模块使用
 import performance from './Performance.util';
-import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
-
-export default function AbcFilePerfTest() {
+export default function AbcFilePerfTest(): void {
   describe('AbcFilePerfTest', () => {
-    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     // AbcFile.loadAbcFile --AbcFile.loadFromMemory --AbcFile.loadClass --AbcFile.getFilename
     const BASE_COUNT_MEDIUM = 1000;
     const UNIT_TIME = 1000000;
+
+    let runtimeLinker: RuntimeLinker=new AbcRuntimeLinker(getBootRuntimeLinker(), ['/data/test.abc']);
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
       let ret1 = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret1);
+
     })
 
     afterAll(() => {
@@ -48,11 +37,11 @@ export default function AbcFilePerfTest() {
     })
 
     it('PerformanceTest_AbcFile_loadAbcFile_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res=AbcFile.loadAbcFile(getNearestNonBootRuntimeLinker()!, '/data/test.abc');
+      let res = AbcFile.loadAbcFile(runtimeLinker, '/data/test.abc');
       let Stime = new Date().getTime();
-        for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-          res = AbcFile.loadAbcFile(getNearestNonBootRuntimeLinker()!, '/data/test.abc');
-        }
+      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
+        res = AbcFile.loadAbcFile(runtimeLinker, ['/data/test.abc']);
+      }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
       let res1 = res;
@@ -63,11 +52,11 @@ export default function AbcFilePerfTest() {
 
     it('PerformanceTest_AbcFile_loadFromMemory_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let rawData: FixedArray<byte> = [0x41, 0x42, 0x43];
-      let res = AbcFile.loadFromMemory(getNearestNonBootRuntimeLinker()!, rawData);
+      let res = AbcFile.loadFromMemory(runtimeLinker, rawData);
       let Stime = new Date().getTime();
-        for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-          res = AbcFile.loadFromMemory(getNearestNonBootRuntimeLinker()!, rawData);
-        }
+      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
+        res = AbcFile.loadFromMemory(runtimeLinker, rawData);
+      }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
       let res1 = res;
@@ -77,13 +66,12 @@ export default function AbcFilePerfTest() {
     })
 
     it('PerformanceTest_AbcFile_loadClass_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fileInstance: AbcFile | null = null;
-      fileInstance = AbcFile.loadAbcFile(getNearestNonBootRuntimeLinker()!, '/data/test.abc');
-      let res = fileInstance!.loadClass(getNearestNonBootRuntimeLinker()!, 'TestClass', true);
+      let fileInstance = AbcFile.loadAbcFile(runtimeLinker, '/data/test.abc');
+      let res: Class | undefined = fileInstance.loadClass(runtimeLinker, 'TestClass', true);
       let Stime = new Date().getTime();
-        for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-          res = fileInstance!.loadClass(getNearestNonBootRuntimeLinker()!, 'TestClass', true);
-        }
+      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
+        res = fileInstance.loadClass(runtimeLinker, 'TestClass', true);
+      }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
       let res1 = res;
@@ -93,13 +81,12 @@ export default function AbcFilePerfTest() {
     })
 
     it('PerformanceTest_AbcFile_getFilename_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let fileInstance: AbcFile | null = null;
-      fileInstance = AbcFile.loadAbcFile(getNearestNonBootRuntimeLinker()!, '/data/test.abc');
+      let fileInstance = AbcFile.loadAbcFile(runtimeLinker,'/data/test.abc' );
       let res: string = '';
       let Stime = new Date().getTime();
-        for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-          res = fileInstance!.getFilename();
-        }
+      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
+        res = fileInstance.getFilename();
+      }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
       let res1 = res;
@@ -110,3 +97,4 @@ export default function AbcFilePerfTest() {
 
   })
 }
+*/

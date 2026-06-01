@@ -26,7 +26,6 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
-import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 class MyClass {
     num: int = 1;
@@ -37,6 +36,8 @@ export default function FieldPerfTest(): void {
   describe('FieldPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -60,8 +61,8 @@ export default function FieldPerfTest(): void {
             res = fieldNum.getType()
         }
         let Dtime = new Date().getTime() - Stime;
-        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         let res1 = res;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_getType_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'getType',
             'getType(): Type', arkTsAveragedTime);
@@ -76,8 +77,8 @@ export default function FieldPerfTest(): void {
         res = field.getOwnerType();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_getOwnerType_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'getOwnerType',
         'getOwnerType(): Type', arkTsAveragedTime);
@@ -93,8 +94,8 @@ export default function FieldPerfTest(): void {
         res = field.getName();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_getName_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'getName',
         'getName(): String', arkTsAveragedTime);
@@ -110,29 +111,29 @@ export default function FieldPerfTest(): void {
         res = field.getAttributes();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_getAttributes_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'getAttributes',
         'getAttributes(): int', arkTsAveragedTime);
     })
 
 
-    // it('PerformanceTest_Field_getAccessModifier_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-    //   let classType: ClassType = Type.of(new MyClass()) as ClassType;
-    //   let field: Field = classType.getField(0); 
-    //   let res: int = field.getAccessModifier();
-    //   let Stime = new Date().getTime();
-    //   for (let i = 0; i < BASE_COUNT; i++) {
-    //     res = field.getAccessModifier();
-    //   }
-    //   let Dtime = new Date().getTime() - Stime;
-    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-    //   let res1 = res;
-    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_getAccessModifier_0100: ' + arkTsAveragedTime + 'ns');
-    //   performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'getAccessModifier',
-    //     'getAccessModifier(): int', arkTsAveragedTime);
-    // })
+    it('PerformanceTest_Field_getAccessModifier_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let classType: ClassType = Type.of(new MyClass()) as ClassType;
+      let field: Field = classType.getField(0);
+      let res = field.getAccessModifier();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = field.getAccessModifier();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_getAccessModifier_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'getAccessModifier',
+        'getAccessModifier(): byte', arkTsAveragedTime);
+    })
 
 
     // it('PerformanceTest_Field_getStaticValue_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -176,8 +177,8 @@ export default function FieldPerfTest(): void {
         res = field.isStatic();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_isStatic_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'isStatic',
         'isStatic(): boolean', arkTsAveragedTime);
@@ -193,8 +194,8 @@ export default function FieldPerfTest(): void {
         res = field.isReadonly();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_isReadonly_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'isReadonly',
         'isReadonly(): boolean', arkTsAveragedTime);
@@ -210,8 +211,8 @@ export default function FieldPerfTest(): void {
         res = field.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_toString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -228,8 +229,8 @@ export default function FieldPerfTest(): void {
         res = field1.equals(field2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Field_equals_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Field', 'equals',
         'equals(oth: Any): boolean', arkTsAveragedTime);

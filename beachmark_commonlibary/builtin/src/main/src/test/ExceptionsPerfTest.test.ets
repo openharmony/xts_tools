@@ -26,12 +26,13 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
-import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 export default function ExceptionsPerfTest(): void {
   describe('ExceptionsPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -53,8 +54,8 @@ export default function ExceptionsPerfTest(): void {
         res = new NoDataError();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_NoDataError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'NoDataError', 'constructor',
         'function constructor()', arkTsAveragedTime);
@@ -67,9 +68,24 @@ export default function ExceptionsPerfTest(): void {
         res = new NoDataError("No data available");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_NoDataError_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'NoDataError', 'constructor',
+        'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_NoDataError_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: NoDataError = new NoDataError();
+      let errObj = new Error("cause");
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new NoDataError("No data available", { cause: errObj });
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_NoDataError_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'NoDataError', 'constructor',
         'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })
@@ -82,8 +98,8 @@ export default function ExceptionsPerfTest(): void {
         res = new ArgumentOutOfRangeError();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArgumentOutOfRangeError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ArgumentOutOfRangeError', 'constructor',
         'function constructor()', arkTsAveragedTime);
@@ -96,9 +112,24 @@ export default function ExceptionsPerfTest(): void {
         res = new ArgumentOutOfRangeError("Argument is out of range");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArgumentOutOfRangeError_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'ArgumentOutOfRangeError', 'constructor',
+        'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_ArgumentOutOfRangeError_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: ArgumentOutOfRangeError = new ArgumentOutOfRangeError();
+      let errObj = new Error("cause");
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new ArgumentOutOfRangeError("Argument is out of range", { cause: errObj });
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArgumentOutOfRangeError_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'ArgumentOutOfRangeError', 'constructor',
         'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })
@@ -111,8 +142,8 @@ export default function ExceptionsPerfTest(): void {
         res = new IllegalStateError();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_IllegalStateError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'IllegalStateError', 'constructor',
         'function constructor()', arkTsAveragedTime);
@@ -125,9 +156,24 @@ export default function ExceptionsPerfTest(): void {
         res = new IllegalStateError("Illegal state occurred");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_IllegalStateError_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'IllegalStateError', 'constructor',
+        'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_IllegalStateError_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: IllegalStateError = new IllegalStateError();
+      let errObj = new Error("cause");
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new IllegalStateError("Illegal state occurred", { cause: errObj });
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_IllegalStateError_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'IllegalStateError', 'constructor',
         'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })
@@ -140,8 +186,8 @@ export default function ExceptionsPerfTest(): void {
         res = new UnsupportedOperationError();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UnsupportedOperationError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'UnsupportedOperationError', 'constructor',
         'function constructor()', arkTsAveragedTime);
@@ -154,9 +200,24 @@ export default function ExceptionsPerfTest(): void {
         res = new UnsupportedOperationError("Operation not supported");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UnsupportedOperationError_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'UnsupportedOperationError', 'constructor',
+        'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_UnsupportedOperationError_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: UnsupportedOperationError = new UnsupportedOperationError();
+      let errObj = new Error("cause");
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new UnsupportedOperationError("Operation not supported", { cause: errObj });
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UnsupportedOperationError_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'UnsupportedOperationError', 'constructor',
         'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })
@@ -169,8 +230,8 @@ export default function ExceptionsPerfTest(): void {
         res = new IllegalArgumentError();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_IllegalArgumentError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'IllegalArgumentError', 'constructor',
         'function constructor()', arkTsAveragedTime);
@@ -183,9 +244,24 @@ export default function ExceptionsPerfTest(): void {
         res = new IllegalArgumentError("Illegal argument provided");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_IllegalArgumentError_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'IllegalArgumentError', 'constructor',
+        'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_IllegalArgumentError_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: IllegalArgumentError = new IllegalArgumentError();
+      let errObj = new Error("cause");
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new IllegalArgumentError("Illegal argument provided", { cause: errObj });
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_IllegalArgumentError_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'IllegalArgumentError', 'constructor',
         'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })
@@ -198,8 +274,8 @@ export default function ExceptionsPerfTest(): void {
         res = new RuntimeError();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RuntimeError_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RuntimeError', 'constructor',
         'function constructor()', arkTsAveragedTime);
@@ -212,9 +288,24 @@ export default function ExceptionsPerfTest(): void {
         res = new RuntimeError("Runtime error occurred");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RuntimeError_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'RuntimeError', 'constructor',
+        'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_RuntimeError_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: RuntimeError = new RuntimeError();
+      let errObj = new Error("cause");
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new RuntimeError("Runtime error occurred", { cause: errObj });
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RuntimeError_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'RuntimeError', 'constructor',
         'function constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
     })

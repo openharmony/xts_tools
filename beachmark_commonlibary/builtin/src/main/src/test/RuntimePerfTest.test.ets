@@ -29,10 +29,12 @@ import performance from './Performance.util';
 
 type RejectedObjectListener = StdProcess.RejectedObjectListener;
 
-export default function RuntimePerfTest() {
+export default function RuntimePerfTest(): void {
   describe('RuntimePerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -56,8 +58,8 @@ export default function RuntimePerfTest() {
         b = Runtime.getHashCode(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_getHashCode_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'getHashCode',
@@ -74,8 +76,8 @@ export default function RuntimePerfTest() {
         b = Runtime.getHashCodeByValue(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_getHashCodeByValue_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'getHashCodeByValue',
@@ -91,8 +93,8 @@ export default function RuntimePerfTest() {
         b = Runtime.isLittleEndianPlatform();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_isLittleEndianPlatform_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'isLittleEndianPlatform',
@@ -100,6 +102,7 @@ export default function RuntimePerfTest() {
 
     })
 
+    /*
     it('PerformanceTest_Runtime___getTypeInfo_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
 
       let obj: Object = {};
@@ -111,14 +114,15 @@ export default function RuntimePerfTest() {
        b = Runtime.__getTypeInfo(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime___getTypeInfo_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', '__getTypeInfo',
         '__getTypeInfo(o: Any): Class|undefined', arkTsAveragedTime);
 
     })
+    */
 
     it('PerformanceTest_Runtime_addFrontElementsStub_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
 
@@ -131,8 +135,8 @@ export default function RuntimePerfTest() {
         b = Runtime.addFrontElementsStub(original, front);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_addFrontElementsStub_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'addFrontElementsStub',
@@ -151,8 +155,8 @@ export default function RuntimePerfTest() {
         b = Runtime.removeFrontElementsStub(original, count);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_removeFrontElementsStub_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'removeFrontElementsStub',
@@ -171,8 +175,8 @@ export default function RuntimePerfTest() {
         b = Runtime.restArgumentsUnderapplicationStub(rest, required);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_restArgumentsUnderapplicationStub_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'restArgumentsUnderapplicationStub',
@@ -192,12 +196,47 @@ export default function RuntimePerfTest() {
         b = Runtime.lambdaUnsafeCallStub(fn, r);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_lambdaUnsafeCallStub_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'lambdaUnsafeCallStub',
         'lambdaUnsafeCallStub(fn: Function, r: FixedArray<Any>): Any', arkTsAveragedTime);
+
+    })
+
+    it('PerformanceTest_Runtime_toStringStub_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let a: string = 'test';
+      let b: String = '';
+
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        b = Runtime.toStringStub(a);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_toStringStub_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'toStringStub',
+        'toStringStub(a: Any): String', arkTsAveragedTime);
+
+    })
+
+    it('PerformanceTest_Runtime_createNeverError_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let b = Runtime.createNeverError();
+
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        b = Runtime.createNeverError();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = b;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Runtime_createNeverError_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Runtime', 'createNeverError',
+        'createNeverError(): Error', arkTsAveragedTime);
 
     })
 

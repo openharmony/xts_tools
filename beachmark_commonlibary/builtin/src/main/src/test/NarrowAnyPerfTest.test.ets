@@ -27,10 +27,12 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function __narrowAnyPerfTest() {
-  describe('__narrowAnyPerfTest', () => {
+export default function NarrowAnyPerfTest(): void {
+  describe('NarrowAnyPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -52,8 +54,8 @@ export default function __narrowAnyPerfTest() {
           result = __narrowAny(v);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest___narrowAny___narrowAny_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', '__narrowAny', '__narrowAny',

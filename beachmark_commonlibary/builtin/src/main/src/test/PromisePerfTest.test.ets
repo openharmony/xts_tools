@@ -57,8 +57,8 @@ function promiseFinallyReturnZero(): int {
 export default function PromisePerfTest(): void {
   describe('PromisePerfTest', () => {
     const BASE_COUNT_PROMISE = 5000;
-    const BASE_COUNT_PROMISE_MIX = 200;
     const UNIT_TIME = 1000000;
+    const BASE_COUNT_PROMISE_MIX = 200;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -452,9 +452,9 @@ export default function PromisePerfTest(): void {
 
     it('PerformanceTest_Promise_All_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let promises: Array<Promise<int>> = [];
-        promises[0] = Promise.resolve<int>(1);
-        promises[1] = Promise.resolve<int>(2);
+        let promises: Array<Promise<int>> = new Array<Promise<int>>();
+        promises.push(Promise.resolve<int>(1));
+        promises.push(Promise.resolve<int>(2));
         let result: Promise<Array<int>> | undefined = undefined;
         let Stime = new Date().getTime();
 
@@ -504,9 +504,9 @@ export default function PromisePerfTest(): void {
 
     it('PerformanceTest_Promise_AllSettled_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let promises: Array<Promise<int>> = [];
-        promises[0] = Promise.resolve<int>(1);
-        promises[1] = Promise.resolve<int>(2);
+        let promises: Array<Promise<int>> = new Array<Promise<int>>();
+        promises.push(Promise.resolve<int>(1));
+        promises.push(Promise.resolve<int>(2));
         let result: Promise<PromiseSettledResult<int>[]> | undefined = undefined;
         let Stime = new Date().getTime();
 
@@ -556,9 +556,9 @@ export default function PromisePerfTest(): void {
 
     it('PerformanceTest_Promise_Any_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let promises: Array<Promise<int>> = [];
-        promises[0] = Promise.resolve<int>(1);
-        promises[1] = Promise.resolve<int>(2);
+        let promises: Array<Promise<int>> = new Array<Promise<int>>();
+        promises.push(Promise.resolve<int>(1));
+        promises.push(Promise.resolve<int>(2));
         let result: Promise<int> | undefined = undefined;
         let Stime = new Date().getTime();
 
@@ -608,9 +608,9 @@ export default function PromisePerfTest(): void {
 
     it('PerformanceTest_Promise_Race_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let promises: Array<Promise<int>> = [];
-        promises[0] = Promise.resolve<int>(1);
-        promises[1] = Promise.resolve<int>(2);
+        let promises: Array<Promise<int>> = new Array<Promise<int>>();
+        promises.push(Promise.resolve<int>(1));
+        promises.push(Promise.resolve<int>(2));
         let result: Promise<int> | undefined = undefined;
         let Stime = new Date().getTime();
 
@@ -652,6 +652,268 @@ export default function PromisePerfTest(): void {
           'Promise',
           'awaitResolution',
           'awaitResolution(): T',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_Promise_AwaitSync_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let promise: Promise<int> = Promise.resolve<int>(1);
+        let result: int = 0;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT_PROMISE_MIX; i++) {
+          result = promise.awaitSync();
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_PROMISE_MIX;
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_AwaitSync_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'Promise',
+          'awaitSync',
+          'awaitSync(): T',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_PromiseWithResolvers_Constructor_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: PromiseWithResolvers<int> | undefined = undefined;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT_PROMISE_MIX; i++) {
+          result = new PromiseWithResolvers<int>();
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_PROMISE_MIX;
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PromiseWithResolvers_Constructor_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'PromiseWithResolvers',
+          'constructor',
+          'constructor()',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_PromiseWithResolvers_promise_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let withResolvers: PromiseWithResolvers<int> = new PromiseWithResolvers<int>();
+        let result: Promise<int> | undefined = undefined;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT_PROMISE_MIX; i++) {
+          result = withResolvers.promise;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_PROMISE_MIX;
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PromiseWithResolvers_promise_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'PromiseWithResolvers',
+          'promise',
+          'readonly promise: Promise<T>',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_PromiseWithResolvers_resolve_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let withResolvers: PromiseWithResolvers<int> = new PromiseWithResolvers<int>();
+        let resolveFn: (value: int | PromiseLike<int>) => void = withResolvers.resolve;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT_PROMISE_MIX; i++) {
+          resolveFn(1);
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = resolveFn;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_PROMISE_MIX;
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PromiseWithResolvers_resolve_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'PromiseWithResolvers',
+          'resolve',
+          'readonly resolve: (value: T | PromiseLike<T>) => void',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_PromiseWithResolvers_reject_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let withResolvers: PromiseWithResolvers<int> = new PromiseWithResolvers<int>();
+        let rejectFn: (error: Error) => void = withResolvers.reject;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT_PROMISE_MIX; i++) {
+          rejectFn(new Error('test'));
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = rejectFn;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_PROMISE_MIX;
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PromiseWithResolvers_reject_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'PromiseWithResolvers',
+          'reject',
+          'readonly reject: (error: Error) => void',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_PromiseStatus_fulfilled_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: string = '';
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT_PROMISE; i++) {
+          result = PromiseStatus.fulfilled;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_PROMISE;
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PromiseStatus_fulfilled_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'PromiseStatus',
+          'fulfilled',
+          'static readonly fulfilled: string',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_PromiseStatus_rejected_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let result: string = '';
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT_PROMISE; i++) {
+          result = PromiseStatus.rejected;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_PROMISE;
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PromiseStatus_rejected_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'PromiseStatus',
+          'rejected',
+          'static readonly rejected: string',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_PromiseFulfilledResult_status_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let resultObj: PromiseFulfilledResult<int> = new PromiseFulfilledResult<int>(1);
+        let result: string = '';
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT_PROMISE; i++) {
+          result = resultObj.status;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_PROMISE;
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PromiseFulfilledResult_status_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'PromiseFulfilledResult',
+          'status',
+          'status: string',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_PromiseFulfilledResult_value_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let resultObj: PromiseFulfilledResult<int> = new PromiseFulfilledResult<int>(1);
+        let result: int = 0;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT_PROMISE; i++) {
+          result = resultObj.value;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_PROMISE;
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PromiseFulfilledResult_value_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'PromiseFulfilledResult',
+          'value',
+          'value: T',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_PromiseRejectedResult_status_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let resultObj: PromiseRejectedResult = new PromiseRejectedResult(new Error('test'));
+        let result: string = '';
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT_PROMISE; i++) {
+          result = resultObj.status;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_PROMISE;
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PromiseRejectedResult_status_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'PromiseRejectedResult',
+          'status',
+          'status: string',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_PromiseRejectedResult_reason_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let error: Error = new Error('test');
+        let resultObj: PromiseRejectedResult = new PromiseRejectedResult(error);
+        let result: Error | undefined = undefined;
+        let Stime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT_PROMISE; i++) {
+          result = resultObj.reason;
+        }
+
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_PROMISE;
+
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PromiseRejectedResult_reason_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'PromiseRejectedResult',
+          'reason',
+          'reason: Error',
           arkTsAveragedTime
         );
       });

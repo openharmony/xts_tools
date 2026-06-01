@@ -29,7 +29,10 @@ import performance from './Performance.util';
 
 export default function WeakSetPerfTest(): void {
   describe('WeakSetPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -50,10 +53,15 @@ export default function WeakSetPerfTest(): void {
     it('PerformanceTest_WeakSet_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let set = new WeakSet<Object>();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { set = new WeakSet<Object>(); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'constructor', 'constructor()', arkTsAveragedTime);
+      for (let i = 0; i < BASE_COUNT; i++) {
+        set = new WeakSet<Object>();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = set;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_Constructor_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'constructor',
+        'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_WeakSet_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -61,10 +69,15 @@ export default function WeakSetPerfTest(): void {
       let arr: Object[] = [obj];
       let set = new WeakSet<Object>(arr);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { set = new WeakSet<Object>(arr); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'constructor', 'constructor(elements?: K[] | null)', arkTsAveragedTime);
+      for (let i = 0; i < BASE_COUNT; i++) {
+        set = new WeakSet<Object>(arr);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = set;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'constructor',
+        'constructor(elements?: K[] | null)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_WeakSet_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -72,10 +85,15 @@ export default function WeakSetPerfTest(): void {
       let entries: Array<Object> = [obj];
       let set = new WeakSet<Object>(entries as Iterable<Object>);
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { set = new WeakSet<Object>(entries as Iterable<Object>); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _set = set;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'constructor', 'constructor(elements: Iterable<K>)', arkTsAveragedTime);
+      for (let i = 0; i < BASE_COUNT; i++) {
+        set = new WeakSet<Object>(entries as Iterable<Object>);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = set;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_Constructor_0300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'constructor',
+        'constructor(elements: Iterable<K>)', arkTsAveragedTime);
     })
 
     // ================================================================
@@ -86,10 +104,15 @@ export default function WeakSetPerfTest(): void {
       let ws = new WeakSet<Object>();
       let obj = new Object();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { ws.add(obj); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _ws=ws;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'add', 'add(v: K): WeakSet<K>', arkTsAveragedTime);
+      for (let i = 0; i < BASE_COUNT; i++) {
+        ws.add(obj);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = ws;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_Add_0400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'add',
+        'add(v: K): WeakSet<K>', arkTsAveragedTime);
     })
 
     it('PerformanceTest_WeakSet_Has_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -98,35 +121,52 @@ export default function WeakSetPerfTest(): void {
       ws.add(obj);
       let res: boolean = false;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = ws.has(obj); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _ws=ws;
-      let _res = res;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'has', 'has(v: K): boolean', arkTsAveragedTime);
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = ws.has(obj);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_Has_0500: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'has',
+        'has(v: K): boolean', arkTsAveragedTime);
     })
 
+    //并发格式不规范
     it('PerformanceTest_WeakSet_Delete_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let ws = new WeakSet<Object>();
       let objects: Object[] = [];
-      for (let i = 0; i < BASE_COUNT; i++) {let obj = new Object();objects.push(obj);ws.add(obj);}
+      for (let i = 0; i < BASE_COUNT; i++) {
+        let obj = new Object();
+        objects.push(obj);
+        ws.add(obj);
+      }
       let res: boolean = false;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = ws.delete(objects[i]); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _ws=ws;
-      let _res = res;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'delete', 'delete(v: K): boolean', arkTsAveragedTime);
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = ws.delete(objects[i]);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_Delete_0600: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'delete',
+        'delete(v: K): boolean', arkTsAveragedTime);
     })
 
     it('PerformanceTest_WeakSet_ToString_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let ws = new WeakSet<Object>();
       let res: String = new String("");
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = ws.toString(); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _ws=ws;
-      let _res = res;
-      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'toString', 'toString(): String', arkTsAveragedTime);
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = ws.toString();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_ToString_0700: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'toString',
+        'toString(): String', arkTsAveragedTime);
     })
 
   })

@@ -24,8 +24,6 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-const BASE_COUNT = 50000;
-const UNIT_TIME = 1000000;
 
 function replaceWithEts(substr: String, args: Object[]): String {
   return "ets";
@@ -33,6 +31,12 @@ function replaceWithEts(substr: String, args: Object[]): String {
 
 export default function RegExpPerfTest(): void {
   describe('RegExpPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
+    const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
+    const UNIT_TIME = 1000000;
+
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
@@ -1235,6 +1239,78 @@ export default function RegExpPerfTest(): void {
           'RegExpExecArray',
           'input',
           'set input(val: String): void',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_RegExp_lastIndex_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let re: RegExp = new RegExp("arkts", "g");
+        let result: int = 0;
+        let sTime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = re.lastIndex;
+        }
+
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_lastIndex_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'RegExp',
+          'lastIndex',
+          'lastIndex: int',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_RegExpResultArray_isCorrect_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let arr: RegExpResultArray = new RegExpResultArray(0, "arkts", ["arkts", "ark"], [[0, 5], [0, 3]]);
+        let result: boolean = arr.isCorrect;
+        let sTime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = arr.isCorrect;
+        }
+
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExpResultArray_isCorrect_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'RegExpResultArray',
+          'isCorrect',
+          'readonly isCorrect: boolean',
+          arkTsAveragedTime
+        );
+      });
+
+    it('PerformanceTest_RegExpResultArray_groups_0100',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let arr: RegExpResultArray = new RegExpResultArray(0, "arkts", ["arkts", "ark"], [[0, 5], [0, 3]]);
+        let result: Object | undefined = arr.groups;
+        let sTime = new Date().getTime();
+
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = arr.groups;
+        }
+
+        let dTime = new Date().getTime() - sTime;
+        let res1 = result;
+        let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExpResultArray_groups_0100: '
+          + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt(
+          'std.core',
+          'RegExpResultArray',
+          'groups',
+          'groups: RegExpGroupsContainer | undefined',
           arkTsAveragedTime
         );
       });

@@ -28,10 +28,14 @@ import {
 import performance from './Performance.util';
 
 
-export default function AsyncLockManagerPerfTest() {
+export default function AsyncLockManagerPerfTest() : void{
   describe('AsyncLockManagerPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
+
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -53,7 +57,7 @@ export default function AsyncLockManagerPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res = result
+      let res1 = result
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockState', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -69,7 +73,7 @@ export default function AsyncLockManagerPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res = result
+      let res1 = result
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockState', 'constructor',
         'constructor(heldSet: Set<AsyncLockInfo>, pending: Set<AsyncLockInfo>)', arkTsAveragedTime);
@@ -83,7 +87,7 @@ export default function AsyncLockManagerPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res = result
+      let res1 = result
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockInfo', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -97,7 +101,7 @@ export default function AsyncLockManagerPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res = result
+      let res1 = result
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockInfo', 'constructor',
         'constructor(id: string, mode: AsyncLockMode, priority: int)', arkTsAveragedTime);
@@ -112,7 +116,7 @@ export default function AsyncLockManagerPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res = result
+      let res1 = result
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockOptions', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -126,10 +130,115 @@ export default function AsyncLockManagerPerfTest() {
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res = result
+      let res1 = result
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockOptions', 'constructor',
         'constructor(delay?: boolean, timeout?: number, priority?: int)', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_AsyncLockState_Property_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let state = new AsyncLockState()
+      let res = state.held;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = state.held;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = res
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Property_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockState', 'held',
+        'held: AsyncLockInfo[]', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_AsyncLockState_Property_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let state = new AsyncLockState()
+      let res = state.pending;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = state.pending;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Property_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockState', 'pending',
+        'pending: AsyncLockInfo[]', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_AsyncLockInfo_Property_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let info = new AsyncLockInfo("test", AsyncLockMode.EXCLUSIVE, 123)
+      let mode = info.mode;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        mode = info.mode;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = mode
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Property_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockInfo', 'mode',
+        'mode: AsyncLockMode', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_AsyncLockInfo_Property_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let info = new AsyncLockInfo("test", AsyncLockMode.EXCLUSIVE, 123)
+      let contextId = info.contextId;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        contextId = info.contextId;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = contextId
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Property_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockInfo', 'contextId',
+        'contextId: int', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_AsyncLockOptions_Property_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let options = new AsyncLockOptions()
+      let available = options.isAvailable;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        available = options.isAvailable;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = available
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Property_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockOptions', 'isAvailable',
+        'isAvailable: boolean', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_AsyncLockOptions_Property_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let options = new AsyncLockOptions()
+      let signal = options.signal;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        signal = options.signal;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = signal
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Property_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockOptions', 'signal',
+        'signal: AbortSignal<T> | null', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_AsyncLockOptions_Property_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let options = new AsyncLockOptions()
+      let timeout = options.timeout;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        timeout = options.timeout;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res1 = timeout
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Property_0300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockOptions', 'timeout',
+        'timeout: int', arkTsAveragedTime);
     })
   })
 }

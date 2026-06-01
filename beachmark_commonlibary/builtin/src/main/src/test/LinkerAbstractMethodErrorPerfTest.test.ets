@@ -27,10 +27,12 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function LinkerAbstractMethodErrorPerfTest() {
+export default function LinkerAbstractMethodErrorPerfTest(): void {
   describe('LinkerAbstractMethodErrorPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -51,8 +53,8 @@ export default function LinkerAbstractMethodErrorPerfTest() {
         err = new LinkerAbstractMethodError("test message");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = err;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerAbstractMethodError_constructor_0100 : ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerAbstractMethodError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);

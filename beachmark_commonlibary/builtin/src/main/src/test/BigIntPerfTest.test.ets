@@ -203,6 +203,23 @@ export default function BigIntPerfTest(): void {
         'constructor(v: FixedArray<int>, sign: int)', arkTsAveragedTime);
     })
 
+    it('PerformanceTest_BigInt_constructor_ValueArray_sign_1010',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let vArr: ValueArray<int> = [1, 2, 3, 4];
+      let res: BigInt = new BigInt(0);
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new BigInt(vArr, 1);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime constructor(ValueArray<int>, sign): '
+        + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'BigInt', 'constructor',
+        'constructor(v: ValueArray<int>, sign: int)', arkTsAveragedTime);
+    })
+
     it('PerformanceTest_BigInt_fromULong_1100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: BigInt = new BigInt(0);
@@ -455,22 +472,6 @@ export default function BigIntPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime toString(int): ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt', 'toString',
         'toString(radix: int): string', arkTsAveragedTime);
-    })
-
-    it('PerformanceTest_BigInt_toString_double_2700',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: string = '';
-      let bigNum = new BigInt("123456789012345678901234567890");
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-        res = bigNum.toString(16.0 as double);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
-      console.info('arkTsPerformanceTest arkTsAveragedTime toString(double): ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'BigInt', 'toString',
-        'toString(radix?: double): string', arkTsAveragedTime);
     })
 
     it('PerformanceTest_BigInt_toStringAsBinary_2800',

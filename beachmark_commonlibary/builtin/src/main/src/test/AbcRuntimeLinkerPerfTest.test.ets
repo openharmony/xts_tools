@@ -16,25 +16,20 @@
 import {
   describe,
   it,
-  expect,
   TestType,
   Size,
   Level,
-  beforeAll,
-  afterAll,
   beforeEach,
-  afterEach
+  afterAll
 } from "../../../hypium/index";
 import performance from './Performance.util';
-import { uri, util, url, xml, buffer, transfer } from '@kit.ArkTS';
 
 
-export default function AbcRuntimeLinkerPerfTest(): void  {
+export default function AbcRuntimeLinkerPerfTest(): void {
   describe('AbcRuntimeLinkerPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
-    // AbcRuntimeLinker.constructor --AbcRuntimeLinker.addAbcFiles
-    const BASE_COUNT_SMALL = 200;
-    const BASE_COUNT_MEDIUM = 1000;
+    // const BASE_COUNT = 50000;
+    const BASE_COUNT = 1000; //这个数量太大 app会被杀死
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -48,45 +43,55 @@ export default function AbcRuntimeLinkerPerfTest(): void  {
       performance.save('apiPerformance.txt');
     })
 
+    // ========== constructor(parentLinker, paths) ==========
     it('PerformanceTest_AbcRuntimeLinker_constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res =new AbcRuntimeLinker(undefined, ['/data/test.abc']);
-
-        let Stime = new Date().getTime();
-      
-        for (let i = 0; i < BASE_COUNT_SMALL; i++) {
-          res = new AbcRuntimeLinker(undefined, ['/data/test.abc']);
-        }
+      let paths: string[] = [];
+      let res = new AbcRuntimeLinker(undefined, paths);
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new AbcRuntimeLinker(undefined, paths);
+      }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_SMALL;
       let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcRuntimeLinker_constructor_0100: ' + arkTsAveragedTime + 'ns');
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcRuntimeLinker_constructor_0100: '
+        + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'AbcRuntimeLinker', 'constructor',
         'constructor(parentLinker: RuntimeLinker | undefined, paths: string[])', arkTsAveragedTime);
     })
 
+    // ========== constructor(parentLinker, paths, sharedLibraryLoaders) ==========
     it('PerformanceTest_AbcRuntimeLinker_constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res= new AbcRuntimeLinker(undefined, ['/data/test.abc'], []);
-        let Stime = new Date().getTime();
-        for (let i = 0; i < BASE_COUNT_SMALL; i++) {
-          res = new AbcRuntimeLinker(undefined, ['/data/test.abc'], []);
-        }
+      let paths: string[] = [];
+      let loaders: AbcRuntimeLinker[] = [];
+      let res = new AbcRuntimeLinker(undefined, paths, loaders);
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new AbcRuntimeLinker(undefined, paths, loaders);
+      }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_SMALL;
       let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcRuntimeLinker_constructor_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'AbcRuntimeLinker', 'constructor','constructor(parentLinker: RuntimeLinker | undefined, paths: string[], sharedLibraryLoaders: AbcRuntimeLinker[])', arkTsAveragedTime);
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcRuntimeLinker_constructor_0200: '
+        + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'AbcRuntimeLinker', 'constructor',
+        'constructor(parentLinker: RuntimeLinker | undefined, paths: string[], sharedLibraryLoaders: AbcRuntimeLinker[])',
+        arkTsAveragedTime);
     })
 
+    // ========== addAbcFiles(paths: string[]): void ==========
     it('PerformanceTest_AbcRuntimeLinker_addAbcFiles_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let linker =new AbcRuntimeLinker(undefined, []);
-        let Stime = new Date().getTime();
-        for (let i = 0; i < BASE_COUNT_MEDIUM; i++) {
-          linker.addAbcFiles(['/data/test.abc']);
-        }
+      let linker = new AbcRuntimeLinker(undefined, []);
+      let paths: string[] = [];
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        linker.addAbcFiles(paths);
+      }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT_MEDIUM;
       let res1 = linker;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcRuntimeLinker_addAbcFiles_0300: ' + arkTsAveragedTime + 'ns');
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AbcRuntimeLinker_addAbcFiles_0300: '
+        + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'AbcRuntimeLinker', 'addAbcFiles',
         'addAbcFiles(paths: string[]): void', arkTsAveragedTime);
     })

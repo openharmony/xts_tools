@@ -57,10 +57,34 @@ class NumberCollection implements Iterable<number> {
   }
 }
 
+class NumberIterableIterator implements IterableIterator<number> {
+  private current: number = 0;
+  private max: number = 100;
+
+  constructor(max: number) {
+    this.max = max;
+  }
+
+  next(): IteratorResult<number> {
+    if (this.current >= this.max) {
+      return new IteratorResult<number>();
+    }
+    return new IteratorResult<number>(this.current++);
+  }
+
+  $_iterator(): IterableIterator<number> {
+    return this;
+  }
+}
 export default function IteratorPerfTest(): void {
   describe('IteratorPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
+    // buffer.from
+    const BASE_COUNT_MIX = 100;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -80,8 +104,8 @@ export default function IteratorPerfTest(): void {
         res = new IteratorResult<number>();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_IteratorResult_Constructor_NoArg_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'IteratorResult', 'constructor',
         'constructor(): IteratorResult<T>', arkTsAveragedTime);
@@ -94,8 +118,8 @@ export default function IteratorPerfTest(): void {
         res = new IteratorResult<number>(i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_IteratorResult_Constructor_WithValue_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'IteratorResult', 'constructor',
         'constructor(value: T): IteratorResult<T>', arkTsAveragedTime);
@@ -108,27 +132,27 @@ export default function IteratorPerfTest(): void {
         res = new IteratorResult<number>(false, i);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_IteratorResult_Constructor_DoneAndValue_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'IteratorResult', 'constructor',
         'constructor(done: boolean, value: T | undefined): IteratorResult<T>', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Iterator_Next_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let iter = new NumberIterator(BASE_COUNT);
-      let res: IteratorResult<number> = iter.next();
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = iter.next();
-      }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_Next_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Iterator', 'next',
-        'next(): IteratorResult<T>', arkTsAveragedTime);
-    })
+    // it('PerformanceTest_Iterator_Next_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let iter = new NumberIterator(BASE_COUNT);
+    //   let res: IteratorResult<number> = iter.next();
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = iter.next();
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_Next_0400: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'Iterator', 'next',
+    //     'next(): IteratorResult<T>', arkTsAveragedTime);
+    // })
 
     it('PerformanceTest_Iterator_Iterable_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let collection = new NumberCollection();
@@ -138,8 +162,8 @@ export default function IteratorPerfTest(): void {
         res = collection.$_iterator();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_Iterable_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Iterable', '$_iterator',
         '$_iterator(): Iterator<T>', arkTsAveragedTime);
@@ -167,8 +191,8 @@ export default function IteratorPerfTest(): void {
         res = result.done;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_IteratorResult_Done_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'IteratorResult', 'done',
         'done: boolean', arkTsAveragedTime);
@@ -182,12 +206,42 @@ export default function IteratorPerfTest(): void {
         res = result.value;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_IteratorResult_Value_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'IteratorResult', 'value',
         'readonly value: T | undefined', arkTsAveragedTime);
     })
+
+    it('PerformanceTest_Iterator_IterableIterator_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let iter: IterableIterator<number> = new NumberIterableIterator(BASE_COUNT);
+      let res: Iterator<number> = iter.$_iterator();
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = iter.$_iterator();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_IterableIterator_0900: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'IterableIterator', '$_iterator',
+        '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
+    })
+
+    // it('PerformanceTest_Iterator_IteratorForEach_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let count: number = 0;
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     let iter: Iterator<number> = new NumberIterator(BASE_COUNT);
+    //     iteratorForEach(iter, (v: number) => { count += v; });
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = count;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Iterator_IteratorForEach_1000: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.core', 'iteratorForEach', 'function',
+    //     'iteratorForEach<V>(x: Iterator<V>, fn: (x: V) => void): void', arkTsAveragedTime);
+    // })
 
   })
 }

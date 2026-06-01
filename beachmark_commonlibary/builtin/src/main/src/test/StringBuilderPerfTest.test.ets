@@ -27,12 +27,6 @@ import performance from './Performance.util';
 const BASE_COUNT = 50000;
 const UNIT_TIME = 1000000;
 
-function recordPerformance(caseName: string, className: string, apiName: string, signature: string, dTime: long): void {
-  let arkTsAveragedTime = dTime.toDouble() * UNIT_TIME / BASE_COUNT;
-  console.info('arkTsPerformanceTest arkTsAveragedTime ' + caseName + ': ' + arkTsAveragedTime + 'ns');
-  performance.apiWithClassAndKeywordTxt('std.core', className, apiName, signature, arkTsAveragedTime);
-}
-
 function toByteValue(value: int): byte {
   return value.toByte();
 }
@@ -61,6 +55,14 @@ function createCharArray(): char[] {
   return [c'a', c'b', c'c'] as char[];
 }
 
+function createValueArrayChar(): ValueArray<char> {
+  let arr: ValueArray<char> = GC.allocatePinnedCharArray(3);
+  arr[0] = c'a';
+  arr[1] = c'b';
+  arr[2] = c'c';
+  return arr;
+}
+
 function createObjectValue(): Object {
   return new Object();
 }
@@ -73,16 +75,17 @@ function createBuilderWithTestString(): StringBuilder {
 
 export default function StringBuilderPerfTest(): void {
   describe('StringBuilderPerfTest', () => {
+
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
       let ret1 = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret1);
-    });
+    })
 
     afterAll(() => {
       performance.save('apiPerformance.txt');
-    });
+    })
 
     it('PerformanceTest_StringBuilder_constructor_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -94,8 +97,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_constructor_0100', 'StringBuilder', 'constructor',
-          'constructor()', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder constructor: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'constructor',
+          'constructor()', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_constructor_0200',
@@ -109,8 +114,27 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_constructor_0200', 'StringBuilder', 'constructor',
-          'constructor(fromChars: FixedArray<char>)', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder constructor: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'constructor',
+          'constructor(fromChars: FixedArray<char>)', arkTsAveragedTime);
+      });
+
+    it('PerformanceTest_StringBuilder_constructor_0250',
+      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+        let fromChars: ValueArray<char> = createValueArrayChar();
+        let result = new StringBuilder(fromChars);
+
+        let Stime = new Date().getTime();
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = new StringBuilder(fromChars);
+        }
+        let Dtime = new Date().getTime() - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder constructor: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'constructor',
+          'constructor(fromChars: ValueArray<char>)', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_constructor_0300',
@@ -124,8 +148,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_constructor_0300', 'StringBuilder', 'constructor',
-          'constructor(fromChars: char[])', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder constructor: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'constructor',
+          'constructor(fromChars: char[])', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_constructor_0400',
@@ -139,8 +165,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_constructor_0400', 'StringBuilder', 'constructor',
-          'constructor(s: String)', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder constructor: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'constructor',
+          'constructor(s: String)', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_stringLength_0100',
@@ -154,8 +182,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_stringLength_0100', 'StringBuilder', 'stringLength',
-          'get stringLength(): int', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder stringLength: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'stringLength',
+          'get stringLength(): int', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_concatStrings_0100',
@@ -170,168 +200,220 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_concatStrings_0100', 'StringBuilder', 'concatStrings',
-          'static concatStrings(lhs: String, rhs: String): String', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder concatStrings: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'concatStrings',
+          'static concatStrings(lhs: String, rhs: String): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_append_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testStr: String = createStringValue("test");
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testStr);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testStr);
+          result = pool[i].append(testStr);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_append_0100', 'StringBuilder', 'append',
-          'append(s: String): StringBuilder', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder append: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'append',
+          'append(s: String): StringBuilder', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_append_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: boolean = true;
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_append_0200', 'StringBuilder', 'append',
-          'append(i: boolean): StringBuilder', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder append: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'append',
+          'append(i: boolean): StringBuilder', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_append_0300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: byte = toByteValue(127);
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_append_0300', 'StringBuilder', 'append',
-          'append(i: byte): StringBuilder', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder append: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'append',
+          'append(i: byte): StringBuilder', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_append_0400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: char = c'a';
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_append_0400', 'StringBuilder', 'append',
-          'append(i: char): StringBuilder', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder append: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'append',
+          'append(i: char): StringBuilder', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_append_0500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: short = toShortValue(32767);
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_append_0500', 'StringBuilder', 'append',
-          'append(i: short): StringBuilder', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder append: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'append',
+          'append(i: short): StringBuilder', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_append_0600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: int = 2147483647;
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_append_0600', 'StringBuilder', 'append',
-          'append(i: int): StringBuilder', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder append: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'append',
+          'append(i: int): StringBuilder', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_append_0700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: long = toLongValue(123456789);
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_append_0700', 'StringBuilder', 'append',
-          'append(i: long): StringBuilder', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder append: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'append',
+          'append(i: long): StringBuilder', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_append_0800',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: float = toFloatValue(3.14159);
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_append_0800', 'StringBuilder', 'append',
-          'append(i: float): StringBuilder', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder append: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'append',
+          'append(i: float): StringBuilder', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_append_0900',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testValue: double = 3.141592653589793;
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testValue);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testValue);
+          result = pool[i].append(testValue);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_append_0900', 'StringBuilder', 'append',
-          'append(i: double): StringBuilder', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder append: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'append',
+          'append(i: double): StringBuilder', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_append_1000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let testObj: Object = createObjectValue();
-        let sb = new StringBuilder();
+        let pool: StringBuilder[] = new Array<StringBuilder>();
+        for (let j = 0; j < BASE_COUNT; j++) {
+          pool[j] = new StringBuilder();
+        }
         let result: StringBuilder = new StringBuilder().append(testObj);
 
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
-          result = sb.append(testObj);
+          result = pool[i].append(testObj);
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_append_1000', 'StringBuilder', 'append',
-          'append(o: Object): StringBuilder', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder append: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'append',
+          'append(o: Object): StringBuilder', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_toString_0100',
@@ -345,8 +427,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_toString_0100', 'StringBuilder', 'toString',
-          'override toString(): String', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder toString: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'toString',
+          'override toString(): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_toString_0200',
@@ -360,8 +444,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_toString_0200', 'StringBuilder', 'toString',
-          'static toString(i: boolean): String', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder toString: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'toString',
+          'static toString(i: boolean): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_toString_0300',
@@ -375,8 +461,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_toString_0300', 'StringBuilder', 'toString',
-          'static toString(i: byte): String', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder toString: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'toString',
+          'static toString(i: byte): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_toString_0400',
@@ -390,8 +478,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_toString_0400', 'StringBuilder', 'toString',
-          'static toString(i: char): String', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder toString: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'toString',
+          'static toString(i: char): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_toString_0500',
@@ -405,8 +495,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_toString_0500', 'StringBuilder', 'toString',
-          'static toString(i: short): String', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder toString: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'toString',
+          'static toString(i: short): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_toString_0600',
@@ -420,8 +512,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_toString_0600', 'StringBuilder', 'toString',
-          'static toString(i: int): String', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder toString: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'toString',
+          'static toString(i: int): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_toString_0700',
@@ -435,8 +529,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_toString_0700', 'StringBuilder', 'toString',
-          'static toString(i: long): String', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder toString: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'toString',
+          'static toString(i: long): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_toString_0800',
@@ -450,8 +546,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_toString_0800', 'StringBuilder', 'toString',
-          'static toString(f: float): String', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder toString: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'toString',
+          'static toString(f: float): String', arkTsAveragedTime);
       });
 
     it('PerformanceTest_StringBuilder_toString_0900',
@@ -465,8 +563,10 @@ export default function StringBuilderPerfTest(): void {
         }
         let Dtime = new Date().getTime() - Stime;
         let res1 = result;
-        recordPerformance('PerformanceTest_StringBuilder_toString_0900', 'StringBuilder', 'toString',
-          'static toString(d: double): String', Dtime);
+        let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+        console.info('arkTsPerformanceTest StringBuilder toString: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'StringBuilder', 'toString',
+          'static toString(d: double): String', arkTsAveragedTime);
       });
   });
 }

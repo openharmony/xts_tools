@@ -35,8 +35,6 @@ export default function BooleanPerfTest(): void {
     // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
-    // buffer.from
-    const BASE_COUNT_MIX = 100;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -56,11 +54,25 @@ export default function BooleanPerfTest(): void {
          res = new Boolean(true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
         'constructor(value: boolean)', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Boolean_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: Boolean = new Boolean(true);
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new Boolean();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
+        'constructor()', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -70,8 +82,8 @@ export default function BooleanPerfTest(): void {
         res = new Boolean(1 as byte);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
         'constructor(value: byte)', arkTsAveragedTime);
@@ -84,8 +96,8 @@ export default function BooleanPerfTest(): void {
         res = new Boolean(c'A');
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
         'constructor(value: char)', arkTsAveragedTime);
@@ -93,13 +105,14 @@ export default function BooleanPerfTest(): void {
 
     it('PerformanceTest_Boolean_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: Boolean = new Boolean(false);
+      let shortVar = new Short(10);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Boolean(10 as short);
+        res = new Boolean(shortVar);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
         'constructor(value: short)', arkTsAveragedTime);
@@ -109,57 +122,73 @@ export default function BooleanPerfTest(): void {
       let res: Boolean = new Boolean(false);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Boolean(100);
+        res = new Boolean(100 as int);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'constructor(value: number)', arkTsAveragedTime);
+        'constructor(value: int)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: Boolean = new Boolean(false);
+      let numVar = new Number(100);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new Boolean(1000 as long);
+        res = new Boolean(numVar);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'constructor(value: long)', arkTsAveragedTime);
+        'constructor(value: number)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: Boolean = new Boolean(false);
-      let comt = new BigInt(123)
+      let longValue = new Long(1000);
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = new Boolean(longValue);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0800: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
+        'constructor(value: long)', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Boolean_Constructor_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: Boolean = new Boolean(false);
+      let comt = new BigInt(123);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Boolean(comt);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0800: ' + arkTsAveragedTime + 'ns');
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'constructor(value: BigInt)', arkTsAveragedTime);
+        'constructor(value: bigint)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Boolean_Constructor_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Boolean_Constructor_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: Boolean = new Boolean(false);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Boolean(3.14f);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_0900: ' + arkTsAveragedTime + 'ns');
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
-        'function constructor(value: float)', arkTsAveragedTime);
+        'constructor(value: float)', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Constructor_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -169,8 +198,8 @@ export default function BooleanPerfTest(): void {
         res = new Boolean('hello');
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
         'function constructor(value: string)', arkTsAveragedTime);
@@ -183,67 +212,95 @@ export default function BooleanPerfTest(): void {
         res = new Boolean(null);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Constructor_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'constructor',
         'function constructor(value: Object|null|undefined)', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Boolean_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Boolean_Static_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: Boolean = new Boolean(false);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Boolean.TRUE;
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'TRUE|FALSE',
-        'static readonly TRUE: Boolean, static readonly FALSE: Boolean', arkTsAveragedTime);
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_2000: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'TRUE',
+        'static readonly TRUE: Boolean', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Boolean_Static_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Boolean_Static_2010', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: Boolean = new Boolean(true);
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = Boolean.FALSE;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_2010: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'FALSE',
+        'static readonly FALSE: Boolean', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Boolean_Static_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Boolean.toBoolean(true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_0200: ' + arkTsAveragedTime + 'ns');
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'toBoolean',
         'static toBoolean(value: boolean): boolean', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Boolean_Static_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Boolean_Static_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: string = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Boolean.toString(true);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_0400: ' + arkTsAveragedTime + 'ns');
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'toString',
         'static toString(value: boolean): string', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_Boolean_Static_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Boolean_Static_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: boolean = false;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = Boolean.$_invoke();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_0500: ' + arkTsAveragedTime + 'ns');
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', '$_invoke',
         'static $_invoke(): boolean', arkTsAveragedTime);
+    })
+
+    it('PerformanceTest_Boolean_Static_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+      let res: boolean = false;
+      let Stime = new Date().getTime();
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = Boolean.$_invoke<number>(100);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Static_2400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', '$_invoke',
+        'static $_invoke<T>(value: T): boolean', arkTsAveragedTime);
     })
 
     it('PerformanceTest_Boolean_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -254,8 +311,8 @@ export default function BooleanPerfTest(): void {
         res = boolTrue.toBoolean();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Instance_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'toBoolean',
         'toBoolean(): boolean', arkTsAveragedTime);
@@ -269,8 +326,8 @@ export default function BooleanPerfTest(): void {
         res = boolTrue.valueOf();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Instance_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'valueOf',
         'valueOf(): boolean', arkTsAveragedTime);
@@ -284,8 +341,8 @@ export default function BooleanPerfTest(): void {
         res = boolTrue.toString();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Instance_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -299,8 +356,8 @@ export default function BooleanPerfTest(): void {
         res = bool1.equals(bool1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Instance_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'equals',
         'equals(obj: Object): boolean', arkTsAveragedTime);
@@ -314,8 +371,8 @@ export default function BooleanPerfTest(): void {
         res = boolTrue.compareTo(boolTrue);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Instance_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'compareTo',
         'compareTo(other: Boolean): number', arkTsAveragedTime);
@@ -329,8 +386,8 @@ export default function BooleanPerfTest(): void {
         res = boolTrue.isTrue();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Instance_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'isTrue',
         'isTrue(): boolean', arkTsAveragedTime);
@@ -344,8 +401,8 @@ export default function BooleanPerfTest(): void {
         res = boolTrue.isFalse();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Instance_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'isFalse',
         'isFalse(): boolean', arkTsAveragedTime);
@@ -359,8 +416,8 @@ export default function BooleanPerfTest(): void {
         res = boolTrue.negate();
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Instance_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'negate',
         'negate(): Boolean', arkTsAveragedTime);
@@ -374,8 +431,8 @@ export default function BooleanPerfTest(): void {
         res = boolTrue.and(boolTrue);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Instance_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'and',
         'and(other: Boolean): Boolean', arkTsAveragedTime);
@@ -389,8 +446,8 @@ export default function BooleanPerfTest(): void {
         res = boolTrue.or(boolTrue);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Instance_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'or',
         'or(other: Boolean): Boolean', arkTsAveragedTime);
@@ -404,8 +461,8 @@ export default function BooleanPerfTest(): void {
         res = boolTrue.xor(boolTrue);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Boolean_Instance_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Boolean', 'xor',
         'xor(other: Boolean): Boolean', arkTsAveragedTime);

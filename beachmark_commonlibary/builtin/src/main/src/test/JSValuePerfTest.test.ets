@@ -26,10 +26,12 @@ import {
   afterEach
 } from "../../../hypium/index";
 import performance from './Performance.util';
-
 export default function JSValuePerfTest(): void {
   describe('JSValuePerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -39,6 +41,7 @@ export default function JSValuePerfTest(): void {
       GC.waitForFinishGC(ret1);
     })
 
+
     afterAll(() => {
       performance.save('apiPerformance.txt');
     })
@@ -47,15 +50,19 @@ export default function JSValuePerfTest(): void {
     // 1. JSValue Methods
     // ================================================================
 
-    it('PerformanceTest_JSValue_ToString_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let realJSValue = JSRuntime.newJSValueBoolean(true);
-      let res: Object = new Object();
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {  res = String(realJSValue) as Object; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _res = res;
-      performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSValue', 'toString', 'toString(): String', arkTsAveragedTime);
-    })
+    // it('PerformanceTest_JSValue_ToString_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    //   let realJSValue = JSRuntime.newJSValueBoolean(true);
+    //   let res: Object = new Object();
+    //   let Stime = new Date().getTime();
+    //   for (let i = 0; i < BASE_COUNT; i++) {
+    //     res = String(realJSValue) as Object;
+    //   }
+    //   let Dtime = new Date().getTime() - Stime;
+    //   let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //   let res1 = res;
+    //   console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSValue_ToString_0100: ' + arkTsAveragedTime + 'ns');
+    //   performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSValue', 'toString', 'toString(): String', arkTsAveragedTime);
+    // })
 
     // ================================================================
     // 2. JSValue Type Aliases
@@ -65,9 +72,13 @@ export default function JSValuePerfTest(): void {
       let realJSValue = JSRuntime.newJSValueBoolean(true);
       let res: JSValueN = realJSValue as JSValueN;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = realJSValue as JSValueN; }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _res = res;
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = realJSValue as JSValueN;
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSValue_JSValueN_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.interop.js', 'JSValue', 'JSValueN', 'type JSValueN = JSValue | null | undefined', arkTsAveragedTime);
     })
 

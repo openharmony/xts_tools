@@ -41,7 +41,10 @@ class RealListObjectImpl implements containers.ListObject {
 
 export default function ListObjectPerfTest(): void {
   describe('ListObjectPerfTest', () => {
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -57,92 +60,128 @@ export default function ListObjectPerfTest(): void {
 
     it('PerformanceTest_ListObject_PushFront_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let list: containers.ListObject = new RealListObjectImpl();
-      let vals: Object[] = [];
-      for (let i = 0; i < BASE_COUNT; i++) { vals.push(new Object()); }
+      let varObj = new Object();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { list.pushFront(vals[i]); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _list = list;
+      for (let i = 0; i < BASE_COUNT; i++) {
+        list.pushFront(varObj);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListObject_PushFront_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'pushFront', 'pushFront(e: Object): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListObject_PopFront_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let list: containers.ListObject = new RealListObjectImpl();
-      for (let i = 0; i < BASE_COUNT; i++) { list.pushBack(new Object()); }
+      for (let i = 0; i < BASE_COUNT; i++) {
+        list.pushBack(new Object());
+      }
       let res: Object = new Object();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = list.popFront(); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _res = res;
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = list.popFront();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListObject_PopFront_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'popFront', 'popFront(): Object', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListObject_PushBack_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let list: containers.ListObject = new RealListObjectImpl();
-      let vals: Object[] = [];
-      for (let i = 0; i < BASE_COUNT; i++) { vals.push(new Object()); }
+      let varObj = new Object();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { list.pushBack(vals[i]); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _list = list;
+      for (let i = 0; i < BASE_COUNT; i++) {
+        list.pushBack(varObj);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListObject_PushBack_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'pushBack', 'pushBack(e: Object): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListObject_PopBack_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let list: containers.ListObject = new RealListObjectImpl();
-      for (let i = 0; i < BASE_COUNT; i++) { list.pushBack(new Object()); }
+      for (let i = 0; i < BASE_COUNT; i++) {
+        list.pushBack(new Object());
+      }
       let res: Object = new Object();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = list.popBack(); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _res = res;
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = list.popBack();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListObject_PopBack_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'popBack', 'popBack(): Object', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListObject_Size_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let list: containers.ListObject = new RealListObjectImpl();
-      for (let i = 0; i < 10; i++) { list.pushBack(new Object()); }
-      let res: int = 0 as int;
+      list.pushBack(new Object());
+      let res = 0;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = list.size(); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _res = res;
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = list.size();
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListObject_Size_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'size', 'size(): int', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListObject_At_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let list: containers.ListObject = new RealListObjectImpl();
-      for (let i = 0; i < 10; i++) { list.pushBack(new Object()); }
+      list.pushBack(new Object());
       let res: Object = new Object();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = list.at(0 as int); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _res = res;
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = list.at(0 as int);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res2 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListObject_At_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'at', 'at(index: int): Object', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListObject_Set_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let list: containers.ListObject = new RealListObjectImpl();
       list.pushBack(new Object());
-      let vals: Object[] = [];
-      for (let i = 0; i < BASE_COUNT; i++) { vals.push(new Object()); }
+      let val = new Object();
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { list.set(0 as int, vals[i]); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _list = list;
+      for (let i = 0; i < BASE_COUNT; i++) {
+        list.set(0 as int, val);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListObject_Set_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'set', 'set(index: int, e: Object): void', arkTsAveragedTime);
     })
 
     it('PerformanceTest_ListObject_Has_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let list: containers.ListObject = new RealListObjectImpl();
-      let target = new Object();
-      list.pushBack(target);
+      let val = new Object();
+      list.pushBack(val);
       let res: boolean = false;
       let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) { res = list.has(target); }
-      let arkTsAveragedTime = (new Date().getTime() - Stime).toDouble() * UNIT_TIME / BASE_COUNT;
-      let _res = res;
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = list.has(val);
+      }
+      let Dtime = new Date().getTime() - Stime;
+      let res1 = list;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let res2 = res;
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListObject_Has_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'has', 'has(e: Object): boolean', arkTsAveragedTime);
     })
+
   })
 }

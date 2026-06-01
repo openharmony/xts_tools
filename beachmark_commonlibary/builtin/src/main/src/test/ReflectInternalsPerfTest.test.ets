@@ -30,7 +30,10 @@ import performance from './Performance.util';
 export default function ReflectInternalsPerfTest():void {
   describe('ReflectInternalsPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -53,8 +56,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.identity_cast(arr);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_identity_cast_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'identity_cast',
         'identity_cast<T>(array: ArrayLike<T>): ArrayLike<T>', arkTsAveragedTime);
@@ -69,8 +72,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.isNumericType(type);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_isNumericType_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'isNumericType',
         'isNumericType(type: Class): boolean', arkTsAveragedTime);
@@ -85,8 +88,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.asFixedArray<number>(obj);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_asFixedArray_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'asFixedArray',
         'asFixedArray<E>(obj: object): FixedArray<E>', arkTsAveragedTime);
@@ -102,8 +105,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.isAssignableFrom(t1, t2);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_isAssignableFrom_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'isAssignableFrom',
         'isAssignableFrom(lhsType: Class, rhsType: Class): boolean', arkTsAveragedTime);
@@ -118,8 +121,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.isDoubleType(type);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_isDoubleType_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'isDoubleType',
         'isDoubleType(type: Class): boolean', arkTsAveragedTime);
@@ -134,8 +137,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.isBooleanType(type);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_isBooleanType_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'isBooleanType',
         'isBooleanType(type: Class): boolean', arkTsAveragedTime);
@@ -150,8 +153,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.isIntType(type);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_isIntType_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'isIntType',
         'isIntType(type: Class): boolean', arkTsAveragedTime);
@@ -166,8 +169,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.isLongType(type);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_isLongType_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'isLongType',
         'isLongType(type: Class): boolean', arkTsAveragedTime);
@@ -182,8 +185,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.isByteType(type);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_isByteType_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'isByteType',
         'isByteType(type: Class): boolean', arkTsAveragedTime);
@@ -198,8 +201,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.isShortType(type);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_isShortType_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'isShortType',
         'isShortType(type: Class): boolean', arkTsAveragedTime);
@@ -214,8 +217,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.isFloatType(type);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_isFloatType_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'isFloatType',
         'isFloatType(type: Class): boolean', arkTsAveragedTime);
@@ -230,8 +233,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.isCharType(type);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_isCharType_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'isCharType',
         'isCharType(type: Class): boolean', arkTsAveragedTime);
@@ -246,8 +249,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.Types.isPrimitiveType(type);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_Types_isPrimitiveType_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'Types', 'isPrimitiveType',
         'isPrimitiveType(type: Class): boolean', arkTsAveragedTime);
@@ -262,8 +265,8 @@ export default function ReflectInternalsPerfTest():void {
         result = reflect.internals.createFixedArray(type, 10);
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = result;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ReflectInternals_createFixedArray_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect.internals', 'reflect.internals', 'createFixedArray',
         'createFixedArray(component: Class, length: int): Object', arkTsAveragedTime);

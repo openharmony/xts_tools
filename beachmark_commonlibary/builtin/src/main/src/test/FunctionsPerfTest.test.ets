@@ -27,10 +27,13 @@ import {
 } from "../../../hypium/index";
 import performance from './Performance.util';
 
-export default function FunctionsPerfTest() {
+export default function FunctionsPerfTest(): void {
   describe('FunctionsPerfTest', () => {
     // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
+    // 毫秒 * 1000 = 微秒 毫秒 * 1000000 = 纳秒
     const BASE_COUNT = 50000;
+    // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
+    const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -51,10 +54,10 @@ export default function FunctionsPerfTest() {
         res = encodeURI("test string with special chars: @#$%");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Functions', 'encodeURI',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'encodeURI',
         'encodeURI(uri: string): string', arkTsAveragedTime);
     })
 
@@ -65,10 +68,10 @@ export default function FunctionsPerfTest() {
         res = decodeURI("test%20string%20with%20encoded");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Functions', 'decodeURI',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'decodeURI',
         'decodeURI(uri: string): string', arkTsAveragedTime);
     })
 
@@ -79,10 +82,10 @@ export default function FunctionsPerfTest() {
         res = encodeURIComponent("test@#$%");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Functions', 'encodeURIComponent',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'encodeURIComponent',
         'encodeURIComponent(uriComponent: String | Number | Boolean): string', arkTsAveragedTime);
     })
 
@@ -93,10 +96,10 @@ export default function FunctionsPerfTest() {
         res = decodeURIComponent("test%40%23%24%25");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Functions', 'decodeURIComponent',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'decodeURIComponent',
         'decodeURIComponent(uriComponent: string): string', arkTsAveragedTime);
     })
 
@@ -107,10 +110,10 @@ export default function FunctionsPerfTest() {
         res = escape("test string @#$%");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0500: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Functions', 'escape',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'escape',
         'escape(str: string): string', arkTsAveragedTime);
     })
 
@@ -121,10 +124,10 @@ export default function FunctionsPerfTest() {
         res = unescape("test%20string");
       }
       let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       let res1 = res;
+      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0600: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('escompat', 'Functions', 'unescape',
+      performance.apiWithClassAndKeywordTxt('std.core', 'Functions', 'unescape',
         'unescape(str: string): string', arkTsAveragedTime);
     })
 
