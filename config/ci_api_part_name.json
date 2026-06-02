@@ -6251,6 +6251,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.TreeViewV2.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.arkui.advanced.TreeViewV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.security.asset.d.ts",
             "bundle_name": [
                 "asset"
