@@ -15131,6 +15131,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/network/netmanager_ext/net_trafficfilter",
+            "bundle_name": [
+                "netmanager_ext"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/network/netstack/http_interceptor",
             "bundle_name": [
                 "netstack"
