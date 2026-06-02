@@ -340,13 +340,11 @@ class GetInterfaceData(Ci_Manager):
             for path in chg.add + chg.modified + chg.delete:
                 self.sum_change_list_path.append(path)
                 for conf in interface_configs:
-                    self._validate_config_entry(conf, True)
                     # 路径 && 目录均不匹配
                     if path != conf.get("path") and not \
                         PathUtils.is_parent_path(conf.get("path"), path):
                         continue
 
-                    self._validate_config_entry(conf)
                     self.match_path_list.append(path)
                     chg.set_already_match_utils(True)
 
