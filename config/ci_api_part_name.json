@@ -15363,7 +15363,9 @@
         },
         {
             "path": "interface/sdk_c/build-tools",
-            "bundle_name": [],
+            "bundle_name": [
+                "sdk"
+            ],
             "build_targets": {}
         },
         {
