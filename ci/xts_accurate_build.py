@@ -22,17 +22,18 @@ import json
 import shutil
 import subprocess
 from typing import List
-from Utils import XTSLogger
+from utils import XTSLogger
 
 
 class XtsAccurateBuild(abc.ABC):
-    def __init__(self, code_base: str, args: List[str], root_target: str):
+    def __init__(self, code_base: str, args: List[str], suite_name: str):
         self._code_base = code_base
         self._args = args
         self._logger = XTSLogger()
         self._out_path = os.path.join(code_base, "out")
         self._gn_path = os.path.join(code_base, "prebuilts/build-tools/linux-x86/bin/gn")
-        self._root_target = root_target
+        self._suite_name = suite_name
+        self._root_target = f"//test/xts/{suite_name}:xts_{suite_name}"
         self._build_targets = set()
         self._env = os.environ.copy()
 
@@ -63,6 +64,10 @@ class XtsAccurateBuild(abc.ABC):
     @property
     def gn_path(self):
         return self._gn_path
+
+    @property
+    def suite_name(self):
+        return self._suite_name
 
     @property
     def root_target(self):
@@ -208,27 +213,19 @@ class XtsAccurateBuild(abc.ABC):
         return rc
 
 
-class ActsBuildUtil():
+class XtsAccurateBuildUtil():
     @staticmethod
     def calc_immuned_targets(ab: XtsAccurateBuild) -> set[str]:
-        # reserve virtual or non-acts targets.
-        immuned_set = {
-            "test/xts/acts:xts_acts",
-            "test/xts/dcts:xts_dcts",
-            "test/xts/hats:xts_hats",
-            "test/xts/hits:xts_hits",
-            "test/xts/tools:xts_tools"
-        }
         keep_tgts = set()
-        for tgt in ab._build_targets:
-            if tgt in immuned_set or not tgt.startswith("test/xts/acts"):
+        for tgt in ab.build_targets:
+            if tgt == ab.root_target or not tgt.startswith(f"test/xts/{ab.suite_name}"):
                 keep_tgts.add(tgt)
                 ab.logger.info(f"Keep target: '{tgt}'")
         return keep_tgts
 
     @staticmethod
-    def pick_target(target: str) -> bool:
-        return target.startswith("//test/xts/acts")
+    def pick_target(ab: XtsAccurateBuild, target: str) -> bool:
+        return target.startswith(f"//test/xts/{ab.suite_name}")
 
     @staticmethod
     def process_targets(ab: XtsAccurateBuild) -> List[str]:
@@ -248,7 +245,7 @@ class ActsBuildUtil():
 
     @staticmethod
     def exec_ninja(ab: XtsAccurateBuild):
-        args = ActsBuildUtil.process_targets(ab)
+        args = XtsAccurateBuildUtil.process_targets(ab)
         args = [args[0], "--fast-rebuild"] + args[1:]
         ab.logger.info(">>> Compile command: {}".format(str.join(' ', args)))
         return subprocess.run(args).returncode
@@ -256,7 +253,8 @@ class ActsBuildUtil():
 
 class OpenSourceBuild(XtsAccurateBuild):
     def __init__(self, code_base: str, args: List[str]):
-        super().__init__(code_base, args, "//test/xts/acts:xts_acts")
+        suite_name = os.environ.get("XTS_SUITENAME", "acts")
+        super().__init__(code_base, args, suite_name)
 
     def _process_args(self):
         prod_name = ""
@@ -281,18 +279,20 @@ class OpenSourceBuild(XtsAccurateBuild):
             self.args = self.args[0:rtrim_idx]
 
     def _calc_immuned_targets(self) -> set[str]:
-        return ActsBuildUtil.calc_immuned_targets(self)
+        return XtsAccurateBuildUtil.calc_immuned_targets(self)
 
     def _pick_target(self, target: str) -> bool:
-        return ActsBuildUtil.pick_target(target)
+        return XtsAccurateBuildUtil.pick_target(self, target)
 
     def _ninja(self):
-        return ActsBuildUtil.exec_ninja(self)
+        return XtsAccurateBuildUtil.exec_ninja(self)
 
 
 class ProprietaryBuild(XtsAccurateBuild):
     def __init__(self, code_base, args):
-        super().__init__(code_base, args, "//test/xts/acts:xts_acts")
+        suite_name = next((arg.split(':')[1] for arg in args
+                            if arg.startswith("xts_suitename:")), "acts")
+        super().__init__(code_base, args, suite_name)
 
     def _process_args(self):
         class Operator:
@@ -337,13 +337,13 @@ class ProprietaryBuild(XtsAccurateBuild):
         self.args = args
 
     def _calc_immuned_targets(self) -> set[str]:
-        return ActsBuildUtil.calc_immuned_targets(self)
+        return XtsAccurateBuildUtil.calc_immuned_targets(self)
 
     def _pick_target(self, target: str) -> bool:
-        return ActsBuildUtil.pick_target(target)
+        return XtsAccurateBuildUtil.pick_target(self, target)
 
     def _ninja(self):
-        return ActsBuildUtil.exec_ninja(self)
+        return XtsAccurateBuildUtil.exec_ninja(self)
 
 
 def xts_accurate_build(code_base: str, args: List[str], proprietary_build = False):

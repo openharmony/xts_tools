@@ -18,7 +18,7 @@
 import os
 import sys
 import json
-from Utils import ChangeFileEntity, XTSTargetUtils, PathUtils, HOME
+from utils import ChangeFileEntity, XTSTargetUtils, PathUtils, HOME
 from ci_manager import ComponentManager, XTSManager, WhitelistManager, GetInterfaceData
 
 
@@ -82,31 +82,32 @@ class AccurateTarget:
         return 0
 
     def get_targets(self):
-        ret = self._get_change_info()
-        if ret == 1:
+        rc = self._get_change_info()
+        if rc != 0:
             # changeinfo读取失败-全量编译
             print("warning: The list of files to be modifed was not obtained, compile full testsuites.")
             xts_suite = os.path.basename(self._xts_root_dir)
             relative_path = os.path.relpath(self._xts_root_dir, HOME)
             ci_target = [f"{relative_path}:xts_{xts_suite}"]
-        else:
-            # 处理结果
-            target_paths = set()
-            targets = set()
-            # 执行全部并获取结果
-            for manager in self.util_list:
-                retcode = manager.get_targets_from_change(self._change_list)
-                if retcode == 1:
-                    print("error: Execution of {} failed.".format(manager.__class__.__name__))
-                manager.write_result(target_paths, targets)
+            return 0, ci_target
 
-            # 处理target_paths, 去除子目录\重复目录
-            sum_path = PathUtils.removeSubandDumpPath(list(target_paths))
+        # 处理结果
+        target_paths = set()
+        targets = set()
+        # 执行全部并获取结果
+        for manager in self.util_list:
+            retcode = manager.get_targets_from_change(self._change_list)
+            if retcode == 1:
+                print("error: Execution of {} failed.".format(manager.__class__.__name__))
+            manager.write_result(target_paths, targets)
 
-            for path in sum_path:
-                targets.update(set(XTSTargetUtils.getTargetfromPath(self._xts_root_dir, path)))
+        # 处理target_paths, 去除子目录\重复目录
+        sum_path = PathUtils.removeSubandDumpPath(list(target_paths))
 
-            ci_target = XTSTargetUtils.del_uncompile_target(self._xts_root_dir, self._device_type, targets)
+        for path in sum_path:
+            targets.update(set(XTSTargetUtils.getTargetfromPath(self._xts_root_dir, path)))
+
+        ci_target = XTSTargetUtils.del_uncompile_target(self._xts_root_dir, self._device_type, targets)
 
         return 0, ci_target
 
@@ -118,5 +119,11 @@ def generate(xts_root_dir, change_info_file, build_target, suite_type, device_ty
         return 0, build_target
 
     obj = AccurateTarget(xts_root_dir, change_info_file, suite_type.split(','), device_type)
-    ret, accurate_targets = obj.get_targets()
+    try:
+        ret, accurate_targets = obj.get_targets()
+    except Exception as err:
+        print(f"[ERROR] {type(err).__name__}: {err}")
+        print(f"[HINT] An error occured druing xts accurate build target calculation.\n"
+              f"[HINT] Please visit https://gitcode.com/openharmony/xts_tools/blob/master/docs/BUILD_TROUBLESHOOTING.md for more info.")
+        ret, accurate_targets = -1, []
     return ret, accurate_targets
