@@ -399,6 +399,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.annotation.static.d.ets",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/api/@ohos.base.d.ts",
             "bundle_name": [
                 "sdk"
