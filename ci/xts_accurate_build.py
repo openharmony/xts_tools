@@ -218,7 +218,7 @@ class XtsAccurateBuildUtil():
     def calc_immuned_targets(ab: XtsAccurateBuild) -> set[str]:
         keep_tgts = set()
         for tgt in ab.build_targets:
-            if tgt == ab.root_target or not tgt.startswith(f"test/xts/{ab.suite_name}"):
+            if tgt == ab.root_target[2:] or not tgt.startswith(f"test/xts/{ab.suite_name}"):
                 keep_tgts.add(tgt)
                 ab.logger.info(f"Keep target: '{tgt}'")
         return keep_tgts
