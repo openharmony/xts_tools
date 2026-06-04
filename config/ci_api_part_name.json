@@ -2114,7 +2114,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.advanced.MultiNavigation.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.MultiNavigation.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.advanced.MultiNavigation.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -4508,6 +4522,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.router.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.deviceInfo.d.ts",
             "bundle_name": [
                 "init"
@@ -5174,6 +5195,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.uiAppearance.d.ts",
+            "bundle_name": [
+                "ui_appearance"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.uiAppearance.d.ts",
             "bundle_name": [
                 "ui_appearance"
             ],
@@ -7399,6 +7427,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/stepper.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/toggle.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7791,6 +7826,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/stepper_item.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/divider.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7799,6 +7841,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/tabs.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/tabs.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7889,6 +7938,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/sidebar.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/ability_component.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7952,6 +8008,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/swiper.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/alert_dialog.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7966,7 +8029,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/tab_content.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/nav_destination.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/nav_destination.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7981,6 +8058,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/with_theme.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/with_theme.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8044,6 +8128,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/navigator.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/navigator.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8177,6 +8268,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/navigation.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/navigation.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8421,6 +8519,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.ArcAlphabetIndexer.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.ArcAlphabetIndexer.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -8428,7 +8533,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.ArcAlphabetIndexer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/nav_router.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/nav_router.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8652,7 +8771,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.theme.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.theme.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.theme.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8786,6 +8919,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/alphabetIndexer.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/alphabetIndexer.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -9422,7 +9562,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.router.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.router.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.router.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -10346,7 +10500,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.ArcSwiper.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.ArcSwiper.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.ArcSwiper.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -13139,6 +13307,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/alphabetIndexer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/badge.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -13503,7 +13678,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/navDestination.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/navigation.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/navigation.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -13818,6 +14007,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/sidebar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/slider.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -13867,6 +14063,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/swiper.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/symbolglyph.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -13881,7 +14084,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/tabContent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/tabs.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/tabs.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -13987,6 +14204,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/withTheme.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/withTheme.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
