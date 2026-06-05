@@ -7420,6 +7420,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/text.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/security_component.d.ts",
             "bundle_name": [
                 "security_component_manager"
@@ -7658,6 +7665,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/styled_string.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/styledString.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -7714,6 +7728,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/symbolglyph.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/flow_item.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7722,6 +7743,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/hyperlink.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/hyperlink.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7750,6 +7778,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/text_input.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/text_input.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7889,6 +7924,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/marquee.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/marquee.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -7932,6 +7974,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/image_span.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/image_span.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8127,6 +8176,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/symbol_span.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/symbolSpan.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -8191,6 +8247,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/text_area.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/text_area.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8295,6 +8358,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/span.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/span.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -8366,6 +8436,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/search.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/search.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
