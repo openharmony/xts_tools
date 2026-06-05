@@ -2261,6 +2261,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.observer.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.EnvironmentCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -6755,6 +6762,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.UIContext.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.intl.d.ts",
             "bundle_name": [
                 "i18n"
@@ -7777,6 +7791,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/common.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/text_common.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -8519,6 +8540,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/alphabet_indexer.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.ArcAlphabetIndexer.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -8618,6 +8646,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.UIContext.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.UIContext.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8743,6 +8778,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.observer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.performanceMonitor.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -8842,6 +8884,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/FrameNode.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/FrameNode.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -10368,6 +10417,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/FrameNode.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/FrameNode.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
