@@ -4284,6 +4284,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.busManager.serial.d.ts",
+            "bundle_name": [
+                "serial_manager"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.telephony.radio.d.ts",
             "bundle_name": [
                 "core_service"
