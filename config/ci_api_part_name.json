@@ -3164,6 +3164,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.web.netErrorList.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.web.netErrorList.static.d.ets",
             "bundle_name": [
                 "webview"
