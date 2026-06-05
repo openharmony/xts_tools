@@ -11,6 +11,17 @@
             }
         },
         {
+            "path": "third_party/musl",
+            "bundle_name": "musl",
+            "add_bundle": [],
+            "add_target": {
+                "acts": [
+                    "thirdparty",
+                    "test/xts/acts/commonlibrary/toolchain:toolchain"
+                ]
+            }
+        },
+        {
             "path": "third_party/vk-gl-cts",
             "bundle_name": "vk-gl-cts",
             "add_bundle": [],
