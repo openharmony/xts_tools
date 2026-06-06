@@ -7483,6 +7483,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/progress.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/checkbox.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7512,6 +7519,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/counter.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/counter.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7609,6 +7623,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/qrcode.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/remote_window.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7631,6 +7652,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/text_clock.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/text_clock.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7917,6 +7945,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/badge.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/marquee.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7939,6 +7974,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/gauge.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/gauge.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8141,6 +8183,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/pattern_lock.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/lazy_for_each.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -8232,6 +8281,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/data_panel.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/menu_item_group.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -8240,6 +8296,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/loading_progress.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/loading_progress.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8268,6 +8331,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/textClock.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/textClock.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8562,6 +8632,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/text_timer.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/text_timer.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -13405,6 +13482,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/badge.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/blank.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -13510,6 +13594,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/counter.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/customComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -13525,6 +13616,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/dataPanel.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/dataPanel.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -13609,6 +13707,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/gauge.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/gauge.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -13727,6 +13832,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/loadingProgress.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/matrix2d.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -13825,6 +13937,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/patternLock.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/uiPickerComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -13874,7 +13993,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/progress.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/qrcode.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/qrcode.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14211,6 +14344,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/textTimer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/textTimer.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
