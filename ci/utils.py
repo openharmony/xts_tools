@@ -15,14 +15,23 @@
 # limitations under the License.
 #
 
+from __future__ import annotations
 import os
 import re
 import json
 import sys
 import logging
+from enum import Enum
+from pathlib import Path
 
-HOME = os.path.dirname(os.path.dirname(os.path.dirname(
+CODEBASE = os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+
+
+class InterfaceRepo(str, Enum):
+    SDK_JS = "sdk-js"
+    SDK_C = "sdk_c"
+    DRIVERS = "driver_interface"
 
 
 class ChangeFileEntity:
@@ -83,19 +92,19 @@ class ChangeFileEntity:
 
 
 class MatchConfig:
-    config_path = os.path.join(HOME, "test/xts/tools/config")
+    config_path = os.path.join(CODEBASE, "test/xts/tools/config")
     MACTH_CONFIG_PATH = os.path.join(config_path, "ci_match_config.json")
     exception_path = {}
     all_com_path = {}
     skip_judge_build_path = {}
     temple_list = []
     xts_path_list = []
-    interface_path_list = []
+    interface_path_dict = {}
 
     INTERFACE_BUNDLE_NAME_PATH = os.path.join(config_path, "ci_api_part_name.json")
-    interface_js_data = {}
-    interface_c_data = {}
-    driver_interface = {}
+    INTERFACE_WHITELIST_PATH = os.path.join(config_path, "ci_api_ignore.json")
+    interface_bundle_conf = {}
+    interface_whitelist_conf = {}
 
     WHITE_LIST_PATH = os.path.join(config_path, "ci_target_white_list.json")
     white_list_repo = {}
@@ -105,7 +114,7 @@ class MatchConfig:
 
     @classmethod
     def initialization(cls):
-        if cls.exception_path == {}:
+        if not cls.exception_path:
             print("MatchConfig initialization begin...")
             if not os.path.exists(cls.MACTH_CONFIG_PATH):
                 print("warning: Reading the configuration file is abnormal because {} not exist".format(
@@ -117,70 +126,74 @@ class MatchConfig:
                 cls.skip_judge_build_path = rules_data['skip_judge_build_path']
                 cls.temple_list = rules_data['temple_list']
                 cls.xts_path_list = rules_data['xts_path_list']
-                cls.interface_path_list = rules_data['interface_path_list']
+                cls.interface_path_dict = rules_data['interface_path_dict']
         print("MatchConfig initialization end.")
     
     @classmethod
     def interface_initialization(cls):
-
-        if cls.interface_js_data == {}:
+        if not cls.interface_bundle_conf:
             print("INTERFACE_BUNDLE_NAME initialization begin...")
             if not os.path.exists(cls.INTERFACE_BUNDLE_NAME_PATH):
                 print("warning: Reading the configuration file is abnormal because {} not exist".format(
                     cls.INTERFACE_BUNDLE_NAME_PATH))
+                return
             with open(cls.INTERFACE_BUNDLE_NAME_PATH, 'r') as file:
-                interface_data = json.load(file)
-                cls.interface_js_data = interface_data['sdk-js']
-                cls.interface_c_data = interface_data['sdk_c']
-                cls.driver_interface = interface_data['driver_interface']
+                cls.interface_bundle_conf = json.load(file)
+            print("INTERFACE_BUNDLE_NAME initialization end.")
 
-        print("INTERFACE_BUNDLE_NAME initialization end.")
+        if not cls.interface_whitelist_conf:
+            print("INTERFACE_WHITELIST initialization begin...")
+            if not os.path.exists(cls.INTERFACE_WHITELIST_PATH):
+                print("warning: Reading the configuration file is abnormal because {} not exist".format(
+                    cls.INTERFACE_WHITELIST_PATH))
+                return
+            with open(cls.INTERFACE_WHITELIST_PATH, 'r') as file:
+                cls.interface_whitelist_conf = json.load(file)
+            print("INTERFACE_WHITELIST initialization end.")
     
     @classmethod
-    def get_interface_json_js_data(cls):
-        if cls.interface_js_data == {}:
+    def get_interface_bundle_config(cls, repo_name: InterfaceRepo):
+        if not cls.interface_bundle_conf:
             cls.interface_initialization()
-        return cls.interface_js_data
+        return cls.interface_bundle_conf.get(repo_name, {})
 
     @classmethod
-    def get_interface_json_c_data(cls):
-        if cls.interface_c_data == {}:
+    def get_interface_whitelist_config(cls):
+        if not cls.interface_whitelist_conf:
             cls.interface_initialization()
-        return cls.interface_c_data
+        return cls.interface_whitelist_conf
 
     @classmethod
-    def get_interface_json_driver_interface_data(cls):
-        if cls.driver_interface == {}:
-            cls.interface_initialization()
-        return cls.driver_interface
-
-    @classmethod
-    def get_interface_path_list(cls):
-        if cls.interface_path_list == []:
+    def get_interface_path_mapping(cls):
+        if not cls.interface_path_dict:
             cls.initialization()
-        return cls.interface_path_list
+        return cls.interface_path_dict
+
+    @classmethod
+    def get_interface_path(cls, repo_name: InterfaceRepo):
+        return MatchConfig.get_interface_path_mapping().get(repo_name)
 
     @classmethod
     def get_exception_path(cls):
-        if cls.exception_path == {}:
+        if not cls.exception_path:
             cls.initialization()
         return cls.exception_path
 
     @classmethod
     def get_all_com_path(cls):
-        if cls.all_com_path == {}:
+        if not cls.all_com_path:
             cls.initialization()
         return cls.all_com_path
 
     @classmethod
     def get_skip_judge_build_path(cls):
-        if cls.skip_judge_build_path == {}:
+        if not cls.skip_judge_build_path:
             cls.initialization()
         return cls.skip_judge_build_path
 
     @classmethod
     def get_temple_list(cls):
-        if cls.temple_list == []:
+        if not cls.temple_list:
             cls.initialization()
         return cls.temple_list
 
@@ -208,13 +221,13 @@ class MatchConfig:
 
     @classmethod
     def get_xts_path_list(cls):
-        if cls.xts_path_list == []:
+        if not cls.xts_path_list:
             cls.initialization()
         return cls.xts_path_list
 
     @classmethod
     def initialization_white_list(cls):
-        if cls.white_list_repo == {}:
+        if not cls.white_list_repo:
             print("WhiteList initialization begin...")
             if not os.path.exists(cls.WHITE_LIST_PATH):
                 print("warning: Reading the configuration file is abnormal because {} not exist".format(
@@ -228,7 +241,7 @@ class MatchConfig:
 
     @classmethod
     def get_white_list_repo(cls):
-        if cls.white_list_repo == {}:
+        if not cls.white_list_repo:
             cls.initialization_white_list()
         return cls.white_list_repo
 
@@ -313,7 +326,7 @@ class XTSTargetUtils:
             content = file.read()
         matches = pattern.findall(content)
         targets = [match[1] for match in matches]
-        relative_path = os.path.relpath(os.path.dirname(build_File), HOME)
+        relative_path = os.path.relpath(os.path.dirname(build_File), CODEBASE)
         if len(targets) > 1:
             deps = XTSTargetUtils.getDepsinBuild(content)
             # 编译本gn中未被依赖的目标
@@ -597,3 +610,188 @@ class XTSLogger(metaclass = Singleton):
 
     def critical(self, msg, *args, **kwargs):
         self._logger.critical(self._process_msg(msg), *args, **kwargs)
+
+
+class WhitelistProcessor:
+    """
+    Simple yet handy whitelist conf processor.
+    """
+    class MatchPattern:
+        def __init__(self, original: str, regex_str, reserve_flag: bool):
+            self.original = original
+            self.regex = re.compile(regex_str)
+            self.dir_flag = original.endswith('/')
+            self.reserve_flag = reserve_flag
+
+    MPat_t = MatchPattern
+
+    class PathType(Enum):
+        FILE = 0
+        DIR = 1
+
+    PType_t = PathType
+
+    class PathSegment:
+        def __init__(self, path: str, ptype: WhitelistProcessor.PType_t):
+            self.path = path
+            self.type = ptype
+
+    PSeg_t = PathSegment
+
+    def __init__(self, config: dict, repo_map: dict, codebase: str):
+        """
+        Initialize the processor with a whitelist configuration and repo map.
+
+        - config: dict where keys are repo names and values pattern lists.
+        - repo_map: dict where keys are repo names and values are their
+                    base directories (relative to codebase).
+        - codebase: string abs path to the project root.
+        """
+        self.config = config
+        self.repo_map = repo_map
+        self.codebase = codebase
+        self.parsed_patterns = {}
+        self.invalid_patterns = []
+        self._parse_config(repo_map)
+
+    def _parse_config(self, repo_map: dict):
+        for repo_name, patterns in self.config.items():
+            base_dir = repo_map.get(repo_name)
+            if not base_dir:
+                logger = XTSLogger()
+                logger.warning(f"Repo name '{repo_name}' not found in repo map, skipping its whitelist patterns.")
+                continue
+
+            self.parsed_patterns[base_dir] = []
+            for pat in patterns:
+                # negation pattern
+                reserve_flag = False
+                clean_pat = pat
+                while clean_pat.startswith('!'):
+                    reserve_flag = not reserve_flag
+                    clean_pat = clean_pat[1:]
+
+                regex_str = self._pattern_to_regex(clean_pat)
+                if regex_str:
+                    self.parsed_patterns[base_dir].append(
+                        self.MatchPattern(clean_pat, regex_str, reserve_flag)
+                    )
+                else:
+                    self.invalid_patterns.append((base_dir, pat))
+
+        if self.invalid_patterns:
+            logger = XTSLogger()
+            for base, pat in self.invalid_patterns:
+                logger.warning(f"Invalid whitelist pattern ignored: '{pat}' in directory '{base}'")
+
+    def _pattern_to_regex(self, pattern: str):
+        # disallow patterns with leading slash
+        if pattern.startswith('/'):
+            return None
+
+        # treat any *** or more as globstar
+        p = re.sub(r'\*{3,}', '**', pattern)
+
+        dir_flag = p.endswith('/')
+        p = p.rstrip('/')
+        if not p:
+            return "^$" if dir_flag else None
+
+        segments = p.split('/')
+        res_parts = []
+
+        for i, seg in enumerate(segments):
+            if seg == '**':
+                # this completely kills the game
+                if len(segments) == 1:
+                    res_parts.append(r'.*')
+                elif i == 0:
+                    # leading globstar (**/)
+                    res_parts.append(r'(?:.*/)?')
+                elif i == len(segments) - 1:
+                    # trailing globstar (/**)
+                    res_parts.append(r'.*')
+                else:
+                    # globstar in middle (/**/)
+                    res_parts.append(r'(?:.*/)?')
+            else:
+                seg_res = re.escape(seg)
+                # downgrade ** to * within the segment
+                seg_res = seg_res.replace(r'\*\*', r'[^/]*')
+                # handle * within the segment
+                seg_res = seg_res.replace(r'\*', r'[^/]*')
+                res_parts.append(seg_res)
+
+        regex_str = "^"
+        for i, part in enumerate(res_parts):
+            if i > 0:
+                # add slash if not handled already
+                if res_parts[i - 1] != r'(?:.*/)?':
+                    regex_str += '/'
+            regex_str += part
+        regex_str += "$"
+
+        return regex_str
+
+    def reserve_file(self, fpath):
+        """
+        Check if a file path should be reserved (kept in the results).
+        """
+        path = Path(fpath)
+
+        for base_dir, patterns in self.parsed_patterns.items():
+            # type hint
+            patterns: list[WhitelistProcessor.MPat_t] = patterns
+            base_path = Path(base_dir)
+            try:
+                rel_path = path.relative_to(base_path).as_posix()
+                if rel_path == '.':
+                    rel_path = ""
+            except ValueError:
+                # not under current base_dir
+                continue
+
+            logger = XTSLogger()
+            parts = rel_path.split('/') if rel_path else []
+            path_segments = [
+                self.PSeg_t('/'.join(parts[:i]), self.PType_t.DIR)
+                for i in range(1, len(parts))
+            ]
+            path_segments.append(self.PSeg_t(rel_path, self.PType_t.FILE))
+
+            for pat in patterns:
+                for seg in path_segments:
+                    if self._check_pattern_match(seg, pat):
+                        if pat.reserve_flag:
+                            logger.info(f"Reserve file: {fpath} due to pattern (!{base_path}/{pat.original}) match.")
+                            return True
+                        logger.info(f"Ignore file: {fpath} due to pattern ({base_path}/{pat.original}) match.")
+                        return False
+        return True
+
+    def _check_pattern_match(self, segment: PathSegment, pattern: MatchPattern):
+        """
+        1. If pattern ends with /, it ONLY matches a directory.
+        2. If pattern does NOT end with /, it can match both a file and a directory.
+        3. For symlinks: if pattern ends with /, check if it points to a directory.
+           If it does not end with /, it matches as a normal file.
+        Returns:
+            - True (pattern structurally matches segment path)
+            - False (pattern mismatch)
+        """
+        seg_path = segment.path
+        seg_type = segment.type
+        dir_flag = pattern.dir_flag
+
+        if not pattern.regex.match(seg_path):
+            return False
+
+        if seg_type == self.PType_t.FILE:
+            return not dir_flag
+        return True
+
+    def filter_files(self, files):
+        """
+        Filter a list of files, removing ignored ones.
+        """
+        return [f for f in files if self.reserve_file(f)]
