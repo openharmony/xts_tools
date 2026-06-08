@@ -122,7 +122,7 @@ template("ohos_testsuite_base") {
         read_file(rebase_path("${preloader_output_dir}") + "/parts_config.json",
                   "json")
 
-    _build_part = false
+    _build_part = (XTS_SUITENAME == "acts_devices")
     if (defined(_parts_config[_part_full_name]) ||
         defined(_parts_config["${_part_full_name}_override"])) {
       _build_part = true
@@ -882,7 +882,7 @@ template("ohos_xts_part_name_filter") {
 
   # part_name filter.
   if (_build_suite) {
-    _build_part = false
+    _build_part = (XTS_SUITENAME == "acts_devices")
     if (_subsystem_name == "kernel" || _subsystem_name == "common") {
       _build_part = true
     } else {
