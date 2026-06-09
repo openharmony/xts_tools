@@ -4690,6 +4690,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.ArcList.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.ArcList.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -7070,6 +7077,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.ArcScrollBar.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.ArcScrollBar.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -7490,6 +7504,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/water_flow.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/image_common.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7735,6 +7756,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/gridItem.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/polygon.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7763,6 +7791,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/grid.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/common_ts_ets_api.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7785,6 +7820,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/flow_item.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/flow_item.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7911,6 +7953,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/list_item.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/list_item.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8106,6 +8155,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/list_item_group.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/container_span.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -8197,6 +8253,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/list.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/with_theme.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -8260,6 +8323,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/refresh.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/symbol_span.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -8296,6 +8366,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/scroll.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/scroll.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8884,6 +8961,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/lazy_grid_layout.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/lazy_grid_layout.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
