@@ -1,0 +1,17 @@
+{
+  "sdk-js": [
+    "**/*.md",
+    "api/config/",
+    "api/form/"
+  ],
+  "sdk_c": [
+    "**/*.md",
+    "LICENSE",
+    "docs/",
+    "patches/patches.json"
+  ],
+  "driver_interface": [
+    "**/*.md",
+    "figures/"
+  ]
+}
