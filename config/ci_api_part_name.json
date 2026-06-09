@@ -8386,6 +8386,104 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.StateManagement.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/builder.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/customComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/extendableComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/stateManagement/decorator.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/stateManagement/remember.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/stateManagement/storage/appStorage.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/stateManagement/storage/environment.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/stateManagement/storage/localStorage.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/stateManagement/storage/persistenceV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/stateManagement/storage/persistentStorage.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/stateManagement/storage/storageProperty.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/stateManagement/utils.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/common_ts_ets_api.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/line.d.ts",
             "bundle_name": [
                 "ace_engine"
