@@ -7637,6 +7637,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/date_picker.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/qrcode.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7707,6 +7714,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/text_picker.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/styled_string.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7743,6 +7757,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/time_picker.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/time_picker.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7967,6 +7988,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/calendar_picker.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/calendar_picker.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8793,6 +8821,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/ui_picker_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/ui_picker_component.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -13713,6 +13748,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/calendarPicker.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/canvas.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -13833,6 +13875,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/datePicker.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/datePicker.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14155,6 +14204,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/uiPickerComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/uiPickerComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14553,6 +14609,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/textPicker.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/textTimer.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -14568,6 +14631,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/timePicker.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/timePicker.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
