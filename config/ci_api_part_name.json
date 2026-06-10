@@ -2071,6 +2071,13 @@
             ],
             "build_targets": {}
         },
+          {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.inspector.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
         {
             "path": "interface/sdk-js/api/@ohos.deviceStatus.dragInteraction.d.ts",
             "bundle_name": [
@@ -5193,6 +5200,20 @@
             ],
             "build_targets": {}
         },
+             {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.pluginComponent.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.pluginComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
         {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.inputEventClient.d.ts",
             "bundle_name": [
@@ -7636,6 +7657,13 @@
             ],
             "build_targets": {}
         },
+            {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/embedded_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/blank.d.ts",
             "bundle_name": [
@@ -8163,6 +8191,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/inspector.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+            {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/inspector.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8861,6 +8896,27 @@
             ],
             "build_targets": {}
         },
+                {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/security_ui_extension_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/dynamic_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/ui_extension_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/save_button.d.ts",
             "bundle_name": [
@@ -8968,6 +9024,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/xcomponent.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+          {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/xcomponent.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -9087,6 +9150,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.inspector.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+            {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.inspector.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14076,6 +14146,13 @@
             ],
             "build_targets": {}
         },
+            {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/embeddedComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
         {
             "path": "interface/sdk-js/api/arkui/component/flex.static.d.ets",
             "bundle_name": [
@@ -14204,6 +14281,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/inspector.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+              {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/inspector.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14400,6 +14484,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/pluginComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+                {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/pluginComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14827,6 +14918,34 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/securityUIExtensionComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+                {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/toolbar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/uiExtensionComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/dynamicComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/securityUIExtensionComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
