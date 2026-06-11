@@ -7532,6 +7532,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/toolbar.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/water_flow.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -7981,6 +7988,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/plugin_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/plugin_component.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8821,6 +8835,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/isolated_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/isolated_component.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14995,6 +15016,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/xcomponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/xcomponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
