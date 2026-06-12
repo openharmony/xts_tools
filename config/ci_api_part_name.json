@@ -8883,7 +8883,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/enums.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/enums.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+                {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/enums.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -9906,6 +9920,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/common.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/common.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
