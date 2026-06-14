@@ -2275,6 +2275,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.componentSnapshot.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.curves.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -2472,6 +2479,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.dragController.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.dragController.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -3011,6 +3025,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.componentUtils.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.componentUtils.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7833,6 +7854,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/units.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/row_split.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -8323,6 +8351,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/gesture.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/list_item_group.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -8778,6 +8813,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/focus.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/focus.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -8877,6 +8919,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/enums.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/enums.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
