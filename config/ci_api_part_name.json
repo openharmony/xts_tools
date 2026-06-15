@@ -7063,7 +7063,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.appstartup.StartupTask.static.d.ets",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/api/@ohos.app.appstartup.StartupTask.d.ets",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.appstartup.StartupTask.static.d.ets",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -14049,7 +14063,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.ability.CompletionHandlerForAtomicService.static.d.ets",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.CompletionHandlerForAtomicService.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.CompletionHandlerForAtomicService.static.d.ets",
             "bundle_name": [
                 "ability_runtime"
             ],
