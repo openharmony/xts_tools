@@ -1750,6 +1750,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.shape.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.nfc.tag.d.ts",
             "bundle_name": [
                 "nfc"
@@ -2283,6 +2290,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.curves.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.curves.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -4270,6 +4284,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.matrix4.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.telephony.vcard.d.ts",
             "bundle_name": [
                 "core_service"
@@ -4964,6 +4985,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.animator.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.animator.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8295,6 +8323,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/effect_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/radio.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -9065,7 +9100,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/page_transition.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/particle.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/particle.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14266,6 +14315,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/arkui/component/animation.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/animation.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/badge.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -14456,6 +14519,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/effectComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/effectComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14742,7 +14812,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/pageTransition.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/particle.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/particle.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14868,6 +14952,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.matrix4.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.animator.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -14882,7 +14973,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.shape.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.curves.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.curves.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14896,7 +15001,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.uiMaterial.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.uiMaterial.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.uiMaterial.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14910,7 +15029,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/union_effect_container.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/unionEffectContainer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/unionEffectContainer.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14924,7 +15057,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/distortion_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/distortionComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/distortionComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
