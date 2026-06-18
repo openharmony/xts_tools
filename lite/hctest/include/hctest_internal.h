@@ -144,5 +144,11 @@ struct CTestSuite {
 #endif
 #endif
 
+
+/* === XTS data/bss overlay section macros === */
+/* Variables marked with these go to overlay region (shared across test modules) */
+#define XTS_DATA __attribute__((section(".xts_overlay.data")))
+#define XTS_BSS  __attribute__((section(".xts_overlay.bss")))
+
 #endif
 

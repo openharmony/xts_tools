@@ -55,7 +55,7 @@ typedef struct TestSuiteManager {
      * @param the test case addr.
      * @return TRUE success
      * */
-    void (*AddTestCase)(CTestCase *testCase);
+    void (*AddTestCase)(const CTestCase *testCase);
 
     /**
      * @brief remove special test suite.
@@ -83,33 +83,28 @@ TestSuiteManager *GetTestMgrInstance(void);
         TestSuiteManager *testMgr = GetTestMgrInstance();              \
         testMgr->RegisterTestSuite(&(suite_object##test_suite));       \
     }                                                                  \
-    SYS_SERVICE_INIT(initSuite##test_suite);
+    __attribute__((section(".xts_init." MODULE_NAME), used))                          \
+    static void (*__xts_init_suite_ptr_##test_suite)(void) = initSuite##test_suite;
+
 
 #define LITE_TEST_CASE(test_suite, case_object, test_flag)        \
     static void case_object##_runTest(void);                      \
-    static CTestCase create##case_object;                         \
+    static const CTestCase create##case_object = {                \
+        #test_suite, #case_object, test_flag, __LINE__,           \
+        test_suite##SetUp, test_suite##TearDown,                  \
+        case_object##_runTest                                     \
+    };                                                            \
     static void initCase##case_object(void)                       \
     {                                                             \
-        create##case_object.suite_name = #test_suite;             \
-        create##case_object.case_name = #case_object;             \
-        create##case_object.flag = test_flag;                     \
-        create##case_object.line_num = __LINE__;                  \
-        create##case_object.lite_setup = test_suite##SetUp;       \
-        create##case_object.lite_teardown = test_suite##TearDown; \
-        create##case_object.execute_func = case_object##_runTest; \
         TestSuiteManager *testMgr = GetTestMgrInstance();         \
-        testMgr->AddTestCase(&(create##case_object));             \
+        testMgr->AddTestCase(&create##case_object);               \
     }                                                             \
-    SYS_RUN(initCase##case_object);                               \
+    __attribute__((section(".xts_init." MODULE_NAME), used))      \
+    static void (*__xts_init_case_ptr_##case_object)(void) = initCase##case_object; \
     static void case_object##_runTest(void)
 
-#define RUN_TEST_SUITE(test_suite)                        \
-    static void runSuite##test_suite(void)                \
-    {                                                     \
-        TestSuiteManager *testMgr = GetTestMgrInstance(); \
-        testMgr->RunTestSuite(#test_suite);               \
-    }                                                     \
-    TEST_INIT(runSuite##test_suite);
+/* Phase 2: RUN_TEST_SUITE is empty - tests driven by RunAllXtsTests() */
+#define RUN_TEST_SUITE(test_suite)
 
 void LiteTestPrint(const char *fmt, ...);
 

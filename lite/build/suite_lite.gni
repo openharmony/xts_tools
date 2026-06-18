@@ -157,7 +157,7 @@ template("hctest_suite") {
   ]
 
   _deps = [ "//test/xts/tools/lite/hctest:hctest" ]
-  _defines = [ "UNITY_INCLUDE_CONFIG_H" ]
+  _defines = [ "UNITY_INCLUDE_CONFIG_H", "MODULE_NAME=\"${target_name}\"" ]
   target("testsuite_base", "${target_name}") {
     forward_variables_from(invoker, "*")
     project_type = "hctest"

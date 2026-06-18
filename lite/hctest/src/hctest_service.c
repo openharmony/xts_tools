@@ -21,6 +21,8 @@
 #include "common.h"
 #include "hctest_internal.h"
 
+extern void RunAllXtsTests(void);
+
 typedef struct TestService {
     INHERIT_SERVICE;
     Identity identity;
@@ -74,7 +76,7 @@ static BOOL MessageHandle(Service *service, Request *request)
     switch (request->msgId) {
         case MSG_START_TEST:
             if ((testService->flag & TEST_FLAG) != TEST_FLAG) {
-                INIT_TEST_CALL();
+                RunAllXtsTests();
                 testService->flag |= TEST_FLAG;
             }
             (void)SAMGR_SendResponseByIdentity(&testService->identity, request, NULL);
