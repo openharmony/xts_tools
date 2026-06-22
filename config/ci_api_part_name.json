@@ -16301,6 +16301,210 @@
                 "bundle_framework"
             ],
             "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/ets/global.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.buffer.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.convertxml.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.fastbuffer.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.process.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.taskpool.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.ArrayList.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.Deque.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.HashMap.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.HashSet.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.LightWeightMap.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.LightWeightSet.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.LinkedList.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.List.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.PlainArray.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.Queue.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.Stack.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.TreeMap.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.TreeSet.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.Vector.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.json.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.stream.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.worker.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/@arkts.collections.d.ets",
+            "bundle_name": [],
+            "build_targets": {
+                "acts": [
+                    "test/xts/acts/distributeddatamgr/relationalStoretest/relationalStoreSendabletest:relationalstoreSendable_ets_test",
+                    "test/xts/acts/distributeddatamgr/preferencesSendabletest:preferencesSendable_ets_test",
+                    "test/xts/acts/commonlibrary/ets_utils/sendable_lib_collections:collections_js_test"
+                ]
+            }
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/@arkts.lang.d.ets",
+            "bundle_name": [],
+            "build_targets": {
+                "acts": [
+                    "test/xts/acts/distributeddatamgr/preferencesSendabletest:preferencesSendable_ets_test"
+                ]
+            }
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/@arkts.math.Decimal.d.ets",
+            "bundle_name": [],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/@arkts.utils.d.ets",
+            "bundle_name": [],
+            "build_targets": {
+                "acts": [
+                    "test/xts/acts/distributeddatamgr/relationalStoretest/relationalStoreSendabletest:relationalstoreSendable_ets_test",
+                    "test/xts/acts/commonlibrary/ets_utils/concurrency_base:concurrency_base_js_hap",
+                    "test/xts/acts/distributeddatamgr/preferencesSendabletest:preferencesSendable_ets_test"
+                ]
+            }
         }
     ],
     "sdk_c": [
