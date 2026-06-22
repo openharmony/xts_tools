@@ -14259,6 +14259,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.distributedsched.agentCommunication.d.ts",
+            "bundle_name": [
+                "agentCommunication"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.distributedsched.proxyChannelManager.d.ts",
             "bundle_name": [
                 "proxyChannelManager"
