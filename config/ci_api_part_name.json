@@ -4823,6 +4823,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.ArcList.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.ArcSlider.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -7385,6 +7392,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.ArcScrollBar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.Parallelize.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -8240,6 +8254,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/scroll_bar.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/scroll_bar.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14819,6 +14840,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/flowItem.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/folderStack.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -14868,6 +14896,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/grid.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/gridCol.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -14876,6 +14911,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/gridItem.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/gridItem.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -14952,6 +14994,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/lazyGridLayout.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/line.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -14966,6 +15015,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/list.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/listItem.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -14973,7 +15029,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/listItem.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/listItemGroup.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/listItemGroup.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -15400,6 +15470,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/refresh.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/relativeContainer.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -15463,7 +15540,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/scroll.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/scrollBar.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/scrollBar.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -15730,6 +15821,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/waterFlow.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/waterFlow.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
