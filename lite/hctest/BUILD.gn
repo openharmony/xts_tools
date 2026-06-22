@@ -34,6 +34,9 @@ static_library("hctest") {
   defines = [ "UNITY_INCLUDE_CONFIG_H" ]
 
   deps = []
+  if (hctest_rodata_opt) {
+    deps += [ "//foundation/systemabilitymgr/samgr_lite/samgr/adapter:samgr_adapter" ]
+  }
 
   if (board_toolchain_type != "iccarm") {
     cflags = [ "-Wno-error" ]
