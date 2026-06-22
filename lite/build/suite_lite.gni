@@ -13,6 +13,7 @@
 
 import("//build/lite/config/component/lite_component.gni")
 import("//test/xts/tools/lite/build/common.gni")
+import("//test/xts/tools/lite/hctest/hctest_opt_args.gni")
 
 declare_args() {
   ohos_xts_test_args = ""
@@ -108,6 +109,22 @@ template("hctest_suite") {
 
   _deps = [ "//test/xts/tools/lite/hctest:hctest" ]
   _defines = [ "UNITY_INCLUDE_CONFIG_H" ]
+  if (hctest_rodata_opt) {
+    _defines += [ "HCTEST_RODATA_OPT" ]
+  }
+  # HCTEST_NEW_RUNNER gates the RunAllXtsTests + .xts_init mechanism (overlaydemo)
+  # in hctest.h. Must mirror hctest/BUILD.gn: active when either feature is on,
+  # because every ACTS module compiles hctest.h and emits .xts_init pointers.
+  # MODULE_NAME is only used by the .xts_init section attrs (HCTEST_NEW_RUNNER
+  # path); gated here so OFF matches pristine suite_lite.gni.
+  if (xts_overlay || hctest_rodata_opt) {
+    _defines += [ "HCTEST_NEW_RUNNER", "MODULE_NAME=\"${target_name}\"" ]
+  }
+  # XTS_OVERLAY_ENABLE gates the XTS_DATA/XTS_BSS section macros consumed by
+  # ACTS module sources that tag overlay-shared variables.
+  if (xts_overlay) {
+    _defines += [ "XTS_OVERLAY_ENABLE" ]
+  }
   target("testsuite_base", "${target_name}") {
     forward_variables_from(invoker, "*")
     project_type = "hctest"
