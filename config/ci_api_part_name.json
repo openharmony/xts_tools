@@ -4183,7 +4183,7 @@
             "bundle_name": [
                 "usb_manager"
             ],
-            "build_targets": []
+            "build_targets": {}
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.applicationManager.d.ts",
