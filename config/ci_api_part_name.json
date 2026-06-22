@@ -14259,9 +14259,9 @@
             "build_targets": {}
         },
         {
-            "path": "interface/sdk-js/api/@ohos.distributedsched.agentCommunication.d.ts",
+            "path": "interface/sdk-js/api/@ohos.distributedsched.dsoftbus.d.ts",
             "bundle_name": [
-                "agentCommunication"
+                "dsoftbus"
             ],
             "build_targets": {}
         },
