@@ -16247,6 +16247,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Global.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/arkts/builtin/dynamic/lib.es5.d.ts",
             "bundle_name": [
                 "typescript"
