@@ -1913,5 +1913,439 @@ export default function DecimalPerfTest(): void {
         done();
       })
 
+    // ==================== static log2 ====================
+
+    it('PerformanceTest_Decimal_StaticLog2_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.log2(4);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.log2(4);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticLog2_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'log2',
+          'static log2(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static log10 ====================
+
+    it('PerformanceTest_Decimal_StaticLog10_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.log10(10000);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.log10(10000);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticLog10_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'log10',
+          'static log10(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static cos ====================
+
+    it('PerformanceTest_Decimal_StaticCos_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.cos(-0.25);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.cos(-0.25);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticCos_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'cos',
+          'static cos(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static sin ====================
+
+    it('PerformanceTest_Decimal_StaticSin_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.sin(0.75);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.sin(0.75);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticSin_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sin',
+          'static sin(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static tan ====================
+
+    it('PerformanceTest_Decimal_StaticTan_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.tan(0.75);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.tan(0.75);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticTan_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'tan',
+          'static tan(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static cosh ====================
+
+    it('PerformanceTest_Decimal_StaticCosh_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.cosh(0.5);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.cosh(0.5);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticCosh_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'cosh',
+          'static cosh(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static sinh ====================
+
+    it('PerformanceTest_Decimal_StaticSinh_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.sinh(0.5);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.sinh(0.5);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticSinh_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sinh',
+          'static sinh(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static tanh ====================
+
+    it('PerformanceTest_Decimal_StaticTanh_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.tanh(0.5);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.tanh(0.5);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticTanh_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'tanh',
+          'static tanh(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static acos ====================
+
+    it('PerformanceTest_Decimal_StaticAcos_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.acos(0.5);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.acos(0.5);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAcos_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'acos',
+          'static acos(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static asin ====================
+
+    it('PerformanceTest_Decimal_StaticAsin_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.asin(0.75);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.asin(0.75);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAsin_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'asin',
+          'static asin(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static atan ====================
+
+    it('PerformanceTest_Decimal_StaticAtan_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.atan(0.75);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.atan(0.75);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAtan_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'atan',
+          'static atan(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static acosh ====================
+
+    it('PerformanceTest_Decimal_StaticAcosh_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.acosh(50);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.acosh(50);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAcosh_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'acosh',
+          'static acosh(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static asinh ====================
+
+    it('PerformanceTest_Decimal_StaticAsinh_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.asinh(50);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.asinh(50);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAsinh_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'asinh',
+          'static asinh(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static atanh ====================
+
+    it('PerformanceTest_Decimal_StaticAtanh_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.atanh(0.75);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.atanh(0.75);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAtanh_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'atanh',
+          'static atanh(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static atan2 ====================
+
+    it('PerformanceTest_Decimal_StaticAtan2_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.atan2(2, 3);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.atan2(2, 3);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAtan2_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'atan2',
+          'static atan2(y: Value, x: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static hypot ====================
+
+    it('PerformanceTest_Decimal_StaticHypot_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.hypot(2, 3, 4);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.hypot(2, 3, 4);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticHypot_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'hypot',
+          'static hypot(...n: Value[]): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static max ====================
+
+    it('PerformanceTest_Decimal_StaticMax_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.max(2, 3, 4);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.max(2, 3, 4);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticMax_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'max',
+          'static max(...n: Value[]): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static min ====================
+
+    it('PerformanceTest_Decimal_StaticMin_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.min(2, 3, 4);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.min(2, 3, 4);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticMin_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'min',
+          'static min(...n: Value[]): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static random ====================
+
+    it('PerformanceTest_Decimal_StaticRandom_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.random();
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.random();
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticRandom_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'random',
+          'static random(): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    it('PerformanceTest_Decimal_StaticRandom_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.random(20);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.random(20);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticRandom_0200: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'random',
+          'static random(significantDigits: number): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static sign ====================
+
+    it('PerformanceTest_Decimal_StaticSign_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: number = Decimal.sign(2);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.sign(2);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticSign_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sign',
+          'static sign(n: Value): number', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static round ====================
+
+    it('PerformanceTest_Decimal_StaticRound_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let res: Decimal = Decimal.round(3.3333333333333);
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          res = Decimal.round(3.3333333333333);
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticRound_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'round',
+          'static round(n: Value): Decimal', arkTsAveragedTime);
+        done();
+      })
+
+    // ==================== static set ====================
+
+    it('PerformanceTest_Decimal_StaticSet_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        Decimal.set({ precision: 5, rounding: 4 });
+        let arkTsAveragedTime: number = 0;
+        let Stime = systemDateTime.getTime(true);
+        for (let i = 0; i < BASE_COUNT; i++) {
+          Decimal.set({ precision: 5, rounding: 4 });
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticSet_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'set',
+          'static set(config: DecimalConfig): void', arkTsAveragedTime);
+        done();
+      })
+
   })
 }
