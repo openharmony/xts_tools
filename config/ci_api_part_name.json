@@ -9632,7 +9632,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/interop.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/incremental/runtime/state.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/incremental/runtime/state.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -15863,6 +15877,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/incremental/annotation.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/incremental/annotation.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
