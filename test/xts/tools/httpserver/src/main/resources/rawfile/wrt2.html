@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; report-uri csp://localhost:8080/report">
+  <link rel="prefetch" href="resource.js" as="script">
+  <link rel="prefetch" href="data.json" as="fetch">
+  <link rel="stylesheet" href="styles.css">
+  <title>Video</title>
+  <script src="local_script.js"></script>
+  <script src="xhr.js"></script>
+  <script src="worker.js"></script>
+  <script src="sw.js"></script>
+  <style>
+    p {font-family:Courier New;font-size:10px;}
+  </style>
+</head>
+<body>
+Hello world!
+<video id="video" controls preload="none" muted autoplay controlslist="noremoteplayback">
+  <source id="mp4" type="video/mp4" src="02.mp4">
+</video>
+<img src="cat.svg" alt="cat" />
+<object data="img.png" type="image/png">您的浏览器不支持图片显示。</object>
+<a id="pingLink" href ping="http://localhost:8080/posturl">链接1</a>
+</body>
+<script type="text/javascript">
+  window.onload = function() {
+    navigator.sendBeacon('http://localhost:8080/posturl');
+    document.getElementById("pingLink).click();
+    let myWorker = new Worker("./worker.js");
+    navigator.serviceWorker.register('./sw.js')
+    .then(reg => registerSuccess())
+    .catch(error => console.log('failed!', error))
+  };
+  const xhr = new XMLHttpRequest();
+  xhr.onload = () => {
+      console.log(xhr.responseXML.title);
+  }
+  xhr.open("GET", "index.html");
+  xhr.responseType = "document";
+  xhr.send();
+</script>
+
+</html>
