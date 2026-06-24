@@ -16533,6 +16533,46 @@
                     "test/xts/acts/distributeddatamgr/preferencesSendabletest:preferencesSendable_ets_test"
                 ]
             }
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.transfer.d.ets",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.uri.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.url.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.util.static.d.ets",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.xml.d.ts",
+            "bundle_name": [
+                "ets_utils"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/@arkts.collections.static.d.ets",
+            "bundle_name": [],
+            "build_targets": {}
         }
     ],
     "sdk_c": [
