@@ -1,0 +1,11 @@
+/**
+ * Swift cross-language verification for TYP_03_17_01_007_RUNTIME_READONLY_TUPLE_BASIC
+ */
+import Foundation
+
+let tuple: (Int, String) = (1, "abc")
+
+if tuple.0 != 1 { fatalError("tuple.0 should be 1") }
+if tuple.1 != "abc" { fatalError("tuple.1 should be abc") }
+
+print("verified")
