@@ -1848,6 +1848,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.shortKey.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.application.DataShareExtensionAbility.d.ts",
             "bundle_name": [
                 "data_share"
@@ -2205,6 +2212,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.inputEvent.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.hash.d.ts",
             "bundle_name": [
                 "file_api"
@@ -2262,6 +2276,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.keyEvent.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.keyEvent.d.ts",
             "bundle_name": [
                 "input"
             ],
@@ -2982,6 +3003,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.pointer.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.application.formInfo.d.ts",
             "bundle_name": [
                 "form_fwk"
@@ -2990,6 +3018,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.inputMonitor.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.inputMonitor.d.ts",
             "bundle_name": [
                 "input"
             ],
@@ -3123,6 +3158,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.infraredEmitter.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.infraredEmitter.d.ts",
             "bundle_name": [
                 "input"
             ],
@@ -3340,6 +3382,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.inputDevice.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.inputDevice.d.ts",
             "bundle_name": [
                 "input"
             ],
@@ -3564,6 +3613,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.touchEvent.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.touchEvent.d.ts",
             "bundle_name": [
                 "input"
             ],
@@ -5376,6 +5432,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.inputEventClient.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.util.PlainArray.d.ts",
             "bundle_name": [
                 "ets_utils"
@@ -5461,6 +5524,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.intentionCode.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.intentionCode.d.ts",
             "bundle_name": [
                 "input"
             ],
@@ -5929,6 +5999,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.inputConsumer.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.util.Vector.d.ts",
             "bundle_name": [
                 "ets_utils"
@@ -6013,6 +6090,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.inputDeviceCooperate.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.inputMethod.Panel.d.ts",
             "bundle_name": [
                 "imf"
@@ -6035,6 +6119,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.keyCode.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.keyCode.d.ts",
             "bundle_name": [
                 "input"
             ],
@@ -6427,6 +6518,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.mouseEvent.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.mouseEvent.d.ts",
             "bundle_name": [
                 "input"
             ],
@@ -7197,6 +7295,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.gestureEvent.d.ts",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalInput.gestureEvent.d.ts",
             "bundle_name": [
                 "input"
             ],
@@ -17268,6 +17373,13 @@
         },
         {
             "path": "interface/sdk_c/multimodalinput/kits/c",
+            "bundle_name": [
+                "input"
+            ],
+            "build_targets": {}
+        },
+                {
+            "path": "interface/sdk_c/zh-cn/multimodalinput/kits/c",
             "bundle_name": [
                 "input"
             ],
