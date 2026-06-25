@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,7 +34,6 @@ function func1(key: xml.EventType, value: xml.ParseInfo) {
 function func2(name: string, value: string) {
   return true;
 }
-
 
 declare class ArkTools {
   static forceFullGC(): void;
@@ -75,14 +74,16 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setAttributes_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        const bufferSize = 2048;
-        const arrayBuffer = new ArrayBuffer(bufferSize);
-        let thatSer = new xml.XmlSerializer(arrayBuffer, 'utf-8');
-        thatSer.startElement("note");
-        let res: void = thatSer.setAttributes("importance", "high"); ;
+        let serializers: xml.XmlSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let s = new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8');
+          s.startElement("note");
+          serializers.push(s);
+        }
+        let res: void = serializers[0].setAttributes("importance", "high");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = thatSer.setAttributes("importance", "high");
+          res = serializers[i].setAttributes("importance", "high");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -97,13 +98,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_addEmptyElement_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        const bufferSize = 2048;
-        const arrayBuffer = new ArrayBuffer(bufferSize);
-        let thatSer = new xml.XmlSerializer(arrayBuffer, 'utf-8');
-        let res: void = thatSer.addEmptyElement("d");
+        let serializers: xml.XmlSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8'));
+        }
+        let res: void = serializers[0].addEmptyElement("d");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = thatSer.addEmptyElement("d");
+          res = serializers[i].addEmptyElement("d");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -118,13 +120,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setDeclaration_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        const bufferSize = 2048;
-        const arrayBuffer = new ArrayBuffer(bufferSize);
-        let thatSer = new xml.XmlSerializer(arrayBuffer, 'utf-8');
-        let res: void = thatSer.setDeclaration();
+        let serializers: xml.XmlSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8'));
+        }
+        let res: void = serializers[0].setDeclaration();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = thatSer.setDeclaration();
+          res = serializers[i].setDeclaration();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -139,13 +142,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_startElement_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        const bufferSize = 2048;
-        const arrayBuffer = new ArrayBuffer(bufferSize);
-        let thatSer = new xml.XmlSerializer(arrayBuffer, 'utf-8');
-        let res: void = thatSer.startElement("note");
+        let serializers: xml.XmlSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8'));
+        }
+        let res: void = serializers[0].startElement("note");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = thatSer.startElement("note");
+          res = serializers[i].startElement("note");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -160,16 +164,16 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_endElement_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        const arrayBuffer = new ArrayBuffer(128 * BASE_COUNT);
-        let thatSer = new xml.XmlSerializer(arrayBuffer, 'utf-8');
-        for (let i = 0; i < BASE_COUNT; i++) {
-          thatSer.startElement("n");
+        let serializers: xml.XmlSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let s = new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8');
+          s.startElement("n");
+          serializers.push(s);
         }
-        thatSer.startElement("n");
-        let res: void = thatSer.endElement();
+        let res: void = serializers[0].endElement();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = thatSer.endElement();
+          res = serializers[i].endElement();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -184,13 +188,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setNamespace_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        const bufferSize = 2048;
-        const arrayBuffer = new ArrayBuffer(bufferSize);
-        let thatSer = new xml.XmlSerializer(arrayBuffer, 'utf-8');
-        let res: void = thatSer.setNamespace("h", "http://www.w3.org/TR/html4/");
+        let serializers: xml.XmlSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8'));
+        }
+        let res: void = serializers[0].setNamespace("h", "http://www.w3.org/TR/html4/");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = thatSer.setNamespace("h", "http://www.w3.org/TR/html4/");
+          res = serializers[i].setNamespace("h", "http://www.w3.org/TR/html4/");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -205,13 +210,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setComment_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        const bufferSize = 2048;
-        const arrayBuffer = new ArrayBuffer(bufferSize);
-        let thatSer = new xml.XmlSerializer(arrayBuffer, 'utf-8');
-        let res: void = thatSer.setComment("Hello, World!");
+        let serializers: xml.XmlSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8'));
+        }
+        let res: void = serializers[0].setComment("Hello, World!");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = thatSer.setComment("Hello, World!");
+          res = serializers[i].setComment("Hello, World!");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -226,13 +232,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setCDATA_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        const bufferSize = 2048;
-        const arrayBuffer = new ArrayBuffer(bufferSize);
-        let thatSer = new xml.XmlSerializer(arrayBuffer, 'utf-8');
-        let res: void = thatSer.setCDATA('root SYSTEM');
+        let serializers: xml.XmlSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8'));
+        }
+        let res: void = serializers[0].setCDATA('root SYSTEM');
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = thatSer.setCDATA('root SYSTEM');
+          res = serializers[i].setCDATA('root SYSTEM');
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -247,14 +254,16 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setText_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        const bufferSize = 2048;
-        const arrayBuffer = new ArrayBuffer(bufferSize);
-        let thatSer = new xml.XmlSerializer(arrayBuffer, 'utf-8');
-        thatSer.startElement("note");
-        let res: void = thatSer.setText("Happy");
+        let serializers: xml.XmlSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let s = new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8');
+          s.startElement("note");
+          serializers.push(s);
+        }
+        let res: void = serializers[0].setText("Happy");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = thatSer.setText("Happy");
+          res = serializers[i].setText("Happy");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -269,13 +278,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setDocType_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        const bufferSize = 2048;
-        const arrayBuffer = new ArrayBuffer(bufferSize);
-        let thatSer = new xml.XmlSerializer(arrayBuffer, 'utf-8');
-        let res: void = thatSer.setDocType('root SYSTEM "http://www.test.org/test.dtd"');
+        let serializers: xml.XmlSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8'));
+        }
+        let res: void = serializers[0].setDocType('root SYSTEM "http://www.test.org/test.dtd"');
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = thatSer.setDocType('root SYSTEM "http://www.test.org/test.dtd"');
+          res = serializers[i].setDocType('root SYSTEM "http://www.test.org/test.dtd"');
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -330,12 +340,16 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setAttributes_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let serializer = new xml.XmlDynamicSerializer('utf-8');
-        serializer.startElement("note");
-        let res: void = serializer.setAttributes("importance", "high");
+        let serializers: xml.XmlDynamicSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let s = new xml.XmlDynamicSerializer('utf-8');
+          s.startElement("note");
+          serializers.push(s);
+        }
+        let res: void = serializers[0].setAttributes("importance", "high");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = serializer.setAttributes("importance", "high");
+          res = serializers[i].setAttributes("importance", "high");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -350,14 +364,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_addEmptyElement_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let serializer = new xml.XmlDynamicSerializer('utf-8');
-        let res: void = serializer.addEmptyElement("d");
-        let arrayBuffer = serializer.getOutput();
-        let uint8 = new Uint8Array(arrayBuffer);
-        let result = util.TextDecoder.create().decodeToString(uint8);
+        let serializers: xml.XmlDynamicSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlDynamicSerializer('utf-8'));
+        }
+        let res: void = serializers[0].addEmptyElement("d");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = serializer.addEmptyElement("testElem");
+          res = serializers[i].addEmptyElement("testElem");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -372,11 +386,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setDeclaration_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let serializer = new xml.XmlDynamicSerializer('utf-8');
-        let res: void = serializer.setDeclaration();
+        let serializers: xml.XmlDynamicSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlDynamicSerializer('utf-8'));
+        }
+        let res: void = serializers[0].setDeclaration();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = serializer.setDeclaration();
+          res = serializers[i].setDeclaration();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -391,11 +408,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_startElement_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let serializer = new xml.XmlDynamicSerializer('utf-8');
-        let res: void = serializer.startElement("note");
+        let serializers: xml.XmlDynamicSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlDynamicSerializer('utf-8'));
+        }
+        let res: void = serializers[0].startElement("note");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = serializer.startElement("note");
+          res = serializers[i].startElement("note");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -410,15 +430,13 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_endElement_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let serializer = new xml.XmlDynamicSerializer('utf-8');
-        serializer.startElement("n");
-        let res: void = serializer.endElement();
         let serializers: xml.XmlDynamicSerializer[] = [];
-        for (let i = 0; i < BASE_COUNT; i++) {
-          let item = new xml.XmlDynamicSerializer('utf-8');
-          item.startElement("n");
-          serializers.push(item);
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let s = new xml.XmlDynamicSerializer('utf-8');
+          s.startElement("n");
+          serializers.push(s);
         }
+        let res: void = serializers[0].endElement();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
           res = serializers[i].endElement();
@@ -436,11 +454,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setNamespace_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let serializer = new xml.XmlDynamicSerializer('utf-8');
-        let res: void = serializer.setNamespace("h", "http://www.w3.org/TR/html4/");
+        let serializers: xml.XmlDynamicSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlDynamicSerializer('utf-8'));
+        }
+        let res: void = serializers[0].setNamespace("h", "http://www.w3.org/TR/html4/");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = serializer.setNamespace("h", "http://www.w3.org/TR/html4/");
+          res = serializers[i].setNamespace("h", "http://www.w3.org/TR/html4/");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -455,11 +476,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setComment_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let serializer = new xml.XmlDynamicSerializer('utf-8');
-        let res: void = serializer.setComment("Hello, World!");
+        let serializers: xml.XmlDynamicSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlDynamicSerializer('utf-8'));
+        }
+        let res: void = serializers[0].setComment("Hello, World!");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = serializer.setComment("Hello, World!");
+          res = serializers[i].setComment("Hello, World!");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -474,11 +498,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setCdata_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let serializer = new xml.XmlDynamicSerializer('utf-8');
-        let res: void = serializer.setCdata('root SYSTEM');
+        let serializers: xml.XmlDynamicSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlDynamicSerializer('utf-8'));
+        }
+        let res: void = serializers[0].setCdata('root SYSTEM');
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = serializer.setCdata('root SYSTEM');
+          res = serializers[i].setCdata('root SYSTEM');
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -493,12 +520,16 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setText_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let serializer = new xml.XmlDynamicSerializer('utf-8');
-        serializer.startElement("note");
-        let res: void = serializer.setText("Happy");
+        let serializers: xml.XmlDynamicSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let s = new xml.XmlDynamicSerializer('utf-8');
+          s.startElement("note");
+          serializers.push(s);
+        }
+        let res: void = serializers[0].setText("Happy");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = serializer.setText("Happy");
+          res = serializers[i].setText("Happy");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -513,11 +544,14 @@ export default function XmlPerfTest(): void {
 
     it('XmlPerfTest_void_setDocType_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let serializer = new xml.XmlDynamicSerializer('utf-8');
-        let res: void = serializer.setDocType('root SYSTEM "http://www.test.org/test.dtd"');
+        let serializers: xml.XmlDynamicSerializer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          serializers.push(new xml.XmlDynamicSerializer('utf-8'));
+        }
+        let res: void = serializers[0].setDocType('root SYSTEM "http://www.test.org/test.dtd"');
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = serializer.setDocType('root SYSTEM "http://www.test.org/test.dtd"');
+          res = serializers[i].setDocType('root SYSTEM "http://www.test.org/test.dtd"');
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -561,13 +595,15 @@ export default function XmlPerfTest(): void {
             '</note>';
         let textEncoder = new util.TextEncoder();
         let uint8 = textEncoder.encodeInto(strxml);
-
         let options: xml.ParseOptions = {supportDoctype:true, ignoreNameSpace:true, tokenValueCallbackFunction:func1}
-        let pullParser = new xml.XmlPullParser(uint8.buffer as object as ArrayBuffer);
-        let res: void = pullParser.parseXml(options);
+        let parsers: xml.XmlPullParser[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          parsers.push(new xml.XmlPullParser(uint8.buffer as object as ArrayBuffer));
+        }
+        let res: void = parsers[0].parseXml(options);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = pullParser.parseXml(options);
+          res = parsers[i].parseXml(options);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -590,7 +626,6 @@ export default function XmlPerfTest(): void {
             '</note>';
         let textEncoder = new util.TextEncoder();
         let arrbuffer = textEncoder.encodeInto(strXml);
-        let that = new xml.XmlPullParser(arrbuffer.buffer as ArrayBuffer, 'UTF-8');
 
         let options: xml.ParseOptions = {
           supportDoctype: true,
@@ -598,10 +633,14 @@ export default function XmlPerfTest(): void {
           tagValueCallbackFunction: func2
         };
 
-        let res: void = that.parse(options);
+        let parsers: xml.XmlPullParser[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          parsers.push(new xml.XmlPullParser(arrbuffer.buffer as ArrayBuffer, 'UTF-8'));
+        }
+        let res: void = parsers[0].parse(options);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = that.parse(options);
+          res = parsers[i].parse(options);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -623,7 +662,6 @@ export default function XmlPerfTest(): void {
             '<column name="day"><orange Boolean="3"/></column>';
         let textEncoder = new util.TextEncoder();
         let arrBuffer = textEncoder.encodeInto(xmlStr);
-        let that = new xml.XmlPullParser(arrBuffer.buffer as ArrayBuffer, 'UTF-8');
 
         let attrWithTag = (tagName: string, key: string, value: string): boolean => {
           return true;
@@ -635,10 +673,14 @@ export default function XmlPerfTest(): void {
           attributeWithTagCallbackFunction: attrWithTag
         };
 
-        let res: void = that.parseXml(options);
+        let parsers: xml.XmlPullParser[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          parsers.push(new xml.XmlPullParser(arrBuffer.buffer as ArrayBuffer, 'UTF-8'));
+        }
+        let res: void = parsers[0].parseXml(options);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = that.parseXml(options);
+          res = parsers[i].parseXml(options);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -657,7 +699,6 @@ export default function XmlPerfTest(): void {
         let textEncoder = new util.TextEncoder();
         let arrbuffer = textEncoder.encodeInto(strXml);
         let that = new xml.XmlPullParser(arrbuffer.buffer as ArrayBuffer);
-
 
         let options: xml.ParseOptions = {
           supportDoctype: true,
@@ -694,7 +735,6 @@ export default function XmlPerfTest(): void {
         let arrbuffer = textEncoder.encodeInto(strXml);
         let that = new xml.XmlPullParser(arrbuffer.buffer as ArrayBuffer);
 
-
         let options: xml.ParseOptions = {
           supportDoctype: true,
           ignoreNameSpace: true,
@@ -726,7 +766,6 @@ export default function XmlPerfTest(): void {
         let arrbuffer = textEncoder.encodeInto(strXml);
         let that = new xml.XmlPullParser(arrbuffer.buffer as ArrayBuffer);
 
-
         let options: xml.ParseOptions = {
           supportDoctype: true,
           ignoreNameSpace: true,
@@ -757,7 +796,6 @@ export default function XmlPerfTest(): void {
         let textEncoder = new util.TextEncoder();
         let arrbuffer = textEncoder.encodeInto(strXml);
         let that = new xml.XmlPullParser(arrbuffer.buffer as ArrayBuffer);
-
 
         let options: xml.ParseOptions = {
           supportDoctype: true,
@@ -794,7 +832,6 @@ export default function XmlPerfTest(): void {
         let arrbuffer = textEncoder.encodeInto(strXml);
         let that = new xml.XmlPullParser(arrbuffer.buffer as ArrayBuffer);
 
-
         let options: xml.ParseOptions = {
           supportDoctype: true,
           ignoreNameSpace: false,
@@ -829,7 +866,6 @@ export default function XmlPerfTest(): void {
         let textEncoder = new util.TextEncoder();
         let arrbuffer = textEncoder.encodeInto(strXml);
         let that = new xml.XmlPullParser(arrbuffer.buffer as ArrayBuffer);
-
 
         let options: xml.ParseOptions = {
           supportDoctype: true,
@@ -897,7 +933,6 @@ export default function XmlPerfTest(): void {
         let arrbuffer = textEncoder.encodeInto(strXml);
         let that = new xml.XmlPullParser(arrbuffer.buffer as ArrayBuffer);
 
-
         let options: xml.ParseOptions = {
           supportDoctype: true,
           ignoreNameSpace: true,
@@ -933,7 +968,6 @@ export default function XmlPerfTest(): void {
         let arrbuffer = textEncoder.encodeInto(strXml);
         let that = new xml.XmlPullParser(arrbuffer.buffer as ArrayBuffer);
 
-
         let options: xml.ParseOptions = {
           supportDoctype: true,
           ignoreNameSpace: true,
@@ -964,7 +998,6 @@ export default function XmlPerfTest(): void {
         let textEncoder = new util.TextEncoder();
         let arrbuffer = textEncoder.encodeInto(strXml);
         let that = new xml.XmlPullParser(arrbuffer.buffer as ArrayBuffer);
-
 
         let options: xml.ParseOptions = {
           supportDoctype: true,
@@ -1005,74 +1038,6 @@ export default function XmlPerfTest(): void {
         performance.apiWithClassAndKeywordTxt('ohos.util', 'EventType', 'AccessEnum',
           'START_DOCUMENT = 0;', arkTsAveragedTime);
         expect(res === 0).assertTrue();
-        done();
-      })
-
-    it('XmlPerfTest_EventType_AccessEnum_3801', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res = xml.EventType.END_DOCUMENT;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = xml.EventType.END_DOCUMENT;
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsXmlPerfTest arkTsAveragedTime XmlPerfTest_EventType_AccessEnum_3801: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('ohos.util', 'EventType', 'AccessEnum',
-          'END_DOCUMENT;', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
-      })
-
-    it('XmlPerfTest_EventType_AccessEnum_3802', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res = xml.EventType.START_TAG;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = xml.EventType.START_TAG;
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsXmlPerfTest arkTsAveragedTime XmlPerfTest_EventType_AccessEnum_3802: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('ohos.util', 'EventType', 'AccessEnum',
-          'START_TAG;', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
-      })
-
-    it('XmlPerfTest_EventType_AccessEnum_3803', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res = xml.EventType.END_TAG;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = xml.EventType.END_TAG;
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsXmlPerfTest arkTsAveragedTime XmlPerfTest_EventType_AccessEnum_3803: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('ohos.util', 'EventType', 'AccessEnum',
-          'END_TAG;', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
-      })
-
-    it('XmlPerfTest_EventType_AccessEnum_3804', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res = xml.EventType.TEXT;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = xml.EventType.TEXT;
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsXmlPerfTest arkTsAveragedTime XmlPerfTest_EventType_AccessEnum_3804: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('ohos.util', 'EventType', 'AccessEnum',
-          'TEXT;', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
         done();
       })
 

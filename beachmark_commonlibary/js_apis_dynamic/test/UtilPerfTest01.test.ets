@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -212,14 +212,11 @@ export default function UtilPerfTest01(): void {
 
     it('UtilPerfTest01_Void_EnableLocalHandleDetection_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       () => {
-        util.ArkTSVM.enableLocalHandleDetection();
-        let res = util.ArkTSVM.enableLocalHandleDetection();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = util.ArkTSVM.enableLocalHandleDetection();
+          util.ArkTSVM.enableLocalHandleDetection();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Void_EnableLocalHandleDetection_1100: ' +
           arkTsAveragedTime + 'ns');
@@ -251,63 +248,16 @@ export default function UtilPerfTest01(): void {
     })
 
     it('UtilPerfTest01_Void_OffVMHeapMemoryPressure_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res = util.ArkTSVM.offVMHeapMemoryPressure();
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = util.ArkTSVM.offVMHeapMemoryPressure();
+        util.ArkTSVM.offVMHeapMemoryPressure();
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Void_OffVMHeapMemoryPressure_1300: ' +
         arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.util', 'util.ArkTSVM', 'offVMHeapMemoryPressure',
         'static offVMHeapMemoryPressure(): void;', arkTsAveragedTime);
-    })
-
-    it('UtilPerfTest01_Number_HeapMemoryThreshold_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let threshold: util.HeapMemoryThreshold = {
-        localHeapThreshold: 75,
-        sharedHeapThreshold: 80,
-        processHeapThreshold: 85
-      };
-      let res = threshold;
-      let Stime = systemDateTime.getTime(true);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = threshold;
-      }
-      let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Number_HeapMemoryThreshold_1400: ' +
-        arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.util', 'util', 'HeapMemoryThreshold',
-        'interface HeapMemoryThreshold ' +
-          '{ localHeapThreshold?: number; sharedHeapThreshold?: number; processHeapThreshold?: number; }',
-        arkTsAveragedTime);
-    })
-
-
-    it('UtilPerfTest01_Util_HeapMemoryInfo_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let heapInfo: util.HeapMemoryInfo = {
-        threadId: 12345,
-        threadName: 'main',
-        heapType: 'local',
-        heapObjectSize: 1024
-      };
-      let res = heapInfo;
-      let Stime = systemDateTime.getTime(true);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = heapInfo;
-      }
-      let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Util_HeapMemoryInfo_1500: ' +
-        arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.util', 'util', 'HeapMemoryInfo',
-        'interface HeapMemoryInfo ' +
-          '{ threadId?: number; threadName?: string; heapType: string; heapObjectSize: number; }', arkTsAveragedTime);
     })
 
     it('UtilPerfTest01_String_Printf_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -357,53 +307,6 @@ export default function UtilPerfTest01(): void {
         'promiseWrapper(original: (err: Object, value: Object) => void): Object;', arkTsAveragedTime);
     })
 
-    it('UtilPerfTest01_Boolean_TextDecoderOptions_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let res: util.TextDecoderOptions = { fatal: false, ignoreBOM: false };
-      let Stime = systemDateTime.getTime(true);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = { fatal: false, ignoreBOM: false };
-      }
-      let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Boolean_TextDecoderOptions_1900: ' +
-        arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.util', 'util', 'TextDecoderOptions',
-        'interface TextDecoderOptions { fatal?: boolean; ignoreBOM?: boolean; }', arkTsAveragedTime);
-    })
-
-    it('UtilPerfTest01_Boolean_DecodeToStringOptions_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let options: util.DecodeToStringOptions = { stream: false };
-      let res = options;
-      let Stime = systemDateTime.getTime(true);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = options;
-      }
-      let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Boolean_DecodeToStringOptions_2000: ' +
-        arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.util', 'util', 'DecodeToStringOptions',
-        'interface DecodeToStringOptions { stream?: boolean; }', arkTsAveragedTime);
-    })
-
-    it('UtilPerfTest01_Boolean_DecodeWithStreamOptions_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let options: util.DecodeWithStreamOptions = { stream: false };
-      let res = options;
-      let Stime = systemDateTime.getTime(true);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = options;
-      }
-      let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Boolean_DecodeWithStreamOptions_2100: ' +
-        arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.util', 'util', 'DecodeWithStreamOptions',
-        'interface DecodeWithStreamOptions { stream?: boolean; }', arkTsAveragedTime);
-    })
-
     it('UtilPerfTest01_Void_AddBefore_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       class MyClass {
         msg: string = 'msg000';
@@ -422,18 +325,13 @@ export default function UtilPerfTest01(): void {
       let asp = new MyClass();
       let result = asp.foo('123');
 
-      let res = util.Aspect.addBefore(MyClass, 'foo', false, (instance: MyClass, arg: string) => {
-        instance.msg = 'msg111';
-      });
-
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = util.Aspect.addBefore(MyClass, 'foo', false, (instance: MyClass, arg: string) => {
+        let res = util.Aspect.addBefore(MyClass, 'foo', false, (instance: MyClass, arg: string) => {
           instance.msg = 'msg111';
         });
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Void_AddBefore_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.util', 'util.Aspect', 'addBefore',
@@ -452,20 +350,14 @@ export default function UtilPerfTest01(): void {
       let asp = new MyClass();
       let result = asp.foo('123');
 
-      let res = util.Aspect.addAfter(MyClass, 'foo', false, (instance: MyClass, ret: string, arg: string): string => {
-        instance.msg = 'msg111';
-        return 'msg222';
-      });
-
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = util.Aspect.addAfter(MyClass, 'foo', false, (instance: MyClass, ret: string, arg: string): string => {
+        let res = util.Aspect.addAfter(MyClass, 'foo', false, (instance: MyClass, ret: string, arg: string): string => {
           instance.msg = 'msg111';
           return 'msg222';
         });
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Void_AddAfter_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.util', 'util.Aspect', 'addAfter',
@@ -484,20 +376,14 @@ export default function UtilPerfTest01(): void {
       let asp = new MyClass();
       let result = asp.foo('123');
 
-      let res = util.Aspect.replace(MyClass, 'foo', false, (instance: MyClass, arg: string): string => {
-        instance.msg = 'msg111';
-        return 'msg222';
-      });
-
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = util.Aspect.replace(MyClass, 'foo', false, (instance: MyClass, arg: string): string => {
+        let res = util.Aspect.replace(MyClass, 'foo', false, (instance: MyClass, arg: string): string => {
           instance.msg = 'msg111';
           return 'msg222';
         });
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Void_Replace_2400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.util', 'util.Aspect', 'replace',
@@ -528,11 +414,10 @@ export default function UtilPerfTest01(): void {
         ignoreBOM: true
       };
       let textDecoder = util.TextDecoder.create('utf-8', textDecoderOptions);
-      let retStr = textDecoder.encoding;
-      let res = retStr;
+      let res = textDecoder;
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = util.TextDecoder.create('utf-8', textDecoderOptions).encoding;
+        res = util.TextDecoder.create('utf-8', textDecoderOptions);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
@@ -563,30 +448,6 @@ export default function UtilPerfTest01(): void {
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_String_DecodeToString_2700: ' +
-        arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.util', 'util.TextDecoder', 'decodeToString',
-        'decodeToString(input: Uint8Array, options?: DecodeToStringOptions): string;', arkTsAveragedTime);
-    })
-
-    it('UtilPerfTest01_String_DecodeToString_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let textDecoderOptions: util.TextDecoderOptions = {
-        fatal: false,
-        ignoreBOM: true
-      };
-      let decodeToStringOptions: util.DecodeToStringOptions = {
-        stream: false
-      };
-      let textDecoder = util.TextDecoder.create('utf-8', textDecoderOptions);
-      let uint8 = new Uint8Array([97, 98, 0, 99]);
-      let res = textDecoder.decodeToString(uint8, decodeToStringOptions);
-      let Stime = systemDateTime.getTime(true);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = textDecoder.decodeToString(uint8, decodeToStringOptions);
-      }
-      let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_String_DecodeToString_2800: ' +
         arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.util', 'util.TextDecoder', 'decodeToString',
         'decodeToString(input: Uint8Array, options?: DecodeToStringOptions): string;', arkTsAveragedTime);
@@ -665,39 +526,20 @@ export default function UtilPerfTest01(): void {
         'decode(input: Uint8Array, options?: { stream?: false }): string;', arkTsAveragedTime);
     })
 
-    it('UtilPerfTest01_Number_EncodeIntoUint8ArrayInfo_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let info: util.EncodeIntoUint8ArrayInfo = {
-        read: 3,
-        written: 3
-      };
-      let res = info;
-      let Stime = systemDateTime.getTime(true);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = { read: 3, written: 3 };
-      }
-      let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Number_EncodeIntoUint8ArrayInfo_3200: ' +
-        arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.util', 'util', 'EncodeIntoUint8ArrayInfo',
-        'interface EncodeIntoUint8ArrayInfo { readonly read: number; readonly written: number; }', arkTsAveragedTime);
-    })
-
     it('UtilPerfTest01_String_TextEncoder_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let textEncoder = new util.TextEncoder();
-      let res = textEncoder.encoding;
+      let res = textEncoder;
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = new util.TextEncoder().encoding;
+        res = new util.TextEncoder();
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_String_TextEncoder_3300: ' +
         arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.util', 'util', 'TextEncoder',
-        'class TextEncoder { readonly encoding: string; }', arkTsAveragedTime);
+      performance.apiWithClassAndKeywordTxt('std.util', 'util.TextEncoder', 'constructor',
+        'constructor(encoding?: string);', arkTsAveragedTime);
     })
 
     it('UtilPerfTest01_TextEncoder_TextEncoderConstructor_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,

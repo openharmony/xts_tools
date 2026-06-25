@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -291,12 +291,14 @@ export default function ListPerfTest(): void {
         let callback = (value: number, index: number, listObj: List<number>): number => {
           return value;
         };
+        let res: void = lists[0].replaceAllElements(callback);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          lists[i].replaceAllElements(callback);
+          res = lists[i].replaceAllElements(callback);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_ReplaceAllElements_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'replaceAllElements',
@@ -312,12 +314,14 @@ export default function ListPerfTest(): void {
         list.add(1);
         let callback = (value: number, index: number, listObj: List<number>): void => {
         };
+        let res: void = list.forEach(callback);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          list.forEach(callback);
+          res = list.forEach(callback);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'forEach',
@@ -341,12 +345,14 @@ export default function ListPerfTest(): void {
         let comparator = (a: number, b: number): number => {
           return a - b;
         };
+        let res: void = lists[0].sort(comparator);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          lists[i].sort(comparator);
+          res = lists[i].sort(comparator);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Sort_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'sort',
@@ -387,13 +393,14 @@ export default function ListPerfTest(): void {
           l.add(1);
           lists.push(l);
         }
+        let res: void = lists[0].clear();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          lists[i].clear();
+          res = lists[i].clear();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = lists[0];
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Clear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'clear',

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,7 +22,6 @@ import { systemDateTime } from '@kit.BasicServicesKit';
 import { util } from '@kit.ArkTS';
 import { TreeMap } from '@kit.ArkTS';
 
-
 declare class ArkTools {
   static forceFullGC(): void;
 }
@@ -39,7 +38,6 @@ export default function TreeMapPerfTest(): void {
     afterAll(() => {
       performance.save('apiPerformance.txt');
     })
-
 
     it('TreeMapPerfTest_boolean_constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
@@ -186,31 +184,37 @@ export default function TreeMapPerfTest(): void {
         let treeMap : TreeMap<string, number> = new TreeMap<string, number>();
         treeMap.set("squirrel", 123);
         treeMap.set("sparrow", 356);
-        let target : TreeMap<string, number> = new TreeMap<string, number>();
-        let res: void = target.setAll(treeMap);
+        let targets: TreeMap<string, number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          targets.push(new TreeMap<string, number>());
+        }
+        let res: void = targets[0].setAll(treeMap);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = target.setAll(treeMap);
+          res = targets[i].setAll(treeMap);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
+        let res1 = targets[0];
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_void_setAll_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'setAll',
           'setAll(map: TreeMap<K, V>): void;', arkTsAveragedTime);
-        expect(target.get("squirrel") === 123).assertTrue();
-        expect(target.get("sparrow") === 356).assertTrue();
+        expect(targets[0].get("squirrel") === 123).assertTrue();
+        expect(targets[0].get("sparrow") === 356).assertTrue();
         done();
       }
     );
 
     it('TreeMapPerfTest_Object_set_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let treeMap : TreeMap<string, number> = new TreeMap<string, number>();
-        let res = treeMap.set("squirrel", 123);;
+        let treeMaps: TreeMap<string, number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          treeMaps.push(new TreeMap<string, number>());
+        }
+        let res = treeMaps[0].set("squirrel", 123);;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = treeMap.set("squirrel", 123);
+          res = treeMaps[i].set("squirrel", 123);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -296,12 +300,16 @@ export default function TreeMapPerfTest(): void {
 
     it('TreeMapPerfTest_boolean_replace_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let treeMap : TreeMap<string, number> = new TreeMap<string, number>();
-        treeMap.set("sparrow", 123);
-        let res = treeMap.replace("sparrow", 357);
+        let treeMaps: TreeMap<string, number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let item = new TreeMap<string, number>();
+          item.set("sparrow", 123);
+          treeMaps.push(item);
+        }
+        let res = treeMaps[0].replace("sparrow", 357);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = treeMap.replace("sparrow", 357);
+          res = treeMaps[i].replace("sparrow", 357);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -310,7 +318,7 @@ export default function TreeMapPerfTest(): void {
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'replace',
           'replace(key: K, newValue: V): boolean;', arkTsAveragedTime);
         expect(res1 === true).assertTrue();
-        expect(treeMap.get("sparrow") === 357).assertTrue();
+        expect(treeMaps[0].get("sparrow") === 357).assertTrue();
         done();
       }
     );
@@ -330,7 +338,7 @@ export default function TreeMapPerfTest(): void {
           res = treeMaps[i].clear();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = treeMaps[0];
+        let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_void_clear_1400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'clear',
@@ -387,12 +395,14 @@ export default function TreeMapPerfTest(): void {
         let treeMap : TreeMap<string, number> = new TreeMap();
         treeMap.set("sparrow", 123);
         treeMap.set("gull", 357);
-        let res = treeMap.forEach((value ?: number, key ?: string) : void => {});
+        let callback = (value ?: number, key ?: string) : void => {};
+        let res = treeMap.forEach(callback);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = treeMap.forEach((value ?: number, key ?: string) : void => {});
+          res = treeMap.forEach(callback);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_void_forEach_1700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'forEach',

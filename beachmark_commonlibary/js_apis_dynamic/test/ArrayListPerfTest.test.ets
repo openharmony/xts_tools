@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -276,21 +276,26 @@ export default function ArrayListPerfTest(): void {
 
     it('PerformanceTest_ArrayList_ReplaceAllElements_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let arrayList: ArrayList<number> = new ArrayList<number>();
-        arrayList.add(2);
-        arrayList.add(4);
-        arrayList.add(5);
-        arrayList.add(4);
+        let lists: ArrayList<number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let a = new ArrayList<number>();
+          a.add(2);
+          a.add(4);
+          a.add(5);
+          a.add(4);
+          lists.push(a);
+        }
         let cb = (value: number, index: number, arrlist: ArrayList<number>): number => {
           return value;
         };
-        arrayList.replaceAllElements(cb);
+        let res: void = lists[0].replaceAllElements(cb);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          arrayList.replaceAllElements(cb);
+          res = lists[i].replaceAllElements(cb);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_ReplaceAllElements_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'replaceAllElements',
@@ -309,13 +314,14 @@ export default function ArrayListPerfTest(): void {
         arrayList.add(4);
         let cb = (value: number, index: number, arrlist: ArrayList<number>): void => {
         };
-        arrayList.forEach(cb);
+        let res: void = arrayList.forEach(cb);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          arrayList.forEach(cb);
+          res = arrayList.forEach(cb);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'forEach',
@@ -334,13 +340,14 @@ export default function ArrayListPerfTest(): void {
           lists.push(a);
         }
         let cmp = (a: number, b: number): number => a - b;
+        let res: void = lists[0].sort(cmp);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          lists[i].sort(cmp);
+          res = lists[i].sort(cmp);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = lists[0];
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Sort_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'sort',
@@ -356,13 +363,14 @@ export default function ArrayListPerfTest(): void {
           a.add(4); a.add(2); a.add(5); a.add(1);
           lists.push(a);
         }
+        let res: void = lists[0].sort();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          lists[i].sort();
+          res = lists[i].sort();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = lists[0];
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Sort_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'sort',
@@ -404,13 +412,14 @@ export default function ArrayListPerfTest(): void {
           a.add(2); a.add(4); a.add(5); a.add(4);
           lists.push(a);
         }
+        let res: void = lists[0].clear();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          lists[i].clear();
+          res = lists[i].clear();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = lists[0];
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Clear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'clear',
@@ -542,17 +551,23 @@ export default function ArrayListPerfTest(): void {
 
     it('PerformanceTest_ArrayList_IncreaseCapacityTo_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let arrayList: ArrayList<number> = new ArrayList<number>();
-        arrayList.add(2);
-        arrayList.add(4);
-        arrayList.add(5);
-        arrayList.add(4);
+        let lists: ArrayList<number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let a = new ArrayList<number>();
+          a.add(2);
+          a.add(4);
+          a.add(5);
+          a.add(4);
+          lists.push(a);
+        }
+        let res: void = lists[0].increaseCapacityTo(8);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          arrayList.increaseCapacityTo(8);
+          res = lists[i].increaseCapacityTo(8);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_IncreaseCapacityTo_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'increaseCapacityTo',
@@ -564,17 +579,23 @@ export default function ArrayListPerfTest(): void {
 
     it('PerformanceTest_ArrayList_TrimToCurrentLength_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let arrayList: ArrayList<number> = new ArrayList<number>();
-        arrayList.add(2);
-        arrayList.add(4);
-        arrayList.add(5);
-        arrayList.add(4);
+        let lists: ArrayList<number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let a = new ArrayList<number>();
+          a.add(2);
+          a.add(4);
+          a.add(5);
+          a.add(4);
+          lists.push(a);
+        }
+        let res: void = lists[0].trimToCurrentLength();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          arrayList.trimToCurrentLength();
+          res = lists[i].trimToCurrentLength();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_TrimToCurrentLength_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'trimToCurrentLength',

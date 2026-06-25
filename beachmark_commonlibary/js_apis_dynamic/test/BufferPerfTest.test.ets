@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -430,12 +430,15 @@ export default function BufferPerfTest(): void {
 
     it('PerformanceTest_Buffer_Fill_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let buf: buffer.Buffer = buffer.allocUninitializedFromPool(50);
-        let res: buffer.Buffer = buf.fill(1);
+        let bufs: buffer.Buffer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          bufs.push(buffer.allocUninitializedFromPool(50));
+        }
+        let res: buffer.Buffer = bufs[0].fill(1);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = buf.fill(1);
+          res = bufs[i].fill(1);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;

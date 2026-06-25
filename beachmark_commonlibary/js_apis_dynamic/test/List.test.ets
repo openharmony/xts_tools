@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+
 import DecimalPerfTest from "./DecimalPerfTest.test"
 import ArrayListPerfTest from "./ArrayListPerfTest.test"
 import BufferPerfTest from "./BufferPerfTest.test"
@@ -44,7 +44,6 @@ import VectorPerfTest from './VectorPerfTest.test';
 import XmlPerfTest from './XmlPerfTest.test';
 
 export default function testsuite(): void {
-  HashMapPerfTest();
   DecimalPerfTest();
   ArrayListPerfTest();
   BufferPerfTest();

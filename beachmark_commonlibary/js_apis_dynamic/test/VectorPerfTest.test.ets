@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,7 +20,6 @@ import performance from './Performance.util';
 import { Vector } from '@kit.ArkTS';
 import { systemDateTime } from '@kit.BasicServicesKit';
 import { util } from '@kit.ArkTS';
-
 
 declare class ArkTools {
   static forceFullGC(): void;
@@ -71,11 +70,14 @@ export default function VectorPerfTest(): void {
     })
 
     it('VectorPerfTest_boolean_add_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let vector = new Vector<string | number | Array<number>>();
-      let res = vector.add("a");
+      let vectors: Vector<string | number | Array<number>>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        vectors.push(new Vector<string | number | Array<number>>());
+      }
+      let res = vectors[0].add(0);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = vector.add("a");
+        res = vectors[i].add(i);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
@@ -87,12 +89,14 @@ export default function VectorPerfTest(): void {
     })
 
     it('VectorPerfTest_void_insert_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let vector = new Vector<string | number | boolean>();
-      vector.insert("A", 0);
-      let res = vector.insert(0, 1);
+      let vectors: Vector<string | number | boolean>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        vectors.push(new Vector<string | number | boolean>());
+      }
+      let res: void = vectors[0].insert(0, 1);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = vector.insert(0, 1);
+        res = vectors[i].insert(0, 1);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
@@ -211,19 +215,22 @@ export default function VectorPerfTest(): void {
     })
 
     it('VectorPerfTest_void_replaceAllElements_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let vector = new Vector<number>();
-      vector.add(2);
-      vector.add(4);
-      vector.add(5);
-      vector.add(4);
-      let res = vector.replaceAllElements((value: number): number => {
+      let vectors: Vector<number>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let v = new Vector<number>();
+        v.add(2);
+        v.add(4);
+        v.add(5);
+        v.add(4);
+        vectors.push(v);
+      }
+      let cb = (value: number): number => {
         return value;
-      });
+      };
+      let res = vectors[0].replaceAllElements(cb);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = vector.replaceAllElements((value: number): number => {
-          return value;
-        });
+        res = vectors[i].replaceAllElements(cb);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
@@ -241,10 +248,11 @@ export default function VectorPerfTest(): void {
       vector.add(4);
       vector.add(5);
       vector.add(4);
-      let res = vector.forEach((value: number, index?: number): void => {});
+      let cb = (value: number, index?: number): void => {};
+      let res = vector.forEach(cb);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = vector.forEach((value: number, index?: number): void => {});
+        res = vector.forEach(cb);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
@@ -257,15 +265,19 @@ export default function VectorPerfTest(): void {
     })
 
     it('VectorPerfTest_void_sort_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let vector = new Vector<number>();
-      vector.add(2);
-      vector.add(4);
-      vector.add(5);
-      vector.add(4);
-      let res = vector.sort((a: number, b: number) => a - b);
+      let vectors: Vector<number>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let v = new Vector<number>();
+        v.add(2);
+        v.add(4);
+        v.add(5);
+        v.add(4);
+        vectors.push(v);
+      }
+      let res = vectors[0].sort((a: number, b: number) => a - b);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = vector.sort((a: number, b: number) => a - b);
+        res = vectors[i].sort((a: number, b: number) => a - b);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
@@ -397,15 +409,19 @@ export default function VectorPerfTest(): void {
     })
 
     it('VectorPerfTest_void_increaseCapacityTo_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let vector = new Vector<number>();
-      vector.add(2);
-      vector.add(4);
-      vector.add(5);
-      vector.add(4);
-      let res = vector.increaseCapacityTo(12);
+      let vectors: Vector<number>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let v = new Vector<number>();
+        v.add(2);
+        v.add(4);
+        v.add(5);
+        v.add(4);
+        vectors.push(v);
+      }
+      let res = vectors[0].increaseCapacityTo(12);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = vector.increaseCapacityTo(12);
+        res = vectors[i].increaseCapacityTo(12);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
@@ -417,15 +433,19 @@ export default function VectorPerfTest(): void {
     })
 
     it('VectorPerfTest_void_trimToCurrentLength_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let vector = new Vector<number>();
-      vector.add(2);
-      vector.add(4);
-      vector.add(5);
-      vector.add(4);
-      let res = vector.trimToCurrentLength();
+      let vectors: Vector<number>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let v = new Vector<number>();
+        v.add(2);
+        v.add(4);
+        v.add(5);
+        v.add(4);
+        vectors.push(v);
+      }
+      let res = vectors[0].trimToCurrentLength();
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = vector.trimToCurrentLength();
+        res = vectors[i].trimToCurrentLength();
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
@@ -558,15 +578,19 @@ export default function VectorPerfTest(): void {
     })
 
     it('VectorPerfTest_void_setLength_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let vector = new Vector<number>();
-      vector.add(2);
-      vector.add(4);
-      vector.add(5);
-      vector.add(4);
-      let res = vector.setLength(8);
+      let vectors: Vector<number>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let v = new Vector<number>();
+        v.add(2);
+        v.add(4);
+        v.add(5);
+        v.add(4);
+        vectors.push(v);
+      }
+      let res = vectors[0].setLength(8);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = vector.setLength(8);
+        res = vectors[i].setLength(8);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
@@ -597,15 +621,19 @@ export default function VectorPerfTest(): void {
     })
 
     it('VectorPerfTest_number_set_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let vector = new Vector<number>();
-      vector.add(2);
-      vector.add(4);
-      vector.add(5);
-      vector.add(4);
-      let res = vector.set(2, 10);
+      let vectors: Vector<number>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let v = new Vector<number>();
+        v.add(2);
+        v.add(4);
+        v.add(5);
+        v.add(4);
+        vectors.push(v);
+      }
+      let res = vectors[0].set(2, 10);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = vector.set(2, 10);
+        res = vectors[i].set(2, 10);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;

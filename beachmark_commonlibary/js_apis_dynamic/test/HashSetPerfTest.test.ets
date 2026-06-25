@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -179,13 +179,14 @@ export default function HashSetPerfTest(): void {
           s.add('a');
           sets.push(s);
         }
+        let res: void = sets[0].clear();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          sets[i].clear();
+          res = sets[i].clear();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = sets[0];
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Clear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'clear',
@@ -224,12 +225,14 @@ export default function HashSetPerfTest(): void {
         }
         let callback = (value: string, key?: string, set?: HashSet<string>): void => {
         };
+        let res: void = hashSet.forEach(callback);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          hashSet.forEach(callback);
+          res = hashSet.forEach(callback);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'forEach',

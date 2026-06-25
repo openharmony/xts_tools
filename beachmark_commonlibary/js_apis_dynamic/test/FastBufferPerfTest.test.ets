@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -317,13 +317,15 @@ export default function FastBufferPerfTest(): void {
 
     it('PerformanceTest_FastBuffer_Copy_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let buf1: fastbuffer.FastBuffer = fastbuffer.from([1, 2, 3, 4, 5, 6, 7, 8]);
-        let buf2: fastbuffer.FastBuffer = fastbuffer.alloc(16);
-        let res: number = buf1.copy(buf2, 0, 0, 8);
+        let copies: fastbuffer.FastBuffer[][] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          copies.push([fastbuffer.from([1, 2, 3, 4, 5, 6, 7, 8]), fastbuffer.alloc(16)]);
+        }
+        let res: number = copies[0][0].copy(copies[0][1], 0, 0, 8);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = buf1.copy(buf2, 0, 0, 8);
+          res = copies[i][0].copy(copies[i][1], 0, 0, 8);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -379,12 +381,15 @@ export default function FastBufferPerfTest(): void {
 
     it('PerformanceTest_FastBuffer_Fill_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let buf: fastbuffer.FastBuffer = fastbuffer.allocUninitializedFromPool(50);
-        let res: fastbuffer.FastBuffer = buf.fill(0);
+        let bufs: fastbuffer.FastBuffer[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          bufs.push(fastbuffer.allocUninitializedFromPool(50));
+        }
+        let res: fastbuffer.FastBuffer = bufs[0].fill(0);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = buf.fill(0);
+          res = bufs[i].fill(0);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;

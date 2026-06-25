@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -183,19 +183,19 @@ export default function TaskPoolPerfTest(): void {
       (done: Function) => {
         let tasks: taskpool.Task[] = [];
         let deps: taskpool.Task[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j <= BASE_COUNT; j++) {
           tasks.push(new taskpool.Task(concurrentFunc, 1));
           deps.push(new taskpool.Task(concurrentFunc, 2));
         }
-        // i=0 pre-call needed to warm up internal dependency logic; loop starts at 1
         tasks[0].addDependency(deps[0]);
         let arkTsAveragedTime: number = 0;
+        let res1 = tasks[0];
         let Stime = systemDateTime.getTime(true);
-        for (let i = 1; i < BASE_COUNT; i++) {
-          tasks[i].addDependency(deps[i]);
+        for (let i = 1; i <= BASE_COUNT; i++) {
+          res1 = tasks[i].addDependency(deps[i]);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        arkTsAveragedTime = Dtime / (BASE_COUNT - 1);
+        arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_AddDependency_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'addDependency',
           'addDependency(...tasks: Task[]): void', arkTsAveragedTime);
@@ -208,20 +208,20 @@ export default function TaskPoolPerfTest(): void {
       (done: Function) => {
         let tasks: taskpool.Task[] = [];
         let deps: taskpool.Task[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j <= BASE_COUNT; j++) {
           tasks.push(new taskpool.Task(concurrentFunc, 1));
           deps.push(new taskpool.Task(concurrentFunc, 2));
           tasks[j].addDependency(deps[j]);
         }
-        // i=0 pre-call needed to warm up internal dependency logic; loop starts at 1
         tasks[0].removeDependency(deps[0]);
         let arkTsAveragedTime: number = 0;
+        let res1 = tasks[0];
         let Stime = systemDateTime.getTime(true);
-        for (let i = 1; i < BASE_COUNT; i++) {
-          tasks[i].removeDependency(deps[i]);
+        for (let i = 1; i <= BASE_COUNT; i++) {
+          res1 = tasks[i].removeDependency(deps[i]);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        arkTsAveragedTime = Dtime / (BASE_COUNT - 1);
+        arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_RemoveDependency_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'removeDependency',
           'removeDependency(...tasks: Task[]): void', arkTsAveragedTime);

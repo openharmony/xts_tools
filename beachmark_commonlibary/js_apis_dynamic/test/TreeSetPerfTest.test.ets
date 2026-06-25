@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -142,12 +142,15 @@ export default function TreeSetPerfTest(): void {
 
     it('TreeSetPerfTest_boolean_add_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let treeSet: TreeSet<string> = new TreeSet<string>();
-        let result = treeSet.add("squirrel");
+        let treeSets: TreeSet<string>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          treeSets.push(new TreeSet<string>());
+        }
+        let result = treeSets[0].add("squirrel");
         let res = result;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = treeSet.add("squirrel");
+          res = treeSets[i].add("squirrel");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -293,7 +296,7 @@ export default function TreeSetPerfTest(): void {
           res = treeSets[i].clear();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = treeSets[0];
+        let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_void_clear_1200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'clear',

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -80,14 +80,18 @@ export default function DequePerfTest(): void {
 
     it('PerformanceTest_Deque_InsertFront_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let deque: Deque<number> = new Deque<number>();
+        let deques: Deque<number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          deques.push(new Deque<number>());
+        }
         let arkTsAveragedTime: number = 0;
+        let res: void = deques[0].insertFront(0);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          deque.insertFront(i);
+          res = deques[i].insertFront(i);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = deque;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_InsertFront_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'insertFront',
@@ -99,14 +103,18 @@ export default function DequePerfTest(): void {
 
     it('PerformanceTest_Deque_InsertEnd_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let deque: Deque<number> = new Deque<number>();
+        let deques: Deque<number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          deques.push(new Deque<number>());
+        }
         let arkTsAveragedTime: number = 0;
+        let res: void = deques[0].insertEnd(0);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          deque.insertEnd(i);
+          res = deques[i].insertEnd(i);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = deque;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_InsertEnd_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'insertEnd',
@@ -237,13 +245,14 @@ export default function DequePerfTest(): void {
         }
         let callback = (value: number, index: number, dequeObj: Deque<number>): void => {
         };
+        let res: void = deque.forEach(callback);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          deque.forEach(callback);
+          res = deque.forEach(callback);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = deque;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'forEach',

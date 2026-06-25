@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -163,16 +163,19 @@ export default function HashMapPerfTest(): void {
 
     it('PerformanceTest_HashMap_Set_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let hashMap: HashMap<string, number> = new HashMap<string, number>();
+        let maps: HashMap<string, number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          maps.push(new HashMap<string, number>());
+        }
         let keys: string[] = [];
         for (let j = 0; j < BASE_COUNT; j++) {
           keys.push(j.toString());
         }
-        let res: Object = hashMap;
+        let res: Object = maps[0].set("0", 0);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = hashMap.set(keys[i], i);
+          res = maps[i].set(keys[i], i);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -368,13 +371,17 @@ export default function HashMapPerfTest(): void {
 
     it('PerformanceTest_HashMap_Replace_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let hashMap: HashMap<string, number> = new HashMap<string, number>();
-        hashMap.set('key', 100);
-        let res: boolean = hashMap.replace('key', 200);
+        let maps: HashMap<string, number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let m = new HashMap<string, number>();
+          m.set('key', 100);
+          maps.push(m);
+        }
+        let res: boolean = maps[0].replace('key', 200);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = hashMap.replace('key', 200);
+          res = maps[i].replace('key', 200);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;

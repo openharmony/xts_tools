@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -216,15 +216,17 @@ export default function ArkTsUtilsPerfTest(): void {
 
     it('PerformanceTest_Utils_ConditionVariableNotifyAll_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let cv: ArkTSUtils.locks.ConditionVariable = new ArkTSUtils.locks.ConditionVariable();
-        cv.notifyAll();
+        let cvs: ArkTSUtils.locks.ConditionVariable[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          cvs.push(new ArkTSUtils.locks.ConditionVariable());
+        }
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          cv.notifyAll();
+          cvs[i].notifyAll();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = cv;
+        let res1 = cvs[0];
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_ConditionVariableNotifyAll_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ConditionVariable', 'notifyAll',
@@ -236,15 +238,17 @@ export default function ArkTsUtilsPerfTest(): void {
 
     it('PerformanceTest_Utils_ConditionVariableNotifyOne_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let cv: ArkTSUtils.locks.ConditionVariable = new ArkTSUtils.locks.ConditionVariable();
-        cv.notifyOne();
+        let cvs: ArkTSUtils.locks.ConditionVariable[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          cvs.push(new ArkTSUtils.locks.ConditionVariable());
+        }
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          cv.notifyOne();
+          cvs[i].notifyOne();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = cv;
+        let res1 = cvs[0];
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_ConditionVariableNotifyOne_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ConditionVariable', 'notifyOne',
@@ -337,15 +341,18 @@ export default function ArkTsUtilsPerfTest(): void {
 
     it('PerformanceTest_Utils_SendableLruCacheUpdateCapacity_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let cache: ArkTSUtils.SendableLruCache<number, number> = new ArkTSUtils.SendableLruCache<number, number>();
-        cache.updateCapacity(100);
+        let caches: ArkTSUtils.SendableLruCache<number, number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          caches.push(new ArkTSUtils.SendableLruCache<number, number>());
+        }
+        caches[0].updateCapacity(100);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          cache.updateCapacity(100);
+          caches[i].updateCapacity(100);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = cache;
+        let res1 = caches[0];
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheUpdateCapacity_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'updateCapacity',
@@ -570,12 +577,15 @@ export default function ArkTsUtilsPerfTest(): void {
 
     it('PerformanceTest_Utils_SendableLruCachePut_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let cache: ArkTSUtils.SendableLruCache<number, number> = new ArkTSUtils.SendableLruCache<number, number>(BASE_COUNT + 1);
-        let res: number = cache.put(0, 0);
+        let caches: ArkTSUtils.SendableLruCache<number, number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          caches.push(new ArkTSUtils.SendableLruCache<number, number>(BASE_COUNT + 1));
+        }
+        let res: number = caches[0].put(0, 0);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = cache.put(i, i);
+          res = caches[i].put(i, i);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;

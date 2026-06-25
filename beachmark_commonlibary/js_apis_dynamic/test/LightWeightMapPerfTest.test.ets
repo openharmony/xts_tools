@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -269,13 +269,14 @@ export default function LightWeightMapPerfTest(): void {
           m.set('a', 1);
           maps.push(m);
         }
+        let res: void = maps[0].clear();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          maps[i].clear();
+          res = maps[i].clear();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = maps[0];
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_Clear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'clear',
@@ -295,12 +296,14 @@ export default function LightWeightMapPerfTest(): void {
         for (let j = 0; j < BASE_COUNT; j++) {
           targets.push(new LightWeightMap<string, number>());
         }
+        let res: void = targets[0].setAll(srcMap);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          targets[i].setAll(srcMap);
+          res = targets[i].setAll(srcMap);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_SetAll_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'setAll',
@@ -354,13 +357,17 @@ export default function LightWeightMapPerfTest(): void {
 
     it('PerformanceTest_LightWeightMap_SetValueAt_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let lightWeightMap: LightWeightMap<string, number> = new LightWeightMap<string, number>();
-        lightWeightMap.set('a', 10);
-        let res: boolean = lightWeightMap.setValueAt(0, 20);
+        let maps: LightWeightMap<string, number>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let m = new LightWeightMap<string, number>();
+          m.set('a', 10);
+          maps.push(m);
+        }
+        let res: boolean = maps[0].setValueAt(0, 20);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = lightWeightMap.setValueAt(0, 20);
+          res = maps[i].setValueAt(0, 20);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -444,12 +451,14 @@ export default function LightWeightMapPerfTest(): void {
         }
         let callback = (value: number, key: string, map: LightWeightMap<string, number>): void => {
         };
+        let res: void = lightWeightMap.forEach(callback);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          lightWeightMap.forEach(callback);
+          res = lightWeightMap.forEach(callback);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'forEach',
@@ -487,12 +496,14 @@ export default function LightWeightMapPerfTest(): void {
         for (let j = 0; j < BASE_COUNT; j++) {
           maps.push(new LightWeightMap<string, number>());
         }
+        let res: void = maps[0].increaseCapacityTo(10);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          maps[i].increaseCapacityTo(10);
+          res = maps[i].increaseCapacityTo(10);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = res;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_IncreaseCapacityTo_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'increaseCapacityTo',

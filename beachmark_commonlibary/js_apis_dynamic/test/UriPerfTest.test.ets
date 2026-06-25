@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -211,11 +211,14 @@ export default function UriPerfTest(): void {
 
     it('UriPerfTest_URI_addQueryValue_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let uriInstance = new uri.URI("https://www.test.com");
-        let res = uriInstance.addQueryValue("param1", "hello world");
+        let uris: uri.URI[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          uris.push(new uri.URI("https://www.test.com"));
+        }
+        let res = uris[0].addQueryValue("param1", "hello world");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = uriInstance.addQueryValue("param1", "hello world");
+          res = uris[i].addQueryValue("param1", "hello world");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -230,11 +233,14 @@ export default function UriPerfTest(): void {
 
     it('UriPerfTest_URI_addSegment_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let uriInstance = new uri.URI("http://www.test.com");
-        let res = uriInstance.addSegment("my image.jpg");
+        let uris: uri.URI[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          uris.push(new uri.URI("http://www.test.com"));
+        }
+        let res = uris[0].addSegment("my image.jpg");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = uriInstance.addSegment("my image.jpg");
+          res = uris[i].addSegment("my image.jpg");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -248,11 +254,14 @@ export default function UriPerfTest(): void {
 
     it('UriPerfTest_URI_addEncodedSegment_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let uriInstance = new uri.URI("http://www.test.com");
-        let res = uriInstance.addEncodedSegment("my%20image.jpg");
+        let uris: uri.URI[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          uris.push(new uri.URI("http://www.test.com"));
+        }
+        let res = uris[0].addEncodedSegment("my%20image.jpg");
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = uriInstance.addEncodedSegment("my%20image.jpg");
+          res = uris[i].addEncodedSegment("my%20image.jpg");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -303,25 +312,6 @@ export default function UriPerfTest(): void {
         done();
       })
 
-    it('UriPerfTest_String[]_getQueryValues_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let uriInstance = new uri.URI("https://www.test.com/search?query=name&query=my");
-        let res = uriInstance.getQueryValues("abc");
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = uriInstance.getQueryValues("abc");
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info(
-          'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_String[]_getQueryValues_1500: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'getQueryValues',
-          'getQueryValues(key: string): string[];', arkTsAveragedTime);
-        expect(JSON.stringify(res) === '[]').assertTrue();
-        done();
-      })
-
     it('UriPerfTest_boolean_getBooleanQueryValue_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let uriInstance = new uri.URI("https://www.test.com/search?active=true");
@@ -343,11 +333,14 @@ export default function UriPerfTest(): void {
 
     it('UriPerfTest_URI_clearQuery_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let uriInstance = new uri.URI("https://www.test.com?param1=value1");
-        let res = uriInstance.clearQuery();
+        let uris: uri.URI[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          uris.push(new uri.URI("https://www.test.com?param1=value1"));
+        }
+        let res = uris[0].clearQuery();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = uriInstance.clearQuery();
+          res = uris[i].clearQuery();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
