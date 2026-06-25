@@ -34,12 +34,6 @@ function main(): void {
     throw new Error("Expected 'Hello, World', got: " + result)
   }
 
-  // 参数数量不匹配 → runtime error
-  try {
-    f.unsafeCall()
-  } catch (e) {
-    console.log("unsafeCall with wrong number of arguments throws: " + e)
-  }
-
-  console.log("Type Function unsafeCall error handling verified")
+  // 参数数量不匹配 → runtime error（异常向外抛出触发 @runtime-throws）
+  f.unsafeCall()
 }
