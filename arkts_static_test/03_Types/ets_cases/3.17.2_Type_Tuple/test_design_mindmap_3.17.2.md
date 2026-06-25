@@ -5,7 +5,7 @@
 ArkTS spec/types.md §Tuple Types + Type Tuple 定义：
 
 **Tuple Types（spec/types.md:1156-1205）：**
-- Tuple type 是引用类型，由固定数量的其他类型组成
+- Tuple type 是引用类型，由固定数量的元素类型组成
 - 语法：`tupleType: '[' (type (',' type)* ','?)? ']'`
 - 每个元素有自己的类型，索引从 0 开始
 - 索引表达式必须是**常量表达式**且为整数类型

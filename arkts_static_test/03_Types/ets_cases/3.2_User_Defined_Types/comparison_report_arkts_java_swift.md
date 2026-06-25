@@ -317,7 +317,7 @@ struct Square: Shape {
 
 ### 关键启示
 
-1. **联合类型是 ArkTS 独家特色**，Java/Swift 需通过 sealed class/enum 关联值模拟
+1. **联合类型是 ArkTS 支持的类型特性**，Java/Swift 需通过 sealed class/enum 关联值模拟
 2. **元组在 ArkTS 是一等公民**，与 Swift 接近，Java 完全缺失
 3. **字面量类型 ArkTS 仅支持 string**：缺数字/布尔字面量类型
 4. **枚举 values() 返回 FixedArray** 是设计选择，但与 Java/Swift 都不一致

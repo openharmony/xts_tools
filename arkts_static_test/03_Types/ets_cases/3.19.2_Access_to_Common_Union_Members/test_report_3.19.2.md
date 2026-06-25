@@ -22,7 +22,7 @@
 Spec §3.19.2 要求 union 分支中同名字段类型不同应编译错误：
 
 ```typescript
-class A { s: string = "aa" }
+class A { s: string = "text" }
 class B { s: number = 3.14 }
 let u: A | B = new A()
 console.log(u.s) // spec 预期 compile-time error

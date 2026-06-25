@@ -1,7 +1,7 @@
 # 3.22 Default Values for Types - 测试设计思维导图
 
 ## 概述
-实验特性。值类型和 undefined/Any/void 有默认值，其他引用类型无默认值。
+实验特性。值类型和 undefined/Any/void 有默认值，引用类型、枚举、类型参数无默认值。
 
 ## 核心规则
 - 值类型默认值：number=0, byte=0, short=0, int=0, long=0, float=+0.0, double=+0.0, char=\u0000, boolean=false

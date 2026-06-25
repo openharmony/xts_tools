@@ -112,7 +112,7 @@
 
 根据思维导图，以下 compile-fail 场景可能需要补充：
 
-1. **string 字面量类型不兼容** - 验证 string 字面量不能赋值给其他类型
+1. **string 字面量类型不兼容** - 验证 string 字面量不能赋值给 number 或 boolean 类型
 2. **string 索引越界编译时检查** - 如果可能
 3. **string 与 number 类型不兼容** - 直接赋值场景
 

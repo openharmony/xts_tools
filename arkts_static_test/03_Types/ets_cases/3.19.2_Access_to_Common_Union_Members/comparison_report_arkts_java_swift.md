@@ -75,7 +75,7 @@ case .b(let b): b.s
 Spec 要求字段类型不同时报错：
 
 ```typescript
-class A { s: string = "aa" }
+class A { s: string = "text" }
 class B { s: number = 3.14 }
 let u: A | B = new A()
 console.log(u.s) // spec 预期错误，实测通过

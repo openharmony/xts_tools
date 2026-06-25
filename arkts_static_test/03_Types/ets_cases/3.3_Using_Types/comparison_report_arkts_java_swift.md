@@ -113,7 +113,7 @@ let y: @anno (A | B)     // ❌ 编译错误
 let a: string[] | undefined = undefined          // ✅
 let a2: string[] | undefined = ["x"]             // ✅
 
-let b1: (string | undefined)[] = ["aa", undefined]  // ✅
+let b1: (string | undefined)[] = ["text", undefined]  // ✅
 // b1 = undefined  // ❌
 
 let c: () => string | undefined = (): string | undefined => { return undefined }  // ✅
@@ -126,7 +126,7 @@ let d2: (() => string) | undefined = (): string => { return "hi" }
 **Swift（用 Optional 映射）：**
 ```swift
 var a: [String]? = nil
-var b1: [String?] = ["aa", nil]
+var b1: [String?] = ["text", nil]
 var c: () -> String? = { nil }
 var d: (() -> String)? = nil
 ```

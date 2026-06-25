@@ -199,7 +199,7 @@ let lower4u: bigint = asUintN(4, a)  // 编译器报 Unresolved reference asUint
 该问题暂不直接定性为 ArkTS 设计缺陷，需要补充 **标准库规范依据** 后再确认：
 
 1. 如果 stdlib 规范明确导出全局函数 `asIntN` / `asUintN`，则这是实现缺失或导出问题。
-2. 如果 stdlib 规范把它们定义为 `BigInt.asIntN` / `BigInt.asUintN` 或其他命名空间成员，则当前调用方式需要调整。
+2. 如果 stdlib 规范定义调用形式为 `BigInt.asIntN` / `BigInt.asUintN`，则当前调用方式需要调整。
 3. 如果 stdlib 未定义这些 API，则应修正 ArkTS Static Spec §3.14 的表述。
 
 **待补充材料：**

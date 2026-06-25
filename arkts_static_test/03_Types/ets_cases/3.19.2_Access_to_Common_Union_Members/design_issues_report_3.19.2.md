@@ -29,7 +29,7 @@
 ## 实测行为
 
 ```typescript
-class A5 { s: string = "aa" }
+class A5 { s: string = "text" }
 class B5 { s: number = 3.14 }
 
 function testDiffFieldTypeFail(): void {

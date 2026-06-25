@@ -59,7 +59,7 @@ enum Value { case int(Int), string(String) }
 Spec 规定 common member 访问要求同名字段类型相同：
 
 ```typescript
-class A { s: string = "aa" }
+class A { s: string = "text" }
 class B { s: number = 3.14 }
 let u: A | B = new A()
 console.log(u.s) // spec 预期 compile-time error

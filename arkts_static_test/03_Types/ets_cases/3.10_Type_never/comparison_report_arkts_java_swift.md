@@ -1,7 +1,7 @@
 # 3.10 Type never - ArkTS vs Java vs Swift
 
 **ArkTS：** ✅ 实测（es2panda + ark）
-**Java：** ✅ 实测（OpenJDK 1.8）
+**Java：** ✅ 实测（Java 1.8）
 **Swift：** ✅ 实测（Swift 5.10 on WSL）
 
 ---
