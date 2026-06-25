@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -81,12 +81,17 @@ export default function LinkedListPerfTest(): void {
     // ==================== 3. add ====================
 
     it('PerformanceTest_LinkedList_Add_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let linkedList: LinkedList<int> = new LinkedList<int>();
+      let linkedLists: LinkedList<int>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        linkedLists.push(new LinkedList<int>());
+      }
+      let res: boolean = linkedLists[0].add(0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        linkedList.add(i);
+        res = linkedLists[i].add(i);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Add_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'add',
@@ -100,11 +105,13 @@ export default function LinkedListPerfTest(): void {
       for (let j = 0; j < BASE_COUNT; j++) {
         lists.push(new LinkedList<int>());
       }
+      let res: void = lists[0].insert(0, 1);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        lists[i].insert(0, 1);
+        res = lists[i].insert(0, 1);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Insert_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'insert',
@@ -118,13 +125,13 @@ export default function LinkedListPerfTest(): void {
       for (let j = 0; j < BASE_COUNT; j++) {
         lists.push(new LinkedList<int>());
       }
-      lists[0].addFirst(1);
+      let res: void = lists[0].addFirst(1);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        lists[i].addFirst(1);
+        res = lists[i].addFirst(1);
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = lists[0];
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_AddFirst_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'addFirst',
@@ -245,12 +252,16 @@ export default function LinkedListPerfTest(): void {
     // ==================== 12. set ====================
 
     it('PerformanceTest_LinkedList_Set_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let linkedList: LinkedList<int> = new LinkedList<int>();
-      linkedList.add(10);
-      let res: int = linkedList.set(0, 20);
+      let linkedLists: LinkedList<int>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let l = new LinkedList<int>();
+        l.add(10);
+        linkedLists.push(l);
+      }
+      let res: int = linkedLists[0].set(0, 20);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = linkedList.set(0, 20);
+        res = linkedLists[i].set(0, 20);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -401,12 +412,13 @@ export default function LinkedListPerfTest(): void {
         l.add(1);
         lists.push(l);
       }
+      let res: void = lists[0].clear();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        lists[i].clear();
+        res = lists[i].clear();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = lists[0];
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Clear_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'clear',
@@ -456,11 +468,13 @@ export default function LinkedListPerfTest(): void {
       linkedList.add(1);
       let callback = (value: int, index: int, linkedList: LinkedList<int>): void => {
       };
+      let res: void = linkedList.forEach(callback);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        linkedList.forEach(callback);
+        res = linkedList.forEach(callback);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_ForEach_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'forEach',

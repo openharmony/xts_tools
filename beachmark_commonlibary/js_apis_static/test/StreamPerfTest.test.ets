@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -218,11 +218,14 @@ export default function StreamPerfTest(): void {
     })
 
     it('PerformanceTest_Stream_Writable_Write_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let writableStream = new PerfWritable();
-      let res: boolean = writableStream.write('test', 'utf8');
+      let writables: PerfWritable[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        writables.push(new PerfWritable());
+      }
+      let res: boolean = writables[0].write('test', 'utf8');
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = writableStream.write('test', 'utf8');
+        res = writables[i].write('test', 'utf8');
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;

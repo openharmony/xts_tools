@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -116,12 +116,17 @@ export default function HashSetPerfTest(): void {
     // ==================== 5. add ====================
 
     it('PerformanceTest_HashSet_Add_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let hashSet: HashSet<string> = new HashSet<string>();
+      let hashSets: HashSet<string>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        hashSets.push(new HashSet<string>());
+      }
+      let res: boolean = hashSets[0].add('0');
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        hashSet.add(i.toString());
+        res = hashSets[i].add(i.toString());
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Add_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'add',
@@ -159,12 +164,13 @@ export default function HashSetPerfTest(): void {
         s.add('a');
         sets.push(s);
       }
+      let res: void = sets[0].clear();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        sets[i].clear();
+        res = sets[i].clear();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = sets[0];
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Clear_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'clear',
@@ -196,14 +202,15 @@ export default function HashSetPerfTest(): void {
       for (let j: int = 0; j < 10; j++) {
         hashSet.add('v' + j.toString());
       }
-      // Callback closure signature compatible with ArkTS-Sta, no dependency on unexported Callback type
       let callback = (value: string, key?: string, set?: HashSet<string>): void => {
       };
+      let res: void = hashSet.forEach(callback);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        hashSet.forEach(callback);
+        res = hashSet.forEach(callback);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_ForEach_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'forEach',

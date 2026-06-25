@@ -54,7 +54,7 @@ export default function UtilPerfTest02(): void {
         res = type.isArrayBufferView(new Int8Array([]));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isArrayBufferView_0100: ' + arkTsAveragedTime + 'ns');
@@ -72,7 +72,7 @@ export default function UtilPerfTest02(): void {
         res = type.isArrayBuffer(new ArrayBuffer(0));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isArrayBuffer_0200: ' + arkTsAveragedTime + 'ns');
@@ -90,7 +90,7 @@ export default function UtilPerfTest02(): void {
         res = type.isAsyncFunction(async () => {});
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isAsyncFunction_0300: ' + arkTsAveragedTime + 'ns');
@@ -109,7 +109,7 @@ export default function UtilPerfTest02(): void {
         res = type.isDataView(new DataView(new ArrayBuffer(20)));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isDataView_0400: ' + arkTsAveragedTime + 'ns');
@@ -127,7 +127,7 @@ export default function UtilPerfTest02(): void {
         res = type.isDate(new Date());
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isDate_0500: ' + arkTsAveragedTime + 'ns');
@@ -145,7 +145,7 @@ export default function UtilPerfTest02(): void {
         res = type.isFloat32Array(new Float32Array());
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isFloat32Array_0600: ' + arkTsAveragedTime + 'ns');
@@ -163,7 +163,7 @@ export default function UtilPerfTest02(): void {
         res = type.isFloat64Array(new Float64Array());
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isFloat64Array_0700: ' + arkTsAveragedTime + 'ns');
@@ -181,7 +181,7 @@ export default function UtilPerfTest02(): void {
         res = type.isInt8Array(new Int8Array([]));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isInt8Array_0800: ' + arkTsAveragedTime + 'ns');
@@ -199,7 +199,7 @@ export default function UtilPerfTest02(): void {
         res = type.isInt16Array(new Int16Array([]));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isInt16Array_0900: ' + arkTsAveragedTime + 'ns');
@@ -217,7 +217,7 @@ export default function UtilPerfTest02(): void {
         res = type.isInt32Array(new Int32Array([]));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isInt32Array_1000: ' + arkTsAveragedTime + 'ns');
@@ -235,7 +235,7 @@ export default function UtilPerfTest02(): void {
         res = type.isMap(testMap);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isMap_1100: ' + arkTsAveragedTime + 'ns');
@@ -254,7 +254,7 @@ export default function UtilPerfTest02(): void {
         res = type.isMapIterator(map.keys());
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isMapIterator_1200: ' + arkTsAveragedTime + 'ns');
@@ -272,7 +272,7 @@ export default function UtilPerfTest02(): void {
         res = type.isNativeError(new TypeError());
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isNativeError_1300: ' + arkTsAveragedTime + 'ns');
@@ -290,7 +290,7 @@ export default function UtilPerfTest02(): void {
         res = type.isPromise(Promise.resolve(1));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isPromise_1400: ' + arkTsAveragedTime + 'ns');
@@ -308,7 +308,7 @@ export default function UtilPerfTest02(): void {
         res = type.isRegExp(new RegExp('abc'));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isRegExp_1500: ' + arkTsAveragedTime + 'ns');
@@ -327,7 +327,7 @@ export default function UtilPerfTest02(): void {
         res = type.isSet(set);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isSet_1600: ' + arkTsAveragedTime + 'ns');
@@ -347,7 +347,7 @@ export default function UtilPerfTest02(): void {
         res = type.isSetIterator(set.keys());
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isSetIterator_1700: ' + arkTsAveragedTime + 'ns');
@@ -365,7 +365,7 @@ export default function UtilPerfTest02(): void {
         res = type.isTypedArray(new Float64Array([]));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isTypedArray_1800: ' + arkTsAveragedTime + 'ns');
@@ -383,7 +383,7 @@ export default function UtilPerfTest02(): void {
         res = type.isUint8Array(new Uint8Array([]));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isUint8Array_1900: ' + arkTsAveragedTime + 'ns');
@@ -401,7 +401,7 @@ export default function UtilPerfTest02(): void {
         res = type.isUint8ClampedArray(new Uint8ClampedArray([]));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isUint8ClampedArray_2000: ' + arkTsAveragedTime + 'ns');
@@ -419,7 +419,7 @@ export default function UtilPerfTest02(): void {
         res = type.isUint16Array(new Uint16Array([]));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isUint16Array_2100: ' + arkTsAveragedTime + 'ns');
@@ -437,7 +437,7 @@ export default function UtilPerfTest02(): void {
         res = type.isUint32Array(new Uint32Array([]));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isUint32Array_2200: ' + arkTsAveragedTime + 'ns');
@@ -456,7 +456,7 @@ export default function UtilPerfTest02(): void {
         res = type.isWeakMap(value);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isWeakMap_2300: ' + arkTsAveragedTime + 'ns');
@@ -475,7 +475,7 @@ export default function UtilPerfTest02(): void {
         res = type.isWeakSet(weakSet);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isWeakSet_2400: ' + arkTsAveragedTime + 'ns');
@@ -493,7 +493,7 @@ export default function UtilPerfTest02(): void {
         res = type.isBigInt64Array(new BigInt64Array([]));
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isBigInt64Array_2500: ' + arkTsAveragedTime + 'ns');

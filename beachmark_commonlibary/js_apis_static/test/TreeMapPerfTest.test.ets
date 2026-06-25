@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+
 import {
   describe,
   it,
@@ -53,7 +53,7 @@ export default function TreeMapPerfTest(): void {
         res = treeMap.set("key" + i, "value" + i);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_Set_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'set',
@@ -71,7 +71,7 @@ export default function TreeMapPerfTest(): void {
         res = treeMap.get("key500");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_Get_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'get',
@@ -88,7 +88,7 @@ export default function TreeMapPerfTest(): void {
         res = new TreeMap<string, string>(treeMapCb);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'constructor',
@@ -103,7 +103,7 @@ export default function TreeMapPerfTest(): void {
         res = treeMap.isEmpty();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Boolean_IsEmpty_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'isEmpty',
@@ -121,7 +121,7 @@ export default function TreeMapPerfTest(): void {
         res = treeMap.hasKey("key500");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Boolean_HasKey_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'hasKey',
@@ -139,167 +139,60 @@ export default function TreeMapPerfTest(): void {
         res = treeMap.hasValue("value500");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Boolean_HasValue_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'hasValue',
         'hasValue(value: V): boolean', arkTsAveragedTime);
     })
 
-    it('TreeMapPerfTest_Object_Get_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<string, string>();
-      for (let i = 0; i < 10; i++) {
-        treeMap.set("key" + i, "value" + i);
-      }
-      let res = treeMap.get("key500");
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = treeMap.get("key500");
-      }
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_Get_0700: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'get',
-        'get(key: K): V', arkTsAveragedTime);
-    })
 
-    it('TreeMapPerfTest_ObjectOrUndefined_Get_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<string, string>();
-      for (let i = 0; i < 10; i++) {
-        treeMap.set("key" + i, "value" + i);
-      }
-      let res = treeMap.get("key500");
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = treeMap.get("key500");
-      }
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_ObjectOrUndefined_Get_0800: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'get',
-        'get(key: K): V | undefined', arkTsAveragedTime);
-    })
-
-    it('TreeMapPerfTest_Object_GetFirstKey_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<string, string>();
-      for (let i = 0; i < 10; i++) {
-        treeMap.set("key" + i, "value" + i);
-      }
-      let res = treeMap.getFirstKey();
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = treeMap.getFirstKey();
-      }
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_GetFirstKey_0900: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'getFirstKey',
-        'getFirstKey(): K', arkTsAveragedTime);
-    })
-
-    it('TreeMapPerfTest_Object_GetLastKey_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<string, string>();
-      for (let i = 0; i < 10; i++) {
-        treeMap.set("key" + i, "value" + i);
-      }
-      let res = treeMap.getLastKey();
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        res = treeMap.getLastKey();
-      }
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_GetLastKey_1000: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'getLastKey',
-        'getLastKey(): K', arkTsAveragedTime);
-    })
 
     it('TreeMapPerfTest_Void_SetAll_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let sourceMap = new TreeMap<string, string>();
       for (let i = 0; i < 10; i++) {
         sourceMap.set("key" + i, "value" + i);
       }
-      let targetMap = new TreeMap<string, string>();
-      let res = targetMap.setAll(sourceMap);
+      let targets: TreeMap<string, string>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        targets.push(new TreeMap<string, string>());
+      }
+      let res = targets[0].setAll(sourceMap);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        targetMap.setAll(sourceMap);
+        res = targets[i].setAll(sourceMap);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Void_SetAll_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'setAll',
         'setAll(map: TreeMap<K, V>): void', arkTsAveragedTime);
     })
 
-    it('TreeMapPerfTest_Object_Set_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<string, string>();
-      let res = treeMap.set("key0", "value0");
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.set("key" + i, "value" + i);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_Set_1200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'set',
-        'set(key: K, value: V): Object', arkTsAveragedTime);
-    })
-
     it('TreeMapPerfTest_Object_Remove_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<string, string>();
-      for (let i = 0; i < 10; i++) {
-        treeMap.set("key" + i, "value" + i);
+      let treeMaps: TreeMap<string, string>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let m = new TreeMap<string, string>();
+        for (let k = 0; k < 10; k++) {
+          m.set("key" + k, "value" + k);
+        }
+        treeMaps.push(m);
       }
 
-      let res = treeMap.remove("key500");
+      let res = treeMaps[0].remove("key500");
       let Stime = new Date().getTime();
 
       for (let i = 0; i < BASE_COUNT; i++) {
-        try {
-          treeMap.remove("key" + (i % 10));
-        } catch (e) {
-          continue;
-        }
+        res = treeMaps[i].remove("key" + (i % 10));
       }
 
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_Remove_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'remove',
         'remove(key: K): V', arkTsAveragedTime);
-    })
-
-    it('TreeMapPerfTest_ObjectOrUndefined_Remove_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<string, string>();
-      for (let i = 0; i < 10; i++) {
-        treeMap.set("key" + i, "value" + i);
-      }
-
-      let res = treeMap.remove("key500");
-      let Stime = new Date().getTime();
-
-      for (let i = 0; i < BASE_COUNT; i++) {
-        try {
-          treeMap.remove("key" + (i % 10));
-        } catch (e) {
-          continue;
-        }
-      }
-
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_ObjectOrUndefined_Remove_1400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'remove',
-        'remove(key: K): V | undefined', arkTsAveragedTime);
     })
 
     it('TreeMapPerfTest_Object_GetLowerKey_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -310,32 +203,14 @@ export default function TreeMapPerfTest(): void {
       let res = treeMap.getLowerKey(5);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.getLowerKey(5);
+        res = treeMap.getLowerKey(5);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_GetLowerKey_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'getLowerKey',
         'getLowerKey(key: K): K', arkTsAveragedTime);
-    })
-
-    it('TreeMapPerfTest_ObjectOrUndefined_GetLowerKey_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<number, string>();
-      for (let i = 0; i < 10; i++) {
-        treeMap.set(i, "value" + i);
-      }
-      let res = treeMap.getLowerKey(5);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.getLowerKey(5);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_ObjectOrUndefined_GetLowerKey_1600: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'getLowerKey',
-        'getLowerKey(key: K): K | undefined', arkTsAveragedTime);
     })
 
     it('TreeMapPerfTest_Object_GetHigherKey_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -346,32 +221,14 @@ export default function TreeMapPerfTest(): void {
       let res = treeMap.getHigherKey(5);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.getHigherKey(5);
+        res = treeMap.getHigherKey(5);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_GetHigherKey_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'getHigherKey',
         'getHigherKey(key: K): K', arkTsAveragedTime);
-    })
-
-    it('TreeMapPerfTest_ObjectOrUndefined_GetHigherKey_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<number, string>();
-      for (let i = 0; i < 10; i++) {
-        treeMap.set(i, "value" + i);
-      }
-      let res = treeMap.getHigherKey(5);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.getHigherKey(5);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_ObjectOrUndefined_GetHigherKey_1800: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'getHigherKey',
-        'getHigherKey(key: K): K | undefined', arkTsAveragedTime);
     })
 
     it('TreeMapPerfTest_Boolean_Replace_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -382,10 +239,10 @@ export default function TreeMapPerfTest(): void {
       let res = treeMap.replace("key500", "newValue500");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.replace("key500", "newValue500");
+        res = treeMap.replace("key500", "newValue500");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Boolean_Replace_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'replace',
@@ -400,10 +257,10 @@ export default function TreeMapPerfTest(): void {
       let res = treeMap.clear();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.clear();
+        res = treeMap.clear();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Void_Clear_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'clear',
@@ -418,10 +275,10 @@ export default function TreeMapPerfTest(): void {
       let res = treeMap.keys();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.keys();
+        res = treeMap.keys();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Iterator_Keys_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'keys',
@@ -436,10 +293,10 @@ export default function TreeMapPerfTest(): void {
       let res = treeMap.values();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.values();
+        res = treeMap.values();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Iterator_Values_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'values',
@@ -459,53 +316,13 @@ export default function TreeMapPerfTest(): void {
         treeMap.forEach(callbackFn);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Void_ForEach_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'forEach',
         'forEach(callbackFn: (value?: V, key?: K, map?: TreeMap<K, V>) => void, thisArg?: Object): void', arkTsAveragedTime);
     })
 
-    it('TreeMapPerfTest_Void_ForEach_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<string, string>();
-      for (let i = 0; i < 10; i++) {
-        treeMap.set("key" + i, "value" + i);
-      }
-      let callbackFn = (value?: string, key?: string): void => {
-      };
-      let res = treeMap.forEach(callbackFn);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.forEach(callbackFn);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Void_ForEach_2400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'forEach',
-        'forEach(callbackFn: (value?: V, key?: K, map?: TreeMap<K, V>) => void, thisArg?: Object): void', arkTsAveragedTime);
-    })
-
-    it('TreeMapPerfTest_Void_ForEach_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<string, string>();
-      for (let i = 0; i < 10; i++) {
-        treeMap.set("key" + i, "value" + i);
-      }
-      let treeMapCb: TreeMapForEachCb<string, string> = (value: string, key: string): void => {
-
-      };
-      let res = treeMap.forEach(treeMapCb);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.forEach(treeMapCb);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Void_ForEach_2500: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'forEach',
-        'forEach(callbackFn: TreeMapForEachCb<K, V>): void', arkTsAveragedTime);
-    })
 
     it('TreeMapPerfTest_Iterator_Entries_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let treeMap = new TreeMap<string, string>();
@@ -515,10 +332,10 @@ export default function TreeMapPerfTest(): void {
       let res = treeMap.entries();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.entries();
+        res = treeMap.entries();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Iterator_Entries_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'entries',
@@ -531,9 +348,10 @@ export default function TreeMapPerfTest(): void {
         treeMap.set("key" + i, "value" + i);
       }
 
+      let res = treeMap.entries();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        const iterator = treeMap.entries();
+        res = treeMap.entries();
       }
       let Dtime = new Date().getTime() - Stime;
 
@@ -551,53 +369,15 @@ export default function TreeMapPerfTest(): void {
       let res = treeMap.$_iterator();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.$_iterator();
+        res = treeMap.$_iterator();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Iterator_Iterator_2800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', '$_iterator',
         '$_iterator(): IterableIterator<[K, V]>', arkTsAveragedTime);
     })
 
-    it('TreeMapPerfTest_Void_ForEach_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let treeMap = new TreeMap<string, string>();
-      for (let i = 0; i < 10; i++) {
-        treeMap.set("key" + i, "value" + i);
-      }
-      let callback: TreeMapForEachCb<string, string> = (value: string, key: string, map: TreeMap<string, string>): void => {
-      };
-
-      let res = treeMap.forEach(callback);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        treeMap.forEach(callback);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Void_ForEach_2900: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'forEach',
-        'forEach(callbackFn: TreeMapForEachCb<K, V>): void', arkTsAveragedTime);
-    })
-
-    it('TreeMapPerfTest_Object_Constructor_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let comparator: TreeMapComparator<number> = (firstValue: number, secondValue: number): number => {
-        return firstValue - secondValue;
-      };
-
-      let res = new TreeMap<number, string>(comparator);
-      let Stime = new Date().getTime();
-      for (let i = 0; i < BASE_COUNT; i++) {
-        new TreeMap<number, string>(comparator);
-      }
-      let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_Constructor_3000: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.treeMap', 'TreeMap', 'constructor',
-        'constructor(comparator?: TreeMapComparator<K>)', arkTsAveragedTime);
-    })
   })
 }

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -224,10 +224,14 @@ export default function PlainArrayPerfTest(): void {
     // ==================== 11. add ====================
 
     it('PerformanceTest_PlainArray_Add_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let plainArray: PlainArray<string> = new PlainArray<string>();
+      let arrays: PlainArray<string>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        arrays.push(new PlainArray<string>());
+      }
+      arrays[0].add(0, 'v');
       let Stime = new Date().getTime();
-      for (let i: int = 0; i < BASE_COUNT; i++) {
-        plainArray.add(i, 'v');
+      for (let i = 0; i < BASE_COUNT; i++) {
+        arrays[i].add(i, 'v');
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;

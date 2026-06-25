@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -101,14 +101,16 @@ export default function StackPerfTest(): void {
     // ==================== 4. pop ====================
 
     it('PerformanceTest_Stack_Pop_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let stack: Stack<string> = new Stack<string>();
-      for (let i = 0; i < BASE_COUNT + 1; i++) {
-        stack.push(i.toString());
+      let stacks: Stack<string>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let s = new Stack<string>();
+        s.push('a');
+        stacks.push(s);
       }
-      let res: string = stack.pop();
+      let res: string = stacks[0].pop();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = stack.pop();
+        res = stacks[i].pop();
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;

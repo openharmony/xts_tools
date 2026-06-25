@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -81,10 +81,13 @@ export default function DequePerfTest(): void {
     // ==================== 3. insertFront ====================
 
     it('PerformanceTest_Deque_InsertFront_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let deque: Deque<int> = new Deque<int>();
+      let deques: Deque<int>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        deques.push(new Deque<int>());
+      }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        deque.insertFront(i);
+        deques[i].insertFront(i);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
@@ -96,10 +99,13 @@ export default function DequePerfTest(): void {
     // ==================== 4. insertEnd ====================
 
     it('PerformanceTest_Deque_InsertEnd_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let deque: Deque<int> = new Deque<int>();
+      let deques: Deque<int>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        deques.push(new Deque<int>());
+      }
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        deque.insertEnd(i);
+        deques[i].insertEnd(i);
       }
       let Dtime = new Date().getTime() - Stime;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;

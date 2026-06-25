@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ import { buffer } from '@kit.ArkTS';
 import performance from './Performance.util';
 
 export default function BufferPerfTest(): void {
-  describe('BufferPerfTest', () => {
+  describe('BufferPerfTest', (): void => {
     const BASE_COUNT = 50000;
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
@@ -47,7 +47,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== buffer.alloc ====================
 
-    it('PerformanceTest_buffer_Alloc_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_Alloc_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let res: buffer.Buffer = buffer.alloc(5);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -61,7 +61,7 @@ export default function BufferPerfTest(): void {
         'alloc(size: int): Buffer', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_buffer_Alloc_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_Alloc_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let res: buffer.Buffer = buffer.alloc(5, 1);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -75,7 +75,7 @@ export default function BufferPerfTest(): void {
         'alloc(size: int, fill: int): Buffer', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_buffer_Alloc_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_Alloc_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let res: buffer.Buffer = buffer.alloc(5, 'a', 'utf8');
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -91,7 +91,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== buffer.allocUninitializedFromPool ====================
 
-    it('PerformanceTest_buffer_AllocUninitializedFromPool_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_AllocUninitializedFromPool_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let res: buffer.Buffer = buffer.allocUninitializedFromPool(10);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -107,7 +107,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== buffer.allocUninitialized ====================
 
-    it('PerformanceTest_buffer_AllocUninitialized_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_AllocUninitialized_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let res: buffer.Buffer = buffer.allocUninitialized(10);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -123,7 +123,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== buffer.byteLength ====================
 
-    it('PerformanceTest_buffer_ByteLength_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_ByteLength_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let str = 'abcdef';
       let res: int = buffer.byteLength(str, 'utf8');
       let Stime = new Date().getTime();
@@ -140,7 +140,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== buffer.compare ====================
 
-    it('PerformanceTest_buffer_Compare_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_Compare_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf1: buffer.Buffer = buffer.from('1234');
       let buf2: buffer.Buffer = buffer.from('0123');
       let res: int = buffer.compare(buf1, buf2);
@@ -158,7 +158,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== buffer.concat ====================
 
-    it('PerformanceTest_buffer_Concat_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_Concat_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf1: buffer.Buffer = buffer.from('1234');
       let buf2: buffer.Buffer = buffer.from('abcd');
       let list: buffer.Buffer[] = [buf1, buf2];
@@ -177,7 +177,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== buffer.from ====================
 
-    it('PerformanceTest_buffer_From_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_From_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [0x62, 0x75, 0x66, 0x66, 0x65, 0x72];
       let res: buffer.Buffer = buffer.from(arr);
       let Stime = new Date().getTime();
@@ -192,7 +192,7 @@ export default function BufferPerfTest(): void {
         'from(array: double[]): Buffer', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_buffer_From_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_From_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let ab = new ArrayBuffer(10);
       let res: buffer.Buffer = buffer.from(ab, 0, 2);
       let Stime = new Date().getTime();
@@ -207,7 +207,7 @@ export default function BufferPerfTest(): void {
         'from(arrayBuffer: ArrayBuffer, byteOffset?: int, length?: int): Buffer', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_buffer_From_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_From_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf1: buffer.Buffer = buffer.from('buffer');
       let res: buffer.Buffer = buffer.from(buf1);
       let Stime = new Date().getTime();
@@ -222,7 +222,7 @@ export default function BufferPerfTest(): void {
         'from(buffer: Buffer | Uint8Array): Buffer', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_buffer_From_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_From_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let s = new String('this is a test');
       let res: buffer.Buffer = buffer.from(s, 'utf8', 14);
       let Stime = new Date().getTime();
@@ -237,7 +237,7 @@ export default function BufferPerfTest(): void {
         'from(object: Object, offsetOrEncoding: int | string, length: int): Buffer', arkTsAveragedTime);
     })
 
-    it('PerformanceTest_buffer_From_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_From_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let res: buffer.Buffer = buffer.from('this is a test');
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -253,7 +253,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== buffer.isBuffer ====================
 
-    it('PerformanceTest_buffer_IsBuffer_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_IsBuffer_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf: buffer.Buffer = buffer.alloc(10);
       let res: boolean = buffer.isBuffer(buf);
       let Stime = new Date().getTime();
@@ -270,7 +270,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== buffer.isEncoding ====================
 
-    it('PerformanceTest_buffer_IsEncoding_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_IsEncoding_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let res: boolean = buffer.isEncoding('utf-8');
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -286,7 +286,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== buffer.transcode ====================
 
-    it('PerformanceTest_buffer_Transcode_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_buffer_Transcode_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let src: buffer.Buffer = buffer.from('€');
       let res: buffer.Buffer = buffer.transcode(src, 'utf-8', 'ascii');
       let Stime = new Date().getTime();
@@ -303,7 +303,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.compare ====================
 
-    it('PerformanceTest_Buffer_Compare_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_Compare_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr1: double[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
       let arr2: double[] = [5, 6, 7, 8, 9, 1, 2, 3, 4];
       let buf1: buffer.Buffer = buffer.from(arr1);
@@ -323,13 +323,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.copy ====================
 
-    it('PerformanceTest_Buffer_Copy_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf1: buffer.Buffer = buffer.allocUninitializedFromPool(26);
-      let buf2: buffer.Buffer = buffer.allocUninitializedFromPool(26);
-      let res: int = buf1.copy(buf2, 8, 16, 20);
+    it('PerformanceTest_Buffer_Copy_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let pairs: buffer.Buffer[][] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        pairs.push([buffer.allocUninitializedFromPool(26), buffer.allocUninitializedFromPool(26)]);
+      }
+      let res: int = pairs[0][0].copy(pairs[0][1], 8, 16, 20);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf1.copy(buf2, 8, 16, 20);
+        res = pairs[i][0].copy(pairs[i][1], 8, 16, 20);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -341,7 +343,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.entries ====================
 
-    it('PerformanceTest_Buffer_Entries_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_Entries_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf: buffer.Buffer = buffer.from('buffer');
       let res = buf.entries();
       let Stime = new Date().getTime();
@@ -358,7 +360,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.equals ====================
 
-    it('PerformanceTest_Buffer_Equals_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_Equals_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf1: buffer.Buffer = buffer.from('ABC');
       let buf2: buffer.Buffer = buffer.from('414243', 'hex');
       let res: boolean = buf1.equals(buf2);
@@ -376,12 +378,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.fill ====================
 
-    it('PerformanceTest_Buffer_Fill_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(50);
-      let res: buffer.Buffer = buf.fill(1);
+    it('PerformanceTest_Buffer_Fill_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(50));
+      }
+      let res: buffer.Buffer = bufs[0].fill(1);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.fill(1);
+        res = bufs[i].fill(1);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -393,7 +398,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.includes ====================
 
-    it('PerformanceTest_Buffer_Includes_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_Includes_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf: buffer.Buffer = buffer.from('this is a buffer');
       let res: boolean = buf.includes('this');
       let Stime = new Date().getTime();
@@ -410,7 +415,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.indexOf ====================
 
-    it('PerformanceTest_Buffer_IndexOf_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_IndexOf_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf: buffer.Buffer = buffer.from('this is a buffer');
       let res: int = buf.indexOf('this');
       let Stime = new Date().getTime();
@@ -427,7 +432,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.keys ====================
 
-    it('PerformanceTest_Buffer_Keys_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_Keys_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf: buffer.Buffer = buffer.from('buffer');
       let res = buf.keys();
       let Stime = new Date().getTime();
@@ -444,7 +449,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.lastIndexOf ====================
 
-    it('PerformanceTest_Buffer_LastIndexOf_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_LastIndexOf_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf: buffer.Buffer = buffer.from('this buffer is a buffer');
       let res: int = buf.lastIndexOf('buffer');
       let Stime = new Date().getTime();
@@ -461,7 +466,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readBigInt64BE ====================
 
-    it('PerformanceTest_Buffer_ReadBigInt64BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadBigInt64BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [0x63, 0x64, 0x65, 0x66, 0x67, 0x68, 0x69, 0x70];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: bigint = buf.readBigInt64BE(0);
@@ -479,7 +484,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readBigInt64LE ====================
 
-    it('PerformanceTest_Buffer_ReadBigInt64LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadBigInt64LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [0x63, 0x64, 0x65, 0x66, 0x67, 0x68, 0x69, 0x70];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: bigint = buf.readBigInt64LE(0);
@@ -497,7 +502,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readBigUInt64BE ====================
 
-    it('PerformanceTest_Buffer_ReadBigUInt64BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadBigUInt64BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [0x63, 0x64, 0x65, 0x66, 0x67, 0x68, 0x69, 0x70];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: bigint = buf.readBigUInt64BE(0);
@@ -515,7 +520,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readBigUInt64LE ====================
 
-    it('PerformanceTest_Buffer_ReadBigUInt64LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadBigUInt64LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [0x63, 0x64, 0x65, 0x66, 0x67, 0x68, 0x69, 0x70];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: bigint = buf.readBigUInt64LE(0);
@@ -533,7 +538,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readDoubleBE ====================
 
-    it('PerformanceTest_Buffer_ReadDoubleBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadDoubleBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4, 5, 6, 7, 8];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: double = buf.readDoubleBE(0);
@@ -551,7 +556,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readDoubleLE ====================
 
-    it('PerformanceTest_Buffer_ReadDoubleLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadDoubleLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4, 5, 6, 7, 8];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: double = buf.readDoubleLE(0);
@@ -569,7 +574,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readFloatBE ====================
 
-    it('PerformanceTest_Buffer_ReadFloatBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadFloatBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res = buf.readFloatBE(0);
@@ -587,7 +592,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readFloatLE ====================
 
-    it('PerformanceTest_Buffer_ReadFloatLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadFloatLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res = buf.readFloatLE(0);
@@ -605,7 +610,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readInt8 ====================
 
-    it('PerformanceTest_Buffer_ReadInt8_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadInt8_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readInt8(0);
@@ -623,7 +628,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readInt16BE ====================
 
-    it('PerformanceTest_Buffer_ReadInt16BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadInt16BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readInt16BE(0);
@@ -641,7 +646,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readInt16LE ====================
 
-    it('PerformanceTest_Buffer_ReadInt16LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadInt16LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readInt16LE(0);
@@ -659,7 +664,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readInt32BE ====================
 
-    it('PerformanceTest_Buffer_ReadInt32BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadInt32BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readInt32BE(0);
@@ -677,7 +682,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readInt32LE ====================
 
-    it('PerformanceTest_Buffer_ReadInt32LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadInt32LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readInt32LE(0);
@@ -695,7 +700,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readIntBE ====================
 
-    it('PerformanceTest_Buffer_ReadIntBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadIntBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4, 5, 6];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readIntBE(0, 6);
@@ -713,7 +718,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readIntLE ====================
 
-    it('PerformanceTest_Buffer_ReadIntLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadIntLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4, 5, 6];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readIntLE(0, 6);
@@ -731,7 +736,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readUInt8 ====================
 
-    it('PerformanceTest_Buffer_ReadUInt8_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadUInt8_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readUInt8(0);
@@ -749,7 +754,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readUInt16BE ====================
 
-    it('PerformanceTest_Buffer_ReadUInt16BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadUInt16BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readUInt16BE(0);
@@ -767,7 +772,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readUInt16LE ====================
 
-    it('PerformanceTest_Buffer_ReadUInt16LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadUInt16LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readUInt16LE(0);
@@ -785,7 +790,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readUInt32BE ====================
 
-    it('PerformanceTest_Buffer_ReadUInt32BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadUInt32BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readUInt32BE(0);
@@ -803,7 +808,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readUInt32LE ====================
 
-    it('PerformanceTest_Buffer_ReadUInt32LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadUInt32LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readUInt32LE(0);
@@ -821,7 +826,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readUIntBE ====================
 
-    it('PerformanceTest_Buffer_ReadUIntBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadUIntBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4, 5, 6];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readUIntBE(0, 6);
@@ -839,7 +844,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.readUIntLE ====================
 
-    it('PerformanceTest_Buffer_ReadUIntLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ReadUIntLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [1, 2, 3, 4, 5, 6];
       let buf: buffer.Buffer = buffer.from(arr);
       let res: long = buf.readUIntLE(0, 6);
@@ -857,12 +862,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.subarray ====================
 
-    it('PerformanceTest_Buffer_Subarray_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(26);
-      let res: buffer.Buffer = buf.subarray(0, 3);
+    it('PerformanceTest_Buffer_Subarray_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: buffer.Buffer = bufs[0].subarray(0, 3);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.subarray(0, 3);
+        res = bufs[i].subarray(0, 3);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -874,7 +882,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.swap16 ====================
 
-    it('PerformanceTest_Buffer_Swap16_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_Swap16_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8];
       let bufs: buffer.Buffer[] = [];
       for (let j = 0; j < BASE_COUNT; j++) {
@@ -895,7 +903,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.swap32 ====================
 
-    it('PerformanceTest_Buffer_Swap32_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_Swap32_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8];
       let bufs: buffer.Buffer[] = [];
       for (let j = 0; j < BASE_COUNT; j++) {
@@ -916,7 +924,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.swap64 ====================
 
-    it('PerformanceTest_Buffer_Swap64_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_Swap64_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8];
       let bufs: buffer.Buffer[] = [];
       for (let j = 0; j < BASE_COUNT; j++) {
@@ -937,7 +945,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.toJSON ====================
 
-    it('PerformanceTest_Buffer_ToJSON_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ToJSON_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let arr: double[] = [0x1, 0x2, 0x3, 0x4, 0x5];
       let buf: buffer.Buffer = buffer.from(arr);
       let res = buf.toJSON();
@@ -955,7 +963,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.toString ====================
 
-    it('PerformanceTest_Buffer_ToString_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_ToString_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf: buffer.Buffer = buffer.from('abcdef');
       let res: string = buf.toString('utf8');
       let Stime = new Date().getTime();
@@ -972,7 +980,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.values ====================
 
-    it('PerformanceTest_Buffer_Values_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_Values_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf: buffer.Buffer = buffer.from('buffer');
       let res = buf.values();
       let Stime = new Date().getTime();
@@ -989,7 +997,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.write ====================
 
-    it('PerformanceTest_Buffer_Write_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_Write_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf: buffer.Buffer = buffer.alloc(256);
       let res: int = buf.write('abcdef', 0);
       let Stime = new Date().getTime();
@@ -1006,13 +1014,16 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeBigInt64BE ====================
 
-    it('PerformanceTest_Buffer_WriteBigInt64BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(8);
+    it('PerformanceTest_Buffer_WriteBigInt64BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
       let v: bigint = BigInt(0x0102030405060708);
-      let res: int = buf.writeBigInt64BE(v, 0);
+      let res: int = bufs[0].writeBigInt64BE(v, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeBigInt64BE(v, 0);
+        res = bufs[i].writeBigInt64BE(v, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1024,13 +1035,16 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeBigInt64LE ====================
 
-    it('PerformanceTest_Buffer_WriteBigInt64LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(8);
+    it('PerformanceTest_Buffer_WriteBigInt64LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
       let v: bigint = BigInt(0x0102030405060708);
-      let res: int = buf.writeBigInt64LE(v, 0);
+      let res: int = bufs[0].writeBigInt64LE(v, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeBigInt64LE(v, 0);
+        res = bufs[i].writeBigInt64LE(v, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1042,13 +1056,16 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeBigUInt64BE ====================
 
-    it('PerformanceTest_Buffer_WriteBigUInt64BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(8);
+    it('PerformanceTest_Buffer_WriteBigUInt64BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
       let v: bigint = BigInt(0x0102030405060708);
-      let res: int = buf.writeBigUInt64BE(v, 0);
+      let res: int = bufs[0].writeBigUInt64BE(v, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeBigUInt64BE(v, 0);
+        res = bufs[i].writeBigUInt64BE(v, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1060,13 +1077,16 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeBigUInt64LE ====================
 
-    it('PerformanceTest_Buffer_WriteBigUInt64LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(8);
+    it('PerformanceTest_Buffer_WriteBigUInt64LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
       let v: bigint = BigInt(0x0102030405060708);
-      let res: int = buf.writeBigUInt64LE(v, 0);
+      let res: int = bufs[0].writeBigUInt64LE(v, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeBigUInt64LE(v, 0);
+        res = bufs[i].writeBigUInt64LE(v, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1078,12 +1098,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeDoubleBE ====================
 
-    it('PerformanceTest_Buffer_WriteDoubleBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(8);
-      let res: int = buf.writeDoubleBE(123.456, 0);
+    it('PerformanceTest_Buffer_WriteDoubleBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeDoubleBE(123.456, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeDoubleBE(123.456, 0);
+        res = bufs[i].writeDoubleBE(123.456, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1095,12 +1118,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeDoubleLE ====================
 
-    it('PerformanceTest_Buffer_WriteDoubleLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(8);
-      let res: int = buf.writeDoubleLE(123.456, 0);
+    it('PerformanceTest_Buffer_WriteDoubleLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeDoubleLE(123.456, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeDoubleLE(123.456, 0);
+        res = bufs[i].writeDoubleLE(123.456, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1112,12 +1138,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeFloatBE ====================
 
-    it('PerformanceTest_Buffer_WriteFloatBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeFloatBE(0.5, 0);
+    it('PerformanceTest_Buffer_WriteFloatBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeFloatBE(0.5, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeFloatBE(0.5, 0);
+        res = bufs[i].writeFloatBE(0.5, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1129,12 +1158,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeFloatLE ====================
 
-    it('PerformanceTest_Buffer_WriteFloatLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeFloatLE(0.5, 0);
+    it('PerformanceTest_Buffer_WriteFloatLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeFloatLE(0.5, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeFloatLE(0.5, 0);
+        res = bufs[i].writeFloatLE(0.5, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1146,12 +1178,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeInt8 ====================
 
-    it('PerformanceTest_Buffer_WriteInt8_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeInt8(1, 0);
+    it('PerformanceTest_Buffer_WriteInt8_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeInt8(1, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeInt8(1, 0);
+        res = bufs[i].writeInt8(1, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1163,12 +1198,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeInt16BE ====================
 
-    it('PerformanceTest_Buffer_WriteInt16BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeInt16BE(1, 0);
+    it('PerformanceTest_Buffer_WriteInt16BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeInt16BE(1, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeInt16BE(1, 0);
+        res = bufs[i].writeInt16BE(1, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1180,12 +1218,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeInt16LE ====================
 
-    it('PerformanceTest_Buffer_WriteInt16LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeInt16LE(1, 0);
+    it('PerformanceTest_Buffer_WriteInt16LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeInt16LE(1, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeInt16LE(1, 0);
+        res = bufs[i].writeInt16LE(1, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1197,12 +1238,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeInt32BE ====================
 
-    it('PerformanceTest_Buffer_WriteInt32BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeInt32BE(1, 0);
+    it('PerformanceTest_Buffer_WriteInt32BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeInt32BE(1, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeInt32BE(1, 0);
+        res = bufs[i].writeInt32BE(1, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1214,12 +1258,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeInt32LE ====================
 
-    it('PerformanceTest_Buffer_WriteInt32LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeInt32LE(1, 0);
+    it('PerformanceTest_Buffer_WriteInt32LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeInt32LE(1, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeInt32LE(1, 0);
+        res = bufs[i].writeInt32LE(1, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1231,12 +1278,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeIntBE ====================
 
-    it('PerformanceTest_Buffer_WriteIntBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(6);
-      let res: int = buf.writeIntBE(1, 0, 6);
+    it('PerformanceTest_Buffer_WriteIntBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeIntBE(1, 0, 6);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeIntBE(1, 0, 6);
+        res = bufs[i].writeIntBE(1, 0, 6);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1248,12 +1298,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeIntLE ====================
 
-    it('PerformanceTest_Buffer_WriteIntLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(6);
-      let res: int = buf.writeIntLE(1, 0, 6);
+    it('PerformanceTest_Buffer_WriteIntLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeIntLE(1, 0, 6);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeIntLE(1, 0, 6);
+        res = bufs[i].writeIntLE(1, 0, 6);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1265,12 +1318,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeUInt8 ====================
 
-    it('PerformanceTest_Buffer_WriteUInt8_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeUInt8(1, 0);
+    it('PerformanceTest_Buffer_WriteUInt8_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeUInt8(1, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeUInt8(1, 0);
+        res = bufs[i].writeUInt8(1, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1282,12 +1338,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeUInt16BE ====================
 
-    it('PerformanceTest_Buffer_WriteUInt16BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeUInt16BE(1, 0);
+    it('PerformanceTest_Buffer_WriteUInt16BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeUInt16BE(1, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeUInt16BE(1, 0);
+        res = bufs[i].writeUInt16BE(1, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1299,12 +1358,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeUInt16LE ====================
 
-    it('PerformanceTest_Buffer_WriteUInt16LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeUInt16LE(1, 0);
+    it('PerformanceTest_Buffer_WriteUInt16LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeUInt16LE(1, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeUInt16LE(1, 0);
+        res = bufs[i].writeUInt16LE(1, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1316,12 +1378,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeUInt32BE ====================
 
-    it('PerformanceTest_Buffer_WriteUInt32BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeUInt32BE(1, 0);
+    it('PerformanceTest_Buffer_WriteUInt32BE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeUInt32BE(1, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeUInt32BE(1, 0);
+        res = bufs[i].writeUInt32BE(1, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1333,12 +1398,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeUInt32LE ====================
 
-    it('PerformanceTest_Buffer_WriteUInt32LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(4);
-      let res: int = buf.writeUInt32LE(1, 0);
+    it('PerformanceTest_Buffer_WriteUInt32LE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeUInt32LE(1, 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeUInt32LE(1, 0);
+        res = bufs[i].writeUInt32LE(1, 0);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1350,12 +1418,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeUIntBE ====================
 
-    it('PerformanceTest_Buffer_WriteUIntBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(6);
-      let res: int = buf.writeUIntBE(1, 0, 6);
+    it('PerformanceTest_Buffer_WriteUIntBE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeUIntBE(1, 0, 6);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeUIntBE(1, 0, 6);
+        res = bufs[i].writeUIntBE(1, 0, 6);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1367,12 +1438,15 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.writeUIntLE ====================
 
-    it('PerformanceTest_Buffer_WriteUIntLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let buf: buffer.Buffer = buffer.allocUninitializedFromPool(6);
-      let res: int = buf.writeUIntLE(1, 0, 6);
+    it('PerformanceTest_Buffer_WriteUIntLE_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let bufs: buffer.Buffer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        bufs.push(buffer.allocUninitializedFromPool(10));
+      }
+      let res: int = bufs[0].writeUIntLE(1, 0, 6);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = buf.writeUIntLE(1, 0, 6);
+        res = bufs[i].writeUIntLE(1, 0, 6);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
@@ -1384,7 +1458,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Buffer.[index] ====================
 
-    it('PerformanceTest_Buffer_IndexAccess_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Buffer_IndexAccess_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let buf: buffer.Buffer = buffer.alloc(4);
       buf[1] = 100;
       let res: long = buf[1];
@@ -1402,7 +1476,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Blob.constructor ====================
 
-    it('PerformanceTest_Blob_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Blob_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let src: string[] = ['a', 'b', 'c'];
       let res: buffer.Blob = new buffer.Blob(src);
       let Stime = new Date().getTime();
@@ -1419,7 +1493,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Blob.arrayBuffer ====================
 
-    it('PerformanceTest_Blob_ArrayBuffer_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Blob_ArrayBuffer_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let src: string[] = ['a', 'b', 'c'];
       let blob: buffer.Blob = new buffer.Blob(src);
       let res = blob.arrayBuffer();
@@ -1437,7 +1511,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Blob.slice ====================
 
-    it('PerformanceTest_Blob_Slice_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Blob_Slice_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let src: string[] = ['a', 'b', 'c'];
       let blob: buffer.Blob = new buffer.Blob(src);
       let res: buffer.Blob = blob.slice(0, 2);
@@ -1455,7 +1529,7 @@ export default function BufferPerfTest(): void {
 
     // ==================== Blob.text ====================
 
-    it('PerformanceTest_Blob_Text_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('PerformanceTest_Blob_Text_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let src: string[] = ['a', 'b', 'c'];
       let blob: buffer.Blob = new buffer.Blob(src);
       let res = blob.text();

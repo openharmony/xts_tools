@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -63,12 +63,13 @@ export default function XmlSerializerPerfTest(): void {
 
     it('XmlSerializerPerfTest_void_constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let arrayBuffer = new ArrayBuffer(2048);
-      let res: xml.XmlSerializer;
+      let res = new xml.XmlSerializer(arrayBuffer, "utf-8");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new xml.XmlSerializer(arrayBuffer, "utf-8");
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSerializerPerfTest arkTsAveragedTime XmlSerializerPerfTest_void_constructor_0100: '
         + arkTsAveragedTime + 'ns');
@@ -77,16 +78,19 @@ export default function XmlSerializerPerfTest(): void {
     })
 
     it('XmlSerializerPerfTest_void_setAttributes_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arrayBuffer = new ArrayBuffer(100 * BASE_COUNT);
-      let serializer = new xml.XmlSerializer(arrayBuffer, "utf-8");
-      serializer.startElement("note");
-      let res: void = serializer.setAttributes("importance", "high");
+      let serializers: xml.XmlSerializer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let s = new xml.XmlSerializer(new ArrayBuffer(2048), "utf-8");
+        s.startElement("note");
+        serializers.push(s);
+      }
+      let res: void = serializers[0].setAttributes("importance", "high");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = serializer.setAttributes("importance", "high");
+        res = serializers[i].setAttributes("importance", "high");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSerializerPerfTest arkTsAveragedTime XmlSerializerPerfTest_void_setAttributes_0200: '
         + arkTsAveragedTime + 'ns');
@@ -95,15 +99,17 @@ export default function XmlSerializerPerfTest(): void {
     })
 
     it('XmlSerializerPerfTest_void_addEmptyElement_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arrayBuffer = new ArrayBuffer(100 * BASE_COUNT);
-      let serializer = new xml.XmlSerializer(arrayBuffer, "utf-8");
-      let res: void = serializer.addEmptyElement("d");
+      let serializers: xml.XmlSerializer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), "utf-8"));
+      }
+      let res: void = serializers[0].addEmptyElement("d");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = serializer.addEmptyElement("d");
+        res = serializers[i].addEmptyElement("d");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSerializerPerfTest arkTsAveragedTime XmlSerializerPerfTest_void_addEmptyElement_0300: '
         + arkTsAveragedTime + 'ns');
@@ -119,8 +125,8 @@ export default function XmlSerializerPerfTest(): void {
         res = new xml.XmlSerializer(arrayBuffer, "utf-8").setDeclaration();
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
-      let res1 = res
       console.info('arkTsXmlSerializerPerfTest arkTsAveragedTime XmlSerializerPerfTest_void_setDeclaration_0400: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.xml', 'XmlSerializer', 'setDeclaration',
@@ -135,7 +141,7 @@ export default function XmlSerializerPerfTest(): void {
         res = new xml.XmlSerializer(arrayBuffer, "utf-8").startElement("note");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSerializerPerfTest arkTsAveragedTime XmlSerializerPerfTest_void_startElement_0500: '
         + arkTsAveragedTime + 'ns');
@@ -144,17 +150,19 @@ export default function XmlSerializerPerfTest(): void {
     })
 
     it('XmlSerializerPerfTest_void_endElement_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arrayBuffer = new ArrayBuffer(2048 * BASE_COUNT);
-      let Xml1 = new xml.XmlSerializer(arrayBuffer, "utf-8")
-      Xml1.startElement("n")
-      let res = Xml1.endElement();
+      let serializers: xml.XmlSerializer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let s = new xml.XmlSerializer(new ArrayBuffer(2048), "utf-8");
+        s.startElement("n");
+        serializers.push(s);
+      }
+      let res = serializers[0].endElement();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        Xml1.startElement("n")
-        res = Xml1.endElement();
+        res = serializers[i].endElement();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSerializerPerfTest arkTsAveragedTime XmlSerializerPerfTest_void_endElement_0600: '
         + arkTsAveragedTime + 'ns');
@@ -163,15 +171,17 @@ export default function XmlSerializerPerfTest(): void {
     })
 
     it('XmlSerializerPerfTest_void_setNamespace_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arrayBuffer = new ArrayBuffer(2048);
-      let serializer = new xml.XmlSerializer(arrayBuffer, "utf-8");
-      let res: void = serializer.setNamespace("h", "http://www.w3.org/TR/html4/");
+      let serializers: xml.XmlSerializer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), "utf-8"));
+      }
+      let res: void = serializers[0].setNamespace("h", "http://www.w3.org/TR/html4/");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = serializer.setNamespace("h", "http://www.w3.org/TR/html4/");
+        res = serializers[i].setNamespace("h", "http://www.w3.org/TR/html4/");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSerializerPerfTest arkTsAveragedTime XmlSerializerPerfTest_void_setNamespace_0700: '
         + arkTsAveragedTime + 'ns');
@@ -180,15 +190,17 @@ export default function XmlSerializerPerfTest(): void {
     })
 
     it('XmlSerializerPerfTest_void_setComment_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arrayBuffer = new ArrayBuffer(100 * BASE_COUNT);
-      let serializer = new xml.XmlSerializer(arrayBuffer, "utf-8");
-      let res: void = serializer.setComment("Hello, World!");
+      let serializers: xml.XmlSerializer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), "utf-8"));
+      }
+      let res: void = serializers[0].setComment("Hello, World!");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = serializer.setComment("Hello, World!");
+        res = serializers[i].setComment("Hello, World!");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSerializerPerfTest arkTsAveragedTime XmlSerializerPerfTest_void_setComment_0800: '
         + arkTsAveragedTime + 'ns');
@@ -197,15 +209,17 @@ export default function XmlSerializerPerfTest(): void {
     })
 
     it('XmlSerializerPerfTest_void_setCDATA_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arrayBuffer = new ArrayBuffer(100 * BASE_COUNT);
-      let serializer = new xml.XmlSerializer(arrayBuffer, "utf-8");
-      let res: void = serializer.setCDATA('root SYSTEM');
+      let serializers: xml.XmlSerializer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), "utf-8"));
+      }
+      let res: void = serializers[0].setCDATA('root SYSTEM');
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = serializer.setCDATA('root SYSTEM');
+        res = serializers[i].setCDATA('root SYSTEM');
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSerializerPerfTest arkTsAveragedTime XmlSerializerPerfTest_void_setCDATA_0900: '
         + arkTsAveragedTime + 'ns');
@@ -214,17 +228,19 @@ export default function XmlSerializerPerfTest(): void {
     })
 
     it('XmlSerializerPerfTest_void_setText_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arrayBuffer = new ArrayBuffer(100 * BASE_COUNT);
-      let serializer = new xml.XmlSerializer(arrayBuffer, "utf-8");
-      serializer.startElement("note");
-      serializer.setAttributes("importance", "high");
-      let res: void = serializer.setText("Happy");
+      let serializers: xml.XmlSerializer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let s = new xml.XmlSerializer(new ArrayBuffer(2048), "utf-8");
+        s.startElement("note");
+        serializers.push(s);
+      }
+      let res: void = serializers[0].setText("Happy");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = serializer.setText("Happy");
+        res = serializers[i].setText("Happy");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSerializerPerfTest arkTsAveragedTime XmlSerializerPerfTest_void_setText_1000: '
         + arkTsAveragedTime + 'ns');
@@ -233,13 +249,14 @@ export default function XmlSerializerPerfTest(): void {
     })
 
     it('XmlSerializerPerfTest_void_setDocType_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arrayBuffer = new ArrayBuffer(168 * BASE_COUNT);
-      let serializer = new xml.XmlSerializer(arrayBuffer, "utf-8");
-      serializer.setDeclaration();
-      let res = serializer.setDocType('root SYSTEM "http://www.test.org/test.dtd"')
+      let serializers: xml.XmlSerializer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), "utf-8"));
+      }
+      let res = serializers[0].setDocType('root SYSTEM "http://www.test.org/test.dtd"')
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = serializer.setDocType('root SYSTEM "http://www.test.org/test.dtd"');
+        res = serializers[i].setDocType('root SYSTEM "http://www.test.org/test.dtd"');
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res
@@ -257,6 +274,7 @@ export default function XmlSerializerPerfTest(): void {
         res = new xml.XmlDynamicSerializer('utf-8');
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlDynamicSerializerPerfTest arkTsAveragedTime XmlDynamicSerializerPerfTest_void_constructor' +
         '_1200: ' + arkTsAveragedTime + 'ns');
@@ -290,11 +308,11 @@ export default function XmlSerializerPerfTest(): void {
       Xml1.startElement("note");
       let res: void = Xml1.setAttributes("k", "y");
       let Stime = new Date().getTime();
-      for (let i = 0; i < 10000; i++) {
+      for (let i = 0; i < BASE_COUNT; i++) {
         res = Xml1.setAttributes("k", "y");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlDynamicSerializerPerfTest arkTsAveragedTime XmlDynamicSerializerPerfTest_void_' +
         'setAttributes_1400: ' + arkTsAveragedTime + 'ns');
@@ -308,11 +326,11 @@ export default function XmlSerializerPerfTest(): void {
       Xml1.startElement("n")
       let res: void = Xml1.addEmptyElement("d");
       let Stime = new Date().getTime();
-      for (let i = 0; i < 12000; i++){
+      for (let i = 0; i < BASE_COUNT; i++){
         res = Xml1.addEmptyElement("d");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlDynamicSerializerPerfTest arkTsAveragedTime XmlDynamicSerializerPerfTest_void_' +
         'addEmptyElement_1500: ' + arkTsAveragedTime + 'ns');
@@ -321,12 +339,14 @@ export default function XmlSerializerPerfTest(): void {
     })
 
     it('XmlDynamicSerializerPerfTest_void_setDeclaration_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let Xml1 = new xml.XmlDynamicSerializer()
-      let res = Xml1.setDeclaration()
+      let serializers: xml.XmlDynamicSerializer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        serializers.push(new xml.XmlDynamicSerializer());
+      }
+      let res = serializers[0].setDeclaration()
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        Xml1 = new xml.XmlDynamicSerializer()
-        res = Xml1.setDeclaration()
+        res = serializers[i].setDeclaration()
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res
@@ -356,10 +376,15 @@ export default function XmlSerializerPerfTest(): void {
       let Xml1 = new xml.XmlDynamicSerializer()
       Xml1.startElement("n")
       let res = Xml1.endElement()
+      let serializers: xml.XmlDynamicSerializer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let s = new xml.XmlDynamicSerializer();
+        s.startElement("n");
+        serializers.push(s);
+      }
       let Stime = new Date().getTime();
-      for (let i = 0; i < 15000; i++) {
-        Xml1.startElement("n")
-        res = Xml1.endElement()
+      for (let i = 0; i < BASE_COUNT; i++) {
+        res = serializers[i].endElement();
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res
@@ -371,14 +396,17 @@ export default function XmlSerializerPerfTest(): void {
     });
 
     it('XmlDynamicSerializerPerfTest_void_setNamespace_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let serializer = new xml.XmlDynamicSerializer('utf-8');
-      let res: void = serializer.setNamespace("h", "y");
+      let serializers: xml.XmlDynamicSerializer[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        serializers.push(new xml.XmlDynamicSerializer('utf-8'));
+      }
+      let res: void = serializers[0].setNamespace("h", "y");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = serializer.setNamespace("h", "y");
+        res = serializers[i].setNamespace("h", "y");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlDynamicSerializerPerfTest arkTsAveragedTime XmlDynamicSerializerPerfTest_void_' +
         'setNamespace_1900: ' + arkTsAveragedTime + 'ns');
@@ -393,7 +421,7 @@ export default function XmlSerializerPerfTest(): void {
         res = new xml.XmlDynamicSerializer('utf-8').setComment("Hello, World!");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlDynamicSerializerPerfTest arkTsAveragedTime XmlDynamicSerializerPerfTest_void_' +
         'setComment_2000: ' + arkTsAveragedTime + 'ns');
@@ -408,7 +436,7 @@ export default function XmlSerializerPerfTest(): void {
         res = new xml.XmlDynamicSerializer('utf-8').setCdata('root SYSTEM');
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlDynamicSerializerPerfTest arkTsAveragedTime XmlDynamicSerializerPerfTest_void_' +
         'setCdata_2100: ' + arkTsAveragedTime + 'ns');
@@ -423,7 +451,7 @@ export default function XmlSerializerPerfTest(): void {
         res = new xml.XmlDynamicSerializer('utf-8').setText("Happy");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlDynamicSerializerPerfTest arkTsAveragedTime XmlDynamicSerializerPerfTest_void_' +
         'setText_2200: ' + arkTsAveragedTime + 'ns');
@@ -438,7 +466,7 @@ export default function XmlSerializerPerfTest(): void {
         res = new xml.XmlDynamicSerializer('utf-8').setDocType('root SYSTEM "http://www.test.org/test.dtd"');
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlDynamicSerializerPerfTest arkTsAveragedTime XmlDynamicSerializerPerfTest_void_' +
         'setDocType_2300: ' + arkTsAveragedTime + 'ns');
@@ -457,6 +485,7 @@ export default function XmlSerializerPerfTest(): void {
         res = new xml.XmlPullParser(buffer, 'UTF-8');
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlPullParserPerfTest arkTsAveragedTime XmlPullParserPerfTest_void_' +
         'constructor_2400: ' + arkTsAveragedTime + 'ns');
@@ -488,7 +517,7 @@ export default function XmlSerializerPerfTest(): void {
         res = that.parseXml(options);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlPullParserPerfTest arkTsAveragedTime XmlPullParserPerfTest_void_parseXml_2500: '
         + arkTsAveragedTime + 'ns');
@@ -523,7 +552,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parser.parseXml(options);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseOptionsPerfTest arkTsAveragedTime ParseOptionsPerfTest_void_tagValueCallback_2600: '
         + arkTsAveragedTime + 'ns');
@@ -557,7 +586,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parser.parseXml(options);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseOptionsPerfTest arkTsAveragedTime ParseOptionsPerfTest_void_' +
         'attributeValueCallback_2700: ' + arkTsAveragedTime + 'ns');
@@ -590,7 +619,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parser.parseXml(options);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseOptionsPerfTest arkTsAveragedTime ParseOptionsPerfTest_void_tokenValueCallback_2800: '
         + arkTsAveragedTime + 'ns');
@@ -622,7 +651,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parser.parseXml(options);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseOptionsPerfTest arkTsAveragedTime ParseOptionsPerfTest_void_' +
         'attributeWithTagCallback_2900: ' + arkTsAveragedTime + 'ns');
@@ -658,7 +687,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parser.parseXml(options);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsAttributeWithTagCbPerfTest arkTsAveragedTime AttributeWithTagCbPerfTest_' +
         'boolean_callback_3000: ' + arkTsAveragedTime + 'ns');
@@ -693,7 +722,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parseInfoValue!.getColumnNumber();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseInfoPerfTest arkTsAveragedTime ParseInfoPerfTest_number_getColumnNumber_3100: '
         + arkTsAveragedTime + 'ns');
@@ -731,7 +760,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parseInfoValue!.getDepth();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseInfoPerfTest arkTsAveragedTime ParseInfoPerfTest_number_getDepth_3200: '
         + arkTsAveragedTime + 'ns');
@@ -765,7 +794,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parseInfoValue!.getLineNumber();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseInfoPerfTest arkTsAveragedTime ParseInfoPerfTest_number_getLineNumber_3300: '
         + arkTsAveragedTime + 'ns');
@@ -799,6 +828,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parseInfoValue!.getName();
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseInfoPerfTest arkTsAveragedTime ParseInfoPerfTest_string_getName_3400: '
         + arkTsAveragedTime + 'ns');
@@ -835,7 +865,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parseInfoValue!.getNamespace();
       }
       let Dtime = new Date().getTime() - Stime;
-
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseInfoPerfTest arkTsAveragedTime ParseInfoPerfTest_string_getNamespace_3500: '
         + arkTsAveragedTime + 'ns');
@@ -851,27 +881,24 @@ export default function XmlSerializerPerfTest(): void {
       let textEncoder = new util.TextEncoder();
       let arrbuffer = textEncoder.encodeInto(strXml);
       let parser = new xml.XmlPullParser(arrbuffer.buffer as object as ArrayBuffer);
-
       let parseInfoValue: xml.ParseInfo | undefined;
-
       const func = (key: xml.EventType, value: xml.ParseInfo): boolean => {
         parseInfoValue = value;
         return true;
       };
-
       let options: xml.ParseOptions = {
         supportDoctype: true,
         ignoreNameSpace: false,
         tokenValueCallbackFunction: func
       };
       parser.parseXml(options);
-
-      let res: string;
+      let res: string = parseInfoValue!.getPrefix();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = parseInfoValue!.getPrefix();
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseInfoPerfTest arkTsAveragedTime ParseInfoPerfTest_string_getPrefix_3600: '
         + arkTsAveragedTime + 'ns');
@@ -905,6 +932,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parseInfoValue!.getText();
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseInfoPerfTest arkTsAveragedTime ParseInfoPerfTest_string_getText_3700: '
         + arkTsAveragedTime + 'ns');
@@ -941,7 +969,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parseInfoValue!.isEmptyElementTag();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseInfoPerfTest arkTsAveragedTime ParseInfoPerfTest_boolean_isEmptyElementTag_3800: ' +
         '' + arkTsAveragedTime + 'ns');
@@ -978,7 +1006,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parseInfoValue!.isWhitespace();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseInfoPerfTest arkTsAveragedTime ParseInfoPerfTest_boolean_isWhitespace_3900: '
         + arkTsAveragedTime + 'ns');
@@ -1012,7 +1040,7 @@ export default function XmlSerializerPerfTest(): void {
         res = parseInfoValue!.getAttributeCount();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsParseInfoPerfTest arkTsAveragedTime ParseInfoPerfTest_number_getAttributeCount_4000: '
         + arkTsAveragedTime + 'ns');
@@ -1027,7 +1055,7 @@ export default function XmlSerializerPerfTest(): void {
         res = xml.EventType.START_DOCUMENT;
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsEventTypePerfTest arkTsAveragedTime EventTypePerfTest_number_startDocument_4100: '
         + arkTsAveragedTime + 'ns');
@@ -1042,7 +1070,7 @@ export default function XmlSerializerPerfTest(): void {
         res = xml.EventType.END_DOCUMENT;
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsEventTypePerfTest arkTsAveragedTime EventTypePerfTest_number_endDocument_4200: '
         + arkTsAveragedTime + 'ns');
@@ -1057,7 +1085,7 @@ export default function XmlSerializerPerfTest(): void {
         res = xml.EventType.START_TAG;
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsEventTypePerfTest arkTsAveragedTime EventTypePerfTest_number_startTag_4300: '
         + arkTsAveragedTime + 'ns');
@@ -1072,7 +1100,7 @@ export default function XmlSerializerPerfTest(): void {
         res = xml.EventType.END_TAG;
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsEventTypePerfTest arkTsAveragedTime EventTypePerfTest_number_endTag_4400: '
         + arkTsAveragedTime + 'ns');
@@ -1087,7 +1115,7 @@ export default function XmlSerializerPerfTest(): void {
         res = xml.EventType.TEXT;
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsEventTypePerfTest arkTsAveragedTime EventTypePerfTest_number_text_4500: '
         + arkTsAveragedTime + 'ns');
@@ -1102,7 +1130,7 @@ export default function XmlSerializerPerfTest(): void {
         res = xml.EventType.CDSECT;
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsEventTypePerfTest arkTsAveragedTime EventTypePerfTest_number_cdsect_4600: '
         + arkTsAveragedTime + 'ns');
@@ -1117,7 +1145,7 @@ export default function XmlSerializerPerfTest(): void {
         res = xml.EventType.COMMENT;
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsEventTypePerfTest arkTsAveragedTime EventTypePerfTest_number_comment_4700: '
         + arkTsAveragedTime + 'ns');
@@ -1132,7 +1160,7 @@ export default function XmlSerializerPerfTest(): void {
         res = xml.EventType.DOCDECL;
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsEventTypePerfTest arkTsAveragedTime EventTypePerfTest_number_docdecl_4800: '
         + arkTsAveragedTime + 'ns');
@@ -1147,7 +1175,7 @@ export default function XmlSerializerPerfTest(): void {
         res = xml.EventType.INSTRUCTION;
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsEventTypePerfTest arkTsAveragedTime EventTypePerfTest_number_instruction_4900: '
         + arkTsAveragedTime + 'ns');
@@ -1162,7 +1190,7 @@ export default function XmlSerializerPerfTest(): void {
         res = xml.EventType.ENTITY_REFERENCE;
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsEventTypePerfTest arkTsAveragedTime EventTypePerfTest_number_entityReference_5000: '
         + arkTsAveragedTime + 'ns');
@@ -1177,7 +1205,7 @@ export default function XmlSerializerPerfTest(): void {
         res = xml.EventType.WHITESPACE;
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsEventTypePerfTest arkTsAveragedTime EventTypePerfTest_number_whitespace_5100: '
         + arkTsAveragedTime + 'ns');
@@ -1193,6 +1221,7 @@ export default function XmlSerializerPerfTest(): void {
         res = new xml.XmlSAXParser(readableStream, 'utf-8');
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSAXParserPerfTest arkTsAveragedTime XmlSAXParserPerfTest_void_constructor_5200: '
         + arkTsAveragedTime + 'ns');
@@ -1225,7 +1254,7 @@ export default function XmlSerializerPerfTest(): void {
     //    res = saxParser.parse(handler);
     //  }
     //  let Dtime = new Date().getTime() - Stime;
-    //  const res1 = res;
+    //  let res1 = res;
     //  let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
     //  console.info('arkTsXmlSAXParserPerfTest arkTsAveragedTime XmlSAXParserPerfTest_void_parse_5300: '
     //    + arkTsAveragedTime + 'ns');
@@ -1241,7 +1270,7 @@ export default function XmlSerializerPerfTest(): void {
         res = handler.startDocument();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSAXHandlerPerfTest arkTsAveragedTime XmlSAXHandlerPerfTest_void_startDocument_5400: '
         + arkTsAveragedTime + 'ns');
@@ -1257,7 +1286,7 @@ export default function XmlSerializerPerfTest(): void {
         res = handler.endDocument();
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSAXHandlerPerfTest arkTsAveragedTime XmlSAXHandlerPerfTest_void_endDocument_5500: '
         + arkTsAveragedTime + 'ns');
@@ -1274,7 +1303,7 @@ export default function XmlSerializerPerfTest(): void {
         res = handler.startElement("child", "http://example.com/ns2", "ns2:child", attributes);
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSAXHandlerPerfTest arkTsAveragedTime XmlSAXHandlerPerfTest_void_startElement_5600: '
         + arkTsAveragedTime + 'ns');
@@ -1291,7 +1320,7 @@ export default function XmlSerializerPerfTest(): void {
         res = handler.endElement("child", "http://example.com/ns2", "ns2:child");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSAXHandlerPerfTest arkTsAveragedTime XmlSAXHandlerPerfTest_void_endElement_5700: '
         + arkTsAveragedTime + 'ns');
@@ -1308,7 +1337,7 @@ export default function XmlSerializerPerfTest(): void {
         res = handler.characters("test content");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSAXHandlerPerfTest arkTsAveragedTime XmlSAXHandlerPerfTest_void_characters_5800: '
         + arkTsAveragedTime + 'ns');
@@ -1337,7 +1366,7 @@ export default function XmlSerializerPerfTest(): void {
         res = handler.endElement!("child", "http://example.com/ns2", "ns2:child");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSAXHandlerPerfTest arkTsAveragedTime XmlSAXHandlerPerfTest_void_endElement_5900: '
         + arkTsAveragedTime + 'ns');
@@ -1366,7 +1395,7 @@ export default function XmlSerializerPerfTest(): void {
         res = handler.characters!("Text content");
       }
       let Dtime = new Date().getTime() - Stime;
-      const res1 = res;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsXmlSAXHandlerPerfTest arkTsAveragedTime XmlSAXHandlerPerfTest_void_characters_6000: '
         + arkTsAveragedTime + 'ns');

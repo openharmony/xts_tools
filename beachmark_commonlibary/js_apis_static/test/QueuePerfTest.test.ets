@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -98,14 +98,16 @@ export default function QueuePerfTest(): void {
     // ==================== 4. pop ====================
 
     it('PerformanceTest_Queue_Pop_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let queue: Queue<string> = new Queue<string>();
-      for (let i = 0; i < BASE_COUNT + 1; i++) {
-        queue.add(i.toString());
+      let queues: Queue<string>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let q = new Queue<string>();
+        q.add('a');
+        queues.push(q);
       }
-      let res: string = queue.pop();
+      let res: string = queues[0].pop();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = queue.pop();
+        res = queues[i].pop();
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;

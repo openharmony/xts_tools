@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ import { HashMap } from '@kit.ArkTS';
 import performance from './Performance.util';
 
 export default function HashMapPerfTest(): void {
-  describe('HashMapPerfTest', () => {
+  describe('HashMapPerfTest', (): void => {
     const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
 
@@ -152,12 +152,17 @@ export default function HashMapPerfTest(): void {
     // ==================== 7. set ====================
 
     it('PerformanceTest_HashMap_Set_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let hashMap: HashMap<string, int> = new HashMap<string, int>();
+      let maps: HashMap<string, int>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        maps.push(new HashMap<string, int>());
+      }
+      let res: Object = maps[0].set('0', 0);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        hashMap.set(i.toString(), i);
+        res = maps[i].set(i.toString(), i);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Set_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'set',
@@ -170,12 +175,17 @@ export default function HashMapPerfTest(): void {
       let srcMap: HashMap<string, int> = new HashMap<string, int>();
       srcMap.set('1', 10);
       srcMap.set('2', 20);
-      let targetMap: HashMap<string, int> = new HashMap<string, int>();
+      let targets: HashMap<string, int>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        targets.push(new HashMap<string, int>());
+      }
+      let res: void = targets[0].setAll(srcMap);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        targetMap.setAll(srcMap);
+        res = targets[i].setAll(srcMap);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_SetAll_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'setAll',
@@ -213,12 +223,13 @@ export default function HashMapPerfTest(): void {
         m.set('a', 1);
         maps.push(m);
       }
+      let res: void = maps[0].clear();
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        maps[i].clear();
+        res = maps[i].clear();
       }
       let Dtime = new Date().getTime() - Stime;
-      let res1 = maps[0];
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Clear_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'clear',
@@ -270,11 +281,13 @@ export default function HashMapPerfTest(): void {
       }
       let callback = (value: int, key: string, map: HashMap<string, int>): void => {
       };
+      let res: void = hashMap.forEach(callback);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        hashMap.forEach(callback);
+        res = hashMap.forEach(callback);
       }
       let Dtime = new Date().getTime() - Stime;
+      let res1 = res;
       let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_ForEach_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'forEach',
@@ -319,13 +332,17 @@ export default function HashMapPerfTest(): void {
 
     // ==================== 16. replace ====================
 
-    it('PerformanceTest_HashMap_Replace_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let hashMap: HashMap<string, int> = new HashMap<string, int>();
-      hashMap.set('key', 100);
-      let res: boolean = hashMap.replace('key', 200);
+    it('PerformanceTest_HashMap_Replace_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
+      let maps: HashMap<string, int>[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        let m = new HashMap<string, int>();
+        m.set('key', 100);
+        maps.push(m);
+      }
+      let res: boolean = maps[0].replace('key', 200);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = hashMap.replace('key', i);
+        res = maps[i].replace('key', i);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
