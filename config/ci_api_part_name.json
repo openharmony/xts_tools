@@ -3899,6 +3899,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.effectKit.d.ts",
+            "bundle_name": [
+                "image_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.statfs.d.ts",
             "bundle_name": [
                 "file_api"
@@ -5160,6 +5167,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.graphics.uiEffect.d.ts",
+            "bundle_name": [
+                "graphic_2d"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.graphics.uiEffect.d.ts",
             "bundle_name": [
                 "graphic_2d"
             ],
