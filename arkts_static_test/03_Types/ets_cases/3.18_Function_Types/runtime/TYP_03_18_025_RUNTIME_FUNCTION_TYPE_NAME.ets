@@ -15,7 +15,7 @@
 /**
  * @id TYP_03_18_025_RUNTIME_FUNCTION_TYPE_NAME
  * @expect runtime
- * @section 3.18.1
+ * @section 3.18
  * @design Type Function 的 name 属性验证
  * @note 运行时用例：验证 Function.name 属性值
  */

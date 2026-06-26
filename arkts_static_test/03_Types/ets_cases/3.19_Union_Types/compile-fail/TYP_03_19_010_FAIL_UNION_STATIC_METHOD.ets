@@ -15,7 +15,7 @@
 /**
  * @id TYP_03_19_010_FAIL_UNION_STATIC_METHOD
  * @expect compile-fail
- * @section 3.19.2
+ * @section 3.19
  * @design 通过联合类型访问静态方法应产生编译时错误
  * @note 反向用例：验证静态方法不能通过联合类型调用
  */

@@ -15,7 +15,7 @@
 /**
  * @id TYP_03_18_026_RUNTIME_FUNCTION_UNSAFE_CALL
  * @expect runtime
- * @section 3.18.1
+ * @section 3.18
  * @design Type Function 的 unsafeCall 方法验证
  * @note 运行时用例：验证 Function.unsafeCall 调用
  */

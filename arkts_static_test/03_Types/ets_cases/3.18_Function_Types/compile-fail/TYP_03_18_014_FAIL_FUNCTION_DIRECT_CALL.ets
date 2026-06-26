@@ -15,7 +15,7 @@
 /**
  * @id TYP_03_18_014_FAIL_FUNCTION_DIRECT_CALL
  * @expect compile-fail
- * @section 3.18.1
+ * @section 3.18
  * @design Type Function 变量直接调用，spec 3.18.1 明确规定应产生编译时错误
  * @note 反向用例：spec 3.18.1 规定 "A value of type Function cannot be called directly"
  *       但 ArkTS 实际编译通过并运行正常

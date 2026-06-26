@@ -15,7 +15,7 @@
 /**
  * @id TYP_03_19_009_FAIL_UNION_DIFF_METHOD_SIG
  * @expect compile-fail
- * @section 3.19.2
+ * @section 3.19
  * @design 联合类型同名方法不同签名应产生编译时错误
  * @note 反向用例：验证同名方法不同签名不可调用
  */

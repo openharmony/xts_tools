@@ -15,7 +15,7 @@
 /**
  * @id TYP_03_19_007_PASS_UNION_COMMON_FIELD
  * @expect compile-pass
- * @section 3.19.2
+ * @section 3.19
  * @design 联合类型共同成员（同名字段同类型、同名方法同签名）
  * @note 正向用例：验证联合类型中同名字段同类型和同名方法同签名可访问
  */
