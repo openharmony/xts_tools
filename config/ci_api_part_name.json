@@ -17751,6 +17751,13 @@
                 "content_embed"
             ],
             "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/ContentEmbedKit/content_embed",
+            "bundle_name": [
+                "content_embed"
+            ],
+            "build_targets": {}
         }
     ],
     "driver_interface": [
