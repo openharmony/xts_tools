@@ -1547,6 +1547,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.cooperate.d.ts",
+            "bundle_name": [
+                "device_status"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.appManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -2101,6 +2108,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.deviceStatus.dragInteraction.d.ts",
+            "bundle_name": [
+                "device_status"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.deviceStatus.dragInteraction.d.ts",
             "bundle_name": [
                 "device_status"
             ],
