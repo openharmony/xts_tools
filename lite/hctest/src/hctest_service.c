@@ -21,6 +21,7 @@
 #include "common.h"
 #include "hctest_internal.h"
 
+
 typedef struct TestService {
     INHERIT_SERVICE;
     Identity identity;
@@ -74,7 +75,11 @@ static BOOL MessageHandle(Service *service, Request *request)
     switch (request->msgId) {
         case MSG_START_TEST:
             if ((testService->flag & TEST_FLAG) != TEST_FLAG) {
+#ifdef HCTEST_NEW_RUNNER
+                RunAllXtsTests();
+#else
                 INIT_TEST_CALL();
+#endif
                 testService->flag |= TEST_FLAG;
             }
             (void)SAMGR_SendResponseByIdentity(&testService->identity, request, NULL);
@@ -87,7 +92,8 @@ static BOOL MessageHandle(Service *service, Request *request)
 
 static TaskConfig GetTaskConfig(Service *service)
 {
-    TaskConfig config = {LEVEL_MIDDLE, PRI_NORMAL, 0x1800, TASK_QUEUE_SIZE, SINGLE_TASK};
+    TaskConfig config = {LEVEL_MIDDLE, PRI_NORMAL, HCTEST_TASK_STACK_SIZE, HCTEST_TASK_QUEUE_SIZE,
+                         HCTEST_TASK_TYPE};
     (void)service;
     return config;
 };

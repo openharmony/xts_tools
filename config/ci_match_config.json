@@ -1,32 +1,31 @@
 {
-    "exception_path":{
-        "string_rules":[
+    "exception_path": {
+        "string_rules": [
             "_lite/",
             "/acts/applications/kitframework_ipcamera/",
             "/acts/applications/kitframework/",
             "/acts/open_posix_testsuite/"
         ],
-        "re_rules":[
+        "re_rules": [
             "/[a-z]{3}s/testtools/",
             "/[a-z]{3}s/demo/"
         ]
     },
-
-    "all_com_path":{
-        "string_rules":[
+    "all_com_path": {
+        "string_rules": [
         ],
-        "re_rules":[
+        "re_rules": [
             "/[a-z]{3}s/build/"
         ]
     },
-    "skip_judge_build_path":{
-        "string_rules":[
+    "skip_judge_build_path": {
+        "string_rules": [
             "/cpp"
         ],
-        "re_rules":[
+        "re_rules": [
         ]
     },
-    "temple_list":[
+    "temple_list": [
         "ohos_js_app_static_suite",
         "ohos_moduletest_suite",
         "ohos_js_hap_suite",
@@ -44,9 +43,9 @@
         "test/xts/hats",
         "test/xts/hits"
     ],
-    "interface_path_list": [
-        "interface/sdk-js",
-        "interface/sdk_c",
-        "drivers/interface"
-    ]
+    "interface_path_dict": {
+        "sdk-js": "interface/sdk-js",
+        "sdk_c": "interface/sdk_c",
+        "driver_interface": "drivers/interface"
+    }
 }

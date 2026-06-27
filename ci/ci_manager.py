@@ -18,9 +18,18 @@
 import json
 import os
 import sys
+from pathlib import Path
 from abc import ABC, abstractmethod
 
-from utils import ChangeFileEntity, XTSTargetUtils, PathUtils, MatchConfig, HOME
+from utils import (
+    ChangeFileEntity,
+    XTSTargetUtils,
+    PathUtils,
+    MatchConfig,
+    CODEBASE,
+    InterfaceRepo,
+    WhitelistProcessor
+)
 
 
 class Ci_Manager(ABC):
@@ -85,7 +94,7 @@ class ComponentManager(Ci_Manager):
         return 0
 
     def getBundleName(self, path) -> str:
-        with open(os.path.join(HOME, path, "bundle.json"), 'r') as file:
+        with open(os.path.join(CODEBASE, path, "bundle.json"), 'r') as file:
             data = json.load(file)
         bundle_name = data['component']['name']
         return bundle_name
@@ -259,21 +268,19 @@ class GetInterfaceData(Ci_Manager):
 
     def get_targets_from_change(self, change_list):
         for store in change_list:
-            if store.path in MatchConfig.get_interface_path_list() and "hap_static" in self._suite_type:
+            if "hap_static" in self._suite_type and \
+                store.path in MatchConfig.get_interface_path_mapping().values():
                 self._build_targets = ["xts_{}".format(os.path.basename(self._xts_root_dir))]
                 return
 
-        # 处理三个 interface 仓
-        self.append_bundles_and_targets(change_list,
-                                        MatchConfig.get_interface_path_list()[0],
-                                        MatchConfig.get_interface_json_js_data())
-        self.append_bundles_and_targets(change_list,
-                                        MatchConfig.get_interface_path_list()[1],
-                                        MatchConfig.get_interface_json_c_data())
-        self.append_bundles_and_targets(change_list,
-                                        MatchConfig.get_interface_path_list()[2],
-                                        MatchConfig.get_interface_json_driver_interface_data())
-        self.append_extra_from_driver_interface(change_list, MatchConfig.get_interface_path_list()[2])
+        candidates = self._filter_by_whitelist(change_list)
+
+        # 处理所有 interface 仓
+        for repo_name in InterfaceRepo:
+            self.append_bundles_and_targets(candidates,
+                                            MatchConfig.get_interface_path(repo_name),
+                                            MatchConfig.get_interface_bundle_config(repo_name))
+        self.append_extra_from_driver_interface(candidates)
 
         # 筛选出未匹配路径
         for path in self.sum_change_list_path:
@@ -289,6 +296,37 @@ class GetInterfaceData(Ci_Manager):
 
         # 根据bundle_name 查找对应 build_paths
         self._build_paths = XTSTargetUtils.getPathsByBundle(self.bundle_name_list, self._xts_root_dir)
+
+    def _filter_by_whitelist(self, change_list: list[ChangeFileEntity]):
+        """
+        Keep only interface repos and filter out whitelist files.
+        """
+        result = []
+        repo_map = MatchConfig.get_interface_path_mapping()
+        interface_paths = repo_map.values()
+        processor = WhitelistProcessor(
+            MatchConfig.get_interface_whitelist_config(),
+            repo_map,
+            self._code_root_dir
+        )
+
+        def rm_path_prefix(paths: list[str], prefix: str) -> list[str]:
+            prefix_path = Path(prefix)
+            return [
+                str(Path(p).relative_to(prefix_path))
+                for p in paths
+                if Path(p).is_relative_to(prefix_path)
+            ]
+
+        for chg in change_list:
+            if chg.path in interface_paths:
+                _chg = ChangeFileEntity(chg.name, chg.path)
+                _chg.addAddPaths(rm_path_prefix(processor.filter_files(chg.add), _chg.path))
+                _chg.addModifiedPaths(rm_path_prefix(processor.filter_files(chg.modified), _chg.path))
+                _chg.addDeletePaths(rm_path_prefix(processor.filter_files(chg.delete), _chg.path))
+                result.append(_chg)
+
+        return result
 
     def _validate_config_entry(self, conf, early_exit = False):
         msg = "Invalid interface configuration"
@@ -356,13 +394,12 @@ class GetInterfaceData(Ci_Manager):
                     self._build_targets += build_targets
 
     # driver_interface 仓额外处理逻辑
-    def append_extra_from_driver_interface(self, change_list, interface_path):
+    def append_extra_from_driver_interface(self, change_list):
         add_bundle_json_path = []
+        interface_path = MatchConfig.get_interface_path(InterfaceRepo.DRIVERS)
         for chg in change_list:
-            # 获取 change_list driver_interface 仓数据
             if chg.path != interface_path:
                 continue
-
             # 查看新增目录下是否有 bundle.json
             for path in chg.add:
                 if os.path.basename(path) == 'bundle.json':
