@@ -155,6 +155,108 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/ohos_copy_ets.py",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {
+                "acts":[
+                    "xts_acts"
+                ],
+                "dcts":[
+                    "xts_dcts"
+                ],
+                "hats":[
+                    "xts_hats"
+                ]
+            }
+        },
+        {
+            "path": "interface/sdk-js/process_internal.py",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {
+                "acts":[
+                    "xts_acts"
+                ],
+                "dcts":[
+                    "xts_dcts"
+                ],
+                "hats":[
+                    "xts_hats"
+                ]
+            }
+        },
+        {
+            "path": "interface/sdk-js/remove_internal.py",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {
+                "acts":[
+                    "xts_acts"
+                ],
+                "dcts":[
+                    "xts_dcts"
+                ],
+                "hats":[
+                    "xts_hats"
+                ]
+            }
+        },
+        {
+            "path": "interface/sdk-js/build-tools/delete_systemapi_plugin.js",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {
+                "acts":[
+                    "xts_acts"
+                ],
+                "dcts":[
+                    "xts_dcts"
+                ],
+                "hats":[
+                    "xts_hats"
+                ]
+            }
+        },
+        {
+            "path": "interface/sdk-js/build-tools/handleApiFiles.js",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {
+                "acts":[
+                    "xts_acts"
+                ],
+                "dcts":[
+                    "xts_dcts"
+                ],
+                "hats":[
+                    "xts_hats"
+                ]
+            }
+        },
+        {
+            "path": "interface/sdk-js/build-tools/intToNumber.js",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {
+                "acts":[
+                    "xts_acts"
+                ],
+                "dcts":[
+                    "xts_dcts"
+                ],
+                "hats":[
+                    "xts_hats"
+                ]
+            }
+        },
+        {
             "path": "interface/sdk-js/build-tools/remove_declgen.json",
             "bundle_name": [
                 "sdk"
@@ -163,13 +265,6 @@
         },
         {
             "path": "interface/sdk-js/run_compile_declgen.py",
-            "bundle_name": [
-                "sdk"
-            ],
-            "build_targets": {}
-        },
-        {
-            "path": "interface/sdk-js/remove_internal.py",
             "bundle_name": [
                 "sdk"
             ],
@@ -288,13 +383,6 @@
             "build_targets": {}
         },
         {
-            "path": "interface/sdk-js/process_internal.py",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": {}
-        },
-        {
             "path": "interface/sdk-js/process_internal.pydeps",
             "bundle_name": [
                 "ability_runtime"
@@ -345,13 +433,6 @@
         },
         {
             "path": "interface/sdk-js/BUILD.gn",
-            "bundle_name": [
-                "ability_runtime"
-            ],
-            "build_targets": {}
-        },
-        {
-            "path": "interface/sdk-js/ohos_copy_ets.py",
             "bundle_name": [
                 "ability_runtime"
             ],
