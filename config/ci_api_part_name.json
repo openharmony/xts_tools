@@ -8344,6 +8344,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/container_span.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/custom_dialog_controller.d.ts",
             "bundle_name": [
                 "ace_engine"
