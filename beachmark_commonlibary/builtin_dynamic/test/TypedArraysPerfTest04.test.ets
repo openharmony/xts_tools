@@ -532,14 +532,16 @@ export default function TypedArraysPerfTest04(): void {
 
     it('PerformanceTest_Float64Array_sort', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let arr: Float64Array = new Float64Array([5.0, 2.0, 3.0, 1.0, 4.0]);
-        let res: Float64Array = arr.sort();
+        let arrays: Float64Array[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          arrays.push(new Float64Array([5.0, 2.0, 3.0, 1.0, 4.0]));
+        }
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = arr.sort();
+          arrays[i].sort();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
+        let res1 = arrays[BASE_COUNT - 1];
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest Float64Array sort: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'sort', 'sort(compareFn?: (a, b) => number): this', arkTsAveragedTime);

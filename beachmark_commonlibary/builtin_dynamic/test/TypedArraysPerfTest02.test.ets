@@ -473,8 +473,7 @@ export default function TypedArraysPerfTest02(): void {
     })
 
     it('PerformanceTest_Int32Array_toSorted', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let arr: Int32Array = new Int32Array([5, 2, 3, 1, 4]);
-      let res: Int32Array = arr.slice().sort();
+      let arr: Int32Array = new Int32Array([5, 2, 3, 1, 4]);    
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
         res = arr.slice().sort();
@@ -716,11 +715,13 @@ export default function TypedArraysPerfTest02(): void {
     })
 
     it('PerformanceTest_Int32Array_sort', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let arr: Int32Array = new Int32Array([5, 2, 3, 1, 4]);
-      let res = arr.sort();
+      let arrays: Int32Array[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        arrays.push(new Int32Array([5, 2, 3, 1, 4]));
+      }
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.sort();
+        arrays[i].sort();
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;

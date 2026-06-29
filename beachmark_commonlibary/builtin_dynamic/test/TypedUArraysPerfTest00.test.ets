@@ -617,7 +617,7 @@ export default function TypedUArraysPerfTest00(): void {
       let result = arr.sort();
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = arr.sort();
+        arr.sort();
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;

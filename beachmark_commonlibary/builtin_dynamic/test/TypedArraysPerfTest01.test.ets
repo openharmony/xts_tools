@@ -406,14 +406,16 @@ it('PerformanceTest_Int16Array_copyWithin', TestType.FUNCTION | Size.MEDIUMTEST 
     })
 
     it('PerformanceTest_Int16Array_sort', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let arr: Int16Array = new Int16Array([5, 2, 3, 1, 4]);
-      let res: Int16Array = arr.sort();
+      let arrays: Int16Array[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        arrays.push(new Int16Array([5, 2, 3, 1, 4]));
+      }
       let Stime: number = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = arr.sort();
+        arrays[i].sort();
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
+      let res1 = arrays[BASE_COUNT - 1];
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int16Array sort: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'sort', 'sort(compareFn?: (a, b) => int): this', arkTsAveragedTime);

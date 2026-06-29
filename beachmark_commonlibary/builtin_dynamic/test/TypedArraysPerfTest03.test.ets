@@ -812,14 +812,16 @@ export default function TypedArraysPerfTest03(): void {
     it('PerformanceTest_Float32Array_sort',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let arr: Float32Array = new Float32Array([5.0, 2.0, 3.0, 1.0, 4.0]);
-        let res: Float32Array = arr.sort();
+        let arrays: Float32Array[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          arrays.push(new Float32Array([5.0, 2.0, 3.0, 1.0, 4.0]));
+        }
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = arr.sort();
+          arrays[i].sort();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
+        let res1 = arrays[BASE_COUNT - 1];
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest Float32Array sort: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'sort',

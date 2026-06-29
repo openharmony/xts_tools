@@ -158,13 +158,16 @@ export default function MapPerfTest(): void {
 
     it('PerformanceTest_Map_clear_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let res = new Map<string, object>();
+        let maps: Map<string, object>[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          maps.push(new Map<string, object>());
+        }
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res.clear();
+          maps[i].clear();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
+        let res1 = maps[BASE_COUNT - 1];
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_clear_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'clear',
