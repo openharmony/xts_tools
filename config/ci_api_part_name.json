@@ -17440,13 +17440,6 @@
             "build_targets": {}
         },
         {
-            "path": "interface/sdk_c/filemanagement/compress",
-            "bundle_name": [
-                "file_api"
-            ],
-            "build_targets": {}
-        },
-        {
             "path": "interface/sdk_c/filemanagement/archive",
             "bundle_name": [
                 "file_api"
