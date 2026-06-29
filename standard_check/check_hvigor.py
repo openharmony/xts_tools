@@ -59,7 +59,7 @@ class HvigorChecker:
                 print(f'Error processing config file: {json_file}')
                 raise
 
-    def get_api_version(self):
+    def get_api_full_version(self):
         root_dir = os.path.realpath(os.path.join(self._xts_root_dir, "../../.."))
         api_full_version = ''
         with open(os.path.join(root_dir, "build/version.gni"), "r") as f:
@@ -118,7 +118,7 @@ class HvigorChecker:
 
         if len(unmatch_prj_list):
             self.output_unmatched_project(unmatch_prj_list, 'build-profile.json5')
-            print("Plesse update compileSdkVersion to {}".format(api_version))
+            print("Plesse update compileSdkVersion to {}".format(api_full_version))
             return False
         return True
 
