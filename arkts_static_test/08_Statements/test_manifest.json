@@ -1,0 +1,1843 @@
+{
+  "chapter": "08",
+  "topic": "Statements",
+  "directory": "08_Statements",
+  "spec_source": "ArkTS static language specification",
+  "subtopics": [
+    "8.10_break_Statements",
+    "8.11_continue_Statements",
+    "8.12_return_Statements",
+    "8.13_switch_Statements",
+    "8.14_throw_Statements",
+    "8.15.1_catch_Clause",
+    "8.15.2_finally_Clause",
+    "8.15.3_try_Statement_Execution",
+    "8.15_try_Statements",
+    "8.1_Normal_and_Abrupt_Statement_Execution",
+    "8.2_Expression_Statements",
+    "8.3_Block",
+    "8.4_Constant_or_Variable_Declarations",
+    "8.5_if_Statements",
+    "8.6_Loop_Statements",
+    "8.7_while_Statements_and_do_Statements",
+    "8.8_for_Statements",
+    "8.9_for_of_Statements"
+  ],
+  "case_roots": [
+    "ets_cases"
+  ],
+  "categories": [
+    "compile-pass",
+    "compile-fail",
+    "runtime"
+  ],
+  "cases": [
+    {
+      "id": "STM_08_10_001_PASS_break_basic_while",
+      "section": "8.10",
+      "category": "compile-pass",
+      "description": "在while循环中使用无标签break，跳出最内层循环"
+    },
+    {
+      "id": "STM_08_10_002_PASS_break_labelled",
+      "section": "8.10",
+      "category": "compile-pass",
+      "description": "在嵌套循环中使用带标签的break，跳出外层标记的循环"
+    },
+    {
+      "id": "STM_08_10_003_PASS_break_for_loop",
+      "section": "8.10",
+      "category": "compile-pass",
+      "description": "在for循环中使用无标签break，跳出for循环"
+    },
+    {
+      "id": "STM_08_10_004_PASS_break_for_of",
+      "section": "8.10",
+      "category": "compile-pass",
+      "description": "在for-of循环中使用无标签break，跳出for-of循环"
+    },
+    {
+      "id": "STM_08_10_005_PASS_break_switch",
+      "section": "8.10",
+      "category": "compile-pass",
+      "description": "在switch语句中使用break跳出case块，防止fallthrough"
+    },
+    {
+      "id": "STM_08_10_006_PASS_break_deep_nested_unlabeled",
+      "section": "8.10",
+      "category": "compile-pass",
+      "description": "在三层嵌套for循环中使用无标签break，应跳出最内层循环"
+    },
+    {
+      "id": "STM_08_10_007_PASS_break_deep_nested_labeled",
+      "section": "8.10",
+      "category": "compile-pass",
+      "description": "在三层嵌套循环中使用带标签的break跳出中间层标记的循环"
+    },
+    {
+      "id": "STM_08_10_020_PASS_BREAK_IN_DO_WHILE",
+      "section": "8.10",
+      "category": "compile-pass",
+      "description": "do-while 循环中使用 break"
+    },
+    {
+      "id": "STM_08_10_021_PASS_BREAK_IN_FOR_OF",
+      "section": "8.10",
+      "category": "compile-pass",
+      "description": "for-of 循环中使用 break"
+    },
+    {
+      "id": "STM_08_10_022_PASS_BREAK_WITH_LABEL_NESTED",
+      "section": "8.10",
+      "category": "compile-pass",
+      "description": "嵌套循环中使用带 label 的 break"
+    },
+    {
+      "id": "STM_08_10_006_FAIL_break_outside_loop",
+      "section": "8.10",
+      "category": "compile-fail",
+      "description": "break语句出现在任何循环或switch语句外部，应产生编译错误"
+    },
+    {
+      "id": "STM_08_10_007_FAIL_break_label_not_found",
+      "section": "8.10",
+      "category": "compile-fail",
+      "description": "break的标签不匹配任何封闭语句的标签，产生编译错误"
+    },
+    {
+      "id": "STM_08_10_008_FAIL_break_label_non_loop",
+      "section": "8.10",
+      "category": "compile-fail",
+      "description": "break标签指向一个非循环/switch语句的标签（如标记的块语句），产生编译错误"
+    },
+    {
+      "id": "STM_08_10_009_FAIL_break_at_top_level",
+      "section": "8.10",
+      "category": "compile-fail",
+      "description": "break 语句在顶层（非循环/switch 内）应产生编译错误 — STATEMENTS.md: \"If a break statement is used outside a loopStatement or a switchStatement, then a compile"
+    },
+    {
+      "id": "STM_08_10_010_FAIL_break_label_not_found_deep",
+      "section": "8.10",
+      "category": "compile-fail",
+      "description": "在三层嵌套循环中使用带标签break，但标签不存在于任何外层循环 — 应产生编译错误"
+    },
+    {
+      "id": "STM_08_10_011_FAIL_break_deep_nested_outside",
+      "section": "8.10",
+      "category": "compile-fail",
+      "description": "在深层嵌套的if/else块中使用break语句（不在任何循环或switch内） — 应产生编译错误"
+    },
+    {
+      "id": "STM_08_10_023_FAIL_BREAK_OUTSIDE_LOOP",
+      "section": "8.10",
+      "category": "compile-fail",
+      "description": "在循环外使用 break 应产生编译错误"
+    },
+    {
+      "id": "STM_08_10_024_FAIL_BREAK_WRONG_LABEL",
+      "section": "8.10",
+      "category": "compile-fail",
+      "description": "break 引用不存在的 label 应产生编译错误"
+    },
+    {
+      "id": "STM_08_10_025_FAIL_BREAK_LABEL_OUTER_NOT_LOOP",
+      "section": "8.10",
+      "category": "compile-fail",
+      "description": "break label 的目标不是循环应产生编译错误"
+    },
+    {
+      "id": "STM_08_10_026_FAIL_BREAK_IF_IN_LOOP",
+      "section": "8.10",
+      "category": "compile-fail",
+      "description": "break 在函数顶级而非循环中应产生编译错误"
+    },
+    {
+      "id": "STM_08_10_009_RUNTIME_break_while_control",
+      "section": "8.10",
+      "category": "runtime",
+      "description": "验证无标签break在while循环中能正确跳出，退出后循环变量和计数器的值正确"
+    },
+    {
+      "id": "STM_08_10_010_RUNTIME_break_labelled_outer",
+      "section": "8.10",
+      "category": "runtime",
+      "description": "验证带标签的break能正确跳出外层标记循环，跳过内层剩余迭代"
+    },
+    {
+      "id": "STM_08_10_011_RUNTIME_break_switch_control",
+      "section": "8.10",
+      "category": "runtime",
+      "description": "验证break在switch语句中能正确跳出case块，防止fallthrough到下一个case"
+    },
+    {
+      "id": "STM_08_10_012_RUNTIME_break_deep_nested_unlabeled",
+      "section": "8.10",
+      "category": "runtime",
+      "description": "验证三层嵌套for循环中无标签break只跳出最内层，外层循环继续执行"
+    },
+    {
+      "id": "STM_08_10_013_RUNTIME_break_deep_nested_labeled_outer",
+      "section": "8.10",
+      "category": "runtime",
+      "description": "验证三层嵌套循环中带标签break直接跳出最外层标记的循环，中层和内层都被终止"
+    },
+    {
+      "id": "STM_08_10_014_RUNTIME_break_deep_nested_labeled_mid",
+      "section": "8.10",
+      "category": "runtime",
+      "description": "3层嵌套循环中 labeled break 跳出中间层"
+    },
+    {
+      "id": "STM_08_10_027_RUNTIME_BREAK_INNER_LOOP",
+      "section": "8.10",
+      "category": "runtime",
+      "description": "break 只退出最内层循环"
+    },
+    {
+      "id": "STM_08_10_028_RUNTIME_BREAK_WITH_LABEL",
+      "section": "8.10",
+      "category": "runtime",
+      "description": "带 label break 退出外层循环"
+    },
+    {
+      "id": "STM_08_10_029_RUNTIME_BREAK_SWITCH",
+      "section": "8.10",
+      "category": "runtime",
+      "description": "switch 中使用 break 退出"
+    },
+    {
+      "id": "STM_08_10_030_RUNTIME_BREAK_WHILE",
+      "section": "8.10",
+      "category": "runtime",
+      "description": "while 中使用 break 终止循环"
+    },
+    {
+      "id": "STM_08_11_001_PASS_basic_continue_in_for_loop",
+      "section": "8.11",
+      "category": "compile-pass",
+      "description": "验证无标签的continue语句在for循环中的基本用法，跳过偶数次迭代"
+    },
+    {
+      "id": "STM_08_11_002_PASS_continue_with_label_in_nested_for",
+      "section": "8.11",
+      "category": "compile-pass",
+      "description": "验证带标签的continue语句在嵌套for循环中跳转到外层循环的下一次迭代"
+    },
+    {
+      "id": "STM_08_11_003_PASS_continue_in_while_loop",
+      "section": "8.11",
+      "category": "compile-pass",
+      "description": "验证无标签的continue语句在while循环中的基本用法，跳过特定条件迭代"
+    },
+    {
+      "id": "STM_08_11_004_PASS_continue_in_do_while_loop",
+      "section": "8.11",
+      "category": "compile-pass",
+      "description": "验证无标签的continue语句在do-while循环中的基本用法，跳过特定条件迭代"
+    },
+    {
+      "id": "STM_08_11_005_PASS_continue_with_label_deeply_nested",
+      "section": "8.11",
+      "category": "compile-pass",
+      "description": "验证带标签的continue语句在多层嵌套循环中跳转到中间层和外层标签的混合使用"
+    },
+    {
+      "id": "STM_08_11_006_PASS_continue_with_label_in_do_while",
+      "section": "8.11",
+      "category": "compile-pass",
+      "description": "验证带标签的continue语句在do-while循环中正确编译，标签定位到外层do-while循环"
+    },
+    {
+      "id": "STM_08_11_019_PASS_CONTINUE_WHILE",
+      "section": "8.11",
+      "category": "compile-pass",
+      "description": "while 循环中使用 continue"
+    },
+    {
+      "id": "STM_08_11_020_PASS_CONTINUE_FOR_OF",
+      "section": "8.11",
+      "category": "compile-pass",
+      "description": "for-of 循环中使用 continue"
+    },
+    {
+      "id": "STM_08_11_021_PASS_CONTINUE_LABELED",
+      "section": "8.11",
+      "category": "compile-pass",
+      "description": "带 label 的 continue"
+    },
+    {
+      "id": "STM_08_11_022_PASS_CONTINUE_DO_WHILE",
+      "section": "8.11",
+      "category": "compile-pass",
+      "description": "do-while 循环中使用 continue"
+    },
+    {
+      "id": "STM_08_11_006_FAIL_continue_outside_loop",
+      "section": "8.11",
+      "category": "compile-fail",
+      "description": "验证continue语句在循环语句外部使用时产生编译时错误"
+    },
+    {
+      "id": "STM_08_11_007_FAIL_continue_in_for_with_compound_update",
+      "section": "8.11",
+      "category": "compile-fail",
+      "description": "验证for循环中continue语句与复合（逗号分隔）forUpdate表达式一起正确编译"
+    },
+    {
+      "id": "STM_08_11_007_FAIL_continue_with_nonexistent_label",
+      "section": "8.11",
+      "category": "compile-fail",
+      "description": "验证continue语句使用不存在的标签标注时产生编译时错误"
+    },
+    {
+      "id": "STM_08_11_008_FAIL_continue_with_non_loop_label",
+      "section": "8.11",
+      "category": "compile-fail",
+      "description": "验证continue语句使用非循环语句的标签时产生编译时错误（标签标记的是块语句而非循环）"
+    },
+    {
+      "id": "STM_08_11_009_FAIL_continue_at_top_level",
+      "section": "8.11",
+      "category": "compile-fail",
+      "description": "continue 语句在顶层（非循环内）应产生编译错误 — STATEMENTS.md: \"If there is no enclosing loopStatement... then a compile-time error occurs\""
+    },
+    {
+      "id": "STM_08_11_010_FAIL_continue_with_label_on_non_loop_block",
+      "section": "8.11",
+      "category": "compile-fail",
+      "description": "验证continue语句使用的标签标记在非循环语句（普通块语句）上时产生编译时错误"
+    },
+    {
+      "id": "STM_08_11_013_FAIL_continue_in_for_verifies_update_execution",
+      "section": "8.11",
+      "category": "compile-fail",
+      "description": "验证for循环中continue语句触发后，forUpdate表达式在条件重新评估前被执行"
+    },
+    {
+      "id": "STM_08_11_023_FAIL_CONTINUE_OUTSIDE_LOOP",
+      "section": "8.11",
+      "category": "compile-fail",
+      "description": "continue 在循环外使用应产生编译错误"
+    },
+    {
+      "id": "STM_08_11_024_FAIL_CONTINUE_WRONG_LABEL",
+      "section": "8.11",
+      "category": "compile-fail",
+      "description": "continue 引用不存在的 label 应产生编译错误"
+    },
+    {
+      "id": "STM_08_11_025_FAIL_CONTINUE_LABEL_IN_LAMBDA",
+      "section": "8.11",
+      "category": "compile-fail",
+      "description": "continue label 在 lambda 中使用应产生编译错误"
+    },
+    {
+      "id": "STM_08_11_009_RUNTIME_continue_in_for_loop_skip_iteration",
+      "section": "8.11",
+      "category": "runtime",
+      "description": "验证在for循环中使用无标签continue跳过特定迭代（跳过3）的运行时行为"
+    },
+    {
+      "id": "STM_08_11_010_RUNTIME_continue_with_label_nested_loops",
+      "section": "8.11",
+      "category": "runtime",
+      "description": "验证嵌套循环中使用带标签的continue跳转到外层循环的运行时行为"
+    },
+    {
+      "id": "STM_08_11_011_RUNTIME_continue_in_while_loop_skip_even",
+      "section": "8.11",
+      "category": "runtime",
+      "description": "验证在while循环中使用无标签continue跳过偶数的运行时行为"
+    },
+    {
+      "id": "STM_08_11_012_RUNTIME_continue_in_do_while_jumps_to_condition",
+      "section": "8.11",
+      "category": "runtime",
+      "description": "验证do-while循环中continue语句将控制权转移到while条件检查，而非循环体第一条语句"
+    },
+    {
+      "id": "STM_08_11_014_RUNTIME_continue_with_label_do_while_nested",
+      "section": "8.11",
+      "category": "runtime",
+      "description": "验证在do-while嵌套for循环中使用带标签continue跳转到外层do-while条件检查的运行时行为"
+    },
+    {
+      "id": "STM_08_11_026_RUNTIME_CONTINUE_SKIP",
+      "section": "8.11",
+      "category": "runtime",
+      "description": "continue 跳过当前迭代"
+    },
+    {
+      "id": "STM_08_11_027_RUNTIME_CONTINUE_LABELED_OUTER",
+      "section": "8.11",
+      "category": "runtime",
+      "description": "continue label 跳到外层循环"
+    },
+    {
+      "id": "STM_08_11_028_RUNTIME_CONTINUE_ODD_ONLY",
+      "section": "8.11",
+      "category": "runtime",
+      "description": "continue 收集奇数"
+    },
+    {
+      "id": "STM_08_11_029_RUNTIME_CONTINUE_DO_WHILE_CHECK",
+      "section": "8.11",
+      "category": "runtime",
+      "description": "continue 在 do-while 中仍然检查条件"
+    },
+    {
+      "id": "STM_08_11_030_RUNTIME_CONTINUE_EMPTY_LOOP",
+      "section": "8.11",
+      "category": "runtime",
+      "description": "continue 在空循环体中"
+    },
+    {
+      "id": "STM_08_12_001_PASS_return_in_void_function",
+      "section": "8.12",
+      "category": "compile-pass",
+      "description": "测试void函数中无表达式的return语句"
+    },
+    {
+      "id": "STM_08_12_002_PASS_return_undefined_in_void_function",
+      "section": "8.12",
+      "category": "compile-pass",
+      "description": "测试void函数中return undefined语句"
+    },
+    {
+      "id": "STM_08_12_003_PASS_return_expression_matching_type",
+      "section": "8.12",
+      "category": "compile-pass",
+      "description": "测试返回表达式类型匹配函数返回类型的return语句"
+    },
+    {
+      "id": "STM_08_12_004_PASS_return_in_constructor",
+      "section": "8.12",
+      "category": "compile-pass",
+      "description": "测试构造函数中无表达式的return语句"
+    },
+    {
+      "id": "STM_08_12_005_PASS_multiple_return_paths",
+      "section": "8.12",
+      "category": "compile-pass",
+      "description": "测试函数中多个return语句分支持续编译通过"
+    },
+    {
+      "id": "STM_08_12_006_PASS_return_in_lambda_expression",
+      "section": "8.12",
+      "category": "compile-pass",
+      "description": "测试lambda表达式中return语句的使用，涵盖有表达式return和plain return"
+    },
+    {
+      "id": "STM_08_12_007_PASS_return_subclass_assignable_to_base",
+      "section": "8.12",
+      "category": "compile-pass",
+      "description": "测试return表达式为子类类型时可赋值给父类返回类型"
+    },
+    {
+      "id": "STM_08_12_008_PASS_return_in_union_return_type_function",
+      "section": "8.12",
+      "category": "compile-pass",
+      "description": "测试返回类型为union类型(T|undefined)的函数中return语句的使用"
+    },
+    {
+      "id": "STM_08_12_015_PASS_constructor_return_no_expression",
+      "section": "8.12",
+      "category": "compile-pass",
+      "description": "测试带参数的构造函数中无表达式的return语句 — STATEMENTS.md: constructor return 允许无表达式形式"
+    },
+    {
+      "id": "STM_08_12_016_PASS_return_in_lambda_inside_function",
+      "section": "8.12",
+      "category": "compile-pass",
+      "description": "测试函数体内定义的lambda表达式中return语句的使用"
+    },
+    {
+      "id": "STM_08_12_006_FAIL_return_undefined_in_constructor",
+      "section": "8.12",
+      "category": "compile-fail",
+      "description": "测试构造函数中return undefined产生编译错误"
+    },
+    {
+      "id": "STM_08_12_007_FAIL_return_without_expression_in_typed_function",
+      "section": "8.12",
+      "category": "compile-fail",
+      "description": "测试非void/非undefined返回类型函数中无表达式return产生编译错误"
+    },
+    {
+      "id": "STM_08_12_008_FAIL_return_type_not_assignable",
+      "section": "8.12",
+      "category": "compile-fail",
+      "description": "测试return表达式类型不可赋值给函数返回类型时产生编译错误"
+    },
+    {
+      "id": "STM_08_12_009_FAIL_return_at_top_level",
+      "section": "8.12",
+      "category": "compile-fail",
+      "description": "return 语句在顶层（非函数/方法体内）应产生编译错误 — STATEMENTS.md: \"top-level statements cannot contain a return statement\""
+    },
+    {
+      "id": "STM_08_12_010_FAIL_return_type_mismatch_in_lambda",
+      "section": "8.12",
+      "category": "compile-fail",
+      "description": "测试lambda表达式中return类型不可赋值给声明的返回类型时产生编译错误"
+    },
+    {
+      "id": "STM_08_12_017_FAIL_return_with_expression_in_void_function",
+      "section": "8.12",
+      "category": "compile-fail",
+      "description": "测试void函数中带表达式的return语句产生编译错误"
+    },
+    {
+      "id": "STM_08_12_025_FAIL_RETURN_VALUE_IN_VOID",
+      "section": "8.12",
+      "category": "compile-fail",
+      "description": "void 函数中 return 带表达式应产生编译错误"
+    },
+    {
+      "id": "STM_08_12_026_FAIL_RETURN_TYPE_MISMATCH",
+      "section": "8.12",
+      "category": "compile-fail",
+      "description": "return 类型不匹配应产生编译错误"
+    },
+    {
+      "id": "STM_08_12_027_FAIL_RETURN_UNDEFINED_IN_CONSTRUCTOR",
+      "section": "8.12",
+      "category": "compile-fail",
+      "description": "构造器中 return undefined 应产生编译错误"
+    },
+    {
+      "id": "STM_08_12_028_FAIL_NO_RETURN_NON_VOID",
+      "section": "8.12",
+      "category": "compile-fail",
+      "description": "非 void 函数没有 return 语句应产生编译错误"
+    },
+    {
+      "id": "STM_08_12_009_RUNTIME_return_value",
+      "section": "8.12",
+      "category": "runtime",
+      "description": "运行时验证return语句正确返回值"
+    },
+    {
+      "id": "STM_08_12_010_RUNTIME_return_early_control_flow",
+      "section": "8.12",
+      "category": "runtime",
+      "description": "运行时验证void函数中return语句提前退出控制流"
+    },
+    {
+      "id": "STM_08_12_011_RUNTIME_conditional_multiple_returns",
+      "section": "8.12",
+      "category": "runtime",
+      "description": "运行时验证多个条件return路径返回值正确性"
+    },
+    {
+      "id": "STM_08_12_012_RUNTIME_return_in_lambda",
+      "section": "8.12",
+      "category": "runtime",
+      "description": "运行时验证lambda表达式中return语句正确返回计算结果"
+    },
+    {
+      "id": "STM_08_12_013_RUNTIME_return_subclass_assignable_to_base",
+      "section": "8.12",
+      "category": "runtime",
+      "description": "运行时验证return子类对象给父类返回类型的动态多态行为"
+    },
+    {
+      "id": "STM_08_12_014_RUNTIME_return_union_type",
+      "section": "8.12",
+      "category": "runtime",
+      "description": "运行时验证返回类型为union(T|undefined)的函数中return语句行为"
+    },
+    {
+      "id": "STM_08_12_018_RUNTIME_return_from_multiple_control_flow_paths",
+      "section": "8.12",
+      "category": "runtime",
+      "description": "运行时验证从多种控制流路径（for循环、while循环、if-else分支）中return值的正确性"
+    },
+    {
+      "id": "STM_08_12_019_RUNTIME_return_in_nested_if_else",
+      "section": "8.12",
+      "category": "runtime",
+      "description": "运行时验证嵌套if-else中所有分支return值类型兼容且正确"
+    },
+    {
+      "id": "STM_08_12_029_RUNTIME_RETURN_IMPLICIT_UNDEFINED",
+      "section": "8.12",
+      "category": "runtime",
+      "description": "void 函数隐式返回 undefined"
+    },
+    {
+      "id": "STM_08_12_030_RUNTIME_RETURN_CONDITIONAL",
+      "section": "8.12",
+      "category": "runtime",
+      "description": "条件 return 分支"
+    },
+    {
+      "id": "STM_08_13_001_PASS_basic_int_switch",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "基本int类型switch表达式，case匹配后使用break退出，验证基础switch语法"
+    },
+    {
+      "id": "STM_08_13_002_PASS_fall_through",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "int类型switch中case无break时的fall-through穿透执行流程验证"
+    },
+    {
+      "id": "STM_08_13_003_PASS_string_switch",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "string类型switch表达式，case分支使用字符串字面量，验证任意类型的switch表达式支持"
+    },
+    {
+      "id": "STM_08_13_004_PASS_boolean_switch",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "boolean类型switch表达式，case分支使用true/false字面量，验证布尔类型switch支持"
+    },
+    {
+      "id": "STM_08_13_005_PASS_labeled_break_switch",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "带标签标识符的switch，break outer跳出嵌套switch到外层switch，验证标识符break"
+    },
+    {
+      "id": "STM_08_13_006_PASS_identical_case_values",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "switch 中允许多个相同的 case 表达式 — STATEMENTS.md line 459 \"One may have several case clauses with the same expression in\""
+    },
+    {
+      "id": "STM_08_13_007_PASS_object_instance_switch",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "switch 表达式为 class|null union（严格遵循 STATEMENTS.md §8.13 示例模式）"
+    },
+    {
+      "id": "STM_08_13_008_PASS_labeled_break_outer_loop",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "switch 内使用带标签的 break 跳出外层循环（for/while）— STATEMENTS.md line 435: \"break statement to transfer control out of a nested switch or loop statemen"
+    },
+    {
+      "id": "STM_08_13_017_PASS_char_switch",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "char类型switch表达式，case分支使用char字面量，验证char类型switch支持"
+    },
+    {
+      "id": "STM_08_13_018_PASS_boolean_switch_extended",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "boolean类型switch表达式的扩展用法：仅含true case无false case（编译通过）、仅含false case加default、fall-through穿越布尔分支"
+    },
+    {
+      "id": "STM_08_13_019_PASS_char_case_on_int_switch",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "int 类型 switch 表达式中使用 char 字面量 case，编译通过"
+    },
+    {
+      "id": "STM_08_13_022_PASS_switch_case_block_declaration",
+      "section": "8.13",
+      "category": "compile-pass",
+      "description": "switch case 块内 let 声明 — 各 case 块创建独立块作用域"
+    },
+    {
+      "id": "STM_08_13_006_FAIL_string_case_on_int_switch",
+      "section": "8.13",
+      "category": "compile-fail",
+      "description": "int类型switch表达式中case使用string类型字面量，case类型不可赋值给switch类型应报编译时错误"
+    },
+    {
+      "id": "STM_08_13_007_FAIL_int_case_on_string_switch",
+      "section": "8.13",
+      "category": "compile-fail",
+      "description": "string类型switch表达式中case使用int类型字面量，case类型不可赋值给switch类型应报编译时错误"
+    },
+    {
+      "id": "STM_08_13_008_FAIL_boolean_case_on_number_switch",
+      "section": "8.13",
+      "category": "compile-fail",
+      "description": "number类型switch表达式中case使用boolean类型字面量，case类型不可赋值给switch类型应报编译时错误"
+    },
+    {
+      "id": "STM_08_13_009_FAIL_duplicate_default",
+      "section": "8.13",
+      "category": "compile-fail",
+      "description": "switch 语句中多个 default 子句应产生编译错误 — STATEMENTS.md 只允许一个 defaultClause"
+    },
+    {
+      "id": "STM_08_13_027_FAIL_SWITCH_CASE_TYPE_MISMATCH",
+      "section": "8.13",
+      "category": "compile-fail",
+      "description": "switch case 类型不匹配应产生编译错误"
+    },
+    {
+      "id": "STM_08_13_028_FAIL_SWITCH_DUPLICATE_DEFAULT",
+      "section": "8.13",
+      "category": "compile-fail",
+      "description": "switch 多个 default 子句应产生编译错误"
+    },
+    {
+      "id": "STM_08_13_029_FAIL_SWITCH_STRING_VS_INT_CASE",
+      "section": "8.13",
+      "category": "compile-fail",
+      "description": "switch string 与 int case 不匹配应产生编译错误"
+    },
+    {
+      "id": "STM_08_13_030_FAIL_SWITCH_BOOL_VS_STRING",
+      "section": "8.13",
+      "category": "compile-fail",
+      "description": "switch boolean 与 string case 不匹配应产生编译错误"
+    },
+    {
+      "id": "STM_08_13_031_FAIL_SWITCH_BREAK_WRONG_LABEL",
+      "section": "8.13",
+      "category": "compile-fail",
+      "description": "switch 中 break label 引用不存在的 label 应产生编译错误"
+    },
+    {
+      "id": "STM_08_13_032_FAIL_SWITCH_CASE_NON_CONSTANT",
+      "section": "8.13",
+      "category": "compile-fail",
+      "description": "switch case 使用非字面量非常量表达式"
+    },
+    {
+      "id": "STM_08_13_009_RUNTIME_basic_switch",
+      "section": "8.13",
+      "category": "runtime",
+      "description": "验证switch基本匹配执行流程：正确匹配case执行对应分支，未匹配时执行default子句"
+    },
+    {
+      "id": "STM_08_13_010_RUNTIME_fall_through_and_default",
+      "section": "8.13",
+      "category": "runtime",
+      "description": "验证switch的fall-through无break穿透执行行为和default子句的匹配/未匹配行为"
+    },
+    {
+      "id": "STM_08_13_011_RUNTIME_labeled_break_switch",
+      "section": "8.13",
+      "category": "runtime",
+      "description": "验证带标签标识符的switch中break outer跳出嵌套switch到外层switch的功能"
+    },
+    {
+      "id": "STM_08_13_012_RUNTIME_null_case_matching",
+      "section": "8.13",
+      "category": "runtime",
+      "description": "switch 匹配 null 值 — 严格参照 STATEMENTS.md §8.13 示例"
+    },
+    {
+      "id": "STM_08_13_013_RUNTIME_identical_case_values",
+      "section": "8.13",
+      "category": "runtime",
+      "description": "switch 中多个相同 case 表达式的运行时匹配行为 — STATEMENTS.md line 459 \"One may have several case clauses with the same expression in\""
+    },
+    {
+      "id": "STM_08_13_014_RUNTIME_fall_through_deep",
+      "section": "8.13",
+      "category": "runtime",
+      "description": "switch 的多层 fall-through 穿透执行和穿透到 default 的行为 — STATEMENTS.md lines 476-478"
+    },
+    {
+      "id": "STM_08_13_015_RUNTIME_labeled_break_outer_loop",
+      "section": "8.13",
+      "category": "runtime",
+      "description": "switch 内使用带标签的 break 跳出外层循环（for/while）— STATEMENTS.md line 435: identifier label 允许 break 跳出嵌套的 switch 或 loop"
+    },
+    {
+      "id": "STM_08_13_016_RUNTIME_object_instance_switch",
+      "section": "8.13",
+      "category": "runtime",
+      "description": "switch class|null 实例运行时验证（通过函数返回避免类型窄化）"
+    },
+    {
+      "id": "STM_08_13_020_RUNTIME_string_switch_matching",
+      "section": "8.13",
+      "category": "runtime",
+      "description": "运行时验证string类型switch的case精确匹配、default兜底、以及无匹配无default时跳过switch"
+    },
+    {
+      "id": "STM_08_13_021_RUNTIME_enum_switch",
+      "section": "8.13",
+      "category": "runtime",
+      "description": "运行时验证enum类型switch表达式的case精确匹配、default兜底、fall-through穿透枚举分支"
+    },
+    {
+      "id": "STM_08_14_001_PASS_throw_new_error",
+      "section": "8.14",
+      "category": "compile-pass",
+      "description": "测试直接抛出new Error()实例，验证throw Error类型表达式通过编译"
+    },
+    {
+      "id": "STM_08_14_002_PASS_throw_error_variable",
+      "section": "8.14",
+      "category": "compile-pass",
+      "description": "测试将Error实例赋值给变量后再抛出，验证变量形式的throw通过编译"
+    },
+    {
+      "id": "STM_08_14_003_PASS_throw_custom_error",
+      "section": "8.14",
+      "category": "compile-pass",
+      "description": "测试抛出自定义Error子类，验证子类类型可赋值给Error"
+    },
+    {
+      "id": "STM_08_14_004_PASS_throw_range_error",
+      "section": "8.14",
+      "category": "compile-pass",
+      "description": "测试抛出RangeError标准Error子类，验证标准Error子类通过编译"
+    },
+    {
+      "id": "STM_08_14_010_PASS_throw_error_with_extra_properties",
+      "section": "8.14",
+      "category": "compile-pass",
+      "description": "测试抛出携带额外属性的自定义Error子类，验证子类扩展字段不影响对Error的赋值兼容性"
+    },
+    {
+      "id": "STM_08_14_011_PASS_throw_after_return_unreachable",
+      "section": "8.14",
+      "category": "compile-pass",
+      "description": "测试return后的throw语句在语法上合法，验证编译器不因死代码而拒绝throw语法"
+    },
+    {
+      "id": "STM_08_14_017_PASS_throw_error_string_concat",
+      "section": "8.14",
+      "category": "compile-pass",
+      "description": "测试throw Error时使用字符串拼接构造错误消息，验证动态消息不影响对Error的赋值兼容性"
+    },
+    {
+      "id": "STM_08_14_020_PASS_THROW_ERROR_SUBCLASS",
+      "section": "8.14",
+      "category": "compile-pass",
+      "description": "throw Error 子类实例"
+    },
+    {
+      "id": "STM_08_14_021_PASS_THROW_IN_IF",
+      "section": "8.14",
+      "category": "compile-pass",
+      "description": "在 if 语句中使用 throw"
+    },
+    {
+      "id": "STM_08_14_022_PASS_THROW_IN_LOOP",
+      "section": "8.14",
+      "category": "compile-pass",
+      "description": "在循环中使用 throw（被 catch 捕获）"
+    },
+    {
+      "id": "STM_08_14_005_FAIL_throw_string",
+      "section": "8.14",
+      "category": "compile-fail",
+      "description": "测试抛出string类型表达式，验证非Error类型导致编译错误"
+    },
+    {
+      "id": "STM_08_14_006_FAIL_throw_null",
+      "section": "8.14",
+      "category": "compile-fail",
+      "description": "测试抛出null，验证null不允许抛出导致编译错误"
+    },
+    {
+      "id": "STM_08_14_007_FAIL_throw_undefined",
+      "section": "8.14",
+      "category": "compile-fail",
+      "description": "测试抛出undefined，验证undefined不允许抛出导致编译错误"
+    },
+    {
+      "id": "STM_08_14_012_FAIL_throw_number",
+      "section": "8.14",
+      "category": "compile-fail",
+      "description": "测试抛出number字面量，验证非Error类型导致编译错误"
+    },
+    {
+      "id": "STM_08_14_013_FAIL_throw_boolean",
+      "section": "8.14",
+      "category": "compile-fail",
+      "description": "测试抛出boolean字面量，验证非Error类型导致编译错误"
+    },
+    {
+      "id": "STM_08_14_019_FAIL_throw_plain_object",
+      "section": "8.14",
+      "category": "compile-fail",
+      "description": "测试抛出普通对象字面量（非Error实例），验证非Error类型对象导致编译错误"
+    },
+    {
+      "id": "STM_08_14_023_FAIL_THROW_NULL",
+      "section": "8.14",
+      "category": "compile-fail",
+      "description": "throw null 应产生编译错误（null 不可分配给 Error）"
+    },
+    {
+      "id": "STM_08_14_024_FAIL_THROW_UNDEFINED",
+      "section": "8.14",
+      "category": "compile-fail",
+      "description": "throw undefined 应产生编译错误"
+    },
+    {
+      "id": "STM_08_14_025_FAIL_THROW_STRING",
+      "section": "8.14",
+      "category": "compile-fail",
+      "description": "throw string 应产生编译错误（非 Error 类型）"
+    },
+    {
+      "id": "STM_08_14_026_FAIL_THROW_INT",
+      "section": "8.14",
+      "category": "compile-fail",
+      "description": "throw int 值应产生编译错误"
+    },
+    {
+      "id": "STM_08_14_008_RUNTIME_throw_caught",
+      "section": "8.14",
+      "category": "runtime",
+      "description": "测试throw被try-catch捕获，验证异常传播到最近catch块"
+    },
+    {
+      "id": "STM_08_14_009_RUNTIME_throw_rethrow",
+      "section": "8.14",
+      "category": "runtime",
+      "description": "测试catch块中rethrow重新抛出，验证异常可重新传播到外层try-catch"
+    },
+    {
+      "id": "STM_08_14_014_RUNTIME_throw_from_nested_function",
+      "section": "8.14",
+      "category": "runtime",
+      "description": "测试在独立函数中throw，验证异常沿调用栈传播到外层try-catch"
+    },
+    {
+      "id": "STM_08_14_015_RUNTIME_multi_nested_try_catch",
+      "section": "8.14",
+      "category": "runtime",
+      "description": "测试多层嵌套try-catch，验证throw由最近的catch块捕获"
+    },
+    {
+      "id": "STM_08_14_016_RUNTIME_throw_immediate_control_transfer",
+      "section": "8.14",
+      "category": "runtime",
+      "description": "测试throw立即转移控制权，验证throw之后的语句不被执行"
+    },
+    {
+      "id": "STM_08_14_018_RUNTIME_throw_deeply_nested",
+      "section": "8.14",
+      "category": "runtime",
+      "description": "测试三层嵌套try-catch中throw的传播路径，验证异常逐层被捕获并重新抛出后最终被最外层catch捕获"
+    },
+    {
+      "id": "STM_08_14_027_RUNTIME_THROW_CAUGHT",
+      "section": "8.14",
+      "category": "runtime",
+      "description": "throw 被 catch 捕获"
+    },
+    {
+      "id": "STM_08_14_028_RUNTIME_THROW_CUSTOM_ERROR",
+      "section": "8.14",
+      "category": "runtime",
+      "description": "throw 自定义 Error 子类"
+    },
+    {
+      "id": "STM_08_14_029_RUNTIME_THROW_UNCAUGHT",
+      "section": "8.14",
+      "category": "runtime",
+      "description": "throw 未被 catch 导致 UncaughtExceptionError"
+    },
+    {
+      "id": "STM_08_14_030_RUNTIME_RETHROW",
+      "section": "8.14",
+      "category": "runtime",
+      "description": "catch 中重新 throw 被外层 catch 捕获"
+    },
+    {
+      "id": "STM_08_15_1_001_PASS_basic_catch",
+      "section": "8.15.1",
+      "category": "compile-pass",
+      "description": "验证基本的 try-catch 结构编译通过。catch 子句捕获 Error 类型对象，在块内访问 error 对象。"
+    },
+    {
+      "id": "STM_08_15_1_002_PASS_catch_instanceof",
+      "section": "8.15.1",
+      "category": "compile-pass",
+      "description": "验证 catch 块内使用 instanceof 对 Error 子类型进行类型收窄，分别处理不同类型错误。"
+    },
+    {
+      "id": "STM_08_15_1_003_PASS_catch_finally",
+      "section": "8.15.1",
+      "category": "compile-pass",
+      "description": "验证 try-catch-finally 完整结构编译通过，catch 捕获错误后 finally 确保执行清理逻辑。"
+    },
+    {
+      "id": "STM_08_15_1_004_PASS_catch_rethrow",
+      "section": "8.15.1",
+      "category": "compile-pass",
+      "description": "验证 catch 块内可以重新抛出捕获的 Error 对象，由外层调用者处理。"
+    },
+    {
+      "id": "STM_08_15_1_005_PASS_catch_error_properties",
+      "section": "8.15.1",
+      "category": "compile-pass",
+      "description": "验证 catch 块内访问 Error 对象的 message、name 和 stack 属性编译通过。"
+    },
+    {
+      "id": "STM_08_15_1_015_PASS_catch_multiple_subclasses",
+      "section": "8.15.1",
+      "category": "compile-pass",
+      "description": "验证 catch 块中使用 instanceof 对三个以上 Error 子类型进行类型收窄，代码能够通过编译。"
+    },
+    {
+      "id": "STM_08_15_1_016_PASS_catch_throw_translated_error",
+      "section": "8.15.1",
+      "category": "compile-pass",
+      "description": "验证 catch 块中捕获原始错误后抛出新的不同 Error 类型（错误转换），代码能够通过编译。"
+    },
+    {
+      "id": "STM_08_15_1_018_PASS_CATCH_INSTANCEOF",
+      "section": "8.15.1",
+      "category": "compile-pass",
+      "description": "catch 块中使用 instanceof 检查错误类型"
+    },
+    {
+      "id": "STM_08_15_1_019_PASS_CATCH_MULTIPLE_TYPES",
+      "section": "8.15.1",
+      "category": "compile-pass",
+      "description": "catch 块处理多种异常类型"
+    },
+    {
+      "id": "STM_08_15_1_020_PASS_CATCH_TYPE_NARROWING",
+      "section": "8.15.1",
+      "category": "compile-pass",
+      "description": "catch 块中通过 instanceof 进行类型收窄"
+    },
+    {
+      "id": "STM_08_15_1_024_PASS_CATCH_RETURN",
+      "section": "8.15.1",
+      "category": "compile-pass",
+      "description": "catch 块外 unreachable 语句"
+    },
+    {
+      "id": "STM_08_15_1_006_FAIL_catch_wrong_type_string",
+      "section": "8.15.1",
+      "category": "compile-fail",
+      "description": "验证 catch 参数类型注解为 string 时产生编译错误。catch 标识符类型必须是 Error。"
+    },
+    {
+      "id": "STM_08_15_1_007_FAIL_catch_type_annotation_number",
+      "section": "8.15.1",
+      "category": "compile-fail",
+      "description": "验证 catch 参数类型注解为 number 时产生编译错误。catch 标识符类型必须是 Error。"
+    },
+    {
+      "id": "STM_08_15_1_008_FAIL_catch_type_annotation_boolean",
+      "section": "8.15.1",
+      "category": "compile-fail",
+      "description": "验证 catch 参数类型注解为 boolean 时产生编译错误。catch 标识符类型必须是 Error。"
+    },
+    {
+      "id": "STM_08_15_1_017_FAIL_catch_type_annotation_object",
+      "section": "8.15.1",
+      "category": "compile-fail",
+      "description": "验证 catch 参数类型注解为 object（非 Error 类型）时产生编译错误。"
+    },
+    {
+      "id": "STM_08_15_1_021_FAIL_CATCH_WITH_TYPE",
+      "section": "8.15.1",
+      "category": "compile-fail",
+      "description": "catch 带类型标注已弃用应报错"
+    },
+    {
+      "id": "STM_08_15_1_022_FAIL_CATCH_NO_IDENTIFIER",
+      "section": "8.15.1",
+      "category": "compile-fail",
+      "description": "catch 缺少标识符应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_1_023_FAIL_CATCH_OUTSIDE_TRY",
+      "section": "8.15.1",
+      "category": "compile-fail",
+      "description": "catch 在 try 外部使用应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_1_025_FAIL_CATCH_VAR_ESCAPE",
+      "section": "8.15.1",
+      "category": "compile-fail",
+      "description": "catch 标识符在 catch 块外使用应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_1_026_FAIL_CATCH_AS_EXPR",
+      "section": "8.15.1",
+      "category": "compile-fail",
+      "description": "catch 作为表达式应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_1_009_RUNTIME_basic_catch",
+      "section": "8.15.1",
+      "category": "runtime",
+      "description": "验证 catch 子句在运行时正确捕获抛出的 Error 对象，并获取 error.message 属性值。"
+    },
+    {
+      "id": "STM_08_15_1_010_RUNTIME_instanceof",
+      "section": "8.15.1",
+      "category": "runtime",
+      "description": "验证 catch 块中使用 instanceof 区分不同的 Error 子类型，分别处理 RangeError 和 TypeError。"
+    },
+    {
+      "id": "STM_08_15_1_011_RUNTIME_rethrow",
+      "section": "8.15.1",
+      "category": "runtime",
+      "description": "验证 catch 块内重新抛出 Error 对象后，外层 catch 正确捕获并处理该错误。"
+    },
+    {
+      "id": "STM_08_15_1_012_RUNTIME_error_translation",
+      "section": "8.15.1",
+      "category": "runtime",
+      "description": "验证 catch 块捕获错误后抛出不同类型的错误（错误转换），外层 catch 能正确捕获转换后的新版错误。"
+    },
+    {
+      "id": "STM_08_15_1_013_RUNTIME_multiple_instanceof_subclasses",
+      "section": "8.15.1",
+      "category": "runtime",
+      "description": "catch块内对多个Error子类做instanceof类型判断的运行时验证"
+    },
+    {
+      "id": "STM_08_15_1_014_RUNTIME_catch_return_value",
+      "section": "8.15.1",
+      "category": "runtime",
+      "description": "验证 catch 块根据 instanceof 类型收窄返回不同的值，函数调用方能正确接收返回值。"
+    },
+    {
+      "id": "STM_08_15_1_027_RUNTIME_CATCH_BLOCK_RUNS",
+      "section": "8.15.1",
+      "category": "runtime",
+      "description": "异常发生时 catch 块执行"
+    },
+    {
+      "id": "STM_08_15_1_028_RUNTIME_CATCH_NO_ERROR",
+      "section": "8.15.1",
+      "category": "runtime",
+      "description": "无异常时 catch 块不执行"
+    },
+    {
+      "id": "STM_08_15_1_029_RUNTIME_CATCH_ERROR_PROPAGATION",
+      "section": "8.15.1",
+      "category": "runtime",
+      "description": "内层 catch 未捕获的错误向外传播"
+    },
+    {
+      "id": "STM_08_15_1_030_RUNTIME_CATCH_IN_LOOP",
+      "section": "8.15.1",
+      "category": "runtime",
+      "description": "循环中每次 catch 独立处理异常"
+    },
+    {
+      "id": "STM_08_15_2_001_PASS_basic_finally",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "测试基本的try-catch-finally结构：try块正常执行，catch块不触发，finally块在try之后执行。验证finally子句在正常完成时能够正确编译和执行。"
+    },
+    {
+      "id": "STM_08_15_2_002_PASS_finally_after_catch",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "测试在try块抛出异常后，catch块捕获异常并处理，finally块在catch之后仍然执行。验证catch块存在时finally子句仍能正确编译。"
+    },
+    {
+      "id": "STM_08_15_2_003_PASS_finally_after_return",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "测试try块中包含return语句时，finally块在return之前执行。验证finally子句的语义优先级：即使有return流程，finally仍会在方法返回前执行。"
+    },
+    {
+      "id": "STM_08_15_2_004_PASS_finally_no_catch",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "测试没有catch块、仅有try-finally的结构。try块正常执行后，finally块执行。验证try-finally（无catch）语法在编译器中正确识别。"
+    },
+    {
+      "id": "STM_08_15_2_005_PASS_finally_nested",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "测试嵌套的try-catch-finally结构：外层try中包含内层try-catch-finally，内层finally执行后外层finally仍执行。验证多层嵌套场景下finally子句的编译正确性。"
+    },
+    {
+      "id": "STM_08_15_2_012_PASS_finally_throw_inside",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "测试finally块内部抛出异常：语句finally子句可在finally块中使用throw语句。验证finally块中的throw是合法的语法形式，可用于finally块中检测到清理失败等场景。"
+    },
+    {
+      "id": "STM_08_15_2_013_PASS_finally_return_override",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "测试finally块中包含return语句：当finally块中有return时，会覆盖try块或catch块中的return值。验证编译器允许finally块中出现return语句，且这是合法语法。"
+    },
+    {
+      "id": "STM_08_15_2_014_PASS_finally_loop_break_continue",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "测试finally块在循环中与break和continue组合：验证finally子句在循环作用域中使用break/continue是合法的语法结构。finally块在break或continue跳转前保证执行。"
+    },
+    {
+      "id": "STM_08_15_2_019_PASS_FINALLY_RETURN",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "finally 块中的 return"
+    },
+    {
+      "id": "STM_08_15_2_020_PASS_FINALLY_NO_THROW",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "try-finally 无异常正常执行"
+    },
+    {
+      "id": "STM_08_15_2_023_PASS_FINALLY_THROW",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "finally 中 throw 未捕获时传播"
+    },
+    {
+      "id": "STM_08_15_2_027_PASS_FINALLY_RETURN",
+      "section": "8.15.2",
+      "category": "compile-pass",
+      "description": "finally 中 return 会覆盖 try 中的 return"
+    },
+    {
+      "id": "STM_08_15_2_006_FAIL_finally_reserved_word",
+      "section": "8.15.2",
+      "category": "compile-fail",
+      "description": "在finally块中使用保留关键字\"string\"作为变量名，违反ArkTS关键字约束。验证编译器能检测finally作用域中的非法标识符。"
+    },
+    {
+      "id": "STM_08_15_2_007_FAIL_finally_local_class",
+      "section": "8.15.2",
+      "category": "compile-fail",
+      "description": "在finally块中定义局部类，违反ArkTS无局部类的约束。验证编译器能检测finally作用域中的非法类定义。"
+    },
+    {
+      "id": "STM_08_15_2_008_FAIL_finally_nested_func",
+      "section": "8.15.2",
+      "category": "compile-fail",
+      "description": "在finally块中定义嵌套函数，违反ArkTS无嵌套函数的约束。验证编译器能检测finally作用域中的非法函数定义。"
+    },
+    {
+      "id": "STM_08_15_2_021_FAIL_FINALLY_WITHOUT_TRY",
+      "section": "8.15.2",
+      "category": "compile-fail",
+      "description": "finally 在 try 外使用应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_2_022_FAIL_FINALLY_DUPLICATE",
+      "section": "8.15.2",
+      "category": "compile-fail",
+      "description": "同一 try 多个 finally 应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_2_024_FAIL_FINALLY_MISSING_BLOCK",
+      "section": "8.15.2",
+      "category": "compile-fail",
+      "description": "finally 缺少块体应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_2_025_FAIL_FINALLY_BEFORE_CATCH",
+      "section": "8.15.2",
+      "category": "compile-fail",
+      "description": "finally 在 catch 之前应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_2_026_FAIL_FINALLY_INVALID_SYNTAX",
+      "section": "8.15.2",
+      "category": "compile-fail",
+      "description": "finally 语法错误（缺 try）应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_2_009_RUNTIME_finally_executes",
+      "section": "8.15.2",
+      "category": "runtime",
+      "description": "运行时验证finally子句始终执行：分别在try正常完成和异常完成两种场景下检查finally块是否被执行。使用boolean标记验证finally代码路径确实运行。"
+    },
+    {
+      "id": "STM_08_15_2_010_RUNTIME_finally_with_return",
+      "section": "8.15.2",
+      "category": "runtime",
+      "description": "运行时验证当try或catch块中包含return语句时，finally子句仍在方法返回之前执行。通过设计辅助函数使用flag标记检测finally的执行时机。"
+    },
+    {
+      "id": "STM_08_15_2_011_RUNTIME_finally_with_error",
+      "section": "8.15.2",
+      "category": "runtime",
+      "description": "运行时验证当catch块中抛出新错误时，finally子句仍在该新错误传播之前执行。使用标志变量记录finally执行，确保异常路径下finally的语义正确。"
+    },
+    {
+      "id": "STM_08_15_2_015_RUNTIME_finally_throw_inside",
+      "section": "8.15.2",
+      "category": "runtime",
+      "description": "运行时验证finally块中抛出异常时的行为：当finally块中执行throw时，新异常会覆盖try/catch中的原异常（无论是正常完成还是catch中抛出的异常）。验证finally中新抛出的异常能正确向上传播。"
+    },
+    {
+      "id": "STM_08_15_2_016_RUNTIME_finally_return_override",
+      "section": "8.15.2",
+      "category": "runtime",
+      "description": "运行时验证finally块中的return覆盖try或catch中的return值：当finally包含return语句时，该return值成为最终的返回值，覆盖try或catch块中的return。验证finally的return优先语义。"
+    },
+    {
+      "id": "STM_08_15_2_017_RUNTIME_finally_loop_break",
+      "section": "8.15.2",
+      "category": "runtime",
+      "description": "运行时验证循环内finally子句在break时的执行：finally块在break将控制权转移出循环之前保证执行。通过计数器追踪finally执行次数和break是否按预期触发。"
+    },
+    {
+      "id": "STM_08_15_2_018_RUNTIME_finally_loop_continue",
+      "section": "8.15.2",
+      "category": "runtime",
+      "description": "运行时验证循环内finally子句在continue时的执行：finally块在continue将控制权转移到下一次迭代之前保证执行。通过计数器验证每次迭代的finally都被调用，包括触发continue的迭代。"
+    },
+    {
+      "id": "STM_08_15_2_028_RUNTIME_FINALLY_ALWAYS_RUNS",
+      "section": "8.15.2",
+      "category": "runtime",
+      "description": "finally 在异常时仍然运行"
+    },
+    {
+      "id": "STM_08_15_2_029_RUNTIME_FINALLY_NO_EXCEPTION",
+      "section": "8.15.2",
+      "category": "runtime",
+      "description": "finally 在无异常时运行"
+    },
+    {
+      "id": "STM_08_15_2_030_RUNTIME_FINALLY_RETURN_VALUE",
+      "section": "8.15.2",
+      "category": "runtime",
+      "description": "finally 中的 return 覆盖 try return"
+    },
+    {
+      "id": "STM_08_15_3_001_PASS_try_block_normal_completion",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "验证规则1：try 块正常完成时整个 try 语句正常完成。try-finally 结构中 try 块不抛出异常，catch 不存在。"
+    },
+    {
+      "id": "STM_08_15_3_002_PASS_try_catch_error_handled",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "验证规则2：try 块抛出异常 x，catch 子句被执行，catch 体正常完成，整个 try 语句正常完成。"
+    },
+    {
+      "id": "STM_08_15_3_003_PASS_error_propagated_no_catch",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "验证规则3：try 块抛出异常但没有 catch 子句时，异常传播到外围作用域。try-finally 结构编译通过。"
+    },
+    {
+      "id": "STM_08_15_3_004_PASS_finally_abrupt_completion",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "验证规则4：finally 子句执行时异常完成，导致整个 try 语句异常完成。catch 已处理原始异常，但 finally 抛出新异常。"
+    },
+    {
+      "id": "STM_08_15_3_016_PASS_TRY_NORMAL_FLOW",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "try 正常完成流程"
+    },
+    {
+      "id": "STM_08_15_3_017_PASS_TRY_CATCH_NORMAL",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "try-catch 正常完成"
+    },
+    {
+      "id": "STM_08_15_3_018_PASS_TRY_PROPAGATION",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "try 中异常向外层传播"
+    },
+    {
+      "id": "STM_08_15_3_019_PASS_TRY_FINALLY_NORMAL",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "try-finally 正常执行流程"
+    },
+    {
+      "id": "STM_08_15_3_020_PASS_TRY_CATCH_RECOVER",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "try-catch 后程序正常恢复"
+    },
+    {
+      "id": "STM_08_15_3_021_PASS_TRY_NESTED_FINALLY",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "嵌套 try 各自 finally 执行"
+    },
+    {
+      "id": "STM_08_15_3_022_PASS_TRY_ABRUPT",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "try 块异常无 handler 传播"
+    },
+    {
+      "id": "STM_08_15_3_023_PASS_FINALLY_ABRUPT",
+      "section": "8.15.3",
+      "category": "compile-pass",
+      "description": "finally 异常完成导致 try 语句异常完成"
+    },
+    {
+      "id": "STM_08_15_3_005_FAIL_try_no_catch_no_finally",
+      "section": "8.15.3",
+      "category": "compile-fail",
+      "description": "验证 try 块既没有 catch 子句也没有 finally 子句时产生编译错误。规范要求 try 语句必须至少包含 catch 或 finally。"
+    },
+    {
+      "id": "STM_08_15_3_006_FAIL_try_catch_local_class",
+      "section": "8.15.3",
+      "category": "compile-fail",
+      "description": "验证在 catch 块内定义局部类导致编译错误。ArkTS 禁止局部类定义。"
+    },
+    {
+      "id": "STM_08_15_3_007_FAIL_try_finally_nested_function",
+      "section": "8.15.3",
+      "category": "compile-fail",
+      "description": "验证在 finally 块内定义嵌套函数导致编译错误。ArkTS 禁止嵌套函数定义。"
+    },
+    {
+      "id": "STM_08_15_3_024_FAIL_TRY_CATCH_BLOCK_SCOPE",
+      "section": "8.15.3",
+      "category": "compile-fail",
+      "description": "try 块内变量在 catch 中不可访问"
+    },
+    {
+      "id": "STM_08_15_3_025_FAIL_CATCH_BLOCK_VAR_ESCAPE",
+      "section": "8.15.3",
+      "category": "compile-fail",
+      "description": "catch 块变量逃逸应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_3_026_FAIL_TRY_WITHOUT_BLOCK",
+      "section": "8.15.3",
+      "category": "compile-fail",
+      "description": "try 无块体应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_3_027_FAIL_FINALLY_WITHOUT_BLOCK",
+      "section": "8.15.3",
+      "category": "compile-fail",
+      "description": "finally 无块体应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_3_028_FAIL_TRY_AFTER_FINALLY",
+      "section": "8.15.3",
+      "category": "compile-fail",
+      "description": "try-finally 后不能有 catch"
+    },
+    {
+      "id": "STM_08_15_3_008_RUNTIME_try_normal_completion",
+      "section": "8.15.3",
+      "category": "runtime",
+      "description": "验证规则1：try 块正常完成（无异常抛出）时 catch 子句不执行，整个 try 语句正常完成。"
+    },
+    {
+      "id": "STM_08_15_3_009_RUNTIME_try_catch_normal_completion",
+      "section": "8.15.3",
+      "category": "runtime",
+      "description": "验证规则2：try 块抛出异常 x，catch 子句捕获并执行，catch 体正常完成，整个 try 语句正常完成。"
+    },
+    {
+      "id": "STM_08_15_3_010_RUNTIME_error_propagated_and_finally_abrupt",
+      "section": "8.15.3",
+      "category": "runtime",
+      "description": "验证规则3和规则4：规则3—无 catch 子句时异常传播到调用者作用域；规则4—finally 子句异常完成时整个 try 异常完成。"
+    },
+    {
+      "id": "STM_08_15_3_011_RUNTIME_error_propagation_two_levels_no_catch",
+      "section": "8.15.3",
+      "category": "runtime",
+      "description": "验证规则5扩展：无 catch 子句时异常通过两层调用链传播。C 层 try-finally 抛出异常（无 catch），传播经 B 层（无 try-catch）到达 A 层被 catch 捕获。"
+    },
+    {
+      "id": "STM_08_15_3_012_RUNTIME_error_propagation_three_levels_no_catch",
+      "section": "8.15.3",
+      "category": "runtime",
+      "description": "验证规则5扩展：无 catch 子句时异常通过三层调用链传播。D 层 try-finally 抛出异常（无 catch），穿过 C、B 两层（均无 try-catch），到达 A 层被 catch 捕获。"
+    },
+    {
+      "id": "STM_08_15_3_013_RUNTIME_finally_abrupt_overrides_catch_normal_v2",
+      "section": "8.15.3",
+      "category": "runtime",
+      "description": "验证规则6：finally 子句异常完成导致整个 try 语句异常完成，覆盖 catch 子句的正常完成。本测试在 try-catch-finally 中验证 catch 体完整执行后被 finally 抛出的异常所覆盖。"
+    },
+    {
+      "id": "STM_08_15_3_014_RUNTIME_catch_body_abrupt_completion",
+      "section": "8.15.3",
+      "category": "runtime",
+      "description": "验证规则2扩展：catch 子句体自身异常完成（抛出异常）时，整个 try 语句异常完成。catch 中抛出的新异常取代原始异常向外传播。"
+    },
+    {
+      "id": "STM_08_15_3_015_RUNTIME_try_normal_finally_abrupt",
+      "section": "8.15.3",
+      "category": "runtime",
+      "description": "验证规则6扩展：try 块正常完成（无异常抛出），finally 子句异常完成（抛出异常），导致整个 try 语句异常完成。catch 子句不存在或被跳过。"
+    },
+    {
+      "id": "STM_08_15_3_029_RUNTIME_ABRUPT_TRY_PROPAGATION",
+      "section": "8.15.3",
+      "category": "runtime",
+      "description": "异常完成 try 向外部传播"
+    },
+    {
+      "id": "STM_08_15_3_030_RUNTIME_TRY_ABRUPT_NO_CATCH",
+      "section": "8.15.3",
+      "category": "runtime",
+      "description": "try-finally 无 catch 异常向外传播"
+    },
+    {
+      "id": "STM_08_15_001_PASS_try_catch",
+      "section": "8.15",
+      "category": "compile-pass",
+      "description": "验证基本的 try-catch 结构编译通过"
+    },
+    {
+      "id": "STM_08_15_002_PASS_try_finally",
+      "section": "8.15",
+      "category": "compile-pass",
+      "description": "验证基本的 try-finally 结构编译通过"
+    },
+    {
+      "id": "STM_08_15_003_PASS_try_catch_finally",
+      "section": "8.15",
+      "category": "compile-pass",
+      "description": "验证完整的 try-catch-finally 结构编译通过"
+    },
+    {
+      "id": "STM_08_15_004_PASS_try_nested",
+      "section": "8.15",
+      "category": "compile-pass",
+      "description": "验证嵌套 try 语句结构编译通过"
+    },
+    {
+      "id": "STM_08_15_005_PASS_try_catch_return",
+      "section": "8.15",
+      "category": "compile-pass",
+      "description": "验证 try-catch 中包含 return 语句编译通过"
+    },
+    {
+      "id": "STM_08_15_006_PASS_try_in_if_statement",
+      "section": "8.15",
+      "category": "compile-pass",
+      "description": "验证 try-catch 语句可以放在 if 语句体内，与其他控制流结构组合"
+    },
+    {
+      "id": "STM_08_15_017_PASS_try_finally_only",
+      "section": "8.15",
+      "category": "compile-pass",
+      "description": "验证仅含 finally 子句（无 catch）的 try 语句编译通过"
+    },
+    {
+      "id": "STM_08_15_023_PASS_TRY_FINALLY",
+      "section": "8.15",
+      "category": "compile-pass",
+      "description": "try-finally 无 catch"
+    },
+    {
+      "id": "STM_08_15_024_PASS_TRY_CATCH_FINALLY",
+      "section": "8.15",
+      "category": "compile-pass",
+      "description": "try-catch-finally 完整结构"
+    },
+    {
+      "id": "STM_08_15_025_PASS_TRY_NESTED",
+      "section": "8.15",
+      "category": "compile-pass",
+      "description": "嵌套 try 语句"
+    },
+    {
+      "id": "STM_08_15_006_FAIL_try_no_catch_no_finally",
+      "section": "8.15",
+      "category": "compile-fail",
+      "description": "验证 try 块没有 catch 也没有 finally 时产生编译错误"
+    },
+    {
+      "id": "STM_08_15_007_FAIL_try_catch_local_class",
+      "section": "8.15",
+      "category": "compile-fail",
+      "description": "验证 try 块内定义局部类产生编译错误"
+    },
+    {
+      "id": "STM_08_15_008_FAIL_try_finally_local_type_alias",
+      "section": "8.15",
+      "category": "compile-fail",
+      "description": "验证 finally 块内定义局部类型别名产生编译错误"
+    },
+    {
+      "id": "STM_08_15_009_FAIL_try_catch_nested_function",
+      "section": "8.15",
+      "category": "compile-fail",
+      "description": "验证 catch 块内定义嵌套函数产生编译错误"
+    },
+    {
+      "id": "STM_08_15_010_FAIL_catch_variable_out_of_scope",
+      "section": "8.15",
+      "category": "compile-fail",
+      "description": "验证 catch 子句中的 error 标识符在 catch 块外部不可访问，产生编译错误"
+    },
+    {
+      "id": "STM_08_15_018_FAIL_catch_identifier_outside_block",
+      "section": "8.15",
+      "category": "compile-fail",
+      "description": "验证 catch(e) 中的标识符 e 在 catch 块外部赋值和使用均产生编译错误"
+    },
+    {
+      "id": "STM_08_15_026_FAIL_TRY_NO_CATCH_NO_FINALLY",
+      "section": "8.15",
+      "category": "compile-fail",
+      "description": "try 无 catch 无 finally 应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_027_FAIL_TRY_EMPTY",
+      "section": "8.15",
+      "category": "compile-fail",
+      "description": "try 语句缺少 catch 和 finally 应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_028_FAIL_CATCH_WITH_TYPE_ANNOTATION",
+      "section": "8.15",
+      "category": "compile-fail",
+      "description": "catch (e: Error) 类型标注已弃用应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_029_FAIL_CATCH_MISSING_BLOCK",
+      "section": "8.15",
+      "category": "compile-fail",
+      "description": "catch 缺少块体应产生编译错误"
+    },
+    {
+      "id": "STM_08_15_010_RUNTIME_try_catch_no_error",
+      "section": "8.15",
+      "category": "runtime",
+      "description": "验证 try 块未抛出异常时 catch 子句不执行"
+    },
+    {
+      "id": "STM_08_15_011_RUNTIME_try_catch_error",
+      "section": "8.15",
+      "category": "runtime",
+      "description": "验证 try 块抛出异常时 catch 子句捕获并处理"
+    },
+    {
+      "id": "STM_08_15_012_RUNTIME_try_finally_always",
+      "section": "8.15",
+      "category": "runtime",
+      "description": "验证 finally 子句始终执行（无论是否抛出异常）"
+    },
+    {
+      "id": "STM_08_15_013_RUNTIME_try_finally_error_propagation",
+      "section": "8.15",
+      "category": "runtime",
+      "description": "验证 try-finally（无 catch）中抛出错误时 finally 执行且错误向上传播"
+    },
+    {
+      "id": "STM_08_15_014_RUNTIME_try_finally_normal",
+      "section": "8.15",
+      "category": "runtime",
+      "description": "验证 try-finally（无 catch）正常完成时 finally 子句始终执行"
+    },
+    {
+      "id": "STM_08_15_015_RUNTIME_try_catch_only_sequential",
+      "section": "8.15",
+      "category": "runtime",
+      "description": "验证 try-catch-only（无 finally）在连续多个 try-catch 中的行为"
+    },
+    {
+      "id": "STM_08_15_016_RUNTIME_try_catch_finally_error",
+      "section": "8.15",
+      "category": "runtime",
+      "description": "验证 try-catch-finally 中抛出错误时三个块均正确执行"
+    },
+    {
+      "id": "STM_08_15_019_RUNTIME_try_normal_completion_after",
+      "section": "8.15",
+      "category": "runtime",
+      "description": "验证 try-catch-finally 正常完成（无异常）后 try 语句之后的代码正常执行"
+    },
+    {
+      "id": "STM_08_15_020_RUNTIME_try_nested_inner_catch",
+      "section": "8.15",
+      "category": "runtime",
+      "description": "验证嵌套 try-catch 中内层 catch 捕获异常后外层 catch 不执行"
+    },
+    {
+      "id": "STM_08_15_030_RUNTIME_TRY_FINALLY_ALWAYS",
+      "section": "8.15",
+      "category": "runtime",
+      "description": "finally 在异常发生时仍然执行"
+    },
+    {
+      "id": "STM_08_01_001_PASS_normal_completion",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "验证各类语句正常完成的编译通过：赋值语句、表达式语句、块语句、if语句、for循环等均正常完成"
+    },
+    {
+      "id": "STM_08_01_002_PASS_abrupt_in_try_catch",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "验证 try-catch 结构处理异常完成的编译通过：throw语句在try块中产生异常完成，被catch捕获"
+    },
+    {
+      "id": "STM_08_01_003_PASS_break_continue_return",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "验证 break/continue/return 跳转语句的正常完成语义——跳转语句本身以正常完成执行"
+    },
+    {
+      "id": "STM_08_01_004_PASS_nested_control_flow",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "验证嵌套控制流结构中正常完成与异常完成的混合使用：循环嵌套try-catch，循环嵌套条件判断"
+    },
+    {
+      "id": "STM_08_01_012_PASS_multiple_abrupt_sources",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "验证同一函数体内存在多种异常完成源（return、throw、break、continue）共存时编译通过"
+    },
+    {
+      "id": "STM_08_01_013_PASS_return_abrupt_nested",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "验证 return 语句在嵌套控制流结构（if-else内、循环内、try块内、嵌套if内）中触发异常完成的编译通过"
+    },
+    {
+      "id": "STM_08_01_015_PASS_NORMAL_COMPLETION",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "正常完成的语句执行（赋值语句正常完成）"
+    },
+    {
+      "id": "STM_08_01_016_PASS_DISCARDED_RESULT",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "表达式语句的结果被丢弃"
+    },
+    {
+      "id": "STM_08_01_017_PASS_MULTIPLE_EXPR_STMTS",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "多个表达式语句顺序执行"
+    },
+    {
+      "id": "STM_08_01_018_PASS_CONDITIONAL_STMT_SEQUENCE",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "条件语句序列正常执行"
+    },
+    {
+      "id": "STM_08_01_023_PASS_THROW_IN_FUNC",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "throw 语句导致异常完成"
+    },
+    {
+      "id": "STM_08_01_024_PASS_DIV_ZERO_ABRUPT",
+      "section": "8.1",
+      "category": "compile-pass",
+      "description": "除零导致异常完成"
+    },
+    {
+      "id": "STM_08_01_005_FAIL_throw_non_error",
+      "section": "8.1",
+      "category": "compile-fail",
+      "description": "验证抛出非 Error 类型的值导致编译错误：throw 语句异常完成时只能抛出 Error 或其子类"
+    },
+    {
+      "id": "STM_08_01_006_FAIL_break_outside_loop",
+      "section": "8.1",
+      "category": "compile-fail",
+      "description": "验证 break 语句在循环或switch外部使用导致编译错误：break 的异常完成语义要求在循环/switch作用域内"
+    },
+    {
+      "id": "STM_08_01_007_FAIL_continue_outside_loop",
+      "section": "8.1",
+      "category": "compile-fail",
+      "description": "验证 continue 语句在循环外部使用导致编译错误：continue 的跳转语义要求在循环作用域内"
+    },
+    {
+      "id": "STM_08_01_019_FAIL_STMT_OUTSIDE_FUNC",
+      "section": "8.1",
+      "category": "compile-fail",
+      "description": "在函数外部使用 return 语句应产生编译错误"
+    },
+    {
+      "id": "STM_08_01_020_FAIL_BREAK_OUTSIDE_LOOP",
+      "section": "8.1",
+      "category": "compile-fail",
+      "description": "在循环外部使用 break 语句应产生编译错误"
+    },
+    {
+      "id": "STM_08_01_021_FAIL_CONTINUE_OUTSIDE_LOOP",
+      "section": "8.1",
+      "category": "compile-fail",
+      "description": "在循环外部使用 continue 语句应产生编译错误"
+    },
+    {
+      "id": "STM_08_01_022_FAIL_VOID_IN_ASSIGNMENT",
+      "section": "8.1",
+      "category": "compile-fail",
+      "description": "void 函数返回值不能用于赋值"
+    },
+    {
+      "id": "STM_08_01_025_FAIL_INVALID_EXPR_STMT",
+      "section": "8.1",
+      "category": "compile-fail",
+      "description": "无效表达式语句"
+    },
+    {
+      "id": "STM_08_01_008_RUNTIME_normal_completion_flow",
+      "section": "8.1",
+      "category": "runtime",
+      "description": "验证正常完成的语句按预期顺序执行并产生正确结果"
+    },
+    {
+      "id": "STM_08_01_009_RUNTIME_abrupt_completion_try_catch",
+      "section": "8.1",
+      "category": "runtime",
+      "description": "验证 throw 语句产生异常完成，try-catch 捕获异常完成之后执行流恢复正常完成"
+    },
+    {
+      "id": "STM_08_01_010_RUNTIME_return_abrupt_completion",
+      "section": "8.1",
+      "category": "runtime",
+      "description": "验证 return 语句触发异常完成 (abrupt completion)：函数内 return 之后的代码不执行，调用方获得正常控制权"
+    },
+    {
+      "id": "STM_08_01_011_RUNTIME_finally_always_executes",
+      "section": "8.1",
+      "category": "runtime",
+      "description": "验证 finally 块在异常完成后始终执行：throw 后执行、catch 中再次 throw 后仍执行、try 正常完成后也执行"
+    },
+    {
+      "id": "STM_08_01_014_RUNTIME_multiple_abrupt_paths",
+      "section": "8.1",
+      "category": "runtime",
+      "description": "验证同一函数体内存在多条可能的异常完成路径时，运行时实际命中的路径产生正确的异常完成行为"
+    },
+    {
+      "id": "STM_08_01_026_RUNTIME_NORMAL_FLOW",
+      "section": "8.1",
+      "category": "runtime",
+      "description": "正常执行流程验证"
+    },
+    {
+      "id": "STM_08_01_027_RUNTIME_DISCARDED_EXPR",
+      "section": "8.1",
+      "category": "runtime",
+      "description": "表达式语句结果丢弃不影响变量值"
+    },
+    {
+      "id": "STM_08_01_028_RUNTIME_STMT_ORDER",
+      "section": "8.1",
+      "category": "runtime",
+      "description": "语句执行顺序验证"
+    },
+    {
+      "id": "STM_08_01_029_RUNTIME_COND_EXECUTION",
+      "section": "8.1",
+      "category": "runtime",
+      "description": "条件语句中只有匹配分支执行"
+    },
+    {
+
+}
