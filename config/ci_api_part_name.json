@@ -17783,6 +17783,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/security/device_certificate/certmanager",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/sensors/miscdevice/vibrator",
             "bundle_name": [
                 "miscdevice"
