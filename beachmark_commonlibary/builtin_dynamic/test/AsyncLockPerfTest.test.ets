@@ -86,7 +86,7 @@ export default function AsyncLockPerfTest(): void {
         let res: ArkTSUtils.locks.AsyncLockMode = ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = res = ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE;
+          res = ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE;
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;

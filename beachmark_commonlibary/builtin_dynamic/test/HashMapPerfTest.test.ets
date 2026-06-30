@@ -74,7 +74,6 @@ export default function HashMapPerfTest(): void {
           console.info('arkTsPerformanceTest arkTsAveragedTime HashMap_isEmpty: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'HashMap', 'isEmpty',
           'isEmpty(): boolean;', arkTsAveragedTime);
-        performance.save('apiPerformance.txt');
         expect(result).assertTrue();
         done();
       })

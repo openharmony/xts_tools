@@ -202,8 +202,8 @@ export default function TypedUArraysPerfTest00(): void {
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Uint8ClampedArray byteLength: ' + arkTsAveragedTime + 'ns');
-      done();
       performance.apiWithClassAndKeywordTxt('std.core', 'Uint8ClampedArray', 'byteLength', 'byteLength: number', arkTsAveragedTime);
+      done();
     })
 
     it('PerformanceTest_Uint8ClampedArray_byteOffset', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {

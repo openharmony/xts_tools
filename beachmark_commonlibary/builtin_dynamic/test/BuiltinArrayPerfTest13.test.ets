@@ -51,7 +51,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_44900: ' + arkTsAveragedTime + 'ns');
@@ -70,7 +70,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_45000: ' + arkTsAveragedTime + 'ns');
@@ -89,7 +89,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_45100: ' + arkTsAveragedTime + 'ns');
@@ -108,7 +108,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_45200: ' + arkTsAveragedTime + 'ns');
@@ -127,7 +127,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_45300: ' + arkTsAveragedTime + 'ns');
@@ -146,7 +146,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_45400: ' + arkTsAveragedTime + 'ns');
@@ -165,7 +165,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_45500: ' + arkTsAveragedTime + 'ns');
@@ -184,7 +184,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_45600: ' + arkTsAveragedTime + 'ns');
@@ -203,7 +203,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_45700: ' + arkTsAveragedTime + 'ns');
@@ -222,7 +222,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_45800: ' + arkTsAveragedTime + 'ns');
@@ -241,7 +241,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_45900: ' + arkTsAveragedTime + 'ns');
@@ -260,7 +260,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_46000: ' + arkTsAveragedTime + 'ns');
@@ -279,7 +279,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_46100: ' + arkTsAveragedTime + 'ns');
@@ -298,7 +298,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_46200: ' + arkTsAveragedTime + 'ns');
@@ -317,7 +317,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_46300: ' + arkTsAveragedTime + 'ns');
@@ -336,7 +336,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_46400: ' + arkTsAveragedTime + 'ns');
@@ -355,7 +355,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_46500: ' + arkTsAveragedTime + 'ns');
@@ -374,7 +374,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_46600: ' + arkTsAveragedTime + 'ns');
@@ -393,7 +393,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_46700: ' + arkTsAveragedTime + 'ns');
@@ -412,7 +412,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_46800: ' + arkTsAveragedTime + 'ns');
@@ -431,7 +431,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_46900: ' + arkTsAveragedTime + 'ns');
@@ -450,7 +450,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_47000: ' + arkTsAveragedTime + 'ns');
@@ -469,7 +469,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_47100: ' + arkTsAveragedTime + 'ns');
@@ -488,7 +488,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_47200: ' + arkTsAveragedTime + 'ns');
@@ -507,7 +507,7 @@ export default function BuiltinArrayPerfTest13(): void {
         for (let i = 0; i < BASE_COUNT; i++) {
           res = fixArray[1];
         }
-        let Dtime = systemDateTime.getTime() - Stime;
+        let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_47300: ' + arkTsAveragedTime + 'ns');

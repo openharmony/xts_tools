@@ -52,7 +52,7 @@ export default function SetPerfTest(): void {
       }
 
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1 = sets[BASE_COUNT - 1];
+      let res1 = set;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Set_constructor_0200 : ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Set', 'constructor',
@@ -73,7 +73,7 @@ export default function SetPerfTest(): void {
       }
 
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1 = sets[BASE_COUNT - 1];
+      let res1 = set;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Set_constructor_0300 : ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Set', 'constructor',
@@ -111,7 +111,7 @@ export default function SetPerfTest(): void {
       }
 
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1 = sets[BASE_COUNT - 1];
+      let res1 = set;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Set_constructor_0400 : ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Set', 'constructor',
@@ -136,7 +136,7 @@ export default function SetPerfTest(): void {
         set.forEach(callback);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1 = sets[BASE_COUNT - 1];
+      let res1 = set;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Set_forEach_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Set', 'forEach',
@@ -289,7 +289,7 @@ export default function SetPerfTest(): void {
         set.add(i);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1 = sets[BASE_COUNT - 1];
+      let res1 = set;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Set_add_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Set', 'add',

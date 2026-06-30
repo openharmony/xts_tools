@@ -160,7 +160,7 @@ export default function TypedArraysPerfTest11(): void {
         res = arr.toLocaleString();
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = arrays[BASE_COUNT - 1];
+      let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigInt64Array toLocaleString: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'toLocaleString', 'toLocaleString(): string', arkTsAveragedTime);
@@ -176,6 +176,10 @@ export default function TypedArraysPerfTest11(): void {
         return 0;
       };
       let res: BigInt64Array = arr.sort(cmp);
+      let arrays: BigInt64Array[] = [];
+      for (let j = 0; j < BASE_COUNT; j++) {
+        arrays.push(new BigInt64Array([BigInt(5), BigInt(3), BigInt(1), BigInt(4), BigInt(2)]));
+      }
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
         arrays[i].sort(cmp);
