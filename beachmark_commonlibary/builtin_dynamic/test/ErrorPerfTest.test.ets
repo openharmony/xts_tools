@@ -114,14 +114,18 @@ export default function ErrorPerfTest(): void {
 
     it('PerformanceTest_Error_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let res: Error = new Error();
+        let errors: Error[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let e = new Error();
+          e.name = "CustomError";
+          errors.push(e);
+        }
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = new Error();
-          res.name = "CustomError";
+          let res: Error = errors[i];
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
+        let res1 = errors[BASE_COUNT - 1];
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
@@ -132,15 +136,19 @@ export default function ErrorPerfTest(): void {
 
     it('PerformanceTest_Error_Constructor_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let res: Error = new Error();
+        let errors: Error[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let e = new Error();
+          e.name = "CustomError";
+          e.message = "test message";
+          errors.push(e);
+        }
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = new Error();
-          res.name = "CustomError";
-          res.message = "test message";
+          let res: Error = errors[i];
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
+        let res1 = errors[BASE_COUNT - 1];
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
@@ -152,15 +160,19 @@ export default function ErrorPerfTest(): void {
 
     it('PerformanceTest_Error_Constructor_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let res: Error = new Error();
+        let errors: Error[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let e = new Error();
+          e.name = "CustomError";
+          e.message = "test message";
+          errors.push(e);
+        }
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = new Error();
-          res.name = "CustomError";
-          res.message = "test message";
+          let res: Error = errors[i];
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
+        let res1 = errors[BASE_COUNT - 1];
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
@@ -172,15 +184,19 @@ export default function ErrorPerfTest(): void {
 
     it('PerformanceTest_Error_Constructor_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let res: Error = new Error();
+        let errors: Error[] = [];
+        for (let j = 0; j < BASE_COUNT; j++) {
+          let e = new Error();
+          e.name = "CustomError";
+          e.message = "test message";
+          errors.push(e);
+        }
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = new Error();
-          res.name = "CustomError";
-          res.message = "test message";
+          let res: Error = errors[i];
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
+        let res1 = errors[BASE_COUNT - 1];
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
