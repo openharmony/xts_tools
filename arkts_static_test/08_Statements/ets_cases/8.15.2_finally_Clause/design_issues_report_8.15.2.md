@@ -33,34 +33,34 @@ finally 子句是一段独立的清理代码块，不涉及上述任何语法结
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|----------|:---:|
-| STM_08_15_2_001 | 基本 try-catch-finally 结构正确编译 | ✅ |
-| STM_08_15_2_002 | finally 在 catch 子句之后正确编译 | ✅ |
-| STM_08_15_2_003 | try 块含 return 时 finally 仍正确编译 | ✅ |
-| STM_08_15_2_004 | try-finally 无 catch 子句正确编译 | ✅ |
-| STM_08_15_2_005 | 嵌套 try-catch-finally 结构正确编译 | ✅ |
-| STM_08_15_2_012 | finally 块内 throw 语句合法编译 | ✅ |
-| STM_08_15_2_013 | finally 块内 return 语句合法编译 | ✅ |
-| STM_08_15_2_014 | 循环内 finally 与 break/continue 组合合法编译 | ✅ |
+| STMT_08_15_2_001 | 基本 try-catch-finally 结构正确编译 | ✅ |
+| STMT_08_15_2_002 | finally 在 catch 子句之后正确编译 | ✅ |
+| STMT_08_15_2_003 | try 块含 return 时 finally 仍正确编译 | ✅ |
+| STMT_08_15_2_004 | try-finally 无 catch 子句正确编译 | ✅ |
+| STMT_08_15_2_005 | 嵌套 try-catch-finally 结构正确编译 | ✅ |
+| STMT_08_15_2_012 | finally 块内 throw 语句合法编译 | ✅ |
+| STMT_08_15_2_013 | finally 块内 return 语句合法编译 | ✅ |
+| STMT_08_15_2_014 | 循环内 finally 与 break/continue 组合合法编译 | ✅ |
 
 ### compile-fail（3/3 通过）
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|----------|:---:|
-| STM_08_15_2_006 | finally 作为标识符使用被编译器拒绝 | ✅ |
-| STM_08_15_2_007 | finally 块内声明局部类被编译器拒绝 | ✅ |
-| STM_08_15_2_008 | finally 块内声明嵌套函数被编译器拒绝 | ✅ |
+| STMT_08_15_2_006 | finally 作为标识符使用被编译器拒绝 | ✅ |
+| STMT_08_15_2_007 | finally 块内声明局部类被编译器拒绝 | ✅ |
+| STMT_08_15_2_008 | finally 块内声明嵌套函数被编译器拒绝 | ✅ |
 
 ### runtime（7/7 — ark VM 真实执行 + assert 验证）
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|----------|:---:|
-| STM_08_15_2_009 | finally 始终执行（正常完成、异常完成、return 路径） | ✅ |
-| STM_08_15_2_010 | try/catch 含 return 时 finally 先于 return 执行；返回值被保存后 finally 运行 | ✅ |
-| STM_08_15_2_011 | catch 重新抛出异常后 finally 仍执行 | ✅ |
-| STM_08_15_2_015 | finally 内 throw 新异常覆盖原异常并向上传播 | ✅ |
-| STM_08_15_2_016 | finally 内 return 覆盖 try/catch 的 return 值 | ✅ |
-| STM_08_15_2_017 | 循环内 break 前 finally 保证执行 | ✅ |
-| STM_08_15_2_018 | 循环内 continue 前 finally 保证执行 | ✅ |
+| STMT_08_15_2_009 | finally 始终执行（正常完成、异常完成、return 路径） | ✅ |
+| STMT_08_15_2_010 | try/catch 含 return 时 finally 先于 return 执行；返回值被保存后 finally 运行 | ✅ |
+| STMT_08_15_2_011 | catch 重新抛出异常后 finally 仍执行 | ✅ |
+| STMT_08_15_2_015 | finally 内 throw 新异常覆盖原异常并向上传播 | ✅ |
+| STMT_08_15_2_016 | finally 内 return 覆盖 try/catch 的 return 值 | ✅ |
+| STMT_08_15_2_017 | 循环内 break 前 finally 保证执行 | ✅ |
+| STMT_08_15_2_018 | 循环内 continue 前 finally 保证执行 | ✅ |
 
 ---
 
@@ -173,7 +173,7 @@ ArkTS finally 子句的语义（无论正常完成还是异常中断都始终执
 | 维度 | 评估 |
 |------|------|
 | 规范一致性 | 100%（18 个用例本次执行全部通过） |
-| 设计严谨性 | 优秀——finally 语义忠实地遵循 Java JLS SE21 §14.20.2，覆盖正常/异常/return 所有路径 |
+| 设计严谨性 | 良好——finally 语义忠实地遵循 Java JLS SE21 §14.20.2，覆盖正常/异常/return 所有路径 |
 | 可预测性 | 无意外——finally 行为（执行保证、异常覆盖、return 覆盖）符合开发者基于 Java 经验的预期 |
 | 测试覆盖 | 完整——涵盖基础结构、边界条件（无 catch）、嵌套、保留字/局部类/嵌套函数拒绝、循环交互（break/continue） |
 | 已知问题适用性 | 无——所有跨章节设计问题（STM-I1、STM-I2、comma operator、Error.code、switch/null）均不适用于 finally 子句 |

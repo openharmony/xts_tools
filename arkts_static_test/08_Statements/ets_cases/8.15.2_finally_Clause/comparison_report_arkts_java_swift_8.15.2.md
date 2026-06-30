@@ -57,7 +57,7 @@ ArkTS §8.15.2 定义了 finally 子句：
 
 **ArkTS:**
 ```typescript
-// STM_08_15_2_001_PASS_basic_finally / STM_08_15_2_009_RUNTIME_finally_executes
+// STMT_08_15_2_001_PASS_basic_finally / STMT_08_15_2_009_RUNTIME_finally_executes
 function testBasicFinally(): void {
     let result: number = 0;
     try {
@@ -111,7 +111,7 @@ func testBasicFinally() {
 
 **ArkTS:**
 ```typescript
-// STM_08_15_2_003_PASS_finally_after_return / STM_08_15_2_010_RUNTIME_finally_with_return
+// STMT_08_15_2_003_PASS_finally_after_return / STMT_08_15_2_010_RUNTIME_finally_with_return
 function testReturnInTry(): number {
     let localFlag: number = 0;
     try {
@@ -163,7 +163,7 @@ func testReturnInTry() -> Int {
 
 **ArkTS:**
 ```typescript
-// STM_08_15_2_011_RUNTIME_finally_with_error
+// STMT_08_15_2_011_RUNTIME_finally_with_error
 function main(): void {
     let finallyExecuted: boolean = false;
     let caughtOuter: boolean = false;
@@ -234,7 +234,7 @@ func main() {
 
 **ArkTS:**
 ```typescript
-// STM_08_15_2_004_PASS_finally_no_catch
+// STMT_08_15_2_004_PASS_finally_no_catch
 function testFinallyNoCatch(): void {
     let idx: number = 0;
     try {
@@ -281,7 +281,7 @@ func testFinallyNoCatch() {
 
 **ArkTS:**
 ```typescript
-// STM_08_15_2_005_PASS_finally_nested
+// STMT_08_15_2_005_PASS_finally_nested
 function testNestedFinally(): void {
     let outerResult: number = 0;
     let innerResult: number = 0;
@@ -349,7 +349,7 @@ func testNestedFinally() {
 
 **ArkTS (compile-fail):**
 ```typescript
-// STM_08_15_2_006_FAIL_finally_reserved_word
+// STMT_08_15_2_006_FAIL_finally_reserved_word
 function testFinallyReservedWord(): void {
     try {
         let x: number = 1;
@@ -358,7 +358,7 @@ function testFinallyReservedWord(): void {
     }
 }
 
-// STM_08_15_2_007_FAIL_finally_local_class
+// STMT_08_15_2_007_FAIL_finally_local_class
 function testFinallyLocalClass(): void {
     try {
         let x: number = 1;
@@ -369,7 +369,7 @@ function testFinallyLocalClass(): void {
     }
 }
 
-// STM_08_15_2_008_FAIL_finally_nested_func
+// STMT_08_15_2_008_FAIL_finally_nested_func
 function testFinallyNestedFunc(): void {
     try {
         let x: number = 1;

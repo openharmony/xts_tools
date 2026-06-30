@@ -50,7 +50,7 @@
 
 **ArkTS：**
 ```typescript
-// STM_08_15_1_001_PASS_basic_catch / STM_08_15_1_009_RUNTIME_basic_catch
+// STMT_08_15_1_001_PASS_basic_catch / STMT_08_15_1_009_RUNTIME_basic_catch
 function testBasicCatch(): void {
     try {
         throw new Error("basic error");
@@ -95,7 +95,7 @@ func testBasicCatch() {
 
 **ArkTS：**
 ```typescript
-// STM_08_15_1_002_PASS_catch_instanceof / STM_08_15_1_010_RUNTIME_instanceof
+// STMT_08_15_1_002_PASS_catch_instanceof / STMT_08_15_1_010_RUNTIME_instanceof
 function testCatchInstanceof(): void {
     try {
         throw new RangeError("range error");
@@ -159,7 +159,7 @@ func testCatchInstanceof() {
 
 **ArkTS：**
 ```typescript
-// STM_08_15_1_004_PASS_catch_rethrow / STM_08_15_1_011_RUNTIME_rethrow
+// STMT_08_15_1_004_PASS_catch_rethrow / STMT_08_15_1_011_RUNTIME_rethrow
 function testCatchRethrow(): void {
     try {
         try {
@@ -223,7 +223,7 @@ func testCatchRethrow() throws {
 
 **ArkTS：**
 ```typescript
-// STM_08_15_1_003_PASS_catch_finally
+// STMT_08_15_1_003_PASS_catch_finally
 function testCatchFinally(): void {
     let cleanedUp: boolean = false;
     try {
@@ -277,7 +277,7 @@ func testCatchFinally() {
 
 **ArkTS（编译失败）：**
 ```typescript
-// STM_08_15_1_006_FAIL_catch_wrong_type_string
+// STMT_08_15_1_006_FAIL_catch_wrong_type_string
 function testCatchWrongTypeString(): void {
     try {
         throw new Error("test");

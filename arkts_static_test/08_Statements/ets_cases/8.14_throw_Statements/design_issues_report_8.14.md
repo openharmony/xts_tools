@@ -9,7 +9,7 @@
 ## 一、与业界静态语言的差异点
 
 ### 差异点 1：Error.code 访问器继承冲突 ⭐ MEDIUM
-**用例：** STM_08_14_010（间接相关）
+**用例：** STMT_08_14_010（间接相关）
 **实际行为/预期行为：** ArkTS 标准库 `Error` 类（`std.core.Error`）定义了 `get code(): int` 和 `set code(val: int)` 访问器属性，由私有字段 `code_: int` 支持。任何直接或间接继承 `Error` 的用户子类都继承此访问器，且无法用同名字段声明遮蔽它。试图在子类中定义 `public code: int` 或不兼容类型（如 `string`）将与继承的 getter/setter 产生编译时冲突。此约束是标准库设计的结果，但规范 STATEMENTS.md §8.14 并未提及——该节只讨论了 throw 表达式的类型约束（必须可赋值给 `Error`），而未涉及 `Error` 基类本身的成员签名。
 
 **Error 类 code 访问器定义**（`std/core/Error.ets` 第 142–155 行）：
@@ -27,7 +27,7 @@ set code(val: int) {
 **实际影响：**
 
 1. 调用 `new Error("message")`（不传 code 参数）时，`code` 隐式设置为 `0`（来自内部构造函数链：`this("Error", 0, message, options)`）。用户访问已捕获错误的 `.code` 属性时返回 `0`，并非 `undefined`，这可能出人意料。
-2. 自定义 Error 子类不能用简单字段声明`code`属性——必须使用与继承的 getter/setter 兼容的类型（`int`）。在用例 STM_08_14_010 中，子类变通使用了 `errCode` 而非 `code` 以避免冲突。
+2. 自定义 Error 子类不能用简单字段声明`code`属性——必须使用与继承的 getter/setter 兼容的类型（`int`）。在用例 STMT_08_14_010 中，子类变通使用了 `errCode` 而非 `code` 以避免冲突。
 3. 直接使用 `new Error("msg")` 时无法设置字符串类型的错误代码——任何希望在自定义 Error 子类中使用 `code: string` 的场景都与继承签名冲突。
 
 **对比：**
@@ -44,7 +44,7 @@ set code(val: int) {
 建议在 STATEMENTS.md §8.14 或配套标准库文档中记录：
 - `Error` 类提供 `code: int` 作为内置访问器属性
 - 子类定义同名 `code` 字段会与继承访问器冲突
-- 若需存储自定义错误代码，用户应使用替代名称（如 `errCode`），如用例 STM_08_14_010 所示
+- 若需存储自定义错误代码，用户应使用替代名称（如 `errCode`），如用例 STMT_08_14_010 所示
 
 ---
 
@@ -66,25 +66,25 @@ set code(val: int) {
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|----------|------|
-| STM_08_14_001 | 直接抛出 Error 实例 `throw new Error()` | ✅ 一致 |
-| STM_08_14_002 | 通过 Error 类型变量抛出 `throw e` | ✅ 一致 |
-| STM_08_14_003 | 抛出自定义 Error 子类（编译通过） | ✅ 一致 |
-| STM_08_14_004 | 抛出标准 Error 子类 RangeError | ✅ 一致 |
-| STM_08_14_005 | 抛出 string 类型（编译拒绝） | ✅ 一致 |
-| STM_08_14_006 | 抛出 null（编译拒绝） | ✅ 一致 |
-| STM_08_14_007 | 抛出 undefined（编译拒绝） | ✅ 一致 |
-| STM_08_14_008 | 单层 try-catch 捕获 throw，运行时验证 | ✅ 一致 |
-| STM_08_14_009 | catch 中 rethrow 由外层 catch 捕获 | ✅ 一致 |
-| STM_08_14_010 | Error 子类带额外属性（errCode, timestamp）后 throw，类型仍可赋值给 Error | ✅ 一致 |
-| STM_08_14_011 | return 之后的 throw 不可达（编译通过，死代码不执行） | ✅ 一致 |
-| STM_08_14_012 | 抛出 number 类型（编译拒绝） | ✅ 一致 |
-| STM_08_14_013 | 抛出 boolean 类型（编译拒绝） | ✅ 一致 |
-| STM_08_14_014 | 嵌套函数内 throw 传播至外层 try-catch | ✅ 一致 |
-| STM_08_14_015 | 多层嵌套 try-catch，throw 穿透传播 | ✅ 一致 |
-| STM_08_14_016 | throw 后控制即时转移（后续语句不执行） | ✅ 一致 |
-| STM_08_14_017 | throw Error 时使用字符串拼接构造消息，类型仍为 Error | ✅ 一致 |
-| STM_08_14_018 | 深层嵌套 throw 经多级调用栈传播 | ✅ 一致 |
-| STM_08_14_019 | 抛出普通对象（编译拒绝） | ✅ 一致 |
+| STMT_08_14_001 | 直接抛出 Error 实例 `throw new Error()` | ✅ 一致 |
+| STMT_08_14_002 | 通过 Error 类型变量抛出 `throw e` | ✅ 一致 |
+| STMT_08_14_003 | 抛出自定义 Error 子类（编译通过） | ✅ 一致 |
+| STMT_08_14_004 | 抛出标准 Error 子类 RangeError | ✅ 一致 |
+| STMT_08_14_005 | 抛出 string 类型（编译拒绝） | ✅ 一致 |
+| STMT_08_14_006 | 抛出 null（编译拒绝） | ✅ 一致 |
+| STMT_08_14_007 | 抛出 undefined（编译拒绝） | ✅ 一致 |
+| STMT_08_14_008 | 单层 try-catch 捕获 throw，运行时验证 | ✅ 一致 |
+| STMT_08_14_009 | catch 中 rethrow 由外层 catch 捕获 | ✅ 一致 |
+| STMT_08_14_010 | Error 子类带额外属性（errCode, timestamp）后 throw，类型仍可赋值给 Error | ✅ 一致 |
+| STMT_08_14_011 | return 之后的 throw 不可达（编译通过，死代码不执行） | ✅ 一致 |
+| STMT_08_14_012 | 抛出 number 类型（编译拒绝） | ✅ 一致 |
+| STMT_08_14_013 | 抛出 boolean 类型（编译拒绝） | ✅ 一致 |
+| STMT_08_14_014 | 嵌套函数内 throw 传播至外层 try-catch | ✅ 一致 |
+| STMT_08_14_015 | 多层嵌套 try-catch，throw 穿透传播 | ✅ 一致 |
+| STMT_08_14_016 | throw 后控制即时转移（后续语句不执行） | ✅ 一致 |
+| STMT_08_14_017 | throw Error 时使用字符串拼接构造消息，类型仍为 Error | ✅ 一致 |
+| STMT_08_14_018 | 深层嵌套 throw 经多级调用栈传播 | ✅ 一致 |
+| STMT_08_14_019 | 抛出普通对象（编译拒绝） | ✅ 一致 |
 
 ### 评估检查点
 
@@ -106,7 +106,7 @@ set code(val: int) {
 | 严重性 | 数量 | 涉及用例 |
 |--------|------|----------|
 | ⭐ HIGH | 0 | — |
-| ⭐ MEDIUM | 1 | STM_08_14_010（间接）—— Error.code 访问器继承冲突 |
+| ⭐ MEDIUM | 1 | STMT_08_14_010（间接）—— Error.code 访问器继承冲突 |
 | 设计观察 | 0 | — |
 | 设计观察（非问题） | 2 | A、B |
 
@@ -160,7 +160,7 @@ ArkTS 在规范中明确禁止 `throw null` 和 `throw undefined`，并产生编
 
 ### 短期建议
 - 在 STATEMENTS.md §8.14 中添加关于 `Error` 基类成员签名（尤其是 `code: int` 访问器）的说明，避免开发者误用 `code` 字段名导致与继承访问器冲突。
-- 纠正 STM_08_14_010 测试注释中 `@note` 所述的"子类扩展字段不影响对 Error 的赋值兼容性"——虽然确实不影响赋值兼容性，但应同时说明为什么用例使用 `errCode` 而非 `code`。
+- 纠正 STMT_08_14_010 测试注释中 `@note` 所述的"子类扩展字段不影响对 Error 的赋值兼容性"——虽然确实不影响赋值兼容性，但应同时说明为什么用例使用 `errCode` 而非 `code`。
 
 ### 中期建议
 - 可考虑补充更多 Error 子类（如 `TypeError`、`SyntaxError` 等）的覆盖测试，验证子类继承链上的 throw 行为是否始终受编译期约束。

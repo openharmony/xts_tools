@@ -105,24 +105,24 @@
 - finally 中 return 覆盖语义（编译器允许，运行时生效）
 
 ## 4. 文件命名规范
-- STM_08_15_2_001_PASS_basic_finally.ets — 基本 finally 使用（编译通过）
-- STM_08_15_2_002_PASS_finally_after_catch.ets — catch 后 finally 执行（编译通过）
-- STM_08_15_2_003_PASS_finally_after_return.ets — return 后 finally 执行（编译通过）
-- STM_08_15_2_004_PASS_finally_no_catch.ets — 无 catch 的 try-finally（编译通过）
-- STM_08_15_2_005_PASS_finally_nested.ets — 嵌套 finally（编译通过）
-- STM_08_15_2_006_FAIL_finally_reserved_word.ets — 保留关键字作变量名（编译失败）
-- STM_08_15_2_007_FAIL_finally_local_class.ets — 局部类（编译失败）
-- STM_08_15_2_008_FAIL_finally_nested_func.ets — 嵌套函数（编译失败）
-- STM_08_15_2_009_RUNTIME_finally_executes.ets — finally 执行验证（运行时）
-- STM_08_15_2_010_RUNTIME_finally_with_return.ets — return 时 finally 执行（运行时）
-- STM_08_15_2_011_RUNTIME_finally_with_error.ets — catch 抛新异常时 finally 执行（运行时）
-- STM_08_15_2_012_PASS_finally_throw_inside.ets — finally 块内抛异常（编译通过）
-- STM_08_15_2_013_PASS_finally_return_override.ets — finally 中 return 覆盖（编译通过）
-- STM_08_15_2_014_PASS_finally_loop_break_continue.ets — 循环内 finally + break/continue（编译通过）
-- STM_08_15_2_015_RUNTIME_finally_throw_inside.ets — finally 抛异常覆盖原异常（运行时）
-- STM_08_15_2_016_RUNTIME_finally_return_override.ets — finally return 覆盖验证（运行时）
-- STM_08_15_2_017_RUNTIME_finally_loop_break.ets — 循环内 break 时 finally 执行（运行时）
-- STM_08_15_2_018_RUNTIME_finally_loop_continue.ets — 循环内 continue 时 finally 执行（运行时）
+- STMT_08_15_2_001_PASS_basic_finally.ets — 基本 finally 使用（编译通过）
+- STMT_08_15_2_002_PASS_finally_after_catch.ets — catch 后 finally 执行（编译通过）
+- STMT_08_15_2_003_PASS_finally_after_return.ets — return 后 finally 执行（编译通过）
+- STMT_08_15_2_004_PASS_finally_no_catch.ets — 无 catch 的 try-finally（编译通过）
+- STMT_08_15_2_005_PASS_finally_nested.ets — 嵌套 finally（编译通过）
+- STMT_08_15_2_006_FAIL_finally_reserved_word.ets — 保留关键字作变量名（编译失败）
+- STMT_08_15_2_007_FAIL_finally_local_class.ets — 局部类（编译失败）
+- STMT_08_15_2_008_FAIL_finally_nested_func.ets — 嵌套函数（编译失败）
+- STMT_08_15_2_009_RUNTIME_finally_executes.ets — finally 执行验证（运行时）
+- STMT_08_15_2_010_RUNTIME_finally_with_return.ets — return 时 finally 执行（运行时）
+- STMT_08_15_2_011_RUNTIME_finally_with_error.ets — catch 抛新异常时 finally 执行（运行时）
+- STMT_08_15_2_012_PASS_finally_throw_inside.ets — finally 块内抛异常（编译通过）
+- STMT_08_15_2_013_PASS_finally_return_override.ets — finally 中 return 覆盖（编译通过）
+- STMT_08_15_2_014_PASS_finally_loop_break_continue.ets — 循环内 finally + break/continue（编译通过）
+- STMT_08_15_2_015_RUNTIME_finally_throw_inside.ets — finally 抛异常覆盖原异常（运行时）
+- STMT_08_15_2_016_RUNTIME_finally_return_override.ets — finally return 覆盖验证（运行时）
+- STMT_08_15_2_017_RUNTIME_finally_loop_break.ets — 循环内 break 时 finally 执行（运行时）
+- STMT_08_15_2_018_RUNTIME_finally_loop_continue.ets — 循环内 continue 时 finally 执行（运行时）
 
 ## 5. 断言策略
 - 编译通过：使用 console.log 输出，无语法错误

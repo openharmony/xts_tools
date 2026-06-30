@@ -50,7 +50,7 @@
 - **总计**: 7P + 4F + 6R = 17
 
 ## 文件命名规范
-`STM_08_15_1_{NNN}_{CATEGORY}_{DESCRIPTION}.ets`
+`STMT_08_15_1_{NNN}_{CATEGORY}_{DESCRIPTION}.ets`
 - {NNN}: 三位编号，从 001 开始跨分类连续编号（部分编号有跳跃以预留扩展空间）
 - {CATEGORY}: PASS（编译通过）| FAIL（编译失败）| RUNTIME（运行时）
 - {DESCRIPTION}: 蛇形命名的测试场景简述
@@ -60,28 +60,28 @@
 ### 编译通过 (PASS)
 | 编号 | 文件名 | 测试点描述 |
 |------|--------|-----------|
-| 001 | STM_08_15_1_001_PASS_basic_catch.ets | 基本 try-catch 语法结构，catch (e) 捕获 Error |
-| 002 | STM_08_15_1_002_PASS_catch_instanceof.ets | catch 内 instanceof 对 RangeError / TypeError 类型收窄 |
-| 003 | STM_08_15_1_003_PASS_catch_finally.ets | try-catch-finally 完整三部分结构 |
-| 004 | STM_08_15_1_004_PASS_catch_rethrow.ets | catch 内条件检查后重新抛出（throw e） |
-| 005 | STM_08_15_1_005_PASS_catch_error_properties.ets | catch 内访问 Error 属性 message / name / stack |
-| 015 | STM_08_15_1_015_PASS_catch_multiple_subclasses.ets | instanceof 区分 3+ 个 Error 子类型（RangeError / TypeError / SyntaxError） |
-| 016 | STM_08_15_1_016_PASS_catch_throw_translated_error.ets | catch 捕获后转换抛出新的 Error 类型（RangeError --> TypeError） |
+| 001 | STMT_08_15_1_001_PASS_basic_catch.ets | 基本 try-catch 语法结构，catch (e) 捕获 Error |
+| 002 | STMT_08_15_1_002_PASS_catch_instanceof.ets | catch 内 instanceof 对 RangeError / TypeError 类型收窄 |
+| 003 | STMT_08_15_1_003_PASS_catch_finally.ets | try-catch-finally 完整三部分结构 |
+| 004 | STMT_08_15_1_004_PASS_catch_rethrow.ets | catch 内条件检查后重新抛出（throw e） |
+| 005 | STMT_08_15_1_005_PASS_catch_error_properties.ets | catch 内访问 Error 属性 message / name / stack |
+| 015 | STMT_08_15_1_015_PASS_catch_multiple_subclasses.ets | instanceof 区分 3+ 个 Error 子类型（RangeError / TypeError / SyntaxError） |
+| 016 | STMT_08_15_1_016_PASS_catch_throw_translated_error.ets | catch 捕获后转换抛出新的 Error 类型（RangeError --> TypeError） |
 
 ### 编译失败 (FAIL)
 | 编号 | 文件名 | 测试点描述 |
 |------|--------|-----------|
-| 006 | STM_08_15_1_006_FAIL_catch_wrong_type_string.ets | catch 参数类型注解为 string，编译失败 |
-| 007 | STM_08_15_1_007_FAIL_catch_type_annotation_number.ets | catch 参数类型注解为 number，编译失败 |
-| 008 | STM_08_15_1_008_FAIL_catch_type_annotation_boolean.ets | catch 参数类型注解为 boolean，编译失败 |
-| 017 | STM_08_15_1_017_FAIL_catch_type_annotation_object.ets | catch 参数类型注解为 object，编译失败 |
+| 006 | STMT_08_15_1_006_FAIL_catch_wrong_type_string.ets | catch 参数类型注解为 string，编译失败 |
+| 007 | STMT_08_15_1_007_FAIL_catch_type_annotation_number.ets | catch 参数类型注解为 number，编译失败 |
+| 008 | STMT_08_15_1_008_FAIL_catch_type_annotation_boolean.ets | catch 参数类型注解为 boolean，编译失败 |
+| 017 | STMT_08_15_1_017_FAIL_catch_type_annotation_object.ets | catch 参数类型注解为 object，编译失败 |
 
 ### 运行时 (RUNTIME)
 | 编号 | 文件名 | 测试点描述 |
 |------|--------|-----------|
-| 009 | STM_08_15_1_009_RUNTIME_basic_catch.ets | 基本捕获验证：catch 块执行并校验 e.message 正确 |
-| 010 | STM_08_15_1_010_RUNTIME_instanceof.ets | instanceof 类型区分：RangeError / TypeError 分流验证 |
-| 011 | STM_08_15_1_011_RUNTIME_rethrow.ets | 内层 catch 抛出，外层 catch 捕获并校验 message |
-| 012 | STM_08_15_1_012_RUNTIME_error_translation.ets | 错误转换：RangeError 转为 TypeError，外层捕获并校验转换后消息 |
-| 013 | STM_08_15_1_013_RUNTIME_multiple_instanceof_subclasses.ets | 多子类 instanceof：依次抛出 RangeError / TypeError / Error 独立验证 |
-| 014 | STM_08_15_1_014_RUNTIME_catch_return_value.ets | catch 按 instanceof 类型收窄返回不同值（ZeroDivisor -> -1, other -> 0） |
+| 009 | STMT_08_15_1_009_RUNTIME_basic_catch.ets | 基本捕获验证：catch 块执行并校验 e.message 正确 |
+| 010 | STMT_08_15_1_010_RUNTIME_instanceof.ets | instanceof 类型区分：RangeError / TypeError 分流验证 |
+| 011 | STMT_08_15_1_011_RUNTIME_rethrow.ets | 内层 catch 抛出，外层 catch 捕获并校验 message |
+| 012 | STMT_08_15_1_012_RUNTIME_error_translation.ets | 错误转换：RangeError 转为 TypeError，外层捕获并校验转换后消息 |
+| 013 | STMT_08_15_1_013_RUNTIME_multiple_instanceof_subclasses.ets | 多子类 instanceof：依次抛出 RangeError / TypeError / Error 独立验证 |
+| 014 | STMT_08_15_1_014_RUNTIME_catch_return_value.ets | catch 按 instanceof 类型收窄返回不同值（ZeroDivisor -> -1, other -> 0） |
