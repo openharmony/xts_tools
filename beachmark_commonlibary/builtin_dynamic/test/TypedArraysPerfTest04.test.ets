@@ -545,7 +545,7 @@ export default function TypedArraysPerfTest04(): void {
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest Float64Array sort: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'sort', 'sort(compareFn?: (a, b) => number): this', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
+        expect(res1 !== undefined).assertTrue();
         done();
       })
 
