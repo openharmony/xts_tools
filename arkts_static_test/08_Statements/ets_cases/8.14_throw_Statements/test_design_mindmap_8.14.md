@@ -56,8 +56,8 @@ spec section 8.14：throw 语句用于抛出异常，表达式类型必须可赋
   实际编号: 008, 009, 014, 015, 016, 018
 
 ## 关键约束
-- 所有函数必须顶级定义，不允许嵌套函数（compile-fail/runtime 用例中辅助函数也须顶级定义）
-- 自定义 Error 子类必须顶级定义，不允许局部类
+- 所有函数必须顶层定义，不允许嵌套函数（compile-fail/runtime 用例中辅助函数也须顶层定义）
+- 自定义 Error 子类必须顶层定义，不允许局部类
 - 编译通过文件使用 function testXxx(): void 签名
 - 编译失败文件使用 function testXxx(): void 签名
 - 运行时文件必须使用 function main(): void 签名

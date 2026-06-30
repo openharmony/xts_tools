@@ -56,7 +56,7 @@
 | STMT_08_10_023_FAIL_BREAK_OUTSIDE_LOOP | compile-fail | 在循环外使用 break 应产生编译错误 |
 | STMT_08_10_024_FAIL_BREAK_WRONG_LABEL | compile-fail | break 引用不存在的 label 应产生编译错误 |
 | STMT_08_10_025_FAIL_BREAK_LABEL_OUTER_NOT_LOOP | compile-fail | break label 的目标不是循环应产生编译错误 |
-| STMT_08_10_026_FAIL_BREAK_IF_IN_LOOP | compile-fail | break 在函数顶级而非循环中应产生编译错误 |
+| STMT_08_10_026_FAIL_BREAK_IF_IN_LOOP | compile-fail | break 在函数顶层而非循环中应产生编译错误 |
 | STMT_08_10_009_RUNTIME_break_while_control | runtime | 验证无标签break在while循环中能正确跳出，退出后循环变量和计数器的值正确 |
 | STMT_08_10_010_RUNTIME_break_labelled_outer | runtime | 验证带标签的break能正确跳出外层标记循环，跳过内层剩余迭代 |
 | STMT_08_10_011_RUNTIME_break_switch_control | runtime | 验证break在switch语句中能正确跳出case块，防止fallthrough到下一个case |

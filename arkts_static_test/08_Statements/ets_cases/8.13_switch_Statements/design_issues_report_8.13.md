@@ -173,14 +173,14 @@ switch (a) {
 **用例：** STMT_08_13_006_PASS_identical_case_values, STMT_08_13_013_RUNTIME_identical_case_values
 **类别：** 设计观察（Design Observation），非缺陷
 
-**实际行为/预期行为：** ArkTS 规范明确指出允许重复的 case 标签：`case null:` / `case null: // 可以有多个具有相同表达式的 case 子句`。实测用例 006（compile-pass）和 013（runtime）验证了此行为：多个相同值的 case 子句可合法出现，首个匹配的 case 执行后即跳出（若含 break），后续重复 case 永远不可达。
+**实际行为/预期行为：** ArkTS 规范明确指出允许重复的 case 标签：`case null:` / `case null: // 可以有多个具有相同表达式的 case 子句`。实测用例 006（compile-pass）和 013（runtime）验证了此行为：多个相同值的 case 子句可合法出现，第一个匹配的 case 执行后即跳出（若含 break），后续重复 case 始终不可达。
 
 **对比：**
 
 | 语言 | 行为 |
 |------|------|
 | **Java (JLS SE21)** | 重复的 case 标签产生编译期错误 |
-| **Swift (5.x)** | 重复的模式产生编译期错误（警告该模式永远不会被匹配） |
+| **Swift (5.x)** | 重复的模式产生编译期错误（警告该模式不会被匹配） |
 | **ArkTS** | 显式允许重复的 case 标签，无错误或警告 |
 
 **评价/建议：** 重复的 case 标签应产生编译期错误或至少产生警告，因为这表示死代码且极可能是程序员的编程错误。当前 100% 测试通过率仅表示"实现与规范一致"——规范本身在此点的设计选择值得商榷。
@@ -243,7 +243,7 @@ switch (a) {
 | STMT_08_13_010 | fall-through 与 default：匹配穿透、无匹配 default 执行、匹配跳过 default | ✅ |
 | STMT_08_13_011 | 带标签 break 跳出嵌套 switch：break outer vs 普通 break 对比 | ✅ |
 | STMT_08_13_012 | null case 匹配：null 匹配 case null、实例匹配 default（辅助函数规避窄化） | ✅ |
-| STMT_08_13_013 | 相同 case 值运行时匹配：首个匹配即执行、非重复正常、null 重复 case | ✅ |
+| STMT_08_13_013 | 相同 case 值运行时匹配：第一个匹配即执行、非重复正常、null 重复 case | ✅ |
 | STMT_08_13_014 | 深层 fall-through：连续 3 case 无 break、穿透入 default、无 default 穿透 | ✅ |
 | STMT_08_13_015 | 带标签 break 跳出外层循环运行时：break outer for、break outer2 while | ✅ |
 | STMT_08_13_016 | 对象实例 switch 运行时：null->case null、实例->default（辅助函数规避窄化） | ✅ |

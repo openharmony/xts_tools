@@ -224,7 +224,7 @@ func main() {
 
 **关键差异：**
 - ArkTS 和 Java：内层 `finally` 在 catch 中抛出的新错误传播到外层 `catch` **之前**执行。这是标准的 try-catch-finally 语义。
-- Swift：由于 `defer` 在结构上不依附于 `do-catch`，程序员必须将 `defer` 放在 `catch` 块的 `throw` **之前**才能确保其运行。如果 `defer` 放在 throw 之后，则永远不会执行。
+- Swift：由于 `defer` 在结构上不依附于 `do-catch`，程序员必须将 `defer` 放在 `catch` 块的 `throw` **之前**才能确保其运行。如果 `defer` 放在 throw 之后，则始终不执行。
 - **ArkTS == Java**（finally 保证在结构上强制执行）。**Swift 需要仔细放置** defer，这是一个潜在的 bug 来源。
 - **ArkTS 优势：** 不存在此类放置风险——finally 始终运行。
 

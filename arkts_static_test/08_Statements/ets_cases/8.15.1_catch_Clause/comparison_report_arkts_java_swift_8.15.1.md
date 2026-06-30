@@ -305,7 +305,7 @@ void testCatchWrongType() {
 func testCatchWrongType() {
     do {
         throw NSError(domain: "test", code: 1)
-    } catch let e as String {  // 不会编译失败但永远不会匹配
+    } catch let e as String {  // 不会编译失败但从不匹配
         let msg = e
     }
 }

@@ -35,7 +35,7 @@
 ### 控制流规则
 | 规则 | 说明 |
 |------|------|
-| 首个匹配 | 从上到下扫描 caseClause，首个匹配成功则转移控制 |
+| 第一个匹配 | 从上到下扫描 caseClause，第一个匹配成功则转移控制 |
 | break 退出 | case 语句体末尾的 break 退出整个 switch |
 | fall-through | case 无 break 时，执行完毕后继续执行下一个 caseClause |
 | default 兜底 | 仅当所有 case 均未匹配时执行 default（可出现在任意位置） |
@@ -128,7 +128,7 @@
 
 #### 3.5 相同 case 值运行时匹配 (STMT_08_13_013_RUNTIME_identical_case_values)
 - 测试：重复 case 1 值中第一个匹配即执行、非重复值正常匹配、重复 null case 值
-- 验证：三个子测试——首个重复 case 命中、非重复 case 正常匹配、null 重复 case
+- 验证：三个子测试——第一个重复 case 命中、非重复 case 正常匹配、null 重复 case
 
 #### 3.6 深层 Fall-through (STMT_08_13_014_RUNTIME_fall_through_deep)
 - 测试：连续 3 个 case 无 break 穿透（A->B->C）、fall-through 穿透到 default、无 default 时穿透到 switch 结束、从中间 case 开始穿透
@@ -172,7 +172,7 @@
 ### 异常场景（运行时无错误但有明确行为）
 - switch 表达式未匹配任何 case 且无 default -> 无操作跳过 switch
 - fall-through 穿透到 default 子句（匹配到 case 后穿透穿过后续 case 直到 default）
-- 相同 case 值重复：首个出现的 case 匹配后即跳出，后续重复 case 不会执行
+- 相同 case 值重复：第一个出现的 case 匹配后即跳出，后续重复 case 不会执行
 - boolean switch 仅含 true 分支时 false 走 default
 
 ## 四、命名约定
