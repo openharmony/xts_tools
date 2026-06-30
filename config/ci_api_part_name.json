@@ -1236,14 +1236,14 @@
             "bundle_name": [
                 "arkxtest"
             ],
-            "build_targets": []
+            "build_targets": {}
         },
         {
             "path": "interface/sdk-js/zh-cn/api/@ohos.test.PerfTest.d.ts",
             "bundle_name": [
                 "arkxtest"
             ],
-            "build_targets": []
+            "build_targets": {}
         },
         {
             "path": "interface/sdk-js/api/@ohos.hiTraceMeter.d.ts",
