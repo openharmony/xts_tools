@@ -13,6 +13,38 @@
  * limitations under the License.
  */
 
+import {
+  describe,
+  it,
+  TestType,
+  Size,
+  Level,
+  beforeAll,
+  afterAll,
+  beforeEach,
+  afterEach,
+  expect
+} from "@ohos/hypium";
+import performance from './Performance.util';
+import { systemDateTime } from '@kit.BasicServicesKit';
+
+declare class ArkTools {
+  static forceFullGC(): void;
+}
+
+export default function ValuePerfTest4(): void {
+  describe('ValuePerfTest4', () => {
+
+    const BASE_COUNT = 1000;
+
+    beforeEach(() => {
+      ArkTools.forceFullGC();
+    })
+
+    afterAll(() => {
+      performance.save('apiPerformance.txt');
+    })
+
 it('PerformanceTest_FloatValue_constructor_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {

@@ -13,6 +13,38 @@
  * limitations under the License.
  */
 
+import {
+  describe,
+  it,
+  TestType,
+  Size,
+  Level,
+  beforeAll,
+  afterAll,
+  beforeEach,
+  afterEach,
+  expect
+} from "@ohos/hypium";
+import performance from './Performance.util';
+import { systemDateTime } from '@kit.BasicServicesKit';
+
+declare class ArkTools {
+  static forceFullGC(): void;
+}
+
+export default function TypedArraysPerfTest07(): void {
+  describe('TypedArraysPerfTest07', () => {
+
+    const BASE_COUNT = 1000;
+
+    beforeEach(() => {
+      ArkTools.forceFullGC();
+    })
+
+    afterAll(() => {
+      performance.save('apiPerformance.txt');
+    })
+
 it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let srcIter: number[] = [1, 2, 3, 4, 5];
       let res: Int8Array = new Int8Array(srcIter);

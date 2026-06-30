@@ -13,6 +13,38 @@
  * limitations under the License.
  */
 
+import {
+  describe,
+  it,
+  TestType,
+  Size,
+  Level,
+  beforeAll,
+  afterAll,
+  beforeEach,
+  afterEach,
+  expect
+} from "@ohos/hypium";
+import performance from './Performance.util';
+import { systemDateTime } from '@kit.BasicServicesKit';
+
+declare class ArkTools {
+  static forceFullGC(): void;
+}
+
+export default function TypedUArraysPerfTest13(): void {
+  describe('TypedUArraysPerfTest13', () => {
+
+    const BASE_COUNT = 1000;
+
+    beforeEach(() => {
+      ArkTools.forceFullGC();
+    })
+
+    afterAll(() => {
+      performance.save('apiPerformance.txt');
+    })
+
 it('PerformanceTest_BigUint64Array_Constructor_ArrayBufferLike', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(800);
       let result = new BigUint64Array(buf, 8, 98);
