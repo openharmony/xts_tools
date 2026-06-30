@@ -275,7 +275,7 @@ let int: int = 1   // ❌ ArkTS 编译失败
 | Ll 类小写字母 | 002 | ✅ | spec/lexical.md |
 | Lt 类标题字母 | 003 | ✅ | spec/lexical.md |
 | Lm 类修饰字母 | 004 | ✅ | spec/lexical.md |
-| Lo 类其他字母 | 005 | ✅ | spec/lexical.md |
+| Lo 类其余字母 | 005 | ✅ | spec/lexical.md |
 | $ 起始 | 006 | ✅ | spec/lexical.md |
 | _ 起始 | 007 | ✅ | spec/lexical.md |
 | \uHHHH 转义起始 | 008 | ✅ | spec/lexical.md |

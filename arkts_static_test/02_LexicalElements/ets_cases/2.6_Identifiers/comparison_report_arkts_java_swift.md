@@ -171,7 +171,7 @@ let string: string = "" // ✅ 沿用类型注解
 | 002 | Ll 小写字母 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
 | 003 | Lt 标题字母 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
 | 004 | Lm 修饰字母 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
-| 005 | Lo 其他字母 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
+| 005 | Lo 其余字母 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
 | 006 | $ 起始 | ✅ compile-pass | ✅ compile-pass | ❌ 不支持 |
 | 007 | _ 起始 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
 | 008 | \uHHHH 转义 | ✅ compile-pass | ✅ compile-pass | ❌ 不支持 |

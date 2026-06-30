@@ -24,7 +24,7 @@
 |------|---------|------|
 | `compile-pass/LEX_02_06_001_PASS_LU_LETTER_START.ets` | Lu 类大写字母 | compile-pass |
 | `compile-pass/LEX_02_06_002_PASS_LL_LETTER_START.ets` | Ll 类小写字母 | compile-pass |
-| `compile-pass/LEX_02_06_005_PASS_LO_LETTER_START.ets` | Lo 类其他字母 | compile-pass |
+| `compile-pass/LEX_02_06_005_PASS_LO_LETTER_START.ets` | Lo 类其余字母 | compile-pass |
 | `compile-pass/LEX_02_06_006_PASS_DOLLAR_START.ets` | $ 起始 | compile-pass |
 | `compile-pass/LEX_02_06_008_PASS_UESCAPE_4HEX_START.ets` | \uHHHH 转义起始 | compile-pass |
 | `compile-pass/LEX_02_06_009_PASS_UESCAPE_BRACE_START.ets` | \u{...} 扩展转义 | compile-pass |
@@ -59,7 +59,7 @@
 | 002 | Ll 小写字母 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
 | 003 | Lt 标题字母 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
 | 004 | Lm 修饰字母 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
-| 005 | Lo 其他字母 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
+| 005 | Lo 其余字母 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
 | 006 | $ 起始 | ✅ compile-pass | ✅ compile-pass | ❌ 不支持 |
 | 007 | _ 起始 | ✅ compile-pass | ✅ compile-pass | ✅ compile-pass |
 | 008 | \uHHHH 转义 | ✅ compile-pass | ✅ compile-pass | ❌ 不支持 |

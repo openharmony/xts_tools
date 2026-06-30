@@ -477,7 +477,7 @@ Swift              ArkTS              Java
 
 | 角度 | 结论 |
 |------|------|
-| **char 设计** | ArkTS spec 最先进（32-bit），但实现滞后 > Java 16-bit 过时 > Swift 最灵活 |
+| **char 设计** | ArkTS spec 设计领先（32-bit），但实现滞后 > Java 16-bit 过时 > Swift 最灵活 |
 | **字符串模型** | ArkTS ≈ Java（UTF-16 代码单元），Swift 独树一帜（grapheme cluster） |
 | **孤立代理** | Swift 编译期拒绝（更安全），ArkTS = Java（无保护） |
 | **for-of 迭代** | ArkTS for-of 自动处理代理对，等于 Swift，优于 Java（需API） |

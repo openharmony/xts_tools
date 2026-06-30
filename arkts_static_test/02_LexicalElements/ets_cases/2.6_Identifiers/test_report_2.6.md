@@ -111,7 +111,7 @@
 | 002 | PASS_LL_LETTER_START | Ll 类小写字母 |
 | 003 | PASS_LT_LETTER_START | Lt 类标题字母（U+01C5）|
 | 004 | PASS_LM_LETTER_START | Lm 类修饰字母（U+02B0）|
-| 005 | PASS_LO_LETTER_START | Lo 类其他字母（多语言）|
+| 005 | PASS_LO_LETTER_START | Lo 类其余字母（多语言）|
 | 006 | PASS_DOLLAR_START | $ 起始 |
 | 007 | PASS_UNDERSCORE_START | _ 起始 |
 | 008 | PASS_UESCAPE_4HEX_START | \\uHHHH 转义起始 |

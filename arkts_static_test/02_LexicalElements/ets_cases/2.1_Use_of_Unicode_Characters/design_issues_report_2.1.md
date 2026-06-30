@@ -45,9 +45,9 @@
 
 **实际行为（编译通过）：**
 ```typescript
-let s1: string = "\uD800"     // ✅ 编译通过（与 Java 行为一致）
+let s1: string = "\uDB00"     // ✅ 编译通过（与 Java 行为一致）
 let s2: string = "\uDC00"     // ✅ 编译通过
-let s3: string = "\uD800A"    // ✅ 编译通过
+let s3: string = "\uDB00A"    // ✅ 编译通过
 ```
 
 **与业界静态语言对比：**
@@ -188,11 +188,11 @@ let Aval: number = 2     // ❌ ESE0351: Variable 'Aval' has already been declar
 
 **用例：** LEX_02_01_012_FAIL_LONE_HIGH_SURROGATE
 
-**Spec 描述：** Unicode 规范（UAX #16）定义 U+D800~U+DFFF 为代理区码点，只能成对使用表示补充平面字符。孤立代理不应出现在合规的 UTF-16 文本中。
+**Spec 描述：** Unicode 规范（UAX #16）定义高代理区（U+D800~U+DBFF）和低代理区（U+DC00~U+DFFF）为代理区码点，只能成对使用表示补充平面字符。孤立代理不应出现在合规的 UTF-16 文本中。
 
 **实际行为（编译通过）：**
 ```typescript
-let s: string = "\uD800"     // ⚠️ 编译通过（spec 要求报错）
+let s: string = "\uDB80"     // ⚠️ 编译通过（spec 要求报错）
 ```
 
 **规范依据：**
@@ -207,7 +207,7 @@ let s: string = "\uD800"     // ⚠️ 编译通过（spec 要求报错）
 
 **用例：** LEX_02_01_013_FAIL_LONE_LOW_SURROGATE
 
-**Spec 描述：** Unicode 规范（UAX #16）定义 U+D800~U+DFFF 为代理区码点，只能成对使用表示补充平面字符。孤立代理不应出现在合规的 UTF-16 文本中。
+**Spec 描述：** Unicode 规范（UAX #16）定义高代理区（U+D800~U+DBFF）和低代理区（U+DC00~U+DFFF）为代理区码点，只能成对使用表示补充平面字符。孤立代理不应出现在合规的 UTF-16 文本中。
 
 **实际行为（编译通过）：**
 ```typescript
@@ -230,7 +230,7 @@ let s: string = "\uDC00"     // ⚠️ 编译通过（spec 要求报错）
 
 **实际行为（编译通过）：**
 ```typescript
-let s: string = "\uD800A"    // ⚠️ 编译通过（spec 要求报错）
+let s: string = "\uDB80A"    // ⚠️ 编译通过（spec 要求报错）
 ```
 
 **规范依据：**
@@ -328,7 +328,7 @@ let result: boolean = ch == n   // ⚠️ 编译通过（spec 要求报错）
 
 | 差异点 | ArkTS | Java | Swift | TypeScript | 说明 |
 |--------|-------|------|-------|------------|------|
-| char 大小 | 32-bit（spec）/ 16-bit（实现） | 16-bit | 不固定 | N/A | ArkTS spec 最先进 |
+| char 大小 | 32-bit（spec）/ 16-bit（实现） | 16-bit | 不固定 | N/A | ArkTS spec 设计领先 |
 | char 关系运算 | ✅ | ✅ | ❌ | N/A | ArkTS 与 Java 一致 |
 | char == number | ✅ | ✅ | ❌ | N/A | ArkTS 与 Java 一致 |
 | 补充平面支持 | ❌（当前） | ❌ | ✅ | N/A | Swift 最完整 |

@@ -210,7 +210,7 @@ function main(): void {<LF>
 **Swift：** ❌ LS/PS 不识别
 **TypeScript：** ✅ 4 种全支持
 
-**结论：** ArkTS = TypeScript > Java/Swift（包容性最强）
+**结论：** ArkTS = TypeScript > Java/Swift（包容性更广）
 
 ---
 
