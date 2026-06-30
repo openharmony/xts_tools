@@ -36,7 +36,7 @@ super, switch, this, throw, true, try, typeof, undefined, while
 | void | - |
 
 ### 表 3：软关键字（13 个）
-特定上下文有保留含义，但**其他场合可作标识符**：
+特定上下文有保留含义，但**其余场合可作标识符**：
 ```
 catch, declare, finally, from, get, keyof,
 module, namespace, of, out, readonly, set, type

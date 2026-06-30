@@ -67,7 +67,7 @@
 | char / Char | ❌ 都保留 | char 保留 | N/A | (TS 无 char) |
 | bigint / BigInt | ❌ 都保留 | (无 bigint) | (无 bigint) | bigint 内置类型 |
 
-**关键差异：** ArkTS 把类型名的**主名和别名都设为关键字**，而其他语言通常只保留小写形式。
+**关键差异：** ArkTS 把类型名的**主名和别名都设为关键字**，而其余语言通常只保留小写形式。
 
 ### TypeScript 兼容性问题
 

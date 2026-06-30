@@ -188,7 +188,7 @@ let Aval: number = 2     // ❌ ESE0351: Variable 'Aval' has already been declar
 
 **用例：** LEX_02_01_012_FAIL_LONE_HIGH_SURROGATE
 
-**Spec 描述：** Unicode 规范（UAX #16）定义高代理区（U+D800~U+DBFF）和低代理区（U+DC00~U+DFFF）为代理区码点，只能成对使用表示补充平面字符。孤立代理不应出现在合规的 UTF-16 文本中。
+**Spec 描述：** Unicode 规范（UAX #16）定义高代理区（U+DB80~U+DBFF）和低代理区（U+DC00~U+DFFF）为代理区码点，只能成对使用表示补充平面字符。孤立代理不应出现在合规的 UTF-16 文本中。
 
 **实际行为（编译通过）：**
 ```typescript
@@ -207,7 +207,7 @@ let s: string = "\uDB80"     // ⚠️ 编译通过（spec 要求报错）
 
 **用例：** LEX_02_01_013_FAIL_LONE_LOW_SURROGATE
 
-**Spec 描述：** Unicode 规范（UAX #16）定义高代理区（U+D800~U+DBFF）和低代理区（U+DC00~U+DFFF）为代理区码点，只能成对使用表示补充平面字符。孤立代理不应出现在合规的 UTF-16 文本中。
+**Spec 描述：** Unicode 规范（UAX #16）定义高代理区（U+DB80~U+DBFF）和低代理区（U+DC00~U+DFFF）为代理区码点，只能成对使用表示补充平面字符。孤立代理不应出现在合规的 UTF-16 文本中。
 
 **实际行为（编译通过）：**
 ```typescript

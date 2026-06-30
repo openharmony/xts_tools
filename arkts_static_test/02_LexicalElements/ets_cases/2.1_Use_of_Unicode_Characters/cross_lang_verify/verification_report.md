@@ -102,16 +102,16 @@
 
 | 语言 | 代码 | 行为 |
 |------|------|------|
-| ArkTS | `let s: string = "\uD800"` | ✅ 编译通过（无保护） |
-| Java | `String s = "\uD800";` | ✅ 编译通过（无保护） |
-| Swift | `let s = "\u{D800}"` | ❌ 编译错误：invalid escape sequence |
+| ArkTS | `let s: string = "\uDB00"` | ✅ 编译通过（无保护） |
+| Java | `String s = "\uDB00";` | ✅ 编译通过（无保护） |
+| Swift | `let s = "\u{DB00}"` | ❌ 编译错误：invalid escape sequence |
 
 ### 4.2 char 补充平面支持 ⭐⭐⭐ HIGH
 
 | 语言 | 代码 | 行为 |
 |------|------|------|
 | ArkTS | `let ch: char = c'\u{1F600}'` | ❌ 编译失败：Unsupported character literal |
-| Java | `char ch = '\uD83D';` | ❌ 不支持（char 仅 16 位） |
+| Java | `char ch = '\uDA00';` | ❌ 不支持（char 仅 16 位） |
 | Swift | `let ch: Character = "\u{1F600}"` | ✅ 编译通过，完全支持 |
 
 ### 4.3 char 关系运算符 ⭐⭐ MEDIUM
@@ -127,7 +127,7 @@
 | 语言 | 代码 | 行为 |
 |------|------|------|
 | ArkTS | `"\u{1F600}".length` | 2（代码单元数） |
-| Java | `"\uD83D\uDE00".length()` | 2（代码单元数） |
+| Java | `"\uDA00\uDE00".length()` | 2（代码单元数） |
 | Swift | `"\u{1F600}".count` | 1（grapheme cluster 数） |
 
 ### 4.5 for-of 迭代单位 ⭐⭐⭐ HIGH
@@ -135,7 +135,7 @@
 | 语言 | 代码 | 行为 |
 |------|------|------|
 | ArkTS | `for (const ch of "A\u{1F600}B")` | 3 次迭代（按 code point） |
-| Java | `for (char c : "A\uD83D\uDE00B".toCharArray())` | 4 次迭代（按代码单元） |
+| Java | `for (char c : "A\uDA00\uDE00B".toCharArray())` | 4 次迭代（按代码单元） |
 | Swift | `for ch in "A\u{1F600}B"` | 3 次迭代（按 Character） |
 
 ---

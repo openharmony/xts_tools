@@ -105,7 +105,7 @@ emoji: \u{1F600}\u{1F601}
 emoji.length()  // 输出: 4 (代码单元数)
 
 # Java 运行
-emoji = "\uD83D\uDE00\u{1F601}"
+emoji = "\uDA00\uDE00\u{1F601}"
 emoji.length()  // 输出: 4 (代码单元数)
 emoji.codePointCount(0, emoji.length())  // 输出: 2 (真实字符数)
 
@@ -165,7 +165,7 @@ console.log(emoji.length)   // 输出: 2 (代理对=2代码单元)
 
 **Java 实际运行：**
 ```java
-String emoji = "\uD83D\uDE00";   // 必须用代理对
+String emoji = "\uDA00\uDE00";   // 必须用代理对
 System.out.println(emoji.length());    // 输出: 2
 emoji.codePointCount(0, emoji.length()); // 输出: 1（需显式计算）
 ```
@@ -209,17 +209,17 @@ let emoji: Character = "\u{1F600}"
 
 **ArkTS 实际运行：**
 ```typescript
-let s: string = "\uD800"    // ✅ 编译通过（无保护）
+let s: string = "\uDB00"    // ✅ 编译通过（无保护）
 ```
 
 **Java 实际运行：**
 ```java
-String s = "\uD800";        // ✅ 编译通过
+String s = "\uDB00";        // ✅ 编译通过
 ```
 
 **Swift 实际运行：**
 ```swift
-let s = "\u{D800}"          // ❌ 编译错误: invalid escape sequence
+let s = "\u{DB00}"          // ❌ 编译错误: invalid escape sequence
 ```
 
 **实际运行结论：** Swift > ArkTS = Java（安全性）
@@ -420,16 +420,16 @@ Swift              ArkTS              Java
 
 | 语言 | 代码 | 行为 |
 |------|------|------|
-| ArkTS | `let s: string = "\uD800"` | ✅ 编译通过（无保护） |
-| Java | `String s = "\uD800";` | ✅ 编译通过（无保护） |
-| Swift | `let s = "\u{D800}"` | ❌ 编译错误：invalid escape sequence |
+| ArkTS | `let s: string = "\uDB00"` | ✅ 编译通过（无保护） |
+| Java | `String s = "\uDB00";` | ✅ 编译通过（无保护） |
+| Swift | `let s = "\u{DB00}"` | ❌ 编译错误：invalid escape sequence |
 
 #### 用例 008: char 补充平面支持 ⭐⭐⭐
 
 | 语言 | 代码 | 行为 |
 |------|------|------|
 | ArkTS | `let ch: char = c'\u{1F600}'` | ❌ 编译失败：Unsupported character literal |
-| Java | `char ch = '\uD83D';` | ❌ 不支持（char 仅 16 位） |
+| Java | `char ch = '\uDA00';` | ❌ 不支持（char 仅 16 位） |
 | Swift | `let ch: Character = "\u{1F600}"` | ✅ 编译通过，完全支持 |
 
 #### 用例 018: char 关系运算符 ⭐⭐
@@ -445,7 +445,7 @@ Swift              ArkTS              Java
 | 语言 | 代码 | 行为 |
 |------|------|------|
 | ArkTS | `"\u{1F600}".length` | 2（代码单元数） |
-| Java | `"\uD83D\uDE00".length()` | 2（代码单元数） |
+| Java | `"\uDA00\uDE00".length()` | 2（代码单元数） |
 | Swift | `"\u{1F600}".count` | 1（grapheme cluster 数） |
 
 #### 用例 027: for-of 迭代单位 ⭐⭐⭐
@@ -453,7 +453,7 @@ Swift              ArkTS              Java
 | 语言 | 代码 | 行为 |
 |------|------|------|
 | ArkTS | `for (const ch of "A\u{1F600}B")` | 3 次迭代（按 code point） |
-| Java | `for (char c : "A\uD83D\uDE00B".toCharArray())` | 4 次迭代（按代码单元） |
+| Java | `for (char c : "A\uDA00\uDE00B".toCharArray())` | 4 次迭代（按代码单元） |
 | Swift | `for ch in "A\u{1F600}B"` | 3 次迭代（按 Character） |
 
 ---

@@ -291,7 +291,7 @@ import Foundation
 func testSpaceOnlyWhitespace() {
     let s1 = 10 + 20
     assert(s1 == 30, "Space-only arithmetic test failed, got \(s1)")
-    // ... 其他测试函数
+    // ... 其余测试函数
 }
 
 @main

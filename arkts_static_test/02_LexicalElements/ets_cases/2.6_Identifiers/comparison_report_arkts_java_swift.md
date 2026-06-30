@@ -274,7 +274,7 @@ let string: string = "" // ✅ 沿用类型注解
 |------|------|
 | **Unicode 字符支持** | ArkTS = TypeScript ≈ Java > Swift |
 | **转义标识符** | ArkTS = TypeScript > Java > Swift |
-| **ZWJ/ZWNJ** | ArkTS = TypeScript（独有，其他不支持）|
+| **ZWJ/ZWNJ** | ArkTS = TypeScript（独有，其余不支持）|
 | **`$` 起始** | ArkTS = Java = TypeScript > Swift |
 | **关键字保护** | ArkTS > TypeScript（更严格）|
 
