@@ -8,7 +8,7 @@
 
 ## 一、与业界静态语言的差异点
 
-### 差异点 STM-I2：Loop label 未被使用 — Spec 要求报错但编译器未强制
+### 差异点 STMT-I2：Loop label 未被使用 — Spec 要求报错但编译器未强制
 
 **用例：** STMT_08_06_012_PASS_label_declared_not_used（原设计为 compile-fail，实测编译通过）
 **差异性质：** ArkTS Spec 与编译器行为差异（待确认对齐方向 — STATEMENTS.md 明确要求 compile-time error，但 es2panda 未检查此约束）
@@ -48,7 +48,7 @@ STATEMENTS.md §8.6: "A compile-time error occurs if the label identifier is not
 **影响：**
 1. 声明了 label 但不使用，代码可正常编译运行，不影响功能
 2. 但不符合 spec 的明确要求
-3. 严重性低于 STM-I1，因为不影响运行时正确性
+3. 严重性低于 STMT-I1，因为不影响运行时正确性
 4. 从 Java/TypeScript/Swift 迁移的开发者通常不会声明不使用标签，因此实际开发中触发频率低
 
 **对齐方案：**
@@ -63,8 +63,8 @@ STATEMENTS.md §8.6: "A compile-time error occurs if the label identifier is not
 
 | 问题 ID | 描述 | 涉及章节 | 本节适用 | 说明 |
 |---------|------|---------|---------|------|
-| STM-I1 | Block 内 type 声明 spec/impl 不匹配 | 8.3 | 否 | 8.6 不涉及块内类型声明 |
-| **STM-I2** | **标签未引用不强制报错** | **8.6** | **是** | **本节发现，已记录为问题 STM-I2** |
+| STMT-I1 | Block 内 type 声明 spec/impl 不匹配 | 8.3 | 否 | 8.6 不涉及块内类型声明 |
+| **STMT-I2** | **标签未引用不强制报错** | **8.6** | **是** | **本节发现，已记录为问题 STMT-I2** |
 | comma-op | 逗号运算符仅限 for 循环 | 8.2, 8.11 | 否 | 8.6 的 for 循环头部使用逗号运算符符合规范，不属于此问题范畴 |
 | Error.code | Error.code 访问器冲突 | 8.14 | 否 | 8.6 不涉及 Error 属性定义 |
 | null-case-new | null case 类型收窄与直接 new | 8.13 | 否 | 8.6 不涉及 switch 类型收窄 |
@@ -87,7 +87,7 @@ STATEMENTS.md §8.6: "A compile-time error occurs if the label identifier is not
 | STMT_08_06_009_RUNTIME_WhileAndDoWhile | 运行时验证 while 和 do-while 的迭代计数、`continue`、`break` 及边界条件 | 通过 |
 | STMT_08_06_010_RUNTIME_ForAndForOf | 运行时验证 for 和 for-of 的循环求和、`continue`、`break`、空初始化及空数组 | 通过 |
 | STMT_08_06_011_RUNTIME_LabeledLoop | 运行时验证嵌套标签循环的 `break` 外层退出、`continue` 外层跳过及 `while` 外层退出 | 通过 |
-| STMT_08_06_012_PASS_label_declared_not_used | 声明标签但未在循环体内使用 → **编译器未按 spec 要求报错**（参见问题 STM-I2） | 参见问题 STM-I2 |
+| STMT_08_06_012_PASS_label_declared_not_used | 声明标签但未在循环体内使用 → **编译器未按 spec 要求报错**（参见问题 STMT-I2） | 参见问题 STMT-I2 |
 
 此外，以下设计方面经验证与主流语言一致，无问题：
 
@@ -103,7 +103,7 @@ STATEMENTS.md §8.6: "A compile-time error occurs if the label identifier is not
 | 严重性 | 数量 | 涉及用例 |
 |--------|------|---------|
 | HIGH | 0 | — |
-| MEDIUM | 1 | STMT_08_06_012_PASS_label_declared_not_used（STM-I2） |
+| MEDIUM | 1 | STMT_08_06_012_PASS_label_declared_not_used（STMT-I2） |
 | LOW | 0 | — |
 | 无问题 | — | 其余 11 个用例行为与规范完全一致 |
 
@@ -114,7 +114,7 @@ STATEMENTS.md §8.6: "A compile-time error occurs if the label identifier is not
 | 对比维度 | ArkTS | Java (SE21) | Swift (5.x) | 结论 |
 |---------|-------|-------------|-------------|------|
 | 循环类型 | while, do, for, for-of（4种） | while, do, for, for-each（4种） | while, repeat-while, for-in（3种） | 基本一致 |
-| 未引用标签 | 编译器未检查（STM-I2 缺陷） | 静默允许 | 静默允许 | ArkTS spec 要求报错，但编译器未实现 |
+| 未引用标签 | 编译器未检查（STMT-I2 缺陷） | 静默允许 | 静默允许 | ArkTS spec 要求报错，但编译器未实现 |
 | Lambda 内引用外层标签 | 编译错误 | 编译错误 | 编译错误 | 三者一致 |
 | 未声明标签引用 | 编译错误 | 编译错误 | 编译错误 | 三者一致 |
 | 无标签 break/continue | 支持（最内层） | 支持（最内层） | 支持（最内层） | 三者一致 |
@@ -126,11 +126,11 @@ STATEMENTS.md §8.6: "A compile-time error occurs if the label identifier is not
 
 ### 短期（需立即修复）
 
-1. **修复 STM-I2**：es2panda 编译器实现 "label not used" 的编译期检查，与 STATEMENTS.md §8.6 的明确要求对齐。或者，如果 ArkTS 团队认为此约束过严，可修改 spec 将其降级为 warning。
+1. **修复 STMT-I2**：es2panda 编译器实现 "label not used" 的编译期检查，与 STATEMENTS.md §8.6 的明确要求对齐。或者，如果 ArkTS 团队认为此约束过严，可修改 spec 将其降级为 warning。
 
 ### 中期（建议增强）
 
-2. **补充编译失败用例**：基于 STM-I2 修复后的编译器，添加验证 "label not used" 编译期错误的 FAIL 用例。
+2. **补充编译失败用例**：基于 STMT-I2 修复后的编译器，添加验证 "label not used" 编译期错误的 FAIL 用例。
 3. **文档化标签规则**：在 ArkTS 迁移指南和语言参考中明确记录标签的声明-使用约束，帮助从 Java/TypeScript/Swift 背景迁移的开发者理解此规则。
 
 ### 长期（设计层面考虑）
@@ -139,4 +139,4 @@ STATEMENTS.md §8.6: "A compile-time error occurs if the label identifier is not
 
 ---
 
-**总体结论：** 除 STM-I2（编译器未实现 spec 要求的 label-not-used 检查）外，8.6 章节所有循环语句行为均与 ArkTS 规范一致，未发现其余设计问题。循环语句设计整体成熟，与 Java/Swift 在核心语义上高度对齐。
+**总体结论：** 除 STMT-I2（编译器未实现 spec 要求的 label-not-used 检查）外，8.6 章节所有循环语句行为均与 ArkTS 规范一致，未发现其余设计问题。循环语句设计整体成熟，与 Java/Swift 在核心语义上高度对齐。

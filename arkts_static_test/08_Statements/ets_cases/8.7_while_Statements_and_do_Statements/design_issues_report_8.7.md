@@ -84,7 +84,7 @@ while (Color.Green) { } // enum — compile-pass (非零值为 truthy)
 | STMT_08_07_011_RT | 相同初始条件下 while 执行 0 次 vs do-while 执行 1 次 | ✅ PASS |
 | STMT_08_07_012_RT | do-while 体内 continue 跳转到条件表达式处 | ✅ PASS |
 | STMT_08_07_013_RT | 嵌套循环中 break 仅退出最内层，外层继续执行 | ✅ PASS |
-| STMT_08_07_016_RT | do-while 体内 break 在首次迭代即退出，验证 at-least-once 语义 | ✅ PASS |
+| STMT_08_07_016_RT | do-while 体内 break 在第一次迭代即退出，验证 at-least-once 语义 | ✅ PASS |
 | STMT_08_07_017_RT | while 零次迭代全方位验证（false 字面量、变量 false、多场景） | ✅ PASS |
 
 ### 与规范一致的要点总结
@@ -111,7 +111,7 @@ while (Color.Green) { } // enum — compile-pass (非零值为 truthy)
 | ⭐ MEDIUM | 0 | — |
 | 设计观察 | 1 | 观察 B：缺少类型层面 compile-fail 用例（class/array/object 条件拒绝） |
 | Design Observation（设计观察） | 1 | 观察 A：Extended Conditional Expressions 扩展循环条件类型范围 |
-| 累积已知问题（重现） | 0 | 本节未触发 STM-I1、STM-I2 或其余已知设计问题 |
+| 累积已知问题（重现） | 0 | 本节未触发 STMT-I1、STMT-I2 或其余已知设计问题 |
 
 ---
 

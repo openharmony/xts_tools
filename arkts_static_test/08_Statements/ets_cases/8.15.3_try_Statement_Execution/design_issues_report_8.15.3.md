@@ -89,8 +89,8 @@ ArkTS 要求 try 语句必须至少包含 catch 或 finally 子句（用例 005 
 
 | 已知问题 ID | 问题简述 | 涉及章节 | 本节是否重现 |
 |------------|---------|---------|------------|
-| STM-I1 | Block 内 type 声明 spec/impl 不一致 | 8.3 | 否 — try/catch/finally 块不涉及 type 别名声明，此问题范围限定于 §8.3 |
-| STM-I2 | Label 未使用仍被强制要求引用 | 8.6 | 否 — try 语句不使用循环标签，此问题范围限定于 §8.6 |
+| STMT-I1 | Block 内 type 声明 spec/impl 不一致 | 8.3 | 否 — try/catch/finally 块不涉及 type 别名声明，此问题范围限定于 §8.3 |
+| STMT-I2 | Label 未使用仍被强制要求引用 | 8.6 | 否 — try 语句不使用循环标签，此问题范围限定于 §8.6 |
 | — | 逗号运算符仅限 for 循环 | 8.2, 8.11 | 否 — try 语句体中无逗号运算符使用的场景 |
 | — | Error.code 访问器冲突 | 8.14 | 潜在相关 — catch 块中捕获 Error 对象，当前测试覆盖了 `e.message`（如 010/011/012/013/014/015），但未覆盖 `e.code`。若 Error.code 存在 getter/setter 冲突，catch 块中访问 `e.code` 会受影响。建议补充 `e.code` 访问测试 |
 | — | null case 类型窄化与直接 new | 8.13 | 否 — try 语句不涉及 switch case 窄化 |
@@ -172,4 +172,4 @@ ArkTS 要求 try 语句必须至少包含 catch 或 finally 子句（用例 005 
 | 与 spec 一致性 | 完全一致（执行 100% 通过，15/15） |
 | 设计严密性 | 良好 — 四条规则覆盖了 try 语句所有的执行路径 |
 | Java/Swift 对比 | 规则1-4 与 Java 完全一致；与 Swift 的 do-catch-defer 模型架构不同但功能等价 |
-| 跨章节已知问题 | 无重现（STM-I1/STM-I2 不适用，Error.code 访问器冲突潜在相关但未触发） |
+| 跨章节已知问题 | 无重现（STMT-I1/STMT-I2 不适用，Error.code 访问器冲突潜在相关但未触发） |

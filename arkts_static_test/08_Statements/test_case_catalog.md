@@ -564,7 +564,7 @@
 | STMT_08_06_027_RUNTIME_LABELED_CONTINUE | runtime | 带 label 的 continue 运行时验证 |
 | STMT_08_06_028_RUNTIME_FOR_LOOP_LABEL | runtime | 简单 for 循环带 label |
 | STMT_08_06_029_RUNTIME_DO_WHILE_LABEL | runtime | 带 label 的 do-while |
-| STMT_08_06_030_RUNTIME_LABEL_NOT_USED | runtime | label 未使用 — es2panda 编译通过（STM-G1 已知差异） |
+| STMT_08_06_030_RUNTIME_LABEL_NOT_USED | runtime | label 未使用 — es2panda 编译通过（STMT-G1 已知差异） |
 
 ### §8.7 while/do Statements（22P + 4F + 10R）
 

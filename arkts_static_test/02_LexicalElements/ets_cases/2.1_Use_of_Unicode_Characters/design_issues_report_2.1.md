@@ -338,7 +338,7 @@ let result: boolean = ch == n   // ⚠️ 编译通过（spec 要求报错）
 | 差异点 | ArkTS | Java | Swift | TypeScript | 说明 |
 |--------|-------|------|-------|------------|------|
 | string.length 语义 | 代码单元数 | 代码单元数 | grapheme cluster | 代码单元数 | Swift 最符合直觉 |
-| for-of 迭代单位 | code point | code unit | Character | code unit | ArkTS 最优秀 |
+| for-of 迭代单位 | code point | code unit | Character | code unit | ArkTS 设计领先 |
 | 孤立代理允许 | ✅ | ✅ | ❌ | ✅ | Swift 最严格 |
 
 ### 4.4 转义序列

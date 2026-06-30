@@ -137,9 +137,9 @@
 - 断言: `if (i != 7)`, `if (sum != 21)`, `if (inner != 2)`, `if (outer != 3)`
 
 #### 3.6 do-while 体内 break 至少执行一次循环体 (STMT_08_07_016_RUNTIME_do_while_break_at_least_once)
-- 测试点: do-while 保证循环体至少执行一次, 即使首次迭代有 break
+- 测试点: do-while 保证循环体至少执行一次, 即使第一次迭代有 break
 - 验证1: `do { count++; break; } while (false)` — count == 1 (条件 false + break, 仍执行一次)
-- 验证2: `do { visits++; break; } while (true)` — visits == 1 (break 在首次迭代)
+- 验证2: `do { visits++; break; } while (true)` — visits == 1 (break 在第一次迭代)
 - 验证3: `do { sum += i; i++; if (i >= 5) break; } while (i < 10)` — sum == 10 (0+1+2+3+4), i == 5
 - 验证4: `do { iter++; if (iter == 3) break; } while (true)` — iter == 3
 - 断言: 4 组独立断言, 充分验证 at-least-once 语义

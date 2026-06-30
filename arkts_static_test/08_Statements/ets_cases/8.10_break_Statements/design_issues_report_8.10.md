@@ -85,8 +85,8 @@
 
 | 已知问题 ID | 问题描述 | 来源章节 | 8.10 是否受影响 |
 |-------------|---------|---------|----------------|
-| **STM-I1** | Block 内 type declaration — Spec 措辞（"except type declarations, are executed"）与编译器行为（直接拒绝）不一致 | 8.3 Block | **否** — break 语句不涉及类型声明 |
-| **STM-I2** | Loop label 未被使用 — Spec 要求 label 必须被引用否则 compile-time error，但 es2panda 未检查此约束 | 8.6 Loop Statements | **否** — 8.10 不定义 label 声明规则（label 声明属于 §8.6），仅定义 break 如何引用已声明的 label |
+| **STMT-I1** | Block 内 type declaration — Spec 措辞（"except type declarations, are executed"）与编译器行为（直接拒绝）不一致 | 8.3 Block | **否** — break 语句不涉及类型声明 |
+| **STMT-I2** | Loop label 未被使用 — Spec 要求 label 必须被引用否则 compile-time error，但 es2panda 未检查此约束 | 8.6 Loop Statements | **否** — 8.10 不定义 label 声明规则（label 声明属于 §8.6），仅定义 break 如何引用已声明的 label |
 | （设计观察） | 逗号运算符仅限 for 循环头中使用 | 8.2 Expression Statements, 8.8 for Statements | **否** — break 语句不涉及逗号运算符 |
 | （设计观察） | Error.code 访问器与 message 属性的 getter 行为冲突 | 8.14 throw Statements | **否** — break 语句不涉及 Error 类型 |
 | （设计观察） | null case 的类型窄化行为（direct new 场景下不窄化） | 8.13 switch Statements | **否** — break 在 switch 中仅做控制流跳出，不参与类型窄化 |

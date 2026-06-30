@@ -16,7 +16,7 @@ forStatement: 'for' '(' forInit? ';' forContinue? ';' forUpdate? ')' statement
 
 | 语言 | 定位 | 设计哲学 |
 |------|------|---------|
-| ArkTS | 移动端系统编程语言，鸿蒙生态核心 | 保留 C 风格 for 循环，与 Java 生态保持高度一致 |
+| ArkTS | 移动端系统编程语言，OpenHarmony 生态核心 | 保留 C 风格 for 循环，与 Java 生态保持高度一致 |
 | Java | 通用企业级编程语言，Android 生态基石 | C 风格 for 循环作为基础控制流结构保留至今 |
 | Swift | Apple 生态现代编程语言 | Swift 2.0+ 已移除 C 风格 for 循环，推荐 for-in / while |
 

@@ -54,8 +54,8 @@ set code(val: int) {
 
 | 跨章节问题 | 涉及章节 | 是否影响 §8.14 | 说明 |
 |-----------|---------|-----------------|------|
-| **STM-I1**：Block 内 type 声明 spec/impl 不一致 | 8.3 | **否** | throw 语句不涉及 block 内 type 别名声明，此问题范围限定于 §8.3 |
-| **STM-I2**：Label 未使用不强制报错 | 8.6 | **否** | throw 语句不使用 label 语法，此问题范围限定于 §8.6 |
+| **STMT-I1**：Block 内 type 声明 spec/impl 不一致 | 8.3 | **否** | throw 语句不涉及 block 内 type 别名声明，此问题范围限定于 §8.3 |
+| **STMT-I2**：Label 未使用不强制报错 | 8.6 | **否** | throw 语句不使用 label 语法，此问题范围限定于 §8.6 |
 | **逗号运算符仅限于 for 循环** | 8.2, 8.11 | **否（间接约束）** | 逗号运算符限制是全局 ArkTS 规则，throw 表达式同样受此约束，但 throw 表达式本身是单一表达式，不涉及逗号运算符场景 |
 | **null case 类型收窄与直接 new** | 8.13 | **否** | 此问题涉及 switch 语句的 null case 标签与 instanceof 类型收窄的交互，与 throw 语句无直接关联 |
 | **char 与 int 在 switch 中可比较** | 8.13 | **否** | 此问题限定于 switch 语句的 case 标签类型检查，与 throw 语句无关 |

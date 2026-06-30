@@ -201,7 +201,7 @@ $ ./swift_test
 
 ## 七、结论
 
-1. **ArkTS for-of 迭代最优秀**：自动按 code point 迭代，等于 Swift，优于 Java
+1. **ArkTS for-of 迭代设计领先**：自动按 code point 迭代，等于 Swift，优于 Java
 2. **ArkTS 标识符支持最灵活**：支持 \$开头、\u转义、ZWJ/ZWNJ
 3. **Swift 安全性最高**：编译期拒绝孤立代理，避免潜在问题
 4. **ArkTS spec 与实现存在不一致**：char 补充平面、关系运算符等

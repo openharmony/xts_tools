@@ -100,8 +100,8 @@
 
 | 已知问题 ID | 问题描述 | 来源章节 | 8.11 是否受影响 |
 |-------------|---------|---------|----------------|
-| **STM-I1** | Block 内 type 声明 — Spec 措辞（"except type declarations, are executed"）与编译器行为（直接拒绝）不一致 | 8.3 Block | **否** — continue 语句不涉及块内类型声明 |
-| **STM-I2** | Loop label 未被使用 — Spec 要求 label 必须被引用否则 compile-time error，但 es2panda 未检查此约束 | 8.6 Loop Statements | **否** — 8.11 仅定义 continue 如何引用已声明的 label；label 声明和使用规则属于 §8.6 |
+| **STMT-I1** | Block 内 type 声明 — Spec 措辞（"except type declarations, are executed"）与编译器行为（直接拒绝）不一致 | 8.3 Block | **否** — continue 语句不涉及块内类型声明 |
+| **STMT-I2** | Loop label 未被使用 — Spec 要求 label 必须被引用否则 compile-time error，但 es2panda 未检查此约束 | 8.6 Loop Statements | **否** — 8.11 仅定义 continue 如何引用已声明的 label；label 声明和使用规则属于 §8.6 |
 | （设计观察） | **逗号运算符仅限 for 循环头中使用** | **8.2** Expression Statements, **8.11** continue Statements | **是** — continue 必须执行 forUpdate 中的所有子表达式；当 forUpdate 使用逗号分隔复合表达式时，continue 的语义与该限制直接交互 |
 | （设计观察） | Error.code 访问器与 message 属性的 getter 行为冲突 | 8.14 throw Statements | **否** — continue 语句不涉及 Error 类型 |
 | （设计观察） | null case 的类型窄化行为（direct new 场景下不窄化） | 8.13 switch Statements | **否** — continue 不涉及 switch case 类型窄化 |

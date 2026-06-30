@@ -16,8 +16,8 @@
 
 | 问题 ID | 描述 | 来源章节 | 8.15.2 是否适用 |
 |---------|------|---------|:---:|
-| STM-I1 | Block 内 type declaration — spec 措辞与编译器行为不一致 | 8.3 | 否 |
-| STM-I2 | Label not used 规则未被编译器强制执行 | 8.6 | 否 |
+| STMT-I1 | Block 内 type declaration — spec 措辞与编译器行为不一致 | 8.3 | 否 |
+| STMT-I2 | Label not used 规则未被编译器强制执行 | 8.6 | 否 |
 | (未编号) | 逗号运算符仅限 for 循环内使用 | 8.2, 8.11 | 否 |
 | (未编号) | Error.code 访问器与标准库属性冲突 | 8.14 | 否 |
 | (未编号) | switch 中 char 可与 int 比较 | 8.13 | 否 |
@@ -176,5 +176,5 @@ ArkTS finally 子句的语义（无论正常完成还是异常中断都始终执
 | 设计严谨性 | 良好——finally 语义忠实地遵循 Java JLS SE21 §14.20.2，覆盖正常/异常/return 所有路径 |
 | 可预测性 | 无意外——finally 行为（执行保证、异常覆盖、return 覆盖）符合开发者基于 Java 经验的预期 |
 | 测试覆盖 | 完整——涵盖基础结构、边界条件（无 catch）、嵌套、保留字/局部类/嵌套函数拒绝、循环交互（break/continue） |
-| 已知问题适用性 | 无——所有跨章节设计问题（STM-I1、STM-I2、comma operator、Error.code、switch/null）均不适用于 finally 子句 |
+| 已知问题适用性 | 无——所有跨章节设计问题（STMT-I1、STMT-I2、comma operator、Error.code、switch/null）均不适用于 finally 子句 |
 | 与 Java/Swift 的对比 | ArkTS = Java > Swift（finally 比 defer 更直观，与 try 结构语义绑定更强） |

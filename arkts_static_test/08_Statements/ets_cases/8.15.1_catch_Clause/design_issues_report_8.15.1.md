@@ -18,8 +18,8 @@
 
 | 跨章节问题 | 涉及章节 | 是否影响 §8.15.1 | 说明 |
 |-----------|---------|-----------------|------|
-| **STM-I1**：Block 内 type 声明 spec/impl 不一致 | 8.3 | **否** | catch 块不涉及 type 别名声明，此问题范围限定于 §8.3 |
-| **STM-I2**：Label 未使用不强制报错 | 8.6 | **否** | catch 子句不使用 label 语法，此问题范围限定于 §8.6 |
+| **STMT-I1**：Block 内 type 声明 spec/impl 不一致 | 8.3 | **否** | catch 块不涉及 type 别名声明，此问题范围限定于 §8.3 |
+| **STMT-I2**：Label 未使用不强制报错 | 8.6 | **否** | catch 子句不使用 label 语法，此问题范围限定于 §8.6 |
 | **逗号运算符仅限于 for 循环** | 8.2, 8.11 | **否（间接约束）** | 逗号运算符限制是全局 ArkTS 规则，catch 块体内同样受此约束，但这不是 catch 特有的问题 |
 | **Error.code 访问器冲突** | 8.14 | **潜在相关** | catch 参数类型为 Error，当前测试覆盖了 `e.message`、`e.name`、`e.stack`，但未覆盖 `e.code`。如果 Error.code 存在 getter/setter 冲突，catch 块中访问 `e.code` 会受影响。建议补充 `e.code` 访问测试 |
 | **null case 类型收窄与直接 new** | 8.13 | **否** | 此问题涉及 switch 语句的 null case 标签与 instanceof 类型收窄的交互，catch 块中的 instanceof 收窄不受此影响 |

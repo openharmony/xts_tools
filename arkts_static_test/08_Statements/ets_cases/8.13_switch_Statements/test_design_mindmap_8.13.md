@@ -35,7 +35,7 @@
 ### 控制流规则
 | 规则 | 说明 |
 |------|------|
-| 首次匹配 | 从上到下扫描 caseClause，首次匹配成功则转移控制 |
+| 首个匹配 | 从上到下扫描 caseClause，首个匹配成功则转移控制 |
 | break 退出 | case 语句体末尾的 break 退出整个 switch |
 | fall-through | case 无 break 时，执行完毕后继续执行下一个 caseClause |
 | default 兜底 | 仅当所有 case 均未匹配时执行 default（可出现在任意位置） |
@@ -172,7 +172,7 @@
 ### 异常场景（运行时无错误但有明确行为）
 - switch 表达式未匹配任何 case 且无 default -> 无操作跳过 switch
 - fall-through 穿透到 default 子句（匹配到 case 后穿透穿过后续 case 直到 default）
-- 相同 case 值重复：首次出现的 case 匹配后即跳出，后续重复 case 不会执行
+- 相同 case 值重复：首个出现的 case 匹配后即跳出，后续重复 case 不会执行
 - boolean switch 仅含 true 分支时 false 走 default
 
 ## 四、命名约定

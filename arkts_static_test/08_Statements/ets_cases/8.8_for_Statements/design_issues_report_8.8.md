@@ -14,8 +14,8 @@
 
 | 问题 | 来源章节 | 8.8 是否受波及 | 备注 |
 |------|---------|:------:|------|
-| STM-I1：Block 内 type declaration spec/impl 不一致 | 8.3 | 否 | for 循环体中的类型声明由 8.3 规范统一约束，8.8 不引入额外规则 |
-| STM-I2：Label 未使用 spec 要求报错但编译器未强制 | 8.6 | 否 | 8.8 用例 014/018 均正确使用了 label（`break outer`），不触发此问题 |
+| STMT-I1：Block 内 type declaration spec/impl 不一致 | 8.3 | 否 | for 循环体中的类型声明由 8.3 规范统一约束，8.8 不引入额外规则 |
+| STMT-I2：Label 未使用 spec 要求报错但编译器未强制 | 8.6 | 否 | 8.8 用例 014/018 均正确使用了 label（`break outer`），不触发此问题 |
 | 逗号运算符仅限于 for 循环 | 8.2 / 8.11 | 是（合规使用） | 8.8 用例 012/013/017 验证逗号在 forInit/forUpdate 中合法，行为符合 spec |
 | Error.code 访问器冲突 | 8.14 | 否 | throw 语句相关，8.8 不涉及 |
 | null case 类型收窄与直接 new | 8.13 | 否 | switch 语句相关，8.8 不涉及 |
@@ -110,7 +110,7 @@ let after: int = loopIdx   // 编译错误：loopIdx 不在作用域内
 | for 循环设计 | 标准 C 风格三部分循环，行为可预测 |
 | 逗号运算符 | 限定于 forInit/forUpdate，与 Java 对齐 |
 | 循环作用域 | 与 Java 完全一致 |
-| STM-I1 / STM-I2 波及 | 否（8.8 不受已有设计问题影响） |
+| STMT-I1 / STMT-I2 波及 | 否（8.8 不受已有设计问题影响） |
 
 ---
 
@@ -118,8 +118,8 @@ let after: int = loopIdx   // 编译错误：loopIdx 不在作用域内
 
 | 严重性 | 总数 | 来源章节 |
 |-------|------|---------|
-| HIGH | 1 | 8.3: STM-I1（Block 内 type declaration spec/impl 不一致） |
-| MEDIUM | 1 | 8.6: STM-I2（Label 未使用 spec 要求报错但编译器未强制） |
+| HIGH | 1 | 8.3: STMT-I1（Block 内 type declaration spec/impl 不一致） |
+| MEDIUM | 1 | 8.6: STMT-I2（Label 未使用 spec 要求报错但编译器未强制） |
 | LOW | 0 | - |
 | 设计观察 | 2 | 8.8: A（逗号运算符限定）、B（循环作用域一致性） |
 

@@ -95,7 +95,7 @@
 - const 对象字面量类型（当前仅覆盖数组，未覆盖 object/record 类型）
 - annotationUsage 修饰符 + let/const 组合声明
 - 箭头函数体内 let/const 与外层遮蔽
-- let 无初始化器后首次赋值（运行时行为验证）
+- let 无初始化器后第一次赋值（运行时行为验证）
 - const 声明的引用类型内部可变性（如 const arr: int[] = [1,2,3]; arr[0] = 99 是否允许）
 
 ## 五、文件命名规范

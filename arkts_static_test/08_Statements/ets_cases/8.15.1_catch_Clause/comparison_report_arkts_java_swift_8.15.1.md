@@ -351,7 +351,7 @@ func testCatchWrongType() {
 
 3. **与 Swift 的 catch 设计最为相近**：两者都将错误类型约束为 Error，但 Swift 提供了更丰富的模式匹配语法（`catch let err as SpecificType`），在保持简洁的同时提供了更好的编译期类型安全性。
 
-4. **Java 受检异常是独特负担**：ArkTS 和 Swift 都没有受检异常，重新抛出错误不需要在函数签名中声明。Java 的受检异常虽然提供了更强的编译期保证，但增加了代码负担，被许多现代语言（包括 Kotlin、C#）所放弃。
+4. **Java 受检异常是独特负担**：ArkTS 和 Swift 都没有受检异常，重新抛出错误不需要在函数签名中声明。Java 的受检异常虽然提供了更强的编译期保证，但增加了代码负担，被许多现代语言所放弃。
 
 ### ArkTS 设计建议
 
