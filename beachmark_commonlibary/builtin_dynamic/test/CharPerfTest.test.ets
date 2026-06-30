@@ -23,7 +23,7 @@ import {
   afterAll,
   expect
 } from "@ohos/hypium";
-import systemDateTime from '@ohos.systemDateTime';
+import { systemDateTime } from '@kit.BasicServicesKit';
 import performance from './Performance.util';
 
 declare class ArkTools {

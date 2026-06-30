@@ -13,6 +13,38 @@
  * limitations under the License.
  */
 
+import {
+  describe,
+  it,
+  TestType,
+  Size,
+  Level,
+  beforeAll,
+  afterAll,
+  beforeEach,
+  afterEach,
+  expect
+} from "@ohos/hypium";
+import performance from './Performance.util';
+import { systemDateTime } from '@kit.BasicServicesKit';
+
+declare class ArkTools {
+  static forceFullGC(): void;
+}
+
+export default function ArrayBufferPerfTest(): void {
+  describe('ArrayBufferPerfTest', () => {
+
+    const BASE_COUNT = 1000;
+
+    beforeEach(() => {
+      ArkTools.forceFullGC();
+    })
+
+    afterAll(() => {
+      performance.save('apiPerformance.txt');
+    })
+
 it('PerformanceTest_ArrayBuffer_toString_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let buf: collections.ArrayBuffer = new collections.ArrayBuffer(1024);

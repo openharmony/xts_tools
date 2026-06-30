@@ -67,7 +67,7 @@ import FinalizationRegistryPerfTest from "./FinalizationRegistryPerfTest.test.et
 import FunctionPerfTest from "./FunctionPerfTest.test.ets"
 import FunctionsPerfTest from "./FunctionsPerfTest.test.ets"
 import GlobalPerfTest from "./GlobalPerfTest.test.ets"
-import HashMapPerf from "./HashMapPerf.test.ets"
+import HashMapPerfTest from "./HashMapPerfTest.test.ets"
 import IntPerfTest from "./IntPerfTest.test.ets"
 import InteropTransferHelperPerfTest from "./InteropTransferHelperPerfTest.test.ets"
 import IntlPerfTest from "./IntlPerfTest.test.ets"
@@ -216,7 +216,7 @@ export default function testsuite(): void {
   FunctionPerfTest();
   FunctionsPerfTest();
   GlobalPerfTest();
-  HashMapPerf();
+  HashMapPerfTest();
   IntPerfTest();
   InteropTransferHelperPerfTest();
   IntlPerfTest();
