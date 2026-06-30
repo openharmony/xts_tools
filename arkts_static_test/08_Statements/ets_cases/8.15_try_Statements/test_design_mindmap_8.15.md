@@ -112,44 +112,44 @@
 
 ## 6. 文件命名规范 (File Naming Convention)
 
-- **前缀**: `STM_08_15_`
+- **前缀**: `STMT_08_15_`
 - **编号**: 三位数字 (001, 002, ...)
 - **后缀**: `PASS` / `FAIL` / `RUNTIME`
 - **描述**: 简短英文描述 (snake_case)
-- **格式**: `STM_08_15_{NNN}_{PASS|FAIL|RUNTIME}_{description}.ets`
+- **格式**: `STMT_08_15_{NNN}_{PASS|FAIL|RUNTIME}_{description}.ets`
 
 ## 7. 文件清单 (File Inventory)
 
 ### compile-pass
 | 文件名 | 编号 | 说明 |
 |--------|------|------|
-| `STM_08_15_001_PASS_try_catch.ets` | 001 | try-catch 基本结构 |
-| `STM_08_15_002_PASS_try_finally.ets` | 002 | try-finally 基本结构 |
-| `STM_08_15_003_PASS_try_catch_finally.ets` | 003 | try-catch-finally 完整结构 |
-| `STM_08_15_004_PASS_try_nested.ets` | 004 | 嵌套 try 语句 |
-| `STM_08_15_005_PASS_try_catch_return.ets` | 005 | try-catch 中包含 return |
-| `STM_08_15_006_PASS_try_in_if_statement.ets` | 006 | try 语句在 if 体内组合 |
-| `STM_08_15_017_PASS_try_finally_only.ets` | 017 | 仅含 finally (无 catch) |
+| `STMT_08_15_001_PASS_try_catch.ets` | 001 | try-catch 基本结构 |
+| `STMT_08_15_002_PASS_try_finally.ets` | 002 | try-finally 基本结构 |
+| `STMT_08_15_003_PASS_try_catch_finally.ets` | 003 | try-catch-finally 完整结构 |
+| `STMT_08_15_004_PASS_try_nested.ets` | 004 | 嵌套 try 语句 |
+| `STMT_08_15_005_PASS_try_catch_return.ets` | 005 | try-catch 中包含 return |
+| `STMT_08_15_006_PASS_try_in_if_statement.ets` | 006 | try 语句在 if 体内组合 |
+| `STMT_08_15_017_PASS_try_finally_only.ets` | 017 | 仅含 finally (无 catch) |
 
 ### compile-fail
 | 文件名 | 编号 | 说明 |
 |--------|------|------|
-| `STM_08_15_006_FAIL_try_no_catch_no_finally.ets` | 006 | try 无 catch 且无 finally |
-| `STM_08_15_007_FAIL_try_catch_local_class.ets` | 007 | try 块内定义局部类 |
-| `STM_08_15_008_FAIL_try_finally_local_type_alias.ets` | 008 | finally 块内定义局部类型别名 |
-| `STM_08_15_009_FAIL_try_catch_nested_function.ets` | 009 | catch 块内定义嵌套函数 |
-| `STM_08_15_010_FAIL_catch_variable_out_of_scope.ets` | 010 | catch 变量在块外部不可访问 |
-| `STM_08_15_018_FAIL_catch_identifier_outside_block.ets` | 018 | catch 标识符在块外部赋值/使用 |
+| `STMT_08_15_006_FAIL_try_no_catch_no_finally.ets` | 006 | try 无 catch 且无 finally |
+| `STMT_08_15_007_FAIL_try_catch_local_class.ets` | 007 | try 块内定义局部类 |
+| `STMT_08_15_008_FAIL_try_finally_local_type_alias.ets` | 008 | finally 块内定义局部类型别名 |
+| `STMT_08_15_009_FAIL_try_catch_nested_function.ets` | 009 | catch 块内定义嵌套函数 |
+| `STMT_08_15_010_FAIL_catch_variable_out_of_scope.ets` | 010 | catch 变量在块外部不可访问 |
+| `STMT_08_15_018_FAIL_catch_identifier_outside_block.ets` | 018 | catch 标识符在块外部赋值/使用 |
 
 ### runtime
 | 文件名 | 编号 | 说明 |
 |--------|------|------|
-| `STM_08_15_010_RUNTIME_try_catch_no_error.ets` | 010 | try-catch 不抛异常 catch 不执行 |
-| `STM_08_15_011_RUNTIME_try_catch_error.ets` | 011 | try-catch 抛异常 catch 捕获 |
-| `STM_08_15_012_RUNTIME_try_finally_always.ets` | 012 | finally 始终执行 |
-| `STM_08_15_013_RUNTIME_try_finally_error_propagation.ets` | 013 | try-finally 错误向上传播 |
-| `STM_08_15_014_RUNTIME_try_finally_normal.ets` | 014 | try-finally 正常完成 finally 执行 |
-| `STM_08_15_015_RUNTIME_try_catch_only_sequential.ets` | 015 | 连续多个 try-catch(无 finally) |
-| `STM_08_15_016_RUNTIME_try_catch_finally_error.ets` | 016 | try-catch-finally 抛错完整执行 |
-| `STM_08_15_019_RUNTIME_try_normal_completion_after.ets` | 019 | try-catch-finally 正常完成后继续 |
-| `STM_08_15_020_RUNTIME_try_nested_inner_catch.ets` | 020 | 嵌套 try 内层 catch 阻止外层 catch |
+| `STMT_08_15_010_RUNTIME_try_catch_no_error.ets` | 010 | try-catch 不抛异常 catch 不执行 |
+| `STMT_08_15_011_RUNTIME_try_catch_error.ets` | 011 | try-catch 抛异常 catch 捕获 |
+| `STMT_08_15_012_RUNTIME_try_finally_always.ets` | 012 | finally 始终执行 |
+| `STMT_08_15_013_RUNTIME_try_finally_error_propagation.ets` | 013 | try-finally 错误向上传播 |
+| `STMT_08_15_014_RUNTIME_try_finally_normal.ets` | 014 | try-finally 正常完成 finally 执行 |
+| `STMT_08_15_015_RUNTIME_try_catch_only_sequential.ets` | 015 | 连续多个 try-catch(无 finally) |
+| `STMT_08_15_016_RUNTIME_try_catch_finally_error.ets` | 016 | try-catch-finally 抛错完整执行 |
+| `STMT_08_15_019_RUNTIME_try_normal_completion_after.ets` | 019 | try-catch-finally 正常完成后继续 |
+| `STMT_08_15_020_RUNTIME_try_nested_inner_catch.ets` | 020 | 嵌套 try 内层 catch 阻止外层 catch |

@@ -124,7 +124,7 @@ ArkTS 要求 try 语句必须至少包含 catch 或 finally 子句（用例 005 
 | finally 异常覆盖规则 | finally 异常覆盖 try/catch 异常 | finally 异常覆盖 try/catch 异常 | defer 中抛错可能导致双重错误崩溃 |
 | 异常传播机制 | 隐式传播（无需签名） | 隐式传播（非受检）/ 显式（受检） | 显式传播（必须 throws 声明） |
 | try 最小结构 | 必须含 catch 或 finally | 必须含 catch 或 finally | do 块后可无 catch（需使用 try? 或 try!） |
-| 语义完整性（四规则覆盖） | 优秀（完全覆盖所有路径） | 优秀（完全覆盖所有路径） | 良好（do-catch + defer 架构不同但等价） |
+| 语义完整性（四规则覆盖） | 良好（完全覆盖所有路径） | 良好（完全覆盖所有路径） | 良好（do-catch + defer 架构不同但等价） |
 
 ### 6.2 核心结论
 

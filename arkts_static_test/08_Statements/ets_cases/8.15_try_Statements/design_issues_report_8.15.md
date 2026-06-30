@@ -37,28 +37,28 @@
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|----------|------|
-| STM_08_15_001 | 基本 try-catch 结构编译通过 | ✅ 通过 |
-| STM_08_15_002 | 基本 try-finally 结构编译通过 | ✅ 通过 |
-| STM_08_15_003 | 完整 try-catch-finally 结构编译通过 | ✅ 通过 |
-| STM_08_15_004 | 嵌套 try 语句结构编译通过 | ✅ 通过 |
-| STM_08_15_005 | try-catch 中包含 return 语句编译通过 | ✅ 通过 |
-| STM_08_15_006_PASS | try 语句在 if 语句体内组合使用 | ✅ 通过 |
-| STM_08_15_017 | 仅含 finally（无 catch）的 try 编译通过 | ✅ 通过 |
-| STM_08_15_006_FAIL | try 缺少 catch 和 finally 子句 → 编译错误 | ✅ 通过 |
-| STM_08_15_007 | try 块内定义局部类 → 编译错误 | ✅ 通过 |
-| STM_08_15_008 | finally 块内定义局部类型别名 → 编译错误 | ✅ 通过 |
-| STM_08_15_009 | catch 块内定义嵌套函数 → 编译错误 | ✅ 通过 |
-| STM_08_15_010_FAIL | catch(e) 中 e 在 catch 块外部不可访问 | ✅ 通过 |
-| STM_08_15_018 | catch(e) 标识符在 catch 块外部赋值/使用 → 编译错误 | ✅ 通过 |
-| STM_08_15_010_RUNTIME | try 无异常时 catch 不执行 | ✅ 通过 |
-| STM_08_15_011_RUNTIME | try 抛异常时 catch 捕获并处理 | ✅ 通过 |
-| STM_08_15_012_RUNTIME | finally 始终执行（无论是否抛异常） | ✅ 通过 |
-| STM_08_15_013_RUNTIME | try-finally 中错误传播（finally 先执行） | ✅ 通过 |
-| STM_08_15_014_RUNTIME | try-finally 正常完成时 finally 执行 | ✅ 通过 |
-| STM_08_15_015_RUNTIME | 连续多个 try-catch（无 finally）行为 | ✅ 通过 |
-| STM_08_15_016_RUNTIME | try-catch-finally 抛错时三块均执行 | ✅ 通过 |
-| STM_08_15_019_RUNTIME | try-catch-finally 正常完成后后续代码执行 | ✅ 通过 |
-| STM_08_15_020_RUNTIME | 嵌套 try 内层 catch 捕获后外层不执行 | ✅ 通过 |
+| STMT_08_15_001 | 基本 try-catch 结构编译通过 | ✅ 通过 |
+| STMT_08_15_002 | 基本 try-finally 结构编译通过 | ✅ 通过 |
+| STMT_08_15_003 | 完整 try-catch-finally 结构编译通过 | ✅ 通过 |
+| STMT_08_15_004 | 嵌套 try 语句结构编译通过 | ✅ 通过 |
+| STMT_08_15_005 | try-catch 中包含 return 语句编译通过 | ✅ 通过 |
+| STMT_08_15_006_PASS | try 语句在 if 语句体内组合使用 | ✅ 通过 |
+| STMT_08_15_017 | 仅含 finally（无 catch）的 try 编译通过 | ✅ 通过 |
+| STMT_08_15_006_FAIL | try 缺少 catch 和 finally 子句 → 编译错误 | ✅ 通过 |
+| STMT_08_15_007 | try 块内定义局部类 → 编译错误 | ✅ 通过 |
+| STMT_08_15_008 | finally 块内定义局部类型别名 → 编译错误 | ✅ 通过 |
+| STMT_08_15_009 | catch 块内定义嵌套函数 → 编译错误 | ✅ 通过 |
+| STMT_08_15_010_FAIL | catch(e) 中 e 在 catch 块外部不可访问 | ✅ 通过 |
+| STMT_08_15_018 | catch(e) 标识符在 catch 块外部赋值/使用 → 编译错误 | ✅ 通过 |
+| STMT_08_15_010_RUNTIME | try 无异常时 catch 不执行 | ✅ 通过 |
+| STMT_08_15_011_RUNTIME | try 抛异常时 catch 捕获并处理 | ✅ 通过 |
+| STMT_08_15_012_RUNTIME | finally 始终执行（无论是否抛异常） | ✅ 通过 |
+| STMT_08_15_013_RUNTIME | try-finally 中错误传播（finally 先执行） | ✅ 通过 |
+| STMT_08_15_014_RUNTIME | try-finally 正常完成时 finally 执行 | ✅ 通过 |
+| STMT_08_15_015_RUNTIME | 连续多个 try-catch（无 finally）行为 | ✅ 通过 |
+| STMT_08_15_016_RUNTIME | try-catch-finally 抛错时三块均执行 | ✅ 通过 |
+| STMT_08_15_019_RUNTIME | try-catch-finally 正常完成后后续代码执行 | ✅ 通过 |
+| STMT_08_15_020_RUNTIME | 嵌套 try 内层 catch 捕获后外层不执行 | ✅ 通过 |
 
 ### 一致性评估检查点
 

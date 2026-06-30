@@ -87,34 +87,34 @@
 - 多层嵌套 try 语句的异常传播
 
 ## 5. 文件命名规范 (File Naming Convention)
-- 前缀: STM_08_15_3_
+- 前缀: STMT_08_15_3_
 - 编号: 三位数字 (001 ~ 015)
 - 后缀: PASS / FAIL / RUNTIME
 - 描述: 简短英文描述
-- 格式: STM_08_15_3_XXX_{PASS|FAIL|RUNTIME}_description.ets
+- 格式: STMT_08_15_3_XXX_{PASS|FAIL|RUNTIME}_description.ets
 
 ## 6. 文件清单 (File Inventory)
 
 ### 6.1 compile-pass (4 files)
-- STM_08_15_3_001_PASS_try_block_normal_completion.ets
-- STM_08_15_3_002_PASS_try_catch_error_handled.ets
-- STM_08_15_3_003_PASS_error_propagated_no_catch.ets
-- STM_08_15_3_004_PASS_finally_abrupt_completion.ets
+- STMT_08_15_3_001_PASS_try_block_normal_completion.ets
+- STMT_08_15_3_002_PASS_try_catch_error_handled.ets
+- STMT_08_15_3_003_PASS_error_propagated_no_catch.ets
+- STMT_08_15_3_004_PASS_finally_abrupt_completion.ets
 
 ### 6.2 compile-fail (3 files)
-- STM_08_15_3_005_FAIL_try_no_catch_no_finally.ets
-- STM_08_15_3_006_FAIL_try_catch_local_class.ets
-- STM_08_15_3_007_FAIL_try_finally_nested_function.ets
+- STMT_08_15_3_005_FAIL_try_no_catch_no_finally.ets
+- STMT_08_15_3_006_FAIL_try_catch_local_class.ets
+- STMT_08_15_3_007_FAIL_try_finally_nested_function.ets
 
 ### 6.3 runtime (8 files)
-- STM_08_15_3_008_RUNTIME_try_normal_completion.ets
-- STM_08_15_3_009_RUNTIME_try_catch_normal_completion.ets
-- STM_08_15_3_010_RUNTIME_error_propagated_and_finally_abrupt.ets
-- STM_08_15_3_011_RUNTIME_error_propagation_two_levels_no_catch.ets
-- STM_08_15_3_012_RUNTIME_error_propagation_three_levels_no_catch.ets
-- STM_08_15_3_013_RUNTIME_finally_abrupt_overrides_catch_normal_v2.ets
-- STM_08_15_3_014_RUNTIME_catch_body_abrupt_completion.ets
-- STM_08_15_3_015_RUNTIME_try_normal_finally_abrupt.ets
+- STMT_08_15_3_008_RUNTIME_try_normal_completion.ets
+- STMT_08_15_3_009_RUNTIME_try_catch_normal_completion.ets
+- STMT_08_15_3_010_RUNTIME_error_propagated_and_finally_abrupt.ets
+- STMT_08_15_3_011_RUNTIME_error_propagation_two_levels_no_catch.ets
+- STMT_08_15_3_012_RUNTIME_error_propagation_three_levels_no_catch.ets
+- STMT_08_15_3_013_RUNTIME_finally_abrupt_overrides_catch_normal_v2.ets
+- STMT_08_15_3_014_RUNTIME_catch_body_abrupt_completion.ets
+- STMT_08_15_3_015_RUNTIME_try_normal_finally_abrupt.ets
 
 ## 7. 覆盖矩阵 (Coverage Matrix)
 

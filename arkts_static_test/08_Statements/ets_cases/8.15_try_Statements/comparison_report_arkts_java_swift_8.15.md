@@ -59,7 +59,7 @@
 
 ### 用例 ① 基本 try-catch（无错误执行）
 
-**ArkTS** (STM_08_15_010):
+**ArkTS** (STMT_08_15_010):
 ```typescript
 function main(): void {
     let result: int = 0;
@@ -110,7 +110,7 @@ func main() {
 
 ### 用例 ② 基本 try-catch（抛出错误）
 
-**ArkTS** (STM_08_15_011):
+**ArkTS** (STMT_08_15_011):
 ```typescript
 function main(): void {
     let result: int = 0;
@@ -167,7 +167,7 @@ func main() {
 
 ### 用例 ③ try-finally（执行保证）
 
-**ArkTS** (STM_08_15_012):
+**ArkTS** (STMT_08_15_012):
 ```typescript
 function main(): void {
     let finallyExecuted: int = 0;
@@ -250,7 +250,7 @@ func main() {
 
 ### 用例 ④ 嵌套 try 语句
 
-**ArkTS** (STM_08_15_004):
+**ArkTS** (STMT_08_15_004):
 ```typescript
 function testNestedTry(): void {
     let result: int = 0;
@@ -317,7 +317,7 @@ func testNestedDo() {
 
 ### 用例 ⑤ try 内部 return 与 finally 的交互
 
-**ArkTS** (STM_08_15_005):
+**ArkTS** (STMT_08_15_005):
 ```typescript
 function testTryCatchReturn(): int {
     let x: int = 0;
@@ -373,7 +373,7 @@ func testTryCatchReturn() -> Int {
 
 ### 用例 ⑥ 编译时错误 — 仅有 try 而无 catch 或 finally
 
-**ArkTS** (STM_08_15_006):
+**ArkTS** (STMT_08_15_006):
 ```typescript
 // Compile-time error: try must have at least catch or finally
 function test(): void {
