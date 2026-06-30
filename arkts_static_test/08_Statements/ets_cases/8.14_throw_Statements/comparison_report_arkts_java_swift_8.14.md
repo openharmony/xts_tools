@@ -58,7 +58,7 @@ ArkTS §8.14 定义了 **throw 语句** 的语法和语义：
 
 ## 四、用例 1:1 对照
 
-### 用例 ①：直接抛出 Error 实例（STM_08_14_001）
+### 用例 ①：直接抛出 Error 实例（STMT_08_14_001）
 
 **ArkTS（编译通过）：**
 ```typescript
@@ -87,7 +87,7 @@ func testThrowNewError() throws {
 
 ---
 
-### 用例 ②：抛出非 Error 类型被禁止（STM_08_14_005 _FAIL_throw_string）
+### 用例 ②：抛出非 Error 类型被禁止（STMT_08_14_005 _FAIL_throw_string）
 
 **ArkTS（编译失败）：**
 ```typescript
@@ -114,7 +114,7 @@ func testThrowString() throws {
 
 ---
 
-### 用例 ③：抛出 null / undefined（STM_08_14_006 / 007）
+### 用例 ③：抛出 null / undefined（STMT_08_14_006 / 007）
 
 **ArkTS（编译失败）：**
 ```typescript
@@ -146,7 +146,7 @@ func testThrowNil() throws {
 
 ---
 
-### 用例 ④：try-catch 捕获 throw（STM_08_14_008 _RUNTIME_throw_caught）
+### 用例 ④：try-catch 捕获 throw（STMT_08_14_008 _RUNTIME_throw_caught）
 
 **ArkTS（运行时）：**
 ```typescript
@@ -193,7 +193,7 @@ func main() throws {
 
 ---
 
-### 用例 ⑤：catch 块中 rethrow（STM_08_14_009 _RUNTIME_throw_rethrow）
+### 用例 ⑤：catch 块中 rethrow（STMT_08_14_009 _RUNTIME_throw_rethrow）
 
 **ArkTS（运行时）：**
 ```typescript
@@ -256,9 +256,9 @@ func main() throws {
 
 | 维度 | ArkTS | Java | Swift |
 |------|-------|------|-------|
-| 类型安全（编译期 null 拦截） | 优秀 | 一般（null 运行时抛） | 优秀 |
+| 类型安全（编译期 null 拦截） | 良好 | 一般（null 运行时抛） | 良好 |
 | throw 类型灵活性 | 中等（仅 Error 子类） | 高（整个 Throwable 层次） | 高（Any Error 协议类型） |
-| catch 语法简洁性 | 优秀（无需显式类型） | 中等（需声明异常类型） | 良好（需模式匹配） |
+| catch 语法简洁性 | 良好（无需显式类型） | 中等（需声明异常类型） | 良好（需模式匹配） |
 | 受检异常机制 | 无 | 有（throws 声明） | 有（throws 标记） |
 | 运行时异常传播 | ✅ 与 Java 一致 | ✅ 与 ArkTS 一致 | ✅ 与 ArkTS 一致 |
 

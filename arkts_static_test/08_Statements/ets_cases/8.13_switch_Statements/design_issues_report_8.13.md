@@ -39,7 +39,7 @@
 | **Swift (5.x)** | 仅含 `default:` 的 switch 合法且执行其代码体 |
 | **ArkTS** | 已知运行时缺陷：仅含 default 的 switch 块不执行 default 语句 |
 
-**评价/建议：** 这是一个严重缺陷（直接违反规范语义），应在 ArkTS 运行时中修复。仅含 default 的 switch 中的 default 子句必须执行其语句。应添加对应的测试用例（如 `STM_08_13_022_RUNTIME_default_only_switch`），并在运行时修复后进行验证。
+**评价/建议：** 这是一个严重缺陷（直接违反规范语义），应在 ArkTS 运行时中修复。仅含 default 的 switch 中的 default 子句必须执行其语句。应添加对应的测试用例（如 `STMT_08_13_022_RUNTIME_default_only_switch`），并在运行时修复后进行验证。
 
 ---
 
@@ -64,10 +64,10 @@
 
 ### 差异点 3：char 与 int 在 switch 中可比较——spec/impl 矛盾
 
-**用例：** STM_08_13_019_PASS_char_case_on_int_switch（实测 compile-pass）
+**用例：** STMT_08_13_019_PASS_char_case_on_int_switch（实测 compile-pass）
 **类别：** A 类（spec 描述与实现行为矛盾）
 
-**实际行为/预期行为：** 测试用例 STM_08_13_019 在 int 类型 switch 表达式中使用 char 字面量 case 标签 `case c'a':`，实测结果为 **compile-pass**（编译通过）。然而，该用例的 `@design` 注释明确写道"规范要求 case 表达式类型必须可赋值给 switch 表达式类型，char 不能赋值给 int 故编译报错"，且 `@note` 注明"ArkTS char 不允许隐式 widening 到 int"。该用例的 `@id` 字段甚至标记为 `_FAIL_`（暗示预期编译失败），但 `@expect` 字段设为 `compile-pass` —— 该用例自身存在内部矛盾。
+**实际行为/预期行为：** 测试用例 STMT_08_13_019 在 int 类型 switch 表达式中使用 char 字面量 case 标签 `case c'a':`，实测结果为 **compile-pass**（编译通过）。然而，该用例的 `@design` 注释明确写道"规范要求 case 表达式类型必须可赋值给 switch 表达式类型，char 不能赋值给 int 故编译报错"，且 `@note` 注明"ArkTS char 不允许隐式 widening 到 int"。该用例的 `@id` 字段甚至标记为 `_FAIL_`（暗示预期编译失败），但 `@expect` 字段设为 `compile-pass` —— 该用例自身存在内部矛盾。
 
 这暴露了一个规范与实现的根本冲突：
 
@@ -90,7 +90,7 @@
 2. **实现有 bug**：如果规范是正确的（char 不应赋值给 int），则编译器错误地接受了 char case
 
 **建议方案：**
-- 若设计意图是允许（对标 Java）：更新规范 §8.13，明确 char 可赋值给 int/byte/short，并修正 STM_08_13_019 的 @id（去掉 _FAIL_）和 @design 注释
+- 若设计意图是允许（对标 Java）：更新规范 §8.13，明确 char 可赋值给 int/byte/short，并修正 STMT_08_13_019 的 @id（去掉 _FAIL_）和 @design 注释
 - 若设计意图是禁止（保持严格）：修复编译器以拒绝 char case 在 int switch 上，并将该用例移至 compile-fail
 - 无论哪种选择，都必须解决该用例内部的 @id/@expect/@design 三方矛盾
 
@@ -98,7 +98,7 @@
 
 ### 差异点 4：null case 类型窄化与直接 new——编译器静态窄化导致 case null 不可达
 
-**用例：** STM_08_13_012_RUNTIME_null_case_matching, STM_08_13_016_RUNTIME_object_instance_switch（均通过辅助函数规避）
+**用例：** STMT_08_13_012_RUNTIME_null_case_matching, STMT_08_13_016_RUNTIME_object_instance_switch（均通过辅助函数规避）
 **类别：** D 类（spec 未明确 + 行为有工程实践影响）
 
 **实际行为/预期行为：** 当 switch 表达式为 `T | null` union 类型时，若直接使用 `new T()` 初始化该变量，ArkTS 编译器会进行**静态类型窄化**（static type narrowing）——编译器通过值流分析推断 `new T()` 的结果绝不可能是 null，从而将变量的实际类型从 `T | null` 窄化为 `T`。结果：`case null:` 分支在编译期被识别为不可达代码。
@@ -151,10 +151,10 @@ switch (a) {
 
 ### 差异点 5：不要求穷尽性（与 Swift 不同）⭐ LOW
 
-**用例：** 所有 compile-pass 用例（尤其是 STM_08_13_018_PASS_boolean_switch_extended —— 仅含 `case true` 无 `case false`）
+**用例：** 所有 compile-pass 用例（尤其是 STMT_08_13_018_PASS_boolean_switch_extended —— 仅含 `case true` 无 `case false`）
 **类别：** 设计观察（Design Observation），非缺陷
 
-**实际行为/预期行为：** ArkTS 不要求 switch 语句穷尽（即覆盖 switch 表达式的所有可能值）。若无 case 匹配且无 default 子句，执行静默地无操作穿透（no-op fall-through）。这与 Java 的传统 switch 语义一致，但与 Swift 显著不同。测试用例 STM_08_13_018 验证了仅含 `case true` 的 boolean switch 合法编译通过——`false` 值在运行时走 default 或无操作。
+**实际行为/预期行为：** ArkTS 不要求 switch 语句穷尽（即覆盖 switch 表达式的所有可能值）。若无 case 匹配且无 default 子句，执行静默地无操作穿透（no-op fall-through）。这与 Java 的传统 switch 语义一致，但与 Swift 显著不同。测试用例 STMT_08_13_018 验证了仅含 `case true` 的 boolean switch 合法编译通过——`false` 值在运行时走 default 或无操作。
 
 **对比：**
 
@@ -170,7 +170,7 @@ switch (a) {
 
 ### 差异点 6：显式允许重复 case 标签
 
-**用例：** STM_08_13_006_PASS_identical_case_values, STM_08_13_013_RUNTIME_identical_case_values
+**用例：** STMT_08_13_006_PASS_identical_case_values, STMT_08_13_013_RUNTIME_identical_case_values
 **类别：** 设计观察（Design Observation），非缺陷
 
 **实际行为/预期行为：** ArkTS 规范明确指出允许重复的 case 标签：`case null:` / `case null: // 可以有多个具有相同表达式的 case 子句`。实测用例 006（compile-pass）和 013（runtime）验证了此行为：多个相同值的 case 子句可合法出现，首个匹配的 case 执行后即跳出（若含 break），后续重复 case 永远不可达。
@@ -189,7 +189,7 @@ switch (a) {
 
 ### 差异点 7：默认穿透（fall-through）语义，无 `fallthrough` 关键字
 
-**用例：** STM_08_13_002_PASS_fall_through, STM_08_13_010_RUNTIME_fall_through_and_default, STM_08_13_014_RUNTIME_fall_through_deep
+**用例：** STMT_08_13_002_PASS_fall_through, STMT_08_13_010_RUNTIME_fall_through_and_default, STMT_08_13_014_RUNTIME_fall_through_deep
 **类别：** 设计观察（Design Observation），非缺陷
 
 **实际行为/预期行为：** ArkTS 采用 Java 的传统穿透语义：若 case 子句不以 `break` 结束，执行将穿透至下一个 case 子句。实测用例 002（compile-pass）、010（runtime 基本穿透）和 014（runtime 深层穿透——连续 3 个 case 无 break、穿透到 default、中间匹配穿透）完整验证了此行为。
@@ -214,41 +214,41 @@ switch (a) {
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|---------|------|
-| STM_08_13_001 | int 类型 switch 表达式，case 匹配与 break 终止，含 default 子句 | ✅ |
-| STM_08_13_002 | case 穿透（fall-through）：case 1 无 break 时流至 case 2 | ✅ |
-| STM_08_13_003 | string 类型 switch 表达式，含字符串字面量 case 标签 | ✅ |
-| STM_08_13_004 | boolean 类型 switch 表达式，含 true/false case 标签 | ✅ |
-| STM_08_13_005 | 带标签的 switch，`break outer` 将控制权转移出嵌套 switch | ✅ |
-| STM_08_13_006 | 重复 case 值——规范允许相同 case 表达式多次出现 | ✅ |
-| STM_08_13_007 | class\|null union 类型 switch 表达式通过辅助函数，case null 匹配 | ✅ |
-| STM_08_13_008 | 带标签的 break 跳出外层循环（for/while），switch 内嵌于循环 | ✅ |
-| STM_08_13_017 | char 类型 switch 表达式，case 使用 char 字面量（c'a', c'b', c'\n'） | ✅ |
-| STM_08_13_018 | boolean switch 扩展：仅含 true 分支（非全覆盖）、true->false 穿透 | ✅ |
-| STM_08_13_019 | int switch 表达式中使用 char 字面量 case（**spec/impl 矛盾，见问题 3**） | ⚠️ |
+| STMT_08_13_001 | int 类型 switch 表达式，case 匹配与 break 终止，含 default 子句 | ✅ |
+| STMT_08_13_002 | case 穿透（fall-through）：case 1 无 break 时流至 case 2 | ✅ |
+| STMT_08_13_003 | string 类型 switch 表达式，含字符串字面量 case 标签 | ✅ |
+| STMT_08_13_004 | boolean 类型 switch 表达式，含 true/false case 标签 | ✅ |
+| STMT_08_13_005 | 带标签的 switch，`break outer` 将控制权转移出嵌套 switch | ✅ |
+| STMT_08_13_006 | 重复 case 值——规范允许相同 case 表达式多次出现 | ✅ |
+| STMT_08_13_007 | class\|null union 类型 switch 表达式通过辅助函数，case null 匹配 | ✅ |
+| STMT_08_13_008 | 带标签的 break 跳出外层循环（for/while），switch 内嵌于循环 | ✅ |
+| STMT_08_13_017 | char 类型 switch 表达式，case 使用 char 字面量（c'a', c'b', c'\n'） | ✅ |
+| STMT_08_13_018 | boolean switch 扩展：仅含 true 分支（非全覆盖）、true->false 穿透 | ✅ |
+| STMT_08_13_019 | int switch 表达式中使用 char 字面量 case（**spec/impl 矛盾，见问题 3**） | ⚠️ |
 
 ### compile-fail（4/4 通过）
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|---------|------|
-| STM_08_13_006_FAIL | string case 表达式用于 int switch 表达式——类型不匹配 | ✅ |
-| STM_08_13_007_FAIL | int case 表达式用于 string switch 表达式——类型不匹配 | ✅ |
-| STM_08_13_008_FAIL | boolean case 用于 number switch 表达式——类型不匹配 | ✅ |
-| STM_08_13_009_FAIL | 重复 default 子句——语法错误 ESY0171 Multiple default clauses | ✅ |
+| STMT_08_13_006_FAIL | string case 表达式用于 int switch 表达式——类型不匹配 | ✅ |
+| STMT_08_13_007_FAIL | int case 表达式用于 string switch 表达式——类型不匹配 | ✅ |
+| STMT_08_13_008_FAIL | boolean case 用于 number switch 表达式——类型不匹配 | ✅ |
+| STMT_08_13_009_FAIL | 重复 default 子句——语法错误 ESY0171 Multiple default clauses | ✅ |
 
 ### runtime（10/10 通过 —— ark VM 真实执行 + assert）
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|---------|------|
-| STM_08_13_009 | 基本 int switch：case 2 正确匹配、case 99 无匹配走 default | ✅ |
-| STM_08_13_010 | fall-through 与 default：匹配穿透、无匹配 default 执行、匹配跳过 default | ✅ |
-| STM_08_13_011 | 带标签 break 跳出嵌套 switch：break outer vs 普通 break 对比 | ✅ |
-| STM_08_13_012 | null case 匹配：null 匹配 case null、实例匹配 default（辅助函数规避窄化） | ✅ |
-| STM_08_13_013 | 相同 case 值运行时匹配：首个匹配即执行、非重复正常、null 重复 case | ✅ |
-| STM_08_13_014 | 深层 fall-through：连续 3 case 无 break、穿透入 default、无 default 穿透 | ✅ |
-| STM_08_13_015 | 带标签 break 跳出外层循环运行时：break outer for、break outer2 while | ✅ |
-| STM_08_13_016 | 对象实例 switch 运行时：null->case null、实例->default（辅助函数规避窄化） | ✅ |
-| STM_08_13_020 | string 类型 switch 运行时：精确匹配、无匹配 default、无匹配无 default、空字符串 | ✅ |
-| STM_08_13_021 | enum 类型 switch 运行时：成员匹配、default 兜底、enum fall-through、显式值 enum | ✅ |
+| STMT_08_13_009 | 基本 int switch：case 2 正确匹配、case 99 无匹配走 default | ✅ |
+| STMT_08_13_010 | fall-through 与 default：匹配穿透、无匹配 default 执行、匹配跳过 default | ✅ |
+| STMT_08_13_011 | 带标签 break 跳出嵌套 switch：break outer vs 普通 break 对比 | ✅ |
+| STMT_08_13_012 | null case 匹配：null 匹配 case null、实例匹配 default（辅助函数规避窄化） | ✅ |
+| STMT_08_13_013 | 相同 case 值运行时匹配：首个匹配即执行、非重复正常、null 重复 case | ✅ |
+| STMT_08_13_014 | 深层 fall-through：连续 3 case 无 break、穿透入 default、无 default 穿透 | ✅ |
+| STMT_08_13_015 | 带标签 break 跳出外层循环运行时：break outer for、break outer2 while | ✅ |
+| STMT_08_13_016 | 对象实例 switch 运行时：null->case null、实例->default（辅助函数规避窄化） | ✅ |
+| STMT_08_13_020 | string 类型 switch 运行时：精确匹配、无匹配 default、无匹配无 default、空字符串 | ✅ |
+| STMT_08_13_021 | enum 类型 switch 运行时：成员匹配、default 兜底、enum fall-through、显式值 enum | ✅ |
 
 ---
 
@@ -296,10 +296,10 @@ ArkTS 的 switch 语句在整体设计上与 **Java 传统 switch** 最为接近
 
 ### 短期（需立即修复）
 
-1. **修复仅含 default 的 switch 运行时缺陷**：当 switch 块仅包含 default 子句时，default 语句必须被执行。这是直接的规范违规，应作为最高优先级缺陷处理。补充测试用例 `STM_08_13_022_RUNTIME_default_only_switch`。
+1. **修复仅含 default 的 switch 运行时缺陷**：当 switch 块仅包含 default 子句时，default 语句必须被执行。这是直接的规范违规，应作为最高优先级缺陷处理。补充测试用例 `STMT_08_13_022_RUNTIME_default_only_switch`。
 
 2. **解决 char vs int switch 的 spec/impl 矛盾（问题 3）**：
-   - 若意图允许（对标 Java）：更新规范 §8.13 明确 char/int 赋值兼容性，修正 STM_08_13_019 的 @id/@design 自相矛盾
+   - 若意图允许（对标 Java）：更新规范 §8.13 明确 char/int 赋值兼容性，修正 STMT_08_13_019 的 @id/@design 自相矛盾
    - 若意图禁止：修复编译器拒绝 char case 在 int switch 上，将 019 移至 compile-fail
 
 3. **定义合法的 case 表达式（问题 2）**：明确规范中 case 标签可接受的表达式形式（建议采用 Java 风格的常量表达式规则），并将非字面量 case 表达式的断言错误改为规范的编译期错误诊断。

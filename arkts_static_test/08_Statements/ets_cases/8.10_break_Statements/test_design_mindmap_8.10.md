@@ -101,13 +101,13 @@
 （PASS/FAIL/RUNTIME 各自独立编号，存储在对应子目录 `compile-pass/`、`compile-fail/`、`runtime/` 中。）
 
 ## 六、文件命名规范
-- 模板: `STM_08_10_<NNN>_<TYPE>_<DESC>.ets`
+- 模板: `STMT_08_10_<NNN>_<TYPE>_<DESC>.ets`
 - TYPE 取值: `PASS`, `FAIL`, `RUNTIME`
 - NNN: 三位数字序号，每种类型内连续
 - 注释块格式:
   ```
   /**
-   * @id STM_08_10_NNN_TYPE_DESC
+   * @id STMT_08_10_NNN_TYPE_DESC
    * @expect compile-pass|compile-fail|runtime
    * @section 8.10
    * @design <中文描述>

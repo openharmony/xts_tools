@@ -18,17 +18,17 @@
 
 | 验证点 | 用例 ID | 状态 |
 |-------|---------|------|
-| void 函数中的无表达式 `return;`（含条件分支） | STM_08_12_001_PASS_return_in_void_function | ✅ |
-| void 函数中的 `return undefined;`（`undefined` 可赋值给 `void`） | STM_08_12_002_PASS_return_undefined_in_void_function | ✅ |
-| 返回 `string`/`int`/`boolean`/`number` 类型，使用类型匹配字面量 | STM_08_12_003_PASS_return_expression_matching_type | ✅ |
-| 构造函数中的无表达式 `return;`（规范明确允许） | STM_08_12_004_PASS_return_in_constructor | ✅ |
-| 条件分支 return 路径：if/else 各分支返回正确类型，`x < 0` 提前 return | STM_08_12_005_PASS_multiple_return_paths | ✅ |
-| 构造函数中的 `return undefined;` → 编译期错误（规范明确禁止） | STM_08_12_006_FAIL_return_undefined_in_constructor | ✅ |
-| 非 void 函数中无表达式 `return;` → 编译期错误 | STM_08_12_007_FAIL_return_without_expression_in_typed_function | ✅ |
-| string 表达式用于 int 返回类型 → 编译期错误（类型不可赋值） | STM_08_12_008_FAIL_return_type_not_assignable | ✅ |
-| 运行时验证 return 表达式值：`add(3,4)=7`，`getGreeting("World")="Hello, World"` | STM_08_12_009_RUNTIME_return_value | ✅ |
-| 运行时验证 return 提前退出控制流：return 前副作用可观测，return 后代码不执行 | STM_08_12_010_RUNTIME_return_early_control_flow | ✅ |
-| 运行时验证 `absValue` 三条件路径均正确（正数/负数/零） | STM_08_12_011_RUNTIME_conditional_multiple_returns | ✅ |
+| void 函数中的无表达式 `return;`（含条件分支） | STMT_08_12_001_PASS_return_in_void_function | ✅ |
+| void 函数中的 `return undefined;`（`undefined` 可赋值给 `void`） | STMT_08_12_002_PASS_return_undefined_in_void_function | ✅ |
+| 返回 `string`/`int`/`boolean`/`number` 类型，使用类型匹配字面量 | STMT_08_12_003_PASS_return_expression_matching_type | ✅ |
+| 构造函数中的无表达式 `return;`（规范明确允许） | STMT_08_12_004_PASS_return_in_constructor | ✅ |
+| 条件分支 return 路径：if/else 各分支返回正确类型，`x < 0` 提前 return | STMT_08_12_005_PASS_multiple_return_paths | ✅ |
+| 构造函数中的 `return undefined;` → 编译期错误（规范明确禁止） | STMT_08_12_006_FAIL_return_undefined_in_constructor | ✅ |
+| 非 void 函数中无表达式 `return;` → 编译期错误 | STMT_08_12_007_FAIL_return_without_expression_in_typed_function | ✅ |
+| string 表达式用于 int 返回类型 → 编译期错误（类型不可赋值） | STMT_08_12_008_FAIL_return_type_not_assignable | ✅ |
+| 运行时验证 return 表达式值：`add(3,4)=7`，`getGreeting("World")="Hello, World"` | STMT_08_12_009_RUNTIME_return_value | ✅ |
+| 运行时验证 return 提前退出控制流：return 前副作用可观测，return 后代码不执行 | STMT_08_12_010_RUNTIME_return_early_control_flow | ✅ |
+| 运行时验证 `absValue` 三条件路径均正确（正数/负数/零） | STMT_08_12_011_RUNTIME_conditional_multiple_returns | ✅ |
 
 ### 评估检查点
 

@@ -40,36 +40,36 @@
 
 | 编号 | @id | 描述 |
 |------|-----|------|
-| STM_08_11_001 | STM_08_11_001_PASS_basic_continue_in_for_loop | 无标签 continue 在 for 循环中 — 跳过偶数次迭代 |
-| STM_08_11_002 | STM_08_11_002_PASS_continue_with_label_in_nested_for | 带标签 continue 在嵌套 for 循环中 — 跳到外层循环下一次迭代 |
-| STM_08_11_003 | STM_08_11_003_PASS_continue_in_while_loop | 无标签 continue 在 while 循环中 — 跳过偶数迭代 |
-| STM_08_11_004 | STM_08_11_004_PASS_continue_in_do_while_loop | 无标签 continue 在 do-while 循环中 — 跳过偶数迭代 |
-| STM_08_11_005 | STM_08_11_005_PASS_continue_with_label_deeply_nested | 带标签 continue 在 3 层嵌套循环中 — 混合使用 continue middle 和 continue outer |
-| STM_08_11_006 | STM_08_11_006_PASS_continue_with_label_in_do_while | 带标签 continue 跳转到外层 do-while 循环 — 对应规格示例 STATEMENTS.md line 358-368 |
+| STMT_08_11_001 | STMT_08_11_001_PASS_basic_continue_in_for_loop | 无标签 continue 在 for 循环中 — 跳过偶数次迭代 |
+| STMT_08_11_002 | STMT_08_11_002_PASS_continue_with_label_in_nested_for | 带标签 continue 在嵌套 for 循环中 — 跳到外层循环下一次迭代 |
+| STMT_08_11_003 | STMT_08_11_003_PASS_continue_in_while_loop | 无标签 continue 在 while 循环中 — 跳过偶数迭代 |
+| STMT_08_11_004 | STMT_08_11_004_PASS_continue_in_do_while_loop | 无标签 continue 在 do-while 循环中 — 跳过偶数迭代 |
+| STMT_08_11_005 | STMT_08_11_005_PASS_continue_with_label_deeply_nested | 带标签 continue 在 3 层嵌套循环中 — 混合使用 continue middle 和 continue outer |
+| STMT_08_11_006 | STMT_08_11_006_PASS_continue_with_label_in_do_while | 带标签 continue 跳转到外层 do-while 循环 — 对应规格示例 STATEMENTS.md line 358-368 |
 
 ### 3.2 编译失败 (compile-fail) — 7F
 
 | 编号 | @id | 描述 |
 |------|-----|------|
-| STM_08_11_006 | STM_08_11_006_FAIL_continue_outside_loop | continue 在循环语句外部 (函数体中无封闭循环) — 编译时错误 |
-| STM_08_11_007a | STM_08_11_007_FAIL_continue_in_for_with_compound_update | for 循环中 continue 与复合 (逗号分隔) forUpdate 表达式 — 验证更新表达式执行 |
-| STM_08_11_007b | STM_08_11_007_FAIL_continue_with_nonexistent_label | continue 使用不存在的标签名 — 编译时错误 |
-| STM_08_11_008 | STM_08_11_008_FAIL_continue_with_non_loop_label | continue 标签指向非循环语句 (块语句 block 标签，for 循环在其内部) |
-| STM_08_11_009 | STM_08_11_009_FAIL_continue_at_top_level | continue 在顶层作用域 (模块级) — 语法错误 ESY0165 + 语义错误 ESE0161 |
-| STM_08_11_010 | STM_08_11_010_FAIL_continue_with_label_on_non_loop_block | continue 标签指向普通块语句 {} (块本身非 loopStatement) — 编译时错误 |
-| STM_08_11_013 | STM_08_11_013_FAIL_continue_in_for_verifies_update_execution | for 循环中 continue 必须执行 forUpdate 后再检查条件 — 运行时语义验证 (归类为编译失败用例) |
+| STMT_08_11_006 | STMT_08_11_006_FAIL_continue_outside_loop | continue 在循环语句外部 (函数体中无封闭循环) — 编译时错误 |
+| STMT_08_11_007a | STMT_08_11_007_FAIL_continue_in_for_with_compound_update | for 循环中 continue 与复合 (逗号分隔) forUpdate 表达式 — 验证更新表达式执行 |
+| STMT_08_11_007b | STMT_08_11_007_FAIL_continue_with_nonexistent_label | continue 使用不存在的标签名 — 编译时错误 |
+| STMT_08_11_008 | STMT_08_11_008_FAIL_continue_with_non_loop_label | continue 标签指向非循环语句 (块语句 block 标签，for 循环在其内部) |
+| STMT_08_11_009 | STMT_08_11_009_FAIL_continue_at_top_level | continue 在顶层作用域 (模块级) — 语法错误 ESY0165 + 语义错误 ESE0161 |
+| STMT_08_11_010 | STMT_08_11_010_FAIL_continue_with_label_on_non_loop_block | continue 标签指向普通块语句 {} (块本身非 loopStatement) — 编译时错误 |
+| STMT_08_11_013 | STMT_08_11_013_FAIL_continue_in_for_verifies_update_execution | for 循环中 continue 必须执行 forUpdate 后再检查条件 — 运行时语义验证 (归类为编译失败用例) |
 
-> **编号说明:** 存在编号重叠现象 — STM_08_11_006 同时用于 compile-pass 和 compile-fail；STM_08_11_007 在 compile-fail 中有两个不同测试文件。此外 STM_08_11_007_FAIL_continue_in_for_with_compound_update 的 @id 字段误写为 "PASS" 前缀；STM_08_11_013_FAIL_continue_in_for_verifies_update_execution 的 @id 字段误写为 "RUNTIME" 前缀。当前文件位置 (@expect 值和目录) 为准。
+> **编号说明:** 存在编号重叠现象 — STMT_08_11_006 同时用于 compile-pass 和 compile-fail；STMT_08_11_007 在 compile-fail 中有两个不同测试文件。此外 STMT_08_11_007_FAIL_continue_in_for_with_compound_update 的 @id 字段误写为 "PASS" 前缀；STMT_08_11_013_FAIL_continue_in_for_verifies_update_execution 的 @id 字段误写为 "RUNTIME" 前缀。当前文件位置 (@expect 值和目录) 为准。
 
 ### 3.3 运行时 (runtime) — 5R
 
 | 编号 | @id | 描述 |
 |------|-----|------|
-| STM_08_11_009 | STM_08_11_009_RUNTIME_continue_in_for_loop_skip_iteration | for 循环中 continue 跳过特定迭代 (跳过 i==3) — 验证 sum 结果 |
-| STM_08_11_010 | STM_08_11_010_RUNTIME_continue_with_label_nested_loops | 嵌套 for 循环中 continue outer — 验证仅 j=0 被执行 |
-| STM_08_11_011 | STM_08_11_011_RUNTIME_continue_in_while_loop_skip_even | while 循环中 continue 跳过偶数 — 验证奇数之和 = 25 |
-| STM_08_11_012 | STM_08_11_012_RUNTIME_continue_in_do_while_jumps_to_condition | do-while 循环中 continue 跳转到 while(condition) 条件检查 — 验证计数器状态 |
-| STM_08_11_014 | STM_08_11_014_RUNTIME_continue_with_label_do_while_nested | 带标签 continue outer 在 do-while 嵌套 for 中 — 跳转到 do-while 条件 (while(false) 退出) |
+| STMT_08_11_009 | STMT_08_11_009_RUNTIME_continue_in_for_loop_skip_iteration | for 循环中 continue 跳过特定迭代 (跳过 i==3) — 验证 sum 结果 |
+| STMT_08_11_010 | STMT_08_11_010_RUNTIME_continue_with_label_nested_loops | 嵌套 for 循环中 continue outer — 验证仅 j=0 被执行 |
+| STMT_08_11_011 | STMT_08_11_011_RUNTIME_continue_in_while_loop_skip_even | while 循环中 continue 跳过偶数 — 验证奇数之和 = 25 |
+| STMT_08_11_012 | STMT_08_11_012_RUNTIME_continue_in_do_while_jumps_to_condition | do-while 循环中 continue 跳转到 while(condition) 条件检查 — 验证计数器状态 |
+| STMT_08_11_014 | STMT_08_11_014_RUNTIME_continue_with_label_do_while_nested | 带标签 continue outer 在 do-while 嵌套 for 中 — 跳转到 do-while 条件 (while(false) 退出) |
 
 ## 4. 边界值和异常场景
 
@@ -90,9 +90,9 @@
 ## 5. 文件命名约定
 
 - 目录: `8.11_continue_Statements/`
-  - `compile-pass/`: `STM_08_11_NNN_PASS_xxx.ets`
-  - `compile-fail/`: `STM_08_11_NNN_FAIL_xxx.ets`
-  - `runtime/`: `STM_08_11_NNN_RUNTIME_xxx.ets`
+  - `compile-pass/`: `STMT_08_11_NNN_PASS_xxx.ets`
+  - `compile-fail/`: `STMT_08_11_NNN_FAIL_xxx.ets`
+  - `runtime/`: `STMT_08_11_NNN_RUNTIME_xxx.ets`
 - 编号连续递增，跨类别统一编号 (当前存在部分编号重叠)
 - 5 标签注释块: `@id`, `@expect`, `@section`, `@design`, `@note`
 
@@ -100,31 +100,31 @@
 
 | # | 文件名 | 类型 | 描述 |
 |---|--------|------|------|
-| 001 | STM_08_11_001_PASS_basic_continue_in_for_loop.ets | pass | for 循环中无标签 continue 跳过偶数 |
-| 002 | STM_08_11_002_PASS_continue_with_label_in_nested_for.ets | pass | 嵌套 for 循环中 continue outer 跳转到外层 |
-| 003 | STM_08_11_003_PASS_continue_in_while_loop.ets | pass | while 循环中无标签 continue 跳过偶数 |
-| 004 | STM_08_11_004_PASS_continue_in_do_while_loop.ets | pass | do-while 循环中无标签 continue 跳过偶数 |
-| 005 | STM_08_11_005_PASS_continue_with_label_deeply_nested.ets | pass | 3 层嵌套循环中 continue middle/outer 混合 |
-| 006 | STM_08_11_006_PASS_continue_with_label_in_do_while.ets | pass | 带标签 continue 跳转到外层 do-while |
-| 006 | STM_08_11_006_FAIL_continue_outside_loop.ets | fail | continue 在循环外部 (无封闭循环) |
-| 007a | STM_08_11_007_FAIL_continue_in_for_with_compound_update.ets | fail | for 循环中 continue 与复合 forUpdate |
-| 007b | STM_08_11_007_FAIL_continue_with_nonexistent_label.ets | fail | continue 使用不存在的标签名 |
-| 008 | STM_08_11_008_FAIL_continue_with_non_loop_label.ets | fail | continue 标签指向非循环语句 |
-| 009 | STM_08_11_009_FAIL_continue_at_top_level.ets | fail | continue 在顶层作用域 (语法 + 语义错误) |
-| 010 | STM_08_11_010_FAIL_continue_with_label_on_non_loop_block.ets | fail | continue 标签指向普通 block {} |
-| 013 | STM_08_11_013_FAIL_continue_in_for_verifies_update_execution.ets | fail | for 循环中 continue 验证 forUpdate 执行 |
-| 009 | STM_08_11_009_RUNTIME_continue_in_for_loop_skip_iteration.ets | runtime | for 循环中 continue 跳过特定迭代 |
-| 010 | STM_08_11_010_RUNTIME_continue_with_label_nested_loops.ets | runtime | 嵌套循环中 continue outer 运行时行为 |
-| 011 | STM_08_11_011_RUNTIME_continue_in_while_loop_skip_even.ets | runtime | while 循环中 continue 跳过偶数 |
-| 012 | STM_08_11_012_RUNTIME_continue_in_do_while_jumps_to_condition.ets | runtime | do-while 中 continue 跳转到条件检查 |
-| 014 | STM_08_11_014_RUNTIME_continue_with_label_do_while_nested.ets | runtime | 带标签 continue 在嵌套 do-while 中 |
+| 001 | STMT_08_11_001_PASS_basic_continue_in_for_loop.ets | pass | for 循环中无标签 continue 跳过偶数 |
+| 002 | STMT_08_11_002_PASS_continue_with_label_in_nested_for.ets | pass | 嵌套 for 循环中 continue outer 跳转到外层 |
+| 003 | STMT_08_11_003_PASS_continue_in_while_loop.ets | pass | while 循环中无标签 continue 跳过偶数 |
+| 004 | STMT_08_11_004_PASS_continue_in_do_while_loop.ets | pass | do-while 循环中无标签 continue 跳过偶数 |
+| 005 | STMT_08_11_005_PASS_continue_with_label_deeply_nested.ets | pass | 3 层嵌套循环中 continue middle/outer 混合 |
+| 006 | STMT_08_11_006_PASS_continue_with_label_in_do_while.ets | pass | 带标签 continue 跳转到外层 do-while |
+| 006 | STMT_08_11_006_FAIL_continue_outside_loop.ets | fail | continue 在循环外部 (无封闭循环) |
+| 007a | STMT_08_11_007_FAIL_continue_in_for_with_compound_update.ets | fail | for 循环中 continue 与复合 forUpdate |
+| 007b | STMT_08_11_007_FAIL_continue_with_nonexistent_label.ets | fail | continue 使用不存在的标签名 |
+| 008 | STMT_08_11_008_FAIL_continue_with_non_loop_label.ets | fail | continue 标签指向非循环语句 |
+| 009 | STMT_08_11_009_FAIL_continue_at_top_level.ets | fail | continue 在顶层作用域 (语法 + 语义错误) |
+| 010 | STMT_08_11_010_FAIL_continue_with_label_on_non_loop_block.ets | fail | continue 标签指向普通 block {} |
+| 013 | STMT_08_11_013_FAIL_continue_in_for_verifies_update_execution.ets | fail | for 循环中 continue 验证 forUpdate 执行 |
+| 009 | STMT_08_11_009_RUNTIME_continue_in_for_loop_skip_iteration.ets | runtime | for 循环中 continue 跳过特定迭代 |
+| 010 | STMT_08_11_010_RUNTIME_continue_with_label_nested_loops.ets | runtime | 嵌套循环中 continue outer 运行时行为 |
+| 011 | STMT_08_11_011_RUNTIME_continue_in_while_loop_skip_even.ets | runtime | while 循环中 continue 跳过偶数 |
+| 012 | STMT_08_11_012_RUNTIME_continue_in_do_while_jumps_to_condition.ets | runtime | do-while 中 continue 跳转到条件检查 |
+| 014 | STMT_08_11_014_RUNTIME_continue_with_label_do_while_nested.ets | runtime | 带标签 continue 在嵌套 do-while 中 |
 
 **总计: 6P + 7F + 5R = 18 个测试用例，全部通过 (100%)**
 
 ## 7. 已知问题
 
-1. **编号重叠:** STM_08_11_006 同时用于 compile-pass (continue_with_label_in_do_while) 和 compile-fail (continue_outside_loop)。STM_08_11_007 在 compile-fail 中有两个不同文件 (compound_update 和 nonexistent_label)。建议后续统一重新编号。
+1. **编号重叠:** STMT_08_11_006 同时用于 compile-pass (continue_with_label_in_do_while) 和 compile-fail (continue_outside_loop)。STMT_08_11_007 在 compile-fail 中有两个不同文件 (compound_update 和 nonexistent_label)。建议后续统一重新编号。
 2. **@id 元数据错误:**
-   - `STM_08_11_007_FAIL_continue_in_for_with_compound_update.ets` 的 @id 字段为 `STM_08_11_007_PASS_...` (应为 FAIL)
-   - `STM_08_11_013_FAIL_continue_in_for_verifies_update_execution.ets` 的 @id 字段为 `STM_08_11_013_RUNTIME_...` (应为 FAIL)
+   - `STMT_08_11_007_FAIL_continue_in_for_with_compound_update.ets` 的 @id 字段为 `STMT_08_11_007_PASS_...` (应为 FAIL)
+   - `STMT_08_11_013_FAIL_continue_in_for_verifies_update_execution.ets` 的 @id 字段为 `STMT_08_11_013_RUNTIME_...` (应为 FAIL)
 3. **ST_08_11_007 (compound_update) 和 ST_08_11_013 (verifies_update_execution)** 都测试 for 循环中 continue 与 forUpdate 表达式的交互语义，但前者被列为 compile-fail 分类。两者语义相近，归属分类待统一。

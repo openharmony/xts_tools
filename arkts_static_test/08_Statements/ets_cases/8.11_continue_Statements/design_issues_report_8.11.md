@@ -14,11 +14,11 @@
 
 **来源：** 8.2 Expression Statements（跨章节共享设计观察）
 
-**用例：** STM_08_11_007_FAIL_continue_in_for_with_compound_update, STM_08_11_013_FAIL_continue_in_for_verifies_update_execution
+**用例：** STMT_08_11_007_FAIL_continue_in_for_with_compound_update, STMT_08_11_013_FAIL_continue_in_for_verifies_update_execution
 
 **实际行为/预期行为：** ArkTS 将逗号运算符（comma operator）的使用范围限制在 for 循环头部（初始化、条件、更新表达式），不在循环头部之外的独立表达式语句中支持。此限制直接影响 `continue` 在 for 循环中的语义：当 forUpdate 中使用逗号分隔的复合更新表达式（如 `(updateTracker++, i++)`）时，`continue` 语句必须仍执行所有 forUpdate 子表达式，然后再重新评估循环条件。
 
-目前 STM_08_11_007 和 STM_08_11_013 均位于 compile-fail 目录，但两者测试的核心语义（continue 后 forUpdate 的执行行为）属于运行时验证范畴。此分类可能反映了编译器对带括号的逗号表达式 `(a++, b++)` 的支持尚未完全覆盖 forUpdate 位置，或测试用例本身需要重新分类。
+目前 STMT_08_11_007 和 STMT_08_11_013 均位于 compile-fail 目录，但两者测试的核心语义（continue 后 forUpdate 的执行行为）属于运行时验证范畴。此分类可能反映了编译器对带括号的逗号表达式 `(a++, b++)` 的支持尚未完全覆盖 forUpdate 位置，或测试用例本身需要重新分类。
 
 **对比：**
 
@@ -28,7 +28,7 @@
 | **Java (JLS SE21)** | for 循环头部语法分隔符 + 少数受限上下文 | `continue` 后执行所有 forUpdate 子表达式 |
 | **TypeScript/JavaScript** | 全上下文通用逗号运算符 | `continue` 后执行所有 forUpdate 子表达式 |
 
-**评价/建议：** 此观察不构成 continue 语句本身的缺陷，而是 ArkTS 对逗号运算符的整体设计限制在 8.11 章节的表现。建议：(1) 确认 STM_08_11_007 和 STM_08_11_013 的正确分类——若编译器在 forUpdate 中支持逗号分隔表达式，则应归类为 compile-pass 或 runtime；(2) 若因括号语法 `(a, b)` 与逗号分隔语法 `a, b` 存在差异，应在规范中明确 forUpdate 的合法表达式形式。
+**评价/建议：** 此观察不构成 continue 语句本身的缺陷，而是 ArkTS 对逗号运算符的整体设计限制在 8.11 章节的表现。建议：(1) 确认 STMT_08_11_007 和 STMT_08_11_013 的正确分类——若编译器在 forUpdate 中支持逗号分隔表达式，则应归类为 compile-pass 或 runtime；(2) 若因括号语法 `(a, b)` 与逗号分隔语法 `a, b` 存在差异，应在规范中明确 forUpdate 的合法表达式形式。
 
 ---
 
@@ -38,34 +38,34 @@
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|---------|------|
-| STM_08_11_001 | 无标签 `continue` 在 `for` 循环中跳过偶数迭代 | ✅ |
-| STM_08_11_002 | `continue outer` 带标签，在嵌套 `for` 循环中跳转到外层下一次迭代 | ✅ |
-| STM_08_11_003 | 无标签 `continue` 在 `while` 循环中跳过偶数迭代 | ✅ |
-| STM_08_11_004 | 无标签 `continue` 在 `do-while` 循环中跳过偶数迭代 | ✅ |
-| STM_08_11_005 | `continue middle` 和 `continue outer` 带标签，在三层嵌套中跳转到中层和外层 | ✅ |
-| STM_08_11_006 | `continue` 带标签跳转到外层 `do-while` 循环（规范示例对应） | ✅ |
+| STMT_08_11_001 | 无标签 `continue` 在 `for` 循环中跳过偶数迭代 | ✅ |
+| STMT_08_11_002 | `continue outer` 带标签，在嵌套 `for` 循环中跳转到外层下一次迭代 | ✅ |
+| STMT_08_11_003 | 无标签 `continue` 在 `while` 循环中跳过偶数迭代 | ✅ |
+| STMT_08_11_004 | 无标签 `continue` 在 `do-while` 循环中跳过偶数迭代 | ✅ |
+| STMT_08_11_005 | `continue middle` 和 `continue outer` 带标签，在三层嵌套中跳转到中层和外层 | ✅ |
+| STMT_08_11_006 | `continue` 带标签跳转到外层 `do-while` 循环（规范示例对应） | ✅ |
 
 ### compile-fail（7/7）
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|---------|------|
-| STM_08_11_006_FAIL | `continue` 在循环外部（函数体中无封闭循环）→ 编译拒绝 | ✅ |
-| STM_08_11_007_FAIL | for 循环中 `continue` 与复合（逗号）forUpdate 表达式交互 → 编译拒绝 | ✅ |
-| STM_08_11_007_FAIL (b) | `continue` 使用不存在的标签名 → 编译拒绝 | ✅ |
-| STM_08_11_008_FAIL | `continue` 标签指向非循环语句（块语句 block 标签）→ 编译拒绝 | ✅ |
-| STM_08_11_009_FAIL | `continue` 在顶层作用域（模块级）→ 编译拒绝 | ✅ |
-| STM_08_11_010_FAIL | `continue` 标签指向普通块语句 `{}`（非循环）→ 编译拒绝 | ✅ |
-| STM_08_11_013_FAIL | for 循环中 `continue` 验证 forUpdate 执行（运行时语义验证）→ 编译拒绝 | ✅ |
+| STMT_08_11_006_FAIL | `continue` 在循环外部（函数体中无封闭循环）→ 编译拒绝 | ✅ |
+| STMT_08_11_007_FAIL | for 循环中 `continue` 与复合（逗号）forUpdate 表达式交互 → 编译拒绝 | ✅ |
+| STMT_08_11_007_FAIL (b) | `continue` 使用不存在的标签名 → 编译拒绝 | ✅ |
+| STMT_08_11_008_FAIL | `continue` 标签指向非循环语句（块语句 block 标签）→ 编译拒绝 | ✅ |
+| STMT_08_11_009_FAIL | `continue` 在顶层作用域（模块级）→ 编译拒绝 | ✅ |
+| STMT_08_11_010_FAIL | `continue` 标签指向普通块语句 `{}`（非循环）→ 编译拒绝 | ✅ |
+| STMT_08_11_013_FAIL | for 循环中 `continue` 验证 forUpdate 执行（运行时语义验证）→ 编译拒绝 | ✅ |
 
 ### runtime（5/5 — ark VM 真实执行 + assert）
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|---------|------|
-| STM_08_11_009_RUNTIME | `continue` 在 `for` 循环中跳过特定迭代（i==3），验证 sum = 0+1+2+4 = 7 | ✅ |
-| STM_08_11_010_RUNTIME | `continue outer` 带标签嵌套 `for` 中跳转到外层，验证 "0,0;1,0;2,0;" | ✅ |
-| STM_08_11_011_RUNTIME | `continue` 在 `while` 循环中跳过偶数，验证奇数之和 1+3+5+7+9 = 25 | ✅ |
-| STM_08_11_012_RUNTIME | `continue` 在 `do-while` 中跳转到 while(condition) 条件检查 | ✅ |
-| STM_08_11_014_RUNTIME | 带标签 `continue outer` 在嵌套 do-while（外层）+ for（内层）中跳转到外层条件 | ✅ |
+| STMT_08_11_009_RUNTIME | `continue` 在 `for` 循环中跳过特定迭代（i==3），验证 sum = 0+1+2+4 = 7 | ✅ |
+| STMT_08_11_010_RUNTIME | `continue outer` 带标签嵌套 `for` 中跳转到外层，验证 "0,0;1,0;2,0;" | ✅ |
+| STMT_08_11_011_RUNTIME | `continue` 在 `while` 循环中跳过偶数，验证奇数之和 1+3+5+7+9 = 25 | ✅ |
+| STMT_08_11_012_RUNTIME | `continue` 在 `do-while` 中跳转到 while(condition) 条件检查 | ✅ |
+| STMT_08_11_014_RUNTIME | 带标签 `continue outer` 在嵌套 do-while（外层）+ for（内层）中跳转到外层条件 | ✅ |
 
 ### 评估检查点
 
@@ -132,7 +132,7 @@
 
 3. **Swift 的微小语法差异**：Swift 不支持在任意代码块语句上加标签（标签仅可在循环语句上使用），而 ArkTS 和 Java 均支持（不过两者在 `continue` 的目标为代码块标签而非循环标签时都会报错）。这属于语言设计的表层差异，不影响 continue 的核心语义。
 
-4. **逗号运算符限制的间接影响**：ArkTS 将逗号运算符限制在 for 循环头部，这对 `continue` 在含复合 forUpdate 的 for 循环中的行为产生间接影响。当前测试用例 STM_08_11_007 和 STM_08_11_013 的分类和预期结果需进一步确认（见设计观察 A）。
+4. **逗号运算符限制的间接影响**：ArkTS 将逗号运算符限制在 for 循环头部，这对 `continue` 在含复合 forUpdate 的 for 循环中的行为产生间接影响。当前测试用例 STMT_08_11_007 和 STMT_08_11_013 的分类和预期结果需进一步确认（见设计观察 A）。
 
 ### 5.3 综合评分
 
@@ -151,15 +151,15 @@
 
 ### 短期（当前迭代）
 
-1. **确认 STM_08_11_007 和 STM_08_11_013 的正确分类**：两者当前位于 compile-fail 目录，但测试的核心语义（continue 后 forUpdate 的执行行为）属于运行时验证范畴。若编译器实际支持 forUpdate 中的逗号表达式（仅作为语句时拒绝），则应将二者移至 runtime 或 compile-pass 目录。若编译器不支持括号形式的逗号表达式 `(a++, b++)`，应确认是否仅支持无括号形式 `a++, b++`，并在规范中明确。
+1. **确认 STMT_08_11_007 和 STMT_08_11_013 的正确分类**：两者当前位于 compile-fail 目录，但测试的核心语义（continue 后 forUpdate 的执行行为）属于运行时验证范畴。若编译器实际支持 forUpdate 中的逗号表达式（仅作为语句时拒绝），则应将二者移至 runtime 或 compile-pass 目录。若编译器不支持括号形式的逗号表达式 `(a++, b++)`，应确认是否仅支持无括号形式 `a++, b++`，并在规范中明确。
 
-2. **修复 @id 元数据错误**：STM_08_11_007_FAIL_continue_in_for_with_compound_update 的 @id 字段为 `PASS` 前缀（应为 `FAIL`）；STM_08_11_013_FAIL_continue_in_for_verifies_update_execution 的 @id 字段为 `RUNTIME` 前缀（应为 `FAIL`）。
+2. **修复 @id 元数据错误**：STMT_08_11_007_FAIL_continue_in_for_with_compound_update 的 @id 字段为 `PASS` 前缀（应为 `FAIL`）；STMT_08_11_013_FAIL_continue_in_for_verifies_update_execution 的 @id 字段为 `RUNTIME` 前缀（应为 `FAIL`）。
 
 ### 中期（后续版本）
 
 3. **补充逗号运算符 + continue 交互的明确测试**：若编译器支持 forUpdate 中的逗号分隔表达式，添加 runtime 用例验证 continue 后所有 forUpdate 子表达式均正确执行（如 `(a++, b++)` 中两个增量均发生）。
 
-4. **解决编号重叠**：STM_08_11_006 同时用于 compile-pass 和 compile-fail；STM_08_11_007 在 compile-fail 中有两个不同文件。建议统一重新编号。
+4. **解决编号重叠**：STMT_08_11_006 同时用于 compile-pass 和 compile-fail；STMT_08_11_007 在 compile-fail 中有两个不同文件。建议统一重新编号。
 
 ### 长期
 
