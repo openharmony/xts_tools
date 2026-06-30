@@ -72,7 +72,7 @@ ArkTS §8.2 定义了**表达式语句 (Expression Statement)**，其语法为 `
 
 ## 四、用例 1:1 对照
 
-### 用例 ①：赋值表达式作为语句（STM_08_02_001 / 009）
+### 用例 ①：赋值表达式作为语句（STMT_08_02_001 / 009）
 
 **ArkTS：**
 ```typescript
@@ -120,7 +120,7 @@ func testChainedAssignment() {
 
 ---
 
-### 用例 ②：自增/自减表达式作为语句（STM_08_02_002 / 010）
+### 用例 ②：自增/自减表达式作为语句（STMT_08_02_002 / 010）
 
 **ArkTS：**
 ```typescript
@@ -177,7 +177,7 @@ func simulateDecrement() {
 
 ---
 
-### 用例 ③：函数/方法调用作为语句（STM_08_02_003 / 011）
+### 用例 ③：函数/方法调用作为语句（STMT_08_02_003 / 011）
 
 **ArkTS：**
 ```typescript
@@ -242,7 +242,7 @@ func testCalls() {
 
 ---
 
-### 用例 ④：复合赋值作为语句（STM_08_02_004）
+### 用例 ④：复合赋值作为语句（STMT_08_02_004）
 
 **ArkTS：**
 ```typescript
@@ -310,7 +310,7 @@ func testBitwise() {
 
 ---
 
-### 用例 ⑤：无效运算符拒绝（STM_08_02_006 FAIL_delete_operator）
+### 用例 ⑤：无效运算符拒绝（STMT_08_02_006 FAIL_delete_operator）
 
 **ArkTS（编译错误）：**
 ```typescript

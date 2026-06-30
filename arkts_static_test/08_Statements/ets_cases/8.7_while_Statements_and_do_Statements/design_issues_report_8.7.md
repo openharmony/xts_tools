@@ -13,7 +13,7 @@
 
 ### 观察 A：Extended Conditional Expressions 扩展了循环条件的合法类型范围 ⭐ DESIGN
 
-**用例：** STM_08_07_006, STM_08_07_007, STM_08_07_008, STM_08_07_014, STM_08_07_015（compile-pass）
+**用例：** STMT_08_07_006, STMT_08_07_007, STMT_08_07_008, STMT_08_07_014, STMT_08_07_015（compile-pass）
 
 **实际行为：** ArkTS 允许 `number`、`string`、`bigint` 和 `enum` 类型作为 while/do-while 循环的条件表达式，而非仅限于 `boolean`。例如：
 
@@ -45,7 +45,7 @@ while (Color.Green) { } // enum — compile-pass (非零值为 truthy)
 
 ### 观察 B：仅覆盖语法层面的 compile-fail 测试，缺少类型层面的反向用例
 
-**用例：** STM_08_07_009_FAIL, STM_08_07_010_FAIL（compile-fail）
+**用例：** STMT_08_07_009_FAIL, STMT_08_07_010_FAIL（compile-fail）
 
 **实际行为：** 当前仅有的 2 个 compile-fail 用例均测试语法错误（while 缺少括号、do 缺少 while 关键字），未覆盖 Extended Conditional Expressions 范围之外的类型（如 class 实例、数组、对象字面量、函数引用等）作为循环条件时的编译拒绝行为。
 
@@ -62,30 +62,30 @@ while (Color.Green) { } // enum — compile-pass (非零值为 truthy)
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|---------|------|
-| STM_08_07_001 | 基本 while 循环：布尔变量条件、比较表达式条件、false 字面量条件 | ✅ PASS |
-| STM_08_07_002 | while 空循环体：空块 `{}` 和空语句 `;` 均合法 | ✅ PASS |
-| STM_08_07_003 | 基本 do-while 循环：布尔变量条件和比较表达式条件 | ✅ PASS |
-| STM_08_07_004 | do-while 空循环体：空块 `{}` 和空语句 `;` 均合法 | ✅ PASS |
-| STM_08_07_005 | 嵌套循环：while 内嵌 while、do-while 内嵌 do-while、do-while 内嵌 while | ✅ PASS |
-| STM_08_07_006 | while 条件为 number 字面量（Extended Conditional Expression） | ✅ PASS |
-| STM_08_07_007 | do-while 条件为 string 字面量（Extended Conditional Expression） | ✅ PASS |
-| STM_08_07_008 | while 条件为 number 类型变量（Extended Conditional Expression） | ✅ PASS |
-| STM_08_07_009 | while 内嵌 if 中使用 break 提前退出循环 | ✅ PASS |
-| STM_08_07_010 | do-while 循环体中使用 continue 跳转到条件检查 | ✅ PASS |
-| STM_08_07_011 | while 循环体包含 try-catch 异常处理 | ✅ PASS |
-| STM_08_07_012 | do-while 循环体包含 try-catch 异常处理 | ✅ PASS |
-| STM_08_07_013 | while 条件使用复合逻辑表达式（`&&`、`||`、`!`、括号嵌套） | ✅ PASS |
-| STM_08_07_014 | while 条件为 bigint 类型（Extended Conditional Expression） | ✅ PASS |
-| STM_08_07_015 | while 条件为 enum 类型（Extended Conditional Expression） | ✅ PASS |
-| STM_08_07_009_FAIL | while 缺少括号 `while true {}` → 语法错误 | ✅ PASS |
-| STM_08_07_010_FAIL | do 缺少 while 关键字 → 语法错误 | ✅ PASS |
-| STM_08_07_009_RT | while(false) 循环体执行 0 次，外部变量不受影响 | ✅ PASS |
-| STM_08_07_010_RT | do-while(false) 循环体至少执行 1 次 | ✅ PASS |
-| STM_08_07_011_RT | 相同初始条件下 while 执行 0 次 vs do-while 执行 1 次 | ✅ PASS |
-| STM_08_07_012_RT | do-while 体内 continue 跳转到条件表达式处 | ✅ PASS |
-| STM_08_07_013_RT | 嵌套循环中 break 仅退出最内层，外层继续执行 | ✅ PASS |
-| STM_08_07_016_RT | do-while 体内 break 在首次迭代即退出，验证 at-least-once 语义 | ✅ PASS |
-| STM_08_07_017_RT | while 零次迭代全方位验证（false 字面量、变量 false、多场景） | ✅ PASS |
+| STMT_08_07_001 | 基本 while 循环：布尔变量条件、比较表达式条件、false 字面量条件 | ✅ PASS |
+| STMT_08_07_002 | while 空循环体：空块 `{}` 和空语句 `;` 均合法 | ✅ PASS |
+| STMT_08_07_003 | 基本 do-while 循环：布尔变量条件和比较表达式条件 | ✅ PASS |
+| STMT_08_07_004 | do-while 空循环体：空块 `{}` 和空语句 `;` 均合法 | ✅ PASS |
+| STMT_08_07_005 | 嵌套循环：while 内嵌 while、do-while 内嵌 do-while、do-while 内嵌 while | ✅ PASS |
+| STMT_08_07_006 | while 条件为 number 字面量（Extended Conditional Expression） | ✅ PASS |
+| STMT_08_07_007 | do-while 条件为 string 字面量（Extended Conditional Expression） | ✅ PASS |
+| STMT_08_07_008 | while 条件为 number 类型变量（Extended Conditional Expression） | ✅ PASS |
+| STMT_08_07_009 | while 内嵌 if 中使用 break 提前退出循环 | ✅ PASS |
+| STMT_08_07_010 | do-while 循环体中使用 continue 跳转到条件检查 | ✅ PASS |
+| STMT_08_07_011 | while 循环体包含 try-catch 异常处理 | ✅ PASS |
+| STMT_08_07_012 | do-while 循环体包含 try-catch 异常处理 | ✅ PASS |
+| STMT_08_07_013 | while 条件使用复合逻辑表达式（`&&`、`||`、`!`、括号嵌套） | ✅ PASS |
+| STMT_08_07_014 | while 条件为 bigint 类型（Extended Conditional Expression） | ✅ PASS |
+| STMT_08_07_015 | while 条件为 enum 类型（Extended Conditional Expression） | ✅ PASS |
+| STMT_08_07_009_FAIL | while 缺少括号 `while true {}` → 语法错误 | ✅ PASS |
+| STMT_08_07_010_FAIL | do 缺少 while 关键字 → 语法错误 | ✅ PASS |
+| STMT_08_07_009_RT | while(false) 循环体执行 0 次，外部变量不受影响 | ✅ PASS |
+| STMT_08_07_010_RT | do-while(false) 循环体至少执行 1 次 | ✅ PASS |
+| STMT_08_07_011_RT | 相同初始条件下 while 执行 0 次 vs do-while 执行 1 次 | ✅ PASS |
+| STMT_08_07_012_RT | do-while 体内 continue 跳转到条件表达式处 | ✅ PASS |
+| STMT_08_07_013_RT | 嵌套循环中 break 仅退出最内层，外层继续执行 | ✅ PASS |
+| STMT_08_07_016_RT | do-while 体内 break 在首次迭代即退出，验证 at-least-once 语义 | ✅ PASS |
+| STMT_08_07_017_RT | while 零次迭代全方位验证（false 字面量、变量 false、多场景） | ✅ PASS |
 
 ### 与规范一致的要点总结
 

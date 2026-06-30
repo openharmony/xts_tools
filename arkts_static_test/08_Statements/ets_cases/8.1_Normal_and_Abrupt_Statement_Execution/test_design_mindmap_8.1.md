@@ -20,30 +20,30 @@
 
 | 序号 | 用例ID | 测试点 | 详细验证项 |
 |------|--------|--------|------------|
-| 001 | STM_08_01_001_PASS_normal_completion | 各类语句正常完成编译通过 | 赋值语句, 表达式语句, 块语句, if-else, for循环, while循环, do-while循环, 空语句(;), 空块({}) |
-| 002 | STM_08_01_002_PASS_abrupt_in_try_catch | try-catch 处理突然完成编译通过 | throw 在 try 中触发突然完成被 catch 捕获; try-catch-finally 中 finally 定义 |
-| 003 | STM_08_01_003_PASS_break_continue_return | 跳转语句正常完成语义编译通过 | break 在 for 循环内; continue 跳过迭代; break 在 switch 中; return 结束函数 |
-| 004 | STM_08_01_004_PASS_nested_control_flow | 嵌套控制流混合完成编译通过 | 循环内嵌 try-catch（内层突然完成，外层恢复正常）; labeled break outer / continue outer; if 内嵌 try 内嵌 if |
-| 012 | STM_08_01_012_PASS_multiple_abrupt_sources | 多突然完成源共存编译通过 | return/throw 在 if-else 分支共存; break/continue/return/throw 在同一循环体内基于不同条件共存; 多个 throw 在顺序 if 中; 嵌套循环内 continue/break |
-| 013 | STM_08_01_013_PASS_return_abrupt_nested | return 在嵌套结构中触发突然完成编译通过 | if-else 内 return; 循环内嵌套 if 内 return; try 块内嵌套 if 内 return; catch 块内 return; 深层嵌套 if (3层) 内 return; switch case 块内 return |
+| 001 | STMT_08_01_001_PASS_normal_completion | 各类语句正常完成编译通过 | 赋值语句, 表达式语句, 块语句, if-else, for循环, while循环, do-while循环, 空语句(;), 空块({}) |
+| 002 | STMT_08_01_002_PASS_abrupt_in_try_catch | try-catch 处理突然完成编译通过 | throw 在 try 中触发突然完成被 catch 捕获; try-catch-finally 中 finally 定义 |
+| 003 | STMT_08_01_003_PASS_break_continue_return | 跳转语句正常完成语义编译通过 | break 在 for 循环内; continue 跳过迭代; break 在 switch 中; return 结束函数 |
+| 004 | STMT_08_01_004_PASS_nested_control_flow | 嵌套控制流混合完成编译通过 | 循环内嵌 try-catch（内层突然完成，外层恢复正常）; labeled break outer / continue outer; if 内嵌 try 内嵌 if |
+| 012 | STMT_08_01_012_PASS_multiple_abrupt_sources | 多突然完成源共存编译通过 | return/throw 在 if-else 分支共存; break/continue/return/throw 在同一循环体内基于不同条件共存; 多个 throw 在顺序 if 中; 嵌套循环内 continue/break |
+| 013 | STMT_08_01_013_PASS_return_abrupt_nested | return 在嵌套结构中触发突然完成编译通过 | if-else 内 return; 循环内嵌套 if 内 return; try 块内嵌套 if 内 return; catch 块内 return; 深层嵌套 if (3层) 内 return; switch case 块内 return |
 
 ### 2. compile-fail 测试 (3 个文件)
 
 | 序号 | 用例ID | 测试点 | 期望错误 |
 |------|--------|--------|----------|
-| 005 | STM_08_01_005_FAIL_throw_non_error | 抛出非 Error 类型的值 | `throw 42` — ArkTS 要求 throw 后必须是 Error 或其子类 |
-| 006 | STM_08_01_006_FAIL_break_outside_loop | break 在循环/switch 外部使用 | `break` 在普通 if 块内 — break 必须位于 for/while/do-while/switch 体内 |
-| 007 | STM_08_01_007_FAIL_continue_outside_loop | continue 在循环外部使用 | `continue` 在普通 if 块内 — continue 必须位于 for/while/do-while 循环体内 |
+| 005 | STMT_08_01_005_FAIL_throw_non_error | 抛出非 Error 类型的值 | `throw 42` — ArkTS 要求 throw 后必须是 Error 或其子类 |
+| 006 | STMT_08_01_006_FAIL_break_outside_loop | break 在循环/switch 外部使用 | `break` 在普通 if 块内 — break 必须位于 for/while/do-while/switch 体内 |
+| 007 | STMT_08_01_007_FAIL_continue_outside_loop | continue 在循环外部使用 | `continue` 在普通 if 块内 — continue 必须位于 for/while/do-while 循环体内 |
 
 ### 3. runtime 测试 (5 个文件)
 
 | 序号 | 用例ID | 测试点 | 详细验证项 |
 |------|--------|--------|------------|
-| 008 | STM_08_01_008_RUNTIME_normal_completion_flow | 正常完成语句按序执行并产生预期结果 | 顺序赋值 (a=1→+2→*3=9); if-else true分支; for 累加 (0+1+2+3+4=10); while 计数 (3次); 空语句/空块后继续执行 |
-| 009 | STM_08_01_009_RUNTIME_abrupt_completion_try_catch | throw 触发突然完成被 try-catch 捕获 | throw 后 catch 执行、catch 后代码恢复执行; 嵌套 try-catch (内层catch后外层try继续); finally 在 try-finally(无catch) 中执行且异常正确传播 |
-| 010 | STM_08_01_010_RUNTIME_return_abrupt_completion | return 触发突然完成 | if-else 中 return 各自正确退出并返回对应值; 循环内 return 退出整个函数(非仅循环); try 块中 return 在 finally 隐式执行前完成退出 |
-| 011 | STM_08_01_011_RUNTIME_finally_always_executes | finally 在所有完成路径下均执行 | throw后无catch时finally执行且异常传播; catch中re-throw后finally仍执行; try正常完成时finally执行; try-catch-finally正常路径; try-catch-finally突然路径 |
-| 014 | STM_08_01_014_RUNTIME_multiple_abrupt_paths | 多突然完成路径共存时第一条命中路径决定行为 | 多个return路径(selector选择); throw-vs-return(负值throw,零return); break-vs-return在循环中(return退出函数,break仅退出循环然后正常return); 正常无突然完成路径 |
+| 008 | STMT_08_01_008_RUNTIME_normal_completion_flow | 正常完成语句按序执行并产生预期结果 | 顺序赋值 (a=1→+2→*3=9); if-else true分支; for 累加 (0+1+2+3+4=10); while 计数 (3次); 空语句/空块后继续执行 |
+| 009 | STMT_08_01_009_RUNTIME_abrupt_completion_try_catch | throw 触发突然完成被 try-catch 捕获 | throw 后 catch 执行、catch 后代码恢复执行; 嵌套 try-catch (内层catch后外层try继续); finally 在 try-finally(无catch) 中执行且异常正确传播 |
+| 010 | STMT_08_01_010_RUNTIME_return_abrupt_completion | return 触发突然完成 | if-else 中 return 各自正确退出并返回对应值; 循环内 return 退出整个函数(非仅循环); try 块中 return 在 finally 隐式执行前完成退出 |
+| 011 | STMT_08_01_011_RUNTIME_finally_always_executes | finally 在所有完成路径下均执行 | throw后无catch时finally执行且异常传播; catch中re-throw后finally仍执行; try正常完成时finally执行; try-catch-finally正常路径; try-catch-finally突然路径 |
+| 014 | STMT_08_01_014_RUNTIME_multiple_abrupt_paths | 多突然完成路径共存时第一条命中路径决定行为 | 多个return路径(selector选择); throw-vs-return(负值throw,零return); break-vs-return在循环中(return退出函数,break仅退出循环然后正常return); 正常无突然完成路径 |
 
 ## 边界值与边缘场景
 
@@ -79,11 +79,11 @@
 ## 文件命名规范
 
 ```
-STM_08_01_{YYY}_{CATEGORY}_{DESCRIPTION}.ets
+STMT_08_01_{YYY}_{CATEGORY}_{DESCRIPTION}.ets
 ```
 
-- 前缀: `STM_08_01`（Statements 第 8.1 节）
+- 前缀: `STMT_08_01`（Statements 第 8.1 节）
 - 序号: `001` ~ `999`（三位数，零填充）
 - 分类标识: `PASS` / `FAIL` / `RUNTIME`
 - 描述: 简短英文描述，用下划线分隔
-- 示例: `STM_08_01_001_PASS_normal_completion.ets`
+- 示例: `STMT_08_01_001_PASS_normal_completion.ets`

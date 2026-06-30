@@ -101,10 +101,10 @@
 - 块内 throw 被同层 catch 捕获后，同一块内后续语句恢复执行
 
 ## 4. 文件命名规范
-- 前缀: STM_08_03_
-- 编译通过: STM_08_03_001_PASS_xxx.ets ~ STM_08_03_011_PASS_xxx.ets
-- 编译失败: STM_08_03_006_FAIL_xxx.ets ~ STM_08_03_012_FAIL_xxx.ets
-- 运行时:   STM_08_03_009_RUNTIME_xxx.ets ~ STM_08_03_015_RUNTIME_xxx.ets
+- 前缀: STMT_08_03_
+- 编译通过: STMT_08_03_001_PASS_xxx.ets ~ STMT_08_03_011_PASS_xxx.ets
+- 编译失败: STMT_08_03_006_FAIL_xxx.ets ~ STMT_08_03_012_FAIL_xxx.ets
+- 运行时:   STMT_08_03_009_RUNTIME_xxx.ets ~ STMT_08_03_015_RUNTIME_xxx.ets
 - 文件路径:
   - compile-pass/: /home/nnd/projects/arkts/ARKTS_STATIC_TEST/08_Statements/ets_cases/8.3_Block/compile-pass/
   - compile-fail/: /home/nnd/projects/arkts/ARKTS_STATIC_TEST/08_Statements/ets_cases/8.3_Block/compile-fail/
@@ -114,18 +114,18 @@
 
 | 编号 | 文件名 | 分类 | 测试内容 |
 |------|--------|------|----------|
-| 001 | STM_08_03_001_PASS_basic_block.ets | compile-pass | 基本块语句，多语句按顺序执行 |
-| 002 | STM_08_03_002_PASS_nested_blocks.ets | compile-pass | 嵌套块语句 |
-| 003 | STM_08_03_003_PASS_void_function_body.ets | compile-pass | void 函数体隐式返回 |
-| 004 | STM_08_03_004_PASS_block_type_declarations.ets | compile-pass | 块内包含类型声明 |
-| 005 | STM_08_03_005_PASS_empty_block.ets | compile-pass | 空块/注释块 |
-| 006 | STM_08_03_006_FAIL_nested_function_in_block.ets | compile-fail | 块内声明嵌套函数 |
-| 007 | STM_08_03_007_FAIL_local_class_in_block.ets | compile-fail | 块内声明局部类 |
-| 008 | STM_08_03_008_FAIL_local_type_alias_in_block.ets | compile-fail | 块内声明类型别名 |
-| 009 | STM_08_03_009_RUNTIME_block_execution_order.ets | runtime | 块语句执行顺序验证 |
-| 010 | STM_08_03_010_RUNTIME_block_throw_error.ets | runtime | 块中抛出异常停止执行 |
-| 011 | STM_08_03_011_PASS_redeclare_var_after_block.ets | compile-pass | 块作用域变量生命周期：块结束后同名变量可重新声明 |
-| 012 | STM_08_03_012_FAIL_access_block_var_outside.ets | compile-fail | 块外访问块内声明的变量，违反块作用域 |
-| 013 | STM_08_03_013_RUNTIME_multi_level_shadowing.ets | runtime | 多层嵌套块变量遮蔽与逐层恢复（4层） |
-| 014 | STM_08_03_014_RUNTIME_throw_exit_nested_block.ets | runtime | throw 从嵌套块中间退出，跨块边界传播到 catch |
-| 015 | STM_08_03_015_RUNTIME_return_from_nested_block.ets | runtime | void 函数中深层嵌套块内 return 提前终止函数 |
+| 001 | STMT_08_03_001_PASS_basic_block.ets | compile-pass | 基本块语句，多语句按顺序执行 |
+| 002 | STMT_08_03_002_PASS_nested_blocks.ets | compile-pass | 嵌套块语句 |
+| 003 | STMT_08_03_003_PASS_void_function_body.ets | compile-pass | void 函数体隐式返回 |
+| 004 | STMT_08_03_004_PASS_block_type_declarations.ets | compile-pass | 块内包含类型声明 |
+| 005 | STMT_08_03_005_PASS_empty_block.ets | compile-pass | 空块/注释块 |
+| 006 | STMT_08_03_006_FAIL_nested_function_in_block.ets | compile-fail | 块内声明嵌套函数 |
+| 007 | STMT_08_03_007_FAIL_local_class_in_block.ets | compile-fail | 块内声明局部类 |
+| 008 | STMT_08_03_008_FAIL_local_type_alias_in_block.ets | compile-fail | 块内声明类型别名 |
+| 009 | STMT_08_03_009_RUNTIME_block_execution_order.ets | runtime | 块语句执行顺序验证 |
+| 010 | STMT_08_03_010_RUNTIME_block_throw_error.ets | runtime | 块中抛出异常停止执行 |
+| 011 | STMT_08_03_011_PASS_redeclare_var_after_block.ets | compile-pass | 块作用域变量生命周期：块结束后同名变量可重新声明 |
+| 012 | STMT_08_03_012_FAIL_access_block_var_outside.ets | compile-fail | 块外访问块内声明的变量，违反块作用域 |
+| 013 | STMT_08_03_013_RUNTIME_multi_level_shadowing.ets | runtime | 多层嵌套块变量遮蔽与逐层恢复（4层） |
+| 014 | STMT_08_03_014_RUNTIME_throw_exit_nested_block.ets | runtime | throw 从嵌套块中间退出，跨块边界传播到 catch |
+| 015 | STMT_08_03_015_RUNTIME_return_from_nested_block.ets | runtime | void 函数中深层嵌套块内 return 提前终止函数 |

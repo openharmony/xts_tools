@@ -70,7 +70,7 @@ breakStatement: 'break' identifier?
 
 ## 四、用例 1:1 对照
 
-### 用例 ① 无标签 break 跳出 while 循环（STM_08_10_001 / 009）
+### 用例 ① 无标签 break 跳出 while 循环（STMT_08_10_001 / 009）
 
 **ArkTS：**
 ```typescript
@@ -115,7 +115,7 @@ func testBreakBasicWhile() {
 
 ---
 
-### 用例 ② 带标签 break 跳出嵌套循环（STM_08_10_002 / 010）
+### 用例 ② 带标签 break 跳出嵌套循环（STMT_08_10_002 / 010）
 
 **ArkTS：**
 ```typescript
@@ -170,7 +170,7 @@ func testBreakLabelled() {
 
 ---
 
-### 用例 ③ break 在 switch 语句中防止 fallthrough（STM_08_10_005 / 011）
+### 用例 ③ break 在 switch 语句中防止 fallthrough（STMT_08_10_005 / 011）
 
 **ArkTS：**
 ```typescript
@@ -234,7 +234,7 @@ func testBreakSwitch() -> String {
 
 ---
 
-### 用例 ④ 编译错误 — break 在循环外部（STM_08_10_006）
+### 用例 ④ 编译错误 — break 在循环外部（STMT_08_10_006）
 
 **ArkTS：**
 ```typescript
@@ -267,7 +267,7 @@ func testBreakOutsideLoop() {
 
 ---
 
-### 用例 ⑤ 编译错误 — break 标签不匹配（STM_08_10_007）
+### 用例 ⑤ 编译错误 — break 标签不匹配（STMT_08_10_007）
 
 **ArkTS：**
 ```typescript

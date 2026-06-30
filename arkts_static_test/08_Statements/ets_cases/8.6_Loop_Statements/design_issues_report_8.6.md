@@ -10,7 +10,7 @@
 
 ### 差异点 STM-I2：Loop label 未被使用 — Spec 要求报错但编译器未强制
 
-**用例：** STM_08_06_012_PASS_label_declared_not_used（原设计为 compile-fail，实测编译通过）
+**用例：** STMT_08_06_012_PASS_label_declared_not_used（原设计为 compile-fail，实测编译通过）
 **差异性质：** ArkTS Spec 与编译器行为差异（待确认对齐方向 — STATEMENTS.md 明确要求 compile-time error，但 es2panda 未检查此约束）
 **当前状态：** 待确认是编译器遗漏还是 spec 表述过严
 
@@ -19,7 +19,7 @@
 STATEMENTS.md §8.6 原文：
 > "A compile-time error occurs if the label identifier is **not used** within loopStatement, or is used in lambda expressions within a loop body."
 
-es2panda 编译器正确检查了 "used in lambda expressions"（STM_08_06_006/007 正确报错），但**未检查 "not used at all"** 的情况：
+es2panda 编译器正确检查了 "used in lambda expressions"（STMT_08_06_006/007 正确报错），但**未检查 "not used at all"** 的情况：
 
 ```typescript
 // STATEMENTS.md 要求 compile-time error，但 es2panda 编译通过
@@ -76,24 +76,24 @@ STATEMENTS.md §8.6: "A compile-time error occurs if the label identifier is not
 
 | 用例 ID | 行为描述 | 状态 |
 |---------|---------|------|
-| STM_08_06_001_PASS_BasicWhile | while 循环基本语义：条件为 `false` 时循环体不执行，`true` 时正常迭代 | 通过 |
-| STM_08_06_002_PASS_BasicDoWhile | do-while 循环基本语义：条件初始为 `false` 时循环体至少执行一次 | 通过 |
-| STM_08_06_003_PASS_BasicFor | for 循环基本语义：标准 `for (let i; i < 5; i++)`、空初始化及空更新子句 | 通过 |
-| STM_08_06_004_PASS_BasicForOf | for-of 循环基本语义：遍历 `int[]` 数组，空数组产生零次迭代 | 通过 |
-| STM_08_06_005_PASS_LabeledLoopBreak | 带标签的 for 循环中使用 `break outerLoop` 正确引用标签 | 通过 |
-| STM_08_06_006_FAIL_LabelInLambdaContinue | Lambda 内使用 `continue label`：编译错误，标签引用在 lambda 中禁止 | 通过 |
-| STM_08_06_007_FAIL_LabelInLambdaBreak | Lambda 内使用 `break outer`：编译错误，lambda 体内不允许引用外层循环标签 | 通过 |
-| STM_08_06_008_FAIL_BreakToUndeclaredLabel | `break` 引用未声明的标签：编译错误，标签必须先声明再使用 | 通过 |
-| STM_08_06_009_RUNTIME_WhileAndDoWhile | 运行时验证 while 和 do-while 的迭代计数、`continue`、`break` 及边界条件 | 通过 |
-| STM_08_06_010_RUNTIME_ForAndForOf | 运行时验证 for 和 for-of 的循环求和、`continue`、`break`、空初始化及空数组 | 通过 |
-| STM_08_06_011_RUNTIME_LabeledLoop | 运行时验证嵌套标签循环的 `break` 外层退出、`continue` 外层跳过及 `while` 外层退出 | 通过 |
-| STM_08_06_012_PASS_label_declared_not_used | 声明标签但未在循环体内使用 → **编译器未按 spec 要求报错**（参见问题 STM-I2） | 参见问题 STM-I2 |
+| STMT_08_06_001_PASS_BasicWhile | while 循环基本语义：条件为 `false` 时循环体不执行，`true` 时正常迭代 | 通过 |
+| STMT_08_06_002_PASS_BasicDoWhile | do-while 循环基本语义：条件初始为 `false` 时循环体至少执行一次 | 通过 |
+| STMT_08_06_003_PASS_BasicFor | for 循环基本语义：标准 `for (let i; i < 5; i++)`、空初始化及空更新子句 | 通过 |
+| STMT_08_06_004_PASS_BasicForOf | for-of 循环基本语义：遍历 `int[]` 数组，空数组产生零次迭代 | 通过 |
+| STMT_08_06_005_PASS_LabeledLoopBreak | 带标签的 for 循环中使用 `break outerLoop` 正确引用标签 | 通过 |
+| STMT_08_06_006_FAIL_LabelInLambdaContinue | Lambda 内使用 `continue label`：编译错误，标签引用在 lambda 中禁止 | 通过 |
+| STMT_08_06_007_FAIL_LabelInLambdaBreak | Lambda 内使用 `break outer`：编译错误，lambda 体内不允许引用外层循环标签 | 通过 |
+| STMT_08_06_008_FAIL_BreakToUndeclaredLabel | `break` 引用未声明的标签：编译错误，标签必须先声明再使用 | 通过 |
+| STMT_08_06_009_RUNTIME_WhileAndDoWhile | 运行时验证 while 和 do-while 的迭代计数、`continue`、`break` 及边界条件 | 通过 |
+| STMT_08_06_010_RUNTIME_ForAndForOf | 运行时验证 for 和 for-of 的循环求和、`continue`、`break`、空初始化及空数组 | 通过 |
+| STMT_08_06_011_RUNTIME_LabeledLoop | 运行时验证嵌套标签循环的 `break` 外层退出、`continue` 外层跳过及 `while` 外层退出 | 通过 |
+| STMT_08_06_012_PASS_label_declared_not_used | 声明标签但未在循环体内使用 → **编译器未按 spec 要求报错**（参见问题 STM-I2） | 参见问题 STM-I2 |
 
 此外，以下设计方面经验证与主流语言一致，无问题：
 
 - **四种循环类型（while、do、for、for-of）**：符合行业惯例，无设计问题。
 - **Lambda 限制**：Java 和 Swift 同样禁止在 lambda/闭包体内使用 `break`/`continue` 引用外层循环标签。此行为一致且符合预期。
-- **未声明标签检测**：STM_08_06_008_FAIL_BreakToUndeclaredLabel 测试了 `break nonExistentLabel` 在编译期被捕获。这是三种语言的标准行为。
+- **未声明标签检测**：STMT_08_06_008_FAIL_BreakToUndeclaredLabel 测试了 `break nonExistentLabel` 在编译期被捕获。这是三种语言的标准行为。
 - **无标签 break/continue 无额外限制**：ArkTS 允许在循环中按预期层级使用无标签的 `break` 和 `continue`（仅限最内层），与 Java 和 Swift 一致。
 
 ---
@@ -103,7 +103,7 @@ STATEMENTS.md §8.6: "A compile-time error occurs if the label identifier is not
 | 严重性 | 数量 | 涉及用例 |
 |--------|------|---------|
 | HIGH | 0 | — |
-| MEDIUM | 1 | STM_08_06_012_PASS_label_declared_not_used（STM-I2） |
+| MEDIUM | 1 | STMT_08_06_012_PASS_label_declared_not_used（STM-I2） |
 | LOW | 0 | — |
 | 无问题 | — | 其余 11 个用例行为与规范完全一致 |
 

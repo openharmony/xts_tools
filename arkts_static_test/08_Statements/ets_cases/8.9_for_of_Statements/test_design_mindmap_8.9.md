@@ -84,8 +84,8 @@
 
 ## 文件命名规范
 
-- 前缀: `STM_08_09_`
-- compile-pass: `STM_08_09_NNN_PASS_描述.ets`
-- compile-fail: `STM_08_09_NNN_FAIL_描述.ets`
-- runtime: `STM_08_09_NNN_RUNTIME_描述.ets`
+- 前缀: `STMT_08_09_`
+- compile-pass: `STMT_08_09_NNN_PASS_描述.ets`
+- compile-fail: `STMT_08_09_NNN_FAIL_描述.ets`
+- runtime: `STMT_08_09_NNN_RUNTIME_描述.ets`
 - 全局编号统一递增（001~023），不按类别分组

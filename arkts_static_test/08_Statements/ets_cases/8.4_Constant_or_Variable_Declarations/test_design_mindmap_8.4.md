@@ -99,10 +99,10 @@
 - const 声明的引用类型内部可变性（如 const arr: int[] = [1,2,3]; arr[0] = 99 是否允许）
 
 ## 五、文件命名规范
-- 前缀: STM_08_04_
-- compile-pass: STM_08_04_NNN_PASS_DESCRIPTION.ets
-- compile-fail: STM_08_04_NNN_FAIL_DESCRIPTION.ets
-- runtime: STM_08_04_NNN_RUNTIME_DESCRIPTION.ets
+- 前缀: STMT_08_04_
+- compile-pass: STMT_08_04_NNN_PASS_DESCRIPTION.ets
+- compile-fail: STMT_08_04_NNN_FAIL_DESCRIPTION.ets
+- runtime: STMT_08_04_NNN_RUNTIME_DESCRIPTION.ets
 - 编号连续不重复（001-021，存在编号空缺: 011 为 FAIL 而非 PASS，编号反映设计次序而非分类次序）
 
 ## 六、覆盖率摘要

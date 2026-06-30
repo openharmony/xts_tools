@@ -31,7 +31,7 @@
 
 **规范行为：** `for (const x of arr)` 在循环体内禁止 `x = value`（编译时错误）。这与 Swift 的默认行为一致，Swift 中循环变量隐式为 `let` 常量。而 Java 的增强 for 循环变量始终可修改。
 
-**用例（STM_08_09_008_FAIL_const_assignment）：**
+**用例（STMT_08_09_008_FAIL_const_assignment）：**
 ```arkts
 for (const x of [1, 2, 3]) {
     x = 42;  // compile-time error
@@ -52,7 +52,7 @@ for (const x of [1, 2, 3]) {
 
 **规范行为：** 可以在 forVariable 位置使用外部声明的变量，但元素类型必须可赋值给该变量类型。这是一个严格的编译时检查。
 
-**用例（STM_08_09_004_PASS_external_variable、STM_08_09_012_RUNTIME_external_variable）：**
+**用例（STMT_08_09_004_PASS_external_variable、STMT_08_09_012_RUNTIME_external_variable）：**
 ```arkts
 let elem: int = 0;
 for (elem of arr) {  // arr: Array<int>, int assignable to int: OK
@@ -86,39 +86,39 @@ for (elem of arr) {  // arr: Array<int>, int assignable to int: OK
 
 | 用例 ID | 验证点 | 状态 |
 |---------|--------|------|
-| STM_08_09_001 | for-of 遍历 Array\<int\>，元素类型推断为 int | ✅ |
-| STM_08_09_002 | for-of 遍历 string，元素类型推断为 string | ✅ |
-| STM_08_09_003 | let 声明的 forVariable 在循环体内可修改 | ✅ |
-| STM_08_09_004 | 外部声明变量（类型 int）配合 Array\<int\> for-of | ✅ |
-| STM_08_09_005 | for-of 遍历 FixedArray\<int\>，元素类型推断为 int | ✅ |
-| STM_08_09_013 | const forVariable + 显式类型注解（`: int`，实验特性） | ✅ |
-| STM_08_09_014 | let forVariable + 显式类型注解（`: int`），循环体内可修改 | ✅ |
-| STM_08_09_015 | 嵌套 for-of：外层 Array\<Array\<int\>\>，内层元素类型推断为 int | ✅ |
-| STM_08_09_020 | const forVariable（无类型注解），禁止赋值，类型正确推断 | ✅ |
-| STM_08_09_021 | for-of 遍历 ResizableArray\<int\>（`int[]` 语法），类型推断为 int | ✅ |
+| STMT_08_09_001 | for-of 遍历 Array\<int\>，元素类型推断为 int | ✅ |
+| STMT_08_09_002 | for-of 遍历 string，元素类型推断为 string | ✅ |
+| STMT_08_09_003 | let 声明的 forVariable 在循环体内可修改 | ✅ |
+| STMT_08_09_004 | 外部声明变量（类型 int）配合 Array\<int\> for-of | ✅ |
+| STMT_08_09_005 | for-of 遍历 FixedArray\<int\>，元素类型推断为 int | ✅ |
+| STMT_08_09_013 | const forVariable + 显式类型注解（`: int`，实验特性） | ✅ |
+| STMT_08_09_014 | let forVariable + 显式类型注解（`: int`），循环体内可修改 | ✅ |
+| STMT_08_09_015 | 嵌套 for-of：外层 Array\<Array\<int\>\>，内层元素类型推断为 int | ✅ |
+| STMT_08_09_020 | const forVariable（无类型注解），禁止赋值，类型正确推断 | ✅ |
+| STMT_08_09_021 | for-of 遍历 ResizableArray\<int\>（`int[]` 语法），类型推断为 int | ✅ |
 
 ### compile-fail（6 个，100% 通过）
 
 | 用例 ID | 验证点 | 预期错误 | 状态 |
 |---------|--------|---------|------|
-| STM_08_09_006 | int 字面量作为 for-of 迭代对象 | 非 iterable 类型，编译时错误 | ✅ |
-| STM_08_09_007 | 外部变量 int 与 string 迭代元素类型不匹配 | 元素类型不可赋值给变量类型 | ✅ |
-| STM_08_09_008 | const forVariable 在循环体内赋值 | const 变量不可赋值 | ✅ |
-| STM_08_09_009 | 未实现 Iterable 接口的自定义类作为迭代对象 | 非 iterable 类型，编译时错误 | ✅ |
-| STM_08_09_019 | 外部变量 int 与 Array\<string\> 元素类型不匹配 | 元素类型不可赋值给变量类型 | ✅ |
-| STM_08_09_023 | 外部变量 string 与 Array\<int\> 元素类型不匹配 | 元素类型不可赋值给变量类型 | ✅ |
+| STMT_08_09_006 | int 字面量作为 for-of 迭代对象 | 非 iterable 类型，编译时错误 | ✅ |
+| STMT_08_09_007 | 外部变量 int 与 string 迭代元素类型不匹配 | 元素类型不可赋值给变量类型 | ✅ |
+| STMT_08_09_008 | const forVariable 在循环体内赋值 | const 变量不可赋值 | ✅ |
+| STMT_08_09_009 | 未实现 Iterable 接口的自定义类作为迭代对象 | 非 iterable 类型，编译时错误 | ✅ |
+| STMT_08_09_019 | 外部变量 int 与 Array\<string\> 元素类型不匹配 | 元素类型不可赋值给变量类型 | ✅ |
+| STMT_08_09_023 | 外部变量 string 与 Array\<int\> 元素类型不匹配 | 元素类型不可赋值给变量类型 | ✅ |
 
 ### runtime（7 个，100% 通过，真实执行 + assert）
 
 | 用例 ID | 验证内容 | 断言数 | 状态 |
 |---------|---------|--------|------|
-| STM_08_09_010 | Array\<int\> 迭代求和与末元素值 | 3 | ✅ |
-| STM_08_09_011 | string 字符拼接与迭代计数 | 2 | ✅ |
-| STM_08_09_012 | 外部变量 for-of 求和与末元素值 | 2 | ✅ |
-| STM_08_09_016 | break 提前退出与 continue 跳过当前迭代 | 3 | ✅ |
-| STM_08_09_017 | FixedArray\<int\> 求和、末元素、迭代计数 | 3 | ✅ |
-| STM_08_09_018 | 迭代中修改数组元素值（snapshot 语义） | 3 | ✅ |
-| STM_08_09_022 | 空数组 for-of 循环体执行 0 次 | 1 | ✅ |
+| STMT_08_09_010 | Array\<int\> 迭代求和与末元素值 | 3 | ✅ |
+| STMT_08_09_011 | string 字符拼接与迭代计数 | 2 | ✅ |
+| STMT_08_09_012 | 外部变量 for-of 求和与末元素值 | 2 | ✅ |
+| STMT_08_09_016 | break 提前退出与 continue 跳过当前迭代 | 3 | ✅ |
+| STMT_08_09_017 | FixedArray\<int\> 求和、末元素、迭代计数 | 3 | ✅ |
+| STMT_08_09_018 | 迭代中修改数组元素值（snapshot 语义） | 3 | ✅ |
+| STMT_08_09_022 | 空数组 for-of 循环体执行 0 次 | 1 | ✅ |
 
 ---
 
@@ -183,36 +183,36 @@ for (elem of arr) {  // arr: Array<int>, int assignable to int: OK
 
 | 用例 ID | 文件名 |
 |---------|--------|
-| STM_08_09_001 | STM_08_09_001_PASS_array_for_of.ets |
-| STM_08_09_002 | STM_08_09_002_PASS_string_for_of.ets |
-| STM_08_09_003 | STM_08_09_003_PASS_let_modifiable.ets |
-| STM_08_09_004 | STM_08_09_004_PASS_external_variable.ets |
-| STM_08_09_005 | STM_08_09_005_PASS_FixedArray_for_of.ets |
-| STM_08_09_013 | STM_08_09_013_PASS_const_with_type_annotation.ets |
-| STM_08_09_014 | STM_08_09_014_PASS_let_with_type_annotation.ets |
-| STM_08_09_015 | STM_08_09_015_PASS_nested_for_of.ets |
-| STM_08_09_020 | STM_08_09_020_PASS_for_of_const_variable.ets |
-| STM_08_09_021 | STM_08_09_021_PASS_ResizableArray_for_of.ets |
+| STMT_08_09_001 | STMT_08_09_001_PASS_array_for_of.ets |
+| STMT_08_09_002 | STMT_08_09_002_PASS_string_for_of.ets |
+| STMT_08_09_003 | STMT_08_09_003_PASS_let_modifiable.ets |
+| STMT_08_09_004 | STMT_08_09_004_PASS_external_variable.ets |
+| STMT_08_09_005 | STMT_08_09_005_PASS_FixedArray_for_of.ets |
+| STMT_08_09_013 | STMT_08_09_013_PASS_const_with_type_annotation.ets |
+| STMT_08_09_014 | STMT_08_09_014_PASS_let_with_type_annotation.ets |
+| STMT_08_09_015 | STMT_08_09_015_PASS_nested_for_of.ets |
+| STMT_08_09_020 | STMT_08_09_020_PASS_for_of_const_variable.ets |
+| STMT_08_09_021 | STMT_08_09_021_PASS_ResizableArray_for_of.ets |
 
 ### compile-fail（6 个）
 
 | 用例 ID | 文件名 |
 |---------|--------|
-| STM_08_09_006 | STM_08_09_006_FAIL_non_iterable.ets |
-| STM_08_09_007 | STM_08_09_007_FAIL_type_mismatch.ets |
-| STM_08_09_008 | STM_08_09_008_FAIL_const_assignment.ets |
-| STM_08_09_009 | STM_08_09_009_FAIL_non_iterable_class.ets |
-| STM_08_09_019 | STM_08_09_019_FAIL_external_variable_array_type_mismatch.ets |
-| STM_08_09_023 | STM_08_09_023_FAIL_external_variable_wrong_type.ets |
+| STMT_08_09_006 | STMT_08_09_006_FAIL_non_iterable.ets |
+| STMT_08_09_007 | STMT_08_09_007_FAIL_type_mismatch.ets |
+| STMT_08_09_008 | STMT_08_09_008_FAIL_const_assignment.ets |
+| STMT_08_09_009 | STMT_08_09_009_FAIL_non_iterable_class.ets |
+| STMT_08_09_019 | STMT_08_09_019_FAIL_external_variable_array_type_mismatch.ets |
+| STMT_08_09_023 | STMT_08_09_023_FAIL_external_variable_wrong_type.ets |
 
 ### runtime（7 个）
 
 | 用例 ID | 文件名 |
 |---------|--------|
-| STM_08_09_010 | STM_08_09_010_RUNTIME_array_iteration.ets |
-| STM_08_09_011 | STM_08_09_011_RUNTIME_string_iteration.ets |
-| STM_08_09_012 | STM_08_09_012_RUNTIME_external_variable.ets |
-| STM_08_09_016 | STM_08_09_016_RUNTIME_break_continue.ets |
-| STM_08_09_017 | STM_08_09_017_RUNTIME_FixedArray_iteration.ets |
-| STM_08_09_018 | STM_08_09_018_RUNTIME_array_mutation_during_iteration.ets |
-| STM_08_09_022 | STM_08_09_022_RUNTIME_empty_array_for_of.ets |
+| STMT_08_09_010 | STMT_08_09_010_RUNTIME_array_iteration.ets |
+| STMT_08_09_011 | STMT_08_09_011_RUNTIME_string_iteration.ets |
+| STMT_08_09_012 | STMT_08_09_012_RUNTIME_external_variable.ets |
+| STMT_08_09_016 | STMT_08_09_016_RUNTIME_break_continue.ets |
+| STMT_08_09_017 | STMT_08_09_017_RUNTIME_FixedArray_iteration.ets |
+| STMT_08_09_018 | STMT_08_09_018_RUNTIME_array_mutation_during_iteration.ets |
+| STMT_08_09_022 | STMT_08_09_022_RUNTIME_empty_array_for_of.ets |

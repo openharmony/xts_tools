@@ -80,7 +80,7 @@ forStatement: 'for' '(' forInit? ';' forContinue? ';' forUpdate? ')' statement
 
 ## 四、用例 1:1 对照
 
-### 用例 ①：基础 for 循环（STM_08_08_001 / 008）
+### 用例 ①：基础 for 循环（STMT_08_08_001 / 008）
 
 **ArkTS：**
 ```typescript
@@ -115,7 +115,7 @@ while i < 5 {
 
 ---
 
-### 用例 ②：类型推导（STM_08_08_002）
+### 用例 ②：类型推导（STMT_08_08_002）
 
 **ArkTS：**
 ```typescript
@@ -145,7 +145,7 @@ for i in 0..<5 {    // 类型自动推导为 Int
 
 ---
 
-### 用例 ③：已存在变量作循环索引（STM_08_08_003 / 009）
+### 用例 ③：已存在变量作循环索引（STMT_08_08_003 / 009）
 
 **ArkTS：**
 ```typescript
@@ -182,7 +182,7 @@ while idx < 5 {
 
 ---
 
-### 用例 ④：非 boolean 条件编译错误（STM_08_08_006）
+### 用例 ④：非 boolean 条件编译错误（STMT_08_08_006）
 
 **ArkTS（编译错误）：**
 ```typescript
@@ -204,7 +204,7 @@ for (int i = 0; i; i++) {   // ❌ Type mismatch: cannot convert from int to boo
 
 ---
 
-### 用例 ⑤：forInit 变量作用域（STM_08_08_007）
+### 用例 ⑤：forInit 变量作用域（STMT_08_08_007）
 
 **ArkTS（编译错误）：**
 ```typescript
@@ -222,7 +222,7 @@ int after = loopIdx;   // ❌ loopIdx cannot be resolved to a variable
 
 ---
 
-### 用例 ⑥：forContinue 为空（STM_08_08_005）
+### 用例 ⑥：forContinue 为空（STMT_08_08_005）
 
 **ArkTS：**
 ```typescript

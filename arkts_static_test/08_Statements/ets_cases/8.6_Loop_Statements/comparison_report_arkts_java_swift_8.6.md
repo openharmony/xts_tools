@@ -53,7 +53,7 @@
 
 三种语言均支持语义相同的基本 while 循环模式。
 
-**ArkTS**（源自 `STM_08_06_001_PASS_BasicWhile.ets`）：
+**ArkTS**（源自 `STMT_08_06_001_PASS_BasicWhile.ets`）：
 ```arkts
 function testBasicWhile(): void {
     let i: int = 0;
@@ -101,7 +101,7 @@ func testBasicWhile() {
 
 ### 用例 ②：带标签的循环，break 指定外层标签
 
-**ArkTS**（源自 `STM_08_06_005_PASS_LabeledLoopBreak.ets`）：
+**ArkTS**（源自 `STMT_08_06_005_PASS_LabeledLoopBreak.ets`）：
 ```arkts
 function testLabeledLoopBreak(): void {
     let sum: int = 0;
@@ -153,7 +153,7 @@ func testLabeledLoopBreak() {
 
 三种语言均拒绝此模式，但实现机制各不相同。
 
-**ArkTS**（源自 `STM_08_06_006_FAIL_LabelInLambdaContinue.ets` — 编译失败）：
+**ArkTS**（源自 `STMT_08_06_006_FAIL_LabelInLambdaContinue.ets` — 编译失败）：
 ```arkts
 function testLabelInLambdaContinue(): void {
     label: for (let i: int = 0; i < 10; i++) {
@@ -192,7 +192,7 @@ func testLabelInClosure() {
 
 ### 用例 ④：for-of 循环遍历数组
 
-**ArkTS**（源自 `STM_08_06_004_PASS_BasicForOf.ets`）：
+**ArkTS**（源自 `STMT_08_06_004_PASS_BasicForOf.ets`）：
 ```arkts
 function testBasicForOf(): void {
     let arr: int[] = [1, 2, 3];
@@ -231,7 +231,7 @@ func testBasicForOf() {
 
 ### 用例 ⑤：do-while 循环（循环体至少执行一次）
 
-**ArkTS**（源自 `STM_08_06_002_PASS_BasicDoWhile.ets`）：
+**ArkTS**（源自 `STMT_08_06_002_PASS_BasicDoWhile.ets`）：
 ```arkts
 function testBasicDoWhile(): void {
     let j: int = 0;
