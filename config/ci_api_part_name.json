@@ -1166,6 +1166,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.userIAM.userAuth.d.ts",
+            "bundle_name": [
+                "user_auth_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.theme.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -5989,6 +5996,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.userIAM.faceAuth.d.ts",
+            "bundle_name": [
+                "face_auth"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.SwipeRefresher.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -7277,6 +7291,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.userIAM.userAccessCtrl.d.ts",
+            "bundle_name": [
+                "user_auth_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.EditableTitleBar.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -7739,7 +7760,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.userIAM.userAuthIcon.d.ets",
+            "bundle_name": [
+                "user_auth_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.userIAM.userAuthIcon.static.d.ets",
+            "bundle_name": [
+                "user_auth_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.userIAM.userAuthIcon.static.d.ets",
             "bundle_name": [
                 "user_auth_framework"
             ],
@@ -16518,6 +16553,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.userIAM.companionDeviceAuth.d.ts",
+            "bundle_name": [
+                "companion_device_auth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.userIAM.companionDeviceAuth.d.ts",
             "bundle_name": [
                 "companion_device_auth"
             ],
