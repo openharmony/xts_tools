@@ -3049,6 +3049,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.graphics.colorSpaceManager.d.ts",
+            "bundle_name": [
+                "graphic_2d"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.charger.d.ts",
             "bundle_name": [
                 "battery_manager"
@@ -4716,6 +4723,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.graphics.hdrCapability.d.ts",
+            "bundle_name": [
+                "graphic_2d"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.graphics.hdrCapability.d.ts",
             "bundle_name": [
                 "graphic_2d"
             ],
@@ -7173,6 +7187,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.graphics.sendableColorSpaceManager.d.ets",
+            "bundle_name": [
+                "graphic_2d"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.graphics.sendableColorSpaceManager.d.ets",
             "bundle_name": [
                 "graphic_2d"
             ],
