@@ -5940,6 +5940,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.graphics.displaySync.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.backgroundTaskManager.d.ts",
             "bundle_name": [
                 "background_task_mgr"
