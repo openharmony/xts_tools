@@ -6766,6 +6766,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@system.cipher.d.ts",
+            "bundle_name": [
+                "huks"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.util.HashSet.d.ts",
             "bundle_name": [
                 "ets_utils"
