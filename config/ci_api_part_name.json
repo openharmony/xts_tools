@@ -7004,6 +7004,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.abilityToolAccessCtrl.d.ts",
+            "bundle_name": [
+                "secure_access_fence"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.abilityToolAccessCtrl.d.ts",
+            "bundle_name": [
+                "secure_access_fence"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bluetooth.pan.d.ts",
             "bundle_name": [
                 "bluetooth"
