@@ -9853,6 +9853,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/component3d.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/search.d.ts",
             "bundle_name": [
                 "ace_engine"
