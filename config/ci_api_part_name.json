@@ -1726,6 +1726,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.app.ability.appMemoryOptimizer.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.appMemoryOptimizer.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.hyperSnapManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
