@@ -1432,6 +1432,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.image.d.ts",
+            "bundle_name": [
+                "image_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.image.d.ets",
             "bundle_name": [
                 "image_framework"
@@ -3918,6 +3925,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimedia.sendableImage.d.ets",
+            "bundle_name": [
+                "image_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.sendableImage.d.ets",
             "bundle_name": [
                 "image_framework"
             ],
@@ -18306,6 +18320,13 @@
         },
         {
             "path": "interface/sdk_c/multimedia/image_framework",
+            "bundle_name": [
+                "image_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh_cn/multimedia/image_framework",
             "bundle_name": [
                 "image_framework"
             ],
