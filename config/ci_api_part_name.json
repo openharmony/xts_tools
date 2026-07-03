@@ -9853,6 +9853,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/component3d.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/search.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -11414,7 +11421,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/graphics3d/SceneTypes.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/graphics3d/SceneResources.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/graphics3d/SceneResources.d.ts",
             "bundle_name": [
                 "graphic_3d"
             ],
@@ -11428,7 +11449,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/graphics3d/Scene.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/graphics3d/SceneNodes.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/graphics3d/SceneNodes.d.ts",
             "bundle_name": [
                 "graphic_3d"
             ],
@@ -11442,7 +11477,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/graphics3d/ScenePostProcessSettings.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/graphics3d/SceneBoidsSim.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/graphics3d/SceneBoidsSim.d.ts",
             "bundle_name": [
                 "graphic_3d"
             ],
