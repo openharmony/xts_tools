@@ -8257,6 +8257,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/security_component.d.ts",
+            "bundle_name": [
+                "security_component_manager"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/stepper.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -9706,6 +9713,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/paste_button.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/grid_col.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -10071,6 +10085,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/save_button.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/save_button.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
