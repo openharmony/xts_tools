@@ -9594,6 +9594,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/stateManagement/storage/appStorageV2.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/api/arkui/stateManagement/storage/environment.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -9637,6 +9644,13 @@
         },
         {
             "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/common_ts_ets_api.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/state_management.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
