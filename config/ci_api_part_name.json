@@ -4127,7 +4127,7 @@
             "build_targets": {}
         },
         {
-            "path": "interface/sdk-js/api/@ohos.abilityAccessCtrl.d.ets",
+            "path": "interface/sdk-js/zh-cn/api/@ohos.abilityAccessCtrl.d.ts",
             "bundle_name": [
                 "access_token"
             ],
@@ -4253,7 +4253,7 @@
             "build_targets": {}
         },
         {
-            "path": "interface/sdk-js/api/@ohos.privacyManager.d.ets",
+            "path": "interface/sdk-js/zh-cn/api/@ohos.privacyManager.d.ts",
             "bundle_name": [
                 "access_token"
             ],
@@ -11869,7 +11869,7 @@
             "build_targets": {}
         },
         {
-            "path": "interface/sdk-js/api/security/PermissionRequestResult.d.ets",
+            "path": "interface/sdk-js/zh-cn/api/security/PermissionRequestResult.d.ts",
             "bundle_name": [
                 "access_token"
             ],
