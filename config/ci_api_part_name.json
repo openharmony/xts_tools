@@ -2188,6 +2188,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.ability.screenLockFileManager.d.ts",
+            "bundle_name": [
+                "access_token"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.screen.d.ts",
             "bundle_name": [
                 "window_manager"
