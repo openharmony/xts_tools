@@ -377,7 +377,7 @@ ArkTS ≈ Java ≈ Swift
 
 1. ⭐ **ArkTS 抽象方法设计质量高**：9.7.3 章节 17 个用例执行全部通过，编译期约束与运行时行为均与 spec 一致，没有设计缺陷。
 2. ⭐ **ArkTS 继承 Java 设计且有所增强**：在继承 Java 抽象方法体系的基础上，增加了 `abstract + native` 和 `abstract + async` 的互斥规则，比 Java 更严格。
-3. ⭐ **Swift 替代方案不同于 OOP 抽象**：Swift 不把 abstract 作为一流概念，而是通过 Protocol 和 Protocol Composition 实现接口分离，避免了某些 OOP 抽象的设计困境（如菱形继承）。这是设计哲学的根本差异，不是严格度的差异。
+3. ⭐ **Swift 替代方案不同于 OOP 抽象**：Swift 不把 abstract 作为一等概念，而是通过 Protocol 和 Protocol Composition 实现接口分离，避免了某些 OOP 抽象的设计困境（如菱形继承）。这是设计哲学的根本差异，不是严格度的差异。
 4. ⭐ **re-abstraction 是强大的中间层工具**：ArkTS 允许抽象子类将基类的具体方法或接口默认方法重新声明为 abstract，迫使下层必须提供新实现——这在框架设计中非常有用，和 Java 一致。
 
 ### ArkTS 设计建议
