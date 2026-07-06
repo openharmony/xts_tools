@@ -8,6 +8,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.components.ContainerReader.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/LayoutAlgorithm.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -1216,6 +1223,20 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.WithEnv.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.WithEnv.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.WithEnv.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -7809,6 +7830,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.advanced.SplitLayout.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.advanced.SplitLayout.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.contextConstant.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -8993,6 +9028,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/grid_container.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/grid_container.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -10441,6 +10483,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.component.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.componentSnapshot.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -11835,6 +11884,13 @@
         },
         {
             "path": "interface/sdk-js/api/common/full/canvaspattern.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/common/full/canvaspattern.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
