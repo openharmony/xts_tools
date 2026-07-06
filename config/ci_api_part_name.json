@@ -17315,6 +17315,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.hiviewdfx.hiRetrieval.d.ts",
+            "bundle_name": [
+                "hiview"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/arkts/builtin/static/Array.static.d.ets",
             "bundle_name": [
                 "runtime_core"
