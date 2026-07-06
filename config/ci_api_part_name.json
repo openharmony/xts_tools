@@ -2783,6 +2783,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.commonType.d.ts",
+            "bundle_name": [
+                "relational_store"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.dragController.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -6480,6 +6487,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.data.distributedDataObject.d.ts",
+            "bundle_name": [
+                "data_object"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.distributedDataObject.d.ts",
             "bundle_name": [
                 "data_object"
             ],
