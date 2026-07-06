@@ -5933,6 +5933,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.graphics.scene.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.childProcessManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -9937,6 +9944,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/component3d.d.ts",
+            "bundle_name": [
+                "graphic_3d"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/component3d.static.d.ets",
             "bundle_name": [
                 "graphic_3d"
@@ -9944,7 +9958,7 @@
             "build_targets": {}
         },
         {
-            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/component3d.d.ts",
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/component3d.static.d.ets",
             "bundle_name": [
                 "graphic_3d"
             ],
