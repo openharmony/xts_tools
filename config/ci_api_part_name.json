@@ -3280,6 +3280,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.accessibility.GesturePoint.d.ts",
+            "bundle_name": [
+                "accessibility"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.atomicservice.AtomicServiceTabs.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -3533,6 +3540,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.accessibility.d.ts",
+            "bundle_name": [
+                "accessibility"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.accessibility.d.ts",
             "bundle_name": [
                 "accessibility"
             ],
@@ -5310,6 +5324,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.accessibility.GesturePath.d.ts",
+            "bundle_name": [
+                "accessibility"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.AbilityLifecycleCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -5479,6 +5500,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.accessibility.config.d.ts",
+            "bundle_name": [
+                "accessibility"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.accessibility.config.d.ts",
             "bundle_name": [
                 "accessibility"
             ],
@@ -6739,6 +6767,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.application.AccessibilityExtensionAbility.d.ts",
+            "bundle_name": [
+                "accessibility"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.AccessibilityExtensionAbility.d.ts",
             "bundle_name": [
                 "accessibility"
             ],
@@ -14411,6 +14446,13 @@
         },
         {
             "path": "interface/sdk-js/api/application/AccessibilityExtensionContext.d.ts",
+            "bundle_name": [
+                "accessibility"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AccessibilityExtensionContext.d.ts",
             "bundle_name": [
                 "accessibility"
             ],
