@@ -1425,6 +1425,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.dataShare.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.image.d.ts",
             "bundle_name": [
                 "image_framework"
@@ -2076,6 +2083,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.DataShareExtensionAbility.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.avCastPicker.d.ets",
             "bundle_name": [
                 "av_session"
@@ -2336,6 +2350,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.data.distributedKVStore.d.ts",
+            "bundle_name": [
+                "kv_store"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.distributedKVStore.d.ts",
             "bundle_name": [
                 "kv_store"
             ],
@@ -5079,6 +5100,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.dataAbility.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.security.cert.d.ts",
             "bundle_name": [
                 "certificate_framework"
@@ -5562,6 +5590,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.ValuesBucket.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.appstartup.StartupListener.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -5899,6 +5934,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.data.distributedData.d.ts",
+            "bundle_name": [
+                "kv_store"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.distributedData.d.ts",
             "bundle_name": [
                 "kv_store"
             ],
@@ -6563,6 +6605,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.dataSharePredicates.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.modifier.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -6641,6 +6690,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.data.DataShareResultSet.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.DataShareResultSet.d.ts",
             "bundle_name": [
                 "data_share"
             ],
