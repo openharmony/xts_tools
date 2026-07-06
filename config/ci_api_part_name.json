@@ -9818,6 +9818,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/focus.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/paste_button.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -10484,6 +10491,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.Test.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.Test.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -11162,6 +11176,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.componentSnapshot.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.componentUtils.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -11169,7 +11190,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.componentUtils.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.dragController.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.dragController.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -17007,6 +17042,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/units.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/video.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -17113,6 +17155,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/gesture.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/gesture.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
