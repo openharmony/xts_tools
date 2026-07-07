@@ -1215,7 +1215,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.avVolumePanel.d.ets",
+            "bundle_name": [
+                "audio_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.avVolumePanel.static.d.ets",
+            "bundle_name": [
+                "audio_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.avVolumePanel.static.d.ets",
             "bundle_name": [
                 "audio_framework"
             ],
@@ -2112,6 +2126,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimedia.audio.d.ts",
+            "bundle_name": [
+                "audio_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.audio.d.ts",
             "bundle_name": [
                 "audio_framework"
             ],
@@ -3694,6 +3715,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimedia.audioHaptic.d.ts",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.audioHaptic.d.ts",
             "bundle_name": [
                 "player_framework"
             ],
@@ -6851,6 +6879,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimedia.systemSoundManager.d.ts",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.systemSoundManager.d.ts",
             "bundle_name": [
                 "player_framework"
             ],
@@ -12037,6 +12072,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/multimedia/systemTonePlayer.d.ts",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/multimedia/soundPool.d.ts",
             "bundle_name": [
                 "player_framework"
@@ -12058,7 +12100,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/multimedia/ringtonePlayer.d.ts",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/multimedia/SystemSoundPlayer.d.ts",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/multimedia/SystemSoundPlayer.d.ts",
             "bundle_name": [
                 "player_framework"
             ],
