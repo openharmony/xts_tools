@@ -1285,6 +1285,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.theme.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.WithEnv.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -6472,6 +6479,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@system.router.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.wantAgent.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -8776,6 +8790,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/indicatorcomponent.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/indicatorcomponent.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -16398,6 +16419,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/indicatorcomponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/inspector.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -17498,6 +17526,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.uiAppearance.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.uiAppearance.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
