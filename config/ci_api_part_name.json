@@ -2034,6 +2034,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.animation.windowAnimationManager.d.ts",
+            "bundle_name": [
+                "window_manager"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.graphics.common2D.d.ts",
             "bundle_name": [
                 "graphic_2d"
@@ -8797,6 +8804,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/remote_window.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/remote_window.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -16987,6 +17001,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/remoteWindow.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/remoteWindow.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
