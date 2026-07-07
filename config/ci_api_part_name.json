@@ -1306,6 +1306,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.inputMethodList.d.ets",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.measure.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -3343,6 +3350,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.inputMethod.d.ts",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.AtomicServiceOptions.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -4288,6 +4302,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.inputMethodEngine.d.ts",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.abilityAccessCtrl.d.ts",
             "bundle_name": [
                 "access_token"
@@ -4527,6 +4548,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.InputMethodExtensionContext.d.ts",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.InputMethodExtensionContext.d.ts",
             "bundle_name": [
                 "imf"
             ],
@@ -4954,6 +4982,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.InputMethodSubtype.d.ts",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.InputMethodSubtype.d.ts",
             "bundle_name": [
                 "imf"
             ],
@@ -6633,6 +6668,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.inputMethod.Panel.d.ts",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.util.json.d.ts",
             "bundle_name": [
                 "ets_utils"
@@ -7285,6 +7327,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.InputMethodExtensionAbility.d.ts",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.InputMethodExtensionAbility.d.ts",
             "bundle_name": [
                 "imf"
             ],
@@ -15593,7 +15642,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.inputMethod.ExtraConfig.d.ts",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.inputMethodSystemPanelManager.d.ts",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.inputMethodSystemPanelManager.d.ts",
             "bundle_name": [
                 "imf"
             ],
@@ -18642,6 +18705,13 @@
         },
         {
             "path": "interface/sdk_c/inputmethod",
+            "bundle_name": [
+                "imf"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/inputmethod",
             "bundle_name": [
                 "imf"
             ],
