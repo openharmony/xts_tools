@@ -18984,6 +18984,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/resourceschedule/qos_manager",
+            "bundle_name": [
+                "qos_manager"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/resourceschedule/background_process_manager",
             "bundle_name": [
                 "resource_schedule_service"
