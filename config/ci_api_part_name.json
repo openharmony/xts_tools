@@ -18627,6 +18627,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/hiviewdfx/hidebug",
+            "bundle_name": [
+                "hiprofiler"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/hiviewdfx/hilog",
             "bundle_name": [
                 "hilog"
