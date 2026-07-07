@@ -4512,6 +4512,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.wallpaper.d.ts",
+            "bundle_name": [
+                "wallpaper_mgr"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bluetooth.a2dp.d.ts",
             "bundle_name": [
                 "bluetooth"
@@ -6648,6 +6655,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.WallpaperExtensionAbility.d.ts",
+            "bundle_name": [
+                "wallpaper_mgr"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.WallpaperExtensionAbility.d.ts",
             "bundle_name": [
                 "wallpaper_mgr"
             ],
