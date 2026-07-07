@@ -1302,6 +1302,13 @@
             "build_targets": []
         },
         {
+            "path": "interface/sdk-js/api/@ohos.contact.numberLookup.d.ts",
+            "bundle_name": [
+                "call_manager"
+            ],
+            "build_targets": []
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.systemManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
