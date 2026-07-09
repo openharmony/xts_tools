@@ -8,7 +8,8 @@
     "**/*.md",
     "LICENSE",
     "docs/",
-    "patches/patches.json"
+    "patches/patches.json",
+    "zh-cn/multimedia/"
   ],
   "driver_interface": [
     "**/*.md",
