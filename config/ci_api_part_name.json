@@ -1460,6 +1460,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.unifiedDataChannel.d.ts",
+            "bundle_name": [
+                "udmf"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.UiTest.d.ts",
             "bundle_name": [
                 "arkxtest"
@@ -5597,6 +5604,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.uniformTypeDescriptor.d.ts",
+            "bundle_name": [
+                "udmf"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@system.sensor.d.ts",
             "bundle_name": [
                 "sensor"
@@ -7529,6 +7543,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.uniformDataStruct.d.ts",
+            "bundle_name": [
+                "udmf"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.intelligence.d.ts",
             "bundle_name": [
                 "udmf"
@@ -7543,7 +7564,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.UdmfComponents.d.ets",
+            "bundle_name": [
+                "udmf"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.UdmfComponents.static.d.ets",
+            "bundle_name": [
+                "udmf"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.UdmfComponents.static.d.ets",
             "bundle_name": [
                 "udmf"
             ],
