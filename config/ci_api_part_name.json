@@ -10812,13 +10812,6 @@
             "build_targets": {}
         },
         {
-            "path": "interface/sdk-js/api/arkui/XComponentNode.d.ets",
-            "bundle_name": [
-                "ace_engine"
-            ],
-            "build_targets": {}
-        },
-        {
             "path": "interface/sdk-js/api/arkui/component/alphabetIndexer.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -13249,6 +13242,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/XComponentNode.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+                {
+            "path": "interface/sdk-js/zh-cn/api/arkui/XComponentNode.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
