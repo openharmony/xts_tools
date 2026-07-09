@@ -5765,6 +5765,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.telephony.sim.d.ts",
+            "bundle_name": [
+                "core_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.reminderAgent.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
