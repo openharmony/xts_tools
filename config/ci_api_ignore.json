@@ -9,7 +9,8 @@
     "LICENSE",
     "docs/",
     "patches/patches.json",
-    "zh-cn/multimedia/"
+    "zh-cn/multimedia/",
+    "zh-cn/network/"
   ],
   "driver_interface": [
     "**/*.md",
