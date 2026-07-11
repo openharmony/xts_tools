@@ -18816,6 +18816,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/filemanagement/swapfs",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/filemanagement/swapfs",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/global/resource_management",
             "bundle_name": [
                 "resource_management"
