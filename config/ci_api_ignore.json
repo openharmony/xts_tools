@@ -10,7 +10,8 @@
     "docs/",
     "patches/patches.json",
     "zh-cn/multimedia/",
-    "zh-cn/network/"
+    "zh-cn/network/",
+    "zh-cn/hiviewdfx/hiappevent/"
   ],
   "driver_interface": [
     "**/*.md",
