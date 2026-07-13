@@ -6892,6 +6892,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.i18n.d.ts",
+            "bundle_name": [
+                "i18n"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.i18n.static.d.ets",
+            "bundle_name": [
+                "i18n"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.dataSharePredicates.d.ts",
             "bundle_name": [
                 "data_share"
@@ -7943,6 +7957,20 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.intl.static.d.ets",
+            "bundle_name": [
+                "i18n"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.intl.d.ts",
+            "bundle_name": [
+                "i18n"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.intl.static.d.ets",
             "bundle_name": [
                 "i18n"
             ],
@@ -18887,6 +18915,13 @@
         },
         {
             "path": "interface/sdk_c/global/i18n",
+            "bundle_name": [
+                "i18n"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/global/i18n",
             "bundle_name": [
                 "i18n"
             ],
