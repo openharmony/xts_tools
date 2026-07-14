@@ -4239,6 +4239,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.resourceschedule.systemload.d.ts",
+            "bundle_name": [
+                "resource_schedule_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.resourceManager.d.ts",
             "bundle_name": [
                 "resource_management"
