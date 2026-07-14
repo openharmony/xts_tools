@@ -19243,6 +19243,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/security/access_token",
+            "bundle_name": [
+                "access_token"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/security/asset",
             "bundle_name": [
                 "asset"
