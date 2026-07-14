@@ -1,0 +1,584 @@
+﻿{
+    "sections":  [
+                     {
+                         "runtime":  2,
+                         "pass":  5,
+                         "name":  "5.1_Type_Parameters",
+                         "fail":  4,
+                         "total":  11
+                     },
+                     {
+                         "runtime":  1,
+                         "pass":  6,
+                         "name":  "5.1.1_Type_Parameter_Constraint",
+                         "fail":  6,
+                         "total":  13
+                     },
+                     {
+                         "runtime":  2,
+                         "pass":  4,
+                         "name":  "5.1.2_Type_Parameter_Default",
+                         "fail":  2,
+                         "total":  8
+                     },
+                     {
+                         "runtime":  1,
+                         "pass":  10,
+                         "name":  "5.1.3_Type_Parameter_Variance",
+                         "fail":  6,
+                         "total":  17
+                     },
+                     {
+                         "runtime":  1,
+                         "pass":  2,
+                         "name":  "5.1.4_Wildcard_Type",
+                         "fail":  8,
+                         "total":  11
+                     },
+                     {
+                         "runtime":  1,
+                         "pass":  5,
+                         "name":  "5.2_Generics_Instantiations/5.2.1_Type_Arguments",
+                         "fail":  1,
+                         "total":  7
+                     },
+                     {
+                         "runtime":  1,
+                         "pass":  5,
+                         "name":  "5.2_Generics_Instantiations/5.2.2_Explicit_Generic_Instantiations",
+                         "fail":  4,
+                         "total":  10
+                     },
+                     {
+                         "runtime":  1,
+                         "pass":  3,
+                         "name":  "5.2_Generics_Instantiations/5.2.3_Implicit_Generic_Instantiations",
+                         "fail":  3,
+                         "total":  7
+                     },
+                     {
+                         "runtime":  3,
+                         "pass":  13,
+                         "name":  "5.2_Generics_Instantiations",
+                         "fail":  8,
+                         "total":  24
+                     }
+                 ],
+    "categories":  [
+                       "compile-pass",
+                       "compile-fail",
+                       "runtime"
+                   ],
+    "total_cases":  84,
+    "cases":  [
+                  {
+                      "section":  "5.1_Type_Parameters",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_001_PASS_BASIC_GENERIC_CLASS",
+                      "id":  "GEN_05_01_001_PASS_BASIC_GENERIC_CLASS"
+                  },
+                  {
+                      "section":  "5.1_Type_Parameters",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_002_PASS_GENERIC_INTERFACE",
+                      "id":  "GEN_05_01_002_PASS_GENERIC_INTERFACE"
+                  },
+                  {
+                      "section":  "5.1_Type_Parameters",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_003_PASS_GENERIC_FUNCTION",
+                      "id":  "GEN_05_01_003_PASS_GENERIC_FUNCTION"
+                  },
+                  {
+                      "section":  "5.1_Type_Parameters",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_004_PASS_GENERIC_TYPE_ALIAS",
+                      "id":  "GEN_05_01_004_PASS_GENERIC_TYPE_ALIAS"
+                  },
+                  {
+                      "section":  "5.1_Type_Parameters",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_005_PASS_MULTIPLE_PARAMS",
+                      "id":  "GEN_05_01_005_PASS_MULTIPLE_PARAMS"
+                  },
+                  {
+                      "section":  "5.1_Type_Parameters",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_100_FAIL_CIRCULAR_SELF",
+                      "id":  "GEN_05_01_100_FAIL_CIRCULAR_SELF"
+                  },
+                  {
+                      "section":  "5.1_Type_Parameters",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_101_FAIL_CIRCULAR_MUTUAL",
+                      "id":  "GEN_05_01_101_FAIL_CIRCULAR_MUTUAL"
+                  },
+                  {
+                      "section":  "5.1_Type_Parameters",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_102_FAIL_CIRCULAR_MUTUAL_UNION",
+                      "id":  "GEN_05_01_102_FAIL_CIRCULAR_MUTUAL_UNION"
+                  },
+                  {
+                      "section":  "5.1_Type_Parameters",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_103_FAIL_CIRCULAR_WITH_DEFAULT",
+                      "id":  "GEN_05_01_103_FAIL_CIRCULAR_WITH_DEFAULT"
+                  },
+                  {
+                      "section":  "5.1_Type_Parameters",
+                      "category":  "runtime",
+                      "description":  "GEN_05_01_200_RUNTIME_GENERIC_CLASS",
+                      "id":  "GEN_05_01_200_RUNTIME_GENERIC_CLASS"
+                  },
+                  {
+                      "section":  "5.1_Type_Parameters",
+                      "category":  "runtime",
+                      "description":  "GEN_05_01_201_RUNTIME_GENERIC_FUNCTION",
+                      "id":  "GEN_05_01_201_RUNTIME_GENERIC_FUNCTION"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_01_001_PASS_CONSTRAINT_CLASS",
+                      "id":  "GEN_05_01_01_001_PASS_CONSTRAINT_CLASS"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_01_002_PASS_CONSTRAINT_UNION",
+                      "id":  "GEN_05_01_01_002_PASS_CONSTRAINT_UNION"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_01_003_PASS_CONSTRAINT_LITERAL_UNION",
+                      "id":  "GEN_05_01_01_003_PASS_CONSTRAINT_LITERAL_UNION"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_01_004_PASS_CONSTRAINT_KEYOF",
+                      "id":  "GEN_05_01_01_004_PASS_CONSTRAINT_KEYOF"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_01_005_PASS_DEPENDENT_PARAM",
+                      "id":  "GEN_05_01_01_005_PASS_DEPENDENT_PARAM"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_01_006_PASS_CONSTRAINT_DERIVED",
+                      "id":  "GEN_05_01_01_006_PASS_CONSTRAINT_DERIVED"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_01_100_FAIL_CONSTRAINT_NOT_SATISFIED",
+                      "id":  "GEN_05_01_01_100_FAIL_CONSTRAINT_NOT_SATISFIED"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_01_101_FAIL_CONSTRAINT_UNION_NOT_SATISFIED",
+                      "id":  "GEN_05_01_01_101_FAIL_CONSTRAINT_UNION_NOT_SATISFIED"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_01_102_FAIL_LITERAL_CONSTRAINT",
+                      "id":  "GEN_05_01_01_102_FAIL_LITERAL_CONSTRAINT"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_01_103_FAIL_KEYOF_CONSTRAINT",
+                      "id":  "GEN_05_01_01_103_FAIL_KEYOF_CONSTRAINT"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_01_104_FAIL_DEPENDENT_NOT_SATISFIED",
+                      "id":  "GEN_05_01_01_104_FAIL_DEPENDENT_NOT_SATISFIED"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "runtime",
+                      "description":  "GEN_05_01_01_200_RUNTIME_CONSTRAINT_CLASS",
+                      "id":  "GEN_05_01_01_200_RUNTIME_CONSTRAINT_CLASS"
+                  },
+                  {
+                      "section":  "5.1.2_Type_Parameter_Default",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_02_001_PASS_TYPE_PARAM_DEFAULT",
+                      "id":  "GEN_05_01_02_001_PASS_TYPE_PARAM_DEFAULT"
+                  },
+                  {
+                      "section":  "5.1.2_Type_Parameter_Default",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_02_002_PASS_MULTI_DEFAULT",
+                      "id":  "GEN_05_01_02_002_PASS_MULTI_DEFAULT"
+                  },
+                  {
+                      "section":  "5.1.2_Type_Parameter_Default",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_02_003_PASS_FUNC_DEFAULT",
+                      "id":  "GEN_05_01_02_003_PASS_FUNC_DEFAULT"
+                  },
+                  {
+                      "section":  "5.1.2_Type_Parameter_Default",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_02_004_PASS_DEFAULT_EQUIV",
+                      "id":  "GEN_05_01_02_004_PASS_DEFAULT_EQUIV"
+                  },
+                  {
+                      "section":  "5.1.2_Type_Parameter_Default",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_02_100_FAIL_DEFAULT_AFTER_NO_DEFAULT",
+                      "id":  "GEN_05_01_02_100_FAIL_DEFAULT_AFTER_NO_DEFAULT"
+                  },
+                  {
+                      "section":  "5.1.2_Type_Parameter_Default",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_02_101_FAIL_DEFAULT_REF_FORWARD",
+                      "id":  "GEN_05_01_02_101_FAIL_DEFAULT_REF_FORWARD"
+                  },
+                  {
+                      "section":  "5.1.2_Type_Parameter_Default",
+                      "category":  "runtime",
+                      "description":  "GEN_05_01_02_200_RUNTIME_DEFAULT_TYPE_ARG",
+                      "id":  "GEN_05_01_02_200_RUNTIME_DEFAULT_TYPE_ARG"
+                  },
+                  {
+                      "section":  "5.1.2_Type_Parameter_Default",
+                      "category":  "runtime",
+                      "description":  "GEN_05_01_02_201_RUNTIME_FUNC_EXPLICIT_DEFAULT",
+                      "id":  "GEN_05_01_02_201_RUNTIME_FUNC_EXPLICIT_DEFAULT"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_03_001_PASS_RETURN",
+                      "id":  "GEN_05_01_03_001_PASS_RETURN"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_03_002_PASS_VARIANCE",
+                      "id":  "GEN_05_01_03_002_PASS_VARIANCE"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_03_003_PASS_READONLY",
+                      "id":  "GEN_05_01_03_003_PASS_READONLY"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_03_004_PASS_PARAM",
+                      "id":  "GEN_05_01_03_004_PASS_PARAM"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_03_005_PASS_POS",
+                      "id":  "GEN_05_01_03_005_PASS_POS"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_03_006_PASS_INTERLEAVE",
+                      "id":  "GEN_05_01_03_006_PASS_INTERLEAVE"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_03_007_PASS_CONSTRUCTOR",
+                      "id":  "GEN_05_01_03_007_PASS_CONSTRUCTOR"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_03_008_PASS_COVARIANT_OUT",
+                      "id":  "GEN_05_01_03_008_PASS_COVARIANT_OUT"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_03_009_PASS_CALLBACK_PARAM_INTERLEAVING",
+                      "id":  "GEN_05_01_03_009_PASS_CALLBACK_PARAM_INTERLEAVING"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_03_010_PASS_CALLBACK_RETURN_INTERLEAVING",
+                      "id":  "GEN_05_01_03_010_PASS_CALLBACK_RETURN_INTERLEAVING"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_03_100_FAIL_VARIANCE",
+                      "id":  "GEN_05_01_03_100_FAIL_VARIANCE"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_03_101_FAIL_POSITION",
+                      "id":  "GEN_05_01_03_101_FAIL_POSITION"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_03_102_FAIL_FIELD",
+                      "id":  "GEN_05_01_03_102_FAIL_FIELD"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_03_103_FAIL_RETURN",
+                      "id":  "GEN_05_01_03_103_FAIL_RETURN"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_03_104_FAIL_FIELD",
+                      "id":  "GEN_05_01_03_104_FAIL_FIELD"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_03_106_FAIL_PARAM",
+                      "id":  "GEN_05_01_03_106_FAIL_PARAM"
+                  },
+                  {
+                      "section":  "5.1.3_Type_Parameter_Variance",
+                      "category":  "runtime",
+                      "description":  "GEN_05_01_03_200_RUNTIME_COVARIANT_OUT",
+                      "id":  "GEN_05_01_03_200_RUNTIME_COVARIANT_OUT"
+                  },
+                  {
+                      "section":  "5.1.4_Wildcard_Type",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_04_001_PASS_WILDCARD_DECL",
+                      "id":  "GEN_05_01_04_001_PASS_WILDCARD_DECL"
+                  },
+                  {
+                      "section":  "5.1.4_Wildcard_Type",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_01_04_002_PASS_INSTANCEOF_WILDCARD",
+                      "id":  "GEN_05_01_04_002_PASS_INSTANCEOF_WILDCARD"
+                  },
+                  {
+                      "section":  "5.1.4_Wildcard_Type",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_04_100_FAIL_ANY",
+                      "id":  "GEN_05_01_04_100_FAIL_ANY"
+                  },
+                  {
+                      "section":  "5.1.4_Wildcard_Type",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_04_101_FAIL_CONSTRAINT",
+                      "id":  "GEN_05_01_04_101_FAIL_CONSTRAINT"
+                  },
+                  {
+                      "section":  "5.1.4_Wildcard_Type",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_04_102_FAIL_POS",
+                      "id":  "GEN_05_01_04_102_FAIL_POS"
+                  },
+                  {
+                      "section":  "5.1.4_Wildcard_Type",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_04_103_FAIL_INVARIANT",
+                      "id":  "GEN_05_01_04_103_FAIL_INVARIANT"
+                  },
+                  {
+                      "section":  "5.1.4_Wildcard_Type",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_04_104_FAIL_NEVER",
+                      "id":  "GEN_05_01_04_104_FAIL_NEVER"
+                  },
+                  {
+                      "section":  "5.1.4_Wildcard_Type",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_04_105_FAIL_C",
+                      "id":  "GEN_05_01_04_105_FAIL_C"
+                  },
+                  {
+                      "section":  "5.1.4_Wildcard_Type",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_04_106_FAIL_WRITE",
+                      "id":  "GEN_05_01_04_106_FAIL_WRITE"
+                  },
+                  {
+                      "section":  "5.1.4_Wildcard_Type",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_04_107_FAIL_ASSIGN",
+                      "id":  "GEN_05_01_04_107_FAIL_ASSIGN"
+                  },
+                  {
+                      "section":  "5.1.4_Wildcard_Type",
+                      "category":  "runtime",
+                      "description":  "GEN_05_01_04_200_RUNTIME_WILDCARD",
+                      "id":  "GEN_05_01_04_200_RUNTIME_WILDCARD"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.1_Type_Arguments",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_01_001_PASS_TYPE_ARG_NUMBER",
+                      "id":  "GEN_05_02_01_001_PASS_TYPE_ARG_NUMBER"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.1_Type_Arguments",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_01_002_PASS_TYPE_ARG_UNION",
+                      "id":  "GEN_05_02_01_002_PASS_TYPE_ARG_UNION"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.1_Type_Arguments",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_01_003_PASS_TYPE_ARG_ARRAY",
+                      "id":  "GEN_05_02_01_003_PASS_TYPE_ARG_ARRAY"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.1_Type_Arguments",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_01_004_PASS_TYPE_ARG_TUPLE",
+                      "id":  "GEN_05_02_01_004_PASS_TYPE_ARG_TUPLE"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.1_Type_Arguments",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_01_005_PASS_TYPE_ARG_FUNC_TYPE",
+                      "id":  "GEN_05_02_01_005_PASS_TYPE_ARG_FUNC_TYPE"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.1_Type_Arguments",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_02_01_100_FAIL_INVALID_TYPE_ARG",
+                      "id":  "GEN_05_02_01_100_FAIL_INVALID_TYPE_ARG"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.1_Type_Arguments",
+                      "category":  "runtime",
+                      "description":  "GEN_05_02_01_200_RUNTIME_TYPE_ARG",
+                      "id":  "GEN_05_02_01_200_RUNTIME_TYPE_ARG"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.2_Explicit_Generic_Instantiations",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_02_001_PASS_EXPLICIT_CLASS_INST",
+                      "id":  "GEN_05_02_02_001_PASS_EXPLICIT_CLASS_INST"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.2_Explicit_Generic_Instantiations",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_02_002_PASS_EXPLICIT_METHOD_INST",
+                      "id":  "GEN_05_02_02_002_PASS_EXPLICIT_METHOD_INST"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.2_Explicit_Generic_Instantiations",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_02_003_PASS_EXPLICIT_FUNC_INST",
+                      "id":  "GEN_05_02_02_003_PASS_EXPLICIT_FUNC_INST"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.2_Explicit_Generic_Instantiations",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_02_004_PASS_EXPLICIT_TYPE_ALIAS",
+                      "id":  "GEN_05_02_02_004_PASS_EXPLICIT_TYPE_ALIAS"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.2_Explicit_Generic_Instantiations",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_02_005_PASS_PARTIAL_INST_GENERIC",
+                      "id":  "GEN_05_02_02_005_PASS_PARTIAL_INST_GENERIC"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.2_Explicit_Generic_Instantiations",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_02_02_100_FAIL_NON_GENERIC_WITH_ARGS",
+                      "id":  "GEN_05_02_02_100_FAIL_NON_GENERIC_WITH_ARGS"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.2_Explicit_Generic_Instantiations",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_02_02_101_FAIL_ARG_COUNT_MISMATCH",
+                      "id":  "GEN_05_02_02_101_FAIL_ARG_COUNT_MISMATCH"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.2_Explicit_Generic_Instantiations",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_02_02_102_FAIL_CONSTRAINT_VIOLATION",
+                      "id":  "GEN_05_02_02_102_FAIL_CONSTRAINT_VIOLATION"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.2_Explicit_Generic_Instantiations",
+                      "category":  "runtime",
+                      "description":  "GEN_05_02_02_200_RUNTIME_EXPLICIT_INST",
+                      "id":  "GEN_05_02_02_200_RUNTIME_EXPLICIT_INST"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.3_Implicit_Generic_Instantiations",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_03_001_PASS_IMPLICIT_FUNC_INFER",
+                      "id":  "GEN_05_02_03_001_PASS_IMPLICIT_FUNC_INFER"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.3_Implicit_Generic_Instantiations",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_03_002_PASS_IMPLICIT_MULTI_INFER",
+                      "id":  "GEN_05_02_03_002_PASS_IMPLICIT_MULTI_INFER"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.3_Implicit_Generic_Instantiations",
+                      "category":  "compile-pass",
+                      "description":  "GEN_05_02_03_003_PASS_METHOD_DEFAULT_FROM_CLASS",
+                      "id":  "GEN_05_02_03_003_PASS_METHOD_DEFAULT_FROM_CLASS"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.3_Implicit_Generic_Instantiations",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_02_03_100_FAIL_CANNOT_INFER",
+                      "id":  "GEN_05_02_03_100_FAIL_CANNOT_INFER"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.3_Implicit_Generic_Instantiations",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_02_03_101_FAIL_INFER_NO_CONTEXT",
+                      "id":  "GEN_05_02_03_101_FAIL_INFER_NO_CONTEXT"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.3_Implicit_Generic_Instantiations",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_02_03_102_FAIL_DEFAULT_ORDER_IMPLICIT",
+                      "id":  "GEN_05_02_03_102_FAIL_DEFAULT_ORDER_IMPLICIT"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.3_Implicit_Generic_Instantiations",
+                      "category":  "runtime",
+                      "description":  "GEN_05_02_03_200_RUNTIME_IMPLICIT_INST",
+                      "id":  "GEN_05_02_03_200_RUNTIME_IMPLICIT_INST"
+                  },
+                  {
+                      "section":  "5.1.1_Type_Parameter_Constraint",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_01_01_105_FAIL_UNCONSTRAINED_OBJECT",
+                      "id":  "GEN_05_01_01_105_FAIL_UNCONSTRAINED_OBJECT"
+                  },
+                  {
+                      "section":  "5.2_Generics_Instantiations/5.2.2_Explicit_Generic_Instantiations",
+                      "category":  "compile-fail",
+                      "description":  "GEN_05_02_02_103_FAIL_PROVABLY_DISTINCT",
+                      "id":  "GEN_05_02_02_103_FAIL_PROVABLY_DISTINCT"
+                  }
+              ],
+    "chapter":  "05_Generics",
+    "case_roots":  [
+                       "ets_cases"
+                   ],
+    "prefix":  "GEN_"
+}
