@@ -4855,6 +4855,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.hiviewdfx.FaultLogExtensionAbility.d.ts",
+            "bundle_name": [
+                "hiview"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@system.battery.d.ts",
             "bundle_name": [
                 "battery_lite"
@@ -6200,6 +6207,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.faultLogger.d.ts",
+            "bundle_name": [
+                "hiview"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.faultLogger.d.ts",
             "bundle_name": [
                 "hiview"
             ],
@@ -13963,6 +13977,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.hiviewdfx.FaultLogExtensionContext.d.ts",
+            "bundle_name": [
+                "hiview"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.hiviewdfx.FaultLogExtensionContext.d.ts",
             "bundle_name": [
                 "hiview"
             ],
