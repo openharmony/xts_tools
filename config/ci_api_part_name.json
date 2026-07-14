@@ -18513,6 +18513,41 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/distributeddatamgr/udmf/include/udmf.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/distributeddatamgr/udmf/include/udmf_err_code.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/distributeddatamgr/udmf/include/udmf_meta.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/distributeddatamgr/udmf/include/uds.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/distributeddatamgr/udmf/include/utd.h",
+            "bundle_name": [
+                "player_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/BasicServicesKit",
             "bundle_name": [
                 "os_account",
