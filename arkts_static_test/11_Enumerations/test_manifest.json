@@ -1,0 +1,23 @@
+{
+  "chapter": "11",
+  "topic": "Enumerations",
+  "directory": "11_Enumerations",
+  "spec_source": "ArkTS static language specification",
+  "total_cases": 44,
+  "subtopics": [
+    "11_Enumerations",
+    "11.1_Enumeration_Base_Type",
+    "11.2_Enumeration_with_Explicit_Base_Type",
+    "11.3_Initialization_of_Enumeration_Members",
+    "11.4_Enumeration_Methods"
+  ],
+  "case_roots": ["ets_cases"],
+  "categories": ["compile-pass", "compile-fail", "runtime"],
+  "stats": {
+    "11_Enumerations": {"compile-pass": 6, "compile-fail": 2, "runtime": 1, "total": 9},
+    "11.1_Enumeration_Base_Type": {"compile-pass": 5, "compile-fail": 3, "runtime": 0, "total": 8},
+    "11.2_Enumeration_with_Explicit_Base_Type": {"compile-pass": 3, "compile-fail": 4, "runtime": 1, "total": 8},
+    "11.3_Initialization_of_Enumeration_Members": {"compile-pass": 4, "compile-fail": 3, "runtime": 1, "total": 8},
+    "11.4_Enumeration_Methods": {"compile-pass": 2, "compile-fail": 2, "runtime": 7, "total": 11}
+  }
+}
