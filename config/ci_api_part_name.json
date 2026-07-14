@@ -3896,6 +3896,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.hiviewdfx.hiAppEvent.d.ts",
+            "bundle_name": [
+                "hiappevent"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundle.bundleManager.d.ts",
             "bundle_name": [
                 "bundle_framework"
@@ -4156,6 +4163,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.hiAppEvent.d.ts",
+            "bundle_name": [
+                "hiappevent"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.hiAppEvent.d.ts",
             "bundle_name": [
                 "hiappevent"
             ],
