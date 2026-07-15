@@ -6528,6 +6528,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.resourceschedule.backgroundLoader.d.ts",
+            "bundle_name": [
+                "work_scheduler"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.resourceschedule.backgroundLoader.d.ts",
+            "bundle_name": [
+                "work_scheduler"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.process.d.ts",
             "bundle_name": [
                 "ets_utils"
