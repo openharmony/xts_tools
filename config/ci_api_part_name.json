@@ -4827,6 +4827,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.calendarManager.d.ts",
+            "bundle_name": [
+                "calendar_data"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.calendarManager.d.ts",
             "bundle_name": [
                 "calendar_data"
