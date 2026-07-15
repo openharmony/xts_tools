@@ -1404,6 +1404,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.avsession.d.ts",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.avMusicTemplate.d.ts",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/permissions.d.ts",
             "bundle_name": [
                 "access_token"
@@ -2266,6 +2280,34 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimedia.avInputCastPicker.static.d.ets",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.avCastPicker.d.ets",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.avCastPicker.static.d.ets",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.avInputCastPicker.d.ets",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.avInputCastPicker.static.d.ets",
             "bundle_name": [
                 "av_session"
             ],
@@ -4162,6 +4204,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.MediaControlExtensionAbility.d.ts",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.hiAppEvent.d.ts",
             "bundle_name": [
                 "hiappevent"
@@ -4394,6 +4443,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimedia.avCastPickerParam.d.ts",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.avCastPickerParam.d.ts",
             "bundle_name": [
                 "av_session"
             ],
@@ -14536,6 +14592,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/MediaControlExtensionContext.d.ts",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/application/AbilityStageContext.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -19139,6 +19202,13 @@
         },
         {
             "path": "interface/sdk_c/multimedia/av_session",
+            "bundle_name": [
+                "av_session"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/av_session",
             "bundle_name": [
                 "av_session"
             ],
