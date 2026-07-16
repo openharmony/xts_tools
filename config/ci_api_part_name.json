@@ -2545,6 +2545,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.fileuri.d.ts",
+            "bundle_name": [
+                "app_file_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.dialog.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -3414,6 +3421,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.backup.d.ts",
+            "bundle_name": [
+                "app_file_service"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.backup.d.ts",
             "bundle_name": [
                 "app_file_service"
             ],
@@ -5296,6 +5310,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.BackupExtensionContext.d.ts",
+            "bundle_name": [
+                "app_file_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.router.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -5395,6 +5416,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.application.BackupExtensionAbility.d.ts",
+            "bundle_name": [
+                "app_file_service"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.BackupExtensionAbility.d.ts",
             "bundle_name": [
                 "app_file_service"
             ],
