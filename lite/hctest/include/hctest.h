@@ -41,7 +41,11 @@ typedef struct TestSuiteManager {
      * @return the TestSuite point
      * */
     CTestSuite *(*GetTestSuite)(const char *test_suite);
+#ifdef HCTEST_RODATA_OPT
+    BOOL (*RegisterSuiteDesc)(const SuiteDesc *desc);
+#else
     BOOL (*RegisterTestSuite)(CTestSuite *testSuite);
+#endif
 
     /**
      * @brief remove the test suite.
@@ -55,7 +59,11 @@ typedef struct TestSuiteManager {
      * @param the test case addr.
      * @return TRUE success
      * */
+#ifdef HCTEST_NEW_RUNNER
+    void (*AddTestCase)(const CTestCase *testCase);
+#else
     void (*AddTestCase)(CTestCase *testCase);
+#endif
 
     /**
      * @brief remove special test suite.
@@ -70,6 +78,74 @@ typedef struct TestSuiteManager {
 } TestSuiteManager;
 TestSuiteManager *GetTestMgrInstance(void);
 
+#ifdef HCTEST_NEW_RUNNER
+/* HCTEST_NEW_RUNNER path: RunAllXtsTests + .xts_init mechanism (overlaydemo).
+ * Active when either xts_overlay or hctest_rodata_opt is on. */
+#ifdef HCTEST_RODATA_OPT
+/* B&C: read-only SuiteDesc in .rodata; .xts_init ptr registers it. */
+#define LITE_TEST_SUIT(subsystem, module, test_suite)                  \
+    static const SuiteDesc suite_desc_##test_suite = {                 \
+        .subsystem_name = #subsystem,                                  \
+        .module_name = #module,                                        \
+        .suite_name = #test_suite,                                     \
+        .file = __FILE__,                                              \
+        .times = HCTEST_REPEAT_TIMES,                                  \
+    };                                                                 \
+    static void initSuite##test_suite(void);                           \
+    __attribute__((section(".xts_init." MODULE_NAME), used))           \
+    static void (*__xts_init_suite_ptr_##test_suite)(void) = initSuite##test_suite; \
+    static void initSuite##test_suite(void)                           \
+    {                                                                  \
+        TestSuiteManager *testMgr = GetTestMgrInstance();              \
+        testMgr->RegisterSuiteDesc(&suite_desc_##test_suite);          \
+    }
+#else
+/* overlaydemo: mutable CTestSuite suite_object in .bss, filled at runtime; .xts_init ptr registers it. */
+#define LITE_TEST_SUIT(subsystem, module, test_suite)                  \
+    static void initSuite##test_suite(void);                            \
+    __attribute__((section(".xts_init." MODULE_NAME), used))            \
+    static void (*__xts_init_suite_ptr_##test_suite)(void) = initSuite##test_suite; \
+    static CTestSuite suite_object##test_suite;                        \
+    static void initSuite##test_suite(void)                            \
+    {                                                                  \
+        suite_object##test_suite.subsystem_name = #subsystem;          \
+        suite_object##test_suite.module_name = #module;                \
+        suite_object##test_suite.suite_name = #test_suite;             \
+        suite_object##test_suite.file = __FILE__;                      \
+        suite_object##test_suite.times = HCTEST_REPEAT_TIMES;          \
+        suite_object##test_suite.test_cases = VECTOR_Make(NULL, NULL); \
+        TestSuiteManager *testMgr = GetTestMgrInstance();              \
+        testMgr->RegisterTestSuite(&(suite_object##test_suite));       \
+    }
+#endif
+
+#define LITE_TEST_CASE(test_suite, case_object, test_flag)        \
+    static void case_object##_runTest(void);                      \
+    static CTestCase create##case_object;                         \
+    static void initCase##case_object(void)                       \
+    {                                                             \
+        create##case_object.suite_name = #test_suite;             \
+        create##case_object.case_name = #case_object;             \
+        create##case_object.flag = test_flag;                     \
+        create##case_object.line_num = __LINE__;                  \
+        create##case_object.lite_setup = test_suite##SetUp;       \
+        create##case_object.lite_teardown = test_suite##TearDown; \
+        create##case_object.execute_func = case_object##_runTest; \
+        TestSuiteManager *testMgr = GetTestMgrInstance();         \
+        testMgr->AddTestCase(&(create##case_object));             \
+    }                                                             \
+    SYS_RUN(initCase##case_object);                               \
+    static void case_object##_runTest(void)
+
+#define RUN_TEST_SUITE(test_suite)                        \
+    static void runSuite##test_suite(void)                \
+    {                                                     \
+        TestSuiteManager *testMgr = GetTestMgrInstance(); \
+        testMgr->RunTestSuite(#test_suite);               \
+    }                                                     \
+    TEST_INIT(runSuite##test_suite);
+
+#else /* !HCTEST_NEW_RUNNER — pristine (both features off) */
 #define LITE_TEST_SUIT(subsystem, module, test_suite)                  \
     static CTestSuite suite_object##test_suite;                        \
     static void initSuite##test_suite(void)                            \
@@ -110,6 +186,7 @@ TestSuiteManager *GetTestMgrInstance(void);
         testMgr->RunTestSuite(#test_suite);               \
     }                                                     \
     TEST_INIT(runSuite##test_suite);
+#endif /* HCTEST_NEW_RUNNER */
 
 void LiteTestPrint(const char *fmt, ...);
 

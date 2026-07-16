@@ -10,6 +10,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+import("//test/xts/tools/lite/hctest/hctest_opt_args.gni")
+
 static_library("hctest") {
   sources = [
     "//third_party/unity/src/unity.c",
@@ -33,7 +35,39 @@ static_library("hctest") {
 
   defines = [ "UNITY_INCLUDE_CONFIG_H" ]
 
+  # XTS bss overlay isolation: gates __xts_overlay_* refs in hctest.c and the
+  # XTS_DATA/XTS_BSS section macros in hctest_internal.h. The matching link.ld.S
+  # OVERLAY block is gated by the same macro on the scons side.
+  if (xts_overlay) {
+    defines += [ "XTS_OVERLAY_ENABLE" ]
+  }
+
+  # hctest RAM optimization isolation: gates SuiteDesc (.rodata) registration
+  # and Flash-pointer case storage in hctest.h/hctest_internal.h/hctest.c.
+  # When off, hctest uses the original .bss suite_object + malloc'd case copies.
+  if (hctest_rodata_opt) {
+    defines += [ "HCTEST_RODATA_OPT" ]
+  }
+
+  # HCTEST_NEW_RUNNER: the RunAllXtsTests + .xts_init mechanism (overlaydemo).
+  # Active when either feature is on; when both off, hctest falls back to the
+  # pristine SYS_SERVICE_INIT/SYS_RUN/RUN_TEST_SUITE mechanism (via INIT_TEST_CALL).
+  if (xts_overlay || hctest_rodata_opt) {
+    defines += [ "HCTEST_NEW_RUNNER" ]
+  }
+
+  # TestService task config (GetTaskConfig in hctest_service.c), overridable
+  # from the command line. Defaults reproduce {0x1800, 20, SINGLE_TASK}.
+  defines += [
+    "HCTEST_TASK_STACK_SIZE=$hctest_task_stack_size",
+    "HCTEST_TASK_QUEUE_SIZE=$hctest_task_queue_size",
+    "HCTEST_TASK_TYPE=$hctest_task_type",
+  ]
+
   deps = []
+  if (hctest_rodata_opt) {
+    deps += [ "//foundation/systemabilitymgr/samgr_lite/samgr/adapter:samgr_adapter" ]
+  }
 
   if (board_toolchain_type != "iccarm") {
     cflags = [ "-Wno-error" ]
