@@ -15964,6 +15964,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.distributedHardware.mechanicManager.d.ts",
+            "bundle_name": [
+                "mechbody_controller"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/kits/@kit.MechanicKit.d.ts",
             "bundle_name": [
                 "mechbody_controller"
