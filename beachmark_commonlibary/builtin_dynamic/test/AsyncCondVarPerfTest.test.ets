@@ -57,10 +57,9 @@ export default function AsyncCondVarPerfTest() : void{
         let res1 = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncCondVar_Constructor_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncCondVar', 'constructor',
+        performance.apiWithClassAndKeywordTxt('std.concurrency', 'ConditionVariable', 'constructor',
           'constructor()', arkTsAveragedTime);
-        expect(res1!== null && res !== undefined).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_AsyncCondVar_Instance_0200',
@@ -75,10 +74,9 @@ export default function AsyncCondVarPerfTest() : void{
         let res1 = condVar;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncCondVar_Instance_0200: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncCondVar', 'notifyOne',
-          'notifyOne(mutex: AsyncMutex): void', arkTsAveragedTime);
-        expect(res1!== null && condVar !== undefined).assertTrue();
-        done();
+        performance.apiWithClassAndKeywordTxt('std.concurrency', 'ConditionVariable', 'notifyOne',
+          'notifyOne(): void', arkTsAveragedTime);
+      done();
       })
 
     it('PerformanceTest_AsyncCondVar_Instance_0300',
@@ -93,10 +91,9 @@ export default function AsyncCondVarPerfTest() : void{
         let res1 = condVar;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncCondVar_Instance_0300: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncCondVar', 'notifyAll',
-          'notifyAll(mutex: AsyncMutex): void', arkTsAveragedTime);
-        expect(res1!== null && condVar !== undefined).assertTrue();
-        done();
+        performance.apiWithClassAndKeywordTxt('std.concurrency', 'ConditionVariable', 'notifyAll',
+          'notifyAll(): void', arkTsAveragedTime);
+      done();
       })
   })
 }

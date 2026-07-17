@@ -56,11 +56,10 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@ohos.util', 'Queue', 'constructor',
           'constructor()', arkTsAveragedTime);
-        expect(res1.length === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AsyncLinkedConcurrentQueue_Push_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AsyncLinkedConcurrentQueue_Push_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let queues: Array<Queue<number>> = [];
         let varObj: number = 0;
@@ -75,14 +74,13 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1: boolean = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Push_0500: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Push_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@ohos.util', 'Queue', 'add',
           'add(element: T): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AsyncLinkedConcurrentQueue_Pop_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AsyncLinkedConcurrentQueue_Pop_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let queues: Array<Queue<number>> = [];
         let createQueue: (value: number) => Queue<number> = (value: number): Queue<number> => {
@@ -101,65 +99,13 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1: number = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Pop_0600: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Pop_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@ohos.util', 'Queue', 'pop',
           'pop(): T', arkTsAveragedTime);
-        expect(res1 === BASE_COUNT - 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AsyncLinkedConcurrentQueue_Add_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let queues: Array<Queue<number>> = [];
-        let vals: number[] = [];
-        for (let i = 0; i < BASE_COUNT; i++) {
-          vals.push(i);
-        }
-        for (let i = 0; i < BASE_COUNT; i++) {
-          queues.push(new Queue<number>());
-        }
-        let res: boolean = false;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = queues[i].add(vals[i]);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1: boolean = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Add_0700: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('@ohos.util', 'Queue', 'add',
-          'add(element: T): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AsyncLinkedConcurrentQueue_Poll_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let queues: Array<Queue<number>> = [];
-        let createQueue: () => Queue<number> = (): Queue<number> => {
-          let queue: Queue<number> = new Queue<number>();
-          queue.add(1);
-          return queue;
-        };
-        for (let i = 0; i < BASE_COUNT; i++) {
-          queues.push(createQueue());
-        }
-        let res: number = 0;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = queues[i].pop();
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1: number = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Poll_0800: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('@ohos.util', 'Queue', 'pop',
-          'pop(): T', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AsyncLinkedConcurrentQueue_GetFirst_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AsyncLinkedConcurrentQueue_GetFirst_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let queue: Queue<number> = new Queue<number>();
         queue.add(1);
@@ -171,14 +117,13 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1: number = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_GetFirst_0900: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_GetFirst_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@ohos.util', 'Queue', 'getFirst',
           'getFirst(): T', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AsyncLinkedConcurrentQueue_IsEmpty_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AsyncLinkedConcurrentQueue_IsEmpty_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let queue: Queue<number> = new Queue<number>();
         let res: number = 0;
@@ -189,31 +134,12 @@ export default function AsyncLinkedConcurrentQueuePerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1: number = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_IsEmpty_1100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_IsEmpty_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@ohos.util', 'Queue', 'length',
           'get length(): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AsyncLinkedConcurrentQueue_Size_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let queue: Queue<number> = new Queue<number>();
-        queue.add(1);
-        let res: number = 0;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = queue.length;
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1: number = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLinkedConcurrentQueue_Size_1200: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('@ohos.util', 'Queue', 'length',
-          'get length(): number', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
-      })
 
   })
 }

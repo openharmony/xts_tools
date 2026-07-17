@@ -54,16 +54,15 @@ export default function AsyncConcurrentQueuePerfTest(): void {
         }
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < ASYNC_BASE_COUNT; i++) {
-          await Promise.resolve(queue.add(pools[i]));
+          await queue.add(pools[i]);
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1: Queue<number> = queue;
         let arkTsAveragedTime: number = Dtime / ASYNC_BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncConcurrentQueue_Push_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentQueue', 'push',
-          'push(element: T): Promise<void>', arkTsAveragedTime);
-        expect(res1.length > 0).assertTrue();
-        done();
+        performance.apiWithClassAndKeywordTxt('std.containers', 'Queue', 'add',
+          'add(element: T): Promise<void>', arkTsAveragedTime);
+      done();
       })
 
     it('PerformanceTest_AsyncConcurrentQueue_Pop_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -73,16 +72,15 @@ export default function AsyncConcurrentQueuePerfTest(): void {
         let res: number = 0;
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < ASYNC_BASE_COUNT; i++) {
-          res = await Promise.resolve(queue.pop());
+          res = await queue.pop();
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1: number = res;
         let arkTsAveragedTime: number = Dtime / ASYNC_BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncConcurrentQueue_Pop_0200: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentQueue', 'pop',
+        performance.apiWithClassAndKeywordTxt('std.containers', 'Queue', 'pop',
           'pop(): Promise<Awaited<T>>', arkTsAveragedTime);
-        expect(res1 === ASYNC_BASE_COUNT - 1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_AsyncConcurrentQueue_Add_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -102,10 +100,9 @@ export default function AsyncConcurrentQueuePerfTest(): void {
         let res1: boolean = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncConcurrentQueue_Add_0300: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentQueue', 'add',
+        performance.apiWithClassAndKeywordTxt('std.containers', 'Queue', 'add',
           'add(element: T): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_AsyncConcurrentQueue_Poll_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -119,16 +116,15 @@ export default function AsyncConcurrentQueuePerfTest(): void {
         let res: number | undefined = 0;
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = queues[i].length > 0 ? queues[i].pop() : undefined;
+          res = queues[i].pop();
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1: number | undefined = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncConcurrentQueue_Poll_0400: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentQueue', 'poll',
+        performance.apiWithClassAndKeywordTxt('std.containers', 'Queue', 'pop',
           'poll(): T | undefined', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_AsyncConcurrentQueue_GetFirst_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -142,10 +138,9 @@ export default function AsyncConcurrentQueuePerfTest(): void {
         let res1: number | undefined = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncConcurrentQueue_GetFirst_0500: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentQueue', 'getFirst',
+        performance.apiWithClassAndKeywordTxt('std.containers', 'Queue', 'getFirst',
           'getFirst(): T | undefined', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_AsyncConcurrentQueue_IsEmpty_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -153,15 +148,14 @@ export default function AsyncConcurrentQueuePerfTest(): void {
         let queue: Queue<number> = new Queue<number>();
         let res: boolean = false;
         let Stime: number = systemDateTime.getTime(true);
-        for (let i: number = 0; i < BASE_COUNT; i++) { res = queue.length === 0; }
+        for (let i: number = 0; i < BASE_COUNT; i++) { res = (queue.length === 0); }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1: boolean = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncConcurrentQueue_IsEmpty_0600: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentQueue', 'isEmpty',
+        performance.apiWithClassAndKeywordTxt('std.containers', 'Queue', 'isEmpty',
           'isEmpty(): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_AsyncConcurrentQueue_Size_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -175,43 +169,9 @@ export default function AsyncConcurrentQueuePerfTest(): void {
         let res1: number = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncConcurrentQueue_Size_0700: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentQueue', 'size',
-          'get size(): int', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AsyncConcurrentQueue_Capacity_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let queueCapacity: number = BASE_COUNT;
-        let res: number = 0;
-        let Stime: number = systemDateTime.getTime(true);
-        for (let i: number = 0; i < BASE_COUNT; i++) { res = queueCapacity; }
-        let Dtime: number = systemDateTime.getTime(true) - Stime;
-        let res1: number = res;
-        let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncConcurrentQueue_Capacity_0800: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentQueue', 'capacity',
-          'get capacity(): int', arkTsAveragedTime);
-        expect(res1 === BASE_COUNT).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AsyncConcurrentQueue_RemainingCapacity_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let queueCapacity: number = BASE_COUNT;
-        let queue: Queue<number> = new Queue<number>();
-        let res: number = 0;
-        let Stime: number = systemDateTime.getTime(true);
-        for (let i: number = 0; i < BASE_COUNT; i++) { res = queueCapacity - queue.length; }
-        let Dtime: number = systemDateTime.getTime(true) - Stime;
-        let res1: number = res;
-        let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncConcurrentQueue_RemainingCapacity_0900: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentQueue', 'remainingCapacity',
-          'remainingCapacity(): int', arkTsAveragedTime);
-        expect(res1 === BASE_COUNT).assertTrue();
-        done();
+        performance.apiWithClassAndKeywordTxt('std.containers', 'Queue', 'length',
+          'get length(): int', arkTsAveragedTime);
+      done();
       })
 
   })

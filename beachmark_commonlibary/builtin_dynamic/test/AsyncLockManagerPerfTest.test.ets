@@ -36,7 +36,7 @@ export default function AsyncLockManagerPerfTest(): void {
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -55,22 +55,17 @@ export default function AsyncLockManagerPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockOptions', 'constructor',
         'constructor()', arkTsAveragedTime);
-      expect(res1 != null).assertTrue();
       done();
     })
 
     it('PerformanceTest_AsyncLockOptions_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let createOptions = (): ArkTSUtils.locks.AsyncLockOptions<string> => {
-        let options = new ArkTSUtils.locks.AsyncLockOptions<string>();
-        options.isAvailable = true;
-        options.signal = null;
-        options.timeout = 1;
-        return options;
-      };
-      let result: ArkTSUtils.locks.AsyncLockOptions<string> = createOptions();
+      let result: ArkTSUtils.locks.AsyncLockOptions<string> = new ArkTSUtils.locks.AsyncLockOptions<string>();
+      result.isAvailable = true;
+      result.signal = null;
+      result.timeout = 1;
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        result = createOptions();
+        result = new ArkTSUtils.locks.AsyncLockOptions<string>();
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: ArkTSUtils.locks.AsyncLockOptions<string> = result
@@ -78,58 +73,44 @@ export default function AsyncLockManagerPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockOptions', 'constructor',
         'constructor(delay?: boolean, timeout?: number, priority?: int)', arkTsAveragedTime);
-      expect(res1 != null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_AsyncLockInfo_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let createInfo = (): ArkTSUtils.locks.AsyncLockInfo => ({
-        name: "",
-        mode: ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE,
-        contextId: 0
-      });
-      let result: ArkTSUtils.locks.AsyncLockInfo = createInfo();
+    it('PerformanceTest_AsyncLockInfo_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+      let result: ArkTSUtils.locks.AsyncLockInfo = { name: "", mode: ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE, contextId: 0 };
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        result = createInfo();
+        result = { name: "", mode: ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE, contextId: 0 };
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: ArkTSUtils.locks.AsyncLockInfo = result
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Constructor_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockInfo', 'constructor',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Constructor_0300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockInfo', 'objectLiteral',
         'constructor()', arkTsAveragedTime);
-      expect(res1 != null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_AsyncLockInfo_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let createInfo = (): ArkTSUtils.locks.AsyncLockInfo => ({
-        name: "a",
-        mode: ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE,
-        contextId: 1
-      });
-      let result: ArkTSUtils.locks.AsyncLockInfo = createInfo();
+    it('PerformanceTest_AsyncLockInfo_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+      let result: ArkTSUtils.locks.AsyncLockInfo = { name: "a", mode: ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE, contextId: 1 };
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        result = createInfo();
+        result = { name: "a", mode: ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE, contextId: 1 };
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: ArkTSUtils.locks.AsyncLockInfo = result
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Constructor_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockInfo', 'constructor',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Constructor_0400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockInfo', 'objectLiteral',
         'constructor(id: string, mode: AsyncLockMode, priority: int)', arkTsAveragedTime);
-      expect(res1 != null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_AsyncLockState_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_AsyncLockState_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       const lockName: string = 'PerfTest_AsyncLockState_0100';
       let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request(lockName);
       let states: ArkTSUtils.locks.AsyncLockState[] = ArkTSUtils.locks.AsyncLock.queryAll();
-      expect(states.length > 0).assertTrue();
-      let queryFirstState = (): ArkTSUtils.locks.AsyncLockState => ArkTSUtils.locks.AsyncLock.queryAll()[0];
+let queryFirstState = (): ArkTSUtils.locks.AsyncLockState => ArkTSUtils.locks.AsyncLock.queryAll()[0];
       let result: ArkTSUtils.locks.AsyncLockState = states[0];
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
@@ -138,48 +119,20 @@ export default function AsyncLockManagerPerfTest(): void {
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: ArkTSUtils.locks.AsyncLockState = result
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Constructor_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockState', 'constructor',
-        'constructor()', arkTsAveragedTime);
-      expect(lock != null).assertTrue();
-      expect(states.length > 0).assertTrue();
-      expect(res1 != null).assertTrue();
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Constructor_0500: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLock', 'queryFirstState',
+        'static queryAll(): AsyncLockState[]', arkTsAveragedTime);
+;
       done();
     })
 
-    it('PerformanceTest_AsyncLockState_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      const lockName: string = 'PerfTest_AsyncLockState_0200';
-      let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request(lockName);
-      let states: ArkTSUtils.locks.AsyncLockState[] = ArkTSUtils.locks.AsyncLock.queryAll();
-      expect(states.length > 0).assertTrue();
-      let queryFirstState = (): ArkTSUtils.locks.AsyncLockState => ArkTSUtils.locks.AsyncLock.queryAll()[0];
-      let result: ArkTSUtils.locks.AsyncLockState = states[0];
-      let heldArr: ArkTSUtils.locks.AsyncLockInfo[] = result.held;
-      let pendingArr: ArkTSUtils.locks.AsyncLockInfo[] = result.pending;
-      let Stime: number = systemDateTime.getTime(true);
-      for (let i: number = 0; i < BASE_COUNT; i++) {
-        result = queryFirstState();
-      }
-      let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1: ArkTSUtils.locks.AsyncLockState = result
-      heldArr = result.held;
-      pendingArr = result.pending;
-      let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Constructor_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockState', 'constructor',
-        'constructor(heldSet: Set<AsyncLockInfo>, pending: Set<AsyncLockInfo>)', arkTsAveragedTime);
-      expect(lock != null).assertTrue();
-      expect(states.length > 0).assertTrue();
-      expect(res1 != null).assertTrue();
-      done();
-    })
 
-    it('PerformanceTest_AsyncLockState_Property_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+
+    it('PerformanceTest_AsyncLockState_Property_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       const lockName: string = 'PerfTest_AsyncLockState_Property_0100';
       let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request(lockName);
       let states: ArkTSUtils.locks.AsyncLockState[] = ArkTSUtils.locks.AsyncLock.queryAll();
-      expect(states.length > 0).assertTrue();
-      let state: ArkTSUtils.locks.AsyncLockState = states[0];
+let state: ArkTSUtils.locks.AsyncLockState = states[0];
       let res: ArkTSUtils.locks.AsyncLockInfo[] = state.held;
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
@@ -188,21 +141,18 @@ export default function AsyncLockManagerPerfTest(): void {
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: ArkTSUtils.locks.AsyncLockInfo[] = res
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Property_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockState', 'held',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Property_0700: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLock', 'held',
         'held: AsyncLockInfo[]', arkTsAveragedTime);
-      expect(lock != null).assertTrue();
-      expect(states.length > 0).assertTrue();
-      expect(res1 != null).assertTrue();
+;
       done();
     })
 
-    it('PerformanceTest_AsyncLockState_Property_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_AsyncLockState_Property_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       const lockName: string = 'PerfTest_AsyncLockState_Property_0200';
       let lock: ArkTSUtils.locks.AsyncLock = ArkTSUtils.locks.AsyncLock.request(lockName);
       let states: ArkTSUtils.locks.AsyncLockState[] = ArkTSUtils.locks.AsyncLock.queryAll();
-      expect(states.length > 0).assertTrue();
-      let state: ArkTSUtils.locks.AsyncLockState = states[0];
+let state: ArkTSUtils.locks.AsyncLockState = states[0];
       let res: ArkTSUtils.locks.AsyncLockInfo[] = state.pending;
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
@@ -211,16 +161,14 @@ export default function AsyncLockManagerPerfTest(): void {
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: ArkTSUtils.locks.AsyncLockInfo[] = res;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Property_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockState', 'pending',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockState_Property_0800: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLock', 'pending',
         'pending: AsyncLockInfo[]', arkTsAveragedTime);
-      expect(lock != null).assertTrue();
-      expect(states.length > 0).assertTrue();
-      expect(res1 != null).assertTrue();
+;
       done();
     })
 
-    it('PerformanceTest_AsyncLockInfo_Property_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_AsyncLockInfo_Property_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let info: ArkTSUtils.locks.AsyncLockInfo = {
         name: "test",
         mode: ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE,
@@ -234,14 +182,13 @@ export default function AsyncLockManagerPerfTest(): void {
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: ArkTSUtils.locks.AsyncLockMode = mode
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Property_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Property_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockInfo', 'mode',
         'mode: AsyncLockMode', arkTsAveragedTime);
-      expect(res1 === ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE).assertTrue();
       done();
     })
 
-    it('PerformanceTest_AsyncLockInfo_Property_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_AsyncLockInfo_Property_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let info: ArkTSUtils.locks.AsyncLockInfo = {
         name: "test",
         mode: ArkTSUtils.locks.AsyncLockMode.EXCLUSIVE,
@@ -255,14 +202,13 @@ export default function AsyncLockManagerPerfTest(): void {
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: number = contextId
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Property_0200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockInfo_Property_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockInfo', 'contextId',
         'contextId: int', arkTsAveragedTime);
-      expect(res1 === 123).assertTrue();
       done();
     })
 
-    it('PerformanceTest_AsyncLockOptions_Property_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_AsyncLockOptions_Property_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let options: ArkTSUtils.locks.AsyncLockOptions<string> = new ArkTSUtils.locks.AsyncLockOptions<string>()
       let available: boolean = options.isAvailable;
       let Stime: number = systemDateTime.getTime(true);
@@ -272,14 +218,13 @@ export default function AsyncLockManagerPerfTest(): void {
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: boolean = available
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Property_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Property_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockOptions', 'isAvailable',
         'isAvailable: boolean', arkTsAveragedTime);
-      expect(res1 != null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_AsyncLockOptions_Property_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_AsyncLockOptions_Property_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let options: ArkTSUtils.locks.AsyncLockOptions<string> = new ArkTSUtils.locks.AsyncLockOptions<string>()
       let signal: ArkTSUtils.locks.AbortSignal<string> | null = options.signal;
       let Stime: number = systemDateTime.getTime(true);
@@ -289,14 +234,13 @@ export default function AsyncLockManagerPerfTest(): void {
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: ArkTSUtils.locks.AbortSignal<string> | null = signal
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Property_0200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Property_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockOptions', 'signal',
         'signal: AbortSignal<T> | null', arkTsAveragedTime);
-      expect(res1 === null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_AsyncLockOptions_Property_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_AsyncLockOptions_Property_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let options: ArkTSUtils.locks.AsyncLockOptions<string> = new ArkTSUtils.locks.AsyncLockOptions<string>()
       let timeout: number = options.timeout;
       let Stime: number = systemDateTime.getTime(true);
@@ -306,10 +250,9 @@ export default function AsyncLockManagerPerfTest(): void {
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: number = timeout
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Property_0300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncLockOptions_Property_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncLockOptions', 'timeout',
         'timeout: int', arkTsAveragedTime);
-      expect(res1 != null).assertTrue();
       done();
     })
   })

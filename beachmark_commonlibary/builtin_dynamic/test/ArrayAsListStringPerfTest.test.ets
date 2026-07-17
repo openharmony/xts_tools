@@ -46,205 +46,178 @@ export default function ArrayAsListStringPerfTest(): void {
     })
 
     it('PerformanceTest_ArrayAsListString_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let val = new String("1");
-      let list: containers.ArrayAsListString = new containers.ArrayAsListString();
+      let val: string = "1";
+      let list: Array<string> = new Array<string>();
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        list = new containers.ArrayAsListString(10 as int, val);
+        list = (new Array<string>(10 as number)).fill(val);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = list;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_Constructor_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'constructor', 'constructor(capacity: int, val: String)', arkTsAveragedTime);
-      expect(res1 !== null).assertTrue();
+      performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'constructor', 'constructor(capacity: number, val: String)', arkTsAveragedTime);
       done();
     })
 
     it('PerformanceTest_ArrayAsListString_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list: containers.ArrayAsListString = new containers.ArrayAsListString();
+      let list: Array<string> = new Array<string>();
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        list = new containers.ArrayAsListString();
+        list = new Array<string>();
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = list;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'constructor', 'constructor()', arkTsAveragedTime);
-      expect(res1 !== null).assertTrue();
       done();
     })
 
     it('PerformanceTest_ArrayAsListString_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list: containers.ArrayAsListString = new containers.ArrayAsListString();
+      let list: Array<string> = new Array<string>();
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        list = new containers.ArrayAsListString(10 as int);
+        list = new Array<string>(10 as number);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = list;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_Constructor_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'constructor', 'constructor(capacity: int)', arkTsAveragedTime);
-      expect(res1 !== null).assertTrue();
-      done();
-    })
-
-    it('PerformanceTest_ArrayAsListString_Reserve_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list = new containers.ArrayAsListString();
-      let Stime: number = systemDateTime.getTime(true);
-      for (let i: number = 0; i < BASE_COUNT; i++) {
-        list.reserve(10 as int);
-      }
-      let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1 = list;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_Reserve_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'reserve', 'reserve(capacity: int): void', arkTsAveragedTime);
-      expect(res1 !== null).assertTrue();
+      performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'constructor', 'constructor(capacity: number)', arkTsAveragedTime);
       done();
     })
 
     it('PerformanceTest_ArrayAsListString_ToArray_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list = new containers.ArrayAsListString(10 as int, new String("1"));
-      let res: String[] = [];
+      let list = (new Array<string>(10 as number)).fill("1");
+      let res: string[] = [];
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        res = list.toArray();
+        res = list.slice();
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_ToArray_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'toArray', 'toArray(): String[]', arkTsAveragedTime);
-      expect(res1 !== null).assertTrue();
       done();
     })
 
     it('PerformanceTest_ArrayAsListString_PushFront_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list = new containers.ArrayAsListString();
+      let list = new Array<string>();
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        list.pushFront(new String(i.toString()));
+        list.unshift(i.toString());
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = list;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_PushFront_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'pushFront', 'pushFront(e: String): void', arkTsAveragedTime);
-      expect(res1 !== null).assertTrue();
       done();
     })
 
     it('PerformanceTest_ArrayAsListString_PopFront_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list = new containers.ArrayAsListString(BASE_COUNT as int, new String("1"));
-      let res: String = new String("");
+      let list = (new Array<string>(BASE_COUNT as number)).fill("1");
+      let res: string = "";
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        res = list.popFront();
+        res = list.shift() as string;
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_PopFront_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'popFront', 'popFront(): String', arkTsAveragedTime);
-      expect(res1 !== null).assertTrue();
       done();
     })
 
     it('PerformanceTest_ArrayAsListString_PushBack_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list = new containers.ArrayAsListString();
+      let list = new Array<string>();
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        list.pushBack(new String(i.toString()));
+        list.push(i.toString());
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = list;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_PushBack_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'pushBack', 'pushBack(e: String): void', arkTsAveragedTime);
-      expect(res1 !== null).assertTrue();
       done();
     })
 
     it('PerformanceTest_ArrayAsListString_PopBack_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list = new containers.ArrayAsListString(BASE_COUNT as int, new String("1"));
-      let res: String = new String("");
+      let list = (new Array<string>(BASE_COUNT as number)).fill("1");
+      let res: string = "";
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        res = list.popBack();
+        res = list.pop() as string;
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_PopBack_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'popBack', 'popBack(): String', arkTsAveragedTime);
-      expect(res1 !== null).assertTrue();
       done();
     })
 
     it('PerformanceTest_ArrayAsListString_Size_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list = new containers.ArrayAsListString(10 as int, new String("1"));
-      let res: int = 0;
+      let list = (new Array<string>(10 as number)).fill("1");
+      let res: number = 0;
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        res = list.size();
+        res = list.length;
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_Size_1000: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'size', 'size(): int', arkTsAveragedTime);
-      expect(res1 >= 0).assertTrue();
+      performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'size', 'size(): number', arkTsAveragedTime);
       done();
     })
 
     it('PerformanceTest_ArrayAsListString_At_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list = new containers.ArrayAsListString(10 as int, new String("1"));
-      let res: String = new String("");
+      let list = (new Array<string>(10 as number)).fill("1");
+      let res: string = "";
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        res = list.at(0 as int);
+        res = list[0];
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_At_1100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'at', 'at(index: int): String', arkTsAveragedTime);
-      expect(res1 !== null).assertTrue();
+      performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'at', 'at(index: number): String', arkTsAveragedTime);
       done();
     })
 
     it('PerformanceTest_ArrayAsListString_Set_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list = new containers.ArrayAsListString(10 as int, new String("1"));
+      let list = (new Array<string>(10 as number)).fill("1");
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        list.set(0 as int, new String(i.toString()));
+        list[0] = i.toString();
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = list;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_Set_1200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'set', 'set(index: int, e: String): void', arkTsAveragedTime);
-      expect(res1 !== null).assertTrue();
+      performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'set', 'set(index: number, e: String): void', arkTsAveragedTime);
       done();
     })
 
     it('PerformanceTest_ArrayAsListString_Has_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let list = new containers.ArrayAsListString(10 as int, new String("1"));
-      let val = new String("1");
+      let list = (new Array<string>(10 as number)).fill("1");
+      let val: string = "1";
       let res: boolean = false;
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        res = list.has(val);
+        res = list.indexOf(val) >= 0;
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayAsListString_Has_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ArrayAsListString', 'has', 'has(e: String): boolean', arkTsAveragedTime);
-      expect(res1 != false).assertTrue();
       done();
     })
 

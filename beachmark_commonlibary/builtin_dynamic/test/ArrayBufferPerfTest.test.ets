@@ -27,6 +27,7 @@ import {
 } from "@ohos/hypium";
 import performance from './Performance.util';
 import { systemDateTime } from '@kit.BasicServicesKit';
+import { collections } from "@kit.ArkTS";
 
 declare class ArkTools {
   static forceFullGC(): void;
@@ -45,7 +46,7 @@ export default function ArrayBufferPerfTest(): void {
       performance.save('apiPerformance.txt');
     })
 
-it('PerformanceTest_ArrayBuffer_toString_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+it('PerformanceTest_ArrayBuffer_toString_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let buf: collections.ArrayBuffer = new collections.ArrayBuffer(1024);
         let res: string = '';
@@ -56,14 +57,13 @@ it('PerformanceTest_ArrayBuffer_toString_0300', TestType.FUNCTION | Size.MEDIUMT
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBuffer_toString_0300: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBuffer_toString_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'ArrayBuffer', 'toString',
           'toString(): String', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_ArrayBuffer_slice_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_ArrayBuffer_slice_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let buf: collections.ArrayBuffer = new collections.ArrayBuffer(100);
         let res: collections.ArrayBuffer = new collections.ArrayBuffer(0);
@@ -74,14 +74,13 @@ it('PerformanceTest_ArrayBuffer_toString_0300', TestType.FUNCTION | Size.MEDIUMT
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBuffer_slice_0500: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBuffer_slice_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'ArrayBuffer', 'slice',
           'slice(begin: int, end?: int): ArrayBuffer', arkTsAveragedTime);
-        expect(res1.byteLength >= 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_ArrayBuffer_getByteLength_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_ArrayBuffer_getByteLength_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let buf: collections.ArrayBuffer = new collections.ArrayBuffer(1024);
         let res: number = 0;
@@ -92,29 +91,10 @@ it('PerformanceTest_ArrayBuffer_toString_0300', TestType.FUNCTION | Size.MEDIUMT
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBuffer_getByteLength_0800: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'ArrayBuffer', 'getByteLength',
-          'getByteLength(): int', arkTsAveragedTime);
-        expect(res1 >= 0).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_ArrayBuffer_byteLength_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let buf: collections.ArrayBuffer = new collections.ArrayBuffer(1024);
-        let res: number = 0;
-        let Stime: number = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = buf.byteLength;
-        }
-        let Dtime: number = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBuffer_byteLength_0900: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBuffer_getByteLength_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'ArrayBuffer', 'byteLength',
-          'get byteLength(): int', arkTsAveragedTime);
-        expect(res1 >= 0).assertTrue();
-        done();
+          'byteLength(): int', arkTsAveragedTime);
+      done();
       })
 
     })

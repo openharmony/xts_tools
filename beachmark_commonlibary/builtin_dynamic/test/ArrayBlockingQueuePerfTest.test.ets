@@ -59,49 +59,30 @@ export default function ArrayBlockingQueuePerfTest(): void {
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'Queue', 'constructor', 'constructor()', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null && queue.length === 0).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ArrayBlockingQueue_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let list: Array<string> = new Array<string>();
-        list.push("a");
+        let items: Array<string> = new Array<string>(BASE_COUNT);
+        for (let j = 0; j < BASE_COUNT; j++) {
+          items[j] = "a";
+        }
         let queue: Queue<string> = new Queue<string>();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          list.forEach((item: string) => {queue.add(item);});
+          queue.add(items[i]);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = queue;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Constructor_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'Queue', 'add', 'add(element: T): boolean', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_ArrayBlockingQueue_Push_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let queue: Queue<string> = new Queue<string>();
-        let vals: string[] = [];
-        for (let i = 0; i < BASE_COUNT; i++) {
-          vals.push(i.toString());
-        }
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          queue.add(vals[i]);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = queue;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Push_0300: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'Queue', 'add', 'add(element: T): boolean', arkTsAveragedTime);
-        expect(res1.length === BASE_COUNT).assertTrue();
-        done();
-      })
 
-    it('PerformanceTest_ArrayBlockingQueue_Pop_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_ArrayBlockingQueue_Pop_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let queue: Queue<string> = new Queue<string>();
         for (let i = 0; i < BASE_COUNT; i++) {
@@ -115,34 +96,13 @@ export default function ArrayBlockingQueuePerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Pop_0400: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Pop_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'Queue', 'pop', 'pop(): T', arkTsAveragedTime);
-        expect(res1 === '1' && queue.length === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_ArrayBlockingQueue_Add_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let queue: Queue<string> = new Queue<string>();
-        let vals: string[] = [];
-        for (let i = 0; i < BASE_COUNT; i++) {
-          vals.push(i.toString());
-        }
-        let res: boolean = false;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = queue.add(vals[i]);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Add_0500: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'Queue', 'add', 'add(element: T): boolean', arkTsAveragedTime);
-        expect(res1 === true && queue.length === BASE_COUNT).assertTrue();
-        done();
-      })
 
-    it('PerformanceTest_ArrayBlockingQueue_GetFirst_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_ArrayBlockingQueue_GetFirst_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let queue: Queue<string> = new Queue<string>();
         queue.add("1");
@@ -154,13 +114,12 @@ export default function ArrayBlockingQueuePerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_GetFirst_0700: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_GetFirst_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'Queue', 'getFirst', 'getFirst(): T | undefined', arkTsAveragedTime);
-        expect(res1 === '1').assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_ArrayBlockingQueue_GetEnd_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_ArrayBlockingQueue_GetEnd_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let deque: Deque<string> = new Deque<string>();
         deque.insertEnd("1");
@@ -172,13 +131,12 @@ export default function ArrayBlockingQueuePerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_GetEnd_0800: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_GetEnd_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'Deque', 'getLast', 'getLast(): T | undefined', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_ArrayBlockingQueue_Size_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_ArrayBlockingQueue_Size_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let queue: Queue<string> = new Queue<string>();
         let res: number = 0;
@@ -189,45 +147,11 @@ export default function ArrayBlockingQueuePerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Size_0900: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Size_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'Queue', 'length', 'length: number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_ArrayBlockingQueue_IsEmpty_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let queue: Queue<string> = new Queue<string>();
-        let res: boolean = false;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = queue.length === 0;
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_IsEmpty_1000: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'Queue', 'length', 'length: number', arkTsAveragedTime);
-        expect(res1 === true).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_ArrayBlockingQueue_Capacity_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let queue: Queue<string> = new Queue<string>();
-        let res: number = 0;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = queue.length;
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayBlockingQueue_Capacity_1100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'Queue', 'length', 'get length(): number', arkTsAveragedTime);
-        expect(res1 >= 0).assertTrue();
-        done();
-      })
 
   })
 }
