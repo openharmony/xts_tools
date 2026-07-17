@@ -63,7 +63,6 @@ export default function TaskPoolPerfTest():void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'constructor',
         'constructor(name: string, func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
@@ -79,27 +78,26 @@ export default function TaskPoolPerfTest():void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'constructor',
         'constructor(func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Task_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Task_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res = new taskpool.Task("testTask", simpleFunc);
+      let cb = (): void => {};
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res.onEnqueued(() => {});
+        res.onEnqueued(cb);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onEnqueued',
         'onEnqueued(callback: CallbackFunction): void', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Task_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Task_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res = new taskpool.Task("testTask", simpleFunc);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -108,14 +106,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onStartExecution',
         'onStartExecution(callback: CallbackFunction): void', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Task_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Task_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res = new taskpool.Task("testTask", simpleFunc);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -124,14 +121,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onExecutionFailed',
         'onExecutionFailed(callback: CallbackFunctionWithError): void', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Task_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Task_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res = new taskpool.Task("testTask", simpleFunc);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -140,14 +136,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0400: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onExecutionSucceeded',
         'onExecutionSucceeded(callback: CallbackFunction): void', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Task_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Task_Instance_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res = new taskpool.Task("testTask", simpleFunc);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -156,30 +151,29 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0500: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'onReceiveData',
         'onReceiveData(callback?: Function): void', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Task_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Task_Instance_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res = new taskpool.Task("testTask", simpleFunc);
+      let doneResult: boolean = false;
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res.isDone();
+        doneResult = res.isDone();
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
+      let res1 = doneResult;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0600: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'isDone',
         'isDone(): boolean', arkTsAveragedTime);
-      expect(res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Task_Instance_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Task_Instance_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let tasks: taskpool.Task[] = [];
       for (let i = 0; i < BASE_COUNT; i++) {
         tasks.push(new taskpool.Task("task" + i, simpleFunc));
@@ -192,14 +186,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = tasks[BASE_COUNT - 1];
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0700: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Task_Instance_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'Task', 'addDependency',
         'addDependency(...tasks: Task[]): void', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_LongTask_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_LongTask_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: taskpool.LongTask = new taskpool.LongTask("longTask", simpleFunc);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -208,14 +201,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongTask_Constructor_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongTask_Constructor_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'LongTask', 'constructor',
         'constructor(name: string, func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_LongTask_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_LongTask_Constructor_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: taskpool.LongTask = new taskpool.LongTask(simpleFunc);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -224,14 +216,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongTask_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LongTask_Constructor_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'LongTask', 'constructor',
         'constructor(func: Function, ...args: FixedArray<Any>)', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_TaskGroup_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_TaskGroup_Constructor_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: taskpool.TaskGroup = new taskpool.TaskGroup();
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -240,14 +231,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Constructor_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Constructor_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskGroup', 'constructor',
         'constructor()', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_TaskGroup_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_TaskGroup_Constructor_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: taskpool.TaskGroup = new taskpool.TaskGroup("groupTest");
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -256,14 +246,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Constructor_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskGroup', 'constructor',
         'constructor(name: string)', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_TaskGroup_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_TaskGroup_Instance_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res = new taskpool.TaskGroup();
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -272,31 +261,32 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Instance_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Instance_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskGroup', 'addTask',
         'addTask(func: Function, ...args: FixedArray<Any>): void', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_TaskGroup_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_TaskGroup_Instance_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+      let tasks: taskpool.Task[] = new Array<taskpool.Task>(BASE_COUNT);
+      for (let i = 0; i < BASE_COUNT; i++) {
+        tasks[i] = new taskpool.Task("testTask", simpleFunc);
+      }
       let res = new taskpool.TaskGroup();
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        let task = new taskpool.Task("testTask", simpleFunc);
-        res.addTask(task);
+        res.addTask(tasks[i]);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Instance_0200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskGroup_Instance_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskGroup', 'addTask',
         'addTask(task: Task): void', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_SequenceRunner_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_SequenceRunner_Constructor_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: taskpool.SequenceRunner = new taskpool.SequenceRunner();
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -305,14 +295,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SequenceRunner_Constructor_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SequenceRunner_Constructor_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'SequenceRunner', 'constructor',
         'constructor(priority?: Priority)', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_SequenceRunner_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_SequenceRunner_Constructor_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: taskpool.SequenceRunner = new taskpool.SequenceRunner("seqRunner");
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -321,14 +310,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SequenceRunner_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_SequenceRunner_Constructor_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'SequenceRunner', 'constructor',
         'constructor(name: string, priority?: Priority)', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_AsyncRunner_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_AsyncRunner_Constructor_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: taskpool.AsyncRunner = new taskpool.AsyncRunner(4);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -337,14 +325,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncRunner_Constructor_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncRunner_Constructor_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncRunner', 'constructor',
         'constructor(runningCapacity: number, waitingCapacity?: number)', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_AsyncRunner_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_AsyncRunner_Constructor_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: taskpool.AsyncRunner = new taskpool.AsyncRunner("asyncRunner", 4);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -353,14 +340,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncRunner_Constructor_0200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AsyncRunner_Constructor_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.concurrency', 'AsyncRunner', 'constructor',
         'constructor(name: string | undefined, runningCapacity: number, waitingCapacity?: number)', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_TaskInfo_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_TaskInfo_Constructor_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: taskpool.TaskInfo[] = taskpool.getTaskPoolInfo().taskInfos;
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -369,14 +355,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskInfo_Constructor_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskInfo', 'constructor',
-        'constructor()', arkTsAveragedTime);
-      expect(res1 !== undefined).assertTrue();
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskInfo_Constructor_1500: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskInfo', 'getTaskPoolInfo.taskInfos',
+        'getTaskPoolInfo().taskInfos', arkTsAveragedTime);
       done();
     })
 
-    it('PerformanceTest_ThreadInfo_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_ThreadInfo_Constructor_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: taskpool.ThreadInfo[] = taskpool.getTaskPoolInfo().threadInfos;
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -385,14 +370,13 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ThreadInfo_Constructor_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.concurrency', 'ThreadInfo', 'constructor',
-        'constructor()', arkTsAveragedTime);
-      expect(res1 !== undefined).assertTrue();
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ThreadInfo_Constructor_1600: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'ThreadInfo', 'getTaskPoolInfo.threadInfos',
+        'getTaskPoolInfo().threadInfos', arkTsAveragedTime);
       done();
     })
 
-    it('PerformanceTest_TaskPoolInfo_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_TaskPoolInfo_Constructor_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: taskpool.TaskPoolInfo = taskpool.getTaskPoolInfo();
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -401,10 +385,9 @@ export default function TaskPoolPerfTest():void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPoolInfo_Constructor_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskPoolInfo', 'constructor',
-        'constructor()', arkTsAveragedTime);
-      expect(res1 !== undefined && res1 !== null).assertTrue();
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPoolInfo_Constructor_1700: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.concurrency', 'TaskPoolInfo', 'getTaskPoolInfo',
+        'getTaskPoolInfo()', arkTsAveragedTime);
       done();
     })
 

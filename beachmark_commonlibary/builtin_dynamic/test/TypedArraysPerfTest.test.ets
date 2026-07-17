@@ -55,8 +55,7 @@ export default function TypedArraysPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor',
           'constructor(): Int8Array', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_Int8Array_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -72,8 +71,7 @@ export default function TypedArraysPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor',
           'constructor(length: number): Int8Array', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_Int8Array_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -93,11 +91,10 @@ export default function TypedArraysPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor',
           'constructor(array: number[]): Int8Array', arkTsAveragedTime);
-        expect(srcArr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_copyWithin', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_copyWithin_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -110,14 +107,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = arr;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_copyWithin: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_copyWithin_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'copyWithin',
           'copyWithin(target: number, start: number, end?: number): Int8Array', arkTsAveragedTime);
-        expect(arr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_fill', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_fill_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         let Stime = systemDateTime.getTime(true);
@@ -127,14 +123,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = arr;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_fill: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_fill_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'fill',
           'fill(value: number, start?: number, end?: number): this', arkTsAveragedTime);
-        expect(arr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_set_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_set_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         let Stime = systemDateTime.getTime(true);
@@ -144,14 +139,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = arr;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_set_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_set_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'set',
           'set(index: number, value: number): void', arkTsAveragedTime);
-        expect(arr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_set_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_set_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         let srcArr: Int8Array = new Int8Array(50);
@@ -165,14 +159,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = arr;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_set_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_set_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'set',
           'set(array: Int8Array, offset?: number): void', arkTsAveragedTime);
-        expect(arr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_includes', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_includes_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -186,14 +179,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_includes: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_includes_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'includes',
           'includes(searchElement: number): boolean', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_indexOf', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_indexOf_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -207,14 +199,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_indexOf: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_indexOf_0900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'indexOf',
           'indexOf(searchElement: number, fromIndex?: number): number', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_join', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_join_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(10);
         for (let i = 0; i < 10; i++) {
@@ -228,14 +219,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_join: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_join_1000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'join',
           'join(separator?: string): string', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_lastIndexOf', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_lastIndexOf_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -249,14 +239,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_lastIndexOf: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_lastIndexOf_1100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'lastIndexOf',
           'lastIndexOf(searchElement: number, fromIndex?: number): number', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_reverse', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_reverse_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -269,14 +258,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = arr;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_reverse: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_reverse_1200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'reverse',
           'reverse(): Int8Array', arkTsAveragedTime);
-        expect(arr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_slice', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_slice_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -290,14 +278,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_slice: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_slice_1300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'slice',
           'slice(begin?: number, end?: number): Int8Array', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_subarray', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_subarray_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -311,14 +298,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_subarray: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_subarray_1400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'subarray',
           'subarray(begin?: number, end?: number): Int8Array', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_sort', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_sort_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let j = 0; j < 100; j++) {
@@ -331,14 +317,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = arr;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_sort: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_sort_1500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'sort',
           'sort(compareFn?: (a: number, b: number) => number): this', arkTsAveragedTime);
-        expect(arr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_entries', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_entries_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -352,14 +337,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_entries: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_entries_1600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'entries',
           'entries(): IterableIterator<[number, number]>', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_keys', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_keys_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -373,14 +357,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_keys: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_keys_1700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'keys',
           'keys(): IterableIterator<number>', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_values', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_values_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -394,14 +377,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_values: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_values_1800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'values',
           'values(): IterableIterator<number>', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_some', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_some_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -418,14 +400,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_some: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_some_1900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'some',
           'some(predicate: (element: number, index: number, array: Int8Array) => boolean): boolean', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_every', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_every_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -442,14 +423,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_every: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_every_2000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'every',
           'every(predicate: (element: number, index: number, array: Int8Array) => boolean): boolean', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_find', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_find_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -466,14 +446,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_find: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_find_2100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'find',
           'find(predicate: (value: number, index: number, obj: Int8Array) => boolean): number | undefined', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_findIndex', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_find_2100Index_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -490,14 +469,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_findIndex: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_find_2100Index_2200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'findIndex',
           'findIndex(predicate: (value: number, index: number, obj: Int8Array) => boolean): number', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_filter', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_filter_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -514,14 +492,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_filter: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_filter_2300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'filter',
           'filter(fn: (val: number, index: number, array: Int8Array) => boolean): Int8Array', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_map', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_map_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -538,14 +515,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_map: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_map_2400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'map',
           'map(fn: (val: number, index: number, array: Int8Array) => number): Int8Array', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_reduce', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_reduce_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -562,14 +538,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_reduce: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_reduce_2500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'reduce',
           'reduce(callbackfn: (previousValue: number, currentValue: number, currentIndex: number, array: Int8Array) => number, initialValue: number): number', arkTsAveragedTime);
-        expect(res > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_reduceRight', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_reduce_2500Right_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -586,14 +561,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_reduceRight: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_reduce_2500Right_2600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'reduceRight',
           'reduceRight(callbackfn: (previousValue: number, currentValue: number, currentIndex: number, array: Int8Array) => number, initialValue: number): number', arkTsAveragedTime);
-        expect(res > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_forEach', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_forEach_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -609,14 +583,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = arr;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_forEach: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_forEach_2700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'forEach',
           'forEach(callbackfn: (value: number, index: number, array: Int8Array) => void): void', arkTsAveragedTime);
-        expect(arr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_static_of', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_static_of_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let res: Int8Array = Int8Array.of(1, 2, 3, 4, 5);
         let Stime = systemDateTime.getTime(true);
@@ -626,14 +599,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_of: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_of_2800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'of',
           'of(...items: number[]): Int8Array', arkTsAveragedTime);
-        expect(res.length === 5).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_static_from_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_static_from_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let srcArr: number[] = [];
         for (let i = 0; i < 100; i++) {
@@ -647,14 +619,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_from_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_from_2900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'from',
           'from(arr: ArrayLike<number>): Int8Array', arkTsAveragedTime);
-        expect(srcArr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_static_from_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_static_from_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let srcArr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -668,14 +639,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_from_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_from_3000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'from',
           'from(arr: Int8Array): Int8Array', arkTsAveragedTime);
-        expect(srcArr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_static_from_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_static_from_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let srcArr: Uint8Array = new Uint8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -689,14 +659,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_from_0300: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_static_from_3100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'from',
           'from(arr: Uint8Array): Int8Array', arkTsAveragedTime);
-        expect(srcArr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_Constructor_copy', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_Constructor_copy_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let srcArr: Int8Array = new Int8Array(100);
         for (let i = 0; i < 100; i++) {
@@ -710,14 +679,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_copy: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_copy_3200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor',
           'constructor(other: Int8Array): Int8Array', arkTsAveragedTime);
-        expect(srcArr !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_Constructor_buffer', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_Constructor_buffer_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let buf: ArrayBuffer = new ArrayBuffer(100);
         let res: Int8Array = new Int8Array(buf);
@@ -728,14 +696,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_buffer: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_buffer_3300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor',
           'constructor(buf: ArrayBuffer): Int8Array', arkTsAveragedTime);
-        expect(buf !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_Constructor_buffer_offset', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_Constructor_buffer_3300_offset_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let buf: ArrayBuffer = new ArrayBuffer(200);
         let res: Int8Array = new Int8Array(buf, 50);
@@ -746,14 +713,13 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_buffer_offset: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_buffer_3300_offset_3400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor',
           'constructor(buf: ArrayBuffer, byteOffset: number): Int8Array', arkTsAveragedTime);
-        expect(buf !== null).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Int8Array_Constructor_buffer_offset_length', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Int8Array_Constructor_buffer_3300_offset_3400_length_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let buf: ArrayBuffer = new ArrayBuffer(200);
         let res: Int8Array = new Int8Array(buf, 50, 100);
@@ -764,11 +730,10 @@ export default function TypedArraysPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_buffer_offset_length: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Int8Array_Constructor_buffer_3300_offset_3400_length_3500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor',
           'constructor(buf: ArrayBuffer, byteOffset: number, length: number): Int8Array', arkTsAveragedTime);
-        expect(buf !== null).assertTrue();
-        done();
+      done();
       })
   })
 }

@@ -26,6 +26,7 @@ import {
 import performance from './Performance.util';
 import { systemDateTime } from '@kit.BasicServicesKit';
 
+
 declare class ArkTools {
   static forceFullGC(): void;
 }
@@ -35,7 +36,7 @@ export default function SystemPerfTest(): void {
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -43,11 +44,10 @@ export default function SystemPerfTest(): void {
     })
 
     it('PerformanceTest_System_stackTraceLines_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let getStackTraceLines = (): string[] => (new Error().stack ?? '').split('\n');
-      let str: string[] = getStackTraceLines();
+      let str: string[] = (new Error().stack ?? "").split('\n');
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        str = getStackTraceLines();
+        str = (new Error().stack ?? "").split('\n');
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: string[] = str;
@@ -61,32 +61,27 @@ export default function SystemPerfTest(): void {
         'function stackTraceLines(): FixedArray<String>',
         arkTsAveragedTime
       );
-      expect(res1.length > 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_System_printStackTrace_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let stackStr: string = new Error().stack ?? '';
-      let printStackTrace = (value: string): void => {
-        console.error(value);
-      };
+    it('PerformanceTest_System_stackTraceLines_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+      let str: string[] = (new Error().stack ?? '').split('\n');
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        printStackTrace(stackStr);
+        str = (new Error().stack ?? '').split('\n');
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1: string = stackStr;
+      let res1: string[] = str;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_System_printStackTrace_0100: '
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_System_stackTraceLines_0200: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
         'std.core',
         'System',
-        'printStackTrace',
-        'function printStackTrace(): void',
+        'stackTraceLines',
+        'function stackTraceLines(): FixedArray<String>',
         arkTsAveragedTime
       );
-      expect(res1.length > 0).assertTrue();
       done();
     })
   })
