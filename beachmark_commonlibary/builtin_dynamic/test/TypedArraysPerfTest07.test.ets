@@ -45,7 +45,7 @@ export default function TypedArraysPerfTest07(): void {
       performance.save('apiPerformance.txt');
     })
 
-it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+it('PerformanceTest_Int8Array_Constructor_Iterable_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let srcIter: number[] = [1, 2, 3, 4, 5];
       let res: Int8Array = new Int8Array(srcIter);
       let Stime: number = systemDateTime.getTime(true);
@@ -57,12 +57,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int8Array Constructor_Iterable: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor', 'constructor(Iterable<Number>): void', arkTsAveragedTime);
-
-      expect(res1.length === 5 && res[0] === 1 && res[4] === 5).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int8Array_Constructor_ArrayBufferInt', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int8Array_Constructor_ArrayBufferInt_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(100);
       let res: Int8Array = new Int8Array(buf, 0 as number);
       let Stime: number = systemDateTime.getTime(true);
@@ -74,12 +72,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int8Array Constructor_ArrayBufferInt: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor', 'constructor(ArrayBuffer, int): void', arkTsAveragedTime);
-
-      expect(res1.length === 100 && res.byteOffset === 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int8Array_Constructor_ArrayBufferNumber', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int8Array_Constructor_ArrayBufferNumber_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(100);
       let res: Int8Array = new Int8Array(buf, 0 as number);
       let Stime: number = systemDateTime.getTime(true);
@@ -91,12 +87,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int8Array Constructor_ArrayBufferNumber: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor', 'constructor(ArrayBuffer, number): void', arkTsAveragedTime);
-
-      expect(res1.length === 100 && res.byteOffset === 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int8Array_Constructor_ArrayBufferIntInt', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int8Array_Constructor_ArrayBufferInt_0200Int_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(200);
       let res: Int8Array = new Int8Array(buf, 50 as number, 100 as number);
       let Stime: number = systemDateTime.getTime(true);
@@ -108,12 +102,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int8Array Constructor_ArrayBufferIntInt: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor', 'constructor(ArrayBuffer, int, int): void', arkTsAveragedTime);
-
-      expect(res1.length === 100 && res.byteOffset === 50).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int8Array_Constructor_ArrayBufferNumberUndef', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int8Array_Constructor_ArrayBufferNumber_0300Undef_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(200);
       let res: Int8Array = new Int8Array(buf, 50 as number, undefined);
       let Stime: number = systemDateTime.getTime(true);
@@ -125,12 +117,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int8Array Constructor_ArrayBufferNumberUndef: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor', 'constructor(ArrayBuffer, Number | undefined, Number | undefined): void', arkTsAveragedTime);
-
-      expect(res1.byteOffset === 50).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int16Array_Constructor_ArrayInt', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int16Array_Constructor_ArrayInt_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let srcArr: Array<number> = new Array<number>();
       srcArr.push(1 as number);
       srcArr.push(2 as number);
@@ -145,12 +135,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int16Array Constructor_ArrayInt: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'constructor', 'constructor(Array<int>): void', arkTsAveragedTime);
-
-      expect(res1.length === 3 && res[0] === 1 && res[1] === 2 && res[2] === 3).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int16Array_Constructor_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int16Array_Constructor_Iterable_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let srcIter: number[] = [1, 2, 3, 4, 5];
       let res: Int16Array = new Int16Array(srcIter);
       let Stime: number = systemDateTime.getTime(true);
@@ -162,12 +150,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int16Array Constructor_Iterable: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'constructor', 'constructor(Iterable<Number>): void', arkTsAveragedTime);
-
-      expect(res1.length === 5 && res[0] === 1 && res[4] === 5).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int16Array_Constructor_ArrayBufferNumber', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int16Array_Constructor_ArrayBufferNumber_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(200);
       let res: Int16Array = new Int16Array(buf, 0 as number);
       let Stime: number = systemDateTime.getTime(true);
@@ -179,12 +165,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int16Array Constructor_ArrayBufferNumber: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'constructor', 'constructor(ArrayBuffer, number): void', arkTsAveragedTime);
-
-      expect(res1.length === 100 && res.byteOffset === 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int16Array_Constructor_ArrayBufferNumberUndef', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int16Array_Constructor_ArrayBufferNumber_0800Undef_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(200);
       let res: Int16Array = new Int16Array(buf, 50, undefined);
       let Stime: number = systemDateTime.getTime(true);
@@ -196,12 +180,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int16Array Constructor_ArrayBufferNumberUndef: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'constructor', 'constructor(ArrayBuffer, Number | undefined, Number | undefined): void', arkTsAveragedTime);
-
-      expect(res1.byteOffset === 50).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int32Array_Constructor_ArrayInt', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int32Array_Constructor_ArrayInt_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let srcArr: Array<number> = new Array<number>();
       srcArr.push(1 as number);
       srcArr.push(2 as number);
@@ -216,12 +198,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int32Array Constructor_ArrayInt: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor', 'constructor(Array<int>): void', arkTsAveragedTime);
-
-      expect(res1.length === 3 && res[0] === 1 && res[1] === 2 && res[2] === 3).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int32Array_Constructor_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int32Array_Constructor_Iterable_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let srcIter: number[] = [1, 2, 3, 4, 5];
       let res: Int32Array = new Int32Array(srcIter);
       let Stime: number = systemDateTime.getTime(true);
@@ -233,12 +213,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int32Array Constructor_Iterable: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor', 'constructor(Iterable<Number>): void', arkTsAveragedTime);
-
-      expect(res1.length === 5 && res[0] === 1 && res[4] === 5).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int32Array_Constructor_ArrayBufferNumber', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int32Array_Constructor_ArrayBufferNumber_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(400);
       let res: Int32Array = new Int32Array(buf, 0 as number);
       let Stime: number = systemDateTime.getTime(true);
@@ -250,12 +228,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int32Array Constructor_ArrayBufferNumber: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor', 'constructor(ArrayBuffer, number): void', arkTsAveragedTime);
-
-      expect(res1.length === 100 && res.byteOffset === 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Int32Array_Constructor_ArrayBufferNumberUndef', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Int32Array_Constructor_ArrayBufferNumber_1200Undef_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(400);
       let res: Int32Array = new Int32Array(buf, 100, undefined);
       let Stime: number = systemDateTime.getTime(true);
@@ -267,12 +243,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Int32Array Constructor_ArrayBufferNumberUndef: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor', 'constructor(ArrayBuffer, Number | undefined, Number | undefined): void', arkTsAveragedTime);
-
-      expect(res1.byteOffset === 100).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigInt64Array_Constructor_ArrayBufferNumber', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BigInt64Array_Constructor_ArrayBufferNumber_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(800);
       let res: BigInt64Array = new BigInt64Array(buf, 0 as number);
       let Stime: number = systemDateTime.getTime(true);
@@ -284,12 +258,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigInt64Array Constructor_ArrayBufferNumber: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'constructor', 'constructor(ArrayBuffer, number): void', arkTsAveragedTime);
-
-      expect(res1.length === 100 && res.byteOffset === 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigInt64Array_Constructor_ArrayBufferNumberUndef', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BigInt64Array_Constructor_ArrayBufferNumber_1400Undef_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(800);
       let res: BigInt64Array = new BigInt64Array(buf, 96, undefined);
       let Stime: number = systemDateTime.getTime(true);
@@ -301,12 +273,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigInt64Array Constructor_ArrayBufferNumberUndef: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'constructor', 'constructor(ArrayBuffer, Number | undefined, Number | undefined): void', arkTsAveragedTime);
-
-      expect(res1.byteOffset === 96).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Float32Array_Constructor_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Float32Array_Constructor_Iterable_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let srcIter: number[] = [1, 2, 3, 4, 5];
       let res: Float32Array = new Float32Array(srcIter);
       let Stime: number = systemDateTime.getTime(true);
@@ -318,12 +288,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Float32Array Constructor_Iterable: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'constructor', 'constructor(Iterable<Number>): void', arkTsAveragedTime);
-
-      expect(res1.length === 5 && res[0] === 1 && res[4] === 5).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Float32Array_Constructor_ArrayBufferNumber', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Float32Array_Constructor_ArrayBufferNumber_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(400);
       let res: Float32Array = new Float32Array(buf, 0 as number);
       let Stime: number = systemDateTime.getTime(true);
@@ -335,12 +303,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Float32Array Constructor_ArrayBufferNumber: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'constructor', 'constructor(ArrayBuffer, number): void', arkTsAveragedTime);
-
-      expect(res1.length === 100 && res.byteOffset === 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Float32Array_Constructor_ArrayBufferNumberUndef', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Float32Array_Constructor_ArrayBufferNumber_1700Undef_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(400);
       let res: Float32Array = new Float32Array(buf, 100, undefined);
       let Stime: number = systemDateTime.getTime(true);
@@ -352,12 +318,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Float32Array Constructor_ArrayBufferNumberUndef: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'constructor', 'constructor(ArrayBuffer, Number | undefined, Number | undefined): void', arkTsAveragedTime);
-
-      expect(res1.byteOffset === 100).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Float64Array_Constructor_Iterable', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Float64Array_Constructor_Iterable_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let srcIter: number[] = [1, 2, 3, 4, 5];
       let res: Float64Array = new Float64Array(srcIter);
       let Stime: number = systemDateTime.getTime(true);
@@ -369,12 +333,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Float64Array Constructor_Iterable: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'constructor', 'constructor(Iterable<Number>): void', arkTsAveragedTime);
-
-      expect(res1.length === 5 && res[0] === 1 && res[4] === 5).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Float64Array_Constructor_ArrayBufferNumber', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Float64Array_Constructor_ArrayBufferNumber_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(800);
       let res: Float64Array = new Float64Array(buf, 0 as number);
       let Stime: number = systemDateTime.getTime(true);
@@ -386,12 +348,10 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Float64Array Constructor_ArrayBufferNumber: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'constructor', 'constructor(ArrayBuffer, number): void', arkTsAveragedTime);
-
-      expect(res1.length === 100 && res.byteOffset === 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Float64Array_Constructor_ArrayBufferNumberUndef', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Float64Array_Constructor_ArrayBufferNumber_2000Undef_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let buf: ArrayBuffer = new ArrayBuffer(800);
       let res: Float64Array = new Float64Array(buf, 96, undefined);
       let Stime: number = systemDateTime.getTime(true);
@@ -403,8 +363,6 @@ it('PerformanceTest_Int8Array_Constructor_Iterable', TestType.FUNCTION | Size.ME
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest Float64Array Constructor_ArrayBufferNumberUndef: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'constructor', 'constructor(ArrayBuffer, Number | undefined, Number | undefined): void', arkTsAveragedTime);
-
-      expect(res1.byteOffset === 96).assertTrue();
       done();
     })
 

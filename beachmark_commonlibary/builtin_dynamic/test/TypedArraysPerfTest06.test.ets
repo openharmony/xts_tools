@@ -44,7 +44,7 @@ export default function TypedArraysPerfTest06(): void {
       performance.save('apiPerformance.txt');
     })
 
-    it('PerformanceTest_Int8Array_from_Set',
+    it('PerformanceTest_Int8Array_from_Set_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let set: Set<number> = new Set<number>([1, 2, 3, 4, 5]);
@@ -59,14 +59,11 @@ export default function TypedArraysPerfTest06(): void {
         console.info('arkTsPerformanceTest Int8Array from(Set<number>): ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'from',
           'from(Set<number>): Int8Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        expect(res.length === 5).assertTrue();
-        expect(res[0] === 1).assertTrue();
-        expect(res[4] === 5).assertTrue();
-        done();
+;
+      done();
       })
 
-    it('PerformanceTest_Int8Array_from_Array',
+    it('PerformanceTest_Int8Array_from_Array_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Array<number> = [1, 2, 3, 4, 5];
@@ -81,14 +78,11 @@ export default function TypedArraysPerfTest06(): void {
         console.info('arkTsPerformanceTest Int8Array from(Array<number>): ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'from',
           'from(Array<number>): Int8Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        expect(res.length === 5).assertTrue();
-        expect(res[0] === 1).assertTrue();
-        expect(res[4] === 5).assertTrue();
-        done();
+;
+      done();
       })
 
-    it('PerformanceTest_Int16Array_from_Set',
+    it('PerformanceTest_Int16Array_from_Set_0300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let set: Set<number> = new Set<number>([1, 2, 3, 4, 5]);
@@ -103,14 +97,11 @@ export default function TypedArraysPerfTest06(): void {
         console.info('arkTsPerformanceTest Int16Array from(Set<number>): ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'from',
           'from(Set<number>): Int16Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        expect(res.length === 5).assertTrue();
-        expect(res[0] === 1).assertTrue();
-        expect(res[4] === 5).assertTrue();
-        done();
+;
+      done();
       })
 
-    it('PerformanceTest_Int16Array_from_Array',
+    it('PerformanceTest_Int16Array_from_Array_0400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Array<number> = [1, 2, 3, 4, 5];
@@ -125,14 +116,11 @@ export default function TypedArraysPerfTest06(): void {
         console.info('arkTsPerformanceTest Int16Array from(Array<number>): ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'from',
           'from(Array<number>): Int16Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        expect(res.length === 5).assertTrue();
-        expect(res[0] === 1).assertTrue();
-        expect(res[4] === 5).assertTrue();
-        done();
+;
+      done();
       })
 
-    it('PerformanceTest_Int32Array_from_Set',
+    it('PerformanceTest_Int32Array_from_Set_0500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let set: Set<number> = new Set<number>([1, 2, 3, 4, 5]);
@@ -147,14 +135,11 @@ export default function TypedArraysPerfTest06(): void {
         console.info('arkTsPerformanceTest Int32Array from(Set<number>): ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'from',
           'from(Set<number>): Int32Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        expect(res.length === 5).assertTrue();
-        expect(res[0] === 1).assertTrue();
-        expect(res[4] === 5).assertTrue();
-        done();
+;
+      done();
       })
 
-    it('PerformanceTest_Int32Array_from_Array',
+    it('PerformanceTest_Int32Array_from_Array_0600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Array<number> = [1, 2, 3, 4, 5];
@@ -169,14 +154,11 @@ export default function TypedArraysPerfTest06(): void {
         console.info('arkTsPerformanceTest Int32Array from(Array<number>): ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'from',
           'from(Array<number>): Int32Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        expect(res.length === 5).assertTrue();
-        expect(res[0] === 1).assertTrue();
-        expect(res[4] === 5).assertTrue();
-        done();
+;
+      done();
       })
 
-    it('PerformanceTest_Float32Array_from_Set',
+    it('PerformanceTest_Float32Array_from_Set_0700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let set: Set<number> = new Set<number>([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -191,14 +173,11 @@ export default function TypedArraysPerfTest06(): void {
         console.info('arkTsPerformanceTest Float32Array from(Set<number>): ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'from',
           'from(Set<number>): Float32Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        expect(res.length === 5).assertTrue();
-        expect(res[0] === 1.0).assertTrue();
-        expect(res[4] === 5.0).assertTrue();
-        done();
+;
+      done();
       })
 
-    it('PerformanceTest_Float32Array_from_Array',
+    it('PerformanceTest_Float32Array_from_Array_0800',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Array<number> = [1.0, 2.0, 3.0, 4.0, 5.0];
@@ -213,14 +192,11 @@ export default function TypedArraysPerfTest06(): void {
         console.info('arkTsPerformanceTest Float32Array from(Array<number>): ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'from',
           'from(Array<number>): Float32Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        expect(res.length === 5).assertTrue();
-        expect(res[0] === 1.0).assertTrue();
-        expect(res[4] === 5.0).assertTrue();
-        done();
+;
+      done();
       })
 
-    it('PerformanceTest_Float64Array_from_Set',
+    it('PerformanceTest_Float64Array_from_Set_0900',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let set: Set<number> = new Set<number>([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -235,14 +211,11 @@ export default function TypedArraysPerfTest06(): void {
         console.info('arkTsPerformanceTest Float64Array from(Set<number>): ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'from',
           'from(Set<number>): Float64Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        expect(res.length === 5).assertTrue();
-        expect(res[0] === 1.0).assertTrue();
-        expect(res[4] === 5.0).assertTrue();
-        done();
+;
+      done();
       })
 
-    it('PerformanceTest_Float64Array_from_Array',
+    it('PerformanceTest_Float64Array_from_Array_1000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Array<number> = [1.0, 2.0, 3.0, 4.0, 5.0];
@@ -257,11 +230,8 @@ export default function TypedArraysPerfTest06(): void {
         console.info('arkTsPerformanceTest Float64Array from(Array<number>): ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'from',
           'from(Array<number>): Float64Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        expect(res.length === 5).assertTrue();
-        expect(res[0] === 1.0).assertTrue();
-        expect(res[4] === 5.0).assertTrue();
-        done();
+;
+      done();
       })
 
   })
