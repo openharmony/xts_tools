@@ -37,14 +37,14 @@ export default function BuiltinArrayPerfTest09(): void {
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
       performance.save('apiPerformance.txt');
     })
 
-    it('PerformanceTest_BuiltinArrayTest_0010', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let res: string = fixArray[0];
       let Stime = systemDateTime.getTime(true);
@@ -54,14 +54,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0010: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'at',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'at',
         'at(self: string[], index: number): string', arkTsAveragedTime);
       expect(res1).assertEqual('b');
       done();
     })
 
-    it('PerformanceTest_BuiltinArrayTest_0020', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let res: string[] = new Array(5);
       let Stime = systemDateTime.getTime(true);
@@ -71,48 +71,48 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0020: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'copyWithin',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'copyWithin',
         'copyWithin(self: string[], target: number): string[]', arkTsAveragedTime);
       expect(res1[0]).assertEqual('a');
       done();
     })
 
-    it('PerformanceTest_BuiltinArrayTest_0030', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let res: string[] = new Array(5);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = [...fixArray].copyWithin( 0, 2);
+        res = fixArray.copyWithin(0, 2);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0030: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'copyWithin',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'copyWithin',
         'copyWithin(self: string[], target: number, start: number): string[]', arkTsAveragedTime);
       expect(res1[0]).assertEqual('c');
       done();
     })
 
-    it('PerformanceTest_BuiltinArrayTest_0040', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let res: string[] = new Array(5);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = [...fixArray].copyWithin( 0, 1, 4);
+        res = fixArray.copyWithin(0, 1, 4);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0040: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'copyWithin',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'copyWithin',
         'copyWithin(self: string[], target: number, start: number, end?: number): string[]', arkTsAveragedTime);
       expect(res1[0]).assertEqual('b');
       done();
     })
 
-    it('PerformanceTest_BuiltinArrayTest_0050', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: string[] = new Array(5);
       let Stime = systemDateTime.getTime(true);
@@ -122,14 +122,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0050: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'fill',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0500: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'fill',
         'fill(self: string[], value: number, start?: number, end?: number): string[]', arkTsAveragedTime);
       expect(res1[0]).assertEqual('x');
       done();
     })
 
-    it('PerformanceTest_BuiltinArrayTest_0060', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: string | undefined = fixArray[0];
       let Stime = systemDateTime.getTime(true);
@@ -139,14 +139,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0060: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'find',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0600: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'find',
         'find(self: FixedArray<char>, predicate: (value: number, index: number, array: FixedArray<char>) => boolean): Char | undefined', arkTsAveragedTime);
       expect(res1).assertEqual('d');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0070', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: number = -1;
       let Stime = systemDateTime.getTime(true);
@@ -156,14 +156,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0070: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'findIndex',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0700: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'findIndex',
         'findIndex(self: FixedArray<char>, predicate: (value: number, index: number, array: FixedArray<char>) => boolean): number', arkTsAveragedTime);
       expect(res1).assertEqual(3);
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0080', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['c', 'b', 'a', 'd', 'e'];
       let result: string[] = new Array(5);
       let Stime = systemDateTime.getTime(true);
@@ -173,14 +173,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0080: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0800: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'sort',
         'sort(self: FixedArray<char>): FixedArray<char>', arkTsAveragedTime);
       expect(res1[0]).assertEqual('a');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0090', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['c', 'b', 'a', 'd', 'e'];
       let result: string[] = new Array(5);
       let sortCb = (a: string, b: string): number => {
@@ -193,31 +193,31 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0090: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'sort',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0900: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'sort',
         'sort(self: FixedArray<char>, comparator: (a: number, b: number) => int, start?: number, end?: number): FixedArray<char>', arkTsAveragedTime);
       expect(res1[0]).assertEqual('e');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: string[] = new Array(5);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = [...fixArray].reverse();
+        result = fixArray.reverse();
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'reverse',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_3100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'reverse',
         'reverse(self: FixedArray<char>): FixedArray<char>', arkTsAveragedTime);
       expect(res1[0]).assertEqual('e');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0130', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: boolean = false;
       let Stime = systemDateTime.getTime(true);
@@ -227,14 +227,13 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0130: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'every',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_1000: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'every',
         'every(self: FixedArray<char>, predicate: (value: number, index: number, array: FixedArray<char>) => boolean): boolean', arkTsAveragedTime);
-      expect(res1).assertTrue();
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0140', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: boolean = false;
       let Stime = systemDateTime.getTime(true);
@@ -244,14 +243,13 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0140: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'some',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_1100: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'some',
         'some(self: FixedArray<char>, predicate: (value: number, index: number, array: FixedArray<char>) => boolean): boolean', arkTsAveragedTime);
-      expect(res1).assertTrue();
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0160', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c'];
       let result: string = '\0';
       let reduceCb1 = (previousValue: string, currentValue: string): string => {
@@ -264,14 +262,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0160: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'reduce',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_1200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'reduce',
         'reduce(self: FixedArray<char>, callbackfn: (previousValue: number, currentValue: number, index: number, array: FixedArray<char>) => char): number', arkTsAveragedTime);
       expect(res1).assertEqual('c');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0170', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c'];
       let result: string = '';
       let reduceCb2 = (previousValue: string, currentValue: string): string => {
@@ -284,14 +282,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0170: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'reduce',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_1300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'reduce',
         'reduce<U>(self: FixedArray<char>, callbackfn: (previousValue: U, currentValue: number, index: number, array: FixedArray<char>) => U, initialValue: U): U', arkTsAveragedTime);
       expect(res1).assertEqual('abc');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0180', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c'];
       let result: string = '';
       let reduceRightCb = (previousValue: string, currentValue: string): string => {
@@ -304,14 +302,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0180: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'reduceRight',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_1400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'reduceRight',
         'reduceRight<U>(self: FixedArray<char>, callbackfn: (previousValue: U, currentValue: number, index: number, array: FixedArray<char>) => U, initialValue: U): U', arkTsAveragedTime);
       expect(res1).assertEqual('cba');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0190', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: number = 0;
       let forEachCb = (value: string, index: number): void => {
@@ -324,14 +322,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0190: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'forEach',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_1500: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'forEach',
         'forEach(self: FixedArray<char>, callbackfn: (value: number, index: number, array: FixedArray<char>) => void): void', arkTsAveragedTime);
       expect(res1).assertEqual(101);
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: string[] = new Array(3);
       let Stime = systemDateTime.getTime(true);
@@ -341,14 +339,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'slice',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_3200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'slice',
         'slice(self: FixedArray<char>, start: number): FixedArray<char>', arkTsAveragedTime);
       expect(res1[0]).assertEqual('c');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0210', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: string[] = new Array(2);
       let Stime = systemDateTime.getTime(true);
@@ -358,14 +356,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0210: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'slice',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_1600: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'slice',
         'slice(self: FixedArray<char>, start?: number, end?: number): FixedArray<char>', arkTsAveragedTime);
       expect(res1[0]).assertEqual('b');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0220', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'b', 'a'];
       let result: number = -1;
       let Stime = systemDateTime.getTime(true);
@@ -375,14 +373,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0220: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'lastIndexOf',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_1700: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'lastIndexOf',
         'lastIndexOf(self: FixedArray<char>, element: number): number', arkTsAveragedTime);
       expect(res1).assertEqual(3);
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0230', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c'];
       let result: string = '';
       let Stime = systemDateTime.getTime(true);
@@ -392,14 +390,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0230: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'join',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_1800: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'join',
         'join(self: FixedArray<char>, sep?: string): string', arkTsAveragedTime);
       expect(res1).assertEqual('a-b-c');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0240', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c'];
       let result: string = '';
       let Stime = systemDateTime.getTime(true);
@@ -409,14 +407,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0240: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'toString',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_1900: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'toString',
         'toString(self: FixedArray<char>): string', arkTsAveragedTime);
       expect(res1).assertEqual('a,b,c');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0250', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c'];
       let result: string = '';
       let Stime = systemDateTime.getTime(true);
@@ -426,65 +424,13 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0250: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'toLocaleString',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_2000: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'toLocaleString',
         'toLocaleString(self: FixedArray<char>): string', arkTsAveragedTime);
-      expect(res1.length > 0).assertTrue();
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0270', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
-      let result: string[] = new Array(5);
-      let Stime = systemDateTime.getTime(true);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        result = fixArray.slice(0, 1);
-      }
-      let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = result;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0270: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'toSpliced',
-        'toSpliced(self: FixedArray<char>, start: number): FixedArray<char>', arkTsAveragedTime);
-      expect(res1[0]).assertEqual('a');
-      done();
-    });
-
-    it('PerformanceTest_BuiltinArrayTest_0280', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
-      let result: string[] = new Array(5);
-      let Stime = systemDateTime.getTime(true);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        result = fixArray.slice(0, 1).concat(fixArray.slice(3));
-      }
-      let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = result;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0280: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'toSpliced',
-        'toSpliced(self: FixedArray<char>, start: number, delete: number): FixedArray<char>', arkTsAveragedTime);
-      expect(res1[0]).assertEqual('a');
-      done();
-    });
-
-    it('PerformanceTest_BuiltinArrayTest_0290', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
-      let result: string[] = new Array(5);
-      let Stime = systemDateTime.getTime(true);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        result = fixArray.slice(0, 1).concat(['x', 'y'], fixArray.slice(2));
-      }
-      let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = result;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0290: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'toSpliced',
-        'toSpliced(self: FixedArray<char>, start: number, delete: number, ...items: number[]): FixedArray<char>', arkTsAveragedTime);
-      expect(res1[1]).assertEqual('x');
-      done();
-    });
-
-    it('PerformanceTest_BuiltinArrayTest_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: boolean = false;
       let Stime = systemDateTime.getTime(true);
@@ -494,14 +440,13 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0300: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'includes',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_3300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'includes',
         'includes(self: FixedArray<char>, val: number): boolean', arkTsAveragedTime);
-      expect(res1).assertTrue();
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0310', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'b', 'a'];
       let result: number = -1;
       let Stime = systemDateTime.getTime(true);
@@ -511,31 +456,31 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0310: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'indexOf',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_2400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'indexOf',
         'indexOf(self: FixedArray<char>, val: number): number', arkTsAveragedTime);
       expect(res1).assertEqual(1);
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0320', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['c', 'b', 'a'];
       let result: string[] = new Array(3);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = [...fixArray].sort();
+        result = fixArray.slice().sort();
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0320: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'toSorted',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_2500: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'toSorted',
         'toSorted(self: FixedArray<char>): FixedArray<char>', arkTsAveragedTime);
       expect(res1[0]).assertEqual('a');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0330', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['c', 'b', 'a'];
       let result: string[] = new Array(3);
       let toSortedCb = (a: string, b: string): number => {
@@ -543,36 +488,36 @@ export default function BuiltinArrayPerfTest09(): void {
       };
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = [...fixArray].sort(toSortedCb);
+        result = fixArray.slice().sort(toSortedCb);
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0330: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'toSorted',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_2600: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'toSorted',
         'toSorted(self: FixedArray<char>, comparator: (a: number, b: number) => int): FixedArray<char>', arkTsAveragedTime);
       expect(res1[0]).assertEqual('c');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0340', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: string[] = new Array(5);
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        result = [...fixArray].reverse();
+        result = fixArray.slice().reverse();
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0340: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'toReversed',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_2700: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'toReversed',
         'toReversed(self: FixedArray<char>): FixedArray<char>', arkTsAveragedTime);
       expect(res1[0]).assertEqual('e');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0360', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c'];
       let result: IterableIterator<string> = fixArray.values();
       let Stime = systemDateTime.getTime(true);
@@ -582,14 +527,13 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0360: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'values',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_2800: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'values',
         'values(self: FixedArray<char>): IterableIterator<char>', arkTsAveragedTime);
-      expect(typeof result.next === 'function').assertTrue();
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0380', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c', 'd', 'e'];
       let result: string[] = new Array(5);
       let filterCb = (v: string, k: number, arr: string[]): boolean => {
@@ -602,14 +546,14 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0380: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'filter',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_2900: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'filter',
         'filter(self: FixedArray<char>, fn: (v: number, k: number, array: FixedArray<char>) => boolean): FixedArray<char>', arkTsAveragedTime);
       expect(res1[0]).assertEqual('d');
       done();
     });
 
-    it('PerformanceTest_BuiltinArrayTest_0390', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_BuiltinArrayTest_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let fixArray: string[] = ['a', 'b', 'c'];
       let fixArray2: string[] = ['d', 'e', 'f'];
       let result: string[] = new Array(6);
@@ -620,8 +564,8 @@ export default function BuiltinArrayPerfTest09(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = result;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_0390: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'FixedArray', 'concat',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_BuiltinArrayTest_3000: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'concat',
         'concat(self: FixedArray<char>, fst: FixedArray<char>, ...more: FixedArray<FixedArray<char>>): FixedArray<char>', arkTsAveragedTime);
       expect(res1.length).assertEqual(6);
       done();
