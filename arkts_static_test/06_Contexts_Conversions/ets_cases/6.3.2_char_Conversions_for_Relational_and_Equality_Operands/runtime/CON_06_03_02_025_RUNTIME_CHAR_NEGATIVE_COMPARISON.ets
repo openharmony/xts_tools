@@ -40,5 +40,5 @@ function main(): void {
     throw new Error("assertion failed: 'A'(65) > -1.5 should be true")
   }
 
-  console.log("Char negative comparison verified")
+  console.log('Char negative comparison verified')
 }

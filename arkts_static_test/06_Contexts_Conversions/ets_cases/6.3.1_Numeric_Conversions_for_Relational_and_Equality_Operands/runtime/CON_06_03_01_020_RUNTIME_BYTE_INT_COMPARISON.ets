@@ -36,5 +36,5 @@ function main(): void {
     throw new Error("assertion failed: 5 >= 10 should be false")
   }
 
-  console.log("Byte-int relational comparison verified")
+  console.log('Byte-int relational comparison verified')
 }

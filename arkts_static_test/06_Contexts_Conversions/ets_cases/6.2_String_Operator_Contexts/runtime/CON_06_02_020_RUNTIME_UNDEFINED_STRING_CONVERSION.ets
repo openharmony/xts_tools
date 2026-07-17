@@ -31,5 +31,5 @@ function main(): void {
     throw new Error("assertion failed: expected 'undefined', got '" + r2 + "'")
   }
 
-  console.log("Undefined string conversion verified")
+  console.log('Undefined string conversion verified')
 }

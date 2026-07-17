@@ -34,5 +34,5 @@ function main(): void {
     throw new Error("assertion failed: expected prefix 'container: ', got '" + r1 + "'")
   }
 
-  console.log("Class toString conversion verified")
+  console.log('Class toString conversion verified')
 }

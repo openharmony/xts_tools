@@ -37,5 +37,5 @@ function main(): void {
     throw new Error("assertion failed: 0xFF ^ 0x0F should be 0xF0")
   }
 
-  console.log("Bitwise widening verified")
+  console.log('Bitwise widening verified')
 }

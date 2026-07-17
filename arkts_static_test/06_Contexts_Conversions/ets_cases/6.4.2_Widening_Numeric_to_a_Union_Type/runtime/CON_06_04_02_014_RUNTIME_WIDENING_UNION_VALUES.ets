@@ -38,5 +38,5 @@ function main(): void {
     throw new Error("assertion failed: int 77→byte|long, got " + u3)
   }
 
-  console.log("Widening union values verified")
+  console.log('Widening union values verified')
 }

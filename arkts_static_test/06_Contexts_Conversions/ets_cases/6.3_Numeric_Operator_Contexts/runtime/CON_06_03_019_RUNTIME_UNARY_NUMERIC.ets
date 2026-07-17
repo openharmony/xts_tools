@@ -36,5 +36,5 @@ function main(): void {
     throw new Error("assertion failed: ~0 should be -1")
   }
 
-  console.log("Unary numeric verified")
+  console.log('Unary numeric verified')
 }

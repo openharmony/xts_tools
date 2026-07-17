@@ -30,5 +30,5 @@ function main(): void {
     throw new Error("assertion failed: undefined→'undefined', got '" + s2 + "'")
   }
 
-  console.log("Nullish string values verified")
+  console.log('Nullish string values verified')
 }

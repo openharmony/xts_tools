@@ -23,6 +23,7 @@ function main(): void {
   let i: int = 27
   let f: float = i
   let d: double = f
-  if (d != 27.0) { throw new Error("float→double, expected 27.0") }
-  console.log("Float widening verified")
+  if (d != 27.0) {
+    throw new Error("float→double, expected 27.0") }
+  console.log('Float widening verified')
 }

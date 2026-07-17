@@ -40,5 +40,5 @@ function main(): void {
     throw new Error("assertion failed: doubleVar expected 3.14")
   }
 
-  console.log("Declaration context verified")
+  console.log('Declaration context verified')
 }

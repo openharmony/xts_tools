@@ -23,7 +23,9 @@ function foo202<T = number>(input: T): T { return input }
 function main(): void {
   let r1: number = foo202(1)
   let r2: number = foo202<number>(1)
-  if (r1 != 1.0) throw new Error('impl default failed')
-  if (r2 != 1) throw new Error('explicit default failed')
+  if (r1 != 1.0) {
+    throw new Error('impl default failed')
+  if (r2 != 1) {
+    throw new Error('explicit default failed')
   console.log('default equivalence verified')
 }

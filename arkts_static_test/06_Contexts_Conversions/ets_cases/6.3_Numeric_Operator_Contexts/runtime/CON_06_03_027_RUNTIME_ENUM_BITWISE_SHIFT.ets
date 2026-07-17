@@ -46,5 +46,5 @@ function main(): void {
     throw new Error("assertion failed: ~0 should be -1")
   }
 
-  console.log("Enum bitwise/shift verified")
+  console.log('Enum bitwise/shift verified')
 }

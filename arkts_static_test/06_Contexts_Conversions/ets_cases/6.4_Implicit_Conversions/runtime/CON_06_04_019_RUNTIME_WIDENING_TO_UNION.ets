@@ -38,5 +38,5 @@ function main(): void {
     throw new Error("assertion failed: int|long|double should be 0")
   }
 
-  console.log("Widening to union type verified")
+  console.log('Widening to union type verified')
 }

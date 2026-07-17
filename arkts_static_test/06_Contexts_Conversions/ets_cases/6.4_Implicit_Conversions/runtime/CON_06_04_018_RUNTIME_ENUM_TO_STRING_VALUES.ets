@@ -41,5 +41,5 @@ function main(): void {
     throw new Error("assertion failed: expected 'done', got '" + s3 + "'")
   }
 
-  console.log("Enum to string values verified")
+  console.log('Enum to string values verified')
 }

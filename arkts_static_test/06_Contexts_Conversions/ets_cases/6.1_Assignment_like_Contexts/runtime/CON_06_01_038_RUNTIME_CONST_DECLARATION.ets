@@ -40,5 +40,5 @@ function main(): void {
     throw new Error("assertion failed: YES expected true")
   }
 
-  console.log("Const declaration context verified")
+  console.log('Const declaration context verified')
 }

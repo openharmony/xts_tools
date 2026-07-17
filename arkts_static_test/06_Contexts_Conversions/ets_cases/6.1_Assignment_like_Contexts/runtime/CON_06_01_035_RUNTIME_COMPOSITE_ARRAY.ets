@@ -42,5 +42,5 @@ function main(): void {
     throw new Error("assertion failed: strArr[1] expected 'b'")
   }
 
-  console.log("Composite array context verified")
+  console.log('Composite array context verified')
 }

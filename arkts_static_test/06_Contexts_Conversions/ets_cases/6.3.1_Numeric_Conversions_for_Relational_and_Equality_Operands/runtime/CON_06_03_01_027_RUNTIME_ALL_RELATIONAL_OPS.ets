@@ -50,5 +50,5 @@ function main(): void {
     throw new Error("assertion failed: 50 != 50 should be false")
   }
 
-  console.log("All relational operators verified")
+  console.log('All relational operators verified')
 }

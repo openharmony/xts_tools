@@ -29,7 +29,7 @@ function main(): void {
     let s: Storage<string> = new Storage<string>("wildcard_ok");
     let v: string = s.get();
     if (v != "wildcard_ok") {
-        throw new Error("assertion failed: " + v);
+    throw new Error("assertion failed: " + v);
     }
-    console.log("verified");
+    console.log('verified');
 }

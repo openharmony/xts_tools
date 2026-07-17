@@ -22,6 +22,7 @@
 function main(): void {
   let negInf: double = -1.0 / 0.0
   let minInt: int = negInf.toInt()
-  if (minInt != -2147483648) throw new Error('-Inf.toInt() should be min int')
+  if (minInt != -2147483648) {
+    throw new Error('-Inf.toInt() should be min int')
   console.log('-Inf to int verified')
 }

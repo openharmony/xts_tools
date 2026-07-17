@@ -59,5 +59,5 @@ function main(): void {
     throw new Error("assertion failed: 42 <= 42 should be true")
   }
 
-  console.log("Boundary value comparison verified")
+  console.log('Boundary value comparison verified')
 }

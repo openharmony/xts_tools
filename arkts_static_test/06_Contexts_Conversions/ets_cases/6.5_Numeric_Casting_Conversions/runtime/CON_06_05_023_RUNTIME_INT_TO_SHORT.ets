@@ -21,10 +21,16 @@
  */
 function main(): void {
   let i1: int = 0x7FFF
-  if (i1.toShort() != 32767) throw new Error('0x7FFF->short failed')
+  if (i1.toShort() != 32767) {
+    throw new Error('0x7FFF->short failed')
+  }
   let i2: int = 0x10000
-  if (i2.toShort() != 0) throw new Error('0x10000->short should be 0')
+  if (i2.toShort() != 0) {
+    throw new Error('0x10000->short should be 0')
+  }
   let i3: int = -1
-  if (i3.toShort() != -1) throw new Error('-1->short should be -1')
+  if (i3.toShort() != -1) {
+    throw new Error('-1->short should be -1')
+  }
   console.log('int to short verified')
 }

@@ -64,5 +64,5 @@ function main(): void {
     throw new Error("assertion failed: composite literal element mismatch")
   }
 
-  console.log("All assignment-like contexts integration verified")
+  console.log('All assignment-like contexts integration verified')
 }

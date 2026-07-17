@@ -23,7 +23,7 @@ function foo<T = number>(input: T): T { return input }
 function main(): void {
     let r = foo(1)
     if (r != 1) {
-        throw new Error("assertion failed: r = " + r)
+    throw new Error("assertion failed: r = " + r)
     }
-    console.log("verified")
+    console.log('verified')
 }

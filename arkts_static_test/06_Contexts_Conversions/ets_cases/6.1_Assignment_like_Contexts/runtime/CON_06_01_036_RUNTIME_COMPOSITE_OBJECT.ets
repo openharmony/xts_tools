@@ -41,5 +41,5 @@ function main(): void {
     throw new Error("assertion failed: r.label expected 'box'")
   }
 
-  console.log("Composite object context verified")
+  console.log('Composite object context verified')
 }

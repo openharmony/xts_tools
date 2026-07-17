@@ -22,8 +22,10 @@
 function main(): void {
   let d: double = 257.7
   let b: byte = d.toInt().toByte()
-  if (b != 1) throw new Error('257.7->int->byte should be 1 (257 mod 256)')
+  if (b != 1) {
+    throw new Error('257.7->int->byte should be 1 (257 mod 256)')
   let s: short = d.toInt().toShort()
-  if (s != 257) throw new Error('257.7->int->short should be 257')
+  if (s != 257) {
+    throw new Error('257.7->int->short should be 257')
   console.log('double to byte/short verified')
 }

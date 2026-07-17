@@ -38,5 +38,5 @@ function main(): void {
     throw new Error("assertion failed: byte→int 100 should remain 100")
   }
 
-  console.log("Widening values verified")
+  console.log('Widening values verified')
 }

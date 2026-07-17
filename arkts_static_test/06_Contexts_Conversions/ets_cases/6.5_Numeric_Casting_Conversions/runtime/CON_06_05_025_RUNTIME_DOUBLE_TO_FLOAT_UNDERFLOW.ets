@@ -22,6 +22,7 @@
 function main(): void {
     let tiny: double = 1e-50
     let f: float = tiny.toFloat()
-    if (f != 0.0) { throw new Error("underflow mismatch") }
-    console.log("verified")
+    if (f != 0.0) {
+    throw new Error("underflow mismatch") }
+    console.log('verified')
 }

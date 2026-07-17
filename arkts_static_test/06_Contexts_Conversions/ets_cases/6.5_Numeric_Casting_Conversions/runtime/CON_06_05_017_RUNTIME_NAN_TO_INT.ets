@@ -21,6 +21,8 @@
  */
 function main(): void {
   let nan: double = 0.0 / 0.0
-  if (nan.toInt() != 0) throw new Error('NaN.toInt() should be 0')
+  if (nan.toInt() != 0) {
+    throw new Error('NaN.toInt() should be 0')
+  }
   console.log('NaN to int verified')
 }

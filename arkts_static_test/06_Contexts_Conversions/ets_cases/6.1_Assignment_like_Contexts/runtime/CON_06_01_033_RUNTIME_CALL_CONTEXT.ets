@@ -43,5 +43,5 @@ function main(): void {
     throw new Error("assertion failed: concat expected 'helloworld', got " + joined)
   }
 
-  console.log("Call context verified")
+  console.log('Call context verified')
 }

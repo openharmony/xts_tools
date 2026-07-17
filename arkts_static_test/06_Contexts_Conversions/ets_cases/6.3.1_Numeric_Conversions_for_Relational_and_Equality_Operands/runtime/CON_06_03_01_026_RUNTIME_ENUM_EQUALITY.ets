@@ -39,5 +39,5 @@ function main(): void {
     throw new Error("assertion failed: Active != Active should be false")
   }
 
-  console.log("Enum equality comparison verified")
+  console.log('Enum equality comparison verified')
 }

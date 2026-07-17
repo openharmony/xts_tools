@@ -47,5 +47,5 @@ function main(): void {
     throw new Error("assertion failed: describe expected 'count:10', got " + desc)
   }
 
-  console.log("Method call context verified")
+  console.log('Method call context verified')
 }

@@ -49,5 +49,5 @@ function main(): void {
     throw new Error("assertion failed: getPositive() expected true")
   }
 
-  console.log("Return context verified")
+  console.log('Return context verified')
 }

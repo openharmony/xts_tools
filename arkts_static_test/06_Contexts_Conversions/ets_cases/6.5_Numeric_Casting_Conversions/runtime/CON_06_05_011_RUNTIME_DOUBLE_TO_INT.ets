@@ -35,5 +35,5 @@ function main(): void {
   let d5: double = 0.0
   if (d5.toInt() != 0) { throw new Error("0.0.toInt() should be 0") }
 
-  console.log("Double to int truncation verified")
+  console.log('Double to int truncation verified')
 }

@@ -38,5 +38,5 @@ function main(): void {
     throw new Error("assertion failed: expected 'string is hello', got '" + r3 + "'")
   }
 
-  console.log("Union nullish string conversion verified")
+  console.log('Union nullish string conversion verified')
 }

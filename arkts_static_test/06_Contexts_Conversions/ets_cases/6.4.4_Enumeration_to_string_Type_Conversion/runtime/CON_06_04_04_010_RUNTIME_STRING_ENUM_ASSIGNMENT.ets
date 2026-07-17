@@ -25,18 +25,22 @@ function main(): void {
   let s: string = ""
   let e: Status = Status.Ready
   s = e
-  if (s != "ready") { throw new Error("assertion: ready") }
+  if (s != "ready") {
+    throw new Error("assertion: ready") }
 
   e = Status.Running
   s = e
-  if (s != "running") { throw new Error("assertion: running") }
+  if (s != "running") {
+    throw new Error("assertion: running") }
 
   let u: string | int = Status.Done
-  if (u != "done") { throw new Error("assertion: done in union") }
+  if (u != "done") {
+    throw new Error("assertion: done in union") }
 
   let v: string | int = 0
   v = Status.Ready
-  if (v != "ready") { throw new Error("assertion: ready in reassigned union") }
+  if (v != "ready") {
+    throw new Error("assertion: ready in reassigned union") }
 
-  console.log("String enum assignment verified")
+  console.log('String enum assignment verified')
 }

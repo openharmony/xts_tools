@@ -41,5 +41,5 @@ function main(): void {
     throw new Error("assertion failed: expected '1', got '" + r3 + "'")
   }
 
-  console.log("Non-string enum conversion verified")
+  console.log('Non-string enum conversion verified')
 }

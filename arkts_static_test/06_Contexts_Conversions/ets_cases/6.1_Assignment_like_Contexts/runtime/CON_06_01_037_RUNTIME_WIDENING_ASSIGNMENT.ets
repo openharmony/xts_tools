@@ -38,5 +38,5 @@ function main(): void {
     throw new Error("assertion failed: negWide expected -100")
   }
 
-  console.log("Widening assignment verified")
+  console.log('Widening assignment verified')
 }

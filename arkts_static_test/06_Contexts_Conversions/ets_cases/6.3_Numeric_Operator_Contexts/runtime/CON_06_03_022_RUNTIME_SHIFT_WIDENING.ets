@@ -44,5 +44,5 @@ function main(): void {
     throw new Error("assertion failed: 16 << 2 should be 64")
   }
 
-  console.log("Shift widening verified")
+  console.log('Shift widening verified')
 }

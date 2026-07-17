@@ -42,5 +42,5 @@ function main(): void {
     throw new Error("assertion failed: -3 >= -3.0 should be true")
   }
 
-  console.log("Negative value comparison verified")
+  console.log('Negative value comparison verified')
 }

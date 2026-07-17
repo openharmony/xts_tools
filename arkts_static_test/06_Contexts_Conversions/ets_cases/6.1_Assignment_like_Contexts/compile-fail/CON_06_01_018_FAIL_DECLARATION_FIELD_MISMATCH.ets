@@ -20,7 +20,7 @@
  * @note 反向用例：验证该场景应产生编译时错误
  */
 class BadField {
-  invalidField: string = 123
+  public invalidField: string = 123
 }
 
 function testDeclarationFieldMismatchFail(): void {

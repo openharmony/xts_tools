@@ -36,5 +36,5 @@ function main(): void {
     throw new Error("assertion failed: expected 'd=1.5', got '" + r3 + "'")
   }
 
-  console.log("Float string conversion verified")
+  console.log('Float string conversion verified')
 }

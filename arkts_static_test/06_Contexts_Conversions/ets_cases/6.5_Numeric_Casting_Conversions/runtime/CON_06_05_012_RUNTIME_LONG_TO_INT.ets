@@ -29,5 +29,5 @@ function main(): void {
   let l3: long = 0
   if (l3.toInt() != 0) { throw new Error("0L.toInt() should be 0") }
 
-  console.log("Long to int truncation verified")
+  console.log('Long to int truncation verified')
 }

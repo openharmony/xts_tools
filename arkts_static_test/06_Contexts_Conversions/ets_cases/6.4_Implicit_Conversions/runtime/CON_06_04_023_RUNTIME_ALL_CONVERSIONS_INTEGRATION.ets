@@ -60,5 +60,5 @@ function main(): void {
     throw new Error("assertion failed: union conversion mismatch")
   }
 
-  console.log("All implicit conversions integration verified")
+  console.log('All implicit conversions integration verified')
 }

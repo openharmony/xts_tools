@@ -37,5 +37,5 @@ function main(): void {
     throw new Error("assertion failed: 100 != 100 should be false")
   }
 
-  console.log("Int-long equality comparison verified")
+  console.log('Int-long equality comparison verified')
 }

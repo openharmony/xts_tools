@@ -52,5 +52,5 @@ function main(): void {
     throw new Error("assertion failed: v.sum() expected 6, got " + total)
   }
 
-  console.log("Constructor call context verified")
+  console.log('Constructor call context verified')
 }

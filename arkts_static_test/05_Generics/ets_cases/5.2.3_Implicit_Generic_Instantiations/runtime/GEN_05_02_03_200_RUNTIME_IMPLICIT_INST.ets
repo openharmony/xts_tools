@@ -25,7 +25,7 @@ function wrap<T>(arg: T): T {
 function main(): void {
     let r = wrap(42);
     if (r != 42) {
-        throw new Error("assertion failed: " + r);
+    throw new Error("assertion failed: " + r);
     }
-    console.log("verified");
+    console.log('verified');
 }

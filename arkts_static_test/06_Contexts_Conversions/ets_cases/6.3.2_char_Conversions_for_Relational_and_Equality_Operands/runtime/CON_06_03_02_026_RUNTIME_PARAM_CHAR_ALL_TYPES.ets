@@ -43,5 +43,5 @@ function compareAll(c: char, b: byte, i: int, l: long, d: double): void {
 function main(): void {
   compareAll(c'a', 90, 200, 300, 400.0)
 
-  console.log("Param char all-types comparison verified")
+  console.log('Param char all-types comparison verified')
 }

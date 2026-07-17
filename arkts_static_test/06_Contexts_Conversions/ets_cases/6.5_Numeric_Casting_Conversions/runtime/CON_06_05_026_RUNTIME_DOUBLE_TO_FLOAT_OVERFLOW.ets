@@ -23,5 +23,5 @@ function main(): void {
     let huge: double = 1e40
     let f: float = huge.toFloat()
     if (f.isInfinite() != true) { throw new Error("overflow mismatch") }
-    console.log("verified")
+    console.log('verified')
 }

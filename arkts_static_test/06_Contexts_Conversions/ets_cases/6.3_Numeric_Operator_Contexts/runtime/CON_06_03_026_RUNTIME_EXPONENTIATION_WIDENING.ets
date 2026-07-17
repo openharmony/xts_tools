@@ -39,5 +39,5 @@ function main(): void {
     throw new Error("assertion failed: 10 ** 0 should be 1.0")
   }
 
-  console.log("Exponentiation widening verified")
+  console.log('Exponentiation widening verified')
 }

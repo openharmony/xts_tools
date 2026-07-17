@@ -5,7 +5,7 @@
 | Dimension | ArkTS | Java (SE 21) | Swift (5.x) |
 |-----------|-------|-------------|-------------|
 | Union types | ✓ Native `T \| U` syntax | **✗** No union types | **✗** No union types |
-| `byte \| int` variable | ✓ | Use `int` directly (widening covers it) | Use `Int` or ADT enum |
+| `byte \| int` variable | ✓ | Use `int` directly (widening covers it) | Use `Int` or enum (associated values) |
 | Literal inference | `byte\|int = 256` → int | `int x = 256` (always int literal) | `let x = 256` → Int |
 | Subtyping | `int → byte\|int` (direct) | `int = int` (trivial) | `Int = Int` (trivial) |
 | Widening to union | `short → byte\|int` (int larger) | `int = short` (implicit) | `Int(short)` (explicit) |
@@ -30,7 +30,7 @@ u = short_var;      // implicit widening to int
 u = int_var;        // trivial
 ```
 
-**Swift equivalent** (no union — use ADT enum):
+**Swift equivalent** (no union — use enum with associated values):
 ```swift
 enum IntOrByte {
     case intValue(Int)
@@ -44,7 +44,7 @@ u = .intValue(Int(short_var))
 
 | ArkTS Union Concept | Java Equivalent | Swift Equivalent |
 |--------------------|-----------------|-----------------|
-| `T \| U` declaration | Use `T` (widest) or method overloading | ADT enum with associated values |
+| `T \| U` declaration | Use `T` (widest) or method overloading | enum with associated values |
 | Literal → union member inference | Literal type determined by context (int default) | Literal type inference |
 | Subtyping (`T` is member) | Direct assignment (same type) | Direct enum case |
 | Widening to larger member | Implicit primitive widening | Explicit type construction |

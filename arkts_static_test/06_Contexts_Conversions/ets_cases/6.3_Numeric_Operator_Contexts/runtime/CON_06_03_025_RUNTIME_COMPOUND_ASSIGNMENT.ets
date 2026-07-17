@@ -55,5 +55,5 @@ function main(): void {
     throw new Error("assertion failed: 8 >>= 2 should be 2")
   }
 
-  console.log("Compound assignment verified")
+  console.log('Compound assignment verified')
 }

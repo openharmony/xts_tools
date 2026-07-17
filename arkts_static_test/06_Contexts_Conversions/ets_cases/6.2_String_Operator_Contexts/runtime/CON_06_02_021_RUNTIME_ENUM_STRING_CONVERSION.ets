@@ -41,5 +41,5 @@ function main(): void {
     throw new Error("assertion failed: expected 'pick: cherry', got '" + r3 + "'")
   }
 
-  console.log("Enum string conversion verified")
+  console.log('Enum string conversion verified')
 }

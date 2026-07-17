@@ -38,5 +38,5 @@ function main(): void {
     throw new Error("assertion failed: short→byte|int should widen to int")
   }
 
-  console.log("Literal inference + widening verified")
+  console.log('Literal inference + widening verified')
 }

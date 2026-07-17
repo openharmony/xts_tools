@@ -35,5 +35,5 @@ function main(): void {
     throw new Error("assertion failed: expected 'null value', got '" + r3 + "'")
   }
 
-  console.log("Null string conversion verified")
+  console.log('Null string conversion verified')
 }

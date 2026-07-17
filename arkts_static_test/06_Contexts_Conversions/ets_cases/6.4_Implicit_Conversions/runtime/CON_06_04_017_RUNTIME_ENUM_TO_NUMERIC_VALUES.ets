@@ -46,5 +46,5 @@ function main(): void {
     throw new Error("assertion failed: High→long should be 2")
   }
 
-  console.log("Enum to numeric values verified")
+  console.log('Enum to numeric values verified')
 }

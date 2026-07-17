@@ -32,5 +32,5 @@ function main(): void {
   if (zero.toLong() != 0) { throw new Error("0.toLong() should be 0") }
   if (zero.toDouble() != 0.0) { throw new Error("0.toDouble() should be 0.0") }
 
-  console.log("Int to long/double widening verified")
+  console.log('Int to long/double widening verified')
 }

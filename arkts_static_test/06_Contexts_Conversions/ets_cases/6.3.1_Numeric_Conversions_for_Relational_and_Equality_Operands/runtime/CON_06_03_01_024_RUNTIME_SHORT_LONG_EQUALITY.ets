@@ -34,5 +34,5 @@ function main(): void {
     throw new Error("assertion failed: 50 == 50 should be true")
   }
 
-  console.log("Short-long equality comparison verified")
+  console.log('Short-long equality comparison verified')
 }

@@ -25,7 +25,7 @@ class X<T> {
 }
 function foo(a: Any, b: Any): void {
     if (a instanceof X && b instanceof X) {
-        let a1 = a;  // X<*>
+    let a1 = a;  // X<*>
         let a2 = b;  // X<*>
         a.p = b.p;   // Compile-time error: invariance prevents assignment
     }

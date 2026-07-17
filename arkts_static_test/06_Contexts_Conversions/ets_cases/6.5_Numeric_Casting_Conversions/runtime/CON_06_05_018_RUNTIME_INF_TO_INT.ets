@@ -22,6 +22,7 @@
 function main(): void {
   let inf: double = 1.0 / 0.0
   let maxInt: int = inf.toInt()
-  if (maxInt != 2147483647) throw new Error('+Inf.toInt() should be max int')
+  if (maxInt != 2147483647) {
+    throw new Error('+Inf.toInt() should be max int')
   console.log('+Inf to int verified')
 }

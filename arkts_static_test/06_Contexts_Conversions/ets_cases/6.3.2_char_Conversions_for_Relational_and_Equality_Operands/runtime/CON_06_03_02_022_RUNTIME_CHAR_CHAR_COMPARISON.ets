@@ -40,5 +40,5 @@ function main(): void {
     throw new Error("assertion failed: 'A' != 'B' should be true")
   }
 
-  console.log("Char-char comparison verified")
+  console.log('Char-char comparison verified')
 }

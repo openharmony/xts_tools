@@ -20,8 +20,8 @@
  * @note 正向用例：验证该特性编译通过的正确用法
  */
 class Point {
-  x: int
-  y: int
+  public x: int
+  public y: int
   constructor(px: int, py: int) {
     this.x = px
     this.y = py
@@ -29,8 +29,8 @@ class Point {
 }
 
 class Person {
-  name: string
-  age: int
+  public name: string
+  public age: int
   constructor(n: string, a: int) {
     this.name = n
     this.age = a

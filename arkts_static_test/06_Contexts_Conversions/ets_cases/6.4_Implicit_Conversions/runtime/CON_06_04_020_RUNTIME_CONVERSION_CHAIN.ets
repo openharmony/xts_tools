@@ -47,5 +47,5 @@ function main(): void {
     throw new Error("assertion failed: 0→double should be 0.0")
   }
 
-  console.log("Conversion chain verified")
+  console.log('Conversion chain verified')
 }

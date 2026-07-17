@@ -41,5 +41,5 @@ function main(): void {
     throw new Error("assertion failed: s expected 'second', got " + s)
   }
 
-  console.log("Assignment context verified")
+  console.log('Assignment context verified')
 }

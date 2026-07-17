@@ -22,6 +22,7 @@
 function main(): void {
   let inf: double = 1.0 / 0.0
   let f: float = inf.toFloat()
-  if (f < 1e38f) throw new Error('Inf->float should be Inf')
+  if (f < 1e38f) {
+    throw new Error('Inf->float should be Inf')
   console.log('Inf to float verified')
 }

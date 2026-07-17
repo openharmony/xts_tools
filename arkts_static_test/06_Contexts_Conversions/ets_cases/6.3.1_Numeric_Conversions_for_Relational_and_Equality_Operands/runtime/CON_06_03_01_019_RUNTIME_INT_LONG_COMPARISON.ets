@@ -38,5 +38,5 @@ function main(): void {
     throw new Error("assertion failed: 30 > 20 should be true")
   }
 
-  console.log("Int-long relational comparison verified")
+  console.log('Int-long relational comparison verified')
 }

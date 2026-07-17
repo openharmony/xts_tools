@@ -45,5 +45,5 @@ function main(): void {
     throw new Error("assertion failed: multi-concat mismatch, got '" + r4 + "'")
   }
 
-  console.log("Multi-type string concatenation verified")
+  console.log('Multi-type string concatenation verified')
 }

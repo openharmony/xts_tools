@@ -30,5 +30,5 @@ function main(): void {
     throw new Error("assertion failed: false→'false', got '" + s2 + "'")
   }
 
-  console.log("Bool string values verified")
+  console.log('Bool string values verified')
 }

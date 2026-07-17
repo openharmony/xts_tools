@@ -22,15 +22,19 @@
 function main(): void {
   let b: byte = -1
   let i: int = b
-  if (i != -1) { throw new Error("byte(-1)→int") }
+  if (i != -1) {
+    throw new Error("byte(-1)→int") }
   let l: long = b
-  if (l != -1) { throw new Error("byte(-1)→long") }
+  if (l != -1) {
+    throw new Error("byte(-1)→long") }
 
   let negInt: int = -100
   let negLong: long = negInt
-  if (negLong != -100) { throw new Error("int(-100)→long") }
+  if (negLong != -100) {
+    throw new Error("int(-100)→long") }
   let negDouble: double = negInt
-  if (negDouble != -100.0) { throw new Error("int(-100)→double") }
+  if (negDouble != -100.0) {
+    throw new Error("int(-100)→double") }
 
-  console.log("Negative widening verified")
+  console.log('Negative widening verified')
 }

@@ -46,5 +46,5 @@ function main(): void {
     throw new Error("assertion failed: expected 'n=999', got '" + r5 + "'")
   }
 
-  console.log("Int string conversion verified")
+  console.log('Int string conversion verified')
 }

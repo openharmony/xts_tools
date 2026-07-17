@@ -44,5 +44,5 @@ function main(): void {
     throw new Error("assertion failed: Medium(1) > 0 should be true")
   }
 
-  console.log("Enum relational comparison verified")
+  console.log('Enum relational comparison verified')
 }

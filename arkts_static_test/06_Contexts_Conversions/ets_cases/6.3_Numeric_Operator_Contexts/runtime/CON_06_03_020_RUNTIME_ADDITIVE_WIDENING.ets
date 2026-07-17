@@ -46,5 +46,5 @@ function main(): void {
     throw new Error("assertion failed: 10 + 5 should be 15")
   }
 
-  console.log("Additive widening verified")
+  console.log('Additive widening verified')
 }

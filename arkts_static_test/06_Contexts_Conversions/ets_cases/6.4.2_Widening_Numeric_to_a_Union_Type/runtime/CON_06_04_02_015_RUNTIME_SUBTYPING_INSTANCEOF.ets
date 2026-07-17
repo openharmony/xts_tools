@@ -34,5 +34,5 @@ function main(): void {
     throw new Error("assertion failed: long→int|long value mismatch")
   }
 
-  console.log("Subtyping value verified")
+  console.log('Subtyping value verified')
 }

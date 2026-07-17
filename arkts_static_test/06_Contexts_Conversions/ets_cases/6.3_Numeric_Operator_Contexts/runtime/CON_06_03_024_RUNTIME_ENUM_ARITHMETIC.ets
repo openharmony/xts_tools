@@ -46,5 +46,5 @@ function main(): void {
     throw new Error("assertion failed: 30 % 20 should be 10")
   }
 
-  console.log("Enum arithmetic verified")
+  console.log('Enum arithmetic verified')
 }

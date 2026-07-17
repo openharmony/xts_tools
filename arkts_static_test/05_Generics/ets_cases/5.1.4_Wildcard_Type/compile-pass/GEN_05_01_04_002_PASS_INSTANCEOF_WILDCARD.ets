@@ -29,11 +29,11 @@ function bar(x: X<Any>): void {
 function main(): void {
     let obj: object = new X<string>("hello");
     if (obj instanceof X) {
-        let x: X<Any> = obj as X<Any>;
+    let x: X<Any> = obj as X<Any>;
         bar(x);
         if (x.p != "a") {
-            throw new Error("assertion failed: " + x.p);
+    throw new Error("assertion failed: " + x.p);
         }
     }
-    console.log("verified");
+    console.log('verified');
 }

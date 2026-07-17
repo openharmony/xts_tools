@@ -32,5 +32,5 @@ function main(): void {
   let i4: int = 0
   if (i4.toByte() != 0) { throw new Error("0.toByte() should be 0") }
 
-  console.log("Int to byte truncation verified")
+  console.log('Int to byte truncation verified')
 }

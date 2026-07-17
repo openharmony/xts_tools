@@ -36,5 +36,5 @@ function main(): void {
     throw new Error("assertion failed: 3.14 <= 3 should be false")
   }
 
-  console.log("Double-int relational comparison verified")
+  console.log('Double-int relational comparison verified')
 }

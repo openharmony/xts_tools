@@ -41,5 +41,5 @@ function main(): void {
     throw new Error("assertion failed: ' ' == 32 should be true")
   }
 
-  console.log("Char boundary comparison verified")
+  console.log('Char boundary comparison verified')
 }

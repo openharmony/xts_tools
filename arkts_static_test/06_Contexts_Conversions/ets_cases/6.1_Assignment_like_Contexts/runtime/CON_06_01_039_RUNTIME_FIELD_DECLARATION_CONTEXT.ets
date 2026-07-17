@@ -37,5 +37,5 @@ function main(): void {
     throw new Error("assertion failed: c.label expected 'count'")
   }
 
-  console.log("Field declaration context verified")
+  console.log('Field declaration context verified')
 }

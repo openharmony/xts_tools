@@ -24,6 +24,6 @@ function wildcardDeclTest(): void {
   let obj: Object = new X001<string>("hello")
   if (obj instanceof X001) {
     let w: Any = obj
-    console.log("wildcard")
+    console.log('wildcard')
   }
 }

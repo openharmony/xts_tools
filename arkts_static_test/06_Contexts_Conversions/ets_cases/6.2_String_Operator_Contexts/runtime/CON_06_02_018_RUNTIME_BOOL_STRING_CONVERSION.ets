@@ -36,5 +36,5 @@ function main(): void {
     throw new Error("assertion failed: expected 'true', got '" + r3 + "'")
   }
 
-  console.log("Boolean string conversion verified")
+  console.log('Boolean string conversion verified')
 }

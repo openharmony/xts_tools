@@ -24,14 +24,17 @@ enum StringEnum { a = "a", b = "b", c = "c" }
 function main(): void {
   let e: StringEnum = StringEnum.a
   let s: string = e
-  if (s != "a") { throw new Error("assertion: 'a' expected, got '" + s + "'") }
+  if (s != "a") {
+    throw new Error("assertion: 'a' expected, got '" + s + "'") }
 
   let u: string | number = StringEnum.b
-  if (u != "b") { throw new Error("assertion: union 'b' expected") }
+  if (u != "b") {
+    throw new Error("assertion: union 'b' expected") }
 
   let e2: StringEnum = StringEnum.c
   let s2: string = e2
-  if (s2 != "c") { throw new Error("assertion: 'c' expected") }
+  if (s2 != "c") {
+    throw new Error("assertion: 'c' expected") }
 
-  console.log("String enum values verified")
+  console.log('String enum values verified')
 }

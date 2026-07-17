@@ -36,5 +36,5 @@ function main(): void {
     throw new Error("assertion failed: 'A'(65) == 65.0 should be true")
   }
 
-  console.log("Char-double comparison verified")
+  console.log('Char-double comparison verified')
 }

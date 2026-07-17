@@ -48,5 +48,5 @@ function main(): void {
     throw new Error("assertion failed: 7 / 2 should be 3 (integer division)")
   }
 
-  console.log("Multiplicative widening verified")
+  console.log('Multiplicative widening verified')
 }

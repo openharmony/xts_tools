@@ -22,4 +22,4 @@
 function process<P, R>(arg: P, cb?: (p: P) => R): P | R {
     return cb != undefined ? cb(arg) : arg;
 }
-let r: string | number = process("hello", (s: string): number => s.length);
+let r: string | number = process('hello', (s: string): number => s.length);

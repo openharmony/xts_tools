@@ -29,5 +29,5 @@ function main(): void {
   let d3: double = 0.0
   if (d3.toFloat() != 0) { throw new Error("0.0.toFloat() should be 0") }
 
-  console.log("Double to float conversion verified")
+  console.log('Double to float conversion verified')
 }

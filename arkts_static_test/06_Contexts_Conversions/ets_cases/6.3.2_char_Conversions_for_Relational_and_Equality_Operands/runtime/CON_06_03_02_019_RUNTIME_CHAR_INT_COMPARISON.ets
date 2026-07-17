@@ -39,5 +39,5 @@ function main(): void {
     throw new Error("assertion failed: 'Z'(90) != 90 should be false")
   }
 
-  console.log("Char-int comparison verified")
+  console.log('Char-int comparison verified')
 }

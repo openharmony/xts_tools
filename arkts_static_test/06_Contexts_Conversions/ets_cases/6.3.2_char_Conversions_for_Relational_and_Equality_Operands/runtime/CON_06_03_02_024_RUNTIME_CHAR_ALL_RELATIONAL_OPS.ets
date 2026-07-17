@@ -50,5 +50,5 @@ function main(): void {
     throw new Error("assertion failed: 'M'(77) == 77 should be true")
   }
 
-  console.log("Char all relational ops verified")
+  console.log('Char all relational ops verified')
 }

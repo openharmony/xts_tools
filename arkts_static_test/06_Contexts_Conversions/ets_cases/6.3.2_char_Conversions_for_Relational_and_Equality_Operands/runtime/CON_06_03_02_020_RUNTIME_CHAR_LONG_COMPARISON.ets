@@ -39,5 +39,5 @@ function main(): void {
     throw new Error("assertion failed: '0'(48) != 48 should be false")
   }
 
-  console.log("Char-long comparison verified")
+  console.log('Char-long comparison verified')
 }

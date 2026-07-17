@@ -39,5 +39,5 @@ function main(): void {
     throw new Error("assertion failed: 'A'(65) == 65 should be true")
   }
 
-  console.log("Char-byte comparison verified")
+  console.log('Char-byte comparison verified')
 }
