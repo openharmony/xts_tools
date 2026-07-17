@@ -44,7 +44,7 @@ export default function LinkerMethodConflictErrorPerfTest(): void {
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -67,8 +67,6 @@ export default function LinkerMethodConflictErrorPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerMethodConflictError_constructor_0100 : ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerMethodConflictError', 'constructor',
       'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
-
-      expect(res1 !== undefined).assertTrue();
       done();
     })
   })

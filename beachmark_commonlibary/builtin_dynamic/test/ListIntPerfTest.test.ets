@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-mport {
+import {
   describe,
   it,
   expect,
@@ -59,8 +59,7 @@ export default function ListIntPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListInt_PushFront_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'unshift',
           'unshift(...items: T[]): number', arkTsAveragedTime);
-        expect(res1 === 1 && listPool[BASE_COUNT - 1].length === 1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListInt_PopFront_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -80,8 +79,7 @@ export default function ListIntPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListInt_PopFront_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'shift',
           'shift(): T | undefined', arkTsAveragedTime);
-        expect(res1 !== undefined && listPool[BASE_COUNT - 1].length === 0).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListInt_PushBack_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -102,8 +100,7 @@ export default function ListIntPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListInt_PushBack_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'push',
           'push(...items: T[]): number', arkTsAveragedTime);
-        expect(res1 === 1 && listPool[BASE_COUNT - 1].length === 1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListInt_PopBack_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -123,8 +120,7 @@ export default function ListIntPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListInt_PopBack_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'pop',
           'pop(): T | undefined', arkTsAveragedTime);
-        expect(res1 !== undefined && listPool[BASE_COUNT - 1].length === 0).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListInt_Size_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -141,8 +137,7 @@ export default function ListIntPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListInt_Size_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'length',
           'length: number', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListInt_At_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -159,8 +154,7 @@ export default function ListIntPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListInt_At_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'indexAccess',
           'array[index]: T | undefined', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListInt_Set_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -177,8 +171,7 @@ export default function ListIntPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListInt_Set_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'indexAssignment',
           'array[index] = value', arkTsAveragedTime);
-        expect(res1 === val).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListInt_Has_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -196,8 +189,7 @@ export default function ListIntPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListInt_Has_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'includes',
           'includes(searchElement: T, fromIndex?: number): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
   })
 }

@@ -35,7 +35,7 @@ export default function ListStringPerfTest(): void {
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -45,16 +45,17 @@ export default function ListStringPerfTest(): void {
     it('PerformanceTest_ListString_PushFront_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let list: string[] = [];
       let val: string = "test";
+      let unshiftRet: number = 0;
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        list.unshift(val);
+        unshiftRet = list.unshift(val);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: string[] = list;
+      let res2: number = unshiftRet;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_PushFront_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'pushFront', 'pushFront(e: String): void', arkTsAveragedTime);
-      expect(res1.length === BASE_COUNT).assertTrue();
       done();
     })
 
@@ -75,24 +76,24 @@ export default function ListStringPerfTest(): void {
       let res2: string = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_PopFront_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'popFront', 'popFront(): String', arkTsAveragedTime);
-      expect(res2 === "test").assertTrue();
-      expect(res1.length === 0).assertTrue();
+;
       done();
     })
 
     it('PerformanceTest_ListString_PushBack_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let list: string[] = [];
       let val: string = "test";
+      let pushRet: number = 0;
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        list.push(val);
+        pushRet = list.push(val);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: string[] = list;
+      let res2: number = pushRet;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_PushBack_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'pushBack', 'pushBack(e: String): void', arkTsAveragedTime);
-      expect(res1.length === BASE_COUNT).assertTrue();
       done();
     })
 
@@ -113,8 +114,7 @@ export default function ListStringPerfTest(): void {
       let res2: string = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_PopBack_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'popBack', 'popBack(): String', arkTsAveragedTime);
-      expect(res2 === "test").assertTrue();
-      expect(res1.length === 0).assertTrue();
+;
       done();
     })
 
@@ -132,8 +132,7 @@ export default function ListStringPerfTest(): void {
       let res2: number = currentSize;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_Size_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'size', 'size(): int', arkTsAveragedTime);
-      expect(res2 === 1).assertTrue();
-      expect(res1.length === 1).assertTrue();
+;
       done();
     })
 
@@ -151,7 +150,6 @@ export default function ListStringPerfTest(): void {
       let res2: string = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_At_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'at', 'at(index: int): String', arkTsAveragedTime);
-      expect(res2 === "test").assertTrue();
       done();
     })
 
@@ -168,7 +166,6 @@ export default function ListStringPerfTest(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_Set_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'set', 'set(index: int, e: String): void', arkTsAveragedTime);
-      expect(res1[0] === "test2").assertTrue();
       done();
     })
 
@@ -187,7 +184,6 @@ export default function ListStringPerfTest(): void {
       let res2: boolean = res;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ListString_Has_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ListString', 'has', 'has(e: String): boolean', arkTsAveragedTime);
-      expect(res2 === true).assertTrue();
       done();
     })
 

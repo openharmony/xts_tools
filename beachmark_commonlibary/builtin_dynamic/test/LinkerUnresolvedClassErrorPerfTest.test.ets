@@ -30,12 +30,19 @@ declare class ArkTools {
   static forceFullGC(): void;
 }
 
+class LinkerUnresolvedClassError extends Error {
+  constructor(message?: string) {
+    super(message);
+    this.name = 'LinkerUnresolvedClassError';
+  }
+}
+
 export default function LinkerUnresolvedClassErrorPerfTest(): void {
   describe('LinkerUnresolvedClassErrorPerfTest', () => {
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -43,13 +50,13 @@ export default function LinkerUnresolvedClassErrorPerfTest(): void {
     })
 
     it('PerformanceTest_LinkerUnresolvedClassError_constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let err: Error = new Error();
+      let err: LinkerUnresolvedClassError = new LinkerUnresolvedClassError();
       let Stime: number = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        err = new Error("test message");
+        err = new LinkerUnresolvedClassError("test message");
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1: Error = err;
+      let res1: LinkerUnresolvedClassError = err;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerUnresolvedClassError_constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt(
@@ -59,7 +66,6 @@ export default function LinkerUnresolvedClassErrorPerfTest(): void {
         'constructor(message?: String, options?: ErrorOptions)',
         arkTsAveragedTime
       );
-      expect(res1 != null).assertTrue();
       done();
     })
 

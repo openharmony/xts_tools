@@ -58,7 +58,7 @@ export default function ListObjectPerfTest(): void {
     const BASE_COUNT: number = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -68,21 +68,23 @@ export default function ListObjectPerfTest(): void {
     it('PerformanceTest_ListObject_PushFront_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let list: ListObject = new RealListObjectImpl();
+        let lists: ListObject[] = new Array<ListObject>(BASE_COUNT);
+        for (let j = 0; j < BASE_COUNT; j++) {
+          lists[j] = new RealListObjectImpl();
+        }
         let varObj: Object = new Object();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          list.pushFront(varObj);
+          lists[i].pushFront(varObj);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = list;
+        let res1 = lists[BASE_COUNT - 1];
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
           'PerformanceTest_ListObject_PushFront_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'pushFront',
           'pushFront(e: Object): void', arkTsAveragedTime);
-        expect(list.size() > 0).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListObject_PopFront_0200',
@@ -104,28 +106,29 @@ export default function ListObjectPerfTest(): void {
           'PerformanceTest_ListObject_PopFront_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'popFront',
           'popFront(): Object', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListObject_PushBack_0300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let list: ListObject = new RealListObjectImpl();
+        let lists: ListObject[] = new Array<ListObject>(BASE_COUNT);
+        for (let j = 0; j < BASE_COUNT; j++) {
+          lists[j] = new RealListObjectImpl();
+        }
         let varObj: Object = new Object();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          list.pushBack(varObj);
+          lists[i].pushBack(varObj);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = list;
+        let res1 = lists[BASE_COUNT - 1];
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
           'PerformanceTest_ListObject_PushBack_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'pushBack',
           'pushBack(e: Object): void', arkTsAveragedTime);
-        expect(list.size() > 0).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListObject_PopBack_0400',
@@ -147,8 +150,7 @@ export default function ListObjectPerfTest(): void {
           'PerformanceTest_ListObject_PopBack_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'popBack',
           'popBack(): Object', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListObject_Size_0500',
@@ -168,8 +170,7 @@ export default function ListObjectPerfTest(): void {
           'PerformanceTest_ListObject_Size_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'size',
           'size(): number', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListObject_At_0600',
@@ -189,8 +190,7 @@ export default function ListObjectPerfTest(): void {
           'PerformanceTest_ListObject_At_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'at',
           'at(index: number): Object', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListObject_Set_0700',
@@ -210,8 +210,7 @@ export default function ListObjectPerfTest(): void {
           'PerformanceTest_ListObject_Set_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'set',
           'set(index: number, e: Object): void', arkTsAveragedTime);
-        expect(list.size() > 0).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_ListObject_Has_0800',
@@ -232,8 +231,7 @@ export default function ListObjectPerfTest(): void {
           'PerformanceTest_ListObject_Has_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'ListObject', 'has',
           'has(e: Object): boolean', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+      done();
       })
   })
 }

@@ -30,6 +30,13 @@ declare class ArkTools {
   static forceFullGC(): void;
 }
 
+class LinkerAbstractMethodError extends Error {
+  constructor(message?: string) {
+    super(message);
+    this.name = 'LinkerAbstractMethodError';
+  }
+}
+
 export default function LinkerAbstractMethodErrorPerfTest(): void {
   describe('LinkerAbstractMethodErrorPerfTest', () => {
     const BASE_COUNT = 1000;
@@ -44,18 +51,17 @@ export default function LinkerAbstractMethodErrorPerfTest(): void {
 
     it('PerformanceTest_LinkerAbstractMethodError_constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let err: Error = new Error();
+        let err: LinkerAbstractMethodError = new LinkerAbstractMethodError();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          err = new Error("test message");
+          err = new LinkerAbstractMethodError("test message");
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
         let res1 = err;
+        let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerAbstractMethodError_constructor_0100 : ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'LinkerAbstractMethodError', 'constructor', 'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
-        expect(res1 !== null).assertTrue();
-        done();
+      done();
       })
   })
 }

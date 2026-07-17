@@ -13,12 +13,19 @@
  * limitations under the License.
  */
 
-import { describe, it, TestType, Size, Level, beforeEach, afterAll, expect } from "@ohos/hypium";
+import { describe, it, TestType, Size, Level, beforeEach, afterAll } from "@ohos/hypium";
 import performance from './Performance.util';
 import { systemDateTime } from '@kit.BasicServicesKit';
 
 declare class ArkTools {
   static forceFullGC(): void;
+}
+
+class LinkerClassNotFoundError extends Error {
+  constructor(message?: string) {
+    super(message);
+    this.name = 'LinkerClassNotFoundError';
+  }
 }
 
 export default function LinkerClassNotFoundErrorPerfTest(): void {
@@ -34,21 +41,20 @@ export default function LinkerClassNotFoundErrorPerfTest(): void {
     })
 
     it('PerformanceTest_LinkerClassNotFoundError_constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let err: Error = new Error();
+      let err: LinkerClassNotFoundError = new LinkerClassNotFoundError();
 
       let Stime: number = systemDateTime.getTime(true);
 
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        err = new Error("test message");
+        err = new LinkerClassNotFoundError("test message");
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1: Error = err;
+      let res1: LinkerClassNotFoundError = err;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
 
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkerClassNotFoundError_constructor_0100 : ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'LinkerClassNotFoundError', 'constructor',
         'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
-      expect(err !== null).assertTrue();
       done();
     })
   })

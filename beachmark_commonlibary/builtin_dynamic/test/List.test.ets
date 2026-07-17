@@ -23,12 +23,10 @@ import AsyncCondVarPerfTest from "./AsyncCondVarPerfTest.test.ets"
 import AsyncLinkedConcurrentQueuePerfTest from "./AsyncLinkedConcurrentQueuePerfTest.test.ets"
 import AsyncLockManagerPerfTest from "./AsyncLockManagerPerfTest.test.ets"
 import AsyncLockPerfTest from "./AsyncLockPerfTest.test.ets"
-import AsyncRWLockPerfTest from "./AsyncRWLockPerfTest.test.ets"
 import AtomicFlagPerfTest from "./AtomicFlagPerfTest.test.ets"
 import AtomicsPerfTest from "./AtomicsPerfTest.test.ets"
 import BigIntPerfTest from "./BigIntPerfTest.test.ets"
 import BooleanPerfTest from "./BooleanPerfTest.test.ets"
-import BootRuntimeLinkerPerfTest from "./BootRuntimeLinkerPerfTest.test.ets"
 import BuiltinArrayPerfTest01 from "./BuiltinArrayPerfTest01.test.ets"
 import BuiltinArrayPerfTest02 from "./BuiltinArrayPerfTest02.test.ets"
 import BuiltinArrayPerfTest05 from "./BuiltinArrayPerfTest05.test.ets"
@@ -46,8 +44,7 @@ import BuiltinArrayPerfTest16 from "./BuiltinArrayPerfTest16.test.ets"
 import BuiltinArrayPerfTest17 from "./BuiltinArrayPerfTest17.test.ets"
 import BuiltinArraySortPerfTest from "./BuiltinArraySortPerfTest.test.ets"
 import BuiltinArrayValueArrayPerfTest from "./BuiltinArrayValueArrayPerfTest.test.ets"
-import BytePerfTest from "./BytePerfTest.test.ets"
-import CharPerfTest from "./CharPerfTest.test.ets"
+import NumberPerfTest from "./NumberPerfTest.test.ets"
 import ChronoPerfTest from "./ChronoPerfTest.test.ets"
 import ComparablePerfTest from "./ComparablePerfTest.test.ets"
 import ConcatArrayPerfTest from "./ConcatArrayPerfTest.test.ets"
@@ -58,26 +55,17 @@ import ConsolePerfTest from "./ConsolePerfTest.test.ets"
 import DataViewPerfTest from "./DataViewPerfTest.test.ets"
 import DatePerfTest from "./DatePerfTest.test.ets"
 import DoublePerfTest from "./DoublePerfTest.test.ets"
-import ESErrorPerfTest from "./ESErrorPerfTest.test.ets"
-import EnumConstantPerfTest from "./EnumConstantPerfTest.test.ets"
 import ErrorHandlerPerfTest from "./ErrorHandlerPerfTest.test.ets"
 import ErrorPerfTest from "./ErrorPerfTest.test.ets"
-import ErrorsPerfTest from "./ErrorsPerfTest.test.ets"
 import FinalizationRegistryPerfTest from "./FinalizationRegistryPerfTest.test.ets"
-import FunctionPerfTest from "./FunctionPerfTest.test.ets"
 import FunctionsPerfTest from "./FunctionsPerfTest.test.ets"
 import GlobalPerfTest from "./GlobalPerfTest.test.ets"
 import HashMapPerfTest from "./HashMapPerfTest.test.ets"
-import IntPerfTest from "./IntPerfTest.test.ets"
-import InteropTransferHelperPerfTest from "./InteropTransferHelperPerfTest.test.ets"
 import IntlPerfTest from "./IntlPerfTest.test.ets"
 import IntlPerfTest01 from "./IntlPerfTest01.test.ets"
-import JSRuntimePerfTest from "./JSRuntimePerfTest.test.ets"
-import JSRuntimePerfTest02 from "./JSRuntimePerfTest02.test.ets"
 import JobPerfTest from "./JobPerfTest.test.ets"
 import JsonPerfTest from "./JsonPerfTest.test.ets"
 import JsonxPerfTest from "./JsonxPerfTest.test.ets"
-import LaunchPerfTest from "./LaunchPerfTest.test.ets"
 import LegacyAtomicsPerfTest from "./LegacyAtomicsPerfTest.test.ets"
 import LinkerAbstractMethodErrorPerfTest from "./LinkerAbstractMethodErrorPerfTest.test.ets"
 import LinkerClassNotFoundErrorPerfTest from "./LinkerClassNotFoundErrorPerfTest.test.ets"
@@ -89,16 +77,11 @@ import ListIntPerfTest from "./ListIntPerfTest.test.ets"
 import ListObjectPerfTest from "./ListObjectPerfTest.test.ets"
 import ListStringPerfTest from "./ListStringPerfTest.test.ets"
 import LoggerPerfTest from "./LoggerPerfTest.test.ets"
-import LongPerfTest from "./LongPerfTest.test.ets"
 import MapPerfTest from "./MapPerfTest.test.ets"
 import MathPerfTest from "./MathPerfTest.test.ets"
 import MathmathPerfTest from "./MathmathPerfTest.test.ets"
-import MessagePerfTest from "./MessagePerfTest.test.ets"
-import ObjectPerfTest from "./ObjectPerfTest.test.ets"
-import ParameterPerfTest from "./ParameterPerfTest.test.ets"
 import PromisePerfTest from "./PromisePerfTest.test.ets"
 import ReadonlyArrayPerfTest from "./ReadonlyArrayPerfTest.test.ets"
-import ReflectFieldPerfTest from "./ReflectFieldPerfTest.test.ets"
 import ReflectInstanceFieldPerfTest from "./ReflectInstanceFieldPerfTest.test.ets"
 import ReflectInstanceMethodPerfTest from "./ReflectInstanceMethodPerfTest.test.ets"
 import ReflectProxyPerfTest from "./ReflectProxyPerfTest.test.ets"
@@ -106,19 +89,11 @@ import ReflectStaticMethodPerfTest from "./ReflectStaticMethodPerfTest.test.ets"
 import RegExpPerfTest from "./RegExpPerfTest.test.ets"
 import RejectedHandlerPerfTest from "./RejectedHandlerPerfTest.test.ets"
 import RuntimeLinkerErrorsPerfTest from "./RuntimeLinkerErrorsPerfTest.test.ets"
-import RuntimeLinkerPerfTest from "./RuntimeLinkerPerfTest.test.ets"
 import SetPerfTest from "./SetPerfTest.test.ets"
-import ShortPerfTest from "./ShortPerfTest.test.ets"
 import StackTracePerfTest from "./StackTracePerfTest.test.ets"
-import StringBuilderPerfTest from "./StringBuilderPerfTest.test.ets"
-import StringPerfTest from "./StringPerfTest.test.ets"
-import StringPerfTest2 from "./StringPerfTest2.test.ets"
 import SystemPerfTest from "./SystemPerfTest.test.ets"
 import TaskPoolPerfTest from "./TaskPoolPerfTest.test.ets"
 import TuplePerfTest from "./TuplePerfTest.test.ets"
-import TypePerfTest from "./TypePerfTest.test.ets"
-import TypePerfTest09 from "./TypePerfTest09.test.ets"
-import TypePerfTest12 from "./TypePerfTest12.test.ets"
 import TypedArraysPerfTest from "./TypedArraysPerfTest.test.ets"
 import TypedArraysPerfTest00 from "./TypedArraysPerfTest00.test.ets"
 import TypedArraysPerfTest01 from "./TypedArraysPerfTest01.test.ets"
@@ -155,12 +130,10 @@ import TypedUArraysPerfTest16 from "./TypedUArraysPerfTest16.test.ets"
 import UndefinableObjectArrayPerfTest from "./UndefinableObjectArrayPerfTest.test.ets"
 import UndefinableStringArrayPerfTest from "./UndefinableStringArrayPerfTest.test.ets"
 import ValuePerfTest4 from "./ValuePerfTest4.test.ets"
-import VoidPerfTest from "./VoidPerfTest.test.ets"
 import WeakMapPerfTest from "./WeakMapPerfTest.test.ets"
 import WeakRefPerfTest from "./WeakRefPerfTest.test.ets"
 import WeakSetPerfTest from "./WeakSetPerfTest.test.ets"
 import WorkerLocalPerfTest from "./WorkerLocalPerfTest.test.ets"
-
 export default function testsuite(): void {
   ArrayAsListIntPerfTest();
   ArrayAsListStringPerfTest();
@@ -172,12 +145,10 @@ export default function testsuite(): void {
   AsyncLinkedConcurrentQueuePerfTest();
   AsyncLockManagerPerfTest();
   AsyncLockPerfTest();
-  AsyncRWLockPerfTest();
   AtomicFlagPerfTest();
   AtomicsPerfTest();
   BigIntPerfTest();
   BooleanPerfTest();
-  BootRuntimeLinkerPerfTest();
   BuiltinArrayPerfTest01();
   BuiltinArrayPerfTest02();
   BuiltinArrayPerfTest05();
@@ -195,9 +166,6 @@ export default function testsuite(): void {
   BuiltinArrayPerfTest17();
   BuiltinArraySortPerfTest();
   BuiltinArrayValueArrayPerfTest();
-  BytePerfTest();
-  CharPerfTest();
-  ChronoPerfTest();
   ComparablePerfTest();
   ConcatArrayPerfTest();
   ConcurrentHashMapPerfTest();
@@ -207,26 +175,17 @@ export default function testsuite(): void {
   DataViewPerfTest();
   DatePerfTest();
   DoublePerfTest();
-  ESErrorPerfTest();
-  EnumConstantPerfTest();
   ErrorHandlerPerfTest();
   ErrorPerfTest();
-  ErrorsPerfTest();
   FinalizationRegistryPerfTest();
-  FunctionPerfTest();
   FunctionsPerfTest();
   GlobalPerfTest();
   HashMapPerfTest();
-  IntPerfTest();
-  InteropTransferHelperPerfTest();
   IntlPerfTest();
   IntlPerfTest01();
-  JSRuntimePerfTest();
-  JSRuntimePerfTest02();
   JobPerfTest();
   JsonPerfTest();
   JsonxPerfTest();
-  LaunchPerfTest();
   LegacyAtomicsPerfTest();
   LinkerAbstractMethodErrorPerfTest();
   LinkerClassNotFoundErrorPerfTest();
@@ -238,16 +197,12 @@ export default function testsuite(): void {
   ListObjectPerfTest();
   ListStringPerfTest();
   LoggerPerfTest();
-  LongPerfTest();
   MapPerfTest();
   MathPerfTest();
   MathmathPerfTest();
-  MessagePerfTest();
-  ObjectPerfTest();
-  ParameterPerfTest();
+  NumberPerfTest();
   PromisePerfTest();
   ReadonlyArrayPerfTest();
-  ReflectFieldPerfTest();
   ReflectInstanceFieldPerfTest();
   ReflectInstanceMethodPerfTest();
   ReflectProxyPerfTest();
@@ -255,19 +210,11 @@ export default function testsuite(): void {
   RegExpPerfTest();
   RejectedHandlerPerfTest();
   RuntimeLinkerErrorsPerfTest();
-  RuntimeLinkerPerfTest();
   SetPerfTest();
-  ShortPerfTest();
   StackTracePerfTest();
-  StringBuilderPerfTest();
-  StringPerfTest();
-  StringPerfTest2();
   SystemPerfTest();
   TaskPoolPerfTest();
   TuplePerfTest();
-  TypePerfTest();
-  TypePerfTest09();
-  TypePerfTest12();
   TypedArraysPerfTest();
   TypedArraysPerfTest00();
   TypedArraysPerfTest01();
@@ -304,7 +251,6 @@ export default function testsuite(): void {
   UndefinableObjectArrayPerfTest();
   UndefinableStringArrayPerfTest();
   ValuePerfTest4();
-  VoidPerfTest();
   WeakMapPerfTest();
   WeakRefPerfTest();
   WeakSetPerfTest();

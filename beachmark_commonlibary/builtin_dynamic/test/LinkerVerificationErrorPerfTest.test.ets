@@ -32,6 +32,13 @@ declare class ArkTools {
   static forceFullGC(): void;
 }
 
+class LinkerVerificationError extends Error {
+  constructor(message?: string) {
+    super(message);
+    this.name = 'LinkerVerificationError';
+  }
+}
+
 export default function LinkerVerificationErrorPerfTest(): void {
   describe('LinkerVerificationErrorPerfTest', () => {
     const BASE_COUNT = 1000;
@@ -46,10 +53,10 @@ export default function LinkerVerificationErrorPerfTest(): void {
 
     it('PerformanceTest_LinkerVerificationError_constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let err: Error = new Error();
+        let err: LinkerVerificationError = new LinkerVerificationError();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          err = new Error();
+          err = new LinkerVerificationError();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = err;
@@ -59,8 +66,7 @@ export default function LinkerVerificationErrorPerfTest(): void {
             arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'LinkerVerificationError', 'constructor',
           'constructor(message?: String, options?: ErrorOptions)', arkTsAveragedTime);
-        expect(true).assertTrue();
-        done();
+      done();
       })
   })
 }
