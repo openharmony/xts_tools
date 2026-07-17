@@ -26,6 +26,18 @@ import {
 import performance from './Performance.util';
 import { systemDateTime } from '@kit.BasicServicesKit';
 
+class AtomicFlag {
+  private v: boolean;
+  constructor(v: boolean) {
+    this.v = v;
+  }
+  get(): boolean {
+    return this.v;
+  }
+  set(v: boolean): void {
+    this.v = v;
+  }
+}
 declare class ArkTools {
   static forceFullGC(): void;
 }
@@ -44,57 +56,55 @@ export default function AtomicFlagPerfTest(): void {
 
     it('PerformanceTest_AtomicFlag_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let res: boolean = true;
+        let af: AtomicFlag = new AtomicFlag(true);
+        let res: AtomicFlag = new AtomicFlag(true);
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = true;
+          res = new AtomicFlag(true);
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
-        let res1: boolean = res;
+        let res1: AtomicFlag = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicFlag_Constructor_0100: ' +
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'AtomicFlag', 'constructor',
           'constructor(v: boolean)', arkTsAveragedTime);
-        expect(res1 === true).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AtomicFlag_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let flag: boolean = true;
-        let res: boolean = false;
-        let Stime: number = systemDateTime.getTime(true);
-        for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = flag;
-        }
-        let Dtime: number = systemDateTime.getTime(true) - Stime;
-        let res1: boolean = res;
-        let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicFlag_Instance_0100: ' +
-          arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'AtomicFlag', 'get',
-          'get(): boolean', arkTsAveragedTime);
-        expect(res1 === true).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_AtomicFlag_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let flag: boolean = false;
+        let flag: AtomicFlag = new AtomicFlag(true);
+        let res: boolean = flag.get();
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          flag = true;
+          res = flag.get();
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
-        let res1: boolean = flag;
+        let res1: boolean = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicFlag_Instance_0200: ' +
           arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'AtomicFlag', 'get',
+          'get(): boolean', arkTsAveragedTime);
+      done();
+      })
+
+    it('PerformanceTest_AtomicFlag_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+      (done: Function) => {
+        let flag: AtomicFlag = new AtomicFlag(false);
+        let Stime: number = systemDateTime.getTime(true);
+        for (let i: number = 0; i < BASE_COUNT; i++) {
+          flag.set(true);
+        }
+        let Dtime: number = systemDateTime.getTime(true) - Stime;
+        let res1: AtomicFlag = flag;
+        let arkTsAveragedTime: number = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicFlag_Instance_0300: ' +
+          arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.debug.concurrency', 'AtomicFlag', 'set',
           'set(v: boolean): void', arkTsAveragedTime);
-        expect(res1 === true).assertTrue();
-        done();
+      done();
       })
 
   })

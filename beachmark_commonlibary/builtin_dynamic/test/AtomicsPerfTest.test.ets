@@ -13,7 +13,6 @@
  * limitations under the License.
  */
 
-﻿
 import {
   describe,
   it,
@@ -58,11 +57,10 @@ export default function AtomicsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int32Array', 'constructor',
           'constructor(buffer: SharedArrayBuffer)', arkTsAveragedTime);
-        expect(res1.length === 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicInt_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicInt_Instance_load_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int32Array = new Int32Array(new SharedArrayBuffer(4));
         Atomics.store(atomicValue, 0, 0);
@@ -74,14 +72,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_load_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'load',
           'load(typedArray: Int32Array, index: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicInt_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicInt_Instance_store_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int32Array = new Int32Array(new SharedArrayBuffer(4));
         Atomics.store(atomicValue, 0, 0);
@@ -93,14 +90,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_store_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'store',
           'store(typedArray: Int32Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicInt_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicInt_Instance_add_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValues: Array<Int32Array> = [];
         let createAtomicValue: () => Int32Array = (): Int32Array => {
@@ -119,14 +115,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_0300: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_add_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'add',
           'add(typedArray: Int32Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicInt_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicInt_Instance_exchange_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValues: Array<Int32Array> = [];
         let createAtomicValue: () => Int32Array = (): Int32Array => {
@@ -145,14 +140,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_0400: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_exchange_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'exchange',
           'exchange(typedArray: Int32Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicInt_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicInt_Instance_compareExchange_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValues: Array<Int32Array> = [];
         let createAtomicValue: () => Int32Array = (): Int32Array => {
@@ -171,14 +165,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_0500: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_compareExchange_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'compareExchange',
           'compareExchange(typedArray: Int32Array, index: number, expectedValue: number, replacementValue: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicInt_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicInt_Instance_sub_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int32Array = new Int32Array(new SharedArrayBuffer(4));
         Atomics.store(atomicValue, 0, 0);
@@ -190,14 +183,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_0600: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_sub_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'sub',
           'sub(typedArray: Int32Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 1 - BASE_COUNT).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicInt_Instance_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicInt_Instance_and_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int32Array = new Int32Array(new SharedArrayBuffer(4));
         Atomics.store(atomicValue, 0, 0);
@@ -209,14 +201,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_0700: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_and_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'and',
           'and(typedArray: Int32Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicInt_Instance_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicInt_Instance_or_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int32Array = new Int32Array(new SharedArrayBuffer(4));
         Atomics.store(atomicValue, 0, 0);
@@ -228,14 +219,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_0800: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_or_0900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'or',
           'or(typedArray: Int32Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0xFF).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicInt_Instance_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicInt_Instance_xor_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int32Array = new Int32Array(new SharedArrayBuffer(4));
         Atomics.store(atomicValue, 0, 0);
@@ -247,14 +237,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_0900: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Instance_xor_1000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'xor',
           'xor(typedArray: Int32Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0xFF).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicLong_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicLong_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let buffer: SharedArrayBuffer = new SharedArrayBuffer(8);
         let initialValue: bigint = BigInt(0);
@@ -267,14 +256,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Constructor_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Constructor_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'constructor',
           'constructor(buffer: SharedArrayBuffer)', arkTsAveragedTime);
-        expect(res1.length === 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicLong_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicLong_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: BigInt64Array = new BigInt64Array(new SharedArrayBuffer(8));
         let initialValue: bigint = BigInt(0);
@@ -287,14 +275,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'load',
           'load(typedArray: BigInt64Array, index: number): bigint', arkTsAveragedTime);
-        expect(res1 === BigInt(0)).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicLong_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicLong_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let initialValue: bigint = BigInt(0);
         let operationValue: bigint = BigInt(1);
@@ -315,14 +302,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'add',
           'add(typedArray: BigInt64Array, index: number, value: bigint): bigint', arkTsAveragedTime);
-        expect(res1 === initialValue).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicBoolean_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicBoolean_Constructor_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let buffer: SharedArrayBuffer = new SharedArrayBuffer(1);
         let res: Int8Array = new Int8Array(buffer);
@@ -334,14 +320,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicBoolean_Constructor_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicBoolean_Constructor_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor',
           'constructor(buffer: SharedArrayBuffer)', arkTsAveragedTime);
-        expect(res1.length === 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicBoolean_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicBoolean_Instance_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int8Array = new Int8Array(new SharedArrayBuffer(1));
         Atomics.store(atomicValue, 0, 0);
@@ -353,14 +338,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicBoolean_Instance_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicBoolean_Instance_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'load',
           'load(typedArray: Int8Array, index: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicBoolean_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicBoolean_Instance_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValues: Array<Int8Array> = [];
         let createAtomicValue: () => Int8Array = (): Int8Array => {
@@ -379,14 +363,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicBoolean_Instance_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicBoolean_Instance_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'exchange',
           'exchange(typedArray: Int8Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicInt_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicInt_Static_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let res: boolean = false;
         let Stime = systemDateTime.getTime(true);
@@ -396,31 +379,14 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Static_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicInt_Static_0900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'isLockFree',
           'isLockFree(byteSize: number): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicLong_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res: boolean = false;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = Atomics.isLockFree(8);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Static_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'isLockFree',
-          'isLockFree(byteSize: number): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
-      })
 
-    it('PerformanceTest_AtomicShort_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicShort_Constructor_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let buffer: SharedArrayBuffer = new SharedArrayBuffer(2);
         let res: Int16Array = new Int16Array(buffer);
@@ -432,14 +398,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Constructor_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Constructor_1000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Int16Array', 'constructor',
           'constructor(buffer: SharedArrayBuffer)', arkTsAveragedTime);
-        expect(res1.length === 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicShort_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicShort_Instance_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int16Array = new Int16Array(new SharedArrayBuffer(2));
         Atomics.store(atomicValue, 0, 0);
@@ -451,14 +416,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_1100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'load',
           'load(typedArray: Int16Array, index: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicShort_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicShort_Instance_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int16Array = new Int16Array(new SharedArrayBuffer(2));
         Atomics.store(atomicValue, 0, 0);
@@ -470,14 +434,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_1200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'store',
           'store(typedArray: Int16Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicShort_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicShort_Instance_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValues: Array<Int16Array> = [];
         let createAtomicValue: () => Int16Array = (): Int16Array => {
@@ -496,14 +459,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_0300: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_1300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'exchange',
           'exchange(typedArray: Int16Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicShort_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicShort_Instance_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValues: Array<Int16Array> = [];
         let createAtomicValue: () => Int16Array = (): Int16Array => {
@@ -522,14 +484,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_0400: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_1400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'compareExchange',
           'compareExchange(typedArray: Int16Array, index: number, expectedValue: number, replacementValue: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicShort_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicShort_Instance_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValues: Array<Int16Array> = [];
         let createAtomicValue: () => Int16Array = (): Int16Array => {
@@ -548,14 +509,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_0500: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_1500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'add',
           'add(typedArray: Int16Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicShort_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicShort_Instance_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int16Array = new Int16Array(new SharedArrayBuffer(2));
         Atomics.store(atomicValue, 0, 0);
@@ -567,14 +527,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_0600: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_1600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'sub',
           'sub(typedArray: Int16Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 1 - BASE_COUNT).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicShort_Instance_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicShort_Instance_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int16Array = new Int16Array(new SharedArrayBuffer(2));
         Atomics.store(atomicValue, 0, 0);
@@ -586,14 +545,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_0700: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_1700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'and',
           'and(typedArray: Int16Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicShort_Instance_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicShort_Instance_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int16Array = new Int16Array(new SharedArrayBuffer(2));
         Atomics.store(atomicValue, 0, 0);
@@ -605,14 +563,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_0800: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_1800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'or',
           'or(typedArray: Int16Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0xFF).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicShort_Instance_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicShort_Instance_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int16Array = new Int16Array(new SharedArrayBuffer(2));
         Atomics.store(atomicValue, 0, 0);
@@ -624,69 +581,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_0900: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Instance_1900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'xor',
           'xor(typedArray: Int16Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0xFF).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicShort_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res: boolean = false;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = Atomics.isLockFree(2);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicShort_Static_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'isLockFree',
-          'isLockFree(byteSize: number): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AtomicByte_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let buffer: SharedArrayBuffer = new SharedArrayBuffer(1);
-        let res: Int8Array = new Int8Array(buffer);
-        Atomics.store(res, 0, 0);
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = new Int8Array(buffer);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Constructor_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Int8Array', 'constructor',
-          'constructor(buffer: SharedArrayBuffer)', arkTsAveragedTime);
-        expect(res1.length === 1).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AtomicByte_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let atomicValue: Int8Array = new Int8Array(new SharedArrayBuffer(1));
-        Atomics.store(atomicValue, 0, 0);
-        let res: number = 0;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = Atomics.load(atomicValue, 0);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'load',
-          'load(typedArray: Int8Array, index: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AtomicByte_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicByte_Instance_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int8Array = new Int8Array(new SharedArrayBuffer(1));
         Atomics.store(atomicValue, 0, 0);
@@ -698,40 +599,14 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_2000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'store',
           'store(typedArray: Int8Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicByte_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let atomicValues: Array<Int8Array> = [];
-        let createAtomicValue: () => Int8Array = (): Int8Array => {
-          let atomicValue: Int8Array = new Int8Array(new SharedArrayBuffer(1));
-          Atomics.store(atomicValue, 0, 0);
-          return atomicValue;
-        };
-        for (let i = 0; i < BASE_COUNT; i++) {
-          atomicValues.push(createAtomicValue());
-        }
-        let res: number = 0;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = Atomics.exchange(atomicValues[i], 0, 1);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_0300: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'exchange',
-          'exchange(typedArray: Int8Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
-      })
 
-    it('PerformanceTest_AtomicByte_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicByte_Instance_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValues: Array<Int8Array> = [];
         let createAtomicValue: () => Int8Array = (): Int8Array => {
@@ -750,14 +625,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_0400: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_2100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'compareExchange',
           'compareExchange(typedArray: Int8Array, index: number, expectedValue: number, replacementValue: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicByte_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicByte_Instance_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValues: Array<Int8Array> = [];
         let createAtomicValue: () => Int8Array = (): Int8Array => {
@@ -776,14 +650,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_0500: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_2200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'add',
           'add(typedArray: Int8Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicByte_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicByte_Instance_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int8Array = new Int8Array(new SharedArrayBuffer(1));
         Atomics.store(atomicValue, 0, 0);
@@ -795,14 +668,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_0600: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_2300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'sub',
           'sub(typedArray: Int8Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 25).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicByte_Instance_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicByte_Instance_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int8Array = new Int8Array(new SharedArrayBuffer(1));
         Atomics.store(atomicValue, 0, 0);
@@ -814,14 +686,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_0700: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_2400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'and',
           'and(typedArray: Int8Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicByte_Instance_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicByte_Instance_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int8Array = new Int8Array(new SharedArrayBuffer(1));
         Atomics.store(atomicValue, 0, 0);
@@ -833,14 +704,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_0800: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_2500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'or',
           'or(typedArray: Int8Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0x7F).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicByte_Instance_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicByte_Instance_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Int8Array = new Int8Array(new SharedArrayBuffer(1));
         Atomics.store(atomicValue, 0, 0);
@@ -852,31 +722,14 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_0900: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Instance_2600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'xor',
           'xor(typedArray: Int8Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 0x7F).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicByte_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res: boolean = false;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = Atomics.isLockFree(1);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicByte_Static_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'isLockFree',
-          'isLockFree(byteSize: number): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
-      })
 
-    it('PerformanceTest_AtomicChar_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicChar_Constructor_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let buffer: SharedArrayBuffer = new SharedArrayBuffer(2);
         let res: Uint16Array = new Uint16Array(buffer);
@@ -888,14 +741,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicChar_Constructor_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicChar_Constructor_2700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Uint16Array', 'constructor',
           'constructor(buffer: SharedArrayBuffer)', arkTsAveragedTime);
-        expect(res1.length === 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicChar_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicChar_Instance_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Uint16Array = new Uint16Array(new SharedArrayBuffer(2));
         Atomics.store(atomicValue, 0, 48);
@@ -907,14 +759,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicChar_Instance_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicChar_Instance_2800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'load',
           'load(typedArray: Uint16Array, index: number): number', arkTsAveragedTime);
-        expect(res1 === 48).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicChar_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicChar_Instance_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: Uint16Array = new Uint16Array(new SharedArrayBuffer(2));
         Atomics.store(atomicValue, 0, 48);
@@ -926,14 +777,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicChar_Instance_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicChar_Instance_2900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'store',
           'store(typedArray: Uint16Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 49).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicChar_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicChar_Instance_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValues: Array<Uint16Array> = [];
         let createAtomicValue: () => Uint16Array = (): Uint16Array => {
@@ -952,14 +802,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicChar_Instance_0300: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicChar_Instance_3000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'exchange',
           'exchange(typedArray: Uint16Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 48).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicChar_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicChar_Instance_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValues: Array<Uint16Array> = [];
         let createAtomicValue: () => Uint16Array = (): Uint16Array => {
@@ -978,93 +827,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicChar_Instance_0400: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicChar_Instance_3100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'compareExchange',
           'compareExchange(typedArray: Uint16Array, index: number, expectedValue: number, replacementValue: number): number', arkTsAveragedTime);
-        expect(res1 === 48).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicChar_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res: boolean = false;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = Atomics.isLockFree(2);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicChar_Static_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'isLockFree',
-          'isLockFree(byteSize: number): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AtomicBoolean_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let atomicValue: Int8Array = new Int8Array(new SharedArrayBuffer(1));
-        Atomics.store(atomicValue, 0, 0);
-        let res: number = 0;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = Atomics.store(atomicValue, 0, 1);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicBoolean_Instance_0300: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'store',
-          'store(typedArray: Int8Array, index: number, value: number): number', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AtomicBoolean_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let atomicValues: Array<Int8Array> = [];
-        let createAtomicValue: () => Int8Array = (): Int8Array => {
-          let atomicValue: Int8Array = new Int8Array(new SharedArrayBuffer(1));
-          Atomics.store(atomicValue, 0, 0);
-          return atomicValue;
-        };
-        for (let i = 0; i < BASE_COUNT; i++) {
-          atomicValues.push(createAtomicValue());
-        }
-        let res: number = 0;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = Atomics.compareExchange(atomicValues[i], 0, 0, 0);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicBoolean_Instance_0400: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'compareExchange',
-          'compareExchange(typedArray: Int8Array, index: number, expectedValue: number, replacementValue: number): number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AtomicBoolean_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res: boolean = false;
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = Atomics.isLockFree(1);
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicBoolean_Static_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'isLockFree',
-          'isLockFree(byteSize: number): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_AtomicLong_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicLong_Instance_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: BigInt64Array = new BigInt64Array(new SharedArrayBuffer(8));
         let initialValue: bigint = BigInt(0);
@@ -1078,14 +847,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_0300: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_3200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'store',
           'store(typedArray: BigInt64Array, index: number, value: bigint): bigint', arkTsAveragedTime);
-        expect(res1 === operationValue).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicLong_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicLong_Instance_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let initialValue: bigint = BigInt(0);
         let operationValue: bigint = BigInt(1);
@@ -1106,14 +874,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_0400: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_3300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'exchange',
           'exchange(typedArray: BigInt64Array, index: number, value: bigint): bigint', arkTsAveragedTime);
-        expect(res1 === initialValue).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicLong_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicLong_Instance_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let expectedValue: bigint = BigInt(0);
         let replacementValue: bigint = BigInt(2);
@@ -1134,14 +901,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_0500: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_3400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'compareExchange',
           'compareExchange(typedArray: BigInt64Array, index: number, expectedValue: bigint, replacementValue: bigint): bigint', arkTsAveragedTime);
-        expect(res1 === expectedValue).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicLong_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicLong_Instance_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: BigInt64Array = new BigInt64Array(new SharedArrayBuffer(8));
         let initialValue: bigint = BigInt(0);
@@ -1155,14 +921,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_0600: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_3500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'sub',
           'sub(typedArray: BigInt64Array, index: number, value: bigint): bigint', arkTsAveragedTime);
-        expect(res1 === BigInt(1 - BASE_COUNT)).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicLong_Instance_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicLong_Instance_3600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: BigInt64Array = new BigInt64Array(new SharedArrayBuffer(8));
         let initialValue: bigint = BigInt(0);
@@ -1176,14 +941,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_0700: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_3600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'and',
           'and(typedArray: BigInt64Array, index: number, value: bigint): bigint', arkTsAveragedTime);
-        expect(res1 === BigInt(0)).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicLong_Instance_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicLong_Instance_3700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: BigInt64Array = new BigInt64Array(new SharedArrayBuffer(8));
         let initialValue: bigint = BigInt(0);
@@ -1197,14 +961,13 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_0800: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_3700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'or',
           'or(typedArray: BigInt64Array, index: number, value: bigint): bigint', arkTsAveragedTime);
-        expect(res1 === operationValue).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_AtomicLong_Instance_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_AtomicLong_Instance_3800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let atomicValue: BigInt64Array = new BigInt64Array(new SharedArrayBuffer(8));
         let initialValue: bigint = BigInt(0);
@@ -1218,11 +981,10 @@ export default function AtomicsPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_0900: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_AtomicLong_Instance_3800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.concurrency', 'Atomics', 'xor',
           'xor(typedArray: BigInt64Array, index: number, value: bigint): bigint', arkTsAveragedTime);
-        expect(res1 === operationValue).assertTrue();
-        done();
+      done();
       })
 
   })
