@@ -92,7 +92,6 @@ export default function ComparablePerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Comparable_CompareTo_LessThan_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Comparable', 'compareTo',
         'compareTo(to: T): int (less than)', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 

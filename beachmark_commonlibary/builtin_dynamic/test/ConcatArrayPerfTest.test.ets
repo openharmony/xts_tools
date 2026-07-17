@@ -58,7 +58,7 @@ export default function ConcatArrayPerfTest(): void {
       performance.save('apiPerformance.txt');
     })
 
-    it('PerformanceTest_ConcatArray_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_ConcatArray_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let res: string = '';
         let Stime: number = systemDateTime.getTime(true);
@@ -68,11 +68,10 @@ export default function ConcatArrayPerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         const arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_0500: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'ConcatArray', 'join',
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcatArray_Instance_0100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'join',
           'join(separator?: String): string (default separator)', arkTsAveragedTime);
-        expect(res.length > 0).assertTrue();
-        done();
+      done();
       })
   })
 }

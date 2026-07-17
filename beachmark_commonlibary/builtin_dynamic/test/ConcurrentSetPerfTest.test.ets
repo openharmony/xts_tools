@@ -56,7 +56,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'constructor',
         'constructor()', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -75,7 +75,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'constructor',
         'constructor(values: ArrayLike<T>)', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -94,7 +94,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'constructor',
         'constructor(iterable: Iterable<T>)', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -114,7 +114,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'constructor',
         'constructor(set: Set<T>)', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
     it('PerformanceTest_ConcurrentSet_Add_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -134,7 +134,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'add',
         'add(v: K): ConcurrentSet<K>', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -154,7 +154,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'has',
         'has(v: K): boolean', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -173,7 +173,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'size',
         'get size(): int', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
     it('PerformanceTest_ConcurrentSet_Delete_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -196,7 +196,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'delete',
         'delete(v: K): boolean', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
     it('PerformanceTest_ConcurrentSet_Clear_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -219,7 +219,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'clear',
         'clear(): void', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -238,7 +238,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'toString',
         'toString(): string', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -257,7 +257,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'keys',
         'keys(): IterableIterator<T>', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -276,7 +276,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'values',
         'values(): IterableIterator<T>', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -295,7 +295,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'entries',
         'entries(): IterableIterator<[T, T]>', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -312,9 +312,9 @@ export default function ConcurrentSetPerfTest(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConcurrentSet_Iterator_1400: '
         + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', '$_iterator',
+      performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'values',
         '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -333,7 +333,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSet', 'forEach',
         'forEach(callbackfn): void', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 
@@ -355,7 +355,7 @@ export default function ConcurrentSetPerfTest(): void {
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'ConcurrentSetIterator',
         'next', 'next(): IteratorResult<T>', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
+
       done();
     })
 

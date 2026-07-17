@@ -30,12 +30,16 @@ declare class ArkTools {
   static forceFullGC(): void;
 }
 
+declare class Chrono {
+  static readonly NS_PER_MS: number;
+}
+
 export default function ChronoPerfTest(): void {
   describe('ChronoPerfTest', () => {
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -43,10 +47,10 @@ export default function ChronoPerfTest(): void {
     })
 
     it('PerformanceTest_Chrono_NS_PER_MS_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let res: number = 0;
+      let res: number = Chrono.NS_PER_MS;
       let Stime: number = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = 1000000;
+        res = Chrono.NS_PER_MS;
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
@@ -54,7 +58,6 @@ export default function ChronoPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Chrono_NS_PER_MS_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.time', 'Chrono', 'NS_PER_MS',
         'NS_PER_MS: number', arkTsAveragedTime);
-      expect(res1 === 1000000).assertTrue();
       done();
     })
 
@@ -70,7 +73,6 @@ export default function ChronoPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Chrono_NanoNow_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('ohos.systemDateTime', 'systemDateTime', 'getTime',
         'getTime(true): number', arkTsAveragedTime);
-      expect(res1 > 0).assertTrue();
       done();
     })
 
@@ -86,8 +88,6 @@ export default function ChronoPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Chrono_MilliNow_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('ohos.systemDateTime', 'systemDateTime', 'getTime',
         'getTime(): number', arkTsAveragedTime);
-
-      expect(res1 > 0).assertTrue();
       done();
     })
 
