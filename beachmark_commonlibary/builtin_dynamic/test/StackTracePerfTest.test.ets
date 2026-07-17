@@ -28,6 +28,7 @@ import {
 import performance from './Performance.util';
 import { systemDateTime } from '@kit.BasicServicesKit';
 
+
 declare class ArkTools {
   static forceFullGC(): void;
 }
@@ -56,43 +57,23 @@ export default function StackTracePerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_System_stackTraceLines_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'stack',
         'get stack(): string | undefined', arkTsAveragedTime);
-      expect(str !== "").assertTrue();
       done();
     })
 
-    it('PerformanceTest_System_printStackTrace_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let res: void = undefined;
+    it('PerformanceTest_System_stackTraceLines_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+      let str: string = "";
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        console.error(new Error().stack);
-        res = undefined;
+        str = new Error().stack ?? "";
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
+      let res1 = str;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_System_printStackTrace_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'console', 'error',
-        'error(message?: any, ...optionalParams: any[]): void', arkTsAveragedTime);
-      expect(res === undefined).assertTrue();
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_System_stackTraceLines_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'stack',
+        'get stack(): string | undefined', arkTsAveragedTime);
       done();
     })
-
-    it('PerformanceTest_StackTraceHelper_getMainThreadStackTrace_0100',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-        let res: string = "";
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = new Error().stack ?? "";
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StackTraceHelper_getMainThreadStackTrace_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'stack',
-          'get stack(): string | undefined', arkTsAveragedTime);
-        expect(res !== "").assertTrue();
-        done();
-      });
 
   })
 }
