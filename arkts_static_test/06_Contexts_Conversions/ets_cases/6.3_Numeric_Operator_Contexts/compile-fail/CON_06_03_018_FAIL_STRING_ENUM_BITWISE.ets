@@ -20,8 +20,8 @@
  * @note 反向用例：string 枚举用于位运算应编译失败
  */
 enum StatusCode {
-  OK = "ok",
-  Error = "error"
+  OK = 'ok',
+  Error = 'error'
 }
 
 function testStringEnumBitwiseFail(): void {

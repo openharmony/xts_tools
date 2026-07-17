@@ -21,10 +21,10 @@
  */
 function testFloatStringConcat(): void {
   let s1: string = 'pi: ' + 3.14
-  let s2: string = 2.72 + " (e)"
+  let s2: string = 2.72 + ' (e)'
   let s3: string = 'zero: ' + 0.0
 
   let d: double = 1.5
-  let s4: string = d + " is double"
+  let s4: string = d + ' is double'
   let s5: string = 'double: ' + d
 }

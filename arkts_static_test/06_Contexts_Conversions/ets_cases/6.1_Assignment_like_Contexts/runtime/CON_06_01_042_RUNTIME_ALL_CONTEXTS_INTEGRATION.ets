@@ -52,7 +52,7 @@ function main(): void {
   }
 
   let msg: string = buildMessage("value:", acc.total)
-  if (msg != "value:15") {
+  if (msg != 'value:15') {
     throw new Error('assertion failed: message expected 'value:15', got ' + msg)
   }
 
@@ -60,7 +60,7 @@ function main(): void {
   if (info.length != 3) {
     throw new Error('assertion failed: array length expected 3')
   }
-  if (info[2] != "value:15") {
+  if (info[2] != 'value:15') {
     throw new Error('assertion failed: composite literal element mismatch')
   }
 

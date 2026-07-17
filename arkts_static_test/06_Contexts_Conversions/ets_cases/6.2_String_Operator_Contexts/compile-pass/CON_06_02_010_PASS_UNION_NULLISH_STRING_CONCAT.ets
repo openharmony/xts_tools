@@ -26,6 +26,6 @@ function testUnionNullishStringConcat(): void {
   x = undefined
   let s2: string = 'string is ' + x
 
-  x = "hello"
+  x = 'hello'
   let s3: string = 'string is ' + x
 }

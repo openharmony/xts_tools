@@ -20,7 +20,7 @@
  * @note 反向用例：原文件错测boolean<=long，已修正为string enum <
  *       D类: 编译器实际允许string enum <比较，违反spec §6.3
  */
-enum StringEnum015 { A = "hello", B = "world" }
+enum StringEnum015 { A = 'hello', B = 'world' }
 function testStringEnumRelationalFail(): void {
   let r: boolean = StringEnum015.A < StringEnum015.B
 }

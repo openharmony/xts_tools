@@ -21,13 +21,13 @@
  */
 function main(): void {
   let s1: string = '' + null
-  if (s1 != "null") {
-    throw new Error('assertion failed: null→'null', got '' + s1 + "'")
+  if (s1 != 'null') {
+    throw new Error('assertion failed: null→'null', got '' + s1 + ''')
   }
 
   let s2: string = '' + undefined
-  if (s2 != "undefined") {
-    throw new Error('assertion failed: undefined→'undefined', got '' + s2 + "'")
+  if (s2 != 'undefined') {
+    throw new Error('assertion failed: undefined→'undefined', got '' + s2 + ''')
   }
 
   console.log('Nullish string values verified')

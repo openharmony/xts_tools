@@ -20,11 +20,11 @@
  * @note 正向用例：验证 string 枚举到 string 的隐式转换
  */
 enum Label {
-  Start = "start",
-  Stop = "stop"
+  Start = 'start',
+  Stop = 'stop'
 }
 
 function testEnumToString(): void {
   let s1: string = 'status: ' + Label.Start
-  let s2: string = Label.Stop + " pressed"
+  let s2: string = Label.Stop + ' pressed'
 }

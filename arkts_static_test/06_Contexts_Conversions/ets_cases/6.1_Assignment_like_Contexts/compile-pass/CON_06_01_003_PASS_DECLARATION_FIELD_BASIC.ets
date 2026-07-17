@@ -21,7 +21,7 @@
  */
 class MyClass {
   public numField: number = 100
-  public strField: string = "default"
+  public strField: string = 'default'
   public boolField: boolean = true
   public intField: int = 0
 }

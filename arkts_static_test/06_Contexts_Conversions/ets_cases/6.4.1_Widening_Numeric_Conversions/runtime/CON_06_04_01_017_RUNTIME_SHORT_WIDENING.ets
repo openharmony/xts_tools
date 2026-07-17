@@ -23,15 +23,19 @@ function main(): void {
   let s: short = 100
   let i: int = s
   if (i != 100) {
-    throw new Error('short→int') }
+    throw new Error('short→int')
+}
   let l: long = s
   if (l != 100) {
-    throw new Error('short→long') }
+    throw new Error('short→long')
+}
   let f: float = s
   if (f != 100) {
-    throw new Error('short→float') }
+    throw new Error('short→float')
+}
   let d: double = s
   if (d != 100.0) {
-    throw new Error('short→double') }
+    throw new Error('short→double')
+}
   console.log('Short widening verified')
 }

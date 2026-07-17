@@ -20,13 +20,13 @@
  * @note 正向用例：验证该特性编译通过的正确用法
  */
 enum Color {
-  Red = "red",
-  Green = "green",
-  Blue = "blue"
+  Red = 'red',
+  Green = 'green',
+  Blue = 'blue'
 }
 
 function testEnumStringConcat(): void {
   let s1: string = 'color: ' + Color.Red
-  let s2: string = Color.Green + " is selected"
+  let s2: string = Color.Green + ' is selected'
   let s3: string = 'favorite: ' + Color.Blue
 }

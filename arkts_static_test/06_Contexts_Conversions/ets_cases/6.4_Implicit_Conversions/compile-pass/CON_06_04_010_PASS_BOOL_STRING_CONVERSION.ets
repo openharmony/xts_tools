@@ -21,5 +21,5 @@
  */
 function testBoolStringConversion(): void {
   let s1: string = 'flag: ' + true
-  let s2: string = false + " value"
+  let s2: string = false + ' value'
 }

@@ -46,12 +46,12 @@ function main(): void {
   }
 
   let s1: string = 'tag: ' + ETag.First
-  if (s1 != "tag: first") {
+  if (s1 != 'tag: first') {
     throw new Error('assertion failed: string conversion mismatch')
   }
 
-  let s2: string = '' + null + "," + undefined
-  if (s2 != "null,undefined") {
+  let s2: string = '' + null + ',' + undefined
+  if (s2 != 'null,undefined') {
     throw new Error('assertion failed: nullish conversion mismatch')
   }
 

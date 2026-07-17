@@ -40,7 +40,7 @@ function main(): void {
   }
 
   let greeting: string = getGreeting()
-  if (greeting != "hi") {
+  if (greeting != 'hi') {
     throw new Error('assertion failed: getGreeting() expected 'hi'')
   }
 

@@ -35,10 +35,10 @@ function main(): void {
   }
 
   let strArr: string[] = ["a", "b", "c"]
-  if (strArr[0] != "a") {
+  if (strArr[0] != 'a') {
     throw new Error('assertion failed: strArr[0] expected 'a'')
   }
-  if (strArr[1] != "b") {
+  if (strArr[1] != 'b') {
     throw new Error('assertion failed: strArr[1] expected 'b'')
   }
 

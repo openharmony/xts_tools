@@ -37,7 +37,7 @@ function main(): void {
   if (r.height != 50) {
     throw new Error('assertion failed: r.height expected 50')
   }
-  if (r.label != "box") {
+  if (r.label != 'box') {
     throw new Error('assertion failed: r.label expected 'box'')
   }
 

@@ -20,29 +20,29 @@
  * @note 运行时用例：实际执行综合验证 string context 的正确行为
  */
 enum Color {
-  Red = "red",
-  Blue = "blue"
+  Red = 'red',
+  Blue = 'blue'
 }
 
 function main(): void {
-  let r1: string = 'a=' + 10 + ", b=" + 3.14 + ", ok=" + true
-  if (r1 != "a=10, b=3.14, ok=true") {
-    throw new Error('assertion failed: expected 'a=10, b=3.14, ok=true', got '' + r1 + "'")
+  let r1: string = 'a=' + 10 + ', b=' + 3.14 + ', ok=' + true
+  if (r1 != 'a=10, b=3.14, ok=true') {
+    throw new Error('assertion failed: expected 'a=10, b=3.14, ok=true', got '' + r1 + ''')
   }
 
-  let r2: string = 1 + " + " + 2 + " = " + 3
-  if (r2 != "1 + 2 = 3") {
-    throw new Error('assertion failed: expected '1 + 2 = 3', got '' + r2 + "'")
+  let r2: string = 1 + ' + ' + 2 + ' = ' + 3
+  if (r2 != '1 + 2 = 3') {
+    throw new Error('assertion failed: expected '1 + 2 = 3', got '' + r2 + ''')
   }
 
-  let r3: string = '' + null + "," + undefined
-  if (r3 != "null,undefined") {
-    throw new Error('assertion failed: expected 'null,undefined', got '' + r3 + "'")
+  let r3: string = '' + null + ',' + undefined
+  if (r3 != 'null,undefined') {
+    throw new Error('assertion failed: expected 'null,undefined', got '' + r3 + ''')
   }
 
-  let r4: string = 'color=' + Color.Red + ", neg=" + (-5) + ", flag=" + false
-  if (r4 != "color=red, neg=-5, flag=false") {
-    throw new Error('assertion failed: multi-concat mismatch, got '' + r4 + "'")
+  let r4: string = 'color=' + Color.Red + ', neg=' + (-5) + ', flag=' + false
+  if (r4 != 'color=red, neg=-5, flag=false') {
+    throw new Error('assertion failed: multi-concat mismatch, got '' + r4 + ''')
   }
 
   console.log('Multi-type string concatenation verified')

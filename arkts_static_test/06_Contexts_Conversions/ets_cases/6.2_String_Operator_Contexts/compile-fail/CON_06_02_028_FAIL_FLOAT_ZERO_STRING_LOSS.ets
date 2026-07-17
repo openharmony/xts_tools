@@ -21,6 +21,6 @@
  *       原 CON_06_02_017 被改为 1.0 规避此问题
  */
 function testFloatZeroStringLoss(): void {
-  let s: string = 0.0 + " is zero"
-  if (s != "0.0 is zero") {}
+  let s: string = 0.0 + ' is zero'
+  if (s != '0.0 is zero') {}
 }

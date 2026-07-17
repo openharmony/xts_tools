@@ -22,7 +22,7 @@
 class Counter {
   public start: int = 0
   public step: int = 1
-  public label: string = "count"
+  public label: string = 'count'
 }
 
 function main(): void {
@@ -33,7 +33,7 @@ function main(): void {
   if (c.step != 1) {
     throw new Error('assertion failed: c.step expected 1')
   }
-  if (c.label != "count") {
+  if (c.label != 'count') {
     throw new Error('assertion failed: c.label expected 'count'')
   }
 

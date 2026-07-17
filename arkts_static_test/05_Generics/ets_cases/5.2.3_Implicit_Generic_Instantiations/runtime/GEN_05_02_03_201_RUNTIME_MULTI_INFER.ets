@@ -24,7 +24,7 @@ function process212<P, R>(arg: P, cb?: (p: P) => R): P | R {
 }
 function main(): void {
   let r212: string = process212(123, (x) => "ok") as string
-  if (r212 != "ok") {
+  if (r212 != 'ok') {
     throw new Error('multi infer failed')
   console.log('multi param inference runtime verified')
 }

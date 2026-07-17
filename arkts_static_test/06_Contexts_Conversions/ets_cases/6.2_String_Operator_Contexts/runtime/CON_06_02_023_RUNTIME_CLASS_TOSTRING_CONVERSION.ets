@@ -31,7 +31,7 @@ function main(): void {
   let r1: string = 'container: ' + c
   let prefix: string = 'container: '
   if (r1.substring(0, prefix.length) != prefix) {
-    throw new Error('assertion failed: expected prefix 'container: ', got '' + r1 + "'")
+    throw new Error('assertion failed: expected prefix 'container: ', got '' + r1 + ''')
   }
 
   console.log('Class toString conversion verified')

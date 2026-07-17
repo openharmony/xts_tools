@@ -23,7 +23,11 @@ class G105<T> {}
 function main(): void {
   let a105: Any = new G105<number>()
   let b105: Any = new G105<string>()
-  if (!(a105 instanceof G105)) throw new Error('G105<number> failed')
-  if (!(b105 instanceof G105)) throw new Error('G105<string> failed')
+  if (!(a105 instanceof G105)) {
+    throw new Error('G105<number> failed')
+  }
+  if (!(b105 instanceof G105)) {
+    throw new Error('G105<string> failed')
+  }
   console.log('provably distinct runtime verified')
 }

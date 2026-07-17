@@ -36,8 +36,8 @@ function main(): void {
   }
 
   let s: string = 'first'
-  s = "second"
-  if (s != "second") {
+  s = 'second'
+  if (s != 'second') {
     throw new Error('assertion failed: s expected 'second', got ' + s)
   }
 

@@ -26,7 +26,7 @@ function main(): void {
   }
 
   let strVar: string = 'hello'
-  if (strVar != "hello") {
+  if (strVar != 'hello') {
     throw new Error('assertion failed: strVar expected 'hello', got ' + strVar)
   }
 

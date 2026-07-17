@@ -43,7 +43,7 @@ function main(): void {
   }
 
   let desc: string = m.describe("count:", 10)
-  if (desc != "count:10") {
+  if (desc != 'count:10') {
     throw new Error('assertion failed: describe expected 'count:10', got ' + desc)
   }
 

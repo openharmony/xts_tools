@@ -30,8 +30,8 @@ function main(): void {
     throw new Error('assertion failed: MAX expected 100')
   }
 
-  const GREETING: string = "hello"
-  if (GREETING != "hello") {
+  const GREETING: string = 'hello'
+  if (GREETING != 'hello') {
     throw new Error('assertion failed: GREETING expected 'hello'')
   }
 

@@ -21,7 +21,7 @@
  */
 function testDeclarationConstBasic(): void {
   const numVal: number = 42
-  const strVal: string = "hello"
+  const strVal: string = 'hello'
   const boolVal: boolean = false
   const intVal: int = -1
 }

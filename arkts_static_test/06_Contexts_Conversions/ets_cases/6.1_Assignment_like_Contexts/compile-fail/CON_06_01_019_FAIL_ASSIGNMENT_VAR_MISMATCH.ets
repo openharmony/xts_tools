@@ -21,5 +21,5 @@
  */
 function testAssignmentVarMismatchFail(): void {
   let x: int = 0
-  x = "not an int"
+  x = 'not an int'
 }

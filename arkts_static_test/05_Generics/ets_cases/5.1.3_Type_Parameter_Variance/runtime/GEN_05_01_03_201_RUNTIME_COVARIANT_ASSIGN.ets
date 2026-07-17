@@ -28,10 +28,14 @@ function main(): void {
   let d = new Derived211()
   let h: Covariant211<Base211> = new Covariant211<Derived211>(d)
   let val: Base211 = h.v
-  if (val.b() != 1) throw new Error('covariant assign failed')
+  if (val.b() != 1) {
+    throw new Error('covariant assign failed')
+  }
   if (val instanceof Derived211) {
     let dv: Derived211 = val as Derived211
-    if (dv.d() != 2) throw new Error('derived method failed')
+    if (dv.d() != 2) {
+    throw new Error('derived method failed')
+  }
   }
   console.log('covariant assign runtime verified')
 }

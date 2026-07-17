@@ -19,7 +19,7 @@
  * @design string 枚举在调用上下文中: 枚举→string 形参
  * @note 正向用例：string 枚举作为实参
  */
-enum Label { Start = "start", Stop = "stop" }
+enum Label { Start = 'start', Stop = 'stop' }
 
 function takeString(s: string): void {}
 function takeUnion(u: string | int): void {}

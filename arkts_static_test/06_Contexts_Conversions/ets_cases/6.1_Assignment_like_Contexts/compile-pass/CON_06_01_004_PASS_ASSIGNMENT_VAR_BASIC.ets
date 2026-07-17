@@ -25,7 +25,7 @@ function testAssignmentVarBasic(): void {
   x = -10
 
   let s: string = ''
-  s = "updated"
+  s = 'updated'
 
   let b: boolean = false
   b = true

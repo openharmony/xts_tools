@@ -21,9 +21,9 @@
  */
 function testIntStringConcat(): void {
   let s1: string = 'value: ' + 42
-  let s2: string = 100 + " items"
+  let s2: string = 100 + ' items'
   let s3: string = 'negative: ' + (-7)
-  let s4: string = 0 + " results"
+  let s4: string = 0 + ' results'
 
   let longVal: long = 999
   let s5: string = 'long: ' + longVal

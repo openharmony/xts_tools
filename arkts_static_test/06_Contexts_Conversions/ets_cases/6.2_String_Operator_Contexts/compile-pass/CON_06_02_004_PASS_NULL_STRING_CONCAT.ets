@@ -21,6 +21,6 @@
  */
 function testNullStringConcat(): void {
   let s1: string = '' + null
-  let s2: string = null + " value"
+  let s2: string = null + ' value'
   let s3: string = 'result: ' + null
 }

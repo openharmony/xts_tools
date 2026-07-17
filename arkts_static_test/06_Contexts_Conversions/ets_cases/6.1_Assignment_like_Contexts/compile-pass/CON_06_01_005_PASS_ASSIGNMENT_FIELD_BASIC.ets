@@ -27,5 +27,5 @@ class Data {
 function testAssignmentFieldBasic(): void {
   let d: Data = new Data()
   d.value = 100
-  d.label = "assigned"
+  d.label = 'assigned'
 }

@@ -25,8 +25,8 @@ enum Val {
 }
 
 enum Tag {
-  Open = "open",
-  Close = "close"
+  Open = 'open',
+  Close = 'close'
 }
 
 function testMultiConversionCoexist(): void {

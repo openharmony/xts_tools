@@ -29,5 +29,5 @@ class Item {
 function testReferenceStringConcat(): void {
   let item: Item = new Item("widget")
   let s1: string = 'item: ' + item
-  let s2: string = item + " created"
+  let s2: string = item + ' created'
 }

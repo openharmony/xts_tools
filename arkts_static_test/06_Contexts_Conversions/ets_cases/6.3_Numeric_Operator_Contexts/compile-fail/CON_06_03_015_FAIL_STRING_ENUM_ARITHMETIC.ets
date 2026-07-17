@@ -20,8 +20,8 @@
  * @note 反向用例：string 枚举用于数值上下文应编译失败
  */
 enum Color {
-  Red = "red",
-  Blue = "blue"
+  Red = 'red',
+  Blue = 'blue'
 }
 
 function testStringEnumArithmeticFail(): void {

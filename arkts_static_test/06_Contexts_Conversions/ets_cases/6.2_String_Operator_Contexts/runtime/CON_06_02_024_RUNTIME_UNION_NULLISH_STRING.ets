@@ -22,20 +22,20 @@
 function main(): void {
   let x: string | null | undefined = null
   let r1: string = 'string is ' + x
-  if (r1 != "string is null") {
-    throw new Error('assertion failed: expected 'string is null', got '' + r1 + "'")
+  if (r1 != 'string is null') {
+    throw new Error('assertion failed: expected 'string is null', got '' + r1 + ''')
   }
 
   x = undefined
   let r2: string = 'string is ' + x
-  if (r2 != "string is undefined") {
-    throw new Error('assertion failed: expected 'string is undefined', got '' + r2 + "'")
+  if (r2 != 'string is undefined') {
+    throw new Error('assertion failed: expected 'string is undefined', got '' + r2 + ''')
   }
 
-  x = "hello"
+  x = 'hello'
   let r3: string = 'string is ' + x
-  if (r3 != "string is hello") {
-    throw new Error('assertion failed: expected 'string is hello', got '' + r3 + "'")
+  if (r3 != 'string is hello') {
+    throw new Error('assertion failed: expected 'string is hello', got '' + r3 + ''')
   }
 
   console.log('Union nullish string conversion verified')

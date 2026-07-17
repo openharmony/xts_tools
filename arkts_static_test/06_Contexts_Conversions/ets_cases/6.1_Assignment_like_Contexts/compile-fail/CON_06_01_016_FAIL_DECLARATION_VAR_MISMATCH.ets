@@ -20,5 +20,5 @@
  * @note 反向用例：验证该场景应产生编译时错误
  */
 function testDeclarationVarMismatchFail(): void {
-  let invalidNum: number = "not a number"
+  let invalidNum: number = 'not a number'
 }

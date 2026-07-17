@@ -39,7 +39,7 @@ function main(): void {
   }
 
   let joined: string = concatStrings("hello", "world")
-  if (joined != "helloworld") {
+  if (joined != 'helloworld') {
     throw new Error('assertion failed: concat expected 'helloworld', got ' + joined)
   }
 

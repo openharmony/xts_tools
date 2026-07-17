@@ -25,7 +25,7 @@ class MyBox4<T> {
 }
 function main(): void {
     let b: MyBox4<string> = new MyBox4<string>("hello");
-    if (b.value != "hello") {
+    if (b.value != 'hello') {
     throw new Error('assertion failed: ' + b.value);
     }
     console.log('verified');

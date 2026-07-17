@@ -22,6 +22,8 @@
 function main(): void {
   let nan: double = 0.0 / 0.0
   let f: float = nan.toFloat()
-  if (!isNaN(f)) throw new Error('NaN->float should be NaN')
+  if (!isNaN(f)) {
+    throw new Error('NaN->float should be NaN')
+  }
   console.log('NaN to float verified')
 }
