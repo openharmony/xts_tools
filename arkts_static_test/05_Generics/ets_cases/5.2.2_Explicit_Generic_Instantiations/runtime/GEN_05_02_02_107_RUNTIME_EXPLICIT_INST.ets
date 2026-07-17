@@ -20,7 +20,7 @@
  * @note 运行时用例：验证明确实例化运行时正确
  */
 class MyBox4<T> {
-    value: T;
+    public value: T;
     constructor(v: T) { this.value = v; }
 }
 function main(): void {

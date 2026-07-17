@@ -21,7 +21,7 @@
  */
 class Data {
   public value: int = 0
-  public label: string = ""
+  public label: string = ''
 }
 
 function testAssignmentFieldBasic(): void {

@@ -32,5 +32,5 @@ class Calculator {
 function testMethodArgumentBasic(): void {
   let calc: Calculator = new Calculator()
   let sum: int = calc.add(10, 20)
-  let result: string = calc.concat("hello", "world")
+  let result: string = calc.concat('hello', 'world')
 }

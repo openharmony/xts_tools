@@ -25,6 +25,6 @@ function foo<T1, T2>(p1: T1, p2: T2): void {
 }
 
 function testGenericDeclaration(): void {
-  foo<number, string>(42, "hello")
+  foo<number, string>(42, 'hello')
   foo<int, boolean>(100, true)
 }

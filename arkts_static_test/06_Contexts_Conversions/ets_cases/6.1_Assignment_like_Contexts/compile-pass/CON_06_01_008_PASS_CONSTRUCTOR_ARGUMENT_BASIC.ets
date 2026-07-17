@@ -39,5 +39,5 @@ class Person {
 
 function testConstructorArgumentBasic(): void {
   let p: Point = new Point(3, 5)
-  let person: Person = new Person("Alice", 30)
+  let person: Person = new Person('Alice', 30)
 }

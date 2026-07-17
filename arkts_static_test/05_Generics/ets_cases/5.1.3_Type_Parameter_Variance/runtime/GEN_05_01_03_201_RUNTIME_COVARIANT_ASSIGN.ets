@@ -22,7 +22,7 @@
 class Base211 { b(): int { return 1 } }
 class Derived211 extends Base211 { d(): int { return 2 } }
 class Covariant211<out T> {
-  readonly v: T; constructor(x: T) { this.v = x }
+  public readonly v: T; constructor(x: T) { this.v = x }
 }
 function main(): void {
   let d = new Derived211()

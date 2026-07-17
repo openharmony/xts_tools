@@ -20,5 +20,5 @@
  * @note 反向用例：验证该场景应产生编译时错误
  */
 function testCompositeArrayMismatchFail(): void {
-  let invalidArr: int[] = [1, "two", 3]
+  let invalidArr: int[] = [1, 'two', 3]
 }
