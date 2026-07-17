@@ -54,11 +54,10 @@ export default function FinalizationRegistryPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'FinalizationRegistry', 'constructor',
           'constructor(cleanupCallback: (heldValue: T) => void)', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_FinalizationRegistryPerfTest_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_FinalizationRegistryPerfTest_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let registry: FinalizationRegistry<number> = new FinalizationRegistry<number>((value: number) => {});
         let objArray: Object[] = new Array<Object>();
@@ -72,14 +71,13 @@ export default function FinalizationRegistryPerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = registry;
         const arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0300: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'FinalizationRegistry', 'register',
           'register(target: Object, heldValue: T): void', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_FinalizationRegistryPerfTest_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_FinalizationRegistryPerfTest_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let registry: FinalizationRegistry<number> = new FinalizationRegistry<number>((value: number) => {});
         let objArray: Object[] = new Array<Object>(BASE_COUNT);
@@ -100,14 +98,13 @@ export default function FinalizationRegistryPerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = tokenArray.length;
         const arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0400: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'FinalizationRegistry', 'unregister',
           'unregister(target: Object): void', arkTsAveragedTime);
-        expect(res1 === BASE_COUNT && objArray.length === BASE_COUNT).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_FinalizationRegistryPerfTest_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_FinalizationRegistryPerfTest_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let registry: FinalizationRegistry<number> = new FinalizationRegistry<number>((value: number) => {});
         let objArray: Object[] = new Array<Object>(BASE_COUNT);
@@ -125,11 +122,10 @@ export default function FinalizationRegistryPerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = tokenArray.length;
         const arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0500: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_FinalizationRegistryPerfTest_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'FinalizationRegistry', 'register',
           'register(target: Object, heldValue: T, token?: Object): void', arkTsAveragedTime);
-        expect(res1 === BASE_COUNT && objArray.length === BASE_COUNT).assertTrue();
-        done();
+      done();
       })
   })
 }

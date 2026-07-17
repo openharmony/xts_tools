@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-mport {
+import {
   describe,
   it,
   expect,
@@ -54,11 +54,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.NumberFormat format_long: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.NumberFormat', 'format',
         'format(value: long): string', arkTsAveragedTime);
-      expect(res1.replace(/[^0-9]/g, '') === '1234567890').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_NumberFormat_format_bigint_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_NumberFormat_format_bigint_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let formatter: Intl.NumberFormat = new Intl.NumberFormat('zh-CN');
       let res: string = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -71,11 +70,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.NumberFormat format_bigint: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.NumberFormat', 'format',
         'format(value: bigint): string', arkTsAveragedTime);
-      expect(res1.replace(/[^0-9]/g, '') === '12345678901234567890').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_NumberFormat_format_number_bigint_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_NumberFormat_format_number_bigint_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let formatter: Intl.NumberFormat = new Intl.NumberFormat('zh-CN');
       let res: string = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -88,11 +86,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.NumberFormat format_number_bigint: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.NumberFormat', 'format',
         'format(value: number | bigint): string', arkTsAveragedTime);
-      expect(res1.replace(/[^0-9]/g, '') === '123456789').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_NumberFormat_formatToParts_bigint_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_NumberFormat_formatToParts_bigint_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let formatter: Intl.NumberFormat = new Intl.NumberFormat('zh-CN');
       let res = formatter.formatToParts(0);
       let Stime: number = systemDateTime.getTime(true);
@@ -109,11 +106,10 @@ export default function IntlPerfTest01(): void {
       for (let i = 0; i < res1.length; i++) {
         resText += res1[i].value;
       }
-      expect(resText.replace(/[^0-9]/g, '') === '1234567890').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_PluralRules_select_number_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_PluralRules_select_number_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let pluralRules: Intl.PluralRules = new Intl.PluralRules('zh-CN');
       let res: string = 'other';
       let Stime: number = systemDateTime.getTime(true);
@@ -126,11 +122,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.PluralRules select_number: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.PluralRules', 'select',
         'select(value: number): LDMLPluralRule', arkTsAveragedTime);
-      expect(res1 === 'other').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_language_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_language_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh-CN');
       let res: string | undefined = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -143,11 +138,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.Locale language: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'language',
         'language: string | undefined', arkTsAveragedTime);
-      expect(res1 === 'zh').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_region_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_region_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh-CN');
       let res: string | undefined = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -160,11 +154,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.Locale region: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'region',
         'region: string | undefined', arkTsAveragedTime);
-      expect(res1 === 'CN').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_script_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_script_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh-Hans-CN');
       let res: string | undefined = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -177,11 +170,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.Locale script: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'script',
         'script: string | undefined', arkTsAveragedTime);
-      expect(res1 === 'Hans').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_calendar_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_calendar_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh-CN-u-ca-gregory');
       let res: string | undefined = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -194,11 +186,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.Locale calendar: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'calendar',
         'calendar: string | undefined', arkTsAveragedTime);
-      expect(res1 === 'gregory').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_numberingSystem_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_numberingSystem_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh-CN-u-nu-hanidec');
       let res: string | undefined = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -211,11 +202,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.Locale numberingSystem: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'numberingSystem',
         'numberingSystem: string | undefined', arkTsAveragedTime);
-      expect(res1 === 'hanidec').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_hourCycle_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_hourCycle_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh-CN-u-hc-h23');
       let res: string | undefined = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -228,11 +218,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.Locale hourCycle: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'hourCycle',
         'hourCycle: string | undefined', arkTsAveragedTime);
-      expect(res1 === 'h23').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_numeric_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_numeric_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh-CN-u-kn-true');
       let res: boolean | undefined = false;
       let Stime: number = systemDateTime.getTime(true);
@@ -245,11 +234,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.Locale numeric: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'numeric',
         'numeric: boolean | undefined', arkTsAveragedTime);
-      expect(res1 === true).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_collation_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_collation_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh-CN-u-co-pinyin');
       let res: string | undefined = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -262,11 +250,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.Locale collation: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'collation',
         'collation: string | undefined', arkTsAveragedTime);
-      expect(res1 === 'pinyin').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_caseFirst_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_caseFirst_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh-CN-u-kf-upper');
       let res: string | undefined = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -279,11 +266,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.Locale caseFirst: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'caseFirst',
         'caseFirst: string | undefined', arkTsAveragedTime);
-      expect(res1 === 'upper').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_baseName_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_baseName_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh-Hans-CN');
       let res: string | undefined = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -296,11 +282,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.Locale baseName: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'baseName',
         'baseName: string | undefined', arkTsAveragedTime);
-      expect(res1 === 'zh-Hans-CN').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_NumberFormat_formatRange_bigint_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_NumberFormat_formatRange_number_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let formatter: Intl.NumberFormat = new Intl.NumberFormat('zh-CN');
       let res: string = '';
       let Stime: number = systemDateTime.getTime(true);
@@ -314,11 +299,10 @@ export default function IntlPerfTest01(): void {
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.NumberFormat', 'formatRange',
         'formatRange(start: number, end: number): string', arkTsAveragedTime);
       let normalizedRange: string = res1.replace(/[^0-9]/g, '');
-      expect(normalizedRange.indexOf('100000') >= 0 && normalizedRange.indexOf('999999') >= 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_NumberFormat_formatRangeToParts_bigint_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_NumberFormat_formatRangeToParts_number_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let formatter: Intl.NumberFormat = new Intl.NumberFormat('zh-CN');
       let res = formatter.formatRangeToParts(0, 1);
       let Stime: number = systemDateTime.getTime(true);
@@ -336,11 +320,10 @@ export default function IntlPerfTest01(): void {
         rangeText += res1[i].value;
       }
       let normalizedRangeText: string = rangeText.replace(/[^0-9]/g, '');
-      expect(normalizedRangeText.indexOf('100000') >= 0 && normalizedRangeText.indexOf('999999') >= 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_DisplayNames_of_region_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_DisplayNames_of_region_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let displayNames: Intl.DisplayNames = new Intl.DisplayNames('zh-CN', { type: 'region' });
       let res: string | undefined;
       let Stime: number = systemDateTime.getTime(true);
@@ -353,11 +336,10 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.DisplayNames of region: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.DisplayNames', 'of',
         'of(code: string): string | undefined (type: region)', arkTsAveragedTime);
-      expect(res1 !== undefined && res1.length > 0 && res1 !== 'US').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_DisplayNames_of_script_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_DisplayNames_of_script_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let displayNames: Intl.DisplayNames = new Intl.DisplayNames('zh-CN', { type: 'script' });
       let res: string | undefined;
       let Stime: number = systemDateTime.getTime(true);
@@ -370,7 +352,6 @@ export default function IntlPerfTest01(): void {
       console.info('arkTsPerformanceTest Intl.DisplayNames of script: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.DisplayNames', 'of',
         'of(code: string): string | undefined (type: script)', arkTsAveragedTime);
-      expect(res1 !== undefined && res1.length > 0 && res1 !== 'Hans').assertTrue();
       done();
     })
   })

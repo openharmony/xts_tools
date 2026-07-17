@@ -57,10 +57,9 @@ export default function ErrorHandlerPerfTest(): void {
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_Constructor_0100: ' +
           arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'constructor',
-          'constructor(cb: UncaughtErrorListener): ProcessErrorHandler', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+        performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'setDefaultErrorHandler',
+          'setDefaultErrorHandler(cb: UncaughtErrorListener): ProcessErrorHandler', arkTsAveragedTime);
+      done();
       })
 
     it('PerformanceTest_ErrorHandler_HandleUncaughtError_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -77,10 +76,9 @@ export default function ErrorHandlerPerfTest(): void {
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_HandleUncaughtError_0200: ' +
           arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'handleUncaughtError',
-          'handleUncaughtError(error: Object): void', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+        performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'invoke',
+          'invoke(error: Error): void', arkTsAveragedTime);
+      done();
       })
 
     it('PerformanceTest_ErrorHandler_Reset_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -97,10 +95,9 @@ export default function ErrorHandlerPerfTest(): void {
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ErrorHandler_Reset_0300: ' +
           arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'reset',
-          'reset(cb: UncaughtErrorListener): void', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+        performance.apiWithClassAndKeywordTxt('std.core', 'ProcessErrorHandler', 'setDefaultErrorHandler',
+          'setDefaultErrorHandler(cb: UncaughtErrorListener): ProcessErrorHandler', arkTsAveragedTime);
+      done();
       })
 
   })

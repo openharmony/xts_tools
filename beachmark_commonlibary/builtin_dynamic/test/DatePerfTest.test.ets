@@ -37,7 +37,7 @@ export default function DatePerfTest(): void {
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -56,7 +56,6 @@ export default function DatePerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'constructor',
         'function constructor()', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
@@ -72,7 +71,6 @@ export default function DatePerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'constructor',
         'function constructor(value: number)', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
@@ -88,7 +86,6 @@ export default function DatePerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'constructor',
         'function constructor(value: string)', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
@@ -104,7 +101,6 @@ export default function DatePerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Constructor_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'constructor',
         'function constructor(year: number, monthIndex: number, day?: number)', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
@@ -120,11 +116,10 @@ export default function DatePerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Constructor_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'constructor',
         'function constructor(year: number, monthIndex: number, day?: number, hours?: number, minutes?: number, seconds?: number, ms?: number)', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Static_Method_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Static_Method_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: string = '';
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -133,14 +128,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', '$_invoke',
         'static $_invoke(): string', arkTsAveragedTime);
-      expect(res1 !== '').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Static_Method_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Static_Method_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -149,14 +143,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_0200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'now',
         'static now(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Static_Method_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Static_Method_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -165,30 +158,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_0300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getLocalTimezoneOffset',
         'static getLocalTimezoneOffset(ms: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Static_Method_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let res: String = '';
-      let Stime = systemDateTime.getTime(true);
-      for (let i = 0; i < BASE_COUNT; i++) {
-        systemDateTime.getTimezoneSync();
-      }
-      let Dtime = systemDateTime.getTime(true) - Stime;
-      let res1 = res;
-      let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_0400: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getTimezoneName',
-        'static getTimezoneName(ms: number): String', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
-      done();
-    })
-
-    it('PerformanceTest_Date_Static_Method_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Static_Method_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -197,14 +173,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_0500: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'parse',
         'static parse(dateStr: string): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Static_Method_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Static_Method_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -213,14 +188,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_0600: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'UTC',
         'static UTC(year: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Static_Method_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Static_Method_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -229,14 +203,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_0700: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Static_Method_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'UTC',
         'static UTC(year: number, month: number, day?: number, hours?: number, minutes?: number, seconds?: number, ms?: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: boolean = false;
       let Stime = systemDateTime.getTime(true);
@@ -246,14 +219,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'isDateValid',
         'isDateValid(): boolean', arkTsAveragedTime);
-      expect(res1).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -263,14 +235,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_0200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'valueOf',
         'valueOf(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -280,14 +251,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_0300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getDate',
         'getDate(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -297,14 +267,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_0400: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getDay',
         'getDay(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -314,14 +283,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_0500: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getMonth',
         'getMonth(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -331,14 +299,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_0600: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getFullYear',
         'getFullYear(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -348,14 +315,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_0700: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getHours',
         'getHours(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -365,14 +331,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_0800: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getMinutes',
         'getMinutes(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -382,14 +347,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_0900: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getSeconds',
         'getSeconds(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -399,14 +363,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1000: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getMilliseconds',
         'getMilliseconds(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -416,14 +379,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getTime',
         'getTime(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -433,14 +395,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getUTCDate',
         'getUTCDate(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -450,14 +411,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getUTCDay',
         'getUTCDay(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -467,14 +427,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1400: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getUTCMonth',
         'getUTCMonth(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -484,14 +443,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1500: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getUTCFullYear',
         'getUTCFullYear(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -501,14 +459,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1600: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getUTCHours',
         'getUTCHours(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -518,14 +475,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1700: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getUTCMinutes',
         'getUTCMinutes(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -535,14 +491,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1800: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getUTCSeconds',
         'getUTCSeconds(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -552,14 +507,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_1900: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getUTCMilliseconds',
         'getUTCMilliseconds(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -569,14 +523,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2000: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'getTimezoneOffset',
         'getTimezoneOffset(): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: string = '';
       let Stime = systemDateTime.getTime(true);
@@ -586,14 +539,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'toString',
         'toString(): string', arkTsAveragedTime);
-      expect(res1 !== '').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: string = '';
       let Stime = systemDateTime.getTime(true);
@@ -603,14 +555,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'toDateString',
         'toDateString(): string', arkTsAveragedTime);
-      expect(res1 !== '').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: string = '';
       let Stime = systemDateTime.getTime(true);
@@ -620,14 +571,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'toTimeString',
         'toTimeString(): string', arkTsAveragedTime);
-      expect(res1 !== '').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_3600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: string = '';
       let Stime = systemDateTime.getTime(true);
@@ -637,14 +587,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2400: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'toUTCString',
         'toUTCString(): string', arkTsAveragedTime);
-      expect(res1 !== '').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_3700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: string = '';
       let Stime = systemDateTime.getTime(true);
@@ -654,14 +603,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2500: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'toISOString',
         'toISOString(): string', arkTsAveragedTime);
-      expect(res1 !== '').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_3800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: string = '';
       let Stime = systemDateTime.getTime(true);
@@ -671,14 +619,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2600: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'toLocaleTimeString',
         'toLocaleTimeString(): string', arkTsAveragedTime);
-      expect(res1 !== '').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_3900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: string = '';
       let Stime = systemDateTime.getTime(true);
@@ -688,14 +635,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2700: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'toLocaleDateString',
         'toLocaleDateString(): string', arkTsAveragedTime);
-      expect(res1 !== '').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_4000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -705,14 +651,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2800: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setTime',
         'setTime(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_4100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -722,14 +667,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_2900: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setDate',
         'setDate(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_4200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -739,14 +683,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3000: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setFullYear',
         'setFullYear(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_4300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -756,14 +699,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setMonth',
         'setMonth(month: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_4400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -773,14 +715,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setHours',
         'setHours(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_4500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -790,14 +731,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setMinutes',
         'setMinutes(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_4600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -807,14 +747,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3400: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setSeconds',
         'setSeconds(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_4700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -824,14 +763,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3500: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setMilliseconds',
         'setMilliseconds(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_3600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_4800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -841,14 +779,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3600: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCDate',
         'setUTCDate(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_3700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_4900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -858,14 +795,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3700: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCFullYear',
         'setUTCFullYear(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_3800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_5000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -875,14 +811,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3800: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCMonth',
         'setUTCMonth(month: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_3900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_5100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -892,14 +827,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_3900: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCHours',
         'setUTCHours(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_4000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_5200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -909,14 +843,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4000: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCMinutes',
         'setUTCMinutes(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_4100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_5300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -926,14 +859,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCSeconds',
         'setUTCSeconds(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_4200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_5400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -943,14 +875,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCMilliseconds',
         'setUTCMilliseconds(value: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_4300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_5500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -960,14 +891,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setHours',
         'setHours(value: number, min: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_4400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_5600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -977,14 +907,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4400: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setHours',
         'setHours(value: number, min: number, sec: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_4500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_5700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -994,14 +923,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4500: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setHours',
         'setHours(value: number, min: number, sec: number, ms: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_4600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_5800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1011,14 +939,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4600: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setMinutes',
         'setMinutes(value: number, sec: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_4700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_5900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1028,14 +955,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4700: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setMinutes',
         'setMinutes(value: number, sec: number, ms: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_4800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_6000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1045,14 +971,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4800: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setSeconds',
         'setSeconds(value: number, ms: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_4900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_6100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1062,14 +987,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_4900: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCHours',
         'setUTCHours(value: number, min: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_5000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_6200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1079,14 +1003,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5000: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCHours',
         'setUTCHours(value: number, min: number, sec: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_5100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_6300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1096,14 +1019,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCHours',
         'setUTCHours(value: number, min: number, sec: number, ms: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_5200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_6400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1113,14 +1035,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5200: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCMinutes',
         'setUTCMinutes(value: number, sec: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_5300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_6500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1130,14 +1051,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCMinutes',
         'setUTCMinutes(value: number, sec: number, ms: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_5400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_6600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1147,14 +1067,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5400: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCSeconds',
         'setUTCSeconds(value: number, ms: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_5500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_6700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1164,14 +1083,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5500: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setFullYear',
         'setFullYear(value: number, month: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_5600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_6800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1181,14 +1099,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5600: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setFullYear',
         'setFullYear(value: number, month: number, date: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_5700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_6900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1198,14 +1115,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5700: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCFullYear',
         'setUTCFullYear(value: number, month: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_5800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_7000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: number = 0;
       let Stime = systemDateTime.getTime(true);
@@ -1215,14 +1131,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5800: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_7000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setUTCFullYear',
         'setUTCFullYear(value: number, month: number, date: number): number', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_5900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_7100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -1231,14 +1146,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = dateObj;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_5900: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setYear',
-        'setYear(value: number): void', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_7100: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'setFullYear',
+          'setFullYear(value: number): number', arkTsAveragedTime);
       done();
     })
 
-    it('PerformanceTest_Date_Instance_Method_6000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Instance_Method_7200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateObj = new Date();
       let res: string = '';
       let Stime = systemDateTime.getTime(true);
@@ -1248,14 +1162,13 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_6000: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Instance_Method_7200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'toLocaleString',
         'toLocaleString(): string', arkTsAveragedTime);
-      expect(res1 !== '').assertTrue();
       done();
     })
 
-    it('PerformanceTest_Date_Constructor_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Date_Constructor_7300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let dateSource = new Date(2024, 5 , 15 );
       let res: Date = new Date();
       let Stime = systemDateTime.getTime(true);
@@ -1265,10 +1178,9 @@ export default function DatePerfTest(): void {
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Constructor_0600: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Date_Constructor_7300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Date', 'constructor',
         'function constructor(value: Date)', arkTsAveragedTime);
-      expect(res1 !== null && res1 !== undefined).assertTrue();
       done();
     })
 

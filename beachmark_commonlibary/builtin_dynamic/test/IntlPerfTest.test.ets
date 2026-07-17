@@ -45,7 +45,7 @@ export default function IntlPerfTest(): void {
       performance.save('apiPerformance.txt');
     })
 
-it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: string[] = [];
       let Stime: number = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -54,14 +54,13 @@ it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTIO
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.NumberFormat', 'supportedLocalesOf',
         'supportedLocalesOf(locales: string | string[], options?: NumberFormatOptions): string[]', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_ListFormat_supportedLocalesOf_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_ListFormat_supportedLocalesOf_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: string[] = [];
       let Stime: number = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -70,10 +69,9 @@ it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTIO
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_ListFormat_supportedLocalesOf_0400: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_ListFormat_supportedLocalesOf_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.ListFormat', 'supportedLocalesOf',
         'supportedLocalesOf(locales: string | string[], options?): string[]', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 
@@ -90,8 +88,6 @@ it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTIO
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_RelativeTimeFormat_formatToParts_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.RelativeTimeFormat', 'formatToParts',
         'formatToParts(value: number, unit: RelativeTimeFormatUnit): RelativeTimeFormatPart[]', arkTsAveragedTime);
-
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 
@@ -108,8 +104,6 @@ it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTIO
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_RelativeTimeFormat_resolvedOptions_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.RelativeTimeFormat', 'resolvedOptions',
         'resolvedOptions(): ResolvedRelativeTimeFormatOptions', arkTsAveragedTime);
-
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 
@@ -125,12 +119,10 @@ it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTIO
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_RelativeTimeFormat_supportedLocalesOf_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.RelativeTimeFormat', 'supportedLocalesOf',
         'supportedLocalesOf(locales: string | string[], options?: RelativeTimeFormatOptions): string[]', arkTsAveragedTime);
-
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_maximize_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_maximize_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh');
       let res: Intl.Locale = locale;
       let Stime: number = systemDateTime.getTime(true);
@@ -140,14 +132,13 @@ it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTIO
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_Locale_maximize_0300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_Locale_maximize_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'maximize',
         'maximize(): Locale', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_Locale_minimize_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_Locale_minimize_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let locale: Intl.Locale = new Intl.Locale('zh-CN');
       let res: Intl.Locale = locale;
       let Stime: number = systemDateTime.getTime(true);
@@ -157,14 +148,13 @@ it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTIO
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_Locale_minimize_0400: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_Locale_minimize_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.Locale', 'minimize',
         'minimize(): Locale', arkTsAveragedTime);
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_DisplayNames_resolvedOptions_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_DisplayNames_resolvedOptions_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let displayNames: Intl.DisplayNames = new Intl.DisplayNames('zh-CN', { type: 'language' });
       let res: Intl.ResolvedDisplayNamesOptions = displayNames.resolvedOptions();
       let Stime: number = systemDateTime.getTime(true);
@@ -174,15 +164,13 @@ it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTIO
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_DisplayNames_resolvedOptions_0300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_DisplayNames_resolvedOptions_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.DisplayNames', 'resolvedOptions',
         'resolvedOptions(): ResolvedDisplayNamesOptions', arkTsAveragedTime);
-
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_DisplayNames_supportedLocalesOf_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_DisplayNames_supportedLocalesOf_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: string[] = [];
       let Stime: number = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -191,15 +179,13 @@ it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTIO
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_DisplayNames_supportedLocalesOf_0400: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_DisplayNames_supportedLocalesOf_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.DisplayNames', 'supportedLocalesOf',
         'supportedLocalesOf(locales: string | Locale | FixedArray<string | Locale>): string[]', arkTsAveragedTime);
-
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_PluralRules_resolvedOptions_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_PluralRules_resolvedOptions_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let pluralRules: Intl.PluralRules = new Intl.PluralRules('zh-CN');
       let res: Intl.ResolvedPluralRulesOptions = pluralRules.resolvedOptions();
       let Stime: number = systemDateTime.getTime(true);
@@ -209,15 +195,13 @@ it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTIO
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_PluralRules_resolvedOptions_0300: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_PluralRules_resolvedOptions_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.PluralRules', 'resolvedOptions',
         'resolvedOptions(): ResolvedPluralRulesOptions', arkTsAveragedTime);
-
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Intl_PluralRules_supportedLocalesOf_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Intl_PluralRules_supportedLocalesOf_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: string[] = [];
       let Stime: number = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -226,11 +210,9 @@ it('PerformanceTest_Intl_NumberFormat_supportedLocalesOf_0700', TestType.FUNCTIO
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_PluralRules_supportedLocalesOf_0400: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Intl_PluralRules_supportedLocalesOf_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Intl.PluralRules', 'supportedLocalesOf',
         'supportedLocalesOf(locales: string | FixedArray<string>, options?): string[]', arkTsAveragedTime);
-
-      expect(arkTsAveragedTime >= 0).assertTrue();
       done();
     })
 

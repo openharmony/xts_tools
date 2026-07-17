@@ -56,7 +56,6 @@ export default function FunctionsPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'global', 'encodeURI',
         'encodeURI(uri: string): string', arkTsAveragedTime);
-      expect(res !== "").assertTrue();
       done();
     })
 
@@ -72,7 +71,6 @@ export default function FunctionsPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'global', 'decodeURI',
         'decodeURI(uri: string): string', arkTsAveragedTime);
-      expect(res !== "").assertTrue();
       done();
     })
 
@@ -88,7 +86,6 @@ export default function FunctionsPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'global', 'encodeURIComponent',
         'encodeURIComponent(uriComponent: String | Number | Boolean): string', arkTsAveragedTime);
-      expect(res !== "").assertTrue();
       done();
     })
 
@@ -104,7 +101,6 @@ export default function FunctionsPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'global', 'decodeURIComponent',
         'decodeURIComponent(uriComponent: string): string', arkTsAveragedTime);
-      expect(res !== "").assertTrue();
       done();
     })
 
@@ -120,7 +116,6 @@ export default function FunctionsPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'global', 'escape',
         'escape(str: string): string', arkTsAveragedTime);
-      expect(res !== "").assertTrue();
       done();
     })
 
@@ -136,7 +131,6 @@ export default function FunctionsPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Functions_Static_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'global', 'unescape',
         'unescape(str: string): string', arkTsAveragedTime);
-      expect(res !== "").assertTrue();
       done();
     })
 

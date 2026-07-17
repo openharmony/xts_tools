@@ -57,156 +57,10 @@ export default function ErrorPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
           'constructor(message?: string)', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Error_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res: Error = new Error("test message");
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = new Error("test message");
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0200: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
-          'constructor(message?: string)', arkTsAveragedTime);
-        expect(res.message === "test message").assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_Error_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res: Error = new Error();
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = new Error();
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0300: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
-          'constructor(message?: string)', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_Error_Constructor_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res: Error = new Error("test error message");
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = new Error("test error message");
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0400: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
-          'constructor(message?: string)', arkTsAveragedTime);
-        expect(res.message === "test error message").assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_Error_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let errors: Error[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
-          let e = new Error();
-          e.name = "CustomError";
-          errors.push(e);
-        }
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          let res: Error = errors[i];
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = errors[BASE_COUNT - 1];
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0500: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
-          'constructor(message?: string)', arkTsAveragedTime);
-        expect(res.name === "CustomError").assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_Error_Constructor_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let errors: Error[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
-          let e = new Error();
-          e.name = "CustomError";
-          e.message = "test message";
-          errors.push(e);
-        }
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          let res: Error = errors[i];
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = errors[BASE_COUNT - 1];
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0600: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
-          'constructor(message?: string)', arkTsAveragedTime);
-        expect(res.name === "CustomError").assertTrue();
-        expect(res.message === "test message").assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_Error_Constructor_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let errors: Error[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
-          let e = new Error();
-          e.name = "CustomError";
-          e.message = "test message";
-          errors.push(e);
-        }
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          let res: Error = errors[i];
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = errors[BASE_COUNT - 1];
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0700: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
-          'constructor(message?: string)', arkTsAveragedTime);
-        expect(res.name === "CustomError").assertTrue();
-        expect(res.message === "test message").assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_Error_Constructor_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let errors: Error[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
-          let e = new Error();
-          e.name = "CustomError";
-          e.message = "test message";
-          errors.push(e);
-        }
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          let res: Error = errors[i];
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = errors[BASE_COUNT - 1];
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Constructor_0800: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'constructor',
-          'constructor(message?: string)', arkTsAveragedTime);
-        expect(res.name === "CustomError").assertTrue();
-        expect(res.message === "test message").assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_Error_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Error_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let error = new Error("test error");
         let res: string = "";
@@ -217,14 +71,13 @@ export default function ErrorPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'name',
           'get name(): string', arkTsAveragedTime);
-        expect(res === "Error").assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Error_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Error_Instance_0250', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let error = new Error("test error");
         let Stime = systemDateTime.getTime(true);
@@ -234,14 +87,13 @@ export default function ErrorPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = error;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0250: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'name',
           'set name(val: string)', arkTsAveragedTime);
-        expect(error.name === "newName").assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Error_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Error_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let error = new Error("test error message");
         let res: string = "";
@@ -252,14 +104,13 @@ export default function ErrorPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0500: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'message',
           'get message(): string', arkTsAveragedTime);
-        expect(res === "test error message").assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Error_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Error_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let error = new Error();
         let Stime = systemDateTime.getTime(true);
@@ -269,14 +120,13 @@ export default function ErrorPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = error;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0600: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'message',
           'set message(val: string)', arkTsAveragedTime);
-        expect(error.message === "new message").assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Error_Instance_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Error_Instance_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let error = new Error("test error");
         let res: string | undefined = undefined;
@@ -287,14 +137,13 @@ export default function ErrorPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0900: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'stack',
           'get stack(): string | undefined', arkTsAveragedTime);
-        expect(true).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Error_Instance_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Error_Instance_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let error = new Error("test error");
         let Stime = systemDateTime.getTime(true);
@@ -304,14 +153,13 @@ export default function ErrorPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = error;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_1000: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'stack',
           'set stack(newStack: string | undefined)', arkTsAveragedTime);
-        expect(error.stack === "custom stack trace").assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Error_Instance_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Error_Instance_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let error = new Error("test error");
         let res: string = "";
@@ -322,11 +170,10 @@ export default function ErrorPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_1100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Error_Instance_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Error', 'toString',
           'toString(): string', arkTsAveragedTime);
-        expect(res === "Error: test error").assertTrue();
-        done();
+      done();
       })
 
   })

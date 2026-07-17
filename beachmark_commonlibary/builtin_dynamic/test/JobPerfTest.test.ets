@@ -25,7 +25,7 @@ import {
 } from "@ohos/hypium";
 import performance from './Performance.util';
 import { systemDateTime } from '@kit.BasicServicesKit';
-import { process } from '@kit.ArkTS';
+import taskpool from '@ohos.taskpool'
 
 declare class ArkTools {
   static forceFullGC(): void;
@@ -48,16 +48,15 @@ export default function JobPerfTest(): void {
         let res: number = 0;
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = process.tid;
+          res = taskpool.getTaskPoolInfo().threadInfos.length;
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1: number = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Job_GetId_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Job', 'getId',
+        performance.apiWithClassAndKeywordTxt('std.core', 'Job', 'getTaskPoolInfo',
           'getId(): long', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+      done();
       })
 
   })

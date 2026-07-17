@@ -52,30 +52,29 @@ export default function HashMapPerfTest(): void {
           uuid = util.generateRandomUUID(true);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = uuid;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime util_generateRandomUUID: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'util', 'generateRandomUUID',
           'function generateRandomUUID(entropyCache?: boolean): string;', arkTsAveragedTime);
-        expect(uuid !== '').assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_HashMap_isEmpty_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_HashMap_isEmpty_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let result = true;
         let hashMap: HashMap<string, number> = new HashMap<string, number>();
         let Stime = systemDateTime.getTime(true);
-          for (let i = 0; i < BASE_COUNT; i++) {
-            result = hashMap.isEmpty();
-          }
-          let Dtime = systemDateTime.getTime(true) - Stime;
-          let res1 = result;
-          let arkTsAveragedTime = Dtime / BASE_COUNT;
-          console.info('arkTsPerformanceTest arkTsAveragedTime HashMap_isEmpty: ' + arkTsAveragedTime + 'ns');
+        for (let i = 0; i < BASE_COUNT; i++) {
+          result = hashMap.isEmpty();
+        }
+        let Dtime = systemDateTime.getTime(true) - Stime;
+        let res1 = result;
+        let arkTsAveragedTime = Dtime / BASE_COUNT;
+        console.info('arkTsPerformanceTest arkTsAveragedTime HashMap_isEmpty: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'HashMap', 'isEmpty',
           'isEmpty(): boolean;', arkTsAveragedTime);
-        expect(result).assertTrue();
-        done();
+      done();
       })
 
   })

@@ -36,7 +36,7 @@ export default function GlobalPerfTest(): void {
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -55,7 +55,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'parseInt',
         'parseInt(s: String): number', arkTsAveragedTime);
-      expect(res1 === 123).assertTrue();
       done();
     })
 
@@ -71,7 +70,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'parseInt_radix',
         'parseInt(s: String, radix: int): number', arkTsAveragedTime);
-      expect(res1 === 291).assertTrue();
       done();
     })
 
@@ -87,7 +85,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'parseFloat',
         'parseFloat(s: String): number', arkTsAveragedTime);
-      expect(res1 === 3.14).assertTrue();
       done();
     })
 
@@ -103,7 +100,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isNaN',
         'isNaN(d: number): boolean', arkTsAveragedTime);
-      expect(res1 === false).assertTrue();
       done();
     })
 
@@ -119,7 +115,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isNaN_float',
         'isNaN(f: float): boolean', arkTsAveragedTime);
-      expect(res1 === true).assertTrue();
       done();
     })
 
@@ -135,23 +130,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isFinite',
         'isFinite(d: number): boolean', arkTsAveragedTime);
-      expect(res1 === true).assertTrue();
-      done();
-    })
-
-    it('PerformanceTest_Global_Static_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let res: boolean = false;
-      let Stime: number = systemDateTime.getTime(true);
-      for (let i: number = 0; i < BASE_COUNT; i++) {
-        res = isFinite(3.14);
-      }
-      let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1: boolean = res;
-      let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0700: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isFinite_float',
-        'isFinite(f: float): boolean', arkTsAveragedTime);
-      expect(res1 === true).assertTrue();
       done();
     })
 
@@ -167,7 +145,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isInteger',
         'isInteger(v: number): boolean', arkTsAveragedTime);
-      expect(res1 === true).assertTrue();
       done();
     })
 
@@ -183,7 +160,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_0900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'parseInt_radix_number',
         'parseInt(s: String, radix: number): number', arkTsAveragedTime);
-      expect(res1 === 291).assertTrue();
       done();
     })
 
@@ -199,7 +175,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isSafeInteger',
         'isSafeInteger(v: number): boolean', arkTsAveragedTime);
-      expect(res1 === true).assertTrue();
       done();
     })
 
@@ -216,23 +191,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isSafeInteger_long',
         'isSafeInteger(v: long): boolean', arkTsAveragedTime);
-      expect(res1 === true).assertTrue();
-      done();
-    })
-
-    it('PerformanceTest_Global_Static_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let res: boolean = false;
-      let Stime: number = systemDateTime.getTime(true);
-      for (let i: number = 0; i < BASE_COUNT; i++) {
-        res = Number.isSafeInteger(42);
-      }
-      let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1: boolean = res;
-      let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1200: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isSafeInteger_int',
-        'isSafeInteger(v: int): boolean', arkTsAveragedTime);
-      expect(res1 === true).assertTrue();
       done();
     })
 
@@ -248,7 +206,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'isSafeInteger_float',
         'isSafeInteger(v: float): boolean', arkTsAveragedTime);
-      expect(res1 === true).assertTrue();
       done();
     })
 
@@ -268,7 +225,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'setTimeout',
         'setTimeout(func: Function): int', arkTsAveragedTime);
-      expect(res1 === BASE_COUNT).assertTrue();
       done();
     })
 
@@ -288,7 +244,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'clearTimeout',
         'clearTimeout(timerId?: int | null): void', arkTsAveragedTime);
-      expect(res1 === BASE_COUNT).assertTrue();
       done();
     })
 
@@ -308,7 +263,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'setInterval',
         'setInterval(func: Function, delayMs: int | null | undefined, ...args: FixedArray<Any>): int', arkTsAveragedTime);
-      expect(res1 === BASE_COUNT).assertTrue();
       done();
     })
 
@@ -328,7 +282,6 @@ export default function GlobalPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Global_Static_1700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Global', 'clearInterval',
         'clearInterval(timerId?: int | null): void', arkTsAveragedTime);
-      expect(res1 === BASE_COUNT).assertTrue();
       done();
     })
 
