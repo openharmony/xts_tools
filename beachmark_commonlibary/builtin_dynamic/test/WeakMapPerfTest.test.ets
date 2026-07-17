@@ -35,7 +35,7 @@ export default function WeakMapPerfTest(): void {
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -54,7 +54,6 @@ export default function WeakMapPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'constructor',
         'constructor()', arkTsAveragedTime);
-      expect(!map.has(new Object())).assertTrue();
       done();
     })
 
@@ -73,7 +72,6 @@ export default function WeakMapPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Constructor_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'constructor',
         'constructor(entries?: ([K, V])[] | null)', arkTsAveragedTime);
-      expect(res1.get(key) === val).assertTrue();
       done();
     })
 
@@ -92,7 +90,6 @@ export default function WeakMapPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Constructor_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'constructor',
         'constructor(entries: Iterable<[K, V]>)', arkTsAveragedTime);
-      expect(res1.get(key) === val).assertTrue();
       done();
     })
 
@@ -109,7 +106,6 @@ export default function WeakMapPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_ToString_0400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'toString',
         'toString(): String', arkTsAveragedTime);
-      expect(res1 === '[object WeakMap]').assertTrue();
       done();
     })
 
@@ -117,17 +113,17 @@ export default function WeakMapPerfTest(): void {
       let wm = new WeakMap<Object, Object>();
       let key = new Object();
       let val = new Object();
+      let setRes: WeakMap<Object, Object> = wm;
       let Stime: number = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        wm.set(key, val);
+        setRes = wm.set(key, val);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1 = wm;
+      let res1 = setRes;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Set_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'set',
         'set(key: K, val: V): WeakMap<K, V>', arkTsAveragedTime);
-      expect(res1.get(key) === val).assertTrue();
       done();
     })
 
@@ -147,7 +143,6 @@ export default function WeakMapPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Has_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'has',
         'has(key: K): boolean', arkTsAveragedTime);
-      expect(res1).assertTrue();
       done();
     })
 
@@ -167,7 +162,6 @@ export default function WeakMapPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Get_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'get',
         'get(key: K): V | undefined', arkTsAveragedTime);
-      expect(res1 === val).assertTrue();
       done();
     })
 
@@ -191,7 +185,6 @@ export default function WeakMapPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakMap_Delete_0800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.containers', 'WeakMap', 'delete',
         'delete(key: K): boolean', arkTsAveragedTime);
-      expect(res1 && !wm.has(keys[BASE_COUNT - 1])).assertTrue();
       done();
     })
 

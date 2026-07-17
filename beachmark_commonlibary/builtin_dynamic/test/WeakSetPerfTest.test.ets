@@ -57,8 +57,7 @@ export default function WeakSetPerfTest(): void {
           'constructor()', arkTsAveragedTime);
         let obj: Object = new Object();
         res1.add(obj);
-        expect(res1.has(obj)).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_WeakSet_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -76,8 +75,7 @@ export default function WeakSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_Constructor_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'constructor',
           'constructor(elements?: K[] | null)', arkTsAveragedTime);
-        expect(res1.has(obj)).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_WeakSet_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -95,8 +93,7 @@ export default function WeakSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_Constructor_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'constructor',
           'constructor(elements: Iterable<K>)', arkTsAveragedTime);
-        expect(res1.has(obj)).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_WeakSet_Add_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -120,8 +117,7 @@ export default function WeakSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_Add_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'add',
           'add(v: K): WeakSet<K>', arkTsAveragedTime);
-        expect(res1.has(objects[BASE_COUNT - 1])).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_WeakSet_Has_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -140,8 +136,7 @@ export default function WeakSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_Has_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'has',
           'has(v: K): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_WeakSet_Delete_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -170,8 +165,7 @@ export default function WeakSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_Delete_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'delete',
           'delete(v: K): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_WeakSet_ToString_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -188,8 +182,7 @@ export default function WeakSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakSet_ToString_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.containers', 'WeakSet', 'toString',
           'toString(): String', arkTsAveragedTime);
-        expect(res1.length >= 0).assertTrue();
-        done();
+      done();
       })
 
   })

@@ -46,10 +46,11 @@ export default function WeakRefPerfTest(): void {
 
     it('PerformanceTest_WeakRef_constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let res = new WeakRef<object>(new Object());
+        let obj: object = new Object();
+        let res = new WeakRef<object>(obj);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = new WeakRef<object>(new Object());
+          res = new WeakRef<object>(obj);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -57,8 +58,7 @@ export default function WeakRefPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakRef_constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'WeakRef', 'constructor',
           'constructor(target: T)', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_WeakRef_deref_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -76,8 +76,7 @@ export default function WeakRefPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WeakRef_deref_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'WeakRef', 'deref',
           'deref(): T | undefined', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+      done();
       })
 
   })

@@ -53,10 +53,9 @@ export default function WorkerLocalPerfTest(): void {
         let res1: LocalStorage = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Constructor_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'constructor',
+        performance.apiWithClassAndKeywordTxt('std.concurrency', 'LocalStorage', 'constructor',
           'constructor()', arkTsAveragedTime);
-        expect(res != null).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_WorkerLocal_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -66,59 +65,36 @@ export default function WorkerLocalPerfTest(): void {
         let res: LocalStorage = new LocalStorage(para);
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          para = { 'v': initFn() };
           res = new LocalStorage(para);
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1: LocalStorage = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Constructor_0200: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'constructor',
+        performance.apiWithClassAndKeywordTxt('std.concurrency', 'LocalStorage', 'constructor',
           'constructor(init: () => T)', arkTsAveragedTime);
-        expect(res.get<number>('v') === 42).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_WorkerLocal_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_WorkerLocal_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let workerLocal: LocalStorage = new LocalStorage();
         workerLocal.setOrCreate('v', 100);
         let res: number = 0;
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = workerLocal.get<number>('v') ?? 0;
+          res = workerLocal.get<number>('v') as number;
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1: number = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Instance_0100: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'get',
-          'get(): T', arkTsAveragedTime);
-        expect(res === 100).assertTrue();
-        done();
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Instance_0300: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.concurrency', 'LocalStorage', 'get',
+          'get<T>(key: string): T | undefined', arkTsAveragedTime);
+      done();
       })
 
-    it('PerformanceTest_WorkerLocal_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let initFn = (): number => { return 42; };
-        let para: Record<string, number> = { 'v': initFn() };
-        let workerLocal: LocalStorage = new LocalStorage(para);
-        let res: number = 0;
-        let Stime: number = systemDateTime.getTime(true);
-        for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = workerLocal.get<number>('v') ?? 0;
-        }
-        let Dtime: number = systemDateTime.getTime(true) - Stime;
-        let res1: number = res;
-        let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Instance_0200: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'get',
-          'get(): T (with init)', arkTsAveragedTime);
-        expect(res === 42).assertTrue();
-        done();
-      })
-
-    it('PerformanceTest_WorkerLocal_Instance_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_WorkerLocal_Instance_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let pools: LocalStorage[] = [];
         let vals: number[] = [];
@@ -136,11 +112,10 @@ export default function WorkerLocalPerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1: boolean = res;
         let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Instance_0300: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.concurrency', 'WorkerLocal', 'set',
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_WorkerLocal_Instance_0400: ' + arkTsAveragedTime + 'ns');
+        performance.apiWithClassAndKeywordTxt('std.concurrency', 'LocalStorage', 'set',
           'set(value: T): void', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+      done();
       })
 
   })

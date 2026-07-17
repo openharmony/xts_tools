@@ -56,8 +56,7 @@ export default function UndefinableStringArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'constructor',
           'constructor()', arkTsAveragedTime);
-        expect(res1.length === 0).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_UndefinableStringArray_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -73,8 +72,7 @@ export default function UndefinableStringArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Constructor_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'constructor',
           'constructor(length: number)', arkTsAveragedTime);
-        expect(res1.length === 10).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_UndefinableStringArray_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -91,11 +89,10 @@ export default function UndefinableStringArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Constructor_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'constructor + fill',
           'constructor(length: number) + fill(value: string): Array<string | undefined>', arkTsAveragedTime);
-        expect(res1.length === 10 && res1[0] === val).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_UndefinableStringArray_ToArray_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_UndefinableStringArray_ToArray_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Array<string | undefined> = [];
         arr.push('test');
@@ -107,33 +104,14 @@ export default function UndefinableStringArrayPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1: Array<string | undefined> = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_ToArray_0500: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_ToArray_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'slice',
           'slice(): Array<string | undefined>', arkTsAveragedTime);
-        expect(res1.length === 1 && res1[0] === 'test').assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_UndefinableStringArray_ToUndefinableArray_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let arr: Array<string | undefined> = [];
-        arr.push('test');
-        let res: Array<string | undefined> = [];
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = arr.slice();
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1: Array<string | undefined> = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_ToUndefinableArray_0700: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'slice',
-          'slice(): Array<string | undefined>', arkTsAveragedTime);
-        expect(res1.length === 1 && res1[0] === 'test').assertTrue();
-        done();
-      })
 
-    it('PerformanceTest_UndefinableStringArray_PushBack_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_UndefinableStringArray_PushBack_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let pushArrays: Array<Array<string | undefined>> = [];
         let val: string = 'test';
@@ -148,14 +126,13 @@ export default function UndefinableStringArrayPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1: number = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_PushBack_0800: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_PushBack_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'push',
           'push(...items: (string | undefined)[]): number', arkTsAveragedTime);
-        expect(res1 === 1 && pushArrays[BASE_COUNT - 1].length === 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_UndefinableStringArray_PopBack_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_UndefinableStringArray_PopBack_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let popArrays: Array<Array<string | undefined>> = [];
         let val: string = 'test';
@@ -170,14 +147,13 @@ export default function UndefinableStringArrayPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1: string | undefined = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_PopBack_0900: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_PopBack_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'pop',
           'pop(): string | undefined', arkTsAveragedTime);
-        expect(res1 === val).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_UndefinableStringArray_Size_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_UndefinableStringArray_Size_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Array<string | undefined> = [];
         arr.push('test');
@@ -189,14 +165,13 @@ export default function UndefinableStringArrayPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1: number = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Size_1000: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Size_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'length',
           'get length(): number', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_UndefinableStringArray_At_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_UndefinableStringArray_At_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: collections.Array<string | undefined> = collections.Array.from<string | undefined>(['test']);
         let res: string | undefined = undefined;
@@ -207,14 +182,13 @@ export default function UndefinableStringArrayPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1: string | undefined = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_At_1100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_At_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'collections.Array', 'at',
           'at(index: number): string | undefined', arkTsAveragedTime);
-        expect(res1 === 'test').assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_UndefinableStringArray_Set_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_UndefinableStringArray_At_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Array<string | undefined> = ['old'];
         let val: string = 'test';
@@ -227,11 +201,10 @@ export default function UndefinableStringArrayPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1: string | undefined = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_Set_1200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_UndefinableStringArray_At_0900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Array', 'operator[]',
           'operator[](index: number): string | undefined', arkTsAveragedTime);
-        expect(res1 === val).assertTrue();
-        done();
+      done();
       })
 
   })

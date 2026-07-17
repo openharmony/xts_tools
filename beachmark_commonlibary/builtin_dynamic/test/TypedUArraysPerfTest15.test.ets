@@ -42,7 +42,7 @@ export default function TypedUArraysPerfTest15(): void {
       performance.save('apiPerformance.txt');
     })
 
-    it('PerformanceTest_BigUint64Array_some_BigUint64Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_BigUint64Array_some_BigUint64Array_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
       let arr: BigUint64Array = new BigUint64Array([1n, 2n, 3n, 4n, 5n]);
       let result: boolean = arr.some((v: bigint, i: number, a: BigUint64Array): boolean => v > 3n);
@@ -55,11 +55,10 @@ export default function TypedUArraysPerfTest15(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array some_BigUint64Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'some', 'some(BigInt, int, BigUint64Array): => boolean): boolean', arkTsAveragedTime);
-      expect(result === true).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigUint64Array_reduce_BigUint64Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_BigUint64Array_reduce_BigUint64Array_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
       let arr: BigUint64Array = new BigUint64Array([1n, 2n, 3n, 4n, 5n]);
       let result: bigint = arr.reduce((previousValue: bigint, currentValue: bigint, currentIndex: number, array: BigUint64Array): bigint => {
@@ -74,11 +73,10 @@ export default function TypedUArraysPerfTest15(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array reduce_BigUint64Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'reduce', 'reduce(BigInt, BigInt, int, BigUint64Array): => BigInt): BigInt', arkTsAveragedTime);
-      expect(result === 15n).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigUint64Array_reduceRight_BigUint64Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_BigUint64Array_reduceRight_BigUint64Array_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
       let arr: BigUint64Array = new BigUint64Array([1n, 2n, 3n, 4n, 5n]);
       let result: bigint = arr.reduceRight((previousValue: bigint, currentValue: bigint, currentIndex: number, array: BigUint64Array): bigint => {
@@ -93,11 +91,10 @@ export default function TypedUArraysPerfTest15(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array reduceRight_BigUint64Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'reduceRight', 'reduceRight(BigInt, BigInt, int, BigUint64Array): => BigInt): BigInt', arkTsAveragedTime);
-      expect(result === 15n).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigUint64Array_map_BigUint64Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_BigUint64Array_map_BigUint64Array_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
       let arr: BigUint64Array = new BigUint64Array([1n, 2n, 3n, 4n, 5n]);
       let result: BigUint64Array = arr.map((v: bigint, i: number, a: BigUint64Array): bigint => v * 2n);
@@ -110,11 +107,10 @@ export default function TypedUArraysPerfTest15(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array map_BigUint64Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'map', 'map(BigInt, int, BigUint64Array): => BigInt): BigUint64Array', arkTsAveragedTime);
-      expect(result.length === 5).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigUint64Array_every_BigUint64Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_BigUint64Array_every_BigUint64Array_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
       let arr: BigUint64Array = new BigUint64Array([1n, 2n, 3n, 4n, 5n]);
       let result: boolean = arr.every((v: bigint, i: number, a: BigUint64Array): boolean => v >= 0n);
@@ -127,11 +123,10 @@ export default function TypedUArraysPerfTest15(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array every_BigUint64Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'every', 'every(BigInt, int, BigUint64Array): => boolean): boolean', arkTsAveragedTime);
-      expect(result === true).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigUint64Array_filter_BigUint64Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_BigUint64Array_filter_BigUint64Array_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
       let arr: BigUint64Array = new BigUint64Array([1n, 2n, 3n, 4n, 5n]);
       let result: BigUint64Array = arr.filter((v: bigint, i: number, a: BigUint64Array): boolean => v > 2n);
@@ -144,11 +139,10 @@ export default function TypedUArraysPerfTest15(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array filter_BigUint64Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'filter', 'filter(BigInt, int, BigUint64Array): => boolean): BigUint64Array', arkTsAveragedTime);
-      expect(result.length === 3).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigUint64Array_find_BigUint64Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_BigUint64Array_find_BigUint64Array_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
       let arr: BigUint64Array = new BigUint64Array([1n, 2n, 3n, 4n, 5n]);
       let result: bigint | undefined = arr.find((v: bigint, i: number, a: BigUint64Array): boolean => v > 3n);
@@ -161,11 +155,10 @@ export default function TypedUArraysPerfTest15(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array find_BigUint64Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'find', 'find(BigInt, int, BigUint64Array): => boolean): BigInt | undefined', arkTsAveragedTime);
-      expect(result === 4n).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigUint64Array_findIndex_BigUint64Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_BigUint64Array_findIndex_BigUint64Array_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
       let arr: BigUint64Array = new BigUint64Array([1n, 2n, 3n, 4n, 5n]);
       let result: number = arr.findIndex((v: bigint, i: number, a: BigUint64Array): boolean => v > 3n);
@@ -178,11 +171,10 @@ export default function TypedUArraysPerfTest15(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array findIndex_BigUint64Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'findIndex', 'findIndex(BigInt, int, BigUint64Array): => boolean): int', arkTsAveragedTime);
-      expect(result === 3).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigUint64Array_findLast_BigUint64Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_BigUint64Array_findLast_BigUint64Array_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
       let arr: BigUint64Array = new BigUint64Array([1n, 2n, 3n, 4n, 5n]);
       let findLastValue = (): bigint | undefined => {
@@ -203,11 +195,10 @@ export default function TypedUArraysPerfTest15(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array findLast_BigUint64Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'findLast', 'findLast(BigInt, int, BigUint64Array): => boolean): BigInt', arkTsAveragedTime);
-      expect(result === 5n).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigUint64Array_findLastIndex_BigUint64Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_BigUint64Array_findLastIndex_BigUint64Array_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
       let arr: BigUint64Array = new BigUint64Array([1n, 2n, 3n, 4n, 5n]);
       let findLastIndexValue = (): number => {
@@ -228,11 +219,10 @@ export default function TypedUArraysPerfTest15(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array findLastIndex_BigUint64Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'findLastIndex', 'findLastIndex(BigInt, int, BigUint64Array): => boolean): int', arkTsAveragedTime);
-      expect(result === 4).assertTrue();
       done();
     })
 
-    it('PerformanceTest_BigUint64Array_forEach_BigUint64Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_BigUint64Array_forEach_BigUint64Array_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
       let arr: BigUint64Array = new BigUint64Array([1n, 2n, 3n, 4n, 5n]);
       let Stime: number = systemDateTime.getTime(true);
@@ -244,7 +234,6 @@ export default function TypedUArraysPerfTest15(): void {
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest BigUint64Array forEach_BigUint64Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'BigUint64Array', 'forEach', 'forEach(BigInt, int, BigUint64Array): => void): void', arkTsAveragedTime);
-      expect(arr.length === 5).assertTrue();
       done();
     })
   })

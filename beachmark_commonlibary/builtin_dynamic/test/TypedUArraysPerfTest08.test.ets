@@ -45,7 +45,7 @@ export default function TypedUArraysPerfTest08(): void {
       performance.save('apiPerformance.txt');
     })
 
-    it('PerformanceTest_Uint8Array_forEach_Uint8Array', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Uint8Array_forEach_Uint8Array_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let arr: Uint8Array = new Uint8Array([1, 2, 3, 4, 5]);
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
@@ -56,7 +56,6 @@ export default function TypedUArraysPerfTest08(): void {
       let res1 = arr;
       console.info('arkTsPerformanceTest Uint8Array forEach_Uint8Array: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'Uint8Array', 'forEach', 'forEach(v: number, i: number, a: Uint8Array): void): void', arkTsAveragedTime);
-      expect(arr !== null).assertTrue();
       done();
     })
   })

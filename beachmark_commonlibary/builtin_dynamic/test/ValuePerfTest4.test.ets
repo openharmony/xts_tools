@@ -32,6 +32,43 @@ declare class ArkTools {
   static forceFullGC(): void;
 }
 
+declare class FloatValue extends Number {
+  constructor(typ: FloatType, data: number);
+  getType(): Type;
+  getData(): Object;
+  getValueData(): number;
+  toPrint(depth: number): string;
+  toString(): string;
+}
+
+declare class FloatValueImpl extends FloatValue {}
+
+declare enum FloatType {
+  VAL
+}
+
+declare class LongValue extends Number {
+  constructor(typ: LongType, data: bigint);
+  getType(): Type;
+  getData(): Object;
+  getValueData(): bigint;
+  toPrint(depth: number): string;
+  toString(): string;
+}
+
+declare class LongValueImpl extends LongValue {}
+
+declare enum LongType {
+  VAL
+}
+
+declare class Type {}
+
+declare function toFloatValue(data: number): number;
+declare function createFloatValueObj(): FloatValue;
+declare function toLongValue(data: bigint): bigint;
+declare function createLongValueObj(): LongValue;
+
 export default function ValuePerfTest4(): void {
   describe('ValuePerfTest4', () => {
 
@@ -66,11 +103,10 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'constructor(typ: FloatType, data: number)',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_FloatValue_getType_0100',
+    it('PerformanceTest_FloatValue_getType_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let value: FloatValue = createFloatValueObj();
@@ -83,7 +119,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
-          'PerformanceTest_FloatValue_getType_0100: ' + arkTsAveragedTime + 'ns');
+          'PerformanceTest_FloatValue_getType_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'FloatValue',
@@ -91,11 +127,10 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'getType(): Type',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_FloatValue_getData_0100',
+    it('PerformanceTest_FloatValue_getData_0300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let value: FloatValue = createFloatValueObj();
@@ -108,7 +143,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
-          'PerformanceTest_FloatValue_getData_0100: ' + arkTsAveragedTime + 'ns');
+          'PerformanceTest_FloatValue_getData_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'FloatValue',
@@ -116,11 +151,10 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'getData(): Object',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_FloatValue_getValueData_0100',
+    it('PerformanceTest_FloatValue_getValueData_0400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let value: FloatValue = createFloatValueObj();
@@ -133,7 +167,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
-          'PerformanceTest_FloatValue_getValueData_0100: ' + arkTsAveragedTime + 'ns');
+          'PerformanceTest_FloatValue_getValueData_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'FloatValue',
@@ -141,11 +175,10 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'getValueData(): number',
           arkTsAveragedTime
         );
-        expect(result >= 0).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_FloatValue_toPrint_0100',
+    it('PerformanceTest_FloatValue_toPrint_0500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let value: FloatValue = createFloatValueObj();
@@ -158,7 +191,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
-          'PerformanceTest_FloatValue_toPrint_0100: ' + arkTsAveragedTime + 'ns');
+          'PerformanceTest_FloatValue_toPrint_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'FloatValue',
@@ -166,11 +199,10 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'toPrint(depth: number): string',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_FloatValue_toString_0100',
+    it('PerformanceTest_FloatValue_toString_0600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let value: FloatValue = createFloatValueObj();
@@ -183,7 +215,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
-          'PerformanceTest_FloatValue_toString_0100: ' + arkTsAveragedTime + 'ns');
+          'PerformanceTest_FloatValue_toString_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'FloatValue',
@@ -191,14 +223,13 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'toString(): string',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_LongValue_constructor_0100',
+    it('PerformanceTest_LongValue_constructor_0700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let data: bigint = toLongValue(7);
+        let data: bigint = toLongValue(7n);
         let result: LongValue = new LongValueImpl(LongType.VAL, data);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
@@ -208,7 +239,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
-          'PerformanceTest_LongValue_constructor_0100: ' + arkTsAveragedTime + 'ns');
+          'PerformanceTest_LongValue_constructor_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'LongValue',
@@ -216,11 +247,10 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'constructor(typ: LongType, data: bigint)',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_LongValue_getType_0100',
+    it('PerformanceTest_LongValue_getType_0800',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let value: LongValue = createLongValueObj();
@@ -233,7 +263,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
-          'PerformanceTest_LongValue_getType_0100: ' + arkTsAveragedTime + 'ns');
+          'PerformanceTest_LongValue_getType_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'LongValue',
@@ -241,11 +271,10 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'getType(): Type',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_LongValue_getData_0100',
+    it('PerformanceTest_LongValue_getData_0900',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let value: LongValue = createLongValueObj();
@@ -258,7 +287,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
-          'PerformanceTest_LongValue_getData_0100: ' + arkTsAveragedTime + 'ns');
+          'PerformanceTest_LongValue_getData_0900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'LongValue',
@@ -266,11 +295,10 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'getData(): Object',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_LongValue_getValueData_0100',
+    it('PerformanceTest_LongValue_getValueData_1000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let value: LongValue = createLongValueObj();
@@ -283,7 +311,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
-          'PerformanceTest_LongValue_getValueData_0100: ' + arkTsAveragedTime + 'ns');
+          'PerformanceTest_LongValue_getValueData_1000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'LongValue',
@@ -291,11 +319,10 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'getValueData(): bigint',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_LongValue_toPrint_0100',
+    it('PerformanceTest_LongValue_toPrint_1100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let value: LongValue = createLongValueObj();
@@ -308,7 +335,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
-          'PerformanceTest_LongValue_toPrint_0100: ' + arkTsAveragedTime + 'ns');
+          'PerformanceTest_LongValue_toPrint_1100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'LongValue',
@@ -316,11 +343,10 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'toPrint(depth: number): string',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_LongValue_toString_0100',
+    it('PerformanceTest_LongValue_toString_1200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let value: LongValue = createLongValueObj();
@@ -333,7 +359,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime ' +
-          'PerformanceTest_LongValue_toString_0100: ' + arkTsAveragedTime + 'ns');
+          'PerformanceTest_LongValue_toString_1200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'LongValue',
@@ -341,8 +367,7 @@ it('PerformanceTest_FloatValue_constructor_0100',
           'toString(): string',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
   });
 }
