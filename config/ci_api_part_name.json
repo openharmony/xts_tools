@@ -15,6 +15,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.arkui.components.ContainerReader.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/LayoutAlgorithm.d.ts",
             "bundle_name": [
                 "ace_engine"
