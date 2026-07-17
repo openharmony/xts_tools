@@ -24,20 +24,20 @@ function main(): void {
 
   let negInt: int = -10
   if (!(c > negInt)) {
-    throw new Error("assertion failed: 'A'(65) > -10 should be true")
+    throw new Error('assertion failed: 'A'(65) > -10 should be true')
   }
   if (c < negInt) {
-    throw new Error("assertion failed: 'A'(65) < -10 should be false")
+    throw new Error('assertion failed: 'A'(65) < -10 should be false')
   }
 
   let negLong: long = -100
   if (!(c > negLong)) {
-    throw new Error("assertion failed: 'A'(65) > -100 should be true")
+    throw new Error('assertion failed: 'A'(65) > -100 should be true')
   }
 
   let negDouble: double = -1.5
   if (!(c > negDouble)) {
-    throw new Error("assertion failed: 'A'(65) > -1.5 should be true")
+    throw new Error('assertion failed: 'A'(65) > -1.5 should be true')
   }
 
   console.log('Char negative comparison verified')

@@ -22,24 +22,24 @@
 function main(): void {
   let arr: int[] = [10, 20, 30]
   if (arr.length != 3) {
-    throw new Error("assertion failed: arr.length expected 3, got " + arr.length)
+    throw new Error('assertion failed: arr.length expected 3, got ' + arr.length)
   }
   if (arr[0] != 10) {
-    throw new Error("assertion failed: arr[0] expected 10, got " + arr[0])
+    throw new Error('assertion failed: arr[0] expected 10, got ' + arr[0])
   }
   if (arr[1] != 20) {
-    throw new Error("assertion failed: arr[1] expected 20")
+    throw new Error('assertion failed: arr[1] expected 20')
   }
   if (arr[2] != 30) {
-    throw new Error("assertion failed: arr[2] expected 30")
+    throw new Error('assertion failed: arr[2] expected 30')
   }
 
   let strArr: string[] = ["a", "b", "c"]
   if (strArr[0] != "a") {
-    throw new Error("assertion failed: strArr[0] expected 'a'")
+    throw new Error('assertion failed: strArr[0] expected 'a'')
   }
   if (strArr[1] != "b") {
-    throw new Error("assertion failed: strArr[1] expected 'b'")
+    throw new Error('assertion failed: strArr[1] expected 'b'')
   }
 
   console.log('Composite array context verified')

@@ -27,16 +27,16 @@ enum Status {
 
 function main(): void {
   if (!(Status.Active == Status.Active)) {
-    throw new Error("assertion failed: Active == Active should be true")
+    throw new Error('assertion failed: Active == Active should be true')
   }
   if (Status.Active == Status.Inactive) {
-    throw new Error("assertion failed: Active == Inactive should be false")
+    throw new Error('assertion failed: Active == Inactive should be false')
   }
   if (!(Status.Active != Status.Inactive)) {
-    throw new Error("assertion failed: Active != Inactive should be true")
+    throw new Error('assertion failed: Active != Inactive should be true')
   }
   if (Status.Active != Status.Active) {
-    throw new Error("assertion failed: Active != Active should be false")
+    throw new Error('assertion failed: Active != Active should be false')
   }
 
   console.log('Enum equality comparison verified')

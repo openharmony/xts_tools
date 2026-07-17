@@ -24,16 +24,16 @@ function main(): void {
   let b: int = 3
 
   if (!(a > b)) {
-    throw new Error("assertion failed: 3.14 > 3 should be true")
+    throw new Error('assertion failed: 3.14 > 3 should be true')
   }
   if (a < b) {
-    throw new Error("assertion failed: 3.14 < 3 should be false")
+    throw new Error('assertion failed: 3.14 < 3 should be false')
   }
   if (!(a >= b)) {
-    throw new Error("assertion failed: 3.14 >= 3 should be true")
+    throw new Error('assertion failed: 3.14 >= 3 should be true')
   }
   if (a <= b) {
-    throw new Error("assertion failed: 3.14 <= 3 should be false")
+    throw new Error('assertion failed: 3.14 <= 3 should be false')
   }
 
   console.log('Double-int relational comparison verified')

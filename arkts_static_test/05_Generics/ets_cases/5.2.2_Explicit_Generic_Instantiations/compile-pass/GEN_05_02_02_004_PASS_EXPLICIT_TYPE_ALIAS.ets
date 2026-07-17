@@ -19,5 +19,5 @@
  * @design 类型别名明确实例化
  * @note 正向用例：验证类型别名的明确实例化
  */
-type MyArray<T> = T[];
-let arr: MyArray<boolean> = [true, false];
+type MyT[] = T[];
+let arr: Myboolean[] = [true, false];

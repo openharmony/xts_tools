@@ -16,11 +16,11 @@
  * @id CON_06_02_023_RUNTIME_CLASS_TOSTRING_CONVERSION
  * @expect runtime
  * @section 6.2
- * @design 引用类型 string 转换运行时行为：class 实例通过 toString() 方法转换
- * @note 运行时用例：实际执行验证对象实例 → toString() 结果
+ * @design 寮曠敤绫诲瀷 string 杞崲杩愯鏃惰涓猴細class 瀹炰緥閫氳繃 toString() 鏂规硶杞崲
+ * @note 杩愯鏃剁敤渚嬶細瀹為檯鎵ц楠岃瘉瀵硅薄瀹炰緥 鈫?toString() 缁撴灉
  */
 class Container {
-  value: int
+  public value: int
   constructor(v: int) {
     this.value = v
   }
@@ -28,10 +28,10 @@ class Container {
 
 function main(): void {
   let c: Container = new Container(42)
-  let r1: string = "container: " + c
-  let prefix: string = "container: "
+  let r1: string = 'container: ' + c
+  let prefix: string = 'container: '
   if (r1.substring(0, prefix.length) != prefix) {
-    throw new Error("assertion failed: expected prefix 'container: ', got '" + r1 + "'")
+    throw new Error('assertion failed: expected prefix 'container: ', got '' + r1 + "'")
   }
 
   console.log('Class toString conversion verified')

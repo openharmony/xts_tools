@@ -16,25 +16,25 @@
  * @id CON_06_01_039_RUNTIME_FIELD_DECLARATION_CONTEXT
  * @expect runtime
  * @section 6.1
- * @design 字段声明上下文运行时行为：类字段初始值正确设置
- * @note 运行时用例：实际执行验证字段声明赋值语义
+ * @design 瀛楁澹版槑涓婁笅鏂囪繍琛屾椂琛屼负锛氱被瀛楁鍒濆鍊兼纭缃?
+ * @note 杩愯鏃剁敤渚嬶細瀹為檯鎵ц楠岃瘉瀛楁澹版槑璧嬪€艰涔?
  */
 class Counter {
-  start: int = 0
-  step: int = 1
-  label: string = "count"
+  public start: int = 0
+  public step: int = 1
+  public label: string = "count"
 }
 
 function main(): void {
   let c: Counter = new Counter()
   if (c.start != 0) {
-    throw new Error("assertion failed: c.start expected 0, got " + c.start)
+    throw new Error('assertion failed: c.start expected 0, got ' + c.start)
   }
   if (c.step != 1) {
-    throw new Error("assertion failed: c.step expected 1")
+    throw new Error('assertion failed: c.step expected 1')
   }
   if (c.label != "count") {
-    throw new Error("assertion failed: c.label expected 'count'")
+    throw new Error('assertion failed: c.label expected 'count'')
   }
 
   console.log('Field declaration context verified')

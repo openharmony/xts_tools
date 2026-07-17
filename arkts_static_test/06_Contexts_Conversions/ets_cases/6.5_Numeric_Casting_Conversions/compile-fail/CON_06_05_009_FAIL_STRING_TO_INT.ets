@@ -20,6 +20,6 @@
  * @note 反向用例：toInt() 仅适用于数值类型
  */
 function testStringToIntFail(): void {
-  let s: string = "123"
+  let s: string = '123'
   let i: int = s.toInt()
 }

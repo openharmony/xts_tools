@@ -30,17 +30,17 @@ function concatStrings(a: string, b: string): string {
 function main(): void {
   let result: int = identity(42)
   if (result != 42) {
-    throw new Error("assertion failed: identity(42) expected 42, got " + result)
+    throw new Error('assertion failed: identity(42) expected 42, got ' + result)
   }
 
   let negResult: int = identity(-7)
   if (negResult != -7) {
-    throw new Error("assertion failed: identity(-7) expected -7")
+    throw new Error('assertion failed: identity(-7) expected -7')
   }
 
   let joined: string = concatStrings("hello", "world")
   if (joined != "helloworld") {
-    throw new Error("assertion failed: concat expected 'helloworld', got " + joined)
+    throw new Error('assertion failed: concat expected 'helloworld', got ' + joined)
   }
 
   console.log('Call context verified')

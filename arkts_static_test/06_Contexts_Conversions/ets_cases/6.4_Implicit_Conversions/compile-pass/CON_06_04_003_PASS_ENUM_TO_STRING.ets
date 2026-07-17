@@ -25,6 +25,6 @@ enum Label {
 }
 
 function testEnumToString(): void {
-  let s1: string = "status: " + Label.Start
+  let s1: string = 'status: ' + Label.Start
   let s2: string = Label.Stop + " pressed"
 }

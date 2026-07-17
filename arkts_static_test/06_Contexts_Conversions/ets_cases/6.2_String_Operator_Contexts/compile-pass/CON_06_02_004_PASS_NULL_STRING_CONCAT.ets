@@ -20,7 +20,7 @@
  * @note 正向用例：验证该特性编译通过的正确用法
  */
 function testNullStringConcat(): void {
-  let s1: string = "" + null
+  let s1: string = '' + null
   let s2: string = null + " value"
-  let s3: string = "result: " + null
+  let s3: string = 'result: ' + null
 }

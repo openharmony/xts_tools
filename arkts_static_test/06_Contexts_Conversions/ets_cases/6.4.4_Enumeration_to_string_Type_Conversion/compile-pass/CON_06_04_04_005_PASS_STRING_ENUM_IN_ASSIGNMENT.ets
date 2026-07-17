@@ -22,7 +22,7 @@
 enum Mode { Read = "read", Write = "write" }
 
 function testStringEnumInAssignment(): void {
-  let s: string = "init"
+  let s: string = 'init'
   let e: Mode = Mode.Read
   s = e
 

@@ -24,22 +24,22 @@ function main(): void {
   let b: long = -5
 
   if (!(a < b)) {
-    throw new Error("assertion failed: -10 < -5 should be true")
+    throw new Error('assertion failed: -10 < -5 should be true')
   }
   if (a > b) {
-    throw new Error("assertion failed: -10 > -5 should be false")
+    throw new Error('assertion failed: -10 > -5 should be false')
   }
 
   let c: int = -5
   let d: long = -10
   if (!(c > d)) {
-    throw new Error("assertion failed: -5 > -10 should be true")
+    throw new Error('assertion failed: -5 > -10 should be true')
   }
 
   let e: int = -3
   let f: double = -3.0
   if (!(e >= f)) {
-    throw new Error("assertion failed: -3 >= -3.0 should be true")
+    throw new Error('assertion failed: -3 >= -3.0 should be true')
   }
 
   console.log('Negative value comparison verified')

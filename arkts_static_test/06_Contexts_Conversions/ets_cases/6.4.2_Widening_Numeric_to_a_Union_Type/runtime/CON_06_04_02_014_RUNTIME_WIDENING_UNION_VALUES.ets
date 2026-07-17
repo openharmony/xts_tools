@@ -23,19 +23,19 @@ function main(): void {
   let s: short = 42
   let u1: byte | int = s
   if (u1 != 42) {
-    throw new Error("assertion failed: short 42→byte|int, got " + u1)
+    throw new Error('assertion failed: short 42→byte|int, got ' + u1)
   }
 
   let b: byte = 100
   let u2: byte | long = b
   if (u2 != 100) {
-    throw new Error("assertion failed: byte 100→byte|long, got " + u2)
+    throw new Error('assertion failed: byte 100→byte|long, got ' + u2)
   }
 
   let i: int = 77
   let u3: byte | long = i
   if (u3 != 77) {
-    throw new Error("assertion failed: int 77→byte|long, got " + u3)
+    throw new Error('assertion failed: int 77→byte|long, got ' + u3)
   }
 
   console.log('Widening union values verified')

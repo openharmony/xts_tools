@@ -23,9 +23,9 @@ function main(): void {
   let l: long = 5000
   let f: float = l
   if (f != 5000) {
-    throw new Error("long→float") }
+    throw new Error('long→float') }
   let d: double = l
   if (d != 5000.0) {
-    throw new Error("long→double") }
+    throw new Error('long→double') }
   console.log('Long widening verified')
 }

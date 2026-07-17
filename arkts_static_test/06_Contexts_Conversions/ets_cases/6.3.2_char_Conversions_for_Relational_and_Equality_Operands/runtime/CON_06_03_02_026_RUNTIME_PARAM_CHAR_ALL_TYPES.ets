@@ -21,22 +21,22 @@
  */
 function compareAll(c: char, b: byte, i: int, l: long, d: double): void {
   if (!(c < i)) {
-    throw new Error("assertion failed: char < int")
+    throw new Error('assertion failed: char < int')
   }
   if (!(c < l)) {
-    throw new Error("assertion failed: char < long")
+    throw new Error('assertion failed: char < long')
   }
   if (!(c < d)) {
-    throw new Error("assertion failed: char < double")
+    throw new Error('assertion failed: char < double')
   }
   if (c > d) {
-    throw new Error("assertion failed: char should not be > double")
+    throw new Error('assertion failed: char should not be > double')
   }
   if (c < b) {
-    throw new Error("assertion failed: char should not be < byte")
+    throw new Error('assertion failed: char should not be < byte')
   }
   if (!(c > b)) {
-    throw new Error("assertion failed: char > byte")
+    throw new Error('assertion failed: char > byte')
   }
 }
 

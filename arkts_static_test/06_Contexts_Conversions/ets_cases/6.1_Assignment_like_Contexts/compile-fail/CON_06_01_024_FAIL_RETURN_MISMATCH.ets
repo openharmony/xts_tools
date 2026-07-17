@@ -20,7 +20,7 @@
  * @note 反向用例：验证该场景应产生编译时错误
  */
 function returnBoolMismatch(): boolean {
-  return "not a boolean"
+  return 'not a boolean'
 }
 
 function testReturnMismatchFail(): void {

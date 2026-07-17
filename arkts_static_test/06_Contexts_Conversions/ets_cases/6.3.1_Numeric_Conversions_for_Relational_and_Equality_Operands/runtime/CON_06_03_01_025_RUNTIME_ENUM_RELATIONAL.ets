@@ -27,21 +27,21 @@ enum Priority {
 
 function main(): void {
   if (!(Priority.High > Priority.Low)) {
-    throw new Error("assertion failed: High(2) > Low(0) should be true")
+    throw new Error('assertion failed: High(2) > Low(0) should be true')
   }
   if (Priority.Low > Priority.Medium) {
-    throw new Error("assertion failed: Low(0) > Medium(1) should be false")
+    throw new Error('assertion failed: Low(0) > Medium(1) should be false')
   }
   if (!(Priority.Medium >= Priority.Medium)) {
-    throw new Error("assertion failed: Medium >= Medium should be true")
+    throw new Error('assertion failed: Medium >= Medium should be true')
   }
   if (!(Priority.Low < Priority.High)) {
-    throw new Error("assertion failed: Low < High should be true")
+    throw new Error('assertion failed: Low < High should be true')
   }
 
   let val: int = 0
   if (!(Priority.Medium > val)) {
-    throw new Error("assertion failed: Medium(1) > 0 should be true")
+    throw new Error('assertion failed: Medium(1) > 0 should be true')
   }
 
   console.log('Enum relational comparison verified')

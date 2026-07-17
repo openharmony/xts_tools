@@ -22,22 +22,22 @@
 function main(): void {
   const PI: double = 3.14159
   if (PI != 3.14159) {
-    throw new Error("assertion failed: PI expected 3.14159")
+    throw new Error('assertion failed: PI expected 3.14159')
   }
 
   const MAX: int = 100
   if (MAX != 100) {
-    throw new Error("assertion failed: MAX expected 100")
+    throw new Error('assertion failed: MAX expected 100')
   }
 
   const GREETING: string = "hello"
   if (GREETING != "hello") {
-    throw new Error("assertion failed: GREETING expected 'hello'")
+    throw new Error('assertion failed: GREETING expected 'hello'')
   }
 
   const YES: boolean = true
   if (YES != true) {
-    throw new Error("assertion failed: YES expected true")
+    throw new Error('assertion failed: YES expected true')
   }
 
   console.log('Const declaration context verified')

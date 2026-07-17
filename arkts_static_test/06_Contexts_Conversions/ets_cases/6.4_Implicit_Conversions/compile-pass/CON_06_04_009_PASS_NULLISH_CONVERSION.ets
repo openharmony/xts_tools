@@ -20,7 +20,7 @@
  * @note 正向用例：验证 nullish 值的隐式 string 转换
  */
 function testNullishConversion(): void {
-  let s1: string = "" + null
-  let s2: string = "" + undefined
-  let s3: string = "val: " + null
+  let s1: string = '' + null
+  let s2: string = '' + undefined
+  let s3: string = 'val: ' + null
 }

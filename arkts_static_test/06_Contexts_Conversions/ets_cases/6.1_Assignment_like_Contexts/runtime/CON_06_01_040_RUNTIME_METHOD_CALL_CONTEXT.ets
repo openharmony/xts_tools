@@ -16,11 +16,11 @@
  * @id CON_06_01_040_RUNTIME_METHOD_CALL_CONTEXT
  * @expect runtime
  * @section 6.1
- * @design 方法调用上下文运行时行为：方法参数正确传递给方法体
- * @note 运行时用例：实际执行验证方法调用参数赋值语义
+ * @design 鏂规硶璋冪敤涓婁笅鏂囪繍琛屾椂琛屼负锛氭柟娉曞弬鏁版纭紶閫掔粰鏂规硶浣?
+ * @note 杩愯鏃剁敤渚嬶細瀹為檯鎵ц楠岃瘉鏂规硶璋冪敤鍙傛暟璧嬪€艰涔?
  */
 class Multiplier {
-  factor: int = 0
+  public factor: int = 0
 
   constructor(f: int) {
     this.factor = f
@@ -39,12 +39,12 @@ function main(): void {
   let m: Multiplier = new Multiplier(5)
   let result: int = m.multiply(6)
   if (result != 30) {
-    throw new Error("assertion failed: multiply(6) expected 30, got " + result)
+    throw new Error('assertion failed: multiply(6) expected 30, got ' + result)
   }
 
   let desc: string = m.describe("count:", 10)
   if (desc != "count:10") {
-    throw new Error("assertion failed: describe expected 'count:10', got " + desc)
+    throw new Error('assertion failed: describe expected 'count:10', got ' + desc)
   }
 
   console.log('Method call context verified')

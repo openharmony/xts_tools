@@ -26,28 +26,28 @@ function main(): void {
   let i200: int = 200
 
   if (!(c > i50)) {
-    throw new Error("assertion failed: 'M'(77) > 50 should be true")
+    throw new Error('assertion failed: 'M'(77) > 50 should be true')
   }
   if (c > i200) {
-    throw new Error("assertion failed: 'M'(77) > 200 should be false")
+    throw new Error('assertion failed: 'M'(77) > 200 should be false')
   }
   if (!(c < i200)) {
-    throw new Error("assertion failed: 'M'(77) < 200 should be true")
+    throw new Error('assertion failed: 'M'(77) < 200 should be true')
   }
   if (c < i50) {
-    throw new Error("assertion failed: 'M'(77) < 50 should be false")
+    throw new Error('assertion failed: 'M'(77) < 50 should be false')
   }
   if (!(c >= i77)) {
-    throw new Error("assertion failed: 'M'(77) >= 77 should be true")
+    throw new Error('assertion failed: 'M'(77) >= 77 should be true')
   }
   if (!(c <= i77)) {
-    throw new Error("assertion failed: 'M'(77) <= 77 should be true")
+    throw new Error('assertion failed: 'M'(77) <= 77 should be true')
   }
   if (c != i77) {
-    throw new Error("assertion failed: 'M'(77) != 77 should be false")
+    throw new Error('assertion failed: 'M'(77) != 77 should be false')
   }
   if (!(c == i77)) {
-    throw new Error("assertion failed: 'M'(77) == 77 should be true")
+    throw new Error('assertion failed: 'M'(77) == 77 should be true')
   }
 
   console.log('Char all relational ops verified')

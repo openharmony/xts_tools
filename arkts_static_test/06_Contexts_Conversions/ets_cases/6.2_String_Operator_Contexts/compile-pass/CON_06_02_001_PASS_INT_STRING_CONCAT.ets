@@ -20,11 +20,11 @@
  * @note 正向用例：验证该特性编译通过的正确用法
  */
 function testIntStringConcat(): void {
-  let s1: string = "value: " + 42
+  let s1: string = 'value: ' + 42
   let s2: string = 100 + " items"
-  let s3: string = "negative: " + (-7)
+  let s3: string = 'negative: ' + (-7)
   let s4: string = 0 + " results"
 
   let longVal: long = 999
-  let s5: string = "long: " + longVal
+  let s5: string = 'long: ' + longVal
 }

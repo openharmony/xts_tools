@@ -21,7 +21,7 @@
  */
 function testUndefinedStringConcat(): void {
   let u: string | undefined = undefined
-  let s1: string = "value: " + u
+  let s1: string = 'value: ' + u
 
-  let s2: string = "" + undefined
+  let s2: string = '' + undefined
 }

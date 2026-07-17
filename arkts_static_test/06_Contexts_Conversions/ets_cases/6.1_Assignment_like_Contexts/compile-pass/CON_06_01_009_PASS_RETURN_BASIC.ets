@@ -24,7 +24,7 @@ function returnInt(): int {
 }
 
 function returnString(): string {
-  return "result"
+  return 'result'
 }
 
 function returnBool(): boolean {

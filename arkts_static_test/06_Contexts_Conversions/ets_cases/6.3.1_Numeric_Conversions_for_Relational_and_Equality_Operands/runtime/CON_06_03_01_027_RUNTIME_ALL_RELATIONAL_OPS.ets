@@ -25,29 +25,29 @@ function main(): void {
   let c: long = 50
 
   if (!(a < b)) {
-    throw new Error("assertion failed: 50 < 100 should be true")
+    throw new Error('assertion failed: 50 < 100 should be true')
   }
   if (a > b) {
-    throw new Error("assertion failed: 50 > 100 should be false")
+    throw new Error('assertion failed: 50 > 100 should be false')
   }
   if (!(a <= b)) {
-    throw new Error("assertion failed: 50 <= 100 should be true")
+    throw new Error('assertion failed: 50 <= 100 should be true')
   }
   if (a >= b) {
-    throw new Error("assertion failed: 50 >= 100 should be false")
+    throw new Error('assertion failed: 50 >= 100 should be false')
   }
   if (a == b) {
-    throw new Error("assertion failed: 50 == 100 should be false")
+    throw new Error('assertion failed: 50 == 100 should be false')
   }
   if (!(a != b)) {
-    throw new Error("assertion failed: 50 != 100 should be true")
+    throw new Error('assertion failed: 50 != 100 should be true')
   }
 
   if (!(a == c)) {
-    throw new Error("assertion failed: 50 == 50 should be true")
+    throw new Error('assertion failed: 50 == 50 should be true')
   }
   if (a != c) {
-    throw new Error("assertion failed: 50 != 50 should be false")
+    throw new Error('assertion failed: 50 != 50 should be false')
   }
 
   console.log('All relational operators verified')

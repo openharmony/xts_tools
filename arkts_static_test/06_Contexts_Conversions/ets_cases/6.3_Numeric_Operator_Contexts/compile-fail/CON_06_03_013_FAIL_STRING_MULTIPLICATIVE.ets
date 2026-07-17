@@ -20,7 +20,7 @@
  * @note 反向用例：非数值类型用于算术运算符应编译失败
  */
 function testStringMultiplicativeFail(): void {
-  let s: string = "hello"
+  let s: string = 'hello'
   let n: int = 3
   let r: int = s * n
 }

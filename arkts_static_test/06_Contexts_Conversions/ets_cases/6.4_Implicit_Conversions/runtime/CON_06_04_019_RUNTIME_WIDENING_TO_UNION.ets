@@ -23,19 +23,19 @@ function main(): void {
   let a: int = 10
   let b: int | long = a
   if (b != 10) {
-    throw new Error("assertion failed: int|long should be 10")
+    throw new Error('assertion failed: int|long should be 10')
   }
 
   let c: int = 5
   let d: int | double = c
   if (d != 5) {
-    throw new Error("assertion failed: int|double should be 5")
+    throw new Error('assertion failed: int|double should be 5')
   }
 
   let e: int = 0
   let f: int | long | double = e
   if (f != 0) {
-    throw new Error("assertion failed: int|long|double should be 0")
+    throw new Error('assertion failed: int|long|double should be 0')
   }
 
   console.log('Widening to union type verified')

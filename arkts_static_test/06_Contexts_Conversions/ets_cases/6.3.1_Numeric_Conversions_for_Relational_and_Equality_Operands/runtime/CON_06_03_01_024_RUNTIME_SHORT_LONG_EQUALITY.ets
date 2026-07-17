@@ -25,13 +25,13 @@ function main(): void {
   let c: long = 99
 
   if (a != b) {
-    throw new Error("assertion failed: 50 != 50 should be false")
+    throw new Error('assertion failed: 50 != 50 should be false')
   }
   if (!(a != c)) {
-    throw new Error("assertion failed: 50 != 99 should be true")
+    throw new Error('assertion failed: 50 != 99 should be true')
   }
   if (!(a == b)) {
-    throw new Error("assertion failed: 50 == 50 should be true")
+    throw new Error('assertion failed: 50 == 50 should be true')
   }
 
   console.log('Short-long equality comparison verified')

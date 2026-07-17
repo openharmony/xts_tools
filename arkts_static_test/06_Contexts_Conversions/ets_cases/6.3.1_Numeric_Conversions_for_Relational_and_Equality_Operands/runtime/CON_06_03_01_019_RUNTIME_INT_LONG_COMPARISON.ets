@@ -24,18 +24,18 @@ function main(): void {
   let b: long = 20
 
   if (!(a < b)) {
-    throw new Error("assertion failed: 10 < 20 should be true")
+    throw new Error('assertion failed: 10 < 20 should be true')
   }
   if (a > b) {
-    throw new Error("assertion failed: 10 > 20 should be false")
+    throw new Error('assertion failed: 10 > 20 should be false')
   }
   if (!(a <= b)) {
-    throw new Error("assertion failed: 10 <= 20 should be true")
+    throw new Error('assertion failed: 10 <= 20 should be true')
   }
 
   let c: int = 30
   if (!(c > b)) {
-    throw new Error("assertion failed: 30 > 20 should be true")
+    throw new Error('assertion failed: 30 > 20 should be true')
   }
 
   console.log('Int-long relational comparison verified')

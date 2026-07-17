@@ -21,11 +21,11 @@
  */
 function testUnionNullishStringConcat(): void {
   let x: string | null | undefined = null
-  let s1: string = "string is " + x
+  let s1: string = 'string is ' + x
 
   x = undefined
-  let s2: string = "string is " + x
+  let s2: string = 'string is ' + x
 
   x = "hello"
-  let s3: string = "string is " + x
+  let s3: string = 'string is ' + x
 }

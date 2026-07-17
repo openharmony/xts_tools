@@ -21,5 +21,5 @@
  */
 function voidFunc(): void {}
 function testVoidStringConcatFail(): void {
-  let s: string = "result: " + voidFunc()
+  let s: string = 'result: ' + voidFunc()
 }

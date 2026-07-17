@@ -20,7 +20,7 @@
  * @note 反向用例：非数值类型用于位运算应编译失败
  */
 function testStringBitwiseFail(): void {
-  let s: string = "test"
+  let s: string = 'test'
   let n: int = 0xFF
   let r: int = s & n
 }

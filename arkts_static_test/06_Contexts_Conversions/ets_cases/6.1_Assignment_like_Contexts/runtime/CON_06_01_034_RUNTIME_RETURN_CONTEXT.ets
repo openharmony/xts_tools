@@ -26,7 +26,7 @@ function compute(): int {
 }
 
 function getGreeting(): string {
-  return "hi"
+  return 'hi'
 }
 
 function getPositive(): boolean {
@@ -36,17 +36,17 @@ function getPositive(): boolean {
 function main(): void {
   let sum: int = compute()
   if (sum != 30) {
-    throw new Error("assertion failed: compute() expected 30, got " + sum)
+    throw new Error('assertion failed: compute() expected 30, got ' + sum)
   }
 
   let greeting: string = getGreeting()
   if (greeting != "hi") {
-    throw new Error("assertion failed: getGreeting() expected 'hi'")
+    throw new Error('assertion failed: getGreeting() expected 'hi'')
   }
 
   let flag: boolean = getPositive()
   if (flag != true) {
-    throw new Error("assertion failed: getPositive() expected true")
+    throw new Error('assertion failed: getPositive() expected true')
   }
 
   console.log('Return context verified')

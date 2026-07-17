@@ -28,23 +28,23 @@ enum Base {
 function main(): void {
   let v: int = Base.B
   if (v != 1) {
-    throw new Error("assertion failed: Base.B→int should be 1")
+    throw new Error('assertion failed: Base.B→int should be 1')
   }
 
   let w: long = v
   if (w != 1) {
-    throw new Error("assertion failed: 1→long should be 1")
+    throw new Error('assertion failed: 1→long should be 1')
   }
 
   let x: double = w
   if (x != 1.0) {
-    throw new Error("assertion failed: 1→double should be 1.0")
+    throw new Error('assertion failed: 1→double should be 1.0')
   }
 
   let y: int = Base.A
   let z: double = y
   if (z != 0.0) {
-    throw new Error("assertion failed: 0→double should be 0.0")
+    throw new Error('assertion failed: 0→double should be 0.0')
   }
 
   console.log('Conversion chain verified')

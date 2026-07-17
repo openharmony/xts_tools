@@ -25,20 +25,20 @@ function main(): void {
 
   let zero: int = 0
   if (!(low == zero)) {
-    throw new Error("assertion failed: '\\u0000' == 0 should be true")
+    throw new Error('assertion failed: '\\u0000' == 0 should be true')
   }
   if (low > zero) {
-    throw new Error("assertion failed: '\\u0000' > 0 should be false")
+    throw new Error('assertion failed: '\\u0000' > 0 should be false')
   }
 
   if (!(high > zero)) {
-    throw new Error("assertion failed: '\\uffff' > 0 should be true")
+    throw new Error('assertion failed: '\\uffff' > 0 should be true')
   }
 
   let diff: char = c' '
   let spaceCode: int = 32
   if (!(diff == spaceCode)) {
-    throw new Error("assertion failed: ' ' == 32 should be true")
+    throw new Error('assertion failed: ' ' == 32 should be true')
   }
 
   console.log('Char boundary comparison verified')

@@ -28,22 +28,22 @@ enum Val {
 function main(): void {
   let r1: int = Val.A + 5
   if (r1 != 15) {
-    throw new Error("assertion failed: Val.A(10) + 5 should be 15, got " + r1)
+    throw new Error('assertion failed: Val.A(10) + 5 should be 15, got ' + r1)
   }
 
   let r2: int = Val.B * 3
   if (r2 != 60) {
-    throw new Error("assertion failed: Val.B(20) * 3 should be 60")
+    throw new Error('assertion failed: Val.B(20) * 3 should be 60')
   }
 
   let r3: int = Val.C / Val.A
   if (r3 != 3) {
-    throw new Error("assertion failed: 30 / 10 should be 3")
+    throw new Error('assertion failed: 30 / 10 should be 3')
   }
 
   let r4: int = Val.C % Val.B
   if (r4 != 10) {
-    throw new Error("assertion failed: 30 % 20 should be 10")
+    throw new Error('assertion failed: 30 % 20 should be 10')
   }
 
   console.log('Enum arithmetic verified')

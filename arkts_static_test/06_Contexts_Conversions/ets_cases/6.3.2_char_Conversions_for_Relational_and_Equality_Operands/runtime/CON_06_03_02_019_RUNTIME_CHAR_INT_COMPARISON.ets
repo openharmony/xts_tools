@@ -25,18 +25,18 @@ function main(): void {
   let iBig: int = 80
 
   if (!(c < iSmall)) {
-    throw new Error("assertion failed: 'Z'(90) < 200 should be true")
+    throw new Error('assertion failed: 'Z'(90) < 200 should be true')
   }
   if (!(c > iBig)) {
-    throw new Error("assertion failed: 'Z'(90) > 80 should be true")
+    throw new Error('assertion failed: 'Z'(90) > 80 should be true')
   }
   if (c > iSmall) {
-    throw new Error("assertion failed: 'Z'(90) > 200 should be false")
+    throw new Error('assertion failed: 'Z'(90) > 200 should be false')
   }
 
   let iEqual: int = 90
   if (c != iEqual) {
-    throw new Error("assertion failed: 'Z'(90) != 90 should be false")
+    throw new Error('assertion failed: 'Z'(90) != 90 should be false')
   }
 
   console.log('Char-int comparison verified')

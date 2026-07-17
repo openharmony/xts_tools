@@ -21,6 +21,6 @@
  */
 function testCharStringEqualityFail(): void {
   let c: char = c'A'
-  let s: string = "A"
+  let s: string = 'A'
   let r: boolean = c <= s
 }

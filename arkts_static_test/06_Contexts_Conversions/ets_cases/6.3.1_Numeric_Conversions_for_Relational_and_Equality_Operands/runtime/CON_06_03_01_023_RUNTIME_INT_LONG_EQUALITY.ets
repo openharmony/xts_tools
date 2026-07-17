@@ -25,16 +25,16 @@ function main(): void {
   let c: long = 200
 
   if (!(a == b)) {
-    throw new Error("assertion failed: 100 == 100 should be true")
+    throw new Error('assertion failed: 100 == 100 should be true')
   }
   if (a == c) {
-    throw new Error("assertion failed: 100 == 200 should be false")
+    throw new Error('assertion failed: 100 == 200 should be false')
   }
   if (!(a != c)) {
-    throw new Error("assertion failed: 100 != 200 should be true")
+    throw new Error('assertion failed: 100 != 200 should be true')
   }
   if (a != b) {
-    throw new Error("assertion failed: 100 != 100 should be false")
+    throw new Error('assertion failed: 100 != 100 should be false')
   }
 
   console.log('Int-long equality comparison verified')

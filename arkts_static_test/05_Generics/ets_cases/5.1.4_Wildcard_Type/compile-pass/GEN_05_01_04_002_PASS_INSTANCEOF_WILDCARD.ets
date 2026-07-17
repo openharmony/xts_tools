@@ -32,7 +32,7 @@ function main(): void {
     let x: X<Any> = obj as X<Any>;
         bar(x);
         if (x.p != "a") {
-    throw new Error("assertion failed: " + x.p);
+    throw new Error('assertion failed: ' + x.p);
         }
     }
     console.log('verified');

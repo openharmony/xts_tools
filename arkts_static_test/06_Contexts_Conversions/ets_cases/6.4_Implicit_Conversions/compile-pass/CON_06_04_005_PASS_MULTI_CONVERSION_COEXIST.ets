@@ -32,6 +32,6 @@ enum Tag {
 function testMultiConversionCoexist(): void {
   let a: int = Val.X
   let b: long = a
-  let c: string = "tag: " + Tag.Open
+  let c: string = 'tag: ' + Tag.Open
   let d: int = Val.Y + 5
 }

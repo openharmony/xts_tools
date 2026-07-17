@@ -24,24 +24,24 @@ function main(): void {
   let b: long = 3
   let r1: long = a << b
   if (r1 != 8) {
-    throw new Error("assertion failed: 1 << 3 should be 8, got " + r1)
+    throw new Error('assertion failed: 1 << 3 should be 8, got ' + r1)
   }
 
   let r2: long = a >> b
   if (r2 != 0) {
-    throw new Error("assertion failed: 1 >> 3 should be 0")
+    throw new Error('assertion failed: 1 >> 3 should be 0')
   }
 
   let c: int = 16
   let d: byte = 2
   let r3: int = c >> d
   if (r3 != 4) {
-    throw new Error("assertion failed: 16 >> 2 should be 4")
+    throw new Error('assertion failed: 16 >> 2 should be 4')
   }
 
   let r4: int = c << d
   if (r4 != 64) {
-    throw new Error("assertion failed: 16 << 2 should be 64")
+    throw new Error('assertion failed: 16 << 2 should be 64')
   }
 
   console.log('Shift widening verified')

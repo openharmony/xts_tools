@@ -16,14 +16,14 @@
  * @id CON_06_01_003_PASS_DECLARATION_FIELD_BASIC
  * @expect compile-pass
  * @section 6.1
- * @design Declaration context: 类字段声明带显式类型标注和初始值，表达式类型与目标类型完全匹配
- * @note 正向用例：验证该特性编译通过的正确用法
+ * @design Declaration context: 绫诲瓧娈靛０鏄庡甫鏄惧紡绫诲瀷鏍囨敞鍜屽垵濮嬪€硷紝琛ㄨ揪寮忕被鍨嬩笌鐩爣绫诲瀷瀹屽叏鍖归厤
+ * @note 姝ｅ悜鐢ㄤ緥锛氶獙璇佽鐗规€х紪璇戦€氳繃鐨勬纭敤娉?
  */
 class MyClass {
-  numField: number = 100
-  strField: string = "default"
-  boolField: boolean = true
-  intField: int = 0
+  public numField: number = 100
+  public strField: string = "default"
+  public boolField: boolean = true
+  public intField: int = 0
 }
 
 function testDeclarationFieldBasic(): void {

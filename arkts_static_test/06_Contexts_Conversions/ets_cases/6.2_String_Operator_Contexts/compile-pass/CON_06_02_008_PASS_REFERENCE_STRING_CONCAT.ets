@@ -16,11 +16,11 @@
  * @id CON_06_02_008_PASS_REFERENCE_STRING_CONCAT
  * @expect compile-pass
  * @section 6.2
- * @design String context: 引用类型(class) + string，通过 toString() 方法调用转换
- * @note 正向用例：验证该特性编译通过的正确用法
+ * @design String context: 寮曠敤绫诲瀷(class) + string锛岄€氳繃 toString() 鏂规硶璋冪敤杞崲
+ * @note 姝ｅ悜鐢ㄤ緥锛氶獙璇佽鐗规€х紪璇戦€氳繃鐨勬纭敤娉?
  */
 class Item {
-  name: string
+  public name: string
   constructor(n: string) {
     this.name = n
   }
@@ -28,6 +28,6 @@ class Item {
 
 function testReferenceStringConcat(): void {
   let item: Item = new Item("widget")
-  let s1: string = "item: " + item
+  let s1: string = 'item: ' + item
   let s2: string = item + " created"
 }

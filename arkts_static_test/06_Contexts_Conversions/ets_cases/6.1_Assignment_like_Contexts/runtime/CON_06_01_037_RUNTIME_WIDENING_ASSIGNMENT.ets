@@ -23,19 +23,19 @@ function main(): void {
   let intVal: int = 42
   let numVal: number = intVal
   if (numVal != 42) {
-    throw new Error("assertion failed: numVal expected 42, got " + numVal)
+    throw new Error('assertion failed: numVal expected 42, got ' + numVal)
   }
 
   let smallVal: int = 0
   let wideVal: number = smallVal
   if (wideVal != 0) {
-    throw new Error("assertion failed: wideVal expected 0")
+    throw new Error('assertion failed: wideVal expected 0')
   }
 
   let negVal: int = -100
   let negWide: number = negVal
   if (negWide != -100) {
-    throw new Error("assertion failed: negWide expected -100")
+    throw new Error('assertion failed: negWide expected -100')
   }
 
   console.log('Widening assignment verified')

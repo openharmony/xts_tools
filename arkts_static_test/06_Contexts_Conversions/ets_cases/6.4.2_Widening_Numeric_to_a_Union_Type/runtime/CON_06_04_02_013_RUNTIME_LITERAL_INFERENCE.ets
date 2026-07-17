@@ -25,17 +25,17 @@ function main(): void {
 
   let u: byte | int = 256
   if (!(u instanceof int)) {
-    throw new Error("assertion failed: 256 should be int in byte|int")
+    throw new Error('assertion failed: 256 should be int in byte|int')
   }
 
   u = i
   if (!(u instanceof int)) {
-    throw new Error("assertion failed: int→byte|int should be int via subtyping")
+    throw new Error('assertion failed: int→byte|int should be int via subtyping')
   }
 
   u = s
   if (!(u instanceof int)) {
-    throw new Error("assertion failed: short→byte|int should widen to int")
+    throw new Error('assertion failed: short→byte|int should widen to int')
   }
 
   console.log('Literal inference + widening verified')

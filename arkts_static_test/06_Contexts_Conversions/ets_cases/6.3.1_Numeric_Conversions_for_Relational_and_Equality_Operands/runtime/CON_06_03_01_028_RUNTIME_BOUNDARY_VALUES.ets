@@ -23,40 +23,40 @@ function main(): void {
   let zeroInt: int = 0
   let zeroLong: long = 0
   if (!(zeroInt == zeroLong)) {
-    throw new Error("assertion failed: 0 == 0 should be true")
+    throw new Error('assertion failed: 0 == 0 should be true')
   }
   if (zeroInt != zeroLong) {
-    throw new Error("assertion failed: 0 != 0 should be false")
+    throw new Error('assertion failed: 0 != 0 should be false')
   }
   if (zeroInt < zeroLong) {
-    throw new Error("assertion failed: 0 < 0 should be false")
+    throw new Error('assertion failed: 0 < 0 should be false')
   }
   if (zeroInt > zeroLong) {
-    throw new Error("assertion failed: 0 > 0 should be false")
+    throw new Error('assertion failed: 0 > 0 should be false')
   }
 
   let bigInt: int = 1000000
   let smallLong: long = 100
   if (!(bigInt > smallLong)) {
-    throw new Error("assertion failed: 1000000 > 100 should be true")
+    throw new Error('assertion failed: 1000000 > 100 should be true')
   }
 
   let sameInt: int = 42
   let sameLong: long = 42
   if (!(sameInt == sameLong)) {
-    throw new Error("assertion failed: 42 == 42 should be true")
+    throw new Error('assertion failed: 42 == 42 should be true')
   }
   if (sameInt > sameLong) {
-    throw new Error("assertion failed: 42 > 42 should be false")
+    throw new Error('assertion failed: 42 > 42 should be false')
   }
   if (sameInt < sameLong) {
-    throw new Error("assertion failed: 42 < 42 should be false")
+    throw new Error('assertion failed: 42 < 42 should be false')
   }
   if (!(sameInt >= sameLong)) {
-    throw new Error("assertion failed: 42 >= 42 should be true")
+    throw new Error('assertion failed: 42 >= 42 should be true')
   }
   if (!(sameInt <= sameLong)) {
-    throw new Error("assertion failed: 42 <= 42 should be true")
+    throw new Error('assertion failed: 42 <= 42 should be true')
   }
 
   console.log('Boundary value comparison verified')

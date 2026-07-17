@@ -16,12 +16,12 @@
  * @id CON_06_01_005_PASS_ASSIGNMENT_FIELD_BASIC
  * @expect compile-pass
  * @section 6.1
- * @design Assignment context: 对对象字段的赋值，表达式类型与字段类型完全匹配
- * @note 正向用例：验证该特性编译通过的正确用法
+ * @design Assignment context: 瀵瑰璞″瓧娈电殑璧嬪€硷紝琛ㄨ揪寮忕被鍨嬩笌瀛楁绫诲瀷瀹屽叏鍖归厤
+ * @note 姝ｅ悜鐢ㄤ緥锛氶獙璇佽鐗规€х紪璇戦€氳繃鐨勬纭敤娉?
  */
 class Data {
-  value: int = 0
-  label: string = ""
+  public value: int = 0
+  public label: string = ""
 }
 
 function testAssignmentFieldBasic(): void {

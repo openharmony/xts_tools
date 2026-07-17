@@ -25,19 +25,19 @@ function main(): void {
   let c2: char = c'A'
 
   if (!(a < b)) {
-    throw new Error("assertion failed: 'A' < 'B' should be true")
+    throw new Error('assertion failed: 'A' < 'B' should be true')
   }
   if (a > b) {
-    throw new Error("assertion failed: 'A' > 'B' should be false")
+    throw new Error('assertion failed: 'A' > 'B' should be false')
   }
   if (!(a == c2)) {
-    throw new Error("assertion failed: 'A' == 'A' should be true")
+    throw new Error('assertion failed: 'A' == 'A' should be true')
   }
   if (a != c2) {
-    throw new Error("assertion failed: 'A' != 'A' should be false")
+    throw new Error('assertion failed: 'A' != 'A' should be false')
   }
   if (a == b) {
-    throw new Error("assertion failed: 'A' != 'B' should be true")
+    throw new Error('assertion failed: 'A' != 'B' should be true')
   }
 
   console.log('Char-char comparison verified')

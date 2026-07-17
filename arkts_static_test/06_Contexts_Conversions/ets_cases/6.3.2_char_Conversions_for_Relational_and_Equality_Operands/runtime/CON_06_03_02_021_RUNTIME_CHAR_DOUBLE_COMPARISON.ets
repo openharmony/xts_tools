@@ -25,15 +25,15 @@ function main(): void {
   let dBig: double = 70.5
 
   if (!(c > dSmall)) {
-    throw new Error("assertion failed: 'A'(65) > 60.0 should be true")
+    throw new Error('assertion failed: 'A'(65) > 60.0 should be true')
   }
   if (!(c < dBig)) {
-    throw new Error("assertion failed: 'A'(65) < 70.5 should be true")
+    throw new Error('assertion failed: 'A'(65) < 70.5 should be true')
   }
 
   let dEqual: double = 65.0
   if (!(c == dEqual)) {
-    throw new Error("assertion failed: 'A'(65) == 65.0 should be true")
+    throw new Error('assertion failed: 'A'(65) == 65.0 should be true')
   }
 
   console.log('Char-double comparison verified')

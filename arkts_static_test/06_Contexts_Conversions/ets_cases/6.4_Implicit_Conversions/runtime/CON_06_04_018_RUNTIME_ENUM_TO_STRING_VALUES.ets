@@ -26,19 +26,19 @@ enum Status {
 }
 
 function main(): void {
-  let s1: string = "status: " + Status.Ready
+  let s1: string = 'status: ' + Status.Ready
   if (s1 != "status: ready") {
-    throw new Error("assertion failed: expected 'status: ready', got '" + s1 + "'")
+    throw new Error('assertion failed: expected 'status: ready', got '' + s1 + "'")
   }
 
   let s2: string = Status.Running + " now"
   if (s2 != "running now") {
-    throw new Error("assertion failed: expected 'running now', got '" + s2 + "'")
+    throw new Error('assertion failed: expected 'running now', got '' + s2 + "'")
   }
 
-  let s3: string = "" + Status.Done
+  let s3: string = '' + Status.Done
   if (s3 != "done") {
-    throw new Error("assertion failed: expected 'done', got '" + s3 + "'")
+    throw new Error('assertion failed: expected 'done', got '' + s3 + "'")
   }
 
   console.log('Enum to string values verified')

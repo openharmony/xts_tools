@@ -21,7 +21,7 @@
  */
 class X008<T1, T2> {}
 class Z008<T> {
-  f1: X008<Object, T>
-  f2: X008<T, string>
+  public f1: X008<Object, T>
+  public f2: X008<T, string>
   constructor() { this.f1 = new X008<Object, T>(); this.f2 = new X008<T, string>() }
 }

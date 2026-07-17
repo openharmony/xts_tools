@@ -24,16 +24,16 @@ function main(): void {
   let b: int = 10
 
   if (!(a < b)) {
-    throw new Error("assertion failed: 5 < 10 should be true")
+    throw new Error('assertion failed: 5 < 10 should be true')
   }
   if (a > b) {
-    throw new Error("assertion failed: 5 > 10 should be false")
+    throw new Error('assertion failed: 5 > 10 should be false')
   }
   if (!(a <= b)) {
-    throw new Error("assertion failed: 5 <= 10 should be true")
+    throw new Error('assertion failed: 5 <= 10 should be true')
   }
   if (a >= b) {
-    throw new Error("assertion failed: 5 >= 10 should be false")
+    throw new Error('assertion failed: 5 >= 10 should be false')
   }
 
   console.log('Byte-int relational comparison verified')

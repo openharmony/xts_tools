@@ -20,6 +20,6 @@
  * @note 反向用例：非数值类型赋值给数值联合应编译失败
  */
 function testStringToNumericUnionFail(): void {
-  let s: string = "hello"
+  let s: string = 'hello'
   let u: int | double = s
 }

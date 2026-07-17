@@ -20,7 +20,7 @@
  * @note 反向用例：非数值类型作另一操作数时 char 转换不适用
  */
 function testStringCharRelationalFail(): void {
-  let s: string = "test"
+  let s: string = 'test'
   let c: char = c'Y'
   let r: boolean = s > c
 }

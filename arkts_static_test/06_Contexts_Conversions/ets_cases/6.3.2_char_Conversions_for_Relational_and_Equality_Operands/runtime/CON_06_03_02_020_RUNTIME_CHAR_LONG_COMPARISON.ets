@@ -25,18 +25,18 @@ function main(): void {
   let lBig: long = 50
 
   if (!(c > lSmall)) {
-    throw new Error("assertion failed: '0'(48) > 40 should be true")
+    throw new Error('assertion failed: '0'(48) > 40 should be true')
   }
   if (!(c < lBig)) {
-    throw new Error("assertion failed: '0'(48) < 50 should be true")
+    throw new Error('assertion failed: '0'(48) < 50 should be true')
   }
 
   let lEqual: long = 48
   if (!(c == lEqual)) {
-    throw new Error("assertion failed: '0'(48) == 48 should be true")
+    throw new Error('assertion failed: '0'(48) == 48 should be true')
   }
   if (c != lEqual) {
-    throw new Error("assertion failed: '0'(48) != 48 should be false")
+    throw new Error('assertion failed: '0'(48) != 48 should be false')
   }
 
   console.log('Char-long comparison verified')

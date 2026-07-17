@@ -21,14 +21,14 @@
  */
 function main(): void {
   let u: string | undefined = undefined
-  let r1: string = "value: " + u
+  let r1: string = 'value: ' + u
   if (r1 != "value: undefined") {
-    throw new Error("assertion failed: expected 'value: undefined', got '" + r1 + "'")
+    throw new Error('assertion failed: expected 'value: undefined', got '' + r1 + "'")
   }
 
-  let r2: string = "" + undefined
+  let r2: string = '' + undefined
   if (r2 != "undefined") {
-    throw new Error("assertion failed: expected 'undefined', got '" + r2 + "'")
+    throw new Error('assertion failed: expected 'undefined', got '' + r2 + "'")
   }
 
   console.log('Undefined string conversion verified')

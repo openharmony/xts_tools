@@ -21,6 +21,6 @@
  */
 function testCharStringRelationalFail(): void {
   let c: char = c'A'
-  let s: string = "hello"
+  let s: string = 'hello'
   let r: boolean = c < s
 }

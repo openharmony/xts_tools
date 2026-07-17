@@ -22,18 +22,18 @@
 function main(): void {
   let a: int = 10
   if (+a != 10) {
-    throw new Error("assertion failed: +10 should be 10")
+    throw new Error('assertion failed: +10 should be 10')
   }
   if (-a != -10) {
-    throw new Error("assertion failed: -10 should be -10")
+    throw new Error('assertion failed: -10 should be -10')
   }
   if (~a != -11) {
-    throw new Error("assertion failed: ~10 should be -11")
+    throw new Error('assertion failed: ~10 should be -11')
   }
 
   let b: int = 0
   if (~b != -1) {
-    throw new Error("assertion failed: ~0 should be -1")
+    throw new Error('assertion failed: ~0 should be -1')
   }
 
   console.log('Unary numeric verified')

@@ -22,23 +22,23 @@
 function main(): void {
   let x: int = 10
   if (x != 10) {
-    throw new Error("assertion failed: initial x expected 10")
+    throw new Error('assertion failed: initial x expected 10')
   }
 
   x = 20
   if (x != 20) {
-    throw new Error("assertion failed: x after assignment expected 20, got " + x)
+    throw new Error('assertion failed: x after assignment expected 20, got ' + x)
   }
 
   x = -5
   if (x != -5) {
-    throw new Error("assertion failed: x after second assignment expected -5, got " + x)
+    throw new Error('assertion failed: x after second assignment expected -5, got ' + x)
   }
 
-  let s: string = "first"
+  let s: string = 'first'
   s = "second"
   if (s != "second") {
-    throw new Error("assertion failed: s expected 'second', got " + s)
+    throw new Error('assertion failed: s expected 'second', got ' + s)
   }
 
   console.log('Assignment context verified')

@@ -26,7 +26,7 @@ enum Color {
 }
 
 function testEnumStringConcat(): void {
-  let s1: string = "color: " + Color.Red
+  let s1: string = 'color: ' + Color.Red
   let s2: string = Color.Green + " is selected"
-  let s3: string = "favorite: " + Color.Blue
+  let s3: string = 'favorite: ' + Color.Blue
 }

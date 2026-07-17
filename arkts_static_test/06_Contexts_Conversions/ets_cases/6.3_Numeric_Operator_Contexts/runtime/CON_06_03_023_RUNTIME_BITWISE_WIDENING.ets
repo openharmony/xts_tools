@@ -24,17 +24,17 @@ function main(): void {
   let b: long = 0x0F
   let r1: long = a & b
   if (r1 != 0x0F) {
-    throw new Error("assertion failed: 0xFF & 0x0F should be 0x0F")
+    throw new Error('assertion failed: 0xFF & 0x0F should be 0x0F')
   }
 
   let r2: long = a | b
   if (r2 != 0xFF) {
-    throw new Error("assertion failed: 0xFF | 0x0F should be 0xFF")
+    throw new Error('assertion failed: 0xFF | 0x0F should be 0xFF')
   }
 
   let r3: long = a ^ b
   if (r3 != 0xF0) {
-    throw new Error("assertion failed: 0xFF ^ 0x0F should be 0xF0")
+    throw new Error('assertion failed: 0xFF ^ 0x0F should be 0xF0')
   }
 
   console.log('Bitwise widening verified')

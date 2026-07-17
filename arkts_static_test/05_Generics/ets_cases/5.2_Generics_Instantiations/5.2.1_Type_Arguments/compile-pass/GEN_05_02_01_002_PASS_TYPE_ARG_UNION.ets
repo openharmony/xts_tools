@@ -19,4 +19,4 @@
  * @design 类型参数-联合类型
  * @note 正向用例：验证联合类型作为类型参数
  */
-let arr2: Array<number | string> = [1, "hello"];
+let arr2: (number | string)[] = [1, "hello"];

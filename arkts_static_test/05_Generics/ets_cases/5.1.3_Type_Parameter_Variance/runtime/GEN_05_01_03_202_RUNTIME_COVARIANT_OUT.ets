@@ -26,5 +26,5 @@ class W<out T> {
 function main(): void {
     let w: W<number> = new W<number>(42);
     if (w.value != 42) {
-    throw new Error("assertion failed: " + w.value);
+    throw new Error('assertion failed: ' + w.value);
 }

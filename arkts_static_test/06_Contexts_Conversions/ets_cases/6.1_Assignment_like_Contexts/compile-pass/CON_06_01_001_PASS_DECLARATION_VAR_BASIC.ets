@@ -21,7 +21,7 @@
  */
 function testDeclarationVarBasic(): void {
   let numVar: number = 42
-  let strVar: string = "hello"
+  let strVar: string = 'hello'
   let boolVar: boolean = true
   let intVar: int = 100
   let doubleVar: double = 3.14

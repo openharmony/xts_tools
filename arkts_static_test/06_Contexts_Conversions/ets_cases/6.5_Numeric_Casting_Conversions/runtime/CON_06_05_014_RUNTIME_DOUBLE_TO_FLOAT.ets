@@ -24,10 +24,10 @@ function main(): void {
   let f1: float = d1.toFloat()
 
   let d2: double = 1.0
-  if (d2.toFloat() != 1) { throw new Error("1.0.toFloat() should be 1") }
+  if (d2.toFloat() != 1) { throw new Error('1.0.toFloat() should be 1') }
 
   let d3: double = 0.0
-  if (d3.toFloat() != 0) { throw new Error("0.0.toFloat() should be 0") }
+  if (d3.toFloat() != 0) { throw new Error('0.0.toFloat() should be 0') }
 
   console.log('Double to float conversion verified')
 }

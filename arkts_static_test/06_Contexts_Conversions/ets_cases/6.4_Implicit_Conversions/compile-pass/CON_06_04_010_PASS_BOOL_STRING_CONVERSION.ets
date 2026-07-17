@@ -20,6 +20,6 @@
  * @note 正向用例：验证 boolean 的隐式 string 转换
  */
 function testBoolStringConversion(): void {
-  let s1: string = "flag: " + true
+  let s1: string = 'flag: ' + true
   let s2: string = false + " value"
 }

@@ -22,22 +22,22 @@
 function main(): void {
   let intVar: int = 42
   if (intVar != 42) {
-    throw new Error("assertion failed: intVar expected 42, got " + intVar)
+    throw new Error('assertion failed: intVar expected 42, got ' + intVar)
   }
 
-  let strVar: string = "hello"
+  let strVar: string = 'hello'
   if (strVar != "hello") {
-    throw new Error("assertion failed: strVar expected 'hello', got " + strVar)
+    throw new Error('assertion failed: strVar expected 'hello', got ' + strVar)
   }
 
   let boolVar: boolean = true
   if (boolVar != true) {
-    throw new Error("assertion failed: boolVar expected true")
+    throw new Error('assertion failed: boolVar expected true')
   }
 
   let doubleVar: double = 3.14
   if (doubleVar != 3.14) {
-    throw new Error("assertion failed: doubleVar expected 3.14")
+    throw new Error('assertion failed: doubleVar expected 3.14')
   }
 
   console.log('Declaration context verified')

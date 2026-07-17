@@ -20,7 +20,7 @@
  * @note 反向用例：非数值类型用于关系运算符应按语义规则编译失败
  */
 function testStringIntRelationalFail(): void {
-  let a: string = "hello"
+  let a: string = 'hello'
   let b: int = 5
   let r: boolean = a < b
 }

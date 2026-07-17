@@ -25,18 +25,18 @@ function main(): void {
   let bBig: byte = 70
 
   if (!(c > bSmall)) {
-    throw new Error("assertion failed: 'A'(65) > 60 should be true")
+    throw new Error('assertion failed: 'A'(65) > 60 should be true')
   }
   if (c > bBig) {
-    throw new Error("assertion failed: 'A'(65) > 70 should be false")
+    throw new Error('assertion failed: 'A'(65) > 70 should be false')
   }
   if (!(c < bBig)) {
-    throw new Error("assertion failed: 'A'(65) < 70 should be true")
+    throw new Error('assertion failed: 'A'(65) < 70 should be true')
   }
 
   let bEqual: byte = 65
   if (!(c == bEqual)) {
-    throw new Error("assertion failed: 'A'(65) == 65 should be true")
+    throw new Error('assertion failed: 'A'(65) == 65 should be true')
   }
 
   console.log('Char-byte comparison verified')

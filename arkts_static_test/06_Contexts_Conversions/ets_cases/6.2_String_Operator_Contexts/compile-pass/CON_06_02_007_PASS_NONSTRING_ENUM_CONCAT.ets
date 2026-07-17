@@ -26,6 +26,6 @@ enum Status {
 }
 
 function testNonStringEnumConcat(): void {
-  let s1: string = "status: " + Status.Active
+  let s1: string = 'status: ' + Status.Active
   let s2: string = Status.Pending + " status"
 }

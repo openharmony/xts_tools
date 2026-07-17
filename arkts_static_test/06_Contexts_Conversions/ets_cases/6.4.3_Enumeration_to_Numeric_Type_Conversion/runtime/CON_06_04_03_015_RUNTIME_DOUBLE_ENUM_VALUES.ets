@@ -25,12 +25,12 @@ function main(): void {
   let e: DoubleEnum = DoubleEnum.a
   let v: double = e
   if (v != 1.0) {
-    throw new Error("assertion: double enum→double should be 1.0") }
+    throw new Error('assertion: double enum→double should be 1.0') }
 
   let e2: DoubleEnum = DoubleEnum.c
   let v2: double = e2
   if (v2 != 3.14) {
-    throw new Error("assertion: double enum→double should be 3.14, got " + v2) }
+    throw new Error('assertion: double enum→double should be 3.14, got ' + v2) }
 
   console.log('Double enum values verified')
 }

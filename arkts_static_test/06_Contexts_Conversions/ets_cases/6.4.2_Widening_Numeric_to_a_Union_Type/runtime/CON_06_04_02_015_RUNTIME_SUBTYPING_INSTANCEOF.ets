@@ -24,14 +24,14 @@ function main(): void {
   let u1: byte | int = 512
   u1 = i
   if (u1 != 5) {
-    throw new Error("assertion failed: int→byte|int value mismatch")
+    throw new Error('assertion failed: int→byte|int value mismatch')
   }
 
   let l: long = 10
   let u2: int | long = 2147483648
   u2 = l
   if (u2 != 10) {
-    throw new Error("assertion failed: long→int|long value mismatch")
+    throw new Error('assertion failed: long→int|long value mismatch')
   }
 
   console.log('Subtyping value verified')
