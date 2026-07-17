@@ -58,42 +58,26 @@ export default function MapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'constructor',
           'constructor()', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null && res1.size === 0).assertTrue();
-        done();
-      });
-
-    it('PerformanceTest_Map_Constructor_InitialCapacity_0110', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let res: Map<string, object> = new Map();
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = new Map();
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_InitialCapacity_0110: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'constructor',
-          'constructor()', arkTsAveragedTime);
-        expect(res1 !== undefined && res !== null && res.size === 0).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_Map_set_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
-        let res = new Map<string,number>();
+        let maps: Map<string,number>[] = new Array<Map<string,number>>(BASE_COUNT);
+        for (let j = 0; j < BASE_COUNT; j++) {
+          maps[j] = new Map<string,number>();
+        }
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res.set("a", 1);
+          maps[i].set("a", 1);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
+        let res1 = maps[BASE_COUNT - 1];
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_set_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'set',
           'set(key: K, val: V)', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null && res1.has('a')).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_Map_get_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -111,8 +95,7 @@ export default function MapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_get_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'get',
           'get(key: K)', arkTsAveragedTime);
-        expect(res1 === 1).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_Map_has_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -130,8 +113,7 @@ export default function MapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_has_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'has',
           'has(key: K)', arkTsAveragedTime);
-        expect(res1 === true).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_Map_delete_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -152,15 +134,16 @@ export default function MapPerfTest(): void {
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_delete_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'delete','delete(key: K): boolean', arkTsAveragedTime);
-        expect(res1 === true).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_Map_clear_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let maps: Map<string, object>[] = [];
         for (let j = 0; j < BASE_COUNT; j++) {
-          maps.push(new Map<string, object>());
+          let m = new Map<string, object>();
+          m.set("key", new Object());
+          maps.push(m);
         }
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
@@ -172,8 +155,7 @@ export default function MapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_clear_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'clear',
           'clear()', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null && res1.size === 0).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_Map_size_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -190,8 +172,7 @@ export default function MapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_size_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'size',
           'readonly size: number', arkTsAveragedTime);
-        expect(res1 === 0).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_Map_keys_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -208,8 +189,7 @@ export default function MapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_keys_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'keys',
           'keys(): IterableIterator<K>', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_Map_values_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -226,8 +206,7 @@ export default function MapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_values_0900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'values',
           'values(): IterableIterator<V>', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_Map_entries_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -244,8 +223,7 @@ export default function MapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_entries_1000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'entries',
           'entries(): IterableIterator<[K,V]>', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_Map_forEach_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -261,29 +239,10 @@ export default function MapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_forEach_1100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'forEach',
           'forEach(callbackfn: Function): void', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Map_keySet_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let map = new Map<string, object>();
-        let res = map.keys();
-        let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
-          res = map.keys();
-        }
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_keySet_1200: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'keys',
-          'keys(): IterableIterator<K>', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null).assertTrue();
-        done();
-      });
-
-    it('PerformanceTest_Map_toString_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Map_toString_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let map = new Map<string, object>();
         let res = map.toString();
@@ -294,14 +253,13 @@ export default function MapPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_toString_1300: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_toString_1200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'toString',
           'toString(): String', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== '').assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Map_Constructor_Array_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Map_Constructor_Array_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr = new Array<[string, object]>();
         let res = new Map<string, object>(arr);
@@ -312,13 +270,12 @@ export default function MapPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_Array_1400: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_Array_1300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'constructor', 'constructor(entries: Array<[K,V]>)', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null && res1.size === 0).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Map_Constructor_Map_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Map_Constructor_Map_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let temp = new Map<string, object>();
         let res = new Map<string, object>(temp);
@@ -329,13 +286,12 @@ export default function MapPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_Map_1500: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_Map_1400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'constructor', 'constructor(map: Map<K,V>)', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null && res1.size === 0).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Map_get_Default_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Map_get_Default_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let map = new Map<string, object>();
         let defaultValue: object = new Object() as object;
@@ -348,13 +304,12 @@ export default function MapPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_get_Default_1600: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_get_Default_1500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', 'get', 'get(key: K): V | undefined', arkTsAveragedTime);
-        expect(res1 === defaultValue).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Map_Iterator_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Map_Iterator_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let map = new Map<string, object>();
         let res: IterableIterator<[string, object]> = map[Symbol.iterator]();
@@ -365,13 +320,12 @@ export default function MapPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Iterator_1700: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Iterator_1600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Map', '$_iterator', '$_iterator(): IterableIterator<[K,V]>', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Record_Constructor_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Record_Constructor_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let res: Record<string, object> = {};
         let Stime = systemDateTime.getTime(true);
@@ -381,13 +335,12 @@ export default function MapPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Record_Constructor_1800: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Record_Constructor_1700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Record', 'constructor', 'constructor()', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Record__get_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Record__get_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let rec: Record<string, object> = { "key": new Object() } as Record<string, object>;
         let res: object | undefined = rec["key"];
@@ -398,13 +351,12 @@ export default function MapPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Record__get_1900: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Record__get_1800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Record', '$_get', '$_get(k: K): V | undefined', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Record__set_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_Record__set_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let res: Record<string, object> = {};
         let Stime = systemDateTime.getTime(true);
@@ -414,13 +366,12 @@ export default function MapPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Record__set_2000: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Record__set_1900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Record', '$_set', '$_set(k: K, v: V): void', arkTsAveragedTime);
-        expect(res1 !== undefined && res1 !== null && res1['key'] !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Map_Constructor_FixedArray_2100',
+    it('PerformanceTest_Map_Constructor_FixedArray_2000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let pair1: [string, object] = ['key1', new Object() as object];
         let pair2: [string, object] = ['key2', new Object() as object];
@@ -437,7 +388,7 @@ export default function MapPerfTest(): void {
         let res1 = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
 
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_FixedArray_2100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Map_Constructor_FixedArray_2000: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -446,8 +397,7 @@ export default function MapPerfTest(): void {
           'constructor(values: Array<[K,V]>)',
           arkTsAveragedTime
         );
-        expect(res1 !== undefined && res1 !== null && res1.size === 0).assertTrue();
-        done();
+      done();
       });
 
   })

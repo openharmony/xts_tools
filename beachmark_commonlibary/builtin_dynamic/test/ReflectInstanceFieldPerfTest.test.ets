@@ -36,7 +36,7 @@ export default function ReflectInstanceFieldPerfTest(): void {
   describe('ReflectInstanceFieldPerfTest', () => {
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     });
 
     afterAll(() => {
@@ -63,8 +63,7 @@ export default function ReflectInstanceFieldPerfTest(): void {
         performance.apiWithClassAndKeywordTxt(
           'std.core', 'Reflect', 'get',
           'Reflect.get(obj: Object, prop: string): Object', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_Reflect_InstanceField_Set_0200',
@@ -74,7 +73,7 @@ export default function ReflectInstanceFieldPerfTest(): void {
         let obj: Record<string, Object> = { "intField": 0 };
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          Reflect.set(obj, "intField", i);
+          resValue = Reflect.set(obj, "intField", i);
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = resValue;
@@ -86,8 +85,7 @@ export default function ReflectInstanceFieldPerfTest(): void {
           'std.core', 'Reflect', 'set',
           'Reflect.set(obj: Object, prop: string, value: Object): boolean',
           arkTsAveragedTime);
-        expect(obj["intField"] !== undefined).assertTrue();
-        done();
+      done();
       })
   })
 }

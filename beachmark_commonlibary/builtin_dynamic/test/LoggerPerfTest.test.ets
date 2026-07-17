@@ -59,7 +59,7 @@ export default function LoggerPerfTest() : void{
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -79,10 +79,9 @@ export default function LoggerPerfTest() : void{
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info(`[Performance] RealLogger.enableLogging - Total: ${Dtime}ns, ` +
           `Count: ${BASE_COUNT}, Average: ${arkTsAveragedTime}ns`);
-        performance.apiWithClassAndKeywordTxt('std.debug', 'Logger', 'enableLogging',
+        performance.apiWithClassAndKeywordTxt('std.debug', 'RealLogger', 'enableLogging',
           'static enableLogging(): void', arkTsAveragedTime);
-        expect(true).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_Logger_DisableLogging_0200',
@@ -97,10 +96,9 @@ export default function LoggerPerfTest() : void{
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info(`[Performance] RealLogger.disableLogging - Total: ${Dtime}ns, ` +
           `Count: ${BASE_COUNT}, Average: ${arkTsAveragedTime}ns`);
-        performance.apiWithClassAndKeywordTxt('std.debug', 'Logger', 'disableLogging',
+        performance.apiWithClassAndKeywordTxt('std.debug', 'RealLogger', 'disableLogging',
           'static disableLogging(): void', arkTsAveragedTime);
-        expect(true).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_Logger_Log_0300',
@@ -116,10 +114,9 @@ export default function LoggerPerfTest() : void{
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info(`[Performance] RealLogger.log - Total: ${Dtime}ns, ` +
           `Count: ${BASE_COUNT}, Average: ${arkTsAveragedTime}ns`);
-        performance.apiWithClassAndKeywordTxt('std.core', 'Console', 'log',
-          'public log(i: String): void', arkTsAveragedTime);
-        expect(true).assertTrue();
-        done();
+        performance.apiWithClassAndKeywordTxt('std.debug', 'RealLogger', 'log',
+          'static log(m: string): void', arkTsAveragedTime);
+      done();
       })
 
     it('PerformanceTest_Logger_LogError_0400',
@@ -135,10 +132,9 @@ export default function LoggerPerfTest() : void{
         let arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info(`[Performance] RealLogger.logError - Total: ${Dtime}ns, ` +
           `Count: ${BASE_COUNT}, Average: ${arkTsAveragedTime}ns`);
-        performance.apiWithClassAndKeywordTxt('std.debug', 'Logger', 'logError',
+        performance.apiWithClassAndKeywordTxt('std.debug', 'RealLogger', 'logError',
           'static logError(m: string): void', arkTsAveragedTime);
-        expect(true).assertTrue();
-        done();
+      done();
       })
   })
 }

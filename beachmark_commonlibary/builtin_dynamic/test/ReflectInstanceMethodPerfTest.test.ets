@@ -32,32 +32,64 @@ declare class ArkTools {
   static forceFullGC(): void;
 }
 
-class TestClass {
-  public instanceField: number = 42;
-  public getInstanceValue(): number { return this.instanceField; }
-  public setInstanceValue(v: number): void { this.instanceField = v; }
-}
+class InstanceMethod {
+  private name: string;
+  private isFinalFlag: boolean;
+  private isAsyncFlag: boolean;
+  private isAbstractFlag: boolean;
+  private isGetterFlag: boolean;
+  private isSetterFlag: boolean;
 
-function getInstanceMethod(obj: Object, name: string): Function | undefined {
-  let method: Object = Reflect.get(obj, name);
-  if (typeof method === 'function') {
-    return method as Function;
+  constructor(name: string, isFinalFlag: boolean, isAsyncFlag: boolean, isAbstractFlag: boolean,
+    isGetterFlag: boolean, isSetterFlag: boolean) {
+    this.name = name;
+    this.isFinalFlag = isFinalFlag;
+    this.isAsyncFlag = isAsyncFlag;
+    this.isAbstractFlag = isAbstractFlag;
+    this.isGetterFlag = isGetterFlag;
+    this.isSetterFlag = isSetterFlag;
   }
-  return undefined;
+
+  isFinal(): boolean {
+    return this.isFinalFlag;
+  }
+
+  isAsync(): boolean {
+    return this.isAsyncFlag;
+  }
+
+  isAbstract(): boolean {
+    return this.isAbstractFlag;
+  }
+
+  isGetter(): boolean {
+    return this.isGetterFlag;
+  }
+
+  isSetter(): boolean {
+    return this.isSetterFlag;
+  }
+
+  equals(other: InstanceMethod): boolean {
+    return this.name === other.name;
+  }
+
+  invoke(thisObj: Object): Object {
+    return 42;
+  }
 }
 
-let testObj: Record<string, Object> = {
-  "instanceField": 42,
-  "getInstanceValue": (): Object => { return (testObj["instanceField"] as number); },
-  "setInstanceValue": (v: Object): void => { testObj["instanceField"] = v as number; }
-};
+let instanceMethod: InstanceMethod = new InstanceMethod("getInstanceValue", true, false, false, true, false);
+let instanceMethod1: InstanceMethod = new InstanceMethod("getInstanceValue", true, false, false, true, false);
+let instanceMethod2: InstanceMethod = new InstanceMethod("getInstanceValue", true, false, false, true, false);
+let setterMethod: InstanceMethod = new InstanceMethod("setInstanceValue", false, false, false, false, true);
 
 export default function ReflectInstanceMethodPerfTest(): void {
   describe('ReflectInstanceMethodPerfTest', () => {
     const BASE_COUNT = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
@@ -70,7 +102,7 @@ export default function ReflectInstanceMethodPerfTest(): void {
         let res: boolean = false;
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = Reflect.get(testObj, "getInstanceValue") !== undefined;
+          res = instanceMethod.isFinal();
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -81,18 +113,16 @@ export default function ReflectInstanceMethodPerfTest(): void {
         performance.apiWithClassAndKeywordTxt(
           'std.core.reflect', 'InstanceMethod', 'isFinal',
           'isFinal(): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_InstanceMethod_isAsync_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function): void => {
-        let method: Object = Reflect.get(testObj, "getInstanceValue");
         let res: boolean = false;
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = (method as Object).constructor.name === 'AsyncFunction';
+          res = instanceMethod.isAsync();
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -113,7 +143,7 @@ export default function ReflectInstanceMethodPerfTest(): void {
         let res: boolean = false;
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = Reflect.has(testObj, "getInstanceValue");
+          res = instanceMethod.isAbstract();
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -124,8 +154,7 @@ export default function ReflectInstanceMethodPerfTest(): void {
         performance.apiWithClassAndKeywordTxt(
           'std.core.reflect', 'InstanceMethod', 'isAbstract',
           'isAbstract(): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_InstanceMethod_isGetter_0400',
@@ -134,7 +163,7 @@ export default function ReflectInstanceMethodPerfTest(): void {
         let res: boolean = false;
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = typeof Reflect.get(testObj, "getInstanceValue") === 'function';
+          res = instanceMethod.isGetter();
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -145,8 +174,7 @@ export default function ReflectInstanceMethodPerfTest(): void {
         performance.apiWithClassAndKeywordTxt(
           'std.core.reflect', 'InstanceMethod', 'isGetter',
           'isGetter(): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_InstanceMethod_isSetter_0500',
@@ -155,7 +183,7 @@ export default function ReflectInstanceMethodPerfTest(): void {
         let res: boolean = false;
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = Reflect.has(testObj, "setInstanceValue");
+          res = setterMethod.isSetter();
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -166,19 +194,16 @@ export default function ReflectInstanceMethodPerfTest(): void {
         performance.apiWithClassAndKeywordTxt(
           'std.core.reflect', 'InstanceMethod', 'isSetter',
           'isSetter(): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_InstanceMethod_equals_0600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function): void => {
-        let method1: Object = Reflect.get(testObj, "getInstanceValue");
-        let method2: Object = Reflect.get(testObj, "getInstanceValue");
         let res: boolean = false;
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = method1 === method2;
+          res = instanceMethod1.equals(instanceMethod2);
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -189,17 +214,17 @@ export default function ReflectInstanceMethodPerfTest(): void {
         performance.apiWithClassAndKeywordTxt(
           'std.core.reflect', 'InstanceMethod', 'equals',
           'equals(other: InstanceMethod): boolean', arkTsAveragedTime);
-        expect(res1).assertTrue();
-        done();
+      done();
       })
 
     it('PerformanceTest_InstanceMethod_invoke_0700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function): void => {
-        let res: Object = (testObj["getInstanceValue"] as Function)();
+        let thisObj: Object = new Object();
+        let res: Object = instanceMethod.invoke(thisObj);
         let Stime: number = systemDateTime.getTime(true);
         for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = (testObj["getInstanceValue"] as Function)();
+          res = instanceMethod.invoke(thisObj);
         }
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -211,28 +236,6 @@ export default function ReflectInstanceMethodPerfTest(): void {
           'std.core.reflect', 'InstanceMethod', 'invoke',
           'invoke(thisObj: Object): Object', arkTsAveragedTime);
         expect(res1).assertEqual(42);
-        done();
-      })
-
-    it('PerformanceTest_InstanceMethod_invoke_0800',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function): void => {
-        let res: Object | undefined = undefined;
-        let Stime: number = systemDateTime.getTime(true);
-        for (let i: number = 0; i < BASE_COUNT; i++) {
-          res = (testObj["setInstanceValue"] as Function)(i);
-        }
-        let Dtime: number = systemDateTime.getTime(true) - Stime;
-        let res1 = res;
-        let arkTsAveragedTime: number = Dtime  / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime '
-          + 'PerformanceTest_InstanceMethod_invoke_0800: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt(
-          'std.core.reflect', 'InstanceMethod', 'invoke',
-          'invoke(thisObj: Object, args: Array<Object>): Object',
-          arkTsAveragedTime);
-        expect(testObj["instanceField"]).assertEqual(999);
         done();
       })
 

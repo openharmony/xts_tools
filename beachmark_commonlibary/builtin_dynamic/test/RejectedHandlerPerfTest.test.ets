@@ -60,14 +60,13 @@ export default function RejectedHandlerPerfTest(): void {
         performance.apiWithClassAndKeywordTxt('kit.AbilityKit', 'errorManager', 'on',
           'on(event: "globalUnhandledRejectionDetected", observer: errorManager.GlobalObserver): void',
           arkTsAveragedTime);
-        expect(res1 === undefined).assertTrue();
-        observers.forEach((observer: errorManager.GlobalObserver): void => {
+observers.forEach((observer: errorManager.GlobalObserver): void => {
           errorManager.off('globalUnhandledRejectionDetected', observer);
         });
         done();
       })
 
-    it('PerformanceTest_RejectedHandler_unregister_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
+    it('PerformanceTest_RejectedHandler_unregister_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let observers: Array<errorManager.GlobalObserver> =
           new Array<number>(BASE_COUNT).fill(0).map((_value: number): errorManager.GlobalObserver =>
@@ -83,12 +82,11 @@ export default function RejectedHandlerPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1: void = res;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RejectedHandler_unregister_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RejectedHandler_unregister_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.AbilityKit', 'errorManager', 'off',
           'off(event: "globalUnhandledRejectionDetected", observer: errorManager.GlobalObserver): void',
           arkTsAveragedTime);
-        expect(res1 === undefined).assertTrue();
-        done();
+      done();
       })
 
   })

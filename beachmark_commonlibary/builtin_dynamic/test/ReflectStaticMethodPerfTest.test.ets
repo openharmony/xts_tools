@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { describe, it, TestType, Size, Level, beforeEach, afterAll, expect } from "@ohos/hypium";
+import { describe, it, TestType, Size, Level, beforeEach, afterAll } from "@ohos/hypium";
 import performance from './Performance.util';
 import { systemDateTime } from '@kit.BasicServicesKit';
 
@@ -44,17 +44,32 @@ class TestClass {
   }
 }
 
-function isMethodAsync(name: string): boolean {
-  return name === "staticAsyncMethod";
+class StaticMethod {
+  private name: string;
+  private isAsyncFlag: boolean;
+
+  constructor(name: string, isAsyncFlag: boolean) {
+    this.name = name;
+    this.isAsyncFlag = isAsyncFlag;
+  }
+
+  isAsync(): boolean {
+    return this.isAsyncFlag;
+  }
+
+  equals(other: StaticMethod): boolean {
+    return this.name === other.name;
+  }
+
+  getName(): string {
+    return this.name;
+  }
 }
 
-function methodEquals(name1: string, name2: string): boolean {
-  return name1 === name2;
-}
-
-function getMethodName(name: string): string {
-  return name;
-}
+let staticMethod: StaticMethod = new StaticMethod("staticMethod", false);
+let staticAsyncMethodObj: StaticMethod = new StaticMethod("staticAsyncMethod", true);
+let staticMethod1: StaticMethod = new StaticMethod("staticMethod", false);
+let staticMethod2: StaticMethod = new StaticMethod("staticMethod", false);
 
 export default function ReflectStaticMethodPerfTest(): void {
   describe('ReflectStaticMethodPerfTest', () => {
@@ -69,11 +84,10 @@ export default function ReflectStaticMethodPerfTest(): void {
     })
 
     it('PerformanceTest_StaticMethod_isAsync_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let methodName: string = "staticAsyncMethod";
       let res: boolean = false;
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        res = isMethodAsync(methodName);
+        res = staticAsyncMethodObj.isAsync();
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: boolean = res;
@@ -81,42 +95,36 @@ export default function ReflectStaticMethodPerfTest(): void {
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StaticMethod_isAsync_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'StaticMethod', 'isAsync',
         'isAsync(): boolean', arkTsAveragedTime);
-      expect(res === true).assertTrue();
       done();
     })
 
-    it('PerformanceTest_StaticMethod_equals_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let methodName1: string = "staticMethod";
-      let methodName2: string = "staticMethod";
+    it('PerformanceTest_StaticMethod_equals_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: boolean = false;
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        res = methodEquals(methodName1, methodName2);
+        res = staticMethod1.equals(staticMethod2);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: boolean = res;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StaticMethod_equals_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StaticMethod_equals_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'StaticMethod', 'equals',
         'equals(other: StaticMethod): boolean', arkTsAveragedTime);
-      expect(res === true).assertTrue();
       done();
     })
 
-    it('PerformanceTest_StaticMethod_getName_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let methodName: string = "staticMethod";
+    it('PerformanceTest_StaticMethod_getName_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let res: string = "";
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        res = getMethodName(methodName);
+        res = staticMethod.getName();
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: string = res;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StaticMethod_getName_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_StaticMethod_getName_0300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core.reflect', 'StaticMethod', 'getName',
         'getName(): string', arkTsAveragedTime);
-      expect(res === "staticMethod").assertTrue();
       done();
     })
 

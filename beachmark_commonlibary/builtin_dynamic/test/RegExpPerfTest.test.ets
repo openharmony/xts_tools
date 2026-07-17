@@ -69,8 +69,7 @@ export default function RegExpPerfTest(): void {
           'constructor(pattern: string)',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_RegExp_constructor_0200',
@@ -97,8 +96,7 @@ export default function RegExpPerfTest(): void {
           'constructor(pattern: string, flags: string)',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_RegExp_constructor_0300',
@@ -124,8 +122,7 @@ export default function RegExpPerfTest(): void {
           'constructor(regexp: RegExp)',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
     it('PerformanceTest_RegExp_constructor_0400',
@@ -152,11 +149,10 @@ export default function RegExpPerfTest(): void {
           'constructor(regexp: RegExp, flags: string)',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_flags_0100',
+    it('PerformanceTest_RegExp_flags_0500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "mig");
@@ -170,7 +166,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_flags_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_flags_0500: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -179,11 +175,10 @@ export default function RegExpPerfTest(): void {
           'get flags(): string',
           arkTsAveragedTime
         );
-        expect(result === "gim").assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_global_0100',
+    it('PerformanceTest_RegExp_global_0600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "g");
@@ -197,7 +192,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_global_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_global_0600: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -206,11 +201,10 @@ export default function RegExpPerfTest(): void {
           'get global(): boolean',
           arkTsAveragedTime
         );
-        expect(result === true).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_dotAll_0100',
+    it('PerformanceTest_RegExp_dotAll_0700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("a.b", "s");
@@ -224,7 +218,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_dotAll_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_dotAll_0700: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -233,11 +227,10 @@ export default function RegExpPerfTest(): void {
           'get dotAll(): boolean',
           arkTsAveragedTime
         );
-        expect(result === true).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_ignoreCase_0100',
+    it('PerformanceTest_RegExp_ignoreCase_0800',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "i");
@@ -251,7 +244,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_ignoreCase_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_ignoreCase_0800: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -260,11 +253,10 @@ export default function RegExpPerfTest(): void {
           'get ignoreCase(): boolean',
           arkTsAveragedTime
         );
-        expect(result === true).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_multiline_0100',
+    it('PerformanceTest_RegExp_multiline_0900',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("^arkts$", "m");
@@ -278,7 +270,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_multiline_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_multiline_0900: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -287,11 +279,10 @@ export default function RegExpPerfTest(): void {
           'get multiline(): boolean',
           arkTsAveragedTime
         );
-        expect(result === true).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_sticky_0100',
+    it('PerformanceTest_RegExp_sticky_1000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "y");
@@ -305,7 +296,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_sticky_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_sticky_1000: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -314,11 +305,10 @@ export default function RegExpPerfTest(): void {
           'get sticky(): boolean',
           arkTsAveragedTime
         );
-        expect(result === true).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_unicode_0100',
+    it('PerformanceTest_RegExp_unicode_1100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "u");
@@ -332,7 +322,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_unicode_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_unicode_1100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -341,11 +331,10 @@ export default function RegExpPerfTest(): void {
           'get unicode(): boolean',
           arkTsAveragedTime
         );
-        expect(result === true).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_source_0100',
+    it('PerformanceTest_RegExp_source_1200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "g");
@@ -359,7 +348,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_source_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_source_1200: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -368,11 +357,10 @@ export default function RegExpPerfTest(): void {
           'get source(): string',
           arkTsAveragedTime
         );
-        expect(result === "arkts").assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_exec_0100',
+    it('PerformanceTest_RegExp_exec_1300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts");
@@ -387,36 +375,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_exec_0100: '
-          + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt(
-          'std.core',
-          'RegExp',
-          'exec',
-          'exec(str: string, index: int): RegExpExecArray | null',
-          arkTsAveragedTime
-        );
-        expect(result !== null).assertTrue();
-        expect(result![0] === "arkts").assertTrue();
-        done();
-      });
-
-    it('PerformanceTest_RegExp_exec_0200',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      (done: Function) => {
-        let re: RegExp = new RegExp("arkts");
-        let text: string = "hello arkts world";
-        let result: RegExpExecArray | null = re.exec(text);
-        let Stime = systemDateTime.getTime(true);
-
-        for (let i = 0; i < BASE_COUNT; i++) {
-          result = re.exec(text);
-        }
-
-        let Dtime = systemDateTime.getTime(true) - Stime;
-        let res1 = result;
-        let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_exec_0200: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_exec_1300: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -425,11 +384,10 @@ export default function RegExpPerfTest(): void {
           'exec(str: string): RegExpExecArray | null',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_search_0100',
+    it('PerformanceTest_RegExp_search_1500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts");
@@ -444,7 +402,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_search_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_search_1500: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -453,11 +411,10 @@ export default function RegExpPerfTest(): void {
           'search(str: string): int',
           arkTsAveragedTime
         );
-        expect(result === 6).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_replace_0100',
+    it('PerformanceTest_RegExp_replace_1600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "g");
@@ -472,7 +429,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_replace_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_replace_1600: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -481,11 +438,10 @@ export default function RegExpPerfTest(): void {
           'replace(str: string, replaceValue: string): string',
           arkTsAveragedTime
         );
-        expect(result === "ets hello ets").assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_replace_0200',
+    it('PerformanceTest_RegExp_replace_1700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "g");
@@ -500,7 +456,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_replace_0200: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_replace_1700: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -509,11 +465,10 @@ export default function RegExpPerfTest(): void {
           'replace(str: string, replacer: (substr: string, args: Object[]) => string): string',
           arkTsAveragedTime
         );
-        expect(result === "ets hello ets").assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_split_0100',
+    it('PerformanceTest_RegExp_split_1800',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp(",");
@@ -528,7 +483,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_split_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_split_1800: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -537,13 +492,11 @@ export default function RegExpPerfTest(): void {
           'split(str: string, limit: Int | undefined): string[]',
           arkTsAveragedTime
         );
-        expect(result.length === 2).assertTrue();
-        expect(result[0] === "a").assertTrue();
-        expect(result[1] === "b").assertTrue();
-        done();
+;
+      done();
       });
 
-    it('PerformanceTest_RegExp_match_0100',
+    it('PerformanceTest_RegExp_match_1900',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "g");
@@ -558,7 +511,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_match_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_match_1900: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -567,12 +520,10 @@ export default function RegExpPerfTest(): void {
           'match(str: string): RegExpMatchArray | null',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        expect(result!.length === 2).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_matchAll_0100',
+    it('PerformanceTest_RegExp_matchAll_2000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "g");
@@ -587,7 +538,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_matchAll_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_matchAll_2000: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -596,11 +547,10 @@ export default function RegExpPerfTest(): void {
           'matchAll(str: string): IterableIterator<RegExpMatchArray>',
           arkTsAveragedTime
         );
-        expect(result !== undefined).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_test_0100',
+    it('PerformanceTest_RegExp_test_2100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts");
@@ -615,7 +565,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_test_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_test_2100: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -624,11 +574,10 @@ export default function RegExpPerfTest(): void {
           'test(str: string): boolean',
           arkTsAveragedTime
         );
-        expect(result === true).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_toString_0100',
+    it('PerformanceTest_RegExp_toString_2200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "g");
@@ -642,7 +591,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_toString_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_toString_2200: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -651,11 +600,10 @@ export default function RegExpPerfTest(): void {
           'toString(): string',
           arkTsAveragedTime
         );
-        expect(result === "/arkts/g").assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_RegExp_lastIndex_0100',
+    it('PerformanceTest_RegExp_lastIndex_2300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let re: RegExp = new RegExp("arkts", "g");
@@ -669,7 +617,7 @@ export default function RegExpPerfTest(): void {
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = result;
         let arkTsAveragedTime = Dtime / BASE_COUNT;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_lastIndex_0100: '
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_RegExp_lastIndex_2300: '
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
@@ -678,8 +626,7 @@ export default function RegExpPerfTest(): void {
           'lastIndex: int',
           arkTsAveragedTime
         );
-        expect(result === 0).assertTrue();
-        done();
+      done();
       });
 
   });

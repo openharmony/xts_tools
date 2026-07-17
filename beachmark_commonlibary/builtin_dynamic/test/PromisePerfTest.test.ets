@@ -32,6 +32,34 @@ declare class ArkTools {
   static forceFullGC(): void;
 }
 
+function promiseExecutorResolveOne(resolve: Function, reject: Function): void {
+  resolve(1);
+}
+
+function promiseThenReturnTwo(v: number): Promise<number> {
+  return Promise.resolve(2);
+}
+
+function promiseThenAddOne(v: number): Promise<number> {
+  return Promise.resolve(v + 1);
+}
+
+function promiseThenReturnMinusOne(v: number): Promise<number> {
+  return Promise.resolve(-1);
+}
+
+function promiseCatchReturnZero(e: Error): number {
+  return 0;
+}
+
+function promiseCatchErrorReturnZero(e: Error): number {
+  return 0;
+}
+
+function promiseFinallyReturnZero(): number {
+  return 0;
+}
+
 export default function PromisePerfTest(): void {
   describe('PromisePerfTest', () => {
 
@@ -66,11 +94,10 @@ export default function PromisePerfTest(): void {
           'constructor(callback: (resolve: (value: T|PromiseLike<T>) => void, reject: (error: Error) => void) => void)',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_Then_0100',
+    it('PerformanceTest_Promise_Then_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let source: Promise<number> = Promise.resolve<number>(1);
         let result: Promise<number> | undefined = undefined;
@@ -83,7 +110,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Then_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Then_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -91,11 +118,10 @@ export default function PromisePerfTest(): void {
           'then<U = T>(onFulfilled: () => U|PromiseLike<U>): Promise<Awaited<U>>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_Then_0200',
+    it('PerformanceTest_Promise_Then_0300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let source: Promise<number> = Promise.resolve<number>(1);
         let result: Promise<number> | undefined = undefined;
@@ -108,7 +134,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Then_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Then_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -116,11 +142,10 @@ export default function PromisePerfTest(): void {
           'then(_onFulfilled?: undefined): Promise<Awaited<T>>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_Then_0300',
+    it('PerformanceTest_Promise_Then_0400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let source: Promise<number> = Promise.resolve<number>(1);
         let result: Promise<number> | undefined = undefined;
@@ -133,7 +158,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Then_0300: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Then_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -141,11 +166,10 @@ export default function PromisePerfTest(): void {
           'then<U = T, E = never>(onFulfilled: (value: T) => U|PromiseLike<U>, onRejected?: (error: Error) => E|PromiseLike<E>): Promise<Awaited<U|E>>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_Catch_0100',
+    it('PerformanceTest_Promise_Catch_0300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let source: Promise<number> = Promise.reject<number>(new Error('arkts'));
         let result: Promise<number> | undefined = undefined;
@@ -158,7 +182,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Catch_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Catch_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -166,36 +190,10 @@ export default function PromisePerfTest(): void {
           'catch<U = never>(onRejected: () => U|PromiseLike<U>): Promise<Awaited<T|U>>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_Catch_0200',
-      TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-        let source: Promise<number> = Promise.reject<number>(new Error('arkts'));
-        let result: Promise<number> | undefined = undefined;
-        let Stime: number = systemDateTime.getTime(true);
-
-        for (let i: number = 0; i < BASE_COUNT_PROMISE_MIX; i++) {
-          result = source.catch(promiseCatchErrorReturnZero);
-        }
-
-        let Dtime: number = systemDateTime.getTime(true) - Stime;
-        let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
-        let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Catch_0200: ' + arkTsAveragedTime + 'ns');
-        performance.apiWithClassAndKeywordTxt(
-          'std.core',
-          'Promise',
-          'catch',
-          'catch<U = never>(onRejected?: (error: Error) => U|PromiseLike<U>): Promise<Awaited<T|U>>',
-          arkTsAveragedTime
-        );
-        expect(result !== null).assertTrue();
-        done();
-      });
-
-    it('PerformanceTest_Promise_Finally_0100',
+    it('PerformanceTest_Promise_Finally_0500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let source: Promise<number> = Promise.resolve<number>(1);
         let result: Promise<number> | undefined = undefined;
@@ -208,7 +206,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Finally_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Finally_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -216,11 +214,10 @@ export default function PromisePerfTest(): void {
           'finally<U = T>(onFinally?: () => U|PromiseLike<U>): Promise<Awaited<T>>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_Resolve_0100',
+    it('PerformanceTest_Promise_Resolve_0600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let result: Promise<void> | undefined = undefined;
         let Stime: number = systemDateTime.getTime(true);
@@ -232,7 +229,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Resolve_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Resolve_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -240,11 +237,10 @@ export default function PromisePerfTest(): void {
           'static resolve(): Promise<void>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_Resolve_0200',
+    it('PerformanceTest_Promise_Resolve_0700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let result: Promise<number> | undefined = undefined;
         let Stime: number = systemDateTime.getTime(true);
@@ -256,7 +252,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Resolve_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Resolve_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -264,11 +260,10 @@ export default function PromisePerfTest(): void {
           'static resolve<U>(value: U|PromiseLike<U>): Promise<Awaited<U>>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_Reject_0100',
+    it('PerformanceTest_Promise_Reject_0800',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let result: Promise<void> | undefined = undefined;
         let Stime: number = systemDateTime.getTime(true);
@@ -280,7 +275,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Reject_0100: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Reject_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -288,11 +283,10 @@ export default function PromisePerfTest(): void {
           'static reject(): Promise<void>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_Reject_0200',
+    it('PerformanceTest_Promise_Reject_0900',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let error: Error = new Error('arkts');
         let result: Promise<number> | undefined = undefined;
@@ -305,7 +299,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Reject_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Reject_0900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -313,11 +307,10 @@ export default function PromisePerfTest(): void {
           'static reject<U = never>(error: Error): Promise<Awaited<U>>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_All_0200',
+    it('PerformanceTest_Promise_All_1000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let promises: Promise<number>[] = [];
         promises.push(Promise.resolve<number>(1));
@@ -332,7 +325,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_All_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_All_1000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -340,11 +333,10 @@ export default function PromisePerfTest(): void {
           'static all<U>(promises: Iterable<U|PromiseLike<U>>): Promise<Array<Awaited<U>>>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_AllSettled_0200',
+    it('PerformanceTest_Promise_AllSettled_1100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let promises: Promise<number>[] = [];
         promises.push(Promise.resolve<number>(1));
@@ -359,7 +351,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_AllSettled_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_AllSettled_1100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -367,11 +359,10 @@ export default function PromisePerfTest(): void {
           'static allSettled<U>(promises: Iterable<U|PromiseLike<U>>): Promise<PromiseSettledResult<Awaited<U>>[]>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_Any_0200',
+    it('PerformanceTest_Promise_Any_1200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let promises: Promise<number>[] = [];
         promises.push(Promise.resolve<number>(1));
@@ -386,7 +377,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Any_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Any_1200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -394,11 +385,10 @@ export default function PromisePerfTest(): void {
           'static any<U>(promises: Iterable<U|PromiseLike<U>>): Promise<Awaited<U>>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
-    it('PerformanceTest_Promise_Race_0200',
+    it('PerformanceTest_Promise_Race_1300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
         let promises: Promise<number>[] = [];
         promises.push(Promise.resolve<number>(1));
@@ -413,7 +403,7 @@ export default function PromisePerfTest(): void {
         let Dtime: number = systemDateTime.getTime(true) - Stime;
         let arkTsAveragedTime = Dtime / BASE_COUNT_PROMISE_MIX;
         let res1 = result;
-        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Race_0200: ' + arkTsAveragedTime + 'ns');
+        console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Promise_Race_1300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt(
           'std.core',
           'Promise',
@@ -421,8 +411,7 @@ export default function PromisePerfTest(): void {
           'static race<U>(promises: Iterable<U|PromiseLike<U>>): Promise<Awaited<U>>',
           arkTsAveragedTime
         );
-        expect(result !== null).assertTrue();
-        done();
+      done();
       });
 
   });

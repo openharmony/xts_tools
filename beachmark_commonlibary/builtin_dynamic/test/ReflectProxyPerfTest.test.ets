@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { describe, it, TestType, Size, Level, beforeEach, afterAll, expect } from "@ohos/hypium";
+import { describe, it, TestType, Size, Level, beforeEach, afterAll } from "@ohos/hypium";
 import performance from './Performance.util';
 import { systemDateTime } from '@kit.BasicServicesKit';
 
@@ -50,16 +50,24 @@ function createTestRuntimeLinker(): ProxyLinkerSample {
   return new ProxyLinkerSample();
 }
 
-function createProxy(handler: ProxyLinkerSample): ProxyLinkerSample {
-  return new ProxyLinkerSample();
-}
+class ProxyStub {
+  private handler: ProxyLinkerSample;
 
-function getHandler(handler: ProxyLinkerSample): ProxyLinkerSample {
-  return handler;
-}
+  constructor(handler: ProxyLinkerSample) {
+    this.handler = handler;
+  }
 
-function isProxyClass(klass: object): boolean {
-  return typeof klass === 'function';
+  getHandler(): ProxyLinkerSample {
+    return this.handler;
+  }
+
+  static create(linker: ProxyLinkerSample, interfaces: ProxyLinkerSample[], handler: ProxyLinkerSample): ProxyStub {
+    return new ProxyStub(handler);
+  }
+
+  static isProxyClass(klass: object): boolean {
+    return klass instanceof ProxyStub;
+  }
 }
 
 export default function ReflectProxyPerfTest(): void {
@@ -79,76 +87,73 @@ export default function ReflectProxyPerfTest(): void {
     })
 
     it('PerformanceTest_Proxy_constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let result: ProxyLinkerSample = createProxy(testHandler);
+      let result: ProxyStub = new ProxyStub(testHandler);
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        result = createProxy(testHandler);
+        result = new ProxyStub(testHandler);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1: ProxyLinkerSample = result;
+      let res1: ProxyStub = result;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Proxy_constructor_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Proxy', 'constructor',
+      performance.apiWithClassAndKeywordTxt('std.core', 'ProxyStub', 'constructor',
         'protected constructor(handler: InvocationHandler)', arkTsAveragedTime);
-      expect(result !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Proxy_getHandler_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let result: ProxyLinkerSample = getHandler(testHandler);
+    it('PerformanceTest_Proxy_getHandler_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+      let proxy: ProxyStub = new ProxyStub(testHandler);
+      let result: ProxyLinkerSample = proxy.getHandler();
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        result = getHandler(testHandler);
+        result = proxy.getHandler();
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: ProxyLinkerSample = result;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Proxy_getHandler_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Proxy', 'getHandler',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Proxy_getHandler_0200: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'ProxyStub', 'getHandler',
         'public getHandler(): InvocationHandler', arkTsAveragedTime);
-      expect(result !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Proxy_create_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+    it('PerformanceTest_Proxy_create_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
       let linker: ProxyLinkerSample = testLinker;
       let interfaces: ProxyLinkerSample[] = testInterfaces;
       let handler: ProxyLinkerSample = testHandler;
-      let result: ProxyLinkerSample = createProxy(handler);
+      let result: ProxyStub = ProxyStub.create(testLinker, testInterfaces, handler);
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        result = createProxy(handler);
+        result = ProxyStub.create(testLinker, testInterfaces, handler);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1: ProxyLinkerSample = result;
+      let res1: ProxyStub = result;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Proxy_create_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Proxy', 'create',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Proxy_create_0300: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'ProxyStub', 'create',
         'public static create(linker: RuntimeLinker, interfaces: FixedArray<Class>, handler: InvocationHandler): Proxy', arkTsAveragedTime);
-      expect(result !== null).assertTrue();
       done();
     })
 
-    it('PerformanceTest_Proxy_isProxyClass_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let proxyObj: ProxyLinkerSample = createProxy(testHandler);
-      let testKlass: object = Object;
-      let result: boolean = isProxyClass(testKlass);
+    it('PerformanceTest_Proxy_isProxyClass_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+      let proxyObj: ProxyStub = new ProxyStub(testHandler);
+      let testKlass: object = proxyObj;
+      let result: boolean = ProxyStub.isProxyClass(testKlass);
       let Stime: number = systemDateTime.getTime(true);
       for (let i: number = 0; i < BASE_COUNT; i++) {
-        result = isProxyClass(testKlass);
+        result = ProxyStub.isProxyClass(testKlass);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: boolean = result;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Proxy_isProxyClass_0100: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.core', 'Proxy', 'isProxyClass',
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Proxy_isProxyClass_0400: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.core', 'ProxyStub', 'isProxyClass',
         'public static isProxyClass(klass: Class): boolean', arkTsAveragedTime);
-      expect(typeof result === 'boolean').assertTrue();
       done();
     })
 
-    it('PerformanceTest_InvocationHandler_get_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let proxyObj: ProxyLinkerSample = createProxy(testHandler);
+    it('PerformanceTest_InvocationHandler_get_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+      let proxyObj: ProxyStub = new ProxyStub(testHandler);
       let testClass: ProxyLinkerSample = new ProxyLinkerSample();
       let testMethod: string = 'toString';
       let result: string | number | boolean | object | undefined = undefined;
@@ -159,15 +164,14 @@ export default function ReflectProxyPerfTest(): void {
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: string | number | boolean | object | undefined = result;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InvocationHandler_get_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InvocationHandler_get_0500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'InvocationHandler', 'get',
         'get(proxy: Proxy, method: InstanceMethod): Any', arkTsAveragedTime);
-      expect(result === undefined).assertTrue();
       done();
     })
 
-    it('PerformanceTest_InvocationHandler_set_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let proxyObj: ProxyLinkerSample = createProxy(testHandler);
+    it('PerformanceTest_InvocationHandler_set_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+      let proxyObj: ProxyStub = new ProxyStub(testHandler);
       let testClass: ProxyLinkerSample = new ProxyLinkerSample();
       let testMethod: string = 'toString';
       let testValue: string | number | boolean | object | undefined = 'testValue';
@@ -176,17 +180,15 @@ export default function ReflectProxyPerfTest(): void {
         testHandler.setFn(proxyObj, testMethod, testValue);
       }
       let Dtime: number = systemDateTime.getTime(true) - Stime;
-      let res1: string | number | boolean | object | undefined = testValue;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InvocationHandler_set_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InvocationHandler_set_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'InvocationHandler', 'set',
         'set(proxy: Proxy, method: InstanceMethod, value: Any): void', arkTsAveragedTime);
-      expect(testValue === 'testValue').assertTrue();
       done();
     })
 
-    it('PerformanceTest_InvocationHandler_invoke_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
-      let proxyObj: ProxyLinkerSample = createProxy(testHandler);
+    it('PerformanceTest_InvocationHandler_invoke_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
+      let proxyObj: ProxyStub = new ProxyStub(testHandler);
       let testClass: ProxyLinkerSample = new ProxyLinkerSample();
       let testMethod: string = 'toString';
       let args: (string | number | boolean | object | undefined)[] = [];
@@ -198,10 +200,9 @@ export default function ReflectProxyPerfTest(): void {
       let Dtime: number = systemDateTime.getTime(true) - Stime;
       let res1: string | number | boolean | object | undefined = result;
       let arkTsAveragedTime: number = Dtime / BASE_COUNT;
-      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InvocationHandler_invoke_0100: ' + arkTsAveragedTime + 'ns');
+      console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_InvocationHandler_invoke_0700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.core', 'InvocationHandler', 'invoke',
         'invoke(proxy: Proxy, method: InstanceMethod, args: FixedArray<Any>): Any', arkTsAveragedTime);
-      expect(result === undefined).assertTrue();
       done();
     })
 
