@@ -7,7 +7,7 @@
 | Type system | Static, explicit | Static, explicit | Static, explicit + inference |
 | Declaration syntax | `let x: int = 1` | `int x = 1` | `let x: Int = 1` |
 | Constant declaration | `const x: int = 1` | `final int x = 1` | `let x: Int = 1` |
-| Field default values | `f: string = "aa"` | `String f = "aa"` | `var f: String = "aa"` |
+| Field default values | `f: string = "text"` | `String f = "text"` | `var f: String = "text"` |
 | Implicit widening | int→long, int→double | byte→short→int→long→float→double | Explicit only (no implicit) |
 | Narrowing | compile-time error | compile-time error (without cast) | compile-time error |
 | Composite literals | `[1, 2, 3]`, `{name: "x"}` | `{1, 2, 3}`, constructor args | `[1, 2, 3]`, memberwise init |
@@ -38,7 +38,7 @@
 | **Narrowing in declaration** | **Compile-time error** (`number→int`) | Compile error (`double→int` without cast) | Compile error |
 | **Null safety** | `null` is separate type, detected at compile time | `null` allowed on any reference type | `nil` only on `Optional<T>` |
 | **`const` semantics** | Compile-time constant | `final` = runtime constant | `let` = immutable binding |
-| **Field initialization** | `f: string = "aa"` | `String f = "aa";` | `var f: String = "aa"` |
+| **Field initialization** | `f: string = "text"` | `String f = "text";` | `var f: String = "text"` |
 | **Array literal** | `let a: int[] = [1,2]` | `int[] a = {1,2};` | `let a: [Int] = [1,2]` |
 | **Object literal** | Interface/class with fields | Constructor/builder pattern | Struct memberwise init |
 | **String context (+)** | `"a" + 1` implicit conversion | `"a" + 1` implicit toString() | **No implicit** `+` between String and Int |
@@ -79,7 +79,7 @@ let b: Bool = true
 **ArkTS:**
 ```typescript
 class C {
-    f: string = "aa"
+    f: string = "text"
     count: int = 0
 }
 ```
@@ -87,7 +87,7 @@ class C {
 **Java:**
 ```java
 class C {
-    String f = "aa";
+    String f = "text";
     int count = 0;
 }
 ```
@@ -95,7 +95,7 @@ class C {
 **Swift:**
 ```swift
 class C {
-    var f: String = "aa"
+    var f: String = "text"
     var count: Int = 0
 }
 ```

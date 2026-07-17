@@ -24,5 +24,5 @@ interface Data {
 }
 
 function testWideningWrongContextFail(): void {
-  let d: Data = { value: "not a number" }
+  let d: Data = { value: 'not a number' }
 }

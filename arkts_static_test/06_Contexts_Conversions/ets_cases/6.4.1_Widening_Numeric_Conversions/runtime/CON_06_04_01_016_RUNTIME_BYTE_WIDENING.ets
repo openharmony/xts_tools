@@ -24,22 +24,22 @@ function main(): void {
   let s: short = b
   if (s != 42) {
     throw new Error('byte→short: ' + s)
-}
+  }
   let i: int = b
   if (i != 42) {
     throw new Error('byte→int: ' + i)
-}
+  }
   let l: long = b
   if (l != 42) {
     throw new Error('byte→long: ' + l)
-}
+  }
   let f: float = b
   if (f != 42) {
     throw new Error('byte→float: ' + f)
-}
+  }
   let d: double = b
   if (d != 42.0) {
     throw new Error('byte→double: ' + d)
-}
+  }
   console.log('Byte widening verified')
 }

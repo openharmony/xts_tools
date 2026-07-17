@@ -26,24 +26,24 @@ function main(): void {
   u = b
   if (u != 1) {
     throw new Error('assertion: byte→union')
-}
+  }
 
   let i: int = 100
   u = i
   if (u != 100) {
     throw new Error('assertion: int→union')
-}
+  }
 
   u = 200
   if (u != 200) {
     throw new Error('assertion: literal→union')
-}
+  }
 
   let s: short = 50
   u = s
   if (u != 50) {
     throw new Error('assertion: short→union widening')
-}
+  }
 
   console.log('Union assign chain verified')
 }

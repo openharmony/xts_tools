@@ -21,7 +21,7 @@
  */
 function testCompositeArrayBasic(): void {
   let intArr: int[] = [1, 2, 3, 4, 5]
-  let strArr: string[] = ["a", "b", "c"]
+  let strArr: string[] = ['a','b','c']
   let boolArr: boolean[] = [true, false, true]
 
   let lenInt: int = intArr[0]

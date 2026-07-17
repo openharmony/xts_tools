@@ -24,23 +24,23 @@ function main(): void {
   let iFromByte: int = b
   if (iFromByte != 0) {
     throw new Error('byte 0→int')
-}
+  }
 
   let s: short = 0
   let iFromShort: int = s
   if (iFromShort != 0) {
     throw new Error('short 0→int')
-}
+  }
 
   let i: int = 0
   let l: long = i
   if (l != 0) {
     throw new Error('int 0→long')
-}
+  }
   let d: double = i
   if (d != 0.0) {
     throw new Error('int 0→double')
-}
+  }
 
   console.log('Zero widening verified')
 }

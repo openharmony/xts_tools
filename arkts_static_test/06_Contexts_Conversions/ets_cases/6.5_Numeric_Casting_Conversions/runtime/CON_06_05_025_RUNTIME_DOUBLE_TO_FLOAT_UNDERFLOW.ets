@@ -24,6 +24,6 @@ function main(): void {
     let f: float = tiny.toFloat()
     if (f != 0.0) {
     throw new Error('underflow mismatch')
-}
+  }
     console.log('verified')
 }

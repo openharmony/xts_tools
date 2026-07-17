@@ -34,7 +34,7 @@ function main(): void {
     throw new Error('assertion failed: arr[2] expected 30')
   }
 
-  let strArr: string[] = ["a", "b", "c"]
+  let strArr: string[] = ['a','b','c']
   if (strArr[0] != 'a') {
     throw new Error('assertion failed: strArr[0] expected 'a'')
   }

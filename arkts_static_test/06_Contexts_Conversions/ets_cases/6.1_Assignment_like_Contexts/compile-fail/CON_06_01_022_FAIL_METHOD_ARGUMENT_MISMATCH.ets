@@ -27,5 +27,5 @@ class Processor {
 
 function testMethodArgumentMismatchFail(): void {
   let proc: Processor = new Processor()
-  proc.process("invalid")
+  proc.process('invalid')
 }

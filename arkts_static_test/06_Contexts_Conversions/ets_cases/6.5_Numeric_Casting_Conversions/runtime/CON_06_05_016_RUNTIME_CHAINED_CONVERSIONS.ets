@@ -40,7 +40,7 @@ function main(): void {
   let d4: double = d3.toInt().toLong().toDouble()
   if (d4 != -7.0) {
     throw new Error('-7.8→int→long→double should be -7.0')
-}
+  }
 
   console.log('Chained conversions verified')
 }

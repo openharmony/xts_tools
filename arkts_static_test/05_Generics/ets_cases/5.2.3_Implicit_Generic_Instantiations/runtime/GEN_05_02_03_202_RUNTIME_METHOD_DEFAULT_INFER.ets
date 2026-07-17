@@ -24,7 +24,7 @@ class A213<T> {
 }
 function main(): void {
   let a213 = new A213<string>()
-  let r1: string = a213.foo("hello")
+  let r1: string = a213.foo('hello')
   if (r1 != 'hello') {
     throw new Error('method default infer failed')
   console.log('method default inference runtime verified')

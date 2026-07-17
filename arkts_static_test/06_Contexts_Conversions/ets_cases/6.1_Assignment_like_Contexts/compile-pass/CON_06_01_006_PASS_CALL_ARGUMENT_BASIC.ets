@@ -33,6 +33,6 @@ function takeBool(value: boolean): void {
 
 function testCallArgumentBasic(): void {
   takeInt(42)
-  takeString("hello")
+  takeString('hello')
   takeBool(true)
 }

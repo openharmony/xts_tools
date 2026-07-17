@@ -26,13 +26,13 @@ function main(): void {
   let u: int | long = e
   if (u != 1) {
     throw new Error('assertion: enum→int|long should be 1, got ' + u)
-}
+  }
 
   let e2: E = E.C
   let u2: int | double = e2
   if (u2 != 2) {
     throw new Error('assertion: enum→int|double should be 2')
-}
+  }
 
   console.log('Enum to union verified')
 }

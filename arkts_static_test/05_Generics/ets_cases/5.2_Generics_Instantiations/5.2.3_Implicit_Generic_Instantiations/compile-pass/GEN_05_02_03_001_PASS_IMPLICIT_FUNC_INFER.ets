@@ -20,4 +20,4 @@
  * @note 正向用例：验证从参数类型推断类型参数
  */
 function foo<T>(x: T, y: T): void {}
-foo(new Object(), new Object());
+foo({}, {});

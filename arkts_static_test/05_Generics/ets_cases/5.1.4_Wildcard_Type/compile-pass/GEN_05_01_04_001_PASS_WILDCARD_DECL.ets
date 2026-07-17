@@ -22,7 +22,7 @@
 class X001<T> { 
   public p: T; constructor(v: T) { this.p = v } }
 function wildcardDeclTest(): void {
-  let obj: Object = new X001<string>("hello")
+  let obj: Object = new X001<string>('hello')
   if (obj instanceof X001) {
     let w: Any = obj
     console.log('wildcard')

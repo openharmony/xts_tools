@@ -24,6 +24,6 @@ function main(): void {
     let f: float = large as float
     if (f != 16777216.0) {
     throw new Error('LSB loss mismatch')
-}
+  }
     console.log('verified')
 }

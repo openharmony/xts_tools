@@ -27,7 +27,7 @@ interface Config {
 
 function testCompositeObjectBasic(): void {
   let cfg: Config = {
-    name: "test",
+    name: 'test',
     count: 10,
     enabled: true
   }

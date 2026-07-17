@@ -24,14 +24,14 @@ function main(): void {
   let l: long = i
   if (l != 999) {
     throw new Error('int→long')
-}
+  }
   let f: float = i
   if (f != 999) {
     throw new Error('int→float')
-}
+  }
   let d: double = i
   if (d != 999.0) {
     throw new Error('int→double')
-}
+  }
   console.log('Int widening verified')
 }

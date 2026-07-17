@@ -29,7 +29,7 @@ function main(): void {
   let r: Rect = {
     width: 100,
     height: 50,
-    label: "box"
+    label: 'box'
   }
   if (r.width != 100) {
     throw new Error('assertion failed: r.width expected 100, got ' + r.width)

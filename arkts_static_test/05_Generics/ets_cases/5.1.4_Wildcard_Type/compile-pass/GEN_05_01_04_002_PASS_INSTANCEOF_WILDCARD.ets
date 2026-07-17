@@ -27,7 +27,7 @@ function bar(x: X<Any>): void {
     x.p = 'a';
 }
 function main(): void {
-    let obj: object = new X<string>("hello");
+    let obj: object = new X<string>('hello');
     if (obj instanceof X) {
     let x: X<Any> = obj as X<Any>;
         bar(x);

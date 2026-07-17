@@ -25,6 +25,6 @@ interface Settings {
 
 function testCompositeObjectMismatchFail(): void {
   let badSettings: Settings = {
-    timeout: "not an int"
+    timeout: 'not an int'
   }
 }

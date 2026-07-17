@@ -21,7 +21,7 @@
  */
 class X<T1, T2> {}
 class Y<T> extends X<number, T> {
-    f1: X<Object, T>;
-    f2: X<T, string>;
+  public f1: X<Object, T>;
+  public f2: X<T, string>;
     constructor() { super(); this.f1 = new X<Object, T>(); this.f2 = new X<T, string>(); }
 }
