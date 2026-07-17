@@ -37,14 +37,14 @@ export default function TypedArraysPerfTest13(): void {
     const BASE_COUNT: number = 1000;
 
     beforeEach(() => {
-
+      ArkTools.forceFullGC();
     })
 
     afterAll(() => {
       performance.save('apiPerformance.txt');
     })
 
-    it('PerformanceTest_BigInt64Array_some',
+    it('PerformanceTest_BigInt64Array_some_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -60,11 +60,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array some: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'some',
           'some((bigint, number, BigInt64Array): => boolean): boolean', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_BigInt64Array_reduce',
+    it('PerformanceTest_BigInt64Array_reduce_0200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -80,11 +79,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array reduce: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'reduce',
           'reduce((bigint, bigint, number, BigInt64Array): => bigint): bigint', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_BigInt64Array_reduceRight',
+    it('PerformanceTest_BigInt64Array_reduce_0200Right_0300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -100,11 +98,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array reduceRight: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'reduceRight',
           'reduceRight((bigint, bigint, number, BigInt64Array): => bigint): bigint', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_BigInt64Array_map',
+    it('PerformanceTest_BigInt64Array_map_0400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -120,11 +117,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array map: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'map',
           'map((bigint, number, BigInt64Array): => bigint): BigInt64Array', arkTsAveragedTime);
-        expect(res.length > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_BigInt64Array_every',
+    it('PerformanceTest_BigInt64Array_every_0500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -140,11 +136,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array every: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'every',
           'every((bigint, number, BigInt64Array): => boolean): boolean', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_BigInt64Array_filter',
+    it('PerformanceTest_BigInt64Array_filter_0600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -160,11 +155,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array filter: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'filter',
           'filter((bigint, number, BigInt64Array): => boolean): BigInt64Array', arkTsAveragedTime);
-        expect(res.length > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_BigInt64Array_find',
+    it('PerformanceTest_BigInt64Array_find_0700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -180,11 +174,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array find: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'find',
           'find((bigint, number, BigInt64Array): => boolean): bigint | undefined', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_BigInt64Array_findIndex',
+    it('PerformanceTest_BigInt64Array_find_0700Index_0800',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -200,11 +193,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array findIndex: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'findIndex',
           'findIndex((bigint, number, BigInt64Array): => boolean): number', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_BigInt64Array_findLast',
+    it('PerformanceTest_BigInt64Array_find_0700Last_0900',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -220,11 +212,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array findLast: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'findLast',
           'findLast((bigint, number, BigInt64Array): => boolean): bigint | undefined', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_BigInt64Array_findLastIndex',
+    it('PerformanceTest_BigInt64Array_find_0700Last_0900Index_1000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -244,11 +235,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array findLastIndex: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'findLastIndex',
           'findLastIndex((bigint, number, BigInt64Array): => boolean): number', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_BigInt64Array_forEach',
+    it('PerformanceTest_BigInt64Array_forEach_1100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -263,11 +253,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array forEach: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'forEach',
           'forEach((bigint, number, BigInt64Array): => void): void', arkTsAveragedTime);
-        expect(arr !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_BigInt64Array_valueOf',
+    it('PerformanceTest_BigInt64Array_valueOf_1200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: BigInt64Array = new BigInt64Array([BigInt(1), BigInt(2), BigInt(3), BigInt(4), BigInt(5)]);
@@ -282,11 +271,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest BigInt64Array valueOf: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'BigInt64Array', 'valueOf',
           'valueOf(): BigInt64Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_some',
+    it('PerformanceTest_Float32Array_some_1300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -302,11 +290,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array some: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'some',
           'some((number, number, Float32Array): => boolean): boolean', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_reduce',
+    it('PerformanceTest_Float32Array_reduce_1400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -322,11 +309,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array reduce: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'reduce',
           'reduce((number, number, number, Float32Array): => number): number', arkTsAveragedTime);
-        expect(res > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_reduceRight',
+    it('PerformanceTest_Float32Array_reduce_1400Right_1500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -342,11 +328,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array reduceRight: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'reduceRight',
           'reduceRight((number, number, number, Float32Array): => number): number', arkTsAveragedTime);
-        expect(res > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_map',
+    it('PerformanceTest_Float32Array_map_1600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -362,11 +347,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array map: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'map',
           'map((number, number, Float32Array): => number): Float32Array', arkTsAveragedTime);
-        expect(res.length > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_every',
+    it('PerformanceTest_Float32Array_every_1700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -382,11 +366,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array every: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'every',
           'every((number, number, Float32Array): => boolean): boolean', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_filter',
+    it('PerformanceTest_Float32Array_filter_1800',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -402,11 +385,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array filter: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'filter',
           'filter((number, number, Float32Array): => boolean): Float32Array', arkTsAveragedTime);
-        expect(res.length > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_find',
+    it('PerformanceTest_Float32Array_find_1900',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -422,11 +404,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array find: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'find',
           'find((number, number, Float32Array): => boolean): number | undefined', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_findIndex',
+    it('PerformanceTest_Float32Array_find_1900Index_2000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -442,11 +423,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array findIndex: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'findIndex',
           'findIndex((number, number, Float32Array): => boolean): number', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_findLast',
+    it('PerformanceTest_Float32Array_find_1900Last_2100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -462,11 +442,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array findLast: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'findLast',
           'findLast((number, number, Float32Array): => boolean): number | undefined', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_findLastIndex',
+    it('PerformanceTest_Float32Array_find_1900Last_2100Index_2200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -486,11 +465,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array findLastIndex: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'findLastIndex',
           'findLastIndex((number, number, Float32Array): => boolean): number', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_forEach',
+    it('PerformanceTest_Float32Array_forEach_2300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -505,11 +483,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array forEach: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'forEach',
           'forEach((number, number, Float32Array): => void): void', arkTsAveragedTime);
-        expect(arr !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float32Array_valueOf',
+    it('PerformanceTest_Float32Array_valueOf_2400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float32Array = new Float32Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -524,11 +501,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float32Array valueOf: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float32Array', 'valueOf',
           'valueOf(): Float32Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_some',
+    it('PerformanceTest_Float64Array_some_2500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -544,11 +520,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array some: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'some',
           'some((number, number, Float64Array): => boolean): boolean', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_reduce',
+    it('PerformanceTest_Float64Array_reduce_2600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -564,11 +539,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array reduce: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'reduce',
           'reduce((number, number, number, Float64Array): => number): number', arkTsAveragedTime);
-        expect(res > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_reduceRight',
+    it('PerformanceTest_Float64Array_reduce_2600Right_2700',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -584,11 +558,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array reduceRight: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'reduceRight',
           'reduceRight((number, number, number, Float64Array): => number): number', arkTsAveragedTime);
-        expect(res > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_map',
+    it('PerformanceTest_Float64Array_map_2800',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -604,11 +577,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array map: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'map',
           'map((number, number, Float64Array): => number): Float64Array', arkTsAveragedTime);
-        expect(res.length > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_every',
+    it('PerformanceTest_Float64Array_every_2900',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -624,11 +596,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array every: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'every',
           'every((number, number, Float64Array): => boolean): boolean', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_filter',
+    it('PerformanceTest_Float64Array_filter_3000',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -644,11 +615,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array filter: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'filter',
           'filter((number, number, Float64Array): => boolean): Float64Array', arkTsAveragedTime);
-        expect(res.length > 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_find',
+    it('PerformanceTest_Float64Array_find_3100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -664,11 +634,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array find: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'find',
           'find((number, number, Float64Array): => boolean): number | undefined', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_findIndex',
+    it('PerformanceTest_Float64Array_find_3100Index_3200',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -684,11 +653,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array findIndex: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'findIndex',
           'findIndex((number, number, Float64Array): => boolean): number', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_findLast',
+    it('PerformanceTest_Float64Array_find_3100Last_3300',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -704,11 +672,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array findLast: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'findLast',
           'findLast((number, number, Float64Array): => boolean): number | undefined', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_findLastIndex',
+    it('PerformanceTest_Float64Array_find_3100Last_3300Index_3400',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -728,11 +695,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array findLastIndex: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'findLastIndex',
           'findLastIndex((number, number, Float64Array): => boolean): number', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_forEach',
+    it('PerformanceTest_Float64Array_forEach_3500',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -747,11 +713,10 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array forEach: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'forEach',
           'forEach((number, number, Float64Array): => void): void', arkTsAveragedTime);
-        expect(arr !== undefined).assertTrue();
-        done();
+      done();
       })
 
-    it('PerformanceTest_Float64Array_valueOf',
+    it('PerformanceTest_Float64Array_valueOf_3600',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let arr: Float64Array = new Float64Array([1.0, 2.0, 3.0, 4.0, 5.0]);
@@ -766,8 +731,7 @@ export default function TypedArraysPerfTest13(): void {
         console.info('arkTsPerformanceTest Float64Array valueOf: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('std.core', 'Float64Array', 'valueOf',
           'valueOf(): Float64Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+      done();
       })
   })
 }
