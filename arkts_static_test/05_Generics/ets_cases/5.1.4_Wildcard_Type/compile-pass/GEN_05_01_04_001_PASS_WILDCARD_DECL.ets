@@ -19,8 +19,10 @@
  * @design instanceof浜х敓閫氶厤绗︾被鍨嬬殑姝ｅ悜楠岃瘉
  * @note 鏇夸唬鍘烳yContainer<Object>鐢ㄤ緥锛屾敼涓洪€氶厤绗﹀疄闄呭満鏅?
  */
-class X001<T> { 
-  public p: T; constructor(v: T) { this.p = v } }
+class X001<T> {
+  public p: T;
+  constructor(v: T) { this.p = v }
+}
 function wildcardDeclTest(): void {
   let obj: Object = new X001<string>('hello')
   if (obj instanceof X001) {

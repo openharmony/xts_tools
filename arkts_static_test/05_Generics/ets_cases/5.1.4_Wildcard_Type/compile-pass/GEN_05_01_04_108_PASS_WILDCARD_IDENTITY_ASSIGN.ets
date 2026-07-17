@@ -18,8 +18,10 @@
  * @section 5.1.4
  * @design 涓や釜instanceof鎺ㄦ柇鐨刋<*>绫诲瀷鍙簰鐩歌祴鍊? * @note spec_original: a1=a2 OK as X<*> and X<*> are identical
  */
-class X108<T> { 
-  public p: T; constructor(v: T) { this.p = v } }
+class X108<T> {
+  public p: T;
+  constructor(v: T) { this.p = v }
+}
 function foo108(a: Any, b: Any): void {
   if (a instanceof X108 && b instanceof X108) {
     let a1 = a
