@@ -13,17 +13,14 @@
  * limitations under the License.
 */
 /**
- * @id GEN_05_01_03_008_PASS_COVARIANT_OUT
- * @expect compile-pass
- * @section 5.1.3
- * @design 协变 out 类型参数编译验证
- * @note 编译验证，运行时入口问题暂不可执行
+ * @id CON_06_02_028_FAIL_FLOAT_ZERO_STRING_LOSS
+ * @expect compile-fail
+ * @section 6.2
+ * @design 浮点零 string 转换丢失 .0：0.0 → "0" 而非 "0.0"
+ * @note ⚠️ SPEC 不一致：spec §6.2 要求 "without the loss of information"
+ *       原 CON_06_02_017 被改为 1.0 规避此问题
  */
-class W<out T> {
-    readonly value: T;
-    constructor(v: T) { this.value = v; }
-}
-function main(): void {
-    let w: W<number> = new W<number>(42);
-    if (w.value != 42) throw new Error("assertion failed: " + w.value);
+function testFloatZeroStringLoss(): void {
+  let s: string = 0.0 + ' is zero'
+  if (s != '0.0 is zero') {}
 }

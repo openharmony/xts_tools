@@ -27,7 +27,7 @@ interface X<T extends C> {
 }
 function foo(o: Object): void {
     if (o instanceof X) {
-        let o1: X<C> = o;      // Compile-time error: X<*> not subtype of X<C>
+    let o1: X<C> = o;      // Compile-time error: X<*> not subtype of X<C>
         let o2: X<never> = o;  // Compile-time error: X<*> not subtype of X<never>
     }
 }

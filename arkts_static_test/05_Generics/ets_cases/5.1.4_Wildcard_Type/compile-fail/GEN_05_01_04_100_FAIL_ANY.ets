@@ -24,7 +24,7 @@ class X<T> {
     constructor(v: T) { this.p = v; }
 }
 function bar(x: X<Any>): void {
-    x.p = "a";
+    x.p = 'a';
 }
 function foo(obj: Object): void {
     if (obj instanceof X) {

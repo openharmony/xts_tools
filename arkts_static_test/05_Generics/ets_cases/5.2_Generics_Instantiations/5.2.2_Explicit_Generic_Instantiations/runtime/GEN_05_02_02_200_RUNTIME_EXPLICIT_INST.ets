@@ -24,9 +24,9 @@ class MyBox4<T> {
     constructor(v: T) { this.value = v; }
 }
 function main(): void {
-    let b: MyBox4<string> = new MyBox4<string>("hello");
-    if (b.value != "hello") {
-        throw new Error("assertion failed: " + b.value);
+    let b: MyBox4<string> = new MyBox4<string>('hello');
+    if (b.value != 'hello') {
+    throw new Error('assertion failed: ' + b.value);
     }
-    console.log("verified");
+    console.log('verified');
 }

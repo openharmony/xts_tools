@@ -26,7 +26,7 @@ class MyBox2<T> {
 function main(): void {
     let b: MyBox2<number> = new MyBox2<number>(42);
     if (b.value != 42) {
-        throw new Error("assertion failed: " + b.value);
+    throw new Error('assertion failed: ' + b.value);
     }
-    console.log("verified");
+    console.log('verified');
 }

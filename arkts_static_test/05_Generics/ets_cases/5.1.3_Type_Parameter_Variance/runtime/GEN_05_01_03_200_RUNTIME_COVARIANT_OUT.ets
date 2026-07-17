@@ -26,10 +26,10 @@ class CovariantHolder<out T> {
 }
 
 function main(): void {
-    let h: CovariantHolder<string> = new CovariantHolder<string>("runtime_ok");
+    let h: CovariantHolder<string> = new CovariantHolder<string>('runtime_ok');
     let v: string = h.get();
-    if (v != "runtime_ok") {
-        throw new Error("assertion failed: " + v);
+    if (v != 'runtime_ok') {
+    throw new Error('assertion failed: ' + v);
     }
-    console.log("verified");
+    console.log('verified');
 }
