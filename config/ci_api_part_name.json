@@ -5800,6 +5800,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.animator.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.application.formProvider.d.ts",
             "bundle_name": [
                 "form_fwk"
@@ -9041,6 +9048,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/panel.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/image_animator.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -9469,6 +9483,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/animator.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/animator.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
