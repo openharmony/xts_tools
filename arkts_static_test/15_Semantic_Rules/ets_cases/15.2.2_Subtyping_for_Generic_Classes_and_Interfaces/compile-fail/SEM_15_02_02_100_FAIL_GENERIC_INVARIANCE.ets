@@ -19,8 +19,8 @@
  * @design 验证泛型类不变性：Derived[] 不是 Base[] 的子类型
  * @note 反向用例：泛型类型不变，Derived[] 不可赋值给 Base[]
  */
-class Base { value: int = 0; }
-class Derived extends Base { extra: int = 0; }
+class Base { public value: int= 0; }
+class Derived extends Base { public extra: int= 0; }
 function acceptBaseArray(arr: Base[]): void { console.log(`Length: ${arr.length}`); }
 function main(): void {
     let derivedArr: Derived[] = [new Derived()];

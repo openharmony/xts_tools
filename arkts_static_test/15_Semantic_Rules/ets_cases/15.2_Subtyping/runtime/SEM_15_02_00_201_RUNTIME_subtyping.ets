@@ -19,7 +19,7 @@
  * @design 子类型运行时
  * @note 运行时用例
  */
-class A { x: int = 0; } function main(): void {
+class A { public x: int= 0; } function main(): void {
 let a: A = new A();
 a.x = 42;
 if (a.x != 42) {

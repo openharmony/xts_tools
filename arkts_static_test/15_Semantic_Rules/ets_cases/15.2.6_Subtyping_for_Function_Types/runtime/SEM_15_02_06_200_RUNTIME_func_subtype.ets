@@ -19,8 +19,8 @@
  * @design 函数类型子类型运行时
  * @note 运行时用例
  */
-class A { name: string = ''; }
-class D extends A { breed: string = ''; }
+class A { public name: string= ''; }
+class D extends A { public breed: string= ''; }
 function use(fn: (d: D) => string): string { let d: D = new D(); d.name = 'x'; return fn(d); }
 function handler(a: A): string { return a.name; }
 function main(): void {

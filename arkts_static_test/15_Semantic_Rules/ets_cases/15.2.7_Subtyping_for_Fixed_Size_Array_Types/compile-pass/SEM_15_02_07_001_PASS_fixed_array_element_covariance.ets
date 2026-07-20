@@ -19,8 +19,8 @@
  * @design 验证 FixedArray 元素协变：FixedDerived[] 可作为 FixedBase[]
  * @note 正向用例：FixedArray 是内置特殊类型，设计为协变（类似 Java 数组）
  */
-class Base { value: int = 0; }
-class Derived extends Base { extra: int = 0; }
+class Base { public value: int= 0; }
+class Derived extends Base { public extra: int= 0; }
 function acceptBase(arr: FixedBase[]): void {
     console.log(`${arr[0].value}`);
 }

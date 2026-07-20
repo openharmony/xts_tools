@@ -20,7 +20,7 @@
  * @note 编译器暂不支持 & 语法，通过 C&I 场景验证
  */
 interface Named { name: string; }
-class Person { name: string = ''; age: int = 0; }
+class Person { public name: string= ''; age: int = 0; }
 function greet(p: Person & Named): void {
     console.log(p.name);
 }
