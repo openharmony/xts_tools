@@ -19,7 +19,7 @@
  * @design Module can contain sequences of top-level statements
  */
 
-console.log("Start of top-level statements")
+console.log('Start of top-level statements')
 
 type A = number | string
 
@@ -29,4 +29,4 @@ function foo(): void {
     console.log(a.toString())
 }
 
-a = "a string"
+a = 'a string'

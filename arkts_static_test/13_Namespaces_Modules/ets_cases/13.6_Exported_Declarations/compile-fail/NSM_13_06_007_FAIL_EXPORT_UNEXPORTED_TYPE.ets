@@ -17,7 +17,7 @@
  * @expect compile-fail
  * @section 13.6
  * @design Exported function/accessor/variable uses unexported entity
- *                   → compile-time error
+ *     → compile-time error
  */
 
 class A { constructor(a: A) {}; }

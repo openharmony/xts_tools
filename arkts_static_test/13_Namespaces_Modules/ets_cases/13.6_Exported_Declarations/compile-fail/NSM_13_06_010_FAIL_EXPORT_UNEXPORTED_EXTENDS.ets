@@ -17,7 +17,7 @@
  * @expect compile-fail
  * @section 13.6
  * @design An unexported class or interface is used in extends/implements
- *                   clause of exported class → compile-time error
+ *     clause of exported class → compile-time error
  */
 
 class C { constructor() {} }

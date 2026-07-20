@@ -21,9 +21,9 @@
  */
 
 namespace A {
-    export function foo(): void {
-        console.log("1st A.foo()")
-    }
+  export function foo(): void {
+    console.log('1st A.foo()')
+  }
 }
 
 namespace A {

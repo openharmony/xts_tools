@@ -24,8 +24,8 @@
  *       当前 es2panda 单文件编译报错：Fatal error F0014: Unresolved module name for path
  *       分类：C 类（编译器实现限制 — 需要构建系统配置）
  */
-import { console } from "@ohos.log"
+import { console } from '@ohos.log'
 
 function main(): void {
-    console.log("Import basic works")
+  console.log('Import basic works')
 }

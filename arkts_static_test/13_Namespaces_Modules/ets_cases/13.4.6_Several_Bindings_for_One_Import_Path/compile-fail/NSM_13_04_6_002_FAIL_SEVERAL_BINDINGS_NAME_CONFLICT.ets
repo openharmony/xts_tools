@@ -20,6 +20,6 @@
  *                   — same name imported twice without alias causes conflict
  */
 
-import { sin } from "@ohos.math"
-import { sin } from "@ohos.math"
+import { sin } from '@ohos.math'
+import { sin } from '@ohos.math'
 // Compile-time error: 'sin' already bound in declaration scope (or warning)

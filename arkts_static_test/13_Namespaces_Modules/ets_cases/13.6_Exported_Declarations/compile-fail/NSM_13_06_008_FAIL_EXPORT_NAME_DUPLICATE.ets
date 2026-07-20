@@ -17,8 +17,8 @@
  * @expect compile-fail
  * @section 13.6
  * @design If an export directive uses selectiveBindings or bindingAlias
- *                   to give a new name that clashes with another exported declaration
- *                   → compile-time error
+ *     to give a new name that clashes with another exported declaration
+ *     → compile-time error
  */
 
 export function foo(): void {}

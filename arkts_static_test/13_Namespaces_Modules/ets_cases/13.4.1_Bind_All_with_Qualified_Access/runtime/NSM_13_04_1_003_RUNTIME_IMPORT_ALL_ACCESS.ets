@@ -22,7 +22,7 @@
  *       ⚠️ C 类：需要多文件构建系统支持，单文件 es2panda 无法解析 "@ohos.math"
  *       分类：C 类（编译器实现限制 — 需要构建系统配置）
  */
-import * as Math from "@ohos.math"
+import * as Math from '@ohos.math'
 
 function main(): int {
     let result: number = Math.abs(-5)

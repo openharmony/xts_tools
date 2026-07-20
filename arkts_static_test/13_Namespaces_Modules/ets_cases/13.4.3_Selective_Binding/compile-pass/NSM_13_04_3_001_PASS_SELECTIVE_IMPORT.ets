@@ -22,7 +22,7 @@
  *       ⚠️ C 类：需要多文件构建系统支持
  *       分类：C 类（编译器实现限制 — 需要构建系统配置）
  */
-import { sin } from "@ohos.math"
+import { sin } from '@ohos.math'
 
 function main(): void {
     let x: number = sin(1.0)

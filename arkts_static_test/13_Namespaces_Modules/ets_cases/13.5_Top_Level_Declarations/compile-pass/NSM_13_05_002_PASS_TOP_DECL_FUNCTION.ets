@@ -20,7 +20,7 @@
  */
 
 function greet(name: string): string {
-    return "Hello, " + name
+  return 'Hello, ' + name
 }
 
 function main(): void {

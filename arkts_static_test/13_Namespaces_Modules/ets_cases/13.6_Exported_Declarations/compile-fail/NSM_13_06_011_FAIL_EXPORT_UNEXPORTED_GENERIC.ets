@@ -17,7 +17,7 @@
  * @expect compile-fail
  * @section 13.6
  * @design Exported generic entity uses unexported declaration as type
- *                   parameter constraint or default → compile-time error
+ *     parameter constraint or default → compile-time error
  */
 
 class Arg {}

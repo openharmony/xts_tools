@@ -20,5 +20,5 @@
  *                   → compile-time error
  */
 
-import type { type Class2 } from "./types_module.ets"
+import type { type Class2 } from './types_module.ets'
 // Compile-time error: import type + binding type conflict

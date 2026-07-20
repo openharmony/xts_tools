@@ -20,6 +20,6 @@
  */
 
 function main(): int {
-    console.log("StdLib access OK")
-    return 0
+  console.log('StdLib access OK')
+  return 0
 }

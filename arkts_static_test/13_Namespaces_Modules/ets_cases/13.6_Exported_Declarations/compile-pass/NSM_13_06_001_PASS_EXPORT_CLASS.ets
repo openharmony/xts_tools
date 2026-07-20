@@ -20,10 +20,10 @@
  */
 
 export class Point {
-    x: int
-    y: int
-    constructor(x: int, y: int) {
-        this.x = x
-        this.y = y
-    }
+  public x: int
+  public y: int
+  constructor(x: int, y: int) {
+    this.x = x
+    this.y = y
+  }
 }

@@ -17,9 +17,9 @@
  * @expect compile-fail
  * @section 13.4
  * @design A non-import directive, declaration, or statement preceding an
- *                   import directive causes a compile-time error
+ *          import directive causes a compile-time error
  */
 
 let x: int = 1
-import { console } from "@ohos.log"
+import { console } from '@ohos.log'
 // Compile-time error: import must precede other declarations

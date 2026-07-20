@@ -20,5 +20,5 @@
  *                   stored in → compile-time error
  */
 
-export * from "./NSM_13_07_4_003_FAIL_RE_EXPORT_SELF.ets"
+export * from './NSM_13_07_4_003_FAIL_RE_EXPORT_SELF.ets'
 // Compile-time error: re-export refers to current file

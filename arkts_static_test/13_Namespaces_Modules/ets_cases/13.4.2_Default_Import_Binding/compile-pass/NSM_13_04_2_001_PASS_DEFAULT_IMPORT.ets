@@ -22,7 +22,7 @@
  *       ⚠️ C 类：需要多文件构建系统支持
  *       分类：C 类（编译器实现限制 — 需要构建系统配置）
  */
-import DefaultExportedItem from "@ohos.someModule"
+import DefaultExportedItem from '@ohos.someModule'
 
 function main(): void {
     let v1 = new DefaultExportedItem()

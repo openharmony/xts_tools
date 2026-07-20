@@ -22,7 +22,7 @@
  *       ⚠️ C 类：es2panda 不支持 module header 语法，且多文件模块需要构建系统
  *       分类：C 类（编译器实现限制 — 不支持 module header 语法 + 需要多文件构建）
  */
-export module "x"
+export module 'x'
 
 function foo(): void {}
 function bar(): void {}

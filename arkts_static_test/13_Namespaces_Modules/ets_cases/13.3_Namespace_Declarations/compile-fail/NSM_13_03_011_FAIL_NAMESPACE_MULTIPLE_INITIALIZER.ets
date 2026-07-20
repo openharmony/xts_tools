@@ -24,11 +24,11 @@
  *       分类：D 类（Spec 与实现不一致）
  */
 namespace A {
-    export let x: int = 1
-    console.log("Initializer 1")
+  export let x: int = 1
+  console.log('Initializer 1')
 }
 
 namespace A {
-    export let y: int = 2
-    console.log("Initializer 2") // Spec: compile-time error, but ArkTS allows
+  export let y: int = 2
+  console.log('Initializer 2') // Spec: compile-time error, but ArkTS allows
 }

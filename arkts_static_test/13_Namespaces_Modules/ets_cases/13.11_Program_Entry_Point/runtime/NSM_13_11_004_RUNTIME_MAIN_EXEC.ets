@@ -20,6 +20,6 @@
  */
 
 function main(): int {
-    console.log("main() executed")
-    return 0
+  console.log('main() executed')
+  return 0
 }

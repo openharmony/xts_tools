@@ -17,7 +17,7 @@
  * @expect compile-fail
  * @section 13.6
  * @design A compile-time error occurs if more than one top-level
- *                   declaration is marked as default
+ *          declaration is marked as default
  */
 
 export default let PI: number = 3.14

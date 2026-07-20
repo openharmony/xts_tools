@@ -22,7 +22,7 @@
  *       ⚠️ C 类：需要多文件构建系统支持，单文件无法解析 "./types_module.ets"
  *       分类：C 类（编译器实现限制 — 需要辅助模块文件）
  */
-import type { SomeClass } from "./types_module.ets"
+import type { SomeClass } from './types_module.ets'
 
 function main(): void {
     let c: SomeClass | null = null

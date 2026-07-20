@@ -21,10 +21,10 @@
  */
 
 namespace NS1 {
-    export let a: number = 1
-    export function foo(): void {
-        console.log("NS1.foo")
-    }
+  export let a: number = 1
+  export function foo(): void {
+    console.log('NS1.foo')
+  }
 }
 
 function main(): void {

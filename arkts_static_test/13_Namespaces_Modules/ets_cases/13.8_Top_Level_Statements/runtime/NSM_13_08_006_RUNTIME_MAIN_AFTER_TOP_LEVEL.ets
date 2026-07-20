@@ -20,7 +20,7 @@
  * @note verifies execution order: top-level statements first, then main()
  */
 
-let order: string = ""
+let order: string = ''
 
 order += 'T' // top-level statement runs first
 

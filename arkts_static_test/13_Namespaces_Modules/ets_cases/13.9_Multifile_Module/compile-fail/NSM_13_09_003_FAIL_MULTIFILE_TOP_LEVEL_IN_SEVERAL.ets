@@ -20,12 +20,11 @@
  *                   then a compile-time error occurs
  */
 
-module "y"
+module 'y'
 let a: int = 8
 
 namespace NS1 {
     let b: int = 9
 }
 
-// In another file with module "y":
-// let b = 4 // Compile-time error: top-level statements in several files
+

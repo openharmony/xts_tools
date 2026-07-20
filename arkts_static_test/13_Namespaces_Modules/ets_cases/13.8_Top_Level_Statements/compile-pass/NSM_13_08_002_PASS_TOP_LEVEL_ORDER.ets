@@ -21,7 +21,7 @@
  */
 
 function foo(): void {
-    console.log("foo called")
+  console.log('foo called')
 }
 
-console.log("Top-level statement after declaration")
+console.log('Top-level statement after declaration')

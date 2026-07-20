@@ -19,7 +19,7 @@
  * @design After using alias, the original name is not accessible
  */
 
-import { sin as Sine } from "@ohos.math"
+import { sin as Sine } from '@ohos.math'
 
 function main(): void {
     let x: number = sin(1.0) // Compile-time error: 'sin' is not accessible after alias

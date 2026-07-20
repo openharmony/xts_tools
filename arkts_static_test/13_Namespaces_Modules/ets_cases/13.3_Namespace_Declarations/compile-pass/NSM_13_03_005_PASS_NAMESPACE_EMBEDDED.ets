@@ -20,10 +20,10 @@
  */
 
 namespace ExternalSpace {
-    export function foo(): void {
-        console.log("ExternalSpace.foo")
-    }
-    export let variable: number = 1234
+  export function foo(): void {
+    console.log('ExternalSpace.foo')
+  }
+  export let variable: number = 1234
 
     export namespace EmbeddedSpace {
         export const constant: int = 5678

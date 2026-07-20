@@ -20,5 +20,5 @@
  */
 
 function main(): void {
-    console.log("Hello from main")
+  console.log('Hello from main')
 }

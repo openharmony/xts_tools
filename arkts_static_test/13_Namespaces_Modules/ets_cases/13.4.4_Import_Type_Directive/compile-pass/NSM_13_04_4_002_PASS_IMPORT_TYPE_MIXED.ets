@@ -22,7 +22,7 @@
  *       ⚠️ C 类：需要多文件构建系统支持，单文件无法解析 "./mixed_module.ets"
  *       分类：C 类（编译器实现限制 — 需要辅助模块文件）
  */
-import { Class1, type Class2 } from "./mixed_module.ets"
+import { Class1, type Class2 } from './mixed_module.ets'
 
 function main(): void {
     let c1: Class1 = new Class1()

@@ -20,5 +20,5 @@
  *                   contain a return statement
  */
 
-console.log("Top-level statement")
+console.log('Top-level statement')
 return 0 // Compile-time error: return in top-level statement

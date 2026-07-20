@@ -22,7 +22,7 @@
  */
 
 function main(): string { // Compile-time error: incorrect return type
-    return ""
+  return ''
 }
 
 function main(p: number) { // Compile-time error: incorrect parameter type

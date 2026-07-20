@@ -29,6 +29,6 @@ function d2(): void {}
 export { d2 as d3 }
 
 function main(): void {
-    d2() // OK: in the same module, 'd2' is still accessible after alias export
-    console.log("alias local access OK")
+  d2() // OK: in the same module, 'd2' is still accessible after alias export
+  console.log('alias local access OK')
 }

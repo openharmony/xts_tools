@@ -24,6 +24,6 @@
 export class A {}
 
 // Another hypothetical file also exports class A
-export * from "./file1_with_A"
-export * from "./file2_with_A"
+export * from './file1_with_A'
+export * from './file2_with_A'
 // Compile-time error: entity named 'A' is already exported

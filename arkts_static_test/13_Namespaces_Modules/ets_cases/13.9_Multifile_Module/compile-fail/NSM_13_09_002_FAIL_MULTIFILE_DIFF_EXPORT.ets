@@ -20,7 +20,7 @@
  *                   export modifiers, then a compile-time error occurs
  */
 
-export module "x"
+export module 'x'
 function foo(): void {}
 
 // In another file: module "x" (without export) → compile-time error

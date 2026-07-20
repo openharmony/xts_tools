@@ -22,7 +22,7 @@
  *       ⚠️ C 类：需要多文件构建系统支持，单文件 es2panda 无法解析 "@ohos.util"
  *       分类：C 类（编译器实现限制 — 需要构建系统配置）
  */
-import * as Utils from "@ohos.util"
+import * as Utils from '@ohos.util'
 
 function main(): void {
     Utils.someFunction()

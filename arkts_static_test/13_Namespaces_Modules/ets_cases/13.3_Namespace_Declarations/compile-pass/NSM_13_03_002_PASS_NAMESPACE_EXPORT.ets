@@ -20,11 +20,11 @@
  */
 
 namespace Colors {
-    export const RED: string = "#FF0000"
-    export const BLUE: string = "#0000FF"
-    export function mix(c1: string, c2: string): string {
-        return c1 + " + " + c2
-    }
+  export const RED: string = '#FF0000'
+  export const BLUE: string = '#0000FF'
+  export function mix(c1: string, c2: string): string {
+    return c1 + ' + ' + c2
+  }
 }
 
 function main(): void {
