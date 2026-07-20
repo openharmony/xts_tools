@@ -1,0 +1,28 @@
+/*
+* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+*/
+/*
+ * @id SEM_15_04_00_014_PASS_valid_numeric_widening
+ * @expect compile-pass
+ * @section 15.4
+ * @design | 数值转换 | Java 有 primitive widening，但数值体系不同。 | Swift 通常要求显式数值转换。 | `SEM_15_04_017_PASS_valid_numeric_widening` | `SEM_15_04_019_FAIL_double_to_int` |
+ * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ */
+
+function sem_15_04_pass_021_valid_numeric_widening(): void {
+  let value: int = 1
+}
+
+
+
