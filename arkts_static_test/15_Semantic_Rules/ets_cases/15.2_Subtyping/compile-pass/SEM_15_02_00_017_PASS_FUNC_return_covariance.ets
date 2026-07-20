@@ -22,7 +22,7 @@
 
 // 测试函数类型的返回类型协变
 class Animal {
-  name: string = 'animal'
+  public name: string = 'animal'
 }
 
 class Dog extends Animal {

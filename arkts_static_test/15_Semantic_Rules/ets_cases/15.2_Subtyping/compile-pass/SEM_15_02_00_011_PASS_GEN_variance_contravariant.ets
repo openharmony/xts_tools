@@ -22,7 +22,7 @@
 
 // 测试泛型逆变（in 类型参数）
 class Animal {
-  name: string = 'animal'
+  public name: string = 'animal'
 }
 
 class Dog extends Animal {

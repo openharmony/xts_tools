@@ -22,11 +22,11 @@
 
 // 测试将超类赋值给子类型（编译失败）
 class Base {
-  name: string = 'base'
+  public name: string = 'base'
 }
 
 class Derived extends Base {
-  extra: number = 42
+  public extra: number = 42
 }
 
 function testAssignSuperclassToSubclass(): void {

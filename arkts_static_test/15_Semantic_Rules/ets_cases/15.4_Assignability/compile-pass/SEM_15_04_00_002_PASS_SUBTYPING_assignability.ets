@@ -22,7 +22,7 @@
 
 // 测试基于子类型的可赋值性
 class Animal {
-  name: string = 'animal'
+  public name: string = 'animal'
 }
 
 class Dog extends Animal {

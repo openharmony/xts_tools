@@ -22,15 +22,15 @@
 
 // 测试联合类型的子类型关系
 class Base {
-  name: string = 'base'
+  public name: string = 'base'
 }
 
 class Derived1 extends Base {
-  value1: number = 1
+  public value1: number = 1
 }
 
 class Derived2 extends Base {
-  value2: string = 'two'
+  public value2: string = 'two'
 }
 
 function testUnionSubtype(): void {

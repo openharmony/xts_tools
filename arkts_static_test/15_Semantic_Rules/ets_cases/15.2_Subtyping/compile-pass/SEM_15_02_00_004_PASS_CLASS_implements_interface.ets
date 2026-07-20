@@ -26,7 +26,7 @@ interface Printable {
 }
 
 class Document implements Printable {
-  content: string = 'document'
+  public content: string = 'document'
   
   print(): void {
     console.log(this.content)

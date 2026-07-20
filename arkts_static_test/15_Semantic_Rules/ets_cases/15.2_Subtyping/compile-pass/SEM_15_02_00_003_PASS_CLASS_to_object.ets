@@ -22,7 +22,7 @@
 
 // 测试没有 extends 子句的类是 Object 的子类型
 class NoExtendsClass {
-  value: number = 100
+  public value: number = 100
 }
 
 function testClassToObject(): void {

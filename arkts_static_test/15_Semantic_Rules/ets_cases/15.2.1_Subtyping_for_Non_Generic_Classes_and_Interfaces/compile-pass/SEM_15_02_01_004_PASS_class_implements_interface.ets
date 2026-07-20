@@ -21,7 +21,7 @@
  */
 interface T {}
 class S implements T {
-    x: int = 0
+    public x: int = 0
 }
 function foo(t: T): void {}
 function main(): void {

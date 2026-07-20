@@ -22,7 +22,7 @@
 
 // 测试泛型不变性
 class Container<T> {
-  value: T
+  public value: T
   
   constructor(v: T) {
     this.value = v
@@ -42,7 +42,7 @@ function testGenericInvariance(): void {
 
 // 测试泛型协变（使用 out 类型参数）
 class Box<out T> {
-  value: T
+  public value: T
     
   constructor(v: T) {
     this.value = v

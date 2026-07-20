@@ -22,15 +22,15 @@
 
 // 测试泛型不变性（编译失败）
 class Base {
-  name: string = 'base'
+  public name: string = 'base'
 }
 
 class Derived extends Base {
-  extra: number = 42
+  public extra: number = 42
 }
 
 class Container<T> {
-  value: T
+  public value: T
   
   constructor(v: T) {
     this.value = v

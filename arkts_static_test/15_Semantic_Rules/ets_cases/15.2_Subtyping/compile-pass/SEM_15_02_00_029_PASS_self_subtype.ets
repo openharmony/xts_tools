@@ -22,7 +22,7 @@
 
 // 测试类型自身的子类型关系
 class A {
-  x: int = 0
+  public x: int = 0
 }
 
 function testSelfSubtype(): void {

@@ -22,7 +22,7 @@
 
 // 测试泛型协变（out 类型参数）
 class Animal {
-  name: string = 'animal'
+  public name: string = 'animal'
 }
 
 class Dog extends Animal {
@@ -32,7 +32,7 @@ class Dog extends Animal {
 }
 
 class Box<out T> {
-  value: T
+  public value: T
   
   constructor(v: T) {
     this.value = v

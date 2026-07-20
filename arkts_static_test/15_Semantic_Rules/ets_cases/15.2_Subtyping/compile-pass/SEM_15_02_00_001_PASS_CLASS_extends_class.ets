@@ -22,11 +22,11 @@
 
 // 测试类扩展的子类型关系
 class Base {
-  name: string = 'Base'
+  public name: string = 'Base'
 }
 
 class Derived extends Base {
-  extra: number = 42
+  public extra: number = 42
 }
 
 function testClassExtendsSubtype(): void {

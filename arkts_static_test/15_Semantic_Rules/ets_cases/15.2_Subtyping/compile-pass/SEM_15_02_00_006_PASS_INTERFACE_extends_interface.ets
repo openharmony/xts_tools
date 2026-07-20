@@ -31,7 +31,7 @@ interface Pet extends Animal {
 }
 
 class Dog implements Pet {
-  name: string = 'dog'
+  public name: string = 'dog'
   
   eat(): void {
     console.log('Dog eats')

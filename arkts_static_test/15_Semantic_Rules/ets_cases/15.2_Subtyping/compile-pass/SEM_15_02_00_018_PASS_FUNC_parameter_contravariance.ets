@@ -22,7 +22,7 @@
 
 // 测试函数类型的参数类型逆变
 class Animal {
-  name: string = 'animal'
+  public name: string = 'animal'
 }
 
 class Dog extends Animal {

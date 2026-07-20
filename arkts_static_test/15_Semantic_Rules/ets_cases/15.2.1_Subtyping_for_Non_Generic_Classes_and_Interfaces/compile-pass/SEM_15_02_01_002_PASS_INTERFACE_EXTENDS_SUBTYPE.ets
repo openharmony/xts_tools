@@ -23,7 +23,7 @@ interface Readable { read(): string; }
 interface Writable { write(data: string): void; }
 interface ReadWrite extends Readable, Writable { readAndWrite(): string; }
 class FileStream implements ReadWrite {
-    content: string = ''; read(): string { return this.content; }
+    public content: string = ''; read(): string { return this.content; }
     write(data: string): void { this.content = data; }
     readAndWrite(): string { return `rw: ${this.content}`; }
 }
