@@ -21,7 +21,7 @@
  */
 
 // 测试 switch 语句中的类型收窄
-function test_switch_narrowing(value: number | string | boolean): void {
+function testSwitchNarrowing(value: number | string | boolean): void {
   // switch 语句中的类型收窄
   switch (typeof value) {
     case "number":
@@ -45,7 +45,7 @@ function test_switch_narrowing(value: number | string | boolean): void {
 }
 
 // 测试 switch 语句中的联合类型收窄
-function test_switch_union_narrowing(value: number | string | undefined): void {
+function testSwitchUnionNarrowing(value: number | string | undefined): void {
   if (value != undefined) {
     // value 的智能类型是 number | string
     switch (typeof value) {

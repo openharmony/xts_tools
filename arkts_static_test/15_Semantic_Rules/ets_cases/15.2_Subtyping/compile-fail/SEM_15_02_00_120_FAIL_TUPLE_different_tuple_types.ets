@@ -21,7 +21,7 @@
  */
 
 // 测试元组类型不匹配（编译失败）
-function test_tuple_type_mismatch(): void {
+function testTupleTypeMismatch(): void {
   let t1: [number] = [1]
   let t2: [string, number] = ["hello", 2]
   let t3: [number, string] = [1, "hello"]

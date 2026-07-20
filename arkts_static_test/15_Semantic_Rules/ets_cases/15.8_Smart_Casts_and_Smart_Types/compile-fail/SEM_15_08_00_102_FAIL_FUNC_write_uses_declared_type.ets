@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_08_func_fail_003_write_uses_declared_type(): void {
+function sem1508FuncFail003WriteUsesDeclaredType(): void {
   let value: string = 1
 }
 

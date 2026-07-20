@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_03_pass_005_same_function_signature(): void {
+function sem1503Pass005SameFunctionSignature(): void {
   let value: int = 1
   value = value + 1
 }

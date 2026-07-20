@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_01_pass_013_string_plus_nullish(): void {
+function sem1501Pass013StringPlusNullish(): void {
   let value: int = 1
 }
 

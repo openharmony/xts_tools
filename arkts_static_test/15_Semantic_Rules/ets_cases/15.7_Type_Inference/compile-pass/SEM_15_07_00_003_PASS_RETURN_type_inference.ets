@@ -21,7 +21,7 @@
  */
 
 // 测试返回类型推断
-function test_return_type_inference(): void {
+function testReturnTypeInference(): void {
   // 没有返回语句，推断为 void
   function foo1(): void {
     console.log('foo1')
@@ -52,7 +52,7 @@ function test_return_type_inference(): void {
 }
 
 // 测试异步函数的返回类型推断
-async function test_async_return_type_inference(): Promise<void> {
+async function testAsyncReturnTypeInference(): Promise<void> {
   // 异步函数，推断返回类型是 Promise<T>
   async function foo() {
     return 42

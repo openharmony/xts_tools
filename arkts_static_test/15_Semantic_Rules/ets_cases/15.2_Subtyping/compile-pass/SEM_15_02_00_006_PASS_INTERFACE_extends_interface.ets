@@ -42,7 +42,7 @@ class Dog implements Pet {
   }
 }
 
-function test_interface_extends_interface(): void {
+function testInterfaceExtendsInterface(): void {
   let animal: Animal
   let pet: Pet
   let dog: Dog = new Dog()

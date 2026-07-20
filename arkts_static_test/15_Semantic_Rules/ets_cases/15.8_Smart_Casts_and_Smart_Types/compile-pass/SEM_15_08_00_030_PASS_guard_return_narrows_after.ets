@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_08_pass_021_guard_return_narrows_after(): void {
+function sem1508Pass021GuardReturnNarrowsAfter(): void {
   let value: int = 1
 }
 

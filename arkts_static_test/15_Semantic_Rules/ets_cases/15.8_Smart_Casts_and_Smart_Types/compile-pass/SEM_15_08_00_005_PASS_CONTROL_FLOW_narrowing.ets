@@ -21,7 +21,7 @@
  */
 
 // 测试控制流类型收窄
-function test_control_flow_narrowing(value: number | string | undefined): void {
+function testControlFlowNarrowing(value: number | string | undefined): void {
   // if-else 收窄
   if (value != undefined) {
     // 在这个分支中，value 的智能类型是 number | string

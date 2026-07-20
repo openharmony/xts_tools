@@ -39,7 +39,7 @@ class Box<out T> {
   }
 }
 
-function test_generic_covariance(): void {
+function testGenericCovariance(): void {
   let dogBox: Box<Dog> = new Box<Dog>(new Dog())
   let animalBox: Box<Animal>
   

@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_08_field_fail_002_getter_not_stable(): void {
+function sem1508FieldFail002GetterNotStable(): void {
   let value: string = 1
 }
 

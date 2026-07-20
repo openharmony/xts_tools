@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_04_fail_002_numeric_narrowing(): void {
+function sem1504Fail002NumericNarrowing(): void {
   let value: string = 1
 }
 

@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_05_pass_003_override_return_covariant(): void {
+function sem1505Pass003OverrideReturnCovariant(): void {
   let value: int = 1
   value = value + 1
 }

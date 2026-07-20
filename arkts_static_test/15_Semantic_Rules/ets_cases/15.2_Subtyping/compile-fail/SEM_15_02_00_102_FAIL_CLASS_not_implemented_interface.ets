@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_02_class_fail_003_not_implemented_interface(): void {
+function sem1502ClassFail003NotImplementedInterface(): void {
   let value: string = 1
 }
 

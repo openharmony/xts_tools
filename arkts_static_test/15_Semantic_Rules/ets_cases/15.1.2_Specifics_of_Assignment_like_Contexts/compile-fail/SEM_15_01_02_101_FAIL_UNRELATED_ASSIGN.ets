@@ -19,9 +19,9 @@
  * @design 验证赋值上下文中不相关类拒绝：Dog 不可赋值给 Cat
  * @note 反向用例：无继承关系的类之间不可赋值
  */
-class Animal { name: string = ""; }
-class Dog extends Animal { breed: string = ""; }
-class Cat extends Animal { color: string = ""; }
+class Animal { public name: string = ''; }
+class Dog extends Animal { public breed: string = ''; }
+class Cat extends Animal { public color: string = ''; }
 function main(): void {
     let c: Cat;
     let d: Dog = new Dog();

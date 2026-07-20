@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_09_pass_021_subinterface_compatible_override(): void {
+function sem1509Pass021SubinterfaceCompatibleOverride(): void {
   let value: int = 1
 }
 

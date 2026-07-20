@@ -21,7 +21,7 @@
  */
 
 // 测试循环变量在循环后的类型重置
-function test_backedge_loop_variable(): void {
+function testBackedgeLoopVariable(): void {
   let x: number | string = 42
   
   // 循环前：x 的智能类型是 number | string

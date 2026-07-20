@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_08_global_fail_001_top_level_instanceof_then_member(): void {
+function sem1508GlobalFail001TopLevelInstanceofThenMember(): void {
   let value: string = 1
 }
 

@@ -29,7 +29,7 @@ class Derived extends Base {
   extra: number = 42
 }
 
-function test_class_extends_subtype(): void {
+function testClassExtendsSubtype(): void {
   let base: Base = new Base()
   let derived: Derived = new Derived()
   

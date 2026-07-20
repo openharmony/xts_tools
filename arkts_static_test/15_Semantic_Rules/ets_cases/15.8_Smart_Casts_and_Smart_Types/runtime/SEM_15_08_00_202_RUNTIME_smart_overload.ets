@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_08_rt_003_smart_overload(): string {
+function sem1508Rt003SmartOverload(): string {
   return "PASS"
 }
 

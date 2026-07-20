@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_05_fail_004_invariant_as_contravariant(): void {
+function sem1505Fail004InvariantAsContravariant(): void {
   let value: string = 1
 }
 

@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_03_pass_011_same_tuple_and_function(): void {
+function sem1503Pass011SameTupleAndFunction(): void {
   let value: int = 1
 }
 

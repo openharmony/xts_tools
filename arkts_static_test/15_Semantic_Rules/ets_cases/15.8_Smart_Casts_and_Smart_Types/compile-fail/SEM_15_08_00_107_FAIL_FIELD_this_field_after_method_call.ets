@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_08_field_fail_001_this_field_after_method_call(): void {
+function sem1508FieldFail001ThisFieldAfterMethodCall(): void {
   let value: string = 1
 }
 

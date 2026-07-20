@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_01_fail_001_standalone_object_literal(): void {
+function sem1501Fail001StandaloneObjectLiteral(): void {
   let value: string = 1
 }
 

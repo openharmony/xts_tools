@@ -35,7 +35,7 @@ class Dog extends Animal {
 type Func1 = (p: Animal) => Animal
 type Func2 = (p: Animal) => Dog
 
-function test_function_return_covariance(): void {
+function testFunctionReturnCovariance(): void {
   let f1: Func1 = (p: Animal): Animal => {
     return p
   }
@@ -53,7 +53,7 @@ function test_function_return_covariance(): void {
 // 函数类型：(p: Dog) => Animal 是 (p: Animal) => Animal 的子类型（参数类型逆变）
 type Func3 = (p: Dog) => Animal
 
-function test_function_parameter_contravariance(): void {
+function testFunctionParameterContravariance(): void {
   let f1: Func1 = (p: Animal): Animal => {
     return p
   }

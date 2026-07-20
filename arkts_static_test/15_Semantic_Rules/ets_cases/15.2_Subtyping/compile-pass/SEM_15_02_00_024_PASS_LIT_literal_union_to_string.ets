@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_02_lit_pass_010_literal_union_to_string(): void {
+function sem1502LitPass010LiteralUnionToString(): void {
   let value: int = 1
 }
 

@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_02_tuple_fail_001_shorter_to_longer(): void {
+function sem1502TupleFail001ShorterToLonger(): void {
   let value: string = 1
 }
 

@@ -21,7 +21,7 @@
  */
 
 // 测试 lambda 中捕获的变量
-function test_lambda_captured_variable(): void {
+function testLambdaCapturedVariable(): void {
   let x: string | number = 'hello'
   
   // 在 lambda 外部的类型收窄

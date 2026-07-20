@@ -44,7 +44,7 @@ class Derived extends Base {
   }
 }
 
-function test_method_return_covariance(): void {
+function testMethodReturnCovariance(): void {
   let base: Base = new Derived()
   
   // 运行时调用 Derived.getAnimal()

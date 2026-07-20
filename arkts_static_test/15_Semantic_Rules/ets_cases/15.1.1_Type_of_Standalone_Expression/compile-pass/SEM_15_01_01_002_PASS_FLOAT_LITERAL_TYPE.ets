@@ -20,7 +20,7 @@
  * @note 正向用例：3.14 作为独立表达式应推断为 double 类型
  */
 function main(): void {
-    let x = 3.14;           // inferred as double
-    let y: double = x;      // assignable to double
+    let x = 3.14;
+    let y: double = x;
     console.log(`x=${x}, y=${y}`);
 }

@@ -47,7 +47,7 @@ class Implementation implements BaseInterface {
   }
 }
 
-function test_interface_default_method_override(): void {
+function testInterfaceDefaultMethodOverride(): void {
   let impl: Implementation = new Implementation()
   let result1: string = impl.defaultMethod()
   console.log(result1)  // 输出: "class implementation"

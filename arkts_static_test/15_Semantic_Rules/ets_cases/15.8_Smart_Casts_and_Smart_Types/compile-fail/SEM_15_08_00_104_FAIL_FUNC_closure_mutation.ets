@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_08_func_fail_005_closure_mutation(): void {
+function sem1508FuncFail005ClosureMutation(): void {
   let value: string = 1
 }
 

@@ -21,7 +21,7 @@
  */
 
 // 测试 typeof 收窄
-function test_typeof_narrowing(value: Object): void {
+function testTypeofNarrowing(value: Object): void {
   // typeof 检查前的类型
   let v: Object = value
   

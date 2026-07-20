@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_02_class_pass_010_declared_implements(): void {
+function sem1502ClassPass010DeclaredImplements(): void {
   let value: int = 1
 }
 

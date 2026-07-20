@@ -25,7 +25,7 @@ class A {
   x: int = 0
 }
 
-function test_self_subtype(): void {
+function testSelfSubtype(): void {
   let a1: A = new A()
   let a2: A = a1  // OK: A <: A，自身赋值
 

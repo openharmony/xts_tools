@@ -21,7 +21,7 @@
  */
 
 // 测试数组类型身份
-function test_array_type_identity(): void {
+function testArrayTypeIdentity(): void {
   let a1: number[] = [1, 2, 3]
   let a2: number[] = [4, 5, 6]
   
@@ -33,7 +33,7 @@ function test_array_type_identity(): void {
 }
 
 // 测试不同类型参数的数组类型
-function test_diferent_array_type_identity(): void {
+function testDiferentArrayTypeIdentity(): void {
   let a1: number[] = [1, 2, 3]
   let a2: string[] = ["a", "b", "c"]
     

@@ -37,7 +37,7 @@ class Person implements Named {
   }
 }
 
-function test_string_literal_subtype(): void {
+function testStringLiteralSubtype(): void {
   let s1: 'hello' = 'hello'
   let s2: string
   

@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_06_fail_010_branch_outside_no_smart_arg(): void {
+function sem1506Fail010BranchOutsideNoSmartArg(): void {
   let value: string = 1
 }
 

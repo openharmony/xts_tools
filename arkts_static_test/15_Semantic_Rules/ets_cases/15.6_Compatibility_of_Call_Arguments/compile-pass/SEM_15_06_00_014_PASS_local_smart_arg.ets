@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_06_pass_022_local_smart_arg(): void {
+function sem1506Pass022LocalSmartArg(): void {
   let value: int = 1
 }
 

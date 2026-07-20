@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_09_pass_004_protected_to_public(): void {
+function sem1509Pass004ProtectedToPublic(): void {
   let value: int = 1
   value = value + 1
 }

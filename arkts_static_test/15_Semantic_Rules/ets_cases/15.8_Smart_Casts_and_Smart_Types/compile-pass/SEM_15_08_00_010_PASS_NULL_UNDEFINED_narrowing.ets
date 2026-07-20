@@ -21,7 +21,7 @@
  */
 
 // 测试 null/undefined 收窄
-function test_null_undefined_narrowing(value: string | null | undefined): void {
+function testNullUndefinedNarrowing(value: string | null | undefined): void {
   // null/undefined 检查前的类型
   let v: string | null | undefined = value
   

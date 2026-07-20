@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_06_fail_002_excess_argument(): void {
+function sem1506Fail002ExcessArgument(): void {
   let value: string = 1
 }
 

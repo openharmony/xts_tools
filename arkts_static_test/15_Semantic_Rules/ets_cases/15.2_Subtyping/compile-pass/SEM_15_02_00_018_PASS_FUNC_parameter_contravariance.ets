@@ -31,7 +31,7 @@ class Dog extends Animal {
   }
 }
 
-function test_function_parameter_contravariance(): void {
+function testFunctionParameterContravariance(): void {
   // 函数类型：(p: Dog) => Animal 是 (p: Animal) => Animal 的子类型
   let f: (p: Animal) => Animal
   let g: (p: Dog) => Animal

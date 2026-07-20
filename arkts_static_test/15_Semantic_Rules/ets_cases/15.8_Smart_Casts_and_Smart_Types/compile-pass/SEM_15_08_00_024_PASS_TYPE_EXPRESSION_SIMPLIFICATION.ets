@@ -21,7 +21,7 @@
  */
 
 // 测试类型表达式简化
-function test_type_expression_simplification(): void {
+function testTypeExpressionSimplification(): void {
   let x: number | string | undefined
   
   // 交集结合律：(A&B)&C = A&(B&C)

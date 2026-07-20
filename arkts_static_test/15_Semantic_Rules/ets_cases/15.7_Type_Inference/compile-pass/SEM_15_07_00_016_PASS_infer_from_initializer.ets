@@ -21,7 +21,7 @@
  */
 
 // 测试从初始化器推断变量类型
-function test_infer_from_initializer(): void {
+function testInferFromInitializer(): void {
   let x = 42        // 推断为 int
   let y = 'infer'   // 推断为 string
   let z: int = x

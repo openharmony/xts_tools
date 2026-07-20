@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_07_pass_021_int_or_double_target(): void {
+function sem1507Pass021IntOrDoubleTarget(): void {
   let value: int = 1
 }
 

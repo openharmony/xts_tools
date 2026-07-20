@@ -31,7 +31,7 @@ class Dog extends Animal {
   }
 }
 
-function test_function_return_covariance(): void {
+function testFunctionReturnCovariance(): void {
   // 函数类型：(p: Animal) => Dog 是 (p: Animal) => Animal 的子类型
   let f: (p: Animal) => Animal
   let g: (p: Animal) => Dog

@@ -25,7 +25,7 @@ function add(a: number, b: number): number {
   return a + b
 }
 
-function test_argument_count_exceed(): void {
+function testArgumentCountExceed(): void {
   // 编译失败：参数数量超过参数数量
   let result: number = add(1, 2, 3)  // Error: Expected 2 arguments, but got 3
 }

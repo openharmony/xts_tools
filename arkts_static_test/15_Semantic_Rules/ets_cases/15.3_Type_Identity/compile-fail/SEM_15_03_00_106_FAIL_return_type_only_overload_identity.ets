@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_03_fail_005_return_type_only_overload_identity(): void {
+function sem1503Fail005ReturnTypeOnlyOverloadIdentity(): void {
   let value: string = 1
 }
 

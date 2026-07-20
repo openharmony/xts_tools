@@ -21,7 +21,7 @@
  */
 
 // 测试联合类型收窄
-function test_union_narrowing(value: number | string | boolean): void {
+function testUnionNarrowing(value: number | string | boolean): void {
   // 联合类型变量的类型收窄
   if (typeof value === 'number') {
     // 在这个分支中，value 的智能类型是 number
@@ -39,7 +39,7 @@ function test_union_narrowing(value: number | string | boolean): void {
 }
 
 // 测试联合类型的智能类型转换
-function test_union_smart_cast(): void {
+function testUnionSmartCast(): void {
   let x: number | string | undefined
   
   x = 42

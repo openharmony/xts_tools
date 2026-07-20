@@ -20,7 +20,7 @@
  * @note 反向用例：c instanceof D分支外c.foo()无法编译
  */
 
-function sem_15_08_fail_299_outside_instanceof(): void {
+function sem1508Fail299OutsideInstanceof(): void {
   class C {}
   class D extends C {
     foo(): void {}

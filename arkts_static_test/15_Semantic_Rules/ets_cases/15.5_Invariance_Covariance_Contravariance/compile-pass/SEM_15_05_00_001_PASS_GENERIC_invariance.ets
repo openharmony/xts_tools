@@ -29,7 +29,7 @@ class Container<T> {
   }
 }
 
-function test_generic_invariance(): void {
+function testGenericInvariance(): void {
   let containerNumber: Container<number> = new Container<number>(42)
   let containerString: Container<string> = new Container<string>('hello')
   
@@ -49,7 +49,7 @@ class Box<out T> {
   }
 }
 
-function test_generic_covariance(): void {
+function testGenericCovariance(): void {
   let boxNumber: Box<number> = new Box<number>(42)
   let boxAny: Box<any> = boxNumber  // OK: 协变
     

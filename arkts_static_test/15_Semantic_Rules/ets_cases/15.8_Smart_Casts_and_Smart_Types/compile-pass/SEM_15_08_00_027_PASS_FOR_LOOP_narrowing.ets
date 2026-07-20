@@ -21,7 +21,7 @@
  */
 
 // 测试 for 循环中的类型收窄
-function test_for_loop_narrowing(values: (number | string)[]): void {
+function testForLoopNarrowing(values: (number | string)[]): void {
   for (let i = 0; i < values.length; i++) {
     let value: number | string = values[i]
     
@@ -35,7 +35,7 @@ function test_for_loop_narrowing(values: (number | string)[]): void {
 }
 
 // 测试 for-in 循环中的类型收窄
-function test_for_in_narrowing(obj: any): void {
+function testForInNarrowing(obj: any): void {
   for (let key in obj) {
     // for-in 循环中，key 的智能类型是 string
     console.log("Key: " + key)
@@ -43,7 +43,7 @@ function test_for_in_narrowing(obj: any): void {
 }
 
 // 测试 for-of 循环中的类型收窄
-function test_for_of_narrowing(values: (number | string)[]): void {
+function testForOfNarrowing(values: (number | string)[]): void {
   for (let value of values) {
     // for-of 循环中，value 的智能类型是 number | string
     if (typeof value === 'number') {

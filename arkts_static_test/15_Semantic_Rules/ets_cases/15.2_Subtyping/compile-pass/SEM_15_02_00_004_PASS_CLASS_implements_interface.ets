@@ -33,7 +33,7 @@ class Document implements Printable {
   }
 }
 
-function test_class_implements_interface(): void {
+function testClassImplementsInterface(): void {
   let printable: Printable
   let doc: Document = new Document()
   

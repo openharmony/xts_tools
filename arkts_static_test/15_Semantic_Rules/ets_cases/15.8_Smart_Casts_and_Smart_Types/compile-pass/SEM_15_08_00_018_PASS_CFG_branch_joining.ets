@@ -21,7 +21,7 @@
  */
 
 // 测试 CFG 分支合并时的类型收窄
-function test_cfg_branch_joining(x: number | string | boolean): void {
+function testCfgBranchJoining(x: number | string | boolean): void {
   let result: string
   
   // if-else 分支合并
@@ -41,7 +41,7 @@ function test_cfg_branch_joining(x: number | string | boolean): void {
 }
 
 // 测试 while 循环中的类型收窄
-function test_while_loop_narrowing(value: number | undefined): void {
+function testWhileLoopNarrowing(value: number | undefined): void {
   let x: number | undefined = value
   
   // while 循环条件中的类型收窄
@@ -54,7 +54,7 @@ function test_while_loop_narrowing(value: number | undefined): void {
 }
 
 // 测试 for 循环中的类型收窄
-function test_for_loop_narrowing(values: (number | string)[]): void {
+function testForLoopNarrowing(values: (number | string)[]): void {
   for (let i = 0; i < values.length; i++) {
     let value: number | string = values[i]
     

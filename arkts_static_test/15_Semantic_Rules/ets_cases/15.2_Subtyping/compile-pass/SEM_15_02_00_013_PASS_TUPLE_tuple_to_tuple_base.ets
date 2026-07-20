@@ -21,7 +21,7 @@
  */
 
 // 测试元组类型的子类型关系
-function test_tuple_subtype(): void {
+function testTupleSubtype(): void {
   let shortTuple: [number] = [1]
   let longTuple: [number, string] = [1, "hello"]
   let longerTuple: [number, string, boolean] = [1, "hello", true]

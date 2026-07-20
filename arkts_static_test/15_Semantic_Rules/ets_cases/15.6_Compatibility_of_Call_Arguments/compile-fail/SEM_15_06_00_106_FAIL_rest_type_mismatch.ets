@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_06_fail_005_rest_type_mismatch(): void {
+function sem1506Fail005RestTypeMismatch(): void {
   let value: string = 1
 }
 

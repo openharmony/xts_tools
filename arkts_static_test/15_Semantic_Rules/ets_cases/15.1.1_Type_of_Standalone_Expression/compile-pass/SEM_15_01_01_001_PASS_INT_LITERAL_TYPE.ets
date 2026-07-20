@@ -20,7 +20,7 @@
  * @note 正向用例：42 作为独立表达式应推断为 int 类型
  */
 function main(): void {
-    let x = 42;             // inferred as int
-    let y: int = x;         // assignable to int
+    let x = 42;
+    let y: int = x;
     console.log(`x=${x}, y=${y}`);
 }

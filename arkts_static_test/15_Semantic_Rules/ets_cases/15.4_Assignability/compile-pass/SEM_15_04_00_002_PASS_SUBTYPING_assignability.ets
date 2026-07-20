@@ -31,7 +31,7 @@ class Dog extends Animal {
   }
 }
 
-function test_subtyping_assignability(): void {
+function testSubtypingAssignability(): void {
   let animal: Animal
   let dog: Dog = new Dog()
   
@@ -42,7 +42,7 @@ function test_subtyping_assignability(): void {
 }
 
 // 测试联合类型的可赋值性
-function test_union_assignability(): void {
+function testUnionAssignability(): void {
   let x: number | string
   let y: number = 42
   let z: string = 'hello'

@@ -21,7 +21,7 @@
  */
 
 // 测试 while 循环中的类型收窄
-function test_while_loop_narrowing(value: number | undefined): void {
+function testWhileLoopNarrowing(value: number | undefined): void {
   let x: number | undefined = value
   
   // while 循环条件中的类型收窄
@@ -34,7 +34,7 @@ function test_while_loop_narrowing(value: number | undefined): void {
 }
 
 // 测试 do-while 循环中的类型收窄
-function test_do_while_loop_narrowing(value: string | null): void {
+function testDoWhileLoopNarrowing(value: string | null): void {
   let x: string | null = value
   
   if (x != null) {
@@ -45,7 +45,7 @@ function test_do_while_loop_narrowing(value: string | null): void {
 }
 
 // 测试 while 循环后的类型重置
-function test_while_loop_after_reset(): void {
+function testWhileLoopAfterReset(): void {
   let x: number | string = 42
   
   while (typeof x === 'number') {

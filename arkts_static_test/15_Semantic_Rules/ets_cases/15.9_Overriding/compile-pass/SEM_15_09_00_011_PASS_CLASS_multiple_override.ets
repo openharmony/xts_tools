@@ -40,7 +40,7 @@ class C extends B {
   }
 }
 
-function test_multiple_override(): void {
+function testMultipleOverride(): void {
   let c: C = new C()
   let b: B = c
   let a: A = c

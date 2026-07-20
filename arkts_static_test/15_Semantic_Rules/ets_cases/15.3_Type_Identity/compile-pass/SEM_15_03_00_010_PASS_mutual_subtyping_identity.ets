@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_03_pass_004_mutual_subtyping_identity(): void {
+function sem1503Pass004MutualSubtypingIdentity(): void {
   let value: int = 1
   value = value + 1
 }

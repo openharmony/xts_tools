@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_02_union_pass_010_union_to_common_base(): void {
+function sem1502UnionPass010UnionToCommonBase(): void {
   let value: int = 1
 }
 

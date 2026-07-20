@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_01_fail_002_incompatible_assignment_like_rhs(): void {
+function sem1501Fail002IncompatibleAssignmentLikeRhs(): void {
   let value: string = 1
 }
 

@@ -29,7 +29,7 @@ function add(x: int, y: int): int {
   return x + y
 }
 
-function test_function_overload(): void {
+function testFunctionOverload(): void {
   let r1: int = add(1)     // 调用第一个重载
   let r2: int = add(1, 2)  // 调用第二个重载
 

@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_06_rt_001_rest_argument_values(): string {
+function sem1506Rt001RestArgumentValues(): string {
   return "PASS"
 }
 

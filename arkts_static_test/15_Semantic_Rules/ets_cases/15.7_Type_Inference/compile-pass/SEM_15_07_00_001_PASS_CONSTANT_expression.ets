@@ -21,7 +21,7 @@
  */
 
 // 测试常量表达式的类型推断
-function test_constant_expression_inference(): void {
+function testConstantExpressionInference(): void {
   // 数字字面量类型推断
   let x1: number = 1.0
   let x2: float = 123.0
@@ -31,7 +31,7 @@ function test_constant_expression_inference(): void {
 }
 
 // 测试目标类型是数字类型时的类型推断
-function test_numeric_target_type_inference(): void {
+function testNumericTargetTypeInference(): void {
   let b: byte = 127  // OK: 127 适合 byte 类型
   let s: short = -32767  // OK: -32767 适合 short 类型
   let l: long = 1  // OK: 目标类型是 long，字面量默认类型是 int
@@ -40,7 +40,7 @@ function test_numeric_target_type_inference(): void {
 }
 
 // 测试目标类型是联合类型时的类型推断
-function test_union_target_type_inference(): void {
+function testUnionTargetTypeInference(): void {
   let b: byte | Object = 127  // 推断类型：byte
   let c: byte | string = 127  // 推断类型：byte
   // let c2: byte | string = 128  // Error: 128 的推断类型是 int，不是 byte 或 string 的子类型

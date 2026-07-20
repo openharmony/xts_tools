@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_06_pass_020_optional_omitted(): void {
+function sem1506Pass020OptionalOmitted(): void {
   let value: int = 1
 }
 

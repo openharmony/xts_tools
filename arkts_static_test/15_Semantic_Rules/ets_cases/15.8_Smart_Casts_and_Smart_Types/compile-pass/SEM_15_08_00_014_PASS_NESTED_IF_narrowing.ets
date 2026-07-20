@@ -21,7 +21,7 @@
  */
 
 // 测试嵌套 if 收窄
-function test_nested_if_narrowing(value: number | string | boolean): void {
+function testNestedIfNarrowing(value: number | string | boolean): void {
   // 外层 if：检查是否为 number 或 string
   if (typeof value === 'number' || typeof value === 'string') {
     // 在这个分支中，value 的智能类型是 number | string
@@ -44,7 +44,7 @@ function test_nested_if_narrowing(value: number | string | boolean): void {
 }
 
 // 测试嵌套 if-else 收窄
-function test_nested_if_else_narrowing(value: number | string | undefined): void {
+function testNestedIfElseNarrowing(value: number | string | undefined): void {
   if (value != undefined) {
     // value 的智能类型是 number | string
     

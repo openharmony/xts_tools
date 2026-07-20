@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_05_pass_005_declared_generic_variance(): void {
+function sem1505Pass005DeclaredGenericVariance(): void {
   let value: int = 1
   value = value + 1
 }

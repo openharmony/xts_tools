@@ -24,7 +24,7 @@
 type MyNumber = number
 type MyString = string
 
-function test_type_alias_identity(): void {
+function testTypeAliasIdentity(): void {
   let n1: number = 42
   let n2: MyNumber = 100
   
@@ -45,7 +45,7 @@ function test_type_alias_identity(): void {
 // 测试泛型类型别名
 type MyT[] = T[]
 
-function test_generic_type_alias(): void {
+function testGenericTypeAlias(): void {
   let a1: number[] = [1, 2, 3]
   let a2: Mynumber[] = [4, 5, 6]
     

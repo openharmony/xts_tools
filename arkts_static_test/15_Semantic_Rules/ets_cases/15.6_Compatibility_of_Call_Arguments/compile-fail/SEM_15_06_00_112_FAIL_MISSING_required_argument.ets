@@ -25,7 +25,7 @@ function add(a: number, b: number): number {
   return a + b
 }
 
-function test_missing_required_argument(): void {
+function testMissingRequiredArgument(): void {
   // 编译失败：缺少必需参数
   let result: number = add(1)  // Error: Expected 2 arguments, but got 1
 }

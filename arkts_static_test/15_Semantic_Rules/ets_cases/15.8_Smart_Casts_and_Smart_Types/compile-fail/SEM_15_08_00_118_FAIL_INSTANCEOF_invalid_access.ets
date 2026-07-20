@@ -35,7 +35,7 @@ class Dog extends Animal {
   }
 }
 
-function test_instanceof_invalid_access(animal: Animal): void {
+function testInstanceofInvalidAccess(animal: Animal): void {
   if (animal instanceof Dog) {
     // 在这个分支中，animal 的智能类型是 Dog
     animal.bark()  // OK: Dog 有 bark() 方法

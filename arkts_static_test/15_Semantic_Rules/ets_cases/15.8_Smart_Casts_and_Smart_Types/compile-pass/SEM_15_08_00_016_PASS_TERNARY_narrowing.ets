@@ -21,7 +21,7 @@
  */
 
 // 测试三元条件表达式收窄
-function test_ternary_narrowing(value: number | string): void {
+function testTernaryNarrowing(value: number | string): void {
   // 三元条件表达式中的类型收窄
   let result: string = typeof value === 'string' ? value.toUpperCase() : value.toString()
   console.log("Ternary result: " + result)
@@ -35,7 +35,7 @@ function test_ternary_narrowing(value: number | string): void {
 }
 
 // 测试三元条件表达式中的智能类型
-function test_ternary_smart_type(): void {
+function testTernarySmartType(): void {
   let value: number | string | undefined = 'hello'
   
   // 三元条件表达式中使用智能类型

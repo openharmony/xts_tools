@@ -21,7 +21,7 @@
  */
 
 // 测试基于隐式转换的可赋值性
-function test_implicit_conversion_assignability(): void {
+function testImplicitConversionAssignability(): void {
   // 数值类型之间的隐式转换
   let n1: number = 1.0
   let n2: float = 1.0
@@ -34,7 +34,7 @@ function test_implicit_conversion_assignability(): void {
 }
 
 // 测试字符串到字符串字面量类型的隐式转换
-function test_string_to_literal_assignability(): void {
+function testStringToLiteralAssignability(): void {
   let s1: string = 'hello'
   let s2: 'hello' = 'hello'
     
@@ -45,7 +45,7 @@ function test_string_to_literal_assignability(): void {
 }
 
 // 测试联合类型的隐式转换
-function test_union_implicit_conversion(): void {
+function testUnionImplicitConversion(): void {
   let x: number | string = 42
   let y: number | string = 'hello'
     

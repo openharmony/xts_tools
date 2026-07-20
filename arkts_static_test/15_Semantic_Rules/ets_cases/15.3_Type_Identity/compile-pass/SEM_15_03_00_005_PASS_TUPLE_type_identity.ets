@@ -21,7 +21,7 @@
  */
 
 // 测试元组类型身份
-function test_tuple_type_identity(): void {
+function testTupleTypeIdentity(): void {
   let t1: [number] = [1]
   let t2: [number] = [2]
   
@@ -38,7 +38,7 @@ function test_tuple_type_identity(): void {
 }
 
 // 测试不同元组类型
-function test_diferent_tuple_type_identity(): void {
+function testDiferentTupleTypeIdentity(): void {
   let t1: [number] = [1]
   let t2: [number, string] = [1, "hello"]
   

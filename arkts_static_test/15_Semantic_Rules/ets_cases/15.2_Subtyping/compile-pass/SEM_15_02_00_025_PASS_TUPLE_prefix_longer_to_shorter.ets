@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_02_tuple_pass_010_prefix_longer_to_shorter(): void {
+function sem1502TuplePass010PrefixLongerToShorter(): void {
   let value: int = 1
 }
 

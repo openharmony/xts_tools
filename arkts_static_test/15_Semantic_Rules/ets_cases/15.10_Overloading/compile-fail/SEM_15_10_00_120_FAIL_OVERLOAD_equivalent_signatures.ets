@@ -32,7 +32,7 @@ function foo(x: number[]): number {
   return x[0]
 }
 
-function test_overload_equivalent_signatures(): void {
+function testOverloadEquivalentSignatures(): void {
   // 这个代码不应该编译成功
   console.log("This should not compile")
 }

@@ -21,7 +21,7 @@
  */
 
 // 测试类型不匹配的赋值（编译失败）
-function test_type_mismatch(): void {
+function testTypeMismatch(): void {
   // 编译失败：string 不能赋值给 int
   let x: int = 's'  // Error: Type 'string' is not assignable to type 'int'
 }

@@ -45,7 +45,7 @@ class Implementation implements DerivedInterface {
   }
 }
 
-function test_interface_override_compatible(): void {
+function testInterfaceOverrideCompatible(): void {
   let impl: Implementation = new Implementation()
     
   let result1: string = impl.method('test')

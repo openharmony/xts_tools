@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_02_union_fail_001_larger_to_smaller_union(): void {
+function sem1502UnionFail001LargerToSmallerUnion(): void {
   let value: string = 1
 }
 

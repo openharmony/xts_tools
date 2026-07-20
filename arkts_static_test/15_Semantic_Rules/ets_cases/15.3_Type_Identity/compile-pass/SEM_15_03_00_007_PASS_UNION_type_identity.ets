@@ -21,7 +21,7 @@
  */
 
 // 测试联合类型身份
-function test_union_type_identity(): void {
+function testUnionTypeIdentity(): void {
   let u1: number | string = 42
   let u2: string | number = 'hello'
   
@@ -33,7 +33,7 @@ function test_union_type_identity(): void {
 }
 
 // 测试不同联合类型
-function test_diferent_union_type_identity(): void {
+function testDiferentUnionTypeIdentity(): void {
   let u1: number | string = 42
   let u2: number | boolean = true
     
@@ -44,7 +44,7 @@ function test_diferent_union_type_identity(): void {
 }
 
 // 测试联合类型简化
-function test_union_type_simplification(): void {
+function testUnionTypeSimplification(): void {
   let u: 'abc' | "cde" | string
   
   // "abc" | "cde" | string 简化为 string

@@ -21,7 +21,7 @@
  */
 
 // 测试逻辑 AND/OR 收窄
-function test_logical_and_narrowing(value: number | string | null): void {
+function testLogicalAndNarrowing(value: number | string | null): void {
   // 逻辑 AND 表达式中的类型收窄
   if (value != null && typeof value === 'string') {
     // 在这个分支中，value 的智能类型是 string
@@ -36,7 +36,7 @@ function test_logical_and_narrowing(value: number | string | null): void {
   }
 }
 
-function test_logical_or_narrowing(value: number | string): void {
+function testLogicalOrNarrowing(value: number | string): void {
   // 逻辑 OR 表达式中的类型收窄
   let result: string = (typeof value === 'string') ? value : value.toString()
   console.log("OR narrowing result: " + result)
@@ -47,7 +47,7 @@ function test_logical_or_narrowing(value: number | string): void {
 }
 
 // 测试逻辑 AND/OR 的短路行为
-function test_short_circuit(value: number | string | null): void {
+function testShortCircuit(value: number | string | null): void {
   // 短路 AND：如果第一个操作数为 false，则不评估第二个操作数
   if (value != null && typeof value === 'string') {
     console.log("Short-circuit AND: " + value)

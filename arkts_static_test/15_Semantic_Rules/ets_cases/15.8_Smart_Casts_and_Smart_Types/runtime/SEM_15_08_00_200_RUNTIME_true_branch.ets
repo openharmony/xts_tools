@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_08_rt_001_true_branch(): string {
+function sem1508Rt001TrueBranch(): string {
   return "PASS"
 }
 

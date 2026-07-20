@@ -37,7 +37,7 @@ class Container<T> {
   }
 }
 
-function test_generic_invariance(): void {
+function testGenericInvariance(): void {
   let derivedContainer: Container<Derived> = new Container<Derived>(new Derived())
   let baseContainer: Container<Base>
   

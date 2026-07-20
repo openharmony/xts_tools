@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_07_fail_003_unexpressible_smart_return(): void {
+function sem1507Fail003UnexpressibleSmartReturn(): void {
   let value: string = 1
 }
 

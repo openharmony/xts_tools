@@ -43,7 +43,7 @@ class Derived extends Base {
   }
 }
 
-function test_override_keyword(): void {
+function testOverrideKeyword(): void {
   let derived: Derived = new Derived()
   
   // 调用重写的方法

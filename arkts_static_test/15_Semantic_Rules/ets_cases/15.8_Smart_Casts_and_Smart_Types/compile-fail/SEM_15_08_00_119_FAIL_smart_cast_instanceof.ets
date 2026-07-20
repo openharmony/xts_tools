@@ -20,7 +20,7 @@
  * @note 正向用例：c instanceof D内调用c.foo()，以及(c as D).foo()
  */
 
-function sem_15_08_pass_200_smart_cast_instanceof(): void {
+function sem1508Pass200SmartCastInstanceof(): void {
   class C {}
   class D extends C {
     foo(): void {}

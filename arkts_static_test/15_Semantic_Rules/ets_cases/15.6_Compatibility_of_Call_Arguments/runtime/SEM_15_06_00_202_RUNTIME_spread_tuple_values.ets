@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_06_rt_002_spread_tuple_values(): string {
+function sem1506Rt002SpreadTupleValues(): string {
   return "PASS"
 }
 

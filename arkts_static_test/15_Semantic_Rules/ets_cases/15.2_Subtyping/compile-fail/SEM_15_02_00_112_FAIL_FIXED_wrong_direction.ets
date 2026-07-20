@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_02_fixed_fail_001_wrong_direction(): void {
+function sem1502FixedFail001WrongDirection(): void {
   let value: string = 1
 }
 

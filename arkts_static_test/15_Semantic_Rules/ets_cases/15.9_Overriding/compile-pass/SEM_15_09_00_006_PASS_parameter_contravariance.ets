@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_09_pass_003_parameter_contravariance(): void {
+function sem1509Pass003ParameterContravariance(): void {
   let value: int = 1
   value = value + 1
 }

@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_08_pass_024_no_side_effect_between_check_and_use(): void {
+function sem1508Pass024NoSideEffectBetweenCheckAndUse(): void {
   let value: int = 1
 }
 

@@ -30,4 +30,4 @@ class D extends B {
   override f(x: string): void {}
 }
 
-function test_override_param_mismatch(): void {}
+function testOverrideParamMismatch(): void {}

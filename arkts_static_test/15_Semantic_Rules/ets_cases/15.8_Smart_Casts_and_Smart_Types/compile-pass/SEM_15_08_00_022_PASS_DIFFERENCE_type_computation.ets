@@ -21,7 +21,7 @@
  */
 
 // 测试智能类型转换中的差集类型计算
-function test_diference_type_computation(x: string | undefined): void {
+function testDiferenceTypeComputation(x: string | undefined): void {
   // 差集类型计算：x 的智能类型在 x != undefined 时为 string
   if (x != undefined) {
     // 在这个分支中，x 的智能类型是 string | undefined - undefined = string
@@ -31,7 +31,7 @@ function test_diference_type_computation(x: string | undefined): void {
 }
 
 // 测试更复杂的情况
-function test_complex_diference_type(x: number | string | null | undefined): void {
+function testComplexDiferenceType(x: number | string | null | undefined): void {
   // 差集类型计算：x 的智能类型在 x != null && x != undefined 时为 number | string
   if (x != null && x != undefined) {
     // 在这个分支中，x 的智能类型是 (number | string | null | undefined) - (null | undefined)
@@ -46,7 +46,7 @@ function test_complex_diference_type(x: number | string | null | undefined): voi
 }
 
 // 测试差集类型在联合类型中的应用
-function test_diference_type_with_union(x: (number | string) | null): void {
+function testDiferenceTypeWithUnion(x: (number | string) | null): void {
   if (x != null) {
     // 在这个分支中，x 的智能类型是 (number | string) | null - null = number | string
     if (typeof x === 'number') {

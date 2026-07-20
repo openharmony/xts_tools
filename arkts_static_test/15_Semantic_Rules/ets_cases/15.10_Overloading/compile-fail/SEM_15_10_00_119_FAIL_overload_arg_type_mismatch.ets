@@ -23,7 +23,7 @@
 // 测试重载参数类型不匹配（编译失败）
 function foo(x: int): void {}
 
-function test_overload_arg_mismatch(): void {
+function testOverloadArgMismatch(): void {
   // 编译失败：string 不匹配 int 参数
   foo('s')  // Error: No overload matches
 }

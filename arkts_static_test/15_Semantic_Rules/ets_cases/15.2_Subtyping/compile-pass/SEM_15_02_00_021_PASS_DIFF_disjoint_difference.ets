@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_02_diff_pass_001_disjoint_difference(): void {
+function sem1502DiffPass001DisjointDifference(): void {
   let value: int = 1
   value = value + 1
 }

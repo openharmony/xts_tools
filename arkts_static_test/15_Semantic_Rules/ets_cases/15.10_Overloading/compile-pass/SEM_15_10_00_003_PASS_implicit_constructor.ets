@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_10_pass_003_implicit_constructor(): void {
+function sem1510Pass003ImplicitConstructor(): void {
   let value: int = 1
   value = value + 1
 }

@@ -21,7 +21,7 @@
  */
 
 // 测试剩余参数匹配
-function test_rest_parameter(): void {
+function testRestParameter(): void {
   // 剩余参数匹配
   function sum(...args: number[]): number {
     let total: number = 0
@@ -47,7 +47,7 @@ function test_rest_parameter(): void {
 }
 
 // 测试元组剩余参数
-function test_tuple_rest_parameter(): void {
+function testTupleRestParameter(): void {
   function process(first: string, ...rest: number[]): void {
     console.log("First: " + first)
     console.log("Rest: " + rest)

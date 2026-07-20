@@ -33,7 +33,7 @@ class Document implements Printable {
   }
 }
 
-function test_intersection_type_computation(doc: Document | Printable): void {
+function testIntersectionTypeComputation(doc: Document | Printable): void {
   // instanceof 检查后的智能类型
   if (doc instanceof Document) {
     // 在这个分支中，doc 的智能类型是 Document & Printable
@@ -60,7 +60,7 @@ class File implements Printable, Writable {
   }
 }
 
-function test_complex_intersection_type(file: File | Printable | Writable): void {
+function testComplexIntersectionType(file: File | Printable | Writable): void {
   if (file instanceof File) {
     // 在这个分支中，file 的智能类型是 File & (Printable | Writable)
     file.print()  // OK: File 实现了 Printable

@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_04_pass_022_undefined_to_nullish_union(): void {
+function sem1504Pass022UndefinedToNullishUnion(): void {
   let value: int = 1
 }
 

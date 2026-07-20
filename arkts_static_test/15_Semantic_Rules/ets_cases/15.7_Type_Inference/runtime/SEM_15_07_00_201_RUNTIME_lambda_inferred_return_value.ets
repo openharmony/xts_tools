@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_07_rt_002_lambda_inferred_return_value(): string {
+function sem1507Rt002LambdaInferredReturnValue(): string {
   return "PASS"
 }
 

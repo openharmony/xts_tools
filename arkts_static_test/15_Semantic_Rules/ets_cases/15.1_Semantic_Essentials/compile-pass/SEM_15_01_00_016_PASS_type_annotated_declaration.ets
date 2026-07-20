@@ -21,7 +21,7 @@
  */
 
 // 测试类型注解的变量声明
-function test_type_annotated_declaration(): void {
+function testTypeAnnotatedDeclaration(): void {
   let x: int = 10
   let y: string = 'hello'
 

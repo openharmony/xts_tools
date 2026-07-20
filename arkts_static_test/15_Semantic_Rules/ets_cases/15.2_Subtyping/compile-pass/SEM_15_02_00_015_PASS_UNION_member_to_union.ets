@@ -33,7 +33,7 @@ class Derived2 extends Base {
   value2: string = 'two'
 }
 
-function test_union_subtype(): void {
+function testUnionSubtype(): void {
   let unionVar: Derived1 | Derived2
   let baseVar: Base
   

@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_10_fail_003_return_only_difference(): void {
+function sem1510Fail003ReturnOnlyDifference(): void {
   let value: string = 1
 }
 

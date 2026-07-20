@@ -25,7 +25,7 @@ class NoExtendsClass {
   value: number = 100
 }
 
-function test_class_to_object(): void {
+function testClassToObject(): void {
   let obj: Object = {}
   let instance: NoExtendsClass = new NoExtendsClass()
   

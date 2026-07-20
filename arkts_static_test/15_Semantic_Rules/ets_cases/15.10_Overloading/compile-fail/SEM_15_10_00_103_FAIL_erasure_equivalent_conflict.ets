@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_10_fail_004_erasure_equivalent_conflict(): void {
+function sem1510Fail004ErasureEquivalentConflict(): void {
   let value: string = 1
 }
 

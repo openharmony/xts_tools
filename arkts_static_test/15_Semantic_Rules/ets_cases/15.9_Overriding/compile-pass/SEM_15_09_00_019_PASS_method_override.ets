@@ -33,7 +33,7 @@ class Derived extends Base {
   }
 }
 
-function test_method_override(): void {
+function testMethodOverride(): void {
   let d: Derived = new Derived()
 
   // 派生类调用覆写方法

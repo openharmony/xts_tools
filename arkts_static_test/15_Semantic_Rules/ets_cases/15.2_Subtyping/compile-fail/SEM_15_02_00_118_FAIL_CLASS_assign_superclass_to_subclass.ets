@@ -29,7 +29,7 @@ class Derived extends Base {
   extra: number = 42
 }
 
-function test_assign_superclass_to_subclass(): void {
+function testAssignSuperclassToSubclass(): void {
   let base: Base = new Base()
   let derived: Derived
   

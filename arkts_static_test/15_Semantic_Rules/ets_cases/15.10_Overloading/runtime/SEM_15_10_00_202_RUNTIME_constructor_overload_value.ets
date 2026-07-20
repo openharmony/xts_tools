@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_10_rt_003_constructor_overload_value(): string {
+function sem1510Rt003ConstructorOverloadValue(): string {
   return "PASS"
 }
 

@@ -20,7 +20,7 @@
  * @note 来自规范 15.2 例：ab = ad 产生编译时错误
  */
 
-function sem_15_02_array_subtype_mismatch(): void {
+function sem1502ArraySubtypeMismatch(): void {
   class Base {}
 class Derived extends Base {}
   let ab: Base[] = [new Base()]

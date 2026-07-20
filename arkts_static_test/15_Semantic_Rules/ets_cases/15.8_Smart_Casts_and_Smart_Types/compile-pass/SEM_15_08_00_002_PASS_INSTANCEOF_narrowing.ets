@@ -41,7 +41,7 @@ class Cat extends Animal {
   }
 }
 
-function test_instanceof_narrowing(animal: Animal): void {
+function testInstanceofNarrowing(animal: Animal): void {
   // instanceof 检查前的类型
   let a: Animal = animal
   

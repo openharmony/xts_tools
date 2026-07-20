@@ -21,7 +21,7 @@
  */
 
 // 测试 must-alias 集的计算
-function test_must_alias_sets(): void {
+function testMustAliasSets(): void {
   let x: number | string = 42
   let y: number | string = 'hello'
   

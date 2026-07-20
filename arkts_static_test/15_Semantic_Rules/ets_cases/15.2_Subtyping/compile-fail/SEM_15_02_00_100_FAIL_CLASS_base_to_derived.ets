@@ -20,7 +20,7 @@
  * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
  */
 
-function sem_15_02_class_fail_001_base_to_derived(): void {
+function sem1502ClassFail001BaseToDerived(): void {
   let value: string = 1
 }
 

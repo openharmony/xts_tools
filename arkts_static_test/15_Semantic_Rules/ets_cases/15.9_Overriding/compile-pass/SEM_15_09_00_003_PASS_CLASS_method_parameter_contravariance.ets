@@ -45,7 +45,7 @@ class Derived extends Base {
   }
 }
 
-function test_method_parameter_contravariance(): void {
+function testMethodParameterContravariance(): void {
   let base: Base = new Derived()
   
   // 编译时类型是 Base，所以 acceptAnimal(Animal) 被调用

@@ -38,7 +38,7 @@ class Cage<in T> {
   }
 }
 
-function test_generic_contravariance(): void {
+function testGenericContravariance(): void {
   let animalCage: Cage<Animal> = new Cage<Animal>()
   let dogCage: Cage<Dog>
   
