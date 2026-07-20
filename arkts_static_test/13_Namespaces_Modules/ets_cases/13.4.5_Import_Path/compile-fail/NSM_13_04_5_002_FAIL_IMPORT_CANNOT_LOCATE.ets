@@ -20,5 +20,5 @@
  *                   then a compile-time error occurs
  */
 
-import { nonexistent } from "./this_module_does_not_exist"
+import { nonexistent } from './this_module_does_not_exist'
 // Compile-time error: compiler cannot locate module

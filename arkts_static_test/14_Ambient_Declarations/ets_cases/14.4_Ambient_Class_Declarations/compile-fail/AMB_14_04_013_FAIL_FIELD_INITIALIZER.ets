@@ -20,5 +20,5 @@
  * @note 反向用例：ambient class 字段带初始化器应产生编译时错误
  */
 declare class BadField {
-  x: int = 42
+  public x: int = 42
 }

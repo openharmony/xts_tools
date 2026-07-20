@@ -21,4 +21,6 @@
  *       当前编译器已正确实施此项校验：ark 报错（ESE125125/ESE1111）
  *       原 D 类不一致已于编译器更新后消除
  */
-declare let a: int, b: string, c = true
+declare let a: int
+declare let b: string
+declare let c = true

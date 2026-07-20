@@ -20,6 +20,6 @@
  * @note 正向用例：验证 ambient class readonly 字段编译通过
  */
 declare class WithReadonly {
-  readonly id: int
-  readonly tag: string
+  public readonly id: int
+  public readonly tag: string
 }

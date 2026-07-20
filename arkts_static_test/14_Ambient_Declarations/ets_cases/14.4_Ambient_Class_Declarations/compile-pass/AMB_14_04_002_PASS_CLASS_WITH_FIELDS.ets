@@ -20,8 +20,8 @@
  * @note 正向用例：验证 ambient class 字段声明编译通过
  */
 declare class WithFields {
-  x: int
-  name: string
-  flag: boolean
-  value: double
+  public x: int
+  public name: string
+  public flag: boolean
+  public value: double
 }

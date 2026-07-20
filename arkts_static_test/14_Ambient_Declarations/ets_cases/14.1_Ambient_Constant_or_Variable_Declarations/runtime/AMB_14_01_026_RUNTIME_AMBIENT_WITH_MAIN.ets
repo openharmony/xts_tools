@@ -22,14 +22,15 @@
  */
 declare let v1: int
 declare const c1: string
-declare let v2: boolean, v3: double
+declare let v2: boolean
+declare let v3: double
 
 function main(): void {
   let x: int = 1
   let y: int = 2
   let sum: int = x + y
   if (sum != 3) {
-    throw new Error("assertion failed: " + sum)
+    throw new Error('assertion failed: ' + sum)
   }
   console.log('verified')
 }

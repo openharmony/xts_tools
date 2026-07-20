@@ -20,6 +20,6 @@
  * @note 反向用例：ambient class 访问器带体应产生编译时错误
  */
 declare class BadAccessor {
-  get name(): string { return "x" }
+  get name(): string { return 'x' }
   set name(val: string) {}
 }

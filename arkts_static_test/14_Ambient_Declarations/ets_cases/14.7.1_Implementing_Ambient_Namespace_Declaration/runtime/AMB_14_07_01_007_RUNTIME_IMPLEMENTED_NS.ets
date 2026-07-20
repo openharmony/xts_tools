@@ -31,7 +31,7 @@ namespace A {
 function main(): void {
   let x: int = 1
   if (x != 1) {
-    throw new Error("assertion failed")
+    throw new Error('assertion failed')
   }
   console.log('verified')
 }

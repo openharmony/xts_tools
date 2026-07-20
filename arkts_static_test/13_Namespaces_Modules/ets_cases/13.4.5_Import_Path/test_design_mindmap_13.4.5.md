@@ -5,11 +5,11 @@
 
 ## 概述
 
-spec §13.4.5：import path 指定模块路径（StringLiteral）。相对路径和绝对路径均可使用。编译器无法定位模块 → compile-time error。
+spec §13.4.5：import path 指定模块路径（StringLiteral）。相对路径和absolute路径均可使用。编译器无法定位模块 → compile-time error。
 
 ## 规则要点
 
-1. import path 为 StringLiteral（相对/绝对路径）
+1. import path 为 StringLiteral（相对/absolute路径）
 2. 编译器无法定位模块 → compile-time error
 3. 运行时导入路径验证（C类）
 

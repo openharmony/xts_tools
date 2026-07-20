@@ -22,7 +22,7 @@
  *       ⚠️ C 类：需要辅助模块文件 "./mytreeutils"，单文件无法验证
  *       分类：C 类（编译器实现限制 — 需要辅助模块文件）
  */
-import * as Utils from "./mytreeutils"
+import * as Utils from './mytreeutils'
 
 function main(): void {
     Utils.someFunction()

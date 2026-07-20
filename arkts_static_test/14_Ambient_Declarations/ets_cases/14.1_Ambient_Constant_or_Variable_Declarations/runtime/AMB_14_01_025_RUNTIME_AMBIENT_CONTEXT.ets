@@ -27,7 +27,7 @@ declare const externalConst: string
 function main(): void {
   let result: int = 42
   if (result != 42) {
-    throw new Error("assertion failed")
+    throw new Error('assertion failed')
   }
   console.log('verified')
 }

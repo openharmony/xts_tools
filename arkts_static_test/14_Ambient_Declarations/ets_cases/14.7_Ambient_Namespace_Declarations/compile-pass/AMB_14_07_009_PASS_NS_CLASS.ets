@@ -21,7 +21,7 @@
  */
 declare namespace A {
   class C {
-    field: int
+    public field: int
     method(): void
   }
 }

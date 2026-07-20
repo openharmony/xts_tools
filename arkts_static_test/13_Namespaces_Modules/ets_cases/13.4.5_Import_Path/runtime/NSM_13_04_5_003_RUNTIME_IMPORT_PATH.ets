@@ -22,9 +22,9 @@
  *       ⚠️ C 类：需要多文件构建系统支持，单文件 es2panda 无法解析 "@ohos.log"
  *       分类：C 类（编译器实现限制 — 需要构建系统配置）
  */
-import { console } from "@ohos.log"
+import { console } from '@ohos.log'
 
 function main(): int {
-    console.log("Import path runtime OK")
+    console.log('Import path runtime OK')
     return 0
 }

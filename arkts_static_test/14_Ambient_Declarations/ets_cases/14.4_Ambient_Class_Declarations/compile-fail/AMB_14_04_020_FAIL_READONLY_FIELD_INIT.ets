@@ -20,5 +20,5 @@
  * @note 反向用例：ambient class readonly 字段带初始化器应产生编译时错误
  */
 declare class BadReadonly {
-  readonly id: int = 1
+  public readonly id: int = 1
 }

@@ -20,5 +20,5 @@
  * @note 反向用例：ambient class static 字段带初始化器应产生编译时错误
  */
 declare class BadStatic {
-  static count: int = 0
+  public static count: int = 0
 }

@@ -21,14 +21,14 @@
  * @note 运行时用例：验证 ambient class 声明不影响其他代码运行
  */
 declare class ExternalClass {
-  id: int
+  public id: int
   getName(): string
 }
 
 function main(): void {
   let x: int = 100
   if (x != 100) {
-    throw new Error("assertion failed: " + x)
+    throw new Error('assertion failed: ' + x)
   }
   console.log('verified')
 }

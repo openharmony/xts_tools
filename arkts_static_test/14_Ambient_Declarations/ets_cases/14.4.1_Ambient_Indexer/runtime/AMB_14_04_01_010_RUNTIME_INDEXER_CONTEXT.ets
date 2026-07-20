@@ -26,7 +26,7 @@ declare class Indexable {
 function main(): void {
   let x: int = 7
   if (x != 7) {
-    throw new Error("assertion failed: " + x)
+    throw new Error('assertion failed: ' + x)
   }
   console.log('verified')
 }

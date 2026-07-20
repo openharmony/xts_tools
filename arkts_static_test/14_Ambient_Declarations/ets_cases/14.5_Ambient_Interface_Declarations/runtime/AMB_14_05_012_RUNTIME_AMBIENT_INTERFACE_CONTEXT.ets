@@ -26,7 +26,7 @@ declare interface External {
 function main(): void {
   let x: int = 10
   if (x != 10) {
-    throw new Error("assertion failed")
+    throw new Error('assertion failed')
   }
   console.log('verified')
 }

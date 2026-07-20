@@ -19,5 +19,5 @@
  * @design export let/const with explicit types
  */
 
-export let Origin: string = 'origin'
+export let origin: string = 'origin'
 export const PI: number = 3.14159

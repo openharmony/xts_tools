@@ -20,5 +20,5 @@
  * @note 反向用例：ambient class 字段无类型应产生编译时错误
  */
 declare class NoTypeField {
-  x
+  public x
 }

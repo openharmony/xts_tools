@@ -20,6 +20,6 @@
  * @note 正向用例：验证 ambient class static 字段编译通过
  */
 declare class WithStatic {
-  static count: int
-  static label: string
+  public static count: int
+  public static label: string
 }

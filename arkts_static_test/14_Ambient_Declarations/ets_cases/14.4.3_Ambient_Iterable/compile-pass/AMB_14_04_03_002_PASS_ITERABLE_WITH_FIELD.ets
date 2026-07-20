@@ -21,5 +21,5 @@
  */
 declare class D {
   [Symbol.iterator](): Iterator<string>
-  field: int
+  public field: int
 }

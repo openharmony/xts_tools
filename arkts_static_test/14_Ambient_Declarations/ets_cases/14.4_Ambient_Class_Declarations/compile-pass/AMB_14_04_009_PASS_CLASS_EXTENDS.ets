@@ -20,8 +20,8 @@
  * @note 正向用例：验证 ambient class extends 编译通过
  */
 declare class Base {
-  baseField: int
+  public baseField: int
 }
 declare class Derived extends Base {
-  derivedField: string
+  public derivedField: string
 }

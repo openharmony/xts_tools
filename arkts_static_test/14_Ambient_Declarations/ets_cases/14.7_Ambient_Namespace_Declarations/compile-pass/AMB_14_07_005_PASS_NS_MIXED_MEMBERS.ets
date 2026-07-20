@@ -22,6 +22,6 @@
 declare namespace A {
   function foo(): void
   let x: int
-  class C { field: int }
+  class C { public field: int }
   interface I { method(): void }
 }

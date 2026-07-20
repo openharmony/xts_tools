@@ -25,7 +25,7 @@ declare function externalFunc(x: int): void
 function main(): void {
   let sum: int = 1 + 2
   if (sum != 3) {
-    throw new Error("assertion failed: " + sum)
+    throw new Error('assertion failed: ' + sum)
   }
   console.log('verified')
 }

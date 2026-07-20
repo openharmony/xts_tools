@@ -21,5 +21,5 @@
  */
 declare class H {
   [index: string]: int
-  field: int
+  public field: int
 }
