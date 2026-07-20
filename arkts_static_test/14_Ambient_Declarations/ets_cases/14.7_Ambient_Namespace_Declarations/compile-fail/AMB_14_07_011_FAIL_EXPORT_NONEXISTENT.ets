@@ -12,16 +12,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
 */
-/*
- * NSM_13_02_002_PASS_DECLARE_MODULE
- * @id NSM_13_02_002_PASS_DECLARE_MODULE
- * @expect compile-pass
- * @section 13.2
- * @design declare module header 声明
- * @note 正向用例：验证 declare module header 编译通过
- *       ⚠️ C 类：es2panda 不支持 module header 语法
- *       分类：C 类（编译器实现限制 — 不支持 module header 语法）
+/**
+ * @id AMB_14_07_011_FAIL_EXPORT_NONEXISTENT
+ * @expect compile-fail
+ * @section 14.7
+ * @design declare namespace 中 exportDirective 引用不存在的 foo，违反 spec
+ * @note 反向用例
  */
-declare module 'AmbientModule'
+function foo() {}
 
-declare function ambientFoo(): void
+declare namespace A {
+  export {foo}
+}

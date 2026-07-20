@@ -12,16 +12,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
 */
-/*
- * NSM_13_02_002_PASS_DECLARE_MODULE
- * @id NSM_13_02_002_PASS_DECLARE_MODULE
- * @expect compile-pass
- * @section 13.2
- * @design declare module header 声明
- * @note 正向用例：验证 declare module header 编译通过
- *       ⚠️ C 类：es2panda 不支持 module header 语法
- *       分类：C 类（编译器实现限制 — 不支持 module header 语法）
+/**
+ * @id AMB_14_07_014_FAIL_NESTED_DECLARE
+ * @expect compile-fail
+ * @section 14.7
+ * @design 在已是 ambient 的 namespace 中嵌套 declare → compile-time error
+ * @note spec: 在已是 ambient 的上下文中使用 declare 修饰符 → compile-time error
  */
-declare module 'AmbientModule'
-
-declare function ambientFoo(): void
+declare namespace A {
+    declare function foo(): void
+}

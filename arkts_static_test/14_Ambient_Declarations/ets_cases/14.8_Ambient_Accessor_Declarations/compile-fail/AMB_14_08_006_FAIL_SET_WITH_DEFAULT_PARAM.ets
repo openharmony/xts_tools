@@ -12,16 +12,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
 */
-/*
- * NSM_13_02_002_PASS_DECLARE_MODULE
- * @id NSM_13_02_002_PASS_DECLARE_MODULE
- * @expect compile-pass
- * @section 13.2
- * @design declare module header 声明
- * @note 正向用例：验证 declare module header 编译通过
- *       ⚠️ C 类：es2panda 不支持 module header 语法
- *       分类：C 类（编译器实现限制 — 不支持 module header 语法）
+/**
+ * @id AMB_14_08_006_FAIL_SET_WITH_DEFAULT_PARAM
+ * @expect compile-fail
+ * @section 14.8
+ * @design declare set 参数有默认值，违反 spec（ambient 参数不能有默认值）
+ * @note 反向用例
  */
-declare module 'AmbientModule'
-
-declare function ambientFoo(): void
+declare set name(val: string = 'x')

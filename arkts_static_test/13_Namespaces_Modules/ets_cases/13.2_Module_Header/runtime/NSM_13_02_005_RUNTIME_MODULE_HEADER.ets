@@ -22,7 +22,7 @@
  *       ⚠️ C 类：es2panda 不支持 module header 语法，编译失败
  *       分类：C 类（编译器实现限制 — 不支持 module header 语法）
  */
-export module "RuntimeMod"
+export module 'RuntimeMod'
 
 export let x: int = 100
 

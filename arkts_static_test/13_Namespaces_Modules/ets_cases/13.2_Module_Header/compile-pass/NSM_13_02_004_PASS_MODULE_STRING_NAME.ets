@@ -22,8 +22,8 @@
  *       ⚠️ C 类：es2panda 不支持 module header 语法
  *       分类：C 类（编译器实现限制 — 不支持 module header 语法）
  */
-export module "com.example.app"
+export module 'com.example.app'
 
 export function hello(): void {
-    console.log("Module with string literal name")
+  console.log('Module with string literal name')
 }

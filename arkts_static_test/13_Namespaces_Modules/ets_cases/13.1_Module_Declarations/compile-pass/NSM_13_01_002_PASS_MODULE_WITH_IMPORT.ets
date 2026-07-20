@@ -27,5 +27,5 @@ function info(msg: string): void {
 }
 
 function main(): void {
-    info("Module with import works")
+  info('Module with import works')
 }

@@ -20,5 +20,5 @@
  */
 
 function main(): void {
-    console.log("Module basic works")
+  console.log('Module basic works')
 }

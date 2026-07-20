@@ -22,8 +22,8 @@
  *       ⚠️ C 类：es2panda 不支持 module header 语法（Syntax error ESY0279: Cannot find name 'module'）
  *       分类：C 类（编译器实现限制 — 不支持 module header 语法）
  */
-export module "MyModule"
+export module 'MyModule'
 
 export function greet(): void {
-    console.log("Hello from exported module")
+  console.log('Hello from exported module')
 }
