@@ -16,7 +16,7 @@
  * @id SEM_15_02_00_027_PASS_FUNC_param_contravariance
  * @expect compile-pass
  * @section 15.2
- * @design | 鍑芥暟绫诲瀷 | Java 鍑芥暟寮忔帴鍙ｆ槸鍚嶄箟鐩爣绫诲瀷銆?| Swift 鍑芥暟绫诲瀷瑙勫垯涓嶅悓銆?| `SEM_15_02_039_PASS_FUNC_param_contravariance` | `SEM_15_02_045_FAIL_FUNC_optional_required_mismatch` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

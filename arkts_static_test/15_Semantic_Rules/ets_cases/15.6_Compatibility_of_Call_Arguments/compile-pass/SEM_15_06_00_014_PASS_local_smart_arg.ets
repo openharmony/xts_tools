@@ -16,7 +16,7 @@
  * @id SEM_15_06_00_014_PASS_local_smart_arg
  * @expect compile-pass
  * @section 15.6
- * @design | 鏅鸿兘瀹炲弬 | Java pattern variable 鍙湪娴佷綔鐢ㄥ煙鍐呮湁鏁堛€?| Swift 浣跨敤鏄惧紡 narrowed binding銆?| `SEM_15_06_022_PASS_local_smart_arg` | `SEM_15_06_026_FAIL_global_smart_arg_assumed` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

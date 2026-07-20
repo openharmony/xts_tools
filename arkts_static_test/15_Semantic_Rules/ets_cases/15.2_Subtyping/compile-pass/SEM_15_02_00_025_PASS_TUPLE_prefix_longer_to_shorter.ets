@@ -16,7 +16,7 @@
  * @id SEM_15_02_00_025_PASS_TUPLE_prefix_longer_to_shorter
  * @expect compile-pass
  * @section 15.2
- * @design | 鍏冪粍 | Java 鏃犲唴缃厓缁勩€?| Swift 鍏冪粍涓嶆寜 ArkTS 鍓嶇紑瀛愮被鍨嬭鍒欍€?| `SEM_15_02_037_PASS_TUPLE_prefix_longer_to_shorter` | `SEM_15_02_041_FAIL_TUPLE_tuple_to_array` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

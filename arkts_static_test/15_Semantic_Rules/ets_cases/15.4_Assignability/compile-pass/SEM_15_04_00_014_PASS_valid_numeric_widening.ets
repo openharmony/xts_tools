@@ -16,7 +16,7 @@
  * @id SEM_15_04_00_014_PASS_valid_numeric_widening
  * @expect compile-pass
  * @section 15.4
- * @design | 鏁板€艰浆鎹?| Java 鏈?primitive widening锛屼絾鏁板€间綋绯讳笉鍚屻€?| Swift 閫氬父瑕佹眰鏄惧紡鏁板€艰浆鎹€?| `SEM_15_04_017_PASS_valid_numeric_widening` | `SEM_15_04_019_FAIL_double_to_int` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

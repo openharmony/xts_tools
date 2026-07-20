@@ -16,7 +16,7 @@
  * @id SEM_15_05_00_012_PASS_override_param_supertype
  * @expect compile-pass
  * @section 15.5
- * @design | 閲嶅啓 variance | Java 鍙傛暟鍙樺寲浼氬彉鎴愰噸杞斤紝涓嶆槸閲嶅啓銆?| Swift 閲嶅啓绛惧悕鏇翠弗鏍笺€?| `SEM_15_05_013_PASS_override_param_supertype` | `SEM_15_05_016_FAIL_override_param_subtype` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

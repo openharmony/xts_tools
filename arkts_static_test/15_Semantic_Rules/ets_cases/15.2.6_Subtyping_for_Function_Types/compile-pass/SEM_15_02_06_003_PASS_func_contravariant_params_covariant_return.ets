@@ -22,8 +22,9 @@
 class Base {}
 class Derived extends Base {}
 function main(): void {
-let db: (p: Derived) => Base = (p: Derived): Base => { return p
-};
+let db: (p: Derived) => Base = (p: Derived): Base => {
+    return p
+  };
     let bd: (p: Base) => Derived = (p: Base): Derived => { return p as Derived }
     db = bd
 }

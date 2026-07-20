@@ -21,7 +21,8 @@
  */
 class Base {}
 function main(): void {
-let bb: (p: Base) => Base = (p: Base): Base => { return p
-};
+let bb: (p: Base) => Base = (p: Base): Base => {
+    return p
+  };
     let g: () => Base = bb
 }

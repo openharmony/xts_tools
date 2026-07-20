@@ -16,7 +16,7 @@
  * @id SEM_15_05_00_011_PASS_param_contravariant_function
  * @expect compile-pass
  * @section 15.5
- * @design | 鍑芥暟绛惧悕 variance | Java 鍑芥暟寮忔帴鍙ｆ槸鍚嶄箟鐩爣绫诲瀷銆?| Swift 鍑芥暟 variance 瀛樺湪浣嗚鍒欎笉鍚屻€?| `SEM_15_05_012_PASS_param_contravariant_function` | `SEM_15_05_014_FAIL_return_contravariant_function` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

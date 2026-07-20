@@ -22,6 +22,8 @@
 function main(): void {
 let a: Fixedint[] = new Fixedint[](3);
 a[0] = 42;
-if (a[0] != 42) throw new Error('fail');
+if (a[0] != 42) {
+    throw new Error('fail');
+  }
 console.log('verified');
 };

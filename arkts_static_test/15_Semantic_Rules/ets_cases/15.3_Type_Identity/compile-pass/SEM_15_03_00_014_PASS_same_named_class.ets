@@ -16,7 +16,7 @@
  * @id SEM_15_03_00_014_PASS_same_named_class
  * @expect compile-pass
  * @section 15.3
- * @design | 鍛藉悕绫诲瀷鍜屽熀纭€绫诲瀷鍚屼竴 | Java 鍖哄垎 primitive銆乺eference 鍜岃祴鍊艰浆鎹€?| Swift 鍚嶄箟绫诲瀷鍜?protocol conform 涓嶇瓑鍚屻€?| `SEM_15_03_011_PASS_same_named_class` | `SEM_15_03_012_FAIL_same_shape_unrelated_classes` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

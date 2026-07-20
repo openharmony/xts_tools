@@ -22,6 +22,8 @@
 function identity<T>(x: T): T { return x; }
 function main(): void {
 let r = identity<int>(42);
-if (r != 42) throw new Error('fail');
+if (r != 42) {
+    throw new Error('fail');
+  }
 console.log('verified');
 };

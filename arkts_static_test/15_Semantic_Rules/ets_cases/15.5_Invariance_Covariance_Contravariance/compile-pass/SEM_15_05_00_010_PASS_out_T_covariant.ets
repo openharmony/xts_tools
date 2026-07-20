@@ -16,7 +16,7 @@
  * @id SEM_15_05_00_010_PASS_out_T_covariant
  * @expect compile-pass
  * @section 15.5
- * @design | 娉涘瀷澹版槑澶?variance | Java 涓昏浣跨敤 use-site wildcard銆?| Swift 娉涘瀷瀹瑰櫒閫氬父涓嶅彉銆?| `SEM_15_05_011_PASS_out_T_covariant` | `SEM_15_05_012_FAIL_invariant_used_as_out` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

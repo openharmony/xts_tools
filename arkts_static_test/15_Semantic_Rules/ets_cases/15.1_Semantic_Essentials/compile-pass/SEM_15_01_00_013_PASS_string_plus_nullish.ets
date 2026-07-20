@@ -16,7 +16,7 @@
  * @id SEM_15_01_00_013_PASS_string_plus_nullish
  * @expect compile-pass
  * @section 15.1
- * @design | 瀛楃涓?`+` | Java 涔熸敮鎸佸瓧绗︿覆鎷兼帴銆?| Swift 闇€瑕佹彃鍊兼垨鏄惧紡杞崲銆?| `SEM_15_01_019_PASS_string_plus_nullish` | `SEM_15_01_023_FAIL_string_minus_int` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

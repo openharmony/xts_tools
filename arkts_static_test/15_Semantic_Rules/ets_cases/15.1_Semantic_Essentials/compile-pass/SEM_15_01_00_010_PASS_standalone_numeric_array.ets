@@ -16,7 +16,7 @@
  * @id SEM_15_01_00_010_PASS_standalone_numeric_array
  * @expect compile-pass
  * @section 15.1
- * @design | 鐙珛琛ㄨ揪寮?| Java 娌℃湁 ArkTS 瀵硅薄瀛楅潰閲忥紱鏁板€煎瓧闈㈤噺瑙勫垯涓嶅悓銆?| Swift 鏈夊瓧闈㈤噺鎺ㄦ柇锛屼絾瀵硅薄瀛楅潰閲忔ā鍨嬩笉鍚屻€?| `SEM_15_01_016_PASS_standalone_numeric_array` | `SEM_15_01_017_FAIL_standalone_object_literal` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

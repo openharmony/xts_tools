@@ -16,7 +16,7 @@
  * @id SEM_15_04_00_016_PASS_local_smart_assign
  * @expect compile-pass
  * @section 15.4
- * @design | 鏅鸿兘璧嬪€?| Java pattern variable 鏄祦浣滅敤鍩熷眬閮ㄥ彉閲忋€?| Swift 鐢?`if let`/`as?` 鐢熸垚绋冲畾缁戝畾銆?| `SEM_15_04_019_PASS_local_smart_assign` | `SEM_15_04_023_FAIL_reassignment_kills_smart_assign` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

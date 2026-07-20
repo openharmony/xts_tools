@@ -22,6 +22,8 @@
 class A { x: int = 0; } function main(): void {
 let a: A = new A();
 a.x = 42;
-if (a.x != 42) throw new Error('fail');
+if (a.x != 42) {
+    throw new Error('fail');
+  }
 console.log('verified');
 };

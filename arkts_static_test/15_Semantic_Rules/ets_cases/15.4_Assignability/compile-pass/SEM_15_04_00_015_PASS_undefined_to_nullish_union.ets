@@ -16,7 +16,7 @@
  * @id SEM_15_04_00_015_PASS_undefined_to_nullish_union
  * @expect compile-pass
  * @section 15.4
- * @design | nullish | Java `null` 鍙祴缁欏紩鐢ㄧ被鍨嬨€?| Swift `nil` 鍙兘璧嬬粰 Optional銆?| `SEM_15_04_018_PASS_undefined_to_nullish_union` | `SEM_15_04_021_FAIL_nullish_to_Object` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

@@ -21,6 +21,8 @@
  */
 interface A { a: int; } function main(): void {
 let x: A = { a: 42 };
-if (x.a != 42) throw new Error('fail');
+if (x.a != 42) {
+    throw new Error('fail');
+  }
 console.log('verified');
 };

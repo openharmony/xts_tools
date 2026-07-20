@@ -25,6 +25,8 @@ function use(fn: (d: D) => string): string { let d: D = new D(); d.name = 'x'; r
 function handler(a: A): string { return a.name; }
 function main(): void {
 let r = use(handler);
-if (r != 'x') throw new Error('fail');
+if (r != 'x') {
+    throw new Error('fail');
+  }
 console.log('verified');
 };

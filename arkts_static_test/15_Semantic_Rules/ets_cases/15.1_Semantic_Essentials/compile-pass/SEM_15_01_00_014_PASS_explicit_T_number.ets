@@ -16,7 +16,7 @@
  * @id SEM_15_01_00_014_PASS_explicit_T_number
  * @expect compile-pass
  * @section 15.1
- * @design | 绫诲瀷鍙傛暟鐩爣 | Java 娉涘瀷鎺ㄦ柇鍙彈绾︽潫/鐩爣褰卞搷銆?| Swift 娉涘瀷鎺ㄦ柇涓庢暟瀛楀瓧闈㈤噺琛屼负涓嶅悓銆?| `SEM_15_01_020_PASS_explicit_T_number` | `SEM_15_01_025_FAIL_implicit_int_for_T_extends_number` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

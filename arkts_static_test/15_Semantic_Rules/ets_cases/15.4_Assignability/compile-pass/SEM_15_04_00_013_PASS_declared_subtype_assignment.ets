@@ -16,7 +16,7 @@
  * @id SEM_15_04_00_013_PASS_declared_subtype_assignment
  * @expect compile-pass
  * @section 15.4
- * @design | 瀛愮被鍨嬭祴鍊?| Java 绫?鎺ュ彛璧嬪€肩被浼笺€?| Swift 鏇翠緷璧栫簿纭被鍨嬫垨鏄惧紡杞崲銆?| `SEM_15_04_016_PASS_declared_subtype_assignment` | `SEM_15_04_017_FAIL_supertype_to_subtype` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

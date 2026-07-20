@@ -16,7 +16,7 @@
  * @id SEM_15_06_00_013_PASS_spread_array_literal_linearized
  * @expect compile-pass
  * @section 15.6
- * @design | 鍓╀綑/灞曞紑鍙傛暟 | Java varargs 绫讳技锛屼絾鏃犲厓缁勫睍寮€銆?| Swift variadic 涓嶆寜 ArkTS tuple/array spread 瑙勫垯銆?| `SEM_15_06_020_PASS_spread_array_literal_linearized` | `SEM_15_06_022_FAIL_spread_element_mismatch` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

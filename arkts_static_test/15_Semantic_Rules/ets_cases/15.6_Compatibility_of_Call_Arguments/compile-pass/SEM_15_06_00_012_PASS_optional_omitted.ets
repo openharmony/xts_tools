@@ -16,7 +16,7 @@
  * @id SEM_15_06_00_012_PASS_optional_omitted
  * @expect compile-pass
  * @section 15.6
- * @design | 蹇呴€?鍙€夊弬鏁?| Java 娌℃湁鍙€夊弬鏁般€?| Swift 鏈夐粯璁ゅ€煎拰鍙傛暟鏍囩锛屽尮閰嶈鍒欎笉鍚屻€?| `SEM_15_06_019_PASS_optional_omitted` | `SEM_15_06_020_FAIL_missing_required` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

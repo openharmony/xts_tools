@@ -21,6 +21,8 @@
  */
 function main(): void {
 let r = 10 + 32;
-if (r != 42) throw new Error('fail');
+if (r != 42) {
+    throw new Error('fail');
+  }
 console.log('verified');
 };

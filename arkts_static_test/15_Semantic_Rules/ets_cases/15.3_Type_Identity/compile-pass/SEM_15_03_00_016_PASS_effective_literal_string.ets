@@ -16,7 +16,7 @@
  * @id SEM_15_03_00_016_PASS_effective_literal_string
  * @expect compile-pass
  * @section 15.3
- * @design | 鏈夋晥绫诲瀷鍚屼竴 | Java 鎿﹂櫎涓昏褰卞搷娉涘瀷銆?| Swift 娌℃湁 ArkTS 杩欑 union/nullish 鏈夋晥绫诲瀷鏄犲皠銆?| `SEM_15_03_013_PASS_effective_literal_string` | `SEM_15_03_016_FAIL_return_type_only_identity` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

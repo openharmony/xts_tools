@@ -21,6 +21,8 @@
  */
 function main(): void {
 let a = 1 + 2;
-if (a != 3) throw new Error('fail');
+if (a != 3) {
+    throw new Error('fail');
+  }
 console.log('verified');
 };

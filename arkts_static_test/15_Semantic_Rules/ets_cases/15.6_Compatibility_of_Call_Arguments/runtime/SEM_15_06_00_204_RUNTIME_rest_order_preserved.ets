@@ -16,7 +16,7 @@
  * @id SEM_15_06_00_204_RUNTIME_rest_order_preserved
  * @expect runtime
  * @section 15.6
- * @design | 浠庡乏鍒板彸妫€鏌?| Java 杩樻秹鍙婇噸杞芥渶浼樺尮閰嶃€?| Swift 璇婃柇鏇翠緷璧栦笂涓嬫枃銆?| `SEM_15_06_021_RT_rest_order_preserved` | `SEM_15_06_024_FAIL_earlier_arg_not_assignable` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 

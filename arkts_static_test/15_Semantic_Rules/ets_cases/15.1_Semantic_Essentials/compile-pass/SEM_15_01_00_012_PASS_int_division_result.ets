@@ -16,7 +16,7 @@
  * @id SEM_15_01_00_012_PASS_int_division_result
  * @expect compile-pass
  * @section 15.1
- * @design | 鏁板€艰繍绠楃 | Java 灏忔暣鏁版彁鍗囩被浼硷紝浣?ArkTS `number` 涓庢暣鏁伴櫎娉曡鍗曠嫭娴嬨€?| Swift 涓嶅厑璁搁殣寮忔贩鍚堟暟鍊肩被鍨嬨€?| `SEM_15_01_018_PASS_int_division_result` | `SEM_15_01_021_FAIL_boolean_numeric_operator` |
+ * @design | placeholder |
  * @note Generated one-to-one from test_design.
  */
 
