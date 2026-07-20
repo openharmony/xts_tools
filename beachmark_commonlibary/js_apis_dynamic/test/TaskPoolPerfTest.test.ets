@@ -189,10 +189,9 @@ export default function TaskPoolPerfTest(): void {
         }
         tasks[0].addDependency(deps[0]);
         let arkTsAveragedTime: number = 0;
-        let res1 = tasks[0];
         let Stime = systemDateTime.getTime(true);
         for (let i = 1; i <= BASE_COUNT; i++) {
-          res1 = tasks[i].addDependency(deps[i]);
+          tasks[i].addDependency(deps[i]);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         arkTsAveragedTime = Dtime / BASE_COUNT;
@@ -215,10 +214,9 @@ export default function TaskPoolPerfTest(): void {
         }
         tasks[0].removeDependency(deps[0]);
         let arkTsAveragedTime: number = 0;
-        let res1 = tasks[0];
         let Stime = systemDateTime.getTime(true);
         for (let i = 1; i <= BASE_COUNT; i++) {
-          res1 = tasks[i].removeDependency(deps[i]);
+          tasks[i].removeDependency(deps[i]);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         arkTsAveragedTime = Dtime / BASE_COUNT;

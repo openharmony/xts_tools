@@ -24,6 +24,10 @@ declare class ArkTools {
   static forceFullGC(): void;
 }
 
+function getArgs(...args: Object[]): Object {
+  return args;
+}
+
 class Temperature implements util.ScopeComparable {
   private readonly _temp: number;
 
@@ -292,7 +296,7 @@ export default function UtilPerfTest02(): void {
     it('UtilPerfTest02_boolean_isArgumentsObject_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let type = new util.types();
-        let args = (function() { return arguments; })(1, 2, 3);
+        let args: Object = getArgs(1, 2, 3);
         let res = false;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
@@ -472,7 +476,7 @@ export default function UtilPerfTest02(): void {
     it('UtilPerfTest02_boolean_isGeneratorFunction_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let type = new util.types();
-        let genFunc = function*() {};
+        let genFunc = (): void => {};
         let res = type.isGeneratorFunction(genFunc);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
@@ -492,7 +496,7 @@ export default function UtilPerfTest02(): void {
     it('UtilPerfTest02_boolean_isGeneratorObject_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let type = new util.types();
-        let genObj = (function*() {})();
+        let genObj = (): void => {};
         let res = type.isGeneratorObject(genObj);
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {

@@ -74,10 +74,10 @@ export default function URLParamsTest(): void {
       for (let i = 0; i < BASE_COUNT; i++) {
         paramsObjects.push(new url.URLParams('fod=1&bard=2'));
       }
-      let res = paramsObjects[0].has('fod');
+      let res: boolean = paramsObjects[0].has('fod');
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = paramsObjects[i].delete('fod');
+        paramsObjects[i].delete('fod');
       }
        let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
@@ -478,18 +478,18 @@ export default function URLParamsTest(): void {
       performance.apiWithClassAndKeywordTxt('std.url', 'URL', 'params', 'get params(): URLParams;', arkTsAveragedTime);
     })
 
-    it('URLParamsPerfTest_IterableIterator_dollarIterator_4150', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
+    it('URLParamsPerfTest_IterableIterator_entries_4150', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       const paramsObject = new url.URLParams('fod=bay&edg=bap');
-      let res = paramsObject.$_iterator();
+      let res = paramsObject.entries();
       let Stime = systemDateTime.getTime(true);
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = paramsObject.$_iterator();
+        res = paramsObject.entries();
       }
       let Dtime = systemDateTime.getTime(true) - Stime;
       let res1 = res;
       let arkTsAveragedTime = Dtime / BASE_COUNT;
-      console.info('arkTsURLParamsPerfTest arkTsAveragedTime URLParamsPerfTest_IterableIterator_dollarIterator_4150: ' + arkTsAveragedTime + 'ns');
-      performance.apiWithClassAndKeywordTxt('std.url', 'URLParams', '$_iterator', '$_iterator(): IterableIterator<[string, string]>;', arkTsAveragedTime);
+      console.info('arkTsURLParamsPerfTest arkTsAveragedTime URLParamsPerfTest_IterableIterator_entries_4150: ' + arkTsAveragedTime + 'ns');
+      performance.apiWithClassAndKeywordTxt('std.url', 'URLParams', 'entries', 'entries(): IterableIterator<[string, string]>;', arkTsAveragedTime);
     })
 
     it('URLPerfTest_string_URLUserName_4200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {

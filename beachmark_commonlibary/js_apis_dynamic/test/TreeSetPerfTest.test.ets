@@ -389,7 +389,7 @@ export default function TreeSetPerfTest(): void {
         treeSet.add("sparrow");
         let numbers = Array.from(treeSet.values());
         let iter = treeSet[Symbol.iterator]();
-        let temp = iter.next().value;
+        let temp: string | undefined = iter.next().value;
         while(temp != undefined) {
           temp = iter.next().value;
         }
