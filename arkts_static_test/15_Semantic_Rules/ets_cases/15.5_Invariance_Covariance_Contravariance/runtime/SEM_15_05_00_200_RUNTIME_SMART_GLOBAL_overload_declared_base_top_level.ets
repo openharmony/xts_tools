@@ -36,7 +36,7 @@ let globalBase: OverBase = globalDerived
 let globalResult: string = globalBase.pick(9)
 
 function main(): void {
-arktest.assertEQ(globalResult, "base-number")
+arktest.assertEQ(globalResult, 'base-number')
 }
 
 

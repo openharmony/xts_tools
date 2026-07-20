@@ -25,6 +25,6 @@ function greet(name: string, times: int): string {
     return result;
 }
 function main(): void {
-    let r: string = greet("hi", 3);
+    let r: string = greet('hi', 3);
     console.log(`r=${r}`);
 }

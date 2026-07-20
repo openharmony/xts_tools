@@ -20,6 +20,6 @@
  * @note 来自规范 15.2.4 例：let e: [string,number] = d OK
  */
 function main(): void {
-    let d: [string, number, boolean] = ["a", 1, true]
+    let d: [string, number, boolean] = ['a', 1, true]
     let e: [string, number] = d
 }

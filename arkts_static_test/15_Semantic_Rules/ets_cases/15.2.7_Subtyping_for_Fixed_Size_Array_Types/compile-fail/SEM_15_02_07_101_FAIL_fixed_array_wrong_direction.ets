@@ -20,7 +20,7 @@
  * @note 来自规范 15.2.7 例：x = y 编译错误
  */
 function main(): void {
-    let x: Fixedstring[] = ["aa", "bb", "cc"]
+    let x: Fixedstring[] = ['aa', 'bb', 'cc']
     let y: FixedObject[] = x
     x = y
 }

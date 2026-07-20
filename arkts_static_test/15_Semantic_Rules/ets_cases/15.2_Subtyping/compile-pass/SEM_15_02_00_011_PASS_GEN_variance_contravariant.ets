@@ -27,14 +27,14 @@ class Animal {
 
 class Dog extends Animal {
   bark(): void {
-    console.log("Woof!")
+    console.log('Woof!')
   }
 }
 
 class Cage<in T> {
   // 逆变：只能写入 T，不能读取 T
   put(value: T): void {
-    console.log("Put value")
+    console.log('Put value')
   }
 }
 
@@ -45,5 +45,5 @@ function testGenericContravariance(): void {
   // Cage<Animal> 是 Cage<Dog> 的子类型（逆变）
   dogCage = animalCage  // OK: Cage<Animal> <: Cage<Dog>
   
-  console.log("Contravariance test passed")
+  console.log('Contravariance test passed')
 }

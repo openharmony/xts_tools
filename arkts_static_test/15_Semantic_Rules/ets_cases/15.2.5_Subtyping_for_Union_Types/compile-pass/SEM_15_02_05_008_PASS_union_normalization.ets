@@ -20,6 +20,6 @@
  * @note 来自规范 15.2.5 例：let u: 'abc'|"cde"|string → u 类型为 string
  */
 function main(): void {
-    let u: 'abc'|"cde"|string = 'abc'
+    let u: 'abc'|'cde'|string = 'abc'
     let v: string = u
 }

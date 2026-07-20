@@ -20,7 +20,7 @@
  * @note 来自规范 15.2.1 例：class S {} → function foo(o: Object) {} → foo(new S()) OK
  */
 class S {
-    value: string = 'test'
+    public value: string = 'test'
 }
 function foo(o: Object): void {}
 function main(): void {

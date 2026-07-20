@@ -20,6 +20,6 @@
  * @note 来自规范 15.2.5 例：let s2: string = s1 OK
  */
 function main(): void {
-    let s1: '1'|"2" = '1'
+    let s1: '1'|'2' = '1'
     let s2: string = s1
 }

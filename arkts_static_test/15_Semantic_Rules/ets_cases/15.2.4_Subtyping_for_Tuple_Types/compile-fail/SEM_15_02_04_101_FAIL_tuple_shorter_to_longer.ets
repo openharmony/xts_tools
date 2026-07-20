@@ -20,7 +20,7 @@
  * @note 来自规范 15.2.4 例：d = e（shorter to longer）编译错误
  */
 function main(): void {
-    let d: [string, number, boolean] = ["a", 1, true]
+    let d: [string, number, boolean] = ['a', 1, true]
     let e: [string, number] = d
     d = e
 }

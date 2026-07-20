@@ -26,8 +26,8 @@ function main(): void {
     dog.name = 'Rex';
     let animal: Animal = dog;
     let sound: string = animal.speak();
-    if (sound != "Woof!") {
-        throw new Error("assertion failed: expected Woof! got " + sound);
+    if (sound != 'Woof!') {
+        throw new Error('assertion failed: expected Woof! got ' + sound);
     }
-    console.log("verified: " + sound);
+    console.log('verified: ' + sound);
 }

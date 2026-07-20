@@ -28,22 +28,22 @@ function testTupleTypeIdentity(): void {
   // 相同元组类型
   t1 = t2  // OK: 相同类型
   
-  let t3: [number, string] = [1, "hello"]
-  let t4: [number, string] = [2, "world"]
+  let t3: [number, string] = [1, 'hello']
+  let t4: [number, string] = [2, 'world']
   
   // 相同元组类型
   t3 = t4  // OK: 相同类型
   
-  console.log("Tuple type identity test passed")
+  console.log('Tuple type identity test passed')
 }
 
 // 测试不同元组类型
 function testDiferentTupleTypeIdentity(): void {
   let t1: [number] = [1]
-  let t2: [number, string] = [1, "hello"]
+  let t2: [number, string] = [1, 'hello']
   
   // 不同元组类型
   // t1 = t2  // Error: 不同类型
   
-  console.log("Different tuple type identity test passed")
+  console.log('Different tuple type identity test passed')
 }

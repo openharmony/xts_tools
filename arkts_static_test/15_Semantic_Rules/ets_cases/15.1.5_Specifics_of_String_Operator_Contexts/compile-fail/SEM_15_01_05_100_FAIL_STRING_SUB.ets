@@ -20,5 +20,5 @@
  * @note 反向用例：字符串不支持减法运算
  */
 function main(): void {
-let r = 'hello' - "o";
+let r = 'hello' - 'o';
 }

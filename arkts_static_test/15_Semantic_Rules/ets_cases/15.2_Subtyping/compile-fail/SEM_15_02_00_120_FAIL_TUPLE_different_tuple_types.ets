@@ -23,8 +23,8 @@
 // 测试元组类型不匹配（编译失败）
 function testTupleTypeMismatch(): void {
   let t1: [number] = [1]
-  let t2: [string, number] = ["hello", 2]
-  let t3: [number, string] = [1, "hello"]
+  let t2: [string, number] = ['hello', 2]
+  let t3: [number, string] = [1, 'hello']
   
   // 编译失败：不同长度的元组类型之间没有子类型关系
   t1 = t2  // Error: Type '[string, number]' is not assignable to type '[number]'

@@ -27,7 +27,7 @@ class Animal {
 
 class Dog extends Animal {
   bark(): void {
-    console.log("Woof!")
+    console.log('Woof!')
   }
 }
 
@@ -53,5 +53,5 @@ function testUnionAssignability(): void {
   // string 是 number | string 的子类型
   x = z  // OK: 基于子类型的可赋值性
     
-  console.log("Union assignability test passed")
+  console.log('Union assignability test passed')
 }

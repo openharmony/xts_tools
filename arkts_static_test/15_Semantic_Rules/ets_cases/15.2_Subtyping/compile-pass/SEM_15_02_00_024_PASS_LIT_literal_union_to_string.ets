@@ -16,7 +16,7 @@
  * @id SEM_15_02_00_024_PASS_LIT_literal_union_to_string
  * @expect compile-pass
  * @section 15.2
- * @design | 瀛楅潰閲?nullish | Java 娌℃湁瀛楃涓插瓧闈㈤噺绫诲瀷锛屼笖 `null` 鍙祴缁欏紩鐢ㄣ€?| Swift 鐨?`nil` 鍙敤浜?Optional銆?| `SEM_15_02_036_PASS_LIT_literal_union_to_string` | `SEM_15_02_039_FAIL_LIT_null_to_Object` |
+ * @design | 字面量-nullish | Java 无字面量类型，null 可赋给引用。 |
  * @note Generated one-to-one from test_design.
  */
 

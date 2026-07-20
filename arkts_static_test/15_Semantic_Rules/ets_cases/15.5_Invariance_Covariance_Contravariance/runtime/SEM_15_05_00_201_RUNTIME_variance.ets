@@ -30,8 +30,8 @@ function animalDesc(a: Animal): string {
 }
 function main(): void {
     let result: string = useDogFn(animalDesc);
-    if (result != "Animal: Rex") {
-        throw new Error("assertion failed: expected 'Animal: Rex' got '" + result + "'");
+    if (result != 'Animal: Rex') {
+        throw new Error('assertion failed: expected 'Animal: Rex' got '' + result + ''');
     }
-    console.log("verified: " + result);
+    console.log('verified: ' + result);
 }

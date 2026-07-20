@@ -20,6 +20,6 @@
  * @note 反向用例：[int, string] 不能赋值给 [string, int]
  */
 function main(): void {
-    let a: [int, string] = [1, "a"];
+    let a: [int, string] = [1, 'a'];
     let b: [string, int] = a;
 }

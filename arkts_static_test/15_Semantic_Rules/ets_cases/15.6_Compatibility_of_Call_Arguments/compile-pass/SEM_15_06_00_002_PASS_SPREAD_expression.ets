@@ -27,7 +27,7 @@ function testSpreadExpression(): void {
   
   // spread 表达式线性化
   let result1: number[] = [...arr1, ...arr2]
-  console.log("Spread result: " + result1)  // 输出: [1, 2, 3, 4, 5, 6]
+  console.log('Spread result: ' + result1)  // 输出: [1, 2, 3, 4, 5, 6]
   
   // 函数调用中的 spread 表达式
   function add(a: number, b: number, c: number): number {
@@ -36,7 +36,7 @@ function testSpreadExpression(): void {
   
   let args: number[] = [1, 2, 3]
   let result2: number = add(...args)
-  console.log("Spread in function call: " + result2)  // 输出: 6
+  console.log('Spread in function call: ' + result2)  // 输出: 6
   
-  console.log("Spread expression test passed")
+  console.log('Spread expression test passed')
 }

@@ -30,7 +30,7 @@ class SmartDerived extends SmartBase {
 function main(): void {
   let b: SmartBase = new SmartDerived()
   if (b instanceof SmartDerived) {
-    arktest.assertEQ(b.onlyDerived(), "derived")
+    arktest.assertEQ(b.onlyDerived(), 'derived')
   }
 }
 

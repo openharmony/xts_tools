@@ -20,7 +20,7 @@
  * @note 正向用例：布尔值通过字符串转换拼接
  */
 function main(): void {
-    let s: string = "flag: ";
+    let s: string = 'flag: ';
     let b: boolean = true;
     let r = s + b;
     let r2 = b + s;

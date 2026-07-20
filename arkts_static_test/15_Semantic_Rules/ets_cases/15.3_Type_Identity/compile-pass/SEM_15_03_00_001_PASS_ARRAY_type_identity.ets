@@ -29,16 +29,16 @@ function testArrayTypeIdentity(): void {
   a1 = a2  // OK: 相同类型
   a2 = a1  // OK: 相同类型
   
-  console.log("Array type identity test passed")
+  console.log('Array type identity test passed')
 }
 
 // 测试不同类型参数的数组类型
 function testDiferentArrayTypeIdentity(): void {
   let a1: number[] = [1, 2, 3]
-  let a2: string[] = ["a", "b", "c"]
+  let a2: string[] = ['a', 'b', 'c']
     
   // number[] 和 string[] 不是相同类型
   // a1 = a2  // Error: 不同类型
     
-  console.log("Different array type identity test passed")
+  console.log('Different array type identity test passed')
 }

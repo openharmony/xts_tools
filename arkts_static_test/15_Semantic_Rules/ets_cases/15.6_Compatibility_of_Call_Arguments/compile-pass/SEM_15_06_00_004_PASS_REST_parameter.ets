@@ -33,29 +33,29 @@ function testRestParameter(): void {
   
   // 调用带有剩余参数的函数
   let result1: number = sum(1, 2, 3)
-  console.log("Sum (1,2,3): " + result1)  // 输出: 6
+  console.log('Sum (1,2,3): ' + result1)  // 输出: 6
   
   let result2: number = sum(10, 20, 30, 40, 50)
-  console.log("Sum (10,20,30,40,50): " + result2)  // 输出: 150
+  console.log('Sum (10,20,30,40,50): ' + result2)  // 输出: 150
   
   // 使用 spread 表达式调用
   let arr: number[] = [1, 2, 3, 4, 5]
   let result3: number = sum(...arr)
-  console.log("Sum (spread): " + result3)  // 输出: 15
+  console.log('Sum (spread): ' + result3)  // 输出: 15
   
-  console.log("Rest parameter test passed")
+  console.log('Rest parameter test passed')
 }
 
 // 测试元组剩余参数
 function testTupleRestParameter(): void {
   function process(first: string, ...rest: number[]): void {
-    console.log("First: " + first)
-    console.log("Rest: " + rest)
+    console.log('First: ' + first)
+    console.log('Rest: ' + rest)
   }
   
-  process("hello", 1, 2, 3)
+  process('hello', 1, 2, 3)
   // 输出: First: hello
   // 输出: Rest: 1,2,3
   
-  console.log("Tuple rest parameter test passed")
+  console.log('Tuple rest parameter test passed')
 }

@@ -30,7 +30,7 @@ function testImplicitConversionAssignability(): void {
   // 注意：ArkTS 的数值类型转换规则可能不同于规范
   // 这里假设存在隐式转换
     
-  console.log("Implicit conversion assignability test passed")
+  console.log('Implicit conversion assignability test passed')
 }
 
 // 测试字符串到字符串字面量类型的隐式转换
@@ -41,7 +41,7 @@ function testStringToLiteralAssignability(): void {
   // 注意：string 到字符串字面量类型的隐式转换可能不允许
   // s2 = s1  // Error: string 不能赋给 "hello"
     
-  console.log("String to literal assignability test passed")
+  console.log('String to literal assignability test passed')
 }
 
 // 测试联合类型的隐式转换
@@ -53,5 +53,5 @@ function testUnionImplicitConversion(): void {
   x = 100
   y = 'world'
     
-  console.log("Union implicit conversion test passed")
+  console.log('Union implicit conversion test passed')
 }

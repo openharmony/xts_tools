@@ -29,7 +29,7 @@ function testUnionTypeIdentity(): void {
   u1 = u2  // OK: 相同类型
   u2 = u1  // OK: 相同类型
   
-  console.log("Union type identity test passed")
+  console.log('Union type identity test passed')
 }
 
 // 测试不同联合类型
@@ -40,17 +40,17 @@ function testDiferentUnionTypeIdentity(): void {
   // number | string 和 number | boolean 不是相同类型
   // u1 = u2  // Error: 不同类型
     
-  console.log("Different union type identity test passed")
+  console.log('Different union type identity test passed')
 }
 
 // 测试联合类型简化
 function testUnionTypeSimplification(): void {
-  let u: 'abc' | "cde" | string
+  let u: 'abc' | 'cde' | string
   
   // "abc" | "cde" | string 简化为 string
   u = 'test'  // OK: string
   u = 'abc'  // OK: 'abc' <: string
   u = 'cde'  // OK: 'cde' <: string
     
-  console.log("Union type simplification test passed")
+  console.log('Union type simplification test passed')
 }

@@ -27,7 +27,7 @@ class Animal {
 
 class Dog extends Animal {
   bark(): void {
-    console.log("Woof!")
+    console.log('Woof!')
   }
 }
 
@@ -47,7 +47,7 @@ function testFunctionReturnCovariance(): void {
   // 返回类型协变：Dog <: Animal，所以 Func2 <: Func1
   f1 = f2  // OK: 返回类型协变
     
-  console.log("Function return covariance test passed")
+  console.log('Function return covariance test passed')
 }
 
 // 函数类型：(p: Dog) => Animal 是 (p: Animal) => Animal 的子类型（参数类型逆变）
@@ -65,5 +65,5 @@ function testFunctionParameterContravariance(): void {
   // 参数类型逆变：Dog >: Animal，所以 Func3 <: Func1
   f1 = f3  // OK: 参数类型逆变
     
-  console.log("Function parameter contravariance test passed")
+  console.log('Function parameter contravariance test passed')
 }

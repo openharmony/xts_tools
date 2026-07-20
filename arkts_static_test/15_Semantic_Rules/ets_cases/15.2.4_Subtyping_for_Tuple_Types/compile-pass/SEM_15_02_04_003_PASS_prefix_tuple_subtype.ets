@@ -20,6 +20,6 @@
  * @note 来自规范 15.2.4 例：let b: [string] = t2 OK
  */
 function main(): void {
-    let t2: [string, number] = ["hello", 42]
+    let t2: [string, number] = ['hello', 42]
     let b: [string] = t2
 }

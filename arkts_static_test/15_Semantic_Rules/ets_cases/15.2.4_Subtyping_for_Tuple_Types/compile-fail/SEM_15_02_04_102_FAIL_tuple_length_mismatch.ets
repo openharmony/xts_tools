@@ -21,6 +21,6 @@
  */
 function main(): void {
     let t1: [number] = [42]
-    let t2: [string, number] = ["hello", 42]
+    let t2: [string, number] = ['hello', 42]
     t2 = t1
 }

@@ -34,11 +34,11 @@ class Dog implements Pet {
   name: string = 'dog'
   
   eat(): void {
-    console.log("Dog eats")
+    console.log('Dog eats')
   }
   
   play(): void {
-    console.log("Dog plays")
+    console.log('Dog plays')
   }
 }
 

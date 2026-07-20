@@ -23,7 +23,7 @@ function main(): void {
     let x: int = 42;
     let y = x + 1;
     if (y != 43) {
-        throw new Error("assertion failed: expected 43 got " + y.toString());
+        throw new Error('assertion failed: expected 43 got ' + y.toString());
     }
     console.log('verified');
 }

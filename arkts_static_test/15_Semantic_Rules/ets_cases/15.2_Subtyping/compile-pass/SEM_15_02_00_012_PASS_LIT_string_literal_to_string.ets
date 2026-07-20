@@ -53,7 +53,7 @@ function testStringLiteralSubtype(): void {
   
   class Derived extends Base {
     override greet(p: string): void {
-      console.log("Derived: " + p)
+      console.log('Derived: ' + p)
     }
   }
   

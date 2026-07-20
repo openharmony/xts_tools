@@ -20,7 +20,7 @@
  * @note 正向用例：string+int→string, int+string→string, string+字面量→string
  */
 function main(): void {
-    let s: string = "value: ";
+    let s: string = 'value: ';
     let n: int = 42;
     let result1 = s + n;
     let result2 = n + s;

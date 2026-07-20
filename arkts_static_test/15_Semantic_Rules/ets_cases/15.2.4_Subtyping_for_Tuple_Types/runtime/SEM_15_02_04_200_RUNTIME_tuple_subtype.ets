@@ -20,7 +20,7 @@
  * @note 运行时用例
  */
 function main(): void {
-let t: [int, string] = [1, "a"];
+let t: [int, string] = [1, 'a'];
 if (t[0] != 1) throw new Error('fail');
 console.log('verified');
 };

@@ -24,7 +24,7 @@ function main(): void {
     x = 42;
     let y: int = x;
     if (y != 42) {
-        throw new Error("assertion failed: expected 42 got " + y.toString());
+        throw new Error('assertion failed: expected 42 got ' + y.toString());
     }
     console.log('verified');
 }

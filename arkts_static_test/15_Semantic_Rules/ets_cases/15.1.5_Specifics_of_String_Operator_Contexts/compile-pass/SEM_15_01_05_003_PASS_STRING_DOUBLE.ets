@@ -20,7 +20,7 @@
  * @note 正向用例：浮点数通过字符串转换拼接
  */
 function main(): void {
-    let s: string = "pi: ";
+    let s: string = 'pi: ';
     let pi: double = 3.14;
     let r = s + pi;
     let t: string = r;

@@ -39,7 +39,7 @@ function testTypeAliasIdentity(): void {
   s1 = s2  // OK: 相同类型
   s2 = s1  // OK: 相同类型
     
-  console.log("Type alias identity test passed")
+  console.log('Type alias identity test passed')
 }
 
 // 测试泛型类型别名
@@ -53,5 +53,5 @@ function testGenericTypeAlias(): void {
   a1 = a2  // OK: 相同类型
   a2 = a1  // OK: 相同类型
     
-  console.log("Generic type alias test passed")
+  console.log('Generic type alias test passed')
 }

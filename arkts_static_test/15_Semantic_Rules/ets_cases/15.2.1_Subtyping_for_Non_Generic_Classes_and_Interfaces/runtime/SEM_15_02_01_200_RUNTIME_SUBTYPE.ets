@@ -25,6 +25,6 @@ function main(): void {
     let d: Dog = new Dog();
     let a: Animal = d;
     let s: string = a.speak();
-    if (s != "Woof!") { throw new Error("assertion failed: " + s); }
+    if (s != 'Woof!') { throw new Error('assertion failed: ' + s); }
     console.log('verified');
 }

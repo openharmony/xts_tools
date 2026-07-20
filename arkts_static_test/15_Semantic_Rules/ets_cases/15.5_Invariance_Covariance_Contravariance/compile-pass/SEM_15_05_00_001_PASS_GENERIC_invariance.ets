@@ -37,7 +37,7 @@ function testGenericInvariance(): void {
   // containerNumber = containerString  // Error: 不变性
   // containerString = containerNumber  // Error: 不变性
     
-  console.log("Generic invariance test passed")
+  console.log('Generic invariance test passed')
 }
 
 // 测试泛型协变（使用 out 类型参数）
@@ -53,5 +53,5 @@ function testGenericCovariance(): void {
   let boxNumber: Box<number> = new Box<number>(42)
   let boxAny: Box<any> = boxNumber  // OK: 协变
     
-  console.log("Generic covariance test passed")
+  console.log('Generic covariance test passed')
 }
