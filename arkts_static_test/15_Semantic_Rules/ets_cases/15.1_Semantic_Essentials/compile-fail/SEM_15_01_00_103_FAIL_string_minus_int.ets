@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_103_FAIL_string_minus_int
  * @expect compile-fail
  * @section 15.1
- * @design `string - int` 不属于字符串上下文。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design `string - int` 涓嶅睘浜庡瓧绗︿覆涓婁笅鏂囥€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Fail004StringMinusInt(): void {

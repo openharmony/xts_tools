@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_115_FAIL_DIFF_overlap_difference
  * @expect compile-fail
  * @section 15.2
- * @design 与被排除类型有交集时赋值。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 涓庤鎺掗櫎绫诲瀷鏈変氦闆嗘椂璧嬪€笺€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502DiffFail001OverlapDifference(): void {

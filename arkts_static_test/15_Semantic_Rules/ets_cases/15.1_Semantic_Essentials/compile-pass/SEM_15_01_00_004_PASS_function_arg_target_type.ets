@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_004_PASS_function_arg_target_type
  * @expect compile-pass
  * @section 15.1
- * @design `foo(x: double); foo(1)` 调用实参使用类赋值上下文。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design `foo(x: double); foo(1)` 璋冪敤瀹炲弬浣跨敤绫昏祴鍊间笂涓嬫枃銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Pass004FunctionArgTargetType(): void {

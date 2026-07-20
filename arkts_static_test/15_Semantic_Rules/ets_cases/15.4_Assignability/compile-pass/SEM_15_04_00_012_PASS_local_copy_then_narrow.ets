@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_012_PASS_local_copy_then_narrow
  * @expect compile-pass
  * @section 15.4
- * @design 全局或字段复制到局部变量后再缩窄赋值。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍏ㄥ眬鎴栧瓧娈靛鍒跺埌灞€閮ㄥ彉閲忓悗鍐嶇缉绐勮祴鍊笺€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Pass011LocalCopyThenNarrow(): void {

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_101_FAIL_CLASS_unrelated_classes
  * @expect compile-fail
  * @section 15.2
- * @design 无关类之间赋值。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鏃犲叧绫讳箣闂磋祴鍊笺€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502ClassFail002UnrelatedClasses(): void {

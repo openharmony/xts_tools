@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_05_00_012_PASS_override_param_supertype
  * @expect compile-pass
  * @section 15.5
- * @design | 重写 variance | Java 参数变化会变成重载，不是重写。 | Swift 重写签名更严格。 | `SEM_15_05_013_PASS_override_param_supertype` | `SEM_15_05_016_FAIL_override_param_subtype` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | 閲嶅啓 variance | Java 鍙傛暟鍙樺寲浼氬彉鎴愰噸杞斤紝涓嶆槸閲嶅啓銆?| Swift 閲嶅啓绛惧悕鏇翠弗鏍笺€?| `SEM_15_05_013_PASS_override_param_supertype` | `SEM_15_05_016_FAIL_override_param_subtype` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1505Pass012OverrideParamSupertype(): void {

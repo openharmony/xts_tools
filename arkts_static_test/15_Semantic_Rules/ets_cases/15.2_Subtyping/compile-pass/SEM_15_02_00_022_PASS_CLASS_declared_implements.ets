@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_022_PASS_CLASS_declared_implements
  * @expect compile-pass
  * @section 15.2
- * @design | 名义类/接口 | Java 也偏名义类型；ArkTS 不接受纯结构匹配。 | Swift protocol 也需声明遵循，但 extension/existential 不同。 | `SEM_15_02_034_PASS_CLASS_declared_implements` | `SEM_15_02_035_FAIL_CLASS_structural_match_without_implements` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | 鍚嶄箟绫?鎺ュ彛 | Java 涔熷亸鍚嶄箟绫诲瀷锛汚rkTS 涓嶆帴鍙楃函缁撴瀯鍖归厤銆?| Swift protocol 涔熼渶澹版槑閬靛惊锛屼絾 extension/existential 涓嶅悓銆?| `SEM_15_02_034_PASS_CLASS_declared_implements` | `SEM_15_02_035_FAIL_CLASS_structural_match_without_implements` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502ClassPass010DeclaredImplements(): void {

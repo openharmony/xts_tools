@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_006_PASS_optional_omitted
  * @expect compile-pass
  * @section 15.6
- * @design 可选参数省略。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍙€夊弬鏁扮渷鐣ャ€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Pass002OptionalOmitted(): void {

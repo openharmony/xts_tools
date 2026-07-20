@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_108_FAIL_TUPLE_shorter_to_longer
  * @expect compile-fail
  * @section 15.2
- * @design 较短元组赋给较长元组。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 杈冪煭鍏冪粍璧嬬粰杈冮暱鍏冪粍銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502TupleFail001ShorterToLonger(): void {

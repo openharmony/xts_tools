@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_010_PASS_explicit_cast_assignment
  * @expect compile-pass
  * @section 15.4
- * @design 显式 cast 后再赋值。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鏄惧紡 cast 鍚庡啀璧嬪€笺€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Pass005ExplicitCastAssignment(): void {

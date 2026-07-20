@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_101_FAIL_incompatible_assignment_like_rhs
  * @expect compile-fail
  * @section 15.1
- * @design 右值类型已知但不可赋给目标类型。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍙冲€肩被鍨嬪凡鐭ヤ絾涓嶅彲璧嬬粰鐩爣绫诲瀷銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Fail002IncompatibleAssignmentLikeRhs(): void {

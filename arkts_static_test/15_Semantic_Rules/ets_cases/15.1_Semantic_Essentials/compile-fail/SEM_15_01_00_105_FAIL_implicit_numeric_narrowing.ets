@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_105_FAIL_implicit_numeric_narrowing
  * @expect compile-fail
  * @section 15.1
- * @design 隐式数值窄化赋值，例如 `int` 到 `byte`。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 闅愬紡鏁板€肩獎鍖栬祴鍊硷紝渚嬪 `int` 鍒?`byte`銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Fail006ImplicitNumericNarrowing(): void {

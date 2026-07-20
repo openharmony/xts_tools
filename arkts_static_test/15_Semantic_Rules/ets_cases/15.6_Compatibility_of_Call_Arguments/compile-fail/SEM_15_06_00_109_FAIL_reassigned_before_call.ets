@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_109_FAIL_reassigned_before_call
  * @expect compile-fail
  * @section 15.6
- * @design 缩窄后重新赋值再传参。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 缂╃獎鍚庨噸鏂拌祴鍊煎啀浼犲弬銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Fail012ReassignedBeforeCall(): void {

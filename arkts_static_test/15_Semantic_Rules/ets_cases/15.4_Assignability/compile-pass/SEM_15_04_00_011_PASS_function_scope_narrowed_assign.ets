@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_011_PASS_function_scope_narrowed_assign
  * @expect compile-pass
  * @section 15.4
- * @design 函数局部变量缩窄后赋给缩窄目标。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍑芥暟灞€閮ㄥ彉閲忕缉绐勫悗璧嬬粰缂╃獎鐩爣銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Pass010FunctionScopeNarrowedAssign(): void {

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_027_PASS_FUNC_param_contravariance
  * @expect compile-pass
  * @section 15.2
- * @design | 函数类型 | Java 函数式接口是名义目标类型。 | Swift 函数类型规则不同。 | `SEM_15_02_039_PASS_FUNC_param_contravariance` | `SEM_15_02_045_FAIL_FUNC_optional_required_mismatch` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | 鍑芥暟绫诲瀷 | Java 鍑芥暟寮忔帴鍙ｆ槸鍚嶄箟鐩爣绫诲瀷銆?| Swift 鍑芥暟绫诲瀷瑙勫垯涓嶅悓銆?| `SEM_15_02_039_PASS_FUNC_param_contravariance` | `SEM_15_02_045_FAIL_FUNC_optional_required_mismatch` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502FuncPass010ParamContravariance(): void {

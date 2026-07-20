@@ -244,7 +244,7 @@ type Difference<T, U> = T extends U ? never : T;
 
 ## 8. 参考资料
 
-- [ArkTS Specification 15.2.9](https://developer.harmonyos.com/cn/docs/documentation/doc-references/arkts-specification-0000001768576522)
+- [ArkTS Specification 15.2.9]
 - [Java Generics](https://docs.oracle.com/javase/tutorial/java/generics/)
 - [Swift Generics](https://docs.swift.org/swift-book/LanguageGuide/Generics.html)
 - [TypeScript Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html)

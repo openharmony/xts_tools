@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_111_FAIL_FUNC_parameter_wrong_direction
  * @expect compile-fail
  * @section 15.2
- * @design 参数方向错误。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍙傛暟鏂瑰悜閿欒銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502FuncFail002ParameterWrongDirection(): void {

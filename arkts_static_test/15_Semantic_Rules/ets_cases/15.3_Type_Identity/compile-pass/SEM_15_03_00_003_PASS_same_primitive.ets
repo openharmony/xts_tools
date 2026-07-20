@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_03_00_003_PASS_same_primitive
  * @expect compile-pass
  * @section 15.3
- * @design 相同基础类型，例如 `int` 与 `int`。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鐩稿悓鍩虹绫诲瀷锛屼緥濡?`int` 涓?`int`銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1503Pass001SamePrimitive(): void {

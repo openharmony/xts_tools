@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_010_PASS_function_scope_smart_arg
  * @expect compile-pass
  * @section 15.6
- * @design 局部变量经 `instanceof` 缩窄后传给子类型参数。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 灞€閮ㄥ彉閲忕粡 `instanceof` 缂╃獎鍚庝紶缁欏瓙绫诲瀷鍙傛暟銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Pass010FunctionScopeSmartArg(): void {

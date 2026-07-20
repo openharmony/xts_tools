@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_03_00_105_FAIL_array_base_vs_derived
  * @expect compile-fail
  * @section 15.3
- * @design `Base[]` 与 `Derived[]` 不应当作同一类型。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design `Base[]` 涓?`Derived[]` 涓嶅簲褰撲綔鍚屼竴绫诲瀷銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1503Fail004ArrayBaseVsDerived(): void {

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_007_PASS_byte_increment
  * @expect compile-pass
  * @section 15.1
- * @design `byte` 前置/后置自增不把变量拓宽成 `int`。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design `byte` 鍓嶇疆/鍚庣疆鑷涓嶆妸鍙橀噺鎷撳鎴?`int`銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Pass007ByteIncrement(): void {

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_05_00_010_PASS_out_T_covariant
  * @expect compile-pass
  * @section 15.5
- * @design | 泛型声明处 variance | Java 主要使用 use-site wildcard。 | Swift 泛型容器通常不变。 | `SEM_15_05_011_PASS_out_T_covariant` | `SEM_15_05_012_FAIL_invariant_used_as_out` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | 娉涘瀷澹版槑澶?variance | Java 涓昏浣跨敤 use-site wildcard銆?| Swift 娉涘瀷瀹瑰櫒閫氬父涓嶅彉銆?| `SEM_15_05_011_PASS_out_T_covariant` | `SEM_15_05_012_FAIL_invariant_used_as_out` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1505Pass010OutTCovariant(): void {

@@ -24,7 +24,7 @@ function main(): void {
     let b: int = 20;
     let c: int = a + b;
     let d: int = b - a;
-    if (c != 30) { throw new Error("add failed"); }
-    if (d != 10) { throw new Error("sub failed"); }
+    if (c != 30) { throw new Error('add failed'); }
+    if (d != 10) { throw new Error('sub failed'); }
     console.log('verified');
 }

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_020_PASS_INTER_intersection_to_component
  * @expect compile-pass
  * @section 15.2
- * @design 交叉类型可作为其中一个组成类型。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 浜ゅ弶绫诲瀷鍙綔涓哄叾涓竴涓粍鎴愮被鍨嬨€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502InterPass001IntersectionToComponent(): void {

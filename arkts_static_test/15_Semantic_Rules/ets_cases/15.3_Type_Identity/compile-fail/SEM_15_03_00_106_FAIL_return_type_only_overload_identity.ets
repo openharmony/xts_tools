@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_03_00_106_FAIL_return_type_only_overload_identity
  * @expect compile-fail
  * @section 15.3
- * @design 只靠返回类型不同来区分重载。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍙潬杩斿洖绫诲瀷涓嶅悓鏉ュ尯鍒嗛噸杞姐€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1503Fail005ReturnTypeOnlyOverloadIdentity(): void {

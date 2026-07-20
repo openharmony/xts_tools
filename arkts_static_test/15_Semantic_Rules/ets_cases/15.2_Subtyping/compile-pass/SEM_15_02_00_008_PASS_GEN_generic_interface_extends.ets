@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_008_PASS_GEN_generic_interface_extends
  * @expect compile-pass
  * @section 15.2
- * @design 泛型子接口赋给泛型父接口。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 娉涘瀷瀛愭帴鍙ｈ祴缁欐硾鍨嬬埗鎺ュ彛銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502GenPass002GenericInterfaceExtends(): void {

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_104_FAIL_GEN_invariant_mismatch
  * @expect compile-fail
  * @section 15.2
- * @design 默认不变泛型中 `Box<Derived>` 赋给 `Box<Base>`。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 榛樿涓嶅彉娉涘瀷涓?`Box<Derived>` 璧嬬粰 `Box<Base>`銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502GenFail001InvariantMismatch(): void {

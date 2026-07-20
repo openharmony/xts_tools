@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_03_00_012_PASS_same_function_signature
  * @expect compile-pass
  * @section 15.3
- * @design 函数有效签名一致。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍑芥暟鏈夋晥绛惧悕涓€鑷淬€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1503Pass005SameFunctionSignature(): void {

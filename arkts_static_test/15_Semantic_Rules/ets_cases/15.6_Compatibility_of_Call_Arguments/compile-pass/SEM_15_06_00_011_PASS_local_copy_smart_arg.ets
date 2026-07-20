@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_011_PASS_local_copy_smart_arg
  * @expect compile-pass
  * @section 15.6
- * @design 全局变量复制到局部后缩窄再传参。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍏ㄥ眬鍙橀噺澶嶅埗鍒板眬閮ㄥ悗缂╃獎鍐嶄紶鍙傘€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Pass011LocalCopySmartArg(): void {

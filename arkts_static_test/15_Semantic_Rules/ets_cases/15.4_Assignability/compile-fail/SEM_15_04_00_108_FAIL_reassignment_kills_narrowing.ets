@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_108_FAIL_reassignment_kills_narrowing
  * @expect compile-fail
  * @section 15.4
- * @design 缩窄后重新赋值，再按缩窄类型赋值。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 缂╃獎鍚庨噸鏂拌祴鍊硷紝鍐嶆寜缂╃獎绫诲瀷璧嬪€笺€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Fail011ReassignmentKillsNarrowing(): void {

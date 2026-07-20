@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_016_PASS_local_smart_assign
  * @expect compile-pass
  * @section 15.4
- * @design | 智能赋值 | Java pattern variable 是流作用域局部变量。 | Swift 用 `if let`/`as?` 生成稳定绑定。 | `SEM_15_04_019_PASS_local_smart_assign` | `SEM_15_04_023_FAIL_reassignment_kills_smart_assign` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | 鏅鸿兘璧嬪€?| Java pattern variable 鏄祦浣滅敤鍩熷眬閮ㄥ彉閲忋€?| Swift 鐢?`if let`/`as?` 鐢熸垚绋冲畾缁戝畾銆?| `SEM_15_04_019_PASS_local_smart_assign` | `SEM_15_04_023_FAIL_reassignment_kills_smart_assign` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Pass023LocalSmartAssign(): void {

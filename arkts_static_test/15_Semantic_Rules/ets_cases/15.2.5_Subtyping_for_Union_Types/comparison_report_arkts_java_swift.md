@@ -229,6 +229,6 @@ func makeShape() -> some Shape {
 
 ## 8. 参考资料
 
-- [ArkTS Specification 15.2.5](https://developer.harmonyos.com/cn/docs/documentation/doc-references/arkts-specification-0000001768576522)
+- [ArkTS Specification 15.2.5]
 - [TypeScript Handbook - Union Types](https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html)
 - [Swift Documentation - Opaque Types](https://docs.swift.org/swift-book/LanguageGuide/OpaqueTypes.html)

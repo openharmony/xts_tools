@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_009_PASS_member_to_union
  * @expect compile-pass
  * @section 15.4
- * @design 成员类型赋给联合类型。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鎴愬憳绫诲瀷璧嬬粰鑱斿悎绫诲瀷銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Pass004MemberToUnion(): void {

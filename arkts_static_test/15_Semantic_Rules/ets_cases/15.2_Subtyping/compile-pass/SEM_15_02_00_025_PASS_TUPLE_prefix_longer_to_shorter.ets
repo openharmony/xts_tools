@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_025_PASS_TUPLE_prefix_longer_to_shorter
  * @expect compile-pass
  * @section 15.2
- * @design | 元组 | Java 无内置元组。 | Swift 元组不按 ArkTS 前缀子类型规则。 | `SEM_15_02_037_PASS_TUPLE_prefix_longer_to_shorter` | `SEM_15_02_041_FAIL_TUPLE_tuple_to_array` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | 鍏冪粍 | Java 鏃犲唴缃厓缁勩€?| Swift 鍏冪粍涓嶆寜 ArkTS 鍓嶇紑瀛愮被鍨嬭鍒欍€?| `SEM_15_02_037_PASS_TUPLE_prefix_longer_to_shorter` | `SEM_15_02_041_FAIL_TUPLE_tuple_to_array` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502TuplePass010PrefixLongerToShorter(): void {

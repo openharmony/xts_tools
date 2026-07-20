@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_109_FAIL_UNION_larger_to_smaller_union
  * @expect compile-fail
  * @section 15.2
- * @design 较大联合赋给较小联合。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 杈冨ぇ鑱斿悎璧嬬粰杈冨皬鑱斿悎銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502UnionFail001LargerToSmallerUnion(): void {

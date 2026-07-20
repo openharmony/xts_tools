@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_100_FAIL_super_to_sub
  * @expect compile-fail
  * @section 15.4
- * @design 父类型赋给子类型。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鐖剁被鍨嬭祴缁欏瓙绫诲瀷銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Fail001SuperToSub(): void {

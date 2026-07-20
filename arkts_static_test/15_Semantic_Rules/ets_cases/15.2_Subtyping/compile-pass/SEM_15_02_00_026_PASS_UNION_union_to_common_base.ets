@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_026_PASS_UNION_union_to_common_base
  * @expect compile-pass
  * @section 15.2
- * @design | 联合 | Java 无源码级 union。 | Swift 用 enum/protocol/optional 替代。 | `SEM_15_02_038_PASS_UNION_union_to_common_base` | `SEM_15_02_043_FAIL_UNION_int_not_number_member` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | 鑱斿悎 | Java 鏃犳簮鐮佺骇 union銆?| Swift 鐢?enum/protocol/optional 鏇夸唬銆?| `SEM_15_02_038_PASS_UNION_union_to_common_base` | `SEM_15_02_043_FAIL_UNION_int_not_number_member` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502UnionPass010UnionToCommonBase(): void {

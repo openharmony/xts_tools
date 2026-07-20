@@ -21,7 +21,7 @@
  */
 interface Readable { read(): string; }
 class FileStream implements Readable {
-    content: string = "";
+    content: string = '';
     read(): string { return this.content; }
 }
 function main(): void {

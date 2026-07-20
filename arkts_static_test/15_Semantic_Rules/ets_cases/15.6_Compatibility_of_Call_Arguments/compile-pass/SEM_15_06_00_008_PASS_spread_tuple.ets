@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_008_PASS_spread_tuple
  * @expect compile-pass
  * @section 15.6
- * @design 元组展开后匹配形参。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍏冪粍灞曞紑鍚庡尮閰嶅舰鍙傘€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Pass004SpreadTuple(): void {

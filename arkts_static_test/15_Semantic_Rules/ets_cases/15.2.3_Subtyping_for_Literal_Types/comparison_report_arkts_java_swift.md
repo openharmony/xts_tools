@@ -229,7 +229,7 @@ let y: Int = x // ✅ 值拷贝
 
 ## 8. 参考资料
 
-- [ArkTS Specification 15.2.3](https://developer.harmonyos.com/cn/docs/documentation/doc-references/arkts-specification-0000001768576522)
+- [ArkTS Specification 15.2.3]
 - [TypeScript Handbook - Literal Types](https://www.typescriptlang.org/docs/handbook/literal-types.html)
 - [Java Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
 - [Swift Enumerations](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)

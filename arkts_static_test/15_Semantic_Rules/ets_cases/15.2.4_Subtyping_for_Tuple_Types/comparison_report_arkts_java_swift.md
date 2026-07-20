@@ -216,6 +216,6 @@ let t2: (Int, String, Int) = t1 // ❌ 编译错误：长度不匹配
 
 ## 8. 参考资料
 
-- [ArkTS Specification 15.2.4](https://developer.harmonyos.com/cn/docs/documentation/doc-references/arkts-specification-0000001768576522)
+- [ArkTS Specification 15.2.4]
 - [TypeScript Handbook - Tuple Types](https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple)
 - [Swift Documentation - Tuples](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)

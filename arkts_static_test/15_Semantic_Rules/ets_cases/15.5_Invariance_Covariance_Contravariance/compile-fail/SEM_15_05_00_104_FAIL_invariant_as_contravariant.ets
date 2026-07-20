@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_05_00_104_FAIL_invariant_as_contravariant
  * @expect compile-fail
  * @section 15.5
- * @design 把默认不变泛型当逆变使用。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鎶婇粯璁や笉鍙樻硾鍨嬪綋閫嗗彉浣跨敤銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1505Fail004InvariantAsContravariant(): void {

@@ -19,8 +19,8 @@
  * @design 验证函数参数逆变：Animal 处理器可作 Dog 参数的回调
  * @note 正向用例：参数逆变，(Animal)=>void 可赋值给 (Dog)=>void
  */
-class Animal { name: string = ""; }
-class Dog extends Animal { breed: string = ""; }
+class Animal { name: string = ''; }
+class Dog extends Animal { breed: string = ''; }
 function useDogFn(fn: (d: Dog) => void): void {
     fn(new Dog());
 }

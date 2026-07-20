@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_013_PASS_spread_array_literal_linearized
  * @expect compile-pass
  * @section 15.6
- * @design | 剩余/展开参数 | Java varargs 类似，但无元组展开。 | Swift variadic 不按 ArkTS tuple/array spread 规则。 | `SEM_15_06_020_PASS_spread_array_literal_linearized` | `SEM_15_06_022_FAIL_spread_element_mismatch` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | 鍓╀綑/灞曞紑鍙傛暟 | Java varargs 绫讳技锛屼絾鏃犲厓缁勫睍寮€銆?| Swift variadic 涓嶆寜 ArkTS tuple/array spread 瑙勫垯銆?| `SEM_15_06_020_PASS_spread_array_literal_linearized` | `SEM_15_06_022_FAIL_spread_element_mismatch` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Pass021SpreadArrayLiteralLinearized(): void {

@@ -219,6 +219,6 @@ func sort<T>(_ list: [T]) where T: Number, T: Comparable {
 
 ## 8. 参考资料
 
-- [ArkTS Specification 15.2.2](https://developer.harmonyos.com/cn/docs/documentation/doc-references/arkts-specification-0000001768576522)
+- [ArkTS Specification 15.2.2]
 - [Java Generics Tutorial](https://docs.oracle.com/javase/tutorial/java/generics/)
 - [Swift Generics Documentation](https://docs.swift.org/swift-book/LanguageGuide/Generics.html)

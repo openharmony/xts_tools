@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_015_PASS_undefined_to_nullish_union
  * @expect compile-pass
  * @section 15.4
- * @design | nullish | Java `null` 可赋给引用类型。 | Swift `nil` 只能赋给 Optional。 | `SEM_15_04_018_PASS_undefined_to_nullish_union` | `SEM_15_04_021_FAIL_nullish_to_Object` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | nullish | Java `null` 鍙祴缁欏紩鐢ㄧ被鍨嬨€?| Swift `nil` 鍙兘璧嬬粰 Optional銆?| `SEM_15_04_018_PASS_undefined_to_nullish_union` | `SEM_15_04_021_FAIL_nullish_to_Object` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Pass022UndefinedToNullishUnion(): void {

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_05_00_005_PASS_parameter_contravariance
  * @expect compile-pass
  * @section 15.5
- * @design 函数参数类型允许逆变。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍑芥暟鍙傛暟绫诲瀷鍏佽閫嗗彉銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1505Pass002ParameterContravariance(): void {

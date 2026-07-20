@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_03_00_008_PASS_same_tuple
  * @expect compile-pass
  * @section 15.3
- * @design 元组长度和元素类型都相同。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍏冪粍闀垮害鍜屽厓绱犵被鍨嬮兘鐩稿悓銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1503Pass003SameTuple(): void {

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_014_PASS_TUPLE_longer_to_shorter
  * @expect compile-pass
  * @section 15.2
- * @design 更长元组赋给相同前缀的较短元组。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鏇撮暱鍏冪粍璧嬬粰鐩稿悓鍓嶇紑鐨勮緝鐭厓缁勩€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502TuplePass002LongerToShorter(): void {

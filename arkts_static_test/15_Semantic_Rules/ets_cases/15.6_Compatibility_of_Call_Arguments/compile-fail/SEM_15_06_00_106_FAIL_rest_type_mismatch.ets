@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_106_FAIL_rest_type_mismatch
  * @expect compile-fail
  * @section 15.6
- * @design 剩余参数元素类型不匹配。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍓╀綑鍙傛暟鍏冪礌绫诲瀷涓嶅尮閰嶃€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Fail005RestTypeMismatch(): void {

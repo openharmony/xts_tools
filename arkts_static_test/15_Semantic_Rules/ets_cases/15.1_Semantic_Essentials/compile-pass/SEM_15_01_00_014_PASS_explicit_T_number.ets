@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_014_PASS_explicit_T_number
  * @expect compile-pass
  * @section 15.1
- * @design | 类型参数目标 | Java 泛型推断可受约束/目标影响。 | Swift 泛型推断与数字字面量行为不同。 | `SEM_15_01_020_PASS_explicit_T_number` | `SEM_15_01_025_FAIL_implicit_int_for_T_extends_number` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | 绫诲瀷鍙傛暟鐩爣 | Java 娉涘瀷鎺ㄦ柇鍙彈绾︽潫/鐩爣褰卞搷銆?| Swift 娉涘瀷鎺ㄦ柇涓庢暟瀛楀瓧闈㈤噺琛屼负涓嶅悓銆?| `SEM_15_01_020_PASS_explicit_T_number` | `SEM_15_01_025_FAIL_implicit_int_for_T_extends_number` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Pass014ExplicitTNumber(): void {

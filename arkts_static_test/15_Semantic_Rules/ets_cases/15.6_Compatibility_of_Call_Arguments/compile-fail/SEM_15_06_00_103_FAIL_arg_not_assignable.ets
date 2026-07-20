@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_103_FAIL_arg_not_assignable
  * @expect compile-fail
  * @section 15.6
- * @design 实参不可赋给形参类型。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 瀹炲弬涓嶅彲璧嬬粰褰㈠弬绫诲瀷銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Fail003ArgNotAssignable(): void {

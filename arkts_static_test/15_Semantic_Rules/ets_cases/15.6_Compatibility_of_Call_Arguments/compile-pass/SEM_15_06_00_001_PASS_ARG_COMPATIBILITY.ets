@@ -20,7 +20,7 @@
  * @note 正向用例：int 参数传 int 声明，string 参数传 string 声明
  */
 function greet(name: string, times: int): string {
-    let result: string = "";
+    let result: string = '';
     for (let i: int = 0; i < times; i++) { result = result + name; }
     return result;
 }

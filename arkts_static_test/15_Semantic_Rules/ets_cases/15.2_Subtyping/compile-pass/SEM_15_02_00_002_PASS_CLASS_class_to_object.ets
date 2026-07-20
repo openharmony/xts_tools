@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_002_PASS_CLASS_class_to_object
  * @expect compile-pass
  * @section 15.2
- * @design 未显式继承的类也是 `Object` 子类型。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鏈樉寮忕户鎵跨殑绫讳篃鏄?`Object` 瀛愮被鍨嬨€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502ClassPass002ClassToObject(): void {

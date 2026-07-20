@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_005_PASS_string_plus_int
  * @expect compile-pass
  * @section 15.1
- * @design `"x" + 1` 触发字符串转换。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design `"x" + 1` 瑙﹀彂瀛楃涓茶浆鎹€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Pass005StringPlusInt(): void {

@@ -20,7 +20,7 @@
  * @note 正向用例：[1, 2, 3] 应推断为 int[] 类型
  */
 function main(): void {
-    let arr = [1, 2, 3];    // inferred as int[]
+    let arr = [1, 2, 3];
     let first: int = arr[0];
     console.log(`first=${first}`);
 }

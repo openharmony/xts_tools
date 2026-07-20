@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_013_PASS_string_plus_nullish
  * @expect compile-pass
  * @section 15.1
- * @design | 字符串 `+` | Java 也支持字符串拼接。 | Swift 需要插值或显式转换。 | `SEM_15_01_019_PASS_string_plus_nullish` | `SEM_15_01_023_FAIL_string_minus_int` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | 瀛楃涓?`+` | Java 涔熸敮鎸佸瓧绗︿覆鎷兼帴銆?| Swift 闇€瑕佹彃鍊兼垨鏄惧紡杞崲銆?| `SEM_15_01_019_PASS_string_plus_nullish` | `SEM_15_01_023_FAIL_string_minus_int` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Pass013StringPlusNullish(): void {

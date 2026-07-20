@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_101_FAIL_excess_argument
  * @expect compile-fail
  * @section 15.6
- * @design 传入多余参数。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 浼犲叆澶氫綑鍙傛暟銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Fail002ExcessArgument(): void {

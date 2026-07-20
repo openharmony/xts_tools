@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_03_00_104_FAIL_generic_arg_differs
  * @expect compile-fail
  * @section 15.3
- * @design 泛型类型实参不同。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 娉涘瀷绫诲瀷瀹炲弬涓嶅悓銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1503Fail003GenericArgDiffers(): void {

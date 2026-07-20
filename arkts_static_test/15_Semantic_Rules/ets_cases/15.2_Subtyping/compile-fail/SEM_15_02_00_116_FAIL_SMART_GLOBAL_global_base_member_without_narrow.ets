@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,14 +16,14 @@
  * @id SEM_15_02_00_116_FAIL_SMART_GLOBAL_global_base_member_without_narrow
  * @expect compile-fail
  * @section 15.2
- * @design 顶层/全局 Base 声明变量即使初始化为 Derived，未显式缩窄也不应访问 Derived 独有成员。
- * @note Cross-cutting smart type scope case: global/top-level and function-scope behavior must be checked for every section.
+ * @design 椤跺眰/鍏ㄥ眬 Base 澹版槑鍙橀噺鍗充娇鍒濆鍖栦负 Derived锛屾湭鏄惧紡缂╃獎涔熶笉搴旇闂?Derived 鐙湁鎴愬憳銆?
+ * @note Cross-cutting smart type scope case: global/top-level and function-scope behavior must be checked for every ...
  */
 
 class SmartBase {}
 class SmartDerived extends SmartBase {
   onlyDerived(): string {
-    return "derived"
+    return 'derived'
   }
 }
 

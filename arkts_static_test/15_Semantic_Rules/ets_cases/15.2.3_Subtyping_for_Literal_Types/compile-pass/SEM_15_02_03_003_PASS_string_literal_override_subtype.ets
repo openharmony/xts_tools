@@ -20,10 +20,10 @@
  * @note 来自规范 15.2.3 例：Derived 中 override foo(p: string): '1' 合法，参数 "1" 兼容 string
  */
 class Base {
-    foo(p: '1'): string { return "42" }
+    foo(p: '1'): string { return '42' }
 }
 class Derived extends Base {
-    override foo(p: string): '1' { return "1" }
+    override foo(p: string): '1' { return '1' }
 }
 function main(): void {
     let base: Base = new Derived()

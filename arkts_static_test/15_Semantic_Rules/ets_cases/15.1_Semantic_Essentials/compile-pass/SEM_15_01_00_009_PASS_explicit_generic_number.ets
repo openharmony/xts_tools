@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_009_PASS_explicit_generic_number
  * @expect compile-pass
  * @section 15.1
- * @design `foo<number>(1)` 显式指定泛型实参后通过。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design `foo<number>(1)` 鏄惧紡鎸囧畾娉涘瀷瀹炲弬鍚庨€氳繃銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Pass009ExplicitGenericNumber(): void {

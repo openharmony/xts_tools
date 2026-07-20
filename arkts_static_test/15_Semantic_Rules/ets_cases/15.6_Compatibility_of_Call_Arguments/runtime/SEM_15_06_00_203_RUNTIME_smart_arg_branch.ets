@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,11 +16,11 @@
  * @id SEM_15_06_00_203_RUNTIME_smart_arg_branch
  * @expect runtime
  * @section 15.6
- * @design 缩窄分支实际调用目标函数。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 缂╃獎鍒嗘敮瀹為檯璋冪敤鐩爣鍑芥暟銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Rt003SmartArgBranch(): string {
-  return "PASS"
+  return 'PASS'
 }
 

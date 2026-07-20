@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_100_FAIL_standalone_object_literal
  * @expect compile-fail
  * @section 15.1
- * @design 对象字面量作为独立表达式，无法推断类型。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 瀵硅薄瀛楅潰閲忎綔涓虹嫭绔嬭〃杈惧紡锛屾棤娉曟帹鏂被鍨嬨€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Fail001StandaloneObjectLiteral(): void {

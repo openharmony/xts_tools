@@ -255,7 +255,7 @@ interface C extends A, B {}
 
 ## 8. 参考资料
 
-- [ArkTS Specification 15.2.8](https://developer.harmonyos.com/cn/docs/documentation/doc-references/arkts-specification-0000001768576522)
+- [ArkTS Specification 15.2.8]
 - [TypeScript Handbook - Intersection Types](https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html)
 - [Java Interface Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/nogrow.html)
 - [Swift Protocol Composition](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html)

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_021_PASS_DIFF_disjoint_difference
  * @expect compile-pass
  * @section 15.2
- * @design 满足差集条件的类型赋值。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 婊¤冻宸泦鏉′欢鐨勭被鍨嬭祴鍊笺€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502DiffPass001DisjointDifference(): void {

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_02_00_019_PASS_FIXED_ref_element_covariance
  * @expect compile-pass
  * @section 15.2
- * @design `FixedDerived[]` 可作为 `FixedBase[]`。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design `FixedDerived[]` 鍙綔涓?`FixedBase[]`銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1502FixedPass001RefElementCovariance(): void {

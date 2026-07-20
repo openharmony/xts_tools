@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_102_FAIL_generic_target_no_extra_inference
  * @expect compile-fail
  * @section 15.1
- * @design `foo<T extends number>(x: T); foo(1)` 推断为 `int`，不是 `number`。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design `foo<T extends number>(x: T); foo(1)` 鎺ㄦ柇涓?`int`锛屼笉鏄?`number`銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Fail003GenericTargetNoExtraInference(): void {

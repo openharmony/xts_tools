@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_05_00_008_PASS_override_param_contravariant
  * @expect compile-pass
  * @section 15.5
- * @design 方法重写参数使用父类型。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鏂规硶閲嶅啓鍙傛暟浣跨敤鐖剁被鍨嬨€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1505Pass004OverrideParamContravariant(): void {

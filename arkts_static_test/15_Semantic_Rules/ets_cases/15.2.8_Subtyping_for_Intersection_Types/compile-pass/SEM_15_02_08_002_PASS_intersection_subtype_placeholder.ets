@@ -20,7 +20,7 @@
  * @note 替代测试：instanceof 检查后类型收窄实现交叉语义
  */
 interface Flyable { fly(): void; }
-class Bird { name: string = ""; }
+class Bird { name: string = ''; }
 class Eagle extends Bird { fly(): void { console.log('soaring'); } }
 function main(): void {
     let b: Bird = new Eagle();

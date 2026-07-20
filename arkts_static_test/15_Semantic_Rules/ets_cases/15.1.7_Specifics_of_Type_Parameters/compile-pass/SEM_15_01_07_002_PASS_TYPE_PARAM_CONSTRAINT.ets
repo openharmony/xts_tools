@@ -20,8 +20,8 @@
  * @note 正向用例：T extends HasName，可访问 .name 属性
  */
 interface HasName { name: string; }
-function greet<T extends HasName>(obj: T): string { return "Hi " + obj.name; }
-class Person implements HasName { name: string = ""; }
+function greet<T extends HasName>(obj: T): string { return 'Hi ' + obj.name; }
+class Person implements HasName { public name: string = ''; }
 function main(): void {
     let p: Person = new Person(); p.name = 'Alice';
     let s: string = greet(p);

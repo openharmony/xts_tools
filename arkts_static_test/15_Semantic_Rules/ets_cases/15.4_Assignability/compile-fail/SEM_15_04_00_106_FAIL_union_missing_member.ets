@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_106_FAIL_union_missing_member
  * @expect compile-fail
  * @section 15.4
- * @design 联合类型包含目标类型不接受的成员。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鑱斿悎绫诲瀷鍖呭惈鐩爣绫诲瀷涓嶆帴鍙楃殑鎴愬憳銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Fail005UnionMissingMember(): void {

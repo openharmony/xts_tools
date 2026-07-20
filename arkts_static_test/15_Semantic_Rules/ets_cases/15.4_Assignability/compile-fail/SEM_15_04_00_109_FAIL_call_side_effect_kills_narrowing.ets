@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_109_FAIL_call_side_effect_kills_narrowing
  * @expect compile-fail
  * @section 15.4
- * @design 函数调用可能修改被缩窄变量。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍑芥暟璋冪敤鍙兘淇敼琚缉绐勫彉閲忋€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Fail012CallSideEffectKillsNarrowing(): void {

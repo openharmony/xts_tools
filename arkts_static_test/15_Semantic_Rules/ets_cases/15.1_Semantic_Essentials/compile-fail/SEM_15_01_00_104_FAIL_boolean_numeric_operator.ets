@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_104_FAIL_boolean_numeric_operator
  * @expect compile-fail
  * @section 15.1
- * @design `true + 1` 在非字符串上下文中非法。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design `true + 1` 鍦ㄩ潪瀛楃涓蹭笂涓嬫枃涓潪娉曘€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Fail005BooleanNumericOperator(): void {

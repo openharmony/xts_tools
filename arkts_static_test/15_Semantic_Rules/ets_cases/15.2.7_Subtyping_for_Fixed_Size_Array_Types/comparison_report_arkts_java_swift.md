@@ -216,6 +216,6 @@ var arr: [Int] = [1, 2, 3] // 性能较高
 
 ## 8. 参考资料
 
-- [ArkTS Specification 15.2.7](https://developer.harmonyos.com/cn/docs/documentation/doc-references/arkts-specification-0000001768576522)
+- [ArkTS Specification 15.2.7]
 - [Java Arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 - [Swift Arrays](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)

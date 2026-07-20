@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_107_FAIL_branch_outside_no_smart_arg
  * @expect compile-fail
  * @section 15.6
- * @design 在缩窄分支外按子类型传参。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍦ㄧ缉绐勫垎鏀鎸夊瓙绫诲瀷浼犲弬銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Fail010BranchOutsideNoSmartArg(): void {

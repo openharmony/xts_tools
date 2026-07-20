@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,11 +16,11 @@
  * @id SEM_15_06_00_201_RUNTIME_rest_argument_values
  * @expect runtime
  * @section 15.6
- * @design 剩余参数保持顺序和值。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍓╀綑鍙傛暟淇濇寔椤哄簭鍜屽€笺€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Rt001RestArgumentValues(): string {
-  return "PASS"
+  return 'PASS'
 }
 

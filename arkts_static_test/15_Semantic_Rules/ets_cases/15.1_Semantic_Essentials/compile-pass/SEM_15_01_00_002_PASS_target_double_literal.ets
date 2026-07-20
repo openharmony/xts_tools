@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_01_00_002_PASS_target_double_literal
  * @expect compile-pass
  * @section 15.1
- * @design `let x: double = 1` 由目标类型引导字面量类型。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design `let x: double = 1` 鐢辩洰鏍囩被鍨嬪紩瀵煎瓧闈㈤噺绫诲瀷銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1501Pass002TargetDoubleLiteral(): void {

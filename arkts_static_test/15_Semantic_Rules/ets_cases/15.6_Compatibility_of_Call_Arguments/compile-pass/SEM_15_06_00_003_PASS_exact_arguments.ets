@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_003_PASS_exact_arguments
  * @expect compile-pass
  * @section 15.6
- * @design 参数个数和类型完全匹配。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍙傛暟涓暟鍜岀被鍨嬪畬鍏ㄥ尮閰嶃€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Pass001ExactArguments(): void {

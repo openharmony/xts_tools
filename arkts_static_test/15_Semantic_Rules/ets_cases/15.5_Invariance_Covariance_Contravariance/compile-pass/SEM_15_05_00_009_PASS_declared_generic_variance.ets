@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_05_00_009_PASS_declared_generic_variance
  * @expect compile-pass
  * @section 15.5
- * @design 泛型声明处 `in`/`out` 生效。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 娉涘瀷澹版槑澶?`in`/`out` 鐢熸晥銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1505Pass005DeclaredGenericVariance(): void {

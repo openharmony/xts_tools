@@ -252,7 +252,7 @@ function main(): void {
 
 ## 8. 参考资料
 
-- [ArkTS Specification 15.2](https://developer.harmonyos.com/cn/docs/documentation/doc-references/arkts-specification-0000001768576522)
+- [ArkTS Specification 15.2]
 - [Java Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html)
 - [Swift Inheritance](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html)
 - [TypeScript Type Compatibility](https://www.typescriptlang.org/docs/handbook/type-compatibility.html)

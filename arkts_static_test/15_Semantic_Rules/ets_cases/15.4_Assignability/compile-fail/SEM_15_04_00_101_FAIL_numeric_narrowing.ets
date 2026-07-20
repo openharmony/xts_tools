@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_101_FAIL_numeric_narrowing
  * @expect compile-fail
  * @section 15.4
- * @design 隐式数值窄化。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 闅愬紡鏁板€肩獎鍖栥€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Fail002NumericNarrowing(): void {

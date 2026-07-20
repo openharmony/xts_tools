@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_06_00_108_FAIL_global_scope_narrowed_arg
  * @expect compile-fail
  * @section 15.6
- * @design 假设全局变量缩窄稳定后传参。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 鍋囪鍏ㄥ眬鍙橀噺缂╃獎绋冲畾鍚庝紶鍙傘€?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1506Fail011GlobalScopeNarrowedArg(): void {

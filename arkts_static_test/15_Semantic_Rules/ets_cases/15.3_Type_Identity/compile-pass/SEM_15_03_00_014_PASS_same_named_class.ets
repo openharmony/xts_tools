@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_03_00_014_PASS_same_named_class
  * @expect compile-pass
  * @section 15.3
- * @design | 命名类型和基础类型同一 | Java 区分 primitive、reference 和赋值转换。 | Swift 名义类型和 protocol conform 不等同。 | `SEM_15_03_011_PASS_same_named_class` | `SEM_15_03_012_FAIL_same_shape_unrelated_classes` |
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design | 鍛藉悕绫诲瀷鍜屽熀纭€绫诲瀷鍚屼竴 | Java 鍖哄垎 primitive銆乺eference 鍜岃祴鍊艰浆鎹€?| Swift 鍚嶄箟绫诲瀷鍜?protocol conform 涓嶇瓑鍚屻€?| `SEM_15_03_011_PASS_same_named_class` | `SEM_15_03_012_FAIL_same_shape_unrelated_classes` |
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1503Pass010SameNamedClass(): void {

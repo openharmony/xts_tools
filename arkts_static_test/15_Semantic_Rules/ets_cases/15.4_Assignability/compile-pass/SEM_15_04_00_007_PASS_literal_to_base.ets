@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_04_00_007_PASS_literal_to_base
  * @expect compile-pass
  * @section 15.4
- * @design 字面量类型赋给基础类型。
- * @note Generated one-to-one from test_design. Replace scaffold body with rule-specific code when promoting to conformance suite.
+ * @design 瀛楅潰閲忕被鍨嬭祴缁欏熀纭€绫诲瀷銆?
+ * @note Generated one-to-one from test_design.
  */
 
 function sem1504Pass003LiteralToBase(): void {
