@@ -2398,6 +2398,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.distributedKVStore.d.ts",
+            "bundle_name": [
+                "kv_store"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.application.StaticSubscriberExtensionAbility.d.ts",
             "bundle_name": [
                 "common_event_service"
@@ -5941,6 +5948,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.data.distributedData.d.ts",
+            "bundle_name": [
+                "kv_store"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.distributedData.d.ts",
             "bundle_name": [
                 "kv_store"
             ],
