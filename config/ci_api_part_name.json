@@ -18071,6 +18071,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/arkts/builtin/static/Atomics.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/arkts/builtin/static/Boolean.static.d.ets",
             "bundle_name": [
                 "runtime_core"
@@ -18113,6 +18120,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/arkts/builtin/static/EAWorker.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/arkts/builtin/static/Error.static.d.ets",
             "bundle_name": [
                 "runtime_core"
@@ -18128,6 +18142,13 @@
         },
         {
             "path": "interface/sdk-js/arkts/builtin/static/Int.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Job.static.d.ets",
             "bundle_name": [
                 "runtime_core"
             ],
@@ -18156,6 +18177,27 @@
         },
         {
             "path": "interface/sdk-js/arkts/builtin/static/Math.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Message.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/MessageHandler.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/Promise.static.d.ets",
             "bundle_name": [
                 "runtime_core"
             ],
@@ -18232,6 +18274,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/arkts/builtin/static/SyncPrimitives.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/arkts/builtin/static/StringBuilder.static.d.ets",
             "bundle_name": [
                 "runtime_core"
@@ -18247,6 +18296,13 @@
         },
         {
             "path": "interface/sdk-js/arkts/builtin/static/TypedUArrays.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/arkts/builtin/static/WorkerLocal.static.d.ets",
             "bundle_name": [
                 "runtime_core"
             ],
