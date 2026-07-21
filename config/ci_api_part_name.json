@@ -19572,6 +19572,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/resourceschedule/ffrt",
+            "bundle_name": [
+                "ffrt"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/resourceschedule/qos_manager",
             "bundle_name": [
                 "qos_manager"
