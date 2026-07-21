@@ -13254,6 +13254,13 @@
             ],
             "build_targets": {}
         },
+                {
+            "path": "interface/sdk-js/zh-cn/api/arkui/XComponentNode.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
         {
             "path": "interface/sdk-js/api/arkui/ProgressModifier.d.ts",
             "bundle_name": [
