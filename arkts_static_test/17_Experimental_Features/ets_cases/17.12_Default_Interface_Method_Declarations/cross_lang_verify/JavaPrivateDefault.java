@@ -57,6 +57,10 @@ interface IMath {
 
     /**
      * Private subtract helper
+     *
+     * @param a first
+     * @param b second
+     * @return int
      */
     private int subtract(int a, int b) {
         return a - b;

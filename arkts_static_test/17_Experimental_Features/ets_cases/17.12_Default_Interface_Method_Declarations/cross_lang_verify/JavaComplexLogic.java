@@ -21,6 +21,8 @@
 interface IDataProcessor {
     /**
      * Get threshold value
+     *
+     * @return int threshold
      */
     int getThreshold();
 

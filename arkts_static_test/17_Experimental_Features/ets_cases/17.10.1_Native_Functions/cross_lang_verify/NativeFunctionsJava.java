@@ -47,6 +47,10 @@ class NativeFuncs {
 
     /**
      * Equivalent to ArkTS concat(s1: string, s2: string): string
+     *
+     * @param s1 first string
+     * @param s2 second string
+     * @return String concatenated
      */
     public static native String concat(String s1, String s2);
 

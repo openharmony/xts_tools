@@ -107,6 +107,9 @@ class GenericInvokeJava<T> {
     // public static T invoke(T value) { return value; } // COMPILE ERROR: non-static type T
     /**
      * Static invoke without type param
+     *
+     * @param x input value
+     * @return int result
      */
     public static int invoke(int x) {
         return x + 1;

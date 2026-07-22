@@ -167,6 +167,8 @@ class ExtendedService extends BaseService {
 interface DataSource {
     /**
      * Interface method - NOT native
+     *
+     * @return String data
      */
     String fetchData();
 }

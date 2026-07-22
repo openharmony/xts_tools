@@ -52,7 +52,7 @@ function main(): void {
         throw new Error('FAIL: Counter() via $_invoke should set constructed=false')
     }
     if (c2.invokedCount != 1) {
-        throw new Error("FAIL: Counter() via $_invoke should set invokedCount=1, got " + c2.invokedCount)
+        throw new Error('FAIL: Counter() via $_invoke should set invokedCount=1, got ' + c2.invokedCount)
     }
 
     // Test 3: explicit $_invoke should work the same as short form

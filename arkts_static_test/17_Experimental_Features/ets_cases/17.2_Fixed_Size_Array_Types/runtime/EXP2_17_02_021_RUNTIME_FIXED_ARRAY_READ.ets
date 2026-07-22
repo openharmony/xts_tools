@@ -26,10 +26,10 @@ function main(): void {
         throw new Error("assertion failed: arr[0] expected 100, got " + arr[0]);
     }
     if (arr[1] != 200) {
-        throw new Error("assertion failed: arr[1] expected 200, got " + arr[1]);
-    }
-    if (arr[2] != 300) {
-        throw new Error("assertion failed: arr[2] expected 300, got " + arr[2]);
+    throw new Error('assertion failed: arr[1] expected 200, got ' + arr[1]);
+  }
+  if (arr[2] != 300) {
+    throw new Error('assertion failed: arr[2] expected 300, got ' + arr[2]);
     }
     if (arr[3] != 400) {
         throw new Error('assertion failed: arr[3] expected 400, got ' + arr[3]);

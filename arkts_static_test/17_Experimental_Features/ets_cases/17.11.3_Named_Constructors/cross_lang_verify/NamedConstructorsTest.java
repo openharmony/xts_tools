@@ -59,6 +59,9 @@ class ValueHolder {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor FromInt(n: int)"
+     *
+     * @param n int value
+     * @return ValueHolder
      */
     public static ValueHolder fromInt(int n) {
         return new ValueHolder(Integer.valueOf(n));

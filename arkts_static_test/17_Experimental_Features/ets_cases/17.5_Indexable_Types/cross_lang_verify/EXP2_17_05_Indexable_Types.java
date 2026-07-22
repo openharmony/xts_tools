@@ -90,6 +90,9 @@ class GenericStore<T> {
 
     /**
      * Set element by index
+     *
+     * @param index position
+     * @param value element to set
      */
     public void set(int index, T value) {
         while (items.size() <= index) {

@@ -25,7 +25,7 @@ function main(): void {
         throw new Error('assertion failed: expected length 3, got ' + arr1.length);
     }
 
-    let arr2: Fixedstring[] = ["a", "b", "c", "d", "e"];
+    let arr2: Fixedstring[] = ['a', 'b', 'c', 'd', 'e'];
     if (arr2.length != 5) {
         throw new Error('assertion failed: expected length 5, got ' + arr2.length);
     }

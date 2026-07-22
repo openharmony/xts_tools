@@ -67,6 +67,10 @@ class Point {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor FromXY(x, y)"
+     *
+     * @param x x coordinate
+     * @param y y coordinate
+     * @return Point
      */
     public static Point fromXY(int x, int y) {
         return new Point(x, y);
