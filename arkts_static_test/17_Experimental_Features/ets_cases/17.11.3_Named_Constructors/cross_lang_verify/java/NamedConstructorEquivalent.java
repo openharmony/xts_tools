@@ -33,6 +33,9 @@ class Temperature {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor Celsius(n: double)"
+     *
+     * @param n temperature in Celsius
+     * @return Temperature
      */
     public static Temperature celsius(double n) {
         return new Temperature(n);
@@ -40,6 +43,9 @@ class Temperature {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor Fahrenheit(n: double)"
+     *
+     * @param n temperature in Fahrenheit
+     * @return Temperature
      */
     public static Temperature fahrenheit(double n) {
         return new Temperature((n - 32) / 1.8);
@@ -68,6 +74,7 @@ class Point {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor Origin()"
+     *
      * @return Point origin
      */
     public static Point origin() {

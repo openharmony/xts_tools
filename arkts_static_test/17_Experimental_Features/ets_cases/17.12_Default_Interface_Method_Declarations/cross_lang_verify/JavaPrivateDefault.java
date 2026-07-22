@@ -20,6 +20,10 @@
 interface IMath {
     /**
      * Compute sum via private add
+     *
+     * @param a first addend
+     * @param b second addend
+     * @return int sum
      */
     default int compute(int a, int b) {
         return add(a, b);
@@ -27,6 +31,10 @@ interface IMath {
 
     /**
      * Compute product via repeated add
+     *
+     * @param a multiplicand
+     * @param b multiplier
+     * @return int product
      */
     default int multiply(int a, int b) {
         int result = 0;
@@ -38,6 +46,7 @@ interface IMath {
 
     /**
      * Private add helper
+     *
      * @param a first
      * @param b second
      * @return int

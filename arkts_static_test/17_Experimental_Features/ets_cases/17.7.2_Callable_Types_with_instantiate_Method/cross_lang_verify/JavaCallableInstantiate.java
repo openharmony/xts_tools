@@ -15,6 +15,7 @@
 /**
  * Java equivalent of ArkTS §17.7.2 Callable Types with $_instantiate
  * Java has NO callable type syntax. Closest equivalent: static factory methods + Supplier<T>
+ * Demonstrates factory pattern as alternative to ArkTS callable instantiation.
  * Corresponds to: EXP2_17_07_002, EXP2_17_07_003
  * @since 2025
  */
@@ -43,6 +44,9 @@ class JavaFactory1 {
     }
 }
 
+/**
+ * Java equivalent of ArkTS §17.7.2 Callable Types with $_instantiate
+ */
 public class JavaCallableInstantiate {
     public static void main(String[] args) {
         // 1. Basic factory - explicit supplier

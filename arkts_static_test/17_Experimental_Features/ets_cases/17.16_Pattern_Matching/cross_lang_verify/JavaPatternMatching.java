@@ -41,6 +41,9 @@ class Banana extends Fruit {
     String color = "yellow";
 }
 
+/**
+ * Java equivalent for ArkTS 17.16 Pattern Matching tests
+ */
 public class JavaPatternMatching {
     static String identify(Fruit f) {
         if (f instanceof Apple) {

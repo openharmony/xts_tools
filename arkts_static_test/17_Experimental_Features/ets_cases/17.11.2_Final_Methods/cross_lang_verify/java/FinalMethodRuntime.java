@@ -25,12 +25,19 @@ class Accumulator {
         this.history = new StringBuilder();
     }
 
+    /**
+     * Add number to total
+     *
+     * @param n number to add
+     */
     public final void add(int n) {
         total += n;
     }
 
     /**
      * Record an operation
+     *
+     * @param op operation to record
      */
     public final void record(String op) {
         history.append(op);

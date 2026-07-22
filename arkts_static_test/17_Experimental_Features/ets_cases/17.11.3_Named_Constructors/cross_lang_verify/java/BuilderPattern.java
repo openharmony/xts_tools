@@ -40,18 +40,22 @@ class User {
 
         /**
          * Set name
+         *
+         * @param name name to set
+         * @return Builder
          */
         public Builder withName(String name) {
             user.name = name;
             return this;
         }
 
-    /**
-     * Set age
-     * @param age age to set
-     * @return Builder
-     */
-    public Builder withAge(int age) {
+        /**
+         * Set age
+         *
+         * @param age age to set
+         * @return Builder
+         */
+        public Builder withAge(int age) {
             user.age = age;
             return this;
         }

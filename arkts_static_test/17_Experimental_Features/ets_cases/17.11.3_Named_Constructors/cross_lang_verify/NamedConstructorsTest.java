@@ -73,6 +73,7 @@ class ValueHolder {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor FromBool(b: boolean)"
+     *
      * @param b boolean value
      */
     public static ValueHolder fromBool(boolean b) {
@@ -129,6 +130,12 @@ class Rectangle {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor FromPoints(x1, y1, x2, y2)"
+     *
+     * @param x1 first point x
+     * @param y1 first point y
+     * @param x2 second point x
+     * @param y2 second point y
+     * @return Rectangle
      */
     public static Rectangle fromPoints(int x1, int y1, int x2, int y2) {
         return new Rectangle(x2 - x1, y2 - y1);
@@ -136,6 +143,10 @@ class Rectangle {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor FromSize(width, height)"
+     *
+     * @param width width value
+     * @param height height value
+     * @return Rectangle
      */
     public static Rectangle fromSize(int width, int height) {
         return new Rectangle(width, height);

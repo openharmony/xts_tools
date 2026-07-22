@@ -31,11 +31,17 @@
 class NativeFuncs {
     /**
      * Equivalent to ArkTS nativePrint(msg: string): void
+     *
+     * @param msg message to print
      */
     public static native void nativePrint(String msg);
 
     /**
      * Equivalent to ArkTS add(a: int, b: int): int
+     *
+     * @param a first addend
+     * @param b second addend
+     * @return int sum
      */
     public static native int add(int a, int b);
 
@@ -51,6 +57,7 @@ class NativeFuncs {
 class GenericNative {
     /**
      * Generic native firstElement
+     *
      * @param arr the array
      * @return first element
      */

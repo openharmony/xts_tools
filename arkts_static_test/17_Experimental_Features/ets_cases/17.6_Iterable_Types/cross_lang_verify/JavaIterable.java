@@ -14,6 +14,7 @@
 */
 /**
  * Java equivalent of ArkTS 17.6 Iterable Types - Custom Iterable Pattern
+ * Demonstrates Java Iterator/Iterable patterns as equivalent to ArkTS iterable types.
  * Corresponds to: EXP2_17_06_001, EXP2_17_06_002, EXP2_17_06_015
  * @since 2025
  */

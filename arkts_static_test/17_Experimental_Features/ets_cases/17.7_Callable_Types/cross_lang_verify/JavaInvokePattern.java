@@ -16,6 +16,7 @@
  * Java equivalent of ArkTS $_invoke callable type pattern.
  * Java has no direct callable type mechanism.
  * Closest equivalent: static method + functional interface.
+ * Demonstrates various Java patterns that mimic ArkTS callable types.
  * Corresponds to: EXP2_17_07_001
  * @since 2025
  */

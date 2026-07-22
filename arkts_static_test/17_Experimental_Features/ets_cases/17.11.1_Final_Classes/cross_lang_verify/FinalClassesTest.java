@@ -44,6 +44,7 @@ final class FinalClassJava {
 interface CalculatorJava {
     /**
      * Compute value
+     *
      * @param val input value
      * @return int
      */

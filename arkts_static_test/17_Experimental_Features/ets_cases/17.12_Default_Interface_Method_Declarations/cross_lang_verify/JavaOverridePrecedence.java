@@ -19,6 +19,7 @@
 interface ICalculator {
     /**
      * Default compute: multiply by 2
+     *
      * @param x input value
      * @return int result
      */

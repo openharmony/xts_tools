@@ -48,6 +48,7 @@ class StringMapIndex {
 
     /**
      * Get value by string key
+     *
      * @param key string key
      * @return value
      */
@@ -57,6 +58,9 @@ class StringMapIndex {
 
     /**
      * Set value by string key
+     *
+     * @param key string key
+     * @param value value to set
      */
     public void set(String key, String value) {
         store.put(key, value);
@@ -88,7 +92,9 @@ class GenericStore<T> {
      * Set element by index
      */
     public void set(int index, T value) {
-        while (items.size() <= index) { items.add(null); }
+        while (items.size() <= index) {
+            items.add(null);
+        }
         items.set(index, value);
     }
 
@@ -110,6 +116,7 @@ class GenericStore<T> {
 
 /**
  * Java equivalent for ArkTS 17.5 Indexable Types
+ * Demonstrates Java patterns for indexable type concepts
  */
 public class EXP2_17_05_Indexable_Types {
     public static void main(String[] args) {

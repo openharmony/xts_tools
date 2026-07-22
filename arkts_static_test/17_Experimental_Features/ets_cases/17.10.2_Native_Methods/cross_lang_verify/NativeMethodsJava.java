@@ -66,11 +66,17 @@ class DataProcessor {
 class MathLib {
     /**
      * JNI static native sqrt
+     *
+     * @param x input value
+     * @return double sqrt result
      */
     public static native double sqrt(double x);
 
     /**
      * JNI static native abs
+     *
+     * @param x input value
+     * @return int absolute value
      */
     public static native int abs(int x);
 }
@@ -140,6 +146,7 @@ class SemicolonNative {
 class BaseService {
     /**
      * Native getData
+     *
      * @return String data
      */
     public native String getData();
@@ -164,6 +171,9 @@ interface DataSource {
     String fetchData();
 }
 
+/**
+ * Java cross-language verification for ArkTS 17.10.2 Native Methods
+ */
 public class NativeMethodsJava {
     public static void main(String[] args) {
         boolean allPassed = true;

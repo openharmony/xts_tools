@@ -19,7 +19,10 @@
  * @design 运行时验证：接口类型接收者函数通过实现类正确执行
  * @note 运行时用例：实际执行验证接口作为接收者类型
  */
-interface Measurable { width: number; height: number }
+interface Measurable {
+  width: number;
+  height: number
+}
 class Rectangle implements Measurable { public width: number = 0; public height: number = 0
   constructor(w: number, h: number) { this.width = w; this.height = h }
 }

@@ -26,6 +26,7 @@ interface IDataProcessor {
 
     /**
      * Process data array with threshold filtering
+     *
      * @param values input array
      * @return int
      */
@@ -49,6 +50,9 @@ interface IDataProcessor {
 
     /**
      * Categorize score into grade
+     *
+     * @param score input score
+     * @return String grade
      */
     default String getCategory(int score) {
         if (score >= 90) {

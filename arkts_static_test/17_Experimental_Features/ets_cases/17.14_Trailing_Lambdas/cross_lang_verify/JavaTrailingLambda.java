@@ -34,10 +34,11 @@ public class JavaTrailingLambda {
 
     // === With return value (equivalent to ArkTS trailing lambda returning value) ===
     interface IntSupplier {
-        /**
-         * Get int value
-         * @return int value
-         */
+    /**
+     * Get int value
+     *
+     * @return int value
+     */
         int get();
     }
     static void computeAndStore(IntSupplier callback) {

@@ -41,6 +41,7 @@ class SimpleInvoke {
 class Calculator {
     /**
      * Static invoke with int params
+     *
      * @param a first param
      * @param b second param
      * @return int result
@@ -51,6 +52,10 @@ class Calculator {
 
     /**
      * Static invoke with String params
+     *
+     * @param a first string
+     * @param b second string
+     * @return String concatenated
      */
     public static String invoke(String a, String b) {
         return a + b;
@@ -64,6 +69,10 @@ class Calculator {
 interface IntBinaryOp {
     /**
      * Apply binary operation
+     *
+     * @param a first operand
+     * @param b second operand
+     * @return int result
      */
     int apply(int a, int b);
 }
