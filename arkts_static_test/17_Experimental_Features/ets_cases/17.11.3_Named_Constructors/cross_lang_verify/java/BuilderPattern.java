@@ -46,10 +46,12 @@ class User {
             return this;
         }
 
-        /**
-         * Set age
-         */
-        public Builder withAge(int age) {
+    /**
+     * Set age
+     * @param age age to set
+     * @return Builder
+     */
+    public Builder withAge(int age) {
             user.age = age;
             return this;
         }

@@ -73,6 +73,7 @@ class ValueHolder {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor FromBool(b: boolean)"
+     * @param b boolean value
      */
     public static ValueHolder fromBool(boolean b) {
         return new ValueHolder(Boolean.valueOf(b));

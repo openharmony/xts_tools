@@ -26,6 +26,8 @@ interface IDataProcessor {
 
     /**
      * Process data array with threshold filtering
+     * @param values input array
+     * @return int
      */
     default int processData(int[] values) {
         int sum = 0;

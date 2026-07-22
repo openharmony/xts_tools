@@ -61,7 +61,7 @@ function main(): void {
         throw new Error('FAIL: Counter.$_invoke() should set constructed=false')
     }
     if (c3.invokedCount != 1) {
-        throw new Error("FAIL: Counter.$_invoke() should set invokedCount=1, got " + c3.invokedCount)
+        throw new Error('FAIL: Counter.$_invoke() should set invokedCount=1, got ' + c3.invokedCount)
     }
 
     // Test 4: new doesn't match $_invoke; they are different instances

@@ -15,6 +15,7 @@
 /**
  * Java equivalent of ArkTS §17.7.2 Callable Types with $_instantiate
  * Java has NO callable type syntax. Closest equivalent: static factory methods + Supplier<T>
+ * Corresponds to: EXP2_17_07_002, EXP2_17_07_003
  * @since 2025
  */
 import java.util.function.Supplier;

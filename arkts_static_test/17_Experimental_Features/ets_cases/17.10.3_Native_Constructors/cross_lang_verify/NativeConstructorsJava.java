@@ -36,8 +36,7 @@ class NativeCtorJava {
     // ArkTS: native constructor() would compile (no body)
     // Java: constructor MUST have body
     public NativeCtorJava() {
-        this.val = 0;
-        this.factor = 0.0;
+        this(0);
     }
 
     public NativeCtorJava(int val) {
@@ -123,6 +122,9 @@ class NativeTypeClass {
 
 // Verify: native constructor syntax is INVALID in Java (modifier native not allowed here)
 
+/**
+ * Java cross-language verification for ArkTS 17.10.3 Native Constructors
+ */
 public class NativeConstructorsJava {
     public static void main(String[] args) {
         // Test 1: No-arg constructor (equivalent to ArkTS native constructor())

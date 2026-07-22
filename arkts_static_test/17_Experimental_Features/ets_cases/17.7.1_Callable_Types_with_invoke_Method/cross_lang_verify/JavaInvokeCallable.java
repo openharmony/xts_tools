@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 /**
- * Java equivalent of ArkTS Â§17.7.1 Callable Types with $_invoke Method.
+ * Java equivalent of ArkTS §17.7.1 Callable Types with $_invoke Method.
  *
  * KEY DIFFERENCE: Java does NOT support making a class name directly callable.
  * There is no equivalent to ArkTS `ClassName(args)` calling $_invoke.
@@ -26,7 +26,7 @@
  * This file demonstrates what IS possible in Java and what IS NOT.
  */
 
-// Case 1: Static method (the normal Java pattern â€?no callable type)
+// Case 1: Static method (the normal Java pattern �?no callable type)
 class SimpleInvoke {
     /**
      * Static invoke
@@ -37,10 +37,13 @@ class SimpleInvoke {
     // Java: SimpleInvoke.invoke() works, but SimpleInvoke() does NOT compile
 }
 
-// Case 2: Static method with params â€?Java's equivalent of $_invoke with params
+// Case 2: Static method with params �?Java's equivalent of $_invoke with params
 class Calculator {
     /**
      * Static invoke with int params
+     * @param a first param
+     * @param b second param
+     * @return int result
      */
     public static int invoke(int a, int b) {
         return a + b;
@@ -89,17 +92,20 @@ class MathOp {
 // Case 5: No equivalent to instance $_invoke not making class callable
 // In Java, you NEVER call a class name as a function
 
-// Case 6: Generic class static method â€?Java DOES allow using type params in static? NO
+// Case 6: Generic class static method �?Java DOES allow using type params in static? NO
 // Actually Java also forbids static methods from using class type parameters
 class GenericInvokeJava<T> {
     // public static T invoke(T value) { return value; } // COMPILE ERROR: non-static type T
+    /**
+     * Static invoke without type param
+     */
     public static int invoke(int x) {
         return x + 1;
     } // OK, no type param used
 }
 
 /**
- * Java equivalent of ArkTS Â§17.7.1 Callable Types
+ * Java equivalent of ArkTS §17.7.1 Callable Types
  */
 public class JavaInvokeCallable {
     public static void main(String[] args) {

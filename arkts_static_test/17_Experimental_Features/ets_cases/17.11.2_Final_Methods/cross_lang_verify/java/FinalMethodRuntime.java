@@ -29,6 +29,9 @@ class Accumulator {
         total += n;
     }
 
+    /**
+     * Record an operation
+     */
     public final void record(String op) {
         history.append(op);
     }

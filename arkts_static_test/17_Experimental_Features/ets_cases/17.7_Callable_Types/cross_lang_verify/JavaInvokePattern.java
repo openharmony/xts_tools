@@ -16,10 +16,10 @@
  * Java equivalent of ArkTS $_invoke callable type pattern.
  * Java has no direct callable type mechanism.
  * Closest equivalent: static method + functional interface.
+ * Corresponds to: EXP2_17_07_001
  * @since 2025
  */
 import java.util.function.Supplier;
-import java.util.function.BiFunction;
 
 // APPROACH 1: Simple static method (no callable class)
 class SimpleCallable {

@@ -36,6 +36,7 @@ public class JavaTrailingLambda {
     interface IntSupplier {
         /**
          * Get int value
+         * @return int value
          */
         int get();
     }

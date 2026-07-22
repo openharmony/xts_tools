@@ -21,7 +21,7 @@
  *       ⚠️ SPEC 不一致：spec 要求索引参数为 string 或 number，但当前实现要求 int
  */
 class MyIndexable {
-  private data: string[] = ["a", "b", "c"]
+  private data: string[] = ['a', 'b', 'c']
 
   $_get(index: int): string {
     return this.data[index]

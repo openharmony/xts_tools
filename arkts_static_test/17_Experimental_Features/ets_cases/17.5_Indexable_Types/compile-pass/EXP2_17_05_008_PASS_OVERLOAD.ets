@@ -27,7 +27,7 @@ abstract class AbstractOverloaded {
 }
 
 class MultiIndex extends AbstractOverloaded {
-  private numItems: string[] = ["a", "b", "c"]
+  private numItems: string[] = ['a', 'b', 'c']
   private strItems: Object = {}
 
   $_get(index: int): string {

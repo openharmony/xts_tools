@@ -48,6 +48,8 @@ class StringMapIndex {
 
     /**
      * Get value by string key
+     * @param key string key
+     * @return value
      */
     public String get(String key) {
         return store.getOrDefault(key, "unknown");

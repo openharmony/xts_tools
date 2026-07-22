@@ -68,6 +68,7 @@ class Point {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor Origin()"
+     * @return Point origin
      */
     public static Point origin() {
         return new Point(0, 0);

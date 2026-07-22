@@ -20,7 +20,7 @@
  * @note 正向用例：验证仅 $_set 的类支持 obj[i] = v 语法
  */
 class WriteOnlyIndexable {
-  private data: string[] = ["", "", ""]
+  private data: string[] = ['', '', '']
 
   $_set(index: int, value: string): void {
     this.data[index] = value

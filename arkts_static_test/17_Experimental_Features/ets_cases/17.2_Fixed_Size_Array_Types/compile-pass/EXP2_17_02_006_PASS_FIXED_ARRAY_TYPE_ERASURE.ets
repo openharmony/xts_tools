@@ -26,5 +26,5 @@ function getFirstElement<T>(arr: FixedT[]): T {
 let numArr: Fixednumber[] = [100, 200, 300];
 let firstNum: number = getFirstElement<number>(numArr);
 
-let strArr: Fixedstring[] = ["a", "b", "c"];
+let strArr: Fixedstring[] = ['a', 'b', 'c'];
 let firstStr: string = getFirstElement<string>(strArr);

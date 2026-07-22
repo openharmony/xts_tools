@@ -29,6 +29,9 @@ class Base {
 class Derived extends Base {
     // COMPILE ERROR: greet() in Derived cannot override greet() in Base
     // overridden method is final
+    /**
+     * Override attempt - compile error expected
+     */
     public void greet() {
         System.out.println("Derived greet");
     }

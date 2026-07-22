@@ -47,7 +47,9 @@ public class JavaForEachIteration {
         // Test for-each with break
         int breakSum = 0;
         for (int val : numbers) {
-            if (val >= 30) { break; }
+            if (val >= 30) {
+                break;
+            }
             breakSum += val;
         }
         assert breakSum == 30 : "for-each break assertion failed: " + breakSum;

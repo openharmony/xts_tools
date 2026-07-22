@@ -46,14 +46,18 @@ public class JavaLoopExecution {
         int breakCount = 0;
         while (true) {
             breakCount++;
-            if (breakCount >= 3) { break; }
+            if (breakCount >= 3) {
+                break;
+            }
         }
         assert breakCount == 3 : "break assertion failed: " + breakCount;
 
         // Test continue in for: sum of odd numbers 0-9
         int oddSum = 0;
         for (int j = 0; j < 10; j++) {
-            if (j % 2 == 0) { continue; }
+            if (j % 2 == 0) {
+                continue;
+            }
             oddSum += j;
         }
         assert oddSum == 25 : "continue assertion failed: " + oddSum;

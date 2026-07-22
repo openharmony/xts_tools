@@ -20,7 +20,7 @@
  * @note 正向用例：验证仅 $_get 的类支持 v = obj[i] 语法
  */
 class ReadOnlyIndexable {
-  private data: string[] = ["x", "y", "z"]
+  private data: string[] = ['x', 'y', 'z']
 
   $_get(index: int): string {
     return this.data[index]

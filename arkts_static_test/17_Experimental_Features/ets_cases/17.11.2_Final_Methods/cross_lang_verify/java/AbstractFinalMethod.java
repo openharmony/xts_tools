@@ -19,5 +19,8 @@
  */
 abstract class BaseFail {
     // COMPILE ERROR: illegal combination of modifiers: abstract and final
+    /**
+     * Abstract final method - compile error expected
+     */
     public abstract final void doit();
 }

@@ -32,10 +32,10 @@ function main(): void {
         throw new Error("assertion failed: arr[2] expected 300, got " + arr[2]);
     }
     if (arr[3] != 400) {
-        throw new Error("assertion failed: arr[3] expected 400, got " + arr[3]);
+        throw new Error('assertion failed: arr[3] expected 400, got ' + arr[3]);
     }
     if (arr[4] != 500) {
-        throw new Error("assertion failed: arr[4] expected 500, got " + arr[4]);
+        throw new Error('assertion failed: arr[4] expected 500, got ' + arr[4]);
     }
 
     console.log('verified');

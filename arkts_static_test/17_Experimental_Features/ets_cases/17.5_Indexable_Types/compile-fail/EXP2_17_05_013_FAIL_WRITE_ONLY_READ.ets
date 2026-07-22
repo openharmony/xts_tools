@@ -20,7 +20,7 @@
  * @note 反向用例：验证只写索引不支持读操作
  */
 class WriteOnlyIdx {
-  private data: string[] = ["", ""]
+  private data: string[] = ['', '']
 
   $_set(index: int, value: string): void {
     this.data[index] = value

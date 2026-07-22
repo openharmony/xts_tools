@@ -38,6 +38,9 @@ interface IMath {
 
     /**
      * Private add helper
+     * @param a first
+     * @param b second
+     * @return int
      */
     private int add(int a, int b) {
         return a + b;

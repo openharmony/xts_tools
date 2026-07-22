@@ -17,7 +17,10 @@
  * Tests: instanceof operator, type testing, branching
  * Java 21
  */
-class Animal { String name = "animal";}
+
+class Animal {
+    String name = "animal";
+}
 class Dog extends Animal {
     void bark() {
         System.out.println("woof");
@@ -28,9 +31,15 @@ class Cat extends Animal {
         System.out.println("meow");
     }
 }
-class Fruit { String name = "fruit";}
-class Apple extends Fruit { String color = "red";}
-class Banana extends Fruit { String color = "yellow";}
+class Fruit {
+    String name = "fruit";
+}
+class Apple extends Fruit {
+    String color = "red";
+}
+class Banana extends Fruit {
+    String color = "yellow";
+}
 
 public class JavaPatternMatching {
     static String identify(Fruit f) {

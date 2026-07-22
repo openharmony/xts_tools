@@ -23,5 +23,5 @@ class MyTarget { public value: number = 0 }
 function addWithPrefix(prefix: string, this: MyTarget): string { return prefix + this.value }
 function testThisNotFirst(): void {
   let t: MyTarget = new MyTarget(); t.value = 42
-  let result: string = t.addWithPrefix("val:")
+  let result: string = t.addWithPrefix('val:')
 }

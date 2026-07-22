@@ -140,6 +140,7 @@ class SemicolonNative {
 class BaseService {
     /**
      * Native getData
+     * @return String data
      */
     public native String getData();
 }

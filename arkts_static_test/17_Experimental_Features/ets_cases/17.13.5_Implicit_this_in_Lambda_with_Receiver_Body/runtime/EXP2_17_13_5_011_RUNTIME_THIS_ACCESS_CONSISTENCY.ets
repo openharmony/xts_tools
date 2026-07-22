@@ -24,8 +24,8 @@ function remaining(this: Container): number { return this.capacity - this.used }
 function main(): void {
   let c: Container = new Container(); c.capacity = 100; c.used = 30
   let r1: number = c.remaining()
-  if (r1 != 70) { throw new Error("assertion failed: expected 70, got " + r1) }
+  if (r1 != 70) { throw new Error('assertion failed: expected 70, got ' + r1) }
   let r2: number = remaining(c)
-  if (r2 != 70) { throw new Error("assertion failed: expected 70, got " + r2) }
+  if (r2 != 70) { throw new Error('assertion failed: expected 70, got ' + r2) }
   console.log('verified')
 }

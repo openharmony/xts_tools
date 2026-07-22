@@ -20,7 +20,7 @@
  * @note 反向用例：验证只读索引不支持写操作
  */
 class ReadOnlyIdx {
-  private data: string[] = ["a", "b"]
+  private data: string[] = ['a', 'b']
 
   $_get(index: int): string {
     return this.data[index]

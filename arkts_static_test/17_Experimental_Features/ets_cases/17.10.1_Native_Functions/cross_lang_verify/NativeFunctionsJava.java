@@ -51,6 +51,8 @@ class NativeFuncs {
 class GenericNative {
     /**
      * Generic native firstElement
+     * @param arr the array
+     * @return first element
      */
     public static native <T> T firstElement(T[] arr);
 }

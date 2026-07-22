@@ -20,7 +20,7 @@
  * @note 反向用例：验证该场景应产生编译时错误
  */
 function testForOfIntOnStringArray(): void {
-  let arr: string[] = ["a", "b", "c"]
+  let arr: string[] = ['a', 'b', 'c']
   for (let n: int of arr) {
     console.log(n)
   }

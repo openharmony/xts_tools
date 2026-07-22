@@ -64,7 +64,9 @@ public class JavaBasicStatements {
         int i = 0;
         while (true) {
             i++;
-            if (i >= 10) { break; }
+            if (i >= 10) {
+                break;
+            }
         }
     }
 
@@ -76,7 +78,9 @@ public class JavaBasicStatements {
         int j = 0;
         do {
             j++;
-            if (j >= 3) { break; }
+            if (j >= 3) {
+                break;
+            }
         } while (true);
     }
 
@@ -86,7 +90,9 @@ public class JavaBasicStatements {
             sum += i;
         }
         for (int k = 0; k < 100; k++) {
-            if (k >= 5) { break; }
+            if (k >= 5) {
+                break;
+            }
         }
     }
 
@@ -112,13 +118,17 @@ public class JavaBasicStatements {
         int a = 0;
         while (a < 10) {
             a++;
-            if (a == 5) { break; }
+            if (a == 5) {
+                break;
+            }
         }
         int sum1 = 0;
         int c = 0;
         while (c < 10) {
             c++;
-            if (c % 2 == 0) { continue; }
+            if (c % 2 == 0) {
+                continue;
+            }
             sum1 += c;
         }
     }
@@ -131,12 +141,12 @@ public class JavaBasicStatements {
     static void testTryCatch() {
         try {
             int x = 10 / 2;
-        } catch (RuntimeException e) {
+        } catch (ArithmeticException e) {
             String msg = "error caught";
         }
         try {
             int val = 100;
-        } catch (RuntimeException e) {
+        } catch (ArithmeticException e) {
             String msg = "caught";
         } finally {
             boolean finalStep = true;
