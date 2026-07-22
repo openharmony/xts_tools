@@ -15,6 +15,7 @@
 /**
  * Java verification for ArkTS 17.1 Type char features
  * Compares Java char behavior with ArkTS char behavior
+ *
  * @since 2025
  */
 public class JavaCharType {

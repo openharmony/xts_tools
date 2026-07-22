@@ -17,6 +17,7 @@
  * Case: int explicit type on int[] -- compile and run (PASS)
  *
  * Java's enhanced for-loop always requires explicit type, so this is the baseline.
+ *
  * @since 2025
  */
 public class JavaForOfIntExplicitType {

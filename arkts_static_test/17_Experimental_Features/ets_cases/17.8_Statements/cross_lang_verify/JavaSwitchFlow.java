@@ -15,6 +15,7 @@
 /**
  * Java equivalent of EXP2_17_08_015_RUNTIME_SWITCH_FLOW
  * Tests: switch int/string, default, if-else, return
+ *
  * @since 2025
  */
 public class JavaSwitchFlow {

@@ -31,12 +31,16 @@ class Temperature {
         this.value = celsius;
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor Celsius(n: double)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor Celsius(n: double)"
+     */
     public static Temperature celsius(double n) {
         return new Temperature(n);
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor Fahrenheit(n: double)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor Fahrenheit(n: double)"
+     */
     public static Temperature fahrenheit(double n) {
         return new Temperature((n - 32) / 1.8);
     }
@@ -55,12 +59,16 @@ class Point {
         this.y = y;
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromXY(x, y)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromXY(x, y)"
+     */
     public static Point fromXY(int x, int y) {
         return new Point(x, y);
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor Origin()" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor Origin()"
+     */
     public static Point origin() {
         return new Point(0, 0);
     }
@@ -73,7 +81,9 @@ class Point {
     }
 }
 
-/** Java cross-verification: Named constructor equivalent patterns */
+/**
+ * Java cross-verification: Named constructor equivalent patterns
+ */
 public class NamedConstructorEquivalent {
     public static void main(String[] args) {
         // Equivalent to: new Temperature.Celsius(100)

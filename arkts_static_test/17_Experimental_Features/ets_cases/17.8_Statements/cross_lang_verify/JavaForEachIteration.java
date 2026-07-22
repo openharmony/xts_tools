@@ -15,6 +15,7 @@
 /**
  * Java equivalent of EXP2_17_08_014_RUNTIME_FOR_OF_ITERATION
  * Tests: for-each iteration over arrays, strings (char iteration), break
+ *
  * @since 2025
  */
 public class JavaForEachIteration {

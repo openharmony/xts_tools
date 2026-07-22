@@ -15,6 +15,7 @@
 /**
  * Java equivalent of compile-fail tests for native keyword.
  * These are commented out because they would cause compilation failure.
+ *
  * @since 2025
  */
 public class NativeFailTest {

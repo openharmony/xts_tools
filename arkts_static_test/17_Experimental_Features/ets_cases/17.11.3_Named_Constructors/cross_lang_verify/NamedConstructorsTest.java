@@ -30,12 +30,16 @@ class Temperature {
         this.value = celsius;
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor Celsius(n: double)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor Celsius(n: double)"
+     */
     public static Temperature celsius(double n) {
         return new Temperature(n);
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor Fahrenheit(n: double)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor Fahrenheit(n: double)"
+     */
     public static Temperature fahrenheit(double n) {
         return new Temperature((n - 32) / 1.8);
     }
@@ -53,17 +57,23 @@ class ValueHolder {
         this.value = v;
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromInt(n: int)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromInt(n: int)"
+     */
     public static ValueHolder fromInt(int n) {
         return new ValueHolder(Integer.valueOf(n));
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromString(s: string)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromString(s: string)"
+     */
     public static ValueHolder fromString(String s) {
         return new ValueHolder(s);
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromBool(b: boolean)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromBool(b: boolean)"
+     */
     public static ValueHolder fromBool(boolean b) {
         return new ValueHolder(Boolean.valueOf(b));
     }
@@ -87,12 +97,16 @@ class Config {
         this.value = v;
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromKey(key: string)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromKey(key: string)"
+     */
     public static Config fromKey(String key) {
         return new Config("key:" + key);
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromEnv(env: string)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromEnv(env: string)"
+     */
     public static Config fromEnv(String env) {
         return new Config("env:" + env);
     }
@@ -112,12 +126,16 @@ class Rectangle {
         this.height = h;
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromPoints(x1, y1, x2, y2)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromPoints(x1, y1, x2, y2)"
+     */
     public static Rectangle fromPoints(int x1, int y1, int x2, int y2) {
         return new Rectangle(x2 - x1, y2 - y1);
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromSize(width, height)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromSize(width, height)"
+     */
     public static Rectangle fromSize(int width, int height) {
         return new Rectangle(width, height);
     }
@@ -140,12 +158,16 @@ class Point {
         this.y = y;
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromXY(xVal, yVal)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromXY(xVal, yVal)"
+     */
     public static Point fromXY(int xVal, int yVal) {
         return new Point(xVal, yVal);
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor Origin()" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor Origin()"
+     */
     public static Point origin() {
         return new Point(0, 0);
     }
@@ -174,7 +196,9 @@ class User {
         this.age = age;
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor WithName(n: string)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor WithName(n: string)"
+     */
     public static User withName(String n) {
         return new User(n, 0);
     }
@@ -195,17 +219,23 @@ class Converter {
         this.result = r;
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromInt(n: int)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromInt(n: int)"
+     */
     public static Converter fromInt(int n) {
         return new Converter((double) n);
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromDouble(d: double)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromDouble(d: double)"
+     */
     public static Converter fromDouble(double d) {
         return new Converter(d * 2);
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor FromString(s: string)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor FromString(s: string)"
+     */
     public static Converter fromString(String s) {
         return new Converter(100);
     }
@@ -227,12 +257,16 @@ class Color {
         this.b = b;
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor RGB(red, green, blue)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor RGB(red, green, blue)"
+     */
     public static Color rgb(int red, int green, int blue) {
         return new Color(red, green, blue);
     }
 
-    /** Static factory -- equivalent to ArkTS "constructor Hex(hex: string)" */
+    /**
+     * Static factory -- equivalent to ArkTS "constructor Hex(hex: string)"
+     */
     public static Color hex(String hex) {
         // Simplified: always returns white for demonstration
         return new Color(255, 255, 255);
@@ -250,7 +284,9 @@ class Color {
 }
 
 // === Main test execution ===
-/** Java cross-language verification for ArkTS 17.11.3 Named Constructors */
+/**
+ * Java cross-language verification for ArkTS 17.11.3 Named Constructors
+ */
 public class NamedConstructorsTest {
     public static void main(String[] args) {
         testTemperature();

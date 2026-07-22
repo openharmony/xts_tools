@@ -15,6 +15,7 @@
 /**
  * Java equivalent of ArkTS for-of with explicit type annotation (§17.8.1)
  * Case: String explicit type on String[] -- compile and run (PASS)
+ *
  * @since 2025
  */
 public class JavaForOfStringExplicitType {

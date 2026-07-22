@@ -19,10 +19,14 @@
  *       or passed as parameter. Here we use an abstract method getThreshold().
  */
 interface IDataProcessor {
-    /** Get threshold value */
+    /**
+     * Get threshold value
+     */
     int getThreshold();
 
-    /** Process data array with threshold filtering */
+    /**
+     * Process data array with threshold filtering
+     */
     default int processData(int[] values) {
         int sum = 0;
         int count = 0;
@@ -41,7 +45,9 @@ interface IDataProcessor {
         }
     }
 
-    /** Categorize score into grade */
+    /**
+     * Categorize score into grade
+     */
     default String getCategory(int score) {
         if (score >= 90) {
             return "A";

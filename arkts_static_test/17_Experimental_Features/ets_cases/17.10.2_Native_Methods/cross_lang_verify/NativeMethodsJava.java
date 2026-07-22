@@ -28,71 +28,119 @@
  *   (ArkTS: LinkerUnresolvedMethodError, Java: UnsatisfiedLinkError)
  */
 
-/** Test 1: Basic native method declaration */
+/**
+ * Test 1: Basic native method declaration
+ */
 class NativeCalculator {
-    /** Equivalent to ArkTS native add(a: int, b: int): int */
+    /**
+     * Equivalent to ArkTS native add(a: int, b: int): int
+     */
     public native int add(int a, int b);
 
-    /** Equivalent to ArkTS native subtract(a: int, b: int): int */
+    /**
+     * Equivalent to ArkTS native subtract(a: int, b: int): int
+     */
     public native int subtract(int a, int b);
 
-    /** Regular method to verify class works */
+    /**
+     * Regular method to verify class works
+     */
     public int regularAdd(int a, int b) {
         return a + b;
     }
 }
 
-/** Test 2: Native method with params */
+/**
+ * Test 2: Native method with params
+ */
 class DataProcessor {
-    /** Equivalent to ArkTS native process(input: string, flag: int): string */
+    /**
+     * Equivalent to ArkTS native process(input: string, flag: int): string
+     */
     public native String process(String input, int flag);
 }
 
-/** Test 3: Static native method */
+/**
+ * Test 3: Static native method
+ */
 class MathLib {
-    /** JNI static native sqrt */
+    /**
+     * JNI static native sqrt
+     */
     public static native double sqrt(double x);
-    /** JNI static native abs */
+
+    /**
+     * JNI static native abs
+     */
     public static native int abs(int x);
 }
 
-/** Test 4: Private native method */
+/**
+ * Test 4: Private native method
+ */
 class InternalService {
     private native int internalHash(Object key);
 
-    /** Delegates to private native internalHash */
+    /**
+     * Delegates to private native internalHash
+     */
     public int getHash(Object key) {
         return internalHash(key);  // delegate to private native
     }
 }
 
-/** Test 5: Multiple native methods */
+/**
+ * Test 5: Multiple native methods
+ */
 class MultiNative {
-    /** Native init */
+    /**
+     * Native init
+     */
     public native void init();
-    /** Native read */
+
+    /**
+     * Native read
+     */
     public native String read();
-    /** Native write */
+
+    /**
+     * Native write
+     */
     public native void write(String data);
-    /** Native close */
+
+    /**
+     * Native close
+     */
     public native void close();
 }
 
-/** Test 6: Generic native method */
+/**
+ * Test 6: Generic native method
+ */
 class GenericOps {
-    /** Generic native transform */
+    /**
+     * Generic native transform
+     */
     public native <T> T transform(T input);
 }
 
-/** Test 7: Semicolon body native method */
+/**
+ * Test 7: Semicolon body native method
+ */
 class SemicolonNative {
-    /** Native method with semicolon (standard Java) */
+    /**
+     * Native method with semicolon (standard Java)
+     */
     public native void doSomething();  // semicolon is standard Java
 }
 
-/** Test 8: Override native method */
+/**
+ * Test 8: Override native method
+ */
 class BaseService {
-    /** Native getData */
+    /**
+     * Native getData
+     */
     public native String getData();
 }
 
@@ -105,9 +153,13 @@ class ExtendedService extends BaseService {
 
 // Test: native+abstract forbidden (ArkTS 010) -- Java rejects this as illegal combination
 
-/** Test: native in interface forbidden in ArkTS */
+/**
+ * Test: native in interface forbidden in ArkTS
+ */
 interface DataSource {
-    /** Interface method - NOT native */
+    /**
+     * Interface method - NOT native
+     */
     String fetchData();
 }
 

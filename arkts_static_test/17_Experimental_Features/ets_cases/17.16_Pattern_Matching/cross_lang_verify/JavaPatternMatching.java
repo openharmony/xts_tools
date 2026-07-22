@@ -47,12 +47,36 @@ public class JavaPatternMatching {
         int passCount = 0;
         int failCount = 0;
 
-        if (test1()) { passCount++; } else { failCount++; }
-        if (test2()) { passCount++; } else { failCount++; }
-        if (test3()) { passCount++; } else { failCount++; }
-        if (test4()) { passCount++; } else { failCount++; }
-        if (test5()) { passCount++; } else { failCount++; }
-        if (test6()) { passCount++; } else { failCount++; }
+        if (test1()) {
+            passCount++;
+        } else {
+            failCount++;
+        }
+        if (test2()) {
+            passCount++;
+        } else {
+            failCount++;
+        }
+        if (test3()) {
+            passCount++;
+        } else {
+            failCount++;
+        }
+        if (test4()) {
+            passCount++;
+        } else {
+            failCount++;
+        }
+        if (test5()) {
+            passCount++;
+        } else {
+            failCount++;
+        }
+        if (test6()) {
+            passCount++;
+        } else {
+            failCount++;
+        }
 
         System.out.println();
         System.out.println("=== SUMMARY: " + passCount + " passed, " + failCount + " failed ===");

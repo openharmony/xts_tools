@@ -16,6 +16,7 @@
  * Java verification for ArkTS 17.1.2 char Operations
  * Java char supports all comparison and arithmetic operations (it's an integral type)
  * ArkTS char only supports comparison operations (== != === < > <= >=)
+ *
  * @since 2025
  */
 public class JavaCharOps {

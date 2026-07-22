@@ -15,6 +15,7 @@
 /**
  * Java equivalent of ArkTS for-of with explicit type annotation (§17.8.1)
  * Case: Object explicit type on int[] -- compile and run (autoboxing, PASS)
+ *
  * @since 2025
  */
 public class JavaForOfObjectOnIntArray {

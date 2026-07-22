@@ -21,6 +21,7 @@
  *   - Map.get(k) / Map.put(k, v) (explicit method calls)
  *
  * This file demonstrates the closest Java patterns.
+ *
  * @since 2025
  */
 import java.util.ArrayList;
@@ -30,7 +31,9 @@ import java.util.Map;
 
 // Case 1: Array-like indexing - Java uses array syntax (built-in, not user-definable)
 class BasicArrayIndex {
-    /** Demo array indexing */
+    /**
+     * Demo array indexing
+     */
     public static void demo() {
         String[] arr = {"alpha", "beta", "gamma"};
         String v0 = arr[0];           // read - built-in array syntax
@@ -43,16 +46,23 @@ class BasicArrayIndex {
 class StringMapIndex {
     private Map<String, String> store = new HashMap<>();
 
-    /** Get value by string key */
+    /**
+     * Get value by string key
+     */
     public String get(String key) {
         return store.getOrDefault(key, "unknown");
     }
-    /** Set value by string key */
+
+    /**
+     * Set value by string key
+     */
     public void set(String key, String value) {
         store.put(key, value);
     }
 
-    /** Demo string map indexing */
+    /**
+     * Demo string map indexing
+     */
     public static void demo() {
         StringMapIndex map = new StringMapIndex();
         map.set("name", "test");
@@ -65,17 +75,24 @@ class StringMapIndex {
 class GenericStore<T> {
     private List<T> items = new ArrayList<>();
 
-    /** Get element by index */
+    /**
+     * Get element by index
+     */
     public T get(int index) {
         return items.get(index);
     }
-    /** Set element by index */
+
+    /**
+     * Set element by index
+     */
     public void set(int index, T value) {
         while (items.size() <= index) { items.add(null); }
         items.set(index, value);
     }
 
-    /** Demo generic store */
+    /**
+     * Demo generic store
+     */
     public static void demo() {
         GenericStore<Integer> numStore = new GenericStore<>();
         numStore.set(0, 100);
@@ -89,7 +106,9 @@ class GenericStore<T> {
     }
 }
 
-/** Java equivalent for ArkTS 17.5 Indexable Types */
+/**
+ * Java equivalent for ArkTS 17.5 Indexable Types
+ */
 public class EXP2_17_05_Indexable_Types {
     public static void main(String[] args) {
         System.out.println("=== Java: No indexable types / operator overloading ===");

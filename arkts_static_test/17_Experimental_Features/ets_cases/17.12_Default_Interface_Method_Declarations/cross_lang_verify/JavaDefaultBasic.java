@@ -17,7 +17,9 @@
  * Tests: interface with default method, class implements without override
  */
 interface IGreeter {
-    /** Default greet method */
+    /**
+     * Default greet method
+     */
     default void greet() {
         System.out.println("Hello from default method");
     }

@@ -18,7 +18,9 @@
  * This file will NOT compile - final methods cannot be overridden in Java either
  */
 class Base {
-    /** Final method greet */
+    /**
+     * Final method greet
+     */
     public final void greet() {
         System.out.println("Base greet");
     }
@@ -32,7 +34,9 @@ class Derived extends Base {
     }
 }
 
-/** Java cross-verification: final method override attempt */
+/**
+ * Java cross-verification: final method override attempt
+ */
 public class FinalMethodOverride {
     public static void main(String[] args) {
         Derived d = new Derived();

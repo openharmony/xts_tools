@@ -29,13 +29,19 @@
 // Java equivalent of ArkTS top-level native functions
 // Uses static native methods in a utility class as closest match
 class NativeFuncs {
-    /** Equivalent to ArkTS nativePrint(msg: string): void */
+    /**
+     * Equivalent to ArkTS nativePrint(msg: string): void
+     */
     public static native void nativePrint(String msg);
 
-    /** Equivalent to ArkTS add(a: int, b: int): int */
+    /**
+     * Equivalent to ArkTS add(a: int, b: int): int
+     */
     public static native int add(int a, int b);
 
-    /** Equivalent to ArkTS concat(s1: string, s2: string): string */
+    /**
+     * Equivalent to ArkTS concat(s1: string, s2: string): string
+     */
     public static native String concat(String s1, String s2);
 
     // NOTE: For actual runtime, JNI library must be loaded via System.loadLibrary()
@@ -43,11 +49,15 @@ class NativeFuncs {
 
 // Generic native - Java supports this too via JNI type erasure
 class GenericNative {
-    /** Generic native firstElement */
+    /**
+     * Generic native firstElement
+     */
     public static native <T> T firstElement(T[] arr);
 }
 
-/** Java cross-language verification for ArkTS 17.10.1 Native Functions */
+/**
+ * Java cross-language verification for ArkTS 17.10.1 Native Functions
+ */
 public class NativeFunctionsJava {
     public static void main(String[] args) {
         // Test 1: Basic native function declaration compiles

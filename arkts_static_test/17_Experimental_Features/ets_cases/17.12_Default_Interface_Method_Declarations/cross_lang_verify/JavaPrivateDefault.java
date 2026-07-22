@@ -18,12 +18,16 @@
  * Requires Java 9+
  */
 interface IMath {
-    /** Compute sum via private add */
+    /**
+     * Compute sum via private add
+     */
     default int compute(int a, int b) {
         return add(a, b);
     }
 
-    /** Compute product via repeated add */
+    /**
+     * Compute product via repeated add
+     */
     default int multiply(int a, int b) {
         int result = 0;
         for (int i = 0; i < b; i++) {
@@ -32,12 +36,16 @@ interface IMath {
         return result;
     }
 
-    /** Private add helper */
+    /**
+     * Private add helper
+     */
     private int add(int a, int b) {
         return a + b;
     }
 
-    /** Private subtract helper */
+    /**
+     * Private subtract helper
+     */
     private int subtract(int a, int b) {
         return a - b;
     }

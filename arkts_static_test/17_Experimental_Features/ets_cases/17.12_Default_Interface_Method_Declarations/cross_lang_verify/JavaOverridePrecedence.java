@@ -17,7 +17,9 @@
  * Tests: class override takes precedence over default method
  */
 interface ICalculator {
-    /** Default compute: multiply by 2 */
+    /**
+     * Default compute: multiply by 2
+     */
     default int compute(int x) {
         return x * 2; // default: multiply by 2
     }

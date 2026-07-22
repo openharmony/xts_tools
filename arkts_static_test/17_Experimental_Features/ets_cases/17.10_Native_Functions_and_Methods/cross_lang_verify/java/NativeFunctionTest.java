@@ -15,6 +15,7 @@
 /**
  * Java equivalent of ArkTS 17.10.1 Native Functions tests.
  * Java uses the `native` keyword (JNI - Java Native Interface) with similar semantics.
+ *
  * @since 2025
  */
 public class NativeFunctionTest {

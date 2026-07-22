@@ -16,6 +16,7 @@
  * Java verification for ArkTS 17.1.1 char Literals
  * Java char literals use single quotes: 'X'
  * Java also supports escape sequences.
+ *
  * @since 2025
  */
 public class JavaCharLiterals {

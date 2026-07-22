@@ -42,7 +42,9 @@ final class FinalClassJava {
 
 // Test 2: Final class implementing interface (identical to ArkTS)
 interface CalculatorJava {
-    /** Compute value */
+    /**
+     * Compute value
+     */
     int compute(int val);
 }
 
@@ -66,7 +68,9 @@ class NonFinalBaseJava {
     }
 }
 
-/** Java cross-language verification for ArkTS 17.11.1 Final Classes */
+/**
+ * Java cross-language verification for ArkTS 17.11.1 Final Classes
+ */
 public class FinalClassesTest {
     public static void main(String[] args) {
         // Test 1: Final class instantiation

@@ -32,17 +32,23 @@ class User {
         return age;
     }
 
-    /** Builder class enables named-parameter-like construction */
+    /**
+     * Builder class enables named-parameter-like construction
+     */
     public static class Builder {
         private User user = new User();
 
-        /** Set name */
+        /**
+         * Set name
+         */
         public Builder withName(String name) {
             user.name = name;
             return this;
         }
 
-        /** Set age */
+        /**
+         * Set age
+         */
         public Builder withAge(int age) {
             user.age = age;
             return this;
@@ -54,7 +60,9 @@ class User {
     }
 }
 
-/** Java cross-verification: Builder pattern */
+/**
+ * Java cross-verification: Builder pattern
+ */
 public class BuilderPattern {
     public static void main(String[] args) {
         User u1 = new User.Builder()

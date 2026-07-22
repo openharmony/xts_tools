@@ -16,6 +16,7 @@
  * Java equivalent for ArkTS 17.14 Trailing Lambdas
  * Java does NOT have trailing lambda syntax - lambdas must be inside parentheses.
  * This demonstrates the closest Java equivalent.
+ *
  * @since 2025
  */
 public class JavaTrailingLambda {
@@ -33,7 +34,9 @@ public class JavaTrailingLambda {
 
     // === With return value (equivalent to ArkTS trailing lambda returning value) ===
     interface IntSupplier {
-        /** Get int value */
+        /**
+         * Get int value
+         */
         int get();
     }
     static void computeAndStore(IntSupplier callback) {

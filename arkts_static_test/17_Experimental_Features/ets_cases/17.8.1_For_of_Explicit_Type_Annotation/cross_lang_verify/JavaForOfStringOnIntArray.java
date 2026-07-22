@@ -18,6 +18,7 @@
  * Java does NOT allow this. Compiler error: incompatible types.
  *
  * This file is intentionally invalid and should not compile.
+ *
  * @since 2025
  */
 public class JavaForOfStringOnIntArray {

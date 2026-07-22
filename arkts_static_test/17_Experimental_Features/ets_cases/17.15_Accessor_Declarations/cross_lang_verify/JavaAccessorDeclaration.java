@@ -20,6 +20,7 @@
  *
  * Key difference: ArkTS getter/setter are first-class language constructs
  * usable at top level and in namespaces. Java uses method-based convention.
+ *
  * @since 2025
  */
 public class JavaAccessorDeclaration {
