@@ -16050,7 +16050,7 @@
         {
             "path": "interface/sdk-js/zh-cn/api/@ohos.distributedSoftBus.conversation.d.ts",
             "bundle_name": [
-                "ace_engine"
+                "conversation"
             ],
             "build_targets": {}
         },
