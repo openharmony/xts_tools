@@ -24,6 +24,6 @@ function main(): void {
   let square = (this: NumStore): number => { let v: number = this.value; return v * v }
   let ns: NumStore = new NumStore(); ns.value = 7
   let r: number = square(ns)
-  if (r != 49) { throw new Error("assertion failed: expected 49, got " + r) }
+  if (r != 49) { throw new Error('assertion failed: expected 49, got ' + r) }
   console.log('verified')
 }

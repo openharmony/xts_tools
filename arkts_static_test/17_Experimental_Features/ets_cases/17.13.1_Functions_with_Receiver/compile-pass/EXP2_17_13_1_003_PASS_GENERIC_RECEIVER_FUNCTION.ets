@@ -26,4 +26,5 @@ function testGenericReceiver(): void {
   let c: ContainerBox<string> = new ContainerBox<string>()
   c.setItem('hello')
   let result: string | undefined = c.getItem()
-  console.log('compiled successfully')}
+  console.log('compiled successfully')
+}

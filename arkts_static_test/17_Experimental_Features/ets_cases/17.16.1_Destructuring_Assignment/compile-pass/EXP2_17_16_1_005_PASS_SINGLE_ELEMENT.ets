@@ -22,5 +22,5 @@
 function testSingleElement(): void {
   let arr: int[] = [99]
   let [val] = arr
-  console.log("val=" + val)
+  console.log('val=' + val)
 }

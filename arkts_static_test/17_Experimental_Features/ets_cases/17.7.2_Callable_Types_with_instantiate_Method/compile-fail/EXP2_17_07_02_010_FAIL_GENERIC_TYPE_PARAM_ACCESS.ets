@@ -24,8 +24,8 @@ class MyFailFactory4<T> {
 
   constructor() {}
 
-  static $_instantiate(__factory: () => MyFailFactory4<T>, val: T): MyFailFactory4<T> {
-    let result: MyFailFactory4<T> = __factory()
+  static $_instantiate(factory: () => MyFailFactory4<T>, val: T): MyFailFactory4<T> {
+    let result: MyFailFactory4<T> = factory()
     result.value = val
     return result
   }

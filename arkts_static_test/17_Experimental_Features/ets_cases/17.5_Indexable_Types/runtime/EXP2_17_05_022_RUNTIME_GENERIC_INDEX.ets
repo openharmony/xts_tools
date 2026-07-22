@@ -50,10 +50,10 @@ function main(): void {
   let n0: number | undefined = numStore[0]
   let n1: number | undefined = numStore[1]
   if (n0 != 100) {
-    throw new Error("assertion failed: numStore[0] expected 100, got " + n0)
+    throw new Error('assertion failed: numStore[0] expected 100, got ' + n0)
   }
   if (n1 != 200) {
-    throw new Error("assertion failed: numStore[1] expected 200, got " + n1)
+    throw new Error('assertion failed: numStore[1] expected 200, got ' + n1)
   }
 
   // Test with string type
@@ -63,10 +63,10 @@ function main(): void {
   let s0: string | undefined = strStore[0]
   let s1: string | undefined = strStore[1]
   if (s0 != 'first') {
-    throw new Error("assertion failed: strStore[0] expected first, got " + s0)
+    throw new Error('assertion failed: strStore[0] expected first, got ' + s0)
   }
   if (s1 != 'second') {
-    throw new Error("assertion failed: strStore[1] expected second, got " + s1)
+    throw new Error('assertion failed: strStore[1] expected second, got ' + s1)
   }
 
   // Test overwrite

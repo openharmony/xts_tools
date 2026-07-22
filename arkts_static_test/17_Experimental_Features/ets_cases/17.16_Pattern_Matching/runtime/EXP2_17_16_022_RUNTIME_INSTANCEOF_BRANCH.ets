@@ -45,13 +45,13 @@ function main(): void {
   let u: Fruit = new Fruit()
 
   if (identify(a) != 'apple') {
-    throw new Error("FAIL: Apple not identified, got: " + identify(a))
+    throw new Error('FAIL: Apple not identified, got: ' + identify(a))
   }
   if (identify(b) != 'banana') {
-    throw new Error("FAIL: Banana not identified, got: " + identify(b))
+    throw new Error('FAIL: Banana not identified, got: ' + identify(b))
   }
   if (identify(u) != 'unknown') {
-    throw new Error("FAIL: unknown not identified, got: " + identify(u))
+    throw new Error('FAIL: unknown not identified, got: ' + identify(u))
   }
   console.log('PASS: instanceof branch dispatch correct')
 }

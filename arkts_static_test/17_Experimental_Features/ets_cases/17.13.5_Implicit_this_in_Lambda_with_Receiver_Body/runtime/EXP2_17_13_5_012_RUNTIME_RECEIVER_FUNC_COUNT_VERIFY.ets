@@ -24,10 +24,10 @@ function update(this: DataStore): number { this.count = this.count + 1; return t
 function main(): void {
   let ds: DataStore = new DataStore(); ds.count = 10
   let r1: number = ds.update()
-  if (r1 != 11) { throw new Error("assertion failed: expected 11, got " + r1) }
+  if (r1 != 11) { throw new Error('assertion failed: expected 11, got ' + r1) }
   let r2: number = ds.update()
-  if (r2 != 12) { throw new Error("assertion failed: expected 12, got " + r2) }
+  if (r2 != 12) { throw new Error('assertion failed: expected 12, got ' + r2) }
   let r3: number = update(ds)
-  if (r3 != 13) { throw new Error("assertion failed: expected 13, got " + r3) }
+  if (r3 != 13) { throw new Error('assertion failed: expected 13, got ' + r3) }
   console.log('verified')
 }

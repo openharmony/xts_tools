@@ -19,7 +19,7 @@
  * @design 显式this同时访问多个接收者成员
  * @note 正向用例：验证该特性编译通过的正确用法
  */
-class Config { public host: string = 'localhost'; port: number = 8080; secure: boolean = false }
+class Config { public host: string = 'localhost'; public port: number = 8080; public secure: boolean = false }
 function testExplicitThisMultiple(): void {
   let connectionString = (this: Config): string => {
     let protocol: string = 'http'

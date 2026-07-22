@@ -26,18 +26,18 @@ class MyFactory4 {
     this.tag = t
   }
 
-  static $_instantiate(__factory: () => MyFactory4): MyFactory4 {
-    return __factory()
+  static $_instantiate(factory: () => MyFactory4): MyFactory4 {
+    return factory()
   }
 
-  static $_instantiate(__factory: () => MyFactory4, tag: string): MyFactory4 {
-    let result: MyFactory4 = __factory()
+  static $_instantiate(factory: () => MyFactory4, tag: string): MyFactory4 {
+    let result: MyFactory4 = factory()
     result.tag = tag
     return result
   }
 
-  static $_instantiate(__factory: () => MyFactory4, tag: string, num: int): MyFactory4 {
-    let result: MyFactory4 = __factory()
+  static $_instantiate(factory: () => MyFactory4, tag: string, num: int): MyFactory4 {
+    let result: MyFactory4 = factory()
     result.tag = tag + num.toString()
     return result
   }

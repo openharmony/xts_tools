@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -20,6 +20,7 @@
  *
  * Key difference: ArkTS getter/setter are first-class language constructs
  * usable at top level and in namespaces. Java uses method-based convention.
+ * @since 2025
  */
 public class JavaAccessorDeclaration {
     // JavaBean-style: backing field + getter/setter methods
@@ -43,17 +44,17 @@ public class JavaAccessorDeclaration {
         setValue(42);
         int result = getValue();
         if (result != 42) {
-            throw new RuntimeException("assertion failed: expected 42, got " + result);
+            throw new AssertionError("assertion failed: expected 42, got " + result);
         }
         System.out.println("Java: getter/setter via methods = " + result);
 
         setValue(20);
         if (getValue() != 20) {
-            throw new RuntimeException("assertion failed");
+            throw new AssertionError("assertion failed");
         }
         setValue(getValue() + 5);
         if (getValue() != 25) {
-            throw new RuntimeException("assertion failed");
+            throw new AssertionError("assertion failed");
         }
         System.out.println("Java: getter+setter interaction correct, final=" + getValue());
 

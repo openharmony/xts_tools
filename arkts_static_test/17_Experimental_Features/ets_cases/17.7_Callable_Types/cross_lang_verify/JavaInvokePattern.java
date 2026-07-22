@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -11,11 +11,12 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java equivalent of ArkTS $_invoke callable type pattern.
  * Java has no direct callable type mechanism.
  * Closest equivalent: static method + functional interface.
+ * @since 2025
  */
 import java.util.function.Supplier;
 import java.util.function.BiFunction;
@@ -31,9 +32,15 @@ class SimpleCallable {
 
 // APPROACH 2: Overloaded static methods
 class OverloadedCallable {
-    static int invoke() { return 0; }
-    static int invoke(int a) { return a * 2; }
-    static int invoke(int a, int b) { return a + b; }
+    static int invoke() {
+        return 0;
+    }
+    static int invoke(int a) {
+        return a * 2;
+    }
+    static int invoke(int a, int b) {
+        return a + b;
+    }
 }
 
 // APPROACH 3: Static factory (equivalent to $_instantiate)
@@ -62,6 +69,7 @@ class CallableEquivalent {
     }
 }
 
+/** Java equivalent of ArkTS $_invoke callable type pattern */
 public class JavaInvokePattern {
     public static void main(String[] args) {
         // Test 1: Static invoke
@@ -89,8 +97,6 @@ public class JavaInvokePattern {
         // Test 5: Functional interface as closest to callable type
         CallableEquivalent.demo();
 
-        // Java: new always calls constructor, ClassName.method() calls static method
-        // This is the same as ArkTS distinction between new C() and C()
 
         System.out.println("PASS: Java invoke/factory patterns verified");
     }

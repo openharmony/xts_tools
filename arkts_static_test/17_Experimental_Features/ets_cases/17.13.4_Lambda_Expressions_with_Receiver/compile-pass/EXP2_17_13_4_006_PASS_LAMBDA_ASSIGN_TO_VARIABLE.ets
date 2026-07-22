@@ -20,7 +20,7 @@
  * @note 正向用例：验证该特性编译通过的正确用法
  */
 interface Identifiable { id: number }
-class Entity implements Identifiable { id: number = 0 }
+class Entity implements Identifiable { public id: number = 0 }
 function testLambdaAssignToVariable(): void {
   let idReader = (this: Identifiable): number => { return this.id }
   let e: Entity = new Entity(); e.id = 999

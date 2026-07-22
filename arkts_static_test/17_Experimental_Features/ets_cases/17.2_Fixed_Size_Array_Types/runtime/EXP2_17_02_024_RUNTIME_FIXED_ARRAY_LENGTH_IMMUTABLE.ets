@@ -27,17 +27,17 @@ function main(): void {
     arr.length = 10;
 
     if (arr.length != originalLength) {
-        throw new Error("assertion failed: length changed from " + originalLength + ' to ' + arr.length);
+        throw new Error('assertion failed: length changed from ' + originalLength + ' to ' + arr.length);
     }
 
     if (arr[0] != originalElement) {
-        throw new Error("assertion failed: element at index 0 changed from " + originalElement + ' to ' + arr[0]);
+        throw new Error('assertion failed: element at index 0 changed from ' + originalElement + ' to ' + arr[0]);
     }
 
     arr.length = 1;
 
     if (arr.length != originalLength) {
-        throw new Error("assertion failed: length changed from " + originalLength + ' to ' + arr.length);
+        throw new Error('assertion failed: length changed from ' + originalLength + ' to ' + arr.length);
     }
 
     if (arr[2] != 9) {

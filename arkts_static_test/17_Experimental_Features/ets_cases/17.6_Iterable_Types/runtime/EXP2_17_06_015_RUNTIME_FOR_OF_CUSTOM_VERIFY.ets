@@ -55,10 +55,10 @@ function main(): void {
     count = count + 1
   }
   if (sum != 15) {
-    throw new Error("custom iterable sum failed: expected 15, got " + sum)
+    throw new Error('custom iterable sum failed: expected 15, got ' + sum)
   }
   if (count != 5) {
-    throw new Error("custom iterable count failed: expected 5, got " + count)
+    throw new Error('custom iterable count failed: expected 5, got ' + count)
   }
 
   let emptyRange: Range = new Range(5, 1)
@@ -67,7 +67,7 @@ function main(): void {
     emptyCount = emptyCount + 1
   }
   if (emptyCount != 0) {
-    throw new Error("empty custom iterable failed: " + emptyCount)
+    throw new Error('empty custom iterable failed: ' + emptyCount)
   }
 
   console.log('verified')

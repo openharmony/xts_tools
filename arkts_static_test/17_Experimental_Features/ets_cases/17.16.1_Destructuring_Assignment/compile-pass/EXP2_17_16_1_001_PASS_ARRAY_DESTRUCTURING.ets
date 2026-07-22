@@ -22,5 +22,5 @@
 function testArrayDestructuring(): void {
   let arr: int[] = [1, 2, 3]
   let [a, b] = arr
-  console.log("a=" + a + ' b=' + b)
+  console.log('a=' + a + ' b=' + b)
 }

@@ -16,7 +16,7 @@ Final classes are a conservative language feature that allows a class author to 
 |--------|-------|------|-------|
 | Keyword | `final class` | `final class` | `final class` |
 | Meaning | Class cannot be extended | Class cannot be subclassed | Class cannot be subclassed |
-| Purpose | Prevent unintended inheritance; enable compiler optimizations; enforce design intent | Same | Same |
+| Purpose | Prevent unintended inheritance; enable compiler optimizations; enforce design purpose | Same | Same |
 | Interface/Protocol | A final class can implement interfaces | A final class can implement interfaces | A final class can conform to protocols |
 
 All three languages use `final` as a **modifier** placed before the `class` keyword. The semantics are conservative: final removes the ability to extend, but does not restrict instantiation, interface implementation, or type usage.

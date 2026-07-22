@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -17,6 +17,7 @@
  * Case: int explicit type on int[] -- compile and run (PASS)
  *
  * Java's enhanced for-loop always requires explicit type, so this is the baseline.
+ * @since 2025
  */
 public class JavaForOfIntExplicitType {
     public static void main(String[] args) {
@@ -25,12 +26,12 @@ public class JavaForOfIntExplicitType {
         int idx = 0;
         for (int v : arr) {
             if (v != expected[idx]) {
-                throw new RuntimeException("assertion failed: expected " + expected[idx] + " but got " + v);
+                throw new AssertionError("assertion failed: expected " + expected[idx] + " but got " + v);
             }
             idx++;
         }
         if (idx != 5) {
-            throw new RuntimeException("assertion failed: expected 5 iterations but got " + idx);
+            throw new AssertionError("assertion failed: expected 5 iterations but got " + idx);
         }
         System.out.println("verified");
     }

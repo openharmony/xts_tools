@@ -19,8 +19,9 @@
  * @design 通过显式this调用接收者的方法并访问成员
  * @note 正向用例：验证该特性编译通过的正确用法
  */
-class User { public firstName: string = ''; lastName: string = ''
-  getFullName(): string { return this.firstName + ' ' + this.lastName } }
+class User { public firstName: string = ''; public lastName: string = ''
+  getFullName(): string { return this.firstName + ' ' + this.lastName }
+}
 function testExplicitThisChained(): void {
   let greeting = (this: User): string => { return 'Welcome, ' + this.getFullName() }
   let u: User = new User(); u.firstName = 'Jane'; u.lastName = 'Smith'

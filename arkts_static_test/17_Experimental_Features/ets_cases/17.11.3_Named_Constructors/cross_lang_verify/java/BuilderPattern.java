@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java cross-verification: Builder pattern (alternative to named constructors)
  * Java Builder pattern is another common alternative when you need multiple
@@ -25,18 +25,24 @@ class User {
 
     private User() {}
 
-    public String getName() { return name; }
-    public int getAge() { return age; }
+    public String getName() {
+        return name;
+    }
+    public int getAge() {
+        return age;
+    }
 
-    // Builder class enables named-parameter-like construction
+    /** Builder class enables named-parameter-like construction */
     public static class Builder {
         private User user = new User();
 
+        /** Set name */
         public Builder withName(String name) {
             user.name = name;
             return this;
         }
 
+        /** Set age */
         public Builder withAge(int age) {
             user.age = age;
             return this;
@@ -48,6 +54,7 @@ class User {
     }
 }
 
+/** Java cross-verification: Builder pattern */
 public class BuilderPattern {
     public static void main(String[] args) {
         User u1 = new User.Builder()

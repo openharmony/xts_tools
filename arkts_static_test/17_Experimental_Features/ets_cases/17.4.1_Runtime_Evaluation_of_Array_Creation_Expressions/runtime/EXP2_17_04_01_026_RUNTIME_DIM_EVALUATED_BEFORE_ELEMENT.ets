@@ -37,13 +37,13 @@ function main(): void {
   let arr: int[] = new int[computeDim()] (computeElem())
   // Verify array was created correctly
   if (arr.length != 3) {
-    throw new Error("assertion failed: array length should be 3, got " + arr.length)
+    throw new Error('assertion failed: array length should be 3, got ' + arr.length)
   }
   if (arr[0] != 42) {
-    throw new Error("assertion failed: arr[0] should be 42, got " + arr[0])
+    throw new Error('assertion failed: arr[0] should be 42, got ' + arr[0])
   }
   if (arr[2] != 42) {
-    throw new Error("assertion failed: arr[2] should be 42, got " + arr[2])
+    throw new Error('assertion failed: arr[2] should be 42, got ' + arr[2])
   }
   console.log('verified')
 }

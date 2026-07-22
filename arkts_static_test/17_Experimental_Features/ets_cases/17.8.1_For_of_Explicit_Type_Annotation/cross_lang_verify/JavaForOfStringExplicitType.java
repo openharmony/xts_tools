@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,6 +15,7 @@
 /**
  * Java equivalent of ArkTS for-of with explicit type annotation (§17.8.1)
  * Case: String explicit type on String[] -- compile and run (PASS)
+ * @since 2025
  */
 public class JavaForOfStringExplicitType {
     public static void main(String[] args) {
@@ -25,7 +26,7 @@ public class JavaForOfStringExplicitType {
         }
         String expected = "helloworldarkts";
         if (!result.toString().equals(expected)) {
-            throw new RuntimeException("assertion failed: expected " + expected + " but got " + result);
+            throw new AssertionError("assertion failed: expected " + expected + " but got " + result);
         }
         System.out.println("verified");
     }

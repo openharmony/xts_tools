@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java cross-language verification for ArkTS 17.10.2 Native Methods
  *
@@ -28,61 +28,71 @@
  *   (ArkTS: LinkerUnresolvedMethodError, Java: UnsatisfiedLinkError)
  */
 
-// Test 1: Basic native method (ArkTS 001)
+/** Test 1: Basic native method declaration */
 class NativeCalculator {
-    // Equivalent to: native add(a: int, b: int): int
+    /** Equivalent to ArkTS native add(a: int, b: int): int */
     public native int add(int a, int b);
 
-    // Equivalent to: native subtract(a: int, b: int): int
+    /** Equivalent to ArkTS native subtract(a: int, b: int): int */
     public native int subtract(int a, int b);
 
-    // Regular method to verify class works
+    /** Regular method to verify class works */
     public int regularAdd(int a, int b) {
         return a + b;
     }
 }
 
-// Test 2: Native method with params (ArkTS 002)
+/** Test 2: Native method with params */
 class DataProcessor {
+    /** Equivalent to ArkTS native process(input: string, flag: int): string */
     public native String process(String input, int flag);
 }
 
-// Test 3: Static native method (ArkTS 003)
+/** Test 3: Static native method */
 class MathLib {
+    /** JNI static native sqrt */
     public static native double sqrt(double x);
+    /** JNI static native abs */
     public static native int abs(int x);
 }
 
-// Test 4: Private native method (ArkTS 004)
+/** Test 4: Private native method */
 class InternalService {
     private native int internalHash(Object key);
 
+    /** Delegates to private native internalHash */
     public int getHash(Object key) {
         return internalHash(key);  // delegate to private native
     }
 }
 
-// Test 5: Multiple native methods (ArkTS 005)
+/** Test 5: Multiple native methods */
 class MultiNative {
+    /** Native init */
     public native void init();
+    /** Native read */
     public native String read();
+    /** Native write */
     public native void write(String data);
+    /** Native close */
     public native void close();
 }
 
-// Test 6: Generic native method (ArkTS 006)
+/** Test 6: Generic native method */
 class GenericOps {
+    /** Generic native transform */
     public native <T> T transform(T input);
 }
 
-// Test 7: Semicolon body native method (ArkTS 007)
-// Java native methods always end with semicolon - no body allowed
+/** Test 7: Semicolon body native method */
 class SemicolonNative {
+    /** Native method with semicolon (standard Java) */
     public native void doSomething();  // semicolon is standard Java
 }
 
-// Test 8: Override native method (ArkTS 008)
+/** Test 8: Override native method */
 class BaseService {
+    /** Native getData */
     public native String getData();
 }
 
@@ -93,13 +103,11 @@ class ExtendedService extends BaseService {
     }
 }
 
-// Test: native+abstract forbidden (ArkTS 010)
-// class BadCombo { native abstract void foo(); }  // WOULD FAIL: illegal combination
+// Test: native+abstract forbidden (ArkTS 010) -- Java rejects this as illegal combination
 
-// Test: native in interface forbidden in ArkTS (ArkTS 011)
-// In Java, interface methods CAN be native (since Java 9) but this differs from ArkTS
+/** Test: native in interface forbidden in ArkTS */
 interface DataSource {
-    // NOT native - interface methods are abstract by default in Java
+    /** Interface method - NOT native */
     String fetchData();
 }
 
@@ -141,11 +149,10 @@ public class NativeMethodsJava {
         System.out.println("PASS 008: override native method works: " + overrideResult);
 
         // Test: Calling unimplemented native would throw UnsatisfiedLinkError
-        // try { calc.add(1, 2); } catch (UnsatisfiedLinkError e) { ... }
-        System.out.println("NOTE: calling unimplemented native throws UnsatisfiedLinkError (matches ArkTS LinkerUnresolvedMethodError)");
+        System.out.println("NOTE: calling unimplemented native throws UnsatisfiedLinkError" +
+            " (matches ArkTS LinkerUnresolvedMethodError)");
 
         // Verify: No body allowed
-        // Java compiler error: "native methods cannot have a body"
         System.out.println("NOTE: Java compiler forbids native method bodies (matches ArkTS ESE0083)");
 
         // Verify: native+abstract forbidden
@@ -155,6 +162,7 @@ public class NativeMethodsJava {
         // Key difference: Java allows native in interfaces (since Java 9), ArkTS forbids it
         System.out.println("DIFF: Java 9+ allows native in interfaces; ArkTS forbids it (ESY0224)");
 
-        System.out.println("\nJAVA VERIFIED: All native method comparison tests passed");
+        System.out.println();
+        System.out.println("JAVA VERIFIED: All native method comparison tests passed");
     }
 }

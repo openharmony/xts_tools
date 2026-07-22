@@ -34,17 +34,17 @@ class OverloadedInvokeRuntime {
 function main(): void {
   let r0: int = OverloadedInvokeRuntime()
   if (r0 != 0) {
-    throw new Error("assertion failed: 0-arg expected 0, got " + r0)
+    throw new Error('assertion failed: 0-arg expected 0, got ' + r0)
   }
 
   let r1: int = OverloadedInvokeRuntime(5)
   if (r1 != 10) {
-    throw new Error("assertion failed: 1-arg expected 10, got " + r1)
+    throw new Error('assertion failed: 1-arg expected 10, got ' + r1)
   }
 
   let r2: int = OverloadedInvokeRuntime(3, 7)
   if (r2 != 10) {
-    throw new Error("assertion failed: 2-arg expected 10, got " + r2)
+    throw new Error('assertion failed: 2-arg expected 10, got ' + r2)
   }
 
   console.log('PASS: overload resolution correct')

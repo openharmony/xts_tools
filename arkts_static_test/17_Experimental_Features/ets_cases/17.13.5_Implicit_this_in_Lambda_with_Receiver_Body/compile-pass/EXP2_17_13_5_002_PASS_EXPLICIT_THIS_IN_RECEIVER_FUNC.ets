@@ -19,7 +19,7 @@
  * @design 接收者函数中使用显式 this. 访问成员
  * @note 正向用例：验证该特性编译通过的正确用法
  */
-class Context { public mode: string = 'default'; enabled: boolean = true }
+class Context { public mode: string = 'default'; public enabled: boolean = true }
 function getStatus(this: Context): string { return 'mode=' + this.mode + ' enabled=' + this.enabled }
 function testExplicitThisInReceiverFunc(): void {
   let ctx: Context = new Context(); ctx.mode = 'production'; ctx.enabled = false

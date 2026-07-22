@@ -23,10 +23,10 @@ function main(): void {
   let arr: int[] = [10, 20, 30]
   let [a, b] = arr
   if (a != 10) {
-    throw new Error("FAIL: a should be 10, got: " + a)
+    throw new Error('FAIL: a should be 10, got: ' + a)
   }
   if (b != 20) {
-    throw new Error("FAIL: b should be 20, got: " + b)
+    throw new Error('FAIL: b should be 20, got: ' + b)
   }
-  console.log("PASS: array destructuring values correct: a=" + a + ' b=' + b)
+  console.log('PASS: array destructuring values correct: a=' + a + ' b=' + b)
 }

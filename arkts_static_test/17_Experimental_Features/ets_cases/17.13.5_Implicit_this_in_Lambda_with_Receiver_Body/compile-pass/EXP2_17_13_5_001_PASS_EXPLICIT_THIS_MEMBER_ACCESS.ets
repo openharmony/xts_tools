@@ -19,7 +19,7 @@
  * @design 显式 this 访问接收者成员：在接收者lambda体内使用 this.field 访问成员
  * @note 正向用例：验证该特性编译通过的正确用法。es2panda 要求使用显式 this. 前缀
  */
-class Employee { public name: string = ''; salary: number = 0 }
+class Employee { public name: string = ''; public salary: number = 0 }
 function testExplicitThisAccess(): void {
   let describe = (this: Employee): string => { return this.name + ' earns ' + this.salary }
   let emp: Employee = new Employee(); emp.name = 'Alice'; emp.salary = 50000

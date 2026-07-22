@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -45,8 +45,12 @@ class NativeCtorJava {
         this.factor = val * 2.0;
     }
 
-    public int getValue() { return val; }
-    public double getDouble() { return factor; }
+    public int getValue() {
+        return val;
+    }
+    public double getDouble() {
+        return factor;
+    }
 }
 
 // Test 2: Pattern to simulate native constructor - native init method
@@ -56,14 +60,14 @@ class NativeInitPattern {
 
     public NativeInitPattern() {
         // Call native init instead of native constructor
-        // this.nativeHandle = nativeInit();
         this.nativeHandle = 0;  // simulated
     }
 
     // This IS valid Java: native method called from constructor
-    // private native long nativeInit();
 
-    public long getHandle() { return nativeHandle; }
+    public long getHandle() {
+        return nativeHandle;
+    }
 }
 
 // Test 3: Subclass pattern (ArkTS 003)
@@ -86,8 +90,7 @@ class MixedCtorJava {
 
     // Default constructor - Java equivalent of native constructor()
     public MixedCtorJava() {
-        this.xVal = 0;
-        this.yVal = 0.0;
+        this(0);
     }
 
     // Parameterized constructor
@@ -96,8 +99,12 @@ class MixedCtorJava {
         this.yVal = val * 2.0;
     }
 
-    public int getValue() { return xVal; }
-    public double getDouble() { return yVal; }
+    public int getValue() {
+        return xVal;
+    }
+    public double getDouble() {
+        return yVal;
+    }
 }
 
 // Test 5: Type usage (ArkTS 005 equivalent)
@@ -109,11 +116,12 @@ class NativeTypeClass {
         this.tag = "java_type";
     }
 
-    public String describe() { return tag; }
+    public String describe() {
+        return tag;
+    }
 }
 
-// Verify: native constructor syntax is INVALID in Java
-// class BadNative { native BadNative(); }  // COMPILE ERROR: modifier native not allowed here
+// Verify: native constructor syntax is INVALID in Java (modifier native not allowed here)
 
 public class NativeConstructorsJava {
     public static void main(String[] args) {
@@ -147,7 +155,8 @@ public class NativeConstructorsJava {
         System.out.println("PASS 005: type usage works (null reference, empty array)");
 
         // Key differences documented:
-        System.out.println("\n--- KEY DIFFERENCES: Java vs ArkTS native constructors ---");
+        System.out.println();
+        System.out.println("--- KEY DIFFERENCES: Java vs ArkTS native constructors ---");
         System.out.println("DIFF 1: Java does NOT support native constructors");
         System.out.println("  ArkTS: native constructor()  -- compiles (ESE0084 if body present)");
         System.out.println("  Java:  native ClassName() {} -- COMPILE ERROR: modifier native not allowed here");
@@ -157,7 +166,8 @@ public class NativeConstructorsJava {
         System.out.println("DIFF 3: Java uses native init() pattern instead of native constructor");
         System.out.println("  Standard JNI pattern: constructor calls private native void nativeInit()");
 
-        System.out.println("\nJAVA VERIFIED: All native constructor comparison tests passed");
+        System.out.println();
+        System.out.println("JAVA VERIFIED: All native constructor comparison tests passed");
         System.out.println("CONCLUSION: ArkTS native constructor is a unique feature with no Java equivalent");
     }
 }

@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,6 +15,7 @@
 /**
  * Java equivalent of ArkTS compile-pass basic statements
  * Tests: if-else, while, do-while, for, try-catch-finally, return, switch, break, continue
+ * @since 2025
  */
 public class JavaBasicStatements {
     public static void main(String[] args) {
@@ -30,31 +31,62 @@ public class JavaBasicStatements {
     }
 
     static void testIfElse() {
-        int x = 10, y = 20;
-        if (x > 5) { int tmp = x + 1; }
-        if (x > y) { int tmp = x - y; } else { int tmp = y - x; }
-        if (x > y) { int tmp = x; } else if (x < y) { int tmp = y; } else { int tmp = 0; }
-        if (x > 0) { if (y > 0) { int tmp = x + y; } }
+        int x = 10;
+        int y = 20;
+        if (x > 5) {
+            int tmp = x + 1;
+        }
+        if (x > y) {
+            int tmp = x - y;
+        } else {
+            int tmp = y - x;
+        }
+        if (x > y) {
+            int tmp = x;
+        } else if (x < y) {
+            int tmp = y;
+        } else {
+            int tmp = 0;
+        }
+        if (x > 0) {
+            if (y > 0) {
+                int tmp = x + y;
+            }
+        }
     }
 
     static void testWhile() {
         int count = 0;
-        while (count < 10) { count++; }
+        while (count < 10) {
+            count++;
+        }
         int i = 0;
-        while (true) { i++; if (i >= 10) break; }
+        while (true) {
+            i++;
+            if (i >= 10) { break; }
+        }
     }
 
     static void testDoWhile() {
         int count = 0;
-        do { count++; } while (count < 5);
+        do {
+            count++;
+        } while (count < 5);
         int j = 0;
-        do { j++; if (j >= 3) break; } while (true);
+        do {
+            j++;
+            if (j >= 3) { break; }
+        } while (true);
     }
 
     static void testForLoop() {
         int sum = 0;
-        for (int i = 0; i < 10; i++) { sum += i; }
-        for (int k = 0; k < 100; k++) { if (k >= 5) break; }
+        for (int i = 0; i < 10; i++) {
+            sum += i;
+        }
+        for (int k = 0; k < 100; k++) {
+            if (k >= 5) { break; }
+        }
     }
 
     static void testSwitch() {
@@ -77,9 +109,17 @@ public class JavaBasicStatements {
 
     static void testBreakContinue() {
         int a = 0;
-        while (a < 10) { a++; if (a == 5) break; }
-        int sum1 = 0, c = 0;
-        while (c < 10) { c++; if (c % 2 == 0) continue; sum1 += c; }
+        while (a < 10) {
+            a++;
+            if (a == 5) { break; }
+        }
+        int sum1 = 0;
+        int c = 0;
+        while (c < 10) {
+            c++;
+            if (c % 2 == 0) { continue; }
+            sum1 += c;
+        }
     }
 
     static void testReturn() {
@@ -88,7 +128,17 @@ public class JavaBasicStatements {
     }
 
     static void testTryCatch() {
-        try { int x = 10 / 2; } catch (Exception e) { String msg = "error caught"; }
-        try { int val = 100; } catch (Exception e) { String msg = "caught"; } finally { boolean finalStep = true; }
+        try {
+            int x = 10 / 2;
+        } catch (RuntimeException e) {
+            String msg = "error caught";
+        }
+        try {
+            int val = 100;
+        } catch (RuntimeException e) {
+            String msg = "caught";
+        } finally {
+            boolean finalStep = true;
+        }
     }
 }

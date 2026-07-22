@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,6 +15,7 @@
 /**
  * Java equivalent of ArkTS 17.10.1 Native Functions tests.
  * Java uses the `native` keyword (JNI - Java Native Interface) with similar semantics.
+ * @since 2025
  */
 public class NativeFunctionTest {
     // PASS: native method declaration (no body)
@@ -25,16 +26,11 @@ public class NativeFunctionTest {
     // PASS: static native method
     static native double sqrt(double x);
 
-    // FAIL would be: native method with body -- Java compiler rejects this
-    // native int badMethod() { return 1; }  // Error: native methods cannot have a body
-
-    // FAIL would be: native + abstract -- Java compiler rejects this
-    // native abstract void badAbstract();  // Error: illegal combination of modifiers
-
     // Load native library (for JNI)
     static {
         // In real JNI, you'd load: System.loadLibrary("nativeLib");
         // For test purposes, we skip loading since we only verify declaration
+        // Java rejects native+body (matches ArkTS ESE0083) and native+abstract (matches ESE0047)
     }
 
     public int regularMethod() {

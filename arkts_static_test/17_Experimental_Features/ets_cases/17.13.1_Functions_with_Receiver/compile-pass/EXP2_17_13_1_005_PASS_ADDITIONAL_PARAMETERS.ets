@@ -21,7 +21,8 @@
  */
 class Accumulator { public total: number = 0 }
 function addValues(this: Accumulator, a: number, b: number, c: number): number {
-  this.total = this.total + a + b + c; return this.total }
+  this.total = this.total + a + b + c; return this.total
+}
 function testAdditionalParams(): void {
   let acc: Accumulator = new Accumulator()
   let r1: number = acc.addValues(1, 2, 3)

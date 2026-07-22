@@ -25,12 +25,12 @@ function main(): void {
   let idx: int = 0
   for (let v: int of arr) {
     if (v != expectedValues[idx]) {
-      throw new Error("assertion failed: expected " + expectedValues[idx] + ' but got ' + v)
+      throw new Error('assertion failed: expected ' + expectedValues[idx] + ' but got ' + v)
     }
     idx = idx + 1
   }
   if (idx != 5) {
-    throw new Error("assertion failed: expected 5 iterations but got " + idx)
+    throw new Error('assertion failed: expected 5 iterations but got ' + idx)
   }
   console.log('verified')
 }

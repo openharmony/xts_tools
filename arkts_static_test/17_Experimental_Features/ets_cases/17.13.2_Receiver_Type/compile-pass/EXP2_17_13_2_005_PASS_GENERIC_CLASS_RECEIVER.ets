@@ -26,4 +26,5 @@ function testGenericClassReceiver(): void {
   let w: Wrapper<number> = new Wrapper<number>()
   w.wrap(100)
   let val: number | undefined = w.unwrap()
-  console.log('compiled successfully')}
+  console.log('compiled successfully')
+}

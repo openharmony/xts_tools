@@ -24,6 +24,6 @@ function triple(this: NumberBox): number { return this.value * 3 }
 function main(): void {
   let nb: NumberBox = new NumberBox(); nb.value = 7
   let r: number = nb.triple()
-  if (r != 21) { throw new Error("assertion failed: expected 21, got " + r) }
+  if (r != 21) { throw new Error('assertion failed: expected 21, got ' + r) }
   console.log('verified')
 }

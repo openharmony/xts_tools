@@ -23,4 +23,5 @@ class Outer { public field: string = 'outer'
   createLambda(): void {
     let inner = (this: string): string => { return this + this.field }
     let r: string = inner('test')
-  }}
+  }
+}

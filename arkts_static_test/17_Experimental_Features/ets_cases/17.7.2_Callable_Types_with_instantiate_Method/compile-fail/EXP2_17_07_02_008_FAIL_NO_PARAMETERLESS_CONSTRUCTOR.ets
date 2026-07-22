@@ -26,8 +26,8 @@ class MyFailFactory2 {
     this.data = x
   }
 
-  static $_instantiate(__factory: () => MyFailFactory2): MyFailFactory2 {
-    return __factory()
+  static $_instantiate(factory: () => MyFailFactory2): MyFailFactory2 {
+    return factory()
   }
 }
 

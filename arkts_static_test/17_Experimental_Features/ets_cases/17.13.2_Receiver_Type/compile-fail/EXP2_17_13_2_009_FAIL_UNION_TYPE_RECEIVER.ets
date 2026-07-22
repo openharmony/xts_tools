@@ -20,5 +20,5 @@
  * @note 反向用例：验证该场景应产生编译时错误
  */
 class Alpha { public id: number = 0 }
-class Beta { id: number = 0 }
+class Beta { public id: number = 0 }
 function showId(this: Alpha | Beta): number { return this.id}

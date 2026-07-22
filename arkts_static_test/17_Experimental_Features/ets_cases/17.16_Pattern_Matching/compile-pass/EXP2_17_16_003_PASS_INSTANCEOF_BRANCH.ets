@@ -43,5 +43,5 @@ function processShape(s: Shape): string {
 function testInstanceofBranch(): void {
   let c: Shape = new Circle()
   let r: Shape = new Rect()
-  console.log("c=" + processShape(c) + ' r=' + processShape(r))
+  console.log('c=' + processShape(c) + ' r=' + processShape(r))
 }

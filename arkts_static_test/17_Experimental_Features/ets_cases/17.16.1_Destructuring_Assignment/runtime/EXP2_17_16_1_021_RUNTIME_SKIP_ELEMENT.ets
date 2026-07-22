@@ -23,10 +23,10 @@ function main(): void {
   let arr: int[] = [100, 200, 300]
   let [first, , third] = arr
   if (first != 100) {
-    throw new Error("FAIL: first should be 100, got: " + first)
+    throw new Error('FAIL: first should be 100, got: ' + first)
   }
   if (third != 300) {
-    throw new Error("FAIL: third should be 300, got: " + third)
+    throw new Error('FAIL: third should be 300, got: ' + third)
   }
-  console.log("PASS: skip element works: first=" + first + ' third=' + third)
+  console.log('PASS: skip element works: first=' + first + ' third=' + third)
 }

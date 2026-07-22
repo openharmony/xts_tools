@@ -26,8 +26,8 @@ class MyFactory3 {
     this.value = v
   }
 
-  static $_instantiate(__factory: () => MyFactory3, initVal: int): MyFactory3 {
-    let result: MyFactory3 = __factory()
+  static $_instantiate(factory: () => MyFactory3, initVal: int): MyFactory3 {
+    let result: MyFactory3 = factory()
     result.value = initVal
     return result
   }

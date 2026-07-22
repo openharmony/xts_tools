@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,6 +15,7 @@
 /**
  * Java equivalent of EXP2_17_08_014_RUNTIME_FOR_OF_ITERATION
  * Tests: for-each iteration over arrays, strings (char iteration), break
+ * @since 2025
  */
 public class JavaForEachIteration {
     public static void main(String[] args) {
@@ -45,7 +46,7 @@ public class JavaForEachIteration {
         // Test for-each with break
         int breakSum = 0;
         for (int val : numbers) {
-            if (val >= 30) break;
+            if (val >= 30) { break; }
             breakSum += val;
         }
         assert breakSum == 30 : "for-each break assertion failed: " + breakSum;

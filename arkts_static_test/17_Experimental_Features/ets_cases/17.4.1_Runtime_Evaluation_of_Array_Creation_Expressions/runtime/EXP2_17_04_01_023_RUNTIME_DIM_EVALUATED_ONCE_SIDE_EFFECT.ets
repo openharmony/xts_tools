@@ -30,11 +30,11 @@ function main(): void {
   let arr: int[] = new int[getDim()] (0)
   // Verify dimension expression was evaluated exactly once
   if (dimCallCount != 1) {
-    throw new Error("assertion failed: dim expression should be evaluated exactly once, got " + dimCallCount + ' times')
+    throw new Error('assertion failed: dim expression should be evaluated exactly once, got ' + dimCallCount + ' times')
   }
   // Verify array was created correctly
   if (arr.length != 5) {
-    throw new Error("assertion failed: array length should be 5, got " + arr.length)
+    throw new Error('assertion failed: array length should be 5, got ' + arr.length)
   }
   console.log('verified')
 }

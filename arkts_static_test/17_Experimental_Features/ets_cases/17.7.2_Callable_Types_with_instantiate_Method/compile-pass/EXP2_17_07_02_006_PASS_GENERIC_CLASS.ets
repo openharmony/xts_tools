@@ -26,12 +26,12 @@ class MyFactory6 {
     this.value = v
   }
 
-  static $_instantiate(__factory: () => MyFactory6): MyFactory6 {
-    return __factory()
+  static $_instantiate(factory: () => MyFactory6): MyFactory6 {
+    return factory()
   }
 
-  static $_instantiate(__factory: () => MyFactory6, val: string): MyFactory6 {
-    let result: MyFactory6 = __factory()
+  static $_instantiate(factory: () => MyFactory6, val: string): MyFactory6 {
+    let result: MyFactory6 = factory()
     result.value = val
     return result
   }

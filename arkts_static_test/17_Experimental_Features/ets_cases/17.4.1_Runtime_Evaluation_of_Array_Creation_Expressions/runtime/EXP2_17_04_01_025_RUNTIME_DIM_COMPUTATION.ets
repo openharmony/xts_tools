@@ -23,14 +23,14 @@ function main(): void {
   let arr: int[] = new int[2+3] (1)
   // Verify array length equals computed dimension = 5
   if (arr.length != 5) {
-    throw new Error("assertion failed: array length should be 5, got " + arr.length)
+    throw new Error('assertion failed: array length should be 5, got ' + arr.length)
   }
   // Verify all elements are initialized to 1
   if (arr[0] != 1) {
-    throw new Error("assertion failed: arr[0] should be 1, got " + arr[0])
+    throw new Error('assertion failed: arr[0] should be 1, got ' + arr[0])
   }
   if (arr[4] != 1) {
-    throw new Error("assertion failed: arr[4] should be 1, got " + arr[4])
+    throw new Error('assertion failed: arr[4] should be 1, got ' + arr[4])
   }
   console.log('verified')
 }

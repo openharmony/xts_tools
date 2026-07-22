@@ -28,4 +28,5 @@ function testNamespaceReceiver(): void {
   let tool: Utils.Tool = new Utils.Tool()
   Utils.setLabel(tool, 'test_label')
   let lbl: string = Utils.getLabel(tool)
-  console.log('compiled successfully')}
+  console.log('compiled successfully')
+}

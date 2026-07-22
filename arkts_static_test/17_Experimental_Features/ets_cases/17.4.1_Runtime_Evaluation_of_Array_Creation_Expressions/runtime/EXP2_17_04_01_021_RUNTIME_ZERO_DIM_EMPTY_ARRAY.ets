@@ -23,7 +23,7 @@ function main(): void {
   let arr: int[] = new int[0] (0)
   // Verify array length is 0
   if (arr.length != 0) {
-    throw new Error("assertion failed: array length should be 0, got " + arr.length)
+    throw new Error('assertion failed: array length should be 0, got ' + arr.length)
   }
   console.log('verified')
 }

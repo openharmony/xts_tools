@@ -21,5 +21,5 @@
  */
 function testLiteralRHS(): void {
   let [a, b] = [100, 200]
-  console.log("a=" + a + ' b=' + b)
+  console.log('a=' + a + ' b=' + b)
 }

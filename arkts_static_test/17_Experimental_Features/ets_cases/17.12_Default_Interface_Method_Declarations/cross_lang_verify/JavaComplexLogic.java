@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java equivalent of ArkTS EXP2_17_12_023 - Complex logic in default methods
  * Tests: conditionals, loops, this-like access in default methods
@@ -19,8 +19,10 @@
  *       or passed as parameter. Here we use an abstract method getThreshold().
  */
 interface IDataProcessor {
-    int getThreshold();  // abstract - implementing class must provide
+    /** Get threshold value */
+    int getThreshold();
 
+    /** Process data array with threshold filtering */
     default int processData(int[] values) {
         int sum = 0;
         int count = 0;
@@ -39,6 +41,7 @@ interface IDataProcessor {
         }
     }
 
+    /** Categorize score into grade */
     default String getCategory(int score) {
         if (score >= 90) {
             return "A";
@@ -71,25 +74,25 @@ class JavaComplexLogic {
         int avg = proc.processData(arr);
         // Values above 50: 60, 80, 100 -> sum=240, count=3, avg=80
         if (avg != 80) {
-            throw new RuntimeException("FAIL: processData expected 80, got " + avg);
+            throw new AssertionError("FAIL: processData expected 80, got " + avg);
         }
 
         // Test 2: processData with no values above threshold
         int[] arr2 = {10, 20, 30, 40};
         int avg2 = proc.processData(arr2);
         if (avg2 != 0) {
-            throw new RuntimeException("FAIL: processData empty match expected 0, got " + avg2);
+            throw new AssertionError("FAIL: processData empty match expected 0, got " + avg2);
         }
 
         // Test 3: getCategory
         String catA = proc.getCategory(95);
         if (!catA.equals("A")) {
-            throw new RuntimeException("FAIL: getCategory(95) expected A, got " + catA);
+            throw new AssertionError("FAIL: getCategory(95) expected A, got " + catA);
         }
 
         String catF = proc.getCategory(55);
         if (!catF.equals("F")) {
-            throw new RuntimeException("FAIL: getCategory(55) expected F, got " + catF);
+            throw new AssertionError("FAIL: getCategory(55) expected F, got " + catF);
         }
 
         System.out.println("PASS: complex logic in default methods works correctly");

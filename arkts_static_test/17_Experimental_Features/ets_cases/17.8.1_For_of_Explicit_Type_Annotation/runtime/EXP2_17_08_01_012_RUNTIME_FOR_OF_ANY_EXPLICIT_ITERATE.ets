@@ -26,7 +26,7 @@ function main(): void {
     count = count + 1
   }
   if (count != 4) {
-    throw new Error("assertion failed: expected 4 iterations but got " + count)
+    throw new Error('assertion failed: expected 4 iterations but got ' + count)
   }
   // Verify the first element is an int
   let first: Any = arr[0]

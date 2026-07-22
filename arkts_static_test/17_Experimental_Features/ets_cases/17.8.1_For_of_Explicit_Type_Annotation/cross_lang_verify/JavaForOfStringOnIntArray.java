@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -18,13 +18,8 @@
  * Java does NOT allow this. Compiler error: incompatible types.
  *
  * This file is intentionally invalid and should not compile.
+ * @since 2025
  */
 public class JavaForOfStringOnIntArray {
-    // UNCOMMENT to see compiler error:
-    // public static void main(String[] args) {
-    //     int[] arr = {1, 2, 3};
-    //     for (String s : arr) {  // error: incompatible types: int cannot be converted to String
-    //         System.out.println(s);
-    //     }
-    // }
+
 }

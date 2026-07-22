@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -17,140 +17,144 @@
  * Tests: instanceof operator, type testing, branching
  * Java 21
  */
-class Animal { String name = "animal"; }
-class Dog extends Animal { void bark() { System.out.println("woof"); } }
-class Cat extends Animal { void meow() { System.out.println("meow"); } }
-class Fruit { String name = "fruit"; }
-class Apple extends Fruit { String color = "red"; }
-class Banana extends Fruit { String color = "yellow"; }
+class Animal { String name = "animal";}
+class Dog extends Animal {
+    void bark() {
+        System.out.println("woof");
+    }
+}
+class Cat extends Animal {
+    void meow() {
+        System.out.println("meow");
+    }
+}
+class Fruit { String name = "fruit";}
+class Apple extends Fruit { String color = "red";}
+class Banana extends Fruit { String color = "yellow";}
 
 public class JavaPatternMatching {
     static String identify(Fruit f) {
-        if (f instanceof Apple) { return "apple"; }
-        else if (f instanceof Banana) { return "banana"; }
-        else { return "unknown"; }
+        if (f instanceof Apple) {
+            return "apple";
+        } else if (f instanceof Banana) {
+            return "banana";
+        } else {
+            return "unknown";
+        }
     }
 
     public static void main(String[] args) {
         int passCount = 0;
         int failCount = 0;
 
-        // Test 1: instanceof String
-        {
-            Object obj = "hello";
-            if (obj instanceof String) {
-                System.out.println("PASS: test1 instanceof String");
-                passCount++;
-            } else {
-                System.out.println("FAIL: test1 instanceof String");
-                failCount++;
-            }
-            if (obj instanceof Number) {
-                System.out.println("FAIL: test1 should not be Number");
-                failCount++;
-            } else {
-                System.out.println("PASS: test1 not instanceof Number");
-                passCount++;
-            }
-        }
+        if (test1()) { passCount++; } else { failCount++; }
+        if (test2()) { passCount++; } else { failCount++; }
+        if (test3()) { passCount++; } else { failCount++; }
+        if (test4()) { passCount++; } else { failCount++; }
+        if (test5()) { passCount++; } else { failCount++; }
+        if (test6()) { passCount++; } else { failCount++; }
 
-        // Test 2: instanceof class hierarchy (like ArkTS 021)
-        {
-            Animal v = new Dog();
-            if (v instanceof Animal) {
-                System.out.println("PASS: test2 Dog instanceof Animal");
-                passCount++;
-            } else {
-                System.out.println("FAIL: test2 Dog instanceof Animal");
-                failCount++;
-            }
-            if (v instanceof Dog) {
-                System.out.println("PASS: test2 Dog instanceof Dog");
-                passCount++;
-            } else {
-                System.out.println("FAIL: test2 Dog instanceof Dog");
-                failCount++;
-            }
-            if (v instanceof Cat) {
-                System.out.println("FAIL: test2 Dog should not be Cat");
-                failCount++;
-            } else {
-                System.out.println("PASS: test2 Dog not instanceof Cat");
-                passCount++;
-            }
-            Animal v2 = new Animal();
-            if (v2 instanceof Dog) {
-                System.out.println("FAIL: test2 Animal should not be Dog");
-                failCount++;
-            } else {
-                System.out.println("PASS: test2 Animal not instanceof Dog");
-                passCount++;
-            }
-        }
-
-        // Test 3: instanceof branch dispatch (like ArkTS 022)
-        {
-            Apple a = new Apple();
-            Banana b = new Banana();
-            Fruit u = new Fruit();
-            if (!identify(a).equals("apple")) {
-                System.out.println("FAIL: test3 Apple not identified, got: " + identify(a));
-                failCount++;
-            } else { System.out.println("PASS: test3 Apple identified"); passCount++; }
-            if (!identify(b).equals("banana")) {
-                System.out.println("FAIL: test3 Banana not identified, got: " + identify(b));
-                failCount++;
-            } else { System.out.println("PASS: test3 Banana identified"); passCount++; }
-            if (!identify(u).equals("unknown")) {
-                System.out.println("FAIL: test3 unknown not identified");
-                failCount++;
-            } else { System.out.println("PASS: test3 unknown identified"); passCount++; }
-        }
-
-        // Test 4: instanceof null (like ArkTS 023)
-        {
-            Object nullObj = null;
-            if (nullObj instanceof String) {
-                System.out.println("FAIL: test4 null instanceof String should be false");
-                failCount++;
-            } else {
-                System.out.println("PASS: test4 null not instanceof String");
-                passCount++;
-            }
-            Object strObj = "world";
-            if (strObj instanceof String) {
-                System.out.println("PASS: test4 'world' instanceof String");
-                passCount++;
-            } else {
-                System.out.println("FAIL: test4 'world' should be instanceof String");
-                failCount++;
-            }
-        }
-
-        // Test 5: instanceof with incompatible types (COMPILE ERROR in Java)
-        // In Java, this would fail compilation: error: incompatible types
-        // Object val = 42;
-        // if (val instanceof String && val instanceof int) {} // javac ERROR
-        // This is DIFFERENT from ArkTS which only warns (W1001506)
-        System.out.println("INFO: test5 Java rejects instanceof int at compile time");
-        System.out.println("      (different from ArkTS which only warns W1001506)");
-        passCount++; // Java correctly rejects this
-
-        // Test 6: Java 16+ pattern matching (beyond ArkTS capability)
-        {
-            Object x = "pattern";
-            if (x instanceof String s) {
-                // Java 16+: binds s directly - ArkTS cannot do this
-                if (s.length() > 0) {
-                    System.out.println("PASS: test6 Java pattern matching with binding");
-                    passCount++;
-                }
-            }
-        }
-
-        System.out.println("\n=== SUMMARY: " + passCount + " passed, " + failCount + " failed ===");
+        System.out.println();
+        System.out.println("=== SUMMARY: " + passCount + " passed, " + failCount + " failed ===");
         if (failCount > 0) {
             System.exit(1);
         }
+    }
+
+    static boolean test1() {
+        Object obj = "hello";
+        if (!(obj instanceof String)) {
+            System.out.println("FAIL: test1 instanceof String");
+            return false;
+        }
+        System.out.println("PASS: test1 instanceof String");
+        if (obj instanceof Number) {
+            System.out.println("FAIL: test1 should not be Number");
+            return false;
+        }
+        System.out.println("PASS: test1 not instanceof Number");
+        return true;
+    }
+
+    static boolean test2() {
+        Animal v = new Dog();
+        if (!(v instanceof Animal)) {
+            System.out.println("FAIL: test2 Dog instanceof Animal");
+            return false;
+        }
+        System.out.println("PASS: test2 Dog instanceof Animal");
+        if (!(v instanceof Dog)) {
+            System.out.println("FAIL: test2 Dog instanceof Dog");
+            return false;
+        }
+        System.out.println("PASS: test2 Dog instanceof Dog");
+        if (v instanceof Cat) {
+            System.out.println("FAIL: test2 Dog should not be Cat");
+            return false;
+        }
+        System.out.println("PASS: test2 Dog not instanceof Cat");
+        Animal v2 = new Animal();
+        if (v2 instanceof Dog) {
+            System.out.println("FAIL: test2 Animal should not be Dog");
+            return false;
+        }
+        System.out.println("PASS: test2 Animal not instanceof Dog");
+        return true;
+    }
+
+    static boolean test3() {
+        Apple a = new Apple();
+        Banana b = new Banana();
+        Fruit u = new Fruit();
+        if (!identify(a).equals("apple")) {
+            System.out.println("FAIL: test3 Apple not identified, got: " + identify(a));
+            return false;
+        }
+        System.out.println("PASS: test3 Apple identified");
+        if (!identify(b).equals("banana")) {
+            System.out.println("FAIL: test3 Banana not identified, got: " + identify(b));
+            return false;
+        }
+        System.out.println("PASS: test3 Banana identified");
+        if (!identify(u).equals("unknown")) {
+            System.out.println("FAIL: test3 unknown not identified");
+            return false;
+        }
+        System.out.println("PASS: test3 unknown identified");
+        return true;
+    }
+
+    static boolean test4() {
+        Object nullObj = null;
+        if (nullObj instanceof String) {
+            System.out.println("FAIL: test4 null instanceof String should be false");
+            return false;
+        }
+        System.out.println("PASS: test4 null not instanceof String");
+        Object strObj = "world";
+        if (!(strObj instanceof String)) {
+            System.out.println("FAIL: test4 'world' should be instanceof String");
+            return false;
+        }
+        System.out.println("PASS: test4 'world' instanceof String");
+        return true;
+    }
+
+    static boolean test5() {
+        System.out.println("INFO: test5 Java rejects instanceof int at compile time");
+        System.out.println("      (different from ArkTS which only warns W1001506)");
+        return true;
+    }
+
+    static boolean test6() {
+        Object x = "pattern";
+        if (x instanceof String s) {
+            if (s.length() > 0) {
+                System.out.println("PASS: test6 Java pattern matching with binding");
+                return true;
+            }
+        }
+        System.out.println("FAIL: test6 pattern matching with binding");
+        return false;
     }
 }

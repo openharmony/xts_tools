@@ -23,4 +23,5 @@ class Worker { public status: string = 'idle' }
 function reportStatus(): string { return this.status }
 function testMissingThisParam(): void {
   let w: Worker = new Worker()
-  let result: string = reportStatus()}
+  let result: string = reportStatus()
+}

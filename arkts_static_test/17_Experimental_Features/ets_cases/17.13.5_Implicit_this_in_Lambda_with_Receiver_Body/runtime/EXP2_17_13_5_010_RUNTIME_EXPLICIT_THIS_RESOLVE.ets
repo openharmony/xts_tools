@@ -24,6 +24,6 @@ function main(): void {
   let compute = (this: Calculator): number => { return this.operand * this.operand + this.operand }
   let calc: Calculator = new Calculator(); calc.operand = 5
   let r: number = compute(calc)
-  if (r != 30) { throw new Error("assertion failed: expected 30, got " + r) }
+  if (r != 30) { throw new Error('assertion failed: expected 30, got ' + r) }
   console.log('verified')
 }

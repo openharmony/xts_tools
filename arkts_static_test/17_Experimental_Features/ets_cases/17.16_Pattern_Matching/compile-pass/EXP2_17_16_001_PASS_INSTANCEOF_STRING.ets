@@ -22,5 +22,5 @@
 function testInstanceofString(): void {
   let obj: Object = 'hello'
   let isStr: boolean = obj instanceof String
-  console.log("instanceof result: " + isStr)
+  console.log('instanceof result: ' + isStr)
 }

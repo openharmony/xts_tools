@@ -23,14 +23,14 @@ function main(): void {
   let arr: int[] = new int[1000] (0)
   // Verify array length
   if (arr.length != 1000) {
-    throw new Error("assertion failed: array length should be 1000, got " + arr.length)
+    throw new Error('assertion failed: array length should be 1000, got ' + arr.length)
   }
   // Verify first and last elements are initialized to 0
   if (arr[0] != 0) {
-    throw new Error("assertion failed: arr[0] should be 0, got " + arr[0])
+    throw new Error('assertion failed: arr[0] should be 0, got ' + arr[0])
   }
   if (arr[999] != 0) {
-    throw new Error("assertion failed: arr[999] should be 0, got " + arr[999])
+    throw new Error('assertion failed: arr[999] should be 0, got ' + arr[999])
   }
   console.log('verified')
 }

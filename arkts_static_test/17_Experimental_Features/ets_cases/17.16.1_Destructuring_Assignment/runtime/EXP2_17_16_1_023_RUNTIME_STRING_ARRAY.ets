@@ -28,5 +28,5 @@ function main(): void {
   if (third != 'gamma') {
     throw new Error("FAIL: third should be 'gamma', got: " + third)
   }
-  console.log("PASS: string array destructuring correct: first=" + first + ' third=' + third)
+  console.log('PASS: string array destructuring correct: first=' + first + ' third=' + third)
 }

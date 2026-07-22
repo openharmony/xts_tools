@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java: Verify that new C() calls constructor, not static method.
  * This is the natural Java behavior and matches ArkTS spec:
@@ -31,6 +31,7 @@ class NewVsStatic {
     }
 }
 
+/** Java: Verify new vs static distinction */
 public class JavaNewVsStatic {
     public static void main(String[] args) {
         // new always calls constructor

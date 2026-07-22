@@ -24,4 +24,5 @@
 class Data { public value: number = 0 }
 type DataOp = (this: Data, a: number, b: number) => number
 function testWrongParamCount(): void {
-  let op: DataOp = (this: Data): number => { return this.value }}
+  let op: DataOp = (this: Data): number => { return this.value }
+}

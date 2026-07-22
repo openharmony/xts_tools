@@ -25,8 +25,8 @@ class RuntimeFactory2 {
 
   constructor() {}
 
-  static $_instantiate(__factory: () => RuntimeFactory2, n: string, c: int): RuntimeFactory2 {
-    let result: RuntimeFactory2 = __factory()
+  static $_instantiate(factory: () => RuntimeFactory2, n: string, c: int): RuntimeFactory2 {
+    let result: RuntimeFactory2 = factory()
     result.name = n
     result.count = c
     return result
@@ -39,7 +39,7 @@ function main(): void {
     throw new Error("assertion failed: name should be 'hello', got: " + obj1.name)
   }
   if (obj1.count != 42) {
-    throw new Error("assertion failed: count should be 42, got: " + obj1.count.toString())
+    throw new Error('assertion failed: count should be 42, got: ' + obj1.count.toString())
   }
 
   let factory: () => RuntimeFactory2 = (): RuntimeFactory2 => new RuntimeFactory2()
@@ -48,7 +48,7 @@ function main(): void {
     throw new Error("assertion failed: explicit name should be 'world', got: " + obj2.name)
   }
   if (obj2.count != 100) {
-    throw new Error("assertion failed: explicit count should be 100, got: " + obj2.count.toString())
+    throw new Error('assertion failed: explicit count should be 100, got: ' + obj2.count.toString())
   }
 
   console.log('EXP2_17_07_02_012: verified')

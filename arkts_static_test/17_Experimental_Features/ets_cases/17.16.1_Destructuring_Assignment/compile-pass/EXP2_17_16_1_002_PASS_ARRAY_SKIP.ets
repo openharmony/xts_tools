@@ -22,5 +22,5 @@
 function testArraySkip(): void {
   let arr: int[] = [10, 20, 30]
   let [first, , third] = arr
-  console.log("first=" + first + ' third=' + third)
+  console.log('first=' + first + ' third=' + third)
 }

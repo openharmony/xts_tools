@@ -22,4 +22,5 @@
 class Person { public name: string = 'person' }
 function greet(this: Person): string { return 'Hello ' + this.name }
 function testWrongReceiverOrdinary(): void {
-  let result: string = greet('not a person')}
+  let result: string = greet('not a person')
+}

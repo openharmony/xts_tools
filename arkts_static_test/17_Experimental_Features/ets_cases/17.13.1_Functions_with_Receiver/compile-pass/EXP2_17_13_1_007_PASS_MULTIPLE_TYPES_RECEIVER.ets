@@ -19,8 +19,8 @@
  * @design 为不同类型定义不同的接收者函数，各自独立工作
  * @note 正向用例：验证该特性编译通过的正确用法
  */
-class Point2D { public x: number = 0; y: number = 0 }
-class Point3D { public x: number = 0; y: number = 0; z: number = 0 }
+class Point2D { public x: number = 0; public y: number = 0 }
+class Point3D { public x: number = 0; public y: number = 0; public z: number = 0 }
 function magnitude2D(this: Point2D): number { return this.x * this.x + this.y * this.y }
 function magnitude3D(this: Point3D): number { return this.x * this.x + this.y * this.y + this.z * this.z }
 function testMultipleTypes(): void {

@@ -26,7 +26,7 @@ function main(): void {
     sumFor = sumFor + i
   }
   if (sumFor != 45) {
-    throw new Error("for loop sum assertion failed: expected 45, got " + sumFor)
+    throw new Error('for loop sum assertion failed: expected 45, got ' + sumFor)
   }
 
   // Test while loop: count to 5
@@ -35,7 +35,7 @@ function main(): void {
     countWhile = countWhile + 1
   }
   if (countWhile != 5) {
-    throw new Error("while loop assertion failed: expected 5, got " + countWhile)
+    throw new Error('while loop assertion failed: expected 5, got ' + countWhile)
   }
 
   // Test do-while: executes at least once
@@ -45,7 +45,7 @@ function main(): void {
     doCount = doCount + 1
   } while (condition)
   if (doCount != 1) {
-    throw new Error("do-while assertion failed: expected 1, got " + doCount)
+    throw new Error('do-while assertion failed: expected 1, got ' + doCount)
   }
 
   // Test break in while
@@ -57,7 +57,7 @@ function main(): void {
     }
   }
   if (breakCount != 3) {
-    throw new Error("break assertion failed: expected 3, got " + breakCount)
+    throw new Error('break assertion failed: expected 3, got ' + breakCount)
   }
 
   // Test continue in for: sum of odd numbers 0-9
@@ -70,7 +70,7 @@ function main(): void {
   }
   // 1+3+5+7+9 = 25
   if (oddSum != 25) {
-    throw new Error("continue assertion failed: expected 25, got " + oddSum)
+    throw new Error('continue assertion failed: expected 25, got ' + oddSum)
   }
 
   console.log('verified')

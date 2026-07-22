@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,6 +15,7 @@
 /**
  * Java equivalent of ArkTS for-of with explicit type annotation (§17.8.1)
  * Case: Object explicit type on int[] -- compile and run (autoboxing, PASS)
+ * @since 2025
  */
 public class JavaForOfObjectOnIntArray {
     public static void main(String[] args) {
@@ -26,7 +27,7 @@ public class JavaForOfObjectOnIntArray {
             }
         }
         if (sum != 3) {
-            throw new RuntimeException("assertion failed: expected 3 Integer instances but got " + sum);
+            throw new AssertionError("assertion failed: expected 3 Integer instances but got " + sum);
         }
         System.out.println("verified");
     }

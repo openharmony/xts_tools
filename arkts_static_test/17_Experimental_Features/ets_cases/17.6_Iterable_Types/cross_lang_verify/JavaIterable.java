@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,6 +15,7 @@
 /**
  * Java equivalent of ArkTS 17.6 Iterable Types - Custom Iterable Pattern
  * Corresponds to: EXP2_17_06_001, EXP2_17_06_002, EXP2_17_06_015
+ * @since 2025
  */
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -51,8 +52,9 @@ class Range implements Iterable<Integer> {
 
         @Override
         public Integer next() {
-            if (!hasNext())
+            if (!hasNext()) {
                 throw new NoSuchElementException();
+            }
             return current++;
         }
     }
@@ -143,8 +145,9 @@ class Wrapper<E> implements Iterable<E> {
 
         @Override
         public E next() {
-            if (!hasNext())
+            if (!hasNext()) {
                 throw new NoSuchElementException();
+            }
             emitted = true;
             return value;
         }

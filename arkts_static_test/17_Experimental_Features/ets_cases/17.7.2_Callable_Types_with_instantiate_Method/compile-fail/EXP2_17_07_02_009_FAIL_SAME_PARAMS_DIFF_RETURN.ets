@@ -22,11 +22,11 @@
 class MyFailFactory3 {
   constructor() {}
 
-  static $_instantiate(__factory: () => MyFailFactory3): MyFailFactory3 {
-    return __factory()
+  static $_instantiate(factory: () => MyFailFactory3): MyFailFactory3 {
+    return factory()
   }
 
-  static $_instantiate(__factory: () => MyFailFactory3): int {
+  static $_instantiate(factory: () => MyFailFactory3): int {
     return 0
   }
 }

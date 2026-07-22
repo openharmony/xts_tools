@@ -30,10 +30,10 @@ function main(): void {
   }
   let acc: Account = new Account()
   let r1: number = deposit(acc, 100)
-  if (r1 != 100) { throw new Error("assertion failed: expected 100, got " + r1) }
+  if (r1 != 100) { throw new Error('assertion failed: expected 100, got ' + r1) }
   let r2: number = deposit(acc, 50)
-  if (r2 != 150) { throw new Error("assertion failed: expected 150, got " + r2) }
+  if (r2 != 150) { throw new Error('assertion failed: expected 150, got ' + r2) }
   let r3: number = withdraw(acc, 30)
-  if (r3 != 120) { throw new Error("assertion failed: expected 120, got " + r3) }
+  if (r3 != 120) { throw new Error('assertion failed: expected 120, got ' + r3) }
   console.log('verified')
 }

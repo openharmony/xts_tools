@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,6 +15,7 @@
 /**
  * Java equivalent of EXP2_17_08_013_RUNTIME_LOOP_EXECUTION
  * Tests: for/while/do-while loops, break, continue
+ * @since 2025
  */
 public class JavaLoopExecution {
     public static void main(String[] args) {
@@ -44,14 +45,14 @@ public class JavaLoopExecution {
         int breakCount = 0;
         while (true) {
             breakCount++;
-            if (breakCount >= 3) break;
+            if (breakCount >= 3) { break; }
         }
         assert breakCount == 3 : "break assertion failed: " + breakCount;
 
         // Test continue in for: sum of odd numbers 0-9
         int oddSum = 0;
         for (int j = 0; j < 10; j++) {
-            if (j % 2 == 0) continue;
+            if (j % 2 == 0) { continue; }
             oddSum += j;
         }
         assert oddSum == 25 : "continue assertion failed: " + oddSum;

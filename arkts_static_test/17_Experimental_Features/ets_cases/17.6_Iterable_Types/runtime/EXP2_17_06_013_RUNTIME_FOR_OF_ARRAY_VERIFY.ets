@@ -52,10 +52,10 @@ function main(): void {
     count = count + 1
   }
   if (sum != 60) {
-    throw new Error("array for-of sum failed: " + sum)
+    throw new Error('array for-of sum failed: ' + sum)
   }
   if (count != 3) {
-    throw new Error("array for-of count failed: " + count)
+    throw new Error('array for-of count failed: ' + count)
   }
 
   let emptyArr: int[] = []
@@ -64,7 +64,7 @@ function main(): void {
     emptyCount = emptyCount + 1
   }
   if (emptyCount != 0) {
-    throw new Error("empty array for-of failed: " + emptyCount)
+    throw new Error('empty array for-of failed: ' + emptyCount)
   }
 
   console.log('verified')

@@ -25,10 +25,10 @@ function main(): void {
   let t1: Tracker = new Tracker(); t1.id = 100
   let t2: Tracker = new Tracker(); t2.id = 200
   let r1: number = t1.identify()
-  if (r1 != 100) { throw new Error("assertion failed: expected 100, got " + r1) }
+  if (r1 != 100) { throw new Error('assertion failed: expected 100, got ' + r1) }
   let r2: number = t2.identify()
-  if (r2 != 200) { throw new Error("assertion failed: expected 200, got " + r2) }
+  if (r2 != 200) { throw new Error('assertion failed: expected 200, got ' + r2) }
   let r3: number = identify(t1)
-  if (r3 != 100) { throw new Error("assertion failed: expected 100, got " + r3) }
+  if (r3 != 100) { throw new Error('assertion failed: expected 100, got ' + r3) }
   console.log('verified')
 }

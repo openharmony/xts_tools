@@ -20,7 +20,7 @@
  * @note 正向用例：验证该特性编译通过的正确用法
  */
 interface Tagged { tag: string }
-class Item implements Tagged { tag: string = 'untagged'; id: number = 0 }
+class Item implements Tagged { public tag: string = 'untagged'; public id: number = 0 }
 type Tagger = (this: Tagged, newTag: string) => void
 function testAssignLambda(): void {
   let tagger: Tagger = (this: Tagged, newTag: string): void => { this.tag = newTag }

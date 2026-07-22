@@ -25,5 +25,5 @@ function testInstanceofMulti(): void {
   if (val instanceof String) { checks++ }
   if (val instanceof Number) { checks++ }
   if (val instanceof Object) { checks++ }
-  console.log("checks passed: " + checks)
+  console.log('checks passed: ' + checks)
 }

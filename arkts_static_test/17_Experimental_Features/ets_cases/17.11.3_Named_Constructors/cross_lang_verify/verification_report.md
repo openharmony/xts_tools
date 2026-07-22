@@ -204,6 +204,6 @@ Three spec inconsistencies were identified (documented in Section 6). The most c
 ## 8. Conclusion
 
 - **ArkTS** named constructors are a unique experimental feature with no direct Java or Swift equivalent.
-- **Java** and **Swift** both use static factory methods as the idiomatic pattern for multi-semantic construction, which is more verbose but has clearer call-site intent.
+- **Java** and **Swift** both use static factory methods as the idiomatic pattern for multi-semantic construction, which is more verbose but has clearer call-site purpose.
 - **ArkTS implementation** (es2panda) correctly handles constructor declarations, overload resolution, and runtime dispatch, but has 3 spec inconsistencies.
-- The **static factory method pattern** in Java and Swift achieves equivalent functionality with explicit names (`Foo.fromInt(42)` vs ArkTS `new Foo(42)`), making the construction intent clearer to readers.
+- The **static factory method pattern** in Java and Swift achieves equivalent functionality with explicit names (`Foo.fromInt(42)` vs ArkTS `new Foo(42)`), making the construction purpose clearer to readers.

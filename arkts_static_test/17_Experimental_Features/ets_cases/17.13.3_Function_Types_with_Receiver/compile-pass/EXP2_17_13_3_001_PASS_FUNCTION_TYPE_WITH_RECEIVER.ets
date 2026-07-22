@@ -19,7 +19,7 @@
  * @design 带接收者的函数类型声明：使用 (this: Type, params?) => ReturnType 语法声明类型别名
  * @note 正向用例：验证该特性编译通过的正确用法。函数类型变量通过普通调用语法使用。
  */
-class Product { public price: number = 0; quantity: number = 0 }
+class Product { public price: number = 0; public quantity: number = 0 }
 type PriceCalculator = (this: Product) => number
 function testFunctionTypeDecl(): void {
   let calc: PriceCalculator = (this: Product): number => { return this.price * this.quantity }

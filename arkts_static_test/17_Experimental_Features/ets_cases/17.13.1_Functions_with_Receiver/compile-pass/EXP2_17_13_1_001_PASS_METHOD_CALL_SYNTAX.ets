@@ -25,4 +25,5 @@ function testMethodCallSyntax(): void {
   let n: MyNumber = new MyNumber()
   n.value = 10
   let result: number = n.multiplyBy2()
-  console.log('compiled successfully')}
+  console.log('compiled successfully')
+}

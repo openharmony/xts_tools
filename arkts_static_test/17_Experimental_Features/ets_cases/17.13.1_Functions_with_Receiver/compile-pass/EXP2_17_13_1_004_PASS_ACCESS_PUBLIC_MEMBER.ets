@@ -19,7 +19,7 @@
  * @design 接收者函数通过 this 访问公有成员变量
  * @note 正向用例：验证该特性编译通过的正确用法
  */
-class DataObject { public name: string = 'unnamed'; age: number = 0 }
+class DataObject { public name: string = 'unnamed'; public age: number = 0 }
 function describe(this: DataObject): string { return this.name + ' is ' + this.age + ' years old' }
 function testAccessPublicMember(): void {
   let obj: DataObject = new DataObject()

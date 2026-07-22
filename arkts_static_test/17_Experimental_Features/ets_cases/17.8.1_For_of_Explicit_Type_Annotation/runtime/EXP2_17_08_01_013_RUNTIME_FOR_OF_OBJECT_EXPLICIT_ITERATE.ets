@@ -29,7 +29,7 @@ function main(): void {
     }
   }
   if (sum != 3) {
-    throw new Error("assertion failed: expected 3 Object instances but got " + sum)
+    throw new Error('assertion failed: expected 3 Object instances but got ' + sum)
   }
   console.log('verified')
 }

@@ -28,7 +28,7 @@ class CalcCallable {
 function main(): void {
   let r: int = CalcCallable()
   if (r != 100) {
-    throw new Error("assertion failed: expected 100, got " + r)
+    throw new Error('assertion failed: expected 100, got ' + r)
   }
   console.log('PASS: invoke returned correct value')
 }

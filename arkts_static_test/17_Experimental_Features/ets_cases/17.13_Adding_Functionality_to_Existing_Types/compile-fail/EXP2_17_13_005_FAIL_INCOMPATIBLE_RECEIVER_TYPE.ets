@@ -20,8 +20,9 @@
  * @note 反向用例：验证该场景应产生编译时错误
  */
 class Dog { public name: string = 'dog' }
-class Cat { name: string = 'cat' }
+class Cat { public name: string = 'cat' }
 function bark(this: Dog): string { return this.name + ' barks' }
 function testIncompatibleReceiver(): void {
   let c: Cat = new Cat()
-  let result: string = c.bark()}
+  let result: string = c.bark()
+}

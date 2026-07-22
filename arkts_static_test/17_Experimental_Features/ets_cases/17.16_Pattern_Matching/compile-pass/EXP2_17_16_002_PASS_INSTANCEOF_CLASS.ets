@@ -34,5 +34,5 @@ function testInstanceofClass(): void {
   let isDog: boolean = a instanceof Dog
   let isCat: boolean = a instanceof Cat
   let isAnimal: boolean = a instanceof Animal
-  console.log("isDog=" + isDog + ' isCat=' + isCat + ' isAnimal=' + isAnimal)
+  console.log('isDog=' + isDog + ' isCat=' + isCat + ' isAnimal=' + isAnimal)
 }

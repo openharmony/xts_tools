@@ -22,8 +22,8 @@
 class MyFactory1 {
   constructor() {}
 
-  static $_instantiate(__factory: () => MyFactory1): MyFactory1 {
-    return __factory()
+  static $_instantiate(factory: () => MyFactory1): MyFactory1 {
+    return factory()
   }
 }
 

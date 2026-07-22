@@ -28,8 +28,8 @@ function sumData(this: Buffer): number {
 function main(): void {
   let buf: Buffer = new Buffer(); buf.data = [10, 20, 30, 40]
   let r1: number = buf.sumData()
-  if (r1 != 100) { throw new Error("assertion failed: expected 100, got " + r1) }
+  if (r1 != 100) { throw new Error('assertion failed: expected 100, got ' + r1) }
   let r2: number = sumData(buf)
-  if (r2 != 100) { throw new Error("assertion failed: expected 100, got " + r2) }
+  if (r2 != 100) { throw new Error('assertion failed: expected 100, got ' + r2) }
   console.log('verified')
 }

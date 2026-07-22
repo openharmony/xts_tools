@@ -40,20 +40,20 @@ class ConfiguredFactory {
 function main(): void {
   let obj0: ConfiguredFactory = ConfiguredFactory()
   if (obj0.name != 'default') {
-    throw new Error("assertion failed: default name, got " + obj0.name)
+    throw new Error('assertion failed: default name, got ' + obj0.name)
   }
   if (obj0.value != 0) {
-    throw new Error("assertion failed: default value, got " + obj0.value)
+    throw new Error('assertion failed: default value, got ' + obj0.value)
   }
 
   let obj1: ConfiguredFactory = ConfiguredFactory('test')
   if (obj1.name != 'test') {
-    throw new Error("assertion failed: name should be test, got " + obj1.name)
+    throw new Error('assertion failed: name should be test, got ' + obj1.name)
   }
 
   let obj2: ConfiguredFactory = ConfiguredFactory(99)
   if (obj2.value != 99) {
-    throw new Error("assertion failed: value should be 99, got " + obj2.value)
+    throw new Error('assertion failed: value should be 99, got ' + obj2.value)
   }
 
   console.log('PASS: instantiate with params correct')

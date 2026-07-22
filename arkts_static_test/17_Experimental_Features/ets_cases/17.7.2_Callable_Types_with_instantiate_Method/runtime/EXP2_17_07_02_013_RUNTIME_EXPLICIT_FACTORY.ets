@@ -26,8 +26,8 @@ class RuntimeFactory3 {
     this.source = src
   }
 
-  static $_instantiate(__factory: () => RuntimeFactory3): RuntimeFactory3 {
-    let result: RuntimeFactory3 = __factory()
+  static $_instantiate(factory: () => RuntimeFactory3): RuntimeFactory3 {
+    let result: RuntimeFactory3 = factory()
     return result
   }
 }

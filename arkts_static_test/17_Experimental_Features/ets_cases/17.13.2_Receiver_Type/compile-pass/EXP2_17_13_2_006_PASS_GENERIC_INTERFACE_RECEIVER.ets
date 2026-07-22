@@ -20,7 +20,7 @@
  * @note 正向用例：验证该特性编译通过的正确用法
  */
 interface IContainer<T> { element: T | undefined }
-class StringContainer implements IContainer<string> { element: string | undefined }
+class StringContainer implements IContainer<string> { public element: string | undefined }
 function hasElement<T>(this: IContainer<T>): boolean { return this.element != undefined }
 function testGenericInterfaceReceiver(): void {
   let sc: StringContainer = new StringContainer()

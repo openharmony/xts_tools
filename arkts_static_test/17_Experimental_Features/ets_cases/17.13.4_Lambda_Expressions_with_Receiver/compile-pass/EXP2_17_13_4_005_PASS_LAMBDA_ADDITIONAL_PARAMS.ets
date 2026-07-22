@@ -26,4 +26,5 @@ function testLambdaAdditionalParams(): void {
   addItem(lst, 1)
   addItem(lst, 2)
   addItem(lst, 3)
-  console.log('compiled successfully')}
+  console.log('compiled successfully')
+}

@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java cross-language verification for ArkTS 17.11.1 Final Classes
  *
@@ -42,6 +42,7 @@ final class FinalClassJava {
 
 // Test 2: Final class implementing interface (identical to ArkTS)
 interface CalculatorJava {
+    /** Compute value */
     int compute(int val);
 }
 
@@ -65,14 +66,7 @@ class NonFinalBaseJava {
     }
 }
 
-// This would be a COMPILE ERROR in Java (same as ArkTS):
-// class NonFinalDerivedJava extends NonFinalBaseJava {
-//     public int compute() { return 200; }  // ERROR: cannot override final method
-// }
-
-// Test 4: This would be a COMPILE ERROR in Java (same as ArkTS):
-// class AttemptExtend extends FinalClassJava {}  // ERROR: cannot inherit from final class
-
+/** Java cross-language verification for ArkTS 17.11.1 Final Classes */
 public class FinalClassesTest {
     public static void main(String[] args) {
         // Test 1: Final class instantiation

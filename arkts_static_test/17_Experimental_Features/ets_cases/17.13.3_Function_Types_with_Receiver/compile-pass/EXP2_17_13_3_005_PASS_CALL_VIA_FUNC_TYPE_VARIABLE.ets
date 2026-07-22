@@ -19,7 +19,7 @@
  * @design 通过函数类型变量以普通调用语法使用接收者函数
  * @note 正向用例：验证该特性编译通过的正确用法
  */
-class Entry { public key: string = ''; val: string = '' }
+class Entry { public key: string = ''; public val: string = '' }
 type EntryFormatter = (this: Entry) => string
 function testCallViaVariable(): void {
   let formatter: EntryFormatter = (this: Entry): string => { return this.key + '=' + this.val }

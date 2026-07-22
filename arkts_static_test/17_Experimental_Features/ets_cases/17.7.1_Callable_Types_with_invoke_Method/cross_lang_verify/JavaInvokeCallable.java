@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java equivalent of ArkTS §17.7.1 Callable Types with $_invoke Method.
  *
@@ -28,6 +28,7 @@
 
 // Case 1: Static method (the normal Java pattern — no callable type)
 class SimpleInvoke {
+    /** Static invoke */
     public static void invoke() {
         System.out.println("SimpleInvoke called");
     }
@@ -36,9 +37,11 @@ class SimpleInvoke {
 
 // Case 2: Static method with params — Java's equivalent of $_invoke with params
 class Calculator {
+    /** Static invoke with int params */
     public static int invoke(int a, int b) {
         return a + b;
     }
+    /** Static invoke with String params */
     public static String invoke(String a, String b) {
         return a + b;
     }
@@ -49,12 +52,19 @@ class Calculator {
 // This is NOT the same as calling the class name, but it's the closest Java has
 @FunctionalInterface
 interface IntBinaryOp {
+    /** Apply binary operation */
     int apply(int a, int b);
 }
 
 class MathOp {
-    public static int add(int a, int b) { return a + b; }
-    public static int multiply(int a, int b) { return a * b; }
+    /** Static add */
+    public static int add(int a, int b) {
+        return a + b;
+    }
+    /** Static multiply */
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
     // Method reference: IntBinaryOp op = MathOp::add; op.apply(2,3) => 5
     // But MathOp(2,3) is still NOT valid Java
 }
@@ -69,9 +79,12 @@ class MathOp {
 // Actually Java also forbids static methods from using class type parameters
 class GenericInvokeJava<T> {
     // public static T invoke(T value) { return value; } // COMPILE ERROR: non-static type T
-    public static int invoke(int x) { return x + 1; } // OK, no type param used
+    public static int invoke(int x) {
+        return x + 1;
+    } // OK, no type param used
 }
 
+/** Java equivalent of ArkTS §17.7.1 Callable Types */
 public class JavaInvokeCallable {
     public static void main(String[] args) {
         boolean allPassed = true;
@@ -106,11 +119,6 @@ public class JavaInvokeCallable {
             System.out.println("FAIL: GenericInvokeJava.invoke(100) = " + r4 + " expected 101");
             allPassed = false;
         }
-
-        // KEY: The following would NOT compile in Java:
-        // SimpleInvoke();       // ❌ Cannot call class name as function
-        // Calculator(2, 3);     // ❌ Cannot call class name as function
-        // This is the fundamental difference from ArkTS
 
         if (allPassed) {
             System.out.println("All Java assertions passed");

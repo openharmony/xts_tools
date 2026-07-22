@@ -23,10 +23,10 @@ function main(): void {
   let tup: [int, string] = [42, 'world']
   let [num, str] = tup
   if (num != 42) {
-    throw new Error("FAIL: num should be 42, got: " + num)
+    throw new Error('FAIL: num should be 42, got: ' + num)
   }
   if (str != 'world') {
     throw new Error("FAIL: str should be 'world', got: " + str)
   }
-  console.log("PASS: tuple destructuring correct: num=" + num + ' str=' + str)
+  console.log('PASS: tuple destructuring correct: num=' + num + ' str=' + str)
 }

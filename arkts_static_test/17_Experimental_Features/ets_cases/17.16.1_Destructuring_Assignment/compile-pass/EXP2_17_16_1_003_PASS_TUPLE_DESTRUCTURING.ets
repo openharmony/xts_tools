@@ -22,5 +22,5 @@
 function testTupleDestructuring(): void {
   let tup: [int, string] = [42, 'hello']
   let [num, str] = tup
-  console.log("num=" + num + ' str=' + str)
+  console.log('num=' + num + ' str=' + str)
 }

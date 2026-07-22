@@ -24,9 +24,9 @@ let gFactory5Value: string = ''
 class MyFactory5Wrapper {
   constructor() {}
 
-  static $_instantiate(__factory: () => MyFactory5Wrapper, label: string): void {
+  static $_instantiate(factory: () => MyFactory5Wrapper, label: string): void {
     gFactory5Value = label
-    let unused: MyFactory5Wrapper = __factory()
+    let unused: MyFactory5Wrapper = factory()
   }
 }
 

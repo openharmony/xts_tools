@@ -25,10 +25,10 @@ function decrement(this: Counter): number { this.count = this.count - 1; return 
 function main(): void {
   let c: Counter = new Counter()
   let r1: number = c.increment()
-  if (r1 != 1) { throw new Error("assertion failed: expected 1, got " + r1) }
+  if (r1 != 1) { throw new Error('assertion failed: expected 1, got ' + r1) }
   let r2: number = c.increment()
-  if (r2 != 2) { throw new Error("assertion failed: expected 2, got " + r2) }
+  if (r2 != 2) { throw new Error('assertion failed: expected 2, got ' + r2) }
   let r3: number = decrement(c)
-  if (r3 != 1) { throw new Error("assertion failed: expected 1, got " + r3) }
+  if (r3 != 1) { throw new Error('assertion failed: expected 1, got ' + r3) }
   console.log('verified')
 }

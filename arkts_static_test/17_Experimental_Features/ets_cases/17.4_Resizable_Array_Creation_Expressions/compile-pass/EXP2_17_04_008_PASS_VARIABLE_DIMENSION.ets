@@ -20,7 +20,7 @@
  * @note 正向用例：验证维度可以使用 int 变量（编译时无法确定具体值但类型正确）
  */
 function testVariableDimensionCreation(): void {
-  let array_size: int = 5
-  let arr = new number[array_size](0)
+  let arraySize: int = 5
+  let arr = new number[arraySize](0)
   console.log(arr.length)
 }

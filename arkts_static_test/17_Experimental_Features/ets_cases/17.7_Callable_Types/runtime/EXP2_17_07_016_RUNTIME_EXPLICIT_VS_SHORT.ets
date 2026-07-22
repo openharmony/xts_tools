@@ -30,10 +30,10 @@ function main(): void {
   let rExplicit: int = ExplicitShortCallable.$_invoke(6, 7)
 
   if (rShort != 42) {
-    throw new Error("assertion failed: short form expected 42, got " + rShort)
+    throw new Error('assertion failed: short form expected 42, got ' + rShort)
   }
   if (rExplicit != 42) {
-    throw new Error("assertion failed: explicit form expected 42, got " + rExplicit)
+    throw new Error('assertion failed: explicit form expected 42, got ' + rExplicit)
   }
   if (rShort != rExplicit) {
     throw new Error('assertion failed: short and explicit should match')

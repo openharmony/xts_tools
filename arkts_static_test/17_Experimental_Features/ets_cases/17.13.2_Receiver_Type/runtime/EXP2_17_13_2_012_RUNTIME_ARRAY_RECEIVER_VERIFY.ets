@@ -27,8 +27,8 @@ function computeSum(this: number[]): number {
 function main(): void {
   let numbers: number[] = [10, 20, 30, 40]
   let s: number = numbers.computeSum()
-  if (s != 100) { throw new Error("assertion failed: expected 100, got " + s) }
+  if (s != 100) { throw new Error('assertion failed: expected 100, got ' + s) }
   let s2: number = computeSum(numbers)
-  if (s2 != 100) { throw new Error("assertion failed: expected 100, got " + s2) }
+  if (s2 != 100) { throw new Error('assertion failed: expected 100, got ' + s2) }
   console.log('verified')
 }

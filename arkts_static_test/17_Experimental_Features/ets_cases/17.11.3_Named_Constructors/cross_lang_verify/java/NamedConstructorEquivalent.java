@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java cross-verification: Named constructor equivalent patterns
  * Java does NOT have named constructors. Common equivalent patterns:
@@ -31,12 +31,12 @@ class Temperature {
         this.value = celsius;
     }
 
-    // Static factory method - equivalent to named constructor "Celsius"
+    /** Static factory -- equivalent to ArkTS "constructor Celsius(n: double)" */
     public static Temperature celsius(double n) {
         return new Temperature(n);
     }
 
-    // Static factory method - equivalent to named constructor "Fahrenheit"
+    /** Static factory -- equivalent to ArkTS "constructor Fahrenheit(n: double)" */
     public static Temperature fahrenheit(double n) {
         return new Temperature((n - 32) / 1.8);
     }
@@ -55,20 +55,25 @@ class Point {
         this.y = y;
     }
 
-    // Equivalent to named constructor "FromXY"
+    /** Static factory -- equivalent to ArkTS "constructor FromXY(x, y)" */
     public static Point fromXY(int x, int y) {
         return new Point(x, y);
     }
 
-    // Equivalent to named constructor "Origin"
+    /** Static factory -- equivalent to ArkTS "constructor Origin()" */
     public static Point origin() {
         return new Point(0, 0);
     }
 
-    public int getX() { return x; }
-    public int getY() { return y; }
+    public int getX() {
+        return x;
+    }
+    public int getY() {
+        return y;
+    }
 }
 
+/** Java cross-verification: Named constructor equivalent patterns */
 public class NamedConstructorEquivalent {
     public static void main(String[] args) {
         // Equivalent to: new Temperature.Celsius(100)

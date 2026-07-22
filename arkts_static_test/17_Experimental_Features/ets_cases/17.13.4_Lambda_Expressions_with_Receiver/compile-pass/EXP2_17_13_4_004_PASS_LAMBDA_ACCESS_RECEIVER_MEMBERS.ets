@@ -19,7 +19,7 @@
  * @design lambda内通过this访问接收者的公有成员
  * @note 正向用例：验证该特性编译通过的正确用法
  */
-class Person { public firstName: string = ''; lastName: string = '' }
+class Person { public firstName: string = ''; public lastName: string = '' }
 function testLambdaAccessMembers(): void {
   let fullName = (this: Person): string => { return this.firstName + ' ' + this.lastName }
   let p: Person = new Person(); p.firstName = 'John'; p.lastName = 'Doe'

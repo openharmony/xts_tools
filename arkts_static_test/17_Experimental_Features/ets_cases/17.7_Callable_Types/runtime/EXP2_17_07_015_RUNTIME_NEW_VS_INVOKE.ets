@@ -34,12 +34,12 @@ class NewVsInvoke {
 function main(): void {
   let objNew: NewVsInvoke = new NewVsInvoke()
   if (objNew.tag != 'constructed') {
-    throw new Error("assertion failed: new should use constructor, got " + objNew.tag)
+    throw new Error('assertion failed: new should use constructor, got ' + objNew.tag)
   }
 
   let objCall: NewVsInvoke = NewVsInvoke()
   if (objCall.tag != 'invoked') {
-    throw new Error("assertion failed: C() should use $_invoke, got " + objCall.tag)
+    throw new Error('assertion failed: C() should use $_invoke, got ' + objCall.tag)
   }
 
   console.log('PASS: new vs invoke behavior correct')

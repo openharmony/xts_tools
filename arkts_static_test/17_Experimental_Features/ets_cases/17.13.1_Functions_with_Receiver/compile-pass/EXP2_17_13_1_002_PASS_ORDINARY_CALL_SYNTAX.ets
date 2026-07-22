@@ -26,4 +26,5 @@ function testOrdinaryCallSyntax(): void {
   let vh: ValueHolder = new ValueHolder()
   setData(vh, 'updated')
   let result: string = getData(vh)
-  console.log('compiled successfully')}
+  console.log('compiled successfully')
+}

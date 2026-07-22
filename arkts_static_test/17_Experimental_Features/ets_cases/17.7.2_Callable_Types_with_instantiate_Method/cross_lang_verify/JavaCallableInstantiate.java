@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,6 +15,7 @@
 /**
  * Java equivalent of ArkTS §17.7.2 Callable Types with $_instantiate
  * Java has NO callable type syntax. Closest equivalent: static factory methods + Supplier<T>
+ * @since 2025
  */
 import java.util.function.Supplier;
 

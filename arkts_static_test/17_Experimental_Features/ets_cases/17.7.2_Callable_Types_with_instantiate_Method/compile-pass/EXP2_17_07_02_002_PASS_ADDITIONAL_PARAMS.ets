@@ -26,8 +26,8 @@ class MyFactory2 {
     this.data = d
   }
 
-  static $_instantiate(__factory: () => MyFactory2, arg: string): MyFactory2 {
-    let result: MyFactory2 = __factory()
+  static $_instantiate(factory: () => MyFactory2, arg: string): MyFactory2 {
+    let result: MyFactory2 = factory()
     result.data = arg
     return result
   }

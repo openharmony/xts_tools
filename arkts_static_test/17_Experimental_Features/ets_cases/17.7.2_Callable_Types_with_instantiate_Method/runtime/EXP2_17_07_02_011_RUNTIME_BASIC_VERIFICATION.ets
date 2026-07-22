@@ -26,8 +26,8 @@ class RuntimeFactory1 {
     this.tag = t
   }
 
-  static $_instantiate(__factory: () => RuntimeFactory1): RuntimeFactory1 {
-    let result: RuntimeFactory1 = __factory()
+  static $_instantiate(factory: () => RuntimeFactory1): RuntimeFactory1 {
+    let result: RuntimeFactory1 = factory()
     result.tag = 'instantiated'
     return result
   }

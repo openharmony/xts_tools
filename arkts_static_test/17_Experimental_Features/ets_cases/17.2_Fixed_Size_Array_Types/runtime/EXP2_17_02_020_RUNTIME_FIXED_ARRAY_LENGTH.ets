@@ -22,17 +22,17 @@
 function main(): void {
     let arr1: Fixedint[] = [10, 20, 30];
     if (arr1.length != 3) {
-        throw new Error("assertion failed: expected length 3, got " + arr1.length);
+        throw new Error('assertion failed: expected length 3, got ' + arr1.length);
     }
 
     let arr2: Fixedstring[] = ["a", "b", "c", "d", "e"];
     if (arr2.length != 5) {
-        throw new Error("assertion failed: expected length 5, got " + arr2.length);
+        throw new Error('assertion failed: expected length 5, got ' + arr2.length);
     }
 
     let arr3: Fixeddouble[] = [1.5, 2.5];
     if (arr3.length != 2) {
-        throw new Error("assertion failed: expected length 2, got " + arr3.length);
+        throw new Error('assertion failed: expected length 2, got ' + arr3.length);
     }
 
     console.log('verified');

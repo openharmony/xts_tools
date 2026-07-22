@@ -23,4 +23,5 @@ class Host { public value: number = 0 }
 type ReceiverFunc = (this: Host) => number
 function testNonReceiverAssign(): void {
   let plainFunc: (x: number) => number = (x: number): number => { return x * 2 }
-  let rf: ReceiverFunc = plainFunc}
+  let rf: ReceiverFunc = plainFunc
+}

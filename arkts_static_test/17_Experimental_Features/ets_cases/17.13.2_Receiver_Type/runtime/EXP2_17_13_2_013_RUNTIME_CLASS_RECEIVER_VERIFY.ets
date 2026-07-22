@@ -29,10 +29,10 @@ function withdraw(this: BankAccount, amount: number): number {
 function main(): void {
   let acc: BankAccount = new BankAccount()
   let r1: number = acc.deposit(500)
-  if (r1 != 500) { throw new Error("assertion failed: expected 500, got " + r1) }
+  if (r1 != 500) { throw new Error('assertion failed: expected 500, got ' + r1) }
   let r2: number = acc.withdraw(200)
-  if (r2 != 300) { throw new Error("assertion failed: expected 300, got " + r2) }
+  if (r2 != 300) { throw new Error('assertion failed: expected 300, got ' + r2) }
   let r3: number = deposit(acc, 100)
-  if (r3 != 400) { throw new Error("assertion failed: expected 400, got " + r3) }
+  if (r3 != 400) { throw new Error('assertion failed: expected 400, got ' + r3) }
   console.log('verified')
 }

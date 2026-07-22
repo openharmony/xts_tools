@@ -37,19 +37,19 @@ function main(): void {
   // Test read via index
   let v0: string = store[0]
   if (v0 != 'alpha') {
-    throw new Error("assertion failed: store[0] expected alpha, got " + v0)
+    throw new Error('assertion failed: store[0] expected alpha, got ' + v0)
   }
 
   let v2: string = store[2]
   if (v2 != 'gamma') {
-    throw new Error("assertion failed: store[2] expected gamma, got " + v2)
+    throw new Error('assertion failed: store[2] expected gamma, got ' + v2)
   }
 
   // Test write via index
   store[1] = 'delta'
   let v1: string = store[1]
   if (v1 != 'delta') {
-    throw new Error("assertion failed: store[1] after set expected delta, got " + v1)
+    throw new Error('assertion failed: store[1] after set expected delta, got ' + v1)
   }
 
   // Test overwrite

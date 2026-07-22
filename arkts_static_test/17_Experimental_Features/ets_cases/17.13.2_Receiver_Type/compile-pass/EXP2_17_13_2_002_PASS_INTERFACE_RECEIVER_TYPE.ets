@@ -20,7 +20,7 @@
  * @note 正向用例：验证该特性编译通过的正确用法
  */
 interface Printable { content: string }
-class Document implements Printable { content: string = 'empty' }
+class Document implements Printable { public content: string = 'empty' }
 function printContent(this: Printable): string { return 'Content: ' + this.content }
 function testInterfaceReceiverType(): void {
   let doc: Document = new Document(); doc.content = 'important text'

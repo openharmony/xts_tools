@@ -20,7 +20,8 @@
  * @note 反向用例：验证该场景应产生编译时错误
  */
 class Dog { public breed: string = '' }
-class Cat { breed: string = '' }
+class Cat { public breed: string = '' }
 type DogFunc = (this: Dog) => string
 function testIncompatibleReceiverAssign(): void {
-  let df: DogFunc = (this: Cat): string => { return this.breed }}
+  let df: DogFunc = (this: Cat): string => { return this.breed }
+}

@@ -25,6 +25,6 @@ function main(): void {
   let reader: MetricReader = (this: Metric): number => { return this.value * 3 + 1 }
   let m: Metric = new Metric(); m.value = 10
   let r: number = reader(m)
-  if (r != 31) { throw new Error("assertion failed: expected 31, got " + r) }
+  if (r != 31) { throw new Error('assertion failed: expected 31, got ' + r) }
   console.log('verified')
 }

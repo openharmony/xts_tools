@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2021-2026 Huawei Device Co., Ltd.
+ * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,6 +15,7 @@
 /**
  * Java equivalent of EXP2_17_08_015_RUNTIME_SWITCH_FLOW
  * Tests: switch int/string, default, if-else, return
+ * @since 2025
  */
 public class JavaSwitchFlow {
     public static void main(String[] args) {

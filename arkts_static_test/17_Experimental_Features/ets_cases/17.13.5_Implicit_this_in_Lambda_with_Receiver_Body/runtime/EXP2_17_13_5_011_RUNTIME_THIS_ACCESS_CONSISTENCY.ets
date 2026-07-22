@@ -19,7 +19,7 @@
  * @design 运行时验证：顶层接收者函数的方法调用和普通调用产生相同结果
  * @note 运行时用例：实际执行验证this访问一致性
  */
-class Container { public capacity: number = 0; used: number = 0 }
+class Container { public capacity: number = 0; public used: number = 0 }
 function remaining(this: Container): number { return this.capacity - this.used }
 function main(): void {
   let c: Container = new Container(); c.capacity = 100; c.used = 30

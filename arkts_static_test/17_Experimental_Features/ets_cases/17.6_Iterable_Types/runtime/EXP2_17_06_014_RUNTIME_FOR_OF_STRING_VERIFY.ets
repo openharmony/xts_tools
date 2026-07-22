@@ -52,10 +52,10 @@ function main(): void {
     count = count + 1
   }
   if (result != 'ArkTS') {
-    throw new Error("string for-of concat failed: " + result)
+    throw new Error('string for-of concat failed: ' + result)
   }
   if (count != 5) {
-    throw new Error("string for-of count failed: " + count)
+    throw new Error('string for-of count failed: ' + count)
   }
 
   let emptyStr: string = ''
@@ -64,7 +64,7 @@ function main(): void {
     emptyCount = emptyCount + 1
   }
   if (emptyCount != 0) {
-    throw new Error("empty string for-of failed: " + emptyCount)
+    throw new Error('empty string for-of failed: ' + emptyCount)
   }
 
   console.log('verified')
