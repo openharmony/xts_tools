@@ -19187,6 +19187,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/commonlibrary/memory_utils/libpurgeablemem",
+            "bundle_name": [
+                "memory_utils"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/distributeddatamgr/pasteboard",
             "bundle_name": [
                 "pasteboard"
