@@ -1530,6 +1530,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.hiTraceMeter.d.ts",
+            "bundle_name": [
+                "hitrace"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.wifiManagerExt.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -7256,6 +7263,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.hiTraceChain.d.ts",
+            "bundle_name": [
+                "hitrace"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.ability.errorCode.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -8083,6 +8097,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.bytrace.d.ts",
+            "bundle_name": [
+                "hitrace"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bytrace.d.ts",
             "bundle_name": [
                 "hitrace"
             ],
@@ -19440,6 +19461,13 @@
         },
         {
             "path": "interface/sdk_c/hiviewdfx/hitrace",
+            "bundle_name": [
+                "hitrace"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/hiviewdfx/hitrace",
             "bundle_name": [
                 "hitrace"
             ],
