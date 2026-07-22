@@ -1,0 +1,67 @@
+﻿{
+    "chapter":  "18",
+    "topic":  "Annotations",
+    "directory":  "18_Annotations",
+    "prefix":  "ANN_",
+    "total_cases":  150,
+    "case_roots":  [
+                       "ets_cases"
+                   ],
+    "categories":  [
+                       "compile-pass",
+                       "compile-fail",
+                       "runtime"
+                   ],
+    "stats":  {
+                  "18.5_Standard_Annotations":  {
+                                                    "runtime":  1,
+                                                    "compile-pass":  3,
+                                                    "compile-fail":  3
+                                                },
+                  "18.5.1_Retention_Annotation":  {
+                                                      "runtime":  1,
+                                                      "compile-pass":  5,
+                                                      "compile-fail":  3
+                                                  },
+                  "18.4_Ambient_Annotations":  {
+                                                   "runtime":  1,
+                                                   "compile-pass":  4,
+                                                   "compile-fail":  4
+                                               },
+                  "18.3_Exporting_and_Importing_Annotations":  {
+                                                                   "runtime":  1,
+                                                                   "compile-pass":  3,
+                                                                   "compile-fail":  6
+                                                               },
+                  "18.6_Runtime_Access_to_Annotations":  {
+                                                             "runtime":  1,
+                                                             "compile-pass":  4,
+                                                             "compile-fail":  2
+                                                         },
+                  "18.2.1_Using_Single_Field_Annotations":  {
+                                                                "runtime":  1,
+                                                                "compile-pass":  8,
+                                                                "compile-fail":  2
+                                                            },
+                  "18.2_Using_Annotations":  {
+                                                 "runtime":  1,
+                                                 "compile-pass":  24,
+                                                 "compile-fail":  8
+                                             },
+                  "18.1_Declaring_Annotations":  {
+                                                     "runtime":  1,
+                                                     "compile-pass":  5,
+                                                     "compile-fail":  12
+                                                 },
+                  "18.5.2_Target_Annotation":  {
+                                                   "runtime":  1,
+                                                   "compile-pass":  16,
+                                                   "compile-fail":  3
+                                               },
+                  "18.1.1_Types_of_Annotation_Fields":  {
+                                                            "runtime":  1,
+                                                            "compile-pass":  17,
+                                                            "compile-fail":  8
+                                                        }
+              }
+}
