@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java equivalent of EXP2_17_08_015_RUNTIME_SWITCH_FLOW
  * Tests: switch int/string, default, if-else, return

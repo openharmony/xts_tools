@@ -19,7 +19,7 @@
  * @design 验证导入的注解带字段值使用
  * @note 正向用例：导入注解 + @Anno({field: value})
  */
-import { Named } from "../modules/ANN_18_03_MOD_Named"
+import { Named } from '../modules/ANN_18_03_MOD_Named'
 
 @Named({name: 'test'})
 class C {}

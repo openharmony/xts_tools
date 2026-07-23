@@ -23,7 +23,7 @@ function main(): void {
     let arr: Fixedint[] = [100, 200, 300, 400, 500];
 
     if (arr[0] != 100) {
-        throw new Error("assertion failed: arr[0] expected 100, got " + arr[0]);
+        throw new Error('assertion failed: arr[0] expected 100, got ' + arr[0]);
     }
     if (arr[1] != 200) {
     throw new Error('assertion failed: arr[1] expected 200, got ' + arr[1]);

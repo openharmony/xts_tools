@@ -19,7 +19,7 @@
  * @design 验证导出注解 + 限定名导入使用
  * @note 正向用例：import * as ns + @ns.MyAnno
  */
-import * as ns from "../modules/ANN_18_03_MOD_MyAnno"
+import * as ns from '../modules/ANN_18_03_MOD_MyAnno'
 
 @ns.MyAnno
 class C {}

@@ -32,6 +32,9 @@ class Temperature {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor Celsius(n: double)"
+     *
+     * @param n temperature in Celsius
+     * @return Temperature
      */
     public static Temperature celsius(double n) {
         return new Temperature(n);

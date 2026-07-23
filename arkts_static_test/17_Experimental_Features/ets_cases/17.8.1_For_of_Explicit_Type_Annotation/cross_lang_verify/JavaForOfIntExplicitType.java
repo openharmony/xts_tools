@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java equivalent of ArkTS for-of with explicit type annotation (§17.8.1)
  * Case: int explicit type on int[] -- compile and run (PASS)

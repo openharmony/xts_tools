@@ -83,6 +83,9 @@ class GenericStore<T> {
 
     /**
      * Get element by index
+     *
+     * @param index position
+     * @return T element
      */
     public T get(int index) {
         return items.get(index);
@@ -120,6 +123,8 @@ class GenericStore<T> {
 /**
  * Java equivalent for ArkTS 17.5 Indexable Types
  * Demonstrates Java patterns for indexable type concepts
+ *
+ * @since 2025
  */
 public class EXP2_17_05_Indexable_Types {
     public static void main(String[] args) {

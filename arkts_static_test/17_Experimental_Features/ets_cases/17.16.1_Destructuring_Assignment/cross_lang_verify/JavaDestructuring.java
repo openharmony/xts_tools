@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java equivalent for ArkTS 17.16.1 Destructuring Assignment tests
  * Java does NOT have native array/tuple destructuring syntax.
@@ -20,6 +20,9 @@
  *
  * @since 2025
  */
+import java.util.ArrayList;
+import java.util.List;
+
 public class JavaDestructuring {
     public static void main(String[] args) {
         int passCount = 0;
@@ -82,13 +85,15 @@ public class JavaDestructuring {
     }
 
     static boolean test3() {
-        Object[] tup = {42, "hello"};
-        if (!(tup[0] instanceof Integer) || !(tup[1] instanceof String)) {
+        List<Object> tup = new ArrayList<>();
+        tup.add(42);
+        tup.add("hello");
+        if (!(tup.get(0) instanceof Integer) || !(tup.get(1) instanceof String)) {
             System.out.println("FAIL: test3 type mismatch");
             return false;
         }
-        int num = (Integer) tup[0];
-        String str = (String) tup[1];
+        int num = (Integer) tup.get(0);
+        String str = (String) tup.get(1);
         if (num == 42 && str.equals("hello")) {
             System.out.println("PASS: test3 tuple equivalent num=" + num + " str=" + str);
             return true;

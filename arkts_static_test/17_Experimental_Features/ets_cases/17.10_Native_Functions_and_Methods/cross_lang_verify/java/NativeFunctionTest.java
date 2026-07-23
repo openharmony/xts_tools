@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java equivalent of ArkTS 17.10.1 Native Functions tests.
  * Java uses the `native` keyword (JNI - Java Native Interface) with similar semantics.
@@ -24,15 +24,12 @@ public class NativeFunctionTest {
     native String getName();
     native void setValue(int v);
 
+    // Load native library (for JNI) — in real JNI, you'd load: System.loadLibrary("nativeLib")
+    // For test purposes, we skip loading since we only verify declaration
+    // Java rejects native+body (matches ArkTS ESE0083) and native+abstract (matches ESE0047)
+
     // PASS: static native method
     static native double sqrt(double x);
-
-    // Load native library (for JNI)
-    static {
-        // In real JNI, you'd load: System.loadLibrary("nativeLib");
-        // For test purposes, we skip loading since we only verify declaration
-        // Java rejects native+body (matches ArkTS ESE0083) and native+abstract (matches ESE0047)
-    }
 
     public int regularMethod() {
         return 42;

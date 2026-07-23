@@ -126,6 +126,9 @@ class MultiNative {
 class GenericOps {
     /**
      * Generic native transform
+     *
+     * @param input generic input
+     * @return T transformed value
      */
     public native <T> T transform(T input);
 }

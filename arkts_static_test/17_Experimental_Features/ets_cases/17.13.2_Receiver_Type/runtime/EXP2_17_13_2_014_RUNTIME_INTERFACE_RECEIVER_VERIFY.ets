@@ -23,7 +23,8 @@ interface Measurable {
   width: number;
   height: number
 }
-class Rectangle implements Measurable { public width: number = 0; public height: number = 0
+class Rectangle implements Measurable {
+  public width: number = 0; public height: number = 0
   constructor(w: number, h: number) { this.width = w; this.height = h }
 }
 function area(this: Measurable): number { return this.width * this.height }

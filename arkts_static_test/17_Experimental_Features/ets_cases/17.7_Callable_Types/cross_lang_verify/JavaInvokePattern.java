@@ -18,6 +18,7 @@
  * Closest equivalent: static method + functional interface.
  * Demonstrates various Java patterns that mimic ArkTS callable types.
  * Corresponds to: EXP2_17_07_001
+ *
  * @since 2025
  */
 import java.util.function.Supplier;

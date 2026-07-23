@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java verification for ArkTS 17.1.2 char Operations
  * Java char supports all comparison and arithmetic operations (it's an integral type)

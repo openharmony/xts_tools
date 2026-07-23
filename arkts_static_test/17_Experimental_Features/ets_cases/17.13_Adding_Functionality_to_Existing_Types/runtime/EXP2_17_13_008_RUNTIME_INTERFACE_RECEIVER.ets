@@ -22,7 +22,8 @@
 interface Shape {
   area: number
 }
-class Square implements Shape { public area: number = 0; public side: number = 0
+class Square implements Shape {
+  public area: number = 0; public side: number = 0
   constructor(side: number) { this.side = side; this.area = side * side }
 }
 function getArea(this: Shape): number { return this.area }

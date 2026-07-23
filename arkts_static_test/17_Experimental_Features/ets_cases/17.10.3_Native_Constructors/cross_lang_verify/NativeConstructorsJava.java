@@ -11,7 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java cross-language verification for ArkTS 17.10.3 Native Constructors
  *
@@ -41,7 +41,7 @@ class NativeCtorJava {
 
     public NativeCtorJava(int val) {
         this.val = val;
-        this.factor = val * 2.0;
+        this.factor = (double)val * 2.0;
     }
 
     public int getValue() {
@@ -95,7 +95,7 @@ class MixedCtorJava {
     // Parameterized constructor
     public MixedCtorJava(int val) {
         this.xVal = val;
-        this.yVal = val * 2.0;
+        this.yVal = (double)val * 2.0;
     }
 
     public int getValue() {

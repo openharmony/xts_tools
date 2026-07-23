@@ -11,11 +11,12 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 /**
  * Java equivalent of ArkTS 17.6 Iterable Types - Custom Iterable Pattern
  * Demonstrates Java Iterator/Iterable patterns as equivalent to ArkTS iterable types.
  * Corresponds to: EXP2_17_06_001, EXP2_17_06_002, EXP2_17_06_015
+ *
  * @since 2025
  */
 import java.util.Iterator;
@@ -92,7 +93,7 @@ class Range implements Iterable<Integer> {
         assert arrSum == 60 : "array for-each sum failed: " + arrSum;
         assert arrCount == 3 : "array for-each count failed: " + arrCount;
 
-        // Test 4: String (NOT iterable in Java — chars() is a stream)
+        // Test 4: String (NOT iterable in Java â€?chars() is a stream)
         // Java String does NOT implement Iterable<Character>
         // Must use charAt() or chars() stream
         String s = "ArkTS";

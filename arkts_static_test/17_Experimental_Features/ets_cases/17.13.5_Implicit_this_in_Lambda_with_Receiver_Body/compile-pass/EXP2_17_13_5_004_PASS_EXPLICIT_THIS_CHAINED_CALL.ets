@@ -19,8 +19,9 @@
  * @design 通过显式this调用接收者的方法并访问成员
  * @note 正向用例：验证该特性编译通过的正确用法
  */
-class User { public firstName: string = ''; public lastName: string = ''
-  getFullName(): string {
+class User {
+    public firstName: string = ''; public lastName: string = ''
+    getFullName(): string {
     return this.firstName + ' ' + this.lastName
   }
 }

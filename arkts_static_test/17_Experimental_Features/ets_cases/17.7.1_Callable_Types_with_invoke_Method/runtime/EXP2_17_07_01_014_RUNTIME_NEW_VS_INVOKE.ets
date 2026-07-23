@@ -43,7 +43,7 @@ function main(): void {
         throw new Error('FAIL: new Counter() should set constructed=true')
     }
     if (c1.invokedCount != 0) {
-        throw new Error("FAIL: new Counter() should leave invokedCount=0, got " + c1.invokedCount)
+        throw new Error('FAIL: new Counter() should leave invokedCount=0, got ' + c1.invokedCount)
     }
 
     // Test 2: ClassName() should call $_invoke
