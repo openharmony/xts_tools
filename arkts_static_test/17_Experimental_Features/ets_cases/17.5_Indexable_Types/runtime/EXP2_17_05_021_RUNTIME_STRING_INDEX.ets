@@ -47,7 +47,7 @@ function main(): void {
   }
 
   let ver: string = map['version']
-  if (ver != "1.0") {
+  if (ver != '1.0') {
     throw new Error('assertion failed: map[\'version\'] expected 1.0, got ' + ver)
   }
 
