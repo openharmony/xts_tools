@@ -39,11 +39,19 @@ class NativeCalculator {
 
     /**
      * Equivalent to ArkTS native subtract(a: int, b: int): int
+     *
+     * @param a first operand
+     * @param b second operand
+     * @return int difference
      */
     public native int subtract(int a, int b);
 
     /**
      * Regular method to verify class works
+     *
+     * @param a first operand
+     * @param b second operand
+     * @return int sum
      */
     public int regularAdd(int a, int b) {
         return a + b;

@@ -72,6 +72,9 @@ class ValueHolder {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor FromString(s: string)"
+     *
+     * @param s string value
+     * @return ValueHolder
      */
     public static ValueHolder fromString(String s) {
         return new ValueHolder(s);
