@@ -41,7 +41,7 @@ class NativeCtorJava {
 
     public NativeCtorJava(int val) {
         this.val = val;
-        this.factor = (double)val * 2.0;
+        this.factor = (double) val * 2.0;
     }
 
     public int getValue() {
@@ -95,7 +95,7 @@ class MixedCtorJava {
     // Parameterized constructor
     public MixedCtorJava(int val) {
         this.xVal = val;
-        this.yVal = (double)val * 2.0;
+        this.yVal = (double) val * 2.0;
     }
 
     public int getValue() {

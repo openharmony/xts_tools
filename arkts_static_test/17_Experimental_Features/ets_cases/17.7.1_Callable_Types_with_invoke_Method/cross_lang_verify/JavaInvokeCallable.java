@@ -80,6 +80,10 @@ interface IntBinaryOp {
 class MathOp {
     /**
      * Static add
+     *
+     * @param a first operand
+     * @param b second operand
+     * @return int sum
      */
     public static int add(int a, int b) {
         return a + b;
@@ -87,6 +91,10 @@ class MathOp {
 
     /**
      * Static multiply
+     *
+     * @param a first operand
+     * @param b second operand
+     * @return int product
      */
     public static int multiply(int a, int b) {
         return a * b;

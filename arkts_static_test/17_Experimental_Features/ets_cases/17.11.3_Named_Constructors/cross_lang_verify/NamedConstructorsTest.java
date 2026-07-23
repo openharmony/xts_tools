@@ -246,6 +246,9 @@ class Converter {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor FromDouble(d: double)"
+     *
+     * @param d double value
+     * @return Converter
      */
     public static Converter fromDouble(double d) {
         return new Converter(d * 2);
@@ -253,6 +256,9 @@ class Converter {
 
     /**
      * Static factory -- equivalent to ArkTS "constructor FromString(s: string)"
+     *
+     * @param s string value
+     * @return Converter
      */
     public static Converter fromString(String s) {
         return new Converter(100);

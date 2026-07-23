@@ -71,7 +71,12 @@ class CallableEquivalent {
     }
 }
 
-/** Java equivalent of ArkTS $_invoke callable type pattern */
+/**
+ * Java equivalent of ArkTS $_invoke callable type pattern.
+ * Demonstrates static method patterns as alternatives to ArkTS callable types.
+ *
+ * @since 2025
+ */
 public class JavaInvokePattern {
     public static void main(String[] args) {
         // Test 1: Static invoke

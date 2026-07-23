@@ -106,6 +106,8 @@ class MultiNative {
 
     /**
      * Native read
+     *
+     * @return String data
      */
     public native String read();
 

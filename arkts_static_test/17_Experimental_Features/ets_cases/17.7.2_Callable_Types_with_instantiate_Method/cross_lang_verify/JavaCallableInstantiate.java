@@ -46,7 +46,10 @@ class JavaFactory1 {
 }
 
 /**
- * Java equivalent of ArkTS §17.7.2 Callable Types with $_instantiate
+ * Java equivalent of ArkTS §17.7.2 Callable Types with $_instantiate.
+ * Uses static factory methods as the closest equivalent pattern.
+ *
+ * @since 2025
  */
 public class JavaCallableInstantiate {
     public static void main(String[] args) {

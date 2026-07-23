@@ -23,6 +23,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Java equivalent for ArkTS 17.16.1 Destructuring Assignment tests.
+ * Java does NOT have native destructuring syntax - uses manual element access.
+ *
+ * @since 2025
+ */
 public class JavaDestructuring {
     public static void main(String[] args) {
         int passCount = 0;
