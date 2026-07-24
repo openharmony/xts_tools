@@ -15243,13 +15243,6 @@
             "build_targets": {}
         },
         {
-            "path": "interface/sdk-js/api/@ohos.distributedSoftBus.conversation.d.ts",
-            "bundle_name": [
-                "conversation"
-            ],
-            "build_targets": {}
-        },
-        {
             "path": "interface/sdk-js/api/@ohos.distributedsched.proxyChannelManager.d.ts",
             "bundle_name": [
                 "proxyChannelManager"
