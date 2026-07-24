@@ -108,7 +108,7 @@ export default function StackPerfTest(): void {
         s.push('a');
         stacks.push(s);
       }
-      let res: string = stacks[0].pop();
+      let res: string = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = stacks[i].pop();

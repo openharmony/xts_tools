@@ -31,7 +31,7 @@ import performance from './Performance.util';
 
 export default function BufferPerfTest(): void {
   describe('BufferPerfTest', (): void => {
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 500;
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 

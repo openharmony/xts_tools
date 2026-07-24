@@ -62,7 +62,7 @@ class Temperature implements util.ScopeComparable<Temperature> {
 
 export default function UtilPerfTest01(): void {
   describe('UtilPerfTest01', (): void => {
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 1000;
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 

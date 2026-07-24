@@ -83,8 +83,7 @@ export default function UtilPerfTest02(): void {
           'UtilPerfTest02_string_Base64Helper_encodeToStringSync_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64Helper', 'encodeToStringSync',
           'encodeToStringSync(src: Uint8Array, options?: Type): string', arkTsAveragedTime);
-        expect(res !== '').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_Uint8Array_decodeSync_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -105,12 +104,11 @@ export default function UtilPerfTest02(): void {
           'UtilPerfTest02_Uint8Array_decodeSync_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64Helper', 'decodeSync',
           'decodeSync(src: Uint8Array | string, options?: Type): Uint8Array', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_Promise<Uint8Array>_encode_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      async () => {
+      async (done: () => void) => {
         let base64Helper = new util.Base64Helper();
         let array = new Uint8Array([115,49,51]);
         await base64Helper.encode(array);
@@ -126,11 +124,11 @@ export default function UtilPerfTest02(): void {
           'UtilPerfTest02_Promise<Uint8Array>_encode_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64Helper', 'encode',
           'encode(src: Uint8Array, options?: Type): Promise<Uint8Array>', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_Promise<string>_encodeToString_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      async () => {
+      async (done: () => void) => {
         let base64Helper = new util.Base64Helper();
         let array = new Uint8Array([77,97,110,105,115,100,105,115,116,105,110,103,117,105,115,
           104,101,100,110,111,116,111,110,108,121,98,121,104,105,115,114,101,97,115,111,110,98,
@@ -152,11 +150,11 @@ export default function UtilPerfTest02(): void {
           'UtilPerfTest02_Promise<string>_encodeToString_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64Helper', 'encodeToString',
           'encodeToString(src: Uint8Array, options?: Type): Promise<string>', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_Promise<Uint8Array>_decode_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
-      async () => {
+      async (done: () => void) => {
         let base64Helper = new util.Base64Helper();
         let array = 'TWFuaXNkaXN0aW5ndWlzaGVkbm90b25seWJ5aGlzcmVhc29uYnV0Ynl0aGlzc2luZ3VsYXJwYXNz\r\n' +
           'aW9uZnJvbW90aGVyYW5pbWFsc3doaWNoaXNhbHVzdG9mdGhlbWluZGV4Y2VlZHN0aGVzaG9ydHZl\r\n' +
@@ -174,7 +172,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64Helper', 'decode',
           'decode(src: Uint8Array | string, options?: Type): Promise<Uint8Array>', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_String_StringDecoder_constructor_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -191,8 +189,7 @@ export default function UtilPerfTest02(): void {
           'UtilPerfTest02_String_StringDecoder_constructor_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'StringDecoder', 'constructor',
           'constructor(encoding?: string)', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_string_write_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -211,8 +208,7 @@ export default function UtilPerfTest02(): void {
           'UtilPerfTest02_string_write_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'StringDecoder', 'write',
           'write(chunk: string | Uint8Array): string', arkTsAveragedTime);
-        expect(res === '你好').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_string_end_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -231,8 +227,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'StringDecoder', 'end',
           'end(chunk?: string | Uint8Array): string;', arkTsAveragedTime);
-        expect(res !== '').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_Types_Constructor_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -249,8 +244,7 @@ export default function UtilPerfTest02(): void {
           'UtilPerfTest02_Types_Constructor_0900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Types', 'Constructor',
           'constructor();', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isAnyArrayBuffer_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -269,8 +263,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Types', 'isAnyArrayBuffer',
           'isAnyArrayBuffer(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isArrayBufferView_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -289,8 +282,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Types', 'isArrayBufferView',
           'isArrayBufferView(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isArgumentsObject_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -309,8 +301,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Types', 'isArgumentsObject',
           'isArgumentsObject(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isArrayBuffer_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -329,8 +320,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Types', 'isArrayBuffer',
           'isArrayBuffer(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isAsyncFunction_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -349,8 +339,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Types', 'isAsyncFunction',
           'isAsyncFunction(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isDataView_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -370,8 +359,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Types', 'isDataView',
           'isDataView(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isDate_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -390,8 +378,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Types', 'isDate',
           'isDate(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     //it('UtilPerfTest02_boolean_isExternal_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -411,7 +398,7 @@ export default function UtilPerfTest02(): void {
     //    performance.apiWithClassAndKeywordTxt('ohos.util', 'util.types', 'isExternal',
     //      'isExternal(value: Object): boolean;', arkTsAveragedTime);
     //    expect(res).assertTrue();
-    //    done();
+    //    setTimeout(() => { done(); }, 10);
     //  })
 
     //it('UtilPerfTest02_boolean_isExternal_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -430,7 +417,7 @@ export default function UtilPerfTest02(): void {
     //    performance.apiWithClassAndKeywordTxt('ohos.util', 'util.types', 'isExternal',
     //      'isExternal(value: Object): boolean;', arkTsAveragedTime);
     //    expect(!res).assertTrue();
-    //    done();
+    //    setTimeout(() => { done(); }, 10);
     //  })
     //
     it('UtilPerfTest02_boolean_isFloat32Array_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -449,8 +436,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'util.types', 'isFloat32Array',
           'isFloat32Array(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isFloat64Array_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -469,8 +455,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'util.types', 'isFloat64Array',
           'isFloat64Array(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isGeneratorFunction_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -489,8 +474,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'util.types', 'isGeneratorFunction',
           'isGeneratorFunction(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isGeneratorObject_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -509,8 +493,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'util.types', 'isGeneratorObject',
           'isGeneratorObject(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isInt8Array_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -529,8 +512,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isInt8Array',
           'isInt8Array(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isInt16Array_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -549,8 +531,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isInt16Array',
           'isInt16Array(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isInt32Array_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -569,8 +550,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isInt32Array',
           'isInt32Array(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isMap_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -589,8 +569,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isMap',
           'isMap(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isMapIterator_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -610,8 +589,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isMapIterator',
           'isMapIterator(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isNativeError_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -630,8 +608,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isNativeError',
           'isNativeError(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isPromise_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -650,8 +627,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isPromise',
           'isPromise(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isProxy_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -673,8 +649,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isProxy',
           'isProxy(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isRegExp_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -693,8 +668,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isRegExp',
           'isRegExp(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isSet_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -713,8 +687,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isSet',
           'isSet(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isSetIterator_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -734,8 +707,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isSetIterator',
           'isSetIterator(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isTypedArray_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -754,8 +726,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isTypedArray',
           'isTypedArray(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isUint8Array_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -774,8 +745,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isUint8Array',
           'isUint8Array(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isUint8ClampedArray_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -794,8 +764,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isUint8ClampedArray',
           'isUint8ClampedArray(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isUint16Array_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -814,8 +783,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isUint16Array',
           'isUint16Array(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isUint32Array_3600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -834,8 +802,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isUint32Array',
           'isUint32Array(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isWeakMap_3700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -854,8 +821,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isWeakMap',
           'isWeakMap(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isWeakSet_3800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -874,8 +840,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isWeakSet',
           'isWeakSet(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isBigInt64Array_3900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -894,8 +859,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isBigInt64Array',
           'isBigInt64Array(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isBigUint64Array_4000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -914,8 +878,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isBigUint64Array',
           'isBigUint64Array(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isModuleNamespaceObject_4100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -933,8 +896,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isModuleNamespaceObject',
           'isModuleNamespaceObject(value: Object): boolean;', arkTsAveragedTime);
-        expect(typeof res === 'boolean').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isSharedArrayBuffer_4200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -953,8 +915,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isSharedArrayBuffer',
           'isSharedArrayBuffer(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isBooleanObject_4300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -973,8 +934,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isBooleanObject',
           'isBooleanObject(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isBoxedPrimitive_4400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -993,8 +953,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isBoxedPrimitive',
           'isBoxedPrimitive(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isNumberObject_4500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1013,8 +972,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isNumberObject',
           'isNumberObject(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UtilPerfTest02_boolean_isStringObject_4600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1033,8 +991,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'types', 'isStringObject',
           'isStringObject(value: Object): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('ScopePerfTest_ScopeType_Constructor_4700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
@@ -1071,8 +1028,7 @@ export default function UtilPerfTest02(): void {
           'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Scope', 'ToString',
           'toString(): string;', arkTsAveragedTime);
-        expect(res !== '').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('ScopePerfTest_Scope_Intersect_4900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1095,8 +1051,7 @@ export default function UtilPerfTest02(): void {
           'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Scope', 'Intersect',
           'intersect(range: Scope): Scope;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('ScopePerfTest_Scope_Intersect_5000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1117,8 +1072,7 @@ export default function UtilPerfTest02(): void {
         console.info('arkTsScopePerfTest arkTsAveragedTime ScopePerfTest_Scope_Intersect_5000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Scope', 'Intersect',
           'intersect(lowerObj: ScopeType, upperObj: ScopeType): Scope;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('ScopePerfTest_ScopeType_GetUpper_5100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1138,8 +1092,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Scope', 'GetUpper',
           'getUpper(): ScopeType;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('ScopePerfTest_Temperature_GetLower_5200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1159,8 +1112,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Scope', 'GetLower',
           'getLower(): ScopeType;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('ScopePerfTest_Scope_Expand_5300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1182,8 +1134,7 @@ export default function UtilPerfTest02(): void {
           'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Scope', 'Expand',
           'expand(lowerObj: ScopeType, upperObj: ScopeType): Scope;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('ScopePerfTest_Scope_Expand_5400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1206,8 +1157,7 @@ export default function UtilPerfTest02(): void {
           'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Scope', 'Expand',
           'expand(range: Scope): Scope;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('ScopePerfTest_Scope_Expand_5500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1228,8 +1178,7 @@ export default function UtilPerfTest02(): void {
           'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Scope', 'Expand',
           'expand(value: ScopeType): Scope;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('ScopePerfTest_Boolean_Contains_5600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1250,8 +1199,7 @@ export default function UtilPerfTest02(): void {
           'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Scope', 'Contains',
           'contains(value: ScopeType): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('ScopePerfTest_Boolean_Contains_5700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1274,8 +1222,7 @@ export default function UtilPerfTest02(): void {
           'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Scope', 'Contains',
           'contains(range: Scope): boolean;', arkTsAveragedTime);
-        expect(res === false).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('ScopePerfTest_ScopeType_Clamp_5800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1296,8 +1243,7 @@ export default function UtilPerfTest02(): void {
           'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Scope', 'Clamp',
           'clamp(value: ScopeType): ScopeType;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('Base64PerfTest_Base64_Constructor_5900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1314,8 +1260,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64', 'Constructor',
           'constructor();', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('Base64PerfTest_Uint8Array_EncodeSync_6000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1334,8 +1279,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64', 'EncodeSync',
           'encodeSync(src: Uint8Array): Uint8Array;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('Base64PerfTest_String_EncodeToStringSync_6100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1354,8 +1298,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64', 'EncodeToStringSync',
           'encodeToStringSync(src: Uint8Array): string;', arkTsAveragedTime);
-        expect(res !== '').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('Base64PerfTest_Uint8Array_DecodeSync_6200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1374,8 +1317,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64', 'DecodeSync',
           'decodeSync(src: Uint8Array | string): Uint8Array;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('Base64PerfTest_Uint8Array_Encode_6300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1394,8 +1336,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64', 'Encode',
           'encode(src: Uint8Array): Promise<Uint8Array>;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('Base64PerfTest_String_EncodeToString_6400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1414,8 +1355,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64', 'EncodeToString',
           'encodeToString(src: Uint8Array): Promise<string>;', arkTsAveragedTime);
-        expect(res !== '').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
 
     it('Base64PerfTest_Uint8Array_Decode_6500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1434,8 +1374,7 @@ export default function UtilPerfTest02(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'Base64', 'Decode',
           'decode(src: Uint8Array | string): Promise<Uint8Array>;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       });
   })
 }

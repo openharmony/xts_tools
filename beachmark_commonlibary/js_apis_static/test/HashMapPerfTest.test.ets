@@ -31,7 +31,7 @@ import performance from './Performance.util';
 
 export default function HashMapPerfTest(): void {
   describe('HashMapPerfTest', (): void => {
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 5000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {

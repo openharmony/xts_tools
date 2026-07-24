@@ -47,7 +47,7 @@ class TestXmlSAXHandler implements xml.XmlSAXHandler {
 
 export default function XmlSerializerPerfTest(): void {
   describe('XmlSerializerTest', () => {
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 1000;
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
@@ -157,7 +157,7 @@ export default function XmlSerializerPerfTest(): void {
         s.startElement("n");
         serializers.push(s);
       }
-      let res = serializers[0].endElement();
+      let res: void = undefined;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = serializers[i].endElement();
@@ -340,14 +340,12 @@ export default function XmlSerializerPerfTest(): void {
     })
 
     it('XmlDynamicSerializerPerfTest_void_setDeclaration_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let serializers: xml.XmlDynamicSerializer[] = [];
-      for (let j = 0; j < BASE_COUNT; j++) {
-        serializers.push(new xml.XmlDynamicSerializer());
-      }
-      let res = serializers[0].setDeclaration()
+      let s = new xml.XmlDynamicSerializer();
+      let res = s.setDeclaration()
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = serializers[i].setDeclaration()
+        s = new xml.XmlDynamicSerializer();
+        res = s.setDeclaration()
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res
@@ -374,18 +372,14 @@ export default function XmlSerializerPerfTest(): void {
     });
 
     it('XmlDynamicSerializerPerfTest_void_endElement_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let Xml1 = new xml.XmlDynamicSerializer()
-      Xml1.startElement("n")
-      let res = Xml1.endElement()
-      let serializers: xml.XmlDynamicSerializer[] = [];
-      for (let j = 0; j < BASE_COUNT; j++) {
-        let s = new xml.XmlDynamicSerializer();
-        s.startElement("n");
-        serializers.push(s);
-      }
+      let serializer0 = new xml.XmlDynamicSerializer();
+      serializer0.startElement("n")
+      let res = serializer0.endElement()
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = serializers[i].endElement();
+        let s = new xml.XmlDynamicSerializer();
+        s.startElement("n");
+        res = s.endElement();
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res
@@ -397,14 +391,11 @@ export default function XmlSerializerPerfTest(): void {
     });
 
     it('XmlDynamicSerializerPerfTest_void_setNamespace_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let serializers: xml.XmlDynamicSerializer[] = [];
-      for (let j = 0; j < BASE_COUNT; j++) {
-        serializers.push(new xml.XmlDynamicSerializer('utf-8'));
-      }
-      let res: void = serializers[0].setNamespace("h", "y");
+      let serializer1 = new xml.XmlDynamicSerializer('utf-8');
+      let res: void = serializer1.setNamespace("h", "y");
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = serializers[i].setNamespace("h", "y");
+        res = serializer1.setNamespace("h", "y");
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;

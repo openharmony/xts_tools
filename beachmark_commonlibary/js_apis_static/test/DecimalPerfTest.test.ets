@@ -32,7 +32,7 @@ import performance from './Performance.util';
 export default function DecimalPerfTest(): void {
   describe('DecimalPerfTest', () => {
     // ms * 1000 = us, ms * 1000000 = ns
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 100;
     // url.URLParams.get --url.URLParams.has --util.getHash --util.Types.isMap --uri.uri.checkIsAbsolute --util.Types.isArrayBuffer
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;

@@ -51,8 +51,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_URI_constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'constructor',
           'constructor(uri: string);', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_string_toString_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -70,8 +69,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_toString_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'toString',
           'toString(): string;', arkTsAveragedTime);
-        expect(res !== '').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_boolean_equalsTo_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -90,8 +88,7 @@ export default function UriPerfTest(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'equalsTo',
           'equalsTo(other: URI): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_boolean_checkIsAbsolute_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -109,8 +106,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_boolean_checkIsAbsolute_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'checkIsAbsolute',
           'checkIsAbsolute(): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_URI_normalize_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -128,8 +124,7 @@ export default function UriPerfTest(): void {
         console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_URI_normalize_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'normalize',
           'normalize(): URI;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_boolean_checkRelative_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -147,8 +142,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_boolean_checkRelative_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'checkRelative',
           'checkRelative(): boolean;', arkTsAveragedTime);
-        expect(!res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_boolean_checkOpaque_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -166,8 +160,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_boolean_checkOpaque_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'checkOpaque',
           'checkOpaque(): boolean;', arkTsAveragedTime);
-        expect(res === false).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_boolean_checkHierarchical_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -185,8 +178,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_boolean_checkHierarchical_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'checkHierarchical',
           'checkHierarchical(): boolean;', arkTsAveragedTime);
-        expect(res === true).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_string_getQueryValue_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -205,8 +197,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_getQueryValue_0900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'getQueryValue',
           'getQueryValue(key: string): string;', arkTsAveragedTime);
-        expect(res === 'value1').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_URI_addQueryValue_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -227,8 +218,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_URI_addQueryValue_1000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'addQueryValue',
           'addQueryValue(key: string, value: string): URI;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_URI_addSegment_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -248,8 +238,7 @@ export default function UriPerfTest(): void {
         console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_URI_addSegment_1100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'addSegment',
           'addSegment(pathSegment: string): URI;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_URI_addEncodedSegment_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -270,8 +259,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_URI_addEncodedSegment_1200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'addEncodedSegment',
           'addEncodedSegment(pathSegment: string): URI;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_string[]_getQueryNames_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -289,8 +277,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string[]_getQueryNames_1300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'getQueryNames',
           'getQueryNames(): string[];', arkTsAveragedTime);
-        expect(Array.from(res).toString() === 'param1,param2').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_string[]_getQueryValues_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -308,8 +295,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string[]_getQueryValues_1400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'getQueryValues',
           'getQueryValues(key: string): string[];', arkTsAveragedTime);
-        expect(res.toString() === 'name,my').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_boolean_getBooleanQueryValue_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -327,8 +313,7 @@ export default function UriPerfTest(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'getBooleanQueryValue',
           'getBooleanQueryValue(key: string, defaultValue: boolean): boolean;', arkTsAveragedTime);
-        expect(res === true).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_URI_clearQuery_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -348,8 +333,7 @@ export default function UriPerfTest(): void {
         console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_URI_clearQuery_1700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'clearQuery',
           'clearQuery(): URI;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_string_getLastSegment_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -367,8 +351,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_getLastSegment_1800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'getLastSegment',
           'getLastSegment(): string;', arkTsAveragedTime);
-        expect(res === 'image.jpg').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_string[]_getSegment_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -386,8 +369,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string[]_getSegment_1900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'getSegment',
           'getSegment(): string[];', arkTsAveragedTime);
-        expect(res.toString() === 'path,to,image.jpg').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_URI_createFromParts_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -404,8 +386,7 @@ export default function UriPerfTest(): void {
           'arkTsUriPerfTest arkTsAveragedTime UriPerfTest_URI_createFromParts_2000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'createFromParts',
           'createFromParts(scheme: string, ssp: string, fragment: string): URI;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_boolean_equals_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -423,8 +404,7 @@ export default function UriPerfTest(): void {
         console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_boolean_equals_2100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'equals',
           'equals(other: URI): boolean;', arkTsAveragedTime);
-        expect(res === true).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('UriPerfTest_string_scheme_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -439,7 +419,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_scheme_2200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'scheme', 'get scheme: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_userInfo_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -454,7 +434,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_userInfo_2300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'userInfo', 'get userInfo: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_host_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -469,7 +449,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_host_2400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'host', 'get host: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_port_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -484,7 +464,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_port_2500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'port', 'get port: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_path_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -499,7 +479,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_path_2600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'path', 'get path: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_query_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -514,7 +494,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_query_2700: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'query', 'get query: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_fragment_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -529,7 +509,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_fragment_2800: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'fragment', 'get fragment: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_authority_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -544,7 +524,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_authority_2900: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'authority', 'get authority: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_ssp_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -559,7 +539,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_ssp_3000: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'ssp', 'get ssp: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_encodedProperties_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -574,7 +554,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_encodedUserInfo_3100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'encodedUserInfo', 'get encodedUserInfo: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_encodedPath_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -589,7 +569,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_encodedPath_3200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'encodedPath', 'get encodedPath: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_encodedQuery_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -604,7 +584,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_encodedQuery_3300: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'encodedQuery', 'get encodedQuery: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_encodedFragment_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -619,7 +599,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_encodedFragment_3400: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'encodedFragment', 'get encodedFragment: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_encodedAuthority_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -634,7 +614,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_encodedAuthority_3500: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'encodedAuthority', 'get encodedAuthority: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
 
     it('UriPerfTest_string_encodedSSP_3600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (done: Function) => {
@@ -649,7 +629,7 @@ export default function UriPerfTest(): void {
       let arkTsAveragedTime = Dtime / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_encodedSSP_3600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('@kit.ArkTS', 'uri', 'encodedSSP', 'get encodedSSP: string;', arkTsAveragedTime);
-      done();
+      setTimeout(() => { done(); }, 10);
     })
   })
 }

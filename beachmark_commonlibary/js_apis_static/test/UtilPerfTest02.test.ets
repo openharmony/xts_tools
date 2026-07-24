@@ -31,7 +31,7 @@ import { util } from '@kit.ArkTS';
 
 export default function UtilPerfTest02(): void {
   describe('UtilPerfTest02', () => {
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 1000;
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 

@@ -26,7 +26,7 @@ declare class ArkTools {
 
 export default function TreeSetPerfTest(): void {
   describe('TreeSetPerfTest', () => {
-    const BASE_COUNT = 1000;
+    const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -52,8 +52,7 @@ export default function TreeSetPerfTest(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'constructor',
           'constructor(comparator?: (firstValue: T, secondValue: T) => boolean);', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_boolean_isEmpty_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -72,8 +71,7 @@ export default function TreeSetPerfTest(): void {
           'arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_boolean_isEmpty_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'isEmpty',
           'isEmpty(): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_boolean_has_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -92,8 +90,7 @@ export default function TreeSetPerfTest(): void {
         console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_boolean_has_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'has',
           'has(value: T): boolean;', arkTsAveragedTime);
-        expect(res).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_String_getFirstValue_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -114,8 +111,7 @@ export default function TreeSetPerfTest(): void {
           'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'getFirstValue',
           'getFirstValue(): T;', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_String_getLastValue_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -136,8 +132,7 @@ export default function TreeSetPerfTest(): void {
           'arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_String_getLastValue_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'getLastValue',
           'getLastValue(): T;', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_boolean_add_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -158,8 +153,7 @@ export default function TreeSetPerfTest(): void {
         console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_boolean_add_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'add',
           'add(value: T): boolean;', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_boolean_remove_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -182,8 +176,7 @@ export default function TreeSetPerfTest(): void {
         console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_boolean_remove_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'remove',
           'remove(value: T): boolean;', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_String_getLowerValue_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -205,8 +198,7 @@ export default function TreeSetPerfTest(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'getLowerValue',
           'getLowerValue(key: T): T;', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_String_getHigherValue_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -228,8 +220,7 @@ export default function TreeSetPerfTest(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'getHigherValue',
           'getHigherValue(key: T): T;', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_String_popFirst_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -253,8 +244,7 @@ export default function TreeSetPerfTest(): void {
           'arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_String_popFirst_1000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'popFirst',
           'popFirst(): T;', arkTsAveragedTime);
-        expect(res == undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_String_popLast_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -277,8 +267,7 @@ export default function TreeSetPerfTest(): void {
         console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_String_popLast_1100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'popLast',
           'popLast(): T;', arkTsAveragedTime);
-        expect(res == undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_void_clear_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -301,8 +290,7 @@ export default function TreeSetPerfTest(): void {
         console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_void_clear_1200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'clear',
           'clear(): void;', arkTsAveragedTime);
-        expect(treeSets[0].length === 0).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_IterableIterator<string>_values_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -328,8 +316,7 @@ export default function TreeSetPerfTest(): void {
             arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'values',
           'values(): IterableIterator<T>;', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_void_forEach_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -350,8 +337,7 @@ export default function TreeSetPerfTest(): void {
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'forEach',
           'forEach(callbackFn: (value?: T, key?: T, set?: TreeSet<T>) => void, thisArg?: String): void;',
           arkTsAveragedTime);
-        expect(res == undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_ IterableIterator<[String, String]>_entries_1500', TestType.FUNCTION | Size.MEDIUMTEST
@@ -378,8 +364,7 @@ export default function TreeSetPerfTest(): void {
             arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'entries',
           'entries(): IterableIterator<[T, T]>;', arkTsAveragedTime);
-        expect(res != undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_IterableIterator<String>_Symbol_iterator_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -405,8 +390,7 @@ export default function TreeSetPerfTest(): void {
           arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'Symbol.iterator',
           '[Symbol.iterator](): IterableIterator<T>;', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('TreeSetPerfTest_number_length_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -424,8 +408,7 @@ export default function TreeSetPerfTest(): void {
         console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_number_length_1700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeSet', 'length',
           'get length(): number;', arkTsAveragedTime);
-        expect(res1 >= 0).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
   })
 }

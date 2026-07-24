@@ -105,7 +105,7 @@ export default function QueuePerfTest(): void {
         q.add('a');
         queues.push(q);
       }
-      let res: string = queues[0].pop();
+      let res: string = '';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = queues[i].pop();

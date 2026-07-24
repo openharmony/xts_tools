@@ -283,10 +283,10 @@ export default function LightWeightSetPerfTest(): void {
       for (let j = 0; j < BASE_COUNT; j++) {
         sets.push(new LightWeightSet<string>());
       }
-      let res: void = sets[0].increaseCapacityTo(20);
+      let res: void = undefined;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
-        res = sets[i].increaseCapacityTo(20);
+        res = sets[i].increaseCapacityTo(32);
       }
       let Dtime = new Date().getTime() - Stime;
       let res1 = res;
