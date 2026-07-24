@@ -52,7 +52,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. length (Attributes) ====================
@@ -73,7 +73,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Length_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'length',
           'get length(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. add ====================
@@ -96,7 +96,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Add_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'add',
           'add(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. insert ====================
@@ -118,7 +118,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Insert_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'insert',
           'insert(element: T, index: number): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. has ====================
@@ -139,7 +139,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Has_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'has',
           'has(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. get ====================
@@ -160,7 +160,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Get_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'get',
           'get(index: number): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. getLastIndexOf ====================
@@ -181,7 +181,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_GetLastIndexOf_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'getLastIndexOf',
           'getLastIndexOf(element: T): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 8. getIndexOf ====================
@@ -202,7 +202,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_GetIndexOf_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'getIndexOf',
           'getIndexOf(element: T): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 9. equal ====================
@@ -225,7 +225,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Equal_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'equal',
           'equal(obj: RecordData): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 10. removeByIndex ====================
@@ -250,7 +250,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_RemoveByIndex_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'removeByIndex',
           'removeByIndex(index: number): T | undefined', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 11. remove ====================
@@ -275,7 +275,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Remove_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'remove',
           'remove(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 12. replaceAllElements ====================
@@ -303,7 +303,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_ReplaceAllElements_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'replaceAllElements',
           'replaceAllElements(callbackfn: ListReplaceCb<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 13. forEach ====================
@@ -326,7 +326,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'forEach',
           'forEach(callbackfn: ListForEachCb<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 14. sort ====================
@@ -357,7 +357,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Sort_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'sort',
           'sort(comparator: ListComparatorFn<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 15. getSubList ====================
@@ -380,7 +380,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_GetSubList_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'getSubList',
           'getSubList(fromIndex: number, toIndex: number): List<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 16. clear ====================
@@ -405,7 +405,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Clear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'clear',
           'clear(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 17. set ====================
@@ -432,7 +432,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Set_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'set',
           'set(index: number, element: T): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 18. convertToArray ====================
@@ -453,7 +453,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_ConvertToArray_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'convertToArray',
           'convertToArray(): Array<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 19. isEmpty ====================
@@ -473,7 +473,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'isEmpty',
           'isEmpty(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 20. getFirst ====================
@@ -494,7 +494,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_GetFirst_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'getFirst',
           'getFirst(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 21. getLast ====================
@@ -515,7 +515,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_GetLast_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', 'getLast',
           'getLast(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 22. [index: number] (Index Access) ====================
@@ -536,7 +536,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_IndexAccess_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', '[index]',
           '[index: number]: T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 23. $_iterator (skipped: not available in 1.1 Dyn) ====================
@@ -557,7 +557,7 @@ export default function ListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_List_Iterator_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'List', '$_iterator',
           '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
     */
 

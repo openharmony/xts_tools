@@ -52,7 +52,7 @@ export default function HashSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. length (Attributes) ====================
@@ -73,7 +73,7 @@ export default function HashSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Length_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'length',
           'get length(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. isEmpty ====================
@@ -93,7 +93,7 @@ export default function HashSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'isEmpty',
           'isEmpty(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. has ====================
@@ -114,7 +114,7 @@ export default function HashSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Has_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'has',
           'has(value: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. add ====================
@@ -141,7 +141,7 @@ export default function HashSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Add_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'add',
           'add(value: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. remove ====================
@@ -166,7 +166,7 @@ export default function HashSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Remove_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'remove',
           'remove(value: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. clear ====================
@@ -191,7 +191,7 @@ export default function HashSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Clear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'clear',
           'clear(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 8. values ====================
@@ -212,7 +212,7 @@ export default function HashSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Values_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'values',
           'values(): IterableIterator<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 9. forEach ====================
@@ -237,7 +237,7 @@ export default function HashSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'forEach',
           'forEach(callbackFn: (value: T, key?: T, set?: HashSet<T>) => void): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 10. entries ====================
@@ -258,7 +258,7 @@ export default function HashSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Entries_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', 'entries',
           'entries(): IterableIterator<[T, T]>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 11. $_iterator (skipped: not available in 1.1 Dyn) ====================
@@ -279,7 +279,7 @@ export default function HashSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashSet_Iterator_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashSet', '$_iterator',
           '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
     */
 

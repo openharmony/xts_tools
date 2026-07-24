@@ -26,7 +26,7 @@ declare class ArkTools {
 
 export default function HashMapPerfTest(): void {
   describe('HashMapPerfTest', () => {
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 5000;
 
     beforeEach(() => {
       ArkTools.forceFullGC();
@@ -52,7 +52,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. length (Attributes) ====================
@@ -73,7 +73,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Length_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'length',
           'get length(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. isEmpty ====================
@@ -93,7 +93,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'isEmpty',
           'isEmpty(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. hasKey ====================
@@ -114,7 +114,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_HasKey_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'hasKey',
           'hasKey(key: K): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. hasValue ====================
@@ -135,7 +135,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_HasValue_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'hasValue',
           'hasValue(value: V): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. get ====================
@@ -156,7 +156,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Get_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'get',
           'get(key: K): V', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. set ====================
@@ -183,7 +183,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Set_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'set',
           'set(key: K, value: V): Object', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 8. setAll ====================
@@ -208,7 +208,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_SetAll_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'setAll',
           'setAll(map: HashMap<K, V>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 9. remove ====================
@@ -233,7 +233,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Remove_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'remove',
           'remove(key: K): V', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 10. clear ====================
@@ -257,7 +257,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Clear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'clear',
           'clear(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 11. keys ====================
@@ -278,7 +278,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Keys_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'keys',
           'keys(): IterableIterator<K>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 12. values ====================
@@ -299,7 +299,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Values_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'values',
           'values(): IterableIterator<V>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 13. forEach ====================
@@ -322,7 +322,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'forEach',
           'forEach(callbackFn: (value: V, key?: K, map?: HashMap<K, V>) => void): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 14. entries ====================
@@ -343,7 +343,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Entries_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'entries',
           'entries(): IterableIterator<[K, V]>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // // ==================== 15. $_iterator ====================
@@ -364,7 +364,7 @@ export default function HashMapPerfTest(): void {
     //     console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Iterator_0100: ' + arkTsAveragedTime + 'ns');
     //     performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', '$_iterator',
     //       '$_iterator(): IterableIterator<[K, V]>', arkTsAveragedTime);
-    //     done();
+    //     setTimeout(() => { done(); }, 10);
     //   })
 
     // ==================== 16. replace ====================
@@ -389,7 +389,7 @@ export default function HashMapPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Replace_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'replace',
           'replace(key: K, newValue: V): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
   })

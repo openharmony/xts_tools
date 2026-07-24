@@ -61,7 +61,7 @@ export default function QueuePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Queue_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Queue', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. length ====================
@@ -82,7 +82,7 @@ export default function QueuePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Queue_Length_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Queue', 'length',
           'get length(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. add ====================
@@ -105,7 +105,7 @@ export default function QueuePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Queue_Add_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Queue', 'add',
           'add(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. pop ====================
@@ -130,7 +130,7 @@ export default function QueuePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Queue_Pop_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Queue', 'pop',
           'pop(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. getFirst ====================
@@ -151,7 +151,7 @@ export default function QueuePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Queue_GetFirst_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Queue', 'getFirst',
           'getFirst(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. forEach ====================
@@ -174,7 +174,7 @@ export default function QueuePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Queue_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Queue', 'forEach',
           'forEach(callbackfn: QueueForEachCb<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. $_iterator (skipped: not available in 1.1 Dyn) ====================
@@ -195,7 +195,7 @@ export default function QueuePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Queue_Iterator_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Queue', '$_iterator',
           '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
     */
 

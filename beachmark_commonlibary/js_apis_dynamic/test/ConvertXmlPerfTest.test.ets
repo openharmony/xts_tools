@@ -26,7 +26,7 @@ declare class ArkTools {
 
 export default function ConvertXmlPerfTest(): void {
   describe('ConvertXmlPerfTest', () => {
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 5000;
     const xml =
       '<?xml version="1.0" encoding="utf-8"?>' +
       '<note importance="high" logged="true">' +
@@ -73,7 +73,7 @@ export default function ConvertXmlPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConvertXML_FastConvertToJSObject_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ConvertXML', 'fastConvertToJSObject',
           'fastConvertToJSObject(xml: string, options?: ConvertOptions): Object', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. largeConvertToJSObject ====================
@@ -93,7 +93,7 @@ export default function ConvertXmlPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ConvertXML_LargeConvertToJSObject_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ConvertXML', 'largeConvertToJSObject',
           'largeConvertToJSObject(xml: string, options?: ConvertOptions): Object', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
   })

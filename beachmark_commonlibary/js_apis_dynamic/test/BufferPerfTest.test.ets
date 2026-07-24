@@ -53,7 +53,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_Alloc_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'alloc',
           'alloc(size: number): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_buffer_Alloc_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -70,7 +70,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_Alloc_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'alloc',
           'alloc(size: number, fill: number): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_buffer_Alloc_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -87,7 +87,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_Alloc_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'alloc',
           'alloc(size: number, fill: string, encoding: BufferEncoding): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== buffer.allocUninitializedFromPool ====================
@@ -106,7 +106,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_AllocUninitializedFromPool_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'allocUninitializedFromPool',
           'allocUninitializedFromPool(size: number): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== buffer.allocUninitialized ====================
@@ -125,7 +125,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_AllocUninitialized_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'allocUninitialized',
           'allocUninitialized(size: number): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== buffer.byteLength ====================
@@ -145,7 +145,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_ByteLength_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'byteLength',
           'byteLength(doc: string | Buffer | TypedArray | DataView | ArrayBuffer, encoding?: BufferEncoding): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== buffer.compare ====================
@@ -166,7 +166,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_Compare_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'compare',
           'compare(buf1: Buffer | Uint8Array, buf2: Buffer | Uint8Array): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== buffer.concat ====================
@@ -188,7 +188,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_Concat_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'concat',
           'concat(list: Buffer[] | Uint8Array[], totalLength?: number): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== buffer.from ====================
@@ -208,7 +208,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_From_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'from',
           'from(array: number[]): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_buffer_From_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -226,7 +226,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_From_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'from',
           'from(arrayBuffer: ArrayBuffer, byteOffset?: number, length?: number): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_buffer_From_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -244,7 +244,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_From_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'from',
           'from(buffer: Buffer | Uint8Array): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_buffer_From_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -262,7 +262,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_From_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'from',
           'from(object: Object, offsetOrEncoding: number | string, length: number): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_buffer_From_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -279,7 +279,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_From_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'from',
           'from(string: String, encoding?: BufferEncoding): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== buffer.isBuffer ====================
@@ -299,7 +299,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_IsBuffer_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'isBuffer',
           'isBuffer(obj: Object): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== buffer.isEncoding ====================
@@ -318,7 +318,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_IsEncoding_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'isEncoding',
           'isEncoding(encoding: string): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== buffer.transcode ====================
@@ -338,7 +338,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_buffer_Transcode_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'buffer', 'transcode',
           'transcode(source: Buffer | Uint8Array, fromEnc: string, toEnc: string): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.compare ====================
@@ -361,7 +361,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Compare_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'compare',
           'compare(target: Buffer | Uint8Array, targetStart?: number, targetEnd?: number, sourceStart?: number, sourceEnd?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.copy ====================
@@ -382,7 +382,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Copy_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'copy',
           'copy(target: Buffer | Uint8Array, targetStart?: number, sourceStart?: number, sourceEnd?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.entries ====================
@@ -402,7 +402,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Entries_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'entries',
           'entries(): IterableIterator<[number, number]>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.equals ====================
@@ -423,7 +423,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Equals_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'equals',
           'equals(otherBuffer: Uint8Array | Buffer): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.fill ====================
@@ -446,7 +446,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Fill_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'fill',
           'fill(value: number, offset?: number, end?: number, encoding?: BufferEncoding): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.includes ====================
@@ -466,7 +466,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Includes_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'includes',
           'includes(value: string | number | Buffer | Uint8Array, byteOffset?: number, encoding?: BufferEncoding): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.indexOf ====================
@@ -486,7 +486,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_IndexOf_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'indexOf',
           'indexOf(value: string | number | Buffer | Uint8Array, byteOffset?: number, encoding?: BufferEncoding): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.keys ====================
@@ -506,7 +506,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Keys_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'keys',
           'keys(): IterableIterator<number>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.lastIndexOf ====================
@@ -526,7 +526,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_LastIndexOf_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'lastIndexOf',
           'lastIndexOf(value: string | number | Buffer | Uint8Array, byteOffset?: number, encoding?: BufferEncoding): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readBigInt64BE ====================
@@ -547,7 +547,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadBigInt64BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readBigInt64BE',
           'readBigInt64BE(offset?: number): bigint', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readBigInt64LE ====================
@@ -568,7 +568,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadBigInt64LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readBigInt64LE',
           'readBigInt64LE(offset?: number): bigint', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readBigUInt64BE ====================
@@ -589,7 +589,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadBigUInt64BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readBigUInt64BE',
           'readBigUInt64BE(offset?: number): bigint', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readBigUInt64LE ====================
@@ -610,7 +610,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadBigUInt64LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readBigUInt64LE',
           'readBigUInt64LE(offset?: number): bigint', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readDoubleBE ====================
@@ -631,7 +631,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadDoubleBE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readDoubleBE',
           'readDoubleBE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readDoubleLE ====================
@@ -652,7 +652,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadDoubleLE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readDoubleLE',
           'readDoubleLE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readFloatBE ====================
@@ -673,7 +673,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadFloatBE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readFloatBE',
           'readFloatBE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readFloatLE ====================
@@ -694,7 +694,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadFloatLE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readFloatLE',
           'readFloatLE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readInt8 ====================
@@ -715,7 +715,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadInt8_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readInt8',
           'readInt8(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readInt16BE ====================
@@ -736,7 +736,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadInt16BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readInt16BE',
           'readInt16BE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readInt16LE ====================
@@ -757,7 +757,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadInt16LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readInt16LE',
           'readInt16LE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readInt32BE ====================
@@ -778,7 +778,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadInt32BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readInt32BE',
           'readInt32BE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readInt32LE ====================
@@ -799,7 +799,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadInt32LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readInt32LE',
           'readInt32LE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readIntBE ====================
@@ -820,7 +820,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadIntBE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readIntBE',
           'readIntBE(offset: number, byteLength: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readIntLE ====================
@@ -841,7 +841,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadIntLE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readIntLE',
           'readIntLE(offset: number, byteLength: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readUInt8 ====================
@@ -862,7 +862,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadUInt8_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readUInt8',
           'readUInt8(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readUInt16BE ====================
@@ -883,7 +883,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadUInt16BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readUInt16BE',
           'readUInt16BE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readUInt16LE ====================
@@ -904,7 +904,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadUInt16LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readUInt16LE',
           'readUInt16LE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readUInt32BE ====================
@@ -925,7 +925,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadUInt32BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readUInt32BE',
           'readUInt32BE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readUInt32LE ====================
@@ -946,7 +946,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadUInt32LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readUInt32LE',
           'readUInt32LE(offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readUIntBE ====================
@@ -967,7 +967,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadUIntBE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readUIntBE',
           'readUIntBE(offset: number, byteLength: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.readUIntLE ====================
@@ -988,7 +988,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ReadUIntLE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'readUIntLE',
           'readUIntLE(offset: number, byteLength: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.subarray ====================
@@ -1008,7 +1008,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Subarray_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'subarray',
           'subarray(start?: number, end?: number): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.swap16 ====================
@@ -1032,7 +1032,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Swap16_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'swap16',
           'swap16(): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.swap32 ====================
@@ -1056,7 +1056,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Swap32_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'swap32',
           'swap32(): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.swap64 ====================
@@ -1080,7 +1080,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Swap64_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'swap64',
           'swap64(): Buffer', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.toJSON ====================
@@ -1101,7 +1101,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ToJSON_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'toJSON',
           'toJSON(): jsonx.JsonElement', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.toString ====================
@@ -1121,7 +1121,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_ToString_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'toString',
           'toString(encoding?: BufferEncoding, start?: number, end?: number): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.values ====================
@@ -1141,7 +1141,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Values_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'values',
           'values(): IterableIterator<number>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.write ====================
@@ -1164,7 +1164,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_Write_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'write',
           'write(str: string, offset?: number, length?: number, encoding?: string): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeBigInt64BE ====================
@@ -1188,7 +1188,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteBigInt64BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeBigInt64BE',
           'writeBigInt64BE(value: bigint, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeBigInt64LE ====================
@@ -1212,7 +1212,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteBigInt64LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeBigInt64LE',
           'writeBigInt64LE(value: bigint, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeBigUInt64BE ====================
@@ -1236,7 +1236,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteBigUInt64BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeBigUInt64BE',
           'writeBigUInt64BE(value: bigint, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeBigUInt64LE ====================
@@ -1260,7 +1260,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteBigUInt64LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeBigUInt64LE',
           'writeBigUInt64LE(value: bigint, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeDoubleBE ====================
@@ -1283,7 +1283,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteDoubleBE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeDoubleBE',
           'writeDoubleBE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeDoubleLE ====================
@@ -1306,7 +1306,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteDoubleLE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeDoubleLE',
           'writeDoubleLE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeFloatBE ====================
@@ -1329,7 +1329,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteFloatBE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeFloatBE',
           'writeFloatBE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeFloatLE ====================
@@ -1352,7 +1352,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteFloatLE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeFloatLE',
           'writeFloatLE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeInt8 ====================
@@ -1375,7 +1375,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteInt8_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeInt8',
           'writeInt8(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeInt16BE ====================
@@ -1398,7 +1398,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteInt16BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeInt16BE',
           'writeInt16BE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeInt16LE ====================
@@ -1421,7 +1421,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteInt16LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeInt16LE',
           'writeInt16LE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeInt32BE ====================
@@ -1444,7 +1444,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteInt32BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeInt32BE',
           'writeInt32BE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeInt32LE ====================
@@ -1467,7 +1467,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteInt32LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeInt32LE',
           'writeInt32LE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeIntBE ====================
@@ -1490,7 +1490,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteIntBE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeIntBE',
           'writeIntBE(value: number, offset: number, byteLength: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeIntLE ====================
@@ -1513,7 +1513,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteIntLE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeIntLE',
           'writeIntLE(value: number, offset: number, byteLength: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeUInt8 ====================
@@ -1536,7 +1536,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteUInt8_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeUInt8',
           'writeUInt8(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeUInt16BE ====================
@@ -1559,7 +1559,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteUInt16BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeUInt16BE',
           'writeUInt16BE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeUInt16LE ====================
@@ -1582,7 +1582,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteUInt16LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeUInt16LE',
           'writeUInt16LE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeUInt32BE ====================
@@ -1605,7 +1605,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteUInt32BE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeUInt32BE',
           'writeUInt32BE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeUInt32LE ====================
@@ -1628,7 +1628,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteUInt32LE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeUInt32LE',
           'writeUInt32LE(value: number, offset?: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeUIntBE ====================
@@ -1651,7 +1651,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteUIntBE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeUIntBE',
           'writeUIntBE(value: number, offset: number, byteLength: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.writeUIntLE ====================
@@ -1674,7 +1674,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_WriteUIntLE_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', 'writeUIntLE',
           'writeUIntLE(value: number, offset: number, byteLength: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Buffer.[index] ====================
@@ -1695,7 +1695,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Buffer_IndexAccess_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Buffer', '[index]',
           '[index: number]: number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Blob.constructor ====================
@@ -1715,7 +1715,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Blob_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Blob', 'constructor',
           'constructor(sources: ArrayUnionType, options?: BlobOptions)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Blob.arrayBuffer ====================
@@ -1737,7 +1737,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Blob_ArrayBuffer_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Blob', 'arrayBuffer',
           'arrayBuffer(): Promise<ArrayBuffer>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Blob.slice ====================
@@ -1758,7 +1758,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Blob_Slice_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Blob', 'slice',
           'slice(start?: number, end?: number, type?: string): Blob', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== Blob.text ====================
@@ -1780,7 +1780,7 @@ export default function BufferPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Blob_Text_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Blob', 'text',
           'text(): Promise<string>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
   })

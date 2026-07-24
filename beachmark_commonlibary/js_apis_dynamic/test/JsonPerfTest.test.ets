@@ -53,7 +53,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_Parse_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'JSON', 'parse',
           'parse(text: string, reviver?: Transformer, options?: ParseOptions): Object | null', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. stringify ====================
@@ -73,7 +73,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_Stringify_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'JSON', 'stringify',
           'stringify(value: Object, replacer?: (number | string)[] | null, space?: string | number): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. stringify (replacer transformer) ====================
@@ -94,7 +94,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_Stringify_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'JSON', 'stringify',
           'stringify(value: Object, replacer?: Transformer, space?: string | number): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. has ====================
@@ -115,7 +115,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_Has_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'JSON', 'has',
           'has(obj: object, property: string): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. remove ====================
@@ -136,7 +136,7 @@ export default function JsonPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_JSON_Remove_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'JSON', 'remove',
           'remove(obj: object, property: string): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
   })
