@@ -4428,6 +4428,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.node.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.util.ArrayList.d.ts",
             "bundle_name": [
                 "ets_utils"
@@ -9972,6 +9979,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/ability_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/inspector.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -11247,6 +11261,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.node.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.node.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
