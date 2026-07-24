@@ -635,7 +635,7 @@ static void InitTestSuiteMgr(void)
     printf("[%10s] HCTest Framework inited.\n", "HCtest Service");
     ObtainSystemParams();
 }
-CORE_INIT(InitTestSuiteMgr);
+CORE_INIT_PRI(InitTestSuiteMgr, 4);
 TestSuiteManager *GetTestMgrInstance(void)
 {
     return &g_testSuiteManager;
