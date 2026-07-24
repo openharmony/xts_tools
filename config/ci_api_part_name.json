@@ -19075,6 +19075,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/NotificationKit",
+            "bundle_name": [
+                "distributed_notification_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/ability/ability_runtime/child_process",
             "bundle_name": [
                 "ability_runtime"
