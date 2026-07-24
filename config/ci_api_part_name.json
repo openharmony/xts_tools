@@ -19432,6 +19432,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/hiviewdfx/hiappevent",
+            "bundle_name": [
+                "hiappevent"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/hiviewdfx/hicollie",
             "bundle_name": [
                 "hicollie"
