@@ -43,7 +43,7 @@ export default function TreeMapPerfTest(): void {
     })
 
     afterAll(() => {
-      performance.save('apiTreeMap.txt');
+      performance.save('apiPerformance.txt');
     })
 
     it('TreeMapPerfTest_Object_Set_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {

@@ -74,7 +74,7 @@ export default function UtilPerfTest01(): void {
     });
 
     afterAll((): void => {
-      performance.save('apiUtil.txt');
+      performance.save('apiPerformance.txt');
     });
 
     it('UtilPerfTest01_string_format_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {

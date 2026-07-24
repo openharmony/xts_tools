@@ -43,7 +43,7 @@ export default function URLPerfTest(): void {
     });
 
     afterAll((): void => {
-      performance.save('apiURLParams.txt');
+      performance.save('apiPerformance.txt');
     });
 
     it('URLPerfTest_string_get_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {

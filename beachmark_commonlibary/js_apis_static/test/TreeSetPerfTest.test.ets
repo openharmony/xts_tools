@@ -44,7 +44,7 @@ export default function TreeSetPerfTest(): void {
     })
 
     afterAll(() => {
-      performance.save('apiTreeSet.txt');
+      performance.save('apiPerformance.txt');
     })
 
     it('TreeSetPerfTest_Constructor_Default_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {

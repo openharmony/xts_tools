@@ -43,7 +43,7 @@ export default function UtilPerfTest02(): void {
     });
 
     afterAll(() => {
-      performance.save('apiUtil.txt');
+      performance.save('apiPerformance.txt');
     });
 
     it('UtilPerfTest02_boolean_isArrayBufferView_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {

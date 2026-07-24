@@ -43,7 +43,7 @@ export default function UriPerfTest(): void {
     });
 
     afterAll((): void => {
-      performance.save('apiUri.txt');
+      performance.save('apiPerformance.txt');
     });
 
     it('UriPerfTest_string_checkIsAbsolute_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {

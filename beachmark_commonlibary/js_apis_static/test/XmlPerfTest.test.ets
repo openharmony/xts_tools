@@ -59,7 +59,7 @@ export default function XmlSerializerPerfTest(): void {
     })
 
     afterAll(() => {
-      performance.save('apiXmlSerializer.txt');
+      performance.save('apiPerformance.txt');
     });
 
     it('XmlSerializerPerfTest_void_constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
