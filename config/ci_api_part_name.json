@@ -6185,7 +6185,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.advanced.DatePickerComponent.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.DatePickerComponent.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.advanced.DatePickerComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -8454,6 +8468,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/image_common.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/image_common.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
