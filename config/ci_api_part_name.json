@@ -113,6 +113,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.components.SelectionContainer.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.components.SelectionContainer.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -13039,6 +13046,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/SymbolGlyphModifier.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/SymbolGlyphModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
